@@ -12,99 +12,51 @@ import Flashcard from "../components/Flashcard.tsx";
   <div class="mb-8">
     <h2 class="text-2xl font-bold mb-4 text-slate-900">Amino Acids</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <Flashcard
-        client:load
-        front="Glycine (G)"
-        back="Smallest amino acid. Only H as side chain. Most flexible. Found in collagen triple helix."
-        tags={["amino-acids", "beginner"]}
-        cardId="glycine"
-        site="wiki"
-        deckId="all-cards"
-      />
-      <Flashcard
-        client:load
-        front="Cysteine (C)"
-        back="Contains thiol (-SH) group. Forms disulfide bonds. Key for protein folding. Precursor to glutathione."
-        tags={["amino-acids", "chemistry"]}
-        cardId="cysteine"
-        site="wiki"
-        deckId="all-cards"
-      />
-      <Flashcard
-        client:load
-        front="Tryptophan (W)"
-        back="Largest amino acid. Indole ring. Precursor to serotonin and melatonin. Absorbs UV at 280nm."
-        tags={["amino-acids", "neuroscience"]}
-        cardId="tryptophan"
-        site="wiki"
-        deckId="all-cards"
-      />
+      <Flashcard client:load front="Glycine (G)" back="Smallest amino acid. Only H as side chain. Most flexible. Found in collagen triple helix." tags={["amino-acids", "beginner"]} cardId="glycine" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="Cysteine (C)" back="Contains thiol (-SH) group. Forms disulfide bonds. Key for protein folding. Precursor to glutathione." tags={["amino-acids", "chemistry"]} cardId="cysteine" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="Tryptophan (W)" back="Largest amino acid. Indole ring. Precursor to serotonin and melatonin. Absorbs UV at 280nm." tags={["amino-acids", "neuroscience"]} cardId="tryptophan" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="Proline (P)" back="Cyclic side chain bonds back to nitrogen. Introduces kinks in protein backbone. Found in collagen. Cis-trans isomerization." tags={["amino-acids", "structure"]} cardId="proline" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="Histidine (H)" back="Imidazole side chain with pKa near physiological pH. Buffering capacity. Active site residue in enzymes." tags={["amino-acids", "enzymes"]} cardId="histidine" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="Methionine (M)" back="Contains sulfur in thioether. Start codon amino acid. Precursor to S-adenosylmethionine (SAM). Hydrophobic." tags={["amino-acids", "genetics"]} cardId="methionine" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="Serine (S)" back="Hydroxyl group. Phosphorylation target. Active site residue in serine proteases. Polar, uncharged." tags={["amino-acids", "signaling"]} cardId="serine" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="Lysine (K)" back="Positive charge at physiological pH. Histone modification target. Collagen cross-linking. Essential amino acid." tags={["amino-acids", "epigenetics"]} cardId="lysine" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="Aspartate (D)" back="Negative charge at physiological pH. Acidic. Found in enzyme active sites. Metal ion coordination." tags={["amino-acids", "charge"]} cardId="aspartate" site="wiki" deckId="all-cards" />
     </div>
   </div>
 
   <div class="mb-8">
     <h2 class="text-2xl font-bold mb-4 text-slate-900">Peptide Bonds</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <Flashcard
-        client:load
-        front="What is a peptide bond?"
-        back="An amide bond formed between the α-carboxyl of one amino acid and the α-amino of another, with loss of water (dehydration synthesis)."
-        tags={["chemistry", "fundamentals"]}
-        cardId="peptide-bond-def"
-        site="wiki"
-        deckId="all-cards"
-      />
-      <Flashcard
-        client:load
-        front="Peptide bond geometry"
-        back="Partial double bond character due to resonance. Planar. Restricted rotation. Typically in trans configuration (except Proline)."
-        tags={["chemistry", "structure"]}
-        cardId="peptide-bond-geometry"
-        site="wiki"
-        deckId="all-cards"
-      />
-      <Flashcard
-        client:load
-        front="What is the Ramachandran plot?"
-        back="A plot of φ (phi) vs ψ (psi) dihedral angles of peptide backbone. Shows allowed conformations based on steric clashes."
-        tags={["structure", "bioinformatics"]}
-        cardId="ramachandran"
-        site="wiki"
-        deckId="all-cards"
-      />
+      <Flashcard client:load front="What is a peptide bond?" back="An amide bond formed between the alpha-carboxyl of one amino acid and the alpha-amino of another, with loss of water (dehydration synthesis)." tags={["chemistry", "fundamentals"]} cardId="peptide-bond-def" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="Peptide bond geometry" back="Partial double bond character due to resonance. Planar. Restricted rotation. Typically in trans configuration (except Proline)." tags={["chemistry", "structure"]} cardId="peptide-bond-geometry" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="What is the Ramachandran plot?" back="A plot of phi vs psi dihedral angles of peptide backbone. Shows allowed conformations based on steric clashes." tags={["structure", "bioinformatics"]} cardId="ramachandran" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="Peptide bond length" back="C-N bond: 1.32 Angstrom (shorter than single bond 1.49A). C=O bond: 1.24 Angstrom (longer than isolated carbonyl 1.21A). Planar geometry." tags={["chemistry", "structure"]} cardId="pb-length" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="Trans vs Cis peptide bonds" back="Trans: alpha-carbons on opposite sides (~99.6%). Cis: same side (~0.4%). X-Pro bonds: ~6% cis due to reduced steric clash." tags={["chemistry", "structure"]} cardId="pb-trans-cis" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="Peptide bond hydrolysis energy" back="Requires ~8-16 kJ/mol to break. Thermodynamically favorable but kinetically slow. Enzymes (proteases) catalyze hydrolysis." tags={["chemistry", "energetics"]} cardId="pb-hydrolysis" site="wiki" deckId="all-cards" />
     </div>
   </div>
 
   <div class="mb-8">
     <h2 class="text-2xl font-bold mb-4 text-slate-900">Key Peptides</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <Flashcard
-        client:load
-        front="Glutathione (GSH)"
-        back="γ-Glu-Cys-Gly. Master antioxidant. Redox buffer. Cofactor for glutathione peroxidase. GSH/GSSG ratio indicates cellular redox state."
-        tags={["tripeptide", "antioxidant"]}
-        cardId="glutathione"
-        site="wiki"
-        deckId="all-cards"
-      />
-      <Flashcard
-        client:load
-        front="Oxytocin"
-        back="9 aa cyclic peptide. Cys-Tyr-Ile-Gln-Asn-Cys-Pro-Leu-Gly-NH₂. Social bonding, uterine contraction, milk ejection."
-        tags={["nonapeptide", "hormone"]}
-        cardId="oxytocin"
-        site="wiki"
-        deckId="all-cards"
-      />
-      <Flashcard
-        client:load
-        front="Bradykinin"
-        back="Arg-Pro-Pro-Gly-Phe-Ser-Pro-Phe-Arg. Vasodilator. Inflammation mediator. Pain signaling. Part of kallikrein-kinin system."
-        tags={["nonapeptide", "inflammation"]}
-        cardId="bradykinin"
-        site="wiki"
-        deckId="all-cards"
-      />
+      <Flashcard client:load front="Glutathione (GSH)" back="gamma-Glu-Cys-Gly. Master antioxidant. Redox buffer. Cofactor for glutathione peroxidase. GSH/GSSG ratio indicates cellular redox state." tags={["tripeptide", "antioxidant"]} cardId="glutathione" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="Oxytocin" back="9 aa cyclic peptide. Cys-Tyr-Ile-Gln-Asn-Cys-Pro-Leu-Gly-NH2. Social bonding, uterine contraction, milk ejection." tags={["nonapeptide", "hormone"]} cardId="oxytocin" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="Bradykinin" back="Arg-Pro-Pro-Gly-Phe-Ser-Pro-Phe-Arg. Vasodilator. Inflammation mediator. Pain signaling. Part of kallikrein-kinin system." tags={["nonapeptide", "inflammation"]} cardId="bradykinin" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="Semaglutide" back="GLP-1 analog with Aib at position 8 and C-18 fatty diacid. Half-life ~7 days via albumin binding. FDA approved for T2D and obesity." tags={["drug", "metabolism"]} cardId="semaglutide" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="Insulin" back="51 aa protein hormone (A-chain 21 aa + B-chain 30 aa). Three disulfide bridges. Regulates glucose uptake. Deficiency causes diabetes." tags={["hormone", "metabolism"]} cardId="insulin" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="Substance P" back="11 aa tachykinin. Arg-Pro-Lys-Pro-Gln-Gln-Phe-Phe-Gly-Leu-Met-NH2. NK1 receptor. Pain transmission. Neurogenic inflammation." tags={["neuropeptide", "pain"]} cardId="substance-p" site="wiki" deckId="all-cards" />
+    </div>
+  </div>
+
+  <div class="mb-8">
+    <h2 class="text-2xl font-bold mb-4 text-slate-900">Pharmacology</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <Flashcard client:load front="What is the incretin effect?" back="Oral glucose produces more insulin than IV glucose at the same blood glucose level. Mediated by GLP-1 and GIP released from gut." tags={["pharmacology", "diabetes"]} cardId="incretin-effect" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="DPP-4 inhibitors" back="Prevent degradation of GLP-1 and GIP. Extend incretin half-life. Examples: sitagliptin, saxagliptin. Oral, once daily." tags={["drug", "diabetes"]} cardId="dpp4-inhibitors" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="What is PEGylation?" back="Attachment of polyethylene glycol chains to peptides. Increases hydrodynamic radius. Reduces renal clearance. Extends half-life." tags={["drug-design", "modification"]} cardId="pegylation" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="Receptor agonist vs antagonist" back="Agonist: activates receptor. Antagonist: blocks receptor without activating. Partial agonist: partial activation. Inverse agonist: reduces constitutive activity." tags={["pharmacology", "receptors"]} cardId="agonist-antagonist" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="What is Ki vs Kd?" back="Ki: inhibition constant for antagonist binding. Kd: dissociation constant for ligand-receptor binding. Lower values = higher affinity." tags={["pharmacology", "binding"]} cardId="ki-kd" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="Blood-brain barrier peptides" back="Most peptides cannot cross BBB. Strategies: nasal delivery, cell-penetrating peptides, receptor-mediated transcytosis, nanoparticle carriers." tags={["drug-delivery", "CNS"]} cardId="bbb-peptides" site="wiki" deckId="all-cards" />
     </div>
   </div>
 </BaseLayout>

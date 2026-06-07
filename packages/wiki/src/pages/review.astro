@@ -1,6 +1,57 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ReviewDashboard from "../components/ReviewDashboard.tsx";
+
+const cardIds = [
+  "glycine", "cysteine", "tryptophan", "proline", "histidine", "methionine", "serine", "lysine", "aspartate",
+  "peptide-bond-def", "peptide-bond-geometry", "ramachandran", "pb-length", "pb-trans-cis", "pb-hydrolysis",
+  "glutathione", "oxytocin", "bradykinin", "semaglutide", "insulin", "substance-p",
+  "incretin-effect", "dpp4-inhibitors", "pegylation", "agonist-antagonist", "ki-kd", "bbb-peptides",
+];
+
+const fronts: Record<string, string> = {
+  "glycine": "Glycine (G)", "cysteine": "Cysteine (C)", "tryptophan": "Tryptophan (W)",
+  "proline": "Proline (P)", "histidine": "Histidine (H)", "methionine": "Methionine (M)",
+  "serine": "Serine (S)", "lysine": "Lysine (K)", "aspartate": "Aspartate (D)",
+  "peptide-bond-def": "What is a peptide bond?", "peptide-bond-geometry": "Peptide bond geometry",
+  "ramachandran": "What is the Ramachandran plot?", "pb-length": "Peptide bond length",
+  "pb-trans-cis": "Trans vs Cis peptide bonds", "pb-hydrolysis": "Peptide bond hydrolysis energy",
+  "glutathione": "Glutathione (GSH)", "oxytocin": "Oxytocin", "bradykinin": "Bradykinin",
+  "semaglutide": "Semaglutide", "insulin": "Insulin", "substance-p": "Substance P",
+  "incretin-effect": "What is the incretin effect?", "dpp4-inhibitors": "DPP-4 inhibitors",
+  "pegylation": "What is PEGylation?", "agonist-antagonist": "Receptor agonist vs antagonist",
+  "ki-kd": "What is Ki vs Kd?", "bbb-peptides": "Blood-brain barrier peptides",
+};
+
+const backs: Record<string, string> = {
+  "glycine": "Smallest amino acid. Only H as side chain. Most flexible. Found in collagen triple helix.",
+  "cysteine": "Contains thiol (-SH) group. Forms disulfide bonds. Key for protein folding. Precursor to glutathione.",
+  "tryptophan": "Largest amino acid. Indole ring. Precursor to serotonin and melatonin. Absorbs UV at 280nm.",
+  "proline": "Cyclic side chain bonds back to nitrogen. Introduces kinks in protein backbone. Found in collagen.",
+  "histidine": "Imidazole side chain with pKa near physiological pH. Buffering capacity. Active site residue in enzymes.",
+  "methionine": "Contains sulfur in thioether. Start codon amino acid. Precursor to SAM. Hydrophobic.",
+  "serine": "Hydroxyl group. Phosphorylation target. Active site residue in serine proteases. Polar, uncharged.",
+  "lysine": "Positive charge at physiological pH. Histone modification target. Collagen cross-linking. Essential.",
+  "aspartate": "Negative charge at physiological pH. Acidic. Found in enzyme active sites. Metal ion coordination.",
+  "peptide-bond-def": "An amide bond formed between the alpha-carboxyl of one amino acid and the alpha-amino of another, with loss of water.",
+  "peptide-bond-geometry": "Partial double bond character due to resonance. Planar. Restricted rotation. Typically trans.",
+  "ramachandran": "A plot of phi vs psi dihedral angles of peptide backbone. Shows allowed conformations.",
+  "pb-length": "C-N bond: 1.32 Angstrom (shorter than single bond 1.49A). C=O: 1.24 Angstrom. Planar.",
+  "pb-trans-cis": "Trans: ~99.6%. Cis: ~0.4%. X-Pro bonds: ~6% cis due to reduced steric clash.",
+  "pb-hydrolysis": "Requires ~8-16 kJ/mol. Thermodynamically favorable but kinetically slow. Enzymes catalyze.",
+  "glutathione": "gamma-Glu-Cys-Gly. Master antioxidant. Redox buffer. GSH/GSSG ratio indicates cellular redox state.",
+  "oxytocin": "9 aa cyclic peptide. Cys-Tyr-Ile-Gln-Asn-Cys-Pro-Leu-Gly-NH2. Social bonding, uterine contraction.",
+  "bradykinin": "Arg-Pro-Pro-Gly-Phe-Ser-Pro-Phe-Arg. Vasodilator. Inflammation mediator. Pain signaling.",
+  "semaglutide": "GLP-1 analog with Aib at position 8 and C-18 fatty diacid. Half-life ~7 days. FDA approved for T2D.",
+  "insulin": "51 aa protein hormone. A-chain 21 aa + B-chain 30 aa. Three disulfide bridges. Regulates glucose.",
+  "substance-p": "11 aa tachykinin. NK1 receptor. Pain transmission. Neurogenic inflammation.",
+  "incretin-effect": "Oral glucose produces more insulin than IV glucose at same blood glucose. Mediated by GLP-1 and GIP.",
+  "dpp4-inhibitors": "Prevent degradation of GLP-1 and GIP. Extend incretin half-life. Oral, once daily.",
+  "pegylation": "Attachment of PEG chains. Increases hydrodynamic radius. Reduces renal clearance. Extends half-life.",
+  "agonist-antagonist": "Agonist: activates. Antagonist: blocks. Partial agonist: partial activation. Inverse agonist: reduces constitutive activity.",
+  "ki-kd": "Ki: inhibition constant for antagonist. Kd: dissociation constant for ligand-receptor. Lower = higher affinity.",
+  "bbb-peptides": "Most peptides cannot cross BBB. Strategies: nasal delivery, CPPs, receptor-mediated transcytosis, nanoparticles.",
+};
 ---
 
 <BaseLayout title="Review">
@@ -9,32 +60,16 @@ import ReviewDashboard from "../components/ReviewDashboard.tsx";
     Spaced repetition powered by FSRS. Rate each card to optimize your long-term retention.
   </p>
 
+  <div class="mb-6 p-4 bg-blue-50 border border-blue-200 rounded-xl text-sm text-blue-800">
+    Progress is stored locally on this device. Your review schedule and card ratings are saved in your browser and are not synced across devices.
+  </div>
+
   <ReviewDashboard
     client:load
     site="wiki"
     deckId="all-cards"
-    cardIds={["glycine", "cysteine", "tryptophan", "peptide-bond-def", "peptide-bond-geometry", "ramachandran", "glutathione", "oxytocin", "bradykinin"]}
-    fronts={{
-      "glycine": "Glycine (G)",
-      "cysteine": "Cysteine (C)",
-      "tryptophan": "Tryptophan (W)",
-      "peptide-bond-def": "What is a peptide bond?",
-      "peptide-bond-geometry": "Peptide bond geometry",
-      "ramachandran": "What is the Ramachandran plot?",
-      "glutathione": "Glutathione (GSH)",
-      "oxytocin": "Oxytocin",
-      "bradykinin": "Bradykinin",
-    }}
-    backs={{
-      "glycine": "Smallest amino acid. Only H as side chain. Most flexible. Found in collagen triple helix.",
-      "cysteine": "Contains thiol (-SH) group. Forms disulfide bonds. Key for protein folding. Precursor to glutathione.",
-      "tryptophan": "Largest amino acid. Indole ring. Precursor to serotonin and melatonin. Absorbs UV at 280nm.",
-      "peptide-bond-def": "An amide bond formed between the alpha-carboxyl of one amino acid and the alpha-amino of another, with loss of water (dehydration synthesis).",
-      "peptide-bond-geometry": "Partial double bond character due to resonance. Planar. Restricted rotation. Typically in trans configuration (except Proline).",
-      "ramachandran": "A plot of phi (phi) vs psi (psi) dihedral angles of peptide backbone. Shows allowed conformations based on steric clashes.",
-      "glutathione": "gamma-Glu-Cys-Gly. Master antioxidant. Redox buffer. Cofactor for glutathione peroxidase. GSH/GSSG ratio indicates cellular redox state.",
-      "oxytocin": "9 aa cyclic peptide. Cys-Tyr-Ile-Gln-Asn-Cys-Pro-Leu-Gly-NH2. Social bonding, uterine contraction, milk ejection.",
-      "bradykinin": "Arg-Pro-Pro-Gly-Phe-Ser-Pro-Phe-Arg. Vasodilator. Inflammation mediator. Pain signaling. Part of kallikrein-kinin system.",
-    }}
+    cardIds={cardIds}
+    fronts={fronts}
+    backs={backs}
   />
 </BaseLayout>

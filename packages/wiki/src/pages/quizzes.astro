@@ -11,93 +11,33 @@ import Quiz from "../components/Quiz.tsx";
 
   <div class="mb-12">
     <h2 class="text-2xl font-bold mb-6 text-slate-900">Amino Acid Basics</h2>
-    <Quiz
-      client:load
-      question="Which amino acid has the smallest side chain?"
-      options={["Glycine", "Alanine", "Valine", "Serine"]}
-      correctIndex={0}
-      explanation="Glycine has only a hydrogen atom as its side chain, making it the smallest and most flexible amino acid."
-      cardId="quiz-aa-smallest"
-      site="wiki"
-      deckId="quiz-amino-acids"
-    />
-    <Quiz
-      client:load
-      question="Which amino acid contains a thiol (-SH) group?"
-      options={["Serine", "Cysteine", "Threonine", "Methionine"]}
-      correctIndex={1}
-      explanation="Cysteine contains a thiol group that can form disulfide bonds, crucial for protein folding and stability."
-      cardId="quiz-aa-thiol"
-      site="wiki"
-      deckId="quiz-amino-acids"
-    />
-    <Quiz
-      client:load
-      question="What is the one-letter code for Tryptophan?"
-      options={["T", "W", "Y", "F"]}
-      correctIndex={1}
-      explanation="Tryptophan uses W as its one-letter code. The double ring structure reminded early biochemists of a 'double-u' shape."
-      cardId="quiz-aa-tryptophan"
-      site="wiki"
-      deckId="quiz-amino-acids"
-    />
+    <Quiz client:load question="Which amino acid has the smallest side chain?" options={["Glycine", "Alanine", "Valine", "Serine"]} correctIndex={0} explanation="Glycine has only a hydrogen atom as its side chain, making it the smallest and most flexible amino acid." cardId="quiz-aa-smallest" site="wiki" deckId="quiz-all" />
+    <Quiz client:load question="Which amino acid contains a thiol (-SH) group?" options={["Serine", "Cysteine", "Threonine", "Methionine"]} correctIndex={1} explanation="Cysteine contains a thiol group that can form disulfide bonds, crucial for protein folding and stability." cardId="quiz-aa-thiol" site="wiki" deckId="quiz-all" />
+    <Quiz client:load question="What is the one-letter code for Tryptophan?" options={["T", "W", "Y", "F"]} correctIndex={1} explanation="Tryptophan uses W as its one-letter code. The double ring structure reminded early biochemists of a 'double-u' shape." cardId="quiz-aa-tryptophan" site="wiki" deckId="quiz-all" />
+    <Quiz client:load question="Which amino acid is the start codon?" options={["Alanine", "Methionine", "Leucine", "Valine"]} correctIndex={1} explanation="Methionine (M) is encoded by the AUG start codon. In bacteria, formyl-methionine (fMet) is used instead." cardId="quiz-aa-start" site="wiki" deckId="quiz-all" />
+    <Quiz client:load question="Which amino acid has a cyclic side chain that bonds back to the nitrogen?" options={["Phenylalanine", "Tryptophan", "Proline", "Histidine"]} correctIndex={2} explanation="Proline's side chain bonds back to the backbone nitrogen, creating a rigid ring structure that introduces kinks in protein chains." cardId="quiz-aa-proline" site="wiki" deckId="quiz-all" />
   </div>
 
   <div class="mb-12">
     <h2 class="text-2xl font-bold mb-6 text-slate-900">Peptide Bond Chemistry</h2>
-    <Quiz
-      client:load
-      question="What type of bond connects amino acids in a peptide?"
-      options={["Ester bond", "Amide bond", "Thioester bond", "Ether bond"]}
-      correctIndex={1}
-      explanation="A peptide bond is an amide bond formed between the carboxyl group of one amino acid and the amino group of another, releasing water."
-      cardId="quiz-pb-type"
-      site="wiki"
-      deckId="quiz-peptide-bonds"
-    />
-    <Quiz
-      client:load
-      question="What percentage of peptide bonds adopt the trans configuration?"
-      options={["50%", "90%", "99.6%", "100%"]}
-      correctIndex={2}
-      explanation="Approximately 99.6% of peptide bonds are trans. The exceptions are primarily X-Pro bonds where cis is more common due to proline's cyclic structure."
-      cardId="quiz-pb-trans"
-      site="wiki"
-      deckId="quiz-peptide-bonds"
-    />
-    <Quiz
-      client:load
-      question="What gives the peptide bond its partial double bond character?"
-      options={["Hydrogen bonding", "Resonance", "Hydrophobic interaction", "Van der Waals forces"]}
-      correctIndex={1}
-      explanation="Resonance between the carbonyl oxygen and the amide nitrogen creates partial double bond character, restricting rotation around the C-N bond."
-      cardId="quiz-pb-resonance"
-      site="wiki"
-      deckId="quiz-peptide-bonds"
-    />
+    <Quiz client:load question="What type of bond connects amino acids in a peptide?" options={["Ester bond", "Amide bond", "Thioester bond", "Ether bond"]} correctIndex={1} explanation="A peptide bond is an amide bond formed between the carboxyl group of one amino acid and the amino group of another, releasing water." cardId="quiz-pb-type" site="wiki" deckId="quiz-all" />
+    <Quiz client:load question="What percentage of peptide bonds adopt the trans configuration?" options={["50%", "90%", "99.6%", "100%"]} correctIndex={2} explanation="Approximately 99.6% of peptide bonds are trans. The exceptions are primarily X-Pro bonds where cis is more common." cardId="quiz-pb-trans" site="wiki" deckId="quiz-all" />
+    <Quiz client:load question="What gives the peptide bond its partial double bond character?" options={["Hydrogen bonding", "Resonance", "Hydrophobic interaction", "Van der Waals forces"]} correctIndex={1} explanation="Resonance between the carbonyl oxygen and the amide nitrogen creates partial double bond character, restricting rotation around the C-N bond." cardId="quiz-pb-resonance" site="wiki" deckId="quiz-all" />
+    <Quiz client:load question="What is the approximate length of a C-N peptide bond?" options={["1.49 Angstrom", "1.32 Angstrom", "1.21 Angstrom", "1.54 Angstrom"]} correctIndex={1} explanation="The C-N peptide bond is 1.32 Angstrom, shorter than a typical C-N single bond (1.49A) due to partial double bond character." cardId="quiz-pb-length" site="wiki" deckId="quiz-all" />
+    <Quiz client:load question="How much energy is required to hydrolyze a peptide bond?" options={["1-4 kJ/mol", "8-16 kJ/mol", "50-100 kJ/mol", "200+ kJ/mol"]} correctIndex={1} explanation="Peptide bond hydrolysis requires approximately 8-16 kJ/mol. The bond is thermodynamically favorable to break but kinetically slow without enzymatic catalysis." cardId="quiz-pb-energy" site="wiki" deckId="quiz-all" />
   </div>
 
   <div class="mb-12">
     <h2 class="text-2xl font-bold mb-6 text-slate-900">Protein Structure</h2>
-    <Quiz
-      client:load
-      question="Which protein structure level describes the 3D folding of a single polypeptide chain?"
-      options={["Primary", "Secondary", "Tertiary", "Quaternary"]}
-      correctIndex={2}
-      explanation="Tertiary structure is the overall three-dimensional shape of a single polypeptide chain, stabilized by hydrophobic interactions, disulfide bonds, and ionic bonds."
-      cardId="quiz-ps-tertiary"
-      site="wiki"
-      deckId="quiz-protein-structure"
-    />
-    <Quiz
-      client:load
-      question="What stabilizes the alpha-helix structure?"
-      options={["Disulfide bonds", "Hydrogen bonds between backbone atoms", "Ionic bonds", "Hydrophobic interactions"]}
-      correctIndex={1}
-      explanation="The alpha-helix is stabilized by hydrogen bonds between the C=O of residue i and the N-H of residue i+4, creating a regular helical pattern."
-      cardId="quiz-ps-alpha"
-      site="wiki"
-      deckId="quiz-protein-structure"
-    />
+    <Quiz client:load question="Which protein structure level describes the 3D folding of a single polypeptide chain?" options={["Primary", "Secondary", "Tertiary", "Quaternary"]} correctIndex={2} explanation="Tertiary structure is the overall three-dimensional shape of a single polypeptide chain, stabilized by hydrophobic interactions, disulfide bonds, and ionic bonds." cardId="quiz-ps-tertiary" site="wiki" deckId="quiz-all" />
+    <Quiz client:load question="What stabilizes the alpha-helix structure?" options={["Disulfide bonds", "Hydrogen bonds between backbone atoms", "Ionic bonds", "Hydrophobic interactions"]} correctIndex={1} explanation="The alpha-helix is stabilized by hydrogen bonds between the C=O of residue i and the N-H of residue i+4, creating a regular helical pattern." cardId="quiz-ps-alpha" site="wiki" deckId="quiz-all" />
+    <Quiz client:load question="What is the quaternary structure?" options={["Single polypeptide folding", "Secondary structure elements", "Multi-subunit assembly", "Amino acid sequence"]} correctIndex={2} explanation="Quaternary structure describes how multiple polypeptide chains (subunits) assemble into a functional protein complex." cardId="quiz-ps-quaternary" site="wiki" deckId="quiz-all" />
+  </div>
+
+  <div class="mb-12">
+    <h2 class="text-2xl font-bold mb-6 text-slate-900">Pharmacology</h2>
+    <Quiz client:load question="What is the incretin effect?" options={["Oral glucose produces more insulin than IV glucose", "IV glucose produces more insulin than oral glucose", "Insulin inhibits glucagon", "Glucagon stimulates insulin"]} correctIndex={0} explanation="The incretin effect means oral glucose produces more insulin than the same amount given intravenously, mediated by GLP-1 and GIP from the gut." cardId="quiz-pharm-incretin" site="wiki" deckId="quiz-all" />
+    <Quiz client:load question="What does PEGylation do to a peptide drug?" options={["Increases receptor binding", "Extends half-life by increasing hydrodynamic radius", "Reduces immunogenicity", "All of the above"]} correctIndex={3} explanation="PEGylation increases hydrodynamic radius (reducing renal clearance), reduces immunogenicity by shielding epitopes, and can indirectly improve binding by increasing circulation time." cardId="quiz-pharm-peg" site="wiki" deckId="quiz-all" />
+    <Quiz client:load question="What is the difference between Ki and Kd?" options={["Ki is for agonists, Kd for antagonists", "Ki measures inhibition, Kd measures dissociation", "They are the same thing", "Ki is always larger than Kd"]} correctIndex={1} explanation="Ki is the inhibition constant for antagonist binding. Kd is the dissociation constant for any ligand-receptor binding. Lower values indicate higher affinity." cardId="quiz-pharm-kikd" site="wiki" deckId="quiz-all" />
   </div>
 </BaseLayout>
