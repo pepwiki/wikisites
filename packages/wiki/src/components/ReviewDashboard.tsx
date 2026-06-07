@@ -1,4 +1,4 @@
-import { createSignal, For, Show, onMount } from "solid-js";
+import { createSignal, Show, onMount } from "solid-js";
 import { Rating } from "@wikisites/query/fsrs";
 import {
   initializeDeck,

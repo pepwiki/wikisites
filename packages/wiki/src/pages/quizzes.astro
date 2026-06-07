@@ -1,131 +1,103 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Quiz from "../components/Quiz.tsx";
 ---
 
 <BaseLayout title="Quizzes">
   <h1 class="text-4xl font-extrabold mb-8 text-slate-900">Practice Quizzes</h1>
   <p class="text-slate-600 mb-8">
-    Test your knowledge with interactive quizzes. Track your score and identify areas for
-    improvement.
+    Test your knowledge with interactive quizzes. Each answer is tracked by FSRS to optimize your learning schedule.
   </p>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-    <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
-      <div class="flex items-center gap-2 mb-3">
-        <span class="text-xs font-bold bg-[#0D9488] text-white px-2 py-1 rounded-full">10 Q</span>
-        <span class="text-xs font-bold bg-[#0D9488] text-white px-2 py-1 rounded-full"
-          >BEGINNER</span
-        >
-      </div>
-      <h3 class="font-bold text-slate-900 mb-2">Amino Acid Basics</h3>
-      <p class="text-sm text-slate-500 mb-4">
-        Test your knowledge of the 20 standard amino acids, their properties, and one-letter codes.
-      </p>
-      <div class="flex items-center justify-between text-xs text-slate-400">
-        <span>Avg. score: 87%</span>
-        <button
-          class="px-4 py-2 bg-[#0D9488] text-white rounded-full font-medium hover:bg-[#0D9488]/90 transition-colors"
-          >Start Quiz</button
-        >
-      </div>
-    </div>
+  <div class="mb-12">
+    <h2 class="text-2xl font-bold mb-6 text-slate-900">Amino Acid Basics</h2>
+    <Quiz
+      client:load
+      question="Which amino acid has the smallest side chain?"
+      options={["Glycine", "Alanine", "Valine", "Serine"]}
+      correctIndex={0}
+      explanation="Glycine has only a hydrogen atom as its side chain, making it the smallest and most flexible amino acid."
+      cardId="quiz-aa-smallest"
+      site="wiki"
+      deckId="quiz-amino-acids"
+    />
+    <Quiz
+      client:load
+      question="Which amino acid contains a thiol (-SH) group?"
+      options={["Serine", "Cysteine", "Threonine", "Methionine"]}
+      correctIndex={1}
+      explanation="Cysteine contains a thiol group that can form disulfide bonds, crucial for protein folding and stability."
+      cardId="quiz-aa-thiol"
+      site="wiki"
+      deckId="quiz-amino-acids"
+    />
+    <Quiz
+      client:load
+      question="What is the one-letter code for Tryptophan?"
+      options={["T", "W", "Y", "F"]}
+      correctIndex={1}
+      explanation="Tryptophan uses W as its one-letter code. The double ring structure reminded early biochemists of a 'double-u' shape."
+      cardId="quiz-aa-tryptophan"
+      site="wiki"
+      deckId="quiz-amino-acids"
+    />
+  </div>
 
-    <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
-      <div class="flex items-center gap-2 mb-3">
-        <span class="text-xs font-bold bg-[#F97316] text-white px-2 py-1 rounded-full">15 Q</span>
-        <span class="text-xs font-bold bg-[#F97316] text-white px-2 py-1 rounded-full"
-          >INTERMEDIATE</span
-        >
-      </div>
-      <h3 class="font-bold text-slate-900 mb-2">Peptide Bond Chemistry</h3>
-      <p class="text-sm text-slate-500 mb-4">
-        Covers peptide bond formation, resonance, hydrolysis, and the Ramachandran plot.
-      </p>
-      <div class="flex items-center justify-between text-xs text-slate-400">
-        <span>Avg. score: 72%</span>
-        <button
-          class="px-4 py-2 bg-[#F97316] text-white rounded-full font-medium hover:bg-[#F97316]/90 transition-colors"
-          >Start Quiz</button
-        >
-      </div>
-    </div>
+  <div class="mb-12">
+    <h2 class="text-2xl font-bold mb-6 text-slate-900">Peptide Bond Chemistry</h2>
+    <Quiz
+      client:load
+      question="What type of bond connects amino acids in a peptide?"
+      options={["Ester bond", "Amide bond", "Thioester bond", "Ether bond"]}
+      correctIndex={1}
+      explanation="A peptide bond is an amide bond formed between the carboxyl group of one amino acid and the amino group of another, releasing water."
+      cardId="quiz-pb-type"
+      site="wiki"
+      deckId="quiz-peptide-bonds"
+    />
+    <Quiz
+      client:load
+      question="What percentage of peptide bonds adopt the trans configuration?"
+      options={["50%", "90%", "99.6%", "100%"]}
+      correctIndex={2}
+      explanation="Approximately 99.6% of peptide bonds are trans. The exceptions are primarily X-Pro bonds where cis is more common due to proline's cyclic structure."
+      cardId="quiz-pb-trans"
+      site="wiki"
+      deckId="quiz-peptide-bonds"
+    />
+    <Quiz
+      client:load
+      question="What gives the peptide bond its partial double bond character?"
+      options={["Hydrogen bonding", "Resonance", "Hydrophobic interaction", "Van der Waals forces"]}
+      correctIndex={1}
+      explanation="Resonance between the carbonyl oxygen and the amide nitrogen creates partial double bond character, restricting rotation around the C-N bond."
+      cardId="quiz-pb-resonance"
+      site="wiki"
+      deckId="quiz-peptide-bonds"
+    />
+  </div>
 
-    <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
-      <div class="flex items-center gap-2 mb-3">
-        <span class="text-xs font-bold bg-purple-600 text-white px-2 py-1 rounded-full">20 Q</span>
-        <span class="text-xs font-bold bg-purple-600 text-white px-2 py-1 rounded-full"
-          >ADVANCED</span
-        >
-      </div>
-      <h3 class="font-bold text-slate-900 mb-2">Pharmacology Review</h3>
-      <p class="text-sm text-slate-500 mb-4">
-        FDA-approved peptide drugs, mechanisms of action, and pharmacokinetic parameters.
-      </p>
-      <div class="flex items-center justify-between text-xs text-slate-400">
-        <span>Avg. score: 65%</span>
-        <button
-          class="px-4 py-2 bg-purple-600 text-white rounded-full font-medium hover:bg-purple-600/90 transition-colors"
-          >Start Quiz</button
-        >
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
-      <div class="flex items-center gap-2 mb-3">
-        <span class="text-xs font-bold bg-[#0D9488] text-white px-2 py-1 rounded-full">10 Q</span>
-        <span class="text-xs font-bold bg-[#0D9488] text-white px-2 py-1 rounded-full"
-          >BEGINNER</span
-        >
-      </div>
-      <h3 class="font-bold text-slate-900 mb-2">Protein Structure</h3>
-      <p class="text-sm text-slate-500 mb-4">
-        Primary, secondary, tertiary, and quaternary structure. Hydrogen bonding, disulfide bridges.
-      </p>
-      <div class="flex items-center justify-between text-xs text-slate-400">
-        <span>Avg. score: 91%</span>
-        <button
-          class="px-4 py-2 bg-[#0D9488] text-white rounded-full font-medium hover:bg-[#0D9488]/90 transition-colors"
-          >Start Quiz</button
-        >
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
-      <div class="flex items-center gap-2 mb-3">
-        <span class="text-xs font-bold bg-[#F97316] text-white px-2 py-1 rounded-full">15 Q</span>
-        <span class="text-xs font-bold bg-[#F97316] text-white px-2 py-1 rounded-full"
-          >INTERMEDIATE</span
-        >
-      </div>
-      <h3 class="font-bold text-slate-900 mb-2">Oligopeptide Classification</h3>
-      <p class="text-sm text-slate-500 mb-4">
-        Classify peptides by length, function, source organism, and therapeutic application.
-      </p>
-      <div class="flex items-center justify-between text-xs text-slate-400">
-        <span>Avg. score: 78%</span>
-        <button
-          class="px-4 py-2 bg-[#F97316] text-white rounded-full font-medium hover:bg-[#F97316]/90 transition-colors"
-          >Start Quiz</button
-        >
-      </div>
-    </div>
-
-    <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
-      <div class="flex items-center gap-2 mb-3">
-        <span class="text-xs font-bold bg-red-600 text-white px-2 py-1 rounded-full">25 Q</span>
-        <span class="text-xs font-bold bg-red-600 text-white px-2 py-1 rounded-full">EXPERT</span>
-      </div>
-      <h3 class="font-bold text-slate-900 mb-2">Synthesis & Purification</h3>
-      <p class="text-sm text-slate-500 mb-4">
-        SPPS, Fmoc/Boc strategies, HPLC purification, mass spectrometry characterization.
-      </p>
-      <div class="flex items-center justify-between text-xs text-slate-400">
-        <span>Avg. score: 58%</span>
-        <button
-          class="px-4 py-2 bg-red-600 text-white rounded-full font-medium hover:bg-red-600/90 transition-colors"
-          >Start Quiz</button
-        >
-      </div>
-    </div>
+  <div class="mb-12">
+    <h2 class="text-2xl font-bold mb-6 text-slate-900">Protein Structure</h2>
+    <Quiz
+      client:load
+      question="Which protein structure level describes the 3D folding of a single polypeptide chain?"
+      options={["Primary", "Secondary", "Tertiary", "Quaternary"]}
+      correctIndex={2}
+      explanation="Tertiary structure is the overall three-dimensional shape of a single polypeptide chain, stabilized by hydrophobic interactions, disulfide bonds, and ionic bonds."
+      cardId="quiz-ps-tertiary"
+      site="wiki"
+      deckId="quiz-protein-structure"
+    />
+    <Quiz
+      client:load
+      question="What stabilizes the alpha-helix structure?"
+      options={["Disulfide bonds", "Hydrogen bonds between backbone atoms", "Ionic bonds", "Hydrophobic interactions"]}
+      correctIndex={1}
+      explanation="The alpha-helix is stabilized by hydrogen bonds between the C=O of residue i and the N-H of residue i+4, creating a regular helical pattern."
+      cardId="quiz-ps-alpha"
+      site="wiki"
+      deckId="quiz-protein-structure"
+    />
   </div>
 </BaseLayout>
