@@ -6,10 +6,6 @@ on:
   pull_request:
     branches: [main]
 
-concurrency:
-  group: ci-${{ gitea.ref }}
-  cancel-in-progress: true
-
 jobs:
   build-and-test:
     name: Build and Test
@@ -50,14 +46,14 @@ jobs:
         run: bunx pagefind --site packages/wiki/dist --output-path packages/wiki/dist/_pagefind
 
       - name: Deploy Encyclopeptide
-        if: gitea.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main'
         run: bunx wrangler pages deploy packages/encp/dist --project-name=wikisites-encp --branch=main --commit-dirty=true
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
       - name: Deploy Wikipept
-        if: gitea.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main'
         run: bunx wrangler pages deploy packages/wiki/dist --project-name=wikisites-wiki --branch=main --commit-dirty=true
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
