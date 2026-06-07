@@ -1,0 +1,71 @@
+{
+  "name": "wikisites",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Oligopeptide educational websites — encyclopeptide.com & wikipept.com",
+  "workspaces": [
+    "packages/shared",
+    "packages/encp",
+    "packages/wiki",
+    "packages/query",
+    "packages/workers"
+  ],
+  "scripts": {
+    "dev:encp": "bun run --filter @wikisites/encp dev",
+    "dev:wiki": "bun run --filter @wikisites/wiki dev",
+    "dev": "bun run dev:encp & bun run dev:wiki",
+    "build:encp": "bun run --filter @wikisites/encp build",
+    "build:wiki": "bun run --filter @wikisites/wiki build",
+    "build": "bun run build:encp && bun run build:wiki",
+    "build:shared": "bun run --filter @wikisites/shared build",
+    "build:query": "bun run --filter @wikisites/query build",
+    "preview:encp": "bun run --filter @wikisites/encp preview",
+    "preview:wiki": "bun run --filter @wikisites/wiki preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "bun run typecheck:shared && bun run typecheck:query && bun run typecheck:workers && bun run typecheck:encp && bun run typecheck:wiki",
+    "typecheck:shared": "bun run --filter @wikisites/shared typecheck",
+    "typecheck:query": "bun run --filter @wikisites/query typecheck",
+    "typecheck:workers": "bun run --filter @wikisites/workers typecheck",
+    "typecheck:encp": "bun run --filter @wikisites/encp typecheck",
+    "typecheck:wiki": "bun run --filter @wikisites/wiki typecheck",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test",
+    "test:ci": "vitest run --coverage && playwright test",
+    "check": "bun run typecheck && bun run lint && bun run format:check && bun run test",
+    "clean": "rm -rf dist node_modules packages/*/node_modules packages/*/dist",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@astrojs/solid-js": "^5.0.0",
+    "@commitlint/cli": "^19.0.0",
+    "@commitlint/config-conventional": "^19.0.0",
+    "@eslint/js": "^9.0.0",
+    "@playwright/test": "^1.50.0",
+    "@types/bun": "^1.3.0",
+    "astro": "^5.0.0",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "husky": "^9.0.0",
+    "lint-staged": "^15.0.0",
+    "prettier": "^3.4.0",
+    "prettier-plugin-astro": "^0.14.0",
+    "solid-js": "^1.9.0",
+    "typescript": "^5.7.0",
+    "typescript-eslint": "^8.0.0",
+    "vitest": "^3.0.0"
+  },
+  "engines": {
+    "bun": ">=1.1.0"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^6.0.2",
+    "@tailwindcss/vite": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
+}

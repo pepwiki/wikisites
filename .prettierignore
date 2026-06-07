@@ -1,0 +1,7 @@
+dist
+node_modules
+packages/*/dist
+bun.lockb
+*.min.js
+*.min.css
+*.toml

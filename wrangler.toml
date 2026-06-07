@@ -1,0 +1,35 @@
+name = "wikisites-api"
+main = "packages/workers/src/index.ts"
+compatibility_date = "2026-06-07"
+compatibility_flags = ["nodejs_compat"]
+
+# Bindings for Cloudflare services
+# [kv_namespaces]
+# binding = "CACHE"
+# id = "your-kv-namespace-id"
+
+# [r2_buckets]
+# binding = "ASSETS_BUCKET"
+# bucket_name = "wikisites-assets"
+
+# [d1_databases]
+# binding = "DB"
+# database_name = "wikisites-db"
+# database_id = "your-d1-database-id"
+
+# [durable_objects]
+# [[durable_objects.bindings]]
+# name = "WikiCollaboration"
+# class_name = "WikiCollaboration"
+
+# [migrations]
+# tag = "v1"
+# new_classes = ["WikiCollaboration"]
+
+[[routes]]
+pattern = "encyclopeptide.com/api/*"
+zone_name = "encyclopeptide.com"
+
+[[routes]]
+pattern = "wikipept.com/api/*"
+zone_name = "wikipept.com"

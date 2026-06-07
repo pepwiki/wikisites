@@ -1,0 +1,8 @@
+[install]
+# Use hardlinks for faster installs
+saveTextLockfile = true
+peer = false
+
+[run]
+# Bun is the default runtime
+silent = false
