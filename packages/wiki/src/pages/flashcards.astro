@@ -59,4 +59,20 @@ import Flashcard from "../components/Flashcard.tsx";
       <Flashcard client:load front="Blood-brain barrier peptides" back="Most peptides cannot cross BBB. Strategies: nasal delivery, cell-penetrating peptides, receptor-mediated transcytosis, nanoparticle carriers." tags={["drug-delivery", "CNS"]} cardId="bbb-peptides" site="wiki" deckId="all-cards" />
     </div>
   </div>
+
+  <div class="mb-8">
+    <h2 class="text-2xl font-bold mb-4 text-slate-900">Advanced Topics</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <Flashcard client:load front="What is a cyclic peptide?" back="Peptide with covalent bond connecting N-terminus to C-terminus or side chains. Enhanced metabolic stability. Improved cell permeability. Examples: cyclosporine, octreotide." tags={["drug-design", "structure"]} cardId="cyclic-peptide" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="What is a stapled peptide?" back="Peptide with hydrocarbon crosslink between non-adjacent side chains. Locks alpha-helical conformation. Enhances binding affinity and cell permeability." tags={["drug-design", "oncology"]} cardId="stapled-peptide" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="What is a peptide-drug conjugate?" back="Peptide linked to cytotoxic payload via cleavable linker. Targets specific cells via receptor binding. Releases drug inside target cell." tags={["drug-design", "oncology"]} cardId="peptide-drug-conjugate" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="What is the incretin effect?" back="Oral glucose produces more insulin than IV glucose. Mediated by GLP-1 and GIP. Basis for incretin-based diabetes therapies." tags={["pharmacology", "diabetes"]} cardId="incretin-effect-2" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="What is CGRP?" back="Calcitonin Gene-Related Peptide. 37 aa vasodilator. Key role in migraine pathophysiology. Target of monoclonal antibodies and gepants." tags={["neurology", "migraine"]} cardId="cgrp-card" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="What is peptide self-assembly?" back="Spontaneous organization of peptides into ordered structures (nanofibers, hydrogels, micelles) driven by non-covalent interactions." tags={["materials", "chemistry"]} cardId="self-assembly" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="What is a GPCR?" back="G-Protein Coupled Receptor. Seven-transmembrane domain receptor. Largest drug target family. Couples to G-proteins for signal transduction." tags={["pharmacology", "receptors"]} cardId="gpcr-card" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="What is racemization?" back="Conversion of L-amino acids to D-form. Non-enzymatic at high temperature/pH. Problem in peptide drug storage. Monitored by chiral HPLC." tags={["chemistry", "stability"]} cardId="racemization" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="What is N-methylation?" back="Methylation of backbone amide nitrogen. Reduces H-bond donor capacity. Improves oral bioavailability. Found in cyclosporine." tags={["drug-design", "modification"]} cardId="n-methylation" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="What is a peptidomimetic?" back="Non-peptide molecule that mimics the biological activity of a peptide. Improved stability and bioavailability. Example: renin inhibitors." tags={["drug-design", "chemistry"]} cardId="peptidomimetic" site="wiki" deckId="all-cards" />
+    </div>
+  </div>
 </BaseLayout>

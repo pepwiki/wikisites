@@ -7,6 +7,8 @@ const cardIds = [
   "peptide-bond-def", "peptide-bond-geometry", "ramachandran", "pb-length", "pb-trans-cis", "pb-hydrolysis",
   "glutathione", "oxytocin", "bradykinin", "semaglutide", "insulin", "substance-p",
   "incretin-effect", "dpp4-inhibitors", "pegylation", "agonist-antagonist", "ki-kd", "bbb-peptides",
+  "cyclic-peptide", "stapled-peptide", "peptide-drug-conjugate", "incretin-effect-2", "cgrp-card",
+  "self-assembly", "gpcr-card", "racemization", "n-methylation", "peptidomimetic",
 ];
 
 const fronts: Record<string, string> = {
@@ -21,6 +23,11 @@ const fronts: Record<string, string> = {
   "incretin-effect": "What is the incretin effect?", "dpp4-inhibitors": "DPP-4 inhibitors",
   "pegylation": "What is PEGylation?", "agonist-antagonist": "Receptor agonist vs antagonist",
   "ki-kd": "What is Ki vs Kd?", "bbb-peptides": "Blood-brain barrier peptides",
+  "cyclic-peptide": "What is a cyclic peptide?", "stapled-peptide": "What is a stapled peptide?",
+  "peptide-drug-conjugate": "What is a peptide-drug conjugate?", "incretin-effect-2": "What is the incretin effect?",
+  "cgrp-card": "What is CGRP?", "self-assembly": "What is peptide self-assembly?",
+  "gpcr-card": "What is a GPCR?", "racemization": "What is racemization?",
+  "n-methylation": "What is N-methylation?", "peptidomimetic": "What is a peptidomimetic?",
 };
 
 const backs: Record<string, string> = {
@@ -51,6 +58,16 @@ const backs: Record<string, string> = {
   "agonist-antagonist": "Agonist: activates. Antagonist: blocks. Partial agonist: partial activation. Inverse agonist: reduces constitutive activity.",
   "ki-kd": "Ki: inhibition constant for antagonist. Kd: dissociation constant for ligand-receptor. Lower = higher affinity.",
   "bbb-peptides": "Most peptides cannot cross BBB. Strategies: nasal delivery, CPPs, receptor-mediated transcytosis, nanoparticles.",
+  "cyclic-peptide": "Peptide with covalent bond connecting N-terminus to C-terminus or side chains. Enhanced metabolic stability. Improved cell permeability.",
+  "stapled-peptide": "Peptide with hydrocarbon crosslink between non-adjacent side chains. Locks alpha-helical conformation. Enhances binding affinity and cell permeability.",
+  "peptide-drug-conjugate": "Peptide linked to cytotoxic payload via cleavable linker. Targets specific cells via receptor binding. Releases drug inside target cell.",
+  "incretin-effect-2": "Oral glucose produces more insulin than IV glucose. Mediated by GLP-1 and GIP. Basis for incretin-based diabetes therapies.",
+  "cgrp-card": "Calcitonin Gene-Related Peptide. 37 aa vasodilator. Key role in migraine pathophysiology. Target of monoclonal antibodies and gepants.",
+  "self-assembly": "Spontaneous organization of peptides into ordered structures (nanofibers, hydrogels, micelles) driven by non-covalent interactions.",
+  "gpcr-card": "G-Protein Coupled Receptor. Seven-transmembrane domain receptor. Largest drug target family. Couples to G-proteins for signal transduction.",
+  "racemization": "Conversion of L-amino acids to D-form. Non-enzymatic at high temperature/pH. Problem in peptide drug storage. Monitored by chiral HPLC.",
+  "n-methylation": "Methylation of backbone amide nitrogen. Reduces H-bond donor capacity. Improves oral bioavailability. Found in cyclosporine.",
+  "peptidomimetic": "Non-peptide molecule that mimics the biological activity of a peptide. Improved stability and bioavailability. Example: renin inhibitors.",
 };
 ---
 
