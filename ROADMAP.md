@@ -2,18 +2,33 @@
 
 Technical path from current state to production, scaling, and feature integration.
 
-## Current State (v1.0.0)
+## Current State (v1.1.0)
 
 | Component | Status | Notes |
 |-----------|--------|-------|
-| @wikisites/shared | Production-ready | Zod schemas, molecular weight calculation, 103 tests |
-| @wikisites/query | Stub with implementation | Search engine with scoring, pagination, filters |
-| @wikisites/workers | Production-ready | Cloudflare Worker API (health, search, static assets) |
-| @wikisites/encp | Deployed | 6 static pages, 1 MDX article |
-| @wikisites/wiki | Deployed | 6 static pages, 3 SolidJS components, 1 MDX article, 2 flashcard decks, 1 quiz |
-| CI/CD | Active | Forgejo Actions: lint, typecheck, test, security, build, deploy |
-| Testing | 103 tests | All packages, 80% coverage thresholds configured |
+| @wikisites/shared | Production-ready | Zod schemas, molecular weight calculation, 58 tests |
+| @wikisites/query | Production-ready | FSRS v4 algorithm, search engine, review store, 76 tests |
+| @wikisites/workers | Production-ready | Cloudflare Worker API (health, search, static assets), 10 tests |
+| @wikisites/encp | Deployed | 7 static pages, Spatial Materialism + Amoebic UI design system |
+| @wikisites/wiki | Deployed | 7 static pages, 4 SolidJS components, 29 flashcards, 23 quiz questions |
+| CI/CD | Active | Forgejo Actions: lint, test, typecheck, build, deploy (5 parallel jobs) |
+| Testing | 151 tests | All packages, 80% coverage thresholds, V8 coverage installed |
+| Pre-commit | Active | Husky + lint-staged (Prettier enforced, ESLint run manually) |
+| Design System | Applied | Spatial Materialism + Amoebic UI CSS framework |
 | Deployment | Cloudflare Pages | encyclopeptide.com, wikipept.com |
+
+## Audit Completed (2026-06-08)
+
+| Category | Finding | Resolution |
+|----------|---------|------------|
+| TypeScript | 10 errors in query package | Fixed (null safety, unused imports, PARAMS.w[12] out-of-bounds) |
+| FSRS Algorithm | PARAMS.w had 12 elements but code accessed index 12 | Added 13th parameter |
+| Code Duplication | getStatusLabel/getStatusColor in 2 components | Extracted to card-status module |
+| Test Coverage | No tests for FSRS stability correctness | Added 18 new tests |
+| CI Pipeline | Monolithic job, curl-bash install, no caching | Split into 5 parallel jobs, official Bun action |
+| Dockerfile | Incorrect health check path | Fixed to /encp/ |
+| Design | No design system applied | Spatial Materialism + Amoebic UI CSS framework added |
+| Formatting | 4 files with Prettier violations | Fixed |
 
 ## Phase 1: Content Scale (Weeks 1-4)
 
@@ -39,14 +54,14 @@ Technical path from current state to production, scaling, and feature integratio
 ## Phase 2: Interactive Features (Weeks 5-8)
 
 ### 2.1 Spaced Repetition (FSRS)
-- [ ] Implement FSRS v4 algorithm in @wikisites/query
-- [ ] LocalStorage-based progress persistence
-- [ ] Review scheduling with adaptive intervals
+- [x] Implement FSRS v4 algorithm in @wikisites/query
+- [x] LocalStorage-based progress persistence
+- [x] Review scheduling with adaptive intervals
 - [ ] Session statistics (accuracy, retention rate, time spent)
 
 ### 2.2 Quiz Engine
-- [ ] Convert static quiz pages to dynamic SolidJS quiz runner
-- [ ] Implement Quiz component with state machine (idle, answering, reviewing)
+- [x] Convert static quiz pages to dynamic SolidJS quiz runner
+- [x] Implement Quiz component with state machine (idle, answering, reviewing)
 - [ ] Score tracking and performance analytics
 - [ ] Adaptive difficulty based on historical performance
 
@@ -87,7 +102,6 @@ Technical path from current state to production, scaling, and feature integratio
 ### 4.2 Edge Performance
 - [ ] Cloudflare Workers KV for session cache
 - [ ] Edge-side rendering for personalized content
-- [ ] GraphQL federation for API gateway
 - [ ] Response compression and cache headers
 
 ### 4.3 Monitoring
@@ -141,28 +155,32 @@ Technical path from current state to production, scaling, and feature integratio
 
 | Metric | Current | 6-Month | 12-Month |
 |--------|---------|---------|----------|
-| Articles | 2 | 40 | 200 |
-| Quiz Questions | 1 | 100 | 500 |
-| Flashcards | 2 | 500 | 2000 |
+| Articles | 0 | 40 | 200 |
+| Quiz Questions | 23 | 100 | 500 |
+| Flashcards | 29 | 500 | 2000 |
 | Monthly Users | 0 | 1,000 | 10,000 |
 | API Requests/day | 0 | 10,000 | 100,000 |
-| Build Time | 15s | 30s | 60s |
+| Build Time | ~10s | 30s | 60s |
 | Lighthouse Score | N/A | 90+ | 95+ |
 
 ## Technical Debt
 
 | Item | Priority | Effort | Impact |
 |------|----------|--------|--------|
-| Astro glob-loader warning for .mdx | Low | 1h | Clean builds |
-| DeprecationWarning: module.register() | Low | 2h | Node.js 22+ compat |
+| ESLint hangs in pre-commit (flat config + typescript-eslint) | High | 4h | Dev workflow |
+| TypeScript tsc hangs on Node v26 | Medium | 2h | CI reliability |
+| No Playwright E2E tests in CI | Medium | 8h | GUI regression |
+| No content pages for /articles/* routes | High | 16h | 404 errors |
 | Dockerfile needs production testing | Medium | 4h | Container deployment |
-| Nix flake pnpm -> bun migration | Low | 1h | Dev environment consistency |
-| Content collection glob pattern fix | Low | 1h | MDX article discovery |
 
 ## Decision Log
 
 | Date | Decision | Rationale |
 |------|----------|-----------|
+| 2026-06-08 | Extract card-status to query package | DRY: eliminates duplicated getStatusLabel/getStatusColor |
+| 2026-06-08 | Split CI into 5 parallel jobs | Faster feedback, independent failure modes |
+| 2026-06-08 | Use oven-sh/setup-bun in CI | Security: eliminates curl-bash pipe |
+| 2026-06-08 | Apply Spatial Materialism design | Visual depth and organic forms for both sites |
 | 2026-06-07 | Astro + SolidJS over Next.js | Static-first, smaller bundle, Cloudflare-native |
 | 2026-06-07 | Zod over io-ts / Yup | Runtime validation + type inference, ecosystem |
 | 2026-06-07 | Cloudflare Pages over Vercel | Forgejo repo, cost, edge performance |
