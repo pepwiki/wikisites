@@ -7,6 +7,7 @@ import {
   type SiteKey,
   type DeckId,
 } from "@wikisites/query/review-store";
+import { getStatusLabel, getStatusColor } from "@wikisites/query/card-status";
 import type { CardState } from "@wikisites/query/fsrs";
 
 interface FlashcardProps {
@@ -19,20 +20,6 @@ interface FlashcardProps {
   site?: SiteKey;
   /** Deck ID for FSRS persistence. */
   deckId?: DeckId;
-}
-
-function getStatusLabel(card: CardState | null): string {
-  if (!card || card.repetitions === 0) return "New";
-  if (card.lapses > 0 && card.repetitions <= 1) return "Learning";
-  if (card.scheduledDays <= 1) return "Learning";
-  return "Review";
-}
-
-function getStatusColor(card: CardState | null): string {
-  if (!card || card.repetitions === 0) return "bg-blue-100 text-blue-700";
-  if (card.lapses > 0 && card.repetitions <= 1) return "bg-orange-100 text-orange-700";
-  if (card.scheduledDays <= 1) return "bg-orange-100 text-orange-700";
-  return "bg-green-100 text-green-700";
 }
 
 export default function Flashcard(props: FlashcardProps) {
@@ -93,7 +80,9 @@ export default function Flashcard(props: FlashcardProps) {
           <div class="absolute inset-0 backface-hidden bg-white border-2 border-[#0D9488] rounded-2xl p-6 flex flex-col items-center justify-center">
             <div class="flex items-center gap-2 mb-2">
               <Show when={isFSRS() && cardState()}>
-                <span class={`text-xs font-bold px-2 py-0.5 rounded-full ${getStatusColor(cardState())}`}>
+                <span
+                  class={`text-xs font-bold px-2 py-0.5 rounded-full ${getStatusColor(cardState())}`}
+                >
                   {getStatusLabel(cardState())}
                 </span>
               </Show>

@@ -7,6 +7,7 @@ import {
   type SiteKey,
   type DeckId,
 } from "@wikisites/query/review-store";
+import { getStatusLabel, getStatusColor } from "@wikisites/query/card-status";
 import type { CardState } from "@wikisites/query/fsrs";
 
 interface QuizProps {
@@ -20,20 +21,6 @@ interface QuizProps {
   site?: SiteKey;
   /** Deck ID for FSRS persistence. */
   deckId?: DeckId;
-}
-
-function getStatusLabel(card: CardState | null): string {
-  if (!card || card.repetitions === 0) return "New";
-  if (card.lapses > 0 && card.repetitions <= 1) return "Learning";
-  if (card.scheduledDays <= 1) return "Learning";
-  return "Review";
-}
-
-function getStatusColor(card: CardState | null): string {
-  if (!card || card.repetitions === 0) return "bg-blue-100 text-blue-700";
-  if (card.lapses > 0 && card.repetitions <= 1) return "bg-orange-100 text-orange-700";
-  if (card.scheduledDays <= 1) return "bg-orange-100 text-orange-700";
-  return "bg-green-100 text-green-700";
 }
 
 export default function Quiz(props: QuizProps) {

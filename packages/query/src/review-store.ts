@@ -7,7 +7,7 @@
  */
 
 import type { CardState } from "./fsrs";
-import { createCard, repeat, isDue, getDueCards, Rating } from "./fsrs";
+import { createCard, repeat, getDueCards, Rating } from "./fsrs";
 
 // ---------------------------------------------------------------------------
 // Types
@@ -114,9 +114,7 @@ export function initializeDeck(
   const existing = loadCards(site, deckId);
   const existingIds = new Set(existing.map((c) => c.id));
 
-  const newCards = cardIds
-    .filter((id) => !existingIds.has(id))
-    .map((id) => createCard(id));
+  const newCards = cardIds.filter((id) => !existingIds.has(id)).map((id) => createCard(id));
 
   const all = [...existing, ...newCards];
   saveCards(site, deckId, all);
@@ -150,7 +148,8 @@ export function recordReview(
   const idx = cards.findIndex((c) => c.id === cardId);
   if (idx === -1) return null;
 
-  const result = repeat(cards[idx], rating, now);
+  const card = cards[idx]!;
+  const result = repeat(card, rating, now);
   cards[idx] = result.card;
   saveCards(site, deckId, cards);
 
@@ -160,19 +159,15 @@ export function recordReview(
 /**
  * Get review statistics for a deck.
  */
-export function getDeckStats(
-  site: SiteKey,
-  deckId: DeckId,
-  now: Date = new Date(),
-): ReviewStats {
+export function getDeckStats(site: SiteKey, deckId: DeckId, now: Date = new Date()): ReviewStats {
   const cards = loadCards(site, deckId);
-  const due = getDueCards(cards, now);
   const reviewed = cards.filter((c) => c.repetitions > 0);
   const totalReviews = reviewed.reduce((sum, c) => sum + c.repetitions, 0);
   const totalLapses = reviewed.reduce((sum, c) => sum + c.lapses, 0);
-  const avgInterval = reviewed.length > 0
-    ? reviewed.reduce((sum, c) => sum + c.scheduledDays, 0) / reviewed.length
-    : 0;
+  const avgInterval =
+    reviewed.length > 0
+      ? reviewed.reduce((sum, c) => sum + c.scheduledDays, 0) / reviewed.length
+      : 0;
 
   return {
     total: cards.length,
