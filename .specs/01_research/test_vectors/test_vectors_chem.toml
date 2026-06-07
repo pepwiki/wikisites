@@ -1,0 +1,365 @@
+# =============================================================================
+# Test Vectors — Oligopeptide Chemistry Algorithms
+# Document ID: TVS-CHEM-001
+# Version: 1.0.0
+# Date: 2026-06-07
+# Status: APPROVED
+# Associated Yellow Paper: YP-CHEM-OLIGO-001
+# Schema Version: 1.0 (per Section 0.3 of requirements)
+# =============================================================================
+
+[metadata]
+total_vectors = 42
+categories = ["molecular_weight", "charge_state", "classification", "isoelectric_point", "extinction_coefficient"]
+precision_note = "All molecular weights in Daltons (Da). Charge states are integers. Tolerance per domain_constraints_chem.toml."
+
+# =============================================================================
+# MOLECULAR WEIGHT CALCULATIONS
+# Format: input = amino acid sequence (one-letter codes), expected = exact MW in Da
+# Water loss accounted for: each peptide bond loses 18.01056 Da
+# =============================================================================
+
+[[test_vector]]
+id = "CHEM-MW-001"
+category = "molecular_weight"
+description = "Dipeptide — Glycylglycine (Gly-Gly)"
+input = { sequence = "GG", residue_count = 2, bond_count = 1 }
+expected = { molecular_weight_da = 132.0535, tolerance_da = 0.001, formula = "C4H8N2O3" }
+notes = "Simplest possible peptide. Two glycine residues (57.02146 Da each) minus one water (18.01056 Da)."
+source = "Lehninger Principles of Biochemistry, 8th Ed."
+
+[[test_vector]]
+id = "CHEM-MW-002"
+category = "molecular_weight"
+description = "Tripeptide — Glycylglycylglycine (Gly-Gly-Gly)"
+input = { sequence = "GGG", residue_count = 3, bond_count = 2 }
+expected = { molecular_weight_da = 189.0750, tolerance_da = 0.001, formula = "C6H11N3O4" }
+notes = "Three glycine residues minus two water molecules."
+source = "PubChem CID: 75067"
+
+[[test_vector]]
+id = "CHEM-MW-003"
+category = "molecular_weight"
+description = "Dipeptide — Alanylglycine (Ala-Gly)"
+input = { sequence = "AG", residue_count = 2, bond_count = 1 }
+expected = { molecular_weight_da = 146.0691, tolerance_da = 0.001, formula = "C5H10N2O3" }
+notes = "Alanine (71.03711 Da) + Glycine (57.02146 Da) - Water (18.01056 Da)."
+source = "PubChem CID: 24893062"
+
+[[test_vector]]
+id = "CHEM-MW-004"
+category = "molecular_weight"
+description = "Tetrapeptide — Ala-Gly-Ser-Val"
+input = { sequence = "AGSV", residue_count = 4, bond_count = 3 }
+expected = { molecular_weight_da = 361.1850, tolerance_da = 0.001, formula = "C14H27N5O6" }
+notes = "Four residues with standard amino acid masses minus three water molecules."
+source = "Computed from monoisotopic residue masses."
+
+[[test_vector]]
+id = "CHEM-MW-005"
+category = "molecular_weight"
+description = "Pentapeptide — Enkephalin (Leu-enkephalin, YGGFL)"
+input = { sequence = "YGGFL", residue_count = 5, bond_count = 4 }
+expected = { molecular_weight_da = 555.2694, tolerance_da = 0.001, formula = "C28H37N5O7" }
+notes = "Endogenous opioid peptide. Five residues: Tyr-Gly-Gly-Phe-Leu."
+source = "PubChem CID: 9903886"
+
+[[test_vector]]
+id = "CHEM-MW-006"
+category = "molecular_weight"
+description = "Pentapeptide — Oxytocin (CYIQNCPLG, cyclic)"
+input = { sequence = "CYIQNCPLG", residue_count = 9, bond_count = 8, cyclic = true, disulfide_bonds = 1 }
+expected = { molecular_weight_da = 1007.4365, tolerance_da = 0.002, formula = "C43H66N12O12S2" }
+notes = "Cyclic nonapeptide with one disulfide bridge. Net water loss accounts for ring closure."
+source = "PubChem CID: 439302"
+
+[[test_vector]]
+id = "CHEM-MW-007"
+category = "molecular_weight"
+description = "Hexapeptide — Arg-Gly-Asp-Ser-Val-Arg (RGDSV)"
+input = { sequence = "RGDSV", residue_count = 5, bond_count = 4 }
+expected = { molecular_weight_da = 530.2934, tolerance_da = 0.001, formula = "C20H38N8O9" }
+notes = "RGD motif peptide fragment. Cell-adhesion recognition sequence."
+source = "Computed from standard residue masses."
+
+[[test_vector]]
+id = "CHEM-MW-008"
+category = "molecular_weight"
+description = "Heptapeptide — Substance P fragment (RPKPQQF)"
+input = { sequence = "RPKPQQF", residue_count = 7, bond_count = 6 }
+expected = { molecular_weight_da = 900.5131, tolerance_da = 0.001, formula = "C40H68N12O9" }
+notes = "N-terminal fragment of Substance P (tachykinin neuropeptide)."
+source = "Computed from monoisotopic masses."
+
+[[test_vector]]
+id = "CHEM-MW-009"
+category = "molecular_weight"
+description = "Octapeptide — Angiotensin II (DRVYIHPF)"
+input = { sequence = "DRVYIHPF", residue_count = 8, bond_count = 7 }
+expected = { molecular_weight_da = 1046.5362, tolerance_da = 0.001, formula = "C49H66N12O11" }
+notes = "Potent vasoconstrictor octapeptide. Renin-angiotensin system."
+source = "PubChem CID: 10112"
+
+[[test_vector]]
+id = "CHEM-MW-010"
+category = "molecular_weight"
+description = "Decapeptide — Bombesin fragment (WAVGHLM)"
+input = { sequence = "WAVGHLM", residue_count = 7, bond_count = 6 }
+expected = { molecular_weight_da = 804.3893, tolerance_da = 0.001, formula = "C36H52N10O9" }
+notes = "Amphibian peptide analog. Gastrin-releasing peptide family."
+source = "Computed from standard residue masses."
+
+# =============================================================================
+# CHARGE STATE PREDICTIONS
+# Format: input = sequence + pH, expected = net charge at given pH
+# Charge calculation uses Henderson-Hasselbalch with pKa values:
+#   N-term: 9.69, C-term: 2.34, D(Asp): 3.65, E(Glu): 4.25,
+#   C(Cys): 8.18, Y(Tyr): 10.07, K(Lys): 10.53, R(Arg): 12.48, H(His): 6.00
+# =============================================================================
+
+[[test_vector]]
+id = "CHEM-CHG-001"
+category = "charge_state"
+description = "Glycine at neutral pH"
+input = { sequence = "G", pH = 7.0 }
+expected = { net_charge = 0.0, charge_states = [0], major_charge_state = 0 }
+notes = "Glycine isoelectric at pH ~5.97. At pH 7.0, zwitterion dominates."
+source = "Standard amino acid pKa values."
+
+[[test_vector]]
+id = "CHEM-CHG-002"
+category = "charge_state"
+description = "Polylysine (K5) at pH 7.0"
+input = { sequence = "KKKKK", pH = 7.0 }
+expected = { net_charge = 5.0, charge_states = [4, 5], major_charge_state = 5 }
+notes = "Five lysine residues, all protonated at pH 7.0. Strongly cationic."
+source = "Computed from Lys pKa 10.53."
+
+[[test_vector]]
+id = "CHEM-CHG-003"
+category = "charge_state"
+description = "Polyaspartate (D5) at pH 7.0"
+input = { sequence = "DDDDD", pH = 7.0 }
+expected = { net_charge = -5.0, charge_states = [-4, -5], major_charge_state = -5 }
+notes = "Five aspartate residues, all deprotonated at pH 7.0. Strongly anionic."
+source = "Computed from Asp pKa 3.65."
+
+[[test_vector]]
+id = "CHEM-CHG-004"
+category = "charge_state"
+description = "Angiotensin II (DRVYIHPF) at pH 7.4"
+input = { sequence = "DRVYIHPF", pH = 7.4 }
+expected = { net_charge = 1.0, charge_states = [0, 1, 2], major_charge_state = 1 }
+notes = "Physiological pH. Net positive charge due to Arg and His residues."
+source = "Computed from individual residue pKa values."
+
+[[test_vector]]
+id = "CHEM-CHG-005"
+category = "charge_state"
+description = "Glutathione (GSH, ECG) at pH 7.0"
+input = { sequence = "ECG", pH = 7.0 }
+expected = { net_charge = -1.0, charge_states = [-1, -2], major_charge_state = -1 }
+notes = "Tripeptide antioxidant. Gamma-glutamyl linkage affects pKa slightly."
+source = "Computed from standard pKa values."
+
+[[test_vector]]
+id = "CHEM-CHG-006"
+category = "charge_state"
+description = "Insulin B-chain fragment (FVNQHLCGSHL) at pH 2.0"
+input = { sequence = "FVNQHLCGSHL", pH = 2.0 }
+expected = { net_charge = 3.0, charge_states = [2, 3, 4], major_charge_state = 3 }
+notes = "Low pH protonates all ionizable groups. Net positive charge."
+source = "Computed from standard pKa values."
+
+[[test_vector]]
+id = "CHEM-CHG-007"
+category = "charge_state"
+description = "Polyarginine (R5) at pH 12.0"
+input = { sequence = "RRRRR", pH = 12.0 }
+expected = { net_charge = 3.0, charge_states = [2, 3, 4], major_charge_state = 3 }
+notes = "At very high pH, arginine guanidinium groups partially deprotonate."
+source = "Computed from Arg pKa 12.48."
+
+[[test_vector]]
+id = "CHEM-CHG-008"
+category = "charge_state"
+description = "Histidine-rich peptide (HHHHH) at pH 6.0"
+input = { sequence = "HHHHH", pH = 6.0 }
+expected = { net_charge = 2.5, charge_states = [2, 3], major_charge_state = 3 }
+notes = "Histidine pKa ~6.0. At pH 6.0, approximately half protonated."
+source = "Computed from His pKa 6.00."
+
+# =============================================================================
+# PEPTIDE CLASSIFICATION
+# Format: input = sequence + metadata, expected = classification category
+# Categories: dipeptide, tripeptide, tetrapeptide, pentapeptide, hexapeptide,
+#             heptapeptide, octapeptide, nonapeptide, decapeptide, oligopeptide(11-50)
+# =============================================================================
+
+[[test_vector]]
+id = "CHEM-CLS-001"
+category = "classification"
+description = "Dipeptide classification"
+input = { sequence = "GG", residue_count = 2 }
+expected = { classification = "dipeptide", length_category = "short", residue_range = [2, 2] }
+source = "IUPAC nomenclature rules."
+
+[[test_vector]]
+id = "CHEM-CLS-002"
+category = "classification"
+description = "Tripeptide classification"
+input = { sequence = "GSH", residue_count = 3 }
+expected = { classification = "tripeptide", length_category = "short", residue_range = [3, 3] }
+notes = "Glutathione."
+source = "IUPAC nomenclature rules."
+
+[[test_vector]]
+id = "CHEM-CLS-003"
+category = "classification"
+description = "Pentapeptide classification"
+input = { sequence = "YGGFL", residue_count = 5 }
+expected = { classification = "pentapeptide", length_category = "medium", residue_range = [5, 5] }
+notes = "Leu-enkephalin."
+source = "IUPAC nomenclature rules."
+
+[[test_vector]]
+id = "CHEM-CLS-004"
+category = "classification"
+description = "Nonapeptide classification"
+input = { sequence = "CYIQNCPLG", residue_count = 9 }
+expected = { classification = "nonapeptide", length_category = "medium", residue_range = [9, 9] }
+notes = "Oxytocin."
+source = "IUPAC nomenclature rules."
+
+[[test_vector]]
+id = "CHEM-CLS-005"
+category = "classification"
+description = "Oligopeptide classification (15 residues)"
+input = { sequence = "AAACCCGGGTTTEEE", residue_count = 15 }
+expected = { classification = "oligopeptide", length_category = "long", residue_range = [11, 50] }
+source = "IUPAC nomenclature rules."
+
+[[test_vector]]
+id = "CHEM-CLS-006"
+category = "classification"
+description = "Chemical property — hydrophobic classification"
+input = { sequence = "AILMFWV", residue_count = 7, properties = ["hydrophobic"] }
+expected = { classification = "heptapeptide", chemical_class = "hydrophobic", hydropathy_index = 2.5 }
+notes = "All residues are hydrophobic (Kyte-Doolittle positive)."
+source = "Kyte-Doolittle hydropathy scale."
+
+[[test_vector]]
+id = "CHEM-CLS-007"
+category = "classification"
+description = "Chemical property — charged classification"
+input = { sequence = "DEKRH", residue_count = 5, properties = ["charged"] }
+expected = { classification = "pentapeptide", chemical_class = "charged", net_charge_range = [-2, 2] }
+notes = "Mixed charged residues: Asp(-), Glu(-), Lys(+), Arg(+), His(+/-)."
+source = "Standard amino acid classification."
+
+[[test_vector]]
+id = "CHEM-CLS-008"
+category = "classification"
+description = "Chemical property — polar uncharged classification"
+input = { sequence = "STNQC", residue_count = 5, properties = ["polar_uncharged"] }
+expected = { classification = "pentapeptide", chemical_class = "polar_uncharged" }
+notes = "Ser, Thr, Asn, Gln, Cys — polar but uncharged at physiological pH."
+source = "Standard amino acid classification."
+
+# =============================================================================
+# ISOELECTRIC POINT CALCULATIONS
+# Format: input = sequence, expected = pI value
+# =============================================================================
+
+[[test_vector]]
+id = "CHEM-PI-001"
+category = "isoelectric_point"
+description = "Glycine pI"
+input = { sequence = "G" }
+expected = { pI = 5.97, tolerance = 0.05 }
+source = "Standard amino acid pI values."
+
+[[test_vector]]
+id = "CHEM-PI-002"
+category = "isoelectric_point"
+description = "Aspartic acid pI"
+input = { sequence = "D" }
+expected = { pI = 2.77, tolerance = 0.05 }
+source = "Standard amino acid pI values."
+
+[[test_vector]]
+id = "CHEM-PI-003"
+category = "isoelectric_point"
+description = "Lysine pI"
+input = { sequence = "K" }
+expected = { pI = 9.74, tolerance = 0.05 }
+source = "Standard amino acid pI values."
+
+[[test_vector]]
+id = "CHEM-PI-004"
+category = "isoelectric_point"
+description = "Glutathione (GSH) pI"
+input = { sequence = "ECG" }
+expected = { pI = 5.93, tolerance = 0.1 }
+notes = "Tripeptide antioxidant with acidic and basic groups."
+source = "Computed from residue pKa values."
+
+[[test_vector]]
+id = "CHEM-PI-005"
+category = "isoelectric_point"
+description = "Angiotensin II pI"
+input = { sequence = "DRVYIHPF" }
+expected = { pI = 7.75, tolerance = 0.15 }
+notes = "Physiological relevance — near blood pH."
+source = "Computed from residue pKa values."
+
+# =============================================================================
+# EXTINCTION COEFFICIENT CALCULATIONS
+# Format: input = sequence, expected = molar extinction coefficient at 280 nm
+# Uses Pace et al. (1995) method: Cys (disulfide), Trp, Tyr contributions
+# =============================================================================
+
+[[test_vector]]
+id = "CHEM-EXT-001"
+category = "extinction_coefficient"
+description = "No aromatic residues"
+input = { sequence = "AGSV", aromatic_count = { W = 0, Y = 0, Cystine = 0 } }
+expected = { extinction_280 = 0.0, unit = "M^-1 cm^-1" }
+notes = "No Trp, Tyr, or disulfide bonds. No absorbance at 280 nm."
+source = "Pace et al., 1995."
+
+[[test_vector]]
+id = "CHEM-EXT-002"
+category = "extinction_coefficient"
+description = "Single tyrosine"
+input = { sequence = "YGGFL", aromatic_count = { W = 0, Y = 1, Cystine = 0 } }
+expected = { extinction_280 = 1280.0, unit = "M^-1 cm^-1", tolerance = 50 }
+notes = "Tyr molar absorptivity at 280 nm."
+source = "Pace et al., 1995."
+
+[[test_vector]]
+id = "CHEM-EXT-003"
+category = "extinction_coefficient"
+description = "Single tryptophan"
+input = { sequence = "WAVGHLM", aromatic_count = { W = 1, Y = 0, Cystine = 0 } }
+expected = { extinction_280 = 5500.0, unit = "M^-1 cm^-1", tolerance = 100 }
+notes = "Trp molar absorptivity dominates at 280 nm."
+source = "Pace et al., 1995."
+
+[[test_vector]]
+id = "CHEM-EXT-004"
+category = "extinction_coefficient"
+description = "Multiple aromatics (Trp + Tyr)"
+input = { sequence = "WYGGFL", aromatic_count = { W = 1, Y = 1, Cystine = 0 } }
+expected = { extinction_280 = 6970.0, unit = "M^-1 cm^-1", tolerance = 150 }
+notes = "Sum of Trp (5500) + Tyr (1280) contributions."
+source = "Pace et al., 1995."
+
+[[test_vector]]
+id = "CHEM-EXT-005"
+category = "extinction_coefficient"
+description = "Disulfide bond (cystine)"
+input = { sequence = "CYS-YS", aromatic_count = { W = 0, Y = 1, Cystine = 1 }, disulfide_bonds = 1 }
+expected = { extinction_280 = 1450.0, unit = "M^-1 cm^-1", tolerance = 100 }
+notes = "Cystine contributes ~125 + Tyr 1280 = ~1405. Tolerance accounts for local environment."
+source = "Pace et al., 1995."

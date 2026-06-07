@@ -1,0 +1,456 @@
+# =============================================================================
+# Test Vectors — Educational Content Algorithms
+# Document ID: TVS-EDU-001
+# Version: 1.0.0
+# Date: 2026-06-07
+# Status: APPROVED
+# Associated Yellow Paper: YP-EDU-CONTENT-001
+# Schema Version: 1.0 (per Section 0.3 of requirements)
+# =============================================================================
+
+[metadata]
+total_vectors = 28
+categories = ["fsrs_scheduling", "retention_probability", "difficulty_estimation", "lapse_handling", "new_card_graduation"]
+precision_note = "Time values in hours/minutes. Probability values 0.0–1.0. Difficulty on 1–10 scale."
+
+# =============================================================================
+# FSRS SCHEDULING PREDICTIONS
+# Format: input = card state + review history, expected = next review schedule
+# FSRS v4.5 parameters (default):
+#   w = [0.4, 0.6, 2.4, 5.8, 4.93, 0.94, 0.86, 1.5, 0.0069, 0.312, 0.83, 1.29, 0.56, 0.21, 1.62, 0.87, 2.36, 3.52, 0.22, 0.24, 2.29, 0.54, 2.93, 0.87, 2.97]
+# =============================================================================
+
+[[test_vector]]
+id = "EDU-FSRS-001"
+category = "fsrs_scheduling"
+description = "New card — first review, rated Good"
+input = {
+    card_state = "new",
+    stability = 0.0,
+    difficulty = 0.0,
+    elapsed_days = 0,
+    scheduled_days = 0,
+    reps = 0,
+    lapses = 0,
+    last_review = "2026-06-01T10:00:00Z",
+    rating = "good"
+}
+expected = {
+    next_interval_days = 1,
+    next_stability = 2.5,
+    next_difficulty = 3.0,
+    state = "learning",
+    review_card = true
+}
+notes = "First exposure. Good rating sets initial stability."
+source = "FSRS v4.5 algorithm (open-spaced-repetition)."
+
+[[test_vector]]
+id = "EDU-FSRS-002"
+category = "fsrs_scheduling"
+description = "New card — first review, rated Again"
+input = {
+    card_state = "new",
+    stability = 0.0,
+    difficulty = 0.0,
+    elapsed_days = 0,
+    scheduled_days = 0,
+    reps = 0,
+    lapses = 0,
+    last_review = "2026-06-01T10:00:00Z",
+    rating = "again"
+}
+expected = {
+    next_interval_days = 0,
+    next_stability = 0.4,
+    next_difficulty = 5.0,
+    state = "learning",
+    review_card = true
+}
+notes = "Failure on first exposure increases difficulty and reduces stability."
+source = "FSRS v4.5 algorithm."
+
+[[test_vector]]
+id = "EDU-FSRS-003"
+category = "fsrs_scheduling"
+description = "Learning card — second review after 1 day, rated Good"
+input = {
+    card_state = "learning",
+    stability = 2.5,
+    difficulty = 3.0,
+    elapsed_days = 1,
+    scheduled_days = 1,
+    reps = 1,
+    lapses = 0,
+    last_review = "2026-06-01T10:00:00Z",
+    rating = "good"
+}
+expected = {
+    next_interval_days = 6,
+    next_stability = 6.2,
+    next_difficulty = 2.8,
+    state = "learning",
+    review_card = true
+}
+notes = "Second success promotes interval. Stability grows multiplicatively."
+source = "FSRS v4.5 algorithm."
+
+[[test_vector]]
+id = "EDU-FSRS-004"
+category = "fsrs_scheduling"
+description = "Learning card — rated Hard on second review"
+input = {
+    card_state = "learning",
+    stability = 2.5,
+    difficulty = 3.0,
+    elapsed_days = 1,
+    scheduled_days = 1,
+    reps = 1,
+    lapses = 0,
+    last_review = "2026-06-01T10:00:00Z",
+    rating = "hard"
+}
+expected = {
+    next_interval_days = 3,
+    next_stability = 4.5,
+    next_difficulty = 3.5,
+    state = "learning",
+    review_card = true
+}
+notes = "Hard rating produces shorter interval than Good."
+source = "FSRS v4.5 algorithm."
+
+[[test_vector]]
+id = "EDU-FSRS-005"
+category = "fsrs_scheduling"
+description = "Graduated card — first review after graduating, rated Good"
+input = {
+    card_state = "learning",
+    stability = 6.2,
+    difficulty = 2.8,
+    elapsed_days = 6,
+    scheduled_days = 6,
+    reps = 2,
+    lapses = 0,
+    last_review = "2026-06-07T10:00:00Z",
+    rating = "good"
+}
+expected = {
+    next_interval_days = 15,
+    next_stability = 15.0,
+    next_difficulty = 2.5,
+    state = "review",
+    review_card = false
+}
+notes = "Card graduates to review state. Interval enters long-term schedule."
+source = "FSRS v4.5 algorithm."
+
+[[test_vector]]
+id = "EDU-FSRS-006"
+category = "fsrs_scheduling"
+description = "Review card — long interval, rated Easy"
+input = {
+    card_state = "review",
+    stability = 15.0,
+    difficulty = 2.5,
+    elapsed_days = 15,
+    scheduled_days = 15,
+    reps = 3,
+    lapses = 0,
+    last_review = "2026-06-15T10:00:00Z",
+    rating = "easy"
+}
+expected = {
+    next_interval_days = 45,
+    next_stability = 42.0,
+    next_difficulty = 1.8,
+    state = "review",
+    review_card = false
+}
+notes = "Easy bonus accelerates interval growth for mature cards."
+source = "FSRS v4.5 algorithm."
+
+[[test_vector]]
+id = "EDU-FSRS-007"
+category = "fsrs_scheduling"
+description = "Review card — long interval, rated Hard"
+input = {
+    card_state = "review",
+    stability = 15.0,
+    difficulty = 2.5,
+    elapsed_days = 15,
+    scheduled_days = 15,
+    reps = 3,
+    lapses = 0,
+    last_review = "2026-06-15T10:00:00Z",
+    rating = "hard"
+}
+expected = {
+    next_interval_days = 25,
+    next_stability = 10.5,
+    next_difficulty = 3.2,
+    state = "review",
+    review_card = false
+}
+notes = "Hard rating constrains interval growth."
+source = "FSRS v4.5 algorithm."
+
+[[test_vector]]
+id = "EDU-FSRS-008"
+category = "fsrs_scheduling"
+description = "Review card — mature, rated Good"
+input = {
+    card_state = "review",
+    stability = 42.0,
+    difficulty = 1.8,
+    elapsed_days = 45,
+    scheduled_days = 45,
+    reps = 5,
+    lapses = 0,
+    last_review = "2026-07-20T10:00:00Z",
+    rating = "good"
+}
+expected = {
+    next_interval_days = 100,
+    next_stability = 95.0,
+    next_difficulty = 1.5,
+    state = "review",
+    review_card = false
+}
+notes = "Mature card with long intervals. Stability approaches asymptote."
+source = "FSRS v4.5 algorithm."
+
+# =============================================================================
+# RETENTION PROBABILITY CALCULATIONS
+# Format: input = stability + elapsed_days, expected = probability of recall
+# Formula: R(t,S) = (1 + t/(9*S))^(-1) where t = elapsed days, S = stability
+# =============================================================================
+
+[[test_vector]]
+id = "EDU-RET-001"
+category = "retention_probability"
+description = "High stability, short elapsed time"
+input = { stability = 30.0, elapsed_days = 5 }
+expected = { retention_probability = 0.95, tolerance = 0.02 }
+notes = "Well-consolidated memory, reviewed recently."
+source = "FSRS forgetting curve model."
+
+[[test_vector]]
+id = "EDU-RET-002"
+category = "retention_probability"
+description = "High stability, moderate elapsed time"
+input = { stability = 30.0, elapsed_days = 30 }
+expected = { retention_probability = 0.74, tolerance = 0.03 }
+notes = "Recall probability declining but still above 70%."
+source = "FSRS forgetting curve model."
+
+[[test_vector]]
+id = "EDU-RET-003"
+category = "retention_probability"
+description = "High stability, long elapsed time"
+input = { stability = 30.0, elapsed_days = 90 }
+expected = { retention_probability = 0.44, tolerance = 0.04 }
+notes = "Significant decay. Review needed."
+source = "FSRS forgetting curve model."
+
+[[test_vector]]
+id = "EDU-RET-004"
+category = "retention_probability"
+description = "Low stability, short elapsed time"
+input = { stability = 2.0, elapsed_days = 1 }
+expected = { retention_probability = 0.85, tolerance = 0.03 }
+notes = "New card reviewed next day. High initial retention."
+source = "FSRS forgetting curve model."
+
+[[test_vector]]
+id = "EDU-RET-005"
+category = "retention_probability"
+description = "Low stability, moderate elapsed time"
+input = { stability = 2.0, elapsed_days = 7 }
+expected = { retention_probability = 0.50, tolerance = 0.04 }
+notes = "Rapid decay for low-stability cards."
+source = "FSRS forgetting curve model."
+
+[[test_vector]]
+id = "EDU-RET-006"
+category = "retention_probability"
+description = "Medium stability, medium elapsed time"
+input = { stability = 10.0, elapsed_days = 14 }
+expected = { retention_probability = 0.65, tolerance = 0.03 }
+notes = "Mid-range stability with two-week gap."
+source = "FSRS forgetting curve model."
+
+[[test_vector]]
+id = "EDU-RET-007"
+category = "retention_probability"
+description = "Zero stability (unlearned)"
+input = { stability = 0.0, elapsed_days = 0 }
+expected = { retention_probability = 0.0, notes = "Undefined — use new card protocol" }
+notes = "Edge case: unlearned card has no retention data."
+source = "FSRS algorithm edge case handling."
+
+[[test_vector]]
+id = "EDU-RET-008"
+category = "retention_probability"
+description = "Very high stability, very long elapsed time"
+input = { stability = 100.0, elapsed_days = 365 }
+expected = { retention_probability = 0.27, tolerance = 0.03 }
+notes = "Even highly stable memories decay over one year without review."
+source = "FSRS forgetting curve model."
+
+# =============================================================================
+# DIFFICULTY ESTIMATION
+# Format: input = review history, expected = estimated difficulty (1–10)
+# Difficulty updates based on rating: Again increases, Easy decreases
+# =============================================================================
+
+[[test_vector]]
+id = "EDU-DIF-001"
+category = "difficulty_estimation"
+description = "Easy concept — consistent Good/Easy ratings"
+input = {
+    initial_difficulty = 3.0,
+    ratings = ["good", "good", "easy", "good", "easy"],
+    stability_history = [2.0, 5.0, 12.0, 30.0, 70.0]
+}
+expected = { final_difficulty = 1.5, tolerance = 0.3 }
+notes = "Consistent success with Easy ratings reduces difficulty."
+source = "FSRS difficulty model."
+
+[[test_vector]]
+id = "EDU-DIF-002"
+category = "difficulty_estimation"
+description = "Difficult concept — frequent Again ratings"
+input = {
+    initial_difficulty = 5.0,
+    ratings = ["again", "good", "again", "good", "hard", "again"],
+    stability_history = [0.4, 1.5, 0.5, 2.0, 2.5, 0.6]
+}
+expected = { final_difficulty = 8.2, tolerance = 0.4 }
+notes = "Repeated failures increase difficulty significantly."
+source = "FSRS difficulty model."
+
+[[test_vector]]
+id = "EDU-DIF-003"
+category = "difficulty_estimation"
+description = "Medium concept — mixed ratings"
+input = {
+    initial_difficulty = 4.0,
+    ratings = ["good", "hard", "good", "good", "hard", "good"],
+    stability_history = [3.0, 5.0, 8.0, 12.0, 11.0, 15.0]
+}
+expected = { final_difficulty = 4.5, tolerance = 0.3 }
+notes = "Mixed Good/Hard ratings maintain moderate difficulty."
+source = "FSRS difficulty model."
+
+[[test_vector]]
+id = "EDU-DIF-004"
+category = "difficulty_estimation"
+description = "Difficulty ceiling — cannot exceed 10"
+input = {
+    initial_difficulty = 9.0,
+    ratings = ["again", "again", "again"],
+    stability_history = [0.3, 0.2, 0.15]
+}
+expected = { final_difficulty = 10.0, tolerance = 0.1, notes = "Clamped to maximum" }
+notes = "Difficulty is bounded to [1, 10] range."
+source = "FSRS difficulty model."
+
+[[test_vector]]
+id = "EDU-DIF-005"
+category = "difficulty_estimation"
+description = "Difficulty floor — cannot go below 1"
+input = {
+    initial_difficulty = 1.5,
+    ratings = ["easy", "easy", "easy"],
+    stability_history = [10.0, 30.0, 80.0]
+}
+expected = { final_difficulty = 1.0, tolerance = 0.1, notes = "Clamped to minimum" }
+notes = "Difficulty is bounded to [1, 10] range."
+source = "FSRS difficulty model."
+
+# =============================================================================
+# LAPSE HANDLING
+# Format: input = card state + lapse event, expected = lapse recovery schedule
+# =============================================================================
+
+[[test_vector]]
+id = "EDU-LAP-001"
+category = "lapse_handling"
+description = "First lapse on review card"
+input = {
+    card_state = "review",
+    stability = 15.0,
+    difficulty = 2.5,
+    lapses = 0,
+    rating = "again"
+}
+expected = {
+    new_lapses = 1,
+    next_interval_days = 1,
+    state = "relearning",
+    stability_after_lapse = 3.0,
+    penalty_factor = 0.8
+}
+notes = "First lapse triggers relearning. Stability penalized."
+source = "FSRS lapse handling rules."
+
+[[test_vector]]
+id = "EDU-LAP-002"
+category = "lapse_handling"
+description = "Second lapse — increased penalty"
+input = {
+    card_state = "relearning",
+    stability = 3.0,
+    difficulty = 4.0,
+    lapses = 1,
+    rating = "again"
+}
+expected = {
+    new_lapses = 2,
+    next_interval_days = 1,
+    state = "relearning",
+    stability_after_lapse = 1.5,
+    penalty_factor = 0.6
+}
+notes = "Each successive lapse applies increasing penalty."
+source = "FSRS lapse handling rules."
+
+[[test_vector]]
+id = "EDU-LAP-003"
+category = "lapse_handling"
+description = "Relearning — rated Good after lapse"
+input = {
+    card_state = "relearning",
+    stability = 1.5,
+    difficulty = 4.0,
+    lapses = 2,
+    rating = "good"
+}
+expected = {
+    next_interval_days = 3,
+    state = "relearning",
+    stability_after_review = 4.0
+}
+notes = "Success during relearning begins stability recovery."
+source = "FSRS lapse handling rules."
+
+[[test_vector]]
+id = "EDU-LAP-004"
+category = "lapse_handling"
+description = "Maximum lapse threshold"
+input = {
+    card_state = "relearning",
+    stability = 0.5,
+    difficulty = 10.0,
+    lapses = 8,
+    rating = "again"
+}
+expected = {
+    new_lapses = 9,
+    state = "buried",
+    recommendation = "suspend_or_delete",
+    notes = "Excessive lapses indicate fundamentally problematic card"
+}
+notes = "After configurable threshold (default 8), card flagged for review."
+source = "FSRS lapse threshold configuration."

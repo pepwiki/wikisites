@@ -1,0 +1,330 @@
+# =============================================================================
+# Domain Constraints — Oligopeptide Chemistry
+# Document ID: DCS-CHEM-001
+# Version: 1.0.0
+# Date: 2026-06-07
+# Status: APPROVED
+# Associated Yellow Paper: YP-CHEM-OLIGO-001
+# =============================================================================
+
+[metadata]
+project = "wikisites"
+scope = "Chemistry algorithms and data integrity constraints"
+last_updated = "2026-06-07"
+applicable_sites = ["ENCP", "WIKI"]
+
+# =============================================================================
+# MOLECULAR WEIGHT PRECISION
+# =============================================================================
+
+[molecular_weight]
+description = "Constraints for molecular weight calculations in Daltons (Da)"
+
+[molecular_weight.monoisotopic]
+precision_da = 0.001
+tolerance_da = 0.001
+unit = "Daltons (Da)"
+decimal_places = 4
+notes = "Monoisotopic mass uses most abundant isotope for each element. Required for mass spectrometry matching."
+source = "IUPAC recommendations for peptide mass reporting."
+
+[molecular_weight.average]
+precision_da = 0.01
+tolerance_da = 0.01
+unit = "Daltons (Da)"
+decimal_places = 2
+notes = "Average mass uses weighted isotopic abundances. Used for general chemistry calculations."
+source = "IUPAC atomic weight standards."
+
+[molecular_weight.water_loss]
+value_da = 18.01056
+tolerance_da = 0.00001
+unit = "Daltons (Da)"
+notes = "Mass of water lost per peptide bond formation. Exact value for monoisotopic calculation."
+source = "Atomic mass constants (IUPAC 2021)."
+
+[molecular_weight.peptide_bond]
+residue_mass_source = "UniProt/Swiss-Prot"
+hydrogen_loss_da = 1.00794
+hydroxyl_loss_da = 17.00274
+notes = "Peptide bond formation: -H from amino group, -OH from carboxyl group = -18.01056 Da total."
+
+# =============================================================================
+# STRUCTURAL COORDINATE PRECISION
+# =============================================================================
+
+[structural_coordinates]
+description = "Constraints for 3D structural coordinate data"
+
+[structural_coordinates.atomic_positions]
+precision_angstrom = 0.001
+tolerance_angstrom = 0.001
+unit = "Angstroms (Å)"
+decimal_places = 3
+notes = "X-ray crystallography standard resolution. NMR structures may have higher uncertainty."
+source = "PDB file format specification."
+
+[structural_coordinates.bond_lengths]
+precision_angstrom = 0.001
+tolerance_angstrom = 0.005
+unit = "Angstroms (Å)"
+notes = "Covalent bond length constraints for peptide backbone and side chains."
+source = "Engh & Huber bond parameter corrections."
+
+[structural_coordinates.bond_angles]
+precision_degrees = 0.1
+tolerance_degrees = 0.5
+unit = "Degrees (°)"
+notes = "Angular precision for Ramachandran plot analysis."
+source = "Ramachandran plot standard definitions."
+
+[structural_coordinates.dihedral_angles]
+precision_degrees = 0.1
+tolerance_degrees = 1.0
+unit = "Degrees (°)"
+notes = "Phi (φ), Psi (ψ), Omega (ω) angles for backbone conformation."
+source = "IUPAC nomenclature for torsion angles."
+
+[structural_coordinates.ramachandran]
+allowed_regions = "≥98% of residues in allowed regions"
+outlier_threshold = 2.0
+notes = "Quality metric for protein/peptide structures. Outliers flagged for review."
+source = "Lovell et al., 2003 (Ramachandran plot validation)."
+
+# =============================================================================
+# CHARGE CALCULATION
+# =============================================================================
+
+[charge_calculation]
+description = "Constraints for net charge prediction at given pH"
+
+[charge_calculation.pka_values]
+N_terminal = 9.69
+C_terminal = 2.34
+Asp = 3.65
+Glu = 4.25
+Cys = 8.18
+Tyr = 10.07
+Lys = 10.53
+Arg = 12.48
+His = 6.00
+notes = "Standard pKa values at 25°C, ionic strength 0.1 M. Actual values vary with local environment."
+source = "Bjellqvist et al., 1994; EMBOSS amino acid pKa tables."
+
+[charge_calculation.integer_exactness]
+net_charge_precision = "exact integer"
+notes = "At any given pH, the net charge must be calculated to integer precision. Fractional charges represent ensemble averages."
+source = "Henderson-Hasselbalch equation application."
+
+[charge_calculation.henderson_hasselbalch]
+equation = "pH = pKa + log10([A-]/[HA])"
+protonated_fraction = "1 / (1 + 10^(pH - pKa))"
+deprotonated_fraction = "10^(pH - pKa) / (1 + 10^(pH - pKa))"
+notes = "Foundation equation for ionization state calculations."
+source = "Henderson, 1908; Hasselbalch, 1917."
+
+[charge_calculation.ph_range]
+min = 0.0
+max = 14.0
+typical_range = [2.0, 12.0]
+notes = "Physiological pH range: 6.8–7.4. Experimental range: 2.0–12.0."
+
+# =============================================================================
+# ISOELECTRIC POINT CALCULATION
+# =============================================================================
+
+[isoelectric_point]
+description = "Constraints for isoelectric point (pI) calculation"
+
+[isoelectric_point.method]
+algorithm = "Arnon (1971) or ExPASy Compute pI/Mw"
+notes = "pI is the pH at which net charge equals zero. Computed by finding the pH between two pKa values where charge transitions through zero."
+
+[isoelectric_point.precision]
+decimal_places = 2
+tolerance = 0.1
+unit = "pH units"
+notes = "Two decimal places sufficient for educational display. Research applications may require higher precision."
+
+[isoelectric_point.edge_cases]
+notes = "Peptides with no ionizable groups (e.g., poly-Gly) have pI near neutral. Very basic peptides may have pI > 12."
+
+# =============================================================================
+# AMINO ACID PROPERTIES
+# =============================================================================
+
+[amino_acid_properties]
+description = "Reference data for standard 20 amino acids"
+
+[amino_acid_properties.molecular_weights]
+# Monoisotopic residue masses (Da) — subtract 18.01056 for free amino acid
+G = 57.02146
+A = 71.03711
+V = 99.06841
+L = 113.08406
+I = 113.08406
+P = 97.05276
+F = 147.06841
+W = 186.07931
+M = 131.04049
+S = 87.03203
+T = 101.04768
+C = 103.00919
+Y = 163.06333
+H = 137.05891
+D = 115.02694
+E = 129.04259
+N = 114.04293
+Q = 128.05858
+K = 128.09496
+R = 156.10111
+
+[amino_acid_properties.one_letter_codes]
+standard_20 = ["A", "R", "N", "D", "C", "E", "Q", "G", "H", "I", "L", "K", "M", "F", "P", "S", "T", "W", "Y", "V"]
+notes = "IUPAC standard one-letter codes for the 20 canonical amino acids."
+
+[amino_acid_properties.three_letter_codes]
+G = "Gly"
+A = "Ala"
+V = "Val"
+L = "Leu"
+I = "Ile"
+P = "Pro"
+F = "Phe"
+W = "Trp"
+M = "Met"
+S = "Ser"
+T = "Thr"
+C = "Cys"
+Y = "Tyr"
+H = "His"
+D = "Asp"
+E = "Glu"
+N = "Asn"
+Q = "Gln"
+K = "Lys"
+R = "Arg"
+
+[amino_acid_properties.classification]
+nonpolar_aliphatic = ["G", "A", "V", "L", "I", "P", "M"]
+aromatic = ["F", "W", "Y"]
+polar_uncharged = ["S", "T", "C", "N", "Q"]
+positively_charged = ["K", "R", "H"]
+negatively_charged = ["D", "E"]
+notes = "Standard biochemical classification at physiological pH."
+
+[amino_acid_properties.hydropathy_index]
+# Kyte-Doolittle scale (1982)
+I = 4.5
+V = 4.2
+L = 3.8
+F = 2.8
+C = 2.5
+M = 1.9
+A = 1.8
+G = -0.4
+T = -0.7
+S = -0.8
+W = -0.9
+Y = -1.3
+P = -1.6
+H = -3.2
+E = -3.5
+Q = -3.5
+D = -3.5
+N = -3.5
+K = -3.9
+R = -4.5
+notes = "Positive values indicate hydrophobic character. Used for transmembrane domain prediction."
+
+# =============================================================================
+# PEPTIDE BOND PROPERTIES
+# =============================================================================
+
+[peptide_bond]
+description = "Physical and chemical properties of the peptide bond"
+
+[peptide_bond.bond_length]
+C_N_angstrom = 1.33
+C_O_angstrom = 1.24
+C_alpha_C_angstrom = 1.52
+notes = "Partial double-bond character of C-N restricts rotation. Planar geometry."
+
+[peptide_bond.bond_angle]
+C_N_Calpha_degrees = 121.7
+C_alpha_C_N_degrees = 116.6
+notes = "Standard bond angles for trans peptide bond."
+
+[peptide_bond.cis_trans]
+trans_percentage = 95.0
+cis_percentage = 5.0
+notes = "Trans isomer overwhelmingly favored. Cis isomer more common before Proline."
+source = "Stewart et al., 1990."
+
+[peptide_bond.omega_angle]
+trans_omega_degrees = 180.0
+cis_omega_degrees = 0.0
+notes = "Omega (ω) angle defines cis/trans isomerism about peptide bond."
+
+# =============================================================================
+# THERMODYNAMIC CONSTRAINTS
+# =============================================================================
+
+[thermodynamics]
+description = "Energetic constraints for peptide bond formation and stability"
+
+[thermodynamics.bond_formation]
+free_energy_kj_mol = 8.0
+notes = "Gibbs free energy of peptide bond formation in aqueous solution. Positive value indicates non-spontaneous without coupling."
+source = "Fersht, 1977."
+
+[thermodynamics.hydrogen_bond]
+backbone_NH_O_kj_mol = -8.0
+side_chain_kj_mol = -4.0
+notes = "Hydrogen bond energies for secondary structure stabilization."
+source = "Pauling & Corey, 1951."
+
+[thermodynamics.hydrophobic_effect]
+transfer_free_energy_kj_mol_per_residue = -3.5
+notes = "Average free energy of transfer from water to hydrophobic environment per residue."
+source = "Tanford, 1980."
+
+[thermodynamics.secondary_structure]
+alpha_helix_kj_mol_per_residue = -1.5
+beta_sheet_kj_mol_per_residue = -1.2
+turn_kj_mol_per_residue = -0.5
+notes = "Relative stability contributions of secondary structure elements."
+source = "Chou-Fasman parameters (1974)."
+
+# =============================================================================
+# DATA INTEGRITY CONSTRAINTS
+# =============================================================================
+
+[data_integrity]
+description = "Constraints ensuring chemical data accuracy and consistency"
+
+[data_integrity.sequence_validation]
+allowed_characters = "ACDEFGHIKLMNPQRSTVWY"
+max_sequence_length = 50
+min_sequence_length = 2
+notes = "Standard 20 amino acids only. Non-standard residues (selenocysteine, pyrrolysine) handled separately."
+
+[data_integrity.formula_validation]
+method = "Sum of atomic compositions from residue formulae"
+atomic_precision = "integer atom counts"
+notes = "Molecular formula must have integer atom counts. Floating-point errors must be resolved."
+
+[data_integrity.consistency_checks]
+molecular_weight_vs_formula = "MW must agree with formula within tolerance"
+charge_vs_pI = "Charge at pI must be zero within tolerance"
+sequence_vs_properties = "All residues must be valid amino acids"
+notes = "Cross-validation constraints to catch calculation errors."
+
+[data_integrity.units]
+mass = "Daltons (Da)"
+length = "Angstroms (Å)"
+angle = "Degrees (°)"
+pH = "dimensionless"
+charge = "elementary charge units (e)"
+energy = "kJ/mol or kcal/mol (state which)"
+notes = "All values must include units. SI preferred but biochemistry conventions followed."

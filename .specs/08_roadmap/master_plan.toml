@@ -1,0 +1,705 @@
+# =============================================================================
+# Master Build Plan — Execution Graph
+# Document ID: PLAN-EXEC-001
+# Version: 1.0.0
+# Date: 2026-06-07
+# Status: APPROVED
+# Scope: Full build process from initialization through deployment
+# Method: Topological sort of DAG — tasks execute in dependency order
+# =============================================================================
+
+[metadata]
+project = "wikisites"
+version = "1.0.0"
+generated = "2026-06-07"
+domains = ["encyclopeptide.com", "wikipept.com"]
+sites = { ENCP = "encyclopeptide.com", WIKI = "wikipept.com" }
+total_tasks = 48
+critical_path = ["T-001", "T-002", "T-003", "T-004", "T-005", "T-006", "T-007", "T-008", "T-010", "T-015", "T-016", "T-018", "T-020", "T-022", "T-028", "T-030", "T-031", "T-032", "T-033", "T-034", "T-035", "T-040", "T-041", "T-042", "T-043", "T-044", "T-045", "T-046"]
+
+# =============================================================================
+# PHASE 0: Project Initialization
+# =============================================================================
+
+[[task]]
+id = "T-001"
+name = "Initialize monorepo structure"
+phase = 0
+prerequisites = []
+outputs = ["package.json", "bun.lockb", "bunfig.toml", "pnpm-workspace.yaml"]
+verification = "pnpm install succeeds"
+estimated_duration = "5 minutes"
+owner = "maintainer"
+
+[[task]]
+id = "T-002"
+name = "Configure TypeScript with strict mode"
+phase = 0
+prerequisites = ["T-001"]
+outputs = ["tsconfig.base.json", "tsconfig.encp.json", "tsconfig.wiki.json", "tsconfig.shared.json"]
+verification = "tsc --noEmit passes for all configs"
+estimated_duration = "10 minutes"
+owner = "maintainer"
+
+[[task]]
+id = "T-003"
+name = "Set up ESLint 9 flat config with TypeScript"
+phase = 0
+prerequisites = ["T-001", "T-002"]
+outputs = ["eslint.config.js"]
+verification = "eslint . --max-warnings=0 passes"
+estimated_duration = "10 minutes"
+owner = "maintainer"
+
+[[task]]
+id = "T-004"
+name = "Set up Prettier and commitlint"
+phase = 0
+prerequisites = ["T-001"]
+outputs = [".prettierrc", ".prettierignore", "commitlint.config.js"]
+verification = "prettier --check . passes"
+estimated_duration = "5 minutes"
+owner = "maintainer"
+
+[[task]]
+id = "T-005"
+name = "Configure Husky git hooks and lint-staged"
+phase = 0
+prerequisites = ["T-003", "T-004"]
+outputs = [".husky/pre-commit", ".husky/commit-msg", "lint-staged.config.js"]
+verification = "git commit with bad message is rejected"
+estimated_duration = "10 minutes"
+owner = "maintainer"
+
+# =============================================================================
+# PHASE 1: Supply Chain & Security Foundations
+# =============================================================================
+
+[[task]]
+id = "T-006"
+name = "Generate SBOM and lockfile with integrity hashes"
+phase = 1
+prerequisites = ["T-001"]
+outputs = [".specs/01_5_supply_chain/sbom.spdx", ".specs/01_5_supply_chain/supply_chain.lock"]
+verification = "lockfile contains SHA-256 hashes for all 43 direct dependencies"
+estimated_duration = "5 minutes"
+owner = "maintainer"
+
+[[task]]
+id = "T-007"
+name = "Complete vulnerability assessment"
+phase = 1
+prerequisites = ["T-006"]
+outputs = [".specs/01_5_supply_chain/vulnerability_report.md"]
+verification = "no critical CVEs on pinned versions"
+estimated_duration = "15 minutes"
+owner = "security"
+
+[[task]]
+id = "T-008"
+name = "Complete license compliance analysis"
+phase = 1
+prerequisites = ["T-006"]
+outputs = [".specs/01_5_supply_chain/license_compliance.md"]
+verification = "100% permissive licenses confirmed"
+estimated_duration = "10 minutes"
+owner = "security"
+
+[[task]]
+id = "T-009"
+name = "Replace deprecated csurf with csrf-csrf"
+phase = 1
+prerequisites = ["T-007"]
+outputs = ["package.json (updated)"]
+verification = "npm audit shows zero deprecated packages"
+estimated_duration = "15 minutes"
+owner = "security"
+
+# =============================================================================
+# PHASE 2: Architecture & Blue Papers
+# =============================================================================
+
+[[task]]
+id = "T-010"
+name = "Define Cloudflare infrastructure Blue Paper (BP-INFRA-CF-001)"
+phase = 2
+prerequisites = ["T-001", "T-002"]
+outputs = [".specs/02_architecture/BP-INFRA-CF-001.md"]
+verification = "12 IEEE 1016 sections complete"
+estimated_duration = "60 minutes"
+owner = "architect"
+
+[[task]]
+id = "T-011"
+name = "Define shared components Blue Paper (BP-COMP-SHARED-001)"
+phase = 2
+prerequisites = ["T-010"]
+outputs = [".specs/02_architecture/BP-COMP-SHARED-001.md"]
+verification = "data models, i18n, auth, analytics sections complete"
+estimated_duration = "60 minutes"
+owner = "architect"
+
+[[task]]
+id = "T-012"
+name = "Define query engine Blue Paper (BP-COMP-QUERY-001)"
+phase = 2
+prerequisites = ["T-011"]
+outputs = [".specs/02_architecture/BP-COMP-QUERY-001.md"]
+verification = "search interface, faceted search, autocomplete sections complete"
+estimated_duration = "45 minutes"
+owner = "architect"
+
+[[task]]
+id = "T-013"
+name = "Define encyclopeptide.com site Blue Paper (BP-SITE-ENCP-001)"
+phase = 2
+prerequisites = ["T-011", "T-012"]
+outputs = [".specs/02_architecture/BP-SITE-ENCP-001.md"]
+verification = "static reference site architecture documented"
+estimated_duration = "60 minutes"
+owner = "architect"
+
+[[task]]
+id = "T-014"
+name = "Define wikipept.com site Blue Paper (BP-SITE-WIKI-001)"
+phase = 2
+prerequisites = ["T-011", "T-012"]
+outputs = [".specs/02_architecture/BP-SITE-WIKI-001.md"]
+verification = "wiki platform architecture with D1, Durable Objects documented"
+estimated_duration = "60 minutes"
+owner = "architect"
+
+[[task]]
+id = "T-015"
+name = "Define interface contracts for shared library"
+phase = 2
+prerequisites = ["T-011"]
+outputs = [".specs/02_architecture/interface_contracts/interface_contracts_shared.toml"]
+verification = "32 API interfaces defined in TOML"
+estimated_duration = "30 minutes"
+owner = "architect"
+
+[[task]]
+id = "T-016"
+name = "Define oligopeptide data model and content schemas"
+phase = 2
+prerequisites = ["T-011", "T-015"]
+outputs = ["packages/shared/src/schemas/oligopeptide.ts", "packages/shared/src/schemas/content.ts"]
+verification = "Zod schemas pass type inference and validation tests"
+estimated_duration = "45 minutes"
+owner = "architect"
+
+# =============================================================================
+# PHASE 3: Security Implementation
+# =============================================================================
+
+[[task]]
+id = "T-017"
+name = "Implement Content Security Policy"
+phase = 3
+prerequisites = ["T-010"]
+outputs = ["packages/shared/src/middleware/csp.ts"]
+verification = "CSP headers block inline scripts and unauthorized origins"
+estimated_duration = "30 minutes"
+owner = "security"
+
+[[task]]
+id = "T-018"
+name = "Implement authentication/authorization subsystem"
+phase = 3
+prerequisites = ["T-015", "T-016"]
+outputs = ["packages/shared/src/auth/session.ts", "packages/shared/src/auth/rbac.ts"]
+verification = "Cloudflare Access JWT validation passes unit tests"
+estimated_duration = "60 minutes"
+owner = "security"
+
+[[task]]
+id = "T-019"
+name = "Implement input sanitization and XSS protection"
+phase = 3
+prerequisites = ["T-009", "T-016"]
+outputs = ["packages/shared/src/sanitization/html.ts", "packages/shared/src/sanitization/markdown.ts"]
+verification = "all user-supplied content passes sanitization with zero XSS vectors"
+estimated_duration = "45 minutes"
+owner = "security"
+
+[[task]]
+id = "T-020"
+name = "Implement rate limiting middleware"
+phase = 3
+prerequisites = ["T-010", "T-018"]
+outputs = ["packages/shared/src/middleware/rate-limit.ts"]
+verification = "rate limiter blocks requests exceeding threshold with 429 response"
+estimated_duration = "20 minutes"
+owner = "security"
+
+# =============================================================================
+# PHASE 4: Performance & Tooling
+# =============================================================================
+
+[[task]]
+id = "T-021"
+name = "Configure Lighthouse CI budgets and audit pipeline"
+phase = 4
+prerequisites = ["T-003"]
+outputs = ["lighthouserc.js", ".specs/04_performance/performance_requirements.md"]
+verification = "LHCI budgets: Perf ≥90, A11y ≥95, BP ≥90, SEO ≥95"
+estimated_duration = "15 minutes"
+owner = "performance"
+
+[[task]]
+id = "T-022"
+name = "Configure Playwright E2E test framework"
+phase = 4
+prerequisites = ["T-002", "T-003"]
+outputs = ["playwright.config.ts", "e2e/"]
+verification = "playwright test --list discovers all test files"
+estimated_duration = "15 minutes"
+owner = "qa"
+
+[[task]]
+id = "T-023"
+name = "Configure Vitest unit and integration test framework"
+phase = 4
+prerequisites = ["T-002", "T-003"]
+outputs = ["vitest.config.ts", "vitest.integration.config.ts", "tests/"]
+verification = "vitest run passes with coverage thresholds (80% lines, branches, functions)"
+estimated_duration = "15 minutes"
+owner = "qa"
+
+[[task]]
+id = "T-024"
+name = "Set up Pagefind static search index generation"
+phase = 4
+prerequisites = ["T-001"]
+outputs = ["scripts/generate-search-index.js"]
+verification = "pagefind --site dist produces valid index JSON"
+estimated_duration = "10 minutes"
+owner = "maintainer"
+
+[[task]]
+id = "T-025"
+name = "Configure regression detection baselines and alerting"
+phase = 4
+prerequisites = ["T-021", "T-023"]
+outputs = [".specs/06_5_regression/baseline_metrics.toml", ".specs/06_5_regression/detection_strategy.md", ".specs/06_5_regression/alerting_rules.md"]
+verification = "baseline metrics documented with thresholds"
+estimated_duration = "20 minutes"
+owner = "performance"
+
+# =============================================================================
+# PHASE 5: Site-Specific Configuration
+# =============================================================================
+
+[[task]]
+id = "T-026"
+name = "Configure Astro for encyclopeptide.com (static output)"
+phase = 5
+prerequisites = ["T-002", "T-010", "T-013"]
+outputs = ["packages/encp/astro.config.mjs"]
+verification = "astro check passes for encyclopeptide.com"
+estimated_duration = "20 minutes"
+owner = "maintainer"
+
+[[task]]
+id = "T-027"
+name = "Configure Astro for wikipept.com (hybrid output)"
+phase = 5
+prerequisites = ["T-002", "T-010", "T-014"]
+outputs = ["packages/wiki/astro.config.mjs"]
+verification = "astro check passes for wikipept.com"
+estimated_duration = "20 minutes"
+owner = "maintainer"
+
+[[task]]
+id = "T-028"
+name = "Create encyclopeptide.com content collections and schemas"
+phase = 5
+prerequisites = ["T-016", "T-026"]
+outputs = ["packages/encp/src/content/config.ts", "packages/encp/src/content/**/*.mdx"]
+verification = "content collection types are valid and schema validation passes"
+estimated_duration = "30 minutes"
+owner = "content"
+
+[[task]]
+id = "T-029"
+name = "Create wikipept.com content collections and schemas"
+phase = 5
+prerequisites = ["T-016", "T-027"]
+outputs = ["packages/wiki/src/content/config.ts", "packages/wiki/src/content/**/*.mdx"]
+verification = "wiki content schema supports community editing metadata"
+estimated_duration = "30 minutes"
+owner = "content"
+
+# =============================================================================
+# PHASE 6: CI/CD Pipeline
+# =============================================================================
+
+[[task]]
+id = "T-030"
+name = "Configure 5-stage CI pipeline (lint, test, security, build, deploy)"
+phase = 6
+prerequisites = ["T-003", "T-005", "T-009", "T-021", "T-022", "T-023"]
+outputs = [".specs/07_ci_cd/pipeline_config.toml", ".github/workflows/ci.yml"]
+verification = "pipeline runs all 5 stages in correct dependency order"
+estimated_duration = "30 minutes"
+owner = "devops"
+
+[[task]]
+id = "T-031"
+name = "Configure deployment strategy with blue-green model"
+phase = 6
+prerequisites = ["T-030"]
+outputs = [".specs/07_ci_cd/deployment_strategy.md"]
+verification = "rollback procedure documented with <30 minute target"
+estimated_duration = "20 minutes"
+owner = "devops"
+
+# =============================================================================
+# PHASE 7: Cloudflare Infrastructure Provisioning
+# =============================================================================
+
+[[task]]
+id = "T-032"
+name = "Configure DNS for encyclopeptide.com and wikipept.com"
+phase = 7
+prerequisites = ["T-010"]
+outputs = ["infrastructure/dns/zone-encp.tf", "infrastructure/dns/zone-wiki.tf"]
+verification = "DNS records resolve correctly for both domains"
+estimated_duration = "15 minutes"
+owner = "devops"
+
+[[task]]
+id = "T-033"
+name = "Provision Cloudflare Pages projects"
+phase = 7
+prerequisites = ["T-032", "T-031"]
+outputs = ["infrastructure/pages/wikisites-encp.toml", "infrastructure/pages/wikisites-wiki.toml"]
+verification = "Cloudflare Pages projects exist and accept deployments"
+estimated_duration = "15 minutes"
+owner = "devops"
+
+[[task]]
+id = "T-034"
+name = "Provision Cloudflare Workers, KV, R2, D1, Durable Objects"
+phase = 7
+prerequisites = ["T-032", "T-020"]
+outputs = ["wrangler.toml", "wrangler.jsonc"]
+verification = "wrangler dev locally simulates all bindings"
+estimated_duration = "30 minutes"
+owner = "devops"
+
+[[task]]
+id = "T-035"
+name = "Configure SSL/TLS for both domains"
+phase = 7
+prerequisites = ["T-032"]
+outputs = ["infrastructure/ssl/tls-config.toml"]
+verification = "SSL Labs grade A+ for both domains"
+estimated_duration = "10 minutes"
+owner = "devops"
+
+# =============================================================================
+# PHASE 8: Execution Graph & Build Integration
+# =============================================================================
+
+[[task]]
+id = "T-036"
+name = "Implement shared component library package"
+phase = 8
+prerequisites = ["T-011", "T-015", "T-016", "T-018", "T-019"]
+outputs = ["packages/shared/src/index.ts", "packages/shared/package.json"]
+verification = "shared package builds and exports all public APIs"
+estimated_duration = "60 minutes"
+owner = "developer"
+
+[[task]]
+id = "T-037"
+name = "Implement query engine package"
+phase = 8
+prerequisites = ["T-012", "T-036"]
+outputs = ["packages/query/src/index.ts", "packages/query/package.json"]
+verification = "query engine passes unit tests for sequence search and faceted queries"
+estimated_duration = "45 minutes"
+owner = "developer"
+
+[[task]]
+id = "T-038"
+name = "Implement encyclopeptide.com site pages and components"
+phase = 8
+prerequisites = ["T-028", "T-036", "T-037"]
+outputs = ["packages/encp/src/pages/**/*.astro", "packages/encp/src/components/**/*.tsx"]
+verification = "astro build encp succeeds with zero errors"
+estimated_duration = "90 minutes"
+owner = "developer"
+
+[[task]]
+id = "T-039"
+name = "Implement wikipept.com site pages and components"
+phase = 8
+prerequisites = ["T-029", "T-036", "T-037"]
+outputs = ["packages/wiki/src/pages/**/*.astro", "packages/wiki/src/components/**/*.tsx"]
+verification = "astro build wiki succeeds with zero errors"
+estimated_duration = "90 minutes"
+owner = "developer"
+
+[[task]]
+id = "T-040"
+name = "Implement Cloudflare Workers for dynamic features"
+phase = 8
+prerequisites = ["T-034", "T-036", "T-038", "T-039"]
+outputs = ["packages/workers/src/**/*.ts"]
+verification = "wrangler dev starts all workers, API endpoints return valid responses"
+estimated_duration = "60 minutes"
+owner = "developer"
+
+[[task]]
+id = "T-041"
+name = "Run full build pipeline end-to-end"
+phase = 8
+prerequisites = ["T-030", "T-036", "T-037", "T-038", "T-039", "T-040"]
+outputs = ["dist/encp/", "dist/wiki/"]
+verification = "full build produces output directories with expected file structure"
+estimated_duration = "5 minutes"
+owner = "developer"
+
+# =============================================================================
+# PHASE 8.5: Supply Chain Monitoring
+# =============================================================================
+
+[[task]]
+id = "T-042"
+name = "Configure Renovate for automated dependency updates"
+phase = 8
+prerequisites = ["T-009", "T-030"]
+outputs = ["renovate.json"]
+verification = "Renovate opens test PR for patch update"
+estimated_duration = "15 minutes"
+owner = "security"
+
+[[task]]
+id = "T-043"
+name = "Configure CVE scanning schedule and license compliance CI"
+phase = 8
+prerequisites = ["T-030", "T-042"]
+outputs = [".github/workflows/supply-chain-monitor.yml"]
+verification = "CI scan detects known CVEs and license violations"
+estimated_duration = "20 minutes"
+owner = "security"
+
+[[task]]
+id = "T-044"
+name = "Define supply chain alerting rules and escalation paths"
+phase = 8
+prerequisites = ["T-043"]
+outputs = [".specs/09_5_supply_monitoring/alerting_rules.md"]
+verification = "alerting rules cover critical, high, medium, low severity tiers"
+estimated_duration = "15 minutes"
+owner = "security"
+
+# =============================================================================
+# PHASE 9: Deployment & Verification
+# =============================================================================
+
+[[task]]
+id = "T-045"
+name = "Deploy to Cloudflare Pages (staging)"
+phase = 9
+prerequisites = ["T-033", "T-041"]
+outputs = ["staging-encp.wikisites.dev", "staging-wiki.wikisites.dev"]
+verification = "staging URLs return HTTP 200 and pass Lighthouse audit"
+estimated_duration = "10 minutes"
+owner = "devops"
+
+[[task]]
+id = "T-046"
+name = "Run post-deployment verification on staging"
+phase = 9
+prerequisites = ["T-045"]
+outputs = ["staging verification report"]
+verification = "E2E tests pass, Lighthouse scores meet baselines, no errors in analytics"
+estimated_duration = "30 minutes"
+owner = "qa"
+
+[[task]]
+id = "T-047"
+name = "Deploy to Cloudflare Pages (production)"
+phase = 9
+prerequisites = ["T-046"]
+outputs = ["encp.wikisites.dev", "wikipept.com"]
+verification = "production URLs return HTTP 200, SSL valid, all pages render correctly"
+estimated_duration = "10 minutes"
+owner = "devops"
+
+[[task]]
+id = "T-048"
+name = "Run production smoke tests and Lighthouse audit"
+phase = 9
+prerequisites = ["T-047"]
+outputs = ["production verification report"]
+verification = "Lighthouse Perf ≥90, A11y ≥95, BP ≥90, SEO ≥95; zero critical errors"
+estimated_duration = "15 minutes"
+owner = "qa"
+
+# =============================================================================
+# DEPENDENCY GRAPH (ADJACENCY LIST)
+# =============================================================================
+
+[graph]
+# Task ID -> list of tasks that depend on it (forward edges)
+T-001 = ["T-002", "T-003", "T-004", "T-006", "T-010", "T-024"]
+T-002 = ["T-003", "T-010", "T-022", "T-023", "T-026", "T-027"]
+T-003 = ["T-005", "T-021", "T-022", "T-023", "T-030"]
+T-004 = ["T-005"]
+T-005 = ["T-030"]
+T-006 = ["T-007", "T-008"]
+T-007 = ["T-009"]
+T-008 = []
+T-009 = ["T-019", "T-030", "T-042"]
+T-010 = ["T-013", "T-014", "T-017", "T-020", "T-026", "T-027", "T-032"]
+T-011 = ["T-012", "T-013", "T-014", "T-015", "T-036"]
+T-012 = ["T-013", "T-014", "T-037"]
+T-013 = ["T-026", "T-038"]
+T-014 = ["T-027", "T-039"]
+T-015 = ["T-016", "T-018", "T-036"]
+T-016 = ["T-019", "T-028", "T-029", "T-036"]
+T-017 = []
+T-018 = ["T-020", "T-036"]
+T-019 = ["T-036"]
+T-020 = ["T-034", "T-036"]
+T-021 = ["T-025", "T-030"]
+T-022 = ["T-030"]
+T-023 = ["T-025", "T-030"]
+T-024 = []
+T-025 = []
+T-026 = ["T-028", "T-038"]
+T-027 = ["T-029", "T-039"]
+T-028 = ["T-038"]
+T-029 = ["T-039"]
+T-030 = ["T-031", "T-041", "T-042", "T-043"]
+T-031 = ["T-033"]
+T-032 = ["T-033", "T-034", "T-035"]
+T-033 = ["T-045"]
+T-034 = ["T-040"]
+T-035 = []
+T-036 = ["T-037", "T-038", "T-039", "T-040"]
+T-037 = ["T-038", "T-039", "T-041"]
+T-038 = ["T-040", "T-041"]
+T-039 = ["T-040", "T-041"]
+T-040 = ["T-041"]
+T-041 = ["T-045"]
+T-042 = ["T-043"]
+T-043 = ["T-044"]
+T-044 = []
+T-045 = ["T-046"]
+T-046 = ["T-047"]
+T-047 = ["T-048"]
+T-048 = []
+
+# =============================================================================
+# PHASE SUMMARY
+# =============================================================================
+
+[phases."0"]
+name = "Project Initialization"
+tasks = 5
+description = "Monorepo setup, TypeScript, ESLint, Prettier, Husky"
+
+[phases."1"]
+name = "Supply Chain & Security Foundations"
+tasks = 4
+description = "SBOM, lockfile, vulnerability assessment, license compliance, csurf replacement"
+
+[phases."2"]
+name = "Architecture & Blue Papers"
+tasks = 7
+description = "IEEE 1016 Blue Papers, interface contracts, data models"
+
+[phases."3"]
+name = "Security Implementation"
+tasks = 4
+description = "CSP, auth, XSS protection, rate limiting"
+
+[phases."4"]
+name = "Performance & Tooling"
+tasks = 5
+description = "Lighthouse CI, Playwright, Vitest, Pagefind, regression baselines"
+
+[phases."5"]
+name = "Site-Specific Configuration"
+tasks = 4
+description = "Astro configs, content collections for both sites"
+
+[phases."6"]
+name = "CI/CD Pipeline"
+tasks = 2
+description = "5-stage pipeline, deployment strategy"
+
+[phases."7"]
+name = "Cloudflare Infrastructure"
+tasks = 4
+description = "DNS, Pages, Workers/KV/R2/D1, SSL/TLS"
+
+[phases."8"]
+name = "Execution Graph & Build Integration"
+tasks = 6
+description = "Shared library, query engine, both sites, Workers, full build"
+
+[phases."8.5"]
+name = "Supply Chain Monitoring"
+tasks = 3
+description = "Renovate, CVE scanning, alerting rules"
+
+[phases."9"]
+name = "Deployment & Verification"
+tasks = 4
+description = "Staging deploy, verification, production deploy, smoke tests"
+
+# =============================================================================
+# ESTIMATED TIMELINE
+# =============================================================================
+
+[timeline]
+# Parallel execution groups (critical path determines minimum duration)
+group_1 = { tasks = ["T-001"], duration = "5 min", description = "Monorepo init" }
+group_2 = { tasks = ["T-002", "T-004"], duration = "10 min", description = "TypeScript + Prettier (parallel)" }
+group_3 = { tasks = ["T-003", "T-006"], duration = "10 min", description = "ESLint + SBOM (parallel)" }
+group_4 = { tasks = ["T-005", "T-007", "T-008"], duration = "15 min", description = "Husky + Vulnerability + License (parallel)" }
+group_5 = { tasks = ["T-009"], duration = "15 min", description = "Replace csurf" }
+group_6 = { tasks = ["T-010"], duration = "60 min", description = "Infrastructure Blue Paper" }
+group_7 = { tasks = ["T-011"], duration = "60 min", description = "Shared Components Blue Paper" }
+group_8 = { tasks = ["T-012"], duration = "45 min", description = "Query Engine Blue Paper" }
+group_9 = { tasks = ["T-013", "T-014", "T-015"], duration = "60 min", description = "Site Blue Papers + Contracts (parallel)" }
+group_10 = { tasks = ["T-016", "T-017"], duration = "45 min", description = "Data models + CSP (parallel)" }
+group_11 = { tasks = ["T-018"], duration = "60 min", description = "Auth subsystem" }
+group_12 = { tasks = ["T-019", "T-020", "T-021", "T-022", "T-023", "T-024"], duration = "30 min", description = "Security + Tooling (parallel)" }
+group_13 = { tasks = ["T-025"], duration = "20 min", description = "Regression baselines" }
+group_14 = { tasks = ["T-026", "T-027"], duration = "20 min", description = "Astro configs (parallel)" }
+group_15 = { tasks = ["T-028", "T-029"], duration = "30 min", description = "Content collections (parallel)" }
+group_16 = { tasks = ["T-030"], duration = "30 min", description = "CI pipeline" }
+group_17 = { tasks = ["T-031"], duration = "20 min", description = "Deployment strategy" }
+group_18 = { tasks = ["T-032", "T-035"], duration = "15 min", description = "DNS + SSL (parallel)" }
+group_19 = { tasks = ["T-033", "T-034"], duration = "30 min", description = "Pages + Workers (parallel)" }
+group_20 = { tasks = ["T-036"], duration = "60 min", description = "Shared library impl" }
+group_21 = { tasks = ["T-037"], duration = "45 min", description = "Query engine impl" }
+group_22 = { tasks = ["T-038", "T-039"], duration = "90 min", description = "Site implementations (parallel)" }
+group_23 = { tasks = ["T-040"], duration = "60 min", description = "Workers impl" }
+group_24 = { tasks = ["T-041"], duration = "5 min", description = "Full build E2E" }
+group_25 = { tasks = ["T-042"], duration = "15 min", description = "Renovate config" }
+group_26 = { tasks = ["T-043"], duration = "20 min", description = "CVE scanning CI" }
+group_27 = { tasks = ["T-044"], duration = "15 min", description = "Alerting rules" }
+group_28 = { tasks = ["T-045"], duration = "10 min", description = "Staging deploy" }
+group_29 = { tasks = ["T-046"], duration = "30 min", description = "Staging verification" }
+group_30 = { tasks = ["T-047"], duration = "10 min", description = "Production deploy" }
+group_31 = { tasks = ["T-048"], duration = "15 min", description = "Production smoke tests" }
+
+total_estimated_duration = "~14 hours"
+critical_path_duration = "~12 hours"
+parallelism_factor = "1.17x"
+
+# =============================================================================
+# VERSION HISTORY
+# =============================================================================
+
+[version_history]
+v1.0.0 = { date = "2026-06-07", author = "Wikisites Team", notes = "Initial 48-task execution graph covering phases 0 through 9" }

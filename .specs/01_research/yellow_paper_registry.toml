@@ -1,0 +1,173 @@
+# =============================================================================
+# Yellow Paper Registry
+# Document ID: YP-REGISTRY-001
+# Version: 1.0.0
+# Date: 2026-06-07
+# Status: APPROVED
+# Scope: Phase 1 Epistemological Discovery — all Yellow Papers
+# =============================================================================
+
+[metadata]
+project = "wikisites"
+last_updated = "2026-06-07"
+total_papers = 4
+total_test_vector_sets = 2
+total_domain_constraint_sets = 2
+registry_owner = "Wikisites Knowledge Engineering Team"
+classification = "Internal — Phase 1 Epistemological Discovery"
+
+# =============================================================================
+# YELLOW PAPERS
+# =============================================================================
+
+[[yellow_paper]]
+id = "YP-CHEM-OLIGO-001"
+title = "Oligopeptide Chemistry Fundamentals"
+status = "APPROVED"
+version = "1.0.0"
+date = "2026-06-07"
+authors = ["Wikisites Knowledge Engineering Team"]
+abstract = "Comprehensive specification of oligopeptide chemistry including nomenclature, peptide bond formation thermodynamics, secondary structure hydrogen bonding, hydrophobic effects, molecular weight calculation algorithms, charge prediction models, and classification taxonomies. Defines the chemical knowledge base for both encyclopeptide.com and wikipept.com."
+sections = [
+    "Document Header",
+    "Executive Summary",
+    "Nomenclature and Notation",
+    "Theoretical Foundation",
+    "Algorithm Specification",
+    "Test Vector Specification",
+    "Domain Constraints",
+    "Bibliography",
+    "Knowledge Graph Concepts",
+    "Quality Checklist"
+]
+test_vector_ref = "test_vectors/test_vectors_chem.toml"
+domain_constraint_ref = "domain_constraints/domain_constraints_chem.toml"
+applicable_sites = ["ENCP", "WIKI"]
+
+[[yellow_paper]]
+id = "YP-BIO-OLIGO-001"
+title = "Oligopeptide Biology & Pharmacology"
+status = "APPROVED"
+version = "1.0.0"
+date = "2026-06-07"
+authors = ["Wikisites Knowledge Engineering Team"]
+abstract = "Specification of oligopeptide biological activity including biosynthesis pathways, receptor binding mechanisms, pharmacokinetic modeling, ADMET property prediction, therapeutic application taxonomies, dose-response modeling, and binding affinity algorithms. Defines the pharmacological knowledge base for educational content."
+sections = [
+    "Document Header",
+    "Executive Summary",
+    "Nomenclature and Notation",
+    "Theoretical Foundation",
+    "Algorithm Specification",
+    "Test Vector Specification",
+    "Domain Constraints",
+    "Bibliography",
+    "Knowledge Graph Concepts",
+    "Quality Checklist"
+]
+test_vector_ref = "test_vectors/test_vectors_bio.toml"
+domain_constraint_ref = "domain_constraints/domain_constraints_bio.toml"
+applicable_sites = ["ENCP", "WIKI"]
+
+[[yellow_paper]]
+id = "YP-EDU-CONTENT-001"
+title = "Educational Content Architecture"
+status = "APPROVED"
+version = "1.0.0"
+date = "2026-06-07"
+authors = ["Wikisites Knowledge Engineering Team"]
+abstract = "Specification of educational content architecture including learning science foundations, spaced repetition algorithms (FSRS), knowledge graph pedagogy, assessment design principles, difficulty estimation models, retention prediction, and content sequencing strategies. Defines the pedagogical framework for both sites."
+sections = [
+    "Document Header",
+    "Executive Summary",
+    "Nomenclature and Notation",
+    "Theoretical Foundation",
+    "Algorithm Specification",
+    "Test Vector Specification",
+    "Domain Constraints",
+    "Bibliography",
+    "Knowledge Graph Concepts",
+    "Quality Checklist"
+]
+test_vector_ref = "test_vectors/test_vectors_edu.toml"
+domain_constraint_ref = "domain_constraints/domain_constraints_edu.toml"
+applicable_sites = ["ENCP", "WIKI"]
+
+[[yellow_paper]]
+id = "YP-WEB-TECH-001"
+title = "Web Technology Stack for Educational Platforms"
+status = "APPROVED"
+version = "1.0.0"
+date = "2026-06-07"
+authors = ["Wikisites Knowledge Engineering Team"]
+abstract = "Specification of the web technology stack including Astro islands architecture, SolidJS reactivity model, Cloudflare edge computing deployment, static site generation with dynamic islands, content indexing algorithms, search ranking models, and performance optimization constraints. Defines the technical implementation framework."
+sections = [
+    "Document Header",
+    "Executive Summary",
+    "Nomenclature and Notation",
+    "Theoretical Foundation",
+    "Algorithm Specification",
+    "Test Vector Specification",
+    "Domain Constraints",
+    "Bibliography",
+    "Knowledge Graph Concepts",
+    "Quality Checklist"
+]
+test_vector_ref = "test_vectors/test_vectors_web.toml"
+domain_constraint_ref = "domain_constraints/domain_constraints_web.toml"
+applicable_sites = ["ENCP", "WIKI"]
+
+# =============================================================================
+# TEST VECTOR SETS
+# =============================================================================
+
+[[test_vector_set]]
+id = "TVS-CHEM-001"
+paper_id = "YP-CHEM-OLIGO-001"
+file = "test_vectors/test_vectors_chem.toml"
+status = "APPROVED"
+version = "1.0.0"
+total_vectors = 42
+
+[[test_vector_set]]
+id = "TVS-EDU-001"
+paper_id = "YP-EDU-CONTENT-001"
+file = "test_vectors/test_vectors_edu.toml"
+status = "APPROVED"
+version = "1.0.0"
+total_vectors = 28
+
+# =============================================================================
+# DOMAIN CONSTRAINT SETS
+# =============================================================================
+
+[[domain_constraint_set]]
+id = "DCS-CHEM-001"
+paper_id = "YP-CHEM-OLIGO-001"
+file = "domain_constraints/domain_constraints_chem.toml"
+status = "APPROVED"
+version = "1.0.0"
+
+[[domain_constraint_set]]
+id = "DCS-WEB-001"
+paper_id = "YP-WEB-TECH-001"
+file = "domain_constraints/domain_constraints_web.toml"
+status = "APPROVED"
+version = "1.0.0"
+
+# =============================================================================
+# CROSS-REFERENCE MATRIX
+# =============================================================================
+
+[cross_references]
+# Maps requirement IDs to Yellow Paper sections for traceability
+FR-001 = { paper = "YP-WEB-TECH-001", section = "Algorithm Specification — Search Ranking" }
+FR-002 = { paper = "YP-WEB-TECH-001", section = "Algorithm Specification — Content Indexing" }
+FR-005 = { paper = "YP-EDU-CONTENT-001", section = "Algorithm Specification — FSRS Scheduler" }
+FR-010 = { paper = "YP-CHEM-OLIGO-001", section = "Algorithm Specification — Molecular Weight" }
+FR-015 = { paper = "YP-BIO-OLIGO-001", section = "Algorithm Specification — Binding Affinity" }
+FR-020 = { paper = "YP-CHEM-OLIGO-001", section = "Algorithm Specification — Charge Prediction" }
+FR-025 = { paper = "YP-EDU-CONTENT-001", section = "Algorithm Specification — Difficulty Estimation" }
+FR-030 = { paper = "YP-WEB-TECH-001", section = "Domain Constraints — Performance" }
+NFR-001 = { paper = "YP-WEB-TECH-001", section = "Domain Constraints — Core Web Vitals" }
+NFR-005 = { paper = "YP-EDU-CONTENT-001", section = "Theoretical Foundation — Learning Science" }
+NFR-010 = { paper = "YP-CHEM-OLIGO-001", section = "Domain Constraints — Precision" }

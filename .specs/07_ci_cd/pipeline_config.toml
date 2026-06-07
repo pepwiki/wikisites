@@ -1,0 +1,27 @@
+[pipeline]
+name = "wikisites-ci"
+trigger = ["push", "pull_request"]
+
+[tool]
+package_manager = "bun"
+bun_version = "1.x"
+
+[[stage]]
+name = "lint"
+steps = ["eslint", "prettier-check", "typescript-check"]
+
+[[stage]]
+name = "test"
+steps = ["vitest-unit", "vitest-integration"]
+
+[[stage]]
+name = "security"
+steps = ["npm-audit", "snyk-test", "csp-check"]
+
+[[stage]]
+name = "build"
+steps = ["astro-build-encp", "astro-build-wiki"]
+
+[[stage]]
+name = "deploy"
+steps = ["cloudflare-pages-encp", "cloudflare-pages-wiki"]

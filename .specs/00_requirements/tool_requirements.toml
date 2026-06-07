@@ -1,0 +1,477 @@
+# Tool Requirements Specification
+# Document ID: TOOL-REQ-001
+# Version: 1.0.0
+# Date: 2026-06-07
+# Status: Approved
+# Scope: encyclopeptide.com and wikipept.com
+
+[metadata]
+project = "wikisites"
+version = "0.1.0"
+date = "2026-06-07"
+scope = "encyclopeptide.com and wikipept.com"
+
+# =============================================================================
+# CORE FRAMEWORK
+# =============================================================================
+
+[[tool]]
+name = "astro"
+version = ">=5.0.0"
+max_version = "<6.0.0"
+purpose = "Primary static site generator providing island architecture, content collections, view transitions, and zero-JS-by-default page rendering"
+criticality = "critical"
+install_method = "pnpm add astro"
+config_file = "astro.config.mjs"
+breaking_change_risk = "high"
+notes = "Core dependency. encyclopeptide.com uses output:'static'. wikipept.com uses output:'hybrid'."
+
+[[tool]]
+name = "solid-js"
+version = ">=1.8.0"
+max_version = "<2.0.0"
+purpose = "Reactive UI framework for interactive components requiring fine-grained reactivity, high performance, and small bundle size (~7KB gzipped)"
+criticality = "critical"
+install_method = "pnpm add solid-js @astrojs/solid-js"
+config_file = "astro.config.mjs"
+breaking_change_risk = "high"
+notes = "Used for quiz engine, flashcard system, molecular viewer wrapper, progress tracking dashboard, wiki editing interface."
+
+[[tool]]
+name = "tailwindcss"
+version = ">=4.0.0"
+max_version = "<5.0.0"
+purpose = "Utility-first CSS framework providing design system primitives, responsive design utilities, dark mode support, and CSS custom properties integration"
+criticality = "critical"
+install_method = "pnpm add tailwindcss @tailwindcss/vite"
+config_file = "tailwind.config.encyclopeptide.ts, tailwind.config.wikipept.ts"
+breaking_change_risk = "high"
+notes = "v4 native CSS custom properties required for design token definition. Separate config per site."
+
+[[tool]]
+name = "typescript"
+version = ">=5.3.0"
+max_version = "<6.0.0"
+purpose = "Static type checking for JavaScript providing type safety for component props, API responses, content schemas, and build configuration"
+criticality = "critical"
+install_method = "pnpm add -D typescript"
+config_file = "tsconfig.json"
+breaking_change_risk = "medium"
+notes = "Strict mode enabled. No 'any' type permitted. Path aliases: @/ for src/."
+
+# =============================================================================
+# RUNTIME & PACKAGE MANAGEMENT
+# =============================================================================
+
+[[tool]]
+name = "node.js"
+version = ">=20.11.0"
+max_version = "<21.0.0"
+purpose = "JavaScript runtime for build processes, development server, and tooling. Provides execution environment for Astro, Vite, Tailwind, TypeScript."
+criticality = "critical"
+install_method = "System package manager / nvm / fnm"
+config_file = ".nvmrc, .node-version"
+breaking_change_risk = "high"
+notes = "LTS version pinned in .nvmrc. All environments must use same major.minor version."
+
+[[tool]]
+name = "pnpm"
+version = ">=9.0.0"
+max_version = "<10.0.0"
+purpose = "Fast, disk-efficient package manager with strict dependency resolution, content-addressable storage, and workspace support"
+criticality = "critical"
+install_method = "corepack enable && corepack prepare pnpm@9.x --activate"
+config_file = "package.json (packageManager field), pnpm-lock.yaml, pnpm-workspace.yaml"
+breaking_change_risk = "medium"
+notes = "Lockfile committed. CI uses --frozen-lockfile. node-linker=isolated (default) for strict resolution."
+
+# =============================================================================
+# CONTENT MANAGEMENT
+# =============================================================================
+
+[[tool]]
+name = "mdx"
+version = ">=3.0.0"
+max_version = "<4.0.0"
+purpose = "Markdown authoring with JSX component embedding for content files with interactive components"
+criticality = "critical"
+install_method = "pnpm add mdx @astrojs/mdx"
+config_file = "astro.config.mjs"
+breaking_change_risk = "high"
+notes = "Frontmatter validated via Zod schemas. Supports code highlighting, math rendering, table of contents."
+
+[[tool]]
+name = "@astrojs/mdx"
+version = ">=4.0.0"
+max_version = "<5.0.0"
+purpose = "Astro integration for MDX content processing"
+criticality = "critical"
+install_method = "pnpm add @astrojs/mdx"
+breaking_change_risk = "medium"
+notes = "Must be compatible with Astro v5.x."
+
+[[tool]]
+name = "zod"
+version = ">=3.22.0"
+max_version = "<4.0.0"
+purpose = "Schema validation for content collections, API request/response validation, and build-time data validation"
+criticality = "critical"
+install_method = "pnpm add zod"
+breaking_change_risk = "low"
+notes = "Used in content collection schemas. Provides type inference for TypeScript."
+
+# =============================================================================
+# TESTING
+# =============================================================================
+
+[[tool]]
+name = "vitest"
+version = ">=2.0.0"
+max_version = "<3.0.0"
+purpose = "Unit and integration testing framework. Vite-native, Jest API compatible. Tests component logic, utilities, schemas, API handlers."
+criticality = "critical"
+install_method = "pnpm add -D vitest"
+config_file = "vitest.config.ts"
+breaking_change_risk = "medium"
+notes = "Coverage thresholds: 80% lines, 80% branches, 80% functions. Enforced in CI."
+
+[[tool]]
+name = "@vitest/coverage-v8"
+version = ">=2.0.0"
+max_version = "<3.0.0"
+purpose = "V8-based code coverage reporting for Vitest tests"
+criticality = "high"
+install_method = "pnpm add -D @vitest/coverage-v8"
+breaking_change_risk = "medium"
+notes = "Generates coverage reports in multiple formats (text, lcov, json)."
+
+[[tool]]
+name = "@playwright/test"
+version = ">=1.40.0"
+max_version = "<2.0.0"
+purpose = "End-to-end testing framework for full user journey testing in real browsers (Chromium, Firefox, WebKit)"
+criticality = "critical"
+install_method = "pnpm add -D @playwright/test"
+config_file = "playwright.config.ts"
+breaking_change_risk = "low"
+notes = "Tests run on Chromium (primary), Firefox, WebKit. Mobile testing via device emulation (iPhone 14, Pixel 7)."
+
+[[tool]]
+name = "@solidjs/testing-library"
+version = ">=1.0.0"
+max_version = "<2.0.0"
+purpose = "SolidJS component testing utilities for Vitest integration"
+criticality = "high"
+install_method = "pnpm add -D @solidjs/testing-library"
+breaking_change_risk = "low"
+notes = "Provides render, screen, fireEvent, waitFor utilities for SolidJS component tests."
+
+[[tool]]
+name = "@axe-core/playwright"
+version = ">=4.0.0"
+max_version = "<5.0.0"
+purpose = "Automated accessibility testing integration for Playwright using axe-core engine"
+criticality = "high"
+install_method = "pnpm add -D @axe-core/playwright"
+breaking_change_risk = "low"
+notes = "Runs WCAG 2.1 AA compliance checks on every page during E2E test suite."
+
+# =============================================================================
+# PERFORMANCE & AUDITING
+# =============================================================================
+
+[[tool]]
+name = "@lhci/cli"
+version = ">=0.14.0"
+max_version = "<1.0.0"
+purpose = "Lighthouse CI for automated performance, accessibility, SEO, and best practices auditing in CI/CD pipeline"
+criticality = "critical"
+install_method = "pnpm add -D @lhci/cli"
+config_file = "lighthouserc.js"
+breaking_change_risk = "low"
+notes = "Budgets: Performance ≥90, Accessibility ≥95, Best Practices ≥90, SEO ≥95. Build fails if exceeded."
+
+[[tool]]
+name = "pagefind"
+version = ">=1.0.0"
+max_version = "<2.0.0"
+purpose = "Static search index generation at build time for client-side full-text search with zero server infrastructure"
+criticality = "high"
+install_method = "pnpm add -D pagefind"
+breaking_change_risk = "low"
+notes = "Index generated via 'pagefind --site dist'. Supports CJK text. Index served as static JSON."
+
+[[tool]]
+name = "flexsearch"
+version = ">=0.7.0"
+max_version = "<0.8.0"
+purpose = "High-performance client-side full-text search for dynamic content on wikipept.com"
+criticality = "medium"
+install_method = "pnpm add flexsearch"
+breaking_change_risk = "low"
+notes = "Used alongside Pagefind for dynamic wiki pages. Custom tokenizer for scientific content."
+
+# =============================================================================
+# DEPLOYMENT & INFRASTRUCTURE
+# =============================================================================
+
+[[tool]]
+name = "cloudflare-pages"
+version = "current"
+purpose = "Static site hosting and deployment platform with global edge network (300+ cities), automatic HTTPS, preview deployments"
+criticality = "critical"
+install_method = "Cloudflare dashboard + Git integration"
+breaking_change_risk = "low"
+notes = "Build output: dist/. Build command: pnpm build. Preview deployments for PRs."
+
+[[tool]]
+name = "cloudflare-workers"
+version = "v2"
+purpose = "Serverless edge compute for dynamic features: authentication, community editing, progress tracking, search API, webhooks"
+criticality = "critical"
+install_method = "Pages Functions / wrangler"
+config_file = "wrangler.toml, wrangler.jsonc"
+breaking_change_risk = "medium"
+notes = "CPU: 50ms (paid). Memory: 128MB. Subrequests: 1000 (paid). ESM format."
+
+[[tool]]
+name = "cloudflare-r2"
+version = "current"
+purpose = "S3-compatible object storage with zero egress fees for molecular structure files, images, downloadable data, user content"
+criticality = "high"
+install_method = "Cloudflare dashboard + Workers API"
+breaking_change_risk = "low"
+notes = "Separate buckets per site. Versioning enabled. Lifecycle rules for infrequent access."
+
+[[tool]]
+name = "cloudflare-kv"
+version = "current"
+purpose = "Global low-latency key-value store for caching, session storage, feature flags, and rate limiting data"
+criticality = "high"
+install_method = "Cloudflare dashboard + Workers API"
+breaking_change_risk = "low"
+notes = "Eventually consistent. TTL-based expiration. API cache: 1hr TTL. Sessions: 24hr TTL."
+
+[[tool]]
+name = "cloudflare-d1"
+version = "current"
+purpose = "Edge-native SQLite database for user accounts, learning progress, community contributions, content metadata"
+criticality = "high"
+install_method = "Cloudflare dashboard + Workers API"
+breaking_change_risk = "low"
+notes = "SQLite semantics. Relational data for wikipept.com dynamic features."
+
+[[tool]]
+name = "cloudflare-durable-objects"
+version = "current"
+purpose = "Strongly consistent edge compute for real-time wiki collaboration, edit conflict resolution, WebSocket support"
+criticality = "high"
+install_method = "Workers API"
+breaking_change_risk = "low"
+notes = "Required for wiki editing system real-time collaboration features."
+
+[[tool]]
+name = "wrangler"
+version = ">=3.0.0"
+max_version = "<4.0.0"
+purpose = "Cloudflare Workers CLI and local development tool for testing Workers, KV, R2, D1 locally"
+criticality = "critical"
+install_method = "pnpm add -D wrangler"
+config_file = "wrangler.toml"
+breaking_change_risk = "medium"
+notes = "Local dev via 'wrangler dev'. Deployment via 'wrangler pages deploy dist'."
+
+[[tool]]
+name = "@cloudflare/workers-types"
+version = ">=4.0.0"
+max_version = "<5.0.0"
+purpose = "TypeScript type definitions for Cloudflare Workers runtime APIs"
+criticality = "high"
+install_method = "pnpm add -D @cloudflare/workers-types"
+breaking_change_risk = "low"
+notes = "Provides types for KV, R2, D1, Durable Objects, and Workers runtime."
+
+# =============================================================================
+# ANALYTICS & MONITORING
+# =============================================================================
+
+[[tool]]
+name = "cloudflare-web-analytics"
+version = "current"
+purpose = "Privacy-first, cookie-free web analytics providing page views, visitors, Core Web Vitals without tracking individuals"
+criticality = "high"
+install_method = "Cloudflare dashboard"
+breaking_change_risk = "low"
+notes = "No cookies. No consent required. GDPR/CCPA compliant by design."
+
+[[tool]]
+name = "plausible-analytics"
+version = ">=2.0.0"
+purpose = "Privacy-first, lightweight web analytics fallback. Cookie-free, GDPR/CCPA compliant. Script <1KB."
+criticality = "low"
+install_method = "Script tag / self-hosted"
+breaking_change_risk = "low"
+notes = "Optional fallback. Custom events for quiz completions, flashcard reviews, community edits."
+
+# =============================================================================
+# INTERNATIONALIZATION
+# =============================================================================
+
+[[tool]]
+name = "astro-i18next"
+version = ">=2.0.0"
+max_version = "<3.0.0"
+purpose = "Internationalization integration for Astro providing i18n routing, locale detection, translation functions"
+criticality = "high"
+install_method = "pnpm add astro-i18next"
+config_file = "astro.config.mjs"
+breaking_change_risk = "medium"
+notes = "Initial launch: EN. Phase 2: ES, FR, DE, ZH, JA. Locale-prefixed URLs (/en/, /zh/)."
+
+# =============================================================================
+# CODE QUALITY
+# =============================================================================
+
+[[tool]]
+name = "eslint"
+version = ">=9.0.0"
+max_version = "<10.0.0"
+purpose = "JavaScript/TypeScript linting for code quality, consistency, and error detection"
+criticality = "high"
+install_method = "pnpm add -D eslint @eslint/js"
+config_file = "eslint.config.js"
+breaking_change_risk = "medium"
+notes = "Flat config format (ESLint v9). Enforced in CI/CD pipeline."
+
+[[tool]]
+name = "@typescript-eslint/eslint-plugin"
+version = ">=8.0.0"
+max_version = "<9.0.0"
+purpose = "TypeScript-specific ESLint rules for type safety and code quality"
+criticality = "high"
+install_method = "pnpm add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser"
+breaking_change_risk = "medium"
+notes = "Must be compatible with TypeScript 5.x and ESLint 9.x."
+
+[[tool]]
+name = "@typescript-eslint/parser"
+version = ">=8.0.0"
+max_version = "<9.0.0"
+purpose = "TypeScript parser for ESLint enabling TypeScript-specific linting rules"
+criticality = "high"
+install_method = "pnpm add -D @typescript-eslint/parser"
+breaking_change_risk = "medium"
+notes = "Parses TypeScript source files for ESLint analysis."
+
+[[tool]]
+name = "prettier"
+version = ">=3.0.0"
+max_version = "<4.0.0"
+purpose = "Code formatting for consistent style across the codebase"
+criticality = "high"
+install_method = "pnpm add -D prettier"
+config_file = ".prettierrc"
+breaking_change_risk = "low"
+notes = "Enforced in CI/CD via format check. Integrates with ESLint."
+
+# =============================================================================
+# BUILD TOOLS & DEPENDENCIES
+# =============================================================================
+
+[[tool]]
+name = "sharp"
+version = ">=0.33.0"
+max_version = "<1.0.0"
+purpose = "High-performance image processing and optimization for molecular diagrams, educational illustrations, social cards"
+criticality = "medium"
+install_method = "pnpm add sharp"
+breaking_change_risk = "low"
+notes = "Used by Astro's built-in image optimization. Generates WebP/AVIF formats."
+
+[[tool]]
+name = "git"
+version = ">=2.0.0"
+purpose = "Version control for source code, content, configuration, and documentation"
+criticality = "critical"
+install_method = "System package manager"
+breaking_change_risk = "low"
+notes = "All changes tracked. Signed commits recommended. Branch protection on main."
+
+[[tool]]
+name = "github-actions"
+version = "current"
+purpose = "CI/CD pipeline automation for build, test, lint, audit, and deployment"
+criticality = "critical"
+install_method = ".github/workflows/ configuration"
+breaking_change_risk = "low"
+notes = "8-stage pipeline: install → typecheck → lint → test → build → E2E → Lighthouse → deploy."
+
+# =============================================================================
+# DEVELOPMENT TOOLS
+# =============================================================================
+
+[[tool]]
+name = "shiki"
+version = ">=1.0.0"
+max_version = "<2.0.0"
+purpose = "Syntax highlighting for code blocks in MDX content (chemical notation, code examples)"
+criticality = "high"
+install_method = "Built-in with Astro"
+breaking_change_risk = "low"
+notes = "Astro includes Shiki by default. Supports all major languages."
+
+[[tool]]
+name = "katex"
+version = ">=0.16.0"
+max_version = "<1.0.0"
+purpose = "LaTeX math rendering for pharmacokinetic equations, binding affinity calculations, structural formulas"
+criticality = "medium"
+install_method = "pnpm add katex"
+breaking_change_risk = "low"
+notes = "Required for mathematical content on encyclopeptide.com."
+
+# =============================================================================
+# VERSION CONSTRAINT SUMMARY
+# =============================================================================
+
+# | Tool                    | Min Version | Recommended | Max Version  | Breaking Risk |
+# |-------------------------|-------------|-------------|--------------|---------------|
+# | Astro                   | 5.0.0       | 5.x latest  | <6.0.0       | High          |
+# | SolidJS                 | 1.8.0       | 1.x latest  | <2.0.0       | High          |
+# | Tailwind CSS            | 4.0.0       | 4.x latest  | <5.0.0       | High          |
+# | TypeScript              | 5.3.0       | 5.x latest  | <6.0.0       | Medium        |
+# | Node.js                 | 20.11.0     | 20.x LTS    | <21.0.0      | High          |
+# | pnpm                    | 9.0.0       | 9.x latest  | <10.0.0      | Medium        |
+# | Vitest                  | 2.0.0       | 2.x latest  | <3.0.0       | Medium        |
+# | Playwright               | 1.40.0      | 1.x latest  | <2.0.0       | Low           |
+# | LHCI                    | 0.14.0      | 0.14.x      | <1.0.0       | Low           |
+# | Pagefind                | 1.0.0       | 1.x latest  | <2.0.0       | Low           |
+# | Wrangler                | 3.0.0       | 3.x latest  | <4.0.0       | Medium        |
+# | ESLint                  | 9.0.0       | 9.x latest  | <10.0.0      | Medium        |
+# | Prettier                | 3.0.0       | 3.x latest  | <4.0.0       | Low           |
+# | Zod                     | 3.22.0      | 3.x latest  | <4.0.0       | Low           |
+# | MDX                     | 3.0.0       | 3.x latest  | <4.0.0       | High          |
+# | astro-i18next           | 2.0.0       | 2.x latest  | <3.0.0       | Medium        |
+# | FlexSearch              | 0.7.0       | 0.7.x       | <0.8.0       | Low           |
+# | KaTeX                   | 0.16.0      | 0.16.x      | <1.0.0       | Low           |
+# | sharp                   | 0.33.0      | 0.33.x      | <1.0.0       | Low           |
+
+# =============================================================================
+# CRITICALITY CLASSIFICATION
+# =============================================================================
+
+# Critical: Failure prevents site from functioning. No workaround.
+#   → Astro, SolidJS, Tailwind CSS, TypeScript, Node.js, pnpm, Vitest,
+#     Playwright, LHCI, Cloudflare Pages, Cloudflare Workers, Zod, Wrangler, Git, GitHub Actions
+#
+# High: Failure degrades significant functionality. Workaround exists.
+#   → Pagefind, astro-i18next, Cloudflare R2, Cloudflare KV, Cloudflare D1,
+#     Cloudflare Durable Objects, Cloudflare Web Analytics, ESLint, Prettier,
+#     @typescript-eslint, @vitest/coverage-v8, @solidjs/testing-library,
+#     @axe-core/playwright, Shiki, @cloudflare/workers-types, MDX
+#
+# Medium: Failure affects non-critical feature. User can accomplish goals without it.
+#   → FlexSearch, KaTeX, sharp
+#
+# Low: Failure is cosmetic or organizational. No user impact.
+#   → Plausible Analytics

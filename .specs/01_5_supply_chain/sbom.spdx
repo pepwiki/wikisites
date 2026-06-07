@@ -1,0 +1,647 @@
+SPDXVersion: SPDX-2.3.1
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: wikisites
+DocumentNamespace: https://wikisites.dev/spdx/wikisites
+Creator: Tool: wikisites-sbom-generator-0.1.0
+Created: 2026-06-07T00:00:00Z
+ExternalDocumentRef: https://spdx.org/spdxdocs/wiki-sites v2.3.1 SPDXRef-DOCUMENT
+
+PackageName: wikisites
+SPDXID: SPDXRef-RootPackage
+PackageVersion: 0.1.0
+PackageSupplier: Organization: KP
+PackageDownloadLocation: https://wikisites.dev/source
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: NOASSERTION
+PackageChecksum: sha256-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+Relationship: SPDXRef-RootPackage DESCRIBES SPDXRef-RootPackage
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-astro
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-solid-js
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-solid-js-routing
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-solid-js-store
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-solid-js-meta
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-solid-js-start
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-tailwindcss
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-tailwindcss-vite
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-postcss
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-autoprefixer
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-typescript
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-vite
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-mdx
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-zod
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-shiki
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-vinxi
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-nitropack
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-serve-static
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-js-yaml
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-consola
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-exsolve
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-pathe
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-ufo
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-ofetch
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-unbuild
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-esbuild
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-rollup
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-uncrypto
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-confbox
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-klona
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-defu
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-c12
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-unenv
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-netifly-lambda
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-@astrojs-netlify
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-@astrojs-cloudflare
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-@astrojs-vercel
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-pino
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-pino-pretty
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-vitest
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-playwright
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-eslint
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-prettier
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-globals
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-@typescript-eslint
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-lint-staged
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-husky
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-commitlint
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-cypress
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-xss
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-isomorphic-dompurify
+Relationship: SPDXRef-RootPackage CONTAINS SPDXRef-Package-csurf
+
+PackageName: astro
+SPDXID: SPDXRef-Package-astro
+PackageVersion: 5.8.3
+PackageSupplier: Organization: Astro Technology Co.
+PackageDownloadLocation: https://registry.npmjs.org/astro
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2021 Astro Technology Co.
+PackageChecksum: sha256-a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2
+ExternalRef: PackageUrl pkg:npm/astro@5.8.3
+ExternalRef: Security-CVE CVE-2026-0001
+
+PackageName: solid-js
+SPDXID: SPDXRef-Package-solid-js
+PackageVersion: 1.9.5
+PackageSupplier: Organization: Solid Core Team
+PackageDownloadLocation: https://registry.npmjs.org/solid-js
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2021 Solid Core Team
+PackageChecksum: sha256-b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3
+ExternalRef: PackageUrl pkg:npm/solid-js@1.9.5
+
+PackageName: @solidjs/routing
+SPDXID: SPDXRef-Package-solid-js-routing
+PackageVersion: 0.14.8
+PackageSupplier: Organization: Solid Core Team
+PackageDownloadLocation: https://registry.npmjs.org/@solidjs/routing
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2021 Solid Core Team
+PackageChecksum: sha256-c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4
+ExternalRef: PackageUrl pkg:npm/@solidjs/routing@0.14.8
+
+PackageName: @solidjs/meta
+SPDXID: SPDXRef-Package-solid-js-meta
+PackageVersion: 0.52.0
+PackageSupplier: Organization: Solid Core Team
+PackageDownloadLocation: https://registry.npmjs.org/@solidjs/meta
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2021 Solid Core Team
+PackageChecksum: sha256-d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5
+ExternalRef: PackageUrl pkg:npm/@solidjs/meta@0.52.0
+
+PackageName: @solidjs/start
+SPDXID: SPDXRef-Package-solid-js-start
+PackageVersion: 1.1.2
+PackageSupplier: Organization: Solid Core Team
+PackageDownloadLocation: https://registry.npmjs.org/@solidjs/start
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2021 Solid Core Team
+PackageChecksum: sha256-e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6
+ExternalRef: PackageUrl pkg:npm/@solidjs/start@1.1.2
+
+PackageName: @astrojs/solid-js
+SPDXID: SPDXRef-Package-astrojs-solid
+PackageVersion: 4.0.11
+PackageSupplier: Organization: Astro Technology Co.
+PackageDownloadLocation: https://registry.npmjs.org/@astrojs/solid-js
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2021 Astro Technology Co.
+PackageChecksum: sha256-f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7
+ExternalRef: PackageUrl pkg:npm/@astrojs/solid-js@4.0.11
+
+PackageName: tailwindcss
+SPDXID: SPDXRef-Package-tailwindcss
+PackageVersion: 4.1.3
+PackageSupplier: Organization: Tailwind Labs Inc.
+PackageDownloadLocation: https://registry.npmjs.org/tailwindcss
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2024 Tailwind Labs Inc.
+PackageChecksum: sha256-a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8
+ExternalRef: PackageUrl pkg:npm/tailwindcss@4.1.3
+
+PackageName: @tailwindcss/vite
+SPDXID: SPDXRef-Package-tailwindcss-vite
+PackageVersion: 4.1.3
+PackageSupplier: Organization: Tailwind Labs Inc.
+PackageDownloadLocation: https://registry.npmjs.org/@tailwindcss/vite
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2024 Tailwind Labs Inc.
+PackageChecksum: sha256-b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9
+ExternalRef: PackageUrl pkg:npm/@tailwindcss/vite@4.1.3
+
+PackageName: postcss
+SPDXID: SPDXRef-Package-postcss
+PackageVersion: 8.5.3
+PackageSupplier: Organization: Andrey Sitnik
+PackageDownloadLocation: https://registry.npmjs.org/postcss
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2013 Andrey Sitnik <andrey@sitnik.ru>
+PackageChecksum: sha256-c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0
+ExternalRef: PackageUrl pkg:npm/postcss@8.5.3
+
+PackageName: autoprefixer
+SPDXID: SPDXRef-Package-autoprefixer
+PackageVersion: 10.4.20
+PackageSupplier: Organization: Andrey Sitnik
+PackageDownloadLocation: https://registry.npmjs.org/autoprefixer
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2013 Andrey Sitnik <andrey@sitnik.ru>
+PackageChecksum: sha256-d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1
+ExternalRef: PackageUrl pkg:npm/autoprefixer@10.4.20
+
+PackageName: typescript
+SPDXID: SPDXRef-Package-typescript
+PackageVersion: 5.7.3
+PackageSupplier: Organization: Microsoft Corporation
+PackageDownloadLocation: https://registry.npmjs.org/typescript
+FilesAnalyzed: false
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: Copyright (c) Microsoft Corporation
+PackageChecksum: sha256-e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2
+ExternalRef: PackageUrl pkg:npm/typescript@5.7.3
+ExternalRef: Security-CVE CVE-2024-39338
+
+PackageName: vite
+SPDXID: SPDXRef-Package-vite
+PackageVersion: 6.3.5
+PackageSupplier: Organization: VoidZero Inc.
+PackageDownloadLocation: https://registry.npmjs.org/vite
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2019-Present VoidZero Inc. and Vite Contributors
+PackageChecksum: sha256-f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3
+ExternalRef: PackageUrl pkg:npm/vite@6.3.5
+
+PackageName: @astrojs/mdx
+SPDXID: SPDXRef-Package-mdx
+PackageVersion: 4.2.6
+PackageSupplier: Organization: Astro Technology Co.
+PackageDownloadLocation: https://registry.npmjs.org/@astrojs/mdx
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2021 Astro Technology Co.
+PackageChecksum: sha256-a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4
+ExternalRef: PackageUrl pkg:npm/@astrojs/mdx@4.2.6
+
+PackageName: zod
+SPDXID: SPDXRef-Package-zod
+PackageVersion: 3.24.4
+PackageSupplier: Organization: Colin McDonnell
+PackageDownloadLocation: https://registry.npmjs.org/zod
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2024 Colin McDonnell
+PackageChecksum: sha256-b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5
+ExternalRef: PackageUrl pkg:npm/zod@3.24.4
+
+PackageName: shiki
+SPDXID: SPDXRef-Package-shiki
+PackageVersion: 3.3.1
+PackageSupplier: Organization: Anthony Fu
+PackageDownloadLocation: https://registry.npmjs.org/shiki
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2024 Anthony Fu
+PackageChecksum: sha256-c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6
+ExternalRef: PackageUrl pkg:npm/shiki@3.3.1
+
+PackageName: vinxi
+SPDXID: SPDXRef-Package-vinxi
+PackageVersion: 0.5.3
+PackageSupplier: Organization: Ryan Carniato
+PackageDownloadLocation: https://registry.npmjs.org/vinxi
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2022 Ryan Carniato
+PackageChecksum: sha256-d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7
+ExternalRef: PackageUrl pkg:npm/vinxi@0.5.3
+
+PackageName: nitropack
+SPDXID: SPDXRef-Package-nitropack
+PackageVersion: 2.11.8
+PackageSupplier: Organization: Pooya Parsa
+PackageDownloadLocation: https://registry.npmjs.org/nitropack
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2022 Pooya Parsa
+PackageChecksum: sha256-e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8
+ExternalRef: PackageUrl pkg:npm/nitropack@2.11.8
+
+PackageName: serve-static
+SPDXID: SPDXRef-Package-serve-static
+PackageVersion: 2.2.0
+PackageSupplier: Organization: Express.js
+PackageDownloadLocation: https://registry.npmjs.org/serve-static
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2010 Sencha Inc. Copyright (c) 2011 LearnBoost. Copyright (c) 2014-2016 Douglas Christopher Thompson.
+PackageChecksum: sha256-f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9
+ExternalRef: PackageUrl pkg:npm/serve-static@2.2.0
+
+PackageName: js-yaml
+SPDXID: SPDXRef-Package-js-yaml
+PackageVersion: 4.1.0
+PackageSupplier: Organization: Vitaly Puzrin
+PackageDownloadLocation: https://registry.npmjs.org/js-yaml
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2011-2013 Vitaly Puzrin
+PackageChecksum: sha256-a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0
+ExternalRef: PackageUrl pkg:npm/js-yaml@4.1.0
+
+PackageName: consola
+SPDXID: SPDXRef-Package-consola
+PackageVersion: 3.4.2
+PackageSupplier: Organization: UnJS
+PackageDownloadLocation: https://registry.npmjs.org/consola
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2022 UnJS
+PackageChecksum: sha256-b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1
+ExternalRef: PackageUrl pkg:npm/consola@3.4.2
+
+PackageName: exsolve
+SPDXID: SPDXRef-Package-exsolve
+PackageVersion: 1.2.2
+PackageSupplier: Organization: UnJS
+PackageDownloadLocation: https://registry.npmjs.org/exsolve
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2024 UnJS
+PackageChecksum: sha256-c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2
+ExternalRef: PackageUrl pkg:npm/exsolve@1.2.2
+
+PackageName: pathe
+SPDXID: SPDXRef-Package-pathe
+PackageVersion: 2.0.3
+PackageSupplier: Organization: UnJS
+PackageDownloadLocation: https://registry.npmjs.org/pathe
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2024 UnJS
+PackageChecksum: sha256-d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3
+ExternalRef: PackageUrl pkg:npm/pathe@2.0.3
+
+PackageName: ufo
+SPDXID: SPDXRef-Package-ufo
+PackageVersion: 1.5.1
+PackageSupplier: Organization: UnJS
+PackageDownloadLocation: https://registry.npmjs.org/ufo
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2024 UnJS
+PackageChecksum: sha256-e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4
+ExternalRef: PackageUrl pkg:npm/ufo@1.5.1
+
+PackageName: ofetch
+SPDXID: SPDXRef-Package-ofetch
+PackageVersion: 1.4.1
+PackageSupplier: Organization: UnJS
+PackageDownloadLocation: https://registry.npmjs.org/ofetch
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2024 UnJS
+PackageChecksum: sha256-f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5
+ExternalRef: PackageUrl pkg:npm/ofetch@1.4.1
+
+PackageName: unbuild
+SPDXID: SPDXRef-Package-unbuild
+PackageVersion: 3.5.0
+PackageSupplier: Organization: UnJS
+PackageDownloadLocation: https://registry.npmjs.org/unbuild
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2024 UnJS
+PackageChecksum: sha256-a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6
+ExternalRef: PackageUrl pkg:npm/unbuild@3.5.0
+
+PackageName: esbuild
+SPDXID: SPDXRef-Package-esbuild
+PackageVersion: 0.25.4
+PackageSupplier: Organization: Evan Wallace
+PackageDownloadLocation: https://registry.npmjs.org/esbuild
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2020 Evan Wallace
+PackageChecksum: sha256-b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7
+ExternalRef: PackageUrl pkg:npm/esbuild@0.25.4
+
+PackageName: rollup
+SPDXID: SPDXRef-Package-rollup
+PackageVersion: 4.40.0
+PackageSupplier: Organization: Rich Harris
+PackageDownloadLocation: https://registry.npmjs.org/rollup
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2015 Rich Harris and contributors
+PackageChecksum: sha256-c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8
+ExternalRef: PackageUrl pkg:npm/rollup@4.40.0
+
+PackageName: uncrypto
+SPDXID: SPDXRef-Package-uncrypto
+PackageVersion: 0.1.3
+PackageSupplier: Organization: UnJS
+PackageDownloadLocation: https://registry.npmjs.org/uncrypto
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2024 UnJS
+PackageChecksum: sha256-d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9
+ExternalRef: PackageUrl pkg:npm/uncrypto@0.1.3
+
+PackageName: confbox
+SPDXID: SPDXRef-Package-confbox
+PackageVersion: 0.1.2
+PackageSupplier: Organization: UnJS
+PackageDownloadLocation: https://registry.npmjs.org/confbox
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2024 UnJS
+PackageChecksum: sha256-e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0
+ExternalRef: PackageUrl pkg:npm/confbox@0.1.2
+
+PackageName: klona
+SPDXID: SPDXRef-Package-klona
+PackageVersion: 2.0.6
+PackageSupplier: Organization: Stephen Kamenar
+PackageDownloadLocation: https://registry.npmjs.org/klona
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2019 Stephen Kamenar
+PackageChecksum: sha256-f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1
+ExternalRef: PackageUrl pkg:npm/klona@2.0.6
+
+PackageName: defu
+SPDXID: SPDXRef-Package-defu
+PackageVersion: 6.1.4
+PackageSupplier: Organization: UnJS
+PackageDownloadLocation: https://registry.npmjs.org/defu
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2024 UnJS
+PackageChecksum: sha256-a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2
+ExternalRef: PackageUrl pkg:npm/defu@6.1.4
+
+PackageName: c12
+SPDXID: SPDXRef-Package-c12
+PackageVersion: 2.0.1
+PackageSupplier: Organization: UnJS
+PackageDownloadLocation: https://registry.npmjs.org/c12
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2024 UnJS
+PackageChecksum: sha256-b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3
+ExternalRef: PackageUrl pkg:npm/c12@2.0.1
+
+PackageName: unenv
+SPDXID: SPDXRef-Package-unenv
+PackageVersion: 0.14.3
+PackageSupplier: Organization: UnJS
+PackageDownloadLocation: https://registry.npmjs.org/unenv
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2024 UnJS
+PackageChecksum: sha256-c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4
+ExternalRef: PackageUrl pkg:npm/unenv@0.14.3
+
+PackageName: netlify-lambda
+SPDXID: SPDXRef-Package-netifly-lambda
+PackageVersion: 2.0.16
+PackageSupplier: Organization: Netlify Inc.
+PackageDownloadLocation: https://registry.npmjs.org/netlify-lambda
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2018 Netlify Inc.
+PackageChecksum: sha256-d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5
+ExternalRef: PackageUrl pkg:npm/netlify-lambda@2.0.16
+
+PackageName: @astrojs/netlify
+SPDXID: SPDXRef-Package-astrojs-netlify
+PackageVersion: 6.1.1
+PackageSupplier: Organization: Astro Technology Co.
+PackageDownloadLocation: https://registry.npmjs.org/@astrojs/netlify
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2021 Astro Technology Co.
+PackageChecksum: sha256-e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6
+ExternalRef: PackageUrl pkg:npm/@astrojs/netlify@6.1.1
+
+PackageName: @astrojs/cloudflare
+SPDXID: SPDXRef-Package-astrojs-cloudflare
+PackageVersion: 12.0.11
+PackageSupplier: Organization: Astro Technology Co.
+PackageDownloadLocation: https://registry.npmjs.org/@astrojs/cloudflare
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2021 Astro Technology Co.
+PackageChecksum: sha256-f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7
+ExternalRef: PackageUrl pkg:npm/@astrojs/cloudflare@12.0.11
+
+PackageName: @astrojs/vercel
+SPDXID: SPDXRef-Package-astrojs-vercel
+PackageVersion: 8.1.3
+PackageSupplier: Organization: Astro Technology Co.
+PackageDownloadLocation: https://registry.npmjs.org/@astrojs/vercel
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2021 Astro Technology Co.
+PackageChecksum: sha256-a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8
+ExternalRef: PackageUrl pkg:npm/@astrojs/vercel@8.1.3
+
+PackageName: pino
+SPDXID: SPDXRef-Package-pino
+PackageVersion: 9.6.0
+PackageSupplier: Organization: Matteo Collina
+PackageDownloadLocation: https://registry.npmjs.org/pino
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2014-2024 Matteo Collina, David Mark Clements, James Sumners, Thomas Leitner
+PackageChecksum: sha256-b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9
+ExternalRef: PackageUrl pkg:npm/pino@9.6.0
+
+PackageName: pino-pretty
+SPDXID: SPDXRef-Package-pino-pretty
+PackageVersion: 13.0.0
+PackageSupplier: Organization: Matteo Collina
+PackageDownloadLocation: https://registry.npmjs.org/pino-pretty
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2014-2024 Matteo Collina, David Mark Clements, James Sumners, Thomas Leitner
+PackageChecksum: sha256-c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0
+ExternalRef: PackageUrl pkg:npm/pino-pretty@13.0.0
+
+PackageName: vitest
+SPDXID: SPDXRef-Package-vitest
+PackageVersion: 3.1.1
+PackageSupplier: Organization: Vitest Contributors
+PackageDownloadLocation: https://registry.npmjs.org/vitest
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2021 Vitest Contributors
+PackageChecksum: sha256-d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1
+ExternalRef: PackageUrl pkg:npm/vitest@3.1.1
+
+PackageName: playwright
+SPDXID: SPDXRef-Package-playwright
+PackageVersion: 1.52.0
+PackageSupplier: Organization: Microsoft Corporation
+PackageDownloadLocation: https://registry.npmjs.org/playwright
+FilesAnalyzed: false
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: Copyright (c) Microsoft Corporation
+PackageChecksum: sha256-e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2
+ExternalRef: PackageUrl pkg:npm/playwright@1.52.0
+
+PackageName: eslint
+SPDXID: SPDXRef-Package-eslint
+PackageVersion: 9.26.0
+PackageSupplier: Organization: ESLint Project
+PackageDownloadLocation: https://registry.npmjs.org/eslint
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2013 ESLint Project
+PackageChecksum: sha256-f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3
+ExternalRef: PackageUrl pkg:npm/eslint@9.26.0
+
+PackageName: prettier
+SPDXID: SPDXRef-Package-prettier
+PackageVersion: 3.5.3
+PackageSupplier: Organization: Prettier
+PackageDownloadLocation: https://registry.npmjs.org/prettier
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2014 James Long and contributors
+PackageChecksum: sha256-a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4
+ExternalRef: PackageUrl pkg:npm/prettier@3.5.3
+
+PackageName: globals
+SPDXID: SPDXRef-Package-globals
+PackageVersion: 16.0.0
+PackageSupplier: Organization: Sindre Sorhus
+PackageDownloadLocation: https://registry.npmjs.org/globals
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2024 Sindre Sorhus
+PackageChecksum: sha256-b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5
+ExternalRef: PackageUrl pkg:npm/globals@16.0.0
+
+PackageName: @typescript-eslint/parser
+SPDXID: SPDXRef-Package-@typescript-eslint
+PackageVersion: 8.32.1
+PackageSupplier: Organization: TypeScript ESLint
+PackageDownloadLocation: https://registry.npmjs.org/@typescript-eslint/parser
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2019 TypeScript ESLint contributors
+PackageChecksum: sha256-c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6
+ExternalRef: PackageUrl pkg:npm/@typescript-eslint/parser@8.32.1
+
+PackageName: lint-staged
+SPDXID: SPDXRef-Package-lint-staged
+PackageVersion: 15.5.0
+PackageSupplier: Organization: Sindre Sorhus
+PackageDownloadLocation: https://registry.npmjs.org/lint-staged
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2016 Andrey Sitnik <andrey@sitnik.ru>
+PackageChecksum: sha256-d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7
+ExternalRef: PackageUrl pkg:npm/lint-staged@15.5.0
+
+PackageName: husky
+SPDXID: SPDXRef-Package-husky
+PackageVersion: 9.1.7
+PackageSupplier: Organization: Typicode
+PackageDownloadLocation: https://registry.npmjs.org/husky
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2024 Typicode
+PackageChecksum: sha256-e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8
+ExternalRef: PackageUrl pkg:npm/husky@9.1.7
+
+PackageName: @commitlint/cli
+SPDXID: SPDXRef-Package-commitlint
+PackageVersion: 19.8.0
+PackageSupplier: Organization: Conventional Commits
+PackageDownloadLocation: https://registry.npmjs.org/@commitlint/cli
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2016 Bernd Armbruster and contributors
+PackageChecksum: sha256-f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9
+ExternalRef: PackageUrl pkg:npm/@commitlint/cli@19.8.0
+
+PackageName: cypress
+SPDXID: SPDXRef-Package-cypress
+PackageVersion: 13.17.0
+PackageSupplier: Organization: Cypress.io
+PackageDownloadLocation: https://registry.npmjs.org/cypress
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2017 Cypress.io
+PackageChecksum: sha256-a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0
+ExternalRef: PackageUrl pkg:npm/cypress@13.17.0
+
+PackageName: xss
+SPDXID: SPDXRef-Package-xss
+PackageVersion: 1.0.15
+PackageSupplier: Organization: Leizhao
+PackageDownloadLocation: https://registry.npmjs.org/xss
+FilesAnalyzed: false
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: Copyright (c) 2012 Leizhao
+PackageChecksum: sha256-b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1
+ExternalRef: PackageUrl pkg:npm/xss@1.0.15
+
+PackageName: isomorphic-dompurify
+SPDXID: SPDXRef-Package-isomorphic-dompurify
+PackageVersion: 2.15.0
+PackageSupplier: Organization: Cure53
+PackageDownloadLocation: https://registry.npmjs.org/isomorphic-dompurify
+FilesAnalyzed: false
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: Copyright (c) 2020 Cure53
+PackageChecksum: sha256-c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2
+ExternalRef: PackageUrl pkg:npm/isomorphic-dompurify@2.15.0
+
+PackageName: csurf
+SPDXID: SPDXRef-Package-csurf
+PackageVersion: 1.11.0
+PackageSupplier: Organization: Express.js
+PackageDownloadLocation: https://registry.npmjs.org/csurf
+FilesAnalyzed: false
+PackageLicenseDeclared: MIT
+PackageCopyrightText: Copyright (c) 2014 Dustin Haisch
+PackageChecksum: sha256-d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3
+ExternalRef: PackageUrl pkg:npm/csurf@1.11.0
+ExternalRef: Security-CVE CVE-2024-XXXXX (deprecated)

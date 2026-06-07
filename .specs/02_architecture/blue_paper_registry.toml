@@ -1,0 +1,211 @@
+# =============================================================================
+# Blue Paper Registry
+# Document ID: BP-REGISTRY-001
+# Version: 1.0.0
+# Date: 2026-06-07
+# Status: DRAFT
+# Scope: Phase 2 Architectural Specification — all Blue Papers
+# =============================================================================
+
+[metadata]
+project = "wikisites"
+last_updated = "2026-06-07"
+total_papers = 6
+registry_owner = "Wikisites Architecture Team"
+classification = "Internal — Phase 2 Architectural Specification"
+ieee_standard = "IEEE 1016-2024"
+phase = 2
+
+# =============================================================================
+# BLUE PAPERS
+# =============================================================================
+
+[[blue_paper]]
+id = "BP-SITE-ENCP-001"
+title = "Encyclopeptide.com Site Architecture"
+status = "DRAFT"
+version = "1.0.0"
+date = "2026-06-07"
+authors = ["Wikisites Architecture Team"]
+abstract = "IEEE 1016 compliant architectural specification for encyclopeptide.com — the formal encyclopedic oligopeptide reference site. Covers system purpose and scope, design decomposition into 12 Blue Paper sections, design rationale for Astro/SolidJS/Cloudflare stack decisions, requirements traceability matrix, interface contracts for all API surfaces, oligopeptide data model and content schema, component design with state machines and sequence diagrams, Cloudflare Pages deployment topology, formal verification properties, HAL specification for edge abstraction, compliance matrix, and quality checklist."
+sections = [
+    "BP-1: Design Overview",
+    "BP-2: Design Decomposition",
+    "BP-3: Design Rationale",
+    "BP-4: Traceability",
+    "BP-5: Interface Design",
+    "BP-6: Data Design",
+    "BP-7: Component Design",
+    "BP-8: Deployment Design",
+    "BP-9: Formal Verification",
+    "BP-10: HAL Specification",
+    "BP-11: Compliance Matrix",
+    "BP-12: Quality Checklist"
+]
+applicable_sites = ["ENCP"]
+yellow_paper_refs = ["YP-CHEM-OLIGO-001", "YP-BIO-OLIGO-001", "YP-WEB-TECH-001"]
+requirement_refs = ["FR-001", "FR-003", "FR-004", "FR-005", "FR-006", "FR-008", "FR-009", "FR-010", "FR-011", "FR-012", "FR-013", "FR-014", "FR-015", "FR-016", "FR-017", "FR-018", "FR-019", "FR-020", "FR-021", "FR-022", "FR-023", "FR-024", "FR-025", "FR-026", "FR-027", "FR-028", "FR-029", "FR-030", "FR-049", "FR-050", "NFR-001", "NFR-002", "NFR-003", "NFR-004", "NFR-005", "NFR-006", "NFR-007", "NFR-008", "NFR-009", "NFR-010", "NFR-011", "NFR-012", "NFR-013", "NFR-014", "NFR-015", "NFR-016", "NFR-017", "NFR-018", "NFR-019"]
+
+[[blue_paper]]
+id = "BP-SITE-WIKI-001"
+title = "Wikipept.com Site Architecture"
+status = "DRAFT"
+version = "1.0.0"
+date = "2026-06-07"
+authors = ["Wikisites Architecture Team"]
+abstract = "IEEE 1016 compliant architectural specification for wikipept.com — the collaborative wiki-style oligopeptide educational platform. Covers wiki editing system architecture, quiz and flashcard engine design, user contribution workflow, community moderation system, spaced repetition scheduler integration, progress tracking subsystem, and hybrid static/dynamic deployment model on Cloudflare."
+sections = [
+    "BP-1: Design Overview",
+    "BP-2: Design Decomposition",
+    "BP-3: Design Rationale",
+    "BP-4: Traceability",
+    "BP-5: Interface Design",
+    "BP-6: Data Design",
+    "BP-7: Component Design",
+    "BP-8: Deployment Design",
+    "BP-9: Formal Verification",
+    "BP-10: HAL Specification",
+    "BP-11: Compliance Matrix",
+    "BP-12: Quality Checklist"
+]
+applicable_sites = ["WIKI"]
+yellow_paper_refs = ["YP-CHEM-OLIGO-001", "YP-BIO-OLIGO-001", "YP-EDU-CONTENT-001", "YP-WEB-TECH-001"]
+requirement_refs = ["FR-001", "FR-002", "FR-005", "FR-007", "FR-008", "FR-009", "FR-010", "FR-011", "FR-012", "FR-013", "FR-014", "FR-015", "FR-031", "FR-032", "FR-033", "FR-034", "FR-035", "FR-036", "FR-037", "FR-038", "FR-039", "FR-040", "FR-041", "FR-042", "FR-043", "FR-044", "FR-045", "FR-046", "FR-047", "FR-048", "FR-049", "FR-050", "NFR-001", "NFR-002", "NFR-003", "NFR-004", "NFR-006", "NFR-007", "NFR-008", "NFR-009", "NFR-010", "NFR-011", "NFR-012", "NFR-013", "NFR-014", "NFR-015", "NFR-016", "NFR-017", "NFR-018", "NFR-019"]
+
+[[blue_paper]]
+id = "BP-COMP-SHARED-001"
+title = "Shared Components Library"
+status = "DRAFT"
+version = "1.0.0"
+date = "2026-06-07"
+authors = ["Wikisites Architecture Team"]
+abstract = "IEEE 1016 compliant architectural specification for the shared component library consumed by both encyclopeptide.com and wikipept.com. Covers oligopeptide data models, molecular structure renderer integration, search engine abstraction, internationalization system, authentication/authorization subsystem, and analytics pipeline."
+sections = [
+    "BP-1: Design Overview",
+    "BP-2: Design Decomposition",
+    "BP-3: Design Rationale",
+    "BP-4: Traceability",
+    "BP-5: Interface Design",
+    "BP-6: Data Design",
+    "BP-7: Component Design",
+    "BP-8: Deployment Design",
+    "BP-9: Formal Verification",
+    "BP-10: HAL Specification",
+    "BP-11: Compliance Matrix",
+    "BP-12: Quality Checklist"
+]
+applicable_sites = ["SHARED"]
+yellow_paper_refs = ["YP-CHEM-OLIGO-001", "YP-BIO-OLIGO-001", "YP-WEB-TECH-001"]
+
+[[blue_paper]]
+id = "BP-COMP-QUERY-001"
+title = "Query Engine Component"
+status = "DRAFT"
+version = "1.0.0"
+date = "2026-06-07"
+authors = ["Wikisites Architecture Team"]
+abstract = "IEEE 1016 compliant architectural specification for the oligopeptide database query engine. Covers query interface design, search indexing pipeline, faceted search implementation, autocomplete subsystem, cross-reference lookup, and sequence-based search algorithms."
+sections = [
+    "BP-1: Design Overview",
+    "BP-2: Design Decomposition",
+    "BP-3: Design Rationale",
+    "BP-4: Traceability",
+    "BP-5: Interface Design",
+    "BP-6: Data Design",
+    "BP-7: Component Design",
+    "BP-8: Deployment Design",
+    "BP-9: Formal Verification",
+    "BP-10: HAL Specification",
+    "BP-11: Compliance Matrix",
+    "BP-12: Quality Checklist"
+]
+applicable_sites = ["SHARED"]
+yellow_paper_refs = ["YP-CHEM-OLIGO-001", "YP-WEB-TECH-001"]
+
+[[blue_paper]]
+id = "BP-INFRA-CF-001"
+title = "Cloudflare Infrastructure"
+status = "DRAFT"
+version = "1.0.0"
+date = "2026-06-07"
+authors = ["Wikisites Architecture Team"]
+abstract = "IEEE 1016 compliant architectural specification for the Cloudflare infrastructure layer. Covers Pages configuration, Workers routes, R2 storage for assets, KV for caching, D1 for database, Durable Objects for wiki collaboration, DNS configuration, SSL/TLS setup, and edge computing topology."
+sections = [
+    "BP-1: Design Overview",
+    "BP-2: Design Decomposition",
+    "BP-3: Design Rationale",
+    "BP-4: Traceability",
+    "BP-5: Interface Design",
+    "BP-6: Data Design",
+    "BP-7: Component Design",
+    "BP-8: Deployment Design",
+    "BP-9: Formal Verification",
+    "BP-10: HAL Specification",
+    "BP-11: Compliance Matrix",
+    "BP-12: Quality Checklist"
+]
+applicable_sites = ["SHARED"]
+yellow_paper_refs = ["YP-WEB-TECH-001"]
+
+# =============================================================================
+# CROSS-REFERENCE MATRIX
+# =============================================================================
+
+[cross_references]
+# Maps Blue Paper IDs to Yellow Paper IDs for traceability
+BP-SITE-ENCP-001 = ["YP-CHEM-OLIGO-001", "YP-BIO-OLIGO-001", "YP-WEB-TECH-001"]
+BP-SITE-WIKI-001 = ["YP-CHEM-OLIGO-001", "YP-BIO-OLIGO-001", "YP-EDU-CONTENT-001", "YP-WEB-TECH-001"]
+BP-COMP-SHARED-001 = ["YP-CHEM-OLIGO-001", "YP-BIO-OLIGO-001", "YP-WEB-TECH-001"]
+BP-COMP-QUERY-001 = ["YP-CHEM-OLIGO-001", "YP-WEB-TECH-001"]
+BP-INFRA-CF-001 = ["YP-WEB-TECH-001"]
+
+# Maps requirement categories to Blue Papers
+search_requirements = ["BP-COMP-QUERY-001", "BP-SITE-ENCP-001", "BP-SITE-WIKI-001"]
+content_requirements = ["BP-SITE-ENCP-001", "BP-SITE-WIKI-001"]
+infrastructure_requirements = ["BP-INFRA-CF-001"]
+shared_component_requirements = ["BP-COMP-SHARED-001"]
+
+# =============================================================================
+# DEPENDENCY GRAPH
+# =============================================================================
+
+[dependencies]
+# Infrastructure is foundational — all other Blue Papers depend on it
+BP-INFRA-CF-001 = []
+BP-COMP-SHARED-001 = ["BP-INFRA-CF-001"]
+BP-COMP-QUERY-001 = ["BP-COMP-SHARED-001", "BP-INFRA-CF-001"]
+BP-SITE-ENCP-001 = ["BP-COMP-SHARED-001", "BP-COMP-QUERY-001", "BP-INFRA-CF-001"]
+BP-SITE-WIKI-001 = ["BP-COMP-SHARED-001", "BP-COMP-QUERY-001", "BP-INFRA-CF-001"]
+
+# =============================================================================
+# SUPPORTING ARTIFACTS
+# =============================================================================
+
+[artifacts]
+
+[artifacts.interface_contracts]
+file = "interface_contracts/interface_contracts_shared.toml"
+description = "TOML interface contracts for shared component library APIs"
+source_paper = "BP-COMP-SHARED-001"
+interfaces_defined = 32
+modules = ["data_models", "calculations", "search", "i18n", "auth", "analytics", "errors"]
+
+[artifacts.proofs]
+file = "proofs/proof_oligo_classification.lean"
+description = "Lean4 proof skeleton for oligopeptide classification algorithm"
+source_papers = ["BP-COMP-SHARED-001", "BP-COMP-QUERY-001"]
+properties_proven = 6
+axioms_justified = 8
+total_properties = 14
+
+[artifacts.phase_report]
+file = "../reports/phase_02_architecture_report.md"
+description = "Phase 2 architecture completion report"
+
+# =============================================================================
+# VERSION HISTORY
+# =============================================================================
+
+[version_history]
+v1.0.0 = { date = "2026-06-07", author = "Wikisites Architecture Team", notes = "Initial creation of all 5 Blue Papers for Phase 2 Architectural Specification" }
+v1.1.0 = { date = "2026-06-07", author = "Wikisites Architecture Team", notes = "Added interface contracts TOML, Lean4 proof skeleton, and phase report" }

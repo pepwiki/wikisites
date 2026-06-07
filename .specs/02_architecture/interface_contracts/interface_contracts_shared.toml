@@ -1,0 +1,436 @@
+# =============================================================================
+# Interface Contracts: Shared Components Library
+# Source: BP-COMP-SHARED-001 §5.1–5.5
+# Version: 1.0.0
+# Date: 2026-06-07
+# Status: DRAFT
+# =============================================================================
+
+[metadata]
+document_id = "IC-COMP-SHARED-001"
+source_paper = "BP-COMP-SHARED-001"
+version = "1.0.0"
+date = "2026-06-07"
+status = "DRAFT"
+description = "TOML interface contracts for shared component library APIs"
+
+# =============================================================================
+# DATA MODELS (BP-COMP-SHARED-001 §5.1)
+# =============================================================================
+
+[interfaces.data_models]
+
+[interfaces.data_models.AminoAcidProperties]
+description = "Properties for a single amino acid residue"
+fields = [
+    { name = "name", type = "string", constraints = "min(1), max(50)" },
+    { name = "threeLetter", type = "string", constraints = "exact(3)" },
+    { name = "formula", type = "string", constraints = "regex([A-Z][a-z]?\\d*)" },
+    { name = "residueMass", type = "number", constraints = "positive, unit:Da" },
+    { name = "pKa", type = "number | null", constraints = "range(0, 14) if not null" },
+    { name = "hydropathy", type = "number", constraints = "range(-4.5, 4.5)" },
+]
+
+[interfaces.data_models.Oligopeptide]
+description = "Core oligopeptide data model"
+fields = [
+    { name = "id", type = "string", constraints = "regex(^ENCP-\\d{5}$)" },
+    { name = "name", type = "string", constraints = "min(1), max(200)" },
+    { name = "iupacName", type = "string", constraints = "min(1)" },
+    { name = "aliases", type = "string[]", constraints = "default([])" },
+    { name = "casNumber", type = "string?", constraints = "regex(^\\d{2,7}-\\d{2}-\\d$)" },
+    { name = "sequence", type = "string", constraints = "regex(^[ACDEFGHIKLMNPQRSTVWY]+$), min(2), max(50)" },
+    { name = "chainLength", type = "int", constraints = "min(2), max(50)" },
+    { name = "molecularWeight", type = "number", constraints = "positive, unit:Da" },
+    { name = "averageWeight", type = "number", constraints = "positive, unit:Da" },
+    { name = "molecularFormula", type = "string", constraints = "non-empty" },
+    { name = "netCharge", type = "number", constraints = "range(-10, 10)" },
+    { name = "isoelectricPoint", type = "number", constraints = "range(0, 14)" },
+    { name = "extinctionCoefficient", type = "number", constraints = "min(0), unit:M^-1 cm^-1" },
+    { name = "classification", type = "enum", values = ["dipeptide", "tripeptide", "tetrapeptide", "pentapeptide", "hexapeptide", "heptapeptide", "octapeptide", "nonapeptide", "decapeptide", "oligopeptide"] },
+    { name = "chemicalClass", type = "enum", values = ["hydrophobic", "hydrophilic", "charged", "amphipathic"] },
+    { name = "structuralType", type = "enum", values = ["linear", "cyclic", "branched"] },
+    { name = "functionalCategory", type = "string", constraints = "non-empty" },
+    { name = "sourceOrganisms", type = "string[]", constraints = "min(1)" },
+    { name = "therapeuticAreas", type = "string[]", constraints = "default([])" },
+    { name = "pdbEntries", type = "string[]", constraints = "default([])" },
+    { name = "uniprotId", type = "string?", constraints = "optional" },
+    { name = "chemblId", type = "string?", constraints = "optional" },
+    { name = "lastReviewed", type = "datetime", constraints = "ISO 8601" },
+    { name = "nextReview", type = "datetime", constraints = "ISO 8601, > lastReviewed" },
+]
+
+[interfaces.data_models.StudyGuide]
+description = "Educational study guide content model"
+fields = [
+    { name = "title", type = "string", constraints = "min(1), max(200)" },
+    { name = "slug", type = "string", constraints = "regex(^[a-z0-9-]+$)" },
+    { name = "category", type = "string", constraints = "non-empty" },
+    { name = "tags", type = "string[]", constraints = "default([])" },
+    { name = "difficulty", type = "int", constraints = "range(1, 5)" },
+    { name = "prerequisites", type = "string[]", constraints = "default([])" },
+    { name = "learningObjectives", type = "string[]", constraints = "min(1)" },
+    { name = "estimatedMinutes", type = "int", constraints = "range(1, 120)" },
+    { name = "lang", type = "enum", values = ["en", "es", "fr", "de", "zh", "ja"] },
+    { name = "status", type = "enum", values = ["draft", "review", "published", "deprecated"] },
+    { name = "authorId", type = "string", constraints = "non-empty" },
+]
+
+[interfaces.data_models.UserProgress]
+description = "User learning progress tracking model"
+fields = [
+    { name = "userId", type = "string", constraints = "non-empty" },
+    { name = "conceptId", type = "string", constraints = "non-empty" },
+    { name = "mastery", type = "number", constraints = "range(0, 1)" },
+    { name = "streak", type = "int", constraints = "min(0)" },
+    { name = "lastReview", type = "datetime", constraints = "ISO 8601" },
+    { name = "nextReview", type = "datetime", constraints = "ISO 8601" },
+    { name = "reviewCount", type = "int", constraints = "min(0)" },
+]
+
+# =============================================================================
+# CALCULATION ENGINE (BP-COMP-SHARED-001 §5.2)
+# =============================================================================
+
+[interfaces.calculations]
+
+[interfaces.calculations.MolecularWeightRequest]
+description = "Input for molecular weight calculation"
+fields = [
+    { name = "sequence", type = "string", constraints = "regex(^[ACDEFGHIKLMNPQRSTVWY]+$), min(2), max(50)" },
+    { name = "countDisulfideBonds", type = "int", constraints = "min(0), default(0)" },
+]
+
+[interfaces.calculations.MolecularWeightResponse]
+description = "Output of molecular weight calculation"
+fields = [
+    { name = "monoisotopic", type = "number", constraints = "positive, unit:Da, precision:3 decimal" },
+    { name = "average", type = "number", constraints = "positive, unit:Da, precision:3 decimal" },
+    { name = "molecularFormula", type = "string", constraints = "Hill system format" },
+    { name = "residueCount", type = "int", constraints = "min(2), max(50)" },
+]
+
+[interfaces.calculations.ChargeRequest]
+description = "Input for net charge calculation at given pH"
+fields = [
+    { name = "sequence", type = "string", constraints = "regex(^[ACDEFGHIKLMNPQRSTVWY]+$), min(2), max(50)" },
+    { name = "pH", type = "number", constraints = "range(0, 14)" },
+    { name = "countDisulfideBonds", type = "int", constraints = "min(0), default(0)" },
+]
+
+[interfaces.calculations.ChargeResponse]
+description = "Output of net charge calculation"
+fields = [
+    { name = "netCharge", type = "number", constraints = "range(-10, 10), precision:4 decimal" },
+    { name = "chargePerResidue", type = "number[]", constraints = "length == sequence.length" },
+    { name = "ionizationStates", type = "IonizationState[]", constraints = "non-empty" },
+]
+
+[interfaces.calculations.IonizationState]
+description = "Ionization state of a single residue"
+fields = [
+    { name = "residue", type = "string", constraints = "single amino acid code" },
+    { name = "position", type = "int", constraints = "1-indexed" },
+    { name = "pKa", type = "number", constraints = "range(0, 14)" },
+    { name = "charge", type = "number", constraints = "range(-1, 1)" },
+    { name = "protonated", type = "number", constraints = "range(0, 1)" },
+]
+
+[interfaces.calculations.IsoelectricPointRequest]
+description = "Input for isoelectric point calculation"
+fields = [
+    { name = "sequence", type = "string", constraints = "regex(^[ACDEFGHIKLMNPQRSTVWY]+$), min(2), max(50)" },
+    { name = "countDisulfideBonds", type = "int", constraints = "min(0), default(0)" },
+]
+
+[interfaces.calculations.IsoelectricPointResponse]
+description = "Output of isoelectric point calculation"
+fields = [
+    { name = "pI", type = "number", constraints = "range(0, 14), precision:4 decimal" },
+    { name = "method", type = "enum", values = ["henderson-hasselbalch", "ph-dependent"], constraints = "default:henderson-hasselbalch" },
+]
+
+[interfaces.calculations.ExtinctionCoeffRequest]
+description = "Input for extinction coefficient calculation"
+fields = [
+    { name = "sequence", type = "string", constraints = "regex(^[ACDEFGHIKLMNPQRSTVWY]+$), min(2), max(50)" },
+    { name = "countDisulfideBonds", type = "int", constraints = "min(0), default(0)" },
+]
+
+[interfaces.calculations.ExtinctionCoeffResponse]
+description = "Output of extinction coefficient calculation"
+fields = [
+    { name = "epsilon280", type = "number", constraints = "min(0), unit:M^-1 cm^-1" },
+    { name = "contribution", type = "ExtinctionContribution[]", constraints = "non-empty" },
+]
+
+[interfaces.calculations.ExtinctionContribution]
+description = "Individual chromophore contribution to extinction coefficient"
+fields = [
+    { name = "chromophore", type = "string", constraints = "e.g. Trp, Tyr, Cys-S-S" },
+    { name = "count", type = "int", constraints = "min(1)" },
+    { name = "epsilon", type = "number", constraints = "positive" },
+]
+
+[interfaces.calculations.ClassificationRequest]
+description = "Input for oligopeptide classification"
+fields = [
+    { name = "sequence", type = "string", constraints = "regex(^[ACDEFGHIKLMNPQRSTVWY]+$), min(2), max(50)" },
+]
+
+[interfaces.calculations.ClassificationResponse]
+description = "Output of oligopeptide classification"
+fields = [
+    { name = "lengthClass", type = "enum", values = ["dipeptide", "tripeptide", "tetrapeptide", "pentapeptide", "hexapeptide", "heptapeptide", "octapeptide", "nonapeptide", "decapeptide", "oligopeptide"] },
+    { name = "chemicalClass", type = "enum", values = ["hydrophobic", "hydrophilic", "charged", "amphipathic"] },
+    { name = "isoelectricClass", type = "enum", values = ["acidic", "basic", "neutral"] },
+    { name = "hydropathyIndex", type = "number", constraints = "range(-4.5, 4.5)" },
+    { name = "gravyScore", type = "number", constraints = "range(-4.5, 4.5)" },
+]
+
+# =============================================================================
+# SEARCH ENGINE (BP-COMP-SHARED-001 §5.3)
+# =============================================================================
+
+[interfaces.search]
+
+[interfaces.search.SearchQuery]
+description = "Search query input"
+fields = [
+    { name = "query", type = "string", constraints = "min(1), max(500)" },
+    { name = "locale", type = "string", constraints = "ISO 639-1, default(en)" },
+    { name = "filters", type = "SearchFilters", constraints = "optional" },
+    { name = "limit", type = "int", constraints = "range(1, 100), default(20)" },
+    { name = "offset", type = "int", constraints = "min(0), default(0)" },
+]
+
+[interfaces.search.SearchFilters]
+description = "Faceted search filters"
+fields = [
+    { name = "chainLength", type = "[int, int]?", constraints = "min/max pair" },
+    { name = "classification", type = "string[]?", constraints = "enum values" },
+    { name = "functionalCategory", type = "string[]?", constraints = "category names" },
+    { name = "sourceOrganism", type = "string[]?", constraints = "organism names" },
+    { name = "therapeuticArea", type = "string[]?", constraints = "area names" },
+    { name = "tags", type = "string[]?", constraints = "tag names" },
+]
+
+[interfaces.search.SearchResult]
+description = "Single search result"
+fields = [
+    { name = "id", type = "string", constraints = "non-empty" },
+    { name = "title", type = "string", constraints = "non-empty" },
+    { name = "snippet", type = "string", constraints = "max(500)" },
+    { name = "url", type = "string", constraints = "URL format" },
+    { name = "score", type = "number", constraints = "min(0)" },
+    { name = "highlights", type = "HighlightRange[]", constraints = "optional" },
+    { name = "metadata", type = "Record<string, unknown>", constraints = "optional" },
+]
+
+[interfaces.search.HighlightRange]
+description = "Highlighted text range in search result"
+fields = [
+    { name = "start", type = "int", constraints = "min(0)" },
+    { name = "end", type = "int", constraints = "> start" },
+]
+
+[interfaces.search.SearchResponse]
+description = "Search query response"
+fields = [
+    { name = "results", type = "SearchResult[]", constraints = "ordered by score desc" },
+    { name = "total", type = "int", constraints = "min(0)" },
+    { name = "facets", type = "FacetCounts", constraints = "non-empty" },
+    { name = "queryTime", type = "number", constraints = "unit:ms" },
+]
+
+[interfaces.search.FacetCounts]
+description = "Facet value counts"
+fields = [
+    { name = "facetName", type = "Record<string, int>", constraints = "value count per facet" },
+]
+
+# =============================================================================
+# I18N (BP-COMP-SHARED-001 §5.4)
+# =============================================================================
+
+[interfaces.i18n]
+
+[interfaces.i18n.LocaleDetection]
+description = "Locale detection result"
+fields = [
+    { name = "locale", type = "string", constraints = "ISO 639-1" },
+    { name = "source", type = "enum", values = ["url", "header", "storage", "cookie", "cf-locale"] },
+    { name = "confidence", type = "number", constraints = "range(0, 1)" },
+]
+
+[interfaces.i18n.I18nRoute]
+description = "Internationalized route"
+fields = [
+    { name = "path", type = "string", constraints = "starts with /" },
+    { name = "locale", type = "string", constraints = "ISO 639-1" },
+    { name = "alternateLinks", type = "AlternateLink[]", constraints = "non-empty" },
+]
+
+[interfaces.i18n.AlternateLink]
+description = "Alternate language link for hreflang"
+fields = [
+    { name = "locale", type = "string", constraints = "ISO 639-1" },
+    { name = "href", type = "string", constraints = "URL format" },
+    { name = "hreflang", type = "string", constraints = "ISO 639-1 or x-default" },
+]
+
+[interfaces.i18n.TranslationOptions]
+description = "Translation lookup options"
+fields = [
+    { name = "locale", type = "string", constraints = "ISO 639-1" },
+    { name = "namespace", type = "string?", constraints = "dot-separated namespace" },
+    { name = "interpolation", type = "Record<string, string | number>?", constraints = "template variables" },
+]
+
+# =============================================================================
+# AUTH (BP-COMP-SHARED-001 §5.5)
+# =============================================================================
+
+[interfaces.auth]
+
+[interfaces.auth.OAuthConfig]
+description = "OAuth provider configuration"
+fields = [
+    { name = "provider", type = "enum", values = ["github", "google", "orcid"] },
+    { name = "clientId", type = "string", constraints = "non-empty" },
+    { name = "clientSecret", type = "string", constraints = "non-empty, sensitive" },
+    { name = "redirectUri", type = "string", constraints = "URL format" },
+]
+
+[interfaces.auth.AuthUser]
+description = "Authenticated user"
+fields = [
+    { name = "id", type = "string", constraints = "non-empty" },
+    { name = "email", type = "string", constraints = "email format" },
+    { name = "displayName", type = "string", constraints = "min(1), max(100)" },
+    { name = "avatarUrl", type = "string?", constraints = "URL format" },
+    { name = "role", type = "enum", values = ["contributor", "reviewer", "moderator", "admin"] },
+]
+
+[interfaces.auth.Permission]
+description = "System permissions"
+type = "enum"
+values = [
+    "page:create",
+    "page:edit",
+    "page:delete",
+    "page:review",
+    "quiz:create",
+    "quiz:moderate",
+    "annotation:create",
+    "annotation:moderate",
+    "user:manage",
+    "analytics:view",
+]
+
+[interfaces.auth.RolePermissions]
+description = "Role to permission mapping"
+type = "map"
+[interfaces.auth.RolePermissions.contributor]
+permissions = ["page:create", "page:edit", "quiz:create", "annotation:create"]
+[interfaces.auth.RolePermissions.reviewer]
+permissions = ["page:create", "page:edit", "page:review", "quiz:create", "annotation:create", "annotation:moderate"]
+[interfaces.auth.RolePermissions.moderator]
+permissions = ["page:create", "page:edit", "page:review", "page:delete", "quiz:create", "quiz:moderate", "annotation:create", "annotation:moderate", "analytics:view"]
+[interfaces.auth.RolePermissions.admin]
+permissions = ["page:create", "page:edit", "page:review", "page:delete", "quiz:create", "quiz:moderate", "annotation:create", "annotation:moderate", "user:manage", "analytics:view"]
+
+# =============================================================================
+# ANALYTICS (BP-COMP-SHARED-001 §5.6)
+# =============================================================================
+
+[interfaces.analytics]
+
+[interfaces.analytics.AnalyticsEvent]
+description = "Analytics event payload"
+fields = [
+    { name = "name", type = "string", constraints = "non-empty" },
+    { name = "properties", type = "Record<string, string | number | boolean>?", constraints = "optional" },
+    { name = "timestamp", type = "datetime?", constraints = "ISO 8601, default:now" },
+    { name = "userId", type = "string?", constraints = "optional" },
+    { name = "sessionId", type = "string?", constraints = "optional" },
+]
+
+[interfaces.analytics.LearningActivity]
+description = "Learning activity event"
+fields = [
+    { name = "type", type = "enum", values = ["quiz_complete", "flashcard_review", "page_read", "annotation_add"] },
+    { name = "conceptId", type = "string", constraints = "non-empty" },
+    { name = "duration", type = "int?", constraints = "unit:seconds, min(0)" },
+    { name = "score", type = "number?", constraints = "range(0, 1)" },
+    { name = "mastery", type = "number?", constraints = "range(0, 1)" },
+]
+
+# =============================================================================
+# ERROR RESPONSES
+# =============================================================================
+
+[interfaces.errors]
+
+[interfaces.errors.ValidationError]
+description = "Input validation error"
+fields = [
+    { name = "code", type = "string", constraints = "e.g. INVALID_SEQUENCE" },
+    { name = "message", type = "string", constraints = "human-readable" },
+    { name = "field", type = "string?", constraints = "dot-separated path" },
+]
+
+[interfaces.errors.NotFoundError]
+description = "Resource not found"
+fields = [
+    { name = "code", type = "string", constraints = "fixed: NOT_FOUND" },
+    { name = "message", type = "string", constraints = "human-readable" },
+    { name = "resourceType", type = "string", constraints = "e.g. peptide" },
+    { name = "resourceId", type = "string", constraints = "e.g. ENCP-00001" },
+]
+
+[interfaces.errors.AuthError]
+description = "Authentication/authorization error"
+fields = [
+    { name = "code", type = "string", constraints = "e.g. UNAUTHORIZED, FORBIDDEN" },
+    { name = "message", type = "string", constraints = "human-readable" },
+    { name = "requiredPermission", type = "Permission?", constraints = "if authorization error" },
+]
+
+# =============================================================================
+# EXPORTS
+# =============================================================================
+
+[exports]
+interfaces = [
+    "interfaces.data_models.AminoAcidProperties",
+    "interfaces.data_models.Oligopeptide",
+    "interfaces.data_models.StudyGuide",
+    "interfaces.data_models.UserProgress",
+    "interfaces.calculations.MolecularWeightRequest",
+    "interfaces.calculations.MolecularWeightResponse",
+    "interfaces.calculations.ChargeRequest",
+    "interfaces.calculations.ChargeResponse",
+    "interfaces.calculations.IsoelectricPointRequest",
+    "interfaces.calculations.IsoelectricPointResponse",
+    "interfaces.calculations.ExtinctionCoeffRequest",
+    "interfaces.calculations.ExtinctionCoeffResponse",
+    "interfaces.calculations.ClassificationRequest",
+    "interfaces.calculations.ClassificationResponse",
+    "interfaces.search.SearchQuery",
+    "interfaces.search.SearchFilters",
+    "interfaces.search.SearchResult",
+    "interfaces.search.SearchResponse",
+    "interfaces.i18n.LocaleDetection",
+    "interfaces.i18n.I18nRoute",
+    "interfaces.i18n.TranslationOptions",
+    "interfaces.auth.OAuthConfig",
+    "interfaces.auth.AuthUser",
+    "interfaces.auth.Permission",
+    "interfaces.auth.RolePermissions",
+    "interfaces.analytics.AnalyticsEvent",
+    "interfaces.analytics.LearningActivity",
+    "interfaces.errors.ValidationError",
+    "interfaces.errors.NotFoundError",
+    "interfaces.errors.AuthError",
+]

@@ -1,7 +1,14 @@
 dist
 node_modules
 packages/*/dist
+packages/*/.astro
 bun.lockb
 *.min.js
 *.min.css
 *.toml
+.specs/
+.reports/
+.adrs/
+.dep_spec/
+.knowledge_graph/
+.patterns/

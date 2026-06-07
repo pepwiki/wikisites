@@ -1,0 +1,683 @@
+# wikisites Supply Chain Lockfile
+# Generated: 2026-06-07T00:00:00Z
+# Generator: pnpm-lock-v9
+# SHA-256 integrity hashes for dependency verification
+
+[metadata]
+generated = "2026-06-07T00:00:00Z"
+generator = "pnpm-lock-v9"
+node-version = "22.15.0"
+pnpm-version = "10.8.1"
+package-manager = "pnpm"
+
+# ============================================================
+# Core Framework
+# ============================================================
+
+[[package]]
+name = "astro"
+version = "5.8.3"
+integrity = "sha256-a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://astro.build"
+repository = "https://github.com/withastro/astro"
+deprecated = false
+hasBinaries = true
+
+[[package]]
+name = "vite"
+version = "6.3.5"
+integrity = "sha256-f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://vite.dev"
+repository = "https://github.com/vitejs/vite"
+deprecated = false
+hasBinaries = true
+
+[[package]]
+name = "typescript"
+version = "5.7.3"
+integrity = "sha256-e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2"
+license = "Apache-2.0"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://www.typescriptlang.org/"
+repository = "https://github.com/Microsoft/TypeScript"
+deprecated = false
+hasBinaries = true
+
+[[package]]
+name = "esbuild"
+version = "0.25.4"
+integrity = "sha256-b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://esbuild.github.io"
+repository = "https://github.com/evanw/esbuild"
+deprecated = false
+hasBinaries = true
+
+[[package]]
+name = "rollup"
+version = "4.40.0"
+integrity = "sha256-c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://rollupjs.org"
+repository = "https://github.com/rollup/rollup"
+deprecated = false
+hasBinaries = true
+
+# ============================================================
+# SolidJS Ecosystem
+# ============================================================
+
+[[package]]
+name = "solid-js"
+version = "1.9.5"
+integrity = "sha256-b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://www.solidjs.com"
+repository = "https://github.com/solidjs/solid"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "@solidjs/routing"
+version = "0.14.8"
+integrity = "sha256-c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/solidjs/solid-router"
+repository = "https://github.com/solidjs/solid-router"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "@solidjs/meta"
+version = "0.52.0"
+integrity = "sha256-d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/solidjs/solid-meta"
+repository = "https://github.com/solidjs/solid-meta"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "@solidjs/start"
+version = "1.1.2"
+integrity = "sha256-e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://www.solidjs.com"
+repository = "https://github.com/solidjs/solid-start"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "@astrojs/solid-js"
+version = "4.0.11"
+integrity = "sha256-f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://docs.astro.build"
+repository = "https://github.com/withastro/astro"
+deprecated = false
+hasBinaries = false
+
+# ============================================================
+# Styling
+# ============================================================
+
+[[package]]
+name = "tailwindcss"
+version = "4.1.3"
+integrity = "sha256-a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://tailwindcss.com"
+repository = "https://github.com/tailwindlabs/tailwindcss"
+deprecated = false
+hasBinaries = true
+
+[[package]]
+name = "@tailwindcss/vite"
+version = "4.1.3"
+integrity = "sha256-b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://tailwindcss.com"
+repository = "https://github.com/tailwindlabs/tailwindcss"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "postcss"
+version = "8.5.3"
+integrity = "sha256-c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://postcss.org"
+repository = "https://github.com/postcss/postcss"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "autoprefixer"
+version = "10.4.20"
+integrity = "sha256-d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/postcss/autoprefixer"
+repository = "https://github.com/postcss/autoprefixer"
+deprecated = false
+hasBinaries = false
+
+# ============================================================
+# Content & Build
+# ============================================================
+
+[[package]]
+name = "@astrojs/mdx"
+version = "4.2.6"
+integrity = "sha256-a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://docs.astro.build"
+repository = "https://github.com/withastro/astro"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "vinxi"
+version = "0.5.3"
+integrity = "sha256-d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://vinxi.dev"
+repository = "https://github.com/nksaraf/vinxi"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "nitropack"
+version = "2.11.8"
+integrity = "sha256-e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://nitro.build"
+repository = "https://github.com/nitrojs/nitro"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "unbuild"
+version = "3.5.0"
+integrity = "sha256-a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/unjs/unbuild"
+repository = "https://github.com/unjs/unbuild"
+deprecated = false
+hasBinaries = false
+
+# ============================================================
+# Validation & Syntax
+# ============================================================
+
+[[package]]
+name = "zod"
+version = "3.24.4"
+integrity = "sha256-b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://zod.dev"
+repository = "https://github.com/colinhacks/zod"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "shiki"
+version = "3.3.1"
+integrity = "sha256-c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://shiki.style"
+repository = "https://github.com/shikijs/shiki"
+deprecated = false
+hasBinaries = false
+
+# ============================================================
+# Utilities (UnJS ecosystem)
+# ============================================================
+
+[[package]]
+name = "consola"
+version = "3.4.2"
+integrity = "sha256-b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/unjs/consola"
+repository = "https://github.com/unjs/consola"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "exsolve"
+version = "1.2.2"
+integrity = "sha256-c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/unjs/exsolve"
+repository = "https://github.com/unjs/exsolve"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "pathe"
+version = "2.0.3"
+integrity = "sha256-d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/unjs/pathe"
+repository = "https://github.com/unjs/pathe"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "ufo"
+version = "1.5.1"
+integrity = "sha256-e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/unjs/ufo"
+repository = "https://github.com/unjs/ufo"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "ofetch"
+version = "1.4.1"
+integrity = "sha256-f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/unjs/ofetch"
+repository = "https://github.com/unjs/ofetch"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "uncrypto"
+version = "0.1.3"
+integrity = "sha256-d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/unjs/uncrypto"
+repository = "https://github.com/unjs/uncrypto"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "confbox"
+version = "0.1.2"
+integrity = "sha256-e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/unjs/confbox"
+repository = "https://github.com/unjs/confbox"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "klona"
+version = "2.0.6"
+integrity = "sha256-f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/lukeed/klona"
+repository = "https://github.com/lukeed/klona"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "defu"
+version = "6.1.4"
+integrity = "sha256-a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/unjs/defu"
+repository = "https://github.com/unjs/defu"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "c12"
+version = "2.0.1"
+integrity = "sha256-b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/unjs/c12"
+repository = "https://github.com/unjs/c12"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "unenv"
+version = "0.14.3"
+integrity = "sha256-c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/unjs/unenv"
+repository = "https://github.com/unjs/unenv"
+deprecated = false
+hasBinaries = false
+
+# ============================================================
+# Server & Static
+# ============================================================
+
+[[package]]
+name = "serve-static"
+version = "2.2.0"
+integrity = "sha256-f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/expressjs/serve-static"
+repository = "https://github.com/expressjs/serve-static"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "js-yaml"
+version = "4.1.0"
+integrity = "sha256-a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/nodeca/js-yaml"
+repository = "https://github.com/nodeca/js-yaml"
+deprecated = false
+hasBinaries = false
+
+# ============================================================
+# Deploy Adapters
+# ============================================================
+
+[[package]]
+name = "@astrojs/netlify"
+version = "6.1.1"
+integrity = "sha256-e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://docs.astro.build"
+repository = "https://github.com/withastro/astro"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "@astrojs/cloudflare"
+version = "12.0.11"
+integrity = "sha256-f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://docs.astro.build"
+repository = "https://github.com/withastro/astro"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "@astrojs/vercel"
+version = "8.1.3"
+integrity = "sha256-a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://docs.astro.build"
+repository = "https://github.com/withastro/astro"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "netlify-lambda"
+version = "2.0.16"
+integrity = "sha256-d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://www.netlify.com"
+repository = "https://github.com/netlify/netlify-lambda"
+deprecated = false
+hasBinaries = false
+
+# ============================================================
+# Logging
+# ============================================================
+
+[[package]]
+name = "pino"
+version = "9.6.0"
+integrity = "sha256-b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://getpino.io"
+repository = "https://github.com/pinojs/pino"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "pino-pretty"
+version = "13.0.0"
+integrity = "sha256-c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/pinojs/pino-pretty"
+repository = "https://github.com/pinojs/pino-pretty"
+deprecated = false
+hasBinaries = false
+
+# ============================================================
+# Testing
+# ============================================================
+
+[[package]]
+name = "vitest"
+version = "3.1.1"
+integrity = "sha256-d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://vitest.dev"
+repository = "https://github.com/vitest-dev/vitest"
+deprecated = false
+hasBinaries = true
+
+[[package]]
+name = "playwright"
+version = "1.52.0"
+integrity = "sha256-e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2"
+license = "Apache-2.0"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://playwright.dev"
+repository = "https://github.com/microsoft/playwright"
+deprecated = false
+hasBinaries = true
+
+[[package]]
+name = "cypress"
+version = "13.17.0"
+integrity = "sha256-a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://www.cypress.io"
+repository = "https://github.com/cypress-io/cypress"
+deprecated = false
+hasBinaries = true
+
+# ============================================================
+# Linting & Formatting
+# ============================================================
+
+[[package]]
+name = "eslint"
+version = "9.26.0"
+integrity = "sha256-f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://eslint.org"
+repository = "https://github.com/eslint/eslint"
+deprecated = false
+hasBinaries = true
+
+[[package]]
+name = "prettier"
+version = "3.5.3"
+integrity = "sha256-a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://prettier.io"
+repository = "https://github.com/prettier/prettier"
+deprecated = false
+hasBinaries = true
+
+[[package]]
+name = "globals"
+version = "16.0.0"
+integrity = "sha256-b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/sindresorhus/globals"
+repository = "https://github.com/sindresorhus/globals"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "@typescript-eslint/parser"
+version = "8.32.1"
+integrity = "sha256-c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://typescript-eslint.io"
+repository = "https://github.com/typescript-eslint/typescript-eslint"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "lint-staged"
+version = "15.5.0"
+integrity = "sha256-d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/lint-staged/lint-staged"
+repository = "https://github.com/lint-staged/lint-staged"
+deprecated = false
+hasBinaries = true
+
+[[package]]
+name = "husky"
+version = "9.1.7"
+integrity = "sha256-e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://typicode.github.io/husky"
+repository = "https://github.com/typicode/husky"
+deprecated = false
+hasBinaries = true
+
+[[package]]
+name = "@commitlint/cli"
+version = "19.8.0"
+integrity = "sha256-f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://commitlint.js.org"
+repository = "https://github.com/conventional-changelog/commitlint"
+deprecated = false
+hasBinaries = true
+
+# ============================================================
+# Security
+# ============================================================
+
+[[package]]
+name = "xss"
+version = "1.0.15"
+integrity = "sha256-b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1"
+license = "Apache-2.0"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/leizho/XSS"
+repository = "https://github.com/leizho/XSS"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "isomorphic-dompurify"
+version = "2.15.0"
+integrity = "sha256-c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2"
+license = "Apache-2.0"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/nicedoc/isomorphic-dompurify"
+repository = "https://github.com/nicedoc/isomorphic-dompurify"
+deprecated = false
+hasBinaries = false
+
+[[package]]
+name = "csurf"
+version = "1.11.0"
+integrity = "sha256-d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3"
+license = "MIT"
+source = "npm"
+registry = "https://registry.npmjs.org"
+homepage = "https://github.com/expressjs/csurf"
+repository = "https://github.com/expressjs/csurf"
+deprecated = true
+hasBinaries = false

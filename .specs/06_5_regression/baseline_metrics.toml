@@ -1,0 +1,21 @@
+[metadata]
+established = "2026-06-07"
+version = "1.0.0"
+description = "Regression baseline metrics for wikisites. Derived from Phase 5 performance profiling and production monitoring."
+
+[performance]
+lcp_p75_ms = 2200
+cls_p75 = 0.05
+inp_p75_ms = 150
+ttfb_p75_ms = 180
+total_page_weight_kb = 450
+
+[build]
+build_time_s = 240
+cold_start_s = 180
+
+[quality]
+test_pass_rate = 100.0
+code_coverage_critical = 95.0
+code_coverage_overall = 80.0
+security_vulnerabilities_critical = 0

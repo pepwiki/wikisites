@@ -1,0 +1,364 @@
+# =============================================================================
+# Domain Constraints — Web Performance & Technology
+# Document ID: DCS-WEB-001
+# Version: 1.0.0
+# Date: 2026-06-07
+# Status: APPROVED
+# Associated Yellow Paper: YP-WEB-TECH-001
+# =============================================================================
+
+[metadata]
+project = "wikisites"
+scope = "Web performance, bundle size, build time, and technology constraints"
+last_updated = "2026-06-07"
+applicable_sites = ["ENCP", "WIKI"]
+
+# =============================================================================
+# CORE WEB VITALS
+# =============================================================================
+
+[core_web_vitals]
+description = "Google Core Web Vitals thresholds per web.dev recommendations"
+
+[core_web_vitals.lcp]
+metric = "Largest Contentful Paint"
+threshold_ms = 2500
+good_ms = 2500
+needs_improvement_ms = 4000
+poor_ms = ">4000"
+unit = "milliseconds"
+measurement = "75th percentile of all page loads"
+notes = "LCP measures loading performance. Must be ≤2.5s for 'Good' rating."
+source = "web.dev/vitals/"
+
+[core_web_vitals.cls]
+metric = "Cumulative Layout Shift"
+threshold = 0.1
+good = 0.1
+needs_improvement = 0.25
+poor = ">0.25"
+unit = "dimensionless score"
+measurement = "75th percentile of all page loads"
+notes = "CLS measures visual stability. Must be ≤0.1 for 'Good' rating."
+source = "web.dev/vitals/"
+
+[core_web_vitals.fid]
+metric = "First Input Delay"
+threshold_ms = 100
+good_ms = 100
+needs_improvement_ms = 300
+poor_ms = ">300"
+unit = "milliseconds"
+measurement = "75th percentile of all page loads"
+notes = "FID measures interactivity. Must be ≤100ms for 'Good' rating. Note: FID being replaced by INP."
+source = "web.dev/vitals/"
+
+[core_web_vitals.inp]
+metric = "Interaction to Next Paint"
+threshold_ms = 200
+good_ms = 200
+needs_improvement_ms = 500
+poor_ms = ">500"
+unit = "milliseconds"
+measurement = "75th percentile of all interactions"
+notes = "INP replaces FID as responsiveness metric. Measures entire interaction latency."
+source = "web.dev/vitals/inp/"
+
+[core_web_vitals.ttfb]
+metric = "Time to First Byte"
+threshold_ms = 800
+good_ms = 800
+needs_improvement_ms = 1800
+poor_ms = ">1800"
+unit = "milliseconds"
+notes = "TTFB measures server response time. Critical for edge-deployed static sites."
+source = "web.dev/vitals/"
+
+# =============================================================================
+# LIGHTHOUSE SCORE THRESHOLDS
+# =============================================================================
+
+[lighthouse]
+description = "Lighthouse CI minimum score thresholds enforced in CI/CD"
+
+[lighthouse.performance]
+minimum_score = 90
+target_score = 95
+measurement = "0–100 scale"
+notes = "Performance score must be ≥90 to pass CI. Target is ≥95."
+
+[lighthouse.accessibility]
+minimum_score = 95
+target_score = 100
+measurement = "0–100 scale"
+notes = "Accessibility score must be ≥95. WCAG 2.1 AA compliance required."
+
+[lighthouse.best_practices]
+minimum_score = 90
+target_score = 95
+measurement = "0–100 scale"
+notes = "Best practices score must be ≥90."
+
+[lighthouse.seo]
+minimum_score = 95
+target_score = 100
+measurement = "0–100 scale"
+notes = "SEO score must be ≥95. Structured data, meta tags, sitemap required."
+
+# =============================================================================
+# BUNDLE SIZE CONSTRAINTS
+# =============================================================================
+
+[bundle_size]
+description = "JavaScript and CSS bundle size limits per component and page"
+
+[bundle_size.total_js]
+max_kilobytes = 200
+max_gzip_kilobytes = 60
+notes = "Total JavaScript shipped per page. Includes framework, islands, and utilities."
+rationale = "SolidJS core ~7KB gzip. Remaining budget for islands and libraries."
+
+[bundle_size.per_island]
+max_kilobytes = 50
+max_gzip_kilobytes = 15
+notes = "Maximum size per individual Astro island. Each island hydrates independently."
+rationale = "Keeps individual island hydration cost minimal."
+
+[bundle_size.total_css]
+max_kilobytes = 80
+max_gzip_kilobytes = 15
+notes = "Total CSS including Tailwind utilities. Tailwind purges unused classes."
+rationale = "Tailwind v4 with content scanning produces minimal CSS."
+
+[bundle_size.static_assets]
+max_image_kilobytes = 500
+max_image_gzip_kilobytes = 100
+notes = "Individual image assets. WebP/AVIF format required. Sharp optimization."
+rationale = "Ensures fast image loading for molecular diagrams."
+
+[bundle_size.font]
+max_kilobytes = 200
+max_gzip_kilobytes = 50
+notes = "Custom font files. Subset to Latin characters. Use font-display: swap."
+rationale = "Prevents FOIT (Flash of Invisible Text)."
+
+# =============================================================================
+# BUILD TIME CONSTRAINTS
+# =============================================================================
+
+[build_time]
+description = "CI/CD and local development build time limits"
+
+[build_time.cold_build]
+max_minutes = 5
+notes = "Full build from clean state. Includes content processing, page generation, optimization."
+rationale = "Keeps CI/CD pipeline responsive. Cloudflare Pages build timeout: 30 minutes."
+
+[build_time.incremental_build]
+max_seconds = 30
+notes = "Build after single file change. Vite HMR handles dev; production uses full rebuild."
+rationale = "Developers expect fast feedback during local development."
+
+[build_time.content_processing]
+max_seconds = 10
+notes = "MDX processing, frontmatter validation, content collection indexing."
+rationale = "Content is pre-built; processing must not dominate build time."
+
+[build_time.image_optimization]
+max_seconds = 15
+notes = "Sharp image processing, WebP/AVIF generation, responsive image creation."
+rationale = "Image optimization is compute-intensive but must stay within budget."
+
+# =============================================================================
+# EDGE COMPUTING CONSTRAINTS
+# =============================================================================
+
+[edge_computing]
+description = "Cloudflare Workers runtime constraints"
+
+[edge_computing.cpu_time]
+free_tier_ms = 10
+paid_tier_ms = 50
+notes = "CPU time per request. Free tier: 10ms. Paid tier: 50ms."
+rationale = "Edge functions must complete within CPU limits."
+
+[edge_computing.memory]
+free_tier_mb = 128
+paid_tier_mb = 128
+notes = "Maximum memory per Worker invocation."
+rationale = "Memory constraint affects algorithm complexity."
+
+[edge_computing.subrequests]
+free_tier = 50
+paid_tier = 1000
+notes = "Maximum external HTTP requests per Worker invocation."
+rationale = "Limits API call chains and external dependencies."
+
+[edge_computing.worker_size]
+max_kilobytes = 1024
+notes = "Maximum Worker script size after minification and compression."
+rationale = "Keeps cold start times minimal."
+
+[edge_computing.kv_namespace]
+max_key_size_bytes = 256
+max_value_size_bytes = 25
+notes = "KV key and value size limits. Use R2 for larger values."
+rationale = "KV optimized for small, frequently accessed data."
+
+[edge_computing.d1]
+max_rows_returned = 1000
+notes = "Maximum rows returned per D1 query. Use pagination for larger result sets."
+rationale = "Prevents unbounded query results."
+
+# =============================================================================
+# SEARCH PERFORMANCE CONSTRAINTS
+# =============================================================================
+
+[search_performance]
+description = "Search and indexing performance requirements"
+
+[search_performance.index_generation]
+max_seconds = 10
+notes = "Pagefind index generation time for full site content."
+rationale = "Search index must be generated at build time."
+
+[search_performance.query_latency]
+max_ms = 50
+notes = "Client-side search query execution time."
+rationale = "Search must feel instantaneous to users."
+
+[search_performance.index_size]
+max_megabytes = 5
+notes = "Maximum compressed search index size per site."
+rationale = "Index downloads once and caches; must be reasonable."
+
+[search_performance.result_count]
+max_displayed = 20
+notes = "Maximum search results displayed per query."
+rationale = "Limits DOM size and rendering cost."
+
+# =============================================================================
+# INTERNATIONALIZATION CONSTRAINTS
+# =============================================================================
+
+[internationalization]
+description = "Multi-language support constraints"
+
+[internationalization.supported_languages]
+phase_1 = ["en"]
+phase_2 = ["es", "fr", "de"]
+phase_3 = ["zh", "ja"]
+notes = "Phased language rollout. English first, then European, then CJK."
+
+[internationalization.url_structure]
+format = "/{locale}/"
+example = "/en/oligopeptide-chemistry/"
+notes = "Locale-prefixed URLs for SEO and routing clarity."
+
+[internationalization.content_size]
+max_per_language_megabytes = 50
+notes = "Maximum content size per language variant."
+rationale = "Controls overall site size and build time."
+
+[internationalization.cjk_support]
+text_encoder = "UTF-8"
+segmentation = "required"
+notes = "Chinese, Japanese, Korean text requires proper segmentation for search indexing."
+source = "Pagefind CJK support documentation."
+
+# =============================================================================
+# SECURITY CONSTRAINTS
+# =============================================================================
+
+[security]
+description = "Web security constraints and headers"
+
+[security.headers]
+content_security_policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:"
+strict_transport_security = "max-age=31536000; includeSubDomains"
+x_content_type_options = "nosniff"
+x_frame_options = "DENY"
+referrer_policy = "strict-origin-when-cross-origin"
+notes = "Security headers enforced via Cloudflare _headers file or Worker."
+
+[security.cors]
+allowed_origins = ["https://encyclopeptide.com", "https://wikipept.com"]
+notes = "CORS restricted to own domains. No wildcard origins."
+
+[security.rate_limiting]
+api_requests_per_minute = 60
+search_requests_per_minute = 30
+notes = "Rate limiting for dynamic endpoints via Cloudflare Workers."
+
+# =============================================================================
+# AVAILABILITY CONSTRAINTS
+# =============================================================================
+
+[availability]
+description = "Uptime and availability requirements"
+
+[availability.target]
+uptime_percent = 99.9
+max_downtime_hours_per_year = 8.76
+notes = "99.9% uptime = ~8.76 hours downtime per year."
+rationale = "Cloudflare Pages SLA provides 99.95% for paid tier."
+
+[availability.disaster_recovery]
+backup_frequency_hours = 24
+recovery_time_objective_hours = 4
+recovery_point_objective_hours = 24
+notes = "Git repository as source of truth. D1 backups daily."
+rationale = "Static sites have simple recovery: rebuild from source."
+
+# =============================================================================
+# ACCESSIBILITY CONSTRAINTS
+# =============================================================================
+
+[accessibility]
+description = "WCAG 2.1 AA compliance requirements"
+
+[accessibility.contrast]
+min_ratio_normal_text = 4.5
+min_ratio_large_text = 3.0
+notes = "AA compliance for text contrast. AAA target for key content."
+source = "WCAG 2.1 SC 1.4.3"
+
+[accessibility.keyboard]
+full_keyboard_navigation = true
+focus_visible = true
+skip_navigation = true
+notes = "All interactive elements must be keyboard accessible."
+
+[accessibility.screen_reader]
+semantic_html = true
+aria_labels = true
+alt_text_required = true
+notes = "Molecular diagrams must have descriptive alt text."
+
+[accessibility.reduced_motion]
+respect_prefers_reduced_motion = true
+animation_disable = true
+notes = "All animations must respect prefers-reduced-motion media query."
+
+# =============================================================================
+# RESPONSIVE DESIGN CONSTRAINTS
+# =============================================================================
+
+[responsive_design]
+description = "Multi-device and viewport constraints"
+
+[responsive_design.breakpoints]
+mobile_max_px = 640
+tablet_max_px = 1024
+desktop_min_px = 1025
+notes = "Tailwind CSS default breakpoints. Design must work at all sizes."
+
+[responsive_design.mobile_first]
+approach = "mobile-first"
+notes = "CSS written mobile-first, enhanced for larger screens."
+
+[responsive_design.touch_targets]
+min_size_px = 44
+min_spacing_px = 8
+notes = "WCAG 2.1 SC 2.5.5 — touch target size requirements."
+source = "WCAG 2.1 Level AAA recommendation."
