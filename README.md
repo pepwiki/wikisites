@@ -1,6 +1,6 @@
 # wikisites
 
-Monorepo for two oligopeptide educational websites:
+Monorepo for two oligopeptide educational websites: 98 articles, 29 flashcards, 23 quiz questions
 
 - **Encyclopeptide** (encyclopeptide.com) -- Academic reference for oligopeptide research
 - **Wikipept** (wikipept.com) -- Community-driven learning platform with quizzes, flashcards, and annotations
