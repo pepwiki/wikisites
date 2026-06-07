@@ -91,10 +91,50 @@ jobs:
           name: dist-wiki
           path: packages/wiki/dist/
 
+  lighthouse:
+    name: Lighthouse CI
+    runs-on: ubuntu-latest
+    needs: [build-encp, build-wiki]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist-encp
+          path: packages/encp/dist/
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist-wiki
+          path: packages/wiki/dist/
+      - name: Serve and test Encyclopeptide
+        run: |
+          npx serve packages/encp/dist -l 3001 &
+          sleep 3
+          npx lhci autorun --collect.url=http://localhost:3001 \
+            --assert.assertions.performance=90 \
+            --assert.assertions.accessibility=95 \
+            --assert.assertions.best-practices=90 \
+            --assert.assertions.seo=90
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+      - name: Serve and test Wikipept
+        run: |
+          npx serve packages/wiki/dist -l 3002 &
+          sleep 3
+          npx lhci autorun --collect.url=http://localhost:3002 \
+            --assert.assertions.performance=90 \
+            --assert.assertions.accessibility=95 \
+            --assert.assertions.best-practices=90 \
+            --assert.assertions.seo=90
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+
   deploy-staging:
     name: Deploy Staging
     runs-on: ubuntu-latest
-    needs: [build-encp, build-wiki]
+    needs: [build-encp, build-wiki, lighthouse]
     if: github.ref == 'refs/heads/main'
     environment: staging
     steps:

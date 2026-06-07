@@ -1,0 +1,14 @@
+{
+  "site.title": "Encyclopeptide",
+  "site.description": "Comprehensive oligopeptide reference",
+  "nav.peptides": "Peptides",
+  "nav.classification": "Classification",
+  "nav.synthesis": "Synthesis",
+  "nav.pharmacology": "Pharmacology",
+  "nav.glossary": "Glossary",
+  "nav.skip_to_content": "Skip to content",
+  "article.by": "By {author}",
+  "article.related": "Related Articles",
+  "article.citation": "Citation",
+  "footer.copyright": "© 2026 Encyclopeptide. Academic reference for oligopeptide research."
+}

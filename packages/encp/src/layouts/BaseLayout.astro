@@ -18,9 +18,16 @@ const {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    <meta name="robots" content="index, follow" />
     <meta name="theme-color" content="#0A1628" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={`${title} | Encyclopeptide`} />
+    <meta property="og:description" content={description} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title} | Encyclopeptide</title>
+    <link rel="canonical" href={Astro.url.href} />
+    <link rel="preconnect" href="https://static.cloudflareinsights.com" />
+    <link rel="dns-prefetch" href="https://static.cloudflareinsights.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link

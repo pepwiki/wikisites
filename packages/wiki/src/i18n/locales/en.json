@@ -1,0 +1,18 @@
+{
+  "site.title": "Wikipept",
+  "site.description": "Community-driven oligopeptide learning",
+  "nav.learn": "Learn",
+  "nav.review": "Review",
+  "nav.quizzes": "Quizzes",
+  "nav.flashcards": "Flashcards",
+  "nav.community": "Community",
+  "nav.glossary": "Glossary",
+  "nav.skip_to_content": "Skip to content",
+  "review.title": "Review Session",
+  "review.description": "Spaced repetition powered by FSRS",
+  "review.complete": "Session Complete",
+  "review.all_caught_up": "All Caught Up",
+  "review.remaining": "Remaining",
+  "review.accuracy": "Session Accuracy",
+  "footer.copyright": "© 2026 Wikipept. Community-driven oligopeptide learning platform."
+}

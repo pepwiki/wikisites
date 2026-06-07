@@ -1,0 +1,40 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ReviewDashboard from "../components/ReviewDashboard.tsx";
+---
+
+<BaseLayout title="Review">
+  <h1 class="text-4xl font-extrabold mb-8 text-slate-900">Review Session</h1>
+  <p class="text-slate-600 mb-8">
+    Spaced repetition powered by FSRS. Rate each card to optimize your long-term retention.
+  </p>
+
+  <ReviewDashboard
+    client:load
+    site="wiki"
+    deckId="peptide-bonds"
+    cardIds={["glycine", "cysteine", "tryptophan", "peptide-bond-def", "peptide-bond-geometry", "ramachandran", "glutathione", "oxytocin", "bradykinin"]}
+    fronts={{
+      "glycine": "Glycine (G)",
+      "cysteine": "Cysteine (C)",
+      "tryptophan": "Tryptophan (W)",
+      "peptide-bond-def": "What is a peptide bond?",
+      "peptide-bond-geometry": "Peptide bond geometry",
+      "ramachandran": "What is the Ramachandran plot?",
+      "glutathione": "Glutathione (GSH)",
+      "oxytocin": "Oxytocin",
+      "bradykinin": "Bradykinin",
+    }}
+    backs={{
+      "glycine": "Smallest amino acid. Only H as side chain. Most flexible. Found in collagen triple helix.",
+      "cysteine": "Contains thiol (-SH) group. Forms disulfide bonds. Key for protein folding. Precursor to glutathione.",
+      "tryptophan": "Largest amino acid. Indole ring. Precursor to serotonin and melatonin. Absorbs UV at 280nm.",
+      "peptide-bond-def": "An amide bond formed between the alpha-carboxyl of one amino acid and the alpha-amino of another, with loss of water (dehydration synthesis).",
+      "peptide-bond-geometry": "Partial double bond character due to resonance. Planar. Restricted rotation. Typically in trans configuration (except Proline).",
+      "ramachandran": "A plot of phi (phi) vs psi (psi) dihedral angles of peptide backbone. Shows allowed conformations based on steric clashes.",
+      "glutathione": "gamma-Glu-Cys-Gly. Master antioxidant. Redox buffer. Cofactor for glutathione peroxidase. GSH/GSSG ratio indicates cellular redox state.",
+      "oxytocin": "9 aa cyclic peptide. Cys-Tyr-Ile-Gln-Asn-Cys-Pro-Leu-Gly-NH2. Social bonding, uterine contraction, milk ejection.",
+      "bradykinin": "Arg-Pro-Pro-Gly-Phe-Ser-Pro-Phe-Arg. Vasodilator. Inflammation mediator. Pain signaling. Part of kallikrein-kinin system.",
+    }}
+  />
+</BaseLayout>

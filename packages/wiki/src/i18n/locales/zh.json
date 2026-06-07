@@ -1,0 +1,18 @@
+{
+  "site.title": "维肽百科",
+  "site.description": "社区驱动的寡肽学习平台",
+  "nav.learn": "学习",
+  "nav.review": "复习",
+  "nav.quizzes": "测验",
+  "nav.flashcards": "闪卡",
+  "nav.community": "社区",
+  "nav.glossary": "术语表",
+  "nav.skip_to_content": "跳转到内容",
+  "review.title": "复习课程",
+  "review.description": "由FSRS驱动的间隔重复",
+  "review.complete": "课程完成",
+  "review.all_caught_up": "全部完成",
+  "review.remaining": "剩余",
+  "review.accuracy": "课程准确率",
+  "footer.copyright": "© 2026 维肽百科。社区驱动的寡肽学习平台。"
+}

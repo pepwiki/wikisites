@@ -1,0 +1,14 @@
+{
+  "site.title": "环肽百科",
+  "site.description": "全面的寡肽参考文献",
+  "nav.peptides": "肽类",
+  "nav.classification": "分类",
+  "nav.synthesis": "合成",
+  "nav.pharmacology": "药理学",
+  "nav.glossary": "术语表",
+  "nav.skip_to_content": "跳转到内容",
+  "article.by": "作者: {author}",
+  "article.related": "相关文章",
+  "article.citation": "引用",
+  "footer.copyright": "© 2026 环肽百科。寡肽研究学术参考。"
+}
