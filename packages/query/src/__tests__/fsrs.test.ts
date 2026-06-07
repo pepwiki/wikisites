@@ -5,7 +5,6 @@ import {
   repeat,
   isDue,
   getDueCards,
-  type CardState,
 } from "../fsrs";
 
 // ---------------------------------------------------------------------------
@@ -195,5 +194,92 @@ describe("getDueCards", () => {
     const cards = [createCard("a"), createCard("b"), createCard("c")];
     const due = getDueCards(cards);
     expect(due).toHaveLength(3);
+  });
+});
+
+// ---------------------------------------------------------------------------
+// FSRS stability calculation correctness
+// ---------------------------------------------------------------------------
+describe("FSRS stability correctness", () => {
+  const now = new Date("2026-06-07T12:00:00Z");
+
+  it("second review produces finite stability (not NaN)", () => {
+    const card = createCard("test-1");
+    const r1 = repeat(card, Rating.Good, now);
+    const t2 = new Date(now.getTime() + (r1.interval + 1) * 86400000);
+    const r2 = repeat(r1.card, Rating.Good, t2);
+    expect(Number.isFinite(r2.card.stability)).toBe(true);
+    expect(r2.card.stability).toBeGreaterThan(0);
+  });
+
+  it("second review produces finite interval (not NaN)", () => {
+    const card = createCard("test-1");
+    const r1 = repeat(card, Rating.Good, now);
+    const t2 = new Date(now.getTime() + (r1.interval + 1) * 86400000);
+    const r2 = repeat(r1.card, Rating.Good, t2);
+    expect(Number.isFinite(r2.interval)).toBe(true);
+    expect(r2.interval).toBeGreaterThanOrEqual(1);
+  });
+
+  it("stability increases over successful reviews", () => {
+    let card = createCard("test-1");
+    const r1 = repeat(card, Rating.Good, now);
+    card = r1.card;
+    const t2 = new Date(now.getTime() + (r1.interval + 1) * 86400000);
+    const r2 = repeat(card, Rating.Good, t2);
+    card = r2.card;
+    const t3 = new Date(t2.getTime() + (r2.interval + 1) * 86400000);
+    const r3 = repeat(card, Rating.Good, t3);
+    expect(r3.card.stability).toBeGreaterThan(r2.card.stability);
+  });
+
+  it("lapse produces finite stability after non-new card", () => {
+    let card = createCard("test-1");
+    const r1 = repeat(card, Rating.Good, now);
+    const t2 = new Date(now.getTime() + (r1.interval + 1) * 86400000);
+    const r2 = repeat(r1.card, Rating.Good, t2);
+    const t3 = new Date(t2.getTime() + (r2.interval + 1) * 86400000);
+    const r3 = repeat(r2.card, Rating.Again, t3);
+    expect(Number.isFinite(r3.card.stability)).toBe(true);
+    expect(r3.card.stability).toBeGreaterThanOrEqual(0.1);
+    expect(r3.lapsed).toBe(true);
+  });
+
+  it("all four ratings produce valid states for new card", () => {
+    for (const rating of [Rating.Again, Rating.Hard, Rating.Good, Rating.Easy]) {
+      const card = createCard(`test-${rating}`);
+      const result = repeat(card, rating, now);
+      expect(Number.isFinite(result.card.stability)).toBe(true);
+      expect(Number.isFinite(result.card.difficulty)).toBe(true);
+      expect(Number.isFinite(result.interval)).toBe(true);
+      expect(result.interval).toBeGreaterThanOrEqual(1);
+    }
+  });
+
+  it("all four ratings produce valid states for non-new card", () => {
+    let card = createCard("test-stable");
+    const r1 = repeat(card, Rating.Good, now);
+    const t2 = new Date(now.getTime() + (r1.interval + 1) * 86400000);
+    for (const rating of [Rating.Again, Rating.Hard, Rating.Good, Rating.Easy]) {
+      const result = repeat(r1.card, rating, t2);
+      expect(Number.isFinite(result.card.stability)).toBe(true);
+      expect(Number.isFinite(result.card.difficulty)).toBe(true);
+      expect(Number.isFinite(result.interval)).toBe(true);
+      expect(result.interval).toBeGreaterThanOrEqual(1);
+    }
+  });
+
+  it("difficulty stays within bounds [1, 10]", () => {
+    let card = createCard("test-bounds");
+    let t = now;
+    for (let i = 0; i < 10; i++) {
+      const ratings = [Rating.Again, Rating.Hard, Rating.Good, Rating.Easy];
+      const rating = ratings[i % 4]!;
+      const result = repeat(card, rating, t);
+      expect(result.card.difficulty).toBeGreaterThanOrEqual(1);
+      expect(result.card.difficulty).toBeLessThanOrEqual(10);
+      card = result.card;
+      t = new Date(t.getTime() + (result.interval + 1) * 86400000);
+    }
   });
 });

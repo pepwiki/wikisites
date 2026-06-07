@@ -45,8 +45,8 @@ describe("saveCards / loadCards", () => {
 
     const loaded = loadCards("wiki", "deck-a");
     expect(loaded).toHaveLength(1);
-    expect(loaded[0].id).toBe("c1");
-    expect(loaded[0].stability).toBe(10);
+    expect(loaded[0]!.id).toBe("c1");
+    expect(loaded[0]!.stability).toBe(10);
   });
 
   it("returns empty array for non-existent deck", () => {
@@ -125,7 +125,7 @@ describe("recordReview", () => {
     recordReview("wiki", "deck-h", "c1", Rating.Good, now);
 
     const loaded = loadCards("wiki", "deck-h");
-    expect(loaded[0].repetitions).toBe(1);
+    expect(loaded[0]!.repetitions).toBe(1);
   });
 });
 
