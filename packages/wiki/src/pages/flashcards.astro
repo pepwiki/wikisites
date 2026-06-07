@@ -75,4 +75,20 @@ import Flashcard from "../components/Flashcard.tsx";
       <Flashcard client:load front="What is a peptidomimetic?" back="Non-peptide molecule that mimics the biological activity of a peptide. Improved stability and bioavailability. Example: renin inhibitors." tags={["drug-design", "chemistry"]} cardId="peptidomimetic" site="wiki" deckId="all-cards" />
     </div>
   </div>
+
+  <div class="mb-8">
+    <h2 class="text-2xl font-bold mb-4 text-slate-900">Cutting Edge</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <Flashcard client:load front="What is a conotoxin?" back="Venom peptide from cone snails. Targets ion channels with high specificity. Used as research tools and drug leads. Ziconotide is a conotoxin drug." tags={["neuroscience", "toxins"]} cardId="conotoxin" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="What is SNAC?" back="Sodium N-[8-(2-hydroxybenzoyl)] amino caprylate. Absorption enhancer for oral semaglutide. Protects peptide from gastric degradation." tags={["drug-delivery", "oral"]} cardId="snac-card" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="What is phage display?" back="Technique for screening peptide libraries. Peptides displayed on bacteriophage surface. Binders selected by affinity. Used in drug discovery." tags={["drug-discovery", "technique"]} cardId="phage-display" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="What is a cell-penetrating peptide?" back="Short peptides (5-30 aa) that cross cell membranes. Examples: TAT, penetratin, transportan. Used for intracellular drug delivery." tags={["drug-delivery", "CNS"]} cardId="cpp-card" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="What is SNIPPs?" back="Selective Nucleophilic Isotope-labeled Peptides. Used for peptide quantification in biological matrices. High sensitivity and selectivity." tags={["analytical", "technique"]} cardId="snipps" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="What is a peptide dendrimer?" back="Branched peptide architecture with central core. Multivalent binding. Enhanced avidity. Applications in vaccines and gene delivery." tags={["drug-design", "materials"]} cardId="peptide-dendrimer" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="What is mirror-image phage display?" back="Screening D-peptide libraries using D-phage. Produces D-peptide binders resistant to proteolysis. Enantiomeric drug candidates." tags={["drug-discovery", "D-amino-acids"]} cardId="mirror-phage" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="What is a macrocycle?" back="Ring structure with 12+ atoms. Includes cyclic peptides, depsipeptides, lactams. Conformational constraint enhances binding. Cell permeability challenge." tags={["drug-design", "structure"]} cardId="macrocycle" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="What is a depsipeptide?" back="Peptide containing ester bonds in addition to amide bonds. Found in natural products. Example: dolastatin 10. Enhanced metabolic stability." tags={["chemistry", "natural-products"]} cardId="depsipeptide" site="wiki" deckId="all-cards" />
+      <Flashcard client:load front="What is PROTAC technology?" back="Proteolysis Targeting Chimera. Bifunctional molecule linking target protein to E3 ubiquitin ligase. Induces protein degradation. Binds catalytically." tags={["drug-design", "degradation"]} cardId="protac" site="wiki" deckId="all-cards" />
+    </div>
+  </div>
 </BaseLayout>

@@ -9,6 +9,8 @@ const cardIds = [
   "incretin-effect", "dpp4-inhibitors", "pegylation", "agonist-antagonist", "ki-kd", "bbb-peptides",
   "cyclic-peptide", "stapled-peptide", "peptide-drug-conjugate", "incretin-effect-2", "cgrp-card",
   "self-assembly", "gpcr-card", "racemization", "n-methylation", "peptidomimetic",
+  "conotoxin", "snac-card", "phage-display", "cpp-card", "snipps", "peptide-dendrimer",
+  "mirror-phage", "macrocycle", "depsipeptide", "protac",
 ];
 
 const fronts: Record<string, string> = {
@@ -28,6 +30,11 @@ const fronts: Record<string, string> = {
   "cgrp-card": "What is CGRP?", "self-assembly": "What is peptide self-assembly?",
   "gpcr-card": "What is a GPCR?", "racemization": "What is racemization?",
   "n-methylation": "What is N-methylation?", "peptidomimetic": "What is a peptidomimetic?",
+  "conotoxin": "What is a conotoxin?", "snac-card": "What is SNAC?",
+  "phage-display": "What is phage display?", "cpp-card": "What is a cell-penetrating peptide?",
+  "snipps": "What is SNIPPs?", "peptide-dendrimer": "What is a peptide dendrimer?",
+  "mirror-phage": "What is mirror-image phage display?", "macrocycle": "What is a macrocycle?",
+  "depsipeptide": "What is a depsipeptide?", "protac": "What is PROTAC technology?",
 };
 
 const backs: Record<string, string> = {
@@ -68,6 +75,16 @@ const backs: Record<string, string> = {
   "racemization": "Conversion of L-amino acids to D-form. Non-enzymatic at high temperature/pH. Problem in peptide drug storage. Monitored by chiral HPLC.",
   "n-methylation": "Methylation of backbone amide nitrogen. Reduces H-bond donor capacity. Improves oral bioavailability. Found in cyclosporine.",
   "peptidomimetic": "Non-peptide molecule that mimics the biological activity of a peptide. Improved stability and bioavailability. Example: renin inhibitors.",
+  "conotoxin": "Venom peptide from cone snails. Targets ion channels with high specificity. Used as research tools and drug leads. Ziconotide is a conotoxin drug.",
+  "snac-card": "Sodium N-[8-(2-hydroxybenzoyl)] amino caprylate. Absorption enhancer for oral semaglutide. Protects peptide from gastric degradation.",
+  "phage-display": "Technique for screening peptide libraries. Peptides displayed on bacteriophage surface. Binders selected by affinity. Used in drug discovery.",
+  "cpp-card": "Short peptides (5-30 aa) that cross cell membranes. Examples: TAT, penetratin, transportan. Used for intracellular drug delivery.",
+  "snipps": "Selective Nucleophilic Isotope-labeled Peptides. Used for peptide quantification in biological matrices. High sensitivity and selectivity.",
+  "peptide-dendrimer": "Branched peptide architecture with central core. Multivalent binding. Enhanced avidity. Applications in vaccines and gene delivery.",
+  "mirror-phage": "Screening D-peptide libraries using D-phage. Produces D-peptide binders resistant to proteolysis. Enantiomeric drug candidates.",
+  "macrocycle": "Ring structure with 12+ atoms. Includes cyclic peptides, depsipeptides, lactams. Conformational constraint enhances binding. Cell permeability challenge.",
+  "depsipeptide": "Peptide containing ester bonds in addition to amide bonds. Found in natural products. Example: dolastatin 10. Enhanced metabolic stability.",
+  "protac": "Proteolysis Targeting Chimera. Bifunctional molecule linking target protein to E3 ubiquitin ligase. Induces protein degradation. Binds catalytically.",
 };
 ---
 
