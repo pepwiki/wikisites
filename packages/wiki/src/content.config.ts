@@ -1,4 +1,5 @@
 import { defineCollection } from "astro:content";
+import { glob } from "astro/loaders";
 import {
   ArticleSchema,
   QuizQuestionSchema,
@@ -6,17 +7,17 @@ import {
 } from "@wikisites/shared/schemas/content";
 
 const articles = defineCollection({
-  type: "content",
+  loader: glob({ pattern: "**/*.md", base: "src/content/articles" }),
   schema: ArticleSchema,
 });
 
 const quizzes = defineCollection({
-  type: "data",
+  loader: glob({ pattern: "**/*.json", base: "src/content/quizzes" }),
   schema: QuizQuestionSchema,
 });
 
 const flashcards = defineCollection({
-  type: "data",
+  loader: glob({ pattern: "**/*.json", base: "src/content/flashcards" }),
   schema: FlashcardSchema,
 });
 

@@ -27,6 +27,19 @@ const {
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "WIKIPEPT_CF_ANALYTICS_TOKEN"}'></script>
+    <link href="/_pagefind/pagefind-ui.css" rel="stylesheet" />
+    <script src="/_pagefind/pagefind-ui.js" defer></script>
+    <script is:inline>
+      window.addEventListener("DOMContentLoaded", () => {
+        if (typeof PagefindUI !== "undefined") {
+          new PagefindUI({ element: "#search", showSubResults: true });
+        }
+      });
+    </script>
   </head>
   <body class="bg-[#F8FAFC] text-slate-900 font-sans">
     <a

@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: ["peptide-bonds", "protein-structure", "essential-amino-acids"]
 ---
 
-import Quiz from "../../components/Quiz.astro";
-
 # Understanding Amino Acids
 
 ## What Are Amino Acids?
@@ -86,5 +84,3 @@ Understanding amino acid properties is essential for:
 - Interpreting genetic mutations
 
 ---
-
-<Quiz question="Which amino acid has the smallest side chain?" options={["Glycine", "Alanine", "Valine", "Serine"]} correctIndex={0} explanation="Glycine has only a hydrogen atom as its side chain, making it the smallest and most flexible amino acid." />

@@ -21,14 +21,22 @@
         },
         "difficulty": {
           "type": "string",
-          "enum": ["beginner", "intermediate", "advanced", "expert"],
+          "enum": [
+            "beginner",
+            "intermediate",
+            "advanced",
+            "expert"
+          ],
           "default": "intermediate"
         },
         "$schema": {
           "type": "string"
         }
       },
-      "required": ["front", "back"],
+      "required": [
+        "front",
+        "back"
+      ],
       "additionalProperties": false
     }
   },
