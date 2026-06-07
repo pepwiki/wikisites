@@ -1,0 +1,112 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = "Comprehensive oligopeptide reference -- molecular structures, synthesis pathways, pharmacokinetics",
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#0A1628" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title} | Encyclopeptide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-white text-slate-900 font-sans">
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:bg-[#C9A84C] focus:text-[#0A1628] focus:px-4 focus:py-2 focus:rounded-lg focus:outline-none focus:ring-2 focus:ring-white"
+    >
+      Skip to content
+    </a>
+    <header class="border-b border-slate-200 bg-[#0A1628] text-white">
+      <nav
+        class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between"
+        aria-label="Main navigation"
+      >
+        <a href="/" class="text-2xl font-serif font-bold tracking-tight">
+          <span class="text-[#C9A84C]">Encyclo</span>peptide
+        </a>
+        <div class="flex gap-6 text-sm font-medium">
+          <a
+            href="/peptides"
+            class="hover:text-[#C9A84C] focus:text-[#C9A84C] focus:outline-none focus:ring-2 focus:ring-[#C9A84C] focus:ring-offset-2 focus:ring-offset-[#0A1628] rounded transition-colors"
+            >Peptides</a
+          >
+          <a
+            href="/classification"
+            class="hover:text-[#C9A84C] focus:text-[#C9A84C] focus:outline-none focus:ring-2 focus:ring-[#C9A84C] focus:ring-offset-2 focus:ring-offset-[#0A1628] rounded transition-colors"
+            >Classification</a
+          >
+          <a
+            href="/synthesis"
+            class="hover:text-[#C9A84C] focus:text-[#C9A84C] focus:outline-none focus:ring-2 focus:ring-[#C9A84C] focus:ring-offset-2 focus:ring-offset-[#0A1628] rounded transition-colors"
+            >Synthesis</a
+          >
+          <a
+            href="/pharmacology"
+            class="hover:text-[#C9A84C] focus:text-[#C9A84C] focus:outline-none focus:ring-2 focus:ring-[#C9A84C] focus:ring-offset-2 focus:ring-offset-[#0A1628] rounded transition-colors"
+            >Pharmacology</a
+          >
+          <a
+            href="/glossary"
+            class="hover:text-[#C9A84C] focus:text-[#C9A84C] focus:outline-none focus:ring-2 focus:ring-[#C9A84C] focus:ring-offset-2 focus:ring-offset-[#0A1628] rounded transition-colors"
+            >Glossary</a
+          >
+        </div>
+      </nav>
+    </header>
+    <main id="main-content" class="max-w-7xl mx-auto px-6 py-8" tabindex="-1">
+      <slot />
+    </main>
+    <footer class="border-t border-slate-200 bg-slate-50 mt-16" role="contentinfo">
+      <div class="max-w-7xl mx-auto px-6 py-8 text-sm text-slate-500">
+        <p>&copy; 2026 Encyclopeptide. Academic reference for oligopeptide research.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    --color-navy: #0a1628;
+    --color-gold: #c9a84c;
+    --color-slate: #64748b;
+  }
+  body {
+    font-family: "Inter", system-ui, sans-serif;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Playfair Display", Georgia, serif;
+  }
+  code,
+  pre {
+    font-family: "JetBrains Mono", monospace;
+  }
+  :focus-visible {
+    outline: 2px solid #c9a84c;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+</style>

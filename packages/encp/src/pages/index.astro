@@ -1,0 +1,99 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Home">
+  <section class="py-16 text-center">
+    <h1 class="text-5xl font-bold mb-6 text-[#0A1628]">
+      The Oligopeptide <span class="text-[#C9A84C]">Reference</span>
+    </h1>
+    <p class="text-xl text-slate-600 max-w-2xl mx-auto mb-8">
+      Comprehensive, peer-reviewed reference for oligopeptide research. Molecular structures,
+      synthesis pathways, pharmacokinetics, and biological activity.
+    </p>
+    <div class="flex gap-4 justify-center">
+      <a
+        href="/peptides"
+        class="px-6 py-3 bg-[#0A1628] text-white rounded-lg font-medium hover:bg-[#0A1628]/90 transition-colors"
+      >
+        Browse Peptides
+      </a>
+      <a
+        href="/classification"
+        class="px-6 py-3 border-2 border-[#0A1628] text-[#0A1628] rounded-lg font-medium hover:bg-[#0A1628] hover:text-white transition-colors"
+      >
+        Classification System
+      </a>
+    </div>
+  </section>
+
+  <section class="grid grid-cols-1 md:grid-cols-3 gap-8 py-12">
+    <div class="p-6 border border-slate-200 rounded-xl">
+      <h3 class="text-lg font-semibold mb-3 text-[#0A1628]">Molecular Database</h3>
+      <p class="text-slate-600">
+        Detailed monographs for 500+ oligopeptides with molecular weight, charge state, isoelectric
+        point, and structural data.
+      </p>
+    </div>
+    <div class="p-6 border border-slate-200 rounded-xl">
+      <h3 class="text-lg font-semibold mb-3 text-[#0A1628]">Synthesis Pathways</h3>
+      <p class="text-slate-600">
+        Step-by-step synthesis routes for solid-phase, liquid-phase, and recombinant production
+        methods.
+      </p>
+    </div>
+    <div class="p-6 border border-slate-200 rounded-xl">
+      <h3 class="text-lg font-semibold mb-3 text-[#0A1628]">Pharmacology Data</h3>
+      <p class="text-slate-600">
+        Receptor binding affinity, ADMET parameters, half-life, bioavailability, and therapeutic
+        applications.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-12 border-t border-slate-200">
+    <h2 class="text-3xl font-bold mb-8 text-[#0A1628]">Featured Oligopeptides</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <a
+        href="/peptides/glutathione"
+        class="block p-5 border border-slate-200 rounded-xl hover:shadow-lg transition-shadow"
+      >
+        <h4 class="font-semibold text-[#0A1628]">Glutathione</h4>
+        <p class="text-sm text-slate-500 mt-1">Glu-Cys-Gly · Tripeptide · Antioxidant</p>
+        <span class="inline-block mt-2 text-xs bg-slate-100 text-slate-600 px-2 py-1 rounded"
+          >MW 307.32</span
+        >
+      </a>
+      <a
+        href="/peptides/oxytocin"
+        class="block p-5 border border-slate-200 rounded-xl hover:shadow-lg transition-shadow"
+      >
+        <h4 class="font-semibold text-[#0A1628]">Oxytocin</h4>
+        <p class="text-sm text-slate-500 mt-1">Nonapeptide · Neuropeptide · Hormone</p>
+        <span class="inline-block mt-2 text-xs bg-slate-100 text-slate-600 px-2 py-1 rounded"
+          >MW 1007.19</span
+        >
+      </a>
+      <a
+        href="/peptides/insulin-a-chain"
+        class="block p-5 border border-slate-200 rounded-xl hover:shadow-lg transition-shadow"
+      >
+        <h4 class="font-semibold text-[#0A1628]">Insulin A-Chain</h4>
+        <p class="text-sm text-slate-500 mt-1">21 aa · Peptide Hormone · Metabolic</p>
+        <span class="inline-block mt-2 text-xs bg-slate-100 text-slate-600 px-2 py-1 rounded"
+          >MW 2383.88</span
+        >
+      </a>
+      <a
+        href="/peptides/enkephalin"
+        class="block p-5 border border-slate-200 rounded-xl hover:shadow-lg transition-shadow"
+      >
+        <h4 class="font-semibold text-[#0A1628]">Leucine-Enkephalin</h4>
+        <p class="text-sm text-slate-500 mt-1">Tyr-Gly-Gly-Phe-Leu · Pentapeptide · Analgesic</p>
+        <span class="inline-block mt-2 text-xs bg-slate-100 text-slate-600 px-2 py-1 rounded"
+          >MW 555.62</span
+        >
+      </a>
+    </div>
+  </section>
+</BaseLayout>

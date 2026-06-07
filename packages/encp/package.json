@@ -1,0 +1,23 @@
+{
+  "name": "@wikisites/encp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "typecheck": "astro check"
+  },
+  "dependencies": {
+    "@wikisites/shared": "workspace:*",
+    "@wikisites/query": "workspace:*"
+  },
+  "devDependencies": {
+    "@astrojs/solid-js": "^5.0.0",
+    "astro": "^5.0.0",
+    "solid-js": "^1.9.0",
+    "typescript": "^5.7.0"
+  }
+}

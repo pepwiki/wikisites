@@ -1,0 +1,178 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Community">
+  <h1 class="text-4xl font-extrabold mb-8 text-slate-900">Community</h1>
+  <p class="text-slate-600 mb-8">
+    Join the Wikipept community. Share knowledge, contribute annotations, and help others learn.
+  </p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
+      <h2 class="text-xl font-bold mb-4 text-slate-900">Recent Contributions</h2>
+      <div class="space-y-4">
+        <div class="flex items-start gap-3 pb-4 border-b border-slate-100">
+          <div
+            class="w-8 h-8 bg-[#0D9488] text-white rounded-full flex items-center justify-center text-xs font-bold"
+          >
+            AK
+          </div>
+          <div>
+            <p class="text-sm">
+              <span class="font-medium">Dr. A. Kumar</span> added a clarification to <a
+                href="#"
+                class="text-[#0D9488] hover:underline">Peptide Bond Chemistry</a>
+            </p>
+            <p class="text-xs text-slate-400 mt-1">2 hours ago</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-3 pb-4 border-b border-slate-100">
+          <div
+            class="w-8 h-8 bg-[#F97316] text-white rounded-full flex items-center justify-center text-xs font-bold"
+          >
+            SM
+          </div>
+          <div>
+            <p class="text-sm">
+              <span class="font-medium">S. Müller</span> created 5 new flashcards for <a
+                href="#"
+                class="text-[#F97316] hover:underline">Amino Acid Basics</a>
+            </p>
+            <p class="text-xs text-slate-400 mt-1">5 hours ago</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-3 pb-4 border-b border-slate-100">
+          <div
+            class="w-8 h-8 bg-purple-600 text-white rounded-full flex items-center justify-center text-xs font-bold"
+          >
+            YT
+          </div>
+          <div>
+            <p class="text-sm">
+              <span class="font-medium">Y. Tanaka</span> updated the <a
+                href="#"
+                class="text-purple-600 hover:underline">Glutathione</a
+              > article with new research
+            </p>
+            <p class="text-xs text-slate-400 mt-1">1 day ago</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-3">
+          <div
+            class="w-8 h-8 bg-[#0D9488] text-white rounded-full flex items-center justify-center text-xs font-bold"
+          >
+            LC
+          </div>
+          <div>
+            <p class="text-sm">
+              <span class="font-medium">L. Chen</span> contributed a Chinese translation for <a
+                href="#"
+                class="text-[#0D9488] hover:underline">Amino Acid Basics</a>
+            </p>
+            <p class="text-xs text-slate-400 mt-1">2 days ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
+      <h2 class="text-xl font-bold mb-4 text-slate-900">Leaderboard</h2>
+      <div class="space-y-3">
+        <div class="flex items-center gap-3 p-3 bg-yellow-50 rounded-xl">
+          <span class="text-lg font-bold text-yellow-600">1</span>
+          <div
+            class="w-8 h-8 bg-[#0D9488] text-white rounded-full flex items-center justify-center text-xs font-bold"
+          >
+            AK
+          </div>
+          <div class="flex-1">
+            <p class="font-medium text-slate-900">Dr. A. Kumar</p>
+            <p class="text-xs text-slate-400">2,450 points · 89 contributions</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-3 p-3 bg-slate-50 rounded-xl">
+          <span class="text-lg font-bold text-slate-400">2</span>
+          <div
+            class="w-8 h-8 bg-[#F97316] text-white rounded-full flex items-center justify-center text-xs font-bold"
+          >
+            SM
+          </div>
+          <div class="flex-1">
+            <p class="font-medium text-slate-900">S. Müller</p>
+            <p class="text-xs text-slate-400">1,890 points · 67 contributions</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-3 p-3 bg-orange-50 rounded-xl">
+          <span class="text-lg font-bold text-orange-400">3</span>
+          <div
+            class="w-8 h-8 bg-purple-600 text-white rounded-full flex items-center justify-center text-xs font-bold"
+          >
+            YT
+          </div>
+          <div class="flex-1">
+            <p class="font-medium text-slate-900">Y. Tanaka</p>
+            <p class="text-xs text-slate-400">1,560 points · 52 contributions</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-3 p-3">
+          <span class="text-lg font-bold text-slate-300">4</span>
+          <div
+            class="w-8 h-8 bg-[#0D9488] text-white rounded-full flex items-center justify-center text-xs font-bold"
+          >
+            LC
+          </div>
+          <div class="flex-1">
+            <p class="font-medium text-slate-900">L. Chen</p>
+            <p class="text-xs text-slate-400">1,230 points · 41 contributions</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-3 p-3">
+          <span class="text-lg font-bold text-slate-300">5</span>
+          <div
+            class="w-8 h-8 bg-[#F97316] text-white rounded-full flex items-center justify-center text-xs font-bold"
+          >
+            JP
+          </div>
+          <div class="flex-1">
+            <p class="font-medium text-slate-900">J. Park</p>
+            <p class="text-xs text-slate-400">980 points · 33 contributions</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-8 bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
+    <h2 class="text-xl font-bold mb-4 text-slate-900">Contribution Guidelines</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div>
+        <h3 class="font-semibold text-[#0D9488] mb-2">Content Standards</h3>
+        <ul class="text-sm text-slate-600 space-y-1">
+          <li>• Cite peer-reviewed sources</li>
+          <li>• Use IUPAC nomenclature</li>
+          <li>• Include molecular formulas</li>
+          <li>• Follow house style guide</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-semibold text-[#F97316] mb-2">Quality Review</h3>
+        <ul class="text-sm text-slate-600 space-y-1">
+          <li>• All edits reviewed by moderator</li>
+          <li>• Scientific accuracy verified</li>
+          <li>• References checked</li>
+          <li>• Peer validation encouraged</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-semibold text-purple-600 mb-2">Recognition</h3>
+        <ul class="text-sm text-slate-600 space-y-1">
+          <li>• Points for contributions</li>
+          <li>• Badges for milestones</li>
+          <li>• Leaderboard ranking</li>
+          <li>• Author attribution</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

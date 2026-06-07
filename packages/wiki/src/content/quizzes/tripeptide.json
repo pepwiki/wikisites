@@ -1,0 +1,8 @@
+{
+  "question": "How many amino acids are in a tripeptide?",
+  "options": ["2", "3", "4", "5"],
+  "correctIndex": 1,
+  "explanation": "A tripeptide consists of exactly 3 amino acids linked by peptide bonds.",
+  "difficulty": "beginner",
+  "tags": ["amino-acids", "classification"]
+}

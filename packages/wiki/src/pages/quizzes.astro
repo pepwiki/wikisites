@@ -1,0 +1,131 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Quizzes">
+  <h1 class="text-4xl font-extrabold mb-8 text-slate-900">Practice Quizzes</h1>
+  <p class="text-slate-600 mb-8">
+    Test your knowledge with interactive quizzes. Track your score and identify areas for
+    improvement.
+  </p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
+      <div class="flex items-center gap-2 mb-3">
+        <span class="text-xs font-bold bg-[#0D9488] text-white px-2 py-1 rounded-full">10 Q</span>
+        <span class="text-xs font-bold bg-[#0D9488] text-white px-2 py-1 rounded-full"
+          >BEGINNER</span
+        >
+      </div>
+      <h3 class="font-bold text-slate-900 mb-2">Amino Acid Basics</h3>
+      <p class="text-sm text-slate-500 mb-4">
+        Test your knowledge of the 20 standard amino acids, their properties, and one-letter codes.
+      </p>
+      <div class="flex items-center justify-between text-xs text-slate-400">
+        <span>Avg. score: 87%</span>
+        <button
+          class="px-4 py-2 bg-[#0D9488] text-white rounded-full font-medium hover:bg-[#0D9488]/90 transition-colors"
+          >Start Quiz</button
+        >
+      </div>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
+      <div class="flex items-center gap-2 mb-3">
+        <span class="text-xs font-bold bg-[#F97316] text-white px-2 py-1 rounded-full">15 Q</span>
+        <span class="text-xs font-bold bg-[#F97316] text-white px-2 py-1 rounded-full"
+          >INTERMEDIATE</span
+        >
+      </div>
+      <h3 class="font-bold text-slate-900 mb-2">Peptide Bond Chemistry</h3>
+      <p class="text-sm text-slate-500 mb-4">
+        Covers peptide bond formation, resonance, hydrolysis, and the Ramachandran plot.
+      </p>
+      <div class="flex items-center justify-between text-xs text-slate-400">
+        <span>Avg. score: 72%</span>
+        <button
+          class="px-4 py-2 bg-[#F97316] text-white rounded-full font-medium hover:bg-[#F97316]/90 transition-colors"
+          >Start Quiz</button
+        >
+      </div>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
+      <div class="flex items-center gap-2 mb-3">
+        <span class="text-xs font-bold bg-purple-600 text-white px-2 py-1 rounded-full">20 Q</span>
+        <span class="text-xs font-bold bg-purple-600 text-white px-2 py-1 rounded-full"
+          >ADVANCED</span
+        >
+      </div>
+      <h3 class="font-bold text-slate-900 mb-2">Pharmacology Review</h3>
+      <p class="text-sm text-slate-500 mb-4">
+        FDA-approved peptide drugs, mechanisms of action, and pharmacokinetic parameters.
+      </p>
+      <div class="flex items-center justify-between text-xs text-slate-400">
+        <span>Avg. score: 65%</span>
+        <button
+          class="px-4 py-2 bg-purple-600 text-white rounded-full font-medium hover:bg-purple-600/90 transition-colors"
+          >Start Quiz</button
+        >
+      </div>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
+      <div class="flex items-center gap-2 mb-3">
+        <span class="text-xs font-bold bg-[#0D9488] text-white px-2 py-1 rounded-full">10 Q</span>
+        <span class="text-xs font-bold bg-[#0D9488] text-white px-2 py-1 rounded-full"
+          >BEGINNER</span
+        >
+      </div>
+      <h3 class="font-bold text-slate-900 mb-2">Protein Structure</h3>
+      <p class="text-sm text-slate-500 mb-4">
+        Primary, secondary, tertiary, and quaternary structure. Hydrogen bonding, disulfide bridges.
+      </p>
+      <div class="flex items-center justify-between text-xs text-slate-400">
+        <span>Avg. score: 91%</span>
+        <button
+          class="px-4 py-2 bg-[#0D9488] text-white rounded-full font-medium hover:bg-[#0D9488]/90 transition-colors"
+          >Start Quiz</button
+        >
+      </div>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
+      <div class="flex items-center gap-2 mb-3">
+        <span class="text-xs font-bold bg-[#F97316] text-white px-2 py-1 rounded-full">15 Q</span>
+        <span class="text-xs font-bold bg-[#F97316] text-white px-2 py-1 rounded-full"
+          >INTERMEDIATE</span
+        >
+      </div>
+      <h3 class="font-bold text-slate-900 mb-2">Oligopeptide Classification</h3>
+      <p class="text-sm text-slate-500 mb-4">
+        Classify peptides by length, function, source organism, and therapeutic application.
+      </p>
+      <div class="flex items-center justify-between text-xs text-slate-400">
+        <span>Avg. score: 78%</span>
+        <button
+          class="px-4 py-2 bg-[#F97316] text-white rounded-full font-medium hover:bg-[#F97316]/90 transition-colors"
+          >Start Quiz</button
+        >
+      </div>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
+      <div class="flex items-center gap-2 mb-3">
+        <span class="text-xs font-bold bg-red-600 text-white px-2 py-1 rounded-full">25 Q</span>
+        <span class="text-xs font-bold bg-red-600 text-white px-2 py-1 rounded-full">EXPERT</span>
+      </div>
+      <h3 class="font-bold text-slate-900 mb-2">Synthesis & Purification</h3>
+      <p class="text-sm text-slate-500 mb-4">
+        SPPS, Fmoc/Boc strategies, HPLC purification, mass spectrometry characterization.
+      </p>
+      <div class="flex items-center justify-between text-xs text-slate-400">
+        <span>Avg. score: 58%</span>
+        <button
+          class="px-4 py-2 bg-red-600 text-white rounded-full font-medium hover:bg-red-600/90 transition-colors"
+          >Start Quiz</button
+        >
+      </div>
+    </div>
+  </div>
+</BaseLayout>

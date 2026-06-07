@@ -1,0 +1,36 @@
+{
+  "$ref": "#/definitions/flashcards",
+  "definitions": {
+    "flashcards": {
+      "type": "object",
+      "properties": {
+        "front": {
+          "type": "string",
+          "minLength": 1
+        },
+        "back": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": ["beginner", "intermediate", "advanced", "expert"],
+          "default": "intermediate"
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "required": ["front", "back"],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

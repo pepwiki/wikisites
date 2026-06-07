@@ -1,0 +1,142 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Home">
+  <section class="py-16 text-center">
+    <h1 class="text-5xl font-extrabold mb-6 text-[#0D9488]">
+      Learn <span class="text-[#F97316]">Oligopeptides</span>
+    </h1>
+    <p class="text-xl text-slate-600 max-w-2xl mx-auto mb-8">
+      Interactive, community-driven platform for learning oligopeptide biology. Quizzes, flashcards,
+      spaced repetition, and collaborative annotations.
+    </p>
+    <div class="flex gap-4 justify-center">
+      <a
+        href="/learn"
+        class="px-6 py-3 bg-[#0D9488] text-white rounded-full font-medium hover:bg-[#0D9488]/90 transition-colors"
+      >
+        Start Learning
+      </a>
+      <a
+        href="/quizzes"
+        class="px-6 py-3 border-2 border-[#F97316] text-[#F97316] rounded-full font-medium hover:bg-[#F97316] hover:text-white transition-colors"
+      >
+        Take a Quiz
+      </a>
+    </div>
+  </section>
+
+  <section class="grid grid-cols-1 md:grid-cols-3 gap-8 py-12">
+    <div class="p-6 bg-white rounded-2xl shadow-sm border border-slate-100">
+      <div class="text-3xl mb-3">📚</div>
+      <h3 class="text-lg font-bold mb-2 text-slate-900">Interactive Tutorials</h3>
+      <p class="text-slate-600 text-sm">
+        Progressive lessons from beginner to expert. Visual diagrams, mnemonics, and real-world
+        examples.
+      </p>
+    </div>
+    <div class="p-6 bg-white rounded-2xl shadow-sm border border-slate-100">
+      <div class="text-3xl mb-3">🧠</div>
+      <h3 class="text-lg font-bold mb-2 text-slate-900">Spaced Repetition</h3>
+      <p class="text-slate-600 text-sm">
+        FSRS-powered flashcards that adapt to your learning pace. Optimized for long-term retention
+        of amino acid sequences.
+      </p>
+    </div>
+    <div class="p-6 bg-white rounded-2xl shadow-sm border border-slate-100">
+      <div class="text-3xl mb-3">👥</div>
+      <h3 class="text-lg font-bold mb-2 text-slate-900">Community Annotations</h3>
+      <p class="text-slate-600 text-sm">
+        Add notes, clarifications, and study tips to any article. Collaborative knowledge building
+        with quality moderation.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-12 border-t border-slate-200">
+    <h2 class="text-3xl font-bold mb-8 text-slate-900">Popular Study Sets</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <a
+        href="/learn/amino-acids"
+        class="block p-5 bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow"
+      >
+        <div class="flex items-center gap-2 mb-2">
+          <span class="text-xs font-bold bg-[#0D9488] text-white px-2 py-1 rounded-full"
+            >BEGINNER</span
+          >
+        </div>
+        <h4 class="font-bold text-slate-900">20 Standard Amino Acids</h4>
+        <p class="text-sm text-slate-500 mt-1">
+          Learn all 20 amino acids with properties, structures, and mnemonics
+        </p>
+        <div class="flex items-center gap-4 mt-3 text-xs text-slate-400">
+          <span>12 lessons</span>
+          <span>48 flashcards</span>
+          <span>3 quizzes</span>
+        </div>
+      </a>
+      <a
+        href="/learn/peptide-bonds"
+        class="block p-5 bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow"
+      >
+        <div class="flex items-center gap-2 mb-2">
+          <span class="text-xs font-bold bg-[#F97316] text-white px-2 py-1 rounded-full"
+            >INTERMEDIATE</span
+          >
+        </div>
+        <h4 class="font-bold text-slate-900">Peptide Bond Chemistry</h4>
+        <p class="text-sm text-slate-500 mt-1">
+          Formation, hydrolysis, resonance, and stereochemistry
+        </p>
+        <div class="flex items-center gap-4 mt-3 text-xs text-slate-400">
+          <span>8 lessons</span>
+          <span>32 flashcards</span>
+          <span>2 quizzes</span>
+        </div>
+      </a>
+      <a
+        href="/learn/pharmacology"
+        class="block p-5 bg-white rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow"
+      >
+        <div class="flex items-center gap-2 mb-2">
+          <span class="text-xs font-bold bg-[#0D9488] text-white px-2 py-1 rounded-full"
+            >BEGINNER</span
+          >
+        </div>
+        <h4 class="font-bold text-slate-900">Therapeutic Peptides</h4>
+        <p class="text-sm text-slate-500 mt-1">
+          Overview of FDA-approved peptide drugs and their mechanisms
+        </p>
+        <div class="flex items-center gap-4 mt-3 text-xs text-slate-400">
+          <span>10 lessons</span>
+          <span>40 flashcards</span>
+          <span>4 quizzes</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section class="py-12 bg-white rounded-2xl shadow-sm border border-slate-100 mt-8">
+    <div class="text-center">
+      <h2 class="text-2xl font-bold mb-4 text-slate-900">Track Your Progress</h2>
+      <p class="text-slate-600 mb-6 max-w-lg mx-auto">
+        Create an account to save your progress, earn streaks, and compete on the leaderboard.
+      </p>
+      <div class="flex gap-4 justify-center">
+        <div class="text-center px-6">
+          <div class="text-3xl font-bold text-[#0D9488]">847</div>
+          <div class="text-sm text-slate-500">Active Learners</div>
+        </div>
+        <div class="text-center px-6 border-x border-slate-200">
+          <div class="text-3xl font-bold text-[#F97316]">12,450</div>
+          <div class="text-sm text-slate-500">Flashcards Reviewed</div>
+        </div>
+        <div class="text-center px-6">
+          <div class="text-3xl font-bold text-[#0D9488]">94%</div>
+          <div class="text-sm text-slate-500">Average Quiz Score</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
