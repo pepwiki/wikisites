@@ -6,7 +6,7 @@ import Flashcard from "../components/Flashcard.tsx";
 <BaseLayout title="Flashcards">
   <h1 class="text-4xl font-extrabold mb-8 text-slate-900">Flashcard Decks</h1>
   <p class="text-slate-600 mb-8">
-    Spaced repetition flashcards powered by FSRS. Click any card to flip and reveal the answer.
+    Spaced repetition flashcards powered by FSRS. Click any card to flip, then rate your recall to schedule your next review. State is shared with the Review page.
   </p>
 
   <div class="mb-8">
@@ -17,18 +17,27 @@ import Flashcard from "../components/Flashcard.tsx";
         front="Glycine (G)"
         back="Smallest amino acid. Only H as side chain. Most flexible. Found in collagen triple helix."
         tags={["amino-acids", "beginner"]}
+        cardId="glycine"
+        site="wiki"
+        deckId="all-cards"
       />
       <Flashcard
         client:load
         front="Cysteine (C)"
         back="Contains thiol (-SH) group. Forms disulfide bonds. Key for protein folding. Precursor to glutathione."
         tags={["amino-acids", "chemistry"]}
+        cardId="cysteine"
+        site="wiki"
+        deckId="all-cards"
       />
       <Flashcard
         client:load
         front="Tryptophan (W)"
         back="Largest amino acid. Indole ring. Precursor to serotonin and melatonin. Absorbs UV at 280nm."
         tags={["amino-acids", "neuroscience"]}
+        cardId="tryptophan"
+        site="wiki"
+        deckId="all-cards"
       />
     </div>
   </div>
@@ -41,18 +50,27 @@ import Flashcard from "../components/Flashcard.tsx";
         front="What is a peptide bond?"
         back="An amide bond formed between the α-carboxyl of one amino acid and the α-amino of another, with loss of water (dehydration synthesis)."
         tags={["chemistry", "fundamentals"]}
+        cardId="peptide-bond-def"
+        site="wiki"
+        deckId="all-cards"
       />
       <Flashcard
         client:load
         front="Peptide bond geometry"
         back="Partial double bond character due to resonance. Planar. Restricted rotation. Typically in trans configuration (except Proline)."
         tags={["chemistry", "structure"]}
+        cardId="peptide-bond-geometry"
+        site="wiki"
+        deckId="all-cards"
       />
       <Flashcard
         client:load
         front="What is the Ramachandran plot?"
         back="A plot of φ (phi) vs ψ (psi) dihedral angles of peptide backbone. Shows allowed conformations based on steric clashes."
         tags={["structure", "bioinformatics"]}
+        cardId="ramachandran"
+        site="wiki"
+        deckId="all-cards"
       />
     </div>
   </div>
@@ -65,18 +83,27 @@ import Flashcard from "../components/Flashcard.tsx";
         front="Glutathione (GSH)"
         back="γ-Glu-Cys-Gly. Master antioxidant. Redox buffer. Cofactor for glutathione peroxidase. GSH/GSSG ratio indicates cellular redox state."
         tags={["tripeptide", "antioxidant"]}
+        cardId="glutathione"
+        site="wiki"
+        deckId="all-cards"
       />
       <Flashcard
         client:load
         front="Oxytocin"
-        back="9 aa cyclic peptide. Cys-Tyr-Ile-Gln-Asn-Cys-Pro-Leu-Gly-NH₂. Social bonding, uterine contraction, milk ejection. 'Love hormone'."
+        back="9 aa cyclic peptide. Cys-Tyr-Ile-Gln-Asn-Cys-Pro-Leu-Gly-NH₂. Social bonding, uterine contraction, milk ejection."
         tags={["nonapeptide", "hormone"]}
+        cardId="oxytocin"
+        site="wiki"
+        deckId="all-cards"
       />
       <Flashcard
         client:load
         front="Bradykinin"
         back="Arg-Pro-Pro-Gly-Phe-Ser-Pro-Phe-Arg. Vasodilator. Inflammation mediator. Pain signaling. Part of kallikrein-kinin system."
         tags={["nonapeptide", "inflammation"]}
+        cardId="bradykinin"
+        site="wiki"
+        deckId="all-cards"
       />
     </div>
   </div>

@@ -18,7 +18,7 @@
     "build:encp": "bun run --filter @wikisites/encp build",
     "build:wiki": "bun run --filter @wikisites/wiki build",
     "build": "bun run build:encp && bun run build:wiki && bun run search:build",
-    "search:build": "pagefind --site packages/encp/dist --output-path packages/encp/dist/_pagefind && pagefind --site packages/wiki/dist --output-path packages/wiki/dist/_pagefind",
+    "search:build": "bunx pagefind --site packages/encp/dist --output-path packages/encp/dist/_pagefind && bunx pagefind --site packages/wiki/dist --output-path packages/wiki/dist/_pagefind",
     "build:shared": "bun run --filter @wikisites/shared build",
     "build:query": "bun run --filter @wikisites/query build",
     "preview:encp": "bun run --filter @wikisites/encp preview",

@@ -70,6 +70,7 @@ jobs:
           bun-version: ${{ env.BUN_VERSION }}
       - run: bun install --frozen-lockfile
       - run: bun run build:encp
+      - run: bunx pagefind --site packages/encp/dist --output-path packages/encp/dist/_pagefind
       - uses: actions/upload-artifact@v4
         with:
           name: dist-encp
@@ -86,6 +87,7 @@ jobs:
           bun-version: ${{ env.BUN_VERSION }}
       - run: bun install --frozen-lockfile
       - run: bun run build:wiki
+      - run: bunx pagefind --site packages/wiki/dist --output-path packages/wiki/dist/_pagefind
       - uses: actions/upload-artifact@v4
         with:
           name: dist-wiki
