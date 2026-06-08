@@ -14,6 +14,16 @@ const mockEnv: Env = {
         }),
       )) as typeof fetch,
   },
+  DB: {
+    exec: async () => ({}),
+    prepare: () => ({
+      bind: () => ({
+        first: async () => null,
+        run: async () => ({}),
+      }),
+      first: async () => null,
+    }),
+  } as unknown as Env["DB"],
 };
 
 // ---------------------------------------------------------------------------

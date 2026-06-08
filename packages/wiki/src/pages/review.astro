@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ReviewDashboard from "../components/ReviewDashboard.tsx";
+import SessionStats from "../components/SessionStats.tsx";
 
 const cardIds = [
   "glycine",
@@ -207,6 +208,10 @@ const backs: Record<string, string> = {
   <div class="mb-6 p-4 bg-blue-50 border border-blue-200 rounded-xl text-sm text-blue-800">
     Progress is stored locally on this device. Your review schedule and card ratings are saved in
     your browser and are not synced across devices.
+  </div>
+
+  <div class="mb-8 max-w-2xl mx-auto">
+    <SessionStats client:load />
   </div>
 
   <ReviewDashboard

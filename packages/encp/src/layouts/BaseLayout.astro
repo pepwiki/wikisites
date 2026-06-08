@@ -92,6 +92,7 @@ const {
         </div>
       </nav>
     </header>
+    <div id="search" class="hidden"></div>
     <main id="main-content" class="max-w-7xl mx-auto px-6 py-8" tabindex="-1">
       <slot />
     </main>
@@ -128,5 +129,14 @@ const {
     outline: 2px solid #c9a84c;
     outline-offset: 2px;
     border-radius: 4px;
+  }
+  /* Pagefind UI overrides */
+  :root {
+    --pagefind-ui-scale: 1;
+    --pagefind-ui-primary: #0a1628;
+    --pagefind-ui-text: #334155;
+    --pagefind-ui-background: #ffffff;
+    --pagefind-ui-border: #e2e8f0;
+    --pagefind-ui-tag: #f1f5f9;
   }
 </style>

@@ -24,6 +24,7 @@ const {
     <meta property="og:title" content={`${title} | Wikipept`} />
     <meta property="og:description" content={description} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.json" />
     <title>{title} | Wikipept</title>
     <link rel="canonical" href={Astro.url.href} />
     <link rel="preconnect" href="https://static.cloudflareinsights.com" />
@@ -97,6 +98,7 @@ const {
         </div>
       </nav>
     </header>
+    <div id="search" class="hidden"></div>
     <main id="main-content" class="max-w-7xl mx-auto px-6 py-8" tabindex="-1">
       <slot />
     </main>
@@ -105,6 +107,13 @@ const {
         <p>&copy; 2026 Wikipept. Community-driven oligopeptide learning platform.</p>
       </div>
     </footer>
+    <script is:inline>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/sw.js").catch(() => {});
+        });
+      }
+    </script>
   </body>
 </html>
 
@@ -129,5 +138,14 @@ const {
     outline: 2px solid #0d9488;
     outline-offset: 2px;
     border-radius: 4px;
+  }
+  /* Pagefind UI overrides */
+  :root {
+    --pagefind-ui-scale: 1;
+    --pagefind-ui-primary: #0d9488;
+    --pagefind-ui-text: #334155;
+    --pagefind-ui-background: #ffffff;
+    --pagefind-ui-border: #e2e8f0;
+    --pagefind-ui-tag: #f1f5f9;
   }
 </style>
