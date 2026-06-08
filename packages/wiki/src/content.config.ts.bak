@@ -1,0 +1,15 @@
+import { defineCollection } from "astro:content";
+import { glob } from "astro/loaders";
+import { QuizQuestionSchema, FlashcardSchema } from "@wikisites/shared/schemas/content";
+
+const quizzes = defineCollection({
+  loader: glob({ pattern: "**/*.json", base: "src/content/quizzes" }),
+  schema: QuizQuestionSchema,
+});
+
+const flashcards = defineCollection({
+  loader: glob({ pattern: "**/*.json", base: "src/content/flashcards" }),
+  schema: FlashcardSchema,
+});
+
+export const collections = { quizzes, flashcards };
