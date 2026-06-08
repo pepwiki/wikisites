@@ -104,7 +104,7 @@ function nextDifficulty(difficulty: number, rating: Rating): number {
 
 /**
  * Calculate stability after a successful review (no lapse).
- * S' = S * (1 + e^(w11) * (11 - D) * S^(-w12) * (e^(w10 * (1-r)) - 1))
+ * S' = S * (1 + e^(w[11]) * (11 - D) * S^(-w[12]) * (e^(w[10] * (1-r)) - 1))
  */
 function nextStabilityAfterSuccess(stability: number, difficulty: number, rating: Rating): number {
   const r = rating - 3; // -2 to +1
@@ -118,7 +118,7 @@ function nextStabilityAfterSuccess(stability: number, difficulty: number, rating
 
 /**
  * Calculate stability after a lapse (forgot).
- * S' = w11 * D^(-w12) * (e^(w10) - 1) * S^(w9)
+ * S' = w[11] * D^(-w[12]) * (e^(w[10]) - 1) * S^(w[9])
  */
 function nextStabilityAfterLapse(stability: number, difficulty: number): number {
   const newS =

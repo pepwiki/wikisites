@@ -55,21 +55,21 @@ export function searchPeptides(
 
   // Apply length filters
   if (filters.minLength !== undefined) {
-    filtered = filtered.filter((p) => p.length >= filters.minLength!);
+    filtered = filtered.filter((p) => p.length >= filters.minLength);
   }
   if (filters.maxLength !== undefined) {
-    filtered = filtered.filter((p) => p.length <= filters.maxLength!);
+    filtered = filtered.filter((p) => p.length <= filters.maxLength);
   }
 
   // Apply sequence filter (prefix match)
   if (filters.sequence !== undefined) {
-    const seq = filters.sequence!;
+    const seq = filters.sequence;
     filtered = filtered.filter((p) => p.sequence.startsWith(seq));
   }
 
   // Apply category filter
   if (filters.category !== undefined) {
-    const cat = filters.category!.toLowerCase();
+    const cat = filters.category.toLowerCase();
     filtered = filtered.filter(
       (p) =>
         p.therapeuticArea.some((a) => a.toLowerCase().includes(cat)) ||
