@@ -15,7 +15,10 @@ interface LearningPathProps {
 
 const STORAGE_KEY_PROGRESS = "wikisites:topic-progress";
 
-function loadTopicProgress(): Record<string, { reviews: number; correct: number; lastReviewed: string | null }> {
+function loadTopicProgress(): Record<
+  string,
+  { reviews: number; correct: number; lastReviewed: string | null }
+> {
   if (typeof window === "undefined") return {};
   try {
     const raw = localStorage.getItem(STORAGE_KEY_PROGRESS);
@@ -34,17 +37,17 @@ function getStatus(p: TopicProgress): "not-started" | "learning" | "reviewing" |
 }
 
 const STATUS_COLORS: Record<string, string> = {
-  "not-started": "bg-slate-100 text-slate-500",
-  "learning": "bg-blue-100 text-blue-700",
-  "reviewing": "bg-orange-100 text-orange-700",
-  "mastered": "bg-green-100 text-green-700",
+  "not-started": "bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400",
+  learning: "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300",
+  reviewing: "bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-300",
+  mastered: "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300",
 };
 
 const STATUS_LABELS: Record<string, string> = {
   "not-started": "Not Started",
-  "learning": "Learning",
-  "reviewing": "Reviewing",
-  "mastered": "Mastered",
+  learning: "Learning",
+  reviewing: "Reviewing",
+  mastered: "Mastered",
 };
 
 export default function LearningPath(props: LearningPathProps) {
@@ -82,8 +85,8 @@ export default function LearningPath(props: LearningPathProps) {
 
   return (
     <div class="spatial-card p-6">
-      <h3 class="text-lg font-bold text-slate-900 mb-4">Learning Progress</h3>
-      
+      <h3 class="text-lg font-bold text-slate-900 dark:text-slate-100 mb-4">Learning Progress</h3>
+
       <Show when={recommended()}>
         <div class="mb-4 p-3 bg-[#0D9488]/5 border border-[#0D9488]/20 rounded-xl">
           <p class="text-sm font-medium text-[#0D9488]">
@@ -95,11 +98,13 @@ export default function LearningPath(props: LearningPathProps) {
       <div class="space-y-3">
         <For each={Object.values(progress())}>
           {(p) => (
-            <div class="flex items-center justify-between py-2 border-b border-slate-100 last:border-0">
+            <div class="flex items-center justify-between py-2 border-b border-slate-100 dark:border-slate-800 last:border-0">
               <span class="text-sm font-medium text-slate-700">{p.topic}</span>
               <div class="flex items-center gap-2">
-                <span class="text-xs text-slate-500">{p.quizAccuracy}%</span>
-                <span class={`text-xs font-medium px-2 py-0.5 rounded-full ${STATUS_COLORS[p.status]}`}>
+                <span class="text-xs text-slate-500 dark:text-slate-400">{p.quizAccuracy}%</span>
+                <span
+                  class={`text-xs font-medium px-2 py-0.5 rounded-full ${STATUS_COLORS[p.status]}`}
+                >
                   {STATUS_LABELS[p.status]}
                 </span>
               </div>

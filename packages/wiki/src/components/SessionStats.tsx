@@ -11,8 +11,10 @@ interface StatRowProps {
 function StatRow(props: StatRowProps) {
   return (
     <div class="flex items-center justify-between py-1.5">
-      <span class="text-sm text-slate-500">{props.label}</span>
-      <span class={`text-sm font-semibold ${props.color ?? "text-slate-900"}`}>{props.value}</span>
+      <span class="text-sm text-slate-500 dark:text-slate-400">{props.label}</span>
+      <span class={`text-sm font-semibold ${props.color ?? "text-slate-900 dark:text-slate-100"}`}>
+        {props.value}
+      </span>
     </div>
   );
 }
@@ -42,11 +44,11 @@ export default function SessionStats() {
   const session = () => sessionCtx?.session();
 
   return (
-    <div class="spatial-card p-6 bg-white rounded-2xl border border-slate-100">
+    <div class="spatial-card p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800">
       <div class="flex items-center justify-between mb-4">
-        <h3 class="text-lg font-bold text-slate-900">Session Stats</h3>
+        <h3 class="text-lg font-bold text-slate-900 dark:text-slate-100">Session Stats</h3>
         <Show when={streakActive()}>
-          <div class="flex items-center gap-1.5 px-2.5 py-1 bg-orange-50 rounded-full border border-orange-200">
+          <div class="flex items-center gap-1.5 px-2.5 py-1 bg-orange-50 dark:bg-orange-950/30 rounded-full border border-orange-200">
             <span class="text-[#F97316] text-sm font-bold">{allTime()?.currentStreak}</span>
             <span class="text-xs text-orange-600">day streak</span>
           </div>
@@ -55,7 +57,7 @@ export default function SessionStats() {
 
       {/* Current Session */}
       <div class="mb-4">
-        <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+        <div class="text-xs font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-wider mb-2">
           This Session
         </div>
         <StatRow label="Reviews" value={session()?.reviews ?? 0} />
@@ -67,11 +69,11 @@ export default function SessionStats() {
         />
       </div>
 
-      <div class="border-t border-slate-100 my-3" />
+      <div class="border-t border-slate-100 dark:border-slate-800 my-3" />
 
       {/* All-time */}
       <div>
-        <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">
+        <div class="text-xs font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-wider mb-2">
           All Time
         </div>
         <StatRow

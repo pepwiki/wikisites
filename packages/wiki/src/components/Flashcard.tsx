@@ -68,14 +68,18 @@ export default function Flashcard(props: FlashcardProps) {
           </span>
         </Show>
       </div>
-      <p class="text-lg font-semibold text-slate-900 text-center">{props.front}</p>
-      <p class="text-xs text-slate-400 mt-4" aria-hidden="true">
+      <p class="text-lg font-semibold text-slate-900 dark:text-slate-100 text-center">
+        {props.front}
+      </p>
+      <p class="text-xs text-slate-400 dark:text-slate-500 mt-4" aria-hidden="true">
         {rated() ? "Rated" : "Click to flip"}
       </p>
       <Show when={props.tags && props.tags.length > 0}>
         <div class="flex gap-1 mt-2" aria-label={`Tags: ${props.tags!.join(", ")}`}>
           {props.tags!.map((tag) => (
-            <span class="text-xs bg-slate-100 text-slate-500 px-2 py-0.5 rounded-full">{tag}</span>
+            <span class="text-xs bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 px-2 py-0.5 rounded-full">
+              {tag}
+            </span>
           ))}
         </div>
       </Show>
@@ -118,7 +122,7 @@ export default function Flashcard(props: FlashcardProps) {
           <span class="text-xs text-[#0D9488] font-medium">Rated</span>
           <button
             type="button"
-            class="ml-2 text-xs text-slate-400 hover:text-slate-600 underline"
+            class="ml-2 text-xs text-slate-400 dark:text-slate-500 hover:text-slate-600 dark:hover:text-slate-300 underline"
             onClick={resetCard}
           >
             Flip again

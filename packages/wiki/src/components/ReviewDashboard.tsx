@@ -87,8 +87,10 @@ export default function ReviewDashboard(props: ReviewDashboardProps) {
 
   const frontContent = (
     <>
-      <p class="text-xl font-semibold text-slate-900 text-center">{currentFront()}</p>
-      <p class="text-xs text-slate-400 mt-4">Click to reveal answer</p>
+      <p class="text-xl font-semibold text-slate-900 dark:text-slate-100 text-center">
+        {currentFront()}
+      </p>
+      <p class="text-xs text-slate-400 dark:text-slate-500 mt-4">Click to reveal answer</p>
     </>
   );
 
@@ -126,25 +128,25 @@ export default function ReviewDashboard(props: ReviewDashboardProps) {
         onNext={handleNext}
       />
       {/* Stats bar */}
-      <div class="flex items-center justify-between mb-6 p-4 bg-white rounded-2xl border border-slate-100">
+      <div class="flex items-center justify-between mb-6 p-4 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800">
         <div class="text-center px-4">
           <div class="text-2xl font-bold text-[#0D9488]">{stats().total}</div>
-          <div class="text-xs text-slate-500">Total Cards</div>
+          <div class="text-xs text-slate-500 dark:text-slate-400">Total Cards</div>
         </div>
-        <div class="text-center px-4 border-x border-slate-200">
+        <div class="text-center px-4 border-x border-slate-200 dark:border-slate-700">
           <div class="text-2xl font-bold text-[#F97316]">{dueCards().length - currentIndex()}</div>
-          <div class="text-xs text-slate-500">Remaining</div>
+          <div class="text-xs text-slate-500 dark:text-slate-400">Remaining</div>
         </div>
         <div class="text-center px-4">
           <div class="text-2xl font-bold text-[#0D9488]">
             {sessionTotal() > 0 ? Math.round((sessionCorrect() / sessionTotal()) * 100) : 0}%
           </div>
-          <div class="text-xs text-slate-500">Session Accuracy</div>
+          <div class="text-xs text-slate-500 dark:text-slate-400">Session Accuracy</div>
         </div>
         <Show when={currentCard() && currentCard()!.scheduledDays > 0}>
-          <div class="text-center px-4 border-l border-slate-200">
+          <div class="text-center px-4 border-l border-slate-200 dark:border-slate-700">
             <div class="text-2xl font-bold text-[#0D9488]">{currentCard()!.scheduledDays}d</div>
-            <div class="text-xs text-slate-500">Next Review</div>
+            <div class="text-xs text-slate-500 dark:text-slate-400">Next Review</div>
           </div>
         </Show>
       </div>
@@ -174,15 +176,19 @@ export default function ReviewDashboard(props: ReviewDashboardProps) {
         </Show>
 
         <Show when={!flipped()}>
-          <p class="text-center text-sm text-slate-400">Click the card to reveal the answer</p>
+          <p class="text-center text-sm text-slate-400 dark:text-slate-500">
+            Click to reveal the answer
+          </p>
         </Show>
       </Show>
 
       {/* Session complete */}
       <Show when={sessionComplete()}>
-        <div class="text-center py-12 bg-white rounded-2xl border border-slate-100">
-          <h3 class="text-2xl font-bold text-slate-900 mb-2">Session Complete</h3>
-          <p class="text-slate-600 mb-6">
+        <div class="text-center py-12 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800">
+          <h3 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-2">
+            Session Complete
+          </h3>
+          <p class="text-slate-600 dark:text-slate-400 mb-6">
             You reviewed {sessionTotal()} cards with{" "}
             {sessionTotal() > 0 ? Math.round((sessionCorrect() / sessionTotal()) * 100) : 0}%
             accuracy.
@@ -199,9 +205,9 @@ export default function ReviewDashboard(props: ReviewDashboardProps) {
 
       {/* No cards due */}
       <Show when={initialized() && dueCards().length === 0 && !sessionComplete()}>
-        <div class="text-center py-12 bg-white rounded-2xl border border-slate-100">
-          <h3 class="text-2xl font-bold text-slate-900 mb-2">All Caught Up</h3>
-          <p class="text-slate-600 mb-6">
+        <div class="text-center py-12 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800">
+          <h3 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-2">All Caught Up</h3>
+          <p class="text-slate-600 dark:text-slate-400 mb-6">
             No cards are due for review right now. Come back later for your next session.
           </p>
           <button

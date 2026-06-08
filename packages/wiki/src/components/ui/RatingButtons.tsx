@@ -12,23 +12,26 @@ const RATINGS = [
   {
     rating: Rating.Again,
     label: "Again",
-    colors: "bg-red-50 border-red-200 text-red-700 hover:bg-red-100 focus:ring-red-400",
+    colors:
+      "bg-red-50 dark:bg-red-950/30 border-red-200 text-red-700 dark:text-red-300 hover:bg-red-100 dark:hover:bg-red-900/40 focus:ring-red-400",
   },
   {
     rating: Rating.Hard,
     label: "Hard",
     colors:
-      "bg-orange-50 border-orange-200 text-orange-700 hover:bg-orange-100 focus:ring-orange-400",
+      "bg-orange-50 dark:bg-orange-950/30 border-orange-200 text-orange-700 dark:text-orange-300 hover:bg-orange-100 dark:hover:bg-orange-900/40 focus:ring-orange-400",
   },
   {
     rating: Rating.Good,
     label: "Good",
-    colors: "bg-teal-50 border-teal-200 text-teal-700 hover:bg-teal-100 focus:ring-teal-400",
+    colors:
+      "bg-teal-50 dark:bg-teal-950/30 border-teal-200 text-teal-700 dark:text-teal-300 hover:bg-teal-100 dark:hover:bg-teal-900/40 focus:ring-teal-400",
   },
   {
     rating: Rating.Easy,
     label: "Easy",
-    colors: "bg-green-50 border-green-200 text-green-700 hover:bg-green-100 focus:ring-green-400",
+    colors:
+      "bg-green-50 dark:bg-green-950/30 border-green-200 text-green-700 dark:text-green-300 hover:bg-green-100 dark:hover:bg-green-900/40 focus:ring-green-400",
   },
 ] as const;
 

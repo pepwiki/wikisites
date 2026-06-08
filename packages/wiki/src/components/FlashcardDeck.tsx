@@ -109,7 +109,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
           class={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
             activeTag() === null
               ? "bg-[#0D9488] text-white"
-              : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+              : "bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-600"
           }`}
           onClick={() => selectTag(null)}
         >
@@ -122,7 +122,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
               class={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
                 activeTag() === tag
                   ? "bg-[#0D9488] text-white"
-                  : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                  : "bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-600"
               }`}
               onClick={() => selectTag(tag)}
             >
@@ -133,14 +133,16 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
       </div>
 
       <Show when={dueCount() > 0}>
-        <div class="mb-3 px-3 py-1.5 bg-amber-50 text-amber-700 text-xs font-medium rounded-lg">
+        <div class="mb-3 px-3 py-1.5 bg-amber-50 dark:bg-amber-950/30 text-amber-700 text-xs font-medium rounded-lg">
           {dueCount()} card{dueCount() !== 1 ? "s" : ""} due
         </div>
       </Show>
 
-      <div class="flex items-center gap-3 mb-4 text-sm text-slate-500">
-        <span>Card {currentIndex() + 1} of {filteredCards().length}</span>
-        <div class="flex-1 h-1.5 bg-slate-100 rounded-full overflow-hidden">
+      <div class="flex items-center gap-3 mb-4 text-sm text-slate-500 dark:text-slate-400">
+        <span>
+          Card {currentIndex() + 1} of {filteredCards().length}
+        </span>
+        <div class="flex-1 h-1.5 bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
           <div
             class="h-full bg-[#0D9488] rounded-full transition-all"
             style={{ width: `${((currentIndex() + 1) / filteredCards().length) * 100}%` }}
@@ -159,7 +161,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
         />
         <button
           type="button"
-          class="mt-4 w-full px-4 py-2 bg-slate-100 text-slate-700 rounded-xl font-medium hover:bg-slate-200 transition-colors"
+          class="mt-4 w-full px-4 py-2 bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 rounded-xl font-medium hover:bg-slate-200 dark:hover:bg-slate-600 transition-colors"
           onClick={handleRate}
         >
           Next Card

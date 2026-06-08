@@ -200,12 +200,14 @@ const backs: Record<string, string> = {
 ---
 
 <BaseLayout title="Review">
-  <h1 class="text-4xl font-extrabold mb-8 text-slate-900">Review Session</h1>
-  <p class="text-slate-600 mb-8">
+  <h1 class="text-4xl font-extrabold mb-8 text-slate-900 dark:text-slate-100">Review Session</h1>
+  <p class="text-slate-600 dark:text-slate-400 mb-8">
     Spaced repetition powered by FSRS. Rate each card to optimize your long-term retention.
   </p>
 
-  <div class="mb-6 p-4 bg-blue-50 border border-blue-200 rounded-xl text-sm text-blue-800">
+  <div
+    class="mb-6 p-4 bg-blue-50 dark:bg-blue-950/30 border border-blue-200 rounded-xl text-sm text-blue-800"
+  >
     Progress is stored locally on this device. Your review schedule and card ratings are saved in
     your browser and are not synced across devices.
   </div>

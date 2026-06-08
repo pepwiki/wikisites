@@ -37,11 +37,11 @@ export default function LearnProgress(props: LearnProgressProps) {
   return (
     <Show when={stats()}>
       <div class="mt-3">
-        <div class="flex items-center justify-between text-xs text-slate-400 mb-1">
+        <div class="flex items-center justify-between text-xs text-slate-400 dark:text-slate-500 mb-1">
           <span>Progress</span>
           <span>{percentage()}%</span>
         </div>
-        <div class="h-1.5 bg-slate-100 rounded-full overflow-hidden">
+        <div class="h-1.5 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
           <div
             class="h-full bg-[#0D9488] rounded-full transition-all"
             style={{ width: `${percentage()}%` }}

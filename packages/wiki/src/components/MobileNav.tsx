@@ -20,7 +20,7 @@ export default function MobileNav(props: MobileNavProps) {
     <nav class="lg:hidden" aria-label="Mobile navigation">
       <button
         type="button"
-        class="p-2 text-slate-600 hover:text-[#0D9488] focus:outline-none focus:ring-2 focus:ring-[#0D9488] rounded"
+        class="p-2 text-slate-600 dark:text-slate-400 hover:text-[#0D9488] focus:outline-none focus:ring-2 focus:ring-[#0D9488] rounded"
         onClick={() => setOpen(!open())}
         aria-label={open() ? "Close menu" : "Open menu"}
         aria-expanded={open()}
@@ -34,7 +34,7 @@ export default function MobileNav(props: MobileNavProps) {
         </svg>
       </button>
       <Show when={open()}>
-        <div class="absolute top-full left-0 right-0 bg-white border-b border-slate-200 shadow-lg z-50">
+        <div class="absolute top-full left-0 right-0 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-700 shadow-lg z-50">
           <ul class="max-w-7xl mx-auto px-6 py-4 space-y-3">
             {NAV_LINKS.map((link) => (
               <li>
@@ -43,7 +43,7 @@ export default function MobileNav(props: MobileNavProps) {
                   class={`block py-2 text-sm font-medium transition-colors ${
                     props.currentPath.startsWith(link.href)
                       ? "text-[#0D9488]"
-                      : "text-slate-600 hover:text-[#0D9488]"
+                      : "text-slate-600 dark:text-slate-400 hover:text-[#0D9488]"
                   }`}
                   onClick={() => setOpen(false)}
                 >

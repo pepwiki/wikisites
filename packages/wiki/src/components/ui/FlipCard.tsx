@@ -1,4 +1,4 @@
-import { Show, type JSX } from "solid-js";
+import { type JSX } from "solid-js";
 
 interface FlipCardProps {
   /** Whether the card is flipped to show the back */
@@ -38,7 +38,7 @@ export default function FlipCard(props: FlipCardProps) {
         }`}
       >
         {/* Front */}
-        <div class="absolute inset-0 backface-hidden bg-white border-2 border-[#0D9488] rounded-2xl p-6 flex flex-col items-center justify-center">
+        <div class="absolute inset-0 backface-hidden bg-white dark:bg-slate-900 border-2 border-[#0D9488] rounded-2xl p-6 flex flex-col items-center justify-center">
           {props.front}
         </div>
         {/* Back */}

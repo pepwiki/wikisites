@@ -53,7 +53,7 @@ const {
       });
     </script>
   </head>
-  <body class="bg-[#F8FAFC] text-slate-900 font-sans">
+  <body class="bg-[#F8FAFC] dark:bg-slate-950 text-slate-900 dark:text-slate-100 font-sans">
     <Toaster client:load />
     <a
       href="#main-content"
@@ -61,7 +61,9 @@ const {
     >
       Skip to content
     </a>
-    <header class="border-b border-slate-200 bg-white shadow-sm relative">
+    <header
+      class="border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm relative"
+    >
       <nav
         class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between"
         aria-label="Main navigation"
@@ -72,32 +74,32 @@ const {
         <div class="hidden lg:flex gap-6 text-sm font-medium">
           <a
             href="/learn"
-            class="hover:text-[#0D9488] focus:text-[#0D9488] focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 rounded transition-colors"
+            class="text-slate-600 dark:text-slate-400 hover:text-[#0D9488] focus:text-[#0D9488] focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 rounded transition-colors"
             >Learn</a
           >
           <a
             href="/review"
-            class="hover:text-[#0D9488] focus:text-[#0D9488] focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 rounded transition-colors"
+            class="text-slate-600 dark:text-slate-400 hover:text-[#0D9488] focus:text-[0D9488] focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 rounded transition-colors"
             >Review</a
           >
           <a
             href="/quizzes"
-            class="hover:text-[#0D9488] focus:text-[#0D9488] focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 rounded transition-colors"
+            class="text-slate-600 dark:text-slate-400 hover:text-[#0D9488] focus:text-[0D9488] focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 rounded transition-colors"
             >Quizzes</a
           >
           <a
             href="/flashcards"
-            class="hover:text-[#0D9488] focus:text-[#0D9488] focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 rounded transition-colors"
+            class="text-slate-600 dark:text-slate-400 hover:text-[#0D9488] focus:text-[0D9488] focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 rounded transition-colors"
             >Flashcards</a
           >
           <a
             href="/community"
-            class="hover:text-[#0D9488] focus:text-[#0D9488] focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 rounded transition-colors"
+            class="text-slate-600 dark:text-slate-400 hover:text-[#0D9488] focus:text-[0D9488] focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 rounded transition-colors"
             >Community</a
           >
           <a
             href="/glossary"
-            class="hover:text-[#0D9488] focus:text-[#0D9488] focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 rounded transition-colors"
+            class="text-slate-600 dark:text-slate-400 hover:text-[0D9488] focus:text-[0D9488] focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 rounded transition-colors"
             >Glossary</a
           >
         </div>
@@ -108,8 +110,13 @@ const {
     <main id="main-content" class="max-w-7xl mx-auto px-6 py-8" tabindex="-1">
       <slot />
     </main>
-    <footer class="border-t border-slate-200 bg-white mt-16" role="contentinfo">
-      <div class="max-w-7xl mx-auto px-6 py-8 text-sm text-slate-500 flex flex-col md:flex-row items-center justify-between gap-4">
+    <footer
+      class="border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 mt-16"
+      role="contentinfo"
+    >
+      <div
+        class="max-w-7xl mx-auto px-6 py-8 text-sm text-slate-500 dark:text-slate-400 flex flex-col md:flex-row items-center justify-between gap-4"
+      >
         <p>&copy; 2026 Wikipept. Community-driven oligopeptide learning platform.</p>
         <a href="/privacy" class="hover:text-[#0D9488] transition-colors">Privacy Policy</a>
       </div>
@@ -156,5 +163,11 @@ const {
     --pagefind-ui-background: #ffffff;
     --pagefind-ui-border: #e2e8f0;
     --pagefind-ui-tag: #f1f5f9;
+  }
+  .dark {
+    --pagefind-ui-text: #cbd5e1;
+    --pagefind-ui-background: #1e293b;
+    --pagefind-ui-border: #334155;
+    --pagefind-ui-tag: #1e293b;
   }
 </style>

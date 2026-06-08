@@ -43,14 +43,14 @@ export default function PushNotifications() {
 
   return (
     <Show when={supported() && showPrompt() && !subscribed()}>
-      <div class="fixed bottom-20 left-4 right-4 md:left-auto md:right-4 md:w-80 bg-white border border-slate-200 rounded-xl shadow-lg z-50 p-4">
-        <p class="text-sm text-slate-700 mb-3">
+      <div class="fixed bottom-20 left-4 right-4 md:left-auto md:right-4 md:w-80 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-xl shadow-lg z-50 p-4">
+        <p class="text-sm text-slate-700 dark:text-slate-300 mb-3">
           Get reminded when your flashcards are due. Enable notifications?
         </p>
         <div class="flex gap-2">
           <button
             type="button"
-            class="px-3 py-1.5 text-xs text-slate-500 border border-slate-200 rounded-lg hover:bg-slate-50"
+            class="px-3 py-1.5 text-xs text-slate-500 dark:text-slate-400 border border-slate-200 dark:border-slate-700 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700"
             onClick={dismiss}
           >
             Not now

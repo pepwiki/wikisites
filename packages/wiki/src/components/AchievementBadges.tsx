@@ -38,7 +38,9 @@ function saveBadges(badges: Record<string, string>): void {
   if (typeof window === "undefined") return;
   try {
     localStorage.setItem(STORAGE_KEY_BADGES, JSON.stringify(badges));
-  } catch {}
+  } catch {
+    // localStorage may be unavailable
+  }
 }
 
 function checkAchievements(stats: SessionData, badges: Record<string, string>): Achievement[] {
@@ -155,18 +157,24 @@ export default function AchievementBadges() {
   return (
     <div class="spatial-card p-6">
       <div class="flex items-center justify-between mb-4">
-        <h3 class="text-lg font-bold text-slate-900">Achievements</h3>
-        <span class="text-sm text-slate-500">{unlockedCount()}/{totalCount()}</span>
+        <h3 class="text-lg font-bold text-slate-900 dark:text-slate-100">Achievements</h3>
+        <span class="text-sm text-slate-500 dark:text-slate-400">
+          {unlockedCount()}/{totalCount()}
+        </span>
       </div>
       <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
         <For each={achievements()}>
           {(a) => (
-            <div class={`p-3 rounded-xl text-center ${a.unlocked ? "bg-[#0D9488]/5 border border-[#0D9488]/20" : "bg-slate-50 border border-slate-100 opacity-50"}`}>
-              <div class={`text-2xl font-bold mb-1 ${a.unlocked ? "text-[#0D9488]" : "text-slate-300"}`}>
+            <div
+              class={`p-3 rounded-xl text-center ${a.unlocked ? "bg-[#0D9488]/5 border border-[#0D9488]/20" : "bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700 opacity-50"}`}
+            >
+              <div
+                class={`text-2xl font-bold mb-1 ${a.unlocked ? "text-[#0D9488]" : "text-slate-300"}`}
+              >
                 {a.icon}
               </div>
               <div class="text-xs font-medium text-slate-700">{a.name}</div>
-              <div class="text-xs text-slate-400 mt-0.5">{a.description}</div>
+              <div class="text-xs text-slate-400 dark:text-slate-500 mt-0.5">{a.description}</div>
             </div>
           )}
         </For>

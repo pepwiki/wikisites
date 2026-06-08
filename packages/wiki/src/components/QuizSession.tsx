@@ -19,9 +19,7 @@ interface QuizSessionProps {
 function formatCategory(id: string): string {
   const parts = id.split("-");
   parts.pop();
-  return parts
-    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-    .join(" ");
+  return parts.map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
 }
 
 function groupByCategory(questions: QuizQuestion[]) {
@@ -53,21 +51,15 @@ export default function QuizSession(props: QuizSessionProps) {
   const categories = groupByCategory(props.questions);
   const allQuestions = categories.flatMap((c) => c.questions);
 
-  const [phase, setPhase] = createSignal<"selecting" | "quiz" | "done">(
-    "selecting"
-  );
-  const [selectedCategory, setSelectedCategory] = createSignal<string | null>(
-    null
-  );
+  const [phase, setPhase] = createSignal<"selecting" | "quiz" | "done">("selecting");
+  const [selectedCategory, setSelectedCategory] = createSignal<string | null>(null);
   const [order, setOrder] = createSignal<QuizQuestion[]>([]);
   const [current, setCurrent] = createSignal(0);
   const [correctCount, setCorrectCount] = createSignal(0);
   const [incorrectCount, setIncorrectCount] = createSignal(0);
   const [revealed, setRevealed] = createSignal(false);
   const [elapsed, setElapsed] = createSignal(0);
-  const [accuracyMap, setAccuracyMap] = createSignal<Map<string, number>>(
-    new Map()
-  );
+  const [accuracyMap, setAccuracyMap] = createSignal<Map<string, number>>(new Map());
   const [roundNumber, setRoundNumber] = createSignal(1);
   let startTime = 0;
 
@@ -76,9 +68,7 @@ export default function QuizSession(props: QuizSessionProps) {
   const progressPercent = createMemo(() => (current() / total()) * 100);
 
   const filteredQuestions = (category: string | null) =>
-    category
-      ? allQuestions.filter((q) => formatCategory(q.id) === category)
-      : allQuestions;
+    category ? allQuestions.filter((q) => formatCategory(q.id) === category) : allQuestions;
 
   const categoryAccuracy = (category: string) => {
     const map = accuracyMap();
@@ -136,10 +126,7 @@ export default function QuizSession(props: QuizSessionProps) {
     setAccuracyMap((prev) => {
       const next = new Map(prev);
       const prevVal = next.get(q.id);
-      next.set(
-        q.id,
-        correct ? (prevVal ?? 0) + 1 : (prevVal ?? 0)
-      );
+      next.set(q.id, correct ? (prevVal ?? 0) + 1 : (prevVal ?? 0));
       return next;
     });
 
@@ -154,7 +141,9 @@ export default function QuizSession(props: QuizSessionProps) {
       if (correct) data[cat].correct++;
       data[cat].lastReviewed = new Date().toISOString();
       localStorage.setItem(STORAGE_KEY_PROGRESS, JSON.stringify(data));
-    } catch {}
+    } catch {
+      // localStorage may be unavailable
+    }
   };
 
   const handleNext = () => {
@@ -223,11 +212,9 @@ export default function QuizSession(props: QuizSessionProps) {
   return (
     <div>
       <Show when={phase() === "selecting"}>
-        <div class="bg-white border border-slate-200 rounded-2xl p-8 shadow-sm">
-          <h2 class="text-2xl font-bold text-slate-900 mb-2">
-            {props.title}
-          </h2>
-          <p class="text-slate-600 mb-6">Choose a category to quiz on</p>
+        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-2xl p-8 shadow-sm">
+          <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-2">{props.title}</h2>
+          <p class="text-slate-600 dark:text-slate-400 mb-6">Choose a category to quiz on</p>
 
           <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
             <button
@@ -236,7 +223,7 @@ export default function QuizSession(props: QuizSessionProps) {
               onClick={() => startQuiz(null)}
             >
               <span class="block text-sm font-semibold">All</span>
-              <span class="text-xs text-slate-500">
+              <span class="text-xs text-slate-500 dark:text-slate-400">
                 {allQuestions.length} questions
               </span>
             </button>
@@ -246,17 +233,15 @@ export default function QuizSession(props: QuizSessionProps) {
               return (
                 <button
                   type="button"
-                  class="px-4 py-3 rounded-xl border-2 border-slate-200 hover:border-[#0D9488] hover:bg-[#0D9488]/5 transition-colors text-left"
+                  class="px-4 py-3 rounded-xl border-2 border-slate-200 dark:border-slate-700 hover:border-[#0D9488] hover:bg-[#0D9488]/5 transition-colors text-left"
                   onClick={() => startQuiz(cat.category)}
                 >
-                  <span class="block text-sm font-semibold text-slate-900">
+                  <span class="block text-sm font-semibold text-slate-900 dark:text-slate-100">
                     {cat.category}
                   </span>
-                  <span class="text-xs text-slate-500">
+                  <span class="text-xs text-slate-500 dark:text-slate-400">
                     {cat.questions.length} questions
-                    {acc !== null && (
-                      <span class="ml-1 text-[#0D9488]"> · {acc}%</span>
-                    )}
+                    {acc !== null && <span class="ml-1 text-[#0D9488]"> · {acc}%</span>}
                   </span>
                 </button>
               );
@@ -268,10 +253,10 @@ export default function QuizSession(props: QuizSessionProps) {
       <Show when={phase() === "quiz"}>
         <div class="mb-6">
           <div class="flex items-center justify-between mb-2">
-            <span class="text-sm font-medium text-slate-600">
+            <span class="text-sm font-medium text-slate-600 dark:text-slate-400">
               Question {current() + 1} of {total()}
             </span>
-            <span class="text-sm text-slate-500">
+            <span class="text-sm text-slate-500 dark:text-slate-400">
               {correctCount()} correct &middot; {incorrectCount()} incorrect
             </span>
           </div>
@@ -297,7 +282,7 @@ export default function QuizSession(props: QuizSessionProps) {
         <Show when={revealed()}>
           <button
             type="button"
-            class="mt-4 px-6 py-2 bg-[#0D9488] text-white rounded-full font-medium hover:bg-[#0D9488]/90 focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 transition-colors"
+            class="mt-4 px-6 py-2 bg-[#0D9488] text-white rounded-full font-medium hover:bg-[#0D9488]/90 focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 transition-colors"
             onClick={handleNext}
           >
             {current() + 1 >= total() ? "See Results" : "Next Question"}
@@ -306,46 +291,45 @@ export default function QuizSession(props: QuizSessionProps) {
       </Show>
 
       <Show when={phase() === "done"}>
-        <div class="bg-white border border-slate-200 rounded-2xl p-8 shadow-sm text-center">
-          <h2 class="text-2xl font-bold text-slate-900 mb-2">Quiz Complete!</h2>
-          <p class="text-slate-600 mb-6">{props.title}</p>
+        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-2xl p-8 shadow-sm text-center">
+          <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-2">Quiz Complete!</h2>
+          <p class="text-slate-600 dark:text-slate-400 mb-6">{props.title}</p>
 
           <div class="grid grid-cols-3 gap-6 mb-8 max-w-md mx-auto">
             <div class="text-center">
               <p class="text-3xl font-bold text-[#0D9488]">{correctCount()}</p>
-              <p class="text-sm text-slate-500">Correct</p>
+              <p class="text-sm text-slate-500 dark:text-slate-400">Correct</p>
             </div>
             <div class="text-center">
-              <p class="text-3xl font-bold text-slate-900">
-                {total() > 0 ? Math.round((correctCount() / total()) * 100) : 0}
-                %
+              <p class="text-3xl font-bold text-slate-900 dark:text-slate-100">
+                {total() > 0 ? Math.round((correctCount() / total()) * 100) : 0}%
               </p>
-              <p class="text-sm text-slate-500">Accuracy</p>
+              <p class="text-sm text-slate-500 dark:text-slate-400">Accuracy</p>
             </div>
             <div class="text-center">
-              <p class="text-3xl font-bold text-slate-900">{elapsed()}s</p>
-              <p class="text-sm text-slate-500">Time</p>
+              <p class="text-3xl font-bold text-slate-900 dark:text-slate-100">{elapsed()}s</p>
+              <p class="text-sm text-slate-500 dark:text-slate-400">Time</p>
             </div>
           </div>
 
           <div class="flex flex-col sm:flex-row gap-3 justify-center">
             <button
               type="button"
-              class="px-6 py-2 bg-[#0D9488] text-white rounded-full font-medium hover:bg-[#0D9488]/90 focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 transition-colors"
+              class="px-6 py-2 bg-[#0D9488] text-white rounded-full font-medium hover:bg-[#0D9488]/90 focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 transition-colors"
               onClick={handleRetryWeak}
             >
               Retry Weakest
             </button>
             <button
               type="button"
-              class="px-6 py-2 border-2 border-[#0D9488] text-[#0D9488] rounded-full font-medium hover:bg-[#0D9488]/5 focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 transition-colors"
+              class="px-6 py-2 border-2 border-[#0D9488] text-[#0D9488] rounded-full font-medium hover:bg-[#0D9488]/5 focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 transition-colors"
               onClick={handleTryAnother}
             >
               Try Another Category
             </button>
             <button
               type="button"
-              class="px-6 py-2 border-2 border-slate-300 text-slate-600 rounded-full font-medium hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-slate-300 focus:ring-offset-2 transition-colors"
+              class="px-6 py-2 border-2 border-slate-300 dark:border-slate-600 text-slate-600 dark:text-slate-400 rounded-full font-medium hover:bg-slate-50 dark:hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-300 focus:ring-offset-2 dark:focus:ring-offset-slate-900 transition-colors"
               onClick={handleStartOver}
             >
               Start Over

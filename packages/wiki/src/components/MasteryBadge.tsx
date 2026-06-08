@@ -15,18 +15,29 @@ export default function MasteryBadge(props: MasteryBadgeProps) {
   };
 
   const config = {
-    none: { label: "Not started", color: "bg-slate-100 text-slate-500" },
-    beginner: { label: "Beginner", color: "bg-blue-100 text-blue-700" },
-    familiar: { label: "Familiar", color: "bg-yellow-100 text-yellow-700" },
-    proficient: { label: "Proficient", color: "bg-orange-100 text-orange-700" },
-    expert: { label: "Expert", color: "bg-green-100 text-green-700" },
+    none: {
+      label: "Not started",
+      color: "bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400",
+    },
+    beginner: {
+      label: "Beginner",
+      color: "bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300",
+    },
+    familiar: {
+      label: "Familiar",
+      color: "bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-300",
+    },
+    proficient: {
+      label: "Proficient",
+      color: "bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-300",
+    },
+    expert: {
+      label: "Expert",
+      color: "bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300",
+    },
   };
 
   const c = config[level()];
 
-  return (
-    <span class={`text-xs font-bold px-2 py-0.5 rounded-full ${c.color}`}>
-      {c.label}
-    </span>
-  );
+  return <span class={`text-xs font-bold px-2 py-0.5 rounded-full ${c.color}`}>{c.label}</span>;
 }

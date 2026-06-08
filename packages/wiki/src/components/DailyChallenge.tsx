@@ -19,7 +19,7 @@ function hashDate(date: string): number {
   let hash = 0;
   for (let i = 0; i < date.length; i++) {
     const char = date.charCodeAt(i);
-    hash = ((hash << 5) - hash) + char;
+    hash = (hash << 5) - hash + char;
     hash |= 0;
   }
   return Math.abs(hash);
@@ -65,14 +65,14 @@ export default function DailyChallenge(props: DailyChallengeProps) {
   return (
     <div class="spatial-card p-6">
       <div class="flex items-center justify-between mb-4">
-        <h3 class="text-lg font-bold text-slate-900">Daily Challenge</h3>
-        <span class="text-xs font-medium text-[#F97316] bg-orange-50 px-2 py-1 rounded-full">
+        <h3 class="text-lg font-bold text-slate-900 dark:text-slate-100">Daily Challenge</h3>
+        <span class="text-xs font-medium text-[#F97316] bg-orange-50 dark:bg-orange-950/30 px-2 py-1 rounded-full">
           {today}
         </span>
       </div>
 
       <Show when={!done()}>
-        <p class="text-sm text-slate-500 mb-4">
+        <p class="text-sm text-slate-500 dark:text-slate-400 mb-4">
           10 questions, same for everyone today. Question {current() + 1} of 10
         </p>
 
@@ -99,9 +99,13 @@ export default function DailyChallenge(props: DailyChallengeProps) {
       <Show when={done()}>
         <div class="text-center py-8">
           <p class="text-3xl font-bold text-[#0D9488] mb-2">{correctCount()}/10</p>
-          <p class="text-slate-600 mb-4">Correct answers today</p>
-          <p class="text-sm text-slate-400">
-            {correctCount() >= 8 ? "Excellent work!" : correctCount() >= 5 ? "Good effort!" : "Keep practicing!"}
+          <p class="text-slate-600 dark:text-slate-400 mb-4">Correct answers today</p>
+          <p class="text-sm text-slate-400 dark:text-slate-500">
+            {correctCount() >= 8
+              ? "Excellent work!"
+              : correctCount() >= 5
+                ? "Good effort!"
+                : "Keep practicing!"}
           </p>
         </div>
       </Show>

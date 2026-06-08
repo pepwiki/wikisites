@@ -1,6 +1,9 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+/* Enable class-based dark mode for Starlight toggle */
+@custom-variant dark (&:where(.dark, .dark *));
+
 /* ==========================================================================
    Wikipept - Spatial Materialism + Amoebic UI Design System
    ========================================================================== */
@@ -19,6 +22,12 @@ body {
   background:
     radial-gradient(ellipse at 30% 0%, rgba(13, 148, 136, 0.03) 0%, transparent 50%),
     radial-gradient(ellipse at 70% 100%, rgba(249, 115, 22, 0.02) 0%, transparent 50%), #f8fafc;
+}
+
+.dark body {
+  background:
+    radial-gradient(ellipse at 30% 0%, rgba(13, 148, 136, 0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 100%, rgba(249, 115, 22, 0.03) 0%, transparent 50%), #020617;
 }
 
 h1,
@@ -49,6 +58,11 @@ h6 {
     transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.dark .spatial-card {
+  background: #1e293b;
+  border-color: rgba(51, 65, 85, 0.6);
+}
+
 .spatial-card:hover {
   box-shadow: var(--spatial-depth-3);
   transform: translateY(-2px);
@@ -61,6 +75,10 @@ h6 {
   border-radius: inherit;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 60%);
   pointer-events: none;
+}
+
+.dark .spatial-card::before {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 60%);
 }
 
 /* Amoebic UI: organic blob shapes */
@@ -117,3 +135,7 @@ h6 {
   background: #f1f5f9;
   box-shadow: var(--spatial-depth-3);
 }
+
+.dark .depth-plane-0 { background: #0f172a; }
+.dark .depth-plane-1 { background: #0f172a; }
+.dark .depth-plane-2 { background: #1e293b; }
