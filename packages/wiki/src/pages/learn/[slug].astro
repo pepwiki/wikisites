@@ -1,26 +1,21 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
-const slugTitles: Record<string, string> = {
-  "amino-acids": "20 Standard Amino Acids",
-  "peptide-bonds": "Peptide Bond Chemistry",
-  structure: "Protein Structure Levels",
-  signaling: "Peptide Signaling",
-  receptors: "Receptor Binding",
-  pharmacology: "Therapeutic Peptides",
-  spps: "Solid-Phase Synthesis",
-  purification: "Purification Methods",
-  computational: "Computational Design",
-  "drug-delivery": "Drug Delivery Systems",
-  "clinical-trials": "Clinical Trial Design",
-  regulatory: "Regulatory Pathways",
-};
-
-export async function getStaticPaths() {
-  return Object.entries(slugTitles).map(([slug, title]) => ({
-    params: { slug },
-    props: { title },
-  }));
+export function getStaticPaths() {
+  return [
+    { params: { slug: "amino-acids" }, props: { title: "20 Standard Amino Acids" } },
+    { params: { slug: "peptide-bonds" }, props: { title: "Peptide Bond Chemistry" } },
+    { params: { slug: "structure" }, props: { title: "Protein Structure Levels" } },
+    { params: { slug: "signaling" }, props: { title: "Peptide Signaling" } },
+    { params: { slug: "receptors" }, props: { title: "Receptor Binding" } },
+    { params: { slug: "pharmacology" }, props: { title: "Therapeutic Peptides" } },
+    { params: { slug: "spps" }, props: { title: "Solid-Phase Synthesis" } },
+    { params: { slug: "purification" }, props: { title: "Purification Methods" } },
+    { params: { slug: "computational" }, props: { title: "Computational Design" } },
+    { params: { slug: "drug-delivery" }, props: { title: "Drug Delivery Systems" } },
+    { params: { slug: "clinical-trials" }, props: { title: "Clinical Trial Design" } },
+    { params: { slug: "regulatory" }, props: { title: "Regulatory Pathways" } },
+  ];
 }
 
 const { slug } = Astro.params;

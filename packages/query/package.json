@@ -9,7 +9,8 @@
     ".": "./src/index.ts",
     "./fsrs": "./src/fsrs.ts",
     "./review-store": "./src/review-store.ts",
-    "./session-stats": "./src/session-stats.ts"
+    "./session-stats": "./src/session-stats.ts",
+    "./card-status": "./src/card-status.ts"
   },
   "scripts": {
     "build": "tsc",
