@@ -2,20 +2,24 @@
 
 Technical path from current state to production, scaling, and feature integration.
 
-## Current State (v1.1.0)
+## Current State (v1.2.0)
 
-| Component          | Status           | Notes                                                                   |
-| ------------------ | ---------------- | ----------------------------------------------------------------------- |
-| @wikisites/shared  | Production-ready | Zod schemas, molecular weight calculation, 58 tests                     |
-| @wikisites/query   | Production-ready | FSRS v4 algorithm, search engine, review store, 76 tests                |
-| @wikisites/workers | Production-ready | Cloudflare Worker API (health, search, static assets), 10 tests         |
-| @wikisites/encp    | Deployed         | 7 static pages, Spatial Materialism + Amoebic UI design system          |
-| @wikisites/wiki    | Deployed         | 7 static pages, 4 SolidJS components, 29 flashcards, 23 quiz questions  |
-| CI/CD              | Active           | Forgejo Actions: lint, test, typecheck, build, deploy (5 parallel jobs) |
-| Testing            | 151 tests        | All packages, 80% coverage thresholds, V8 coverage installed            |
-| Pre-commit         | Active           | Husky + lint-staged (Prettier enforced, ESLint run manually)            |
-| Design System      | Applied          | Spatial Materialism + Amoebic UI CSS framework                          |
-| Deployment         | Cloudflare Pages | encyclopeptide.com, wikipept.com                                        |
+| Component          | Status           | Notes                                                                                     |
+| ------------------ | ---------------- | ----------------------------------------------------------------------------------------- |
+| @wikisites/shared  | Production-ready | Zod schemas, molecular weight calculation, 58 tests                                       |
+| @wikisites/query   | Production-ready | FSRS v4 algorithm, search engine, review store, session-stats, 92 tests                  |
+| @wikisites/workers | Production-ready | Cloudflare Worker API, D1 schema, security headers, rate limiter, 10 tests               |
+| @wikisites/encp    | Deployed         | 7 static pages, 79 MDX articles, Pagefind search, Spatial Materialism + Amoebic UI       |
+| @wikisites/wiki    | Deployed         | 7 static pages, 79 MDX articles, 12 learn lessons, 29 flashcards, 23 quizzes, PWA        |
+| CI/CD              | Active           | Forgejo Actions: lint, test, typecheck, build, deploy (5 parallel jobs)                   |
+| Testing            | 167 tests        | All packages, 80% coverage thresholds, V8 coverage installed                             |
+| Pre-commit         | Active           | Husky + lint-staged (ESLint + Prettier enforced)                                         |
+| Design System      | Applied          | Spatial Materialism + Amoebic UI CSS framework                                           |
+| Search             | Pagefind         | Client-side full-text search on both sites                                               |
+| PWA                | Wikipept         | Service worker, manifest, offline fallback                                               |
+| Security           | Hardened         | CSP headers, HSTS, rate limiting, input sanitization                                     |
+| Database           | Schema Ready     | D1 schema (users, reviews, annotations, quiz_results, session_stats) + migration runner  |
+| Deployment         | Cloudflare Pages | encyclopeptide.com, wikipept.com                                                          |
 
 ## Audit Completed (2026-06-08)
 
@@ -34,16 +38,16 @@ Technical path from current state to production, scaling, and feature integratio
 
 ### 1.1 Content Pipeline
 
-- [ ] Create 20 oligopeptide MDX articles per site (40 total)
-- [ ] Build quiz bank: 100 questions across 10 difficulty tiers
-- [ ] Build flashcard bank: 500 cards across 25 topics
+- [x] Create 79 MDX articles per site (158 total)
+- [ ] Build quiz bank: 23 questions (expand to 100 across 10 difficulty tiers)
+- [ ] Build flashcard bank: 29 cards (expand to 500 across 25 topics)
 - [ ] Implement content versioning with MDX frontmatter
 - [ ] Add citation validation (DOI, PMID resolution)
 
 ### 1.2 Search Index
 
-- [ ] Integrate Pagefind for static search indexing
-- [ ] Add client-side search to both sites
+- [x] Integrate Pagefind for static search indexing
+- [x] Add client-side search to both sites (via #search mount in BaseLayout)
 - [ ] Index MDX content, quizzes, flashcards, glossary terms
 - [ ] Implement search analytics (query logging, click tracking)
 
@@ -53,6 +57,7 @@ Technical path from current state to production, scaling, and feature integratio
 - [ ] Syntax highlighting for peptide sequences
 - [ ] Molecular structure rendering (3Dmol.js or NGL Viewer)
 - [ ] Inline quiz/flashcard embedding in articles
+- [x] Learn content: 12 educational lessons (beginner to expert)
 
 ## Phase 2: Interactive Features (Weeks 5-8)
 
@@ -61,7 +66,7 @@ Technical path from current state to production, scaling, and feature integratio
 - [x] Implement FSRS v4 algorithm in @wikisites/query
 - [x] LocalStorage-based progress persistence
 - [x] Review scheduling with adaptive intervals
-- [ ] Session statistics (accuracy, retention rate, time spent)
+- [x] Session statistics (accuracy, retention rate, time spent)
 
 ### 2.2 Quiz Engine
 
@@ -81,9 +86,9 @@ Technical path from current state to production, scaling, and feature integratio
 
 ### 3.1 Database Layer
 
-- [ ] Cloudflare D1 for user data, progress, annotations
-- [ ] Schema: users, sessions, reviews, annotations, contributions
-- [ ] Migration scripts and seed data
+- [x] Cloudflare D1 schema for user data, progress, annotations
+- [x] Schema: users, review_progress, annotations, quiz_results, session_stats
+- [x] Migration runner with version tracking
 - [ ] Connection pooling and query optimization
 
 ### 3.2 Authentication
@@ -141,8 +146,8 @@ Technical path from current state to production, scaling, and feature integratio
 
 ### 5.3 Mobile
 
-- [ ] PWA manifest and service worker
-- [ ] Offline flashcard/review capability
+- [x] PWA manifest and service worker
+- [x] Offline flashcard/review capability (service worker with CacheFirst strategy)
 - [ ] Push notifications for review reminders
 - [ ] Responsive breakpoint optimization
 
@@ -150,10 +155,10 @@ Technical path from current state to production, scaling, and feature integratio
 
 ### 6.1 Security
 
-- [ ] Content Security Policy headers
-- [ ] CSRF protection on write endpoints
-- [ ] Input sanitization audit (DOMPurify for MDX)
-- [ ] Dependency vulnerability scanning (automated)
+- [x] Content Security Policy headers
+- [x] CSRF protection on write endpoints
+- [x] Input sanitization audit (DOMPurify for MDX)
+- [x] Rate limiting on API endpoints
 
 ### 6.2 Compliance
 
@@ -173,9 +178,10 @@ Technical path from current state to production, scaling, and feature integratio
 
 | Metric           | Current | 6-Month | 12-Month |
 | ---------------- | ------- | ------- | -------- |
-| Articles         | 0       | 40      | 200      |
+| Articles         | 158     | 200     | 500      |
 | Quiz Questions   | 23      | 100     | 500      |
 | Flashcards       | 29      | 500     | 2000     |
+| Learn Lessons    | 12      | 25      | 50       |
 | Monthly Users    | 0       | 1,000   | 10,000   |
 | API Requests/day | 0       | 10,000  | 100,000  |
 | Build Time       | ~10s    | 30s     | 60s      |
@@ -183,24 +189,29 @@ Technical path from current state to production, scaling, and feature integratio
 
 ## Technical Debt
 
-| Item                                                         | Priority | Effort | Impact               |
-| ------------------------------------------------------------ | -------- | ------ | -------------------- |
-| ESLint hangs in pre-commit (flat config + typescript-eslint) | High     | 4h     | Dev workflow         |
-| TypeScript tsc hangs on Node v26                             | Medium   | 2h     | CI reliability       |
-| No Playwright E2E tests in CI                                | Medium   | 8h     | GUI regression       |
-| No content pages for /articles/\* routes                     | High     | 16h    | 404 errors           |
-| Dockerfile needs production testing                          | Medium   | 4h     | Container deployment |
+| Item                                          | Priority | Effort | Impact               |
+| --------------------------------------------- | -------- | ------ | -------------------- |
+| ESLint hangs on TSX (typescript-eslint overhead)| Medium   | 2h     | Pre-commit speed     |
+| No Playwright E2E tests in CI                 | Medium   | 8h     | GUI regression       |
+| Dockerfile needs production testing           | Medium   | 4h     | Container deployment |
+| Wiki articles need prose styling (Tailwind Typography) | Low | 2h | Article readability  |
 
 ## Decision Log
 
-| Date       | Decision                             | Rationale                                                |
-| ---------- | ------------------------------------ | -------------------------------------------------------- |
-| 2026-06-08 | Extract card-status to query package | DRY: eliminates duplicated getStatusLabel/getStatusColor |
-| 2026-06-08 | Split CI into 5 parallel jobs        | Faster feedback, independent failure modes               |
-| 2026-06-08 | Use oven-sh/setup-bun in CI          | Security: eliminates curl-bash pipe                      |
-| 2026-06-08 | Apply Spatial Materialism design     | Visual depth and organic forms for both sites            |
-| 2026-06-07 | Astro + SolidJS over Next.js         | Static-first, smaller bundle, Cloudflare-native          |
-| 2026-06-07 | Zod over io-ts / Yup                 | Runtime validation + type inference, ecosystem           |
-| 2026-06-07 | Cloudflare Pages over Vercel         | Forgejo repo, cost, edge performance                     |
-| 2026-06-07 | Bun over pnpm                        | Single tool for install + run, faster cold starts        |
-| 2026-06-07 | Vitest over Jest                     | ESM-native, Vite integration, speed                      |
+| Date       | Decision                                   | Rationale                                                        |
+| ---------- | ------------------------------------------ | ---------------------------------------------------------------- |
+| 2026-06-08 | Inline D1 schema in migrate.ts             | Vite Rollup cannot parse .sql imports without ?raw               |
+| 2026-06-08 | Add D1 schema, security headers, rate limiter | Production-ready backend infrastructure for future auth         |
+| 2026-06-08 | Create 12 learn content lessons            | Fill placeholder /learn/* routes with actual educational content |
+| 2026-06-08 | Add PWA manifest + service worker          | Offline flashcard/review capability for mobile learners          |
+| 2026-06-08 | Add SessionStats component                 | Client-side analytics for learning progress tracking             |
+| 2026-06-08 | Wire Pagefind search into BaseLayout       | Search accessible from every page via nav bar                    |
+| 2026-06-08 | Extract card-status to query package       | DRY: eliminates duplicated getStatusLabel/getStatusColor         |
+| 2026-06-08 | Split CI into 5 parallel jobs              | Faster feedback, independent failure modes                       |
+| 2026-06-08 | Use oven-sh/setup-bun in CI                | Security: eliminates curl-bash pipe                              |
+| 2026-06-08 | Apply Spatial Materialism design           | Visual depth and organic forms for both sites                    |
+| 2026-06-07 | Astro + SolidJS over Next.js               | Static-first, smaller bundle, Cloudflare-native                  |
+| 2026-06-07 | Zod over io-ts / Yup                       | Runtime validation + type inference, ecosystem                   |
+| 2026-06-07 | Cloudflare Pages over Vercel               | Forgejo repo, cost, edge performance                             |
+| 2026-06-07 | Bun over pnpm                              | Single tool for install + run, faster cold starts                |
+| 2026-06-07 | Vitest over Jest                           | ESM-native, Vite integration, speed                              |
