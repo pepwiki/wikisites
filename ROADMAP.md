@@ -4,17 +4,17 @@ Technical path from current state to production, scaling, and feature integratio
 
 ## Current State (v1.6.0)
 
-| Component          | Status           | Notes                                                                                     |
-| ------------------ | ---------------- | ----------------------------------------------------------------------------------------- |
-| @wikisites/shared  | Production-ready | Zod schemas, molecular weight calculation, 58 tests                                       |
-| @wikisites/query   | Production-ready | FSRS v4 algorithm, search engine, review store, session-stats, 92 tests                  |
-| @wikisites/workers | Production-ready | Cloudflare Worker API, D1 schema, security headers, rate limiter, 10 tests               |
-| @wikisites/encp    | Deployed         | 86 pages, 79 MDX articles, Pagefind search, Spatial Materialism + Amoebic UI             |
-| @wikisites/wiki    | Deployed         | 104 pages, Starlight framework, 12 learn lessons, 502 flashcards, 680 quizzes, PWA       |
-| CI/CD              | Active           | Forgejo Actions: lint, test, typecheck, build, deploy, Lighthouse CI (5 parallel jobs)   |
-| Testing            | 178 tests        | All packages, 80% coverage thresholds, V8 coverage installed                            |
-| Pre-commit         | Active           | Husky + lint-staged (ESLint + Prettier enforced)                                        |
-| Framework          | Starlight        | Sidebar nav, dark mode, search, TOC, sitemap                                             |
+| Component          | Status           | Notes                                                                                   |
+| ------------------ | ---------------- | --------------------------------------------------------------------------------------- |
+| @wikisites/shared  | Production-ready | Zod schemas, molecular weight calculation, 58 tests                                     |
+| @wikisites/query   | Production-ready | FSRS v4 algorithm, search engine, review store, session-stats, 92 tests                 |
+| @wikisites/workers | Production-ready | Cloudflare Worker API, D1 schema, security headers, rate limiter, 10 tests              |
+| @wikisites/encp    | Deployed         | 86 pages, 79 MDX articles, Pagefind search, Spatial Materialism + Amoebic UI            |
+| @wikisites/wiki    | Deployed         | 104 pages, Starlight framework, 12 learn lessons, 502 flashcards, 680 quizzes, PWA      |
+| CI/CD              | Active           | Forgejo Actions: lint, test, typecheck, build, deploy, Lighthouse CI (5 parallel jobs)  |
+| Testing            | 208 tests        | 15 test files across 5 packages, 80% coverage thresholds, V8 coverage                   |
+| Pre-commit         | Active           | Husky + lint-staged (ESLint + Prettier + Vitest enforced)                               |
+| Framework          | Starlight        | Sidebar nav, dark mode, search, TOC, sitemap                                            |
 | Design System      | Applied          | Spatial Materialism + Amoebic UI CSS framework                                          |
 | Search             | Pagefind         | Client-side full-text search on both sites                                              |
 | Interactive        | SolidJS          | Quiz session, flashcard deck, review dashboard, daily challenge                         |
@@ -25,16 +25,21 @@ Technical path from current state to production, scaling, and feature integratio
 
 ## Audit Completed (2026-06-08)
 
-| Category         | Finding                                             | Resolution                                                      |
-| ---------------- | --------------------------------------------------- | --------------------------------------------------------------- |
-| TypeScript       | 10 errors in query package                          | Fixed (null safety, unused imports, PARAMS.w[12] out-of-bounds) |
-| FSRS Algorithm   | PARAMS.w had 12 elements but code accessed index 12 | Added 13th parameter                                            |
-| Code Duplication | getStatusLabel/getStatusColor in 2 components       | Extracted to card-status module                                 |
-| Test Coverage    | No tests for FSRS stability correctness             | Added 18 new tests                                              |
-| CI Pipeline      | Monolithic job, curl-bash install, no caching       | Split into 5 parallel jobs, official Bun action                 |
-| Dockerfile       | Incorrect health check path                         | Fixed to /encp/                                                 |
-| Design           | No design system applied                            | Spatial Materialism + Amoebic UI CSS framework added            |
-| Formatting       | 4 files with Prettier violations                    | Fixed                                                           |
+| Category            | Finding                                                           | Resolution                                                      |
+| ------------------- | ----------------------------------------------------------------- | --------------------------------------------------------------- |
+| TypeScript          | 10 errors in query package                                        | Fixed (null safety, unused imports, PARAMS.w[12] out-of-bounds) |
+| FSRS Algorithm      | PARAMS.w had 12 elements but code accessed index 12               | Added 13th parameter                                            |
+| Code Duplication    | getStatusLabel/getStatusColor in 2 components                     | Extracted to card-status module                                 |
+| Code Duplication    | MWCalculator duplicated residue weights from shared module        | Refactored to import from @wikisites/shared                     |
+| Test Coverage       | No tests for encp, wiki DailyChallenge, worker security           | Added 30 new tests across 4 new test files                      |
+| Worker Rate Limiter | setInterval at module scope (invalid in CF Workers runtime)       | Replaced with lazy eviction on each checkRateLimit call         |
+| Window Pollution    | SessionStats exposed API via window.\_\_sessionStats              | Refactored to use SolidJS context (SessionContext)              |
+| CSS                 | Invalid variable name --sl-color-bg navbar in starlight.css       | Fixed to --sl-color-bg-navbar                                   |
+| Dead Files          | content.config.ts.bak left in wiki package                        | Deleted                                                         |
+| Non-null Assertions | search.ts used `!` on already-validated Zod output                | Removed redundant assertions                                    |
+| CI Pipeline         | Monolithic single job, no caching, no concurrency control         | Split into lint+test / build / lighthouse / deploy jobs         |
+| Accessibility       | ENCP pages missing aria-labelledby, article elements, focus rings | Added semantic HTML, aria attributes, focus ring styling        |
+| Playwright          | No E2E test config or traversal tests                             | Created playwright.config.ts + GUI snapshot traversal spec      |
 
 ## Phase 1: Content Scale (Weeks 1-4)
 
@@ -195,6 +200,7 @@ Technical path from current state to production, scaling, and feature integratio
 | ------------------------------------------------------ | -------- | ------ | -------------------- |
 | ESLint hangs on TSX (typescript-eslint overhead)       | Medium   | 2h     | Pre-commit speed     |
 | No Playwright E2E tests in CI                          | Medium   | 8h     | GUI regression       |
+| Playwright config and traversal script created         | Done     | -      | Phase 3 complete     |
 | Dockerfile needs production testing                    | Medium   | 4h     | Container deployment |
 | Wiki articles need prose styling (Tailwind Typography) | Low      | 2h     | Article readability  |
 
