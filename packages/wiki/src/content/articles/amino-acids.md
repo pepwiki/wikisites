@@ -28,40 +28,42 @@ All 20 standard amino acids share this basic structure, but their side chains gi
 
 These amino acids avoid water and are typically found in the interior of proteins:
 
-| Amino Acid | 3-Letter | 1-Letter | Key Feature |
-|------------|----------|----------|-------------|
-| Glycine | Gly | G | Smallest, most flexible |
-| Alanine | Ala | A | Simple methyl side chain |
-| Valine | Val | V | Branched chain |
-| Leucine | Leu | L | Branched chain, common |
-| Isoleucine | Ile | I | Branched chain |
-| Proline | Pro | P | Cyclic, rigid |
-| Phenylalanine | Phe | F | Aromatic ring |
-| Tryptophan | Trp | W | Indole ring, largest |
-| Methionine | Met | M | Contains sulfur |
+| Amino Acid    | 3-Letter | 1-Letter | Key Feature              |
+| ------------- | -------- | -------- | ------------------------ |
+| Glycine       | Gly      | G        | Smallest, most flexible  |
+| Alanine       | Ala      | A        | Simple methyl side chain |
+| Valine        | Val      | V        | Branched chain           |
+| Leucine       | Leu      | L        | Branched chain, common   |
+| Isoleucine    | Ile      | I        | Branched chain           |
+| Proline       | Pro      | P        | Cyclic, rigid            |
+| Phenylalanine | Phe      | F        | Aromatic ring            |
+| Tryptophan    | Trp      | W        | Indole ring, largest     |
+| Methionine    | Met      | M        | Contains sulfur          |
 
 ### Polar (Uncharged)
 
 These amino acids interact with water:
 
-| Amino Acid | 3-Letter | 1-Letter | Key Feature |
-|------------|----------|----------|-------------|
-| Serine | Ser | S | Hydroxyl group |
-| Threonine | Thr | T | Hydroxyl group |
-| Cysteine | Cys | C | Thiol group |
-| Tyrosine | Tyr | Y | Phenolic hydroxyl |
-| Asparagine | Asn | N | Amide group |
-| Glutamine | Gln | Q | Amide group |
+| Amino Acid | 3-Letter | 1-Letter | Key Feature       |
+| ---------- | -------- | -------- | ----------------- |
+| Serine     | Ser      | S        | Hydroxyl group    |
+| Threonine  | Thr      | T        | Hydroxyl group    |
+| Cysteine   | Cys      | C        | Thiol group       |
+| Tyrosine   | Tyr      | Y        | Phenolic hydroxyl |
+| Asparagine | Asn      | N        | Amide group       |
+| Glutamine  | Gln      | Q        | Amide group       |
 
 ### Charged
 
 These amino acids carry a charge at physiological pH:
 
 **Acidic (negative charge):**
+
 - Aspartic acid (Asp, D)
 - Glutamic acid (Glu, E)
 
 **Basic (positive charge):**
+
 - Lysine (Lys, K)
 - Arginine (Arg, R)
 - Histidine (His, H)
@@ -69,15 +71,18 @@ These amino acids carry a charge at physiological pH:
 ## Memory Tricks
 
 ### Mnemonic for Hydrophobic Amino Acids
+
 **"GAVIL FPWM"** — "GAVIL FPeWsM" — Think of a gavil (bird) flying.
 
 ### Mnemonic for Charged Amino Acids
+
 **"DER"** (Aspartic acid, Glutamic acid, Arginine) — sounds like a name
 **"KH"** (Lysine, Histidine) — like "K-H" radio
 
 ## Why This Matters
 
 Understanding amino acid properties is essential for:
+
 - Predicting protein structure
 - Understanding enzyme active sites
 - Designing therapeutic peptides

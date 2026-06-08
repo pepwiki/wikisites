@@ -17,29 +17,34 @@ The gastrointestinal tract is the largest endocrine organ in the body. Enteroend
 ## Major GI Peptides
 
 **Gastrin**
+
 - Source: G cells in the gastric antrum
 - Stimulus: Peptides and amino acids in the stomach, vagal stimulation
 - Function: Stimulates gastric acid secretion from parietal cells; promotes gastric mucosal growth
 - Active form: G-17 (17 amino acids)
 
 **Cholecystokinin (CCK)**
+
 - Source: I cells in the duodenum and jejunum
 - Stimulus: Fatty acids and amino acids in the duodenum
 - Function: Stimulates gallbladder contraction and pancreatic enzyme secretion; promotes satiety
 - Active forms: CCK-8, CCK-33, CCK-58
 
 **Secretin**
+
 - Source: S cells in the duodenum
 - Stimulus: Acidic chyme entering the duodenum
 - Function: Stimulates bicarbonate secretion from the pancreas; inhibits gastric acid secretion
 - Note: The first hormone ever discovered (1902)
 
 **Glucose-dependent Insulinotropic Peptide (GIP)**
+
 - Source: K cells in the duodenum and jejunum
 - Stimulus: Glucose and fat in the duodenum
 - Function: Potentiates insulin secretion (incretin effect); stimulates lipogenesis
 
 **Glucagon-like Peptide-1 (GLP-1)**
+
 - Source: L cells in the ileum and colon
 - Stimulus: Nutrients reaching the distal gut
 - Function: Potentiates insulin secretion; inhibits glucagon secretion; slows gastric emptying; promotes satiety
@@ -54,13 +59,13 @@ Oral glucose produces a significantly greater insulin response than intravenous 
 
 ## Summary Table
 
-| Peptide | Source Cell | Primary Stimulus | Key Function |
-|---------|-------------|------------------|--------------|
-| Gastrin | G cells (antrum) | Peptides/amino acids | Gastric acid secretion |
-| CCK | I cells (duodenum) | Fatty acids, amino acids | Gallbladder contraction, pancreatic enzymes |
-| Secretin | S cells (duodenum) | Acidic chyme | Bicarbonate secretion |
-| GIP | K cells (duodenum) | Glucose, fat | Insulin potentiation |
-| GLP-1 | L cells (ileum/colon) | Distal nutrients | Insulin potentiation, satiety |
+| Peptide  | Source Cell           | Primary Stimulus         | Key Function                                |
+| -------- | --------------------- | ------------------------ | ------------------------------------------- |
+| Gastrin  | G cells (antrum)      | Peptides/amino acids     | Gastric acid secretion                      |
+| CCK      | I cells (duodenum)    | Fatty acids, amino acids | Gallbladder contraction, pancreatic enzymes |
+| Secretin | S cells (duodenum)    | Acidic chyme             | Bicarbonate secretion                       |
+| GIP      | K cells (duodenum)    | Glucose, fat             | Insulin potentiation                        |
+| GLP-1    | L cells (ileum/colon) | Distal nutrients         | Insulin potentiation, satiety               |
 
 ## Clinical Relevance
 

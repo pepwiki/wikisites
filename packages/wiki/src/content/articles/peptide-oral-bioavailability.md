@@ -31,6 +31,7 @@ Stomach pH (1.5-3.5) can denature peptides and accelerate acid-catalyzed hydroly
 ## Permeation Enhancers
 
 Enhancers increase paracellular or transcellular peptide transport:
+
 - **Surfactants** (sodium caprate, sodium glycocholate) transiently open tight junctions
 - **Chelating agents** (EDTA) remove calcium from tight junction proteins
 - **Cell-penetrating peptides** facilitate transcellular transport
@@ -38,6 +39,7 @@ Enhancers increase paracellular or transcellular peptide transport:
 ## Enzyme Inhibitors
 
 Co-administration of protease inhibitors protects peptides during absorption:
+
 - Aprotinin and Bowman-Birk inhibitor for serine proteases
 - Bestatin for aminopeptidases
 - Combined inhibitor cocktails provide broader protection
@@ -46,11 +48,11 @@ Co-administration of protease inhibitors protects peptides during absorption:
 
 **Mnemonic:** "SEAL" - Stability, Enhancement, Absorption, Liberation
 
-| Strategy | Mechanism | Example |
-|----------|-----------|---------|
-| Enteric coating | Acid protection | Eudragit polymers |
-| Nanoparticles | Protect and transport | PLGA nanoparticles |
-| Liposomes | Membrane fusion | Phospholipid vesicles |
+| Strategy             | Mechanism              | Example               |
+| -------------------- | ---------------------- | --------------------- |
+| Enteric coating      | Acid protection        | Eudragit polymers     |
+| Nanoparticles        | Protect and transport  | PLGA nanoparticles    |
+| Liposomes            | Membrane fusion        | Phospholipid vesicles |
 | Mucoadhesive systems | Prolonged GI residence | Chitosan formulations |
 
 ## Successful Oral Peptides

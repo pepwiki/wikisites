@@ -4,7 +4,8 @@ description: "Clathrin-mediated endocytosis and caveolae pathways govern peptide
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-04-18
-tags: ["endocytosis", "receptor-internalization", "clathrin", "caveolae", "intracellular-trafficking"]
+tags:
+  ["endocytosis", "receptor-internalization", "clathrin", "caveolae", "intracellular-trafficking"]
 category: "Cell Biology"
 difficulty: "intermediate"
 relatedArticles: ["peptide-modified-liposomes", "peptide-toxins-tools"]

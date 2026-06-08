@@ -41,6 +41,6 @@ Plasma apelin is paradoxically elevated in early heart failure but declines in a
 
 ## References
 
-1. Tatemoto, K., et al. (1998). Isolation and characterization of APJ, an orphan receptor. *Biochemical and Biophysical Research Communications*, 251(2), 471-476.
-2. Castan-Laurell, I., et al. (2011). Apelin, a novel adipokine. *Clinical Science*, 120(3), 101-109.
-3. Koeppen, M., et al. (2009). Apelin and the cardiovascular system. *Cardiovascular Research*, 82(1), 33-42.
+1. Tatemoto, K., et al. (1998). Isolation and characterization of APJ, an orphan receptor. _Biochemical and Biophysical Research Communications_, 251(2), 471-476.
+2. Castan-Laurell, I., et al. (2011). Apelin, a novel adipokine. _Clinical Science_, 120(3), 101-109.
+3. Koeppen, M., et al. (2009). Apelin and the cardiovascular system. _Cardiovascular Research_, 82(1), 33-42.

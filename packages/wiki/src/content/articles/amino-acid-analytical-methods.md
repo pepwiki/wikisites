@@ -4,7 +4,15 @@ description: "A guide to the principal analytical techniques for amino acid anal
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07
-tags: ["amino-acid-analysis", "HPLC", "capillary-electrophoresis", "mass-spectrometry", "analytical-chemistry", "laboratory-protocols"]
+tags:
+  [
+    "amino-acid-analysis",
+    "HPLC",
+    "capillary-electrophoresis",
+    "mass-spectrometry",
+    "analytical-chemistry",
+    "laboratory-protocols",
+  ]
 category: "Chemistry"
 difficulty: "intermediate"
 relatedArticles: ["amino-acid-ptm", "peptide-bond-geometry-analysis"]
@@ -56,11 +64,11 @@ Proper sample preparation is critical for accurate amino acid analysis:
 
 ## Method Selection Guide
 
-| Application | Recommended Method |
-|---|---|
-| Protein composition | HPLC with acid hydrolysis |
-| Clinical screening | CE with LIF detection |
-| Metabolomics | LC-MS/MS |
-| Food analysis | Ion-exchange with ninhydrin |
+| Application         | Recommended Method          |
+| ------------------- | --------------------------- |
+| Protein composition | HPLC with acid hydrolysis   |
+| Clinical screening  | CE with LIF detection       |
+| Metabolomics        | LC-MS/MS                    |
+| Food analysis       | Ion-exchange with ninhydrin |
 
 Choosing the right analytical method ensures reliable amino acid data for research and clinical applications.

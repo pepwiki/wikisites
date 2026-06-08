@@ -4,7 +4,15 @@ description: "Exploring how peptide bonds withstand extreme conditions including
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07
-tags: ["peptide-bond", "thermophilic", "extremophiles", "pressure-stability", "deep-sea", "protein-engineering"]
+tags:
+  [
+    "peptide-bond",
+    "thermophilic",
+    "extremophiles",
+    "pressure-stability",
+    "deep-sea",
+    "protein-engineering",
+  ]
 category: "Chemistry"
 difficulty: "advanced"
 relatedArticles: ["peptide-bond-rotation-energy", "peptide-bond-non-aqueous"]

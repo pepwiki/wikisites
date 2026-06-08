@@ -18,17 +18,17 @@ The pKa value of a functional group describes the pH at which it is half protona
 
 Here are approximate pKa values for common ionizable amino acids:
 
-| Group | pKa |
-|-------|-----|
-| Alpha-carboxyl | 2.0 |
-| Alpha-amino | 9.5 |
-| Aspartate (D) side chain | 3.9 |
-| Glutamate (E) side chain | 4.2 |
-| Histidine (H) side chain | 6.0 |
-| Cysteine (C) side chain | 8.3 |
-| Tyrosine (Y) side chain | 10.1 |
-| Lysine (K) side chain | 10.5 |
-| Arginine (R) side chain | 12.5 |
+| Group                    | pKa  |
+| ------------------------ | ---- |
+| Alpha-carboxyl           | 2.0  |
+| Alpha-amino              | 9.5  |
+| Aspartate (D) side chain | 3.9  |
+| Glutamate (E) side chain | 4.2  |
+| Histidine (H) side chain | 6.0  |
+| Cysteine (C) side chain  | 8.3  |
+| Tyrosine (Y) side chain  | 10.1 |
+| Lysine (K) side chain    | 10.5 |
+| Arginine (R) side chain  | 12.5 |
 
 Histidine is particularly important because its pKa falls near physiological pH. This makes it an effective proton donor and acceptor in enzyme active sites.
 

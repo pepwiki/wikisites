@@ -20,16 +20,16 @@ relatedArticles: ["cysteine", "glutathione-peroxidase", "thioredoxin"]
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Systematic Name | (2S)-2-amino-4-{[(1R)-1-[(carboxymethyl)carbamoyl]-2-sulfanylethyl]carbamoyl}butanoic acid |
-| Molecular Formula | C₁₀H₁₇N₃O₆S |
-| Molecular Weight | 307.32 Da |
-| CAS Number | 70-18-8 |
-| PubChem CID | 124886 |
-| SMILES | C(CC(=O)N)C(C(=O)NCC(=O)O)N |
-| Isoelectric Point | 5.93 |
-| Charge at pH 7.4 | −1 |
+| Property          | Value                                                                                      |
+| ----------------- | ------------------------------------------------------------------------------------------ |
+| Systematic Name   | (2S)-2-amino-4-{[(1R)-1-[(carboxymethyl)carbamoyl]-2-sulfanylethyl]carbamoyl}butanoic acid |
+| Molecular Formula | C₁₀H₁₇N₃O₆S                                                                                |
+| Molecular Weight  | 307.32 Da                                                                                  |
+| CAS Number        | 70-18-8                                                                                    |
+| PubChem CID       | 124886                                                                                     |
+| SMILES            | C(CC(=O)N)C(C(=O)NCC(=O)O)N                                                                |
+| Isoelectric Point | 5.93                                                                                       |
+| Charge at pH 7.4  | −1                                                                                         |
 
 ## Structure
 

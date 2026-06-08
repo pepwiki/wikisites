@@ -39,6 +39,6 @@ B-chain variants are associated with several forms of diabetes. The Wakayama mut
 
 ## References
 
-1. Sanger F. The chemistry of insulin. *Nature*. 1952;169:441-443.
-2. Dodson G, Steiner D. The role of assembly in insulin's biosynthesis. *Current Opinion in Structural Biology*. 1998;8:189-194.
-3. De Meyts P. The insulin receptor and its signaling network. *Clinical Diabetes*. 2004;22:189-194.
+1. Sanger F. The chemistry of insulin. _Nature_. 1952;169:441-443.
+2. Dodson G, Steiner D. The role of assembly in insulin's biosynthesis. _Current Opinion in Structural Biology_. 1998;8:189-194.
+3. De Meyts P. The insulin receptor and its signaling network. _Clinical Diabetes_. 2004;22:189-194.

@@ -4,7 +4,8 @@ description: "An overview of the insulin A-chain, a 21-residue peptide that form
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-02-28
-tags: ["insulin", "A-chain", "peptide-hormone", "diabetes", "disulfide-bonds", "glucose-homeostasis"]
+tags:
+  ["insulin", "A-chain", "peptide-hormone", "diabetes", "disulfide-bonds", "glucose-homeostasis"]
 category: "Peptide Hormones"
 difficulty: "intermediate"
 relatedArticles: ["angiotensin-ii", "oxytocin"]
@@ -19,14 +20,14 @@ citation:
 
 The insulin A-chain is one of two polypeptide chains that constitute the mature insulin molecule. It is synthesized as part of preproinsulin, processed through proinsulin, and ultimately stored in pancreatic β-cell secretory granules as a zinc-coordinated hexamer.
 
-| Property | Value |
-|---|---|
-| **Chemical Formula** | C₂₁₆H₃₃₅N₅₉O₆₆S₆ |
-| **Molecular Weight** | 2340.69 g/mol |
-| **CAS Number** | 11070-73-8 (bovine) |
-| **Isoelectric Point (pI)** | 5.4 |
-| **Amino Acid Count** | 21 |
-| **Disulfide Bridges** | 2 intra-chain, 1 inter-chain |
+| Property                   | Value                        |
+| -------------------------- | ---------------------------- |
+| **Chemical Formula**       | C₂₁₆H₃₃₅N₅₉O₆₆S₆             |
+| **Molecular Weight**       | 2340.69 g/mol                |
+| **CAS Number**             | 11070-73-8 (bovine)          |
+| **Isoelectric Point (pI)** | 5.4                          |
+| **Amino Acid Count**       | 21                           |
+| **Disulfide Bridges**      | 2 intra-chain, 1 inter-chain |
 
 ## Primary Structure
 
@@ -44,10 +45,10 @@ Notable features include:
 
 The A-chain participates in three critical disulfide bridges that maintain the structural integrity of the insulin heterodimer:
 
-| Disulfide Bond | Type | Structural Role |
-|---|---|---|
-| **A6–A11 (Cys–Cys)** | Intra-chain | Constrains the N-terminal region of the A-chain |
-| **A7–B7 (Cys–Cys)** | Inter-chain | Links A-chain to B-chain, stabilizing the heterodimer |
+| Disulfide Bond        | Type        | Structural Role                                       |
+| --------------------- | ----------- | ----------------------------------------------------- |
+| **A6–A11 (Cys–Cys)**  | Intra-chain | Constrains the N-terminal region of the A-chain       |
+| **A7–B7 (Cys–Cys)**   | Inter-chain | Links A-chain to B-chain, stabilizing the heterodimer |
 | **A20–B19 (Cys–Cys)** | Inter-chain | Anchors the C-terminal A-chain to the B-chain β-sheet |
 
 These three disulfide bonds are invariant across mammalian insulin species, underscoring their essential role in bioactive conformation. Reduction of any single bridge leads to substantial loss of receptor binding and biological activity.
@@ -72,5 +73,5 @@ The A-chain is a target for understanding **diabetes mellitus** pathophysiology:
 
 ## References
 
-- Weiss, M. A. (2024). Design of insulin analogs for improved pharmacokinetics. *Molecular and Cellular Endocrinology*, 578, 111892.
-- Baker, E. N., et al. (1988). Structure of rhombohedral 2-zinc insulin crystals. *Nature*, 327, 338–345.
+- Weiss, M. A. (2024). Design of insulin analogs for improved pharmacokinetics. _Molecular and Cellular Endocrinology_, 578, 111892.
+- Baker, E. N., et al. (1988). Structure of rhombohedral 2-zinc insulin crystals. _Nature_, 327, 338–345.

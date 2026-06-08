@@ -4,10 +4,18 @@ description: "Explore strategies for oral delivery of therapeutic peptides, incl
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07
-tags: ["peptide-delivery", "oral-bioavailability", "permeation-enhancers", "nanoparticles", "pharmacology"]
+tags:
+  [
+    "peptide-delivery",
+    "oral-bioavailability",
+    "permeation-enhancers",
+    "nanoparticles",
+    "pharmacology",
+  ]
 category: "Pharmacology"
 difficulty: "advanced"
-relatedArticles: ["peptide-drug-manufacturing", "amino-acid-transporters", "protein-misfolding-diseases"]
+relatedArticles:
+  ["peptide-drug-manufacturing", "amino-acid-transporters", "protein-misfolding-diseases"]
 ---
 
 # Therapeutic Peptide Oral Delivery
@@ -29,16 +37,19 @@ Peptides face several obstacles in the GI tract:
 Permeation enhancers increase paracellular or transcellular transport of peptides across the intestinal epithelium:
 
 **Tight junction modulators**:
+
 - **Zonula occludens toxin (ZOT)**: Reversibly opens tight junctions
 - **Chitosan and derivatives**: Mucoadhesive, opens tight junctions
 - **EDTA**: Chelates calcium, disrupts tight junctions
 
 **Transcellular enhancers**:
+
 - **Bile salts**: Disrupt cell membranes, increase fluidity
 - **Fatty acids**: Form micelles, enhance absorption
 - **Surfactants**: Increase membrane permeability
 
 **Safety considerations**:
+
 - Must be reversible to avoid permanent damage
 - Should not cause irritation or inflammation
 - Need to balance efficacy with safety profiles
@@ -48,12 +59,14 @@ Permeation enhancers increase paracellular or transcellular transport of peptide
 Enzyme inhibitors protect peptides from degradation in the GI tract:
 
 **Protease inhibitors**:
+
 - **Aprotinin**: Serine protease inhibitor
 - **Bacitracin**: Broad-spectrum protease inhibitor
 - **Bestatin**: Aminopeptidase inhibitor
 - **Captopril**: ACE inhibitor for specific peptides
 
 **Formulation strategies**:
+
 - Co-formulation with the peptide drug
 - Enteric coating to prevent premature release
 - Targeted delivery to sites of lower enzyme activity
@@ -63,17 +76,20 @@ Enzyme inhibitors protect peptides from degradation in the GI tract:
 Nanoparticles protect peptides and enhance their absorption:
 
 **Types of nanoparticles**:
+
 - **Polymeric**: PLGA, chitosan, albumin-based
 - **Lipid-based**: Liposomes, solid lipid nanoparticles
 - **Inorganic**: Gold, silica (less common for oral delivery)
 
 **Mechanisms of enhancement**:
+
 - **Protection**: Encapsulation shields peptides from enzymes
 - **Mucoadhesion**: Nanoparticles adhere to mucus layer
 - **Transcytosis**: Cellular uptake via endocytosis
 - **Controlled release**: Sustained peptide delivery
 
 **Surface modification**:
+
 - PEGylation for stealth properties
 - Targeting ligands for specific uptake
 - Charge optimization for mucoadhesion
@@ -81,6 +97,7 @@ Nanoparticles protect peptides and enhance their absorption:
 ## Clinical Applications
 
 Current oral peptide drugs and technologies:
+
 - **Oral insulin**: Various formulations in development
 - **Oral GLP-1 agonists**: Some approved for diabetes
 - **Oral calcitonin**: For osteoporosis treatment
@@ -93,6 +110,7 @@ Current oral peptide drugs and technologies:
 ## Future Directions
 
 Emerging approaches include:
+
 - **Cell-penetrating peptides**: Enhanced cellular uptake
 - **Microbiome-based delivery**: Using gut bacteria for protection
 - **Smart materials**: pH or enzyme-responsive release

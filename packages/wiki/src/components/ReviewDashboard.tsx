@@ -31,8 +31,9 @@ export default function ReviewDashboard(props: ReviewDashboardProps) {
   const [initialized, setInitialized] = createSignal(false);
 
   const currentCard = () => dueCards()[currentIndex()];
-  const currentFront = () => currentCard() ? props.fronts[currentCard()!.id] ?? currentCard()!.id : "";
-  const currentBack = () => currentCard() ? props.backs[currentCard()!.id] ?? "" : "";
+  const currentFront = () =>
+    currentCard() ? (props.fronts[currentCard()!.id] ?? currentCard()!.id) : "";
+  const currentBack = () => (currentCard() ? (props.backs[currentCard()!.id] ?? "") : "");
   const stats = () => getDeckStats(props.site, props.deckId);
 
   const loadDue = () => {
@@ -102,7 +103,9 @@ export default function ReviewDashboard(props: ReviewDashboardProps) {
           class="relative w-full h-64 cursor-pointer mb-6 perspective-1000"
           role="button"
           tabindex="0"
-          aria-label={flipped() ? `Back: ${currentBack()}` : `Front: ${currentFront()}. Click to flip.`}
+          aria-label={
+            flipped() ? `Back: ${currentBack()}` : `Front: ${currentFront()}. Click to flip.`
+          }
           onClick={() => setFlipped(!flipped())}
           onKeyDown={(e) => {
             if (e.key === "Enter" || e.key === " ") {
@@ -111,7 +114,9 @@ export default function ReviewDashboard(props: ReviewDashboardProps) {
             }
           }}
         >
-          <div class={`absolute inset-0 transition-transform duration-500 preserve-3d ${flipped() ? "rotate-y-180" : ""}`}>
+          <div
+            class={`absolute inset-0 transition-transform duration-500 preserve-3d ${flipped() ? "rotate-y-180" : ""}`}
+          >
             {/* Front */}
             <div class="absolute inset-0 backface-hidden bg-white border-2 border-[#0D9488] rounded-2xl p-8 flex flex-col items-center justify-center">
               <p class="text-xl font-semibold text-slate-900 text-center">{currentFront()}</p>

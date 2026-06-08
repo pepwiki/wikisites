@@ -29,6 +29,7 @@ Each collagen chain is a left-handed helix. Three chains twist together into a r
 Hydrolyzed collagen is produced by breaking native collagen into smaller peptide fragments (2 to 10 kDa) through enzymatic or acid hydrolysis. Unlike gelatin (partially hydrolyzed collagen), collagen peptides are fully soluble in cold water and are more readily absorbed in the digestive tract.
 
 **Production process:**
+
 1. Source material (bovine, marine, or porcine skin and bones) is cleaned and processed
 2. Acid or alkali treatment removes minerals and non-collagen proteins
 3. Enzymatic hydrolysis cleaves the triple helix into small peptides

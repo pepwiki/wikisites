@@ -51,11 +51,11 @@ Most combinations of phi and psi angles are sterically forbidden. Allowed region
 
 ## Summary
 
-| Feature | Detail |
-|---|---|
-| Bond type | Amide (C(=O)-NH) |
-| Reaction | Dehydration synthesis |
-| Bond character | ~40% double bond (resonance) |
-| Preferred configuration | Trans |
-| Torsion angles | Phi (phi) and Psi (psi) |
-| Plot | Ramachandran plot |
+| Feature                 | Detail                       |
+| ----------------------- | ---------------------------- |
+| Bond type               | Amide (C(=O)-NH)             |
+| Reaction                | Dehydration synthesis        |
+| Bond character          | ~40% double bond (resonance) |
+| Preferred configuration | Trans                        |
+| Torsion angles          | Phi (phi) and Psi (psi)      |
+| Plot                    | Ramachandran plot            |

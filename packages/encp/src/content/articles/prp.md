@@ -41,6 +41,6 @@ Altered PrRP signaling has been investigated in depression and stress-related di
 
 ## References
 
-1. Hinuma, S., et al. (1998). A prolactin-releasing peptide in the brain. *Nature*, 393(6682), 272-276.
-2. Lawrence, C.B., et al. (2000). PrRP in energy homeostasis. *Molecular and Cellular Endocrinology*, 205(1-2), 129-139.
-3. Roland, B.L., et al. (1999). Distribution and regulation of PrRP. *Endocrinology*, 140(8), 3713-3718.
+1. Hinuma, S., et al. (1998). A prolactin-releasing peptide in the brain. _Nature_, 393(6682), 272-276.
+2. Lawrence, C.B., et al. (2000). PrRP in energy homeostasis. _Molecular and Cellular Endocrinology_, 205(1-2), 129-139.
+3. Roland, B.L., et al. (1999). Distribution and regulation of PrRP. _Endocrinology_, 140(8), 3713-3718.

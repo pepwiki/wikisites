@@ -21,17 +21,17 @@ Amino acids are grouped into five categories based on the chemical character of 
 **Hydrophobic (Nonpolar)**
 These side chains avoid water and cluster in protein interiors.
 
-| Amino Acid | 3-Letter | 1-Letter |
-|------------|----------|----------|
-| Glycine    | Gly      | G        |
-| Alanine    | Ala      | A        |
-| Valine     | Val      | V        |
-| Leucine    | Leu      | L        |
-| Isoleucine | Ile      | I        |
-| Proline    | Pro      | P        |
-| Phenylalanine | Phe   | F        |
-| Methionine | Met      | M        |
-| Tryptophan | Trp      | W        |
+| Amino Acid    | 3-Letter | 1-Letter |
+| ------------- | -------- | -------- |
+| Glycine       | Gly      | G        |
+| Alanine       | Ala      | A        |
+| Valine        | Val      | V        |
+| Leucine       | Leu      | L        |
+| Isoleucine    | Ile      | I        |
+| Proline       | Pro      | P        |
+| Phenylalanine | Phe      | F        |
+| Methionine    | Met      | M        |
+| Tryptophan    | Trp      | W        |
 
 **Mnemonic: SOAP-LIMP**
 **S**erine? No — remember **S** for "staying out": **S** — actually, use: **O** (methi**O**nine), **A** (alanine), **P** (proline) plus **L** (leucine), **I** (isoleucine), **M** (methionine), **P** (phenylalanine), **F** (phenylalanine), **G** (glycine), **V** (valine), **W** (tryptophan). A simpler rule: if the side chain is mostly carbon and hydrogen, it is hydrophobic.
@@ -40,7 +40,7 @@ These side chains avoid water and cluster in protein interiors.
 These side chains form hydrogen bonds but carry no charge.
 
 | Amino Acid | 3-Letter | 1-Letter |
-|------------|----------|----------|
+| ---------- | -------- | -------- |
 | Serine     | Ser      | S        |
 | Threonine  | Thr      | T        |
 | Cysteine   | Cys      | C        |
@@ -51,15 +51,15 @@ These side chains form hydrogen bonds but carry no charge.
 **Positively Charged (Basic)**
 | Amino Acid | 3-Letter | 1-Letter |
 |------------|----------|----------|
-| Lysine     | Lys      | K        |
-| Arginine   | Arg      | R        |
-| Histidine  | His      | H        |
+| Lysine | Lys | K |
+| Arginine | Arg | R |
+| Histidine | His | H |
 
 **Negatively Charged (Acidic)**
 | Amino Acid | 3-Letter | 1-Letter |
 |------------|----------|----------|
-| Aspartate  | Asp      | D        |
-| Glutamate  | Glu      | E        |
+| Aspartate | Asp | D |
+| Glutamate | Glu | E |
 
 **Special Cases**
 Glycine (smallest, no chiral center) and Proline (cyclic, rigid) often deserve单独 mention because of their unique structural roles.

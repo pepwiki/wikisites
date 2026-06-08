@@ -19,14 +19,14 @@ citation:
 
 Substance P (SP) is an 11-amino-acid neuropeptide of the **tachykinin** family, named for its ability to induce rapid smooth muscle contraction. It is widely distributed in the central and peripheral nervous systems, where it serves as a key transmitter in nociceptive pathways.
 
-| Property | Value |
-|---|---|
-| **Chemical Formula** | C₆₃H₉₈N₁₈O₁₃S |
-| **Molecular Weight** | 1347.63 g/mol |
-| **CAS Number** | 33507-62-3 |
-| **Isoelectric Point (pI)** | 11.5 |
-| **Amino Acid Count** | 11 |
-| **Disulfide Bridge** | None (linear) |
+| Property                   | Value         |
+| -------------------------- | ------------- |
+| **Chemical Formula**       | C₆₃H₉₈N₁₈O₁₃S |
+| **Molecular Weight**       | 1347.63 g/mol |
+| **CAS Number**             | 33507-62-3    |
+| **Isoelectric Point (pI)** | 11.5          |
+| **Amino Acid Count**       | 11            |
+| **Disulfide Bridge**       | None (linear) |
 
 ## Primary Structure
 
@@ -45,11 +45,11 @@ Key structural features:
 
 Substance P acts primarily through the **NK1 receptor** (also known as the substance P receptor), a seven-transmembrane G-protein coupled receptor:
 
-| Receptor | Primary Ligand | Coupling | Distribution |
-|---|---|---|---|
-| **NK1** | Substance P | Gq/11 → PLC → IP₃/Ca²⁺ | CNS, dorsal horn, immune cells |
-| **NK2** | Neurokinin A | Gq/11 | Smooth muscle, peripheral tissues |
-| **NK3** | Neurokinin B | Gq/11 | CNS, hypothalamus |
+| Receptor | Primary Ligand | Coupling               | Distribution                      |
+| -------- | -------------- | ---------------------- | --------------------------------- |
+| **NK1**  | Substance P    | Gq/11 → PLC → IP₃/Ca²⁺ | CNS, dorsal horn, immune cells    |
+| **NK2**  | Neurokinin A   | Gq/11                  | Smooth muscle, peripheral tissues |
+| **NK3**  | Neurokinin B   | Gq/11                  | CNS, hypothalamus                 |
 
 - **NK1 binding:** Sub-nanomolar affinity; expressed on dorsal horn neurons, microglia, and immune cells
 - **Receptor internalization:** NK1 undergoes rapid β-arrestin-mediated internalization upon SP binding
@@ -70,5 +70,5 @@ NK1 receptor antagonists, such as **aprepitant** (Emend), are used clinically as
 
 ## References
 
-- O'Connor, T. M., et al. (2024). Substance P and neurogenic inflammation. *Neuroscience*, 530, 11–25.
-- Severini, C., et al. (2002). Pharmacology of tachykinins. *Pharmacological Reviews*, 54, 837–872.
+- O'Connor, T. M., et al. (2024). Substance P and neurogenic inflammation. _Neuroscience_, 530, 11–25.
+- Severini, C., et al. (2002). Pharmacology of tachykinins. _Pharmacological Reviews_, 54, 837–872.

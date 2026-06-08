@@ -17,14 +17,14 @@ citation:
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Chemical Formula | C46H64N14O12S2 |
-| Molecular Weight | 1069.23 g/mol |
-| CAS Number | 62288-83-9 |
-| IUPAC Name | (2S)-1-[(2S)-2-[[(4R,7S,10S,13S)-7-(2-amino-2-oxoethyl)-10-(3-amino-3-oxopropyl)-13-[(2S)-butan-2-yl]-6,9-dioxo-1,2,4,5,8,11-hexaoxocyclotridecane-4-carbonyl]amino]-3-(1H-imidazol-5-yl)propanoyl]pyrrolidine-2-carboxamide |
-| Peptide Class | Nonapeptide |
-| Amino Acid Sequence | Cys-Tyr-Phe-Gln-Asn-Cys-Pro-DArg-Gly-NH2 (with disulfide bridge) |
+| Property            | Value                                                                                                                                                                                                                        |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Chemical Formula    | C46H64N14O12S2                                                                                                                                                                                                               |
+| Molecular Weight    | 1069.23 g/mol                                                                                                                                                                                                                |
+| CAS Number          | 62288-83-9                                                                                                                                                                                                                   |
+| IUPAC Name          | (2S)-1-[(2S)-2-[[(4R,7S,10S,13S)-7-(2-amino-2-oxoethyl)-10-(3-amino-3-oxopropyl)-13-[(2S)-butan-2-yl]-6,9-dioxo-1,2,4,5,8,11-hexaoxocyclotridecane-4-carbonyl]amino]-3-(1H-imidazol-5-yl)propanoyl]pyrrolidine-2-carboxamide |
+| Peptide Class       | Nonapeptide                                                                                                                                                                                                                  |
+| Amino Acid Sequence | Cys-Tyr-Phe-Gln-Asn-Cys-Pro-DArg-Gly-NH2 (with disulfide bridge)                                                                                                                                                             |
 
 ## Structure
 

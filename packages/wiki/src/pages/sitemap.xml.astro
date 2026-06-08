@@ -33,7 +33,7 @@ ${allPages
     <changefreq>${page.changefreq}</changefreq>
     <priority>${page.priority}</priority>
 ${page.lastmod ? `    <lastmod>${page.lastmod}</lastmod>` : ""}
-  </url>`
+  </url>`,
   )
   .join("\n")}
 </urlset>`,
@@ -41,6 +41,6 @@ ${page.lastmod ? `    <lastmod>${page.lastmod}</lastmod>` : ""}
     headers: {
       "Content-Type": "application/xml; charset=utf-8",
     },
-  }
+  },
 );
 ---

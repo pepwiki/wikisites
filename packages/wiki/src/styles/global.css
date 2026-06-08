@@ -17,11 +17,15 @@ body {
   font-family: "Inter", system-ui, sans-serif;
   background:
     radial-gradient(ellipse at 30% 0%, rgba(13, 148, 136, 0.03) 0%, transparent 50%),
-    radial-gradient(ellipse at 70% 100%, rgba(249, 115, 22, 0.02) 0%, transparent 50%),
-    #f8fafc;
+    radial-gradient(ellipse at 70% 100%, rgba(249, 115, 22, 0.02) 0%, transparent 50%), #f8fafc;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Plus Jakarta Sans", system-ui, sans-serif;
 }
 
@@ -39,7 +43,9 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 1.25rem;
   border: 1px solid rgba(226, 232, 240, 0.6);
   box-shadow: var(--spatial-depth-2);
-  transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition:
+    box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .spatial-card:hover {
@@ -67,10 +73,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @keyframes amoebic-drift {
-  0% { border-radius: 42% 58% 63% 37% / 53% 42% 58% 47%; }
-  33% { border-radius: 55% 45% 40% 60% / 60% 50% 50% 40%; }
-  66% { border-radius: 38% 62% 55% 45% / 45% 55% 45% 55%; }
-  100% { border-radius: 50% 50% 45% 55% / 55% 45% 55% 45%; }
+  0% {
+    border-radius: 42% 58% 63% 37% / 53% 42% 58% 47%;
+  }
+  33% {
+    border-radius: 55% 45% 40% 60% / 60% 50% 50% 40%;
+  }
+  66% {
+    border-radius: 38% 62% 55% 45% / 45% 55% 45% 55%;
+  }
+  100% {
+    border-radius: 50% 50% 45% 55% / 55% 45% 55% 45%;
+  }
 }
 
 /* Organic curved section dividers */
@@ -90,6 +104,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Material depth planes */
-.depth-plane-0 { background: #ffffff; box-shadow: var(--spatial-depth-1); }
-.depth-plane-1 { background: #f8fafc; box-shadow: var(--spatial-depth-2); }
-.depth-plane-2 { background: #f1f5f9; box-shadow: var(--spatial-depth-3); }
+.depth-plane-0 {
+  background: #ffffff;
+  box-shadow: var(--spatial-depth-1);
+}
+.depth-plane-1 {
+  background: #f8fafc;
+  box-shadow: var(--spatial-depth-2);
+}
+.depth-plane-2 {
+  background: #f1f5f9;
+  box-shadow: var(--spatial-depth-3);
+}

@@ -43,6 +43,7 @@
     "prepare": "husky"
   },
   "devDependencies": {
+    "@astrojs/check": "^0.9.9",
     "@astrojs/solid-js": "^5.0.0",
     "@commitlint/cli": "^19.0.0",
     "@commitlint/config-conventional": "^19.0.0",

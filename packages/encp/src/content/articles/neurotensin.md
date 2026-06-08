@@ -39,6 +39,6 @@ Neurotensin has been implicated in the pathophysiology of schizophrenia, given i
 
 ## References
 
-1. Carraway R, Leeman SE. The isolation of a new hypotensive peptide, neurotensin, from bovine hypothalami. *Journal of Biological Chemistry*. 1973;248:6854-6861.
-2. Vincent JP, Mazella J, Kitabgi P. Neurotensin and neurotensin receptors. *Trends in Pharmacological Sciences*. 1999;20:302-309.
-3. Boules M, Fredrickson P, Tobacyk J. Neurotensin agonists as potential antipsychotics. *Current Drug Targets*. 2006;7:1563-1573.
+1. Carraway R, Leeman SE. The isolation of a new hypotensive peptide, neurotensin, from bovine hypothalami. _Journal of Biological Chemistry_. 1973;248:6854-6861.
+2. Vincent JP, Mazella J, Kitabgi P. Neurotensin and neurotensin receptors. _Trends in Pharmacological Sciences_. 1999;20:302-309.
+3. Boules M, Fredrickson P, Tobacyk J. Neurotensin agonists as potential antipsychotics. _Current Drug Targets_. 2006;7:1563-1573.

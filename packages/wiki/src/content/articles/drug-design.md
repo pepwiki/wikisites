@@ -54,13 +54,13 @@ Once a **lead compound** (a molecule with promising but imperfect activity) is i
 
 Every drug candidate must satisfy **ADMET** criteria:
 
-| Property | What It Measures | Why It Matters |
-|---|---|---|
-| **A**bsorption | How the drug enters the bloodstream | Determines route of administration |
-| **D**istribution | Where the drug goes in the body | Determines target tissue exposure |
-| **M**etabolism | How the body chemically modifies the drug | Affects duration of action and toxicity |
-| **E**xcretion | How the body eliminates the drug | Determines dosing frequency |
-| **T**oxicity | Harmful effects on biological systems | Determines safety and therapeutic window |
+| Property         | What It Measures                          | Why It Matters                           |
+| ---------------- | ----------------------------------------- | ---------------------------------------- |
+| **A**bsorption   | How the drug enters the bloodstream       | Determines route of administration       |
+| **D**istribution | Where the drug goes in the body           | Determines target tissue exposure        |
+| **M**etabolism   | How the body chemically modifies the drug | Affects duration of action and toxicity  |
+| **E**xcretion    | How the body eliminates the drug          | Determines dosing frequency              |
+| **T**oxicity     | Harmful effects on biological systems     | Determines safety and therapeutic window |
 
 Peptide drugs face unique ADMET challenges: they are often poorly absorbed orally, rapidly degraded by proteases, and cleared quickly from the body.
 
@@ -76,20 +76,20 @@ Medicinal chemists use several strategies to overcome these challenges:
 
 ## FDA-Approved Peptide Drugs
 
-| Drug | Year Approved | Indication | Notable Feature |
-|---|---|---|---|
-| **Oxytocin** | 1956 | Labor induction | Cyclic nonapeptide |
-| **Insulin** | 1982 | Diabetes | Recombinant first biologic approved |
-| **Cyclosporine** | 1983 | Immunosuppression | Cyclic undecapeptide |
-| **Leuprolide** | 1985 | Prostate cancer | GnRH agonist, D-amino acid at position 6 |
-| **Octreotide** | 1987 | Acromegaly | Somatostatin analog, cyclic |
-| **Desmopressin** | 1990 | Diabetes insipidus | Modified vasopressin analog |
-| **Buserelin** | 1991 | Prostate cancer | GnRH agonist |
-| **Nesiritide** | 2001 | Heart failure | Recombinant B-type natriuretic peptide |
-| **Exenatide** | 2005 | Type 2 diabetes | GLP-1 receptor agonist, D-amino acids |
-| **Liraglutide** | 2010 | Type 2 diabetes / Obesity | GLP-1 analog, fatty acid acylation for albumin binding |
-| **Semaglutide** | 2017 | Type 2 diabetes / Obesity | GLP-1 analog, PEGylation + albumin binding |
-| **Eptinezumab** | 2020 | Migraine prevention | Anti-CGRP monoclonal antibody (peptide-derived) |
+| Drug             | Year Approved | Indication                | Notable Feature                                        |
+| ---------------- | ------------- | ------------------------- | ------------------------------------------------------ |
+| **Oxytocin**     | 1956          | Labor induction           | Cyclic nonapeptide                                     |
+| **Insulin**      | 1982          | Diabetes                  | Recombinant first biologic approved                    |
+| **Cyclosporine** | 1983          | Immunosuppression         | Cyclic undecapeptide                                   |
+| **Leuprolide**   | 1985          | Prostate cancer           | GnRH agonist, D-amino acid at position 6               |
+| **Octreotide**   | 1987          | Acromegaly                | Somatostatin analog, cyclic                            |
+| **Desmopressin** | 1990          | Diabetes insipidus        | Modified vasopressin analog                            |
+| **Buserelin**    | 1991          | Prostate cancer           | GnRH agonist                                           |
+| **Nesiritide**   | 2001          | Heart failure             | Recombinant B-type natriuretic peptide                 |
+| **Exenatide**    | 2005          | Type 2 diabetes           | GLP-1 receptor agonist, D-amino acids                  |
+| **Liraglutide**  | 2010          | Type 2 diabetes / Obesity | GLP-1 analog, fatty acid acylation for albumin binding |
+| **Semaglutide**  | 2017          | Type 2 diabetes / Obesity | GLP-1 analog, PEGylation + albumin binding             |
+| **Eptinezumab**  | 2020          | Migraine prevention       | Anti-CGRP monoclonal antibody (peptide-derived)        |
 
 ## Key Takeaway
 
@@ -97,12 +97,12 @@ Peptide drug design balances potency, selectivity, and drug-like properties. The
 
 ## Summary
 
-| Concept | Core Idea |
-|---|---|
-| **SAR** | Map structure to activity through systematic modifications |
-| **Pharmacophore** | Minimal 3D arrangement of functional groups for binding |
+| Concept               | Core Idea                                                           |
+| --------------------- | ------------------------------------------------------------------- |
+| **SAR**               | Map structure to activity through systematic modifications          |
+| **Pharmacophore**     | Minimal 3D arrangement of functional groups for binding             |
 | **Lead optimization** | Iterative improvements to potency, selectivity, and drug properties |
-| **ADMET** | Absorption, Distribution, Metabolism, Excretion, Toxicity |
-| **Cyclization** | Improves stability and selectivity |
-| **D-amino acids** | Blocks protease recognition |
-| **PEGylation** | Extends half-life, improves solubility |
+| **ADMET**             | Absorption, Distribution, Metabolism, Excretion, Toxicity           |
+| **Cyclization**       | Improves stability and selectivity                                  |
+| **D-amino acids**     | Blocks protease recognition                                         |
+| **PEGylation**        | Extends half-life, improves solubility                              |

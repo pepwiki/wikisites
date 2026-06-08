@@ -39,6 +39,6 @@ VIP is a potent immunomodulator, suppressing pro-inflammatory cytokine productio
 
 ## References
 
-1. Said SI, Mutt V. Polypeptide with broad biological activity: isolation from small intestine. *Science*. 1970;169:1217-1218.
-2. Vaudry D, Falluel-Morel A, Bourgault S, et al. Pituitary adenylate cyclase-activating polypeptide and VIP receptors. *Pharmacological Reviews*. 2009;61:263-319.
-3. Gomazkov OA. Vasoactive intestinal peptide as a neuroimmunomodulator. *Neuroscience and Behavioral Physiology*. 2003;33:859-866.
+1. Said SI, Mutt V. Polypeptide with broad biological activity: isolation from small intestine. _Science_. 1970;169:1217-1218.
+2. Vaudry D, Falluel-Morel A, Bourgault S, et al. Pituitary adenylate cyclase-activating polypeptide and VIP receptors. _Pharmacological Reviews_. 2009;61:263-319.
+3. Gomazkov OA. Vasoactive intestinal peptide as a neuroimmunomodulator. _Neuroscience and Behavioral Physiology_. 2003;33:859-866.

@@ -41,6 +41,6 @@ Recombinant BNP (nesiritide) is approved for acute decompensated heart failure. 
 
 ## References
 
-1. Sudoh, T., et al. (1988). BNP: identification in the brain of a novel natriuretic peptide. *Nature*, 332(6159), 78-81.
-2. Hall, C. (2004). NT-proBNP: the rationale for use in heart failure. *Journal of Cardiovascular Pharmacology*, 44(Suppl 1), S27-S33.
-3. McMurray, J.J., et al. (2014). ESC guidelines for the diagnosis and treatment of heart failure. *European Heart Journal*, 35(34), 2333-2387.
+1. Sudoh, T., et al. (1988). BNP: identification in the brain of a novel natriuretic peptide. _Nature_, 332(6159), 78-81.
+2. Hall, C. (2004). NT-proBNP: the rationale for use in heart failure. _Journal of Cardiovascular Pharmacology_, 44(Suppl 1), S27-S33.
+3. McMurray, J.J., et al. (2014). ESC guidelines for the diagnosis and treatment of heart failure. _European Heart Journal_, 35(34), 2333-2387.

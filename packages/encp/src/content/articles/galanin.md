@@ -39,6 +39,6 @@ Galanin modulates cholinergic neurotransmission in the basal forebrain, generall
 
 ## References
 
-1. Tatemoto K, Rokaeus A, Jornvall H, et al. Galanin: a novel biologically active peptide from porcine intestine. *FEBS Letters*. 1983;164:124-128.
-2. Lang R, Gundlach AL, Holmes FE, et al. Physiology, signaling, and pharmacology of galanin receptors. *Pharmacological Reviews*. 2015;67:118-175.
-3. Counts SE, Perez SE, Ginsberg SD, et al. Galanin in Alzheimer disease. *Molecular Interventions*. 2003;3:137-156.
+1. Tatemoto K, Rokaeus A, Jornvall H, et al. Galanin: a novel biologically active peptide from porcine intestine. _FEBS Letters_. 1983;164:124-128.
+2. Lang R, Gundlach AL, Holmes FE, et al. Physiology, signaling, and pharmacology of galanin receptors. _Pharmacological Reviews_. 2015;67:118-175.
+3. Counts SE, Perez SE, Ginsberg SD, et al. Galanin in Alzheimer disease. _Molecular Interventions_. 2003;3:137-156.

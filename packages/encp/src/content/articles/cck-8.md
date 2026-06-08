@@ -39,6 +39,6 @@ In the brain, CCK-8 co-localizes with dopamine in mesolimbic pathways and modula
 
 ## References
 
-1. Mutt V, Jorpes JE. Structure of porcine cholecystokinin-pancreozymin. *European Journal of Biochemistry*. 1968;15:513-519.
-2. Wank SA. Cholecystokinin receptors. *American Journal of Physiology*. 1995;269:G628-G646.
-3. Moran TH, Schwartz GJ. Biological specificity of gut-brain peptide signals. *Behavioral Neuroscience*. 1994;108:4-18.
+1. Mutt V, Jorpes JE. Structure of porcine cholecystokinin-pancreozymin. _European Journal of Biochemistry_. 1968;15:513-519.
+2. Wank SA. Cholecystokinin receptors. _American Journal of Physiology_. 1995;269:G628-G646.
+3. Moran TH, Schwartz GJ. Biological specificity of gut-brain peptide signals. _Behavioral Neuroscience_. 1994;108:4-18.

@@ -29,6 +29,7 @@ DSC provides quantitative thermodynamic data but requires relatively high sample
 Circular dichroism monitors secondary structure content as temperature increases. The CD signal at 222 nm (alpha-helix) or 218 nm (beta-sheet) is tracked during thermal ramping.
 
 Advantages of CD melting analysis:
+
 - Requires lower sample concentrations than DSC
 - Provides structural information (which secondary structure is lost)
 - Can detect two-state versus multi-state transitions
@@ -39,6 +40,7 @@ Advantages of CD melting analysis:
 ## Aggregation Onset
 
 Peptides often aggregate before complete unfolding. Monitoring aggregation requires:
+
 - **Turbidity measurements:** Light scattering at 350-600 nm increases with aggregate formation
 - **Dynamic light scattering:** Detects particle size changes indicating oligomerization
 - **Thioflavin T fluorescence:** Specific for amyloid fibril formation
@@ -48,6 +50,7 @@ Aggregation onset temperature is often more therapeutically relevant than Tm bec
 ## Storage Conditions
 
 Based on thermal stability data, optimize storage by:
+
 - **Temperature:** -20 to -80 degrees Celsius for long-term storage of most peptides
 - **Lyophilization:** Removes water to prevent hydrolysis and aggregation
 - **Excipients:** Trehalose or sucrose stabilize during freeze-drying
@@ -56,6 +59,7 @@ Based on thermal stability data, optimize storage by:
 ## Practical Stability Testing
 
 A standard stability protocol includes:
+
 1. Determine Tm by CD melting
 2. Monitor aggregation by DLS at elevated temperatures
 3. Perform accelerated stability studies (40 degrees Celsius, 75% humidity)

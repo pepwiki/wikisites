@@ -17,10 +17,18 @@ const localStorageMock = (() => {
   let store: Record<string, string> = {};
   return {
     getItem: (key: string) => store[key] ?? null,
-    setItem: (key: string, value: string) => { store[key] = value; },
-    removeItem: (key: string) => { delete store[key]; },
-    clear: () => { store = {}; },
-    get length() { return Object.keys(store).length; },
+    setItem: (key: string, value: string) => {
+      store[key] = value;
+    },
+    removeItem: (key: string) => {
+      delete store[key];
+    },
+    clear: () => {
+      store = {};
+    },
+    get length() {
+      return Object.keys(store).length;
+    },
     key: (i: number) => Object.keys(store)[i] ?? null,
   };
 })();
@@ -38,7 +46,17 @@ describe("saveCards / loadCards", () => {
   it("saves and loads cards round-trip", () => {
     const now = new Date("2026-06-07T12:00:00Z");
     const cards = [
-      { id: "c1", difficulty: 5, stability: 10, elapsedDays: 0, scheduledDays: 5, repetitions: 3, lapses: 0, lastReview: now.toISOString(), createdAt: now.toISOString() },
+      {
+        id: "c1",
+        difficulty: 5,
+        stability: 10,
+        elapsedDays: 0,
+        scheduledDays: 5,
+        repetitions: 3,
+        lapses: 0,
+        lastReview: now.toISOString(),
+        createdAt: now.toISOString(),
+      },
     ];
     const saved = saveCards("wiki", "deck-a", cards);
     expect(saved).toBe(true);
@@ -54,7 +72,19 @@ describe("saveCards / loadCards", () => {
   });
 
   it("isolates decks by site", () => {
-    const cards = [{ id: "c1", difficulty: 1, stability: 1, elapsedDays: 0, scheduledDays: 0, repetitions: 0, lapses: 0, lastReview: new Date().toISOString(), createdAt: new Date().toISOString() }];
+    const cards = [
+      {
+        id: "c1",
+        difficulty: 1,
+        stability: 1,
+        elapsedDays: 0,
+        scheduledDays: 0,
+        repetitions: 0,
+        lapses: 0,
+        lastReview: new Date().toISOString(),
+        createdAt: new Date().toISOString(),
+      },
+    ];
     saveCards("wiki", "deck", cards);
     expect(loadCards("encp", "deck")).toEqual([]);
   });
@@ -71,7 +101,19 @@ describe("initializeDeck", () => {
   });
 
   it("preserves existing cards", () => {
-    const existing = [{ id: "c1", difficulty: 5, stability: 10, elapsedDays: 0, scheduledDays: 5, repetitions: 3, lapses: 0, lastReview: new Date().toISOString(), createdAt: new Date().toISOString() }];
+    const existing = [
+      {
+        id: "c1",
+        difficulty: 5,
+        stability: 10,
+        elapsedDays: 0,
+        scheduledDays: 5,
+        repetitions: 3,
+        lapses: 0,
+        lastReview: new Date().toISOString(),
+        createdAt: new Date().toISOString(),
+      },
+    ];
     saveCards("wiki", "deck-c", existing);
 
     const result = initializeDeck("wiki", "deck-c", ["c1", "c2"]);
@@ -92,7 +134,17 @@ describe("getDueCardsForDeck", () => {
 
   it("returns empty when no cards due", () => {
     const now = new Date("2026-06-07T12:00:00Z");
-    const card = { id: "c1", difficulty: 5, stability: 100, elapsedDays: 5, scheduledDays: 30, repetitions: 5, lapses: 0, lastReview: now.toISOString(), createdAt: now.toISOString() };
+    const card = {
+      id: "c1",
+      difficulty: 5,
+      stability: 100,
+      elapsedDays: 5,
+      scheduledDays: 30,
+      repetitions: 5,
+      lapses: 0,
+      lastReview: now.toISOString(),
+      createdAt: now.toISOString(),
+    };
     saveCards("wiki", "deck-e", [card]);
     const due = getDueCardsForDeck("wiki", "deck-e", now);
     expect(due).toHaveLength(0);
@@ -141,7 +193,17 @@ describe("getDeckStats", () => {
 
   it("computes stats for non-empty deck", () => {
     const now = new Date("2026-06-07T12:00:00Z");
-    const card = { id: "c1", difficulty: 5, stability: 10, elapsedDays: 0, scheduledDays: 5, repetitions: 3, lapses: 1, lastReview: now.toISOString(), createdAt: now.toISOString() };
+    const card = {
+      id: "c1",
+      difficulty: 5,
+      stability: 10,
+      elapsedDays: 0,
+      scheduledDays: 5,
+      repetitions: 3,
+      lapses: 1,
+      lastReview: now.toISOString(),
+      createdAt: now.toISOString(),
+    };
     saveCards("wiki", "stats-deck", [card]);
 
     const stats = getDeckStats("wiki", "stats-deck");

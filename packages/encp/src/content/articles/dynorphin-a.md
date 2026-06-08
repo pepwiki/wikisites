@@ -41,6 +41,6 @@ Dynorphin A modulates inflammatory responses through KOR-dependent suppression o
 
 ## References
 
-1. Goldstein, A., et al. (1979). Dynorphin: a potent endogenous opioid peptide. *Science*, 204(4400), 1331-1333.
-2. Chavkin, C., & Goldstein, A. (1981). Specific receptor for the opioid peptide dynorphin. *Nature*, 291(5810), 59-62.
-3. Bruchas, M.R., et al. (2010). The dynorphin/KOR system as a target for treating mood disorders. *Annual Review of Pharmacology and Toxicology*, 50, 313-334.
+1. Goldstein, A., et al. (1979). Dynorphin: a potent endogenous opioid peptide. _Science_, 204(4400), 1331-1333.
+2. Chavkin, C., & Goldstein, A. (1981). Specific receptor for the opioid peptide dynorphin. _Nature_, 291(5810), 59-62.
+3. Bruchas, M.R., et al. (2010). The dynorphin/KOR system as a target for treating mood disorders. _Annual Review of Pharmacology and Toxicology_, 50, 313-334.

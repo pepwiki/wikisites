@@ -4,7 +4,8 @@ description: "Compare solid-phase peptide synthesis (SPPS), liquid-phase synthes
 status: "published"
 author: "Wikipept Community"
 pubDate: 2025-12-15
-tags: ["SPPS", "solid-phase synthesis", "peptide synthesis", "recombinant peptides", "Fmoc chemistry"]
+tags:
+  ["SPPS", "solid-phase synthesis", "peptide synthesis", "recombinant peptides", "Fmoc chemistry"]
 category: "Chemistry"
 difficulty: "intermediate"
 relatedArticles: ["hplc-purification", "mass-spectrometry-peptides", "peptide-drug-delivery"]
@@ -21,6 +22,7 @@ Peptide synthesis is essential for drug development, structural biology, and dia
 SPPS is the dominant method for laboratory peptide production, developed by R.B. Merrifield (Nobel Prize, 1984).
 
 **How it works:**
+
 1. The C-terminal amino acid is anchored to a solid resin bead
 2. The alpha-amino group is protected with Fmoc (base-labile) or Boc (acid-labile) groups
 3. Deprotection exposes the free amine for coupling
@@ -52,14 +54,14 @@ For peptides longer than 50 amino acids or requiring post-translational modifica
 
 ## Comparison Table
 
-| Feature | SPPS | Liquid-Phase | Recombinant |
-|---------|------|--------------|-------------|
-| Length limit | 50 aa | 100+ aa | Unlimited |
-| Speed | Hours to days | Weeks | Days to weeks |
-| Scale | Milligrams to grams | Grams to kilograms | Milligrams to grams |
-| Cost at small scale | Low | High | Moderate |
-| Cost at large scale | High | Moderate | Low |
-| Non-natural amino acids | Yes | Yes | No |
+| Feature                 | SPPS                | Liquid-Phase       | Recombinant         |
+| ----------------------- | ------------------- | ------------------ | ------------------- |
+| Length limit            | 50 aa               | 100+ aa            | Unlimited           |
+| Speed                   | Hours to days       | Weeks              | Days to weeks       |
+| Scale                   | Milligrams to grams | Grams to kilograms | Milligrams to grams |
+| Cost at small scale     | Low                 | High               | Moderate            |
+| Cost at large scale     | High                | Moderate           | Low                 |
+| Non-natural amino acids | Yes                 | Yes                | No                  |
 
 ## Learning Tip
 

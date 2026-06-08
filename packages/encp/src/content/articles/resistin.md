@@ -41,6 +41,6 @@ Elevated plasma resistin levels correlate with obesity, type 2 diabetes, metabol
 
 ## References
 
-1. Steppan, C.M., et al. (2001). The hormone resistin links obesity to diabetes. *Nature*, 409(6818), 307-312.
-2. Filkov, B., et al. (2009). Resistin and its role in metabolic diseases. *Diabetes & Metabolism*, 35(2), 88-94.
-3. Schwartz, D.R., & Lazar, M.A. (2011). Human resistin and the relation to adipose tissue, inflammation, and disease. *Clinical Chemistry*, 57(1), 44-51.
+1. Steppan, C.M., et al. (2001). The hormone resistin links obesity to diabetes. _Nature_, 409(6818), 307-312.
+2. Filkov, B., et al. (2009). Resistin and its role in metabolic diseases. _Diabetes & Metabolism_, 35(2), 88-94.
+3. Schwartz, D.R., & Lazar, M.A. (2011). Human resistin and the relation to adipose tissue, inflammation, and disease. _Clinical Chemistry_, 57(1), 44-51.

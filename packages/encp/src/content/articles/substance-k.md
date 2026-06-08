@@ -37,6 +37,6 @@ Dysregulation of Substance K signaling has been implicated in asthma, inflammato
 
 ## References
 
-1. Maggi, C.A. (2000). The mammalian tachykinin receptors. *General Pharmacology*, 32(1), 1-48.
-2. Patacchini, R., et al. (2004). Tachykinin receptors and intestinal motility. *Peptides*, 25(3), 449-464.
-3. Joos, G.F., et al. (2000). Neurokinin antagonists and their potential in airway diseases. *Drugs*, 59(4), 857-873.
+1. Maggi, C.A. (2000). The mammalian tachykinin receptors. _General Pharmacology_, 32(1), 1-48.
+2. Patacchini, R., et al. (2004). Tachykinin receptors and intestinal motility. _Peptides_, 25(3), 449-464.
+3. Joos, G.F., et al. (2000). Neurokinin antagonists and their potential in airway diseases. _Drugs_, 59(4), 857-873.

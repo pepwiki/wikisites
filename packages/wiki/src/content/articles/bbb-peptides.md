@@ -4,10 +4,18 @@ description: "The blood-brain barrier presents a formidable challenge for peptid
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07
-tags: ["blood-brain-barrier", "drug-delivery", "cell-penetrating-peptides", "nasal-delivery", "neuropharmacology"]
+tags:
+  [
+    "blood-brain-barrier",
+    "drug-delivery",
+    "cell-penetrating-peptides",
+    "nasal-delivery",
+    "neuropharmacology",
+  ]
 category: "Pharmacology"
 difficulty: "advanced"
-relatedArticles: ["peptide-drug-delivery", "cell-penetrating-peptides", "neurodegenerative-diseases"]
+relatedArticles:
+  ["peptide-drug-delivery", "cell-penetrating-peptides", "neurodegenerative-diseases"]
 ---
 
 # Blood-Brain Barrier and Peptides

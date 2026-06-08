@@ -19,14 +19,14 @@ citation:
 
 Bradykinin is a linear nonapeptide of the kinin family, generated from high-molecular-weight kininogen (HMWK) by the serine protease kallikrein. It functions as a potent autocrine and paracrine mediator of vascular and inflammatory responses.
 
-| Property | Value |
-|---|---|
-| **Chemical Formula** | C₅₀H₇₃N₁₅O₁₁ |
-| **Molecular Weight** | 1060.22 g/mol |
-| **CAS Number** | 5884-07-5 |
-| **Isoelectric Point (pI)** | 11.8 |
-| **Amino Acid Count** | 9 |
-| **Disulfide Bridge** | None (linear) |
+| Property                   | Value         |
+| -------------------------- | ------------- |
+| **Chemical Formula**       | C₅₀H₇₃N₁₅O₁₁  |
+| **Molecular Weight**       | 1060.22 g/mol |
+| **CAS Number**             | 5884-07-5     |
+| **Isoelectric Point (pI)** | 11.8          |
+| **Amino Acid Count**       | 9             |
+| **Disulfide Bridge**       | None (linear) |
 
 ## Primary Structure
 
@@ -44,10 +44,10 @@ Notable structural features include:
 
 Bradykinin signals through two G-protein coupled receptors with distinct pharmacological profiles:
 
-| Receptor | G-Protein | Primary Coupling | Expression |
-|---|---|---|---|
-| **B2** | Gq/Gi | Constitutive | Ubiquitous, constitutive |
-| **B1** | Gq/Gi | Inducible | Upregulated in inflammation |
+| Receptor | G-Protein | Primary Coupling | Expression                  |
+| -------- | --------- | ---------------- | --------------------------- |
+| **B2**   | Gq/Gi     | Constitutive     | Ubiquitous, constitutive    |
+| **B1**   | Gq/Gi     | Inducible        | Upregulated in inflammation |
 
 - **B2 Receptor:** Mediates acute responses; constitutively expressed; high affinity for native bradykinin
 - **B1 Receptor:** Induced by cytokines (TNF-α, IL-1β); mediates sustained inflammatory responses; preferentially binds des-Arg⁹-bradykinin
@@ -67,5 +67,5 @@ Bradykinin is implicated in the pathophysiology of **hereditary angioedema** (HA
 
 ## References
 
-- Bhoola, K. D., et al. (2024). Kinins and kinin receptors in inflammation. *Pharmacology & Therapeutics*, 245, 108445.
-- Campbell, D. J. (2003). The renin-angiotensin and the kallikrein-kinin systems. *International Journal of Biochemistry & Cell Biology*, 35, 784–791.
+- Bhoola, K. D., et al. (2024). Kinins and kinin receptors in inflammation. _Pharmacology & Therapeutics_, 245, 108445.
+- Campbell, D. J. (2003). The renin-angiotensin and the kallikrein-kinin systems. _International Journal of Biochemistry & Cell Biology_, 35, 784–791.

@@ -4,7 +4,8 @@ description: "Accurate peptide quantification is essential for research and phar
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07
-tags: ["peptide-quantification", "BCA-assay", "Bradford-assay", "UV-absorbance", "amino-acid-analysis"]
+tags:
+  ["peptide-quantification", "BCA-assay", "Bradford-assay", "UV-absorbance", "amino-acid-analysis"]
 category: "Chemistry"
 difficulty: "intermediate"
 relatedArticles: ["amino-acids", "peptide-synthesis", "hplc-analysis"]
@@ -60,12 +61,12 @@ The gold standard for quantification involves acid hydrolysis of the peptide fol
 
 ## Choosing the Right Method
 
-| Method | Sensitivity | Sample Required | Best For |
-|--------|------------|-----------------|----------|
-| UV 280 | Moderate | Minimal | Peptides with Trp/Tyr |
-| BCA | High | 0.5-20 ug | General quantification |
-| Bradford | Moderate | 1-20 ug | Quick estimates |
-| AAA | Very High | 1-10 ug | Definitive quantification |
+| Method   | Sensitivity | Sample Required | Best For                  |
+| -------- | ----------- | --------------- | ------------------------- |
+| UV 280   | Moderate    | Minimal         | Peptides with Trp/Tyr     |
+| BCA      | High        | 0.5-20 ug       | General quantification    |
+| Bradford | Moderate    | 1-20 ug         | Quick estimates           |
+| AAA      | Very High   | 1-10 ug         | Definitive quantification |
 
 ## Mnemonic: BEAU
 

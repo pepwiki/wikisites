@@ -39,7 +39,7 @@ The melanocortin system is regulated by the endogenous antagonist Agouti-related
 
 ## Physiological Functions
 
-In the skin, alpha-MSH is a principal mediator of tanning responses to ultraviolet radiation, acting through MC1R on epidermal melanocytes. In the hypothalamus, alpha-MSH released from POMC neurons activates MC4R to suppress appetite and increase energy expenditure. Loss-of-function mutations in the *POMC* gene or *MC4R* gene cause severe early-onset obesity, with MC4R mutations being the most common monogenic cause of obesity in humans.
+In the skin, alpha-MSH is a principal mediator of tanning responses to ultraviolet radiation, acting through MC1R on epidermal melanocytes. In the hypothalamus, alpha-MSH released from POMC neurons activates MC4R to suppress appetite and increase energy expenditure. Loss-of-function mutations in the _POMC_ gene or _MC4R_ gene cause severe early-onset obesity, with MC4R mutations being the most common monogenic cause of obesity in humans.
 
 ## Clinical Applications
 

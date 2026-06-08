@@ -17,14 +17,14 @@ citation:
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Chemical Formula | C16H22N6O6 |
-| Molecular Weight | 362.38 g/mol |
-| CAS Number | 24305-27-9 |
-| IUPAC Name | 5-oxo-Pro-His-Pro-NH2 |
-| Peptide Class | Tripeptide |
-| Amino Acid Composition | pGlu-His-Pro-NH2 |
+| Property               | Value                 |
+| ---------------------- | --------------------- |
+| Chemical Formula       | C16H22N6O6            |
+| Molecular Weight       | 362.38 g/mol          |
+| CAS Number             | 24305-27-9            |
+| IUPAC Name             | 5-oxo-Pro-His-Pro-NH2 |
+| Peptide Class          | Tripeptide            |
+| Amino Acid Composition | pGlu-His-Pro-NH2      |
 
 ## Structure
 

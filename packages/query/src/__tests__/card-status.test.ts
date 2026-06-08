@@ -31,15 +31,21 @@ describe("getStatusLabel", () => {
   });
 
   it("returns Learning for card with scheduledDays <=1", () => {
-    expect(getStatusLabel(makeCard({ repetitions: 2, lapses: 0, scheduledDays: 1 }))).toBe("Learning");
+    expect(getStatusLabel(makeCard({ repetitions: 2, lapses: 0, scheduledDays: 1 }))).toBe(
+      "Learning",
+    );
   });
 
   it("returns Learning for card with scheduledDays 0", () => {
-    expect(getStatusLabel(makeCard({ repetitions: 2, lapses: 0, scheduledDays: 0 }))).toBe("Learning");
+    expect(getStatusLabel(makeCard({ repetitions: 2, lapses: 0, scheduledDays: 0 }))).toBe(
+      "Learning",
+    );
   });
 
   it("returns Review for mature card", () => {
-    expect(getStatusLabel(makeCard({ repetitions: 5, lapses: 0, scheduledDays: 10 }))).toBe("Review");
+    expect(getStatusLabel(makeCard({ repetitions: 5, lapses: 0, scheduledDays: 10 }))).toBe(
+      "Review",
+    );
   });
 });
 
@@ -57,10 +63,14 @@ describe("getStatusColor", () => {
   });
 
   it("returns orange for learning card (scheduledDays <=1)", () => {
-    expect(getStatusColor(makeCard({ repetitions: 2, lapses: 0, scheduledDays: 1 }))).toContain("bg-orange");
+    expect(getStatusColor(makeCard({ repetitions: 2, lapses: 0, scheduledDays: 1 }))).toContain(
+      "bg-orange",
+    );
   });
 
   it("returns green for review card", () => {
-    expect(getStatusColor(makeCard({ repetitions: 5, lapses: 0, scheduledDays: 10 }))).toContain("bg-green");
+    expect(getStatusColor(makeCard({ repetitions: 5, lapses: 0, scheduledDays: 10 }))).toContain(
+      "bg-green",
+    );
   });
 });

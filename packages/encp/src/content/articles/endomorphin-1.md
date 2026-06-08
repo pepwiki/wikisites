@@ -41,6 +41,6 @@ EM-1 serves as a lead compound for designing selective MOR agonists with reduced
 
 ## References
 
-1. Zadina, J.E., et al. (1997). A potent and selective endogenous agonist for the mu-opiate receptor. *Nature*, 386(6624), 499-502.
-2. Fichna, J., et al. (2007). Endomorphins: current status and clinical prospects. *Central Nervous System Agents in Medicinal Chemistry*, 7(3), 187-197.
-3. Janecka, A., et al. (2008). Endomorphin analogs with improved pharmacological profiles. *Mini-Reviews in Medicinal Chemistry*, 8(8), 753-762.
+1. Zadina, J.E., et al. (1997). A potent and selective endogenous agonist for the mu-opiate receptor. _Nature_, 386(6624), 499-502.
+2. Fichna, J., et al. (2007). Endomorphins: current status and clinical prospects. _Central Nervous System Agents in Medicinal Chemistry_, 7(3), 187-197.
+3. Janecka, A., et al. (2008). Endomorphin analogs with improved pharmacological profiles. _Mini-Reviews in Medicinal Chemistry_, 8(8), 753-762.

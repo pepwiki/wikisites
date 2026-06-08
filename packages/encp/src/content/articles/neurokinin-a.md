@@ -41,6 +41,6 @@ Selective NK2 receptor antagonists represent promising targets for respiratory a
 
 ## References
 
-1. Guard, S., & Watson, S.P. (1988). Tachykinin receptors. *Neurochemistry International*, 12(3), 197-202.
-2. Joos, G.F., & Pauwels, R.A. (2000). Pro-inflammatory effects of tachykinins in the lung. *Neuroscience Letters*, 305(3), 145-148.
-3. Steinhoff, M.S., et al. (2004). Tachykinins and their receptors. *Biochemical Pharmacology*, 67(5), 815-823.
+1. Guard, S., & Watson, S.P. (1988). Tachykinin receptors. _Neurochemistry International_, 12(3), 197-202.
+2. Joos, G.F., & Pauwels, R.A. (2000). Pro-inflammatory effects of tachykinins in the lung. _Neuroscience Letters_, 305(3), 145-148.
+3. Steinhoff, M.S., et al. (2004). Tachykinins and their receptors. _Biochemical Pharmacology_, 67(5), 815-823.

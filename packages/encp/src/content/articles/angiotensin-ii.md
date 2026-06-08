@@ -19,14 +19,14 @@ citation:
 
 Angiotensin II (Ang II) is the principal effector peptide of the **renin-angiotensin-aldosterone system (RAAS)**, the primary hormonal axis regulating blood pressure and electrolyte homeostasis. It is generated from angiotensin I by angiotensin-converting enzyme (ACE).
 
-| Property | Value |
-|---|---|
-| **Chemical Formula** | C₄₉H₇₁N₁₃O₁₂ |
-| **Molecular Weight** | 1046.18 g/mol |
-| **CAS Number** | 4474-91-3 |
-| **Isoelectric Point (pI)** | 7.8 |
-| **Amino Acid Count** | 8 |
-| **Disulfide Bridge** | None (linear) |
+| Property                   | Value         |
+| -------------------------- | ------------- |
+| **Chemical Formula**       | C₄₉H₇₁N₁₃O₁₂  |
+| **Molecular Weight**       | 1046.18 g/mol |
+| **CAS Number**             | 4474-91-3     |
+| **Isoelectric Point (pI)** | 7.8           |
+| **Amino Acid Count**       | 8             |
+| **Disulfide Bridge**       | None (linear) |
 
 ## Primary Structure
 
@@ -45,18 +45,20 @@ Key structural features:
 
 Angiotensin II signals through two principal G-protein coupled receptors with opposing physiological roles:
 
-| Receptor | G-Protein | Primary Effects | Expression |
-|---|---|---|---|
-| **AT1** | Gq/11, Gi | Vasoconstriction, aldosterone release, fibrosis | Ubiquitous, particularly kidney, heart, vessels |
-| **AT2** | Gi, Gαi-3 | Vasodilation, apoptosis, anti-proliferation | Brain, adrenal, fetal tissues |
+| Receptor | G-Protein | Primary Effects                                 | Expression                                      |
+| -------- | --------- | ----------------------------------------------- | ----------------------------------------------- |
+| **AT1**  | Gq/11, Gi | Vasoconstriction, aldosterone release, fibrosis | Ubiquitous, particularly kidney, heart, vessels |
+| **AT2**  | Gi, Gαi-3 | Vasodilation, apoptosis, anti-proliferation     | Brain, adrenal, fetal tissues                   |
 
 **AT1 receptor signaling:**
+
 - **Gq/11 → PLC → IP₃ → Ca²⁺** → smooth muscle contraction
 - **Gi → adenylyl cyclase inhibition** → reduced cAMP
 - **NADPH oxidase activation** → reactive oxygen species (ROS) generation
 - **MAPK/ERK pathway** → cell growth and hypertrophy
 
 **AT2 receptor signaling:**
+
 - **Bradykinin/NO pathway** → vasodilation
 - **PP2A activation** → growth inhibition
 - Counterbalances AT1-mediated effects in most tissues
@@ -92,5 +94,5 @@ Dysregulation of Ang II signaling is central to the pathogenesis of **hypertensi
 
 ## References
 
-- Bader, M., & Ganten, D. (2024). Angiotensin II and cardiovascular disease. *European Journal of Pharmacology*, 958, 175928.
-- Paul, M., et al. (2006). The renin-angiotensin system. *Physiological Reviews*, 86, 1–205.
+- Bader, M., & Ganten, D. (2024). Angiotensin II and cardiovascular disease. _European Journal of Pharmacology_, 958, 175928.
+- Paul, M., et al. (2006). The renin-angiotensin system. _Physiological Reviews_, 86, 1–205.

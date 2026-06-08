@@ -31,6 +31,7 @@ The second structure shows a single C-O bond with a negative charge on oxygen an
 Because of resonance, the peptide bond has approximately 40% double-bond character in the C-N bond. This partial double-bond character restricts rotation, making the peptide bond planar. The six atoms involved (C-alpha, C, O, N, H, and the next C-alpha) all lie in the same plane.
 
 This planarity has profound structural implications:
+
 - Peptide bonds exist as either cis or trans isomers (trans predominates)
 - Backbone torsion angles are limited to phi and psi rotations
 - Secondary structures like alpha-helices and beta-sheets depend on planarity

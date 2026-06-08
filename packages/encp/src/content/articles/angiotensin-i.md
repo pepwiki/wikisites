@@ -35,6 +35,6 @@ While angiotensin I itself lacks direct vasoactive properties, its plasma concen
 
 ## References
 
-1. Skeggs LT, Kahn JR, Shumway NP. The preparation and function of the hypertensin-converting enzyme. *Journal of Experimental Medicine*. 1956;103:295-299.
-2. Dzau VJ. Tissue angiotensin and pathobiology of vascular disease. *Hypertension*. 1991;17:895-901.
-3. Atlas SA. The renin-angiotensin aldosterone system: pathophysiological role and pharmacologic inhibition. *Journal of Managed Care Pharmacy*. 2007;13:9-20.
+1. Skeggs LT, Kahn JR, Shumway NP. The preparation and function of the hypertensin-converting enzyme. _Journal of Experimental Medicine_. 1956;103:295-299.
+2. Dzau VJ. Tissue angiotensin and pathobiology of vascular disease. _Hypertension_. 1991;17:895-901.
+3. Atlas SA. The renin-angiotensin aldosterone system: pathophysiological role and pharmacologic inhibition. _Journal of Managed Care Pharmacy_. 2007;13:9-20.

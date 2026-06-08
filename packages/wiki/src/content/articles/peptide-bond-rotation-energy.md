@@ -4,7 +4,15 @@ description: "Understanding the energy barriers that govern rotation around pept
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07
-tags: ["peptide-bond", "rotation-energy", "isomeric-states", "energy-barriers", "conformational-analysis", "thermodynamics"]
+tags:
+  [
+    "peptide-bond",
+    "rotation-energy",
+    "isomeric-states",
+    "energy-barriers",
+    "conformational-analysis",
+    "thermodynamics",
+  ]
 category: "Chemistry"
 difficulty: "advanced"
 relatedArticles: ["peptide-bond-geometry-analysis", "peptide-bond-enzyme-catalysis"]

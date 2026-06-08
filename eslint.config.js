@@ -14,7 +14,6 @@ export default tseslint.config(
     },
     rules: {
       "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
-      "@typescript-eslint/explicit-function-return-type": "warn",
       "@typescript-eslint/no-explicit-any": "error",
       "no-console": ["warn", { allow: ["warn", "error"] }],
     },
@@ -24,9 +23,12 @@ export default tseslint.config(
       "dist/**",
       "node_modules/**",
       "**/.astro/**",
+      "packages/*/dist/**",
+      "packages/*/.astro/**",
       "*.config.js",
       "*.config.mjs",
       "*.config.ts",
+      "**/*.astro",
     ],
   },
 );

@@ -21,7 +21,9 @@ const { Content } = await render(article);
         <span class="text-xs font-bold bg-[#0D9488] text-white px-3 py-1 rounded-full uppercase">
           {article.data.category}
         </span>
-        <span class="text-xs font-bold bg-slate-100 text-slate-600 px-3 py-1 rounded-full uppercase">
+        <span
+          class="text-xs font-bold bg-slate-100 text-slate-600 px-3 py-1 rounded-full uppercase"
+        >
           {article.data.difficulty}
         </span>
       </div>
@@ -30,44 +32,63 @@ const { Content } = await render(article);
       <div class="flex items-center gap-4 text-sm text-slate-500">
         <span>By {article.data.author}</span>
         <time datetime={article.data.pubDate.toISOString()}>
-          {article.data.pubDate.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
+          {
+            article.data.pubDate.toLocaleDateString("en-US", {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+            })
+          }
         </time>
         <span class="text-slate-400">|</span>
         <span>{Math.ceil(article.body.split(/\s+/).length / 200)} min read</span>
-        {article.data.updatedDate && (
-          <>
-            <span class="text-slate-400">|</span>
-            <span>Updated {article.data.updatedDate.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>
-          </>
-        )}
+        {
+          article.data.updatedDate && (
+            <>
+              <span class="text-slate-400">|</span>
+              <span>
+                Updated{" "}
+                {article.data.updatedDate.toLocaleDateString("en-US", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })}
+              </span>
+            </>
+          )
+        }
       </div>
-      {article.data.tags.length > 0 && (
-        <div class="flex gap-2 mt-4">
-          {article.data.tags.map((tag) => (
-            <span class="text-xs bg-slate-100 text-slate-500 px-2 py-1 rounded">{tag}</span>
-          ))}
-        </div>
-      )}
+      {
+        article.data.tags.length > 0 && (
+          <div class="flex gap-2 mt-4">
+            {article.data.tags.map((tag) => (
+              <span class="text-xs bg-slate-100 text-slate-500 px-2 py-1 rounded">{tag}</span>
+            ))}
+          </div>
+        )
+      }
     </header>
 
     <div class="prose prose-slate max-w-none">
       <Content />
     </div>
 
-    {article.data.relatedArticles.length > 0 && (
-      <nav class="mt-8 pt-8 border-t border-slate-200">
-        <h3 class="font-semibold text-slate-900 mb-3">Related Articles</h3>
-        <div class="flex gap-3 flex-wrap">
-          {article.data.relatedArticles.map((slug) => (
-            <a
-              href={`/articles/${slug}`}
-              class="text-sm text-[#0D9488] hover:underline border border-[#0D9488] px-3 py-1 rounded-full"
-            >
-              {slug}
-            </a>
-          ))}
-        </div>
-      </nav>
-    )}
+    {
+      article.data.relatedArticles.length > 0 && (
+        <nav class="mt-8 pt-8 border-t border-slate-200">
+          <h3 class="font-semibold text-slate-900 mb-3">Related Articles</h3>
+          <div class="flex gap-3 flex-wrap">
+            {article.data.relatedArticles.map((slug) => (
+              <a
+                href={`/articles/${slug}`}
+                class="text-sm text-[#0D9488] hover:underline border border-[#0D9488] px-3 py-1 rounded-full"
+              >
+                {slug}
+              </a>
+            ))}
+          </div>
+        </nav>
+      )
+    }
   </article>
 </BaseLayout>

@@ -44,13 +44,13 @@ Conjugating a fatty acid (e.g., C14 myristic acid or C18 stearic acid) enables n
 
 ## Summary of Modifications
 
-| Modification         | Mechanism              | Half-Life Effect | Example Drug     |
-|----------------------|------------------------|------------------|------------------|
-| D-amino acid swap    | Protease resistance    | Moderate increase| Desmopressin     |
-| Head-to-tail cyclization | Conformational constraint | Moderate increase | Octreotide  |
-| PEGylation           | Renal shielding        | Large increase   | Pegfilgrastim    |
-| Fatty acid conjugation | Albumin binding      | Large increase   | Semaglutide      |
-| N-methylation        | Protease resistance    | Moderate increase| Cyclosporine A   |
+| Modification             | Mechanism                 | Half-Life Effect  | Example Drug   |
+| ------------------------ | ------------------------- | ----------------- | -------------- |
+| D-amino acid swap        | Protease resistance       | Moderate increase | Desmopressin   |
+| Head-to-tail cyclization | Conformational constraint | Moderate increase | Octreotide     |
+| PEGylation               | Renal shielding           | Large increase    | Pegfilgrastim  |
+| Fatty acid conjugation   | Albumin binding           | Large increase    | Semaglutide    |
+| N-methylation            | Protease resistance       | Moderate increase | Cyclosporine A |
 
 ## Learning Tip
 

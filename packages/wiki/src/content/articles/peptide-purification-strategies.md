@@ -28,6 +28,7 @@ The acetonitrile gradient is typically 5-65% over 30-60 minutes for standard pep
 Ion exchange separates peptides based on net charge. Cation exchange resins bind positively charged peptides, while anion exchange resins bind negatively charged species. Elution uses salt gradients or pH changes.
 
 This method is valuable for:
+
 - Removing truncated sequences with different charge profiles
 - Purifying peptides that are poorly resolved by RP-HPLC
 - Preparative-scale work where RP-HPLC resolution is insufficient
@@ -35,6 +36,7 @@ This method is valuable for:
 ## Size Exclusion Chromatography
 
 Size exclusion separates by molecular weight rather than chemical properties. It is useful for:
+
 - Removing aggregates from monomeric peptide
 - Desalting after ion exchange purification
 - Separating peptide from small-molecule contaminants
@@ -45,11 +47,11 @@ This method has lower resolution but provides gentle, non-denaturing conditions.
 
 **Mnemonic:** "Charge, Size, Hydrophobicity" (CSI) - the three properties exploited in peptide purification.
 
-| Method | Basis | Best For |
-|--------|-------|----------|
-| RP-HPLC | Hydrophobicity | Most peptides, high resolution |
-| Ion exchange | Charge | Charged peptides, scale-up |
-| Size exclusion | Molecular weight | Aggregates, desalting |
+| Method         | Basis            | Best For                       |
+| -------------- | ---------------- | ------------------------------ |
+| RP-HPLC        | Hydrophobicity   | Most peptides, high resolution |
+| Ion exchange   | Charge           | Charged peptides, scale-up     |
+| Size exclusion | Molecular weight | Aggregates, desalting          |
 
 ## Learning Tip
 

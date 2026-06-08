@@ -7,7 +7,12 @@ pubDate: 2026-06-07
 tags: ["protein-misfolding", "amyloid", "prion", "neurodegeneration", "aggregation", "pharmacology"]
 category: "Pharmacology"
 difficulty: "intermediate"
-relatedArticles: ["peptide-bond-isomerization", "amino-acid-classification-systems", "therapeutic-peptide-oral-delivery"]
+relatedArticles:
+  [
+    "peptide-bond-isomerization",
+    "amino-acid-classification-systems",
+    "therapeutic-peptide-oral-delivery",
+  ]
 ---
 
 # Protein Misfolding Diseases
@@ -26,6 +31,7 @@ Proteins must fold into specific three-dimensional structures to function proper
 ## Major Categories of Misfolding Diseases
 
 ### Amyloidosis
+
 Amyloid diseases involve the formation of insoluble fibrils with cross-beta sheet structure. Examples include:
 
 - **Alzheimer's disease**: Beta-amyloid plaques and tau tangles
@@ -33,6 +39,7 @@ Amyloid diseases involve the formation of insoluble fibrils with cross-beta shee
 - **Systemic amyloidosis**: Deposition of immunoglobulin light chains or transthyretin
 
 ### Prion Diseases
+
 Prion diseases are caused by misfolded prion protein (PrPSc) that can template the misfolding of normal prion protein (PrPC). Examples include:
 
 - **Creutzfeldt-Jakob disease** (human)
@@ -40,6 +47,7 @@ Prion diseases are caused by misfolded prion protein (PrPSc) that can template t
 - **Scrapie** (sheep)
 
 ### Other Proteinopathies
+
 - **Huntington's disease**: Polyglutamine expansions in huntingtin
 - **Cystic fibrosis**: CFTR protein misfolding
 - **Type 2 diabetes**: Islet amyloid polypeptide aggregation
@@ -58,14 +66,17 @@ Protein aggregation typically follows a nucleation-dependent pathway:
 Current approaches target different stages of the aggregation pathway:
 
 **Prevention of misfolding**:
+
 - Pharmacological chaperones that stabilize native states
 - Proteostasis regulators that enhance folding capacity
 
 **Inhibition of aggregation**:
+
 - Small molecules that bind to amyloidogenic regions
 - Peptides that block fibril formation
 
 **Enhancement of clearance**:
+
 - Immunotherapy (antibodies against amyloid)
 - Autophagy inducers that promote degradation
 
@@ -76,6 +87,7 @@ Current approaches target different stages of the aggregation pathway:
 ## Clinical Significance
 
 Understanding protein misfolding has led to:
+
 - Diagnostic biomarkers for early detection
 - Novel therapeutic targets
 - Insights into aging and cellular stress

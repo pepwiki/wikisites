@@ -17,14 +17,14 @@ citation:
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Chemical Formula | C6H9N3O3 |
-| Molecular Weight | 226.23 g/mol |
-| CAS Number | 305-84-6 |
-| IUPAC Name | (2S)-2-[(3-aminopropanoyl)amino]-3-(1H-imidazol-4-yl)propanoic acid |
-| Peptide Class | Dipeptide |
-| Amino Acid Composition | beta-Ala-His |
+| Property               | Value                                                               |
+| ---------------------- | ------------------------------------------------------------------- |
+| Chemical Formula       | C6H9N3O3                                                            |
+| Molecular Weight       | 226.23 g/mol                                                        |
+| CAS Number             | 305-84-6                                                            |
+| IUPAC Name             | (2S)-2-[(3-aminopropanoyl)amino]-3-(1H-imidazol-4-yl)propanoic acid |
+| Peptide Class          | Dipeptide                                                           |
+| Amino Acid Composition | beta-Ala-His                                                        |
 
 ## Structure
 

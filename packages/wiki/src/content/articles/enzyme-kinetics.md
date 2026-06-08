@@ -18,7 +18,7 @@ Many peptide drugs target enzymes -- either as inhibitors, substrates, or activa
 
 The foundation of enzyme kinetics is the **Michaelis-Menten equation**:
 
-**v = (Vmax * [S]) / (Km + [S])**
+**v = (Vmax \* [S]) / (Km + [S])**
 
 Where:
 
@@ -75,11 +75,11 @@ The **Lineweaver-Burk plot** (double reciprocal plot) linearizes the Michaelis-M
 
 This transformation makes it easier to visually distinguish inhibition types:
 
-| Inhibition Type | Km Effect | Vmax Effect | Lineweaver-Burk Pattern |
-|---|---|---|---|
-| Competitive | Increases | Unchanged | Lines intersect on y-axis |
-| Non-competitive | Unchanged | Decreases | Lines intersect on x-axis |
-| Mixed | Changes | Decreases | Lines intersect in quadrant |
+| Inhibition Type | Km Effect | Vmax Effect | Lineweaver-Burk Pattern     |
+| --------------- | --------- | ----------- | --------------------------- |
+| Competitive     | Increases | Unchanged   | Lines intersect on y-axis   |
+| Non-competitive | Unchanged | Decreases   | Lines intersect on x-axis   |
+| Mixed           | Changes   | Decreases   | Lines intersect in quadrant |
 
 ## Connection to Peptide Drug Design
 
@@ -94,12 +94,12 @@ When designing peptide-based enzyme inhibitors, medicinal chemists aim for **low
 
 ## Summary
 
-| Concept | Meaning |
-|---|---|
-| **Km** | Substrate concentration at half Vmax; reflects affinity |
-| **Vmax** | Maximum velocity at enzyme saturation |
-| **kcat** | Turnover number (substrate molecules per enzyme per second) |
-| **kcat/Km** | Catalytic efficiency |
-| **Competitive inhibition** | Inhibitor binds active site; Km up, Vmax same |
-| **Non-competitive inhibition** | Inhibitor binds allosteric site; Km same, Vmax down |
-| **Lineweaver-Burk** | Double-reciprocal plot for visualizing kinetics |
+| Concept                        | Meaning                                                     |
+| ------------------------------ | ----------------------------------------------------------- |
+| **Km**                         | Substrate concentration at half Vmax; reflects affinity     |
+| **Vmax**                       | Maximum velocity at enzyme saturation                       |
+| **kcat**                       | Turnover number (substrate molecules per enzyme per second) |
+| **kcat/Km**                    | Catalytic efficiency                                        |
+| **Competitive inhibition**     | Inhibitor binds active site; Km up, Vmax same               |
+| **Non-competitive inhibition** | Inhibitor binds allosteric site; Km same, Vmax down         |
+| **Lineweaver-Burk**            | Double-reciprocal plot for visualizing kinetics             |

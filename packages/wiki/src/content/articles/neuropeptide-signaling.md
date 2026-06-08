@@ -35,6 +35,7 @@ Some neuropeptides function in both modes simultaneously, acting locally within 
 Neuropeptide receptors are predominantly G-protein coupled receptors (GPCRs), a superfamily with seven transmembrane domains.
 
 Key characteristics:
+
 - **High affinity:** Neuropeptide receptors bind ligands at nanomolar to picomolar concentrations, much tighter than classical neurotransmitter receptors
 - **Slow onset:** Signaling develops over seconds to minutes, compared to milliseconds for ionotropic receptors
 - **Long duration:** Effects persist for minutes to hours
@@ -55,6 +56,7 @@ Neuropeptide signals must be terminated precisely to prevent excessive or prolon
 ## Pharmacological Significance
 
 Understanding neuropeptide signaling has yielded important therapeutics:
+
 - Opioid analgesics target endorphin receptors for pain management
 - Triptans activate serotonin receptors but modulate neuropeptide release for migraine treatment
 - Oxytocin analogs are used to induce labor and control postpartum bleeding

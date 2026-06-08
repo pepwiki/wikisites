@@ -4,10 +4,17 @@ description: "Learn how peptide bond geometry influences drug design through bio
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07
-tags: ["drug-design", "peptidomimetics", "bioisosteres", "conformational-constraint", "pharmacology"]
+tags:
+  ["drug-design", "peptidomimetics", "bioisosteres", "conformational-constraint", "pharmacology"]
 category: "Pharmacology"
 difficulty: "advanced"
-relatedArticles: ["peptide-bond-energy-diagram", "peptide-bond-isomerization", "peptide-ir-spectroscopy", "peptide-drug-manufacturing"]
+relatedArticles:
+  [
+    "peptide-bond-energy-diagram",
+    "peptide-bond-isomerization",
+    "peptide-ir-spectroscopy",
+    "peptide-drug-manufacturing",
+  ]
 ---
 
 # Peptide Bond Geometry in Drug Design
@@ -29,11 +36,13 @@ Key geometric features of peptide bonds:
 Bioisosteres replace peptide bonds while maintaining biological activity:
 
 **Amide bond replacements**:
+
 - **Thioamides**: Replace oxygen with sulfur, similar geometry but different electronics
 - **Reduced amides**: CH₂NH replacement increases metabolic stability
 - **Fluoroalkenes**: Planar, bioisosteric for trans-amide bonds
 
 **Ring constraints**:
+
 - **Lactams**: Cyclized bioisosteres that restrict conformation
 - **Spirocycles**: Rigid frameworks that mimic peptide geometry
 - **Heterocycles**: Pyrrolidinones, piperazinones as amide mimics
@@ -43,16 +52,19 @@ Bioisosteres replace peptide bonds while maintaining biological activity:
 Peptidomimetics are molecules designed to mimic peptide structure and function:
 
 **Type 1: Secondary structure mimetics**
+
 - Alpha-helix mimetics using terphenyl scaffolds
 - Beta-turn mimetics using cyclic peptides
 - Beta-sheet mimetics using peptoids
 
 **Type 2: Backbone modifications**
+
 - N-methylation to reduce hydrogen bonding
 - D-amino acid incorporation for protease resistance
 - Peptide bond surrogates for improved stability
 
 **Type 3: Side chain modifications**
+
 - Conformational restriction of side chains
 - Prodrug approaches for improved delivery
 - Bioisosteric replacements for metabolic stability
@@ -62,12 +74,14 @@ Peptidomimetics are molecules designed to mimic peptide structure and function:
 Constraining peptide conformation improves drug properties:
 
 **Cyclization strategies**:
+
 - **Lactam bridges**: Side chain to backbone cyclization
 - **Disulfide bonds**: Cysteine-cysteine linkages
 - **Hydrocarbon staples**: Conformational locking via hydrocarbon bridges
 - **Click chemistry**: Triazole formation for macrocyclization
 
 **Benefits of constraint**:
+
 - **Increased potency**: Pre-organized binding conformation
 - **Improved selectivity**: Reduced off-target interactions
 - **Enhanced stability**: Resistance to proteolysis

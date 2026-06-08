@@ -19,18 +19,22 @@ Understanding how to classify amino acids is fundamental to biochemistry. Multip
 The most common system divides amino acids into four groups based on side chain properties:
 
 **Nonpolar (Hydrophobic)**
+
 - Alanine (Ala), Valine (Val), Leucine (Leu), Isoleucine (Ile)
 - Proline (Pro), Phenylalanine (Phe), Tryptophan (Trp), Methionine (Met)
 - Glycine (Gly) is sometimes included here
 
 **Polar, Uncharged**
+
 - Serine (Ser), Threonine (Thr), Cysteine (Cys), Tyrosine (Tyr)
 - Asparagine (Asn), Glutamine (Gln)
 
 **Positively Charged (Basic)**
+
 - Lysine (Lys), Arginine (Arg), Histidine (His)
 
 **Negatively Charged (Acidic)**
+
 - Aspartic acid (Asp), Glutamic acid (Glu)
 
 ## Classification by Structure

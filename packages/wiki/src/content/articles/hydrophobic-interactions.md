@@ -4,7 +4,8 @@ description: "Learn how hydrophobic interactions drive protein folding through t
 status: "published"
 author: "Wikipept Community"
 pubDate: 2025-12-15
-tags: ["hydrophobic effect", "protein folding", "thermodynamics", "entropy", "nonpolar interactions"]
+tags:
+  ["hydrophobic effect", "protein folding", "thermodynamics", "entropy", "nonpolar interactions"]
 category: "Chemistry"
 difficulty: "intermediate"
 relatedArticles: ["hydrogen-bonding", "peptide-synthesis-methods", "collagen-peptides"]
@@ -29,6 +30,7 @@ The hydrophobic effect is entropy-driven at room temperature. The equation descr
 **Delta G = Delta H - T x Delta S**
 
 When nonpolar groups aggregate:
+
 - Delta H (enthalpy) remains approximately zero or slightly positive
 - Delta S (entropy) increases significantly as ordered water is released
 - The result is a negative Delta G, making the process spontaneous

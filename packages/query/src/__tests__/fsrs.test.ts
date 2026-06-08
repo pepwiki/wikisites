@@ -1,11 +1,5 @@
 import { describe, it, expect } from "vitest";
-import {
-  Rating,
-  createCard,
-  repeat,
-  isDue,
-  getDueCards,
-} from "../fsrs";
+import { Rating, createCard, repeat, isDue, getDueCards } from "../fsrs";
 
 // ---------------------------------------------------------------------------
 // createCard
@@ -234,7 +228,7 @@ describe("FSRS stability correctness", () => {
   });
 
   it("lapse produces finite stability after non-new card", () => {
-    let card = createCard("test-1");
+    const card = createCard("test-1");
     const r1 = repeat(card, Rating.Good, now);
     const t2 = new Date(now.getTime() + (r1.interval + 1) * 86400000);
     const r2 = repeat(r1.card, Rating.Good, t2);
@@ -257,7 +251,7 @@ describe("FSRS stability correctness", () => {
   });
 
   it("all four ratings produce valid states for non-new card", () => {
-    let card = createCard("test-stable");
+    const card = createCard("test-stable");
     const r1 = repeat(card, Rating.Good, now);
     const t2 = new Date(now.getTime() + (r1.interval + 1) * 86400000);
     for (const rating of [Rating.Again, Rating.Hard, Rating.Good, Rating.Easy]) {

@@ -41,6 +41,6 @@ Calcitonin gene-related peptide receptor antagonists (gepants) and monoclonal an
 
 ## References
 
-1. Amara, S.G., et al. (1982). Alternative RNA processing. *Science*, 218(4577), 1122-1124.
-2. Russell, F.A., et al. (2014). Calcitonin gene-related peptide. *Pharmacological Reviews*, 66(1), 1-29.
-3. Edvinsson, L., et al. (2018). Calcitonin gene-related peptide in migraine and cluster headache. *Neurology*, 91(11), 1009-1017.
+1. Amara, S.G., et al. (1982). Alternative RNA processing. _Science_, 218(4577), 1122-1124.
+2. Russell, F.A., et al. (2014). Calcitonin gene-related peptide. _Pharmacological Reviews_, 66(1), 1-29.
+3. Edvinsson, L., et al. (2018). Calcitonin gene-related peptide in migraine and cluster headache. _Neurology_, 91(11), 1009-1017.

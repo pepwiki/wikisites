@@ -4,7 +4,15 @@ description: "How organic solvents, ionic liquids, and deep eutectic solvents af
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07
-tags: ["peptide-bond", "organic-solvents", "ionic-liquids", "deep-eutectic-solvents", "non-aqueous-chemistry", "peptide-synthesis"]
+tags:
+  [
+    "peptide-bond",
+    "organic-solvents",
+    "ionic-liquids",
+    "deep-eutectic-solvents",
+    "non-aqueous-chemistry",
+    "peptide-synthesis",
+  ]
 category: "Chemistry"
 difficulty: "intermediate"
 relatedArticles: ["peptide-bond-extreme-environments", "peptide-bond-rotation-energy"]

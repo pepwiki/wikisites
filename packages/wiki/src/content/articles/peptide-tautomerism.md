@@ -19,6 +19,7 @@ Tautomerism involves the interconversion of structural isomers through proton mi
 The carbonyl group (C=O) in the peptide bond can tautomerize to an enol form (C-OH) with a double bond shift. This requires proton transfer from the alpha-carbon or adjacent position to oxygen. In peptides, the keto form dominates overwhelmingly because the amide resonance stabilizes the carbonyl significantly.
 
 The enol form becomes more relevant in:
+
 - Non-aqueous solvents that stabilize the enol
 - Metal coordination environments where oxygen deprotonation is favorable
 - Certain post-translational modifications that alter electronic structure
@@ -40,6 +41,7 @@ The Asn-Gly motif is particularly susceptible to tautomer-mediated asparagine de
 ## Practical Implications
 
 Understanding tautomeric preferences helps predict:
+
 - NMR chemical shift patterns for backbone assignments
 - Potential degradation pathways during storage
 - Binding site chemistry in peptide-receptor interactions

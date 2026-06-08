@@ -4,7 +4,15 @@ description: "An exploration of cell-penetrating peptides, polyplexes, endosomal
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07
-tags: ["gene-delivery", "cell-penetrating-peptides", "polyplexes", "endosomal-escape", "nuclear-targeting", "non-viral-vectors"]
+tags:
+  [
+    "gene-delivery",
+    "cell-penetrating-peptides",
+    "polyplexes",
+    "endosomal-escape",
+    "nuclear-targeting",
+    "non-viral-vectors",
+  ]
 category: "Pharmacology"
 difficulty: "advanced"
 relatedArticles: ["peptide-libraries-drug-discovery", "peptide-mimetics-neuroscience"]

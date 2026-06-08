@@ -4,7 +4,8 @@ description: "From primary sequence to quaternary assembly -- the four hierarchi
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07
-tags: ["protein-structure", "alpha-helix", "beta-sheet", "tertiary-structure", "quaternary-structure"]
+tags:
+  ["protein-structure", "alpha-helix", "beta-sheet", "tertiary-structure", "quaternary-structure"]
 category: "Fundamentals"
 difficulty: "beginner"
 relatedArticles: ["peptide-bonds", "amino-acid-classification"]
@@ -49,12 +50,12 @@ Example: **Hemoglobin** consists of four subunits (two alpha, two beta) that coo
 
 ## Structural Levels at a Glance
 
-| Level | Description | Stabilizing Forces | Example |
-|---|---|---|---|
-| **Primary** | Amino acid sequence | Peptide bonds | Insulin (51 residues) |
-| **Secondary** | Local folding patterns | H-bonds (backbone) | Keratin alpha-helix, silk fibroin beta-sheet |
-| **Tertiary** | Full 3D shape of one chain | H-bonds, hydrophobic, disulfide, ionic | Myoglobin, lysozyme |
-| **Quaternary** | Multi-subunit assembly | Same as tertiary (inter-subunit) | Hemoglobin (4 subunits), DNA polymerase |
+| Level          | Description                | Stabilizing Forces                     | Example                                      |
+| -------------- | -------------------------- | -------------------------------------- | -------------------------------------------- |
+| **Primary**    | Amino acid sequence        | Peptide bonds                          | Insulin (51 residues)                        |
+| **Secondary**  | Local folding patterns     | H-bonds (backbone)                     | Keratin alpha-helix, silk fibroin beta-sheet |
+| **Tertiary**   | Full 3D shape of one chain | H-bonds, hydrophobic, disulfide, ionic | Myoglobin, lysozyme                          |
+| **Quaternary** | Multi-subunit assembly     | Same as tertiary (inter-subunit)       | Hemoglobin (4 subunits), DNA polymerase      |
 
 ## Mnemonic
 

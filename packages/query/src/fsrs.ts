@@ -60,13 +60,22 @@ export interface ScheduleResult {
 // ---------------------------------------------------------------------------
 
 const PARAMS = {
-  requestRetention: 0.9,   // Target recall probability
-  maximumInterval: 36500,  // Maximum interval in days (~100 years)
+  requestRetention: 0.9, // Target recall probability
+  maximumInterval: 36500, // Maximum interval in days (~100 years)
   w: [
-    0.4072, 1.1829, 3.1262, 15.4722,   // w[0]-w[3]: Initial stability weights
-    7.2114, 0.4537, 0.9691, 0.0230,    // w[4]-w[7]: Difficulty weights
-    1.4372, 0.3616, 0.2276, 3.4295,    // w[8]-w[11]: Stability after review weights
-    1.0,                                // w[12]: Lapse difficulty exponent
+    0.4072,
+    1.1829,
+    3.1262,
+    15.4722, // w[0]-w[3]: Initial stability weights
+    7.2114,
+    0.4537,
+    0.9691,
+    0.023, // w[4]-w[7]: Difficulty weights
+    1.4372,
+    0.3616,
+    0.2276,
+    3.4295, // w[8]-w[11]: Stability after review weights
+    1.0, // w[12]: Lapse difficulty exponent
   ],
 } as const;
 
@@ -97,13 +106,11 @@ function nextDifficulty(difficulty: number, rating: Rating): number {
  * Calculate stability after a successful review (no lapse).
  * S' = S * (1 + e^(w11) * (11 - D) * S^(-w12) * (e^(w10 * (1-r)) - 1))
  */
-function nextStabilityAfterSuccess(
-  stability: number,
-  difficulty: number,
-  rating: Rating,
-): number {
+function nextStabilityAfterSuccess(stability: number, difficulty: number, rating: Rating): number {
   const r = rating - 3; // -2 to +1
-  const delta = Math.exp(PARAMS.w[11]) * (11 - difficulty) *
+  const delta =
+    Math.exp(PARAMS.w[11]) *
+    (11 - difficulty) *
     Math.pow(stability, -PARAMS.w[12]) *
     (Math.exp(PARAMS.w[10] * (1 - r)) - 1);
   return stability * (1 + delta);
@@ -113,11 +120,10 @@ function nextStabilityAfterSuccess(
  * Calculate stability after a lapse (forgot).
  * S' = w11 * D^(-w12) * (e^(w10) - 1) * S^(w9)
  */
-function nextStabilityAfterLapse(
-  stability: number,
-  difficulty: number,
-): number {
-  const newS = PARAMS.w[11] * Math.pow(difficulty, -PARAMS.w[12]) *
+function nextStabilityAfterLapse(stability: number, difficulty: number): number {
+  const newS =
+    PARAMS.w[11] *
+    Math.pow(difficulty, -PARAMS.w[12]) *
     (Math.exp(PARAMS.w[10]) - 1) *
     Math.pow(stability, PARAMS.w[9]);
   return Math.max(0.1, newS);
@@ -165,11 +171,7 @@ export function createCard(id: string): CardState {
  * @param now - Current timestamp (for deterministic testing)
  * @returns ScheduleResult with updated card and next due date
  */
-export function repeat(
-  card: CardState,
-  rating: Rating,
-  now: Date = new Date(),
-): ScheduleResult {
+export function repeat(card: CardState, rating: Rating, now: Date = new Date()): ScheduleResult {
   const isNew = card.repetitions === 0;
   const isLapse = rating === Rating.Again;
 
@@ -187,11 +189,7 @@ export function repeat(
   } else {
     // Successful review
     newDifficulty = nextDifficulty(card.difficulty, rating);
-    newStability = nextStabilityAfterSuccess(
-      card.stability,
-      card.difficulty,
-      rating,
-    );
+    newStability = nextStabilityAfterSuccess(card.stability, card.difficulty, rating);
   }
 
   const interval = nextInterval(newStability);
@@ -202,9 +200,9 @@ export function repeat(
     ...card,
     difficulty: newDifficulty,
     stability: newStability,
-    elapsedDays: isNew ? 0 : Math.max(0, Math.round(
-      (now.getTime() - new Date(card.lastReview).getTime()) / 86400000,
-    )),
+    elapsedDays: isNew
+      ? 0
+      : Math.max(0, Math.round((now.getTime() - new Date(card.lastReview).getTime()) / 86400000)),
     scheduledDays: interval,
     repetitions: isLapse ? 0 : card.repetitions + 1,
     lapses: isLapse ? card.lapses + 1 : card.lapses,
@@ -236,10 +234,12 @@ export function getDueCards(
   cards: ReadonlyArray<CardState>,
   now: Date = new Date(),
 ): Array<CardState> {
-  return cards.filter((card) => isDue(card, now)).sort((a, b) => {
-    // Prioritize: new cards first, then by last review (oldest first)
-    if (a.repetitions === 0 && b.repetitions > 0) return -1;
-    if (a.repetitions > 0 && b.repetitions === 0) return 1;
-    return new Date(a.lastReview).getTime() - new Date(b.lastReview).getTime();
-  });
+  return cards
+    .filter((card) => isDue(card, now))
+    .sort((a, b) => {
+      // Prioritize: new cards first, then by last review (oldest first)
+      if (a.repetitions === 0 && b.repetitions > 0) return -1;
+      if (a.repetitions > 0 && b.repetitions === 0) return 1;
+      return new Date(a.lastReview).getTime() - new Date(b.lastReview).getTime();
+    });
 }

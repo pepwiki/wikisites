@@ -22,14 +22,14 @@ Forced degradation (stress testing) deliberately exposes the peptide to conditio
 
 ### Typical Stress Conditions
 
-| Condition | Purpose | Typical Parameters |
-|-----------|---------|-------------------|
-| Acid hydrolysis | Asp-Pro cleavage, general hydrolysis | 0.1-1M HCl, 25-80 degrees Celsius, 1-7 days |
-| Base hydrolysis | Peptide bond cleavage, beta-elimination | 0.1M NaOH, 25-40 degrees Celsius, 1-7 days |
-| Oxidation | Met, Cys, Trp oxidation | 0.3% H2O2, 25 degrees Celsius, 1-24 hours |
-| Thermal | General degradation pathways | 40-60 degrees Celsius, 1-4 weeks |
-| Photolytic | Light-induced degradation | ICH Q1B guideline, UV and visible light |
-| Humidity | Moisture-induced degradation | 25-40 degrees Celsius, 75% RH |
+| Condition       | Purpose                                 | Typical Parameters                          |
+| --------------- | --------------------------------------- | ------------------------------------------- |
+| Acid hydrolysis | Asp-Pro cleavage, general hydrolysis    | 0.1-1M HCl, 25-80 degrees Celsius, 1-7 days |
+| Base hydrolysis | Peptide bond cleavage, beta-elimination | 0.1M NaOH, 25-40 degrees Celsius, 1-7 days  |
+| Oxidation       | Met, Cys, Trp oxidation                 | 0.3% H2O2, 25 degrees Celsius, 1-24 hours   |
+| Thermal         | General degradation pathways            | 40-60 degrees Celsius, 1-4 weeks            |
+| Photolytic      | Light-induced degradation               | ICH Q1B guideline, UV and visible light     |
+| Humidity        | Moisture-induced degradation            | 25-40 degrees Celsius, 75% RH               |
 
 **Mnemonic for stress conditions:** "HOOT-P" -- Heat, Oxidation, base (OH-), acid, Temperature, Photolysis. These are the major stress vectors.
 

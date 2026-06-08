@@ -4,7 +4,15 @@ description: "An overview of neuropeptide mimetics, strategies for CNS penetrati
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07
-tags: ["peptide-mimetics", "neuroscience", "CNS-penetration", "receptor-selectivity", "neuropeptides", "drug-design"]
+tags:
+  [
+    "peptide-mimetics",
+    "neuroscience",
+    "CNS-penetration",
+    "receptor-selectivity",
+    "neuropeptides",
+    "drug-design",
+  ]
 category: "Pharmacology"
 difficulty: "advanced"
 relatedArticles: ["peptide-libraries-drug-discovery", "peptide-gene-delivery"]

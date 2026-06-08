@@ -17,13 +17,13 @@ citation:
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Chemical Formula | C28H37N5O7 |
-| Molecular Weight | 555.62 g/mol |
-| CAS Number | 58822-25-6 |
-| IUPAC Name | Tyr-Gly-Gly-Phe-Leu |
-| Peptide Class | Pentapeptide |
+| Property               | Value               |
+| ---------------------- | ------------------- |
+| Chemical Formula       | C28H37N5O7          |
+| Molecular Weight       | 555.62 g/mol        |
+| CAS Number             | 58822-25-6          |
+| IUPAC Name             | Tyr-Gly-Gly-Phe-Leu |
+| Peptide Class          | Pentapeptide        |
 | Amino Acid Composition | Tyr-Gly-Gly-Phe-Leu |
 
 ## Structure

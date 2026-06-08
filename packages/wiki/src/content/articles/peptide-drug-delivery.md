@@ -4,7 +4,8 @@ description: "Explore oral, nasal, transdermal, nanoparticle, and depot injectio
 status: "published"
 author: "Wikipept Community"
 pubDate: 2025-12-15
-tags: ["drug delivery", "peptide therapeutics", "bioavailability", "nanoparticles", "depot injection"]
+tags:
+  ["drug delivery", "peptide therapeutics", "bioavailability", "nanoparticles", "depot injection"]
 category: "Pharmacology"
 difficulty: "advanced"
 relatedArticles: ["peptide-synthesis-methods", "neuropeptide-signaling", "collagen-peptides"]
@@ -23,12 +24,14 @@ Over 80 peptide drugs are currently approved, yet most require injection. Develo
 Oral delivery is the most desired route but the most challenging for peptides.
 
 **Barriers:**
+
 - Gastric acid (pH 1 to 3) denatures peptides
 - Pepsin, trypsin, and chymotrypsin in the GI tract degrade peptide bonds
 - The intestinal epithelium presents a physical barrier to large, polar molecules
 - First-pass hepatic metabolism further reduces bioavailability
 
 **Strategies:**
+
 - **Permeation enhancers:** Compounds like sodium caprate (C10) transiently open tight junctions between epithelial cells
 - **Enzyme inhibitors:** Co-administration of protease inhibitors (such as puromycin or soybean trypsin inhibitor) reduces degradation
 - **Carrier systems:** Nanoparticles and liposomes protect peptides during transit and facilitate uptake
@@ -51,6 +54,7 @@ The nasal mucosa provides a more permeable route with rich vasculature and avoid
 The skin offers a large surface area with predictable absorption kinetics, but the stratum corneum presents a formidable barrier.
 
 **Strategies:**
+
 - **Microneedle arrays:** Tiny needles (50 to 900 micrometers) create transient pores in the stratum corneum without reaching nerve endings
 - **Iontophoresis:** Electrical current drives charged peptides across the skin
 - **Chemical enhancers:** Compounds like oleic acid and ethanol disrupt lipid packing in the stratum corneum
@@ -60,6 +64,7 @@ The skin offers a large surface area with predictable absorption kinetics, but t
 Nanoparticles encapsulate peptides, protecting them from degradation and enhancing absorption.
 
 **Types:**
+
 - **Polymeric nanoparticles:** PLGA (poly lactic-co-glycolic acid) provides sustained release over days to weeks
 - **Liposomes:** Phospholipid bilayers that fuse with cell membranes, releasing peptide cargo intracellularly
 - **Solid lipid nanoparticles:** Lipid matrices that improve stability and permeation
@@ -71,6 +76,7 @@ Nanoparticles encapsulate peptides, protecting them from degradation and enhanci
 Depot formulations provide sustained release from a single injection, improving patient compliance.
 
 **Mechanisms:**
+
 - **Microspheres:** PLGA-encapsulated peptides form a depot that releases drug as the polymer degrades (weeks to months)
 - **Hydrogels:** Injectable gels that form in situ, releasing peptide by diffusion
 - **Implants:** Solid rods or pellets placed subcutaneously for months of release
@@ -79,12 +85,12 @@ Depot formulations provide sustained release from a single injection, improving 
 
 ## Comparative Overview
 
-| Route | Bioavailability | Patient Acceptance | Duration |
-|-------|----------------|-------------------|----------|
-| Oral | 1 to 5 percent | High | Acute |
-| Nasal | 5 to 20 percent | Moderate | Acute |
-| Transdermal | 10 to 30 percent | High | Sustained |
-| Injectable depot | 80 to 100 percent | Moderate | Weeks to months |
+| Route            | Bioavailability   | Patient Acceptance | Duration        |
+| ---------------- | ----------------- | ------------------ | --------------- |
+| Oral             | 1 to 5 percent    | High               | Acute           |
+| Nasal            | 5 to 20 percent   | Moderate           | Acute           |
+| Transdermal      | 10 to 30 percent  | High               | Sustained       |
+| Injectable depot | 80 to 100 percent | Moderate           | Weeks to months |
 
 ## Key Takeaways
 

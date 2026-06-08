@@ -19,14 +19,14 @@ citation:
 
 Oxytocin is a cyclic nonapeptide primarily synthesized in the hypothalamus and released from the posterior pituitary gland. It belongs to the nonapeptide family alongside vasopressin, differing by only two amino acid residues.
 
-| Property | Value |
-|---|---|
-| **Chemical Formula** | C₄₃H₆₆N₁₂O₁₂S₂ |
-| **Molecular Weight** | 1007.19 g/mol |
-| **CAS Number** | 50-56-6 |
-| **Isoelectric Point (pI)** | 11.2 |
-| **Amino Acid Count** | 9 |
-| **Disulfide Bridge** | Cys1–Cys6 |
+| Property                   | Value          |
+| -------------------------- | -------------- |
+| **Chemical Formula**       | C₄₃H₆₆N₁₂O₁₂S₂ |
+| **Molecular Weight**       | 1007.19 g/mol  |
+| **CAS Number**             | 50-56-6        |
+| **Isoelectric Point (pI)** | 11.2           |
+| **Amino Acid Count**       | 9              |
+| **Disulfide Bridge**       | Cys1–Cys6      |
 
 ## Primary Structure
 
@@ -60,5 +60,5 @@ Synthetic oxytocin (Syntocinon) is used clinically to induce or augment labor an
 
 ## References
 
-- Gutkowska, J., & Jankowski, M. (2024). Oxytocin and social behavior. *Peptides*, 172, 170064.
-- Donaldson, Z. H., & Young, L. J. (2008). Oxytocin, vasopressin, and the neurogenetics of sociality. *Science*, 322, 900–904.
+- Gutkowska, J., & Jankowski, M. (2024). Oxytocin and social behavior. _Peptides_, 172, 170064.
+- Donaldson, Z. H., & Young, L. J. (2008). Oxytocin, vasopressin, and the neurogenetics of sociality. _Science_, 322, 900–904.

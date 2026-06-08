@@ -4,7 +4,15 @@ description: "Understanding how enzymes catalyze peptide bond formation and hydr
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07
-tags: ["peptide-bond", "enzyme-catalysis", "transition-state", "catalytic-triad", "proteases", "proton-transfer"]
+tags:
+  [
+    "peptide-bond",
+    "enzyme-catalysis",
+    "transition-state",
+    "catalytic-triad",
+    "proteases",
+    "proton-transfer",
+  ]
 category: "Chemistry"
 difficulty: "advanced"
 relatedArticles: ["peptide-bond-geometry-analysis", "peptide-bond-rotation-energy"]

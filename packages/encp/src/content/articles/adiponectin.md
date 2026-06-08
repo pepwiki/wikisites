@@ -39,6 +39,6 @@ Adiponectin suppresses TNF-alpha and IL-6 production while stimulating anti-infl
 
 ## References
 
-1. Scherer PE, Williams S, Fogliano M, et al. A novel serum protein similar to C1q, produced exclusively in adipocytes. *Journal of Biological Chemistry*. 1995;270:26746-26749.
-2. Kadowaki T, Yamauchi T. Adiponectin and adiponectin receptors. *Endocrine Reviews*. 2005;26:439-451.
-3. Turer AT, Scherer PE. Adiponectin: mechanistic insights and clinical implications. *Diabetologia*. 2012;55:2319-2326.
+1. Scherer PE, Williams S, Fogliano M, et al. A novel serum protein similar to C1q, produced exclusively in adipocytes. _Journal of Biological Chemistry_. 1995;270:26746-26749.
+2. Kadowaki T, Yamauchi T. Adiponectin and adiponectin receptors. _Endocrine Reviews_. 2005;26:439-451.
+3. Turer AT, Scherer PE. Adiponectin: mechanistic insights and clinical implications. _Diabetologia_. 2012;55:2319-2326.

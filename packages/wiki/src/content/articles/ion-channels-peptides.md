@@ -4,7 +4,14 @@ description: "Explore voltage-gated and ligand-gated ion channels, how peptide t
 status: "published"
 author: "Wikipept Community"
 pubDate: 2025-12-15
-tags: ["ion channels", "voltage-gated channels", "ligand-gated channels", "peptide toxins", "neuropharmacology"]
+tags:
+  [
+    "ion channels",
+    "voltage-gated channels",
+    "ligand-gated channels",
+    "peptide toxins",
+    "neuropharmacology",
+  ]
 category: "Pharmacology"
 difficulty: "advanced"
 relatedArticles: ["neuropeptide-signaling", "peptide-drug-delivery", "mass-spectrometry-peptides"]

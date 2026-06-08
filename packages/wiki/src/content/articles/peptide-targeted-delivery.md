@@ -33,6 +33,7 @@ Folate receptors are overexpressed on ovarian, breast, lung, and colon cancers. 
 ## Tumor Microenvironment Considerations
 
 Effective targeting must account for the tumor microenvironment:
+
 - Enhanced permeability and retention (EPR) effect provides passive accumulation
 - Acidic pH in tumors can be exploited with pH-sensitive targeting peptides
 - Protease-rich environments require stabilized peptide constructs
@@ -40,6 +41,7 @@ Effective targeting must account for the tumor microenvironment:
 ## Design Considerations
 
 When designing peptide-targeted delivery systems, evaluate:
+
 - Peptide stability in circulation
 - Binding affinity and selectivity for the target receptor
 - Linker chemistry that preserves both targeting and drug function

@@ -159,7 +159,7 @@ export function recordReview(
 /**
  * Get review statistics for a deck.
  */
-export function getDeckStats(site: SiteKey, deckId: DeckId, now: Date = new Date()): ReviewStats {
+export function getDeckStats(site: SiteKey, deckId: DeckId, _now: Date = new Date()): ReviewStats {
   const cards = loadCards(site, deckId);
   const reviewed = cards.filter((c) => c.repetitions > 0);
   const totalReviews = reviewed.reduce((sum, c) => sum + c.repetitions, 0);

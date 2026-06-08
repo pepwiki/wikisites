@@ -24,45 +24,45 @@ The easiest way to remember the nine essential amino acids is:
 
 **"PVT TIM HALL"**
 
-| Letter | Amino Acid |
-|---|---|
-| **P** | **P**henylalanine |
-| **V** | **V**aline |
-| **T** | **T**hreonine |
-| **T** | **T**ryptophan |
-| **I** | **I**soleucine |
-| **M** | **M**ethionine |
-| **H** | **H**istidine |
-| **A** | **A**rginine* |
-| **L** | **L**eucine |
-| **L** | **L**ysine |
+| Letter | Amino Acid        |
+| ------ | ----------------- |
+| **P**  | **P**henylalanine |
+| **V**  | **V**aline        |
+| **T**  | **T**hreonine     |
+| **T**  | **T**ryptophan    |
+| **I**  | **I**soleucine    |
+| **M**  | **M**ethionine    |
+| **H**  | **H**istidine     |
+| **A**  | **A**rginine\*    |
+| **L**  | **L**eucine       |
+| **L**  | **L**ysine        |
 
-*Arginine is conditionally essential (essential in childhood and during recovery from trauma).
+\*Arginine is conditionally essential (essential in childhood and during recovery from trauma).
 
 ## Complete Amino Acid Table
 
-| Amino Acid | Classification | Dietary Sources |
-|---|---|---|
-| **Alanine** | Non-essential | Poultry, dairy, corn |
-| **Arginine** | Conditional | Nuts, seeds, soy, meat |
-| **Asparagine** | Non-essential | Poultry, eggs, dairy |
-| **Aspartate** | Non-essential | Meat, dairy, legumes |
-| **Cysteine** | Conditional | Poultry, yogurt, garlic |
-| **Glutamate** | Non-essential | Tomatoes, parmesan, soy sauce |
-| **Glutamine** | Conditional | Beef, chicken, fish, eggs |
-| **Glycine** | Conditional | Bone broth, meat, gelatin |
-| **Histidine** | Essential | Meat, fish, soy, legumes |
-| **Isoleucine** | Essential | Eggs, soy protein, seaweed |
-| **Leucine** | Essential | Meat, fish, dairy, soy |
-| **Lysine** | Essential | Red meat, legumes, dairy |
-| **Methionine** | Essential | Fish, meat, eggs, sesame seeds |
-| **Phenylalanine** | Essential | Meat, fish, dairy, nuts |
-| **Proline** | Conditional | Meat, dairy, collagen |
-| **Serine** | Conditional | Soy, nuts, meat, dairy |
-| **Threonine** | Essential | Cottage cheese, wheat germ |
-| **Tryptophan** | Essential | Turkey, cheese, nuts |
-| **Tyrosine** | Conditional | Meat, fish, dairy, almonds |
-| **Valine** | Essential | Soy, mushrooms, grains |
+| Amino Acid        | Classification | Dietary Sources                |
+| ----------------- | -------------- | ------------------------------ |
+| **Alanine**       | Non-essential  | Poultry, dairy, corn           |
+| **Arginine**      | Conditional    | Nuts, seeds, soy, meat         |
+| **Asparagine**    | Non-essential  | Poultry, eggs, dairy           |
+| **Aspartate**     | Non-essential  | Meat, dairy, legumes           |
+| **Cysteine**      | Conditional    | Poultry, yogurt, garlic        |
+| **Glutamate**     | Non-essential  | Tomatoes, parmesan, soy sauce  |
+| **Glutamine**     | Conditional    | Beef, chicken, fish, eggs      |
+| **Glycine**       | Conditional    | Bone broth, meat, gelatin      |
+| **Histidine**     | Essential      | Meat, fish, soy, legumes       |
+| **Isoleucine**    | Essential      | Eggs, soy protein, seaweed     |
+| **Leucine**       | Essential      | Meat, fish, dairy, soy         |
+| **Lysine**        | Essential      | Red meat, legumes, dairy       |
+| **Methionine**    | Essential      | Fish, meat, eggs, sesame seeds |
+| **Phenylalanine** | Essential      | Meat, fish, dairy, nuts        |
+| **Proline**       | Conditional    | Meat, dairy, collagen          |
+| **Serine**        | Conditional    | Soy, nuts, meat, dairy         |
+| **Threonine**     | Essential      | Cottage cheese, wheat germ     |
+| **Tryptophan**    | Essential      | Turkey, cheese, nuts           |
+| **Tyrosine**      | Conditional    | Meat, fish, dairy, almonds     |
+| **Valine**        | Essential      | Soy, mushrooms, grains         |
 
 ## Dietary Sources for Each Essential Amino Acid
 

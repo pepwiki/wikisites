@@ -44,13 +44,13 @@ A high GSH:GSSG ratio keeps cytoplasmic cysteines reduced. In the ER, where disu
 
 ## Proteins Stabilized by Disulfide Bonds
 
-| Protein             | Number of S-S Bonds | Function                        |
-|---------------------|---------------------|----------------------------------|
-| Insulin             | 3                   | Hormone (A and B chains linked) |
-| Ribonuclease A      | 4                   | Enzyme (RNA degradation)         |
-| Immunoglobulin G    | ~12                 | Antibody (heavy-light linking)   |
-| Lysozyme            | 4                   | Antimicrobial enzyme            |
-| Conotoxins          | 2-3                 | Venom peptides (very stable)    |
+| Protein          | Number of S-S Bonds | Function                        |
+| ---------------- | ------------------- | ------------------------------- |
+| Insulin          | 3                   | Hormone (A and B chains linked) |
+| Ribonuclease A   | 4                   | Enzyme (RNA degradation)        |
+| Immunoglobulin G | ~12                 | Antibody (heavy-light linking)  |
+| Lysozyme         | 4                   | Antimicrobial enzyme            |
+| Conotoxins       | 2-3                 | Venom peptides (very stable)    |
 
 ## Learning Tip
 

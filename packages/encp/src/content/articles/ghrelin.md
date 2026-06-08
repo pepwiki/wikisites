@@ -43,6 +43,6 @@ Ghrelin dysregulation has been implicated in Prader-Willi syndrome, anorexia ner
 
 ## References
 
-1. Kojima M, Hosoda H, Date Y, et al. Ghrelin is a growth-hormone-releasing acylated peptide from stomach. *Nature*. 1999;402:656-660.
-2. Kojima M, Kangawa K. Ghrelin: structure and function. *Physiological Reviews*. 2005;85:495-522.
-3. Muller TD, Nogueiras R, Andermann ML, et al. Ghrelin. *Molecular Metabolism*. 2015;4:437-460.
+1. Kojima M, Hosoda H, Date Y, et al. Ghrelin is a growth-hormone-releasing acylated peptide from stomach. _Nature_. 1999;402:656-660.
+2. Kojima M, Kangawa K. Ghrelin: structure and function. _Physiological Reviews_. 2005;85:495-522.
+3. Muller TD, Nogueiras R, Andermann ML, et al. Ghrelin. _Molecular Metabolism_. 2015;4:437-460.

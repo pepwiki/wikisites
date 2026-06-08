@@ -4,7 +4,14 @@ description: "Biomaterial functionalization with adhesive peptides enhances cell
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-02-10
-tags: ["biomaterials", "surface-modification", "cell-adhesion", "implant-coatings", "tissue-engineering"]
+tags:
+  [
+    "biomaterials",
+    "surface-modification",
+    "cell-adhesion",
+    "implant-coatings",
+    "tissue-engineering",
+  ]
 category: "Materials Science"
 difficulty: "intermediate"
 relatedArticles: ["peptide-modified-liposomes", "peptide-hydrogels-wound"]

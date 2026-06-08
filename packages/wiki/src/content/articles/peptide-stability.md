@@ -77,13 +77,13 @@ Optimal storage conditions vary by peptide but follow general principles:
 
 ## Stability by Residue
 
-| Residue | Primary Degradation | Prevention Strategy |
-|---------|---------------------|---------------------|
-| Met | Oxidation | Inert atmosphere, antioxidants |
-| Asn | Deamidation | Low temperature, acidic pH |
-| Cys | Disulfide formation, oxidation | Inert atmosphere, blocking agents |
-| Trp | Oxidation | Amber storage, antioxidants |
-| Asp-Pro | Hydrolysis | Avoid acidic conditions |
+| Residue | Primary Degradation            | Prevention Strategy               |
+| ------- | ------------------------------ | --------------------------------- |
+| Met     | Oxidation                      | Inert atmosphere, antioxidants    |
+| Asn     | Deamidation                    | Low temperature, acidic pH        |
+| Cys     | Disulfide formation, oxidation | Inert atmosphere, blocking agents |
+| Trp     | Oxidation                      | Amber storage, antioxidants       |
+| Asp-Pro | Hydrolysis                     | Avoid acidic conditions           |
 
 ## Mnemonic: DOGMA
 

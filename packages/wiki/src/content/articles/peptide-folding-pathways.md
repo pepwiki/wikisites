@@ -27,6 +27,7 @@ The steepness of the funnel walls indicates folding cooperativity. Narrow, steep
 ## Molten Globule State
 
 The molten globule is a compact intermediate that forms early in folding. Key characteristics include:
+
 - Secondary structure is largely formed (alpha-helices, beta-strands)
 - Tertiary contacts are not yet established
 - The hydrophobic core is loosely packed
@@ -37,6 +38,7 @@ This state is experimentally observable by circular dichroism (maintains seconda
 ## Folding Intermediates
 
 Between the unfolded and native states, peptides may populate:
+
 - **Molten globule:** Compact with secondary structure but no fixed tertiary contacts
 - **Partially folded states:** Specific regions fold while others remain flexible
 - **Misfolded intermediates:** Kinetic traps that can lead to aggregation
@@ -44,6 +46,7 @@ Between the unfolded and native states, peptides may populate:
 ## Driving Forces
 
 The major forces driving folding include:
+
 - Hydrophobic effect (primary driving force)
 - Hydrogen bond formation
 - Van der Waals contacts in the packed core

@@ -19,7 +19,7 @@ citation:
 
 ## Discovery and Origin
 
-Bombesin was first isolated in 1970 from the skin of the European fire-bellied toad, *Bombina bombina*, by Viktor Erspamer and colleagues. The peptide was named after the genus *Bombina* and rapidly attracted interest due to its potent effects on gastrointestinal secretion. Although originally identified in amphibian tissue, bombesin-like peptides are widely distributed throughout the mammalian nervous system and gastrointestinal tract, where they function as neurotransmitters and paracrine regulators.
+Bombesin was first isolated in 1970 from the skin of the European fire-bellied toad, _Bombina bombina_, by Viktor Erspamer and colleagues. The peptide was named after the genus _Bombina_ and rapidly attracted interest due to its potent effects on gastrointestinal secretion. Although originally identified in amphibian tissue, bombesin-like peptides are widely distributed throughout the mammalian nervous system and gastrointestinal tract, where they function as neurotransmitters and paracrine regulators.
 
 ## Amino Acid Sequence and Structure
 
@@ -39,6 +39,6 @@ Bombesin analogs conjugated to radionuclides have been explored as diagnostic im
 
 ## References
 
-1. Erspamer V, Melchiorri P, Broccardo M, et al. A bombesin-like octapeptide in anuran amphibian skin. *Peptides*. 1985;6:373-380.
-2. Jensen RT, Battey JF, Spindel ER, Benya RV. International Union of Pharmacology. LXVI. The bombesin receptor family. *Pharmacological Reviews*. 2008;60:1-42.
-3. Schroeder RP, Muller C, Bruneman TC, et al. Bombesin receptor antagonists in oncology. *Current Opinion in Pharmacology*. 2014;14:72-79.
+1. Erspamer V, Melchiorri P, Broccardo M, et al. A bombesin-like octapeptide in anuran amphibian skin. _Peptides_. 1985;6:373-380.
+2. Jensen RT, Battey JF, Spindel ER, Benya RV. International Union of Pharmacology. LXVI. The bombesin receptor family. _Pharmacological Reviews_. 2008;60:1-42.
+3. Schroeder RP, Muller C, Bruneman TC, et al. Bombesin receptor antagonists in oncology. _Current Opinion in Pharmacology_. 2014;14:72-79.

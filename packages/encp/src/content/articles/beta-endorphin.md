@@ -41,6 +41,6 @@ Altered beta-endorphin signaling has been implicated in depression, addiction, a
 
 ## References
 
-1. Li, C.H. (1981). Beta-endorphin: a review. *International Journal of Peptide and Protein Research*, 17(3), 281-294.
-2. Zadina, J.E., et al. (2003). Endomorphins and mu opioid receptors. *Brain Research Reviews*, 43(2), 145-166.
-3. Molinoff, P.B., & Bhatt, D.L. (2006). Opioid peptides: biology and pharmacology. *Cold Spring Harbor Perspectives in Medicine*, 6(11), a025065.
+1. Li, C.H. (1981). Beta-endorphin: a review. _International Journal of Peptide and Protein Research_, 17(3), 281-294.
+2. Zadina, J.E., et al. (2003). Endomorphins and mu opioid receptors. _Brain Research Reviews_, 43(2), 145-166.
+3. Molinoff, P.B., & Bhatt, D.L. (2006). Opioid peptides: biology and pharmacology. _Cold Spring Harbor Perspectives in Medicine_, 6(11), a025065.

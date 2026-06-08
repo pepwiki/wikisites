@@ -1,0 +1,58 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const slugTitles: Record<string, string> = {
+  "amino-acids": "20 Standard Amino Acids",
+  "peptide-bonds": "Peptide Bond Chemistry",
+  structure: "Protein Structure Levels",
+  signaling: "Peptide Signaling",
+  receptors: "Receptor Binding",
+  pharmacology: "Therapeutic Peptides",
+  spps: "Solid-Phase Synthesis",
+  purification: "Purification Methods",
+  computational: "Computational Design",
+  "drug-delivery": "Drug Delivery Systems",
+  "clinical-trials": "Clinical Trial Design",
+  regulatory: "Regulatory Pathways",
+};
+
+export async function getStaticPaths() {
+  return Object.entries(slugTitles).map(([slug, title]) => ({
+    params: { slug },
+    props: { title },
+  }));
+}
+
+const { slug } = Astro.params;
+const { title } = Astro.props;
+---
+
+<BaseLayout title={title} description={`Coming soon: ${title}`}>
+  <nav class="mb-8">
+    <a
+      href="/learn"
+      class="text-sm font-medium text-[#0D9488] hover:underline focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 rounded"
+    >
+      &larr; Back to Learning Paths
+    </a>
+  </nav>
+
+  <div class="spatial-card p-12 text-center max-w-2xl mx-auto">
+    <div
+      class="w-16 h-16 bg-[#0D9488]/10 rounded-2xl flex items-center justify-center mx-auto mb-6"
+    >
+      <span class="text-3xl font-extrabold text-[#0D9488]">+</span>
+    </div>
+    <h1 class="text-3xl font-extrabold text-slate-900 mb-4">{title}</h1>
+    <p class="text-slate-500 mb-8 leading-relaxed">
+      This lesson is currently being written. Check back soon for comprehensive content on {
+        title.toLowerCase()
+      }.
+    </p>
+    <div
+      class="inline-flex items-center gap-2 text-xs font-bold bg-slate-100 text-slate-500 px-4 py-2 rounded-full uppercase tracking-wide"
+    >
+      Coming Soon
+    </div>
+  </div>
+</BaseLayout>

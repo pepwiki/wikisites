@@ -47,14 +47,14 @@ Unlike conventional antibiotics, AMPs target the physical structure of the lipid
 
 ## Summary of AMPs
 
-| AMP | Source | Organism | Key Feature |
-|-----|--------|----------|-------------|
-| Human beta-defensin 1 | Epithelium | Human | Constitutive expression |
-| Alpha-defensin (HNP1-4) | Neutrophils | Human | Stored in granules |
-| LL-37 | Neutrophils, epithelium | Human | Only human cathelicidin |
-| Magainin 2 | Skin | Frog | Broad-spectrum, non-hemolytic |
-| Cecropin | Fat body | Insect | First AMP discovered |
-| Nisin | Lactococcus lactis | Bacterium | Lantibiotic, used in food preservation |
+| AMP                     | Source                  | Organism  | Key Feature                            |
+| ----------------------- | ----------------------- | --------- | -------------------------------------- |
+| Human beta-defensin 1   | Epithelium              | Human     | Constitutive expression                |
+| Alpha-defensin (HNP1-4) | Neutrophils             | Human     | Stored in granules                     |
+| LL-37                   | Neutrophils, epithelium | Human     | Only human cathelicidin                |
+| Magainin 2              | Skin                    | Frog      | Broad-spectrum, non-hemolytic          |
+| Cecropin                | Fat body                | Insect    | First AMP discovered                   |
+| Nisin                   | Lactococcus lactis      | Bacterium | Lantibiotic, used in food preservation |
 
 ## Learning Tip
 

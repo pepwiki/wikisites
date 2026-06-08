@@ -19,7 +19,7 @@ citation:
 
 ## Discovery and Gene Identification
 
-Leptin was identified in 1994 by Jeffrey Friedman and colleagues through positional cloning of the *ob* gene in mice. The obese (*ob/ob*) and diabetes (*db/db*) mouse strains, first described in 1950, carry homozygous mutations in the leptin gene and leptin receptor gene, respectively. Leptin deficiency in *ob/ob* mice produces hyperphagia, morbid obesity, insulin resistance, and infertility, all of which are reversed by exogenous leptin administration. This discovery established adipose tissue as an endocrine organ communicating nutritional status to the central nervous system.
+Leptin was identified in 1994 by Jeffrey Friedman and colleagues through positional cloning of the _ob_ gene in mice. The obese (_ob/ob_) and diabetes (_db/db_) mouse strains, first described in 1950, carry homozygous mutations in the leptin gene and leptin receptor gene, respectively. Leptin deficiency in _ob/ob_ mice produces hyperphagia, morbid obesity, insulin resistance, and infertility, all of which are reversed by exogenous leptin administration. This discovery established adipose tissue as an endocrine organ communicating nutritional status to the central nervous system.
 
 ## Structure and Receptor Signaling
 
@@ -39,6 +39,6 @@ Most obese humans exhibit elevated circulating leptin levels, indicating a state
 
 ## References
 
-1. Zhang Y, Proenca R, Maffei M, et al. Positional cloning of the mouse obese gene and its human homologue. *Nature*. 1994;372:425-432.
-2. Friedman JM, Halaas JL. Leptin and the regulation of body weight in mammals. *Nature*. 1998;395:763-770.
-3. Myers MG, Leibel RL, Seeley RJ, Schwartz MW. Obesity and leptin resistance: distinguishing cause from effect. *Trends in Endocrinology and Metabolism*. 2010;21:643-651.
+1. Zhang Y, Proenca R, Maffei M, et al. Positional cloning of the mouse obese gene and its human homologue. _Nature_. 1994;372:425-432.
+2. Friedman JM, Halaas JL. Leptin and the regulation of body weight in mammals. _Nature_. 1998;395:763-770.
+3. Myers MG, Leibel RL, Seeley RJ, Schwartz MW. Obesity and leptin resistance: distinguishing cause from effect. _Trends in Endocrinology and Metabolism_. 2010;21:643-651.

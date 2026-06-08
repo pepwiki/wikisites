@@ -21,6 +21,7 @@ Binding affinity (Kd) is the most commonly reported parameter for peptide-recept
 kon describes how quickly a peptide binds its receptor, measured in M-1 s-1. Typical values range from 10^5 to 10^8 M-1 s-1. Association rates are often diffusion-limited, meaning they reflect how fast the peptide encounters and recognizes the binding site.
 
 Factors affecting kon:
+
 - Peptide diffusion coefficient
 - Electrostatic complementarity at the binding interface
 - Conformational flexibility of both peptide and receptor
@@ -34,6 +35,7 @@ koff describes how quickly the peptide-receptor complex dissociates, measured in
 ## Residence Time
 
 Residence time (tau) equals 1/koff and represents the average duration a peptide remains bound to its receptor. Longer residence times often correlate with greater pharmacological effect because:
+
 - Sustained receptor engagement maintains signaling
 - The peptide may be protected from degradation while bound
 - Receptor internalization kinetics are influenced by occupancy duration

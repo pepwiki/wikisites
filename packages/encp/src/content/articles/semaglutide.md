@@ -17,13 +17,13 @@ citation:
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Chemical Formula | C187H291N45O59 |
-| Molecular Weight | 4113.58 g/mol |
-| CAS Number | 910463-68-2 |
-| IUPAC Name | Modified GLP-1(7-37) analog |
-| Peptide Class | GLP-1 Receptor Agonist |
+| Property          | Value                                |
+| ----------------- | ------------------------------------ |
+| Chemical Formula  | C187H291N45O59                       |
+| Molecular Weight  | 4113.58 g/mol                        |
+| CAS Number        | 910463-68-2                          |
+| IUPAC Name        | Modified GLP-1(7-37) analog          |
+| Peptide Class     | GLP-1 Receptor Agonist               |
 | Sequence Homology | Human GLP-1(7-37) with modifications |
 
 ## Structure

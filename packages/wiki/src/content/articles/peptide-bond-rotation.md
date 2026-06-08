@@ -37,11 +37,11 @@ The Ramachandran plot, developed by G.N. Ramachandran in 1963, maps all possible
 
 Key allowed regions correspond to common secondary structures:
 
-| Region | Phi (approx) | Psi (approx) | Structure |
-|--------|-------------|-------------|-----------|
-| Upper left | -120 | +120 | Beta-sheet |
-| Lower left | -60 | -45 | Right-handed alpha-helix |
-| Upper right | -60 | +150 | Left-handed alpha-helix (rare) |
+| Region      | Phi (approx) | Psi (approx) | Structure                      |
+| ----------- | ------------ | ------------ | ------------------------------ |
+| Upper left  | -120         | +120         | Beta-sheet                     |
+| Lower left  | -60          | -45          | Right-handed alpha-helix       |
+| Upper right | -60          | +150         | Left-handed alpha-helix (rare) |
 
 Glycine, lacking a side chain, has a much broader allowed region. Proline, with its cyclic side chain, is severely restricted.
 

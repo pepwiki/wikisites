@@ -38,4 +38,4 @@ Beyond digestion, CCK functions as a potent satiety signal. Vagal afferent fiber
 
 ## Clinical Significance
 
-Dysregulation of CCK signaling has been implicated in obesity, panic disorder, and irritable bowel syndrome. CCK-A receptor antagonists have been investigated as potential anti-obesity agents, though clinical outcomes have been mixed. Mutations in the *CCK* gene or its receptor are rare but associated with gallbladder hypomotility and impaired satiety responses.
+Dysregulation of CCK signaling has been implicated in obesity, panic disorder, and irritable bowel syndrome. CCK-A receptor antagonists have been investigated as potential anti-obesity agents, though clinical outcomes have been mixed. Mutations in the _CCK_ gene or its receptor are rare but associated with gallbladder hypomotility and impaired satiety responses.

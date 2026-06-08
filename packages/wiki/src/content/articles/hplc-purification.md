@@ -4,7 +4,14 @@ description: "Learn the principles of reversed-phase, normal-phase, and ion-exch
 status: "published"
 author: "Wikipept Community"
 pubDate: 2025-12-15
-tags: ["HPLC", "reversed-phase chromatography", "peptide purification", "gradient elution", "ion-exchange"]
+tags:
+  [
+    "HPLC",
+    "reversed-phase chromatography",
+    "peptide purification",
+    "gradient elution",
+    "ion-exchange",
+  ]
 category: "Chemistry"
 difficulty: "intermediate"
 relatedArticles: ["peptide-synthesis-methods", "mass-spectrometry-peptides", "collagen-peptides"]
@@ -23,6 +30,7 @@ RP-HPLC is the most commonly used mode for peptide purification.
 **Principle:** Nonpolar stationary phases (C18 or C8 bonded silica) interact with hydrophobic regions of peptides. Polar mobile phases (water/acetonitrile with trifluoroacetic acid) elute peptides based on increasing hydrophobicity.
 
 **How it works:**
+
 1. The crude peptide is dissolved in a weak solvent and injected
 2. A gradient increases organic solvent concentration over time
 3. Less hydrophobic peptides elute first; more hydrophobic peptides elute later
@@ -31,6 +39,7 @@ RP-HPLC is the most commonly used mode for peptide purification.
 **Mnemonic:** Remember "like stays with like" for RP-HPLC. Hydrophobic peptides stick to the hydrophobic column and need more organic solvent to elute.
 
 **Optimization tips:**
+
 - TFA (0.1%) as additive improves peak shape and resolution
 - Acetonitrile is preferred over methanol for peptide separations
 - Slower gradients (1 to 2 percent per minute) improve resolution of closely eluting species
@@ -46,6 +55,7 @@ NP-HPLC uses polar stationary phases (silica or amino-bonded silica) with nonpol
 IEX-HPLC separates peptides based on net surface charge.
 
 **Principle:**
+
 - **Cation exchange:** Positively charged peptides bind to negatively charged resin; elution increases with salt concentration or pH
 - **Anion exchange:** Negatively charged peptides bind to positively charged resin
 

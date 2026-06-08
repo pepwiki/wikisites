@@ -21,6 +21,7 @@ Mass spectrometry (MS) is the most powerful technique for peptide characterizati
 Matrix-Assisted Laser Desorption/Ionization-Time of Flight (MALDI-TOF) is ideal for rapid molecular weight determination.
 
 **How it works:**
+
 1. The peptide sample is co-crystallized with a UV-absorbing matrix (such as alpha-cyano-4-hydroxycinnamic acid)
 2. A laser pulse desorbs and ionizes the sample
 3. Ions fly through a vacuum tube; lighter ions arrive faster
@@ -37,6 +38,7 @@ Matrix-Assisted Laser Desorption/Ionization-Time of Flight (MALDI-TOF) is ideal 
 ESI-MS generates multiply charged ions from solution, making it ideal for coupling with liquid chromatography.
 
 **How it works:**
+
 1. The sample flows through a narrow capillary at high voltage
 2. Charged droplets form and evaporate
 3. Ions are released into the gas phase
@@ -51,6 +53,7 @@ ESI-MS generates multiply charged ions from solution, making it ideal for coupli
 Peptide mass fingerprinting (PMF) identifies proteins by comparing observed peptide masses to predicted masses from protein databases.
 
 **Process:**
+
 1. Digest the protein with a specific protease (typically trypsin)
 2. Measure all peptide masses by MALDI-TOF
 3. Search protein databases for matches
@@ -63,6 +66,7 @@ This technique works best for well-characterized proteins with known sequences.
 When no database match exists, de novo sequencing determines the peptide sequence directly from MS/MS spectra.
 
 **Approach:**
+
 1. Fragment the peptide using collision-induced dissociation (CID) or electron transfer dissociation (ETD)
 2. Read the mass differences between consecutive fragment ions
 3. Each 14 Da difference corresponds to one CH2 group (alanine vs. glycine)

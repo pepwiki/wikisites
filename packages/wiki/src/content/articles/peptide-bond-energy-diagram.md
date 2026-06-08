@@ -7,7 +7,8 @@ pubDate: 2026-06-07
 tags: ["peptide-bond", "energy-diagram", "biochemistry", "enzyme-catalysis", "thermodynamics"]
 category: "Chemistry"
 difficulty: "advanced"
-relatedArticles: ["peptide-bond-isomerization", "peptide-bond-geometry-drug-design", "peptide-ir-spectroscopy"]
+relatedArticles:
+  ["peptide-bond-isomerization", "peptide-bond-geometry-drug-design", "peptide-ir-spectroscopy"]
 ---
 
 # Peptide Bond Energy Diagram

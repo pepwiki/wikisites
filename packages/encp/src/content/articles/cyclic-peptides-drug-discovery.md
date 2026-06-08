@@ -4,7 +4,8 @@ description: "Structural and pharmacological principles of cyclic peptide drug d
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-11-05
-tags: ["cyclic-peptides", "drug-discovery", "stapled-peptides", "cell-permeability", "peptidomimetics"]
+tags:
+  ["cyclic-peptides", "drug-discovery", "stapled-peptides", "cell-permeability", "peptidomimetics"]
 category: "Drug Design"
 difficulty: "intermediate"
 relatedArticles: ["peptide-self-assembly", "peptide-formulation-stability"]

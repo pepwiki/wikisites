@@ -4,7 +4,15 @@ description: "An overview of major post-translational modifications including ph
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07
-tags: ["post-translational-modifications", "phosphorylation", "glycosylation", "acetylation", "ubiquitination", "cell-signaling"]
+tags:
+  [
+    "post-translational-modifications",
+    "phosphorylation",
+    "glycosylation",
+    "acetylation",
+    "ubiquitination",
+    "cell-signaling",
+  ]
 category: "Fundamentals"
 difficulty: "intermediate"
 relatedArticles: ["amino-acid-analytical-methods", "peptide-bond-enzyme-catalysis"]

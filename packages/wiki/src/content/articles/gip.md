@@ -35,20 +35,24 @@ In type 2 diabetes, the incretin effect is diminished. GIP responsiveness is imp
 GIP exerts multiple physiological effects:
 
 ### Pancreatic Effects
+
 - Enhances glucose-stimulated insulin secretion
 - Promotes beta cell proliferation and survival
 - Stimulates glucagon secretion (though this effect is glucose-dependent)
 
 ### Adipose Tissue Effects
+
 - Promotes lipid storage and adipocyte differentiation
 - Stimulates lipoprotein lipase activity
 - Enhances fatty acid uptake
 
 ### Bone Metabolism
+
 - Promotes osteoblast activity and bone formation
 - May protect against bone resorption
 
 ### Central Nervous System
+
 - Regulates appetite and energy homeostasis
 - Modulates hippocampal synaptic plasticity
 

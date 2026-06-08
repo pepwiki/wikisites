@@ -4,7 +4,15 @@ description: "A comprehensive guide to understanding peptide bond geometry inclu
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07
-tags: ["peptide-bond", "ramachandran", "phi-psi-angles", "molecular-dynamics", "NMR", "protein-structure"]
+tags:
+  [
+    "peptide-bond",
+    "ramachandran",
+    "phi-psi-angles",
+    "molecular-dynamics",
+    "NMR",
+    "protein-structure",
+  ]
 category: "Chemistry"
 difficulty: "advanced"
 relatedArticles: ["peptide-bond-rotation-energy", "peptide-bond-enzyme-catalysis"]

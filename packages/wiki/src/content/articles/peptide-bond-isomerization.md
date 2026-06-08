@@ -7,7 +7,12 @@ pubDate: 2026-06-07
 tags: ["peptide-bond", "isomerization", "protein-folding", "prolyl-isomerase", "kinetics"]
 category: "Chemistry"
 difficulty: "advanced"
-relatedArticles: ["peptide-bond-energy-diagram", "peptide-bond-geometry-drug-design", "protein-misfolding-diseases"]
+relatedArticles:
+  [
+    "peptide-bond-energy-diagram",
+    "peptide-bond-geometry-drug-design",
+    "protein-misfolding-diseases",
+  ]
 ---
 
 # Peptide Bond Isomerization
@@ -59,6 +64,7 @@ Peptide bond isomerization plays roles in:
 ## Experimental Approaches
 
 Scientists study isomerization using:
+
 - **NMR spectroscopy**: To measure isomerization rates
 - **X-ray crystallography**: To determine cis/trans ratios in protein structures
 - **Enzyme assays**: To measure PPIase activity

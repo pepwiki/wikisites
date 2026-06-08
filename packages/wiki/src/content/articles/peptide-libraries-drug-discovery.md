@@ -4,7 +4,15 @@ description: "How peptide libraries using combinatorial chemistry, phage display
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07
-tags: ["peptide-libraries", "drug-discovery", "combinatorial-chemistry", "phage-display", "mRNA-display", "screening"]
+tags:
+  [
+    "peptide-libraries",
+    "drug-discovery",
+    "combinatorial-chemistry",
+    "phage-display",
+    "mRNA-display",
+    "screening",
+  ]
 category: "Pharmacology"
 difficulty: "intermediate"
 relatedArticles: ["peptide-mimetics-neuroscience", "peptide-gene-delivery"]
