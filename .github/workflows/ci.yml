@@ -45,6 +45,12 @@ jobs:
       - name: Search index (Wikipept)
         run: bunx pagefind --site packages/wiki/dist --output-path packages/wiki/dist/_pagefind
 
+      - name: Install Lighthouse CI
+        run: npm install -g @lhci/cli
+
+      - name: Lighthouse CI (Wikipept)
+        run: lhci autorun --config=./packages/wiki/lighthouserc.json
+
       - name: Deploy Encyclopeptide
         if: github.ref == 'refs/heads/main'
         run: bunx wrangler pages deploy packages/encp/dist --project-name=wikisites-encp --branch=main --commit-dirty=true

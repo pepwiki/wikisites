@@ -1,6 +1,10 @@
-import { createSignal, For, Show } from "solid-js";
+import { createSignal, createEffect, For, Show } from "solid-js";
 import Flashcard from "./Flashcard";
 import type { SiteKey, DeckId } from "@wikisites/query/review-store";
+import { loadCards } from "@wikisites/query/review-store";
+import { isDue } from "@wikisites/query/fsrs";
+import type { CardState } from "@wikisites/query/fsrs";
+import KeyboardShortcuts from "./KeyboardShortcuts";
 
 interface FlashcardData {
   id: string;
@@ -19,6 +23,46 @@ interface FlashcardDeckProps {
 export default function FlashcardDeck(props: FlashcardDeckProps) {
   const [activeTag, setActiveTag] = createSignal<string | null>(null);
   const [currentIndex, setCurrentIndex] = createSignal(0);
+  const [sortedCards, setSortedCards] = createSignal<FlashcardData[]>([]);
+  const [dueCount, setDueCount] = createSignal(0);
+
+  createEffect(() => {
+    const cards = props.cards;
+    const now = new Date();
+
+    let fsrsStates: CardState[] = [];
+    try {
+      fsrsStates = loadCards(props.site, props.deckId);
+    } catch {
+      // SSR or localStorage unavailable
+    }
+
+    const stateMap = new Map<string, CardState>();
+    for (const state of fsrsStates) {
+      stateMap.set(state.id, state);
+    }
+
+    const withDue = cards.map((card) => ({
+      card,
+      state: stateMap.get(card.id) ?? null,
+    }));
+
+    const due = withDue
+      .filter(({ state }) => state && isDue(state, now))
+      .sort((a, b) => {
+        const aTime = a.state ? new Date(a.state.lastReview).getTime() : 0;
+        const bTime = b.state ? new Date(b.state.lastReview).getTime() : 0;
+        return aTime - bTime;
+      })
+      .map(({ card }) => card);
+
+    const nonDue = withDue
+      .filter(({ state }) => !state || !isDue(state, now))
+      .map(({ card }) => card);
+
+    setDueCount(due.length);
+    setSortedCards([...due, ...nonDue]);
+  });
 
   const allTags = () => {
     const tags = new Set<string>();
@@ -31,8 +75,9 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
   };
 
   const filteredCards = () => {
-    if (!activeTag()) return props.cards;
-    return props.cards.filter((c) => c.tags.includes(activeTag()!));
+    const cards = sortedCards();
+    if (!activeTag()) return cards;
+    return cards.filter((c) => c.tags.includes(activeTag()!));
   };
 
   const currentCard = () => filteredCards()[currentIndex()];
@@ -51,8 +96,13 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
     setCurrentIndex(0);
   };
 
+  const handleNextShortcut = () => {
+    handleRate();
+  };
+
   return (
     <div>
+      <KeyboardShortcuts client:load onNext={handleNextShortcut} />
       <div class="flex flex-wrap gap-2 mb-6">
         <button
           type="button"
@@ -81,6 +131,12 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
           )}
         </For>
       </div>
+
+      <Show when={dueCount() > 0}>
+        <div class="mb-3 px-3 py-1.5 bg-amber-50 text-amber-700 text-xs font-medium rounded-lg">
+          {dueCount()} card{dueCount() !== 1 ? "s" : ""} due
+        </div>
+      </Show>
 
       <div class="flex items-center gap-3 mb-4 text-sm text-slate-500">
         <span>Card {currentIndex() + 1} of {filteredCards().length}</span>

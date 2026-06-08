@@ -1,5 +1,6 @@
 import { createSignal, Show, onMount } from "solid-js";
 import { Rating } from "@wikisites/query/fsrs";
+import KeyboardShortcuts from "./KeyboardShortcuts";
 import {
   initializeDeck,
   getDueCardsForDeck,
@@ -98,8 +99,32 @@ export default function ReviewDashboard(props: ReviewDashboardProps) {
     </>
   );
 
+  const handleKeyboardFlip = () => {
+    if (!sessionComplete() && currentCard()) {
+      setFlipped(!flipped());
+    }
+  };
+
+  const handleKeyboardRate = (rating: number) => {
+    if (flipped() && !sessionComplete() && currentCard()) {
+      handleRate(rating as Rating);
+    }
+  };
+
+  const handleNext = () => {
+    if (!flipped() && !sessionComplete() && currentCard()) {
+      setFlipped(true);
+    }
+  };
+
   return (
     <div class="max-w-2xl mx-auto">
+      <KeyboardShortcuts
+        client:load
+        onFlip={handleKeyboardFlip}
+        onRate={handleKeyboardRate}
+        onNext={handleNext}
+      />
       {/* Stats bar */}
       <div class="flex items-center justify-between mb-6 p-4 bg-white rounded-2xl border border-slate-100">
         <div class="text-center px-4">

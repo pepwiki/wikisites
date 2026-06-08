@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import ReadingProgress from "../../components/ReadingProgress";
 
 export async function getStaticPaths() {
   const articles = await getCollection("articles");
@@ -29,6 +30,7 @@ while ((match = headingRegex.exec(article.body)) !== null) {
 ---
 
 <BaseLayout title={article.data.title} description={article.data.description}>
+  <ReadingProgress client:load />
   <article class="max-w-3xl">
     <header class="mb-8">
       <div class="flex items-center gap-3 mb-4">
