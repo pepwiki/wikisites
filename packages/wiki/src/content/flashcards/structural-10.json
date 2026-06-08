@@ -1,0 +1,10 @@
+{
+  "front": "Describe the principles of protein structure validation and quality metrics.",
+  "back": "Ramachandran plot assesses backbone phi/psi angles. Clashscore measures steric clashes. R-factor and R-free indicate model-data agreement. MolProbity, wwPDB validation reports. Disordered regions: B-factors, occupancy. Coordinates deposited in PDB.",
+  "tags": [
+    "structural-biology",
+    "validation",
+    "quality-control"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of Rosetta in protein structure prediction and design?",
+  "back": "Rosetta uses physics-based and knowledge-based energy functions. Ab initio prediction: fragment assembly and Monte Carlo. Protein design: inverse folding, interface design. RosettaScripts enables custom protocols. Applications: enzyme design, vaccine immunogen design.",
+  "tags": [
+    "structural-biology",
+    "computation",
+    "protein-design"
+  ],
+  "difficulty": "advanced"
+}

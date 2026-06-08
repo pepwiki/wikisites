@@ -1,0 +1,10 @@
+{
+  "front": "How does the PET (phenylalanine-tRNA synthetase) selection system work?",
+  "back": "PET system selects for non-canonical amino acid incorporation. Mutant aaRS/tRNA pair incorporates ncAA at amber stop codon. Bacterial growth in presence of ncAA and absence of Phe selects active synthetase variants. Used to evolve aaRS for novel substrates.",
+  "tags": [
+    "synthesis",
+    "genetic-code-expansion",
+    "bioorthogonal"
+  ],
+  "difficulty": "advanced"
+}

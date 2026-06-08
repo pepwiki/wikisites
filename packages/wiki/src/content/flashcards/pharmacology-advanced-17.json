@@ -1,0 +1,10 @@
+{
+  "front": "What are the ADMET properties and how are they assessed?",
+  "back": "ADMET = Absorption, Distribution, Metabolism, Excretion, Toxicity. Assessed in silico (QSAR), in vitro (Caco-2, microsomes, hERG), and in vivo (PK studies). Lipinski rule of 5 predicts oral bioavailability. hERG channel inhibition predicts cardiac toxicity.",
+  "tags": [
+    "pharmacology",
+    "drug-development",
+    "admet"
+  ],
+  "difficulty": "advanced"
+}

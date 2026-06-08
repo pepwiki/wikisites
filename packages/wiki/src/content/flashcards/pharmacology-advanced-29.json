@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of physiologically-based pharmacokinetic (PBPK) modeling?",
+  "back": "PBPK models simulate drug PK using anatomical compartments, blood flows, and tissue-specific parameters. Applications: DDI prediction, pediatric dosing, special populations, regulatory submissions. Software: GastroPlus, Simcyp, PK-Sim.",
+  "tags": [
+    "pharmacology",
+    "pharmacokinetics",
+    "modeling"
+  ],
+  "difficulty": "advanced"
+}

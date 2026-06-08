@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of pharmacogenomics and its clinical applications?",
+  "back": "Pharmacogenomics studies genetic variants affecting drug response. CYP2D6 polymorphisms affect codeine activation. HLA-B*5701 predicts abacavir hypersensitivity. DPYD variants predict 5-fluorouracil toxicity. PGx testing guides dosing per CPIC guidelines.",
+  "tags": [
+    "pharmacology",
+    "pharmacogenomics",
+    "clinical"
+  ],
+  "difficulty": "advanced"
+}

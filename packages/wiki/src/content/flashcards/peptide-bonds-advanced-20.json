@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of peptide bond half-life in biological systems.",
+  "back": "Peptide bond half-life ranges from minutes (unstructured regions) to years (buried in stable proteins). In vivo, proteasomal degradation dominates. Serum half-life of peptides is typically minutes due to renal clearance and proteolysis.",
+  "tags": [
+    "peptide-bonds",
+    "biochemistry",
+    "pharmacology"
+  ],
+  "difficulty": "advanced"
+}

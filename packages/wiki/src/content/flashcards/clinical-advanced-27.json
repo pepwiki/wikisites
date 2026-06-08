@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of external control arms in clinical trials?",
+  "back": "External controls: historical or real-world data as comparator. Used when randomized control is unethical or impractical (rare diseases, pediatric). Challenges: selection bias, data quality, temporal changes. Synthetic control arms using AI/ML. FDA guidance on use.",
+  "tags": [
+    "clinical",
+    "external-controls",
+    "trial-design"
+  ],
+  "difficulty": "advanced"
+}

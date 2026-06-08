@@ -1,0 +1,10 @@
+{
+  "front": "Explain the role of Fc engineering in therapeutic antibody design.",
+  "back": "Fc modifications enhance effector functions. S239D/I332E increase ADCC. LALA mutations ablate ADCC/CDC for anti-inflammatory antibodies. Half-life extension:YTE mutations increase FcRn binding at pH 6. Bispecific antibodies engage two targets simultaneously.",
+  "tags": [
+    "immunology",
+    "antibody-engineering",
+    "therapeutics"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "Describe the role of pharmacogenomics in clinical trial design.",
+  "back": "Pharmacogenomic stratification: enrich for responders, exclude non-responders. HLA testing prevents hypersensitivity (abacavir, carbamazepine). DPYD testing for 5-FU. CYP2C19 for clopidogrel. Pre-emptive PGx testing in clinical practice. CPIC guidelines.",
+  "tags": [
+    "clinical",
+    "pharmacogenomics",
+    "trial-design"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the key advantage of using peptide-based hydrogels over synthetic polymer hydrogels for tissue engineering applications?",
+  "options": [
+    "Peptide hydrogels are always mechanically stronger",
+    "Peptide hydrogels inherently contain bioactive motifs that promote cell adhesion, proliferation, and differentiation",
+    "Peptide hydrogels are cheaper to manufacture",
+    "Peptide hydrogels cannot be degraded by enzymes"
+  ],
+  "correctIndex": 1,
+  "explanation": "Peptide hydrogels can incorporate natural cell-recognition sequences (e.g., RGD for integrin binding) that synthetic polymers lack. This inherent bioactivity supports cell attachment and signaling without requiring additional functionalization steps.",
+  "difficulty": "advanced",
+  "tags": ["materials", "hydrogels", "tissue-engineering"]
+}

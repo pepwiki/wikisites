@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of synergy in combination drug therapy?",
+  "back": "Synergy: combined effect > sum of individual effects (Loewe additivity, Bliss independence). Examples: trimethoprim-sulfamethoxazole (sequential blockade), ACE inhibitor + diuretic. Antagonism: combined effect < sum. Chou-Talalay method quantifies synergy.",
+  "tags": [
+    "pharmacology",
+    "pharmacodynamics",
+    "clinical"
+  ],
+  "difficulty": "advanced"
+}

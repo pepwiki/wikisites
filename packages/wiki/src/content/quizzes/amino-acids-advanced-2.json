@@ -1,0 +1,13 @@
+{
+  "question": "What is selenocysteine, and how is it incorporated into proteins?",
+  "options": [
+    "A non-standard amino acid encoded by UGA with a SECIS element",
+    "A modified form of cysteine with a selenium atom added post-translationally",
+    "An amino acid encoded by a suppressor tRNA",
+    "A synthetic amino acid used in laboratory studies"
+  ],
+  "correctIndex": 0,
+  "explanation": "Selenocysteine is the 21st amino acid, encoded by the UGA stop codon when a SECIS (selenocysteine insertion sequence) element is present in the mRNA 3' UTR.",
+  "difficulty": "advanced",
+  "tags": ["amino-acids", "non-standard", "selenocysteine"]
+}

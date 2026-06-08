@@ -1,0 +1,10 @@
+{
+  "front": "How is amino acid analysis performed using ion-exchange chromatography?",
+  "back": "Classical amino acid analysis uses cation-exchange chromatography with post-column ninhydrin detection. Proteins are hydrolyzed with 6M HCl at 110C for 24h. Modern methods use pre-column derivatization with OPA or FMOC for HPLC separation.",
+  "tags": [
+    "amino-acids",
+    "analysis",
+    "chromatography"
+  ],
+  "difficulty": "advanced"
+}

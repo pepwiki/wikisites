@@ -1,0 +1,10 @@
+{
+  "front": "What is the mechanism of amino acid sensing by mTORC1?",
+  "back": "mTORC1 is recruited to the lysosomal surface by Rag GTPases activated by amino acids. Leucine is sensed by Sestrin2 (inhibitor of GATOR2), arginine by CASTOR1, and methionine by SAMTOR. This pathway regulates protein synthesis and autophagy.",
+  "tags": [
+    "amino-acids",
+    "signaling",
+    "metabolism"
+  ],
+  "difficulty": "advanced"
+}

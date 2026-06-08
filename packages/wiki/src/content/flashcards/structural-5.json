@@ -1,0 +1,10 @@
+{
+  "front": "What is small-angle X-ray scattering (SAXS) and what information does it provide?",
+  "back": "SAXS measures scattering intensity at small angles (0.1-5 degrees). Provides shape information, radius of gyration, maximum dimension, and molecular weight. Low-resolution envelope for flexible systems. Complementary to high-resolution crystallography and cryo-EM.",
+  "tags": [
+    "structural-biology",
+    "saxs",
+    "solution-scattering"
+  ],
+  "difficulty": "advanced"
+}

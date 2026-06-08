@@ -1,0 +1,13 @@
+{
+  "question": "What is the primary mechanism by which CYP3A4 enzyme induction by rifampin reduces the efficacy of co-administered drugs?",
+  "options": [
+    "Rifampin directly binds and inactivates the co-administered drug",
+    "Rifampin increases CYP3A4 expression, accelerating drug metabolism and reducing plasma concentrations",
+    "Rifampin competitively inhibits intestinal absorption of the co-administered drug",
+    "Rifampin increases renal clearance of the co-administered drug"
+  ],
+  "correctIndex": 1,
+  "explanation": "Rifampin is a potent CYP3A4 inducer via PXR activation. Increased CYP3A4 expression accelerates hepatic and intestinal first-pass metabolism of co-administered drugs, reducing their bioavailability and efficacy.",
+  "difficulty": "advanced",
+  "tags": ["pharmacology", "drug-interactions", "enzyme-induction"]
+}

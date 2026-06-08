@@ -1,0 +1,10 @@
+{
+  "front": "Explain the mechanism of drug tolerance and tachyphylaxis.",
+  "back": "Tolerance: decreased response with repeated dosing (pharmacodynamic: receptor downregulation; pharmacokinetic: enzyme induction). Tachyphylaxis: rapid tolerance after single dose or short period. Examples: opioid tolerance, nitrate tolerance, beta-agonist desensitization.",
+  "tags": [
+    "pharmacology",
+    "pharmacodynamics",
+    "clinical"
+  ],
+  "difficulty": "advanced"
+}

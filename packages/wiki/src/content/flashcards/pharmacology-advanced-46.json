@@ -1,0 +1,10 @@
+{
+  "front": "Describe the principles of antiviral drug design.",
+  "back": "Antiviral targets: entry inhibitors (maraviroc), uncoating (amantadine), polymerases (sofosbuvir), proteases (ritonavir), release (oseltamivir). Resistance is a challenge - combination therapy (HAART) prevents resistance. Nucleoside analogs are a major drug class.",
+  "tags": [
+    "pharmacology",
+    "drug-design",
+    "infectious-disease"
+  ],
+  "difficulty": "advanced"
+}

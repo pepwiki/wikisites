@@ -1,0 +1,10 @@
+{
+  "front": "Describe the principles of bispecific antibody design.",
+  "back": "Bispecific antibodies engage two targets simultaneously. Formats: BiTE (bispecific T cell engager), knobs-into-holes (heterodimeric Fc), DVD-Ig. Applications: redirect T cells to tumors (blinatumomab), dual receptor blockade. Manufacturing challenges: chain pairing, purification.",
+  "tags": [
+    "immunology",
+    "bispecific-antibodies",
+    "antibody-engineering"
+  ],
+  "difficulty": "advanced"
+}

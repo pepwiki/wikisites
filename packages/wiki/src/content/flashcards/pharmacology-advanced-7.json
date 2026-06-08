@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of bioavailability and its determination?",
+  "back": "Bioavailability (F) = fraction of dose reaching systemic circulation. For IV, F=1. For oral, F = (AUC_oral/AUC_IV) x (Dose_IV/Dose_oral). Affected by first-pass metabolism, solubility, permeability, and formulation. FDA requires bioequivalence testing.",
+  "tags": [
+    "pharmacology",
+    "pharmacokinetics",
+    "regulatory"
+  ],
+  "difficulty": "advanced"
+}

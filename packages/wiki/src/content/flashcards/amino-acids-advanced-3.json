@@ -1,0 +1,10 @@
+{
+  "front": "Describe the gamma-carboxylation of glutamate and its biological importance.",
+  "back": "Gamma-carboxylation of Glu to Gla (gamma-carboxyglutamate) is catalyzed by vitamin K-dependent carboxylase. Gla residues chelate Ca2+ ions and are essential for the function of clotting factors II, VII, IX, X and anticoagulant proteins C, S, Z.",
+  "tags": [
+    "amino-acids",
+    "post-translational-modifications",
+    "coagulation"
+  ],
+  "difficulty": "advanced"
+}

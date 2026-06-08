@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of PEGylation in extending peptide drug half-life?",
+  "back": "PEGylation attaches PEG (2-40 kDa) to peptides. Increases hydrodynamic radius, reducing renal clearance. Shields from proteolysis and immune recognition. Branched PEG > linear PEG for shielding. Site-specific PEGylation improves homogeneity.",
+  "tags": [
+    "delivery",
+    "pegylation",
+    "pharmacokinetics"
+  ],
+  "difficulty": "advanced"
+}

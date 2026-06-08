@@ -1,0 +1,13 @@
+{
+  "question": "Which class of enzymes is most commonly used for enzymatic peptide synthesis to achieve regioselective bond formation?",
+  "options": [
+    "Cytochrome P450s",
+    "Proteases operating in reverse (kinetically controlled synthesis)",
+    "Ligases such as sortase A",
+    "Transaminases"
+  ],
+  "correctIndex": 1,
+  "explanation": "Proteases such as thermolysin, papain, and alpha-chymotrypsin can catalyze peptide bond formation under kinetic control by using activated acyl donors. The enzyme preferentially forms the peptide bond over hydrolysis when conditions favor synthesis.",
+  "difficulty": "advanced",
+  "tags": ["synthesis", "enzymatic-synthesis", "proteases"]
+}

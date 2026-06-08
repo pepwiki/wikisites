@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of solid-phase extraction (SPE) in peptide purification?",
+  "back": "SPE uses C18 or mixed-mode resins to desalt and concentrate peptides from reaction mixtures. Step gradients remove reagents and byproducts. Commonly used before HPLC purification. Reduces solvent consumption and speeds up workup.",
+  "tags": [
+    "synthesis",
+    "purification",
+    "peptide-synthesis"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of hydrogen-deuterium exchange mass spectrometry (HDX-MS).",
+  "back": "HDX-MS measures amide proton exchange rates with deuterium. Protected regions (secondary structure, interfaces) exchange slowly. Mass increase measured by MS over time. Conformational dynamics and binding interfaces mapped at peptide resolution.",
+  "tags": [
+    "structural-biology",
+    "hdx-ms",
+    "dynamics"
+  ],
+  "difficulty": "advanced"
+}

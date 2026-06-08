@@ -1,0 +1,10 @@
+{
+  "front": "What is the mechanism of action of glyphosate on aromatic amino acid biosynthesis?",
+  "back": "Glyphosate inhibits 5-enolpyruvylshikimate-3-phosphate synthase (EPSPS) in the shikimate pathway, blocking synthesis of Phe, Tyr, and Trp in plants and microorganisms. It does not affect mammals which lack this pathway.",
+  "tags": [
+    "amino-acids",
+    "metabolism",
+    "herbicides"
+  ],
+  "difficulty": "advanced"
+}

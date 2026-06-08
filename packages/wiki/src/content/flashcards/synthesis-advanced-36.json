@@ -1,0 +1,10 @@
+{
+  "front": "Describe the use of N-terminus specific modification in peptide chemistry.",
+  "back": "N-terminal modification: reductive alkylation (NaBH3CN), oxazolidinone formation, acylation, or sulfonylation. Selectivity based on pKa difference between N-terminal alpha-amino and side chain amino groups. Used for PEGylation and labeling.",
+  "tags": [
+    "synthesis",
+    "peptide-synthesis",
+    "bioconjugation"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "How does cryo-EM handle protein flexibility and heterogeneity?",
+  "back": "3D variability analysis and multibody refinement separate conformational states. Classification algorithms (RELION, cryoSPARC) sort particles by conformation. Trajectory analysis reveals motion pathways. Complementary to NMR dynamics data.",
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "flexibility"
+  ],
+  "difficulty": "advanced"
+}

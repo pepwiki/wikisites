@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of master protocols in clinical trials.",
+  "back": "Master protocols: umbrella (multiple treatments, one disease), basket (one treatment, multiple diseases), platform (add/drop arms). I-SPY 2 (breast cancer), ORR platform (COVID-19). Advantages: efficiency, shared controls, real-time adaptation.",
+  "tags": [
+    "clinical",
+    "master-protocols",
+    "trial-design"
+  ],
+  "difficulty": "advanced"
+}

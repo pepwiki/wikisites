@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of complement in vaccine-mediated protection?",
+  "back": "Complement activation enhances antibody-mediated protection. C3d binds B cell receptor, lowering activation threshold. C5a recruits immune cells. Vaccine adjuvants can activate complement. Complement-fixing antibodies (IgG1, IgG3) are more protective than non-fixing (IgG4).",
+  "tags": [
+    "immunology",
+    "complement",
+    "vaccine-mechanisms"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "What are the principles of drug-drug interaction prediction?",
+  "back": "Prediction uses in vitro CYP inhibition/induction data, physiologically-based pharmacokinetic (PBPK) modeling, and clinical DDI studies. FDA guidance requires DDI studies for CYP3A4 inhibitors/inducers. Time-dependent inhibition requires pre-incubation studies.",
+  "tags": [
+    "pharmacology",
+    "drug-interactions",
+    "regulatory"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "What is the mechanism of peptide ligation using sortase A?",
+  "back": "Sortase A (from S. aureus) recognizes LPXTG motif. Cleaves between Thr-Gly, forms thioester intermediate with active site Cys. Transpeptidation to oligoglycine nucleophile joins fragments. Used for protein semisynthesis and labeling.",
+  "tags": [
+    "synthesis",
+    "enzymatic-synthesis",
+    "bioconjugation"
+  ],
+  "difficulty": "advanced"
+}

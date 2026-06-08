@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of polyamine synthesis from amino acids?",
+  "back": "Ornithine is decarboxylated by ODC to putrescine, then converted to spermidine and spermine. Polyamines stabilize DNA, regulate ion channels, and support cell growth. ODC is a target for anticancer therapy (DFMO).",
+  "tags": [
+    "amino-acids",
+    "metabolism",
+    "pharmacology"
+  ],
+  "difficulty": "advanced"
+}

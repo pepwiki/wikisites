@@ -1,0 +1,10 @@
+{
+  "front": "What are the challenges of peptide delivery across the blood-brain barrier?",
+  "back": "BBB challenges: tight junctions (TEER ~1500 V/cm), efflux transporters (P-gp, BCRP), enzymatic degradation, serum protein binding. Solutions: CPPs, transcytosis receptors, nanoparticles, intranasal delivery, focused ultrasound with microbubbles.",
+  "tags": [
+    "delivery",
+    "brain-delivery",
+    "blood-brain-barrier"
+  ],
+  "difficulty": "advanced"
+}

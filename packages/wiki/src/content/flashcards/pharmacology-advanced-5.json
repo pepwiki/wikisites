@@ -1,0 +1,10 @@
+{
+  "front": "What are the phases of drug metabolism and their roles?",
+  "back": "Phase I: oxidation, reduction, hydrolysis (CYP450 enzymes). Phase II: conjugation (glucuronidation, sulfation, acetylation, glutathione). Phase III: transport (P-gp efflux). Phase I often activates prodrugs; Phase II increases water solubility for excretion.",
+  "tags": [
+    "pharmacology",
+    "drug-metabolism",
+    "biochemistry"
+  ],
+  "difficulty": "advanced"
+}

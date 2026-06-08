@@ -1,0 +1,10 @@
+{
+  "front": "What are the post-translational modifications of histidine in proteins?",
+  "back": "Histidine undergoes phosphorylation (by kinases), methylation, and ADP-ribosylation. Phosphohistidine is labile (acid-sensitive), making it difficult to detect. Bacterial chemotaxis relies on histidine phosphorylation in two-component systems.",
+  "tags": [
+    "amino-acids",
+    "post-translational-modifications",
+    "signaling"
+  ],
+  "difficulty": "advanced"
+}

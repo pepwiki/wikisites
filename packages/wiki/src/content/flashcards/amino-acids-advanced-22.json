@@ -1,0 +1,10 @@
+{
+  "front": "How do amino acid auxotrophs serve as selection markers in synthetic biology?",
+  "back": "Amino acid auxotrophs (e.g., leuB-, hisB-) require supplementation for growth. They serve as selection markers in metabolic engineering, preventing plasmid loss and enabling selection without antibiotics. CRISPR-based auxotrophs enable biocontainment.",
+  "tags": [
+    "amino-acids",
+    "metabolism",
+    "synthetic-biology"
+  ],
+  "difficulty": "advanced"
+}

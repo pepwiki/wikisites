@@ -1,0 +1,10 @@
+{
+  "front": "How do backbone modifications affect peptide bond hydrolysis resistance?",
+  "back": "N-methylation (as in cyclosporine), beta-amino acids, and peptoid backbones resist proteolytic cleavage. These modifications remove hydrogen bond donors or alter backbone geometry. Stapled peptides use hydrocarbon cross-links to stabilize helices.",
+  "tags": [
+    "peptide-bonds",
+    "chemistry",
+    "drug-design"
+  ],
+  "difficulty": "advanced"
+}

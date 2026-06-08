@@ -1,0 +1,10 @@
+{
+  "front": "How does the GCN2 pathway respond to amino acid deprivation?",
+  "back": "GCN2 kinase senses uncharged tRNAs during amino acid starvation. It phosphorylates eIF2alpha, reducing global translation while selectively translating ATF4. ATF4 activates genes for amino acid biosynthesis, transport, and autophagy.",
+  "tags": [
+    "amino-acids",
+    "metabolism",
+    "signaling"
+  ],
+  "difficulty": "advanced"
+}

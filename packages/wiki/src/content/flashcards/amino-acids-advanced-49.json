@@ -1,0 +1,10 @@
+{
+  "front": "How do amino acid auxotrophies serve as biocontainment strategies?",
+  "back": "Engineered auxotrophies for essential amino acids prevent survival outside supplemented media. Multiple knockouts or recoding essential genes for non-standard amino acids create orthogonal biocontainment.",
+  "tags": [
+    "amino-acids",
+    "synthetic-biology",
+    "biosafety"
+  ],
+  "difficulty": "expert"
+}

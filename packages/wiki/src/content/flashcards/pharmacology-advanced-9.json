@@ -1,0 +1,10 @@
+{
+  "front": "What are the principles of prodrug design?",
+  "back": "Prodrugs are pharmacologically inactive until metabolized to active forms. Strategies: ester prodrugs for improved oral absorption (valacyclovir), phosphate prodrugs for IV solubility (fosphenytoin), mutual prodrugs combining two drugs.",
+  "tags": [
+    "pharmacology",
+    "drug-design",
+    "formulation"
+  ],
+  "difficulty": "advanced"
+}

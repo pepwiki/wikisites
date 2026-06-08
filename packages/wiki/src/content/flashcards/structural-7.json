@@ -1,0 +1,10 @@
+{
+  "front": "What is cryo-electron tomography (cryo-ET) and its applications?",
+  "back": "Cryo-ET tilts frozen samples to collect 3D tomograms. Visualizes proteins in native cellular context at sub-nm resolution. Subtomogram averaging improves resolution. Applications: nuclear pore complex, ribosome-membrane interactions, viral structure in cells.",
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "tomography"
+  ],
+  "difficulty": "advanced"
+}

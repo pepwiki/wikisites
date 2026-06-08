@@ -1,0 +1,10 @@
+{
+  "front": "What are exosomes and their potential as drug delivery vehicles?",
+  "back": "Exosomes are 30-150 nm extracellular vesicles with natural membrane composition. They cross BBB, evade immune system, and deliver cargo (proteins, RNA, drugs) to recipient cells. Engineering: electroporation, sonication, or transfection of parent cells.",
+  "tags": [
+    "delivery",
+    "exosomes",
+    "nanoparticles"
+  ],
+  "difficulty": "advanced"
+}

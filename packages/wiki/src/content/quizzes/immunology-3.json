@@ -1,0 +1,13 @@
+{
+  "question": "What is epitope mapping, and why is it critical for peptide vaccine design?",
+  "options": [
+    "It identifies the three-dimensional structure of the antibody binding site",
+    "It determines which specific peptide sequences are recognized by T cells or B cells, enabling rational vaccine antigen selection",
+    "It measures the affinity of antibody-antigen interactions",
+    "It predicts the molecular weight of peptide fragments"
+  ],
+  "correctIndex": 1,
+  "explanation": "Epitope mapping identifies the minimal peptide sequences (epitopes) that are recognized by immune cells. This enables rational design of vaccine antigens that target the most immunogenic and protective regions of a pathogen protein.",
+  "difficulty": "advanced",
+  "tags": ["immunology", "epitope-mapping", "vaccine-design"]
+}

@@ -1,0 +1,10 @@
+{
+  "front": "How does AlphaFold predict protein structures?",
+  "back": "AlphaFold uses deep learning with multiple sequence alignments and evolutionary covariation. Attention mechanisms capture long-range contacts. Template-based and ab initio prediction combined. AlphaFold2 achieves experimental accuracy for many proteins. AlphaFold DB provides predicted structures.",
+  "tags": [
+    "structural-biology",
+    "computational",
+    "protein-folding"
+  ],
+  "difficulty": "advanced"
+}

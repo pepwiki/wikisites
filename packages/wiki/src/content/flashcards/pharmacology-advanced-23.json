@@ -1,0 +1,10 @@
+{
+  "front": "What are the principles of controlled drug delivery systems?",
+  "back": "Controlled delivery maintains therapeutic concentrations over extended periods. Systems include: reservoir (membrane-controlled), matrix (dissolution/erosion), osmotic pumps (OROS), and depot injections (PLGA microspheres). Zero-order kinetics is ideal.",
+  "tags": [
+    "pharmacology",
+    "drug-delivery",
+    "formulation"
+  ],
+  "difficulty": "advanced"
+}

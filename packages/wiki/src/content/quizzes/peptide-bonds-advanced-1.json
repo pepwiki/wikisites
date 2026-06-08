@@ -1,0 +1,13 @@
+{
+  "question": "What is the approximate energy barrier for cis-trans isomerization of a peptide bond?",
+  "options": [
+    "5-10 kJ/mol",
+    "20-40 kJ/mol",
+    "75-90 kJ/mol",
+    "150-200 kJ/mol"
+  ],
+  "correctIndex": 2,
+  "explanation": "The partial double bond character of the peptide bond creates a rotational barrier of approximately 75-90 kJ/mol for cis-trans isomerization, making it slow on biological timescales without enzymatic catalysis.",
+  "difficulty": "advanced",
+  "tags": ["peptide-bonds", "isomerization", "kinetics"]
+}

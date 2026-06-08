@@ -1,0 +1,10 @@
+{
+  "front": "How do maximum entropy methods improve structural biology data analysis?",
+  "back": "Maximum entropy maximizes information content while remaining consistent with data. Applied to SAXS profile deconvolution, NMR spectral analysis, cryo-EM reconstructions. Reduces bias from prior assumptions. Provides most parsimonious solution consistent with observations.",
+  "tags": [
+    "structural-biology",
+    "maximum-entropy",
+    "data-analysis"
+  ],
+  "difficulty": "advanced"
+}

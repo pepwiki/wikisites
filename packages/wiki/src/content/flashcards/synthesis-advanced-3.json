@@ -1,0 +1,10 @@
+{
+  "front": "What is native chemical ligation (NCL) and its mechanism?",
+  "back": "NCL joins peptide fragments via thioester-amino thiol exchange. C-terminal thioester reacts with N-terminal Cys to form thioester intermediate, then S-to-N acyl shift forms native peptide bond. Requires Cys at ligation site. Desulfurization converts Cys to Ala.",
+  "tags": [
+    "synthesis",
+    "native-chemical-ligation",
+    "peptide-synthesis"
+  ],
+  "difficulty": "advanced"
+}

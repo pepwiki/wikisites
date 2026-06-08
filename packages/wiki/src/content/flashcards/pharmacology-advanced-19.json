@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of steady-state concentration and time to reach it?",
+  "back": "Css = average concentration at dosing equilibrium. Time to steady state = 4-5 half-lives. For drugs with long half-lives (amiodarone t1/2 ~40 days), loading doses achieve therapeutic levels faster. Css is independent of dose rate for linear kinetics.",
+  "tags": [
+    "pharmacology",
+    "pharmacokinetics",
+    "clinical"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of synchrotron radiation in structural biology?",
+  "back": "Synchrotrons produce high-brilliance X-rays for crystallography and SAXS. Anomalous scattering enables phasing (SeMet SAD). Microfocus beams enable analysis of small crystals. Time-resolved studies capture conformational changes. XFELs enable serial femtosecond crystallography.",
+  "tags": [
+    "structural-biology",
+    "synchrotron",
+    "x-ray-crystallography"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of immunological memory and its durability?",
+  "back": "Immunological memory: long-lived memory T and B cells provide rapid recall responses. Memory B cells undergo somatic hypermutation. Long-lived plasma cells (bone marrow) maintain antibody titers. Durability varies: measles > decades, influenza < years. Germinal center reactions generate high-affinity memory.",
+  "tags": [
+    "immunology",
+    "immunological-memory",
+    "vaccine-design"
+  ],
+  "difficulty": "advanced"
+}

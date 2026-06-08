@@ -1,0 +1,10 @@
+{
+  "front": "Describe the principle of electron paramagnetic resonance (EPR) spectroscopy for proteins.",
+  "back": "EPR detects unpaired electrons (spin labels). DEER/PELDOR measures distances (1.5-8 nm) between spin labels. CW-EPR provides dynamics information. Site-directed spin labeling (SDSL) maps conformational changes. Applications: membrane protein structure, protein folding.",
+  "tags": [
+    "structural-biology",
+    "epr",
+    "spectroscopy"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of precision medicine in pharmacotherapy.",
+  "back": "Precision medicine uses genetic, biomarker, and clinical data to tailor therapy. Pharmacogenomics guides dosing (CYP2C19 for clopidogrel). Tumor profiling selects targeted therapies. Liquid biopsies monitor treatment response. Companion diagnostics identify responders.",
+  "tags": [
+    "pharmacology",
+    "clinical",
+    "precision-medicine"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "What are the mechanisms of checkpoint inhibitor immunotherapy?",
+  "back": "Checkpoint inhibitors block inhibitory receptors: anti-PD-1 (pembrolizumab), anti-PD-L1 (atezolizumab), anti-CTLA-4 (ipilimumab). Reinvigorate exhausted T cells in tumors. Biomarkers: PD-L1 expression, TMB, MSI-H. Immune-related adverse events are common.",
+  "tags": [
+    "immunology",
+    "checkpoint-inhibitors",
+    "immunotherapy"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "Describe the use of amino acid racemization dating in forensics and paleontology.",
+  "back": "Aspartate racemization rate is temperature-dependent and calibrated to individual lifetimes. In teeth, D/L ratio of Asp correlates with age (plus or minus 3 years). In fossils, it estimates age up to several million years, though diagenesis can affect accuracy.",
+  "tags": [
+    "amino-acids",
+    "analysis",
+    "forensics"
+  ],
+  "difficulty": "expert"
+}

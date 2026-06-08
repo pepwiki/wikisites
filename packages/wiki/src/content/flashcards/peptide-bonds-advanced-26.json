@@ -1,0 +1,10 @@
+{
+  "front": "How do peptide bonds influence the mechanism of protein translocation?",
+  "back": "Sec61 translocon transports polypeptides across ER membranes. Peptide bonds in the translocation channel interact with the pore. Unfolded proteins thread through a 14-60 angstrom pore. Signal sequences initiate translocation.",
+  "tags": [
+    "peptide-bonds",
+    "cell-biology",
+    "membrane-transport"
+  ],
+  "difficulty": "advanced"
+}

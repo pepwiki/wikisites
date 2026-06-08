@@ -1,0 +1,10 @@
+{
+  "front": "How do drug transporters affect pharmacokinetics?",
+  "back": "Efflux transporters (P-gp/MDR1, BCRP, MRP2) limit oral bioavailability and CNS penetration. Influx transporters (OATP1B1, OCT2, PEPT1) enhance absorption. Genetic polymorphisms in transporters cause interindividual variability in drug exposure.",
+  "tags": [
+    "pharmacology",
+    "pharmacokinetics",
+    "transport"
+  ],
+  "difficulty": "advanced"
+}

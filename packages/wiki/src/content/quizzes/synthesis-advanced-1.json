@@ -1,0 +1,13 @@
+{
+  "question": "In copper-catalyzed azide-alkyne cycloaddition (CuAAC), what is the role of the copper(I) catalyst?",
+  "options": [
+    "It activates the azide group for nucleophilic attack",
+    "It coordinates both azide and alkyne, lowering the activation energy for the [3+2] cycloaddition",
+    "It serves as a leaving group during product formation",
+    "It stabilizes the tetrazole intermediate"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cu(I) coordinates the terminal alkyne, generating a copper acetylide intermediate that undergoes stepwise cycloaddition with the azide. This lowers the activation energy compared to the uncatalyzed thermal Huisgen reaction, enabling regioselective 1,4-disubstituted triazole formation.",
+  "difficulty": "advanced",
+  "tags": ["synthesis", "click-chemistry", "copper-catalysis"]
+}

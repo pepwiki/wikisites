@@ -1,0 +1,10 @@
+{
+  "front": "What are cell-penetrating peptides (CPPs) and their mechanisms of uptake?",
+  "back": "CPPs are short cationic or amphipathic peptides that transport cargo across membranes. Examples: TAT (GRKKRRQRRRPQ), penetratin, transportan. Uptake mechanisms: direct translocation at low concentrations, endocytosis at high concentrations. Cargo size affects mechanism.",
+  "tags": [
+    "delivery",
+    "cell-penetrating-peptides",
+    "membrane-transport"
+  ],
+  "difficulty": "advanced"
+}

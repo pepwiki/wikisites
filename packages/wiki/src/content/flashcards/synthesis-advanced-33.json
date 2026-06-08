@@ -1,0 +1,10 @@
+{
+  "front": "What is the mechanism of peptide disulfide bond formation?",
+  "back": "Disulfide bonds form via thiol-disulfide exchange. Oxidation by air, glutathione redox buffer, or iodine. Regioselective folding requires careful control of oxidation conditions. Directed folding strategies use preformed disulfide pairs or Acm protection.",
+  "tags": [
+    "synthesis",
+    "peptide-synthesis",
+    "folding"
+  ],
+  "difficulty": "advanced"
+}

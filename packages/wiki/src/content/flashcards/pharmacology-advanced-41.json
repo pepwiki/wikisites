@@ -1,0 +1,10 @@
+{
+  "front": "What is the mechanism of drug-induced hepatotoxicity?",
+  "back": "Direct hepatotoxins (acetaminophen - NAPQI metabolite) cause dose-dependent damage. Idiosyncratic reactions (drug-induced autoimmune hepatitis) are unpredictable. Mechanisms: reactive metabolites, mitochondrial dysfunction, bile salt export pump inhibition, immune-mediated.",
+  "tags": [
+    "pharmacology",
+    "toxicology",
+    "hepatology"
+  ],
+  "difficulty": "advanced"
+}

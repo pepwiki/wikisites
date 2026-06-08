@@ -1,0 +1,10 @@
+{
+  "front": "Explain the principles of drug-drug interaction study design.",
+  "back": "DDI study design: single-dose and steady-state studies. CYP3A4: midazolam or simvastatin as probe. Transporter studies: rifampin (P-gp/OATP). PBPK modeling for prediction. In vitro-in vivo extrapolation. FDA/EMA DDI guidance requirements.",
+  "tags": [
+    "clinical",
+    "drug-interactions",
+    "study-design"
+  ],
+  "difficulty": "advanced"
+}

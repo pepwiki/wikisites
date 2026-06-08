@@ -1,0 +1,10 @@
+{
+  "front": "Explain the role of lipid nanodiscs in membrane protein structural biology.",
+  "back": "Nanodiscs (MSP, SMA polymers) solubilize membrane proteins in discoidal lipid bilayers. Enable solution-state characterization without detergents. Compatible with cryo-EM, NMR, and functional assays. SMA (styrene-maleic acid) extracts directly from native membranes.",
+  "tags": [
+    "structural-biology",
+    "membrane-proteins",
+    "nanodiscs"
+  ],
+  "difficulty": "advanced"
+}

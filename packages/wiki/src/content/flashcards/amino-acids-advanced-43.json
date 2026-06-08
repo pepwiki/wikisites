@@ -1,0 +1,10 @@
+{
+  "front": "What is the function of asparagine-linked glycosylation (N-glycosylation)?",
+  "back": "Oligosaccharyltransferase (OST) transfers Glc3Man9GlcNAc2 from dolichol-P-P to Asn-X-Ser/Thr sequons in the ER. Glycan processing in ER and Golgi determines protein folding, stability, and cell signaling. Congenital disorders of glycosylation affect multiple organs.",
+  "tags": [
+    "amino-acids",
+    "post-translational-modifications",
+    "cell-biology"
+  ],
+  "difficulty": "advanced"
+}

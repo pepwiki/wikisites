@@ -1,0 +1,10 @@
+{
+  "front": "What is the mechanism of enzyme induction and its clinical significance?",
+  "back": "Enzyme induction increases metabolic capacity. CYP inducers: rifampin (CYP3A4), carbamazepine, phenytoin, St. John wort. Reduces plasma levels of co-administered drugs (e.g., OCP failure with rifampin). Induction takes 1-2 weeks for full effect.",
+  "tags": [
+    "pharmacology",
+    "drug-metabolism",
+    "drug-interactions"
+  ],
+  "difficulty": "advanced"
+}

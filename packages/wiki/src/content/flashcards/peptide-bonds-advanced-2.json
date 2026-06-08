@@ -1,0 +1,10 @@
+{
+  "front": "How does peptidyl-prolyl isomerase (PPIase) catalyze proline isomerization?",
+  "back": "PPIases (cyclophilins, FK506-binding proteins, parvulins) lower the activation energy of cis-trans isomerization at X-Pro bonds. They bind the transition state through hydrophobic contacts. Cyclophilin A accelerates isomerization 10^6-fold.",
+  "tags": [
+    "peptide-bonds",
+    "enzymology",
+    "catalysis"
+  ],
+  "difficulty": "advanced"
+}

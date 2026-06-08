@@ -1,0 +1,13 @@
+{
+  "question": "Which analytical technique is most commonly used for high-resolution separation and quantification of amino acid enantiomers in biological samples?",
+  "options": [
+    "Standard reverse-phase HPLC with UV detection",
+    "Chiral HPLC or capillary electrophoresis with chiral selectors",
+    "Size-exclusion chromatography",
+    "Ion-exchange chromatography without chiral selectors"
+  ],
+  "correctIndex": 1,
+  "explanation": "Chiral HPLC and capillary electrophoresis with chiral selectors (such as cyclodextrin-based buffers) can resolve D- and L-amino acid enantiomers, which is critical for analyzing non-proteinogenic amino acids in biological samples.",
+  "difficulty": "advanced",
+  "tags": ["amino-acids", "analytical-methods", "chiral-separation"]
+}

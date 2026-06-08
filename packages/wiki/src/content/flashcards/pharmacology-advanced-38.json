@@ -1,0 +1,10 @@
+{
+  "front": "How does the enteric microbiome affect drug metabolism?",
+  "back": "Gut bacteria perform reduction, hydrolysis, and deconjugation reactions. Digoxin inactivated by Eggerthella lenta. Irinotecan toxicity from bacterial beta-glucuronidase reactivating SN-38. Prodrugs may be activated by microbiome. Antibiotics alter drug metabolism.",
+  "tags": [
+    "pharmacology",
+    "drug-metabolism",
+    "microbiome"
+  ],
+  "difficulty": "advanced"
+}

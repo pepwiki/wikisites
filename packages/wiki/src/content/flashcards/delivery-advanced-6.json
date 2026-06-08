@@ -1,0 +1,10 @@
+{
+  "front": "Explain the mechanism of nanoparticle-mediated gene delivery.",
+  "back": "Cationic lipids (DOTAP, DOTMA) or polymers (PEI, chitosan) condense DNA into nanoparticles (polyplexes). Endosomal escape via proton sponge effect (PEI) or membrane fusion (lipids). Nuclear import required for non-dividing cells. PEGylation reduces opsonization.",
+  "tags": [
+    "delivery",
+    "gene-therapy",
+    "nanoparticles"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of 4-hydroxyproline in collagen stability?",
+  "back": "4-Hydroxyproline is formed by prolyl hydroxylase using vitamin C as a cofactor. It stabilizes the collagen triple helix through stereoelectronic effects (gauche effect) and hydrogen bonding via ordered water molecules. Deficiency causes scurvy.",
+  "tags": [
+    "amino-acids",
+    "post-translational-modifications",
+    "structural-biology"
+  ],
+  "difficulty": "advanced"
+}

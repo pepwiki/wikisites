@@ -1,0 +1,10 @@
+{
+  "front": "Describe the application of cross-linking mass spectrometry (XL-MS) in structural biology.",
+  "back": "XL-MS uses bifunctional cross-linkers (BS3, DSS) to capture spatial proximity. Enzymatic digestion and MS identify cross-linked peptides. Distance restraints (typically 10-30 angstrom) constrain modeling. Applications: protein complexes, conformational changes.",
+  "tags": [
+    "structural-biology",
+    "cross-linking-ms",
+    "interactions"
+  ],
+  "difficulty": "advanced"
+}

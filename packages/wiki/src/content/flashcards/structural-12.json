@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of resolution in structural biology techniques.",
+  "back": "Resolution: minimum distance between distinguishable features. Crystallography: d_min from diffraction. Cryo-EM: Gold-standard FSC 0.143 cutoff. NMR: atom-specific but limited molecular weight. Higher resolution = more detail: 1.5A (individual atoms), 3A (side chains), 5A (secondary structure).",
+  "tags": [
+    "structural-biology",
+    "resolution",
+    "methodology"
+  ],
+  "difficulty": "advanced"
+}

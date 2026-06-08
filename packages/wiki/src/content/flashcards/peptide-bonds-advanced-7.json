@@ -1,0 +1,10 @@
+{
+  "front": "What is the significance of peptide bonds in non-aqueous peptide synthesis?",
+  "back": "DMF, DMSO, and NMP are common solvents for peptide coupling. Water must be excluded to prevent hydrolysis. Dielectric constant affects coupling efficiency. Peptide bonds are kinetically stable but thermodynamically metastable in aqueous solution.",
+  "tags": [
+    "peptide-bonds",
+    "chemistry",
+    "synthesis"
+  ],
+  "difficulty": "advanced"
+}

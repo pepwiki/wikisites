@@ -1,0 +1,10 @@
+{
+  "front": "What is the significance of peptide bonds in prodrug design?",
+  "back": "Peptide prodrugs use protease-cleavable linkers to release active drugs. Valacyclovir uses valine ester for improved oral bioavailability. Peptide-drug conjugates target tumors via protease overexpression in tumor microenvironment.",
+  "tags": [
+    "peptide-bonds",
+    "drug-design",
+    "pharmacology"
+  ],
+  "difficulty": "advanced"
+}

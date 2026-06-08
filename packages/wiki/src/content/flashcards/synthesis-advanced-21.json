@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of photoredox catalysis in peptide chemistry?",
+  "back": "Photoredox catalysts (Ru(bpy)3, Ir(ppy)3) generate radicals under visible light. Used for C-C bond formation, decarboxylative coupling, and radical cyclization. Enables modification of peptide side chains under mild conditions.",
+  "tags": [
+    "synthesis",
+    "peptide-synthesis",
+    "photochemistry"
+  ],
+  "difficulty": "advanced"
+}

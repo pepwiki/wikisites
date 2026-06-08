@@ -1,0 +1,10 @@
+{
+  "front": "How do nucleic acid therapeutics achieve tissue-specific delivery?",
+  "back": "Lipid nanoparticles (LNPs) for liver targeting (ApoE adsorption). GalNAc conjugation for hepatocyte-specific delivery via ASGPR. Antibody-oligonucleotide conjugates for non-liver targets. Exosome delivery for CNS. Chemical modifications (2'-OMe, PS) improve stability.",
+  "tags": [
+    "pharmacology",
+    "drug-delivery",
+    "nucleic-acid"
+  ],
+  "difficulty": "advanced"
+}

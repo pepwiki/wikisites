@@ -2,22 +2,24 @@
 
 Technical path from current state to production, scaling, and feature integration.
 
-## Current State (v1.2.0)
+## Current State (v1.6.0)
 
-| Component          | Status           | Notes                                                                                   |
-| ------------------ | ---------------- | --------------------------------------------------------------------------------------- |
-| @wikisites/shared  | Production-ready | Zod schemas, molecular weight calculation, 58 tests                                     |
-| @wikisites/query   | Production-ready | FSRS v4 algorithm, search engine, review store, session-stats, 92 tests                 |
-| @wikisites/workers | Production-ready | Cloudflare Worker API, D1 schema, security headers, rate limiter, 10 tests              |
-| @wikisites/encp    | Deployed         | 7 static pages, 79 MDX articles, Pagefind search, Spatial Materialism + Amoebic UI      |
-| @wikisites/wiki    | Deployed         | 7 static pages, 79 MDX articles, 12 learn lessons, 29 flashcards, 23 quizzes, PWA       |
-| CI/CD              | Active           | Forgejo Actions: lint, test, typecheck, build, deploy (5 parallel jobs)                 |
-| Testing            | 167 tests        | All packages, 80% coverage thresholds, V8 coverage installed                            |
+| Component          | Status           | Notes                                                                                     |
+| ------------------ | ---------------- | ----------------------------------------------------------------------------------------- |
+| @wikisites/shared  | Production-ready | Zod schemas, molecular weight calculation, 58 tests                                       |
+| @wikisites/query   | Production-ready | FSRS v4 algorithm, search engine, review store, session-stats, 92 tests                  |
+| @wikisites/workers | Production-ready | Cloudflare Worker API, D1 schema, security headers, rate limiter, 10 tests               |
+| @wikisites/encp    | Deployed         | 86 pages, 79 MDX articles, Pagefind search, Spatial Materialism + Amoebic UI             |
+| @wikisites/wiki    | Deployed         | 104 pages, Starlight framework, 12 learn lessons, 502 flashcards, 680 quizzes, PWA       |
+| CI/CD              | Active           | Forgejo Actions: lint, test, typecheck, build, deploy, Lighthouse CI (5 parallel jobs)   |
+| Testing            | 178 tests        | All packages, 80% coverage thresholds, V8 coverage installed                            |
 | Pre-commit         | Active           | Husky + lint-staged (ESLint + Prettier enforced)                                        |
+| Framework          | Starlight        | Sidebar nav, dark mode, search, TOC, sitemap                                             |
 | Design System      | Applied          | Spatial Materialism + Amoebic UI CSS framework                                          |
 | Search             | Pagefind         | Client-side full-text search on both sites                                              |
+| Interactive        | SolidJS          | Quiz session, flashcard deck, review dashboard, daily challenge                         |
 | PWA                | Wikipept         | Service worker, manifest, offline fallback                                              |
-| Security           | Hardened         | CSP headers, HSTS, rate limiting, input sanitization                                    |
+| Security           | Hardened         | CSP headers, HSTS, rate limiting, input sanitization, privacy policy, cookie consent    |
 | Database           | Schema Ready     | D1 schema (users, reviews, annotations, quiz_results, session_stats) + migration runner |
 | Deployment         | Cloudflare Pages | encyclopeptide.com, wikipept.com                                                        |
 

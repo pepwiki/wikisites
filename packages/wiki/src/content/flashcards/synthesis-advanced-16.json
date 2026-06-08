@@ -1,0 +1,10 @@
+{
+  "front": "Describe the use of expressed protein ligation (EPL) in chemical biology.",
+  "back": "EPL combines recombinant protein production with native chemical ligation. Intein-mediated thioester generation on recombinant protein. NCL with synthetic peptide containing N-terminal Cys. Enables site-specific incorporation of modified amino acids.",
+  "tags": [
+    "synthesis",
+    "native-chemical-ligation",
+    "chemical-biology"
+  ],
+  "difficulty": "advanced"
+}

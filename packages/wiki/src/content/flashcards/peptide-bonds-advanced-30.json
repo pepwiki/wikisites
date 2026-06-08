@@ -1,0 +1,10 @@
+{
+  "front": "How do peptide bonds affect the pharmacokinetics of peptide drugs?",
+  "back": "Peptide bonds are susceptible to endopeptidases and exopeptidases. Half-life can be extended by D-amino acid substitution, cyclization, PEGylation, or albumin binding. Oral bioavailability is limited by gastric acid and intestinal proteases.",
+  "tags": [
+    "peptide-bonds",
+    "pharmacology",
+    "drug-delivery"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of molecular replacement in X-ray crystallography?",
+  "back": "Molecular replacement uses a known homologous structure as search model. Phaser and BALBES rotate and translate the model to solve the phase problem. Works when sequence identity >25%. Multi-domain complexes may require separate MR solutions.",
+  "tags": [
+    "structural-biology",
+    "x-ray-crystallography",
+    "phasing"
+  ],
+  "difficulty": "advanced"
+}

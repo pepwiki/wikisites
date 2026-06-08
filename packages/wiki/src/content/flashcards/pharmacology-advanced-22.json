@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of bias signaling in GPCR pharmacology.",
+  "back": "Biased agonists preferentially activate one signaling pathway over another. G-protein biased (e.g., oliceridine for Gq over beta-arrestin) may have better safety profiles. Arrestin-biased ligands may have therapeutic potential in pain without respiratory depression.",
+  "tags": [
+    "pharmacology",
+    "pharmacodynamics",
+    "gpcr"
+  ],
+  "difficulty": "advanced"
+}

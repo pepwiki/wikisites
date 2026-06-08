@@ -1,0 +1,10 @@
+{
+  "front": "What is the mechanism of EDC/HOBt coupling in peptide synthesis?",
+  "back": "EDC (carbodiimide) activates carboxyl group to O-acylisourea. HOBt forms active ester (OBt ester) preventing racemization and increasing coupling rate. NHS can substitute for HOBt. DIC is a less water-soluble alternative to EDC.",
+  "tags": [
+    "synthesis",
+    "peptide-synthesis",
+    "coupling"
+  ],
+  "difficulty": "advanced"
+}

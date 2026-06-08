@@ -1,0 +1,10 @@
+{
+  "front": "What is the mechanism of peptide bond formation by the ribosome?",
+  "back": "The ribosome uses 2'-OH of A76 in the peptidyl-tRNA as a nucleophile, attacking the ester carbonyl of peptidyl-tRNA. This forms a tetrahedral intermediate that collapses to release deacylated tRNA. The mechanism is analogous to serine proteases.",
+  "tags": [
+    "peptide-bonds",
+    "molecular-biology",
+    "translation"
+  ],
+  "difficulty": "expert"
+}

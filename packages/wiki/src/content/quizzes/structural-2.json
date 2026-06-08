@@ -1,0 +1,13 @@
+{
+  "question": "In solution-state NMR spectroscopy of proteins, what does the nuclear Overhauser effect (NOE) provide?",
+  "options": [
+    "Direct measurement of bond lengths",
+    "Information about atoms that are close in space (typically less than 5 angstroms apart)",
+    "The molecular weight of the protein",
+    "Secondary structure content without residue-specific information"
+  ],
+  "correctIndex": 1,
+  "explanation": "NOEs arise from through-space dipolar coupling between nuclear spins and are observed between protons within approximately 5 angstroms of each other. NOE-derived distance constraints are the primary source of structural information for protein NMR structure determination.",
+  "difficulty": "advanced",
+  "tags": ["structural-biology", "nmr", "noe"]
+}

@@ -1,0 +1,10 @@
+{
+  "front": "How are drug-drug interactions predicted using PBPK modeling?",
+  "back": "PBPK modeling predicts DDIs by simulating drug concentrations at metabolic enzymes and transporters. Input: in vitro kinetic parameters (Vmax, Km, Ki), tissue distribution, blood flows. Output: AUC ratio, Cmax ratio. FDA accepts PBPK for DDI labeling decisions.",
+  "tags": [
+    "clinical",
+    "pbpk",
+    "drug-interactions"
+  ],
+  "difficulty": "advanced"
+}

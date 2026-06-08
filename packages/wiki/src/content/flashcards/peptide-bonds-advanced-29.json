@@ -1,0 +1,10 @@
+{
+  "front": "What is the significance of peptide bonds in biosensor design?",
+  "back": "Peptide-based biosensors use protease cleavage to release reporters. FRET sensors measure protease activity by donor-acceptor separation. Peptide aptamers bind targets with high specificity. Electrochemical sensors detect peptide binding events.",
+  "tags": [
+    "peptide-bonds",
+    "bioengineering",
+    "diagnostics"
+  ],
+  "difficulty": "advanced"
+}

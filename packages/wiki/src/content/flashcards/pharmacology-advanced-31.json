@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of therapeutic equivalence and bioequivalence?",
+  "back": "Therapeutic equivalence: same clinical effect and safety. Bioequivalence: same rate and extent of absorption (AUC, Cmax within 80-125%). Generic drugs require bioequivalence studies. Narrow therapeutic index drugs require tighter bounds (90-111%).",
+  "tags": [
+    "pharmacology",
+    "regulatory",
+    "clinical"
+  ],
+  "difficulty": "advanced"
+}

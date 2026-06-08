@@ -1,0 +1,10 @@
+{
+  "front": "Describe the mechanism of peptide macrocyclization strategies.",
+  "back": "Macrocyclization: head-to-tail, side chain-to-side chain (lactam, disulfide), or side chain-to-backbone. Ring-closing metathesis, native chemical ligation, and click chemistry enable macrocyclization. Macrocycles can cross membranes and bind challenging targets.",
+  "tags": [
+    "synthesis",
+    "peptide-synthesis",
+    "macrocycle"
+  ],
+  "difficulty": "advanced"
+}

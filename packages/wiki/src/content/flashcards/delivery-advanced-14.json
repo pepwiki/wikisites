@@ -1,0 +1,10 @@
+{
+  "front": "How do pH-sensitive liposomes achieve endosomal escape?",
+  "back": "pH-sensitive liposomes (DOPE/CHEMS) destabilize at endosomal pH (5-6). Protonation of CHEMS disrupts bilayer, releasing contents into cytosol. Fusogenic peptides (GALA, KALA) enhance membrane fusion. Used for siRNA and protein delivery.",
+  "tags": [
+    "delivery",
+    "liposomes",
+    "endosomal-escape"
+  ],
+  "difficulty": "advanced"
+}

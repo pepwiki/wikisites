@@ -1,0 +1,10 @@
+{
+  "front": "How do metalloproteases catalyze peptide bond cleavage?",
+  "back": "Metalloproteases (thermolysin, MMPs) use Zn2+ to activate a water molecule for nucleophilic attack. The metal polarizes the carbonyl and stabilizes the transition state. Glu/His coordinates the zinc ion. TIMPs are endogenous inhibitors.",
+  "tags": [
+    "peptide-bonds",
+    "enzymology",
+    "mechanism"
+  ],
+  "difficulty": "advanced"
+}

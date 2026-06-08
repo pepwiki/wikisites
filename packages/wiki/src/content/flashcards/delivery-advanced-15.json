@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of transdermal iontophoresis in peptide delivery?",
+  "back": "Iontophoresis uses low electrical current (0.1-0.5 mA/cm2) to drive charged peptides across skin. Electroosmosis enhances neutral molecule transport. Enables controlled, non-invasive delivery of peptides (e.g., LHRH, insulin). Patches with electrodes and reservoirs.",
+  "tags": [
+    "delivery",
+    "transdermal",
+    "iontophoresis"
+  ],
+  "difficulty": "advanced"
+}

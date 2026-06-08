@@ -1,0 +1,10 @@
+{
+  "front": "Explain the role of biomarkers in patient stratification for clinical trials.",
+  "back": "Biomarker-based stratification: genomic (HER2, BRCA), protein (PD-L1), molecular (MSI-H). Enrichment designs include only biomarker-positive patients. Umbrella trials test multiple therapies for one disease. Basket trials test one therapy across biomarker-defined diseases.",
+  "tags": [
+    "clinical",
+    "biomarkers",
+    "stratification"
+  ],
+  "difficulty": "advanced"
+}

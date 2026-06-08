@@ -1,0 +1,10 @@
+{
+  "front": "How does microwave irradiation accelerate peptide bond formation?",
+  "back": "Microwave heating (typically 60-80C) increases reaction rates 10-1000 fold. It provides uniform heating, reduces side reactions, and improves coupling efficiency. Combined with HATU/DIC activation, it enables difficult couplings in sterically hindered sequences.",
+  "tags": [
+    "peptide-bonds",
+    "synthesis",
+    "methodology"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,13 @@
+{
+  "question": "In cryo-electron microscopy (cryo-EM), what is the primary advantage of imaging proteins in vitrified ice rather than crystalline form?",
+  "options": [
+    "It produces higher resolution than X-ray crystallography",
+    "It preserves proteins in near-native hydrated states without requiring crystallization",
+    "It eliminates the need for data collection at cryogenic temperatures",
+    "It automatically aligns particle images for reconstruction"
+  ],
+  "correctIndex": 1,
+  "explanation": "Vitrification rapidly freezes proteins in a thin layer of amorphous ice, trapping them in near-native conformations. This avoids artifacts from crystal packing and allows structural determination of proteins that are difficult or impossible to crystallize.",
+  "difficulty": "advanced",
+  "tags": ["structural-biology", "cryo-em", "vitrification"]
+}

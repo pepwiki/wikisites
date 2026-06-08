@@ -1,0 +1,10 @@
+{
+  "front": "Describe the tryptophan-kynurenine pathway and its neurological implications.",
+  "back": "Tryptophan is metabolized via IDO/TDO to kynurenine, which branches to neuroprotective kynurenic acid or neurotoxic quinolinic acid. Imbalance occurs in depression, schizophrenia, and neurodegenerative diseases. IDO activation by inflammation depletes tryptophan.",
+  "tags": [
+    "amino-acids",
+    "metabolism",
+    "neuroscience"
+  ],
+  "difficulty": "advanced"
+}

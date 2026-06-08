@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of intein-mediated protein splicing in semisynthesis?",
+  "back": "Inteins excise themselves and ligate flanking exteins. Split inteins enable protein trans-splicing. Used for protein purification (CBD-intein), C-terminal thioester generation (GyrA intein), and site-specific labeling. Conditional splicing enables control.",
+  "tags": [
+    "synthesis",
+    "enzymatic-synthesis",
+    "protein-synthesis"
+  ],
+  "difficulty": "advanced"
+}

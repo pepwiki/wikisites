@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of peptide-based PROTACs in targeted protein degradation?",
+  "back": "PROTACs (Proteolysis Targeting Chimeras) recruit E3 ligases to target proteins. Bifunctional molecules: target-binding ligand + linker + E3 ligase ligand. Peptide PROTACs use cell-permeable peptides. Catalytic mechanism enables substoichiometric activity.",
+  "tags": [
+    "synthesis",
+    "drug-design",
+    "targeted-degradation"
+  ],
+  "difficulty": "advanced"
+}

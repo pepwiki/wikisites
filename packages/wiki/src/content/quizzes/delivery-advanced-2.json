@@ -1,0 +1,13 @@
+{
+  "question": "What is the primary mechanism by which exosomes deliver peptide cargo to recipient cells?",
+  "options": [
+    "Direct membrane fusion releasing cargo into the cytoplasm",
+    "Receptor-mediated endocytosis of exosomes followed by endosomal escape",
+    "Passive diffusion through membrane lipid bilayers",
+    "Receptor-mediated endocytosis followed by lysosomal degradation"
+  ],
+  "correctIndex": 1,
+  "explanation": "Exosomes are internalized primarily through receptor-mediated endocytosis or macropinocytosis. After internalization, cargo must escape the endosome to reach the cytoplasm. Exosomal lipid composition and tetraspanin proteins facilitate this endosomal escape process.",
+  "difficulty": "advanced",
+  "tags": ["delivery", "exosomes", "endocytosis"]
+}

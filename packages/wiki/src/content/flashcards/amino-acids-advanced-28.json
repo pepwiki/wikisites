@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of amino acid scoring for protein quality evaluation.",
+  "back": "Protein Digestibility Corrected Amino Acid Score (PDCAAS) and Digestible Indispensable Amino Acid Score (DIAAS) evaluate protein quality. The limiting amino acid (lowest score relative to requirement) determines quality. Egg protein scores 1.0; plant proteins score lower.",
+  "tags": [
+    "amino-acids",
+    "analysis",
+    "nutrition"
+  ],
+  "difficulty": "advanced"
+}

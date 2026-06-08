@@ -1,0 +1,10 @@
+{
+  "front": "Explain the mechanisms of immune tolerance and their implications for autoimmunity.",
+  "back": "Central tolerance: deletion of self-reactive T cells in thymus (AIRE), B cells in bone marrow. Peripheral tolerance: anergy, regulatory T cells (Tregs), peripheral deletion. Breakdown leads to autoimmunity. Therapeutic strategies: Treg expansion, tolerogenic dendritic cells.",
+  "tags": [
+    "immunology",
+    "tolerance",
+    "autoimmunity"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "Explain the principles of sample size determination for clinical trials.",
+  "back": "Sample size depends on: effect size, variability, alpha (Type I error), power (1 - Type II error). Continuous outcomes: two-sample t-test formula. Binary outcomes: chi-square test formula. Survival: number of events needed (Schoenfeld formula). Adaptive designs use simulation.",
+  "tags": [
+    "clinical",
+    "sample-size",
+    "biostatistics"
+  ],
+  "difficulty": "advanced"
+}

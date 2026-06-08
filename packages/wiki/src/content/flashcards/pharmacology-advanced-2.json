@@ -1,0 +1,10 @@
+{
+  "front": "Explain the mechanism of competitive versus non-competitive antagonism.",
+  "back": "Competitive antagonists (e.g., prazosin) bind same site as agonist, shifting dose-response rightward without reducing Emax. Non-competitive antagonists (e.g., phenoxybenzamine) bind allosterically or irreversibly, reducing Emax. Surmountable vs insurmountable.",
+  "tags": [
+    "pharmacology",
+    "pharmacodynamics",
+    "antagonism"
+  ],
+  "difficulty": "advanced"
+}

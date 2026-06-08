@@ -1,0 +1,10 @@
+{
+  "front": "What is the mechanism of pulmonary peptide delivery via inhalation?",
+  "back": "Pulmonary delivery avoids first-pass metabolism and provides large surface area. Aerosol deposition: oropharyngeal (large particles), bronchial, alveolar (1-3 um particles). Challenges: mucus clearance, macrophage uptake. Dry powder inhalers and nebulizers used.",
+  "tags": [
+    "delivery",
+    "pulmonary-delivery",
+    "inhalation"
+  ],
+  "difficulty": "advanced"
+}

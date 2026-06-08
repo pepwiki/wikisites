@@ -1,0 +1,10 @@
+{
+  "front": "Explain the strain-promoted azide-alkyne cycloaddition (SPAAC).",
+  "back": "SPAAC uses strained cyclooctyne (e.g., DBCO, BCN) reacting with azides without metal catalyst. Ring strain (~18 kcal/mol) drives reaction. Useful for in vivo bioconjugation where copper toxicity is a concern. Second-order rate constants ~0.1-1 M^-1 s^-1.",
+  "tags": [
+    "synthesis",
+    "click-chemistry",
+    "bioconjugation"
+  ],
+  "difficulty": "advanced"
+}

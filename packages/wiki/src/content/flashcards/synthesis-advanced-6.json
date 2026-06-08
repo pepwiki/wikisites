@@ -1,0 +1,10 @@
+{
+  "front": "Describe the mechanism of enzymatic peptide synthesis using lipases.",
+  "back": "Lipases (Candida antarctica B, CAL-B) catalyze peptide bond formation in organic solvents. Kinetic control: activated ester (donor) + amino acid ester (acceptor). Low water activity shifts equilibrium toward synthesis. Substrate engineering uses activated substrates.",
+  "tags": [
+    "synthesis",
+    "enzymatic-synthesis",
+    "biocatalysis"
+  ],
+  "difficulty": "advanced"
+}

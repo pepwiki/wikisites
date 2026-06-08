@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of D-amino acid oxidase (DAAO) in the central nervous system?",
+  "back": "DAAO oxidizes D-serine, an NMDA receptor co-agonist, to iminoglutarate. DAAO is enriched in astrocytes. Its activity modulates NMDA receptor signaling. DAAO inhibitors are being explored for schizophrenia treatment by increasing D-serine levels.",
+  "tags": [
+    "amino-acids",
+    "metabolism",
+    "neuroscience"
+  ],
+  "difficulty": "advanced"
+}

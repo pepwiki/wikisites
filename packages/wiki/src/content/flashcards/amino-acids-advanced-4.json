@@ -1,0 +1,10 @@
+{
+  "front": "What is the biosynthetic pathway for tryptophan in bacteria?",
+  "back": "Tryptophan is synthesized from chorismate via anthranilate, using enzymes TrpE, TrpG, TrpD, TrpF, TrpC, and TrpA. The pathway requires glutamine, PRPP, and serine. It is one of the most energetically expensive amino acid biosynthetic pathways.",
+  "tags": [
+    "amino-acids",
+    "metabolism",
+    "biosynthesis"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "Describe the concept of peptide bond pseudo-rotation in protein dynamics.",
+  "back": "Peptide bond pseudo-rotation describes correlated changes in backbone torsion angles. Essential dynamics analysis reveals large-scale motions involving peptide bond rearrangements. These motions are functionally important for enzyme catalysis.",
+  "tags": [
+    "peptide-bonds",
+    "dynamics",
+    "computational"
+  ],
+  "difficulty": "advanced"
+}

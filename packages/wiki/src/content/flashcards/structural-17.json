@@ -1,0 +1,10 @@
+{
+  "front": "What is solid-state NMR and how is it applied to membrane proteins?",
+  "back": "Solid-state NMR uses magic-angle spinning (MAS) to average anisotropic interactions. Provides atomic-resolution data on membrane proteins in lipid bilayers. Applications: amyloid fibrils, membrane protein structure, protein-ligand interactions. DNP enhancement improves sensitivity.",
+  "tags": [
+    "structural-biology",
+    "nuclear-magnetic-resonance",
+    "membrane-proteins"
+  ],
+  "difficulty": "advanced"
+}

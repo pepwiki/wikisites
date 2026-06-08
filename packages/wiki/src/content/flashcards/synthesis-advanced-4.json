@@ -1,0 +1,10 @@
+{
+  "front": "How does microwave-assisted peptide synthesis improve coupling efficiency?",
+  "back": "Microwave heating (60-80C) accelerates coupling reactions 10-1000x. Reduces aggregation in difficult sequences. Optimized with DIC/HOBt or HATU activation. In situ monitoring tracks coupling completion. Reduced racemization with careful temperature control.",
+  "tags": [
+    "synthesis",
+    "peptide-synthesis",
+    "methodology"
+  ],
+  "difficulty": "advanced"
+}

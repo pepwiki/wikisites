@@ -1,0 +1,10 @@
+{
+  "front": "How do cryo-EM maps validate molecular models?",
+  "back": "FSC (Fourier Shell Correlation) between two half-maps estimates resolution. Model-map FSC assesses model quality. EMRinger validates side chain rotamers. CaBLAM identifies backbone outliers. Phenix validation suite provides comprehensive metrics.",
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "validation"
+  ],
+  "difficulty": "advanced"
+}

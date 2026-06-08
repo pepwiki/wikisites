@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of receptor-mediated transcytosis in brain drug delivery?",
+  "back": "Transferrin receptor (TfR) and insulin receptor mediate transport across BBB. Bispecific antibodies binding TfR and therapeutic target achieve brain delivery. Engineered Fc domains (brain shuttle) enhance transcytosis. Roche brain shuttle technology is in clinical trials.",
+  "tags": [
+    "delivery",
+    "brain-delivery",
+    "transcytosis"
+  ],
+  "difficulty": "advanced"
+}

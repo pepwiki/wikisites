@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of meta-analysis and its role in evidence synthesis.",
+  "back": "Meta-analysis: statistical combination of results from multiple studies. Random effects (DerSimonian-Laird) vs fixed effects models. Heterogeneity assessment (I-squared, Q statistic). Publication bias (funnel plot, Egger test). GRADE framework for evidence quality.",
+  "tags": [
+    "clinical",
+    "meta-analysis",
+    "evidence-synthesis"
+  ],
+  "difficulty": "advanced"
+}

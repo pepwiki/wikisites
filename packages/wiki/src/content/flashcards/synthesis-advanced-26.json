@@ -1,0 +1,10 @@
+{
+  "front": "How do DNA-encoded chemical libraries (DEL) accelerate drug discovery?",
+  "back": "DEL: small molecules tagged with DNA barcodes. Libraries of 10^9+ compounds screened against targets. Affinity selection followed by PCR amplification and sequencing identifies hits. Requires aqueous-compatible chemistry (click chemistry).",
+  "tags": [
+    "synthesis",
+    "drug-discovery",
+    "combinatorial"
+  ],
+  "difficulty": "advanced"
+}

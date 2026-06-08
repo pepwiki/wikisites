@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of peptide bonds in antimicrobial peptide membrane disruption?",
+  "back": "Antimicrobial peptides insert into membranes via hydrophobic faces of amphipathic helices. Peptide bond hydrogens can form hydrogen bonds with lipid headgroups. N-methylation reduces activity by disrupting hydrogen bonding patterns.",
+  "tags": [
+    "peptide-bonds",
+    "membrane-biology",
+    "antimicrobial"
+  ],
+  "difficulty": "advanced"
+}

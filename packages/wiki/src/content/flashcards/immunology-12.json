@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of CAR-T cell therapy and its design principles.",
+  "back": "CAR-T cells: chimeric antigen receptor combines antibody specificity with T cell activation. scFv recognition domain + CD3z signaling + costimulatory domains (CD28, 4-1BB). CD19 CARs for B cell malignancies. Manufacturing: leukapheresis, transduction, expansion.",
+  "tags": [
+    "immunology",
+    "car-t",
+    "cell-therapy"
+  ],
+  "difficulty": "advanced"
+}

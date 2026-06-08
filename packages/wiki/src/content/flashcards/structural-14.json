@@ -1,0 +1,10 @@
+{
+  "front": "How does integrative structural biology combine multiple data sources?",
+  "back": "Integrative modeling combines cryo-EM, crystallography, NMR, cross-linking MS, SAXS, and computational methods. IMP (Integrative Modeling Platform) and HADDOCK generate models consistent with all data. Resolves structures of large complexes beyond single-technique limits.",
+  "tags": [
+    "structural-biology",
+    "integrative",
+    "methodology"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of trained immunity and its vaccine implications?",
+  "back": "Trained immunity: innate immune memory through epigenetic reprogramming (H3K4me3, H3K27Ac). BCG vaccination induces trained monocytes/macrophages. Benefits: non-specific protection against infections. Implications for vaccine adjuvant design and heterologous protection.",
+  "tags": [
+    "immunology",
+    "trained-immunity",
+    "innate-memory"
+  ],
+  "difficulty": "advanced"
+}

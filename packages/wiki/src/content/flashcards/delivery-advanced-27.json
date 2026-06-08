@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of albumin as a drug delivery vehicle?",
+  "back": "Albumin (66 kDa) has long half-life (19 days) due to FcRn recycling. Abraxane (nab-paclitaxel) uses albumin nanoparticles. Albumin-drug conjugates and albumin-binding strategies extend half-life. Albumin accumulates in tumors via transcytosis (gp60) and EPR.",
+  "tags": [
+    "delivery",
+    "albumin",
+    "pharmacokinetics"
+  ],
+  "difficulty": "advanced"
+}

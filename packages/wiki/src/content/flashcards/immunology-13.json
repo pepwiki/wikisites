@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of dendritic cells in initiating adaptive immunity?",
+  "back": "Dendritic cells (DCs) capture, process, and present antigens to T cells. Maturation: upregulate MHC, costimulatory molecules (CD80/86), cytokines. Cross-presentation activates CD8+ T cells. DC subsets: cDC1 (cross-presentation), cDC2 (CD4+ T cell priming), pDC (IFN-alpha).",
+  "tags": [
+    "immunology",
+    "dendritic-cells",
+    "innate-adaptive"
+  ],
+  "difficulty": "advanced"
+}

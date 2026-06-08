@@ -1,0 +1,10 @@
+{
+  "front": "What are the principles of population pharmacokinetic modeling?",
+  "back": "PopPK uses sparse sampling from many individuals to estimate population PK parameters and interindividual variability. NONMEM is the gold standard. Covariates (weight, renal function, genotype) explain variability. Applications: dose individualization, special populations.",
+  "tags": [
+    "pharmacology",
+    "pharmacokinetics",
+    "modeling"
+  ],
+  "difficulty": "advanced"
+}

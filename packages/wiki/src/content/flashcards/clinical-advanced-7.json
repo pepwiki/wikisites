@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of real-world evidence (RWE) in drug development?",
+  "back": "RWE: evidence from real-world data (EHR, claims, registries). Post-market safety surveillance. Comparative effectiveness research. External control arms for rare diseases. FDA RWE framework. Limitations: confounding, missing data, selection bias.",
+  "tags": [
+    "clinical",
+    "real-world-evidence",
+    "pharmacovigilance"
+  ],
+  "difficulty": "advanced"
+}

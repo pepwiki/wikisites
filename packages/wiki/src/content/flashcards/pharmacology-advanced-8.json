@@ -1,0 +1,10 @@
+{
+  "front": "Describe the Hill equation and its use in pharmacology.",
+  "back": "Hill equation: E = Emax x [C]^n / (EC50^n + [C]^n). n (Hill coefficient) indicates cooperativity: n=1 (hyperbolic, no cooperativity), n>1 (positive cooperativity, sigmoidal), n<1 (negative cooperativity). Used for dose-response curve fitting.",
+  "tags": [
+    "pharmacology",
+    "pharmacodynamics",
+    "mathematical"
+  ],
+  "difficulty": "advanced"
+}

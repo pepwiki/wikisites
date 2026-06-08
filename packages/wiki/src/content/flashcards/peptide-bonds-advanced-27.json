@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of peptide bonds in molecular recognition?",
+  "back": "Peptide bonds serve as hydrogen bond donors and acceptors in protein-protein interactions. SH3 domains recognize proline-rich motifs (PxxP) where peptide bond geometry is critical. MHC molecules present peptides with specific backbone conformations.",
+  "tags": [
+    "peptide-bonds",
+    "structural-biology",
+    "recognition"
+  ],
+  "difficulty": "advanced"
+}

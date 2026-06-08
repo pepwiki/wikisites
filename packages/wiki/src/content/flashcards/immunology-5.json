@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of broadly neutralizing antibodies (bnAbs) for vaccine design?",
+  "back": "bnAbs target conserved viral epitopes across strains. Examples: VRC01 (HIV CD4 binding site), CR9114 (influenza HA stem), S309 (SARS-CoV-2 RBD). Germline-targeting immunogen design aims to activate bnAb precursor B cells through sequential immunization.",
+  "tags": [
+    "immunology",
+    "broadly-neutralizing-antibodies",
+    "vaccine-design"
+  ],
+  "difficulty": "advanced"
+}

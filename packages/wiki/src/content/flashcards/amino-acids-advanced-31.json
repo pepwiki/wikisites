@@ -1,0 +1,10 @@
+{
+  "front": "What is the significance of O-GlcNAcylation as a nutrient sensor?",
+  "back": "O-GlcNAc transferase (OGT) adds GlcNAc to Ser/Thr residues using UDP-GlcNAc from the hexosamine biosynthetic pathway. It competes with phosphorylation and acts as a nutrient/glucose sensor. Dysregulation occurs in diabetes and cancer.",
+  "tags": [
+    "amino-acids",
+    "post-translational-modifications",
+    "metabolism"
+  ],
+  "difficulty": "advanced"
+}

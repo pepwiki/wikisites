@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of conformational selection versus induced fit.",
+  "back": "Conformational selection: ligand binds pre-existing conformation. Induced fit: ligand binding causes conformational change. NMR and smFRET distinguish mechanisms. Most proteins use combination. Understanding mechanism aids drug design and enzyme engineering.",
+  "tags": [
+    "structural-biology",
+    "dynamics",
+    "binding-mechanism"
+  ],
+  "difficulty": "advanced"
+}

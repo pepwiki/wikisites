@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of antibody glycoengineering for enhanced effector functions.",
+  "back": "Glycoengineering modifies Fc glycosylation to enhance ADCC. Afucosylation (obinutuzumab) increases Fc-gRIIIa binding 50-fold. CHO cell line engineering with FUT8 knockout. Glycan modifications: sialylation (anti-inflammatory), galactosylation (complement activation).",
+  "tags": [
+    "immunology",
+    "antibody-engineering",
+    "glycosylation"
+  ],
+  "difficulty": "advanced"
+}

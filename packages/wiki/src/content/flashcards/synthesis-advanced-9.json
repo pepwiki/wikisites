@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of solid-phase oligonucleotide synthesis?",
+  "back": "Phosphoramidite chemistry: 5'-DMTr-protected nucleoside phosphoramidite + activator (tetrazole) + support-bound nucleoside. Coupling efficiency >99%. Oxidation (I2) converts phosphite to phosphate. Deprotection releases oligonucleotide. Automation enables high-throughput synthesis.",
+  "tags": [
+    "synthesis",
+    "oligonucleotide-synthesis",
+    "solid-phase"
+  ],
+  "difficulty": "advanced"
+}

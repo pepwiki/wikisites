@@ -1,0 +1,10 @@
+{
+  "front": "What is cryo-EM single-particle analysis workflow?",
+  "back": "Workflow: sample preparation (grid freezing), data collection (microscope + camera), motion correction, CTF estimation, particle picking, 2D classification, 3D reconstruction, model building, refinement. Key challenges: preferred orientation, heterogeneity, flexibility.",
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "methodology"
+  ],
+  "difficulty": "advanced"
+}

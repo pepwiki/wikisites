@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of efflux transporters in blood-brain barrier penetration?",
+  "back": "P-glycoprotein (P-gp/ABCB1) and BCRP (ABCG2) actively efflux drugs from brain endothelial cells. CNS drugs must overcome efflux (low P-gp substrate affinity) or be designed as poor substrates. Co-administration of P-gp inhibitors can increase brain exposure.",
+  "tags": [
+    "pharmacology",
+    "pharmacokinetics",
+    "neuroscience"
+  ],
+  "difficulty": "advanced"
+}

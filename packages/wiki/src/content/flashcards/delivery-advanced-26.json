@@ -1,0 +1,10 @@
+{
+  "front": "Describe the mechanism of mucosal vaccine delivery using nanoparticles.",
+  "back": "Mucosal nanoparticles target M cells in Peyer patches or nasal-associated lymphoid tissue. Chitosan and PLGA nanoparticles enhance antigen uptake. Adjuvants (CpG, MPLA) co-delivered for immune stimulation. Enables mucosal IgA response plus systemic immunity.",
+  "tags": [
+    "delivery",
+    "vaccine-delivery",
+    "mucosal-immunity"
+  ],
+  "difficulty": "advanced"
+}

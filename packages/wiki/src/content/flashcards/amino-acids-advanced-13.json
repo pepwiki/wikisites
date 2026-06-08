@@ -1,0 +1,10 @@
+{
+  "front": "What is the function of pyrrolysine in methanogenic archaea?",
+  "back": "Pyrrolysine (Pyl, O) is the 22nd amino acid, encoded by UAG in methanogens. It is incorporated by PylRS tRNA synthetase. Found in methylamine methyltransferases where it activates methylamines for methanogenesis.",
+  "tags": [
+    "amino-acids",
+    "non-standard",
+    "microbiology"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of tag-and-modify strategies in bioconjugation?",
+  "back": "Tag-and-modify: install bioorthogonal handle (azide, alkyne, tetrazine) on protein, then conjugate via click chemistry. Genetic code expansion installs ncAA with handle. Chemical modification targets native residues (Cys, Lys). Selectivity determines approach.",
+  "tags": [
+    "synthesis",
+    "bioconjugation",
+    "chemical-biology"
+  ],
+  "difficulty": "advanced"
+}

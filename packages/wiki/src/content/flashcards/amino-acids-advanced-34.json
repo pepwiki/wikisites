@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of cystathionine beta-synthase in transsulfuration?",
+  "back": "Cystathionine beta-synthase (CBS, B6-dependent) condenses homocysteine with serine to form cystathionine. This irreversible step commits homocysteine to cysteine synthesis. CBS deficiency causes homocystinuria with thromboembolism and lens dislocation.",
+  "tags": [
+    "amino-acids",
+    "metabolism",
+    "clinical"
+  ],
+  "difficulty": "advanced"
+}

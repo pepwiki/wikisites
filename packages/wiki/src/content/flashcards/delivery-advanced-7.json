@@ -1,0 +1,10 @@
+{
+  "front": "What are the principles of hydrogel-based peptide delivery?",
+  "back": "Hydrogels (PEG, alginate, hyaluronic acid) provide sustained release. Peptide-loaded gels release via diffusion, degradation, or stimuli-responsiveness. Injectable hydrogels (in situ gelling) enable local delivery. Applications: wound healing, tissue engineering.",
+  "tags": [
+    "delivery",
+    "hydrogels",
+    "biomaterials"
+  ],
+  "difficulty": "advanced"
+}

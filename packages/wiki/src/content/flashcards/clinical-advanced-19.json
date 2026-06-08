@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of model-informed drug development (MIDD)?",
+  "back": "MIDD: quantitative pharmacology approaches to support drug development. Population PK, PK/PD modeling, exposure-response, trial simulation. FDA Model-Informed Drug Development Pilot Program. Supports dose selection, label claims, drug interaction predictions.",
+  "tags": [
+    "clinical",
+    "midd",
+    "pharmacometrics"
+  ],
+  "difficulty": "advanced"
+}

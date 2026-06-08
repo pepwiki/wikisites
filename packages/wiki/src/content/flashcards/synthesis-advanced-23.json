@@ -1,0 +1,10 @@
+{
+  "front": "What is the mechanism of aspartimide formation and its prevention?",
+  "back": "Aspartimide: intramolecular cyclization of Asp-Gly/Asp-Ser sequences forming succinimide. Base-catalyzed (piperidine). Prevented by: pseudoprolines, Asp(tBu)-Gly sequences, reduced piperidine concentration, or Asn substitution.",
+  "tags": [
+    "synthesis",
+    "peptide-synthesis",
+    "side-reactions"
+  ],
+  "difficulty": "advanced"
+}

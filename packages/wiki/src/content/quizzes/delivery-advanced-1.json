@@ -1,0 +1,13 @@
+{
+  "question": "Which cell-penetrating peptide (CPP) is derived from the HIV-1 Tat protein and contains a high proportion of arginine residues?",
+  "options": [
+    "Penetratin",
+    "Tat(48-60)",
+    "Transportan",
+    "R8 (octa-arginine)"
+  ],
+  "correctIndex": 1,
+  "explanation": "The HIV-1 Tat-derived CPP (residues 48-60, YGRKKRRQRRR) is rich in arginine residues. The guanidinium groups of arginine enable electrostatic interactions with cell membrane phospholipids, facilitating endocytic and direct translocation across membranes.",
+  "difficulty": "advanced",
+  "tags": ["delivery", "cell-penetrating-peptides", "tat"]
+}

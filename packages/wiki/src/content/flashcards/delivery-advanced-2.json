@@ -1,0 +1,10 @@
+{
+  "front": "Explain the mechanism of liposomal drug delivery systems.",
+  "back": "Liposomes are phospholipid bilayers enclosing aqueous core. PEGylated (stealth) liposomes evade RES, extend circulation. Neutral lipids: DPPC, DSPC. Cholesterol reduces permeability. Active targeting: antibody-ligand conjugation. Doxil (PEGylated doxorubicin) is a clinical example.",
+  "tags": [
+    "delivery",
+    "liposomes",
+    "nanoparticles"
+  ],
+  "difficulty": "advanced"
+}

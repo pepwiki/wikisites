@@ -1,0 +1,10 @@
+{
+  "front": "What is the mechanism of peptide bond hydrolysis by serine proteases?",
+  "back": "Serine proteases (trypsin, chymotrypsin) use a catalytic triad (Ser-His-Asp). Serine attacks the peptide carbonyl, forming an acyl-enzyme intermediate. His acts as general base/acid. The oxyanion hole stabilizes the tetrahedral transition state.",
+  "tags": [
+    "peptide-bonds",
+    "enzymology",
+    "mechanism"
+  ],
+  "difficulty": "advanced"
+}

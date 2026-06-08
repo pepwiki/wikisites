@@ -1,0 +1,13 @@
+{
+  "question": "In pharmacokinetic/pharmacodynamic (PK/PD) modeling of peptide drugs, what does the Emax model describe?",
+  "options": [
+    "The relationship between drug concentration and the rate of absorption",
+    "The nonlinear relationship between drug concentration and maximum pharmacological effect, characterized by EC50",
+    "The first-order elimination kinetics of the drug",
+    "The volume of distribution at steady state"
+  ],
+  "correctIndex": 1,
+  "explanation": "The Emax model describes the saturable relationship between drug concentration and effect: Effect = (Emax * C) / (EC50 + C). EC50 is the concentration producing 50% of maximum effect, and Emax is the ceiling effect, critical for dose-response characterization.",
+  "difficulty": "advanced",
+  "tags": ["clinical", "pk-pd-modeling", "dose-response"]
+}

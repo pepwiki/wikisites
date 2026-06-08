@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of small-angle neutron scattering (SANS) in structural biology?",
+  "back": "SANS provides low-resolution shape information. Deuterium contrast variation enables selective visualization of components in complexes. Applications: lipid bilayer structure, protein-nucleic acid complexes, surfactant systems. Complementary to SAXS.",
+  "tags": [
+    "structural-biology",
+    "sans",
+    "solution-scattering"
+  ],
+  "difficulty": "advanced"
+}

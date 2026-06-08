@@ -1,0 +1,10 @@
+{
+  "front": "What is the principle of receptor theory in pharmacology?",
+  "back": "Clark receptor theory: response is proportional to receptor occupancy. Step 2 theory: drug-receptor complex has intrinsic activity (efficacy). Operational model: response = (Em x tau^n x [D]^n) / ([D]^n x (Kd + [D])^n). Explains partial agonism and inverse agonism.",
+  "tags": [
+    "pharmacology",
+    "pharmacodynamics",
+    "receptor-theory"
+  ],
+  "difficulty": "advanced"
+}

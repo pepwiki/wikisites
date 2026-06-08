@@ -1,0 +1,13 @@
+{
+  "question": "What is the primary advantage of an adaptive clinical trial design over a traditional parallel-group design?",
+  "options": [
+    "It requires fewer statistical analyses",
+    "It allows real-time modification of trial parameters such as dosing, patient allocation, or stopping rules based on interim data",
+    "It guarantees a positive outcome for the investigational drug",
+    "It eliminates the need for informed consent"
+  ],
+  "correctIndex": 1,
+  "explanation": "Adaptive designs use pre-planned interim analyses to modify trial parameters (sample size re-estimation, dose selection, futility stopping) while controlling Type I error. This improves efficiency, reduces patient exposure to ineffective treatments, and accelerates drug development.",
+  "difficulty": "advanced",
+  "tags": ["clinical", "adaptive-trials", "trial-design"]
+}

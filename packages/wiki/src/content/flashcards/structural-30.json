@@ -1,0 +1,10 @@
+{
+  "front": "How do integrated structural biology approaches solve challenging targets?",
+  "back": "Combine cryo-EM (overall shape), X-ray (high-resolution regions), NMR (dynamics), XL-MS (distance restraints), SAXS (solution shape). Computation integrates data into consistent models. Examples: nuclear pore complex, ribosome biogenesis machinery.",
+  "tags": [
+    "structural-biology",
+    "integrative",
+    "methodology"
+  ],
+  "difficulty": "advanced"
+}

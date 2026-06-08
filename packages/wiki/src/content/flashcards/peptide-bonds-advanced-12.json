@@ -1,0 +1,10 @@
+{
+  "front": "Explain the role of omega angles in collagen triple helix structure.",
+  "back": "Collagen triple helix requires specific omega angles (~180 for trans-proline). 4-hydroxyproline shifts cis-trans equilibrium toward trans, stabilizing the triple helix. Gly-X-Y repeats position glycine in the interior where steric clashes prevent other residues.",
+  "tags": [
+    "peptide-bonds",
+    "structural-biology",
+    "collagen"
+  ],
+  "difficulty": "advanced"
+}

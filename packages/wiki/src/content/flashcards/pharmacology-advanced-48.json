@@ -1,0 +1,10 @@
+{
+  "front": "How do microRNA-based therapeutics work?",
+  "back": "Anti-miRs inhibit pathogenic miRNAs (e.g., anti-miR-122 for HCV). miRNA mimics restore tumor suppressor miRNAs. Delivery challenges: stability, tissue targeting, off-target effects. Chemical modifications (2'-F, LNA) and nanoparticle delivery improve efficacy.",
+  "tags": [
+    "pharmacology",
+    "drug-design",
+    "nucleic-acid"
+  ],
+  "difficulty": "advanced"
+}

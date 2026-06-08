@@ -1,0 +1,10 @@
+{
+  "front": "How are Bayesian methods applied in clinical trial design?",
+  "back": "Bayesian methods: prior information + data = posterior probability. Adaptive enrichment, dose-finding (CRM), interim analyses. Predictive probability of success. Bayesian credible intervals vs frequentist confidence intervals. Prior elicitation is critical.",
+  "tags": [
+    "clinical",
+    "bayesian",
+    "trial-design"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of immunogenicity assessment for biologic drugs.",
+  "back": "Immunogenicity = ability to elicit anti-drug antibodies (ADA). Factors: intrinsic (sequence, glycosylation), process-related (impurities, formulation), patient-related (disease, genetics). ADA can neutralize efficacy or cause adverse events. Assays: bridging ELISA, Meso Scale.",
+  "tags": [
+    "immunology",
+    "immunogenicity",
+    "pharmaceutical"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "How does microfluidics enable peptide synthesis and screening?",
+  "back": "Microfluidic reactors enable rapid, controlled peptide synthesis with reduced reagent consumption. Droplet-based systems screen peptide libraries. Continuous flow enables real-time monitoring. Reduces waste and improves reproducibility compared to batch synthesis.",
+  "tags": [
+    "synthesis",
+    "peptide-synthesis",
+    "microfluidics"
+  ],
+  "difficulty": "advanced"
+}

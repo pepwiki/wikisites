@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of original antigenic sin and its vaccine implications?",
+  "back": "Original antigenic sin: immune response dominated by first encounter antigen, ignoring new epitopes in subsequent exposures. Implications for influenza and SARS-CoV-2 vaccines. May reduce effectiveness of updated vaccines. Universal vaccine strategies aim to overcome this.",
+  "tags": [
+    "immunology",
+    "immune-memory",
+    "vaccine-design"
+  ],
+  "difficulty": "advanced"
+}

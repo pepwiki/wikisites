@@ -1,0 +1,10 @@
+{
+  "front": "Describe the mechanism of long-acting injectable peptide formulations.",
+  "back": "PLGA microspheres degrade by hydrolysis, releasing peptide over weeks to months (Risperdal Consta, Bydureon). Oil-based depots (peptide in castor oil/benzyl benzoate) dissolve slowly. Crystal suspensions (exenatide ER) dissolve gradually. Initial burst release is a challenge.",
+  "tags": [
+    "delivery",
+    "long-acting",
+    "formulation"
+  ],
+  "difficulty": "advanced"
+}

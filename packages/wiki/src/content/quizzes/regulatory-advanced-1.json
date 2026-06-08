@@ -1,0 +1,13 @@
+{
+  "question": "What does ICH Q8(R2) guidance primarily address in the context of pharmaceutical development?",
+  "options": [
+    "Post-market safety surveillance requirements",
+    "Pharmaceutical development including design space, control strategy, and quality by design",
+    "Good manufacturing practice for biologics",
+    "Pharmacovigilance reporting timelines"
+  ],
+  "correctIndex": 1,
+  "explanation": "ICH Q8(R2) defines pharmaceutical development as a systematic approach to drug development that includes establishing a design space, developing a robust control strategy, and applying quality by design (QbD) principles throughout the product lifecycle.",
+  "difficulty": "advanced",
+  "tags": ["regulatory", "ich-guidelines", "qbd"]
+}

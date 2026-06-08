@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of chiral peptide synthesis and racemization control.",
+  "back": "Racemization occurs at activated C-terminal residue. HOBt/HOAt suppress racemization by reducing oxazolone formation. Chiral auxiliaries (e.g., Evans oxazolidinones) control stereochemistry. Racemization monitored by chiral HPLC or MSP.",
+  "tags": [
+    "synthesis",
+    "peptide-synthesis",
+    "stereochemistry"
+  ],
+  "difficulty": "advanced"
+}

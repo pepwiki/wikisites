@@ -1,0 +1,10 @@
+{
+  "front": "What are the principles of drug design for renal dosing adjustment?",
+  "back": "Renally cleared drugs require dose adjustment based on CrCl or GFR. Cockcroft-Gault equation estimates CrCl. Drugs with >30% renal clearance need adjustment. Hemodialysis removes drugs based on MW, protein binding, Vd. Supplemental dosing guidelines available.",
+  "tags": [
+    "pharmacology",
+    "pharmacokinetics",
+    "renal"
+  ],
+  "difficulty": "advanced"
+}

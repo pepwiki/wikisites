@@ -1,0 +1,10 @@
+{
+  "front": "What are the key principles of rational vaccine design?",
+  "back": "Rational vaccine design uses structural biology to engineer immunogens that elicit specific immune responses. Goals: present conserved epitopes, focus B cells on neutralizing sites, avoid immunodominance of non-protective epitopes. Examples: RSV F protein stabilized prefusion form.",
+  "tags": [
+    "immunology",
+    "vaccine-design",
+    "structural-biology"
+  ],
+  "difficulty": "advanced"
+}

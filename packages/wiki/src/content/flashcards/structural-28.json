@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of real-space refinement in structural biology.",
+  "back": "Real-space refinement minimizes difference between model and experimental density. Iterative model building and refinement. Phenix real_space_refine, REFMAC5. TLS refinement accounts for group anisotropic displacement. Validation: Ramachandran, clashscore, geometry.",
+  "tags": [
+    "structural-biology",
+    "refinement",
+    "model-building"
+  ],
+  "difficulty": "advanced"
+}

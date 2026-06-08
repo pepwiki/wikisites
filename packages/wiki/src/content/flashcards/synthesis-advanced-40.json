@@ -1,0 +1,10 @@
+{
+  "front": "Explain the synthesis of cyclic peptides using click chemistry.",
+  "back": "Azide-alkyne cyclization of linear peptides with terminal azide and alkyne groups. CuAAC or SPAAC provides ring closure. Ring size and conformation affect biological activity. Head-to-tail cyclization uses native chemical ligation.",
+  "tags": [
+    "synthesis",
+    "peptide-synthesis",
+    "click-chemistry"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of Bayesian adaptive dose-finding?",
+  "back": "Bayesian dose-finding: Continual Reassessment Method (CRM) uses dose-toxicity models. Up-and-down designs. Bayesian optimal interval (BOIN) design. Escalation with overdose control (EWOC). Balances patient safety with efficient dose identification.",
+  "tags": [
+    "clinical",
+    "dose-finding",
+    "bayesian"
+  ],
+  "difficulty": "advanced"
+}

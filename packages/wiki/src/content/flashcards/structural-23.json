@@ -1,0 +1,10 @@
+{
+  "front": "What is the principle of neutron protein crystallography?",
+  "back": "Neutrons scatter from nuclei, not electrons. Reveals hydrogen positions directly. Complementary to X-ray crystallography. Essential for protonation states, water structure, and enzyme mechanisms. Requires large crystals and neutron sources (reactors, spallation).",
+  "tags": [
+    "structural-biology",
+    "neutron-crystallography",
+    "hydrogen"
+  ],
+  "difficulty": "advanced"
+}

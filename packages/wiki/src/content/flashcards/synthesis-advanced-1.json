@@ -1,0 +1,10 @@
+{
+  "front": "What is the copper-catalyzed azide-alkyne cycloaddition (CuAAC) click reaction?",
+  "back": "CuAAC forms 1,4-disubstituted 1,2,3-triazole from azide and terminal alkyne using Cu(I) catalyst. Reaction is regiospecific, high-yielding, and tolerates many functional groups. Copper ligands (TBTA) prevent Cu aggregation. Used extensively in bioconjugation.",
+  "tags": [
+    "synthesis",
+    "click-chemistry",
+    "bioconjugation"
+  ],
+  "difficulty": "advanced"
+}

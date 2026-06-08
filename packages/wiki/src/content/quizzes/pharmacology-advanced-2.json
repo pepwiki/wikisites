@@ -1,0 +1,13 @@
+{
+  "question": "In biased agonism, what distinguishes a beta-arrestin-biased agonist from a G protein-biased agonist at a GPCR?",
+  "options": [
+    "Beta-arrestin-biased agonists activate only Gq signaling",
+    "G protein-biased agonists preferentially activate G protein pathways over beta-arrestin recruitment",
+    "Beta-arrestin-biased agonists have no signaling activity",
+    "G protein-biased agonists cannot bind the receptor"
+  ],
+  "correctIndex": 1,
+  "explanation": "Biased agonists selectively activate specific downstream pathways. G protein-biased agonists preferentially engage G protein signaling while minimizing beta-arrestin recruitment, potentially reducing side effects.",
+  "difficulty": "advanced",
+  "tags": ["pharmacology", "biased-signaling", "gpcr"]
+}

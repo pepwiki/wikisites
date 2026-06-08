@@ -1,0 +1,10 @@
+{
+  "front": "How do isotopic labeling methods quantify amino acid turnover?",
+  "back": "Stable isotope tracers (13C6-leucine, D3-leucine, 15N-glutamine) measure protein synthesis rates via mass spectrometry. Deuterium oxide (D2O) labeling measures long-term synthesis. SILAC (Stable Isotope Labeling by Amino acids in Cell culture) enables quantitative proteomics.",
+  "tags": [
+    "amino-acids",
+    "analysis",
+    "mass-spectrometry"
+  ],
+  "difficulty": "expert"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "What analytical method is used for de novo peptide sequencing using Edman degradation?",
+  "back": "Edman degradation sequentially removes N-terminal amino acids using phenylisothiocyanate (PITC). Each cycle identifies one residue via HPLC of the phenylthiohydantoin (PTH) amino acid. Limitations include N-terminal blockage and ~50 cycle maximum.",
+  "tags": [
+    "amino-acids",
+    "analysis",
+    "sequencing"
+  ],
+  "difficulty": "advanced"
+}

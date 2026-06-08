@@ -1,0 +1,10 @@
+{
+  "front": "What is the thiol-ene click reaction and its applications?",
+  "back": "Thiol-ene reaction: R-SH + alkene -> RS-CH2-CH2-R via radical mechanism. Initiated by UV light or thermal radical initiators. Bioorthogonal, regiospecific (anti-Markovnikov), and oxygen-tolerant. Used for hydrogel formation and surface functionalization.",
+  "tags": [
+    "synthesis",
+    "click-chemistry",
+    "materials"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of adaptive clinical trial design?",
+  "back": "Adaptive trials use accumulating data to modify trial design. Types: sample size re-estimation, dose selection, arm dropping, biomarker-adaptive. Bayesian methods enable real-time adaptation. ICH E9(R1) framework. Advantages: efficiency, patient exposure, resource optimization.",
+  "tags": [
+    "clinical",
+    "adaptive-trials",
+    "methodology"
+  ],
+  "difficulty": "advanced"
+}

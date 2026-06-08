@@ -1,0 +1,10 @@
+{
+  "front": "Describe the concept of volume of distribution and its clinical implications.",
+  "back": "Vd = amount of drug in body / plasma concentration. Low Vd (<0.6 L/kg) = stays in plasma. High Vd (>1 L/kg) = distributes to tissues. Vd helps calculate loading dose: Loading dose = Vd x Cp(target). Aspirin Vd ~0.2 L/kg; chloroquine Vd ~200 L/kg.",
+  "tags": [
+    "pharmacology",
+    "pharmacokinetics",
+    "clinical"
+  ],
+  "difficulty": "advanced"
+}

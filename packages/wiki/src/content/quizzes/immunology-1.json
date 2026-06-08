@@ -1,0 +1,13 @@
+{
+  "question": "What is the primary purpose of including adjuvants in peptide-based vaccine formulations?",
+  "options": [
+    "To improve the pharmacokinetic half-life of the peptide antigen",
+    "To enhance and direct the immune response by providing danger signals to innate immune cells",
+    "To serve as a carrier protein for B cell epitopes",
+    "To prevent peptide degradation in the bloodstream"
+  ],
+  "correctIndex": 1,
+  "explanation": "Adjuvants activate innate immune cells through pattern recognition receptors, enhancing antigen presentation, co-stimulatory molecule expression, and cytokine production. This amplifies and shapes the adaptive immune response to the peptide antigen.",
+  "difficulty": "advanced",
+  "tags": ["immunology", "vaccine-design", "adjuvants"]
+}

@@ -45,6 +45,7 @@ export default defineConfig({
           label: "Interactive",
           items: [
             { label: "Quizzes", link: "/quizzes" },
+            { label: "Daily Challenge", link: "/daily" },
             { label: "Flashcards", link: "/flashcards" },
             { label: "Review", link: "/review" },
           ],

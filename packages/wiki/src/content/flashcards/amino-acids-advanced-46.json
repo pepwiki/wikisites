@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of asparagine synthetase in cancer cell metabolism?",
+  "back": "Asparagine synthetase (ASNS) converts aspartate to asparagine. ASNS-low tumors (some ALL, solid tumors) are sensitive to L-asparaginase therapy. ASNS expression is induced by amino acid deprivation through ATF4.",
+  "tags": [
+    "amino-acids",
+    "metabolism",
+    "oncology"
+  ],
+  "difficulty": "advanced"
+}

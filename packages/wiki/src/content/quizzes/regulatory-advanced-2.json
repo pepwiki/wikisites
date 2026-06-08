@@ -1,0 +1,13 @@
+{
+  "question": "Under GMP (Good Manufacturing Practice) for peptide drug substances, what is the primary purpose of process validation?",
+  "options": [
+    "To determine the shelf life of the final product",
+    "To provide documented evidence that the manufacturing process consistently produces a product meeting its predetermined quality specifications",
+    "To register the product with the FDA",
+    "To train manufacturing personnel on standard operating procedures"
+  ],
+  "correctIndex": 1,
+  "explanation": "Process validation (per FDA Guidance and ICH Q7) establishes scientific evidence that the manufacturing process is capable of consistently producing quality product. It involves prospective, concurrent, or retrospective validation using defined critical process parameters and quality attributes.",
+  "difficulty": "advanced",
+  "tags": ["regulatory", "gmp", "process-validation"]
+}

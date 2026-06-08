@@ -1,0 +1,10 @@
+{
+  "front": "Describe the concept of surrogate endpoints and their validation.",
+  "back": "Surrogate endpoints substitute for clinical endpoints to accelerate approval. Requirements: strong correlation, biological plausibility, treatment effect on surrogate predicts clinical benefit. Examples: tumor shrinkage ( RECIST), viral load (HCV), HbA1c (diabetes). Accelerated approval pathway.",
+  "tags": [
+    "clinical",
+    "surrogate-endpoints",
+    "regulatory"
+  ],
+  "difficulty": "advanced"
+}

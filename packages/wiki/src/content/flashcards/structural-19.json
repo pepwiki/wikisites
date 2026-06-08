@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of electron cryo-microscopy in drug discovery?",
+  "back": "Cryo-EM enables structure determination of drug-target complexes without crystallization. Fragment screening by cryo-EM. Membrane protein-drug complexes visualized in lipid environment. Allosteric binding sites identified. Structure-based drug design accelerated.",
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "drug-discovery"
+  ],
+  "difficulty": "advanced"
+}

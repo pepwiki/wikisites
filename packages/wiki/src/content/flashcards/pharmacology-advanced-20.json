@@ -1,0 +1,10 @@
+{
+  "front": "Describe the mechanism of drug resistance in cancer chemotherapy.",
+  "back": "Resistance mechanisms: decreased drug uptake (reduced transporter expression), increased efflux (MDR1/P-gp upregulation), altered drug targets (topoisomerase mutations), enhanced DNA repair, increased drug metabolism, and anti-apoptotic pathway activation.",
+  "tags": [
+    "pharmacology",
+    "oncology",
+    "resistance"
+  ],
+  "difficulty": "advanced"
+}

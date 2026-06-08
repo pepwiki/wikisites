@@ -1,0 +1,10 @@
+{
+  "front": "What are the mass spectral signatures for distinguishing leucine from isoleucine?",
+  "back": "Leucine and isoleucine are isomeric (both 131.17 Da). Differentiation requires MS/MS fragmentation: leucine yields characteristic fragment m/z 86, while isoleucine yields m/z 86 with different fragmentation pattern. LC-MS with specialized columns or enzymatic digestion is used.",
+  "tags": [
+    "amino-acids",
+    "analysis",
+    "mass-spectrometry"
+  ],
+  "difficulty": "expert"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "What is the mechanism of cysteine protease specificity?",
+  "back": "Cysteine proteases (papain, cathepsins, caspases) use a Cys-His catalytic dyad. Substrate specificity is determined by S1-S4 pockets. Caspases recognize Asp at P1 position. Cathepsins have broader specificity. Inhibitors include E-64 and viral cystatins.",
+  "tags": [
+    "amino-acids",
+    "enzymology",
+    "structural-biology"
+  ],
+  "difficulty": "advanced"
+}

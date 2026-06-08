@@ -1,0 +1,10 @@
+{
+  "front": "How do antibody-drug conjugates achieve targeted delivery?",
+  "back": "ADCs: monoclonal antibody + linker + cytotoxic payload. Antibody provides tumor selectivity. Linkers: cleavable (protease-sensitive, pH-sensitive) or non-cleavable. Payloads: maytansinoids, auristatins, calicheamicins. DAR (drug-to-antibody ratio) affects PK.",
+  "tags": [
+    "delivery",
+    "antibody-drug-conjugates",
+    "targeted-delivery"
+  ],
+  "difficulty": "advanced"
+}

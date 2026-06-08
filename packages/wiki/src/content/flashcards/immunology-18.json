@@ -1,0 +1,10 @@
+{
+  "front": "Describe the mechanisms of antibody-dependent cellular phagocytosis (ADCP).",
+  "back": "ADCP: antibodies opsonize targets, Fc receptors on macrophages/neutrophils mediate phagocytosis. Fc-gamma receptors (Fc-gR I, II, III) have different affinities. ADCP is important for bacterial clearance and antibody-mediated tumor killing. Enhanced by complement.",
+  "tags": [
+    "immunology",
+    "antibody-mechanisms",
+    "phagocytosis"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of targeted drug delivery using aptamers.",
+  "back": "Aptamers (nucleic acid or peptide ligands) bind targets with high specificity and affinity. Anti-EpCAM aptamer-drug conjugates target tumors. Aptamer-nanoparticle conjugates enable targeted delivery. SELEX (Systematic Evolution of Ligands by EXponential enrichment) identifies aptamers.",
+  "tags": [
+    "delivery",
+    "aptamers",
+    "targeted-delivery"
+  ],
+  "difficulty": "advanced"
+}

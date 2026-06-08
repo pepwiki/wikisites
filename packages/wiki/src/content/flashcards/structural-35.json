@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of single-molecule FRET for studying protein dynamics?",
+  "back": "smFRET measures distances between donor and acceptor fluorophores (1-10 nm). Fluorescence fluctuations report on conformational changes in real time. Applications: enzyme catalysis, protein folding, molecular motor dynamics. Provides kinetic information hidden in ensemble measurements.",
+  "tags": [
+    "structural-biology",
+    "single-molecule",
+    "fluorescence"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "What are the statistical methods for analyzing time-to-event data in clinical trials?",
+  "back": "Kaplan-Meier estimator, log-rank test, Cox proportional hazards model. Hazard ratio as effect measure. Proportional hazards assumption testing. Accelerated failure time models. Competing risks. Landmark analysis. Number needed to treat (NNT) from survival data.",
+  "tags": [
+    "clinical",
+    "survival-analysis",
+    "biostatistics"
+  ],
+  "difficulty": "advanced"
+}

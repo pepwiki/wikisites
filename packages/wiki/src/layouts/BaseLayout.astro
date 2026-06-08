@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import Toaster from "../components/ui/Toaster";
 import MobileNav from "../components/MobileNav";
+import CookieConsent from "../components/CookieConsent.tsx";
 
 interface Props {
   title: string;
@@ -107,10 +108,12 @@ const {
       <slot />
     </main>
     <footer class="border-t border-slate-200 bg-white mt-16" role="contentinfo">
-      <div class="max-w-7xl mx-auto px-6 py-8 text-sm text-slate-500">
+      <div class="max-w-7xl mx-auto px-6 py-8 text-sm text-slate-500 flex flex-col md:flex-row items-center justify-between gap-4">
         <p>&copy; 2026 Wikipept. Community-driven oligopeptide learning platform.</p>
+        <a href="/privacy" class="hover:text-[#0D9488] transition-colors">Privacy Policy</a>
       </div>
     </footer>
+    <CookieConsent client:load />
     <script is:inline>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", () => {

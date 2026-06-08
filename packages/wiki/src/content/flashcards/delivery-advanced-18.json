@@ -1,0 +1,10 @@
+{
+  "front": "How do polymer-drug conjugates improve peptide pharmacokinetics?",
+  "back": "Polymer conjugation (PEG, polyglutamate, HPMA) increases hydrodynamic radius and renal threshold. Cleavable linkers (pH-sensitive, enzyme-cleavable) enable controlled release. HPMA-doxorubicin (PK1) was first polymer-drug conjugate in clinical trials.",
+  "tags": [
+    "delivery",
+    "polymer-conjugates",
+    "pharmacokinetics"
+  ],
+  "difficulty": "advanced"
+}

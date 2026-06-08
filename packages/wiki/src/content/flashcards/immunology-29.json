@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of synthetic immunology and artificial immune cells?",
+  "back": "Synthetic immunology: engineer cells with synthetic receptors (synNotch, CAR). Artificial antigen-presenting cells (aAPCs) for T cell expansion. Synthetic cytokine circuits for programmable immune modulation. Applications: controlled immunotherapy, immune system engineering.",
+  "tags": [
+    "immunology",
+    "synthetic-biology",
+    "immunotherapy"
+  ],
+  "difficulty": "advanced"
+}

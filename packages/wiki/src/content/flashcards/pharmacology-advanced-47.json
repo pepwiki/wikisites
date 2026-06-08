@@ -1,0 +1,10 @@
+{
+  "front": "What is the mechanism of allosteric drug modulation?",
+  "back": "Allosteric modulators bind distinct sites from orthosteric ligands. Positive allosteric modulators (PAMs) enhance agonist effects (benzodiazepines on GABA-A). Negative allosteric modulators (NAMs) reduce effects. Advantages: ceiling effect, subtype selectivity.",
+  "tags": [
+    "pharmacology",
+    "pharmacodynamics",
+    "drug-design"
+  ],
+  "difficulty": "advanced"
+}

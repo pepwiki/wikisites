@@ -1,0 +1,10 @@
+{
+  "front": "What are the principles of clinical pharmacology in special populations?",
+  "back": "Special populations: renal/hepatic impairment, elderly, pregnant, pediatric, obese. Dose adjustment based on PK differences. Renal impairment: Cockcroft-Gault, CKD-EPI. Hepatic impairment: Child-Pugh. Pregnancy: altered Vd, clearance, placental transfer.",
+  "tags": [
+    "clinical",
+    "special-populations",
+    "clinical-pharmacology"
+  ],
+  "difficulty": "advanced"
+}

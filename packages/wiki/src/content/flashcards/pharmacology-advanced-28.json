@@ -1,0 +1,10 @@
+{
+  "front": "Describe the concept of dose-response relationships in toxicology.",
+  "back": "Paracelsus: the dose makes the poison. Dose-response curves identify NOAEL (no observed adverse effect level), LOAEL, and TD50. Safety margin = TD50/ED50. Margin of exposure (MOE) = BMDL10/TDI for carcinogens.",
+  "tags": [
+    "pharmacology",
+    "toxicology",
+    "regulatory"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "How does cryo-EM visualize drug binding to targets?",
+  "back": "Cryo-EM resolves drug molecules in density maps at 2-4 angstrom resolution. Enables structure-based drug design without crystallization. Fragment screening: identify weak binders by density. Allosteric sites visualized. Comparison of apo/holo forms reveals binding mechanism.",
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "drug-discovery"
+  ],
+  "difficulty": "advanced"
+}

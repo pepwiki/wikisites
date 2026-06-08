@@ -1,0 +1,10 @@
+{
+  "front": "Explain the role of biomarkers in drug development.",
+  "back": "Biomarkers validate targets, predict response, monitor efficacy and safety. Surrogate endpoints (HbA1c for diabetes, viral load for HCV) accelerate approval. FDA biomarker qualification program. Companion diagnostics identify responders (HER2, PD-L1).",
+  "tags": [
+    "pharmacology",
+    "drug-development",
+    "clinical"
+  ],
+  "difficulty": "advanced"
+}

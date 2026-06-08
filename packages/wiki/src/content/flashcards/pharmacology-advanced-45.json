@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of drug safety pharmacology?",
+  "back": "Safety pharmacology assesses effects on vital organs: cardiovascular (hERG, telemetry), respiratory (plethysmography), CNS (Irwin test). ICH S7A/S7B guidelines require core battery studies. hERG liability is a major cause of drug attrition.",
+  "tags": [
+    "pharmacology",
+    "regulatory",
+    "toxicology"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "What is cryo-electron microscopy (cryo-EM) and how does it determine protein structures?",
+  "back": "Cryo-EM flash-freezes proteins in vitreous ice, collecting 2D projection images. Single-particle analysis classifies and averages thousands of images to reconstruct 3D structures. Resolution revolution: direct electron detectors and software (RELION, cryoSPARC) enable near-atomic resolution.",
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "imaging"
+  ],
+  "difficulty": "advanced"
+}

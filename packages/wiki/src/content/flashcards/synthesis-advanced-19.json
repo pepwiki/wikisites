@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of peptide library synthesis for drug discovery?",
+  "back": "Split-pool synthesis (Tea-bag method) generates one bead-one compound libraries. Parallel synthesis produces discrete compounds. Encoding strategies (mass tags, fluorescent tags) identify active compounds. High-throughput screening identifies hits.",
+  "tags": [
+    "synthesis",
+    "peptide-synthesis",
+    "drug-discovery"
+  ],
+  "difficulty": "advanced"
+}

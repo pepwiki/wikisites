@@ -1,0 +1,13 @@
+{
+  "question": "Which ADMET parameter is most critical for predicting the likelihood of a drug causing QT interval prolongation?",
+  "options": [
+    "Volume of distribution",
+    "Inhibition of the hERG potassium channel",
+    "CYP2D6 metabolic clearance",
+    "Plasma protein binding fraction"
+  ],
+  "correctIndex": 1,
+  "explanation": "hERG (human ether-a-go-go-related gene) potassium channel inhibition is the primary predictor of drug-induced QT prolongation, which can lead to fatal cardiac arrhythmias such as torsades de pointes.",
+  "difficulty": "advanced",
+  "tags": ["pharmacology", "admet", "cardiac-safety"]
+}

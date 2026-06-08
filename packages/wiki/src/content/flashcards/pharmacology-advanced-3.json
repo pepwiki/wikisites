@@ -1,0 +1,10 @@
+{
+  "front": "What is the therapeutic window and how is it determined?",
+  "back": "Therapeutic window = TD50/ED50 (toxic dose / effective dose). Wide windows (e.g., penicillin) are safer. Narrow windows (e.g., warfarin, digoxin, lithium) require therapeutic drug monitoring. Determined from dose-response curves in clinical trials.",
+  "tags": [
+    "pharmacology",
+    "pharmacodynamics",
+    "clinical"
+  ],
+  "difficulty": "advanced"
+}

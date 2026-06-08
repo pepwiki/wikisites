@@ -1,0 +1,10 @@
+{
+  "front": "Explain the mechanism of phenylketonuria at the molecular level.",
+  "back": "PKU results from mutations in phenylalanine hydroxylase (PAH), preventing conversion of Phe to Tyr. Over 1000 mutations identified. Residual enzyme activity determines severity. BH4-responsive PKU can be treated with sapropterin (synthetic BH4).",
+  "tags": [
+    "amino-acids",
+    "metabolism",
+    "clinical"
+  ],
+  "difficulty": "advanced"
+}

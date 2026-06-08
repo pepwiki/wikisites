@@ -1,0 +1,13 @@
+{
+  "question": "What is the primary advantage of microwave-assisted peptide synthesis over conventional SPPS?",
+  "options": [
+    "It eliminates the need for protecting groups",
+    "It accelerates coupling and deprotection reactions while improving yields and purity",
+    "It enables aqueous-phase synthesis without organic solvents",
+    "It removes the requirement for resin-bound peptides"
+  ],
+  "correctIndex": 1,
+  "explanation": "Microwave irradiation heats reaction mixtures rapidly and uniformly, accelerating coupling kinetics and reducing side reactions. This leads to higher crude purity, faster synthesis times, and improved yields compared to conventional room-temperature SPPS.",
+  "difficulty": "advanced",
+  "tags": ["synthesis", "microwave-assisted", "spps"]
+}

@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of copper-free click chemistry in live-cell imaging?",
+  "back": "Tetrazine-trans-cyclooctene (Tz-TCO) ligation is the fastest copper-free click reaction (k2 ~10^6 M^-1 s^-1). IEDDA (inverse electron demand) mechanism. Used for real-time cell labeling, pretargeted imaging, and in vivo bioconjugation.",
+  "tags": [
+    "synthesis",
+    "click-chemistry",
+    "imaging"
+  ],
+  "difficulty": "advanced"
+}

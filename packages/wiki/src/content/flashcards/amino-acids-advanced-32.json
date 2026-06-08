@@ -1,0 +1,10 @@
+{
+  "front": "Describe the role of selenoproteins in antioxidant defense.",
+  "back": "Selenoproteins include glutathione peroxidases (GPx1-8) and thioredoxin reductases (TrxR1-3). They reduce H2O2 and lipid hydroperoxides using glutathione or thioredoxin. Selenocysteine in the active site is essential for catalysis.",
+  "tags": [
+    "amino-acids",
+    "non-standard",
+    "antioxidant"
+  ],
+  "difficulty": "advanced"
+}

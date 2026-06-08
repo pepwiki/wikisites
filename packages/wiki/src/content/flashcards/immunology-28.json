@@ -1,0 +1,10 @@
+{
+  "front": "Describe the design principles of universal influenza vaccines.",
+  "back": "Universal influenza vaccines target conserved epitopes: HA stem, M2e, neuraminidase, internal proteins (NP, M1). Approaches: chimeric HA immunogens, headless HA constructs, mRNA vaccines with conserved antigens. Goal: protect against all influenza A and B strains.",
+  "tags": [
+    "immunology",
+    "universal-vaccine",
+    "influenza"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of clinical trial endpoints for gene therapy.",
+  "back": "Gene therapy endpoints: transgene expression, vector biodistribution, durability of effect. Safety: insertional mutagenesis monitoring, immune responses. Functional endpoints: change in biomarker, clinical improvement. Long-term follow-up (15 years for integrating vectors).",
+  "tags": [
+    "clinical",
+    "gene-therapy",
+    "endpoints"
+  ],
+  "difficulty": "advanced"
+}

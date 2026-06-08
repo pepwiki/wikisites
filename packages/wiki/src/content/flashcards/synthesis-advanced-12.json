@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of on-resin vs solution-phase peptide synthesis.",
+  "back": "On-resin (SPPS): peptide attached to solid support, reagents in excess, simple washing. Solution-phase: homogeneous reactions, easier purification of intermediates, but requires protecting groups. Hybrid approaches combine both for complex peptides.",
+  "tags": [
+    "synthesis",
+    "peptide-synthesis",
+    "methodology"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "What is the application of cryo-EM in studying large macromolecular complexes?",
+  "back": "Cryo-EM excels for large complexes (>200 kDa) difficult to crystallize. Ribosome (2.5 MDa), spliceosome, nuclear pore complex, viral capsids resolved. Subnanometer resolution reveals subunit organization. Symmetry averaging improves resolution for symmetric complexes.",
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "macromolecular-complexes"
+  ],
+  "difficulty": "advanced"
+}

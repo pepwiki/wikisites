@@ -1,0 +1,10 @@
+{
+  "front": "Describe the application of molecular dynamics simulations in structural biology.",
+  "back": "MD simulations solve Newton equations of motion for atomic systems. Force fields (AMBER, CHARMM, OPLS) parameterize interactions. Timescales: fs to ms. Applications: protein folding, ligand binding, membrane dynamics. Enhanced sampling (metadynamics, replica exchange) overcomes kinetic barriers.",
+  "tags": [
+    "structural-biology",
+    "molecular-dynamics",
+    "computation"
+  ],
+  "difficulty": "advanced"
+}

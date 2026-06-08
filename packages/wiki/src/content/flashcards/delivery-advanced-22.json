@@ -1,0 +1,10 @@
+{
+  "front": "Explain the mechanism of sonoporation for intracellular peptide delivery.",
+  "back": "Sonoporation uses ultrasound + microbubbles to transiently permeabilize cell membranes. Cavitation creates microjets and microstreaming that disrupt lipid bilayer. Reversible permeabilization allows cytoplasmic delivery. Used for tumor targeting with localized ultrasound.",
+  "tags": [
+    "delivery",
+    "sonoporation",
+    "physical-methods"
+  ],
+  "difficulty": "advanced"
+}

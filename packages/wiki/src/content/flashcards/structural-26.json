@@ -1,0 +1,10 @@
+{
+  "front": "Describe the concept of pseudo-atomic models from cryo-EM.",
+  "back": "Cryogenic electron density at 3-5 angstrom enables pseudo-atomic model building. Secondary structure visible; side chains resolved at higher resolution. Model building: Coot, ISOLDE. Refinement: REFMAC, Phenix. Flexible fitting for lower-resolution maps.",
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "model-building"
+  ],
+  "difficulty": "advanced"
+}

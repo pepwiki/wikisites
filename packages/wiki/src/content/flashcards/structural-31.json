@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of time-resolved structural biology?",
+  "back": "Time-resolved methods capture structural changes during biological processes. XFEL: femtosecond snapshots. Time-resolved cryo-EM: rapid freezing at defined time points. T-jump NMR: millisecond kinetics. SERS: nanosecond Raman. Reveals reaction mechanisms and conformational changes.",
+  "tags": [
+    "structural-biology",
+    "time-resolved",
+    "dynamics"
+  ],
+  "difficulty": "advanced"
+}

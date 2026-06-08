@@ -1,0 +1,10 @@
+{
+  "front": "Explain the role of STING agonists as vaccine adjuvants.",
+  "back": "STING (Stimulator of Interferon Genes) pathway detects cytosolic DNA. STING agonists (DMXAA, cGAMP, diABZI) activate type I IFN production. Enhance dendritic cell maturation and T cell priming. Formulation challenges: stability, delivery. Clinical trials for cancer and infectious disease.",
+  "tags": [
+    "immunology",
+    "adjuvants",
+    "innate-immunity"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "How does flash chemistry enable rapid peptide synthesis?",
+  "back": "Flash chemistry uses flow microreactors with extremely short residence times (milliseconds). Prevents side reactions and enables unstable intermediate generation. Useful for reactive intermediate formation and immediate trapping.",
+  "tags": [
+    "synthesis",
+    "peptide-synthesis",
+    "flow-chemistry"
+  ],
+  "difficulty": "advanced"
+}

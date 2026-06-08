@@ -1,0 +1,10 @@
+{
+  "front": "Explain the role of patient-reported outcomes (PROs) in clinical trials.",
+  "back": "PROs: patient-completed instruments measuring symptoms, function, and QoL. Validated instruments required (FDA PRO Guidance). ePRO devices improve compliance. PRO endpoints can support label claims. Composite endpoints (e.g., symptom-free days). Longitudinal analysis methods.",
+  "tags": [
+    "clinical",
+    "patient-reported-outcomes",
+    "trial-design"
+  ],
+  "difficulty": "advanced"
+}

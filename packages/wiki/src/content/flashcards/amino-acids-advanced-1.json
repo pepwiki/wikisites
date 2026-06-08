@@ -1,0 +1,10 @@
+{
+  "front": "What is selenocysteine and how does it differ from cysteine?",
+  "back": "Selenocysteine (Sec, U) contains a selenol group (-SeH) instead of a thiol (-SH). It is incorporated via a UGA stop codon recoding mechanism requiring a SECIS element in mRNA. The lower pKa of selenol (~5.2 vs 8.3) makes it more reactive at physiological pH.",
+  "tags": [
+    "amino-acids",
+    "non-standard",
+    "post-translational-modifications"
+  ],
+  "difficulty": "advanced"
+}

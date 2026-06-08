@@ -9,6 +9,7 @@ Wikipept is an interactive, community-driven platform for learning oligopeptide 
 
 - [Learn Oligopeptides](/learn) - Interactive tutorials from beginner to expert
 - [Take a Quiz](/quizzes) - Test your knowledge with spaced repetition
+- [Daily Challenge](/daily) - 10 questions, same for everyone today
 - [Browse Flashcards](/flashcards) - Review key concepts with FSRS-powered cards
 
 ## Features

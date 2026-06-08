@@ -1,0 +1,10 @@
+{
+  "front": "Describe the principles of tumor-infiltrating lymphocyte (TIL) therapy.",
+  "back": "TIL therapy: isolate T cells from tumor, expand ex vivo, reinfuse. Lifileucel (FDA approved for melanoma). Requires lymphodepletion conditioning. TILs recognize tumor neoantigens. Manufacturing challenges: tumor heterogeneity, T cell exhaustion, scalability.",
+  "tags": [
+    "immunology",
+    "til-therapy",
+    "cell-therapy"
+  ],
+  "difficulty": "advanced"
+}

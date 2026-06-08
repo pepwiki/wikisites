@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of peptide bond geometry in amyloid fibril formation?",
+  "back": "Amyloid fibrils have extended beta-sheets with inter-strand hydrogen bonds. The cross-beta structure has strands perpendicular to the fibril axis. Peptide bond torsion angles (phi/psi) are restricted to beta-sheet region on Ramachandran plot.",
+  "tags": [
+    "peptide-bonds",
+    "structural-biology",
+    "disease"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "How do proteasomes recognize and process peptide bonds?",
+  "back": "The 26S proteasome recognizes ubiquitinated substrates. The 20S core has trypsin-like (cleaves after basic), chymotrypsin-like (after hydrophobic), and caspase-like (after acidic) activities. Proteasome inhibitors (bortezomib) target these activities.",
+  "tags": [
+    "peptide-bonds",
+    "cell-biology",
+    "degradation"
+  ],
+  "difficulty": "advanced"
+}

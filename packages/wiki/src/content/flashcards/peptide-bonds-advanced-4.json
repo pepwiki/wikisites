@@ -1,0 +1,10 @@
+{
+  "front": "Explain the mechanism of asparagine deamidation and its pharmaceutical significance.",
+  "back": "Asn-Gly and Asn-Ser sequences undergo spontaneous deamidation via succinimide intermediate, converting Asn to Asp/isoAsp. Rate depends on pH, temperature, and local structure. This is a major degradation pathway for therapeutic proteins.",
+  "tags": [
+    "peptide-bonds",
+    "chemistry",
+    "pharmaceutical"
+  ],
+  "difficulty": "advanced"
+}

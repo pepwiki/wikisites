@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of computational methods in understanding protein dynamics?",
+  "back": "MD simulations sample conformational space. Enhanced sampling (metadynamics, replica exchange) overcomes barriers. Coarse-grained models extend timescales. Essential dynamics identifies collective motions. Markov state models connect simulations to experimental observables.",
+  "tags": [
+    "structural-biology",
+    "molecular-dynamics",
+    "computation"
+  ],
+  "difficulty": "advanced"
+}

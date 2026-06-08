@@ -1,0 +1,10 @@
+{
+  "front": "What are the mechanisms of drug-induced QT prolongation?",
+  "back": "hERG (KCNH2) channel blockade by drugs prolongs cardiac action potential. Risk factors: female sex, hypokalemia, congenital long QT. In vitro hERG assays and in vivo telemetry required for safety. Many drugs withdrawn due to TdP risk.",
+  "tags": [
+    "pharmacology",
+    "toxicology",
+    "cardiac"
+  ],
+  "difficulty": "advanced"
+}

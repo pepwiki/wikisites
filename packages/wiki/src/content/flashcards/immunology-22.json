@@ -1,0 +1,10 @@
+{
+  "front": "Explain the role of cytokine engineering in immunotherapy.",
+  "back": "Cytokine engineering: fusion proteins (IL-2 muteins), targeted delivery (cytokine-antibody fusions), gene therapy. IL-15 superagonist (N-803) expands NK and T cells. Engineered IL-2 (bempegaldesleukin) preferentially activates T cells over Tregs. Cytokine release syndrome is a major toxicity.",
+  "tags": [
+    "immunology",
+    "cytokines",
+    "immunotherapy"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of room-temperature crystallography using XFELs.",
+  "back": "X-ray free-electron lasers (XFELs) deliver femtosecond pulses, outrunning radiation damage (diffraction-before-destruction). Serial femtosecond crystallography (SFX) collects patterns from microcrystals. Room-temperature data capture native conformations and intermediate states.",
+  "tags": [
+    "structural-biology",
+    "xfel",
+    "time-resolved"
+  ],
+  "difficulty": "advanced"
+}

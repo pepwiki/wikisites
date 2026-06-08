@@ -1,0 +1,10 @@
+{
+  "front": "What are the endpoints for oncology clinical trials?",
+  "back": "Oncology endpoints: OS (gold standard), PFS (RECIST 1.1), ORR, DOR. Surrogate endpoints for accelerated approval: ORR, pCR (pathologic complete response). Patient-reported outcomes (PROs): QoL, symptom scales. Biomarker endpoints: MRD (minimal residual disease).",
+  "tags": [
+    "clinical",
+    "endpoints",
+    "oncology"
+  ],
+  "difficulty": "advanced"
+}

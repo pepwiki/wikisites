@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of dynamic combinatorial chemistry for peptide libraries?",
+  "back": "DCL generates libraries through reversible bond formation (imines, disulfides, boronic esters). Target binding shifts equilibrium toward bound species. Identifies ligands without screening each compound. Used for discovering peptide macrocycles.",
+  "tags": [
+    "synthesis",
+    "drug-discovery",
+    "combinatorial"
+  ],
+  "difficulty": "advanced"
+}

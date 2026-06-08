@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of conformational ensembles in structural biology?",
+  "back": "Proteins exist as conformational ensembles, not single structures. NMR relaxation, cryo-EM heterogeneity analysis, and MD simulations capture ensembles. Functional motions: hinge bending, domain rotation, loop dynamics. Ensemble models better represent solution behavior.",
+  "tags": [
+    "structural-biology",
+    "dynamics",
+    "ensemble"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,13 @@
+{
+  "question": "Which enzyme family catalyzes cis-trans isomerization of peptide bonds in vivo to accelerate protein folding?",
+  "options": [
+    "Protein disulfide isomerases",
+    "Peptidyl-prolyl cis-trans isomerases",
+    "Chaperonins",
+    "Signal peptidases"
+  ],
+  "correctIndex": 1,
+  "explanation": "Peptidyl-prolyl cis-trans isomerases (PPIases) catalyze the rotation around X-Pro peptide bonds, which are particularly slow to isomerize, thereby accelerating rate-limiting steps in protein folding.",
+  "difficulty": "advanced",
+  "tags": ["peptide-bonds", "enzymatic-catalysis", "folding"]
+}

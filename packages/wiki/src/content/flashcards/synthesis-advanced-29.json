@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of solid-phase peptide synthesis automation?",
+  "back": "Automated synthesizers (Applied Biosystems, Gyros) control reagent delivery, coupling times, and washing cycles. Pre-programmed methods for Fmoc/Boc chemistry. High-throughput synthesis: 96-384 peptides simultaneously. Reduces labor and improves reproducibility.",
+  "tags": [
+    "synthesis",
+    "peptide-synthesis",
+    "automation"
+  ],
+  "difficulty": "advanced"
+}

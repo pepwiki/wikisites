@@ -1,0 +1,10 @@
+{
+  "front": "Describe the concept of organ-on-a-chip for drug testing.",
+  "back": "Organ-on-a-chip microdevices mimic organ physiology with flowing cultures. Applications: liver-on-chip (metabolism), lung-on-chip (barrier function), heart-on-chip (cardiotoxicity). Human-relevant, reduces animal testing, enables personalized medicine.",
+  "tags": [
+    "pharmacology",
+    "drug-development",
+    "biotechnology"
+  ],
+  "difficulty": "advanced"
+}

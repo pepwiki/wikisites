@@ -1,0 +1,10 @@
+{
+  "front": "Describe the role of glycosylation in viral immune evasion.",
+  "back": "Viral glycan shields (HIV gp120, SARS-CoV-2 spike) mask protein epitopes from antibodies. Host-like glycans (N-linked) prevent immune recognition. Site-directed glycan engineering can expose conserved epitopes. Glycan deletion creates immunogens with improved responses.",
+  "tags": [
+    "immunology",
+    "glycosylation",
+    "immune-evasion"
+  ],
+  "difficulty": "advanced"
+}

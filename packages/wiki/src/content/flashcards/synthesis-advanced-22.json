@@ -1,0 +1,10 @@
+{
+  "front": "How does microwave-assisted solid-phase peptide synthesis improve yield?",
+  "back": "Microwave heating (60-80C) during coupling and deprotection reduces aggregation and incomplete couplings. Typically 2-5 min per cycle vs 30-60 min conventional. Improved crude purity reduces chromatographic purification needs.",
+  "tags": [
+    "synthesis",
+    "peptide-synthesis",
+    "methodology"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,8 @@
+{
+  "question": "What term describes a drug that binds to a receptor and stabilizes an inactive conformation, preventing agonist binding?",
+  "options": ["Inverse agonist", "Negative allosteric modulator", "Silent antagonist", "Partial agonist"],
+  "correctIndex": 2,
+  "explanation": "A silent antagonist binds to the orthosteric site of a receptor without activating it, effectively blocking agonist access. It does not alter basal receptor activity, unlike an inverse agonist.",
+  "difficulty": "advanced",
+  "tags": ["pharmacology", "receptor-kinetics", "antagonist"]
+}

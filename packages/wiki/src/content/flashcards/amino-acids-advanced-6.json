@@ -1,0 +1,10 @@
+{
+  "front": "What are the key transporters for large neutral amino acids across the blood-brain barrier?",
+  "back": "System L (LAT1/SLC7A5) transports large neutral amino acids across the BBB. It exchanges amino acids and is sodium-independent. LAT1 is also the transporter for L-DOPA in Parkinson disease treatment. Mutations cause Hartnup disease.",
+  "tags": [
+    "amino-acids",
+    "transport",
+    "neuroscience"
+  ],
+  "difficulty": "advanced"
+}

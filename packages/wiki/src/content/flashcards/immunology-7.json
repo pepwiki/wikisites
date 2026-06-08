@@ -1,0 +1,10 @@
+{
+  "front": "What are the applications of mRNA vaccines beyond infectious disease?",
+  "back": "mRNA vaccines for cancer (personalized neoantigen vaccines), autoimmune diseases (tolerogenic mRNA), protein replacement therapy, gene editing (Cas9 mRNA). Advantages: rapid development, scalable manufacturing, no genomic integration risk. Lipid nanoparticle delivery essential.",
+  "tags": [
+    "immunology",
+    "mrna-vaccines",
+    "therapeutics"
+  ],
+  "difficulty": "advanced"
+}

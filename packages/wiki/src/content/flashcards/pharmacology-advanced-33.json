@@ -1,0 +1,10 @@
+{
+  "front": "What are the principles of drug design for CNS penetration?",
+  "back": "CNS drugs need: MW <450, logP 1-3, PSA <90 A^2, <8 H-bond donors, low P-gp efflux. Lipinski rules modified for CNS. Intranasal delivery bypasses BBB. Convection-enhanced delivery bypasses BBB for large molecules.",
+  "tags": [
+    "pharmacology",
+    "drug-design",
+    "neuroscience"
+  ],
+  "difficulty": "advanced"
+}

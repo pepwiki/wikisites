@@ -1,0 +1,10 @@
+{
+  "front": "What are the mechanisms of immune-related adverse events (irAEs) from checkpoint inhibitors?",
+  "back": "irAEs: autoimmune-like toxicity from enhanced immune activation. Mechanisms: loss of peripheral tolerance, pre-existing autoantibodies, molecular mimicry. Common: colitis, hepatitis, dermatitis, endocrinopathies. Management: corticosteroids, infliximab, vedolizumab.",
+  "tags": [
+    "immunology",
+    "checkpoint-inhibitors",
+    "toxicology"
+  ],
+  "difficulty": "advanced"
+}

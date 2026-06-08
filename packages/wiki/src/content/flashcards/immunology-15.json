@@ -1,0 +1,10 @@
+{
+  "front": "What are the applications of neoantigen-based cancer vaccines?",
+  "back": "Neoantigen vaccines target tumor-specific mutations. Workflow: tumor sequencing, HLA typing, neoantigen prediction, vaccine manufacturing. Personalized mRNA vaccines (Moderna BNT122) show clinical efficacy. Combination with checkpoint inhibitors enhances responses.",
+  "tags": [
+    "immunology",
+    "cancer-vaccines",
+    "neoantigens"
+  ],
+  "difficulty": "advanced"
+}

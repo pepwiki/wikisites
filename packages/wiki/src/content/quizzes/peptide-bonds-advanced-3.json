@@ -1,0 +1,13 @@
+{
+  "question": "In non-aqueous peptide synthesis, which activation strategy is preferred to minimize epimerization at the alpha-carbon?",
+  "options": [
+    "Acid chloride activation",
+    "Uronium/uronium-based coupling reagents such as HATU or HBTU",
+    "Carbodiimide activation without additives",
+    "Mixed anhydride activation with isobutyl chloroformate"
+  ],
+  "correctIndex": 1,
+  "explanation": "Uronium-based coupling reagents like HATU and HBTU, often used with base additives like DIPEA, form highly reactive OAt or OBt esters that minimize racemization while maintaining high coupling efficiency in non-aqueous conditions.",
+  "difficulty": "advanced",
+  "tags": ["peptide-bonds", "synthesis", "epimerization"]
+}

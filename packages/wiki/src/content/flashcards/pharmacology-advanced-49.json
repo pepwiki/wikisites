@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of physicochemical properties in drug-likeness?",
+  "back": "Key properties: MW (oral <500), logP (<5), HBD (<5), HBA (<10), PSA (<140 A^2), rotatable bonds (<10). Veber rules: TPSA <140, rotatable bonds <10. Beyond Rule of 5 for macrocycles, peptide-like drugs.",
+  "tags": [
+    "pharmacology",
+    "drug-design",
+    "medicinal-chemistry"
+  ],
+  "difficulty": "advanced"
+}

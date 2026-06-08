@@ -1,0 +1,10 @@
+{
+  "front": "Explain the design of nanoparticle-based vaccines mimicking viral structure.",
+  "back": "Self-assembling protein nanoparticles (ferritin, I53-50) display antigens in multivalent array. Nanoparticle vaccines enhance B cell activation through BCR cross-linking. SpFN (ferritin) displays SARS-CoV-2 spike receptor binding domain. Ferritin nanoparticles in clinical trials for influenza.",
+  "tags": [
+    "immunology",
+    "nanoparticle-vaccines",
+    "vaccine-design"
+  ],
+  "difficulty": "advanced"
+}

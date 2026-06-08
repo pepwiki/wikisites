@@ -1,0 +1,10 @@
+{
+  "front": "Explain the mechanism of PEGylation and its pharmacokinetic benefits.",
+  "back": "PEGylation attaches polyethylene glycol to proteins, increasing hydrodynamic radius and reducing renal clearance. Also shields from proteolysis and immune recognition. PEGylated interferons (PEG-IFN) have weekly dosing vs daily for unmodified IFN.",
+  "tags": [
+    "pharmacology",
+    "drug-design",
+    "biologics"
+  ],
+  "difficulty": "advanced"
+}

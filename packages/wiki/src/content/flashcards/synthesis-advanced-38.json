@@ -1,0 +1,10 @@
+{
+  "front": "How does the amber suppression technique enable site-specific labeling?",
+  "back": "Amber suppression: TAG codon recoded to incorporate ncAA with bioorthogonal handle. Cell-surface or intracellular proteins labeled with fluorophore-conjugated probe. Enables pulse-chase experiments, super-resolution imaging, and PTM mimics.",
+  "tags": [
+    "synthesis",
+    "genetic-code-expansion",
+    "labeling"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "What is the significance of protein amino acid racemization in Alzheimer disease?",
+  "back": "D-aspartate accumulates in amyloid-beta plaques in Alzheimer brains. Racemization of Asp in A-beta increases aggregation propensity and resistance to degradation. This may contribute to plaque persistence and neurotoxicity.",
+  "tags": [
+    "amino-acids",
+    "analysis",
+    "neuroscience"
+  ],
+  "difficulty": "expert"
+}

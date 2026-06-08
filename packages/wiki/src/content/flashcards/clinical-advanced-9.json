@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of precision dosing in clinical pharmacology?",
+  "back": "Precision dosing: individualized dosing based on patient factors (weight, genotype, organ function, disease state). Model-informed precision dosing (MIPD) uses Bayesian estimation. TDM-guided dosing for narrow therapeutic index drugs. Therapeutic drug monitoring protocols.",
+  "tags": [
+    "clinical",
+    "precision-dosing",
+    "pharmacokinetics"
+  ],
+  "difficulty": "advanced"
+}

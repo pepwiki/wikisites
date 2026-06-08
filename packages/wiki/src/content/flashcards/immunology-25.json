@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of the microbiome in modulating anti-tumor immunity?",
+  "back": "Gut microbiome affects checkpoint inhibitor efficacy. Akkermansia muciniphila, Faecalibacterium prausnitzii associated with response. Antibiotics reduce immunotherapy efficacy. Fecal microbiota transplant (FMT) can convert non-responders. Mechanism: enhanced T cell priming in lymph nodes.",
+  "tags": [
+    "immunology",
+    "microbiome",
+    "immunotherapy"
+  ],
+  "difficulty": "advanced"
+}

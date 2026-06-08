@@ -1,0 +1,10 @@
+{
+  "front": "How does protein binding affect drug distribution and efficacy?",
+  "back": "Only free (unbound) drug is pharmacologically active. Highly protein-bound drugs (warfarin 99%) are susceptible to displacement interactions. Free fraction determines Vd and clearance. Acidic drugs bind albumin; basic drugs bind alpha-1-acid glycoprotein.",
+  "tags": [
+    "pharmacology",
+    "pharmacokinetics",
+    "distribution"
+  ],
+  "difficulty": "advanced"
+}

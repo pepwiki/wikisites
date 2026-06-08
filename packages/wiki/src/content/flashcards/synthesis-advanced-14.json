@@ -1,0 +1,10 @@
+{
+  "front": "How does the Merrifield resin differ from Wang resin in peptide synthesis?",
+  "back": "Merrifield resin: chloromethyl polystyrene, peptide attached via ester bond, cleaved with HF/anisole. Wang resin: p-benzyloxybenzyl alcohol linker, cleaved with TFA. Wang resin is more acid-labile and compatible with Fmoc chemistry.",
+  "tags": [
+    "synthesis",
+    "peptide-synthesis",
+    "solid-phase"
+  ],
+  "difficulty": "advanced"
+}

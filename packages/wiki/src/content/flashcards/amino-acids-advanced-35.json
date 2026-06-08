@@ -1,0 +1,10 @@
+{
+  "front": "How do chiral amino acid columns enable enantiomeric separation?",
+  "back": "Polysaccharide-based chiral columns (Chiralpak, Chiralcel) separate amino acid enantiomers via hydrogen bonding and pi-pi interactions. Crown ether columns (Crownpak CR) complex L-amino acids. Ligand-exchange chromatography uses Cu(II)-amino acid complexes.",
+  "tags": [
+    "amino-acids",
+    "analysis",
+    "chromatography"
+  ],
+  "difficulty": "advanced"
+}

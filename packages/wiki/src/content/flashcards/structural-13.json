@@ -1,0 +1,10 @@
+{
+  "front": "What are the limitations of X-ray crystallography?",
+  "back": "Crystallization bottleneck: ~30% of proteins crystallize. Crystal contacts may distort native structure. Radiation damage. Static picture: time-averaged over millions of unit cells. Flexible regions poorly resolved. Membrane proteins require detergent/lipid environment.",
+  "tags": [
+    "structural-biology",
+    "x-ray-crystallography",
+    "limitations"
+  ],
+  "difficulty": "advanced"
+}

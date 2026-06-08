@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of albumin-binding for extending peptide half-life.",
+  "back": "Albumin-binding peptides (e.g., AlbudAb) or small molecules (SAH, fatty acids) non-covalently associate with serum albumin. Half-life extension depends on binding affinity. Advantages over PEGylation: smaller size, no immunogenicity, natural clearance.",
+  "tags": [
+    "delivery",
+    "half-life-extension",
+    "pharmacokinetics"
+  ],
+  "difficulty": "advanced"
+}

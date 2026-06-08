@@ -1,0 +1,13 @@
+{
+  "question": "In molecular dynamics (MD) simulations of peptides, what does the force field primarily describe?",
+  "options": [
+    "Quantum mechanical electron density distributions",
+    "Empirical potential energy functions governing atomic interactions",
+    "Solvent-accessible surface area calculations",
+    "Phylogenetic relationships between homologous proteins"
+  ],
+  "correctIndex": 1,
+  "explanation": "Force fields (such as CHARMM, AMBER, or OPLS) define empirical potential energy functions for bonded interactions (bonds, angles, dihedrals) and non-bonded interactions (van der Waals, electrostatics), governing atomic motion in classical MD simulations.",
+  "difficulty": "advanced",
+  "tags": ["structural-biology", "molecular-dynamics", "force-fields"]
+}

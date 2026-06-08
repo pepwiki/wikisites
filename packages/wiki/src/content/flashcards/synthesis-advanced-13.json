@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of pseudoprolines in peptide synthesis?",
+  "back": "Pseudoprolines (oxazolidines from Ser/Thr) act as temporary proline surrogates. They disrupt aggregation during SPPS and are cleaved during TFA deprotection. Effectively increase peptide solubility and coupling efficiency in difficult sequences.",
+  "tags": [
+    "synthesis",
+    "peptide-synthesis",
+    "methodology"
+  ],
+  "difficulty": "advanced"
+}

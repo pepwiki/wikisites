@@ -1,0 +1,10 @@
+{
+  "front": "How do antibody-drug conjugates (ADCs) combine targeting with cytotoxicity?",
+  "back": "ADCs = monoclonal antibody + linker + cytotoxic payload. Antibody provides tumor selectivity. Linker stability prevents premature release (cleavable vs non-cleavable). Payload potency (DM1, MMAE) enables killing at low drug-to-antibody ratios.",
+  "tags": [
+    "pharmacology",
+    "oncology",
+    "drug-design"
+  ],
+  "difficulty": "advanced"
+}

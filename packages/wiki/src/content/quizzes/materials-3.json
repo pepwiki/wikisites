@@ -1,0 +1,13 @@
+{
+  "question": "In peptide-based electrochemical biosensors, what role do peptide recognition elements play?",
+  "options": [
+    "They serve as conductive wires to transmit electrons to the electrode",
+    "They selectively bind target analytes, generating a measurable change in electrochemical signal",
+    "They catalyze the oxidation of the electrode surface",
+    "They prevent non-specific protein adsorption on the electrode"
+  ],
+  "correctIndex": 1,
+  "explanation": "Peptide recognition elements (aptamers, molecular imprinted peptides, or receptor-binding peptides) selectively capture target analytes. Binding events alter electrochemical properties (impedance, current, or potential) at the electrode surface, enabling sensitive and specific detection.",
+  "difficulty": "advanced",
+  "tags": ["materials", "biosensors", "electrochemistry"]
+}

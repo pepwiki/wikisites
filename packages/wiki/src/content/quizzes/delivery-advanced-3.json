@@ -1,0 +1,13 @@
+{
+  "question": "In microneedle array-based peptide delivery, what is the key advantage of dissolving microneedles over solid microneedles?",
+  "options": [
+    "They penetrate deeper into the dermis",
+    "They dissolve in the skin interstitial fluid, releasing drug without requiring patch removal of embedded needles",
+    "They can deliver larger molecular weight peptides",
+    "They do not require a backing layer"
+  ],
+  "correctIndex": 1,
+  "explanation": "Dissolving microneedles are fabricated from biodegradable polymers (such as PVP or PVA) that dissolve in skin interstitial fluid upon insertion. This releases the encapsulated peptide drug and eliminates sharp waste, improving patient safety and compliance.",
+  "difficulty": "advanced",
+  "tags": ["delivery", "microneedle-arrays", "transdermal"]
+}

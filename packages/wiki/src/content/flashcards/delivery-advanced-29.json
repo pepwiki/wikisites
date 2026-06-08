@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of multivalent ligand display on nanoparticles?",
+  "back": "Multivalent display increases avidity through multiple simultaneous binding events. Ligand density and spacing affect receptor clustering and internalization. Optimal density: too low = poor binding, too high = steric hindrance. Enables targeted delivery with enhanced cellular uptake.",
+  "tags": [
+    "delivery",
+    "multivalency",
+    "targeted-delivery"
+  ],
+  "difficulty": "advanced"
+}

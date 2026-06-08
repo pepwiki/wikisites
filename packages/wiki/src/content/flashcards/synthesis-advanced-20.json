@@ -1,0 +1,10 @@
+{
+  "front": "Explain the use of Ugi multicomponent reaction in peptide mimetic synthesis.",
+  "back": "Ugi reaction: amine + aldehyde + isocyanide + carboxylic acid -> bis-amide. One-pot, atom-economic, high-yielding. Products have peptide-like backbone. Diversity-oriented synthesis generates large libraries for biological screening.",
+  "tags": [
+    "synthesis",
+    "multicomponent-reactions",
+    "drug-discovery"
+  ],
+  "difficulty": "advanced"
+}

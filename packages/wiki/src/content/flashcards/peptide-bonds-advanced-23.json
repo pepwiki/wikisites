@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of peptide bond geometry in ion channel selectivity?",
+  "back": "Ion channels use backbone carbonyls and amides to coordinate ions. Potassium channels have signature sequence TVGYG forming the selectivity filter. Backbone carbonyls mimic water hydration shells, enabling selective K+ over Na+ conduction.",
+  "tags": [
+    "peptide-bonds",
+    "structural-biology",
+    "ion-channels"
+  ],
+  "difficulty": "advanced"
+}

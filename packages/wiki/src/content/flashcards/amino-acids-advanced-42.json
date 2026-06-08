@@ -1,0 +1,10 @@
+{
+  "front": "Describe the role of tryptophan hydroxylase in serotonin biosynthesis.",
+  "back": "Tryptophan hydroxylase (TPH) converts tryptophan to 5-hydroxytryptophan using BH4 as cofactor. TPH1 is peripheral; TPH2 is neuronal. Regulation occurs at transcriptional and post-translational levels. TPH2 mutations cause serotonin deficiency syndrome.",
+  "tags": [
+    "amino-acids",
+    "metabolism",
+    "neuroscience"
+  ],
+  "difficulty": "advanced"
+}

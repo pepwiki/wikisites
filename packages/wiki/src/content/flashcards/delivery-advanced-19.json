@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of biomimetic nanoparticles in drug delivery?",
+  "back": "Biomimetic nanoparticles: cell membrane-coated (erythrocyte, platelet, cancer cell), virus-like particles, outer membrane vesicles. Inherit source cell properties (long circulation, targeting, immune evasion). Enable combination of synthetic and biological features.",
+  "tags": [
+    "delivery",
+    "biomimetic",
+    "nanoparticles"
+  ],
+  "difficulty": "advanced"
+}

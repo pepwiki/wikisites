@@ -1,0 +1,13 @@
+{
+  "question": "In biomarker development for peptide therapeutics, what distinguishes a predictive biomarker from a prognostic biomarker?",
+  "options": [
+    "Predictive biomarkers indicate disease severity, while prognostic biomarkers predict drug response",
+    "Predictive biomarkers identify patients likely to respond to a specific therapy, while prognostic biomarkers indicate overall disease outcome regardless of treatment",
+    "Prognostic biomarkers are only used in Phase I trials",
+    "Predictive biomarkers require genomic analysis, while prognostic biomarkers do not"
+  ],
+  "correctIndex": 1,
+  "explanation": "Predictive biomarkers (e.g., HER2 amplification for trastuzumab) indicate which patients will benefit from a specific therapy. Prognostic biomarkers (e.g., tumor grade) indicate expected disease course independent of treatment, helping stratify risk.",
+  "difficulty": "advanced",
+  "tags": ["clinical", "biomarkers", "precision-medicine"]
+}

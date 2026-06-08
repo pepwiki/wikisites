@@ -1,0 +1,10 @@
+{
+  "front": "What are the principles of PK/PD modeling in drug development?",
+  "back": "PK/PD modeling links drug exposure to pharmacological effect. PK: absorption, distribution, metabolism, excretion. PD: concentration-effect relationship. Emax models, sigmoid Emax, direct/indirect response models. Applications: dose selection, clinical trial simulation, regulatory submissions.",
+  "tags": [
+    "clinical",
+    "pk-pd",
+    "modeling"
+  ],
+  "difficulty": "advanced"
+}

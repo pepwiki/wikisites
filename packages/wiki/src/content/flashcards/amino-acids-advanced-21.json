@@ -1,0 +1,10 @@
+{
+  "front": "What is the significance of Nepsilon-methyllysine in histone modification?",
+  "back": "Methyllysine residues on histones (H3K4, H3K9, H3K27, H3K36, H4K20) are written by methyltransferases and erased by demethylases. Methylation state determines gene activation or repression. H3K4me3 marks active promoters; H3K9me3 marks heterochromatin.",
+  "tags": [
+    "amino-acids",
+    "post-translational-modifications",
+    "epigenetics"
+  ],
+  "difficulty": "advanced"
+}

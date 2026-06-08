@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of peptide bond rotational barriers in NMR spectroscopy?",
+  "back": "Restricted rotation about peptide bonds gives rise to cis-trans isomers detectable by NMR. Slow exchange on NMR timescale produces separate peaks. Chemical shift differences of 0.1-0.5 ppm distinguish cis and trans conformers.",
+  "tags": [
+    "peptide-bonds",
+    "spectroscopy",
+    "nuclear-magnetic-resonance"
+  ],
+  "difficulty": "advanced"
+}

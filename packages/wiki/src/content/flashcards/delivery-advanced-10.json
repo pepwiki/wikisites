@@ -1,0 +1,10 @@
+{
+  "front": "Describe the concept of stimuli-responsive peptide delivery systems.",
+  "back": "Stimuli-responsive release: pH (tumor microenvironment ~6.5, endosome ~5), temperature (LCST polymers), redox (GSH in cytosol), enzymes (MMP, cathepsin), light (UV, NIR). Enables spatiotemporal control of drug release at target sites.",
+  "tags": [
+    "delivery",
+    "stimuli-responsive",
+    "smart-materials"
+  ],
+  "difficulty": "advanced"
+}

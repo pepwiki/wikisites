@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of peptide stapling using olefin metathesis.",
+  "back": "All-hydrocarbon staples use Grubbs catalyst for ring-closing metathesis of terminal alkenes on i,i+3 or i,i+7 positions. Stapled peptides have increased helicity, protease resistance, and cell permeability. ALRN-6924 (MDM2/MDMX inhibitor) is a clinical example.",
+  "tags": [
+    "synthesis",
+    "peptide-synthesis",
+    "drug-design"
+  ],
+  "difficulty": "advanced"
+}

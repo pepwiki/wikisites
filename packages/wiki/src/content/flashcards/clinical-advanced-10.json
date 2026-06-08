@@ -1,0 +1,10 @@
+{
+  "front": "Explain the principles of adaptive platform trials for pandemic response.",
+  "back": "Platform trials: continuous enrollment, multiple arms, shared control, pre-specified adaptation rules. REMAP-CAP (pneumonia), SOLIDARITY (COVID-19). Rapid identification of effective therapies. Bayesian response-adaptive randomization. International collaboration essential.",
+  "tags": [
+    "clinical",
+    "platform-trials",
+    "pandemic-response"
+  ],
+  "difficulty": "advanced"
+}

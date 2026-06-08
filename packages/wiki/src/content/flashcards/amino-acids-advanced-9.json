@@ -1,0 +1,10 @@
+{
+  "front": "Describe the citrullination reaction and its role in autoimmune disease.",
+  "back": "Citrullination is the conversion of arginine to citrulline by peptidylarginine deiminases (PADs). Anti-citrullinated protein antibodies (ACPA) are diagnostic for rheumatoid arthritis. Citrullination also occurs in NETosis and dead cell clearance.",
+  "tags": [
+    "amino-acids",
+    "post-translational-modifications",
+    "immunology"
+  ],
+  "difficulty": "advanced"
+}

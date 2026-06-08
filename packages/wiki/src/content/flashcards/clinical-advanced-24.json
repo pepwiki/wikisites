@@ -1,0 +1,10 @@
+{
+  "front": "Describe the concept of target product profile (TPP) in drug development.",
+  "back": "TPP: written description of ideal drug product. Defines indication, patient population, dosing, safety profile, efficacy claims. Guides development strategy. ICH M4 CTD structure. Quality target product profile (QTPP) for CMC. Regular updates as knowledge accumulates.",
+  "tags": [
+    "clinical",
+    "target-product-profile",
+    "drug-development"
+  ],
+  "difficulty": "advanced"
+}

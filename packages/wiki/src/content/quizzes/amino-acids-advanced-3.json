@@ -1,0 +1,13 @@
+{
+  "question": "In amino acid metabolism, what is the primary role of transamination reactions?",
+  "options": [
+    "Synthesizing essential amino acids from scratch",
+    "Transferring an amino group from an amino acid to a keto acid",
+    "Oxidatively removing the amino group as ammonia",
+    "Converting amino acids into fatty acids"
+  ],
+  "correctIndex": 1,
+  "explanation": "Transamination reactions, catalyzed by aminotransferases, transfer amino groups between amino acids and alpha-keto acids, redistributing nitrogen among amino acid pools.",
+  "difficulty": "advanced",
+  "tags": ["amino-acids", "metabolism", "transamination"]
+}

@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of peptide bonds in cyclic peptide cell permeability?",
+  "back": "Cyclic peptides (cyclosporine, vancomycin) can cross membranes despite having polar amide bonds. Intramolecular hydrogen bonds shield polar groups, creating a hydrophobic exterior. N-methylation further reduces polarity and increases permeability.",
+  "tags": [
+    "peptide-bonds",
+    "drug-design",
+    "membrane-transport"
+  ],
+  "difficulty": "advanced"
+}

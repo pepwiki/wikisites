@@ -1,0 +1,13 @@
+{
+  "question": "In immunogenicity assessment of therapeutic peptides, which assay is used to measure anti-drug antibody (ADA) titers in patient serum?",
+  "options": [
+    "Enzyme-linked immunosorbent assay (ELISA) with bridging format",
+    "Western blot for protein detection",
+    "Polymerase chain reaction for gene expression",
+    "Flow cytometry for cell surface markers"
+  ],
+  "correctIndex": 0,
+  "explanation": "Bridging ELISA assays use biotinylated and detection-labeled drug to capture ADAs in a sandwich format. This sensitive method measures ADA titers and is the standard approach for immunogenicity testing in clinical programs.",
+  "difficulty": "advanced",
+  "tags": ["immunology", "immunogenicity", "bioanalytical"]
+}

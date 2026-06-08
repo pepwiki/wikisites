@@ -1,0 +1,10 @@
+{
+  "front": "Explain the application of ML/AI in cryo-EM data processing.",
+  "back": "Deep learning for particle picking (crYOLO, TOPAZ), 2D classification (cryoDRGN), 3D refinement. Neural networks for CTF estimation, motion correction. Generative models for density refinement. Reduces manual intervention and improves throughput.",
+  "tags": [
+    "structural-biology",
+    "cryo-em",
+    "machine-learning"
+  ],
+  "difficulty": "advanced"
+}

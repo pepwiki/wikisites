@@ -1,0 +1,10 @@
+{
+  "front": "What are T-cell epitopes and how are they predicted?",
+  "back": "T-cell epitopes are 8-25 amino acid peptides presented by MHC molecules. MHC-I presents intracellular peptides (8-10 aa) to CD8+ T cells. MHC-II presents extracellular peptides (13-25 aa) to CD4+ T cells. Prediction: NetMHCpan, IEDB consensus algorithms.",
+  "tags": [
+    "immunology",
+    "epitopes",
+    "t-cells"
+  ],
+  "difficulty": "advanced"
+}

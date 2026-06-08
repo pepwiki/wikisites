@@ -1,0 +1,10 @@
+{
+  "front": "What is the application of mass photometry in structural biology?",
+  "back": "Mass photometry measures mass of single molecules in solution by interferometric scattering microscopy. Determines oligomeric state, conformational heterogeneity, and binding events. Label-free, in solution. Complementary to cryo-EM and AUC.",
+  "tags": [
+    "structural-biology",
+    "mass-photometry",
+    "biophysics"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of flow chemistry in pharmaceutical manufacturing?",
+  "back": "Flow chemistry enables continuous production with better heat/mass transfer, safety (small volumes), and reproducibility. Telescoped reactions eliminate intermediate isolation. PAT (process analytical technology) enables real-time monitoring and control.",
+  "tags": [
+    "synthesis",
+    "manufacturing",
+    "process-chemistry"
+  ],
+  "difficulty": "advanced"
+}

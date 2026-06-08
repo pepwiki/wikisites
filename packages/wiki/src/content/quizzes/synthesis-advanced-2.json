@@ -1,0 +1,13 @@
+{
+  "question": "In native chemical ligation (NCL), what type of cysteine-containing peptide fragment is required at the ligation junction?",
+  "options": [
+    "An N-terminal cysteine on the C-terminal fragment",
+    "A C-terminal thioester on the N-terminal fragment reacting with an N-terminal cysteine",
+    "A C-terminal cysteine on the N-terminal fragment",
+    "An N-terminal thioester on the C-terminal fragment"
+  ],
+  "correctIndex": 1,
+  "explanation": "NCL requires a C-terminal thioester on one peptide fragment reacting with an N-terminal cysteine on the adjacent fragment. The thiol group of cysteine undergoes transthioesterification followed by an S-to-N acyl shift, forming a native peptide bond.",
+  "difficulty": "advanced",
+  "tags": ["synthesis", "native-chemical-ligation", "peptide-assembly"]
+}

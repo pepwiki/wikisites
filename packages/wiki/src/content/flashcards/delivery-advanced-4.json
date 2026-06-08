@@ -1,0 +1,10 @@
+{
+  "front": "Describe the concept of microneedle drug delivery systems.",
+  "back": "Microneedles (25-1000 um) penetrate stratum corneum without reaching nerves. Types: solid (poke and patch), coated, dissolving (sugar-based), hollow (infusion). Enable transdermal delivery of vaccines, proteins, and small molecules. Painless and self-administrable.",
+  "tags": [
+    "delivery",
+    "microneedles",
+    "transdermal"
+  ],
+  "difficulty": "advanced"
+}

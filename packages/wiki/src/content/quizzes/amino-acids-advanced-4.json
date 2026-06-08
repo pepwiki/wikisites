@@ -1,0 +1,8 @@
+{
+  "question": "Which amino acid transporter system is primarily responsible for large neutral amino acid transport across the blood-brain barrier?",
+  "options": ["System XAG", "System L", "System A", "System y+"],
+  "correctIndex": 1,
+  "explanation": "System L transporters (LAT1/LAT2) mediate sodium-independent transport of large neutral amino acids, including branched-chain and aromatic amino acids, across the blood-brain barrier.",
+  "difficulty": "advanced",
+  "tags": ["amino-acids", "transporters", "blood-brain-barrier"]
+}

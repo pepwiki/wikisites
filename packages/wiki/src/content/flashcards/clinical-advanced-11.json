@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of exposure-response analysis in dose selection?",
+  "back": "Exposure-response analysis links PK exposure (AUC, Cmax, Cmin) to efficacy and safety outcomes. Characterizes therapeutic window. Identifies dose-response plateau. Supports dose justification for special populations. Population PK/PD modeling integrates variability.",
+  "tags": [
+    "clinical",
+    "exposure-response",
+    "dose-selection"
+  ],
+  "difficulty": "advanced"
+}

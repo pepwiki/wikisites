@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of protecting groups in solid-phase peptide synthesis?",
+  "back": "Fmoc (base-labile) protects alpha-amino group; removed with 20% piperidine. Side chains protected with acid-labile groups (tBu, Trt, Pbf). orthogonal protection enables selective deprotection. Coupling with HATU/HOBt/DIC activates carboxyl group.",
+  "tags": [
+    "synthesis",
+    "peptide-synthesis",
+    "protecting-groups"
+  ],
+  "difficulty": "advanced"
+}

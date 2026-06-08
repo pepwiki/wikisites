@@ -1,0 +1,8 @@
+{
+  "question": "Which post-translational modification adds a phosphate group to serine, threonine, or tyrosine residues?",
+  "options": ["Glycosylation", "Phosphorylation", "Acetylation", "Methylation"],
+  "correctIndex": 1,
+  "explanation": "Phosphorylation is catalyzed by kinases and adds a phosphate group to the hydroxyl side chains of serine, threonine, or tyrosine residues, regulating protein function.",
+  "difficulty": "advanced",
+  "tags": ["amino-acids", "post-translational-modifications"]
+}

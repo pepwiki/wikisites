@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of arginine in the urea cycle and nitric oxide production?",
+  "back": "Arginine is the substrate for both arginase (urea cycle, producing ornithine and urea) and nitric oxide synthase (NOS, producing citrulline and NO). The competition between these pathways regulates ureagenesis and NO production in hepatocytes and macrophages.",
+  "tags": [
+    "amino-acids",
+    "metabolism",
+    "biochemistry"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "Describe the concept of target-mediated drug disposition (TMDD).",
+  "back": "TMDD occurs when drug binding to its pharmacological target significantly affects PK. Examples: monoclonal antibodies (receptor-mediated clearance), EPO (receptor binding), warfarin (albumin binding). Models include quasi-equilibrium and rapid binding approximations.",
+  "tags": [
+    "pharmacology",
+    "pharmacokinetics",
+    "modeling"
+  ],
+  "difficulty": "expert"
+}

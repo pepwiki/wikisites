@@ -1,0 +1,10 @@
+{
+  "front": "What are the principles of equivalence and non-inferiority trial design?",
+  "back": "Non-inferiority: new treatment not worse than active control by pre-specified margin (delta). Equivalence: treatments similar within margin. Margin selection based on clinical judgment, regulatory precedent, and assay sensitivity. ITT and per-protocol populations both required.",
+  "tags": [
+    "clinical",
+    "non-inferiority",
+    "trial-design"
+  ],
+  "difficulty": "advanced"
+}

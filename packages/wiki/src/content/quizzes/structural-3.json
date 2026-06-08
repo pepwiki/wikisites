@@ -1,0 +1,13 @@
+{
+  "question": "What is the primary limitation of X-ray crystallography for studying membrane-bound peptide receptors?",
+  "options": [
+    "It cannot resolve atoms smaller than carbon",
+    "It requires protein crystals, which are difficult to obtain for membrane proteins in lipid environments",
+    "It only works at room temperature",
+    "It cannot distinguish between different amino acid residues"
+  ],
+  "correctIndex": 1,
+  "explanation": "X-ray crystallography requires well-ordered crystals, and membrane proteins must be extracted from their lipid bilayer environment using detergents or reconstituted into lipidic cubic phases. This process often reduces conformational heterogeneity and may not capture physiologically relevant states.",
+  "difficulty": "advanced",
+  "tags": ["structural-biology", "x-ray-crystallography", "membrane-proteins"]
+}

@@ -1,0 +1,10 @@
+{
+  "front": "What is the concept of chronopharmacology?",
+  "back": "Chronopharmacology studies time-dependent drug effects. Corticosteroids given in morning mimic physiological rhythm. Statins given at night target nighttime cholesterol synthesis. Chronotherapy adjusts dosing to circadian patterns for improved efficacy and reduced toxicity.",
+  "tags": [
+    "pharmacology",
+    "pharmacodynamics",
+    "circadian"
+  ],
+  "difficulty": "advanced"
+}

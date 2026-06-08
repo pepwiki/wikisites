@@ -1,0 +1,10 @@
+{
+  "front": "How do monoclonal antibodies differ in PK from small molecules?",
+  "back": "mAbs: ~150 kDa, low Vd (extracellular fluid), FcRn-mediated recycling extends half-life (21 days typical), linear PK at low doses, nonlinear at high doses due to target saturation. Small molecules: rapid distribution, hepatic metabolism, shorter half-lives.",
+  "tags": [
+    "pharmacology",
+    "pharmacokinetics",
+    "biologics"
+  ],
+  "difficulty": "advanced"
+}

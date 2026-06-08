@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of chemical protein synthesis using ligation-desulfurization.",
+  "back": "Protein synthesis: NCL of peptide thioesters + Cys peptides -> desulfurization (Raney Ni or VA-044) converts Cys to Ala. Extended to other residues using Ala/Cys/Gly/Val/Phe at ligation sites. Enables total chemical synthesis of proteins up to ~200 residues.",
+  "tags": [
+    "synthesis",
+    "native-chemical-ligation",
+    "protein-synthesis"
+  ],
+  "difficulty": "advanced"
+}

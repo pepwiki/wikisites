@@ -1,0 +1,10 @@
+{
+  "front": "Explain the mechanism of CYP450 inhibition and drug interactions.",
+  "back": "CYP inhibitors include reversible (ketoconazole - competitive) and irreversible (erythromycin - mechanism-based) types. CYP3A4 metabolizes ~50% of drugs. Co-administration with inhibitors increases AUC of substrates, potentially causing toxicity.",
+  "tags": [
+    "pharmacology",
+    "drug-interactions",
+    "metabolism"
+  ],
+  "difficulty": "advanced"
+}

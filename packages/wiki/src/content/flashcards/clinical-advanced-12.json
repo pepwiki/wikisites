@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of clinical trial simulation and its applications.",
+  "back": "Clinical trial simulation uses mathematical models to predict trial outcomes. PK/PD models, patient population models, trial design parameters. Applications: sample size estimation, design optimization, sensitivity analysis, risk assessment. Software: NONMEM, Monolix, Phoenix.",
+  "tags": [
+    "clinical",
+    "trial-simulation",
+    "modeling"
+  ],
+  "difficulty": "advanced"
+}

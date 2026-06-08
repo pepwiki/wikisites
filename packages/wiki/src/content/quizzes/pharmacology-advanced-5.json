@@ -1,0 +1,13 @@
+{
+  "question": "In peptide formulation science, what is the primary advantage of PEGylation for improving pharmacokinetics?",
+  "options": [
+    "It increases receptor binding affinity",
+    "It reduces renal clearance and proteolytic degradation by increasing hydrodynamic radius",
+    "It enhances oral bioavailability by improving membrane permeability",
+    "It enables blood-brain barrier penetration"
+  ],
+  "correctIndex": 1,
+  "explanation": "PEGylation attaches polyethylene glycol chains to peptides, increasing their effective hydrodynamic radius. This reduces glomerular filtration in the kidney and shields the peptide from proteolytic enzymes, extending plasma half-life.",
+  "difficulty": "advanced",
+  "tags": ["pharmacology", "formulation", "pegylation"]
+}

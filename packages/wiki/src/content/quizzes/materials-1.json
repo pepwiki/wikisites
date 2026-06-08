@@ -1,0 +1,13 @@
+{
+  "question": "In peptide-based self-assembly, what is the primary driving force for the formation of beta-sheet-rich nanofibers in aqueous solution?",
+  "options": [
+    "Covalent disulfide bond formation between cysteine residues",
+    "Hydrophobic collapse of nonpolar side chains combined with intermolecular hydrogen bonding between peptide backbones",
+    "Electrostatic repulsion between charged residues",
+    "Van der Waals forces between aromatic side chains only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Peptide self-assembly into nanofibers is driven by a combination of hydrophobic interactions (excluding water from nonpolar surfaces) and backbone hydrogen bonding that stabilizes beta-sheet architectures. These non-covalent forces cooperate to form ordered supramolecular structures.",
+  "difficulty": "advanced",
+  "tags": ["materials", "self-assembly", "nanofibers"]
+}

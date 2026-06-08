@@ -1,0 +1,10 @@
+{
+  "front": "What are the mechanisms of T-cell exhaustion in chronic infection and cancer?",
+  "back": "T-cell exhaustion: progressive loss of effector function (IL-2, TNF-alpha, IFN-gamma). Transcription factors: TOX, NR4A. Exhaustion markers: PD-1, TIM-3, LAG-3, TIGIT. Epigenetic stability of exhaustion limits checkpoint inhibitor efficacy. Strategies: early intervention, combination therapy.",
+  "tags": [
+    "immunology",
+    "t-cell-exhaustion",
+    "immunotherapy"
+  ],
+  "difficulty": "advanced"
+}

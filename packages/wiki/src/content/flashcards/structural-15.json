@@ -1,0 +1,10 @@
+{
+  "front": "What is the role of AlphaFold in structural biology and its limitations?",
+  "back": "AlphaFold provides accurate structure predictions (GDT-TS >90 for many targets). Limitations: does not predict dynamics, ligand binding, or protein-protein interactions reliably. Predicts single conformation. Experimental validation still needed. Complementary to experimental methods.",
+  "tags": [
+    "structural-biology",
+    "computational",
+    "prediction"
+  ],
+  "difficulty": "advanced"
+}

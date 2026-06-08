@@ -1,0 +1,26 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import DailyChallenge from "../components/DailyChallenge.tsx";
+import { getCollection } from "astro:content";
+
+const allQuizzes = await getCollection("quizzes");
+const questions = allQuizzes.map((entry) => ({
+  id: entry.id,
+  question: entry.data.question,
+  options: entry.data.options,
+  correctIndex: entry.data.correctIndex,
+  explanation: entry.data.explanation,
+  difficulty: entry.data.difficulty,
+  tags: entry.data.tags,
+}));
+---
+
+<BaseLayout title="Daily Challenge">
+  <h1 class="text-4xl font-extrabold mb-8 text-slate-900">Daily Challenge</h1>
+  <p class="text-slate-600 mb-8">
+    10 questions selected fresh each day. Same challenge for everyone worldwide.
+  </p>
+  <div class="max-w-2xl mx-auto">
+    <DailyChallenge client:load questions={questions} />
+  </div>
+</BaseLayout>

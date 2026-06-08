@@ -1,0 +1,10 @@
+{
+  "front": "Explain the principles of redox-responsive drug delivery systems.",
+  "back": "Redox-responsive systems exploit GSH gradient (extracellular ~2 um, intracellular ~10 mM). Disulfide bonds, diselenide bonds, and thioketal linkers cleave in reducing environment. Enables intracellular drug release after endosomal escape. Tumor microenvironment has elevated GSH.",
+  "tags": [
+    "delivery",
+    "stimuli-responsive",
+    "redox"
+  ],
+  "difficulty": "advanced"
+}

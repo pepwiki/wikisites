@@ -1,0 +1,10 @@
+{
+  "front": "What are the advantages of NMR spectroscopy for studying protein dynamics?",
+  "back": "NMR provides atomic-resolution information in solution state. Detects motions from picoseconds to seconds. Heteronuclear experiments (15N, 13C) provide residue-specific data. Chemical shift perturbation maps binding interfaces. Residual dipolar couplings determine long-range order.",
+  "tags": [
+    "structural-biology",
+    "nuclear-magnetic-resonance",
+    "dynamics"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,10 @@
+{
+  "front": "How do electroporation-based delivery systems work?",
+  "back": "Electroporation applies brief electrical pulses (ms) to create transient pores in cell membranes. Reversible electroporation enables intracellular delivery of peptides, nucleic acids, and drugs. Used for tumor treatment (Irreversible Electroporation) and ex vivo cell engineering.",
+  "tags": [
+    "delivery",
+    "electroporation",
+    "physical-methods"
+  ],
+  "difficulty": "advanced"
+}

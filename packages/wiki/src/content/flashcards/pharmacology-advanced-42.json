@@ -1,0 +1,10 @@
+{
+  "front": "Explain the concept of molecular mimicry in drug hypersensitivity.",
+  "back": "Drug hypersensitivity involves immune recognition of drug-protein adducts. HLA alleles predict risk: HLA-B*5701 (abacavir), HLA-B*1502 (carbamazepine in Asians). T-cell mediated delayed reactions involve cross-reactive drug-specific T cells.",
+  "tags": [
+    "pharmacology",
+    "immunology",
+    "toxicology"
+  ],
+  "difficulty": "advanced"
+}

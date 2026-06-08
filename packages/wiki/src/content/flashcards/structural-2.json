@@ -1,0 +1,10 @@
+{
+  "front": "Explain the principle of X-ray crystallography for protein structure determination.",
+  "back": "X-ray crystallography measures diffraction patterns from protein crystals. Bragg law relates diffraction angle to d-spacing. Phasing problem solved by molecular replacement, SAD, or MIR. Electron density maps refined to atomic models. Resolution determines detail level.",
+  "tags": [
+    "structural-biology",
+    "x-ray-crystallography",
+    "imaging"
+  ],
+  "difficulty": "advanced"
+}
