@@ -1,0 +1,8 @@
+{
+  "question": "What force field is commonly used for peptide simulations?",
+  "options": ["AMBER, CHARMM, or OPLS", "Gaussian", "B3LYP", "Hartree-Fock"],
+  "correctIndex": 0,
+  "explanation": "AMBER, CHARMM, and OPLS are empirical force fields commonly used for molecular dynamics simulations of peptides and proteins.",
+  "difficulty": "advanced",
+  "tags": ["computational", "force-fields"]
+}

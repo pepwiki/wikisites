@@ -1,0 +1,6 @@
+{
+  "front": "What is the molecular weight of glycine (the smallest amino acid)?",
+  "back": "75.03 Da (the lightest standard amino acid).",
+  "tags": ["amino-acids", "properties"],
+  "difficulty": "intermediate"
+}

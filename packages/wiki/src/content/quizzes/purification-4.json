@@ -1,0 +1,8 @@
+{
+  "question": "What is the purpose of a gradient in HPLC?",
+  "options": ["To change solvent composition over time for better separation", "To increase pressure", "To cool the column", "To detect peptides"],
+  "correctIndex": 0,
+  "explanation": "A gradient changes the solvent composition (e.g., increasing acetonitrile) over time to optimize separation of peptides with different hydrophobicities.",
+  "difficulty": "intermediate",
+  "tags": ["purification", "hplc"]
+}

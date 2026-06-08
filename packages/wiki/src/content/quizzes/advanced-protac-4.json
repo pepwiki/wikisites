@@ -1,0 +1,8 @@
+{
+  "question": "Which E3 ligase is most commonly recruited by clinical-stage PROTACs?",
+  "options": ["VHL and CRBN (cereblon)", "MDM2", "TRAF6", "Parkin"],
+  "correctIndex": 0,
+  "explanation": "VHL (von Hippel-Lindau) and CRBN (cereblon) are the two most commonly used E3 ligases in PROTAC design.",
+  "difficulty": "advanced",
+  "tags": ["advanced", "protac"]
+}

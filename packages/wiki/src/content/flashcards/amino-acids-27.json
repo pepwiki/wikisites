@@ -1,0 +1,6 @@
+{
+  "front": "What is the pKa of the histidine side chain?",
+  "back": "Approximately 6.0, making it the only standard amino acid with a side chain near physiological pH.",
+  "tags": ["amino-acids", "chemistry"],
+  "difficulty": "intermediate"
+}

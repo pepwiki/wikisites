@@ -1,0 +1,8 @@
+{
+  "question": "Which direction are peptides synthesized in vivo?",
+  "options": ["C-terminus to N-terminus", "N-terminus to C-terminus", "Random direction", "Both ends simultaneously"],
+  "correctIndex": 1,
+  "explanation": "Ribosomes synthesize peptides from the N-terminus to the C-terminus, adding each new amino acid to the carboxyl end of the growing chain.",
+  "difficulty": "beginner",
+  "tags": ["peptide-bonds", "synthesis"]
+}

@@ -1,0 +1,6 @@
+{
+  "front": "What are the four levels of protein structure?",
+  "back": "Primary (sequence), secondary (local folding like alpha helices and beta sheets), tertiary (overall 3D fold), and quaternary (multi-subunit assembly).",
+  "tags": ["protein-structure", "levels"],
+  "difficulty": "beginner"
+}

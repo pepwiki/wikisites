@@ -1,0 +1,6 @@
+{
+  "front": "Which amino acids are negatively charged at physiological pH?",
+  "back": "Aspartic acid (Asp) and glutamic acid (Glu).",
+  "tags": ["amino-acids", "classification"],
+  "difficulty": "beginner"
+}

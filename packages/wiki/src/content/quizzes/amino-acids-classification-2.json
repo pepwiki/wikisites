@@ -1,0 +1,8 @@
+{
+  "question": "Which of the following is a positively charged amino acid at physiological pH?",
+  "options": ["Aspartate", "Glutamate", "Lysine", "Serine"],
+  "correctIndex": 2,
+  "explanation": "Lysine has an epsilon-amino group that is protonated at physiological pH, giving it a positive charge.",
+  "difficulty": "intermediate",
+  "tags": ["amino-acids", "classification"]
+}

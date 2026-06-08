@@ -1,0 +1,6 @@
+{
+  "front": "What is the typical bond length of a peptide bond?",
+  "back": "Approximately 1.33 Angstroms, shorter than a typical C-N single bond due to partial double bond character.",
+  "tags": ["peptide-bonds", "geometry"],
+  "difficulty": "intermediate"
+}

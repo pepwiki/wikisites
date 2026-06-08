@@ -1,0 +1,8 @@
+{
+  "question": "What is an allosteric modulator?",
+  "options": ["A ligand that binds at a site different from the orthosteric site", "A ligand that binds at the same site as the natural agonist", "An irreversible antagonist", "A competitive inhibitor"],
+  "correctIndex": 0,
+  "explanation": "Allosteric modulators bind to a site distinct from the orthosteric (agonist) binding site and can enhance or inhibit receptor function.",
+  "difficulty": "advanced",
+  "tags": ["receptors", "binding"]
+}

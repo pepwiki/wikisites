@@ -1,0 +1,8 @@
+{
+  "question": "Which amino acid has the one-letter code M?",
+  "options": ["Methionine", "Phenylalanine", "Leucine", "Isoleucine"],
+  "correctIndex": 0,
+  "explanation": "Methionine is abbreviated as M, which is also the start codon (AUG) that codes for methionine.",
+  "difficulty": "beginner",
+  "tags": ["amino-acids", "codes"]
+}

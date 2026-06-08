@@ -1,0 +1,6 @@
+{
+  "front": "What is a gradient in HPLC?",
+  "back": "A programmed change in solvent composition over time (e.g., increasing acetonitrile concentration) to optimize peptide separation.",
+  "tags": ["purification", "hplc"],
+  "difficulty": "intermediate"
+}

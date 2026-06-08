@@ -1,0 +1,6 @@
+{
+  "front": "What are the hydrogen bonding partners in an alpha helix?",
+  "back": "The C=O of residue i hydrogen bonds to the N-H of residue i+4.",
+  "tags": ["peptide-bonds", "hydrogen-bonding"],
+  "difficulty": "intermediate"
+}

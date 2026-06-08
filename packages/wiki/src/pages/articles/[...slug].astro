@@ -12,6 +12,20 @@ export async function getStaticPaths() {
 
 const { article } = Astro.props;
 const { Content } = await render(article);
+
+// Extract headings for Table of Contents
+const headingRegex = /^#{2,3}\s+(.+)$/gm;
+const headings = [];
+let match;
+while ((match = headingRegex.exec(article.body)) !== null) {
+  const level = match[0].startsWith("### ") ? 3 : 2;
+  const text = match[1].trim();
+  const id = text
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+  headings.push({ level, text, id });
+}
 ---
 
 <BaseLayout title={article.data.title} description={article.data.description}>
@@ -68,6 +82,24 @@ const { Content } = await render(article);
         )
       }
     </header>
+
+    {headings.length > 0 && (
+      <nav class="mb-8 p-4 bg-slate-50 rounded-xl border border-slate-200">
+        <h3 class="text-sm font-semibold text-slate-900 mb-3">Table of Contents</h3>
+        <ul class="space-y-1">
+          {headings.map((h) => (
+            <li class={h.level === 3 ? "ml-4" : ""}>
+              <a
+                href={`#${h.id}`}
+                class="text-sm text-slate-600 hover:text-[#0D9488] transition-colors"
+              >
+                {h.text}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    )}
 
     <div class="prose prose-slate max-w-none">
       <Content />

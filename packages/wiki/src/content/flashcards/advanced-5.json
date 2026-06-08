@@ -1,0 +1,6 @@
+{
+  "front": "What is PROTAC?",
+  "back": "Proteolysis-Targeting Chimera - a bifunctional molecule that recruits an E3 ligase to a target protein for ubiquitination and degradation.",
+  "tags": ["advanced", "protac"],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,8 @@
+{
+  "question": "What method is commonly used for head-to-tail cyclization in solution?",
+  "options": ["Dilute solution coupling to minimize intermolecular reactions", "Solid-phase synthesis without cleavage", "Enzymatic ligation only", "Native chemical ligation at high concentration"],
+  "correctIndex": 0,
+  "explanation": "Dilute solution conditions favor intramolecular cyclization over intermolecular polymerization during head-to-tail cyclization.",
+  "difficulty": "advanced",
+  "tags": ["advanced", "cyclic-peptides"]
+}

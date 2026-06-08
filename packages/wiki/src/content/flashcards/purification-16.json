@@ -1,0 +1,6 @@
+{
+  "front": "What is HPLC column temperature used for?",
+  "back": "Controlling column temperature improves separation reproducibility and peak shape, typically maintained at 30-50 degrees C.",
+  "tags": ["purification", "hplc"],
+  "difficulty": "intermediate"
+}

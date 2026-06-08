@@ -1,0 +1,8 @@
+{
+  "question": "What is the alanine scan in the context of stapled peptide design?",
+  "options": ["Systematically replacing residues with alanine to identify critical binding contacts", "Replacing all residues with alanine", "Adding alanine to improve stability", "A method for synthesizing stapled peptides"],
+  "correctIndex": 0,
+  "explanation": "An alanine scan replaces each residue with alanine one at a time to determine which positions are critical for binding or activity.",
+  "difficulty": "advanced",
+  "tags": ["advanced", "stapled-peptides"]
+}

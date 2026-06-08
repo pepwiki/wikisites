@@ -1,0 +1,6 @@
+{
+  "front": "What are the 20 standard amino acids?",
+  "back": "Gly, Ala, Val, Leu, Ile, Pro, Phe, Tyr, Trp, Ser, Thr, Cys, Met, Asn, Gln, Asp, Glu, Lys, Arg, His",
+  "tags": ["amino-acids", "basics"],
+  "difficulty": "beginner"
+}

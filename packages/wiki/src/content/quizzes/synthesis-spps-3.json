@@ -1,0 +1,8 @@
+{
+  "question": "In Boc SPPS, what reagent is used to remove the Boc protecting group?",
+  "options": ["TFA (trifluoroacetic acid)", "Piperidine", "Hydrazine", "Tin chloride"],
+  "correctIndex": 0,
+  "explanation": "TFA is used to remove the Boc (tert-butyloxycarbonyl) protecting group in Boc SPPS chemistry.",
+  "difficulty": "intermediate",
+  "tags": ["synthesis", "spps"]
+}

@@ -1,0 +1,6 @@
+{
+  "front": "What is the advantage of Fmoc SPPS over Boc SPPS?",
+  "back": "Fmoc SPPS uses milder basic conditions for deprotection (piperidine) instead of harsh acidic conditions (HF) required for Boc.",
+  "tags": ["synthesis", "spps"],
+  "difficulty": "intermediate"
+}

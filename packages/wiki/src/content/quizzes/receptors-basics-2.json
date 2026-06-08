@@ -1,0 +1,8 @@
+{
+  "question": "What is the largest family of membrane receptors in humans?",
+  "options": ["Receptor tyrosine kinases", "G-protein coupled receptors", "Ion channels", "Nuclear receptors"],
+  "correctIndex": 1,
+  "explanation": "G-protein coupled receptors (GPCRs) are the largest family of membrane receptors, with approximately 800 members in the human genome.",
+  "difficulty": "intermediate",
+  "tags": ["receptors", "types"]
+}

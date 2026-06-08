@@ -1,0 +1,8 @@
+{
+  "question": "What is homology modeling in computational biology?",
+  "options": ["Building protein structures based on related known structures", "Simulating protein folding from scratch", "Predicting protein function", "Designing new amino acids"],
+  "correctIndex": 0,
+  "explanation": "Homology modeling predicts 3D protein structures based on the known structure of a related homologous protein.",
+  "difficulty": "intermediate",
+  "tags": ["computational", "modeling"]
+}

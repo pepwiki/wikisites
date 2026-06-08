@@ -1,0 +1,6 @@
+{
+  "front": "What is the most common stationary phase in reversed-phase HPLC?",
+  "back": "C18 (octadecylsilane), which retains hydrophobic peptides.",
+  "tags": ["purification", "hplc"],
+  "difficulty": "intermediate"
+}

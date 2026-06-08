@@ -1,0 +1,8 @@
+{
+  "question": "Which of the following is a nonpolar amino acid?",
+  "options": ["Serine", "Alanine", "Lysine", "Aspartic acid"],
+  "correctIndex": 1,
+  "explanation": "Alanine has a methyl group side chain, making it nonpolar. Serine is polar, lysine is positively charged, and aspartic acid is negatively charged.",
+  "difficulty": "beginner",
+  "tags": ["amino-acids", "properties"]
+}

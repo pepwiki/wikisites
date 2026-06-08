@@ -1,0 +1,8 @@
+{
+  "question": "What is the one-letter code for Tryptophan?",
+  "options": ["W", "T", "Y", "F"],
+  "correctIndex": 0,
+  "explanation": "Tryptophan is represented by W, likely because T was already taken by Threonine.",
+  "difficulty": "beginner",
+  "tags": ["amino-acids", "codes"]
+}

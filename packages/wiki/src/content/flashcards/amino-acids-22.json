@@ -1,0 +1,6 @@
+{
+  "front": "What is the approximate pKa of the alpha-amino group?",
+  "back": "Around 9-10 (typically 9.0-9.8).",
+  "tags": ["amino-acids", "chemistry"],
+  "difficulty": "intermediate"
+}

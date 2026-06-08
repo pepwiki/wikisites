@@ -1,0 +1,6 @@
+{
+  "front": "What is the maximum peptide length achievable by standard SPPS?",
+  "back": "Typically 50-70 amino acids, though longer peptides can be made with optimized protocols or native chemical ligation.",
+  "tags": ["synthesis", "limitations"],
+  "difficulty": "intermediate"
+}

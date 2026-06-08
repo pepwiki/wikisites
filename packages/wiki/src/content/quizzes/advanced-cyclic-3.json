@@ -1,0 +1,8 @@
+{
+  "question": "Which type of cyclization involves a head-to-tail bond?",
+  "options": ["Amide cyclization", "Disulfide cyclization", "Thioether cyclization", "Click chemistry cyclization"],
+  "correctIndex": 0,
+  "explanation": "Head-to-tail (amide) cyclization forms a peptide bond between the N-terminus and C-terminus of the peptide.",
+  "difficulty": "intermediate",
+  "tags": ["advanced", "cyclic-peptides"]
+}

@@ -1,0 +1,8 @@
+{
+  "question": "What is the key advantage of PROTACs over traditional inhibitors?",
+  "options": ["They catalytically degrade the target rather than just blocking it", "They are always more potent", "They have better oral bioavailability", "They are cheaper to manufacture"],
+  "correctIndex": 0,
+  "explanation": "PROTACs work catalytically, one PROTAC molecule can degrade multiple target protein molecules, potentially achieving effects at lower doses than inhibitors.",
+  "difficulty": "advanced",
+  "tags": ["advanced", "protac"]
+}

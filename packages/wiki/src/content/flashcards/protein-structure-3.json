@@ -1,0 +1,6 @@
+{
+  "front": "How many residues per turn in an alpha helix?",
+  "back": "3.6 residues per turn.",
+  "tags": ["protein-structure", "secondary"],
+  "difficulty": "beginner"
+}

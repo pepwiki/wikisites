@@ -1,0 +1,6 @@
+{
+  "front": "Which amino acids have nonpolar aliphatic side chains?",
+  "back": "Glycine, alanine, valine, leucine, isoleucine, proline, and methionine.",
+  "tags": ["amino-acids", "classification"],
+  "difficulty": "beginner"
+}

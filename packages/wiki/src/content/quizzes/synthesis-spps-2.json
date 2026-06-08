@@ -1,0 +1,8 @@
+{
+  "question": "Who developed the original method for solid-phase peptide synthesis?",
+  "options": ["Robert Bruce Merrifield", "Frederick Sanger", "Linus Pauling", "Christian Anfinsen"],
+  "correctIndex": 0,
+  "explanation": "Robert Bruce Merrifield developed solid-phase peptide synthesis in the 1960s and received the Nobel Prize in Chemistry in 1984.",
+  "difficulty": "beginner",
+  "tags": ["synthesis", "spps"]
+}

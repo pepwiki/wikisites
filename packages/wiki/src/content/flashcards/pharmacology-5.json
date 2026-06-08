@@ -1,0 +1,6 @@
+{
+  "front": "What is the half-life (t1/2) of a drug?",
+  "back": "The time required for the plasma concentration of a drug to decrease by 50%.",
+  "tags": ["pharmacology", "pharmacokinetics"],
+  "difficulty": "beginner"
+}

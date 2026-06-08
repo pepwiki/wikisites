@@ -1,0 +1,8 @@
+{
+  "question": "Which amino acid is achiral (has no stereocenter)?",
+  "options": ["Glycine", "Alanine", "Serine", "Valine"],
+  "correctIndex": 0,
+  "explanation": "Glycine has two hydrogen atoms attached to the alpha-carbon, making it the only achiral standard amino acid.",
+  "difficulty": "beginner",
+  "tags": ["amino-acids", "chemistry"]
+}

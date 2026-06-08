@@ -1,0 +1,6 @@
+{
+  "front": "What is the omega (omega) angle?",
+  "back": "The dihedral angle around the peptide bond itself (the C-N bond). It is typically near 180 degrees (trans) or 0 degrees (cis).",
+  "tags": ["peptide-bonds", "geometry"],
+  "difficulty": "advanced"
+}

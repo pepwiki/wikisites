@@ -1,0 +1,8 @@
+{
+  "question": "Why do most peptide drugs require injection rather than oral administration?",
+  "options": ["They are too large to cross the intestinal barrier", "They are too expensive to formulate orally", "They are insoluble in water", "They are too small to be absorbed"],
+  "correctIndex": 0,
+  "explanation": "Peptides are generally too large and polar to cross the intestinal epithelium, and they are degraded by proteases in the GI tract.",
+  "difficulty": "beginner",
+  "tags": ["pharmacology", "delivery"]
+}

@@ -1,0 +1,6 @@
+{
+  "front": "What is LC-MS/MS?",
+  "back": "Liquid Chromatography coupled with tandem Mass Spectrometry, used for peptide identification and sequencing.",
+  "tags": ["purification", "mass-spec"],
+  "difficulty": "advanced"
+}

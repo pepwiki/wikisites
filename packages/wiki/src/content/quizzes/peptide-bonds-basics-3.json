@@ -1,0 +1,8 @@
+{
+  "question": "What is a dipeptide?",
+  "options": ["A peptide with two bonds", "A peptide with two amino acids", "A peptide with two charges", "A peptide with two rings"],
+  "correctIndex": 1,
+  "explanation": "A dipeptide consists of exactly two amino acids joined by a single peptide bond.",
+  "difficulty": "beginner",
+  "tags": ["peptide-bonds", "nomenclature"]
+}

@@ -1,0 +1,8 @@
+{
+  "question": "Why is the peptide bond planar?",
+  "options": ["Hydrogen bonding", "Resonance delocalization", "Steric effects", "Electrostatic repulsion"],
+  "correctIndex": 1,
+  "explanation": "The peptide bond is planar due to resonance delocalization of electrons between the carbonyl carbon and the nitrogen.",
+  "difficulty": "intermediate",
+  "tags": ["peptide-bonds", "geometry"]
+}

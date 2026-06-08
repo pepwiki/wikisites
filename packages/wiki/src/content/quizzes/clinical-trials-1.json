@@ -1,0 +1,8 @@
+{
+  "question": "What are the four phases of clinical trials?",
+  "options": ["Safety, efficacy, comparison, post-market", "Discovery, development, approval, marketing", "Preclinical, clinical, approval, surveillance", "Phase 1 through 4"],
+  "correctIndex": 3,
+  "explanation": "Clinical trials progress through Phase 1 (safety/dosing), Phase 2 (efficacy/side effects), Phase 3 (large-scale efficacy/comparison), and Phase 4 (post-market surveillance).",
+  "difficulty": "beginner",
+  "tags": ["clinical-trials", "phases"]
+}

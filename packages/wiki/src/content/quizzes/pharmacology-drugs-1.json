@@ -1,0 +1,8 @@
+{
+  "question": "Which was the first synthetic peptide drug approved by the FDA?",
+  "options": ["Insulin", "Leuprolide", "Oxytocin", "Calcitonin"],
+  "correctIndex": 0,
+  "explanation": "Synthetic human insulin (Humulin) was the first recombinant peptide approved by the FDA in 1982.",
+  "difficulty": "intermediate",
+  "tags": ["pharmacology", "drugs"]
+}

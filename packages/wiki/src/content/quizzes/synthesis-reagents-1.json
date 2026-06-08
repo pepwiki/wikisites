@@ -1,0 +1,8 @@
+{
+  "question": "What is the role of HOBt in peptide coupling?",
+  "options": ["Suppressing racemization and increasing coupling efficiency", "Removing protecting groups", "Cleaving the peptide from resin", "Precipitating the peptide"],
+  "correctIndex": 0,
+  "explanation": "HOBt (hydroxybenzotriazole) acts as an additive that suppresses racemization and increases coupling efficiency during amide bond formation.",
+  "difficulty": "intermediate",
+  "tags": ["synthesis", "reagents"]
+}

@@ -1,0 +1,8 @@
+{
+  "question": "What is the mechanism of action of cyclosporine?",
+  "options": ["Calcineurin inhibition", "ACE inhibition", "Proteasome inhibition", "Kinase inhibition"],
+  "correctIndex": 0,
+  "explanation": "Cyclosporine is a cyclic peptide that inhibits calcineurin, preventing T-cell activation and used as an immunosuppressant.",
+  "difficulty": "advanced",
+  "tags": ["pharmacology", "drugs"]
+}

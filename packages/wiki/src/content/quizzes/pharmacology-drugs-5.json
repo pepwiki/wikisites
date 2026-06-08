@@ -1,0 +1,8 @@
+{
+  "question": "Which peptide drug is used to treat osteoporosis by stimulating bone formation?",
+  "options": ["Calcitonin", "Teriparatide (PTH 1-34)", "Octreotide", "Leuprolide"],
+  "correctIndex": 1,
+  "explanation": "Teriparatide is a recombinant PTH fragment (1-34) that stimulates bone formation and is used to treat severe osteoporosis.",
+  "difficulty": "advanced",
+  "tags": ["pharmacology", "drugs"]
+}

@@ -1,0 +1,8 @@
+{
+  "question": "What is the one-letter code for Histidine?",
+  "options": ["H", "His", "K", "R"],
+  "correctIndex": 0,
+  "explanation": "Histidine is represented by H. K is lysine and R is arginine.",
+  "difficulty": "beginner",
+  "tags": ["amino-acids", "codes"]
+}

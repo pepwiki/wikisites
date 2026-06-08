@@ -1,0 +1,6 @@
+{
+  "front": "Which amino acids have amide groups in their side chains?",
+  "back": "Asparagine (Asn) and glutamine (Gln).",
+  "tags": ["amino-acids", "chemistry"],
+  "difficulty": "beginner"
+}

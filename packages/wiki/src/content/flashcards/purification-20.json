@@ -1,0 +1,6 @@
+{
+  "front": "What is a TIC in mass spectrometry?",
+  "back": "Total Ion Chromatogram, showing the sum of all ion intensities across the chromatographic run.",
+  "tags": ["purification", "mass-spec"],
+  "difficulty": "intermediate"
+}

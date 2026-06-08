@@ -1,0 +1,8 @@
+{
+  "question": "What type of reaction forms a peptide bond?",
+  "options": ["Hydrolysis", "Condensation", "Oxidation", "Reduction"],
+  "correctIndex": 1,
+  "explanation": "Peptide bonds form through a condensation reaction where water is released when the carboxyl group of one amino acid reacts with the amino group of another.",
+  "difficulty": "beginner",
+  "tags": ["peptide-bonds", "formation"]
+}

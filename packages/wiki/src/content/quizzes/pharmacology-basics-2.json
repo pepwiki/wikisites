@@ -1,0 +1,8 @@
+{
+  "question": "What does PD stand for in pharmacology?",
+  "options": ["Pharmacodynamics", "Protein degradation", "Peptide design", "Pharmacological dosing"],
+  "correctIndex": 0,
+  "explanation": "PD stands for pharmacodynamics, which describes what the drug does to the body (mechanism of action, dose-response).",
+  "difficulty": "beginner",
+  "tags": ["pharmacology", "pk-pd"]
+}

@@ -1,0 +1,8 @@
+{
+  "question": "What is an IND application?",
+  "options": ["Investigational New Drug application to begin human trials", "International New Drug approval", "Investigational Nutrient Declaration", "Initial New Drug submission"],
+  "correctIndex": 0,
+  "explanation": "An IND (Investigational New Drug) application must be submitted to the FDA before beginning clinical trials of a new drug in the United States.",
+  "difficulty": "beginner",
+  "tags": ["regulatory", "fda"]
+}

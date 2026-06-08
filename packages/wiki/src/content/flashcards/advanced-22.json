@@ -1,0 +1,6 @@
+{
+  "front": "What is molecular dynamics simulation?",
+  "back": "A computational method that simulates the physical movement of atoms and molecules over time using force fields.",
+  "tags": ["advanced", "computational"],
+  "difficulty": "intermediate"
+}

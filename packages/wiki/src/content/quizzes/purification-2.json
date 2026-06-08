@@ -1,0 +1,8 @@
+{
+  "question": "What is the most common stationary phase in reversed-phase HPLC?",
+  "options": ["C18 (octadecylsilane)", "Silica", "Ion exchange resin", "Size exclusion gel"],
+  "correctIndex": 0,
+  "explanation": "C18 (octadecylsilane) is the most commonly used stationary phase in reversed-phase HPLC for peptide purification.",
+  "difficulty": "intermediate",
+  "tags": ["purification", "hplc"]
+}

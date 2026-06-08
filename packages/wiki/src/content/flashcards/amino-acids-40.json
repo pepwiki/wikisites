@@ -1,0 +1,6 @@
+{
+  "front": "What is the only amino acid that is a secondary amine (imino acid)?",
+  "back": "Proline, where the side chain nitrogen is part of a ring.",
+  "tags": ["amino-acids", "chemistry"],
+  "difficulty": "intermediate"
+}

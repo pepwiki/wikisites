@@ -1,0 +1,8 @@
+{
+  "question": "Which amino acid uses the one-letter code Q?",
+  "options": ["Glutamine", "Glutamic acid", "Lysine", "Asparagine"],
+  "correctIndex": 0,
+  "explanation": "Q represents Glutamine. G was taken by Glycine, so Q was chosen as it sounds like 'glutamine'.",
+  "difficulty": "intermediate",
+  "tags": ["amino-acids", "codes"]
+}

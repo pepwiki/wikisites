@@ -1,0 +1,6 @@
+{
+  "front": "What is AUC in pharmacokinetics?",
+  "back": "Area Under the Curve - the total drug exposure over time, calculated from the plasma concentration-time profile.",
+  "tags": ["pharmacology", "pharmacokinetics"],
+  "difficulty": "intermediate"
+}

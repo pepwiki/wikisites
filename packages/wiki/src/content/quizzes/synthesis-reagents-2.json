@@ -1,0 +1,8 @@
+{
+  "question": "Which coupling reagent is a phosphonium-based activator?",
+  "options": ["BOP", "DIC", "HATU", "EDC"],
+  "correctIndex": 0,
+  "explanation": "BOP (benzotriazol-1-yloxytris(dimethylamino)phosphonium hexafluorophosphate) is a phosphonium-based coupling reagent.",
+  "difficulty": "advanced",
+  "tags": ["synthesis", "reagents"]
+}

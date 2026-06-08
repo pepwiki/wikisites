@@ -1,0 +1,6 @@
+{
+  "front": "What reagent removes the Fmoc protecting group?",
+  "back": "Piperidine (typically 20% in DMF) via beta-elimination.",
+  "tags": ["synthesis", "protecting-groups"],
+  "difficulty": "intermediate"
+}

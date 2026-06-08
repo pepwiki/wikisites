@@ -1,0 +1,8 @@
+{
+  "question": "What is the advantage of nanoparticle-based peptide delivery?",
+  "options": ["Protection from proteases and controlled release", "Reduced manufacturing cost", "Simpler regulatory approval", "Higher receptor affinity"],
+  "correctIndex": 0,
+  "explanation": "Nanoparticles can protect peptides from enzymatic degradation and provide controlled release, improving bioavailability.",
+  "difficulty": "intermediate",
+  "tags": ["pharmacology", "delivery"]
+}

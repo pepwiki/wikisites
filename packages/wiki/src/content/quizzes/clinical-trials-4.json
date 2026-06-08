@@ -1,0 +1,8 @@
+{
+  "question": "What is the purpose of a placebo-controlled trial?",
+  "options": ["To determine if the treatment effect is greater than no treatment", "To reduce the cost of the trial", "To avoid ethical concerns", "To speed up enrollment"],
+  "correctIndex": 0,
+  "explanation": "A placebo control helps determine whether the treatment effect is real and not due to the placebo effect or natural disease progression.",
+  "difficulty": "beginner",
+  "tags": ["clinical-trials", "design"]
+}

@@ -1,0 +1,8 @@
+{
+  "question": "Which route of administration is commonly used for insulin?",
+  "options": ["Subcutaneous injection", "Intravenous injection", "Oral", "Inhalation"],
+  "correctIndex": 0,
+  "explanation": "Insulin is most commonly administered via subcutaneous injection, allowing gradual absorption into the bloodstream.",
+  "difficulty": "beginner",
+  "tags": ["pharmacology", "delivery"]
+}

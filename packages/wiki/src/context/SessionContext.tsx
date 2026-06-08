@@ -91,3 +91,7 @@ export function useSession(): SessionContextValue {
   if (!ctx) throw new Error("useSession must be used within SessionProvider");
   return ctx;
 }
+
+export function useSessionOptional(): SessionContextValue | null {
+  return useContext(SessionContext) ?? null;
+}

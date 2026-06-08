@@ -1,0 +1,8 @@
+{
+  "question": "What does PROTAC stand for?",
+  "options": ["Proteolysis-targeting chimera", "Protein-targeting chemical", "Protease-targeting compound", "Protein degradation activator"],
+  "correctIndex": 0,
+  "explanation": "PROTAC stands for Proteolysis-Targeting Chimera, a bifunctional molecule that recruits an E3 ligase to a target protein for ubiquitination and degradation.",
+  "difficulty": "advanced",
+  "tags": ["advanced", "protac"]
+}

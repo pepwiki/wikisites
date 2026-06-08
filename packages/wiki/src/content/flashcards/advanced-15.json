@@ -1,0 +1,6 @@
+{
+  "front": "What is the advantage of PROTACs over inhibitors?",
+  "back": "PROTACs act catalytically, degrading the target rather than just blocking it, potentially achieving effects at lower doses.",
+  "tags": ["advanced", "protac"],
+  "difficulty": "advanced"
+}

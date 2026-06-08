@@ -1,0 +1,6 @@
+{
+  "front": "What is homology modeling?",
+  "back": "A method for predicting 3D protein structures based on the known structure of a related homologous protein.",
+  "tags": ["advanced", "computational"],
+  "difficulty": "intermediate"
+}

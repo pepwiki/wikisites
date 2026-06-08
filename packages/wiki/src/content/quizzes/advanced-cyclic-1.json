@@ -1,0 +1,8 @@
+{
+  "question": "What structural feature defines a cyclic peptide?",
+  "options": ["A covalent bond linking the N- and C-termini or side chains", "The presence of a ring in an amino acid side chain", "A beta-sheet structure", "Multiple disulfide bonds"],
+  "correctIndex": 0,
+  "explanation": "Cyclic peptides have a covalent bond that creates a ring, typically between the N- and C-termini or between two side chains.",
+  "difficulty": "intermediate",
+  "tags": ["advanced", "cyclic-peptides"]
+}

@@ -1,0 +1,6 @@
+{
+  "front": "Which amino acids are positively charged at physiological pH?",
+  "back": "Lysine (Lys), arginine (Arg), and histidine (His).",
+  "tags": ["amino-acids", "classification"],
+  "difficulty": "beginner"
+}

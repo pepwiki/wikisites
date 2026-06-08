@@ -1,0 +1,6 @@
+{
+  "front": "What stabilizes an alpha helix?",
+  "back": "Hydrogen bonds between the C=O of residue i and the N-H of residue i+4.",
+  "tags": ["protein-structure", "secondary"],
+  "difficulty": "beginner"
+}

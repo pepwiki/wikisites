@@ -1,0 +1,6 @@
+{
+  "front": "What is a force field in molecular simulation?",
+  "back": "A set of parameters and equations describing the potential energy of a molecular system as a function of atomic positions.",
+  "tags": ["advanced", "computational"],
+  "difficulty": "advanced"
+}

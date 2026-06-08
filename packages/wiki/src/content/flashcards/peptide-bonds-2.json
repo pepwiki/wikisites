@@ -1,0 +1,6 @@
+{
+  "front": "How many peptide bonds does a polypeptide of n amino acids contain?",
+  "back": "n - 1 peptide bonds.",
+  "tags": ["peptide-bonds", "nomenclature"],
+  "difficulty": "beginner"
+}

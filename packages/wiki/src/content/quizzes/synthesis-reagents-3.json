@@ -1,0 +1,8 @@
+{
+  "question": "What is the purpose of a protecting group in peptide synthesis?",
+  "options": ["Preventing unwanted side reactions at specific functional groups", "Increasing solubility", "Enhancing biological activity", "Reducing molecular weight"],
+  "correctIndex": 0,
+  "explanation": "Protecting groups temporarily mask reactive functional groups to prevent unwanted side reactions during peptide synthesis.",
+  "difficulty": "beginner",
+  "tags": ["synthesis", "protecting-groups"]
+}

@@ -1,0 +1,6 @@
+{
+  "front": "Which amino acids have hydroxyl groups in their side chains?",
+  "back": "Serine (Ser), threonine (Thr), and tyrosine (Tyr).",
+  "tags": ["amino-acids", "chemistry"],
+  "difficulty": "beginner"
+}

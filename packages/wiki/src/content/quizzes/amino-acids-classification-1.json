@@ -1,0 +1,8 @@
+{
+  "question": "Which amino acid is classified as aromatic?",
+  "options": ["Valine", "Phenylalanine", "Leucine", "Proline"],
+  "correctIndex": 1,
+  "explanation": "Phenylalanine has a benzyl side chain with an aromatic ring. Tryptophan and tyrosine are also aromatic.",
+  "difficulty": "beginner",
+  "tags": ["amino-acids", "classification"]
+}

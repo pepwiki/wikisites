@@ -1,0 +1,6 @@
+{
+  "front": "What is a deconvoluted mass spectrum?",
+  "back": "A mass spectrum processed to remove the multiply charged ion series, showing the true molecular weight of the peptide.",
+  "tags": ["purification", "mass-spec"],
+  "difficulty": "advanced"
+}

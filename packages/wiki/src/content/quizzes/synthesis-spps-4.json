@@ -1,0 +1,8 @@
+{
+  "question": "In Fmoc SPPS, what reagent removes the Fmoc protecting group?",
+  "options": ["TFA", "Piperidine", "HCl", "NaOH"],
+  "correctIndex": 1,
+  "explanation": "Piperidine (typically 20% in DMF) is used to remove the Fmoc (fluorenylmethyloxycarbonyl) protecting group via beta-elimination.",
+  "difficulty": "intermediate",
+  "tags": ["synthesis", "spps"]
+}

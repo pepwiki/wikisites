@@ -1,0 +1,8 @@
+{
+  "question": "What is the role of arrestins in GPCR signaling?",
+  "options": ["Desensitization and internalization of receptors", "Enhancing G-protein activation", "Promoting adenylyl cyclase activity", "Blocking calcium channels"],
+  "correctIndex": 0,
+  "explanation": "Arrestins bind to phosphorylated GPCRs, uncoupling them from G-proteins (desensitization) and targeting them for internalization.",
+  "difficulty": "advanced",
+  "tags": ["receptors", "signaling"]
+}

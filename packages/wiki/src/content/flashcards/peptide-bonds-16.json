@@ -1,0 +1,6 @@
+{
+  "front": "What distinguishes a peptide from a protein?",
+  "back": "There is no strict cutoff, but peptides typically have fewer than 50 amino acids while proteins have more. The term peptide often implies shorter chains.",
+  "tags": ["peptide-bonds", "nomenclature"],
+  "difficulty": "beginner"
+}

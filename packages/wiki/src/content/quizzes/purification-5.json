@@ -1,0 +1,8 @@
+{
+  "question": "What technique is used to determine the amino acid sequence of a peptide?",
+  "options": ["Edman degradation or tandem mass spectrometry (MS/MS)", "NMR spectroscopy", "X-ray crystallography", "Circular dichroism"],
+  "correctIndex": 0,
+  "explanation": "Edman degradation and tandem mass spectrometry (MS/MS) are the primary methods for determining peptide sequences.",
+  "difficulty": "intermediate",
+  "tags": ["purification", "sequencing"]
+}

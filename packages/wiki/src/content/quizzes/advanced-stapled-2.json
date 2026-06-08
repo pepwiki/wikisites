@@ -1,0 +1,8 @@
+{
+  "question": "What is the primary benefit of peptide stapling for intracellular targets?",
+  "options": ["Enhanced cell penetration and protease resistance", "Reduced manufacturing cost", "Improved renal clearance", "Simpler synthesis"],
+  "correctIndex": 0,
+  "explanation": "Stapled peptides show improved cell penetration via direct membrane transit and increased resistance to proteolytic degradation.",
+  "difficulty": "advanced",
+  "tags": ["advanced", "stapled-peptides"]
+}

@@ -1,0 +1,8 @@
+{
+  "question": "What is molecular glue degradation?",
+  "options": ["Small molecules that modify E3 ligases to neosubstrate recognition", "Using detergents to solubilize proteins", "A method for protein purification", "A type of PROTAC technology"],
+  "correctIndex": 0,
+  "explanation": "Molecular glues (like thalidomide analogs) modify the surface of an E3 ligase, creating a new interface that recruits previously unrecognized substrates for degradation.",
+  "difficulty": "expert",
+  "tags": ["advanced", "protac"]
+}

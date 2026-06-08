@@ -1,0 +1,8 @@
+{
+  "question": "What is the final step in SPPS to release the peptide from the resin?",
+  "options": ["Cleavage with TFA", "Washing with DMF", "Coupling with HOBt", "Deprotection with piperidine"],
+  "correctIndex": 0,
+  "explanation": "Cleavage with TFA (and scavengers) removes the peptide from the resin and simultaneously removes side-chain protecting groups.",
+  "difficulty": "intermediate",
+  "tags": ["synthesis", "spps"]
+}

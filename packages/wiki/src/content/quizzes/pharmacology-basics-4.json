@@ -1,0 +1,8 @@
+{
+  "question": "What is bioavailability?",
+  "options": ["The fraction of drug reaching systemic circulation", "The total dose administered", "The rate of metabolism", "The binding affinity to receptors"],
+  "correctIndex": 0,
+  "explanation": "Bioavailability is the fraction of an administered drug that reaches the systemic circulation in its active form.",
+  "difficulty": "intermediate",
+  "tags": ["pharmacology", "pharmacokinetics"]
+}

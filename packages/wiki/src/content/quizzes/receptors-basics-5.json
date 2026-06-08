@@ -1,0 +1,8 @@
+{
+  "question": "What is the difference between affinity and efficacy?",
+  "options": ["Affinity is binding strength; efficacy is ability to activate", "Affinity is efficacy at low doses", "They are synonyms", "Affinity is for antagonists; efficacy for agonists"],
+  "correctIndex": 0,
+  "explanation": "Affinity describes how tightly a drug binds to a receptor, while efficacy describes the ability of the bound drug to produce a biological response.",
+  "difficulty": "intermediate",
+  "tags": ["receptors", "pharmacology"]
+}

@@ -1,0 +1,6 @@
+{
+  "front": "What is the rise per residue in an alpha helix?",
+  "back": "1.5 Angstroms per residue.",
+  "tags": ["protein-structure", "secondary"],
+  "difficulty": "intermediate"
+}

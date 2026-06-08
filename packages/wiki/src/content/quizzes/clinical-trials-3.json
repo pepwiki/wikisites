@@ -1,0 +1,8 @@
+{
+  "question": "What is a randomized controlled trial (RCT)?",
+  "options": ["Participants are randomly assigned to treatment or control groups", "All participants receive the treatment", "The study is conducted at random locations", "Only healthy volunteers are included"],
+  "correctIndex": 0,
+  "explanation": "In an RCT, participants are randomly allocated to receive either the investigational treatment or a control (placebo or standard of care).",
+  "difficulty": "beginner",
+  "tags": ["clinical-trials", "design"]
+}

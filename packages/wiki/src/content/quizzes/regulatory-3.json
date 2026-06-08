@@ -1,0 +1,8 @@
+{
+  "question": "What is a Breakthrough Therapy designation?",
+  "options": ["FDA designation for drugs showing substantial improvement over existing treatments", "A fast-track pathway for all new drugs", "A designation for generic drugs", "An EMA-only pathway"],
+  "correctIndex": 0,
+  "explanation": "Breakthrough Therapy designation provides intensive FDA guidance and organizational commitment for drugs that show substantial improvement over existing therapies.",
+  "difficulty": "intermediate",
+  "tags": ["regulatory", "fda"]
+}

@@ -1,0 +1,8 @@
+{
+  "question": "What is signal amplification in receptor signaling?",
+  "options": ["One receptor activating multiple downstream molecules", "Increasing receptor expression", "Reducing signal duration", "Enhancing ligand binding"],
+  "correctIndex": 0,
+  "explanation": "Signal amplification occurs when a single receptor-ligand interaction activates multiple downstream signaling molecules, amplifying the response.",
+  "difficulty": "beginner",
+  "tags": ["receptors", "signaling"]
+}

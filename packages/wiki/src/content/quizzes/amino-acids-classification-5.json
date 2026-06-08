@@ -1,0 +1,8 @@
+{
+  "question": "Which amino acid is classified as imino acid rather than an amino acid?",
+  "options": ["Glycine", "Proline", "Alanine", "Valine"],
+  "correctIndex": 1,
+  "explanation": "Proline has a cyclic structure where the side chain connects back to the nitrogen, forming a pyrrolidine ring, making it an imino acid.",
+  "difficulty": "intermediate",
+  "tags": ["amino-acids", "classification"]
+}

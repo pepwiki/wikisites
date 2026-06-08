@@ -1,0 +1,8 @@
+{
+  "question": "Which amino acid is classified as a branched-chain amino acid (BCAA)?",
+  "options": ["Alanine", "Valine", "Serine", "Cysteine"],
+  "correctIndex": 1,
+  "explanation": "Valine, leucine, and isoleucine are the three branched-chain amino acids with aliphatic side chains.",
+  "difficulty": "intermediate",
+  "tags": ["amino-acids", "classification"]
+}

@@ -1,0 +1,6 @@
+{
+  "front": "What are the hydrogen bonding partners in an antiparallel beta sheet?",
+  "back": "Residues hydrogen bond directly across to residues on adjacent strands, with C=O paired with N-H in a linear arrangement.",
+  "tags": ["peptide-bonds", "hydrogen-bonding"],
+  "difficulty": "intermediate"
+}

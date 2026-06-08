@@ -1,0 +1,8 @@
+{
+  "question": "What is the Biologics License Application (BLA) pathway used for?",
+  "options": ["Approval of biologic products including peptides and proteins", "Approval of small-molecule drugs only", "Approval of medical devices", "Approval of dietary supplements"],
+  "correctIndex": 0,
+  "explanation": "BLA is the regulatory pathway for approval of biologic products, including recombinant proteins, peptides, monoclonal antibodies, and vaccines.",
+  "difficulty": "intermediate",
+  "tags": ["regulatory", "fda"]
+}

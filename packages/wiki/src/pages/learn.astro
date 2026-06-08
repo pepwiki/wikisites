@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import LearnProgress from "../components/LearnProgress.tsx";
 ---
 
 <BaseLayout title="Learn">
@@ -46,6 +47,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           >
         </li>
       </ul>
+      <LearnProgress client:load lessonIds={["amino-acids", "peptide-bonds", "structure"]} />
     </div>
 
     <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
@@ -84,6 +86,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           >
         </li>
       </ul>
+      <LearnProgress client:load lessonIds={["signaling", "receptors", "pharmacology"]} />
     </div>
 
     <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
@@ -124,6 +127,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           >
         </li>
       </ul>
+      <LearnProgress client:load lessonIds={["spps", "purification", "computational"]} />
     </div>
 
     <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6">
@@ -162,6 +166,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           <a href="/learn/regulatory" class="text-red-600 hover:underline">Regulatory Pathways</a>
         </li>
       </ul>
+      <LearnProgress client:load lessonIds={["drug-delivery", "clinical-trials", "regulatory"]} />
     </div>
   </div>
 </BaseLayout>

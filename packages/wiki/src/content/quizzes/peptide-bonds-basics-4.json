@@ -1,0 +1,8 @@
+{
+  "question": "How many peptide bonds are in a pentapeptide?",
+  "options": ["3", "4", "5", "6"],
+  "correctIndex": 1,
+  "explanation": "A pentapeptide has 5 amino acids and 4 peptide bonds (n-1 bonds for n amino acids).",
+  "difficulty": "beginner",
+  "tags": ["peptide-bonds", "nomenclature"]
+}

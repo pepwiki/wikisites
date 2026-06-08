@@ -1,0 +1,8 @@
+{
+  "question": "What does SPPS stand for?",
+  "options": ["Solid-phase peptide synthesis", "Solution-phase peptide synthesis", "Site-directed peptide synthesis", "Sequential peptide synthesis"],
+  "correctIndex": 0,
+  "explanation": "SPPS stands for solid-phase peptide synthesis, where the growing peptide chain is anchored to an insoluble resin.",
+  "difficulty": "beginner",
+  "tags": ["synthesis", "spps"]
+}

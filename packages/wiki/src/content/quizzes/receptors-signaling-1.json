@@ -1,0 +1,8 @@
+{
+  "question": "What is the second messenger produced by adenylyl cyclase?",
+  "options": ["cAMP", "IP3", "DAG", "Calcium"],
+  "correctIndex": 0,
+  "explanation": "Adenylyl cyclase converts ATP to cyclic AMP (cAMP), which acts as a second messenger in many signaling pathways.",
+  "difficulty": "beginner",
+  "tags": ["receptors", "signaling"]
+}

@@ -1,0 +1,8 @@
+{
+  "question": "What is PEGylation used for in peptide therapeutics?",
+  "options": ["Increasing half-life by reducing renal clearance", "Improving oral bioavailability", "Enhancing receptor binding", "Reducing manufacturing cost"],
+  "correctIndex": 0,
+  "explanation": "PEGylation attaches polyethylene glycol chains to peptides, increasing their hydrodynamic radius and reducing renal clearance, thereby extending half-life.",
+  "difficulty": "intermediate",
+  "tags": ["pharmacology", "delivery"]
+}

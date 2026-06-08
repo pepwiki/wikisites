@@ -1,0 +1,6 @@
+{
+  "front": "Why does tryptophan use W as its one-letter code?",
+  "back": "Tryptophan is assigned W because T was already taken by threonine.",
+  "tags": ["amino-acids", "codes"],
+  "difficulty": "beginner"
+}

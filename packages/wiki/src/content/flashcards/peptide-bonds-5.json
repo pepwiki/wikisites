@@ -1,0 +1,6 @@
+{
+  "front": "What does trans mean in the context of peptide bonds?",
+  "back": "The trans conformation has the alpha-carbons on opposite sides of the peptide bond, which is energetically favored due to reduced steric clash.",
+  "tags": ["peptide-bonds", "geometry"],
+  "difficulty": "intermediate"
+}

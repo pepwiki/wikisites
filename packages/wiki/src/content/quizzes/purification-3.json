@@ -1,0 +1,8 @@
+{
+  "question": "What type of mass spectrometry is most commonly used for peptide analysis?",
+  "options": ["ESI-MS and MALDI-TOF", "GC-MS", "ICP-MS", "SIMS"],
+  "correctIndex": 0,
+  "explanation": "Electrospray ionization (ESI) and matrix-assisted laser desorption/ionization (MALDI) are the most common ionization methods for peptide mass spectrometry.",
+  "difficulty": "intermediate",
+  "tags": ["purification", "mass-spec"]
+}

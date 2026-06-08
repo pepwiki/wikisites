@@ -1,0 +1,8 @@
+{
+  "question": "Which type of secondary structure is stabilized by hydrogen bonds between backbone NH and CO groups?",
+  "options": ["Alpha helix and beta sheet", "Coiled coil", "Random coil", "Loops"],
+  "correctIndex": 0,
+  "explanation": "Both alpha helices and beta sheets are stabilized by hydrogen bonds between the backbone NH and CO groups.",
+  "difficulty": "beginner",
+  "tags": ["protein-structure", "secondary"]
+}

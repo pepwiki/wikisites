@@ -1,0 +1,8 @@
+{
+  "question": "Which enzyme catalyzes peptide bond formation in the ribosome?",
+  "options": ["DNA polymerase", "Peptidyl transferase", "RNA polymerase", "Helicase"],
+  "correctIndex": 1,
+  "explanation": "Peptidyl transferase is a ribozyme (RNA enzyme) that catalyzes peptide bond formation in the large ribosomal subunit.",
+  "difficulty": "intermediate",
+  "tags": ["peptide-bonds", "enzymes"]
+}

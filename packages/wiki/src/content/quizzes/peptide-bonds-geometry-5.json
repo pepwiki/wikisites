@@ -1,0 +1,8 @@
+{
+  "question": "Which amino acid is most likely to be found in a cis peptide bond?",
+  "options": ["Alanine", "Glycine", "Proline", "Valine"],
+  "correctIndex": 2,
+  "explanation": "Proline is most commonly found in cis peptide bonds because its cyclic structure reduces the steric clash between side chains.",
+  "difficulty": "advanced",
+  "tags": ["peptide-bonds", "geometry"]
+}

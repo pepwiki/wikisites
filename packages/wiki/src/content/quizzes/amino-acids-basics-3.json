@@ -1,0 +1,8 @@
+{
+  "question": "Which amino acid contains a sulfur atom in its side chain?",
+  "options": ["Methionine", "Valine", "Leucine", "Isoleucine"],
+  "correctIndex": 0,
+  "explanation": "Methionine contains a thioether group with a sulfur atom. Cysteine also contains sulfur but forms a thiol group.",
+  "difficulty": "beginner",
+  "tags": ["amino-acids", "properties"]
+}

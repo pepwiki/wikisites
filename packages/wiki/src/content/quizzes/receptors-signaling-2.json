@@ -1,0 +1,8 @@
+{
+  "question": "Which G-protein subunit activates adenylyl cyclase?",
+  "options": ["Gs alpha", "Gi alpha", "Gbeta gamma", "Gq alpha"],
+  "correctIndex": 0,
+  "explanation": "The Gs alpha subunit stimulates adenylyl cyclase, increasing cAMP levels, while Gi alpha inhibits it.",
+  "difficulty": "intermediate",
+  "tags": ["receptors", "signaling"]
+}

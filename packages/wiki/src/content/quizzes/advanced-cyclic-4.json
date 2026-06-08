@@ -1,0 +1,8 @@
+{
+  "question": "What is cyclosporine A, and why is it pharmacologically important?",
+  "options": ["A cyclic nonribosomal peptide immunosuppressant", "A linear peptide antibiotic", "A cyclic peptide hormone", "A depsipeptide antifungal"],
+  "correctIndex": 0,
+  "explanation": "Cyclosporine A is a cyclic nonribosomal peptide that acts as a potent immunosuppressant by inhibiting calcineurin.",
+  "difficulty": "advanced",
+  "tags": ["advanced", "cyclic-peptides"]
+}

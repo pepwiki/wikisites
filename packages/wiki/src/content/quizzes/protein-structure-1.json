@@ -1,0 +1,8 @@
+{
+  "question": "What is the primary structure of a protein?",
+  "options": ["The 3D fold", "The amino acid sequence", "The alpha helix", "The quaternary assembly"],
+  "correctIndex": 1,
+  "explanation": "The primary structure is the linear sequence of amino acids in the polypeptide chain.",
+  "difficulty": "beginner",
+  "tags": ["protein-structure", "levels"]
+}

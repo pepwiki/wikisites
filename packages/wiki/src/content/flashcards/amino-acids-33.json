@@ -1,0 +1,6 @@
+{
+  "front": "What is the pKa of the arginine guanidinium group?",
+  "back": "Approximately 12.5 (the highest pKa among standard amino acid side chains).",
+  "tags": ["amino-acids", "chemistry"],
+  "difficulty": "intermediate"
+}

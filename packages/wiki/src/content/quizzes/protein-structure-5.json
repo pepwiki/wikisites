@@ -1,0 +1,8 @@
+{
+  "question": "What distinguishes quaternary structure from tertiary structure?",
+  "options": ["Quaternary involves multiple polypeptide chains", "Quaternary is only in enzymes", "Quaternary requires disulfide bonds", "Quaternary is only in membrane proteins"],
+  "correctIndex": 0,
+  "explanation": "Quaternary structure refers to the arrangement of multiple polypeptide subunits into a functional protein complex.",
+  "difficulty": "intermediate",
+  "tags": ["protein-structure", "quaternary"]
+}

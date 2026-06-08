@@ -1,0 +1,8 @@
+{
+  "question": "What is a scoring function in molecular docking?",
+  "options": ["A mathematical model estimating binding affinity", "A function describing molecular geometry", "A function for energy minimization", "A scoring system for experimental results"],
+  "correctIndex": 0,
+  "explanation": "A scoring function estimates the binding affinity between a ligand and a target based on various energetic and geometric terms.",
+  "difficulty": "advanced",
+  "tags": ["computational", "docking"]
+}

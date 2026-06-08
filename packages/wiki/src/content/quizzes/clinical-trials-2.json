@@ -1,0 +1,8 @@
+{
+  "question": "What is the primary goal of a Phase 1 clinical trial?",
+  "options": ["Determine safety, tolerability, and dosing range", "Confirm efficacy in a large population", "Compare to standard of care", "Monitor long-term side effects"],
+  "correctIndex": 0,
+  "explanation": "Phase 1 trials are primarily designed to assess safety, tolerability, pharmacokinetics, and establish the maximum tolerated dose in a small group of healthy volunteers or patients.",
+  "difficulty": "beginner",
+  "tags": ["clinical-trials", "phases"]
+}

@@ -1,0 +1,6 @@
+{
+  "front": "What is the role of arrestins in GPCR signaling?",
+  "back": "Arrestins uncouple GPCRs from G-proteins (desensitization) and target them for internalization via endocytosis.",
+  "tags": ["receptors", "signaling"],
+  "difficulty": "advanced"
+}

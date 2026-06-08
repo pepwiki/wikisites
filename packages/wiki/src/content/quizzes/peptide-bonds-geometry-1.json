@@ -1,0 +1,8 @@
+{
+  "question": "What is the approximate bond angle of the peptide bond (C-N-C)?",
+  "options": ["90 degrees", "109.5 degrees", "120 degrees", "180 degrees"],
+  "correctIndex": 2,
+  "explanation": "The peptide bond has approximately 120 degree angles due to the partial double bond character from resonance.",
+  "difficulty": "intermediate",
+  "tags": ["peptide-bonds", "geometry"]
+}

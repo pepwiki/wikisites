@@ -1,0 +1,6 @@
+{
+  "front": "What positions are typically stapled on an alpha helix?",
+  "back": "i, i+4 or i, i+7 spacing, which places residues on the same helical face.",
+  "tags": ["advanced", "stapled-peptides"],
+  "difficulty": "advanced"
+}

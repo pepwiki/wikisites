@@ -1,0 +1,8 @@
+{
+  "question": "What does PK stand for in pharmacology?",
+  "options": ["Pharmacokinetics", "Pharmacology knowledge", "Protein kinase", "Protein kinetics"],
+  "correctIndex": 0,
+  "explanation": "PK stands for pharmacokinetics, which describes what the body does to a drug (absorption, distribution, metabolism, excretion).",
+  "difficulty": "beginner",
+  "tags": ["pharmacology", "pk-pd"]
+}

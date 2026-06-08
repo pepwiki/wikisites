@@ -1,0 +1,8 @@
+{
+  "question": "What is molecular docking used for in peptide research?",
+  "options": ["Predicting binding orientation of peptides to targets", "Synthesizing peptides", "Purifying peptides", "Measuring peptide stability"],
+  "correctIndex": 0,
+  "explanation": "Molecular docking predicts the preferred orientation and binding affinity of a peptide when it interacts with a target protein.",
+  "difficulty": "intermediate",
+  "tags": ["computational", "docking"]
+}

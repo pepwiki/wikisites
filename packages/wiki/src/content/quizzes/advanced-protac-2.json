@@ -1,0 +1,8 @@
+{
+  "question": "How does a PROTAC molecule degrade its target protein?",
+  "options": ["By recruiting an E3 ubiquitin ligase to ubiquitinate the target", "By directly cleaving the target protein", "By blocking protein synthesis", "By inhibiting the proteasome"],
+  "correctIndex": 0,
+  "explanation": "PROTACs bring an E3 ligase and target protein into proximity, leading to polyubiquitination of the target and subsequent proteasomal degradation.",
+  "difficulty": "advanced",
+  "tags": ["advanced", "protac"]
+}

@@ -1,0 +1,8 @@
+{
+  "question": "What is the difference between the FDA and EMA?",
+  "options": ["FDA is U.S.-based; EMA is European Union-based", "They regulate different types of drugs", "EMA is more stringent than FDA", "They have identical approval processes"],
+  "correctIndex": 0,
+  "explanation": "The FDA regulates drugs in the United States, while the EMA (European Medicines Agency) evaluates medicines for the European Union.",
+  "difficulty": "beginner",
+  "tags": ["regulatory", "fda", "ema"]
+}

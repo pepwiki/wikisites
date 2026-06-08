@@ -1,0 +1,6 @@
+{
+  "front": "What is the one-letter code for lysine?",
+  "back": "K (because L was taken by leucine).",
+  "tags": ["amino-acids", "codes"],
+  "difficulty": "beginner"
+}

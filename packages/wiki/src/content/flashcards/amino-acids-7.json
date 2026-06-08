@@ -1,0 +1,6 @@
+{
+  "front": "Which amino acids have aromatic side chains?",
+  "back": "Phenylalanine (Phe), tyrosine (Tyr), and tryptophan (Trp).",
+  "tags": ["amino-acids", "classification"],
+  "difficulty": "beginner"
+}

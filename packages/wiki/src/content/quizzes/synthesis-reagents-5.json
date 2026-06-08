@@ -1,0 +1,8 @@
+{
+  "question": "What is the advantage of uronium-based coupling reagents like HATU over carbodiimides?",
+  "options": ["Higher coupling efficiency and less racemization", "Lower cost", "Simpler handling", "Better solubility"],
+  "correctIndex": 0,
+  "explanation": "Uronium-based reagents like HATU provide higher coupling efficiency, faster reactions, and less racemization compared to carbodiimides.",
+  "difficulty": "advanced",
+  "tags": ["synthesis", "reagents"]
+}

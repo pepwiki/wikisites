@@ -1,0 +1,8 @@
+{
+  "question": "What type of chemistry is commonly used to install a hydrocarbon staple?",
+  "options": ["Ring-closing metathesis (RCM)", "Click chemistry", "Disulfide formation", "Amide coupling"],
+  "correctIndex": 0,
+  "explanation": "Ring-closing metathesis using Grubbs catalyst is the most common method for installing hydrocarbon staples between two alkene-bearing side chains.",
+  "difficulty": "expert",
+  "tags": ["advanced", "stapled-peptides"]
+}

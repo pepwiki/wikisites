@@ -1,0 +1,6 @@
+{
+  "front": "What is a Ramachandran plot used for?",
+  "back": "It visualizes the allowed phi and psi backbone dihedral angles, helping identify secondary structures and verify protein structure quality.",
+  "tags": ["protein-structure", "analysis"],
+  "difficulty": "intermediate"
+}

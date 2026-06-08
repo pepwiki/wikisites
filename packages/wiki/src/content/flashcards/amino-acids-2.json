@@ -1,0 +1,6 @@
+{
+  "front": "What are the three components of an amino acid?",
+  "back": "An alpha-amino group, an alpha-carboxyl group, and a variable side chain (R group) attached to the alpha-carbon.",
+  "tags": ["amino-acids", "basics"],
+  "difficulty": "beginner"
+}

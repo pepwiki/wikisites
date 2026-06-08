@@ -1,0 +1,8 @@
+{
+  "question": "What is the phi angle in a Ramachandran plot?",
+  "options": ["Rotation about the N-Calpha bond", "Rotation about the Calpha-C bond", "Rotation about the peptide bond", "Rotation about the C-N bond"],
+  "correctIndex": 0,
+  "explanation": "The phi angle describes rotation about the N-Calpha bond in the peptide backbone.",
+  "difficulty": "intermediate",
+  "tags": ["peptide-bonds", "ramachandran"]
+}

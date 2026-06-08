@@ -1,0 +1,8 @@
+{
+  "question": "Which peptide drug is used for type 2 diabetes and acts as a GLP-1 receptor agonist?",
+  "options": ["Leuprolide", "Semaglutide", "Desmopressin", "Octreotide"],
+  "correctIndex": 1,
+  "explanation": "Semaglutide (Ozempic, Wegovy) is a GLP-1 receptor agonist used for type 2 diabetes and obesity.",
+  "difficulty": "intermediate",
+  "tags": ["pharmacology", "drugs"]
+}

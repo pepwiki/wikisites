@@ -10,6 +10,7 @@ import {
 import { getStatusLabel, getStatusColor } from "@wikisites/query/card-status";
 import type { CardState } from "@wikisites/query/fsrs";
 import { toast } from "solid-sonner";
+import { useSessionOptional } from "../context";
 import RatingButtons from "./ui/RatingButtons";
 
 interface QuizProps {
@@ -26,6 +27,7 @@ interface QuizProps {
 }
 
 export default function Quiz(props: QuizProps) {
+  const sessionCtx = useSessionOptional();
   const [selected, setSelected] = createSignal<number | null>(null);
   const [revealed, setRevealed] = createSignal(false);
   const [rated, setRated] = createSignal(false);
@@ -56,6 +58,7 @@ export default function Quiz(props: QuizProps) {
           toast.error("Incorrect");
         }
       }
+      sessionCtx?.recordQuiz(isCorrect());
     }
   };
 

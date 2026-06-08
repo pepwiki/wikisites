@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 /* ==========================================================================
    Wikipept - Spatial Materialism + Amoebic UI Design System

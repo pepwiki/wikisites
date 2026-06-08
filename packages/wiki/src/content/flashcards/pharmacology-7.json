@@ -1,0 +1,6 @@
+{
+  "front": "What is Tmax?",
+  "back": "The time at which the maximum plasma concentration (Cmax) is reached after drug administration.",
+  "tags": ["pharmacology", "pharmacokinetics"],
+  "difficulty": "intermediate"
+}

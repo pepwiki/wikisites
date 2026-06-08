@@ -1,0 +1,8 @@
+{
+  "question": "What is a major advantage of cyclic peptides over linear peptides?",
+  "options": ["Increased proteolytic stability and binding affinity", "Easier synthesis", "Lower molecular weight", "Better oral bioavailability without modification"],
+  "correctIndex": 0,
+  "explanation": "Cyclic peptides resist proteolysis because they lack free N- and C-termini and have reduced conformational flexibility, often improving binding affinity.",
+  "difficulty": "intermediate",
+  "tags": ["advanced", "cyclic-peptides"]
+}

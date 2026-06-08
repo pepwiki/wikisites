@@ -1,0 +1,8 @@
+{
+  "question": "What is the pKa of the alpha-carboxyl group in a typical amino acid?",
+  "options": ["Around 2", "Around 7", "Around 9", "Around 12"],
+  "correctIndex": 0,
+  "explanation": "The alpha-carboxyl group typically has a pKa around 2, making it deprotonated at physiological pH.",
+  "difficulty": "beginner",
+  "tags": ["amino-acids", "chemistry"]
+}

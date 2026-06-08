@@ -1,0 +1,8 @@
+{
+  "question": "How many residues per turn are in a standard alpha helix?",
+  "options": ["2.5", "3.6", "4.5", "5.0"],
+  "correctIndex": 1,
+  "explanation": "A standard alpha helix has approximately 3.6 amino acid residues per turn.",
+  "difficulty": "intermediate",
+  "tags": ["protein-structure", "secondary"]
+}

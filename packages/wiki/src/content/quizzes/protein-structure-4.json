@@ -1,0 +1,8 @@
+{
+  "question": "Which interactions are most important for tertiary structure?",
+  "options": ["Peptide bonds", "Hydrogen bonds, hydrophobic interactions, disulfide bonds", "Base pairing", "Ionic bonds only"],
+  "correctIndex": 1,
+  "explanation": "Tertiary structure is maintained by various interactions including hydrogen bonds, hydrophobic interactions, disulfide bonds, and ionic bonds between side chains.",
+  "difficulty": "intermediate",
+  "tags": ["protein-structure", "tertiary"]
+}

@@ -1,0 +1,8 @@
+{
+  "question": "What is the three-letter code for Asparagine?",
+  "options": ["Asn", "Asp", "Gln", "Glu"],
+  "correctIndex": 0,
+  "explanation": "Asparagine is abbreviated as Asn. Asp is aspartic acid, Gln is glutamine, and Glu is glutamic acid.",
+  "difficulty": "beginner",
+  "tags": ["amino-acids", "codes"]
+}

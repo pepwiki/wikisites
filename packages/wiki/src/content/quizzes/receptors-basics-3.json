@@ -1,0 +1,8 @@
+{
+  "question": "What is receptor desensitization?",
+  "options": ["Decreased response to repeated agonist exposure", "Increased receptor expression", "Receptor internalization", "Receptor degradation"],
+  "correctIndex": 0,
+  "explanation": "Desensitization is the reduced responsiveness of a receptor to repeated or prolonged exposure to an agonist.",
+  "difficulty": "intermediate",
+  "tags": ["receptors", "pharmacology"]
+}

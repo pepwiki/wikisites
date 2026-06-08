@@ -1,0 +1,8 @@
+{
+  "question": "What is a stapled peptide?",
+  "options": ["A peptide with a chemical cross-link enforcing helical conformation", "A peptide attached to a surface", "A peptide with multiple disulfide bonds", "A peptide bound to a carrier protein"],
+  "correctIndex": 0,
+  "explanation": "Stapled peptides have a hydrocarbon or chemical cross-link (staple) that locks the peptide into an alpha-helical conformation.",
+  "difficulty": "advanced",
+  "tags": ["advanced", "stapled-peptides"]
+}

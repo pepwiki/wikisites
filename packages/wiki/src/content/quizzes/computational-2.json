@@ -1,0 +1,8 @@
+{
+  "question": "What is the purpose of molecular dynamics (MD) simulations?",
+  "options": ["Simulating the time-dependent behavior of molecular systems", "Determining crystal structures", "Synthesizing peptides", "Measuring binding affinity"],
+  "correctIndex": 0,
+  "explanation": "MD simulations model the physical movement of atoms and molecules over time, providing insights into peptide flexibility and interactions.",
+  "difficulty": "intermediate",
+  "tags": ["computational", "md"]
+}

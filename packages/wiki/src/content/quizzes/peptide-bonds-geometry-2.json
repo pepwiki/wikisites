@@ -1,0 +1,8 @@
+{
+  "question": "What are the two possible conformations of a peptide bond?",
+  "options": ["Alpha and beta", "Cis and trans", "Parallel and antiparallel", "Right and left-handed"],
+  "correctIndex": 1,
+  "explanation": "Peptide bonds can exist in cis or trans conformations. Trans is more common due to steric hindrance in cis.",
+  "difficulty": "intermediate",
+  "tags": ["peptide-bonds", "geometry"]
+}

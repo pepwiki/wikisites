@@ -1,0 +1,8 @@
+{
+  "question": "What does FDA stand for?",
+  "options": ["Food and Drug Administration", "Federal Drug Agency", "Food and Drug Agency", "Federal Drug Administration"],
+  "correctIndex": 0,
+  "explanation": "FDA stands for the Food and Drug Administration, the U.S. federal agency responsible for regulating drugs, biologics, and medical devices.",
+  "difficulty": "beginner",
+  "tags": ["regulatory", "fda"]
+}

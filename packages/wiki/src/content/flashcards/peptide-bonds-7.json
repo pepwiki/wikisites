@@ -1,0 +1,6 @@
+{
+  "front": "What is the psi (psi) angle in a Ramachandran plot?",
+  "back": "The rotation angle around the Calpha-C bond in the peptide backbone.",
+  "tags": ["peptide-bonds", "ramachandran"],
+  "difficulty": "intermediate"
+}

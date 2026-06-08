@@ -1,0 +1,8 @@
+{
+  "question": "Which amino acid is unique in that it can form disulfide bonds?",
+  "options": ["Methionine", "Cysteine", "Serine", "Threonine"],
+  "correctIndex": 1,
+  "explanation": "Cysteine contains a thiol group (-SH) that can oxidize to form disulfide bonds between two cysteine residues.",
+  "difficulty": "beginner",
+  "tags": ["amino-acids", "classification"]
+}

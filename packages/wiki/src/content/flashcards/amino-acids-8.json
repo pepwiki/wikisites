@@ -1,0 +1,6 @@
+{
+  "front": "Which amino acids contain sulfur?",
+  "back": "Cysteine (Cys) has a thiol group; methionine (Met) has a thioether group.",
+  "tags": ["amino-acids", "properties"],
+  "difficulty": "beginner"
+}

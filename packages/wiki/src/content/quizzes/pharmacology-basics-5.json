@@ -1,0 +1,8 @@
+{
+  "question": "What is the primary route of elimination for most peptide drugs?",
+  "options": ["Renal excretion", "Hepatic metabolism", "Biliary excretion", "Pulmonary excretion"],
+  "correctIndex": 0,
+  "explanation": "Most peptide drugs are primarily eliminated by renal excretion, though some are also degraded by proteases in the blood and tissues.",
+  "difficulty": "intermediate",
+  "tags": ["pharmacology", "elimination"]
+}

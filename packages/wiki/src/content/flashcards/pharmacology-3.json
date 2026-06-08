@@ -1,0 +1,6 @@
+{
+  "front": "What is the therapeutic index (TI)?",
+  "back": "The ratio of the toxic dose (TD50) to the effective dose (ED50). A higher TI indicates a safer drug.",
+  "tags": ["pharmacology", "safety"],
+  "difficulty": "intermediate"
+}

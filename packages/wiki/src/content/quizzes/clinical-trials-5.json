@@ -1,0 +1,8 @@
+{
+  "question": "What is an adaptive clinical trial design?",
+  "options": ["A trial that allows modifications based on interim data", "A trial that changes location frequently", "A trial with no predefined endpoints", "A trial that only includes adaptive patients"],
+  "correctIndex": 0,
+  "explanation": "Adaptive designs allow pre-planned modifications (dose, sample size, endpoints) based on accumulating data while maintaining statistical validity.",
+  "difficulty": "intermediate",
+  "tags": ["clinical-trials", "design"]
+}

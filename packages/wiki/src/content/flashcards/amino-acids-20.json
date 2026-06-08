@@ -1,0 +1,6 @@
+{
+  "front": "What is the one-letter code for methionine?",
+  "back": "M (also the start codon AUG codes for methionine).",
+  "tags": ["amino-acids", "codes"],
+  "difficulty": "beginner"
+}

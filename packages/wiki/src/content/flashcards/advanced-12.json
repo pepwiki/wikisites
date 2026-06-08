@@ -1,0 +1,6 @@
+{
+  "front": "What is a linker in PROTAC design?",
+  "back": "The chemical chain connecting the target-binding ligand to the E3 ligase-binding ligand, optimized for length and flexibility.",
+  "tags": ["advanced", "protac"],
+  "difficulty": "advanced"
+}

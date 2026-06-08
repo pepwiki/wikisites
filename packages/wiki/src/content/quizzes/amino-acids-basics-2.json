@@ -1,0 +1,8 @@
+{
+  "question": "How many standard amino acids are encoded by the universal genetic code?",
+  "options": ["20", "22", "64", "61"],
+  "correctIndex": 0,
+  "explanation": "The universal genetic code encodes 20 standard amino acids. While selenocysteine and pyrrolysine are sometimes considered the 21st and 22nd, they are not part of the standard set.",
+  "difficulty": "beginner",
+  "tags": ["amino-acids", "genetics"]
+}

@@ -1,0 +1,8 @@
+{
+  "question": "What does the MAPK/ERK pathway primarily regulate?",
+  "options": ["Cell proliferation and differentiation", "Ion channel activity", "Apoptosis only", "Protein degradation"],
+  "correctIndex": 0,
+  "explanation": "The MAPK/ERK pathway is a key signaling cascade that regulates cell proliferation, differentiation, and survival.",
+  "difficulty": "intermediate",
+  "tags": ["receptors", "signaling"]
+}

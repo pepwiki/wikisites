@@ -1,0 +1,6 @@
+{
+  "front": "Which amino acid side chain can form disulfide bonds?",
+  "back": "Cysteine, through oxidation of two thiol groups (-SH) to form a disulfide bond (-S-S-).",
+  "tags": ["amino-acids", "chemistry"],
+  "difficulty": "beginner"
+}

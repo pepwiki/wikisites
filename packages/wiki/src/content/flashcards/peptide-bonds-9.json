@@ -1,0 +1,6 @@
+{
+  "front": "Which amino acid frequently adopts cis peptide bonds?",
+  "back": "Proline, because its cyclic structure reduces the steric penalty of the cis conformation.",
+  "tags": ["peptide-bonds", "geometry"],
+  "difficulty": "intermediate"
+}

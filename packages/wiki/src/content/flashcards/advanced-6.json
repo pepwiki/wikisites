@@ -1,0 +1,6 @@
+{
+  "front": "How does a PROTAC work?",
+  "back": "It brings a target protein and an E3 ligase into proximity, leading to ubiquitination and proteasomal degradation of the target.",
+  "tags": ["advanced", "protac"],
+  "difficulty": "advanced"
+}

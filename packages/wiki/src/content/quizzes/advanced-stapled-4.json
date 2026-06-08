@@ -1,0 +1,8 @@
+{
+  "question": "Which positions (i, i+X) are typically used for stapling on an alpha helix?",
+  "options": ["i, i+4 or i, i+7", "i, i+1 or i, i+2", "i, i+10", "i, i+3 only"],
+  "correctIndex": 0,
+  "explanation": "i, i+4 and i, i+7 spacing places residues on the same face of the alpha helix, allowing the staple to bridge them effectively.",
+  "difficulty": "advanced",
+  "tags": ["advanced", "stapled-peptides"]
+}

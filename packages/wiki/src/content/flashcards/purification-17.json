@@ -1,0 +1,6 @@
+{
+  "front": "What is UV detection at 214 nm used for in HPLC?",
+  "back": "Detection of peptide bonds (the amide bond absorbs at 214 nm), providing a universal detection method for peptides.",
+  "tags": ["purification", "hplc"],
+  "difficulty": "intermediate"
+}

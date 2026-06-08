@@ -1,0 +1,6 @@
+{
+  "front": "What reagent removes the Boc protecting group?",
+  "back": "TFA (trifluoroacetic acid), typically 25-50% in dichloromethane.",
+  "tags": ["synthesis", "protecting-groups"],
+  "difficulty": "intermediate"
+}

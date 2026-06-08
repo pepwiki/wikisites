@@ -1,0 +1,6 @@
+{
+  "front": "What is a truncated peptide?",
+  "back": "A peptide shorter than the desired sequence, resulting from incomplete coupling during SPPS.",
+  "tags": ["synthesis", "challenges"],
+  "difficulty": "intermediate"
+}

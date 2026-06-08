@@ -1,0 +1,6 @@
+{
+  "front": "What is the pKa of the lysine epsilon-amino group?",
+  "back": "Approximately 10.5 (typically 10.0-11.0).",
+  "tags": ["amino-acids", "chemistry"],
+  "difficulty": "intermediate"
+}

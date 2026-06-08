@@ -1,0 +1,8 @@
+{
+  "question": "Which amino acid side chains require protecting groups during Fmoc SPPS?",
+  "options": ["Lysine, serine, aspartic acid, glutamic acid", "Alanine, valine, leucine, isoleucine", "Glycine, proline", "All amino acids"],
+  "correctIndex": 0,
+  "explanation": "Amino acids with reactive side chains (Lys, Ser, Thr, Asp, Glu, Cys, His, Trp, Tyr, Arg) require protecting groups during synthesis.",
+  "difficulty": "intermediate",
+  "tags": ["synthesis", "protecting-groups"]
+}

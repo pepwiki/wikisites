@@ -1,0 +1,6 @@
+{
+  "front": "What is the approximate pKa of the alpha-carboxyl group?",
+  "back": "Around 2 (typically 1.8-2.4).",
+  "tags": ["amino-acids", "chemistry"],
+  "difficulty": "intermediate"
+}

@@ -1,0 +1,8 @@
+{
+  "question": "What does HPLC stand for?",
+  "options": ["High-performance liquid chromatography", "High-pressure liquid chromatography", "High-phase liquid chromatography", "High-purity liquid chromatography"],
+  "correctIndex": 0,
+  "explanation": "HPLC stands for high-performance liquid chromatography, a technique used to separate, identify, and quantify components in a mixture.",
+  "difficulty": "beginner",
+  "tags": ["purification", "hplc"]
+}

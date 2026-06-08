@@ -1,0 +1,6 @@
+{
+  "front": "What is the primary structure of a protein?",
+  "back": "The linear sequence of amino acids linked by peptide bonds.",
+  "tags": ["protein-structure", "levels"],
+  "difficulty": "beginner"
+}

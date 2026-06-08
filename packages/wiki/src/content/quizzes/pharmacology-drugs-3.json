@@ -1,0 +1,8 @@
+{
+  "question": "Which peptide is used as a vasopressin analog for diabetes insipidus?",
+  "options": ["Oxytocin", "Desmopressin", "Calcitonin", "PTH"],
+  "correctIndex": 1,
+  "explanation": "Desmopressin (DDAVP) is a synthetic vasopressin analog used to treat diabetes insipidus and nocturnal enuresis.",
+  "difficulty": "intermediate",
+  "tags": ["pharmacology", "drugs"]
+}

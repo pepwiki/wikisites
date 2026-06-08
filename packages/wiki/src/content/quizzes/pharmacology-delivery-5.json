@@ -1,0 +1,8 @@
+{
+  "question": "What is the main challenge with nasal peptide delivery?",
+  "options": ["Mucociliary clearance and enzymatic degradation", "Lack of blood supply", "Excessive pain", "Low patient compliance"],
+  "correctIndex": 0,
+  "explanation": "Nasal delivery faces challenges from mucociliary clearance that removes the formulation and proteases that degrade peptides.",
+  "difficulty": "advanced",
+  "tags": ["pharmacology", "delivery"]
+}

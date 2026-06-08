@@ -1,0 +1,6 @@
+{
+  "front": "What is the phi (phi) angle in a Ramachandran plot?",
+  "back": "The rotation angle around the N-Calpha bond in the peptide backbone.",
+  "tags": ["peptide-bonds", "ramachandran"],
+  "difficulty": "intermediate"
+}
