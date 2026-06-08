@@ -4,22 +4,22 @@ Technical path from current state to production, scaling, and feature integratio
 
 ## Current State (v1.2.0)
 
-| Component          | Status           | Notes                                                                                     |
-| ------------------ | ---------------- | ----------------------------------------------------------------------------------------- |
-| @wikisites/shared  | Production-ready | Zod schemas, molecular weight calculation, 58 tests                                       |
-| @wikisites/query   | Production-ready | FSRS v4 algorithm, search engine, review store, session-stats, 92 tests                  |
-| @wikisites/workers | Production-ready | Cloudflare Worker API, D1 schema, security headers, rate limiter, 10 tests               |
-| @wikisites/encp    | Deployed         | 7 static pages, 79 MDX articles, Pagefind search, Spatial Materialism + Amoebic UI       |
-| @wikisites/wiki    | Deployed         | 7 static pages, 79 MDX articles, 12 learn lessons, 29 flashcards, 23 quizzes, PWA        |
-| CI/CD              | Active           | Forgejo Actions: lint, test, typecheck, build, deploy (5 parallel jobs)                   |
-| Testing            | 167 tests        | All packages, 80% coverage thresholds, V8 coverage installed                             |
-| Pre-commit         | Active           | Husky + lint-staged (ESLint + Prettier enforced)                                         |
-| Design System      | Applied          | Spatial Materialism + Amoebic UI CSS framework                                           |
-| Search             | Pagefind         | Client-side full-text search on both sites                                               |
-| PWA                | Wikipept         | Service worker, manifest, offline fallback                                               |
-| Security           | Hardened         | CSP headers, HSTS, rate limiting, input sanitization                                     |
-| Database           | Schema Ready     | D1 schema (users, reviews, annotations, quiz_results, session_stats) + migration runner  |
-| Deployment         | Cloudflare Pages | encyclopeptide.com, wikipept.com                                                          |
+| Component          | Status           | Notes                                                                                   |
+| ------------------ | ---------------- | --------------------------------------------------------------------------------------- |
+| @wikisites/shared  | Production-ready | Zod schemas, molecular weight calculation, 58 tests                                     |
+| @wikisites/query   | Production-ready | FSRS v4 algorithm, search engine, review store, session-stats, 92 tests                 |
+| @wikisites/workers | Production-ready | Cloudflare Worker API, D1 schema, security headers, rate limiter, 10 tests              |
+| @wikisites/encp    | Deployed         | 7 static pages, 79 MDX articles, Pagefind search, Spatial Materialism + Amoebic UI      |
+| @wikisites/wiki    | Deployed         | 7 static pages, 79 MDX articles, 12 learn lessons, 29 flashcards, 23 quizzes, PWA       |
+| CI/CD              | Active           | Forgejo Actions: lint, test, typecheck, build, deploy (5 parallel jobs)                 |
+| Testing            | 167 tests        | All packages, 80% coverage thresholds, V8 coverage installed                            |
+| Pre-commit         | Active           | Husky + lint-staged (ESLint + Prettier enforced)                                        |
+| Design System      | Applied          | Spatial Materialism + Amoebic UI CSS framework                                          |
+| Search             | Pagefind         | Client-side full-text search on both sites                                              |
+| PWA                | Wikipept         | Service worker, manifest, offline fallback                                              |
+| Security           | Hardened         | CSP headers, HSTS, rate limiting, input sanitization                                    |
+| Database           | Schema Ready     | D1 schema (users, reviews, annotations, quiz_results, session_stats) + migration runner |
+| Deployment         | Cloudflare Pages | encyclopeptide.com, wikipept.com                                                        |
 
 ## Audit Completed (2026-06-08)
 
@@ -189,29 +189,29 @@ Technical path from current state to production, scaling, and feature integratio
 
 ## Technical Debt
 
-| Item                                          | Priority | Effort | Impact               |
-| --------------------------------------------- | -------- | ------ | -------------------- |
-| ESLint hangs on TSX (typescript-eslint overhead)| Medium   | 2h     | Pre-commit speed     |
-| No Playwright E2E tests in CI                 | Medium   | 8h     | GUI regression       |
-| Dockerfile needs production testing           | Medium   | 4h     | Container deployment |
-| Wiki articles need prose styling (Tailwind Typography) | Low | 2h | Article readability  |
+| Item                                                   | Priority | Effort | Impact               |
+| ------------------------------------------------------ | -------- | ------ | -------------------- |
+| ESLint hangs on TSX (typescript-eslint overhead)       | Medium   | 2h     | Pre-commit speed     |
+| No Playwright E2E tests in CI                          | Medium   | 8h     | GUI regression       |
+| Dockerfile needs production testing                    | Medium   | 4h     | Container deployment |
+| Wiki articles need prose styling (Tailwind Typography) | Low      | 2h     | Article readability  |
 
 ## Decision Log
 
-| Date       | Decision                                   | Rationale                                                        |
-| ---------- | ------------------------------------------ | ---------------------------------------------------------------- |
-| 2026-06-08 | Inline D1 schema in migrate.ts             | Vite Rollup cannot parse .sql imports without ?raw               |
-| 2026-06-08 | Add D1 schema, security headers, rate limiter | Production-ready backend infrastructure for future auth         |
-| 2026-06-08 | Create 12 learn content lessons            | Fill placeholder /learn/* routes with actual educational content |
-| 2026-06-08 | Add PWA manifest + service worker          | Offline flashcard/review capability for mobile learners          |
-| 2026-06-08 | Add SessionStats component                 | Client-side analytics for learning progress tracking             |
-| 2026-06-08 | Wire Pagefind search into BaseLayout       | Search accessible from every page via nav bar                    |
-| 2026-06-08 | Extract card-status to query package       | DRY: eliminates duplicated getStatusLabel/getStatusColor         |
-| 2026-06-08 | Split CI into 5 parallel jobs              | Faster feedback, independent failure modes                       |
-| 2026-06-08 | Use oven-sh/setup-bun in CI                | Security: eliminates curl-bash pipe                              |
-| 2026-06-08 | Apply Spatial Materialism design           | Visual depth and organic forms for both sites                    |
-| 2026-06-07 | Astro + SolidJS over Next.js               | Static-first, smaller bundle, Cloudflare-native                  |
-| 2026-06-07 | Zod over io-ts / Yup                       | Runtime validation + type inference, ecosystem                   |
-| 2026-06-07 | Cloudflare Pages over Vercel               | Forgejo repo, cost, edge performance                             |
-| 2026-06-07 | Bun over pnpm                              | Single tool for install + run, faster cold starts                |
-| 2026-06-07 | Vitest over Jest                           | ESM-native, Vite integration, speed                              |
+| Date       | Decision                                      | Rationale                                                         |
+| ---------- | --------------------------------------------- | ----------------------------------------------------------------- |
+| 2026-06-08 | Inline D1 schema in migrate.ts                | Vite Rollup cannot parse .sql imports without ?raw                |
+| 2026-06-08 | Add D1 schema, security headers, rate limiter | Production-ready backend infrastructure for future auth           |
+| 2026-06-08 | Create 12 learn content lessons               | Fill placeholder /learn/\* routes with actual educational content |
+| 2026-06-08 | Add PWA manifest + service worker             | Offline flashcard/review capability for mobile learners           |
+| 2026-06-08 | Add SessionStats component                    | Client-side analytics for learning progress tracking              |
+| 2026-06-08 | Wire Pagefind search into BaseLayout          | Search accessible from every page via nav bar                     |
+| 2026-06-08 | Extract card-status to query package          | DRY: eliminates duplicated getStatusLabel/getStatusColor          |
+| 2026-06-08 | Split CI into 5 parallel jobs                 | Faster feedback, independent failure modes                        |
+| 2026-06-08 | Use oven-sh/setup-bun in CI                   | Security: eliminates curl-bash pipe                               |
+| 2026-06-08 | Apply Spatial Materialism design              | Visual depth and organic forms for both sites                     |
+| 2026-06-07 | Astro + SolidJS over Next.js                  | Static-first, smaller bundle, Cloudflare-native                   |
+| 2026-06-07 | Zod over io-ts / Yup                          | Runtime validation + type inference, ecosystem                    |
+| 2026-06-07 | Cloudflare Pages over Vercel                  | Forgejo repo, cost, edge performance                              |
+| 2026-06-07 | Bun over pnpm                                 | Single tool for install + run, faster cold starts                 |
+| 2026-06-07 | Vitest over Jest                              | ESM-native, Vite integration, speed                               |

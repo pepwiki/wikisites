@@ -1,10 +1,12 @@
 import { defineConfig } from "vitest/config";
+import solidPlugin from "vite-plugin-solid";
 
 export default defineConfig({
+  plugins: [solidPlugin({ dev: true })],
   test: {
     globals: true,
     environment: "node",
-    include: ["packages/*/src/__tests__/**/*.test.ts"],
+    include: ["packages/*/src/__tests__/**/*.test.{ts,tsx}"],
     exclude: ["**/node_modules/**", "**/dist/**"],
     testTimeout: 10_000,
     hookTimeout: 10_000,

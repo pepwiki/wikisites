@@ -9,6 +9,9 @@ import {
   type DeckId,
 } from "@wikisites/query/review-store";
 import type { CardState } from "@wikisites/query/fsrs";
+import { toast } from "solid-sonner";
+import FlipCard from "./ui/FlipCard";
+import RatingButtons from "./ui/RatingButtons";
 
 interface ReviewDashboardProps {
   site: SiteKey;
@@ -61,10 +64,14 @@ export default function ReviewDashboard(props: ReviewDashboardProps) {
       setSessionCorrect((prev) => prev + 1);
     }
 
-    // Move to next card
+    toast.success("Card reviewed");
+
     const nextIdx = currentIndex() + 1;
     if (nextIdx >= dueCards().length) {
       setSessionComplete(true);
+      const total = sessionTotal() + 1;
+      const correct = rating >= Rating.Good ? sessionCorrect() + 1 : sessionCorrect();
+      toast.success(`Session complete! ${correct}/${total} correct`);
     } else {
       setCurrentIndex(nextIdx);
       setFlipped(false);
@@ -76,6 +83,20 @@ export default function ReviewDashboard(props: ReviewDashboardProps) {
     setSessionCorrect(0);
     setSessionTotal(0);
   };
+
+  const frontContent = (
+    <>
+      <p class="text-xl font-semibold text-slate-900 text-center">{currentFront()}</p>
+      <p class="text-xs text-slate-400 mt-4">Click to reveal answer</p>
+    </>
+  );
+
+  const backContent = (
+    <>
+      <p class="text-lg text-center">{currentBack()}</p>
+      <p class="text-xs text-white/60 mt-4">Rate your recall below</p>
+    </>
+  );
 
   return (
     <div class="max-w-2xl mx-auto">
@@ -98,70 +119,27 @@ export default function ReviewDashboard(props: ReviewDashboardProps) {
       </div>
 
       <Show when={!sessionComplete() && currentCard()}>
-        {/* Card display */}
-        <div
-          class="relative w-full h-64 cursor-pointer mb-6 perspective-1000"
-          role="button"
-          tabindex="0"
-          aria-label={
-            flipped() ? `Back: ${currentBack()}` : `Front: ${currentFront()}. Click to flip.`
-          }
-          onClick={() => setFlipped(!flipped())}
-          onKeyDown={(e) => {
-            if (e.key === "Enter" || e.key === " ") {
-              e.preventDefault();
-              setFlipped(!flipped());
+        <div class="mb-6">
+          <FlipCard
+            flipped={flipped()}
+            height="h-64"
+            ariaLabel={
+              flipped() ? `Back: ${currentBack()}` : `Front: ${currentFront()}. Click to flip.`
             }
-          }}
-        >
-          <div
-            class={`absolute inset-0 transition-transform duration-500 preserve-3d ${flipped() ? "rotate-y-180" : ""}`}
-          >
-            {/* Front */}
-            <div class="absolute inset-0 backface-hidden bg-white border-2 border-[#0D9488] rounded-2xl p-8 flex flex-col items-center justify-center">
-              <p class="text-xl font-semibold text-slate-900 text-center">{currentFront()}</p>
-              <p class="text-xs text-slate-400 mt-4">Click to reveal answer</p>
-            </div>
-            {/* Back */}
-            <div class="absolute inset-0 backface-hidden rotate-y-180 bg-[#0D9488] text-white rounded-2xl p-8 flex flex-col items-center justify-center">
-              <p class="text-lg text-center">{currentBack()}</p>
-              <p class="text-xs text-white/60 mt-4">Rate your recall below</p>
-            </div>
-          </div>
+            onFlip={() => setFlipped(!flipped())}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault();
+                setFlipped(!flipped());
+              }
+            }}
+            front={frontContent}
+            back={backContent}
+          />
         </div>
 
-        {/* Rating buttons */}
         <Show when={flipped()}>
-          <div class="grid grid-cols-4 gap-3">
-            <button
-              type="button"
-              class="px-4 py-3 bg-red-50 border-2 border-red-200 text-red-700 rounded-xl font-medium hover:bg-red-100 transition-colors focus:outline-none focus:ring-2 focus:ring-red-400"
-              onClick={() => handleRate(Rating.Again)}
-            >
-              Again
-            </button>
-            <button
-              type="button"
-              class="px-4 py-3 bg-orange-50 border-2 border-orange-200 text-orange-700 rounded-xl font-medium hover:bg-orange-100 transition-colors focus:outline-none focus:ring-2 focus:ring-orange-400"
-              onClick={() => handleRate(Rating.Hard)}
-            >
-              Hard
-            </button>
-            <button
-              type="button"
-              class="px-4 py-3 bg-teal-50 border-2 border-teal-200 text-teal-700 rounded-xl font-medium hover:bg-teal-100 transition-colors focus:outline-none focus:ring-2 focus:ring-teal-400"
-              onClick={() => handleRate(Rating.Good)}
-            >
-              Good
-            </button>
-            <button
-              type="button"
-              class="px-4 py-3 bg-green-50 border-2 border-green-200 text-green-700 rounded-xl font-medium hover:bg-green-100 transition-colors focus:outline-none focus:ring-2 focus:ring-green-400"
-              onClick={() => handleRate(Rating.Easy)}
-            >
-              Easy
-            </button>
-          </div>
+          <RatingButtons onSelect={handleRate} />
         </Show>
 
         <Show when={!flipped()}>

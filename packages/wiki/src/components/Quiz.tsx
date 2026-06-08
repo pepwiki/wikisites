@@ -9,6 +9,8 @@ import {
 } from "@wikisites/query/review-store";
 import { getStatusLabel, getStatusColor } from "@wikisites/query/card-status";
 import type { CardState } from "@wikisites/query/fsrs";
+import { toast } from "solid-sonner";
+import RatingButtons from "./ui/RatingButtons";
 
 interface QuizProps {
   question: string;
@@ -42,15 +44,27 @@ export default function Quiz(props: QuizProps) {
   const submit = () => {
     if (selected() !== null) {
       setRevealed(true);
-      // Auto-rate via FSRS on answer reveal
       if (isFSRS() && !rated()) {
         const correct = selected() === props.correctIndex;
         const rating = correct ? Rating.Good : Rating.Again;
         const result = recordReview(props.site!, props.deckId!, props.cardId!, rating);
         if (result) setCardState(result.card);
         setRated(true);
+        if (correct) {
+          toast.success("Correct!");
+        } else {
+          toast.error("Incorrect");
+        }
       }
     }
+  };
+
+  const handleManualRate = (rating: Rating) => {
+    if (!isFSRS()) return;
+    const result = recordReview(props.site!, props.deckId!, props.cardId!, rating);
+    if (result) setCardState(result.card);
+    const label = Rating[rating];
+    toast.success(`Rated: ${label}`);
   };
 
   const reset = () => {
@@ -127,6 +141,11 @@ export default function Quiz(props: QuizProps) {
             {isCorrect() ? "Correct!" : "Incorrect"}
           </p>
           <p class="text-slate-600 text-sm mt-1">{props.explanation}</p>
+          <Show when={isFSRS()}>
+            <div class="mt-3">
+              <RatingButtons onSelect={handleManualRate} size="sm" />
+            </div>
+          </Show>
           <button
             type="button"
             class="mt-2 text-sm text-[#0D9488] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 rounded"
