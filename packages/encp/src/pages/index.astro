@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import MWCalculator from "../components/MWCalculator.tsx";
 ---
 
 <BaseLayout title="Home">
@@ -25,6 +26,10 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         Classification System
       </a>
     </div>
+  </section>
+
+  <section class="py-12">
+    <MWCalculator client:load />
   </section>
 
   <section class="grid grid-cols-1 md:grid-cols-3 gap-8 py-12">

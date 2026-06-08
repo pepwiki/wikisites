@@ -3,6 +3,10 @@ title: Peptide Database
 description: Searchable database of therapeutic and research peptides
 ---
 
+:::note
+Looking for detailed scientific references? Visit [Encyclopeptide](https://encyclopeptide.com/peptides/) for peer-reviewed articles with citations.
+:::
+
 ## Peptide Database
 
 This is a comprehensive database of peptides used in research and therapeutics. Each entry includes the peptide sequence, molecular weight, targets, and clinical status.

@@ -8,7 +8,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
-    "typecheck": "astro check"
+    "typecheck": "astro check",
+    "validate": "bun run scripts/validate-content.ts"
   },
   "dependencies": {
     "@wikisites/shared": "workspace:*",

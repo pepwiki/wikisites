@@ -47,6 +47,16 @@ Overview of FDA-approved peptide drugs and their mechanisms
 
 Your progress is saved locally on this device. No account required. Start learning and your flashcard reviews and quiz scores will be tracked automatically.
 
+### Learning Path
+Follow a personalized learning path based on your quiz performance. The system recommends what to study next based on your accuracy and review history.
+
+### Mastery Levels
+Earn mastery badges as you progress:
+- **Beginner** - Started learning
+- **Familiar** - 50%+ accuracy with 3+ reviews
+- **Proficient** - 75%+ accuracy with 5+ reviews
+- **Expert** - 90%+ accuracy with 10+ reviews
+
 - 30 Articles
 - 29 Flashcards
 - 23 Quiz Questions

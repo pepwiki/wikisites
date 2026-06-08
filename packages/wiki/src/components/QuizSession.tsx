@@ -142,6 +142,19 @@ export default function QuizSession(props: QuizSessionProps) {
       );
       return next;
     });
+
+    // Update topic progress
+    const STORAGE_KEY_PROGRESS = "wikisites:topic-progress";
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY_PROGRESS);
+      const data = raw ? JSON.parse(raw) : {};
+      const cat = formatCategory(q.id);
+      if (!data[cat]) data[cat] = { reviews: 0, correct: 0, lastReviewed: null };
+      data[cat].reviews++;
+      if (correct) data[cat].correct++;
+      data[cat].lastReviewed = new Date().toISOString();
+      localStorage.setItem(STORAGE_KEY_PROGRESS, JSON.stringify(data));
+    } catch {}
   };
 
   const handleNext = () => {

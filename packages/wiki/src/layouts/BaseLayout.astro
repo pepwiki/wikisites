@@ -3,6 +3,7 @@ import "../styles/global.css";
 import Toaster from "../components/ui/Toaster";
 import MobileNav from "../components/MobileNav";
 import CookieConsent from "../components/CookieConsent.tsx";
+import PushNotifications from "../components/PushNotifications.tsx";
 
 interface Props {
   title: string;
@@ -113,6 +114,7 @@ const {
         <a href="/privacy" class="hover:text-[#0D9488] transition-colors">Privacy Policy</a>
       </div>
     </footer>
+    <PushNotifications client:load />
     <CookieConsent client:load />
     <script is:inline>
       if ("serviceWorker" in navigator) {
