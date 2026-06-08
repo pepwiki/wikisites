@@ -116,6 +116,12 @@ export default function ReviewDashboard(props: ReviewDashboardProps) {
           </div>
           <div class="text-xs text-slate-500">Session Accuracy</div>
         </div>
+        <Show when={currentCard() && currentCard()!.scheduledDays > 0}>
+          <div class="text-center px-4 border-l border-slate-200">
+            <div class="text-2xl font-bold text-[#0D9488]">{currentCard()!.scheduledDays}d</div>
+            <div class="text-xs text-slate-500">Next Review</div>
+          </div>
+        </Show>
       </div>
 
       <Show when={!sessionComplete() && currentCard()}>

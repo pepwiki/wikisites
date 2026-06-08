@@ -24,6 +24,8 @@ interface QuizProps {
   site?: SiteKey;
   /** Deck ID for FSRS persistence. */
   deckId?: DeckId;
+  /** Called when the answer is revealed. */
+  onReveal?: (correct: boolean) => void;
 }
 
 export default function Quiz(props: QuizProps) {
@@ -59,6 +61,7 @@ export default function Quiz(props: QuizProps) {
         }
       }
       sessionCtx?.recordQuiz(isCorrect());
+      props.onReveal?.(isCorrect());
     }
   };
 

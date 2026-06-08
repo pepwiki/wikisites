@@ -1,71 +1,26 @@
 ---
+import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import FlashcardDeck from "../components/FlashcardDeck.tsx";
 
-const aminoAcidsCards = [
-  { id: "glycine", front: "Glycine (G)", back: "Smallest amino acid. Only H as side chain. Most flexible. Found in collagen triple helix.", tags: ["amino-acids", "beginner"], difficulty: "beginner" },
-  { id: "cysteine", front: "Cysteine (C)", back: "Contains thiol (-SH) group. Forms disulfide bonds. Key for protein folding. Precursor to glutathione.", tags: ["amino-acids", "chemistry"], difficulty: "intermediate" },
-  { id: "tryptophan", front: "Tryptophan (W)", back: "Largest amino acid. Indole ring. Precursor to serotonin and melatonin. Absorbs UV at 280nm.", tags: ["amino-acids", "neuroscience"], difficulty: "intermediate" },
-  { id: "proline", front: "Proline (P)", back: "Cyclic side chain bonds back to nitrogen. Introduces kinks in protein backbone. Found in collagen. Cis-trans isomerization.", tags: ["amino-acids", "structure"], difficulty: "intermediate" },
-  { id: "histidine", front: "Histidine (H)", back: "Imidazole side chain with pKa near physiological pH. Buffering capacity. Active site residue in enzymes.", tags: ["amino-acids", "enzymes"], difficulty: "advanced" },
-  { id: "methionine", front: "Methionine (M)", back: "Contains sulfur in thioether. Start codon amino acid. Precursor to S-adenosylmethionine (SAM). Hydrophobic.", tags: ["amino-acids", "genetics"], difficulty: "intermediate" },
-  { id: "serine", front: "Serine (S)", back: "Hydroxyl group. Phosphorylation target. Active site residue in serine proteases. Polar, uncharged.", tags: ["amino-acids", "signaling"], difficulty: "intermediate" },
-  { id: "lysine", front: "Lysine (K)", back: "Positive charge at physiological pH. Histone modification target. Collagen cross-linking. Essential amino acid.", tags: ["amino-acids", "epigenetics"], difficulty: "advanced" },
-  { id: "aspartate", front: "Aspartate (D)", back: "Negative charge at physiological pH. Acidic. Found in enzyme active sites. Metal ion coordination.", tags: ["amino-acids", "charge"], difficulty: "intermediate" },
-];
+const allFlashcards = await getCollection("flashcards");
 
-const peptideBondsCards = [
-  { id: "peptide-bond-def", front: "What is a peptide bond?", back: "An amide bond formed between the alpha-carboxyl of one amino acid and the alpha-amino of another, with loss of water (dehydration synthesis).", tags: ["chemistry", "fundamentals"], difficulty: "beginner" },
-  { id: "peptide-bond-geometry", front: "Peptide bond geometry", back: "Partial double bond character due to resonance. Planar. Restricted rotation. Typically in trans configuration (except Proline).", tags: ["chemistry", "structure"], difficulty: "intermediate" },
-  { id: "ramachandran", front: "What is the Ramachandran plot?", back: "A plot of phi vs psi dihedral angles of peptide backbone. Shows allowed conformations based on steric clashes.", tags: ["structure", "bioinformatics"], difficulty: "advanced" },
-  { id: "pb-length", front: "Peptide bond length", back: "C-N bond: 1.32 Angstrom (shorter than single bond 1.49A). C=O bond: 1.24 Angstrom (longer than isolated carbonyl 1.21A). Planar geometry.", tags: ["chemistry", "structure"], difficulty: "intermediate" },
-  { id: "pb-trans-cis", front: "Trans vs Cis peptide bonds", back: "Trans: alpha-carbons on opposite sides (~99.6%). Cis: same side (~0.4%). X-Pro bonds: ~6% cis due to reduced steric clash.", tags: ["chemistry", "structure"], difficulty: "advanced" },
-  { id: "pb-hydrolysis", front: "Peptide bond hydrolysis energy", back: "Requires ~8-16 kJ/mol to break. Thermodynamically favorable but kinetically slow. Enzymes (proteases) catalyze hydrolysis.", tags: ["chemistry", "energetics"], difficulty: "intermediate" },
-];
+const grouped: Record<string, { id: string; front: string; back: string; tags: string[]; difficulty: string }[]> = {};
 
-const keyPeptidesCards = [
-  { id: "glutathione", front: "Glutathione (GSH)", back: "gamma-Glu-Cys-Gly. Master antioxidant. Redox buffer. Cofactor for glutathione peroxidase. GSH/GSSG ratio indicates cellular redox state.", tags: ["tripeptide", "antioxidant"], difficulty: "advanced" },
-  { id: "oxytocin", front: "Oxytocin", back: "9 aa cyclic peptide. Cys-Tyr-Ile-Gln-Asn-Cys-Pro-Leu-Gly-NH2. Social bonding, uterine contraction, milk ejection.", tags: ["nonapeptide", "hormone"], difficulty: "intermediate" },
-  { id: "bradykinin", front: "Bradykinin", back: "Arg-Pro-Pro-Gly-Phe-Ser-Pro-Phe-Arg. Vasodilator. Inflammation mediator. Pain signaling. Part of kallikrein-kinin system.", tags: ["nonapeptide", "inflammation"], difficulty: "intermediate" },
-  { id: "semaglutide", front: "Semaglutide", back: "GLP-1 analog with Aib at position 8 and C-18 fatty diacid. Half-life ~7 days via albumin binding. FDA approved for T2D and obesity.", tags: ["drug", "metabolism"], difficulty: "advanced" },
-  { id: "insulin", front: "Insulin", back: "51 aa protein hormone (A-chain 21 aa + B-chain 30 aa). Three disulfide bridges. Regulates glucose uptake. Deficiency causes diabetes.", tags: ["hormone", "metabolism"], difficulty: "advanced" },
-  { id: "substance-p", front: "Substance P", back: "11 aa tachykinin. Arg-Pro-Lys-Pro-Gln-Gln-Phe-Phe-Gly-Leu-Met-NH2. NK1 receptor. Pain transmission. Neurogenic inflammation.", tags: ["neuropeptide", "pain"], difficulty: "advanced" },
-];
+for (const card of allFlashcards) {
+  const primaryTag = card.data.tags[0] ?? "uncategorized";
+  if (!grouped[primaryTag]) grouped[primaryTag] = [];
+  grouped[primaryTag].push({
+    id: card.id,
+    front: card.data.front,
+    back: card.data.back,
+    tags: card.data.tags,
+    difficulty: card.data.difficulty,
+  });
+}
 
-const pharmacologyCards = [
-  { id: "incretin-effect", front: "What is the incretin effect?", back: "Oral glucose produces more insulin than IV glucose at the same blood glucose level. Mediated by GLP-1 and GIP released from gut.", tags: ["pharmacology", "diabetes"], difficulty: "advanced" },
-  { id: "dpp4-inhibitors", front: "DPP-4 inhibitors", back: "Prevent degradation of GLP-1 and GIP. Extend incretin half-life. Examples: sitagliptin, saxagliptin. Oral, once daily.", tags: ["drug", "diabetes"], difficulty: "advanced" },
-  { id: "pegylation", front: "What is PEGylation?", back: "Attachment of polyethylene glycol chains to peptides. Increases hydrodynamic radius. Reduces renal clearance. Extends half-life.", tags: ["drug-design", "modification"], difficulty: "advanced" },
-  { id: "agonist-antagonist", front: "Receptor agonist vs antagonist", back: "Agonist: activates receptor. Antagonist: blocks receptor without activating. Partial agonist: partial activation. Inverse agonist: reduces constitutive activity.", tags: ["pharmacology", "receptors"], difficulty: "intermediate" },
-  { id: "ki-kd", front: "What is Ki vs Kd?", back: "Ki: inhibition constant for antagonist binding. Kd: dissociation constant for ligand-receptor binding. Lower values = higher affinity.", tags: ["pharmacology", "binding"], difficulty: "advanced" },
-  { id: "bbb-peptides", front: "Blood-brain barrier peptides", back: "Most peptides cannot cross BBB. Strategies: nasal delivery, cell-penetrating peptides, receptor-mediated transcytosis, nanoparticle carriers.", tags: ["drug-delivery", "CNS"], difficulty: "advanced" },
-];
-
-const advancedTopicsCards = [
-  { id: "cyclic-peptide", front: "What is a cyclic peptide?", back: "Peptide with covalent bond connecting N-terminus to C-terminus or side chains. Enhanced metabolic stability. Improved cell permeability. Examples: cyclosporine, octreotide.", tags: ["drug-design", "structure"], difficulty: "advanced" },
-  { id: "stapled-peptide", front: "What is a stapled peptide?", back: "Peptide with hydrocarbon crosslink between non-adjacent side chains. Locks alpha-helical conformation. Enhances binding affinity and cell permeability.", tags: ["drug-design", "oncology"], difficulty: "advanced" },
-  { id: "peptide-drug-conjugate", front: "What is a peptide-drug conjugate?", back: "Peptide linked to cytotoxic payload via cleavable linker. Targets specific cells via receptor binding. Releases drug inside target cell.", tags: ["drug-design", "oncology"], difficulty: "advanced" },
-  { id: "incretin-effect-2", front: "What is the incretin effect?", back: "Oral glucose produces more insulin than IV glucose. Mediated by GLP-1 and GIP. Basis for incretin-based diabetes therapies.", tags: ["pharmacology", "diabetes"], difficulty: "advanced" },
-  { id: "cgrp-card", front: "What is CGRP?", back: "Calcitonin Gene-Related Peptide. 37 aa vasodilator. Key role in migraine pathophysiology. Target of monoclonal antibodies and gepants.", tags: ["neurology", "migraine"], difficulty: "advanced" },
-  { id: "self-assembly", front: "What is peptide self-assembly?", back: "Spontaneous organization of peptides into ordered structures (nanofibers, hydrogels, micelles) driven by non-covalent interactions.", tags: ["materials", "chemistry"], difficulty: "advanced" },
-  { id: "gpcr-card", front: "What is a GPCR?", back: "G-Protein Coupled Receptor. Seven-transmembrane domain receptor. Largest drug target family. Couples to G-proteins for signal transduction.", tags: ["pharmacology", "receptors"], difficulty: "advanced" },
-  { id: "racemization", front: "What is racemization?", back: "Conversion of L-amino acids to D-form. Non-enzymatic at high temperature/pH. Problem in peptide drug storage. Monitored by chiral HPLC.", tags: ["chemistry", "stability"], difficulty: "advanced" },
-  { id: "n-methylation", front: "What is N-methylation?", back: "Methylation of backbone amide nitrogen. Reduces H-bond donor capacity. Improves oral bioavailability. Found in cyclosporine.", tags: ["drug-design", "modification"], difficulty: "advanced" },
-  { id: "peptidomimetic", front: "What is a peptidomimetic?", back: "Non-peptide molecule that mimics the biological activity of a peptide. Improved stability and bioavailability. Example: renin inhibitors.", tags: ["drug-design", "chemistry"], difficulty: "advanced" },
-];
-
-const cuttingEdgeCards = [
-  { id: "conotoxin", front: "What is a conotoxin?", back: "Venom peptide from cone snails. Targets ion channels with high specificity. Used as research tools and drug leads. Ziconotide is a conotoxin drug.", tags: ["neuroscience", "toxins"], difficulty: "advanced" },
-  { id: "snac-card", front: "What is SNAC?", back: "Sodium N-[8-(2-hydroxybenzoyl)] amino caprylate. Absorption enhancer for oral semaglutide. Protects peptide from gastric degradation.", tags: ["drug-delivery", "oral"], difficulty: "advanced" },
-  { id: "phage-display", front: "What is phage display?", back: "Technique for screening peptide libraries. Peptides displayed on bacteriophage surface. Binders selected by affinity. Used in drug discovery.", tags: ["drug-discovery", "technique"], difficulty: "advanced" },
-  { id: "cpp-card", front: "What is a cell-penetrating peptide?", back: "Short peptides (5-30 aa) that cross cell membranes. Examples: TAT, penetratin, transportan. Used for intracellular drug delivery.", tags: ["drug-delivery", "CNS"], difficulty: "advanced" },
-  { id: "snipps", front: "What is SNIPPs?", back: "Selective Nucleophilic Isotope-labeled Peptides. Used for peptide quantification in biological matrices. High sensitivity and selectivity.", tags: ["analytical", "technique"], difficulty: "advanced" },
-  { id: "peptide-dendrimer", front: "What is a peptide dendrimer?", back: "Branched peptide architecture with central core. Multivalent binding. Enhanced avidity. Applications in vaccines and gene delivery.", tags: ["drug-design", "materials"], difficulty: "advanced" },
-  { id: "mirror-phage", front: "What is mirror-image phage display?", back: "Screening D-peptide libraries using D-phage. Produces D-peptide binders resistant to proteolysis. Enantiomeric drug candidates.", tags: ["drug-discovery", "D-amino-acids"], difficulty: "advanced" },
-  { id: "macrocycle", front: "What is a macrocycle?", back: "Ring structure with 12+ atoms. Includes cyclic peptides, depsipeptides, lactams. Conformational constraint enhances binding. Cell permeability challenge.", tags: ["drug-design", "structure"], difficulty: "advanced" },
-  { id: "depsipeptide", front: "What is a depsipeptide?", back: "Peptide containing ester bonds in addition to amide bonds. Found in natural products. Example: dolastatin 10. Enhanced metabolic stability.", tags: ["chemistry", "natural-products"], difficulty: "advanced" },
-  { id: "protac", front: "What is PROTAC technology?", back: "Proteolysis Targeting Chimera. Bifunctional molecule linking target protein to E3 ubiquitin ligase. Induces protein degradation. Binds catalytically.", tags: ["drug-design", "degradation"], difficulty: "advanced" },
-];
+const categories = Object.keys(grouped).sort();
+const totalCount = allFlashcards.length;
 ---
 
 <BaseLayout title="Flashcards">
@@ -75,63 +30,64 @@ const cuttingEdgeCards = [
     schedule your next review. State is shared with the Review page.
   </p>
 
-  <div class="mb-8">
-    <h2 class="text-2xl font-bold mb-4 text-slate-900">Amino Acids</h2>
-    <FlashcardDeck
-      client:load
-      cards={aminoAcidsCards}
-      site="wiki"
-      deckId="all-cards"
-    />
+  <div class="mb-8 flex flex-wrap gap-2" id="category-nav">
+    <button
+      type="button"
+      data-category="all"
+      class="category-btn px-3 py-1.5 rounded-full text-xs font-medium transition-colors bg-[#0D9488] text-white"
+    >
+      All ({totalCount})
+    </button>
+    {categories.map((cat) => (
+      <button
+        type="button"
+        data-category={cat}
+        class="category-btn px-3 py-1.5 rounded-full text-xs font-medium transition-colors bg-slate-100 text-slate-600 hover:bg-slate-200"
+      >
+        {cat} ({grouped[cat].length})
+      </button>
+    ))}
   </div>
 
-  <div class="mb-8">
-    <h2 class="text-2xl font-bold mb-4 text-slate-900">Peptide Bonds</h2>
-    <FlashcardDeck
-      client:load
-      cards={peptideBondsCards}
-      site="wiki"
-      deckId="all-cards"
-    />
-  </div>
-
-  <div class="mb-8">
-    <h2 class="text-2xl font-bold mb-4 text-slate-900">Key Peptides</h2>
-    <FlashcardDeck
-      client:load
-      cards={keyPeptidesCards}
-      site="wiki"
-      deckId="all-cards"
-    />
-  </div>
-
-  <div class="mb-8">
-    <h2 class="text-2xl font-bold mb-4 text-slate-900">Pharmacology</h2>
-    <FlashcardDeck
-      client:load
-      cards={pharmacologyCards}
-      site="wiki"
-      deckId="all-cards"
-    />
-  </div>
-
-  <div class="mb-8">
-    <h2 class="text-2xl font-bold mb-4 text-slate-900">Advanced Topics</h2>
-    <FlashcardDeck
-      client:load
-      cards={advancedTopicsCards}
-      site="wiki"
-      deckId="all-cards"
-    />
-  </div>
-
-  <div class="mb-8">
-    <h2 class="text-2xl font-bold mb-4 text-slate-900">Cutting Edge</h2>
-    <FlashcardDeck
-      client:load
-      cards={cuttingEdgeCards}
-      site="wiki"
-      deckId="all-cards"
-    />
-  </div>
+  {categories.map((cat) => (
+    <div class="mb-8 category-section" data-category={cat}>
+      <h2 class="text-2xl font-bold mb-4 text-slate-900 capitalize">
+        {cat.replace(/-/g, " ")} <span class="text-base font-normal text-slate-500">({grouped[cat].length} cards)</span>
+      </h2>
+      <FlashcardDeck
+        client:load
+        cards={grouped[cat]}
+        site="wiki"
+        deckId="all-cards"
+      />
+    </div>
+  ))}
 </BaseLayout>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const buttons = document.querySelectorAll<HTMLButtonElement>(".category-btn");
+    const sections = document.querySelectorAll<HTMLElement>(".category-section");
+
+    buttons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const cat = btn.dataset.category;
+
+        buttons.forEach((b) => {
+          b.classList.remove("bg-[#0D9488]", "text-white");
+          b.classList.add("bg-slate-100", "text-slate-600");
+        });
+        btn.classList.remove("bg-slate-100", "text-slate-600");
+        btn.classList.add("bg-[#0D9488]", "text-white");
+
+        sections.forEach((s) => {
+          if (cat === "all" || s.dataset.category === cat) {
+            s.style.display = "";
+          } else {
+            s.style.display = "none";
+          }
+        });
+      });
+    });
+  });
+</script>
