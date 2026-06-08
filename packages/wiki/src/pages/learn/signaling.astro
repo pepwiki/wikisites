@@ -1,0 +1,181 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Peptide Signaling"
+  description="Understanding peptide signaling mechanisms, including autocrine, paracrine, and endocrine signaling pathways."
+>
+  <nav class="mb-8">
+    <a
+      href="/learn"
+      class="text-sm font-medium text-[#0D9488] hover:underline focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 rounded"
+    >
+      &larr; Back to Learning Paths
+    </a>
+  </nav>
+
+  <article class="max-w-3xl">
+    <h1 class="text-4xl font-extrabold text-slate-900 mb-4">Peptide Signaling</h1>
+    <p class="text-sm font-medium text-slate-400 mb-8">Cell Biology &middot; Intermediate</p>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">Introduction</h2>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      Peptides serve as crucial signaling molecules in biological systems. They mediate communication
+      between cells, tissues, and organs through various signaling mechanisms. Understanding peptide
+      signaling is fundamental to developing therapeutic peptides and understanding physiological
+      processes.
+    </p>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">Types of Peptide Signaling</h2>
+
+    <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Autocrine Signaling</h3>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      <strong>Autocrine signaling</strong> occurs when a cell secretes a peptide that binds to
+      receptors on the same cell. This mechanism is important for cell proliferation and
+      differentiation, immune cell activation, cancer progression, and feedback regulation. Examples
+      include T-cell activation (IL-2 signaling) and tumor cell growth factors.
+    </p>
+
+    <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Paracrine Signaling</h3>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      <strong>Paracrine signaling</strong> occurs when a cell secretes a peptide that affects nearby
+      cells. This is the most common form of local signaling, characterized by short-range
+      communication, rapid signal termination, high specificity, and local concentration gradients.
+      Examples include neurotransmitter release at synapses and growth factor signaling in wound
+      healing.
+    </p>
+
+    <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Endocrine Signaling</h3>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      <strong>Endocrine signaling</strong> occurs when peptides (hormones) are secreted into the
+      bloodstream to affect distant target cells. Characteristics include long-range communication,
+      slower response time, systemic effects, and hormone stability in circulation. Examples include
+      insulin regulation of blood glucose and growth hormone effects on metabolism.
+    </p>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">Major Peptide Signaling Molecules</h2>
+
+    <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Neuropeptides</h3>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      Neuropeptides are small peptides produced by neurons that modulate neural activity, typically
+      3-40 amino acids long.
+    </p>
+    <div class="overflow-x-auto mb-6">
+      <table class="w-full text-sm border-collapse">
+        <thead>
+          <tr class="border-b-2 border-slate-200">
+            <th class="text-left py-3 px-4 font-bold text-slate-900">Neuropeptide</th>
+            <th class="text-left py-3 px-4 font-bold text-slate-900">Function</th>
+            <th class="text-left py-3 px-4 font-bold text-slate-900">Receptor Type</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700">Substance P</td>
+            <td class="py-2 px-4 text-slate-600">Pain perception</td>
+            <td class="py-2 px-4 text-slate-600">NK1 receptor</td>
+          </tr>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700">CGRP</td>
+            <td class="py-2 px-4 text-slate-600">Vasodilation, pain</td>
+            <td class="py-2 px-4 text-slate-600">CGRP receptor</td>
+          </tr>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700">Endorphins</td>
+            <td class="py-2 px-4 text-slate-600">Pain modulation</td>
+            <td class="py-2 px-4 text-slate-600">Opioid receptors</td>
+          </tr>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700">Neuropeptide Y</td>
+            <td class="py-2 px-4 text-slate-600">Appetite regulation</td>
+            <td class="py-2 px-4 text-slate-600">Y receptors</td>
+          </tr>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700">Oxytocin</td>
+            <td class="py-2 px-4 text-slate-600">Social bonding</td>
+            <td class="py-2 px-4 text-slate-600">Oxytocin receptor</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Hormones</h3>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      Peptide hormones are produced by endocrine glands and regulate physiological processes.
+    </p>
+    <div class="overflow-x-auto mb-6">
+      <table class="w-full text-sm border-collapse">
+        <thead>
+          <tr class="border-b-2 border-slate-200">
+            <th class="text-left py-3 px-4 font-bold text-slate-900">Hormone</th>
+            <th class="text-left py-3 px-4 font-bold text-slate-900">Source</th>
+            <th class="text-left py-3 px-4 font-bold text-slate-900">Primary Function</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700">Insulin</td>
+            <td class="py-2 px-4 text-slate-600">Pancreas</td>
+            <td class="py-2 px-4 text-slate-600">Glucose uptake</td>
+          </tr>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700">Glucagon</td>
+            <td class="py-2 px-4 text-slate-600">Pancreas</td>
+            <td class="py-2 px-4 text-slate-600">Glucose release</td>
+          </tr>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700">Growth hormone</td>
+            <td class="py-2 px-4 text-slate-600">Pituitary</td>
+            <td class="py-2 px-4 text-slate-600">Growth regulation</td>
+          </tr>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700">Oxytocin</td>
+            <td class="py-2 px-4 text-slate-600">Hypothalamus</td>
+            <td class="py-2 px-4 text-slate-600">Labor contraction, bonding</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="text-xl font-bold text-slate-900 mt-6 mb-3">Cytokines</h3>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      Cytokines are small proteins involved in immune signaling. Major families include
+      <strong>interleukins (IL)</strong> for immune cell communication, <strong>interferons
+      (IFN)</strong> for antiviral defense, <strong>tumor necrosis factors (TNF)</strong> for
+      inflammation and apoptosis, and <strong>chemokines</strong> for cell migration.
+    </p>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">Signal Transduction Pathways</h2>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      When a peptide binds to its receptor, it triggers a cascade of intracellular events: receptor
+      activation with conformational change, second messenger generation (cAMP, IP3, DAG, Ca2+),
+      protein kinase activation through phosphorylation cascades, and cellular responses including
+      gene expression changes and metabolic adjustments. Signal amplification allows small amounts of
+      peptide to produce significant cellular responses.
+    </p>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">Signal Termination</h2>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      Proper signal termination is crucial for biological regulation. Mechanisms include receptor
+      internalization (endocytosis), receptor desensitization (phosphorylation reduces sensitivity),
+      peptide degradation by enzymes, and reuptake by transporters that remove peptides from
+      extracellular space.
+    </p>
+  </article>
+
+  <nav class="mt-12 pt-8 border-t border-slate-200 flex justify-between items-center">
+    <a
+      href="/learn/structure"
+      class="text-sm font-medium text-[#0D9488] hover:underline focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 rounded"
+    >
+      &larr; Previous: Protein Structure Levels
+    </a>
+    <a
+      href="/learn/receptors"
+      class="text-sm font-medium text-[#F97316] hover:underline focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:ring-offset-2 rounded"
+    >
+      Next: Receptor Binding &rarr;
+    </a>
+  </nav>
+</BaseLayout>

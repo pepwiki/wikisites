@@ -1,0 +1,131 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Purification Methods"
+  description="Advanced techniques for peptide purification and characterization, including HPLC, mass spectrometry, and analytical methods."
+>
+  <nav class="mb-8">
+    <a
+      href="/learn"
+      class="text-sm font-medium text-[#0D9488] hover:underline focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 rounded"
+    >
+      &larr; Back to Learning Paths
+    </a>
+  </nav>
+
+  <article class="max-w-3xl">
+    <h1 class="text-4xl font-extrabold text-slate-900 mb-4">Purification Methods</h1>
+    <p class="text-sm font-medium text-slate-400 mb-8">Analytical &middot; Advanced</p>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">Introduction</h2>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      Peptide purification is critical for obtaining high-purity peptides for research and
+      therapeutic applications. Synthetic peptides typically require purification to remove truncated
+      sequences, deletion products, and other impurities.
+    </p>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">High-Performance Liquid Chromatography (HPLC)</h2>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      HPLC is the primary method for peptide purification and analysis. <strong>Reversed-Phase
+      HPLC</strong> is the most common mode, separating peptides based on hydrophobicity using a C18
+      or C8 bonded silica stationary phase with a water/acetonitrile gradient containing 0.1% TFA.
+    </p>
+    <div class="overflow-x-auto mb-6">
+      <table class="w-full text-sm border-collapse">
+        <thead>
+          <tr class="border-b-2 border-slate-200">
+            <th class="text-left py-3 px-4 font-bold text-slate-900">HPLC Mode</th>
+            <th class="text-left py-3 px-4 font-bold text-slate-900">Separation Basis</th>
+            <th class="text-left py-3 px-4 font-bold text-slate-900">Applications</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700 font-medium">Reversed-Phase (RP)</td>
+            <td class="py-2 px-4 text-slate-600">Hydrophobicity</td>
+            <td class="py-2 px-4 text-slate-600">Most peptide purification</td>
+          </tr>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700 font-medium">Ion-Exchange</td>
+            <td class="py-2 px-4 text-slate-600">Charge</td>
+            <td class="py-2 px-4 text-slate-600">Peptides with significant charge differences</td>
+          </tr>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700 font-medium">Size-Exclusion (SEC)</td>
+            <td class="py-2 px-4 text-slate-600">Molecular size</td>
+            <td class="py-2 px-4 text-slate-600">Aggregation analysis, MW determination</td>
+          </tr>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700 font-medium">HILIC</td>
+            <td class="py-2 px-4 text-slate-600">Hydrophilicity</td>
+            <td class="py-2 px-4 text-slate-600">Very hydrophilic peptides, glycopeptides</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      RP-HPLC operating conditions: column 250 x 4.6 mm (analytical), flow rate 1 mL/min,
+      gradient 5-95% acetonitrile over 30-60 minutes, detection at 214 nm (peptide bond) and 280 nm
+      (aromatic residues).
+    </p>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">Mass Spectrometry</h2>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      Mass spectrometry provides molecular weight confirmation and structural information.
+    </p>
+    <ul class="list-disc list-inside text-slate-600 space-y-2 mb-4">
+      <li><strong>ESI-MS (Electrospray Ionization):</strong> Soft ionization, compatible with HPLC (LC-MS), produces multiply charged ions [M+nH]<sup>n+</sup>, high mass accuracy</li>
+      <li><strong>MALDI-TOF:</strong> Pulsed laser desorption from crystalline matrix, simple sample preparation, high sensitivity, tolerant of impurities</li>
+      <li><strong>Tandem MS/MS:</strong> Fragmentation of selected ions for sequence information using CID, ETD, or HCD</li>
+    </ul>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">Amino Acid Analysis</h2>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      Amino acid analysis determines peptide composition. <strong>Acid hydrolysis</strong> (6M HCl,
+      110&deg;C, 24 hours) is the standard method but destroys Trp and converts Asn to Asp.
+      <strong>Alkaline hydrolysis</strong> is specific for Trp. Detection methods include
+      pre-column derivatization (OPA, FMOC, AccQ-Tag) and post-column derivatization (ninhydrin).
+    </p>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">Edman Degradation</h2>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      <strong>Edman degradation</strong> sequentially removes and identifies N-terminal amino acids
+      using phenyl isothiocyanate (PITC) as the reagent, producing phenylthiohydantoin (PTH)-amino
+      acids identified by HPLC. Limitations include a maximum of ~50 cycles, requirement for a free
+      N-terminus, and slow speed (hours per cycle).
+    </p>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">Purification Strategies</h2>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      Multiple orthogonal techniques provide maximum purity: primary purification by RP-HPLC,
+      secondary purification by IEX or HILIC, and final polishing by SEC or RP-HPLC with a
+      different column. Common impurities include truncated sequences, deletion sequences, oxidized
+      products (Met, Trp, Cys), incomplete deprotection products, and racemized products.
+    </p>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">Quality Control</h2>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      HPLC purity is assessed by area normalization at 214 nm and 280 nm, with minimum 95% purity for
+      most applications and 98-99% for therapeutic peptides. Mass confirmation requires molecular
+      weight within &plusmn;0.01% of theoretical. Stability testing includes accelerated conditions
+      (40&deg;C/75% RH), photostability, freeze-thaw, and solution stability.
+    </p>
+  </article>
+
+  <nav class="mt-12 pt-8 border-t border-slate-200 flex justify-between items-center">
+    <a
+      href="/learn/spps"
+      class="text-sm font-medium text-[#0D9488] hover:underline focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 rounded"
+    >
+      &larr; Previous: Solid-Phase Synthesis
+    </a>
+    <a
+      href="/learn/computational"
+      class="text-sm font-medium text-[#F97316] hover:underline focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:ring-offset-2 rounded"
+    >
+      Next: Computational Design &rarr;
+    </a>
+  </nav>
+</BaseLayout>

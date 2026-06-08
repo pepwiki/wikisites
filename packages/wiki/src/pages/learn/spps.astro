@@ -1,0 +1,156 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Solid-Phase Synthesis"
+  description="Advanced guide to solid-phase peptide synthesis (SPPS), including Fmoc strategy, coupling reagents, and purification."
+>
+  <nav class="mb-8">
+    <a
+      href="/learn"
+      class="text-sm font-medium text-[#0D9488] hover:underline focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 rounded"
+    >
+      &larr; Back to Learning Paths
+    </a>
+  </nav>
+
+  <article class="max-w-3xl">
+    <h1 class="text-4xl font-extrabold text-slate-900 mb-4">Solid-Phase Peptide Synthesis</h1>
+    <p class="text-sm font-medium text-slate-400 mb-8">Synthesis &middot; Advanced</p>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">Introduction</h2>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      Solid-phase peptide synthesis (SPPS) is the standard method for laboratory-scale peptide
+      synthesis. Developed by Bruce Merrifield in the 1960s (Nobel Prize, 1984), SPPS allows efficient
+      assembly of peptide chains on an insoluble polymer support.
+    </p>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">Fmoc Strategy</h2>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      The <strong>Fmoc (9-fluorenylmethyloxycarbonyl)</strong> strategy is the most widely used
+      approach in modern SPPS. It employs base-labile Fmoc protection for the alpha-amino group and
+      acid-labile side chain protecting groups.
+    </p>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      <strong>Fmoc deprotection</strong> uses 20% piperidine in DMF via beta-elimination (5-20
+      minutes). Monitoring is done by UV absorbance at 301 nm. Advantages include mild deprotection
+      conditions, compatibility with acid-labile side chain protection, and compatibility with
+      automated synthesizers.
+    </p>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">Coupling Reagents</h2>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      Efficient amide bond formation requires activating reagents. Modern coupling reagents overcome
+      the low reactivity of carboxylic acids toward amines.
+    </p>
+    <div class="overflow-x-auto mb-6">
+      <table class="w-full text-sm border-collapse">
+        <thead>
+          <tr class="border-b-2 border-slate-200">
+            <th class="text-left py-3 px-4 font-bold text-slate-900">Reagent</th>
+            <th class="text-left py-3 px-4 font-bold text-slate-900">Type</th>
+            <th class="text-left py-3 px-4 font-bold text-slate-900">Key Features</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700 font-medium">HBTU</td>
+            <td class="py-2 px-4 text-slate-600">Uronium</td>
+            <td class="py-2 px-4 text-slate-600">Most commonly used, fast coupling, low racemization</td>
+          </tr>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700 font-medium">HATU</td>
+            <td class="py-2 px-4 text-slate-600">Uronium</td>
+            <td class="py-2 px-4 text-slate-600">Most powerful, extremely fast, used for difficult couplings</td>
+          </tr>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700 font-medium">DIC</td>
+            <td class="py-2 px-4 text-slate-600">Carbodiimide</td>
+            <td class="py-2 px-4 text-slate-600">Water-soluble, easier byproduct removal</td>
+          </tr>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700 font-medium">PyBOP</td>
+            <td class="py-2 px-4 text-slate-600">Phosphonium</td>
+            <td class="py-2 px-4 text-slate-600">Good for sterically hindered amino acids</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      Additives like <strong>HOBt</strong> and <strong>HOAt</strong> prevent racemization and
+      accelerate coupling. <strong>Oxyma Pure</strong> is a newer non-explosive alternative.
+    </p>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">Protecting Groups</h2>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      The Fmoc strategy provides <strong>orthogonal protection</strong>: Fmoc is removed by base
+      (piperidine), while side chain groups are removed by acid (TFA). Common protecting groups
+      include OtBu for Asp/Glu, Boc for Lys/Trp, Pbf for Arg, Trt for Cys/His/Asn/Gln, and tBu
+      for Ser/Thr.
+    </p>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">Resin Types</h2>
+    <div class="overflow-x-auto mb-6">
+      <table class="w-full text-sm border-collapse">
+        <thead>
+          <tr class="border-b-2 border-slate-200">
+            <th class="text-left py-3 px-4 font-bold text-slate-900">Resin</th>
+            <th class="text-left py-3 px-4 font-bold text-slate-900">C-Terminal</th>
+            <th class="text-left py-3 px-4 font-bold text-slate-900">Application</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700 font-medium">Wang Resin</td>
+            <td class="py-2 px-4 text-slate-600">Free acid</td>
+            <td class="py-2 px-4 text-slate-600">Standard SPPS</td>
+          </tr>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700 font-medium">Rink Amide Resin</td>
+            <td class="py-2 px-4 text-slate-600">Amide</td>
+            <td class="py-2 px-4 text-slate-600">Peptide amides</td>
+          </tr>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700 font-medium">2-Chlorotrityl</td>
+            <td class="py-2 px-4 text-slate-600">Free acid or ester</td>
+            <td class="py-2 px-4 text-slate-600">Fragments, sensitive sequences</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">Synthesis Cycle</h2>
+    <ol class="list-decimal list-inside text-slate-600 space-y-2 mb-4">
+      <li><strong>Deprotection:</strong> 20% piperidine in DMF, 2 x 5 minutes</li>
+      <li><strong>Washing:</strong> DMF (5 x 30 seconds)</li>
+      <li><strong>Activation:</strong> Amino acid (5 equiv), HBTU/HATU (4.5 equiv), DIPEA (10 equiv)</li>
+      <li><strong>Coupling:</strong> 15-60 minutes, monitor by Kaiser test</li>
+      <li><strong>Washing:</strong> DMF (5 x 30 seconds)</li>
+      <li><strong>Repeat</strong> from step 1 for next amino acid</li>
+    </ol>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">Cleavage and Deprotection</h2>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      Standard cleavage uses <strong>TFA (95%)</strong> with TIS (2.5%) and water (2.5%) as
+      scavengers. The mechanism involves protonation of the linker, cleavage from resin, removal of
+      acid-labile protecting groups, and scavenging of carbocations. Mild cleavage (1% TFA in DCM)
+      is available for 2-chlorotrityl resin.
+    </p>
+  </article>
+
+  <nav class="mt-12 pt-8 border-t border-slate-200 flex justify-between items-center">
+    <a
+      href="/learn/pharmacology"
+      class="text-sm font-medium text-[#0D9488] hover:underline focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 rounded"
+    >
+      &larr; Previous: Therapeutic Peptides
+    </a>
+    <a
+      href="/learn/purification"
+      class="text-sm font-medium text-[#F97316] hover:underline focus:outline-none focus:ring-2 focus:ring-[#F97316] focus:ring-offset-2 rounded"
+    >
+      Next: Purification Methods &rarr;
+    </a>
+  </nav>
+</BaseLayout>

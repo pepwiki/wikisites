@@ -1,0 +1,154 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Regulatory Pathways"
+  description="Overview of global regulatory frameworks for peptide therapeutics including FDA, EMA, and PMDA pathways."
+>
+  <nav class="mb-8">
+    <a
+      href="/learn"
+      class="text-sm font-medium text-[#0D9488] hover:underline focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 rounded"
+    >
+      &larr; Back to Learning Paths
+    </a>
+  </nav>
+
+  <article class="max-w-3xl">
+    <h1 class="text-4xl font-extrabold text-slate-900 mb-4">Regulatory Pathways</h1>
+    <p class="text-sm font-medium text-slate-400 mb-8">Clinical Applications &middot; Expert</p>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">FDA Regulatory Pathways (United States)</h2>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      The U.S. Food and Drug Administration (FDA) provides several pathways for drug approval. The
+      <strong>Investigational New Drug (IND)</strong> application must be submitted before clinical
+      trials can begin, including preclinical data, manufacturing information, and clinical protocols.
+    </p>
+    <div class="overflow-x-auto mb-6">
+      <table class="w-full text-sm border-collapse">
+        <thead>
+          <tr class="border-b-2 border-slate-200">
+            <th class="text-left py-3 px-4 font-bold text-slate-900">Pathway</th>
+            <th class="text-left py-3 px-4 font-bold text-slate-900">Description</th>
+            <th class="text-left py-3 px-4 font-bold text-slate-900">Typical Timeline</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700 font-medium">New Drug Application (NDA)</td>
+            <td class="py-2 px-4 text-slate-600">Standard approval for novel chemical entities</td>
+            <td class="py-2 px-4 text-slate-600">10-15 years from discovery</td>
+          </tr>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700 font-medium">Biologics License Application (BLA)</td>
+            <td class="py-2 px-4 text-slate-600">Required for biologics including therapeutic peptides</td>
+            <td class="py-2 px-4 text-slate-600">10-15 years from discovery</td>
+          </tr>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700 font-medium">505(b)(2)</td>
+            <td class="py-2 px-4 text-slate-600">References existing data for modified formulations or indications</td>
+            <td class="py-2 px-4 text-slate-600">6-10 years (reduced data requirements)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">EMA Regulatory Pathways (European Union)</h2>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      The European Medicines Agency (EMA) offers three main submission routes for centralised
+      approval across EU member states:
+    </p>
+    <ul class="list-disc list-inside text-slate-600 space-y-2 mb-6">
+      <li><strong>Centralised Procedure</strong>: Single application, binding approval in all EU/EEA countries (mandatory for biologics, orphan drugs)</li>
+      <li><strong>Decentralised Procedure</strong>: Simultaneous evaluation in multiple member states without a central coordinator</li>
+      <li><strong>Mutual Recognition Procedure</strong>: Leverages existing national approvals for market access in additional countries</li>
+    </ul>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">PMDA (Japan)</h2>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      Japan's Pharmaceuticals and Medical Devices Agency (PMDA) has unique requirements including
+      <strong>bridging studies</strong> to confirm applicability of foreign clinical data to Japanese
+      populations. The PMDA also participates in international harmonization through ICH guidelines.
+    </p>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">Accelerated Approval Pathways</h2>
+    <div class="overflow-x-auto mb-6">
+      <table class="w-full text-sm border-collapse">
+        <thead>
+          <tr class="border-b-2 border-slate-200">
+            <th class="text-left py-3 px-4 font-bold text-slate-900">Designation</th>
+            <th class="text-left py-3 px-4 font-bold text-slate-900">Benefits</th>
+            <th class="text-left py-3 px-4 font-bold text-slate-900">Eligibility</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700 font-medium">Orphan Drug</td>
+            <td class="py-2 px-4 text-slate-600">7 years market exclusivity, tax credits, fee waivers</td>
+            <td class="py-2 px-4 text-slate-600">Diseases affecting &lt;200,000 in US or &lt;5 in 10,000 in EU</td>
+          </tr>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700 font-medium">Fast Track</td>
+            <td class="py-2 px-4 text-slate-600">More frequent FDA meetings, rolling review</td>
+            <td class="py-2 px-4 text-slate-600">Treats serious conditions, fills unmet medical need</td>
+          </tr>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700 font-medium">Breakthrough Therapy</td>
+            <td class="py-2 px-4 text-slate-600">Intensive FDA guidance, organizational commitment</td>
+            <td class="py-2 px-4 text-slate-600">Substantial improvement over existing therapies</td>
+          </tr>
+          <tr class="border-b border-slate-100">
+            <td class="py-2 px-4 text-slate-700 font-medium">Accelerated Approval</td>
+            <td class="py-2 px-4 text-slate-600">Approval based on surrogate endpoints</td>
+            <td class="py-2 px-4 text-slate-600">Fills unmet need, reasonably likely clinical benefit</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">GMP Requirements</h2>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      <strong>Good Manufacturing Practice (GMP)</strong> regulations ensure consistent production quality.
+      For peptide therapeutics, GMP covers raw material sourcing, synthesis processes, purification,
+      lyophilization, packaging, and stability testing. <strong>Current Good Manufacturing Practice
+      (cGMP)</strong> facilities must undergo regular FDA inspections and maintain comprehensive
+      documentation.
+    </p>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">ICH Guidelines</h2>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      The International Council for Harmonisation (ICH) provides quality guidelines relevant to peptide
+      manufacturing:
+    </p>
+    <ul class="list-disc list-inside text-slate-600 space-y-2 mb-6">
+      <li><strong>Q1-Q3</strong>: Stability testing, impurity profiles, specifications</li>
+      <li><strong>Q5A-Q5E</strong>: Biotechnological product quality considerations</li>
+      <li><strong>Q6A-Q6B</strong>: Specifications for chemical and biotechnological products</li>
+      <li><strong>Q8-Q12</strong>: Pharmaceutical development, quality risk management, lifecycle management</li>
+    </ul>
+
+    <h2 class="text-2xl font-bold text-slate-900 mt-8 mb-4">Post-Market Surveillance</h2>
+    <p class="text-slate-600 leading-relaxed mb-4">
+      Post-approval requirements include <strong>pharmacovigilance</strong> (adverse event reporting),
+      <strong>periodic safety update reports (PSURs)</strong>, <strong>post-marketing commitments</strong>
+      (Phase IV studies), and <strong>risk evaluation and mitigation strategies (REMS)</strong> for
+      high-risk products.
+    </p>
+  </article>
+
+  <nav class="mt-12 pt-8 border-t border-slate-200 flex justify-between items-center">
+    <a
+      href="/learn/clinical-trials"
+      class="text-sm font-medium text-[#0D9488] hover:underline focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 rounded"
+    >
+      &larr; Previous: Clinical Trial Design
+    </a>
+    <a
+      href="/learn"
+      class="text-sm font-medium text-red-600 hover:underline focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2 rounded"
+    >
+      Back to Learning Paths &rarr;
+    </a>
+  </nav>
+</BaseLayout>
