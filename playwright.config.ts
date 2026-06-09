@@ -1,5 +1,7 @@
 import { defineConfig, devices } from "@playwright/test";
 
+const isBenchmark = process.env.PLAYWRIGHT_BENCHMARK === "true";
+
 export default defineConfig({
   testDir: "./tests/e2e",
   fullyParallel: true,
@@ -33,13 +35,16 @@ export default defineConfig({
     },
   ],
 
-  webServer: [
-    {
-      command: "node node_modules/.bin/astro dev --port 4321",
-      cwd: "./packages/wiki",
-      port: 4321,
-      reuseExistingServer: !process.env.CI,
-      timeout: 180_000,
-    },
-  ],
+  // Only start local dev server for non-benchmark tests
+  webServer: isBenchmark
+    ? []
+    : [
+        {
+          command: "node node_modules/.bin/astro dev --port 4321",
+          cwd: "./packages/wiki",
+          port: 4321,
+          reuseExistingServer: !process.env.CI,
+          timeout: 180_000,
+        },
+      ],
 });
