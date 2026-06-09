@@ -275,6 +275,51 @@ const {
         } catch (e) {}
       }
     </script>
+    <script is:inline>
+      // RUM: Track Core Web Vitals for ENCP
+      (function () {
+        function storeMetric(m) {
+          try {
+            var metrics = JSON.parse(localStorage.getItem("wikisites:rum-metrics") || "[]");
+            metrics.push(m);
+            if (metrics.length > 200) metrics.splice(0, metrics.length - 200);
+            localStorage.setItem("wikisites:rum-metrics", JSON.stringify(metrics));
+          } catch (e) {}
+        }
+        function rating(n, v) {
+          var t = { LCP: [2500, 4000], FID: [100, 300], CLS: [0.1, 0.25], TTFB: [800, 1800] };
+          if (!t[n]) return "good";
+          return v <= t[n][0] ? "good" : v <= t[n][1] ? "needs-improvement" : "poor";
+        }
+        try {
+          new PerformanceObserver(function (list) {
+            var e = list.getEntries();
+            var last = e[e.length - 1];
+            if (last)
+              storeMetric({
+                name: "LCP",
+                value: Math.round(last.startTime),
+                rating: rating("LCP", last.startTime),
+                site: "encp",
+                ts: Date.now(),
+              });
+          }).observe({ type: "largest-contentful-paint", buffered: true });
+        } catch (e) {}
+        try {
+          var nav = performance.getEntriesByType("navigation")[0];
+          if (nav) {
+            var ttfb = Math.round(nav.responseStart - nav.requestStart);
+            storeMetric({
+              name: "TTFB",
+              value: ttfb,
+              rating: rating("TTFB", ttfb),
+              site: "encp",
+              ts: Date.now(),
+            });
+          }
+        } catch (e) {}
+      })();
+    </script>
   </body>
 </html>
 

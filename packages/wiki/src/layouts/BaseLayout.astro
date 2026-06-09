@@ -168,6 +168,123 @@ const {
         });
       }
     </script>
+    <script is:inline>
+      // RUM: Track Core Web Vitals
+      (function () {
+        function storeMetric(m) {
+          try {
+            var metrics = JSON.parse(localStorage.getItem("wikisites:rum-metrics") || "[]");
+            metrics.push(m);
+            if (metrics.length > 200) metrics.splice(0, metrics.length - 200);
+            localStorage.setItem("wikisites:rum-metrics", JSON.stringify(metrics));
+          } catch (e) {}
+        }
+        function rating(n, v) {
+          var t = { LCP: [2500, 4000], FID: [100, 300], CLS: [0.1, 0.25], TTFB: [800, 1800] };
+          if (!t[n]) return "good";
+          return v <= t[n][0] ? "good" : v <= t[n][1] ? "needs-improvement" : "poor";
+        }
+        try {
+          new PerformanceObserver(function (list) {
+            var e = list.getEntries();
+            var last = e[e.length - 1];
+            if (last)
+              storeMetric({
+                name: "LCP",
+                value: Math.round(last.startTime),
+                rating: rating("LCP", last.startTime),
+                site: "wiki",
+                ts: Date.now(),
+              });
+          }).observe({ type: "largest-contentful-paint", buffered: true });
+        } catch (e) {}
+        try {
+          var cls = 0;
+          new PerformanceObserver(function (list) {
+            list.getEntries().forEach(function (entry) {
+              if (!entry.hadRecentInput) cls += entry.value;
+            });
+          }).observe({ type: "layout-shift", buffered: true });
+          document.addEventListener("visibilitychange", function () {
+            if (document.visibilityState === "hidden")
+              storeMetric({
+                name: "CLS",
+                value: Math.round(cls * 1000) / 1000,
+                rating: rating("CLS", cls),
+                site: "wiki",
+                ts: Date.now(),
+              });
+          });
+        } catch (e) {}
+        try {
+          var nav = performance.getEntriesByType("navigation")[0];
+          if (nav) {
+            var ttfb = Math.round(nav.responseStart - nav.requestStart);
+            storeMetric({
+              name: "TTFB",
+              value: ttfb,
+              rating: rating("TTFB", ttfb),
+              site: "wiki",
+              ts: Date.now(),
+            });
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <script is:inline>
+      // Theme feedback prompt (after 3 page views)
+      (function () {
+        var views = parseInt(localStorage.getItem("wiki:page-views") || "0", 10);
+        localStorage.setItem("wiki:page-views", String(views + 1));
+        var shown = localStorage.getItem("wikisites:feedback-shown");
+        if (!shown && views >= 2) {
+          // Show feedback prompt (simplified inline version)
+          var modal = document.createElement("div");
+          modal.className = "fixed inset-0 z-[9999] flex items-center justify-center bg-black/50";
+          modal.innerHTML =
+            '<div class="bg-white dark:bg-slate-800 rounded-xl p-6 max-w-sm mx-4 shadow-xl"><h3 class="text-lg font-bold text-slate-900 dark:text-slate-100 mb-2">How\'s the dark mode?</h3><p class="text-sm text-slate-600 dark:text-slate-400 mb-4">Help us improve.</p><div class="flex gap-2 mb-4" id="fb-stars">' +
+            [1, 2, 3, 4, 5]
+              .map(function (i) {
+                return (
+                  '<button class="fb-star text-2xl text-slate-300 hover:text-yellow-400" data-r="' +
+                  i +
+                  '">★</button>'
+                );
+              })
+              .join("") +
+            '</div><div class="flex gap-2 justify-end"><button id="fb-skip" class="px-4 py-2 text-sm text-slate-600 dark:text-slate-400">Skip</button><button id="fb-submit" class="px-4 py-2 text-sm bg-[#0D9488] text-white rounded-lg" disabled>Submit</button></div></div>';
+          document.body.appendChild(modal);
+          var sel = 0;
+          modal.querySelectorAll(".fb-star").forEach(function (b) {
+            b.addEventListener("click", function () {
+              sel = parseInt(b.getAttribute("data-r"));
+              modal.querySelectorAll(".fb-star").forEach(function (s, i) {
+                s.classList.toggle("text-yellow-400", i < sel);
+                s.classList.toggle("text-slate-300", i >= sel);
+              });
+              document.getElementById("fb-submit").disabled = false;
+            });
+          });
+          document.getElementById("fb-submit").addEventListener("click", function () {
+            try {
+              var fbs = JSON.parse(localStorage.getItem("wikisites:theme-feedback") || "[]");
+              fbs.push({
+                rating: sel,
+                theme: document.documentElement.getAttribute("data-theme"),
+                ts: Date.now(),
+              });
+              localStorage.setItem("wikisites:theme-feedback", JSON.stringify(fbs));
+            } catch (e) {}
+            localStorage.setItem("wikisites:feedback-shown", "true");
+            modal.remove();
+          });
+          document.getElementById("fb-skip").addEventListener("click", function () {
+            localStorage.setItem("wikisites:feedback-shown", "true");
+            modal.remove();
+          });
+        }
+      })();
+    </script>
   </body>
 </html>
 

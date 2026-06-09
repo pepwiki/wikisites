@@ -1,0 +1,45 @@
+---
+/**
+ * DarkModeModal - A modal component with built-in dark mode support.
+ * Usage: <DarkModeModal id="myModal">Content</DarkModeModal>
+ */
+
+interface Props {
+  id: string;
+  class?: string;
+}
+
+const { id, class: className = "" } = Astro.props;
+---
+
+<div
+  id={id}
+  class="fixed inset-0 z-[9999] flex items-center justify-center bg-black/50 hidden"
+  role="dialog"
+  aria-modal="true"
+>
+  <div
+    class={`bg-white dark:bg-slate-800 rounded-xl p-6 max-w-md mx-4 shadow-xl border border-slate-200 dark:border-slate-700 ${className}`}
+  >
+    <slot />
+  </div>
+</div>
+
+<script is:inline define:props={{ id }}>
+  (function () {
+    var modal = document.getElementById(id);
+    if (!modal) return;
+
+    // Close on outside click
+    modal.addEventListener("click", function (e) {
+      if (e.target === modal) modal.classList.add("hidden");
+    });
+
+    // Close on Escape
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && !modal.classList.contains("hidden")) {
+        modal.classList.add("hidden");
+      }
+    });
+  })();
+</script>
