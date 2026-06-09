@@ -4,6 +4,14 @@
 /* Enable dark mode via Starlight's data-theme attribute */
 @custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
 
+/* Smooth theme transitions */
+body,
+header,
+footer,
+.spatial-card {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
 /* ==========================================================================
    Wikipept - Spatial Materialism + Amoebic UI Design System
    ========================================================================== */

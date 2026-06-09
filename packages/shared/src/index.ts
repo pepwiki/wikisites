@@ -18,3 +18,6 @@ export type {
   Flashcard,
   DifficultyLevel,
 } from "./schemas/content";
+
+export { getTheme, setTheme, applyTheme, initTheme, watchSystemTheme } from "./theme";
+export type { Theme } from "./theme";

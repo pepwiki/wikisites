@@ -3,10 +3,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout title="Pharmacology">
-  <h1 class="text-4xl font-bold mb-8 text-[#0A1628]">Peptide Pharmacology</h1>
+  <h1 class="text-4xl font-bold mb-8 text-[#0A1628] dark:text-slate-100">Peptide Pharmacology</h1>
 
   <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4 text-[#0A1628]">FDA-Approved Peptide Drugs</h2>
+    <h2 class="text-2xl font-semibold mb-4 text-[#0A1628] dark:text-slate-100">
+      FDA-Approved Peptide Drugs
+    </h2>
     <div class="overflow-x-auto">
       <table class="w-full text-sm border-collapse">
         <thead>
@@ -19,42 +21,42 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           </tr>
         </thead>
         <tbody>
-          <tr class="border-b border-slate-200">
+          <tr class="border-b border-slate-200 dark:border-slate-800">
             <td class="py-3 px-4 font-medium">Insulin (Humulin)</td>
             <td class="py-3 px-4">51 aa protein</td>
             <td class="py-3 px-4">Diabetes mellitus</td>
             <td class="py-3 px-4">SC injection</td>
             <td class="py-3 px-4">1982</td>
           </tr>
-          <tr class="border-b border-slate-200">
+          <tr class="border-b border-slate-200 dark:border-slate-800">
             <td class="py-3 px-4 font-medium">Oxytocin (Pitocin)</td>
             <td class="py-3 px-4">Cys-Tyr-Ile-Gln-Asn-Cys-Pro-Leu-Gly-NH₂</td>
             <td class="py-3 px-4">Labor induction</td>
             <td class="py-3 px-4">IV/IM</td>
             <td class="py-3 px-4">1980</td>
           </tr>
-          <tr class="border-b border-slate-200">
+          <tr class="border-b border-slate-200 dark:border-slate-800">
             <td class="py-3 px-4 font-medium">Octreotide (Sandostatin)</td>
             <td class="py-3 px-4">D-Phe-Cys-Phe-D-Trp-Lys-Thr-Cys-Thr-ol</td>
             <td class="py-3 px-4">Acromegaly, carcinoid</td>
             <td class="py-3 px-4">SC/IM</td>
             <td class="py-3 px-4">1988</td>
           </tr>
-          <tr class="border-b border-slate-200">
+          <tr class="border-b border-slate-200 dark:border-slate-800">
             <td class="py-3 px-4 font-medium">Leuprolide (Lupron)</td>
             <td class="py-3 px-4">D-His-Trp-Ser-Tyr-D-Leu-Leu-Arg-Pro-NHEt</td>
             <td class="py-3 px-4">Prostate cancer, endometriosis</td>
             <td class="py-3 px-4">IM depot</td>
             <td class="py-3 px-4">1989</td>
           </tr>
-          <tr class="border-b border-slate-200">
+          <tr class="border-b border-slate-200 dark:border-slate-800">
             <td class="py-3 px-4 font-medium">Desmopressin (DDAVP)</td>
             <td class="py-3 px-4">Cys-Tyr-Phe-Gln-Asn-Cys-Pro-D-Arg-Gly-NH₂</td>
             <td class="py-3 px-4">Diabetes insipidus</td>
             <td class="py-3 px-4">SC/IN</td>
             <td class="py-3 px-4">1978</td>
           </tr>
-          <tr class="border-b border-slate-200">
+          <tr class="border-b border-slate-200 dark:border-slate-800">
             <td class="py-3 px-4 font-medium">Semaglutide (Ozempic)</td>
             <td class="py-3 px-4">GLP-1 analog (31 aa)</td>
             <td class="py-3 px-4">Type 2 diabetes, obesity</td>
@@ -67,32 +69,38 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   </section>
 
   <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4 text-[#0A1628]">Pharmacokinetic Challenges</h2>
+    <h2 class="text-2xl font-semibold mb-4 text-[#0A1628] dark:text-slate-100">
+      Pharmacokinetic Challenges
+    </h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <div class="p-5 border border-slate-200 rounded-xl">
-        <h3 class="font-semibold text-[#0A1628] mb-2">Proteolytic Instability</h3>
-        <p class="text-sm text-slate-600">
+      <div class="p-5 border border-slate-200 dark:border-slate-800 rounded-xl">
+        <h3 class="font-semibold text-[#0A1628] dark:text-slate-100 mb-2">
+          Proteolytic Instability
+        </h3>
+        <p class="text-sm text-slate-600 dark:text-slate-400">
           Peptides are degraded by endopeptidases and exopeptidases. Strategies: D-amino acid
           substitution, cyclization, PEGylation, fatty acid conjugation.
         </p>
       </div>
-      <div class="p-5 border border-slate-200 rounded-xl">
-        <h3 class="font-semibold text-[#0A1628] mb-2">Poor Oral Bioavailability</h3>
-        <p class="text-sm text-slate-600">
+      <div class="p-5 border border-slate-200 dark:border-slate-800 rounded-xl">
+        <h3 class="font-semibold text-[#0A1628] dark:text-slate-100 mb-2">
+          Poor Oral Bioavailability
+        </h3>
+        <p class="text-sm text-slate-600 dark:text-slate-400">
           Most peptides have F &lt;2% orally. GI degradation, poor permeation, hepatic first-pass
           metabolism. Alternatives: nasal, pulmonary, transdermal, depot injections.
         </p>
       </div>
-      <div class="p-5 border border-slate-200 rounded-xl">
-        <h3 class="font-semibold text-[#0A1628] mb-2">Short Half-Life</h3>
-        <p class="text-sm text-slate-600">
+      <div class="p-5 border border-slate-200 dark:border-slate-800 rounded-xl">
+        <h3 class="font-semibold text-[#0A1628] dark:text-slate-100 mb-2">Short Half-Life</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-400">
           Typical t½ = 2-30 min for linear peptides. Extension strategies: albumin binding, Fc
           fusion, hyaluronic acid conjugation, microsphere depot.
         </p>
       </div>
-      <div class="p-5 border border-slate-200 rounded-xl">
-        <h3 class="font-semibold text-[#0A1628] mb-2">Immunogenicity</h3>
-        <p class="text-sm text-slate-600">
+      <div class="p-5 border border-slate-200 dark:border-slate-800 rounded-xl">
+        <h3 class="font-semibold text-[#0A1628] dark:text-slate-100 mb-2">Immunogenicity</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-400">
           Peptides can elicit anti-drug antibodies (ADA). Risk factors: sequence novelty,
           aggregation, immunostimulatory motifs. Monitoring: ADA assays, neutralizing antibody
           tests.
@@ -102,13 +110,15 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   </section>
 
   <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4 text-[#0A1628]">Drug Design Strategies</h2>
-    <p class="text-slate-600 mb-4">
+    <h2 class="text-2xl font-semibold mb-4 text-[#0A1628] dark:text-slate-100">
+      Drug Design Strategies
+    </h2>
+    <p class="text-slate-600 dark:text-slate-400 mb-4">
       Modern peptide drug design leverages computational methods, structure-activity relationships
       (SAR), and innovative modification strategies to optimize potency, selectivity, and
       pharmacokinetic properties.
     </p>
-    <ul class="list-disc list-inside space-y-2 text-slate-600 ml-4">
+    <ul class="list-disc list-inside space-y-2 text-slate-600 dark:text-slate-400 ml-4">
       <li>Alanine scanning for hotspot identification</li>
       <li>Cyclization (head-to-tail, side chain-to-side chain)</li>
       <li>Stapled peptides for α-helix stabilization</li>

@@ -60,6 +60,12 @@ test.describe("Wiki light mode traversal", () => {
         path: `${SNAPSHOT_DIR}/light/${route.name}.png`,
         fullPage: true,
       });
+
+      // Visual regression: compare against baseline (run `bunx playwright test --update-snapshots` to generate)
+      await expect(page).toHaveScreenshot(`light-${route.name}.png`, {
+        fullPage: true,
+        maxDiffPixelRatio: 0.01,
+      });
     });
   }
 });
@@ -123,6 +129,12 @@ test.describe("Wiki dark mode verification", () => {
       await page.screenshot({
         path: `${SNAPSHOT_DIR}/dark/${route.name}.png`,
         fullPage: true,
+      });
+
+      // Visual regression: compare against baseline
+      await expect(page).toHaveScreenshot(`dark-${route.name}.png`, {
+        fullPage: true,
+        maxDiffPixelRatio: 0.01,
       });
     });
   }

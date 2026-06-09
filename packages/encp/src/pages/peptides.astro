@@ -10,15 +10,15 @@ const articles = (await getCollection("articles"))
 ---
 
 <BaseLayout title="Peptides Database">
-  <h1 class="text-4xl font-bold mb-2 text-[#0A1628]">Oligopeptide Database</h1>
-  <p class="text-slate-500 mb-6">{articles.length} peptides</p>
+  <h1 class="text-4xl font-bold mb-2 text-[#0A1628] dark:text-slate-100">Oligopeptide Database</h1>
+  <p class="text-slate-500 dark:text-slate-400 mb-6">{articles.length} peptides</p>
 
   <div class="mb-6">
     <input
       type="text"
       id="peptide-search"
       placeholder="Search by name, category, or tag..."
-      class="w-full max-w-xl px-5 py-3 border-2 border-slate-200 rounded-lg text-sm focus:border-[#C9A84C] focus:outline-none transition-colors"
+      class="w-full max-w-xl px-5 py-3 border-2 border-slate-200 dark:border-slate-800 rounded-lg text-sm focus:border-[#C9A84C] focus:outline-none transition-colors"
     />
   </div>
 
@@ -26,29 +26,35 @@ const articles = (await getCollection("articles"))
     id="peptide-grid"
     class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5"
   >
-    {articles.map((article) => (
-      <a
-        href={`/articles/${article.id}`}
-        class="peptide-card block p-5 border border-slate-200 rounded-xl hover:shadow-lg transition-shadow bg-white"
-        data-search={`${article.data.title} ${article.data.category} ${article.data.difficulty} ${article.data.tags.join(" ")}`}
-      >
-        <div class="flex items-start justify-between gap-2 mb-2">
-          <h3 class="font-semibold text-[#0A1628] leading-snug">{article.data.title}</h3>
-        </div>
-        <p class="text-sm text-slate-600 line-clamp-2 mb-3">{article.data.description}</p>
-        <div class="flex flex-wrap gap-2">
-          <span class="text-xs font-bold bg-[#0A1628] text-white px-2 py-0.5 rounded-full uppercase">
-            {article.data.category}
-          </span>
-          <span class="text-xs font-bold bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full uppercase">
-            {article.data.difficulty}
-          </span>
-        </div>
-      </a>
-    ))}
+    {
+      articles.map((article) => (
+        <a
+          href={`/articles/${article.id}`}
+          class="peptide-card block p-5 border border-slate-200 dark:border-slate-800 rounded-xl hover:shadow-lg transition-shadow bg-white dark:bg-slate-950"
+          data-search={`${article.data.title} ${article.data.category} ${article.data.difficulty} ${article.data.tags.join(" ")}`}
+        >
+          <div class="flex items-start justify-between gap-2 mb-2">
+            <h3 class="font-semibold text-[#0A1628] dark:text-slate-100 leading-snug">
+              {article.data.title}
+            </h3>
+          </div>
+          <p class="text-sm text-slate-600 dark:text-slate-400 line-clamp-2 mb-3">
+            {article.data.description}
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="text-xs font-bold bg-[#0A1628] text-white px-2 py-0.5 rounded-full uppercase">
+              {article.data.category}
+            </span>
+            <span class="text-xs font-bold bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 px-2 py-0.5 rounded-full uppercase">
+              {article.data.difficulty}
+            </span>
+          </div>
+        </a>
+      ))
+    }
   </div>
 
-  <p id="no-results" class="hidden text-center text-slate-400 mt-12 text-lg">
+  <p id="no-results" class="hidden text-center text-slate-400 dark:text-slate-500 mt-12 text-lg">
     No peptides match your search.
   </p>
 </BaseLayout>

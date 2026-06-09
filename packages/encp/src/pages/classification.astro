@@ -3,10 +3,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout title="Peptide Classification">
-  <h1 class="text-4xl font-bold mb-8 text-[#0A1628]">Peptide Classification System</h1>
+  <h1 class="text-4xl font-bold mb-8 text-[#0A1628] dark:text-slate-100">
+    Peptide Classification System
+  </h1>
 
   <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4 text-[#0A1628]">By Length</h2>
+    <h2 class="text-2xl font-semibold mb-4 text-[#0A1628] dark:text-slate-100">By Length</h2>
     <div class="overflow-x-auto">
       <table class="w-full text-sm border-collapse">
         <thead>
@@ -18,49 +20,49 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           </tr>
         </thead>
         <tbody>
-          <tr class="border-b border-slate-200">
+          <tr class="border-b border-slate-200 dark:border-slate-800">
             <td class="py-3 px-4 font-medium">Dipeptide</td>
             <td class="py-3 px-4">2</td>
             <td class="py-3 px-4">Carnosine, Anserine</td>
             <td class="py-3 px-4">200–300</td>
           </tr>
-          <tr class="border-b border-slate-200">
+          <tr class="border-b border-slate-200 dark:border-slate-800">
             <td class="py-3 px-4 font-medium">Tripeptide</td>
             <td class="py-3 px-4">3</td>
             <td class="py-3 px-4">Glutathione, thyrotropin-releasing hormone</td>
             <td class="py-3 px-4">300–500</td>
           </tr>
-          <tr class="border-b border-slate-200">
+          <tr class="border-b border-slate-200 dark:border-slate-800">
             <td class="py-3 px-4 font-medium">Tetrapeptide</td>
             <td class="py-3 px-4">4</td>
             <td class="py-3 px-4">Angiotensin II (fragment), kyotorphin</td>
             <td class="py-3 px-4">400–600</td>
           </tr>
-          <tr class="border-b border-slate-200">
+          <tr class="border-b border-slate-200 dark:border-slate-800">
             <td class="py-3 px-4 font-medium">Pentapeptide</td>
             <td class="py-3 px-4">5</td>
             <td class="py-3 px-4">Enkephalins, tuftsin</td>
             <td class="py-3 px-4">500–700</td>
           </tr>
-          <tr class="border-b border-slate-200">
+          <tr class="border-b border-slate-200 dark:border-slate-800">
             <td class="py-3 px-4 font-medium">Hexapeptide</td>
             <td class="py-3 px-4">6</td>
             <td class="py-3 px-4">ACE inhibitors (fragment)</td>
             <td class="py-3 px-4">600–800</td>
           </tr>
-          <tr class="border-b border-slate-200">
+          <tr class="border-b border-slate-200 dark:border-slate-800">
             <td class="py-3 px-4 font-medium">Heptapeptide</td>
             <td class="py-3 px-4">7</td>
             <td class="py-3 px-4">Substance P (fragment)</td>
             <td class="py-3 px-4">700–900</td>
           </tr>
-          <tr class="border-b border-slate-200">
+          <tr class="border-b border-slate-200 dark:border-slate-800">
             <td class="py-3 px-4 font-medium">Octapeptide</td>
             <td class="py-3 px-4">8</td>
             <td class="py-3 px-4">Vasopressin, oxytocin (cyclic)</td>
             <td class="py-3 px-4">800–1100</td>
           </tr>
-          <tr class="border-b border-slate-200">
+          <tr class="border-b border-slate-200 dark:border-slate-800">
             <td class="py-3 px-4 font-medium">Nonapeptide</td>
             <td class="py-3 px-4">9</td>
             <td class="py-3 px-4">Oxytocin, vasopressin</td>
@@ -72,31 +74,33 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   </section>
 
   <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4 text-[#0A1628]">By Function</h2>
+    <h2 class="text-2xl font-semibold mb-4 text-[#0A1628] dark:text-slate-100">By Function</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <div class="p-5 border border-slate-200 rounded-xl">
-        <h3 class="font-semibold text-[#0A1628] mb-2">Neuropeptides</h3>
-        <p class="text-sm text-slate-600">
+      <div class="p-5 border border-slate-200 dark:border-slate-800 rounded-xl">
+        <h3 class="font-semibold text-[#0A1628] dark:text-slate-100 mb-2">Neuropeptides</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-400">
           Signaling molecules in the nervous system. Include endorphins, enkephalins, substance P,
           and neuropeptide Y.
         </p>
       </div>
-      <div class="p-5 border border-slate-200 rounded-xl">
-        <h3 class="font-semibold text-[#0A1628] mb-2">Hormonal Peptides</h3>
-        <p class="text-sm text-slate-600">
+      <div class="p-5 border border-slate-200 dark:border-slate-800 rounded-xl">
+        <h3 class="font-semibold text-[#0A1628] dark:text-slate-100 mb-2">Hormonal Peptides</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-400">
           Regulate physiological processes. Include insulin, glucagon, oxytocin, and growth
           hormone-releasing hormone.
         </p>
       </div>
-      <div class="p-5 border border-slate-200 rounded-xl">
-        <h3 class="font-semibold text-[#0A1628] mb-2">Antimicrobial Peptides</h3>
-        <p class="text-sm text-slate-600">
+      <div class="p-5 border border-slate-200 dark:border-slate-800 rounded-xl">
+        <h3 class="font-semibold text-[#0A1628] dark:text-slate-100 mb-2">
+          Antimicrobial Peptides
+        </h3>
+        <p class="text-sm text-slate-600 dark:text-slate-400">
           Innate immune defense. Include defensins, cathelicidins, and magainins.
         </p>
       </div>
-      <div class="p-5 border border-slate-200 rounded-xl">
-        <h3 class="font-semibold text-[#0A1628] mb-2">Antioxidant Peptides</h3>
-        <p class="text-sm text-slate-600">
+      <div class="p-5 border border-slate-200 dark:border-slate-800 rounded-xl">
+        <h3 class="font-semibold text-[#0A1628] dark:text-slate-100 mb-2">Antioxidant Peptides</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-400">
           Protect against oxidative stress. Include glutathione, carnosine, and erogothioneine.
         </p>
       </div>

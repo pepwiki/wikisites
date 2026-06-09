@@ -36,14 +36,16 @@ while ((match = headingRegex.exec(article.body)) !== null) {
           {article.data.category}
         </span>
         <span
-          class="text-xs font-bold bg-slate-100 text-slate-600 px-3 py-1 rounded-full uppercase"
+          class="text-xs font-bold bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 px-3 py-1 rounded-full uppercase"
         >
           {article.data.difficulty}
         </span>
       </div>
-      <h1 class="text-4xl font-bold text-[#0A1628] mb-4">{article.data.title}</h1>
-      <p class="text-lg text-slate-600 mb-4">{article.data.description}</p>
-      <div class="flex items-center gap-4 text-sm text-slate-500">
+      <h1 class="text-4xl font-bold text-[#0A1628] dark:text-slate-100 mb-4">
+        {article.data.title}
+      </h1>
+      <p class="text-lg text-slate-600 dark:text-slate-400 mb-4">{article.data.description}</p>
+      <div class="flex items-center gap-4 text-sm text-slate-500 dark:text-slate-400">
         <span>By {article.data.author}</span>
         <time datetime={article.data.pubDate.toISOString()}>
           {
@@ -54,12 +56,12 @@ while ((match = headingRegex.exec(article.body)) !== null) {
             })
           }
         </time>
-        <span class="text-slate-400">|</span>
+        <span class="text-slate-400 dark:text-slate-500">|</span>
         <span>{Math.ceil(article.body.split(/\s+/).length / 200)} min read</span>
         {
           article.data.updatedDate && (
             <>
-              <span class="text-slate-400">|</span>
+              <span class="text-slate-400 dark:text-slate-500">|</span>
               <span>
                 Updated{" "}
                 {article.data.updatedDate.toLocaleDateString("en-US", {
@@ -76,30 +78,36 @@ while ((match = headingRegex.exec(article.body)) !== null) {
         article.data.tags.length > 0 && (
           <div class="flex gap-2 mt-4">
             {article.data.tags.map((tag) => (
-              <span class="text-xs bg-slate-100 text-slate-500 px-2 py-1 rounded">{tag}</span>
+              <span class="text-xs bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 px-2 py-1 rounded">
+                {tag}
+              </span>
             ))}
           </div>
         )
       }
     </header>
 
-    {headings.length > 0 && (
-      <nav class="mb-8 p-4 bg-slate-50 rounded-xl border border-slate-200">
-        <h3 class="text-sm font-semibold text-[#0A1628] mb-3">Table of Contents</h3>
-        <ul class="space-y-1">
-          {headings.map((h) => (
-            <li class={h.level === 3 ? "ml-4" : ""}>
-              <a
-                href={`#${h.id}`}
-                class="text-sm text-slate-600 hover:text-[#C9A84C] transition-colors"
-              >
-                {h.text}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </nav>
-    )}
+    {
+      headings.length > 0 && (
+        <nav class="mb-8 p-4 bg-slate-50 dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800">
+          <h3 class="text-sm font-semibold text-[#0A1628] dark:text-slate-100 mb-3">
+            Table of Contents
+          </h3>
+          <ul class="space-y-1">
+            {headings.map((h) => (
+              <li class={h.level === 3 ? "ml-4" : ""}>
+                <a
+                  href={`#${h.id}`}
+                  class="text-sm text-slate-600 dark:text-slate-400 hover:text-[#C9A84C] transition-colors"
+                >
+                  {h.text}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )
+    }
 
     <div class="prose prose-slate max-w-none">
       <Content />
@@ -107,9 +115,9 @@ while ((match = headingRegex.exec(article.body)) !== null) {
 
     {
       article.data.citation && (
-        <footer class="mt-12 p-6 bg-slate-50 rounded-xl border border-slate-200">
-          <h3 class="font-semibold text-[#0A1628] mb-2">Citation</h3>
-          <p class="text-sm text-slate-600">
+        <footer class="mt-12 p-6 bg-slate-50 dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800">
+          <h3 class="font-semibold text-[#0A1628] dark:text-slate-100 mb-2">Citation</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-400">
             {article.data.citation.authors.join(", ")} ({article.data.citation.year}).
             {article.data.citation.journal && ` ${article.data.citation.journal}.`}
             {article.data.citation.doi && (
@@ -129,8 +137,8 @@ while ((match = headingRegex.exec(article.body)) !== null) {
 
     {
       article.data.relatedArticles.length > 0 && (
-        <nav class="mt-8 pt-8 border-t border-slate-200">
-          <h3 class="font-semibold text-[#0A1628] mb-3">Related Articles</h3>
+        <nav class="mt-8 pt-8 border-t border-slate-200 dark:border-slate-800">
+          <h3 class="font-semibold text-[#0A1628] dark:text-slate-100 mb-3">Related Articles</h3>
           <div class="flex gap-3">
             {article.data.relatedArticles.map((slug) => (
               <a
@@ -147,7 +155,7 @@ while ((match = headingRegex.exec(article.body)) !== null) {
 
     <div class="mt-8 p-4 bg-[#0D9488]/5 border border-[#0D9488]/20 rounded-xl">
       <h3 class="font-semibold text-[#0D9488] mb-2">Test Your Knowledge</h3>
-      <p class="text-sm text-slate-600 mb-3">
+      <p class="text-sm text-slate-600 dark:text-slate-400 mb-3">
         Reinforce what you learned about {article.data.title} with interactive quizzes on Wikipept.
       </p>
       <a

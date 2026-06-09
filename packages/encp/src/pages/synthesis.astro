@@ -3,34 +3,40 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout title="Synthesis">
-  <h1 class="text-4xl font-bold mb-8 text-[#0A1628]">Peptide Synthesis</h1>
+  <h1 class="text-4xl font-bold mb-8 text-[#0A1628] dark:text-slate-100">Peptide Synthesis</h1>
 
   <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4 text-[#0A1628]">Solid-Phase Peptide Synthesis (SPPS)</h2>
+    <h2 class="text-2xl font-semibold mb-4 text-[#0A1628] dark:text-slate-100">
+      Solid-Phase Peptide Synthesis (SPPS)
+    </h2>
     <div class="prose max-w-none">
-      <p class="text-slate-600 mb-4">
+      <p class="text-slate-600 dark:text-slate-400 mb-4">
         The most widely used method for synthetic peptide production. Developed by Robert Bruce
         Merrifield in 1963 (Nobel Prize, 1984).
       </p>
 
-      <h3 class="text-xl font-semibold mt-6 mb-3 text-[#0A1628]">Fmoc Strategy</h3>
-      <p class="text-slate-600 mb-4">
+      <h3 class="text-xl font-semibold mt-6 mb-3 text-[#0A1628] dark:text-slate-100">
+        Fmoc Strategy
+      </h3>
+      <p class="text-slate-600 dark:text-slate-400 mb-4">
         The Fmoc (9-fluorenylmethyloxycarbonyl) protecting group strategy is the most common
         approach:
       </p>
 
-      <div class="bg-slate-50 p-6 rounded-xl font-mono text-sm space-y-2">
-        <p class="text-slate-500">// Cycle:</p>
+      <div class="bg-slate-50 dark:bg-slate-900 p-6 rounded-xl font-mono text-sm space-y-2">
+        <p class="text-slate-500 dark:text-slate-400">// Cycle:</p>
         <p>1. Deprotection: 20% piperidine in DMF</p>
         <p>2. Coupling: Fmoc-AA-OH + HBTU + DIPEA</p>
         <p>3. Wash: DMF, DCM</p>
         <p>4. Repeat for next residue</p>
-        <p class="text-slate-500">// After last residue:</p>
+        <p class="text-slate-500 dark:text-slate-400">// After last residue:</p>
         <p>5. Final deprotection</p>
         <p>6. Cleavage: TFA + scavengers</p>
       </div>
 
-      <h3 class="text-xl font-semibold mt-6 mb-3 text-[#0A1628]">Key Reagents</h3>
+      <h3 class="text-xl font-semibold mt-6 mb-3 text-[#0A1628] dark:text-slate-100">
+        Key Reagents
+      </h3>
       <div class="overflow-x-auto mt-4">
         <table class="w-full text-sm border-collapse">
           <thead>
@@ -41,24 +47,24 @@ import BaseLayout from "../layouts/BaseLayout.astro";
             </tr>
           </thead>
           <tbody>
-            <tr class="border-b border-slate-200">
+            <tr class="border-b border-slate-200 dark:border-slate-800">
               <td class="py-3 px-4 font-medium">HBTU</td>
               <td class="py-3 px-4"
                 >O-Benzotriazole-N,N,N',N'-tetramethyl-uronium-hexafluoro-phosphate</td
               >
               <td class="py-3 px-4">Coupling activator</td>
             </tr>
-            <tr class="border-b border-slate-200">
+            <tr class="border-b border-slate-200 dark:border-slate-800">
               <td class="py-3 px-4 font-medium">DIPEA</td>
               <td class="py-3 px-4">N,N-Diisopropylethylamine</td>
               <td class="py-3 px-4">Base</td>
             </tr>
-            <tr class="border-b border-slate-200">
+            <tr class="border-b border-slate-200 dark:border-slate-800">
               <td class="py-3 px-4 font-medium">DMF</td>
               <td class="py-3 px-4">Dimethylformamide</td>
               <td class="py-3 px-4">Solvent</td>
             </tr>
-            <tr class="border-b border-slate-200">
+            <tr class="border-b border-slate-200 dark:border-slate-800">
               <td class="py-3 px-4 font-medium">TFA</td>
               <td class="py-3 px-4">Trifluoroacetic acid</td>
               <td class="py-3 px-4">Cleavage/deprotection</td>
@@ -70,16 +76,20 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   </section>
 
   <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4 text-[#0A1628]">Liquid-Phase Synthesis</h2>
-    <p class="text-slate-600 mb-4">
+    <h2 class="text-2xl font-semibold mb-4 text-[#0A1628] dark:text-slate-100">
+      Liquid-Phase Synthesis
+    </h2>
+    <p class="text-slate-600 dark:text-slate-400 mb-4">
       Traditional solution-phase synthesis. Used for large-scale production where SPPS cost is
       prohibitive. Requires selective protecting groups and purification at each step.
     </p>
   </section>
 
   <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4 text-[#0A1628]">Recombinant Production</h2>
-    <p class="text-slate-600 mb-4">
+    <h2 class="text-2xl font-semibold mb-4 text-[#0A1628] dark:text-slate-100">
+      Recombinant Production
+    </h2>
+    <p class="text-slate-600 dark:text-slate-400 mb-4">
       Expression in <em>E. coli</em>, yeast, or mammalian cells. Required for peptides >50 aa or
       those requiring post-translational modifications. Includes fusion tags for purification (His₆,
       GST, MBP).
@@ -87,32 +97,34 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   </section>
 
   <section class="mb-12">
-    <h2 class="text-2xl font-semibold mb-4 text-[#0A1628]">Purification & Characterization</h2>
+    <h2 class="text-2xl font-semibold mb-4 text-[#0A1628] dark:text-slate-100">
+      Purification & Characterization
+    </h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <div class="p-5 border border-slate-200 rounded-xl">
-        <h3 class="font-semibold text-[#0A1628] mb-2">HPLC</h3>
-        <p class="text-sm text-slate-600">
+      <div class="p-5 border border-slate-200 dark:border-slate-800 rounded-xl">
+        <h3 class="font-semibold text-[#0A1628] dark:text-slate-100 mb-2">HPLC</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-400">
           Reversed-phase C18 columns with acetonitrile/water gradient. Primary purity assessment
           method.
         </p>
       </div>
-      <div class="p-5 border border-slate-200 rounded-xl">
-        <h3 class="font-semibold text-[#0A1628] mb-2">Mass Spectrometry</h3>
-        <p class="text-sm text-slate-600">
+      <div class="p-5 border border-slate-200 dark:border-slate-800 rounded-xl">
+        <h3 class="font-semibold text-[#0A1628] dark:text-slate-100 mb-2">Mass Spectrometry</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-400">
           MALDI-TOF or ESI-MS for molecular weight confirmation. Peptide fingerprinting for
           identity.
         </p>
       </div>
-      <div class="p-5 border border-slate-200 rounded-xl">
-        <h3 class="font-semibold text-[#0A1628] mb-2">Amino Acid Analysis</h3>
-        <p class="text-sm text-slate-600">
+      <div class="p-5 border border-slate-200 dark:border-slate-800 rounded-xl">
+        <h3 class="font-semibold text-[#0A1628] dark:text-slate-100 mb-2">Amino Acid Analysis</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-400">
           Acid hydrolysis followed by derivatization and HPLC. Quantitative composition
           determination.
         </p>
       </div>
-      <div class="p-5 border border-slate-200 rounded-xl">
-        <h3 class="font-semibold text-[#0A1628] mb-2">Edman Degradation</h3>
-        <p class="text-sm text-slate-600">
+      <div class="p-5 border border-slate-200 dark:border-slate-800 rounded-xl">
+        <h3 class="font-semibold text-[#0A1628] dark:text-slate-100 mb-2">Edman Degradation</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-400">
           Sequential N-terminal sequencing. Confirms sequence identity for peptides &lt;50 aa.
         </p>
       </div>
