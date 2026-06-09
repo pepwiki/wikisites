@@ -145,7 +145,12 @@ jobs:
           CI: true
 
       - name: Run benchmark tests (live sites)
-        run: bunx playwright test tests/e2e/benchmark.spec.ts --project=chromium --reporter=list
+        run: PLAYWRIGHT_BENCHMARK=true bunx playwright test tests/e2e/benchmark.spec.ts --project=chromium --reporter=list
+        env:
+          CI: true
+
+      - name: Run accessibility tests
+        run: PLAYWRIGHT_BENCHMARK=true bunx playwright test tests/e2e/accessibility.spec.ts --project=chromium --reporter=list
         env:
           CI: true
 

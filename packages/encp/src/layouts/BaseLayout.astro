@@ -51,6 +51,56 @@ const {
         } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
           document.documentElement.setAttribute("data-theme", "dark");
         }
+
+        // Apply theme preset CSS custom properties
+        var preset = localStorage.getItem("wikisites:theme-preset") || "light";
+        var presets = {
+          light: {
+            bg: "#f8fafc",
+            surface: "#ffffff",
+            elevated: "#ffffff",
+            text: "#1e293b",
+            muted: "#64748b",
+            border: "#e2e8f0",
+            accent: "#0d9488",
+          },
+          dark: {
+            bg: "#020617",
+            surface: "#1e293b",
+            elevated: "#0f172a",
+            text: "#e2e8f0",
+            muted: "#94a3b8",
+            border: "#334155",
+            accent: "#0d9488",
+          },
+          "high-contrast": {
+            bg: "#000000",
+            surface: "#1a1a1a",
+            elevated: "#0d0d0d",
+            text: "#ffffff",
+            muted: "#cccccc",
+            border: "#444444",
+            accent: "#00ffcc",
+          },
+          solarized: {
+            bg: "#002b36",
+            surface: "#073642",
+            elevated: "#002b36",
+            text: "#839496",
+            muted: "#586e75",
+            border: "#073642",
+            accent: "#2aa198",
+          },
+        };
+        var p = presets[preset] || presets.light;
+        var root = document.documentElement;
+        root.style.setProperty("--theme-bg", p.bg);
+        root.style.setProperty("--theme-surface", p.surface);
+        root.style.setProperty("--theme-surface-elevated", p.elevated);
+        root.style.setProperty("--theme-text", p.text);
+        root.style.setProperty("--theme-text-muted", p.muted);
+        root.style.setProperty("--theme-border", p.border);
+        root.style.setProperty("--theme-accent", p.accent);
       })();
     </script>
     <script is:inline>

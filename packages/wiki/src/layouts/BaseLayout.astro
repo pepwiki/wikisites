@@ -32,6 +32,33 @@ const {
         }
       })();
     </script>
+    <script is:inline>
+      // Theme analytics: track theme changes via MutationObserver
+      (function () {
+        var observer = new MutationObserver(function (mutations) {
+          for (var i = 0; i < mutations.length; i++) {
+            if (mutations[i].attributeName === "data-theme") {
+              var theme = document.documentElement.getAttribute("data-theme");
+              try {
+                var events = JSON.parse(localStorage.getItem("wikisites:theme-analytics") || "[]");
+                events.push({
+                  theme: theme,
+                  site: "wiki",
+                  timestamp: Date.now(),
+                  method: "starlight-toggle",
+                });
+                if (events.length > 100) events.splice(0, events.length - 100);
+                localStorage.setItem("wikisites:theme-analytics", JSON.stringify(events));
+              } catch (e) {}
+            }
+          }
+        });
+        observer.observe(document.documentElement, {
+          attributes: true,
+          attributeFilter: ["data-theme"],
+        });
+      })();
+    </script>
     <meta name="description" content={description} />
     <meta name="robots" content="index, follow" />
     <meta name="theme-color" content="#0D9488" />
