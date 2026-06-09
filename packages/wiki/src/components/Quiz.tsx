@@ -9,7 +9,7 @@ import {
 } from "@wikisites/query/review-store";
 import { getStatusLabel, getStatusColor } from "@wikisites/query/card-status";
 import type { CardState } from "@wikisites/query/fsrs";
-import { toast } from "solid-sonner";
+import { toastSuccess, toastError } from "../lib/toast";
 import { useSessionOptional } from "../context";
 import RatingButtons from "./ui/RatingButtons";
 
@@ -55,9 +55,9 @@ export default function Quiz(props: QuizProps) {
         if (result) setCardState(result.card);
         setRated(true);
         if (correct) {
-          toast.success("Correct!");
+          toastSuccess("Correct!");
         } else {
-          toast.error("Incorrect");
+          toastError("Incorrect");
         }
       }
       sessionCtx?.recordQuiz(isCorrect());
@@ -70,7 +70,7 @@ export default function Quiz(props: QuizProps) {
     const result = recordReview(props.site!, props.deckId!, props.cardId!, rating);
     if (result) setCardState(result.card);
     const label = Rating[rating];
-    toast.success(`Rated: ${label}`);
+    toastSuccess(`Rated: ${label}`);
   };
 
   const reset = () => {

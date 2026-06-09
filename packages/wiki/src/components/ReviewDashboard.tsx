@@ -10,7 +10,7 @@ import {
   type DeckId,
 } from "@wikisites/query/review-store";
 import type { CardState } from "@wikisites/query/fsrs";
-import { toast } from "solid-sonner";
+import { toastSuccess } from "../lib/toast";
 import FlipCard from "./ui/FlipCard";
 import RatingButtons from "./ui/RatingButtons";
 
@@ -65,14 +65,14 @@ export default function ReviewDashboard(props: ReviewDashboardProps) {
       setSessionCorrect((prev) => prev + 1);
     }
 
-    toast.success("Card reviewed");
+    toastSuccess("Card reviewed");
 
     const nextIdx = currentIndex() + 1;
     if (nextIdx >= dueCards().length) {
       setSessionComplete(true);
       const total = sessionTotal() + 1;
       const correct = rating >= Rating.Good ? sessionCorrect() + 1 : sessionCorrect();
-      toast.success(`Session complete! ${correct}/${total} correct`);
+      toastSuccess(`Session complete! ${correct}/${total} correct`);
     } else {
       setCurrentIndex(nextIdx);
       setFlipped(false);

@@ -27,7 +27,8 @@ export default defineConfig({
 
   webServer: [
     {
-      command: "bun run dev:wiki",
+      command: "node node_modules/.bin/astro dev --port 4321",
+      cwd: "./packages/wiki",
       port: 4321,
       reuseExistingServer: !process.env.CI,
       timeout: 180_000,

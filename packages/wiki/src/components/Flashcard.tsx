@@ -9,7 +9,7 @@ import {
 } from "@wikisites/query/review-store";
 import { getStatusLabel, getStatusColor } from "@wikisites/query/card-status";
 import type { CardState } from "@wikisites/query/fsrs";
-import { toast } from "solid-sonner";
+import { toastSuccess } from "../lib/toast";
 import FlipCard from "./ui/FlipCard";
 import RatingButtons from "./ui/RatingButtons";
 
@@ -51,7 +51,7 @@ export default function Flashcard(props: FlashcardProps) {
     setRated(true);
     setFlipped(false);
     const label = Rating[rating];
-    toast.success(`Card rated: ${label}`);
+    toastSuccess(`Card rated: ${label}`);
   };
 
   const resetCard = () => {

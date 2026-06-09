@@ -18,6 +18,16 @@ function StatRow(props: StatRowProps) {
   );
 }
 
+function formatTime(ms: number): string {
+  if (ms < 60_000) return `${Math.round(ms / 1000)}s`;
+  const mins = Math.floor(ms / 60_000);
+  const secs = Math.round((ms % 60_000) / 1000);
+  if (mins < 60) return `${mins}m ${secs}s`;
+  const hrs = Math.floor(mins / 60);
+  const remainMins = mins % 60;
+  return `${hrs}h ${remainMins}m`;
+}
+
 export { formatTime };
 
 export default function SessionStats() {
