@@ -211,8 +211,19 @@ const {
           localStorage.setItem("encp-theme", next);
           applyTheme(next);
           updateIcons();
+          trackThemeChange("encp", next, "toggle");
         });
       })();
+
+      // Theme analytics
+      function trackThemeChange(site, theme, method) {
+        try {
+          var events = JSON.parse(localStorage.getItem("wikisites:theme-analytics") || "[]");
+          events.push({ theme: theme, site: site, timestamp: Date.now(), method: method });
+          if (events.length > 100) events.splice(0, events.length - 100);
+          localStorage.setItem("wikisites:theme-analytics", JSON.stringify(events));
+        } catch (e) {}
+      }
     </script>
   </body>
 </html>

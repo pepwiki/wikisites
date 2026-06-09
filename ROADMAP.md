@@ -12,10 +12,13 @@ Technical path from current state to production, scaling, and feature integratio
 | @wikisites/encp    | Deployed         | 86 pages, 79 MDX articles, Pagefind search, Spatial Materialism + Amoebic UI            |
 | @wikisites/wiki    | Deployed         | 104 pages, Starlight framework, 12 learn lessons, 502 flashcards, 680 quizzes, PWA      |
 | CI/CD              | Active           | Forgejo Actions: lint, test, typecheck, build, deploy, Lighthouse CI (5 parallel jobs)  |
-| Testing            | 208 tests        | 15 test files across 5 packages, 80% coverage thresholds, V8 coverage                   |
+| Testing            | 218 tests        | 17 test files across 5 packages, 80% coverage thresholds, V8 coverage                   |
+| E2E Testing        | Playwright       | 20+ tests: dark mode, performance benchmarks, cross-browser (Chrome, mobile)            |
 | Pre-commit         | Active           | Husky + lint-staged (ESLint + Prettier + Vitest enforced)                               |
 | Framework          | Starlight        | Sidebar nav, dark mode, search, TOC, sitemap                                            |
-| Design System      | Applied          | Spatial Materialism + Amoebic UI CSS framework                                          |
+| Dark Mode          | Complete         | Full dark mode on wiki (28 files) + ENCP (8 pages), theme toggle, system option         |
+| Theme System       | Complete         | Cross-subdomain persistence (cookie), shared utility, analytics tracker                 |
+| Design System      | Documented       | Spatial Materialism + Amoebic UI CSS framework, design tokens, component library        |
 | Search             | Pagefind         | Client-side full-text search on both sites                                              |
 | Interactive        | SolidJS          | Quiz session, flashcard deck, review dashboard, daily challenge                         |
 | PWA                | Wikipept         | Service worker, manifest, offline fallback                                              |
@@ -40,6 +43,24 @@ Technical path from current state to production, scaling, and feature integratio
 | CI Pipeline         | Monolithic single job, no caching, no concurrency control         | Split into lint+test / build / lighthouse / deploy jobs         |
 | Accessibility       | ENCP pages missing aria-labelledby, article elements, focus rings | Added semantic HTML, aria attributes, focus ring styling        |
 | Playwright          | No E2E test config or traversal tests                             | Created playwright.config.ts + GUI snapshot traversal spec      |
+
+## Dark Mode Implementation (2026-06-09)
+
+| Component         | Status | Details                                                           |
+| ----------------- | ------ | ----------------------------------------------------------------- |
+| Wiki Dark Mode    | Done   | 28 files, 186 dark: variants, Starlight theme toggle              |
+| ENCP Dark Mode    | Done   | 8 pages, 152 dark: variants, custom light/dark/system toggle      |
+| Theme Persistence | Done   | Cross-subdomain cookie (.pages.dev), localStorage fallback        |
+| FOUC Prevention   | Done   | Render-blocking theme sync scripts in both layouts                |
+| SSR Fix           | Done   | Lazy solid-sonner wrapper (lib/toast.ts), client:only directive   |
+| Accessibility     | Done   | All contrast ratios pass WCAG 2.1 AA (min 5.71:1)                 |
+| CSS Transitions   | Done   | Smooth theme switching (0.2s ease) on body, cards, header         |
+| Component Library | Done   | DarkModeCard, DarkModeButton, DarkModeInput Astro components      |
+| Theme Analytics   | Done   | Theme change tracking in localStorage (wikisites:theme-analytics) |
+| E2E Tests         | Done   | 10 wiki + 9 ENCP dark mode tests, benchmark tests                 |
+| CI Integration    | Done   | Playwright E2E job in CI pipeline                                 |
+| Design Docs       | Done   | docs/DESIGN_SYSTEM.md with tokens, patterns, guidelines           |
+| Performance       | Done   | TTFB 65-425ms, full load 0.7-3.0s, 3-8x compression               |
 
 ## Phase 1: Content Scale (Weeks 1-4)
 

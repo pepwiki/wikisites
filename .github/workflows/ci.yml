@@ -133,8 +133,19 @@ jobs:
           name: wiki-dist
           path: packages/wiki/dist
 
-      - name: Run E2E tests
+      - name: Download encp artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: encp-dist
+          path: packages/encp/dist
+
+      - name: Run wiki dark mode tests
         run: bunx playwright test tests/e2e/dark-mode.spec.ts --reporter=list
+        env:
+          CI: true
+
+      - name: Run benchmark tests (live sites)
+        run: bunx playwright test tests/e2e/benchmark.spec.ts --project=chromium --reporter=list
         env:
           CI: true
 

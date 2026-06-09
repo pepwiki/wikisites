@@ -21,3 +21,6 @@ export type {
 
 export { getTheme, setTheme, applyTheme, initTheme, watchSystemTheme } from "./theme";
 export type { Theme } from "./theme";
+
+export { presets, applyPreset, getCurrentPreset, getAvailablePresets } from "./theme-presets";
+export type { ThemePreset } from "./theme-presets";
