@@ -144,7 +144,7 @@ test.describe("ENCP GUI traversal", () => {
   test.describe.configure({ timeout: 60_000 });
 
   for (const route of ENCP_ROUTES) {
-    test(`encp: ${route.name}`, async ({ page }) => {
+    test(`encp light: ${route.name}`, async ({ page }) => {
       try {
         await page.goto(`http://localhost:4322${route.path}`, {
           waitUntil: "networkidle",
@@ -156,12 +156,88 @@ test.describe("ENCP GUI traversal", () => {
       }
 
       await page.screenshot({
-        path: `${SNAPSHOT_DIR}/encp/${route.name}.png`,
+        path: `${SNAPSHOT_DIR}/encp/light/${route.name}.png`,
         fullPage: true,
       });
 
       const title = await page.title();
       expect(title).toBeTruthy();
+    });
+  }
+});
+
+test.describe("ENCP dark mode verification", () => {
+  test.describe.configure({ timeout: 60_000 });
+
+  test("theme toggle sets data-theme=dark", async ({ page }) => {
+    try {
+      await page.goto("http://localhost:4322/", {
+        waitUntil: "networkidle",
+        timeout: 10_000,
+      });
+    } catch {
+      test.skip(true, "ENCP dev server not running on port 4322");
+      return;
+    }
+
+    // Click the theme toggle button
+    const toggle = page.locator("#theme-toggle");
+    await expect(toggle).toBeVisible({ timeout: 5_000 });
+    await toggle.click();
+
+    // Verify data-theme="dark" is set
+    const html = page.locator("html");
+    await expect(html).toHaveAttribute("data-theme", "dark");
+
+    // Verify body background is dark
+    const body = page.locator("body");
+    const bodyBg = await body.evaluate((el) => getComputedStyle(el).backgroundColor);
+    console.log("[encp] body bg:", bodyBg);
+    const isLight = bodyBg.includes("255, 255, 255") || bodyBg.includes("248, 250, 252");
+    expect(isLight).toBe(false);
+
+    await page.screenshot({
+      path: `${SNAPSHOT_DIR}/encp/dark/toggle-dark.png`,
+      fullPage: true,
+    });
+  });
+
+  for (const route of ENCP_ROUTES) {
+    test(`encp dark: ${route.name}`, async ({ page }) => {
+      try {
+        await page.goto(`http://localhost:4322${route.path}`, {
+          waitUntil: "networkidle",
+          timeout: 10_000,
+        });
+      } catch {
+        test.skip(true, "ENCP dev server not running on port 4322");
+        return;
+      }
+
+      // Set dark mode via localStorage
+      await page.evaluate(() => {
+        localStorage.setItem("encp-theme", "dark");
+      });
+      await page.reload({ waitUntil: "networkidle" });
+
+      // Verify data-theme="dark" is set
+      const html = page.locator("html");
+      await expect(html).toHaveAttribute("data-theme", "dark", { timeout: 5_000 });
+
+      // Verify body background is dark
+      const body = page.locator("body");
+      const bodyBg = await body.evaluate((el) => getComputedStyle(el).backgroundColor);
+      console.log(`[encp-${route.name}] body bg:`, bodyBg);
+      const isLight =
+        bodyBg.includes("255, 255, 255") ||
+        bodyBg.includes("248, 250, 252") ||
+        bodyBg.includes("241, 245, 249");
+      expect(isLight).toBe(false);
+
+      await page.screenshot({
+        path: `${SNAPSHOT_DIR}/encp/dark/${route.name}.png`,
+        fullPage: true,
+      });
     });
   }
 });

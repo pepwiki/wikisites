@@ -43,9 +43,11 @@ const {
     <script is:inline>
       // Theme sync: read preference and set data-theme before paint
       (function () {
-        var t = localStorage.getItem("encp-theme");
-        if (t === "dark" || t === "light") {
-          document.documentElement.setAttribute("data-theme", t);
+        var t = localStorage.getItem("encp-theme") || "system";
+        if (t === "dark") {
+          document.documentElement.setAttribute("data-theme", "dark");
+        } else if (t === "light") {
+          document.documentElement.setAttribute("data-theme", "light");
         } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
           document.documentElement.setAttribute("data-theme", "dark");
         }
@@ -135,6 +137,20 @@ const {
               d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
             ></path>
           </svg>
+          <svg
+            id="icon-system"
+            class="w-5 h-5 hidden"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+            ></path>
+          </svg>
         </button>
       </nav>
     </header>
@@ -151,26 +167,49 @@ const {
       </div>
     </footer>
     <script is:inline>
-      // Theme toggle logic
+      // Theme toggle logic: light -> dark -> system -> light
       (function () {
         var toggle = document.getElementById("theme-toggle");
         var sun = document.getElementById("icon-sun");
         var moon = document.getElementById("icon-moon");
+        var system = document.getElementById("icon-system");
         var html = document.documentElement;
 
-        function updateIcons() {
-          var isDark = html.getAttribute("data-theme") === "dark";
-          sun.classList.toggle("hidden", !isDark);
-          moon.classList.toggle("hidden", isDark);
+        function getTheme() {
+          return localStorage.getItem("encp-theme") || "system";
         }
 
+        function applyTheme(theme) {
+          if (theme === "system") {
+            var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+            html.setAttribute("data-theme", prefersDark ? "dark" : "light");
+          } else {
+            html.setAttribute("data-theme", theme);
+          }
+        }
+
+        function updateIcons() {
+          var theme = getTheme();
+          sun.classList.toggle("hidden", theme !== "dark");
+          moon.classList.toggle("hidden", theme !== "light");
+          system.classList.toggle("hidden", theme !== "system");
+        }
+
+        applyTheme(getTheme());
         updateIcons();
 
+        // Listen for system theme changes
+        window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function () {
+          if (getTheme() === "system") {
+            applyTheme("system");
+          }
+        });
+
         toggle.addEventListener("click", function () {
-          var current = html.getAttribute("data-theme");
-          var next = current === "dark" ? "light" : "dark";
-          html.setAttribute("data-theme", next);
+          var current = getTheme();
+          var next = current === "light" ? "dark" : current === "dark" ? "system" : "light";
           localStorage.setItem("encp-theme", next);
+          applyTheme(next);
           updateIcons();
         });
       })();
