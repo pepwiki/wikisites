@@ -14,7 +14,7 @@
 }
 
 /* Dark mode overrides for Starlight CSS variables */
-.dark {
+[data-theme="dark"] {
   --sl-color-bg: #020617;
   --sl-color-bg-sidebar: #0f172a;
   --sl-color-bg-navbar: #0f172a;
@@ -37,7 +37,7 @@
   transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.dark .spatial-card {
+[data-theme="dark"] .spatial-card {
   background: #1e293b;
   border-color: rgba(51, 65, 85, 0.6);
   box-shadow: 0 4px 12px rgba(13, 148, 136, 0.16), 0 2px 4px rgba(13, 148, 136, 0.08);
@@ -58,7 +58,7 @@
   z-index: 0;
 }
 
-.dark .amoebic-blob {
+[data-theme="dark"] .amoebic-blob {
   background: linear-gradient(135deg, rgba(13, 148, 136, 0.1) 0%, rgba(249, 115, 22, 0.05) 100%);
 }
 
@@ -67,3 +67,4 @@
   33% { border-radius: 55% 45% 40% 60% / 60% 50% 50% 40%; }
   66% { border-radius: 38% 62% 55% 45% / 45% 55% 45% 55%; }
   100% { border-radius: 50% 50% 45% 55% / 55% 45% 55% 45%; }
+}

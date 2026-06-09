@@ -9,7 +9,7 @@ export default function Toaster() {
           "font-family": "Inter, system-ui, sans-serif",
         },
       }}
-      theme="system"
+      theme="light"
     />
   );
 }

@@ -1,8 +1,8 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
-/* Enable class-based dark mode for Starlight toggle */
-@custom-variant dark (&:where(.dark, .dark *));
+/* Enable dark mode via Starlight's data-theme attribute */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
 
 /* ==========================================================================
    Wikipept - Spatial Materialism + Amoebic UI Design System
@@ -24,7 +24,7 @@ body {
     radial-gradient(ellipse at 70% 100%, rgba(249, 115, 22, 0.02) 0%, transparent 50%), #f8fafc;
 }
 
-.dark body {
+[data-theme="dark"] body {
   background:
     radial-gradient(ellipse at 30% 0%, rgba(13, 148, 136, 0.06) 0%, transparent 50%),
     radial-gradient(ellipse at 70% 100%, rgba(249, 115, 22, 0.03) 0%, transparent 50%), #020617;
@@ -58,7 +58,7 @@ h6 {
     transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.dark .spatial-card {
+[data-theme="dark"] .spatial-card {
   background: #1e293b;
   border-color: rgba(51, 65, 85, 0.6);
 }
@@ -77,7 +77,7 @@ h6 {
   pointer-events: none;
 }
 
-.dark .spatial-card::before {
+[data-theme="dark"] .spatial-card::before {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 60%);
 }
 
@@ -136,6 +136,6 @@ h6 {
   box-shadow: var(--spatial-depth-3);
 }
 
-.dark .depth-plane-0 { background: #0f172a; }
-.dark .depth-plane-1 { background: #0f172a; }
-.dark .depth-plane-2 { background: #1e293b; }
+[data-theme="dark"] .depth-plane-0 { background: #0f172a; }
+[data-theme="dark"] .depth-plane-1 { background: #0f172a; }
+[data-theme="dark"] .depth-plane-2 { background: #1e293b; }

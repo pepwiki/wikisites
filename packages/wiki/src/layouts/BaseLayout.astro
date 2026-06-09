@@ -21,6 +21,17 @@ const {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script is:inline>
+      // Sync Starlight theme preference to data-theme attribute (render-blocking)
+      (function () {
+        var t = localStorage.getItem("starlight-theme");
+        if (t === "dark" || t === "light") {
+          document.documentElement.setAttribute("data-theme", t);
+        } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
     <meta name="description" content={description} />
     <meta name="robots" content="index, follow" />
     <meta name="theme-color" content="#0D9488" />
@@ -54,7 +65,7 @@ const {
     </script>
   </head>
   <body class="bg-[#F8FAFC] dark:bg-slate-950 text-slate-900 dark:text-slate-100 font-sans">
-    <Toaster client:load />
+    <Toaster client:only="solid-js" />
     <a
       href="#main-content"
       class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:bg-[#0D9488] focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:outline-none focus:ring-2 focus:ring-white"
@@ -164,7 +175,7 @@ const {
     --pagefind-ui-border: #e2e8f0;
     --pagefind-ui-tag: #f1f5f9;
   }
-  .dark {
+  [data-theme="dark"] {
     --pagefind-ui-text: #cbd5e1;
     --pagefind-ui-background: #1e293b;
     --pagefind-ui-border: #334155;
