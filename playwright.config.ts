@@ -30,7 +30,7 @@ export default defineConfig({
       command: "bun run dev:wiki",
       port: 4321,
       reuseExistingServer: !process.env.CI,
-      timeout: 60_000,
+      timeout: 180_000,
     },
   ],
 });

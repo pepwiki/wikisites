@@ -1,6 +1,5 @@
 import { Show } from "solid-js";
 import { useSessionOptional } from "../context";
-import { formatTime } from "./SessionStats";
 
 interface StatRowProps {
   label: string;
