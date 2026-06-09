@@ -6,7 +6,7 @@
   --sl-color-accent-low: #0f766e;
   --sl-color-bg: #f8fafc;
   --sl-color-bg-sidebar: #ffffff;
-  --sl-color-bg-navbar: #ffffff;
+  --sl-color-bg-nav: #ffffff;
   --sl-color-text: #1e293b;
   --sl-color-text-muted: #64748b;
   --sl-font: "Inter", system-ui, sans-serif;
@@ -17,7 +17,7 @@
 [data-theme="dark"] {
   --sl-color-bg: #020617;
   --sl-color-bg-sidebar: #0f172a;
-  --sl-color-bg-navbar: #0f172a;
+  --sl-color-bg-nav: #0f172a;
   --sl-color-text: #e2e8f0;
   --sl-color-text-muted: #94a3b8;
 }

@@ -139,3 +139,34 @@ h6 {
 [data-theme="dark"] .depth-plane-0 { background: #0f172a; }
 [data-theme="dark"] .depth-plane-1 { background: #0f172a; }
 [data-theme="dark"] .depth-plane-2 { background: #1e293b; }
+
+/* solid-sonner dark mode overrides */
+[data-theme="dark"] [data-sonner-toaster] {
+  --normal-bg: #1e293b;
+  --normal-border: rgba(51, 65, 85, 0.6);
+  --normal-text: #e2e8f0;
+  --success-bg: #064e3b;
+  --success-border: rgba(6, 78, 59, 0.6);
+  --success-text: #6ee7b7;
+  --error-bg: #7f1d1d;
+  --error-border: rgba(127, 29, 29, 0.6);
+  --error-text: #fca5a5;
+}
+
+[data-theme="dark"] [data-sonner-toast] {
+  background: var(--normal-bg, #1e293b) !important;
+  border-color: var(--normal-border, rgba(51, 65, 85, 0.6)) !important;
+  color: var(--normal-text, #e2e8f0) !important;
+}
+
+[data-theme="dark"] [data-sonner-toast][data-type="success"] {
+  background: var(--success-bg) !important;
+  border-color: var(--success-border) !important;
+  color: var(--success-text) !important;
+}
+
+[data-theme="dark"] [data-sonner-toast][data-type="error"] {
+  background: var(--error-bg) !important;
+  border-color: var(--error-border) !important;
+  color: var(--error-text) !important;
+}

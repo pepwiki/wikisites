@@ -1,11 +1,9 @@
 import { test, expect } from "@playwright/test";
 
 /**
- * GUI snapshot traversal script.
- * Navigates to each route, captures DOM snapshot and screenshot,
- * then saves to /tmp/wikisites-snapshots/ for visual review.
- *
- * Routes are derived from the Starlight sidebar config and ENCP content collection.
+ * GUI traversal + dark mode verification.
+ * Navigates to all wiki routes in both light and dark mode,
+ * captures screenshots, and verifies dark mode correctness.
  */
 
 const SNAPSHOT_DIR = "/tmp/wikisites-snapshots";
@@ -46,35 +44,86 @@ const ENCP_ROUTES = [
   { path: "/articles/oxytocin", name: "encp-article-oxytocin" },
 ];
 
-test.describe("Wiki GUI traversal", () => {
+test.describe("Wiki light mode traversal", () => {
   for (const route of WIKI_ROUTES) {
-    test(`snapshot: ${route.name}`, async ({ page }) => {
+    test(`light: ${route.name}`, async ({ page }) => {
       await page.goto(route.path, { waitUntil: "networkidle" });
 
-      // Wait for Starlight content to render
       await page
-        .waitForSelector("[data-pagefind-body] main, main", { timeout: 10_000 })
+        .waitForSelector("[data-pagefind-body] main, main", { timeout: 15_000 })
         .catch(() => {});
 
-      // Capture DOM snapshot
-      const html = await page.content();
-      // eslint-disable-next-line no-console
-      console.log(`[SNAPSHOT] ${route.name}: ${html.length} chars HTML`);
-
-      // Capture screenshot
-      await page.screenshot({
-        path: `${SNAPSHOT_DIR}/${route.name}.png`,
-        fullPage: true,
-      });
-
-      // Basic sanity: page should have a title or main heading
       const title = await page.title();
       expect(title).toBeTruthy();
 
-      // Check no JS errors
-      const errors: string[] = [];
-      page.on("pageerror", (err) => errors.push(err.message));
-      // Errors collected during this page load are checked in afterAll
+      await page.screenshot({
+        path: `${SNAPSHOT_DIR}/light/${route.name}.png`,
+        fullPage: true,
+      });
+    });
+  }
+});
+
+test.describe("Wiki dark mode verification", () => {
+  test("theme toggle sets data-theme=dark", async ({ page }) => {
+    await page.goto("/", { waitUntil: "networkidle" });
+    await page.waitForSelector("main", { timeout: 15_000 });
+
+    const themeSelect = page.locator("select").filter({ hasText: "Dark" }).first();
+    await expect(themeSelect).toBeVisible({ timeout: 5_000 });
+
+    await themeSelect.selectOption({ label: "Dark" });
+
+    await page.waitForFunction(
+      () => document.documentElement.getAttribute("data-theme") === "dark",
+      { timeout: 5_000 },
+    );
+
+    const htmlEl = page.locator("html");
+    await expect(htmlEl).toHaveAttribute("data-theme", "dark");
+
+    const body = page.locator("body");
+    const bodyBg = await body.evaluate((el) => getComputedStyle(el).backgroundColor);
+    console.log("body background:", bodyBg);
+    const isLight = bodyBg.includes("255, 255, 255") || bodyBg.includes("248, 250, 252");
+    expect(isLight).toBe(false);
+
+    await page.screenshot({ path: `${SNAPSHOT_DIR}/dark/toggle-dark.png`, fullPage: true });
+  });
+
+  for (const route of WIKI_ROUTES) {
+    test(`dark: ${route.name}`, async ({ page }) => {
+      await page.goto(route.path, { waitUntil: "networkidle" });
+      await page.waitForSelector("main", { timeout: 15_000 });
+
+      await page.evaluate(() => {
+        localStorage.setItem("starlight-theme", "dark");
+      });
+      await page.reload({ waitUntil: "networkidle" });
+      await page.waitForSelector("main", { timeout: 15_000 });
+
+      const html = page.locator("html");
+      await expect(html).toHaveAttribute("data-theme", "dark", { timeout: 5_000 });
+
+      const body = page.locator("body");
+      const bodyBg = await body.evaluate((el) => getComputedStyle(el).backgroundColor);
+      console.log(`[${route.name}] body bg:`, bodyBg);
+      const isLight =
+        bodyBg.includes("255, 255, 255") ||
+        bodyBg.includes("248, 250, 252") ||
+        bodyBg.includes("241, 245, 249");
+      expect(isLight).toBe(false);
+
+      const nav = page.locator("header").first();
+      if ((await nav.count()) > 0) {
+        const navBg = await nav.evaluate((el) => getComputedStyle(el).backgroundColor);
+        console.log(`[${route.name}] header bg:`, navBg);
+      }
+
+      await page.screenshot({
+        path: `${SNAPSHOT_DIR}/dark/${route.name}.png`,
+        fullPage: true,
+      });
     });
   }
 });
@@ -82,10 +131,8 @@ test.describe("Wiki GUI traversal", () => {
 test.describe("ENCP GUI traversal", () => {
   test.describe.configure({ timeout: 60_000 });
 
-  // ENCP requires its own dev server -- this test assumes port 4322
   for (const route of ENCP_ROUTES) {
-    test(`snapshot: ${route.name}`, async ({ page }) => {
-      // Skip if ENCP server is not running
+    test(`encp: ${route.name}`, async ({ page }) => {
       try {
         await page.goto(`http://localhost:4322${route.path}`, {
           waitUntil: "networkidle",
@@ -97,7 +144,7 @@ test.describe("ENCP GUI traversal", () => {
       }
 
       await page.screenshot({
-        path: `${SNAPSHOT_DIR}/${route.name}.png`,
+        path: `${SNAPSHOT_DIR}/encp/${route.name}.png`,
         fullPage: true,
       });
 
