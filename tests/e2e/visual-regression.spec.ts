@@ -29,15 +29,19 @@ const ENCP_ROUTES = [
   { path: "/glossary", name: "encp-glossary" },
 ];
 
+const SCREENSHOT_OPTS = {
+  fullPage: true,
+  maxDiffPixelRatio: 0.01,
+  animations: "disabled" as const,
+  timeout: 15_000,
+};
+
 test.describe("Wiki visual regression - light", () => {
   for (const route of WIKI_ROUTES) {
     test(`light: ${route.name}`, async ({ page }) => {
       await page.goto(`${WIKI_URL}${route.path}`, { waitUntil: "networkidle" });
       await page.waitForSelector("main", { timeout: 15_000 }).catch(() => {});
-      await expect(page).toHaveScreenshot(`${route.name}-light.png`, {
-        fullPage: true,
-        maxDiffPixelRatio: 0.01,
-      });
+      await expect(page).toHaveScreenshot(`${route.name}-light.png`, SCREENSHOT_OPTS);
     });
   }
 });
@@ -50,10 +54,7 @@ test.describe("Wiki visual regression - dark", () => {
       await page.evaluate(() => localStorage.setItem("starlight-theme", "dark"));
       await page.reload({ waitUntil: "networkidle" });
       await page.waitForSelector("main", { timeout: 15_000 }).catch(() => {});
-      await expect(page).toHaveScreenshot(`${route.name}-dark.png`, {
-        fullPage: true,
-        maxDiffPixelRatio: 0.01,
-      });
+      await expect(page).toHaveScreenshot(`${route.name}-dark.png`, SCREENSHOT_OPTS);
     });
   }
 });
@@ -63,10 +64,7 @@ test.describe("ENCP visual regression - light", () => {
     test(`light: ${route.name}`, async ({ page }) => {
       await page.goto(`${ENCP_URL}${route.path}`, { waitUntil: "networkidle" });
       await page.waitForSelector("main", { timeout: 15_000 }).catch(() => {});
-      await expect(page).toHaveScreenshot(`encp-${route.name}-light.png`, {
-        fullPage: true,
-        maxDiffPixelRatio: 0.01,
-      });
+      await expect(page).toHaveScreenshot(`encp-${route.name}-light.png`, SCREENSHOT_OPTS);
     });
   }
 });
@@ -79,10 +77,7 @@ test.describe("ENCP visual regression - dark", () => {
       await page.evaluate(() => localStorage.setItem("encp-theme", "dark"));
       await page.reload({ waitUntil: "networkidle" });
       await page.waitForSelector("main", { timeout: 15_000 }).catch(() => {});
-      await expect(page).toHaveScreenshot(`encp-${route.name}-dark.png`, {
-        fullPage: true,
-        maxDiffPixelRatio: 0.01,
-      });
+      await expect(page).toHaveScreenshot(`encp-${route.name}-dark.png`, SCREENSHOT_OPTS);
     });
   }
 });
