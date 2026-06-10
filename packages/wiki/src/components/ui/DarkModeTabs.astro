@@ -1,0 +1,38 @@
+---
+/**
+ * DarkModeTabs - A tabs component with built-in dark mode support.
+ * Usage: <DarkModeTabs tabs={[{id: "a", label: "Tab A"}]} />
+ */
+
+interface Props {
+  tabs: { id: string; label: string }[];
+  activeId?: string;
+  class?: string;
+}
+
+const { tabs, activeId = tabs[0]?.id, class: className = "" } = Astro.props;
+---
+
+<div class={className}>
+  <div class="flex border-b border-slate-200 dark:border-slate-700" role="tablist">
+    {
+      tabs.map((tab) => (
+        <button
+          class={`px-4 py-2 text-sm font-medium transition-colors ${
+            tab.id === activeId
+              ? "text-[#0D9488] border-b-2 border-[#0D9488]"
+              : "text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100"
+          }`}
+          role="tab"
+          aria-selected={tab.id === activeId}
+          data-tab={tab.id}
+        >
+          {tab.label}
+        </button>
+      ))
+    }
+  </div>
+  <div class="mt-4">
+    <slot />
+  </div>
+</div>
