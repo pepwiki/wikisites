@@ -20,6 +20,9 @@
   --sl-color-bg-nav: #0f172a;
   --sl-color-text: #e2e8f0;
   --sl-color-text-muted: #94a3b8;
+  --sl-color-accent: #2dd4bf;
+  --sl-color-accent-high: #14b8a6;
+  --sl-color-accent-low: #0f766e;
 }
 
 /* Starlight sidebar styling */
