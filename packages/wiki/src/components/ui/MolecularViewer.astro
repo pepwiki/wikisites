@@ -1,0 +1,45 @@
+---
+/**
+ * MolecularViewer - 3D molecular structure viewer using Mol*.
+ * Renders PDB structures interactively.
+ *
+ * Usage: <MolecularViewer pdbId="1ABC" height="500px" />
+ */
+
+interface Props {
+  /** PDB ID to display */
+  pdbId: string;
+  /** Viewer height */
+  height?: string;
+  /** Viewer width */
+  width?: string;
+  /** Additional CSS classes */
+  class?: string;
+}
+
+const { pdbId, height = "500px", width = "100%", class: className = "" } = Astro.props;
+---
+
+<div class={`rounded-xl overflow-hidden border border-slate-200 dark:border-slate-700 ${className}`}>
+  <div class="bg-slate-100 dark:bg-slate-800 px-4 py-2 flex items-center justify-between">
+    <span class="text-sm font-medium text-slate-700 dark:text-slate-300">
+      PDB: {pdbId}
+    </span>
+    <a
+      href={`https://www.rcsb.org/structure/${pdbId}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="text-xs text-[#0D9488] hover:underline"
+    >
+      View on RCSB PDB
+    </a>
+  </div>
+  <iframe
+    src={`https://www.rcsb.org/3d-view/${pdbId}`}
+    style={`width: ${width}; height: ${height}; border: none;`}
+    title={`3D structure of PDB ${pdbId}`}
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    sandbox="allow-scripts allow-same-origin allow-popups"
+  />
+</div>

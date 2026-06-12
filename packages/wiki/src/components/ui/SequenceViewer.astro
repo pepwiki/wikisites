@@ -1,0 +1,86 @@
+---
+/**
+ * SequenceViewer - Color-coded amino acid sequence viewer.
+ * Displays peptide sequences with property-based coloring.
+ *
+ * Usage: <SequenceViewer sequence="GCDEF" />
+ */
+
+interface Props {
+  /** Amino acid sequence */
+  sequence: string;
+  /** Color mode */
+  colorBy?: "type" | "charge" | "hydrophobicity";
+  /** Show labels */
+  showLabels?: boolean;
+  /** Additional CSS classes */
+  class?: string;
+}
+
+const { sequence, colorBy = "type", showLabels = true, class: className = "" } = Astro.props;
+
+const aminoAcidColors: Record<string, { bg: string; text: string; label: string }> = {
+  // Nonpolar
+  G: { bg: "bg-slate-200 dark:bg-slate-600", text: "text-slate-700 dark:text-slate-200", label: "Gly" },
+  A: { bg: "bg-slate-200 dark:bg-slate-600", text: "text-slate-700 dark:text-slate-200", label: "Ala" },
+  V: { bg: "bg-slate-200 dark:bg-slate-600", text: "text-slate-700 dark:text-slate-200", label: "Val" },
+  L: { bg: "bg-slate-200 dark:bg-slate-600", text: "text-slate-700 dark:text-slate-200", label: "Leu" },
+  I: { bg: "bg-slate-200 dark:bg-slate-600", text: "text-slate-700 dark:text-slate-200", label: "Ile" },
+  P: { bg: "bg-slate-200 dark:bg-slate-600", text: "text-slate-700 dark:text-slate-200", label: "Pro" },
+  F: { bg: "bg-slate-200 dark:bg-slate-600", text: "text-slate-700 dark:text-slate-200", label: "Phe" },
+  W: { bg: "bg-slate-200 dark:bg-slate-600", text: "text-slate-700 dark:text-slate-200", label: "Trp" },
+  M: { bg: "bg-slate-200 dark:bg-slate-600", text: "text-slate-700 dark:text-slate-200", label: "Met" },
+  // Polar
+  S: { bg: "bg-green-100 dark:bg-green-900/30", text: "text-green-700 dark:text-green-300", label: "Ser" },
+  T: { bg: "bg-green-100 dark:bg-green-900/30", text: "text-green-700 dark:text-green-300", label: "Thr" },
+  C: { bg: "bg-green-100 dark:bg-green-900/30", text: "text-green-700 dark:text-green-300", label: "Cys" },
+  Y: { bg: "bg-green-100 dark:bg-green-900/30", text: "text-green-700 dark:text-green-300", label: "Tyr" },
+  N: { bg: "bg-green-100 dark:bg-green-900/30", text: "text-green-700 dark:text-green-300", label: "Asn" },
+  Q: { bg: "bg-green-100 dark:bg-green-900/30", text: "text-green-700 dark:text-green-300", label: "Gln" },
+  // Positive
+  K: { bg: "bg-blue-100 dark:bg-blue-900/30", text: "text-blue-700 dark:text-blue-300", label: "Lys" },
+  R: { bg: "bg-blue-100 dark:bg-blue-900/30", text: "text-blue-700 dark:text-blue-300", label: "Arg" },
+  H: { bg: "bg-blue-100 dark:bg-blue-900/30", text: "text-blue-700 dark:text-blue-300", label: "His" },
+  // Negative
+  D: { bg: "bg-red-100 dark:bg-red-900/30", text: "text-red-700 dark:text-red-300", label: "Asp" },
+  E: { bg: "bg-red-100 dark:bg-red-900/30", text: "text-red-700 dark:text-red-300", label: "Glu" },
+};
+
+const defaultColor = { bg: "bg-slate-100 dark:bg-slate-700", text: "text-slate-500 dark:text-slate-400", label: "?" };
+---
+
+<div class={`font-mono ${className}`}>
+  {showLabels && (
+    <div class="flex gap-1 mb-2 text-xs text-slate-500 dark:text-slate-400">
+      <span class="inline-flex items-center gap-1">
+        <span class="w-3 h-3 rounded bg-slate-200 dark:bg-slate-600"></span> Nonpolar
+      </span>
+      <span class="inline-flex items-center gap-1 ml-3">
+        <span class="w-3 h-3 rounded bg-green-100 dark:bg-green-900/30"></span> Polar
+      </span>
+      <span class="inline-flex items-center gap-1 ml-3">
+        <span class="w-3 h-3 rounded bg-blue-100 dark:bg-blue-900/30"></span> Positive
+      </span>
+      <span class="inline-flex items-center gap-1 ml-3">
+        <span class="w-3 h-3 rounded bg-red-100 dark:bg-red-900/30"></span> Negative
+      </span>
+    </div>
+  )}
+  <div class="flex flex-wrap gap-1">
+    {sequence.split("").map((aa, i) => {
+      const color = aminoAcidColors[aa.toUpperCase()] || defaultColor;
+      return (
+        <div class={`flex flex-col items-center`}>
+          <span class={`inline-flex items-center justify-center w-10 h-10 rounded-lg text-sm font-bold ${color.bg} ${color.text}`}>
+            {aa.toUpperCase()}
+          </span>
+          {showLabels && (
+            <span class="text-[10px] text-slate-400 dark:text-slate-500 mt-0.5">
+              {i + 1}
+            </span>
+          )}
+        </div>
+      );
+    })}
+  </div>
+</div>
