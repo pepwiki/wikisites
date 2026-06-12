@@ -38,7 +38,7 @@ export default function StreakWidget() {
         </div>
         <div class="grid grid-cols-2 gap-4 text-center">
           <div class="p-3 bg-slate-50 dark:bg-slate-800 rounded-xl">
-            <div class="text-2xl font-bold text-[#0D9488]">{totalReviews()}</div>
+            <div class="text-2xl font-bold text-[#0f766e]">{totalReviews()}</div>
             <div class="text-xs text-slate-500 dark:text-slate-400">Cards Reviewed</div>
           </div>
           <div class="p-3 bg-slate-50 dark:bg-slate-800 rounded-xl">

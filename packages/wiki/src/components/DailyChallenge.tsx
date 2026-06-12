@@ -98,7 +98,7 @@ export default function DailyChallenge(props: DailyChallengeProps) {
 
       <Show when={done()}>
         <div class="text-center py-8">
-          <p class="text-3xl font-bold text-[#0D9488] mb-2">{correctCount()}/10</p>
+          <p class="text-3xl font-bold text-[#0f766e] mb-2">{correctCount()}/10</p>
           <p class="text-slate-600 dark:text-slate-400 mb-4">Correct answers today</p>
           <p class="text-sm text-slate-400 dark:text-slate-500">
             {correctCount() >= 8

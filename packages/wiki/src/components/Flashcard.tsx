@@ -119,7 +119,7 @@ export default function Flashcard(props: FlashcardProps) {
 
       <Show when={isFSRS() && rated()}>
         <div class="mt-3 text-center">
-          <span class="text-xs text-[#0D9488] font-medium">Rated</span>
+          <span class="text-xs text-[#0f766e] font-medium">Rated</span>
           <button
             type="button"
             class="ml-2 text-xs text-slate-400 dark:text-slate-500 hover:text-slate-600 dark:hover:text-slate-300 underline"

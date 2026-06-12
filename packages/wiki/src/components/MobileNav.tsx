@@ -20,7 +20,7 @@ export default function MobileNav(props: MobileNavProps) {
     <nav class="lg:hidden" aria-label="Mobile navigation">
       <button
         type="button"
-        class="p-2 text-slate-600 dark:text-slate-400 hover:text-[#0D9488] focus:outline-none focus:ring-2 focus:ring-[#0D9488] rounded"
+        class="p-2 text-slate-600 dark:text-slate-400 hover:text-[#0f766e] focus:outline-none focus:ring-2 focus:ring-[#0D9488] rounded"
         onClick={() => setOpen(!open())}
         aria-label={open() ? "Close menu" : "Open menu"}
         aria-expanded={open()}
@@ -42,8 +42,8 @@ export default function MobileNav(props: MobileNavProps) {
                   href={link.href}
                   class={`block py-2 text-sm font-medium transition-colors ${
                     props.currentPath.startsWith(link.href)
-                      ? "text-[#0D9488]"
-                      : "text-slate-600 dark:text-slate-400 hover:text-[#0D9488]"
+                      ? "text-[#0f766e]"
+                      : "text-slate-600 dark:text-slate-400 hover:text-[#0f766e]"
                   }`}
                   onClick={() => setOpen(false)}
                 >

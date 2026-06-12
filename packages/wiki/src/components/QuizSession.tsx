@@ -219,7 +219,7 @@ export default function QuizSession(props: QuizSessionProps) {
           <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
             <button
               type="button"
-              class="px-4 py-3 rounded-xl border-2 border-[#0D9488] bg-[#0D9488]/5 text-[#0D9488] font-medium hover:bg-[#0D9488]/10 transition-colors text-left"
+              class="px-4 py-3 rounded-xl border-2 border-[#0D9488] bg-[#0D9488]/5 text-[#0f766e] font-medium hover:bg-[#0D9488]/10 transition-colors text-left"
               onClick={() => startQuiz(null)}
             >
               <span class="block text-sm font-semibold">All</span>
@@ -241,7 +241,7 @@ export default function QuizSession(props: QuizSessionProps) {
                   </span>
                   <span class="text-xs text-slate-500 dark:text-slate-400">
                     {cat.questions.length} questions
-                    {acc !== null && <span class="ml-1 text-[#0D9488]"> · {acc}%</span>}
+                    {acc !== null && <span class="ml-1 text-[#0f766e]"> · {acc}%</span>}
                   </span>
                 </button>
               );
@@ -297,7 +297,7 @@ export default function QuizSession(props: QuizSessionProps) {
 
           <div class="grid grid-cols-3 gap-6 mb-8 max-w-md mx-auto">
             <div class="text-center">
-              <p class="text-3xl font-bold text-[#0D9488]">{correctCount()}</p>
+              <p class="text-3xl font-bold text-[#0f766e]">{correctCount()}</p>
               <p class="text-sm text-slate-500 dark:text-slate-400">Correct</p>
             </div>
             <div class="text-center">
@@ -322,7 +322,7 @@ export default function QuizSession(props: QuizSessionProps) {
             </button>
             <button
               type="button"
-              class="px-6 py-2 border-2 border-[#0D9488] text-[#0D9488] rounded-full font-medium hover:bg-[#0D9488]/5 focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 transition-colors"
+              class="px-6 py-2 border-2 border-[#0D9488] text-[#0f766e] rounded-full font-medium hover:bg-[#0D9488]/5 focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 transition-colors"
               onClick={handleTryAnother}
             >
               Try Another Category

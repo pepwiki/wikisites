@@ -89,7 +89,7 @@ export default function LearningPath(props: LearningPathProps) {
 
       <Show when={recommended()}>
         <div class="mb-4 p-3 bg-[#0D9488]/5 border border-[#0D9488]/20 rounded-xl">
-          <p class="text-sm font-medium text-[#0D9488]">
+          <p class="text-sm font-medium text-[#0f766e]">
             Recommended next: <strong>{recommended()}</strong>
           </p>
         </div>

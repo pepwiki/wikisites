@@ -32,7 +32,7 @@ export default function CookieConsent() {
               Wikipept uses localStorage to save your learning progress locally on this device. No
               data is sent to any server. By continuing to use this site, you acknowledge this.
             </p>
-            <a href="/privacy" class="text-xs text-[#0D9488] hover:underline mt-1 inline-block">
+            <a href="/privacy" class="text-xs text-[#0f766e] hover:underline mt-1 inline-block">
               Read our Privacy Policy
             </a>
           </div>

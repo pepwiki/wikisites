@@ -156,7 +156,7 @@ export default function Quiz(props: QuizProps) {
           </Show>
           <button
             type="button"
-            class="mt-2 text-sm text-[#0D9488] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 rounded"
+            class="mt-2 text-sm text-[#0f766e] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 rounded"
             onClick={reset}
             aria-label="Reset question and try again"
           >
