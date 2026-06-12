@@ -74,7 +74,7 @@ export default function SessionStats() {
         <StatRow
           label="Accuracy"
           value={`${sessionAccuracy()}%`}
-          color={sessionAccuracy() >= 80 ? "text-[#0f766e]" : "text-[#F97316]"}
+          color={sessionAccuracy() >= 80 ? "text-[#0f766e] dark:text-[#2dd4bf]" : "text-[#F97316]"}
         />
       </div>
 
@@ -88,17 +88,17 @@ export default function SessionStats() {
         <StatRow
           label="Total Reviews"
           value={allTime()?.totalReviews ?? 0}
-          color="text-[#0f766e]"
+          color="text-[#0f766e] dark:text-[#2dd4bf]"
         />
         <StatRow
           label="Total Quizzes"
           value={allTime()?.totalQuizzes ?? 0}
-          color="text-[#0f766e]"
+          color="text-[#0f766e] dark:text-[#2dd4bf]"
         />
         <StatRow
           label="Accuracy"
           value={`${lifetimeAccuracy()}%`}
-          color={lifetimeAccuracy() >= 80 ? "text-[#0f766e]" : "text-[#F97316]"}
+          color={lifetimeAccuracy() >= 80 ? "text-[#0f766e] dark:text-[#2dd4bf]" : "text-[#F97316]"}
         />
         <StatRow
           label="Best Streak"

@@ -219,7 +219,7 @@ export default function QuizSession(props: QuizSessionProps) {
           <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
             <button
               type="button"
-              class="px-4 py-3 rounded-xl border-2 border-[#0D9488] bg-[#0D9488]/5 text-[#0f766e] font-medium hover:bg-[#0D9488]/10 transition-colors text-left"
+              class="px-4 py-3 rounded-xl border-2 border-[#0D9488] bg-[#0f766e]/5 text-[#0f766e] dark:text-[#2dd4bf] font-medium hover:bg-[#0f766e]/10 transition-colors text-left"
               onClick={() => startQuiz(null)}
             >
               <span class="block text-sm font-semibold">All</span>
@@ -233,7 +233,7 @@ export default function QuizSession(props: QuizSessionProps) {
               return (
                 <button
                   type="button"
-                  class="px-4 py-3 rounded-xl border-2 border-slate-200 dark:border-slate-700 hover:border-[#0D9488] hover:bg-[#0D9488]/5 transition-colors text-left"
+                  class="px-4 py-3 rounded-xl border-2 border-slate-200 dark:border-slate-700 hover:border-[#0D9488] hover:bg-[#0f766e]/5 transition-colors text-left"
                   onClick={() => startQuiz(cat.category)}
                 >
                   <span class="block text-sm font-semibold text-slate-900 dark:text-slate-100">
@@ -241,7 +241,7 @@ export default function QuizSession(props: QuizSessionProps) {
                   </span>
                   <span class="text-xs text-slate-500 dark:text-slate-400">
                     {cat.questions.length} questions
-                    {acc !== null && <span class="ml-1 text-[#0f766e]"> · {acc}%</span>}
+                    {acc !== null && <span class="ml-1 text-[#0f766e] dark:text-[#2dd4bf]"> · {acc}%</span>}
                   </span>
                 </button>
               );
@@ -262,7 +262,7 @@ export default function QuizSession(props: QuizSessionProps) {
           </div>
           <div class="w-full bg-slate-200 rounded-full h-2">
             <div
-              class="bg-[#0D9488] h-2 rounded-full transition-all duration-300"
+              class="bg-[#0f766e] h-2 rounded-full transition-all duration-300"
               style={{ width: `${progressPercent()}%` }}
             />
           </div>
@@ -282,7 +282,7 @@ export default function QuizSession(props: QuizSessionProps) {
         <Show when={revealed()}>
           <button
             type="button"
-            class="mt-4 px-6 py-2 bg-[#0D9488] text-white rounded-full font-medium hover:bg-[#0D9488]/90 focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 transition-colors"
+            class="mt-4 px-6 py-2 bg-[#0f766e] text-white rounded-full font-medium hover:bg-[#0f766e]/90 focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 transition-colors"
             onClick={handleNext}
           >
             {current() + 1 >= total() ? "See Results" : "Next Question"}
@@ -297,7 +297,7 @@ export default function QuizSession(props: QuizSessionProps) {
 
           <div class="grid grid-cols-3 gap-6 mb-8 max-w-md mx-auto">
             <div class="text-center">
-              <p class="text-3xl font-bold text-[#0f766e]">{correctCount()}</p>
+              <p class="text-3xl font-bold text-[#0f766e] dark:text-[#2dd4bf]">{correctCount()}</p>
               <p class="text-sm text-slate-500 dark:text-slate-400">Correct</p>
             </div>
             <div class="text-center">
@@ -315,14 +315,14 @@ export default function QuizSession(props: QuizSessionProps) {
           <div class="flex flex-col sm:flex-row gap-3 justify-center">
             <button
               type="button"
-              class="px-6 py-2 bg-[#0D9488] text-white rounded-full font-medium hover:bg-[#0D9488]/90 focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 transition-colors"
+              class="px-6 py-2 bg-[#0f766e] text-white rounded-full font-medium hover:bg-[#0f766e]/90 focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 transition-colors"
               onClick={handleRetryWeak}
             >
               Retry Weakest
             </button>
             <button
               type="button"
-              class="px-6 py-2 border-2 border-[#0D9488] text-[#0f766e] rounded-full font-medium hover:bg-[#0D9488]/5 focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 transition-colors"
+              class="px-6 py-2 border-2 border-[#0D9488] text-[#0f766e] dark:text-[#2dd4bf] rounded-full font-medium hover:bg-[#0f766e]/5 focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 transition-colors"
               onClick={handleTryAnother}
             >
               Try Another Category

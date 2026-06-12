@@ -108,7 +108,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
           type="button"
           class={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
             activeTag() === null
-              ? "bg-[#0D9488] text-white"
+              ? "bg-[#0f766e] text-white"
               : "bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-600"
           }`}
           onClick={() => selectTag(null)}
@@ -121,7 +121,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
               type="button"
               class={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
                 activeTag() === tag
-                  ? "bg-[#0D9488] text-white"
+                  ? "bg-[#0f766e] text-white"
                   : "bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-600"
               }`}
               onClick={() => selectTag(tag)}
@@ -144,7 +144,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
         </span>
         <div class="flex-1 h-1.5 bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
           <div
-            class="h-full bg-[#0D9488] rounded-full transition-all"
+            class="h-full bg-[#0f766e] rounded-full transition-all"
             style={{ width: `${((currentIndex() + 1) / filteredCards().length) * 100}%` }}
           />
         </div>

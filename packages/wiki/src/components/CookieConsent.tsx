@@ -32,7 +32,7 @@ export default function CookieConsent() {
               Wikipept uses localStorage to save your learning progress locally on this device. No
               data is sent to any server. By continuing to use this site, you acknowledge this.
             </p>
-            <a href="/privacy" class="text-xs text-[#0f766e] hover:underline mt-1 inline-block">
+            <a href="/privacy" class="text-xs text-[#0f766e] dark:text-[#2dd4bf] hover:underline mt-1 inline-block">
               Read our Privacy Policy
             </a>
           </div>
@@ -46,7 +46,7 @@ export default function CookieConsent() {
             </button>
             <button
               type="button"
-              class="px-4 py-2 text-sm text-white bg-[#0D9488] rounded-lg hover:bg-[#0D9488]/90 transition-colors"
+              class="px-4 py-2 text-sm text-white bg-[#0f766e] rounded-lg hover:bg-[#0f766e]/90 transition-colors"
               onClick={accept}
             >
               Accept

@@ -57,7 +57,7 @@ export default function PushNotifications() {
           </button>
           <button
             type="button"
-            class="px-3 py-1.5 text-xs text-white bg-[#0D9488] rounded-lg hover:bg-[#0D9488]/90"
+            class="px-3 py-1.5 text-xs text-white bg-[#0f766e] rounded-lg hover:bg-[#0f766e]/90"
             onClick={subscribe}
           >
             Enable

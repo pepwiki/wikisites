@@ -166,10 +166,10 @@ export default function AchievementBadges() {
         <For each={achievements()}>
           {(a) => (
             <div
-              class={`p-3 rounded-xl text-center ${a.unlocked ? "bg-[#0D9488]/5 border border-[#0D9488]/20" : "bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700 opacity-50"}`}
+              class={`p-3 rounded-xl text-center ${a.unlocked ? "bg-[#0f766e]/5 border border-[#0D9488]/20" : "bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700 opacity-50"}`}
             >
               <div
-                class={`text-2xl font-bold mb-1 ${a.unlocked ? "text-[#0f766e]" : "text-slate-300"}`}
+                class={`text-2xl font-bold mb-1 ${a.unlocked ? "text-[#0f766e] dark:text-[#2dd4bf]" : "text-slate-300"}`}
               >
                 {a.icon}
               </div>

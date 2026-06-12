@@ -42,7 +42,7 @@ export default function FlipCard(props: FlipCardProps) {
           {props.front}
         </div>
         {/* Back */}
-        <div class="absolute inset-0 backface-hidden rotate-y-180 bg-[#0D9488] text-white rounded-2xl p-6 flex flex-col items-center justify-center">
+        <div class="absolute inset-0 backface-hidden rotate-y-180 bg-[#0f766e] text-white rounded-2xl p-6 flex flex-col items-center justify-center">
           {props.back}
         </div>
       </div>

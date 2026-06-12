@@ -111,7 +111,7 @@ export default function Quiz(props: QuizProps) {
                       ? index() === props.correctIndex
                         ? "border-green-500 bg-green-50 text-green-800 dark:bg-green-950/30 dark:text-green-400"
                         : "border-red-500 bg-red-50 text-red-800 dark:bg-red-950/30 dark:text-red-400"
-                      : "border-[#0D9488] bg-[#0D9488]/5"
+                      : "border-[#0D9488] bg-[#0f766e]/5"
                     : "border-slate-200 dark:border-slate-700 hover:border-slate-300 dark:hover:border-slate-500"
                 }`}
                 onClick={() => !revealed() && setSelected(index())}
@@ -129,7 +129,7 @@ export default function Quiz(props: QuizProps) {
       <Show when={!revealed()}>
         <button
           type="button"
-          class="mt-4 px-6 py-2 bg-[#0D9488] text-white rounded-full font-medium disabled:opacity-50 hover:bg-[#0D9488]/90 focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 transition-colors"
+          class="mt-4 px-6 py-2 bg-[#0f766e] text-white rounded-full font-medium disabled:opacity-50 hover:bg-[#0f766e]/90 focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 transition-colors"
           onClick={submit}
           disabled={selected() === null}
           aria-label="Check answer"
@@ -156,7 +156,7 @@ export default function Quiz(props: QuizProps) {
           </Show>
           <button
             type="button"
-            class="mt-2 text-sm text-[#0f766e] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 rounded"
+            class="mt-2 text-sm text-[#0f766e] dark:text-[#2dd4bf] font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 rounded"
             onClick={reset}
             aria-label="Reset question and try again"
           >

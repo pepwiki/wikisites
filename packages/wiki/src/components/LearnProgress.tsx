@@ -43,7 +43,7 @@ export default function LearnProgress(props: LearnProgressProps) {
         </div>
         <div class="h-1.5 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
           <div
-            class="h-full bg-[#0D9488] rounded-full transition-all"
+            class="h-full bg-[#0f766e] rounded-full transition-all"
             style={{ width: `${percentage()}%` }}
           />
         </div>
