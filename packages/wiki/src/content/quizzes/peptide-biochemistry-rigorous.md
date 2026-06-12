@@ -28,7 +28,7 @@ The cis-trans isomerization of Xaa-Pro peptide bonds is catalyzed by peptidyl-pr
 - C) Kt ≈ 0.4; catalyzed by parvulin-type PPIases (EC 5.2.1.8)
 - D) Both A and B are correct
 
-**Correct Answer:** D) Both A and correct
+**Correct Answer:** D) Both A and B are correct
 
 **Explanation:** Xaa-Pro bonds have Kt (trans:cis) ≈ 4.0 at 25°C, compared to Kt ≈ 1000 for non-proline residues. Three PPIase families catalyze this isomerization: cyclophilins (Cyps, inhibited by cyclosporin A), FK506-binding proteins (FKBPs, inhibited by FK506/rapamycin), and parvulins (including Pin1). All are classified under EC 5.2.1.8. The activation energy for uncatalyzed isomerization is ~80 kJ/mol; enzymes reduce this to ~40 kJ/mol. Pin1 specifically recognizes pSer/pThr-Pro motifs in the trans configuration and catalyzes cis-trans interconversion, regulating cell cycle progression.
 
@@ -58,7 +58,7 @@ What are the precise structural parameters of the α-helix?
 - A) 3.6 residues/turn, 0.54 nm pitch, 0.15 nm rise per residue
 - B) 3.0 residues/turn, 0.60 nm pitch, 0.20 nm rise per residue
 - C) 4.4 residues/turn, 0.54 nm pitch, 0.12 nm rise per residue
-- D) 3.6 residues/turn, 0.54 nm pitch, 0.15 nm rise per residue
+- D) 2.4 residues/turn, 0.54 nm pitch, 0.23 nm rise per residue
 
 **Correct Answer:** D) 3.6 residues/turn, 0.54 nm pitch, 0.15 nm rise per residue
 

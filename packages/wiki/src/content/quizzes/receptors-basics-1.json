@@ -1,8 +1,8 @@
 {
-  "question": "What are the two main classes of cell surface receptors?",
-  "options": ["Ion channel-linked and G-protein linked", "Nuclear and cytoplasmic", "Enzyme-linked and nuclear", "Intracellular and extracellular"],
+  "question": "Which of the following are the three main classes of cell surface receptors?",
+  "options": ["Ion channel-linked, G-protein coupled, and enzyme-linked", "Nuclear, cytoplasmic, and membrane-bound", "Agonist, antagonist, and modulator", "Extracellular, transmembrane, and intracellular"],
   "correctIndex": 0,
-  "explanation": "Cell surface receptors are broadly classified as ion channel-linked receptors and G-protein coupled receptors (GPCRs), with enzyme-linked receptors as another major class.",
+  "explanation": "Cell surface receptors are classified into three main types: (1) ion channel-linked receptors (ligand-gated ion channels), (2) G-protein coupled receptors (GPCRs, 7-transmembrane domain), and (3) enzyme-linked receptors (receptor tyrosine kinases, receptor serine/threonine kinases).",
   "difficulty": "beginner",
   "tags": ["receptors", "types"]
 }
