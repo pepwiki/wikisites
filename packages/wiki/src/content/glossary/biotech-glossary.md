@@ -10,7 +10,7 @@ description: "Glossary covering biotechnology, bioinformatics, materials science
 **Category:** Biotechnology | **Difficulty:** Intermediate
 **Related Terms:** transformation, promoter, selection-marker
 
-A DNA molecule used to introduce and express a gene in a host cell. Contains elements for replication, transcription, and translation including promoter, origin of selection marker, and cloning site. Used to produce recombinant peptides and proteins in bacteria, yeast, or mammalian cells.
+A DNA molecule used to introduce and express a gene in a host cell. Contains elements for replication, transcription, and translation including promoter, origin of replication, selection marker, and cloning site. Used to produce recombinant peptides and proteins in bacteria, yeast, or mammalian cells.
 
 ---
 

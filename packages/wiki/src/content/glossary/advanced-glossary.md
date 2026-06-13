@@ -523,7 +523,7 @@ A microtubule-associated protein highly expressed in neurons. Hyperphosphorylate
 **Category:** Advanced Disease | **Difficulty:** Advanced
 **Related Terms:** parkinsons-disease, lewy-body, aggregation
 
-A presynaptic protein of 140 amino acids. Misfolding and aggregation into Lewy bodies is the hallmark of Parkinson's disease and other synucleinopathies (dementia with Lewy bodies, multiple system atrophy). Multiple system atrophy). Prion-like propagation between neurons has been demonstrated.
+A presynaptic protein of 140 amino acids. Misfolding and aggregation into Lewy bodies is the hallmark of Parkinson's disease and other synucleinopathies (dementia with Lewy bodies, multiple system atrophy). Prion-like propagation between neurons has been demonstrated.
 
 ---
 

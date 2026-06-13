@@ -129,7 +129,7 @@ The backbone dihedral angle ψ defined by the atoms N(i)–Cα(i)–C(i)–N(i+1
 **Category:** Structural Biology | **Difficulty:** Intermediate
 **Related Terms:** ramachandran-plot, phi-angle, psi-angle
 
-The backbone dihedral angle ω defined by the atoms Cα(i-1)–C(i-1)–N(i)–Cα(i). Rotation about the peptide bond (C–N). Unlike φ and ω, ω is constrained near 180° (trans, planar peptide bond) or 0° (cis, rare except before proline). Deviations from planarity indicate strained geometry. The partial double-bond character of the peptide bond restricts rotation.
+The backbone dihedral angle ω defined by the atoms Cα(i-1)–C(i-1)–N(i)–Cα(i). Rotation about the peptide bond (C–N). Unlike φ and ψ, ω is constrained near 180° (trans, planar peptide bond) or 0° (cis, rare except before proline). Deviations from planarity indicate strained geometry. The partial double-bond character of the peptide bond restricts rotation.
 
 ---
 
