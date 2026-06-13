@@ -75,7 +75,7 @@ The **Ramachandran plot** (φ-ψ plot) is a fundamental tool for analyzing prote
 ### Omega (ω) Angle
 
 - Rotation around the peptide bond (C-N)
-- Usually near 0° (trans) or 180° (cis)
+- Usually near 180° (trans) or 0° (cis)
 - Rarely deviates due to partial double bond character
 
 ### Allowed Regions
@@ -132,7 +132,7 @@ In α-helices, hydrogen bonds form between residues i and i+4. In β-sheets, hyd
 The peptide bond is thermodynamically unstable but kinetically stable. Hydrolysis is slow without catalysis because:
 
 - The resonance-stabilized transition state has high activation energy
-- The leaving group (NH₂⁻) is a strong base
+- The leaving group is the protonated amine (R-NH₃⁺)
 - Water is a poor nucleophile
 
 Enzymes (proteases) catalyze hydrolysis by:

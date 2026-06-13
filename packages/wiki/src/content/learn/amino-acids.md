@@ -112,7 +112,7 @@ The one-letter codes were designed to be mnemonic:
 
 - **F** for Phenylalanine (F looks like the benzene ring)
 - **W** for Tryptophan (W resembles the indole structure)
-- **R** for Arginine (R for "Rectum" - arginine is abundant in meat)
+- **R** for Arginine (R is the first available letter from "arginine")
 - **K** for Lysine (K is next to L in alphabet, but L was taken by Leucine)
 - **D** for Aspartic Acid (D is "aspartate" minus the A)
 - **E** for Glutamic Acid (E is "glutamate" minus the G)

@@ -61,7 +61,7 @@ Peptides serve as crucial signaling molecules in biological systems. They mediat
 
 - Insulin regulation of blood glucose
 - Growth hormone effects on metabolism
-- Thyroid hormone regulation
+- Parathyroid hormone regulation of calcium
 
 ## Major Peptide Signaling Molecules
 
