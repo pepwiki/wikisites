@@ -12,7 +12,7 @@ citation:
   doi: "10.1038/nbt811"
   authors: ["Lyons, S.A.", "O'Neal, J.", "Sontheimer, H."]
   journal: "Nature Biotechnology"
-  year 2002
+  year: 2002
 ---
 
 ## Chemical Identity
