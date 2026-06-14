@@ -20,7 +20,7 @@ difficulty: beginner
 
 id: peptide-structure-003
 front: What are non-essential amino acids?
-back: "Amino acids that can be synthesized by the human body: Alanine, Arginine, Asparagine, Aspartic acid, Cysteine, Glutamic acid, Glutamine, Glycine, Proline, Serine, Tyrosine. 'Non-essential' refers to dietary requirement, not importance."
+back: "Amino acids that can be synthesized by the human body: Alanine, Arginine, Asparagine, Aspartic acid, Cysteine, Glutamic acid, Glutamine, Glycine, Proline, Serine, Tyrosine. Note: Arginine, Cysteine, Glutamine, Glycine, Proline, and Tyrosine are conditionally essential during illness, growth, or metabolic stress. 'Non-essential' refers to dietary requirement, not importance."
 tags: [amino-acids, non-essential, biochemistry]
 difficulty: beginner
 
