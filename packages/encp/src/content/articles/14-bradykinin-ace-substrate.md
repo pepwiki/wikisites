@@ -1,7 +1,5 @@
 ---
-title: "---
-
-### 14. Bradykinin → ACE (Substrate)"
+title: "---  ### 14. Bradykinin → ACE (Substrate)"
 description: "Value"
 status: "published"
 author: "Encyclopeptide Editorial"

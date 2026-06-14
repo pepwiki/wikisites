@@ -1,7 +1,5 @@
 ---
-title: "---
-
-### 10. Liraglutide"
+title: "---  ### 10. Liraglutide"
 description: "Value"
 status: "published"
 author: "Encyclopeptide Editorial"

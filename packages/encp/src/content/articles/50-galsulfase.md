@@ -1,7 +1,5 @@
 ---
-title: "---
-
-### 50. Galsulfase"
+title: "---  ### 50. Galsulfase"
 description: "Value"
 status: "published"
 author: "Encyclopeptide Editorial"

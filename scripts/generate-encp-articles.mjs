@@ -97,10 +97,14 @@ function parsePeptideEntries(content, filename) {
   // Try markdown heading style (### Peptide Name)
   const headings = content.match(/^###\s+(.+)$/gm) || [];
   for (const heading of headings) {
-    const name = heading.replace(/^###\s+/, "").trim();
+    let name = heading.replace(/^###\s+/, "").trim();
     // Skip non-peptide entries
     const skipPatterns = ["Table", "Summary", "Key Trends", "Category", "Total", "Overview", "References", "Notes"];
     if (name && !skipPatterns.some((p) => name.includes(p))) {
+      // Clean up numbered prefixes like "10. Liraglutide" -> "Liraglutide"
+      name = name.replace(/^\d+\.\s+/, "");
+      // Skip if name is too long or contains markdown
+      if (name.length > 100 || name.includes("**") || name.includes("|") || name.includes("---")) continue;
       entries.push({
         name,
         sequence: "",
@@ -130,14 +134,17 @@ function generateArticle(entry, sourceFile) {
     "oligopeptide",
   ];
 
+  // Escape YAML special characters in strings
+  const escapeYaml = (str) => str.replace(/"/g, '\\"').replace(/\n/g, " ");
+
   return `---
-title: "${entry.name}"
-description: "${entry.description || `Comprehensive reference for ${entry.name}, a peptide compound with applications in research and therapeutics.`}"
+title: "${escapeYaml(entry.name)}"
+description: "${escapeYaml(entry.description || `Comprehensive reference for ${entry.name}, a peptide compound with applications in research and therapeutics.`)}"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ${JSON.stringify(tags)}
-category: "${category}"
+category: "${escapeYaml(category)}"
 difficulty: "intermediate"
 relatedArticles: []
 ---

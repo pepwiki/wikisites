@@ -1,7 +1,5 @@
 ---
-title: "---
-
-### 14. Goserelin"
+title: "---  ### 14. Goserelin"
 description: "Value"
 status: "published"
 author: "Encyclopeptide Editorial"

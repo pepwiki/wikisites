@@ -1,7 +1,5 @@
 ---
-title: "---
-
-### 12. Peptide-DM1 Conjugates"
+title: "---  ### 12. Peptide-DM1 Conjugates"
 description: "Value"
 status: "published"
 author: "Encyclopeptide Editorial"

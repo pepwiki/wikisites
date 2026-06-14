@@ -1,7 +1,5 @@
 ---
-title: "---
-
-### 20. Vaccine Conjugates"
+title: "---  ### 20. Vaccine Conjugates"
 description: "Value"
 status: "published"
 author: "Encyclopeptide Editorial"

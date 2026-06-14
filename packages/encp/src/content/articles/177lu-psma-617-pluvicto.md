@@ -1,0 +1,34 @@
+---
+title: "177Lu-PSMA-617 (Pluvicto)"
+description: "Comprehensive reference for 177Lu-PSMA-617 (Pluvicto), a peptide compound with applications in research and therapeutics."
+status: "published"
+author: "Encyclopeptide Editorial"
+pubDate: 2024-01-15
+tags: ["peptide-drug-conjugates","peptide","oligopeptide"]
+category: "Peptide Drug Conjugates"
+difficulty: "intermediate"
+relatedArticles: []
+---
+
+## Overview
+
+177Lu-PSMA-617 (Pluvicto) is a peptide compound with applications in research and therapeutics. 
+
+
+
+## Structure
+
+177Lu-PSMA-617 (Pluvicto) belongs to the Peptide Drug Conjugates class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+
+## Applications
+
+177Lu-PSMA-617 (Pluvicto) has been studied for its potential applications in:
+- Biomedical research
+- Drug discovery
+- Diagnostic applications
+- Therapeutic development
+
+## References
+
+- Source: peptide-drug-conjugates.md
+- Database: Wikipept Peptide Database

@@ -1,7 +1,5 @@
 ---
-title: "---
-
-### 10. Orexin → OX1R"
+title: "---  ### 10. Orexin → OX1R"
 description: "Value"
 status: "published"
 author: "Encyclopeptide Editorial"

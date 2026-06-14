@@ -1,7 +1,5 @@
 ---
-title: "---
-
-### 20. HCV Peptide Vaccine"
+title: "---  ### 20. HCV Peptide Vaccine"
 description: "Value"
 status: "published"
 author: "Encyclopeptide Editorial"

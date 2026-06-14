@@ -1,7 +1,5 @@
 ---
-title: "---
-
-### 14. Buserelin"
+title: "---  ### 14. Buserelin"
 description: "Value"
 status: "published"
 author: "Encyclopeptide Editorial"

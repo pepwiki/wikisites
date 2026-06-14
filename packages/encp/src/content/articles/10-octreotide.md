@@ -1,7 +1,5 @@
 ---
-title: "---
-
-### 10. Octreotide"
+title: "---  ### 10. Octreotide"
 description: "Value"
 status: "published"
 author: "Encyclopeptide Editorial"

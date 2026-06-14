@@ -1,7 +1,5 @@
 ---
-title: "---
-
-### 14. Lixisenatide"
+title: "---  ### 14. Lixisenatide"
 description: "Value"
 status: "published"
 author: "Encyclopeptide Editorial"

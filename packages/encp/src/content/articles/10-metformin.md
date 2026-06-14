@@ -1,7 +1,5 @@
 ---
-title: "---
-
-### 10. Metformin"
+title: "---  ### 10. Metformin"
 description: "Value"
 status: "published"
 author: "Encyclopeptide Editorial"
