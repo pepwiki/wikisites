@@ -1,0 +1,42 @@
+---
+title: "Agricultural"
+description: "Field"
+status: "published"
+author: "Encyclopeptide Editorial"
+pubDate: 2024-01-15
+tags: ["peptide-applications","peptide","oligopeptide"]
+category: "Peptide Applications"
+difficulty: "intermediate"
+relatedArticles: []
+---
+
+## Overview
+
+Agricultural is a peptide compound with applications in research and therapeutics. Field
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| Name | Agricultural |
+| Sequence | ### 23. Soil Health |
+| Length | 19 amino acids |
+
+| Category | Peptide Applications |
+
+## Structure
+
+Agricultural belongs to the Peptide Applications class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+
+## Applications
+
+Agricultural has been studied for its potential applications in:
+- Biomedical research
+- Drug discovery
+- Diagnostic applications
+- Therapeutic development
+
+## References
+
+- Source: peptide-applications.md
+- Database: Wikipept Peptide Database

@@ -1,0 +1,34 @@
+---
+title: "23. Triptorelin"
+description: "Comprehensive reference for 23. Triptorelin, a peptide compound with applications in research and therapeutics."
+status: "published"
+author: "Encyclopeptide Editorial"
+pubDate: 2024-01-15
+tags: ["peptide-analogs","peptide","oligopeptide"]
+category: "Peptide Analogs"
+difficulty: "intermediate"
+relatedArticles: []
+---
+
+## Overview
+
+23. Triptorelin is a peptide compound with applications in research and therapeutics. 
+
+
+
+## Structure
+
+23. Triptorelin belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+
+## Applications
+
+23. Triptorelin has been studied for its potential applications in:
+- Biomedical research
+- Drug discovery
+- Diagnostic applications
+- Therapeutic development
+
+## References
+
+- Source: peptide-analogs.md
+- Database: Wikipept Peptide Database

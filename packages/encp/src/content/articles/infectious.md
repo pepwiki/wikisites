@@ -1,0 +1,42 @@
+---
+title: "Infectious"
+description: "Antimicrobial peptides, viral peptides, diagnostic markers"
+status: "published"
+author: "Encyclopeptide Editorial"
+pubDate: 2024-01-15
+tags: ["peptide-diseases","peptide","oligopeptide"]
+category: "Peptide Diseases"
+difficulty: "intermediate"
+relatedArticles: []
+---
+
+## Overview
+
+Infectious is a peptide compound with applications in research and therapeutics. Antimicrobial peptides, viral peptides, diagnostic markers
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| Name | Infectious |
+| Sequence | 10 |
+| Length | 2 amino acids |
+
+| Category | Peptide Diseases |
+
+## Structure
+
+Infectious belongs to the Peptide Diseases class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+
+## Applications
+
+Infectious has been studied for its potential applications in:
+- Biomedical research
+- Drug discovery
+- Diagnostic applications
+- Therapeutic development
+
+## References
+
+- Source: peptide-diseases.md
+- Database: Wikipept Peptide Database

@@ -1,0 +1,42 @@
+---
+title: "YTPKVPYMC"
+description: "Schizosaccharomyces pombe"
+status: "published"
+author: "Encyclopeptide Editorial"
+pubDate: 2024-01-15
+tags: ["yeast-peptides","peptide","oligopeptide"]
+category: "Yeast Peptides"
+difficulty: "intermediate"
+relatedArticles: []
+---
+
+## Overview
+
+YTPKVPYMC is a peptide compound with applications in research and therapeutics. Schizosaccharomyces pombe
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| Name | YTPKVPYMC |
+| Sequence | 9 |
+| Length | 1 amino acids |
+
+| Category | Yeast Peptides |
+
+## Structure
+
+YTPKVPYMC belongs to the Yeast Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+
+## Applications
+
+YTPKVPYMC has been studied for its potential applications in:
+- Biomedical research
+- Drug discovery
+- Diagnostic applications
+- Therapeutic development
+
+## References
+
+- Source: yeast-peptides.md
+- Database: Wikipept Peptide Database

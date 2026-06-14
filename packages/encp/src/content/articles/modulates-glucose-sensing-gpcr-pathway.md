@@ -1,0 +1,42 @@
+---
+title: "Modulates glucose sensing GPCR pathway"
+description: "Yeast signaling peptides"
+status: "published"
+author: "Encyclopeptide Editorial"
+pubDate: 2024-01-15
+tags: ["yeast-peptides","peptide","oligopeptide"]
+category: "Yeast Peptides"
+difficulty: "intermediate"
+relatedArticles: []
+---
+
+## Overview
+
+Modulates glucose sensing GPCR pathway is a peptide compound with applications in research and therapeutics. Yeast signaling peptides
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| Name | Modulates glucose sensing GPCR pathway |
+| Sequence | Adenylate cyclase regulation |
+| Length | 28 amino acids |
+
+| Category | Yeast Peptides |
+
+## Structure
+
+Modulates glucose sensing GPCR pathway belongs to the Yeast Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+
+## Applications
+
+Modulates glucose sensing GPCR pathway has been studied for its potential applications in:
+- Biomedical research
+- Drug discovery
+- Diagnostic applications
+- Therapeutic development
+
+## References
+
+- Source: yeast-peptides.md
+- Database: Wikipept Peptide Database

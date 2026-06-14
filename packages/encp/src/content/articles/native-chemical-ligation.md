@@ -1,0 +1,34 @@
+---
+title: "Native Chemical Ligation"
+description: "Comprehensive reference for Native Chemical Ligation, a peptide compound with applications in research and therapeutics."
+status: "published"
+author: "Encyclopeptide Editorial"
+pubDate: 2024-01-15
+tags: ["peptide-manufacturing","peptide","oligopeptide"]
+category: "Peptide Manufacturing"
+difficulty: "intermediate"
+relatedArticles: []
+---
+
+## Overview
+
+Native Chemical Ligation is a peptide compound with applications in research and therapeutics. 
+
+
+
+## Structure
+
+Native Chemical Ligation belongs to the Peptide Manufacturing class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+
+## Applications
+
+Native Chemical Ligation has been studied for its potential applications in:
+- Biomedical research
+- Drug discovery
+- Diagnostic applications
+- Therapeutic development
+
+## References
+
+- Source: peptide-manufacturing.md
+- Database: Wikipept Peptide Database
