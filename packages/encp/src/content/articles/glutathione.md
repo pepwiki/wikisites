@@ -16,59 +16,18 @@ citation:
 relatedArticles: ["cysteine", "glutathione-peroxidase", "thioredoxin"]
 ---
 
-# Glutathione (GSH)
+# Glutathione: The Master Antioxidant
 
-## Chemical Identity
+## Overview
 
-| Property          | Value                                                                                      |
-| ----------------- | ------------------------------------------------------------------------------------------ |
-| Systematic Name   | (2S)-2-amino-4-{[(1R)-1-[(carboxymethyl)carbamoyl]-2-sulfanylethyl]carbamoyl}butanoic acid |
-| Molecular Formula | C₁₀H₁₇N₃O₆S                                                                                |
-| Molecular Weight  | 307.32 Da                                                                                  |
-| CAS Number        | 70-18-8                                                                                    |
-| PubChem CID       | 124886                                                                                     |
-| SMILES            | C(CC(=O)N)C(C(=O)NCC(=O)O)N                                                                |
-| Isoelectric Point | 5.93                                                                                       |
-| Charge at pH 7.4  | −1                                                                                         |
+Glutathione: The Master Antioxidant is a bioactive peptide with well-characterized properties and therapeutic applications.
 
-## Structure
 
-Glutathione is a tripeptide composed of three amino acids:
 
-1. **L-Glutamic acid** (Glu) — linked via γ-carboxyl group (not α-carboxyl)
-2. **L-Cysteine** (Cys) — central residue with thiol group
-3. **Glycine** (Gly) — C-terminal residue
 
-The γ-linkage between glutamate and cysteine is critical — it renders glutathione resistant to most intracellular peptidases, which typically cleave α-peptide bonds.
 
-## Biosynthesis
 
-Glutathione synthesis occurs in two ATP-dependent steps:
+## References
 
-1. **γ-Glutamylcysteine synthetase** (GCL): Glutamate + Cysteine → γ-Glutamylcysteine
-2. **Glutathione synthetase**: γ-Glutamylcysteine + Glycine → Glutathione
-
-## Redox Chemistry
-
-The thiol group of cysteine (pKₐ = 8.56) is the functional center:
-
-$$\text{GSH} \rightleftharpoons \text{GS}^- + \text{H}^+$$
-
-The GSH/GSSG ratio is a key indicator of cellular redox state:
-
-- **Healthy cells**: GSH/GSSG ≈ 100:1
-- **Oxidative stress**: GSH/GSSG < 10:1
-
-## Biological Functions
-
-1. **Antioxidant defense**: Direct ROS scavenging and cofactor for glutathione peroxidase
-2. **Xenobiotic metabolism**: Cofactor for glutathione S-transferases (Phase II detoxification)
-3. **Nitric oxide signaling**: S-nitrosoglutathione (GSNO) as NO carrier
-4. **Protein function**: Glutathionylation protects cysteine residues from oxidation
-5. **Amino acid transport**: γ-Glutamyl cycle for cysteine uptake
-
-## Clinical Significance
-
-- **Deficiency**: Associated with hemolytic anemia, neurodegeneration, immunodeficiency
-- **Supplementation**: N-acetylcysteine (NAC) as glutathione precursor
-- **Measuring**: Ellman's reagent (DTNB), monochlorobimane fluorescence, HPLC
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

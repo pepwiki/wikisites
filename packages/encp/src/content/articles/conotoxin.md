@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# ω-Conotoxin
+
 ## Overview
 
-ω-Conotoxin is a peptide compound with applications in research and therapeutics. 
-
+ω-Conotoxin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Conus spp. (various cone snails).
 
 
 ## Structure
 
-ω-Conotoxin belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | ω-Conotoxin |
 
-## Applications
+| Length | 24-31 amino acids |
+| Molecular Weight | ~2500-3500 Da |
+| Source | Conus spp. (various cone snails) |
+| Category | Marine Anti-Inflammatory / Analgesic |
 
-ω-Conotoxin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Blocks N-type calcium channels, inhibits neurotransmitter release
+
+## Bioactivity
+
+Potent analgesic, anti-inflammatory
+
+## Therapeutic Potential
+
+Severe pain, neurogenic inflammation
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-03-10
 tags: ["GHRH", "growth-hormone", "pituitary", "hypothalamic-peptides"]
-category: "Hypothalamic Peptides"
+category: "Neuropeptides"
 difficulty: "intermediate"
 relatedArticles: ["ghrelin", "somatostatin", "igf-1"]
 citation:

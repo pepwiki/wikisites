@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# T-Kinin
+
 ## Overview
 
-T-Kinin is a peptide compound with applications in research and therapeutics. 
-
+T-Kinin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Rana temporaria.
 
 
 ## Structure
 
-T-Kinin belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | T-Kinin |
+| Sequence | RPPGFSPFRV-NH2 |
+| Length | 10 amino acids |
+| Molecular Weight | 1175.4 Da |
+| Source | Rana temporaria |
+| Category | Amphibian Bradykinin |
 
-## Applications
+## Mechanism of Action
 
-T-Kinin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+C-terminally extended kinin peptide, enhanced metabolic stability
+
+## Bioactivity
+
+Vasodilation, smooth muscle contraction
+
+## Therapeutic Potential
+
+Vascular research, kinin receptor pharmacology
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

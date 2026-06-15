@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Attacin (Hyalophora)
+
 ## Overview
 
-Attacin (Hyalophora) is a peptide compound with applications in research and therapeutics. 
-
+Attacin (Hyalophora) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hyalophora cecropia (cecropia moth).
 
 
 ## Structure
 
-Attacin (Hyalophora) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Attacin (Hyalophora) |
+| Sequence | ~188 amino acids, glycine-rich protein with disulfide bonds |
+| Length | 188 amino acids |
+| Molecular Weight | 20500 Da |
+| Source | Hyalophora cecropia (cecropia moth) |
+| Category | Insect Antimicrobial / Glycine-rich |
 
-## Applications
+## Mechanism of Action
 
-Attacin (Hyalophora) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Inhibits outer membrane protein synthesis, disrupts cell envelope integrity
+
+## Bioactivity
+
+Antimicrobial against Gram-negative bacteria (E. coli, Enterobacter)
+
+## Therapeutic Potential
+
+Gram-negative infection therapy, synergistic with cecropins
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

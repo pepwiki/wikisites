@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Colistimethate
+
 ## Overview
 
-Colistimethate is a peptide compound with applications in research and therapeutics. 
-
+Colistimethate is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Colistimethate belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Colistimethate |
+| Sequence | Methanesulfonated polymyxin E: fatty acyl-Thr-Leu-Leu-Ser-Dab-Dab-Dab-D-Leu-Dab-Dab |
+| Length | 10 amino acids (polymyxin prodrug) |
+| Molecular Weight | 1750 Da (sodium form) |
 
-## Applications
+| Category | Anti-Infective / Polymyxin Antibiotic |
 
-Colistimethate has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Prodrug converted to colistin; disrupts bacterial outer membrane via LPS binding
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Chameleon Color-Change Peptide
+
 ## Overview
 
-Chameleon Color-Change Peptide is a peptide compound with applications in research and therapeutics. 
+Chameleon Color-Change Peptide is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Chameleon Color-Change Peptide belongs to the Reptile Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Chameleon Color-Change Peptide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: reptile-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

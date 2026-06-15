@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# RALF
+
 ## Overview
 
-RALF is a peptide compound with applications in research and therapeutics. 
-
+RALF is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Nicotiana tabacum (Tobacco).
 
 
 ## Structure
 
-RALF belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | RALF |
+| Sequence | YISYRGSGRRYIRRSM (mature peptide region) |
+| Length | ~50 amino acids (mature) |
+| Molecular Weight | ~5,500 Da |
+| Source | Nicotiana tabacum (Tobacco) |
+| Category | Plant Signaling Peptides |
 
-## Applications
+## Mechanism of Action
 
-RALF has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Rapid alkalinization of extracellular pH, growth inhibition
+
+## Bioactivity
+
+Growth inhibition
+
+## Therapeutic Potential
+
+Plant growth regulation, stress tolerance engineering
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Gloverin (Hyalophora)
+
 ## Overview
 
-Gloverin (Hyalophora) is a peptide compound with applications in research and therapeutics. 
-
+Gloverin (Hyalophora) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hyalophora gloveri (gloveri silk moth).
 
 
 ## Structure
 
-Gloverin (Hyalophora) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Gloverin (Hyalophora) |
+| Sequence | ~162 amino acids, glycine-rich antimicrobial protein |
+| Length | 162 amino acids |
+| Molecular Weight | 17800 Da |
+| Source | Hyalophora gloveri (gloveri silk moth) |
+| Category | Insect Antimicrobial / Glycine-rich |
 
-## Applications
+## Mechanism of Action
 
-Gloverin (Hyalophora) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Binds lipopolysaccharide (LPS), inhibits outer membrane protein synthesis
+
+## Bioactivity
+
+Antimicrobial against Gram-negative bacteria
+
+## Therapeutic Potential
+
+Anti-endotoxic therapy, Gram-negative infection treatment
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

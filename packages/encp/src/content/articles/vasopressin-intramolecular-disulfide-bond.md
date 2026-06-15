@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Vasopressin Intramolecular (Disulfide Bond)
+
 ## Overview
 
-Vasopressin Intramolecular (Disulfide Bond) is a peptide compound with applications in research and therapeutics. 
+Vasopressin Intramolecular (Disulfide Bond) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-Vasopressin Intramolecular (Disulfide Bond) belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Cys1-Cys6 disulfide forms identical 20-membered ring as oxytocin. Phe3 (vs Ile3 in OT) and Arg8 (vs Leu8) alter receptor selectivity toward V1aR/V2R over OXTR. Ring constrains bioactive conformation.
 
-## Applications
 
-Vasopressin Intramolecular (Disulfide Bond) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

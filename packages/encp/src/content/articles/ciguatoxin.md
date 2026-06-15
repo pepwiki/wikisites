@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Ciguatoxin
+
 ## Overview
 
-Ciguatoxin is a peptide compound with applications in research and therapeutics. 
-
+Ciguatoxin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Gambierdiscus polynesiensis.
 
 
 ## Structure
 
-Ciguatoxin belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Ciguatoxin |
 
-## Applications
+| Length | N/A (polyether) |
+| Molecular Weight | 1111.27 Da |
+| Source | Gambierdiscus polynesiensis |
+| Category | Marine Toxin |
 
-Ciguatoxin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Persistent activation - binds site 5, causes channel to remain open at resting potential
+
+## Bioactivity
+
+Ciguatera poisoning, neurotoxicity
+
+## Therapeutic Potential
+
+Research tool for Nav channel studies, ion channel pharmacology
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

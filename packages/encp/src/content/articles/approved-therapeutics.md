@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Approved Therapeutics
+
 ## Overview
 
-Approved Therapeutics is a peptide compound with applications in research and therapeutics. 
+Approved Therapeutics is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Approved Therapeutics belongs to the Bacterial Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Approved Therapeutics has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: bacterial-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

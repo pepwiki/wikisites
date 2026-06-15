@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Tetanus Toxin (TeNT)
+
 ## Overview
 
-Tetanus Toxin (TeNT) is a peptide compound with applications in research and therapeutics. 
+Tetanus Toxin (TeNT) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Tetanus Toxin (TeNT) belongs to the Toxin Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Tetanus Toxin (TeNT) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: toxin-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

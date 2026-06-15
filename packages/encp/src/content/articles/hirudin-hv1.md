@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Hirudin HV1
+
 ## Overview
 
-Hirudin HV1 is a peptide compound with applications in research and therapeutics. 
-
+Hirudin HV1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hirudo medicinalis (medicinal leech).
 
 
 ## Structure
 
-Hirudin HV1 belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Hirudin HV1 |
+| Sequence | VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPKPQSHNDGDFEEIPEEYLQ |
+| Length | 65 amino acids |
+| Molecular Weight | 6960 Da |
+| Source | Hirudo medicinalis (medicinal leech) |
+| Category | Leech Thrombin Inhibitor |
 
-## Applications
+## Mechanism of Action
 
-Hirudin HV1 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Bivalent thrombin inhibitor, N-terminal domain blocks active site, C-terminal binds exosite I
+
+## Bioactivity
+
+Anticoagulant, prevents platelet aggregation and fibrin formation
+
+## Therapeutic Potential
+
+Parenteral anticoagulant, heparin-induced thrombocytopenia treatment
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

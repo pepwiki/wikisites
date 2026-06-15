@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Amb a 1 Immunostimulatory
+
 ## Overview
 
-Amb a 1 Immunostimulatory is a peptide compound with applications in research and therapeutics. 
+Amb a 1 Immunostimulatory is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-Amb a 1 Immunostimulatory belongs to the Peptide Vaccines class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Amb a 1-CpG conjugate directly targets allergen to TLR9-expressing dendritic cells; CpG drives Th1 response; reduces ragweed-specific IgE and increases IgG4; suppresses Th2 cytokines
 
-## Applications
 
-Amb a 1 Immunostimulatory has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-vaccines.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

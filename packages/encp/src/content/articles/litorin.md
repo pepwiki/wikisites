@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Litorin
+
 ## Overview
 
-Litorin is a peptide compound with applications in research and therapeutics. 
-
+Litorin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Litoria aurea (Green and golden bell frog).
 
 
 ## Structure
 
-Litorin belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Litorin |
+| Sequence | pEQRLGNQWAVGHFM-NH2 |
+| Length | 14 amino acids |
+| Molecular Weight | 1647.9 Da |
+| Source | Litoria aurea (Green and golden bell frog) |
+| Category | Amphibian Neuropeptide |
 
-## Applications
+## Mechanism of Action
 
-Litorin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Bombesin receptor agonist with phenylalanine substitution, potent GI stimulation
+
+## Bioactivity
+
+Strong gastrin release, pancreatic secretion stimulation
+
+## Therapeutic Potential
+
+Pancreatic function assessment, GI research tools
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Maximin 4
+
 ## Overview
 
-Maximin 4 is a peptide compound with applications in research and therapeutics. 
-
+Maximin 4 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bombina maxima.
 
 
 ## Structure
 
-Maximin 4 belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Maximin 4 |
+| Sequence | ILSAIWSGIKNLF-NH2 |
+| Length | 13 amino acids |
+| Molecular Weight | 1459.8 Da |
+| Source | Bombina maxima |
+| Category | Amphibian Antiviral |
 
-## Applications
+## Mechanism of Action
 
-Maximin 4 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane-active antimicrobial peptide, pore formation in bacterial membranes
+
+## Bioactivity
+
+Broad-spectrum antimicrobial, antifungal activity
+
+## Therapeutic Potential
+
+Anti-infective therapeutics, topical antimicrobials
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

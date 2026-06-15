@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# TAP
+
 ## Overview
 
-TAP is a peptide compound with applications in research and therapeutics. 
-
+TAP is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bos taurus (Cattle).
 
 
 ## Structure
 
-TAP belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | TAP |
+| Sequence | ASCRFRCPGRQGRFCYLRCLRRCT |
+| Length | 24 amino acids |
+| Molecular Weight | 2926.4 Da |
+| Source | Bos taurus (Cattle) |
+| Category | Bovine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-TAP has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Beta-defensin with three disulfide bonds, forms membrane pores and disrupts lipid bilayers
+
+## Bioactivity
+
+Antimicrobial against Gram-positive and Gram-negative bacteria, antifungal
+
+## Therapeutic Potential
+
+Respiratory infection treatment, mucosal immunity enhancement
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

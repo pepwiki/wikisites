@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Peptide-Docetaxel Conjugates
+
 ## Overview
 
-Peptide-Docetaxel Conjugates is a peptide compound with applications in research and therapeutics. 
-
+Peptide-Docetaxel Conjugates is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Peptide-Docetaxel Conjugates belongs to the Peptide Drug Conjugates class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Peptide-Docetaxel Conjugates |
 
-## Applications
 
-Peptide-Docetaxel Conjugates has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Molecular Weight | ~2000-3500 Da |
+
+| Category | Cytotoxic / Microtubule Stabilizer |
+
+## Mechanism of Action
+
+Targeted delivery of docetaxel to tumor cells; docetaxel stabilizes microtubules preventing depolymerization, causing mitotic arrest
+
+
 
 ## References
 
-- Source: peptide-drug-conjugates.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

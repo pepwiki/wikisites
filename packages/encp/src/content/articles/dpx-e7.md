@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# DPX-E7
+
 ## Overview
 
-DPX-E7 is a peptide compound with applications in research and therapeutics. 
+DPX-E7 is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-DPX-E7 belongs to the Peptide Vaccines class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+DepoVax depot provides sustained E7 peptide release; generates HLA-A2-restricted CD8+ CTLs targeting HPV16 E7-expressing tumor cells
 
-## Applications
 
-DPX-E7 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-vaccines.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

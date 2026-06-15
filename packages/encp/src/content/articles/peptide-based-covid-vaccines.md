@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Peptide-Based COVID Vaccines
+
 ## Overview
 
-Peptide-Based COVID Vaccines is a peptide compound with applications in research and therapeutics. 
+Peptide-Based COVID Vaccines is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-Peptide-Based COVID Vaccines belongs to the Peptide Vaccines class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Multi-peptide vaccines targeting conserved T-cell epitopes across SARS-CoV-2 variants and related coronaviruses; designed for broad cellular immunity independent of antibody escape
 
-## Applications
 
-Peptide-Based COVID Vaccines has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-vaccines.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

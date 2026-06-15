@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Cecropin AD (Hybrid)
+
 ## Overview
 
-Cecropin AD (Hybrid) is a peptide compound with applications in research and therapeutics. 
-
+Cecropin AD (Hybrid) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Synthetic hybrid (Cecropin A/D fusion).
 
 
 ## Structure
 
-Cecropin AD (Hybrid) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Cecropin AD (Hybrid) |
+| Sequence | KWKLFKKIGAVLKVLTTGLPALISWIKRKRQQ-P1 domain hybrid |
+| Length | 36 amino acids |
+| Molecular Weight | 3950 Da |
+| Source | Synthetic hybrid (Cecropin A/D fusion) |
+| Category | Cecropin / Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Cecropin AD (Hybrid) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Enhanced membrane disruption combining A and D domain activities
+
+## Bioactivity
+
+Enhanced broad-spectrum antimicrobial, improved stability
+
+## Therapeutic Potential
+
+Next-generation antimicrobial peptide therapeutics
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

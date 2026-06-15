@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# α-Conotoxin Vc1.1
+
 ## Overview
 
-α-Conotoxin Vc1.1 is a peptide compound with applications in research and therapeutics. 
-
+α-Conotoxin Vc1.1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Conus victoriae (Victorian cone).
 
 
 ## Structure
 
-α-Conotoxin Vc1.1 belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | α-Conotoxin Vc1.1 |
 
-## Applications
+| Length | 12 amino acids |
+| Molecular Weight | ~1500 Da |
+| Source | Conus victoriae (Victorian cone) |
+| Category | Marine Peptide Drug |
 
-α-Conotoxin Vc1.1 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Selective antagonist at α9α10 nAChR, also blocks Cav channels
+
+## Bioactivity
+
+Analgesic, anti-inflammatory, neuroprotective
+
+## Therapeutic Potential
+
+Neuropathic pain, inflammatory pain
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

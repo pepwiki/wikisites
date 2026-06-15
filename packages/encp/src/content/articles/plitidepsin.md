@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Plitidepsin
+
 ## Overview
 
-Plitidepsin is a peptide compound with applications in research and therapeutics. 
-
+Plitidepsin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Aplidium albicans (sea squirt).
 
 
 ## Structure
 
-Plitidepsin belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Plitidepsin |
 
-## Applications
+| Length | N/A |
+| Molecular Weight | 1110.34 Da |
+| Source | Aplidium albicans (sea squirt) |
+| Category | Marine Anti-Cancer Drug |
 
-Plitidepsin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Inhibits protein synthesis via eEF1A2, induces apoptosis
+
+## Bioactivity
+
+Anti-proliferative, anti-angiogenic
+
+## Therapeutic Potential
+
+Multiple myeloma (Phase III), COVID-19 (clinical trials)
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

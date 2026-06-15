@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-04-10
 tags: ["PTH", "calcium-homeostasis", "osteoporosis", "parathyroid"]
-category: "Hormones"
+category: "Peptide Hormones"
 difficulty: "intermediate"
 relatedArticles: ["calcitonin", "vitamin-D", "FGF23"]
 citation:

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Domoic Acid
+
 ## Overview
 
-Domoic Acid is a peptide compound with applications in research and therapeutics. 
-
+Domoic Acid is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Pseudo-nitzschia multiseries.
 
 
 ## Structure
 
-Domoic Acid belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Domoic Acid |
 
-## Applications
+| Length | N/A (amino acid derivative) |
+| Molecular Weight | 311.33 Da |
+| Source | Pseudo-nitzschia multiseries |
+| Category | Marine Toxin |
 
-Domoic Acid has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Potent agonist at ionotropic glutamate receptors, excitotoxicity
+
+## Bioactivity
+
+Amnesic shellfish poisoning, seizures
+
+## Therapeutic Potential
+
+Excitotoxicity research, epilepsy studies
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

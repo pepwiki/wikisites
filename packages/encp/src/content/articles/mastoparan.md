@@ -5,16 +5,19 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ["g-protein-activator/cytolytic-peptide-(wasp-venom)","peptide","oligopeptide"]
-category: "G-protein activator/cytolytic peptide (wasp venom)"
+category: "Toxin Peptides"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Mastoparan
+
 ## Overview
 
-Mastoparan is a peptide compound with applications in research and therapeutics. 
+Mastoparan is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Vespula lewisii (wasp).
 
-## Chemical Identity
+
+## Structure
 
 | Property | Value |
 |----------|-------|
@@ -22,21 +25,22 @@ Mastoparan is a peptide compound with applications in research and therapeutics.
 | Sequence | INLKALAALAKKIL |
 | Length | 14 amino acids |
 | Molecular Weight | 1478 Da |
-| Category | G-protein activator/cytolytic peptide (wasp venom) |
+| Source | Vespula lewisii (wasp) |
+| Category | Venom Peptide / G-protein Activator |
 
-## Structure
+## Mechanism of Action
 
-Mastoparan belongs to the G-protein activator/cytolytic peptide (wasp venom) class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Activates heterotrimeric G-proteins by mimicking GPCR, stimulates GTPase activity
 
-## Applications
+## Bioactivity
 
-Mastoparan has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Mast cell degranulation, antimicrobial, hemolytic, G-protein activator
+
+## Therapeutic Potential
+
+G-protein research tool, antimicrobial peptide template, immunomodulator
 
 ## References
 
-- Source: venom-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

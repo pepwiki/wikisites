@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Risdiplam
+
 ## Overview
 
-Risdiplam is a peptide compound with applications in research and therapeutics. 
-
+Risdiplam is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Risdiplam belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Risdiplam |
+| Sequence | Small molecule SMN2 splicing modifier (pyridazine derivative) |
+| Length | Small molecule |
+| Molecular Weight | ~372 Da |
 
-## Applications
+| Category | Rare Disease / RNA Splicing Modifier |
 
-Risdiplam has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Modifies splicing of SMN2 pre-mRNA to increase exon 7 inclusion, raising functional SMN protein levels in motor neurons and peripheral tissues. Oral small molecule alternative to intrathecal nusinersen
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Retatrutide
+
 ## Overview
 
-Retatrutide is a peptide compound with applications in research and therapeutics. 
-
+Retatrutide is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Retatrutide belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Retatrutide |
+| Sequence | Triple agonist peptide targeting GLP-1, GIP, and glucagon receptors |
+| Length | ~29 amino acids (engineered multi-agonist) |
+| Molecular Weight | ~4.8 kDa |
 
-## Applications
+| Category | Metabolic / Triple Agonist |
 
-Retatrutide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+GLP-1/GIP/glucagon triple receptor agonist; combines incretin signaling with glucagon-mediated energy expenditure
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

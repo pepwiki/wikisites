@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Impatiens
+
 ## Overview
 
-Impatiens is a peptide compound with applications in research and therapeutics. 
-
+Impatiens is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Impatiens balsamina (Garden Balsam).
 
 
 ## Structure
 
-Impatiens belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Impatiens |
+| Sequence | GRCGEFHQRCRCDNYCIPSCRCTYCGC |
+| Length | 28 amino acids |
+| Molecular Weight | ~3,200 Da |
+| Source | Impatiens balsamina (Garden Balsam) |
+| Category | Plant Defense Peptides |
 
-## Applications
+## Mechanism of Action
 
-Impatiens has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane permeabilization through lipid interaction
+
+## Bioactivity
+
+Antimicrobial
+
+## Therapeutic Potential
+
+Novel antimicrobial agents, crop protection strategies
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

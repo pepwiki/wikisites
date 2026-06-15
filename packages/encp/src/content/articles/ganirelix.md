@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Ganirelix
+
 ## Overview
 
-Ganirelix is a peptide compound with applications in research and therapeutics. 
-
+Ganirelix is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Ganirelix belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Ganirelix |
+| Sequence | Ac-D-Nal(2)-D-Cpa-D-Pal(3)-Ser-Tyr-D-hArg(Et2)-Leu-Arg-Pro-D-Ala-NH2 |
 
-## Applications
+| Molecular Weight | 1570 Da |
 
-Ganirelix has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Reproductive/Endocrine / GnRH Antagonist |
+
+## Mechanism of Action
+
+GnRH antagonist; immediate competitive GnRH receptor blockade
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

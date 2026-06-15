@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Ibotenic Acid
+
 ## Overview
 
-Ibotenic Acid is a peptide compound with applications in research and therapeutics. 
-
+Ibotenic Acid is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Amanita muscaria (Fly Agaric).
 
 
 ## Structure
 
-Ibotenic Acid belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Ibotenic Acid |
 
-## Applications
+| Length | N/A (amino acid) |
+| Molecular Weight | 158.11 Da |
+| Source | Amanita muscaria (Fly Agaric) |
+| Category | Fungal Peptide Toxin / Neurotoxin |
 
-Ibotenic Acid has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Potent agonist at NMDA and kainate receptors; causes excitotoxic neuronal death
+
+## Bioactivity
+
+Neurotoxic, excitotoxic, psychoactive
+
+## Therapeutic Potential
+
+Research tool for excitotoxicity models (brain lesion studies); precursor to muscimol
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

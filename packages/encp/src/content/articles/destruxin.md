@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Destruxin
+
 ## Overview
 
-Destruxin is a peptide compound with applications in research and therapeutics. 
-
+Destruxin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Metarhizium anisopliae.
 
 
 ## Structure
 
-Destruxin belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Destruxin |
 
-## Applications
+| Length | 5 residues |
+| Molecular Weight | 577.72 Da |
+| Source | Metarhizium anisopliae |
+| Category | Fungal Bioactive Peptide / Insecticidal |
 
-Destruxin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Suppresses insect cellular immunity; inhibits V-ATPase; induces immunosuppression in insects
+
+## Bioactivity
+
+Insecticidal, immunosuppressive, antiviral
+
+## Therapeutic Potential
+
+Biopesticide development; anti-inflammatory agent; anti-viral (against dengue, influenza)
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Fumitremorgin C
+
 ## Overview
 
-Fumitremorgin C is a peptide compound with applications in research and therapeutics. 
-
+Fumitremorgin C is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Aspergillus fumigatus.
 
 
 ## Structure
 
-Fumitremorgin C belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Fumitremorgin C |
 
-## Applications
+| Length | 2 amino acids (diketopiperazine core) |
+| Molecular Weight | 379.47 Da |
+| Source | Aspergillus fumigatus |
+| Category | Fungal Cyclopeptide / Chemosensitizer |
 
-Fumitremorgin C has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Specific inhibitor of ABCG2/BCRP efflux pump; reverses multidrug resistance in cancer cells
+
+## Bioactivity
+
+Chemosensitizer, reverses drug resistance
+
+## Therapeutic Potential
+
+Adjuvant cancer therapy to overcome multidrug resistance; Ko145 analog in clinical trials
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

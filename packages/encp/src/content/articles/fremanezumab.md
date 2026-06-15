@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Fremanezumab
+
 ## Overview
 
-Fremanezumab is a peptide compound with applications in research and therapeutics. 
-
+Fremanezumab is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Fremanezumab belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Fremanezumab |
+| Sequence | Humanized IgG2 monoclonal antibody targeting CGRP ligand |
+| Length | ~1340 amino acids |
+| Molecular Weight | ~148 kDa |
 
-## Applications
+| Category | Neurology / Anti-CGRP Antibody |
 
-Fremanezumab has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds and neutralizes both α-CGRP and β-CGRP ligands, preventing CGRP from binding its receptor and blocking downstream pain and inflammatory pathways
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

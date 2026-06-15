@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Therapeutic Target Database (TTD)
+
 ## Overview
 
-Therapeutic Target Database (TTD) is a peptide compound with applications in research and therapeutics. 
+Therapeutic Target Database (TTD) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Therapeutic Target Database (TTD) belongs to the Peptide Databases class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Therapeutic Target Database (TTD) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-databases.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

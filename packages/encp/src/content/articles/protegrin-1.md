@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Protegrin 1
+
 ## Overview
 
-Protegrin 1 is a peptide compound with applications in research and therapeutics. 
-
+Protegrin 1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Sus scrofa (Pig).
 
 
 ## Structure
 
-Protegrin 1 belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Protegrin 1 |
+| Sequence | RGGRLCYCRRRFCVCVGR |
+| Length | 18 amino acids |
+| Molecular Weight | 2221.7 Da |
+| Source | Sus scrofa (Pig) |
+| Category | Porcine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Protegrin 1 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Beta-hairpin peptide with two disulfide bonds, forms transmembrane pores
+
+## Bioactivity
+
+Potent broad-spectrum antimicrobial against bacteria, fungi, and HIV
+
+## Therapeutic Potential
+
+Treatment of multidrug-resistant infections, anti-HIV therapeutics
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

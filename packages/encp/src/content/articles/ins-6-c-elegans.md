@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# INS-6 (C. elegans)
+
 ## Overview
 
-INS-6 (C. elegans) is a peptide compound with applications in research and therapeutics. 
-
+INS-6 (C. elegans) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans.
 
 
 ## Structure
 
-INS-6 (C. elegans) belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | INS-6 (C. elegans) |
+| Sequence | MVKIFVLIFFLTVSGHAESIFDRLCGSHLVDALYFICGDRGFYRNKICGSDLVSLWNQ |
+| Length | 59 amino acids |
+| Molecular Weight | 6520 Da |
+| Source | Caenorhabditis elegans |
+| Category | Nematode Insulin-like Peptide |
 
-## Applications
+## Mechanism of Action
 
-INS-6 (C. elegans) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Activates DAF-2 signaling, one of the most potent insulin-like agonists in C. elegans
+
+## Bioactivity
+
+Strong promotion of growth and reproductive development
+
+## Therapeutic Potential
+
+Insulin signaling research, parasitic nematode target
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

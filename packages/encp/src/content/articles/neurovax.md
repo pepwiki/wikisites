@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# NeuroVax
+
 ## Overview
 
-NeuroVax is a peptide compound with applications in research and therapeutics. 
+NeuroVax is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-NeuroVax belongs to the Peptide Vaccines class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+TCR peptide vaccination targets pathogenic T-cell clones bearing specific Vβ TCRs expanded in MS; induces anti-idiotype regulatory T cells that suppress myelin-reactive T cells
 
-## Applications
 
-NeuroVax has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-vaccines.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

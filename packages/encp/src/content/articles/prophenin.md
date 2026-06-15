@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Prophenin
+
 ## Overview
 
-Prophenin is a peptide compound with applications in research and therapeutics. 
-
+Prophenin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Sus scrofa (Pig).
 
 
 ## Structure
 
-Prophenin belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Prophenin |
+| Sequence | DFRFRDRFRFRDRFRFRDGRFRFDRFRFDRFRFDGRFRFDRFRFDRFRFD |
+| Length | 79 amino acids |
+| Molecular Weight | 10433.2 Da |
+| Source | Sus scrofa (Pig) |
+| Category | Porcine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Prophenin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Extended proline-phenylalanine-rich peptide, membrane disruption and intracellular killing
+
+## Bioactivity
+
+Antimicrobial against Gram-negative bacteria, antiviral activity
+
+## Therapeutic Potential
+
+Respiratory infection treatment, pulmonary anti-infective
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

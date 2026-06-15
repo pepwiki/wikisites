@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Vaccine Conjugates
+
 ## Overview
 
-Vaccine Conjugates is a peptide compound with applications in research and therapeutics. 
-
+Vaccine Conjugates is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Vaccine Conjugates belongs to the Peptide Drug Conjugates class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Vaccine Conjugates |
 
-## Applications
 
-Vaccine Conjugates has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Molecular Weight | ~2000-10000 Da |
+
+| Category | Immunomodulatory / Vaccine |
+
+## Mechanism of Action
+
+Targeting peptide delivers antigen and/or adjuvant to antigen-presenting cells (dendritic cells); enhances MHC presentation and T cell priming
+
+
 
 ## References
 
-- Source: peptide-drug-conjugates.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

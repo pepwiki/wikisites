@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Cephalosporin
+
 ## Overview
 
-Cephalosporin is a peptide compound with applications in research and therapeutics. 
-
+Cephalosporin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Acremonium chrysogenum.
 
 
 ## Structure
 
-Cephalosporin belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Cephalosporin |
 
-## Applications
+| Length | N/A (small molecule) |
+| Molecular Weight | 415.44 Da |
+| Source | Acremonium chrysogenum |
+| Category | Fungal Antibiotic / Beta-lactam |
 
-Cephalosporin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Inhibits bacterial cell wall synthesis; broader spectrum than penicillin due to resistance to penicillinases
+
+## Bioactivity
+
+Antibacterial (bactericidal, broad spectrum)
+
+## Therapeutic Potential
+
+Basis for cephalosporin drug class; surgical prophylaxis, respiratory infections
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

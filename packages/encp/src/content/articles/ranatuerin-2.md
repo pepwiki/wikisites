@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Ranatuerin-2
+
 ## Overview
 
-Ranatuerin-2 is a peptide compound with applications in research and therapeutics. 
-
+Ranatuerin-2 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Rana catesbeiana (American bullfrog).
 
 
 ## Structure
 
-Ranatuerin-2 belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Ranatuerin-2 |
+| Sequence | GILDSFKGVAKGVAKNLAGKLLDNLKCKITGC |
+| Length | 31 amino acids |
+| Molecular Weight | 3233.8 Da |
+| Source | Rana catesbeiana (American bullfrog) |
+| Category | Amphibian Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Ranatuerin-2 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Disulfide-bridged peptide, membrane disruption with partial helical structure
+
+## Bioactivity
+
+Broad-spectrum antimicrobial, particularly effective against E. coli and S. aureus
+
+## Therapeutic Potential
+
+Anti-infective therapeutics, food preservation
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

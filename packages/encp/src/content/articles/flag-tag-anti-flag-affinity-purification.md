@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# FLAG-tag → Anti-FLAG (Affinity Purification)
+
 ## Overview
 
-FLAG-tag → Anti-FLAG (Affinity Purification) is a peptide compound with applications in research and therapeutics. 
+FLAG-tag → Anti-FLAG (Affinity Purification) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-FLAG-tag → Anti-FLAG (Affinity Purification) belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+FLAG peptide (Asp-Tyr-Lys-Asp-Asp-Asp-Asp-Lys) recognized by anti-FLAG monoclonal antibodies through complementary determining regions. M1 antibody requires Ca²⁺ for binding (binds N-terminal Asp-Tyr). M2 antibody recognizes internal epitope (Ca²⁺-independent). Elution with FLAG peptide (100-200 μg/mL) or EDTA (M1).
 
-## Applications
 
-FLAG-tag → Anti-FLAG (Affinity Purification) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -5,38 +5,42 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ["calcium-channel-blocker-(ω-conotoxin)","peptide","oligopeptide"]
-category: "Calcium channel blocker (ω-conotoxin)"
+category: "Toxin Peptides"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# ω-Conotoxin GVIA
+
 ## Overview
 
-ω-Conotoxin GVIA is a peptide compound with applications in research and therapeutics. 
+ω-Conotoxin GVIA is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Conus spp. (various cone snails).
 
-## Chemical Identity
+
+## Structure
 
 | Property | Value |
 |----------|-------|
 | Name | ω-Conotoxin GVIA |
-| Sequence | CKSPGSSCSPTSYNCCRSCNPYTKRCYGK |
-| Length | 29 amino acids |
-| Molecular Weight | 3037 Da |
-| Category | Calcium channel blocker (ω-conotoxin) |
 
-## Structure
+| Length | 24-31 amino acids |
+| Molecular Weight | ~2500-3500 Da |
+| Source | Conus spp. (various cone snails) |
+| Category | Marine Anti-Inflammatory / Analgesic |
 
-ω-Conotoxin GVIA belongs to the Calcium channel blocker (ω-conotoxin) class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+## Mechanism of Action
 
-## Applications
+Blocks N-type calcium channels, inhibits neurotransmitter release
 
-ω-Conotoxin GVIA has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Bioactivity
+
+Potent analgesic, anti-inflammatory
+
+## Therapeutic Potential
+
+Severe pain, neurogenic inflammation
 
 ## References
 
-- Source: toxin-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

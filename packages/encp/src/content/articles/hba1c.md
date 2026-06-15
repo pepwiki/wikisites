@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# HbA1c
+
 ## Overview
 
-HbA1c is a peptide compound with applications in research and therapeutics. 
+HbA1c is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-HbA1c belongs to the Biomarkers Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-HbA1c has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: biomarkers-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

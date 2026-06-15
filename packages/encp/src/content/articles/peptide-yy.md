@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-02-28
 tags: ["PYY", "appetite", "ileal-brake", "Y2-receptor"]
-category: "GI Peptides"
+category: "Gastrointestinal Peptides"
 difficulty: "intermediate"
 relatedArticles: ["npy", "glp-1", "cck"]
 citation:

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Glutenin
+
 ## Overview
 
-Glutenin is a peptide compound with applications in research and therapeutics. 
-
+Glutenin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Triticum aestivum (Wheat).
 
 
 ## Structure
 
-Glutenin belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Glutenin |
+| Sequence | Complex polymeric protein (HMW and LMW subunits) |
+| Length | ~600-800 amino acids (HMW subunits) |
+| Molecular Weight | ~10,000,000+ Da (polymeric) |
+| Source | Triticum aestivum (Wheat) |
+| Category | Plant Storage Peptides |
 
-## Applications
+## Mechanism of Action
 
-Glutenin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Seed nitrogen reserve, determines dough elasticity
+
+## Bioactivity
+
+Nutritional storage protein
+
+## Therapeutic Potential
+
+Celiac disease research, wheat quality improvement, food technology
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

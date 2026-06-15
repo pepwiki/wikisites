@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Ensembl (Genomic)
+
 ## Overview
 
-Ensembl (Genomic) is a peptide compound with applications in research and therapeutics. 
+Ensembl (Genomic) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Ensembl (Genomic) belongs to the Peptide Databases class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Ensembl (Genomic) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-databases.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

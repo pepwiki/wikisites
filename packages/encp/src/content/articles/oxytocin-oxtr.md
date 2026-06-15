@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Oxytocin → OXTR
+
 ## Overview
 
-Oxytocin → OXTR is a peptide compound with applications in research and therapeutics. 
-
+Oxytocin → OXTR is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Oxytocin → OXTR belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Oxytocin → OXTR |
+| Sequence | CYIQNCPLG (disulfide bridge: Cys1-Cys6) |
+| Length | 9 amino acids |
+| Molecular Weight | 1007.2 Da |
 
-## Applications
+| Category | Neurohypophysial peptide |
 
-Oxytocin → OXTR has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Gq-coupled; activates PLC, IP3, Ca2+ release; also Gi in some tissues
+
+
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

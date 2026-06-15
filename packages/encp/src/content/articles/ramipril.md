@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Ramipril
+
 ## Overview
 
-Ramipril is a peptide compound with applications in research and therapeutics. 
-
+Ramipril is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Ramipril belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Ramipril |
+| Sequence | N/A (peptide-derived: bicyclic proline derivative) |
+| Length | Tripeptide derivative |
+| Molecular Weight | 416 Da |
 
-## Applications
+| Category | Cardiovascular / ACE Inhibitor (peptide-derived) |
 
-Ramipril has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+ACE inhibitor (long-acting, tissue-penetrating)
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

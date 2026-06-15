@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Ranatensin
+
 ## Overview
 
-Ranatensin is a peptide compound with applications in research and therapeutics. 
-
+Ranatensin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Rana pipiens (Northern leopard frog).
 
 
 ## Structure
 
-Ranatensin belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Ranatensin |
+| Sequence | pEQRLGNQWAVGHFM-NH2 |
+| Length | 14 amino acids |
+| Molecular Weight | 1647.9 Da |
+| Source | Rana pipiens (Northern leopard frog) |
+| Category | Amphibian Neuropeptide |
 
-## Applications
+## Mechanism of Action
 
-Ranatensin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+GRP receptor agonist, stimulates GI hormone release and smooth muscle contraction
+
+## Bioactivity
+
+Gastrin release, vasodepression, hyperglycemia
+
+## Therapeutic Potential
+
+Metabolic research, GI pharmacology
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

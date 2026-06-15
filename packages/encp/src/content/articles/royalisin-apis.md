@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Royalisin (Apis)
+
 ## Overview
 
-Royalisin (Apis) is a peptide compound with applications in research and therapeutics. 
-
+Royalisin (Apis) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Apis mellifera (honeybee).
 
 
 ## Structure
 
-Royalisin (Apis) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Royalisin (Apis) |
+| Sequence | VTCDLLSFKGQVNDSACAANCLSLGKAGGHCEKGVCICRKTSFKCSPI |
+| Length | 51 amino acids |
+| Molecular Weight | 5520 Da |
+| Source | Apis mellifera (honeybee) |
+| Category | Insect Defensin / Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Royalisin (Apis) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Disrupts bacterial cell wall synthesis, binds peptidoglycan
+
+## Bioactivity
+
+Antimicrobial against Gram-positive bacteria, abundant in royal jelly
+
+## Therapeutic Potential
+
+Food preservation, anti-infective agents, wound care
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

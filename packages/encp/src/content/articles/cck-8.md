@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-07-10
 tags: ["cholecystokinin", "cck", "satiety", "gastrointestinal", "pancreatic-secretion"]
-category: "GI Peptides"
+category: "Gastrointestinal Peptides"
 difficulty: "intermediate"
 relatedArticles: ["ghrelin", "bombesin"]
 citation:

@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Cytokine Conjugates
+
 ## Overview
 
-Cytokine Conjugates is a peptide compound with applications in research and therapeutics. 
-
+Cytokine Conjugates is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Cytokine Conjugates belongs to the Peptide Drug Conjugates class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Cytokine Conjugates |
 
-## Applications
 
-Cytokine Conjugates has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Molecular Weight | ~5000-20000 Da |
+
+| Category | Immunomodulatory / Cytokine Delivery |
+
+## Mechanism of Action
+
+Tumor-targeting peptide directs cytokine activity to tumor microenvironment, activating NK cells, CD8+ T cells, and macrophages locally
+
+
 
 ## References
 
-- Source: peptide-drug-conjugates.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

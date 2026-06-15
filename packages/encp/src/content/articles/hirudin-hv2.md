@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Hirudin HV2
+
 ## Overview
 
-Hirudin HV2 is a peptide compound with applications in research and therapeutics. 
-
+Hirudin HV2 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hirudo medicinalis (medicinal leech).
 
 
 ## Structure
 
-Hirudin HV2 belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Hirudin HV2 |
+| Sequence | IITDTCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPKPQSHNDGDFEEIPEEYLQ |
+| Length | 65 amino acids |
+| Molecular Weight | 6980 Da |
+| Source | Hirudo medicinalis (medicinal leech) |
+| Category | Leech Thrombin Inhibitor |
 
-## Applications
+## Mechanism of Action
 
-Hirudin HV2 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Tight-binding competitive thrombin inhibition, blocks both fibrinogen and PAR cleavage
+
+## Bioactivity
+
+Anticoagulation, antiplatelet effects
+
+## Therapeutic Potential
+
+Anticoagulant drug development, percutaneous coronary intervention
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

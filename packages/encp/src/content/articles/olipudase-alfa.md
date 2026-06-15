@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Olipudase Alfa
+
 ## Overview
 
-Olipudase Alfa is a peptide compound with applications in research and therapeutics. 
-
+Olipudase Alfa is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Olipudase Alfa belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Olipudase Alfa |
+| Sequence | Recombinant human acid sphingomyelinase (ASM) |
+| Length | ~631 amino acids |
+| Molecular Weight | ~85 kDa |
 
-## Applications
+| Category | Rare Disease / Enzyme Replacement Therapy |
 
-Olipudase Alfa has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Enzyme replacement therapy; provides exogenous acid sphingomyelinase to catabolize sphingomyelin accumulated in lysosomes due to ASM deficiency
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Lumbricin II
+
 ## Overview
 
-Lumbricin II is a peptide compound with applications in research and therapeutics. 
-
+Lumbricin II is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Lumbricus terrestris (common earthworm).
 
 
 ## Structure
 
-Lumbricin II belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Lumbricin II |
+| Sequence | FSRYAMRDSRPWSDRRKKYRPRPSPSPSPRRPRPRPRPR |
+| Length | 40 amino acids |
+| Molecular Weight | 5100 Da |
+| Source | Lumbricus terrestris (common earthworm) |
+| Category | Earthworm Antimicrobial Peptide |
 
-## Applications
+## Mechanism of Action
 
-Lumbricin II has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane permeabilization, proline-arginine rich antimicrobial peptide
+
+## Bioactivity
+
+Antimicrobial against Gram-positive and Gram-negative bacteria
+
+## Therapeutic Potential
+
+Antimicrobial peptide template, anti-infective development
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

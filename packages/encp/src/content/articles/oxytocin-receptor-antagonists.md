@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-09-15
 tags: ["oxytocin", "atosiban", "tocolysis", "preterm-labor", "receptor-antagonists"]
-category: "Pharmacology"
+category: "Drug Development"
 difficulty: "intermediate"
 relatedArticles: ["insulin-analogues", "cck-receptor-pharmacology"]
 citation:

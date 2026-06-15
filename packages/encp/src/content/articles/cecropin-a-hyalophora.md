@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Cecropin A (Hyalophora)
+
 ## Overview
 
-Cecropin A (Hyalophora) is a peptide compound with applications in research and therapeutics. 
-
+Cecropin A (Hyalophora) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hyalophora cecropia (cecropia moth).
 
 
 ## Structure
 
-Cecropin A (Hyalophora) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Cecropin A (Hyalophora) |
+| Sequence | KWKLFKKIGAVLKVLTTGLPALISWIKRKRQQ |
+| Length | 37 amino acids |
+| Molecular Weight | 4004 Da |
+| Source | Hyalophora cecropia (cecropia moth) |
+| Category | Cecropin / Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Cecropin A (Hyalophora) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Forms voltage-gated ion channels in lipid bilayers, barrel-stave pore model
+
+## Bioactivity
+
+Potent broad-spectrum antimicrobial, anticancer activity
+
+## Therapeutic Potential
+
+Anti-infective therapy, anticancer peptide drug lead
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

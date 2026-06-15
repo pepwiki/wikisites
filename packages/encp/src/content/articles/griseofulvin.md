@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Griseofulvin
+
 ## Overview
 
-Griseofulvin is a peptide compound with applications in research and therapeutics. 
-
+Griseofulvin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Penicillium griseofulvum.
 
 
 ## Structure
 
-Griseofulvin belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Griseofulvin |
 
-## Applications
+| Length | N/A (small molecule) |
+| Molecular Weight | 352.77 Da |
+| Source | Penicillium griseofulvum |
+| Category | Fungal Antibiotic / Antifungal |
 
-Griseofulvin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds to fungal tubulin, disrupting mitotic spindle formation; inhibits fungal cell division
+
+## Bioactivity
+
+Antifungal (fungistatic against dermatophytes)
+
+## Therapeutic Potential
+
+Treatment of dermatophyte infections (tinea capitis, tinea corporis)
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# α-Lactorphin
+
 ## Overview
 
-α-Lactorphin is a peptide compound with applications in research and therapeutics. 
+α-Lactorphin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-α-Lactorphin belongs to the Food Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-α-Lactorphin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: food-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

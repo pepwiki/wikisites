@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Eribulin
+
 ## Overview
 
-Eribulin is a peptide compound with applications in research and therapeutics. 
-
+Eribulin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Synthetic analog from Halichondria okadai lead.
 
 
 ## Structure
 
-Eribulin belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Eribulin |
 
-## Applications
+| Length | N/A |
+| Molecular Weight | 729.9 Da |
+| Source | Synthetic analog from Halichondria okadai lead |
+| Category | Marine Anti-Cancer Drug (Approved) |
 
-Eribulin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Inhibits microtubule polymerization, binds beta-tubulin at growing ends
+
+## Bioactivity
+
+Anti-mitotic, anti-tumor
+
+## Therapeutic Potential
+
+Approved for metastatic breast cancer, liposarcoma
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

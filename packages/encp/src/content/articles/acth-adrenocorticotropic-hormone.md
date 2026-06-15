@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# ACTH (Adrenocorticotropic hormone)
+
 ## Overview
 
-ACTH (Adrenocorticotropic hormone) is a peptide compound with applications in research and therapeutics. 
-
+ACTH (Adrenocorticotropic hormone) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-ACTH (Adrenocorticotropic hormone) belongs to the Neuropeptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | ACTH (Adrenocorticotropic hormone) |
+| Sequence | SYSMEHFRWGKPVGKKRRPVKVYPNVAEAE SAEAFPLEF |
+| Length | 39 amino acids |
+| Molecular Weight | 4541.6 Da |
 
-## Applications
+| Category | POMC-derived / Melanocortin |
 
-ACTH (Adrenocorticotropic hormone) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Gs-coupled; activates adenylyl cyclase, cAMP/PKA, steroidogenesis
+
+
 
 ## References
 
-- Source: neuropeptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

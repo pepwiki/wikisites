@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# HA-tag → Anti-HA (Affinity Purification)
+
 ## Overview
 
-HA-tag → Anti-HA (Affinity Purification) is a peptide compound with applications in research and therapeutics. 
+HA-tag → Anti-HA (Affinity Purification) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-HA-tag → Anti-HA (Affinity Purification) belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+HA peptide (hemagglutinin epitope, derived from human influenza hemagglutinin protein residues 98-106) binds anti-HA monoclonal antibodies through specific CDR interactions. Used for immunoprecipitation, Western blot detection, and affinity purification. Elution with HA peptide (100-500 μg/mL) or low pH.
 
-## Applications
 
-HA-tag → Anti-HA (Affinity Purification) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

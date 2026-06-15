@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Echinocandin B
+
 ## Overview
 
-Echinocandin B is a peptide compound with applications in research and therapeutics. 
-
+Echinocandin B is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Aspergillus nidulans var. echinulatus.
 
 
 ## Structure
 
-Echinocandin B belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Echinocandin B |
 
-## Applications
+| Length | 6 amino acids |
+| Molecular Weight | 1060.28 Da |
+| Source | Aspergillus nidulans var. echinulatus |
+| Category | Fungal Antibiotic / Antifungal |
 
-Echinocandin B has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Non-competitive inhibition of glucan synthase, preventing fungal cell wall synthesis
+
+## Bioactivity
+
+Antifungal (fungicidal against Candida)
+
+## Therapeutic Potential
+
+Precursor for semi-synthetic antifungals (anidulafungin)
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

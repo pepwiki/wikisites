@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Antamanide
+
 ## Overview
 
-Antamanide is a peptide compound with applications in research and therapeutics. 
-
+Antamanide is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Amanita phalloides (Death Cap).
 
 
 ## Structure
 
-Antamanide belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Antamanide |
 
-## Applications
+| Length | 10 amino acids |
+| Molecular Weight | 1217.49 Da |
+| Source | Amanita phalloides (Death Cap) |
+| Category | Fungal Cyclopeptide / Ionophore |
 
-Antamanide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Acts as ionophore; counteracts phalloidin poisoning by stabilizing hepatocyte membranes
+
+## Bioactivity
+
+Anti-phalloidin activity, ionophore
+
+## Therapeutic Potential
+
+Protective agent against Amanita poisoning; membrane biology research
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

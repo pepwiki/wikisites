@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Plazomicin
+
 ## Overview
 
-Plazomicin is a peptide compound with applications in research and therapeutics. 
-
+Plazomicin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Plazomicin belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Plazomicin |
+| Sequence | Semi-synthetic aminoglycoside (sisomicin derivative with 6′-hydroxyaminobutyramido and (S)-4-amino-2-hydroxybutyryl substitutions) |
+| Length | Small molecule (aminoglycoside) |
+| Molecular Weight | ~592 Da |
 
-## Applications
+| Category | Anti-Infective / Aminoglycoside |
 
-Plazomicin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds 30S ribosomal subunit causing misreading of mRNA and translational errors; resistant to most clinically relevant aminoglycoside-modifying enzymes
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

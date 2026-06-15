@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Defensin
+
 ## Overview
 
-Defensin is a peptide compound with applications in research and therapeutics. 
+Defensin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Defensin belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Defensin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

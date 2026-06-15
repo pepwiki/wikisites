@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-04-20
 tags: ["peptide-hydrogels", "self-assembly", "RADA16", "EAK16", "tissue-engineering"]
-category: "Materials Science"
+category: "Peptide Applications"
 difficulty: "intermediate"
 relatedArticles: ["stapled-peptides-cancer", "peptide-nanoparticles"]
 citation:

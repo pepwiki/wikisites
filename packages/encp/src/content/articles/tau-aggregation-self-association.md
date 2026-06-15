@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Tau Aggregation (Self-association)
+
 ## Overview
 
-Tau Aggregation (Self-association) is a peptide compound with applications in research and therapeutics. 
+Tau Aggregation (Self-association) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-Tau Aggregation (Self-association) belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Hyperphosphorylated tau detaches from microtubules and aggregates into paired helical filaments (PHFs) and neurofibrillary tangles (NFTs). Two hexapeptide motifs (275VQIINK280 and 306VQIVYK311) in R2 and R3 repeats form cross-β structure. Prion-like spreading between neurons.
 
-## Applications
 
-Tau Aggregation (Self-association) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

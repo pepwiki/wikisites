@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Neuropeptide Y (NPY)
+
 ## Overview
 
-Neuropeptide Y (NPY) is a peptide compound with applications in research and therapeutics. 
-
+Neuropeptide Y (NPY) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Neuropeptide Y (NPY) belongs to the Neuropeptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Neuropeptide Y (NPY) |
+| Sequence | YPSKPDNPGEDAPAEDMARYYSALRHYINLITRQRY-NH2 |
+| Length | 36 amino acids |
+| Molecular Weight | 4253.8 Da |
 
-## Applications
+| Category | Neuropeptide Y family |
 
-Neuropeptide Y (NPY) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Gi/Go-coupled; inhibits adenylyl cyclase, modulates Ca2+ and K+ channels
+
+
 
 ## References
 
-- Source: neuropeptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

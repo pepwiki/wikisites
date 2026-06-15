@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# BMAP-27
+
 ## Overview
 
-BMAP-27 is a peptide compound with applications in research and therapeutics. 
-
+BMAP-27 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bos taurus (Cattle).
 
 
 ## Structure
 
-BMAP-27 belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | BMAP-27 |
+| Sequence | GRFKRFRKKFKKLFKKLSPVIPLLHLG |
+| Length | 27 amino acids |
+| Molecular Weight | 3188.9 Da |
+| Source | Bos taurus (Cattle) |
+| Category | Bovine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-BMAP-27 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Cationic amphipathic alpha-helix, selective membrane disruption of microbial cells
+
+## Bioactivity
+
+Broad-spectrum antimicrobial activity, low cytotoxicity to mammalian cells
+
+## Therapeutic Potential
+
+Systemic antimicrobial therapy, wound infection treatment
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

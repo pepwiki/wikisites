@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Cross-Reactive Antibodies
+
 ## Overview
 
-Cross-Reactive Antibodies is a peptide compound with applications in research and therapeutics. 
+Cross-Reactive Antibodies is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Cross-Reactive Antibodies belongs to the Peptide Safety class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Cross-Reactive Antibodies has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-safety.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

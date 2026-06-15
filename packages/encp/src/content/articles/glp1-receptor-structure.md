@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-09-01
 tags: ["GLP-1-receptor", "cryo-EM", "GPCR", "biased-signaling", "structural-biology"]
-category: "Structural Biology"
+category: "Peptide Analysis"
 difficulty: "advanced"
 relatedArticles: ["dual-agonists-obesity"]
 citation:

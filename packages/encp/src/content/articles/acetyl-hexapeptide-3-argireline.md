@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Acetyl Hexapeptide-3 (Argireline)
+
 ## Overview
 
-Acetyl Hexapeptide-3 (Argireline) is a peptide compound with applications in research and therapeutics. 
-
+Acetyl Hexapeptide-3 (Argireline) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Acetyl Hexapeptide-3 (Argireline) belongs to the Synthetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Acetyl Hexapeptide-3 (Argireline) |
+| Sequence | Ac-Glu-Met-Gln-Arg-Arg-NH2 |
+| Length | 6 residues |
+| Molecular Weight | 889.0 Da |
 
-## Applications
+| Category | Cosmetic Synthetic |
 
-Acetyl Hexapeptide-3 (Argireline) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Competes with SNAP-25 for SNARE complex assembly, inhibiting neurotransmitter release and reducing muscle contraction
+
+
 
 ## References
 
-- Source: synthetic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

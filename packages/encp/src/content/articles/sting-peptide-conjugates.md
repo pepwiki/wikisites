@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# STING Peptide Conjugates
+
 ## Overview
 
-STING Peptide Conjugates is a peptide compound with applications in research and therapeutics. 
-
+STING Peptide Conjugates is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-STING Peptide Conjugates belongs to the Peptide Drug Conjugates class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | STING Peptide Conjugates |
 
-## Applications
 
-STING Peptide Conjugates has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Molecular Weight | ~1000-2500 Da |
+
+| Category | Immunomodulatory / STING Agonist |
+
+## Mechanism of Action
+
+Tumor-targeting peptide delivers STING agonist to tumor microenvironment; activates cGAS-STING pathway inducing type I interferon production and innate immune activation
+
+
 
 ## References
 
-- Source: peptide-drug-conjugates.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

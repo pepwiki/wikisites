@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Penetratin
+
 ## Overview
 
-Penetratin is a peptide compound with applications in research and therapeutics. 
-
+Penetratin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Penetratin belongs to the Synthetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Penetratin |
+| Sequence | Arg-Gln-Ile-Lys-Ile-Trp-Phe-Gln-Asn-Arg-Arg-Met-Lys-Trp-Lys-Lys |
+| Length | 16 residues |
+| Molecular Weight | ~2247 Da |
 
-## Applications
+| Category | Research Synthetic |
 
-Penetratin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Amphipathic alpha-helix penetrates membranes through direct translocation, independent of endosomal pathways
+
+
 
 ## References
 
-- Source: synthetic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

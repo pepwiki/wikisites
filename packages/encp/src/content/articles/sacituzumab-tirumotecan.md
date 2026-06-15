@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Sacituzumab Tirumotecan
+
 ## Overview
 
-Sacituzumab Tirumotecan is a peptide compound with applications in research and therapeutics. 
-
+Sacituzumab Tirumotecan is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Sacituzumab Tirumotecan belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Sacituzumab Tirumotecan |
+| Sequence | Anti-Trop2 monoclonal antibody conjugated to belotecan-derived topoisomerase I inhibitor via novel cleavable linker |
+| Length | ~1327 amino acids (antibody) + linker-payload |
+| Molecular Weight | ~160 kDa (ADC) |
 
-## Applications
+| Category | Oncology / Antibody-Drug Conjugate |
 
-Sacituzumab Tirumotecan has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+ADC targeting Trop2; delivers belotecan-derived payload to Trop2-expressing tumor cells, causing DNA strand breaks and apoptosis
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

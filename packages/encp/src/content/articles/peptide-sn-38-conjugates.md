@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Peptide-SN-38 Conjugates
+
 ## Overview
 
-Peptide-SN-38 Conjugates is a peptide compound with applications in research and therapeutics. 
-
+Peptide-SN-38 Conjugates is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Peptide-SN-38 Conjugates belongs to the Peptide Drug Conjugates class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Peptide-SN-38 Conjugates |
 
-## Applications
 
-Peptide-SN-38 Conjugates has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Molecular Weight | ~1500-3000 Da |
+
+| Category | Cytotoxic / Topoisomerase Inhibitor |
+
+## Mechanism of Action
+
+Peptide-SN-38 conjugate delivers SN-38 to tumor cells; SN-38 stabilizes topoisomerase I-DNA complex causing DNA strand breaks during replication
+
+
 
 ## References
 
-- Source: peptide-drug-conjugates.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

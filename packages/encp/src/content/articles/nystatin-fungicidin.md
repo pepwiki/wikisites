@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Nystatin (Fungicidin)
+
 ## Overview
 
-Nystatin (Fungicidin) is a peptide compound with applications in research and therapeutics. 
-
+Nystatin (Fungicidin) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Streptomyces noursei (actinomycete).
 
 
 ## Structure
 
-Nystatin (Fungicidin) belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Nystatin (Fungicidin) |
 
-## Applications
+| Length | N/A (macrolide, ~37 atoms in ring) |
+| Molecular Weight | 926.09 Da |
+| Source | Streptomyces noursei (actinomycete) |
+| Category | Fungal Lipopeptide / Antifungal |
 
-Nystatin (Fungicidin) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds ergosterol forming membrane pores; causes ion leakage and fungal cell death
+
+## Bioactivity
+
+Antifungal (fungicidal against Candida, Aspergillus)
+
+## Therapeutic Potential
+
+Topical/oral treatment for candidiasis; nystatin mouthwash for oral thrush
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

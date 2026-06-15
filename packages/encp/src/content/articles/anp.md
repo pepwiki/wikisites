@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-25
 tags: ["ANP", "natriuresis", "blood-pressure", "cardiac-peptides"]
-category: "Cardiac Peptides"
+category: "Cardiovascular"
 difficulty: "intermediate"
 relatedArticles: ["bnp", "cnp", "aldosterone"]
 citation:

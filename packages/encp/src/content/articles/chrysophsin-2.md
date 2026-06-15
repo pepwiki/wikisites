@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Chrysophsin 2
+
 ## Overview
 
-Chrysophsin 2 is a peptide compound with applications in research and therapeutics. 
-
+Chrysophsin 2 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Red sea bream (Chrysophrys major).
 
 
 ## Structure
 
-Chrysophsin 2 belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Chrysophsin 2 |
+| Sequence | FFGWLIKGAIHAGKAIHGLIHRRR |
+| Length | 24 amino acids |
+| Molecular Weight | 2760.2 Da |
+| Source | Red sea bream (Chrysophrys major) |
+| Category | Fish Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Chrysophsin 2 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Alpha-helical membrane disruption; similar mechanism to chrysophsin 1 with slightly reduced activity
+
+## Bioactivity
+
+Antimicrobial activity against fish and human pathogens
+
+## Therapeutic Potential
+
+Aquaculture disease prevention, comparative AMP research
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

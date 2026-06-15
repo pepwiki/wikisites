@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Ace-AMP1
+
 ## Overview
 
-Ace-AMP1 is a peptide compound with applications in research and therapeutics. 
-
+Ace-AMP1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Allium cepa (Onion).
 
 
 ## Structure
 
-Ace-AMP1 belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Ace-AMP1 |
+| Sequence | ASCGETCFKTFGQCNNYCSRHCRSGGGRGGYCGG |
+| Length | 68 amino acids |
+| Molecular Weight | ~7,200 Da |
+| Source | Allium cepa (Onion) |
+| Category | Plant Defense Peptides |
 
-## Applications
+## Mechanism of Action
 
-Ace-AMP1 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Lipid transfer protein-mediated membrane disruption
+
+## Bioactivity
+
+Antimicrobial, antifungal
+
+## Therapeutic Potential
+
+Antifungal therapeutics, food safety applications
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

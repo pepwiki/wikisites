@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# T-cerulein
+
 ## Overview
 
-T-cerulein is a peptide compound with applications in research and therapeutics. 
-
+T-cerulein is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bombina variegata (Yellow-bellied toad).
 
 
 ## Structure
 
-T-cerulein belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | T-cerulein |
+| Sequence | pEQDYTGWMDF-NH2 |
+| Length | 10 amino acids |
+| Molecular Weight | 1271.3 Da |
+| Source | Bombina variegata (Yellow-bellied toad) |
+| Category | Amphibian Caerulein |
 
-## Applications
+## Mechanism of Action
 
-T-cerulein has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Non-sulfated cerulein variant, reduced receptor binding affinity
+
+## Bioactivity
+
+Mild GI stimulation, desulfated analog activity
+
+## Therapeutic Potential
+
+CCK receptor research, GI pharmacology
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

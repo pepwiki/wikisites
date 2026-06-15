@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Ion Transport Peptide
+
 ## Overview
 
-Ion Transport Peptide is a peptide compound with applications in research and therapeutics. 
-
+Ion Transport Peptide is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Locusta migratoria (migratory locust).
 
 
 ## Structure
 
-Ion Transport Peptide belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Ion Transport Peptide |
+| Sequence | Cystine-rich peptide, ~75 amino acids with 4 disulfide bonds |
+| Length | 75 amino acids |
+| Molecular Weight | 8500 Da |
+| Source | Locusta migratoria (migratory locust) |
+| Category | Insect Hormone / Homeostasis |
 
-## Applications
+## Mechanism of Action
 
-Ion Transport Peptide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Stimulates Cl- absorption and Na+/K+-ATPase activity in ileum
+
+## Bioactivity
+
+Regulates ion and water reabsorption in hindgut
+
+## Therapeutic Potential
+
+Ion transport research, insect-specific physiological targets
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

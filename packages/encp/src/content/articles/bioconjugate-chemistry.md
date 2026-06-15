@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Bioconjugate Chemistry
+
 ## Overview
 
-Bioconjugate Chemistry is a peptide compound with applications in research and therapeutics. 
+Bioconjugate Chemistry is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Bioconjugate Chemistry belongs to the Peptide Resources class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Bioconjugate Chemistry has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-resources.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

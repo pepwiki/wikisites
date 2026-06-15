@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Dermorphin
+
 ## Overview
 
-Dermorphin is a peptide compound with applications in research and therapeutics. 
-
+Dermorphin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Phyllomedusa sauvagei (Sauvage's leaf frog).
 
 
 ## Structure
 
-Dermorphin belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Dermorphin |
+| Sequence | YAFGYPS-NH2 |
+| Length | 7 amino acids |
+| Molecular Weight | 803.9 Da |
+| Source | Phyllomedusa sauvagei (Sauvage's leaf frog) |
+| Category | Amphibian Opioid |
 
-## Applications
+## Mechanism of Action
 
-Dermorphin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Highly selective MOR agonist, contains D-alanine residue conferring resistance to proteases
+
+## Bioactivity
+
+Extremely potent analgesic (1000x morphine), opioid effects
+
+## Therapeutic Potential
+
+Pain management, opioid pharmacology research, analgesic drug development
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

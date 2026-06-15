@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Botulinum Toxin A
+
 ## Overview
 
-Botulinum Toxin A is a peptide compound with applications in research and therapeutics. 
-
+Botulinum Toxin A is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Botulinum Toxin A belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Botulinum Toxin A |
+| Sequence | N/A (150 kDa neurotoxin protein, complex zinc metalloprotease) |
+| Length | ~1296 amino acids (single chain, cleaved to light + heavy chains) |
+| Molecular Weight | ~150 kDa |
 
-## Applications
+| Category | Neurology / Neuromuscular Blocker |
 
-Botulinum Toxin A has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Cleaves SNAP-25 at neuromuscular junction, preventing acetylcholine release
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

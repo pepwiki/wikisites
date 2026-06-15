@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Inavolisib
+
 ## Overview
 
-Inavolisib is a peptide compound with applications in research and therapeutics. 
-
+Inavolisib is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Inavolisib belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Inavolisib |
+| Sequence | Selective PI3Kα inhibitor targeting mutant p110α |
+| Length | Small molecule |
+| Molecular Weight | ~452 Da |
 
-## Applications
+| Category | Oncology / PI3Kα Inhibitor |
 
-Inavolisib has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Isoform-selective PI3Kα inhibitor with enhanced potency against mutant p110α; induces mutant-selective degradation
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

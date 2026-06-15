@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-04-10
 tags: ["aggregation", "amyloid", "formulation", "analytical-methods", "biologics"]
-category: "Pharmaceutical Science"
+category: "Drug Development"
 difficulty: "intermediate"
 relatedArticles: ["peptide-stability-freeze-thaw", "oral-semaglutide"]
 citation:

@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Linzagolix
+
 ## Overview
 
-Linzagolix is a peptide compound with applications in research and therapeutics. 
-
+Linzagolix is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Linzagolix belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Linzagolix |
+| Sequence | N/A (non-peptide small molecule GnRH antagonist) |
+| Length | Small molecule |
+| Molecular Weight | 477 Da |
 
-## Applications
+| Category | Gynecology / GnRH Antagonist (oral) |
 
-Linzagolix has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+GnRH receptor antagonist with flexible dosing for partial or full suppression
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Somatostatin-14
+
 ## Overview
 
-Somatostatin-14 is a peptide compound with applications in research and therapeutics. 
-
+Somatostatin-14 is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Somatostatin-14 belongs to the Neuropeptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Somatostatin-14 |
+| Sequence | AGCKNFFWKTFTSC (disulfide bridge: Cys3-Cys14) |
+| Length | 14 amino acids (cyclic) |
+| Molecular Weight | 1637.9 Da |
 
-## Applications
+| Category | Somatostatin family |
 
-Somatostatin-14 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Gi/Go-coupled; inhibits adenylyl cyclase, activates K+ channels, inhibits Ca2+ channels
+
+
 
 ## References
 
-- Source: neuropeptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

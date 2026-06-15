@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# CgA (Conus geographus)
+
 ## Overview
 
-CgA (Conus geographus) is a peptide compound with applications in research and therapeutics. 
-
+CgA (Conus geographus) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Conus geographus.
 
 
 ## Structure
 
-CgA (Conus geographus) belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | CgA (Conus geographus) |
 
-## Applications
+| Length | Variable |
+| Molecular Weight | ~2000-3000 Da |
+| Source | Conus geographus |
+| Category | Marine Anti-Inflammatory |
 
-CgA (Conus geographus) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Modulates calcium channel activity, reduces neuronal excitability
+
+## Bioactivity
+
+Anti-inflammatory, neuroprotective
+
+## Therapeutic Potential
+
+Neuroinflammatory conditions, pain
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

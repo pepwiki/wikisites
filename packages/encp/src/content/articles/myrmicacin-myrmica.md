@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Myrmicacin (Myrmica)
+
 ## Overview
 
-Myrmicacin (Myrmica) is a peptide compound with applications in research and therapeutics. 
-
+Myrmicacin (Myrmica) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Myrmica rubra (red ant).
 
 
 ## Structure
 
-Myrmicacin (Myrmica) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Myrmicacin (Myrmica) |
+| Sequence | Aliphatic hydroxy acid (C10H20O3) |
+| Length | Small molecule |
+| Molecular Weight | 188.26 Da |
+| Source | Myrmica rubra (red ant) |
+| Category | Venom Peptide / Growth Inhibitor |
 
-## Applications
+## Mechanism of Action
 
-Myrmicacin (Myrmica) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Inhibits cell division and seed germination, disrupts mitochondrial function
+
+## Bioactivity
+
+Growth inhibitor, antimicrobial, anti-germination agent
+
+## Therapeutic Potential
+
+Anti-proliferative agent research, agricultural biocontrol
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

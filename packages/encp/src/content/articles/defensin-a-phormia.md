@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Defensin A (Phormia)
+
 ## Overview
 
-Defensin A (Phormia) is a peptide compound with applications in research and therapeutics. 
-
+Defensin A (Phormia) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Phormia regina (black blowfly).
 
 
 ## Structure
 
-Defensin A (Phormia) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Defensin A (Phormia) |
+| Sequence | ATCDLLSGTGINHSACAAHCLLRGNRGGYCNGKGVCVCRN |
+| Length | 40 amino acids |
+| Molecular Weight | 4035 Da |
+| Source | Phormia regina (black blowfly) |
+| Category | Insect Defensin / Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Defensin A (Phormia) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Disrupts membrane integrity via pore formation, binds lipoteichoic acid and phospholipids
+
+## Bioactivity
+
+Broad-spectrum antimicrobial against Gram-positive bacteria
+
+## Therapeutic Potential
+
+Alternative to conventional antibiotics, wound healing applications
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Nafithromycin
+
 ## Overview
 
-Nafithromycin is a peptide compound with applications in research and therapeutics. 
-
+Nafithromycin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Nafithromycin belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Nafithromycin |
+| Sequence | Novel ketolide antibiotic (11,12-carbamate ketolide) |
+| Length | Small molecule (ketolide/macrolide class) |
+| Molecular Weight | ~767 Da |
 
-## Applications
+| Category | Anti-Infective / Ketolide |
 
-Nafithromycin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds 50S ribosomal subunit at two sites (domains II and V); overcomes erm-mediated macrolide resistance; enhanced lung tissue penetration
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

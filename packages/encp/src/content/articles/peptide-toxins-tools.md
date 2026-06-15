@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-20
 tags: ["conotoxins", "spider-venom", "ion-channels", "neuroscience", "drug-discovery"]
-category: "Neuroscience"
+category: "Neurology"
 difficulty: "intermediate"
 relatedArticles: ["peptide-receptor-internalization", "peptide-vaccines-cancer"]
 citation:

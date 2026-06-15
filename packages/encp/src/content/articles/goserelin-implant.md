@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Goserelin Implant
+
 ## Overview
 
-Goserelin Implant is a peptide compound with applications in research and therapeutics. 
-
+Goserelin Implant is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Goserelin Implant belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Goserelin Implant |
+| Sequence | 5-oxoPro-His-Trp-Ser-Tyr-D-Ser(tBu)-Leu-Arg-Pro-AzGly-NH2 |
+| Length | 10 amino acids |
+| Molecular Weight | 1269 Da |
 
-## Applications
+| Category | Oncology / GnRH Agonist |
 
-Goserelin Implant has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+GnRH receptor agonist; subcutaneous biodegradable implant
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

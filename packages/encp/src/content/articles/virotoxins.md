@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Virotoxins
+
 ## Overview
 
-Virotoxins is a peptide compound with applications in research and therapeutics. 
-
+Virotoxins is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Amanita virosa (Destroying Angel).
 
 
 ## Structure
 
-Virotoxins belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Virotoxins |
 
-## Applications
+| Length | 7 amino acids |
+| Molecular Weight | 878.0 Da (average) |
+| Source | Amanita virosa (Destroying Angel) |
+| Category | Fungal Cyclopeptide / Toxin |
 
-Virotoxins has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Similar to phalloidin; stabilizes actin filaments, disrupts cytoskeletal dynamics
+
+## Bioactivity
+
+Hepatotoxic, causes hepatocyte necrosis
+
+## Therapeutic Potential
+
+Research tools for actin biology
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Fish Skin Peptides
+
 ## Overview
 
-Fish Skin Peptides is a peptide compound with applications in research and therapeutics. 
-
+Fish Skin Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Various marine and freshwater species.
 
 
 ## Structure
 
-Fish Skin Peptides belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Fish Skin Peptides |
+| Sequence | Collagen-derived peptides with antioxidant sequences (Gly-Pro-Hyp, Pro-Hyp-Gly) |
+| Length | 3-15 amino acids |
+| Molecular Weight | 300-2,000 Da |
+| Source | Various marine and freshwater species |
+| Category | Fish Collagen |
 
-## Applications
+## Mechanism of Action
 
-Fish Skin Peptides has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Stimulates type I and III collagen synthesis; inhibits MMP activity; enhances hyaluronic acid production
+
+## Bioactivity
+
+Anti-aging, skin hydration improvement, UV protection, wound healing promotion
+
+## Therapeutic Potential
+
+Cosmetic anti-aging formulations, wound healing products, dermatological therapeutics
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

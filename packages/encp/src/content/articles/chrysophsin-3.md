@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Chrysophsin 3
+
 ## Overview
 
-Chrysophsin 3 is a peptide compound with applications in research and therapeutics. 
-
+Chrysophsin 3 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Red sea bream (Chrysophrys major).
 
 
 ## Structure
 
-Chrysophsin 3 belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Chrysophsin 3 |
+| Sequence | FFGWLIKGAIHAGKAIHGLIH |
+| Length | 21 amino acids |
+| Molecular Weight | 2280.7 Da |
+| Source | Red sea bream (Chrysophrys major) |
+| Category | Fish Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Chrysophsin 3 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Truncated form of chrysophsins; maintains alpha-helical structure with antimicrobial activity
+
+## Bioactivity
+
+Antimicrobial activity, reduced hemolysis compared to longer forms
+
+## Therapeutic Potential
+
+Safer antimicrobial candidates, structural analog design
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

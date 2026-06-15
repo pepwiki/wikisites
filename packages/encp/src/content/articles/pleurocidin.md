@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Pleurocidin
+
 ## Overview
 
-Pleurocidin is a peptide compound with applications in research and therapeutics. 
-
+Pleurocidin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Winter flounder (Pseudopleuronectes americanus).
 
 
 ## Structure
 
-Pleurocidin belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Pleurocidin |
+| Sequence | GWGSFFKKAAHVGKHVGKAALTHYL |
+| Length | 25 amino acids |
+| Molecular Weight | 2710.2 Da |
+| Source | Winter flounder (Pseudopleuronectes americanus) |
+| Category | Fish Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Pleurocidin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Amphipathic alpha-helix; inserts into lipid bilayer forming transmembrane pores
+
+## Bioactivity
+
+Broad-spectrum antimicrobial, antibiofilm activity
+
+## Therapeutic Potential
+
+Anti-biofilm coatings, chronic wound treatment, aquaculture prophylaxis
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

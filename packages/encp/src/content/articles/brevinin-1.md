@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Brevinin-1
+
 ## Overview
 
-Brevinin-1 is a peptide compound with applications in research and therapeutics. 
-
+Brevinin-1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Rana brevipoda (Japanese pond frog).
 
 
 ## Structure
 
-Brevinin-1 belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Brevinin-1 |
+| Sequence | FLPVLAGIAAKVVPALFCKITKKC |
+| Length | 24 amino acids |
+| Molecular Weight | 2568.1 Da |
+| Source | Rana brevipoda (Japanese pond frog) |
+| Category | Amphibian Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Brevinin-1 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Disulfide-bridged cyclic peptide, membrane insertion and pore formation, selective cytotoxicity
+
+## Bioactivity
+
+Antimicrobial, anticancer activity against tumor cell lines
+
+## Therapeutic Potential
+
+Anticancer therapeutics, anti-infective agents
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

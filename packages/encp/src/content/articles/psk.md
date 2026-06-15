@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# PSK
+
 ## Overview
 
-PSK is a peptide compound with applications in research and therapeutics. 
-
+PSK is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Asparagus officinalis (Asparagus).
 
 
 ## Structure
 
-PSK belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | PSK |
+| Sequence | Y(SO3H)IYTQ |
+| Length | 5 amino acids |
+| Molecular Weight | ~850 Da |
+| Source | Asparagus officinalis (Asparagus) |
+| Category | Plant Signaling Peptides |
 
-## Applications
+## Mechanism of Action
 
-PSK has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Sulfated peptide signaling for cell growth and differentiation
+
+## Bioactivity
+
+Growth factor
+
+## Therapeutic Potential
+
+Micropropagation efficiency, plant regeneration systems
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

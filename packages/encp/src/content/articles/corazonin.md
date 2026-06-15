@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Corazonin
+
 ## Overview
 
-Corazonin is a peptide compound with applications in research and therapeutics. 
-
+Corazonin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Periplaneta americana (cockroach).
 
 
 ## Structure
 
-Corazonin belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Corazonin |
+| Sequence | pQTFQYSRGWTNamide |
+| Length | 11 amino acids |
+| Molecular Weight | 1350 Da |
+| Source | Periplaneta americana (cockroach) |
+| Category | Insect Hormone / Cardiovascular |
 
-## Applications
+## Mechanism of Action
 
-Corazonin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Modulates cardiac rhythm via corazonin receptor (GPCR), influences stress responses
+
+## Bioactivity
+
+Accelerates heart rate, induces dark coloration in locusts
+
+## Therapeutic Potential
+
+Cardiovascular research tool, insect-specific cardiac targets
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

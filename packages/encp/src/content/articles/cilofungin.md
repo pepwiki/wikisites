@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Cilofungin
+
 ## Overview
 
-Cilofungin is a peptide compound with applications in research and therapeutics. 
-
+Cilofungin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Aspergillus (semi-synthetic derivative).
 
 
 ## Structure
 
-Cilofungin belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Cilofungin |
 
-## Applications
+| Length | 6 amino acids |
+| Molecular Weight | 1042.24 Da |
+| Source | Aspergillus (semi-synthetic derivative) |
+| Category | Fungal Antibiotic / Antifungal |
 
-Cilofungin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Inhibits glucan synthase with improved safety profile over parent echinocandin B
+
+## Bioactivity
+
+Antifungal (against Candida species)
+
+## Therapeutic Potential
+
+First echinocandin to enter clinical trials; improved IV formulation development
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

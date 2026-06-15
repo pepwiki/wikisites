@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Myxinidin
+
 ## Overview
 
-Myxinidin is a peptide compound with applications in research and therapeutics. 
-
+Myxinidin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hagfish (Myxine glutinosa).
 
 
 ## Structure
 
-Myxinidin belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Myxinidin |
+| Sequence | GWLKAIKKFGAAAK |
+| Length | 14 amino acids |
+| Molecular Weight | 1472.8 Da |
+| Source | Hagfish (Myxine glutinosa) |
+| Category | Fish Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Myxinidin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Linear amphipathic peptide; disrupts outer and inner membranes of Gram-negative bacteria
+
+## Bioactivity
+
+Potent anti-Gram-negative activity, antifungal properties
+
+## Therapeutic Potential
+
+Anti-pseudomonal agents, catheter lock solutions, aquaculture antibiotics
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

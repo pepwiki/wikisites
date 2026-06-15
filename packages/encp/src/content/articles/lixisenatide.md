@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Lixisenatide
+
 ## Overview
 
-Lixisenatide is a peptide compound with applications in research and therapeutics. 
-
+Lixisenatide is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Lixisenatide belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Lixisenatide |
+| Sequence | Combination product |
 
-## Applications
+| Molecular Weight | ~5100 Da (lixisenatide component) |
 
-Lixisenatide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Metabolic / Insulin-GLP-1 Combination |
+
+## Mechanism of Action
+
+Dual mechanism: basal insulin + GLP-1 agonism for glucose-dependent insulin secretion
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

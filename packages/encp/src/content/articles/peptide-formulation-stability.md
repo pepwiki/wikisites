@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-11-12
 tags: ["formulation", "stability", "lyophilization", "surfactants", "pharmaceutical-science"]
-category: "Pharmaceutical Science"
+category: "Drug Development"
 difficulty: "intermediate"
 relatedArticles: ["insulin-analogues", "semaglutide-vs-tirzepatide"]
 citation:

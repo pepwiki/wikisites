@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Peptide → TCR (Immune Recognition)
+
 ## Overview
 
-Peptide → TCR (Immune Recognition) is a peptide compound with applications in research and therapeutics. 
+Peptide → TCR (Immune Recognition) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-Peptide → TCR (Immune Recognition) belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+TCR recognizes peptide-MHC complex (pMHC) through complementarity-determining regions (CDRs). CDR1/CDR2 contact MHC helices; CDR3 (most variable) contacts peptide and MHC floor. Binding triggers conformational change in TCR, initiating ITAM phosphorylation via CD3 complex → ZAP-70 → downstream signaling.
 
-## Applications
 
-Peptide → TCR (Immune Recognition) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Palytoxin
+
 ## Overview
 
-Palytoxin is a peptide compound with applications in research and therapeutics. 
-
+Palytoxin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Palythoa tuberculosa (zoanthid coral).
 
 
 ## Structure
 
-Palytoxin belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Palytoxin |
 
-## Applications
+| Length | N/A |
+| Molecular Weight | 2680.14 Da |
+| Source | Palythoa tuberculosa (zoanthid coral) |
+| Category | Marine Toxin |
 
-Palytoxin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Converts Na/K-ATPase into ion channel, causes massive ion flux
+
+## Bioactivity
+
+Extremely potent cytotoxin, hemolysis
+
+## Therapeutic Potential
+
+Anti-cancer research (conjugated forms), research tool
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

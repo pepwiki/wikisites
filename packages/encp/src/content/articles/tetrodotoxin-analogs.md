@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Tetrodotoxin Analogs
+
 ## Overview
 
-Tetrodotoxin Analogs is a peptide compound with applications in research and therapeutics. 
-
+Tetrodotoxin Analogs is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Derived from tetrodotoxin scaffold.
 
 
 ## Structure
 
-Tetrodotoxin Analogs belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Tetrodotoxin Analogs |
 
-## Applications
+| Length | N/A (small molecules) |
+| Molecular Weight | ~300-400 Da |
+| Source | Derived from tetrodotoxin scaffold |
+| Category | Marine-Inspired Analgesic |
 
-Tetrodotoxin Analogs has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Site 1 Nav blockers with improved selectivity profiles
+
+## Bioactivity
+
+Analgesic, local anesthetic
+
+## Therapeutic Potential
+
+Non-opioid pain management, targeted analgesia
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

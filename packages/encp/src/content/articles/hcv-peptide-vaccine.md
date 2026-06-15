@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# HCV Peptide Vaccine
+
 ## Overview
 
-HCV Peptide Vaccine is a peptide compound with applications in research and therapeutics. 
+HCV Peptide Vaccine is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-HCV Peptide Vaccine belongs to the Peptide Vaccines class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Multi-peptide vaccine targeting conserved HCV epitopes across genotypes; induces HCV-specific CD4+ Th1 and CD8+ CTL responses to support viral clearance
 
-## Applications
 
-HCV Peptide Vaccine has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-vaccines.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

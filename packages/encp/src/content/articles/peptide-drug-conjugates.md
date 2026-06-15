@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-06-15
 tags: ["drug-conjugates", "linker-chemistry", "targeted-therapy", "payload-release"]
-category: "Drug Design"
+category: "Drug Development"
 difficulty: "intermediate"
 relatedArticles: ["peptide-nanoparticles", "stapled-peptides-cancer"]
 citation:

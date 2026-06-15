@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Fish Gelatin
+
 ## Overview
 
-Fish Gelatin is a peptide compound with applications in research and therapeutics. 
-
+Fish Gelatin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Various (cod, salmon, tilapia, carp).
 
 
 ## Structure
 
-Fish Gelatin belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Fish Gelatin |
+| Sequence | Partially hydrolyzed collagen with gel-forming properties |
+| Length | Variable (high molecular weight) |
+| Molecular Weight | 10,000-100,000 Da |
+| Source | Various (cod, salmon, tilapia, carp) |
+| Category | Fish Collagen |
 
-## Applications
+## Mechanism of Action
 
-Fish Gelatin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Forms thermoreversible gels; provides film-forming and encapsulation properties; bioactive peptide release
+
+## Bioactivity
+
+Film-forming, emulsification, microencapsulation of bioactives
+
+## Therapeutic Potential
+
+Food additive, pharmaceutical capsule alternative (halal/kosher), nutraceutical delivery systems
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

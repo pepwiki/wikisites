@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# RM-1-MMAE
+
 ## Overview
 
-RM-1-MMAE is a peptide compound with applications in research and therapeutics. 
-
+RM-1-MMAE is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-RM-1-MMAE belongs to the Peptide Drug Conjugates class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | RM-1-MMAE |
 
-## Applications
 
-RM-1-MMAE has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Molecular Weight | ~2000 Da |
+
+| Category | Cytotoxic / Microtubule Inhibitor |
+
+## Mechanism of Action
+
+RGD-HER2 dual-targeting peptide delivers MMAE to HER2+ cells; cathepsin cleavage releases MMAE intracellularly
+
+
 
 ## References
 
-- Source: peptide-drug-conjugates.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

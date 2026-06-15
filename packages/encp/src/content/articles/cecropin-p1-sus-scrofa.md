@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Cecropin P1 (Sus scrofa)
+
 ## Overview
 
-Cecropin P1 (Sus scrofa) is a peptide compound with applications in research and therapeutics. 
-
+Cecropin P1 (Sus scrofa) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Sus scrofa (pig intestine) - cecropin homolog.
 
 
 ## Structure
 
-Cecropin P1 (Sus scrofa) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Cecropin P1 (Sus scrofa) |
+| Sequence | SWLSKTAKKLENSAKKRISEGIAIAIQGGPR |
+| Length | 31 amino acids |
+| Molecular Weight | 3339 Da |
+| Source | Sus scrofa (pig intestine) - cecropin homolog |
+| Category | Cecropin / Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Cecropin P1 (Sus scrofa) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane permeabilization, disrupts outer and inner membranes
+
+## Bioactivity
+
+Antimicrobial against Gram-negative bacteria
+
+## Therapeutic Potential
+
+Gut infection therapy, antimicrobial coatings
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

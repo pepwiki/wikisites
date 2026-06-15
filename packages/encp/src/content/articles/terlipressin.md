@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Terlipressin
+
 ## Overview
 
-Terlipressin is a peptide compound with applications in research and therapeutics. 
-
+Terlipressin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Terlipressin belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Terlipressin |
+| Sequence | GGG-Lys-Asn-Cys-Phe-Ile-Gln-Asn-Cys-Pro-Lys-Gly-NH2 (cyclic 1-6) |
 
-## Applications
+| Molecular Weight | 1336 Da |
 
-Terlipressin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Gastroenterology / Vasopressin Analog |
+
+## Mechanism of Action
+
+V1a receptor agonist (via active metabolite LVP); causes splanchnic vasoconstriction
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

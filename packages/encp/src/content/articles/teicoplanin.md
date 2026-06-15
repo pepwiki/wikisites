@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Teicoplanin
+
 ## Overview
 
-Teicoplanin is a peptide compound with applications in research and therapeutics. 
-
+Teicoplanin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Teicoplanin belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Teicoplanin |
+| Sequence | Glycopeptide antibiotic complex (5 major components: A2-1 through A2-5) |
+| Length | 7 amino acids (glycosylated heptapeptide) |
+| Molecular Weight | ~1564-1907 Da (multiple components) |
 
-## Applications
+| Category | Anti-Infective / Glycopeptide Antibiotic |
 
-Teicoplanin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds D-Ala-D-Ala, inhibits peptidoglycan polymerization and transglycosylation
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

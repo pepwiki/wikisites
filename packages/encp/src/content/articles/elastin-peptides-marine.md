@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Elastin Peptides (Marine)
+
 ## Overview
 
-Elastin Peptides (Marine) is a peptide compound with applications in research and therapeutics. 
-
+Elastin Peptides (Marine) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Various fish species.
 
 
 ## Structure
 
-Elastin Peptides (Marine) belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Elastin Peptides (Marine) |
 
-## Applications
+| Length | Variable |
+| Molecular Weight | 1,000-10,000 Da |
+| Source | Various fish species |
+| Category | Marine Cosmetic Peptide |
 
-Elastin Peptides (Marine) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Promotes elastin synthesis, improves skin elasticity and resilience
+
+## Bioactivity
+
+Anti-wrinkle, skin firming
+
+## Therapeutic Potential
+
+Anti-aging cosmetics, skin repair
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Vasopressin (AVP)
+
 ## Overview
 
-Vasopressin (AVP) is a peptide compound with applications in research and therapeutics. 
-
+Vasopressin (AVP) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Vasopressin (AVP) belongs to the Neuropeptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Vasopressin (AVP) |
+| Sequence | CYFQNCPRG (disulfide bridge: Cys1-Cys6) |
+| Length | 9 amino acids |
+| Molecular Weight | 1084.2 Da |
 
-## Applications
+| Category | Neurohypophysial peptide |
 
-Vasopressin (AVP) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Gq-coupled (V1a/V1b); Gs-coupled (V2); PLC or adenylyl cyclase
+
+
 
 ## References
 
-- Source: neuropeptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

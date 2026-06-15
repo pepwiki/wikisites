@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-11-15
 tags: ["cholecystokinin", "CCK", "GI peptides", "satiety", "digestion"]
-category: "GI Peptides"
+category: "Gastrointestinal Peptides"
 difficulty: "intermediate"
 relatedArticles: ["secretin", "gastrin", "glp-1"]
 citation:

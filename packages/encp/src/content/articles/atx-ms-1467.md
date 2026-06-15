@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# ATX-MS-1467
+
 ## Overview
 
-ATX-MS-1467 is a peptide compound with applications in research and therapeutics. 
+ATX-MS-1467 is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-ATX-MS-1467 belongs to the Peptide Vaccines class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Apitope (antigen-processing-independent epitope) peptides presented on MHC-II without processing; induce antigen-specific tolerance by anergizing or deleting myelin-reactive T cells; shift from Th1/Th17 to Th2/Treg
 
-## Applications
 
-ATX-MS-1467 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-vaccines.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

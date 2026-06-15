@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Solenopsin (Solenopsis)
+
 ## Overview
 
-Solenopsin (Solenopsis) is a peptide compound with applications in research and therapeutics. 
-
+Solenopsin (Solenopsis) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Solenopsis invicta (red imported fire ant).
 
 
 ## Structure
 
-Solenopsin (Solenopsis) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Solenopsin (Solenopsis) |
+| Sequence | 2-methyl-6-alkyl-piperidine alkaloid (C17H35N) |
+| Length | Small molecule (piperidine alkaloid) |
+| Molecular Weight | 253.46 Da |
+| Source | Solenopsis invicta (red imported fire ant) |
+| Category | Venom Peptide / PI3K Inhibitor |
 
-## Applications
+## Mechanism of Action
 
-Solenopsin (Solenopsis) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Directly inhibits PI3K, blocks Akt/PKB signaling pathway
+
+## Bioactivity
+
+Anti-angiogenic, anti-inflammatory, cytotoxic to cancer cells
+
+## Therapeutic Potential
+
+Anti-cancer therapy (PI3K pathway inhibition), psoriasis treatment, anti-angiogenic drug lead
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

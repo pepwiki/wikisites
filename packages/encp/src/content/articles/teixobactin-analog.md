@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Teixobactin Analog
+
 ## Overview
 
-Teixobactin Analog is a peptide compound with applications in research and therapeutics. 
-
+Teixobactin Analog is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Teixobactin Analog belongs to the Synthetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Teixobactin Analog |
+| Sequence | Enduracididine-containing depsipeptide (synthetic analog) |
+| Length | 11 residues (depsipeptide) |
+| Molecular Weight | ~1240 Da |
 
-## Applications
+| Category | Antimicrobial Synthetic |
 
-Teixobactin Analog has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds lipid II and lipid III, blocking peptidoglycan and wall teichoic acid synthesis; resistance-resistant mechanism
+
+
 
 ## References
 
-- Source: synthetic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

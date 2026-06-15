@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Halovir A
+
 ## Overview
 
-Halovir A is a peptide compound with applications in research and therapeutics. 
-
+Halovir A is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Scytalidium sp. (halotolerant fungus).
 
 
 ## Structure
 
-Halovir A belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Halovir A |
 
-## Applications
+| Length | ~12 amino acids |
+| Molecular Weight | 1189.48 Da |
+| Source | Scytalidium sp. (halotolerant fungus) |
+| Category | Fungal Bioactive Peptide / Antiviral |
 
-Halovir A has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Disrupts lipid envelopes of viruses; inactivates enveloped viruses before cell entry
+
+## Bioactivity
+
+Antiviral (against HSV-1, HSV-2, HIV-1)
+
+## Therapeutic Potential
+
+Topical antiviral (microbicide); prevention of sexually transmitted infections
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

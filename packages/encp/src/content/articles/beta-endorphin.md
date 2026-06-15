@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-10-20
 tags: ["opioid", "mu-receptor", "pain-modulation", "stress", "endorphin"]
-category: "Opioid Peptides"
+category: "Neuropeptides"
 difficulty: "intermediate"
 relatedArticles: ["alpha-endorphin", "dynorphin-a", "enkephalins"]
 citation:

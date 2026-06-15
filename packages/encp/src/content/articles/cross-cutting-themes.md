@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Cross-Cutting Themes
+
 ## Overview
 
-Cross-Cutting Themes is a peptide compound with applications in research and therapeutics. 
+Cross-Cutting Themes is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Cross-Cutting Themes belongs to the Peptide Diseases class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Cross-Cutting Themes has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-diseases.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

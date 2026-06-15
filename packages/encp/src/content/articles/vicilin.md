@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Vicilin
+
 ## Overview
 
-Vicilin is a peptide compound with applications in research and therapeutics. 
-
+Vicilin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Pisum sativum (Pea).
 
 
 ## Structure
 
-Vicilin belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Vicilin |
+| Sequence | Complex trimeric protein (multiple subunits) |
+| Length | ~400-500 amino acids per subunit |
+| Molecular Weight | ~150,000-180,000 Da (trimer) |
+| Source | Pisum sativum (Pea) |
+| Category | Plant Storage Peptides |
 
-## Applications
+## Mechanism of Action
 
-Vicilin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Amino acid reserve for seed development
+
+## Bioactivity
+
+Nutritional storage protein
+
+## Therapeutic Potential
+
+Alternative protein source, food industry applications
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

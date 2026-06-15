@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Phoratoxin
+
 ## Overview
 
-Phoratoxin is a peptide compound with applications in research and therapeutics. 
-
+Phoratoxin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Viscum album (European Mistletoe).
 
 
 ## Structure
 
-Phoratoxin belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Phoratoxin |
+| Sequence | Polypeptide from mistletoe |
+| Length | ~5,000-10,000 Da |
+| Molecular Weight | ~5,000-10,000 Da |
+| Source | Viscum album (European Mistletoe) |
+| Category | Plant Toxic Peptides |
 
-## Applications
+## Mechanism of Action
 
-Phoratoxin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Ribosomal inhibition and membrane destabilization
+
+## Bioactivity
+
+Ribosome inhibitor, cytotoxic
+
+## Therapeutic Potential
+
+Cancer research, immunological studies
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

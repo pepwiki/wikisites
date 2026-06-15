@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-06-01
 tags: ["hydrogels", "RADA16", "wound-healing", "antimicrobial-peptides", "regenerative-medicine"]
-category: "Regenerative Medicine"
+category: "Drug Development"
 difficulty: "intermediate"
 relatedArticles: ["peptide-modified-surfaces", "peptide-modified-liposomes"]
 citation:

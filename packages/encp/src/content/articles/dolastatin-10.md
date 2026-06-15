@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Dolastatin 10
+
 ## Overview
 
-Dolastatin 10 is a peptide compound with applications in research and therapeutics. 
-
+Dolastatin 10 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Dolabella auricularia (sea hare).
 
 
 ## Structure
 
-Dolastatin 10 belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Dolastatin 10 |
 
-## Applications
+| Length | 5 amino acid residues |
+| Molecular Weight | 785.0 Da |
+| Source | Dolabella auricularia (sea hare) |
+| Category | Marine Anti-Cancer Peptide |
 
-Dolastatin 10 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds tubulin at vinca domain, inhibits polymerization
+
+## Bioactivity
+
+Potent anti-proliferative
+
+## Therapeutic Potential
+
+Lead for ADCs (brentuximab vedotin), monotherapy (Phase II)
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

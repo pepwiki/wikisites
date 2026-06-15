@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Echinococcus Peptides
+
 ## Overview
 
-Echinococcus Peptides is a peptide compound with applications in research and therapeutics. 
-
+Echinococcus Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Echinococcus granulosus, E. multilocularis.
 
 
 ## Structure
 
-Echinococcus Peptides belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Echinococcus Peptides |
+| Sequence | Including antigen B, antigen 5, laminin-binding peptides |
+| Length | 10-200 amino acids (varies) |
+| Molecular Weight | 1000-25000 Da |
+| Source | Echinococcus granulosus, E. multilocularis |
+| Category | Flatworm Parasitic / Tapeworm |
 
-## Applications
+## Mechanism of Action
 
-Echinococcus Peptides has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Complement inhibition, immunomodulation of Th1/Th2 balance, laminin binding for tissue adhesion
+
+## Bioactivity
+
+Hydatid cyst formation, immune evasion, host tissue invasion
+
+## Therapeutic Potential
+
+Serodiagnostic markers, vaccine candidates, antiparasitic drug targets
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

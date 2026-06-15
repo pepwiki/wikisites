@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Salmon GnRH
+
 ## Overview
 
-Salmon GnRH is a peptide compound with applications in research and therapeutics. 
-
+Salmon GnRH is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Salmon (Oncorhynchus spp.).
 
 
 ## Structure
 
-Salmon GnRH belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Salmon GnRH |
+| Sequence | QHWSYGWLPG |
+| Length | 10 amino acids |
+| Molecular Weight | 1184.3 Da |
+| Source | Salmon (Oncorhynchus spp.) |
+| Category | Fish Neuropeptide |
 
-## Applications
+## Mechanism of Action
 
-Salmon GnRH has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Binds GnRH receptors on pituitary cells; stimulates release of FSH and LH; regulates reproductive axis
+
+## Bioactivity
+
+Reproductive hormone regulation, gonadal development, spawning induction
+
+## Therapeutic Potential
+
+Aquaculture breeding management, fertility treatments, reproductive disorder research
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

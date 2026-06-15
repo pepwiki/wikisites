@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Ponericin (Pachycondyla)
+
 ## Overview
 
-Ponericin (Pachycondyla) is a peptide compound with applications in research and therapeutics. 
-
+Ponericin (Pachycondyla) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Pachycondyla goeldii (ponerine ant).
 
 
 ## Structure
 
-Ponericin (Pachycondyla) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Ponericin (Pachycondyla) |
+| Sequence | GWKDWAKKAGGWLKKKGPGMAKAALKAAMQamide (Ponericin G1) |
+| Length | 30 amino acids |
+| Molecular Weight | 3200 Da |
+| Source | Pachycondyla goeldii (ponerine ant) |
+| Category | Venom Peptide / Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Ponericin (Pachycondyla) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane permeabilization via amphipathic alpha-helical insertion
+
+## Bioactivity
+
+Potent antimicrobial against Gram-positive and Gram-negative bacteria, antifungal
+
+## Therapeutic Potential
+
+Novel antimicrobial drug lead, anti-infective wound dressings
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

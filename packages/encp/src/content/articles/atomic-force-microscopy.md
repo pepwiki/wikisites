@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Atomic Force Microscopy
+
 ## Overview
 
-Atomic Force Microscopy is a peptide compound with applications in research and therapeutics. 
+Atomic Force Microscopy is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Atomic Force Microscopy belongs to the Peptide Technologies class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Atomic Force Microscopy has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-technologies.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

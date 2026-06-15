@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Parasin I
+
 ## Overview
 
-Parasin I is a peptide compound with applications in research and therapeutics. 
-
+Parasin I is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Catfish (Parasilurus asotus).
 
 
 ## Structure
 
-Parasin I belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Parasin I |
+| Sequence | KGRGKQGGKVRAKAKTRSS |
+| Length | 19 amino acids |
+| Molecular Weight | 2050.4 Da |
+| Source | Catfish (Parasilurus asotus) |
+| Category | Fish Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Parasin I has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Histone H2A-derived peptide; enters cells and binds DNA; disrupts nucleic acid synthesis alongside membrane activity
+
+## Bioactivity
+
+Potent antimicrobial at nanomolar concentrations, effective against drug-resistant bacteria
+
+## Therapeutic Potential
+
+Multi-drug resistant infection treatment, novel antibiotic development
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

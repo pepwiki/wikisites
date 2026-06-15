@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Beauvericin
+
 ## Overview
 
-Beauvericin is a peptide compound with applications in research and therapeutics. 
-
+Beauvericin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Beauveria bassiana.
 
 
 ## Structure
 
-Beauvericin belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Beauvericin |
 
-## Applications
+| Length | 6 residues (3 amino acids, 3 hydroxy acids) |
+| Molecular Weight | 783.96 Da |
+| Source | Beauveria bassiana |
+| Category | Fungal Bioactive Peptide / Ionophore |
 
-Beauvericin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Ionophore forming cation channels; activates caspases; induces apoptosis through mitochondrial pathway
+
+## Bioactivity
+
+Insecticidal, antifungal, anti-parasitic, cytotoxic
+
+## Therapeutic Potential
+
+Biopesticide; anti-cancer agent; anti-parasitic (malaria); antibiotic adjuvant
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

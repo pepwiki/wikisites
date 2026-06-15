@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Pegbelfermin
+
 ## Overview
 
-Pegbelfermin is a peptide compound with applications in research and therapeutics. 
-
+Pegbelfermin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Pegbelfermin belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Pegbelfermin |
+| Sequence | PEGylated recombinant human FGF21 analog |
+| Length | ~181 amino acids (FGF21) + 40 kDa PEG |
+| Molecular Weight | ~46 kDa (PEGylated) |
 
-## Applications
+| Category | Metabolic / FGF21 Analog |
 
-Pegbelfermin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+FGF21 analog; regulates lipid and glucose metabolism, reduces hepatic fat and fibrosis
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

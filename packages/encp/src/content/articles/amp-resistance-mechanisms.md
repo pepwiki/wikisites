@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-09-02
 tags: ["antimicrobial-peptides", "resistance", "membrane-modification", "protease", "efflux"]
-category: "Microbiology"
+category: "Infectious Disease"
 difficulty: "intermediate"
 relatedArticles: ["peptide-vaccine-design", "peptide-self-assembly"]
 citation:

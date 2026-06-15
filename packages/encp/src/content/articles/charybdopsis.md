@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Charybdopsis
+
 ## Overview
 
-Charybdopsis is a peptide compound with applications in research and therapeutics. 
+Charybdopsis is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Charybdopsis belongs to the Venom Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Charybdopsis has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: venom-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

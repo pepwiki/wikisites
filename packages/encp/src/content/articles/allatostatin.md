@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Allatostatin
+
 ## Overview
 
-Allatostatin is a peptide compound with applications in research and therapeutics. 
-
+Allatostatin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Diploptera punctata (cockroach), multiple insect species.
 
 
 ## Structure
 
-Allatostatin belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Allatostatin |
+| Sequence | YXFGLamide family (variable, e.g., APSGAQRLYGFGamide) |
+| Length | 8-18 amino acids (variable) |
+| Molecular Weight | 900-2000 Da (variable) |
+| Source | Diploptera punctata (cockroach), multiple insect species |
+| Category | Insect Hormone / Development |
 
-## Applications
+## Mechanism of Action
 
-Allatostatin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Inhibits juvenile hormone (JH) biosynthesis via G-protein coupled receptors
+
+## Bioactivity
+
+Suppresses juvenile hormone production, regulates reproduction and development
+
+## Therapeutic Potential
+
+Insect growth regulators, novel pest control agents
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

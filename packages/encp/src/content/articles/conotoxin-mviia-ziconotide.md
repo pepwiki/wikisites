@@ -5,38 +5,42 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ["ω-conotoxin-(calcium-channel-blocker)","peptide","oligopeptide"]
-category: "ω-Conotoxin (calcium channel blocker)"
+category: "Toxin Peptides"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# ω-Conotoxin MVIIA (Ziconotide)
+
 ## Overview
 
-ω-Conotoxin MVIIA (Ziconotide) is a peptide compound with applications in research and therapeutics. 
+ω-Conotoxin MVIIA (Ziconotide) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Conus spp. (various cone snails).
 
-## Chemical Identity
+
+## Structure
 
 | Property | Value |
 |----------|-------|
 | Name | ω-Conotoxin MVIIA (Ziconotide) |
-| Sequence | CKGKGAKCSRLMYDCCTGSCRSGKC |
-| Length | 25 amino acids |
-| Molecular Weight | 2639 Da |
-| Category | ω-Conotoxin (calcium channel blocker) |
 
-## Structure
+| Length | 24-31 amino acids |
+| Molecular Weight | ~2500-3500 Da |
+| Source | Conus spp. (various cone snails) |
+| Category | Marine Anti-Inflammatory / Analgesic |
 
-ω-Conotoxin MVIIA (Ziconotide) belongs to the ω-Conotoxin (calcium channel blocker) class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+## Mechanism of Action
 
-## Applications
+Blocks N-type calcium channels, inhibits neurotransmitter release
 
-ω-Conotoxin MVIIA (Ziconotide) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Bioactivity
+
+Potent analgesic, anti-inflammatory
+
+## Therapeutic Potential
+
+Severe pain, neurogenic inflammation
 
 ## References
 
-- Source: venom-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

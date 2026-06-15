@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Hypa A
+
 ## Overview
 
-Hypa A is a peptide compound with applications in research and therapeutics. 
-
+Hypa A is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hedyotis biflora.
 
 
 ## Structure
 
-Hypa A belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Hypa A |
+| Sequence | GIPCGESCVCFTICGCSVCTCYGGG |
+| Length | 30 amino acids |
+| Molecular Weight | ~3,100 Da |
+| Source | Hedyotis biflora |
+| Category | Plant Cyclic Peptides |
 
-## Applications
+## Mechanism of Action
 
-Hypa A has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Cyclotide-mediated membrane disruption
+
+## Bioactivity
+
+Antimicrobial
+
+## Therapeutic Potential
+
+Antimicrobial drug scaffold, anti-infective applications
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

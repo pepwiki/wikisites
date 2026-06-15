@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Biotin-Streptavidin
+
 ## Overview
 
-Biotin-Streptavidin is a peptide compound with applications in research and therapeutics. 
+Biotin-Streptavidin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-Biotin-Streptavidin belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Biotin binds in streptavidin β-barrel central cavity through extensive hydrogen bonding network (8 H-bonds) and hydrophobic contacts. Binding involves conformational closure of flexible loop (L3/4) creating tight fit. Extremely slow dissociation rate (t₁/₂ ~200 days).
 
-## Applications
 
-Biotin-Streptavidin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

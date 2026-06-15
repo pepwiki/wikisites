@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Imipenem/Relebactam
+
 ## Overview
 
-Imipenem/Relebactam is a peptide compound with applications in research and therapeutics. 
-
+Imipenem/Relebactam is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Imipenem/Relebactam belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Imipenem/Relebactam |
+| Sequence | Combination: imipenem (carbapenem) + cilastatin + relebactam (diazabicyclooctane beta-lactamase inhibitor) |
+| Length | Small molecule combination |
+| Molecular Weight | 300 Da (imipenem) + 298 Da (relebactam) |
 
-## Applications
+| Category | Anti-Infective / Beta-Lactamase Inhibitor Combination |
 
-Imipenem/Relebactam has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Relebactam inhibits Class A and Class C beta-lactamases (including KPC); imipenem kills bacteria via PBP binding. Cilastatin prevents renal metabolism of imipenem
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

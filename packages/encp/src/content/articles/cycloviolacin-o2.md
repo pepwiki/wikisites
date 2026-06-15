@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Cycloviolacin O2
+
 ## Overview
 
-Cycloviolacin O2 is a peptide compound with applications in research and therapeutics. 
-
+Cycloviolacin O2 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Viola odorata (Sweet Violet).
 
 
 ## Structure
 
-Cycloviolacin O2 belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Cycloviolacin O2 |
+| Sequence | GIPCGESCVCFTICGCSVCTCYGGG |
+| Length | 30 amino acids |
+| Molecular Weight | ~3,100 Da |
+| Source | Viola odorata (Sweet Violet) |
+| Category | Plant Cyclic Peptides |
 
-## Applications
+## Mechanism of Action
 
-Cycloviolacin O2 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane disruption leading to cell lysis
+
+## Bioactivity
+
+Cytotoxic (potent anti-cancer)
+
+## Therapeutic Potential
+
+Anti-cancer drug development, tumor-targeting conjugates
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

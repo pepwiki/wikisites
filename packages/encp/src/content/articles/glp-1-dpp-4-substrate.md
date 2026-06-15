@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# GLP-1 → DPP-4 (Substrate)
+
 ## Overview
 
-GLP-1 → DPP-4 (Substrate) is a peptide compound with applications in research and therapeutics. 
+GLP-1 → DPP-4 (Substrate) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-GLP-1 → DPP-4 (Substrate) belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+DPP-4 cleaves the N-terminal dipeptide His7-Ala8 of GLP-1, producing GLP-1 (9-36) amide which is biologically inactive at GLP-1R. Cleavage occurs rapidly in circulation, limiting endogenous GLP-1 half-life.
 
-## Applications
 
-GLP-1 → DPP-4 (Substrate) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

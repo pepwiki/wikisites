@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-11-01
 tags: ["hypothalamic", "prolactin", "GPR10", "pituitary", "neuropeptide"]
-category: "Hypothalamic Peptides"
+category: "Neuropeptides"
 difficulty: "intermediate"
 relatedArticles: ["prrp-31", "oxytocin", "trh"]
 citation:

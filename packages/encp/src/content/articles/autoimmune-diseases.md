@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Autoimmune Diseases
+
 ## Overview
 
-Autoimmune Diseases is a peptide compound with applications in research and therapeutics. 
+Autoimmune Diseases is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Autoimmune Diseases belongs to the Peptide Applications class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Autoimmune Diseases has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-applications.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

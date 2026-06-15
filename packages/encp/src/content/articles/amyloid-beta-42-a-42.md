@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Amyloid-beta 42 (Aβ42)
+
 ## Overview
 
-Amyloid-beta 42 (Aβ42) is a peptide compound with applications in research and therapeutics. 
+Amyloid-beta 42 (Aβ42) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Amyloid-beta 42 (Aβ42) belongs to the Biomarker Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Amyloid-beta 42 (Aβ42) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: biomarker-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

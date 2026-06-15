@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Itovebi
+
 ## Overview
 
-Itovebi is a peptide compound with applications in research and therapeutics. 
-
+Itovebi is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Itovebi belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Itovebi |
+| Sequence | Selective PI3Kα inhibitor (see Inavolisib) |
+| Length | Small molecule |
+| Molecular Weight | ~452 Da |
 
-## Applications
+| Category | Oncology / PI3Kα Inhibitor |
 
-Itovebi has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Isoform-selective PI3Kα inhibitor; blocks PI3K/AKT/mTOR signaling pathway
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

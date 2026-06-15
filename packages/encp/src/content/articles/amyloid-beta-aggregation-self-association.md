@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Amyloid-beta Aggregation (Self-association)
+
 ## Overview
 
-Amyloid-beta Aggregation (Self-association) is a peptide compound with applications in research and therapeutics. 
+Amyloid-beta Aggregation (Self-association) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-Amyloid-beta Aggregation (Self-association) belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Aβ monomers undergo conformational change exposing hydrophobic core (residues 17-21: LVFFA), forming β-sheet-rich oligomers. Nucleation-dependent polymerization: monomers → oligomers → protofibrils → mature fibrils. Oligomers are most neurotoxic species.
 
-## Applications
 
-Amyloid-beta Aggregation (Self-association) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

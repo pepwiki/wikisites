@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# MCoTI-I/II
+
 ## Overview
 
-MCoTI-I/II is a peptide compound with applications in research and therapeutics. 
-
+MCoTI-I/II is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Momordica cochinchinensis (Gac).
 
 
 ## Structure
 
-MCoTI-I/II belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | MCoTI-I/II |
+| Sequence | GGGVCPKILKKCRRDSDCPGACICRGNGYCG |
+| Length | 34 amino acids |
+| Molecular Weight | ~3,400 Da |
+| Source | Momordica cochinchinensis (Gac) |
+| Category | Plant Cyclic Peptides |
 
-## Applications
+## Mechanism of Action
 
-MCoTI-I/II has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Competitive inhibition of trypsin active site
+
+## Bioactivity
+
+Trypsin inhibitor
+
+## Therapeutic Potential
+
+Protease inhibitor therapeutics, peptide-based drug scaffold, anti-inflammatory applications
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Cecropin D (Hyalophora)
+
 ## Overview
 
-Cecropin D (Hyalophora) is a peptide compound with applications in research and therapeutics. 
-
+Cecropin D (Hyalophora) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hyalophora cecropia (cecropia moth).
 
 
 ## Structure
 
-Cecropin D (Hyalophora) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Cecropin D (Hyalophora) |
+| Sequence | WNPFKELEKVGQRVRDAVISAGPAVATVAQATALAK |
+| Length | 36 amino acids |
+| Molecular Weight | 3760 Da |
+| Source | Hyalophora cecropia (cecropia moth) |
+| Category | Cecropin / Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Cecropin D (Hyalophora) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane disruption, forms toroidal pores
+
+## Bioactivity
+
+Antimicrobial activity, lower potency than Cecropin A
+
+## Therapeutic Potential
+
+Template for synthetic antimicrobial peptide design
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Natamycin
+
 ## Overview
 
-Natamycin is a peptide compound with applications in research and therapeutics. 
-
+Natamycin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Streptomyces natalensis (actinomycete).
 
 
 ## Structure
 
-Natamycin belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Natamycin |
 
-## Applications
+| Length | N/A (macrolide) |
+| Molecular Weight | 665.73 Da |
+| Source | Streptomyces natalensis (actinomycete) |
+| Category | Fungal Lipopeptide / Antifungal |
 
-Natamycin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds ergosterol disrupting membrane integrity; prevents fungal growth without lysis at low concentrations
+
+## Bioactivity
+
+Antifungal (fungistatic/fungicidal)
+
+## Therapeutic Potential
+
+Food preservative (E235); ophthalmic antifungal; surface treatment for cheeses and meats
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

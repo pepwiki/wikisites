@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# PSA (Prostate-Specific Antigen)
+
 ## Overview
 
-PSA (Prostate-Specific Antigen) is a peptide compound with applications in research and therapeutics. 
+PSA (Prostate-Specific Antigen) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-PSA (Prostate-Specific Antigen) belongs to the Biomarker Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-PSA (Prostate-Specific Antigen) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: biomarker-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-10-30
 tags: ["opioid", "mu-receptor", "endomorphin", "analgesia", "pentapeptide"]
-category: "Opioid Peptides"
+category: "Neuropeptides"
 difficulty: "intermediate"
 relatedArticles: ["endomorphin-2", "beta-endorphin", "enkephalins"]
 citation:

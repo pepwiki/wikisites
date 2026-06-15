@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Phyllocerulein
+
 ## Overview
 
-Phyllocerulein is a peptide compound with applications in research and therapeutics. 
-
+Phyllocerulein is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Phyllomedusa sauvagei.
 
 
 ## Structure
 
-Phyllocerulein belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Phyllocerulein |
+| Sequence | pEQDYTGWMDF-NH2 |
+| Length | 10 amino acids |
+| Molecular Weight | 1271.3 Da |
+| Source | Phyllomedusa sauvagei |
+| Category | Amphibian Caerulein |
 
-## Applications
+## Mechanism of Action
 
-Phyllocerulein has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Non-sulfated caerulein analog, reduced CCK receptor affinity
+
+## Bioactivity
+
+Mild GI stimulation, reduced potency compared to caerulein
+
+## Therapeutic Potential
+
+GI research, structure-activity studies
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

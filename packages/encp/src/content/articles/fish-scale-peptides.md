@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Fish Scale Peptides
+
 ## Overview
 
-Fish Scale Peptides is a peptide compound with applications in research and therapeutics. 
-
+Fish Scale Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Various (tilapia, carp, salmon).
 
 
 ## Structure
 
-Fish Scale Peptides belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Fish Scale Peptides |
+| Sequence | Hydroxyapatite-bound collagen peptides with mineral-chelating sequences |
+| Length | 5-20 amino acids |
+| Molecular Weight | 500-3,000 Da |
+| Source | Various (tilapia, carp, salmon) |
+| Category | Fish Collagen |
 
-## Applications
+## Mechanism of Action
 
-Fish Scale Peptides has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Promotes osteoblast differentiation; enhances calcium bioavailability; stimulates dermal collagen remodeling
+
+## Bioactivity
+
+Bone health promotion, skin rejuvenation, mineral absorption enhancement
+
+## Therapeutic Potential
+
+Osteoporosis supplements, cosmetic formulations, bone graft materials, calcium-fortified foods
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

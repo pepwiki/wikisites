@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Neuropeptide B (NPB)
+
 ## Overview
 
-Neuropeptide B (NPB) is a peptide compound with applications in research and therapeutics. 
-
+Neuropeptide B (NPB) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Neuropeptide B (NPB) belongs to the Neuropeptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Neuropeptide B (NPB) |
+| Sequence | WYKPAAGGRFYSERLSGRDGAQRGSEEQAL |
+| Length | 29 amino acids |
+| Molecular Weight | 3346.7 Da |
 
-## Applications
+| Category | Neuropeptide B/W family |
 
-Neuropeptide B (NPB) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Gi/Go-coupled; inhibits adenylyl cyclase, modulates K+ channels
+
+
 
 ## References
 
-- Source: neuropeptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

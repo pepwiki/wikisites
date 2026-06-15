@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Snakin
+
 ## Overview
 
-Snakin is a peptide compound with applications in research and therapeutics. 
-
+Snakin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Solanum tuberosum (Potato).
 
 
 ## Structure
 
-Snakin belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Snakin |
+| Sequence | DVCPGVLSNSECCKGWCCRFPCQCRSCHGVPGIGKEGPRCHC |
+| Length | 63 amino acids |
+| Molecular Weight | ~7,000 Da |
+| Source | Solanum tuberosum (Potato) |
+| Category | Plant Defense Peptides |
 
-## Applications
+## Mechanism of Action
 
-Snakin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane disruption and microbial agglutination
+
+## Bioactivity
+
+Antimicrobial (antibacterial and antifungal)
+
+## Therapeutic Potential
+
+Transgenic crop resistance, antimicrobial coatings, agricultural biotechnology
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

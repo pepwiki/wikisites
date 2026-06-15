@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# GRANITE
+
 ## Overview
 
-GRANITE is a peptide compound with applications in research and therapeutics. 
-
+GRANITE is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-GRANITE belongs to the Synthetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | GRANITE |
+| Sequence | Personalized neoantigen peptide cocktail |
+| Length | Variable (20+ neoantigens per patient) |
+| Molecular Weight | Variable |
 
-## Applications
+| Category | Peptide Vaccines |
 
-GRANITE has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Prime-boost immunization generating neoantigen-specific CD4+ and CD8+ T cell responses
+
+
 
 ## References
 
-- Source: synthetic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

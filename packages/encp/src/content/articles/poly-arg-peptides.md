@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Poly-Arg Peptides
+
 ## Overview
 
-Poly-Arg Peptides is a peptide compound with applications in research and therapeutics. 
-
+Poly-Arg Peptides is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Poly-Arg Peptides belongs to the Synthetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Poly-Arg Peptides |
+| Sequence | Arg-Arg-Arg-Arg-Arg-Arg-Arg-Arg-Arg (R9 typical) |
+| Length | 9-15 residues |
+| Molecular Weight | ~1500-2500 Da |
 
-## Applications
+| Category | Research Synthetic |
 
-Poly-Arg Peptides has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Electrostatic interaction with cell surface, endocytosis-mediated uptake, endosomal escape
+
+
 
 ## References
 
-- Source: synthetic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

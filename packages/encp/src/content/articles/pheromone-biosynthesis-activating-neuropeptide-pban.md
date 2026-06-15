@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Pheromone Biosynthesis Activating Neuropeptide (PBAN)
+
 ## Overview
 
-Pheromone Biosynthesis Activating Neuropeptide (PBAN) is a peptide compound with applications in research and therapeutics. 
-
+Pheromone Biosynthesis Activating Neuropeptide (PBAN) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Helicoverpa zea (corn earworm moth).
 
 
 ## Structure
 
-Pheromone Biosynthesis Activating Neuropeptide (PBAN) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Pheromone Biosynthesis Activating Neuropeptide (PBAN) |
+| Sequence | DSGADGRLYSFSPRLamide (Heliothis) |
+| Length | 33-34 amino acids (mature form) |
+| Molecular Weight | 3850 Da |
+| Source | Helicoverpa zea (corn earworm moth) |
+| Category | Insect Hormone / Reproduction |
 
-## Applications
+## Mechanism of Action
 
-Pheromone Biosynthesis Activating Neuropeptide (PBAN) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Activates PBAN receptor on pheromone gland cells, stimulates biosynthetic enzymes
+
+## Bioactivity
+
+Stimulates sex pheromone production in female moths
+
+## Therapeutic Potential
+
+Mating disruption for pest control, pheromone-based IPM strategies
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

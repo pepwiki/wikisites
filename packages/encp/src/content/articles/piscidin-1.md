@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Piscidin 1
+
 ## Overview
 
-Piscidin 1 is a peptide compound with applications in research and therapeutics. 
-
+Piscidin 1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hybrid striped bass (Morone saxatilis x M. chrysops).
 
 
 ## Structure
 
-Piscidin 1 belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Piscidin 1 |
+| Sequence | FFHHIFRGIVHVGKTIHRLVTG |
+| Length | 22 amino acids |
+| Molecular Weight | 2660.1 Da |
+| Source | Hybrid striped bass (Morone saxatilis x M. chrysops) |
+| Category | Fish Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Piscidin 1 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Amphipathic alpha-helical peptide; disrupts microbial membranes through pore formation and lipid bilayer perturbation
+
+## Bioactivity
+
+Broad-spectrum antimicrobial activity against Gram-positive and Gram-negative bacteria, fungi, and viruses
+
+## Therapeutic Potential
+
+Alternative to conventional antibiotics, wound healing, aquaculture disease prevention
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

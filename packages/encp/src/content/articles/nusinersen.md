@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Nusinersen
+
 ## Overview
 
-Nusinersen is a peptide compound with applications in research and therapeutics. 
-
+Nusinersen is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Nusinersen belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Nusinersen |
+| Sequence | 2′-O-(2-methoxyethyl) phosphorothioate antisense oligonucleotide (18-mer) |
+| Length | 18 nucleotides (2′-MOE chemistry) |
+| Molecular Weight | ~7.1 kDa (sodium salt) |
 
-## Applications
+| Category | Rare Disease / Antisense Oligonucleotide |
 
-Nusinersen has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Antisense oligonucleotide binds ISS-N1 (intronic splicing silencer) in SMN2 pre-mRNA, promoting inclusion of exon 7 in mature mRNA, thereby increasing full-length SMN protein production
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

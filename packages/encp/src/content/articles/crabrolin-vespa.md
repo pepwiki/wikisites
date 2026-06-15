@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Crabrolin (Vespa)
+
 ## Overview
 
-Crabrolin (Vespa) is a peptide compound with applications in research and therapeutics. 
-
+Crabrolin (Vespa) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Vespa crabro (European hornet).
 
 
 ## Structure
 
-Crabrolin (Vespa) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Crabrolin (Vespa) |
+| Sequence | FKLKESFGPNFRamide |
+| Length | 13 amino acids |
+| Molecular Weight | 1508 Da |
+| Source | Vespa crabro (European hornet) |
+| Category | Venom Peptide / Mast Cell Activator |
 
-## Applications
+## Mechanism of Action
 
-Crabrolin (Vespa) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Stimulates mast cell degranulation, membrane permeabilization
+
+## Bioactivity
+
+Mast cell degranulation, antimicrobial activity, histamine release
+
+## Therapeutic Potential
+
+Immunomodulatory research, antimicrobial peptide development
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

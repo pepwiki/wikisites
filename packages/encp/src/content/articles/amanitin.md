@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Amanitin
+
 ## Overview
 
-Amanitin is a peptide compound with applications in research and therapeutics. 
-
+Amanitin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Amanita phalloides (Death Cap).
 
 
 ## Structure
 
-Amanitin belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Amanitin |
 
-## Applications
+| Length | 8 amino acids |
+| Molecular Weight | 918.97 Da |
+| Source | Amanita phalloides (Death Cap) |
+| Category | Fungal Cyclopeptide / Toxin |
 
-Amanitin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds to RNA Pol II bridge helix, blocking transcription elongation; prevents mRNA synthesis
+
+## Bioactivity
+
+Potent hepatotoxin, lethal at microgram doses
+
+## Therapeutic Potential
+
+Antibody-drug conjugates (ADCs) for targeted cancer therapy (e.g., amanitin-conjugated ADCs)
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

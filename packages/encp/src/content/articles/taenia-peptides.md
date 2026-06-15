@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Taenia Peptides
+
 ## Overview
 
-Taenia Peptides is a peptide compound with applications in research and therapeutics. 
-
+Taenia Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Taenia solium, T. saginata, T. crassiceps.
 
 
 ## Structure
 
-Taenia Peptides belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Taenia Peptides |
+| Sequence | Including KETc7, KETc12, paramyosin-derived peptides |
+| Length | 10-180 amino acids (varies) |
+| Molecular Weight | 1000-22000 Da |
+| Source | Taenia solium, T. saginata, T. crassiceps |
+| Category | Flatworm Parasitic / Tapeworm |
 
-## Applications
+## Mechanism of Action
 
-Taenia Peptides has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Molecular mimicry, protease inhibitor secretion, immune modulation
+
+## Bioactivity
+
+Neurocysticercosis pathology, larval survival, host immune suppression
+
+## Therapeutic Potential
+
+Vaccine development (KETc7), diagnostic peptides, antiparasitic drugs
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

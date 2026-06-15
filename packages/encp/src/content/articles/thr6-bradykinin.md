@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Thr6-bradykinin
+
 ## Overview
 
-Thr6-bradykinin is a peptide compound with applications in research and therapeutics. 
-
+Thr6-bradykinin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Rana temporaria.
 
 
 ## Structure
 
-Thr6-bradykinin belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Thr6-bradykinin |
+| Sequence | RPPGFSPTR |
+| Length | 9 amino acids |
+| Molecular Weight | 1018.1 Da |
+| Source | Rana temporaria |
+| Category | Amphibian Bradykinin |
 
-## Applications
+## Mechanism of Action
 
-Thr6-bradykinin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+B2 receptor agonist with threonine substitution, altered receptor binding kinetics
+
+## Bioactivity
+
+Vasodilation, reduced inflammatory potency compared to native bradykinin
+
+## Therapeutic Potential
+
+Kinin system research, vasodilator development
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

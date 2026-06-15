@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Moronecidin
+
 ## Overview
 
-Moronecidin is a peptide compound with applications in research and therapeutics. 
-
+Moronecidin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hybrid striped bass (Morone saxatilis x M. chrysops).
 
 
 ## Structure
 
-Moronecidin belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Moronecidin |
+| Sequence | FFHHIFRGIVHVGKTIHRLVTG (piscidin family) |
+| Length | 22 amino acids |
+| Molecular Weight | 2650.1 Da |
+| Source | Hybrid striped bass (Morone saxatilis x M. chrysops) |
+| Category | Fish Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Moronecidin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Alpha-helical amphipathic peptide; forms voltage-dependent channels in bacterial membranes
+
+## Bioactivity
+
+Potent activity against antibiotic-resistant bacteria including MRSA
+
+## Therapeutic Potential
+
+Anti-MRSA agents, last-resort antibiotics, medical device coatings
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

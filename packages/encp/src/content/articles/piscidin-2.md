@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Piscidin 2
+
 ## Overview
 
-Piscidin 2 is a peptide compound with applications in research and therapeutics. 
-
+Piscidin 2 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hybrid striped bass (Morone saxatilis x M. chrysops).
 
 
 ## Structure
 
-Piscidin 2 belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Piscidin 2 |
+| Sequence | FFHHIFRGIVHAGRSIHRLVTG |
+| Length | 22 amino acids |
+| Molecular Weight | 2618.0 Da |
+| Source | Hybrid striped bass (Morone saxatilis x M. chrysops) |
+| Category | Fish Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Piscidin 2 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane disruption via alpha-helical structure insertion; preferentially targets Gram-positive organisms
+
+## Bioactivity
+
+Antimicrobial activity primarily against Gram-positive bacteria and Candida species
+
+## Therapeutic Potential
+
+Anti-infective agents, topical antimicrobial formulations
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

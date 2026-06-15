@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# SMAP-29
+
 ## Overview
 
-SMAP-29 is a peptide compound with applications in research and therapeutics. 
-
+SMAP-29 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Ovis aries (Sheep).
 
 
 ## Structure
 
-SMAP-29 belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | SMAP-29 |
+| Sequence | RGLRRLGRKIAHGVKKYGPTVLRIIRIA |
+| Length | 28 amino acids |
+| Molecular Weight | 3187.0 Da |
+| Source | Ovis aries (Sheep) |
+| Category | Ovine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-SMAP-29 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Alpha-helical cathelicidin, forms transmembrane pores causing membrane disruption
+
+## Bioactivity
+
+Potent broad-spectrum antimicrobial against bacteria, fungi, and some viruses
+
+## Therapeutic Potential
+
+Treatment of multidrug-resistant infections, antifungal therapy
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

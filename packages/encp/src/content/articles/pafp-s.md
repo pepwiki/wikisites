@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# PAFP-S
+
 ## Overview
 
-PAFP-S is a peptide compound with applications in research and therapeutics. 
-
+PAFP-S is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Phytolacca americana (Pokeweed).
 
 
 ## Structure
 
-PAFP-S belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | PAFP-S |
+| Sequence | AGGRQCRQRCGGQCGSQCGGRQCRGQCGG |
+| Length | 111 amino acids |
+| Molecular Weight | ~12,000 Da |
+| Source | Phytolacca americana (Pokeweed) |
+| Category | Plant Defense Peptides |
 
-## Applications
+## Mechanism of Action
 
-PAFP-S has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Chitin binding and membrane disruption
+
+## Bioactivity
+
+Antifungal
+
+## Therapeutic Potential
+
+Antifungal drug development, transgenic crop protection
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

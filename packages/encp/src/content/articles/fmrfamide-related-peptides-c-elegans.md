@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# FMRFamide-related Peptides (C. elegans)
+
 ## Overview
 
-FMRFamide-related Peptides (C. elegans) is a peptide compound with applications in research and therapeutics. 
-
+FMRFamide-related Peptides (C. elegans) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans.
 
 
 ## Structure
 
-FMRFamide-related Peptides (C. elegans) belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | FMRFamide-related Peptides (C. elegans) |
+| Sequence | Multiple isoforms including SDPNFLRFamide, SADPNFLRFamide, ASGGSMNFLRFamide, KNEFIRFamide |
+| Length | 8-11 amino acids (varies by isoform) |
+| Molecular Weight | 900-1200 Da |
+| Source | Caenorhabditis elegans |
+| Category | Nematode Neuropeptide / FMRFamide |
 
-## Applications
+## Mechanism of Action
 
-FMRFamide-related Peptides (C. elegans) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Neuropeptide signaling modulation, activates FMRFamide-gated sodium channels, modulates locomotion and feeding behavior
+
+## Bioactivity
+
+Neuromodulation of body wall muscle contraction, regulation of egg-laying, pharyngeal pumping
+
+## Therapeutic Potential
+
+Anthelmintic drug targets, neuromodulatory research tools
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

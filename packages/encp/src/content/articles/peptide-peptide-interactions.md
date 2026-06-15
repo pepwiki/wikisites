@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-07-10
 tags: ["coiled-coils", "leucine-zippers", "amyloid", "structural-biology", "protein-interactions"]
-category: "Structural Biology"
+category: "Peptide Analysis"
 difficulty: "intermediate"
 relatedArticles: ["peptide-self-assembly", "cyclic-peptides-drug-discovery"]
 citation:

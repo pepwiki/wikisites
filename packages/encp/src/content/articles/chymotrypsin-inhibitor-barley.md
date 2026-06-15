@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Chymotrypsin Inhibitor (Barley)
+
 ## Overview
 
-Chymotrypsin Inhibitor (Barley) is a peptide compound with applications in research and therapeutics. 
-
+Chymotrypsin Inhibitor (Barley) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hordeum vulgare (Barley).
 
 
 ## Structure
 
-Chymotrypsin Inhibitor (Barley) belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Chymotrypsin Inhibitor (Barley) |
+| Sequence | DTEKPRGYGGGSGGGSTFDYNGTEPYLRNG |
+| Length | 83 amino acids |
+| Molecular Weight | ~9,000 Da |
+| Source | Hordeum vulgare (Barley) |
+| Category | Count |
 
-## Applications
+## Mechanism of Action
 
-Chymotrypsin Inhibitor (Barley) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Substrate-like binding in active site, classic serine protease inhibitor
+
+## Bioactivity
+
+Protease inhibitor
+
+## Therapeutic Potential
+
+Protein folding studies, protease inhibitor drug design, crop protection
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

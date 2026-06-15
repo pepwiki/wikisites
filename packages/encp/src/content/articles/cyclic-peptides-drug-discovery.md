@@ -6,7 +6,7 @@ author: "Encyclopeptide Editorial"
 pubDate: 2024-11-05
 tags:
   ["cyclic-peptides", "drug-discovery", "stapled-peptides", "cell-permeability", "peptidomimetics"]
-category: "Drug Design"
+category: "Drug Development"
 difficulty: "intermediate"
 relatedArticles: ["peptide-self-assembly", "peptide-formulation-stability"]
 citation:

@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Biotage Syro
+
 ## Overview
 
-Biotage Syro is a peptide compound with applications in research and therapeutics. 
+Biotage Syro is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Biotage Syro belongs to the Peptide Research Tools class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Biotage Syro has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-research-tools.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

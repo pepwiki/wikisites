@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Soyacystatin
+
 ## Overview
 
-Soyacystatin is a peptide compound with applications in research and therapeutics. 
-
+Soyacystatin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Glycine max (Soybean).
 
 
 ## Structure
 
-Soyacystatin belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Soyacystatin |
+| Sequence | QVVAGTNYYILRAGLPPYQPVHFGGSGCGA |
+| Length | ~120 amino acids |
+| Molecular Weight | ~13,000 Da |
+| Source | Glycine max (Soybean) |
+| Category | Plant Bioactive Peptides |
 
-## Applications
+## Mechanism of Action
 
-Soyacystatin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Competitive inhibition via tight-binding mechanism
+
+## Bioactivity
+
+Cysteine protease inhibitor
+
+## Therapeutic Potential
+
+Anti-parasitic therapy, anti-cancer applications, food preservation
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

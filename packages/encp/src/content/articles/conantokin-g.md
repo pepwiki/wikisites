@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Conantokin G
+
 ## Overview
 
-Conantokin G is a peptide compound with applications in research and therapeutics. 
-
+Conantokin G is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Conus geographus.
 
 
 ## Structure
 
-Conantokin G belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Conantokin G |
 
-## Applications
+| Length | 17 amino acids |
+| Molecular Weight | ~2300 Da |
+| Source | Conus geographus |
+| Category | Marine Anti-Inflammatory / Neuroprotective |
 
-Conantokin G has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+NMDA receptor antagonist, selective for NR2B subunit
+
+## Bioactivity
+
+Neuroprotective, anti-excitotoxic, anti-inflammatory
+
+## Therapeutic Potential
+
+Stroke, epilepsy, chronic pain
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

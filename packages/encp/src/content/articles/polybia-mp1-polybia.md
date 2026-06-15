@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Polybia-MP1 (Polybia)
+
 ## Overview
 
-Polybia-MP1 (Polybia) is a peptide compound with applications in research and therapeutics. 
-
+Polybia-MP1 (Polybia) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Polybia paulista (neotropical social wasp).
 
 
 ## Structure
 
-Polybia-MP1 (Polybia) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Polybia-MP1 (Polybia) |
+| Sequence | IDWKKLLDAAKQILamide |
+| Length | 14 amino acids |
+| Molecular Weight | 1618 Da |
+| Source | Polybia paulista (neotropical social wasp) |
+| Category | Venom Peptide / Membrane Disruption |
 
-## Applications
+## Mechanism of Action
 
-Polybia-MP1 (Polybia) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Selective membrane disruption of cancer cells; binds phosphatidylserine exposed on cancer cells
+
+## Bioactivity
+
+Selective cytotoxicity against cancer cells, minimal normal cell damage
+
+## Therapeutic Potential
+
+Anti-cancer therapy, selective cancer cell killing, drug delivery system component
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

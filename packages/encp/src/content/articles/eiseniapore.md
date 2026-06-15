@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Eiseniapore
+
 ## Overview
 
-Eiseniapore is a peptide compound with applications in research and therapeutics. 
-
+Eiseniapore is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Eisenia fetida (red wiggler earthworm).
 
 
 ## Structure
 
-Eiseniapore belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Eiseniapore |
+| Sequence | Single-chain pore-forming protein |
+| Length | 41 kDa protein |
+| Molecular Weight | 41000 Da |
+| Source | Eisenia fetida (red wiggler earthworm) |
+| Category | Earthworm Hemolytic Peptide |
 
-## Applications
+## Mechanism of Action
 
-Eiseniapore has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Pore-forming toxin, creates transmembrane channels in lipid bilayers, cholesterol-dependent
+
+## Bioactivity
+
+Hemolytic activity, cytolytic against various cell types
+
+## Therapeutic Potential
+
+Research tool for membrane biophysics, drug delivery system development
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

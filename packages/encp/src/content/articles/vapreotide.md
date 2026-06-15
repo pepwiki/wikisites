@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Vapreotide
+
 ## Overview
 
-Vapreotide is a peptide compound with applications in research and therapeutics. 
-
+Vapreotide is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Vapreotide belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Vapreotide |
+| Sequence | D-Phe-Cys-Tyr-D-Trp-Lys-Val-Cys-Trp-NH2 (cyclic) |
 
-## Applications
+| Molecular Weight | 1131 Da |
 
-Vapreotide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Endocrine / Somatostatin Analog |
+
+## Mechanism of Action
+
+Somatostatin receptor agonist; reduces splanchnic blood flow and inhibits GI secretion
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

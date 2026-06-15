@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# NLP-8 (C. elegans)
+
 ## Overview
 
-NLP-8 (C. elegans) is a peptide compound with applications in research and therapeutics. 
-
+NLP-8 (C. elegans) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans.
 
 
 ## Structure
 
-NLP-8 (C. elegans) belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | NLP-8 (C. elegans) |
+| Sequence | DSAFENPEFLRFamide-like peptides |
+| Length | 11-13 amino acids (processed forms) |
+| Molecular Weight | 1250-1480 Da |
+| Source | Caenorhabditis elegans |
+| Category | Nematode Neuropeptide / NLP |
 
-## Applications
+## Mechanism of Action
 
-NLP-8 (C. elegans) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Myoactive neuropeptide, modulates muscle contraction amplitude
+
+## Bioactivity
+
+Regulation of muscle tone and contractile force
+
+## Therapeutic Potential
+
+Target for muscle-paralyzing anthelmintics
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

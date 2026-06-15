@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Captopril
+
 ## Overview
 
-Captopril is a peptide compound with applications in research and therapeutics. 
-
+Captopril is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Captopril belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Captopril |
+| Sequence | N/A (peptide-derived: D-3-mercapto-2-methylpropanoyl-L-proline) |
+| Length | Dipeptide derivative |
+| Molecular Weight | 217 Da |
 
-## Applications
+| Category | Cardiovascular / ACE Inhibitor (peptide-derived) |
 
-Captopril has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+ACE inhibitor; blocks conversion of angiotensin I to II
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

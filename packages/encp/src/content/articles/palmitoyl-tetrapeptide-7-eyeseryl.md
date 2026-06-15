@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Palmitoyl Tetrapeptide-7 (Eyeseryl)
+
 ## Overview
 
-Palmitoyl Tetrapeptide-7 (Eyeseryl) is a peptide compound with applications in research and therapeutics. 
-
+Palmitoyl Tetrapeptide-7 (Eyeseryl) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Palmitoyl Tetrapeptide-7 (Eyeseryl) belongs to the Synthetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Palmitoyl Tetrapeptide-7 (Eyeseryl) |
+| Sequence | Pal-Gln-Gly-Arg-OH |
+| Length | 3 residues + palmitoyl (tetrapeptide including palmitate) |
+| Molecular Weight | ~624 Da |
 
-## Applications
+| Category | Cosmetic Synthetic |
 
-Palmitoyl Tetrapeptide-7 (Eyeseryl) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Suppresses IL-6-mediated inflammation and prevents accumulation of glycotoxins in skin
+
+
 
 ## References
 
-- Source: synthetic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

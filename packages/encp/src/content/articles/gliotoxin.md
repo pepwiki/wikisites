@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Gliotoxin
+
 ## Overview
 
-Gliotoxin is a peptide compound with applications in research and therapeutics. 
-
+Gliotoxin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Aspergillus fumigatus.
 
 
 ## Structure
 
-Gliotoxin belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Gliotoxin |
 
-## Applications
+| Length | 2 amino acids (diketopiperazine core) |
+| Molecular Weight | 326.37 Da |
+| Source | Aspergillus fumigatus |
+| Category | Fungal Cyclopeptide / Toxin |
 
-Gliotoxin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Inhibits NF-kB by preventing I-kB degradation; generates reactive oxygen species; induces apoptosis
+
+## Bioactivity
+
+Immunosuppressive, anti-inflammatory, pro-apoptotic
+
+## Therapeutic Potential
+
+Autoimmune disease therapy; anti-inflammatory drug development; antifungal virulence factor research
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

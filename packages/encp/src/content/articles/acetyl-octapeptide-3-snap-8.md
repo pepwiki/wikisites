@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Acetyl Octapeptide-3 (SNAP-8)
+
 ## Overview
 
-Acetyl Octapeptide-3 (SNAP-8) is a peptide compound with applications in research and therapeutics. 
-
+Acetyl Octapeptide-3 (SNAP-8) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Acetyl Octapeptide-3 (SNAP-8) belongs to the Synthetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Acetyl Octapeptide-3 (SNAP-8) |
+| Sequence | Ac-Glu-Met-Gln-Arg-Arg-Ala-Asp-NH2 |
+| Length | 8 residues |
+| Molecular Weight | 1075.2 Da |
 
-## Applications
+| Category | Cosmetic Synthetic |
 
-Acetyl Octapeptide-3 (SNAP-8) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+More potent SNARE complex inhibition than hexapeptide-3, further reducing expression lines
+
+
 
 ## References
 
-- Source: synthetic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Zebrafish NPY
+
 ## Overview
 
-Zebrafish NPY is a peptide compound with applications in research and therapeutics. 
-
+Zebrafish NPY is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Zebrafish (Danio rerio).
 
 
 ## Structure
 
-Zebrafish NPY belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Zebrafish NPY |
+| Sequence | YPSKPDNPGEDAPAEDMARYYSALRHYINLITRQRY |
+| Length | 36 amino acids |
+| Molecular Weight | 4190.5 Da |
+| Source | Zebrafish (Danio rerio) |
+| Category | Fish Neuropeptide |
 
-## Applications
+## Mechanism of Action
 
-Zebrafish NPY has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Conserved appetite regulation across vertebrates; modulates feeding, anxiety, and neurogenesis
+
+## Bioactivity
+
+Appetite stimulation, anxiolytic effects, neural stem cell regulation
+
+## Therapeutic Potential
+
+Model organism for human NPY research, obesity therapeutics, neuroscience research
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

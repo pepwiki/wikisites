@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Dendrotoxin
+
 ## Overview
 
-Dendrotoxin is a peptide compound with applications in research and therapeutics. 
-
+Dendrotoxin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Scorpion fish (Scorpaenidae family).
 
 
 ## Structure
 
-Dendrotoxin belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Dendrotoxin |
+| Sequence | Small basic peptide with 3 disulfide bonds |
+| Length | 57-60 amino acids |
+| Molecular Weight | 6,800 Da |
+| Source | Scorpion fish (Scorpaenidae family) |
+| Category | Fish Venom |
 
-## Applications
+## Mechanism of Action
 
-Dendrotoxin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Blocks potassium channels; enhances neurotransmitter release; prevents channel gating
+
+## Bioactivity
+
+Neurotoxicity, convulsant effects, enhanced synaptic transmission
+
+## Therapeutic Potential
+
+Potassium channel research tool, neurodegenerative disease research, epilepsy studies
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Lypressin
+
 ## Overview
 
-Lypressin is a peptide compound with applications in research and therapeutics. 
-
+Lypressin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Lypressin belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Lypressin |
+| Sequence | CYFQNCPRG-NH2 (Lys8 vasopressin) |
 
-## Applications
+| Molecular Weight | 1056 Da |
 
-Lypressin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Renal / Vasopressin Analog |
+
+## Mechanism of Action
+
+V2 receptor agonist; promotes water reabsorption in renal collecting ducts
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

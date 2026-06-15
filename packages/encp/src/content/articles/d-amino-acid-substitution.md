@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# D-Amino Acid Substitution
+
 ## Overview
 
-D-Amino Acid Substitution is a peptide compound with applications in research and therapeutics. 
+D-Amino Acid Substitution is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-D-Amino Acid Substitution belongs to the Peptide Modifications class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-D-Amino Acid Substitution has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-modifications.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

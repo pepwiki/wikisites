@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Leu-enkephalin
+
 ## Overview
 
-Leu-enkephalin is a peptide compound with applications in research and therapeutics. 
-
+Leu-enkephalin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Leu-enkephalin belongs to the Neuropeptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Leu-enkephalin |
+| Sequence | YGGFL |
+| Length | 5 amino acids |
+| Molecular Weight | 555.6 Da |
 
-## Applications
+| Category | Endogenous opioid peptide |
 
-Leu-enkephalin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Gi/Go-coupled; inhibits adenylyl cyclase, activates GIRK channels
+
+
 
 ## References
 
-- Source: neuropeptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

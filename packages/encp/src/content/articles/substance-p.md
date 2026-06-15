@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-05-20
 tags: ["substance-P", "tachykinin", "undecapeptide", "pain", "neurogenic-inflammation", "NK1"]
-category: "Undecapeptides"
+category: "Peptide Sequence"
 difficulty: "advanced"
 relatedArticles: ["bradykinin", "oxytocin", "angiotensin-ii"]
 citation:

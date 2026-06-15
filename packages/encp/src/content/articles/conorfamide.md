@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Conorfamide
+
 ## Overview
 
-Conorfamide is a peptide compound with applications in research and therapeutics. 
-
+Conorfamide is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Conus striatus (striated cone).
 
 
 ## Structure
 
-Conorfamide belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Conorfamide |
 
-## Applications
+| Length | ~10-15 amino acids |
+| Molecular Weight | ~1200-1800 Da |
+| Source | Conus striatus (striated cone) |
+| Category | Marine Anti-Inflammatory / Analgesic |
 
-Conorfamide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Modulates pain via RFamide receptor pathways
+
+## Bioactivity
+
+Analgesic, anti-inflammatory
+
+## Therapeutic Potential
+
+Pain modulation, opioid tolerance management
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

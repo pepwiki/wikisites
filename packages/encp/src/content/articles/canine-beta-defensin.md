@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Canine Beta-Defensin
+
 ## Overview
 
-Canine Beta-Defensin is a peptide compound with applications in research and therapeutics. 
-
+Canine Beta-Defensin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Canis lupus familiaris (Dog).
 
 
 ## Structure
 
-Canine Beta-Defensin belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Canine Beta-Defensin |
+| Sequence | GYCACRRRFCIGGGSCCRRYCVCLR |
+| Length | 36 amino acids |
+| Molecular Weight | 3980.6 Da |
+| Source | Canis lupus familiaris (Dog) |
+| Category | Canine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Canine Beta-Defensin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Beta-defensin with disulfide stabilization, antimicrobial and immunomodulatory
+
+## Bioactivity
+
+Antimicrobial activity, chemotaxis of immune cells
+
+## Therapeutic Potential
+
+Dermatological infections, immunomodulatory therapy
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

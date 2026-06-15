@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Amphotericin B
+
 ## Overview
 
-Amphotericin B is a peptide compound with applications in research and therapeutics. 
-
+Amphotericin B is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Streptomyces nodosus (actinomycete).
 
 
 ## Structure
 
-Amphotericin B belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Amphotericin B |
 
-## Applications
+| Length | N/A (macrolide, ~38 atoms in ring) |
+| Molecular Weight | 924.08 Da |
+| Source | Streptomyces nodosus (actinomycete) |
+| Category | Fungal Lipopeptide / Antifungal |
 
-Amphotericin B has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds ergosterol forming transmembrane pores; causes K+ leakage, osmotic lysis; also interacts with cholesterol
+
+## Bioactivity
+
+Antifungal (broad spectrum, fungicidal), antiparasitic
+
+## Therapeutic Potential
+
+Gold standard for invasive fungal infections; liposomal formulations reduce nephrotoxicity
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

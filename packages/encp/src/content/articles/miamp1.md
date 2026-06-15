@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# MiAMP1
+
 ## Overview
 
-MiAMP1 is a peptide compound with applications in research and therapeutics. 
-
+MiAMP1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Macadamia integrifolia (Macadamia).
 
 
 ## Structure
 
-MiAMP1 belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | MiAMP1 |
+| Sequence | QWGRRCCGWGPGRRYCRRW |
+| Length | 76 amino acids |
+| Molecular Weight | ~8,500 Da |
+| Source | Macadamia integrifolia (Macadamia) |
+| Category | Plant Defense Peptides |
 
-## Applications
+## Mechanism of Action
 
-MiAMP1 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Disruption of fungal membrane integrity
+
+## Bioactivity
+
+Antimicrobial, antifungal
+
+## Therapeutic Potential
+
+Agricultural antifungal, nutraceutical applications
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

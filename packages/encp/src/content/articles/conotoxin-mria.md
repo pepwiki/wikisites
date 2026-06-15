@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# χ-Conotoxin MrIA
+
 ## Overview
 
-χ-Conotoxin MrIA is a peptide compound with applications in research and therapeutics. 
-
+χ-Conotoxin MrIA is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Conus marmoreus (marbled cone).
 
 
 ## Structure
 
-χ-Conotoxin MrIA belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | χ-Conotoxin MrIA |
 
-## Applications
+| Length | 16 amino acids |
+| Molecular Weight | ~1800 Da |
+| Source | Conus marmoreus (marbled cone) |
+| Category | Marine Peptide Drug |
 
-χ-Conotoxin MrIA has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Selective inhibitor of noradrenaline reuptake
+
+## Bioactivity
+
+Analgesic, anti-inflammatory
+
+## Therapeutic Potential
+
+Neuropathic pain (Phase II clinical trials)
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

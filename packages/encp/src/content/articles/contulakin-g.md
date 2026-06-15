@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Contulakin-G
+
 ## Overview
 
-Contulakin-G is a peptide compound with applications in research and therapeutics. 
-
+Contulakin-G is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Conus geographus (geography cone).
 
 
 ## Structure
 
-Contulakin-G belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Contulakin-G |
 
-## Applications
+| Length | 16 amino acids |
+| Molecular Weight | ~1700 Da |
+| Source | Conus geographus (geography cone) |
+| Category | Marine Anti-Inflammatory / Analgesic |
 
-Contulakin-G has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Agonist at neurotensin receptors, modulates pain pathways
+
+## Bioactivity
+
+Analgesic, anti-inflammatory
+
+## Therapeutic Potential
+
+Chronic pain management, neuroinflammation
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

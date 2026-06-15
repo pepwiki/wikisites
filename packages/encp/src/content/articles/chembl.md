@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# ChEMBL
+
 ## Overview
 
-ChEMBL is a peptide compound with applications in research and therapeutics. 
+ChEMBL is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-ChEMBL belongs to the Peptide Databases class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-ChEMBL has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-databases.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Sapecin (Sarcophaga)
+
 ## Overview
 
-Sapecin (Sarcophaga) is a peptide compound with applications in research and therapeutics. 
-
+Sapecin (Sarcophaga) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Sarcophaga peregrina (flesh fly).
 
 
 ## Structure
 
-Sapecin (Sarcophaga) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Sapecin (Sarcophaga) |
+| Sequence | ATCDLLSGFGVGHACAAHCLVKGRYGKICRRKGVCVCRN |
+| Length | 40 amino acids |
+| Molecular Weight | 4120 Da |
+| Source | Sarcophaga peregrina (flesh fly) |
+| Category | Insect Defensin / Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Sapecin (Sarcophaga) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Binds sterols in bacterial membranes, forms ion channels
+
+## Bioactivity
+
+Potent antimicrobial against Gram-positive bacteria including MRSA
+
+## Therapeutic Potential
+
+Anti-MRSA therapeutics, topical antimicrobial formulations
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

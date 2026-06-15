@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Milestone 004
+
 ## Overview
 
-Milestone 004 is a peptide compound with applications in research and therapeutics. 
+Milestone 004 is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Milestone 004 belongs to the Peptide History class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Milestone 004 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-history.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

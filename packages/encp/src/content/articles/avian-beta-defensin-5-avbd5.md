@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ["avian-defensin","peptide","oligopeptide"]
-category: "Avian Defensin"
+category: "Antimicrobial Peptides"
 difficulty: "intermediate"
 relatedArticles: []
 ---

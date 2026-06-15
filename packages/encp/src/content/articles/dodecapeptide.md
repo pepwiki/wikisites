@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Dodecapeptide
+
 ## Overview
 
-Dodecapeptide is a peptide compound with applications in research and therapeutics. 
-
+Dodecapeptide is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bos taurus (Cattle).
 
 
 ## Structure
 
-Dodecapeptide belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Dodecapeptide |
+| Sequence | KRIVQRIKDFLR |
+| Length | 12 amino acids |
+| Molecular Weight | 1568.9 Da |
+| Source | Bos taurus (Cattle) |
+| Category | Bovine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Dodecapeptide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Cationic peptide derived from hemoglobin, disrupts bacterial membrane integrity
+
+## Bioactivity
+
+Antimicrobial activity against Gram-negative bacteria
+
+## Therapeutic Potential
+
+Natural antimicrobial from food-derived peptides, wound healing
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

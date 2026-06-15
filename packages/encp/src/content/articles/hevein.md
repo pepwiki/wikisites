@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Hevein
+
 ## Overview
 
-Hevein is a peptide compound with applications in research and therapeutics. 
-
+Hevein is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hevea brasiliensis (Rubber Tree).
 
 
 ## Structure
 
-Hevein belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Hevein |
+| Sequence | EQCGRQAGGKLCPNNLCCSQYGWCGSTDDYCSPDHNCQSNCK |
+| Length | 43 amino acids |
+| Molecular Weight | ~4,700 Da |
+| Source | Hevea brasiliensis (Rubber Tree) |
+| Category | Plant Defense Peptides |
 
-## Applications
+## Mechanism of Action
 
-Hevein has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+High-affinity chitin binding inhibits fungal growth
+
+## Bioactivity
+
+Antifungal, chitin-binding
+
+## Therapeutic Potential
+
+Antifungal agents, latex allergy research, agricultural applications
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

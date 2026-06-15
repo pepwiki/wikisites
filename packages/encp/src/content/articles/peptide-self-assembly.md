@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-08-28
 tags: ["self-assembly", "hydrogels", "nanofibers", "peptide-amphiphiles", "tissue-engineering"]
-category: "Materials Science"
+category: "Peptide Applications"
 difficulty: "intermediate"
 relatedArticles: ["cyclic-peptides-drug-discovery", "peptide-peptide-interactions"]
 citation:

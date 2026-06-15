@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-05-15
 tags: ["CRF", "HPA-axis", "stress-response", "hypothalamic-peptides"]
-category: "Hypothalamic Peptides"
+category: "Neuropeptides"
 difficulty: "intermediate"
 relatedArticles: ["acth", "cortisol", "gih"]
 citation:

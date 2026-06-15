@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# NeuVax (Nelipepimut-S)
+
 ## Overview
 
-NeuVax (Nelipepimut-S) is a peptide compound with applications in research and therapeutics. 
-
+NeuVax (Nelipepimut-S) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-NeuVax (Nelipepimut-S) belongs to the Synthetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | NeuVax (Nelipepimut-S) |
+| Sequence | E75 (KIFGSLAFL) - HER2/neu immunodominant epitope |
+| Length | 9 residues |
+| Molecular Weight | ~1000 Da |
 
-## Applications
+| Category | Peptide Vaccines |
 
-NeuVax (Nelipepimut-S) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Stimulates cytotoxic T lymphocytes (CTLs) targeting HER2/neu-expressing cancer cells
+
+
 
 ## References
 
-- Source: synthetic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

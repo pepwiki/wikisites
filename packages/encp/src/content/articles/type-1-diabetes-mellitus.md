@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ["metabolic","peptide","oligopeptide"]
-category: "metabolic"
+category: "Metabolic"
 difficulty: "intermediate"
 relatedArticles: []
 ---

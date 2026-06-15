@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Orexin A (Hypocretin-1)
+
 ## Overview
 
-Orexin A (Hypocretin-1) is a peptide compound with applications in research and therapeutics. 
-
+Orexin A (Hypocretin-1) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Orexin A (Hypocretin-1) belongs to the Neuropeptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Orexin A (Hypocretin-1) |
+| Sequence | NPLPDCCRQKTCSCRLYELLHGAGNHAAGILTL-NH2 |
+| Length | 33 amino acids |
+| Molecular Weight | 3561.0 Da |
 
-## Applications
+| Category | Orexin/Hypocretin |
 
-Orexin A (Hypocretin-1) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Gq-coupled; activates phospholipase C, Ca2+ mobilization, also Gs in some contexts
+
+
 
 ## References
 
-- Source: neuropeptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

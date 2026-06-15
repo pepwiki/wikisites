@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Telavancin
+
 ## Overview
 
-Telavancin is a peptide compound with applications in research and therapeutics. 
-
+Telavancin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Telavancin belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Telavancin |
+| Sequence | Vancomycin derivative with decylaminoethyl lipophilic side chain and phosphonate group |
+| Length | Modified glycopeptide |
+| Molecular Weight | 1756 Da |
 
-## Applications
+| Category | Anti-Infective / Lipoglycopeptide Antibiotic |
 
-Telavancin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Dual action: inhibits peptidoglycan synthesis + disrupts bacterial membrane potential
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

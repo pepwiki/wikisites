@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Disease Categories Overview
+
 ## Overview
 
-Disease Categories Overview is a peptide compound with applications in research and therapeutics. 
+Disease Categories Overview is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Disease Categories Overview belongs to the Peptide Diseases class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Disease Categories Overview has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-diseases.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

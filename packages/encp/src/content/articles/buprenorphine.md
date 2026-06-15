@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Buprenorphine
+
 ## Overview
 
-Buprenorphine is a peptide compound with applications in research and therapeutics. 
-
+Buprenorphine is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Buprenorphine belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Buprenorphine |
+| Sequence | Non-peptide (small molecule: C29H41NO4) |
 
-## Applications
+| Molecular Weight | 468 Da |
 
-Buprenorphine has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Count |
+
+## Mechanism of Action
+
+Partial μ-opioid agonist with κ antagonism; ceiling effect on respiratory depression
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

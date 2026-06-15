@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# TRH (Thyrotropin-releasing hormone)
+
 ## Overview
 
-TRH (Thyrotropin-releasing hormone) is a peptide compound with applications in research and therapeutics. 
-
+TRH (Thyrotropin-releasing hormone) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-TRH (Thyrotropin-releasing hormone) belongs to the Neuropeptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | TRH (Thyrotropin-releasing hormone) |
+| Sequence | pGlu-His-Pro-NH2 |
+| Length | 3 amino acids |
+| Molecular Weight | 362.4 Da |
 
-## Applications
+| Category | Hypothalamic releasing hormone |
 
-TRH (Thyrotropin-releasing hormone) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Gq-coupled; activates PLC, IP3/DAG, Ca2+ signaling
+
+
 
 ## References
 
-- Source: neuropeptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

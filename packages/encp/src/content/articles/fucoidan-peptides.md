@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Fucoidan Peptides
+
 ## Overview
 
-Fucoidan Peptides is a peptide compound with applications in research and therapeutics. 
-
+Fucoidan Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Fucus vesiculosus, Undaria pinnatifida.
 
 
 ## Structure
 
-Fucoidan Peptides belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Fucoidan Peptides |
 
-## Applications
+| Length | Variable |
+| Molecular Weight | Variable (10,000-100,000 Da) |
+| Source | Fucus vesiculosus, Undaria pinnatifida |
+| Category | Marine Cosmetic Peptide |
 
-Fucoidan Peptides has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Inhibits NF-κB, reduces inflammation, promotes hyaluronic acid synthesis
+
+## Bioactivity
+
+Anti-inflammatory, moisturizing, anti-aging
+
+## Therapeutic Potential
+
+Sensitive skin formulations, anti-inflammatory cosmetics
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

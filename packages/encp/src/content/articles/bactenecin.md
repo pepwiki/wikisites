@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Bactenecin
+
 ## Overview
 
-Bactenecin is a peptide compound with applications in research and therapeutics. 
-
+Bactenecin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bos taurus (Cattle).
 
 
 ## Structure
 
-Bactenecin belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Bactenecin |
+| Sequence | RLCRIVVIRVCR |
+| Length | 12 amino acids |
+| Molecular Weight | 1482.8 Da |
+| Source | Bos taurus (Cattle) |
+| Category | Bovine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Bactenecin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Cyclic dodecapeptide with disulfide bridge, disrupts bacterial membranes through pore formation
+
+## Bioactivity
+
+Broad-spectrum antimicrobial against Gram-negative and Gram-positive bacteria
+
+## Therapeutic Potential
+
+Treatment of antibiotic-resistant infections, topical antimicrobial agents
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

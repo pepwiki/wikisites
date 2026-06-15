@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Brilacidin
+
 ## Overview
 
-Brilacidin is a peptide compound with applications in research and therapeutics. 
-
+Brilacidin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Brilacidin belongs to the Synthetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Brilacidin |
+| Sequence | Arylamide oligomer mimicking defensin structure (non-peptidic scaffold) |
+| Length | Small molecule (defensin mimetic) |
+| Molecular Weight | ~780 Da |
 
-## Applications
+| Category | Antimicrobial Synthetic |
 
-Brilacidin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Membrane disruption similar to defensins; also modulates innate immune responses
+
+
 
 ## References
 
-- Source: synthetic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

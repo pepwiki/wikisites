@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Delivery Platforms
+
 ## Overview
 
-Delivery Platforms is a peptide compound with applications in research and therapeutics. 
+Delivery Platforms is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Delivery Platforms belongs to the Peptide Patents class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Delivery Platforms has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-patents.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

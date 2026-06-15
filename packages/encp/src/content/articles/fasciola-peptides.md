@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Fasciola Peptides
+
 ## Overview
 
-Fasciola Peptides is a peptide compound with applications in research and therapeutics. 
-
+Fasciola Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Fasciola hepatica, F. gigantica.
 
 
 ## Structure
 
-Fasciola Peptides belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Fasciola Peptides |
+| Sequence | Including cathepsin L peptides, fatty acid-binding proteins, glutathione S-transferase peptides |
+| Length | 10-300 amino acids (varies) |
+| Molecular Weight | 1000-35000 Da |
+| Source | Fasciola hepatica, F. gigantica |
+| Category | Flatworm Parasitic / Liver Fluke |
 
-## Applications
+## Mechanism of Action
 
-Fasciola Peptides has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Matrix metalloprotease activity, immune polarization toward Th2, tissue degradation
+
+## Bioactivity
+
+Liver fluke migration, bile duct colonization, chronic fascioliasis
+
+## Therapeutic Potential
+
+Vaccine candidates, diagnostic markers, drug target identification
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

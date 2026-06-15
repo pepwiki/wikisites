@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-10-08
 tags: ["cholecystokinin", "CCK-A-receptor", "CCK-B-receptor", "satiety", "anxiety", "pharmacology"]
-category: "Pharmacology"
+category: "Drug Development"
 difficulty: "intermediate"
 relatedArticles: ["oxytocin-receptor-antagonists", "semaglutide-vs-tirzepatide"]
 citation:

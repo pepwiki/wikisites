@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-10-15
 tags: ["tachykinin", "NK2-receptor", "smooth-muscle", "neuropeptide"]
-category: "Tachykinins"
+category: "Neuropeptides"
 difficulty: "intermediate"
 relatedArticles: ["neurokinin-a", "substance-p", "hemokinin-1"]
 citation:

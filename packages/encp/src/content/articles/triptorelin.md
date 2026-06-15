@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Triptorelin
+
 ## Overview
 
-Triptorelin is a peptide compound with applications in research and therapeutics. 
-
+Triptorelin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Triptorelin belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Triptorelin |
+| Sequence | pGlu-His-Trp-Ser-D-Trp-Leu-Arg-Pro-Gly-NH2 |
 
-## Applications
+| Molecular Weight | 1311 Da |
 
-Triptorelin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Oncology/Endocrine / GnRH Agonist |
+
+## Mechanism of Action
+
+GnRH agonist; downregulates GnRH receptors with chronic administration
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

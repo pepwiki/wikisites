@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Histrelin Implant
+
 ## Overview
 
-Histrelin Implant is a peptide compound with applications in research and therapeutics. 
-
+Histrelin Implant is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Histrelin Implant belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Histrelin Implant |
+| Sequence | 5-oxoPro-His-Trp-Ser-Tyr-D-His(Bzl)-Leu-Arg-Pro-NHEt |
+| Length | 9 amino acids |
+| Molecular Weight | 1323 Da |
 
-## Applications
+| Category | Oncology / GnRH Agonist |
 
-Histrelin Implant has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+GnRH receptor agonist; subcutaneous implant provides 12-month release
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Kalata B1
+
 ## Overview
 
-Kalata B1 is a peptide compound with applications in research and therapeutics. 
-
+Kalata B1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Oldenlandia affinis.
 
 
 ## Structure
 
-Kalata B1 belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Kalata B1 |
+| Sequence | GLPVCGETCVGGTCNTPGCTCSWPVCTRN |
+| Length | 29 amino acids |
+| Molecular Weight | ~2,892 Da |
+| Source | Oldenlandia affinis |
+| Category | Plant Cyclic Peptides |
 
-## Applications
+## Mechanism of Action
 
-Kalata B1 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane interaction triggering uterine contraction
+
+## Bioactivity
+
+Uterotonic
+
+## Therapeutic Potential
+
+Labor induction therapy, drug delivery scaffold, anti-HIV microbicide development
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

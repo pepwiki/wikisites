@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Lizard Cathelicidin
+
 ## Overview
 
-Lizard Cathelicidin is a peptide compound with applications in research and therapeutics. 
+Lizard Cathelicidin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Lizard Cathelicidin belongs to the Reptile Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Lizard Cathelicidin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: reptile-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

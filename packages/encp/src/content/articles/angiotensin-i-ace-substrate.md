@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Angiotensin I → ACE (Substrate)
+
 ## Overview
 
-Angiotensin I → ACE (Substrate) is a peptide compound with applications in research and therapeutics. 
+Angiotensin I → ACE (Substrate) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-Angiotensin I → ACE (Substrate) belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+ACE (Zn2+ metalloprotease) cleaves C-terminal dipeptide His9-Leu10 from angiotensin I to produce angiotensin II (Asp-Arg-Val-Tyr-Ile-His-Pro-Phe), the potent vasoconstrictor octapeptide. ACE is a dicarboxypeptidase with two catalytic domains.
 
-## Applications
 
-Angiotensin I → ACE (Substrate) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

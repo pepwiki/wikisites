@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# CPF
+
 ## Overview
 
-CPF is a peptide compound with applications in research and therapeutics. 
-
+CPF is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Xenopus laevis.
 
 
 ## Structure
 
-CPF belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | CPF |
+| Sequence | GFGSLLGKALRLG ANVL.amide |
+| Length | 22 amino acids |
+| Molecular Weight | 2267.7 Da |
+| Source | Xenopus laevis |
+| Category | Amphibian Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-CPF has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Alpha-helical membrane disruption, pore formation leading to bacterial cell death
+
+## Bioactivity
+
+Broad-spectrum antimicrobial activity, low hemolytic activity
+
+## Therapeutic Potential
+
+Systemic antimicrobial therapeutics, anti-biofilm agents
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-03-05
 tags: ["amylin", "islet-amyloid", "glucose-regulation", "diabetes"]
-category: "Pancreatic Peptides"
+category: "Peptide Hormones"
 difficulty: "intermediate"
 relatedArticles: ["insulin", "GLP-1", "calcitonin"]
 citation:

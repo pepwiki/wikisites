@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Botulinum Neurotoxin (BoNT)
+
 ## Overview
 
-Botulinum Neurotoxin (BoNT) is a peptide compound with applications in research and therapeutics. 
+Botulinum Neurotoxin (BoNT) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Botulinum Neurotoxin (BoNT) belongs to the Toxin Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Botulinum Neurotoxin (BoNT) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: toxin-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

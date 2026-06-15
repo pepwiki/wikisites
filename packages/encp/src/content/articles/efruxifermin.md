@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Efruxifermin
+
 ## Overview
 
-Efruxifermin is a peptide compound with applications in research and therapeutics. 
-
+Efruxifermin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Efruxifermin belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Efruxifermin |
+| Sequence | Fc-FGF21 fusion protein (hybrid of FGF19/FGF21 domains) |
+| Length | ~630 amino acids (Fc fusion) |
+| Molecular Weight | ~102 kDa |
 
-## Applications
+| Category | Metabolic / FGF21 Analog |
 
-Efruxifermin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+FGF21 analog with Fc fusion; reduces liver fat, inflammation, and fibrosis through FGFR1c/β-Klotho signaling
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

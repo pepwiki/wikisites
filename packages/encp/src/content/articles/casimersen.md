@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Casimersen
+
 ## Overview
 
-Casimersen is a peptide compound with applications in research and therapeutics. 
-
+Casimersen is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Casimersen belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Casimersen |
+| Sequence | Phosphorodiamidate morpholino oligomer (PMO), 22-mer antisense oligonucleotide |
+| Length | 22 nucleotides (morpholino chemistry) |
+| Molecular Weight | ~7.8 kDa |
 
-## Applications
+| Category | Rare Disease / Antisense Oligonucleotide |
 
-Casimersen has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Antisense oligonucleotide targets exon 45 of dystrophin pre-mRNA, inducing exon skipping to correct the reading frame in patients with specific deletion mutations
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

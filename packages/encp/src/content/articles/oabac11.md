@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# OaBac11
+
 ## Overview
 
-OaBac11 is a peptide compound with applications in research and therapeutics. 
-
+OaBac11 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Ovis aries (Sheep).
 
 
 ## Structure
 
-OaBac11 belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | OaBac11 |
+| Sequence | RFRPPIRRPPIRPPFYPPFRPPIRPPIFPPIRPPFRPPLRFP |
+| Length | 51 amino acids |
+| Molecular Weight | 6240.5 Da |
+| Source | Ovis aries (Sheep) |
+| Category | Ovine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-OaBac11 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Extended proline-rich peptide, translocates into bacteria and inhibits protein synthesis
+
+## Bioactivity
+
+Antimicrobial activity against Gram-negative bacteria
+
+## Therapeutic Potential
+
+Intracellular infection treatment
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Trypsin Inhibitor (Kunitz)
+
 ## Overview
 
-Trypsin Inhibitor (Kunitz) is a peptide compound with applications in research and therapeutics. 
-
+Trypsin Inhibitor (Kunitz) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Glycine max (Soybean).
 
 
 ## Structure
 
-Trypsin Inhibitor (Kunitz) belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Trypsin Inhibitor (Kunitz) |
+| Sequence | DFVLDNEGNPLENGGTYYILSDITAFGGIRAAPTGNERCPL |
+| Length | 181 amino acids |
+| Molecular Weight | ~20,000-22,000 Da |
+| Source | Glycine max (Soybean) |
+| Category | Plant Bioactive Peptides |
 
-## Applications
+## Mechanism of Action
 
-Trypsin Inhibitor (Kunitz) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Competitive inhibition at trypsin active site (standard mechanism)
+
+## Bioactivity
+
+Protease inhibitor
+
+## Therapeutic Potential
+
+Anti-cancer research, acute pancreatitis management, insect resistance
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

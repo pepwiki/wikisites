@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Enalaprilat
+
 ## Overview
 
-Enalaprilat is a peptide compound with applications in research and therapeutics. 
-
+Enalaprilat is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Enalaprilat belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Enalaprilat |
+| Sequence | N/A (peptide-derived: active metabolite of enalapril) |
+| Length | Tripeptide derivative |
+| Molecular Weight | 348 Da |
 
-## Applications
+| Category | Cardiovascular / ACE Inhibitor (peptide-derived) |
 
-Enalaprilat has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+ACE inhibitor (active diacid metabolite of enalapril)
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

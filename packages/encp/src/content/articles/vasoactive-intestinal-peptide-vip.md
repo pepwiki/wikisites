@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Vasoactive Intestinal Peptide (VIP)
+
 ## Overview
 
-Vasoactive Intestinal Peptide (VIP) is a peptide compound with applications in research and therapeutics. 
-
+Vasoactive Intestinal Peptide (VIP) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Vasoactive Intestinal Peptide (VIP) belongs to the Neuropeptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Vasoactive Intestinal Peptide (VIP) |
+| Sequence | HSDAVFTDNYTRLRRKQMAVKKYLNSILN-NH2 |
+| Length | 28 amino acids |
+| Molecular Weight | 3325.8 Da |
 
-## Applications
+| Category | VIP/Secretin family |
 
-Vasoactive Intestinal Peptide (VIP) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Gs-coupled; activates adenylyl cyclase, increases cAMP
+
+
 
 ## References
 
-- Source: neuropeptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

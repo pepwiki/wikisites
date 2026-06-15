@@ -6,7 +6,7 @@ author: "Encyclopeptide Editorial"
 pubDate: 2024-04-18
 tags:
   ["endocytosis", "receptor-internalization", "clathrin", "caveolae", "intracellular-trafficking"]
-category: "Cell Biology"
+category: "Peptide Applications"
 difficulty: "intermediate"
 relatedArticles: ["peptide-modified-liposomes", "peptide-toxins-tools"]
 citation:

@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Diphtheria Toxin
+
 ## Overview
 
-Diphtheria Toxin is a peptide compound with applications in research and therapeutics. 
+Diphtheria Toxin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Diphtheria Toxin belongs to the Toxin Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Diphtheria Toxin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: toxin-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

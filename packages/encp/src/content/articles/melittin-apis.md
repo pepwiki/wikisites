@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Melittin (Apis)
+
 ## Overview
 
-Melittin (Apis) is a peptide compound with applications in research and therapeutics. 
-
+Melittin (Apis) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Apis mellifera (honeybee).
 
 
 ## Structure
 
-Melittin (Apis) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Melittin (Apis) |
+| Sequence | GIGAVLKVLTTGLPALISWIKRKRQQ |
+| Length | 26 amino acids |
+| Molecular Weight | 2846 Da |
+| Source | Apis mellifera (honeybee) |
+| Category | Venom Peptide / Membrane Disruption |
 
-## Applications
+## Mechanism of Action
 
-Melittin (Apis) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Pore-forming peptide, disrupts lipid bilayers via barrel-stave or toroidal pore mechanism
+
+## Bioactivity
+
+Potent hemolytic, anti-inflammatory, antimicrobial, anticancer activities
+
+## Therapeutic Potential
+
+Anti-cancer therapy (melittin-ADC conjugates), anti-inflammatory agents, antimicrobial coatings
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-10-18
 tags: ["tachykinin", "NK2-receptor", "bronchoconstriction", "neuropeptide"]
-category: "Tachykinins"
+category: "Neuropeptides"
 difficulty: "intermediate"
 relatedArticles: ["substance-k", "substance-p", "neurokinin-b"]
 citation:

@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# SEC (Size Exclusion Chromatography)
+
 ## Overview
 
-SEC (Size Exclusion Chromatography) is a peptide compound with applications in research and therapeutics. 
+SEC (Size Exclusion Chromatography) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-SEC (Size Exclusion Chromatography) belongs to the Peptide Manufacturing class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-SEC (Size Exclusion Chromatography) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-manufacturing.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

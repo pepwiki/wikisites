@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# NLP-2 (C. elegans)
+
 ## Overview
 
-NLP-2 (C. elegans) is a peptide compound with applications in research and therapeutics. 
-
+NLP-2 (C. elegans) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans.
 
 
 ## Structure
 
-NLP-2 (C. elegans) belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | NLP-2 (C. elegans) |
+| Sequence | AMRNALVDFMNSKLEGMQ |
+| Length | 18 amino acids |
+| Molecular Weight | 2030 Da |
+| Source | Caenorhabditis elegans |
+| Category | Nematode Neuropeptide / NLP |
 
-## Applications
+## Mechanism of Action
 
-NLP-2 (C. elegans) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Neuropeptide modulation of synaptic transmission, regulates neuronal excitability
+
+## Bioactivity
+
+Modulation of foraging behavior and social feeding decisions
+
+## Therapeutic Potential
+
+Anthelmintic target, behavioral neuroscience research
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

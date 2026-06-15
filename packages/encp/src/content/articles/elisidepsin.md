@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Elisidepsin
+
 ## Overview
 
-Elisidepsin is a peptide compound with applications in research and therapeutics. 
-
+Elisidepsin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Synthetic analog of Kahalalide F.
 
 
 ## Structure
 
-Elisidepsin belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Elisidepsin |
 
-## Applications
+| Length | N/A |
+| Molecular Weight | ~1400 Da |
+| Source | Synthetic analog of Kahalalide F |
+| Category | Marine Anti-Cancer Peptide |
 
-Elisidepsin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Direct membrane interaction, disrupts membrane integrity
+
+## Bioactivity
+
+Cytotoxicity against solid tumors
+
+## Therapeutic Potential
+
+Non-small cell lung cancer, GI cancers (Phase II)
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

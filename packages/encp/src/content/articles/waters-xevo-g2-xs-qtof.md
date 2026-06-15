@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Waters Xevo G2-XS QTof
+
 ## Overview
 
-Waters Xevo G2-XS QTof is a peptide compound with applications in research and therapeutics. 
+Waters Xevo G2-XS QTof is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from StepWave ion guide.
 
 
 
-## Structure
 
-Waters Xevo G2-XS QTof belongs to the Peptide Research Tools class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Waters Xevo G2-XS QTof has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-research-tools.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

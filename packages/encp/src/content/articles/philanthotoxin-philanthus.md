@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Philanthotoxin (Philanthus)
+
 ## Overview
 
-Philanthotoxin (Philanthus) is a peptide compound with applications in research and therapeutics. 
-
+Philanthotoxin (Philanthus) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Philanthus triangulum (European beewolf wasp).
 
 
 ## Structure
 
-Philanthotoxin (Philanthus) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Philanthotoxin (Philanthus) |
+| Sequence | Polyamine toxin - spermine conjugated to tyrosine/phenylalanine derivatives |
+| Length | Small molecule (polyamine conjugate) |
+| Molecular Weight | 450-750 Da (analogs vary) |
+| Source | Philanthus triangulum (European beewolf wasp) |
+| Category | Venom Peptide / nAChR/Glutamate Blocker |
 
-## Applications
+## Mechanism of Action
 
-Philanthotoxin (Philanthus) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Open-channel blocker of nAChRs and AMPA/kainate glutamate receptors
+
+## Bioactivity
+
+Neurotoxin causing paralysis of prey (honeybees), anticonvulsant properties
+
+## Therapeutic Potential
+
+Epilepsy treatment, neuroprotection, research tool for ion channel studies
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

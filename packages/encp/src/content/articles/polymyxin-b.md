@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Polymyxin B
+
 ## Overview
 
-Polymyxin B is a peptide compound with applications in research and therapeutics. 
-
+Polymyxin B is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bacillus polymyxa (marine-associated).
 
 
 ## Structure
 
-Polymyxin B belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Polymyxin B |
 
-## Applications
+| Length | 10 amino acids |
+| Molecular Weight | 1203.5 Da |
+| Source | Bacillus polymyxa (marine-associated) |
+| Category | Marine Antibiotic / Anti-Cancer |
 
-Polymyxin B has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Disrupts membrane integrity via LPS binding, forms pores
+
+## Bioactivity
+
+Antibacterial, membrane disruption, anti-cancer potential
+
+## Therapeutic Potential
+
+Gram-negative infections, cancer cell membrane disruption
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

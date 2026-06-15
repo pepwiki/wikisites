@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Feline Beta-Defensin
+
 ## Overview
 
-Feline Beta-Defensin is a peptide compound with applications in research and therapeutics. 
-
+Feline Beta-Defensin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Felis catus (Cat).
 
 
 ## Structure
 
-Feline Beta-Defensin belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Feline Beta-Defensin |
+| Sequence | GYCACRRRFCIGGGSCCRRYCVCLR |
+| Length | 36 amino acids |
+| Molecular Weight | 3980.6 Da |
+| Source | Felis catus (Cat) |
+| Category | Feline Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Feline Beta-Defensin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Beta-defensin structure, antimicrobial and immunomodulatory functions
+
+## Bioactivity
+
+Antimicrobial activity, dendritic cell maturation
+
+## Therapeutic Potential
+
+Dermatological applications, mucosal immunity
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

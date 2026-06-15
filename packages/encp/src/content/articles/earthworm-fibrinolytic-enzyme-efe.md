@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Earthworm Fibrinolytic Enzyme (EFE)
+
 ## Overview
 
-Earthworm Fibrinolytic Enzyme (EFE) is a peptide compound with applications in research and therapeutics. 
-
+Earthworm Fibrinolytic Enzyme (EFE) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Lumbricus rubellus and Eisenia fetida.
 
 
 ## Structure
 
-Earthworm Fibrinolytic Enzyme (EFE) belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Earthworm Fibrinolytic Enzyme (EFE) |
+| Sequence | Serine protease family, multiple isoforms |
+| Length | ~250-300 amino acids |
+| Molecular Weight | 25000-35000 Da |
+| Source | Lumbricus rubellus and Eisenia fetida |
+| Category | Earthworm Thrombolytic / Fibrinolytic |
 
-## Applications
+## Mechanism of Action
 
-Earthworm Fibrinolytic Enzyme (EFE) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Direct fibrin degradation and plasminogen activation, serine protease activity
+
+## Bioactivity
+
+Potent thrombolytic activity, fibrin clot dissolution, anticoagulant effects
+
+## Therapeutic Potential
+
+Thrombolytic therapy, cardiovascular disease treatment, stroke prevention, deep vein thrombosis
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

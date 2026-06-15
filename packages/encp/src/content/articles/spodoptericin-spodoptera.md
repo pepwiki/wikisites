@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Spodoptericin (Spodoptera)
+
 ## Overview
 
-Spodoptericin (Spodoptera) is a peptide compound with applications in research and therapeutics. 
-
+Spodoptericin (Spodoptera) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Spodoptera litura (tobacco cutworm).
 
 
 ## Structure
 
-Spodoptericin (Spodoptera) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Spodoptericin (Spodoptera) |
+| Sequence | Glycine-rich antimicrobial peptide (~145 amino acids) |
+| Length | 145 amino acids |
+| Molecular Weight | 15500 Da |
+| Source | Spodoptera litura (tobacco cutworm) |
+| Category | Insect Antimicrobial / Glycine-rich |
 
-## Applications
+## Mechanism of Action
 
-Spodoptericin (Spodoptera) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Disrupts bacterial cell envelope, targets outer membrane components
+
+## Bioactivity
+
+Antimicrobial activity, induced upon bacterial infection
+
+## Therapeutic Potential
+
+Antimicrobial agent against resistant bacteria
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

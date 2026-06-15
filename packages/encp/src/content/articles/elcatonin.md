@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Elcatonin
+
 ## Overview
 
-Elcatonin is a peptide compound with applications in research and therapeutics. 
-
+Elcatonin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Elcatonin belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Elcatonin |
+| Sequence | ABA-SNLSTCV-X-ALKELHKLQTYPRTDVGAGTP-NH2 (ABA=aminobutyric acid) |
 
-## Applications
+| Molecular Weight | 3360 Da |
 
-Elcatonin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Musculoskeletal / Bone Resorption Inhibitor |
+
+## Mechanism of Action
+
+Calcitonin receptor agonist; inhibits osteoclast-mediated bone resorption
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

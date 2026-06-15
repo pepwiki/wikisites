@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Alytesin
+
 ## Overview
 
-Alytesin is a peptide compound with applications in research and therapeutics. 
-
+Alytesin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Alytes obstetricans (Midwife toad).
 
 
 ## Structure
 
-Alytesin belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Alytesin |
+| Sequence | pEQRLGNQWAVGHLM-NH2 |
+| Length | 14 amino acids |
+| Molecular Weight | 1619.9 Da |
+| Source | Alytes obstetricans (Midwife toad) |
+| Category | Amphibian Neuropeptide |
 
-## Applications
+## Mechanism of Action
 
-Alytesin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Bombesin-like peptide, activates GRP receptors in GI tract and CNS
+
+## Bioactivity
+
+Gastrin release, smooth muscle contraction, thermoregulation
+
+## Therapeutic Potential
+
+GI motility disorders, cancer diagnostic imaging
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

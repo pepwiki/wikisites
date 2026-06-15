@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-11-08
 tags: ["adipokine", "insulin-resistance", "inflammation", "AdipoR1", "TLR4"]
-category: "Adipokines"
+category: "Metabolic"
 difficulty: "intermediate"
 relatedArticles: ["adiponectin", "leptin", "apelin"]
 citation:

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Feline Defensin
+
 ## Overview
 
-Feline Defensin is a peptide compound with applications in research and therapeutics. 
-
+Feline Defensin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Felis catus (Cat).
 
 
 ## Structure
 
-Feline Defensin belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Feline Defensin |
+| Sequence | GYCACRRRFCIGGGSCCRRYCVCLR |
+| Length | 25 amino acids |
+| Molecular Weight | 2846.3 Da |
+| Source | Felis catus (Cat) |
+| Category | Feline Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Feline Defensin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Alpha-defensin with conserved disulfide framework, membrane pore formation
+
+## Bioactivity
+
+Broad-spectrum antimicrobial activity
+
+## Therapeutic Potential
+
+Feline infection treatment
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

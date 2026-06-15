@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Ergocristine
+
 ## Overview
 
-Ergocristine is a peptide compound with applications in research and therapeutics. 
-
+Ergocristine is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Claviceps purpurea.
 
 
 ## Structure
 
-Ergocristine belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Ergocristine |
 
-## Applications
+| Length | 3 amino acids (peptide portion) |
+| Molecular Weight | 609.72 Da |
+| Source | Claviceps purpurea |
+| Category | Fungal Cyclopeptide / Alkaloid |
 
-Ergocristine has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Adrenergic antagonist; blocks alpha-receptors causing vasodilation; dopamine receptor modulation
+
+## Bioactivity
+
+Vasoactive, ergotism (ergot poisoning)
+
+## Therapeutic Potential
+
+Migraine research; historical use in obstetrics; Parkinson's research
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

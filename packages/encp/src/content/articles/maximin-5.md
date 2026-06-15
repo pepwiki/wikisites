@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Maximin 5
+
 ## Overview
 
-Maximin 5 is a peptide compound with applications in research and therapeutics. 
-
+Maximin 5 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bombina maxima.
 
 
 ## Structure
 
-Maximin 5 belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Maximin 5 |
+| Sequence | ILGKIWSGIKSLF-NH2 |
+| Length | 13 amino acids |
+| Molecular Weight | 1432.8 Da |
+| Source | Bombina maxima |
+| Category | Amphibian Antiviral |
 
-## Applications
+## Mechanism of Action
 
-Maximin 5 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Amphipathic helical membrane disruption, enhanced by tryptophan residues
+
+## Bioactivity
+
+Antimicrobial against Gram-positive and Gram-negative bacteria
+
+## Therapeutic Potential
+
+Antimicrobial drug development, wound care
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

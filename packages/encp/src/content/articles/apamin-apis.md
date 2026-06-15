@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Apamin (Apis)
+
 ## Overview
 
-Apamin (Apis) is a peptide compound with applications in research and therapeutics. 
-
+Apamin (Apis) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Apis mellifera (honeybee).
 
 
 ## Structure
 
-Apamin (Apis) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Apamin (Apis) |
+| Sequence | CNCKAPETALCARRCQQH |
+| Length | 18 amino acids |
+| Molecular Weight | 2027 Da |
+| Source | Apis mellifera (honeybee) |
+| Category | Venom Peptide / KCa2.x Blocker |
 
-## Applications
+## Mechanism of Action
 
-Apamin (Apis) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Selective blocker of KCa2.1, KCa2.2, and KCa2.3 channels, crosses blood-brain barrier
+
+## Bioactivity
+
+Neurotoxin, induces hyperexcitability, memory-enhancing properties
+
+## Therapeutic Potential
+
+Cognitive enhancement, neurodegenerative diseases, pain research tool
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

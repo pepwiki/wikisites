@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Zagotenemab
+
 ## Overview
 
-Zagotenemab is a peptide compound with applications in research and therapeutics. 
-
+Zagotenemab is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Zagotenemab belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Zagotenemab |
+| Sequence | Humanized IgG4 monoclonal antibody targeting conformational tau epitope |
+| Length | ~1325 amino acids |
+| Molecular Weight | ~147 kDa |
 
-## Applications
+| Category | Count |
 
-Zagotenemab has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Selectively binds a conformational epitope of soluble tau aggregates (not monomeric or fibrillar tau), promoting clearance of toxic tau oligomers via microglial phagocytosis
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

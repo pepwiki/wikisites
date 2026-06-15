@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# MAG1-Pokeweed
+
 ## Overview
 
-MAG1-Pokeweed is a peptide compound with applications in research and therapeutics. 
+MAG1-Pokeweed is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-MAG1-Pokeweed belongs to the Peptide Vaccines class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Allergen-peptide fusion with pokeweed protein activates innate immunity via plant PAMPs; Bet v 1 T-cell epitopes without IgE-reactive conformational epitopes; generates Treg and Th1 responses; pokeweed component serves as molecular adjuvant
 
-## Applications
 
-MAG1-Pokeweed has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-vaccines.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Leuprolide Depot
+
 ## Overview
 
-Leuprolide Depot is a peptide compound with applications in research and therapeutics. 
-
+Leuprolide Depot is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Leuprolide Depot belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Leuprolide Depot |
+| Sequence | 5-oxoPro-His-Trp-Ser-Tyr-D-Leu-Leu-Arg-Pro-NHEt |
+| Length | 9 amino acids |
+| Molecular Weight | 1209 Da |
 
-## Applications
+| Category | Oncology / GnRH Agonist |
 
-Leuprolide Depot has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+GnRH receptor agonist (initial stimulation then downregulation); sustained-release depot
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

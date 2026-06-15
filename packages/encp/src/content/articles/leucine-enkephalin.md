@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-05-20
 tags: ["pentapeptide", "enkephalin", "opioid", "analgesia", "neurotransmitter"]
-category: "Pentapeptides"
+category: "Peptide Sequence"
 difficulty: "intermediate"
 relatedArticles: ["carnosine", "desmopressin"]
 citation:

@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# C-Terminal Amidation
+
 ## Overview
 
-C-Terminal Amidation is a peptide compound with applications in research and therapeutics. 
+C-Terminal Amidation is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-C-Terminal Amidation belongs to the Peptide Modifications class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-C-Terminal Amidation has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-modifications.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

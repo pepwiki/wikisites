@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Idursulfase
+
 ## Overview
 
-Idursulfase is a peptide compound with applications in research and therapeutics. 
-
+Idursulfase is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Idursulfase belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Idursulfase |
+| Sequence | Recombinant human iduronate-2-sulfatase (I2S) |
+| Length | ~550 amino acids |
+| Molecular Weight | ~76 kDa (glycosylated) |
 
-## Applications
+| Category | Rare Disease / Enzyme Replacement Therapy |
 
-Idursulfase has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Enzyme replacement; provides iduronate-2-sulfatase to degrade heparan/dermatan sulfate
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

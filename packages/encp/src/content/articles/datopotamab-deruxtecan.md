@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Datopotamab Deruxtecan
+
 ## Overview
 
-Datopotamab Deruxtecan is a peptide compound with applications in research and therapeutics. 
-
+Datopotamab Deruxtecan is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Datopotamab Deruxtecan belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Datopotamab Deruxtecan |
+| Sequence | Anti-Trop2 monoclonal antibody conjugated to deruxtecan (topoisomerase I inhibitor) via cleavable tetrapeptide linker; DAR ~4 |
+| Length | ~1327 amino acids (antibody) + linker-payload |
+| Molecular Weight | ~150 kDa (ADC) |
 
-## Applications
+| Category | Oncology / Antibody-Drug Conjugate |
 
-Datopotamab Deruxtecan has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+ADC targeting Trop2; delivers DXd payload causing DNA damage. Lower DAR and different linker profile vs. T-DXd
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

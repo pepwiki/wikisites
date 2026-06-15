@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Modeccin
+
 ## Overview
 
-Modeccin is a peptide compound with applications in research and therapeutics. 
-
+Modeccin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Adenia digitata.
 
 
 ## Structure
 
-Modeccin belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Modeccin |
+| Sequence | Heterodimeric protein (A and B chains) |
+| Length | ~530 amino acids |
+| Molecular Weight | ~63,000 Da |
+| Source | Adenia digitata |
+| Category | Plant Toxic Peptides |
 
-## Applications
+## Mechanism of Action
 
-Modeccin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Ribosomal RNA N-glycosidase activity, protein synthesis inhibition
+
+## Bioactivity
+
+Ribosome inhibitor, highly toxic
+
+## Therapeutic Potential
+
+Immunotoxin research, anti-cancer conjugate development
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

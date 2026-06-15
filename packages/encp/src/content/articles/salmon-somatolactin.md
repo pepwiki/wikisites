@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Salmon Somatolactin
+
 ## Overview
 
-Salmon Somatolactin is a peptide compound with applications in research and therapeutics. 
-
+Salmon Somatolactin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Salmon (Oncorhynchus spp.).
 
 
 ## Structure
 
-Salmon Somatolactin belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Salmon Somatolactin |
+| Sequence | Single-chain hormone related to GH and PRL |
+| Length | 209 amino acids |
+| Molecular Weight | 24,000 Da |
+| Source | Salmon (Oncorhynchus spp.) |
+| Category | Fish Peptide Hormone |
 
-## Applications
+## Mechanism of Action
 
-Salmon Somatolactin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Regulates pigmentation via melanosome dispersion; modulates lipid metabolism and stress responses
+
+## Bioactivity
+
+Background adaptation, pigmentation regulation, metabolic control, stress response
+
+## Therapeutic Potential
+
+Pigmentation disorder research, aquaculture color management, stress physiology studies
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Phaseolin
+
 ## Overview
 
-Phaseolin is a peptide compound with applications in research and therapeutics. 
-
+Phaseolin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Phaseolus vulgaris (Common Bean).
 
 
 ## Structure
 
-Phaseolin belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Phaseolin |
+| Sequence | Complex trimeric glycoprotein |
+| Length | ~420 amino acids per subunit |
+| Molecular Weight | ~150,000 Da (trimer) |
+| Source | Phaseolus vulgaris (Common Bean) |
+| Category | Plant Storage Peptides |
 
-## Applications
+## Mechanism of Action
 
-Phaseolin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Primary seed storage protein for nitrogen reserve
+
+## Bioactivity
+
+Nutritional storage protein
+
+## Therapeutic Potential
+
+Nutritional supplementation, food science applications
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

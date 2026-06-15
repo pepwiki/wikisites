@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Skin Brightening
+
 ## Overview
 
-Skin Brightening is a peptide compound with applications in research and therapeutics. 
+Skin Brightening is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Skin Brightening belongs to the Peptide Applications class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Skin Brightening has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-applications.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

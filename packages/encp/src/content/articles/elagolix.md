@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Elagolix
+
 ## Overview
 
-Elagolix is a peptide compound with applications in research and therapeutics. 
-
+Elagolix is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Elagolix belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Elagolix |
+| Sequence | N/A (non-peptide small molecule GnRH antagonist) |
+| Length | Small molecule |
+| Molecular Weight | 508 Da |
 
-## Applications
+| Category | Gynecology / GnRH Antagonist (oral) |
 
-Elagolix has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+GnRH receptor antagonist with dose-dependent partial suppression
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

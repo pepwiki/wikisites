@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Sacituzumab Govitecan
+
 ## Overview
 
-Sacituzumab Govitecan is a peptide compound with applications in research and therapeutics. 
-
+Sacituzumab Govitecan is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Sacituzumab Govitecan belongs to the Synthetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Sacituzumab Govitecan |
+| Sequence | Anti-Trop-2 antibody - CL2A linker - SN-38 |
+| Length | Antibody + linker-payload |
+| Molecular Weight | ~150 kDa (antibody component) |
 
-## Applications
+| Category | Peptide Drug Conjugates |
 
-Sacituzumab Govitecan has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Delivers SN-38 directly to Trop-2-expressing tumors; hydrolytic linker releases payload in tumor microenvironment
+
+
 
 ## References
 
-- Source: synthetic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

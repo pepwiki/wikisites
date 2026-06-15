@@ -12,7 +12,7 @@ tags:
     "implant-coatings",
     "tissue-engineering",
   ]
-category: "Materials Science"
+category: "Peptide Applications"
 difficulty: "intermediate"
 relatedArticles: ["peptide-modified-liposomes", "peptide-hydrogels-wound"]
 citation:

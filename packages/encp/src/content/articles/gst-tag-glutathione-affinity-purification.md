@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# GST-tag → Glutathione (Affinity Purification)
+
 ## Overview
 
-GST-tag → Glutathione (Affinity Purification) is a peptide compound with applications in research and therapeutics. 
+GST-tag → Glutathione (Affinity Purification) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-GST-tag → Glutathione (Affinity Purification) belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-GST-tag → Glutathione (Affinity Purification) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

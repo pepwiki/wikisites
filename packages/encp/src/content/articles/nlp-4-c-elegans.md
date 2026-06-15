@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# NLP-4 (C. elegans)
+
 ## Overview
 
-NLP-4 (C. elegans) is a peptide compound with applications in research and therapeutics. 
-
+NLP-4 (C. elegans) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans.
 
 
 ## Structure
 
-NLP-4 (C. elegans) belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | NLP-4 (C. elegans) |
+| Sequence | GKSSNFLRFamide-like peptides |
+| Length | 8-12 amino acids (processed forms) |
+| Molecular Weight | 950-1300 Da |
+| Source | Caenorhabditis elegans |
+| Category | Nematode Neuropeptide / NLP |
 
-## Applications
+## Mechanism of Action
 
-NLP-4 (C. elegans) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Modulates body wall muscle contraction, opposes cholinergic signaling
+
+## Bioactivity
+
+Regulation of locomotion speed and body posture
+
+## Therapeutic Potential
+
+Anthelmintic target for paralytic drugs
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-10-20
 tags: ["secretin", "GI peptides", "bicarbonate", "pancreas", "hormone discovery"]
-category: "GI Peptides"
+category: "Gastrointestinal Peptides"
 difficulty: "intermediate"
 relatedArticles: ["cholecystokinin", "gastrin", "glp-1"]
 citation:

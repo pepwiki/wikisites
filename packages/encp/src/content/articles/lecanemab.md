@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Lecanemab
+
 ## Overview
 
-Lecanemab is a peptide compound with applications in research and therapeutics. 
-
+Lecanemab is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Lecanemab belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Lecanemab |
+| Sequence | Humanized IgG1 monoclonal antibody targeting soluble Aβ protofibrils |
+| Length | ~1330 amino acids |
+| Molecular Weight | ~148 kDa |
 
-## Applications
+| Category | Neurology / Anti-Amyloid Antibody |
 
-Lecanemab has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds with high affinity to soluble Aβ protofibrils (the most neurotoxic Aβ species), promoting clearance and reducing amyloid plaque burden
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Fish Bone Peptides
+
 ## Overview
 
-Fish Bone Peptides is a peptide compound with applications in research and therapeutics. 
-
+Fish Bone Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Various (tuna, salmon, cod, carp).
 
 
 ## Structure
 
-Fish Bone Peptides belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Fish Bone Peptides |
+| Sequence | Calcium-binding peptides with Glu-rich and Asp-rich sequences |
+| Length | 3-25 amino acids |
+| Molecular Weight | 300-4,000 Da |
+| Source | Various (tuna, salmon, cod, carp) |
+| Category | Fish Collagen |
 
-## Applications
+## Mechanism of Action
 
-Fish Bone Peptides has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Chelates calcium and phosphorus; enhances intestinal mineral absorption; stimulates osteoblast activity
+
+## Bioactivity
+
+Bone mineral density improvement, calcium bioavailability enhancement, anti-osteoclast activity
+
+## Therapeutic Potential
+
+Functional food ingredients, osteoporosis prevention, nutritional supplements, calcium-fortified beverages
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

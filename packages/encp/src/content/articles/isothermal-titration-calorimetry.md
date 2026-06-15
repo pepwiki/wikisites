@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Isothermal Titration Calorimetry
+
 ## Overview
 
-Isothermal Titration Calorimetry is a peptide compound with applications in research and therapeutics. 
+Isothermal Titration Calorimetry is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Isothermal Titration Calorimetry belongs to the Peptide Technologies class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Isothermal Titration Calorimetry has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-technologies.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

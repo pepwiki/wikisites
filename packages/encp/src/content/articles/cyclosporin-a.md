@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Cyclosporin A
+
 ## Overview
 
-Cyclosporin A is a peptide compound with applications in research and therapeutics. 
-
+Cyclosporin A is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Tolypocladium inflatum.
 
 
 ## Structure
 
-Cyclosporin A belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Cyclosporin A |
 
-## Applications
+| Length | 11 amino acids |
+| Molecular Weight | 1202.61 Da |
+| Source | Tolypocladium inflatum |
+| Category | Fungal Antibiotic / Immunosuppressant |
 
-Cyclosporin A has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds cyclophilin forming complex that inhibits calcineurin phosphatase; blocks T-cell activation and IL-2 transcription
+
+## Bioactivity
+
+Immunosuppressant, anti-inflammatory
+
+## Therapeutic Potential
+
+Organ transplant rejection prevention, autoimmune diseases (psoriasis, rheumatoid arthritis)
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

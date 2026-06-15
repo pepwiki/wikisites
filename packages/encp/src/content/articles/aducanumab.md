@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Aducanumab
+
 ## Overview
 
-Aducanumab is a peptide compound with applications in research and therapeutics. 
-
+Aducanumab is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Aducanumab belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Aducanumab |
+| Sequence | Fully human IgG1 monoclonal antibody targeting aggregated amyloid-beta (Aβ) fibrils and soluble oligomers |
+| Length | ~1332 amino acids (full-length antibody) |
+| Molecular Weight | ~148 kDa |
 
-## Applications
+| Category | Neurology / Anti-Amyloid Antibody |
 
-Aducanumab has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Selectively binds aggregated Aβ plaques (fibrillar and soluble oligomers), promoting microglial-mediated clearance via Fc-receptor phagocytosis
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

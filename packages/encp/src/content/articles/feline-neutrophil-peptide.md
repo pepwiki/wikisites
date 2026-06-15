@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Feline Neutrophil Peptide
+
 ## Overview
 
-Feline Neutrophil Peptide is a peptide compound with applications in research and therapeutics. 
-
+Feline Neutrophil Peptide is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Felis catus (Cat).
 
 
 ## Structure
 
-Feline Neutrophil Peptide belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Feline Neutrophil Peptide |
+| Sequence | GYCACRRRFCIGGGSCCRRYCVCLR |
+| Length | 25 amino acids |
+| Molecular Weight | 2846.3 Da |
+| Source | Felis catus (Cat) |
+| Category | Feline Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Feline Neutrophil Peptide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Neutrophil-derived defensin, rapid bactericidal activity
+
+## Bioactivity
+
+Antimicrobial against pathogens
+
+## Therapeutic Potential
+
+Acute infection management
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

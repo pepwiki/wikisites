@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-10-22
 tags: ["opioid", "kappa-receptor", "dynorphin", "pain", "dysphoria"]
-category: "Opioid Peptides"
+category: "Neuropeptides"
 difficulty: "intermediate"
 relatedArticles: ["dynorphin-b", "beta-endorphin", "enkephalins"]
 citation:

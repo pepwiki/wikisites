@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Eravacycline
+
 ## Overview
 
-Eravacycline is a peptide compound with applications in research and therapeutics. 
-
+Eravacycline is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Eravacycline belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Eravacycline |
+| Sequence | Fully synthetic fluorocycline (7-fluoro-9-pyrrolidinyl tetracycline) |
+| Length | Small molecule (tetracycline class) |
+| Molecular Weight | ~559 Da |
 
-## Applications
+| Category | Anti-Infective / Tetracycline |
 
-Eravacycline has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds 30S ribosomal subunit with high affinity; active against tet(A) efflux and tet(M) ribosomal protection mediated tetracycline resistance
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

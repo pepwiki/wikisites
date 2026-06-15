@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Viscumin
+
 ## Overview
 
-Viscumin is a peptide compound with applications in research and therapeutics. 
-
+Viscumin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Viscum album (European Mistletoe).
 
 
 ## Structure
 
-Viscumin belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Viscumin |
+| Sequence | Heterodimeric protein (A-chain: 250 aa, B-chain: 264 aa) |
+| Length | ~514 amino acids |
+| Molecular Weight | ~60,000 Da |
+| Source | Viscum album (European Mistletoe) |
+| Category | Plant Toxic Peptides |
 
-## Applications
+## Mechanism of Action
 
-Viscumin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+A-chain catalyzes depurination of 28S rRNA; B-chain binds galactose/galactosamine
+
+## Bioactivity
+
+Ribosome inhibitor, immunomodulatory
+
+## Therapeutic Potential
+
+Mistletoe extract therapy, immunomodulation, complementary cancer treatment
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Nematode Surface Peptides
+
 ## Overview
 
-Nematode Surface Peptides is a peptide compound with applications in research and therapeutics. 
-
+Nematode Surface Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Parasitic nematodes (Trichinella, Onchocerca, Wuchereria).
 
 
 ## Structure
 
-Nematode Surface Peptides belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Nematode Surface Peptides |
+| Sequence | Surface coat proteins including cuticular collagens and lipid-binding peptides |
+| Length | 20-200 amino acids (varies) |
+| Molecular Weight | 2000-25000 Da |
+| Source | Parasitic nematodes (Trichinella, Onchocerca, Wuchereria) |
+| Category | Nematode Parasitic / Surface |
 
-## Applications
+## Mechanism of Action
 
-Nematode Surface Peptides has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Antigenic variation, immune masking, molecular mimicry of host proteins
+
+## Bioactivity
+
+Parasite immune evasion, host tissue attachment, molecular camouflage
+
+## Therapeutic Potential
+
+Diagnostic biomarkers, vaccine candidates, immunoassay targets
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

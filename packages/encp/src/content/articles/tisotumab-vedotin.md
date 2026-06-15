@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Tisotumab Vedotin
+
 ## Overview
 
-Tisotumab Vedotin is a peptide compound with applications in research and therapeutics. 
-
+Tisotumab Vedotin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Tisotumab Vedotin belongs to the Synthetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Tisotumab Vedotin |
+| Sequence | Anti-TF antibody - Val-Cit linker - MMAE |
+| Length | Antibody + linker-payload |
+| Molecular Weight | ~150 kDa (antibody component) |
 
-## Applications
+| Category | Peptide Drug Conjugates |
 
-Tisotumab Vedotin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Targets TF-expressing tumor cells, delivers MMAE intracellularly after linker cleavage by lysosomal proteases
+
+
 
 ## References
 
-- Source: synthetic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

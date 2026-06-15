@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Pneumocandin B0
+
 ## Overview
 
-Pneumocandin B0 is a peptide compound with applications in research and therapeutics. 
-
+Pneumocandin B0 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Glarea lozoyensis.
 
 
 ## Structure
 
-Pneumocandin B0 belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Pneumocandin B0 |
 
-## Applications
+| Length | 6 amino acids |
+| Molecular Weight | 1069.27 Da |
+| Source | Glarea lozoyensis |
+| Category | Fungal Antibiotic / Antifungal |
 
-Pneumocandin B0 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Inhibits fungal cell wall biosynthesis by blocking glucan polymer formation
+
+## Bioactivity
+
+Antifungal (broad spectrum against Candida, Aspergillus)
+
+## Therapeutic Potential
+
+Precursor for caspofungin (first approved echinocandin)
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

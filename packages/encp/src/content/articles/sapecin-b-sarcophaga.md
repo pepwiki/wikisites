@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Sapecin B (Sarcophaga)
+
 ## Overview
 
-Sapecin B (Sarcophaga) is a peptide compound with applications in research and therapeutics. 
-
+Sapecin B (Sarcophaga) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Sarcophaga peregrina (flesh fly).
 
 
 ## Structure
 
-Sapecin B (Sarcophaga) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Sapecin B (Sarcophaga) |
+| Sequence | ATCDLLSGFGVGHACAAHCLVKGRYGKICRRKGVCVCRN (variant) |
+| Length | 40 amino acids |
+| Molecular Weight | 4080 Da |
+| Source | Sarcophaga peregrina (flesh fly) |
+| Category | Insect Defensin / Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Sapecin B (Sarcophaga) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane disruption with enhanced Gram-negative activity
+
+## Bioactivity
+
+Broad-spectrum antimicrobial, enhanced activity vs Gram-negative bacteria
+
+## Therapeutic Potential
+
+Broad-spectrum antibiotic alternative
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# TRH
+
 ## Overview
 
-TRH is a peptide compound with applications in research and therapeutics. 
-
+TRH is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Xenopus laevis.
 
 
 ## Structure
 
-TRH belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | TRH |
+| Sequence | pGlu-His-Pro-NH2 |
+| Length | 3 amino acids |
+| Molecular Weight | 362.4 Da |
+| Source | Xenopus laevis |
+| Category | Amphibian Neuropeptide |
 
-## Applications
+## Mechanism of Action
 
-TRH has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Stimulates TSH and prolactin release, CNS neuromodulation via pyroglutamate modification
+
+## Bioactivity
+
+Thyroid stimulation, neuroendocrine regulation, CNS effects
+
+## Therapeutic Potential
+
+Depression treatment, neuroprotection, spinal cord injury
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

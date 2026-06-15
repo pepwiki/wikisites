@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Somatostatin → SSTR2
+
 ## Overview
 
-Somatostatin → SSTR2 is a peptide compound with applications in research and therapeutics. 
+Somatostatin → SSTR2 is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-Somatostatin → SSTR2 belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Somatostatin binds SSTR2 (class A GPCR), activating Gαi/o → inhibits adenylyl cyclase → reduces cAMP. Also activates protein phosphatases, K+ channels, and inhibits Ca2+ channels. Suppresses hormone secretion and cell proliferation.
 
-## Applications
 
-Somatostatin → SSTR2 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

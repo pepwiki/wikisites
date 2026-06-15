@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Crocodilian Defensin
+
 ## Overview
 
-Crocodilian Defensin is a peptide compound with applications in research and therapeutics. 
+Crocodilian Defensin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Crocodilian Defensin belongs to the Reptile Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Crocodilian Defensin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: reptile-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

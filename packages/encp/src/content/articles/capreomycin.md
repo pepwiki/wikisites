@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Capreomycin
+
 ## Overview
 
-Capreomycin is a peptide compound with applications in research and therapeutics. 
-
+Capreomycin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Capreomycin belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Capreomycin |
+| Sequence | Cyclic peptide: Ser-Arg-Arg-Ala-Arg-Arg-Uba-Asp-beta-Lys (capreomycin IA) |
+| Length | 9 amino acids (cyclic depsipeptide) |
+| Molecular Weight | 1117 Da (capreomycin IA) |
 
-## Applications
+| Category | Anti-Infective / Cyclic Peptide Antibiotic |
 
-Capreomycin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Inhibits bacterial protein synthesis by binding 16S rRNA
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

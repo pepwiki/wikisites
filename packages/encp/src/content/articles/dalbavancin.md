@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Dalbavancin
+
 ## Overview
 
-Dalbavancin is a peptide compound with applications in research and therapeutics. 
-
+Dalbavancin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Dalbavancin belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Dalbavancin |
+| Sequence | Teicoplanin derivative (MDL 63,246) with C-terminal lipophilic side chain |
+| Length | Modified glycopeptide |
+| Molecular Weight | 1817 Da |
 
-## Applications
+| Category | Anti-Infective / Lipoglycopeptide Antibiotic |
 
-Dalbavancin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds D-Ala-D-Ala; lipophilic side chain enables extended half-life via albumin binding
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

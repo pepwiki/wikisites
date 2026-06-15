@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# NLP-1 (C. elegans)
+
 ## Overview
 
-NLP-1 (C. elegans) is a peptide compound with applications in research and therapeutics. 
-
+NLP-1 (C. elegans) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans.
 
 
 ## Structure
 
-NLP-1 (C. elegans) belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | NLP-1 (C. elegans) |
+| Sequence | ASEDALVNLQSKLNSDIALQ |
+| Length | 20 amino acids |
+| Molecular Weight | 2120 Da |
+| Source | Caenorhabditis elegans |
+| Category | Nematode Neuropeptide / NLP |
 
-## Applications
+## Mechanism of Action
 
-NLP-1 (C. elegans) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Neuropeptide signaling, modulates neural circuits controlling locomotion and sensory behaviors
+
+## Bioactivity
+
+Regulation of locomotion, chemosensation, and behavioral plasticity
+
+## Therapeutic Potential
+
+Research tool for understanding nematode neurobiology, anthelmintic target
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

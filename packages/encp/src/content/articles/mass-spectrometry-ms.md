@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ["characterization","peptide","oligopeptide"]
-category: "Characterization"
+category: "Peptide Analysis"
 difficulty: "intermediate"
 relatedArticles: []
 ---

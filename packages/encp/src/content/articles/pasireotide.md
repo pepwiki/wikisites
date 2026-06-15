@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Pasireotide
+
 ## Overview
 
-Pasireotide is a peptide compound with applications in research and therapeutics. 
-
+Pasireotide is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Pasireotide belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Pasireotide |
+| Sequence | Cyclo[-Tyr-D-Trp-Lys-Val-Phe-βHyp-] |
 
-## Applications
+| Molecular Weight | 1041 Da |
 
-Pasireotide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Endocrine / Somatostatin Analog |
+
+## Mechanism of Action
+
+Pan-somatostatin receptor agonist; broad receptor binding profile including SSTR5
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

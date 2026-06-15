@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# INS-10 (C. elegans)
+
 ## Overview
 
-INS-10 (C. elegans) is a peptide compound with applications in research and therapeutics. 
-
+INS-10 (C. elegans) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans.
 
 
 ## Structure
 
-INS-10 (C. elegans) belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | INS-10 (C. elegans) |
+| Sequence | MHKVIFILFIFLTAHAQSIYDRLCGSHLVDALYFICGDRGFYRNKICGSDLVSLWNQ |
+| Length | 58 amino acids |
+| Molecular Weight | 6490 Da |
+| Source | Caenorhabditis elegans |
+| Category | Nematode Insulin-like Peptide |
 
-## Applications
+## Mechanism of Action
 
-INS-10 (C. elegans) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+DAF-2 signaling modulation, expressed in intestine
+
+## Bioactivity
+
+Metabolic regulation, lipid storage, and stress response
+
+## Therapeutic Potential
+
+Metabolic disease research, parasitic nematode drug target
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

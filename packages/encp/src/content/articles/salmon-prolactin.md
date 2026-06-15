@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Salmon Prolactin
+
 ## Overview
 
-Salmon Prolactin is a peptide compound with applications in research and therapeutics. 
-
+Salmon Prolactin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Salmon (Oncorhynchus spp.).
 
 
 ## Structure
 
-Salmon Prolactin belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Salmon Prolactin |
+| Sequence | Single-chain polypeptide hormone |
+| Length | 187 amino acids |
+| Molecular Weight | 21,200 Da |
+| Source | Salmon (Oncorhynchus spp.) |
+| Category | Fish Peptide Hormone |
 
-## Applications
+## Mechanism of Action
 
-Salmon Prolactin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Activates JAK-STAT signaling; regulates ion transport in osmoregulatory organs; promotes freshwater adaptation
+
+## Bioactivity
+
+Osmoregulation, ion uptake stimulation, reproductive modulation
+
+## Therapeutic Potential
+
+Aquaculture smoltification management, osmoregulatory disorder research
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

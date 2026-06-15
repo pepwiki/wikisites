@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Ecnoglutide
+
 ## Overview
 
-Ecnoglutide is a peptide compound with applications in research and therapeutics. 
-
+Ecnoglutide is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Ecnoglutide belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Ecnoglutide |
+| Sequence | Long-acting GLP-1 receptor agonist peptide with fatty acid conjugation |
+| Length | ~31 amino acids |
+| Molecular Weight | ~4.5 kDa |
 
-## Applications
+| Category | Metabolic / GLP-1 Agonist |
 
-Ecnoglutide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+GLP-1 receptor agonist with enhanced albumin binding for extended half-life
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

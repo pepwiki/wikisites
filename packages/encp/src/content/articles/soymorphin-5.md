@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Soymorphin-5
+
 ## Overview
 
-Soymorphin-5 is a peptide compound with applications in research and therapeutics. 
+Soymorphin-5 is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Soymorphin-5 belongs to the Food Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Soymorphin-5 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: food-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Deltorphin C
+
 ## Overview
 
-Deltorphin C is a peptide compound with applications in research and therapeutics. 
-
+Deltorphin C is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Phyllomedusa sauvagei.
 
 
 ## Structure
 
-Deltorphin C belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Deltorphin C |
+| Sequence | YAFDII-NH2 |
+| Length | 6 amino acids |
+| Molecular Weight | 726.9 Da |
+| Source | Phyllomedusa sauvagei |
+| Category | Amphibian Opioid |
 
-## Applications
+## Mechanism of Action
 
-Deltorphin C has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+DOR-selective agonist containing D-isoleucine for metabolic stability
+
+## Bioactivity
+
+Analgesic, antinociceptive activity
+
+## Therapeutic Potential
+
+Analgesic drug development, pain research
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

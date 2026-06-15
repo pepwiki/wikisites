@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Neuropeptide S (NPS)
+
 ## Overview
 
-Neuropeptide S (NPS) is a peptide compound with applications in research and therapeutics. 
-
+Neuropeptide S (NPS) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Neuropeptide S (NPS) belongs to the Neuropeptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Neuropeptide S (NPS) |
+| Sequence | SFRNGVGTGMKKTSFQRAKS |
+| Length | 20 amino acids |
+| Molecular Weight | 2187.4 Da |
 
-## Applications
+| Category | Neuropeptide S family |
 
-Neuropeptide S (NPS) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Gq/Gs-coupled; activates PLC and adenylyl cyclase, Ca2+ mobilization
+
+
 
 ## References
 
-- Source: neuropeptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

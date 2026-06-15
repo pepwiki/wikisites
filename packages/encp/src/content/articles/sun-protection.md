@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Sun Protection
+
 ## Overview
 
-Sun Protection is a peptide compound with applications in research and therapeutics. 
+Sun Protection is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Sun Protection belongs to the Peptide Applications class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Sun Protection has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-applications.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

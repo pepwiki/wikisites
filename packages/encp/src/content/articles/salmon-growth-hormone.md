@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Salmon Growth Hormone
+
 ## Overview
 
-Salmon Growth Hormone is a peptide compound with applications in research and therapeutics. 
-
+Salmon Growth Hormone is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Salmon (Oncorhynchus spp.).
 
 
 ## Structure
 
-Salmon Growth Hormone belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Salmon Growth Hormone |
+| Sequence | Single-chain polypeptide with 4 alpha-helices |
+| Length | 188 amino acids |
+| Molecular Weight | 21,500 Da |
+| Source | Salmon (Oncorhynchus spp.) |
+| Category | Fish Peptide Hormone |
 
-## Applications
+## Mechanism of Action
 
-Salmon Growth Hormone has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Binds GHR; stimulates hepatic IGF-1 production; promotes protein synthesis and somatic growth
+
+## Bioactivity
+
+Growth promotion, osmoregulation enhancement, metabolic regulation
+
+## Therapeutic Potential
+
+Aquaculture growth enhancement, comparative growth biology research
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

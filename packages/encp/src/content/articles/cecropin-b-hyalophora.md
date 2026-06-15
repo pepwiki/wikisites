@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Cecropin B (Hyalophora)
+
 ## Overview
 
-Cecropin B (Hyalophora) is a peptide compound with applications in research and therapeutics. 
-
+Cecropin B (Hyalophora) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hyalophora cecropia (cecropia moth).
 
 
 ## Structure
 
-Cecropin B (Hyalophora) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Cecropin B (Hyalophora) |
+| Sequence | KWKVFKKIEKMGRNIRNGIVKAGPAIAVLGEAKAL |
+| Length | 35 amino acids |
+| Molecular Weight | 3835 Da |
+| Source | Hyalophora cecropia (cecropia moth) |
+| Category | Cecropin / Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Cecropin B (Hyalophora) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane permeabilization via pore formation, selective for prokaryotic membranes
+
+## Bioactivity
+
+Antimicrobial against Gram-negative bacteria, antifungal
+
+## Therapeutic Potential
+
+Antibiotic-resistant infections, antifungal applications
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

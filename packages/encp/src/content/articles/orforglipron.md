@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Orforglipron
+
 ## Overview
 
-Orforglipron is a peptide compound with applications in research and therapeutics. 
-
+Orforglipron is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Orforglipron belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Orforglipron |
+| Sequence | Non-peptide small molecule GLP-1 receptor agonist (oral) |
+| Length | Small molecule (~20 atoms in core scaffold) |
+| Molecular Weight | ~634 Da |
 
-## Applications
+| Category | Metabolic / Oral GLP-1 Agonist |
 
-Orforglipron has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Oral non-peptide GLP-1 receptor agonist; small molecule allows oral bioavailability without peptide backbone
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Planaria Peptides
+
 ## Overview
 
-Planaria Peptides is a peptide compound with applications in research and therapeutics. 
-
+Planaria Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Schmidtea mediterranea, Dugesia japonica.
 
 
 ## Structure
 
-Planaria Peptides belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Planaria Peptides |
+| Sequence | Including neoblast-secreted peptides, Wnt pathway peptides, neural regeneration factors |
+| Length | 10-200 amino acids (varies) |
+| Molecular Weight | 1000-25000 Da |
+| Source | Schmidtea mediterranea, Dugesia japonica |
+| Category | Flatworm Regeneration / Planarian |
 
-## Applications
+## Mechanism of Action
 
-Planaria Peptides has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Activation of pluripotent stem cells, Wnt/beta-catenin signaling, positional identity cues
+
+## Bioactivity
+
+Whole-body regeneration, nervous system regrowth, tissue homeostasis
+
+## Therapeutic Potential
+
+Regenerative medicine, stem cell therapy, wound healing, nerve repair research
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

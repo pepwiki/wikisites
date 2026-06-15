@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Palmitoyl Tripeptide-1 (Matrixyl 3000)
+
 ## Overview
 
-Palmitoyl Tripeptide-1 (Matrixyl 3000) is a peptide compound with applications in research and therapeutics. 
-
+Palmitoyl Tripeptide-1 (Matrixyl 3000) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Palmitoyl Tripeptide-1 (Matrixyl 3000) belongs to the Synthetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Palmitoyl Tripeptide-1 (Matrixyl 3000) |
+| Sequence | Pal-Gly-His-Lys-OH |
+| Length | 3 residues + palmitoyl |
+| Molecular Weight | ~575 Da |
 
-## Applications
+| Category | Cosmetic Synthetic |
 
-Palmitoyl Tripeptide-1 (Matrixyl 3000) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Mimics collagen propeptide to stimulate procollagen synthesis and extracellular matrix production
+
+
 
 ## References
 
-- Source: synthetic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

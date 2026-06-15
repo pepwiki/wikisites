@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Survodutide
+
 ## Overview
 
-Survodutide is a peptide compound with applications in research and therapeutics. 
-
+Survodutide is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Survodutide belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Survodutide |
+| Sequence | Modified GLP-1/glucagon dual agonist peptide with fatty acid side chain |
+| Length | ~29 amino acids (engineered dual-agonist peptide) |
+| Molecular Weight | ~4.2 kDa |
 
-## Applications
+| Category | Metabolic / GLP-1/Glucagon Dual Agonist |
 
-Survodutide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Dual GLP-1/glucagon receptor agonist; GLP-1 improves glycemic control and reduces appetite, glucagon increases energy expenditure and hepatic fat oxidation
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

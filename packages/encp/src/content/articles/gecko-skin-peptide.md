@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Gecko Skin Peptide
+
 ## Overview
 
-Gecko Skin Peptide is a peptide compound with applications in research and therapeutics. 
+Gecko Skin Peptide is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Gecko Skin Peptide belongs to the Reptile Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Gecko Skin Peptide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: reptile-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

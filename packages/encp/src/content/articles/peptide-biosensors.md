@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-03-15
 tags: ["biosensors", "aptamers", "MIP", "lateral-flow", "diagnostics"]
-category: "Diagnostics"
+category: "Biomarker Peptides"
 difficulty: "intermediate"
 relatedArticles: ["cgrp-migraine", "peptide-drug-conjugates"]
 citation:

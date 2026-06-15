@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Bdellin
+
 ## Overview
 
-Bdellin is a peptide compound with applications in research and therapeutics. 
-
+Bdellin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hirudo medicinalis (medicinal leech).
 
 
 ## Structure
 
-Bdellin belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Bdellin |
+| Sequence | Kazal-type serine protease inhibitor |
+| Length | 60 amino acids |
+| Molecular Weight | 6800 Da |
+| Source | Hirudo medicinalis (medicinal leech) |
+| Category | Leech Protease Inhibitor |
 
-## Applications
+## Mechanism of Action
 
-Bdellin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Competitive serine protease inhibition via Kazal-domain binding to active site
+
+## Bioactivity
+
+Anti-trypsin, anti-plasmin activity, prevents fibrinolysis at wound site
+
+## Therapeutic Potential
+
+Protease inhibitor research, wound healing studies, anti-inflammatory applications
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

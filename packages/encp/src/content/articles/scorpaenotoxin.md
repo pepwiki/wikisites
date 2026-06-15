@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Scorpaenotoxin
+
 ## Overview
 
-Scorpaenotoxin is a peptide compound with applications in research and therapeutics. 
-
+Scorpaenotoxin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Scorpion fish (Scorpaena spp.).
 
 
 ## Structure
 
-Scorpaenotoxin belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Scorpaenotoxin |
+| Sequence | Complex protein toxin mixture |
+| Length | Variable (multi-component) |
+| Molecular Weight | 100,000-150,000 Da (complex) |
+| Source | Scorpion fish (Scorpaena spp.) |
+| Category | Fish Venom |
 
-## Applications
+## Mechanism of Action
 
-Scorpaenotoxin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Multi-component venom; disrupts neuromuscular transmission; affects cardiac ion channels
+
+## Bioactivity
+
+Intense pain, tissue necrosis, cardiovascular collapse in severe cases
+
+## Therapeutic Potential
+
+Pain research models, cardiovascular pharmacology, anti-venom development
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

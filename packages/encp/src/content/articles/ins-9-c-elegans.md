@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# INS-9 (C. elegans)
+
 ## Overview
 
-INS-9 (C. elegans) is a peptide compound with applications in research and therapeutics. 
-
+INS-9 (C. elegans) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans.
 
 
 ## Structure
 
-INS-9 (C. elegans) belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | INS-9 (C. elegans) |
+| Sequence | MKIIFILFIFLSIGQANPIFDRLCGSHFVELYYICGDKGFFRNKICGSRLVNLWNQ |
+| Length | 57 amino acids |
+| Molecular Weight | 6410 Da |
+| Source | Caenorhabditis elegans |
+| Category | Nematode Insulin-like Peptide |
 
-## Applications
+## Mechanism of Action
 
-INS-9 (C. elegans) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+DAF-2 modulation, expressed in sensory neurons
+
+## Bioactivity
+
+Chemosensory integration of environmental cues for dauer decision
+
+## Therapeutic Potential
+
+Sensory biology research, anthelmintic target
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

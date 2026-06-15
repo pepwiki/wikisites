@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Enniatin
+
 ## Overview
 
-Enniatin is a peptide compound with applications in research and therapeutics. 
-
+Enniatin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Fusarium oxysporum.
 
 
 ## Structure
 
-Enniatin belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Enniatin |
 
-## Applications
+| Length | 6 residues (3 amino acids, 3 hydroxy acids) |
+| Molecular Weight | 639.80 Da |
+| Source | Fusarium oxysporum |
+| Category | Fungal Bioactive Peptide / Ionophore |
 
-Enniatin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Ionophore; forms cation-selective pores in membranes; disrupts mitochondrial function
+
+## Bioactivity
+
+Antibacterial, antifungal, insecticidal, cytotoxic
+
+## Therapeutic Potential
+
+Anti-cancer (induces apoptosis in tumor cells); antibacterial against MRSA; anti-inflammatory
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

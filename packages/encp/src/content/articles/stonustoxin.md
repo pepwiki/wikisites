@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Stonustoxin
+
 ## Overview
 
-Stonustoxin is a peptide compound with applications in research and therapeutics. 
-
+Stonustoxin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Stonefish (Synanceia horrida).
 
 
 ## Structure
 
-Stonustoxin belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Stonustoxin |
+| Sequence | Heterodimeric protein (alpha and beta subunits) |
+| Length | ~700 amino acids (total) |
+| Molecular Weight | 148,000 Da (holoprotein) |
+| Source | Stonefish (Synanceia horrida) |
+| Category | Fish Venom |
 
-## Applications
+## Mechanism of Action
 
-Stonustoxin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Pore-forming toxin; creates cation-selective channels in cell membranes; causes neuromuscular blockade
+
+## Bioactivity
+
+Lethal neuromuscular toxicity, hemolysis, edema, intense pain
+
+## Therapeutic Potential
+
+Research tool for ion channel studies, pain pathway elucidation, anti-venom development
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

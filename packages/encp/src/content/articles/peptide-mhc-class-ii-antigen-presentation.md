@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Peptide → MHC Class II (Antigen Presentation)
+
 ## Overview
 
-Peptide → MHC Class II (Antigen Presentation) is a peptide compound with applications in research and therapeutics. 
+Peptide → MHC Class II (Antigen Presentation) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-Peptide → MHC Class II (Antigen Presentation) belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Extracellular antigens endocytosed and processed in endosomes/lysosomes → peptides loaded onto MHC-II in MIIC compartment with help of HLA-DM (peptide editor) → peptide-MHC-II displayed on APC surface → recognized by CD4+ T helper cells. CLIP peptide blocks groove until exchange.
 
-## Applications
 
-Peptide → MHC Class II (Antigen Presentation) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-03-22
 tags: ["contrast-agents", "MRI", "PET-imaging", "radiolabeled-peptides", "tumor-targeting"]
-category: "Diagnostics"
+category: "Biomarker Peptides"
 difficulty: "intermediate"
 relatedArticles: ["peptide-modified-liposomes", "peptide-vaccines-cancer"]
 citation:

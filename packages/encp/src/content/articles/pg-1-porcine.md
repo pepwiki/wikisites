@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# PG-1 (Porcine)
+
 ## Overview
 
-PG-1 (Porcine) is a peptide compound with applications in research and therapeutics. 
-
+PG-1 (Porcine) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Sus scrofa (Pig).
 
 
 ## Structure
 
-PG-1 (Porcine) belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | PG-1 (Porcine) |
+| Sequence | RGGRLCYCRRRFCVCVGR |
+| Length | 18 amino acids |
+| Molecular Weight | 2221.7 Da |
+| Source | Sus scrofa (Pig) |
+| Category | Porcine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-PG-1 (Porcine) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Beta-sheet protegrin, rapid bactericidal through membrane insertion
+
+## Bioactivity
+
+Rapid killing of Gram-positive and Gram-negative bacteria
+
+## Therapeutic Potential
+
+Acute infection treatment, sepsis management
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

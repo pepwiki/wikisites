@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# SAHB (Stabilized Alpha-Helix of BCL-2 Domains)
+
 ## Overview
 
-SAHB (Stabilized Alpha-Helix of BCL-2 Domains) is a peptide compound with applications in research and therapeutics. 
-
+SAHB (Stabilized Alpha-Helix of BCL-2 Domains) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-SAHB (Stabilized Alpha-Helix of BCL-2 Domains) belongs to the Synthetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | SAHB (Stabilized Alpha-Helix of BCL-2 Domains) |
+| Sequence | Hydrocarbon-stapled BH3 domain peptide |
+| Length | ~20 residues |
+| Molecular Weight | ~2400 Da |
 
-## Applications
+| Category | Stapled Peptides |
 
-SAHB (Stabilized Alpha-Helix of BCL-2 Domains) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Directly binds anti-apoptotic BCL-2 proteins, neutralizing their function and promoting cytochrome c release
+
+
 
 ## References
 
-- Source: synthetic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

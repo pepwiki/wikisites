@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# BNP → Neprilysin (Substrate)
+
 ## Overview
 
-BNP → Neprilysin (Substrate) is a peptide compound with applications in research and therapeutics. 
+BNP → Neprilysin (Substrate) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-BNP → Neprilysin (Substrate) belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Neprilysin cleaves BNP at Cys10-Phe11, Met12-Val13, and other sites within the 17-membered disulfide ring, producing inactive fragments. BNP normally acts via NPR-A receptor (GC-A) to generate cGMP, promoting natriuresis and vasodilation.
 
-## Applications
 
-BNP → Neprilysin (Substrate) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

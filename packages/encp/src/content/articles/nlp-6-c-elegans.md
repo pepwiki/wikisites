@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# NLP-6 (C. elegans)
+
 ## Overview
 
-NLP-6 (C. elegans) is a peptide compound with applications in research and therapeutics. 
-
+NLP-6 (C. elegans) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans.
 
 
 ## Structure
 
-NLP-6 (C. elegans) belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | NLP-6 (C. elegans) |
+| Sequence | KPSAYDSKPRFamide-like peptides |
+| Length | 10-14 amino acids (processed forms) |
+| Molecular Weight | 1100-1550 Da |
+| Source | Caenorhabditis elegans |
+| Category | Nematode Neuropeptide / NLP |
 
-## Applications
+## Mechanism of Action
 
-NLP-6 (C. elegans) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Modulates chemosensory processing and navigation behavior
+
+## Bioactivity
+
+Regulation of chemotaxis and environmental sensing
+
+## Therapeutic Potential
+
+Research tool for sensory neuroscience, anthelmintic target
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

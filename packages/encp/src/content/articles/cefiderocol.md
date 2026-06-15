@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Cefiderocol
+
 ## Overview
 
-Cefiderocol is a peptide compound with applications in research and therapeutics. 
-
+Cefiderocol is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Cefiderocol belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Cefiderocol |
+| Sequence | Catechol-conjugated siderophore cephalosporin |
+| Length | Small molecule |
+| Molecular Weight | ~752 Da |
 
-## Applications
+| Category | Anti-Infective / Siderophore Cephalosporin |
 
-Cefiderocol has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Siderophore moiety chelates extracellular iron and actively transports the cephalosporin through outer membrane via iron transporters; bypasses porin-dependent entry. Active against carbapenem-resistant organisms
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

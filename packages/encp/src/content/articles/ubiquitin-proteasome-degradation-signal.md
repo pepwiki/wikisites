@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Ubiquitin → Proteasome (Degradation Signal)
+
 ## Overview
 
-Ubiquitin → Proteasome (Degradation Signal) is a peptide compound with applications in research and therapeutics. 
+Ubiquitin → Proteasome (Degradation Signal) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-Ubiquitin → Proteasome (Degradation Signal) belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Ubiquitin conjugated to substrate lysines via E1-E2-E3 enzymatic cascade (isopeptide bond). K48-linked poly-ubiquitin chain (≥4 Ub) is canonical degradation signal. 26S proteasome recognizes poly-Ub via Rpn10/Rpn13 receptors, deubiquitinases recycle Ub, and 20S core particle degrades substrate to peptides.
 
-## Applications
 
-Ubiquitin → Proteasome (Degradation Signal) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

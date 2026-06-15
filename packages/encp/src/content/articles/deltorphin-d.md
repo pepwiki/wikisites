@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Deltorphin D
+
 ## Overview
 
-Deltorphin D is a peptide compound with applications in research and therapeutics. 
-
+Deltorphin D is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Phyllomedusa hypochondrialis.
 
 
 ## Structure
 
-Deltorphin D belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Deltorphin D |
+| Sequence | YPLDII-NH2 |
+| Length | 6 amino acids |
+| Molecular Weight | 716.9 Da |
+| Source | Phyllomedusa hypochondrialis |
+| Category | Amphibian Opioid |
 
-## Applications
+## Mechanism of Action
 
-Deltorphin D has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+DOR agonist with proline substitution altering receptor binding profile
+
+## Bioactivity
+
+Analgesic, peripheral opioid effects
+
+## Therapeutic Potential
+
+Peripheral pain management, inflammation treatment
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

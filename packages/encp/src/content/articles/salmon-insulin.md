@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Salmon Insulin
+
 ## Overview
 
-Salmon Insulin is a peptide compound with applications in research and therapeutics. 
-
+Salmon Insulin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Salmon (Oncorhynchus spp.).
 
 
 ## Structure
 
-Salmon Insulin belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Salmon Insulin |
+| Sequence | A-chain: GIVEQCCTSICSLYQLEN YCN; B-chain: FVNQHLCGSHLVEALYLVCGERGFFYTPKA |
+| Length | 51 amino acids (A-chain 21 + B-chain 30) |
+| Molecular Weight | 5807.6 Da |
+| Source | Salmon (Oncorhynchus spp.) |
+| Category | Fish Peptide Hormone |
 
-## Applications
+## Mechanism of Action
 
-Salmon Insulin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Binds insulin receptor; promotes glucose uptake; stimulates glycogen synthesis and lipogenesis
+
+## Bioactivity
+
+Glucose regulation, anabolic effects, growth promotion
+
+## Therapeutic Potential
+
+Comparative endocrinology research, aquaculture growth optimization, diabetes research models
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

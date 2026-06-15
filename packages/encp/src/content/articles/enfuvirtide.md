@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Enfuvirtide
+
 ## Overview
 
-Enfuvirtide is a peptide compound with applications in research and therapeutics. 
-
+Enfuvirtide is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Enfuvirtide belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Enfuvirtide |
+| Sequence | YTSLIHSLIEESQNQQEKNEQELLELDKWASLWNWF |
+| Length | 36 amino acids |
+| Molecular Weight | 4492 Da |
 
-## Applications
+| Category | Anti-Infective / HIV Fusion Inhibitor |
 
-Enfuvirtide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+HIV fusion inhibitor; binds gp41 HR1 domain preventing membrane fusion
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

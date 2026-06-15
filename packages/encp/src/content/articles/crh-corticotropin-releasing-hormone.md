@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# CRH (Corticotropin-releasing hormone)
+
 ## Overview
 
-CRH (Corticotropin-releasing hormone) is a peptide compound with applications in research and therapeutics. 
-
+CRH (Corticotropin-releasing hormone) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-CRH (Corticotropin-releasing hormone) belongs to the Neuropeptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | CRH (Corticotropin-releasing hormone) |
+| Sequence | SEEPPISLDLTFHLLREVLEMTKADQLAQQAHSNRKLLDIA-NH2 |
+| Length | 41 amino acids |
+| Molecular Weight | 4757.5 Da |
 
-## Applications
+| Category | CRH family / Hypothalamic releasing hormone |
 
-CRH (Corticotropin-releasing hormone) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Gs-coupled (CRHR1); activates adenylyl cyclase, cAMP/PKA pathway
+
+
 
 ## References
 
-- Source: neuropeptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

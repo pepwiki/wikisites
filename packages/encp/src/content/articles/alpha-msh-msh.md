@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Alpha-MSH (α-MSH)
+
 ## Overview
 
-Alpha-MSH (α-MSH) is a peptide compound with applications in research and therapeutics. 
-
+Alpha-MSH (α-MSH) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Alpha-MSH (α-MSH) belongs to the Neuropeptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Alpha-MSH (α-MSH) |
+| Sequence | SYSMEHFRWGKPV-NH2 |
+| Length | 13 amino acids |
+| Molecular Weight | 1664.9 Da |
 
-## Applications
+| Category | POMC-derived / Melanocortin |
 
-Alpha-MSH (α-MSH) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Gs-coupled; activates adenylyl cyclase, cAMP/PKA
+
+
 
 ## References
 
-- Source: neuropeptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

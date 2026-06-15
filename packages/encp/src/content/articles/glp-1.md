@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-12-01
 tags: ["GLP-1", "incretins", "diabetes", "obesity", "DPP-4", "GLP-1 receptor agonists"]
-category: "Incretins"
+category: "Metabolic"
 difficulty: "intermediate"
 relatedArticles: ["cholecystokinin", "secretin", "gastrin"]
 citation:

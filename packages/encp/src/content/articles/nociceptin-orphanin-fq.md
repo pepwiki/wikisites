@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Nociceptin/Orphanin FQ
+
 ## Overview
 
-Nociceptin/Orphanin FQ is a peptide compound with applications in research and therapeutics. 
-
+Nociceptin/Orphanin FQ is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Nociceptin/Orphanin FQ belongs to the Neuropeptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Nociceptin/Orphanin FQ |
+| Sequence | FGGFTGARKSARKLANQ |
+| Length | 17 amino acids |
+| Molecular Weight | 1809.1 Da |
 
-## Applications
+| Category | Opioid-related peptide |
 
-Nociceptin/Orphanin FQ has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Gi/Go-coupled; inhibits adenylyl cyclase, modulates ion channels
+
+
 
 ## References
 
-- Source: neuropeptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

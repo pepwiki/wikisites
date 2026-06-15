@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Bivalirudin
+
 ## Overview
 
-Bivalirudin is a peptide compound with applications in research and therapeutics. 
-
+Bivalirudin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Bivalirudin belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Bivalirudin |
+| Sequence | D-Phe-Pro-Arg-Pro-Gly-Gly-Gly-Gly-Asn-Gly-Asp-Phe-Glu-Glu-Ile-Pro-Glu-Glu-Tyr-Leu |
+| Length | 20 amino acids |
+| Molecular Weight | 2180 Da |
 
-## Applications
+| Category | Cardiovascular / Anticoagulant Peptide |
 
-Bivalirudin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Direct thrombin inhibitor (reversible, bivalent)
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

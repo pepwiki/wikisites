@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Vestronidase Alfa
+
 ## Overview
 
-Vestronidase Alfa is a peptide compound with applications in research and therapeutics. 
-
+Vestronidase Alfa is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Vestronidase Alfa belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Vestronidase Alfa |
+| Sequence | Recombinant human beta-glucuronidase |
+| Length | ~651 amino acids (monomer); ~2604 amino acids (homotetramer) |
+| Molecular Weight | ~80 kDa (monomer), ~320 kDa (tetramer) |
 
-## Applications
+| Category | Rare Disease / Enzyme Replacement Therapy |
 
-Vestronidase Alfa has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Enzyme replacement therapy; provides exogenous beta-glucuronidase to catabolize glycosaminoglycans (GAGs) accumulated due to enzyme deficiency
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

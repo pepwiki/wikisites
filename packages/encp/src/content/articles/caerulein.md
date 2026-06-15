@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Caerulein
+
 ## Overview
 
-Caerulein is a peptide compound with applications in research and therapeutics. 
-
+Caerulein is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Xenopus laevis.
 
 
 ## Structure
 
-Caerulein belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Caerulein |
+| Sequence | pEQDY(SO3H)TGWMDF-NH2 |
+| Length | 10 amino acids |
+| Molecular Weight | 1351.4 Da |
+| Source | Xenopus laevis |
+| Category | Amphibian Caerulein |
 
-## Applications
+## Mechanism of Action
 
-Caerulein has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+CCK receptor agonist with sulfated tyrosine, potent GI hormone analog
+
+## Bioactivity
+
+Pancreatic stimulation, gallbladder contraction, GI motility
+
+## Therapeutic Potential
+
+GI diagnostics, pancreatitis research, CCK receptor pharmacology
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

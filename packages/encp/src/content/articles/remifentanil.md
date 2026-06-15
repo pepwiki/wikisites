@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Remifentanil
+
 ## Overview
 
-Remifentanil is a peptide compound with applications in research and therapeutics. 
-
+Remifentanil is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Remifentanil belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Remifentanil |
+| Sequence | Non-peptide (small molecule: C20H28N2O5) |
 
-## Applications
+| Molecular Weight | 376 Da |
 
-Remifentanil has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Analgesic / Opioid Agonist |
+
+## Mechanism of Action
+
+μ-opioid receptor full agonist; metabolized by blood/tissue esterases
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

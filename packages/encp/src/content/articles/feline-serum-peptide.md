@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Feline Serum Peptide
+
 ## Overview
 
-Feline Serum Peptide is a peptide compound with applications in research and therapeutics. 
-
+Feline Serum Peptide is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Felis catus (Cat).
 
 
 ## Structure
 
-Feline Serum Peptide belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Feline Serum Peptide |
+| Sequence | GYCACRRRFCIGGGSCCRRYCVCLR |
+| Length | 20 amino acids |
+| Molecular Weight | 2280.7 Da |
+| Source | Felis catus (Cat) |
+| Category | Feline Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Feline Serum Peptide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Serum-derived antimicrobial factor, membrane disruption
+
+## Bioactivity
+
+Antimicrobial activity in circulation
+
+## Therapeutic Potential
+
+Systemic anti-infective therapy
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

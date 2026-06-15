@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Maximin 3
+
 ## Overview
 
-Maximin 3 is a peptide compound with applications in research and therapeutics. 
-
+Maximin 3 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bombina maxima (Giant fire-bellied toad).
 
 
 ## Structure
 
-Maximin 3 belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Maximin 3 |
+| Sequence | ILSAIWSGIKSLF-NH2 |
+| Length | 13 amino acids |
+| Molecular Weight | 1418.8 Da |
+| Source | Bombina maxima (Giant fire-bellied toad) |
+| Category | Amphibian Antiviral |
 
-## Applications
+## Mechanism of Action
 
-Maximin 3 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Disrupts viral envelope integrity, inhibits viral entry and replication
+
+## Bioactivity
+
+Anti-HIV-1 activity, membrane disruption of enveloped viruses
+
+## Therapeutic Potential
+
+Anti-HIV therapeutics, microbicide development
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

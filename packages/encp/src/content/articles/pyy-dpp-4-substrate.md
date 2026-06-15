@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# PYY → DPP-4 (Substrate)
+
 ## Overview
 
-PYY → DPP-4 (Substrate) is a peptide compound with applications in research and therapeutics. 
+PYY → DPP-4 (Substrate) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-PYY → DPP-4 (Substrate) belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+DPP-4 cleaves N-terminal Tyr1-Pro2 dipeptide from PYY (1-36), producing PYY (3-36) which is the active anorexigenic form preferentially binding Y2R and Y5R. PYY (3-36) reduces appetite and gastric emptying via hypothalamic Y2R.
 
-## Applications
 
-PYY → DPP-4 (Substrate) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

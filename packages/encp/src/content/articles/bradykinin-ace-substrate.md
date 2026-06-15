@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Bradykinin → ACE (Substrate)
+
 ## Overview
 
-Bradykinin → ACE (Substrate) is a peptide compound with applications in research and therapeutics. 
-
+Bradykinin → ACE (Substrate) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Rana temporaria.
 
 
 ## Structure
 
-Bradykinin → ACE (Substrate) belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Bradykinin → ACE (Substrate) |
+| Sequence | RPPGFSPFR |
+| Length | 9 amino acids |
+| Molecular Weight | 1060.2 Da |
+| Source | Rana temporaria |
+| Category | Amphibian Bradykinin |
 
-## Applications
+## Mechanism of Action
 
-Bradykinin → ACE (Substrate) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+B2 receptor agonist, activates phospholipase C pathway, stimulates nitric oxide release
+
+## Bioactivity
+
+Vasodilation, inflammation, pain signaling, vascular permeability
+
+## Therapeutic Potential
+
+Cardiovascular research, inflammation studies, blood pressure regulation
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

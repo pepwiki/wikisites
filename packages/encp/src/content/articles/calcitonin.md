@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-04-15
 tags: ["calcitonin", "CT", "calcium", "bone", "osteoporosis", "C cells", "thyroid"]
-category: "Hormones"
+category: "Peptide Hormones"
 difficulty: "intermediate"
 relatedArticles: ["vasopressin", "alpha-msh", "neuropeptide-y"]
 citation:

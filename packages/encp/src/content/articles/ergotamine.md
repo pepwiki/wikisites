@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Ergotamine
+
 ## Overview
 
-Ergotamine is a peptide compound with applications in research and therapeutics. 
-
+Ergotamine is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Claviceps purpurea.
 
 
 ## Structure
 
-Ergotamine belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Ergotamine |
 
-## Applications
+| Length | 3 amino acids (peptide portion) |
+| Molecular Weight | 581.66 Da |
+| Source | Claviceps purpurea |
+| Category | Fungal Cyclopeptide / Alkaloid |
 
-Ergotamine has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Serotonin antagonist and partial agonist; causes vasoconstriction through alpha-adrenergic activation
+
+## Bioactivity
+
+Vasoconstrictor, antimigraine
+
+## Therapeutic Potential
+
+Migraine treatment (combined with caffeine); historically important antimigraine drug
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Temporin A
+
 ## Overview
 
-Temporin A is a peptide compound with applications in research and therapeutics. 
-
+Temporin A is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Rana temporaria (Common frog).
 
 
 ## Structure
 
-Temporin A belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Temporin A |
+| Sequence | FLPLIGRVLSGIL |
+| Length | 13 amino acids |
+| Molecular Weight | 1381.7 Da |
+| Source | Rana temporaria (Common frog) |
+| Category | Amphibian Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Temporin A has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Short hydrophobic helical peptide, membrane insertion and disruption
+
+## Bioactivity
+
+Potent against Gram-positive bacteria including MRSA, moderate activity against Gram-negatives
+
+## Therapeutic Potential
+
+Anti-MRSA therapeutics, wound dressings, implant coatings
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

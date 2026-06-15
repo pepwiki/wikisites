@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Sacubitril/Valsartan
+
 ## Overview
 
-Sacubitril/Valsartan is a peptide compound with applications in research and therapeutics. 
-
+Sacubitril/Valsartan is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Sacubitril/Valsartan belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Sacubitril/Valsartan |
+| Sequence | N/A (combination: sacubitril prodrug + valsartan ARB) |
+| Length | Small molecule combination |
+| Molecular Weight | 485 Da (sacubitril) + 435 Da (valsartan) |
 
-## Applications
+| Category | Cardiovascular / Neprilysin Inhibitor + ARB |
 
-Sacubitril/Valsartan has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Neprilysin inhibitor (sacubitril→LBQ657) + AT1 receptor blocker (valsartan)
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

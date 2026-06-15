@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Psylopeptide 1
+
 ## Overview
 
-Psylopeptide 1 is a peptide compound with applications in research and therapeutics. 
-
+Psylopeptide 1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Psychotria elata.
 
 
 ## Structure
 
-Psylopeptide 1 belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Psylopeptide 1 |
+| Sequence | GLPVCGETCFGGTCNTPGCTCSWPVCTRN |
+| Length | 29 amino acids |
+| Molecular Weight | ~2,900 Da |
+| Source | Psychotria elata |
+| Category | Plant Cyclic Peptides |
 
-## Applications
+## Mechanism of Action
 
-Psylopeptide 1 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane disruption through cyclotide-mediated pore formation
+
+## Bioactivity
+
+Antimicrobial
+
+## Therapeutic Potential
+
+Novel antimicrobial scaffold, tropical disease applications
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Protegrin 3
+
 ## Overview
 
-Protegrin 3 is a peptide compound with applications in research and therapeutics. 
-
+Protegrin 3 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Sus scrofa (Pig).
 
 
 ## Structure
 
-Protegrin 3 belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Protegrin 3 |
+| Sequence | RGGRLCYCRRRFCVCVGR |
+| Length | 18 amino acids |
+| Molecular Weight | 2221.7 Da |
+| Source | Sus scrofa (Pig) |
+| Category | Porcine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Protegrin 3 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Amphipathic beta-hairpin, selective binding to anionic phospholipids
+
+## Bioactivity
+
+Antimicrobial activity, membrane disruption
+
+## Therapeutic Potential
+
+Anti-infective agents, biofilm disruption
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

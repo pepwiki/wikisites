@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-05-15
 tags: ["freeze-thaw", "cryopreservation", "aggregation", "formulation", "stability"]
-category: "Pharmaceutical Science"
+category: "Drug Development"
 difficulty: "intermediate"
 relatedArticles: ["peptide-aggregation-biologics", "oral-semaglutide"]
 citation:

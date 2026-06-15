@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# D-dimer
+
 ## Overview
 
-D-dimer is a peptide compound with applications in research and therapeutics. 
+D-dimer is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-D-dimer belongs to the Biomarker Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-D-dimer has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: biomarker-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

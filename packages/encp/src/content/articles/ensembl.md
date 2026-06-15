@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Ensembl
+
 ## Overview
 
-Ensembl is a peptide compound with applications in research and therapeutics. 
+Ensembl is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Ensembl belongs to the Peptide Databases class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Ensembl has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-databases.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

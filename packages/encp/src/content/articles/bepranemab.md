@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Bepranemab
+
 ## Overview
 
-Bepranemab is a peptide compound with applications in research and therapeutics. 
-
+Bepranemab is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Bepranemab belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Bepranemab |
+| Sequence | Humanized monoclonal antibody targeting tau protein mid-region (aa 235–250) |
+| Length | ~1330 amino acids |
+| Molecular Weight | ~148 kDa |
 
-## Applications
+| Category | Neurology / Anti-Tau Antibody |
 
-Bepranemab has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Targets the mid-region of tau (residues 235–250), blocking tau seeding and cell-to-cell propagation of pathological tau species
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

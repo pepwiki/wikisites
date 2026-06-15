@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Dynorphin B
+
 ## Overview
 
-Dynorphin B is a peptide compound with applications in research and therapeutics. 
-
+Dynorphin B is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Dynorphin B belongs to the Neuropeptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Dynorphin B |
+| Sequence | YGGFLRRQFKVVT |
+| Length | 13 amino acids |
+| Molecular Weight | 1570.8 Da |
 
-## Applications
+| Category | Endogenous opioid peptide |
 
-Dynorphin B has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Gi/Go-coupled; inhibits adenylyl cyclase, activates K+ conductance
+
+
 
 ## References
 
-- Source: neuropeptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

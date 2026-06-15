@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# INS-4 (C. elegans)
+
 ## Overview
 
-INS-4 (C. elegans) is a peptide compound with applications in research and therapeutics. 
-
+INS-4 (C. elegans) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans.
 
 
 ## Structure
 
-INS-4 (C. elegans) belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | INS-4 (C. elegans) |
+| Sequence | MHKVLFILFIFLCIHANPIFDRLCGSHFVELYYICGDKGFFRNKICGSRLVNLWNQ |
+| Length | 57 amino acids |
+| Molecular Weight | 6420 Da |
+| Source | Caenorhabditis elegans |
+| Category | Nematode Insulin-like Peptide |
 
-## Applications
+## Mechanism of Action
 
-INS-4 (C. elegans) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+DAF-2 signaling activation, promotes growth under favorable conditions
+
+## Bioactivity
+
+Environmental sensing integration, dauer decision modulation
+
+## Therapeutic Potential
+
+Longevity research, parasitic nematode target
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

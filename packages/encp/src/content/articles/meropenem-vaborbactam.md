@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Meropenem/Vaborbactam
+
 ## Overview
 
-Meropenem/Vaborbactam is a peptide compound with applications in research and therapeutics. 
-
+Meropenem/Vaborbactam is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Meropenem/Vaborbactam belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Meropenem/Vaborbactam |
+| Sequence | Combination: meropenem (carbapenem beta-lactam) + vaborbactam (cyclic boronate beta-lactamase inhibitor) |
+| Length | Small molecule combination |
+| Molecular Weight | 384 Da (meropenem) + 297 Da (vaborbactam) |
 
-## Applications
+| Category | Anti-Infective / Beta-Lactamase Inhibitor Combination |
 
-Meropenem/Vaborbactam has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Vaborbactam inhibits KPC and other Class A/C serine beta-lactamases, protecting meropenem from hydrolysis; meropenem then inhibits PBP-mediated cell wall synthesis
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -5,38 +5,23 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ["dual-nav/kv-blocker-(spider-toxin)","peptide","oligopeptide"]
-category: "Dual Nav/Kv blocker (spider toxin)"
+category: "Toxin Peptides"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# GsAF-IV
+
 ## Overview
 
-GsAF-IV is a peptide compound with applications in research and therapeutics. 
+GsAF-IV is a bioactive peptide with well-characterized properties and therapeutic applications.
 
-## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | GsAF-IV |
-| Sequence | DCLGFMEKCPSDTHCCRRYGWCAIGPWCKCWP (related to ProTx-II) |
-| Length | 54 amino acids |
 
-| Category | Dual Nav/Kv blocker (spider toxin) |
 
-## Structure
 
-GsAF-IV belongs to the Dual Nav/Kv blocker (spider toxin) class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
-
-## Applications
-
-GsAF-IV has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: venom-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

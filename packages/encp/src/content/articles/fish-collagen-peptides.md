@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Fish Collagen Peptides
+
 ## Overview
 
-Fish Collagen Peptides is a peptide compound with applications in research and therapeutics. 
-
+Fish Collagen Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Various (cod, salmon, tilapia, pangasius).
 
 
 ## Structure
 
-Fish Collagen Peptides belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Fish Collagen Peptides |
+| Sequence | Hydrolyzed collagen fragments rich in Gly-X-Y repeats (X often Pro, Y often Hyp) |
+| Length | 2-20 amino acids (hydrolyzed) |
+| Molecular Weight | 200-5,000 Da (hydrolyzed mixture) |
+| Source | Various (cod, salmon, tilapia, pangasius) |
+| Category | Fish Collagen |
 
-## Applications
+## Mechanism of Action
 
-Fish Collagen Peptides has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Provides bioavailable hydroxyproline and glycine; stimulates collagen synthesis; reduces inflammatory cytokines in joints
+
+## Bioactivity
+
+Joint health improvement, cartilage protection, anti-inflammatory effects
+
+## Therapeutic Potential
+
+Osteoarthritis treatment, joint health supplements, sports nutrition, regenerative medicine
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-07-25
 tags: ["adiponectin", "adipokine", "insulin-sensitivity", "anti-inflammatory", "cardiovascular"]
-category: "Adipokines"
+category: "Metabolic"
 difficulty: "intermediate"
 relatedArticles: ["leptin", "ghrelin"]
 citation:

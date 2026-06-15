@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Gliadin
+
 ## Overview
 
-Gliadin is a peptide compound with applications in research and therapeutics. 
-
+Gliadin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Triticum aestivum (Wheat).
 
 
 ## Structure
 
-Gliadin belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Gliadin |
+| Sequence | Complex monomeric protein (alpha, beta, gamma, omega types) |
+| Length | ~280-440 amino acids |
+| Molecular Weight | ~30,000-45,000 Da |
+| Source | Triticum aestivum (Wheat) |
+| Category | Plant Storage Peptides |
 
-## Applications
+## Mechanism of Action
 
-Gliadin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Seed storage protein, contributes to dough viscosity
+
+## Bioactivity
+
+Nutritional storage protein
+
+## Therapeutic Potential
+
+Celiac disease pathogenesis research, gluten-free product development
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

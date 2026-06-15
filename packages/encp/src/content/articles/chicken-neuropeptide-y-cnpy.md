@@ -5,38 +5,42 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ["avian-neuropeptide","peptide","oligopeptide"]
-category: "Avian Neuropeptide"
+category: "Neuropeptides"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Chicken Neuropeptide Y (cNPY)
+
 ## Overview
 
-Chicken Neuropeptide Y (cNPY) is a peptide compound with applications in research and therapeutics. 
+Chicken Neuropeptide Y (cNPY) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Mammalian (widely conserved).
 
-## Chemical Identity
+
+## Structure
 
 | Property | Value |
 |----------|-------|
 | Name | Chicken Neuropeptide Y (cNPY) |
-| Sequence | YPSKPDNPGEDAPAEDMARYYSALRHYINLITRQRY-NH2 |
-| Length | 40 amino acids |
-| Molecular Weight | 4250 Da |
-| Category | Avian Neuropeptide |
+| Sequence | YPSKPDNPGEDAPAEDMARYYSALRHYINLITRQRY |
+| Length | 36 amino acids |
+| Molecular Weight | 4271.8 Da |
+| Source | Mammalian (widely conserved) |
+| Category | Mammalian Neuropeptide |
 
-## Structure
+## Mechanism of Action
 
-Chicken Neuropeptide Y (cNPY) belongs to the Avian Neuropeptide class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Neuropeptide Y family member, activates G-protein coupled receptors to stimulate appetite
 
-## Applications
+## Bioactivity
 
-Chicken Neuropeptide Y (cNPY) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Potent orexigenic (appetite-stimulating), anxiolytic, vasoconstrictive
+
+## Therapeutic Potential
+
+Obesity treatment (antagonists), anxiolytic drugs, cardiovascular therapy
 
 ## References
 
-- Source: bird-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

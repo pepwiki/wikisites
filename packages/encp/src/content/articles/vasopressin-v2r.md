@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Vasopressin → V2R
+
 ## Overview
 
-Vasopressin → V2R is a peptide compound with applications in research and therapeutics. 
+Vasopressin → V2R is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-Vasopressin → V2R belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+AVP binds V2R (class A GPCR) on renal collecting duct cells, activating Gαs → adenylyl cyclase → cAMP → PKA pathway. Triggers AQP2 water channel insertion into apical membrane, increasing water reabsorption.
 
-## Applications
 
-Vasopressin → V2R has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

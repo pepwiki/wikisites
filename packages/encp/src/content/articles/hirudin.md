@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Hirudin
+
 ## Overview
 
-Hirudin is a peptide compound with applications in research and therapeutics. 
-
+Hirudin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hirudo medicinalis (medicinal leech).
 
 
 ## Structure
 
-Hirudin belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Hirudin |
+| Sequence | VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPKPQSHNDGDFEEIPEEYLQ |
+| Length | 65 amino acids |
+| Molecular Weight | 7000 Da |
+| Source | Hirudo medicinalis (medicinal leech) |
+| Category | Leech Thrombin Inhibitor |
 
-## Applications
+## Mechanism of Action
 
-Hirudin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Binds thrombin active site and exosite I with picomolar affinity, irreversible tight-binding inhibitor
+
+## Bioactivity
+
+Most potent natural thrombin inhibitor, prevents fibrinogen cleavage and fibrin clot formation
+
+## Therapeutic Potential
+
+Anticoagulant therapy (desirudin, lepirudin approved), cardiac surgery, deep vein thrombosis prevention
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

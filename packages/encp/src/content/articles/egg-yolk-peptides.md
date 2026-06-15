@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Egg Yolk Peptides
+
 ## Overview
 
-Egg Yolk Peptides is a peptide compound with applications in research and therapeutics. 
+Egg Yolk Peptides is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Egg Yolk Peptides belongs to the Bird Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Egg Yolk Peptides has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: bird-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

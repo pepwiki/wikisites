@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Cetrorelix
+
 ## Overview
 
-Cetrorelix is a peptide compound with applications in research and therapeutics. 
-
+Cetrorelix is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Cetrorelix belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Cetrorelix |
+| Sequence | Ac-D-Nal(2)-D-Cpa-D-Pal(3)-Ser-Tyr-D-Cit-Leu-Arg-Pro-D-Ala-NH2 |
 
-## Applications
+| Molecular Weight | 1431 Da |
 
-Cetrorelix has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Reproductive/Endocrine / GnRH Antagonist |
+
+## Mechanism of Action
+
+GnRH antagonist; immediate competitive blockade without initial flare
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

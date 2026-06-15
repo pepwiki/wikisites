@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# NVX-CoV2373
+
 ## Overview
 
-NVX-CoV2373 is a peptide compound with applications in research and therapeutics. 
+NVX-CoV2373 is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-NVX-CoV2373 belongs to the Peptide Vaccines class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Recombinant spike protein displayed on Matrix-M nanoparticles; induces neutralizing antibodies against RBD and S2 domains; spike-specific CD4+ T-cell responses
 
-## Applications
 
-NVX-CoV2373 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-vaccines.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

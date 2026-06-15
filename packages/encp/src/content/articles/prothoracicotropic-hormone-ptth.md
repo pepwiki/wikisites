@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Prothoracicotropic Hormone (PTTH)
+
 ## Overview
 
-Prothoracicotropic Hormone (PTTH) is a peptide compound with applications in research and therapeutics. 
-
+Prothoracicotropic Hormone (PTTH) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bombyx mori (silkworm), Manduca sexta.
 
 
 ## Structure
 
-Prothoracicotropic Hormone (PTTH) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Prothoracicotropic Hormone (PTTH) |
+| Sequence | Homodimeric peptide, each subunit ~110 amino acids with disulfide bonds |
+| Length | 224 amino acids (homodimer) |
+| Molecular Weight | 25000 Da (homodimer) |
+| Source | Bombyx mori (silkworm), Manduca sexta |
+| Category | Insect Hormone / Development |
 
-## Applications
+## Mechanism of Action
 
-Prothoracicotropic Hormone (PTTH) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Binds Torso receptor tyrosine kinase, stimulates ecdysone biosynthesis
+
+## Bioactivity
+
+Initiates molting and metamorphosis via ecdysteroid synthesis
+
+## Therapeutic Potential
+
+Pest control via developmental disruption, biotechnology research tool
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

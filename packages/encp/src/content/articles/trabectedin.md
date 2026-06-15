@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Trabectedin
+
 ## Overview
 
-Trabectedin is a peptide compound with applications in research and therapeutics. 
-
+Trabectedin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Ecteinascidia turbinata (sea squirt).
 
 
 ## Structure
 
-Trabectedin belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Trabectedin |
 
-## Applications
+| Length | N/A (small molecule) |
+| Molecular Weight | 761.84 Da |
+| Source | Ecteinascidia turbinata (sea squirt) |
+| Category | Marine Anti-Cancer Drug (Approved) |
 
-Trabectedin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds minor groove, alkylates guanine N2, blocks transcription, affects DNA repair
+
+## Bioactivity
+
+Anti-tumor, anti-angiogenic, immunomodulatory
+
+## Therapeutic Potential
+
+Approved for soft tissue sarcoma, ovarian cancer
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

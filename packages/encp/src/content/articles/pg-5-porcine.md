@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# PG-5 (Porcine)
+
 ## Overview
 
-PG-5 (Porcine) is a peptide compound with applications in research and therapeutics. 
-
+PG-5 (Porcine) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Sus scrofa (Pig).
 
 
 ## Structure
 
-PG-5 (Porcine) belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | PG-5 (Porcine) |
+| Sequence | RGGRLCYCRRRFCVCVGR |
+| Length | 18 amino acids |
+| Molecular Weight | 2221.7 Da |
+| Source | Sus scrofa (Pig) |
+| Category | Porcine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-PG-5 (Porcine) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Beta-sheet protegrin, membrane disruption through pore formation
+
+## Bioactivity
+
+Antimicrobial and antifungal activity
+
+## Therapeutic Potential
+
+Broad-spectrum anti-infective
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

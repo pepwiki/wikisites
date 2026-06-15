@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Orexin → OX1R
+
 ## Overview
 
-Orexin → OX1R is a peptide compound with applications in research and therapeutics. 
+Orexin → OX1R is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-Orexin → OX1R belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Orexin A binds OX1R (class A GPCR), activating Gαq/11 → PLC → IP3/DAG → PKC pathway. Increases intracellular calcium, promoting wakefulness, feeding behavior, and sympathetic activation.
 
-## Applications
 
-Orexin → OX1R has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

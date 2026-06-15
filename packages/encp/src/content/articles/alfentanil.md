@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Alfentanil
+
 ## Overview
 
-Alfentanil is a peptide compound with applications in research and therapeutics. 
-
+Alfentanil is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Alfentanil belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Alfentanil |
+| Sequence | Non-peptide (small molecule: C21H32N6O3) |
 
-## Applications
+| Molecular Weight | 416 Da |
 
-Alfentanil has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Analgesic / Opioid Agonist |
+
+## Mechanism of Action
+
+μ-opioid receptor full agonist; rapid onset due to low pKa and high unionized fraction
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

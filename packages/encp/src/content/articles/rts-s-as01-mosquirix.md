@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# RTS,S/AS01 (Mosquirix)
+
 ## Overview
 
-RTS,S/AS01 (Mosquirix) is a peptide compound with applications in research and therapeutics. 
+RTS,S/AS01 (Mosquirix) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-RTS,S/AS01 (Mosquirix) belongs to the Peptide Vaccines class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Recombinant CSP-HBsAg VLP with AS01 adjuvant; anti-CSP antibodies block sporozoite invasion of hepatocytes; CSP-specific CD4+ T cells provide cellular immunity
 
-## Applications
 
-RTS,S/AS01 (Mosquirix) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-vaccines.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

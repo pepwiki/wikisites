@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# INS-5 (C. elegans)
+
 ## Overview
 
-INS-5 (C. elegans) is a peptide compound with applications in research and therapeutics. 
-
+INS-5 (C. elegans) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans.
 
 
 ## Structure
 
-INS-5 (C. elegans) belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | INS-5 (C. elegans) |
+| Sequence | MKVLFIIFILSAHADNIYDRLCGSHLVELFDICGDKGFYRNEICGSRVISLWNE |
+| Length | 54 amino acids |
+| Molecular Weight | 6100 Da |
+| Source | Caenorhabditis elegans |
+| Category | Nematode Insulin-like Peptide |
 
-## Applications
+## Mechanism of Action
 
-INS-5 (C. elegans) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+DAF-2 agonist, regulated by nutritional status and dauer pheromone
+
+## Bioactivity
+
+Modulation of dauer entry/exit, lifespan determination
+
+## Therapeutic Potential
+
+Aging biology research, anti-parasitic drug development
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

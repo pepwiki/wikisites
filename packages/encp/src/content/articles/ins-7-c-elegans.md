@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# INS-7 (C. elegans)
+
 ## Overview
 
-INS-7 (C. elegans) is a peptide compound with applications in research and therapeutics. 
-
+INS-7 (C. elegans) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans.
 
 
 ## Structure
 
-INS-7 (C. elegans) belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | INS-7 (C. elegans) |
+| Sequence | MKFIFLILSCLIGQANPIFDRLCGSHFVELYYICGDKGFFRNKICGSRLVNLWNQ |
+| Length | 56 amino acids |
+| Molecular Weight | 6380 Da |
+| Source | Caenorhabditis elegans |
+| Category | Nematode Insulin-like Peptide |
 
-## Applications
+## Mechanism of Action
 
-INS-7 (C. elegans) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+DAF-2 antagonist activity, promotes DAF-16 nuclear translocation
+
+## Bioactivity
+
+Promotes dauer formation under stress, extends lifespan
+
+## Therapeutic Potential
+
+Longevity research, caloric restriction mimetics
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

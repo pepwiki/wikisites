@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Lactoferricin B
+
 ## Overview
 
-Lactoferricin B is a peptide compound with applications in research and therapeutics. 
-
+Lactoferricin B is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bos taurus (Cattle).
 
 
 ## Structure
 
-Lactoferricin B belongs to the Food Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Lactoferricin B |
+| Sequence | FKCRRWQWRMKKLGAPSITCVRRAF |
+| Length | 25 amino acids |
+| Molecular Weight | 3133.8 Da |
+| Source | Bos taurus (Cattle) |
+| Category | Bovine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Lactoferricin B has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Disulfide-bridged peptide from lactoferrin, membrane disruption and intracellular ROS generation
+
+## Bioactivity
+
+Broad-spectrum antimicrobial, antifungal, antiviral, anticancer, anti-inflammatory
+
+## Therapeutic Potential
+
+Cancer therapy, anti-infective, immunomodulator, food preservative
 
 ## References
 
-- Source: food-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

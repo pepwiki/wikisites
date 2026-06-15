@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Spidroin I (Nephila)
+
 ## Overview
 
-Spidroin I (Nephila) is a peptide compound with applications in research and therapeutics. 
-
+Spidroin I (Nephila) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Nephila clavipes (golden orb-weaver spider).
 
 
 ## Structure
 
-Spidroin I (Nephila) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Spidroin I (Nephila) |
+| Sequence | Repetitive (AAAA)n and (GA)n motifs with GGX and poly-A repeats |
+| Length | ~3500 amino acids |
+| Molecular Weight | 250000-350000 Da |
+| Source | Nephila clavipes (golden orb-weaver spider) |
+| Category | Silk Protein / Structural |
 
-## Applications
+## Mechanism of Action
 
-Spidroin I (Nephila) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Self-assembles into beta-sheet nanocrystals embedded in amorphous glycine-rich matrix
+
+## Bioactivity
+
+Superior tensile strength (~1.1 GPa), extensibility (~27%), toughness
+
+## Therapeutic Potential
+
+Biodegradable sutures, tissue engineering scaffolds, body armor, biomaterials
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

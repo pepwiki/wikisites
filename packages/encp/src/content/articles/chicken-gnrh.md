@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Chicken GnRH
+
 ## Overview
 
-Chicken GnRH is a peptide compound with applications in research and therapeutics. 
+Chicken GnRH is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Chicken GnRH belongs to the Bird Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Chicken GnRH has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: bird-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# GLP-1 (7-36) Amide
+
 ## Overview
 
-GLP-1 (7-36) Amide is a peptide compound with applications in research and therapeutics. 
-
+GLP-1 (7-36) Amide is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-GLP-1 (7-36) Amide belongs to the Therapeutic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | GLP-1 (7-36) Amide |
+| Sequence | HAEGTFTSDVSSYLEGQAAKEFIAWLVKGR |
+| Length | 30 amino acids |
+| Molecular Weight | 3298 Da |
 
-## Applications
+| Category | Metabolic / Incretin Mimetic |
 
-GLP-1 (7-36) Amide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+GLP-1 receptor agonist; stimulates glucose-dependent insulin secretion
+
+
 
 ## References
 
-- Source: therapeutic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

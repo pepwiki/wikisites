@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Lunasin
+
 ## Overview
 
-Lunasin is a peptide compound with applications in research and therapeutics. 
-
+Lunasin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Glycine max (Soybean).
 
 
 ## Structure
 
-Lunasin belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Lunasin |
+| Sequence | SKWQHQQDSCRKQLQGVNLTPCEKHIMEKIQGRGDDDDDDDDD |
+| Length | 43 amino acids |
+| Molecular Weight | ~5,000 Da |
+| Source | Glycine max (Soybean) |
+| Category | Plant Bioactive Peptides |
 
-## Applications
+## Mechanism of Action
 
-Lunasin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Inhibits histone acetylation, disrupts mitosis, induces apoptosis in cancer cells
+
+## Bioactivity
+
+Anti-cancer, anti-inflammatory
+
+## Therapeutic Potential
+
+Cancer chemoprevention, nutraceutical development, epigenetic therapy
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Cerulein
+
 ## Overview
 
-Cerulein is a peptide compound with applications in research and therapeutics. 
-
+Cerulein is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bombina bombina.
 
 
 ## Structure
 
-Cerulein belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Cerulein |
+| Sequence | pEQDY(SO3H)TGWMDF-NH2 |
+| Length | 10 amino acids |
+| Molecular Weight | 1351.4 Da |
+| Source | Bombina bombina |
+| Category | Amphibian Caerulein |
 
-## Applications
+## Mechanism of Action
 
-Cerulein has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+CCK analog, stimulates pancreatic enzyme secretion and GI motility
+
+## Bioactivity
+
+Potent pancreatic stimulant, cholecystokinin-like activity
+
+## Therapeutic Potential
+
+Pancreatic function testing, GI motility disorders
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

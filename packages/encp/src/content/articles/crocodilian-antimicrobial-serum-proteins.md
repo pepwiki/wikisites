@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ["crocodilian-peptide","peptide","oligopeptide"]
-category: "Crocodilian Peptide"
+category: "Reptile Peptides"
 difficulty: "intermediate"
 relatedArticles: []
 ---

@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Plecanatide
+
 ## Overview
 
-Plecanatide is a peptide compound with applications in research and therapeutics. 
-
+Plecanatide is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Plecanatide belongs to the Synthetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Plecanatide |
+| Sequence | Asn-Asp-Glu-Cys-Glu-Leu-Cys-Val-Asn-Val-Ala-Cys-Thr-Gly-Cys-Leu (cyclic via disulfide) |
+| Length | 16 residues (cyclic 14-mer core) |
+| Molecular Weight | 1681.9 Da |
 
-## Applications
+| Category | Cyclic Peptides |
 
-Plecanatide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Mimics endogenous guanylin to activate GC-C, promoting intestinal fluid secretion and transit
+
+
 
 ## References
 
-- Source: synthetic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -5,38 +5,23 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ["potassium-channel-blocker-(scorpion-toxin)","peptide","oligopeptide"]
-category: "Potassium channel blocker (scorpion toxin)"
+category: "Toxin Peptides"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Iberiotoxin
+
 ## Overview
 
-Iberiotoxin is a peptide compound with applications in research and therapeutics. 
+Iberiotoxin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
-## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | Iberiotoxin |
-| Sequence | FTNVSCTTSKECWSVCQRLHNTSRGKCMNKKCRCYS |
-| Length | 36 amino acids |
-| Molecular Weight | 4228 Da |
-| Category | Potassium channel blocker (scorpion toxin) |
 
-## Structure
 
-Iberiotoxin belongs to the Potassium channel blocker (scorpion toxin) class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Iberiotoxin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: venom-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# κ-Conotoxin PVIIA
+
 ## Overview
 
-κ-Conotoxin PVIIA is a peptide compound with applications in research and therapeutics. 
+κ-Conotoxin PVIIA is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-κ-Conotoxin PVIIA belongs to the Venom Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-κ-Conotoxin PVIIA has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: venom-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Esculentin-1
+
 ## Overview
 
-Esculentin-1 is a peptide compound with applications in research and therapeutics. 
-
+Esculentin-1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Rana esculenta (European green frog).
 
 
 ## Structure
 
-Esculentin-1 belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Esculentin-1 |
+| Sequence | GIFSKLAGKKIKNLLISGLKNVGKEVGMDVVRTGIDIAGCKIKGEC |
+| Length | 46 amino acids |
+| Molecular Weight | 4863.6 Da |
+| Source | Rana esculenta (European green frog) |
+| Category | Amphibian Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Esculentin-1 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Large antimicrobial peptide with C-terminal disulfide loop, membrane permeabilization and LPS binding
+
+## Bioactivity
+
+Very potent antimicrobial, particularly against Pseudomonas aeruginosa
+
+## Therapeutic Potential
+
+Anti-pseudomonal therapeutics, cystic fibrosis treatment
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

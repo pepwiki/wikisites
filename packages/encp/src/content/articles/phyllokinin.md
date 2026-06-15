@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Phyllokinin
+
 ## Overview
 
-Phyllokinin is a peptide compound with applications in research and therapeutics. 
-
+Phyllokinin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Phyllomedusa sauvagei.
 
 
 ## Structure
 
-Phyllokinin belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Phyllokinin |
+| Sequence | RPPGFSPFRISAL-NH2 |
+| Length | 12 amino acids |
+| Molecular Weight | 1404.7 Da |
+| Source | Phyllomedusa sauvagei |
+| Category | Amphibian Bradykinin |
 
-## Applications
+## Mechanism of Action
 
-Phyllokinin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Extended bradykinin analog with C-terminal amidation, enhanced receptor binding and stability
+
+## Bioactivity
+
+Potent vasodilation, longer duration than bradykinin
+
+## Therapeutic Potential
+
+Cardiovascular therapeutics, hypertension treatment
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

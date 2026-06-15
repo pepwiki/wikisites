@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# B-cerulein
+
 ## Overview
 
-B-cerulein is a peptide compound with applications in research and therapeutics. 
-
+B-cerulein is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bombina bombina.
 
 
 ## Structure
 
-B-cerulein belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | B-cerulein |
+| Sequence | pEQRLGNQWAVGHLMDF-NH2 |
+| Length | 17 amino acids |
+| Molecular Weight | 1985.3 Da |
+| Source | Bombina bombina |
+| Category | Amphibian Caerulein |
 
-## Applications
+## Mechanism of Action
 
-B-cerulein has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Dual-receptor activity combining bombesin and cerulein pharmacophores
+
+## Bioactivity
+
+Combined GI stimulant activity, dual receptor activation
+
+## Therapeutic Potential
+
+Multi-target GI therapeutics, research tools
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

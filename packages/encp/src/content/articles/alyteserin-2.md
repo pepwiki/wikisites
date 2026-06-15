@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Alyteserin-2
+
 ## Overview
 
-Alyteserin-2 is a peptide compound with applications in research and therapeutics. 
-
+Alyteserin-2 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Alytes obstetricans.
 
 
 ## Structure
 
-Alyteserin-2 belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Alyteserin-2 |
+| Sequence | GLCDLFQGLLHVAGAIAGHAIH.NH2 |
+| Length | 22 amino acids |
+| Molecular Weight | 2258.7 Da |
+| Source | Alytes obstetricans |
+| Category | Amphibian Antiviral |
 
-## Applications
+## Mechanism of Action
 
-Alyteserin-2 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane-active peptide with disulfide bridge, pore formation
+
+## Bioactivity
+
+Broad-spectrum antimicrobial activity
+
+## Therapeutic Potential
+
+Antimicrobial therapeutics, biofilm disruption
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

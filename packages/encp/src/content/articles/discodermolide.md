@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Discodermolide
+
 ## Overview
 
-Discodermolide is a peptide compound with applications in research and therapeutics. 
-
+Discodermolide is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Discodermia dissoluta (marine sponge).
 
 
 ## Structure
 
-Discodermolide belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Discodermolide |
 
-## Applications
+| Length | N/A |
+| Molecular Weight | 593.79 Da |
+| Source | Discodermia dissoluta (marine sponge) |
+| Category | Marine Anti-Cancer Agent |
 
-Discodermolide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Stabilizes microtubules, binds same site as taxol
+
+## Bioactivity
+
+Anti-proliferative, immunosuppressive
+
+## Therapeutic Potential
+
+Taxol-resistant cancers (preclinical)
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

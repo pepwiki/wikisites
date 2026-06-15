@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-06-20
 tags: ["alpha-MSH", "melanocortin", "MC4R", "POMC", "pigmentation", "appetite"]
-category: "Hormones"
+category: "Peptide Hormones"
 difficulty: "intermediate"
 relatedArticles: ["neuropeptide-y", "calcitonin", "vasopressin"]
 citation:

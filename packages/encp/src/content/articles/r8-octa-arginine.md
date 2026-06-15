@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# R8 (Octa-Arginine)
+
 ## Overview
 
-R8 (Octa-Arginine) is a peptide compound with applications in research and therapeutics. 
-
+R8 (Octa-Arginine) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-R8 (Octa-Arginine) belongs to the Synthetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | R8 (Octa-Arginine) |
+| Sequence | Arg-Arg-Arg-Arg-Arg-Arg-Arg-Arg |
+| Length | 8 residues |
+| Molecular Weight | ~1395 Da |
 
-## Applications
+| Category | Research Synthetic |
 
-R8 (Octa-Arginine) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Guanidinium groups form bidentate hydrogen bonds with phosphate/sulfate groups on cell surface
+
+
 
 ## References
 
-- Source: synthetic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

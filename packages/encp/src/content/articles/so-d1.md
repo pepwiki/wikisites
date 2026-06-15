@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# So-D1
+
 ## Overview
 
-So-D1 is a peptide compound with applications in research and therapeutics. 
-
+So-D1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Spinacia oleracea (Spinach).
 
 
 ## Structure
 
-So-D1 belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | So-D1 |
+| Sequence | RRCGRGSCGPRCCRCSRIARGCGI |
+| Length | 51 amino acids |
+| Molecular Weight | ~5,500 Da |
+| Source | Spinacia oleracea (Spinach) |
+| Category | Plant Defense Peptides |
 
-## Applications
+## Mechanism of Action
 
-So-D1 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane disruption via defensin-mediated pore formation
+
+## Bioactivity
+
+Antifungal
+
+## Therapeutic Potential
+
+Natural antifungal agents, crop protection, functional food development
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

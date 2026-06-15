@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Fentanyl
+
 ## Overview
 
-Fentanyl is a peptide compound with applications in research and therapeutics. 
-
+Fentanyl is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Fentanyl belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Fentanyl |
+| Sequence | Non-peptide (small molecule: C22H28N2O) |
 
-## Applications
+| Molecular Weight | 336 Da |
 
-Fentanyl has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Analgesic / Opioid Agonist |
+
+## Mechanism of Action
+
+μ-opioid receptor full agonist; potent analgesic with rapid CNS penetration
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

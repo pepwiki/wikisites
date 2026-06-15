@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Golodirsen
+
 ## Overview
 
-Golodirsen is a peptide compound with applications in research and therapeutics. 
-
+Golodirsen is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Golodirsen belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Golodirsen |
+| Sequence | Phosphorodiamidate morpholino oligomer (PMO), 22-mer antisense oligonucleotide |
+| Length | 22 nucleotides (morpholino chemistry) |
+| Molecular Weight | ~7.9 kDa |
 
-## Applications
+| Category | Rare Disease / Antisense Oligonucleotide |
 
-Golodirsen has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Antisense oligonucleotide binds exon 53 of dystrophin pre-mRNA, promoting exon skipping to restore the reading frame and produce truncated but partially functional dystrophin
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

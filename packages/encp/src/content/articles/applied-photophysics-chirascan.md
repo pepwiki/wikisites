@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Applied Photophysics Chirascan
+
 ## Overview
 
-Applied Photophysics Chirascan is a peptide compound with applications in research and therapeutics. 
+Applied Photophysics Chirascan is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Applied Photophysics Chirascan belongs to the Peptide Research Tools class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Applied Photophysics Chirascan has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-research-tools.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

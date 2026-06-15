@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Thionin
+
 ## Overview
 
-Thionin is a peptide compound with applications in research and therapeutics. 
-
+Thionin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Triticum aestivum (Wheat).
 
 
 ## Structure
 
-Thionin belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Thionin |
+| Sequence | KSCCRNTLARGNVCRRNCRCSGPRPTLSCAGFCRCKYLRCSCK |
+| Length | 45 amino acids |
+| Molecular Weight | ~5,000 Da |
+| Source | Triticum aestivum (Wheat) |
+| Category | Plant Defense Peptides |
 
-## Applications
+## Mechanism of Action
 
-Thionin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Disruption of lipid bilayer integrity through pore formation
+
+## Bioactivity
+
+Antimicrobial (antibacterial and antifungal)
+
+## Therapeutic Potential
+
+Natural food preservative, agricultural biopesticide, novel antibiotic development
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

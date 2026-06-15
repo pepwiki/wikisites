@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Dulaglutide
+
 ## Overview
 
-Dulaglutide is a peptide compound with applications in research and therapeutics. 
-
+Dulaglutide is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Dulaglutide belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Dulaglutide |
+| Sequence | GLP-1 analog-[GGGGSGGGGSGGGGS]-IgG4 Fc (homodimer) |
 
-## Applications
+| Molecular Weight | ~63,000 Da |
 
-Dulaglutide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Metabolic / GLP-1 Agonist (Fc Fusion) |
+
+## Mechanism of Action
+
+GLP-1 receptor agonist; Fc fusion protects from DPP-4 and reduces renal clearance
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

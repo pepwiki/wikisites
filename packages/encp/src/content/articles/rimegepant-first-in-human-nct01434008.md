@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Rimegepant - First-in-Human (NCT01434008)
+
 ## Overview
 
-Rimegepant - First-in-Human (NCT01434008) is a peptide compound with applications in research and therapeutics. 
+Rimegepant - First-in-Human (NCT01434008) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Rimegepant - First-in-Human (NCT01434008) belongs to the Peptide Clinical Trials class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Rimegepant - First-in-Human (NCT01434008) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-clinical-trials.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

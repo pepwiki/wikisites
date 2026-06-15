@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Filipin
+
 ## Overview
 
-Filipin is a peptide compound with applications in research and therapeutics. 
-
+Filipin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Streptomyces filipinensis (actinomycete).
 
 
 ## Structure
 
-Filipin belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Filipin |
 
-## Applications
+| Length | N/A (macrolide) |
+| Molecular Weight | 649.74 Da |
+| Source | Streptomyces filipinensis (actinomycete) |
+| Category | Fungal Lipopeptide / Antifungal / Research Tool |
 
-Filipin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds to cholesterol in membranes forming pores; fluorescent when bound to sterols
+
+## Bioactivity
+
+Antifungal, fluorescent cholesterol probe
+
+## Therapeutic Potential
+
+Research tool for cholesterol detection (filipin staining for Niemann-Pick disease diagnosis)
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

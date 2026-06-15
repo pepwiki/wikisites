@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Trastuzumab Deruxtecan
+
 ## Overview
 
-Trastuzumab Deruxtecan is a peptide compound with applications in research and therapeutics. 
-
+Trastuzumab Deruxtecan is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Trastuzumab Deruxtecan belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Trastuzumab Deruxtecan |
+| Sequence | Anti-HER2 monoclonal antibody conjugated to topoisomerase I inhibitor payload (deruxtecan) via cleavable linker; DAR ~8 |
+| Length | ~1327 amino acids (antibody) + linker-payload |
+| Molecular Weight | ~153 kDa (antibody-drug conjugate) |
 
-## Applications
+| Category | Oncology / Antibody-Drug Conjugate |
 
-Trastuzumab Deruxtecan has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Antibody-drug conjugate; anti-HER2 antibody delivers deruxtecan (topoisomerase I inhibitor) to HER2-expressing cells, causing DNA damage and cell death. Bystander effect kills adjacent tumor cells
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

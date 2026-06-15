@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Fibrinogen → Fibrin (Thrombin Cleavage)
+
 ## Overview
 
-Fibrinogen → Fibrin (Thrombin Cleavage) is a peptide compound with applications in research and therapeutics. 
+Fibrinogen → Fibrin (Thrombin Cleavage) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Fibrinogen → Fibrin (Thrombin Cleavage) belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Fibrinogen → Fibrin (Thrombin Cleavage) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

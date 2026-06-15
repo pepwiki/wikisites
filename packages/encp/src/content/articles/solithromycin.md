@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Solithromycin
+
 ## Overview
 
-Solithromycin is a peptide compound with applications in research and therapeutics. 
-
+Solithromycin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Solithromycin belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Solithromycin |
+| Sequence | Fourth-generation fluoroketolide antibiotic |
+| Length | Small molecule (fluoroketolide/macrolide class) |
+| Molecular Weight | ~813 Da |
 
-## Applications
+| Category | Anti-Infective / Ketolide |
 
-Solithromycin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds 50S ribosomal subunit at three sites; retains activity against macrolide-resistant bacteria via dual domain binding; anti-inflammatory properties
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

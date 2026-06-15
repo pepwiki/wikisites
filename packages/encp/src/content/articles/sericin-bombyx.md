@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Sericin (Bombyx)
+
 ## Overview
 
-Sericin (Bombyx) is a peptide compound with applications in research and therapeutics. 
-
+Sericin (Bombyx) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bombyx mori (silkworm).
 
 
 ## Structure
 
-Sericin (Bombyx) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Sericin (Bombyx) |
+| Sequence | Ser-rich protein with repetitive motifs (various isoforms) |
+| Length | 342-3920 amino acids (multiple isoforms) |
+| Molecular Weight | 40000-400000 Da (multiple isoforms) |
+| Source | Bombyx mori (silkworm) |
+| Category | Silk Protein / Coating |
 
-## Applications
+## Mechanism of Action
 
-Sericin (Bombyx) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Moisturizing via water binding, antioxidant via Ser/Tyr residues, promotes collagen synthesis
+
+## Bioactivity
+
+Antioxidant, UV-protective, moisturizing, antimicrobial, wound healing
+
+## Therapeutic Potential
+
+Cosmetic formulations, wound dressings, tissue engineering coatings, drug delivery
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

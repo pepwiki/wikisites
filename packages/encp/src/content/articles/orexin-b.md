@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Orexin B
+
 ## Overview
 
-Orexin B is a peptide compound with applications in research and therapeutics. 
-
+Orexin B is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Mammalian (widely conserved).
 
 
 ## Structure
 
-Orexin B belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Orexin B |
+| Sequence | RSGPPGLQGRLQRLLQASGNHAAGILTM |
+| Length | 28 amino acids |
+| Molecular Weight | 2936.4 Da |
+| Source | Mammalian (widely conserved) |
+| Category | Mammalian Neuropeptide |
 
-## Applications
+## Mechanism of Action
 
-Orexin B has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Neuropeptide with preference for OX2 receptor, promotes arousal and wakefulness
+
+## Bioactivity
+
+Promotes wakefulness, modulates sleep-wake cycle, appetite stimulation
+
+## Therapeutic Potential
+
+Sleep disorder therapeutics, narcolepsy treatment
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

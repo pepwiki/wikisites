@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Maitotoxin
+
 ## Overview
 
-Maitotoxin is a peptide compound with applications in research and therapeutics. 
-
+Maitotoxin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Gambierdiscus toxicus.
 
 
 ## Structure
 
-Maitotoxin belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Maitotoxin |
 
-## Applications
+| Length | N/A |
+| Molecular Weight | 3422.0 Da |
+| Source | Gambierdiscus toxicus |
+| Category | Marine Toxin |
 
-Maitotoxin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Activates voltage-insensitive Ca2+ channels, forms membrane pores
+
+## Bioactivity
+
+Cytotoxicity, calcium-dependent cell death
+
+## Therapeutic Potential
+
+Research tool for calcium signaling studies
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

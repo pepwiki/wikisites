@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Relugolix
+
 ## Overview
 
-Relugolix is a peptide compound with applications in research and therapeutics. 
-
+Relugolix is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Relugolix belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Relugolix |
+| Sequence | Non-peptide (small molecule) |
 
-## Applications
+| Molecular Weight | 624 Da |
 
-Relugolix has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Oncology / Oral GnRH Antagonist |
+
+## Mechanism of Action
+
+Oral GnRH antagonist; competitive receptor blockade with immediate effect
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

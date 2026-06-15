@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Orellanine
+
 ## Overview
 
-Orellanine is a peptide compound with applications in research and therapeutics. 
-
+Orellanine is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Cortinarius orellanus.
 
 
 ## Structure
 
-Orellanine belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Orellanine |
 
-## Applications
+| Length | N/A (bipyridine) |
+| Molecular Weight | 264.24 Da |
+| Source | Cortinarius orellanus |
+| Category | Fungal Peptide Toxin / Nephrotoxin |
 
-Orellanine has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Generates reactive oxygen species; inhibits protein synthesis; causes oxidative damage to proximal tubules
+
+## Bioactivity
+
+Nephrotoxic (delayed renal failure, 2-14 days)
+
+## Therapeutic Potential
+
+Research tool for oxidative stress studies; understanding nephrotoxicity mechanisms
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

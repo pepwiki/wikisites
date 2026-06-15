@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Degarelix
+
 ## Overview
 
-Degarelix is a peptide compound with applications in research and therapeutics. 
-
+Degarelix is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Degarelix belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Degarelix |
+| Sequence | Ac-D-Ala-D-Cpa-D-Pal-Ser-Aph(Hor)-D-Aph(Cbm)-Leu-Lys(iPr)-Pro-D-Ala-NH2 |
 
-## Applications
+| Molecular Weight | 1570 Da |
 
-Degarelix has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Oncology / GnRH Antagonist |
+
+## Mechanism of Action
+
+GnRH antagonist; immediate testosterone suppression without flare
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

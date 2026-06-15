@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Prion Protein Misfolding (Conformational Change)
+
 ## Overview
 
-Prion Protein Misfolding (Conformational Change) is a peptide compound with applications in research and therapeutics. 
+Prion Protein Misfolding (Conformational Change) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-Prion Protein Misfolding (Conformational Change) belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+PrPC (predominantly α-helical) converts to PrPSc (β-sheet-rich) through template-directed misfolding. PrPSc acts as seed recruiting PrPC, causing exponential propagation. PrPSc is protease-resistant, forms amyloid plaques. Infectious protein (prion) transmits disease without nucleic acid.
 
-## Applications
 
-Prion Protein Misfolding (Conformational Change) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

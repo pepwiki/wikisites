@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# OaBac5
+
 ## Overview
 
-OaBac5 is a peptide compound with applications in research and therapeutics. 
-
+OaBac5 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Ovis aries (Sheep).
 
 
 ## Structure
 
-OaBac5 belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | OaBac5 |
+| Sequence | RFRPPIRRPPIRPPFYPPFRPPIRPPIFPPIRPPFRPPLRFP |
+| Length | 43 amino acids |
+| Molecular Weight | 5180.2 Da |
+| Source | Ovis aries (Sheep) |
+| Category | Ovine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-OaBac5 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Proline-rich peptide, inhibits bacterial protein synthesis intracellularly
+
+## Bioactivity
+
+Antimicrobial against Gram-negative bacteria
+
+## Therapeutic Potential
+
+Anti-infective for resistant Gram-negative infections
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

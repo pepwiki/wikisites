@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Collagen Triple Helix (Gly-X-Y Repeats)
+
 ## Overview
 
-Collagen Triple Helix (Gly-X-Y Repeats) is a peptide compound with applications in research and therapeutics. 
+Collagen Triple Helix (Gly-X-Y Repeats) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-Collagen Triple Helix (Gly-X-Y Repeats) belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Three collagen polypeptide chains (α chains) wind into right-handed polyproline II helices, then supercoil into left-handed triple helix. Glycine at every third position (Gly-X-Y) required for close packing in helix interior. X position often Pro (28%), Y position often 4-Hyp (38%).
 
-## Applications
 
-Collagen Triple Helix (Gly-X-Y Repeats) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

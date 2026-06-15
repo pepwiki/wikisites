@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# His-tag → Ni-NTA (Affinity Purification)
+
 ## Overview
 
-His-tag → Ni-NTA (Affinity Purification) is a peptide compound with applications in research and therapeutics. 
+His-tag → Ni-NTA (Affinity Purification) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-His-tag → Ni-NTA (Affinity Purification) belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Imidazole nitrogen atoms of histidine residues coordinate with Ni²⁺ ions chelated by NTA (nitrilotriacetic acid) on agarose/agarose beads. Typically 2-3 His residues coordinate each Ni²⁺ in octahedral geometry. Multiple His residues increase avidity. Elution with imidazole (250-500 mM) competes for Ni²⁺ coordination.
 
-## Applications
 
-His-tag → Ni-NTA (Affinity Purification) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

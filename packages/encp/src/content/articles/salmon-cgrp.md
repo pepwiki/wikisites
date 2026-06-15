@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Salmon CGRP
+
 ## Overview
 
-Salmon CGRP is a peptide compound with applications in research and therapeutics. 
-
+Salmon CGRP is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Salmon (Oncorhynchus spp.).
 
 
 ## Structure
 
-Salmon CGRP belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Salmon CGRP |
+| Sequence | ACNTATCVTHRLAGLLSRSGGVVKDNFVPTNVGSEAF (amidated) |
+| Length | 37 amino acids |
+| Molecular Weight | 3820.2 Da |
+| Source | Salmon (Oncorhynchus spp.) |
+| Category | Fish Neuropeptide |
 
-## Applications
+## Mechanism of Action
 
-Salmon CGRP has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Vasodilation via cAMP signaling; relaxes vascular smooth muscle; inhibits platelet aggregation
+
+## Bioactivity
+
+Potent vasodilator, cardioprotective effects, anti-inflammatory activity
+
+## Therapeutic Potential
+
+Migraine treatment, cardiovascular therapeutics, Raynaud's disease
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

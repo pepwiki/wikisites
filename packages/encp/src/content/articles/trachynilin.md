@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Trachynilin
+
 ## Overview
 
-Trachynilin is a peptide compound with applications in research and therapeutics. 
-
+Trachynilin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Stonefish (Synanceia trachynis).
 
 
 ## Structure
 
-Trachynilin belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Trachynilin |
+| Sequence | Small peptide toxin from stonefish venom |
+| Length | ~50 amino acids |
+| Molecular Weight | 5,800 Da |
+| Source | Stonefish (Synanceia trachynis) |
+| Category | Fish Venom |
 
-## Applications
+## Mechanism of Action
 
-Trachynilin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Binds to sodium channel site 3; slows channel inactivation; causes persistent activation
+
+## Bioactivity
+
+Neurotoxicity, cardiovascular effects, severe pain induction
+
+## Therapeutic Potential
+
+Sodium channel pharmacology research, pain mechanism studies
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

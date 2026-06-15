@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Metformin
+
 ## Overview
 
-Metformin is a peptide compound with applications in research and therapeutics. 
-
+Metformin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Metformin belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Metformin |
+| Sequence | N/A (small molecule: N,N-dimethylimidodicarbonimidic diamide) |
+| Length | Small molecule (not a peptide) |
+| Molecular Weight | 129 Da |
 
-## Applications
+| Category | Metabolic / Biguanide (peptide combination partner) |
 
-Metformin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Activates AMPK; reduces hepatic glucose production, increases insulin sensitivity
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

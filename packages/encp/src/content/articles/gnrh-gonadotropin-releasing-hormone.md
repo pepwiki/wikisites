@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# GnRH (Gonadotropin-releasing hormone)
+
 ## Overview
 
-GnRH (Gonadotropin-releasing hormone) is a peptide compound with applications in research and therapeutics. 
-
+GnRH (Gonadotropin-releasing hormone) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-GnRH (Gonadotropin-releasing hormone) belongs to the Neuropeptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | GnRH (Gonadotropin-releasing hormone) |
+| Sequence | pEHWSYGLRPG-NH2 |
+| Length | 10 amino acids |
+| Molecular Weight | 1182.3 Da |
 
-## Applications
+| Category | Hypothalamic releasing hormone |
 
-GnRH (Gonadotropin-releasing hormone) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Gq/11-coupled; activates PLC, IP3/DAG, PKC, Ca2+ flux
+
+
 
 ## References
 
-- Source: neuropeptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

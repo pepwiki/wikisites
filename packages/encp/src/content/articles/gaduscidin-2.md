@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Gaduscidin 2
+
 ## Overview
 
-Gaduscidin 2 is a peptide compound with applications in research and therapeutics. 
-
+Gaduscidin 2 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Atlantic cod (Gadus morhua).
 
 
 ## Structure
 
-Gaduscidin 2 belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Gaduscidin 2 |
+| Sequence | Histidine-rich antimicrobial peptide variant |
+| Length | 21 amino acids |
+| Molecular Weight | 2450.9 Da |
+| Source | Atlantic cod (Gadus morhua) |
+| Category | Fish Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Gaduscidin 2 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Similar to gaduscidin 1 with enhanced membrane penetration; works synergistically with gaduscidin 1
+
+## Bioactivity
+
+Synergistic antimicrobial activity when combined with gaduscidin 1
+
+## Therapeutic Potential
+
+Combination antimicrobial therapies, marine-derived antibiotics
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

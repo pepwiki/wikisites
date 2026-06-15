@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Adipokinetic Hormone
+
 ## Overview
 
-Adipokinetic Hormone is a peptide compound with applications in research and therapeutics. 
-
+Adipokinetic Hormone is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Locusta migratoria (migratory locust).
 
 
 ## Structure
 
-Adipokinetic Hormone belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Adipokinetic Hormone |
+| Sequence | pQLNFTPNWamide (Locusta migratoria) |
+| Length | 8-10 amino acids |
+| Molecular Weight | 950-1200 Da |
+| Source | Locusta migratoria (migratory locust) |
+| Category | Insect Hormone / Metabolism |
 
-## Applications
+## Mechanism of Action
 
-Adipokinetic Hormone has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Activates AKH receptor, stimulates glycogen phosphorylase and lipase via cAMP
+
+## Bioactivity
+
+Mobilizes lipids and carbohydrates during flight, energy metabolism regulation
+
+## Therapeutic Potential
+
+Metabolic disease research, obesity drug target exploration
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

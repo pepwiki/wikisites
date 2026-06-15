@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Lebocin (Bombyx)
+
 ## Overview
 
-Lebocin (Bombyx) is a peptide compound with applications in research and therapeutics. 
-
+Lebocin (Bombyx) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bombyx mori (silkworm).
 
 
 ## Structure
 
-Lebocin (Bombyx) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Lebocin (Bombyx) |
+| Sequence | GRGWRRWRRWRRWamide family (proline-rich) |
+| Length | 32-40 amino acids |
+| Molecular Weight | 3800-4600 Da |
+| Source | Bombyx mori (silkworm) |
+| Category | Insect Antimicrobial / Proline-rich |
 
-## Applications
+## Mechanism of Action
 
-Lebocin (Bombyx) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Inhibits protein synthesis via ribosome binding, membrane interaction
+
+## Bioactivity
+
+Antimicrobial against Gram-negative bacteria, antifungal
+
+## Therapeutic Potential
+
+Novel antibiotic class targeting protein synthesis
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

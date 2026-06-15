@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Lionfish Venom Peptides
+
 ## Overview
 
-Lionfish Venom Peptides is a peptide compound with applications in research and therapeutics. 
-
+Lionfish Venom Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Lionfish (Pterois volitans).
 
 
 ## Structure
 
-Lionfish Venom Peptides belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Lionfish Venom Peptides |
+| Sequence | Mixture of peptide toxins including neuromuscular and cytolytic components |
+| Length | Variable (multiple peptide components) |
+| Molecular Weight | 5,000-50,000 Da (range) |
+| Source | Lionfish (Pterois volitans) |
+| Category | Fish Venom |
 
-## Applications
+## Mechanism of Action
 
-Lionfish Venom Peptides has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Complex venom with neurotoxic and cytolytic peptides; causes neuromuscular blockade and tissue damage
+
+## Bioactivity
+
+Severe pain, edema, tissue necrosis, cardiovascular effects
+
+## Therapeutic Potential
+
+Pain research, ion channel pharmacology, invasive species management insights
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# CGRP → CGRP Receptor
+
 ## Overview
 
-CGRP → CGRP Receptor is a peptide compound with applications in research and therapeutics. 
+CGRP → CGRP Receptor is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-CGRP → CGRP Receptor belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+CGRP binds to the CGRP receptor complex (calcitonin receptor-like receptor CLR + RAMP1), activating Gαs → adenylyl cyclase → cAMP → PKA pathway. Causes vasodilation, nociception, and neurogenic inflammation.
 
-## Applications
 
-CGRP → CGRP Receptor has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

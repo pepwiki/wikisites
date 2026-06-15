@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Diamyd
+
 ## Overview
 
-Diamyd is a peptide compound with applications in research and therapeutics. 
+Diamyd is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-Diamyd belongs to the Peptide Vaccines class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+GAD65-alum induces immune tolerance to GAD65 autoantigen; promotes Th2 shift and GAD-specific Treg expansion; intralymphatic delivery enhances antigen presentation to tolerogenic dendritic cells
 
-## Applications
 
-Diamyd has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-vaccines.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Moricin (Bombyx)
+
 ## Overview
 
-Moricin (Bombyx) is a peptide compound with applications in research and therapeutics. 
-
+Moricin (Bombyx) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bombyx mori (silkworm).
 
 
 ## Structure
 
-Moricin (Bombyx) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Moricin (Bombyx) |
+| Sequence | GLRWKIFKKIERVGQHTRDATIQGLGIAQQAANVAATAR (42 amino acids) |
+| Length | 42 amino acids |
+| Molecular Weight | 4400 Da |
+| Source | Bombyx mori (silkworm) |
+| Category | Insect Antimicrobial / Alpha-helical |
 
-## Applications
+## Mechanism of Action
 
-Moricin (Bombyx) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Forms alpha-helical structure in membranes, creates pores via carpet mechanism
+
+## Bioactivity
+
+Antimicrobial against Gram-positive and Gram-negative bacteria
+
+## Therapeutic Potential
+
+Broad-spectrum antimicrobial peptide therapeutics
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

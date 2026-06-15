@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Esculentin-2
+
 ## Overview
 
-Esculentin-2 is a peptide compound with applications in research and therapeutics. 
-
+Esculentin-2 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Rana esculenta.
 
 
 ## Structure
 
-Esculentin-2 belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Esculentin-2 |
+| Sequence | GFISILKGIAKGVGEIMNS |
+| Length | 19 amino acids |
+| Molecular Weight | 1947.3 Da |
+| Source | Rana esculenta |
+| Category | Amphibian Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Esculentin-2 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Alpha-helical membrane disruption, forms ion channels in bacterial membranes
+
+## Bioactivity
+
+Antimicrobial against Gram-negative and Gram-positive bacteria
+
+## Therapeutic Potential
+
+Systemic anti-infective development
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

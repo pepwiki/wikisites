@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# NLP-7 (C. elegans)
+
 ## Overview
 
-NLP-7 (C. elegans) is a peptide compound with applications in research and therapeutics. 
-
+NLP-7 (C. elegans) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans.
 
 
 ## Structure
 
-NLP-7 (C. elegans) belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | NLP-7 (C. elegans) |
+| Sequence | ASGAADELLKQMEET |
+| Length | 15 amino acids |
+| Molecular Weight | 1670 Da |
+| Source | Caenorhabditis elegans |
+| Category | Nematode Neuropeptide / NLP |
 
-## Applications
+## Mechanism of Action
 
-NLP-7 (C. elegans) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Neuropeptide modulation of backward/forward locomotion switching
+
+## Bioactivity
+
+Control of locomotion direction and reversal frequency
+
+## Therapeutic Potential
+
+Behavioral anthelmintic target
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

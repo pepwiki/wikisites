@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Brentuximab Vedotin
+
 ## Overview
 
-Brentuximab Vedotin is a peptide compound with applications in research and therapeutics. 
-
+Brentuximab Vedotin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Brentuximab Vedotin belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Brentuximab Vedotin |
+| Sequence | Anti-CD30 antibody - Val-Cit linker - MMAE |
+| Length | Antibody + linker-payload |
+| Molecular Weight | ~150 kDa (antibody component) |
 
-## Applications
+| Category | Peptide Drug Conjugates |
 
-Brentuximab Vedotin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Internalization after CD30 binding, lysosomal cleavage of peptide linker releases MMAE, which disrupts microtubules
+
+
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Brevinin-2
+
 ## Overview
 
-Brevinin-2 is a peptide compound with applications in research and therapeutics. 
-
+Brevinin-2 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Rana brevipoda.
 
 
 ## Structure
 
-Brevinin-2 belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Brevinin-2 |
+| Sequence | GILLDKLKNFAKTAGKGVLQSINNCK |
+| Length | 26 amino acids |
+| Molecular Weight | 2804.3 Da |
+| Source | Rana brevipoda |
+| Category | Amphibian Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Brevinin-2 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Linear alpha-helical peptide, membrane disruption without disulfide bridge requirement
+
+## Bioactivity
+
+Broad-spectrum antimicrobial, antifungal activity
+
+## Therapeutic Potential
+
+Topical antimicrobial formulations, antifungal treatments
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

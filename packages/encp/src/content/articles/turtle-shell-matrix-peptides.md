@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ["turtle-peptide","peptide","oligopeptide"]
-category: "Turtle Peptide"
+category: "Reptile Peptides"
 difficulty: "intermediate"
 relatedArticles: []
 ---

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Cyclotides
+
 ## Overview
 
-Cyclotides is a peptide compound with applications in research and therapeutics. 
-
+Cyclotides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Viola odorata (Sweet Violet).
 
 
 ## Structure
 
-Cyclotides belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Cyclotides |
+| Sequence | Variable (head-to-tail cyclized backbone with cystine knot) |
+| Length | 28-37 amino acids |
+| Molecular Weight | ~3,000-4,000 Da |
+| Source | Viola odorata (Sweet Violet) |
+| Category | Plant Cyclic Peptides |
 
-## Applications
+## Mechanism of Action
 
-Cyclotides has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane disruption, cell cycle arrest, apoptosis induction
+
+## Bioactivity
+
+Cytotoxic, antimicrobial
+
+## Therapeutic Potential
+
+Anti-cancer drug leads, peptide engineering scaffold, antimicrobial agents
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

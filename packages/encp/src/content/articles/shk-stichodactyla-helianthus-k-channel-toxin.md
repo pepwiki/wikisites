@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ["potassium-channel-blocker-(sea-anemone-toxin)","peptide","oligopeptide"]
-category: "Potassium channel blocker (sea anemone toxin)"
+category: "Toxin Peptides"
 difficulty: "intermediate"
 relatedArticles: []
 ---

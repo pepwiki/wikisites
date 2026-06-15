@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Epinecidin-1
+
 ## Overview
 
-Epinecidin-1 is a peptide compound with applications in research and therapeutics. 
-
+Epinecidin-1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Grouper (Epinephelus coioides).
 
 
 ## Structure
 
-Epinecidin-1 belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Epinecidin-1 |
+| Sequence | GFIFHIIKGLFHAGKMIHGLV |
+| Length | 21 amino acids |
+| Molecular Weight | 2430.9 Da |
+| Source | Grouper (Epinephelus coioides) |
+| Category | Fish Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Epinecidin-1 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Alpha-helical peptide; membrane disruption and immune activation; induces apoptosis in cancer cells
+
+## Bioactivity
+
+Antibacterial, antiviral (against nervous necrosis virus), anticancer activity
+
+## Therapeutic Potential
+
+Anticancer therapeutics, antiviral agents, aquaculture disease prevention
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

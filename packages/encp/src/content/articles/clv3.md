@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# CLV3
+
 ## Overview
 
-CLV3 is a peptide compound with applications in research and therapeutics. 
-
+CLV3 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Arabidopsis thaliana.
 
 
 ## Structure
 
-CLV3 belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | CLV3 |
+| Sequence | RRTVPSGPDPLHH (dodecapeptide) |
+| Length | 12 amino acids |
+| Molecular Weight | ~1,300 Da |
+| Source | Arabidopsis thaliana |
+| Category | Plant Signaling Peptides |
 
-## Applications
+## Mechanism of Action
 
-CLV3 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+WUSCHEL repression via CLV signaling cascade
+
+## Bioactivity
+
+Meristem maintenance, stem cell regulation
+
+## Therapeutic Potential
+
+Crop architecture modification, stem cell biology research
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

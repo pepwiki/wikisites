@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Donanemab
+
 ## Overview
 
-Donanemab is a peptide compound with applications in research and therapeutics. 
-
+Donanemab is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Donanemab belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Donanemab |
+| Sequence | Humanized IgG1 monoclonal antibody targeting pyroglutamate-modified Aβ (N3pG-Aβ) in amyloid plaques |
+| Length | ~1330 amino acids |
+| Molecular Weight | ~148 kDa |
 
-## Applications
+| Category | Neurology / Anti-Amyloid Antibody |
 
-Donanemab has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds modified Aβ plaques (pyroglutamate Aβ epitope), inducing rapid plaque clearance via microglial phagocytosis; plaque clearance allows for time-limited treatment
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-07-30
 tags: ["ghrelin", "gi-peptide", "hunger-hormone", "appetite-regulation", "octanoylation"]
-category: "GI Peptides"
+category: "Gastrointestinal Peptides"
 difficulty: "intermediate"
 relatedArticles: ["leptin", "cck-8"]
 citation:

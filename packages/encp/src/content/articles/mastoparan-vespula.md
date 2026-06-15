@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Mastoparan (Vespula)
+
 ## Overview
 
-Mastoparan (Vespula) is a peptide compound with applications in research and therapeutics. 
-
+Mastoparan (Vespula) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Vespula lewisii (wasp).
 
 
 ## Structure
 
-Mastoparan (Vespula) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Mastoparan (Vespula) |
+| Sequence | INLKALAALAKKIL |
+| Length | 14 amino acids |
+| Molecular Weight | 1478 Da |
+| Source | Vespula lewisii (wasp) |
+| Category | Venom Peptide / G-protein Activator |
 
-## Applications
+## Mechanism of Action
 
-Mastoparan (Vespula) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Activates heterotrimeric G-proteins by mimicking GPCR, stimulates GTPase activity
+
+## Bioactivity
+
+Mast cell degranulation, antimicrobial, hemolytic, G-protein activator
+
+## Therapeutic Potential
+
+G-protein research tool, antimicrobial peptide template, immunomodulator
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

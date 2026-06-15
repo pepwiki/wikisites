@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Oritavancin
+
 ## Overview
 
-Oritavancin is a peptide compound with applications in research and therapeutics. 
-
+Oritavancin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Oritavancin belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Oritavancin |
+| Sequence | Vancomycin analog with 4'-chlorobiphenylmethyl substituent on disaccharide sugar |
+| Length | Modified glycopeptide |
+| Molecular Weight | 1786 Da |
 
-## Applications
+| Category | Anti-Infective / Lipoglycopeptide Antibiotic |
 
-Oritavancin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Dual action: binds D-Ala-D-Ala and D-Ala-D-Lac + disrupts membrane integrity
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

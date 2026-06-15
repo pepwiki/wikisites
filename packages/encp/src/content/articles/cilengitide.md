@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Cilengitide
+
 ## Overview
 
-Cilengitide is a peptide compound with applications in research and therapeutics. 
-
+Cilengitide is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Cilengitide belongs to the Synthetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Cilengitide |
+| Sequence | cyclo(Arg-Gly-Asp-DPhe-NMeVal) |
+| Length | 5 residues |
+| Molecular Weight | 588.7 Da |
 
-## Applications
+| Category | Cyclic Peptides |
 
-Cilengitide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Selectively blocks integrin-mediated cell adhesion and signaling, inhibiting angiogenesis and tumor invasion
+
+
 
 ## References
 
-- Source: synthetic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

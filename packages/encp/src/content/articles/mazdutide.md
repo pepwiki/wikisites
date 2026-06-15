@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Mazdutide
+
 ## Overview
 
-Mazdutide is a peptide compound with applications in research and therapeutics. 
-
+Mazdutide is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Mazdutide belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Mazdutide |
+| Sequence | Oxyntomodulin-based GLP-1/glucagon dual agonist with C20 fatty diacid |
+| Length | ~29 amino acids |
+| Molecular Weight | ~4.2 kDa |
 
-## Applications
+| Category | Metabolic / GLP-1/Glucagon Dual Agonist |
 
-Mazdutide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+GLP-1/glucagon dual receptor agonist; based on oxyntomodulin scaffold with improved pharmacokinetics
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Aldafermin
+
 ## Overview
 
-Aldafermin is a peptide compound with applications in research and therapeutics. 
-
+Aldafermin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Aldafermin belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Aldafermin |
+| Sequence | Engineered FGF19 analog (non-mitogenic variant of FGF19) |
+| Length | ~105 amino acids |
+| Molecular Weight | ~12 kDa |
 
-## Applications
+| Category | Metabolic / FGF19 Analog |
 
-Aldafermin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Non-tumorigenic FGF19 analog; regulates bile acid synthesis, lipid metabolism, and hepatic inflammation via FGFR4/β-Klotho
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

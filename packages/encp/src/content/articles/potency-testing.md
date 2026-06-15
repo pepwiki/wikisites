@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Potency Testing
+
 ## Overview
 
-Potency Testing is a peptide compound with applications in research and therapeutics. 
+Potency Testing is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Potency Testing belongs to the Peptide Manufacturing class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Potency Testing has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-manufacturing.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Avian Beta-Defensin 4 (Chicken)
+
 ## Overview
 
-Avian Beta-Defensin 4 (Chicken) is a peptide compound with applications in research and therapeutics. 
+Avian Beta-Defensin 4 (Chicken) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Avian Beta-Defensin 4 (Chicken) belongs to the Bird Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Avian Beta-Defensin 4 (Chicken) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: bird-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -5,30 +5,23 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ["cardiovascular","peptide","oligopeptide"]
-category: "cardiovascular"
+category: "Cardiovascular"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Heart Failure
+
 ## Overview
 
-Heart Failure is a peptide compound with applications in research and therapeutics. 
+Heart Failure is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Heart Failure belongs to the cardiovascular class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Heart Failure has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-diseases.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

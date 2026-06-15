@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# PG-2 (Porcine)
+
 ## Overview
 
-PG-2 (Porcine) is a peptide compound with applications in research and therapeutics. 
-
+PG-2 (Porcine) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Sus scrofa (Pig).
 
 
 ## Structure
 
-PG-2 (Porcine) belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | PG-2 (Porcine) |
+| Sequence | RGGRLCYCRRRFCIGVGR |
+| Length | 18 amino acids |
+| Molecular Weight | 2146.6 Da |
+| Source | Sus scrofa (Pig) |
+| Category | Porcine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-PG-2 (Porcine) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Disulfide-bridged beta-hairpin, pore formation in bacterial membranes
+
+## Bioactivity
+
+Antimicrobial activity, membrane permeabilization
+
+## Therapeutic Potential
+
+Anti-infective therapeutics
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

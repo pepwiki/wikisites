@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Gaduscidin 1
+
 ## Overview
 
-Gaduscidin 1 is a peptide compound with applications in research and therapeutics. 
-
+Gaduscidin 1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Atlantic cod (Gadus morhua).
 
 
 ## Structure
 
-Gaduscidin 1 belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Gaduscidin 1 |
+| Sequence | Histidine-rich antimicrobial peptide |
+| Length | 20 amino acids |
+| Molecular Weight | 2400.8 Da |
+| Source | Atlantic cod (Gadus morhua) |
+| Category | Fish Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Gaduscidin 1 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane disruption optimized for low-temperature activity; histidine residues enhance efficacy at acidic pH
+
+## Bioactivity
+
+Antimicrobial activity at low temperatures, pH-dependent activation
+
+## Therapeutic Potential
+
+Cold-environment antimicrobials, food preservation, aquaculture in cold waters
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

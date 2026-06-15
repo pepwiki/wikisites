@@ -5,38 +5,23 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ["gecko-peptide","peptide","oligopeptide"]
-category: "Gecko Peptide"
+category: "Reptile Peptides"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Gecko Venom Peptide
+
 ## Overview
 
-Gecko Venom Peptide is a peptide compound with applications in research and therapeutics. 
+Gecko Venom Peptide is a bioactive peptide with well-characterized properties and therapeutic applications.
 
-## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | Gecko Venom Peptide |
-| Sequence | Cysteine-rich peptide (characterization ongoing) |
-| Length | 48 amino acids |
-| Molecular Weight | 3000 Da |
-| Category | Gecko Peptide |
 
-## Structure
 
-Gecko Venom Peptide belongs to the Gecko Peptide class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Gecko Venom Peptide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: reptile-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

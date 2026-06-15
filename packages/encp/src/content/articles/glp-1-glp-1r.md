@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# GLP-1 → GLP-1R
+
 ## Overview
 
-GLP-1 → GLP-1R is a peptide compound with applications in research and therapeutics. 
+GLP-1 → GLP-1R is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-GLP-1 → GLP-1R belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+GLP-1 binds to the extracellular domain and transmembrane core of GLP-1R, a class B GPCR. Binding induces conformational changes activating Gαs-cAMP-PKA signaling cascade, stimulating glucose-dependent insulin secretion from pancreatic β-cells.
 
-## Applications
 
-GLP-1 → GLP-1R has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

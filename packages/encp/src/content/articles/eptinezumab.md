@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Eptinezumab
+
 ## Overview
 
-Eptinezumab is a peptide compound with applications in research and therapeutics. 
-
+Eptinezumab is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Eptinezumab belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Eptinezumab |
+| Sequence | Humanized IgG1 monoclonal antibody targeting CGRP ligand |
+| Length | ~1330 amino acids |
+| Molecular Weight | ~148 kDa |
 
-## Applications
+| Category | Neurology / Anti-CGRP Antibody |
 
-Eptinezumab has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds and neutralizes CGRP ligand; IV administration provides rapid onset (within 1 day) and sustained CGRP blockade
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

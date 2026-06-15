@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ["hplc","purification","research-tools"]
-category: "Peptide Purification"
+category: "Peptide Manufacturing"
 difficulty: "intermediate"
 relatedArticles: []
 ---

@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Anti-Drug Antibodies (ADA)
+
 ## Overview
 
-Anti-Drug Antibodies (ADA) is a peptide compound with applications in research and therapeutics. 
+Anti-Drug Antibodies (ADA) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Anti-Drug Antibodies (ADA) belongs to the Peptide Safety class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Anti-Drug Antibodies (ADA) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-safety.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

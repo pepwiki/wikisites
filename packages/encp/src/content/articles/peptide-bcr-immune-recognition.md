@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Peptide → BCR (Immune Recognition)
+
 ## Overview
 
-Peptide → BCR (Immune Recognition) is a peptide compound with applications in research and therapeutics. 
+Peptide → BCR (Immune Recognition) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-Peptide → BCR (Immune Recognition) belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+BCR binds native (unprocessed) antigens through surface-exposed epitopes (conformational or linear). Binding triggers BCR cross-linking → ITAM phosphorylation by Lyn → Syk activation → B cell activation, proliferation, and differentiation to antibody-secreting plasma cells. Affinity maturation in germinal centers improves binding.
 
-## Applications
 
-Peptide → BCR (Immune Recognition) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

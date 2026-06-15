@@ -5,38 +5,42 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ["mast-cell-degranulating-peptide-(wasp-venom)","peptide","oligopeptide"]
-category: "Mast cell degranulating peptide (wasp venom)"
+category: "Toxin Peptides"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Crabrolin
+
 ## Overview
 
-Crabrolin is a peptide compound with applications in research and therapeutics. 
+Crabrolin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Vespa crabro (European hornet).
 
-## Chemical Identity
+
+## Structure
 
 | Property | Value |
 |----------|-------|
 | Name | Crabrolin |
-| Sequence | FLPLIGRVLSGIL (or FLPLIGRIL) |
-| Length | 28 amino acids |
+| Sequence | FKLKESFGPNFRamide |
+| Length | 13 amino acids |
+| Molecular Weight | 1508 Da |
+| Source | Vespa crabro (European hornet) |
+| Category | Venom Peptide / Mast Cell Activator |
 
-| Category | Mast cell degranulating peptide (wasp venom) |
+## Mechanism of Action
 
-## Structure
+Stimulates mast cell degranulation, membrane permeabilization
 
-Crabrolin belongs to the Mast cell degranulating peptide (wasp venom) class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+## Bioactivity
 
-## Applications
+Mast cell degranulation, antimicrobial activity, histamine release
 
-Crabrolin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Therapeutic Potential
+
+Immunomodulatory research, antimicrobial peptide development
 
 ## References
 
-- Source: venom-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

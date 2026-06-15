@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Trout NPY
+
 ## Overview
 
-Trout NPY is a peptide compound with applications in research and therapeutics. 
-
+Trout NPY is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Rainbow trout (Oncorhynchus mykiss).
 
 
 ## Structure
 
-Trout NPY belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Trout NPY |
+| Sequence | YPSKPDNPGEDAPAEDMARYYSALRHYINLITRQRY (amidated) |
+| Length | 36 amino acids |
+| Molecular Weight | 4200.6 Da |
+| Source | Rainbow trout (Oncorhynchus mykiss) |
+| Category | Fish Neuropeptide |
 
-## Applications
+## Mechanism of Action
 
-Trout NPY has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Activates orexigenic pathways; stimulates food intake via hypothalamic circuits; modulates energy balance
+
+## Bioactivity
+
+Potent appetite stimulant, energy homeostasis regulator
+
+## Therapeutic Potential
+
+Obesity research, appetite disorder treatments, aquaculture feed optimization
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

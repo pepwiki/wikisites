@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Bac5
+
 ## Overview
 
-Bac5 is a peptide compound with applications in research and therapeutics. 
-
+Bac5 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bos taurus (Cattle).
 
 
 ## Structure
 
-Bac5 belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Bac5 |
+| Sequence | RFRPPIRRPPIRPPFYPPFRPPIRPPIFPPIRPPFRPPLRFP |
+| Length | 42 amino acids |
+| Molecular Weight | 5024.0 Da |
+| Source | Bos taurus (Cattle) |
+| Category | Bovine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Bac5 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Proline-rich peptide, inhibits bacterial protein synthesis by binding to ribosomes
+
+## Bioactivity
+
+Antimicrobial against Gram-negative bacteria, intracellular killing
+
+## Therapeutic Potential
+
+Treatment of intracellular bacterial infections, synergistic antibiotic therapy
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

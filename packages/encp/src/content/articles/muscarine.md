@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Muscarine
+
 ## Overview
 
-Muscarine is a peptide compound with applications in research and therapeutics. 
-
+Muscarine is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Inocybe erubescens.
 
 
 ## Structure
 
-Muscarine belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Muscarine |
 
-## Applications
+| Length | N/A (small molecule) |
+| Molecular Weight | 174.24 Da |
+| Source | Inocybe erubescens |
+| Category | Fungal Peptide Toxin / Cholinergic |
 
-Muscarine has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Direct agonist at muscarinic receptors; activates parasympathetic nervous system
+
+## Bioactivity
+
+Cholinergic (SLUDGE syndrome: salivation, lacrimation, urination, defecation, GI distress, emesis)
+
+## Therapeutic Potential
+
+Research tool for cholinergic system studies; atropine is antidote
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

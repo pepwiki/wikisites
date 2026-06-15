@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Canine Defensin
+
 ## Overview
 
-Canine Defensin is a peptide compound with applications in research and therapeutics. 
-
+Canine Defensin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Canis lupus familiaris (Dog).
 
 
 ## Structure
 
-Canine Defensin belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Canine Defensin |
+| Sequence | GYCACRRRFCIGGGSCCRRYCVCLR |
+| Length | 25 amino acids |
+| Molecular Weight | 2846.3 Da |
+| Source | Canis lupus familiaris (Dog) |
+| Category | Canine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Canine Defensin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Alpha-defensin with three disulfide bonds, forms membrane pores
+
+## Bioactivity
+
+Antimicrobial against bacteria and fungi
+
+## Therapeutic Potential
+
+Mucosal immunity enhancement, anti-infective
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

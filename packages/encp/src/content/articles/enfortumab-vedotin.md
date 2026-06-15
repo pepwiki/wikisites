@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Enfortumab Vedotin
+
 ## Overview
 
-Enfortumab Vedotin is a peptide compound with applications in research and therapeutics. 
-
+Enfortumab Vedotin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Enfortumab Vedotin belongs to the Synthetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Enfortumab Vedotin |
+| Sequence | Anti-Nectin-4 antibody - Val-Cit linker - MMAE |
+| Length | Antibody + linker-payload |
+| Molecular Weight | ~150 kDa (antibody component) |
 
-## Applications
+| Category | Peptide Drug Conjugates |
 
-Enfortumab Vedotin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds Nectin-4 on tumor cells, internalizes, releases MMAE via cathepsin cleavage causing mitotic arrest
+
+
 
 ## References
 
-- Source: synthetic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

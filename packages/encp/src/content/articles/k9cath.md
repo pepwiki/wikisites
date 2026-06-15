@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# K9Cath
+
 ## Overview
 
-K9Cath is a peptide compound with applications in research and therapeutics. 
-
+K9Cath is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Canis lupus familiaris (Dog).
 
 
 ## Structure
 
-K9Cath belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | K9Cath |
+| Sequence | KRFRRLKKVRKILKKFGRPIRIPLAR |
+| Length | 26 amino acids |
+| Molecular Weight | 3185.0 Da |
+| Source | Canis lupus familiaris (Dog) |
+| Category | Canine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-K9Cath has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Alpha-helical cathelicidin, membrane pore formation and disruption
+
+## Bioactivity
+
+Antimicrobial against Gram-positive and Gram-negative bacteria, antifungal
+
+## Therapeutic Potential
+
+Veterinary anti-infective, wound care in companion animals
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

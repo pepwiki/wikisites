@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ["sequence","peptide","oligopeptide"]
-category: "sequence"
+category: "Peptide Sequence"
 difficulty: "intermediate"
 relatedArticles: []
 ---

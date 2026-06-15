@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Galcanezumab
+
 ## Overview
 
-Galcanezumab is a peptide compound with applications in research and therapeutics. 
-
+Galcanezumab is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Galcanezumab belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Galcanezumab |
+| Sequence | Humanized IgG4 monoclonal antibody targeting CGRP ligand |
+| Length | ~1325 amino acids |
+| Molecular Weight | ~147 kDa |
 
-## Applications
+| Category | Neurology / Anti-CGRP Antibody |
 
-Galcanezumab has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds CGRP ligand with high affinity, blocking its interaction with the CGRP receptor and inhibiting trigeminal pain pathways
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

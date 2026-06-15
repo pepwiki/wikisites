@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Carp NPY
+
 ## Overview
 
-Carp NPY is a peptide compound with applications in research and therapeutics. 
-
+Carp NPY is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Common carp (Cyprinus carpio).
 
 
 ## Structure
 
-Carp NPY belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Carp NPY |
+| Sequence | YPSKPDNPGE DAPAEDMARY YSALRHYINL ITRQRY (amidated) |
+| Length | 36 amino acids |
+| Molecular Weight | 4180.5 Da |
+| Source | Common carp (Cyprinus carpio) |
+| Category | Fish Neuropeptide |
 
-## Applications
+## Mechanism of Action
 
-Carp NPY has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Central appetite stimulation; promotes feeding behavior and fat storage; interacts with leptin signaling
+
+## Bioactivity
+
+Appetite regulation, metabolic modulation, stress response
+
+## Therapeutic Potential
+
+Metabolic disorder research, aquaculture nutrition, comparative neuroendocrinology
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

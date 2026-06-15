@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Lumbricin I
+
 ## Overview
 
-Lumbricin I is a peptide compound with applications in research and therapeutics. 
-
+Lumbricin I is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Lumbricus terrestris (common earthworm).
 
 
 ## Structure
 
-Lumbricin I belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Lumbricin I |
+| Sequence | FSRYARMRDSRPWSDRKNNYRPRPRPRPWLPRPRPRPWLPRPRPRPWLPRPRPRPWLPRPRPRPWLPRPRPRPWLPRPRPRPWLPRPRPRP |
+| Length | 91 amino acids |
+| Molecular Weight | 10950 Da |
+| Source | Lumbricus terrestris (common earthworm) |
+| Category | Earthworm Antimicrobial Peptide |
 
-## Applications
+## Mechanism of Action
 
-Lumbricin I has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Proline-rich antimicrobial peptide, disrupts microbial membranes, inhibits protein synthesis by binding ribosomes
+
+## Bioactivity
+
+Broad-spectrum antimicrobial against bacteria and fungi, no hemolytic activity
+
+## Therapeutic Potential
+
+Novel antimicrobial drug lead, wound healing applications, anti-infective coatings
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

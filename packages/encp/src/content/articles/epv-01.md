@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# EPV-01
+
 ## Overview
 
-EPV-01 is a peptide compound with applications in research and therapeutics. 
+EPV-01 is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-EPV-01 belongs to the Peptide Vaccines class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Multi-epitope peptide vaccine targeting both latent and lytic EBV antigens; generates EBV-specific CD8+ CTLs to eliminate EBV-infected tumor cells
 
-## Applications
 
-EPV-01 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-vaccines.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

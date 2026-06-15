@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Bursicon
+
 ## Overview
 
-Bursicon is a peptide compound with applications in research and therapeutics. 
-
+Bursicon is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Drosophila melanogaster (fruit fly).
 
 
 ## Structure
 
-Bursicon belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Bursicon |
+| Sequence | Heterodimeric cystine-knot protein (α and β subunits) |
+| Length | ~150 amino acids per subunit |
+| Molecular Weight | 30000 Da (heterodimer) |
+| Source | Drosophila melanogaster (fruit fly) |
+| Category | Insect Hormone / Development |
 
-## Applications
+## Mechanism of Action
 
-Bursicon has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Binds DLGR2 receptor, activates cAMP/PKA pathway, stimulates cuticle tanning
+
+## Bioactivity
+
+Controls cuticle sclerotization (tanning) and wing expansion after eclosion
+
+## Therapeutic Potential
+
+Insect developmental biology research, pest control target
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

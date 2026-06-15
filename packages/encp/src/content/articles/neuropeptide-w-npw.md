@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Neuropeptide W (NPW)
+
 ## Overview
 
-Neuropeptide W (NPW) is a peptide compound with applications in research and therapeutics. 
-
+Neuropeptide W (NPW) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Neuropeptide W (NPW) belongs to the Neuropeptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Neuropeptide W (NPW) |
+| Sequence | WYKHVASPRYHTVGRA |
+| Length | 23 amino acids (NPW-23) |
+| Molecular Weight | 2748.1 Da |
 
-## Applications
+| Category | Neuropeptide B/W family |
 
-Neuropeptide W (NPW) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Gi/Go-coupled; inhibits adenylyl cyclase
+
+
 
 ## References
 
-- Source: neuropeptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

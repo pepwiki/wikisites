@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ["avian-cathelicidin","peptide","oligopeptide"]
-category: "Avian Cathelicidin"
+category: "Antimicrobial Peptides"
 difficulty: "intermediate"
 relatedArticles: []
 ---

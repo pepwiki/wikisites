@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Feline Cathelicidin
+
 ## Overview
 
-Feline Cathelicidin is a peptide compound with applications in research and therapeutics. 
-
+Feline Cathelicidin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Felis catus (Cat).
 
 
 ## Structure
 
-Feline Cathelicidin belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Feline Cathelicidin |
+| Sequence | KRFRRLKKVRKILKKFGKPIRIPLAR |
+| Length | 26 amino acids |
+| Molecular Weight | 3143.0 Da |
+| Source | Felis catus (Cat) |
+| Category | Feline Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Feline Cathelicidin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Alpha-helical cathelicidin, membrane disruption and pore formation
+
+## Bioactivity
+
+Antimicrobial against Gram-positive and Gram-negative bacteria
+
+## Therapeutic Potential
+
+Veterinary anti-infective for feline infections
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

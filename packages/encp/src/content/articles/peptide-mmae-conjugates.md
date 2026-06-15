@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Peptide-MMAE Conjugates
+
 ## Overview
 
-Peptide-MMAE Conjugates is a peptide compound with applications in research and therapeutics. 
-
+Peptide-MMAE Conjugates is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Peptide-MMAE Conjugates belongs to the Peptide Drug Conjugates class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Peptide-MMAE Conjugates |
 
-## Applications
 
-Peptide-MMAE Conjugates has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Molecular Weight | ~1500-3000 Da |
+
+| Category | Cytotoxic / Microtubule Inhibitor |
+
+## Mechanism of Action
+
+Peptide-MMAE conjugate internalized via receptor-mediated endocytosis; cathepsin B cleaves linker releasing MMAE to disrupt microtubules
+
+
 
 ## References
 
-- Source: peptide-drug-conjugates.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

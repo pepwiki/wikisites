@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Pramlintide
+
 ## Overview
 
-Pramlintide is a peptide compound with applications in research and therapeutics. 
-
+Pramlintide is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Pramlintide belongs to the Therapeutic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Pramlintide |
+| Sequence | KCNTATCATQRLANFLVHSSNNFGAILSSTNVGSNTY-NH2 |
+| Length | 37 amino acids |
+| Molecular Weight | 3950 Da |
 
-## Applications
+| Category | Metabolic / Amylin Analog |
 
-Pramlintide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Amylin receptor agonist; slows gastric emptying, suppresses glucagon
+
+
 
 ## References
 
-- Source: therapeutic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

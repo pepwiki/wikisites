@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Oxytocin Intramolecular (Disulfide Bond)
+
 ## Overview
 
-Oxytocin Intramolecular (Disulfide Bond) is a peptide compound with applications in research and therapeutics. 
-
+Oxytocin Intramolecular (Disulfide Bond) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Oxytocin Intramolecular (Disulfide Bond) belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Oxytocin Intramolecular (Disulfide Bond) |
+| Sequence | CYIQNCPLG (disulfide bridge: Cys1-Cys6) |
+| Length | 9 amino acids |
+| Molecular Weight | 1007.2 Da |
 
-## Applications
+| Category | Neurohypophysial peptide |
 
-Oxytocin Intramolecular (Disulfide Bond) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Gq-coupled; activates PLC, IP3, Ca2+ release; also Gi in some tissues
+
+
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

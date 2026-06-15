@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Systemin
+
 ## Overview
 
-Systemin is a peptide compound with applications in research and therapeutics. 
-
+Systemin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Solanum lycopersicum (Tomato).
 
 
 ## Structure
 
-Systemin belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Systemin |
+| Sequence | AVQSKPPSKRDPPKMQTD |
+| Length | 18 amino acids |
+| Molecular Weight | ~2,000 Da |
+| Source | Solanum lycopersicum (Tomato) |
+| Category | Plant Signaling Peptides |
 
-## Applications
+## Mechanism of Action
 
-Systemin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Activates jasmonic acid pathway for systemic defense response
+
+## Bioactivity
+
+Defense signaling
+
+## Therapeutic Potential
+
+Agricultural pest resistance enhancement, plant immune system research
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Kahalalide F
+
 ## Overview
 
-Kahalalide F is a peptide compound with applications in research and therapeutics. 
-
+Kahalalide F is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Elysia rufescens (sea slug).
 
 
 ## Structure
 
-Kahalalide F belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Kahalalide F |
 
-## Applications
+| Length | N/A (depsipeptide) |
+| Molecular Weight | 1470.7 Da |
+| Source | Elysia rufescens (sea slug) |
+| Category | Marine Anti-Cancer Peptide |
 
-Kahalalide F has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Accumulates in lysosomes, causes lysosomal membrane permeabilization
+
+## Bioactivity
+
+Anti-tumor, antifungal
+
+## Therapeutic Potential
+
+Melanoma, prostate cancer (clinical trials)
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

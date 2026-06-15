@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Tetrodotoxin (TTX)
+
 ## Overview
 
-Tetrodotoxin (TTX) is a peptide compound with applications in research and therapeutics. 
-
+Tetrodotoxin (TTX) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Takifugu (pufferfish), Taricha (newts).
 
 
 ## Structure
 
-Tetrodotoxin (TTX) belongs to the Toxin Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Tetrodotoxin (TTX) |
 
-## Applications
+| Length | N/A (small molecule) |
+| Molecular Weight | 319.27 Da |
+| Source | Takifugu (pufferfish), Taricha (newts) |
+| Category | Marine Toxin / Analgesic |
 
-Tetrodotoxin (TTX) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Pore blocker - binds to site 1 of Nav channels, blocking ion conductance
+
+## Bioactivity
+
+Neurotoxin, analgesic properties
+
+## Therapeutic Potential
+
+Pain management, cancer pain, opioid-sparing analgesic
 
 ## References
 
-- Source: toxin-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

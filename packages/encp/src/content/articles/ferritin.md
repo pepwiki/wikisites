@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Ferritin
+
 ## Overview
 
-Ferritin is a peptide compound with applications in research and therapeutics. 
+Ferritin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Ferritin belongs to the Biomarkers Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Ferritin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: biomarkers-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

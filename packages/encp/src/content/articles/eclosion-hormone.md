@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Eclosion Hormone
+
 ## Overview
 
-Eclosion Hormone is a peptide compound with applications in research and therapeutics. 
-
+Eclosion Hormone is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Manduca sexta (tobacco hornworm).
 
 
 ## Structure
 
-Eclosion Hormone belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Eclosion Hormone |
+| Sequence | ~62 amino acids with 3 disulfide bonds (conserved across species) |
+| Length | 62 amino acids |
+| Molecular Weight | 7200 Da |
+| Source | Manduca sexta (tobacco hornworm) |
+| Category | Insect Hormone / Development |
 
-## Applications
+## Mechanism of Action
 
-Eclosion Hormone has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Stimulates ecdysis triggering hormone release via cGMP signaling cascade
+
+## Bioactivity
+
+Triggers ecdysis (molting) behavior and old cuticle shedding
+
+## Therapeutic Potential
+
+Pest management via disruption of molting process
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

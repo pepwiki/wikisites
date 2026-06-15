@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Semaglutide (Oral)
+
 ## Overview
 
-Semaglutide (Oral) is a peptide compound with applications in research and therapeutics. 
-
+Semaglutide (Oral) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Semaglutide (Oral) belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Semaglutide (Oral) |
+| Sequence | HAEGTFTSDVSSYLEGQAAK(AEEA-AEEA-C18 diacid)EFIAWLVKGR + SNAC |
 
-## Applications
+| Molecular Weight | 4114 Da (peptide component) |
 
-Semaglutide (Oral) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Metabolic / Oral GLP-1 Agonist |
+
+## Mechanism of Action
+
+Oral GLP-1 RA; SNAC creates local pH elevation and protects peptide in stomach
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

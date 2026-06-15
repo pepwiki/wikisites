@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# BMAP-28
+
 ## Overview
 
-BMAP-28 is a peptide compound with applications in research and therapeutics. 
-
+BMAP-28 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bos taurus (Cattle).
 
 
 ## Structure
 
-BMAP-28 belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | BMAP-28 |
+| Sequence | GGLRSLGRKILRAWKKYGPIIVPIIRI |
+| Length | 27 amino acids |
+| Molecular Weight | 3041.7 Da |
+| Source | Bos taurus (Cattle) |
+| Category | Bovine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-BMAP-28 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Alpha-helical cathelicidin peptide, forms transmembrane pores, mitochondrial apoptosis induction
+
+## Bioactivity
+
+Potent antimicrobial, anticancer activity against tumor cells
+
+## Therapeutic Potential
+
+Anticancer therapeutics, anti-infective agents, immunotherapy adjuvants
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Viltolarsen
+
 ## Overview
 
-Viltolarsen is a peptide compound with applications in research and therapeutics. 
-
+Viltolarsen is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Viltolarsen belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Viltolarsen |
+| Sequence | Phosphorodiamidate morpholino oligomer (PMO), 21-mer antisense oligonucleotide |
+| Length | 21 nucleotides (morpholino chemistry) |
+| Molecular Weight | ~7.5 kDa |
 
-## Applications
+| Category | Rare Disease / Antisense Oligonucleotide |
 
-Viltolarsen has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Antisense oligonucleotide binds dystrophin pre-mRNA exon 53, inducing exon skipping during splicing to restore the dystrophin reading frame in patients with out-of-frame deletions
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

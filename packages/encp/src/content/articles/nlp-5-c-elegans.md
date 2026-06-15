@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# NLP-5 (C. elegans)
+
 ## Overview
 
-NLP-5 (C. elegans) is a peptide compound with applications in research and therapeutics. 
-
+NLP-5 (C. elegans) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans.
 
 
 ## Structure
 
-NLP-5 (C. elegans) belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | NLP-5 (C. elegans) |
+| Sequence | AADDSKQSLSEALQR |
+| Length | 15 amino acids |
+| Molecular Weight | 1640 Da |
+| Source | Caenorhabditis elegans |
+| Category | Nematode Neuropeptide / NLP |
 
-## Applications
+## Mechanism of Action
 
-NLP-5 (C. elegans) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Neuropeptide signaling in gonadal function and egg-laying behavior
+
+## Bioactivity
+
+Regulation of ovulation, egg-laying, and reproductive timing
+
+## Therapeutic Potential
+
+Target for reproduction-disrupting anthelmintics
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

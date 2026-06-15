@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# TAT Peptide (47-57)
+
 ## Overview
 
-TAT Peptide (47-57) is a peptide compound with applications in research and therapeutics. 
-
+TAT Peptide (47-57) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-TAT Peptide (47-57) belongs to the Synthetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | TAT Peptide (47-57) |
+| Sequence | Tyr-Gly-Arg-Lys-Lys-Arg-Arg-Gln-Arg-Arg-Arg |
+| Length | 11 residues |
+| Molecular Weight | ~1560 Da |
 
-## Applications
+| Category | Research Synthetic |
 
-TAT Peptide (47-57) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Direct translocation across cell membranes via interaction with phospholipids and heparan sulfate; nuclear localization
+
+
 
 ## References
 
-- Source: synthetic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

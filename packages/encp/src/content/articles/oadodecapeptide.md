@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# OaDodecapeptide
+
 ## Overview
 
-OaDodecapeptide is a peptide compound with applications in research and therapeutics. 
-
+OaDodecapeptide is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Ovis aries (Sheep).
 
 
 ## Structure
 
-OaDodecapeptide belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | OaDodecapeptide |
+| Sequence | KRIVQRIKDFLR |
+| Length | 12 amino acids |
+| Molecular Weight | 1568.9 Da |
+| Source | Ovis aries (Sheep) |
+| Category | Ovine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-OaDodecapeptide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Cationic hemoglobin-derived peptide, membrane disruption
+
+## Bioactivity
+
+Antimicrobial against Gram-negative bacteria
+
+## Therapeutic Potential
+
+Natural antimicrobial from food sources
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# GnRH → GnRHR
+
 ## Overview
 
-GnRH → GnRHR is a peptide compound with applications in research and therapeutics. 
+GnRH → GnRHR is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-GnRH → GnRHR belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+GnRH binds GnRHR (class A GPCR) on anterior pituitary gonadotrophs, activating Gαq/11 → PLC → IP3/DAG → PKC pathway. Stimulates release of LH and FSH, controlling reproductive function. Pulsatile vs continuous stimulation differentially regulates LH/FSH.
 
-## Applications
 
-GnRH → GnRHR has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

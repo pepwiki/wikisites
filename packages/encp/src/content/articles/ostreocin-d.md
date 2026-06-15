@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Ostreocin D
+
 ## Overview
 
-Ostreocin D is a peptide compound with applications in research and therapeutics. 
-
+Ostreocin D is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Ostreopsis ovata.
 
 
 ## Structure
 
-Ostreocin D belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Ostreocin D |
 
-## Applications
+| Length | N/A |
+| Molecular Weight | 2630.0 Da |
+| Source | Ostreopsis ovata |
+| Category | Marine Toxin |
 
-Ostreocin D has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Similar to palytoxin, converts pump to channel
+
+## Bioactivity
+
+Cytotoxicity, respiratory irritation
+
+## Therapeutic Potential
+
+Comparative toxicology studies
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

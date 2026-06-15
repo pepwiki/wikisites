@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# INS-3 (C. elegans)
+
 ## Overview
 
-INS-3 (C. elegans) is a peptide compound with applications in research and therapeutics. 
-
+INS-3 (C. elegans) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans.
 
 
 ## Structure
 
-INS-3 (C. elegans) belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | INS-3 (C. elegans) |
+| Sequence | MIKLSFLFIFLSIGQADNIYDRLCGSHLVELFDLCGDKGFYRNEICGSRVISLWNE |
+| Length | 56 amino acids |
+| Molecular Weight | 6280 Da |
+| Source | Caenorhabditis elegans |
+| Category | Nematode Insulin-like Peptide |
 
-## Applications
+## Mechanism of Action
 
-INS-3 (C. elegans) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+DAF-2 receptor agonist, modulates insulin/IGF-1-like signaling (IIS) pathway
+
+## Bioactivity
+
+Regulation of dauer formation, metabolic rate, and stress resistance
+
+## Therapeutic Potential
+
+Drug target for parasitic nematode control
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Sufentanil
+
 ## Overview
 
-Sufentanil is a peptide compound with applications in research and therapeutics. 
-
+Sufentanil is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Sufentanil belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Sufentanil |
+| Sequence | Non-peptide (small molecule: C22H30N2O2S) |
 
-## Applications
+| Molecular Weight | 386 Da |
 
-Sufentanil has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Analgesic / Opioid Agonist |
+
+## Mechanism of Action
+
+μ-opioid receptor full agonist; highly lipophilic for rapid CNS penetration
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Motilin
+
 ## Overview
 
-Motilin is a peptide compound with applications in research and therapeutics. 
-
+Motilin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Motilin belongs to the Neuropeptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Motilin |
+| Sequence | FVPIFTYGELQRMQEKERNKGQ |
+| Length | 22 amino acids |
+| Molecular Weight | 2699.1 Da |
 
-## Applications
+| Category | Motilin family / Gut hormone |
 
-Motilin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Gq/Gs-coupled; activates PLC and adenylyl cyclase
+
+
 
 ## References
 
-- Source: neuropeptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

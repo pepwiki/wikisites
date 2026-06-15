@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Cordycepin
+
 ## Overview
 
-Cordycepin is a peptide compound with applications in research and therapeutics. 
-
+Cordycepin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Cordyceps militaris.
 
 
 ## Structure
 
-Cordycepin belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Cordycepin |
 
-## Applications
+| Length | N/A (nucleoside) |
+| Molecular Weight | 251.24 Da |
+| Source | Cordyceps militaris |
+| Category | Fungal Cyclopeptide / Nucleoside Analog |
 
-Cordycepin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Incorporates into RNA causing chain termination; inhibits polyadenylation and mRNA processing
+
+## Bioactivity
+
+Anti-tumor, anti-inflammatory, immunomodulatory
+
+## Therapeutic Potential
+
+Cancer therapy (leukemia, lung cancer), anti-inflammatory agent, anti-diabetic
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

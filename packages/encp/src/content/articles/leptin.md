@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-07-20
 tags: ["leptin", "adipokine", "energy-homeostasis", "appetite-regulation", "obesity"]
-category: "Hormones"
+category: "Peptide Hormones"
 difficulty: "intermediate"
 relatedArticles: ["adiponectin", "ghrelin"]
 citation:

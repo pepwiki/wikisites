@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Avalglucosidase Alfa
+
 ## Overview
 
-Avalglucosidase Alfa is a peptide compound with applications in research and therapeutics. 
-
+Avalglucosidase Alfa is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Avalglucosidase Alfa belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Avalglucosidase Alfa |
+| Sequence | Recombinant human acid alpha-glucosidase with enhanced mannose-6-phosphate (M6P) glycosylation |
+| Length | ~883 amino acids |
+| Molecular Weight | ~110 kDa |
 
-## Applications
+| Category | Rare Disease / Enzyme Replacement Therapy |
 
-Avalglucosidase Alfa has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Enzyme replacement therapy; enhanced M6P content increases cellular uptake via cation-independent M6P receptor, improving lysosomal targeting and glycogen clearance compared to alglucosidase alfa
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

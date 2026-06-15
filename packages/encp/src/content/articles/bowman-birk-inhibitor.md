@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Bowman-Birk Inhibitor
+
 ## Overview
 
-Bowman-Birk Inhibitor is a peptide compound with applications in research and therapeutics. 
-
+Bowman-Birk Inhibitor is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Glycine max (Soybean).
 
 
 ## Structure
 
-Bowman-Birk Inhibitor belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Bowman-Birk Inhibitor |
+| Sequence | DVPLDVAQTFHLKPFCSLCLPGNKCDTCLKS |
+| Length | 71 amino acids |
+| Molecular Weight | ~8,000 Da |
+| Source | Glycine max (Soybean) |
+| Category | Plant Bioactive Peptides |
 
-## Applications
+## Mechanism of Action
 
-Bowman-Birk Inhibitor has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Double-headed protease inhibitor binding both trypsin and chymotrypsin simultaneously
+
+## Bioactivity
+
+Protease inhibitor, anti-cancer, anti-inflammatory
+
+## Therapeutic Potential
+
+Cancer chemoprevention, COPD therapy, anti-inflammatory treatment
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

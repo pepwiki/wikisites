@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Violapeptide 1
+
 ## Overview
 
-Violapeptide 1 is a peptide compound with applications in research and therapeutics. 
-
+Violapeptide 1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Viola arvensis (Field Pansy).
 
 
 ## Structure
 
-Violapeptide 1 belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Violapeptide 1 |
+| Sequence | CGESCVFIPCITGLIGCSCKDKVC |
+| Length | 27 amino acids |
+| Molecular Weight | ~2,800 Da |
+| Source | Viola arvensis (Field Pansy) |
+| Category | Plant Cyclic Peptides |
 
-## Applications
+## Mechanism of Action
 
-Violapeptide 1 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane permeabilization via cyclotide scaffold
+
+## Bioactivity
+
+Antimicrobial
+
+## Therapeutic Potential
+
+Antimicrobial drug development, peptide engineering
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

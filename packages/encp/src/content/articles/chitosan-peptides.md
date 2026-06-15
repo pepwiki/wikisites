@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Chitosan Peptides
+
 ## Overview
 
-Chitosan Peptides is a peptide compound with applications in research and therapeutics. 
-
+Chitosan Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Crustacean shells (shrimp, crab).
 
 
 ## Structure
 
-Chitosan Peptides belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Chitosan Peptides |
 
-## Applications
+| Length | Variable (oligomers) |
+| Molecular Weight | 1,000-10,000 Da |
+| Source | Crustacean shells (shrimp, crab) |
+| Category | Count |
 
-Chitosan Peptides has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Promotes fibroblast migration, stimulates growth factors, antimicrobial
+
+## Bioactivity
+
+Wound healing, antimicrobial, moisture retention
+
+## Therapeutic Potential
+
+Wound care, scar treatment, antimicrobial cosmetics
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

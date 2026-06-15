@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Murepavadin
+
 ## Overview
 
-Murepavadin is a peptide compound with applications in research and therapeutics. 
-
+Murepavadin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Murepavadin belongs to the Synthetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Murepavadin |
+| Sequence | Cyclic peptidomimetic targeting LptD |
+| Length | 14 residues (cyclic) |
+| Molecular Weight | ~1700 Da |
 
-## Applications
+| Category | Antimicrobial Synthetic |
 
-Murepavadin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Specifically inhibits LptD-mediated LPS transport to outer membrane, disrupting P. aeruginosa membrane integrity
+
+
 
 ## References
 
-- Source: synthetic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

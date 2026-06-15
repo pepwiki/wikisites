@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Deltorphin A
+
 ## Overview
 
-Deltorphin A is a peptide compound with applications in research and therapeutics. 
-
+Deltorphin A is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Phyllomedusa bicolor (Giant leaf frog).
 
 
 ## Structure
 
-Deltorphin A belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Deltorphin A |
+| Sequence | YAFDVVG-NH2 |
+| Length | 7 amino acids |
+| Molecular Weight | 783.9 Da |
+| Source | Phyllomedusa bicolor (Giant leaf frog) |
+| Category | Amphibian Opioid |
 
-## Applications
+## Mechanism of Action
 
-Deltorphin A has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Selective DOR agonist with D-alanine or D-isoleucine providing enzymatic stability
+
+## Bioactivity
+
+Potent analgesic without respiratory depression, anxiolytic effects
+
+## Therapeutic Potential
+
+Non-addictive analgesics, neuroprotection, substance abuse treatment
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

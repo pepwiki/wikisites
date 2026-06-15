@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Mulundocandin
+
 ## Overview
 
-Mulundocandin is a peptide compound with applications in research and therapeutics. 
-
+Mulundocandin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Aspergillus sydowi.
 
 
 ## Structure
 
-Mulundocandin belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Mulundocandin |
 
-## Applications
+| Length | 6 amino acids |
+| Molecular Weight | 1079.30 Da |
+| Source | Aspergillus sydowi |
+| Category | Fungal Antibiotic / Antifungal |
 
-Mulundocandin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Non-competitive inhibition of beta-glucan synthase complex
+
+## Bioactivity
+
+Antifungal (effective against Candida albicans)
+
+## Therapeutic Potential
+
+Lead compound for antifungal drug development
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

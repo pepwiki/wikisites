@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Temporin B
+
 ## Overview
 
-Temporin B is a peptide compound with applications in research and therapeutics. 
-
+Temporin B is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Rana temporaria.
 
 
 ## Structure
 
-Temporin B belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Temporin B |
+| Sequence | LLPIVGNLLKSLL |
+| Length | 13 amino acids |
+| Molecular Weight | 1410.8 Da |
+| Source | Rana temporaria |
+| Category | Amphibian Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Temporin B has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Hydrophobic membrane-active peptide, disrupts lipid bilayer integrity
+
+## Bioactivity
+
+Antimicrobial activity against Gram-positive and selected Gram-negative bacteria
+
+## Therapeutic Potential
+
+Combination antimicrobial therapy, topical applications
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

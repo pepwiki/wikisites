@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Lefamulin
+
 ## Overview
 
-Lefamulin is a peptide compound with applications in research and therapeutics. 
-
+Lefamulin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Lefamulin belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Lefamulin |
+| Sequence | Semi-synthetic pleuromutilin antibiotic with optimized side chain |
+| Length | Small molecule (pleuromutilin class) |
+| Molecular Weight | ~566 Da |
 
-## Applications
+| Category | Anti-Infective / Pleuromutilin |
 
-Lefamulin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds 50S ribosomal subunit peptidyl transferase center (PTC), inhibiting bacterial protein synthesis; retains activity against macrolide- and fluoroquinolone-resistant pathogens
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

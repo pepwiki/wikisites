@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Ceftazidime/Avibactam
+
 ## Overview
 
-Ceftazidime/Avibactam is a peptide compound with applications in research and therapeutics. 
-
+Ceftazidime/Avibactam is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Ceftazidime/Avibactam belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Ceftazidime/Avibactam |
+| Sequence | Combination: ceftazidime (cephalosporin) + avibactam (diazabicyclooctane beta-lactamase inhibitor) |
+| Length | Small molecule combination |
+| Molecular Weight | 546 Da (ceftazidime) + 265 Da (avibactam) |
 
-## Applications
+| Category | Anti-Infective / Beta-Lactamase Inhibitor Combination |
 
-Ceftazidime/Avibactam has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Avibactam inhibits Class A, Class C, and some Class D beta-lactamases (including KPC, OXA-48); ceftazidime inhibits cell wall synthesis
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

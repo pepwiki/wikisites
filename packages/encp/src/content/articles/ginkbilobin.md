@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Ginkbilobin
+
 ## Overview
 
-Ginkbilobin is a peptide compound with applications in research and therapeutics. 
-
+Ginkbilobin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Ginkgo biloba (Ginkgo).
 
 
 ## Structure
 
-Ginkbilobin belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Ginkbilobin |
+| Sequence | Not fully characterized |
+| Length | ~50 amino acids |
+| Molecular Weight | ~5,500 Da |
+| Source | Ginkgo biloba (Ginkgo) |
+| Category | Plant Defense Peptides |
 
-## Applications
+## Mechanism of Action
 
-Ginkbilobin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane permeabilization and chitin binding
+
+## Bioactivity
+
+Antifungal
+
+## Therapeutic Potential
+
+Antifungal therapeutics, nutraceutical development
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Capivasertib
+
 ## Overview
 
-Capivasertib is a peptide compound with applications in research and therapeutics. 
-
+Capivasertib is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Capivasertib belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Capivasertib |
+| Sequence | Small molecule AKT kinase inhibitor |
+| Length | Small molecule |
+| Molecular Weight | ~428 Da |
 
-## Applications
+| Category | Oncology / AKT Inhibitor |
 
-Capivasertib has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Pan-AKT kinase inhibitor; blocks AKT1/2/3 signaling downstream of PI3K, inhibiting tumor cell survival and proliferation
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# FLU-v
+
 ## Overview
 
-FLU-v is a peptide compound with applications in research and therapeutics. 
+FLU-v is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-FLU-v belongs to the Peptide Vaccines class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Synthetic peptides from highly conserved regions of M1, M2, and NP; stimulates cross-reactive CD4+ and CD8+ T cells targeting internal proteins conserved across all influenza strains
 
-## Applications
 
-FLU-v has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-vaccines.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

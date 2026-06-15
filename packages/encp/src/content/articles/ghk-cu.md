@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# GHK-Cu
+
 ## Overview
 
-GHK-Cu is a peptide compound with applications in research and therapeutics. 
+GHK-Cu is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-GHK-Cu belongs to the Cosmetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-GHK-Cu has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: cosmetic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

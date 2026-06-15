@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# HBV Peptide Vaccine
+
 ## Overview
 
-HBV Peptide Vaccine is a peptide compound with applications in research and therapeutics. 
+HBV Peptide Vaccine is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-HBV Peptide Vaccine belongs to the Peptide Vaccines class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Therapeutic peptide vaccine targeting HBV core and surface epitopes; restores HBV-specific CD8+ CTL responses to clear infected hepatocytes; complements antiviral therapy
 
-## Applications
 
-HBV Peptide Vaccine has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-vaccines.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

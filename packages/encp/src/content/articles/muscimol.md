@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Muscimol
+
 ## Overview
 
-Muscimol is a peptide compound with applications in research and therapeutics. 
-
+Muscimol is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Amanita muscaria (Fly Agaric).
 
 
 ## Structure
 
-Muscimol belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Muscimol |
 
-## Applications
+| Length | N/A (small molecule) |
+| Molecular Weight | 114.10 Da |
+| Source | Amanita muscaria (Fly Agaric) |
+| Category | Fungal Peptide Toxin / Neurotoxin |
 
-Muscimol has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Potent agonist at GABA-A receptors; mimics GABA inhibitory neurotransmission
+
+## Bioactivity
+
+Sedative, hypnotic, psychoactive (deliriant)
+
+## Therapeutic Potential
+
+GABA-A receptor research tool; potential anxiolytic lead compound; epilepsy research
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

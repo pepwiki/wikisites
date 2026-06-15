@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Danuglipron
+
 ## Overview
 
-Danuglipron is a peptide compound with applications in research and therapeutics. 
-
+Danuglipron is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Danuglipron belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Danuglipron |
+| Sequence | Non-peptide small molecule GLP-1 receptor agonist (oral) |
+| Length | Small molecule |
+| Molecular Weight | ~628 Da |
 
-## Applications
+| Category | Metabolic / Oral GLP-1 Agonist |
 
-Danuglipron has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Oral small molecule GLP-1 receptor agonist; once-daily dosing for glycemic control and weight management
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

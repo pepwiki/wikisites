@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Denosumab
+
 ## Overview
 
-Denosumab is a peptide compound with applications in research and therapeutics. 
-
+Denosumab is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Denosumab belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Denosumab |
+| Sequence | Fully human IgG2 monoclonal antibody (not a peptide) |
+| Length | ~1320 amino acids (antibody) |
+| Molecular Weight | ~147 kDa |
 
-## Applications
+| Category | Bone / RANKL Antibody (included for completeness) |
 
-Denosumab has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+RANKL inhibitor; prevents osteoclast formation and activation
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

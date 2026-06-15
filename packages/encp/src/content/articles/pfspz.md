@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# PfSPZ
+
 ## Overview
 
-PfSPZ is a peptide compound with applications in research and therapeutics. 
+PfSPZ is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-PfSPZ belongs to the Peptide Vaccines class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Radiation-attuced sporozoites invade hepatocytes but cannot complete development; induces comprehensive immune response including anti-CSP antibodies, CD8+ liver-resident T cells, and CD4+ T cells
 
-## Applications
 
-PfSPZ has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-vaccines.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

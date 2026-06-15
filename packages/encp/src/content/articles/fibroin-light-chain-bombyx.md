@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Fibroin Light Chain (Bombyx)
+
 ## Overview
 
-Fibroin Light Chain (Bombyx) is a peptide compound with applications in research and therapeutics. 
-
+Fibroin Light Chain (Bombyx) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bombyx mori (silkworm).
 
 
 ## Structure
 
-Fibroin Light Chain (Bombyx) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Fibroin Light Chain (Bombyx) |
+| Sequence | Non-repetitive sequence with N-linked glycosylation sites |
+| Length | 262 amino acids |
+| Molecular Weight | 28500 Da |
+| Source | Bombyx mori (silkworm) |
+| Category | Silk Protein / Structural |
 
-## Applications
+## Mechanism of Action
 
-Fibroin Light Chain (Bombyx) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Forms disulfide-linked complex with heavy chain, regulates fiber assembly
+
+## Bioactivity
+
+Contributes to silk fiber flexibility and assembly
+
+## Therapeutic Potential
+
+Bioengineering applications, modified silk protein production
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

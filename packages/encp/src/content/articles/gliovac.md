@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Gliovac
+
 ## Overview
 
-Gliovac is a peptide compound with applications in research and therapeutics. 
-
+Gliovac is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Gliovac belongs to the Synthetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Gliovac |
+| Sequence | Allogeneic glioblastoma tumor lysate peptides |
+| Length | Multiple peptides of variable length |
+| Molecular Weight | Variable |
 
-## Applications
+| Category | Peptide Vaccines |
 
-Gliovac has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Polyclonal immune activation against multiple GBM antigens, overcoming tumor heterogeneity and immune evasion
+
+
 
 ## References
 
-- Source: synthetic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

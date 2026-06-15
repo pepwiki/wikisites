@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Elosulfase Alfa
+
 ## Overview
 
-Elosulfase Alfa is a peptide compound with applications in research and therapeutics. 
-
+Elosulfase Alfa is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Elosulfase Alfa belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Elosulfase Alfa |
+| Sequence | Recombinant human N-acetylgalactosamine-6-sulfatase (GALNS) |
+| Length | ~522 amino acids (processed) |
+| Molecular Weight | ~56 kDa (glycosylated) |
 
-## Applications
+| Category | Rare Disease / Enzyme Replacement Therapy |
 
-Elosulfase Alfa has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Enzyme replacement; provides N-acetylgalactosamine-6-sulfatase to degrade keratan sulfate
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Vasopressin → V1aR
+
 ## Overview
 
-Vasopressin → V1aR is a peptide compound with applications in research and therapeutics. 
+Vasopressin → V1aR is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-Vasopressin → V1aR belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+AVP binds V1aR (class A GPCR), activating Gαq → PLCβ → IP3/DAG → PKC pathway. Increases intracellular calcium causing vasoconstriction and vascular smooth muscle contraction.
 
-## Applications
 
-Vasopressin → V1aR has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

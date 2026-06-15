@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Hirudin HV3
+
 ## Overview
 
-Hirudin HV3 is a peptide compound with applications in research and therapeutics. 
-
+Hirudin HV3 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hirudo medicinalis (medicinal leech).
 
 
 ## Structure
 
-Hirudin HV3 belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Hirudin HV3 |
+| Sequence | VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPKPQSHNDGDFEEIPEEYLQ (sulfated) |
+| Length | 65 amino acids |
+| Molecular Weight | 7040 Da (with sulfation) |
+| Source | Hirudo medicinalis (medicinal leech) |
+| Category | Leech Thrombin Inhibitor |
 
-## Applications
+## Mechanism of Action
 
-Hirudin HV3 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+O-sulfated Tyr63 enhances exosite I binding affinity, bivalent inhibition mechanism
+
+## Bioactivity
+
+Enhanced anticoagulant potency compared to non-sulfated variants
+
+## Therapeutic Potential
+
+Optimized anticoagulant variant, research standard for thrombin inhibition
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

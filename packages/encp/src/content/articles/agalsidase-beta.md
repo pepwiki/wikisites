@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Agalsidase Beta
+
 ## Overview
 
-Agalsidase Beta is a peptide compound with applications in research and therapeutics. 
-
+Agalsidase Beta is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Agalsidase Beta belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Agalsidase Beta |
+| Sequence | Recombinant human alpha-galactosidase A |
+| Length | ~429 amino acids (processed homodimer) |
+| Molecular Weight | ~100 kDa (homodimer) |
 
-## Applications
+| Category | Count |
 
-Agalsidase Beta has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Enzyme replacement; provides alpha-galactosidase A to degrade globotriaosylceramide (GL-3)
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-06-01
 tags: ["peptide-metabolism", "hepatic-extraction", "CYP450", "first-pass", "pharmacology"]
-category: "Pharmacology"
+category: "Drug Development"
 difficulty: "advanced"
 relatedArticles: ["peptide-blood-stability", "peptide-drug-conjugates"]
 citation:

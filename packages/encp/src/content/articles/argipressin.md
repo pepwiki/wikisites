@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Argipressin
+
 ## Overview
 
-Argipressin is a peptide compound with applications in research and therapeutics. 
-
+Argipressin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Argipressin belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Argipressin |
+| Sequence | CYFQNCPRG-NH2 (disulfide bridge 1-6) |
 
-## Applications
+| Molecular Weight | 1084 Da |
 
-Argipressin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Endocrine / Vasopressin |
+
+## Mechanism of Action
+
+Non-selective vasopressin receptor agonist; vasoconstriction and antidiuresis
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

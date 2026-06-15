@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Buserelin
+
 ## Overview
 
-Buserelin is a peptide compound with applications in research and therapeutics. 
-
+Buserelin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Buserelin belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Buserelin |
+| Sequence | pGlu-His-Trp-Ser-D-Ser(tBu)-Leu-Arg-Pro-NHEt |
 
-## Applications
+| Molecular Weight | 1239 Da |
 
-Buserelin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Oncology/Endocrine / GnRH Agonist |
+
+## Mechanism of Action
+
+GnRH agonist; initial flare then suppression of gonadotropins
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

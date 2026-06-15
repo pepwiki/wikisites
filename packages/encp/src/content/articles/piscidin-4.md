@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Piscidin 4
+
 ## Overview
 
-Piscidin 4 is a peptide compound with applications in research and therapeutics. 
-
+Piscidin 4 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hybrid striped bass (Morone saxatilis x M. chrysops).
 
 
 ## Structure
 
-Piscidin 4 belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Piscidin 4 |
+| Sequence | FIHHIHRGIVHAGRSIHRLVTG (variant) |
+| Length | 22 amino acids |
+| Molecular Weight | 2580.0 Da |
+| Source | Hybrid striped bass (Morone saxatilis x M. chrysops) |
+| Category | Fish Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Piscidin 4 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane permeabilization and immune modulation; enhances host defense responses
+
+## Bioactivity
+
+Antiviral and antibacterial activity; immunomodulatory properties
+
+## Therapeutic Potential
+
+Antiviral therapeutics, immunostimulatory agents for aquaculture
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

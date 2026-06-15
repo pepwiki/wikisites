@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Sotorasib
+
 ## Overview
 
-Sotorasib is a peptide compound with applications in research and therapeutics. 
-
+Sotorasib is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Sotorasib belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Sotorasib |
+| Sequence | Small molecule KRAS G12C covalent inhibitor |
+| Length | Small molecule |
+| Molecular Weight | ~560 Da |
 
-## Applications
+| Category | Oncology / KRAS Inhibitor |
 
-Sotorasib has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Covalently binds to KRAS G12C mutant in the GDP-bound state, locking it inactive and blocking RAS/MAPK signaling
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

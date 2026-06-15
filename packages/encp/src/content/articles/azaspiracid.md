@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Azaspiracid
+
 ## Overview
 
-Azaspiracid is a peptide compound with applications in research and therapeutics. 
-
+Azaspiracid is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Azadinium spinosum.
 
 
 ## Structure
 
-Azaspiracid belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Azaspiracid |
 
-## Applications
+| Length | N/A |
+| Molecular Weight | 841.9 Da |
+| Source | Azadinium spinosum |
+| Category | Marine Toxin |
 
-Azaspiracid has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Disrupts cytoskeletal architecture, inhibits phosphatases
+
+## Bioactivity
+
+Azaspiracid shellfish poisoning, organ damage
+
+## Therapeutic Potential
+
+Cancer biology research (cytoskeletal disruption)
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

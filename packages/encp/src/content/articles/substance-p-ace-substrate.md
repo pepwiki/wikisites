@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Substance P → ACE (Substrate)
+
 ## Overview
 
-Substance P → ACE (Substrate) is a peptide compound with applications in research and therapeutics. 
-
+Substance P → ACE (Substrate) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Substance P → ACE (Substrate) belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Substance P → ACE (Substrate) |
+| Sequence | RPKPQQFFGLM-NH2 |
+| Length | 11 amino acids |
+| Molecular Weight | 1347.6 Da |
 
-## Applications
+| Category | Tachykinin |
 
-Substance P → ACE (Substrate) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Gq-coupled; activates phospholipase C, increases IP3/DAG, Ca2+ mobilization
+
+
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

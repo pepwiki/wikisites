@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Triptorelin Pamoate
+
 ## Overview
 
-Triptorelin Pamoate is a peptide compound with applications in research and therapeutics. 
-
+Triptorelin Pamoate is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Triptorelin Pamoate belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Triptorelin Pamoate |
+| Sequence | 5-oxoPro-His-Trp-Ser-Tyr-D-Trp-Leu-Arg-Pro-Gly-NH2 (pamoate salt) |
+| Length | 10 amino acids |
+| Molecular Weight | 1311 Da (peptide only) |
 
-## Applications
+| Category | Oncology / GnRH Agonist |
 
-Triptorelin Pamoate has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+GnRH receptor agonist; pamoate salt enables extended-release formulation
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

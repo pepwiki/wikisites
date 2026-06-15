@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Cerliponase Alfa
+
 ## Overview
 
-Cerliponase Alfa is a peptide compound with applications in research and therapeutics. 
-
+Cerliponase Alfa is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Cerliponase Alfa belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Cerliponase Alfa |
+| Sequence | Recombinant human tripeptidyl peptidase 1 (TPP1) |
+| Length | ~367 amino acids (mature enzyme) |
+| Molecular Weight | ~46 kDa |
 
-## Applications
+| Category | Rare Disease / Enzyme Replacement Therapy |
 
-Cerliponase Alfa has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Enzyme replacement therapy; TPP1 delivered directly to CNS via intraventricular infusion to catabolize lysosomal storage material in neurons
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Nematode Excretory Peptides
+
 ## Overview
 
-Nematode Excretory Peptides is a peptide compound with applications in research and therapeutics. 
-
+Nematode Excretory Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Parasitic nematodes (Strongylus, Ancylostoma, Toxocara).
 
 
 ## Structure
 
-Nematode Excretory Peptides belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Nematode Excretory Peptides |
+| Sequence | Complex mixture including protease inhibitors and signaling peptides |
+| Length | 8-100 amino acids (varies) |
+| Molecular Weight | 800-12000 Da |
+| Source | Parasitic nematodes (Strongylus, Ancylostoma, Toxocara) |
+| Category | Nematode Parasitic / Excretory |
 
-## Applications
+## Mechanism of Action
 
-Nematode Excretory Peptides has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Protease inhibition, anticoagulant activity, immune modulation, complement evasion
+
+## Bioactivity
+
+Facilitates blood feeding, immune evasion, and tissue migration
+
+## Therapeutic Potential
+
+Anti-inflammatory drug leads, anticoagulant candidates, vaccine targets
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-09-10
 tags: ["gastrin", "GI peptides", "gastric acid", "G cells", "Zollinger-Ellison"]
-category: "GI Peptides"
+category: "Gastrointestinal Peptides"
 difficulty: "intermediate"
 relatedArticles: ["cholecystokinin", "secretin", "glp-1"]
 citation:

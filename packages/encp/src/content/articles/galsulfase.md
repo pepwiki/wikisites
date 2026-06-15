@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Galsulfase
+
 ## Overview
 
-Galsulfase is a peptide compound with applications in research and therapeutics. 
-
+Galsulfase is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Galsulfase belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Galsulfase |
+| Sequence | Recombinant human N-acetylgalactosamine 4-sulfatase (arylsulfatase B) |
+| Length | ~502 amino acids |
+| Molecular Weight | ~56 kDa (glycosylated) |
 
-## Applications
+| Category | Rare Disease / Enzyme Replacement Therapy |
 
-Galsulfase has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Enzyme replacement; provides arylsulfatase B to degrade dermatan sulfate
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Belzutifan
+
 ## Overview
 
-Belzutifan is a peptide compound with applications in research and therapeutics. 
-
+Belzutifan is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Belzutifan belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Belzutifan |
+| Sequence | Small molecule HIF-2α inhibitor |
+| Length | Small molecule |
+| Molecular Weight | ~382 Da |
 
-## Applications
+| Category | Oncology / HIF-2α Inhibitor |
 
-Belzutifan has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Selectively inhibits HIF-2α, blocking transcription of VEGF, PDGF, and other hypoxia-response genes in VHL-deficient tumors
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

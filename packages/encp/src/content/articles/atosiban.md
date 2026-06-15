@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Atosiban
+
 ## Overview
 
-Atosiban is a peptide compound with applications in research and therapeutics. 
-
+Atosiban is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Atosiban belongs to the Therapeutic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Atosiban |
+| Sequence | Mpa-D-Tyr(Et)-Ile-Thr-Asn-Cys-Pro-Orn-Gly-NH2 (cyclic) |
+| Length | 9 amino acids |
+| Molecular Weight | 994 Da |
 
-## Applications
+| Category | Reproductive / Oxytocin Antagonist |
 
-Atosiban has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Oxytocin receptor antagonist
+
+
 
 ## References
 
-- Source: therapeutic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

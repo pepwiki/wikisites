@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# NLP-3 (C. elegans)
+
 ## Overview
 
-NLP-3 (C. elegans) is a peptide compound with applications in research and therapeutics. 
-
+NLP-3 (C. elegans) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans.
 
 
 ## Structure
 
-NLP-3 (C. elegans) belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | NLP-3 (C. elegans) |
+| Sequence | SAADEFAKQMEAAASKLAA |
+| Length | 19 amino acids |
+| Molecular Weight | 1960 Da |
+| Source | Caenorhabditis elegans |
+| Category | Nematode Neuropeptide / NLP |
 
-## Applications
+## Mechanism of Action
 
-NLP-3 (C. elegans) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Modulates pharyngeal pumping rate and feeding behavior
+
+## Bioactivity
+
+Regulation of feeding, energy homeostasis, and growth
+
+## Therapeutic Potential
+
+Target for anti-parasitic feeding disruption
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

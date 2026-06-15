@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Nematicidal Peptides
+
 ## Overview
 
-Nematicidal Peptides is a peptide compound with applications in research and therapeutics. 
-
+Nematicidal Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Various nematode-associated bacteria and fungi.
 
 
 ## Structure
 
-Nematicidal Peptides belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Nematicidal Peptides |
+| Sequence | Diverse sequences including cyclic lipopeptides and linear peptides |
+| Length | 10-50 amino acids (varies) |
+| Molecular Weight | 1000-5500 Da |
+| Source | Various nematode-associated bacteria and fungi |
+| Category | Nematode Antifungal / Nematicidal |
 
-## Applications
+## Mechanism of Action
 
-Nematicidal Peptides has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Cuticle disruption, neurotoxicity, feeding inhibition, pore formation in nematode tissues
+
+## Bioactivity
+
+Nematicidal activity against plant-parasitic and free-living nematodes
+
+## Therapeutic Potential
+
+Biological nematicide development, agricultural pest control
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-10-28
 tags: ["natriuretic-peptide", "heart-failure", "cardiac", "biomarker", "npr-a"]
-category: "Cardiac Peptides"
+category: "Cardiovascular"
 difficulty: "intermediate"
 relatedArticles: ["anp", "nt-probnp", "cnp"]
 citation:

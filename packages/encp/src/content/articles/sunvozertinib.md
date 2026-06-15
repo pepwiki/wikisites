@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Sunvozertinib
+
 ## Overview
 
-Sunvozertinib is a peptide compound with applications in research and therapeutics. 
-
+Sunvozertinib is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Sunvozertinib belongs to the Synthetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Sunvozertinib |
+| Sequence | Cyclic peptide-EGFR inhibitor hybrid |
+| Length | ~8 residues |
+| Molecular Weight | ~900 Da |
 
-## Applications
+| Category | Cyclic Peptides |
 
-Sunvozertinib has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Covalent and non-covalent inhibition of EGFR kinase activity, active against resistant EGFR mutants
+
+
 
 ## References
 
-- Source: synthetic-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

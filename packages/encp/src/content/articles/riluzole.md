@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Riluzole
+
 ## Overview
 
-Riluzole is a peptide compound with applications in research and therapeutics. 
-
+Riluzole is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Synthetic (inspired by marine pharmacology).
 
 
 ## Structure
 
-Riluzole belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Riluzole |
 
-## Applications
+| Length | N/A (small molecule) |
+| Molecular Weight | 234.20 Da |
+| Source | Synthetic (inspired by marine pharmacology) |
+| Category | Marine-Inspired Drug (Approved) |
 
-Riluzole has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Inhibits glutamate release, blocks Nav channels, neuroprotective
+
+## Bioactivity
+
+Neuroprotective, anti-excitotoxic
+
+## Therapeutic Potential
+
+Approved for ALS, investigated for anxiety disorders
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Exenatide (Exendin-4)
+
 ## Overview
 
-Exenatide (Exendin-4) is a peptide compound with applications in research and therapeutics. 
-
+Exenatide (Exendin-4) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Exenatide (Exendin-4) belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Exenatide (Exendin-4) |
+| Sequence | HGEGTFTSDLSKQMEEEAVRLFIEWLKNGGPSSGAPPPS |
 
-## Applications
+| Molecular Weight | 4187 Da |
 
-Exenatide (Exendin-4) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Metabolic / GLP-1 Agonist |
+
+## Mechanism of Action
+
+GLP-1 receptor agonist; resistant to DPP-4 degradation due to Ala at position 2
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

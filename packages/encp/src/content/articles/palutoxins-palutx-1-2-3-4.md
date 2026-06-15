@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ["sodium-channel-activator-(spider-toxin)","peptide","oligopeptide"]
-category: "Sodium channel activator (spider toxin)"
+category: "Toxin Peptides"
 difficulty: "intermediate"
 relatedArticles: []
 ---

@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Membrane Filtration
+
 ## Overview
 
-Membrane Filtration is a peptide compound with applications in research and therapeutics. 
+Membrane Filtration is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Membrane Filtration belongs to the Peptide Manufacturing class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Membrane Filtration has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-manufacturing.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Latanoprost
+
 ## Overview
 
-Latanoprost is a peptide compound with applications in research and therapeutics. 
-
+Latanoprost is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Latanoprost belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Latanoprost |
+| Sequence | N/A (PGF2alpha isopropyl ester prodrug) |
+| Length | Prostaglandin analog (not a peptide) |
+| Molecular Weight | 432 Da |
 
-## Applications
+| Category | Ophthalmology / Prostaglandin Analog (peptide-adjacent) |
 
-Latanoprost has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+FP prostanoid receptor agonist; increases uveoscleral outflow
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

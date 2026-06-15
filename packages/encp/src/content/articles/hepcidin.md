@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Hepcidin
+
 ## Overview
 
-Hepcidin is a peptide compound with applications in research and therapeutics. 
-
+Hepcidin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Channel catfish (Ictalurus punctatus).
 
 
 ## Structure
 
-Hepcidin belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Hepcidin |
+| Sequence | Disulfide-rich peptide with 8 cysteine residues forming 4 disulfide bonds |
+| Length | 25 amino acids (mature form) |
+| Molecular Weight | 2788.2 Da |
+| Source | Channel catfish (Ictalurus punctatus) |
+| Category | Fish Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Hepcidin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Beta-sheet defensin-like structure; disrupts bacterial membranes and regulates iron homeostasis
+
+## Bioactivity
+
+Antimicrobial activity, iron regulation, innate immune response modulation
+
+## Therapeutic Potential
+
+Iron disorder therapeutics, antimicrobial agents, aquaculture health management
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

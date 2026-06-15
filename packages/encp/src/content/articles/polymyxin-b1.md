@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Polymyxin B1
+
 ## Overview
 
-Polymyxin B1 is a peptide compound with applications in research and therapeutics. 
-
+Polymyxin B1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bacillus polymyxa (marine-associated).
 
 
 ## Structure
 
-Polymyxin B1 belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Polymyxin B1 |
 
-## Applications
+| Length | 10 amino acids |
+| Molecular Weight | 1203.5 Da |
+| Source | Bacillus polymyxa (marine-associated) |
+| Category | Marine Antibiotic / Anti-Cancer |
 
-Polymyxin B1 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Disrupts membrane integrity via LPS binding, forms pores
+
+## Bioactivity
+
+Antibacterial, membrane disruption, anti-cancer potential
+
+## Therapeutic Potential
+
+Gram-negative infections, cancer cell membrane disruption
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Collagen Peptides (Marine)
+
 ## Overview
 
-Collagen Peptides (Marine) is a peptide compound with applications in research and therapeutics. 
-
+Collagen Peptides (Marine) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Gadus (cod), Thunnus (tuna), Oreochromis (tilapia).
 
 
 ## Structure
 
-Collagen Peptides (Marine) belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Collagen Peptides (Marine) |
 
-## Applications
+| Length | Variable (2-20 kDa fragments) |
+| Molecular Weight | 2,000-20,000 Da |
+| Source | Gadus (cod), Thunnus (tuna), Oreochromis (tilapia) |
+| Category | Marine Cosmetic Peptide |
 
-Collagen Peptides (Marine) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Stimulates collagen synthesis, improves skin hydration and elasticity
+
+## Bioactivity
+
+Anti-aging, wound healing, UV protection
+
+## Therapeutic Potential
+
+Cosmeceuticals, skin rejuvenation, joint health
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

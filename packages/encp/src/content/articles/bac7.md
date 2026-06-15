@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Bac7
+
 ## Overview
 
-Bac7 is a peptide compound with applications in research and therapeutics. 
-
+Bac7 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bos taurus (Cattle).
 
 
 ## Structure
 
-Bac7 belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Bac7 |
+| Sequence | RRIRPRPPRLPRPRPRPLPFPRPGPRPIPRPLPFPRPGPRPIPRPL |
+| Length | 59 amino acids |
+| Molecular Weight | 7029.4 Da |
+| Source | Bos taurus (Cattle) |
+| Category | Bovine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Bac7 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Extended proline-rich peptide, translocates into bacterial cells and inhibits protein synthesis
+
+## Bioactivity
+
+Potent activity against Gram-negative bacteria including E. coli and Salmonella
+
+## Therapeutic Potential
+
+Anti-infective for Gram-negative infections, food preservation
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

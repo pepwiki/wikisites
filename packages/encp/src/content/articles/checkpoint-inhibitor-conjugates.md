@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Checkpoint Inhibitor Conjugates
+
 ## Overview
 
-Checkpoint Inhibitor Conjugates is a peptide compound with applications in research and therapeutics. 
-
+Checkpoint Inhibitor Conjugates is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Checkpoint Inhibitor Conjugates belongs to the Peptide Drug Conjugates class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Checkpoint Inhibitor Conjugates |
 
-## Applications
 
-Checkpoint Inhibitor Conjugates has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Molecular Weight | ~2000-4000 Da |
+
+| Category | Immunomodulatory / Checkpoint Modulator |
+
+## Mechanism of Action
+
+PD-L1-targeting peptide delivers immunostimulant to tumor microenvironment; combined checkpoint blockade and immune activation enhances anti-tumor T cell response
+
+
 
 ## References
 
-- Source: peptide-drug-conjugates.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

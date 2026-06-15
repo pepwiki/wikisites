@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Eggshell Matrix Peptides
+
 ## Overview
 
-Eggshell Matrix Peptides is a peptide compound with applications in research and therapeutics. 
+Eggshell Matrix Peptides is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Eggshell Matrix Peptides belongs to the Bird Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Eggshell Matrix Peptides has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: bird-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

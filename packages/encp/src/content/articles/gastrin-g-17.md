@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Gastrin (G-17)
+
 ## Overview
 
-Gastrin (G-17) is a peptide compound with applications in research and therapeutics. 
-
+Gastrin (G-17) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Gastrin (G-17) belongs to the Neuropeptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Gastrin (G-17) |
+| Sequence | QGPWL EEEEEAYGWMDF-NH2 |
+| Length | 17 amino acids |
+| Molecular Weight | 2098.3 Da |
 
-## Applications
+| Category | Cholecystokinin family / Gut hormone |
 
-Gastrin (G-17) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Gq-coupled; activates PLC, IP3/DAG, intracellular Ca2+ release
+
+
 
 ## References
 
-- Source: neuropeptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

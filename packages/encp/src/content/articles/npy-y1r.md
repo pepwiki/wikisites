@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# NPY → Y1R
+
 ## Overview
 
-NPY → Y1R is a peptide compound with applications in research and therapeutics. 
+NPY → Y1R is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-NPY → Y1R belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+NPY binds Y1R (class A GPCR), activating Gαi/o → inhibits adenylyl cyclase → reduces cAMP. Also modulates Ca2+ channels and K+ channels. Stimulates appetite (orexigenic effect), vasoconstriction, and anxiolysis.
 
-## Applications
 
-NPY → Y1R has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

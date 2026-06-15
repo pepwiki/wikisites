@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Canine Serum Peptide
+
 ## Overview
 
-Canine Serum Peptide is a peptide compound with applications in research and therapeutics. 
-
+Canine Serum Peptide is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Canis lupus familiaris (Dog).
 
 
 ## Structure
 
-Canine Serum Peptide belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Canine Serum Peptide |
+| Sequence | GYCACRRRFCIGGGSCCRRYCVCLR |
+| Length | 20 amino acids |
+| Molecular Weight | 2280.7 Da |
+| Source | Canis lupus familiaris (Dog) |
+| Category | Canine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Canine Serum Peptide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Serum-derived antimicrobial peptide, membrane disruption
+
+## Bioactivity
+
+Antimicrobial activity in serum
+
+## Therapeutic Potential
+
+Systemic anti-infective
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

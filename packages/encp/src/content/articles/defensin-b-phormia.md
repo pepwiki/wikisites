@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Defensin B (Phormia)
+
 ## Overview
 
-Defensin B (Phormia) is a peptide compound with applications in research and therapeutics. 
-
+Defensin B (Phormia) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Phormia regina (black blowfly).
 
 
 ## Structure
 
-Defensin B (Phormia) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Defensin B (Phormia) |
+| Sequence | ATCDLLSGTGINHSACAAHCLLRGNRGGYCNGKGVCVCRN (isoform) |
+| Length | 40 amino acids |
+| Molecular Weight | 4050 Da |
+| Source | Phormia regina (black blowfly) |
+| Category | Insect Defensin / Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Defensin B (Phormia) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane permeabilization, forms voltage-dependent channels
+
+## Bioactivity
+
+Antimicrobial activity against Gram-positive and some Gram-negative bacteria
+
+## Therapeutic Potential
+
+Antimicrobial drug development, anti-infective coatings
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

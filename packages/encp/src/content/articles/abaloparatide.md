@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Abaloparatide
+
 ## Overview
 
-Abaloparatide is a peptide compound with applications in research and therapeutics. 
-
+Abaloparatide is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Abaloparatide belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Abaloparatide |
+| Sequence | AVSEHQLLHDKGKSIQDLRRRFFEHLKNIITHT-NH2 |
 
-## Applications
+| Molecular Weight | 3961 Da |
 
-Abaloparatide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Musculoskeletal / Anabolic Bone Agent |
+
+## Mechanism of Action
+
+PTHR1 agonist; preferentially activates anabolic (RG) signaling pathway
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

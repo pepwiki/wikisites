@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Hypotensin (Polybia)
+
 ## Overview
 
-Hypotensin (Polybia) is a peptide compound with applications in research and therapeutics. 
-
+Hypotensin (Polybia) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Polybia paulista (neotropical social wasp).
 
 
 ## Structure
 
-Hypotensin (Polybia) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Hypotensin (Polybia) |
+| Sequence | IDWKKVWDKIAKamide |
+| Length | 13 amino acids |
+| Molecular Weight | 1630 Da |
+| Source | Polybia paulista (neotropical social wasp) |
+| Category | Venom Peptide / Hypotensive |
 
-## Applications
+## Mechanism of Action
 
-Hypotensin (Polybia) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Acts as bradykinin-potentiating peptide, inhibits ACE, vasodilation
+
+## Bioactivity
+
+Hypotensive, antihypertensive, bradykinin-like activity
+
+## Therapeutic Potential
+
+Antihypertensive drug lead (similar to ACE inhibitor mechanism)
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

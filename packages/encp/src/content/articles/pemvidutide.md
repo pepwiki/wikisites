@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Pemvidutide
+
 ## Overview
 
-Pemvidutide is a peptide compound with applications in research and therapeutics. 
-
+Pemvidutide is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Pemvidutide belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Pemvidutide |
+| Sequence | Balanced GLP-1/glucagon dual agonist peptide conjugated to a fatty diacid |
+| Length | ~29 amino acids |
+| Molecular Weight | ~4.3 kDa |
 
-## Applications
+| Category | Metabolic / GLP-1/Glucagon Dual Agonist |
 
-Pemvidutide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Balanced GLP-1/glucagon receptor dual agonist; promotes weight loss via appetite suppression and increased energy expenditure
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

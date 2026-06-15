@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ["drug","peptide","oligopeptide"]
-category: "drug"
+category: "Drug Development"
 difficulty: "intermediate"
 relatedArticles: []
 ---

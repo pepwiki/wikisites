@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Fibroin Heavy Chain (Bombyx)
+
 ## Overview
 
-Fibroin Heavy Chain (Bombyx) is a peptide compound with applications in research and therapeutics. 
-
+Fibroin Heavy Chain (Bombyx) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bombyx mori (silkworm).
 
 
 ## Structure
 
-Fibroin Heavy Chain (Bombyx) belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Fibroin Heavy Chain (Bombyx) |
+| Sequence | Repetitive (GAGAGS)n blocks with (GAGAGY)n and spacers |
+| Length | 5263 amino acids |
+| Molecular Weight | 391000 Da |
+| Source | Bombyx mori (silkworm) |
+| Category | Silk Protein / Structural |
 
-## Applications
+## Mechanism of Action
 
-Fibroin Heavy Chain (Bombyx) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Self-assembles into beta-sheet crystallites via hydrophobic interactions and hydrogen bonding
+
+## Bioactivity
+
+Mechanical strength (tensile strength ~740 MPa), biocompatibility
+
+## Therapeutic Potential
+
+Biomaterial scaffolds, tissue engineering, drug delivery matrices, surgical sutures
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

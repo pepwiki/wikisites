@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Lisinopril
+
 ## Overview
 
-Lisinopril is a peptide compound with applications in research and therapeutics. 
-
+Lisinopril is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Lisinopril belongs to the Therapeutic Peptides Expanded class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Lisinopril |
+| Sequence | N/A (peptide-derived: N2-[(S)-1-carboxy-3-phenylpropyl]-L-lysyl-L-proline) |
+| Length | Tripeptide derivative |
+| Molecular Weight | 405 Da |
 
-## Applications
+| Category | Cardiovascular / ACE Inhibitor (peptide-derived) |
 
-Lisinopril has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+ACE inhibitor (lysine analog of enalaprilat)
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

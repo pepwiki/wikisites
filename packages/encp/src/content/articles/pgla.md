@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# PGLa
+
 ## Overview
 
-PGLa is a peptide compound with applications in research and therapeutics. 
-
+PGLa is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Xenopus laevis.
 
 
 ## Structure
 
-PGLa belongs to the Amphibian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | PGLa |
+| Sequence | GMASKAGAIAGKIAKVALKAL |
+| Length | 21 amino acids |
+| Molecular Weight | 2016.4 Da |
+| Source | Xenopus laevis |
+| Category | Amphibian Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-PGLa has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane disruption via barrel-stave or toroidal pore mechanism, synergistic with magainins
+
+## Bioactivity
+
+Antimicrobial against bacteria and fungi, membrane permeabilization
+
+## Therapeutic Potential
+
+Combination therapies with other AMPs, topical anti-infectives
 
 ## References
 
-- Source: amphibian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

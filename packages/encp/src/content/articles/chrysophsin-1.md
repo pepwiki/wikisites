@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Chrysophsin 1
+
 ## Overview
 
-Chrysophsin 1 is a peptide compound with applications in research and therapeutics. 
-
+Chrysophsin 1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Red sea bream (Chrysophrys major).
 
 
 ## Structure
 
-Chrysophsin 1 belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Chrysophsin 1 |
+| Sequence | FFGWLIKGAIHAGKAIHGLIHRRRH |
+| Length | 25 amino acids |
+| Molecular Weight | 2890.4 Da |
+| Source | Red sea bream (Chrysophrys major) |
+| Category | Fish Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Chrysophsin 1 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+C-terminal amidated alpha-helical peptide; forms pores in bacterial membranes; histidine-rich region enhances activity
+
+## Bioactivity
+
+Broad-spectrum antimicrobial activity, effective at physiological salt concentrations
+
+## Therapeutic Potential
+
+Systemic anti-infectives, aquaculture therapeutics, food safety applications
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

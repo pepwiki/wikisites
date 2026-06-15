@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Neosaxitoxin
+
 ## Overview
 
-Neosaxitoxin is a peptide compound with applications in research and therapeutics. 
-
+Neosaxitoxin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Anabaena circinalis, Alexandrium spp..
 
 
 ## Structure
 
-Neosaxitoxin belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Neosaxitoxin |
 
-## Applications
+| Length | N/A |
+| Molecular Weight | 315.29 Da |
+| Source | Anabaena circinalis, Alexandrium spp. |
+| Category | Marine Toxin / Analgesic |
 
-Neosaxitoxin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Pore blocker - site 1 binding, blocks Na+ conductance
+
+## Bioactivity
+
+Paralytic shellfish poisoning, local anesthetic
+
+## Therapeutic Potential
+
+Local anesthesia, pain management (clinical trials in Chile)
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Casocidin
+
 ## Overview
 
-Casocidin is a peptide compound with applications in research and therapeutics. 
-
+Casocidin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bos taurus (Cattle).
 
 
 ## Structure
 
-Casocidin belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Casocidin |
+| Sequence | YQEPVLGPVRGPFPIIV |
+| Length | 17 amino acids |
+| Molecular Weight | 1857.2 Da |
+| Source | Bos taurus (Cattle) |
+| Category | Bovine Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Casocidin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Casein-derived peptide, disrupts bacterial membrane through electrostatic interactions
+
+## Bioactivity
+
+Antimicrobial against Gram-positive and Gram-negative bacteria
+
+## Therapeutic Potential
+
+Natural food preservative, infant formula supplementation, anti-infective
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

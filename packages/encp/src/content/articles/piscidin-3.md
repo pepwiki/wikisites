@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Piscidin 3
+
 ## Overview
 
-Piscidin 3 is a peptide compound with applications in research and therapeutics. 
-
+Piscidin 3 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hybrid striped bass (Morone saxatilis x M. chrysops).
 
 
 ## Structure
 
-Piscidin 3 belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Piscidin 3 |
+| Sequence | FIHHIHRGIVHAGRSIHRLVTG |
+| Length | 22 amino acids |
+| Molecular Weight | 2566.9 Da |
+| Source | Hybrid striped bass (Morone saxatilis x M. chrysops) |
+| Category | Fish Antimicrobial |
 
-## Applications
+## Mechanism of Action
 
-Piscidin 3 has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Dual mechanism: membrane disruption and intracellular target binding; translocates into cells
+
+## Bioactivity
+
+Broad-spectrum antimicrobial with reduced hemolytic activity compared to piscidin 1
+
+## Therapeutic Potential
+
+Systemic antimicrobial therapy, reduced toxicity therapeutics
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Efrapeptin
+
 ## Overview
 
-Efrapeptin is a peptide compound with applications in research and therapeutics. 
-
+Efrapeptin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Tolypocladium inflatum.
 
 
 ## Structure
 
-Efrapeptin belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Efrapeptin |
 
-## Applications
+| Length | ~16 amino acids |
+| Molecular Weight | 1679.0 Da |
+| Source | Tolypocladium inflatum |
+| Category | Count |
 
-Efrapeptin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Inhibits F1 subunit of ATP synthase; blocks ATP hydrolysis and synthesis
+
+## Bioactivity
+
+ATPase inhibitor, cytotoxic, anti-cancer
+
+## Therapeutic Potential
+
+Anti-cancer agent (targets tumor metabolism); mitochondrial research tool
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

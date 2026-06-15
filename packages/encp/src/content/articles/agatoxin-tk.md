@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# ω-Agatoxin TK
+
 ## Overview
 
-ω-Agatoxin TK is a peptide compound with applications in research and therapeutics. 
+ω-Agatoxin TK is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-ω-Agatoxin TK belongs to the Venom Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-ω-Agatoxin TK has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: venom-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Legumin
+
 ## Overview
 
-Legumin is a peptide compound with applications in research and therapeutics. 
-
+Legumin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Glycine max (Soybean).
 
 
 ## Structure
 
-Legumin belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Legumin |
+| Sequence | Complex hexameric protein (multiple subunits) |
+| Length | ~400-500 amino acids per subunit |
+| Molecular Weight | ~330,000-400,000 Da (hexamer) |
+| Source | Glycine max (Soybean) |
+| Category | Plant Storage Peptides |
 
-## Applications
+## Mechanism of Action
 
-Legumin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Nitrogen and amino acid reservoir for germination
+
+## Bioactivity
+
+Nutritional storage protein
+
+## Therapeutic Potential
+
+Plant-based protein nutrition, food fortification, biodegradable materials
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

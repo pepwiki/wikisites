@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Salmon Calcitonin
+
 ## Overview
 
-Salmon Calcitonin is a peptide compound with applications in research and therapeutics. 
-
+Salmon Calcitonin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Salmon (Oncorhynchus spp.).
 
 
 ## Structure
 
-Salmon Calcitonin belongs to the Fish Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Salmon Calcitonin |
+| Sequence | CSNLSTCVLGKLSQELHKLQTYPRTNTGSGTP |
+| Length | 32 amino acids |
+| Molecular Weight | 3431.9 Da |
+| Source | Salmon (Oncorhynchus spp.) |
+| Category | Fish Peptide Hormone |
 
-## Applications
+## Mechanism of Action
 
-Salmon Calcitonin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Inhibits osteoclast-mediated bone resorption; increases renal calcium excretion; activates cAMP signaling
+
+## Bioactivity
+
+Calcium-lowering hormone, bone resorption inhibitor, analgesic effects
+
+## Therapeutic Potential
+
+Osteoporosis treatment (marketed as Miacalcin), Paget's disease, hypercalcemia, bone pain management
 
 ## References
 
-- Source: fish-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

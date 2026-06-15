@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ["purification","peptide","oligopeptide"]
-category: "Purification"
+category: "Peptide Manufacturing"
 difficulty: "intermediate"
 relatedArticles: []
 ---

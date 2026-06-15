@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# INS-8 (C. elegans)
+
 ## Overview
 
-INS-8 (C. elegans) is a peptide compound with applications in research and therapeutics. 
-
+INS-8 (C. elegans) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans.
 
 
 ## Structure
 
-INS-8 (C. elegans) belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | INS-8 (C. elegans) |
+| Sequence | MVKIYIFIFVLIIQHAQPIFNRLCGSHLVELYYLCGDKGFFRNKICGSRLVNLWNQ |
+| Length | 57 amino acids |
+| Molecular Weight | 6450 Da |
+| Source | Caenorhabditis elegans |
+| Category | Nematode Insulin-like Peptide |
 
-## Applications
+## Mechanism of Action
 
-INS-8 (C. elegans) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Modulates insulin signaling in response to pathogen exposure
+
+## Bioactivity
+
+Integration of immune and metabolic signaling
+
+## Therapeutic Potential
+
+Immunometabolism research, anti-parasitic target
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

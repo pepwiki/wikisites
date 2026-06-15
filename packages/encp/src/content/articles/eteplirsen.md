@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Eteplirsen
+
 ## Overview
 
-Eteplirsen is a peptide compound with applications in research and therapeutics. 
-
+Eteplirsen is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Eteplirsen belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Eteplirsen |
+| Sequence | Phosphorodiamidate morpholino oligomer (PMO), 30-mer antisense oligonucleotide |
+| Length | 30 nucleotides (morpholino chemistry) |
+| Molecular Weight | ~10.3 kDa |
 
-## Applications
+| Category | Rare Disease / Antisense Oligonucleotide |
 
-Eteplirsen has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Antisense oligonucleotide binds exon 51 of dystrophin pre-mRNA, inducing exon skipping during splicing to restore the reading frame and produce truncated dystrophin
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

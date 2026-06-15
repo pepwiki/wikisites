@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Diuretic Hormone
+
 ## Overview
 
-Diuretic Hormone is a peptide compound with applications in research and therapeutics. 
-
+Diuretic Hormone is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Manduca sexta (tobacco hornworm).
 
 
 ## Structure
 
-Diuretic Hormone belongs to the Insect Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Diuretic Hormone |
+| Sequence | TGSGPSLSIVNPLDVLKRQILLESAARTARKLQKEIHAamide (41 amino acid form) |
+| Length | 41 amino acids |
+| Molecular Weight | 4550 Da |
+| Source | Manduca sexta (tobacco hornworm) |
+| Category | Insect Hormone / Homeostasis |
 
-## Applications
+## Mechanism of Action
 
-Diuretic Hormone has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Activates cAMP/PKA signaling, stimulates fluid secretion in Malpighian tubules
+
+## Bioactivity
+
+Promotes water excretion and ion transport, regulates hemolymph volume
+
+## Therapeutic Potential
+
+Comparative physiology research, insect-specific diuretic targets
 
 ## References
 
-- Source: insect-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

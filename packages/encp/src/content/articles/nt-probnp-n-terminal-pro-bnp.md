@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# NT-proBNP (N-Terminal Pro-BNP)
+
 ## Overview
 
-NT-proBNP (N-Terminal Pro-BNP) is a peptide compound with applications in research and therapeutics. 
+NT-proBNP (N-Terminal Pro-BNP) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-NT-proBNP (N-Terminal Pro-BNP) belongs to the Biomarker Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-NT-proBNP (N-Terminal Pro-BNP) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: biomarker-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Phallacidin
+
 ## Overview
 
-Phallacidin is a peptide compound with applications in research and therapeutics. 
-
+Phallacidin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Amanita phalloides (Death Cap).
 
 
 ## Structure
 
-Phallacidin belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Phallacidin |
 
-## Applications
+| Length | 7 amino acids |
+| Molecular Weight | 846.93 Da |
+| Source | Amanita phalloides (Death Cap) |
+| Category | Fungal Cyclopeptide / Toxin |
 
-Phallacidin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Stabilizes F-actin polymers, preventing treadmilling and depolymerization
+
+## Bioactivity
+
+Cytotoxin, actin-stabilizing agent
+
+## Therapeutic Potential
+
+Cell biology research tool; actin cytoskeleton studies
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Semorinemab
+
 ## Overview
 
-Semorinemab is a peptide compound with applications in research and therapeutics. 
-
+Semorinemab is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Semorinemab belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Semorinemab |
+| Sequence | Humanized IgG4 monoclonal antibody targeting N-terminal region of tau protein |
+| Length | ~1325 amino acids |
+| Molecular Weight | ~147 kDa |
 
-## Applications
+| Category | Neurology / Anti-Tau Antibody |
 
-Semorinemab has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Binds tau protein (mid-region epitope, residues 6–23), inhibiting tau aggregation and reducing tau spreading between neurons (anti-seed antibody)
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

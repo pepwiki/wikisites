@@ -10,25 +10,21 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# GIP → DPP-4 (Substrate)
+
 ## Overview
 
-GIP → DPP-4 (Substrate) is a peptide compound with applications in research and therapeutics. 
+GIP → DPP-4 (Substrate) is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
+## Mechanism of Action
 
-GIP → DPP-4 (Substrate) belongs to the Peptide Interactions class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+DPP-4 cleaves N-terminal Tyr1-Ala2 dipeptide from GIP, producing GIP (3-42) which has greatly reduced receptor binding affinity. GIP normally acts via GIPR (class B GPCR) to stimulate insulin secretion in a glucose-dependent manner.
 
-## Applications
 
-GIP → DPP-4 (Substrate) has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: peptide-interactions.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

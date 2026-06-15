@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Clt A
+
 ## Overview
 
-Clt A is a peptide compound with applications in research and therapeutics. 
-
+Clt A is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Clitoria ternatea (Butterfly Pea).
 
 
 ## Structure
 
-Clt A belongs to the Plant Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Clt A |
+| Sequence | GVPVCGETCFGGTCNTPGCTCSWPVCTRN |
+| Length | 29 amino acids |
+| Molecular Weight | ~2,900 Da |
+| Source | Clitoria ternatea (Butterfly Pea) |
+| Category | Plant Cyclic Peptides |
 
-## Applications
+## Mechanism of Action
 
-Clt A has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Membrane permeabilization via cystine knot scaffold
+
+## Bioactivity
+
+Antimicrobial
+
+## Therapeutic Potential
+
+Antimicrobial therapeutics, nutraceutical applications
 
 ## References
 
-- Source: plant-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

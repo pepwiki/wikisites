@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Erenumab
+
 ## Overview
 
-Erenumab is a peptide compound with applications in research and therapeutics. 
-
+Erenumab is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Erenumab belongs to the Therapeutic Peptides Expanded 2 class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Erenumab |
+| Sequence | Fully human IgG2 monoclonal antibody targeting CGRP receptor |
+| Length | ~1340 amino acids |
+| Molecular Weight | ~150 kDa |
 
-## Applications
+| Category | Neurology / Anti-CGRP Receptor Antibody |
 
-Erenumab has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Blocks CGRP receptor (calcitonin receptor-like receptor/RAMP1 complex), inhibiting CGRP-mediated vasodilation, neurogenic inflammation, and pain signaling
+
+
 
 ## References
 
-- Source: therapeutic-peptides-expanded-2.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

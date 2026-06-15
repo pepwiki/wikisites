@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Pancreatic Polypeptide
+
 ## Overview
 
-Pancreatic Polypeptide is a peptide compound with applications in research and therapeutics. 
-
+Pancreatic Polypeptide is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Mammalian (widely conserved).
 
 
 ## Structure
 
-Pancreatic Polypeptide belongs to the Mammalian Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Pancreatic Polypeptide |
+| Sequence | APLEPVYPGDNATPEQMAQYAAELRRYINMLTRPRY |
+| Length | 36 amino acids |
+| Molecular Weight | 4230.8 Da |
+| Source | Mammalian (widely conserved) |
+| Category | Mammalian Neuropeptide |
 
-## Applications
+## Mechanism of Action
 
-Pancreatic Polypeptide has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Released by vagal stimulation and meals, acts on Y4 receptors to reduce appetite and gastric secretion
+
+## Bioactivity
+
+Anorexigenic, inhibits pancreatic secretion, slows gut motility
+
+## Therapeutic Potential
+
+Obesity therapeutics, appetite suppressants, metabolic regulation
 
 ## References
 
-- Source: mammalian-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

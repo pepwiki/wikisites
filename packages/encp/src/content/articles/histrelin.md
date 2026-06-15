@@ -10,25 +10,31 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Histrelin
+
 ## Overview
 
-Histrelin is a peptide compound with applications in research and therapeutics. 
-
+Histrelin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 ## Structure
 
-Histrelin belongs to the Peptide Analogs class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Histrelin |
+| Sequence | pGlu-His-Trp-Ser-D-His(Bzl)-Leu-Arg-Pro-NHEt |
 
-## Applications
+| Molecular Weight | 1323 Da |
 
-Histrelin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+| Category | Oncology/Endocrine / GnRH Agonist |
+
+## Mechanism of Action
+
+GnRH agonist; sustained gonadotropin suppression via subcutaneous implant
+
+
 
 ## References
 
-- Source: peptide-analogs.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

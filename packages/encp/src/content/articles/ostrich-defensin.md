@@ -10,25 +10,18 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Ostrich Defensin
+
 ## Overview
 
-Ostrich Defensin is a peptide compound with applications in research and therapeutics. 
+Ostrich Defensin is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
-## Structure
 
-Ostrich Defensin belongs to the Bird Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
-## Applications
-
-Ostrich Defensin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
 
 ## References
 
-- Source: bird-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

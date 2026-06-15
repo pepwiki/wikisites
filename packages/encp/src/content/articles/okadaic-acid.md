@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Okadaic Acid
+
 ## Overview
 
-Okadaic Acid is a peptide compound with applications in research and therapeutics. 
-
+Okadaic Acid is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Dinophysis acuminata.
 
 
 ## Structure
 
-Okadaic Acid belongs to the Marine Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Okadaic Acid |
 
-## Applications
+| Length | N/A |
+| Molecular Weight | 805.0 Da |
+| Source | Dinophysis acuminata |
+| Category | Marine Toxin / Research Tool |
 
-Okadaic Acid has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Specific inhibitor of serine/threonine phosphatases
+
+## Bioactivity
+
+Diarrhetic shellfish poisoning, tumor promoter
+
+## Therapeutic Potential
+
+Cancer research tool, phosphatase biology
 
 ## References
 
-- Source: marine-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

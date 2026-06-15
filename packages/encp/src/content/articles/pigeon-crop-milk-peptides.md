@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
 tags: ["avian-specialized-peptide","peptide","oligopeptide"]
-category: "Avian Specialized Peptide"
+category: "Specialized Peptides"
 difficulty: "intermediate"
 relatedArticles: []
 ---

@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Gyromitrin
+
 ## Overview
 
-Gyromitrin is a peptide compound with applications in research and therapeutics. 
-
+Gyromitrin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Gyromitra esculenta (False Morel).
 
 
 ## Structure
 
-Gyromitrin belongs to the Fungal Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Gyromitrin |
 
-## Applications
+| Length | N/A (small molecule) |
+| Molecular Weight | 114.15 Da |
+| Source | Gyromitra esculenta (False Morel) |
+| Category | Fungal Peptide Toxin / Neurotoxin |
 
-Gyromitrin has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+## Mechanism of Action
+
+Hydrolyzed to methylhydrazine; inhibits pyridoxal phosphate-dependent enzymes; blocks GABA synthesis
+
+## Bioactivity
+
+Neurotoxic, hepatotoxic (gyromitra syndrome)
+
+## Therapeutic Potential
+
+Research on GABA metabolism; pyridoxine deficiency studies
 
 ## References
 
-- Source: fungal-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

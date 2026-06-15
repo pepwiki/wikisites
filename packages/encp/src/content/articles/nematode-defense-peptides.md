@@ -10,25 +10,37 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Nematode Defense Peptides
+
 ## Overview
 
-Nematode Defense Peptides is a peptide compound with applications in research and therapeutics. 
-
+Nematode Defense Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans and related nematodes.
 
 
 ## Structure
 
-Nematode Defense Peptides belongs to the Worm Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+| Property | Value |
+|----------|-------|
+| Name | Nematode Defense Peptides |
+| Sequence | Including caenopore and saposin-like peptides |
+| Length | 30-80 amino acids (varies) |
+| Molecular Weight | 3000-9000 Da |
+| Source | Caenorhabditis elegans and related nematodes |
+| Category | Nematode Antimicrobial / Defense |
 
-## Applications
+## Mechanism of Action
 
-Nematode Defense Peptides has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Pore-forming antimicrobial peptides, disrupt lipid bilayers via saposin-like domains
+
+## Bioactivity
+
+Antimicrobial defense in intestinal lumen, protection from ingested pathogens
+
+## Therapeutic Potential
+
+Novel antimicrobial peptide templates, innate immunity research
 
 ## References
 
-- Source: worm-peptides.md
-- Database: Wikipept Peptide Database
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

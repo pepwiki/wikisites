@@ -5,7 +5,7 @@ status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-11-05
 tags: ["apelin", "APJ", "adipokine", "cardiovascular", "fluid-homeostasis"]
-category: "Adipokines"
+category: "Metabolic"
 difficulty: "intermediate"
 relatedArticles: ["resistin", "adiponectin", "leptin"]
 citation:
