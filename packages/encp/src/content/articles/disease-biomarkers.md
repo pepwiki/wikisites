@@ -1,10 +1,10 @@
 ---
 title: "Disease Biomarkers"
-description: "Comprehensive reference for Disease Biomarkers, a peptide compound with applications in research and therapeutics."
+description: "Collection of peptide biomarkers used across disease diagnosis, monitoring, and prognosis."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["peptide-applications","peptide","oligopeptide"]
+tags: ["peptide-applications", "peptide", "oligopeptide"]
 category: "Peptide Applications"
 difficulty: "intermediate"
 relatedArticles: []
@@ -15,11 +15,6 @@ relatedArticles: []
 ## Overview
 
 Disease Biomarkers is a bioactive peptide with well-characterized properties and therapeutic applications.
-
-
-
-
-
 
 ## References
 

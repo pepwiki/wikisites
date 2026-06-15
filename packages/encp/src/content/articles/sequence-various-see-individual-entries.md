@@ -1,10 +1,10 @@
 ---
-title: "**Sequence:** Various (see individual entries)"
-description: "**Sequence:** Various (see individual entries)"
+title: "Various (see individual entries)"
+description: "Comprehensive reference for Various (see individual entries), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["food-peptides","peptide","oligopeptide"]
+tags: ["food-peptides", "peptide", "oligopeptide"]
 category: "Food Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,10 +16,10 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **Sequence:** Various (see individual entries) |
-| Sequence | **Source:** Casein, whey, soy, fish, egg, plant proteins
+| Property | Value                                                    |
+| -------- | -------------------------------------------------------- |
+| Name     | **Sequence:** Various (see individual entries)           |
+| Sequence | **Source:** Casein, whey, soy, fish, egg, plant proteins |
 
 **Function:** ACE inhibition; antihypertensive
 
@@ -43,6 +43,7 @@ Structure-activity: C-terminal dipeptides with hydrophobic residues (Trp, Phe, T
 ## Applications
 
 **Sequence:** Various (see individual entries) has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

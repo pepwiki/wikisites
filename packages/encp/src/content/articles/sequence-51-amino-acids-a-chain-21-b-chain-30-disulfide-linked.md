@@ -1,10 +1,10 @@
 ---
-title: "**Sequence:** 51 amino acids (A-chain 21 + B-chain 30, disulfide-linked)"
-description: "**Sequence:** 31 amino acids (connecting peptide of proinsulin)"
+title: "51 amino acids (A-chain 21 + B-chain 30, disulfide-linked)"
+description: "Comprehensive reference for 51 amino acids (A-chain 21 + B-chain 30, disulfide-linked), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["biomarker-peptides","peptide","oligopeptide"]
+tags: ["biomarker-peptides", "peptide", "oligopeptide"]
 category: "Biomarker Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,10 +16,10 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **Sequence:** 51 amino acids (A-chain 21 + B-chain 30, disulfide-linked) |
-| Sequence | **Disease:** Diabetes mellitus (type 1, type 2); insulinoma; metabolic syndrome; insulin resistance; PCOS
+| Property | Value                                                                                                     |
+| -------- | --------------------------------------------------------------------------------------------------------- |
+| Name     | **Sequence:** 51 amino acids (A-chain 21 + B-chain 30, disulfide-linked)                                  |
+| Sequence | **Disease:** Diabetes mellitus (type 1, type 2); insulinoma; metabolic syndrome; insulin resistance; PCOS |
 
 **Clinical Use:** Insulinoma diagnosis (72h fast); C-peptide-based assessment of endogenous insulin; HOMA-IR calculation; insulin resistance screening
 
@@ -43,6 +43,7 @@ Exogenous insulin assays must distinguish from endogenous. Insulin analogs (lisp
 ## Applications
 
 **Sequence:** 51 amino acids (A-chain 21 + B-chain 30, disulfide-linked) has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

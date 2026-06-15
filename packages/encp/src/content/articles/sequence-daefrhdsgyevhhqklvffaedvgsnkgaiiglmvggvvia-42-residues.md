@@ -1,10 +1,10 @@
 ---
-title: "**Sequence:** DAEFRHDSGYEVHHQKLVFFAEDVGSNKGAIIGLMVGGVVIA (42 residues)"
-description: "**Sequence:** 140 amino acids (native unfolded)"
+title: "DAEFRHDSGYEVHHQKLVFFAEDVGSNKGAIIGLMVGGVVIA (42 residues)"
+description: "Comprehensive reference for DAEFRHDSGYEVHHQKLVFFAEDVGSNKGAIIGLMVGGVVIA (42 residues), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["biomarker-peptides","peptide","oligopeptide"]
+tags: ["biomarker-peptides", "peptide", "oligopeptide"]
 category: "Biomarker Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,10 +16,10 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **Sequence:** DAEFRHDSGYEVHHQKLVFFAEDVGSNKGAIIGLMVGGVVIA (42 residues) |
-| Sequence | **Disease:** Alzheimer's disease (AD); cerebral amyloid angiopathy
+| Property | Value                                                                  |
+| -------- | ---------------------------------------------------------------------- |
+| Name     | **Sequence:** DAEFRHDSGYEVHHQKLVFFAEDVGSNKGAIIGLMVGGVVIA (42 residues) |
+| Sequence | **Disease:** Alzheimer's disease (AD); cerebral amyloid angiopathy     |
 
 **Clinical Use:** CSF biomarker for AD diagnosis (ATN classification); amyloid PET correlation; clinical trial eligibility; blood-based screening (p-tau217/Aβ42 ratio)
 
@@ -43,6 +43,7 @@ Reduced CSF Aβ42 reflects brain amyloid deposition (sequestered in plaques). Co
 ## Applications
 
 **Sequence:** DAEFRHDSGYEVHHQKLVFFAEDVGSNKGAIIGLMVGGVVIA (42 residues) has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

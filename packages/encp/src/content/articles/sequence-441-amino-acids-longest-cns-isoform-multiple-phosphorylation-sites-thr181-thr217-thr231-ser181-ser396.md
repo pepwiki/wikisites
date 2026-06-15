@@ -1,10 +1,10 @@
 ---
-title: "**Sequence:** 441 amino acids (longest CNS isoform); multiple phosphorylation sites (Thr181, Thr217, Thr231, Ser181, Ser396)"
-description: "**Sequence:** 209 amino acids (PrP^C, normal cellular form); 208 amino acids after signal peptide cleavage"
+title: "441 amino acids (longest CNS isoform); multiple phosphorylation sites (Thr181, Thr217, Thr231, Ser181, Ser396)"
+description: "Comprehensive reference for 441 amino acids (longest CNS isoform); multiple phosphorylation sites (Thr181, Thr217, Thr231, Ser181, Ser396), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["biomarker-peptides","peptide","oligopeptide"]
+tags: ["biomarker-peptides", "peptide", "oligopeptide"]
 category: "Biomarker Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,10 +16,10 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **Sequence:** 441 amino acids (longest CNS isoform); multiple phosphorylation sites (Thr181, Thr217, Thr231, Ser181, Ser396) |
-| Sequence | **Disease:** Alzheimer's disease; frontotemporal dementia; traumatic brain injury (CTE)
+| Property | Value                                                                                                                        |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Name     | **Sequence:** 441 amino acids (longest CNS isoform); multiple phosphorylation sites (Thr181, Thr217, Thr231, Ser181, Ser396) |
+| Sequence | **Disease:** Alzheimer's disease; frontotemporal dementia; traumatic brain injury (CTE)                                      |
 
 **Clinical Use:** CSF p-tau for AD diagnosis (ATN staging); blood-based p-tau217 for screening; prediction of progression from MCI to AD; clinical trial enrichment
 
@@ -43,6 +43,7 @@ Phosphorylated tau reflects tangle pathology. p-tau217 shows highest accuracy am
 ## Applications
 
 **Sequence:** 441 amino acids (longest CNS isoform); multiple phosphorylation sites (Thr181, Thr217, Thr231, Ser181, Ser396) has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

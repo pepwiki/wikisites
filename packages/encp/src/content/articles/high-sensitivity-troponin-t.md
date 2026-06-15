@@ -1,10 +1,10 @@
 ---
 title: "High-Sensitivity Troponin T"
-description: "Comprehensive reference for High-Sensitivity Troponin T, a peptide compound with applications in research and therapeutics."
+description: "High-sensitivity cardiac biomarker for rapid rule-out of acute myocardial infarction."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["biomarkers-expanded","peptide","oligopeptide"]
+tags: ["biomarkers-expanded", "peptide", "oligopeptide"]
 category: "Biomarkers Expanded"
 difficulty: "intermediate"
 relatedArticles: []
@@ -15,11 +15,6 @@ relatedArticles: []
 ## Overview
 
 High-Sensitivity Troponin T is a bioactive peptide with well-characterized properties and therapeutic applications.
-
-
-
-
-
 
 ## References
 

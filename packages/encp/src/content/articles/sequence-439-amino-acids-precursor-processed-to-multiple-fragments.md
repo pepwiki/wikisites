@@ -1,10 +1,10 @@
 ---
-title: "**Sequence:** 439 amino acids (precursor processed to multiple fragments)"
-description: "**Sequence:** 237 amino acids (kallikrein-3, KLK3)"
+title: "439 amino acids (precursor processed to multiple fragments)"
+description: "Comprehensive reference for 439 amino acids (precursor processed to multiple fragments), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["biomarker-peptides","peptide","oligopeptide"]
+tags: ["biomarker-peptides", "peptide", "oligopeptide"]
 category: "Biomarker Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,10 +16,10 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **Sequence:** 439 amino acids (precursor processed to multiple fragments) |
-| Sequence | **Disease:** Neuroendocrine tumors (NETs); pheochromocytoma; small cell lung cancer; carcinoid syndrome
+| Property | Value                                                                                                   |
+| -------- | ------------------------------------------------------------------------------------------------------- |
+| Name     | **Sequence:** 439 amino acids (precursor processed to multiple fragments)                               |
+| Sequence | **Disease:** Neuroendocrine tumors (NETs); pheochromocytoma; small cell lung cancer; carcinoid syndrome |
 
 **Clinical Use:** Screening/diagnosis of NETs; monitoring treatment response; recurrence detection; prognostic in heart failure
 
@@ -43,6 +43,7 @@ Most widely used circulating NET marker. Secreted by neuroendocrine cells and co
 ## Applications
 
 **Sequence:** 439 amino acids (precursor processed to multiple fragments) has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

@@ -1,10 +1,10 @@
 ---
-title: "**Sequence:** Fragment of cross-linked fibrin (two D domains joined by cross-links)"
-description: "**Sequence:** 116 amino acids (precursor of calcitonin)"
+title: "Fragment of cross-linked fibrin (two D domains joined by cross-links)"
+description: "Comprehensive reference for Fragment of cross-linked fibrin (two D domains joined by cross-links), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["biomarker-peptides","peptide","oligopeptide"]
+tags: ["biomarker-peptides", "peptide", "oligopeptide"]
 category: "Biomarker Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,10 +16,10 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **Sequence:** Fragment of cross-linked fibrin (two D domains joined by cross-links) |
-| Sequence | **Disease:** Venous thromboembolism (VTE); disseminated intravascular coagulation (DIC); aortic dissection
+| Property | Value                                                                                                      |
+| -------- | ---------------------------------------------------------------------------------------------------------- |
+| Name     | **Sequence:** Fragment of cross-linked fibrin (two D domains joined by cross-links)                        |
+| Sequence | **Disease:** Venous thromboembolism (VTE); disseminated intravascular coagulation (DIC); aortic dissection |
 
 **Clinical Use:** Rule-out VTE (DVT/PE) in low-to-moderate probability patients; DIC diagnosis; aortic dissection screening
 
@@ -45,6 +45,7 @@ Fibrin degradation product. High sensitivity (~95%) but low specificity for VTE.
 ## Applications
 
 **Sequence:** Fragment of cross-linked fibrin (two D domains joined by cross-links) has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

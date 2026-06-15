@@ -1,10 +1,10 @@
 ---
-title: "**Sequence:** Tyr-Pro-Gln-Pro-Gln-Pro-Phe (gliadorphin-7)"
-description: "**Sequence:** β-Alanyl-L-histidine"
+title: "Tyr-Pro-Gln-Pro-Gln-Pro-Phe (gliadorphin-7)"
+description: "Comprehensive reference for Tyr-Pro-Gln-Pro-Gln-Pro-Phe (gliadorphin-7), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["food-peptides","peptide","oligopeptide"]
+tags: ["food-peptides", "peptide", "oligopeptide"]
 category: "Food Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,10 +16,10 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **Sequence:** Tyr-Pro-Gln-Pro-Gln-Pro-Phe (gliadorphin-7) |
-| Sequence | **Source:** Gliadin (wheat)
+| Property | Value                                                     |
+| -------- | --------------------------------------------------------- |
+| Name     | **Sequence:** Tyr-Pro-Gln-Pro-Gln-Pro-Phe (gliadorphin-7) |
+| Sequence | **Source:** Gliadin (wheat)                               |
 
 **Function:** Opioid agonist (μ-receptor); immunomodulatory
 
@@ -45,6 +45,7 @@ Gliadin-derived exorphin resistant to proteolysis. Investigated in celiac diseas
 ## Applications
 
 **Sequence:** Tyr-Pro-Gln-Pro-Gln-Pro-Phe (gliadorphin-7) has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

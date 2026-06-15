@@ -1,10 +1,10 @@
 ---
 title: "CEA (Carcinoembryonic Antigen)"
-description: "Comprehensive reference for CEA (Carcinoembryonic Antigen), a peptide compound with applications in research and therapeutics."
+description: "Glycoprotein tumor marker elevated in colorectal cancer, used for monitoring treatment response and recurrence."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["biomarker-peptides","peptide","oligopeptide"]
+tags: ["biomarker-peptides", "peptide", "oligopeptide"]
 category: "Biomarker Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -15,11 +15,6 @@ relatedArticles: []
 ## Overview
 
 CEA (Carcinoembryonic Antigen) is a bioactive peptide with well-characterized properties and therapeutic applications.
-
-
-
-
-
 
 ## References
 

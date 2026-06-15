@@ -1,10 +1,10 @@
 ---
-title: "**INCI Name:** Copper Tripeptide-1"
-description: "**INCI Name:** Hydrolyzed Verbascum Thapsus Flower (standardized to verbascoside-peptide complex)"
+title: "Copper Tripeptide-1"
+description: "Comprehensive reference for Copper Tripeptide-1, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["cosmetic-peptides","peptide","oligopeptide"]
+tags: ["cosmetic-peptides", "peptide", "oligopeptide"]
 category: "Cosmetic Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,10 +16,10 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **INCI Name:** Copper Tripeptide-1 |
-| Sequence | **Sequence:** Gly-His-Lys (GHK) chelated to Cu²⁺
+| Property | Value                                            |
+| -------- | ------------------------------------------------ |
+| Name     | **INCI Name:** Copper Tripeptide-1               |
+| Sequence | **Sequence:** Gly-His-Lys (GHK) chelated to Cu²⁺ |
 
 **Mechanism:** Multi-target: stimulates collagen/elastin/GAG synthesis; promotes angiogenesis; antioxidant (SOD-like); anti-inflammatory; attracts immune and stem cells; modulates MMP/TIMP balance
 
@@ -43,6 +43,7 @@ Naturally occurring tripeptide-copper complex found in plasma (~200 ng/mL young 
 ## Applications
 
 **INCI Name:** Copper Tripeptide-1 has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

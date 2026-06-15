@@ -1,10 +1,10 @@
 ---
-title: "**Sequence:** 591 amino acids (glycoprotein)"
-description: "**Sequence:** 32 amino acids (mature hormone)"
+title: "591 amino acids (glycoprotein)"
+description: "Comprehensive reference for 591 amino acids (glycoprotein), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["biomarker-peptides","peptide","oligopeptide"]
+tags: ["biomarker-peptides", "peptide", "oligopeptide"]
 category: "Biomarker Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,10 +16,10 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **Sequence:** 591 amino acids (glycoprotein) |
-| Sequence | **Disease:** Hepatocellular carcinoma (HCC); germ cell tumors (yolk sac, mixed); neural tube defects (amniotic fluid)
+| Property | Value                                                                                                                 |
+| -------- | --------------------------------------------------------------------------------------------------------------------- |
+| Name     | **Sequence:** 591 amino acids (glycoprotein)                                                                          |
+| Sequence | **Disease:** Hepatocellular carcinoma (HCC); germ cell tumors (yolk sac, mixed); neural tube defects (amniotic fluid) |
 
 **Clinical Use:** HCC screening in cirrhosis (with ultrasound every 6 months); germ cell tumor marker; treatment monitoring; obstetric screening
 
@@ -45,6 +45,7 @@ Glycoprotein normally produced by fetal liver and yolk sac. AFP-L3% (Lens culina
 ## Applications
 
 **Sequence:** 591 amino acids (glycoprotein) has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

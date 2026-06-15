@@ -1,10 +1,10 @@
 ---
-title: "**Sequence:** Tyr-Pro-Phe-Pro-Gly-Pro-Ile (β-casomorphin-7)"
-description: "**Sequence:** Tyr-Pro-Phe-Val-Val"
+title: "Tyr-Pro-Phe-Pro-Gly-Pro-Ile (β-casomorphin-7)"
+description: "Comprehensive reference for Tyr-Pro-Phe-Pro-Gly-Pro-Ile (β-casomorphin-7), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["food-peptides","peptide","oligopeptide"]
+tags: ["food-peptides", "peptide", "oligopeptide"]
 category: "Food Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,10 +16,10 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **Sequence:** Tyr-Pro-Phe-Pro-Gly-Pro-Ile (β-casomorphin-7) |
-| Sequence | **Source:** β-Casein (A1/A2 variants)
+| Property | Value                                                       |
+| -------- | ----------------------------------------------------------- |
+| Name     | **Sequence:** Tyr-Pro-Phe-Pro-Gly-Pro-Ile (β-casomorphin-7) |
+| Sequence | **Source:** β-Casein (A1/A2 variants)                       |
 
 **Function:** Opioid agonist (μ-receptor); immunomodulatory
 
@@ -45,6 +45,7 @@ Exorphin from β-casein. The BCM-7 variant (from A1 β-casein) has been linked t
 ## Applications
 
 **Sequence:** Tyr-Pro-Phe-Pro-Gly-Pro-Ile (β-casomorphin-7) has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

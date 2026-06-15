@@ -1,10 +1,10 @@
 ---
-title: "**INCI Name:** Tripeptide-9 Citrulline + Tripeptide-10 Citrulline"
-description: "**INCI Name:** Nonapeptide-1"
+title: "Tripeptide-9 Citrulline + Tripeptide-10 Citrulline"
+description: "Comprehensive reference for Tripeptide-9 Citrulline + Tripeptide-10 Citrulline, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["cosmetic-peptides","peptide","oligopeptide"]
+tags: ["cosmetic-peptides", "peptide", "oligopeptide"]
 category: "Cosmetic Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,10 +16,10 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **INCI Name:** Tripeptide-9 Citrulline + Tripeptide-10 Citrulline |
-| Sequence | **Sequence:** Modified collagen fragment with citrulline
+| Property | Value                                                             |
+| -------- | ----------------------------------------------------------------- |
+| Name     | **INCI Name:** Tripeptide-9 Citrulline + Tripeptide-10 Citrulline |
+| Sequence | **Sequence:** Modified collagen fragment with citrulline          |
 
 **Mechanism:** Protects collagen from MMP-1 and MMP-3 degradation; competitive inhibitor of collagenase binding to collagen fibrils
 
@@ -45,6 +45,7 @@ relatedArticles: []
 ## Applications
 
 **INCI Name:** Tripeptide-9 Citrulline + Tripeptide-10 Citrulline has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

@@ -1,10 +1,10 @@
 ---
-title: "**Sequence:** β-Alanyl-1-methyl-L-histidine"
-description: "**Sequence:** γ-L-Glutamyl-L-cysteinylglycine (GSH)"
+title: "β-Alanyl-1-methyl-L-histidine"
+description: "Comprehensive reference for β-Alanyl-1-methyl-L-histidine, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["food-peptides","peptide","oligopeptide"]
+tags: ["food-peptides", "peptide", "oligopeptide"]
 category: "Food Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,10 +16,10 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **Sequence:** β-Alanyl-1-methyl-L-histidine |
-| Sequence | **Source:** Poultry muscle, fish, brain
+| Property | Value                                       |
+| -------- | ------------------------------------------- |
+| Name     | **Sequence:** β-Alanyl-1-methyl-L-histidine |
+| Sequence | **Source:** Poultry muscle, fish, brain     |
 
 **Function:** Antioxidant; anti-inflammatory; pH buffer
 
@@ -43,6 +43,7 @@ Methylated analog of carnosine with similar but distinct antioxidant profile. Mo
 ## Applications
 
 **Sequence:** β-Alanyl-1-methyl-L-histidine has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

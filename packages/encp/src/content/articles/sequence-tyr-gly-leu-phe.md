@@ -1,10 +1,10 @@
 ---
-title: "**Sequence:** Tyr-Gly-Leu-Phe"
-description: "**Sequence:** Tyr-Leu-Leu-Phe"
+title: "Tyr-Gly-Leu-Phe"
+description: "Comprehensive reference for Tyr-Gly-Leu-Phe, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["food-peptides","peptide","oligopeptide"]
+tags: ["food-peptides", "peptide", "oligopeptide"]
 category: "Food Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,10 +16,10 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **Sequence:** Tyr-Gly-Leu-Phe |
-| Sequence | **Source:** α-Lactalbumin
+| Property | Value                         |
+| -------- | ----------------------------- |
+| Name     | **Sequence:** Tyr-Gly-Leu-Phe |
+| Sequence | **Source:** α-Lactalbumin     |
 
 **Function:** ACE inhibitor; opioid agonist (μ-receptor)
 
@@ -43,6 +43,7 @@ Tetrapeptide from α-lactalbumin hydrolysis. Dual functionality as both ACE inhi
 ## Applications
 
 **Sequence:** Tyr-Gly-Leu-Phe has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

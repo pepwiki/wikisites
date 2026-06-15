@@ -1,10 +1,10 @@
 ---
-title: "**Sequence:** 209 amino acids (cardiac isoform)"
-description: "**Sequence:** 288 amino acids (cardiac isoform)"
+title: "209 amino acids (cardiac isoform)"
+description: "Comprehensive reference for 209 amino acids (cardiac isoform), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["biomarker-peptides","peptide","oligopeptide"]
+tags: ["biomarker-peptides", "peptide", "oligopeptide"]
 category: "Biomarker Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,10 +16,10 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **Sequence:** 209 amino acids (cardiac isoform) |
-| Sequence | **Disease:** Acute myocardial infarction (AMI); myocardial injury
+| Property | Value                                                             |
+| -------- | ----------------------------------------------------------------- |
+| Name     | **Sequence:** 209 amino acids (cardiac isoform)                   |
+| Sequence | **Disease:** Acute myocardial infarction (AMI); myocardial injury |
 
 **Clinical Use:** Diagnosis of AMI; detection of myocardial injury; risk stratification; rule-in/rule-out protocols
 
@@ -43,6 +43,7 @@ Cardiac-specific isoform; absent from skeletal muscle. hs-cTnT/I assays detect 1
 ## Applications
 
 **Sequence:** 209 amino acids (cardiac isoform) has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

@@ -1,10 +1,10 @@
 ---
-title: "**Status**"
+title: "Status"
 description: "### Liberty Prime"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["peptide-research-tools","peptide","oligopeptide"]
+tags: ["peptide-research-tools", "peptide", "oligopeptide"]
 category: "Peptide Research Tools"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,11 +16,11 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **Status** |
-| Sequence | Active |
-| Length | 6 amino acids |
+| Property | Value         |
+| -------- | ------------- |
+| Name     | **Status**    |
+| Sequence | Active        |
+| Length   | 6 amino acids |
 
 | Category | Peptide Research Tools |
 
@@ -31,6 +31,7 @@ relatedArticles: []
 ## Applications
 
 **Status** has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

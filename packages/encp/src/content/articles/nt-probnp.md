@@ -1,10 +1,10 @@
 ---
 title: "NT-proBNP"
-description: "Comprehensive reference for NT-proBNP, a peptide compound with applications in research and therapeutics."
+description: "Inactive precursor fragment of BNP, sensitive biomarker for heart failure diagnosis and prognosis."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["biomarkers-expanded","peptide","oligopeptide"]
+tags: ["biomarkers-expanded", "peptide", "oligopeptide"]
 category: "Biomarkers Expanded"
 difficulty: "intermediate"
 relatedArticles: []
@@ -15,11 +15,6 @@ relatedArticles: []
 ## Overview
 
 NT-proBNP is a bioactive peptide with well-characterized properties and therapeutic applications.
-
-
-
-
-
 
 ## References
 

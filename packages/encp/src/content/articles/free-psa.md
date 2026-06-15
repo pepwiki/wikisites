@@ -1,10 +1,10 @@
 ---
 title: "Free PSA"
-description: "Comprehensive reference for Free PSA, a peptide compound with applications in research and therapeutics."
+description: "Unbound prostate-specific antigen fraction used to improve specificity of prostate cancer screening."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["biomarkers-expanded","peptide","oligopeptide"]
+tags: ["biomarkers-expanded", "peptide", "oligopeptide"]
 category: "Biomarkers Expanded"
 difficulty: "intermediate"
 relatedArticles: []
@@ -15,11 +15,6 @@ relatedArticles: []
 ## Overview
 
 Free PSA is a bioactive peptide with well-characterized properties and therapeutic applications.
-
-
-
-
-
 
 ## References
 

@@ -1,10 +1,10 @@
 ---
-title: "**Sequence:** Large glycoprotein (~22,000 amino acids, heavily O-glycosylated)"
-description: "**Sequence:** 668 amino acids (glycosylated, GPI-anchored)"
+title: "Large glycoprotein (~22,000 amino acids, heavily O-glycosylated)"
+description: "Comprehensive reference for Large glycoprotein (~22,000 amino acids, heavily O-glycosylated), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["biomarker-peptides","peptide","oligopeptide"]
+tags: ["biomarker-peptides", "peptide", "oligopeptide"]
 category: "Biomarker Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,10 +16,10 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **Sequence:** Large glycoprotein (~22,000 amino acids, heavily O-glycosylated) |
-| Sequence | **Disease:** Epithelial ovarian cancer; endometriosis; pelvic inflammatory disease; peritoneal/pleural effusions
+| Property | Value                                                                                                            |
+| -------- | ---------------------------------------------------------------------------------------------------------------- |
+| Name     | **Sequence:** Large glycoprotein (~22,000 amino acids, heavily O-glycosylated)                                   |
+| Sequence | **Disease:** Epithelial ovarian cancer; endometriosis; pelvic inflammatory disease; peritoneal/pleural effusions |
 
 **Clinical Use:** Ovarian cancer monitoring (not screening); ROMA score (with HE4); treatment response; recurrence detection; risk of malignancy index (RMI)
 
@@ -43,6 +43,7 @@ Mucin family glycoprotein expressed on coelomic epithelium (peritoneum, pleura, 
 ## Applications
 
 **Sequence:** Large glycoprotein (~22,000 amino acids, heavily O-glycosylated) has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

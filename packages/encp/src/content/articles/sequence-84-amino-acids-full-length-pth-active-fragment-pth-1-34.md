@@ -1,10 +1,10 @@
 ---
-title: "**Sequence:** 84 amino acids (full-length PTH); active fragment PTH(1-34)"
-description: "**Sequence:** G-17 (17 amino acids, major circulating form); G-34 (big gastrin)"
+title: "84 amino acids (full-length PTH); active fragment PTH(1-34)"
+description: "Comprehensive reference for 84 amino acids (full-length PTH); active fragment PTH(1-34), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["biomarker-peptides","peptide","oligopeptide"]
+tags: ["biomarker-peptides", "peptide", "oligopeptide"]
 category: "Biomarker Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,10 +16,10 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **Sequence:** 84 amino acids (full-length PTH); active fragment PTH(1-34) |
-| Sequence | **Disease:** Primary hyperparathyroidism; secondary hyperparathyroidism (CKD); hypoparathyroidism; vitamin D deficiency
+| Property | Value                                                                                                                   |
+| -------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Name     | **Sequence:** 84 amino acids (full-length PTH); active fragment PTH(1-34)                                               |
+| Sequence | **Disease:** Primary hyperparathyroidism; secondary hyperparathyroidism (CKD); hypoparathyroidism; vitamin D deficiency |
 
 **Clinical Use:** Differential diagnosis of hypercalcemia; monitoring CKD-MBD; intraoperative parathyroid localization; guiding parathyroidectomy
 
@@ -43,6 +43,7 @@ Calcium homeostasis regulator. Intact PTH assay (1-84) standard; PTH(7-84) fragm
 ## Applications
 
 **Sequence:** 84 amino acids (full-length PTH); active fragment PTH(1-34) has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

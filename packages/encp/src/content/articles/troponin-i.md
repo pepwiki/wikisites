@@ -1,10 +1,10 @@
 ---
 title: "Troponin I"
-description: "Comprehensive reference for Troponin I, a peptide compound with applications in research and therapeutics."
+description: "Cardiac protein biomarker used to diagnose myocardial infarction and assess cardiac injury severity."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["biomarkers-expanded","peptide","oligopeptide"]
+tags: ["biomarkers-expanded", "peptide", "oligopeptide"]
 category: "Biomarkers Expanded"
 difficulty: "intermediate"
 relatedArticles: []
@@ -15,11 +15,6 @@ relatedArticles: []
 ## Overview
 
 Troponin I is a bioactive peptide with well-characterized properties and therapeutic applications.
-
-
-
-
-
 
 ## References
 

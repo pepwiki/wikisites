@@ -1,10 +1,10 @@
 ---
-title: "**INCI Name:** Pentapeptide-18"
-description: "**INCI Name:** Dipeptide Diaminobutyroyl Benzylamide Diacetate"
+title: "Pentapeptide-18"
+description: "Comprehensive reference for Pentapeptide-18, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["cosmetic-peptides","peptide","oligopeptide"]
+tags: ["cosmetic-peptides", "peptide", "oligopeptide"]
 category: "Cosmetic Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,10 +16,10 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **INCI Name:** Pentapeptide-18 |
-| Sequence | **Sequence:** Tyr-Ala-Gly-Phe-Leu
+| Property | Value                             |
+| -------- | --------------------------------- |
+| Name     | **INCI Name:** Pentapeptide-18    |
+| Sequence | **Sequence:** Tyr-Ala-Gly-Phe-Leu |
 
 **Mechanism:** Targets enkephalin receptor on nerve endings; modulates acetylcholine release at the neuromuscular junction (different mechanism from Argireline)
 
@@ -43,6 +43,7 @@ Enkephalin-mimetic pentapeptide. Works at a different stage of vesicle release t
 ## Applications
 
 **INCI Name:** Pentapeptide-18 has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

@@ -1,10 +1,10 @@
 ---
-title: "**Sequence:** 32-aa mature hormone (proBNP 108 → NT-proBNP 76 + BNP 32)"
-description: "**Sequence:** 76 amino acids (inactive cleavage product)"
+title: "32-aa mature hormone (proBNP 108 → NT-proBNP 76 + BNP 32)"
+description: "Comprehensive reference for 32-aa mature hormone (proBNP 108 → NT-proBNP 76 + BNP 32), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["biomarker-peptides","peptide","oligopeptide"]
+tags: ["biomarker-peptides", "peptide", "oligopeptide"]
 category: "Biomarker Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,10 +16,10 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **Sequence:** 32-aa mature hormone (proBNP 108 → NT-proBNP 76 + BNP 32) |
-| Sequence | **Disease:** Heart failure; acute coronary syndrome
+| Property | Value                                                                   |
+| -------- | ----------------------------------------------------------------------- |
+| Name     | **Sequence:** 32-aa mature hormone (proBNP 108 → NT-proBNP 76 + BNP 32) |
+| Sequence | **Disease:** Heart failure; acute coronary syndrome                     |
 
 **Clinical Use:** Diagnosis and severity assessment of heart failure; guides therapy (sacubitril/valsartan); prognostic marker
 
@@ -43,6 +43,7 @@ Secreted by ventricular cardiomyocytes in response to wall stretch. Active hormo
 ## Applications
 
 **Sequence:** 32-aa mature hormone (proBNP 108 → NT-proBNP 76 + BNP 32) has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

@@ -1,10 +1,10 @@
 ---
-title: "**Sequence:** Lys-Cys-Arg-Arg-Trp-Gln-Trp-Arg-Met-Lys-Lys-Leu-Gly-Ala-Pro-Ser-Ile-Thr-Cys-Val-Arg-Arg-Ala-Phe (LfcinB, residues 17–41 of lactoferrin)"
-description: "**Sequence:** Tyr-Ile-Pro-Ile-Gln-Tyr-Val-Leu-Ser-Arg"
+title: "Lys-Cys-Arg-Arg-Trp-Gln-Trp-Arg-Met-Lys-Lys-Leu-Gly-Ala-Pro-Ser-Ile-Thr-Cys-Val-Arg-Arg-Ala-Phe (LfcinB, residues 17–41 of lactoferrin)"
+description: "Comprehensive reference for Lys-Cys-Arg-Arg-Trp-Gln-Trp-Arg-Met-Lys-Lys-Leu-Gly-Ala-Pro-Ser-Ile-Thr-Cys-Val-Arg-Arg-Ala-Phe (LfcinB, residues 17–41 of lactoferrin), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["food-peptides","peptide","oligopeptide"]
+tags: ["food-peptides", "peptide", "oligopeptide"]
 category: "Food Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,10 +16,10 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **Sequence:** Lys-Cys-Arg-Arg-Trp-Gln-Trp-Arg-Met-Lys-Lys-Leu-Gly-Ala-Pro-Ser-Ile-Thr-Cys-Val-Arg-Arg-Ala-Phe (LfcinB, residues 17–41 of lactoferrin) |
-| Sequence | **Source:** Bovine lactoferrin
+| Property | Value                                                                                                                                                 |
+| -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Name     | **Sequence:** Lys-Cys-Arg-Arg-Trp-Gln-Trp-Arg-Met-Lys-Lys-Leu-Gly-Ala-Pro-Ser-Ile-Thr-Cys-Val-Arg-Arg-Ala-Phe (LfcinB, residues 17–41 of lactoferrin) |
+| Sequence | **Source:** Bovine lactoferrin                                                                                                                        |
 
 **Function:** Antimicrobial; antifungal; antitumor; immunomodulatory
 
@@ -43,6 +43,7 @@ relatedArticles: []
 ## Applications
 
 **Sequence:** Lys-Cys-Arg-Arg-Trp-Gln-Trp-Arg-Met-Lys-Lys-Leu-Gly-Ala-Pro-Ser-Ile-Thr-Cys-Val-Arg-Arg-Ala-Phe (LfcinB, residues 17–41 of lactoferrin) has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

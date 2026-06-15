@@ -1,10 +1,10 @@
 ---
-title: "**Sequence:** Tyr-Pro-Leu (rubiscolin-6: Tyr-Pro-Leu-Trp-Leu-Ser)"
-description: "**Sequence:** Tyr-Gly-Gly-Trp-Leu (exorphin C5); H-Tyr-Gly-Gly-Trp-OH (exorphin A5)"
+title: "Tyr-Pro-Leu (rubiscolin-6: Tyr-Pro-Leu-Trp-Leu-Ser)"
+description: "Comprehensive reference for Tyr-Pro-Leu (rubiscolin-6: Tyr-Pro-Leu-Trp-Leu-Ser), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["food-peptides","peptide","oligopeptide"]
+tags: ["food-peptides", "peptide", "oligopeptide"]
 category: "Food Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,10 +16,10 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **Sequence:** Tyr-Pro-Leu (rubiscolin-6: Tyr-Pro-Leu-Trp-Leu-Ser) |
-| Sequence | **Source:** Rubisco (spinach, *Chenopodium*)
+| Property | Value                                                             |
+| -------- | ----------------------------------------------------------------- |
+| Name     | **Sequence:** Tyr-Pro-Leu (rubiscolin-6: Tyr-Pro-Leu-Trp-Leu-Ser) |
+| Sequence | **Source:** Rubisco (spinach, _Chenopodium_)                      |
 
 **Function:** Opioid agonist (δ-receptor); memory enhancement
 
@@ -43,6 +43,7 @@ First plant-derived δ-opioid peptide. The hexapeptide form shows memory-improvi
 ## Applications
 
 **Sequence:** Tyr-Pro-Leu (rubiscolin-6: Tyr-Pro-Leu-Trp-Leu-Ser) has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

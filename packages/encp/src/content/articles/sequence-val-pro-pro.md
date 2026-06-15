@@ -1,10 +1,10 @@
 ---
-title: "**Sequence:** Val-Pro-Pro"
-description: "**Sequence:** Ile-Pro-Pro"
+title: "Val-Pro-Pro"
+description: "Comprehensive reference for Val-Pro-Pro, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["food-peptides","peptide","oligopeptide"]
+tags: ["food-peptides", "peptide", "oligopeptide"]
 category: "Food Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,16 +16,16 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **Sequence:** Val-Pro-Pro |
-| Sequence | **Source:** Casein (β/κ)
+| Property | Value                     |
+| -------- | ------------------------- |
+| Name     | **Sequence:** Val-Pro-Pro |
+| Sequence | **Source:** Casein (β/κ)  |
 
 **Function:** ACE inhibitor; antihypertensive
 
 **IC50/Activity:** IC50 ~9 μM (ACE inhibition)
 
-Tripeptide released during fermentation of milk by *Lactobacillus helveticus*. Commercially used in Calpis™ fermented milk. One of the most clinically studied food-derived peptides with demonstrated blood pressure-lowering effects in hypertensive subjects.
+Tripeptide released during fermentation of milk by _Lactobacillus helveticus_. Commercially used in Calpis™ fermented milk. One of the most clinically studied food-derived peptides with demonstrated blood pressure-lowering effects in hypertensive subjects.
 
 ---
 
@@ -43,6 +43,7 @@ Tripeptide released during fermentation of milk by *Lactobacillus helveticus*. C
 ## Applications
 
 **Sequence:** Val-Pro-Pro has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

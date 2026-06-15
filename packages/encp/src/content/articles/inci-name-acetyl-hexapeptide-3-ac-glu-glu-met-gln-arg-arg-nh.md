@@ -1,10 +1,10 @@
 ---
-title: "**INCI Name:** Acetyl Hexapeptide-3 (Ac-Glu-Glu-Met-Gln-Arg-Arg-NH₂)"
-description: "**INCI Name:** Acetyl Octapeptide-3"
+title: "Acetyl Hexapeptide-3 (Ac-Glu-Glu-Met-Gln-Arg-Arg-NH₂)"
+description: "Comprehensive reference for Acetyl Hexapeptide-3 (Ac-Glu-Glu-Met-Gln-Arg-Arg-NH₂), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["cosmetic-peptides","peptide","oligopeptide"]
+tags: ["cosmetic-peptides", "peptide", "oligopeptide"]
 category: "Cosmetic Peptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -16,10 +16,10 @@ relatedArticles: []
 
 ## Chemical Identity
 
-| Property | Value |
-|----------|-------|
-| Name | **INCI Name:** Acetyl Hexapeptide-3 (Ac-Glu-Glu-Met-Gln-Arg-Arg-NH₂) |
-| Sequence | **Sequence:** Ac-Glu-Glu-Met-Gln-Arg-Arg-NH₂
+| Property | Value                                                                |
+| -------- | -------------------------------------------------------------------- |
+| Name     | **INCI Name:** Acetyl Hexapeptide-3 (Ac-Glu-Glu-Met-Gln-Arg-Arg-NH₂) |
+| Sequence | **Sequence:** Ac-Glu-Glu-Met-Gln-Arg-Arg-NH₂                         |
 
 **Mechanism:** SNARE complex modulator; inhibits vesicle docking by competing with SNAP-25 for SNARE complex assembly
 
@@ -43,6 +43,7 @@ Hexapeptide derived from the N-terminal of SNAP-25. Reduces expression line dept
 ## Applications
 
 **INCI Name:** Acetyl Hexapeptide-3 (Ac-Glu-Glu-Met-Gln-Arg-Arg-NH₂) has been studied for its potential applications in:
+
 - Biomedical research
 - Drug discovery
 - Diagnostic applications
