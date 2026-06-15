@@ -1,34 +1,34 @@
 ---
 title: "Peptide Antibiotics"
-description: "Comprehensive reference for Peptide Antibiotics, a peptide compound with applications in research and therapeutics."
+description: "Explore antimicrobial peptides as next-generation antibiotics against drug-resistant bacteria."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["drug-development","peptide","oligopeptide"]
-category: "Drug Development"
+tags: ["antimicrobial","antibiotic","infection","application"]
+category: "Peptide Applications"
 difficulty: "intermediate"
-relatedArticles: []
 ---
 
 ## Overview
 
-Peptide Antibiotics is a peptide compound with applications in research and therapeutics. 
+Peptide antibiotics are antimicrobial peptides (AMPs) that kill bacteria through membrane disruption and intracellular targeting.
 
+## Classes
 
+- **Defensins**: Cysteine-rich AMPs in neutrophils and epithelia
+- **Cathelicidins**: LL-37 is the human cathelicidin
+- **Magainins**: Frog-derived AMPs
+- **Lantibiotics**: Bacterially produced modified peptides (nisin)
 
-## Structure
+## Mechanism
 
-Peptide Antibiotics belongs to the Drug Development class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+AMPs typically disrupt bacterial membranes through electrostatic attraction to anionic lipids, forming pores or carpeting the membrane surface.
 
-## Applications
+## Clinical Significance
 
-Peptide Antibiotics has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Daptomycin and polymyxins are clinically used AMPs. New AMPs are in development against multidrug-resistant organisms.
 
 ## References
 
-- Source: peptide-future.md
-- Database: Wikipept Peptide Database
+- Source: ENCP Peptide Database
+- Category: Peptide Applications

@@ -1,34 +1,37 @@
 ---
 title: "Peptide Immunotherapy"
-description: "Comprehensive reference for Peptide Immunotherapy, a peptide compound with applications in research and therapeutics."
+description: "Peptide-based approaches to modulate immune responses in cancer and autoimmune diseases."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["peptide-future","peptide","oligopeptide"]
+tags: ["immunotherapy","cancer","vaccine","t-cell"]
 category: "Peptide Future"
-difficulty: "intermediate"
-relatedArticles: []
+difficulty: "advanced"
 ---
 
 ## Overview
 
-Peptide Immunotherapy is a peptide compound with applications in research and therapeutics. 
+Peptide immunotherapy uses synthetic peptides to activate or suppress specific immune responses for therapeutic benefit.
 
+## Approaches
 
+- **Cancer vaccines**: Neoantigen and tumor-associated antigen peptides
+- **Checkpoint modulation**: Peptide inhibitors of PD-1/PD-L1
+- **Tolerance induction**: Peptides for autoimmune desensitization
+- **Allergen immunotherapy**: Modified allergen peptides
 
-## Structure
+## Clinical Programs
 
-Peptide Immunotherapy belongs to the Peptide Future class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+- ISA101 for HPV-associated cancers
+- UV1 for melanoma
+- ATX-MS-1467 for multiple sclerosis
+- Personalized neoantigen vaccines in trials
 
-## Applications
+## Future Directions
 
-Peptide Immunotherapy has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Combining peptide vaccines with checkpoint inhibitors and personalized neoantigen approaches represent the most promising strategies.
 
 ## References
 
-- Source: peptide-future.md
-- Database: Wikipept Peptide Database
+- Source: ENCP Peptide Database
+- Category: Peptide Future

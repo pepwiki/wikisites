@@ -1,34 +1,34 @@
 ---
 title: "Peptide Diagnostics"
-description: "Comprehensive reference for Peptide Diagnostics, a peptide compound with applications in research and therapeutics."
+description: "Explore peptide-based diagnostic tools for biomarker detection and disease monitoring."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["peptide-future","peptide","oligopeptide"]
-category: "Peptide Future"
+tags: ["diagnostics","biomarker","detection","application"]
+category: "Peptide Applications"
 difficulty: "intermediate"
-relatedArticles: []
 ---
 
 ## Overview
 
-Peptide Diagnostics is a peptide compound with applications in research and therapeutics. 
+Peptide-based diagnostics use peptide probes, arrays, and biomarkers for disease detection and monitoring.
 
+## Approaches
 
+- **Peptide arrays**: High-throughput antibody profiling
+- **Peptide biomarkers**: Circulating peptide fragments as disease indicators
+- **Aptamer-peptide conjugates**: Enhanced capture and detection
+- **Mass spec proteomics**: Peptide fingerprinting
 
-## Structure
+## Examples
 
-Peptide Diagnostics belongs to the Peptide Future class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+BNP/NT-proBNP for heart failure, PSA-derived peptides for prostate cancer, and amyloid-beta peptides for Alzheimer disease.
 
-## Applications
+## Clinical Significance
 
-Peptide Diagnostics has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+Peptide diagnostics enable early disease detection, treatment monitoring, and precision medicine approaches.
 
 ## References
 
-- Source: peptide-future.md
-- Database: Wikipept Peptide Database
+- Source: ENCP Peptide Database
+- Category: Peptide Applications

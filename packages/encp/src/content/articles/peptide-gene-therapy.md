@@ -1,34 +1,37 @@
 ---
 title: "Peptide Gene Therapy"
-description: "Comprehensive reference for Peptide Gene Therapy, a peptide compound with applications in research and therapeutics."
+description: "Peptides as delivery vehicles and modulators in gene therapy applications."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["peptide-future","peptide","oligopeptide"]
+tags: ["gene-therapy","delivery","cell-penetrating","future"]
 category: "Peptide Future"
-difficulty: "intermediate"
-relatedArticles: []
+difficulty: "advanced"
 ---
 
 ## Overview
 
-Peptide Gene Therapy is a peptide compound with applications in research and therapeutics. 
+Peptides play crucial roles in gene therapy as cell-penetrating carriers, endosomal escape agents, and nuclear targeting signals.
 
+## Key Roles
 
-
-## Structure
-
-Peptide Gene Therapy belongs to the Peptide Future class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+- **CPPs**: Cell-penetrating peptides for nucleic acid delivery
+- **Endosomal escape**: pH-responsive peptides release cargo
+- **Nuclear localization**: NLS peptides target nucleus
+- **Viral vector modification**: Peptide-display on AAV capsids
 
 ## Applications
 
-Peptide Gene Therapy has been studied for its potential applications in:
-- Biomedical research
-- Drug discovery
-- Diagnostic applications
-- Therapeutic development
+- Peptide-oligonucleotide conjugates for splice modulation
+- Peptide-delivered siRNA for gene silencing
+- CPP-conjugated mRNA for protein replacement
+- Peptide-based non-viral gene delivery vectors
+
+## Challenges
+
+Efficiency of endosomal escape, serum stability, and tissue specificity remain key challenges for peptide-mediated gene therapy.
 
 ## References
 
-- Source: peptide-future.md
-- Database: Wikipept Peptide Database
+- Source: ENCP Peptide Database
+- Category: Peptide Future

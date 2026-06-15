@@ -1,34 +1,33 @@
 ---
 title: "Amino Acid Analysis"
-description: "Comprehensive reference for Amino Acid Analysis, a peptide compound with applications in research and therapeutics."
+description: "Guide to amino acid analysis methods for determining peptide composition and quantifying individual residues."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["peptide-manufacturing","peptide","oligopeptide"]
-category: "Peptide Manufacturing"
-difficulty: "intermediate"
+tags: ["amino-acid-analysis","composition","research-tools"]
+category: "Peptide Analysis"
+difficulty: "beginner"
 relatedArticles: []
 ---
 
 ## Overview
 
-Amino Acid Analysis is a peptide compound with applications in research and therapeutics. 
+Guide to amino acid analysis methods for determining peptide composition and quantifying individual residues.
 
 
+## Key Concepts
 
-## Structure
-
-Amino Acid Analysis belongs to the Peptide Manufacturing class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Amino Acid Analysis is an important area of peptide science with growing applications in research, therapeutics, and clinical practice.
 
 ## Applications
 
-Amino Acid Analysis has been studied for its potential applications in:
+Key applications include:
 - Biomedical research
-- Drug discovery
+- Drug discovery and development
 - Diagnostic applications
-- Therapeutic development
+- Therapeutic interventions
 
 ## References
 
-- Source: peptide-manufacturing.md
 - Database: Wikipept Peptide Database
+- Category: Peptide Analysis

@@ -1,0 +1,33 @@
+---
+title: "Exosome Peptide Delivery"
+description: "Understand exosome-based nanocarriers for delivering therapeutic peptides across biological barriers."
+status: "published"
+author: "Encyclopeptide Editorial"
+pubDate: 2024-01-15
+tags: ["exosomes","nanotechnology","drug-delivery"]
+category: "Drug Delivery"
+difficulty: "advanced"
+relatedArticles: []
+---
+
+## Overview
+
+Understand exosome-based nanocarriers for delivering therapeutic peptides across biological barriers.
+
+
+## Key Concepts
+
+Exosome Peptide Delivery is an important area of peptide science with growing applications in research, therapeutics, and clinical practice.
+
+## Applications
+
+Key applications include:
+- Biomedical research
+- Drug discovery and development
+- Diagnostic applications
+- Therapeutic interventions
+
+## References
+
+- Database: Wikipept Peptide Database
+- Category: Drug Delivery
