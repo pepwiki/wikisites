@@ -1,6 +1,6 @@
 ---
 title: "Hepatitis"
-description: "Liver inflammation. HBV: DNA virus, 320M chronically infected globally, horizontal/vertical transmission, 5% chronic in adults, leads to cirrhosis/HCC. HCV: RNA virus, blood-borne, 70M chronically inf"
+description: "HBV/HCV liver infection. Treatments: entecavir/tenofovir (HBV), sofosbuvir (HCV)."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Liver inflammation. HBV: DNA virus, 320M chronically infected globally, horizontal/vertical transmission, 5% chronic in adults, leads to cirrhosis/HCC. HCV: RNA virus, blood-borne, 70M chronically infected, 75-85% chronic, leads to cirrhosis/HCC. Treatments: HBV: entecavir, tenofovir (suppress, rarely cure). HCV: sofosbuvir-based regimens (85-95% cure rate).
+HBV/HCV liver infection. Treatments: entecavir/tenofovir (HBV), sofosbuvir (HCV).
 
 ## Clinical Significance
 

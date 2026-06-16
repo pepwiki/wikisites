@@ -1,6 +1,6 @@
 ---
 title: "Influenza"
-description: "Acute respiratory infection caused by influenza A or B viruses. Antigenic drift (seasonal epidemics) and antigenic shift (pandemics). Neuraminidase (NA) and hemagglutinin (HA) are surface glycoprotein"
+description: "Influenza A/B virus. Treatments: oseltamivir, baloxavir."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Acute respiratory infection caused by influenza A or B viruses. Antigenic drift (seasonal epidemics) and antigenic shift (pandemics). Neuraminidase (NA) and hemagglutinin (HA) are surface glycoproteins and drug targets. Treatments: oseltamivir (oral), zanamivir (inhaled), baloxavir (oral), peramivir (IV). Prevention: annual vaccination.
+Influenza A/B virus. Treatments: oseltamivir, baloxavir.
 
 ## Clinical Significance
 

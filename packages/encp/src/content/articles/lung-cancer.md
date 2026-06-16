@@ -1,6 +1,6 @@
 ---
 title: "Lung Cancer"
-description: "NSCLC (85%): adenocarcinoma (most common), squamous cell carcinoma, large cell carcinoma. SCLC (15%): aggressive neuroendocrine tumor. Molecular targets in NSCLC: EGFR mutations, ALK rearrangements, R"
+description: "NSCLC (85%): adenocarcinoma, squamous cell, large cell. SCLC (15%): aggressive neuroendocrine. Molecular targets: EGFR, ALK, ROS1, BRAF, KRAS G12C, MET, RET, NTRK. Treatments: chemotherapy, immunother"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-NSCLC (85%): adenocarcinoma (most common), squamous cell carcinoma, large cell carcinoma. SCLC (15%): aggressive neuroendocrine tumor. Molecular targets in NSCLC: EGFR mutations, ALK rearrangements, ROS1 rearrangements, BRAF V600E, KRAS G12C, MET amplification, RET rearrangements, NTRK fusions, PD-L1 expression. Treatments: platinum-based chemotherapy, pembrolizumab (PD-1), atezolizumab (PD-L1), osimertinib (EGFR), crizotinib/alectinib (ALK).
+NSCLC (85%): adenocarcinoma, squamous cell, large cell. SCLC (15%): aggressive neuroendocrine. Molecular targets: EGFR, ALK, ROS1, BRAF, KRAS G12C, MET, RET, NTRK. Treatments: chemotherapy, immunotherapy (pembrolizumab, atezolizumab), targeted therapy (osimertinib, alectinib).
 
 ## Clinical Significance
 

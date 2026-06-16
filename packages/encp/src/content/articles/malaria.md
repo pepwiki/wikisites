@@ -1,6 +1,6 @@
 ---
 title: "Malaria"
-description: "Life-threatening parasitic disease caused by Plasmodium species. P. falciparum (most lethal), P. vivax, P. ovale, P. malariae, P. knowlesi. Transmitted by Anopheles mosquitoes. Life cycle: liver stage"
+description: "Plasmodium parasite. Treatments: ACT, chloroquine, primaquine."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Life-threatening parasitic disease caused by Plasmodium species. P. falciparum (most lethal), P. vivax, P. ovale, P. malariae, P. knowlesi. Transmitted by Anopheles mosquitoes. Life cycle: liver stage (asymptomatic) → blood stage (symptomatic). Complications: cerebral malaria, severe anemia, organ failure. Treatments: artemisinin-based combination therapy (ACT), chloroquine (P. vivax), primaquine (radical cure for hypnozoites).
+Plasmodium parasite. Treatments: ACT, chloroquine, primaquine.
 
 ## Clinical Significance
 

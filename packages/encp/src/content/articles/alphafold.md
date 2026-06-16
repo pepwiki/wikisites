@@ -1,6 +1,6 @@
 ---
 title: "AlphaFold"
-description: "Deep learning protein structure prediction system by DeepMind (Google). AlphaFold2 (2020) achieved CASP14 median GDT score of 92.4 (experimental ~90). Architecture: Evoformer module processes multiple"
+description: "DeepMind protein structure prediction. CASP14 winner (GDT 92.4). Nobel Prize 2024. 200M+ predicted structures."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Deep learning protein structure prediction system by DeepMind (Google). AlphaFold2 (2020) achieved CASP14 median GDT score of 92.4 (experimental ~90). Architecture: Evoformer module processes multiple sequence alignments and pair representations, then Structure Module predicts 3D coordinates. Nobel Prize in Chemistry 2024 (Hassabis, Jumper). AlphaFold Protein Structure Database: 200+ million predicted structures covering nearly all known proteins.
+DeepMind protein structure prediction. CASP14 winner (GDT 92.4). Nobel Prize 2024. 200M+ predicted structures.
 
 ## Clinical Significance
 

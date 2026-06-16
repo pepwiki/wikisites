@@ -1,6 +1,6 @@
 ---
 title: "Type 2 Diabetes"
-description: "Chronic metabolic disorder characterized by hyperglycemia resulting from insulin resistance and progressive pancreatic β-cell failure. Pathophysiology: insulin resistance in muscle/liver/adipose → com"
+description: "Chronic metabolic disorder: insulin resistance + β-cell failure. Risk factors: obesity, inactivity, genetics. Complications: retinopathy, nephropathy, neuropathy, CVD. Treatments: metformin, GLP-1 ago"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Chronic metabolic disorder characterized by hyperglycemia resulting from insulin resistance and progressive pancreatic β-cell failure. Pathophysiology: insulin resistance in muscle/liver/adipose → compensatory hyperinsulinemia → β-cell exhaustion → relative insulin deficiency. Risk factors: obesity, physical inactivity, family history, age. Complications: retinopathy, nephropathy, neuropathy, cardiovascular disease. Treatments: metformin (first-line), sulfonylureas, GLP-1 receptor agonists (semaglutide, liraglutide), SGLT2 inhibitors, DPP-4 inhibitors, thiazolidinediones, insulin.
+Chronic metabolic disorder: insulin resistance + β-cell failure. Risk factors: obesity, inactivity, genetics. Complications: retinopathy, nephropathy, neuropathy, CVD. Treatments: metformin, GLP-1 agonists, SGLT2 inhibitors, DPP-4 inhibitors, insulin.
 
 ## Clinical Significance
 

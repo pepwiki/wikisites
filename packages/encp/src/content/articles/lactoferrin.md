@@ -1,6 +1,6 @@
 ---
 title: "Lactoferrin"
-description: "86 kDa iron-binding glycoprotein (703 aa) from milk, saliva, tears, neutrophils. Binds 2 Fe³⁺ ions per molecule with extremely high affinity (Kd ~10⁻²⁰ M). Antimicrobial via iron sequestration, direct"
+description: "86 kDa iron-binding glycoprotein. Antimicrobial, anti-inflammatory, immunomodulatory. Found in milk, neutrophils."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-86 kDa iron-binding glycoprotein (703 aa) from milk, saliva, tears, neutrophils. Binds 2 Fe³⁺ ions per molecule with extremely high affinity (Kd ~10⁻²⁰ M). Antimicrobial via iron sequestration, direct membrane disruption. Anti-inflammatory (inhibits NF-κB, TNF-α). Immunomodulatory (enhances NK cell activity). Used in infant formula, supplements, wound care.
+86 kDa iron-binding glycoprotein. Antimicrobial, anti-inflammatory, immunomodulatory. Found in milk, neutrophils.
 
 ## Clinical Significance
 

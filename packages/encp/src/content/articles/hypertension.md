@@ -1,6 +1,6 @@
 ---
 title: "Hypertension"
-description: "Sustained elevation of blood pressure (≥130/80 mmHg). Primary (essential, 95%): multifactorial (genetic, renal, sympathetic, RAAS). Secondary (5%): renal artery stenosis, pheochromocytoma, primary ald"
+description: "Sustained BP ≥130/80. Treatments: ACEi/ARBs, CCBs, diuretics, beta-blockers."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Sustained elevation of blood pressure (≥130/80 mmHg). Primary (essential, 95%): multifactorial (genetic, renal, sympathetic, RAAS). Secondary (5%): renal artery stenosis, pheochromocytoma, primary aldosteronism, Cushing's syndrome. Complications: LVH, heart failure, stroke, CKD, retinopathy. Treatments: ACE inhibitors/ARBs (first-line), CCBs, thiazide diuretics, beta-blockers.
+Sustained BP ≥130/80. Treatments: ACEi/ARBs, CCBs, diuretics, beta-blockers.
 
 ## Clinical Significance
 

@@ -1,6 +1,6 @@
 ---
 title: "Argireline"
-description: "Acetyl hexapeptide-3 (Ac-Glu-Glu-Met-Gln-Arg-Arg). Inhibits SNARE complex formation (synaptobrevin/VAMP) by competing with SNAP-25. Reduces neurotransmitter release at neuromuscular junction. Topical "
+description: "Acetyl hexapeptide-3. Inhibits SNARE complex. Topical anti-wrinkle peptide (mild Botox-like effect)."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Acetyl hexapeptide-3 (Ac-Glu-Glu-Met-Gln-Arg-Arg). Inhibits SNARE complex formation (synaptobrevin/VAMP) by competing with SNAP-25. Reduces neurotransmitter release at neuromuscular junction. Topical anti-wrinkle peptide. 10× weaker than botulinum toxin. Concentration: 2-10 ppm.
+Acetyl hexapeptide-3. Inhibits SNARE complex. Topical anti-wrinkle peptide (mild Botox-like effect).
 
 ## Clinical Significance
 

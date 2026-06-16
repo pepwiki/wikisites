@@ -1,6 +1,6 @@
 ---
 title: "Pneumonia"
-description: "Infection of lung parenchyma. Community-acquired: S. pneumoniae (most common), H. influenzae, M. pneumoniae, S. aureus. Hospital-acquired: P. aeruginosa, MRSA, ESBL-producing Enterobacteriaceae. Aspir"
+description: "Lung infection. Treatments: antibiotics based on pathogen."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Infection of lung parenchyma. Community-acquired: S. pneumoniae (most common), H. influenzae, M. pneumoniae, S. aureus. Hospital-acquired: P. aeruginosa, MRSA, ESBL-producing Enterobacteriaceae. Aspiration: anaerobes. Treatments: antibiotics (β-lactams, macrolides, fluoroquinolones), respiratory support.
+Lung infection. Treatments: antibiotics based on pathogen.
 
 ## Clinical Significance
 

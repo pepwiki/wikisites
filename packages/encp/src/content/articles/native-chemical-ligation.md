@@ -1,6 +1,6 @@
 ---
 title: "Native Chemical Ligation"
-description: "Chemical ligation method for protein synthesis (Kenmuir, 1994). N-terminal cysteine of one peptide reacts with C-terminal thioester of another via transthioesterification, followed by S→N acyl shift t"
+description: "Cys + thioester → native peptide bond. Enables protein synthesis up to ~200 aa."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Chemical ligation method for protein synthesis (Kenmuir, 1994). N-terminal cysteine of one peptide reacts with C-terminal thioester of another via transthioesterification, followed by S→N acyl shift to form native peptide bond. Enables total chemical synthesis of proteins up to ~200 aa. Combined with expressed protein ligation (EPL) for larger proteins. Key applications: site-specific modification, non-natural amino acid incorporation, mirror-image proteins.
+Cys + thioester → native peptide bond. Enables protein synthesis up to ~200 aa.
 
 ## Clinical Significance
 

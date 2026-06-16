@@ -1,6 +1,6 @@
 ---
 title: "VPP"
-description: "Valine-proline-proline. ACE-inhibitory tripeptide from milk proteins (casein, whey). Inhibits angiotensin-converting enzyme (IC50 ~5 μM). Found in fermented milk products (yogurt, kefir, cheese). Cont"
+description: "Valine-proline-proline. ACE-inhibitory tripeptide from milk. Contributes to antihypertensive effects of dairy."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Valine-proline-proline. ACE-inhibitory tripeptide from milk proteins (casein, whey). Inhibits angiotensin-converting enzyme (IC50 ~5 μM). Found in fermented milk products (yogurt, kefir, cheese). Contributes to antihypertensive effects of dairy consumption.
+Valine-proline-proline. ACE-inhibitory tripeptide from milk. Contributes to antihypertensive effects of dairy.
 
 ## Clinical Significance
 

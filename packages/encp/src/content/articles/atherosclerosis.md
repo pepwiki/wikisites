@@ -1,6 +1,6 @@
 ---
 title: "Atherosclerosis"
-description: "Chronic inflammatory disease of arterial walls. Pathogenesis: endothelial dysfunction → LDL infiltration and oxidation → foam cell formation → fatty streak → fibrous cap formation → plaque rupture/thr"
+description: "Arterial wall inflammation, lipid accumulation, plaque formation. Treatments: statins, antiplatelets, PCSK9 inhibitors."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Chronic inflammatory disease of arterial walls. Pathogenesis: endothelial dysfunction → LDL infiltration and oxidation → foam cell formation → fatty streak → fibrous cap formation → plaque rupture/thrombosis. Risk factors: hypertension, dyslipidemia (LDL, Lp(a)), diabetes, smoking, inflammation. Treatments: statins (LDL reduction), antiplatelet agents (aspirin, clopidogrel), PCSK9 inhibitors (evolocumab, alirocumab), lifestyle modification.
+Arterial wall inflammation, lipid accumulation, plaque formation. Treatments: statins, antiplatelets, PCSK9 inhibitors.
 
 ## Clinical Significance
 

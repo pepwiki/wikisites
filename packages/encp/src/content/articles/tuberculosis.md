@@ -1,6 +1,6 @@
 ---
 title: "Tuberculosis"
-description: "Infectious disease caused by Mycobacterium tuberculosis. Airborne transmission. Latent infection (2 billion people globally) → active disease in 5-10% (lifetime risk). Diagnosis: sputum smear, culture"
+description: "M. tuberculosis. Treatments: RIPE therapy (4 drugs, 6 months)."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Infectious disease caused by Mycobacterium tuberculosis. Airborne transmission. Latent infection (2 billion people globally) → active disease in 5-10% (lifetime risk). Diagnosis: sputum smear, culture, Xpert MTB/RIF. Treatments: 2-month intensive phase (rifampicin, isoniazid, pyrazinamide, ethambutol) + 4-month continuation phase (rifampicin, isoniazid). MDR-TB requires longer regimens.
+M. tuberculosis. Treatments: RIPE therapy (4 drugs, 6 months).
 
 ## Clinical Significance
 

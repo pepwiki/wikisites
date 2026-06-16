@@ -1,6 +1,6 @@
 ---
 title: "Matrixyl"
-description: "Palmitoyl pentapeptide-4 (Pal-Gly-Lys-Lys-Thr-Thr). Pentapeptide from collagen type I. Stimulates fibroblast proliferation and collagen/GAG synthesis via TGF-β pathway. Anti-wrinkle peptide used in sk"
+description: "Palmitoyl pentapeptide-4. Stimulates collagen synthesis. Anti-wrinkle skincare peptide."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Palmitoyl pentapeptide-4 (Pal-Gly-Lys-Lys-Thr-Thr). Pentapeptide from collagen type I. Stimulates fibroblast proliferation and collagen/GAG synthesis via TGF-β pathway. Anti-wrinkle peptide used in skincare. Concentration: 1-10 ppm in cosmetic formulations.
+Palmitoyl pentapeptide-4. Stimulates collagen synthesis. Anti-wrinkle skincare peptide.
 
 ## Clinical Significance
 

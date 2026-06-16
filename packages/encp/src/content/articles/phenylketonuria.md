@@ -1,6 +1,6 @@
 ---
 title: "Phenylketonuria"
-description: "Inborn error of metabolism caused by phenylalanine hydroxylase (PAH) deficiency (classic, 98%) or tetrahydrobiopterin (BH4) deficiency (2%). Accumulation of phenylalanine → intellectual disability if "
+description: "PAH deficiency → elevated phenylalanine. Treatments: diet, pegvaliase, sapropterin."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Inborn error of metabolism caused by phenylalanine hydroxylase (PAH) deficiency (classic, 98%) or tetrahydrobiopterin (BH4) deficiency (2%). Accumulation of phenylalanine → intellectual disability if untreated. Screening: newborn screening (Guthrie test, tandem MS). Treatments: phenylalanine-restricted diet (lifelong), pegvaliase [Palynziq] (enzyme substitution for adults), sapropterin [Kuvan] (BH4 cofactor for responsive patients).
+PAH deficiency → elevated phenylalanine. Treatments: diet, pegvaliase, sapropterin.
 
 ## Clinical Significance
 
