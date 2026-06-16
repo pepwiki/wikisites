@@ -1,35 +1,23 @@
 ---
 title: "Agitoxin-2"
-description: "Comprehensive reference for Agitoxin-2, a peptide compound with applications in research and therapeutics."
+description: "38-residue peptide from Leiurus quinquestriatus scorpion venom. Blocks voltage-gated potassium channels (Kv1.1, Kv1.2, Kv1.3)."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["potassium-channel-blocker-(scorpion-toxin)","peptide","oligopeptide"]
-category: "Toxin Peptides"
+pubDate: 2026-06-16
+tags: ["agitoxin-2", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Agitoxin-2
-
 ## Overview
 
-Agitoxin-2 is a bioactive peptide with well-characterized properties and therapeutic applications.
+38-residue peptide from Leiurus quinquestriatus scorpion venom. Blocks voltage-gated potassium channels (Kv1.1, Kv1.2, Kv1.3).
 
+## Clinical Significance
 
-
-
-
+Research tool for studying potassium channels
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Agitoxin-2 |
-| **Category** | Toxin Peptides |
-
+1. Encyclopeptide Database. "Agitoxin-2" monograph. encyclopeptide.com.

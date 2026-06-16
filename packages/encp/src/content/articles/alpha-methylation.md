@@ -1,35 +1,23 @@
 ---
-title: "Alpha-Methylation"
-description: "Comprehensive reference for Alpha-Methylation, a peptide compound with applications in research and therapeutics."
+title: "Peptide α-Methylation"
+description: "Introduction of methyl group at α-carbon of amino acid residue. Increases metabolic stability, reduces proteolytic degradation, and can modify conformation. Used in drug design for improved pharmacoki"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-modifications","peptide","oligopeptide"]
-category: "Peptide Modifications"
+pubDate: 2026-06-16
+tags: ["alpha-methylation", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Alpha-Methylation
-
 ## Overview
 
-Alpha-Methylation is a bioactive peptide with well-characterized properties and therapeutic applications.
+Introduction of methyl group at α-carbon of amino acid residue. Increases metabolic stability, reduces proteolytic degradation, and can modify conformation. Used in drug design for improved pharmacokinetics.
 
+## Clinical Significance
 
-
-
-
+Drug design strategy for metabolic stability
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Alpha-Methylation |
-| **Category** | Peptide Modifications |
-
+1. Encyclopeptide Database. "Peptide α-Methylation" monograph. encyclopeptide.com.

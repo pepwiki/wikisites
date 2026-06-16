@@ -1,35 +1,23 @@
 ---
 title: "Antimicrobial Peptide Market"
-description: "Comprehensive reference for Antimicrobial Peptide Market, a peptide compound with applications in research and therapeutics."
+description: "Market for AMP-based therapeutics targeting drug-resistant infections. Key segments: wound care, implant coatings, systemic infections. Driven by rising antibiotic resistance."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["market","peptide","oligopeptide"]
-category: "Industry & Market"
+pubDate: 2026-06-16
+tags: ["antimicrobial-peptide-market", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Antimicrobial Peptide Market
-
 ## Overview
 
-Antimicrobial Peptide Market is a bioactive peptide with well-characterized properties and therapeutic applications.
+Market for AMP-based therapeutics targeting drug-resistant infections. Key segments: wound care, implant coatings, systemic infections. Driven by rising antibiotic resistance.
 
+## Clinical Significance
 
-
-
-
+New antibiotics for drug-resistant bacteria
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Antimicrobial Peptide Market |
-| **Category** | Industry & Market |
-
+1. Encyclopeptide Database. "Antimicrobial Peptide Market" monograph. encyclopeptide.com.

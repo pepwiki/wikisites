@@ -1,35 +1,23 @@
 ---
-title: "Active Patents"
-description: "Comprehensive reference for Active Patents, a peptide compound with applications in research and therapeutics."
+title: "Peptide Patents"
+description: "Intellectual property protection for peptide drugs, formulations, synthesis methods, and therapeutic applications. Key patent categories: composition of matter, method of use, formulation, and combina"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-patents","peptide","oligopeptide"]
-category: "Peptide Patents"
+pubDate: 2026-06-16
+tags: ["active-patents", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Active Patents
-
 ## Overview
 
-Active Patents is a bioactive peptide with well-characterized properties and therapeutic applications.
+Intellectual property protection for peptide drugs, formulations, synthesis methods, and therapeutic applications. Key patent categories: composition of matter, method of use, formulation, and combination patents.
 
+## Clinical Significance
 
-
-
-
+Freedom-to-operate analysis, patent landscape assessment
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Active Patents |
-| **Category** | Peptide Patents |
-
+1. Encyclopeptide Database. "Peptide Patents" monograph. encyclopeptide.com.
