@@ -7,6 +7,62 @@
 /* Smooth theme transitions */
 body,
 header,
-footer {
+footer,
+main,
+article,
+section,
+nav,
+div,
+p,
+h1, h2, h3, h4, h5, h6,
+span,
+a,
+button,
+input,
+select,
+textarea,
+table,
+th,
+td {
   transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Dark mode overrides for ENCP brand colors */
+[data-theme="dark"] {
+  --color-navy: #1a2744;
+  --color-gold: #d4b85c;
+  --color-slate: #94a3b8;
+}
+
+/* Dark mode overrides for Pagefind UI */
+[data-theme="dark"] {
+  --pagefind-ui-text: #e2e8f0;
+  --pagefind-ui-background: #1e293b;
+  --pagefind-ui-border: #334155;
+  --pagefind-ui-tag: #1e293b;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  body,
+  header,
+  footer,
+  main,
+  article,
+  section,
+  nav,
+  div,
+  p,
+  h1, h2, h3, h4, h5, h6,
+  span,
+  a,
+  button,
+  input,
+  select,
+  textarea,
+  table,
+  th,
+  td {
+    transition: none !important;
+  }
 }
