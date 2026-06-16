@@ -1,6 +1,6 @@
 ---
 title: "HIV/AIDS"
-description: "Human immunodeficiency virus infection leading to acquired immunodeficiency syndrome. HIV-1 (most common) and HIV-2. Targets CD4+ T cells via CD4/CCR5 or CXCR4 co-receptors. Progressive immune depletion. Treatments: antiretroviral therapy (ART) with combination of NRTIs, NNRTIs, PIs, INSTIs."
+description: "HIV-1/2 infection leading to CD4+ T-cell depletion and immunodeficiency. Transmission: sexual, blood-borne, vertical. Pathogenesis: gp120 binds CD4/CCR5 or CXCR4 → membrane fusion → reverse transcript"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Human immunodeficiency virus infection leading to acquired immunodeficiency syndrome. HIV-1 (most common) and HIV-2. Targets CD4+ T cells via CD4/CCR5 or CXCR4 co-receptors. Progressive immune depletion. Treatments: antiretroviral therapy (ART) with combination of NRTIs, NNRTIs, PIs, INSTIs.
+HIV-1/2 infection leading to CD4+ T-cell depletion and immunodeficiency. Transmission: sexual, blood-borne, vertical. Pathogenesis: gp120 binds CD4/CCR5 or CXCR4 → membrane fusion → reverse transcription → integration → replication → CD4+ cell death. Treatments: ART (antiretroviral therapy) with combination of NRTIs (tenofovir, emtricitabine), NNRTIs (efavirenz, rilpivirine), INSTIs (dolutegravir, bictegravir), PIs (darunavir).
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

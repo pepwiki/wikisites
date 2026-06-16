@@ -1,6 +1,6 @@
 ---
 title: "Pompe Disease"
-description: "Lysosomal storage disorder caused by acid α-glucosidase (GAA) deficiency. Glycogen accumulation in lysosomes, primarily in muscle. Infantile-onset (severe, cardiac) and late-onset (limb-girdle weakness). Treatments: enzyme replacement (alglucosidase alfa/alglufoside), avalglucosidase alfa (next-gen)."
+description: "Autosomal recessive lysosomal storage disorder caused by acid α-glucosidase (GAA) deficiency. Glycogen accumulation in lysosomes, primarily in skeletal and cardiac muscle. Infantile-onset (classic): s"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Lysosomal storage disorder caused by acid α-glucosidase (GAA) deficiency. Glycogen accumulation in lysosomes, primarily in muscle. Infantile-onset (severe, cardiac) and late-onset (limb-girdle weakness). Treatments: enzyme replacement (alglucosidase alfa/alglufoside), avalglucosidase alfa (next-gen).
+Autosomal recessive lysosomal storage disorder caused by acid α-glucosidase (GAA) deficiency. Glycogen accumulation in lysosomes, primarily in skeletal and cardiac muscle. Infantile-onset (classic): severe cardiomyopathy, hypotonia, death by age 2 without treatment. Late-onset: progressive proximal muscle weakness. Treatments: enzyme replacement (alglucosidase alfa [Lumizyme], avalglucosidase alfa [Nexviazyme] — next-generation with improved uptake).
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

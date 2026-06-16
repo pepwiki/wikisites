@@ -1,6 +1,6 @@
 ---
 title: "COVID-19"
-description: "Coronavirus disease 2019 caused by SARS-CoV-2. Respiratory illness ranging from mild to critical. Spike protein binds ACE2 receptor for cell entry. Treatments: antivirals (remdesivir, nirmatrelvir/ritonavir), monoclonal antibodies, corticosteroids (dexamethasone)."
+description: "Coronavirus disease 2019 caused by SARS-CoV-2. Respiratory illness: mild (80%), moderate (15%), severe (5%). Pathogenesis: spike protein binds ACE2 receptor → viral entry → respiratory epithelial dama"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Coronavirus disease 2019 caused by SARS-CoV-2. Respiratory illness ranging from mild to critical. Spike protein binds ACE2 receptor for cell entry. Treatments: antivirals (remdesivir, nirmatrelvir/ritonavir), monoclonal antibodies, corticosteroids (dexamethasone).
+Coronavirus disease 2019 caused by SARS-CoV-2. Respiratory illness: mild (80%), moderate (15%), severe (5%). Pathogenesis: spike protein binds ACE2 receptor → viral entry → respiratory epithelial damage → cytokine storm. Long COVID in ~10%. Treatments: antivirals (remdesivir, nirmatrelvir/ritonavir), monoclonal antibodies (bebtelovimab), corticosteroids (dexamethasone for severe cases), JAK inhibitors (baricitinib).
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

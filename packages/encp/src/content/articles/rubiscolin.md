@@ -1,6 +1,6 @@
 ---
 title: "Rubiscolin"
-description: "Leu-enkephalin analog derived from spinach RuBisCO enzyme. Has opioid activity. Found in spinach and other plants. Potential dietary opioid."
+description: "Leu-enkephalin analog (Tyr-Gly-Gly-Phe-Leu) derived from spinach RuBisCO enzyme. Has opioid activity at delta-opioid receptors. Found in spinach and other leafy greens. May contribute to analgesic eff"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Leu-enkephalin analog derived from spinach RuBisCO enzyme. Has opioid activity. Found in spinach and other plants. Potential dietary opioid.
+Leu-enkephalin analog (Tyr-Gly-Gly-Phe-Leu) derived from spinach RuBisCO enzyme. Has opioid activity at delta-opioid receptors. Found in spinach and other leafy greens. May contribute to analgesic effects of spinach consumption.
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

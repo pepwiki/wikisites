@@ -1,6 +1,6 @@
 ---
 title: "Prostate Cancer"
-description: "Malignant proliferation of prostate epithelial cells. Androgen-dependent in most cases. PSA screening. Gleason scoring system. Treatments: active surveillance, surgery, radiation, ADT (GnRH agonists/antigenists), abiraterone, enzalutamide, docetaxel."
+description: "Malignant transformation of prostate epithelial cells. Most common cancer in men. Androgen-dependent in most cases. PSA screening: controversial (overdiagnosis risk). Gleason grading system (6-10). Ri"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Malignant proliferation of prostate epithelial cells. Androgen-dependent in most cases. PSA screening. Gleason scoring system. Treatments: active surveillance, surgery, radiation, ADT (GnRH agonists/antigenists), abiraterone, enzalutamide, docetaxel.
+Malignant transformation of prostate epithelial cells. Most common cancer in men. Androgen-dependent in most cases. PSA screening: controversial (overdiagnosis risk). Gleason grading system (6-10). Risk stratification: low, intermediate, high, very high. Treatments: active surveillance (low risk), radical prostatectomy, radiation therapy, androgen deprivation therapy (ADT), abiraterone (CYP17 inhibitor), enzalutamide (AR antagonist), docetaxel, radium-223.
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

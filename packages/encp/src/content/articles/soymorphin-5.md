@@ -1,6 +1,6 @@
 ---
 title: "Soymorphin-5"
-description: "Met-enkephalin analog derived from soy β-conglycinin. Opioid activity. Found in soy protein digests. Potential dietary opioid."
+description: "Met-enkephalin analog derived from soy β-conglycinin. Opioid activity. Found in soy protein digests. May contribute to neuroactive effects of soy consumption."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Met-enkephalin analog derived from soy β-conglycinin. Opioid activity. Found in soy protein digests. Potential dietary opioid.
+Met-enkephalin analog derived from soy β-conglycinin. Opioid activity. Found in soy protein digests. May contribute to neuroactive effects of soy consumption.
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

@@ -1,6 +1,6 @@
 ---
 title: "Epilepsy"
-description: "Neuronal hyperexcitability causing recurrent seizures. Idiopathic (60%), symptomatic (30%), cryptogenic (10%). Treatments: antiepileptic drugs (carbamazepine, valproate, lamotrigine, levetiracetam). Drug-resistant: surgery, VNS, RNS."
+description: "Neuronal hyperexcitability causing recurrent unprovoked seizures. Classification: focal (partial) or generalized. Etiology: idiopathic (genetic, 60%), symptomatic (structural/metabolic, 30%), cryptoge"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Neuronal hyperexcitability causing recurrent seizures. Idiopathic (60%), symptomatic (30%), cryptogenic (10%). Treatments: antiepileptic drugs (carbamazepine, valproate, lamotrigine, levetiracetam). Drug-resistant: surgery, VNS, RNS.
+Neuronal hyperexcitability causing recurrent unprovoked seizures. Classification: focal (partial) or generalized. Etiology: idiopathic (genetic, 60%), symptomatic (structural/metabolic, 30%), cryptogenic (10%). Electroencephalography: epileptiform discharges. Treatments: antiepileptic drugs (carbamazepine, valproate, lamotrigine, levetiracetam, topiramate). Drug-resistant epilepsy (20-30%): vagus nerve stimulation, responsive neurostimulation, ketogenic diet, resective surgery.
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

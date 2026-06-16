@@ -1,6 +1,6 @@
 ---
 title: "Casomorphin"
-description: "Casein-derived opioid peptides. Found in milk protein digests. May affect infant behavior and contribute to milk dependency."
+description: "Opioid peptides derived from casein (milk protein). β-casomorphin-7 (Tyr-Pro-Phe-Pro-Gly-Pro-Ile) is most studied. Activates mu-opioid receptors. May affect infant behavior and contribute to milk depe"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Casein-derived opioid peptides. Found in milk protein digests. May affect infant behavior and contribute to milk dependency.
+Opioid peptides derived from casein (milk protein). β-casomorphin-7 (Tyr-Pro-Phe-Pro-Gly-Pro-Ile) is most studied. Activates mu-opioid receptors. May affect infant behavior and contribute to milk dependency. Found in cow's milk and infant formula.
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

@@ -1,6 +1,6 @@
 ---
 title: "Syn-Ake"
-description: "Dipeptide mimetic of Waglerin-1 (temple viper venom). Diaminobutyryl benzylamide. Acetylcholine receptor antagonist. Reduces muscle contractions. Used in anti-wrinkle creams."
+description: "Diaminobutyryl benzylamide. Synthetic tripeptide mimicking Waglerin-1 from temple viper (Tropidolaemus wagleri) venom. Competitively blocks nicotinic acetylcholine receptors at neuromuscular junction."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Dipeptide mimetic of Waglerin-1 (temple viper venom). Diaminobutyryl benzylamide. Acetylcholine receptor antagonist. Reduces muscle contractions. Used in anti-wrinkle creams.
+Diaminobutyryl benzylamide. Synthetic tripeptide mimicking Waglerin-1 from temple viper (Tropidolaemus wagleri) venom. Competitively blocks nicotinic acetylcholine receptors at neuromuscular junction. Reduces muscle contractions. Used in anti-wrinkle cosmetics (Argireline analog).
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

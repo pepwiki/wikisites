@@ -1,6 +1,6 @@
 ---
 title: "Gluten Exorphin"
-description: "Gluten-derived opioid peptides. Found in wheat gluten digests. May affect brain function and behavior. Potential role in schizophrenia and autism."
+description: "Opioid peptides derived from wheat gluten. Multiple forms (glutenexorphin A5, B5, C5). May affect brain function and behavior. Potential role in gluten sensitivity, schizophrenia, and autism."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Gluten-derived opioid peptides. Found in wheat gluten digests. May affect brain function and behavior. Potential role in schizophrenia and autism.
+Opioid peptides derived from wheat gluten. Multiple forms (glutenexorphin A5, B5, C5). May affect brain function and behavior. Potential role in gluten sensitivity, schizophrenia, and autism.
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

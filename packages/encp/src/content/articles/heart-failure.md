@@ -1,6 +1,6 @@
 ---
 title: "Heart Failure"
-description: "Clinical syndrome resulting from structural or functional impairment of ventricular filling or ejection. HFrEF (EF ≤40%), HFpEF (EF ≥50%), HFmrEF (EF 41-49%). Pathophysiology: neurohormonal activation (RAAS, sympathetic, natriuretic peptides). Treatments: ACEi/ARB, beta-blockers, MRA, SGLT2 inhibitors, ARNI, device therapy."
+description: "Clinical syndrome from structural/functional cardiac impairment. HFrEF (EF ≤40%): systolic dysfunction. HFpEF (EF ≥50%): diastolic dysfunction. HFmrEF (EF 41-49%): intermediate. Pathophysiology: neuro"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Clinical syndrome resulting from structural or functional impairment of ventricular filling or ejection. HFrEF (EF ≤40%), HFpEF (EF ≥50%), HFmrEF (EF 41-49%). Pathophysiology: neurohormonal activation (RAAS, sympathetic, natriuretic peptides). Treatments: ACEi/ARB, beta-blockers, MRA, SGLT2 inhibitors, ARNI, device therapy.
+Clinical syndrome from structural/functional cardiac impairment. HFrEF (EF ≤40%): systolic dysfunction. HFpEF (EF ≥50%): diastolic dysfunction. HFmrEF (EF 41-49%): intermediate. Pathophysiology: neurohormonal activation (RAAS, sympathetic), ventricular remodeling. Treatments: ACEi/ARB/ARNI (sacubitril/valsartan), beta-blockers, MRA, SGLT2 inhibitors, device therapy (ICD, CRT).
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

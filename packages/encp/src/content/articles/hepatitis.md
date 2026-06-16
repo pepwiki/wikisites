@@ -1,6 +1,6 @@
 ---
 title: "Hepatitis"
-description: "Inflammation of the liver. HBV: DNA virus, horizontal transmission, chronic in 5% adults. HCV: RNA virus, blood-borne, chronic in 75-85%. Both cause cirrhosis and HCC. Treatments: HBV: entecavir, tenofovir. HCV: sofosbuvir-based regimens (curative)."
+description: "Liver inflammation. HBV: DNA virus, 320M chronically infected globally, horizontal/vertical transmission, 5% chronic in adults, leads to cirrhosis/HCC. HCV: RNA virus, blood-borne, 70M chronically inf"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Inflammation of the liver. HBV: DNA virus, horizontal transmission, chronic in 5% adults. HCV: RNA virus, blood-borne, chronic in 75-85%. Both cause cirrhosis and HCC. Treatments: HBV: entecavir, tenofovir. HCV: sofosbuvir-based regimens (curative).
+Liver inflammation. HBV: DNA virus, 320M chronically infected globally, horizontal/vertical transmission, 5% chronic in adults, leads to cirrhosis/HCC. HCV: RNA virus, blood-borne, 70M chronically infected, 75-85% chronic, leads to cirrhosis/HCC. Treatments: HBV: entecavir, tenofovir (suppress, rarely cure). HCV: sofosbuvir-based regimens (85-95% cure rate).
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

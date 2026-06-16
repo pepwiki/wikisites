@@ -1,6 +1,6 @@
 ---
 title: "Atherosclerosis"
-description: "Chronic inflammatory disease of arterial walls characterized by lipid accumulation, fibrous plaque formation, and progressive luminal narrowing. Pathogenesis: endothelial dysfunction → LDL oxidation → foam cell formation → fibrous cap → rupture/thrombosis. Treatments: statins, antiplatelet agents, PCSK9 inhibitors."
+description: "Chronic inflammatory disease of arterial walls. Pathogenesis: endothelial dysfunction → LDL infiltration and oxidation → foam cell formation → fatty streak → fibrous cap formation → plaque rupture/thr"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Chronic inflammatory disease of arterial walls characterized by lipid accumulation, fibrous plaque formation, and progressive luminal narrowing. Pathogenesis: endothelial dysfunction → LDL oxidation → foam cell formation → fibrous cap → rupture/thrombosis. Treatments: statins, antiplatelet agents, PCSK9 inhibitors.
+Chronic inflammatory disease of arterial walls. Pathogenesis: endothelial dysfunction → LDL infiltration and oxidation → foam cell formation → fatty streak → fibrous cap formation → plaque rupture/thrombosis. Risk factors: hypertension, dyslipidemia (LDL, Lp(a)), diabetes, smoking, inflammation. Treatments: statins (LDL reduction), antiplatelet agents (aspirin, clopidogrel), PCSK9 inhibitors (evolocumab, alirocumab), lifestyle modification.
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

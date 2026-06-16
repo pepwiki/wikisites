@@ -1,6 +1,6 @@
 ---
 title: "Schizophrenia"
-description: "Chronic psychiatric disorder with positive symptoms (hallucinations, delusions), negative symptoms (flat affect, social withdrawal), and cognitive deficits. Dopamine hypothesis (mesolimbic hyperactivity, mesocortical hypoactivity). Treatments: antipsychotics (first and second generation)."
+description: "Chronic psychiatric disorder affecting ~1% of population. Positive symptoms (hallucinations, delusions, disorganized speech), negative symptoms (flat affect, avolition, social withdrawal), cognitive d"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Chronic psychiatric disorder with positive symptoms (hallucinations, delusions), negative symptoms (flat affect, social withdrawal), and cognitive deficits. Dopamine hypothesis (mesolimbic hyperactivity, mesocortical hypoactivity). Treatments: antipsychotics (first and second generation).
+Chronic psychiatric disorder affecting ~1% of population. Positive symptoms (hallucinations, delusions, disorganized speech), negative symptoms (flat affect, avolition, social withdrawal), cognitive deficits (attention, memory, executive function). Pathophysiology: dopamine hypothesis (mesolimbic hyperactivity → positive symptoms, mesocortical hypoactivity → negative symptoms), glutamate hypothesis (NMDA hypofunction). Treatments: first-generation antipsychotics (haloperidol), second-generation antipsychotics (olanzapine, quetiapine, aripiprazole, risperidone), clozapine (treatment-resistant).
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

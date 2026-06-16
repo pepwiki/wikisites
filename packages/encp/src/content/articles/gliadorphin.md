@@ -1,6 +1,6 @@
 ---
 title: "Gliadorphin"
-description: "Gluten-derived opioid peptide. Found in wheat gluten digests. May contribute to neurological symptoms in celiac disease and gluten sensitivity."
+description: "Opioid peptide derived from wheat gluten (gliadin). Sequence: Tyr-Pro-Gln-Pro-Gln. Found in gluten digests. May cross blood-brain barrier and affect neurotransmission. Potential role in schizophrenia "
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Gluten-derived opioid peptide. Found in wheat gluten digests. May contribute to neurological symptoms in celiac disease and gluten sensitivity.
+Opioid peptide derived from wheat gluten (gliadin). Sequence: Tyr-Pro-Gln-Pro-Gln. Found in gluten digests. May cross blood-brain barrier and affect neurotransmission. Potential role in schizophrenia and autism spectrum disorders.
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

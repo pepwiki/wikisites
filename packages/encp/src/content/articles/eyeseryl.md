@@ -1,6 +1,6 @@
 ---
 title: "Eyeseryl"
-description: "Acetyl tetrapeptide-5. Reduces puffiness and dark circles under eyes. Inhibits glycation and increases lymphatic drainage. Used in eye care products."
+description: "Acetyl tetrapeptide-5 (Ac-β-Ala-His-Ser-Ser). Reduces periorbital puffiness and dark circles. Inhibits glycation of collagen, increases lymphatic drainage, reduces capillary permeability. Used in eye "
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Acetyl tetrapeptide-5. Reduces puffiness and dark circles under eyes. Inhibits glycation and increases lymphatic drainage. Used in eye care products.
+Acetyl tetrapeptide-5 (Ac-β-Ala-His-Ser-Ser). Reduces periorbital puffiness and dark circles. Inhibits glycation of collagen, increases lymphatic drainage, reduces capillary permeability. Used in eye care formulations.
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

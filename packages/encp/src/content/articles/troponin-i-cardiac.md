@@ -1,6 +1,6 @@
 ---
 title: "Cardiac Troponin I"
-description: "209-aa regulatory protein of cardiac muscle thin filament. Cardiac-specific isoform (cTnI). Released upon myocardial injury. Normal: <0.04 ng/mL (high-sensitivity assay). Gold standard for MI diagnosis."
+description: "209-aa regulatory protein of cardiac muscle thin filament. Cardiac-specific isoform (cTnI) encoded by TNNI3 gene. Released upon myocardial cell death. Normal: <0.04 ng/mL (high-sensitivity assay). Gol"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-209-aa regulatory protein of cardiac muscle thin filament. Cardiac-specific isoform (cTnI). Released upon myocardial injury. Normal: <0.04 ng/mL (high-sensitivity assay). Gold standard for MI diagnosis.
+209-aa regulatory protein of cardiac muscle thin filament. Cardiac-specific isoform (cTnI) encoded by TNNI3 gene. Released upon myocardial cell death. Normal: <0.04 ng/mL (high-sensitivity assay). Gold standard biomarker for myocardial infarction diagnosis.
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

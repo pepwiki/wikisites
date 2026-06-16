@@ -1,6 +1,6 @@
 ---
 title: "Colorectal Cancer"
-description: "Malignant transformation of colonic or rectal epithelium. APC/β-catenin pathway (60%), KRAS mutations (40%), microsatellite instability (15%). Treatments: surgery, FOLFOX/FOLFIRI, bevacizumab, cetuximab, pembrolizumab (MSI-H)."
+description: "Malignant transformation of colonic or rectal epithelium. Third most common cancer worldwide. Molecular pathways: APC/β-catenin (60%), KRAS mutations (40%), microsatellite instability (15%, DNA mismat"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Malignant transformation of colonic or rectal epithelium. APC/β-catenin pathway (60%), KRAS mutations (40%), microsatellite instability (15%). Treatments: surgery, FOLFOX/FOLFIRI, bevacizumab, cetuximab, pembrolizumab (MSI-H).
+Malignant transformation of colonic or rectal epithelium. Third most common cancer worldwide. Molecular pathways: APC/β-catenin (60%), KRAS mutations (40%), microsatellite instability (15%, DNA mismatch repair deficiency). Risk factors: age, IBD, family history, diet. Treatments: surgery, FOLFOX/FOLFIRI (chemotherapy), bevacizumab (anti-VEGF), cetuximab (anti-EGFR for KRAS wild-type), pembrolizumab (MSI-H/dMMR).
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

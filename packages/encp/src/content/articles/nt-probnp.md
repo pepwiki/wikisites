@@ -1,6 +1,6 @@
 ---
 title: "NT-proBNP"
-description: "76-amino acid N-terminal fragment of proBNP. Biologically inactive but cleared by kidneys (T½ ~120 min). More stable than BNP. Normal: <125 pg/mL (<750 age >50). Used for heart failure diagnosis and prognosis."
+description: "76-amino acid N-terminal fragment of proBNP. Biologically inactive but cleared by kidneys (t½ ~120 min). More stable than BNP. Normal: <125 pg/mL (<750 pg/mL age >50). Used for heart failure diagnosis"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-76-amino acid N-terminal fragment of proBNP. Biologically inactive but cleared by kidneys (T½ ~120 min). More stable than BNP. Normal: <125 pg/mL (<750 age >50). Used for heart failure diagnosis and prognosis.
+76-amino acid N-terminal fragment of proBNP. Biologically inactive but cleared by kidneys (t½ ~120 min). More stable than BNP. Normal: <125 pg/mL (<750 pg/mL age >50). Used for heart failure diagnosis and prognosis. Superior to BNP for ruling out heart failure in acute settings.
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

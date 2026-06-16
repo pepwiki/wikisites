@@ -1,6 +1,6 @@
 ---
 title: "Pneumonia"
-description: "Infection of lung parenchyma. Community-acquired: S. pneumoniae, H. influenzae, M. pneumoniae. Hospital-acquired: P. aeruginosa, MRSA, ESBL-producing Enterobacteriaceae. Treatments: antibiotics (β-lactams, macrolides, fluoroquinolones)."
+description: "Infection of lung parenchyma. Community-acquired: S. pneumoniae (most common), H. influenzae, M. pneumoniae, S. aureus. Hospital-acquired: P. aeruginosa, MRSA, ESBL-producing Enterobacteriaceae. Aspir"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Infection of lung parenchyma. Community-acquired: S. pneumoniae, H. influenzae, M. pneumoniae. Hospital-acquired: P. aeruginosa, MRSA, ESBL-producing Enterobacteriaceae. Treatments: antibiotics (β-lactams, macrolides, fluoroquinolones).
+Infection of lung parenchyma. Community-acquired: S. pneumoniae (most common), H. influenzae, M. pneumoniae, S. aureus. Hospital-acquired: P. aeruginosa, MRSA, ESBL-producing Enterobacteriaceae. Aspiration: anaerobes. Treatments: antibiotics (β-lactams, macrolides, fluoroquinolones), respiratory support.
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

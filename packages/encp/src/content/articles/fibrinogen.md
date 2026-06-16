@@ -1,6 +1,6 @@
 ---
 title: "Fibrinogen"
-description: "340 kDa glycoprotein (Aα, Bβ, γ)₂ hexamer. Converted to fibrin by thrombin. Essential for blood clot formation. Normal: 200-400 mg/dL. Elevated in inflammation, CVD risk. Low in DIC, massive transfusion, liver disease."
+description: "340 kDa glycoprotein (Aα, Bβ, γ)₂ hexamer. 340-aa Aα chains, 461-aa Bβ chains, 411-aa γ chains. Converted to fibrin by thrombin (cleaves fibrinopeptides A and B). Essential for blood clot formation vi"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-340 kDa glycoprotein (Aα, Bβ, γ)₂ hexamer. Converted to fibrin by thrombin. Essential for blood clot formation. Normal: 200-400 mg/dL. Elevated in inflammation, CVD risk. Low in DIC, massive transfusion, liver disease.
+340 kDa glycoprotein (Aα, Bβ, γ)₂ hexamer. 340-aa Aα chains, 461-aa Bβ chains, 411-aa γ chains. Converted to fibrin by thrombin (cleaves fibrinopeptides A and B). Essential for blood clot formation via fibrin polymerization. Normal: 200-400 mg/dL. Elevated in inflammation, CVD risk. Low in DIC, massive transfusion, liver disease.
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

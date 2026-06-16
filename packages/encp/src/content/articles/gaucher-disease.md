@@ -1,6 +1,6 @@
 ---
 title: "Gaucher Disease"
-description: "Lysosomal storage disorder caused by glucocerebrosidase (GBA) deficiency. Glucocerebroside accumulation in macrophages. Types: Type 1 (non-neuronopathic, most common), Type 2 (acute neuronopathic), Type 3 (chronic neuronopathic). Treatments: enzyme replacement (imiglucerase, velaglucerase), substrate reduction (eliglustat, miglustat)."
+description: "Most common lysosomal storage disorder. Caused by glucocerebrosidase (GBA/glcCerase) deficiency. Glucocerebroside accumulation in macrophages (Gaucher cells). Type 1 (94%, non-neuronopathic): hepatosp"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Lysosomal storage disorder caused by glucocerebrosidase (GBA) deficiency. Glucocerebroside accumulation in macrophages. Types: Type 1 (non-neuronopathic, most common), Type 2 (acute neuronopathic), Type 3 (chronic neuronopathic). Treatments: enzyme replacement (imiglucerase, velaglucerase), substrate reduction (eliglustat, miglustat).
+Most common lysosomal storage disorder. Caused by glucocerebrosidase (GBA/glcCerase) deficiency. Glucocerebroside accumulation in macrophages (Gaucher cells). Type 1 (94%, non-neuronopathic): hepatosplenomegaly, bone disease, anemia. Type 2 (acute neuronopathic): severe, death in infancy. Type 3 (chronic neuronopathic): intermediate severity. Treatments: enzyme replacement (imiglucerase [Cerezyme], velaglucerase alfa [VPRIV], aglucerase alfa), substrate reduction (eliglustat [Cerdelga], miglustat [Zavesca]).
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

@@ -1,6 +1,6 @@
 ---
 title: "Breast Cancer"
-description: "Malignant proliferation of breast epithelial cells. Molecular subtypes: ER+/PR+/HER2- (luminal A), ER+/HER2+ (luminal B), ER-/HER2+ (HER2-enriched), ER-/PR-/HER2- (triple-negative). Treatments: surgery, radiation, endocrine therapy, chemotherapy, HER2-targeted therapy, immunotherapy."
+description: "Malignant proliferation of breast epithelial cells. Most common cancer in women worldwide. Molecular subtypes: Luminal A (ER+/PR+/HER2-, best prognosis), Luminal B (ER+/HER2+, intermediate), HER2-enri"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Malignant proliferation of breast epithelial cells. Molecular subtypes: ER+/PR+/HER2- (luminal A), ER+/HER2+ (luminal B), ER-/HER2+ (HER2-enriched), ER-/PR-/HER2- (triple-negative). Treatments: surgery, radiation, endocrine therapy, chemotherapy, HER2-targeted therapy, immunotherapy.
+Malignant proliferation of breast epithelial cells. Most common cancer in women worldwide. Molecular subtypes: Luminal A (ER+/PR+/HER2-, best prognosis), Luminal B (ER+/HER2+, intermediate), HER2-enriched (ER-/HER2+, aggressive but targetable), Triple-negative (ER-/PR-/HER2-, worst prognosis). Risk factors: age, BRCA1/2 mutations, family history, hormone exposure. Treatments: surgery (lumpectomy/mastectomy), radiation, endocrine therapy (tamoxifen, aromatase inhibitors), HER2-targeted (trastuzumab, pertuzumab), CDK4/6 inhibitors, immunotherapy (pembrolizumab for TNBC).
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

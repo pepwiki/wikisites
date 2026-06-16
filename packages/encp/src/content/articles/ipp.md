@@ -1,6 +1,6 @@
 ---
 title: "IPP"
-description: "Isoleucine-proline-proline. ACE-inhibitory tripeptide derived from casein. Inhibits angiotensin-converting enzyme. Found in fermented milk products."
+description: "Isoleucine-proline-proline. ACE-inhibitory tripeptide from casein. Inhibits angiotensin-converting enzyme (IC50 ~8 μM). Found in fermented milk products. Contributes to blood pressure reduction."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Isoleucine-proline-proline. ACE-inhibitory tripeptide derived from casein. Inhibits angiotensin-converting enzyme. Found in fermented milk products.
+Isoleucine-proline-proline. ACE-inhibitory tripeptide from casein. Inhibits angiotensin-converting enzyme (IC50 ~8 μM). Found in fermented milk products. Contributes to blood pressure reduction.
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

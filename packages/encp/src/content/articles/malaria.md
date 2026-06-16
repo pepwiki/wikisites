@@ -1,6 +1,6 @@
 ---
 title: "Malaria"
-description: "Life-threatening parasitic disease caused by Plasmodium species (P. falciparum most lethal). Transmitted by Anopheles mosquitoes. Liver stage → blood stage → symptomatic disease. Treatments: artemisinin-based combination therapy (ACT), chloroquine (P. vivax), primaquine (radical cure)."
+description: "Life-threatening parasitic disease caused by Plasmodium species. P. falciparum (most lethal), P. vivax, P. ovale, P. malariae, P. knowlesi. Transmitted by Anopheles mosquitoes. Life cycle: liver stage"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Life-threatening parasitic disease caused by Plasmodium species (P. falciparum most lethal). Transmitted by Anopheles mosquitoes. Liver stage → blood stage → symptomatic disease. Treatments: artemisinin-based combination therapy (ACT), chloroquine (P. vivax), primaquine (radical cure).
+Life-threatening parasitic disease caused by Plasmodium species. P. falciparum (most lethal), P. vivax, P. ovale, P. malariae, P. knowlesi. Transmitted by Anopheles mosquitoes. Life cycle: liver stage (asymptomatic) → blood stage (symptomatic). Complications: cerebral malaria, severe anemia, organ failure. Treatments: artemisinin-based combination therapy (ACT), chloroquine (P. vivax), primaquine (radical cure for hypnozoites).
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

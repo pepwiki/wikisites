@@ -1,6 +1,6 @@
 ---
 title: "Tuberculosis"
-description: "Infectious disease caused by Mycobacterium tuberculosis. Airborne transmission. Latent infection (1/3 of world population) → active disease in 5-10%. Treatments: 4-drug regimen (RIPE: rifampicin, isoniazid, pyrazinamide, ethambutol) for 6 months."
+description: "Infectious disease caused by Mycobacterium tuberculosis. Airborne transmission. Latent infection (2 billion people globally) → active disease in 5-10% (lifetime risk). Diagnosis: sputum smear, culture"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Infectious disease caused by Mycobacterium tuberculosis. Airborne transmission. Latent infection (1/3 of world population) → active disease in 5-10%. Treatments: 4-drug regimen (RIPE: rifampicin, isoniazid, pyrazinamide, ethambutol) for 6 months.
+Infectious disease caused by Mycobacterium tuberculosis. Airborne transmission. Latent infection (2 billion people globally) → active disease in 5-10% (lifetime risk). Diagnosis: sputum smear, culture, Xpert MTB/RIF. Treatments: 2-month intensive phase (rifampicin, isoniazid, pyrazinamide, ethambutol) + 4-month continuation phase (rifampicin, isoniazid). MDR-TB requires longer regimens.
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

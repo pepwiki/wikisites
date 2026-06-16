@@ -1,6 +1,6 @@
 ---
 title: "Type 2 Diabetes"
-description: "Chronic metabolic disorder characterized by hyperglycemia resulting from insulin resistance and progressive β-cell failure. Pathophysiology: insulin resistance → compensatory hyperinsulinemia → β-cell exhaustion → relative insulin deficiency. Treatments: metformin, sulfonylureas, GLP-1 agonists, SGLT2 inhibitors, DPP-4 inhibitors, insulin."
+description: "Chronic metabolic disorder characterized by hyperglycemia resulting from insulin resistance and progressive pancreatic β-cell failure. Pathophysiology: insulin resistance in muscle/liver/adipose → com"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Chronic metabolic disorder characterized by hyperglycemia resulting from insulin resistance and progressive β-cell failure. Pathophysiology: insulin resistance → compensatory hyperinsulinemia → β-cell exhaustion → relative insulin deficiency. Treatments: metformin, sulfonylureas, GLP-1 agonists, SGLT2 inhibitors, DPP-4 inhibitors, insulin.
+Chronic metabolic disorder characterized by hyperglycemia resulting from insulin resistance and progressive pancreatic β-cell failure. Pathophysiology: insulin resistance in muscle/liver/adipose → compensatory hyperinsulinemia → β-cell exhaustion → relative insulin deficiency. Risk factors: obesity, physical inactivity, family history, age. Complications: retinopathy, nephropathy, neuropathy, cardiovascular disease. Treatments: metformin (first-line), sulfonylureas, GLP-1 receptor agonists (semaglutide, liraglutide), SGLT2 inhibitors, DPP-4 inhibitors, thiazolidinediones, insulin.
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

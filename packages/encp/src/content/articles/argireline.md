@@ -1,6 +1,6 @@
 ---
 title: "Argireline"
-description: "Acetyl hexapeptide-3 (Argireline). Inhibits SNARE complex formation, reducing neurotransmitter release. Topical anti-wrinkle peptide. Similar mechanism to botulinum toxin but milder."
+description: "Acetyl hexapeptide-3 (Ac-Glu-Glu-Met-Gln-Arg-Arg). Inhibits SNARE complex formation (synaptobrevin/VAMP) by competing with SNAP-25. Reduces neurotransmitter release at neuromuscular junction. Topical "
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Acetyl hexapeptide-3 (Argireline). Inhibits SNARE complex formation, reducing neurotransmitter release. Topical anti-wrinkle peptide. Similar mechanism to botulinum toxin but milder.
+Acetyl hexapeptide-3 (Ac-Glu-Glu-Met-Gln-Arg-Arg). Inhibits SNARE complex formation (synaptobrevin/VAMP) by competing with SNAP-25. Reduces neurotransmitter release at neuromuscular junction. Topical anti-wrinkle peptide. 10× weaker than botulinum toxin. Concentration: 2-10 ppm.
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

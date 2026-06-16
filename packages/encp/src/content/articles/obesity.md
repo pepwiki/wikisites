@@ -1,6 +1,6 @@
 ---
 title: "Obesity"
-description: "Excess body fat accumulation (BMI ≥30 kg/m²). Multifactorial: genetic, environmental, behavioral. Pathophysiology: energy imbalance, leptin resistance, hypothalamic dysregulation. Treatments: lifestyle modification, pharmacotherapy (GLP-1 agonists), bariatric surgery."
+description: "Excess body fat accumulation (BMI ≥30 kg/m²). Multifactorial: genetic (polygenic), environmental (diet, physical activity), behavioral, epigenetic. Pathophysiology: energy imbalance, leptin resistance"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Excess body fat accumulation (BMI ≥30 kg/m²). Multifactorial: genetic, environmental, behavioral. Pathophysiology: energy imbalance, leptin resistance, hypothalamic dysregulation. Treatments: lifestyle modification, pharmacotherapy (GLP-1 agonists), bariatric surgery.
+Excess body fat accumulation (BMI ≥30 kg/m²). Multifactorial: genetic (polygenic), environmental (diet, physical activity), behavioral, epigenetic. Pathophysiology: energy imbalance, leptin resistance (hypothalamus), dysregulated appetite circuits. Complications: T2DM, CVD, OSA, NAFLD, certain cancers. Treatments: lifestyle modification, GLP-1 agonists (semaglutide, tirzepatide), bariatric surgery.
 
 ## Clinical Significance
 
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
