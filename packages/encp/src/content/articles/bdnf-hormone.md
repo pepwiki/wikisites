@@ -1,0 +1,30 @@
+---
+title: "BDNF Hormone"
+description: "The BDNF Hormone and its role in endocrine signaling."
+status: "published"
+author: "Encyclopeptide Editorial"
+pubDate: 2026-06-16
+tags: ["BDNF","hormone","endocrine"]
+category: "Peptide Hormones"
+difficulty: "intermediate"
+relatedArticles: []
+---
+
+## Overview
+
+The BDNF Hormone and its role in endocrine signaling.
+
+## Properties
+
+| Property | Value |
+|----------|-------|
+| **Name** | BDNF Hormone |
+| **Category** | Peptide Hormones |
+
+## Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "bdnf-hormone" monograph. encyclopeptide.com.

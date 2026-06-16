@@ -1,0 +1,30 @@
+---
+title: "Aspartate Modification"
+description: "Post-translational modifications of Aspartate including phosphorylation, methylation, acetylation, and ubiquitination."
+status: "published"
+author: "Encyclopeptide Editorial"
+pubDate: 2026-06-16
+tags: ["aspartate","modification","post-translational"]
+category: "Amino Acid Modifications"
+difficulty: "intermediate"
+relatedArticles: []
+---
+
+## Overview
+
+Post-translational modifications of Aspartate including phosphorylation, methylation, acetylation, and ubiquitination.
+
+## Properties
+
+| Property | Value |
+|----------|-------|
+| **Name** | Aspartate Modification |
+| **Category** | Amino Acid Modifications |
+
+## Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "aspartate-modification" monograph. encyclopeptide.com.

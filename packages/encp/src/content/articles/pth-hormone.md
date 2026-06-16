@@ -1,0 +1,30 @@
+---
+title: "PTH Hormone"
+description: "The PTH Hormone and its role in endocrine signaling."
+status: "published"
+author: "Encyclopeptide Editorial"
+pubDate: 2026-06-16
+tags: ["PTH","hormone","endocrine"]
+category: "Peptide Hormones"
+difficulty: "intermediate"
+relatedArticles: []
+---
+
+## Overview
+
+The PTH Hormone and its role in endocrine signaling.
+
+## Properties
+
+| Property | Value |
+|----------|-------|
+| **Name** | PTH Hormone |
+| **Category** | Peptide Hormones |
+
+## Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "pth-hormone" monograph. encyclopeptide.com.
