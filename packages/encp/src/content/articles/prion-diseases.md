@@ -1,6 +1,6 @@
 ---
 title: "Prion Diseases"
-description: "Transmissible spongiform encephalopathies caused by PrPSc. Include CJD, BSE, kuru. No effective treatment."
+description: "Transmissible spongiform encephalopathies caused by PrPSc."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Transmissible spongiform encephalopathies caused by PrPSc. Include CJD, BSE, kuru. No effective treatment.
+Transmissible spongiform encephalopathies caused by PrPSc.
 
 ## Clinical Significance
 

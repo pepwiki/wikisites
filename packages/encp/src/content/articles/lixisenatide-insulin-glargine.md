@@ -1,6 +1,6 @@
 ---
 title: "Lixisenatide/Insulin Glargine"
-description: "Fixed-ratio combination of lixisenatide and insulin glargine for type 2 diabetes."
+description: "Fixed-ratio combination for type 2 diabetes."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Fixed-ratio combination of lixisenatide and insulin glargine for type 2 diabetes.
+Fixed-ratio combination for type 2 diabetes.
 
 ## Clinical Significance
 

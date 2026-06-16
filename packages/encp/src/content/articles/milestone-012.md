@@ -1,6 +1,6 @@
 ---
 title: "Milestone 012"
-description: "2011: First GLP-1 agonist for obesity (liraglutide/Saxenda) approved. Revolutionizes obesity pharmacotherapy."
+description: "2011: First GLP-1 agonist for obesity (liraglutide/Saxenda) approved. Revolutionizes obesity treatment."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-2011: First GLP-1 agonist for obesity (liraglutide/Saxenda) approved. Revolutionizes obesity pharmacotherapy.
+2011: First GLP-1 agonist for obesity (liraglutide/Saxenda) approved. Revolutionizes obesity treatment.
 
 ## Clinical Significance
 

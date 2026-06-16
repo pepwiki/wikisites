@@ -1,6 +1,6 @@
 ---
 title: "Endocrine"
-description: "Clinical trials and therapeutics for endocrine-related diseases."
+description: "Clinical trials for endocrine-related diseases."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Clinical trials and therapeutics for endocrine-related diseases.
+Clinical trials for endocrine-related diseases.
 
 ## Clinical Significance
 

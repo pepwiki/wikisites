@@ -1,6 +1,6 @@
 ---
 title: "Multiple Myeloma"
-description: "Plasma cell malignancy. Characterized by monoclonal protein, bone lesions, anemia, renal failure. Treatments: proteasome inhibitors, IMiDs, monoclonal antibodies."
+description: "Plasma cell malignancy. Monoclonal protein, bone lesions, anemia."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Plasma cell malignancy. Characterized by monoclonal protein, bone lesions, anemia, renal failure. Treatments: proteasome inhibitors, IMiDs, monoclonal antibodies.
+Plasma cell malignancy. Monoclonal protein, bone lesions, anemia.
 
 ## Clinical Significance
 

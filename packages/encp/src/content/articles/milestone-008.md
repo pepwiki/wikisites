@@ -1,6 +1,6 @@
 ---
 title: "Milestone 008"
-description: "1993: First GLP-1 agonist (exenatide) discovered from Gila monster venom. Opens incretin-based diabetes therapy."
+description: "1993: First GLP-1 agonist (exenatide) discovered from Gila monster venom. Opens incretin therapy."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-1993: First GLP-1 agonist (exenatide) discovered from Gila monster venom. Opens incretin-based diabetes therapy.
+1993: First GLP-1 agonist (exenatide) discovered from Gila monster venom. Opens incretin therapy.
 
 ## Clinical Significance
 

@@ -1,6 +1,6 @@
 ---
 title: "Hepatotoxicity"
-description: "Liver damage caused by peptide drugs. Can include elevated liver enzymes and liver failure."
+description: "Liver damage caused by peptide drugs."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Liver damage caused by peptide drugs. Can include elevated liver enzymes and liver failure.
+Liver damage caused by peptide drugs.
 
 ## Clinical Significance
 

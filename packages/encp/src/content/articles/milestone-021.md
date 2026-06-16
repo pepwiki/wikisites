@@ -1,6 +1,6 @@
 ---
 title: "Milestone 021"
-description: "1922: First clinical use of insulin in human patients. Leonard Thompson receives insulin injection."
+description: "1922: First clinical use of insulin in human patients."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-1922: First clinical use of insulin in human patients. Leonard Thompson receives insulin injection.
+1922: First clinical use of insulin in human patients.
 
 ## Clinical Significance
 

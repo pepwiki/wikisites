@@ -1,6 +1,6 @@
 ---
 title: "Milestone 009"
-description: "1998: First GnRH antagonist (cetrorelix) approved. Advances reproductive medicine and cancer treatment."
+description: "1998: First GnRH antagonist (cetrorelix) approved. Advances reproductive medicine."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-1998: First GnRH antagonist (cetrorelix) approved. Advances reproductive medicine and cancer treatment.
+1998: First GnRH antagonist (cetrorelix) approved. Advances reproductive medicine.
 
 ## Clinical Significance
 

@@ -1,6 +1,6 @@
 ---
 title: "Disease Biomarkers"
-description: "Peptide biomarkers for disease diagnosis, prognosis, and treatment monitoring."
+description: "Peptide biomarkers for disease diagnosis."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Peptide biomarkers for disease diagnosis, prognosis, and treatment monitoring.
+Peptide biomarkers for disease diagnosis.
 
 ## Clinical Significance
 

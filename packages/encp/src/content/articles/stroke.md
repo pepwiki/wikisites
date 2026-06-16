@@ -1,6 +1,6 @@
 ---
 title: "Stroke"
-description: "Cerebrovascular accident. Ischemic (85%) or hemorrhagic (15%). Treatments: thrombolysis (ischemic), blood pressure control (hemorrhagic)."
+description: "Cerebrovascular accident. Ischemic (85%) or hemorrhagic (15%)."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Cerebrovascular accident. Ischemic (85%) or hemorrhagic (15%). Treatments: thrombolysis (ischemic), blood pressure control (hemorrhagic).
+Cerebrovascular accident. Ischemic (85%) or hemorrhagic (15%).
 
 ## Clinical Significance
 

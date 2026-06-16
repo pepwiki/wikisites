@@ -1,6 +1,6 @@
 ---
 title: "Gastroenterology"
-description: "Clinical trials and therapeutics for gastrointestinal diseases."
+description: "Clinical trials for gastrointestinal diseases."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Clinical trials and therapeutics for gastrointestinal diseases.
+Clinical trials for gastrointestinal diseases.
 
 ## Clinical Significance
 

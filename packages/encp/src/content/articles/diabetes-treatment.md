@@ -1,6 +1,6 @@
 ---
 title: "Diabetes Treatment"
-description: "Peptide therapeutics for diabetes including insulin analogs and GLP-1 agonists."
+description: "Peptide therapeutics for diabetes."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Peptide therapeutics for diabetes including insulin analogs and GLP-1 agonists.
+Peptide therapeutics for diabetes.
 
 ## Clinical Significance
 

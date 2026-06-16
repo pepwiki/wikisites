@@ -1,6 +1,6 @@
 ---
 title: "Quality by Design"
-description: "Quality by Design (QbD) approach to peptide drug development and manufacturing."
+description: "Quality by Design approach to peptide drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Quality by Design (QbD) approach to peptide drug development and manufacturing.
+Quality by Design approach to peptide drug development.
 
 ## Clinical Significance
 

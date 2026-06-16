@@ -1,6 +1,6 @@
 ---
 title: "Biomaterials"
-description: "Peptide-based biomaterials for tissue engineering, wound healing, and drug delivery."
+description: "Peptide-based biomaterials for tissue engineering."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Peptide-based biomaterials for tissue engineering, wound healing, and drug delivery.
+Peptide-based biomaterials for tissue engineering.
 
 ## Clinical Significance
 

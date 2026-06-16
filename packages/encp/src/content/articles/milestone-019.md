@@ -1,6 +1,6 @@
 ---
 title: "Milestone 019"
-description: "2024: Nobel Prize in Chemistry for AlphaFold (Hassabis, Jumper). Computational protein structure prediction."
+description: "2024: Nobel Prize in Chemistry for AlphaFold (Hassabis, Jumper)."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-2024: Nobel Prize in Chemistry for AlphaFold (Hassabis, Jumper). Computational protein structure prediction.
+2024: Nobel Prize in Chemistry for AlphaFold (Hassabis, Jumper).
 
 ## Clinical Significance
 

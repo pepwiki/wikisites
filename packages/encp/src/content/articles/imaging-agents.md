@@ -1,6 +1,6 @@
 ---
 title: "Imaging Agents"
-description: "Peptide-based imaging agents for PET, SPECT, and MRI diagnostics."
+description: "Peptide-based imaging agents for diagnostics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Peptide-based imaging agents for PET, SPECT, and MRI diagnostics.
+Peptide-based imaging agents for diagnostics.
 
 ## Clinical Significance
 

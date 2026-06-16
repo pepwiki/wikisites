@@ -1,6 +1,6 @@
 ---
 title: "Milestone 020"
-description: "2025: First oral GLP-1 agonist (oral semaglutide) achieves widespread adoption. Transforms diabetes and obesity treatment."
+description: "2025: First oral GLP-1 agonist achieves widespread adoption. Transforms diabetes treatment."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-2025: First oral GLP-1 agonist (oral semaglutide) achieves widespread adoption. Transforms diabetes and obesity treatment.
+2025: First oral GLP-1 agonist achieves widespread adoption. Transforms diabetes treatment.
 
 ## Clinical Significance
 

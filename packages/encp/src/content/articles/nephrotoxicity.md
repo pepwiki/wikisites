@@ -1,6 +1,6 @@
 ---
 title: "Nephrotoxicity"
-description: "Kidney damage caused by peptide drugs. Can include acute kidney injury and chronic kidney disease."
+description: "Kidney damage caused by peptide drugs."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Kidney damage caused by peptide drugs. Can include acute kidney injury and chronic kidney disease.
+Kidney damage caused by peptide drugs.
 
 ## Clinical Significance
 

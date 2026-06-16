@@ -1,6 +1,6 @@
 ---
 title: "Hematotoxicity"
-description: "Blood-related adverse effects of peptide drugs. Can include thrombocytopenia, anemia, and leukopenia."
+description: "Blood-related adverse effects of peptide drugs."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Blood-related adverse effects of peptide drugs. Can include thrombocytopenia, anemia, and leukopenia.
+Blood-related adverse effects of peptide drugs.
 
 ## Clinical Significance
 

@@ -1,6 +1,6 @@
 ---
 title: "Point-of-Care Testing"
-description: "Peptide-based point-of-care diagnostic tests for rapid disease detection."
+description: "Peptide-based point-of-care diagnostic tests."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Peptide-based point-of-care diagnostic tests for rapid disease detection.
+Peptide-based point-of-care diagnostic tests.
 
 ## Clinical Significance
 

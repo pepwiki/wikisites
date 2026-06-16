@@ -1,6 +1,6 @@
 ---
 title: "Ovarian Cancer"
-description: "Malignant transformation of ovarian epithelium. Most lethal gynecologic cancer. CA-125 biomarker. Treatments: surgery, platinum chemotherapy, bevacizumab, PARP inhibitors."
+description: "Malignant transformation of ovarian epithelium. Most lethal gynecologic cancer."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Malignant transformation of ovarian epithelium. Most lethal gynecologic cancer. CA-125 biomarker. Treatments: surgery, platinum chemotherapy, bevacizumab, PARP inhibitors.
+Malignant transformation of ovarian epithelium. Most lethal gynecologic cancer.
 
 ## Clinical Significance
 

@@ -1,6 +1,6 @@
 ---
 title: "Anti-Aging"
-description: "Peptide-based approaches to skin aging including collagen stimulation and antioxidant protection."
+description: "Peptide-based approaches to skin aging."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Peptide-based approaches to skin aging including collagen stimulation and antioxidant protection.
+Peptide-based approaches to skin aging.
 
 ## Clinical Significance
 

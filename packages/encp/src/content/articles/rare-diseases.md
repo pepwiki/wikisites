@@ -1,6 +1,6 @@
 ---
 title: "Rare Diseases"
-description: "Peptide therapeutics for rare diseases including enzyme replacement and substrate reduction."
+description: "Peptide therapeutics for rare diseases."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Peptide therapeutics for rare diseases including enzyme replacement and substrate reduction.
+Peptide therapeutics for rare diseases.
 
 ## Clinical Significance
 

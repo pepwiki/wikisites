@@ -1,6 +1,6 @@
 ---
 title: "Hematology"
-description: "Clinical trials and therapeutics for blood disorders."
+description: "Clinical trials for blood disorders."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Clinical trials and therapeutics for blood disorders.
+Clinical trials for blood disorders.
 
 ## Clinical Significance
 

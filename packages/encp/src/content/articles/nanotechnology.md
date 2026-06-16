@@ -1,6 +1,6 @@
 ---
 title: "Nanotechnology"
-description: "Peptide-based nanotechnology applications including nanoparticles and self-assembly."
+description: "Peptide-based nanotechnology applications."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Peptide-based nanotechnology applications including nanoparticles and self-assembly.
+Peptide-based nanotechnology applications.
 
 ## Clinical Significance
 

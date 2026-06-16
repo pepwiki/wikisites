@@ -1,6 +1,6 @@
 ---
 title: "Neurology/Pain"
-description: "Clinical trials and therapeutics for neurological and pain conditions."
+description: "Clinical trials for neurological and pain conditions."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Clinical trials and therapeutics for neurological and pain conditions.
+Clinical trials for neurological and pain conditions.
 
 ## Clinical Significance
 

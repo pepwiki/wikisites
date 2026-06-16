@@ -1,6 +1,6 @@
 ---
 title: "Wound Healing"
-description: "Peptide-based wound healing approaches including growth factors and antimicrobial peptides."
+description: "Peptide-based wound healing approaches."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Peptide-based wound healing approaches including growth factors and antimicrobial peptides.
+Peptide-based wound healing approaches.
 
 ## Clinical Significance
 

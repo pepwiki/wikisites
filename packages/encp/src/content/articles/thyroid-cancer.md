@@ -1,6 +1,6 @@
 ---
 title: "Thyroid Cancer"
-description: "Malignant transformation of thyroid epithelium. Papillary (80%), follicular (10%), medullary (5%), anaplastic (5%). Treatments: surgery, radioactive iodine, tyrosine kinase inhibitors."
+description: "Malignant transformation of thyroid epithelium."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Malignant transformation of thyroid epithelium. Papillary (80%), follicular (10%), medullary (5%), anaplastic (5%). Treatments: surgery, radioactive iodine, tyrosine kinase inhibitors.
+Malignant transformation of thyroid epithelium.
 
 ## Clinical Significance
 

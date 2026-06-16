@@ -1,6 +1,6 @@
 ---
 title: "Peptide Market Trends"
-description: "Market trends in peptide therapeutics including growth drivers, challenges, and emerging opportunities."
+description: "Market trends in peptide therapeutics including growth drivers and opportunities."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Market trends in peptide therapeutics including growth drivers, challenges, and emerging opportunities.
+Market trends in peptide therapeutics including growth drivers and opportunities.
 
 ## Clinical Significance
 

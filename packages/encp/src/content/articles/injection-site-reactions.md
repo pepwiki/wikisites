@@ -1,6 +1,6 @@
 ---
 title: "Injection Site Reactions"
-description: "Local adverse reactions at peptide drug injection sites. Include pain, redness, swelling."
+description: "Local adverse reactions at peptide drug injection sites."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Local adverse reactions at peptide drug injection sites. Include pain, redness, swelling.
+Local adverse reactions at peptide drug injection sites.
 
 ## Clinical Significance
 

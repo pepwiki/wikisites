@@ -1,6 +1,6 @@
 ---
 title: "Animal Nutrition"
-description: "Use of bioactive peptides in animal feed for growth promotion and health."
+description: "Use of bioactive peptides in animal feed."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Use of bioactive peptides in animal feed for growth promotion and health.
+Use of bioactive peptides in animal feed.
 
 ## Clinical Significance
 

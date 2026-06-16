@@ -1,6 +1,6 @@
 ---
 title: "Green Chemistry"
-description: "Sustainable chemistry approaches to peptide synthesis and manufacturing."
+description: "Sustainable chemistry approaches to peptide synthesis."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Sustainable chemistry approaches to peptide synthesis and manufacturing.
+Sustainable chemistry approaches to peptide synthesis.
 
 ## Clinical Significance
 

@@ -1,6 +1,6 @@
 ---
 title: "Opioid Peptide Overdose"
-description: "Excessive opioid peptide dosing. Can cause respiratory depression, coma, and death."
+description: "Excessive opioid peptide dosing. Can cause respiratory depression."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Excessive opioid peptide dosing. Can cause respiratory depression, coma, and death.
+Excessive opioid peptide dosing. Can cause respiratory depression.
 
 ## Clinical Significance
 

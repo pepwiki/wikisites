@@ -1,6 +1,6 @@
 ---
 title: "Bone Disorders"
-description: "Peptide therapeutics for osteoporosis, bone healing, and skeletal diseases."
+description: "Peptide therapeutics for osteoporosis and bone healing."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Peptide therapeutics for osteoporosis, bone healing, and skeletal diseases.
+Peptide therapeutics for osteoporosis and bone healing.
 
 ## Clinical Significance
 

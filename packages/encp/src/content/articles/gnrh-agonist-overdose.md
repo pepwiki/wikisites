@@ -1,6 +1,6 @@
 ---
 title: "GnRH Agonist Overdose"
-description: "Excessive GnRH agonist dosing. Can cause severe hormone suppression and adverse effects."
+description: "Excessive GnRH agonist dosing. Can cause severe hormone suppression."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Excessive GnRH agonist dosing. Can cause severe hormone suppression and adverse effects.
+Excessive GnRH agonist dosing. Can cause severe hormone suppression.
 
 ## Clinical Significance
 

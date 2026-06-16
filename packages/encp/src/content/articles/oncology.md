@@ -1,6 +1,6 @@
 ---
 title: "Oncology"
-description: "Clinical trials and therapeutics for cancer."
+description: "Clinical trials for cancer."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Clinical trials and therapeutics for cancer.
+Clinical trials for cancer.
 
 ## Clinical Significance
 

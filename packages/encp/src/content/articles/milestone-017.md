@@ -1,6 +1,6 @@
 ---
 title: "Milestone 017"
-description: "2022: Tirzepatide (Mounjaro) approved. Dual GIP/GLP-1 agonist with superior weight loss (22.5%)."
+description: "2022: Tirzepatide (Mounjaro) approved. Dual GIP/GLP-1 agonist with 22.5% weight loss."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-2022: Tirzepatide (Mounjaro) approved. Dual GIP/GLP-1 agonist with superior weight loss (22.5%).
+2022: Tirzepatide (Mounjaro) approved. Dual GIP/GLP-1 agonist with 22.5% weight loss.
 
 ## Clinical Significance
 

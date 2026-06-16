@@ -1,6 +1,6 @@
 ---
 title: "Milestone 023"
-description: "1965: First total synthesis of ribonuclease A by Merrifield. Demonstrates SPPS power for protein synthesis."
+description: "1965: First total synthesis of ribonuclease A by Merrifield. Demonstrates SPPS power."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-1965: First total synthesis of ribonuclease A by Merrifield. Demonstrates SPPS power for protein synthesis.
+1965: First total synthesis of ribonuclease A by Merrifield. Demonstrates SPPS power.
 
 ## Clinical Significance
 

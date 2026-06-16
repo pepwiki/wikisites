@@ -1,6 +1,6 @@
 ---
 title: "Cross-Cutting Themes"
-description: "Common themes across peptide-related diseases including inflammation, autoimmunity, and neurodegeneration."
+description: "Common themes across peptide-related diseases."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Common themes across peptide-related diseases including inflammation, autoimmunity, and neurodegeneration.
+Common themes across peptide-related diseases.
 
 ## Clinical Significance
 

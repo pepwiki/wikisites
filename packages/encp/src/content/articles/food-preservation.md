@@ -1,6 +1,6 @@
 ---
 title: "Food Preservation"
-description: "Use of antimicrobial peptides for food preservation and safety."
+description: "Use of antimicrobial peptides for food preservation."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Use of antimicrobial peptides for food preservation and safety.
+Use of antimicrobial peptides for food preservation.
 
 ## Clinical Significance
 

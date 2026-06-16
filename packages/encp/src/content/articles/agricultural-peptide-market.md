@@ -1,6 +1,6 @@
 ---
 title: "Agricultural Peptide Market"
-description: "Market analysis for agricultural peptides including biopesticides, animal nutrition, and crop protection."
+description: "Market analysis for agricultural peptides."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Market analysis for agricultural peptides including biopesticides, animal nutrition, and crop protection.
+Market analysis for agricultural peptides.
 
 ## Clinical Significance
 

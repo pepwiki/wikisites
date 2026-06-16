@@ -1,6 +1,6 @@
 ---
 title: "Skin Brightening"
-description: "Peptide-based skin brightening and depigmentation approaches."
+description: "Peptide-based skin brightening approaches."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Peptide-based skin brightening and depigmentation approaches.
+Peptide-based skin brightening approaches.
 
 ## Clinical Significance
 

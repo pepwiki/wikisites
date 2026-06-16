@@ -1,6 +1,6 @@
 ---
 title: "Liver Cancer"
-description: "Hepatocellular carcinoma. Most common primary liver cancer. Risk factors: HBV, HCV, cirrhosis, alcohol."
+description: "Hepatocellular carcinoma. Most common primary liver cancer."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Hepatocellular carcinoma. Most common primary liver cancer. Risk factors: HBV, HCV, cirrhosis, alcohol.
+Hepatocellular carcinoma. Most common primary liver cancer.
 
 ## Clinical Significance
 

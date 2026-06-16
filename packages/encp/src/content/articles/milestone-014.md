@@ -1,6 +1,6 @@
 ---
 title: "Milestone 014"
-description: "2017: Semaglutide (Ozempic) approved for type 2 diabetes. Once-weekly GLP-1 agonist with cardiovascular benefits."
+description: "2017: Semaglutide (Ozempic) approved for type 2 diabetes. Once-weekly GLP-1 agonist."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-2017: Semaglutide (Ozempic) approved for type 2 diabetes. Once-weekly GLP-1 agonist with cardiovascular benefits.
+2017: Semaglutide (Ozempic) approved for type 2 diabetes. Once-weekly GLP-1 agonist.
 
 ## Clinical Significance
 

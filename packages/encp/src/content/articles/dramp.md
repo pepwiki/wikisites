@@ -1,6 +1,6 @@
 ---
 title: "DRAMP"
-description: "Database of Research on Antimicrobial Peptides. Comprehensive resource for AMP research."
+description: "Database of Research on Antimicrobial Peptides."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Database of Research on Antimicrobial Peptides. Comprehensive resource for AMP research.
+Database of Research on Antimicrobial Peptides.
 
 ## Clinical Significance
 

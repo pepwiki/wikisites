@@ -1,6 +1,6 @@
 ---
 title: "Soil Health"
-description: "Use of antimicrobial peptides for soil health and plant protection."
+description: "Use of antimicrobial peptides for soil health."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Use of antimicrobial peptides for soil health and plant protection.
+Use of antimicrobial peptides for soil health.
 
 ## Clinical Significance
 

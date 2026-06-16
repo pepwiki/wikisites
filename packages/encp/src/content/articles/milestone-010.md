@@ -1,6 +1,6 @@
 ---
 title: "Milestone 010"
-description: "2001: Click chemistry Nobel Prize (Sharpless, Meldal, Bertozzi). Enables bioorthogonal conjugation for drug development."
+description: "2001: Click chemistry Nobel Prize (Sharpless, Meldal, Bertozzi). Enables bioorthogonal conjugation."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-2001: Click chemistry Nobel Prize (Sharpless, Meldal, Bertozzi). Enables bioorthogonal conjugation for drug development.
+2001: Click chemistry Nobel Prize (Sharpless, Meldal, Bertozzi). Enables bioorthogonal conjugation.
 
 ## Clinical Significance
 

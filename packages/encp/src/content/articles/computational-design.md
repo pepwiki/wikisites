@@ -1,6 +1,6 @@
 ---
 title: "Computational Design"
-description: "AI and computational approaches to peptide design including machine learning and molecular dynamics."
+description: "AI and computational approaches to peptide design."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-AI and computational approaches to peptide design including machine learning and molecular dynamics.
+AI and computational approaches to peptide design.
 
 ## Clinical Significance
 

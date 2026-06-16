@@ -1,6 +1,6 @@
 ---
 title: "American Peptide Symposium"
-description: "Annual conference for peptide science and technology. Premier forum for peptide research."
+description: "Annual conference for peptide science and technology."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Annual conference for peptide science and technology. Premier forum for peptide research.
+Annual conference for peptide science and technology.
 
 ## Clinical Significance
 

@@ -1,6 +1,6 @@
 ---
 title: "Biocatalysis"
-description: "Enzymatic methods for peptide synthesis and modification."
+description: "Enzymatic methods for peptide synthesis."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Enzymatic methods for peptide synthesis and modification.
+Enzymatic methods for peptide synthesis.
 
 ## Clinical Significance
 

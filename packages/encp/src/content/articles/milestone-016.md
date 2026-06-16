@@ -1,6 +1,6 @@
 ---
 title: "Milestone 016"
-description: "2021: Semaglutide (Wegovy) approved for obesity. STEP trials show 15% weight loss. Transforms obesity treatment."
+description: "2021: Semaglutide (Wegovy) approved for obesity. STEP trials show 15% weight loss."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-2021: Semaglutide (Wegovy) approved for obesity. STEP trials show 15% weight loss. Transforms obesity treatment.
+2021: Semaglutide (Wegovy) approved for obesity. STEP trials show 15% weight loss.
 
 ## Clinical Significance
 

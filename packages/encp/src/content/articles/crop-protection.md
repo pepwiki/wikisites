@@ -1,6 +1,6 @@
 ---
 title: "Crop Protection"
-description: "Use of antimicrobial peptides as biopesticides for sustainable agriculture."
+description: "Use of antimicrobial peptides as biopesticides."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Use of antimicrobial peptides as biopesticides for sustainable agriculture.
+Use of antimicrobial peptides as biopesticides.
 
 ## Clinical Significance
 

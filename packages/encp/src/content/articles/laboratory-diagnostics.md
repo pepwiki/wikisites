@@ -1,6 +1,6 @@
 ---
 title: "Laboratory Diagnostics"
-description: "Peptide-based laboratory diagnostic tests and assays."
+description: "Peptide-based laboratory diagnostic tests."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Peptide-based laboratory diagnostic tests and assays.
+Peptide-based laboratory diagnostic tests.
 
 ## Clinical Significance
 

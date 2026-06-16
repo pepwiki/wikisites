@@ -1,6 +1,6 @@
 ---
 title: "Peptide Biosimilars"
-description: "Biosimilar development for peptide drugs including analytical similarity and clinical extrapolation."
+description: "Biosimilar development for peptide drugs."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Biosimilar development for peptide drugs including analytical similarity and clinical extrapolation.
+Biosimilar development for peptide drugs.
 
 ## Clinical Significance
 

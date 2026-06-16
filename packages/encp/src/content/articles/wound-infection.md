@@ -1,6 +1,6 @@
 ---
 title: "Wound Infection"
-description: "Microbial contamination of wounds. Can delay healing and cause systemic infection. Treatments: antibiotics, wound care."
+description: "Microbial contamination of wounds. Can delay healing."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Microbial contamination of wounds. Can delay healing and cause systemic infection. Treatments: antibiotics, wound care.
+Microbial contamination of wounds. Can delay healing.
 
 ## Clinical Significance
 

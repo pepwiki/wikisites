@@ -1,6 +1,6 @@
 ---
 title: "GLP-1 Agonist Overdose"
-description: "Excessive GLP-1 agonist dosing. Can cause severe hypoglycemia, nausea, and pancreatitis."
+description: "Excessive GLP-1 agonist dosing. Can cause severe hypoglycemia and pancreatitis."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Excessive GLP-1 agonist dosing. Can cause severe hypoglycemia, nausea, and pancreatitis.
+Excessive GLP-1 agonist dosing. Can cause severe hypoglycemia and pancreatitis.
 
 ## Clinical Significance
 

@@ -1,6 +1,6 @@
 ---
 title: "Maple Syrup Urine Disease"
-description: "Inborn error of metabolism caused by branched-chain α-ketoacid dehydrogenase deficiency. Treatments: dietary restriction, liver transplantation."
+description: "Inborn error of metabolism. Branched-chain α-ketoacid dehydrogenase deficiency."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Inborn error of metabolism caused by branched-chain α-ketoacid dehydrogenase deficiency. Treatments: dietary restriction, liver transplantation.
+Inborn error of metabolism. Branched-chain α-ketoacid dehydrogenase deficiency.
 
 ## Clinical Significance
 

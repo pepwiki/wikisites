@@ -1,6 +1,6 @@
 ---
 title: "Aquaculture"
-description: "Use of antimicrobial peptides in aquaculture for disease prevention."
+description: "Use of antimicrobial peptides in aquaculture."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Use of antimicrobial peptides in aquaculture for disease prevention.
+Use of antimicrobial peptides in aquaculture.
 
 ## Clinical Significance
 

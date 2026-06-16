@@ -1,6 +1,6 @@
 ---
 title: "Antidiabetic Interactions"
-description: "Drug interactions between peptide diabetes drugs and other medications. Can affect glucose control."
+description: "Drug interactions between peptide diabetes drugs and other medications."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Drug interactions between peptide diabetes drugs and other medications. Can affect glucose control.
+Drug interactions between peptide diabetes drugs and other medications.
 
 ## Clinical Significance
 

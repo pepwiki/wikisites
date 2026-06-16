@@ -1,6 +1,6 @@
 ---
 title: "Milestone 028"
-description: "1990: First recombinant monoclonal antibody (abciximab) approved. Opens era of therapeutic antibodies."
+description: "1990: First recombinant monoclonal antibody (abciximab) approved."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-1990: First recombinant monoclonal antibody (abciximab) approved. Opens era of therapeutic antibodies.
+1990: First recombinant monoclonal antibody (abciximab) approved.
 
 ## Clinical Significance
 

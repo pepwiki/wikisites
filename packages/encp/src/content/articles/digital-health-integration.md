@@ -1,6 +1,6 @@
 ---
 title: "Digital Health Integration"
-description: "Integration of peptide therapeutics with digital health technologies for personalized medicine."
+description: "Integration of peptide therapeutics with digital health technologies."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Integration of peptide therapeutics with digital health technologies for personalized medicine.
+Integration of peptide therapeutics with digital health technologies.
 
 ## Clinical Significance
 

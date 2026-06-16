@@ -1,6 +1,6 @@
 ---
 title: "Peptide Startup Ecosystem"
-description: "Overview of the peptide startup landscape including companies, funding, and technology platforms."
+description: "Overview of the peptide startup landscape including companies and technology platforms."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Overview of the peptide startup landscape including companies, funding, and technology platforms.
+Overview of the peptide startup landscape including companies and technology platforms.
 
 ## Clinical Significance
 

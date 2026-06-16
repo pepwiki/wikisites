@@ -1,6 +1,6 @@
 ---
 title: "Milestone 030"
-description: "2010: First peptide-drug conjugate (brentuximab vedotin) approved. Opens era of targeted therapy."
+description: "2010: First peptide-drug conjugate (brentuximab vedotin) approved."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-2010: First peptide-drug conjugate (brentuximab vedotin) approved. Opens era of targeted therapy.
+2010: First peptide-drug conjugate (brentuximab vedotin) approved.
 
 ## Clinical Significance
 

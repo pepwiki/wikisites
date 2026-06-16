@@ -1,6 +1,6 @@
 ---
 title: "Milestone 006"
-description: "1982: Humulin (recombinant human insulin) approved by FDA. First biotechnology product. Opens era of recombinant protein drugs."
+description: "1982: Humulin (recombinant human insulin) approved by FDA. First biotechnology product."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-1982: Humulin (recombinant human insulin) approved by FDA. First biotechnology product. Opens era of recombinant protein drugs.
+1982: Humulin (recombinant human insulin) approved by FDA. First biotechnology product.
 
 ## Clinical Significance
 

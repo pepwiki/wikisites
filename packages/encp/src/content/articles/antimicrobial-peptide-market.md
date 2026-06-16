@@ -1,6 +1,6 @@
 ---
 title: "Antimicrobial Peptide Market"
-description: "Market analysis for antimicrobial peptides including wound care, implant coatings, and systemic infections."
+description: "Market analysis for antimicrobial peptides."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Market analysis for antimicrobial peptides including wound care, implant coatings, and systemic infections.
+Market analysis for antimicrobial peptides.
 
 ## Clinical Significance
 

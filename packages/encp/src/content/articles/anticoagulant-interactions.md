@@ -1,6 +1,6 @@
 ---
 title: "Anticoagulant Interactions"
-description: "Drug interactions between anticoagulant peptides and other medications. Can increase bleeding risk."
+description: "Drug interactions between anticoagulant peptides and other medications."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Drug interactions between anticoagulant peptides and other medications. Can increase bleeding risk.
+Drug interactions between anticoagulant peptides and other medications.
 
 ## Clinical Significance
 

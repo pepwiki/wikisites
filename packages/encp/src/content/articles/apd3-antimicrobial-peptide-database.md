@@ -1,6 +1,6 @@
 ---
 title: "APD3 (Antimicrobial Peptide Database)"
-description: "Comprehensive database of antimicrobial peptides with sequences, structures, and activities."
+description: "Comprehensive database of antimicrobial peptides with sequences and activities."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Comprehensive database of antimicrobial peptides with sequences, structures, and activities.
+Comprehensive database of antimicrobial peptides with sequences and activities.
 
 ## Clinical Significance
 

@@ -1,6 +1,6 @@
 ---
 title: "Milestone 027"
-description: "1985: First synthetic peptide drug (desmopressin) gains widespread use. V2-selective vasopressin analog."
+description: "1985: First synthetic peptide drug (desmopressin) gains widespread use."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-1985: First synthetic peptide drug (desmopressin) gains widespread use. V2-selective vasopressin analog.
+1985: First synthetic peptide drug (desmopressin) gains widespread use.
 
 ## Clinical Significance
 

@@ -1,6 +1,6 @@
 ---
 title: "Peptide Cancer Market"
-description: "Market analysis for peptide-based cancer therapeutics including revenue projections and competitive landscape."
+description: "Market analysis for peptide-based cancer therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Market analysis for peptide-based cancer therapeutics including revenue projections and competitive landscape.
+Market analysis for peptide-based cancer therapeutics.
 
 ## Clinical Significance
 

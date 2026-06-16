@@ -1,6 +1,6 @@
 ---
 title: "Antibiotic Interactions"
-description: "Drug interactions between peptide antibiotics and other medications. Can affect efficacy and toxicity."
+description: "Drug interactions between peptide antibiotics and other medications."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Drug interactions between peptide antibiotics and other medications. Can affect efficacy and toxicity.
+Drug interactions between peptide antibiotics and other medications.
 
 ## Clinical Significance
 

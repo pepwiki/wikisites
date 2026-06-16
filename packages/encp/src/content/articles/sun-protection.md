@@ -1,6 +1,6 @@
 ---
 title: "Sun Protection"
-description: "Peptide-based UV protection and skin repair approaches."
+description: "Peptide-based UV protection approaches."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Peptide-based UV protection and skin repair approaches.
+Peptide-based UV protection approaches.
 
 ## Clinical Significance
 

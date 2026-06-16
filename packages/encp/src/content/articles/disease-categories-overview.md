@@ -1,6 +1,6 @@
 ---
 title: "Disease Categories Overview"
-description: "Overview of disease categories relevant to peptide therapeutics and diagnostics."
+description: "Overview of disease categories relevant to peptide therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Overview of disease categories relevant to peptide therapeutics and diagnostics.
+Overview of disease categories relevant to peptide therapeutics.
 
 ## Clinical Significance
 

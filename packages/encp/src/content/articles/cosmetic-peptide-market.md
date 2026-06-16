@@ -1,6 +1,6 @@
 ---
 title: "Cosmetic Peptide Market"
-description: "Market analysis for cosmetic peptides including anti-aging, skin lightening, and hair growth segments."
+description: "Market analysis for cosmetic peptides."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Market analysis for cosmetic peptides including anti-aging, skin lightening, and hair growth segments.
+Market analysis for cosmetic peptides.
 
 ## Clinical Significance
 

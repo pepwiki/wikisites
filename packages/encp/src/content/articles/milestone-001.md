@@ -1,6 +1,6 @@
 ---
 title: "Milestone 001"
-description: "1921: Discovery of insulin by Banting and Best. First peptide hormone isolated for therapeutic use."
+description: "1921: Discovery of insulin by Banting and Best. First peptide hormone isolated for therapeutic use. Nobel Prize 1923."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-1921: Discovery of insulin by Banting and Best. First peptide hormone isolated for therapeutic use.
+1921: Discovery of insulin by Banting and Best. First peptide hormone isolated for therapeutic use. Nobel Prize 1923.
 
 ## Clinical Significance
 

@@ -1,6 +1,6 @@
 ---
 title: "Milestone 015"
-description: "2020: AlphaFold2 achieves near-experimental protein structure prediction. CASP14 winner. Nobel Prize 2024."
+description: "2020: AlphaFold2 achieves near-experimental protein structure prediction. CASP14 winner."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-2020: AlphaFold2 achieves near-experimental protein structure prediction. CASP14 winner. Nobel Prize 2024.
+2020: AlphaFold2 achieves near-experimental protein structure prediction. CASP14 winner.
 
 ## Clinical Significance
 

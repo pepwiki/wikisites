@@ -1,6 +1,6 @@
 ---
 title: "GLP-1 Agonist Market"
-description: "Market analysis for GLP-1 receptor agonists including semaglutide, liraglutide, and tirzepatide."
+description: "Market analysis for GLP-1 receptor agonists."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Market analysis for GLP-1 receptor agonists including semaglutide, liraglutide, and tirzepatide.
+Market analysis for GLP-1 receptor agonists.
 
 ## Clinical Significance
 

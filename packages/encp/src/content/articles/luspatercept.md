@@ -1,6 +1,6 @@
 ---
 title: "Luspatercept"
-description: "TGF-β superfamily ligand trap. Stimulates erythropoiesis. FDA-approved for MDS and beta-thalassemia."
+description: "TGF-β superfamily ligand trap. Stimulates erythropoiesis. FDA-approved for MDS."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-TGF-β superfamily ligand trap. Stimulates erythropoiesis. FDA-approved for MDS and beta-thalassemia.
+TGF-β superfamily ligand trap. Stimulates erythropoiesis. FDA-approved for MDS.
 
 ## Clinical Significance
 

@@ -1,6 +1,6 @@
 ---
 title: "Pain Management"
-description: "Peptide-based approaches to pain management including opioid peptides and analgesics."
+description: "Peptide-based approaches to pain management."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Peptide-based approaches to pain management including opioid peptides and analgesics.
+Peptide-based approaches to pain management.
 
 ## Clinical Significance
 

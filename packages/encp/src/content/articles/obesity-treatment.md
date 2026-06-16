@@ -1,6 +1,6 @@
 ---
 title: "Obesity Treatment"
-description: "Peptide therapeutics for obesity including GLP-1 agonists and dual agonists."
+description: "Peptide therapeutics for obesity."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Peptide therapeutics for obesity including GLP-1 agonists and dual agonists.
+Peptide therapeutics for obesity.
 
 ## Clinical Significance
 

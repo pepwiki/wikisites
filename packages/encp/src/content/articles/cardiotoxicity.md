@@ -1,6 +1,6 @@
 ---
 title: "Cardiotoxicity"
-description: "Heart damage caused by peptide drugs. Can include arrhythmias, cardiomyopathy, and heart failure."
+description: "Heart damage caused by peptide drugs. Can include arrhythmias and cardiomyopathy."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Heart damage caused by peptide drugs. Can include arrhythmias, cardiomyopathy, and heart failure.
+Heart damage caused by peptide drugs. Can include arrhythmias and cardiomyopathy.
 
 ## Clinical Significance
 

@@ -1,6 +1,6 @@
 ---
 title: "Companion Diagnostics"
-description: "Peptide-based companion diagnostics for patient selection and treatment monitoring."
+description: "Peptide-based companion diagnostics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Peptide-based companion diagnostics for patient selection and treatment monitoring.
+Peptide-based companion diagnostics.
 
 ## Clinical Significance
 

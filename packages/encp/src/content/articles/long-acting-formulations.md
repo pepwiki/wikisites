@@ -1,6 +1,6 @@
 ---
 title: "Long-Acting Formulations"
-description: "Strategies for extending peptide drug half-life including PEGylation, albumin binding, and depot formulations."
+description: "Strategies for extending peptide drug half-life."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Strategies for extending peptide drug half-life including PEGylation, albumin binding, and depot formulations.
+Strategies for extending peptide drug half-life.
 
 ## Clinical Significance
 

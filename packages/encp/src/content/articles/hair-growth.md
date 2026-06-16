@@ -1,6 +1,6 @@
 ---
 title: "Hair Growth"
-description: "Peptide-based approaches to hair growth stimulation and loss prevention."
+description: "Peptide-based approaches to hair growth."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Peptide-based approaches to hair growth stimulation and loss prevention.
+Peptide-based approaches to hair growth.
 
 ## Clinical Significance
 

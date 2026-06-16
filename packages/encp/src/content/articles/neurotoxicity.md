@@ -1,6 +1,6 @@
 ---
 title: "Neurotoxicity"
-description: "Nervous system damage caused by peptide drugs. Can include seizures, neuropathy, and encephalopathy."
+description: "Nervous system damage caused by peptide drugs."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Nervous system damage caused by peptide drugs. Can include seizures, neuropathy, and encephalopathy.
+Nervous system damage caused by peptide drugs.
 
 ## Clinical Significance
 

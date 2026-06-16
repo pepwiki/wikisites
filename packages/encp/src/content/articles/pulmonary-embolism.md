@@ -1,6 +1,6 @@
 ---
 title: "Pulmonary Embolism"
-description: "Blood clot in pulmonary arteries. Usually from DVT. Treatments: anticoagulation, thrombolysis."
+description: "Blood clot in pulmonary arteries. Usually from DVT."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Blood clot in pulmonary arteries. Usually from DVT. Treatments: anticoagulation, thrombolysis.
+Blood clot in pulmonary arteries. Usually from DVT.
 
 ## Clinical Significance
 

@@ -1,6 +1,6 @@
 ---
 title: "Biosensors"
-description: "Peptide-based biosensors for detecting analytes in clinical and environmental samples."
+description: "Peptide-based biosensors for detecting analytes."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Peptide-based biosensors for detecting analytes in clinical and environmental samples.
+Peptide-based biosensors for detecting analytes.
 
 ## Clinical Significance
 

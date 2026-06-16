@@ -1,6 +1,6 @@
 ---
 title: "Anti-infective"
-description: "Clinical trials and therapeutics for infectious diseases."
+description: "Clinical trials for infectious diseases."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Clinical trials and therapeutics for infectious diseases.
+Clinical trials for infectious diseases.
 
 ## Clinical Significance
 

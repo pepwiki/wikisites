@@ -1,6 +1,6 @@
 ---
 title: "Agilent 1260 Infinity II"
-description: "HPLC system for peptide analysis. Binary/quaternary pump, autosampler, DAD detector. Widely used in pharmaceutical QC."
+description: "HPLC system for peptide analysis. Binary/quaternary pump, autosampler, DAD detector."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-HPLC system for peptide analysis. Binary/quaternary pump, autosampler, DAD detector. Widely used in pharmaceutical QC.
+HPLC system for peptide analysis. Binary/quaternary pump, autosampler, DAD detector.
 
 ## Clinical Significance
 
