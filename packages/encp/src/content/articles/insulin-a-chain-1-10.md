@@ -1,0 +1,32 @@
+---
+title: "Insulin A-chain-1-10"
+description: "Reference for insulin A-chain-1-10 variant in peptide research."
+status: "published"
+author: "Encyclopeptide Editorial"
+pubDate: 2026-06-16
+tags: ["insulin", "A-chain-1-10", "insulin", "metabolic-peptides"]
+category: "Metabolic Peptides"
+difficulty: "intermediate"
+relatedArticles: []
+---
+
+## Overview
+
+insulin A-chain-1-10 is a variant fragment or analog studied in peptide research.
+
+## Properties
+
+| Property | Value |
+|----------|-------|
+| **Parent** | insulin |
+| **Fragment/Analog** | A-chain-1-10 |
+| **Type** | Insulin |
+| **Category** | Metabolic Peptides |
+
+## Significance
+
+This insulin variant has been studied for its biological activity and potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "insulin-A-chain-1-10" monograph. encyclopeptide.com.

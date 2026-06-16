@@ -1,0 +1,32 @@
+---
+title: "Endorphin beta-1-25"
+description: "Reference for endorphin beta-1-25 variant in peptide research."
+status: "published"
+author: "Encyclopeptide Editorial"
+pubDate: 2026-06-16
+tags: ["endorphin", "beta-1-25", "endorphin", "neuropeptides"]
+category: "Neuropeptides"
+difficulty: "intermediate"
+relatedArticles: []
+---
+
+## Overview
+
+endorphin beta-1-25 is a variant fragment or analog studied in peptide research.
+
+## Properties
+
+| Property | Value |
+|----------|-------|
+| **Parent** | endorphin |
+| **Fragment/Analog** | beta-1-25 |
+| **Type** | Endorphin |
+| **Category** | Neuropeptides |
+
+## Significance
+
+This endorphin variant has been studied for its biological activity and potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "endorphin-beta-1-25" monograph. encyclopeptide.com.

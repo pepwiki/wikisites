@@ -1,0 +1,43 @@
+---
+title: "PMAP 23"
+description: "PMAP-23 is a cathelicidin antimicrobial peptide with broad-spectrum activity against bacteria, fungi, and viruses."
+status: "published"
+author: "Encyclopeptide Editorial"
+pubDate: 2026-06-16
+tags: ["PMAP-23", "cathelicidin", "antimicrobial-peptides"]
+category: "Antimicrobial Peptides"
+difficulty: "intermediate"
+relatedArticles: []
+---
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Peptide Name** | PMAP-23 |
+| **Type** | Cathelicidin |
+| **Source** | Mammalian |
+| **Molecular Weight** | 4865 Da |
+
+## Description
+
+PMAP-23 is a cathelicidin antimicrobial peptide with broad-spectrum activity against bacteria, fungi, and viruses.
+
+## Biological Function
+
+This cathelicidin plays important roles in:
+- Physiological regulation
+- Therapeutic potential
+- Research applications
+
+## Research Significance
+
+PMAP-23 has been studied extensively for its:
+- Mechanism of action
+- Structure-activity relationships
+- Clinical applications
+- Drug development potential
+
+## References
+
+1. Encyclopeptide Database. "PMAP-23" monograph. encyclopeptide.com.
