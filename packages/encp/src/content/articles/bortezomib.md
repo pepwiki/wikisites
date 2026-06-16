@@ -1,61 +1,58 @@
 ---
 title: "Bortezomib"
-description: "Bortezomib is a boronic acid dipeptide proteasome inhibitor approved for multiple myeloma and mantle cell lymphoma, the first-in-class proteasome inhibitor."
+description: "Boronic acid proteasome inhibitor that blocks 26S proteasome activity, used for multiple myeloma and mantle cell lymphoma."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-07-25
-tags: ["proteasome-inhibitor", "myeloma", "boronic-acid", "dipeptide", "anticancer"]
-category: "Therapeutic Peptides"
+pubDate: 2024-01-15
+tags: ["proteasome-inhibitor", "boronic-acid", "multiple-myeloma", "antineoplastic"]
+category: "Anticancer Peptides"
 difficulty: "advanced"
-relatedArticles: ["peptide-drug-conjugates"]
+relatedArticles: ["carfilzomib", "ixazomib"]
 citation:
-  doi: "10.1056/NEJMoa030288"
+  doi: "10.1056/NEJMoa022283"
   authors: ["Richardson, P.G.", "Sonneveld, P.", "Schuster, M.W."]
   journal: "New England Journal of Medicine"
-  year: 2005
+  year: 2003
 ---
 
 ## Chemical Identity
 
 | Property          | Value                                    |
 | ----------------- | ---------------------------------------- |
-| Chemical Formula  | C19H25BN4O4                             |
-| Molecular Weight  | 384.24 g/mol                             |
+| Chemical Formula  | C19H25BN4O4                            |
+| Molecular Weight  | 384.2 Da                                 |
 | CAS Number        | 179324-69-7                              |
-| IUPAC Name        | [(1R)-3-methyl-1-[[(2S)-1-oxo-3-phenyl-2-[(pyrazinylcarbonyl)amino]propyl]amino]butyl]boronic acid |
-| Peptide Class     | Proteasome Inhibitor (Dipeptide)         |
-| Sequence Homology | Synthetic dipeptide boronate            |
+| Peptide Class     | Boronic Acid Dipeptide                   |
+| Route             | SC, IV                                   |
 
 ## Structure
 
-Bortezomib is a synthetic dipeptide boronic acid consisting of a pyrazine-2-carbonyl group, a phenylalanine residue, and a leucine bearing the boronic acid pharmacophore. The boronic acid moiety forms a reversible, covalent bond with the threonine residue in the active site of the 20S proteasome core. While technically a dipeptide rather than a traditional peptide drug, its peptide-like backbone connects it to peptide therapeutics.
+Bortezomib (Velcade) is a dipeptide boronic acid containing a pyrazinoic acid and a phenylalanine-leucine boronic acid moiety. The boronic acid group forms a reversible covalent bond with the catalytic threonine of the 20S proteasome beta5 subunit.
 
 ## Mechanism of Action
 
-Bortezomib reversibly inhibits the 26S proteasome, a multi-catalytic enzyme complex responsible for ubiquitin-dependent protein degradation. By blocking the chymotrypsin-like activity of the 20S core, it causes accumulation of pro-apoptotic proteins (p53, Bax, IκBα) and prevents degradation of cell cycle regulators. Multiple myeloma cells are particularly sensitive due to their high protein synthesis rate and dependence on NF-κB survival signaling.
+Bortezomib reversibly inhibits the 20S proteasome's chymotrypsin-like activity, preventing degradation of pro-apoptotic proteins, cell cycle regulators, and NF-kB inhibitors. Accumulation of misfolded proteins triggers the unfolded protein response and apoptosis, particularly in myeloma cells with high protein synthesis rates.
 
 ## Clinical Applications
 
-Bortezomib (Velcade) is approved for:
-- **Multiple myeloma**: First-line and relapsed/refractory treatment
-- **Mantle cell lymphoma**: Relapsed disease
-- **First-line combination therapy**: With dexamethasone and lenalidomide
-
-In the APEX trial, bortezomib produced a 38% overall response rate in relapsed myeloma, establishing proteasome inhibition as a validated therapeutic strategy.
+- **Multiple myeloma**: First-line and relapsed/refractory (Velcade)
+- **Mantle cell lymphoma**: After one prior therapy
+- **AL amyloidosis**: Off-label with dexamethasone
+- **Chronic graft-versus-host disease**: Off-label
 
 ## Pharmacokinetics
 
-- **Half-life**: 9-15 hours (first dose); 40-190 hours at steady state
-- **Tmax**: Subcutaneous 0.47-1.58 hours; intravenous 0.27-0.66 hours
-- **Bioavailability**: Subcutaneous bioavailability comparable to IV
-- **Metabolism**: Hepatic CYP3A4, CYP2C19, and CYP1A2
-- **Route**: Subcutaneous preferred over IV due to reduced peripheral neuropathy
+- **Half-life**: 9-15 hours
+- **Protein binding**: 83%
+- **Metabolism**: CYP3A4, CYP2C19, CYP1A2
+- **Elimination**: Hepatic
+- **Route**: SC (preferred) or IV (days 1, 4, 8, 11 of 21-day cycle)
 
 ## Safety and Side Effects
 
-Peripheral neuropathy (30-40%, dose-limiting), thrombocytopenia (28%), fatigue (26%), nausea (25%), and diarrhea (19%) are common. Herpes zoster reactivation risk necessitates antiviral prophylaxis. Bortezomib is pregnancy category D. Reversible upon discontinuation of therapy.
+Peripheral neuropathy (dose-limiting), thrombocytopenia, nausea, diarrhea, fatigue, herpes zoster reactivation, and tumor lysis syndrome. SC administration reduces neuropathy incidence.
 
 ## References
 
-- Richardson, P.G., et al. (2005). Bortezomib or high-dose dexamethasone for relapsed multiple myeloma. _New England Journal of Medicine_, 352, 2487-2498.
-- Kane, R.C., et al. (2006). Bortezomib for the treatment of mantle cell lymphoma. _Clinical Cancer Research_, 12, 6239s-6243s.
+- Richardson, P.G., et al. (2003). APEX trial: bortezomib for multiple myeloma. _New England Journal of Medicine_, 352, 2487-2498.
+- San Miguel, J.F., et al. (2008). VISTA trial: bortezomib plus melphalan. _New England Journal of Medicine_, 359, 906-917.

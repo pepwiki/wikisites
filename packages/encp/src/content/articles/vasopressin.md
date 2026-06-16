@@ -1,44 +1,58 @@
 ---
 title: "Vasopressin"
-description: "Vasopressin is a 9-amino acid nonapeptide hormone that regulates water reabsorption in the kidney and functions as a neuromodulator of social behavior and stress responses."
+description: "Antidiuretic hormone that regulates water retention and blood pressure through V1a and V2 receptor signaling."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-07-15
-tags: ["vasopressin", "ADH", "nonapeptides", "water balance", "social behavior", "V2 receptor"]
-category: "Nonapeptides"
-difficulty: "intermediate"
-relatedArticles: ["neuropeptide-y", "calcitonin", "alpha-msh"]
+pubDate: 2024-01-15
+tags: ["hormone", "antidiuretic", "vasopressor", "neuropeptide"]
+category: "Neuropeptides"
+difficulty: "beginner"
+relatedArticles: ["oxytocin", "desmopressin", "terlipressin"]
 citation:
-  doi: "10.1016/j.ejpharm.2024.176200"
-  authors: ["Knepper, M.A.", "Bichet, D.G."]
-  journal: "European Journal of Pharmacology"
-  year: 2024
+  doi: "10.1126/science.81.2108.476"
+  authors: ["Du Vigneaud, V."]
+  journal: "Science"
+  year: 1954
 ---
 
-# Vasopressin
+## Chemical Identity
 
-## Overview
-
-Vasopressin, also known as arginine vasopressin (AVP) or antidiuretic hormone (ADH), is a cyclic nonapeptide synthesized primarily in the magnocellular neurons of the supraoptic and paraventricular nuclei of the hypothalamus. It is transported to the posterior pituitary axon terminals and released into the systemic circulation in response to increased plasma osmolality, decreased blood volume, and decreased blood pressure. Vasopressin was among the first peptide hormones to be synthesized, with du Vigneaud achieving this milestone in 1953.
+| Property          | Value                                    |
+| ----------------- | ---------------------------------------- |
+| Chemical Formula  | C46H65N15O12S2                          |
+| Molecular Weight  | 1084.24 Da                               |
+| CAS Number        | 113-79-1                                 |
+| Peptide Class     | Nonapeptide Hormone                      |
+| Sequence          | CYFQNCPRG-NH2 (disulfide: Cys1-Cys6)    |
 
 ## Structure
 
-Vasopressin is a 9-amino acid peptide with the sequence Cys-Tyr-Phe-Gln-Asn-Cys-Pro-Arg-Gly-NH2. The two cysteine residues at positions 1 and 6 form an intramolecular disulfide bond, creating a six-membered ring (tocin ring) essential for biological activity. The arginine residue at position 8 distinguishes AVP from oxytocin, which contains a leucine at the equivalent position. Despite 90% sequence homology with oxytocin, this single amino acid substitution confers distinct receptor selectivity profiles.
+Vasopressin (AVP, arginine vasopressin) is a cyclic nonapeptide with a disulfide bridge between Cys1 and Cys6 and an amidated C-terminus. It differs from oxytocin at positions 3 (Phe vs Ile) and 8 (Arg vs Leu). The hormone is synthesized in the hypothalamus and released from the posterior pituitary.
 
-## Receptor System
+## Mechanism of Action
 
-Vasopressin acts through three G-protein-coupled receptor subtypes:
+Vasopressin acts on three receptor subtypes: V1a (vascular smooth muscle, vasoconstriction via Gq/PLC), V2 (renal collecting duct, water reabsorption via cAMP/AQP2), and V1b (anterior pituitary, ACTH release). The V2 receptor mediates antidiuretic effects by promoting aquaporin-2 insertion.
 
-- **V1a receptors**: Coupled to Gq and phospholipase C, mediating vasoconstriction through intracellular calcium mobilization. Expressed on vascular smooth muscle, hepatocytes, and platelets.
-- **V1b (V3) receptors**: Found in the anterior pituitary, where vasopressin potentiates ACTH release. Also expressed in the brain, where it modulates stress responses and memory.
-- **V2 receptors**: Coupled to Gs and adenylyl cyclase, expressed on the basolateral membrane of renal collecting duct principal cells. Activation stimulates aquaporin-2 (AQP2) insertion into the apical membrane, increasing water permeability.
+## Clinical Applications
 
-## Physiological Functions
+- **Diabetes insipidus**: Replacement therapy for central DI
+- **Septic shock**: Vasopressin deficiency contributes to refractory shock
+- **Hepatorenal syndrome**: Splanchnic vasoconstriction
+- **GI bleeding**: Portal hypertension reduction
 
-The antidiuretic action of vasopressin is its primary physiological role. By promoting water reabsorption through AQP2 channels, vasopressin concentrates the urine and dilutes the plasma, maintaining osmotic homeostasis. V1a receptor activation produces systemic vasoconstriction, contributing to blood pressure regulation during hemorrhage.
+## Pharmacokinetics
 
-Central vasopressin signaling modulates complex social behaviors, including pair bonding, paternal behavior, and social recognition. Comparative studies in voles demonstrate that species differences in vasopressin receptor distribution in the brain correlate with variations in social monogamy and parental care.
+- **Half-life**: 15-20 minutes
+- **Onset**: Rapid (IV)
+- **Duration**: 30-60 minutes
+- **Metabolism**: Liver and kidney vasopressinase
+- **Route**: IV, subcutaneous, intranasal
 
-## Clinical Significance
+## Safety and Side Effects
 
-Central diabetes insipidus results from insufficient vasopressin secretion, leading to polyuria and polydipsia. Nephrogenic diabetes insipidus arises from renal resistance to vasopressin, often due to V2 receptor or AQP2 mutations. The V2 receptor antagonist tolvaptan is approved for the treatment of syndrome of inappropriate antidiuretic hormone secretion (SIADH) and autosomal dominant polycystic kidney disease.
+Hyponatremia, water intoxication, vasoconstriction (mesenteric ischemia, digital ischemia), hypertension, and cardiac arrhythmias. Extravasation causes tissue necrosis.
+
+## References
+
+- Holmes, C.L., et al. (2001). Vasopressin in septic shock. _American Journal of Respiratory and Critical Care Medicine_, 164, 878-883.
+- Bankir, L. (2001). Antidiuretic action of vasopressin. _American Journal of Physiology_, 280, F781-F792.

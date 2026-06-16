@@ -1,6 +1,6 @@
 ---
 title: "Recombinant DNA technology, E. coli expression systems"
-description: "Field"
+description: "Recombinant DNA technology, E. coli expression systems is a bioactive compound with applications in peptide research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

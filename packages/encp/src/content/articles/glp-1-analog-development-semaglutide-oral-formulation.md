@@ -1,6 +1,6 @@
 ---
 title: "GLP-1 analog development, semaglutide oral formulation"
-description: "Field"
+description: "GLP-1 analog development, semaglutide oral formulation is a bioactive compound with applications in peptide research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

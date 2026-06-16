@@ -1,6 +1,6 @@
 ---
 title: "Insect Defensin / Antimicrobial"
-description: "Property"
+description: "Insect Defensin / Antimicrobial is a bioactive compound with applications in peptide research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

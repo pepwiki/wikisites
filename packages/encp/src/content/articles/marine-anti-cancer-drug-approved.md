@@ -1,6 +1,6 @@
 ---
 title: "Marine Anti-Cancer Drug (Approved)"
-description: "Property"
+description: "Marine Anti-Cancer Drug (Approved) is a bioactive compound with applications in peptide research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

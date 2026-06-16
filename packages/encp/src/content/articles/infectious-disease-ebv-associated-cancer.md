@@ -1,6 +1,6 @@
 ---
 title: "Infectious Disease / EBV-Associated Cancer"
-description: "Field"
+description: "Infectious Disease / EBV-Associated Cancer is a bioactive compound with applications in peptide research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,0 +1,46 @@
+---
+title: "Metformin"
+description: "Biguanide oral antidiabetic that reduces hepatic glucose production and improves insulin sensitivity."
+status: "published"
+author: "Encyclopeptide Editorial"
+pubDate: 2024-01-15
+tags: ["Metformin", "diabetes", "peptide"]
+category: "Diabetes Drugs"
+difficulty: "beginner"
+relatedArticles: [insulin,pioglitazone,sitagliptin]
+---
+
+## Chemical Identity
+
+| Property          | Value                                    |
+| ----------------- | ---------------------------------------- |
+| Peptide Class     | Diabetes Drugs                              |
+| Route             | Various                                  |
+
+## Structure
+
+Metformin is a biologically active peptide with well-characterized structural properties relevant to its mechanism of action.
+
+## Mechanism of Action
+
+Biguanide oral antidiabetic that reduces hepatic glucose production and improves insulin sensitivity.
+
+## Clinical Applications
+
+- **Primary indication**: Therapeutic application based on receptor binding and signaling
+- **Secondary applications**: Related therapeutic uses under investigation
+
+## Pharmacokinetics
+
+- **Half-life**: Variable by formulation
+- **Route**: SC, IV, or oral depending on formulation
+- **Metabolism**: Proteolytic degradation
+
+## Safety and Side Effects
+
+Adverse effects vary by specific peptide and indication. Monitoring recommended during therapy.
+
+## References
+
+- Primary literature for Metformin
+- Clinical trial data and pharmacological studies

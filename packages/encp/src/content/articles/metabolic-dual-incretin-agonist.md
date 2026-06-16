@@ -1,6 +1,6 @@
 ---
 title: "Metabolic / Dual Incretin Agonist"
-description: "Field"
+description: "Metabolic / Dual Incretin Agonist is a bioactive compound with applications in peptide research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

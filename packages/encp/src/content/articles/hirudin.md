@@ -1,46 +1,58 @@
 ---
 title: "Hirudin"
-description: "Comprehensive reference for Hirudin, a peptide compound with applications in research and therapeutics."
+description: "65-amino acid thrombin inhibitor from medicinal leeches, the most potent natural anticoagulant with bivalent thrombin binding."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["worm-peptides","peptide","oligopeptide"]
-category: "Worm Peptides"
+tags: ["anticoagulant", "thrombin-inhibitor", "leech", "natural-peptide"]
+category: "Cardiovascular Peptides"
 difficulty: "intermediate"
-relatedArticles: []
+relatedArticles: ["bivalirudin", "argatroban", "desirudin"]
+citation:
+  doi: "10.1016/0021-9258(82)90188-7"
+  authors: ["Dodt, J.", "Muller, H.P.", "Seemuller, U."]
+  journal: "Journal of Biological Chemistry"
+  year: 1984
 ---
 
-# Hirudin
+## Chemical Identity
 
-## Overview
-
-Hirudin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hirudo medicinalis (medicinal leech).
-
+| Property          | Value                                    |
+| ----------------- | ---------------------------------------- |
+| Chemical Formula  | C287H440N80O110S6                      |
+| Molecular Weight  | 6964 Da                                  |
+| CAS Number        | 112432-66-5                              |
+| Peptide Class     | Polypeptide (65 amino acids)             |
+| Origin            | Hirudo medicinalis (medicinal leech)     |
+| Disulfide Bonds   | 3                                        |
 
 ## Structure
 
-| Property | Value |
-|----------|-------|
-| Name | Hirudin |
-| Sequence | VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPKPQSHNDGDFEEIPEEYLQ |
-| Length | 65 amino acids |
-| Molecular Weight | 7000 Da |
-| Source | Hirudo medicinalis (medicinal leech) |
-| Category | Leech Thrombin Inhibitor |
+Hirudin is a 65-amino acid polypeptide anticoagulant from the salivary glands of the medicinal leech (Hirudo medicinalis). It has three disulfide bonds in the N-terminal domain and a highly acidic C-terminal tail containing multiple sulfated tyrosine residues. The compact N-terminal core and extended C-terminus create a bivalent binding mode.
 
 ## Mechanism of Action
 
-Binds thrombin active site and exosite I with picomolar affinity, irreversible tight-binding inhibitor
+Hirudin is the most potent natural thrombin inhibitor. The N-terminal domain binds the catalytic active site of thrombin, while the sulfated C-terminal tail binds exosite I (fibrinogen-binding site). This bivalent binding is essentially irreversible (Kd ~20 fM), providing complete and specific thrombin inhibition.
 
-## Bioactivity
+## Clinical Applications
 
-Most potent natural thrombin inhibitor, prevents fibrinogen cleavage and fibrin clot formation
+- **Recombinant hirudin (desirudin, lepirudin)**: HIT type II treatment
+- **DVT prophylaxis**: Post-surgical (desirudin)
+- **Research tool**: Thrombin biology studies
+- **Medicinal leech therapy**: Reconstructive surgery (biofilm disruption)
 
-## Therapeutic Potential
+## Pharmacokinetics
 
-Anticoagulant therapy (desirudin, lepirudin approved), cardiac surgery, deep vein thrombosis prevention
+- **Half-life**: 60-100 minutes (native), varies by recombinant form
+- **Metabolism**: Kidney (proteolytic degradation)
+- **Elimination**: Renal
+- **Route**: IV, SC (recombinant forms)
+
+## Safety and Side Effects
+
+Bleeding (no antidote), antibody formation with repeated use (especially lepirudin), and anaphylaxis (rare). No pharmacological reversal agent exists.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
+- Markwardt, F. (1991). Hirudin and derivatives as anticoagulant agents. _Thrombosis and Haemostasis_, 66, 141-152.
+- Dodt, J., et al. (1984). The complete amino acid sequence of hirudin. _Journal of Biological Chemistry_, 259, 11157-11160.

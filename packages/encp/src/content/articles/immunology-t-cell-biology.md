@@ -1,6 +1,6 @@
 ---
 title: "Immunology / T Cell Biology"
-description: "Field"
+description: "Immunology / T Cell Biology is a bioactive compound with applications in peptide research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

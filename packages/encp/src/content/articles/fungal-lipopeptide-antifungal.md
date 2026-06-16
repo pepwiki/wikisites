@@ -1,6 +1,6 @@
 ---
 title: "Fungal Lipopeptide / Antifungal"
-description: "Property"
+description: "Fungal Lipopeptide / Antifungal is a bioactive compound with applications in peptide research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

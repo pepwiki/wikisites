@@ -1,6 +1,6 @@
 ---
 title: "DPP-4 enzyme biology, incretin hypothesis"
-description: "Field"
+description: "DPP-4 enzyme biology, incretin hypothesis is a bioactive compound with applications in peptide research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

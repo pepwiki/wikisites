@@ -1,6 +1,6 @@
 ---
 title: "Rare Disease / Enzyme Replacement Therapy"
-description: "Field"
+description: "Rare Disease / Enzyme Replacement Therapy is a bioactive compound with applications in peptide research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

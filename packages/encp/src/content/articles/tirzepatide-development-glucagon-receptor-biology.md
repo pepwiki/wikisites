@@ -1,6 +1,6 @@
 ---
 title: "Tirzepatide development, glucagon receptor biology"
-description: "Field"
+description: "Tirzepatide development, glucagon receptor biology is a bioactive compound with applications in peptide research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

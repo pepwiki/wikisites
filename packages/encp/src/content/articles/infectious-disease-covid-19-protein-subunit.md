@@ -1,6 +1,6 @@
 ---
 title: "Infectious Disease / COVID-19 (Protein Subunit)"
-description: "Field"
+description: "Infectious Disease / COVID-19 (Protein Subunit) is a bioactive compound with applications in peptide research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

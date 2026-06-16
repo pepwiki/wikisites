@@ -1,43 +1,55 @@
 ---
 title: "Gastrin"
-description: "Gastrin is a gastrointestinal peptide that stimulates gastric acid secretion through CCK-B receptors, existing primarily as G-17 and G-34 molecular forms produced by G cells."
+description: "G-peptide hormone from gastric antrum that stimulates acid secretion and mucosal growth through CCK-B receptor activation."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-09-10
-tags: ["gastrin", "GI peptides", "gastric acid", "G cells", "Zollinger-Ellison"]
+pubDate: 2024-01-15
+tags: ["hormone", "gastric", "acid-secretion", "mucosal-growth"]
 category: "Gastrointestinal Peptides"
 difficulty: "intermediate"
-relatedArticles: ["cholecystokinin", "secretin", "glp-1"]
+relatedArticles: ["cholecystokinin", "secretin", "histamine"]
 citation:
-  doi: "10.1016/j.gastro.2024.02.012"
-  authors: ["Schubert, M.L.", "Peura, D.A."]
-  journal: "Gastroenterology"
-  year: 2024
+  doi: "10.1038/2041171a0"
+  authors: ["Gregory, R.A.", "Tracy, H.J."]
+  journal: "Nature"
+  year: 1964
 ---
 
-# Gastrin
+## Chemical Identity
 
-## Overview
+| Property          | Value                                    |
+| ----------------- | ---------------------------------------- |
+| Chemical Formula  | C97H124N20O31S (G-17)                  |
+| Molecular Weight  | 2098 Da (G-17)                          |
+| CAS Number        | 10047-33-3                               |
+| Peptide Class     | Gut Hormone (multiple forms)             |
+| Active Forms      | G-34 (big gastrin), G-17 (little gastrin)|
+| Shared Sequence   | PYGWMDF-NH2 (C-terminal tetrapeptide)   |
 
-Gastrin was the second gastrointestinal hormone to be identified, discovered by Edkins in 1905. It is produced by G cells, which are enteroendocrine cells located predominantly in the gastric antral mucosa, with smaller populations in the duodenal bulb and pancreatic islets. Gastrin is released in response to protein digestion products, gastric distension, and vagal stimulation via gastrin-releasing peptide (GRP).
+## Structure
 
-## Molecular Forms
+Gastrin exists primarily as G-34 (big gastrin) in the circulation and G-17 (little gastrin) in the gastric antrum. Both share the C-terminal tetrapeptide amide (Trp-Met-Asp-Phe-NH2) that contains the pharmacophore for receptor binding. A sulfated tyrosine at position 6 or 12 modulates activity.
 
-Gastrin is synthesized as a larger precursor (preprogastrin) that undergoes proteolytic processing to yield several bioactive forms. The two principal circulating forms are:
+## Mechanism of Action
 
-- **Gastrin-17 (G-17)**: The predominant 17-amino acid form, approximately 10 times more potent than G-34 in stimulating acid secretion. G-17 has a plasma half-life of approximately 5 minutes.
-- **Gastrin-34 (big gastrin)**: A 34-amino acid form with a longer half-life but lower molar potency at the CCK-B receptor.
+Gastrin binds CCK-B receptors (also called CCK-2 receptors) on parietal cells and ECL cells. This stimulates histamine release from ECL cells, which activates H2 receptors on parietal cells, triggering acid secretion via H+/K+-ATPase. Gastrin also promotes mucosal growth and cell proliferation.
 
-Both forms share a conserved C-terminal pentapeptide sequence identical to that of cholecystokinin, which is essential for receptor binding. The N-terminal region of G-17 contains a tyrosine residue that may be sulfated or unsulfated, producing two variants with comparable biological activity.
+## Clinical Applications
 
-## Receptor and Signaling
+- **Acid secretion**: Primary stimulant of gastric acid production
+- **Zollinger-Ellison syndrome**: Gastrinoma causes excessive gastrin
+- **Gastrinoma localization**: Secretin stimulation test
+- **Gastric cancer**: Gastrin receptors as therapeutic target
+- **Research**: Proton pump inhibitor testing
 
-Gastrin acts primarily through the CCK-B (CCK2) receptor, which binds gastrin and CCK with approximately equal affinity. In gastric parietal cells, gastrin stimulates acid secretion both directly and indirectly through the release of histamine from enterochromaffin-like (ECL) cells. Gastrin binds to CCK-B receptors on ECL cells, triggering histamine release, which then acts on H2 receptors on parietal cells to activate the proton pump.
+## Pharmacology
 
-## Physiological Roles
+- **Half-life**: 5 minutes (G-17), 42 minutes (G-34)
+- **Release**: G-cells (antrum) in response to amino acids, distension, vagal stimulation
+- **CCK-B**: Shared receptor with CCK
+- **Processing**: From preprogastrin by prohormone convertases
 
-Gastrin is the primary hormonal stimulant of gastric acid secretion. It also exerts trophic effects on the gastric mucosa, promoting the growth of parietal and ECL cells. Hypergastrinemia, whether from antral G-cell hyperplasia or gastrin-secreting tumors (gastrinomas), leads to profound acid hypersecretion and peptic ulceration, as seen in Zollinger-Ellison syndrome.
+## References
 
-## Clinical Significance
-
-Fasting serum gastrin levels are measured in the evaluation of suspected gastrinoma, atrophic gastritis, and proton pump inhibitor therapy. Gastrin receptor imaging using radiolabeled analogs is under investigation for the detection of gastrinomas and other neuroendocrine tumors.
+- Gregory, R.A., & Tracy, H.J. (1964). Constitution and properties of gastrin. _Nature_, 204, 1171-1173.
+- Walsh, J.H., & Grossman, M.I. (1975). Gastrin. _New England Journal of Medicine_, 292, 1324-1334.

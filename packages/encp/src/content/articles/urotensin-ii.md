@@ -1,38 +1,54 @@
 ---
-title: "Urotensin-II"
-description: "An 11-amino acid cyclic peptide and the most potent vasoconstrictor identified to date, acting through the UT receptor."
+title: "Urotensin II"
+description: "Cyclic 11-amino acid peptide that activates the UT receptor, considered the most potent mammalian vasoconstrictor."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-06-01
-tags: ["urotensin-II", "vasoconstriction", "UT-receptor", "cardiovascular"]
-category: "Vasoactive Peptides"
-difficulty: "intermediate"
-relatedArticles: ["endothelin", "anp", "bnp"]
+pubDate: 2024-01-15
+tags: ["vasoconstrictor", "cyclic-peptide", "cardiovascular", "UT-receptor"]
+category: "Cardiovascular Peptides"
+difficulty: "advanced"
+relatedArticles: ["endothelin-1", "angiotensin-II", "vasopressin"]
 citation:
-  doi: "10.1016/j.pharmthera.2024.108600"
-  authors: ["Ames, R.S.", "Sarau, H.M."]
-  journal: "Pharmacology and Therapeutics"
-  year: 2024
+  doi: "10.1038/355249a0"
+  authors: ["Ames, R.S.", "Sarau, H.M.", "Chambers, J.K."]
+  journal: "Nature"
+  year: 1999
 ---
 
-# Urotensin-II
+## Chemical Identity
 
-## Overview
+| Property          | Value                                    |
+| ----------------- | ---------------------------------------- |
+| Chemical Formula  | C62H94N16O14S2                         |
+| Molecular Weight  | 1311 Da                                  |
+| Peptide Class     | Cyclic Undecapeptide                     |
+| Sequence          | ETPDCFWKYCV (disulfide: Cys4-Cys10)     |
+| Receptor          | UT (formerly GPR14)                      |
 
-Urotensin-II (UT-II) is a cyclic 11-amino acid neuropeptide originally isolated from the caudal neurosecretory system of teleost fish. Identified in mammals in the late 1990s, UT-II is recognized as the most potent vasoconstrictor substance known, producing contractions at picomolar concentrations in human vasculature. The peptide is the endogenous ligand for the UT receptor (UTR), a G-protein-coupled receptor formerly designated GPR14.
+## Structure
 
-## Structure and Biosynthesis
+Urotensin II (UII) is an 11-amino acid cyclic peptide with a disulfide bridge between Cys4 and Cys10, forming a 7-membered ring. The CFWKY pentapeptide within the ring is highly conserved across species. UII is produced from a precursor protein by prohormone convertase processing.
 
-Urotensin-II contains a conserved disulfide bridge between cysteine residues at positions 6 and 11, forming a cyclic hexapeptide core that is essential for biological activity. The N-terminal tail and C-terminal cyclic region are both required for full receptor activation. The precursor protein, prepro-urotensin II, is processed to yield mature UT-II along with the related peptide urotensin II-related peptide (URP). Expression of UT-II mRNA has been demonstrated in the brain, spinal cord, kidney, liver, and cardiovascular tissues.
+## Mechanism of Action
 
-## Receptor and Signaling
+UII binds the UT receptor (formerly GPR14), a G-protein coupled receptor. UT activation causes potent vasoconstriction (more potent than endothelin-1 in some vascular beds), cardiac effects (positive inotropy, negative chronotropy), and promotes vascular smooth muscle proliferation and fibrosis.
 
-The UT receptor is coupled to Gq/11 and G12/13 proteins, activating phospholipase C, intracellular calcium mobilization, and Rho-kinase signaling. These pathways mediate potent smooth muscle contraction, endothelial dysfunction, and fibrotic responses. UT receptor density is highest in the heart, vasculature, and central nervous system, consistent with the peptide's cardiovascular and neuromodulatory actions.
+## Clinical Applications
 
-## Physiological Roles
+- **Heart failure**: Elevated UII levels correlate with disease severity
+- **Pulmonary hypertension**: Contributes to pulmonary vasoconstriction
+- **Atherosclerosis**: UII promotes plaque formation
+- **Diabetes**: Elevated levels associated with complications
+- **UT antagonists**: Under development for cardiovascular disease
 
-In the cardiovascular system, UT-II produces sustained vasoconstriction and positive inotropy. However, the hemodynamic effects are complex, as UT-II can also stimulate nitric oxide release from endothelial cells, producing vasodilation under certain conditions. Central administration of UT-II modulates feeding behavior, locomotor activity, and neuroendocrine secretion. The peptide also influences renal function through tubular and vascular mechanisms.
+## Pharmacology
 
-## Pathophysiology and Therapeutic Potential
+- **Potency**: Most potent mammalian vasoconstrictor
+- **Distribution**: CNS, cardiovascular system, kidneys
+- **UT receptor**: Gq/G12/13 signaling
+- **Species differences**: Variable vascular effects
 
-Elevated plasma UT-II levels have been reported in hypertension, heart failure, atherosclerosis, renal disease, and diabetes mellitus. In heart failure, UT-II concentrations correlate with disease severity and predict adverse outcomes. The UT receptor antagonist palosuran demonstrated antihypertensive and renoprotective effects in clinical trials. The dual endothelin/urotensin antagonist UL-FR-1 represents a novel approach to treating cardiometabolic disease. Ongoing research explores UT-II's role in metabolic syndrome and pulmonary hypertension.
+## References
+
+- Ames, R.S., et al. (1999). Human urotensin-II is a potent vasoconstrictor. _Nature_, 401, 282-286.
+- Douglas, S.A., et al. (2000). Urotensin-II: a novel vasoactive peptide. _British Journal of Pharmacology_, 131, 339-344.

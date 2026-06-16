@@ -1,6 +1,6 @@
 ---
 title: "Venom Peptide / Membrane Disruption"
-description: "Property"
+description: "Venom Peptide / Membrane Disruption is a bioactive compound with applications in peptide research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
 title: "Earthworm Antimicrobial / Lysozyme"
-description: "Property"
+description: "Earthworm Antimicrobial / Lysozyme is a bioactive compound with applications in peptide research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

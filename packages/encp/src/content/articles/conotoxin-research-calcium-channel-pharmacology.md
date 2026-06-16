@@ -1,6 +1,6 @@
 ---
 title: "Conotoxin research, calcium channel pharmacology"
-description: "Field"
+description: "Conotoxin research, calcium channel pharmacology is a bioactive compound with applications in peptide research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

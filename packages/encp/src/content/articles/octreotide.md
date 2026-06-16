@@ -1,62 +1,54 @@
 ---
 title: "Octreotide"
-description: "Octreotide is a synthetic somatostatin analog used to treat acromegaly, neuroendocrine tumors, and variceal bleeding, with a half-life 30x longer than native somatostatin."
+description: "Somatostatin analog octapeptide for acromegaly, neuroendocrine tumors, and variceal bleeding with long-acting depot formulation."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-07-05
-tags: ["somatostatin", "analog", "acromegaly", "neuroendocrine", "octapeptide"]
-category: "Therapeutic Peptides"
+pubDate: 2024-01-15
+tags: ["somatostatin-analog", "acromegaly", "neuroendocrine-tumor", "octapeptide"]
+category: "Hormone Analogs"
 difficulty: "intermediate"
-relatedArticles: ["vasopressin", "insulin-analogues"]
-citation:
-  doi: "10.1056/NEJM198609183151201"
-  authors: ["Lamberts, S.W.", "Uitterlinden, P.", "Verschoor, L."]
-  journal: "New England Journal of Medicine"
-  year: 1985
+relatedArticles: ["lanreotide", "pasireotide", "somatostatin"]
 ---
 
 ## Chemical Identity
 
 | Property          | Value                                    |
 | ----------------- | ---------------------------------------- |
-| Chemical Formula  | C49H66N10O10S2                          |
-| Molecular Weight  | 1019.24 g/mol                            |
+| Chemical Formula  | C49H66N10O10S2                         |
+| Molecular Weight  | 1019.2 Da                                |
 | CAS Number        | 83150-76-9                               |
-| IUPAC Name        | D-Phe-Cys-Phe-D-Trp-Lys-Thr-Cys-Thr-ol |
-| Peptide Class     | Somatostatin Analog                      |
-| Sequence Homology | Modified cyclic octapeptide              |
+| Peptide Class     | Somatostatin Analog (Cyclic Octapeptide) |
+| Route             | SC, IM (LAR)                             |
 
 ## Structure
 
-Octreotide is a synthetic cyclic octapeptide that mimics the pharmacologically active tetrapeptide sequence (Phe-Trp-Lys-Thr) of native somatostatin. The disulfide bridge between the two cysteine residues creates a conformationally constrained ring. D-phenylalanine and D-tryptypophan residues confer resistance to proteolytic degradation, extending the half-life from 2 minutes (somatostatin) to approximately 2 hours.
+Octreotide (Sandostatin) is a synthetic cyclic octapeptide analog of somatostatin containing D-phenylalanine, D-tryptophan, and L-cysteine residues with a disulfide bridge. The D-amino acids provide resistance to enzymatic degradation, extending half-life from 2 minutes (somatostatin) to 2 hours.
 
 ## Mechanism of Action
 
-Octreotide binds with high affinity to somatostatin receptor subtypes SST2 and SST5, inhibiting the release of growth hormone, thyroid-stimulating hormone, insulin, glucagon, and various gastrointestinal peptides. It reduces splanchnic blood flow and suppresses secretory activity of the gastrointestinal tract.
+Octreotide binds preferentially to somatostatin receptor subtypes SSTR2 and SSTR5, inhibiting growth hormone, glucagon, insulin, and various gastrointestinal hormone secretion. It reduces splanchnic blood flow and inhibits intestinal secretion.
 
 ## Clinical Applications
 
-Octreotide (Sandostatin) is approved for:
-- **Acromegaly**: First-line medical therapy to normalize GH and IGF-1 levels
-- **Neuroendocrine tumors**: Symptomatic control of carcinoid syndrome and VIPomas
-- **Variceal bleeding**: Reduces portal pressure in acute esophageal variceal hemorrhage
-- **Short bowel syndrome**: Reduces diarrhea and fluid requirements
-
-A long-acting release (LAR) formulation (Sandostatin LAR) allows monthly intramuscular injection.
+- **Acromegaly**: GH and IGF-1 normalization (Sandostatin LAR)
+- **Neuroendocrine tumors**: Carcinoid syndrome, VIPoma, glucagonoma
+- **Variceal bleeding**: Acute esophageal variceal hemorrhage
+- **Diarrhea**: AIDS-related and chemotherapy-induced diarrhea
+- **TSH-secreting adenomas**: Off-label
 
 ## Pharmacokinetics
 
-- **Half-life**: 1.7-1.9 hours (subcutaneous); 2 hours (intravenous)
-- **Tmax**: Subcutaneous 0.4-1 hour
-- **Bioavailability**: 60-63% after subcutaneous injection
-- **Metabolism**: Hepatic and renal degradation
-- **LAR formulation**: Sustained release over 28 days from PLG microspheres
+- **Half-life**: 1.5 hours (SC), 6-10 days (LAR)
+- **Tmax**: 30 minutes (SC)
+- **Duration**: 12 hours (SC), 28 days (LAR)
+- **Protein binding**: 65%
+- **Route**: SC (immediate-release), IM (LAR depot)
 
 ## Safety and Side Effects
 
-Common adverse effects include gastrointestinal disturbances (diarrhea, nausea, abdominal pain, steatorrhea), hyperglycemia or hypoglycemia, and cholelithiasis (15-30% with long-term use). Injection site reactions occur with subcutaneous administration. Cardiac conduction abnormalities have been reported rarely.
+GI disturbances (diarrhea, steatorrhea, abdominal pain), gallstones (20-30%), bradycardia, hyperglycemia, and injection site reactions. Vitamin B12 malabsorption with long-term use.
 
 ## References
 
-- Lamberts, S.W., et al. (1985). The effects of the somatostatin analog SMS 201-995 on normal pituitary function. _New England Journal of Medicine_, 313, 1576-1580.
-- Colao, A., et al. (2006). Octreotide LAR vs lanreotide SR in acromegaly. _Journal of Clinical Endocrinology & Metabolism_, 91, 3062-3069.
+- Lamberts, S.W., et al. (1996). Octreotide: pharmacology and clinical applications. _New England Journal of Medicine_, 334, 246-254.
+- Rinke, A., et al. (2009). Octreotide LAR for neuroendocrine tumors. _Journal of Clinical Oncology_, 27, 4656-4663.

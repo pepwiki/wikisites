@@ -1,38 +1,54 @@
 ---
 title: "Amylin"
-description: "A 37-amino acid pancreatic peptide co-secreted with insulin that regulates glucose homeostasis by slowing gastric emptying and suppressing glucagon."
+description: "37-amino acid peptide hormone co-secreted with insulin from pancreatic beta cells, regulating gastric emptying and glucagon."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-03-05
-tags: ["amylin", "islet-amyloid", "glucose-regulation", "diabetes"]
-category: "Peptide Hormones"
+pubDate: 2024-01-15
+tags: ["hormone", "pancreatic-peptide", "diabetes", "gastric-emptying"]
+category: "Pancreatic Peptides"
 difficulty: "intermediate"
-relatedArticles: ["insulin", "GLP-1", "calcitonin"]
+relatedArticles: ["pramlintide", "insulin", "calcitonin"]
 citation:
-  doi: "10.1038/s42255-024-00900-2"
-  authors: ["Cooper, G.J.S."]
-  journal: "Nature Metabolism"
-  year: 2024
+  doi: "10.1016/0006-291X(87)90630-7"
+  authors: ["Cooper, G.J.", "Willis, A.C.", "Clark, A."]
+  journal: "Biochemical and Biophysical Research Communications"
+  year: 1987
 ---
 
-# Amylin
+## Chemical Identity
 
-## Overview
+| Property          | Value                                    |
+| ----------------- | ---------------------------------------- |
+| Chemical Formula  | C169H267N51O52S2                       |
+| Molecular Weight  | 3903 Da                                  |
+| CAS Number        | 122384-88-7                              |
+| Peptide Class     | Polypeptide Hormone (37 amino acids)     |
+| Sequence          | KCNTATCATQRLANFLVHSSNNFGAILSSTNVGSNTY-NH2|
+| Disulfide Bonds   | 1 (Cys2-Cys7)                            |
 
-Amylin, also known as islet amyloid polypeptide (IAPP), is a 37-amino acid peptide hormone co-secreted with insulin from pancreatic beta cells. Discovered in 1987, amylin shares structural homology with calcitonin and belongs to the calcitonin superfamily. The peptide plays a complementary role to insulin in glucose homeostasis, acting as a satiety signal that slows gastric emptying, suppresses postprandial glucagon secretion, and reduces food intake.
+## Structure
 
-## Structure and Biosynthesis
+Amylin (islet amyloid polypeptide, IAPP) is a 37-amino acid peptide hormone with a disulfide bridge between Cys2 and Cys7 and a C-terminal amidation. It is co-secreted with insulin from pancreatic beta cell secretory granules at a fixed 1:100 ratio to insulin.
 
-Amylin is synthesized as an 89-amino acid prepropeptide that undergoes signal peptide cleavage, dimerization, and proteolytic processing to yield the mature 37-residue peptide. Like calcitonin, amylin contains a conserved intramolecular disulfide bond between Cys2 and Cys7 forming an N-terminal ring. The mid-region (residues 20-29) is critical for amyloid fibril formation, a pathological process implicated in type 2 diabetes beta-cell loss. The C-terminal portion is required for full biological activity at the CGRP receptor.
+## Mechanism of Action
 
-## Receptor and Signaling
+Amylin acts through amylin receptors (calcitonin receptor with RAMP1, RAMP2, or RAMP3) in the area postrema and nucleus tractus solitarius. It suppresses postprandial glucagon secretion, slows gastric emptying, and promotes satiety through central vagal afferents. These actions complement insulin in postprandial glucose regulation.
 
-Amylin signals primarily through the calcitonin gene-related peptide (CGRP) receptor, a complex consisting of the calcitonin receptor (CTR) and receptor activity-modifying protein 1 (RAMP1). This interaction produces Gi-mediated inhibition of adenylyl cyclase. Amylin can also activate CTR/RAMP2 and CTR/RAMP3 with varying potency. Central amylin receptors in the area postrema and nucleus tractus solitarius mediate satiety, while peripheral receptors regulate gastric motility and glucagon secretion.
+## Clinical Applications
 
-## Physiological Actions
+- **Type 1 diabetes**: Deficient amylin secretion (supplemental therapy)
+- **Type 2 diabetes**: Reduced amylin response (adjunct to insulin)
+- **Pramlintide**: Synthetic analog for clinical use
+- **Obesity**: Appetite suppression mechanism
 
-Amylin reduces meal size by promoting satiety through central mechanisms. It slows gastric emptying, reducing the rate of nutrient delivery to the small intestine. Amylin suppresses postprandial glucagon secretion, complementing insulin's glucose-lowering effect. The peptide also reduces bone resorption through osteoclast inhibition. In the CNS, amylin synergizes with leptin to enhance energy expenditure and reduce body weight.
+## Pharmacology
 
-## Therapeutic Applications
+- **Co-secretion**: Released with insulin in response to nutrients
+- **Ratio**: 1:100 amylin:insulin
+- **Deficiency**: Absent in type 1 diabetes, reduced in type 2
+- **Amyloid**: Aggregation contributes to beta cell death in T2DM
 
-Pramlintide (Symlin), a synthetic amylin analog resistant to fibrillization, is approved as an adjunct to insulin therapy in type 1 and type 2 diabetes. Dual amylin-calcitonin receptor agonists (DACRAs) such as cagrilintide show promise in combination with semaglutide for obesity treatment. Islet amyloid deposits composed of aggregated IAPP are a hallmark of type 2 diabetes pathology. Research continues to explore amylin's role in the incretin axis and its potential as a component of next-generation metabolic therapies.
+## References
+
+- Cooper, G.J., et al. (1987). Purification and characterization of amylin from amyloid-rich pancreases. _Proceedings of the National Academy of Sciences_, 84, 8628-8632.
+- Young, A. (2005). Inhibition of glucagon secretion by amylin. _Diabetes_, 54, 1548-1555.

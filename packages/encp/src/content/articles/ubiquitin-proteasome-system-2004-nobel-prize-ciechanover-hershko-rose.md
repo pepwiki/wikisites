@@ -1,6 +1,6 @@
 ---
 title: "Ubiquitin-proteasome system, 2004 Nobel Prize (Ciechanover, Hershko, Rose)"
-description: "Field"
+description: "Ubiquitin-proteasome system, 2004 Nobel Prize (Ciechanover, Hershko, Rose) is a bioactive compound with applications in peptide research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

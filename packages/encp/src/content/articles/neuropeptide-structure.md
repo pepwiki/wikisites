@@ -1,6 +1,6 @@
 ---
 title: "Neuropeptide Structure"
-description: "Field"
+description: "Neuropeptide Structure is a bioactive compound with applications in peptide research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

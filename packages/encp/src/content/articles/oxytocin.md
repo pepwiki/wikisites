@@ -1,64 +1,58 @@
 ---
-title: "Oxytocin: Structure, Receptors, and Biological Functions"
-description: "A comprehensive overview of oxytocin, a nonapeptide with a disulfide bridge implicated in social bonding, uterine contraction, and lactation."
+title: "Oxytocin"
+description: "Nine-amino acid cyclic neuropeptide hormone regulating uterine contraction, lactation, and social bonding behavior."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-03-15
-tags: ["oxytocin", "nonapeptide", "neuropeptide", "social-bonding", "reproductive-physiology"]
-category: "Nonapeptides"
-difficulty: "intermediate"
-relatedArticles: ["bradykinin", "angiotensin-ii", "substance-p"]
+pubDate: 2024-01-15
+tags: ["hormone", "neuropeptide", "uterotonic", "lactation", "social-bonding"]
+category: "Neuropeptides"
+difficulty: "beginner"
+relatedArticles: ["vasopressin", "carbetocin", "atosiban"]
 citation:
-  doi: "10.1016/j.peptides.2023.170064"
-  authors: ["Gutkowska, J.", "Jankowski, M."]
-  journal: "Peptides"
-  year: 2024
+  doi: "10.1073/pnas.14.10.776"
+  authors: ["Du Vigneaud, V.", "Ressler, C.", "Swan, J.M."]
+  journal: "Proceedings of the National Academy of Sciences"
+  year: 1953
 ---
 
 ## Chemical Identity
 
-Oxytocin is a cyclic nonapeptide primarily synthesized in the hypothalamus and released from the posterior pituitary gland. It belongs to the nonapeptide family alongside vasopressin, differing by only two amino acid residues.
+| Property          | Value                                    |
+| ----------------- | ---------------------------------------- |
+| Chemical Formula  | C43H66N12O12S2                          |
+| Molecular Weight  | 1007.19 Da                               |
+| CAS Number        | 50-56-6                                  |
+| Peptide Class     | Nonapeptide Hormone                      |
+| Sequence          | CYIQNCPLG-NH2 (disulfide: Cys1-Cys6)    |
 
-| Property                   | Value          |
-| -------------------------- | -------------- |
-| **Chemical Formula**       | C₄₃H₆₆N₁₂O₁₂S₂ |
-| **Molecular Weight**       | 1007.19 g/mol  |
-| **CAS Number**             | 50-56-6        |
-| **Isoelectric Point (pI)** | 11.2           |
-| **Amino Acid Count**       | 9              |
-| **Disulfide Bridge**       | Cys1–Cys6      |
+## Structure
 
-## Primary Structure
+Oxytocin is a cyclic nine-amino acid peptide with a disulfide bridge between cysteine residues at positions 1 and 6, forming a 20-membered ring. The C-terminus is amidated. It differs from vasopressin by only two amino acids (Ile3/Leu8 vs Phe3/Arg8), yet has distinct biological activities.
 
-The complete amino acid sequence of oxytocin is:
+## Mechanism of Action
 
-**Cys–Tyr–Ile–Gln–Asn–Cys–Pro–Leu–Gly–NH₂**
+Oxytocin binds to oxytocin receptors (OXTR) on uterine myometrium and mammary myoepithelial cells, activating Gq/11 signaling to increase intracellular calcium and promote smooth muscle contraction. In the brain, oxytocin acts as a neuromodulator influencing social behavior, trust, and emotional bonding.
 
-A **disulfide bridge** between the two cysteine residues at positions 1 and 6 forms a six-residue ring (macrocycle), while the C-terminal glycine is amidated. This cyclic structure is essential for receptor binding and biological activity.
+## Clinical Applications
 
-## Receptor Interactions
+- **Labor induction**: IV infusion for uterine contractions
+- **Postpartum hemorrhage**: First-line uterotonic
+- **Lactation**: Promotes milk ejection reflex
+- **Off-label**: Autism spectrum disorder research, psychiatric conditions
 
-Oxytocin exerts its effects through a single high-affinity G-protein coupled receptor, **OXTR**, coupled to Gq/11 signaling. Key binding characteristics include:
+## Pharmacokinetics
 
-- **Binding affinity:** Sub-nanomolar range for OXTR
-- **Signaling:** Phospholipase C activation → IP₃ → intracellular Ca²⁺ release
-- **Tissue distribution:** Uterine myometrium, mammary epithelium, brain (amygdala, nucleus accumbens)
-- **Selectivity:** OXTR shows low affinity for vasopressin receptors (V1a, V2), though some cross-reactivity exists at high concentrations
+- **Half-life**: 3-5 minutes (IV)
+- **Onset**: 3-5 minutes (IV)
+- **Duration**: 30-60 minutes
+- **Metabolism**: Oxytocinase in liver and plasma
+- **Route**: IV, IM, intranasal
 
-## Biological Functions
+## Safety and Side Effects
 
-Oxytocin mediates several critical physiological processes:
-
-1. **Uterine Contraction:** Stimulates myometrial contractions during labor via Ca²⁺-dependent smooth muscle contraction.
-2. **Milk Ejection Reflex:** Promotes contraction of myoepithelial cells surrounding mammary alveoli, enabling milk let-down during suckling.
-3. **Social Bonding:** Acts centrally to facilitate maternal behavior, pair bonding, and social recognition, particularly studied in prairie voles.
-4. **Anxiolytic Effects:** Reduces amygdala reactivity and modulates fear responses in central circuits.
-
-## Clinical Relevance
-
-Synthetic oxytocin (Syntocinon) is used clinically to induce or augment labor and to control postpartum hemorrhage. Research continues to explore its therapeutic potential in autism spectrum disorder, social anxiety, and post-traumatic stress disorder, though clinical outcomes remain under investigation.
+Uterine hyperstimulation, water intoxication (SIADH at high doses), hypotension with rapid IV injection, fetal distress from excessive contractions. Contraindicated in cephalopelvic disproportion and fetal distress.
 
 ## References
 
-- Gutkowska, J., & Jankowski, M. (2024). Oxytocin and social behavior. _Peptides_, 172, 170064.
-- Donaldson, Z. H., & Young, L. J. (2008). Oxytocin, vasopressin, and the neurogenetics of sociality. _Science_, 322, 900–904.
+- Du Vigneaud, V., et al. (1953). Synthesis of oxytocin. _Journal of the American Chemical Society_, 75, 4879-4880.
+- Blanks, A.M., & Thornton, S. (2003). The role of oxytocin in parturition. _BJOG_, 110, 46-51.

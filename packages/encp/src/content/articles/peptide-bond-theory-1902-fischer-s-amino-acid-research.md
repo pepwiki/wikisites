@@ -1,6 +1,6 @@
 ---
 title: "Peptide bond theory (1902), Fischer's amino acid research"
-description: "Field"
+description: "Peptide bond theory (1902), Fischer's amino acid research is a bioactive compound with applications in peptide research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

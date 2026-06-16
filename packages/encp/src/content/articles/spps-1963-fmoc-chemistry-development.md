@@ -1,6 +1,6 @@
 ---
 title: "SPPS (1963), Fmoc chemistry development"
-description: "Field"
+description: "SPPS (1963), Fmoc chemistry development is a bioactive compound with applications in peptide research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

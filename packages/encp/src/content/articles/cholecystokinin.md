@@ -1,41 +1,55 @@
 ---
 title: "Cholecystokinin"
-description: "Cholecystokinin is a 33-amino acid gastrointestinal peptide that regulates digestion, gallbladder contraction, and satiety signaling through CCK-A and CCK-B receptors."
+description: "Gut-brain peptide hormone that stimulates pancreatic enzyme secretion, gallbladder contraction, and satiety signaling."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-11-15
-tags: ["cholecystokinin", "CCK", "GI peptides", "satiety", "digestion"]
+pubDate: 2024-01-15
+tags: ["hormone", "gut-brain", "satiety", "pancreatic", "gallbladder"]
 category: "Gastrointestinal Peptides"
 difficulty: "intermediate"
-relatedArticles: ["secretin", "gastrin", "glp-1"]
+relatedArticles: ["gastrin", "secretin", "motilin"]
 citation:
-  doi: "10.1016/j.peptides.2024.170280"
-  authors: ["Rehfeld, J.F."]
-  journal: "Peptides"
-  year: 2024
+  doi: "10.1038/207953a0"
+  authors: ["Jorpes, J.E.", "Mutt, V."]
+  journal: "Nature"
+  year: 1966
 ---
 
-# Cholecystokinin
+## Chemical Identity
 
-## Overview
+| Property          | Value                                    |
+| ----------------- | ---------------------------------------- |
+| Chemical Formula  | C171H266N46O54S3 (CCK-33)              |
+| Molecular Weight  | 3918 Da (CCK-33)                        |
+| CAS Number        | 9011-97-6                                |
+| Peptide Class     | Gut-Brain Peptide (multiple forms)       |
+| Active Forms      | CCK-58, CCK-33, CCK-8                   |
+| Shared Sequence   | DYMGWMDF-NH2 (C-terminal octapeptide)   |
 
-Cholecystokinin (CCK) is a gastrointestinal peptide hormone first isolated from porcine intestinal tissue in 1928. It is produced by enteroendocrine I-cells distributed throughout the duodenal and jejunal mucosa. CCK exists in multiple molecular forms, with the 33-amino acid variant (CCK-33) being one of the most characterized circulating forms. The biologically active core resides in the C-terminal octapeptide (CCK-8), which shares structural homology with gastrin.
+## Structure
 
-## Structure and Receptors
+Cholecystokinin (CCK) exists in multiple molecular forms (CCK-58, CCK-33, CCK-22, CCK-12, CCK-8) produced by tissue-specific processing of a single precursor. All active forms share the C-terminal heptapeptide amide with a sulfated tyrosine (Tyr(SO3H)) at position 7, essential for receptor binding.
 
-The mature CCK-33 peptide has a molecular weight of approximately 2196 Da. Post-translational processing of prepro-CCK yields several bioactive fragments, including CCK-58, CCK-33, CCK-22, and CCK-8. A conserved tyrosine residue undergoes sulfation in approximately 70% of circulating CCK molecules, a modification essential for full biological potency at the CCK-A (CCK1) receptor.
+## Mechanism of Action
 
-Two G-protein-coupled receptor subtypes mediate CCK signaling:
+CCK binds CCK-A receptors (alimentary tract) and CCK-B receptors (brain). CCK-A activation stimulates pancreatic enzyme secretion, gallbladder contraction, and delays gastric emptying. Brain CCK-B receptors mediate satiety, anxiety, and pain modulation. CCK acts as a satiety signal terminating meals.
 
-- **CCK-A (CCK1) receptors**: Found predominantly on gallbladder smooth muscle, pancreatic acinar cells, pyloric sphincter, and vagal afferent neurons. They mediate the classic digestive actions of CCK.
-- **CCK-B (CCK2) receptors**: Predominantly expressed in the central nervous system, gastric ECL cells, and certain peripheral tissues. They bind CCK and gastrin with comparable affinity.
+## Clinical Applications
 
-## Physiological Functions
+- **Satiety regulation**: Postprandial satiety signal
+- **Pancreatic function**: Stimulates exocrine pancreatic secretion
+- **Gallbladder function**: CCK-HIDA scan for gallbladder ejection fraction
+- **Anxiety**: CCK-4 provokes panic attacks (research tool)
+- **Obesity**: Potential therapeutic target
 
-CCK performs several critical roles in gastrointestinal physiology. Upon nutrient entry into the duodenum, CCK stimulates pancreatic enzyme secretion and gallbladder contraction while relaxing the sphincter of Oddi, facilitating bile flow into the intestinal lumen. It simultaneously inhibits gastric emptying, slowing the transit of chyme to optimize enzymatic digestion.
+## Pharmacology
 
-Beyond digestion, CCK functions as a potent satiety signal. Vagal afferent fibers expressing CCK-A receptors transmit satiety information to the nucleus tractus solitarius in the brainstem, reducing meal size and duration. Centrally expressed CCK-B receptors also modulate anxiety, memory, and pain perception.
+- **Half-life**: 1-2 minutes (CCK-8), 5 minutes (CCK-33)
+- **Release**: I-cells (duodenum, jejunum) in response to fat and protein
+- **DPP-4**: Inactivates non-sulfated CCK forms
+- **Sulfation**: Essential for CCK-A receptor activity
 
-## Clinical Significance
+## References
 
-Dysregulation of CCK signaling has been implicated in obesity, panic disorder, and irritable bowel syndrome. CCK-A receptor antagonists have been investigated as potential anti-obesity agents, though clinical outcomes have been mixed. Mutations in the _CCK_ gene or its receptor are rare but associated with gallbladder hypomotility and impaired satiety responses.
+- Jorpes, J.E., & Mutt, V. (1966). Cholecystokinin and pancreozymin. _Acta Physiologica Scandinavica_, 66, 196-202.
+- Gibbs, J., et al. (1973). Cholecystokinin decreases food intake in rats. _Journal of Comparative and Physiological Psychology_, 84, 488-495.

@@ -1,6 +1,6 @@
 ---
 title: "Fungal Cyclopeptide / Chemosensitizer"
-description: "Property"
+description: "Fungal Cyclopeptide / Chemosensitizer is a bioactive compound with applications in peptide research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
