@@ -1,35 +1,23 @@
 ---
 title: "Lactoferrin"
-description: "Comprehensive reference for Lactoferrin, a peptide compound with applications in research and therapeutics."
+description: "86 kDa iron-binding glycoprotein found in milk, saliva, tears, and neutrophils. Binds iron with high affinity (Kd ~10⁻²⁰ M). Antimicrobial activity via iron sequestration. Anti-inflammatory, immunomodulatory properties. Used in infant formula and supplements."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["biomarkers-expanded","peptide","oligopeptide"]
-category: "Biomarkers Expanded"
+pubDate: 2026-06-16
+tags: ["lactoferrin", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Lactoferrin
-
 ## Overview
 
-Lactoferrin is a bioactive peptide with well-characterized properties and therapeutic applications.
+86 kDa iron-binding glycoprotein found in milk, saliva, tears, and neutrophils. Binds iron with high affinity (Kd ~10⁻²⁰ M). Antimicrobial activity via iron sequestration. Anti-inflammatory, immunomodulatory properties. Used in infant formula and supplements.
 
+## Clinical Significance
 
-
-
-
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Lactoferrin |
-| **Category** | Biomarkers Expanded |
-
+1. Encyclopeptide Database. "Lactoferrin" monograph. encyclopeptide.com.

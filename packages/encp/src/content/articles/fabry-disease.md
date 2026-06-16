@@ -1,6 +1,6 @@
 ---
 title: "Fabry Disease"
-description: "α-galactosidase A deficiency, GL-3 accumulation"
+description: "X-linked lysosomal storage disorder caused by α-galactosidase A deficiency. GL-3 accumulation in lysosomes of endothelial cells, renal tubular cells, cardiomyocytes. Manifestations: acroparesthesias, angiokeratomas, renal failure, cardiomyopathy. Treatments: enzyme replacement (agalsidase beta), chaperone therapy (migalastat)."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-α-galactosidase A deficiency, GL-3 accumulation
+X-linked lysosomal storage disorder caused by α-galactosidase A deficiency. GL-3 accumulation in lysosomes of endothelial cells, renal tubular cells, cardiomyocytes. Manifestations: acroparesthesias, angiokeratomas, renal failure, cardiomyopathy. Treatments: enzyme replacement (agalsidase beta), chaperone therapy (migalastat).
 
 ## Clinical Significance
 
-Enzyme replacement (agalsidase), chaperone (migalastat)
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

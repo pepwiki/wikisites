@@ -1,35 +1,23 @@
 ---
 title: "Cardiomyopathy"
-description: "Comprehensive reference for Cardiomyopathy, a peptide compound with applications in research and therapeutics."
+description: "Disease of the heart muscle leading to impaired cardiac function. Types: dilated (DCM), hypertrophic (HCM), restrictive (RCM), arrhythmogenic (ARVC). Treatments: heart failure medications, device therapy (ICD, CRT), transplantation."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["cardiomyopathy", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cardiomyopathy
-
 ## Overview
 
-Cardiomyopathy is a bioactive peptide with well-characterized properties and therapeutic applications.
+Disease of the heart muscle leading to impaired cardiac function. Types: dilated (DCM), hypertrophic (HCM), restrictive (RCM), arrhythmogenic (ARVC). Treatments: heart failure medications, device therapy (ICD, CRT), transplantation.
 
+## Clinical Significance
 
-
-
-
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Cardiomyopathy |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "Cardiomyopathy" monograph. encyclopeptide.com.

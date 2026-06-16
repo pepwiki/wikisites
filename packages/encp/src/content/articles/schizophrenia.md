@@ -1,6 +1,6 @@
 ---
 title: "Schizophrenia"
-description: "Dopamine hypothesis, glutamate hypothesis"
+description: "Chronic psychiatric disorder with positive symptoms (hallucinations, delusions), negative symptoms (flat affect, social withdrawal), and cognitive deficits. Dopamine hypothesis (mesolimbic hyperactivity, mesocortical hypoactivity). Treatments: antipsychotics (first and second generation)."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Dopamine hypothesis, glutamate hypothesis
+Chronic psychiatric disorder with positive symptoms (hallucinations, delusions), negative symptoms (flat affect, social withdrawal), and cognitive deficits. Dopamine hypothesis (mesolimbic hyperactivity, mesocortical hypoactivity). Treatments: antipsychotics (first and second generation).
 
 ## Clinical Significance
 
-Antipsychotics, clozapine for refractory cases
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

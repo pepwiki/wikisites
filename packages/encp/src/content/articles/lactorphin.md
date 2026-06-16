@@ -1,35 +1,23 @@
 ---
 title: "α-Lactorphin"
-description: "Comprehensive reference for α-Lactorphin, a peptide compound with applications in research and therapeutics."
+description: "Opioid peptide derived from β-lactoglobulin. Found in milk. Has analgesic activity."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["food-peptides","peptide","oligopeptide"]
-category: "Food Peptides"
+pubDate: 2026-06-16
+tags: ["lactorphin", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# α-Lactorphin
-
 ## Overview
 
-α-Lactorphin is a bioactive peptide with well-characterized properties and therapeutic applications.
+Opioid peptide derived from β-lactoglobulin. Found in milk. Has analgesic activity.
 
+## Clinical Significance
 
-
-
-
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | α-Lactorphin |
-| **Category** | Food Peptides |
-
+1. Encyclopeptide Database. "α-Lactorphin" monograph. encyclopeptide.com.

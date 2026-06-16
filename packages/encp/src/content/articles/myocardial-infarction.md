@@ -1,6 +1,6 @@
 ---
 title: "Myocardial Infarction"
-description: "Coronary artery occlusion, myocardial necrosis"
+description: "Acute myocardial necrosis resulting from prolonged ischemia. STEMI: complete coronary occlusion, ST elevation. NSTEMI: partial occlusion, no ST elevation. Pathophysiology: plaque rupture → thrombosis → occlusion → ischemia → necrosis. Treatments: PCI, thrombolytics, dual antiplatelet therapy, anticoagulation."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Coronary artery occlusion, myocardial necrosis
+Acute myocardial necrosis resulting from prolonged ischemia. STEMI: complete coronary occlusion, ST elevation. NSTEMI: partial occlusion, no ST elevation. Pathophysiology: plaque rupture → thrombosis → occlusion → ischemia → necrosis. Treatments: PCI, thrombolytics, dual antiplatelet therapy, anticoagulation.
 
 ## Clinical Significance
 
-PCI, thrombolytics, dual antiplatelet therapy
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

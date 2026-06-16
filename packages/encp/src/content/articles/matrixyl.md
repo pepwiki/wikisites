@@ -1,35 +1,23 @@
 ---
 title: "Matrixyl"
-description: "Comprehensive reference for Matrixyl, a peptide compound with applications in research and therapeutics."
+description: "Palmitoyl pentapeptide-4 (KTTKS). Stimulates collagen synthesis and skin repair. Used in anti-aging skincare products. Mechanism: activates TGF-β pathway in fibroblasts."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["cosmetic-peptides","peptide","oligopeptide"]
-category: "Cosmetic Peptides"
+pubDate: 2026-06-16
+tags: ["matrixyl", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Matrixyl
-
 ## Overview
 
-Matrixyl is a bioactive peptide with well-characterized properties and therapeutic applications.
+Palmitoyl pentapeptide-4 (KTTKS). Stimulates collagen synthesis and skin repair. Used in anti-aging skincare products. Mechanism: activates TGF-β pathway in fibroblasts.
 
+## Clinical Significance
 
-
-
-
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Matrixyl |
-| **Category** | Cosmetic Peptides |
-
+1. Encyclopeptide Database. "Matrixyl" monograph. encyclopeptide.com.

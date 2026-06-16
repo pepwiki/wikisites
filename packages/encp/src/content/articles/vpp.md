@@ -1,35 +1,23 @@
 ---
 title: "VPP"
-description: "Comprehensive reference for VPP, a peptide compound with applications in research and therapeutics."
+description: "Valine-proline-proline. ACE-inhibitory tripeptide derived from milk proteins. Inhibits angiotensin-converting enzyme. Found in fermented milk products."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["food-peptides","peptide","oligopeptide"]
-category: "Food Peptides"
+pubDate: 2026-06-16
+tags: ["vpp", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# VPP
-
 ## Overview
 
-VPP is a bioactive peptide with well-characterized properties and therapeutic applications.
+Valine-proline-proline. ACE-inhibitory tripeptide derived from milk proteins. Inhibits angiotensin-converting enzyme. Found in fermented milk products.
 
+## Clinical Significance
 
-
-
-
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | VPP |
-| **Category** | Food Peptides |
-
+1. Encyclopeptide Database. "VPP" monograph. encyclopeptide.com.

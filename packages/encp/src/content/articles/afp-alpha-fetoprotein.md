@@ -1,6 +1,6 @@
 ---
 title: "Alpha-Fetoprotein (AFP)"
-description: "69 kDa glycoprotein, albumin family, produced by fetal liver and yolk sac. Binds estradiol, fatty acids, and bilirubin. Elevated in hepatocellular carcinoma (HCC) and germ cell tumors. Normal in adult"
+description: "69 kDa glycoprotein, albumin superfamily. Produced by fetal liver and yolk sac. Binds estradiol, fatty acids. Normal adult: <10 ng/mL. HCC: >400 ng/mL (highly specific). Also elevated in germ cell tumors, hepatitis, cirrhosis."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-69 kDa glycoprotein, albumin family, produced by fetal liver and yolk sac. Binds estradiol, fatty acids, and bilirubin. Elevated in hepatocellular carcinoma (HCC) and germ cell tumors. Normal in adults: <10 ng/mL. AFP >400 ng/mL highly suggestive of HCC.
+69 kDa glycoprotein, albumin superfamily. Produced by fetal liver and yolk sac. Binds estradiol, fatty acids. Normal adult: <10 ng/mL. HCC: >400 ng/mL (highly specific). Also elevated in germ cell tumors, hepatitis, cirrhosis.
 
 ## Clinical Significance
 
-HCC screening in high-risk patients (cirrhosis), germ cell tumor monitoring
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

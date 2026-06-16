@@ -1,6 +1,6 @@
 ---
 title: "Heart Failure"
-description: "Neurohormonal activation (RAAS, sympathetic, natriuretic peptides)"
+description: "Clinical syndrome resulting from structural or functional impairment of ventricular filling or ejection. HFrEF (EF ≤40%), HFpEF (EF ≥50%), HFmrEF (EF 41-49%). Pathophysiology: neurohormonal activation (RAAS, sympathetic, natriuretic peptides). Treatments: ACEi/ARB, beta-blockers, MRA, SGLT2 inhibitors, ARNI, device therapy."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Neurohormonal activation (RAAS, sympathetic, natriuretic peptides)
+Clinical syndrome resulting from structural or functional impairment of ventricular filling or ejection. HFrEF (EF ≤40%), HFpEF (EF ≥50%), HFmrEF (EF 41-49%). Pathophysiology: neurohormonal activation (RAAS, sympathetic, natriuretic peptides). Treatments: ACEi/ARB, beta-blockers, MRA, SGLT2 inhibitors, ARNI, device therapy.
 
 ## Clinical Significance
 
-ACE inhibitors/ARBs, beta-blockers, diuretics, sacubitril/valsartan
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

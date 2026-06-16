@@ -1,6 +1,6 @@
 ---
 title: "Gaucher Disease"
-description: "Glucocerebrosidase deficiency, glucocerebroside accumulation"
+description: "Lysosomal storage disorder caused by glucocerebrosidase (GBA) deficiency. Glucocerebroside accumulation in macrophages. Types: Type 1 (non-neuronopathic, most common), Type 2 (acute neuronopathic), Type 3 (chronic neuronopathic). Treatments: enzyme replacement (imiglucerase, velaglucerase), substrate reduction (eliglustat, miglustat)."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Glucocerebrosidase deficiency, glucocerebroside accumulation
+Lysosomal storage disorder caused by glucocerebrosidase (GBA) deficiency. Glucocerebroside accumulation in macrophages. Types: Type 1 (non-neuronopathic, most common), Type 2 (acute neuronopathic), Type 3 (chronic neuronopathic). Treatments: enzyme replacement (imiglucerase, velaglucerase), substrate reduction (eliglustat, miglustat).
 
 ## Clinical Significance
 
-Enzyme replacement (imiglucerase), substrate reduction (eliglustat)
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

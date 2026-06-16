@@ -1,6 +1,6 @@
 ---
 title: "COVID-19"
-description: "SARS-CoV-2 spike protein binds ACE2"
+description: "Coronavirus disease 2019 caused by SARS-CoV-2. Respiratory illness ranging from mild to critical. Spike protein binds ACE2 receptor for cell entry. Treatments: antivirals (remdesivir, nirmatrelvir/ritonavir), monoclonal antibodies, corticosteroids (dexamethasone)."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-SARS-CoV-2 spike protein binds ACE2
+Coronavirus disease 2019 caused by SARS-CoV-2. Respiratory illness ranging from mild to critical. Spike protein binds ACE2 receptor for cell entry. Treatments: antivirals (remdesivir, nirmatrelvir/ritonavir), monoclonal antibodies, corticosteroids (dexamethasone).
 
 ## Clinical Significance
 
-Remdesivir, nirmatrelvir/ritonavir, monoclonal antibodies
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

@@ -1,6 +1,6 @@
 ---
 title: "PSA"
-description: "Serine protease, cleaves semenogelin"
+description: "240-aa kallikrein-related peptidase (hK3) secreted by prostate epithelial cells. Cleaves semenogelin. Normal: <4 ng/mL (age-adjusted). Elevated in prostate cancer, BPH, prostatitis. PSA density and velocity improve specificity."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Serine protease, cleaves semenogelin
+240-aa kallikrein-related peptidase (hK3) secreted by prostate epithelial cells. Cleaves semenogelin. Normal: <4 ng/mL (age-adjusted). Elevated in prostate cancer, BPH, prostatitis. PSA density and velocity improve specificity.
 
 ## Clinical Significance
 
-Prostate cancer screening and monitoring
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

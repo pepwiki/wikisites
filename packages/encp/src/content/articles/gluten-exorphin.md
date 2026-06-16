@@ -1,35 +1,23 @@
 ---
 title: "Gluten Exorphin"
-description: "Comprehensive reference for Gluten Exorphin, a peptide compound with applications in research and therapeutics."
+description: "Gluten-derived opioid peptides. Found in wheat gluten digests. May affect brain function and behavior. Potential role in schizophrenia and autism."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["food-peptides","peptide","oligopeptide"]
-category: "Food Peptides"
+pubDate: 2026-06-16
+tags: ["gluten-exorphin", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Gluten Exorphin
-
 ## Overview
 
-Gluten Exorphin is a bioactive peptide with well-characterized properties and therapeutic applications.
+Gluten-derived opioid peptides. Found in wheat gluten digests. May affect brain function and behavior. Potential role in schizophrenia and autism.
 
+## Clinical Significance
 
-
-
-
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Gluten Exorphin |
-| **Category** | Food Peptides |
-
+1. Encyclopeptide Database. "Gluten Exorphin" monograph. encyclopeptide.com.

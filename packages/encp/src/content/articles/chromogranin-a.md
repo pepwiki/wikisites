@@ -1,6 +1,6 @@
 ---
 title: "Chromogranin A"
-description: "Neurosecretory granule protein, co-secreted with catecholamines"
+description: "439-aa acidic protein co-secreted with catecholamines from neurosecretory granules. Marker of neuroendocrine tumors. Normal: <100 ng/mL. Also used as prognostic marker in heart failure (higher levels = worse prognosis)."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Neurosecretory granule protein, co-secreted with catecholamines
+439-aa acidic protein co-secreted with catecholamines from neurosecretory granules. Marker of neuroendocrine tumors. Normal: <100 ng/mL. Also used as prognostic marker in heart failure (higher levels = worse prognosis).
 
 ## Clinical Significance
 
-Neuroendocrine tumor diagnosis and monitoring
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

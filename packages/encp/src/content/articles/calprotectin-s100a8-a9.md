@@ -1,35 +1,23 @@
 ---
 title: "Calprotectin (S100A8/A9)"
-description: "Comprehensive reference for Calprotectin (S100A8/A9), a peptide compound with applications in research and therapeutics."
+description: "S100A8 (8.5 kDa) + S100A9 (12.4 kDa) heterodimer. Neutrophil-derived calcium-binding protein. Fecal: normal <50 μg/g. Elevated in IBD (Crohn's, UC). Serum: elevated in rheumatoid arthritis, infections."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["biomarkers-expanded","peptide","oligopeptide"]
-category: "Biomarkers Expanded"
+pubDate: 2026-06-16
+tags: ["calprotectin-s100a8-a9", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Calprotectin (S100A8/A9)
-
 ## Overview
 
-Calprotectin (S100A8/A9) is a bioactive peptide with well-characterized properties and therapeutic applications.
+S100A8 (8.5 kDa) + S100A9 (12.4 kDa) heterodimer. Neutrophil-derived calcium-binding protein. Fecal: normal <50 μg/g. Elevated in IBD (Crohn's, UC). Serum: elevated in rheumatoid arthritis, infections.
 
+## Clinical Significance
 
-
-
-
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Calprotectin (S100A8/A9) |
-| **Category** | Biomarkers Expanded |
-
+1. Encyclopeptide Database. "Calprotectin (S100A8/A9)" monograph. encyclopeptide.com.

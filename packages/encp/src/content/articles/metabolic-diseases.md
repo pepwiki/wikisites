@@ -1,35 +1,23 @@
 ---
 title: "Metabolic Diseases"
-description: "Comprehensive reference for Metabolic Diseases, a peptide compound with applications in research and therapeutics."
+description: "Disorders of metabolism: diabetes, obesity, lipid disorders, inborn errors of metabolism (PKU, Gaucher's, Fabry's). Treatments: dietary modification, enzyme replacement, substrate reduction, pharmacotherapy."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-clinical-trials","peptide","oligopeptide"]
-category: "Peptide Clinical Trials"
+pubDate: 2026-06-16
+tags: ["metabolic-diseases", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Metabolic Diseases
-
 ## Overview
 
-Metabolic Diseases is a bioactive peptide with well-characterized properties and therapeutic applications.
+Disorders of metabolism: diabetes, obesity, lipid disorders, inborn errors of metabolism (PKU, Gaucher's, Fabry's). Treatments: dietary modification, enzyme replacement, substrate reduction, pharmacotherapy.
 
+## Clinical Significance
 
-
-
-
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Metabolic Diseases |
-| **Category** | Peptide Clinical Trials |
-
+1. Encyclopeptide Database. "Metabolic Diseases" monograph. encyclopeptide.com.

@@ -1,35 +1,23 @@
 ---
 title: "Rubiscolin"
-description: "Comprehensive reference for Rubiscolin, a peptide compound with applications in research and therapeutics."
+description: "Leu-enkephalin analog derived from spinach RuBisCO enzyme. Has opioid activity. Found in spinach and other plants. Potential dietary opioid."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["food-peptides","peptide","oligopeptide"]
-category: "Food Peptides"
+pubDate: 2026-06-16
+tags: ["rubiscolin", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Rubiscolin
-
 ## Overview
 
-Rubiscolin is a bioactive peptide with well-characterized properties and therapeutic applications.
+Leu-enkephalin analog derived from spinach RuBisCO enzyme. Has opioid activity. Found in spinach and other plants. Potential dietary opioid.
 
+## Clinical Significance
 
-
-
-
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Rubiscolin |
-| **Category** | Food Peptides |
-
+1. Encyclopeptide Database. "Rubiscolin" monograph. encyclopeptide.com.

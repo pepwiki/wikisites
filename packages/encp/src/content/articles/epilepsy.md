@@ -1,6 +1,6 @@
 ---
 title: "Epilepsy"
-description: "Neuronal hyperexcitability and synchrony"
+description: "Neuronal hyperexcitability causing recurrent seizures. Idiopathic (60%), symptomatic (30%), cryptogenic (10%). Treatments: antiepileptic drugs (carbamazepine, valproate, lamotrigine, levetiracetam). Drug-resistant: surgery, VNS, RNS."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Neuronal hyperexcitability and synchrony
+Neuronal hyperexcitability causing recurrent seizures. Idiopathic (60%), symptomatic (30%), cryptogenic (10%). Treatments: antiepileptic drugs (carbamazepine, valproate, lamotrigine, levetiracetam). Drug-resistant: surgery, VNS, RNS.
 
 ## Clinical Significance
 
-Antiepileptic drugs, vagus nerve stimulation
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

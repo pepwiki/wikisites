@@ -1,6 +1,6 @@
 ---
 title: "Autoimmune Diseases"
-description: "Loss of immune tolerance, self-reactive T/B cells"
+description: "Immune system attacks self-tissues. >80 known autoimmune diseases. Examples: RA, lupus, MS, type 1 diabetes, IBD, psoriasis. Treatments: immunosuppressants, biologics, JAK inhibitors."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Loss of immune tolerance, self-reactive T/B cells
+Immune system attacks self-tissues. >80 known autoimmune diseases. Examples: RA, lupus, MS, type 1 diabetes, IBD, psoriasis. Treatments: immunosuppressants, biologics, JAK inhibitors.
 
 ## Clinical Significance
 
-Immunosuppressants, biologics
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

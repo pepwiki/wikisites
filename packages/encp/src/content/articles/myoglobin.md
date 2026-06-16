@@ -1,35 +1,23 @@
 ---
 title: "Myoglobin"
-description: "Comprehensive reference for Myoglobin, a peptide compound with applications in research and therapeutics."
+description: "17.8 kDa heme protein released from damaged muscle. Normal: <85 ng/mL (male), <75 ng/mL (female). Earliest marker of MI (rises 1-3h). Not cardiac-specific (also elevated in skeletal muscle injury)."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["biomarkers-expanded","peptide","oligopeptide"]
-category: "Biomarkers Expanded"
+pubDate: 2026-06-16
+tags: ["myoglobin", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Myoglobin
-
 ## Overview
 
-Myoglobin is a bioactive peptide with well-characterized properties and therapeutic applications.
+17.8 kDa heme protein released from damaged muscle. Normal: <85 ng/mL (male), <75 ng/mL (female). Earliest marker of MI (rises 1-3h). Not cardiac-specific (also elevated in skeletal muscle injury).
 
+## Clinical Significance
 
-
-
-
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Myoglobin |
-| **Category** | Biomarkers Expanded |
-
+1. Encyclopeptide Database. "Myoglobin" monograph. encyclopeptide.com.

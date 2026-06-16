@@ -1,6 +1,6 @@
 ---
 title: "Hypertension"
-description: "RAAS activation, endothelial dysfunction, arterial stiffness"
+description: "Sustained elevation of blood pressure (≥130/80 mmHg). Primary (95%): multifactorial. Secondary (5%): renal, endocrine, vascular causes. Pathophysiology: RAAS activation, sympathetic nervous system, endothelial dysfunction. Treatments: ACE inhibitors, ARBs, CCBs, diuretics, beta-blockers."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-RAAS activation, endothelial dysfunction, arterial stiffness
+Sustained elevation of blood pressure (≥130/80 mmHg). Primary (95%): multifactorial. Secondary (5%): renal, endocrine, vascular causes. Pathophysiology: RAAS activation, sympathetic nervous system, endothelial dysfunction. Treatments: ACE inhibitors, ARBs, CCBs, diuretics, beta-blockers.
 
 ## Clinical Significance
 
-ACE inhibitors, ARBs, calcium channel blockers, diuretics
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

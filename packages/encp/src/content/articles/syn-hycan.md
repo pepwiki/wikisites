@@ -1,35 +1,23 @@
 ---
 title: "Syn-Hycan"
-description: "Comprehensive reference for Syn-Hycan, a peptide compound with applications in research and therapeutics."
+description: "Acetyl hexapeptide-30. Inhibits acetylcholine release at neuromuscular junction. Reduces muscle contractions. Used in anti-aging skincare."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["cosmetic-peptides","peptide","oligopeptide"]
-category: "Cosmetic Peptides"
+pubDate: 2026-06-16
+tags: ["syn-hycan", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Syn-Hycan
-
 ## Overview
 
-Syn-Hycan is a bioactive peptide with well-characterized properties and therapeutic applications.
+Acetyl hexapeptide-30. Inhibits acetylcholine release at neuromuscular junction. Reduces muscle contractions. Used in anti-aging skincare.
 
+## Clinical Significance
 
-
-
-
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Syn-Hycan |
-| **Category** | Cosmetic Peptides |
-
+1. Encyclopeptide Database. "Syn-Hycan" monograph. encyclopeptide.com.

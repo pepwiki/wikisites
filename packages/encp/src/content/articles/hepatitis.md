@@ -1,6 +1,6 @@
 ---
 title: "Hepatitis"
-description: "HBV: DNA virus, HCV: RNA virus, chronic liver disease"
+description: "Inflammation of the liver. HBV: DNA virus, horizontal transmission, chronic in 5% adults. HCV: RNA virus, blood-borne, chronic in 75-85%. Both cause cirrhosis and HCC. Treatments: HBV: entecavir, tenofovir. HCV: sofosbuvir-based regimens (curative)."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-HBV: DNA virus, HCV: RNA virus, chronic liver disease
+Inflammation of the liver. HBV: DNA virus, horizontal transmission, chronic in 5% adults. HCV: RNA virus, blood-borne, chronic in 75-85%. Both cause cirrhosis and HCC. Treatments: HBV: entecavir, tenofovir. HCV: sofosbuvir-based regimens (curative).
 
 ## Clinical Significance
 
-Entecavir (HBV), sofosbuvir (HCV)
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

@@ -1,35 +1,23 @@
 ---
 title: "Infectious Disease"
-description: "Comprehensive reference for Infectious Disease, a peptide compound with applications in research and therapeutics."
+description: "Diseases caused by pathogenic microorganisms (bacteria, viruses, fungi, parasites). Treatments: antibiotics (bacterial), antivirals (viral), antifungals (fungal), antiparasitics (parasitic). Challenges: antimicrobial resistance, emerging pathogens, vaccine development."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-applications","peptide","oligopeptide"]
-category: "Peptide Applications"
+pubDate: 2026-06-16
+tags: ["infectious-disease", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Infectious Disease
-
 ## Overview
 
-Infectious Disease is a bioactive peptide with well-characterized properties and therapeutic applications.
+Diseases caused by pathogenic microorganisms (bacteria, viruses, fungi, parasites). Treatments: antibiotics (bacterial), antivirals (viral), antifungals (fungal), antiparasitics (parasitic). Challenges: antimicrobial resistance, emerging pathogens, vaccine development.
 
+## Clinical Significance
 
-
-
-
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Infectious Disease |
-| **Category** | Peptide Applications |
-
+1. Encyclopeptide Database. "Infectious Disease" monograph. encyclopeptide.com.

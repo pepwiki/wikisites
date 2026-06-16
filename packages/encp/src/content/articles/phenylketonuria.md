@@ -1,6 +1,6 @@
 ---
 title: "Phenylketonuria"
-description: "Phenylalanine hydroxylase deficiency"
+description: "Inborn error of metabolism caused by phenylalanine hydroxylase (PAH) deficiency or BH4 deficiency. Elevated phenylalanine → intellectual disability if untreated. Treatments: phenylalanine-restricted diet, pegvaliase (enzyme substitution), sapropterin (BH4 cofactor)."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Phenylalanine hydroxylase deficiency
+Inborn error of metabolism caused by phenylalanine hydroxylase (PAH) deficiency or BH4 deficiency. Elevated phenylalanine → intellectual disability if untreated. Treatments: phenylalanine-restricted diet, pegvaliase (enzyme substitution), sapropterin (BH4 cofactor).
 
 ## Clinical Significance
 
-Phenylalanine-restricted diet, pegvaliase
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

@@ -1,6 +1,6 @@
 ---
 title: "Pneumonia"
-description: "Bacterial/viral/fungal infection of lung parenchyma"
+description: "Infection of lung parenchyma. Community-acquired: S. pneumoniae, H. influenzae, M. pneumoniae. Hospital-acquired: P. aeruginosa, MRSA, ESBL-producing Enterobacteriaceae. Treatments: antibiotics (β-lactams, macrolides, fluoroquinolones)."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Bacterial/viral/fungal infection of lung parenchyma
+Infection of lung parenchyma. Community-acquired: S. pneumoniae, H. influenzae, M. pneumoniae. Hospital-acquired: P. aeruginosa, MRSA, ESBL-producing Enterobacteriaceae. Treatments: antibiotics (β-lactams, macrolides, fluoroquinolones).
 
 ## Clinical Significance
 
-Antibiotics, antivirals, antifungals
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

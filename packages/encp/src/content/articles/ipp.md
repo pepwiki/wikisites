@@ -1,35 +1,23 @@
 ---
 title: "IPP"
-description: "Comprehensive reference for IPP, a peptide compound with applications in research and therapeutics."
+description: "Isoleucine-proline-proline. ACE-inhibitory tripeptide derived from casein. Inhibits angiotensin-converting enzyme. Found in fermented milk products."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["food-peptides","peptide","oligopeptide"]
-category: "Food Peptides"
+pubDate: 2026-06-16
+tags: ["ipp", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# IPP
-
 ## Overview
 
-IPP is a bioactive peptide with well-characterized properties and therapeutic applications.
+Isoleucine-proline-proline. ACE-inhibitory tripeptide derived from casein. Inhibits angiotensin-converting enzyme. Found in fermented milk products.
 
+## Clinical Significance
 
-
-
-
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | IPP |
-| **Category** | Food Peptides |
-
+1. Encyclopeptide Database. "IPP" monograph. encyclopeptide.com.

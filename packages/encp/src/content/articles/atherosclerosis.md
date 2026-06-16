@@ -1,6 +1,6 @@
 ---
 title: "Atherosclerosis"
-description: "Endothelial dysfunction, lipid accumulation, inflammation"
+description: "Chronic inflammatory disease of arterial walls characterized by lipid accumulation, fibrous plaque formation, and progressive luminal narrowing. Pathogenesis: endothelial dysfunction → LDL oxidation → foam cell formation → fibrous cap → rupture/thrombosis. Treatments: statins, antiplatelet agents, PCSK9 inhibitors."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Endothelial dysfunction, lipid accumulation, inflammation
+Chronic inflammatory disease of arterial walls characterized by lipid accumulation, fibrous plaque formation, and progressive luminal narrowing. Pathogenesis: endothelial dysfunction → LDL oxidation → foam cell formation → fibrous cap → rupture/thrombosis. Treatments: statins, antiplatelet agents, PCSK9 inhibitors.
 
 ## Clinical Significance
 
-Statins, antiplatelet agents, PCSK9 inhibitors
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

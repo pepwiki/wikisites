@@ -1,6 +1,6 @@
 ---
 title: "Pancreatic Cancer"
-description: "KRAS mutations (90%), TP53, SMAD4"
+description: "Most lethal common cancer (5-year survival ~12%). KRAS mutations (90%), TP53, SMAD4, CDKN2A. Usually diagnosed late (80% metastatic). Treatments: FOLFIRINOX, gemcitabine/nab-paclitaxel, olaparib (BRCA), pembrolizumab (MSI-H)."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-KRAS mutations (90%), TP53, SMAD4
+Most lethal common cancer (5-year survival ~12%). KRAS mutations (90%), TP53, SMAD4, CDKN2A. Usually diagnosed late (80% metastatic). Treatments: FOLFIRINOX, gemcitabine/nab-paclitaxel, olaparib (BRCA), pembrolizumab (MSI-H).
 
 ## Clinical Significance
 
-FOLFIRINOX, gemcitabine/nab-paclitaxel
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

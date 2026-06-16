@@ -1,6 +1,6 @@
 ---
 title: "Multiple Sclerosis"
-description: "Autoimmune demyelination of CNS"
+description: "Chronic autoimmune demyelinating disease of the CNS. Relapsing-remitting (85%) or progressive forms. Characterized by white matter lesions on MRI. Treatments: interferons, glatiramer, natalizumab, ocrelizumab, fingolimod, teriflunomide."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Autoimmune demyelination of CNS
+Chronic autoimmune demyelinating disease of the CNS. Relapsing-remitting (85%) or progressive forms. Characterized by white matter lesions on MRI. Treatments: interferons, glatiramer, natalizumab, ocrelizumab, fingolimod, teriflunomide.
 
 ## Clinical Significance
 
-IFN-β, glatiramer, natalizumab
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

@@ -1,6 +1,6 @@
 ---
 title: "Colorectal Cancer"
-description: "APC/β-catenin pathway, KRAS mutations"
+description: "Malignant transformation of colonic or rectal epithelium. APC/β-catenin pathway (60%), KRAS mutations (40%), microsatellite instability (15%). Treatments: surgery, FOLFOX/FOLFIRI, bevacizumab, cetuximab, pembrolizumab (MSI-H)."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-APC/β-catenin pathway, KRAS mutations
+Malignant transformation of colonic or rectal epithelium. APC/β-catenin pathway (60%), KRAS mutations (40%), microsatellite instability (15%). Treatments: surgery, FOLFOX/FOLFIRI, bevacizumab, cetuximab, pembrolizumab (MSI-H).
 
 ## Clinical Significance
 
-5-FU, oxaliplatin, bevacizumab, cetuximab
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

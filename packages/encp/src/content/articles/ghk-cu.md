@@ -1,35 +1,23 @@
 ---
 title: "GHK-Cu"
-description: "Comprehensive reference for GHK-Cu, a peptide compound with applications in research and therapeutics."
+description: "Glycyl-L-histidyl-L-lysine copper(II) complex. Tripeptide-copper complex with wound healing and anti-aging properties. Stimulates collagen synthesis, glycosaminoglycans, and superoxide dismutase. Used in skincare products."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["cosmetic-peptides","peptide","oligopeptide"]
-category: "Cosmetic Peptides"
+pubDate: 2026-06-16
+tags: ["ghk-cu", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GHK-Cu
-
 ## Overview
 
-GHK-Cu is a bioactive peptide with well-characterized properties and therapeutic applications.
+Glycyl-L-histidyl-L-lysine copper(II) complex. Tripeptide-copper complex with wound healing and anti-aging properties. Stimulates collagen synthesis, glycosaminoglycans, and superoxide dismutase. Used in skincare products.
 
+## Clinical Significance
 
-
-
-
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | GHK-Cu |
-| **Category** | Cosmetic Peptides |
-
+1. Encyclopeptide Database. "GHK-Cu" monograph. encyclopeptide.com.

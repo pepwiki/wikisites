@@ -1,6 +1,6 @@
 ---
 title: "HIV/AIDS"
-description: "CD4+ T-cell depletion by HIV-1"
+description: "Human immunodeficiency virus infection leading to acquired immunodeficiency syndrome. HIV-1 (most common) and HIV-2. Targets CD4+ T cells via CD4/CCR5 or CXCR4 co-receptors. Progressive immune depletion. Treatments: antiretroviral therapy (ART) with combination of NRTIs, NNRTIs, PIs, INSTIs."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-CD4+ T-cell depletion by HIV-1
+Human immunodeficiency virus infection leading to acquired immunodeficiency syndrome. HIV-1 (most common) and HIV-2. Targets CD4+ T cells via CD4/CCR5 or CXCR4 co-receptors. Progressive immune depletion. Treatments: antiretroviral therapy (ART) with combination of NRTIs, NNRTIs, PIs, INSTIs.
 
 ## Clinical Significance
 
-ART (HAART), enfuvirtide, maraviroc
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

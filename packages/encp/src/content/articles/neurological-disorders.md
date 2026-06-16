@@ -1,35 +1,23 @@
 ---
 title: "Neurological Disorders"
-description: "Comprehensive reference for Neurological Disorders, a peptide compound with applications in research and therapeutics."
+description: "Diseases of the nervous system: neurodegenerative (Alzheimer's, Parkinson's, ALS), autoimmune (MS), vascular (stroke), epileptic, psychiatric (depression, schizophrenia). Treatments vary by etiology: symptomatic, disease-modifying, or curative (rare)."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-applications","peptide","oligopeptide"]
-category: "Peptide Applications"
+pubDate: 2026-06-16
+tags: ["neurological-disorders", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Neurological Disorders
-
 ## Overview
 
-Neurological Disorders is a bioactive peptide with well-characterized properties and therapeutic applications.
+Diseases of the nervous system: neurodegenerative (Alzheimer's, Parkinson's, ALS), autoimmune (MS), vascular (stroke), epileptic, psychiatric (depression, schizophrenia). Treatments vary by etiology: symptomatic, disease-modifying, or curative (rare).
 
+## Clinical Significance
 
-
-
-
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Neurological Disorders |
-| **Category** | Peptide Applications |
-
+1. Encyclopeptide Database. "Neurological Disorders" monograph. encyclopeptide.com.

@@ -1,6 +1,6 @@
 ---
 title: "Click Chemistry"
-description: "CuAAC or SPAAC reactions, bioorthogonal conjugation"
+description: "Bioorthogonal chemical reactions characterized by: high yield, wide scope, in situ compatibility, mild conditions, and stereo specificity. Key reactions: CuAAC (copper-catalyzed azide-alkyne cycloaddition), SPAAC (strain-promoted). Applications: ADCs, PET imaging, bioconjugation, PROTACs."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-CuAAC or SPAAC reactions, bioorthogonal conjugation
+Bioorthogonal chemical reactions characterized by: high yield, wide scope, in situ compatibility, mild conditions, and stereo specificity. Key reactions: CuAAC (copper-catalyzed azide-alkyne cycloaddition), SPAAC (strain-promoted). Applications: ADCs, PET imaging, bioconjugation, PROTACs.
 
 ## Clinical Significance
 
-Antibody-drug conjugates, PET imaging, bioconjugation
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

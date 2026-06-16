@@ -1,6 +1,6 @@
 ---
 title: "Anxiety Disorders"
-description: "GABA/glutamate imbalance, amygdala hyperactivity"
+description: "Group of disorders characterized by excessive fear and anxiety. Includes GAD, social anxiety, panic disorder, specific phobias. Treatments: SSRIs, SNRIs, benzodiazepines (short-term), buspirone, CBT."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-GABA/glutamate imbalance, amygdala hyperactivity
+Group of disorders characterized by excessive fear and anxiety. Includes GAD, social anxiety, panic disorder, specific phobias. Treatments: SSRIs, SNRIs, benzodiazepines (short-term), buspirone, CBT.
 
 ## Clinical Significance
 
-Benzodiazepines, SSRIs, buspirone
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

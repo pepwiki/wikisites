@@ -1,6 +1,6 @@
 ---
 title: "BNP"
-description: "Natriuretic peptide receptor A, vasodilation, natriuresis"
+description: "32-amino acid natriuretic peptide cleaved from 108-aa proBNP precursor. Released by cardiac ventricles in response to volume overload. Activates NPR-A → cAMP → natriuresis, vasodilation. Normal: <100 pg/mL. Heart failure: >400 pg/mL. T½ ~20 min."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Natriuretic peptide receptor A, vasodilation, natriuresis
+32-amino acid natriuretic peptide cleaved from 108-aa proBNP precursor. Released by cardiac ventricles in response to volume overload. Activates NPR-A → cAMP → natriuresis, vasodilation. Normal: <100 pg/mL. Heart failure: >400 pg/mL. T½ ~20 min.
 
 ## Clinical Significance
 
-Heart failure diagnosis and monitoring
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

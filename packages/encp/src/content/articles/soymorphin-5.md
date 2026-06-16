@@ -1,35 +1,23 @@
 ---
 title: "Soymorphin-5"
-description: "Comprehensive reference for Soymorphin-5, a peptide compound with applications in research and therapeutics."
+description: "Met-enkephalin analog derived from soy β-conglycinin. Opioid activity. Found in soy protein digests. Potential dietary opioid."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["food-peptides","peptide","oligopeptide"]
-category: "Food Peptides"
+pubDate: 2026-06-16
+tags: ["soymorphin-5", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Soymorphin-5
-
 ## Overview
 
-Soymorphin-5 is a bioactive peptide with well-characterized properties and therapeutic applications.
+Met-enkephalin analog derived from soy β-conglycinin. Opioid activity. Found in soy protein digests. Potential dietary opioid.
 
+## Clinical Significance
 
-
-
-
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Soymorphin-5 |
-| **Category** | Food Peptides |
-
+1. Encyclopeptide Database. "Soymorphin-5" monograph. encyclopeptide.com.

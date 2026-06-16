@@ -1,6 +1,6 @@
 ---
 title: "Metabolic Syndrome"
-description: "Cluster: obesity, dyslipidemia, hyperglycemia, hypertension"
+description: "Cluster of interrelated metabolic risk factors: abdominal obesity (waist >40" men, >35" women), elevated triglycerides (≥150 mg/dL), low HDL (<40 mg/dL men, <50 women), elevated blood pressure (≥130/85), elevated fasting glucose (≥100 mg/dL). Requires ≥3 of 5 criteria."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Cluster: obesity, dyslipidemia, hyperglycemia, hypertension
+Cluster of interrelated metabolic risk factors: abdominal obesity (waist >40" men, >35" women), elevated triglycerides (≥150 mg/dL), low HDL (<40 mg/dL men, <50 women), elevated blood pressure (≥130/85), elevated fasting glucose (≥100 mg/dL). Requires ≥3 of 5 criteria.
 
 ## Clinical Significance
 
-Lifestyle modification, metformin, statins
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

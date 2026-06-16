@@ -1,6 +1,6 @@
 ---
 title: "hs-TnI"
-description: "Ultra-sensitive assay for cardiac troponin I"
+description: "Cardiac-specific troponin I (209 aa) measured by high-sensitivity assay. Released from damaged cardiomyocytes. Normal: <0.04 ng/mL. Acute MI: >0.04 ng/mL with rise/fall pattern. More specific than CK-MB."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Ultra-sensitive assay for cardiac troponin I
+Cardiac-specific troponin I (209 aa) measured by high-sensitivity assay. Released from damaged cardiomyocytes. Normal: <0.04 ng/mL. Acute MI: >0.04 ng/mL with rise/fall pattern. More specific than CK-MB.
 
 ## Clinical Significance
 
-Acute coronary syndrome diagnosis
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

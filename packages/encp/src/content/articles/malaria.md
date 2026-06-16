@@ -1,6 +1,6 @@
 ---
 title: "Malaria"
-description: "Plasmodium falciparum, liver and blood stages"
+description: "Life-threatening parasitic disease caused by Plasmodium species (P. falciparum most lethal). Transmitted by Anopheles mosquitoes. Liver stage → blood stage → symptomatic disease. Treatments: artemisinin-based combination therapy (ACT), chloroquine (P. vivax), primaquine (radical cure)."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Plasmodium falciparum, liver and blood stages
+Life-threatening parasitic disease caused by Plasmodium species (P. falciparum most lethal). Transmitted by Anopheles mosquitoes. Liver stage → blood stage → symptomatic disease. Treatments: artemisinin-based combination therapy (ACT), chloroquine (P. vivax), primaquine (radical cure).
 
 ## Clinical Significance
 
-Artemisinin combination therapy
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

@@ -1,6 +1,6 @@
 ---
 title: "Type 2 Diabetes"
-description: "Insulin resistance + progressive β-cell failure"
+description: "Chronic metabolic disorder characterized by hyperglycemia resulting from insulin resistance and progressive β-cell failure. Pathophysiology: insulin resistance → compensatory hyperinsulinemia → β-cell exhaustion → relative insulin deficiency. Treatments: metformin, sulfonylureas, GLP-1 agonists, SGLT2 inhibitors, DPP-4 inhibitors, insulin."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Insulin resistance + progressive β-cell failure
+Chronic metabolic disorder characterized by hyperglycemia resulting from insulin resistance and progressive β-cell failure. Pathophysiology: insulin resistance → compensatory hyperinsulinemia → β-cell exhaustion → relative insulin deficiency. Treatments: metformin, sulfonylureas, GLP-1 agonists, SGLT2 inhibitors, DPP-4 inhibitors, insulin.
 
 ## Clinical Significance
 
-Metformin, GLP-1 agonists, SGLT2 inhibitors, insulin
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

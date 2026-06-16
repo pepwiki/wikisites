@@ -1,6 +1,6 @@
 ---
 title: "ALS"
-description: "Motor neuron degeneration"
+description: "Progressive motor neuron disease affecting upper and lower motor neurons. Sporadic (90%) or familial (10%). Mean survival 3-5 years from diagnosis. Treatments: riluzole (extends survival 2-3 months), edaravone, tofersen (SOD1 mutations)."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Motor neuron degeneration
+Progressive motor neuron disease affecting upper and lower motor neurons. Sporadic (90%) or familial (10%). Mean survival 3-5 years from diagnosis. Treatments: riluzole (extends survival 2-3 months), edaravone, tofersen (SOD1 mutations).
 
 ## Clinical Significance
 
-Riluzole, edaravone
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 

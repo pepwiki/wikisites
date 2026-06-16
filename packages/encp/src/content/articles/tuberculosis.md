@@ -1,6 +1,6 @@
 ---
 title: "Tuberculosis"
-description: "Mycobacterium tuberculosis, granuloma formation"
+description: "Infectious disease caused by Mycobacterium tuberculosis. Airborne transmission. Latent infection (1/3 of world population) → active disease in 5-10%. Treatments: 4-drug regimen (RIPE: rifampicin, isoniazid, pyrazinamide, ethambutol) for 6 months."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Mycobacterium tuberculosis, granuloma formation
+Infectious disease caused by Mycobacterium tuberculosis. Airborne transmission. Latent infection (1/3 of world population) → active disease in 5-10%. Treatments: 4-drug regimen (RIPE: rifampicin, isoniazid, pyrazinamide, ethambutol) for 6 months.
 
 ## Clinical Significance
 
-RIPE therapy (rifampicin, isoniazid, pyrazinamide, ethambutol)
+This molecule plays important roles in biological systems and has potential therapeutic applications.
 
 ## References
 
