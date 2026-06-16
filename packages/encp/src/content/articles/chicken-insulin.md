@@ -1,35 +1,23 @@
 ---
 title: "Chicken Insulin"
-description: "Comprehensive reference for Chicken Insulin, a peptide compound with applications in research and therapeutics."
+description: "Insulin from chicken pancreas. Highly conserved with mammalian insulin. Used in comparative endocrinology research."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["avian-peptide-hormone","peptide","oligopeptide"]
-category: "Peptide Hormones"
+pubDate: 2026-06-16
+tags: ["chicken-insulin", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chicken Insulin
-
 ## Overview
 
-Chicken Insulin is a bioactive peptide with well-characterized properties and therapeutic applications.
+Insulin from chicken pancreas. Highly conserved with mammalian insulin. Used in comparative endocrinology research.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Chicken Insulin |
-| **Category** | Peptide Hormones |
-
+1. Encyclopeptide Database. "Chicken Insulin" monograph. encyclopeptide.com.

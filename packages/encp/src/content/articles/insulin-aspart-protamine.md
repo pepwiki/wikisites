@@ -1,29 +1,22 @@
 ---
 title: "Insulin Aspart Protamine"
-description: "Rapid-acting insulin aspart complexed with protamine for intermediate-acting profile. Available as premixed formulations (NovoLog Mix 70/30). Onset: 15-30 min. Peak: 1-3 hours. Duration: 12-14 hours."
+description: "Rapid-acting insulin aspart complexed with protamine. Intermediate-acting profile."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
-tags: ["insulin-aspart-protamine", "peptide-drug", "therapeutic"]
-category: "Peptide Drugs"
+tags: ["insulin-aspart-protamine", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-## Chemical Identity
+## Overview
 
-| Property | Value |
-|----------|-------|
-| **Name** | Insulin Aspart Protamine |
-| **Description** | Rapid-acting insulin aspart complexed with protamine for intermediate-acting profile. Available as premixed formulations (NovoLog Mix 70/30). Onset: 15-30 min. Peak: 1-3 hours. Duration: 12-14 hours. |
-
-## Mechanism of Action
-
-Rapid-acting insulin aspart complexed with protamine for intermediate-acting profile. Available as premixed formulations (NovoLog Mix 70/30). Onset: 15-30 min. Peak: 1-3 hours. Duration: 12-14 hours.
+Rapid-acting insulin aspart complexed with protamine. Intermediate-acting profile.
 
 ## Clinical Significance
 
-This peptide drug has important therapeutic applications in clinical medicine.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

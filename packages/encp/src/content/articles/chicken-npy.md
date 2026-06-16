@@ -1,35 +1,23 @@
 ---
 title: "Chicken NPY"
-description: "Comprehensive reference for Chicken NPY, a peptide compound with applications in research and therapeutics."
+description: "NPY from chicken brain. Regulates feeding behavior in poultry."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["bird-peptides","peptide","oligopeptide"]
-category: "Bird Peptides"
+pubDate: 2026-06-16
+tags: ["chicken-npy", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chicken NPY
-
 ## Overview
 
-Chicken NPY is a bioactive peptide with well-characterized properties and therapeutic applications.
+NPY from chicken brain. Regulates feeding behavior in poultry.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Chicken NPY |
-| **Category** | Bird Peptides |
-
+1. Encyclopeptide Database. "Chicken NPY" monograph. encyclopeptide.com.

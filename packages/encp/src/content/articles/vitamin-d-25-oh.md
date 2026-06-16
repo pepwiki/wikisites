@@ -1,35 +1,23 @@
 ---
 title: "Vitamin D (25-OH)"
-description: "Comprehensive reference for Vitamin D (25-OH), a peptide compound with applications in research and therapeutics."
+description: "25-hydroxyvitamin D. Vitamin D status marker."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["biomarkers-expanded","peptide","oligopeptide"]
-category: "Biomarkers Expanded"
+pubDate: 2026-06-16
+tags: ["vitamin-d-25-oh", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Vitamin D (25-OH)
-
 ## Overview
 
-Vitamin D (25-OH) is a bioactive peptide with well-characterized properties and therapeutic applications.
+25-hydroxyvitamin D. Vitamin D status marker.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Vitamin D (25-OH) |
-| **Category** | Biomarkers Expanded |
-
+1. Encyclopeptide Database. "Vitamin D (25-OH)" monograph. encyclopeptide.com.

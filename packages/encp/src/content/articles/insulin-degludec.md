@@ -1,30 +1,22 @@
 ---
 title: "Insulin Degludec"
-description: "Ultra-long-acting insulin with multi-hexamer formation. Basal insulin, Type 1 and 2 diabetes."
+description: "Ultra-long-acting basal insulin."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
-tags: ["insulin-degludec", "peptide-drug", "therapeutic"]
-category: "Peptide Drugs"
+tags: ["insulin-degludec", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-## Chemical Identity
+## Overview
 
-| Property | Value |
-|----------|-------|
-| **Name** | Insulin Degludec |
-| **Modification** | Lys(B29)-γGlu-C16 fatty acid |
-| **Molecular Weight** | 6104 Da |
+Ultra-long-acting basal insulin.
 
-## Mechanism of Action
+## Clinical Significance
 
-Ultra-long-acting insulin with multi-hexamer formation
-
-## Clinical Applications
-
-Basal insulin, Type 1 and 2 diabetes
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

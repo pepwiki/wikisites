@@ -1,35 +1,23 @@
 ---
 title: "N-Terminal Acetylation"
-description: "Comprehensive reference for N-Terminal Acetylation, a peptide compound with applications in research and therapeutics."
+description: "Addition of acetyl group to N-terminus. Protects against aminopeptidase degradation."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-modifications","peptide","oligopeptide"]
-category: "Peptide Modifications"
+pubDate: 2026-06-16
+tags: ["n-terminal-acetylation", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# N-Terminal Acetylation
-
 ## Overview
 
-N-Terminal Acetylation is a bioactive peptide with well-characterized properties and therapeutic applications.
+Addition of acetyl group to N-terminus. Protects against aminopeptidase degradation.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | N-Terminal Acetylation |
-| **Category** | Peptide Modifications |
-
+1. Encyclopeptide Database. "N-Terminal Acetylation" monograph. encyclopeptide.com.

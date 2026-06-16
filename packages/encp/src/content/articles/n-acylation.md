@@ -1,35 +1,23 @@
 ---
 title: "N-Acylation"
-description: "Comprehensive reference for N-Acylation, a peptide compound with applications in research and therapeutics."
+description: "Addition of acyl groups to N-terminus. Modifies pharmacokinetic properties."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-modifications","peptide","oligopeptide"]
-category: "Peptide Modifications"
+pubDate: 2026-06-16
+tags: ["n-acylation", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# N-Acylation
-
 ## Overview
 
-N-Acylation is a bioactive peptide with well-characterized properties and therapeutic applications.
+Addition of acyl groups to N-terminus. Modifies pharmacokinetic properties.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | N-Acylation |
-| **Category** | Peptide Modifications |
-
+1. Encyclopeptide Database. "N-Acylation" monograph. encyclopeptide.com.

@@ -1,35 +1,23 @@
 ---
 title: "Collaxyl"
-description: "Comprehensive reference for Collaxyl, a peptide compound with applications in research and therapeutics."
+description: "Palmitoyl tripeptide-1 + tetrapeptide-7. Stimulates collagen. Anti-aging skincare."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["cosmetic-peptides","peptide","oligopeptide"]
-category: "Cosmetic Peptides"
+pubDate: 2026-06-16
+tags: ["collaxyl", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Collaxyl
-
 ## Overview
 
-Collaxyl is a bioactive peptide with well-characterized properties and therapeutic applications.
+Palmitoyl tripeptide-1 + tetrapeptide-7. Stimulates collagen. Anti-aging skincare.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Collaxyl |
-| **Category** | Cosmetic Peptides |
-
+1. Encyclopeptide Database. "Collaxyl" monograph. encyclopeptide.com.

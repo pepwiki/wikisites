@@ -1,35 +1,23 @@
 ---
 title: "Side Chain Cyclization (Lactam)"
-description: "Comprehensive reference for Side Chain Cyclization (Lactam), a peptide compound with applications in research and therapeutics."
+description: "Formation of lactam bridge between side chain functional groups."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-modifications","peptide","oligopeptide"]
-category: "Peptide Modifications"
+pubDate: 2026-06-16
+tags: ["side-chain-cyclization-lactam", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Side Chain Cyclization (Lactam)
-
 ## Overview
 
-Side Chain Cyclization (Lactam) is a bioactive peptide with well-characterized properties and therapeutic applications.
+Formation of lactam bridge between side chain functional groups.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Side Chain Cyclization (Lactam) |
-| **Category** | Peptide Modifications |
-
+1. Encyclopeptide Database. "Side Chain Cyclization (Lactam)" monograph. encyclopeptide.com.

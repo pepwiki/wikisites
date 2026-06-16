@@ -1,35 +1,23 @@
 ---
 title: "Exendin-3"
-description: "Comprehensive reference for Exendin-3, a peptide compound with applications in research and therapeutics."
+description: "39-aa peptide from Gila monster saliva. Related to exendin-4 but less potent at GLP-1 receptor."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["reptile-peptides","peptide","oligopeptide"]
-category: "Reptile Peptides"
+pubDate: 2026-06-16
+tags: ["exendin-3", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Exendin-3
-
 ## Overview
 
-Exendin-3 is a bioactive peptide with well-characterized properties and therapeutic applications.
+39-aa peptide from Gila monster saliva. Related to exendin-4 but less potent at GLP-1 receptor.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Exendin-3 |
-| **Category** | Reptile Peptides |
-
+1. Encyclopeptide Database. "Exendin-3" monograph. encyclopeptide.com.

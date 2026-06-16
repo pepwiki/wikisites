@@ -1,35 +1,23 @@
 ---
 title: "Prion Protein (PrPSc)"
-description: "Comprehensive reference for Prion Protein (PrPSc), a peptide compound with applications in research and therapeutics."
+description: "Misfolded prion protein. Transmissible spongiform encephalopathies."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["biomarkers-expanded","peptide","oligopeptide"]
-category: "Biomarkers Expanded"
+pubDate: 2026-06-16
+tags: ["prion-protein-prpsc", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Prion Protein (PrPSc)
-
 ## Overview
 
-Prion Protein (PrPSc) is a bioactive peptide with well-characterized properties and therapeutic applications.
+Misfolded prion protein. Transmissible spongiform encephalopathies.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Prion Protein (PrPSc) |
-| **Category** | Biomarkers Expanded |
-
+1. Encyclopeptide Database. "Prion Protein (PrPSc)" monograph. encyclopeptide.com.

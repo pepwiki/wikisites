@@ -1,35 +1,23 @@
 ---
 title: "Chicken Lysozyme"
-description: "Comprehensive reference for Chicken Lysozyme, a peptide compound with applications in research and therapeutics."
+description: "129-aa enzyme from chicken egg white. Hydrolyzes bacterial cell wall peptidoglycan."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["bird-peptides","peptide","oligopeptide"]
-category: "Bird Peptides"
+pubDate: 2026-06-16
+tags: ["chicken-lysozyme", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chicken Lysozyme
-
 ## Overview
 
-Chicken Lysozyme is a bioactive peptide with well-characterized properties and therapeutic applications.
+129-aa enzyme from chicken egg white. Hydrolyzes bacterial cell wall peptidoglycan.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Chicken Lysozyme |
-| **Category** | Bird Peptides |
-
+1. Encyclopeptide Database. "Chicken Lysozyme" monograph. encyclopeptide.com.

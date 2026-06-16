@@ -1,35 +1,23 @@
 ---
 title: "N-Methylation"
-description: "Comprehensive reference for N-Methylation, a peptide compound with applications in research and therapeutics."
+description: "Addition of methyl group to backbone nitrogen. Increases proteolytic resistance."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-modifications","peptide","oligopeptide"]
-category: "Peptide Modifications"
+pubDate: 2026-06-16
+tags: ["n-methylation", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# N-Methylation
-
 ## Overview
 
-N-Methylation is a bioactive peptide with well-characterized properties and therapeutic applications.
+Addition of methyl group to backbone nitrogen. Increases proteolytic resistance.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | N-Methylation |
-| **Category** | Peptide Modifications |
-
+1. Encyclopeptide Database. "N-Methylation" monograph. encyclopeptide.com.

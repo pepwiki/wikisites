@@ -1,35 +1,23 @@
 ---
 title: "Chicken GH"
-description: "Comprehensive reference for Chicken GH, a peptide compound with applications in research and therapeutics."
+description: "Growth hormone from chicken pituitary. 191-aa protein regulating growth and metabolism in avian species."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["bird-peptides","peptide","oligopeptide"]
-category: "Bird Peptides"
+pubDate: 2026-06-16
+tags: ["chicken-gh", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chicken GH
-
 ## Overview
 
-Chicken GH is a bioactive peptide with well-characterized properties and therapeutic applications.
+Growth hormone from chicken pituitary. 191-aa protein regulating growth and metabolism in avian species.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Chicken GH |
-| **Category** | Bird Peptides |
-
+1. Encyclopeptide Database. "Chicken GH" monograph. encyclopeptide.com.

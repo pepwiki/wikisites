@@ -1,30 +1,22 @@
 ---
 title: "Desmopressin"
-description: "Vasopressin analog with V2 selectivity and extended half-life. Diabetes insipidus, nocturnal enuresis, hemophilia."
+description: "Vasopressin analog. FDA-approved for DI, nocturnal enuresis, hemophilia."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
-tags: ["desmopressin", "peptide-drug", "therapeutic"]
-category: "Peptide Drugs"
+tags: ["desmopressin", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-## Chemical Identity
+## Overview
 
-| Property | Value |
-|----------|-------|
-| **Name** | Desmopressin |
-| **Modification** | D-Arg at position 8 |
-| **Molecular Weight** | 1129 Da |
+Vasopressin analog. FDA-approved for DI, nocturnal enuresis, hemophilia.
 
-## Mechanism of Action
+## Clinical Significance
 
-Vasopressin analog with V2 selectivity and extended half-life
-
-## Clinical Applications
-
-Diabetes insipidus, nocturnal enuresis, hemophilia
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

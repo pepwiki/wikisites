@@ -1,35 +1,23 @@
 ---
 title: "Chicken Ovotransferrin"
-description: "Comprehensive reference for Chicken Ovotransferrin, a peptide compound with applications in research and therapeutics."
+description: "686-aa iron-binding glycoprotein from chicken egg white. Antimicrobial via iron sequestration."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["bird-peptides","peptide","oligopeptide"]
-category: "Bird Peptides"
+pubDate: 2026-06-16
+tags: ["chicken-ovotransferrin", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chicken Ovotransferrin
-
 ## Overview
 
-Chicken Ovotransferrin is a bioactive peptide with well-characterized properties and therapeutic applications.
+686-aa iron-binding glycoprotein from chicken egg white. Antimicrobial via iron sequestration.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Chicken Ovotransferrin |
-| **Category** | Bird Peptides |
-
+1. Encyclopeptide Database. "Chicken Ovotransferrin" monograph. encyclopeptide.com.

@@ -1,30 +1,22 @@
 ---
 title: "Insulin Lispro AABC"
-description: "Ultra-rapid-acting insulin lispro formulation with citrate and treprostinil for rapid onset."
+description: "Concentrated insulin lispro (U-200). Larger doses in smaller volumes."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ['insulin', 'lispro', 'ultra-rapid', 'diabetes', 'prandial']
-category: "Insulin Family"
+pubDate: 2026-06-16
+tags: ["insulin-lispro-aabc", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
-relatedArticles: ['insulin-lispro', 'insulin-aspart', 'insulin-glulisine']
+relatedArticles: []
 ---
 
-## Chemical Identity
+## Overview
 
-| Property          | Value                                    |
-| ----------------- | ---------------------------------------- |
-| Product Name      | Ultra-rapid lispro formulation           |
-| Active Component  | Insulin lispro with absorption enhancers |
-| Onset             | ~10 minutes                              |
-| Duration          | 3-5 hours                                |
+Concentrated insulin lispro (U-200). Larger doses in smaller volumes.
 
-## Structure
+## Clinical Significance
 
-Insulin lispro AABC incorporates treprostinil and citrate in the formulation vehicle to enhance local blood flow at the injection site, achieving faster absorption than standard lispro.
-## Biological Significance
-
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

@@ -1,35 +1,23 @@
 ---
 title: "Insulin Glargine/Lixisenatide"
-description: "Comprehensive reference for Insulin Glargine/Lixisenatide, a peptide compound with applications in research and therapeutics."
+description: "Fixed-ratio glargine/lixisenatide. Basal insulin plus prandial GLP-1 agonist."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-analogs","peptide","oligopeptide"]
-category: "Peptide Analogs"
+pubDate: 2026-06-16
+tags: ["insulin-glargine-lixisenatide", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Insulin Glargine/Lixisenatide
-
 ## Overview
 
-Insulin Glargine/Lixisenatide is a bioactive peptide with well-characterized properties and therapeutic applications.
+Fixed-ratio glargine/lixisenatide. Basal insulin plus prandial GLP-1 agonist.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Insulin Glargine/Lixisenatide |
-| **Category** | Peptide Analogs |
-
+1. Encyclopeptide Database. "Insulin Glargine/Lixisenatide" monograph. encyclopeptide.com.

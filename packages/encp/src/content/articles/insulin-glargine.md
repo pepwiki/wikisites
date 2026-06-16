@@ -1,30 +1,22 @@
 ---
 title: "Insulin Glargine"
-description: "Long-acting basal insulin with delayed dissolution. Basal insulin, Type 1 and 2 diabetes."
+description: "Long-acting basal insulin."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
-tags: ["insulin-glargine", "peptide-drug", "therapeutic"]
-category: "Peptide Drugs"
+tags: ["insulin-glargine", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-## Chemical Identity
+## Overview
 
-| Property | Value |
-|----------|-------|
-| **Name** | Insulin Glargine |
-| **Modification** | Gly(A21) + 2×Arg(B31-32) |
-| **Molecular Weight** | 6063 Da |
+Long-acting basal insulin.
 
-## Mechanism of Action
+## Clinical Significance
 
-Long-acting basal insulin with delayed dissolution
-
-## Clinical Applications
-
-Basal insulin, Type 1 and 2 diabetes
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

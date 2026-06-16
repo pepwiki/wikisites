@@ -1,30 +1,23 @@
 ---
 title: "Free PSA"
-description: "Unbound prostate-specific antigen fraction used to improve specificity of prostate cancer screening."
+description: "Unbound PSA. Free/total PSA ratio improves prostate cancer detection."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["biomarkers-expanded", "peptide", "oligopeptide"]
-category: "Biomarkers Expanded"
+pubDate: 2026-06-16
+tags: ["free-psa", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Free PSA
-
 ## Overview
 
-Free PSA is a bioactive peptide with well-characterized properties and therapeutic applications.
+Unbound PSA. Free/total PSA ratio improves prostate cancer detection.
+
+## Clinical Significance
+
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Free PSA |
-| **Category** | Biomarkers Expanded |
-
+1. Encyclopeptide Database. "Free PSA" monograph. encyclopeptide.com.

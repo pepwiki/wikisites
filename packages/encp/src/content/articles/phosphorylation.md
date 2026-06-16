@@ -1,35 +1,23 @@
 ---
 title: "Phosphorylation"
-description: "Comprehensive reference for Phosphorylation, a peptide compound with applications in research and therapeutics."
+description: "Addition of phosphate group to serine, threonine, or tyrosine. Key regulatory modification."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-modifications","peptide","oligopeptide"]
-category: "Peptide Modifications"
+pubDate: 2026-06-16
+tags: ["phosphorylation", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Phosphorylation
-
 ## Overview
 
-Phosphorylation is a bioactive peptide with well-characterized properties and therapeutic applications.
+Addition of phosphate group to serine, threonine, or tyrosine. Key regulatory modification.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Phosphorylation |
-| **Category** | Peptide Modifications |
-
+1. Encyclopeptide Database. "Phosphorylation" monograph. encyclopeptide.com.

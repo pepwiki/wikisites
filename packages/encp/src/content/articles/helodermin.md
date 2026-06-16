@@ -1,35 +1,23 @@
 ---
 title: "Helodermin"
-description: "Comprehensive reference for Helodermin, a peptide compound with applications in research and therapeutics."
+description: "35-aa peptide from Gila monster venom. VIP-like peptide with potent vasodilatory effects."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["lizard-peptide","peptide","oligopeptide"]
-category: "Reptile Peptides"
+pubDate: 2026-06-16
+tags: ["helodermin", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Helodermin
-
 ## Overview
 
-Helodermin is a bioactive peptide with well-characterized properties and therapeutic applications.
+35-aa peptide from Gila monster venom. VIP-like peptide with potent vasodilatory effects.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Helodermin |
-| **Category** | Reptile Peptides |
-
+1. Encyclopeptide Database. "Helodermin" monograph. encyclopeptide.com.

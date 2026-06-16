@@ -1,30 +1,23 @@
 ---
 title: "Troponin T"
-description: "Cardiac protein biomarker released during myocardial damage, used in acute coronary syndrome diagnosis."
+description: "Cardiac muscle protein. MI biomarker."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["biomarkers-expanded", "peptide", "oligopeptide"]
-category: "Biomarkers Expanded"
+pubDate: 2026-06-16
+tags: ["troponin-t", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Troponin T
-
 ## Overview
 
-Troponin T is a bioactive peptide with well-characterized properties and therapeutic applications.
+Cardiac muscle protein. MI biomarker.
+
+## Clinical Significance
+
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Troponin T |
-| **Category** | Biomarkers Expanded |
-
+1. Encyclopeptide Database. "Troponin T" monograph. encyclopeptide.com.

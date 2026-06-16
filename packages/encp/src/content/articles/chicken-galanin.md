@@ -1,35 +1,23 @@
 ---
 title: "Chicken Galanin"
-description: "Comprehensive reference for Chicken Galanin, a peptide compound with applications in research and therapeutics."
+description: "Galanin neuropeptide from chicken brain. Roles in feeding behavior and neuroendocrine regulation."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["bird-peptides","peptide","oligopeptide"]
-category: "Bird Peptides"
+pubDate: 2026-06-16
+tags: ["chicken-galanin", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chicken Galanin
-
 ## Overview
 
-Chicken Galanin is a bioactive peptide with well-characterized properties and therapeutic applications.
+Galanin neuropeptide from chicken brain. Roles in feeding behavior and neuroendocrine regulation.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Chicken Galanin |
-| **Category** | Bird Peptides |
-
+1. Encyclopeptide Database. "Chicken Galanin" monograph. encyclopeptide.com.

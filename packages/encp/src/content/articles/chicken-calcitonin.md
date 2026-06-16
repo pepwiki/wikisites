@@ -1,35 +1,23 @@
 ---
 title: "Chicken Calcitonin"
-description: "Comprehensive reference for Chicken Calcitonin, a peptide compound with applications in research and therapeutics."
+description: "32-aa hormone from chicken parafollicular C-cells. Regulates calcium metabolism."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["bird-peptides","peptide","oligopeptide"]
-category: "Bird Peptides"
+pubDate: 2026-06-16
+tags: ["chicken-calcitonin", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chicken Calcitonin
-
 ## Overview
 
-Chicken Calcitonin is a bioactive peptide with well-characterized properties and therapeutic applications.
+32-aa hormone from chicken parafollicular C-cells. Regulates calcium metabolism.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Chicken Calcitonin |
-| **Category** | Bird Peptides |
-
+1. Encyclopeptide Database. "Chicken Calcitonin" monograph. encyclopeptide.com.

@@ -1,35 +1,23 @@
 ---
 title: "N-Terminal Pyroglutamate"
-description: "Comprehensive reference for N-Terminal Pyroglutamate, a peptide compound with applications in research and therapeutics."
+description: "Cyclization of N-terminal glutamine to pyroglutamic acid. Protects against degradation."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-modifications","peptide","oligopeptide"]
-category: "Peptide Modifications"
+pubDate: 2026-06-16
+tags: ["n-terminal-pyroglutamate", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# N-Terminal Pyroglutamate
-
 ## Overview
 
-N-Terminal Pyroglutamate is a bioactive peptide with well-characterized properties and therapeutic applications.
+Cyclization of N-terminal glutamine to pyroglutamic acid. Protects against degradation.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | N-Terminal Pyroglutamate |
-| **Category** | Peptide Modifications |
-
+1. Encyclopeptide Database. "N-Terminal Pyroglutamate" monograph. encyclopeptide.com.

@@ -1,35 +1,23 @@
 ---
 title: "Luminescine"
-description: "Comprehensive reference for Luminescine, a peptide compound with applications in research and therapeutics."
+description: "Peptide that enhances skin radiance. Brightening skincare ingredient."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["cosmetic-peptides","peptide","oligopeptide"]
-category: "Cosmetic Peptides"
+pubDate: 2026-06-16
+tags: ["luminescine", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Luminescine
-
 ## Overview
 
-Luminescine is a bioactive peptide with well-characterized properties and therapeutic applications.
+Peptide that enhances skin radiance. Brightening skincare ingredient.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Luminescine |
-| **Category** | Cosmetic Peptides |
-
+1. Encyclopeptide Database. "Luminescine" monograph. encyclopeptide.com.

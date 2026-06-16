@@ -1,35 +1,23 @@
 ---
 title: "Amyloid-beta 40"
-description: "Comprehensive reference for Amyloid-beta 40, a peptide compound with applications in research and therapeutics."
+description: "40-aa peptide from APP. Less aggregation-prone than Aβ42. Aβ42/40 ratio is better."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["biomarkers-expanded","peptide","oligopeptide"]
-category: "Biomarkers Expanded"
+pubDate: 2026-06-16
+tags: ["amyloid-beta-40", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Amyloid-beta 40
-
 ## Overview
 
-Amyloid-beta 40 is a bioactive peptide with well-characterized properties and therapeutic applications.
+40-aa peptide from APP. Less aggregation-prone than Aβ42. Aβ42/40 ratio is better.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Amyloid-beta 40 |
-| **Category** | Biomarkers Expanded |
-
+1. Encyclopeptide Database. "Amyloid-beta 40" monograph. encyclopeptide.com.

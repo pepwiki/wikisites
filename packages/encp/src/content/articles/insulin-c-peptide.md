@@ -1,32 +1,22 @@
 ---
 title: "Insulin C-Peptide"
-description: "The 31-amino acid peptide cleaved from proinsulin during insulin maturation, used as a biomarker for endogenous insulin secretion."
+description: "31-aa peptide from proinsulin. Biomarker for endogenous insulin production."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ['insulin', 'C-peptide', 'proinsulin', 'biomarker', 'diabetes']
-category: "Insulin Family"
+pubDate: 2026-06-16
+tags: ["insulin-c-peptide", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
-relatedArticles: ['proinsulin', 'insulin-human', 'type-1-diabetes']
+relatedArticles: []
 ---
 
-## Chemical Identity
+## Overview
 
-| Property          | Value                                    |
-| ----------------- | ---------------------------------------- |
-| Sequence Length   | 31 amino acids                          |
-| Molecular Weight  | 3020 Da                                  |
-| Half-life         | 20-30 minutes                            |
+31-aa peptide from proinsulin. Biomarker for endogenous insulin production.
 
-## Clinical Applications
+## Clinical Significance
 
-1. **Distinguishing type 1 from type 2 diabetes**: Low C-peptide indicates beta cell destruction
-2. **Factitious hypoglycemia**: Low C-peptide with high insulin confirms exogenous use
-3. **Insulinoma diagnosis**: Elevated C-peptide with hypoglycemia
-4. **Post-transplant monitoring**: Assessing graft function
-## Biological Significance
-
-This molecule plays important roles in biological systems and has potential therapeutic applications.
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

@@ -1,30 +1,23 @@
 ---
 title: "Troponin I"
-description: "Cardiac protein biomarker used to diagnose myocardial infarction and assess cardiac injury severity."
+description: "Cardiac muscle protein. MI biomarker."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["biomarkers-expanded", "peptide", "oligopeptide"]
-category: "Biomarkers Expanded"
+pubDate: 2026-06-16
+tags: ["troponin-i", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Troponin I
-
 ## Overview
 
-Troponin I is a bioactive peptide with well-characterized properties and therapeutic applications.
+Cardiac muscle protein. MI biomarker.
+
+## Clinical Significance
+
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Troponin I |
-| **Category** | Biomarkers Expanded |
-
+1. Encyclopeptide Database. "Troponin I" monograph. encyclopeptide.com.

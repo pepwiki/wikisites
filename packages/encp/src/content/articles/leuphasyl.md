@@ -1,35 +1,23 @@
 ---
 title: "Leuphasyl"
-description: "Comprehensive reference for Leuphasyl, a peptide compound with applications in research and therapeutics."
+description: "Acetyl pentapeptide-18. Reduces expression wrinkles. Cosmetic peptide."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["cosmetic-peptides","peptide","oligopeptide"]
-category: "Cosmetic Peptides"
+pubDate: 2026-06-16
+tags: ["leuphasyl", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Leuphasyl
-
 ## Overview
 
-Leuphasyl is a bioactive peptide with well-characterized properties and therapeutic applications.
+Acetyl pentapeptide-18. Reduces expression wrinkles. Cosmetic peptide.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Leuphasyl |
-| **Category** | Cosmetic Peptides |
-
+1. Encyclopeptide Database. "Leuphasyl" monograph. encyclopeptide.com.

@@ -1,35 +1,23 @@
 ---
 title: "Alpha-synuclein"
-description: "Comprehensive reference for Alpha-synuclein, a peptide compound with applications in research and therapeutics."
+description: "140-aa presynaptic protein. Aggregates in Parkinson's and Lewy body dementia."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["biomarkers-expanded","peptide","oligopeptide"]
-category: "Biomarkers Expanded"
+pubDate: 2026-06-16
+tags: ["alpha-synuclein", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Alpha-synuclein
-
 ## Overview
 
-Alpha-synuclein is a bioactive peptide with well-characterized properties and therapeutic applications.
+140-aa presynaptic protein. Aggregates in Parkinson's and Lewy body dementia.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Alpha-synuclein |
-| **Category** | Biomarkers Expanded |
-
+1. Encyclopeptide Database. "Alpha-synuclein" monograph. encyclopeptide.com.

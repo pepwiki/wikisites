@@ -1,30 +1,22 @@
 ---
 title: "Insulin Detemir"
-description: "Long-acting insulin with albumin binding. Basal insulin, Type 1 and 2 diabetes."
+description: "Long-acting basal insulin."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
-tags: ["insulin-detemir", "peptide-drug", "therapeutic"]
-category: "Peptide Drugs"
+tags: ["insulin-detemir", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-## Chemical Identity
+## Overview
 
-| Property | Value |
-|----------|-------|
-| **Name** | Insulin Detemir |
-| **Modification** | Lys(B29)-C12 fatty acid |
-| **Molecular Weight** | 5917 Da |
+Long-acting basal insulin.
 
-## Mechanism of Action
+## Clinical Significance
 
-Long-acting insulin with albumin binding
-
-## Clinical Applications
-
-Basal insulin, Type 1 and 2 diabetes
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

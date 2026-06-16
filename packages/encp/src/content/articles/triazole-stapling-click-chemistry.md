@@ -1,35 +1,23 @@
 ---
 title: "Triazole Stapling (Click Chemistry)"
-description: "Comprehensive reference for Triazole Stapling (Click Chemistry), a peptide compound with applications in research and therapeutics."
+description: "Introduction of triazole cross-links using click chemistry. Stabilizes peptides."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-modifications","peptide","oligopeptide"]
-category: "Peptide Modifications"
+pubDate: 2026-06-16
+tags: ["triazole-stapling-click-chemistry", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Triazole Stapling (Click Chemistry)
-
 ## Overview
 
-Triazole Stapling (Click Chemistry) is a bioactive peptide with well-characterized properties and therapeutic applications.
+Introduction of triazole cross-links using click chemistry. Stabilizes peptides.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Triazole Stapling (Click Chemistry) |
-| **Category** | Peptide Modifications |
-
+1. Encyclopeptide Database. "Triazole Stapling (Click Chemistry)" monograph. encyclopeptide.com.

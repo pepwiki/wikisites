@@ -1,35 +1,23 @@
 ---
 title: "Glycosylation"
-description: "Comprehensive reference for Glycosylation, a peptide compound with applications in research and therapeutics."
+description: "Addition of carbohydrate groups to proteins. Affects folding, stability, activity."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-modifications","peptide","oligopeptide"]
-category: "Peptide Modifications"
+pubDate: 2026-06-16
+tags: ["glycosylation", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Glycosylation
-
 ## Overview
 
-Glycosylation is a bioactive peptide with well-characterized properties and therapeutic applications.
+Addition of carbohydrate groups to proteins. Affects folding, stability, activity.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Glycosylation |
-| **Category** | Peptide Modifications |
-
+1. Encyclopeptide Database. "Glycosylation" monograph. encyclopeptide.com.

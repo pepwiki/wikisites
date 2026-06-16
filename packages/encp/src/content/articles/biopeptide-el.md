@@ -1,35 +1,23 @@
 ---
 title: "Biopeptide EL"
-description: "Comprehensive reference for Biopeptide EL, a peptide compound with applications in research and therapeutics."
+description: "Acetyl tetrapeptide-3. Stimulates extracellular matrix. Anti-aging hair care."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["cosmetic-peptides","peptide","oligopeptide"]
-category: "Cosmetic Peptides"
+pubDate: 2026-06-16
+tags: ["biopeptide-el", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Biopeptide EL
-
 ## Overview
 
-Biopeptide EL is a bioactive peptide with well-characterized properties and therapeutic applications.
+Acetyl tetrapeptide-3. Stimulates extracellular matrix. Anti-aging hair care.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Biopeptide EL |
-| **Category** | Cosmetic Peptides |
-
+1. Encyclopeptide Database. "Biopeptide EL" monograph. encyclopeptide.com.

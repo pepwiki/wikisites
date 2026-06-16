@@ -1,35 +1,23 @@
 ---
 title: "Homocystinuria"
-description: "Comprehensive reference for Homocystinuria, a peptide compound with applications in research and therapeutics."
+description: "CBS deficiency. Elevated homocysteine. Treatments: B6, betaine, low-methionine diet."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["metabolic","peptide","oligopeptide"]
-category: "Metabolic"
+pubDate: 2026-06-16
+tags: ["homocystinuria", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Homocystinuria
-
 ## Overview
 
-Homocystinuria is a bioactive peptide with well-characterized properties and therapeutic applications.
+CBS deficiency. Elevated homocysteine. Treatments: B6, betaine, low-methionine diet.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Homocystinuria |
-| **Category** | Metabolic |
-
+1. Encyclopeptide Database. "Homocystinuria" monograph. encyclopeptide.com.

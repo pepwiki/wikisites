@@ -1,35 +1,23 @@
 ---
 title: "Amyloid-beta 42"
-description: "Comprehensive reference for Amyloid-beta 42, a peptide compound with applications in research and therapeutics."
+description: "42-aa peptide from APP. Forms toxic plaques in Alzheimer's disease. AD biomarker."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["neurological","peptide","oligopeptide"]
-category: "Neurological"
+pubDate: 2026-06-16
+tags: ["amyloid-beta-42", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Amyloid-beta 42
-
 ## Overview
 
-Amyloid-beta 42 is a bioactive peptide with well-characterized properties and therapeutic applications.
+42-aa peptide from APP. Forms toxic plaques in Alzheimer's disease. AD biomarker.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Amyloid-beta 42 |
-| **Category** | Neurological |
-
+1. Encyclopeptide Database. "Amyloid-beta 42" monograph. encyclopeptide.com.

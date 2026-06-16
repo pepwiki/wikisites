@@ -1,35 +1,23 @@
 ---
 title: "Kollaren"
-description: "Comprehensive reference for Kollaren, a peptide compound with applications in research and therapeutics."
+description: "Palmitoyl pentapeptide-4. Stimulates collagen synthesis. Anti-aging skincare."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["cosmetic-peptides","peptide","oligopeptide"]
-category: "Cosmetic Peptides"
+pubDate: 2026-06-16
+tags: ["kollaren", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Kollaren
-
 ## Overview
 
-Kollaren is a bioactive peptide with well-characterized properties and therapeutic applications.
+Palmitoyl pentapeptide-4. Stimulates collagen synthesis. Anti-aging skincare.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Kollaren |
-| **Category** | Cosmetic Peptides |
-
+1. Encyclopeptide Database. "Kollaren" monograph. encyclopeptide.com.

@@ -1,35 +1,23 @@
 ---
 title: "C-Terminal Amidation"
-description: "Comprehensive reference for C-Terminal Amidation, a peptide compound with applications in research and therapeutics."
+description: "Addition of amide group at C-terminus. Protects against exopeptidase degradation."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-modifications","peptide","oligopeptide"]
-category: "Peptide Modifications"
+pubDate: 2026-06-16
+tags: ["c-terminal-amidation", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# C-Terminal Amidation
-
 ## Overview
 
-C-Terminal Amidation is a bioactive peptide with well-characterized properties and therapeutic applications.
+Addition of amide group at C-terminus. Protects against exopeptidase degradation.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | C-Terminal Amidation |
-| **Category** | Peptide Modifications |
-
+1. Encyclopeptide Database. "C-Terminal Amidation" monograph. encyclopeptide.com.

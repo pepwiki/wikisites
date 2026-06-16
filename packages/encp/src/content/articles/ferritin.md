@@ -1,35 +1,23 @@
 ---
 title: "Ferritin"
-description: "Comprehensive reference for Ferritin, a peptide compound with applications in research and therapeutics."
+description: "Iron-storage protein. Inflammation marker, iron deficiency indicator."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["biomarkers-expanded","peptide","oligopeptide"]
-category: "Biomarkers Expanded"
+pubDate: 2026-06-16
+tags: ["ferritin", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Ferritin
-
 ## Overview
 
-Ferritin is a bioactive peptide with well-characterized properties and therapeutic applications.
+Iron-storage protein. Inflammation marker, iron deficiency indicator.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Ferritin |
-| **Category** | Biomarkers Expanded |
-
+1. Encyclopeptide Database. "Ferritin" monograph. encyclopeptide.com.

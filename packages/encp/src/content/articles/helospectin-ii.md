@@ -1,35 +1,23 @@
 ---
 title: "Helospectin II"
-description: "Comprehensive reference for Helospectin II, a peptide compound with applications in research and therapeutics."
+description: "27-aa VIP-related peptide from Gila monster venom. Similar to helospectin I but shorter."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["lizard-peptide","peptide","oligopeptide"]
-category: "Reptile Peptides"
+pubDate: 2026-06-16
+tags: ["helospectin-ii", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Helospectin II
-
 ## Overview
 
-Helospectin II is a bioactive peptide with well-characterized properties and therapeutic applications.
+27-aa VIP-related peptide from Gila monster venom. Similar to helospectin I but shorter.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Helospectin II |
-| **Category** | Reptile Peptides |
-
+1. Encyclopeptide Database. "Helospectin II" monograph. encyclopeptide.com.

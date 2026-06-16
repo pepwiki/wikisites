@@ -1,30 +1,22 @@
 ---
 title: "Leuprolide"
-description: "GnRH agonist causing initial stimulation then downregulation. Prostate cancer, endometriosis, precocious puberty."
+description: "GnRH agonist. Prostate cancer, endometriosis."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
-tags: ["leuprolide", "peptide-drug", "therapeutic"]
-category: "Peptide Drugs"
+tags: ["leuprolide", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-## Chemical Identity
+## Overview
 
-| Property | Value |
-|----------|-------|
-| **Name** | Leuprolide |
-| **Modification** | D-His-Trp-Ser-Tyr-D-Leu-Leu-Arg-Pro-NHEt |
-| **Molecular Weight** | 1209 Da |
+GnRH agonist. Prostate cancer, endometriosis.
 
-## Mechanism of Action
+## Clinical Significance
 
-GnRH agonist causing initial stimulation then downregulation
-
-## Clinical Applications
-
-Prostate cancer, endometriosis, precocious puberty
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

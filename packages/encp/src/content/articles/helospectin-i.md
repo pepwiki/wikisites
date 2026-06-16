@@ -1,35 +1,23 @@
 ---
 title: "Helospectin I"
-description: "Comprehensive reference for Helospectin I, a peptide compound with applications in research and therapeutics."
+description: "35-aa VIP-related peptide from Gila monster venom. Vasodilatory and secretory effects."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["reptile-peptides","peptide","oligopeptide"]
-category: "Reptile Peptides"
+pubDate: 2026-06-16
+tags: ["helospectin-i", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Helospectin I
-
 ## Overview
 
-Helospectin I is a bioactive peptide with well-characterized properties and therapeutic applications.
+35-aa VIP-related peptide from Gila monster venom. Vasodilatory and secretory effects.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Helospectin I |
-| **Category** | Reptile Peptides |
-
+1. Encyclopeptide Database. "Helospectin I" monograph. encyclopeptide.com.

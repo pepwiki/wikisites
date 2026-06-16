@@ -1,35 +1,23 @@
 ---
 title: "Tau (Phosphorylated)"
-description: "Comprehensive reference for Tau (Phosphorylated), a peptide compound with applications in research and therapeutics."
+description: "Hyperphosphorylated tau. Neurofibrillary tangles in Alzheimer's disease."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["biomarker-peptides","peptide","oligopeptide"]
-category: "Biomarker Peptides"
+pubDate: 2026-06-16
+tags: ["tau-phosphorylated", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Tau (Phosphorylated)
-
 ## Overview
 
-Tau (Phosphorylated) is a bioactive peptide with well-characterized properties and therapeutic applications.
+Hyperphosphorylated tau. Neurofibrillary tangles in Alzheimer's disease.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Tau (Phosphorylated) |
-| **Category** | Biomarker Peptides |
-
+1. Encyclopeptide Database. "Tau (Phosphorylated)" monograph. encyclopeptide.com.

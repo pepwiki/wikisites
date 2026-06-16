@@ -1,30 +1,22 @@
 ---
 title: "Insulin Lispro"
-description: "Rapid-acting insulin with faster absorption. Prandial insulin, Type 1 and 2 diabetes."
+description: "Rapid-acting insulin analog."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
-tags: ["insulin-lispro", "peptide-drug", "therapeutic"]
-category: "Peptide Drugs"
+tags: ["insulin-lispro", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-## Chemical Identity
+## Overview
 
-| Property | Value |
-|----------|-------|
-| **Name** | Insulin Lispro |
-| **Modification** | Lys(B28), Pro(B29) |
-| **Molecular Weight** | 5808 Da |
+Rapid-acting insulin analog.
 
-## Mechanism of Action
+## Clinical Significance
 
-Rapid-acting insulin with faster absorption
-
-## Clinical Applications
-
-Prandial insulin, Type 1 and 2 diabetes
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

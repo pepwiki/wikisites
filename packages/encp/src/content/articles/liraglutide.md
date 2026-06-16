@@ -1,30 +1,22 @@
 ---
 title: "Liraglutide"
-description: "GLP-1 receptor agonist with albumin binding for once-daily injection. Type 2 diabetes (Victoza) and obesity (Saxenda)."
+description: "GLP-1 agonist. Type 2 diabetes and obesity."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
-tags: ["liraglutide", "peptide-drug", "therapeutic"]
-category: "Peptide Drugs"
+tags: ["liraglutide", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-## Chemical Identity
+## Overview
 
-| Property | Value |
-|----------|-------|
-| **Name** | Liraglutide |
-| **Modification** | GLP-1 analog with Lys34-palmitoyl |
-| **Molecular Weight** | 3751 Da |
+GLP-1 agonist. Type 2 diabetes and obesity.
 
-## Mechanism of Action
+## Clinical Significance
 
-GLP-1 receptor agonist with albumin binding for once-daily injection
-
-## Clinical Applications
-
-Type 2 diabetes (Victoza) and obesity (Saxenda)
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 

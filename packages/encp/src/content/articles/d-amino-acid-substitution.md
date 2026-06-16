@@ -1,35 +1,23 @@
 ---
 title: "D-Amino Acid Substitution"
-description: "Comprehensive reference for D-Amino Acid Substitution, a peptide compound with applications in research and therapeutics."
+description: "Replacement of L-amino acids with D-enantiomers. Increases proteolytic resistance."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-modifications","peptide","oligopeptide"]
-category: "Peptide Modifications"
+pubDate: 2026-06-16
+tags: ["d-amino-acid-substitution", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# D-Amino Acid Substitution
-
 ## Overview
 
-D-Amino Acid Substitution is a bioactive peptide with well-characterized properties and therapeutic applications.
+Replacement of L-amino acids with D-enantiomers. Increases proteolytic resistance.
 
+## Clinical Significance
 
-
-
-
+This molecule has important therapeutic or diagnostic applications in clinical medicine.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | D-Amino Acid Substitution |
-| **Category** | Peptide Modifications |
-
+1. Encyclopeptide Database. "D-Amino Acid Substitution" monograph. encyclopeptide.com.
