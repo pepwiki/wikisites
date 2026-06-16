@@ -1,11 +1,11 @@
 ---
 title: "Dulaglutide"
-description: "Comprehensive reference for Dulaglutide, a peptide compound with applications in research and therapeutics."
+description: "Once-weekly GLP-1 agonist fused to modified Fc domain for extended half-life and DPP-4 resistance."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["peptide-analogs","peptide","oligopeptide"]
-category: "Peptide Analogs"
+tags: ["glp1", "once-weekly", "fusion-protein"]
+category: "Peptide Drugs"
 difficulty: "intermediate"
 relatedArticles: []
 ---
@@ -14,25 +14,17 @@ relatedArticles: []
 
 ## Overview
 
-Dulaglutide is a bioactive peptide with well-characterized properties and therapeutic applications.
-
+Once-weekly GLP-1 agonist fused to modified Fc domain for extended half-life and DPP-4 resistance.
 
 ## Structure
 
 | Property | Value |
-|----------|-------|
-| Name | Dulaglutide |
-| Sequence | GLP-1 analog-[GGGGSGGGGSGGGGS]-IgG4 Fc (homodimer) |
-
-| Molecular Weight | ~63,000 Da |
-
-| Category | Metabolic / GLP-1 Agonist (Fc Fusion) |
+| -------- | ----- |
+| Name     | Dulaglutide |
 
 ## Mechanism of Action
 
-GLP-1 receptor agonist; Fc fusion protects from DPP-4 and reduces renal clearance
-
-
+Fc fusion protein avoids renal clearance and extends circulating half-life to 5 days.
 
 ## References
 

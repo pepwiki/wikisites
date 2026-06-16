@@ -1,37 +1,35 @@
 ---
 title: "Peptide Pharmacovigilance"
-description: "Post-marketing safety monitoring and pharmacovigilance for peptide therapeutics."
+description: "Post-market safety monitoring and adverse event reporting for peptide therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["pharmacovigilance","safety","monitoring","post-market"]
-category: "Peptide Industry"
+tags: ['pharmacovigilance', 'safety', 'adverse-events', 'reporting', 'post-market']
+category: "Drug Safety"
 difficulty: "intermediate"
+relatedArticles: ['peptide-pharmacovigilance', 'toxicity']
 ---
 
 ## Overview
 
-Pharmacovigilance for peptide therapeutics involves monitoring safety signals, managing risks, and ensuring continued benefit-risk balance.
+Pharmacovigilance for peptide therapeutics involves systematic collection, analysis, and reporting of adverse events.
 
-## Key Activities
+## Safety Monitoring Framework
 
-- **Adverse event reporting**: Spontaneous and solicited reports
-- **Signal detection**: Identifying new safety concerns
-- **Risk management**: REMS and risk minimization
-- **Periodic safety reports**: PBRER and PSUR submissions
+### Pre-Market
+- Clinical trial safety databases
+- Periodic safety reports
 
-## Peptide-Specific Concerns
+### Post-Market
+- Spontaneous reporting systems
+- Active surveillance programs
+- Registry studies
 
-- Injection site reactions
-- Immunogenicity and anti-drug antibodies
-- Hypoglycemia risk with insulin peptides
-- Cardiovascular effects of GLP-1 agonists
+## Key Safety Considerations
 
-## Regulatory Requirements
-
-FDA, EMA, and other agencies require ongoing pharmacovigilance throughout the product lifecycle.
-
-## References
-
-- Source: ENCP Peptide Database
-- Category: Peptide Industry
+| Safety Area      | Monitoring Required     |
+| ---------------- | ----------------------- |
+| Injection site   | Reactions, nodules      |
+| Immunogenicity   | Anti-drug antibodies    |
+| Organ toxicity   | Liver, kidney, pancreas |
+| Cardiovascular   | MACE, heart failure     |

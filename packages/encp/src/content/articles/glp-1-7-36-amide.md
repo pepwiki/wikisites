@@ -1,40 +1,24 @@
 ---
-title: "GLP-1 (7-36) Amide"
-description: "Comprehensive reference for GLP-1 (7-36) Amide, a peptide compound with applications in research and therapeutics."
+title: "GLP-1(7-36)amide"
+description: "The primary bioactive form of GLP-1, a 30-amino acid peptide amide produced by intestinal L-cells."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["therapeutic-peptides","peptide","oligopeptide"]
-category: "Therapeutic Peptides"
+tags: ['GLP-1', 'GLP-1-7-36', 'incretin', 'L-cells', 'bioactive']
+category: "GLP-1 Family"
 difficulty: "intermediate"
-relatedArticles: []
+relatedArticles: ['glp-1', 'glp-1-glucagon-like-peptide-1']
 ---
 
-# GLP-1 (7-36) Amide
+## Chemical Identity
 
-## Overview
+| Property          | Value                                    |
+| ----------------- | ---------------------------------------- |
+| Sequence          | HAEGTFTSDVSSYLEGQAAKEFIAWLVKGRG         |
+| Length            | 31 amino acids                           |
+| Molecular Weight  | 3298.5 Da                                |
+| Form              | C-terminal amide                         |
 
-GLP-1 (7-36) Amide is a bioactive peptide with well-characterized properties and therapeutic applications.
+## Metabolism
 
-
-## Structure
-
-| Property | Value |
-|----------|-------|
-| Name | GLP-1 (7-36) Amide |
-| Sequence | HAEGTFTSDVSSYLEGQAAKEFIAWLVKGR |
-| Length | 30 amino acids |
-| Molecular Weight | 3298 Da |
-
-| Category | Metabolic / Incretin Mimetic |
-
-## Mechanism of Action
-
-GLP-1 receptor agonist; stimulates glucose-dependent insulin secretion
-
-
-
-## References
-
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
+Rapidly degraded by DPP-4, which cleaves the N-terminal His-Ala dipeptide, producing inactive GLP-1(9-36)amide. This rapid degradation limits native GLP-1's therapeutic utility.

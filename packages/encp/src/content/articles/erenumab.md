@@ -1,11 +1,11 @@
 ---
 title: "Erenumab"
-description: "Comprehensive reference for Erenumab, a peptide compound with applications in research and therapeutics."
+description: "Monoclonal antibody against CGRP receptor for migraine prevention with monthly dosing."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["therapeutic-peptides-expanded-2","peptide","oligopeptide"]
-category: "Therapeutic Peptides Expanded 2"
+tags: ["cgrp", "migraine", "monoclonal-antibody"]
+category: "Peptide Drugs"
 difficulty: "intermediate"
 relatedArticles: []
 ---
@@ -14,25 +14,17 @@ relatedArticles: []
 
 ## Overview
 
-Erenumab is a bioactive peptide with well-characterized properties and therapeutic applications.
-
+Monoclonal antibody against CGRP receptor for migraine prevention with monthly dosing.
 
 ## Structure
 
 | Property | Value |
-|----------|-------|
-| Name | Erenumab |
-| Sequence | Fully human IgG2 monoclonal antibody targeting CGRP receptor |
-| Length | ~1340 amino acids |
-| Molecular Weight | ~150 kDa |
-
-| Category | Neurology / Anti-CGRP Receptor Antibody |
+| -------- | ----- |
+| Name     | Erenumab |
 
 ## Mechanism of Action
 
-Blocks CGRP receptor (calcitonin receptor-like receptor/RAMP1 complex), inhibiting CGRP-mediated vasodilation, neurogenic inflammation, and pain signaling
-
-
+CGRP receptor antibody prevents peptide ligand binding reducing migraine frequency.
 
 ## References
 

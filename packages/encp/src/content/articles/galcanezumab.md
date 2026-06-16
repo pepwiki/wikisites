@@ -1,11 +1,11 @@
 ---
 title: "Galcanezumab"
-description: "Comprehensive reference for Galcanezumab, a peptide compound with applications in research and therapeutics."
+description: "Anti-CGRP monoclonal antibody for episodic and chronic migraine prevention."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["therapeutic-peptides-expanded-2","peptide","oligopeptide"]
-category: "Therapeutic Peptides Expanded 2"
+tags: ["cgrp", "migraine", "monoclonal-antibody"]
+category: "Peptide Drugs"
 difficulty: "intermediate"
 relatedArticles: []
 ---
@@ -14,25 +14,17 @@ relatedArticles: []
 
 ## Overview
 
-Galcanezumab is a bioactive peptide with well-characterized properties and therapeutic applications.
-
+Anti-CGRP monoclonal antibody for episodic and chronic migraine prevention.
 
 ## Structure
 
 | Property | Value |
-|----------|-------|
-| Name | Galcanezumab |
-| Sequence | Humanized IgG4 monoclonal antibody targeting CGRP ligand |
-| Length | ~1325 amino acids |
-| Molecular Weight | ~147 kDa |
-
-| Category | Neurology / Anti-CGRP Antibody |
+| -------- | ----- |
+| Name     | Galcanezumab |
 
 ## Mechanism of Action
 
-Binds CGRP ligand with high affinity, blocking its interaction with the CGRP receptor and inhibiting trigeminal pain pathways
-
-
+CGRP ligand binding antibody prevents receptor activation reducing migraine attacks.
 
 ## References
 

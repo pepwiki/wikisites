@@ -1,11 +1,11 @@
 ---
 title: "Lixisenatide"
-description: "Comprehensive reference for Lixisenatide, a peptide compound with applications in research and therapeutics."
+description: "Once-daily short-acting GLP-1 agonist from exendin-4 with C-terminal truncation for rapid onset."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["peptide-analogs","peptide","oligopeptide"]
-category: "Peptide Analogs"
+tags: ["glp1", "once-daily", "short-acting"]
+category: "Peptide Drugs"
 difficulty: "intermediate"
 relatedArticles: []
 ---
@@ -14,25 +14,17 @@ relatedArticles: []
 
 ## Overview
 
-Lixisenatide is a bioactive peptide with well-characterized properties and therapeutic applications.
-
+Once-daily short-acting GLP-1 agonist from exendin-4 with C-terminal truncation for rapid onset.
 
 ## Structure
 
 | Property | Value |
-|----------|-------|
-| Name | Lixisenatide |
-| Sequence | Combination product |
-
-| Molecular Weight | ~5100 Da (lixisenatide component) |
-
-| Category | Metabolic / Insulin-GLP-1 Combination |
+| -------- | ----- |
+| Name     | Lixisenatide |
 
 ## Mechanism of Action
 
-Dual mechanism: basal insulin + GLP-1 agonism for glucose-dependent insulin secretion
-
-
+Truncated exendin-4 analog provides rapid receptor engagement and gastric emptying effect.
 
 ## References
 

@@ -1,33 +1,32 @@
 ---
 title: "Liposomal Peptide Delivery"
-description: "Learn about liposome-based carrier systems for encapsulating and delivering peptide therapeutics with improved stability."
+description: "Liposome encapsulation protecting peptides from degradation and enabling targeted delivery."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["liposomes","drug-delivery","nanotechnology"]
+tags: ["liposome", "encapsulation", "protection"]
 category: "Drug Delivery"
-difficulty: "advanced"
+difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Liposomal Peptide Delivery
+
 ## Overview
 
-Learn about liposome-based carrier systems for encapsulating and delivering peptide therapeutics with improved stability.
+Liposome encapsulation protecting peptides from degradation and enabling targeted delivery.
 
+## Structure
 
-## Key Concepts
+| Property | Value |
+| -------- | ----- |
+| Name     | Liposomal Peptide Delivery |
 
-Liposomal Peptide Delivery is an important area of peptide science with growing applications in research, therapeutics, and clinical practice.
+## Mechanism of Action
 
-## Applications
-
-Key applications include:
-- Biomedical research
-- Drug discovery and development
-- Diagnostic applications
-- Therapeutic interventions
+Phospholipid bilayer vesicles protect peptide cargo from enzymatic degradation.
 
 ## References
 
-- Database: Wikipept Peptide Database
-- Category: Drug Delivery
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

@@ -1,12 +1,12 @@
 ---
 title: "Survodutide"
-description: "Comprehensive reference for Survodutide, a peptide compound with applications in research and therapeutics."
+description: "Dual glucagon/GLP-1 receptor agonist for obesity and metabolic dysfunction-associated steatohepatitis."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["therapeutic-peptides-expanded-2","peptide","oligopeptide"]
-category: "Therapeutic Peptides Expanded 2"
-difficulty: "intermediate"
+tags: ["glp1", "dual-agonist", "obesity"]
+category: "Peptide Drugs"
+difficulty: "advanced"
 relatedArticles: []
 ---
 
@@ -14,25 +14,17 @@ relatedArticles: []
 
 ## Overview
 
-Survodutide is a bioactive peptide with well-characterized properties and therapeutic applications.
-
+Dual glucagon/GLP-1 receptor agonist for obesity and metabolic dysfunction-associated steatohepatitis.
 
 ## Structure
 
 | Property | Value |
-|----------|-------|
-| Name | Survodutide |
-| Sequence | Modified GLP-1/glucagon dual agonist peptide with fatty acid side chain |
-| Length | ~29 amino acids (engineered dual-agonist peptide) |
-| Molecular Weight | ~4.2 kDa |
-
-| Category | Metabolic / GLP-1/Glucagon Dual Agonist |
+| -------- | ----- |
+| Name     | Survodutide |
 
 ## Mechanism of Action
 
-Dual GLP-1/glucagon receptor agonist; GLP-1 improves glycemic control and reduces appetite, glucagon increases energy expenditure and hepatic fat oxidation
-
-
+Glucagon receptor activation adds hepatic lipid mobilization to GLP-1 metabolic benefits.
 
 ## References
 

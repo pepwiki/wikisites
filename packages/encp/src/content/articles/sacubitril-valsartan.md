@@ -1,38 +1,30 @@
 ---
-title: "Sacubitril/Valsartan"
-description: "Comprehensive reference for Sacubitril/Valsartan, a peptide compound with applications in research and therapeutics."
+title: "Sacubitril-Valsartan"
+description: "Neprilysin inhibitor combined with ARB for heart failure reducing natriuretic peptide degradation."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["therapeutic-peptides-expanded","peptide","oligopeptide"]
-category: "Therapeutic Peptides Expanded"
+tags: ["neprilysin", "heart-failure", "natriuretic"]
+category: "Peptide Drugs"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sacubitril/Valsartan
+# Sacubitril-Valsartan
 
 ## Overview
 
-Sacubitril/Valsartan is a bioactive peptide with well-characterized properties and therapeutic applications.
-
+Neprilysin inhibitor combined with ARB for heart failure reducing natriuretic peptide degradation.
 
 ## Structure
 
 | Property | Value |
-|----------|-------|
-| Name | Sacubitril/Valsartan |
-| Sequence | N/A (combination: sacubitril prodrug + valsartan ARB) |
-| Length | Small molecule combination |
-| Molecular Weight | 485 Da (sacubitril) + 435 Da (valsartan) |
-
-| Category | Cardiovascular / Neprilysin Inhibitor + ARB |
+| -------- | ----- |
+| Name     | Sacubitril-Valsartan |
 
 ## Mechanism of Action
 
-Neprilysin inhibitor (sacubitril→LBQ657) + AT1 receptor blocker (valsartan)
-
-
+Sacubitril inhibits neprilysin preventing natriuretic peptide breakdown while valsartan blocks AT1.
 
 ## References
 

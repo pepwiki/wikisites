@@ -1,30 +1,33 @@
 ---
-title: "GLP-1 → DPP-4 (Substrate)"
-description: "Comprehensive reference for GLP-1 → DPP-4 (Substrate), a peptide compound with applications in research and therapeutics."
+title: "GLP-1 as DPP-4 Substrate"
+description: "Mechanism of DPP-4-mediated GLP-1 degradation and how therapeutic analogues overcome this limitation."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["peptide-interactions","peptide","oligopeptide"]
-category: "Peptide Interactions"
+tags: ['GLP-1', 'DPP-4', 'substrate', 'degradation', 'incretin']
+category: "GLP-1 Family"
 difficulty: "intermediate"
-relatedArticles: []
+relatedArticles: ['glp-1', 'glp-1-7-36-amide', 'semaglutide']
 ---
 
-# GLP-1 → DPP-4 (Substrate)
+## DPP-4 Mechanism
 
-## Overview
+### Enzyme Characteristics
+- Type: Serine exopeptidase
+- Expression: Soluble (plasma) and membrane-bound forms
+- Substrate preference: Cleaves after Pro or Ala at P1 position
 
-GLP-1 → DPP-4 (Substrate) is a bioactive peptide with well-characterized properties and therapeutic applications.
+### Cleavage Site
+```
+Native GLP-1:  HAEGTFTSDVSSYLEGQAAKEFIAWLVKGRG-NH2
+                   || DPP-4 cleavage
+Inactive:          EG TFTSDVSSYLEGQAAKEFIAWLVKGRG-NH2
+```
 
+## Strategies to Overcome DPP-4
 
-
-## Mechanism of Action
-
-DPP-4 cleaves the N-terminal dipeptide His7-Ala8 of GLP-1, producing GLP-1 (9-36) amide which is biologically inactive at GLP-1R. Cleavage occurs rapidly in circulation, limiting endogenous GLP-1 half-life.
-
-
-
-## References
-
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
+| Strategy                    | Example       | Half-life Extension |
+| --------------------------- | ------------- | ------------------- |
+| Aib substitution at position 8 | Semaglutide | Resistant to DPP-4 |
+| Gly2 substitution           | Exenatide     | Partially resistant |
+| Albumin binding             | Liraglutide   | Indirect            |

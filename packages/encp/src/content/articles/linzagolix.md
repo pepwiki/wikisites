@@ -1,11 +1,11 @@
 ---
 title: "Linzagolix"
-description: "Comprehensive reference for Linzagolix, a peptide compound with applications in research and therapeutics."
+description: "Oral GnRH antagonist for uterine fibroids with selective estrogen suppression."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["therapeutic-peptides-expanded","peptide","oligopeptide"]
-category: "Therapeutic Peptides Expanded"
+tags: ["gnrh", "antagonist", "uterine-fibroids"]
+category: "Peptide Drugs"
 difficulty: "intermediate"
 relatedArticles: []
 ---
@@ -14,25 +14,17 @@ relatedArticles: []
 
 ## Overview
 
-Linzagolix is a bioactive peptide with well-characterized properties and therapeutic applications.
-
+Oral GnRH antagonist for uterine fibroids with selective estrogen suppression.
 
 ## Structure
 
 | Property | Value |
-|----------|-------|
-| Name | Linzagolix |
-| Sequence | N/A (non-peptide small molecule GnRH antagonist) |
-| Length | Small molecule |
-| Molecular Weight | 477 Da |
-
-| Category | Gynecology / GnRH Antagonist (oral) |
+| -------- | ----- |
+| Name     | Linzagolix |
 
 ## Mechanism of Action
 
-GnRH receptor antagonist with flexible dosing for partial or full suppression
-
-
+Selective estrogen suppression reduces fibroid symptoms while preserving bone density.
 
 ## References
 

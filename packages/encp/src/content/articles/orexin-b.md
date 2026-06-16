@@ -1,11 +1,11 @@
 ---
 title: "Orexin B"
-description: "Comprehensive reference for Orexin B, a peptide compound with applications in research and therapeutics."
+description: "Hypothalamic neuropeptide with wake-promoting activity acting through OX2 receptor."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["mammalian-peptides","peptide","oligopeptide"]
-category: "Mammalian Peptides"
+tags: ["orexin", "wakefulness", "hypothalamus"]
+category: "Neuropeptides"
 difficulty: "intermediate"
 relatedArticles: []
 ---
@@ -14,31 +14,17 @@ relatedArticles: []
 
 ## Overview
 
-Orexin B is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Mammalian (widely conserved).
-
+Hypothalamic neuropeptide with wake-promoting activity acting through OX2 receptor.
 
 ## Structure
 
 | Property | Value |
-|----------|-------|
-| Name | Orexin B |
-| Sequence | RSGPPGLQGRLQRLLQASGNHAAGILTM |
-| Length | 28 amino acids |
-| Molecular Weight | 2936.4 Da |
-| Source | Mammalian (widely conserved) |
-| Category | Mammalian Neuropeptide |
+| -------- | ----- |
+| Name     | Orexin B |
 
 ## Mechanism of Action
 
-Neuropeptide with preference for OX2 receptor, promotes arousal and wakefulness
-
-## Bioactivity
-
-Promotes wakefulness, modulates sleep-wake cycle, appetite stimulation
-
-## Therapeutic Potential
-
-Sleep disorder therapeutics, narcolepsy treatment
+Shorter orexin peptide with preferential OX2 receptor binding for sleep regulation.
 
 ## References
 

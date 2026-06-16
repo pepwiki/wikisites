@@ -1,11 +1,11 @@
 ---
 title: "Fremanezumab"
-description: "Comprehensive reference for Fremanezumab, a peptide compound with applications in research and therapeutics."
+description: "Anti-CGRP monoclonal antibody for migraine prevention with monthly or quarterly dosing."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["therapeutic-peptides-expanded-2","peptide","oligopeptide"]
-category: "Therapeutic Peptides Expanded 2"
+tags: ["cgrp", "migraine", "monoclonal-antibody"]
+category: "Peptide Drugs"
 difficulty: "intermediate"
 relatedArticles: []
 ---
@@ -14,25 +14,17 @@ relatedArticles: []
 
 ## Overview
 
-Fremanezumab is a bioactive peptide with well-characterized properties and therapeutic applications.
-
+Anti-CGRP monoclonal antibody for migraine prevention with monthly or quarterly dosing.
 
 ## Structure
 
 | Property | Value |
-|----------|-------|
-| Name | Fremanezumab |
-| Sequence | Humanized IgG2 monoclonal antibody targeting CGRP ligand |
-| Length | ~1340 amino acids |
-| Molecular Weight | ~148 kDa |
-
-| Category | Neurology / Anti-CGRP Antibody |
+| -------- | ----- |
+| Name     | Fremanezumab |
 
 ## Mechanism of Action
 
-Binds and neutralizes both α-CGRP and β-CGRP ligands, preventing CGRP from binding its receptor and blocking downstream pain and inflammatory pathways
-
-
+Flexible dosing options for CGRP ligand neutralization in migraine prevention.
 
 ## References
 

@@ -1,33 +1,32 @@
 ---
 title: "Rectal Peptide Delivery"
-description: "Understand rectal suppository approaches for systemic peptide delivery with reduced first-pass metabolism."
+description: "Rectal delivery systems for peptide drugs avoiding first-pass metabolism."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["rectal","drug-delivery","suppository"]
+tags: ["rectal", "bypass", "first-pass"]
 category: "Drug Delivery"
-difficulty: "beginner"
+difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Rectal Peptide Delivery
+
 ## Overview
 
-Understand rectal suppository approaches for systemic peptide delivery with reduced first-pass metabolism.
+Rectal delivery systems for peptide drugs avoiding first-pass metabolism.
 
+## Structure
 
-## Key Concepts
+| Property | Value |
+| -------- | ----- |
+| Name     | Rectal Peptide Delivery |
 
-Rectal Peptide Delivery is an important area of peptide science with growing applications in research, therapeutics, and clinical practice.
+## Mechanism of Action
 
-## Applications
-
-Key applications include:
-- Biomedical research
-- Drug discovery and development
-- Diagnostic applications
-- Therapeutic interventions
+Rectal absorption partially bypasses hepatic first-pass metabolism.
 
 ## References
 
-- Database: Wikipept Peptide Database
-- Category: Drug Delivery
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

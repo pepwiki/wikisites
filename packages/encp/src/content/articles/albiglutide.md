@@ -1,11 +1,11 @@
 ---
 title: "Albiglutide"
-description: "Comprehensive reference for Albiglutide, a peptide compound with applications in research and therapeutics."
+description: "Once-weekly GLP-1 agonist fused to human albumin via non-cleavable linker for extended half-life."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["peptide-analogs","peptide","oligopeptide"]
-category: "Peptide Analogs"
+tags: ["glp1", "once-weekly", "fusion-protein"]
+category: "Peptide Drugs"
 difficulty: "intermediate"
 relatedArticles: []
 ---
@@ -14,25 +14,17 @@ relatedArticles: []
 
 ## Overview
 
-Albiglutide is a bioactive peptide with well-characterized properties and therapeutic applications.
-
+Once-weekly GLP-1 agonist fused to human albumin via non-cleavable linker for extended half-life.
 
 ## Structure
 
 | Property | Value |
-|----------|-------|
-| Name | Albiglutide |
-| Sequence | [GLP-1(7-36) analog]-[GLP-1(7-36) analog]-HSA |
-
-| Molecular Weight | ~73,000 Da |
-
-| Category | Metabolic / GLP-1 Agonist (Albumin Fusion) |
+| -------- | ----- |
+| Name     | Albiglutide |
 
 ## Mechanism of Action
 
-GLP-1 receptor agonist; albumin fusion extends half-life and protects from degradation
-
-
+Albumin fusion avoids renal clearance with DPP-4-resistant GLP-1 sequence.
 
 ## References
 

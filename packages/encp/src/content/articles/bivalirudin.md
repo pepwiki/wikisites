@@ -1,11 +1,11 @@
 ---
 title: "Bivalirudin"
-description: "Comprehensive reference for Bivalirudin, a peptide compound with applications in research and therapeutics."
+description: "Direct thrombin inhibitor bivalent hirudin analog for PCI and heparin-induced thrombocytopenia."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["therapeutic-peptides-expanded","peptide","oligopeptide"]
-category: "Therapeutic Peptides Expanded"
+tags: ["thrombin-inhibitor", "anticoagulant", "cardiac"]
+category: "Peptide Drugs"
 difficulty: "intermediate"
 relatedArticles: []
 ---
@@ -14,25 +14,17 @@ relatedArticles: []
 
 ## Overview
 
-Bivalirudin is a bioactive peptide with well-characterized properties and therapeutic applications.
-
+Direct thrombin inhibitor bivalent hirudin analog for PCI and heparin-induced thrombocytopenia.
 
 ## Structure
 
 | Property | Value |
-|----------|-------|
-| Name | Bivalirudin |
-| Sequence | D-Phe-Pro-Arg-Pro-Gly-Gly-Gly-Gly-Asn-Gly-Asp-Phe-Glu-Glu-Ile-Pro-Glu-Glu-Tyr-Leu |
-| Length | 20 amino acids |
-| Molecular Weight | 2180 Da |
-
-| Category | Cardiovascular / Anticoagulant Peptide |
+| -------- | ----- |
+| Name     | Bivalirudin |
 
 ## Mechanism of Action
 
-Direct thrombin inhibitor (reversible, bivalent)
-
-
+Bivalent binding to thrombin active site and exosite-1 provides potent reversible inhibition.
 
 ## References
 

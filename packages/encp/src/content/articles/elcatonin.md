@@ -1,11 +1,11 @@
 ---
 title: "Elcatonin"
-description: "Comprehensive reference for Elcatonin, a peptide compound with applications in research and therapeutics."
+description: "Synthetic eel calcitonin analogue with reduced immunogenicity for osteoporosis treatment."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["peptide-analogs","peptide","oligopeptide"]
-category: "Peptide Analogs"
+tags: ["calcitonin", "osteoporosis", "synthetic"]
+category: "Peptide Drugs"
 difficulty: "intermediate"
 relatedArticles: []
 ---
@@ -14,25 +14,17 @@ relatedArticles: []
 
 ## Overview
 
-Elcatonin is a bioactive peptide with well-characterized properties and therapeutic applications.
-
+Synthetic eel calcitonin analogue with reduced immunogenicity for osteoporosis treatment.
 
 ## Structure
 
 | Property | Value |
-|----------|-------|
-| Name | Elcatonin |
-| Sequence | ABA-SNLSTCV-X-ALKELHKLQTYPRTDVGAGTP-NH2 (ABA=aminobutyric acid) |
-
-| Molecular Weight | 3360 Da |
-
-| Category | Musculoskeletal / Bone Resorption Inhibitor |
+| -------- | ----- |
+| Name     | Elcatonin |
 
 ## Mechanism of Action
 
-Calcitonin receptor agonist; inhibits osteoclast-mediated bone resorption
-
-
+Eel-derived sequence reduces immunogenicity compared to salmon calcitonin.
 
 ## References
 

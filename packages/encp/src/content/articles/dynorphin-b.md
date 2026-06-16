@@ -1,10 +1,10 @@
 ---
 title: "Dynorphin B"
-description: "Comprehensive reference for Dynorphin B, a peptide compound with applications in research and therapeutics."
+description: "Prodynorphin-derived opioid with kappa-opioid receptor selectivity."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["neuropeptides","peptide","oligopeptide"]
+tags: ["dynorphin", "opioid", "kappa-receptor"]
 category: "Neuropeptides"
 difficulty: "intermediate"
 relatedArticles: []
@@ -14,25 +14,17 @@ relatedArticles: []
 
 ## Overview
 
-Dynorphin B is a bioactive peptide with well-characterized properties and therapeutic applications.
-
+Prodynorphin-derived opioid with kappa-opioid receptor selectivity.
 
 ## Structure
 
 | Property | Value |
-|----------|-------|
-| Name | Dynorphin B |
-| Sequence | YGGFLRRQFKVVT |
-| Length | 13 amino acids |
-| Molecular Weight | 1570.8 Da |
-
-| Category | Endogenous opioid peptide |
+| -------- | ----- |
+| Name     | Dynorphin B |
 
 ## Mechanism of Action
 
-Gi/Go-coupled; inhibits adenylyl cyclase, activates K+ conductance
-
-
+Kappa-selective opioid peptide with role in pain modulation and stress response.
 
 ## References
 

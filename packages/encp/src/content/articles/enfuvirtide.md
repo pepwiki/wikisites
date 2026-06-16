@@ -1,11 +1,11 @@
 ---
 title: "Enfuvirtide"
-description: "Comprehensive reference for Enfuvirtide, a peptide compound with applications in research and therapeutics."
+description: "Fusion inhibitor peptide blocking HIV gp41-mediated membrane fusion for treatment-experienced patients."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["therapeutic-peptides-expanded","peptide","oligopeptide"]
-category: "Therapeutic Peptides Expanded"
+tags: ["hiv", "fusion-inhibitor", "antiviral"]
+category: "Peptide Drugs"
 difficulty: "intermediate"
 relatedArticles: []
 ---
@@ -14,25 +14,17 @@ relatedArticles: []
 
 ## Overview
 
-Enfuvirtide is a bioactive peptide with well-characterized properties and therapeutic applications.
-
+Fusion inhibitor peptide blocking HIV gp41-mediated membrane fusion for treatment-experienced patients.
 
 ## Structure
 
 | Property | Value |
-|----------|-------|
-| Name | Enfuvirtide |
-| Sequence | YTSLIHSLIEESQNQQEKNEQELLELDKWASLWNWF |
-| Length | 36 amino acids |
-| Molecular Weight | 4492 Da |
-
-| Category | Anti-Infective / HIV Fusion Inhibitor |
+| -------- | ----- |
+| Name     | Enfuvirtide |
 
 ## Mechanism of Action
 
-HIV fusion inhibitor; binds gp41 HR1 domain preventing membrane fusion
-
-
+Peptide binds HR1 region of gp41 preventing six-helix bundle formation and membrane fusion.
 
 ## References
 

@@ -1,11 +1,11 @@
 ---
 title: "Salmon Calcitonin"
-description: "Comprehensive reference for Salmon Calcitonin, a peptide compound with applications in research and therapeutics."
+description: "32-amino acid peptide from salmon thyroid C-cells inhibiting osteoclastic bone resorption."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["fish-peptides","peptide","oligopeptide"]
-category: "Fish Peptides"
+tags: ["calcitonin", "osteoporosis", "anti-resorptive"]
+category: "Peptide Drugs"
 difficulty: "intermediate"
 relatedArticles: []
 ---
@@ -14,31 +14,17 @@ relatedArticles: []
 
 ## Overview
 
-Salmon Calcitonin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Salmon (Oncorhynchus spp.).
-
+32-amino acid peptide from salmon thyroid C-cells inhibiting osteoclastic bone resorption.
 
 ## Structure
 
 | Property | Value |
-|----------|-------|
-| Name | Salmon Calcitonin |
-| Sequence | CSNLSTCVLGKLSQELHKLQTYPRTNTGSGTP |
-| Length | 32 amino acids |
-| Molecular Weight | 3431.9 Da |
-| Source | Salmon (Oncorhynchus spp.) |
-| Category | Fish Peptide Hormone |
+| -------- | ----- |
+| Name     | Salmon Calcitonin |
 
 ## Mechanism of Action
 
-Inhibits osteoclast-mediated bone resorption; increases renal calcium excretion; activates cAMP signaling
-
-## Bioactivity
-
-Calcium-lowering hormone, bone resorption inhibitor, analgesic effects
-
-## Therapeutic Potential
-
-Osteoporosis treatment (marketed as Miacalcin), Paget's disease, hypercalcemia, bone pain management
+Calcitonin receptor activation on osteoclasts inhibits bone resorption and reduces calcium release.
 
 ## References
 

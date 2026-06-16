@@ -1,33 +1,32 @@
 ---
 title: "Microneedle Peptide Delivery"
-description: "Explore microneedle patch technology for painless transdermal peptide delivery through the stratum corneum."
+description: "Dissolving microneedle arrays for transdermal peptide delivery bypassing GI degradation."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["microneedles","drug-delivery","innovation"]
+tags: ["microneedle", "transdermal", "bypass"]
 category: "Drug Delivery"
-difficulty: "advanced"
+difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Microneedle Peptide Delivery
+
 ## Overview
 
-Explore microneedle patch technology for painless transdermal peptide delivery through the stratum corneum.
+Dissolving microneedle arrays for transdermal peptide delivery bypassing GI degradation.
 
+## Structure
 
-## Key Concepts
+| Property | Value |
+| -------- | ----- |
+| Name     | Microneedle Peptide Delivery |
 
-Microneedle Peptide Delivery is an important area of peptide science with growing applications in research, therapeutics, and clinical practice.
+## Mechanism of Action
 
-## Applications
-
-Key applications include:
-- Biomedical research
-- Drug discovery and development
-- Diagnostic applications
-- Therapeutic interventions
+Polymer microneedles dissolve in skin delivering peptides across stratum corneum.
 
 ## References
 
-- Database: Wikipept Peptide Database
-- Category: Drug Delivery
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

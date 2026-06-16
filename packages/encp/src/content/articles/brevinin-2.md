@@ -1,11 +1,11 @@
 ---
 title: "Brevinin-2"
-description: "Comprehensive reference for Brevinin-2, a peptide compound with applications in research and therapeutics."
+description: "Potent frog AMP with broader spectrum than brevinin-1 and activity against resistant bacteria."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["amphibian-peptides","peptide","oligopeptide"]
-category: "Amphibian Peptides"
+tags: ["brevinin", "antimicrobial", "frog"]
+category: "Antimicrobial Peptides"
 difficulty: "intermediate"
 relatedArticles: []
 ---
@@ -14,31 +14,17 @@ relatedArticles: []
 
 ## Overview
 
-Brevinin-2 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Rana brevipoda.
-
+Potent frog AMP with broader spectrum than brevinin-1 and activity against resistant bacteria.
 
 ## Structure
 
 | Property | Value |
-|----------|-------|
-| Name | Brevinin-2 |
-| Sequence | GILLDKLKNFAKTAGKGVLQSINNCK |
-| Length | 26 amino acids |
-| Molecular Weight | 2804.3 Da |
-| Source | Rana brevipoda |
-| Category | Amphibian Antimicrobial |
+| -------- | ----- |
+| Name     | Brevinin-2 |
 
 ## Mechanism of Action
 
-Linear alpha-helical peptide, membrane disruption without disulfide bridge requirement
-
-## Bioactivity
-
-Broad-spectrum antimicrobial, antifungal activity
-
-## Therapeutic Potential
-
-Topical antimicrobial formulations, antifungal treatments
+Extended sequence provides enhanced membrane disruption against drug-resistant organisms.
 
 ## References
 

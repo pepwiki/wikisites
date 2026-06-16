@@ -1,0 +1,32 @@
+---
+title: "Human Alpha-Defensin 5"
+description: "Intestinal Paneth cell defensin maintaining gut microbiome homeostasis."
+status: "published"
+author: "Encyclopeptide Editorial"
+pubDate: 2024-01-15
+tags: ["defensin", "paneth-cell", "intestinal"]
+category: "Antimicrobial Peptides"
+difficulty: "intermediate"
+relatedArticles: []
+---
+
+# Human Alpha-Defensin 5
+
+## Overview
+
+Intestinal Paneth cell defensin maintaining gut microbiome homeostasis.
+
+## Structure
+
+| Property | Value |
+| -------- | ----- |
+| Name     | Human Alpha-Defensin 5 |
+
+## Mechanism of Action
+
+Secreted into intestinal lumen shaping commensal microbiota composition and preventing pathogen colonization.
+
+## References
+
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

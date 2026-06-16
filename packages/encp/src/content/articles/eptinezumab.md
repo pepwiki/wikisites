@@ -1,11 +1,11 @@
 ---
 title: "Eptinezumab"
-description: "Comprehensive reference for Eptinezumab, a peptide compound with applications in research and therapeutics."
+description: "Anti-CGRP monoclonal antibody for migraine prevention administered as quarterly IV infusion."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["therapeutic-peptides-expanded-2","peptide","oligopeptide"]
-category: "Therapeutic Peptides Expanded 2"
+tags: ["cgrp", "migraine", "iv"]
+category: "Peptide Drugs"
 difficulty: "intermediate"
 relatedArticles: []
 ---
@@ -14,25 +14,17 @@ relatedArticles: []
 
 ## Overview
 
-Eptinezumab is a bioactive peptide with well-characterized properties and therapeutic applications.
-
+Anti-CGRP monoclonal antibody for migraine prevention administered as quarterly IV infusion.
 
 ## Structure
 
 | Property | Value |
-|----------|-------|
-| Name | Eptinezumab |
-| Sequence | Humanized IgG1 monoclonal antibody targeting CGRP ligand |
-| Length | ~1330 amino acids |
-| Molecular Weight | ~148 kDa |
-
-| Category | Neurology / Anti-CGRP Antibody |
+| -------- | ----- |
+| Name     | Eptinezumab |
 
 ## Mechanism of Action
 
-Binds and neutralizes CGRP ligand; IV administration provides rapid onset (within 1 day) and sustained CGRP blockade
-
-
+Intravenous administration provides immediate bioavailability for quarterly dosing.
 
 ## References
 

@@ -1,0 +1,32 @@
+---
+title: "Human Alpha-Defensin 1"
+description: "Neutrophil granule defensin with disulfide-stabilized structure for bactericidal activity."
+status: "published"
+author: "Encyclopeptide Editorial"
+pubDate: 2024-01-15
+tags: ["defensin", "neutrophil", "antimicrobial"]
+category: "Antimicrobial Peptides"
+difficulty: "intermediate"
+relatedArticles: []
+---
+
+# Human Alpha-Defensin 1
+
+## Overview
+
+Neutrophil granule defensin with disulfide-stabilized structure for bactericidal activity.
+
+## Structure
+
+| Property | Value |
+| -------- | ----- |
+| Name     | Human Alpha-Defensin 1 |
+
+## Mechanism of Action
+
+Three intramolecular disulfide bonds create rigid beta-sheet structure enabling membrane disruption.
+
+## References
+
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

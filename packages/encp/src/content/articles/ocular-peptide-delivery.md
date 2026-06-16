@@ -1,33 +1,32 @@
 ---
 title: "Ocular Peptide Delivery"
-description: "Learn about ophthalmic peptide delivery strategies for treating anterior and posterior eye segment diseases."
+description: "Ophthalmic delivery systems for peptide drugs targeting anterior and posterior segment."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["ocular","drug-delivery","ophthalmic"]
+tags: ["ocular", "ophthalmic", "eye"]
 category: "Drug Delivery"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Ocular Peptide Delivery
+
 ## Overview
 
-Learn about ophthalmic peptide delivery strategies for treating anterior and posterior eye segment diseases.
+Ophthalmic delivery systems for peptide drugs targeting anterior and posterior segment.
 
+## Structure
 
-## Key Concepts
+| Property | Value |
+| -------- | ----- |
+| Name     | Ocular Peptide Delivery |
 
-Ocular Peptide Delivery is an important area of peptide science with growing applications in research, therapeutics, and clinical practice.
+## Mechanism of Action
 
-## Applications
-
-Key applications include:
-- Biomedical research
-- Drug discovery and development
-- Diagnostic applications
-- Therapeutic interventions
+Nanoparticle and insert formulations for sustained ocular peptide delivery.
 
 ## References
 
-- Database: Wikipept Peptide Database
-- Category: Drug Delivery
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

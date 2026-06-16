@@ -1,0 +1,32 @@
+---
+title: "AMP Structural Classification"
+description: "Classification into alpha-helical, beta-sheet, extended, and loop conformations."
+status: "published"
+author: "Encyclopeptide Editorial"
+pubDate: 2024-01-15
+tags: ["antimicrobial", "classification", "structural"]
+category: "Antimicrobial Peptides"
+difficulty: "intermediate"
+relatedArticles: []
+---
+
+# AMP Structural Classification
+
+## Overview
+
+Classification into alpha-helical, beta-sheet, extended, and loop conformations.
+
+## Structure
+
+| Property | Value |
+| -------- | ----- |
+| Name     | AMP Structural Classification |
+
+## Mechanism of Action
+
+Structural motifs determine mechanism of action and target selectivity.
+
+## References
+
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

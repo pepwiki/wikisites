@@ -1,33 +1,32 @@
 ---
 title: "Pulmonary Peptide Delivery"
-description: "Discover pulmonary inhalation methods for peptide drug delivery using large surface area of the alveolar region."
+description: "Inhaled peptide formulations for lung delivery targeting respiratory or systemic effects."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["pulmonary-delivery","drug-delivery","inhalation"]
+tags: ["pulmonary", "inhalation", "lung"]
 category: "Drug Delivery"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
+# Pulmonary Peptide Delivery
+
 ## Overview
 
-Discover pulmonary inhalation methods for peptide drug delivery using large surface area of the alveolar region.
+Inhaled peptide formulations for lung delivery targeting respiratory or systemic effects.
 
+## Structure
 
-## Key Concepts
+| Property | Value |
+| -------- | ----- |
+| Name     | Pulmonary Peptide Delivery |
 
-Pulmonary Peptide Delivery is an important area of peptide science with growing applications in research, therapeutics, and clinical practice.
+## Mechanism of Action
 
-## Applications
-
-Key applications include:
-- Biomedical research
-- Drug discovery and development
-- Diagnostic applications
-- Therapeutic interventions
+Dry powder or aerosol formulations depositing peptides in deep lung for absorption.
 
 ## References
 
-- Database: Wikipept Peptide Database
-- Category: Drug Delivery
+- Wikipept Peptide Database
+- Primary literature (see individual entries)

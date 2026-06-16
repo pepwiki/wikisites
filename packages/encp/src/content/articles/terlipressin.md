@@ -1,11 +1,11 @@
 ---
 title: "Terlipressin"
-description: "Comprehensive reference for Terlipressin, a peptide compound with applications in research and therapeutics."
+description: "Glypressin analog for hepatorenal syndrome providing selective splanchnic vasoconstriction."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["peptide-analogs","peptide","oligopeptide"]
-category: "Peptide Analogs"
+tags: ["vasopressin", "v1-agonist", "hepatorenal"]
+category: "Peptide Drugs"
 difficulty: "intermediate"
 relatedArticles: []
 ---
@@ -14,25 +14,17 @@ relatedArticles: []
 
 ## Overview
 
-Terlipressin is a bioactive peptide with well-characterized properties and therapeutic applications.
-
+Glypressin analog for hepatorenal syndrome providing selective splanchnic vasoconstriction.
 
 ## Structure
 
 | Property | Value |
-|----------|-------|
-| Name | Terlipressin |
-| Sequence | GGG-Lys-Asn-Cys-Phe-Ile-Gln-Asn-Cys-Pro-Lys-Gly-NH2 (cyclic 1-6) |
-
-| Molecular Weight | 1336 Da |
-
-| Category | Gastroenterology / Vasopressin Analog |
+| -------- | ----- |
+| Name     | Terlipressin |
 
 ## Mechanism of Action
 
-V1a receptor agonist (via active metabolite LVP); causes splanchnic vasoconstriction
-
-
+Gly-Gly-Gly extension acts as prodrug releasing active trilysin pressin for V1 receptor activation.
 
 ## References
 

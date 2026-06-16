@@ -1,11 +1,11 @@
 ---
 title: "Iberiotoxin"
-description: "Comprehensive reference for Iberiotoxin, a peptide compound with applications in research and therapeutics."
+description: "Highly selective BK potassium channel blocker from scorpion Buthus tamulus."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["potassium-channel-blocker-(scorpion-toxin)","peptide","oligopeptide"]
-category: "Toxin Peptides"
+tags: ["scorpion-toxin", "potassium-channel", "selective"]
+category: "Venom Peptides"
 difficulty: "intermediate"
 relatedArticles: []
 ---
@@ -14,12 +14,17 @@ relatedArticles: []
 
 ## Overview
 
-Iberiotoxin is a bioactive peptide with well-characterized properties and therapeutic applications.
+Highly selective BK potassium channel blocker from scorpion Buthus tamulus.
 
+## Structure
 
+| Property | Value |
+| -------- | ----- |
+| Name     | Iberiotoxin |
 
+## Mechanism of Action
 
-
+Selective blockade of large-conductance calcium-activated potassium channels.
 
 ## References
 

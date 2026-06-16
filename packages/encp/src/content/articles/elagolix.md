@@ -1,11 +1,11 @@
 ---
 title: "Elagolix"
-description: "Comprehensive reference for Elagolix, a peptide compound with applications in research and therapeutics."
+description: "Oral GnRH antagonist for endometriosis-associated pain with dose-dependent estrogen suppression."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["therapeutic-peptides-expanded","peptide","oligopeptide"]
-category: "Therapeutic Peptides Expanded"
+tags: ["gnrh", "antagonist", "endometriosis"]
+category: "Peptide Drugs"
 difficulty: "intermediate"
 relatedArticles: []
 ---
@@ -14,25 +14,17 @@ relatedArticles: []
 
 ## Overview
 
-Elagolix is a bioactive peptide with well-characterized properties and therapeutic applications.
-
+Oral GnRH antagonist for endometriosis-associated pain with dose-dependent estrogen suppression.
 
 ## Structure
 
 | Property | Value |
-|----------|-------|
-| Name | Elagolix |
-| Sequence | N/A (non-peptide small molecule GnRH antagonist) |
-| Length | Small molecule |
-| Molecular Weight | 508 Da |
-
-| Category | Gynecology / GnRH Antagonist (oral) |
+| -------- | ----- |
+| Name     | Elagolix |
 
 ## Mechanism of Action
 
-GnRH receptor antagonist with dose-dependent partial suppression
-
-
+Dose-dependent GnRH antagonism provides partial estrogen suppression for symptom control.
 
 ## References
 

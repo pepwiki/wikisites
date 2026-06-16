@@ -1,12 +1,12 @@
 ---
 title: "Retatrutide"
-description: "Comprehensive reference for Retatrutide, a peptide compound with applications in research and therapeutics."
+description: "Triple agonist targeting GLP-1, GIP, and glucagon receptors showing unprecedented weight loss in trials."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["therapeutic-peptides-expanded-2","peptide","oligopeptide"]
-category: "Therapeutic Peptides Expanded 2"
-difficulty: "intermediate"
+tags: ["glp1", "triple-agonist", "obesity"]
+category: "Peptide Drugs"
+difficulty: "advanced"
 relatedArticles: []
 ---
 
@@ -14,25 +14,17 @@ relatedArticles: []
 
 ## Overview
 
-Retatrutide is a bioactive peptide with well-characterized properties and therapeutic applications.
-
+Triple agonist targeting GLP-1, GIP, and glucagon receptors showing unprecedented weight loss in trials.
 
 ## Structure
 
 | Property | Value |
-|----------|-------|
-| Name | Retatrutide |
-| Sequence | Triple agonist peptide targeting GLP-1, GIP, and glucagon receptors |
-| Length | ~29 amino acids (engineered multi-agonist) |
-| Molecular Weight | ~4.8 kDa |
-
-| Category | Metabolic / Triple Agonist |
+| -------- | ----- |
+| Name     | Retatrutide |
 
 ## Mechanism of Action
 
-GLP-1/GIP/glucagon triple receptor agonist; combines incretin signaling with glucagon-mediated energy expenditure
-
-
+Balanced triple receptor agonism achieves synergistic weight loss exceeding dual agonists.
 
 ## References
 
