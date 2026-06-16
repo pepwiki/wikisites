@@ -30,3 +30,11 @@ Phenylpiperidine synthetic opioid with rapid CNS penetration.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Fentanyl Synthetic Opioid |
+| **Category** | Neuropeptides |
+

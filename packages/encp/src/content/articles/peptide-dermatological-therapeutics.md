@@ -28,3 +28,14 @@ Peptides have diverse applications in dermatology, from accelerating wound heali
 - Burn treatment
 - Anti-aging skin care
 - Scar prevention and treatment
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Dermatological Therapeutics |
+| **Category** | Therapeutic Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Dermatological Therapeutics" monograph. encyclopeptide.com.

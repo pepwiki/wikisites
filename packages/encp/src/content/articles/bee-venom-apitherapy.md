@@ -30,3 +30,11 @@ Bee venom therapy for arthritis, pain, and inflammatory conditions.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Bee Venom Apitherapy |
+| **Category** | Venom Peptides |
+

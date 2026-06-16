@@ -30,3 +30,11 @@ Small molecule oral antagonist achieves rapid testosterone suppression.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Relugolix |
+| **Category** | Peptide Drugs |
+

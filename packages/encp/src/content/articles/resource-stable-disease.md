@@ -28,3 +28,11 @@ This molecule plays important roles in biological systems and has potential ther
 ## References
 
 1. Encyclopeptide Database. "resource-stable-disease" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | stable-disease Resource |
+| **Category** | Databases & Resources |
+

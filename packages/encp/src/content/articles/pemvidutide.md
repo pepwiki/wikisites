@@ -30,3 +30,11 @@ MOMA platform optimizes receptor activation ratio for weight loss and metabolic 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Pemvidutide |
+| **Category** | Peptide Drugs |
+

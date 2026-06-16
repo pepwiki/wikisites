@@ -17,3 +17,18 @@ relatedArticles: ['semaglutide', 'liraglutide', 'tirzepatide']
 3. **Breastfeeding**: Not recommended
 4. **Alternative therapy**: Switch to insulin during pregnancy
 5. **Postpartum**: May resume after breastfeeding
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Agonist Pregnancy Safety |
+| **Category** | GLP-1 Family |
+
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "GLP-1 Agonist Pregnancy Safety" monograph. encyclopeptide.com.

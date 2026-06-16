@@ -29,3 +29,11 @@ Ziconotide (omega-conotoxin) is an N-type calcium channel blocker for severe chr
 
 - Source: ENCP Peptide Database
 - Category: Peptide Applications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Analgesics |
+| **Category** | Peptide Applications |
+

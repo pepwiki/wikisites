@@ -30,3 +30,11 @@ This leptin fragment variant has been studied for its biological activity and po
 ## References
 
 1. Encyclopeptide Database. "leptin-1-140" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Leptin 1-140 |
+| **Category** | Peptide Hormones |
+

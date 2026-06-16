@@ -28,3 +28,11 @@ This molecule plays important roles in biological systems and has potential ther
 ## References
 
 1. Encyclopeptide Database. "plant-corn-peptide" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Corn Peptide |
+| **Category** | Plant-Derived Peptides |
+

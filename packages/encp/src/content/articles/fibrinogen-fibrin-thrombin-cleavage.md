@@ -25,3 +25,11 @@ Fibrinogen → Fibrin (Thrombin Cleavage) is a bioactive peptide with well-chara
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Fibrinogen → Fibrin (Thrombin Cleavage) |
+| **Category** | Peptide Interactions |
+

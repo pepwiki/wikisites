@@ -30,3 +30,11 @@ Potassium channel blocker from scorpion venom with broad Kv channel activity.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Charybdotoxin |
+| **Category** | Venom Peptides |
+

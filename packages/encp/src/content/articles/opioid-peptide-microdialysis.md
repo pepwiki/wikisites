@@ -30,3 +30,11 @@ Microdialysis probes collecting extracellular fluid for peptide quantification.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Peptide Microdialysis |
+| **Category** | Neuropeptides |
+

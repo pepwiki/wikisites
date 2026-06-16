@@ -28,3 +28,11 @@ This molecule plays important roles in biological systems and has potential ther
 ## References
 
 1. Encyclopeptide Database. "purification-oxidation-cleavable" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Oxidation Cleavable Purification |
+| **Category** | Purification Methods |
+

@@ -30,3 +30,11 @@ This csf variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "colony-stimulating-factor-SCF-1-100" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Colony Stimulating Factor SCF-1-100 |
+| **Category** | Cytokines |
+

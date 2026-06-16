@@ -30,3 +30,11 @@ Pen devices provide convenient accurate insulin delivery with needle-based subcu
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Pen Devices |
+| **Category** | Peptide Drugs |
+

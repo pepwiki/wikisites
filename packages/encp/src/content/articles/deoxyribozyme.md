@@ -28,3 +28,11 @@ Deoxyribozyme plays important roles in biological systems and has applications i
 ## References
 
 1. Encyclopeptide Database. "deoxyribozyme" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Deoxyribozyme |
+| **Category** | Structural Biology |
+

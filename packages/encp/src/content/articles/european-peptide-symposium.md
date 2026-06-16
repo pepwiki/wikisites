@@ -25,3 +25,11 @@ European Peptide Symposium is a bioactive peptide with well-characterized proper
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | European Peptide Symposium |
+| **Category** | Peptide Resources |
+

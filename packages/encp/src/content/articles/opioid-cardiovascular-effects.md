@@ -30,3 +30,11 @@ Central and peripheral opioid mechanisms affect autonomic cardiovascular regulat
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Cardiovascular Effects |
+| **Category** | Neuropeptides |
+

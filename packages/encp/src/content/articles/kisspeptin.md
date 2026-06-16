@@ -30,3 +30,11 @@ Activates GnRH neurons through KISS1R triggering pubertal development and fertil
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Kisspeptin |
+| **Category** | Neuropeptides |
+

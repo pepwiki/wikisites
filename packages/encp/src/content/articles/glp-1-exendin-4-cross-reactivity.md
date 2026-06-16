@@ -23,3 +23,18 @@ Exendin-4:      HGEGTFTSDLSKQMEEEAVRLFIEWLKNGGP
 1. DPP-4 resistance: Exendin-4 has Gly at position 2
 2. Half-life: Exendin-4 slightly longer than native GLP-1
 3. Both activate GLP-1R but not GIPR or glucagon receptor
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 and Exendin-4 Receptor Cross-Reactivity |
+| **Category** | GLP-1 Family |
+
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "GLP-1 and Exendin-4 Receptor Cross-Reactivity" monograph. encyclopeptide.com.

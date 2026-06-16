@@ -28,3 +28,11 @@ Peptide deamidation analysis plays important roles in biological systems and has
 ## References
 
 1. Encyclopeptide Database. "peptide-deamidation-analysis" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide deamidation analysis |
+| **Category** | Structural Biology |
+

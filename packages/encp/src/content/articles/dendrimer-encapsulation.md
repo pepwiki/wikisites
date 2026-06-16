@@ -28,3 +28,11 @@ Dendrimer encapsulation plays important roles in biological systems and has appl
 ## References
 
 1. Encyclopeptide Database. "dendrimer-encapsulation" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Dendrimer encapsulation |
+| **Category** | Drug Delivery |
+

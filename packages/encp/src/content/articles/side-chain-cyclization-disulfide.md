@@ -25,3 +25,11 @@ Side Chain Cyclization (Disulfide) is a bioactive peptide with well-characterize
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Side Chain Cyclization (Disulfide) |
+| **Category** | Peptide Modifications |
+

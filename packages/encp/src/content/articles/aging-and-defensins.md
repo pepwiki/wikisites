@@ -30,3 +30,11 @@ Reduced AMP production with aging contributes to increased infection susceptibil
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Aging and Defensins |
+| **Category** | Antimicrobial Peptides |
+

@@ -32,3 +32,11 @@ Major CDMOs are investing in green chemistry platforms and solvent recovery syst
 
 - Source: ENCP Peptide Database
 - Category: Peptide Future
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Sustainability in Manufacturing |
+| **Category** | Peptide Future |
+

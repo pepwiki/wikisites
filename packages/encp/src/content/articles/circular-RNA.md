@@ -28,3 +28,11 @@ Circular RNA plays important roles in biological systems and has applications in
 ## References
 
 1. Encyclopeptide Database. "circular-RNA" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Circular RNA |
+| **Category** | Structural Biology |
+

@@ -30,3 +30,11 @@ Cationic peptide binds negatively charged bacterial membranes causing permeabili
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Lactoferricin |
+| **Category** | Antimicrobial Peptides |
+

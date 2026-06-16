@@ -32,3 +32,6 @@ Inhibits microtubule dynamics by binding to the plus end of microtubules, suppre
 
 - Metastatic breast cancer (after 2+ prior chemotherapies)
 - Unresectable or metastatic liposarcoma
+## References
+
+1. Encyclopeptide Database. "Eribulin Mesylate" monograph. encyclopeptide.com.

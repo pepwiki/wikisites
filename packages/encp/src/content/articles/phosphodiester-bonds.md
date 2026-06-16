@@ -27,3 +27,11 @@ PNA is used in antisense technology, diagnostics, and gene editing. Peptide-DNA 
 
 - Source: ENCP Peptide Database
 - Category: Peptide Modifications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Phosphodiester Bonds in Peptides |
+| **Category** | Peptide Modifications |
+

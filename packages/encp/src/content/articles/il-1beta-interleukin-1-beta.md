@@ -25,3 +25,11 @@ IL-1beta (Interleukin-1 Beta) is a bioactive peptide with well-characterized pro
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | IL-1beta (Interleukin-1 Beta) |
+| **Category** | Biomarkers Expanded |
+

@@ -30,3 +30,11 @@ D-Ala2 modification confers protease resistance and delta-selectivity.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | DADLE |
+| **Category** | Neuropeptides |
+

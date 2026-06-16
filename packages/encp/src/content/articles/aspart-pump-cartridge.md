@@ -30,3 +30,11 @@ Optimized for insulin pump use with stability data supporting reservoir dwell ti
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Aspart Pump Cartridge |
+| **Category** | Peptide Drugs |
+

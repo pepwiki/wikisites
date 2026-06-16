@@ -28,3 +28,11 @@ DPP-4 cleaves N-terminal Tyr1-Ala2 dipeptide from GIP, producing GIP (3-42) whic
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GIP → DPP-4 (Substrate) |
+| **Category** | Peptide Interactions |
+

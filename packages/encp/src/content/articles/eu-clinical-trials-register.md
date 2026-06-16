@@ -25,3 +25,11 @@ EU Clinical Trials Register is a bioactive peptide with well-characterized prope
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | EU Clinical Trials Register |
+| **Category** | Peptide Databases |
+

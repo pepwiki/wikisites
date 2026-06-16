@@ -30,3 +30,11 @@ This amylin analog variant has been studied for its biological activity and pote
 ## References
 
 1. Encyclopeptide Database. "amylin-17-37" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Amylin 17-37 |
+| **Category** | Metabolic Peptides |
+

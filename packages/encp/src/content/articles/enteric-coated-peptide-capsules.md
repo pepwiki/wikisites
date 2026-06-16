@@ -30,3 +30,11 @@ pH-sensitive coatings dissolve at intestinal pH releasing peptide in absorptive 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Enteric Coated Peptide Capsules |
+| **Category** | Drug Delivery |
+

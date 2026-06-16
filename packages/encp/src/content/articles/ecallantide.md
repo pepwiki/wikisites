@@ -30,3 +30,11 @@ Kallikrein inhibition prevents cleavage of high-molecular-weight kininogen to br
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Ecallantide |
+| **Category** | Peptide Drugs |
+

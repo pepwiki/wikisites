@@ -30,3 +30,11 @@ Kappa-selective opioid peptide with role in pain modulation and stress response.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Dynorphin B |
+| **Category** | Neuropeptides |
+

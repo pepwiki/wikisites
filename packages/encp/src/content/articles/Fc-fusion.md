@@ -28,3 +28,11 @@ Fc fusion plays important roles in biological systems and has applications in dr
 ## References
 
 1. Encyclopeptide Database. "Fc-fusion" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Fc fusion |
+| **Category** | Drug Delivery |
+

@@ -30,3 +30,11 @@ PEG conjugation extends half-life while maintaining GLP-1 receptor activation fo
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Efinopegdutide |
+| **Category** | Peptide Drugs |
+

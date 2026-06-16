@@ -30,3 +30,11 @@ Protamine complexation delays insulin absorption from subcutaneous depot.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | NPH Insulin |
+| **Category** | Peptide Drugs |
+

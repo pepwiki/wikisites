@@ -30,3 +30,11 @@ Associated with mucin granules providing antimicrobial protection within mucus l
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Goblet Cell Secreted Peptide |
+| **Category** | Antimicrobial Peptides |
+

@@ -28,3 +28,11 @@ Multi-peptide vaccine targeting conserved HCV epitopes across genotypes; induces
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | HCV Peptide Vaccine |
+| **Category** | Peptide Vaccines |
+

@@ -28,3 +28,11 @@ This molecule plays important roles in biological systems and has potential ther
 ## References
 
 1. Encyclopeptide Database. "17-oh-progesterone-peptide-hormone" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | 17 OH Progesterone Peptide Hormone |
+| **Category** | Peptide Hormones |
+

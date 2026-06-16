@@ -25,3 +25,11 @@ Romiplostim - ITP (NCT00000129) is a bioactive peptide with well-characterized p
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Romiplostim - ITP (NCT00000129) |
+| **Category** | Peptide Clinical Trials |
+

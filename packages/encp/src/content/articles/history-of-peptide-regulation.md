@@ -31,3 +31,11 @@ Peptides are regulated as drugs rather than biologics in most jurisdictions, sim
 
 - Source: ENCP Peptide Database
 - Category: Peptide History
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | History of Peptide Regulation |
+| **Category** | Peptide History |
+

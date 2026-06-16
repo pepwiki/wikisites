@@ -30,3 +30,11 @@ Vaginal mucosa enables local peptide delivery or systemic absorption.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Vaginal Peptide Delivery |
+| **Category** | Drug Delivery |
+

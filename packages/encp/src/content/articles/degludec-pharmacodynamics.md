@@ -30,3 +30,11 @@ Multi-hexamer depot provides ultra-flat pharmacodynamic profile over 42+ hours.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Degludec Pharmacodynamics |
+| **Category** | Peptide Drugs |
+

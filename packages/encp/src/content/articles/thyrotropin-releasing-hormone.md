@@ -30,3 +30,11 @@ Pyrro-Glu-His-Pro-NH2 activates TRH receptor on pituitary thyrotrophs.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Thyrotropin-Releasing Hormone |
+| **Category** | Neuropeptides |
+

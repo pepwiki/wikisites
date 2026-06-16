@@ -30,3 +30,11 @@ Convergent evolution of insulin-like peptide for predatory hypoglycemic strategy
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Con-Insulin G1 |
+| **Category** | Venom Peptides |
+

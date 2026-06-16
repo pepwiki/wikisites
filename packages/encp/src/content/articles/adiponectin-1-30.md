@@ -30,3 +30,11 @@ This adiponectin fragment variant has been studied for its biological activity a
 ## References
 
 1. Encyclopeptide Database. "adiponectin-1-30" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Adiponectin 1-30 |
+| **Category** | Peptide Hormones |
+

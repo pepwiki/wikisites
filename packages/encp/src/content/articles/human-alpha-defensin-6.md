@@ -30,3 +30,11 @@ Co-secreted with HD-5 providing synergistic antimicrobial coverage in intestinal
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Human Alpha-Defensin 6 |
+| **Category** | Antimicrobial Peptides |
+

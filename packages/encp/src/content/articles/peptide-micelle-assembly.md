@@ -28,3 +28,11 @@ Peptide micelle assembly plays important roles in biological systems and has app
 ## References
 
 1. Encyclopeptide Database. "peptide-micelle-assembly" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide micelle assembly |
+| **Category** | Structural Biology |
+

@@ -30,3 +30,11 @@ Selective blockade of large-conductance calcium-activated potassium channels.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Iberiotoxin |
+| **Category** | Venom Peptides |
+

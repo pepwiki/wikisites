@@ -30,3 +30,11 @@ This checkpoint inhibitor has been investigated for its biological activity and 
 ## References
 
 1. Encyclopeptide Database. "checkpoint-inhibitor-PD-1-PD-L1" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Checkpoint Inhibitor PD-1-PD-L1 |
+| **Category** | Cancer Immunotherapy |
+

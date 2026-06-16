@@ -25,3 +25,11 @@ Solid-Phase Peptide Synthesis is a bioactive peptide with well-characterized pro
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Solid-Phase Peptide Synthesis |
+| **Category** | Peptide Resources |
+

@@ -30,3 +30,11 @@ Long-acting oral opioid providing stable plasma levels for addiction maintenance
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Methadone Opioid Maintenance |
+| **Category** | Neuropeptides |
+

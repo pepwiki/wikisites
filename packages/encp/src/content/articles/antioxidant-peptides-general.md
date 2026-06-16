@@ -25,3 +25,11 @@ Antioxidant Peptides (General) is a bioactive peptide with well-characterized pr
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Antioxidant Peptides (General) |
+| **Category** | Food Peptides |
+

@@ -28,3 +28,11 @@ Cys1-Cys6 disulfide forms identical 20-membered ring as oxytocin. Phe3 (vs Ile3 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Vasopressin Intramolecular (Disulfide Bond) |
+| **Category** | Peptide Interactions |
+

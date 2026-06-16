@@ -25,3 +25,11 @@ Mass Spectrometry is a bioactive peptide with well-characterized properties and 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Mass Spectrometry |
+| **Category** | Peptide Manufacturing |
+

@@ -30,3 +30,11 @@ Mass spectrometry-based venomics enabling comprehensive venom peptide characteri
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Venom Peptide Omics |
+| **Category** | Venom Peptides |
+

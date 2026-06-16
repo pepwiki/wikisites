@@ -30,3 +30,11 @@ Counter-adaptive changes in opioid and anti-opioid systems during chronic exposu
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Withdrawal Peptides |
+| **Category** | Neuropeptides |
+

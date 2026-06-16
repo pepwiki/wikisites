@@ -30,3 +30,11 @@ Distribution, metabolism, and elimination of venom peptides affecting dosing reg
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Venom Peptide Pharmacokinetics |
+| **Category** | Venom Peptides |
+

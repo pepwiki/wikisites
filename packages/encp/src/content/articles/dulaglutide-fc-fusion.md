@@ -29,3 +29,10 @@ Dulaglutide covalently links two GLP-1(7-37) analog molecules to a human IgG4 Fc
 - **Half-life**: ~5 days
 - **Dosing**: Once weekly subcutaneous
 - **Bioavailability**: 65%
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Dulaglutide Fc Fusion Technology" monograph. encyclopeptide.com.

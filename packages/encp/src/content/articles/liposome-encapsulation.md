@@ -28,3 +28,11 @@ Liposome encapsulation plays important roles in biological systems and has appli
 ## References
 
 1. Encyclopeptide Database. "liposome-encapsulation" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Liposome encapsulation |
+| **Category** | Drug Delivery |
+

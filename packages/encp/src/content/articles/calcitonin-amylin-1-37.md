@@ -30,3 +30,11 @@ This calcitonin variant has been studied for its biological activity and potenti
 ## References
 
 1. Encyclopeptide Database. "calcitonin-amylin-1-37" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Calcitonin amylin-1-37 |
+| **Category** | Peptide Hormones |
+

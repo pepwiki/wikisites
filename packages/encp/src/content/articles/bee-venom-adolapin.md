@@ -30,3 +30,11 @@ Inhibits COX activity reducing prostaglandin synthesis and inflammation.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Bee Venom Adolapin |
+| **Category** | Venom Peptides |
+

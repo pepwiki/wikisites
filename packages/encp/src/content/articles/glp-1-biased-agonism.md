@@ -24,3 +24,18 @@ relatedArticles: ['glp-1', 'glp-1-receptor-structure']
 - Enhanced insulin secretion
 - Reduced receptor desensitization
 - Potentially improved efficacy
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Receptor Biased Agonism |
+| **Category** | GLP-1 Family |
+
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "GLP-1 Receptor Biased Agonism" monograph. encyclopeptide.com.

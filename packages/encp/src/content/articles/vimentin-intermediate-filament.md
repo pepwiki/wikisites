@@ -28,3 +28,11 @@ Vimentin intermediate filament plays important roles in biological systems and h
 ## References
 
 1. Encyclopeptide Database. "vimentin-intermediate-filament" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Vimentin intermediate filament |
+| **Category** | Structural Biology |
+

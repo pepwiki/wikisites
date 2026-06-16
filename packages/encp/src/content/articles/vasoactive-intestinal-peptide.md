@@ -30,3 +30,11 @@ VIP activates adenylate cyclase causing smooth muscle relaxation and secretion.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Vasoactive Intestinal Peptide |
+| **Category** | Neuropeptides |
+

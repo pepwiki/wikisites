@@ -25,3 +25,11 @@ Biotage Syro is a bioactive peptide with well-characterized properties and thera
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Biotage Syro |
+| **Category** | Peptide Research Tools |
+

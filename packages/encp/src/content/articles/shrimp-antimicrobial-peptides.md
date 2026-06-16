@@ -30,3 +30,11 @@ Crustacean AMPs provide innate immunity against viral and bacterial aquaculture 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Shrimp Antimicrobial Peptides |
+| **Category** | Antimicrobial Peptides |
+

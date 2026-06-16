@@ -30,3 +30,11 @@ Reversible active site binding provides predictable anticoagulation in HIT patie
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Argatroban |
+| **Category** | Peptide Drugs |
+

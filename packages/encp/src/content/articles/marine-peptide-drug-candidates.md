@@ -32,3 +32,18 @@ relatedArticles: ['trabectedin', 'plitidepsin', 'eribulin']
 - Sustainable sourcing (synthesis vs extraction)
 - Structural complexity
 - Supply chain reliability
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Marine Peptide Drug Candidates |
+| **Category** | Marine Peptides |
+
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Marine Peptide Drug Candidates" monograph. encyclopeptide.com.

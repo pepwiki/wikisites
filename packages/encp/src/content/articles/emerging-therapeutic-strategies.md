@@ -25,3 +25,11 @@ Emerging Therapeutic Strategies is a bioactive peptide with well-characterized p
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Emerging Therapeutic Strategies |
+| **Category** | Bacterial Peptides |
+

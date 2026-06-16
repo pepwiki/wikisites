@@ -28,3 +28,11 @@ This molecule plays important roles in biological systems and has potential ther
 ## References
 
 1. Encyclopeptide Database. "ifn-gamma-peptide-hormone" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | IFN Gamma Peptide Hormone |
+| **Category** | Peptide Hormones |
+

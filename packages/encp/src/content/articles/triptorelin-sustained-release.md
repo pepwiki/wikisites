@@ -29,3 +29,10 @@ Triptorelin is available in microsphere depot formulations providing 1-month, 3-
 - Central precocious puberty (children >=2 years)
 - Endometriosis (off-label)
 - Assisted reproduction (triggering oocyte maturation)
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Triptorelin Sustained Release" monograph. encyclopeptide.com.

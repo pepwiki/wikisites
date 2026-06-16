@@ -30,3 +30,11 @@ This osteocalcin variant has been studied for its biological activity and potent
 ## References
 
 1. Encyclopeptide Database. "osteocalcin-1-20" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Osteocalcin 1-20 |
+| **Category** | Peptide Hormones |
+

@@ -28,3 +28,11 @@ Peptide ubiquitination analysis plays important roles in biological systems and 
 ## References
 
 1. Encyclopeptide Database. "peptide-ubiquitination-analysis" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide ubiquitination analysis |
+| **Category** | Structural Biology |
+

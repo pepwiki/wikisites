@@ -30,3 +30,11 @@ Chitosan and carbopol-based systems adhere to mucus increasing residence time.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Mucoadhesive Peptide Systems |
+| **Category** | Drug Delivery |
+

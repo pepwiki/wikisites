@@ -28,3 +28,11 @@ Peptide degradation plays important roles in biological systems and has applicat
 ## References
 
 1. Encyclopeptide Database. "peptide-degradation" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide degradation |
+| **Category** | Structural Biology |
+

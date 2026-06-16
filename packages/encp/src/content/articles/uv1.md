@@ -28,3 +28,11 @@ Targets telomerase overexpressed in ~85% of cancers; generates CD4+ and CD8+ T-c
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | UV1 |
+| **Category** | Peptide Vaccines |
+

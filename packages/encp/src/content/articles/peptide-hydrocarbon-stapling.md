@@ -28,3 +28,11 @@ Peptide hydrocarbon stapling plays important roles in biological systems and has
 ## References
 
 1. Encyclopeptide Database. "peptide-hydrocarbon-stapling" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide hydrocarbon stapling |
+| **Category** | Drug Delivery |
+

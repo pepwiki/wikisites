@@ -30,3 +30,11 @@ GLP-1 receptors in mesolimbic reward pathways modulate alcohol-seeking behavior.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 and Alcohol Use |
+| **Category** | Peptide Drugs |
+

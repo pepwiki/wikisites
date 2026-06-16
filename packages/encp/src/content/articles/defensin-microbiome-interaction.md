@@ -30,3 +30,11 @@ Defensins selectively inhibit pathogens while allowing commensal colonization.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Defensin Microbiome Interaction |
+| **Category** | Antimicrobial Peptides |
+

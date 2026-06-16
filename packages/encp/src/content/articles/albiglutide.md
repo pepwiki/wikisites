@@ -30,3 +30,11 @@ Albumin fusion avoids renal clearance with DPP-4-resistant GLP-1 sequence.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Albiglutide |
+| **Category** | Peptide Drugs |
+

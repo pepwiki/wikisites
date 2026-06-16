@@ -30,3 +30,11 @@ Kv1.3 blockade selectively inhibits effector memory T-cells in autoimmune condit
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Scorpion Toxin Kv1.3 Therapy |
+| **Category** | Venom Peptides |
+

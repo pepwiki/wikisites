@@ -28,3 +28,11 @@ This molecule plays important roles in biological systems and has potential ther
 ## References
 
 1. Encyclopeptide Database. "synthesis-scfv-conjugation" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | ScFv Conjugation Synthesis |
+| **Category** | Peptide Synthesis Methods |
+

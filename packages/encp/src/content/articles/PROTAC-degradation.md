@@ -28,3 +28,11 @@ PROTAC degradation plays important roles in biological systems and has applicati
 ## References
 
 1. Encyclopeptide Database. "PROTAC-degradation" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | PROTAC degradation |
+| **Category** | Drug Delivery |
+

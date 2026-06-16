@@ -30,3 +30,11 @@ Highly potent against Pseudomonas making it candidate for wound infection treatm
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Esculentin |
+| **Category** | Antimicrobial Peptides |
+

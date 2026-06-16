@@ -30,3 +30,11 @@ Prohormone convertases and carboxypeptidase E generate active opioid peptides fr
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Precursor Processing |
+| **Category** | Neuropeptides |
+

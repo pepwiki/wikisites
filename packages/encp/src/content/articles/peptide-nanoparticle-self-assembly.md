@@ -28,3 +28,11 @@ Peptide nanoparticle self-assembly plays important roles in biological systems a
 ## References
 
 1. Encyclopeptide Database. "peptide-nanoparticle-self-assembly" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide nanoparticle self-assembly |
+| **Category** | Structural Biology |
+

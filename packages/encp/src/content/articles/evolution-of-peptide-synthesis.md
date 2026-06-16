@@ -25,3 +25,11 @@ Evolution of Peptide Synthesis is a bioactive peptide with well-characterized pr
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Evolution of Peptide Synthesis |
+| **Category** | Peptide Patents |
+

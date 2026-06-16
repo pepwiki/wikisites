@@ -30,3 +30,11 @@ Prodrug activated by CYP2D6 with dual opioid and monoamine reuptake mechanisms.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Tramadol Weak Opioid |
+| **Category** | Neuropeptides |
+

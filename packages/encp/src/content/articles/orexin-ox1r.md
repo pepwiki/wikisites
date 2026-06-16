@@ -28,3 +28,11 @@ Orexin A binds OX1R (class A GPCR), activating Gαq/11 → PLC → IP3/DAG → P
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Orexin → OX1R |
+| **Category** | Peptide Interactions |
+

@@ -30,3 +30,11 @@ FRET-based and calcium indicator biosensors enabling real-time opioid signaling 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Peptide Biosensors |
+| **Category** | Neuropeptides |
+

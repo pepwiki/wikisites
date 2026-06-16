@@ -31,3 +31,11 @@ Glutathione: The Master Antioxidant is a bioactive peptide with well-characteriz
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Glutathione: The Master Antioxidant |
+| **Category** | Tripeptides |
+

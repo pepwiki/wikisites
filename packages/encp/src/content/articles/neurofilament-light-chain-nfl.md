@@ -25,3 +25,11 @@ Neurofilament Light Chain (NfL) is a bioactive peptide with well-characterized p
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Neurofilament Light Chain (NfL) |
+| **Category** | Biomarkers Expanded |
+

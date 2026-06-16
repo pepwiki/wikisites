@@ -28,3 +28,11 @@ relatedArticles: []
 ## References
 
 1. Encyclopeptide Database. "2-o-methyl-rna" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | 2-O-methyl RNA |
+| **Category** | Structural Biology |
+

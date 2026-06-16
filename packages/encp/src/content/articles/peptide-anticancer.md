@@ -32,3 +32,11 @@ PDCs represent a growing drug class with advantages in tumor penetration and red
 
 - Source: ENCP Peptide Database
 - Category: Peptide Applications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Anticancer Agents |
+| **Category** | Peptide Applications |
+

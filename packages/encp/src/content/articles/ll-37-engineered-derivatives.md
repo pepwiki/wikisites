@@ -30,3 +30,11 @@ Sequence optimization improves therapeutic index through reduced hemolysis and e
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | LL-37 Engineered Derivatives |
+| **Category** | Antimicrobial Peptides |
+

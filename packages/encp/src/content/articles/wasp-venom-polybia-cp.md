@@ -30,3 +30,11 @@ Cationic peptide disrupting bacterial membranes while sparing mammalian cells.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Wasp Venom Polybia-CP |
+| **Category** | Venom Peptides |
+

@@ -30,3 +30,14 @@ relatedArticles: ['semaglutide', 'tirzepatide', 'liraglutide']
 2. Weight loss reducing insulin resistance
 3. Improved insulin sensitivity
 4. Reduced glucotoxicity
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Agonist Diabetes Remission |
+| **Category** | GLP-1 Family |
+
+## References
+
+1. Encyclopeptide Database. "GLP-1 Agonist Diabetes Remission" monograph. encyclopeptide.com.

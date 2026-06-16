@@ -32,3 +32,10 @@ Was approved for type 2 diabetes as Tanzeum (2014). Discontinued by GlaxoSmithKl
 
 - **Half-life**: ~5 days
 - **Dosing**: Once weekly subcutaneous
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Albiglutide Albumin Fusion" monograph. encyclopeptide.com.

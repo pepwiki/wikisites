@@ -30,3 +30,11 @@ Combines GLP-1 agonist and basal insulin in single co-formulation for simplified
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Semaglutide Insulin Coformulation |
+| **Category** | Peptide Drugs |
+

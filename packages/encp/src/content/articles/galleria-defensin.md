@@ -30,3 +30,11 @@ Cysteine-stabilized defensin structure provides potent activity against gram-pos
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Galleria Defensin |
+| **Category** | Antimicrobial Peptides |
+

@@ -29,3 +29,14 @@ Peakless basal insulin aims to mimic continuous, low-level pancreatic insulin se
 - More predictable glucose levels
 - Flexible dosing time
 - Less glucose variability
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peakless Basal Insulin Profiles |
+| **Category** | Insulin Family |
+
+## References
+
+1. Encyclopeptide Database. "Peakless Basal Insulin Profiles" monograph. encyclopeptide.com.

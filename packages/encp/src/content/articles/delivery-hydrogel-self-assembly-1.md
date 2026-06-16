@@ -28,3 +28,11 @@ This molecule plays important roles in biological systems and has potential ther
 ## References
 
 1. Encyclopeptide Database. "delivery-hydrogel-self-assembly-1" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Hydrogel Self Assembly System 1 |
+| **Category** | Drug Delivery Systems |
+

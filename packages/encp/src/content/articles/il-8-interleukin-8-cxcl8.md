@@ -25,3 +25,11 @@ IL-8 (Interleukin-8 / CXCL8) is a bioactive peptide with well-characterized prop
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | IL-8 (Interleukin-8 / CXCL8) |
+| **Category** | Biomarkers Expanded |
+

@@ -30,3 +30,11 @@ Gly-Gly-Gly extension acts as prodrug releasing active trilysin pressin for V1 r
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Terlipressin |
+| **Category** | Peptide Drugs |
+

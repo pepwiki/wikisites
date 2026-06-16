@@ -30,3 +30,11 @@ D-Arg8 and N-terminal deletion confer V2 selectivity and DPP-4 resistance.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Desmopressin |
+| **Category** | Peptide Drugs |
+

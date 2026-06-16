@@ -30,3 +30,11 @@ Truncated exendin-4 analog provides rapid receptor engagement and gastric emptyi
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Lixisenatide |
+| **Category** | Peptide Drugs |
+

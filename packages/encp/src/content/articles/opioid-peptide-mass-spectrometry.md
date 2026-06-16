@@ -30,3 +30,11 @@ LC-MS/MS methods enabling simultaneous measurement of multiple opioid peptides i
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Peptide Mass Spectrometry |
+| **Category** | Neuropeptides |
+

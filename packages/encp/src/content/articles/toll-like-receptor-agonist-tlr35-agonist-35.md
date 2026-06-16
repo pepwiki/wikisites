@@ -30,3 +30,11 @@ This tlr agonist has been investigated for its biological activity and therapeut
 ## References
 
 1. Encyclopeptide Database. "toll-like-receptor-agonist-TLR35-agonist-35" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Toll Like Receptor Agonist TLR35-agonist-35 |
+| **Category** | Immune Modulators |
+

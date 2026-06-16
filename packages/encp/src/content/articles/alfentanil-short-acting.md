@@ -30,3 +30,11 @@ Higher pKa provides faster onset of CNS effects compared to fentanyl.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Alfentanil Short-Acting |
+| **Category** | Neuropeptides |
+

@@ -30,3 +30,11 @@ Highly cationic peptide shows activity against antibiotic-resistant organisms.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Sheep Cathelicidin SMAP-29 |
+| **Category** | Antimicrobial Peptides |
+

@@ -30,3 +30,11 @@ Active within phagosomes killing intracellular bacteria including Mycobacterium 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Human Alpha-Defensin 4 |
+| **Category** | Antimicrobial Peptides |
+

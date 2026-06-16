@@ -28,3 +28,11 @@ CSP-HBsAg nanoparticle with Matrix-M adjuvant; higher CSP density enhances anti-
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | R21/Matrix-M |
+| **Category** | Peptide Vaccines |
+

@@ -32,3 +32,11 @@ Amyotrophic Lateral Sclerosis (ALS) has been studied for its potential applicati
 
 - Source: peptide-diseases.md
 - Database: Wikipept Peptide Database
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Amyotrophic Lateral Sclerosis (ALS) |
+| **Category** | Neurological |
+

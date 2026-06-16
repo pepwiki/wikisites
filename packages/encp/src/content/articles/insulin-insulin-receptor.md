@@ -25,3 +25,11 @@ Insulin → Insulin Receptor is a bioactive peptide with well-characterized prop
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin → Insulin Receptor |
+| **Category** | Peptide Interactions |
+

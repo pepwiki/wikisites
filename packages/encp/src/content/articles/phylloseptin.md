@@ -30,3 +30,11 @@ Short amphipathic peptide efficiently disrupts bacterial cell membranes.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Phylloseptin |
+| **Category** | Antimicrobial Peptides |
+

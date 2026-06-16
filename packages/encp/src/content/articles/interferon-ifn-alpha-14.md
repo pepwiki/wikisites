@@ -30,3 +30,11 @@ This interferon variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "interferon-IFN-alpha-14" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Interferon IFN-alpha-14 |
+| **Category** | Cytokines |
+

@@ -32,3 +32,10 @@ Under regulatory review for type 1 and type 2 diabetes. ONWARDS trial program de
 - **Duration**: >7 days
 - **Dosing**: Once weekly
 - **Bioavailability**: ~75%
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Insulin Icodec" monograph. encyclopeptide.com.

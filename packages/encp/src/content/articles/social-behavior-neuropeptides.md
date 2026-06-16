@@ -30,3 +30,11 @@ Oxytocin and vasopressin systems in brain mediate social recognition and bonding
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Social Behavior Neuropeptides |
+| **Category** | Neuropeptides |
+

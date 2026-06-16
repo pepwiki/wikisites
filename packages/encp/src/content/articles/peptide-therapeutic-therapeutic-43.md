@@ -30,3 +30,11 @@ This therapeutic peptide has been investigated for its biological activity and t
 ## References
 
 1. Encyclopeptide Database. "peptide-therapeutic-therapeutic-43" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Therapeutic therapeutic-43 |
+| **Category** | Therapeutic Peptides |
+

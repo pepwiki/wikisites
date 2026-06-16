@@ -30,3 +30,11 @@ This tlr agonist has been investigated for its biological activity and therapeut
 ## References
 
 1. Encyclopeptide Database. "toll-like-receptor-agonist-TLR26-agonist-26" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Toll Like Receptor Agonist TLR26-agonist-26 |
+| **Category** | Immune Modulators |
+

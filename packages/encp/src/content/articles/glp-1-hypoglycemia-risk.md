@@ -30,3 +30,11 @@ Glucose-dependent insulin secretion means minimal risk of hypoglycemia as monoth
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Hypoglycemia Risk |
+| **Category** | Peptide Drugs |
+

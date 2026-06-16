@@ -30,3 +30,11 @@ Over 1000 spider venom peptides targeting ion channels, receptors, and transport
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Spider Toxin Diversity |
+| **Category** | Venom Peptides |
+

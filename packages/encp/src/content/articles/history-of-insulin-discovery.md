@@ -32,3 +32,11 @@ Insulin was the first peptide hormone to be isolated, sequenced, and produced re
 
 - Source: ENCP Peptide Database
 - Category: Peptide History
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | History of Insulin Discovery |
+| **Category** | Peptide History |
+

@@ -27,3 +27,18 @@ relatedArticles: ['semaglutide', 'tirzepatide', 'liraglutide']
 ## Clinical Decision Making
 
 Choice depends on cardiovascular comorbidities, renal function, weight goals, hypoglycemia risk, and patient preference.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Agonist Combination Therapies |
+| **Category** | GLP-1 Family |
+
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "GLP-1 Agonist Combination Therapies" monograph. encyclopeptide.com.

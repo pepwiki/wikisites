@@ -30,3 +30,11 @@ Rapid-acting competitive antagonist reversing respiratory depression from opioid
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Naloxone Opioid Antagonist |
+| **Category** | Neuropeptides |
+

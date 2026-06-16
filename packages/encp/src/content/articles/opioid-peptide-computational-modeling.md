@@ -30,3 +30,11 @@ Molecular dynamics simulations predicting binding modes and receptor selectivity
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Peptide Computational Modeling |
+| **Category** | Neuropeptides |
+

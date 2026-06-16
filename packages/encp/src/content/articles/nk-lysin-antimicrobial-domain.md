@@ -30,3 +30,11 @@ Saposin-like protein domain creates pores in bacterial and cancer cell membranes
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | NK-Lysin Antimicrobial Domain |
+| **Category** | Antimicrobial Peptides |
+

@@ -30,3 +30,11 @@ D-Trp6 substitution increases receptor binding affinity and resistance to degrad
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Triptorelin |
+| **Category** | Peptide Drugs |
+

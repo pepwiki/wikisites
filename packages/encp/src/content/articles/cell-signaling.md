@@ -28,3 +28,11 @@ Cell signaling plays important roles in biological systems and has applications 
 ## References
 
 1. Encyclopeptide Database. "cell-signaling" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Cell signaling |
+| **Category** | Structural Biology |
+

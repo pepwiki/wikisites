@@ -30,3 +30,11 @@ BNP binds natriuretic peptide receptor increasing cAMP causing vasodilation and 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Nesiritide |
+| **Category** | Peptide Drugs |
+

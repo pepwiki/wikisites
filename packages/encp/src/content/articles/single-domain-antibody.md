@@ -28,3 +28,11 @@ Single-domain antibody plays important roles in biological systems and has appli
 ## References
 
 1. Encyclopeptide Database. "single-domain-antibody" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Single-domain antibody |
+| **Category** | Drug Delivery |
+

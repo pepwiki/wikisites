@@ -29,3 +29,11 @@ The Apex synthesizer supports both Fmoc and Boc chemistry strategies, with autom
 
 - Source: peptide-research-tools.md
 - Database: Wikipept Peptide Database
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | AAPPTec Apex |
+| **Category** | Peptide Research Tools |
+

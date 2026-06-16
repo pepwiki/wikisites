@@ -25,3 +25,11 @@ Agitoxin-2 is a bioactive peptide with well-characterized properties and therape
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Agitoxin-2 |
+| **Category** | Toxin Peptides |
+

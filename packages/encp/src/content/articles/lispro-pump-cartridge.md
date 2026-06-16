@@ -30,3 +30,11 @@ Specialized formulation maintains potency and clarity during extended pump dwell
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Lispro Pump Cartridge |
+| **Category** | Peptide Drugs |
+

@@ -29,3 +29,14 @@ Peptides have growing applications in veterinary medicine, from treating compani
 ### Aquaculture
 - **Disease prevention**: Antimicrobial peptides
 - **Growth enhancement**: GH and IGF-1
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Veterinary Therapeutics |
+| **Category** | Veterinary Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Veterinary Therapeutics" monograph. encyclopeptide.com.

@@ -25,3 +25,11 @@ VPP is a bioactive peptide with well-characterized properties and therapeutic ap
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | VPP |
+| **Category** | Food Peptides |
+

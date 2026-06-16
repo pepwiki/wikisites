@@ -32,3 +32,11 @@ Purity Testing (HPLC Analysis) has been studied for its potential applications i
 
 - Source: peptide-manufacturing.md
 - Database: Wikipept Peptide Database
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Purity Testing (HPLC Analysis) |
+| **Category** | Peptide Manufacturing |
+

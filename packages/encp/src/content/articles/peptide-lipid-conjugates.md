@@ -30,3 +30,11 @@ Fatty acid and lipid tails anchoring peptides to membranes for extended local de
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Lipid Conjugates |
+| **Category** | Drug Delivery |
+

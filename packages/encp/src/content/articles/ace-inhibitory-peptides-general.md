@@ -25,3 +25,11 @@ ACE-Inhibitory Peptides (General) is a bioactive peptide with well-characterized
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | ACE-Inhibitory Peptides (General) |
+| **Category** | Food Peptides |
+

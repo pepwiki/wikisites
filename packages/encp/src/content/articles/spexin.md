@@ -30,3 +30,11 @@ Activates GalR2 with potent anorexigenic effects and GI regulation.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Spexin |
+| **Category** | Neuropeptides |
+

@@ -25,3 +25,11 @@ SUMOylation regulates transcription factor activity, DNA repair, nuclear pore fu
 
 - Source: ENCP Peptide Database
 - Category: Peptide Modifications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide SUMOylation Sites |
+| **Category** | Peptide Modifications |
+

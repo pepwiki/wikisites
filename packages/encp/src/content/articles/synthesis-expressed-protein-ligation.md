@@ -28,3 +28,11 @@ This molecule plays important roles in biological systems and has potential ther
 ## References
 
 1. Encyclopeptide Database. "synthesis-expressed-protein-ligation" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Expressed Protein Ligation Synthesis |
+| **Category** | Peptide Synthesis Methods |
+

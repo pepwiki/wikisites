@@ -30,3 +30,11 @@ Immunassays may cross-react with insulin analogs, metabolites, and insulin-antib
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Assay Cross-Reactivity |
+| **Category** | Peptide Drugs |
+

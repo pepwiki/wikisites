@@ -30,3 +30,11 @@ Fixed-ratio combination showed superior HbA1c reduction with weight loss benefit
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | PIONEER 9 Trial |
+| **Category** | Peptide Drugs |
+

@@ -30,3 +30,11 @@ Covalently attached AMPs on device surfaces prevent bacterial adhesion and biofi
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Defensin Medical Device Coatings |
+| **Category** | Antimicrobial Peptides |
+

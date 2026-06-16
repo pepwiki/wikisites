@@ -28,3 +28,11 @@ Peptide glass transition plays important roles in biological systems and has app
 ## References
 
 1. Encyclopeptide Database. "peptide-glass-transition" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide glass transition |
+| **Category** | Structural Biology |
+

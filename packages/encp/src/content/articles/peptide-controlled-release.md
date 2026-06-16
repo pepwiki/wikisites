@@ -30,3 +30,11 @@ Osmotic pumps, microspheres, and hydrogels providing constant drug levels.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Controlled Release |
+| **Category** | Drug Delivery |
+

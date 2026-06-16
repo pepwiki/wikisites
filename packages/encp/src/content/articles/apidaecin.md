@@ -30,3 +30,11 @@ Proline-rich peptide enters bacterial cells and inhibits DnaJ chaperone function
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Apidaecin |
+| **Category** | Antimicrobial Peptides |
+

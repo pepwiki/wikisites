@@ -32,3 +32,11 @@ DrugBank has been studied for its potential applications in:
 
 - Source: peptide-databases.md
 - Database: Wikipept Peptide Database
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | DrugBank |
+| **Category** | Drug Development |
+

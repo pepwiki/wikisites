@@ -30,3 +30,11 @@ This secretin variant has been studied for its biological activity and potential
 ## References
 
 1. Encyclopeptide Database. "secretin-1-6" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Secretin 1-6 |
+| **Category** | Peptide Hormones |
+

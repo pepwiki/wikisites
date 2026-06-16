@@ -30,3 +30,11 @@ Truncated fragment retaining ORL1 receptor binding and activation.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Nociceptin 1-13 |
+| **Category** | Neuropeptides |
+

@@ -30,3 +30,11 @@ Partial mu-agonist with ceiling effect reducing overdose risk in addiction treat
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Buprenorphine Partial Agonist |
+| **Category** | Neuropeptides |
+

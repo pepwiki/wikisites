@@ -30,3 +30,11 @@ Co-expressed with NPY affecting energy balance and feeding behavior.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Neuropeptide B |
+| **Category** | Neuropeptides |
+

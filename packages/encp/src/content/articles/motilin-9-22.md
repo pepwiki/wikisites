@@ -30,3 +30,11 @@ This motilin variant has been studied for its biological activity and potential 
 ## References
 
 1. Encyclopeptide Database. "motilin-9-22" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Motilin 9-22 |
+| **Category** | Peptide Hormones |
+

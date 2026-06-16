@@ -30,3 +30,11 @@ Crosslink density and polymer composition tuning release profiles.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Hydrogel Network |
+| **Category** | Drug Delivery |
+

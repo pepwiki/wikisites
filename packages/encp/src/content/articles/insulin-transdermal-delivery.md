@@ -30,3 +30,11 @@ Microneedles create temporary pathways through skin for insulin delivery bypassi
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Transdermal Delivery |
+| **Category** | Peptide Drugs |
+

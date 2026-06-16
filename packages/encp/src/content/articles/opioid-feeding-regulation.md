@@ -30,3 +30,11 @@ Mu and delta opioid activation in hypothalamus and reward centers stimulates fee
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Feeding Regulation |
+| **Category** | Neuropeptides |
+

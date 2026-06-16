@@ -25,3 +25,11 @@ TNF-alpha (Tumor Necrosis Factor Alpha) is a bioactive peptide with well-charact
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | TNF-alpha (Tumor Necrosis Factor Alpha) |
+| **Category** | Biomarkers Expanded |
+

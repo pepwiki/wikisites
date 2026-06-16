@@ -30,3 +30,11 @@ Lipid emulsions protect peptide and promote lymphatic absorption.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Emulsified Peptide Delivery |
+| **Category** | Drug Delivery |
+

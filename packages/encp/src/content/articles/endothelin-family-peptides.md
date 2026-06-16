@@ -28,3 +28,11 @@ Endothelin receptor antagonists (bosentan, ambrisentan) treat pulmonary arterial
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Endothelin Family Peptides |
+| **Category** | Peptide Families |
+

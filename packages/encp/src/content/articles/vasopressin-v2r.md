@@ -28,3 +28,11 @@ AVP binds V2R (class A GPCR) on renal collecting duct cells, activating Gαs →
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Vasopressin → V2R |
+| **Category** | Peptide Interactions |
+

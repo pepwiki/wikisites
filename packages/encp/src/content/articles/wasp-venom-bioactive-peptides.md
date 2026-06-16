@@ -30,3 +30,11 @@ Venomics approaches identifying novel bioactive peptides from diverse wasp speci
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Wasp Venom Bioactive Peptides |
+| **Category** | Venom Peptides |
+

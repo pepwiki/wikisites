@@ -30,3 +30,11 @@ Salivary gland-derived AMPs maintain oral microbiome homeostasis and pathogen co
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Oral Antimicrobial Peptides |
+| **Category** | Antimicrobial Peptides |
+

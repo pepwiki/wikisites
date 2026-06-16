@@ -28,3 +28,11 @@ Branched peptide plays important roles in biological systems and has application
 ## References
 
 1. Encyclopeptide Database. "branched-peptide" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Branched peptide |
+| **Category** | Drug Delivery |
+

@@ -27,3 +27,14 @@ Cardiovascular outcome trials have established the cardiovascular safety of mode
 ## Clinical Implications
 
 Modern insulin analogues are considered cardiovascularly safe, allowing clinicians to prescribe based on efficacy, hypoglycemia risk, and patient preference.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Cardiovascular Outcomes |
+| **Category** | Insulin Family |
+
+## References
+
+1. Encyclopeptide Database. "Insulin Cardiovascular Outcomes" monograph. encyclopeptide.com.

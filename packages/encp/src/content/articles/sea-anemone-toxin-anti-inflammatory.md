@@ -30,3 +30,11 @@ Immunomodulatory effects of sea anemone peptides reducing inflammatory responses
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Sea Anemone Toxin Anti-Inflammatory |
+| **Category** | Venom Peptides |
+

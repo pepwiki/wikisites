@@ -30,3 +30,11 @@ SNAC-mediated absorption enhancement enables oral delivery of dual agonist pepti
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Oral Tirzepatide |
+| **Category** | Peptide Drugs |
+

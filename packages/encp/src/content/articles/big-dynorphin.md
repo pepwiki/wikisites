@@ -30,3 +30,11 @@ Polyprotein precursor processed into individual dynorphin peptides.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Big Dynorphin |
+| **Category** | Neuropeptides |
+

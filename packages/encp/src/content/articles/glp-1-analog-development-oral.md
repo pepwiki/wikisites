@@ -29,3 +29,18 @@ relatedArticles: ['semaglutide', 'oral-semaglutide', 'semaglutide-oral-formulati
 ### Clinical Results
 - PIONEER 6: Non-inferior cardiovascular safety
 - HbA1c reduction: 1.0-1.4% (14 mg dose)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Oral Semaglutide Development History |
+| **Category** | GLP-1 Family |
+
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Oral Semaglutide Development History" monograph. encyclopeptide.com.

@@ -28,3 +28,11 @@ Peptide intrinsically disordered plays important roles in biological systems and
 ## References
 
 1. Encyclopeptide Database. "peptide-intrinsically-disordered" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide intrinsically disordered |
+| **Category** | Structural Biology |
+

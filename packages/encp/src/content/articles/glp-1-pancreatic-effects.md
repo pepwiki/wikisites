@@ -26,3 +26,18 @@ relatedArticles: ['glp-1', 'glp-1-receptor-agonist']
 
 - Glucagon suppression: 30-50% reduction
 - Glucose-dependent mechanism
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Agonist Pancreatic Effects |
+| **Category** | GLP-1 Family |
+
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "GLP-1 Agonist Pancreatic Effects" monograph. encyclopeptide.com.

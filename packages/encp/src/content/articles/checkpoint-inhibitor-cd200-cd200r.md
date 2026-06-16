@@ -30,3 +30,11 @@ This checkpoint inhibitor has been investigated for its biological activity and 
 ## References
 
 1. Encyclopeptide Database. "checkpoint-inhibitor-CD200-CD200R" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Checkpoint Inhibitor CD200-CD200R |
+| **Category** | Cancer Immunotherapy |
+

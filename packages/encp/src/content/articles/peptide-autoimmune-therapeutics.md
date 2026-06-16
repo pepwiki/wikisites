@@ -28,3 +28,14 @@ Tolerogenic peptides represent a promising approach to treat autoimmune diseases
 - Delivery optimization
 - Patient selection
 - Manufacturing scalability
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Autoimmune Therapeutics |
+| **Category** | Therapeutic Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Autoimmune Therapeutics" monograph. encyclopeptide.com.

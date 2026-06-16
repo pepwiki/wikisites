@@ -30,3 +30,11 @@ TransCon technology provides sustained PTH release for continuous PTH1R activati
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | TransCon PTH |
+| **Category** | Peptide Drugs |
+

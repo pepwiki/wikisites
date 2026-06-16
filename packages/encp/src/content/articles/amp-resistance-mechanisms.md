@@ -30,3 +30,11 @@ Bacteria modify membrane charge or secrete proteases to evade AMP killing.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | AMP Resistance Mechanisms |
+| **Category** | Antimicrobial Peptides |
+

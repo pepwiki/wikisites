@@ -28,3 +28,11 @@ HA peptide (hemagglutinin epitope, derived from human influenza hemagglutinin pr
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | HA-tag → Anti-HA (Affinity Purification) |
+| **Category** | Peptide Interactions |
+

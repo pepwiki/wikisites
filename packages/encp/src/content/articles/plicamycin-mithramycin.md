@@ -32,3 +32,6 @@ Binds to the GC-rich region of DNA, inhibiting RNA polymerase and DNA-dependent 
 - Testicular cancer (refractory)
 - Hypercalcemia of malignancy (when bisphosphonates fail)
 - Highly toxic (hepatic, renal, hemorrhagic)
+## References
+
+1. Encyclopeptide Database. "Plicamycin (Mithramycin)" monograph. encyclopeptide.com.

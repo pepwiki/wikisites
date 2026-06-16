@@ -30,3 +30,11 @@ This diagnostic marker has been investigated for its biological activity and the
 ## References
 
 1. Encyclopeptide Database. "peptide-diagnostic-marker-diagnostic-marker-12" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Diagnostic Marker diagnostic-marker-12 |
+| **Category** | Diagnostic Peptides |
+

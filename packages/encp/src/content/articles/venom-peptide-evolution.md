@@ -30,3 +30,11 @@ Gene duplication and neofunctionalization driving venom peptide diversity.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Venom Peptide Evolution |
+| **Category** | Venom Peptides |
+

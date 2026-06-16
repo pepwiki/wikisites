@@ -26,3 +26,11 @@ Histone acetylation is a key epigenetic mark. HDAC inhibitors are approved cance
 
 - Source: ENCP Peptide Database
 - Category: Peptide Modifications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Acetylation Sites |
+| **Category** | Peptide Modifications |
+

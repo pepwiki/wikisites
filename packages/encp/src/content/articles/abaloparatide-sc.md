@@ -30,3 +30,11 @@ PTHrP analog preferentially activates RG signaling pathway promoting bone format
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Abaloparatide SC |
+| **Category** | Peptide Drugs |
+

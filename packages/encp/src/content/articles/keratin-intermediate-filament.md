@@ -28,3 +28,11 @@ Keratin intermediate filament plays important roles in biological systems and ha
 ## References
 
 1. Encyclopeptide Database. "keratin-intermediate-filament" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Keratin intermediate filament |
+| **Category** | Structural Biology |
+

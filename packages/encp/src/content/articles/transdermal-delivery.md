@@ -28,3 +28,11 @@ Transdermal delivery plays important roles in biological systems and has applica
 ## References
 
 1. Encyclopeptide Database. "transdermal-delivery" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Transdermal delivery |
+| **Category** | Drug Delivery |
+

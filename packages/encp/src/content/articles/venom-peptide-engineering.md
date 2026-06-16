@@ -30,3 +30,11 @@ Structure-guided modification improving selectivity, stability, and pharmacokine
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Venom Peptide Engineering |
+| **Category** | Venom Peptides |
+

@@ -30,3 +30,11 @@ Niacinamide enhances local blood flow and citrate lowers subcutaneous pH acceler
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Fiasp Formulation Science |
+| **Category** | Peptide Drugs |
+

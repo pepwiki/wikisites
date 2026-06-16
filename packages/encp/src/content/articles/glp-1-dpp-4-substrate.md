@@ -31,3 +31,18 @@ Inactive:          EG TFTSDVSSYLEGQAAKEFIAWLVKGRG-NH2
 | Aib substitution at position 8 | Semaglutide | Resistant to DPP-4 |
 | Gly2 substitution           | Exenatide     | Partially resistant |
 | Albumin binding             | Liraglutide   | Indirect            |
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 as DPP-4 Substrate |
+| **Category** | GLP-1 Family |
+
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "GLP-1 as DPP-4 Substrate" monograph. encyclopeptide.com.

@@ -28,3 +28,11 @@ Bispecific antibody plays important roles in biological systems and has applicat
 ## References
 
 1. Encyclopeptide Database. "bispecific-antibody" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Bispecific antibody |
+| **Category** | Drug Delivery |
+

@@ -30,3 +30,11 @@ AMPs activate immune cells through pattern recognition receptors and chemokine s
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | AMP Immunomodulation |
+| **Category** | Antimicrobial Peptides |
+

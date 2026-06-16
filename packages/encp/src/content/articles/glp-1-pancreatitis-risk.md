@@ -30,3 +30,11 @@ Large clinical trials show no significant increase in pancreatitis risk versus c
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Pancreatitis Risk |
+| **Category** | Peptide Drugs |
+

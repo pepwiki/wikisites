@@ -28,3 +28,11 @@ Peptide myristoylation plays important roles in biological systems and has appli
 ## References
 
 1. Encyclopeptide Database. "peptide-myristoylation" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide myristoylation |
+| **Category** | Structural Biology |
+

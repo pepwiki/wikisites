@@ -27,3 +27,11 @@ Thioester intermediates enable native chemical ligation for synthetic protein co
 
 - Source: ENCP Peptide Database
 - Category: Peptide Modifications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Thioester Bonds in Peptides |
+| **Category** | Peptide Modifications |
+

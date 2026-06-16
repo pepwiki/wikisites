@@ -30,3 +30,14 @@ Stability-indicating methods are essential for monitoring peptide drug quality t
 | Linearity       | R2 >= 0.999                           |
 | Accuracy        | 98-102% recovery                      |
 | Precision       | RSD <= 2%                             |
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Drug Stability-Indicating Methods |
+| **Category** | Analytical Development |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Drug Stability-Indicating Methods" monograph. encyclopeptide.com.

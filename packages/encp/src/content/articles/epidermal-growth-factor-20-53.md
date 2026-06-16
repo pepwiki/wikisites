@@ -30,3 +30,11 @@ This egf analog variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "epidermal-growth-factor-20-53" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Epidermal Growth Factor 20-53 |
+| **Category** | Growth Factors |
+

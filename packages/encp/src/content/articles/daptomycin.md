@@ -30,3 +30,11 @@ Calcium-dependent insertion into bacterial membranes causes depolarization and c
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Daptomycin |
+| **Category** | Peptide Drugs |
+

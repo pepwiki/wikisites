@@ -28,3 +28,11 @@ FGF21 analogs are in trials for NASH and metabolic disease; FGF23 is key in phos
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Fibroblast Growth Factor Family |
+| **Category** | Peptide Families |
+

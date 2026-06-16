@@ -30,3 +30,11 @@ Sol-gel transition at 37 degrees Celsius enables in situ depot formation for sus
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Thermosensitive Hydrogel |
+| **Category** | Drug Delivery |
+

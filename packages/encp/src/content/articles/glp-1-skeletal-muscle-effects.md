@@ -30,3 +30,11 @@ Indirect effects via insulin and central signaling improve muscle glucose dispos
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Skeletal Muscle Effects |
+| **Category** | Peptide Drugs |
+

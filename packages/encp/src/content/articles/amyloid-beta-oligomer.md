@@ -28,3 +28,11 @@ Amyloid-beta oligomer plays important roles in biological systems and has applic
 ## References
 
 1. Encyclopeptide Database. "amyloid-beta-oligomer" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Amyloid-beta oligomer |
+| **Category** | Structural Biology |
+

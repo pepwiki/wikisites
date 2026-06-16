@@ -28,3 +28,11 @@ Apitope (antigen-processing-independent epitope) peptides presented on MHC-II wi
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | ATX-MS-1467 |
+| **Category** | Peptide Vaccines |
+

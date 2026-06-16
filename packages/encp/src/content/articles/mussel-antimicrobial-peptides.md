@@ -30,3 +30,11 @@ Hemocyte-derived AMPs provide innate immunity in marine bivalve organisms.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Mussel Antimicrobial Peptides |
+| **Category** | Antimicrobial Peptides |
+

@@ -28,3 +28,11 @@ Cytoplasmic proteins degraded by proteasome → peptides transported to ER via T
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide → MHC Class I (Antigen Presentation) |
+| **Category** | Peptide Interactions |
+

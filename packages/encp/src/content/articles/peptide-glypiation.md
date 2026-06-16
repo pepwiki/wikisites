@@ -28,3 +28,11 @@ Peptide glypiation plays important roles in biological systems and has applicati
 ## References
 
 1. Encyclopeptide Database. "peptide-glypiation" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide glypiation |
+| **Category** | Structural Biology |
+

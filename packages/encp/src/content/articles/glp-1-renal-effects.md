@@ -25,3 +25,14 @@ relatedArticles: ['semaglutide', 'liraglutide', 'dulaglutide']
 2. Blood pressure reduction: 2-5 mmHg systolic
 3. Anti-inflammatory effects
 4. Anti-fibrotic effects
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Agonist Renal Effects |
+| **Category** | GLP-1 Family |
+
+## References
+
+1. Encyclopeptide Database. "GLP-1 Agonist Renal Effects" monograph. encyclopeptide.com.

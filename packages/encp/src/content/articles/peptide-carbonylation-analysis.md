@@ -28,3 +28,11 @@ Peptide carbonylation analysis plays important roles in biological systems and h
 ## References
 
 1. Encyclopeptide Database. "peptide-carbonylation-analysis" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide carbonylation analysis |
+| **Category** | Structural Biology |
+

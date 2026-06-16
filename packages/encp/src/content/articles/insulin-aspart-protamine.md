@@ -22,3 +22,10 @@ relatedArticles: ['insulin-aspart', 'insulin-nph', 'insulin-premixed']
 ## Clinical Applications
 
 Component of premixed insulin formulations (NovoMix 30, NovoMix 50). Provides intermediate basal coverage when combined with free aspart for prandial control.
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Insulin Aspart Protamine" monograph. encyclopeptide.com.

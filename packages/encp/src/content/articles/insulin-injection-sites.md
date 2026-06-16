@@ -30,3 +30,11 @@ Abdomen provides fastest absorption, thigh slowest; site rotation prevents lipoh
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Injection Sites |
+| **Category** | Peptide Drugs |
+

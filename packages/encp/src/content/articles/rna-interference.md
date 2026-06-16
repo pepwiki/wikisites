@@ -28,3 +28,11 @@ RNA interference plays important roles in biological systems and has application
 ## References
 
 1. Encyclopeptide Database. "rna-interference" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | RNA interference |
+| **Category** | Structural Biology |
+

@@ -27,3 +27,14 @@ Antimicrobial peptides represent a new class of therapeutics for drug-resistant 
 - **Fusion inhibitors**: Block viral entry
 - **Membrane disruptors**: Kill pathogens directly
 - **Immune modulators**: Enhance host defense
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Infectious Disease Therapeutics |
+| **Category** | Therapeutic Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Infectious Disease Therapeutics" monograph. encyclopeptide.com.

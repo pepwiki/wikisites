@@ -30,3 +30,11 @@ Intrathecal dynorphin causes tactile allodynia through NMDA and bradykinin mecha
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Dynorphin Paradoxical Pain |
+| **Category** | Neuropeptides |
+

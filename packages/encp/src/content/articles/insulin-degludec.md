@@ -30,3 +30,11 @@ Hexadecanedioic acid at B29 enables multi-hexamer chain formation creating solub
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Degludec |
+| **Category** | Peptide Drugs |
+

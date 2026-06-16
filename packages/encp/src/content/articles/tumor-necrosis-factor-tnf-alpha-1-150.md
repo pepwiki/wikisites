@@ -30,3 +30,11 @@ This tnf variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "tumor-necrosis-factor-TNF-alpha-1-150" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Tumor Necrosis Factor TNF-alpha-1-150 |
+| **Category** | Cytokines |
+

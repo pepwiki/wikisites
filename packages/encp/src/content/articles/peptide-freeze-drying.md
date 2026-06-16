@@ -28,3 +28,11 @@ Peptide freeze-drying plays important roles in biological systems and has applic
 ## References
 
 1. Encyclopeptide Database. "peptide-freeze-drying" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide freeze-drying |
+| **Category** | Structural Biology |
+

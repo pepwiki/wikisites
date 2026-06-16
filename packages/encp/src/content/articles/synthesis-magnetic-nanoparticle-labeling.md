@@ -28,3 +28,11 @@ This molecule plays important roles in biological systems and has potential ther
 ## References
 
 1. Encyclopeptide Database. "synthesis-magnetic-nanoparticle-labeling" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Magnetic Nanoparticle Labeling Synthesis |
+| **Category** | Peptide Synthesis Methods |
+

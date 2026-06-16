@@ -30,3 +30,11 @@ Cyclic structure and D-Pen residues prevent enzymatic degradation.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | DPDPE |
+| **Category** | Neuropeptides |
+

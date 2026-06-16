@@ -30,3 +30,11 @@ This amp library has been investigated for its biological activity and therapeut
 ## References
 
 1. Encyclopeptide Database. "antimicrobial-peptide-library-AMP-library-16" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Antimicrobial Peptide Library AMP-library-16 |
+| **Category** | Antimicrobial Peptides |
+

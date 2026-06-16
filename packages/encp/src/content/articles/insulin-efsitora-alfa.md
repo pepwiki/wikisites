@@ -30,3 +30,11 @@ IgG2 Fc fusion utilizes neonatal Fc receptor recycling for once-weekly dosing.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Efsitora Alfa |
+| **Category** | Peptide Drugs |
+

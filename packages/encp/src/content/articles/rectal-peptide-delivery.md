@@ -30,3 +30,11 @@ Rectal absorption partially bypasses hepatic first-pass metabolism.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Rectal Peptide Delivery |
+| **Category** | Drug Delivery |
+

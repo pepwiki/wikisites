@@ -30,3 +30,11 @@ Multiple venom peptides in clinical development for pain, cardiovascular, and me
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Venom Peptide Drug Development |
+| **Category** | Venom Peptides |
+

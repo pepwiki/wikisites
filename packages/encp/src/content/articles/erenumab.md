@@ -30,3 +30,11 @@ CGRP receptor antibody prevents peptide ligand binding reducing migraine frequen
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Erenumab |
+| **Category** | Peptide Drugs |
+

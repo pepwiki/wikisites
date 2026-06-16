@@ -30,3 +30,11 @@ Peptide biomarkers like troponin, BNP, and procalcitonin are now standard in cli
 
 - Source: ENCP Peptide Database
 - Category: Peptide History
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | History of Peptide Diagnostics |
+| **Category** | Peptide History |
+

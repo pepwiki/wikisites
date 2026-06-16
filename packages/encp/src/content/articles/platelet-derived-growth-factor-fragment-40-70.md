@@ -30,3 +30,11 @@ This pdgf analog variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "platelet-derived-growth-factor-fragment-40-70" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Platelet Derived Growth Factor fragment-40-70 |
+| **Category** | Growth Factors |
+

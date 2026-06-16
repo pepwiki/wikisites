@@ -26,3 +26,14 @@ Lipohypertrophy is the most common injection-related complication of insulin the
 - Systematic site rotation at every injection
 - Regular palpation of injection sites
 - Education on proper injection technique
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Injection Site Lipohypertrophy |
+| **Category** | Insulin Family |
+
+## References
+
+1. Encyclopeptide Database. "Insulin Injection Site Lipohypertrophy" monograph. encyclopeptide.com.

@@ -30,3 +30,11 @@ This adrenocorticotropic hormone variant has been studied for its biological act
 ## References
 
 1. Encyclopeptide Database. "ACTH-1-13" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | ACTH 1-13 |
+| **Category** | Peptide Hormones |
+

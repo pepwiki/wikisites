@@ -28,3 +28,11 @@ Peptide oxidation analysis plays important roles in biological systems and has a
 ## References
 
 1. Encyclopeptide Database. "peptide-oxidation-analysis" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide oxidation analysis |
+| **Category** | Structural Biology |
+

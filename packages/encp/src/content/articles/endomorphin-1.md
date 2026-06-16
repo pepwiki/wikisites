@@ -30,3 +30,11 @@ Tetrapeptide with highest mu-opioid receptor selectivity among endogenous opioid
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Endomorphin-1 |
+| **Category** | Neuropeptides |
+

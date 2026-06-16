@@ -28,3 +28,11 @@ NK1 receptor antagonists (aprepitant) are antiemetics used in chemotherapy-induc
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Tachykinin Family Peptides |
+| **Category** | Peptide Families |
+

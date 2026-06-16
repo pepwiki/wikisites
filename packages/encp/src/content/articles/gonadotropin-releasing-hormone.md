@@ -30,3 +30,11 @@ Pulsatile GnRH release controls LH and FSH secretion from anterior pituitary.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Gonadotropin-Releasing Hormone |
+| **Category** | Neuropeptides |
+

@@ -30,3 +30,11 @@ GLP-1 receptor activation reduces neuroinflammation and improves mitochondrial f
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 and Parkinsons |
+| **Category** | Peptide Drugs |
+

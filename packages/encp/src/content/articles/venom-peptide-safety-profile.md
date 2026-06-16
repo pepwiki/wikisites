@@ -30,3 +30,11 @@ Toxicology assessments and therapeutic index optimization for venom-derived drug
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Venom Peptide Safety Profile |
+| **Category** | Venom Peptides |
+

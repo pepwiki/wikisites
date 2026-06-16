@@ -32,3 +32,11 @@ Native Chemical Ligation (NCL) has been studied for its potential applications i
 
 - Source: peptide-manufacturing.md
 - Database: Wikipept Peptide Database
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Native Chemical Ligation (NCL) |
+| **Category** | Peptide Manufacturing |
+

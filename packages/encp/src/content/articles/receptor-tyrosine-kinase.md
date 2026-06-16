@@ -28,3 +28,11 @@ Receptor tyrosine kinase plays important roles in biological systems and has app
 ## References
 
 1. Encyclopeptide Database. "receptor-tyrosine-kinase" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Receptor tyrosine kinase |
+| **Category** | Structural Biology |
+

@@ -30,3 +30,11 @@ Glutathione redox pairs and temperature optimization for correct disulfide pairi
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Conotoxin Folding Protocols |
+| **Category** | Venom Peptides |
+

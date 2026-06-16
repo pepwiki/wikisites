@@ -30,3 +30,11 @@ Abnormal airway surface liquid reduces AMP concentration and activity in CF lung
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Defensin in Cystic Fibrosis |
+| **Category** | Antimicrobial Peptides |
+

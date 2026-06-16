@@ -30,3 +30,11 @@ Diverse neurotoxins targeting brain and spinal cord ion channels.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Spider Toxin CNS Targets |
+| **Category** | Venom Peptides |
+

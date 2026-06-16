@@ -30,3 +30,11 @@ Cyclization, D-amino acid substitution, and PEGylation improving venom peptide p
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Venom Peptide Stability |
+| **Category** | Venom Peptides |
+

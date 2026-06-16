@@ -32,3 +32,11 @@ Mass Spectrometry (MS) has been studied for its potential applications in:
 
 - Source: peptide-manufacturing.md
 - Database: Wikipept Peptide Database
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Mass Spectrometry (MS) |
+| **Category** | Peptide Analysis |
+

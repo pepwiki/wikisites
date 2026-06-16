@@ -30,3 +30,11 @@ GALP and GAP preferentially activate galanin receptor subtypes.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Galpanin Peptides |
+| **Category** | Neuropeptides |
+

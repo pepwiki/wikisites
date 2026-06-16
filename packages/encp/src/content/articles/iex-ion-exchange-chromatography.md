@@ -25,3 +25,11 @@ IEX (Ion Exchange Chromatography) is a bioactive peptide with well-characterized
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | IEX (Ion Exchange Chromatography) |
+| **Category** | Peptide Manufacturing |
+

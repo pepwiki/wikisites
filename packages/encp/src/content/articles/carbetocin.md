@@ -30,3 +30,11 @@ Long-acting oxytocin analog for postpartum hemorrhage prevention with D-Tyr subs
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Carbetocin |
+| **Category** | Peptide Drugs |
+

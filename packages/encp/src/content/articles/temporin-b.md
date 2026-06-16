@@ -30,3 +30,11 @@ Constitutively expressed in frog skin providing baseline antimicrobial defense.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Temporin B |
+| **Category** | Antimicrobial Peptides |
+

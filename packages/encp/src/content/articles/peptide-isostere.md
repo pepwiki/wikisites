@@ -28,3 +28,11 @@ Peptide isostere plays important roles in biological systems and has application
 ## References
 
 1. Encyclopeptide Database. "peptide-isostere" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide isostere |
+| **Category** | Drug Delivery |
+

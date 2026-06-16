@@ -30,3 +30,11 @@ This bdnf analog variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "brain-derived-growth-factor-1-50" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Brain Derived Growth Factor 1-50 |
+| **Category** | Growth Factors |
+

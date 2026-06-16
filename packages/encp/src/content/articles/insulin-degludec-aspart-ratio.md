@@ -21,3 +21,10 @@ relatedArticles: ['insulin-degludec-aspart', 'insulin-degludec', 'insulin-aspart
 ## Clinical Applications
 
 Indicated for type 1 and type 2 diabetes. Provides basal-bolus coverage with fewer injections than separate basal-bolus regimens.
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Insulin Degludec/Aspart 70:30" monograph. encyclopeptide.com.

@@ -25,3 +25,11 @@ Vancomycin - MRSA (NCT00000127) is a bioactive peptide with well-characterized p
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Vancomycin - MRSA (NCT00000127) |
+| **Category** | Peptide Clinical Trials |
+

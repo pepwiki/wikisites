@@ -30,3 +30,11 @@ Hollow channels enable delivery of liquid peptide solutions into dermis.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Hollow Microneedle Peptide |
+| **Category** | Drug Delivery |
+

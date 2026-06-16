@@ -30,3 +30,11 @@ Fmoc and Boc chemistry methods for conotoxin peptide synthesis with disulfide fo
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Alpha-Conotoxin Synthetic |
+| **Category** | Venom Peptides |
+

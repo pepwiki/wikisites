@@ -30,3 +30,11 @@ Enteric coatings, enzyme inhibitors, and nanoparticle encapsulation protecting p
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Stability GI Tract |
+| **Category** | Drug Delivery |
+

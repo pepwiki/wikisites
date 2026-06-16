@@ -30,3 +30,11 @@ Repeated trauma and lipogenic effect of insulin cause local adipose hypertrophy 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Lipohypertrophy |
+| **Category** | Peptide Drugs |
+

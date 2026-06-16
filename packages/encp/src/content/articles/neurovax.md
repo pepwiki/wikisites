@@ -28,3 +28,11 @@ TCR peptide vaccination targets pathogenic T-cell clones bearing specific Vβ TC
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | NeuroVax |
+| **Category** | Peptide Vaccines |
+

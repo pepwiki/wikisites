@@ -30,3 +30,11 @@ Anti-inflammatory, antimicrobial, and anticancer properties of melittin.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Bee Venom Melittin |
+| **Category** | Venom Peptides |
+

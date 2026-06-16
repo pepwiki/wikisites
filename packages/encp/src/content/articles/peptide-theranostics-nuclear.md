@@ -29,3 +29,14 @@ Theranostics combines diagnostic imaging and therapy using the same targeting pe
 3. **Therapy**: Lu-177 DOTATATE (Lutathera)
 4. **Response monitoring**: Follow-up PET/CT
 5. **Treatment adaptation**: Based on response
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Theranostics in Nuclear Medicine |
+| **Category** | Nuclear Medicine |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Theranostics in Nuclear Medicine" monograph. encyclopeptide.com.

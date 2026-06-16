@@ -30,3 +30,11 @@ Slows sodium channel inactivation causing prolonged cardiac action potentials.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Sea Anemone Toxin ATX-II |
+| **Category** | Venom Peptides |
+

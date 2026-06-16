@@ -28,3 +28,11 @@ Nestin intermediate filament plays important roles in biological systems and has
 ## References
 
 1. Encyclopeptide Database. "nestin-intermediate-filament" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Nestin intermediate filament |
+| **Category** | Structural Biology |
+

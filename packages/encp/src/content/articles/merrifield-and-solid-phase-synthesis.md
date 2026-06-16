@@ -32,3 +32,11 @@ SPPS remains the standard method for peptide synthesis, with modern automated sy
 
 - Source: ENCP Peptide Database
 - Category: Peptide History
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Merrifield and Solid-Phase Synthesis |
+| **Category** | Peptide History |
+

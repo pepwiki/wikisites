@@ -30,3 +30,11 @@ Higher dose provides enhanced appetite suppression and satiety signaling.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Liraglutide 3.0mg Obesity |
+| **Category** | Peptide Drugs |
+

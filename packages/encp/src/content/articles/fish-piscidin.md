@@ -30,3 +30,11 @@ Amphipathic alpha-helical peptide disrupts bacterial membranes in aquatic enviro
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Fish Piscidin |
+| **Category** | Antimicrobial Peptides |
+

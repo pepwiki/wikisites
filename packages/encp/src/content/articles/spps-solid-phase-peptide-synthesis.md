@@ -25,3 +25,11 @@ SPPS (Solid Phase Peptide Synthesis) is a bioactive peptide with well-characteri
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | SPPS (Solid Phase Peptide Synthesis) |
+| **Category** | Peptide Manufacturing |
+

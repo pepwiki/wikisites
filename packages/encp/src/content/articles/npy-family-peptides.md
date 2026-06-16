@@ -27,3 +27,11 @@ PYY-based therapeutics are being developed for obesity treatment.
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Neuropeptide Y Family Peptides |
+| **Category** | Peptide Families |
+

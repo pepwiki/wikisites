@@ -30,3 +30,11 @@ Expressed in lateral hypothalamus stimulating food intake and reducing energy ex
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Melanin-Concentrating Hormone |
+| **Category** | Neuropeptides |
+

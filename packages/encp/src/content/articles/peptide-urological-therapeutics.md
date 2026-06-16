@@ -28,3 +28,14 @@ Peptides have several urological applications, from treating overactive bladder 
 - Urinary incontinence
 - Erectile dysfunction
 - Nocturnal enuresis
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Urological Therapeutics |
+| **Category** | Therapeutic Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Urological Therapeutics" monograph. encyclopeptide.com.

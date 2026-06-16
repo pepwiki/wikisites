@@ -31,3 +31,11 @@ Over 80 peptide drugs are now approved worldwide, with the market exceeding $50 
 
 - Source: ENCP Peptide Database
 - Category: Peptide History
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | History of Peptide Therapeutics |
+| **Category** | Peptide History |
+

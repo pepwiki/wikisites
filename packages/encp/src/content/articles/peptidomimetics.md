@@ -28,3 +28,11 @@ Successful peptidomimetics include HIV protease inhibitors (saquinavir), ACE inh
 
 - Source: ENCP Peptide Database
 - Category: Peptide Modifications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptidomimetics |
+| **Category** | Peptide Modifications |
+

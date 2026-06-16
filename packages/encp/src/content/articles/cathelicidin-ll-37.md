@@ -30,3 +30,11 @@ Alpha-helical peptide disrupts bacterial membranes and modulates immune response
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Cathelicidin LL-37 |
+| **Category** | Antimicrobial Peptides |
+

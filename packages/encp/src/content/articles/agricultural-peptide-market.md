@@ -25,3 +25,11 @@ Agricultural Peptide Market is a bioactive peptide with well-characterized prope
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Agricultural Peptide Market |
+| **Category** | Industry & Market |
+

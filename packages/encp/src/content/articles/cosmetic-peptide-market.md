@@ -25,3 +25,11 @@ Cosmetic Peptide Market is a bioactive peptide with well-characterized propertie
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Cosmetic Peptide Market |
+| **Category** | Peptide Future |
+

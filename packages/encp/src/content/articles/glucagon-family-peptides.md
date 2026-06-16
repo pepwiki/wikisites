@@ -28,3 +28,11 @@ GLP-1 receptor agonists are major therapeutics for type 2 diabetes and obesity.
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Glucagon Family Peptides |
+| **Category** | Peptide Families |
+

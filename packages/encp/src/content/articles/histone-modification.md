@@ -28,3 +28,11 @@ Histone modification plays important roles in biological systems and has applica
 ## References
 
 1. Encyclopeptide Database. "histone-modification" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Histone modification |
+| **Category** | Structural Biology |
+

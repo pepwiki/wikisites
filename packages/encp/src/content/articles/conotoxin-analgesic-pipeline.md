@@ -30,3 +30,11 @@ Multiple conotoxin derivatives in clinical trials for chronic pain conditions.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Conotoxin Analgesic Pipeline |
+| **Category** | Venom Peptides |
+

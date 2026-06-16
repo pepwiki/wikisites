@@ -25,3 +25,11 @@ GLP-1 Agonist Market is a bioactive peptide with well-characterized properties a
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Agonist Market |
+| **Category** | Industry & Market |
+

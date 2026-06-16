@@ -28,3 +28,11 @@ Peptide encapsulation plays important roles in biological systems and has applic
 ## References
 
 1. Encyclopeptide Database. "peptide-encapsulation" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide encapsulation |
+| **Category** | Structural Biology |
+

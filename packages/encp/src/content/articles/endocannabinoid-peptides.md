@@ -30,3 +30,11 @@ Anandamide and 2-AG act as retrograde messengers modulating neurotransmitter rel
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Endocannabinoid Peptides |
+| **Category** | Neuropeptides |
+

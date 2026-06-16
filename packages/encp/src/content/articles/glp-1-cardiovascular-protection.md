@@ -31,3 +31,14 @@ relatedArticles: ['semaglutide', 'liraglutide', 'dulaglutide']
 - Improved endothelial function
 - Plaque stabilization
 - Weight loss and improved lipid profiles
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Agonist Cardiovascular Protection |
+| **Category** | GLP-1 Family |
+
+## References
+
+1. Encyclopeptide Database. "GLP-1 Agonist Cardiovascular Protection" monograph. encyclopeptide.com.

@@ -27,3 +27,11 @@ GnRH agonists and antagonists are used in fertility treatments, prostate cancer,
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GnRH Family Peptides |
+| **Category** | Peptide Families |
+

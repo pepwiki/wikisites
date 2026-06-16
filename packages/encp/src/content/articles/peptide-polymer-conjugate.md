@@ -28,3 +28,11 @@ Peptide-polymer conjugate plays important roles in biological systems and has ap
 ## References
 
 1. Encyclopeptide Database. "peptide-polymer-conjugate" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide-polymer conjugate |
+| **Category** | Drug Delivery |
+

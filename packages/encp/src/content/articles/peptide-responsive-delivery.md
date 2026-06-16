@@ -30,3 +30,11 @@ pH, temperature, and enzyme-responsive systems triggering peptide release at tar
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Responsive Delivery |
+| **Category** | Drug Delivery |
+

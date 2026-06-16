@@ -28,3 +28,11 @@ Transcription factor plays important roles in biological systems and has applica
 ## References
 
 1. Encyclopeptide Database. "transcription-factor" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Transcription factor |
+| **Category** | Structural Biology |
+

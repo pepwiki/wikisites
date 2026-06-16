@@ -28,3 +28,11 @@ Nasal delivery system plays important roles in biological systems and has applic
 ## References
 
 1. Encyclopeptide Database. "nasal-delivery-system" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Nasal delivery system |
+| **Category** | Drug Delivery |
+

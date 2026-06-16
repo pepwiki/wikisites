@@ -30,3 +30,11 @@ Fatty acid and small molecule albumin binders extending peptide half-life.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Albumin Binding |
+| **Category** | Drug Delivery |
+

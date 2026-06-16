@@ -30,3 +30,11 @@ Nanoparticle and insert formulations for sustained ocular peptide delivery.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Ocular Peptide Delivery |
+| **Category** | Drug Delivery |
+

@@ -30,3 +30,11 @@ MC4R activation in hypothalamus increases sexual desire through dopaminergic sig
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Bremelanotide |
+| **Category** | Peptide Drugs |
+

@@ -30,3 +30,11 @@ This dynorphin variant has been studied for its biological activity and potentia
 ## References
 
 1. Encyclopeptide Database. "dynorphin-A-1-15" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Dynorphin A-1-15 |
+| **Category** | Neuropeptides |
+

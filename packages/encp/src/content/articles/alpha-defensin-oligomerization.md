@@ -30,3 +30,11 @@ Concentration-dependent oligomerization creates transmembrane pores causing cell
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Alpha-Defensin Oligomerization |
+| **Category** | Antimicrobial Peptides |
+

@@ -31,3 +31,11 @@ Key applications include:
 
 - Database: Wikipept Peptide Database
 - Category: Peptide Analysis
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | SAXS for Peptide Structure |
+| **Category** | Peptide Analysis |
+

@@ -31,3 +31,11 @@ N-glycosylation affects protein folding, stability, cell-cell recognition, and i
 
 - Source: ENCP Peptide Database
 - Category: Peptide Modifications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | N-Glycosylation of Peptides |
+| **Category** | Peptide Modifications |
+

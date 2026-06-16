@@ -30,3 +30,11 @@ Multiple AMP candidates in clinical trials for topical and systemic infection tr
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | AMP Therapeutics Development |
+| **Category** | Antimicrobial Peptides |
+

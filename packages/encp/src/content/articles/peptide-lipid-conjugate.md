@@ -28,3 +28,11 @@ Peptide-lipid conjugate plays important roles in biological systems and has appl
 ## References
 
 1. Encyclopeptide Database. "peptide-lipid-conjugate" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide-lipid conjugate |
+| **Category** | Drug Delivery |
+

@@ -30,3 +30,11 @@ Penetrates fungal cells and targets mitochondrial function causing ATP depletion
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Histatin 5 |
+| **Category** | Antimicrobial Peptides |
+

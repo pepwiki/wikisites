@@ -30,3 +30,11 @@ This endorphin variant has been studied for its biological activity and potentia
 ## References
 
 1. Encyclopeptide Database. "endorphin-alpha-1-16" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Endorphin alpha-1-16 |
+| **Category** | Neuropeptides |
+

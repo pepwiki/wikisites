@@ -30,3 +30,11 @@ Exendin-4 sequence differs from mammalian GLP-1 conferring DPP-4 resistance.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Exenatide |
+| **Category** | Peptide Drugs |
+

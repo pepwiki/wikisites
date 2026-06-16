@@ -28,3 +28,11 @@ Peptide fibril plays important roles in biological systems and has applications 
 ## References
 
 1. Encyclopeptide Database. "peptide-fibril" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide fibril |
+| **Category** | Structural Biology |
+

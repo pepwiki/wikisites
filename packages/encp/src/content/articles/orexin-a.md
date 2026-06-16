@@ -30,3 +30,11 @@ Orexin neurons in lateral hypothalamus stabilize wakefulness through widespread 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Orexin A |
+| **Category** | Neuropeptides |
+

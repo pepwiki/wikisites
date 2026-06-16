@@ -20,3 +20,18 @@ relatedArticles: ['insulin-b-chain', 'insulin-a-chain', 'insulin-analogues']
 ## Clinical Relevance
 
 B-chain engineering underpins all modern insulin analogue development, from rapid-acting prandial insulins to ultra-long basal formulations.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin B-Chain Mutants |
+| **Category** | Insulin Family |
+
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Insulin B-Chain Mutants" monograph. encyclopeptide.com.

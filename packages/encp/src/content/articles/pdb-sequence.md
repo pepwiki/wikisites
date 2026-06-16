@@ -25,3 +25,11 @@ PDB (Sequence) is a bioactive peptide with well-characterized properties and the
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | PDB (Sequence) |
+| **Category** | Peptide Databases |
+

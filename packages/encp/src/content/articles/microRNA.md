@@ -28,3 +28,11 @@ MicroRNA plays important roles in biological systems and has applications in dru
 ## References
 
 1. Encyclopeptide Database. "microRNA" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | MicroRNA |
+| **Category** | Structural Biology |
+

@@ -30,3 +30,11 @@ Microneedle-enhanced patches enabling peptide delivery across stratum corneum.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Transdermal Patch Peptide |
+| **Category** | Drug Delivery |
+

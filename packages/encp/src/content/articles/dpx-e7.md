@@ -28,3 +28,11 @@ DepoVax depot provides sustained E7 peptide release; generates HLA-A2-restricted
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | DPX-E7 |
+| **Category** | Peptide Vaccines |
+

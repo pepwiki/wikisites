@@ -30,3 +30,11 @@ Epithelial defensins provide first-line defense against waterborne pathogens in 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Fish Beta-Defensin |
+| **Category** | Antimicrobial Peptides |
+

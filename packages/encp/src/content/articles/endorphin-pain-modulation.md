@@ -30,3 +30,11 @@ PAG-RVM pathway releases endorphins activating mu-opioid receptors in dorsal hor
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Endorphin Pain Modulation |
+| **Category** | Neuropeptides |
+

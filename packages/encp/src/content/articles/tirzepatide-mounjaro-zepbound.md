@@ -28,3 +28,10 @@ FDA-approved as Mounjaro for type 2 diabetes (2022) and Zepbound for obesity (20
 - **Available doses**: 2.5, 5, 7.5, 10, 12.5, 15 mg
 - **Dosing**: Once weekly subcutaneous
 - **Starting dose**: 2.5 mg for 4 weeks
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Tirzepatide Mounjaro and Zepbound" monograph. encyclopeptide.com.

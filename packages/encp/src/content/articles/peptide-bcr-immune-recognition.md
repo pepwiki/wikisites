@@ -28,3 +28,11 @@ BCR binds native (unprocessed) antigens through surface-exposed epitopes (confor
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide → BCR (Immune Recognition) |
+| **Category** | Peptide Interactions |
+

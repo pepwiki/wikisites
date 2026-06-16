@@ -28,3 +28,11 @@ This molecule plays important roles in biological systems and has potential ther
 ## References
 
 1. Encyclopeptide Database. "microbe-k-pneumoniae-ndm-peptide" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | K Pneumoniae Ndm Peptide |
+| **Category** | Microbial Peptides |
+

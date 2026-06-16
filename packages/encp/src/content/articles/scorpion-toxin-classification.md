@@ -30,3 +30,11 @@ Alpha, beta, and potassium channel toxins classified by structure and target sel
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Scorpion Toxin Classification |
+| **Category** | Venom Peptides |
+

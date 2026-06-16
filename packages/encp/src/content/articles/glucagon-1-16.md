@@ -30,3 +30,11 @@ This glucagon variant has been studied for its biological activity and potential
 ## References
 
 1. Encyclopeptide Database. "glucagon-1-16" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Glucagon 1-16 |
+| **Category** | Metabolic Peptides |
+

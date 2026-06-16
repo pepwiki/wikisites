@@ -20,3 +20,14 @@ The GLP-1 receptor is a class B G-protein coupled receptor belonging to the secr
 2. **C-terminal docking**: C-terminus binds receptor ECD
 3. **N-terminal activation**: N-terminus activates transmembrane domain
 4. **Amphipathic helix**: Hydrophobic face critical for receptor engagement
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Receptor Selectivity and Pharmacology |
+| **Category** | GLP-1 Family |
+
+## References
+
+1. Encyclopeptide Database. "GLP-1 Receptor Selectivity and Pharmacology" monograph. encyclopeptide.com.

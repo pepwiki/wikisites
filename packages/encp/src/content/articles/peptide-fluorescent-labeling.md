@@ -28,3 +28,11 @@ Peptide fluorescent labeling plays important roles in biological systems and has
 ## References
 
 1. Encyclopeptide Database. "peptide-fluorescent-labeling" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide fluorescent labeling |
+| **Category** | Structural Biology |
+

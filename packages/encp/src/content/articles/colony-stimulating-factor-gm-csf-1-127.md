@@ -30,3 +30,11 @@ This csf variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "colony-stimulating-factor-GM-CSF-1-127" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Colony Stimulating Factor GM-CSF-1-127 |
+| **Category** | Cytokines |
+

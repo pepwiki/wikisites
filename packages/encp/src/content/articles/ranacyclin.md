@@ -30,3 +30,11 @@ Cyclic structure provides enhanced stability and protease resistance.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Ranacyclin |
+| **Category** | Antimicrobial Peptides |
+

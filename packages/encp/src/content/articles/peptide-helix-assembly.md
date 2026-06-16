@@ -28,3 +28,11 @@ Peptide helix assembly plays important roles in biological systems and has appli
 ## References
 
 1. Encyclopeptide Database. "peptide-helix-assembly" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide helix assembly |
+| **Category** | Structural Biology |
+

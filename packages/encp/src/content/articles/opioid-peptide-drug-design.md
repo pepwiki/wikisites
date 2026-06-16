@@ -30,3 +30,11 @@ Computational and experimental approaches to designing improved opioid peptide t
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Peptide Drug Design |
+| **Category** | Neuropeptides |
+

@@ -30,3 +30,11 @@ Co-formulation showed non-inferior HbA1c reduction with significantly less hypog
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | DUAL I Trial |
+| **Category** | Peptide Drugs |
+

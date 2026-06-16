@@ -30,3 +30,11 @@ Reduced AMP expression in chronic wounds contributes to persistent infection and
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Defensin in Chronic Wounds |
+| **Category** | Antimicrobial Peptides |
+

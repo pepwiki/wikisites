@@ -30,3 +30,11 @@ Chemical degradation rather than hepatic metabolism provides predictable pharmac
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Anidulafungin |
+| **Category** | Peptide Drugs |
+

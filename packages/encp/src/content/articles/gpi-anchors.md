@@ -25,3 +25,11 @@ GPI-anchored proteins include CD59, alkaline phosphatase, and prion protein. GPI
 
 - Source: ENCP Peptide Database
 - Category: Peptide Modifications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GPI Anchors on Peptides |
+| **Category** | Peptide Modifications |
+

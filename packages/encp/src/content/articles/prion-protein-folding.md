@@ -28,3 +28,11 @@ Prion protein folding plays important roles in biological systems and has applic
 ## References
 
 1. Encyclopeptide Database. "prion-protein-folding" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Prion protein folding |
+| **Category** | Structural Biology |
+

@@ -30,3 +30,11 @@ CGRP receptor requires CLR and RAMP1 heterodimerization for ligand binding and s
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | CGRP Receptor Pharmacology |
+| **Category** | Peptide Drugs |
+

@@ -28,3 +28,11 @@ Phosphorothioate RNA plays important roles in biological systems and has applica
 ## References
 
 1. Encyclopeptide Database. "phosphorothioate-rna" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Phosphorothioate RNA |
+| **Category** | Structural Biology |
+

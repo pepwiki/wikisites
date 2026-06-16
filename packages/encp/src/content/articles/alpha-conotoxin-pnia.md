@@ -30,3 +30,11 @@ Selectively blocks alpha7 and alpha3beta2 nicotinic receptors in CNS pain pathwa
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Alpha-Conotoxin PnIA |
+| **Category** | Venom Peptides |
+

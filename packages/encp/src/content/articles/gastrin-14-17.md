@@ -30,3 +30,11 @@ This gastrin variant has been studied for its biological activity and potential 
 ## References
 
 1. Encyclopeptide Database. "gastrin-14-17" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Gastrin 14-17 |
+| **Category** | Peptide Hormones |
+

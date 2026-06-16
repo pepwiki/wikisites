@@ -28,3 +28,11 @@ ACTH deficiency causes secondary adrenal insufficiency; excess causes Cushing di
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | ACTH Family Peptides |
+| **Category** | Peptide Families |
+

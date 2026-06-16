@@ -30,3 +30,11 @@ Spider peptides selectively targeting different calcium channel subtypes.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Spider Toxin Ca2+ Channel Modulators |
+| **Category** | Venom Peptides |
+

@@ -25,3 +25,11 @@ relatedArticles: []
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | δ-Conotoxin SVIA |
+| **Category** | Toxin Peptides |
+

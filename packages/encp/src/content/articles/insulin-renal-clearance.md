@@ -30,3 +30,11 @@ Reduced renal clearance prolongs insulin action requiring dose reduction in CKD.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Renal Clearance |
+| **Category** | Peptide Drugs |
+

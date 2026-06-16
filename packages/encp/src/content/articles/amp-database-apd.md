@@ -30,3 +30,11 @@ Curated database providing AMP sequences, structural data, and biological activi
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | AMP Database APD |
+| **Category** | Antimicrobial Peptides |
+

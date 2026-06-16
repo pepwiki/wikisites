@@ -30,3 +30,11 @@ Blockade of tetrodotoxin-resistant sodium channels in pain-sensing neurons.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Mu-Conotoxin MrVIB |
+| **Category** | Venom Peptides |
+

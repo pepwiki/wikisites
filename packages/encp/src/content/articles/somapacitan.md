@@ -30,3 +30,11 @@ Albumin-binding prodrug technology enables once-weekly GH dosing.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Somapacitan |
+| **Category** | Peptide Drugs |
+

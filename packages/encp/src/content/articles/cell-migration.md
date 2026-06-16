@@ -28,3 +28,11 @@ Cell migration plays important roles in biological systems and has applications 
 ## References
 
 1. Encyclopeptide Database. "cell-migration" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Cell migration |
+| **Category** | Structural Biology |
+

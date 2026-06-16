@@ -32,3 +32,14 @@ Comparability studies demonstrate that changes in manufacturing do not adversely
 - PK/PD studies
 - Clinical efficacy comparison
 - Immunogenicity assessment
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Drug Comparability Studies |
+| **Category** | Quality Assurance |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Drug Comparability Studies" monograph. encyclopeptide.com.

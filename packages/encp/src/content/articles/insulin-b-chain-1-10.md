@@ -30,3 +30,11 @@ This insulin variant has been studied for its biological activity and potential 
 ## References
 
 1. Encyclopeptide Database. "insulin-B-chain-1-10" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin B-chain-1-10 |
+| **Category** | Metabolic Peptides |
+

@@ -30,3 +30,11 @@ Hypothalamic and pituitary beta-endorphin mediate stress analgesia and reward.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Beta-Endorphin Central |
+| **Category** | Neuropeptides |
+

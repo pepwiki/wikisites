@@ -28,3 +28,11 @@ Peptide vesicle assembly plays important roles in biological systems and has app
 ## References
 
 1. Encyclopeptide Database. "peptide-vesicle-assembly" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide vesicle assembly |
+| **Category** | Structural Biology |
+

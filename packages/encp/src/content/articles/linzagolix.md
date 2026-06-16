@@ -30,3 +30,11 @@ Selective estrogen suppression reduces fibroid symptoms while preserving bone de
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Linzagolix |
+| **Category** | Peptide Drugs |
+

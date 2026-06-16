@@ -30,3 +30,11 @@ This fgf analog variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "fibroblast-growth-factor-fragment-100-155" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Fibroblast Growth Factor fragment-100-155 |
+| **Category** | Growth Factors |
+

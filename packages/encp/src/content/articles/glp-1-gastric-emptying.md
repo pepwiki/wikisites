@@ -21,3 +21,18 @@ relatedArticles: ['glp-1', 'semaglutide', 'exenatide']
 ## Tolerance and Adaptation
 
 Partial tolerance to gastric emptying effects develops over 2-4 weeks, while appetite suppression and glycemic effects persist. This explains why nausea typically improves after initial weeks.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Agonist Gastric Emptying Effects |
+| **Category** | GLP-1 Family |
+
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "GLP-1 Agonist Gastric Emptying Effects" monograph. encyclopeptide.com.

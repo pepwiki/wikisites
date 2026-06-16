@@ -25,3 +25,11 @@ Milestone 018 is a bioactive peptide with well-characterized properties and ther
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Milestone 018 |
+| **Category** | Peptide History |
+

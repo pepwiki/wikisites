@@ -30,3 +30,11 @@ Short cationic peptides from spider venom disrupting microbial membranes.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Spider Venom AMPs |
+| **Category** | Venom Peptides |
+

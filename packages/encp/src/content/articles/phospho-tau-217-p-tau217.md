@@ -25,3 +25,11 @@ Phospho-tau 217 (p-tau217) is a bioactive peptide with well-characterized proper
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Phospho-tau 217 (p-tau217) |
+| **Category** | Biomarkers Expanded |
+

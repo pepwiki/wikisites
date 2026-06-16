@@ -30,3 +30,11 @@ PEG coating reduces opsonization extending liposome circulation for enhanced tar
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | PEGylated Liposome Peptide |
+| **Category** | Drug Delivery |
+

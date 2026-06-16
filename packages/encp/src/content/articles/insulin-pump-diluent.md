@@ -30,3 +30,11 @@ Sterile diluent maintains insulin stability and enables dose precision in pump s
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Pump Diluent |
+| **Category** | Peptide Drugs |
+

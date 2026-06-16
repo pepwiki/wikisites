@@ -28,3 +28,11 @@ DPP-4 cleaves N-terminal Tyr1-Pro2 dipeptide from PYY (1-36), producing PYY (3-3
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | PYY → DPP-4 (Substrate) |
+| **Category** | Peptide Interactions |
+

@@ -28,3 +28,11 @@ Peptide turn assembly plays important roles in biological systems and has applic
 ## References
 
 1. Encyclopeptide Database. "peptide-turn-assembly" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide turn assembly |
+| **Category** | Structural Biology |
+

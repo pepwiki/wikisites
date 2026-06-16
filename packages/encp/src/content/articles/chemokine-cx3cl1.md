@@ -30,3 +30,11 @@ This chemokine variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "chemokine-CX3CL1" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Chemokine CX3CL1 |
+| **Category** | Cytokines |
+

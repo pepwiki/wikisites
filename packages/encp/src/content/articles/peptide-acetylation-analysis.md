@@ -28,3 +28,11 @@ Peptide acetylation analysis plays important roles in biological systems and has
 ## References
 
 1. Encyclopeptide Database. "peptide-acetylation-analysis" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide acetylation analysis |
+| **Category** | Structural Biology |
+

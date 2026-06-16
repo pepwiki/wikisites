@@ -30,3 +30,11 @@ This checkpoint inhibitor has been investigated for its biological activity and 
 ## References
 
 1. Encyclopeptide Database. "checkpoint-inhibitor-TIGIT-CD155" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Checkpoint Inhibitor TIGIT-CD155 |
+| **Category** | Cancer Immunotherapy |
+

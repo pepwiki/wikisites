@@ -30,3 +30,11 @@ Binds CXCR4 co-receptor preventing HIV entry while showing antimicrobial activit
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Polyphemusin |
+| **Category** | Antimicrobial Peptides |
+

@@ -30,3 +30,11 @@ Cyclic peptide with inhibitory effects on GH, TSH, insulin, glucagon, and GI sec
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Somatostatin Central |
+| **Category** | Neuropeptides |
+

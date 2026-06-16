@@ -28,3 +28,11 @@ This molecule plays important roles in biological systems and has potential ther
 ## References
 
 1. Encyclopeptide Database. "vaccine-sars-cov-2-s1" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | SARS CoV 2 S1 Vaccine |
+| **Category** | Peptide Vaccines |
+

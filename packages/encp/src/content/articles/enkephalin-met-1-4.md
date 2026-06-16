@@ -30,3 +30,11 @@ This enkephalin variant has been studied for its biological activity and potenti
 ## References
 
 1. Encyclopeptide Database. "enkephalin-met-1-4" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Enkephalin met-1-4 |
+| **Category** | Neuropeptides |
+

@@ -30,3 +30,11 @@ Crosslinked hydrogel networks provide controlled diffusion-based peptide release
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Hydrogel Peptide Delivery |
+| **Category** | Drug Delivery |
+

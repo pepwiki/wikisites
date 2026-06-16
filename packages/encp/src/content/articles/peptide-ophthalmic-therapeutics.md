@@ -28,3 +28,14 @@ Peptides have emerging roles in ophthalmology, from treating glaucoma to managin
 - Topical delivery
 - Retinal penetration
 - Stability in eye drops
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Ophthalmic Therapeutics |
+| **Category** | Therapeutic Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Ophthalmic Therapeutics" monograph. encyclopeptide.com.

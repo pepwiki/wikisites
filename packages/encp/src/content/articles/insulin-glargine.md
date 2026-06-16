@@ -30,3 +30,11 @@ Gly-A21, Gly-B31-B32 modification causes isoelectric precipitation at physiologi
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Glargine |
+| **Category** | Peptide Drugs |
+

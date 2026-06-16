@@ -30,3 +30,11 @@ This pdgf analog variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "platelet-derived-growth-factor-AA-1-106" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Platelet Derived Growth Factor AA-1-106 |
+| **Category** | Growth Factors |
+

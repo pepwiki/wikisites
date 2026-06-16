@@ -25,3 +25,11 @@ Octreotide - Acromegaly (NCT00000124) is a bioactive peptide with well-character
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Octreotide - Acromegaly (NCT00000124) |
+| **Category** | Peptide Clinical Trials |
+

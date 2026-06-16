@@ -31,3 +31,11 @@ Key applications include:
 
 - Database: Wikipept Peptide Database
 - Category: Peptide Therapeutics
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Autoimmune Diseases and Peptides |
+| **Category** | Peptide Therapeutics |
+

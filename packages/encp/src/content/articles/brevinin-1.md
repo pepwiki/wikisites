@@ -30,3 +30,11 @@ Intramolecular disulfide bond stabilizes bioactive conformation essential for me
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Brevinin-1 |
+| **Category** | Antimicrobial Peptides |
+

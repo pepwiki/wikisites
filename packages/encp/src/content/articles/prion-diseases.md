@@ -25,3 +25,11 @@ Prion Diseases is a bioactive peptide with well-characterized properties and the
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Prion Diseases |
+| **Category** | Peptide Diseases |
+

@@ -28,3 +28,11 @@ Peptide PEG conjugation plays important roles in biological systems and has appl
 ## References
 
 1. Encyclopeptide Database. "peptide-peg-conjugation" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide PEG conjugation |
+| **Category** | Structural Biology |
+

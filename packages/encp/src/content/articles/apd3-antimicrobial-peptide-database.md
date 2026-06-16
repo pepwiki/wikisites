@@ -25,3 +25,11 @@ APD3 (Antimicrobial Peptide Database) is a bioactive peptide with well-character
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | APD3 (Antimicrobial Peptide Database) |
+| **Category** | Peptide Databases |
+

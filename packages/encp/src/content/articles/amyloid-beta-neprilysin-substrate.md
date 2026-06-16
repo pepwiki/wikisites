@@ -28,3 +28,11 @@ Neprilysin (Zn2+ metalloprotease) cleaves Aβ at multiple sites including His14-
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Amyloid-beta → Neprilysin (Substrate) |
+| **Category** | Peptide Interactions |
+

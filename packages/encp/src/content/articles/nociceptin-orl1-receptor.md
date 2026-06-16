@@ -30,3 +30,11 @@ ORL1 couples through Gi reducing cAMP and activating potassium channels.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Nociceptin ORL1 Receptor |
+| **Category** | Neuropeptides |
+

@@ -30,3 +30,11 @@ Cyclosporin-FKBP complex inhibits calcineurin blocking T-cell activation gene tr
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Cyclosporine |
+| **Category** | Peptide Drugs |
+

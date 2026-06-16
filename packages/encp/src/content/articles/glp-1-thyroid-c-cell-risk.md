@@ -30,3 +30,11 @@ Rodent C-cell tumors mediated by species-specific GLP-1 receptor expression patt
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Thyroid C-Cell Risk |
+| **Category** | Peptide Drugs |
+

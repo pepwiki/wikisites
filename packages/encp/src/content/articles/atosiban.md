@@ -30,3 +30,11 @@ Mpa and Orn8 modifications create competitive antagonist blocking oxytocin recep
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Atosiban |
+| **Category** | Peptide Drugs |
+

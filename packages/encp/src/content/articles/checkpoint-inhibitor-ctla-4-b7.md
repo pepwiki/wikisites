@@ -30,3 +30,11 @@ This checkpoint inhibitor has been investigated for its biological activity and 
 ## References
 
 1. Encyclopeptide Database. "checkpoint-inhibitor-CTLA-4-B7" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Checkpoint Inhibitor CTLA-4-B7 |
+| **Category** | Cancer Immunotherapy |
+

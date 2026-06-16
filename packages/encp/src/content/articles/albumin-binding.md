@@ -28,3 +28,11 @@ Albumin binding plays important roles in biological systems and has applications
 ## References
 
 1. Encyclopeptide Database. "albumin-binding" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Albumin binding |
+| **Category** | Drug Delivery |
+

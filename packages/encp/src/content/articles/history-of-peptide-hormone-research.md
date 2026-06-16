@@ -31,3 +31,11 @@ Peptide hormones form the basis of modern endocrinology, with therapeutic applic
 
 - Source: ENCP Peptide Database
 - Category: Peptide History
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | History of Peptide Hormone Research |
+| **Category** | Peptide History |
+

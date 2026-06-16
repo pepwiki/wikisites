@@ -30,3 +30,11 @@ Phosphatidylserine exposure and other cancer cell markers targeted by wasp pepti
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Wasp Venom Cancer Targets |
+| **Category** | Venom Peptides |
+

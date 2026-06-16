@@ -30,3 +30,11 @@ Spider toxins provide subtype-selective tools for ion channel pharmacology resea
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Spider Toxin Ion Channel Studies |
+| **Category** | Venom Peptides |
+

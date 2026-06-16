@@ -28,3 +28,11 @@ Biotin binds in streptavidin β-barrel central cavity through extensive hydrogen
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Biotin-Streptavidin |
+| **Category** | Peptide Interactions |
+

@@ -30,3 +30,11 @@ CGRP ligand binding antibody prevents receptor activation reducing migraine atta
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Galcanezumab |
+| **Category** | Peptide Drugs |
+

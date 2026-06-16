@@ -30,3 +30,11 @@ Multiple mechanisms including receptor phosphorylation, internalization, and dow
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Tolerance Mechanisms |
+| **Category** | Neuropeptides |
+

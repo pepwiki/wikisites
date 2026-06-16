@@ -28,3 +28,11 @@ Depot injection plays important roles in biological systems and has applications
 ## References
 
 1. Encyclopeptide Database. "depot-injection" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Depot injection |
+| **Category** | Drug Delivery |
+

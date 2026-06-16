@@ -28,3 +28,11 @@ Oral delivery system plays important roles in biological systems and has applica
 ## References
 
 1. Encyclopeptide Database. "oral-delivery-system" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Oral delivery system |
+| **Category** | Drug Delivery |
+

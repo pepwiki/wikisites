@@ -25,3 +25,11 @@ GLP-1 Receptor Agonists is a bioactive peptide with well-characterized propertie
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Receptor Agonists |
+| **Category** | Peptide Patents |
+

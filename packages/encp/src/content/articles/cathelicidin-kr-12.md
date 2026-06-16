@@ -30,3 +30,11 @@ Truncated 12-amino acid fragment retains antimicrobial activity with improved sa
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Cathelicidin KR-12 |
+| **Category** | Antimicrobial Peptides |
+

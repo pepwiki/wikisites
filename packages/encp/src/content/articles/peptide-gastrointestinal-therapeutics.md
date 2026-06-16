@@ -28,3 +28,14 @@ Peptides targeting the GI tract include both luminal and systemic agents for inf
 - Inflammatory bowel disease
 - Short bowel syndrome
 - Chronic constipation
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Gastrointestinal Therapeutics |
+| **Category** | Therapeutic Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Gastrointestinal Therapeutics" monograph. encyclopeptide.com.

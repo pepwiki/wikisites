@@ -25,3 +25,11 @@ JSTX (Joro Spider Toxin) is a bioactive peptide with well-characterized properti
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | JSTX (Joro Spider Toxin) |
+| **Category** | Toxin Peptides |
+

@@ -30,3 +30,11 @@ C5a mediates chemotaxis while C5a fragments show direct bactericidal activity.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Complement C5a Antimicrobial |
+| **Category** | Antimicrobial Peptides |
+

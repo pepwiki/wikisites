@@ -30,3 +30,11 @@ Promoter elements respond to NF-kB and AP-1 transcription factors activated by i
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Defensin Gene Regulation |
+| **Category** | Antimicrobial Peptides |
+

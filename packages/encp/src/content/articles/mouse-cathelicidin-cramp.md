@@ -30,3 +30,11 @@ Functionally analogous to human LL-37 with broad-spectrum antimicrobial activity
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Mouse Cathelicidin CRAMP |
+| **Category** | Antimicrobial Peptides |
+

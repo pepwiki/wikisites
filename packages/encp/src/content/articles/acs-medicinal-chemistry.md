@@ -25,3 +25,11 @@ ACS Medicinal Chemistry is a bioactive peptide with well-characterized propertie
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | ACS Medicinal Chemistry |
+| **Category** | Peptide Resources |
+

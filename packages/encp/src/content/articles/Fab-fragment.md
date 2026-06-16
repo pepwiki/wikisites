@@ -28,3 +28,11 @@ Fab fragment plays important roles in biological systems and has applications in
 ## References
 
 1. Encyclopeptide Database. "Fab-fragment" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Fab fragment |
+| **Category** | Drug Delivery |
+

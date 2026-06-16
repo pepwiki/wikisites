@@ -25,3 +25,11 @@ CSTX-1 is a bioactive peptide with well-characterized properties and therapeutic
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | CSTX-1 |
+| **Category** | Venom Peptides |
+

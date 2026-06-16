@@ -30,3 +30,11 @@ Last-resort antibiotic for carbapenem-resistant gram-negative bacterial infectio
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Colistin |
+| **Category** | Peptide Drugs |
+

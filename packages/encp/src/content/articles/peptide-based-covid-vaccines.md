@@ -28,3 +28,11 @@ Multi-peptide vaccines targeting conserved T-cell epitopes across SARS-CoV-2 var
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide-Based COVID Vaccines |
+| **Category** | Peptide Vaccines |
+

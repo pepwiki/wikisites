@@ -30,3 +30,11 @@ GnRH pulses drive LH/FSH release; kisspeptin neurons gate reproductive axis acti
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Reproductive Neuropeptides |
+| **Category** | Neuropeptides |
+

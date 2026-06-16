@@ -30,3 +30,11 @@ Monthly microsphere formulation provides sustained broad somatostatin receptor a
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Pasireotide LAR |
+| **Category** | Peptide Drugs |
+

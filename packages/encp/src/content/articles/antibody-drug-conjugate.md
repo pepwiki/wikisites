@@ -28,3 +28,11 @@ Antibody-drug conjugate plays important roles in biological systems and has appl
 ## References
 
 1. Encyclopeptide Database. "antibody-drug-conjugate" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Antibody-drug conjugate |
+| **Category** | Drug Delivery |
+

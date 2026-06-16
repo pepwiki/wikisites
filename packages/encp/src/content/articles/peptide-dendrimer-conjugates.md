@@ -30,3 +30,11 @@ Branching polymer scaffolds presenting multiple peptide copies for enhanced avid
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Dendrimer Conjugates |
+| **Category** | Drug Delivery |
+

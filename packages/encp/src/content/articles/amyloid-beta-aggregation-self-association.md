@@ -28,3 +28,11 @@ Aβ monomers undergo conformational change exposing hydrophobic core (residues 1
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Amyloid-beta Aggregation (Self-association) |
+| **Category** | Peptide Interactions |
+

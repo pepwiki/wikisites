@@ -25,3 +25,11 @@ Peptide Chemistry and Drug Design is a bioactive peptide with well-characterized
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Chemistry and Drug Design |
+| **Category** | Peptide Resources |
+

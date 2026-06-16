@@ -28,3 +28,11 @@ Peptide hydrolysis plays important roles in biological systems and has applicati
 ## References
 
 1. Encyclopeptide Database. "peptide-hydrolysis" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide hydrolysis |
+| **Category** | Structural Biology |
+

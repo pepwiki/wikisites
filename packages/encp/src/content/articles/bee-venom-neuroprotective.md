@@ -30,3 +30,11 @@ Melittin and apamin showing neuroprotective effects in Parkinson and Alzheimer m
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Bee Venom Neuroprotective |
+| **Category** | Venom Peptides |
+

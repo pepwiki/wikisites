@@ -25,3 +25,11 @@ Palmitoylation regulates Ras signaling, receptor trafficking, and synaptic prote
 
 - Source: ENCP Peptide Database
 - Category: Peptide Modifications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Palmitoylation Sites |
+| **Category** | Peptide Modifications |
+

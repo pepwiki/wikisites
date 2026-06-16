@@ -30,3 +30,11 @@ Greater potency and longer duration than fentanyl due to receptor binding kineti
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Lofentanil Long-Acting |
+| **Category** | Neuropeptides |
+

@@ -27,3 +27,14 @@ All insulin products can elicit anti-drug antibodies, though modern recombinant 
 - **Insulin resistance**: High-titer ADAs can neutralize insulin action
 - **Allergic reactions**: Local or systemic hypersensitivity
 - **Lipodystrophy**: Immune-mediated injection site reactions
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Analogue Immunogenicity |
+| **Category** | Insulin Family |
+
+## References
+
+1. Encyclopeptide Database. "Insulin Analogue Immunogenicity" monograph. encyclopeptide.com.

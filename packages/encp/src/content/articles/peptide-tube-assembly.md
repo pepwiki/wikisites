@@ -28,3 +28,11 @@ Peptide tube assembly plays important roles in biological systems and has applic
 ## References
 
 1. Encyclopeptide Database. "peptide-tube-assembly" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide tube assembly |
+| **Category** | Structural Biology |
+

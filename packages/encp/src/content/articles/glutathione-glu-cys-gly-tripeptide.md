@@ -25,3 +25,11 @@ Glutathione (γ-Glu-Cys-Gly Tripeptide) is a bioactive peptide with well-charact
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Glutathione (γ-Glu-Cys-Gly Tripeptide) |
+| **Category** | Peptide Interactions |
+

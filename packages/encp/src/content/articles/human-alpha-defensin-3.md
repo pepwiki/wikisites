@@ -30,3 +30,11 @@ Most cationic human defensin with highest membrane disrupting potency against ba
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Human Alpha-Defensin 3 |
+| **Category** | Antimicrobial Peptides |
+

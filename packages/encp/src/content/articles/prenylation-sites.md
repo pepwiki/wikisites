@@ -26,3 +26,11 @@ Prenylation is essential for Ras, Rho, and Rab GTPase membrane localization and 
 
 - Source: ENCP Peptide Database
 - Category: Peptide Modifications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Prenylation Sites |
+| **Category** | Peptide Modifications |
+

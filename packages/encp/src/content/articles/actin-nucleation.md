@@ -28,3 +28,11 @@ Actin nucleation plays important roles in biological systems and has application
 ## References
 
 1. Encyclopeptide Database. "actin-nucleation" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Actin nucleation |
+| **Category** | Structural Biology |
+

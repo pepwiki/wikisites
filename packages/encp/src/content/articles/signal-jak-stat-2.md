@@ -28,3 +28,11 @@ This molecule plays important roles in biological systems and has potential ther
 ## References
 
 1. Encyclopeptide Database. "signal-jak-stat-2" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | JAK-STAT Pathway Peptide 2 |
+| **Category** | Signal Transduction Peptides |
+

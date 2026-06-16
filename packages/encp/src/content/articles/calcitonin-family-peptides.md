@@ -28,3 +28,11 @@ CGRP antibodies are breakthrough migraine therapies; amylin analogs treat diabet
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Calcitonin Family Peptides |
+| **Category** | Peptide Families |
+

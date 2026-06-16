@@ -25,3 +25,11 @@ Applied Photophysics Chirascan is a bioactive peptide with well-characterized pr
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Applied Photophysics Chirascan |
+| **Category** | Peptide Research Tools |
+

@@ -30,3 +30,11 @@ Glycine-rich peptide targets gram-negative bacteria through peptidoglycan intera
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Diptericin |
+| **Category** | Antimicrobial Peptides |
+

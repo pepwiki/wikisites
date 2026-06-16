@@ -25,3 +25,11 @@ Liraglutide - SCALE (NCT01272219) is a bioactive peptide with well-characterized
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Liraglutide - SCALE (NCT01272219) |
+| **Category** | Peptide Clinical Trials |
+

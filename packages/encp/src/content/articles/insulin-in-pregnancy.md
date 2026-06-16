@@ -30,3 +30,11 @@ Physiologic changes in pregnancy alter insulin pharmacokinetics requiring dose a
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin in Pregnancy |
+| **Category** | Peptide Drugs |
+

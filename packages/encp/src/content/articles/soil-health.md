@@ -25,3 +25,11 @@ Soil Health is a bioactive peptide with well-characterized properties and therap
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Soil Health |
+| **Category** | Peptide Applications |
+

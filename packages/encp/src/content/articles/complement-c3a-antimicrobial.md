@@ -30,3 +30,11 @@ C-terminal domain of C3a inserts into bacterial membranes causing lysis.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Complement C3a Antimicrobial |
+| **Category** | Antimicrobial Peptides |
+

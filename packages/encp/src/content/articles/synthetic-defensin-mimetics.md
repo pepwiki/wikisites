@@ -30,3 +30,11 @@ Computational design enables creation of synthetic AMPs with improved pharmacolo
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Synthetic Defensin Mimetics |
+| **Category** | Antimicrobial Peptides |
+

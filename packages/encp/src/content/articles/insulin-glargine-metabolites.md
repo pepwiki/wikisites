@@ -30,3 +30,11 @@ M1 (21A-Gly-insulin) is primary active metabolite responsible for pharmacologic 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Glargine Metabolites |
+| **Category** | Peptide Drugs |
+

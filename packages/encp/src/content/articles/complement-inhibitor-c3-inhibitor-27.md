@@ -30,3 +30,11 @@ This complement inhibitor has been investigated for its biological activity and 
 ## References
 
 1. Encyclopeptide Database. "complement-inhibitor-C3-inhibitor-27" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Complement Inhibitor C3-inhibitor-27 |
+| **Category** | Immune Modulators |
+

@@ -32,3 +32,11 @@ Peptide anti-inflammatories offer specificity advantages over broad-spectrum imm
 
 - Source: ENCP Peptide Database
 - Category: Peptide Applications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Anti-Inflammatory Agents |
+| **Category** | Peptide Applications |
+

@@ -30,3 +30,11 @@ Aprotinin and other inhibitors reduce peptidase activity in intestinal lumen.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Protease Inhibitor Delivery |
+| **Category** | Drug Delivery |
+

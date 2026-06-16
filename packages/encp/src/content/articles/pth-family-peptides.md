@@ -27,3 +27,11 @@ PTH analogs are used therapeutically for osteoporosis treatment.
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Parathyroid Hormone Family Peptides |
+| **Category** | Peptide Families |
+

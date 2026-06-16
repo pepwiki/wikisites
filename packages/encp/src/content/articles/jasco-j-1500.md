@@ -25,3 +25,11 @@ JASCO J-1500 is a bioactive peptide with well-characterized properties and thera
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | JASCO J-1500 |
+| **Category** | Peptide Research Tools |
+

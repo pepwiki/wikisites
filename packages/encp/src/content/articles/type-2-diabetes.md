@@ -25,3 +25,11 @@ Type 2 Diabetes is a bioactive peptide with well-characterized properties and th
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Type 2 Diabetes |
+| **Category** | Peptide Diseases |
+

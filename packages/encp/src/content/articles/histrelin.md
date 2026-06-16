@@ -30,3 +30,11 @@ Non-biodegradable implant provides continuous drug release for 12 months.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Histrelin |
+| **Category** | Peptide Drugs |
+

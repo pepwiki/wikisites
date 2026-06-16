@@ -30,3 +30,11 @@ This igf analog variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "insulin-like-growth-factor-des-1-6" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Like Growth Factor des-1-6 |
+| **Category** | Growth Factors |
+

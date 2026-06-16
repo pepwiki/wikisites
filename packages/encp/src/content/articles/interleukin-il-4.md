@@ -30,3 +30,11 @@ This interleukin variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "interleukin-IL-4" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Interleukin IL-4 |
+| **Category** | Cytokines |
+

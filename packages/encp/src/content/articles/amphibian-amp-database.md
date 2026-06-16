@@ -30,3 +30,11 @@ Curated collection of frog and toad skin secretion peptides with activity data.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Amphibian AMP Database |
+| **Category** | Antimicrobial Peptides |
+

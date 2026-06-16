@@ -30,3 +30,11 @@ This car-t target has been investigated for its biological activity and therapeu
 ## References
 
 1. Encyclopeptide Database. "car-t-target-Claudin18.2" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Car T Target Claudin18.2 |
+| **Category** | Cancer Immunotherapy |
+

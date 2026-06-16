@@ -30,3 +30,11 @@ Enkephalinergic interneurons inhibit substance P release from primary afferents.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Enkephalin Spinal Analgesia |
+| **Category** | Neuropeptides |
+

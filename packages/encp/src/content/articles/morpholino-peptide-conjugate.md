@@ -28,3 +28,11 @@ Morpholino-peptide conjugate plays important roles in biological systems and has
 ## References
 
 1. Encyclopeptide Database. "morpholino-peptide-conjugate" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Morpholino-peptide conjugate |
+| **Category** | Structural Biology |
+

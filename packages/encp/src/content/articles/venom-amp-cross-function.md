@@ -30,3 +30,11 @@ Many venom peptides show antimicrobial activity as secondary function.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Venom AMP Cross-Function |
+| **Category** | Antimicrobial Peptides |
+

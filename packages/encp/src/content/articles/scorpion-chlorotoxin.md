@@ -30,3 +30,11 @@ Chlorotoxin binds MMP-2 and annexin A2 on glioma cells enabling tumor imaging an
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Scorpion Chlorotoxin |
+| **Category** | Venom Peptides |
+

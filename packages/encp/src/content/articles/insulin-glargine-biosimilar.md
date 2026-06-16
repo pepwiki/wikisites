@@ -30,3 +30,11 @@ Demonstrated biosimilarity through analytical, nonclinical, and clinical studies
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Glargine Biosimilar |
+| **Category** | Peptide Drugs |
+

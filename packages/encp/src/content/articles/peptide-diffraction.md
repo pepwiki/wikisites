@@ -28,3 +28,11 @@ Peptide diffraction plays important roles in biological systems and has applicat
 ## References
 
 1. Encyclopeptide Database. "peptide-diffraction" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide diffraction |
+| **Category** | Structural Biology |
+

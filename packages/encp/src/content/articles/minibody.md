@@ -28,3 +28,11 @@ Minibody plays important roles in biological systems and has applications in dru
 ## References
 
 1. Encyclopeptide Database. "minibody" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Minibody |
+| **Category** | Drug Delivery |
+

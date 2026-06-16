@@ -30,3 +30,11 @@ Peptide binds HR1 region of gp41 preventing six-helix bundle formation and membr
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Enfuvirtide |
+| **Category** | Peptide Drugs |
+

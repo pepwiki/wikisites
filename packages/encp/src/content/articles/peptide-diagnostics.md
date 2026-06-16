@@ -32,3 +32,11 @@ Peptide diagnostics enable early disease detection, treatment monitoring, and pr
 
 - Source: ENCP Peptide Database
 - Category: Peptide Applications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Diagnostics |
+| **Category** | Peptide Applications |
+

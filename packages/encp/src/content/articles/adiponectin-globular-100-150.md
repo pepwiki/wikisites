@@ -30,3 +30,11 @@ This adiponectin fragment variant has been studied for its biological activity a
 ## References
 
 1. Encyclopeptide Database. "adiponectin-globular-100-150" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Adiponectin globular-100-150 |
+| **Category** | Peptide Hormones |
+

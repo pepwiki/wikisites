@@ -30,3 +30,11 @@ Defensins and cathelicidin expressed throughout GU tract provide antimicrobial b
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Genitourinary Tract AMPs |
+| **Category** | Antimicrobial Peptides |
+

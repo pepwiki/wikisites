@@ -30,3 +30,11 @@ Dry powder formulation deposits insulin in deep lung for rapid alveolar absorpti
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Inhaled Insulin Lispro |
+| **Category** | Peptide Drugs |
+

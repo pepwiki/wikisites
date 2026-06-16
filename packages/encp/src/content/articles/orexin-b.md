@@ -30,3 +30,11 @@ Shorter orexin peptide with preferential OX2 receptor binding for sleep regulati
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Orexin B |
+| **Category** | Neuropeptides |
+

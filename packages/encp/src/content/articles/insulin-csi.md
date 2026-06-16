@@ -27,3 +27,14 @@ Continuous subcutaneous insulin infusion delivers rapid-acting insulin through a
 - Flexible meal timing
 - Reduced glycemic variability
 - Programmable insulin-to-carb ratios
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Continuous Subcutaneous Insulin Infusion |
+| **Category** | Insulin Family |
+
+## References
+
+1. Encyclopeptide Database. "Continuous Subcutaneous Insulin Infusion" monograph. encyclopeptide.com.

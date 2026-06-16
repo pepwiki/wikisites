@@ -28,3 +28,11 @@ Peptide cleavage plays important roles in biological systems and has application
 ## References
 
 1. Encyclopeptide Database. "peptide-cleavage" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide cleavage |
+| **Category** | Structural Biology |
+

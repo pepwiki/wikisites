@@ -30,3 +30,11 @@ KGD motif competitively blocks fibrinogen binding to activated GPIIb/IIIa preven
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Eptifibatide |
+| **Category** | Peptide Drugs |
+

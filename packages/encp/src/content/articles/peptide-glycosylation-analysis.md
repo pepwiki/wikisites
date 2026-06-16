@@ -28,3 +28,11 @@ Peptide glycosylation analysis plays important roles in biological systems and h
 ## References
 
 1. Encyclopeptide Database. "peptide-glycosylation-analysis" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide glycosylation analysis |
+| **Category** | Structural Biology |
+

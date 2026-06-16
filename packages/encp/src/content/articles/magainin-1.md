@@ -30,3 +30,11 @@ Amphipathic alpha-helix inserts into membranes forming voltage-dependent ion cha
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Magainin 1 |
+| **Category** | Antimicrobial Peptides |
+

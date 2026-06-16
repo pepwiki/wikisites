@@ -29,3 +29,11 @@ Understanding endogenous opioids informs addiction medicine and novel analgesic 
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Peptide Family |
+| **Category** | Peptide Families |
+

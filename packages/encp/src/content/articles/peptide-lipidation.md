@@ -28,3 +28,11 @@ Peptide lipidation plays important roles in biological systems and has applicati
 ## References
 
 1. Encyclopeptide Database. "peptide-lipidation" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide lipidation |
+| **Category** | Structural Biology |
+

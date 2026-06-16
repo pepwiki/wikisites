@@ -30,3 +30,11 @@ Cationic chitosan adheres to mucus enhancing paracellular peptide transport.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Chitosan Nanoparticles Oral |
+| **Category** | Drug Delivery |
+

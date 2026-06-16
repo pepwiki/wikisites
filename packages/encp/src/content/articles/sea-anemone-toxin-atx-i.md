@@ -30,3 +30,11 @@ Delays sodium channel inactivation prolonging action potentials in neurons and c
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Sea Anemone Toxin ATX-I |
+| **Category** | Venom Peptides |
+

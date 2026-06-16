@@ -30,3 +30,11 @@ Mu knockout mice show reduced analgesia and altered reward; delta knockouts show
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Receptor Knockout Studies |
+| **Category** | Neuropeptides |
+

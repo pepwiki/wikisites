@@ -28,3 +28,11 @@ Collagen triple helix plays important roles in biological systems and has applic
 ## References
 
 1. Encyclopeptide Database. "collagen-triple-helix" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Collagen triple helix |
+| **Category** | Structural Biology |
+

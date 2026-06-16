@@ -30,3 +30,11 @@ This chemokine variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "chemokine-CXCL6" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Chemokine CXCL6 |
+| **Category** | Cytokines |
+

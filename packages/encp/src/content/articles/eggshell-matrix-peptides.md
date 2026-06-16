@@ -25,3 +25,11 @@ Eggshell Matrix Peptides is a bioactive peptide with well-characterized properti
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Eggshell Matrix Peptides |
+| **Category** | Bird Peptides |
+

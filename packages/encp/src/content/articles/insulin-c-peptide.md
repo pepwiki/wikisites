@@ -24,3 +24,10 @@ relatedArticles: ['proinsulin', 'insulin-human', 'type-1-diabetes']
 2. **Factitious hypoglycemia**: Low C-peptide with high insulin confirms exogenous use
 3. **Insulinoma diagnosis**: Elevated C-peptide with hypoglycemia
 4. **Post-transplant monitoring**: Assessing graft function
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Insulin C-Peptide" monograph. encyclopeptide.com.

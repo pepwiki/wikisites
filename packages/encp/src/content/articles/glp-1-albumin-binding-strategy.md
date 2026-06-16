@@ -30,3 +30,11 @@ C12-C20 fatty acid chains enable non-covalent albumin binding reducing glomerula
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Albumin Binding Strategy |
+| **Category** | Peptide Drugs |
+

@@ -30,3 +30,11 @@ Linear and branched PEG architectures affecting pharmacokinetic properties.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide PEGylation Strategies |
+| **Category** | Drug Delivery |
+

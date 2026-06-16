@@ -28,3 +28,11 @@ Nanoparticle encapsulation plays important roles in biological systems and has a
 ## References
 
 1. Encyclopeptide Database. "nanoparticle-encapsulation" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Nanoparticle encapsulation |
+| **Category** | Drug Delivery |
+

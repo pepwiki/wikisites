@@ -30,3 +30,11 @@ This ghrelin variant has been studied for its biological activity and potential 
 ## References
 
 1. Encyclopeptide Database. "ghrelin-1-28" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Ghrelin 1-28 |
+| **Category** | Peptide Hormones |
+

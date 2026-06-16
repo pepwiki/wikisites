@@ -32,3 +32,10 @@ Approved for type 1 and type 2 diabetes. Provides faster onset than standard asp
 - **Onset**: ~2.5 minutes
 - **Peak**: ~35 minutes
 - **Duration**: 3-5 hours
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Faster-Acting Insulin Aspart" monograph. encyclopeptide.com.

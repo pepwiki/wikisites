@@ -30,3 +30,11 @@ HPLC and fluorescence methods quantifying peptide loading in nanoparticles and l
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Encapsulation Efficiency |
+| **Category** | Drug Delivery |
+

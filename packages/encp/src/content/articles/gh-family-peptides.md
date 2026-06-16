@@ -27,3 +27,11 @@ GH deficiency and excess conditions including acromegaly and dwarfism are well-c
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Growth Hormone Family Peptides |
+| **Category** | Peptide Families |
+

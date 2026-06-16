@@ -28,3 +28,11 @@ Peptide stapling plays important roles in biological systems and has application
 ## References
 
 1. Encyclopeptide Database. "peptide-stapling" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide stapling |
+| **Category** | Drug Delivery |
+

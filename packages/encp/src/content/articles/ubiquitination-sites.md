@@ -28,3 +28,11 @@ The ubiquitin-proteasome system is a major drug target. Proteasome inhibitors (b
 
 - Source: ENCP Peptide Database
 - Category: Peptide Modifications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Ubiquitination Sites |
+| **Category** | Peptide Modifications |
+

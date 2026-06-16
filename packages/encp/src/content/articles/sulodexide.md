@@ -30,3 +30,11 @@ Glycosaminoglycan mixture with antithrombotic and vascular protective properties
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Sulodexide |
+| **Category** | Peptide Drugs |
+

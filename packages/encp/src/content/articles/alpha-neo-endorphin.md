@@ -30,3 +30,11 @@ Kappa-selective opioid with role in hypothalamic regulation.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Alpha-Neo-Endorphin |
+| **Category** | Neuropeptides |
+

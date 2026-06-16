@@ -25,3 +25,11 @@ Insulin → Insulin Receptor (RTK Activation) is a bioactive peptide with well-c
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin → Insulin Receptor (RTK Activation) |
+| **Category** | Peptide Interactions |
+

@@ -30,3 +30,11 @@ Sacubitril inhibits neprilysin preventing natriuretic peptide breakdown while va
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Sacubitril-Valsartan |
+| **Category** | Peptide Drugs |
+

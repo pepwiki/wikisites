@@ -26,3 +26,14 @@ Insulin biosimilars are follow-on biologic products demonstrating high similarit
 ## Clinical Impact
 
 Biosimilar competition is expected to reduce insulin costs by 30-50%, improving access for the estimated 500+ million people with diabetes globally.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Biosimilars |
+| **Category** | Insulin Family |
+
+## References
+
+1. Encyclopeptide Database. "Insulin Biosimilars" monograph. encyclopeptide.com.

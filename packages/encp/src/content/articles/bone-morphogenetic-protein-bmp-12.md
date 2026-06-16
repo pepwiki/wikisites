@@ -30,3 +30,11 @@ This bmp analog variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "bone-morphogenetic-protein-BMP-12" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Bone Morphogenetic Protein BMP-12 |
+| **Category** | Growth Factors |
+

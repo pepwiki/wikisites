@@ -30,3 +30,11 @@ Venom insulin causes rapid hypoglycemia immobilizing fish prey.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Coninsulin S |
+| **Category** | Venom Peptides |
+

@@ -32,3 +32,11 @@ Solid Phase Peptide Synthesis (SPPS) has been studied for its potential applicat
 
 - Source: peptide-manufacturing.md
 - Database: Wikipept Peptide Database
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Solid Phase Peptide Synthesis (SPPS) |
+| **Category** | Peptide Manufacturing |
+

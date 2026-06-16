@@ -28,3 +28,11 @@ Allergoid-MPL conjugate on L-tyrosine depot; shifts immune response from Th2 (Ig
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Pollinex Quattro |
+| **Category** | Peptide Vaccines |
+

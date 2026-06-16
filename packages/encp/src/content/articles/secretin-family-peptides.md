@@ -28,3 +28,11 @@ VIP and PACAP analogs are explored for neurodegenerative diseases.
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Secretin Family Peptides |
+| **Category** | Peptide Families |
+

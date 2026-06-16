@@ -28,3 +28,11 @@ Chromatin remodeling plays important roles in biological systems and has applica
 ## References
 
 1. Encyclopeptide Database. "chromatin-remodeling" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Chromatin remodeling |
+| **Category** | Structural Biology |
+

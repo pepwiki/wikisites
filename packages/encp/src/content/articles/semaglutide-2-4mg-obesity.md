@@ -30,3 +30,11 @@ Higher-dose semaglutide approved for chronic weight management in adults with ob
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Semaglutide 2.4mg Obesity |
+| **Category** | Peptide Drugs |
+

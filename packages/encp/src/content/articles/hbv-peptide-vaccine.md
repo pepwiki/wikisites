@@ -28,3 +28,11 @@ Therapeutic peptide vaccine targeting HBV core and surface epitopes; restores HB
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | HBV Peptide Vaccine |
+| **Category** | Peptide Vaccines |
+

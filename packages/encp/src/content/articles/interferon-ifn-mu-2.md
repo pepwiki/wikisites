@@ -30,3 +30,11 @@ This interferon variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "interferon-IFN-mu-2" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Interferon IFN-mu-2 |
+| **Category** | Cytokines |
+

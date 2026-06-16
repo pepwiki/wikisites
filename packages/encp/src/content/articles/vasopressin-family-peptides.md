@@ -27,3 +27,11 @@ Desmopressin (synthetic AVP analog) treats diabetes insipidus and nocturnal enur
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Vasopressin Family Peptides |
+| **Category** | Peptide Families |
+

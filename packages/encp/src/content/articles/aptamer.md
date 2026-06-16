@@ -28,3 +28,11 @@ Aptamer plays important roles in biological systems and has applications in drug
 ## References
 
 1. Encyclopeptide Database. "aptamer" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Aptamer |
+| **Category** | Structural Biology |
+

@@ -25,3 +25,11 @@ Zavegepant - First-in-Human (NCT02823622) is a bioactive peptide with well-chara
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Zavegepant - First-in-Human (NCT02823622) |
+| **Category** | Peptide Clinical Trials |
+

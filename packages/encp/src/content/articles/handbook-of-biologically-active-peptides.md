@@ -25,3 +25,11 @@ Handbook of Biologically Active Peptides is a bioactive peptide with well-charac
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Handbook of Biologically Active Peptides |
+| **Category** | Peptide Resources |
+

@@ -30,3 +30,14 @@ Peptide cosmeceuticals are bioactive peptides incorporated into skincare product
 - **Neurotransmitter-inhibiting peptides**: Reduce muscle contraction
 - **Carrier peptides**: Deliver trace elements
 - **Enzyme-inhibitor peptides**: Prevent wrinkle formation
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Cosmeceuticals |
+| **Category** | Cosmetic Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Cosmeceuticals" monograph. encyclopeptide.com.

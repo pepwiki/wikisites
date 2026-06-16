@@ -30,3 +30,11 @@ Crystalline zinc insulin dissolves and absorbs relatively quickly from subcutane
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Regular |
+| **Category** | Peptide Drugs |
+

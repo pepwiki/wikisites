@@ -25,3 +25,11 @@ Histone-Derived Peptide (Crocodilian) is a bioactive peptide with well-character
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Histone-Derived Peptide (Crocodilian) |
+| **Category** | Reptile Peptides |
+

@@ -28,3 +28,11 @@ This molecule plays important roles in biological systems and has potential ther
 ## References
 
 1. Encyclopeptide Database. "pdc-hdm2-inhibitor" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | HDM2 Inhibitor PDC |
+| **Category** | Peptide-Drug Conjugates |
+

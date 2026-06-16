@@ -30,3 +30,11 @@ Preferentially expressed in spinal cord for segmental pain modulation.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Endomorphin-2 |
+| **Category** | Neuropeptides |
+

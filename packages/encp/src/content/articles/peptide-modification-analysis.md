@@ -28,3 +28,11 @@ Peptide modification analysis plays important roles in biological systems and ha
 ## References
 
 1. Encyclopeptide Database. "peptide-modification-analysis" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide modification analysis |
+| **Category** | Structural Biology |
+

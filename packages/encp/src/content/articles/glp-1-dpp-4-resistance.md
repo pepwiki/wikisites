@@ -30,3 +30,11 @@ Aib at position 8 blocks DPP-4 cleavage while fatty acid acylation adds albumin 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 DPP-4 Resistance |
+| **Category** | Peptide Drugs |
+

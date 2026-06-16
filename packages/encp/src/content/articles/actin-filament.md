@@ -28,3 +28,11 @@ Actin filament plays important roles in biological systems and has applications 
 ## References
 
 1. Encyclopeptide Database. "actin-filament" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Actin filament |
+| **Category** | Structural Biology |
+

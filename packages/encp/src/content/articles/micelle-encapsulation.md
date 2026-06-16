@@ -28,3 +28,11 @@ Micelle encapsulation plays important roles in biological systems and has applic
 ## References
 
 1. Encyclopeptide Database. "micelle-encapsulation" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Micelle encapsulation |
+| **Category** | Drug Delivery |
+

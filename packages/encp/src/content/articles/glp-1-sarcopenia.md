@@ -30,3 +30,11 @@ Some lean mass loss occurs with weight reduction; resistance exercise helps pres
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Sarcopenia |
+| **Category** | Peptide Drugs |
+

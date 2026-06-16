@@ -30,3 +30,11 @@ Irreversible N-type channel blocker used as pharmacological tool for calcium cha
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Omega-Conotoxin GVIA |
+| **Category** | Venom Peptides |
+

@@ -25,3 +25,11 @@ Anti-Drug Antibodies (ADA) is a bioactive peptide with well-characterized proper
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Anti-Drug Antibodies (ADA) |
+| **Category** | Peptide Safety |
+

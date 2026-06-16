@@ -25,3 +25,11 @@ Head-to-Tail Cyclization is a bioactive peptide with well-characterized properti
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Head-to-Tail Cyclization |
+| **Category** | Peptide Modifications |
+

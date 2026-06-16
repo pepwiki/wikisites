@@ -30,3 +30,11 @@ Ultra-potent agonist used for reproductive suppression in companion animals.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Deslorelin |
+| **Category** | Peptide Drugs |
+

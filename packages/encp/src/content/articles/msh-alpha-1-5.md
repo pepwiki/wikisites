@@ -30,3 +30,11 @@ This melanocyte-stimulating hormone variant has been studied for its biological 
 ## References
 
 1. Encyclopeptide Database. "MSH-alpha-1-5" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | MSH alpha-1-5 |
+| **Category** | Peptide Hormones |
+

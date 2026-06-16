@@ -28,3 +28,11 @@ Extracellular antigens endocytosed and processed in endosomes/lysosomes → pept
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide → MHC Class II (Antigen Presentation) |
+| **Category** | Peptide Interactions |
+

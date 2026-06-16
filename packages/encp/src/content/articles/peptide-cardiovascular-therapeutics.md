@@ -28,3 +28,14 @@ Peptides play important roles in cardiovascular therapeutics, from acute heart f
 - **Natriuretic peptides**: Vasodilation, natriuresis, diuresis
 - **ACE inhibitors**: Block angiotensin II formation
 - **GP IIb/IIIa inhibitors**: Block platelet aggregation
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Cardiovascular Therapeutics |
+| **Category** | Therapeutic Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Cardiovascular Therapeutics" monograph. encyclopeptide.com.

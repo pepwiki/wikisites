@@ -30,3 +30,11 @@ CRH and AVP activate pituitary-adrenal axis while opioids modulate stress percep
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Stress Response Peptides |
+| **Category** | Neuropeptides |
+

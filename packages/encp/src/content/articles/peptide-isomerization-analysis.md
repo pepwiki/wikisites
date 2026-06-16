@@ -28,3 +28,11 @@ Peptide isomerization analysis plays important roles in biological systems and h
 ## References
 
 1. Encyclopeptide Database. "peptide-isomerization-analysis" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide isomerization analysis |
+| **Category** | Structural Biology |
+

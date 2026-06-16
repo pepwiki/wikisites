@@ -28,3 +28,11 @@ Peptide bioconjugation plays important roles in biological systems and has appli
 ## References
 
 1. Encyclopeptide Database. "peptide-bioconjugation" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide bioconjugation |
+| **Category** | Structural Biology |
+

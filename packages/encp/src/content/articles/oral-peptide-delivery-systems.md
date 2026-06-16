@@ -30,3 +30,11 @@ Combined strategies protecting peptide from GI degradation and enhancing absorpt
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Oral Peptide Delivery Systems |
+| **Category** | Drug Delivery |
+

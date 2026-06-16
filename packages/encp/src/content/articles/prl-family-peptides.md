@@ -27,3 +27,11 @@ Hyperprolactinemia is a common endocrine disorder affecting reproduction.
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Prolactin Family Peptides |
+| **Category** | Peptide Families |
+

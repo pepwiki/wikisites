@@ -30,3 +30,11 @@ This csf variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "colony-stimulating-factor-M-CSF-1-223" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Colony Stimulating Factor M-CSF-1-223 |
+| **Category** | Cytokines |
+

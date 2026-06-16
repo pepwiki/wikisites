@@ -32,3 +32,11 @@ Membrane Filtration (Tangential Flow Filtration) has been studied for its potent
 
 - Source: peptide-manufacturing.md
 - Database: Wikipept Peptide Database
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Membrane Filtration (Tangential Flow Filtration) |
+| **Category** | Peptide Manufacturing |
+

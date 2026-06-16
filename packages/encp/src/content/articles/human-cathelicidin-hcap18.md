@@ -30,3 +30,11 @@ hCAP18 is cleaved by proteinase 3 releasing active LL-37 antimicrobial domain.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Human Cathelicidin hCAP18 |
+| **Category** | Antimicrobial Peptides |
+

@@ -30,3 +30,11 @@ This bmp analog variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "bone-morphogenetic-protein-BMP-8b" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Bone Morphogenetic Protein BMP-8b |
+| **Category** | Growth Factors |
+

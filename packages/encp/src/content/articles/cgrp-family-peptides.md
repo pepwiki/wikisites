@@ -29,3 +29,11 @@ Anti-CGRP antibodies (erenumab, fremanezumab, galcanezumab) are FDA-approved mig
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | CGRP Family Peptides |
+| **Category** | Peptide Families |
+

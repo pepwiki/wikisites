@@ -28,3 +28,11 @@ Peptide formulation plays important roles in biological systems and has applicat
 ## References
 
 1. Encyclopeptide Database. "peptide-formulation" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide formulation |
+| **Category** | Structural Biology |
+

@@ -25,3 +25,11 @@ Insulin Glargine/Lixisenatide is a bioactive peptide with well-characterized pro
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Glargine/Lixisenatide |
+| **Category** | Peptide Analogs |
+

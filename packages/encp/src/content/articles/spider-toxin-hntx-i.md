@@ -30,3 +30,11 @@ Blocks TRPV1 vanilloid receptor reducing nociceptive signaling in pain pathways.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Spider Toxin HNTX-I |
+| **Category** | Venom Peptides |
+

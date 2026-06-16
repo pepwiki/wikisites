@@ -30,3 +30,11 @@ This calcitonin variant has been studied for its biological activity and potenti
 ## References
 
 1. Encyclopeptide Database. "calcitonin-salmon-1-32" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Calcitonin salmon-1-32 |
+| **Category** | Peptide Hormones |
+

@@ -30,3 +30,11 @@ Extended alpha-helical structure enables broad-spectrum membrane disruption.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Cecropin B |
+| **Category** | Antimicrobial Peptides |
+

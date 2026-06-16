@@ -28,3 +28,11 @@ Aptamer-drug conjugate plays important roles in biological systems and has appli
 ## References
 
 1. Encyclopeptide Database. "aptamer-drug-conjugate" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Aptamer-drug conjugate |
+| **Category** | Drug Delivery |
+

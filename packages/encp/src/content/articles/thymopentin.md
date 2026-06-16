@@ -30,3 +30,11 @@ Minimal active sequence of thymopoietin sufficient for T-cell receptor signaling
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Thymopentin |
+| **Category** | Antimicrobial Peptides |
+

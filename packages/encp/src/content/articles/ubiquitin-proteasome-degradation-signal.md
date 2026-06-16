@@ -28,3 +28,11 @@ Ubiquitin conjugated to substrate lysines via E1-E2-E3 enzymatic cascade (isopep
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Ubiquitin → Proteasome (Degradation Signal) |
+| **Category** | Peptide Interactions |
+

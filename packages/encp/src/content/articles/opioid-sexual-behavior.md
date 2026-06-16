@@ -30,3 +30,11 @@ Opioid peptides modulate sexual behavior through central and peripheral mechanis
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Sexual Behavior |
+| **Category** | Neuropeptides |
+

@@ -30,3 +30,11 @@ This calcitonin variant has been studied for its biological activity and potenti
 ## References
 
 1. Encyclopeptide Database. "calcitonin-fragment-8-15" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Calcitonin fragment-8-15 |
+| **Category** | Peptide Hormones |
+

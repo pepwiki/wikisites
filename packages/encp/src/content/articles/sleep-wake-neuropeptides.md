@@ -30,3 +30,11 @@ Orexin stabilizes wakefulness while MCH promotes sleep; circadian peptides coord
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Sleep-Wake Neuropeptides |
+| **Category** | Neuropeptides |
+

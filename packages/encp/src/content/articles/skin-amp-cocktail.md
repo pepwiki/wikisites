@@ -30,3 +30,11 @@ Multiple AMPs act synergistically providing broad-spectrum antimicrobial defense
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Skin AMP Cocktail |
+| **Category** | Antimicrobial Peptides |
+

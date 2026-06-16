@@ -30,3 +30,11 @@ Acidic pH of phagolysosome activates defensin oligomerization forming pores in b
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Human Alpha-Defensin 2 |
+| **Category** | Antimicrobial Peptides |
+

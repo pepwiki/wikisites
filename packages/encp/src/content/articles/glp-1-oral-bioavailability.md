@@ -30,3 +30,11 @@ SNAC and other enhancers protect peptide and facilitate transcellular absorption
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Oral Bioavailability |
+| **Category** | Peptide Drugs |
+

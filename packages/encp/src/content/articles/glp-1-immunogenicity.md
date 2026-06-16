@@ -25,3 +25,18 @@ relatedArticles: ['semaglutide', 'liraglutide', 'dulaglutide']
 2. Dosing frequency
 3. Route of administration
 4. Formulation
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Agonist Immunogenicity |
+| **Category** | GLP-1 Family |
+
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "GLP-1 Agonist Immunogenicity" monograph. encyclopeptide.com.

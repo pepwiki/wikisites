@@ -28,3 +28,11 @@ Radiation-attuced sporozoites invade hepatocytes but cannot complete development
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | PfSPZ |
+| **Category** | Peptide Vaccines |
+

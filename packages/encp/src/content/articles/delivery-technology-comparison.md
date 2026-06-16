@@ -25,3 +25,11 @@ Delivery Technology Comparison is a bioactive peptide with well-characterized pr
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Delivery Technology Comparison |
+| **Category** | Peptide Technologies |
+

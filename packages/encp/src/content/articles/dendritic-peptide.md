@@ -28,3 +28,11 @@ Dendritic peptide plays important roles in biological systems and has applicatio
 ## References
 
 1. Encyclopeptide Database. "dendritic-peptide" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Dendritic peptide |
+| **Category** | Drug Delivery |
+

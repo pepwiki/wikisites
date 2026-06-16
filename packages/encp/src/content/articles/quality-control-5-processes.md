@@ -25,3 +25,11 @@ Quality Control (5 processes) is a bioactive peptide with well-characterized pro
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Quality Control (5 processes) |
+| **Category** | Peptide Manufacturing |
+

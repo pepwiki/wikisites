@@ -30,3 +30,11 @@ This insulin variant has been studied for its biological activity and potential 
 ## References
 
 1. Encyclopeptide Database. "insulin-A-chain-8-21" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin A-chain-8-21 |
+| **Category** | Metabolic Peptides |
+

@@ -28,3 +28,11 @@ This molecule plays important roles in biological systems and has potential ther
 ## References
 
 1. Encyclopeptide Database. "pdc-il-1-inhibitor" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | IL 1 Inhibitor PDC |
+| **Category** | Peptide-Drug Conjugates |
+

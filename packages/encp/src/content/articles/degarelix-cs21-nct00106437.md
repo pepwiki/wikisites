@@ -25,3 +25,11 @@ Degarelix - CS21 (NCT00106437) is a bioactive peptide with well-characterized pr
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Degarelix - CS21 (NCT00106437) |
+| **Category** | Peptide Clinical Trials |
+

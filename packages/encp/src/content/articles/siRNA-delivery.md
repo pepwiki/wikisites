@@ -28,3 +28,11 @@ siRNA delivery plays important roles in biological systems and has applications 
 ## References
 
 1. Encyclopeptide Database. "siRNA-delivery" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | siRNA delivery |
+| **Category** | Drug Delivery |
+

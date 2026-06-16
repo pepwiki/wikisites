@@ -30,3 +30,11 @@ Membrane-hydrolyzing enzymes amplifying venom toxicity through lipid mediator re
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Wasp Venom Phospholipase |
+| **Category** | Venom Peptides |
+

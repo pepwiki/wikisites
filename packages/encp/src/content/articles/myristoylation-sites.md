@@ -25,3 +25,11 @@ Myristoylation is essential for Src family kinase, Arf GTPase, and caspase membr
 
 - Source: ENCP Peptide Database
 - Category: Peptide Modifications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Myristoylation Sites |
+| **Category** | Peptide Modifications |
+

@@ -30,3 +30,11 @@ Microbial sensing triggers vesicular exocytosis releasing defensins into intesti
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Paneth Cell Secretion |
+| **Category** | Antimicrobial Peptides |
+

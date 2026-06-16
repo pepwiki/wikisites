@@ -30,3 +30,11 @@ NR2B-selective NMDA antagonist with potential for neuropathic pain treatment.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Conantokin T |
+| **Category** | Venom Peptides |
+

@@ -28,3 +28,11 @@ These peptides are essential targets in diabetes, growth disorders, and metaboli
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Family Peptides |
+| **Category** | Peptide Families |
+

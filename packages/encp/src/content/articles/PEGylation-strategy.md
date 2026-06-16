@@ -28,3 +28,11 @@ PEGylation strategy plays important roles in biological systems and has applicat
 ## References
 
 1. Encyclopeptide Database. "PEGylation-strategy" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | PEGylation strategy |
+| **Category** | Drug Delivery |
+

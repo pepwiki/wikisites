@@ -28,3 +28,11 @@ DNA methylation plays important roles in biological systems and has applications
 ## References
 
 1. Encyclopeptide Database. "dna-methylation" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | DNA methylation |
+| **Category** | Structural Biology |
+

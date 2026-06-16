@@ -29,3 +29,14 @@ Insulin degludec forms soluble multi-hexamer chains upon subcutaneous injection,
 - **Glutamic acid spacer**: Connects fatty acid to peptide
 - **Zinc coordination**: Bridges between hexamers
 - **Soluble depot**: No precipitation (unlike glargine)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Degludec Multi-Hexamer Chains |
+| **Category** | Insulin Family |
+
+## References
+
+1. Encyclopeptide Database. "Insulin Degludec Multi-Hexamer Chains" monograph. encyclopeptide.com.

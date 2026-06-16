@@ -30,3 +30,11 @@ Abundant metabolite causing neuroexcitatory effects including hyperalgesia and a
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Morphine-3-Glucuronide |
+| **Category** | Neuropeptides |
+

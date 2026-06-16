@@ -30,3 +30,11 @@ Also known as orexin; deficiency causes narcolepsy type 1.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Hypocretin |
+| **Category** | Neuropeptides |
+

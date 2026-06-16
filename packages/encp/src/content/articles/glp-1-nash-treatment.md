@@ -25,3 +25,14 @@ relatedArticles: ['semaglutide', 'liraglutide', 'glp-1-dual-agonists']
 2. Improved insulin sensitivity
 3. Weight loss reducing visceral adiposity
 4. Anti-inflammatory effects
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Agonists in NASH/MASH Treatment |
+| **Category** | GLP-1 Family |
+
+## References
+
+1. Encyclopeptide Database. "GLP-1 Agonists in NASH/MASH Treatment" monograph. encyclopeptide.com.

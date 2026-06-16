@@ -29,3 +29,14 @@ Echinocandins inhibit beta-1,3-glucan synthase, preventing synthesis of beta-glu
 - Esophageal candidiasis
 - Invasive aspergillosis (salvage therapy)
 - Febrile neutropenia
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Antifungal Peptide Drugs |
+| **Category** | Antifungal Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Antifungal Peptide Drugs" monograph. encyclopeptide.com.

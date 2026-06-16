@@ -30,3 +30,11 @@ Diverse K+ channel blockers from spider venoms as tools and therapeutics.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Spider Toxin K+ Channel Blockers |
+| **Category** | Venom Peptides |
+

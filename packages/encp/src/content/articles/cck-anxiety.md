@@ -30,3 +30,11 @@ CCK-4 is potent panicogen; CCK-B antagonists show anxiolytic potential.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | CCK Anxiety |
+| **Category** | Neuropeptides |
+

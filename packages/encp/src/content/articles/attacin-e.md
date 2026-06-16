@@ -30,3 +30,11 @@ Targets outer membrane protein synthesis weakening bacterial envelope integrity.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Attacin E |
+| **Category** | Antimicrobial Peptides |
+

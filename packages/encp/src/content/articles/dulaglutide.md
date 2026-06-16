@@ -30,3 +30,11 @@ Fc fusion protein avoids renal clearance and extends circulating half-life to 5 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Dulaglutide |
+| **Category** | Peptide Drugs |
+

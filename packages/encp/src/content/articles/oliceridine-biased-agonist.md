@@ -30,3 +30,11 @@ Biased signaling activates G protein pathway while minimizing beta-arrestin recr
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Oliceridine Biased Agonist |
+| **Category** | Neuropeptides |
+

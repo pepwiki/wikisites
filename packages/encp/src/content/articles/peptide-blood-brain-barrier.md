@@ -30,3 +30,11 @@ Receptor-mediated transcytosis and nanoparticle approaches for CNS peptide deliv
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Blood-Brain Barrier |
+| **Category** | Drug Delivery |
+

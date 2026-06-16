@@ -30,3 +30,11 @@ Cyclodextrin cavity encapsulation protects peptide from degradation and improves
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Cyclodextrin Peptide Complex |
+| **Category** | Drug Delivery |
+

@@ -32,3 +32,11 @@ Size Exclusion Chromatography (SEC) has been studied for its potential applicati
 
 - Source: peptide-manufacturing.md
 - Database: Wikipept Peptide Database
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Size Exclusion Chromatography (SEC) |
+| **Category** | Peptide Manufacturing |
+

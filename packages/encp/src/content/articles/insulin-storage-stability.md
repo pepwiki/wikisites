@@ -30,3 +30,11 @@ Insulin stability depends on temperature, light exposure, and formulation-specif
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Storage Stability |
+| **Category** | Peptide Drugs |
+

@@ -30,3 +30,11 @@ GALP selectively activates GalR1 with different distribution than galanin.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Galanin-Related Peptide |
+| **Category** | Neuropeptides |
+

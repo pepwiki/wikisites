@@ -30,3 +30,11 @@ Enhances T-cell differentiation and maturation while promoting innate immune res
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Thymosin Alpha-1 |
+| **Category** | Antimicrobial Peptides |
+

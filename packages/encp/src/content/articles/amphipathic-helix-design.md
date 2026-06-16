@@ -30,3 +30,11 @@ Computational design optimizes hydrophobic moment and net charge for selective a
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Amphipathic Helix Design |
+| **Category** | Antimicrobial Peptides |
+

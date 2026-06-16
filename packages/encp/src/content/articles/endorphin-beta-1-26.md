@@ -30,3 +30,11 @@ This endorphin variant has been studied for its biological activity and potentia
 ## References
 
 1. Encyclopeptide Database. "endorphin-beta-1-26" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Endorphin beta-1-26 |
+| **Category** | Neuropeptides |
+

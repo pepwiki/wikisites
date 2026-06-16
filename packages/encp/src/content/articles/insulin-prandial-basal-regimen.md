@@ -29,3 +29,14 @@ Basal-bolus therapy is the gold standard for intensive insulin management, provi
 - **Basal**: Start 0.2-0.4 U/kg/day, titrate by 2 units every 3 days
 - **Bolus**: Start 0.1 U/kg per meal, adjust based on carb ratio
 - **Total daily dose**: 0.5-1.0 U/kg/day
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Basal-Bolus Insulin Regimens |
+| **Category** | Insulin Family |
+
+## References
+
+1. Encyclopeptide Database. "Basal-Bolus Insulin Regimens" monograph. encyclopeptide.com.

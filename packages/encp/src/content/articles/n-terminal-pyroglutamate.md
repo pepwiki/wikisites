@@ -25,3 +25,11 @@ N-Terminal Pyroglutamate is a bioactive peptide with well-characterized properti
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | N-Terminal Pyroglutamate |
+| **Category** | Peptide Modifications |
+

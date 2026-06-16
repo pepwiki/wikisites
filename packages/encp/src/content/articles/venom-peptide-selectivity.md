@@ -30,3 +30,11 @@ Evolutionary optimization of peptide structure for target-specific binding and a
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Venom Peptide Selectivity |
+| **Category** | Venom Peptides |
+

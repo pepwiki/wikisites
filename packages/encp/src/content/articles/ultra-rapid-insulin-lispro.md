@@ -30,3 +30,11 @@ Vasodilator and pH modifier additives accelerate initial insulin absorption phas
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Ultra-Rapid Insulin Lispro |
+| **Category** | Peptide Drugs |
+

@@ -30,3 +30,11 @@ Zero-order, first-order, and Higuchi models describing different release mechani
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Release Kinetics |
+| **Category** | Drug Delivery |
+

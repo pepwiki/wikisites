@@ -25,3 +25,11 @@ Atomic Force Microscopy is a bioactive peptide with well-characterized propertie
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Atomic Force Microscopy |
+| **Category** | Peptide Technologies |
+

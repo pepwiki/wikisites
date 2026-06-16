@@ -30,3 +30,11 @@ Gs protein coupling activates adenylyl cyclase increasing cAMP and activating PK
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Receptor Signaling |
+| **Category** | Peptide Drugs |
+

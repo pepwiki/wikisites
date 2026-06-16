@@ -25,3 +25,11 @@ Thermo Vanquish is a bioactive peptide with well-characterized properties and th
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Thermo Vanquish |
+| **Category** | Peptide Research Tools |
+

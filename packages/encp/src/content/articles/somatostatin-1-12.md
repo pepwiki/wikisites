@@ -30,3 +30,11 @@ This somatostatin variant has been studied for its biological activity and poten
 ## References
 
 1. Encyclopeptide Database. "somatostatin-1-12" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Somatostatin 1-12 |
+| **Category** | Peptide Hormones |
+

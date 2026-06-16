@@ -25,3 +25,11 @@ ALRN-6924 - First-in-Human (NCT02264613) is a bioactive peptide with well-charac
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | ALRN-6924 - First-in-Human (NCT02264613) |
+| **Category** | Peptide Clinical Trials |
+

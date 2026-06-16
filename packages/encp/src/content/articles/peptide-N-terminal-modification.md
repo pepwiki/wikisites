@@ -28,3 +28,11 @@ Peptide N-terminal modification plays important roles in biological systems and 
 ## References
 
 1. Encyclopeptide Database. "peptide-N-terminal-modification" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide N-terminal modification |
+| **Category** | Drug Delivery |
+

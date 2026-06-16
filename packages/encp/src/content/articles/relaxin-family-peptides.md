@@ -29,3 +29,11 @@ Serelaxin (recombinant relaxin-2) was investigated for acute heart failure treat
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Relaxin Family Peptides |
+| **Category** | Peptide Families |
+

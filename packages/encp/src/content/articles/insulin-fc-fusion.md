@@ -30,3 +30,11 @@ Fc domain engagement with neonatal Fc receptor enables receptor-mediated recycli
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Fc Fusion |
+| **Category** | Peptide Drugs |
+

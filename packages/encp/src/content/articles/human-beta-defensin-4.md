@@ -30,3 +30,11 @@ Expressed in neutrophils and epithelial cells contributing to wound healing thro
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Human Beta-Defensin 4 |
+| **Category** | Antimicrobial Peptides |
+

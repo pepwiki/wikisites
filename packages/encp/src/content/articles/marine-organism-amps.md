@@ -30,3 +30,11 @@ Marine organisms produce structurally diverse AMPs with novel mechanisms.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Marine Organism AMPs |
+| **Category** | Antimicrobial Peptides |
+

@@ -30,3 +30,11 @@ Tryptophan residues enhance membrane insertion while maintaining selectivity for
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Tritrpticin |
+| **Category** | Antimicrobial Peptides |
+

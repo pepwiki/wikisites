@@ -30,3 +30,11 @@ ORL1 agonist with distinct pain-modulating effects opposite to classical opioids
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Nociceptin |
+| **Category** | Neuropeptides |
+

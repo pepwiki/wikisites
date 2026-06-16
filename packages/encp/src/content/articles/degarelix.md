@@ -30,3 +30,11 @@ Peptide antagonist provides immediate testosterone suppression without flare phe
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Degarelix |
+| **Category** | Peptide Drugs |
+

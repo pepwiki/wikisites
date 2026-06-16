@@ -30,3 +30,11 @@ Binds BB1 receptor with highest affinity among bombesin-like peptides.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Neuromedin B |
+| **Category** | Neuropeptides |
+

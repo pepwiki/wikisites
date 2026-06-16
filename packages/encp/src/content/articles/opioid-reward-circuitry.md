@@ -30,3 +30,11 @@ Mu-opioid activation in VTA disinhibits dopamine neurons increasing nucleus accu
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Reward Circuitry |
+| **Category** | Neuropeptides |
+

@@ -22,3 +22,10 @@ relatedArticles: ['insulin-nph', 'insulin-regular', 'insulin-human']
 ## Structure
 
 NPH insulin complexes recombinant human insulin with protamine at a 3:1 molar ratio. These crystalline precipitates slowly dissolve after subcutaneous injection.
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "NPH Insulin (Isophane)" monograph. encyclopeptide.com.

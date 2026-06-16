@@ -30,3 +30,11 @@ Alpha-helical structure inserts into membranes activating G-proteins and forming
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Mastoparan |
+| **Category** | Antimicrobial Peptides |
+

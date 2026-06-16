@@ -30,3 +30,11 @@ PEG conjugation reduces renal clearance and proteolytic degradation extending ha
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | PEGylated Insulin Lispro |
+| **Category** | Peptide Drugs |
+

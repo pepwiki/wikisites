@@ -25,3 +25,11 @@ GST-tag → Glutathione (Affinity Purification) is a bioactive peptide with well
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GST-tag → Glutathione (Affinity Purification) |
+| **Category** | Peptide Interactions |
+

@@ -30,3 +30,11 @@ Nanoparticle and hydrogel carriers protect AMPs from degradation enabling sustai
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | AMP Drug Delivery |
+| **Category** | Antimicrobial Peptides |
+

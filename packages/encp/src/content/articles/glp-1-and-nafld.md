@@ -30,3 +30,11 @@ Hepatic GLP-1 receptor effects reduce lipogenesis and promote fatty acid oxidati
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 and NAFLD |
+| **Category** | Peptide Drugs |
+

@@ -25,3 +25,11 @@ Duck Defensin is a bioactive peptide with well-characterized properties and ther
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Duck Defensin |
+| **Category** | Bird Peptides |
+

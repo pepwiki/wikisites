@@ -30,3 +30,11 @@ Hypothalamic NPY potently stimulates feeding and reduces sympathetic tone.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | NPY Central Effects |
+| **Category** | Neuropeptides |
+

@@ -28,3 +28,11 @@ Tetrabody plays important roles in biological systems and has applications in dr
 ## References
 
 1. Encyclopeptide Database. "tetrabody" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Tetrabody |
+| **Category** | Drug Delivery |
+

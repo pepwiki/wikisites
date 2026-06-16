@@ -27,3 +27,14 @@ Insulin products require careful temperature management throughout the supply ch
 - Use within 28 days of first puncture
 - Discard if exposed to extreme temperatures
 - Use insulated travel cases for transport
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Cold Chain Management |
+| **Category** | Insulin Family |
+
+## References
+
+1. Encyclopeptide Database. "Insulin Cold Chain Management" monograph. encyclopeptide.com.

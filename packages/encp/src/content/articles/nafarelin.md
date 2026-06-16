@@ -30,3 +30,11 @@ Intranasal formulation enables non-invasive delivery with mucosal absorption.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Nafarelin |
+| **Category** | Peptide Drugs |
+

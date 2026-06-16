@@ -30,3 +30,11 @@ D-Ser2 modification provides high delta-opioid receptor binding selectivity.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | DSLET |
+| **Category** | Neuropeptides |
+

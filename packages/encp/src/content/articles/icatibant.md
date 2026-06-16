@@ -30,3 +30,11 @@ Competitive B2 receptor blockade prevents bradykinin-mediated vascular permeabil
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Icatibant |
+| **Category** | Peptide Drugs |
+

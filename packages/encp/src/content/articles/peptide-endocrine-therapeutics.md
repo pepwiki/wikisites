@@ -27,3 +27,14 @@ Endocrine disorders are among the most common indications for peptide therapeuti
 - Hormone level monitoring
 - Individualized dosing
 - Combination therapies
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Endocrine Therapeutics |
+| **Category** | Therapeutic Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Endocrine Therapeutics" monograph. encyclopeptide.com.

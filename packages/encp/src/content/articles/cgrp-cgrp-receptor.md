@@ -28,3 +28,11 @@ CGRP binds to the CGRP receptor complex (calcitonin receptor-like receptor CLR +
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | CGRP → CGRP Receptor |
+| **Category** | Peptide Interactions |
+

@@ -30,3 +30,11 @@ Calcitonin receptor activation on osteoclasts inhibits bone resorption and reduc
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Salmon Calcitonin |
+| **Category** | Peptide Drugs |
+

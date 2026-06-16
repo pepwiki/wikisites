@@ -25,3 +25,11 @@ Linaclotide - IBS-C (NCT00765882) is a bioactive peptide with well-characterized
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Linaclotide - IBS-C (NCT00765882) |
+| **Category** | Peptide Clinical Trials |
+

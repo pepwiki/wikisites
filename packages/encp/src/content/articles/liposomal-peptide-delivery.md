@@ -30,3 +30,11 @@ Phospholipid bilayer vesicles protect peptide cargo from enzymatic degradation.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Liposomal Peptide Delivery |
+| **Category** | Drug Delivery |
+

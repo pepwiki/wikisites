@@ -30,3 +30,11 @@ IgE-mediated hypersensitivity requires desensitization protocols or switching to
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Allergy Management |
+| **Category** | Peptide Drugs |
+

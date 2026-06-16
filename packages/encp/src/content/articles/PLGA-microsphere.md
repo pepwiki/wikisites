@@ -28,3 +28,11 @@ PLGA microsphere plays important roles in biological systems and has application
 ## References
 
 1. Encyclopeptide Database. "PLGA-microsphere" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | PLGA microsphere |
+| **Category** | Drug Delivery |
+

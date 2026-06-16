@@ -30,3 +30,11 @@ This melanocyte-stimulating hormone variant has been studied for its biological 
 ## References
 
 1. Encyclopeptide Database. "MSH-gamma-1-13" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | MSH gamma-1-13 |
+| **Category** | Peptide Hormones |
+

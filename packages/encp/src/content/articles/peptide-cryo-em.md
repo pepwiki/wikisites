@@ -28,3 +28,11 @@ Peptide cryo-EM plays important roles in biological systems and has applications
 ## References
 
 1. Encyclopeptide Database. "peptide-cryo-em" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide cryo-EM |
+| **Category** | Structural Biology |
+

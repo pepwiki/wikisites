@@ -25,3 +25,11 @@ Egg Yolk Peptides is a bioactive peptide with well-characterized properties and 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Egg Yolk Peptides |
+| **Category** | Bird Peptides |
+

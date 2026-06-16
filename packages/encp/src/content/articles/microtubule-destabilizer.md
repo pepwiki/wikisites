@@ -28,3 +28,11 @@ Microtubule destabilizer plays important roles in biological systems and has app
 ## References
 
 1. Encyclopeptide Database. "microtubule-destabilizer" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Microtubule destabilizer |
+| **Category** | Structural Biology |
+

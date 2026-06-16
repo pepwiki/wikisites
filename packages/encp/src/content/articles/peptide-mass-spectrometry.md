@@ -28,3 +28,11 @@ Peptide mass spectrometry plays important roles in biological systems and has ap
 ## References
 
 1. Encyclopeptide Database. "peptide-mass-spectrometry" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide mass spectrometry |
+| **Category** | Structural Biology |
+

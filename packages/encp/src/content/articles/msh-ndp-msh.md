@@ -30,3 +30,11 @@ This melanocyte-stimulating hormone variant has been studied for its biological 
 ## References
 
 1. Encyclopeptide Database. "MSH-NDP-MSH" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | MSH NDP-MSH |
+| **Category** | Peptide Hormones |
+

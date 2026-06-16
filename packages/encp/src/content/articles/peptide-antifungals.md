@@ -32,3 +32,11 @@ With rising azole resistance, peptide antifungals offer complementary approaches
 
 - Source: ENCP Peptide Database
 - Category: Peptide Applications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Antifungals |
+| **Category** | Peptide Applications |
+

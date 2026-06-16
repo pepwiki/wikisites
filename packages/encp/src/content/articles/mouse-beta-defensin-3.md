@@ -30,3 +30,11 @@ Chemotactic for immature dendritic cells while providing direct antimicrobial ac
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Mouse Beta-Defensin 3 |
+| **Category** | Antimicrobial Peptides |
+

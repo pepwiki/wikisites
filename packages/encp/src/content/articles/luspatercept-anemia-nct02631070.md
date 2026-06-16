@@ -25,3 +25,11 @@ Luspatercept - Anemia (NCT02631070) is a bioactive peptide with well-characteriz
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Luspatercept - Anemia (NCT02631070) |
+| **Category** | Peptide Clinical Trials |
+

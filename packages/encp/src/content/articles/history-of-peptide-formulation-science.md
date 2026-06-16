@@ -31,3 +31,11 @@ Formulation innovation has been as important as molecular design in enabling suc
 
 - Source: ENCP Peptide Database
 - Category: Peptide History
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | History of Peptide Formulation Science |
+| **Category** | Peptide History |
+

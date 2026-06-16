@@ -28,3 +28,11 @@ Microtubule assembly plays important roles in biological systems and has applica
 ## References
 
 1. Encyclopeptide Database. "microtubule-assembly" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Microtubule assembly |
+| **Category** | Structural Biology |
+

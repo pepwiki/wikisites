@@ -30,3 +30,11 @@ Lipid matrix encapsulation provides sustained release and enzymatic protection.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Solid Lipid Nanoparticles Peptide |
+| **Category** | Drug Delivery |
+

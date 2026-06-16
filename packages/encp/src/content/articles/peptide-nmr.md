@@ -28,3 +28,11 @@ Peptide NMR plays important roles in biological systems and has applications in 
 ## References
 
 1. Encyclopeptide Database. "peptide-nmr" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide NMR |
+| **Category** | Structural Biology |
+

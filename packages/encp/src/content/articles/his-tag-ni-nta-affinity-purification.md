@@ -28,3 +28,11 @@ Imidazole nitrogen atoms of histidine residues coordinate with Ni²⁺ ions chel
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | His-tag → Ni-NTA (Affinity Purification) |
+| **Category** | Peptide Interactions |
+

@@ -30,3 +30,11 @@ GLP-1 receptor activation in brain reduces neuroinflammation and promotes neuron
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Neuroprotective Effects |
+| **Category** | Peptide Drugs |
+

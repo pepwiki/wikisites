@@ -30,3 +30,14 @@ Bioactive peptides derived from food proteins are increasingly used in dietary s
 - **Collagen synthesis**: Hydroxyproline-containing peptides
 - **ACE inhibition**: VPP, IPP peptides
 - **Antioxidant**: Various bioactive sequences
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Food Supplements |
+| **Category** | Nutritional Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Food Supplements" monograph. encyclopeptide.com.

@@ -30,3 +30,11 @@ Selective for muscle-type nAChR subtype providing tool for neuromuscular studies
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Alpha-Conotoxin MI |
+| **Category** | Venom Peptides |
+

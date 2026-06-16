@@ -30,3 +30,11 @@ Hepatic extraction removes 50-60% of portal insulin before systemic circulation.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Hepatic First-Pass |
+| **Category** | Peptide Drugs |
+

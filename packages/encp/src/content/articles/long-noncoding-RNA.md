@@ -28,3 +28,11 @@ Long noncoding RNA plays important roles in biological systems and has applicati
 ## References
 
 1. Encyclopeptide Database. "long-noncoding-RNA" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Long noncoding RNA |
+| **Category** | Structural Biology |
+

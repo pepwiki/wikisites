@@ -25,3 +25,11 @@ ATSP-7041 - First-in-Human (NCT02264614) is a bioactive peptide with well-charac
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | ATSP-7041 - First-in-Human (NCT02264614) |
+| **Category** | Peptide Clinical Trials |
+

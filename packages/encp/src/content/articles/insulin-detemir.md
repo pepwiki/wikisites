@@ -30,3 +30,11 @@ Fatty acid acylation promotes albumin binding reducing clearance and extending d
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Detemir |
+| **Category** | Peptide Drugs |
+

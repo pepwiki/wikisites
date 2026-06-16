@@ -28,3 +28,14 @@ Peptide hormone replacement therapy treats endocrine deficiency disorders by sup
 - **Dosing**: Individualized based on levels and response
 - **Monitoring**: Regular hormone level checks
 - **Side effects**: Related to excess or deficiency
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Hormone Replacement Therapy |
+| **Category** | Therapeutic Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Hormone Replacement Therapy" monograph. encyclopeptide.com.

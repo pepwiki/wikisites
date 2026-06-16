@@ -30,3 +30,11 @@ PLGA and chitosan nanoparticles protect insulin from proteolytic degradation and
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Nanoparticle Encapsulation |
+| **Category** | Peptide Drugs |
+

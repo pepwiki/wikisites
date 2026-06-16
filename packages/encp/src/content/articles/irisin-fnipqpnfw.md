@@ -30,3 +30,11 @@ This irisin variant has been studied for its biological activity and potential t
 ## References
 
 1. Encyclopeptide Database. "irisin-FNIPQPNFW" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Irisin FNIPQPNFW |
+| **Category** | Peptide Hormones |
+

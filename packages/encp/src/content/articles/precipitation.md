@@ -32,3 +32,11 @@ Precipitation has been studied for its potential applications in:
 
 - Source: peptide-manufacturing.md
 - Database: Wikipept Peptide Database
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Precipitation |
+| **Category** | Peptide Manufacturing |
+

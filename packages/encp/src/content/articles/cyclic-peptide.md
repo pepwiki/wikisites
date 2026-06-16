@@ -28,3 +28,11 @@ Cyclic peptide plays important roles in biological systems and has applications 
 ## References
 
 1. Encyclopeptide Database. "cyclic-peptide" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Cyclic peptide |
+| **Category** | Drug Delivery |
+

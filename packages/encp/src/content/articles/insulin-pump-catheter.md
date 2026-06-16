@@ -21,3 +21,18 @@ relatedArticles: ['insulin-pump-therapy', 'insulin-aspart', 'insulin-lispro']
 ## Clinical Considerations
 
 Infusion site rotation every 2-3 days prevents lipohypertrophy and maintains consistent absorption.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Pump Infusion Sets |
+| **Category** | Insulin Family |
+
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Insulin Pump Infusion Sets" monograph. encyclopeptide.com.

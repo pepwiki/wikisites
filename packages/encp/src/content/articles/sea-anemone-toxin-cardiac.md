@@ -30,3 +30,11 @@ Sodium channel modulation affecting cardiac action potential and rhythm.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Sea Anemone Toxin Cardiac |
+| **Category** | Venom Peptides |
+

@@ -28,3 +28,11 @@ FLAG peptide (Asp-Tyr-Lys-Asp-Asp-Asp-Asp-Lys) recognized by anti-FLAG monoclona
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | FLAG-tag → Anti-FLAG (Affinity Purification) |
+| **Category** | Peptide Interactions |
+

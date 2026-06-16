@@ -25,3 +25,11 @@ Amyloid-beta 42 (Aβ42) is a bioactive peptide with well-characterized propertie
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Amyloid-beta 42 (Aβ42) |
+| **Category** | Biomarker Peptides |
+

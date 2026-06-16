@@ -30,3 +30,11 @@ Hypothalamic appetite suppression plus gastric emptying delay and possible therm
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Weight Loss Mechanism |
+| **Category** | Peptide Drugs |
+

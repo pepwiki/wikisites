@@ -30,3 +30,11 @@ This therapeutic peptide has been investigated for its biological activity and t
 ## References
 
 1. Encyclopeptide Database. "peptide-therapeutic-therapeutic-27" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Therapeutic therapeutic-27 |
+| **Category** | Therapeutic Peptides |
+

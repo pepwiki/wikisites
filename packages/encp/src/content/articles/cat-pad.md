@@ -28,3 +28,11 @@ Short Fel d 1 peptides (below threshold for mast cell degranulation) presented b
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Cat-PAD |
+| **Category** | Peptide Vaccines |
+

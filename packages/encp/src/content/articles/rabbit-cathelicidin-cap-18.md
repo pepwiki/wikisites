@@ -30,3 +30,11 @@ Proteolytic processing releases active C-terminal antimicrobial domain.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Rabbit Cathelicidin CAP-18 |
+| **Category** | Antimicrobial Peptides |
+

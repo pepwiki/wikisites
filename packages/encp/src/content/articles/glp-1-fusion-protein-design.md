@@ -30,3 +30,11 @@ Fc or albumin fusion increases molecular size avoiding renal filtration and exte
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Fusion Protein Design |
+| **Category** | Peptide Drugs |
+

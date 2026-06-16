@@ -31,3 +31,11 @@ Disulfide bonds are critical for antibody structure, insulin processing, and ext
 
 - Source: ENCP Peptide Database
 - Category: Peptide Modifications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Disulfide Bonds in Peptides |
+| **Category** | Peptide Modifications |
+

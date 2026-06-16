@@ -30,3 +30,11 @@ Equal proportions of rapid and intermediate acting lispro formulations.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Lispro Mix 50/50 |
+| **Category** | Peptide Drugs |
+

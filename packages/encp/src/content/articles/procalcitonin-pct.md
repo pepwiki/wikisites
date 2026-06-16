@@ -25,3 +25,11 @@ Procalcitonin (PCT) is a bioactive peptide with well-characterized properties an
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Procalcitonin (PCT) |
+| **Category** | Biomarker Peptides |
+

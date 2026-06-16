@@ -31,3 +31,11 @@ Key applications include:
 
 - Database: Wikipept Peptide Database
 - Category: Peptide Purification
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | HPLC for Peptide Purification |
+| **Category** | Peptide Manufacturing |
+

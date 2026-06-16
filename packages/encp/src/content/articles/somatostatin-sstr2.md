@@ -28,3 +28,11 @@ Somatostatin binds SSTR2 (class A GPCR), activating Gαi/o → inhibits adenylyl
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Somatostatin → SSTR2 |
+| **Category** | Peptide Interactions |
+

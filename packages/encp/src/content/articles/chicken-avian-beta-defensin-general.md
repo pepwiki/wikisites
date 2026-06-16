@@ -25,3 +25,11 @@ Chicken Avian Beta-Defensin (General) is a bioactive peptide with well-character
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Chicken Avian Beta-Defensin (General) |
+| **Category** | Bird Peptides |
+

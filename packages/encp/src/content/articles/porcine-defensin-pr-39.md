@@ -30,3 +30,11 @@ PR-rich peptide enters bacteria and inhibits protein synthesis without membrane 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Porcine Defensin PR-39 |
+| **Category** | Antimicrobial Peptides |
+

@@ -30,3 +30,11 @@ Bivalent binding to thrombin active site and exosite-1 provides potent reversibl
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Bivalirudin |
+| **Category** | Peptide Drugs |
+

@@ -30,3 +30,11 @@ Combines ultra-long basal insulin with rapid-acting prandial insulin in single i
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Degludec-Aspart Coformulation |
+| **Category** | Peptide Drugs |
+

@@ -28,3 +28,11 @@ relatedArticles: []
 ## References
 
 1. Encyclopeptide Database. "2-fluoro-rna" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | 2-Fluoro RNA |
+| **Category** | Structural Biology |
+

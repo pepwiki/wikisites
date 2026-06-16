@@ -28,3 +28,11 @@ Actin depolymerization plays important roles in biological systems and has appli
 ## References
 
 1. Encyclopeptide Database. "actin-depolymerization" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Actin depolymerization |
+| **Category** | Structural Biology |
+

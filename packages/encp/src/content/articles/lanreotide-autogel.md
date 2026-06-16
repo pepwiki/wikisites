@@ -30,3 +30,11 @@ Viscous gel formulation enables deep subcutaneous depot for sustained release.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Lanreotide Autogel |
+| **Category** | Peptide Drugs |
+

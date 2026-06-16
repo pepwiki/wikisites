@@ -25,3 +25,11 @@ Rimegepant - Migraine (NCT03235479) is a bioactive peptide with well-characteriz
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Rimegepant - Migraine (NCT03235479) |
+| **Category** | Peptide Clinical Trials |
+

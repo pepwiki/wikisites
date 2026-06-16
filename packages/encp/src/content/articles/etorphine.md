@@ -30,3 +30,11 @@ Thebaine-derived opioid with nanomolar affinity for all opioid receptor types.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Etorphine |
+| **Category** | Neuropeptides |
+

@@ -30,3 +30,11 @@ Opioid antagonist reducing alcohol craving through mesolimbic pathway modulation
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Nalmefene Alcohol Antagonist |
+| **Category** | Neuropeptides |
+

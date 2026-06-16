@@ -30,3 +30,11 @@ Three opioid peptide families acting through mu, delta, kappa, and ORL1 receptor
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Endogenous Opioid System |
+| **Category** | Neuropeptides |
+

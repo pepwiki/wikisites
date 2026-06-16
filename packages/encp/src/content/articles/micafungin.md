@@ -30,3 +30,11 @@ Beta-1,3-glucan synthase inhibition provides fungicidal activity against Candida
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Micafungin |
+| **Category** | Peptide Drugs |
+

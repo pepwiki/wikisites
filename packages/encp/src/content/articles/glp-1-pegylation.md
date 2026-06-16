@@ -30,3 +30,11 @@ PEGylation increases hydrodynamic radius reducing clearance while preserving rec
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 PEGylation |
+| **Category** | Peptide Drugs |
+

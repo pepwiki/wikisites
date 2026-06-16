@@ -26,3 +26,18 @@ relatedArticles: ['glp-1', 'semaglutide', 'glp-1-gastric-emptying']
 - Pre-existing gastroparesis is relative contraindication
 - GLP-1 agonists may exacerbate symptoms
 - Monitor for delayed gastric emptying signs
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Agonist Gastric Safety |
+| **Category** | GLP-1 Family |
+
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "GLP-1 Agonist Gastric Safety" monograph. encyclopeptide.com.

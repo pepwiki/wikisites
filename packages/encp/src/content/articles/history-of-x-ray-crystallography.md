@@ -31,3 +31,11 @@ X-ray crystallography remains the gold standard for high-resolution peptide and 
 
 - Source: ENCP Peptide Database
 - Category: Peptide History
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | History of X-ray Crystallography |
+| **Category** | Peptide History |
+

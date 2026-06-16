@@ -30,3 +30,11 @@ Melittin and other components reducing inflammation through multiple mechanisms.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Bee Venom Anti-Inflammatory |
+| **Category** | Venom Peptides |
+

@@ -32,3 +32,11 @@ Type 1 Diabetes Mellitus has been studied for its potential applications in:
 
 - Source: peptide-diseases.md
 - Database: Wikipept Peptide Database
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Type 1 Diabetes Mellitus |
+| **Category** | Metabolic |
+

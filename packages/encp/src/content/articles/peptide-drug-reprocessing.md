@@ -31,3 +31,14 @@ Reprocessing and reworking are controlled procedures for recovering peptide drug
 - Risk assessment
 - Quality approval
 - Documentation
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Drug Reprocessing |
+| **Category** | Manufacturing |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Drug Reprocessing" monograph. encyclopeptide.com.

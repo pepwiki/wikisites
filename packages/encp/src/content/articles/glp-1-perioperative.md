@@ -30,3 +30,11 @@ Delayed gastric emptying requires consideration for anesthesia aspiration risk a
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Perioperative |
+| **Category** | Peptide Drugs |
+

@@ -30,3 +30,11 @@ Spider peptides targeting overexpressed channels and receptors on cancer cells.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Spider Anticancer Peptides |
+| **Category** | Venom Peptides |
+

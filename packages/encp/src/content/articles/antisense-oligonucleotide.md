@@ -28,3 +28,11 @@ Antisense oligonucleotide plays important roles in biological systems and has ap
 ## References
 
 1. Encyclopeptide Database. "antisense-oligonucleotide" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Antisense oligonucleotide |
+| **Category** | Drug Delivery |
+

@@ -26,3 +26,14 @@ Insulin is one of the most conserved peptides in biology, with homologous hormon
 - Drosophila: 8 ILPs with diverse functions
 - C. elegans: 40 insulin-like genes regulating growth and longevity
 - Hydra: Insulin-related peptides controlling budding
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Phylogenetic Evolution |
+| **Category** | Insulin Family |
+
+## References
+
+1. Encyclopeptide Database. "Insulin Phylogenetic Evolution" monograph. encyclopeptide.com.

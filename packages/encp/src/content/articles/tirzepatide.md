@@ -30,3 +30,11 @@ Hybrid peptide activates both GIP and GLP-1 receptors with balanced potency.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Tirzepatide |
+| **Category** | Peptide Drugs |
+

@@ -25,3 +25,11 @@ PTH (Parathyroid Hormone) is a bioactive peptide with well-characterized propert
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | PTH (Parathyroid Hormone) |
+| **Category** | Biomarker Peptides |
+

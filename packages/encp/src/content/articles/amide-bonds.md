@@ -31,3 +31,11 @@ Amide bond formation and cleavage are central to protein biosynthesis, digestion
 
 - Source: ENCP Peptide Database
 - Category: Peptide Modifications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Amide Bonds in Peptides |
+| **Category** | Peptide Modifications |
+

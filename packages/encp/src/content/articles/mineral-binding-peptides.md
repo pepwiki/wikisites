@@ -25,3 +25,11 @@ Mineral-Binding Peptides is a bioactive peptide with well-characterized properti
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Mineral-Binding Peptides |
+| **Category** | Food Peptides |
+

@@ -30,3 +30,11 @@ Activates adenylate cyclase in neurons and endocrine cells modulating multiple f
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | PACAP |
+| **Category** | Neuropeptides |
+

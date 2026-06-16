@@ -25,3 +25,11 @@ Triazole Stapling (Click Chemistry) is a bioactive peptide with well-characteriz
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Triazole Stapling (Click Chemistry) |
+| **Category** | Peptide Modifications |
+

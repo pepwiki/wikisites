@@ -28,3 +28,11 @@ Microtubule stabilizer plays important roles in biological systems and has appli
 ## References
 
 1. Encyclopeptide Database. "microtubule-stabilizer" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Microtubule stabilizer |
+| **Category** | Structural Biology |
+

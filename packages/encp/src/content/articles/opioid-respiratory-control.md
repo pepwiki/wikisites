@@ -30,3 +30,11 @@ Opioid peptides in brainstem modulate respiratory rhythm and chemosensitivity.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Respiratory Control |
+| **Category** | Neuropeptides |
+

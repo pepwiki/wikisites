@@ -24,3 +24,18 @@ relatedArticles: ['semaglutide', 'liraglutide', 'tirzepatide']
 - **C-16**: Moderate binding (liraglutide)
 - **C-18**: Strong binding (semaglutide)
 - **C-20**: Very strong binding (tirzepatide)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Fatty Acid Conjugation Strategies |
+| **Category** | GLP-1 Family |
+
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "GLP-1 Fatty Acid Conjugation Strategies" monograph. encyclopeptide.com.

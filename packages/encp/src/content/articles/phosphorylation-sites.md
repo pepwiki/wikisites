@@ -27,3 +27,11 @@ Phosphorylation acts as a molecular switch controlling cell cycle, signal transd
 
 - Source: ENCP Peptide Database
 - Category: Peptide Modifications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Phosphorylation Sites |
+| **Category** | Peptide Modifications |
+

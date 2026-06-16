@@ -30,3 +30,11 @@ Enkephalinergic interneurons provide descending and segmental pain inhibition.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Enkephalin Pain Modulation |
+| **Category** | Neuropeptides |
+

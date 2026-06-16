@@ -26,3 +26,14 @@ Crystalline insulin formulations use zinc-mediated hexamer assembly to create or
 - NPH insulin: Protamine-insulin crystals
 - Ultralente insulin: Zinc-insulin crystals (less common now)
 - Glargine: Amorphous microprecipitates (not true crystals)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Crystalline Insulin Formulations |
+| **Category** | Insulin Family |
+
+## References
+
+1. Encyclopeptide Database. "Crystalline Insulin Formulations" monograph. encyclopeptide.com.

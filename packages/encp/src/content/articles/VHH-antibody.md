@@ -28,3 +28,11 @@ VHH antibody plays important roles in biological systems and has applications in
 ## References
 
 1. Encyclopeptide Database. "VHH-antibody" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | VHH antibody |
+| **Category** | Drug Delivery |
+

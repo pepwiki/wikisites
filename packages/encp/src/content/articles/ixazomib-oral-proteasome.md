@@ -29,3 +29,10 @@ Ixazomib is a prodrug that hydrolyzes in plasma to its active form, a boronic ac
 - Multiple myeloma (relapsed/refractory)
 - Used with lenalidomide and dexamethasone (IRd regimen)
 - TOURMALINE-MM1 trial demonstrated PFS benefit
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Ixazomib Oral Proteasome Inhibitor" monograph. encyclopeptide.com.

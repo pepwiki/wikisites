@@ -30,3 +30,11 @@ Venom components cause catecholamine release and direct cardiac effects.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Scorpion Cardiovascular Effects |
+| **Category** | Venom Peptides |
+

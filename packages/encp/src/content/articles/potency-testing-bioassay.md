@@ -32,3 +32,11 @@ Potency Testing (Bioassay) has been studied for its potential applications in:
 
 - Source: peptide-manufacturing.md
 - Database: Wikipept Peptide Database
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Potency Testing (Bioassay) |
+| **Category** | Peptide Manufacturing |
+

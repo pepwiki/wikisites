@@ -28,3 +28,11 @@ Peptide sheet assembly plays important roles in biological systems and has appli
 ## References
 
 1. Encyclopeptide Database. "peptide-sheet-assembly" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide sheet assembly |
+| **Category** | Structural Biology |
+

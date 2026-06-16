@@ -28,3 +28,11 @@ Cell adhesion plays important roles in biological systems and has applications i
 ## References
 
 1. Encyclopeptide Database. "cell-adhesion" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Cell adhesion |
+| **Category** | Structural Biology |
+

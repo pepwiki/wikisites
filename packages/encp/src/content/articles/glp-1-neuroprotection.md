@@ -27,3 +27,14 @@ relatedArticles: ['glp-1', 'semaglutide', 'liraglutide']
 2. Anti-apoptotic: PI3K/Akt pathway activation
 3. Mitochondrial: Improved mitochondrial biogenesis
 4. Synaptic: Enhanced synaptic plasticity
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Agonist Neuroprotective Effects |
+| **Category** | GLP-1 Family |
+
+## References
+
+1. Encyclopeptide Database. "GLP-1 Agonist Neuroprotective Effects" monograph. encyclopeptide.com.

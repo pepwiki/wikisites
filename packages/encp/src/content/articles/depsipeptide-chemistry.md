@@ -29,3 +29,14 @@ Depsipeptides are peptides containing one or more ester bonds in addition to ami
 - Conformational flexibility: Reduced hydrogen bonding
 - Lipophilicity: Generally increased membrane permeability
 - Stability: pH and temperature dependent
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Depsipeptide Chemistry |
+| **Category** | Therapeutic Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Depsipeptide Chemistry" monograph. encyclopeptide.com.

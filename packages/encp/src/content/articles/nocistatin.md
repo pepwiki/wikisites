@@ -30,3 +30,11 @@ Modulates nociceptin signaling with independent antinociceptive properties.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Nocistatin |
+| **Category** | Neuropeptides |
+

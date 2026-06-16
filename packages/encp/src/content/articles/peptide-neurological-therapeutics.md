@@ -28,3 +28,14 @@ Peptide therapeutics for neurological conditions face unique challenges includin
 2. **BBB-shuttle peptides**: Transferrin receptor targeting
 3. **Nasal delivery**: Nose-to-brain pathway
 4. **Focused ultrasound**: Transient BBB opening
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Neurological Therapeutics |
+| **Category** | Therapeutic Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Neurological Therapeutics" monograph. encyclopeptide.com.

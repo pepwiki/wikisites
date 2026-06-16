@@ -28,3 +28,11 @@ Peptide labeling plays important roles in biological systems and has application
 ## References
 
 1. Encyclopeptide Database. "peptide-labeling" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide labeling |
+| **Category** | Structural Biology |
+

@@ -25,3 +25,11 @@ Tetanus Toxin (TeNT) is a bioactive peptide with well-characterized properties a
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Tetanus Toxin (TeNT) |
+| **Category** | Toxin Peptides |
+

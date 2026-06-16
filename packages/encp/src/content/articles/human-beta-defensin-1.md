@@ -30,3 +30,11 @@ Beta-sheet structure stabilized by three disulfide bonds disrupts bacterial memb
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Human Beta-Defensin 1 |
+| **Category** | Antimicrobial Peptides |
+

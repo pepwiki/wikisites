@@ -30,3 +30,11 @@ This chemokine variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "chemokine-CCL21" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Chemokine CCL21 |
+| **Category** | Cytokines |
+

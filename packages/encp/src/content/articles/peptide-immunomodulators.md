@@ -32,3 +32,11 @@ Peptide immunomodulators offer precision immune tuning with fewer off-target eff
 
 - Source: ENCP Peptide Database
 - Category: Peptide Applications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Immunomodulators |
+| **Category** | Peptide Applications |
+

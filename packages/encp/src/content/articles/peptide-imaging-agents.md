@@ -32,3 +32,11 @@ Theranostic pairs (e.g., Ga-68 DOTATATE/Lu-177 DOTATATE) enable same-day diagnos
 
 - Source: ENCP Peptide Database
 - Category: Peptide Applications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Imaging Agents |
+| **Category** | Peptide Applications |
+

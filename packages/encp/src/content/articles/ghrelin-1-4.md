@@ -30,3 +30,11 @@ This ghrelin variant has been studied for its biological activity and potential 
 ## References
 
 1. Encyclopeptide Database. "ghrelin-1-4" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Ghrelin 1-4 |
+| **Category** | Peptide Hormones |
+

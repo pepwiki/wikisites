@@ -29,3 +29,10 @@ Biodegradable rod-shaped PLGA implant that slowly erodes over 28 days (3.6 mg) o
 - Breast cancer (premenopausal, ER-positive)
 - Endometriosis
 - Endometrial thinning (IVF protocols)
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Goserelin Implant Technology" monograph. encyclopeptide.com.

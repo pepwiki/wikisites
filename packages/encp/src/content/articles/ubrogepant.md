@@ -30,3 +30,11 @@ Oral CGRP receptor antagonist for acute migraine pain relief at 2 hours.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Ubrogepant |
+| **Category** | Peptide Drugs |
+

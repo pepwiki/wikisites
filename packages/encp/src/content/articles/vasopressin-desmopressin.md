@@ -30,3 +30,11 @@ This vasopressin variant has been studied for its biological activity and potent
 ## References
 
 1. Encyclopeptide Database. "vasopressin-desmopressin" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Vasopressin desmopressin |
+| **Category** | Peptide Hormones |
+

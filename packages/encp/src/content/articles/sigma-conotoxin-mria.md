@@ -30,3 +30,11 @@ Selective SERT inhibition increasing synaptic serotonin in pain and mood circuit
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Sigma-Conotoxin MrIA |
+| **Category** | Venom Peptides |
+

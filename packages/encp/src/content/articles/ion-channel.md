@@ -28,3 +28,11 @@ Ion channel plays important roles in biological systems and has applications in 
 ## References
 
 1. Encyclopeptide Database. "ion-channel" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Ion channel |
+| **Category** | Structural Biology |
+

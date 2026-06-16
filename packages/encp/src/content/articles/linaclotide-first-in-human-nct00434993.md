@@ -25,3 +25,11 @@ Linaclotide - First-in-Human (NCT00434993) is a bioactive peptide with well-char
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Linaclotide - First-in-Human (NCT00434993) |
+| **Category** | Peptide Clinical Trials |
+

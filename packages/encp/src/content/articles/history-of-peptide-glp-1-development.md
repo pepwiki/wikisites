@@ -32,3 +32,11 @@ GLP-1 agonists represent a paradigm shift in metabolic medicine, with potential 
 
 - Source: ENCP Peptide Database
 - Category: Peptide History
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | History of Peptide-GLP-1 Development |
+| **Category** | Peptide History |
+

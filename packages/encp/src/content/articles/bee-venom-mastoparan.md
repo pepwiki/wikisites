@@ -30,3 +30,11 @@ Alpha-helical peptide activating G-proteins causing mast cell degranulation.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Bee Venom Mastoparan |
+| **Category** | Venom Peptides |
+

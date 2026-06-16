@@ -28,3 +28,11 @@ AVP binds V1aR (class A GPCR), activating Gαq → PLCβ → IP3/DAG → PKC pat
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Vasopressin → V1aR |
+| **Category** | Peptide Interactions |
+

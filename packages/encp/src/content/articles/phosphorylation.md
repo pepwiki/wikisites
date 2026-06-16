@@ -25,3 +25,11 @@ Phosphorylation is a bioactive peptide with well-characterized properties and th
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Phosphorylation |
+| **Category** | Peptide Modifications |
+

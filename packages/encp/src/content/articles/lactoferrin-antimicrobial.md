@@ -30,3 +30,11 @@ Iron sequestration and direct membrane disruption contribute to antimicrobial ac
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Lactoferrin Antimicrobial |
+| **Category** | Antimicrobial Peptides |
+

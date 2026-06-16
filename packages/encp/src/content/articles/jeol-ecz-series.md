@@ -25,3 +25,11 @@ JEOL ECZ Series is a bioactive peptide with well-characterized properties and th
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | JEOL ECZ Series |
+| **Category** | Peptide Research Tools |
+

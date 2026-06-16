@@ -28,3 +28,11 @@ Peptide lyophilization plays important roles in biological systems and has appli
 ## References
 
 1. Encyclopeptide Database. "peptide lyophilization" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide lyophilization |
+| **Category** | Structural Biology |
+

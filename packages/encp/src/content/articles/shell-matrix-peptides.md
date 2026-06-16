@@ -25,3 +25,11 @@ Shell Matrix Peptides is a bioactive peptide with well-characterized properties 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Shell Matrix Peptides |
+| **Category** | Reptile Peptides |
+

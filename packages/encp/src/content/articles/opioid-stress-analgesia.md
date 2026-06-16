@@ -30,3 +30,11 @@ Stress activates POMC and dynorphin systems producing endogenous analgesia.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Stress Analgesia |
+| **Category** | Neuropeptides |
+

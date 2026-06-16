@@ -21,3 +21,10 @@ relatedArticles: ['insulin-glargine-lixisenatide', 'lixisenatide', 'insulin-glar
 ## Clinical Applications
 
 Indicated for type 2 diabetes when metformin alone is insufficient. Provides glycemic control comparable to basal-bolus regimens with lower hypoglycemia risk.
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Insulin Glargine/Lixisenatide Fixed Ratio" monograph. encyclopeptide.com.

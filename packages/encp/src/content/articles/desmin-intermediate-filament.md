@@ -28,3 +28,11 @@ Desmin intermediate filament plays important roles in biological systems and has
 ## References
 
 1. Encyclopeptide Database. "desmin-intermediate-filament" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Desmin intermediate filament |
+| **Category** | Structural Biology |
+

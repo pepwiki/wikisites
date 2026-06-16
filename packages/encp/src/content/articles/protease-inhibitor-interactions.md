@@ -25,3 +25,11 @@ Protease Inhibitor Interactions is a bioactive peptide with well-characterized p
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Protease Inhibitor Interactions |
+| **Category** | Peptide Safety |
+

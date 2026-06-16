@@ -30,3 +30,11 @@ GLP-1 receptor signaling promotes lipolysis and browning of white adipose tissue
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Adipose Tissue Effects |
+| **Category** | Peptide Drugs |
+

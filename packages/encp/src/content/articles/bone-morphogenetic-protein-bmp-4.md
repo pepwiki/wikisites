@@ -30,3 +30,11 @@ This bmp analog variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "bone-morphogenetic-protein-BMP-4" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Bone Morphogenetic Protein BMP-4 |
+| **Category** | Growth Factors |
+

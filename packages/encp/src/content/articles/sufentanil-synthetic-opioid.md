@@ -30,3 +30,11 @@ Higher mu-opioid selectivity provides more predictable cardiovascular profile.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Sufentanil Synthetic Opioid |
+| **Category** | Neuropeptides |
+

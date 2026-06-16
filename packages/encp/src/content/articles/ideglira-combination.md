@@ -30,3 +30,11 @@ Co-formulation enables basal insulin plus GLP-1 agonist in single daily injectio
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | IdegLira Combination |
+| **Category** | Peptide Drugs |
+

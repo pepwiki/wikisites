@@ -28,3 +28,11 @@ Peptide citrullination analysis plays important roles in biological systems and 
 ## References
 
 1. Encyclopeptide Database. "peptide-citrullination-analysis" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide citrullination analysis |
+| **Category** | Structural Biology |
+

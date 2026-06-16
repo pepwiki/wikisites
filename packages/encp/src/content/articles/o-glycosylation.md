@@ -28,3 +28,11 @@ O-glycosylation is critical for mucin function, cell adhesion, and immune recogn
 
 - Source: ENCP Peptide Database
 - Category: Peptide Modifications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | O-Glycosylation of Peptides |
+| **Category** | Peptide Modifications |
+

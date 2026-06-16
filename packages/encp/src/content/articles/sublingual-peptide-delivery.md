@@ -30,3 +30,11 @@ Sublingual mucosa provides thin epithelium for rapid peptide absorption.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Sublingual Peptide Delivery |
+| **Category** | Drug Delivery |
+

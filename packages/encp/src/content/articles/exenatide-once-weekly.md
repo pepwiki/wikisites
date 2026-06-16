@@ -27,3 +27,10 @@ Bydureon encapsulates exenatide in PLGA microspheres that slowly degrade in subc
 - **Tmax**: 2-3 hours (initial), sustained over 7 days
 - **Half-life**: ~5 days (effective)
 - **Steady state**: 2-4 weeks
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Exenatide Once Weekly" monograph. encyclopeptide.com.

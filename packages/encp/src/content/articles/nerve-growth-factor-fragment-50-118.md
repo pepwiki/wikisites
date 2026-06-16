@@ -30,3 +30,11 @@ This ngf analog variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "nerve-growth-factor-fragment-50-118" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Nerve Growth Factor fragment-50-118 |
+| **Category** | Growth Factors |
+

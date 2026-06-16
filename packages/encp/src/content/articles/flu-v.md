@@ -28,3 +28,11 @@ Synthetic peptides from highly conserved regions of M1, M2, and NP; stimulates c
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | FLU-v |
+| **Category** | Peptide Vaccines |
+

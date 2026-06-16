@@ -30,3 +30,11 @@ Acts through GPR10 receptor to stimulate prolactin secretion.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Prolactin-Releasing Peptide |
+| **Category** | Neuropeptides |
+

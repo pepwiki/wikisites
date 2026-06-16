@@ -28,3 +28,11 @@ Peptide nucleic acid hybrid plays important roles in biological systems and has 
 ## References
 
 1. Encyclopeptide Database. "peptide-nucleic-acid-hybrid" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide nucleic acid hybrid |
+| **Category** | Structural Biology |
+

@@ -25,3 +25,11 @@ Khan Academy Amino Acids is a bioactive peptide with well-characterized properti
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Khan Academy Amino Acids |
+| **Category** | Peptide Resources |
+

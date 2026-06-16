@@ -30,3 +30,11 @@ Chimeric design combines antibacterial and antifungal domains in single molecule
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Cecropin-Drosomycin Hybrid |
+| **Category** | Antimicrobial Peptides |
+

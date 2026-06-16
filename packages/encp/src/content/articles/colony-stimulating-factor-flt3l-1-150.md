@@ -30,3 +30,11 @@ This csf variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "colony-stimulating-factor-Flt3L-1-150" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Colony Stimulating Factor Flt3L-1-150 |
+| **Category** | Cytokines |
+

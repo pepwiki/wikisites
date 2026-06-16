@@ -28,3 +28,11 @@ Peptide methylation analysis plays important roles in biological systems and has
 ## References
 
 1. Encyclopeptide Database. "peptide-methylation-analysis" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide methylation analysis |
+| **Category** | Structural Biology |
+

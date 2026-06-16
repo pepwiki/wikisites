@@ -30,3 +30,11 @@ Blocks AMPA and kainate glutamate receptors reducing excitatory pain transmissio
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Spider Toxin PhTx3 |
+| **Category** | Venom Peptides |
+

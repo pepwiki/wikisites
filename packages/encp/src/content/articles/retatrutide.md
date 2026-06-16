@@ -30,3 +30,11 @@ Balanced triple receptor agonism achieves synergistic weight loss exceeding dual
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Retatrutide |
+| **Category** | Peptide Drugs |
+

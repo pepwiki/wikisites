@@ -30,3 +30,11 @@ Dual-use oral antagonist for acute treatment and preventive alternate-day dosing
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Rimegepant |
+| **Category** | Peptide Drugs |
+

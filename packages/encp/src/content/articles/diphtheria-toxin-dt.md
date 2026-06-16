@@ -32,3 +32,11 @@ Diphtheria Toxin (DT) has been studied for its potential applications in:
 
 - Source: toxin-peptides.md
 - Database: Wikipept Peptide Database
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Diphtheria Toxin (DT) |
+| **Category** | Toxin Peptides |
+

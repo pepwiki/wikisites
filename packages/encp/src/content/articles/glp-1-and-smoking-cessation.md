@@ -30,3 +30,11 @@ GLP-1 agonists may reduce nicotine reward through dopaminergic pathway modulatio
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 and Smoking Cessation |
+| **Category** | Peptide Drugs |
+

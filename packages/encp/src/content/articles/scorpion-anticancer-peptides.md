@@ -30,3 +30,11 @@ Chlorotoxin and other scorpion peptides showing selective cancer cell targeting.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Scorpion Anticancer Peptides |
+| **Category** | Venom Peptides |
+

@@ -25,3 +25,11 @@ Rimegepant - First-in-Human (NCT01434008) is a bioactive peptide with well-chara
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Rimegepant - First-in-Human (NCT01434008) |
+| **Category** | Peptide Clinical Trials |
+

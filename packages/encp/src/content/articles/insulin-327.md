@@ -30,3 +30,11 @@ Albumin-binding modification with optimized receptor kinetics for ultra-long act
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin 327 |
+| **Category** | Peptide Drugs |
+

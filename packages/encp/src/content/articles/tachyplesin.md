@@ -30,3 +30,11 @@ Disulfide-stabilized beta-sheet structure inserts into bacterial membranes causi
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Tachyplesin |
+| **Category** | Antimicrobial Peptides |
+

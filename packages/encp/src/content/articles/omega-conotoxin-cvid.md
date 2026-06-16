@@ -30,3 +30,11 @@ Selective N-type blocker showing analgesic efficacy in clinical trials for neuro
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Omega-Conotoxin CVID |
+| **Category** | Venom Peptides |
+

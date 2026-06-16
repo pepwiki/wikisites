@@ -30,3 +30,11 @@ Reduced LL-37 and beta-defensin expression increases susceptibility to skin infe
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Defensin in Atopic Dermatitis |
+| **Category** | Antimicrobial Peptides |
+

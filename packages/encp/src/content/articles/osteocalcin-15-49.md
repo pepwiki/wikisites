@@ -30,3 +30,11 @@ This osteocalcin variant has been studied for its biological activity and potent
 ## References
 
 1. Encyclopeptide Database. "osteocalcin-15-49" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Osteocalcin 15-49 |
+| **Category** | Peptide Hormones |
+

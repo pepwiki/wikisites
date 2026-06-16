@@ -25,3 +25,11 @@ Skin Brightening is a bioactive peptide with well-characterized properties and t
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Skin Brightening |
+| **Category** | Peptide Applications |
+

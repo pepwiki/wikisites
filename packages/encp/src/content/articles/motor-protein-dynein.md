@@ -28,3 +28,11 @@ Motor protein dynein plays important roles in biological systems and has applica
 ## References
 
 1. Encyclopeptide Database. "motor-protein-dynein" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Motor protein dynein |
+| **Category** | Structural Biology |
+

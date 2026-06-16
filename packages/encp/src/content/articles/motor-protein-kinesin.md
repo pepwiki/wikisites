@@ -28,3 +28,11 @@ Motor protein kinesin plays important roles in biological systems and has applic
 ## References
 
 1. Encyclopeptide Database. "motor-protein-kinesin" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Motor protein kinesin |
+| **Category** | Structural Biology |
+

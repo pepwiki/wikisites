@@ -30,3 +30,11 @@ Modulates sodium channel inactivation slowing action potential repolarization.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Delta-Conotoxin PVIA |
+| **Category** | Venom Peptides |
+

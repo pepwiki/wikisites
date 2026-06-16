@@ -28,3 +28,11 @@ Peptide shelf life plays important roles in biological systems and has applicati
 ## References
 
 1. Encyclopeptide Database. "peptide-shelf-life" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide shelf life |
+| **Category** | Structural Biology |
+

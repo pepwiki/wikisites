@@ -30,3 +30,11 @@ NOD2 mutations reduce defensin secretion impairing intestinal antimicrobial defe
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Defensin in IBD |
+| **Category** | Antimicrobial Peptides |
+

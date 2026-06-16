@@ -28,3 +28,11 @@ Actin capping plays important roles in biological systems and has applications i
 ## References
 
 1. Encyclopeptide Database. "actin-capping" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Actin capping |
+| **Category** | Structural Biology |
+

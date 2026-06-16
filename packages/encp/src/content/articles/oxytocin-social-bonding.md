@@ -30,3 +30,11 @@ Oxytocin in nucleus accumbens mediates pair bonding; in amygdala reduces social 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Oxytocin Social Bonding |
+| **Category** | Neuropeptides |
+

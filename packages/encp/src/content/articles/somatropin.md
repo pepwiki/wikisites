@@ -30,3 +30,11 @@ Identical to endogenous GH for replacement therapy in deficiency states.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Somatropin |
+| **Category** | Peptide Drugs |
+

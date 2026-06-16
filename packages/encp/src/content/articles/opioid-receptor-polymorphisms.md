@@ -30,3 +30,11 @@ OPRM1 A118G and other polymorphisms alter opioid receptor function and drug resp
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Receptor Polymorphisms |
+| **Category** | Neuropeptides |
+

@@ -30,3 +30,11 @@ Evolutionary optimized peptides with high potency and selectivity for biological
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Venom Peptide Pharmacology |
+| **Category** | Venom Peptides |
+

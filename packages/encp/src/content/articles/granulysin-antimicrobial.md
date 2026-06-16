@@ -30,3 +30,11 @@ Present in cytotoxic granules of T-cells and NK cells killing intracellular path
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Granulysin Antimicrobial |
+| **Category** | Antimicrobial Peptides |
+

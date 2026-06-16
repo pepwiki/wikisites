@@ -27,3 +27,18 @@ PLGA microspheres encapsulate leuprolide in a biodegradable matrix. Upon subcuta
 ## Clinical Applications
 
 Indicated for prostate cancer, endometriosis, uterine fibroids, and precocious puberty.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Leuprolide Depot Formulation |
+| **Category** | Therapeutic Peptides |
+
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Leuprolide Depot Formulation" monograph. encyclopeptide.com.

@@ -28,3 +28,11 @@ Actin severing plays important roles in biological systems and has applications 
 ## References
 
 1. Encyclopeptide Database. "actin-severing" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Actin severing |
+| **Category** | Structural Biology |
+

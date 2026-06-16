@@ -30,3 +30,11 @@ PLA2 catalyzes membrane phospholipid hydrolysis causing inflammation and allerge
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Bee Venom Phospholipase A2 |
+| **Category** | Venom Peptides |
+

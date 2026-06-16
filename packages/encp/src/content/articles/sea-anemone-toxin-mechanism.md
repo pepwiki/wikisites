@@ -30,3 +30,11 @@ Three-finger fold peptides targeting sodium and potassium channels.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Sea Anemone Toxin Mechanism |
+| **Category** | Venom Peptides |
+

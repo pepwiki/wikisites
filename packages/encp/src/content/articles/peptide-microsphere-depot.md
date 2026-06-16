@@ -30,3 +30,11 @@ PLGA microspheres providing weeks to months of sustained peptide release.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Microsphere Depot |
+| **Category** | Drug Delivery |
+

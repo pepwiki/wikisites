@@ -30,3 +30,11 @@ Peptide coating on microneedle tips deposits drug upon insertion into epidermis.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Coated Microneedle Peptide |
+| **Category** | Drug Delivery |
+

@@ -30,3 +30,11 @@ Submicron droplet size increases surface area enhancing peptide absorption.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Nanoemulsion Peptide Delivery |
+| **Category** | Drug Delivery |
+

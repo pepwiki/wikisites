@@ -30,3 +30,11 @@ Alpha-defensin with disulfide-stabilized structure disrupting bacterial membrane
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Rabbit Defensin NP-1 |
+| **Category** | Antimicrobial Peptides |
+

@@ -28,3 +28,11 @@ CCK-based satiety signals are targets for obesity therapeutics.
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Cholecystokinin Family Peptides |
+| **Category** | Peptide Families |
+

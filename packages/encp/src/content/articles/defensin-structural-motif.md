@@ -30,3 +30,11 @@ Conserved disulfide bond pattern stabilizes beta-sheet structure essential for f
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Defensin Structural Motif |
+| **Category** | Antimicrobial Peptides |
+

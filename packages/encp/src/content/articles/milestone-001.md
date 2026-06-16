@@ -25,3 +25,11 @@ Milestone 001 is a bioactive peptide with well-characterized properties and ther
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Milestone 001 |
+| **Category** | Peptide History |
+

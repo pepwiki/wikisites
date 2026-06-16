@@ -30,3 +30,11 @@ This igf analog variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "insulin-like-growth-factor-40-70" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Like Growth Factor 40-70 |
+| **Category** | Growth Factors |
+

@@ -25,3 +25,11 @@ CRP (C-Reactive Protein) is a bioactive peptide with well-characterized properti
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | CRP (C-Reactive Protein) |
+| **Category** | Inflammatory |
+

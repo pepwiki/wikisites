@@ -30,3 +30,11 @@ Tritium and iodine-labeled peptides enable receptor autoradiography and PET imag
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Peptide Radioligands |
+| **Category** | Neuropeptides |
+

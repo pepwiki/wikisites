@@ -30,3 +30,11 @@ Sclerostin inhibition simultaneously stimulates bone formation and reduces resor
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Romosozumab |
+| **Category** | Peptide Drugs |
+

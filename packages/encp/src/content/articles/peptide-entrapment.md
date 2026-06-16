@@ -28,3 +28,11 @@ Peptide entrapment plays important roles in biological systems and has applicati
 ## References
 
 1. Encyclopeptide Database. "peptide-entrapment" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide entrapment |
+| **Category** | Structural Biology |
+

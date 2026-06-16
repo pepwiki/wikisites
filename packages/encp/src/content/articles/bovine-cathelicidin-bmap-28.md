@@ -30,3 +30,11 @@ Amphipathic helix disrupts both bacterial and fungal membranes.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Bovine Cathelicidin BMAP-28 |
+| **Category** | Antimicrobial Peptides |
+

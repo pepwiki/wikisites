@@ -24,3 +24,14 @@ Triple agonists represent the cutting edge of incretin-based therapy, simultaneo
 ### Pemvidutide (Altimmune)
 - **Mechanism**: GLP-1/glucagon dual agonist (glucagon bias)
 - **Phase 2**: Up to 15.6% weight loss at 48 weeks
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1/GIP/Glucagon Triple Agonists |
+| **Category** | GLP-1 Family |
+
+## References
+
+1. Encyclopeptide Database. "GLP-1/GIP/Glucagon Triple Agonists" monograph. encyclopeptide.com.

@@ -30,3 +30,11 @@ Flexible dosing options for CGRP ligand neutralization in migraine prevention.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Fremanezumab |
+| **Category** | Peptide Drugs |
+

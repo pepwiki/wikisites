@@ -30,3 +30,11 @@ Structural motifs determine mechanism of action and target selectivity.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | AMP Structural Classification |
+| **Category** | Antimicrobial Peptides |
+

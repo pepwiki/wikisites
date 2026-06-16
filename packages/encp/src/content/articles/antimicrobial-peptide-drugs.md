@@ -30,3 +30,14 @@ relatedArticles: ['daptomycin', 'colistin', 'polymyxin-b']
 - Calcium-dependent membrane insertion
 - Ion channel formation
 - Membrane depolarization
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Antimicrobial Peptide Drugs |
+| **Category** | Antimicrobial Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Antimicrobial Peptide Drugs" monograph. encyclopeptide.com.

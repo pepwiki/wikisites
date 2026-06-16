@@ -30,3 +30,11 @@ This food bioactive has been investigated for its biological activity and therap
 ## References
 
 1. Encyclopeptide Database. "food-bioactive-library-food-bioactive-40" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Food Bioactive Library food-bioactive-40 |
+| **Category** | Food-Derived Peptides |
+

@@ -30,3 +30,11 @@ Small molecule CGRP receptor antagonist provides convenient oral prevention ther
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Atogepant |
+| **Category** | Peptide Drugs |
+

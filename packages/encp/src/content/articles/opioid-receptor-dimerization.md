@@ -30,3 +30,11 @@ Heterodimerization alters ligand binding properties and signaling efficiency.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Receptor Dimerization |
+| **Category** | Neuropeptides |
+

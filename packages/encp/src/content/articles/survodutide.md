@@ -30,3 +30,11 @@ Glucagon receptor activation adds hepatic lipid mobilization to GLP-1 metabolic 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Survodutide |
+| **Category** | Peptide Drugs |
+

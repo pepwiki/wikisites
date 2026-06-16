@@ -28,3 +28,11 @@ GAD65-alum induces immune tolerance to GAD65 autoantigen; promotes Th2 shift and
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Diamyd |
+| **Category** | Peptide Vaccines |
+

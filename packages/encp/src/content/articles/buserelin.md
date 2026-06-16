@@ -30,3 +30,11 @@ D-Ser(tBu)6 modification enhances potency and enables multiple delivery routes.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Buserelin |
+| **Category** | Peptide Drugs |
+

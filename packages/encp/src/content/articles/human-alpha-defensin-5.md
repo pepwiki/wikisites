@@ -30,3 +30,11 @@ Secreted into intestinal lumen shaping commensal microbiota composition and prev
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Human Alpha-Defensin 5 |
+| **Category** | Antimicrobial Peptides |
+

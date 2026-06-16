@@ -22,3 +22,10 @@ relatedArticles: ['insulin-lispro', 'insulin-aspart', 'insulin-glulisine']
 ## Structure
 
 Insulin lispro AABC incorporates treprostinil and citrate in the formulation vehicle to enhance local blood flow at the injection site, achieving faster absorption than standard lispro.
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Insulin Lispro AABC" monograph. encyclopeptide.com.

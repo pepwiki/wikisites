@@ -27,3 +27,11 @@ Isopeptide bonds in bacterial pili provide extreme mechanical stability. Enginee
 
 - Source: ENCP Peptide Database
 - Category: Peptide Modifications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Isopeptide Bonds in Peptides |
+| **Category** | Peptide Modifications |
+

@@ -30,3 +30,11 @@ Scorpion-derived peptides modulating immune responses for autoimmune and inflamm
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Scorpion Venom Immunomodulation |
+| **Category** | Venom Peptides |
+

@@ -28,3 +28,11 @@ Activin A is a biomarker for several cancers; follistatin-based therapeutics are
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Inhibin and Activin Family Peptides |
+| **Category** | Peptide Families |
+

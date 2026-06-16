@@ -30,3 +30,11 @@ Biosimilar demonstrating equivalent pharmacokinetic and pharmacodynamic profile.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Teriparatide Biosimilar |
+| **Category** | Peptide Drugs |
+

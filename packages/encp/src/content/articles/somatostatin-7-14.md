@@ -30,3 +30,11 @@ This somatostatin variant has been studied for its biological activity and poten
 ## References
 
 1. Encyclopeptide Database. "somatostatin-7-14" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Somatostatin 7-14 |
+| **Category** | Peptide Hormones |
+

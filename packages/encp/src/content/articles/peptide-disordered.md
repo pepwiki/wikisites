@@ -28,3 +28,11 @@ Peptide disordered plays important roles in biological systems and has applicati
 ## References
 
 1. Encyclopeptide Database. "peptide-disordered" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide disordered |
+| **Category** | Structural Biology |
+

@@ -25,3 +25,11 @@ Synthesis Technology Comparison is a bioactive peptide with well-characterized p
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Synthesis Technology Comparison |
+| **Category** | Peptide Technologies |
+

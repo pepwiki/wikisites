@@ -28,3 +28,11 @@ Peptide-drug conjugate plays important roles in biological systems and has appli
 ## References
 
 1. Encyclopeptide Database. "peptide-drug-conjugate" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide-drug conjugate |
+| **Category** | Drug Delivery |
+

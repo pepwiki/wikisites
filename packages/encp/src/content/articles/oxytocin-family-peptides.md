@@ -26,3 +26,11 @@ Oxytocin is used to induce labor and treat postpartum hemorrhage. Research explo
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Oxytocin Family Peptides |
+| **Category** | Peptide Families |
+

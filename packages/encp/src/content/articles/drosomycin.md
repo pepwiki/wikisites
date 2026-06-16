@@ -30,3 +30,11 @@ Disulfide-stabilized beta-sheet structure targets fungal membranes specifically.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Drosomycin |
+| **Category** | Antimicrobial Peptides |
+

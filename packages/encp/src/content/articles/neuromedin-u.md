@@ -30,3 +30,11 @@ Potent anorexigenic peptide acting through NMU2R in hypothalamus.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Neuromedin U |
+| **Category** | Neuropeptides |
+

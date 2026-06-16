@@ -28,3 +28,11 @@ This molecule plays important roles in biological systems and has potential ther
 ## References
 
 1. Encyclopeptide Database. "signal-ras-raf-mek-erk-2" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Ras-Raf-MEK-ERK Pathway Peptide 2 |
+| **Category** | Signal Transduction Peptides |
+

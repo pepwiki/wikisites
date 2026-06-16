@@ -32,3 +32,11 @@ GLP-1 agonists demonstrate successful market access through cardiovascular outco
 
 - Source: ENCP Peptide Database
 - Category: Peptide Industry
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Market Access Strategies |
+| **Category** | Peptide Industry |
+

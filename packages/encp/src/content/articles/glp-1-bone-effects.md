@@ -30,3 +30,11 @@ GLP-1 receptors on osteoblasts promote bone formation while reducing osteoclast 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Bone Effects |
+| **Category** | Peptide Drugs |
+

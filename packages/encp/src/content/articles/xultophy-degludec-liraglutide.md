@@ -30,3 +30,11 @@ Combines basal insulin with GLP-1 receptor agonist for complementary glucose low
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Xultophy Degludec-Liraglutide |
+| **Category** | Peptide Drugs |
+

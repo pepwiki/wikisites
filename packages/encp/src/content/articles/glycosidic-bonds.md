@@ -27,3 +27,11 @@ Glycopeptide synthesis enables vaccine development (HIV, cancer), antibody engin
 
 - Source: ENCP Peptide Database
 - Category: Peptide Modifications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Glycosidic Bonds in Glycopeptides |
+| **Category** | Peptide Modifications |
+

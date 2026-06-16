@@ -30,3 +30,11 @@ Selectivity for fungal and cancer cell membranes over normal mammalian cells.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Dermaseptin B2 |
+| **Category** | Antimicrobial Peptides |
+

@@ -30,3 +30,11 @@ Selective N-type Cav2.2 channel blockade inhibiting neurotransmitter release in 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Omega-Conotoxin MVIIA |
+| **Category** | Venom Peptides |
+

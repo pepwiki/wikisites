@@ -28,3 +28,11 @@ Peptide scaffold plays important roles in biological systems and has application
 ## References
 
 1. Encyclopeptide Database. "peptide-scaffold" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide scaffold |
+| **Category** | Drug Delivery |
+

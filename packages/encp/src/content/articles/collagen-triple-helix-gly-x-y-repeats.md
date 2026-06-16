@@ -28,3 +28,11 @@ Three collagen polypeptide chains (α chains) wind into right-handed polyproline
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Collagen Triple Helix (Gly-X-Y Repeats) |
+| **Category** | Peptide Interactions |
+

@@ -26,3 +26,11 @@ Histone methylation marks (H3K4me3, H3K27me3, H3K9me3) define active and silent 
 
 - Source: ENCP Peptide Database
 - Category: Peptide Modifications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Methylation Sites |
+| **Category** | Peptide Modifications |
+

@@ -30,3 +30,11 @@ Class B GPCR with large extracellular domain for peptide binding and transmembra
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Receptor Structure |
+| **Category** | Peptide Drugs |
+

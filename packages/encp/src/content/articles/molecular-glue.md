@@ -28,3 +28,11 @@ Molecular glue plays important roles in biological systems and has applications 
 ## References
 
 1. Encyclopeptide Database. "molecular-glue" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Molecular glue |
+| **Category** | Drug Delivery |
+

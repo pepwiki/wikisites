@@ -25,3 +25,11 @@ Pituitary Extract Peptides (Pigeon) is a bioactive peptide with well-characteriz
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Pituitary Extract Peptides (Pigeon) |
+| **Category** | Bird Peptides |
+

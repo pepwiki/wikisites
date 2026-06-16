@@ -32,3 +32,11 @@ Phenylketonuria (PKU) has been studied for its potential applications in:
 
 - Source: peptide-diseases.md
 - Database: Wikipept Peptide Database
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Phenylketonuria (PKU) |
+| **Category** | Metabolic |
+

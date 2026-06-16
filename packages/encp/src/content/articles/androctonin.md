@@ -30,3 +30,11 @@ Defensin-fold peptide disrupts bacterial membranes through electrostatic interac
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Androctonin |
+| **Category** | Antimicrobial Peptides |
+

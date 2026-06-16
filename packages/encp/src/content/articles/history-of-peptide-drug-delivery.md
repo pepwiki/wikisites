@@ -31,3 +31,11 @@ Overcoming the delivery challenge remains the greatest obstacle to broader pepti
 
 - Source: ENCP Peptide Database
 - Category: Peptide History
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | History of Peptide Drug Delivery |
+| **Category** | Peptide History |
+

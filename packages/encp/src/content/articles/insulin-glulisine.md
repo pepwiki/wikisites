@@ -32,3 +32,10 @@ FDA-approved for type 1 and type 2 diabetes as a prandial insulin. Can be admini
 - **Onset**: ~15 minutes
 - **Peak**: 50-90 minutes
 - **Duration**: 3-5 hours
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Insulin Glulisine" monograph. encyclopeptide.com.

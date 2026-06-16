@@ -28,3 +28,11 @@ Locked nucleic acid plays important roles in biological systems and has applicat
 ## References
 
 1. Encyclopeptide Database. "locked-nucleic-acid" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Locked nucleic acid |
+| **Category** | Structural Biology |
+

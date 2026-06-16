@@ -30,3 +30,11 @@ Nasal formulation enables rapid absorption bypassing GI tract for fast onset.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Zavegepant |
+| **Category** | Peptide Drugs |
+

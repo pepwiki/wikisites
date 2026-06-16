@@ -30,3 +30,11 @@ This vegf analog variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "vascular-endothelial-growth-factor-189" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Vascular Endothelial Growth Factor 189 |
+| **Category** | Growth Factors |
+

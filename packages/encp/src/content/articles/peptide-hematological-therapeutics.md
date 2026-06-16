@@ -27,3 +27,14 @@ Peptides play critical roles in hematology, from stimulating blood cell producti
 - Anemia of chronic kidney disease
 - Immune thrombocytopenic purpura
 - Myelodysplastic syndromes
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Hematological Therapeutics |
+| **Category** | Therapeutic Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Hematological Therapeutics" monograph. encyclopeptide.com.

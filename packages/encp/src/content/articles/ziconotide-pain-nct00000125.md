@@ -25,3 +25,11 @@ Ziconotide - Pain (NCT00000125) is a bioactive peptide with well-characterized p
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Ziconotide - Pain (NCT00000125) |
+| **Category** | Peptide Clinical Trials |
+

@@ -30,3 +30,11 @@ Intermittent PTH(1-34) activates PTH1R on osteoblasts promoting bone formation e
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Teriparatide |
+| **Category** | Peptide Drugs |
+

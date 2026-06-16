@@ -28,3 +28,11 @@ Peptide nitrosylation analysis plays important roles in biological systems and h
 ## References
 
 1. Encyclopeptide Database. "peptide-nitrosylation-analysis" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide nitrosylation analysis |
+| **Category** | Structural Biology |
+

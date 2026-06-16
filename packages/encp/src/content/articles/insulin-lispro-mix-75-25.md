@@ -30,3 +30,11 @@ Higher proportion of intermediate-acting component for longer basal coverage.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Lispro Mix 75/25 |
+| **Category** | Peptide Drugs |
+

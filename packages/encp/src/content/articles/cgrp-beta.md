@@ -30,3 +30,11 @@ Co-expressed with CGRP-alpha in sensory neurons with overlapping but distinct fu
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | CGRP Beta |
+| **Category** | Neuropeptides |
+

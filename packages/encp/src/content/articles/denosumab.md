@@ -30,3 +30,11 @@ RANKL neutralization prevents osteoclast differentiation and activity.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Denosumab |
+| **Category** | Peptide Drugs |
+

@@ -27,3 +27,11 @@ LH surge is essential for ovulation; hCG is used in fertility protocols and preg
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | LH Family Peptides |
+| **Category** | Peptide Families |
+

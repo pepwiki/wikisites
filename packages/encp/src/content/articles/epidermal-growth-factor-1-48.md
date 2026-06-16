@@ -30,3 +30,11 @@ This egf analog variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "epidermal-growth-factor-1-48" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Epidermal Growth Factor 1-48 |
+| **Category** | Growth Factors |
+

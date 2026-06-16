@@ -32,3 +32,14 @@ Peptide-quantum dot conjugates combine the bright, photostable fluorescence of s
 - **Biosensing**: FRET-based sensors
 - **Drug delivery**: Targeted payload release
 - **Theranostics**: Combined imaging and therapy
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide-Quantum Dot Conjugates |
+| **Category** | Nanotechnology Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Peptide-Quantum Dot Conjugates" monograph. encyclopeptide.com.

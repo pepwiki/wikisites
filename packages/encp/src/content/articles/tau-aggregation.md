@@ -28,3 +28,11 @@ Tau aggregation plays important roles in biological systems and has applications
 ## References
 
 1. Encyclopeptide Database. "tau-aggregation" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Tau aggregation |
+| **Category** | Structural Biology |
+

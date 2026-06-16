@@ -28,3 +28,11 @@ Drug delivery system plays important roles in biological systems and has applica
 ## References
 
 1. Encyclopeptide Database. "peptide-delivery-system" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Drug delivery system |
+| **Category** | Drug Delivery |
+

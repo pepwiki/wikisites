@@ -30,3 +30,11 @@ Anti-inflammatory and metabolic effects may reduce atrial remodeling and arrhyth
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 and Atrial Fibrillation |
+| **Category** | Peptide Drugs |
+

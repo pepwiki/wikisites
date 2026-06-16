@@ -27,3 +27,14 @@ Developing peptide therapeutics for ophthalmic applications requires overcoming 
 - **Intravitreal**: Direct retinal delivery
 - **Periocular**: Subconjunctival injection
 - **Systemic**: For posterior segment disease
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Ophthalmic Drug Development |
+| **Category** | Drug Development |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Ophthalmic Drug Development" monograph. encyclopeptide.com.

@@ -25,3 +25,11 @@ Amyloid-beta 42/40 Ratio is a bioactive peptide with well-characterized properti
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Amyloid-beta 42/40 Ratio |
+| **Category** | Biomarkers Expanded |
+

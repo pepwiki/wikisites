@@ -31,3 +31,11 @@ ESI and MALDI revolutionized peptide analysis, enabling proteomics, biomarker di
 
 - Source: ENCP Peptide Database
 - Category: Peptide History
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | History of Mass Spectrometry |
+| **Category** | Peptide History |
+

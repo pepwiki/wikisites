@@ -28,3 +28,11 @@ Gonadotropins are used extensively in fertility treatments.
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | FSH Family Peptides |
+| **Category** | Peptide Families |
+

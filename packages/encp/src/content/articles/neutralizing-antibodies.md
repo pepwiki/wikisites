@@ -25,3 +25,11 @@ Neutralizing Antibodies is a bioactive peptide with well-characterized propertie
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Neutralizing Antibodies |
+| **Category** | Peptide Safety |
+

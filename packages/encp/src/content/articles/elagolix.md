@@ -30,3 +30,11 @@ Dose-dependent GnRH antagonism provides partial estrogen suppression for symptom
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Elagolix |
+| **Category** | Peptide Drugs |
+

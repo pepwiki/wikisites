@@ -25,3 +25,11 @@ Cell-Penetrating Peptides is a bioactive peptide with well-characterized propert
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Cell-Penetrating Peptides |
+| **Category** | Peptide Technologies |
+

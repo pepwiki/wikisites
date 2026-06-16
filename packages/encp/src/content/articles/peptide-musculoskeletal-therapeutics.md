@@ -28,3 +28,14 @@ Peptides targeting the musculoskeletal system include bone-building agents, join
 - Osteoarthritis management
 - Fracture healing
 - Muscle wasting
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Musculoskeletal Therapeutics |
+| **Category** | Therapeutic Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Musculoskeletal Therapeutics" monograph. encyclopeptide.com.

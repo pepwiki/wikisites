@@ -32,3 +32,18 @@ relatedArticles: ['insulin-degludec', 'insulin-glargine', 'insulin-analogues']
 | Detemir       | Albumin binding       | ~18h     | Moderate    |
 | Degludec      | Multi-hexamer chains  | >42h     | High        |
 | Glargine U300 | Compact depot         | >30h     | Moderate    |
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Basal Insulin Analogue Design Principles |
+| **Category** | Insulin Family |
+
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Basal Insulin Analogue Design Principles" monograph. encyclopeptide.com.

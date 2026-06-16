@@ -30,3 +30,11 @@ Multiple strategies including permeation enhancers, enzyme inhibitors, and enter
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Oral Insulin Formulation |
+| **Category** | Peptide Drugs |
+

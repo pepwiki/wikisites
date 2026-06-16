@@ -30,3 +30,11 @@ Channelrhodopsin-expressing neurons enabling light-controlled opioid peptide rel
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Peptide Optogenetics |
+| **Category** | Neuropeptides |
+

@@ -30,3 +30,11 @@ Selectively blocking ion channel subtypes for studying channel function.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Scorpion Toxin Research Tools |
+| **Category** | Venom Peptides |
+

@@ -28,3 +28,11 @@ Hyperphosphorylated tau detaches from microtubules and aggregates into paired he
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Tau Aggregation (Self-association) |
+| **Category** | Peptide Interactions |
+

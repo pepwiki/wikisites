@@ -27,3 +27,11 @@ Depsipeptides include anticancer natural products (romidepsin, HDAC inhibitor) a
 
 - Source: ENCP Peptide Database
 - Category: Peptide Modifications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Ester Bonds in Peptides |
+| **Category** | Peptide Modifications |
+

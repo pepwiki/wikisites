@@ -30,3 +30,11 @@ PYY3-36 released from L-cells postprandially reduces appetite through Y2 recepto
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide YY |
+| **Category** | Neuropeptides |
+

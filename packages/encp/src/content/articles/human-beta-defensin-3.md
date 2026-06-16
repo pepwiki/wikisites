@@ -30,3 +30,11 @@ Dual function as antimicrobial agent and CCR6 ligand recruiting immature dendrit
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Human Beta-Defensin 3 |
+| **Category** | Antimicrobial Peptides |
+

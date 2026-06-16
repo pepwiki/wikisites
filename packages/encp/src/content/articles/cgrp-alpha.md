@@ -30,3 +30,11 @@ Potent vasodilator released from sensory neurons mediating neurogenic inflammati
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | CGRP Alpha |
+| **Category** | Neuropeptides |
+

@@ -31,3 +31,11 @@ SPPS democratized peptide research and enabled the therapeutic peptide industry.
 
 - Source: ENCP Peptide Database
 - Category: Peptide History
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | History of Peptide Synthesis |
+| **Category** | Peptide History |
+

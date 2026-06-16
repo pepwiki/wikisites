@@ -25,3 +25,11 @@ Exendin-3 is a bioactive peptide with well-characterized properties and therapeu
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Exendin-3 |
+| **Category** | Reptile Peptides |
+

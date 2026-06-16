@@ -25,3 +25,11 @@ Plecanatide - CIC (NCT01996240) is a bioactive peptide with well-characterized p
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Plecanatide - CIC (NCT01996240) |
+| **Category** | Peptide Clinical Trials |
+

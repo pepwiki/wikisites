@@ -30,3 +30,11 @@ Oral antagonist blocking opioid effects for relapse prevention.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Naltrexone Maintenance |
+| **Category** | Neuropeptides |
+

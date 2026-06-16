@@ -30,3 +30,11 @@ Combined mu-opioid agonism and NRI providing multimodal analgesia.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Tapentadol Dual Mechanism |
+| **Category** | Neuropeptides |
+

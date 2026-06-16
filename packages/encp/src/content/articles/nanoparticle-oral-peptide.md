@@ -30,3 +30,11 @@ Encapsulation protects from proteolysis while particle size enables M-cell uptak
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Nanoparticle Oral Peptide |
+| **Category** | Drug Delivery |
+

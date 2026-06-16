@@ -32,3 +32,11 @@ Dual sourcing, inventory management, and quality agreements ensure reliable pept
 
 - Source: ENCP Peptide Database
 - Category: Peptide Industry
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Supply Chain Management |
+| **Category** | Peptide Industry |
+

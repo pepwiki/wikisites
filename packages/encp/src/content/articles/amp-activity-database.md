@@ -30,3 +30,11 @@ Comprehensive activity data enabling structure-activity relationship analysis.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | AMP Activity Database |
+| **Category** | Antimicrobial Peptides |
+

@@ -30,3 +30,11 @@ Multi-compartment nanoparticles enabling simultaneous delivery of multiple pepti
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Combination Delivery |
+| **Category** | Drug Delivery |
+

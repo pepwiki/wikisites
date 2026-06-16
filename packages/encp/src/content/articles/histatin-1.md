@@ -30,3 +30,11 @@ Constitutively expressed in salivary glands providing baseline antifungal protec
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Histatin 1 |
+| **Category** | Antimicrobial Peptides |
+

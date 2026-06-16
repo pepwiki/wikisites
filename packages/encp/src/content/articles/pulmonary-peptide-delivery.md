@@ -30,3 +30,11 @@ Dry powder or aerosol formulations depositing peptides in deep lung for absorpti
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Pulmonary Peptide Delivery |
+| **Category** | Drug Delivery |
+

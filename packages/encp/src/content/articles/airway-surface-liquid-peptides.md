@@ -30,3 +30,11 @@ LL-37 and beta-defensins in ASL provide first-line defense against inhaled patho
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Airway Surface Liquid Peptides |
+| **Category** | Antimicrobial Peptides |
+

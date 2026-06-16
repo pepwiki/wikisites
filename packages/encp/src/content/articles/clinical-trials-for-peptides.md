@@ -31,3 +31,11 @@ Key applications include:
 
 - Database: Wikipept Peptide Database
 - Category: Regulatory
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Clinical Trials for Peptides |
+| **Category** | Regulatory |
+

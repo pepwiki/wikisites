@@ -28,3 +28,11 @@ Peptide hydrogel self-assembly plays important roles in biological systems and h
 ## References
 
 1. Encyclopeptide Database. "peptide-hydrogel-self-assembly" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide hydrogel self-assembly |
+| **Category** | Structural Biology |
+

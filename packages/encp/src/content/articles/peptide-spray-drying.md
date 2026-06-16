@@ -30,3 +30,11 @@ Controlled spray-drying producing particles with optimal aerodynamic diameter.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Spray-Drying |
+| **Category** | Drug Delivery |
+

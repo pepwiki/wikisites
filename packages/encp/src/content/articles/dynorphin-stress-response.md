@@ -30,3 +30,11 @@ Kappa-opioid activation by dynorphin mediates stress-related aversion and dyspho
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Dynorphin Stress Response |
+| **Category** | Neuropeptides |
+

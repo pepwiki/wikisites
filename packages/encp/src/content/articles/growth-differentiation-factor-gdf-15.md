@@ -30,3 +30,11 @@ This gdf analog variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "growth-differentiation-factor-GDF-15" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Growth Differentiation Factor GDF-15 |
+| **Category** | Growth Factors |
+

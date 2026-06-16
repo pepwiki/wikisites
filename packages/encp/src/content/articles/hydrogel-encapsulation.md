@@ -28,3 +28,11 @@ Hydrogel encapsulation plays important roles in biological systems and has appli
 ## References
 
 1. Encyclopeptide Database. "hydrogel-encapsulation" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Hydrogel encapsulation |
+| **Category** | Drug Delivery |
+

@@ -27,3 +27,11 @@ BNP and NT-proBNP are gold standard biomarkers for heart failure diagnosis and m
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Natriuretic Peptide Family |
+| **Category** | Peptide Families |
+

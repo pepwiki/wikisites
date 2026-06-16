@@ -32,3 +32,11 @@ Daptomycin and polymyxins are clinically used AMPs. New AMPs are in development 
 
 - Source: ENCP Peptide Database
 - Category: Peptide Applications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Antibiotics |
+| **Category** | Peptide Applications |
+

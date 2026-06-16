@@ -25,3 +25,11 @@ Formulation (5 processes) is a bioactive peptide with well-characterized propert
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Formulation (5 processes) |
+| **Category** | Peptide Manufacturing |
+

@@ -20,3 +20,11 @@ Free PSA is a bioactive peptide with well-characterized properties and therapeut
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Free PSA |
+| **Category** | Biomarkers Expanded |
+

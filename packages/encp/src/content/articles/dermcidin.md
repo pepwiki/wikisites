@@ -30,3 +30,11 @@ Constitutively secreted into sweat providing broad-spectrum antimicrobial activi
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Dermcidin |
+| **Category** | Antimicrobial Peptides |
+

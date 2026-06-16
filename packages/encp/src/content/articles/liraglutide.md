@@ -30,3 +30,11 @@ Palmitoyl-Lys26 enables albumin binding extending half-life to 13 hours for once
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Liraglutide |
+| **Category** | Peptide Drugs |
+

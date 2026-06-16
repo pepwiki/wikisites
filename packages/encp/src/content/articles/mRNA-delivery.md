@@ -28,3 +28,11 @@ mRNA delivery plays important roles in biological systems and has applications i
 ## References
 
 1. Encyclopeptide Database. "mRNA-delivery" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | mRNA delivery |
+| **Category** | Drug Delivery |
+

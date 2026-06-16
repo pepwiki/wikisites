@@ -27,3 +27,11 @@ ACE inhibitors increase bradykinin levels, contributing to their antihypertensiv
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Bradykinin Family Peptides |
+| **Category** | Peptide Families |
+

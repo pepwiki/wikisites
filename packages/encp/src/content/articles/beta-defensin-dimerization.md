@@ -30,3 +30,11 @@ Dimeric form shows enhanced binding to bacterial membranes through increased avi
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Beta-Defensin Dimerization |
+| **Category** | Antimicrobial Peptides |
+

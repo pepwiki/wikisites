@@ -25,3 +25,11 @@ Purification (10 processes) is a bioactive peptide with well-characterized prope
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Purification (10 processes) |
+| **Category** | Peptide Manufacturing |
+

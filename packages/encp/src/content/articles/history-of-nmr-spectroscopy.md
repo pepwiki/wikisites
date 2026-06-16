@@ -31,3 +31,11 @@ NMR provides unique insights into peptide dynamics and interactions that crystal
 
 - Source: ENCP Peptide Database
 - Category: Peptide History
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | History of NMR Spectroscopy |
+| **Category** | Peptide History |
+

@@ -30,3 +30,11 @@ Biosimilar version of conventional 70/30 premixed insulin formulation.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Biosimilar Premixed 70/30 |
+| **Category** | Peptide Drugs |
+

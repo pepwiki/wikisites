@@ -31,3 +31,14 @@ Peptide biomarkers are measurable peptide fragments in biological fluids that in
 - Treatment response monitoring
 - Risk stratification
 - Companion diagnostics for targeted therapy
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Biomarker Diagnostics |
+| **Category** | Diagnostics |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Biomarker Diagnostics" monograph. encyclopeptide.com.

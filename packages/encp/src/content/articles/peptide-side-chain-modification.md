@@ -28,3 +28,11 @@ Peptide side-chain modification plays important roles in biological systems and 
 ## References
 
 1. Encyclopeptide Database. "peptide-side-chain-modification" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide side-chain modification |
+| **Category** | Drug Delivery |
+

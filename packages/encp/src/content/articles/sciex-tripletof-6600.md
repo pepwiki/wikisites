@@ -25,3 +25,11 @@ Sciex TripleTOF 6600 is a bioactive peptide with well-characterized properties a
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Sciex TripleTOF 6600 |
+| **Category** | Peptide Research Tools |
+

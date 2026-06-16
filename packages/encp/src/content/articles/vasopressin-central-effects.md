@@ -30,3 +30,11 @@ V1a receptors in brain mediate social recognition, pair bonding, and aggression.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Vasopressin Central Effects |
+| **Category** | Neuropeptides |
+

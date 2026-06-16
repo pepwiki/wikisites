@@ -32,3 +32,11 @@ Recombinant Expression has been studied for its potential applications in:
 
 - Source: peptide-manufacturing.md
 - Database: Wikipept Peptide Database
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Recombinant Expression |
+| **Category** | Peptide Manufacturing |
+

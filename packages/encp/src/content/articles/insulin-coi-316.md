@@ -30,3 +30,11 @@ High albumin affinity combined with slow receptor dissociation enables once-week
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin COI-316 |
+| **Category** | Peptide Drugs |
+

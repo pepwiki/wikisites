@@ -30,3 +30,11 @@ Selective interaction with phosphatidylserine causing cancer cell lysis.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Wasp Venom Polybia-MP1 |
+| **Category** | Venom Peptides |
+

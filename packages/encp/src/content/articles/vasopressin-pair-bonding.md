@@ -30,3 +30,11 @@ V1a receptor distribution in ventral pallidum determines pair bonding capacity.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Vasopressin Pair Bonding |
+| **Category** | Neuropeptides |
+

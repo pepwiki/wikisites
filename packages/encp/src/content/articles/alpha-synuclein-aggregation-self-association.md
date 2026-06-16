@@ -25,3 +25,11 @@ Alpha-synuclein Aggregation (Self-association) is a bioactive peptide with well-
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Alpha-synuclein Aggregation (Self-association) |
+| **Category** | Peptide Interactions |
+

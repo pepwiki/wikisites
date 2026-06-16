@@ -30,3 +30,11 @@ Hypothalamic kappa-opioid involved in neuroendocrine regulation.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Beta-Neo-Endorphin |
+| **Category** | Neuropeptides |
+

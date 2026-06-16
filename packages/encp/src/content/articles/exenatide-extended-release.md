@@ -30,3 +30,11 @@ PLGA microsphere technology enables gradual drug release over one week.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Exenatide Extended Release |
+| **Category** | Peptide Drugs |
+

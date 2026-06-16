@@ -30,3 +30,11 @@ Alpha-helical structure enables membrane insertion and pore formation in bacteri
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Magainin 2 |
+| **Category** | Antimicrobial Peptides |
+

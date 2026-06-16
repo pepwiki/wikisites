@@ -30,3 +30,11 @@ Two alpha-helical domains enable membrane insertion and disruption of gram-negat
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Cecropin A |
+| **Category** | Antimicrobial Peptides |
+

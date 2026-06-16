@@ -30,3 +30,11 @@ Complex interplay of orexigenic and anorexigenic peptides in hypothalamic circui
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Appetite-Regulating Peptides |
+| **Category** | Neuropeptides |
+

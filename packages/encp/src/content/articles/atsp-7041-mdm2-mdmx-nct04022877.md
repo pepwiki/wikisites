@@ -25,3 +25,11 @@ ATSP-7041 - MDM2/MDMX (NCT04022877) is a bioactive peptide with well-characteriz
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | ATSP-7041 - MDM2/MDMX (NCT04022877) |
+| **Category** | Peptide Clinical Trials |
+

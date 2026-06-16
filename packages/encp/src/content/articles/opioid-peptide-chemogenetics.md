@@ -30,3 +30,11 @@ Designer receptors enabling selective pharmacological control of opioid peptide 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Peptide Chemogenetics |
+| **Category** | Neuropeptides |
+

@@ -25,3 +25,11 @@ By Regulatory Burden is a bioactive peptide with well-characterized properties a
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | By Regulatory Burden |
+| **Category** | Peptide Safety |
+

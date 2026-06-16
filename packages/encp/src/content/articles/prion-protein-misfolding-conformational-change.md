@@ -28,3 +28,11 @@ PrPC (predominantly α-helical) converts to PrPSc (β-sheet-rich) through templa
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Prion Protein Misfolding (Conformational Change) |
+| **Category** | Peptide Interactions |
+

@@ -30,3 +30,11 @@ LL-37 and defensins promote angiogenesis, re-epithelialization, and infection co
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Wound Healing AMPs |
+| **Category** | Antimicrobial Peptides |
+

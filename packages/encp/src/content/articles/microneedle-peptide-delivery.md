@@ -30,3 +30,11 @@ Polymer microneedles dissolve in skin delivering peptides across stratum corneum
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Microneedle Peptide Delivery |
+| **Category** | Drug Delivery |
+

@@ -25,3 +25,11 @@ Computational Technology Comparison is a bioactive peptide with well-characteriz
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Computational Technology Comparison |
+| **Category** | Peptide Technologies |
+

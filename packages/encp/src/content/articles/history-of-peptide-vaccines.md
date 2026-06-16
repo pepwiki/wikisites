@@ -31,3 +31,11 @@ Peptide vaccines offer safety, specificity, and rapid design. Neoantigen approac
 
 - Source: ENCP Peptide Database
 - Category: Peptide History
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | History of Peptide Vaccines |
+| **Category** | Peptide History |
+

@@ -30,3 +30,11 @@ This tnf variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "tumor-necrosis-factor-TRAIL-1-180" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Tumor Necrosis Factor TRAIL-1-180 |
+| **Category** | Cytokines |
+

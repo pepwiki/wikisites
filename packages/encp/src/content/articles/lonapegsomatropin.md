@@ -30,3 +30,11 @@ PEG-somatropin prodrug cleaves in vivo releasing active growth hormone.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Lonapegsomatropin |
+| **Category** | Peptide Drugs |
+

@@ -27,3 +27,11 @@ VIP is being studied for pulmonary hypertension, Crohn disease, and sarcoidosis.
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | VIP Family Peptides |
+| **Category** | Peptide Families |
+

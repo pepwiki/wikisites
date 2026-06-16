@@ -29,3 +29,11 @@ EGFR-targeting therapies (cetuximab, erlotinib) are cornerstone cancer treatment
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Epidermal Growth Factor Family |
+| **Category** | Peptide Families |
+

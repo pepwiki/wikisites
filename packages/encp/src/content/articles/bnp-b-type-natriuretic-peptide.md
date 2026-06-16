@@ -25,3 +25,11 @@ BNP (B-Type Natriuretic Peptide) is a bioactive peptide with well-characterized 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | BNP (B-Type Natriuretic Peptide) |
+| **Category** | Biomarker Peptides |
+

@@ -30,3 +30,11 @@ Autoantibodies bind insulin reversibly causing alternating hyper- and hypoglycem
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Antibody Syndrome |
+| **Category** | Peptide Drugs |
+

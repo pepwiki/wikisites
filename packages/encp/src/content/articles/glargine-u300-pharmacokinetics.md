@@ -30,3 +30,11 @@ Smaller depot size leads to delayed and more uniform absorption compared to glar
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Glargine U300 Pharmacokinetics |
+| **Category** | Peptide Drugs |
+

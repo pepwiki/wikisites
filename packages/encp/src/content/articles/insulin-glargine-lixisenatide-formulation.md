@@ -27,3 +27,14 @@ Soliqua/Suliqua represents a challenging co-formulation requiring compatibility 
 - Chamber 2: Lixisenatide (33 mcg/mL)
 - Mixing occurs during injection
 - Fixed ratio maintained throughout use
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Soliqua/Suliqua Co-Formulation Technology |
+| **Category** | Insulin Family |
+
+## References
+
+1. Encyclopeptide Database. "Soliqua/Suliqua Co-Formulation Technology" monograph. encyclopeptide.com.

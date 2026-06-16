@@ -28,3 +28,11 @@ Peptide sequencing plays important roles in biological systems and has applicati
 ## References
 
 1. Encyclopeptide Database. "peptide-sequencing" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide sequencing |
+| **Category** | Structural Biology |
+

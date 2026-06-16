@@ -27,3 +27,14 @@ Topical peptide therapeutics face unique challenges related to skin barrier func
 - **Physical enhancement**: Iontophoresis, microneedles
 - **Nanotechnology**: Liposomes, nanoparticles
 - **Peptide modification**: Lipidation, cyclization
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Dermatological Drug Development |
+| **Category** | Drug Development |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Dermatological Drug Development" monograph. encyclopeptide.com.

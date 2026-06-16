@@ -30,3 +30,11 @@ Biodegradable depot provides sustained GnRH receptor activation suppressing gona
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Goserelin |
+| **Category** | Peptide Drugs |
+

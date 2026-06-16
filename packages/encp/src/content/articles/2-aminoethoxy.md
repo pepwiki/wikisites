@@ -28,3 +28,11 @@ relatedArticles: []
 ## References
 
 1. Encyclopeptide Database. "2-aminoethoxy" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | 2-Aminoethoxy |
+| **Category** | Structural Biology |
+

@@ -30,3 +30,11 @@ Three intramolecular disulfide bonds create rigid beta-sheet structure enabling 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Human Alpha-Defensin 1 |
+| **Category** | Antimicrobial Peptides |
+

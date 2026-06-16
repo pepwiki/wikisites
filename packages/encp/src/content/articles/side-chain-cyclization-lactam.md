@@ -25,3 +25,11 @@ Side Chain Cyclization (Lactam) is a bioactive peptide with well-characterized p
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Side Chain Cyclization (Lactam) |
+| **Category** | Peptide Modifications |
+

@@ -30,3 +30,11 @@ Most potent commercially available synthetic opioid for large animal use.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Carfentanil Veterinary |
+| **Category** | Neuropeptides |
+

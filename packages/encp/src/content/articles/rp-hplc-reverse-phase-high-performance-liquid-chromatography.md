@@ -25,3 +25,11 @@ RP-HPLC (Reverse Phase High Performance Liquid Chromatography) is a bioactive pe
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | RP-HPLC (Reverse Phase High Performance Liquid Chromatography) |
+| **Category** | Peptide Manufacturing |
+

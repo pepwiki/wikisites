@@ -31,3 +31,11 @@ Key applications include:
 
 - Database: Wikipept Peptide Database
 - Category: Peptide Analysis
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | DLS for Peptide Size |
+| **Category** | Peptide Analysis |
+

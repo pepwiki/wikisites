@@ -30,3 +30,11 @@ IgG Fc domain fusion utilizing neonatal Fc receptor recycling for extended half-
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Fc Fusion Technology |
+| **Category** | Drug Delivery |
+

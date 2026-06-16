@@ -25,3 +25,11 @@ Neuroendocrine Tumors is a bioactive peptide with well-characterized properties 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Neuroendocrine Tumors |
+| **Category** | Oncology |
+

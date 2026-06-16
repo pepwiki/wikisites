@@ -30,3 +30,11 @@ Wasp venom kinins activate B2 receptors causing pain and inflammatory responses.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Wasp Venom Brachykinin |
+| **Category** | Venom Peptides |
+

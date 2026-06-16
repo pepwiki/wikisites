@@ -30,3 +30,11 @@ SNAC raises local gastric pH protecting semaglutide and enhancing transcellular 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Oral Semaglutide |
+| **Category** | Peptide Drugs |
+

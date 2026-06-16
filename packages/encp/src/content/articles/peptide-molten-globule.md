@@ -28,3 +28,11 @@ Peptide molten globule plays important roles in biological systems and has appli
 ## References
 
 1. Encyclopeptide Database. "peptide-molten-globule" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide molten globule |
+| **Category** | Structural Biology |
+

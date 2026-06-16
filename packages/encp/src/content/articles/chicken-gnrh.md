@@ -25,3 +25,11 @@ Chicken GnRH is a bioactive peptide with well-characterized properties and thera
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Chicken GnRH |
+| **Category** | Bird Peptides |
+

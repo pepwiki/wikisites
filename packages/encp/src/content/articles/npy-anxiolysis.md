@@ -30,3 +30,11 @@ NPY released in amygdala reduces anxiety through Y1 receptor activation.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | NPY Anxiolysis |
+| **Category** | Neuropeptides |
+

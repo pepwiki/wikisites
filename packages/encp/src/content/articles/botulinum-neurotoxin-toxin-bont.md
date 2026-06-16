@@ -32,3 +32,11 @@ Botulinum Neurotoxin (α-toxin / BoNT) has been studied for its potential applic
 
 - Source: toxin-peptides.md
 - Database: Wikipept Peptide Database
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Botulinum Neurotoxin (α-toxin / BoNT) |
+| **Category** | Toxin Peptides |
+

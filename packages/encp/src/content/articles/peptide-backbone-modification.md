@@ -28,3 +28,11 @@ Peptide backbone modification plays important roles in biological systems and ha
 ## References
 
 1. Encyclopeptide Database. "peptide-backbone-modification" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide backbone modification |
+| **Category** | Drug Delivery |
+

@@ -30,3 +30,11 @@ Intestinal cecropin provides mucosal defense against gram-negative enteric bacte
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Cecropin P1 |
+| **Category** | Antimicrobial Peptides |
+

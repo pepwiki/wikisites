@@ -28,3 +28,11 @@ Half-life extension plays important roles in biological systems and has applicat
 ## References
 
 1. Encyclopeptide Database. "half-life-extension" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Half-life extension |
+| **Category** | Drug Delivery |
+

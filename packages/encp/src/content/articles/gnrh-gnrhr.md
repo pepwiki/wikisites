@@ -28,3 +28,11 @@ GnRH binds GnRHR (class A GPCR) on anterior pituitary gonadotrophs, activating G
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GnRH → GnRHR |
+| **Category** | Peptide Interactions |
+

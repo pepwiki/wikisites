@@ -29,3 +29,10 @@ Carfilzomib is a tetrapeptide epoxyketone derived from the natural product epoxo
 - Multiple myeloma (relapsed/refractory)
 - Often used in combination with dexamethasone or lenalidomide
 - CARFILZOMIB demonstrated superiority over bortezomib in some settings
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Carfilzomib Proteasome Inhibitor" monograph. encyclopeptide.com.

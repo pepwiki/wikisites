@@ -27,3 +27,14 @@ GLP-1/glucagon dual agonists are next-generation incretin-based therapies target
 | MEDI0382      | AstraZeneca  | Phase 2|
 | SAR425899     | Sanofi       | Phase 2|
 | VB4665       | Zealand/Viking| Phase 1|
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1/Glucagon Dual Agonists |
+| **Category** | GLP-1 Family |
+
+## References
+
+1. Encyclopeptide Database. "GLP-1/Glucagon Dual Agonists" monograph. encyclopeptide.com.

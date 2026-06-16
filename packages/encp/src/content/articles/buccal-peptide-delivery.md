@@ -30,3 +30,11 @@ Adhesive patches on buccal mucosa providing controlled peptide absorption.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Buccal Peptide Delivery |
+| **Category** | Drug Delivery |
+

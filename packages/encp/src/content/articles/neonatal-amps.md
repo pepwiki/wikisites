@@ -30,3 +30,11 @@ Developmental delay in AMP expression increases vulnerability to early-life infe
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Neonatal AMPs |
+| **Category** | Antimicrobial Peptides |
+

@@ -30,3 +30,11 @@ Glucuronidation at C6 position enhances mu-opioid receptor binding and analgesic
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Morphine-6-Glucuronide |
+| **Category** | Neuropeptides |
+

@@ -30,3 +30,11 @@ This cholecystokinin variant has been studied for its biological activity and po
 ## References
 
 1. Encyclopeptide Database. "CCK-14" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | CCK 14 |
+| **Category** | Neuropeptides |
+

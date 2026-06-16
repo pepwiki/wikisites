@@ -28,3 +28,11 @@ Epigenetics plays important roles in biological systems and has applications in 
 ## References
 
 1. Encyclopeptide Database. "epigenetics" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Epigenetics |
+| **Category** | Structural Biology |
+

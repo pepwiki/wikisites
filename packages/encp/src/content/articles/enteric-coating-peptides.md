@@ -31,3 +31,11 @@ Key applications include:
 
 - Database: Wikipept Peptide Database
 - Category: Drug Delivery
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Enteric Coating for Peptides |
+| **Category** | Drug Delivery |
+

@@ -32,3 +32,11 @@ Sterility Testing (Microbial Limits) has been studied for its potential applicat
 
 - Source: peptide-manufacturing.md
 - Database: Wikipept Peptide Database
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Sterility Testing (Microbial Limits) |
+| **Category** | Peptide Manufacturing |
+

@@ -30,3 +30,11 @@ GLP-1 receptors in hypothalamus and brainstem mediate satiety and reduce food in
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Central Appetite Effects |
+| **Category** | Peptide Drugs |
+

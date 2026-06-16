@@ -25,3 +25,11 @@ Insulin A-chain ↔ B-chain (Disulfide Bonds) is a bioactive peptide with well-c
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin A-chain ↔ B-chain (Disulfide Bonds) |
+| **Category** | Peptide Interactions |
+

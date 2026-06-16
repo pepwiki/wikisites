@@ -25,3 +25,11 @@ Gila Monster Venom Protein is a bioactive peptide with well-characterized proper
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Gila Monster Venom Protein |
+| **Category** | Reptile Peptides |
+

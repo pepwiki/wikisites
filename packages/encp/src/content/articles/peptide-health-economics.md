@@ -32,3 +32,14 @@ Health economic evaluation of peptide therapeutics is critical for market access
 | Administration      | SC vs IV vs oral        |
 | Monitoring          | Lab tests, imaging      |
 | Adverse events      | Management costs        |
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Health Economics |
+| **Category** | Health Economics |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Health Economics" monograph. encyclopeptide.com.

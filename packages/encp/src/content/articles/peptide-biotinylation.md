@@ -28,3 +28,11 @@ Peptide biotinylation plays important roles in biological systems and has applic
 ## References
 
 1. Encyclopeptide Database. "peptide-biotinylation" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide biotinylation |
+| **Category** | Structural Biology |
+

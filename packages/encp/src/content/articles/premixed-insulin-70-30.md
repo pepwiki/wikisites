@@ -30,3 +30,11 @@ Combines intermediate and short-acting insulin for simplified basal-bolus therap
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Premixed Insulin 70/30 |
+| **Category** | Peptide Drugs |
+

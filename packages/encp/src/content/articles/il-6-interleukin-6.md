@@ -25,3 +25,11 @@ IL-6 (Interleukin-6) is a bioactive peptide with well-characterized properties a
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | IL-6 (Interleukin-6) |
+| **Category** | Biomarkers Expanded |
+

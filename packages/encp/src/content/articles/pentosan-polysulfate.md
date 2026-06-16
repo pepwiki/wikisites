@@ -30,3 +30,11 @@ Glycosaminoglycan restoring bladder mucosal glycosaminoglycan layer.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Pentosan Polysulfate |
+| **Category** | Peptide Drugs |
+

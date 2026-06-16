@@ -30,3 +30,11 @@ This thyrotropin-releasing hormone variant has been studied for its biological a
 ## References
 
 1. Encyclopeptide Database. "TRH-1-3" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | TRH 1-3 |
+| **Category** | Peptide Hormones |
+

@@ -30,3 +30,11 @@ This gdf analog variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "growth-differentiation-factor-GDF-8" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Growth Differentiation Factor GDF-8 |
+| **Category** | Growth Factors |
+

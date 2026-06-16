@@ -32,3 +32,14 @@ GLP-1 receptor antagonists are compounds that block GLP-1 receptor activation, u
 2. **Postprandial hypoglycemia**: Gastric bypass-related
 3. **Research**: Understanding GLP-1 biology
 4. **Obesity research**: Studying GLP-1's role in appetite
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Receptor Antagonists |
+| **Category** | GLP-1 Family |
+
+## References
+
+1. Encyclopeptide Database. "GLP-1 Receptor Antagonists" monograph. encyclopeptide.com.

@@ -25,3 +25,11 @@ High-Throughput Screening is a bioactive peptide with well-characterized propert
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | High-Throughput Screening |
+| **Category** | Peptide Technologies |
+

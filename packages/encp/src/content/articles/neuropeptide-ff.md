@@ -30,3 +30,11 @@ RFamide family member modulating opioid analgesia and causing hypotension.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Neuropeptide FF |
+| **Category** | Neuropeptides |
+

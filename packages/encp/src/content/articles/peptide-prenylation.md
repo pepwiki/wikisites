@@ -28,3 +28,11 @@ Peptide prenylation plays important roles in biological systems and has applicat
 ## References
 
 1. Encyclopeptide Database. "peptide-prenylation" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide prenylation |
+| **Category** | Structural Biology |
+

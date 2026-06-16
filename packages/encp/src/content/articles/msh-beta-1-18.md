@@ -30,3 +30,11 @@ This melanocyte-stimulating hormone variant has been studied for its biological 
 ## References
 
 1. Encyclopeptide Database. "MSH-beta-1-18" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | MSH beta-1-18 |
+| **Category** | Peptide Hormones |
+

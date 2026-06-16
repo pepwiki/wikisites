@@ -32,3 +32,14 @@ Sustainability is becoming increasingly important in peptide drug development.
 - Reduced packaging materials
 - Recyclable components
 - Right-sizing packaging
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Drug Sustainability |
+| **Category** | Sustainability |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Drug Sustainability" monograph. encyclopeptide.com.

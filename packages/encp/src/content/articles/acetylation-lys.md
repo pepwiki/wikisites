@@ -32,3 +32,11 @@ Acetylation (Lys) has been studied for its potential applications in:
 
 - Source: peptide-modifications.md
 - Database: Wikipept Peptide Database
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Acetylation (Lys) |
+| **Category** | Peptide Modifications |
+

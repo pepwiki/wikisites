@@ -30,3 +30,11 @@ Optimized short sequence retaining membrane-disrupting function with low hemolys
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Cathelicidin FF-16 |
+| **Category** | Antimicrobial Peptides |
+

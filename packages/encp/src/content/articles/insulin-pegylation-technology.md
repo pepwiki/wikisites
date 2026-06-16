@@ -30,3 +30,11 @@ PEG conjugation increases hydrodynamic radius reducing glomerular filtration and
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin PEGylation Technology |
+| **Category** | Peptide Drugs |
+

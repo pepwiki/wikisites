@@ -30,3 +30,11 @@ Recombinant hirudin provides potent direct thrombin inhibition for VTE preventio
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Desirudin |
+| **Category** | Peptide Drugs |
+

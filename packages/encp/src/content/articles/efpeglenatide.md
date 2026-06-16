@@ -30,3 +30,11 @@ Albumin-binding moiety enables extended dosing interval of once monthly.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Efpeglenatide |
+| **Category** | Peptide Drugs |
+

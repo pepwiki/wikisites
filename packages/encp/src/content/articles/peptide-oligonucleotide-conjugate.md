@@ -28,3 +28,11 @@ Peptide-oligonucleotide conjugate plays important roles in biological systems an
 ## References
 
 1. Encyclopeptide Database. "peptide-oligonucleotide-conjugate" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide-oligonucleotide conjugate |
+| **Category** | Structural Biology |
+

@@ -30,3 +30,11 @@ Selective SK potassium channel blocker from honeybee venom.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Bee Venom Apamin |
+| **Category** | Venom Peptides |
+

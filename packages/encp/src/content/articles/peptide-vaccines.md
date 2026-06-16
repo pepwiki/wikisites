@@ -32,3 +32,11 @@ Peptide vaccines offer safety, stability, and rapid design advantages. Neoantige
 
 - Source: ENCP Peptide Database
 - Category: Peptide Applications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Vaccines |
+| **Category** | Peptide Applications |
+

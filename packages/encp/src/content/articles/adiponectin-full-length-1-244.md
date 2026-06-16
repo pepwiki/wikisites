@@ -30,3 +30,11 @@ This adiponectin fragment variant has been studied for its biological activity a
 ## References
 
 1. Encyclopeptide Database. "adiponectin-full-length-1-244" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Adiponectin full-length-1-244 |
+| **Category** | Peptide Hormones |
+

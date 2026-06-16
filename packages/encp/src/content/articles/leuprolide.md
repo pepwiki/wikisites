@@ -30,3 +30,11 @@ D-Leu6 substitution confers resistance to enzymatic degradation providing sustai
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Leuprolide |
+| **Category** | Peptide Drugs |
+

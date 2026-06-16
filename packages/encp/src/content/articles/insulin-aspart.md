@@ -30,3 +30,11 @@ Aspartic acid at B28 disrupts dimer and hexamer formation for faster absorption.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Aspart |
+| **Category** | Peptide Drugs |
+

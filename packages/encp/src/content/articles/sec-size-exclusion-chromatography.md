@@ -25,3 +25,11 @@ SEC (Size Exclusion Chromatography) is a bioactive peptide with well-characteriz
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | SEC (Size Exclusion Chromatography) |
+| **Category** | Peptide Manufacturing |
+

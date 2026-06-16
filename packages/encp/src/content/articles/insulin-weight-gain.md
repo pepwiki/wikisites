@@ -29,3 +29,14 @@ Weight gain is a common side effect of insulin therapy, typically 2-6 kg in the 
 - Dose optimization to minimize excess
 - Patient education on diet and exercise
 - Consideration of SGLT2 inhibitor co-therapy
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Therapy and Weight Gain |
+| **Category** | Insulin Family |
+
+## References
+
+1. Encyclopeptide Database. "Insulin Therapy and Weight Gain" monograph. encyclopeptide.com.

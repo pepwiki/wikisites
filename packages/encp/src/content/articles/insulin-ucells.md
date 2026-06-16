@@ -24,3 +24,14 @@ U-100 insulin contains 100 units per milliliter, equivalent to 3.47 mg/mL of ins
 ## Safety Considerations
 
 Look-alike/sound-alike labeling, dedicated pen devices, and patient education are critical safety measures to prevent concentration mix-ups.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin U-100 Concentration Standard |
+| **Category** | Insulin Family |
+
+## References
+
+1. Encyclopeptide Database. "Insulin U-100 Concentration Standard" monograph. encyclopeptide.com.

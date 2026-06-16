@@ -30,3 +30,11 @@ Blocks P/Q-type calcium channels reducing acetylcholine release at neuromuscular
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Chi-Conotoxin TxIA |
+| **Category** | Venom Peptides |
+

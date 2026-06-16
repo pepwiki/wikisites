@@ -28,3 +28,11 @@ Microtubule dynamics plays important roles in biological systems and has applica
 ## References
 
 1. Encyclopeptide Database. "microtubule-dynamics" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Microtubule dynamics |
+| **Category** | Structural Biology |
+

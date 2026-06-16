@@ -30,3 +30,11 @@ D-Phe2 and Thr-ol modifications confer DPP-4 resistance and receptor selectivity
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Octreotide |
+| **Category** | Peptide Drugs |
+

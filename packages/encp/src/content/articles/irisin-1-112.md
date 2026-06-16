@@ -30,3 +30,11 @@ This irisin variant has been studied for its biological activity and potential t
 ## References
 
 1. Encyclopeptide Database. "irisin-1-112" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Irisin 1-112 |
+| **Category** | Peptide Hormones |
+

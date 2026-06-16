@@ -28,3 +28,11 @@ G-protein coupled receptor plays important roles in biological systems and has a
 ## References
 
 1. Encyclopeptide Database. "g-protein-coupled-receptor" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | G-protein coupled receptor |
+| **Category** | Structural Biology |
+

@@ -30,3 +30,11 @@ Absorption depends on blood flow, lymphatic drainage, and insulin self-associati
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Subcutaneous Pharmacokinetics |
+| **Category** | Peptide Drugs |
+

@@ -27,3 +27,14 @@ Bortezomib reversibly inhibits the 20S proteasome beta5 subunit chymotrypsin-lik
 - Multiple myeloma (first-line and relapsed/refractory)
 - Mantle cell lymphoma
 - AL amyloidosis
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Bortezomib Proteasome Inhibition |
+| **Category** | Anticancer Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Bortezomib Proteasome Inhibition" monograph. encyclopeptide.com.

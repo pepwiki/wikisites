@@ -30,3 +30,11 @@ This tgf-beta analog variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "transforming-growth-factor-beta1-latent-1-391" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Transforming Growth Factor beta1-latent-1-391 |
+| **Category** | Growth Factors |
+

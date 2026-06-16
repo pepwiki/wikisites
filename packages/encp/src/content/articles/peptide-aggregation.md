@@ -28,3 +28,11 @@ Peptide aggregation plays important roles in biological systems and has applicat
 ## References
 
 1. Encyclopeptide Database. "peptide-aggregation" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide aggregation |
+| **Category** | Structural Biology |
+

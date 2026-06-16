@@ -29,3 +29,10 @@ FDA-approved for postmenopausal osteoporosis. The nasal spray provides an altern
 - **Tmax**: 15-30 minutes
 - **Half-life**: 60 minutes
 - **Dosing**: Once daily intranasal
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Salmon Calcitonin Nasal Spray" monograph. encyclopeptide.com.

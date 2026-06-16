@@ -30,3 +30,11 @@ Novel cysteine framework with distinct calcium channel modulation profile.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Psi-Conotoxin TxVII |
+| **Category** | Venom Peptides |
+

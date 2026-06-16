@@ -25,3 +25,11 @@ HbA1c is a bioactive peptide with well-characterized properties and therapeutic 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | HbA1c |
+| **Category** | Biomarkers Expanded |
+

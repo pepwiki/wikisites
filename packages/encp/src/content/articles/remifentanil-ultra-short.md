@@ -30,3 +30,11 @@ Ester linkage enables rapid hydrolysis by nonspecific esterases providing offset
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Remifentanil Ultra-Short |
+| **Category** | Neuropeptides |
+

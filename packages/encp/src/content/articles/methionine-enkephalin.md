@@ -30,3 +30,11 @@ Pentapeptide YGGFM with delta-opioid selectivity and immune modulatory effects.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Methionine-Enkephalin |
+| **Category** | Neuropeptides |
+

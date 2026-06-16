@@ -31,3 +31,11 @@ Each advance increased efficiency, purity, and accessibility, enabling the moder
 
 - Source: ENCP Peptide Database
 - Category: Peptide History
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Evolution of Peptide Synthesis Methods |
+| **Category** | Peptide History |
+

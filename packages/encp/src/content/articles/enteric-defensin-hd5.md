@@ -30,3 +30,11 @@ Essential for intestinal homeostasis through antimicrobial activity and stem cel
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Enteric Defensin HD5 |
+| **Category** | Antimicrobial Peptides |
+

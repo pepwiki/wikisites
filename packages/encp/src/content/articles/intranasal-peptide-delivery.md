@@ -30,3 +30,11 @@ Nasal mucosa provides direct nose-to-brain delivery avoiding GI degradation.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Intranasal Peptide Delivery |
+| **Category** | Drug Delivery |
+

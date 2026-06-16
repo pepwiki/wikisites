@@ -28,3 +28,11 @@ Targeted delivery plays important roles in biological systems and has applicatio
 ## References
 
 1. Encyclopeptide Database. "targeted-delivery" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Targeted delivery |
+| **Category** | Drug Delivery |
+

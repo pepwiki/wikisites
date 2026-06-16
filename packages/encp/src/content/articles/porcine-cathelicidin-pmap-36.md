@@ -30,3 +30,11 @@ Alpha-helical cathelicidin disrupts gram-negative bacterial membranes through ch
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Porcine Cathelicidin PMAP-36 |
+| **Category** | Antimicrobial Peptides |
+

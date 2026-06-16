@@ -25,3 +25,11 @@ Avian Beta-Defensin 4 (Chicken) is a bioactive peptide with well-characterized p
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Avian Beta-Defensin 4 (Chicken) |
+| **Category** | Bird Peptides |
+

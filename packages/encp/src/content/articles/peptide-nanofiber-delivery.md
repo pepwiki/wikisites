@@ -30,3 +30,11 @@ Peptide amphiphiles forming injectable nanofiber depots for sustained local rele
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Nanofiber Delivery |
+| **Category** | Drug Delivery |
+

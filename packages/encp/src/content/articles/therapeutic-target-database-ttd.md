@@ -25,3 +25,11 @@ Therapeutic Target Database (TTD) is a bioactive peptide with well-characterized
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Therapeutic Target Database (TTD) |
+| **Category** | Peptide Databases |
+

@@ -30,3 +30,11 @@ SNAC, bile salts, and surfactants transiently open tight junctions or enhance tr
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Permeation Enhancer Oral |
+| **Category** | Drug Delivery |
+

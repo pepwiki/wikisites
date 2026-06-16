@@ -30,3 +30,11 @@ GHRH analog stimulating GH release to reduce visceral fat in HIV patients.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Tesamorelin |
+| **Category** | Peptide Drugs |
+

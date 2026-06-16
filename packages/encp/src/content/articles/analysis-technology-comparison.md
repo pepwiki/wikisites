@@ -25,3 +25,11 @@ Analysis Technology Comparison is a bioactive peptide with well-characterized pr
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Analysis Technology Comparison |
+| **Category** | Peptide Technologies |
+

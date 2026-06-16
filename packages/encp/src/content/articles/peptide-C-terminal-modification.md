@@ -28,3 +28,11 @@ Peptide C-terminal modification plays important roles in biological systems and 
 ## References
 
 1. Encyclopeptide Database. "peptide-C-terminal-modification" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide C-terminal modification |
+| **Category** | Drug Delivery |
+

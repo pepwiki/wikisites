@@ -25,3 +25,11 @@ Matrixyl 3000 is a bioactive peptide with well-characterized properties and ther
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Matrixyl 3000 |
+| **Category** | Cosmetic Peptides |
+

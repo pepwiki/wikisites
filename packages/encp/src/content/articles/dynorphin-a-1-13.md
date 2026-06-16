@@ -30,3 +30,11 @@ Active fragment retaining kappa-opioid receptor selectivity and antinociception.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Dynorphin A 1-13 |
+| **Category** | Neuropeptides |
+

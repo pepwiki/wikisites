@@ -25,3 +25,11 @@ Exenatide - DURATION-1 (NCT00207469) is a bioactive peptide with well-characteri
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Exenatide - DURATION-1 (NCT00207469) |
+| **Category** | Peptide Clinical Trials |
+

@@ -32,3 +32,6 @@ Inhibits class I HDACs (HDAC1, HDAC2, HDAC4, HDAC6) by chelating the catalytic z
 
 - Cutaneous T-cell lymphoma (CTCL)
 - Peripheral T-cell lymphoma (PTCL)
+## References
+
+1. Encyclopeptide Database. "Romidepsin HDAC Inhibitor" monograph. encyclopeptide.com.

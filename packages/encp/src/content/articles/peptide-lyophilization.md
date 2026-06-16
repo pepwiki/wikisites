@@ -30,3 +30,11 @@ Freeze-drying removing water to improve peptide storage stability.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Lyophilization |
+| **Category** | Drug Delivery |
+

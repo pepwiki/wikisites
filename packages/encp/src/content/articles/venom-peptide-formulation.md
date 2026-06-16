@@ -30,3 +30,11 @@ Excipient selection and lyophilization protocols maintaining venom peptide poten
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Venom Peptide Formulation |
+| **Category** | Venom Peptides |
+

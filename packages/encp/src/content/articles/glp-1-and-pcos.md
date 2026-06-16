@@ -30,3 +30,11 @@ Weight loss and insulin sensitization improve ovulatory function in PCOS patient
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 and PCOS |
+| **Category** | Peptide Drugs |
+

@@ -30,3 +30,11 @@ Defensin-fold peptides in scorpion venom providing antimicrobial defense.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Scorpion Venom AMPs |
+| **Category** | Venom Peptides |
+

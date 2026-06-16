@@ -30,3 +30,11 @@ Active against methicillin-resistant Staphylococcus aureus in vitro and in vivo.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Temporin L |
+| **Category** | Antimicrobial Peptides |
+

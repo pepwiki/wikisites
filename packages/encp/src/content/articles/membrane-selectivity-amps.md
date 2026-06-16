@@ -30,3 +30,11 @@ Charge and hydrophobicity parameters determine preferential binding to bacterial
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Membrane Selectivity AMPs |
+| **Category** | Antimicrobial Peptides |
+

@@ -30,3 +30,11 @@ Receptor endocytosis and recycling patterns influence desensitization and resens
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Receptor Trafficking |
+| **Category** | Neuropeptides |
+

@@ -22,3 +22,10 @@ relatedArticles: ['glp-1', 'glp-1-glucagon-like-peptide-1']
 ## Metabolism
 
 Rapidly degraded by DPP-4, which cleaves the N-terminal His-Ala dipeptide, producing inactive GLP-1(9-36)amide. This rapid degradation limits native GLP-1's therapeutic utility.
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "GLP-1(7-36)amide" monograph. encyclopeptide.com.

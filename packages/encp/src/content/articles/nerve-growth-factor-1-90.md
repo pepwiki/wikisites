@@ -30,3 +30,11 @@ This ngf analog variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "nerve-growth-factor-1-90" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Nerve Growth Factor 1-90 |
+| **Category** | Growth Factors |
+

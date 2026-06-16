@@ -28,3 +28,14 @@ Peptides play crucial roles in nephrology, from treating anemia of chronic kidne
 - CKD-mineral bone disorder
 - Hyperphosphatemia
 - Renal osteodystrophy
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Renal Therapeutics |
+| **Category** | Therapeutic Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Renal Therapeutics" monograph. encyclopeptide.com.

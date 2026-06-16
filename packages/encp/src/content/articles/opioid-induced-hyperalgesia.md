@@ -30,3 +30,11 @@ NMDA receptor activation and descending facilitation mediate opioid-induced pain
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid-Induced Hyperalgesia |
+| **Category** | Neuropeptides |
+

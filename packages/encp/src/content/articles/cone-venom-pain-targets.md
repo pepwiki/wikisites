@@ -30,3 +30,11 @@ Conotoxins targeting calcium, sodium, and NMDA receptors in pain circuits.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Cone Venom Pain Targets |
+| **Category** | Venom Peptides |
+

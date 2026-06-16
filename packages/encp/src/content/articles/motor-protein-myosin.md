@@ -28,3 +28,11 @@ Motor protein myosin plays important roles in biological systems and has applica
 ## References
 
 1. Encyclopeptide Database. "motor-protein-myosin" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Motor protein myosin |
+| **Category** | Structural Biology |
+

@@ -30,3 +30,11 @@ Enteric opioid peptides regulate gut motility while peripheral opioids modulate 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Enteric Nervous System |
+| **Category** | Neuropeptides |
+

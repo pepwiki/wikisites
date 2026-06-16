@@ -30,3 +30,11 @@ NF-kB-mediated transcriptional upregulation in response to microbial products an
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Human Beta-Defensin 2 |
+| **Category** | Antimicrobial Peptides |
+

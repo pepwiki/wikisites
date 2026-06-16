@@ -30,3 +30,11 @@ Nanoparticle and liposome carriers enhancing peptide immunogenicity for vaccines
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Vaccine Delivery |
+| **Category** | Drug Delivery |
+

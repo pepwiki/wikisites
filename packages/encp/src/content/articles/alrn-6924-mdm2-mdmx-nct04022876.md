@@ -25,3 +25,11 @@ ALRN-6924 - MDM2/MDMX (NCT04022876) is a bioactive peptide with well-characteriz
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | ALRN-6924 - MDM2/MDMX (NCT04022876) |
+| **Category** | Peptide Clinical Trials |
+

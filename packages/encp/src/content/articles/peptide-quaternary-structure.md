@@ -28,3 +28,11 @@ Peptide quaternary structure plays important roles in biological systems and has
 ## References
 
 1. Encyclopeptide Database. "peptide-quaternary-structure" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide quaternary structure |
+| **Category** | Structural Biology |
+

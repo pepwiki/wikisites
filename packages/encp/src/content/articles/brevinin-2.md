@@ -30,3 +30,11 @@ Extended sequence provides enhanced membrane disruption against drug-resistant o
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Brevinin-2 |
+| **Category** | Antimicrobial Peptides |
+

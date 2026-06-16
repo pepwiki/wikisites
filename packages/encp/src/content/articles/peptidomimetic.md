@@ -28,3 +28,11 @@ Peptidomimetic plays important roles in biological systems and has applications 
 ## References
 
 1. Encyclopeptide Database. "peptidomimetic" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptidomimetic |
+| **Category** | Drug Delivery |
+

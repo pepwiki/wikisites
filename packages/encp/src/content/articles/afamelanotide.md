@@ -30,3 +30,11 @@ MC1R activation in melanocytes increases eumelanin production providing photopro
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Afamelanotide |
+| **Category** | Peptide Drugs |
+

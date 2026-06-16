@@ -30,3 +30,11 @@ Alpha and beta toxins modulate sodium and potassium channels causing neurologica
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Scorpion Neurotoxicity |
+| **Category** | Venom Peptides |
+

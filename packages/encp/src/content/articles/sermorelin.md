@@ -30,3 +30,11 @@ Minimal active GHRH fragment sufficient for pituitary GH stimulation.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Sermorelin |
+| **Category** | Peptide Drugs |
+

@@ -28,3 +28,11 @@ ACE (Zn2+ metalloprotease) cleaves C-terminal dipeptide His9-Leu10 from angioten
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Angiotensin I → ACE (Substrate) |
+| **Category** | Peptide Interactions |
+

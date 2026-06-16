@@ -30,3 +30,11 @@ Modulates voltage-gated sodium channel gating affecting action potential generat
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Spider Toxin JZTX-I |
+| **Category** | Venom Peptides |
+

@@ -24,3 +24,11 @@ Neprilysin cleaves BNP at Cys10-Phe11, Met12-Val13, and other sites within the 1
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | BNP → Neprilysin (Substrate) |
+| **Category** | Peptide Interactions |
+

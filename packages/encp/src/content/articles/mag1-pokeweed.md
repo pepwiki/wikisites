@@ -28,3 +28,11 @@ Allergen-peptide fusion with pokeweed protein activates innate immunity via plan
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | MAG1-Pokeweed |
+| **Category** | Peptide Vaccines |
+

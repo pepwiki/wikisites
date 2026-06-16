@@ -28,3 +28,18 @@ relatedArticles: ['glp-1-gastric-safety', 'glp-1-gastric-emptying', 'semaglutide
 - Persistent vomiting preventing adequate nutrition
 - Severe weight loss (>5% body weight)
 - Recurrent dehydration
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Agonist Gastroparesis Management |
+| **Category** | GLP-1 Family |
+
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "GLP-1 Agonist Gastroparesis Management" monograph. encyclopeptide.com.

@@ -28,3 +28,11 @@ Peptide phosphorylation analysis plays important roles in biological systems and
 ## References
 
 1. Encyclopeptide Database. "peptide-phosphorylation-analysis" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide phosphorylation analysis |
+| **Category** | Structural Biology |
+

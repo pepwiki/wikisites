@@ -25,3 +25,11 @@ Disease Categories Overview is a bioactive peptide with well-characterized prope
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Disease Categories Overview |
+| **Category** | Peptide Diseases |
+

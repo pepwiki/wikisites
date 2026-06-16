@@ -27,3 +27,14 @@ Peptides have emerging roles in hepatology, from treating viral hepatitis to man
 - Non-alcoholic steatohepatitis
 - Liver fibrosis
 - Hepatocellular carcinoma
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Hepatic Therapeutics |
+| **Category** | Therapeutic Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Hepatic Therapeutics" monograph. encyclopeptide.com.

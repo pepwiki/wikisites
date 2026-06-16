@@ -28,3 +28,11 @@ Recombinant CSP-HBsAg VLP with AS01 adjuvant; anti-CSP antibodies block sporozoi
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | RTS,S/AS01 (Mosquirix) |
+| **Category** | Peptide Vaccines |
+

@@ -30,3 +30,11 @@ Ion channel-targeting spider peptides with insect-specific toxicity.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Spider Toxin Insecticidal |
+| **Category** | Venom Peptides |
+

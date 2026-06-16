@@ -30,3 +30,11 @@ GLP-1 receptors in kidney promote natriuresis and reduce intraglomerular pressur
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Nephroprotective Effects |
+| **Category** | Peptide Drugs |
+

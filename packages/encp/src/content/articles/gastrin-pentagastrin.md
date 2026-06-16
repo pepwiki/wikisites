@@ -30,3 +30,11 @@ This gastrin variant has been studied for its biological activity and potential 
 ## References
 
 1. Encyclopeptide Database. "gastrin-pentagastrin" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Gastrin pentagastrin |
+| **Category** | Peptide Hormones |
+

@@ -30,3 +30,11 @@ Selective antimicrobial activity of wasp venom peptides against drug-resistant b
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Wasp Venom Antimicrobial |
+| **Category** | Venom Peptides |
+

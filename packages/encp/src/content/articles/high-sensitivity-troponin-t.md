@@ -20,3 +20,11 @@ High-Sensitivity Troponin T is a bioactive peptide with well-characterized prope
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | High-Sensitivity Troponin T |
+| **Category** | Biomarkers Expanded |
+

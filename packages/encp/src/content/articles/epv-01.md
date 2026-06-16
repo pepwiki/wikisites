@@ -28,3 +28,11 @@ Multi-epitope peptide vaccine targeting both latent and lytic EBV antigens; gene
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | EPV-01 |
+| **Category** | Peptide Vaccines |
+

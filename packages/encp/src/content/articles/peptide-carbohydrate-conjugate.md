@@ -28,3 +28,11 @@ Peptide-carbohydrate conjugate plays important roles in biological systems and h
 ## References
 
 1. Encyclopeptide Database. "peptide-carbohydrate-conjugate" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide-carbohydrate conjugate |
+| **Category** | Drug Delivery |
+

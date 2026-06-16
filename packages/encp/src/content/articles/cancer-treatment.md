@@ -25,3 +25,11 @@ Cancer Treatment is a bioactive peptide with well-characterized properties and t
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Cancer Treatment |
+| **Category** | Peptide Applications |
+

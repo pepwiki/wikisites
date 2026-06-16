@@ -30,3 +30,11 @@ This motilin variant has been studied for its biological activity and potential 
 ## References
 
 1. Encyclopeptide Database. "motilin-erythromycin-analog" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Motilin erythromycin-analog |
+| **Category** | Peptide Hormones |
+

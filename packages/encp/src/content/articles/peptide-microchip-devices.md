@@ -30,3 +30,11 @@ Electronic microchips controlling reservoir-based peptide release on demand.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Microchip Devices |
+| **Category** | Drug Delivery |
+

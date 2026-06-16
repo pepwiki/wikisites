@@ -30,3 +30,11 @@ Gastric emptying delay is mechanism of action but can cause nausea and bloating.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Gastroparesis |
+| **Category** | Peptide Drugs |
+

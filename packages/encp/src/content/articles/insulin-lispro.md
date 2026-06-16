@@ -30,3 +30,11 @@ Reversal of Pro-B28 and Lys-B29 reduces self-association enabling rapid subcutan
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Lispro |
+| **Category** | Peptide Drugs |
+

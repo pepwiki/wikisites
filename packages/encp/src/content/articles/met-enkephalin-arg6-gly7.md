@@ -30,3 +30,11 @@ Proenkephalin processing intermediate with modified activity profile.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Met-Enkephalin-Arg6-Gly7 |
+| **Category** | Neuropeptides |
+

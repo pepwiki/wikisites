@@ -27,3 +27,14 @@ PEGylation attaches polyethylene glycol chains to insulin, dramatically increasi
 - PEG size optimization
 - Maintaining receptor binding affinity
 - Immunogenicity considerations
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | PEGylated Insulin Analogues |
+| **Category** | Insulin Family |
+
+## References
+
+1. Encyclopeptide Database. "PEGylated Insulin Analogues" monograph. encyclopeptide.com.

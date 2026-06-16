@@ -27,3 +27,11 @@ Octreotide and lanreotide are somatostatin analogs used in acromegaly and neuroe
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Somatostatin Family Peptides |
+| **Category** | Peptide Families |
+

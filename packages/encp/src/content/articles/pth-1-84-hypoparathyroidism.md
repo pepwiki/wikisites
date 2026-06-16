@@ -30,3 +30,11 @@ Full-length PTH replacement provides physiological calcium and phosphate regulat
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | PTH 1-84 Hypoparathyroidism |
+| **Category** | Peptide Drugs |
+

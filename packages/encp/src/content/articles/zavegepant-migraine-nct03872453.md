@@ -25,3 +25,11 @@ Zavegepant - Migraine (NCT03872453) is a bioactive peptide with well-characteriz
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Zavegepant - Migraine (NCT03872453) |
+| **Category** | Peptide Clinical Trials |
+

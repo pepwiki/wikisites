@@ -28,3 +28,11 @@ Signal transduction plays important roles in biological systems and has applicat
 ## References
 
 1. Encyclopeptide Database. "signal-transduction" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Signal transduction |
+| **Category** | Structural Biology |
+

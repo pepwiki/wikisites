@@ -30,3 +30,11 @@ Cationic peptides disrupting microbial membranes in venom mixture.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Wasp Venom AMPs |
+| **Category** | Venom Peptides |
+

@@ -28,3 +28,11 @@ Peptide crystallization plays important roles in biological systems and has appl
 ## References
 
 1. Encyclopeptide Database. "peptide-crystallization" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide crystallization |
+| **Category** | Structural Biology |
+

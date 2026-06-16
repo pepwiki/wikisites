@@ -28,3 +28,11 @@ Peptide clipping plays important roles in biological systems and has application
 ## References
 
 1. Encyclopeptide Database. "peptide-clipping" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide clipping |
+| **Category** | Structural Biology |
+

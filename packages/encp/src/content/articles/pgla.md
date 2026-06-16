@@ -30,3 +30,11 @@ Synergistic membrane disruption when combined with magainin through heterodimer 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | PGLa |
+| **Category** | Antimicrobial Peptides |
+

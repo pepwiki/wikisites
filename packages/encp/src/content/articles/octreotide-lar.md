@@ -29,3 +29,10 @@ PLGA microspheres encapsulate octreotide for 28-day sustained release. Initial b
 - Neuroendocrine tumors (carcinoid syndrome)
 - VIPomas
 - Glucagonomas
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Octreotide LAR" monograph. encyclopeptide.com.

@@ -25,3 +25,11 @@ NCBI GenBank is a bioactive peptide with well-characterized properties and thera
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | NCBI GenBank |
+| **Category** | Peptide Databases |
+

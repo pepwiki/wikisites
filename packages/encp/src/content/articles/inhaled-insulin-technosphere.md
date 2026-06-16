@@ -30,3 +30,11 @@ Technosphere microparticles adsorb insulin for deep lung deposition and rapid ab
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Inhaled Insulin Technosphere |
+| **Category** | Peptide Drugs |
+

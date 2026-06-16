@@ -30,3 +30,11 @@ Ziconotide and next-generation conotoxins targeting calcium channels for severe 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Cone Venom Analgesic Peptides |
+| **Category** | Venom Peptides |
+

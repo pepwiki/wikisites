@@ -30,3 +30,11 @@ This interferon variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "interferon-IFN-kappa" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Interferon IFN-kappa |
+| **Category** | Cytokines |
+

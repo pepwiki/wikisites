@@ -24,3 +24,18 @@ relatedArticles: ['glp-1', 'gip-dpp-4-substrate', 'glp-1-receptor-agonist']
 3. GIP secretion from K-cells
 4. Pancreatic activation by incretins
 5. Glucose-dependent insulin enhancement
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | The Incretin Effect |
+| **Category** | GLP-1 Family |
+
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "The Incretin Effect" monograph. encyclopeptide.com.

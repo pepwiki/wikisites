@@ -28,3 +28,11 @@ Recombinant spike protein displayed on Matrix-M nanoparticles; induces neutraliz
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | NVX-CoV2373 |
+| **Category** | Peptide Vaccines |
+

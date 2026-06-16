@@ -30,3 +30,11 @@ This csf variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "colony-stimulating-factor-G-CSF-1-174" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Colony Stimulating Factor G-CSF-1-174 |
+| **Category** | Cytokines |
+

@@ -30,3 +30,11 @@ Toll and IMD pathways mediate pathogen-specific AMP gene induction in insects.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insect AMP Immune Induction |
+| **Category** | Antimicrobial Peptides |
+

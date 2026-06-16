@@ -25,3 +25,11 @@ Characterization (5 processes) is a bioactive peptide with well-characterized pr
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Characterization (5 processes) |
+| **Category** | Peptide Manufacturing |
+

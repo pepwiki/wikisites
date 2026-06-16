@@ -28,3 +28,11 @@ Morpholino oligomer plays important roles in biological systems and has applicat
 ## References
 
 1. Encyclopeptide Database. "morpholino-oligomer" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Morpholino oligomer |
+| **Category** | Structural Biology |
+

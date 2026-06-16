@@ -28,3 +28,11 @@ Cytoskeleton dynamics plays important roles in biological systems and has applic
 ## References
 
 1. Encyclopeptide Database. "cytoskeleton-dynamics" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Cytoskeleton dynamics |
+| **Category** | Structural Biology |
+

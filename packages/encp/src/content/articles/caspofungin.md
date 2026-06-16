@@ -30,3 +30,11 @@ Glucan synthase inhibition disrupts fungal cell wall causing osmotic instability
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Caspofungin |
+| **Category** | Peptide Drugs |
+

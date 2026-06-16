@@ -30,3 +30,11 @@ Biodegradable nanoparticles provide controlled release over extended periods.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Nanoparticle Delivery |
+| **Category** | Peptide Drugs |
+

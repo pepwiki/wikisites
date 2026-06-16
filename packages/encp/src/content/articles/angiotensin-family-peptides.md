@@ -29,3 +29,11 @@ ACE inhibitors and ARBs target this system for hypertension and heart failure tr
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Angiotensin Family Peptides |
+| **Category** | Peptide Families |
+

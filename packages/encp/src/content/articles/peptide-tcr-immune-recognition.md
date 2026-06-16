@@ -28,3 +28,11 @@ TCR recognizes peptide-MHC complex (pMHC) through complementarity-determining re
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide → TCR (Immune Recognition) |
+| **Category** | Peptide Interactions |
+

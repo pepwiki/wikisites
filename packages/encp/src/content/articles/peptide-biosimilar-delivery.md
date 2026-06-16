@@ -30,3 +30,11 @@ Comparability studies required for biosimilar peptide delivery system equivalenc
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Biosimilar Delivery |
+| **Category** | Drug Delivery |
+

@@ -30,3 +30,11 @@ NPK, NPY, and other neuropeptides modulate long-term potentiation and memory con
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Learning and Memory Peptides |
+| **Category** | Neuropeptides |
+

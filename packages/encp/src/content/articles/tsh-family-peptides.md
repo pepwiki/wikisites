@@ -27,3 +27,11 @@ TSH is the primary screening test for thyroid disorders.
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | TSH Family Peptides |
+| **Category** | Peptide Families |
+

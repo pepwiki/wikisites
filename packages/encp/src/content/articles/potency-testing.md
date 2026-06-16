@@ -25,3 +25,11 @@ Potency Testing is a bioactive peptide with well-characterized properties and th
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Potency Testing |
+| **Category** | Peptide Manufacturing |
+

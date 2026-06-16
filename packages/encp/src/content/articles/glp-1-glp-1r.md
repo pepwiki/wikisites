@@ -28,3 +28,11 @@ GLP-1 binds to the extracellular domain and transmembrane core of GLP-1R, a clas
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 → GLP-1R |
+| **Category** | Peptide Interactions |
+

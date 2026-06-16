@@ -28,3 +28,11 @@ Actin polymerization plays important roles in biological systems and has applica
 ## References
 
 1. Encyclopeptide Database. "actin-polymerization" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Actin polymerization |
+| **Category** | Structural Biology |
+

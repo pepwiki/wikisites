@@ -25,3 +25,11 @@ Tirzepatide - SURMOUNT-1 (NCT04184622) is a bioactive peptide with well-characte
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Tirzepatide - SURMOUNT-1 (NCT04184622) |
+| **Category** | Peptide Clinical Trials |
+

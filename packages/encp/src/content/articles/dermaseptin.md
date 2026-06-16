@@ -30,3 +30,11 @@ Alpha-helical structure disrupts membranes of both protozoan parasites and bacte
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Dermaseptin |
+| **Category** | Antimicrobial Peptides |
+

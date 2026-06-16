@@ -28,3 +28,11 @@ Riboswitch plays important roles in biological systems and has applications in d
 ## References
 
 1. Encyclopeptide Database. "riboswitch" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Riboswitch |
+| **Category** | Structural Biology |
+

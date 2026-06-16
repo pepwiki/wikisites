@@ -27,3 +27,14 @@ Peptides have potential applications in respiratory medicine, from anti-inflamma
 - Pulmonary delivery optimization
 - Mucociliary clearance
 - Alveolar deposition
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Respiratory Therapeutics |
+| **Category** | Therapeutic Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Respiratory Therapeutics" monograph. encyclopeptide.com.

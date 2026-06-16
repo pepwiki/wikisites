@@ -30,3 +30,11 @@ This vasopressin variant has been studied for its biological activity and potent
 ## References
 
 1. Encyclopeptide Database. "vasopressin-1-6" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Vasopressin 1-6 |
+| **Category** | Peptide Hormones |
+

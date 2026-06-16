@@ -30,3 +30,11 @@ C-peptide has longer half-life than insulin making it useful marker of endogenou
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | C-Peptide Relationship |
+| **Category** | Peptide Drugs |
+

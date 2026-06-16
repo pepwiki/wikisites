@@ -30,3 +30,10 @@ Lixisenatide is a 33-amino acid exendin-4 analog with deletion of Pro38 and Pro3
 - **Peak**: 1-2 hours
 - **Duration**: 6-8 hours
 - **Dosing**: Once daily within 1 hour before the first meal
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Lixisenatide Once Daily" monograph. encyclopeptide.com.

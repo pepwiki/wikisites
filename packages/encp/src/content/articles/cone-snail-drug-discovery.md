@@ -30,3 +30,11 @@ Conus venoms contain thousands of bioactive peptides for drug development.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Cone Snail Drug Discovery |
+| **Category** | Venom Peptides |
+

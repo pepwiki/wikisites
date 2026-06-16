@@ -28,3 +28,11 @@ Peptide embedding plays important roles in biological systems and has applicatio
 ## References
 
 1. Encyclopeptide Database. "peptide-embedding" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide embedding |
+| **Category** | Structural Biology |
+

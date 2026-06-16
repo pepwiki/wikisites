@@ -32,3 +32,11 @@ Ubiquitination (Lys) has been studied for its potential applications in:
 
 - Source: peptide-modifications.md
 - Database: Wikipept Peptide Database
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Ubiquitination (Lys) |
+| **Category** | Peptide Modifications |
+

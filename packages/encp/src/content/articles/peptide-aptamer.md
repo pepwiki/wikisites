@@ -28,3 +28,11 @@ Peptide aptamer plays important roles in biological systems and has applications
 ## References
 
 1. Encyclopeptide Database. "peptide-aptamer" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide aptamer |
+| **Category** | Drug Delivery |
+

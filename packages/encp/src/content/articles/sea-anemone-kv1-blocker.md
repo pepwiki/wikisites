@@ -30,3 +30,11 @@ Kv1 channel blockade increasing neuronal excitability with potential neuroprotec
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Sea Anemone Kv1 Blocker |
+| **Category** | Venom Peptides |
+

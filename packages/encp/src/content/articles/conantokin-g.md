@@ -30,3 +30,11 @@ Gamma-carboxyglutamate-rich peptide competitively blocking NMDA receptor ion cha
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Conantokin G |
+| **Category** | Venom Peptides |
+

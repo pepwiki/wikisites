@@ -30,3 +30,11 @@ Tryptophan-rich sequence enables efficient membrane partitioning and disruption.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Nigrocin |
+| **Category** | Antimicrobial Peptides |
+

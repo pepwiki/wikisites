@@ -30,3 +30,11 @@ Kv1.3 blockade inhibits T-cell activation providing autoimmune disease therapeut
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Tityustoxin Kv1.3 |
+| **Category** | Venom Peptides |
+

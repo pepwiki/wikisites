@@ -25,3 +25,11 @@ Obesity Treatment is a bioactive peptide with well-characterized properties and 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Obesity Treatment |
+| **Category** | Peptide Applications |
+

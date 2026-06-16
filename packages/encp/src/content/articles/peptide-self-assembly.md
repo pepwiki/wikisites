@@ -30,3 +30,11 @@ Peptide amphiphiles forming nanofibers, nanotubes, or vesicles for drug encapsul
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Self-Assembly |
+| **Category** | Drug Delivery |
+

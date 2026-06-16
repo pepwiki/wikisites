@@ -28,3 +28,11 @@ GFAP intermediate filament plays important roles in biological systems and has a
 ## References
 
 1. Encyclopeptide Database. "GFAP-intermediate-filament" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GFAP intermediate filament |
+| **Category** | Structural Biology |
+

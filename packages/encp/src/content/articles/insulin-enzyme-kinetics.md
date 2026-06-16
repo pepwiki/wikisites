@@ -27,3 +27,14 @@ The insulin receptor is a transmembrane receptor tyrosine kinase with high-affin
 3. Autophosphorylation of tyrosine residues
 4. Recruitment of IRS-1/IRS-2 substrates
 5. Activation of PI3K/Akt and MAPK pathways
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Receptor Binding Kinetics |
+| **Category** | Insulin Family |
+
+## References
+
+1. Encyclopeptide Database. "Insulin Receptor Binding Kinetics" monograph. encyclopeptide.com.

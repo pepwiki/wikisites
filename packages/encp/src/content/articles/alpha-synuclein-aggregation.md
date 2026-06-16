@@ -28,3 +28,11 @@ Alpha-synuclein aggregation plays important roles in biological systems and has 
 ## References
 
 1. Encyclopeptide Database. "alpha-synuclein-aggregation" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Alpha-synuclein aggregation |
+| **Category** | Structural Biology |
+

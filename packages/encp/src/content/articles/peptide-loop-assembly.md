@@ -28,3 +28,11 @@ Peptide loop assembly plays important roles in biological systems and has applic
 ## References
 
 1. Encyclopeptide Database. "peptide-loop-assembly" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide loop assembly |
+| **Category** | Structural Biology |
+

@@ -28,3 +28,11 @@ Peptide palmitoylation plays important roles in biological systems and has appli
 ## References
 
 1. Encyclopeptide Database. "peptide-palmitoylation" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide palmitoylation |
+| **Category** | Structural Biology |
+

@@ -30,3 +30,11 @@ GLP-1 receptors on immune cells reduce pro-inflammatory cytokines and promote M2
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Immunomodulatory Effects |
+| **Category** | Peptide Drugs |
+

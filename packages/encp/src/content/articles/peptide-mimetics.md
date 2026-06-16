@@ -28,3 +28,11 @@ Peptide mimetics improve oral bioavailability, metabolic stability, and receptor
 
 - Source: ENCP Peptide Database
 - Category: Peptide Modifications
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Mimetics |
+| **Category** | Peptide Modifications |
+

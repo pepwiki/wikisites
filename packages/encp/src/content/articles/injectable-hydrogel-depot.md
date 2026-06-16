@@ -30,3 +30,11 @@ Shear-thinning hydrogels injectable through fine needles forming in situ depots.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Injectable Hydrogel Depot |
+| **Category** | Drug Delivery |
+

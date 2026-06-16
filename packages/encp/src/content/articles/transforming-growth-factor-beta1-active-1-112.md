@@ -30,3 +30,11 @@ This tgf-beta analog variant has been studied for its biological activity.
 ## References
 
 1. Encyclopeptide Database. "transforming-growth-factor-beta1-active-1-112" monograph. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Transforming Growth Factor beta1-active-1-112 |
+| **Category** | Growth Factors |
+

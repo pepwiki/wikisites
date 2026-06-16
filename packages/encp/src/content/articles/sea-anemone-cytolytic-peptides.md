@@ -30,3 +30,11 @@ Amphipathic peptides inserting into lipid bilayers causing cell lysis.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Sea Anemone Cytolytic Peptides |
+| **Category** | Venom Peptides |
+

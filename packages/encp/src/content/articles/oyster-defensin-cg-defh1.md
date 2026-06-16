@@ -30,3 +30,11 @@ Defensin expressed in hemocytes provides systemic antimicrobial defense in oyste
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Oyster Defensin Cg-Defh1 |
+| **Category** | Antimicrobial Peptides |
+

@@ -30,3 +30,11 @@ Broad somatostatin receptor binding with highest affinity for sst5 in corticotro
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Pasireotide |
+| **Category** | Peptide Drugs |
+

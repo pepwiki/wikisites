@@ -28,3 +28,14 @@ Insulin glargine is formulated in a clear acidic solution (pH 4.0) using zinc ch
 3. Glargine precipitates into amorphous microparticles
 4. Slow dissolution provides sustained release
 5. Duration: ~24 hours (U100) or >30 hours (U300)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Glargine Phosphate Buffer System |
+| **Category** | Insulin Family |
+
+## References
+
+1. Encyclopeptide Database. "Insulin Glargine Phosphate Buffer System" monograph. encyclopeptide.com.

@@ -30,3 +30,11 @@ Enkephalinergic interneurons provide segmental inhibition in dorsal horn pain pr
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Distribution Spinal |
+| **Category** | Neuropeptides |
+

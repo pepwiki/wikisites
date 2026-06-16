@@ -30,3 +30,11 @@ Distinct distribution patterns for enkephalins, endorphins, and dynorphins in br
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Distribution Brain |
+| **Category** | Neuropeptides |
+

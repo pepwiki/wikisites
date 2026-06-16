@@ -28,3 +28,11 @@ Amb a 1-CpG conjugate directly targets allergen to TLR9-expressing dendritic cel
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Amb a 1 Immunostimulatory |
+| **Category** | Peptide Vaccines |
+

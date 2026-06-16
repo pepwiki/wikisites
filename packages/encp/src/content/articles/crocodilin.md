@@ -25,3 +25,11 @@ Crocodilin is a bioactive peptide with well-characterized properties and therape
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Crocodilin |
+| **Category** | Reptile Peptides |
+

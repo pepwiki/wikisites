@@ -30,3 +30,11 @@ Intravenous administration provides immediate bioavailability for quarterly dosi
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Eptinezumab |
+| **Category** | Peptide Drugs |
+

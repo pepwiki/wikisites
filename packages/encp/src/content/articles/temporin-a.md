@@ -30,3 +30,11 @@ Short amphipathic helix disrupts gram-positive bacterial membranes at low concen
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Temporin A |
+| **Category** | Antimicrobial Peptides |
+

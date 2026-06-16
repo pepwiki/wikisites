@@ -30,3 +30,11 @@ Truncated endorphin form showing distinct pharmacological profile in CNS.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Gamma-Endorphin |
+| **Category** | Neuropeptides |
+

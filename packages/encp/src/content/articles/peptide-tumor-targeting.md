@@ -30,3 +30,11 @@ RGD and other homing peptides directing drug carriers to tumor tissue.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Tumor Targeting |
+| **Category** | Drug Delivery |
+

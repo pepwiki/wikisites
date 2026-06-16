@@ -28,3 +28,11 @@ Pulmonary delivery plays important roles in biological systems and has applicati
 ## References
 
 1. Encyclopeptide Database. "pulmonary-delivery" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Pulmonary delivery |
+| **Category** | Drug Delivery |
+

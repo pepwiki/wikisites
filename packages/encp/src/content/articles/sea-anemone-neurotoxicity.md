@@ -30,3 +30,11 @@ Multiple neurotoxins affecting sodium, potassium, and calcium channels in nerves
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Sea Anemone Neurotoxicity |
+| **Category** | Venom Peptides |
+

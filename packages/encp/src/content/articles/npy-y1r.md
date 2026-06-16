@@ -28,3 +28,11 @@ NPY binds Y1R (class A GPCR), activating Gαi/o → inhibits adenylyl cyclase �
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | NPY → Y1R |
+| **Category** | Peptide Interactions |
+

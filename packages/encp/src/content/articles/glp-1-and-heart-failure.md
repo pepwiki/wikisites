@@ -30,3 +30,11 @@ GLP-1 agonists improve cardiac metabolism and reduce inflammatory markers in HFp
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 and Heart Failure |
+| **Category** | Peptide Drugs |
+

@@ -30,3 +30,11 @@ Chitin-binding domain targets fungal cell wall components for antifungal activit
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Tachystatin |
+| **Category** | Antimicrobial Peptides |
+

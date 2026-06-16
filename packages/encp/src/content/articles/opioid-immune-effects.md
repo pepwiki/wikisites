@@ -30,3 +30,11 @@ Opioid receptors on immune cells mediate both immunostimulatory and immunosuppre
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Opioid Immune Effects |
+| **Category** | Neuropeptides |
+

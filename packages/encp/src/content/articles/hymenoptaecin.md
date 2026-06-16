@@ -30,3 +30,11 @@ Large cationic peptide disrupts bacterial membranes through electrostatic intera
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Hymenoptaecin |
+| **Category** | Antimicrobial Peptides |
+

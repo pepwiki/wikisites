@@ -30,3 +30,11 @@ C-terminal extension provides protease resistance and modified receptor profile.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Leucine-Enkephalin-Arg6 |
+| **Category** | Neuropeptides |
+

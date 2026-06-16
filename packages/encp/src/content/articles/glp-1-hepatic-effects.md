@@ -30,3 +30,11 @@ Central and direct hepatic GLP-1 receptor signaling reduces hepatic steatosis an
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | GLP-1 Hepatic Effects |
+| **Category** | Peptide Drugs |
+

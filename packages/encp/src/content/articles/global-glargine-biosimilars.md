@@ -30,3 +30,11 @@ Multiple biosimilar manufacturers developing interchangeable insulin glargine pr
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Global Glargine Biosimilars |
+| **Category** | Peptide Drugs |
+

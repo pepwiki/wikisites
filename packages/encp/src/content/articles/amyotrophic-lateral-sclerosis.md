@@ -25,3 +25,11 @@ Amyotrophic Lateral Sclerosis is a bioactive peptide with well-characterized pro
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Amyotrophic Lateral Sclerosis |
+| **Category** | Peptide Diseases |
+

@@ -25,3 +25,11 @@ PDB (Structure) is a bioactive peptide with well-characterized properties and th
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | PDB (Structure) |
+| **Category** | Peptide Databases |
+

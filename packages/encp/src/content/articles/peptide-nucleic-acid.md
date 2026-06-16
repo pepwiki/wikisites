@@ -28,3 +28,11 @@ Peptide nucleic acid plays important roles in biological systems and has applica
 ## References
 
 1. Encyclopeptide Database. "peptide-nucleic-acid" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide nucleic acid |
+| **Category** | Drug Delivery |
+

@@ -28,3 +28,11 @@ Nuclear receptor plays important roles in biological systems and has application
 ## References
 
 1. Encyclopeptide Database. "nuclear-receptor" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Nuclear receptor |
+| **Category** | Structural Biology |
+

@@ -30,3 +30,11 @@ Cationic peptide binds LPS displacing magnesium ions destabilizing outer membran
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Polymyxin B |
+| **Category** | Peptide Drugs |
+

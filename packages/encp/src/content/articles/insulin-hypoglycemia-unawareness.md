@@ -26,3 +26,14 @@ Hypoglycemia unawareness affects 20-30% of type 1 diabetes patients and develops
 - Use of ultra-long-acting analogues (degludec) with flatter profiles
 - Continuous glucose monitoring with alarms
 - Insulin pump therapy with predictive low-glucose suspend
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin-Related Hypoglycemia Unawareness |
+| **Category** | Insulin Family |
+
+## References
+
+1. Encyclopeptide Database. "Insulin-Related Hypoglycemia Unawareness" monograph. encyclopeptide.com.

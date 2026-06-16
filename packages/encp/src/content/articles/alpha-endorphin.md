@@ -30,3 +30,11 @@ Truncated form of beta-endorphin with retained mu-opioid receptor binding.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Alpha-Endorphin |
+| **Category** | Neuropeptides |
+

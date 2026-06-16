@@ -28,3 +28,11 @@ scFv antibody plays important roles in biological systems and has applications i
 ## References
 
 1. Encyclopeptide Database. "scFv-antibody" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | scFv antibody |
+| **Category** | Drug Delivery |
+

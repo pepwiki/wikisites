@@ -30,3 +30,14 @@ Zinc-binding groups (ZBGs) are pharmacophoric moieties that coordinate with cata
 - **ACE inhibitors**: Enalapril, lisinopril (carboxylate)
 - **Histone deacetylase inhibitors**: Vorinostat (hydroxamate)
 - **Proteasome inhibitors**: Bortezomib (boronic acid, analogous)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Zinc-Binding Group Peptides |
+| **Category** | Therapeutic Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Zinc-Binding Group Peptides" monograph. encyclopeptide.com.

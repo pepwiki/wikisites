@@ -30,3 +30,11 @@ Eel-derived sequence reduces immunogenicity compared to salmon calcitonin.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Elcatonin |
+| **Category** | Peptide Drugs |
+

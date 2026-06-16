@@ -30,3 +30,11 @@ Hypothalamic peptide stimulating growth hormone release from anterior pituitary.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Growth Hormone-Releasing Hormone |
+| **Category** | Neuropeptides |
+

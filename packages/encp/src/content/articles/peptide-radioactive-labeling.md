@@ -28,3 +28,11 @@ Peptide radioactive labeling plays important roles in biological systems and has
 ## References
 
 1. Encyclopeptide Database. "peptide-radioactive-labeling" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide radioactive labeling |
+| **Category** | Structural Biology |
+

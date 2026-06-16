@@ -28,3 +28,14 @@ Rare diseases often involve deficiency of specific enzymes or hormones, making t
 - IV administration requirements
 - Immunogenicity
 - Access and equity
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Rare Disease Therapeutics |
+| **Category** | Therapeutic Peptides |
+
+## References
+
+1. Encyclopeptide Database. "Peptide Rare Disease Therapeutics" monograph. encyclopeptide.com.

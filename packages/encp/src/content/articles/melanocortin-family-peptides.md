@@ -28,3 +28,11 @@ Setmelanotide is an MC4R agonist approved for genetic obesity. Afamelanotide tre
 
 - Source: ENCP Peptide Database
 - Category: Peptide Families
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Melanocortin Family Peptides |
+| **Category** | Peptide Families |
+

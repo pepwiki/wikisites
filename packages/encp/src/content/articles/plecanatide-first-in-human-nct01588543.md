@@ -25,3 +25,11 @@ Plecanatide - First-in-Human (NCT01588543) is a bioactive peptide with well-char
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Plecanatide - First-in-Human (NCT01588543) |
+| **Category** | Peptide Clinical Trials |
+

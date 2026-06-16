@@ -30,3 +30,11 @@ Additive manufacturing enabling patient-specific peptide delivery device geometr
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide 3D Printed Devices |
+| **Category** | Drug Delivery |
+

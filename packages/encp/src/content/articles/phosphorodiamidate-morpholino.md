@@ -28,3 +28,11 @@ Phosphorodiamidate morpholino plays important roles in biological systems and ha
 ## References
 
 1. Encyclopeptide Database. "phosphorodiamidate-morpholino" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Phosphorodiamidate morpholino |
+| **Category** | Structural Biology |
+

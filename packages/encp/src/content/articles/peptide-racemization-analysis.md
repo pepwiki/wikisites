@@ -28,3 +28,11 @@ Peptide racemization analysis plays important roles in biological systems and ha
 ## References
 
 1. Encyclopeptide Database. "peptide-racemization-analysis" reference. encyclopeptide.com.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide racemization analysis |
+| **Category** | Structural Biology |
+

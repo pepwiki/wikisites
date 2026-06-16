@@ -30,3 +30,11 @@ Diverse peptide library providing leads for antimicrobial drug development.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Frog Skin Peptide Library |
+| **Category** | Antimicrobial Peptides |
+

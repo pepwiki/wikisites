@@ -30,3 +30,11 @@ Algorithm-driven insulin delivery adjusts basal rates based on continuous glucos
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Smart Pump Systems |
+| **Category** | Peptide Drugs |
+

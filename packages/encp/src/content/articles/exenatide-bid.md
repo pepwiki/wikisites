@@ -31,3 +31,10 @@ Exenatide is a 39-amino acid peptide identical to exendin-4, originally isolated
 - **Peak**: 2.1 hours
 - **Duration**: 6-8 hours
 - **Dosing**: Twice daily, within 60 minutes before meals
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Exenatide Twice Daily" monograph. encyclopeptide.com.

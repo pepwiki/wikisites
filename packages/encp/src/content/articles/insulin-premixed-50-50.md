@@ -32,3 +32,10 @@ Used in type 2 diabetes with prominent postprandial glucose excursions. Typicall
 - **Onset**: 15 minutes
 - **Peak**: 0.5-1 hour (lispro), 4-8 hours (protamine)
 - **Duration**: 12-16 hours
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Premixed Insulin 50/50" monograph. encyclopeptide.com.

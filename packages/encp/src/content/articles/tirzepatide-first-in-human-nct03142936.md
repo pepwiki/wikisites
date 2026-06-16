@@ -25,3 +25,11 @@ Tirzepatide - First-in-Human (NCT03142936) is a bioactive peptide with well-char
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Tirzepatide - First-in-Human (NCT03142936) |
+| **Category** | Peptide Clinical Trials |
+

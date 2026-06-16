@@ -30,3 +30,11 @@ Osmotic or diffusion-controlled implants providing constant peptide release.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Peptide Implant Device |
+| **Category** | Drug Delivery |
+

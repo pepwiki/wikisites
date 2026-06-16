@@ -21,3 +21,18 @@ relatedArticles: ['semaglutide', 'oral-semaglutide', 'tirzepatide']
 ## Clinical Implications
 
 Quarterly dosing could significantly reduce treatment burden and improve long-term adherence.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Semaglutide 3-Month Dosing |
+| **Category** | GLP-1 Family |
+
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Semaglutide 3-Month Dosing" monograph. encyclopeptide.com.

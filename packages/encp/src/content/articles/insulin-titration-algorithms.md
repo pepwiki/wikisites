@@ -30,3 +30,11 @@ Systematic dose adjustment protocols based on fasting glucose targets.
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Titration Algorithms |
+| **Category** | Peptide Drugs |
+

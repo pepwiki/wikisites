@@ -30,3 +30,11 @@ Two disulfide bonds stabilize alpha-conotoxin fold blocking neuromuscular nicoti
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Alpha-Conotoxin GI |
+| **Category** | Venom Peptides |
+

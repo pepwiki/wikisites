@@ -20,3 +20,11 @@ Troponin I (Cardiac) is a bioactive peptide with well-characterized properties a
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Troponin I (Cardiac) |
+| **Category** | Biomarker Peptides |
+

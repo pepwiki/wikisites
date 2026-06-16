@@ -30,3 +30,11 @@ Biodegradable PLGA encapsulation provides controlled peptide release over days t
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | PLGA Nanoparticles Peptide |
+| **Category** | Drug Delivery |
+

@@ -25,3 +25,11 @@ Microwave-Assisted Synthesis is a bioactive peptide with well-characterized prop
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Microwave-Assisted Synthesis |
+| **Category** | Peptide Manufacturing |
+

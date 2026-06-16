@@ -30,3 +30,11 @@ Higher concentration reduces injection volume; depot formation extends duration 
 
 - Wikipept Peptide Database
 - Primary literature (see individual entries)
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Concentrated Insulin U500 |
+| **Category** | Peptide Drugs |
+

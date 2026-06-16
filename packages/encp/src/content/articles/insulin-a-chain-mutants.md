@@ -21,3 +21,18 @@ relatedArticles: ['insulin-a-chain', 'insulin-a-chain-b-chain-disulfide-bonds']
 ## Research Applications
 
 These mutants serve as tools for understanding insulin-receptor interactions and for engineering novel insulin analogues with modified receptor selectivity profiles.
+
+## Chemical Identity
+
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin A-Chain Mutants |
+| **Category** | Insulin Family |
+
+## Biological Significance
+
+This molecule plays important roles in biological systems and has potential therapeutic applications.
+
+## References
+
+1. Encyclopeptide Database. "Insulin A-Chain Mutants" monograph. encyclopeptide.com.
