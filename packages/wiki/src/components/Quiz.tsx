@@ -1,16 +1,16 @@
-import { createSignal, For, Show, onMount } from "solid-js";
+import { getStatusColor, getStatusLabel } from "@wikisites/query/card-status";
+import type { CardState } from "@wikisites/query/fsrs";
 import { Rating } from "@wikisites/query/fsrs";
 import {
-  initializeDeck,
-  recordReview,
-  loadCards,
-  type SiteKey,
   type DeckId,
+  initializeDeck,
+  loadCards,
+  recordReview,
+  type SiteKey,
 } from "@wikisites/query/review-store";
-import { getStatusLabel, getStatusColor } from "@wikisites/query/card-status";
-import type { CardState } from "@wikisites/query/fsrs";
-import { toastSuccess, toastError } from "../lib/toast";
+import { createSignal, For, onMount, Show } from "solid-js";
 import { useSessionOptional } from "../context";
+import { toastError, toastSuccess } from "../lib/toast";
 import RatingButtons from "./ui/RatingButtons";
 
 interface QuizProps {
@@ -139,7 +139,7 @@ export default function Quiz(props: QuizProps) {
       </Show>
       <Show when={revealed()}>
         <div
-          class={`mt-4 p-4 rounded-xl ${isCorrect() ? "bg-green-50 dark:bg-green-950/30" : "bg-red-50 dark:bg-red-950/30"}`}
+          class={`mt-4 p-4 rounded-xl animate-fade-in ${isCorrect() ? "bg-green-50 dark:bg-green-950/30" : "bg-red-50 dark:bg-red-950/30"}`}
           role="alert"
           aria-live="polite"
         >

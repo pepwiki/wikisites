@@ -1,14 +1,14 @@
-import { createSignal, Show, onMount } from "solid-js";
+import { getStatusColor, getStatusLabel } from "@wikisites/query/card-status";
+import type { CardState } from "@wikisites/query/fsrs";
 import { Rating } from "@wikisites/query/fsrs";
 import {
-  initializeDeck,
-  recordReview,
-  loadCards,
-  type SiteKey,
   type DeckId,
+  initializeDeck,
+  loadCards,
+  recordReview,
+  type SiteKey,
 } from "@wikisites/query/review-store";
-import { getStatusLabel, getStatusColor } from "@wikisites/query/card-status";
-import type { CardState } from "@wikisites/query/fsrs";
+import { createSignal, onMount, Show } from "solid-js";
 import { toastSuccess } from "../lib/toast";
 import FlipCard from "./ui/FlipCard";
 import RatingButtons from "./ui/RatingButtons";
@@ -71,9 +71,11 @@ export default function Flashcard(props: FlashcardProps) {
       <p class="text-lg font-semibold text-slate-900 dark:text-slate-100 text-center">
         {props.front}
       </p>
-      <p class="text-xs text-slate-400 dark:text-slate-500 mt-4" aria-hidden="true">
-        {rated() ? "Rated" : "Click to flip"}
-      </p>
+      <Show when={!rated()}>
+        <p class="text-xs text-slate-400 dark:text-slate-500 mt-4" aria-hidden="true">
+          Click to flip
+        </p>
+      </Show>
       <Show when={props.tags && props.tags.length > 0}>
         <div class="flex gap-1 mt-2" aria-label={`Tags: ${props.tags!.join(", ")}`}>
           {props.tags!.map((tag) => (

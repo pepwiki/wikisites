@@ -178,3 +178,19 @@ h6 {
   border-color: var(--error-border) !important;
   color: var(--error-text) !important;
 }
+
+/* Quiz result reveal animation */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out;
+}

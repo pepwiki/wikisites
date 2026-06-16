@@ -1,9 +1,9 @@
-import { createSignal, createEffect, For, Show } from "solid-js";
-import Flashcard from "./Flashcard";
-import type { SiteKey, DeckId } from "@wikisites/query/review-store";
-import { loadCards } from "@wikisites/query/review-store";
-import { isDue } from "@wikisites/query/fsrs";
 import type { CardState } from "@wikisites/query/fsrs";
+import { isDue } from "@wikisites/query/fsrs";
+import type { DeckId, SiteKey } from "@wikisites/query/review-store";
+import { loadCards } from "@wikisites/query/review-store";
+import { createEffect, createSignal, For, Show } from "solid-js";
+import Flashcard from "./Flashcard";
 import KeyboardShortcuts from "./KeyboardShortcuts";
 
 interface FlashcardData {
@@ -138,17 +138,25 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
         </div>
       </Show>
 
-      <div class="flex items-center gap-3 mb-4 text-sm text-slate-500 dark:text-slate-400">
-        <span>
-          Card {currentIndex() + 1} of {filteredCards().length}
-        </span>
-        <div class="flex-1 h-1.5 bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
-          <div
-            class="h-full bg-[#0f766e] rounded-full transition-all"
-            style={{ width: `${((currentIndex() + 1) / filteredCards().length) * 100}%` }}
-          />
+      <Show when={filteredCards().length === 0}>
+        <div class="text-center py-8 text-slate-400 dark:text-slate-500">
+          <p class="text-sm">No cards match this filter.</p>
         </div>
-      </div>
+      </Show>
+
+      <Show when={filteredCards().length > 0}>
+        <div class="flex items-center gap-3 mb-4 text-sm text-slate-500 dark:text-slate-400">
+          <span>
+            Card {currentIndex() + 1} of {filteredCards().length}
+          </span>
+          <div class="flex-1 h-1.5 bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+            <div
+              class="h-full bg-[#0f766e] rounded-full transition-all"
+              style={{ width: `${((currentIndex() + 1) / filteredCards().length) * 100}%` }}
+            />
+          </div>
+        </div>
+      </Show>
 
       <Show when={currentCard()}>
         <Flashcard

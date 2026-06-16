@@ -1,4 +1,4 @@
-import { createSignal, createMemo, Show, batch } from "solid-js";
+import { batch, createMemo, createSignal, Show } from "solid-js";
 import Quiz from "./Quiz";
 
 interface QuizQuestion {
@@ -216,9 +216,15 @@ export default function QuizSession(props: QuizSessionProps) {
           <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-2">{props.title}</h2>
           <p class="text-slate-600 dark:text-slate-400 mb-6">Choose a category to quiz on</p>
 
-          <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+          <div
+            class="grid grid-cols-2 sm:grid-cols-3 gap-3"
+            role="radiogroup"
+            aria-label="Quiz category"
+          >
             <button
               type="button"
+              role="radio"
+              aria-checked={selectedCategory() === null}
               class="px-4 py-3 rounded-xl border-2 border-[#0D9488] bg-[#0f766e]/5 text-[#0f766e] dark:text-[#2dd4bf] font-medium hover:bg-[#0f766e]/10 transition-colors text-left"
               onClick={() => startQuiz(null)}
             >
@@ -233,6 +239,8 @@ export default function QuizSession(props: QuizSessionProps) {
               return (
                 <button
                   type="button"
+                  role="radio"
+                  aria-checked={selectedCategory() === cat.category}
                   class="px-4 py-3 rounded-xl border-2 border-slate-200 dark:border-slate-700 hover:border-[#0D9488] hover:bg-[#0f766e]/5 transition-colors text-left"
                   onClick={() => startQuiz(cat.category)}
                 >
@@ -241,7 +249,9 @@ export default function QuizSession(props: QuizSessionProps) {
                   </span>
                   <span class="text-xs text-slate-500 dark:text-slate-400">
                     {cat.questions.length} questions
-                    {acc !== null && <span class="ml-1 text-[#0f766e] dark:text-[#2dd4bf]"> · {acc}%</span>}
+                    {acc !== null && (
+                      <span class="ml-1 text-[#0f766e] dark:text-[#2dd4bf]"> · {acc}%</span>
+                    )}
                   </span>
                 </button>
               );
@@ -260,9 +270,9 @@ export default function QuizSession(props: QuizSessionProps) {
               {correctCount()} correct &middot; {incorrectCount()} incorrect
             </span>
           </div>
-          <div class="w-full bg-slate-200 rounded-full h-2">
+          <div class="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-2">
             <div
-              class="bg-[#0f766e] h-2 rounded-full transition-all duration-300"
+              class="bg-[#0f766e] dark:bg-[#2dd4bf] h-2 rounded-full transition-all duration-300"
               style={{ width: `${progressPercent()}%` }}
             />
           </div>
