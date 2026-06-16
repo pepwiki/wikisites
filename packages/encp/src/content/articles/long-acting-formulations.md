@@ -1,35 +1,23 @@
 ---
 title: "Long-Acting Formulations"
-description: "Comprehensive reference for Long-Acting Formulations, a peptide compound with applications in research and therapeutics."
+description: "Strategies for extending peptide drug half-life including PEGylation, albumin binding, and depot formulations."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-future","peptide","oligopeptide"]
-category: "Peptide Future"
+pubDate: 2026-06-16
+tags: ["long-acting-formulations", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Long-Acting Formulations
-
 ## Overview
 
-Long-Acting Formulations is a bioactive peptide with well-characterized properties and therapeutic applications.
+Strategies for extending peptide drug half-life including PEGylation, albumin binding, and depot formulations.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Long-Acting Formulations |
-| **Category** | Peptide Future |
-
+1. Encyclopeptide Database. "Long-Acting Formulations" monograph. encyclopeptide.com.

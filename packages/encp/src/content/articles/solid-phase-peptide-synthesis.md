@@ -1,35 +1,23 @@
 ---
 title: "Solid-Phase Peptide Synthesis"
-description: "Comprehensive reference for Solid-Phase Peptide Synthesis, a peptide compound with applications in research and therapeutics."
+description: "Comprehensive resource on SPPS methods and applications."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-resources","peptide","oligopeptide"]
-category: "Peptide Resources"
+pubDate: 2026-06-16
+tags: ["solid-phase-peptide-synthesis", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Solid-Phase Peptide Synthesis
-
 ## Overview
 
-Solid-Phase Peptide Synthesis is a bioactive peptide with well-characterized properties and therapeutic applications.
+Comprehensive resource on SPPS methods and applications.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Solid-Phase Peptide Synthesis |
-| **Category** | Peptide Resources |
-
+1. Encyclopeptide Database. "Solid-Phase Peptide Synthesis" monograph. encyclopeptide.com.

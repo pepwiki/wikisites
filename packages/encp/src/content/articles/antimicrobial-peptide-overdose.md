@@ -1,35 +1,23 @@
 ---
 title: "Antimicrobial Peptide Overdose"
-description: "Comprehensive reference for Antimicrobial Peptide Overdose, a peptide compound with applications in research and therapeutics."
+description: "Excessive dosing of antimicrobial peptides. Can cause toxicity and resistance development."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-safety","peptide","oligopeptide"]
-category: "Peptide Safety"
+pubDate: 2026-06-16
+tags: ["antimicrobial-peptide-overdose", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Antimicrobial Peptide Overdose
-
 ## Overview
 
-Antimicrobial Peptide Overdose is a bioactive peptide with well-characterized properties and therapeutic applications.
+Excessive dosing of antimicrobial peptides. Can cause toxicity and resistance development.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Antimicrobial Peptide Overdose |
-| **Category** | Peptide Safety |
-
+1. Encyclopeptide Database. "Antimicrobial Peptide Overdose" monograph. encyclopeptide.com.

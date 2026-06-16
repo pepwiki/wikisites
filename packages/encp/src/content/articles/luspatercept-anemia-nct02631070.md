@@ -1,35 +1,23 @@
 ---
 title: "Luspatercept - Anemia (NCT02631070)"
-description: "Comprehensive reference for Luspatercept - Anemia (NCT02631070), a peptide compound with applications in research and therapeutics."
+description: "Trial of luspatercept for anemia in myelodysplastic syndromes."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-clinical-trials","peptide","oligopeptide"]
-category: "Peptide Clinical Trials"
+pubDate: 2026-06-16
+tags: ["luspatercept-anemia-nct02631070", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Luspatercept - Anemia (NCT02631070)
-
 ## Overview
 
-Luspatercept - Anemia (NCT02631070) is a bioactive peptide with well-characterized properties and therapeutic applications.
+Trial of luspatercept for anemia in myelodysplastic syndromes.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Luspatercept - Anemia (NCT02631070) |
-| **Category** | Peptide Clinical Trials |
-
+1. Encyclopeptide Database. "Luspatercept - Anemia (NCT02631070)" monograph. encyclopeptide.com.

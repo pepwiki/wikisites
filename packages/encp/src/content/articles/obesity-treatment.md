@@ -1,35 +1,23 @@
 ---
 title: "Obesity Treatment"
-description: "Comprehensive reference for Obesity Treatment, a peptide compound with applications in research and therapeutics."
+description: "Peptide therapeutics for obesity including GLP-1 agonists and dual agonists."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-applications","peptide","oligopeptide"]
-category: "Peptide Applications"
+pubDate: 2026-06-16
+tags: ["obesity-treatment", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Obesity Treatment
-
 ## Overview
 
-Obesity Treatment is a bioactive peptide with well-characterized properties and therapeutic applications.
+Peptide therapeutics for obesity including GLP-1 agonists and dual agonists.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Obesity Treatment |
-| **Category** | Peptide Applications |
-
+1. Encyclopeptide Database. "Obesity Treatment" monograph. encyclopeptide.com.

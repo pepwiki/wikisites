@@ -1,35 +1,23 @@
 ---
 title: "Companion Diagnostics"
-description: "Comprehensive reference for Companion Diagnostics, a peptide compound with applications in research and therapeutics."
+description: "Peptide-based companion diagnostics for patient selection and treatment monitoring."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-applications","peptide","oligopeptide"]
-category: "Peptide Applications"
+pubDate: 2026-06-16
+tags: ["companion-diagnostics", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Companion Diagnostics
-
 ## Overview
 
-Companion Diagnostics is a bioactive peptide with well-characterized properties and therapeutic applications.
+Peptide-based companion diagnostics for patient selection and treatment monitoring.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Companion Diagnostics |
-| **Category** | Peptide Applications |
-
+1. Encyclopeptide Database. "Companion Diagnostics" monograph. encyclopeptide.com.

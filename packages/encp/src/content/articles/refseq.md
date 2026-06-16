@@ -1,35 +1,23 @@
 ---
 title: "RefSeq"
-description: "Comprehensive reference for RefSeq, a peptide compound with applications in research and therapeutics."
+description: "Reference sequence database for genomes, transcripts, and proteins."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-databases","peptide","oligopeptide"]
-category: "Peptide Databases"
+pubDate: 2026-06-16
+tags: ["refseq", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# RefSeq
-
 ## Overview
 
-RefSeq is a bioactive peptide with well-characterized properties and therapeutic applications.
+Reference sequence database for genomes, transcripts, and proteins.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | RefSeq |
-| **Category** | Peptide Databases |
-
+1. Encyclopeptide Database. "RefSeq" monograph. encyclopeptide.com.

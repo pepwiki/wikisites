@@ -1,35 +1,23 @@
 ---
 title: "PDB (Sequence)"
-description: "Comprehensive reference for PDB (Sequence), a peptide compound with applications in research and therapeutics."
+description: "Protein sequences from the Protein Data Bank."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-databases","peptide","oligopeptide"]
-category: "Peptide Databases"
+pubDate: 2026-06-16
+tags: ["pdb-sequence", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# PDB (Sequence)
-
 ## Overview
 
-PDB (Sequence) is a bioactive peptide with well-characterized properties and therapeutic applications.
+Protein sequences from the Protein Data Bank.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | PDB (Sequence) |
-| **Category** | Peptide Databases |
-
+1. Encyclopeptide Database. "PDB (Sequence)" monograph. encyclopeptide.com.

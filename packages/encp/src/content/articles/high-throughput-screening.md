@@ -1,35 +1,23 @@
 ---
 title: "High-Throughput Screening"
-description: "Comprehensive reference for High-Throughput Screening, a peptide compound with applications in research and therapeutics."
+description: "Automated testing of large peptide libraries for biological activity."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["technology","peptide","oligopeptide"]
-category: "Peptide Technologies"
+pubDate: 2026-06-16
+tags: ["high-throughput-screening", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# High-Throughput Screening
-
 ## Overview
 
-High-Throughput Screening is a bioactive peptide with well-characterized properties and therapeutic applications.
+Automated testing of large peptide libraries for biological activity.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | High-Throughput Screening |
-| **Category** | Peptide Technologies |
-
+1. Encyclopeptide Database. "High-Throughput Screening" monograph. encyclopeptide.com.

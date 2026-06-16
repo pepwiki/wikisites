@@ -1,35 +1,23 @@
 ---
 title: "APD3 (Antimicrobial Peptide Database)"
-description: "Comprehensive reference for APD3 (Antimicrobial Peptide Database), a peptide compound with applications in research and therapeutics."
+description: "Comprehensive database of antimicrobial peptides with sequences, structures, and activities."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-databases","peptide","oligopeptide"]
-category: "Peptide Databases"
+pubDate: 2026-06-16
+tags: ["apd3-antimicrobial-peptide-database", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# APD3 (Antimicrobial Peptide Database)
-
 ## Overview
 
-APD3 (Antimicrobial Peptide Database) is a bioactive peptide with well-characterized properties and therapeutic applications.
+Comprehensive database of antimicrobial peptides with sequences, structures, and activities.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | APD3 (Antimicrobial Peptide Database) |
-| **Category** | Peptide Databases |
-
+1. Encyclopeptide Database. "APD3 (Antimicrobial Peptide Database)" monograph. encyclopeptide.com.

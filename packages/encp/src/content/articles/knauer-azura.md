@@ -1,35 +1,23 @@
 ---
 title: "Knauer Azura"
-description: "Comprehensive reference for Knauer Azura, a peptide compound with applications in research and therapeutics."
+description: "HPLC system for analytical and preparative peptide purification."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-research-tools","peptide","oligopeptide"]
-category: "Peptide Research Tools"
+pubDate: 2026-06-16
+tags: ["knauer-azura", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Knauer Azura
-
 ## Overview
 
-Knauer Azura is a bioactive peptide with well-characterized properties and therapeutic applications.
+HPLC system for analytical and preparative peptide purification.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Knauer Azura |
-| **Category** | Peptide Research Tools |
-
+1. Encyclopeptide Database. "Knauer Azura" monograph. encyclopeptide.com.

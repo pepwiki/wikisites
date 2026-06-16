@@ -1,35 +1,23 @@
 ---
 title: "Oncology"
-description: "Comprehensive reference for Oncology, a peptide compound with applications in research and therapeutics."
+description: "Clinical trials and therapeutics for cancer."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-clinical-trials","peptide","oligopeptide"]
-category: "Peptide Clinical Trials"
+pubDate: 2026-06-16
+tags: ["oncology", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Oncology
-
 ## Overview
 
-Oncology is a bioactive peptide with well-characterized properties and therapeutic applications.
+Clinical trials and therapeutics for cancer.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Oncology |
-| **Category** | Peptide Clinical Trials |
-
+1. Encyclopeptide Database. "Oncology" monograph. encyclopeptide.com.

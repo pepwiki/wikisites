@@ -1,35 +1,23 @@
 ---
 title: "Maple Syrup Urine Disease"
-description: "Comprehensive reference for Maple Syrup Urine Disease, a peptide compound with applications in research and therapeutics."
+description: "Inborn error of metabolism caused by branched-chain α-ketoacid dehydrogenase deficiency. Treatments: dietary restriction, liver transplantation."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["maple-syrup-urine-disease", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Maple Syrup Urine Disease
-
 ## Overview
 
-Maple Syrup Urine Disease is a bioactive peptide with well-characterized properties and therapeutic applications.
+Inborn error of metabolism caused by branched-chain α-ketoacid dehydrogenase deficiency. Treatments: dietary restriction, liver transplantation.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Maple Syrup Urine Disease |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "Maple Syrup Urine Disease" monograph. encyclopeptide.com.

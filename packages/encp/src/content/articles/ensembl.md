@@ -1,35 +1,23 @@
 ---
 title: "Ensembl"
-description: "Comprehensive reference for Ensembl, a peptide compound with applications in research and therapeutics."
+description: "Genome browser and annotation database."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-databases","peptide","oligopeptide"]
-category: "Peptide Databases"
+pubDate: 2026-06-16
+tags: ["ensembl", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Ensembl
-
 ## Overview
 
-Ensembl is a bioactive peptide with well-characterized properties and therapeutic applications.
+Genome browser and annotation database.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Ensembl |
-| **Category** | Peptide Databases |
-
+1. Encyclopeptide Database. "Ensembl" monograph. encyclopeptide.com.

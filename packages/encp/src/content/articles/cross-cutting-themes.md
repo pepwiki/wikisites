@@ -1,35 +1,23 @@
 ---
 title: "Cross-Cutting Themes"
-description: "Comprehensive reference for Cross-Cutting Themes, a peptide compound with applications in research and therapeutics."
+description: "Common themes across peptide-related diseases including inflammation, autoimmunity, and neurodegeneration."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["cross-cutting-themes", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cross-Cutting Themes
-
 ## Overview
 
-Cross-Cutting Themes is a bioactive peptide with well-characterized properties and therapeutic applications.
+Common themes across peptide-related diseases including inflammation, autoimmunity, and neurodegeneration.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Cross-Cutting Themes |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "Cross-Cutting Themes" monograph. encyclopeptide.com.

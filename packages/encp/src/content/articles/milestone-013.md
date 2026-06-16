@@ -1,35 +1,23 @@
 ---
 title: "Milestone 013"
-description: "Comprehensive reference for Milestone 013, a peptide compound with applications in research and therapeutics."
+description: "2014: First checkpoint inhibitor (ipilimumab) approved for melanoma. Opens era of cancer immunotherapy."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-history","peptide","oligopeptide"]
-category: "Peptide History"
+pubDate: 2026-06-16
+tags: ["milestone-013", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Milestone 013
-
 ## Overview
 
-Milestone 013 is a bioactive peptide with well-characterized properties and therapeutic applications.
+2014: First checkpoint inhibitor (ipilimumab) approved for melanoma. Opens era of cancer immunotherapy.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Milestone 013 |
-| **Category** | Peptide History |
-
+1. Encyclopeptide Database. "Milestone 013" monograph. encyclopeptide.com.

@@ -1,35 +1,23 @@
 ---
 title: "Insulin (Human)"
-description: "Comprehensive reference for Insulin (Human), a peptide compound with applications in research and therapeutics."
+description: "Natural human insulin produced by recombinant DNA technology. 51-aa heterodimer."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["therapeutic-peptides","peptide","oligopeptide"]
-category: "Therapeutic Peptides"
+pubDate: 2026-06-16
+tags: ["insulin-human", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Insulin (Human)
-
 ## Overview
 
-Insulin (Human) is a bioactive peptide with well-characterized properties and therapeutic applications.
+Natural human insulin produced by recombinant DNA technology. 51-aa heterodimer.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Insulin (Human) |
-| **Category** | Therapeutic Peptides |
-
+1. Encyclopeptide Database. "Insulin (Human)" monograph. encyclopeptide.com.

@@ -1,35 +1,23 @@
 ---
 title: "Nephrotoxicity"
-description: "Comprehensive reference for Nephrotoxicity, a peptide compound with applications in research and therapeutics."
+description: "Kidney damage caused by peptide drugs. Can include acute kidney injury and chronic kidney disease."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-safety","peptide","oligopeptide"]
-category: "Peptide Safety"
+pubDate: 2026-06-16
+tags: ["nephrotoxicity", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Nephrotoxicity
-
 ## Overview
 
-Nephrotoxicity is a bioactive peptide with well-characterized properties and therapeutic applications.
+Kidney damage caused by peptide drugs. Can include acute kidney injury and chronic kidney disease.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Nephrotoxicity |
-| **Category** | Peptide Safety |
-
+1. Encyclopeptide Database. "Nephrotoxicity" monograph. encyclopeptide.com.

@@ -1,6 +1,6 @@
 ---
 title: "Antimicrobial Peptide Market"
-description: "Market for AMP-based therapeutics targeting drug-resistant infections. Key segments: wound care, implant coatings, systemic infections. Driven by rising antibiotic resistance."
+description: "Market analysis for antimicrobial peptides including wound care, implant coatings, and systemic infections."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,11 +12,11 @@ relatedArticles: []
 
 ## Overview
 
-Market for AMP-based therapeutics targeting drug-resistant infections. Key segments: wound care, implant coatings, systemic infections. Driven by rising antibiotic resistance.
+Market analysis for antimicrobial peptides including wound care, implant coatings, and systemic infections.
 
 ## Clinical Significance
 
-New antibiotics for drug-resistant bacteria
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 

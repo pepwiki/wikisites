@@ -1,35 +1,23 @@
 ---
 title: "Lixisenatide/Insulin Glargine"
-description: "Comprehensive reference for Lixisenatide/Insulin Glargine, a peptide compound with applications in research and therapeutics."
+description: "Fixed-ratio combination of lixisenatide and insulin glargine for type 2 diabetes."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["therapeutic-peptides-expanded","peptide","oligopeptide"]
-category: "Therapeutic Peptides Expanded"
+pubDate: 2026-06-16
+tags: ["lixisenatide-insulin-glargine", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Lixisenatide/Insulin Glargine
-
 ## Overview
 
-Lixisenatide/Insulin Glargine is a bioactive peptide with well-characterized properties and therapeutic applications.
+Fixed-ratio combination of lixisenatide and insulin glargine for type 2 diabetes.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Lixisenatide/Insulin Glargine |
-| **Category** | Therapeutic Peptides Expanded |
-
+1. Encyclopeptide Database. "Lixisenatide/Insulin Glargine" monograph. encyclopeptide.com.

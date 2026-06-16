@@ -1,35 +1,23 @@
 ---
 title: "Anticoagulant Interactions"
-description: "Comprehensive reference for Anticoagulant Interactions, a peptide compound with applications in research and therapeutics."
+description: "Drug interactions between anticoagulant peptides and other medications. Can increase bleeding risk."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-safety","peptide","oligopeptide"]
-category: "Peptide Safety"
+pubDate: 2026-06-16
+tags: ["anticoagulant-interactions", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Anticoagulant Interactions
-
 ## Overview
 
-Anticoagulant Interactions is a bioactive peptide with well-characterized properties and therapeutic applications.
+Drug interactions between anticoagulant peptides and other medications. Can increase bleeding risk.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Anticoagulant Interactions |
-| **Category** | Peptide Safety |
-
+1. Encyclopeptide Database. "Anticoagulant Interactions" monograph. encyclopeptide.com.

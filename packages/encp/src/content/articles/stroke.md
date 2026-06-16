@@ -1,35 +1,23 @@
 ---
 title: "Stroke"
-description: "Comprehensive reference for Stroke, a peptide compound with applications in research and therapeutics."
+description: "Cerebrovascular accident. Ischemic (85%) or hemorrhagic (15%). Treatments: thrombolysis (ischemic), blood pressure control (hemorrhagic)."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["stroke", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Stroke
-
 ## Overview
 
-Stroke is a bioactive peptide with well-characterized properties and therapeutic applications.
+Cerebrovascular accident. Ischemic (85%) or hemorrhagic (15%). Treatments: thrombolysis (ischemic), blood pressure control (hemorrhagic).
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Stroke |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "Stroke" monograph. encyclopeptide.com.

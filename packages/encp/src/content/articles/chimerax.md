@@ -1,35 +1,23 @@
 ---
 title: "ChimeraX"
-description: "Comprehensive reference for ChimeraX, a peptide compound with applications in research and therapeutics."
+description: "Molecular visualization program for macromolecular structures."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-resources","peptide","oligopeptide"]
-category: "Peptide Resources"
+pubDate: 2026-06-16
+tags: ["chimerax", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# ChimeraX
-
 ## Overview
 
-ChimeraX is a bioactive peptide with well-characterized properties and therapeutic applications.
+Molecular visualization program for macromolecular structures.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | ChimeraX |
-| **Category** | Peptide Resources |
-
+1. Encyclopeptide Database. "ChimeraX" monograph. encyclopeptide.com.

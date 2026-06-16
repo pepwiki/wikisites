@@ -1,35 +1,23 @@
 ---
 title: "Biotage Syro"
-description: "Comprehensive reference for Biotage Syro, a peptide compound with applications in research and therapeutics."
+description: "Automated peptide synthesizer for SPPS. High-throughput parallel synthesis."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-research-tools","peptide","oligopeptide"]
-category: "Peptide Research Tools"
+pubDate: 2026-06-16
+tags: ["biotage-syro", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Biotage Syro
-
 ## Overview
 
-Biotage Syro is a bioactive peptide with well-characterized properties and therapeutic applications.
+Automated peptide synthesizer for SPPS. High-throughput parallel synthesis.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Biotage Syro |
-| **Category** | Peptide Research Tools |
-
+1. Encyclopeptide Database. "Biotage Syro" monograph. encyclopeptide.com.

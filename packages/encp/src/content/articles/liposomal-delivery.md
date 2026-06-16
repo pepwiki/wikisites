@@ -1,35 +1,23 @@
 ---
 title: "Liposomal Delivery"
-description: "Comprehensive reference for Liposomal Delivery, a peptide compound with applications in research and therapeutics."
+description: "Encapsulating peptides in liposomes for targeted delivery."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-technologies","peptide","oligopeptide"]
-category: "Peptide Technologies"
+pubDate: 2026-06-16
+tags: ["liposomal-delivery", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Liposomal Delivery
-
 ## Overview
 
-Liposomal Delivery is a bioactive peptide with well-characterized properties and therapeutic applications.
+Encapsulating peptides in liposomes for targeted delivery.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Liposomal Delivery |
-| **Category** | Peptide Technologies |
-
+1. Encyclopeptide Database. "Liposomal Delivery" monograph. encyclopeptide.com.

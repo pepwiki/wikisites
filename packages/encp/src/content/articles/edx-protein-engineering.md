@@ -1,35 +1,23 @@
 ---
 title: "edX Protein Engineering"
-description: "Comprehensive reference for edX Protein Engineering, a peptide compound with applications in research and therapeutics."
+description: "Online course on protein engineering principles and applications."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-resources","peptide","oligopeptide"]
-category: "Peptide Resources"
+pubDate: 2026-06-16
+tags: ["edx-protein-engineering", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# edX Protein Engineering
-
 ## Overview
 
-edX Protein Engineering is a bioactive peptide with well-characterized properties and therapeutic applications.
+Online course on protein engineering principles and applications.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | edX Protein Engineering |
-| **Category** | Peptide Resources |
-
+1. Encyclopeptide Database. "edX Protein Engineering" monograph. encyclopeptide.com.

@@ -1,35 +1,23 @@
 ---
 title: "Peptide and Protein Engineering"
-description: "Comprehensive reference for Peptide and Protein Engineering, a peptide compound with applications in research and therapeutics."
+description: "Journal focused on peptide and protein engineering."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-resources","peptide","oligopeptide"]
-category: "Peptide Resources"
+pubDate: 2026-06-16
+tags: ["peptide-and-protein-engineering", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide and Protein Engineering
-
 ## Overview
 
-Peptide and Protein Engineering is a bioactive peptide with well-characterized properties and therapeutic applications.
+Journal focused on peptide and protein engineering.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Peptide and Protein Engineering |
-| **Category** | Peptide Resources |
-
+1. Encyclopeptide Database. "Peptide and Protein Engineering" monograph. encyclopeptide.com.

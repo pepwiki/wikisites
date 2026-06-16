@@ -1,35 +1,23 @@
 ---
 title: "ATSP-7041 - MDM2/MDMX (NCT04022877)"
-description: "Comprehensive reference for ATSP-7041 - MDM2/MDMX (NCT04022877), a peptide compound with applications in research and therapeutics."
+description: "Phase II trial of ATSP-7041 for MDM2/MDMX-driven cancers."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-clinical-trials","peptide","oligopeptide"]
-category: "Peptide Clinical Trials"
+pubDate: 2026-06-16
+tags: ["atsp-7041-mdm2-mdmx-nct04022877", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# ATSP-7041 - MDM2/MDMX (NCT04022877)
-
 ## Overview
 
-ATSP-7041 - MDM2/MDMX (NCT04022877) is a bioactive peptide with well-characterized properties and therapeutic applications.
+Phase II trial of ATSP-7041 for MDM2/MDMX-driven cancers.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | ATSP-7041 - MDM2/MDMX (NCT04022877) |
-| **Category** | Peptide Clinical Trials |
-
+1. Encyclopeptide Database. "ATSP-7041 - MDM2/MDMX (NCT04022877)" monograph. encyclopeptide.com.

@@ -1,35 +1,23 @@
 ---
 title: "Bruker AVANCE III HD"
-description: "Comprehensive reference for Bruker AVANCE III HD, a peptide compound with applications in research and therapeutics."
+description: "High-field NMR spectrometer (600-950 MHz) for protein structure determination."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-research-tools","peptide","oligopeptide"]
-category: "Peptide Research Tools"
+pubDate: 2026-06-16
+tags: ["bruker-avance-iii-hd", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Bruker AVANCE III HD
-
 ## Overview
 
-Bruker AVANCE III HD is a bioactive peptide with well-characterized properties and therapeutic applications.
+High-field NMR spectrometer (600-950 MHz) for protein structure determination.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Bruker AVANCE III HD |
-| **Category** | Peptide Research Tools |
-
+1. Encyclopeptide Database. "Bruker AVANCE III HD" monograph. encyclopeptide.com.

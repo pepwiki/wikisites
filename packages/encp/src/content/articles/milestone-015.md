@@ -1,35 +1,23 @@
 ---
 title: "Milestone 015"
-description: "Comprehensive reference for Milestone 015, a peptide compound with applications in research and therapeutics."
+description: "2020: AlphaFold2 achieves near-experimental protein structure prediction. CASP14 winner. Nobel Prize 2024."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-history","peptide","oligopeptide"]
-category: "Peptide History"
+pubDate: 2026-06-16
+tags: ["milestone-015", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Milestone 015
-
 ## Overview
 
-Milestone 015 is a bioactive peptide with well-characterized properties and therapeutic applications.
+2020: AlphaFold2 achieves near-experimental protein structure prediction. CASP14 winner. Nobel Prize 2024.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Milestone 015 |
-| **Category** | Peptide History |
-
+1. Encyclopeptide Database. "Milestone 015" monograph. encyclopeptide.com.

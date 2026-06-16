@@ -1,35 +1,23 @@
 ---
 title: "Point-of-Care Testing"
-description: "Comprehensive reference for Point-of-Care Testing, a peptide compound with applications in research and therapeutics."
+description: "Peptide-based point-of-care diagnostic tests for rapid disease detection."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-applications","peptide","oligopeptide"]
-category: "Peptide Applications"
+pubDate: 2026-06-16
+tags: ["point-of-care-testing", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Point-of-Care Testing
-
 ## Overview
 
-Point-of-Care Testing is a bioactive peptide with well-characterized properties and therapeutic applications.
+Peptide-based point-of-care diagnostic tests for rapid disease detection.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Point-of-Care Testing |
-| **Category** | Peptide Applications |
-
+1. Encyclopeptide Database. "Point-of-Care Testing" monograph. encyclopeptide.com.

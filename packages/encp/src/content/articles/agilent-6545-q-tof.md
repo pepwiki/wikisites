@@ -1,35 +1,23 @@
 ---
 title: "Agilent 6545 Q-TOF"
-description: "Comprehensive reference for Agilent 6545 Q-TOF, a peptide compound with applications in research and therapeutics."
+description: "Quadrupole time-of-flight mass spectrometer. High-resolution accurate mass for peptide identification."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-research-tools","peptide","oligopeptide"]
-category: "Peptide Research Tools"
+pubDate: 2026-06-16
+tags: ["agilent-6545-q-tof", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Agilent 6545 Q-TOF
-
 ## Overview
 
-Agilent 6545 Q-TOF is a bioactive peptide with well-characterized properties and therapeutic applications.
+Quadrupole time-of-flight mass spectrometer. High-resolution accurate mass for peptide identification.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Agilent 6545 Q-TOF |
-| **Category** | Peptide Research Tools |
-
+1. Encyclopeptide Database. "Agilent 6545 Q-TOF" monograph. encyclopeptide.com.

@@ -1,35 +1,23 @@
 ---
 title: "VMD"
-description: "Comprehensive reference for VMD, a peptide compound with applications in research and therapeutics."
+description: "Visual Molecular Dynamics software for molecular visualization and analysis."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-resources","peptide","oligopeptide"]
-category: "Peptide Resources"
+pubDate: 2026-06-16
+tags: ["vmd", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# VMD
-
 ## Overview
 
-VMD is a bioactive peptide with well-characterized properties and therapeutic applications.
+Visual Molecular Dynamics software for molecular visualization and analysis.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | VMD |
-| **Category** | Peptide Resources |
-
+1. Encyclopeptide Database. "VMD" monograph. encyclopeptide.com.

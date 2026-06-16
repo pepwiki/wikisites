@@ -1,35 +1,23 @@
 ---
 title: "Thermo Q Exactive"
-description: "Comprehensive reference for Thermo Q Exactive, a peptide compound with applications in research and therapeutics."
+description: "Orbitrap mass spectrometer for high-resolution peptide analysis."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-research-tools","peptide","oligopeptide"]
-category: "Peptide Research Tools"
+pubDate: 2026-06-16
+tags: ["thermo-q-exactive", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Thermo Q Exactive
-
 ## Overview
 
-Thermo Q Exactive is a bioactive peptide with well-characterized properties and therapeutic applications.
+Orbitrap mass spectrometer for high-resolution peptide analysis.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Thermo Q Exactive |
-| **Category** | Peptide Research Tools |
-
+1. Encyclopeptide Database. "Thermo Q Exactive" monograph. encyclopeptide.com.

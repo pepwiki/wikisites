@@ -1,35 +1,23 @@
 ---
 title: "Nasal Delivery"
-description: "Comprehensive reference for Nasal Delivery, a peptide compound with applications in research and therapeutics."
+description: "Delivering peptides through nasal mucosa for brain targeting."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-technologies","peptide","oligopeptide"]
-category: "Peptide Technologies"
+pubDate: 2026-06-16
+tags: ["nasal-delivery", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Nasal Delivery
-
 ## Overview
 
-Nasal Delivery is a bioactive peptide with well-characterized properties and therapeutic applications.
+Delivering peptides through nasal mucosa for brain targeting.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Nasal Delivery |
-| **Category** | Peptide Technologies |
-
+1. Encyclopeptide Database. "Nasal Delivery" monograph. encyclopeptide.com.

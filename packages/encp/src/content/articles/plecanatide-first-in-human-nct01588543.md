@@ -1,35 +1,23 @@
 ---
 title: "Plecanatide - First-in-Human (NCT01588543)"
-description: "Comprehensive reference for Plecanatide - First-in-Human (NCT01588543), a peptide compound with applications in research and therapeutics."
+description: "First-in-human trial of plecanatide."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-clinical-trials","peptide","oligopeptide"]
-category: "Peptide Clinical Trials"
+pubDate: 2026-06-16
+tags: ["plecanatide-first-in-human-nct01588543", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Plecanatide - First-in-Human (NCT01588543)
-
 ## Overview
 
-Plecanatide - First-in-Human (NCT01588543) is a bioactive peptide with well-characterized properties and therapeutic applications.
+First-in-human trial of plecanatide.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Plecanatide - First-in-Human (NCT01588543) |
-| **Category** | Peptide Clinical Trials |
-
+1. Encyclopeptide Database. "Plecanatide - First-in-Human (NCT01588543)" monograph. encyclopeptide.com.

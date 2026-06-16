@@ -1,35 +1,23 @@
 ---
 title: "Liberty"
-description: "Comprehensive reference for Liberty, a peptide compound with applications in research and therapeutics."
+description: "Automated peptide synthesizer for standard SPPS."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-research-tools","peptide","oligopeptide"]
-category: "Peptide Research Tools"
+pubDate: 2026-06-16
+tags: ["liberty", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Liberty
-
 ## Overview
 
-Liberty is a bioactive peptide with well-characterized properties and therapeutic applications.
+Automated peptide synthesizer for standard SPPS.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Liberty |
-| **Category** | Peptide Research Tools |
-
+1. Encyclopeptide Database. "Liberty" monograph. encyclopeptide.com.

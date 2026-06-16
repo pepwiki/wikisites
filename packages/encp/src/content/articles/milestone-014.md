@@ -1,35 +1,23 @@
 ---
 title: "Milestone 014"
-description: "Comprehensive reference for Milestone 014, a peptide compound with applications in research and therapeutics."
+description: "2017: Semaglutide (Ozempic) approved for type 2 diabetes. Once-weekly GLP-1 agonist with cardiovascular benefits."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-history","peptide","oligopeptide"]
-category: "Peptide History"
+pubDate: 2026-06-16
+tags: ["milestone-014", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Milestone 014
-
 ## Overview
 
-Milestone 014 is a bioactive peptide with well-characterized properties and therapeutic applications.
+2017: Semaglutide (Ozempic) approved for type 2 diabetes. Once-weekly GLP-1 agonist with cardiovascular benefits.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Milestone 014 |
-| **Category** | Peptide History |
-
+1. Encyclopeptide Database. "Milestone 014" monograph. encyclopeptide.com.

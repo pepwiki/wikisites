@@ -1,35 +1,23 @@
 ---
 title: "Thyroid Cancer"
-description: "Comprehensive reference for Thyroid Cancer, a peptide compound with applications in research and therapeutics."
+description: "Malignant transformation of thyroid epithelium. Papillary (80%), follicular (10%), medullary (5%), anaplastic (5%). Treatments: surgery, radioactive iodine, tyrosine kinase inhibitors."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["thyroid-cancer", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Thyroid Cancer
-
 ## Overview
 
-Thyroid Cancer is a bioactive peptide with well-characterized properties and therapeutic applications.
+Malignant transformation of thyroid epithelium. Papillary (80%), follicular (10%), medullary (5%), anaplastic (5%). Treatments: surgery, radioactive iodine, tyrosine kinase inhibitors.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Thyroid Cancer |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "Thyroid Cancer" monograph. encyclopeptide.com.

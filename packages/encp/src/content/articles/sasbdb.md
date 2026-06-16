@@ -1,35 +1,23 @@
 ---
 title: "SASBDB"
-description: "Comprehensive reference for SASBDB, a peptide compound with applications in research and therapeutics."
+description: "Small Angle Scattering Biological Data Bank for SAXS/SANS data."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-databases","peptide","oligopeptide"]
-category: "Peptide Databases"
+pubDate: 2026-06-16
+tags: ["sasbdb", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# SASBDB
-
 ## Overview
 
-SASBDB is a bioactive peptide with well-characterized properties and therapeutic applications.
+Small Angle Scattering Biological Data Bank for SAXS/SANS data.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | SASBDB |
-| **Category** | Peptide Databases |
-
+1. Encyclopeptide Database. "SASBDB" monograph. encyclopeptide.com.

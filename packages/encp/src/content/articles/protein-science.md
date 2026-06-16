@@ -1,35 +1,23 @@
 ---
 title: "Protein Science"
-description: "Comprehensive reference for Protein Science, a peptide compound with applications in research and therapeutics."
+description: "Journal dedicated to protein structure, function, and engineering."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-resources","peptide","oligopeptide"]
-category: "Peptide Resources"
+pubDate: 2026-06-16
+tags: ["protein-science", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Protein Science
-
 ## Overview
 
-Protein Science is a bioactive peptide with well-characterized properties and therapeutic applications.
+Journal dedicated to protein structure, function, and engineering.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Protein Science |
-| **Category** | Peptide Resources |
-
+1. Encyclopeptide Database. "Protein Science" monograph. encyclopeptide.com.

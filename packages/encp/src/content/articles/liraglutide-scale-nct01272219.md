@@ -1,35 +1,23 @@
 ---
 title: "Liraglutide - SCALE (NCT01272219)"
-description: "Comprehensive reference for Liraglutide - SCALE (NCT01272219), a peptide compound with applications in research and therapeutics."
+description: "SCALE trial of liraglutide for obesity management."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-clinical-trials","peptide","oligopeptide"]
-category: "Peptide Clinical Trials"
+pubDate: 2026-06-16
+tags: ["liraglutide-scale-nct01272219", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Liraglutide - SCALE (NCT01272219)
-
 ## Overview
 
-Liraglutide - SCALE (NCT01272219) is a bioactive peptide with well-characterized properties and therapeutic applications.
+SCALE trial of liraglutide for obesity management.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Liraglutide - SCALE (NCT01272219) |
-| **Category** | Peptide Clinical Trials |
-
+1. Encyclopeptide Database. "Liraglutide - SCALE (NCT01272219)" monograph. encyclopeptide.com.

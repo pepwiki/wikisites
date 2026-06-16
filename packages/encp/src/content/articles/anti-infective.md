@@ -1,35 +1,23 @@
 ---
 title: "Anti-infective"
-description: "Comprehensive reference for Anti-infective, a peptide compound with applications in research and therapeutics."
+description: "Clinical trials and therapeutics for infectious diseases."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-clinical-trials","peptide","oligopeptide"]
-category: "Peptide Clinical Trials"
+pubDate: 2026-06-16
+tags: ["anti-infective", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Anti-infective
-
 ## Overview
 
-Anti-infective is a bioactive peptide with well-characterized properties and therapeutic applications.
+Clinical trials and therapeutics for infectious diseases.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Anti-infective |
-| **Category** | Peptide Clinical Trials |
-
+1. Encyclopeptide Database. "Anti-infective" monograph. encyclopeptide.com.

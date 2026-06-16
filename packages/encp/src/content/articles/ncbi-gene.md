@@ -1,35 +1,23 @@
 ---
 title: "NCBI Gene"
-description: "Comprehensive reference for NCBI Gene, a peptide compound with applications in research and therapeutics."
+description: "Gene database with information about gene structure, function, and expression."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-databases","peptide","oligopeptide"]
-category: "Peptide Databases"
+pubDate: 2026-06-16
+tags: ["ncbi-gene", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# NCBI Gene
-
 ## Overview
 
-NCBI Gene is a bioactive peptide with well-characterized properties and therapeutic applications.
+Gene database with information about gene structure, function, and expression.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | NCBI Gene |
-| **Category** | Peptide Databases |
-
+1. Encyclopeptide Database. "NCBI Gene" monograph. encyclopeptide.com.

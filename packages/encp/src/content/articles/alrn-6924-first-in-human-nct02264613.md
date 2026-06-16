@@ -1,35 +1,23 @@
 ---
 title: "ALRN-6924 - First-in-Human (NCT02264613)"
-description: "Comprehensive reference for ALRN-6924 - First-in-Human (NCT02264613), a peptide compound with applications in research and therapeutics."
+description: "First-in-human trial of ALRN-6924, a dual MDM2/MDMX inhibitor peptide."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-clinical-trials","peptide","oligopeptide"]
-category: "Peptide Clinical Trials"
+pubDate: 2026-06-16
+tags: ["alrn-6924-first-in-human-nct02264613", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# ALRN-6924 - First-in-Human (NCT02264613)
-
 ## Overview
 
-ALRN-6924 - First-in-Human (NCT02264613) is a bioactive peptide with well-characterized properties and therapeutic applications.
+First-in-human trial of ALRN-6924, a dual MDM2/MDMX inhibitor peptide.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | ALRN-6924 - First-in-Human (NCT02264613) |
-| **Category** | Peptide Clinical Trials |
-
+1. Encyclopeptide Database. "ALRN-6924 - First-in-Human (NCT02264613)" monograph. encyclopeptide.com.

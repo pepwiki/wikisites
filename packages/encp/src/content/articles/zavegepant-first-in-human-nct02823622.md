@@ -1,35 +1,23 @@
 ---
 title: "Zavegepant - First-in-Human (NCT02823622)"
-description: "Comprehensive reference for Zavegepant - First-in-Human (NCT02823622), a peptide compound with applications in research and therapeutics."
+description: "First-in-human trial of zavegepant for migraine."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-clinical-trials","peptide","oligopeptide"]
-category: "Peptide Clinical Trials"
+pubDate: 2026-06-16
+tags: ["zavegepant-first-in-human-nct02823622", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Zavegepant - First-in-Human (NCT02823622)
-
 ## Overview
 
-Zavegepant - First-in-Human (NCT02823622) is a bioactive peptide with well-characterized properties and therapeutic applications.
+First-in-human trial of zavegepant for migraine.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Zavegepant - First-in-Human (NCT02823622) |
-| **Category** | Peptide Clinical Trials |
-
+1. Encyclopeptide Database. "Zavegepant - First-in-Human (NCT02823622)" monograph. encyclopeptide.com.

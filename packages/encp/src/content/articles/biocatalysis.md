@@ -1,35 +1,23 @@
 ---
 title: "Biocatalysis"
-description: "Comprehensive reference for Biocatalysis, a peptide compound with applications in research and therapeutics."
+description: "Enzymatic methods for peptide synthesis and modification."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-applications","peptide","oligopeptide"]
-category: "Peptide Applications"
+pubDate: 2026-06-16
+tags: ["biocatalysis", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Biocatalysis
-
 ## Overview
 
-Biocatalysis is a bioactive peptide with well-characterized properties and therapeutic applications.
+Enzymatic methods for peptide synthesis and modification.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Biocatalysis |
-| **Category** | Peptide Applications |
-
+1. Encyclopeptide Database. "Biocatalysis" monograph. encyclopeptide.com.

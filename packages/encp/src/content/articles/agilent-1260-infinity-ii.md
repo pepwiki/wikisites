@@ -1,35 +1,23 @@
 ---
 title: "Agilent 1260 Infinity II"
-description: "Comprehensive reference for Agilent 1260 Infinity II, a peptide compound with applications in research and therapeutics."
+description: "HPLC system for peptide analysis. Binary/quaternary pump, autosampler, DAD detector. Widely used in pharmaceutical QC."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-research-tools","peptide","oligopeptide"]
-category: "Peptide Research Tools"
+pubDate: 2026-06-16
+tags: ["agilent-1260-infinity-ii", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Agilent 1260 Infinity II
-
 ## Overview
 
-Agilent 1260 Infinity II is a bioactive peptide with well-characterized properties and therapeutic applications.
+HPLC system for peptide analysis. Binary/quaternary pump, autosampler, DAD detector. Widely used in pharmaceutical QC.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Agilent 1260 Infinity II |
-| **Category** | Peptide Research Tools |
-
+1. Encyclopeptide Database. "Agilent 1260 Infinity II" monograph. encyclopeptide.com.

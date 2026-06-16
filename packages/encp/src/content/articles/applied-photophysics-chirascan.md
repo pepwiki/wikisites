@@ -1,35 +1,23 @@
 ---
 title: "Applied Photophysics Chirascan"
-description: "Comprehensive reference for Applied Photophysics Chirascan, a peptide compound with applications in research and therapeutics."
+description: "Circular dichroism spectrometer for protein secondary structure analysis."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-research-tools","peptide","oligopeptide"]
-category: "Peptide Research Tools"
+pubDate: 2026-06-16
+tags: ["applied-photophysics-chirascan", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Applied Photophysics Chirascan
-
 ## Overview
 
-Applied Photophysics Chirascan is a bioactive peptide with well-characterized properties and therapeutic applications.
+Circular dichroism spectrometer for protein secondary structure analysis.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Applied Photophysics Chirascan |
-| **Category** | Peptide Research Tools |
-
+1. Encyclopeptide Database. "Applied Photophysics Chirascan" monograph. encyclopeptide.com.

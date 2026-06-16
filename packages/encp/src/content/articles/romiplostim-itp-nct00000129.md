@@ -1,35 +1,23 @@
 ---
 title: "Romiplostim - ITP (NCT00000129)"
-description: "Comprehensive reference for Romiplostim - ITP (NCT00000129), a peptide compound with applications in research and therapeutics."
+description: "Trial of romiplostim for immune thrombocytopenia."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-clinical-trials","peptide","oligopeptide"]
-category: "Peptide Clinical Trials"
+pubDate: 2026-06-16
+tags: ["romiplostim-itp-nct00000129", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Romiplostim - ITP (NCT00000129)
-
 ## Overview
 
-Romiplostim - ITP (NCT00000129) is a bioactive peptide with well-characterized properties and therapeutic applications.
+Trial of romiplostim for immune thrombocytopenia.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Romiplostim - ITP (NCT00000129) |
-| **Category** | Peptide Clinical Trials |
-
+1. Encyclopeptide Database. "Romiplostim - ITP (NCT00000129)" monograph. encyclopeptide.com.

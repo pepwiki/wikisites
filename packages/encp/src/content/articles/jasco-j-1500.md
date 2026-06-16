@@ -1,35 +1,23 @@
 ---
 title: "JASCO J-1500"
-description: "Comprehensive reference for JASCO J-1500, a peptide compound with applications in research and therapeutics."
+description: "Circular dichroism spectrophotometer for protein secondary structure analysis."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-research-tools","peptide","oligopeptide"]
-category: "Peptide Research Tools"
+pubDate: 2026-06-16
+tags: ["jasco-j-1500", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# JASCO J-1500
-
 ## Overview
 
-JASCO J-1500 is a bioactive peptide with well-characterized properties and therapeutic applications.
+Circular dichroism spectrophotometer for protein secondary structure analysis.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | JASCO J-1500 |
-| **Category** | Peptide Research Tools |
-
+1. Encyclopeptide Database. "JASCO J-1500" monograph. encyclopeptide.com.

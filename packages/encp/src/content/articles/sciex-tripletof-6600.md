@@ -1,35 +1,23 @@
 ---
 title: "Sciex TripleTOF 6600"
-description: "Comprehensive reference for Sciex TripleTOF 6600, a peptide compound with applications in research and therapeutics."
+description: "High-resolution mass spectrometer for proteomics and peptidomics."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-research-tools","peptide","oligopeptide"]
-category: "Peptide Research Tools"
+pubDate: 2026-06-16
+tags: ["sciex-tripletof-6600", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sciex TripleTOF 6600
-
 ## Overview
 
-Sciex TripleTOF 6600 is a bioactive peptide with well-characterized properties and therapeutic applications.
+High-resolution mass spectrometer for proteomics and peptidomics.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Sciex TripleTOF 6600 |
-| **Category** | Peptide Research Tools |
-
+1. Encyclopeptide Database. "Sciex TripleTOF 6600" monograph. encyclopeptide.com.

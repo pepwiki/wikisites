@@ -1,35 +1,23 @@
 ---
 title: "Milestone 021"
-description: "Comprehensive reference for Milestone 021, a peptide compound with applications in research and therapeutics."
+description: "1922: First clinical use of insulin in human patients. Leonard Thompson receives insulin injection."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-history","peptide","oligopeptide"]
-category: "Peptide History"
+pubDate: 2026-06-16
+tags: ["milestone-021", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Milestone 021
-
 ## Overview
 
-Milestone 021 is a bioactive peptide with well-characterized properties and therapeutic applications.
+1922: First clinical use of insulin in human patients. Leonard Thompson receives insulin injection.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Milestone 021 |
-| **Category** | Peptide History |
-
+1. Encyclopeptide Database. "Milestone 021" monograph. encyclopeptide.com.

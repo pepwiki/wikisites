@@ -1,35 +1,23 @@
 ---
 title: "Tirzepatide - First-in-Human (NCT03142936)"
-description: "Comprehensive reference for Tirzepatide - First-in-Human (NCT03142936), a peptide compound with applications in research and therapeutics."
+description: "First-in-human trial of tirzepatide for type 2 diabetes."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-clinical-trials","peptide","oligopeptide"]
-category: "Peptide Clinical Trials"
+pubDate: 2026-06-16
+tags: ["tirzepatide-first-in-human-nct03142936", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Tirzepatide - First-in-Human (NCT03142936)
-
 ## Overview
 
-Tirzepatide - First-in-Human (NCT03142936) is a bioactive peptide with well-characterized properties and therapeutic applications.
+First-in-human trial of tirzepatide for type 2 diabetes.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Tirzepatide - First-in-Human (NCT03142936) |
-| **Category** | Peptide Clinical Trials |
-
+1. Encyclopeptide Database. "Tirzepatide - First-in-Human (NCT03142936)" monograph. encyclopeptide.com.

@@ -1,35 +1,23 @@
 ---
 title: "Tirzepatide - SURMOUNT-1 (NCT04184622)"
-description: "Comprehensive reference for Tirzepatide - SURMOUNT-1 (NCT04184622), a peptide compound with applications in research and therapeutics."
+description: "SURMOUNT-1 trial of tirzepatide for obesity."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-clinical-trials","peptide","oligopeptide"]
-category: "Peptide Clinical Trials"
+pubDate: 2026-06-16
+tags: ["tirzepatide-surmount-1-nct04184622", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Tirzepatide - SURMOUNT-1 (NCT04184622)
-
 ## Overview
 
-Tirzepatide - SURMOUNT-1 (NCT04184622) is a bioactive peptide with well-characterized properties and therapeutic applications.
+SURMOUNT-1 trial of tirzepatide for obesity.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Tirzepatide - SURMOUNT-1 (NCT04184622) |
-| **Category** | Peptide Clinical Trials |
-
+1. Encyclopeptide Database. "Tirzepatide - SURMOUNT-1 (NCT04184622)" monograph. encyclopeptide.com.

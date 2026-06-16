@@ -1,35 +1,23 @@
 ---
 title: "Milestone 009"
-description: "Comprehensive reference for Milestone 009, a peptide compound with applications in research and therapeutics."
+description: "1998: First GnRH antagonist (cetrorelix) approved. Advances reproductive medicine and cancer treatment."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-history","peptide","oligopeptide"]
-category: "Peptide History"
+pubDate: 2026-06-16
+tags: ["milestone-009", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Milestone 009
-
 ## Overview
 
-Milestone 009 is a bioactive peptide with well-characterized properties and therapeutic applications.
+1998: First GnRH antagonist (cetrorelix) approved. Advances reproductive medicine and cancer treatment.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Milestone 009 |
-| **Category** | Peptide History |
-
+1. Encyclopeptide Database. "Milestone 009" monograph. encyclopeptide.com.

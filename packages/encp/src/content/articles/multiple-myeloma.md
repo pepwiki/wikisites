@@ -1,35 +1,23 @@
 ---
 title: "Multiple Myeloma"
-description: "Comprehensive reference for Multiple Myeloma, a peptide compound with applications in research and therapeutics."
+description: "Plasma cell malignancy. Characterized by monoclonal protein, bone lesions, anemia, renal failure. Treatments: proteasome inhibitors, IMiDs, monoclonal antibodies."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["multiple-myeloma", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Multiple Myeloma
-
 ## Overview
 
-Multiple Myeloma is a bioactive peptide with well-characterized properties and therapeutic applications.
+Plasma cell malignancy. Characterized by monoclonal protein, bone lesions, anemia, renal failure. Treatments: proteasome inhibitors, IMiDs, monoclonal antibodies.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Multiple Myeloma |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "Multiple Myeloma" monograph. encyclopeptide.com.

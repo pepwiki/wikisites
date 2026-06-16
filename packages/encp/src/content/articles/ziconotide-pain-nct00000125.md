@@ -1,35 +1,23 @@
 ---
 title: "Ziconotide - Pain (NCT00000125)"
-description: "Comprehensive reference for Ziconotide - Pain (NCT00000125), a peptide compound with applications in research and therapeutics."
+description: "Trial of ziconotide for chronic pain."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-clinical-trials","peptide","oligopeptide"]
-category: "Peptide Clinical Trials"
+pubDate: 2026-06-16
+tags: ["ziconotide-pain-nct00000125", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Ziconotide - Pain (NCT00000125)
-
 ## Overview
 
-Ziconotide - Pain (NCT00000125) is a bioactive peptide with well-characterized properties and therapeutic applications.
+Trial of ziconotide for chronic pain.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Ziconotide - Pain (NCT00000125) |
-| **Category** | Peptide Clinical Trials |
-
+1. Encyclopeptide Database. "Ziconotide - Pain (NCT00000125)" monograph. encyclopeptide.com.

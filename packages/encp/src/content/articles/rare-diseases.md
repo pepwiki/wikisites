@@ -1,35 +1,23 @@
 ---
 title: "Rare Diseases"
-description: "Comprehensive reference for Rare Diseases, a peptide compound with applications in research and therapeutics."
+description: "Peptide therapeutics for rare diseases including enzyme replacement and substrate reduction."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-applications","peptide","oligopeptide"]
-category: "Peptide Applications"
+pubDate: 2026-06-16
+tags: ["rare-diseases", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Rare Diseases
-
 ## Overview
 
-Rare Diseases is a bioactive peptide with well-characterized properties and therapeutic applications.
+Peptide therapeutics for rare diseases including enzyme replacement and substrate reduction.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Rare Diseases |
-| **Category** | Peptide Applications |
-
+1. Encyclopeptide Database. "Rare Diseases" monograph. encyclopeptide.com.

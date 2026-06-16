@@ -1,35 +1,23 @@
 ---
 title: "International Peptide Society"
-description: "Comprehensive reference for International Peptide Society, a peptide compound with applications in research and therapeutics."
+description: "Professional society for peptide science and technology."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-resources","peptide","oligopeptide"]
-category: "Peptide Resources"
+pubDate: 2026-06-16
+tags: ["international-peptide-society", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# International Peptide Society
-
 ## Overview
 
-International Peptide Society is a bioactive peptide with well-characterized properties and therapeutic applications.
+Professional society for peptide science and technology.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | International Peptide Society |
-| **Category** | Peptide Resources |
-
+1. Encyclopeptide Database. "International Peptide Society" monograph. encyclopeptide.com.

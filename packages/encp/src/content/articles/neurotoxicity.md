@@ -1,35 +1,23 @@
 ---
 title: "Neurotoxicity"
-description: "Comprehensive reference for Neurotoxicity, a peptide compound with applications in research and therapeutics."
+description: "Nervous system damage caused by peptide drugs. Can include seizures, neuropathy, and encephalopathy."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-safety","peptide","oligopeptide"]
-category: "Peptide Safety"
+pubDate: 2026-06-16
+tags: ["neurotoxicity", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Neurotoxicity
-
 ## Overview
 
-Neurotoxicity is a bioactive peptide with well-characterized properties and therapeutic applications.
+Nervous system damage caused by peptide drugs. Can include seizures, neuropathy, and encephalopathy.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Neurotoxicity |
-| **Category** | Peptide Safety |
-
+1. Encyclopeptide Database. "Neurotoxicity" monograph. encyclopeptide.com.

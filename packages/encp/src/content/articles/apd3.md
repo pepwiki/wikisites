@@ -1,35 +1,23 @@
 ---
 title: "APD3"
-description: "Comprehensive reference for APD3, a peptide compound with applications in research and therapeutics."
+description: "Antimicrobial Peptide Database. Comprehensive database of antimicrobial peptides with sequences and activities."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-resources","peptide","oligopeptide"]
-category: "Peptide Resources"
+pubDate: 2026-06-16
+tags: ["apd3", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# APD3
-
 ## Overview
 
-APD3 is a bioactive peptide with well-characterized properties and therapeutic applications.
+Antimicrobial Peptide Database. Comprehensive database of antimicrobial peptides with sequences and activities.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | APD3 |
-| **Category** | Peptide Resources |
-
+1. Encyclopeptide Database. "APD3" monograph. encyclopeptide.com.

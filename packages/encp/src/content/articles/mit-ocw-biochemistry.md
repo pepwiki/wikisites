@@ -1,35 +1,23 @@
 ---
 title: "MIT OCW Biochemistry"
-description: "Comprehensive reference for MIT OCW Biochemistry, a peptide compound with applications in research and therapeutics."
+description: "MIT OpenCourseWare resource on biochemistry."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-resources","peptide","oligopeptide"]
-category: "Peptide Resources"
+pubDate: 2026-06-16
+tags: ["mit-ocw-biochemistry", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# MIT OCW Biochemistry
-
 ## Overview
 
-MIT OCW Biochemistry is a bioactive peptide with well-characterized properties and therapeutic applications.
+MIT OpenCourseWare resource on biochemistry.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | MIT OCW Biochemistry |
-| **Category** | Peptide Resources |
-
+1. Encyclopeptide Database. "MIT OCW Biochemistry" monograph. encyclopeptide.com.

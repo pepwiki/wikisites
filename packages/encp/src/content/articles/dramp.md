@@ -1,35 +1,23 @@
 ---
 title: "DRAMP"
-description: "Comprehensive reference for DRAMP, a peptide compound with applications in research and therapeutics."
+description: "Database of Research on Antimicrobial Peptides. Comprehensive resource for AMP research."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-resources","peptide","oligopeptide"]
-category: "Peptide Resources"
+pubDate: 2026-06-16
+tags: ["dramp", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# DRAMP
-
 ## Overview
 
-DRAMP is a bioactive peptide with well-characterized properties and therapeutic applications.
+Database of Research on Antimicrobial Peptides. Comprehensive resource for AMP research.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | DRAMP |
-| **Category** | Peptide Resources |
-
+1. Encyclopeptide Database. "DRAMP" monograph. encyclopeptide.com.

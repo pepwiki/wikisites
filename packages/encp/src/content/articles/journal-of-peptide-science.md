@@ -1,35 +1,23 @@
 ---
 title: "Journal of Peptide Science"
-description: "Comprehensive reference for Journal of Peptide Science, a peptide compound with applications in research and therapeutics."
+description: "Journal dedicated to peptide science and technology."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-resources","peptide","oligopeptide"]
-category: "Peptide Resources"
+pubDate: 2026-06-16
+tags: ["journal-of-peptide-science", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Journal of Peptide Science
-
 ## Overview
 
-Journal of Peptide Science is a bioactive peptide with well-characterized properties and therapeutic applications.
+Journal dedicated to peptide science and technology.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Journal of Peptide Science |
-| **Category** | Peptide Resources |
-
+1. Encyclopeptide Database. "Journal of Peptide Science" monograph. encyclopeptide.com.

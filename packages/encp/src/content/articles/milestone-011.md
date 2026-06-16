@@ -1,35 +1,23 @@
 ---
 title: "Milestone 011"
-description: "Comprehensive reference for Milestone 011, a peptide compound with applications in research and therapeutics."
+description: "2003: First anti-TNF biologic (adalimumab) approved. Opens era of biologic immunotherapy."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-history","peptide","oligopeptide"]
-category: "Peptide History"
+pubDate: 2026-06-16
+tags: ["milestone-011", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Milestone 011
-
 ## Overview
 
-Milestone 011 is a bioactive peptide with well-characterized properties and therapeutic applications.
+2003: First anti-TNF biologic (adalimumab) approved. Opens era of biologic immunotherapy.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Milestone 011 |
-| **Category** | Peptide History |
-
+1. Encyclopeptide Database. "Milestone 011" monograph. encyclopeptide.com.

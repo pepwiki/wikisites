@@ -1,35 +1,23 @@
 ---
 title: "Octreotide - Acromegaly (NCT00000124)"
-description: "Comprehensive reference for Octreotide - Acromegaly (NCT00000124), a peptide compound with applications in research and therapeutics."
+description: "Trial of octreotide for acromegaly treatment."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-clinical-trials","peptide","oligopeptide"]
-category: "Peptide Clinical Trials"
+pubDate: 2026-06-16
+tags: ["octreotide-acromegaly-nct00000124", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Octreotide - Acromegaly (NCT00000124)
-
 ## Overview
 
-Octreotide - Acromegaly (NCT00000124) is a bioactive peptide with well-characterized properties and therapeutic applications.
+Trial of octreotide for acromegaly treatment.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Octreotide - Acromegaly (NCT00000124) |
-| **Category** | Peptide Clinical Trials |
-
+1. Encyclopeptide Database. "Octreotide - Acromegaly (NCT00000124)" monograph. encyclopeptide.com.

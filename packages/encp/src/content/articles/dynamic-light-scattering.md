@@ -1,35 +1,23 @@
 ---
 title: "Dynamic Light Scattering"
-description: "Comprehensive reference for Dynamic Light Scattering, a peptide compound with applications in research and therapeutics."
+description: "DLS for measuring peptide size distribution and aggregation state."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-technologies","peptide","oligopeptide"]
-category: "Peptide Technologies"
+pubDate: 2026-06-16
+tags: ["dynamic-light-scattering", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Dynamic Light Scattering
-
 ## Overview
 
-Dynamic Light Scattering is a bioactive peptide with well-characterized properties and therapeutic applications.
+DLS for measuring peptide size distribution and aggregation state.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Dynamic Light Scattering |
-| **Category** | Peptide Technologies |
-
+1. Encyclopeptide Database. "Dynamic Light Scattering" monograph. encyclopeptide.com.

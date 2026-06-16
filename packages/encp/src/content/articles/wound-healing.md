@@ -1,35 +1,23 @@
 ---
 title: "Wound Healing"
-description: "Comprehensive reference for Wound Healing, a peptide compound with applications in research and therapeutics."
+description: "Peptide-based wound healing approaches including growth factors and antimicrobial peptides."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-applications","peptide","oligopeptide"]
-category: "Peptide Applications"
+pubDate: 2026-06-16
+tags: ["wound-healing", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Wound Healing
-
 ## Overview
 
-Wound Healing is a bioactive peptide with well-characterized properties and therapeutic applications.
+Peptide-based wound healing approaches including growth factors and antimicrobial peptides.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Wound Healing |
-| **Category** | Peptide Applications |
-
+1. Encyclopeptide Database. "Wound Healing" monograph. encyclopeptide.com.

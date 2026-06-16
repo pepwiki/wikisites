@@ -1,35 +1,23 @@
 ---
 title: "Khan Academy Amino Acids"
-description: "Comprehensive reference for Khan Academy Amino Acids, a peptide compound with applications in research and therapeutics."
+description: "Educational resource on amino acids and protein structure."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-resources","peptide","oligopeptide"]
-category: "Peptide Resources"
+pubDate: 2026-06-16
+tags: ["khan-academy-amino-acids", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Khan Academy Amino Acids
-
 ## Overview
 
-Khan Academy Amino Acids is a bioactive peptide with well-characterized properties and therapeutic applications.
+Educational resource on amino acids and protein structure.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Khan Academy Amino Acids |
-| **Category** | Peptide Resources |
-
+1. Encyclopeptide Database. "Khan Academy Amino Acids" monograph. encyclopeptide.com.

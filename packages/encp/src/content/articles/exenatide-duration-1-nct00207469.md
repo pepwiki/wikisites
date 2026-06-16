@@ -1,35 +1,23 @@
 ---
 title: "Exenatide - DURATION-1 (NCT00207469)"
-description: "Comprehensive reference for Exenatide - DURATION-1 (NCT00207469), a peptide compound with applications in research and therapeutics."
+description: "Duration-1 trial comparing exenatide to glimepiride in type 2 diabetes."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-clinical-trials","peptide","oligopeptide"]
-category: "Peptide Clinical Trials"
+pubDate: 2026-06-16
+tags: ["exenatide-duration-1-nct00207469", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Exenatide - DURATION-1 (NCT00207469)
-
 ## Overview
 
-Exenatide - DURATION-1 (NCT00207469) is a bioactive peptide with well-characterized properties and therapeutic applications.
+Duration-1 trial comparing exenatide to glimepiride in type 2 diabetes.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Exenatide - DURATION-1 (NCT00207469) |
-| **Category** | Peptide Clinical Trials |
-
+1. Encyclopeptide Database. "Exenatide - DURATION-1 (NCT00207469)" monograph. encyclopeptide.com.

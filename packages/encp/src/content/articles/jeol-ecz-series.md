@@ -1,35 +1,23 @@
 ---
 title: "JEOL ECZ Series"
-description: "Comprehensive reference for JEOL ECZ Series, a peptide compound with applications in research and therapeutics."
+description: "NMR spectrometer for protein structure and dynamics studies."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-research-tools","peptide","oligopeptide"]
-category: "Peptide Research Tools"
+pubDate: 2026-06-16
+tags: ["jeol-ecz-series", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# JEOL ECZ Series
-
 ## Overview
 
-JEOL ECZ Series is a bioactive peptide with well-characterized properties and therapeutic applications.
+NMR spectrometer for protein structure and dynamics studies.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | JEOL ECZ Series |
-| **Category** | Peptide Research Tools |
-
+1. Encyclopeptide Database. "JEOL ECZ Series" monograph. encyclopeptide.com.

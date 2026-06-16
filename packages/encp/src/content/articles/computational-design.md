@@ -1,35 +1,23 @@
 ---
 title: "Computational Design"
-description: "Comprehensive reference for Computational Design, a peptide compound with applications in research and therapeutics."
+description: "AI and computational approaches to peptide design including machine learning and molecular dynamics."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-future","peptide","oligopeptide"]
-category: "Peptide Future"
+pubDate: 2026-06-16
+tags: ["computational-design", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Computational Design
-
 ## Overview
 
-Computational Design is a bioactive peptide with well-characterized properties and therapeutic applications.
+AI and computational approaches to peptide design including machine learning and molecular dynamics.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Computational Design |
-| **Category** | Peptide Future |
-
+1. Encyclopeptide Database. "Computational Design" monograph. encyclopeptide.com.

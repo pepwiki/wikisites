@@ -1,35 +1,23 @@
 ---
 title: "GnRH Agonist Overdose"
-description: "Comprehensive reference for GnRH Agonist Overdose, a peptide compound with applications in research and therapeutics."
+description: "Excessive GnRH agonist dosing. Can cause severe hormone suppression and adverse effects."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-safety","peptide","oligopeptide"]
-category: "Peptide Safety"
+pubDate: 2026-06-16
+tags: ["gnrh-agonist-overdose", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GnRH Agonist Overdose
-
 ## Overview
 
-GnRH Agonist Overdose is a bioactive peptide with well-characterized properties and therapeutic applications.
+Excessive GnRH agonist dosing. Can cause severe hormone suppression and adverse effects.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | GnRH Agonist Overdose |
-| **Category** | Peptide Safety |
-
+1. Encyclopeptide Database. "GnRH Agonist Overdose" monograph. encyclopeptide.com.

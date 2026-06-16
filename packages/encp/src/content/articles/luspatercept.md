@@ -1,35 +1,23 @@
 ---
 title: "Luspatercept"
-description: "Comprehensive reference for Luspatercept, a peptide compound with applications in research and therapeutics."
+description: "TGF-β superfamily ligand trap. Stimulates erythropoiesis. FDA-approved for MDS and beta-thalassemia."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["therapeutic-peptides","peptide","oligopeptide"]
-category: "Therapeutic Peptides"
+pubDate: 2026-06-16
+tags: ["luspatercept", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Luspatercept
-
 ## Overview
 
-Luspatercept is a bioactive peptide with well-characterized properties and therapeutic applications.
+TGF-β superfamily ligand trap. Stimulates erythropoiesis. FDA-approved for MDS and beta-thalassemia.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Luspatercept |
-| **Category** | Therapeutic Peptides |
-
+1. Encyclopeptide Database. "Luspatercept" monograph. encyclopeptide.com.

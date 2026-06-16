@@ -1,35 +1,23 @@
 ---
 title: "Hematotoxicity"
-description: "Comprehensive reference for Hematotoxicity, a peptide compound with applications in research and therapeutics."
+description: "Blood-related adverse effects of peptide drugs. Can include thrombocytopenia, anemia, and leukopenia."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-safety","peptide","oligopeptide"]
-category: "Peptide Safety"
+pubDate: 2026-06-16
+tags: ["hematotoxicity", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Hematotoxicity
-
 ## Overview
 
-Hematotoxicity is a bioactive peptide with well-characterized properties and therapeutic applications.
+Blood-related adverse effects of peptide drugs. Can include thrombocytopenia, anemia, and leukopenia.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Hematotoxicity |
-| **Category** | Peptide Safety |
-
+1. Encyclopeptide Database. "Hematotoxicity" monograph. encyclopeptide.com.

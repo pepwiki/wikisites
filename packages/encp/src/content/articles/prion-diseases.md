@@ -1,35 +1,23 @@
 ---
 title: "Prion Diseases"
-description: "Comprehensive reference for Prion Diseases, a peptide compound with applications in research and therapeutics."
+description: "Transmissible spongiform encephalopathies caused by PrPSc. Include CJD, BSE, kuru. No effective treatment."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["prion-diseases", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Prion Diseases
-
 ## Overview
 
-Prion Diseases is a bioactive peptide with well-characterized properties and therapeutic applications.
+Transmissible spongiform encephalopathies caused by PrPSc. Include CJD, BSE, kuru. No effective treatment.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Prion Diseases |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "Prion Diseases" monograph. encyclopeptide.com.

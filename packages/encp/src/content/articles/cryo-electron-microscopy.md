@@ -1,35 +1,23 @@
 ---
 title: "Cryo-Electron Microscopy"
-description: "Comprehensive reference for Cryo-Electron Microscopy, a peptide compound with applications in research and therapeutics."
+description: "Cryo-EM for determining peptide and protein structures at near-atomic resolution."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-technologies","peptide","oligopeptide"]
-category: "Peptide Technologies"
+pubDate: 2026-06-16
+tags: ["cryo-electron-microscopy", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cryo-Electron Microscopy
-
 ## Overview
 
-Cryo-Electron Microscopy is a bioactive peptide with well-characterized properties and therapeutic applications.
+Cryo-EM for determining peptide and protein structures at near-atomic resolution.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Cryo-Electron Microscopy |
-| **Category** | Peptide Technologies |
-
+1. Encyclopeptide Database. "Cryo-Electron Microscopy" monograph. encyclopeptide.com.

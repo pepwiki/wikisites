@@ -1,35 +1,23 @@
 ---
 title: "Zavegepant - Migraine (NCT03872453)"
-description: "Comprehensive reference for Zavegepant - Migraine (NCT03872453), a peptide compound with applications in research and therapeutics."
+description: "Phase III trial of zavegepant for acute migraine."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-clinical-trials","peptide","oligopeptide"]
-category: "Peptide Clinical Trials"
+pubDate: 2026-06-16
+tags: ["zavegepant-migraine-nct03872453", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Zavegepant - Migraine (NCT03872453)
-
 ## Overview
 
-Zavegepant - Migraine (NCT03872453) is a bioactive peptide with well-characterized properties and therapeutic applications.
+Phase III trial of zavegepant for acute migraine.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Zavegepant - Migraine (NCT03872453) |
-| **Category** | Peptide Clinical Trials |
-
+1. Encyclopeptide Database. "Zavegepant - Migraine (NCT03872453)" monograph. encyclopeptide.com.

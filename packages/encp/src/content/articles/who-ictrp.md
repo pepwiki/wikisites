@@ -1,35 +1,23 @@
 ---
 title: "WHO ICTRP"
-description: "Comprehensive reference for WHO ICTRP, a peptide compound with applications in research and therapeutics."
+description: "WHO International Clinical Trials Registry Platform."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-databases","peptide","oligopeptide"]
-category: "Peptide Databases"
+pubDate: 2026-06-16
+tags: ["who-ictrp", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# WHO ICTRP
-
 ## Overview
 
-WHO ICTRP is a bioactive peptide with well-characterized properties and therapeutic applications.
+WHO International Clinical Trials Registry Platform.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | WHO ICTRP |
-| **Category** | Peptide Databases |
-
+1. Encyclopeptide Database. "WHO ICTRP" monograph. encyclopeptide.com.

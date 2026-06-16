@@ -1,35 +1,23 @@
 ---
 title: "ALRN-6924 - MDM2/MDMX (NCT04022876)"
-description: "Comprehensive reference for ALRN-6924 - MDM2/MDMX (NCT04022876), a peptide compound with applications in research and therapeutics."
+description: "Phase II trial of ALRN-6924 for MDM2/MDMX-driven cancers."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-clinical-trials","peptide","oligopeptide"]
-category: "Peptide Clinical Trials"
+pubDate: 2026-06-16
+tags: ["alrn-6924-mdm2-mdmx-nct04022876", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# ALRN-6924 - MDM2/MDMX (NCT04022876)
-
 ## Overview
 
-ALRN-6924 - MDM2/MDMX (NCT04022876) is a bioactive peptide with well-characterized properties and therapeutic applications.
+Phase II trial of ALRN-6924 for MDM2/MDMX-driven cancers.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | ALRN-6924 - MDM2/MDMX (NCT04022876) |
-| **Category** | Peptide Clinical Trials |
-
+1. Encyclopeptide Database. "ALRN-6924 - MDM2/MDMX (NCT04022876)" monograph. encyclopeptide.com.

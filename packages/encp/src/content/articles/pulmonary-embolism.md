@@ -1,35 +1,23 @@
 ---
 title: "Pulmonary Embolism"
-description: "Comprehensive reference for Pulmonary Embolism, a peptide compound with applications in research and therapeutics."
+description: "Blood clot in pulmonary arteries. Usually from DVT. Treatments: anticoagulation, thrombolysis."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["pulmonary-embolism", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Pulmonary Embolism
-
 ## Overview
 
-Pulmonary Embolism is a bioactive peptide with well-characterized properties and therapeutic applications.
+Blood clot in pulmonary arteries. Usually from DVT. Treatments: anticoagulation, thrombolysis.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Pulmonary Embolism |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "Pulmonary Embolism" monograph. encyclopeptide.com.

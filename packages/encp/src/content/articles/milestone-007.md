@@ -1,35 +1,23 @@
 ---
 title: "Milestone 007"
-description: "Comprehensive reference for Milestone 007, a peptide compound with applications in research and therapeutics."
+description: "1987: Zasloff discovers magainins from frog skin. Opens field of antimicrobial peptides from natural sources."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-history","peptide","oligopeptide"]
-category: "Peptide History"
+pubDate: 2026-06-16
+tags: ["milestone-007", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Milestone 007
-
 ## Overview
 
-Milestone 007 is a bioactive peptide with well-characterized properties and therapeutic applications.
+1987: Zasloff discovers magainins from frog skin. Opens field of antimicrobial peptides from natural sources.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Milestone 007 |
-| **Category** | Peptide History |
-
+1. Encyclopeptide Database. "Milestone 007" monograph. encyclopeptide.com.

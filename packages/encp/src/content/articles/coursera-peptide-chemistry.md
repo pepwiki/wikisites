@@ -1,35 +1,23 @@
 ---
 title: "Coursera Peptide Chemistry"
-description: "Comprehensive reference for Coursera Peptide Chemistry, a peptide compound with applications in research and therapeutics."
+description: "Online course on peptide chemistry and drug design."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-resources","peptide","oligopeptide"]
-category: "Peptide Resources"
+pubDate: 2026-06-16
+tags: ["coursera-peptide-chemistry", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Coursera Peptide Chemistry
-
 ## Overview
 
-Coursera Peptide Chemistry is a bioactive peptide with well-characterized properties and therapeutic applications.
+Online course on peptide chemistry and drug design.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Coursera Peptide Chemistry |
-| **Category** | Peptide Resources |
-
+1. Encyclopeptide Database. "Coursera Peptide Chemistry" monograph. encyclopeptide.com.

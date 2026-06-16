@@ -1,35 +1,23 @@
 ---
 title: "Imaging Agents"
-description: "Comprehensive reference for Imaging Agents, a peptide compound with applications in research and therapeutics."
+description: "Peptide-based imaging agents for PET, SPECT, and MRI diagnostics."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-applications","peptide","oligopeptide"]
-category: "Peptide Applications"
+pubDate: 2026-06-16
+tags: ["imaging-agents", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Imaging Agents
-
 ## Overview
 
-Imaging Agents is a bioactive peptide with well-characterized properties and therapeutic applications.
+Peptide-based imaging agents for PET, SPECT, and MRI diagnostics.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Imaging Agents |
-| **Category** | Peptide Applications |
-
+1. Encyclopeptide Database. "Imaging Agents" monograph. encyclopeptide.com.

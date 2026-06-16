@@ -1,30 +1,23 @@
 ---
 title: "Disease Biomarkers"
-description: "Collection of peptide biomarkers used across disease diagnosis, monitoring, and prognosis."
+description: "Peptide biomarkers for disease diagnosis, prognosis, and treatment monitoring."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-applications", "peptide", "oligopeptide"]
-category: "Peptide Applications"
+pubDate: 2026-06-16
+tags: ["disease-biomarkers", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Disease Biomarkers
-
 ## Overview
 
-Disease Biomarkers is a bioactive peptide with well-characterized properties and therapeutic applications.
+Peptide biomarkers for disease diagnosis, prognosis, and treatment monitoring.
+
+## Clinical Significance
+
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Disease Biomarkers |
-| **Category** | Peptide Applications |
-
+1. Encyclopeptide Database. "Disease Biomarkers" monograph. encyclopeptide.com.

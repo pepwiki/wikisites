@@ -1,35 +1,23 @@
 ---
 title: "Laboratory Diagnostics"
-description: "Comprehensive reference for Laboratory Diagnostics, a peptide compound with applications in research and therapeutics."
+description: "Peptide-based laboratory diagnostic tests and assays."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-applications","peptide","oligopeptide"]
-category: "Peptide Applications"
+pubDate: 2026-06-16
+tags: ["laboratory-diagnostics", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Laboratory Diagnostics
-
 ## Overview
 
-Laboratory Diagnostics is a bioactive peptide with well-characterized properties and therapeutic applications.
+Peptide-based laboratory diagnostic tests and assays.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Laboratory Diagnostics |
-| **Category** | Peptide Applications |
-
+1. Encyclopeptide Database. "Laboratory Diagnostics" monograph. encyclopeptide.com.

@@ -1,35 +1,23 @@
 ---
 title: "Milestone 001"
-description: "Comprehensive reference for Milestone 001, a peptide compound with applications in research and therapeutics."
+description: "1921: Discovery of insulin by Banting and Best. First peptide hormone isolated for therapeutic use."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-history","peptide","oligopeptide"]
-category: "Peptide History"
+pubDate: 2026-06-16
+tags: ["milestone-001", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Milestone 001
-
 ## Overview
 
-Milestone 001 is a bioactive peptide with well-characterized properties and therapeutic applications.
+1921: Discovery of insulin by Banting and Best. First peptide hormone isolated for therapeutic use.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Milestone 001 |
-| **Category** | Peptide History |
-
+1. Encyclopeptide Database. "Milestone 001" monograph. encyclopeptide.com.

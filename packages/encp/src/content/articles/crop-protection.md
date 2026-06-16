@@ -1,35 +1,23 @@
 ---
 title: "Crop Protection"
-description: "Comprehensive reference for Crop Protection, a peptide compound with applications in research and therapeutics."
+description: "Use of antimicrobial peptides as biopesticides for sustainable agriculture."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-applications","peptide","oligopeptide"]
-category: "Peptide Applications"
+pubDate: 2026-06-16
+tags: ["crop-protection", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Crop Protection
-
 ## Overview
 
-Crop Protection is a bioactive peptide with well-characterized properties and therapeutic applications.
+Use of antimicrobial peptides as biopesticides for sustainable agriculture.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Crop Protection |
-| **Category** | Peptide Applications |
-
+1. Encyclopeptide Database. "Crop Protection" monograph. encyclopeptide.com.

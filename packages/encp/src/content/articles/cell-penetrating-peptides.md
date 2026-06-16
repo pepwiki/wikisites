@@ -1,35 +1,23 @@
 ---
 title: "Cell-Penetrating Peptides"
-description: "Comprehensive reference for Cell-Penetrating Peptides, a peptide compound with applications in research and therapeutics."
+description: "Peptides that can cross cell membranes. Used for intracellular drug delivery."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-technologies","peptide","oligopeptide"]
-category: "Peptide Technologies"
+pubDate: 2026-06-16
+tags: ["cell-penetrating-peptides", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cell-Penetrating Peptides
-
 ## Overview
 
-Cell-Penetrating Peptides is a bioactive peptide with well-characterized properties and therapeutic applications.
+Peptides that can cross cell membranes. Used for intracellular drug delivery.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Cell-Penetrating Peptides |
-| **Category** | Peptide Technologies |
-
+1. Encyclopeptide Database. "Cell-Penetrating Peptides" monograph. encyclopeptide.com.

@@ -1,35 +1,23 @@
 ---
 title: "Liver Cancer"
-description: "Comprehensive reference for Liver Cancer, a peptide compound with applications in research and therapeutics."
+description: "Hepatocellular carcinoma. Most common primary liver cancer. Risk factors: HBV, HCV, cirrhosis, alcohol."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["liver-cancer", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Liver Cancer
-
 ## Overview
 
-Liver Cancer is a bioactive peptide with well-characterized properties and therapeutic applications.
+Hepatocellular carcinoma. Most common primary liver cancer. Risk factors: HBV, HCV, cirrhosis, alcohol.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Liver Cancer |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "Liver Cancer" monograph. encyclopeptide.com.

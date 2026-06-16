@@ -1,35 +1,23 @@
 ---
 title: "PeptideAtlas"
-description: "Comprehensive reference for PeptideAtlas, a peptide compound with applications in research and therapeutics."
+description: "Database of peptide and protein mass spectrometry data."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-databases","peptide","oligopeptide"]
-category: "Peptide Databases"
+pubDate: 2026-06-16
+tags: ["peptideatlas", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# PeptideAtlas
-
 ## Overview
 
-PeptideAtlas is a bioactive peptide with well-characterized properties and therapeutic applications.
+Database of peptide and protein mass spectrometry data.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | PeptideAtlas |
-| **Category** | Peptide Databases |
-
+1. Encyclopeptide Database. "PeptideAtlas" monograph. encyclopeptide.com.

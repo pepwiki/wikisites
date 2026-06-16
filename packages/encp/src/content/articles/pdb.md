@@ -1,35 +1,23 @@
 ---
 title: "PDB"
-description: "Comprehensive reference for PDB, a peptide compound with applications in research and therapeutics."
+description: "Protein Data Bank. Repository of 3D structural data for proteins and nucleic acids."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-resources","peptide","oligopeptide"]
-category: "Peptide Resources"
+pubDate: 2026-06-16
+tags: ["pdb", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# PDB
-
 ## Overview
 
-PDB is a bioactive peptide with well-characterized properties and therapeutic applications.
+Protein Data Bank. Repository of 3D structural data for proteins and nucleic acids.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | PDB |
-| **Category** | Peptide Resources |
-
+1. Encyclopeptide Database. "PDB" monograph. encyclopeptide.com.

@@ -1,35 +1,23 @@
 ---
 title: "Linaclotide - First-in-Human (NCT00434993)"
-description: "Comprehensive reference for Linaclotide - First-in-Human (NCT00434993), a peptide compound with applications in research and therapeutics."
+description: "First-in-human trial of linaclotide for IBS-C."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-clinical-trials","peptide","oligopeptide"]
-category: "Peptide Clinical Trials"
+pubDate: 2026-06-16
+tags: ["linaclotide-first-in-human-nct00434993", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Linaclotide - First-in-Human (NCT00434993)
-
 ## Overview
 
-Linaclotide - First-in-Human (NCT00434993) is a bioactive peptide with well-characterized properties and therapeutic applications.
+First-in-human trial of linaclotide for IBS-C.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Linaclotide - First-in-Human (NCT00434993) |
-| **Category** | Peptide Clinical Trials |
-
+1. Encyclopeptide Database. "Linaclotide - First-in-Human (NCT00434993)" monograph. encyclopeptide.com.

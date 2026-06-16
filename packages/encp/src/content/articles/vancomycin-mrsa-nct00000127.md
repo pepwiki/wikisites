@@ -1,35 +1,23 @@
 ---
 title: "Vancomycin - MRSA (NCT00000127)"
-description: "Comprehensive reference for Vancomycin - MRSA (NCT00000127), a peptide compound with applications in research and therapeutics."
+description: "Trial of vancomycin for MRSA infections."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-clinical-trials","peptide","oligopeptide"]
-category: "Peptide Clinical Trials"
+pubDate: 2026-06-16
+tags: ["vancomycin-mrsa-nct00000127", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Vancomycin - MRSA (NCT00000127)
-
 ## Overview
 
-Vancomycin - MRSA (NCT00000127) is a bioactive peptide with well-characterized properties and therapeutic applications.
+Trial of vancomycin for MRSA infections.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Vancomycin - MRSA (NCT00000127) |
-| **Category** | Peptide Clinical Trials |
-
+1. Encyclopeptide Database. "Vancomycin - MRSA (NCT00000127)" monograph. encyclopeptide.com.

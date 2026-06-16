@@ -1,35 +1,23 @@
 ---
 title: "neXtProt"
-description: "Comprehensive reference for neXtProt, a peptide compound with applications in research and therapeutics."
+description: "Protein knowledge database with expert annotation."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-databases","peptide","oligopeptide"]
-category: "Peptide Databases"
+pubDate: 2026-06-16
+tags: ["nextprot", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# neXtProt
-
 ## Overview
 
-neXtProt is a bioactive peptide with well-characterized properties and therapeutic applications.
+Protein knowledge database with expert annotation.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | neXtProt |
-| **Category** | Peptide Databases |
-
+1. Encyclopeptide Database. "neXtProt" monograph. encyclopeptide.com.

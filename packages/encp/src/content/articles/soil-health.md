@@ -1,35 +1,23 @@
 ---
 title: "Soil Health"
-description: "Comprehensive reference for Soil Health, a peptide compound with applications in research and therapeutics."
+description: "Use of antimicrobial peptides for soil health and plant protection."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-applications","peptide","oligopeptide"]
-category: "Peptide Applications"
+pubDate: 2026-06-16
+tags: ["soil-health", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Soil Health
-
 ## Overview
 
-Soil Health is a bioactive peptide with well-characterized properties and therapeutic applications.
+Use of antimicrobial peptides for soil health and plant protection.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Soil Health |
-| **Category** | Peptide Applications |
-
+1. Encyclopeptide Database. "Soil Health" monograph. encyclopeptide.com.

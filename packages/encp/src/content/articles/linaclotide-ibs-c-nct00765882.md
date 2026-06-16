@@ -1,35 +1,23 @@
 ---
 title: "Linaclotide - IBS-C (NCT00765882)"
-description: "Comprehensive reference for Linaclotide - IBS-C (NCT00765882), a peptide compound with applications in research and therapeutics."
+description: "Phase III trial of linaclotide for IBS-C."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-clinical-trials","peptide","oligopeptide"]
-category: "Peptide Clinical Trials"
+pubDate: 2026-06-16
+tags: ["linaclotide-ibs-c-nct00765882", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Linaclotide - IBS-C (NCT00765882)
-
 ## Overview
 
-Linaclotide - IBS-C (NCT00765882) is a bioactive peptide with well-characterized properties and therapeutic applications.
+Phase III trial of linaclotide for IBS-C.
 
+## Clinical Significance
 
-
-
-
+This topic has important implications for peptide research and clinical applications.
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Linaclotide - IBS-C (NCT00765882) |
-| **Category** | Peptide Clinical Trials |
-
+1. Encyclopeptide Database. "Linaclotide - IBS-C (NCT00765882)" monograph. encyclopeptide.com.
