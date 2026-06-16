@@ -1,8 +1,92 @@
-{
-  "question": "What is the three-letter code for Asparagine?",
-  "options": ["Asn", "Asp", "Gln", "Glu"],
-  "correctIndex": 0,
-  "explanation": "Asparagine is abbreviated as Asn. Asp is aspartic acid, Gln is glutamine, and Glu is glutamic acid.",
-  "difficulty": "beginner",
-  "tags": ["amino-acids", "codes"]
-}
+[
+  {
+    "question": "Which amino acid has the simplest side chain (just a hydrogen atom)?",
+    "options": ["Alanine", "Glycine", "Valine", "Serine"],
+    "correctIndex": 1,
+    "explanation": "Glycine (Gly, G) has the simplest side chain — just a single hydrogen atom. This makes it the most flexible amino acid, allowing it to fit into tight spaces in protein structures like collagen triple helices.",
+    "difficulty": "beginner",
+    "tags": ["amino-acids", "basics", "structure"]
+  },
+  {
+    "question": "Which amino acid contains a sulfur atom in its side chain and can form disulfide bonds?",
+    "options": ["Methionine", "Cysteine", "Both methionine and cysteine", "Neither"],
+    "correctIndex": 2,
+    "explanation": "Both cysteine (Cys, C) and methionine (Met, M) contain sulfur. However, only cysteine can form disulfide bonds (S-S bridges) because it has a reactive thiol (-SH) group. Methionine has a thioether group that cannot form disulfide bonds.",
+    "difficulty": "beginner",
+    "tags": ["amino-acids", "sulfur", "disulfide-bonds"]
+  },
+  {
+    "question": "What is the one-letter code for Tryptophan?",
+    "options": ["T", "W", "Tr", "R"],
+    "correctIndex": 1,
+    "explanation": "Tryptophan (Trp) uses the one-letter code W. The W resembles the shape of tryptophan's indole ring structure. The letter T is taken by Threonine.",
+    "difficulty": "beginner",
+    "tags": ["amino-acids", "codes", "tryptophan"]
+  },
+  {
+    "question": "Which amino acid is the only one with a positively charged side chain at physiological pH AND contains an imidazole ring?",
+    "options": ["Lysine", "Arginine", "Histidine", "Aspartate"],
+    "correctIndex": 2,
+    "explanation": "Histidine (His, H) has an imidazole side chain with a pKa near 6.0. At physiological pH (~7.4), it's mostly unprotonated but can become positively charged in enzyme active sites, making it crucial for acid-base catalysis.",
+    "difficulty": "intermediate",
+    "tags": ["amino-acids", "histidine", "pka", "catalysis"]
+  },
+  {
+    "question": "Which amino acid is classified as both polar AND aromatic?",
+    "options": ["Phenylalanine", "Tryptophan", "Tyrosine", "Both B and C"],
+    "correctIndex": 3,
+    "explanation": "Both tryptophan (indole ring) and tyrosine (phenol ring) are aromatic. Tyrosine's hydroxyl group makes it polar, while tryptophan's indole nitrogen also contributes polarity. Phenylalanine is aromatic but nonpolar.",
+    "difficulty": "intermediate",
+    "tags": ["amino-acids", "aromatic", "polar"]
+  },
+  {
+    "question": "What makes proline unique among the 20 standard amino acids?",
+    "options": [
+      "It has the largest side chain",
+      "Its side chain cyclizes back to the backbone nitrogen, creating a rigid ring structure",
+      "It is the only achiral amino acid",
+      "It cannot form peptide bonds"
+    ],
+    "correctIndex": 1,
+    "explanation": "Proline (Pro, P) has a side chain that loops back and bonds to the backbone nitrogen, forming a pyrrolidine ring. This constrains the backbone φ angle, making proline a 'helix breaker' and introducing kinks in protein structures.",
+    "difficulty": "intermediate",
+    "tags": ["amino-acids", "proline", "structure", "helix-breaker"]
+  },
+  {
+    "question": "Which amino acid is the only one that is NOT chiral (has no stereocenter)?",
+    "options": ["Glycine", "Alanine", "Serine", "Valine"],
+    "correctIndex": 0,
+    "explanation": "Glycine is the only achiral amino acid because its side chain is just a hydrogen atom — the alpha carbon has two identical substituents (H and H), so it cannot have a stereocenter. All other standard amino acids are chiral (L-form in nature).",
+    "difficulty": "beginner",
+    "tags": ["amino-acids", "chirality", "glycine"]
+  },
+  {
+    "question": "Which amino acid has a hydroxyl group in its side chain and is commonly phosphorylated in signal transduction?",
+    "options": ["Serine", "Threonine", "Tyrosine", "All of the above"],
+    "correctIndex": 3,
+    "explanation": "Serine (S), Threonine (T), and Tyrosine (Y) all have hydroxyl (-OH) groups in their side chains. Kinases phosphorylate these residues, adding a phosphate group that changes protein conformation and activity — a key mechanism in cell signaling.",
+    "difficulty": "intermediate",
+    "tags": ["amino-acids", "phosphorylation", "signaling"]
+  },
+  {
+    "question": "What is the mnemonic for remembering the hydrophobic amino acids?",
+    "options": [
+      "GAVLIMP FW (Gave Limp Fw)",
+      "STC YNQ (Stay CYNical)",
+      "DE (Doesn't Eat)",
+      "HKR (HK Right)"
+    ],
+    "correctIndex": 0,
+    "explanation": "The hydrophobic amino acids are: Glycine, Alanine, Valine, Leucine, Isoleucine, Methionine, Proline, Phenylalanine, Tryptophan. The mnemonic 'GAVLIMP FW' helps remember this group.",
+    "difficulty": "beginner",
+    "tags": ["amino-acids", "mnemonic", "hydrophobic"]
+  },
+  {
+    "question": "Which amino acid is the most abundant in proteins and has the smallest side chain after glycine?",
+    "options": ["Glycine", "Alanine", "Serine", "Leucine"],
+    "correctIndex": 1,
+    "explanation": "Alanine (Ala, A) is the second simplest amino acid with just a methyl group (-CH3) as its side chain. It's highly abundant in proteins and often found in alpha helices due to its favorable helix-forming propensity.",
+    "difficulty": "beginner",
+    "tags": ["amino-acids", "alanine", "abundance"]
+  }
+]

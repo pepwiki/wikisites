@@ -1,8 +1,122 @@
-{
-  "question": "Which direction are peptides synthesized in vivo?",
-  "options": ["C-terminus to N-terminus", "N-terminus to C-terminus", "Random direction", "Both ends simultaneously"],
-  "correctIndex": 1,
-  "explanation": "Ribosomes synthesize peptides from the N-terminus to the C-terminus, adding each new amino acid to the carboxyl end of the growing chain.",
-  "difficulty": "beginner",
-  "tags": ["peptide-bonds", "synthesis"]
-}
+[
+  {
+    "question": "What is the chemical reaction that forms a peptide bond between two amino acids?",
+    "options": [
+      "Addition reaction",
+      "Condensation (dehydration synthesis) reaction",
+      "Reduction reaction",
+      "Oxidation reaction"
+    ],
+    "correctIndex": 1,
+    "explanation": "Peptide bond formation is a condensation reaction: the carboxyl group of one amino acid reacts with the amino group of another, releasing one molecule of water (H2O). This is also called dehydration synthesis.",
+    "difficulty": "beginner",
+    "tags": ["peptide-bonds", "formation", "condensation"]
+  },
+  {
+    "question": "What is unique about the peptide bond's electronic structure?",
+    "options": [
+      "It is a single bond that can freely rotate",
+      "It has partial double-bond character due to resonance, making it planar and rigid",
+      "It is a pure double bond",
+      "It has no restricted rotation"
+    ],
+    "correctIndex": 1,
+    "explanation": "The peptide bond has partial double-bond character because the lone pair on nitrogen can delocalize into the carbonyl group (resonance). This restricts rotation around the C-N bond, making the peptide group planar. Only the φ (phi) and ψ (psi) angles can rotate.",
+    "difficulty": "intermediate",
+    "tags": ["peptide-bonds", "resonance", "planar", "rotation"]
+  },
+  {
+    "question": "What is the Ramachandran plot used for?",
+    "options": [
+      "Predicting protein molecular weight",
+      "Visualizing allowed φ and ψ backbone dihedral angles in proteins",
+      "Measuring peptide bond lengths",
+      "Calculating isoelectric points"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Ramachandran plot maps φ (phi) vs ψ (psi) angles of amino acid residues. Steric clashes between backbone atoms restrict which angle combinations are allowed. The plot reveals secondary structure: α-helices cluster in one region, β-sheets in another.",
+    "difficulty": "intermediate",
+    "tags": ["peptide-bonds", "ramachandran", "dihedral-angles", "secondary-structure"]
+  },
+  {
+    "question": "How many atoms are in the peptide group (the atoms that are coplanar)?",
+    "options": ["4", "5", "6", "7"],
+    "correctIndex": 2,
+    "explanation": "Six atoms are coplanar in the peptide group: the α-carbon (Cα₁), carbonyl carbon (C), carbonyl oxygen (O), amide nitrogen (N), amide hydrogen (H), and the next α-carbon (Cα₂). This planarity is due to the partial double-bond character.",
+    "difficulty": "intermediate",
+    "tags": ["peptide-bonds", "peptide-group", "planarity"]
+  },
+  {
+    "question": "What is the typical bond length of a peptide C-N bond?",
+    "options": [
+      "1.21 Å (same as C=O double bond)",
+      "1.33 Å (between single and double bond)",
+      "1.54 Å (typical C-N single bond)",
+      "1.10 Å (triple bond)"
+    ],
+    "correctIndex": 1,
+    "explanation": "The peptide C-N bond is 1.33 Å, shorter than a typical C-N single bond (1.47 Å) but longer than a C=N double bond (1.27 Å). This intermediate length confirms the partial double-bond character from resonance.",
+    "difficulty": "advanced",
+    "tags": ["peptide-bonds", "bond-length", "resonance"]
+  },
+  {
+    "question": "What is the bond angle of the peptide C-N-Cα bond?",
+    "options": ["90°", "109.5°", "120°", "180°"],
+    "correctIndex": 2,
+    "explanation": "The C-N-Cα bond angle is approximately 120°, consistent with sp2 hybridization of the nitrogen atom. This trigonal planar geometry is a direct consequence of the peptide bond's partial double-bond character.",
+    "difficulty": "advanced",
+    "tags": ["peptide-bonds", "bond-angle", "sp2"]
+  },
+  {
+    "question": "Why can't the peptide bond rotate freely?",
+    "options": [
+      "The hydrogen bond network prevents rotation",
+      "The partial double-bond character from resonance creates an energy barrier to rotation (~20 kcal/mol)",
+      "The surrounding water molecules block rotation",
+      "The bond is too short to allow rotation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rotating around a double bond requires ~60-80 kcal/mol. The peptide bond's partial double-bond character creates a barrier of ~20 kcal/mol, making rotation extremely slow at room temperature (half-life of minutes to hours).",
+    "difficulty": "advanced",
+    "tags": ["peptide-bonds", "rotation-barrier", "energy"]
+  },
+  {
+    "question": "What is the cis-trans isomerization of the peptide bond?",
+    "options": [
+      "Rotation around the Cα-C bond",
+      "Interconversion between cis (Z) and trans (E) configurations around the C-N peptide bond",
+      "Folding of the protein into secondary structure",
+      "Cleavage of the peptide bond"
+    ],
+    "correctIndex": 1,
+    "explanation": "The peptide bond can exist in cis or trans configuration. Trans is more common (~99%) because cis creates steric clashes between Cα substituents. Proline is the exception — it has ~30% cis due to its cyclic structure. Peptidyl-prolyl isomerases catalyze this slow interconversion.",
+    "difficulty": "advanced",
+    "tags": ["peptide-bonds", "cis-trans", "isomerization", "proline"]
+  },
+  {
+    "question": "What is the role of the peptide bond's dipole moment?",
+    "options": [
+      "It has no dipole moment",
+      "It creates a partial negative charge on oxygen and partial positive charge on nitrogen, influencing protein folding",
+      "It makes the peptide bond hydrophobic",
+      "It prevents hydrogen bonding"
+    ],
+    "correctIndex": 1,
+    "explanation": "The peptide bond has a significant dipole moment (~3.5 D) with partial negative charge on the carbonyl oxygen and partial positive on the amide nitrogen. This dipole contributes to hydrogen bonding networks, helix stability, and the overall electrostatic properties of proteins.",
+    "difficulty": "advanced",
+    "tags": ["peptide-bonds", "dipole", "electrostatics"]
+  },
+  {
+    "question": "What is the typical length of a peptide bond (C-N distance)?",
+    "options": [
+      "1.21 Å",
+      "1.33 Å",
+      "1.54 Å",
+      "1.47 Å"
+    ],
+    "correctIndex": 1,
+    "explanation": "The peptide C-N bond measures 1.33 Å. For comparison: a pure C-N single bond is 1.47 Å, and a C=N double bond is 1.27 Å. The intermediate length confirms partial double-bond character from resonance delocalization.",
+    "difficulty": "beginner",
+    "tags": ["peptide-bonds", "bond-length"]
+  }
+]

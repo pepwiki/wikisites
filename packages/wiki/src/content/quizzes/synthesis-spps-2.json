@@ -1,8 +1,132 @@
-{
-  "question": "Who developed the original method for solid-phase peptide synthesis?",
-  "options": ["Robert Bruce Merrifield", "Frederick Sanger", "Linus Pauling", "Christian Anfinsen"],
-  "correctIndex": 0,
-  "explanation": "Robert Bruce Merrifield developed solid-phase peptide synthesis in the 1960s and received the Nobel Prize in Chemistry in 1984.",
-  "difficulty": "beginner",
-  "tags": ["synthesis", "spps"]
-}
+[
+  {
+    "question": "What does SPPS stand for?",
+    "options": [
+      "Solid-Phase Peptide Synthesis",
+      "Solution-Phase Peptide Synthesis",
+      "Sequential Peptide Purification System",
+      "Synthetic Peptide Processing Standard"
+    ],
+    "correctIndex": 0,
+    "explanation": "SPPS (Solid-Phase Peptide Synthesis) is the standard method for chemical peptide synthesis. The growing peptide chain is anchored to an insoluble resin bead, allowing easy washing and removal of excess reagents between coupling steps.",
+    "difficulty": "beginner",
+    "tags": ["synthesis", "spps", "fundamentals"]
+  },
+  {
+    "question": "What is the Fmoc strategy in SPPS?",
+    "options": [
+      "Using fluorenylmethyloxycarbonyl (Fmoc) as a base-labile Nα-protecting group",
+      "Using fluorine to protect side chains",
+      "A purification technique for finished peptides",
+      "A method for cleaving peptides from resin"
+    ],
+    "correctIndex": 0,
+    "explanation": "In Fmoc SPPS, the Fmoc group protects the α-amino group. It's removed by base (piperidine) after each coupling cycle. The orthogonal tBu group protects side chains and is removed by TFA at the end. This is gentler than the older Boc strategy.",
+    "difficulty": "beginner",
+    "tags": ["synthesis", "spps", "fmoc", "protecting-groups"]
+  },
+  {
+    "question": "What is the role of HOBt (hydroxybenzotriazole) in peptide coupling?",
+    "options": [
+      "It removes protecting groups",
+      "It suppresses racemization and activates the carboxyl group for coupling",
+      "It cleaves the peptide from the resin",
+      "It purifies the final product"
+    ],
+    "correctIndex": 1,
+    "explanation": "HOBt (and its successor HOAt) forms an active ester with the activated carboxyl group, suppressing racemization at the α-carbon and increasing coupling efficiency. It's used as an additive with coupling reagents like HBTU or DIC.",
+    "difficulty": "intermediate",
+    "tags": ["synthesis", "spps", "hobt", "coupling"]
+  },
+  {
+    "question": "What is a coupling reagent in SPPS?",
+    "options": [
+      "A reagent that removes protecting groups",
+      "A reagent that activates the carboxyl group to form a reactive intermediate for amide bond formation",
+      "A reagent that cleans the resin",
+      "A reagent that analyzes the final product"
+    ],
+    "correctIndex": 1,
+    "explanation": "Coupling reagents (HBTU, HATU, PyBOP, DIC/HOBt) activate the carboxyl group of the incoming amino acid, making it reactive enough to form an amide bond with the amino group of the resin-bound peptide. Modern reagents minimize racemization.",
+    "difficulty": "intermediate",
+    "tags": ["synthesis", "spps", "coupling-reagents"]
+  },
+  {
+    "question": "What is the Kaiser test used for in SPPS?",
+    "options": [
+      "Testing the purity of the final peptide",
+      "Detecting free amino groups on the resin to verify Fmoc deprotection",
+      "Measuring the molecular weight of the peptide",
+      "Testing the coupling efficiency of the last step"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Kaiser (ninhydrin) test detects free primary amines. After Fmoc deprotection, a positive test (blue/purple color) confirms successful deprotection. A negative test after coupling suggests incomplete coupling.",
+    "difficulty": "intermediate",
+    "tags": ["synthesis", "spps", "kaiser-test", "quality-control"]
+  },
+  {
+    "question": "What is the TFA cleavage step in Fmoc SPPS?",
+    "options": [
+      "Removing the Fmoc group with base",
+      "Cleaving the finished peptide from the resin and removing side-chain protecting groups using trifluoroacetic acid",
+      "Purifying the peptide by filtration",
+      "Activating the carboxyl group for coupling"
+    ],
+    "correctIndex": 1,
+    "explanation": "After synthesis is complete, concentrated TFA (typically 95% with scavengers) cleaves the peptide from the resin and removes acid-labile side-chain protecting groups (tBu, Boc, Pmc, etc.) in a single step.",
+    "difficulty": "intermediate",
+    "tags": ["synthesis", "spps", "tfa", "cleavage"]
+  },
+  {
+    "question": "What is racemization in peptide synthesis?",
+    "options": [
+      "The peptide chain grows in the wrong direction",
+      "Loss of stereochemical purity at the α-carbon, converting L-amino acids to D-form",
+      "The peptide folds incorrectly",
+      "The protecting group falls off prematurely"
+    ],
+    "correctIndex": 1,
+    "explanation": "Racemization converts the desired L-amino acid to a mixture of L and D forms at the α-carbon. It occurs during activation when the amino acid's α-hydrogen becomes acidic. D-amino acids can cause incorrect folding, reduced bioactivity, and immunogenicity.",
+    "difficulty": "intermediate",
+    "tags": ["synthesis", "racemization", "stereochemistry"]
+  },
+  {
+    "question": "What is the advantage of microwave-assisted peptide synthesis?",
+    "options": [
+      "It uses less solvent",
+      "It accelerates coupling and deprotection reactions, reducing synthesis time from days to hours",
+      "It eliminates the need for protecting groups",
+      "It produces higher purity without purification"
+    ],
+    "correctIndex": 1,
+    "explanation": "Microwave heating accelerates SPPS reactions by providing rapid, uniform heating. Coupling times can be reduced from 1-2 hours to 5-30 minutes, and difficult sequences that fail at room temperature often succeed under microwave conditions.",
+    "difficulty": "advanced",
+    "tags": ["synthesis", "spps", "microwave", "acceleration"]
+  },
+  {
+    "question": "What is a pseudoproline in peptide synthesis?",
+    "options": [
+      "A modified proline residue with enhanced stability",
+      "An oxazolidine derivative that acts as a temporary backbone modification to reduce aggregation during SPPS",
+      "A proline analog used in drug design",
+      "A proline residue that has been phosphorylated"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pseudoprolines (oxazolidines) are dipeptide building blocks that temporarily lock the backbone in a cis-like conformation, disrupting β-sheet aggregation during synthesis. They're removed during TFA cleavage, leaving a native Ser/Thr residue.",
+    "difficulty": "advanced",
+    "tags": ["synthesis", "spps", "pseudoproline", "aggregation"]
+  },
+  {
+    "question": "What is the maximum peptide length typically achievable by standard SPPS?",
+    "options": [
+      "10-20 amino acids",
+      "50-70 amino acids",
+      "100-200 amino acids",
+      "Unlimited length"
+    ],
+    "correctIndex": 1,
+    "explanation": "Standard SPPS typically achieves 50-70 residues before cumulative coupling failures and aggregation make further extension impractical. Native chemical ligation (NCL) and expressed protein ligation (EPL) can extend this by joining smaller fragments.",
+    "difficulty": "advanced",
+    "tags": ["synthesis", "spps", "length-limitation"]
+  }
+]

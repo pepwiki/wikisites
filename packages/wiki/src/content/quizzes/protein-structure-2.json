@@ -1,8 +1,132 @@
-{
-  "question": "Which type of secondary structure is stabilized by hydrogen bonds between backbone NH and CO groups?",
-  "options": ["Alpha helix and beta sheet", "Coiled coil", "Random coil", "Loops"],
-  "correctIndex": 0,
-  "explanation": "Both alpha helices and beta sheets are stabilized by hydrogen bonds between the backbone NH and CO groups.",
-  "difficulty": "beginner",
-  "tags": ["protein-structure", "secondary"]
-}
+[
+  {
+    "question": "What stabilizes the alpha helix secondary structure?",
+    "options": [
+      "Disulfide bonds between cysteine residues",
+      "Hydrogen bonds between backbone C=O and N-H groups every 3.6 residues",
+      "Hydrophobic interactions between side chains",
+      "Ionic bonds between charged residues"
+    ],
+    "correctIndex": 1,
+    "explanation": "The α-helix is stabilized by hydrogen bonds between the carbonyl oxygen (C=O) of residue i and the amide hydrogen (N-H) of residue i+4. This creates 3.6 residues per turn, with a pitch of 5.4 Å. The H-bonds point parallel to the helix axis.",
+    "difficulty": "beginner",
+    "tags": ["protein-structure", "alpha-helix", "hydrogen-bonds"]
+  },
+  {
+    "question": "What is the difference between alpha helix and beta sheet secondary structures?",
+    "options": [
+      "Alpha helix is right-handed; beta sheet is left-handed",
+      "Alpha helix has H-bonds within the same strand; beta sheet has H-bonds between adjacent strands",
+      "Alpha helix uses proline; beta sheet uses glycine",
+      "There is no structural difference"
+    ],
+    "correctIndex": 1,
+    "explanation": "In α-helices, hydrogen bonds form within the same polypeptide chain (intra-chain). In β-sheets, hydrogen bonds form between adjacent strands (inter-chain or different parts of the same chain). β-sheets can be parallel or antiparallel.",
+    "difficulty": "beginner",
+    "tags": ["protein-structure", "alpha-helix", "beta-sheet"]
+  },
+  {
+    "question": "What is the quaternary structure of a protein?",
+    "options": [
+      "The amino acid sequence",
+      "The local folding into secondary structures",
+      "The overall 3D shape of a single polypeptide",
+      "The arrangement of multiple polypeptide subunits into a functional complex"
+    ],
+    "correctIndex": 3,
+    "explanation": "Quaternary structure describes how multiple polypeptide chains (subunits) assemble into a functional protein complex. Example: hemoglobin has 4 subunits (2α + 2β) that work together for oxygen transport.",
+    "difficulty": "beginner",
+    "tags": ["protein-structure", "quaternary", "subunits"]
+  },
+  {
+    "question": "What type of bonds stabilize tertiary protein structure?",
+    "options": [
+      "Only hydrogen bonds",
+      "Hydrogen bonds, ionic bonds, disulfide bonds, hydrophobic interactions, and van der Waals forces",
+      "Only covalent bonds",
+      "Only hydrophobic interactions"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tertiary structure is stabilized by multiple interaction types: disulfide bonds (covalent), hydrogen bonds, ionic/salt bridges, hydrophobic packing in the protein core, and van der Waals forces. The combination determines the final 3D fold.",
+    "difficulty": "intermediate",
+    "tags": ["protein-structure", "tertiary", "stabilizing-forces"]
+  },
+  {
+    "question": "What is a leucine zipper?",
+    "options": [
+      "A type of enzyme active site",
+      "A structural motif where two alpha helices dimerize via hydrophobic leucine residues at every 7th position",
+      "A post-translational modification",
+      "A type of disulfide bond"
+    ],
+    "correctIndex": 1,
+    "explanation": "Leucine zippers are dimerization motifs where two α-helices wrap around each other, stabilized by hydrophobic interactions between leucine residues at heptad repeats (abcdefg, where a and d are leucine). Found in transcription factors like c-Fos/c-Jun.",
+    "difficulty": "intermediate",
+    "tags": ["protein-structure", "motifs", "leucine-zipper", "transcription-factors"]
+  },
+  {
+    "question": "What is the hydrophobic effect's role in protein folding?",
+    "options": [
+      "It keeps proteins soluble in water",
+      "It drives protein folding by burying nonpolar residues in the protein core, away from water",
+      "It prevents protein aggregation",
+      "It has no role in protein folding"
+    ],
+    "correctIndex": 1,
+    "explanation": "The hydrophobic effect is the dominant driving force in protein folding. Nonpolar side chains are thermodynamically unfavorable in aqueous solution. Folding buries them in the protein interior, releasing ordered water molecules and increasing entropy.",
+    "difficulty": "intermediate",
+    "tags": ["protein-structure", "hydrophobic-effect", "folding"]
+  },
+  {
+    "question": "What is a zinc finger protein motif?",
+    "options": [
+      "A protein that binds zinc ions to stabilize its structure, commonly found in DNA-binding domains",
+      "A protein that degrades zinc",
+      "A structural motif found only in enzymes",
+      "A type of carbohydrate modification"
+    ],
+    "correctIndex": 0,
+    "explanation": "Zinc fingers are small protein motifs where a zinc ion (Zn²⁺) coordinates with cysteine and/or histidine residues, stabilizing a finger-like fold. They are common in transcription factors and recognize specific DNA sequences.",
+    "difficulty": "intermediate",
+    "tags": ["protein-structure", "zinc-finger", "dna-binding", "motifs"]
+  },
+  {
+    "question": "What is the difference between a protein domain and a protein motif?",
+    "options": [
+      "They are the same thing",
+      "A domain is a independently folding unit; a motif is a conserved structural pattern that may span multiple domains",
+      "A domain is smaller than a motif",
+      "Motifs are only found in enzymes"
+    ],
+    "correctIndex": 1,
+    "explanation": "A protein domain is an independently folding unit that can exist on its own. A motif (or supersecondary structure) is a conserved structural pattern (like a helix-turn-helix) that may be part of a domain or span multiple domains.",
+    "difficulty": "advanced",
+    "tags": ["protein-structure", "domain", "motif"]
+  },
+  {
+    "question": "What is the role of chaperone proteins in protein folding?",
+    "options": [
+      "They synthesize new proteins",
+      "They assist other proteins in folding correctly by preventing aggregation and providing a protected environment",
+      "They degrade misfolded proteins",
+      "They transport proteins across membranes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Molecular chaperones (like GroEL/GroES in bacteria, Hsp70/Hsp90 in eukaryotes) prevent aggregation of unfolded proteins, provide a protected environment for folding, and can refold misfolded proteins. They don't provide steric information — the fold is determined by the sequence.",
+    "difficulty": "advanced",
+    "tags": ["protein-structure", "chaperones", "folding", "hsp70"]
+  },
+  {
+    "question": "What is the phi (φ) angle in protein backbone geometry?",
+    "options": [
+      "Rotation around the C-N peptide bond",
+      "Rotation around the N-Cα bond",
+      "Rotation around the Cα-C bond",
+      "Rotation around the C-C bond between two residues"
+    ],
+    "correctIndex": 1,
+    "explanation": "The φ (phi) angle describes rotation around the N-Cα bond. The ψ (psi) angle describes rotation around the Cα-C bond. The ω (omega) angle describes rotation around the C-N peptide bond (typically 180° for trans, 0° for cis).",
+    "difficulty": "advanced",
+    "tags": ["protein-structure", "backbone", "dihedral-angles", "phi-psi"]
+  }
+]
