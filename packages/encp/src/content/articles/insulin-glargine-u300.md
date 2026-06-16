@@ -1,35 +1,30 @@
 ---
 title: "Insulin Glargine U300"
-description: "Concentrated 300 units/mL formulation of insulin glargine providing a more compact subcutaneous depot with flatter pharmacokinetic profile than U100."
+description: "Concentrated insulin glargine (300 units/mL). Slower absorption from larger subcutaneous depot. T½ ~36 hours. Flatter profile than U-100. Indication: Type 1 and Type 2 diabetes (Toujeo)."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ['insulin', 'glargine', 'long-acting', 'diabetes', 'U300']
-category: "Insulin Family"
+pubDate: 2026-06-16
+tags: ["insulin-glargine-u300", "peptide-drug", "therapeutic"]
+category: "Peptide Drugs"
 difficulty: "intermediate"
-relatedArticles: ['insulin-glargine', 'insulin-glargine-300', 'insulin-degludec']
+relatedArticles: []
 ---
 
 ## Chemical Identity
 
-| Property          | Value                                    |
-| ----------------- | ---------------------------------------- |
-| Chemical Formula  | C267H404N72O78S6                         |
-| Molecular Weight  | 6063.96 g/mol                            |
-| CAS Number        | 1603377-71-3                             |
-| Peptide Class     | Long-Acting Insulin Analog               |
+| Property | Value |
+|----------|-------|
+| **Name** | Insulin Glargine U300 |
+| **Description** | Concentrated insulin glargine (300 units/mL). Slower absorption from larger subcutaneous depot. T½ ~36 hours. Flatter profile than U-100. Indication: Type 1 and Type 2 diabetes (Toujeo). |
 
-## Structure
+## Mechanism of Action
 
-Insulin glargine U300 (Toujeo) is the same insulin glargine molecule as U100 but formulated at three times the concentration. The higher concentration creates a more compact subcutaneous depot that dissolves more slowly, extending the duration of action beyond 30 hours.
+Concentrated insulin glargine (300 units/mL). Slower absorption from larger subcutaneous depot. T½ ~36 hours. Flatter profile than U-100. Indication: Type 1 and Type 2 diabetes (Toujeo).
 
-## Clinical Applications
+## Clinical Significance
 
-FDA-approved for type 1 and type 2 diabetes in adults. The U300 formulation provides comparable glycemic control to U100 with reduced variability and lower risk of nocturnal hypoglycemia.
+This peptide drug has important therapeutic applications in clinical medicine.
 
-## Pharmacokinetics
+## References
 
-- **Half-life**: ~36 hours
-- **Duration**: >30 hours
-- **Dosing**: Once daily
-- **Peak**: Relatively flat profile with minimal peak-trough variation
+1. Encyclopeptide Database. "Insulin Glargine U300" monograph. encyclopeptide.com.
