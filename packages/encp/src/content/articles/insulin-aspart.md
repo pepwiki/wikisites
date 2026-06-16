@@ -1,40 +1,31 @@
 ---
 title: "Insulin Aspart"
-description: "Fast-acting insulin analog replacing B28 proline with aspartic acid to reduce self-association in subcutaneous tissue."
+description: "Rapid-acting insulin with faster absorption. Prandial insulin, Type 1 and 2 diabetes."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["insulin", "rapid-acting", "mealtime"]
+pubDate: 2026-06-16
+tags: ["insulin-aspart", "peptide-drug", "therapeutic"]
 category: "Peptide Drugs"
 difficulty: "intermediate"
 relatedArticles: []
 ---
-
-# Insulin Aspart
-
-## Overview
-
-Fast-acting insulin analog replacing B28 proline with aspartic acid to reduce self-association in subcutaneous tissue.
-
-## Structure
-
-| Property | Value |
-| -------- | ----- |
-| Name     | Insulin Aspart |
-
-## Mechanism of Action
-
-Aspartic acid at B28 disrupts dimer and hexamer formation for faster absorption.
-
-## References
-
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
 
 ## Chemical Identity
 
 | Property | Value |
 |----------|-------|
 | **Name** | Insulin Aspart |
-| **Category** | Peptide Drugs |
+| **Modification** | Asp(B28) substitution |
+| **Molecular Weight** | 5808 Da |
 
+## Mechanism of Action
+
+Rapid-acting insulin with faster absorption
+
+## Clinical Applications
+
+Prandial insulin, Type 1 and 2 diabetes
+
+## References
+
+1. Encyclopeptide Database. "Insulin Aspart" monograph. encyclopeptide.com.

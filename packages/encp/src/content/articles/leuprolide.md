@@ -1,40 +1,31 @@
 ---
 title: "Leuprolide"
-description: "GnRH agonist with D-Leu6 substitution for sustained LH/FSH suppression in prostate cancer."
+description: "GnRH agonist causing initial stimulation then downregulation. Prostate cancer, endometriosis, precocious puberty."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["gnrh", "agonist", "prostate-cancer"]
+pubDate: 2026-06-16
+tags: ["leuprolide", "peptide-drug", "therapeutic"]
 category: "Peptide Drugs"
 difficulty: "intermediate"
 relatedArticles: []
 ---
-
-# Leuprolide
-
-## Overview
-
-GnRH agonist with D-Leu6 substitution for sustained LH/FSH suppression in prostate cancer.
-
-## Structure
-
-| Property | Value |
-| -------- | ----- |
-| Name     | Leuprolide |
-
-## Mechanism of Action
-
-D-Leu6 substitution confers resistance to enzymatic degradation providing sustained receptor activation.
-
-## References
-
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
 
 ## Chemical Identity
 
 | Property | Value |
 |----------|-------|
 | **Name** | Leuprolide |
-| **Category** | Peptide Drugs |
+| **Modification** | D-His-Trp-Ser-Tyr-D-Leu-Leu-Arg-Pro-NHEt |
+| **Molecular Weight** | 1209 Da |
 
+## Mechanism of Action
+
+GnRH agonist causing initial stimulation then downregulation
+
+## Clinical Applications
+
+Prostate cancer, endometriosis, precocious puberty
+
+## References
+
+1. Encyclopeptide Database. "Leuprolide" monograph. encyclopeptide.com.

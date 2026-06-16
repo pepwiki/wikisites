@@ -1,40 +1,31 @@
 ---
 title: "Insulin Lispro"
-description: "Rapid-acting insulin analog with reversed B28-B29 proline-lysine residues reducing hexamer formation for fast absorption."
+description: "Rapid-acting insulin with faster absorption. Prandial insulin, Type 1 and 2 diabetes."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["insulin", "rapid-acting", "mealtime"]
+pubDate: 2026-06-16
+tags: ["insulin-lispro", "peptide-drug", "therapeutic"]
 category: "Peptide Drugs"
 difficulty: "intermediate"
 relatedArticles: []
 ---
-
-# Insulin Lispro
-
-## Overview
-
-Rapid-acting insulin analog with reversed B28-B29 proline-lysine residues reducing hexamer formation for fast absorption.
-
-## Structure
-
-| Property | Value |
-| -------- | ----- |
-| Name     | Insulin Lispro |
-
-## Mechanism of Action
-
-Reversal of Pro-B28 and Lys-B29 reduces self-association enabling rapid subcutaneous absorption.
-
-## References
-
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
 
 ## Chemical Identity
 
 | Property | Value |
 |----------|-------|
 | **Name** | Insulin Lispro |
-| **Category** | Peptide Drugs |
+| **Modification** | Lys(B28), Pro(B29) |
+| **Molecular Weight** | 5808 Da |
 
+## Mechanism of Action
+
+Rapid-acting insulin with faster absorption
+
+## Clinical Applications
+
+Prandial insulin, Type 1 and 2 diabetes
+
+## References
+
+1. Encyclopeptide Database. "Insulin Lispro" monograph. encyclopeptide.com.

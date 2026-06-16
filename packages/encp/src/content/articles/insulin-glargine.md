@@ -1,40 +1,31 @@
 ---
 title: "Insulin Glargine"
-description: "Long-acting basal insulin analog with slightly acidic pH solubility and subcutaneous precipitation for 24-hour glucose control."
+description: "Long-acting basal insulin with delayed dissolution. Basal insulin, Type 1 and 2 diabetes."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["insulin", "basal-insulin", "long-acting"]
+pubDate: 2026-06-16
+tags: ["insulin-glargine", "peptide-drug", "therapeutic"]
 category: "Peptide Drugs"
 difficulty: "intermediate"
 relatedArticles: []
 ---
-
-# Insulin Glargine
-
-## Overview
-
-Long-acting basal insulin analog with slightly acidic pH solubility and subcutaneous precipitation for 24-hour glucose control.
-
-## Structure
-
-| Property | Value |
-| -------- | ----- |
-| Name     | Insulin Glargine |
-
-## Mechanism of Action
-
-Gly-A21, Gly-B31-B32 modification causes isoelectric precipitation at physiological pH forming subcutaneous depot.
-
-## References
-
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
 
 ## Chemical Identity
 
 | Property | Value |
 |----------|-------|
 | **Name** | Insulin Glargine |
-| **Category** | Peptide Drugs |
+| **Modification** | Gly(A21) + 2×Arg(B31-32) |
+| **Molecular Weight** | 6063 Da |
 
+## Mechanism of Action
+
+Long-acting basal insulin with delayed dissolution
+
+## Clinical Applications
+
+Basal insulin, Type 1 and 2 diabetes
+
+## References
+
+1. Encyclopeptide Database. "Insulin Glargine" monograph. encyclopeptide.com.

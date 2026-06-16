@@ -1,40 +1,31 @@
 ---
 title: "Insulin Detemir"
-description: "Long-acting insulin analog with myristic acid fatty acid chain attached to B29 lysine enabling albumin binding."
+description: "Long-acting insulin with albumin binding. Basal insulin, Type 1 and 2 diabetes."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["insulin", "basal-insulin", "long-acting"]
+pubDate: 2026-06-16
+tags: ["insulin-detemir", "peptide-drug", "therapeutic"]
 category: "Peptide Drugs"
 difficulty: "intermediate"
 relatedArticles: []
 ---
-
-# Insulin Detemir
-
-## Overview
-
-Long-acting insulin analog with myristic acid fatty acid chain attached to B29 lysine enabling albumin binding.
-
-## Structure
-
-| Property | Value |
-| -------- | ----- |
-| Name     | Insulin Detemir |
-
-## Mechanism of Action
-
-Fatty acid acylation promotes albumin binding reducing clearance and extending duration to 16-24 hours.
-
-## References
-
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
 
 ## Chemical Identity
 
 | Property | Value |
 |----------|-------|
 | **Name** | Insulin Detemir |
-| **Category** | Peptide Drugs |
+| **Modification** | Lys(B29)-C12 fatty acid |
+| **Molecular Weight** | 5917 Da |
 
+## Mechanism of Action
+
+Long-acting insulin with albumin binding
+
+## Clinical Applications
+
+Basal insulin, Type 1 and 2 diabetes
+
+## References
+
+1. Encyclopeptide Database. "Insulin Detemir" monograph. encyclopeptide.com.
