@@ -1,35 +1,23 @@
 ---
 title: "Atherosclerosis"
-description: "Comprehensive reference for Atherosclerosis, a peptide compound with applications in research and therapeutics."
+description: "Endothelial dysfunction, lipid accumulation, inflammation"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["atherosclerosis", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Atherosclerosis
-
 ## Overview
 
-Atherosclerosis is a bioactive peptide with well-characterized properties and therapeutic applications.
+Endothelial dysfunction, lipid accumulation, inflammation
 
+## Clinical Significance
 
-
-
-
+Statins, antiplatelet agents, PCSK9 inhibitors
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Atherosclerosis |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "Atherosclerosis" monograph. encyclopeptide.com.

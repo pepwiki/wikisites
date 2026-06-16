@@ -1,35 +1,23 @@
 ---
 title: "Click Chemistry"
-description: "Comprehensive reference for Click Chemistry, a peptide compound with applications in research and therapeutics."
+description: "CuAAC or SPAAC reactions, bioorthogonal conjugation"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-manufacturing","peptide","oligopeptide"]
-category: "Peptide Manufacturing"
+pubDate: 2026-06-16
+tags: ["click-chemistry", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Click Chemistry
-
 ## Overview
 
-Click Chemistry is a bioactive peptide with well-characterized properties and therapeutic applications.
+CuAAC or SPAAC reactions, bioorthogonal conjugation
 
+## Clinical Significance
 
-
-
-
+Antibody-drug conjugates, PET imaging, bioconjugation
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Click Chemistry |
-| **Category** | Peptide Manufacturing |
-
+1. Encyclopeptide Database. "Click Chemistry" monograph. encyclopeptide.com.

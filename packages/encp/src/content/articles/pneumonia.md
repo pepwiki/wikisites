@@ -1,35 +1,23 @@
 ---
 title: "Pneumonia"
-description: "Comprehensive reference for Pneumonia, a peptide compound with applications in research and therapeutics."
+description: "Bacterial/viral/fungal infection of lung parenchyma"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["pneumonia", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Pneumonia
-
 ## Overview
 
-Pneumonia is a bioactive peptide with well-characterized properties and therapeutic applications.
+Bacterial/viral/fungal infection of lung parenchyma
 
+## Clinical Significance
 
-
-
-
+Antibiotics, antivirals, antifungals
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Pneumonia |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "Pneumonia" monograph. encyclopeptide.com.

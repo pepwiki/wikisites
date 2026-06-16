@@ -1,35 +1,23 @@
 ---
 title: "Colorectal Cancer"
-description: "Comprehensive reference for Colorectal Cancer, a peptide compound with applications in research and therapeutics."
+description: "APC/β-catenin pathway, KRAS mutations"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["cancer","peptide","oligopeptide"]
-category: "Oncology"
+pubDate: 2026-06-16
+tags: ["colorectal-cancer", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Colorectal Cancer
-
 ## Overview
 
-Colorectal Cancer is a bioactive peptide with well-characterized properties and therapeutic applications.
+APC/β-catenin pathway, KRAS mutations
 
+## Clinical Significance
 
-
-
-
+5-FU, oxaliplatin, bevacizumab, cetuximab
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Colorectal Cancer |
-| **Category** | Oncology |
-
+1. Encyclopeptide Database. "Colorectal Cancer" monograph. encyclopeptide.com.

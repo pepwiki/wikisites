@@ -1,35 +1,23 @@
 ---
 title: "Breast Cancer"
-description: "Comprehensive reference for Breast Cancer, a peptide compound with applications in research and therapeutics."
+description: "ER/PR/HER2-driven subtypes, BRCA mutations"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["cancer","peptide","oligopeptide"]
-category: "Oncology"
+pubDate: 2026-06-16
+tags: ["breast-cancer", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Breast Cancer
-
 ## Overview
 
-Breast Cancer is a bioactive peptide with well-characterized properties and therapeutic applications.
+ER/PR/HER2-driven subtypes, BRCA mutations
 
+## Clinical Significance
 
-
-
-
+Tamoxifen, trastuzumab, CDK4/6 inhibitors
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Breast Cancer |
-| **Category** | Oncology |
-
+1. Encyclopeptide Database. "Breast Cancer" monograph. encyclopeptide.com.

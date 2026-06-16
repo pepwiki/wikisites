@@ -1,35 +1,23 @@
 ---
 title: "Fabry Disease"
-description: "Comprehensive reference for Fabry Disease, a peptide compound with applications in research and therapeutics."
+description: "α-galactosidase A deficiency, GL-3 accumulation"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["metabolic","peptide","oligopeptide"]
-category: "Metabolic"
+pubDate: 2026-06-16
+tags: ["fabry-disease", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Fabry Disease
-
 ## Overview
 
-Fabry Disease is a bioactive peptide with well-characterized properties and therapeutic applications.
+α-galactosidase A deficiency, GL-3 accumulation
 
+## Clinical Significance
 
-
-
-
+Enzyme replacement (agalsidase), chaperone (migalastat)
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Fabry Disease |
-| **Category** | Metabolic |
-
+1. Encyclopeptide Database. "Fabry Disease" monograph. encyclopeptide.com.

@@ -1,30 +1,23 @@
 ---
-title: "Troponin T (Cardiac)"
-description: "Cardiac-specific isoform of troponin T, essential biomarker for acute coronary syndrome evaluation."
+title: "Cardiac Troponin T"
+description: "Structural protein of thin filament, cardiac-specific isoform"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["biomarker-peptides", "peptide", "oligopeptide"]
-category: "Biomarker Peptides"
+pubDate: 2026-06-16
+tags: ["troponin-t-cardiac", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Troponin T (Cardiac)
-
 ## Overview
 
-Troponin T (Cardiac) is a bioactive peptide with well-characterized properties and therapeutic applications.
+Structural protein of thin filament, cardiac-specific isoform
+
+## Clinical Significance
+
+Myocardial infarction diagnosis
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Troponin T (Cardiac) |
-| **Category** | Biomarker Peptides |
-
+1. Encyclopeptide Database. "Cardiac Troponin T" monograph. encyclopeptide.com.

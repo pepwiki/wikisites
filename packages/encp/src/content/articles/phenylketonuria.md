@@ -1,35 +1,23 @@
 ---
 title: "Phenylketonuria"
-description: "Comprehensive reference for Phenylketonuria, a peptide compound with applications in research and therapeutics."
+description: "Phenylalanine hydroxylase deficiency"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["phenylketonuria", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Phenylketonuria
-
 ## Overview
 
-Phenylketonuria is a bioactive peptide with well-characterized properties and therapeutic applications.
+Phenylalanine hydroxylase deficiency
 
+## Clinical Significance
 
-
-
-
+Phenylalanine-restricted diet, pegvaliase
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Phenylketonuria |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "Phenylketonuria" monograph. encyclopeptide.com.

@@ -1,30 +1,23 @@
 ---
-title: "AFP (Alpha-Fetoprotein)"
-description: "Glycoprotein biomarker elevated in hepatocellular carcinoma and germ cell tumors, used for screening and monitoring."
+title: "AFP"
+description: "Albumin family, binds estradiol, immunosuppressive"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["biomarker-peptides", "peptide", "oligopeptide"]
-category: "Biomarker Peptides"
+pubDate: 2026-06-16
+tags: ["afp-alpha-fetoprotein", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# AFP (Alpha-Fetoprotein)
-
 ## Overview
 
-AFP (Alpha-Fetoprotein) is a bioactive peptide with well-characterized properties and therapeutic applications.
+Albumin family, binds estradiol, immunosuppressive
+
+## Clinical Significance
+
+Hepatocellular carcinoma, germ cell tumors
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | AFP (Alpha-Fetoprotein) |
-| **Category** | Biomarker Peptides |
-
+1. Encyclopeptide Database. "AFP" monograph. encyclopeptide.com.

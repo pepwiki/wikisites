@@ -1,35 +1,23 @@
 ---
 title: "Chromogranin A"
-description: "Comprehensive reference for Chromogranin A, a peptide compound with applications in research and therapeutics."
+description: "Neurosecretory granule protein, co-secreted with catecholamines"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["biomarkers-expanded","peptide","oligopeptide"]
-category: "Biomarkers Expanded"
+pubDate: 2026-06-16
+tags: ["chromogranin-a", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chromogranin A
-
 ## Overview
 
-Chromogranin A is a bioactive peptide with well-characterized properties and therapeutic applications.
+Neurosecretory granule protein, co-secreted with catecholamines
 
+## Clinical Significance
 
-
-
-
+Neuroendocrine tumor diagnosis and monitoring
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Chromogranin A |
-| **Category** | Biomarkers Expanded |
-
+1. Encyclopeptide Database. "Chromogranin A" monograph. encyclopeptide.com.

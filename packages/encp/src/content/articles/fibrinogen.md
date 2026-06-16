@@ -1,35 +1,23 @@
 ---
 title: "Fibrinogen"
-description: "Comprehensive reference for Fibrinogen, a peptide compound with applications in research and therapeutics."
+description: "Converted to fibrin by thrombin, forms clot mesh"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["biomarkers-expanded","peptide","oligopeptide"]
-category: "Biomarkers Expanded"
+pubDate: 2026-06-16
+tags: ["fibrinogen", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Fibrinogen
-
 ## Overview
 
-Fibrinogen is a bioactive peptide with well-characterized properties and therapeutic applications.
+Converted to fibrin by thrombin, forms clot mesh
 
+## Clinical Significance
 
-
-
-
+Disseminated intravascular coagulation, thrombosis
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Fibrinogen |
-| **Category** | Biomarkers Expanded |
-
+1. Encyclopeptide Database. "Fibrinogen" monograph. encyclopeptide.com.

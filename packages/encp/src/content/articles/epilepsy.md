@@ -1,35 +1,23 @@
 ---
 title: "Epilepsy"
-description: "Comprehensive reference for Epilepsy, a peptide compound with applications in research and therapeutics."
+description: "Neuronal hyperexcitability and synchrony"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["neurological","peptide","oligopeptide"]
-category: "Neurological"
+pubDate: 2026-06-16
+tags: ["epilepsy", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Epilepsy
-
 ## Overview
 
-Epilepsy is a bioactive peptide with well-characterized properties and therapeutic applications.
+Neuronal hyperexcitability and synchrony
 
+## Clinical Significance
 
-
-
-
+Antiepileptic drugs, vagus nerve stimulation
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Epilepsy |
-| **Category** | Neurological |
-
+1. Encyclopeptide Database. "Epilepsy" monograph. encyclopeptide.com.

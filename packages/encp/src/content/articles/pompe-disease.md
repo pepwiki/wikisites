@@ -1,35 +1,23 @@
 ---
 title: "Pompe Disease"
-description: "Comprehensive reference for Pompe Disease, a peptide compound with applications in research and therapeutics."
+description: "Acid α-glucosidase deficiency, glycogen accumulation"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["pompe-disease", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Pompe Disease
-
 ## Overview
 
-Pompe Disease is a bioactive peptide with well-characterized properties and therapeutic applications.
+Acid α-glucosidase deficiency, glycogen accumulation
 
+## Clinical Significance
 
-
-
-
+Enzyme replacement (alglucosidase alfa)
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Pompe Disease |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "Pompe Disease" monograph. encyclopeptide.com.

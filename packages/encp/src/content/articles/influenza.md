@@ -1,35 +1,23 @@
 ---
 title: "Influenza"
-description: "Comprehensive reference for Influenza, a peptide compound with applications in research and therapeutics."
+description: "Influenza virus A/B, hemagglutinin/neuraminidase"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["infectious","peptide","oligopeptide"]
-category: "Infectious"
+pubDate: 2026-06-16
+tags: ["influenza", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Influenza
-
 ## Overview
 
-Influenza is a bioactive peptide with well-characterized properties and therapeutic applications.
+Influenza virus A/B, hemagglutinin/neuraminidase
 
+## Clinical Significance
 
-
-
-
+Oseltamivir, zanamivir, baloxavir
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Influenza |
-| **Category** | Infectious |
-
+1. Encyclopeptide Database. "Influenza" monograph. encyclopeptide.com.

@@ -1,35 +1,23 @@
 ---
 title: "Tuberculosis"
-description: "Comprehensive reference for Tuberculosis, a peptide compound with applications in research and therapeutics."
+description: "Mycobacterium tuberculosis, granuloma formation"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["tuberculosis", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Tuberculosis
-
 ## Overview
 
-Tuberculosis is a bioactive peptide with well-characterized properties and therapeutic applications.
+Mycobacterium tuberculosis, granuloma formation
 
+## Clinical Significance
 
-
-
-
+RIPE therapy (rifampicin, isoniazid, pyrazinamide, ethambutol)
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Tuberculosis |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "Tuberculosis" monograph. encyclopeptide.com.

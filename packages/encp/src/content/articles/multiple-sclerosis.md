@@ -1,35 +1,23 @@
 ---
 title: "Multiple Sclerosis"
-description: "Comprehensive reference for Multiple Sclerosis, a peptide compound with applications in research and therapeutics."
+description: "Autoimmune demyelination of CNS"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["multiple-sclerosis", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Multiple Sclerosis
-
 ## Overview
 
-Multiple Sclerosis is a bioactive peptide with well-characterized properties and therapeutic applications.
+Autoimmune demyelination of CNS
 
+## Clinical Significance
 
-
-
-
+IFN-β, glatiramer, natalizumab
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Multiple Sclerosis |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "Multiple Sclerosis" monograph. encyclopeptide.com.

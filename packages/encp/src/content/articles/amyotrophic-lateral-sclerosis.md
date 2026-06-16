@@ -1,35 +1,23 @@
 ---
-title: "Amyotrophic Lateral Sclerosis"
-description: "Comprehensive reference for Amyotrophic Lateral Sclerosis, a peptide compound with applications in research and therapeutics."
+title: "ALS"
+description: "Motor neuron degeneration"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["amyotrophic-lateral-sclerosis", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Amyotrophic Lateral Sclerosis
-
 ## Overview
 
-Amyotrophic Lateral Sclerosis is a bioactive peptide with well-characterized properties and therapeutic applications.
+Motor neuron degeneration
 
+## Clinical Significance
 
-
-
-
+Riluzole, edaravone
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Amyotrophic Lateral Sclerosis |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "ALS" monograph. encyclopeptide.com.

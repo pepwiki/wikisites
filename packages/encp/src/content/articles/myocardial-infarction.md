@@ -1,35 +1,23 @@
 ---
 title: "Myocardial Infarction"
-description: "Comprehensive reference for Myocardial Infarction, a peptide compound with applications in research and therapeutics."
+description: "Coronary artery occlusion, myocardial necrosis"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["myocardial-infarction", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Myocardial Infarction
-
 ## Overview
 
-Myocardial Infarction is a bioactive peptide with well-characterized properties and therapeutic applications.
+Coronary artery occlusion, myocardial necrosis
 
+## Clinical Significance
 
-
-
-
+PCI, thrombolytics, dual antiplatelet therapy
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Myocardial Infarction |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "Myocardial Infarction" monograph. encyclopeptide.com.

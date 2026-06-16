@@ -1,35 +1,23 @@
 ---
 title: "Lung Cancer"
-description: "Comprehensive reference for Lung Cancer, a peptide compound with applications in research and therapeutics."
+description: "NSCLC (85%): EGFR/KRAS/ALK mutations; SCLC: RB1/TP53 loss"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["cancer","peptide","oligopeptide"]
-category: "Oncology"
+pubDate: 2026-06-16
+tags: ["lung-cancer", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Lung Cancer
-
 ## Overview
 
-Lung Cancer is a bioactive peptide with well-characterized properties and therapeutic applications.
+NSCLC (85%): EGFR/KRAS/ALK mutations; SCLC: RB1/TP53 loss
 
+## Clinical Significance
 
-
-
-
+Platinum chemo, pembrolizumab, osimertinib
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Lung Cancer |
-| **Category** | Oncology |
-
+1. Encyclopeptide Database. "Lung Cancer" monograph. encyclopeptide.com.

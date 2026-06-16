@@ -1,35 +1,23 @@
 ---
 title: "Gaucher Disease"
-description: "Comprehensive reference for Gaucher Disease, a peptide compound with applications in research and therapeutics."
+description: "Glucocerebrosidase deficiency, glucocerebroside accumulation"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["gaucher-disease", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Gaucher Disease
-
 ## Overview
 
-Gaucher Disease is a bioactive peptide with well-characterized properties and therapeutic applications.
+Glucocerebrosidase deficiency, glucocerebroside accumulation
 
+## Clinical Significance
 
-
-
-
+Enzyme replacement (imiglucerase), substrate reduction (eliglustat)
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Gaucher Disease |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "Gaucher Disease" monograph. encyclopeptide.com.

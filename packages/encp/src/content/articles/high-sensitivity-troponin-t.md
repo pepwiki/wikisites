@@ -1,30 +1,23 @@
 ---
-title: "High-Sensitivity Troponin T"
-description: "High-sensitivity cardiac biomarker for rapid rule-out of acute myocardial infarction."
+title: "hs-TnT"
+description: "Ultra-sensitive assay for cardiac troponin T"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["biomarkers-expanded", "peptide", "oligopeptide"]
-category: "Biomarkers Expanded"
+pubDate: 2026-06-16
+tags: ["high-sensitivity-troponin-t", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# High-Sensitivity Troponin T
-
 ## Overview
 
-High-Sensitivity Troponin T is a bioactive peptide with well-characterized properties and therapeutic applications.
+Ultra-sensitive assay for cardiac troponin T
+
+## Clinical Significance
+
+Acute coronary syndrome diagnosis
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | High-Sensitivity Troponin T |
-| **Category** | Biomarkers Expanded |
-
+1. Encyclopeptide Database. "hs-TnT" monograph. encyclopeptide.com.

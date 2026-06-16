@@ -1,35 +1,23 @@
 ---
 title: "Heart Failure"
-description: "Comprehensive reference for Heart Failure, a peptide compound with applications in research and therapeutics."
+description: "Neurohormonal activation (RAAS, sympathetic, natriuretic peptides)"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["cardiovascular","peptide","oligopeptide"]
-category: "Cardiovascular"
+pubDate: 2026-06-16
+tags: ["heart-failure", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Heart Failure
-
 ## Overview
 
-Heart Failure is a bioactive peptide with well-characterized properties and therapeutic applications.
+Neurohormonal activation (RAAS, sympathetic, natriuretic peptides)
 
+## Clinical Significance
 
-
-
-
+ACE inhibitors/ARBs, beta-blockers, diuretics, sacubitril/valsartan
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Heart Failure |
-| **Category** | Cardiovascular |
-
+1. Encyclopeptide Database. "Heart Failure" monograph. encyclopeptide.com.

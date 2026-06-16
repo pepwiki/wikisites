@@ -1,35 +1,23 @@
 ---
 title: "AlphaFold"
-description: "Comprehensive reference for AlphaFold, a peptide compound with applications in research and therapeutics."
+description: "Deep learning protein structure prediction from sequence"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-technologies","peptide","oligopeptide"]
-category: "Peptide Technologies"
+pubDate: 2026-06-16
+tags: ["alphafold", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# AlphaFold
-
 ## Overview
 
-AlphaFold is a bioactive peptide with well-characterized properties and therapeutic applications.
+Deep learning protein structure prediction from sequence
 
+## Clinical Significance
 
-
-
-
+Drug discovery, structural biology, proteomics
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | AlphaFold |
-| **Category** | Peptide Technologies |
-
+1. Encyclopeptide Database. "AlphaFold" monograph. encyclopeptide.com.

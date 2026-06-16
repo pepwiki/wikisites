@@ -1,35 +1,23 @@
 ---
 title: "Native Chemical Ligation"
-description: "Comprehensive reference for Native Chemical Ligation, a peptide compound with applications in research and therapeutics."
+description: "Thioester + Cys → peptide bond, allows total chemical synthesis of proteins"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-manufacturing","peptide","oligopeptide"]
-category: "Peptide Manufacturing"
+pubDate: 2026-06-16
+tags: ["native-chemical-ligation", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Native Chemical Ligation
-
 ## Overview
 
-Native Chemical Ligation is a bioactive peptide with well-characterized properties and therapeutic applications.
+Thioester + Cys → peptide bond, allows total chemical synthesis of proteins
 
+## Clinical Significance
 
-
-
-
+Protein semisynthesis, expressed protein ligation
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Native Chemical Ligation |
-| **Category** | Peptide Manufacturing |
-
+1. Encyclopeptide Database. "Native Chemical Ligation" monograph. encyclopeptide.com.

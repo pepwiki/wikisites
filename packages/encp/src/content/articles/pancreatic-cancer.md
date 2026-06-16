@@ -1,35 +1,23 @@
 ---
 title: "Pancreatic Cancer"
-description: "Comprehensive reference for Pancreatic Cancer, a peptide compound with applications in research and therapeutics."
+description: "KRAS mutations (90%), TP53, SMAD4"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["cancer","peptide","oligopeptide"]
-category: "Oncology"
+pubDate: 2026-06-16
+tags: ["pancreatic-cancer", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Pancreatic Cancer
-
 ## Overview
 
-Pancreatic Cancer is a bioactive peptide with well-characterized properties and therapeutic applications.
+KRAS mutations (90%), TP53, SMAD4
 
+## Clinical Significance
 
-
-
-
+FOLFIRINOX, gemcitabine/nab-paclitaxel
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Pancreatic Cancer |
-| **Category** | Oncology |
-
+1. Encyclopeptide Database. "Pancreatic Cancer" monograph. encyclopeptide.com.

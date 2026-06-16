@@ -1,35 +1,23 @@
 ---
 title: "Schizophrenia"
-description: "Comprehensive reference for Schizophrenia, a peptide compound with applications in research and therapeutics."
+description: "Dopamine hypothesis, glutamate hypothesis"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["schizophrenia", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Schizophrenia
-
 ## Overview
 
-Schizophrenia is a bioactive peptide with well-characterized properties and therapeutic applications.
+Dopamine hypothesis, glutamate hypothesis
 
+## Clinical Significance
 
-
-
-
+Antipsychotics, clozapine for refractory cases
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Schizophrenia |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "Schizophrenia" monograph. encyclopeptide.com.

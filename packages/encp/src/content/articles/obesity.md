@@ -1,35 +1,23 @@
 ---
 title: "Obesity"
-description: "Comprehensive reference for Obesity, a peptide compound with applications in research and therapeutics."
+description: "Energy imbalance, leptin resistance, hypothalamic dysregulation"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["metabolic","peptide","oligopeptide"]
-category: "Metabolic"
+pubDate: 2026-06-16
+tags: ["obesity", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Obesity
-
 ## Overview
 
-Obesity is a bioactive peptide with well-characterized properties and therapeutic applications.
+Energy imbalance, leptin resistance, hypothalamic dysregulation
 
+## Clinical Significance
 
-
-
-
+GLP-1 agonists, bariatric surgery
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Obesity |
-| **Category** | Metabolic |
-
+1. Encyclopeptide Database. "Obesity" monograph. encyclopeptide.com.

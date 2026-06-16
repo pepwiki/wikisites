@@ -1,35 +1,23 @@
 ---
 title: "Type 2 Diabetes"
-description: "Comprehensive reference for Type 2 Diabetes, a peptide compound with applications in research and therapeutics."
+description: "Insulin resistance + progressive β-cell failure"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["type-2-diabetes", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Type 2 Diabetes
-
 ## Overview
 
-Type 2 Diabetes is a bioactive peptide with well-characterized properties and therapeutic applications.
+Insulin resistance + progressive β-cell failure
 
+## Clinical Significance
 
-
-
-
+Metformin, GLP-1 agonists, SGLT2 inhibitors, insulin
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Type 2 Diabetes |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "Type 2 Diabetes" monograph. encyclopeptide.com.

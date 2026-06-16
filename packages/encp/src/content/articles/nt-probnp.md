@@ -1,30 +1,23 @@
 ---
 title: "NT-proBNP"
-description: "Inactive precursor fragment of BNP, sensitive biomarker for heart failure diagnosis and prognosis."
+description: "Inactive fragment, clearance by kidneys"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["biomarkers-expanded", "peptide", "oligopeptide"]
-category: "Biomarkers Expanded"
+pubDate: 2026-06-16
+tags: ["nt-probnp", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# NT-proBNP
-
 ## Overview
 
-NT-proBNP is a bioactive peptide with well-characterized properties and therapeutic applications.
+Inactive fragment, clearance by kidneys
+
+## Clinical Significance
+
+Heart failure diagnosis, more stable than BNP
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | NT-proBNP |
-| **Category** | Biomarkers Expanded |
-
+1. Encyclopeptide Database. "NT-proBNP" monograph. encyclopeptide.com.

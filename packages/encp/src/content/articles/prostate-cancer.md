@@ -1,35 +1,23 @@
 ---
 title: "Prostate Cancer"
-description: "Comprehensive reference for Prostate Cancer, a peptide compound with applications in research and therapeutics."
+description: "Androgen receptor-driven, PSA elevation"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["prostate-cancer", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Prostate Cancer
-
 ## Overview
 
-Prostate Cancer is a bioactive peptide with well-characterized properties and therapeutic applications.
+Androgen receptor-driven, PSA elevation
 
+## Clinical Significance
 
-
-
-
+GnRH agonists/antagonists, abiraterone, enzalutamide
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Prostate Cancer |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "Prostate Cancer" monograph. encyclopeptide.com.

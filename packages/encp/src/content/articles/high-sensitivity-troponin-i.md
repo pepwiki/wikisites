@@ -1,30 +1,23 @@
 ---
-title: "High-Sensitivity Troponin I"
-description: "Ultra-sensitive cardiac biomarker enabling early detection of myocardial infarction within 1-3 hours."
+title: "hs-TnI"
+description: "Ultra-sensitive assay for cardiac troponin I"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["biomarkers-expanded", "peptide", "oligopeptide"]
-category: "Biomarkers Expanded"
+pubDate: 2026-06-16
+tags: ["high-sensitivity-troponin-i", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# High-Sensitivity Troponin I
-
 ## Overview
 
-High-Sensitivity Troponin I is a bioactive peptide with well-characterized properties and therapeutic applications.
+Ultra-sensitive assay for cardiac troponin I
+
+## Clinical Significance
+
+Acute coronary syndrome diagnosis
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | High-Sensitivity Troponin I |
-| **Category** | Biomarkers Expanded |
-
+1. Encyclopeptide Database. "hs-TnI" monograph. encyclopeptide.com.

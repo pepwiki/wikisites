@@ -1,35 +1,23 @@
 ---
 title: "Malaria"
-description: "Comprehensive reference for Malaria, a peptide compound with applications in research and therapeutics."
+description: "Plasmodium falciparum, liver and blood stages"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["infectious","peptide","oligopeptide"]
-category: "Infectious"
+pubDate: 2026-06-16
+tags: ["malaria", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Malaria
-
 ## Overview
 
-Malaria is a bioactive peptide with well-characterized properties and therapeutic applications.
+Plasmodium falciparum, liver and blood stages
 
+## Clinical Significance
 
-
-
-
+Artemisinin combination therapy
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Malaria |
-| **Category** | Infectious |
-
+1. Encyclopeptide Database. "Malaria" monograph. encyclopeptide.com.

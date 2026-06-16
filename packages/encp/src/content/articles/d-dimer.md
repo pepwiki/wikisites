@@ -1,35 +1,23 @@
 ---
 title: "D-dimer"
-description: "Comprehensive reference for D-dimer, a peptide compound with applications in research and therapeutics."
+description: "Marker of fibrinolysis, elevated in thrombosis"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["biomarker-peptides","peptide","oligopeptide"]
-category: "Biomarker Peptides"
+pubDate: 2026-06-16
+tags: ["d-dimer", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# D-dimer
-
 ## Overview
 
-D-dimer is a bioactive peptide with well-characterized properties and therapeutic applications.
+Marker of fibrinolysis, elevated in thrombosis
 
+## Clinical Significance
 
-
-
-
+DVT/PE exclusion, DIC diagnosis
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | D-dimer |
-| **Category** | Biomarker Peptides |
-
+1. Encyclopeptide Database. "D-dimer" monograph. encyclopeptide.com.

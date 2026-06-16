@@ -1,35 +1,23 @@
 ---
 title: "Type 1 Diabetes"
-description: "Comprehensive reference for Type 1 Diabetes, a peptide compound with applications in research and therapeutics."
+description: "Autoimmune β-cell destruction"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["type-1-diabetes", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Type 1 Diabetes
-
 ## Overview
 
-Type 1 Diabetes is a bioactive peptide with well-characterized properties and therapeutic applications.
+Autoimmune β-cell destruction
 
+## Clinical Significance
 
-
-
-
+Insulin replacement, immunomodulation
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Type 1 Diabetes |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "Type 1 Diabetes" monograph. encyclopeptide.com.

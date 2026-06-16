@@ -1,35 +1,23 @@
 ---
 title: "COVID-19"
-description: "Comprehensive reference for COVID-19, a peptide compound with applications in research and therapeutics."
+description: "SARS-CoV-2 spike protein binds ACE2"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["covid-19", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# COVID-19
-
 ## Overview
 
-COVID-19 is a bioactive peptide with well-characterized properties and therapeutic applications.
+SARS-CoV-2 spike protein binds ACE2
 
+## Clinical Significance
 
-
-
-
+Remdesivir, nirmatrelvir/ritonavir, monoclonal antibodies
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | COVID-19 |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "COVID-19" monograph. encyclopeptide.com.

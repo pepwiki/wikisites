@@ -1,30 +1,23 @@
 ---
-title: "Troponin I (Cardiac)"
-description: "Cardiac-specific isoform of troponin I, the gold standard biomarker for myocardial infarction diagnosis."
+title: "Cardiac Troponin I"
+description: "Regulatory protein of thin filament, cardiac-specific isoform"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["biomarker-peptides", "peptide", "oligopeptide"]
-category: "Biomarker Peptides"
+pubDate: 2026-06-16
+tags: ["troponin-i-cardiac", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Troponin I (Cardiac)
-
 ## Overview
 
-Troponin I (Cardiac) is a bioactive peptide with well-characterized properties and therapeutic applications.
+Regulatory protein of thin filament, cardiac-specific isoform
+
+## Clinical Significance
+
+Myocardial infarction diagnosis
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Troponin I (Cardiac) |
-| **Category** | Biomarker Peptides |
-
+1. Encyclopeptide Database. "Cardiac Troponin I" monograph. encyclopeptide.com.

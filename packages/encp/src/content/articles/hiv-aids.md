@@ -1,35 +1,23 @@
 ---
 title: "HIV/AIDS"
-description: "Comprehensive reference for HIV/AIDS, a peptide compound with applications in research and therapeutics."
+description: "CD4+ T-cell depletion by HIV-1"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["infectious","peptide","oligopeptide"]
-category: "Infectious"
+pubDate: 2026-06-16
+tags: ["hiv-aids", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# HIV/AIDS
-
 ## Overview
 
-HIV/AIDS is a bioactive peptide with well-characterized properties and therapeutic applications.
+CD4+ T-cell depletion by HIV-1
 
+## Clinical Significance
 
-
-
-
+ART (HAART), enfuvirtide, maraviroc
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | HIV/AIDS |
-| **Category** | Infectious |
-
+1. Encyclopeptide Database. "HIV/AIDS" monograph. encyclopeptide.com.

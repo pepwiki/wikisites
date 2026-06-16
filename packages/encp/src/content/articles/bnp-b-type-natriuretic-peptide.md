@@ -1,35 +1,23 @@
 ---
-title: "BNP (B-Type Natriuretic Peptide)"
-description: "Comprehensive reference for BNP (B-Type Natriuretic Peptide), a peptide compound with applications in research and therapeutics."
+title: "BNP"
+description: "Natriuretic peptide receptor A, vasodilation, natriuresis"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["biomarker-peptides","peptide","oligopeptide"]
-category: "Biomarker Peptides"
+pubDate: 2026-06-16
+tags: ["bnp-b-type-natriuretic-peptide", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# BNP (B-Type Natriuretic Peptide)
-
 ## Overview
 
-BNP (B-Type Natriuretic Peptide) is a bioactive peptide with well-characterized properties and therapeutic applications.
+Natriuretic peptide receptor A, vasodilation, natriuresis
 
+## Clinical Significance
 
-
-
-
+Heart failure diagnosis and monitoring
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | BNP (B-Type Natriuretic Peptide) |
-| **Category** | Biomarker Peptides |
-
+1. Encyclopeptide Database. "BNP" monograph. encyclopeptide.com.

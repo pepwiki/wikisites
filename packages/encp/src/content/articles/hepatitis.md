@@ -1,35 +1,23 @@
 ---
 title: "Hepatitis"
-description: "Comprehensive reference for Hepatitis, a peptide compound with applications in research and therapeutics."
+description: "HBV: DNA virus, HCV: RNA virus, chronic liver disease"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-diseases","peptide","oligopeptide"]
-category: "Peptide Diseases"
+pubDate: 2026-06-16
+tags: ["hepatitis", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Hepatitis
-
 ## Overview
 
-Hepatitis is a bioactive peptide with well-characterized properties and therapeutic applications.
+HBV: DNA virus, HCV: RNA virus, chronic liver disease
 
+## Clinical Significance
 
-
-
-
+Entecavir (HBV), sofosbuvir (HCV)
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Hepatitis |
-| **Category** | Peptide Diseases |
-
+1. Encyclopeptide Database. "Hepatitis" monograph. encyclopeptide.com.

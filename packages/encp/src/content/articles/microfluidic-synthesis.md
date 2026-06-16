@@ -1,35 +1,23 @@
 ---
-title: "Microfluidic Synthesis"
-description: "Comprehensive reference for Microfluidic Synthesis, a peptide compound with applications in research and therapeutics."
+title: "Microfluidic Peptide Synthesis"
+description: "Continuous flow SPPS in microreactors"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["peptide-future","peptide","oligopeptide"]
-category: "Peptide Future"
+pubDate: 2026-06-16
+tags: ["microfluidic-synthesis", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Microfluidic Synthesis
-
 ## Overview
 
-Microfluidic Synthesis is a bioactive peptide with well-characterized properties and therapeutic applications.
+Continuous flow SPPS in microreactors
 
+## Clinical Significance
 
-
-
-
+Rapid, low-waste peptide production
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Microfluidic Synthesis |
-| **Category** | Peptide Future |
-
+1. Encyclopeptide Database. "Microfluidic Peptide Synthesis" monograph. encyclopeptide.com.

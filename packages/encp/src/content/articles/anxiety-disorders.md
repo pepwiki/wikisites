@@ -1,35 +1,23 @@
 ---
 title: "Anxiety Disorders"
-description: "Comprehensive reference for Anxiety Disorders, a peptide compound with applications in research and therapeutics."
+description: "GABA/glutamate imbalance, amygdala hyperactivity"
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["neurological","peptide","oligopeptide"]
-category: "Neurological"
+pubDate: 2026-06-16
+tags: ["anxiety-disorders", "peptide", "research"]
+category: "Peptide Therapeutics"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Anxiety Disorders
-
 ## Overview
 
-Anxiety Disorders is a bioactive peptide with well-characterized properties and therapeutic applications.
+GABA/glutamate imbalance, amygdala hyperactivity
 
+## Clinical Significance
 
-
-
-
+Benzodiazepines, SSRIs, buspirone
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
-
-## Chemical Identity
-
-| Property | Value |
-|----------|-------|
-| **Name** | Anxiety Disorders |
-| **Category** | Neurological |
-
+1. Encyclopeptide Database. "Anxiety Disorders" monograph. encyclopeptide.com.
