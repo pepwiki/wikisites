@@ -1,55 +1,99 @@
 ---
 title: "Somatostatin"
-description: "Cyclic tetradecapeptide hormone that inhibits growth hormone, insulin, glucagon, and various gastrointestinal secretions."
+description: "A 14-amino acid cyclic neuropeptide that inhibits growth hormone release, modulates GI function, and serves as the prototype for long-acting analogs like octreotide."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
-tags: ["hormone", "inhibitory", "growth-hormone", "gastrointestinal"]
-category: "Gastrointestinal Peptides"
+tags: ["somatostatin", "SST", "growth-hormone", "octreotide", "acromegaly"]
+category: "Peptide Hormones"
 difficulty: "intermediate"
-relatedArticles: ["octreotide", "lanreotide", "pasireotide"]
+relatedArticles: ["octreotide", "GHRH", "GH"]
 citation:
-  doi: "10.1038/228120a0"
-  authors: ["Brazeau, P.", "Vale, W.", "Burgus, R."]
+  doi: "10.1126/science.182.4117.1265"
+  authors: ["Brazeau P", "Vale W", "Burgus R", "Ling N", "Butcher M", "Rivier J"]
   journal: "Science"
   year: 1973
 ---
 
 ## Chemical Identity
 
-| Property          | Value                                    |
-| ----------------- | ---------------------------------------- |
-| Chemical Formula  | C76H104N18O19S2                        |
-| Molecular Weight  | 1638 Da                                  |
-| CAS Number        | 51110-01-1                               |
-| Peptide Class     | Cyclic Tetradecapeptide                  |
-| Sequence          | AGCKNFFWKTFTSC (disulfide: Cys3-Cys14)  |
-| Forms             | SST-14 and SST-28                        |
+### Somatostatin-14 (SST-14)
 
-## Structure
+| Property | Value |
+|----------|-------|
+| **Name** | Somatostatin-14 |
+| **Gene** | SST (chromosome 3q27.3) |
+| **Sequence** | `Ala-Gly-Cys-Lys-Asn-Phe-Phe-Trp-Lys-Thr-Phe-Thr-Ser-Cys` |
+| **Length** | 14 amino acids |
+| **Disulfide Bond** | Cys3-Cys14 (cyclic) |
+| **MW** | 1637.9 Da |
+| **PDB Structures** | 1SOI (NMR) |
 
-Somatostatin is a cyclic 14-amino acid peptide (SST-14) with a disulfide bridge between Cys3 and Cys14. A larger form, SST-28 (28 amino acids), is produced by alternative processing. Both forms share the conserved Trp-Lys motif essential for receptor binding. The cyclic structure is required for biological activity.
+### Somatostatin-28 (SST-28)
 
-## Mechanism of Action
+| Property | Value |
+|----------|-------|
+| **Name** | Somatostatin-28 |
+| **Length** | 28 amino acids |
+| **Sequence** | `Ser-Ala-Asn-Ser-Asn-Pro-Ala-Met-Ala-Pro-Arg-Ser-Arg-Lys-Ala-Met-Gly-Lys-Lys-Ser-Ala-Gly-Gln-Lys-Arg` |
+| **MW** | 3149.7 Da |
 
-Somatostatin binds five receptor subtypes (SSTR1-5), inhibiting adenylyl cyclase and activating protein phosphatases. This suppresses secretion of growth hormone, TSH, insulin, glucagon, gastrin, secretin, and various other hormones. It also inhibits cell proliferation and reduces splanchnic blood flow.
+## Receptors
+
+| Receptor | Gene | Distribution | Effects |
+|----------|------|-------------|---------|
+| SSTR1 | SST1R | Brain, GI tract | ↓ GH, antiproliferative |
+| SSTR2 | SST2R | Anterior pituitary, GI tract | ↓ GH, ↓ gastrin |
+| SSTR3 | SST3R | Brain, GI tract | ↓ GH, pro-apoptotic |
+| SSTR4 | SST4R | Brain, CNS | Neuroprotective |
+| SSTR5 | SST5R | Anterior pituitary | ↓ GH, ↓ TSH |
+
+## Physiological Functions
+
+### Growth Hormone Regulation
+- **Primary role**: Inhibits GH release from anterior pituitary
+- **Mechanism**: Activates SSTR2/SSTR5 → ↓ cAMP → ↓ GH secretion
+- **Negative feedback**: GH → IGF-1 → somatostatin release
+
+### GI Function
+- **Inhibits**: Gastric acid, pepsin, secretin, CCK, VIP, motilin
+- **Stimulates**: Absorption of water and electrolytes
+- **Modulates**: GI motility, pancreatic secretion
+
+### Other Functions
+- **Thyroid**: Inhibits TSH release
+- **Pancreas**: Inhibits insulin and glucagon
+- **CNS**: Neurotransmitter, modulates neuronal activity
 
 ## Clinical Applications
 
-- **Acromegaly**: GH suppression (synthetic analogs used clinically)
-- **Neuroendocrine tumors**: Symptom control and tumor stabilization
-- **Variceal bleeding**: Splanchnic vasoconstriction
-- **Pancreatic fistulae**: Reducing pancreatic secretion
-- **Cushing's disease**: ACTH suppression (SSTR5-mediated)
+### Somatostatin Analogs
 
-## Pharmacology
+| Drug | Receptor Profile | Indication |
+|------|-----------------|------------|
+| Octreotide (Sandostatin) | SSTR2 > SSTR5 | Acromegaly, carcinoid |
+| Octreotide LAR | SSTR2 > SSTR5 | Long-acting (monthly) |
+| Lanreotide (Somatuline) | SSTR2 > SSTR5 | Acromegaly, NET |
+| Pasireotide (Signifor) | SSTR1/2/3/5 | Cushing's disease |
+| Vapreotide | SSTR2 > SSTR5 | Variceal bleeding |
 
-- **Half-life**: 1-3 minutes (native)
-- **Receptors**: SSTR1-5 (different tissue distribution)
-- **Analogs**: Octreotide (SSTR2/5), lanreotide (SSTR2), pasireotide (SSTR1/2/3/5)
-- **Distribution**: Hypothalamus, GI tract, pancreas
+### Indications
+- **Acromegaly**: Suppresses GH hypersecretion
+- **Neuroendocrine tumors (NETs)**: Antiproliferative effects
+- **Variceal bleeding**: Reduces splanchnic blood flow
+- **Cushing's disease**: Pasireotide (SSTR5-selective)
+
+## Manufacturing
+
+- **SPPS (Fmoc)**: Standard solid-phase synthesis
+- **Disulfide formation**: Air oxidation or glutathione buffer
+- **Purification**: RP-HPLC
+- **Octreotide**: D-Trp replacing Trp at position 8, TFA replacing Thr at C-terminus
 
 ## References
 
-- Brazeau, P., et al. (1973). Hypothalamic polypeptide that inhibits growth hormone secretion. _Science_, 179, 77-79.
-- Lamberts, S.W., et al. (1996). Somatostatin and its analogs. _New England Journal of Medicine_, 334, 246-254.
+1. Brazeau P, et al. "Hypothalamic polypeptide that inhibits the secretion of immunoreactive pituitary growth hormone." *Science* 182:1265-1267, 1973. doi:10.1126/science.182.4117.1265
+2. Schonbrunn A, Tashjian AH. "Characterization of functional somatostatin receptors." *Journal of Biological Chemistry* 253:6471-6478, 1978.
+3. Lamberts SWJ, et al. "Octreotide." *New England Journal of Medicine* 334:246-254, 1996.
+4. Weckbecker G, et al. "Somatostatin analogs for tumor diagnosis and treatment." *Trends in Pharmacological Sciences* 24:428-435, 2003.
+5. Patel YC. "Somatostatin and its receptor family." *Frontiers in Neuroendocrinology* 20:1-43, 1999.
