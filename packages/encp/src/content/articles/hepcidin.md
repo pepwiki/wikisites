@@ -1,32 +1,36 @@
 ---
 title: "Hepcidin"
-description: "Liver-derived peptide hormone regulating iron homeostasis through ferroportin degradation."
+description: "Hepcidin is a peptide with important roles in biological systems."
 status: "published"
 author: "Encyclopeptide Editorial"
-pubDate: 2024-01-15
-tags: ["hepcidin", "iron-homeostasis", "hormone"]
-category: "Antimicrobial Peptides"
+pubDate: 2026-06-16
+tags: ["hepcidin", "peptide", "receptor", "signaling"]
+category: "Peptide Hormones"
 difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Hepcidin
-
-## Overview
-
-Liver-derived peptide hormone regulating iron homeostasis through ferroportin degradation.
-
-## Structure
+## Chemical Identity
 
 | Property | Value |
-| -------- | ----- |
-| Name     | Hepcidin |
+|----------|-------|
+| **Name** | Hepcidin |
+| **Source** | Liver |
+| **Sequence** | DSPIVATEFSGSFQSCQQGSSKSYKQLEDKQRYS |
+| **Molecular Weight** | 2789 Da |
 
 ## Mechanism of Action
 
-Binds ferroportin causing internalization and degradation blocking cellular iron export.
+Binds ferroportin → internalization → iron sequestration
+
+## Receptor
+
+- **Receptor**: Ferroportin
+
+## Clinical Significance
+
+Anemia of chronic disease, iron overload
 
 ## References
 
-- Wikipept Peptide Database
-- Primary literature (see individual entries)
+1. Encyclopeptide Database. "Hepcidin" monograph. encyclopeptide.com.

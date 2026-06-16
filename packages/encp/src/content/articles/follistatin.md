@@ -1,10 +1,10 @@
 ---
-title: "Follistatin: Structure, Function, and Significance"
-description: "Follistatin is a binding protein that neutralizes activin and other TGF-β superfamily members, regulating folliculogenesis and muscle growth."
+title: "Follistatin"
+description: "Follistatin is a protein with important roles in biological systems."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
-tags: ["follistatin", "follistatin", "peptide-hormones", "ovary"]
+tags: ["follistatin", "peptide", "receptor", "signaling"]
 category: "Peptide Hormones"
 difficulty: "intermediate"
 relatedArticles: []
@@ -14,28 +14,23 @@ relatedArticles: []
 
 | Property | Value |
 |----------|-------|
-| **Peptide Name** | follistatin |
-| **Type** | Follistatin |
-| **Source** | Ovary |
-| **Sequence** | 344 aa protein |
+| **Name** | Follistatin |
+| **Source** | Multiple tissues |
+| **Sequence** | 344 aa |
 | **Molecular Weight** | 38000 Da |
 
-## Description
+## Mechanism of Action
 
-Follistatin is a binding protein that neutralizes activin and other TGF-β superfamily members, regulating folliculogenesis and muscle growth.
+Neutralizes activin, BMP, TGF-β
 
-## Biological Function
+## Receptor
 
-Follistatin is a binding protein that neutralizes activin and other TGF-β superfamily members, regulating folliculogenesis and muscle growth.
+- **Receptor**: Activin A (binding)
 
-## Research Significance
+## Clinical Significance
 
-This follistatin has been studied for its potential applications in:
-- Drug development
-- Biotechnology
-- Biomaterials
-- Therapeutics
+Fibrosis, muscle growth
 
 ## References
 
-1. Encyclopeptide Database. "follistatin" monograph. encyclopeptide.com.
+1. Encyclopeptide Database. "Follistatin" monograph. encyclopeptide.com.
