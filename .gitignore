@@ -32,7 +32,7 @@ packages/*/.astro
 /_pagefind
 
 # lighthouse
-/.lighthouseci
+.lighthouseci
 
 # typescript
 *.tsbuildinfo
