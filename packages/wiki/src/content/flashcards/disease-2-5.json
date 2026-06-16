@@ -1,0 +1,6 @@
+{
+  "front": "What is the role of VEGF peptides in cancer angiogenesis?",
+  "back": "Vascular endothelial growth factor (VEGF) peptides promote new blood vessel formation (angiogenesis) essential for tumor growth beyond 1-2mm. Tumor cells overexpress VEGF under hypoxia (HIF-1\u03b1 activation), recruiting endothelial cells and creating tumor vasculature.",
+  "tags": ["disease", "cancer", "angiogenesis", "vegf"],
+  "difficulty": "advanced"
+}

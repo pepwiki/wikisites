@@ -1,0 +1,6 @@
+{
+  "front": "What is phototoxicity and which peptides are associated with it?",
+  "back": "Phototoxicity is light-induced cellular damage. Some peptides containing aromatic residues (Trp, Tyr, Phe) or bound to photosensitizing groups can generate reactive oxygen species (ROS) upon UV exposure, causing skin damage. Relevant for topical peptide formulations.",
+  "tags": ["toxicology", "phototoxicity", "ros", "topical"],
+  "difficulty": "intermediate"
+}

@@ -1,0 +1,6 @@
+{
+  "front": "What is Karl Fischer titration and why is it important for peptides?",
+  "back": "Karl Fischer titration measures water content in peptide samples (critical for lyophilized peptides). Water content affects: stability (hydrolysis), reconstitution accuracy, and shelf life. Target: 1-5% for most lyophilized peptides. Over-drying can cause aggregation; too much water reduces stability.",
+  "tags": ["analytical", "karl-fischer", "water-content", "stability"],
+  "difficulty": "intermediate"
+}

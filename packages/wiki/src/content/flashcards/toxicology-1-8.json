@@ -1,0 +1,6 @@
+{
+  "front": "What is the no-observed-adverse-effect level (NOAEL) for peptides?",
+  "back": "NOAEL is the highest dose at which no adverse effects are observed in preclinical studies. It's used to calculate the starting dose for human trials: HED = NOAEL \u00d7 (animal Km / human Km). Safety margins of 10-100x are applied depending on toxicity profile.",
+  "tags": ["toxicology", "preclinical", "noael", "safety-margin"],
+  "difficulty": "advanced"
+}

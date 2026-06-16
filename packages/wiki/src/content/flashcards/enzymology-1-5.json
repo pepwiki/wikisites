@@ -1,0 +1,6 @@
+{
+  "front": "What is substrate-competitive vs mechanism-based inhibition?",
+  "back": "Competitive inhibitors (Ki) bind the active site, competing with substrate. Mechanism-based inhibitors (kcat/KI) are processed by the enzyme to form a reactive intermediate that inactivates it. Example: irreversible protease inhibitors (pepstatin for aspartyl proteases). Advantage of mechanism-based: selectivity.",
+  "tags": ["enzymology", "inhibition", "competitive", "mechanism-based"],
+  "difficulty": "advanced"
+}

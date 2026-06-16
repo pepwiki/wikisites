@@ -1,0 +1,6 @@
+{
+  "front": "What is circular dichroism (CD) and what does it tell about peptides?",
+  "back": "CD measures differential absorption of left/right circularly polarized light by chiral molecules. For peptides: far-UV CD (190-250 nm) reveals secondary structure (\u03b1-helix: 208/222 nm minima; \u03b2-sheet: 218 nm minimum; random coil: 200 nm minimum). Near-UV CD shows tertiary structure.",
+  "tags": ["analytical", "cd", "secondary-structure"],
+  "difficulty": "intermediate"
+}

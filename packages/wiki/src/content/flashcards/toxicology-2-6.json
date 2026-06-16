@@ -1,0 +1,6 @@
+{
+  "front": "What is the minimum lethal dose (MLD) and how does it differ from LD50?",
+  "back": "MLD is the smallest dose that kills at least one animal in a test group, estimated from dose-response curves. LD50 is the statistically derived median lethal dose. MLD is used more for highly potent toxins (e.g., botulinum toxin) where LD50 testing would require impossibly small doses.",
+  "tags": ["toxicology", "mld", "ld50", "potent-toxins"],
+  "difficulty": "intermediate"
+}

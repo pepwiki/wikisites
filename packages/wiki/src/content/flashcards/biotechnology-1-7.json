@@ -1,0 +1,6 @@
+{
+  "front": "What is cell-free protein synthesis (CFPS)?",
+  "back": "CFPS produces proteins/peptides using cell extracts (E. coli, CHO, wheat germ) without living cells. Advantages: 1) Rapid (hours vs days), 2) Toxic peptide tolerance, 3) Non-natural amino acid incorporation, 4) Isotope labeling, 5) Membrane protein production. Commercial systems:PURE, TX-TL, NEB.",
+  "tags": ["biotechnology", "cell-free", "synthesis"],
+  "difficulty": "intermediate"
+}

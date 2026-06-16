@@ -1,0 +1,6 @@
+{
+  "front": "What is a peptide conjugate and why is it formulated?",
+  "back": "Peptide conjugates link peptides to other molecules for improved properties: 1) PEGylation (increased half-life), 2) Lipidation (albumin binding, oral bioavailability), 3) Antibody-drug conjugates (targeted delivery), 4) Fc fusion (extended circulation), 5) Prodrug forms (activation at target site).",
+  "tags": ["formulation", "conjugate", "pegylation", "lipidation"],
+  "difficulty": "intermediate"
+}

@@ -1,0 +1,6 @@
+{
+  "front": "How is peptide purity determined by RP-HPLC?",
+  "back": "Peptide purity is assessed by area-under-curve (AUC) percentage of the main peak in RP-HPLC. Requirements: \u226595% for research, \u226598% for clinical, \u226599% for injectable. System suitability: column efficiency >10,000 plates, tailing factor <2.0, resolution >2.0 between critical pairs.",
+  "tags": ["analytical", "purity", "hplc", "quality-control"],
+  "difficulty": "intermediate"
+}

@@ -1,0 +1,6 @@
+{
+  "front": "What is enzyme kinetics and how does it relate to peptide substrates?",
+  "back": "Enzyme kinetics studies reaction rates of enzymes with substrates. Michaelis-Menten: v = Vmax[S]/(Km+[S]). For peptide substrates: Km reflects binding affinity, kcat reflects catalytic efficiency, kcat/Km reflects specificity. Protease specificity pockets determine preferred cleavage sites.",
+  "tags": ["enzymology", "kinetics", "michaelis-menten"],
+  "difficulty": "intermediate"
+}

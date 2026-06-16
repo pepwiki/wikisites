@@ -1,0 +1,6 @@
+{
+  "front": "What is a companion diagnostic for peptide therapeutics?",
+  "back": "Companion diagnostics identify patients who will benefit from specific peptide drugs. Examples: 1) HER2 testing for trastuzumab, 2) PD-L1 expression for immunotherapy peptides, 3) Tumor mutational burden for neoantigen vaccines, 4) MSI/dMMR for pembrolizumab. Regulatory: FDA CDx approval required for some drugs.",
+  "tags": ["clinical", "companion-diagnostic", "biomarker", "precision-medicine"],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,6 @@
+{
+  "front": "What is a pre-filled syringe (PFS) and how is it designed for peptides?",
+  "back": "PFS combines drug product and delivery device. Design considerations: 1) Silicone oil lubrication (protein adsorption), 2) Glass type (borosilicate vs COP polymer), 3) Needle shield (extractables), 4) Dosing accuracy (dead volume), 5) Stability in device (cyclic stress), 6) Ease of use (ergonomics).",
+  "tags": ["formulation", "device", "pfs", "delivery"],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,6 @@
+{
+  "front": "What is the LD50 and how is it used in peptide toxicology?",
+  "back": "LD50 (median lethal dose) is the dose of a substance that kills 50% of a test population. For peptides, it varies by route (IV, IP, oral). Example: botulinum toxin LD50 is ~1 ng/kg IV, making it the most toxic substance known.",
+  "tags": ["toxicology", "ld50", "dose-response"],
+  "difficulty": "beginner"
+}

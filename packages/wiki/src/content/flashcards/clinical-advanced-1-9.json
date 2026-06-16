@@ -1,0 +1,6 @@
+{
+  "front": "What is the concept of bioequivalence for peptide biosimilars?",
+  "back": "Biosimilar peptides must demonstrate: 1) Similarity to reference product (structure, function), 2) No clinically meaningful differences in efficacy/safety, 3) No increased immunogenicity. Steps: analytical similarity \u2192 functional assays \u2192 PK/PD equivalence \u2192 clinical confirmation. Key: higher similarity threshold than small-molecule generics.",
+  "tags": ["clinical", "biosimilar", "bioequivalence", "regulatory"],
+  "difficulty": "advanced"
+}

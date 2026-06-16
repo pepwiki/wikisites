@@ -1,0 +1,6 @@
+{
+  "front": "What is the role of pH in peptide stability?",
+  "back": "pH affects peptide stability through: 1) Acid/base-catalyzed hydrolysis (Asp-Pro bonds, Asn deamidation), 2) Aggregation (charge-dependent), 3) Conformational stability, 4) Solubility. Most peptides are stable at pH 4-7. Storage at 2-8\u00b0C in buffered solutions is standard.",
+  "tags": ["formulation", "ph", "stability", "degradation"],
+  "difficulty": "intermediate"
+}

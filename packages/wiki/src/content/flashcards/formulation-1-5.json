@@ -1,0 +1,6 @@
+{
+  "front": "What are the challenges in formulating oral peptide drugs?",
+  "back": "Oral peptide challenges: 1) GI degradation (pH, proteases), 2) Poor intestinal permeability, 3) First-pass hepatic metabolism, 4) Food effects on absorption. Solutions: 1) Permeation enhancers (SNAC for semaglutide), 2) Protease inhibitors, 3) Nanoparticle encapsulation, 4) Enteric coatings, 5) Mucoadhesive systems.",
+  "tags": ["formulation", "oral", "bioavailability", "barrier"],
+  "difficulty": "advanced"
+}

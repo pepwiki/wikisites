@@ -1,0 +1,6 @@
+{
+  "front": "How is disulfide bond analysis performed on peptides?",
+  "back": "Disulfide bonds are analyzed by: 1) Alkylation (iodoacetamide) of free cysteines before/after reduction, 2) Trypsin digestion under non-reducing conditions, 3) LC-MS/MS of disulfide-linked peptides, 4) Reduction with DTT/TCEP and comparison of mass shifts, 5) NMR for 3D structure.",
+  "tags": ["analytical", "disulfide", "structure", "ms"],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,6 @@
+{
+  "front": "What is ribosome profiling (Ribo-seq)?",
+  "back": "Ribo-seq maps ribosome positions on mRNAs by sequencing protected fragments. For peptide biology: 1) Identify actively translated ORFs, 2) Discover hidden small ORFs (sORFs) encoding bioactive peptides, 3) Measure translation efficiency, 4) Detect translation pauses affecting peptide folding.",
+  "tags": ["genomics", "ribosome-profiling", "translation", "sorf"],
+  "difficulty": "advanced"
+}

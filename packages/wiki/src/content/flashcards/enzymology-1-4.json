@@ -1,0 +1,6 @@
+{
+  "front": "What is allosteric regulation of enzymes acting on peptides?",
+  "back": "Allosteric regulation involves effector binding at a site distinct from the active site, causing conformational changes. For proteases: 1) Zymogen activation (trypsinogen \u2192 trypsin), 2) Product inhibition, 3) Cooperative effects (caspase activation cascades), 4) Regulatory subunit binding.",
+  "tags": ["enzymology", "allosteric", "regulation", "zymogen"],
+  "difficulty": "advanced"
+}

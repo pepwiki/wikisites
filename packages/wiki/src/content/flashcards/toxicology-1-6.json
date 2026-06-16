@@ -1,0 +1,6 @@
+{
+  "front": "What is immunogenicity in peptide drug toxicology?",
+  "back": "Immunogenicity is the ability of a peptide drug to trigger immune responses. Anti-drug antibodies (ADA) can neutralize efficacy, cause allergic reactions, or form immune complexes leading to organ damage. Risk factors: non-human sequences, aggregation, route of administration.",
+  "tags": ["toxicology", "immunogenicity", "ada", "safety"],
+  "difficulty": "advanced"
+}

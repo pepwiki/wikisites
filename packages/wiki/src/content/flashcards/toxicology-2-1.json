@@ -1,0 +1,6 @@
+{
+  "front": "What is the difference between acute and chronic peptide toxicity?",
+  "back": "Acute: single high-dose exposure causing immediate effects (e.g., venom envenomation, anaphylaxis). Chronic: repeated low-dose exposure causing cumulative damage (e.g., amyloid deposition, immunogenicity, organ fibrosis). Testing requirements differ: single-dose vs 28-day repeat-dose studies.",
+  "tags": ["toxicology", "acute", "chronic"],
+  "difficulty": "intermediate"
+}

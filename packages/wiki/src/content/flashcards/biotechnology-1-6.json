@@ -1,0 +1,6 @@
+{
+  "front": "What is mRNA display and how does it differ from phage display?",
+  "back": "mRNA display links mRNA to its encoded protein via puromycin. Advantages over phage: 1) Larger library (10^12-10^14), 2) No cell transformation bottleneck, 3) Can include non-natural amino acids, 4) In vitro selection faster. Used for: aptamer discovery, protein-protein interactions, peptide macrocycles.",
+  "tags": ["biotechnology", "mrna-display", "selection", "library"],
+  "difficulty": "advanced"
+}

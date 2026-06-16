@@ -1,0 +1,6 @@
+{
+  "front": "Who invented solid-phase peptide synthesis (SPPS) and why is it important?",
+  "back": "Robert Merrifield developed SPPS in 1963 (Nobel Prize 1984). The peptide chain grows on an insoluble resin bead: 1) C-terminal AA attached to resin, 2) Deprotection, 3) Coupling with activated next AA, 4) Repeat. Automation enabled high-throughput synthesis, revolutionizing peptide chemistry and drug discovery.",
+  "tags": ["history", "spps", "merrifield", "synthesis"],
+  "difficulty": "intermediate"
+}

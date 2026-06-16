@@ -1,0 +1,6 @@
+{
+  "front": "What is single-cell RNA-seq and its relevance to peptide biology?",
+  "back": "scRNA-seq profiles gene expression in individual cells, revealing heterogeneity in peptide-producing cell populations. Applications: 1) Identify rare peptide-expressing cells, 2) Map peptide expression during development, 3) Characterize tumor microenvironment peptide signals, 4) Discover cell-type-specific peptide isoforms.",
+  "tags": ["genomics", "scrna-seq", "single-cell", "heterogeneity"],
+  "difficulty": "advanced"
+}

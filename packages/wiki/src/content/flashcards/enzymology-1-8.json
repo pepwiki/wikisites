@@ -1,0 +1,6 @@
+{
+  "front": "What is ubiquitin-proteasome system and peptide degradation?",
+  "back": "UPS degrades intracellular proteins: 1) E1 activates ubiquitin, 2) E2 transfers, 3) E3 ligase conjugates ubiquitin chains, 4) 26S proteasome recognizes poly-Ub, 5) 20S core degrades protein to peptides (8-25 aa). These peptides are further degraded by peptidases or presented on MHC class I.",
+  "tags": ["enzymology", "ubiquitin", "proteasome", "degradation"],
+  "difficulty": "advanced"
+}

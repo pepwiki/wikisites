@@ -1,0 +1,6 @@
+{
+  "front": "How are peptide degradation products characterized for safety?",
+  "back": "Peptide degradation pathways are mapped using: 1) Forced degradation (heat, pH, oxidation, light), 2) LC-MS/MS for metabolite identification, 3) In vitro cytotoxicity of degradation products, 4) Structural similarity analysis to known toxins, 5) Pharmacological activity of metabolites.",
+  "tags": ["toxicology", "degradation", "metabolite", "characterization"],
+  "difficulty": "advanced"
+}

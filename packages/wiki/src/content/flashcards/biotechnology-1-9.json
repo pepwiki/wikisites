@@ -1,0 +1,6 @@
+{
+  "front": "What is the GlycoFi technology for glycoengineered peptides?",
+  "back": "GlycoFi (Merck) engineers yeast (Pichia pastoris) to produce human-like glycosylation patterns. Glycoengineering involves: 1) Knocking out yeast-specific glycosyltransferases, 2) Expressing human glycosylation enzymes, 3) Producing homogeneous, human-type glycans on therapeutic peptides/glycoproteins.",
+  "tags": ["biotechnology", "glycoengineering", "glycosylation", "pichia"],
+  "difficulty": "advanced"
+}

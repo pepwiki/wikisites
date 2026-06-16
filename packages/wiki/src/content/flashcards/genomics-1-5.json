@@ -1,0 +1,6 @@
+{
+  "front": "What are microRNAs and how do they regulate peptide expression?",
+  "back": "MicroRNAs (miRNAs, ~22 nt) bind 3'UTR of mRNAs, causing translational repression or mRNA degradation. They regulate: 1) Peptide precursor expression, 2) Processing enzyme levels, 3) Receptor expression, 4) Signal transduction pathways. miRNA mimic/antagonist therapeutics are being developed.",
+  "tags": ["genomics", "microrna", "regulation", "gene-expression"],
+  "difficulty": "advanced"
+}

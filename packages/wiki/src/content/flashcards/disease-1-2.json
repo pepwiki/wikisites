@@ -1,0 +1,6 @@
+{
+  "front": "What is the role of amyloid-\u03b2 (A\u03b2) peptide in Alzheimer's disease?",
+  "back": "A\u03b2 peptides (38-43 aa) are cleaved from amyloid precursor protein (APP) by \u03b2-secretase and \u03b3-secretase. A\u03b242 is particularly prone to aggregation, forming oligomers and fibrils that cause neurotoxicity, synaptic dysfunction, and plaques in the brain.",
+  "tags": ["disease", "neurodegeneration", "alzheimers"],
+  "difficulty": "advanced"
+}

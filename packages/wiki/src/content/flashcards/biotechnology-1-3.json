@@ -1,0 +1,6 @@
+{
+  "front": "What is the difference between solid-phase and solution-phase peptide synthesis at scale?",
+  "back": "SPPS (up to ~100 aa): automated, good for research/small scale, waste from excess reagents. Solution-phase (large-scale): lower waste, higher cost upfront, better for >100 aa or GMP manufacturing. Hybrid approaches: segment condensation for large peptides. Industrial scale: solution-phase preferred.",
+  "tags": ["biotechnology", "scale-up", "spps", "manufacturing"],
+  "difficulty": "advanced"
+}

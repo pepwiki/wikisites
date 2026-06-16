@@ -1,0 +1,6 @@
+{
+  "front": "What is the mechanism of amylin aggregation in type 2 diabetes?",
+  "back": "Amylin (IAPP) co-aggregates with insulin in \u03b2-cell granules. In T2DM, amylin misfolds into toxic oligomers and amyloid fibrils, disrupting \u03b2-cell membranes, triggering ER stress, and inducing apoptosis. Human amylin is more amyloidogenic than rodent amylin.",
+  "tags": ["disease", "diabetes", "amyloid", "aggregation"],
+  "difficulty": "advanced"
+}

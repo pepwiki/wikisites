@@ -1,0 +1,6 @@
+{
+  "front": "What is DPP-IV and its role in clinical peptide pharmacology?",
+  "back": "Dipeptidyl peptidase IV (CD26) is a serine protease that cleaves Xaa-Pro/Xaa-Ala dipeptides from N-terminus. Key substrates: GLP-1, GIP, SDF-1\u03b1. Clinical relevance: DPP-IV inhibitors (gliptins) extend incretin half-life for diabetes. Also: T-cell activation marker, HIV co-receptor.",
+  "tags": ["clinical", "dpp-iv", "incretin", "diabetes"],
+  "difficulty": "advanced"
+}

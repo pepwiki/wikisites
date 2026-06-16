@@ -1,0 +1,6 @@
+{
+  "front": "What is DPP-4 and its role in incretin peptide degradation?",
+  "back": "Dipeptidyl peptidase-4 (DPP-4) cleaves GLP-1 and GIP (incretin peptides) at the N-terminus, inactivating them. DPP-4 inhibitors (sitagliptin, vildagliptin) prolong incretin action, enhancing glucose-dependent insulin secretion. Used in type 2 diabetes treatment.",
+  "tags": ["enzymology", "dpp-4", "incretin", "diabetes"],
+  "difficulty": "intermediate"
+}

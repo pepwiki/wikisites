@@ -1,0 +1,6 @@
+{
+  "front": "What is prion disease and how does it involve peptide misfolding?",
+  "back": "Prion diseases (CJD, BSE, Kuru) involve the conversion of normal cellular prion protein (PrPC) to a misfolded, infectious form (PrPSc). PrPSc induces further misfolding in a template-directed manner, causing spongiform encephalopathy.",
+  "tags": ["disease", "prion", "misfolding"],
+  "difficulty": "advanced"
+}

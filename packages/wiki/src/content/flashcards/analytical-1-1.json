@@ -1,0 +1,6 @@
+{
+  "front": "What is mass spectrometry (MS) and how is it used for peptide analysis?",
+  "back": "MS ionizes peptides and measures mass-to-charge (m/z) ratio. MALDI-TOF: intact mass measurement. ESI: coupling to LC for sequencing. MS/MS (tandem): fragmentation for de novo sequencing. Key for identifying peptide modifications, disulfide bonds, and post-translational modifications.",
+  "tags": ["analytical", "mass-spectrometry", "sequencing"],
+  "difficulty": "intermediate"
+}

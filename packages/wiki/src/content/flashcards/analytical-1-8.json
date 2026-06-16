@@ -1,0 +1,6 @@
+{
+  "front": "What is a peptide map and how is it generated?",
+  "back": "Peptide mapping is a fingerprint of a protein/peptide after enzymatic digestion (trypsin, chymotrypsin). The resulting peptide fragments are separated by LC and detected by MS. The map confirms identity, detects modifications, and verifies sequence integrity. USP <625> provides guidelines.",
+  "tags": ["analytical", "peptide-map", "fingerprinting"],
+  "difficulty": "advanced"
+}

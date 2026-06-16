@@ -1,0 +1,6 @@
+{
+  "front": "What is the role of CYP450 enzymes in peptide metabolism?",
+  "back": "Most peptides are not primarily metabolized by CYP450 (unlike small molecules). They're degraded by proteases (endopeptidases, exopeptidases) in blood, liver, and kidneys. However, some cyclic peptides with non-natural bonds can resist proteolysis and may interact with CYP450.",
+  "tags": ["toxicology", "metabolism", "cyp450", "proteases"],
+  "difficulty": "intermediate"
+}

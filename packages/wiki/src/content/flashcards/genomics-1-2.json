@@ -1,0 +1,6 @@
+{
+  "front": "What is RNA-seq and how does it relate to peptide discovery?",
+  "back": "RNA-seq profiles transcriptome by sequencing cDNA libraries. For peptide discovery: 1) Identify novel ORFs encoding small peptides, 2) Quantify peptide precursor gene expression, 3) Discover tissue-specific peptide expression, 4) Identify splice variants encoding different peptide isoforms.",
+  "tags": ["genomics", "rna-seq", "transcriptomics", "discovery"],
+  "difficulty": "advanced"
+}

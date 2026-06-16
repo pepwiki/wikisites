@@ -1,0 +1,6 @@
+{
+  "front": "What is a depot formulation and how does it release peptides?",
+  "back": "Depot formulations provide sustained peptide release over days-weeks-months. Types: 1) Microspheres (PLGA encapsulation, biodegradable), 2) Implants (non-biodegradable, removable), 3) In-situ forming depots (PLGA in NMP), 4) Lipid nanoparticles, 5) Hydrogels. Release: diffusion + erosion + degradation.",
+  "tags": ["formulation", "depot", "sustained-release", "plga"],
+  "difficulty": "advanced"
+}

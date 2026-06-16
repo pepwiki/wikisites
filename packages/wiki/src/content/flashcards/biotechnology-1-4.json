@@ -1,0 +1,6 @@
+{
+  "front": "What is directed evolution and how does it improve peptides?",
+  "back": "Directed evolution mimics natural selection in the lab: 1) Create mutant library (error-prone PCR, DNA shuffling), 2) Screen/select for desired property, 3) Amplify winners, 4) Repeat cycles. Applications: improved binding affinity, stability, expression, or novel activities. Nobel Prize 2018 (Frances Arnold).",
+  "tags": ["biotechnology", "directed-evolution", "engineering"],
+  "difficulty": "intermediate"
+}

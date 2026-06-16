@@ -1,0 +1,6 @@
+{
+  "front": "What is the role of surfactants in peptide formulations?",
+  "back": "Surfactants (polysorbate 20/80, poloxamer 188) prevent: 1) Interfacial aggregation (air-liquid, liquid-container), 2) Surface adsorption, 3) Foam formation during filling. Concentration: 0.01-0.1%. Risk: surfactant oxidation can generate peroxides that damage peptides. Monitoring: critical micelle concentration (CMC).",
+  "tags": ["formulation", "surfactant", "polysorbate", "stability"],
+  "difficulty": "intermediate"
+}

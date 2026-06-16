@@ -1,0 +1,132 @@
+[
+  {
+    "question": "What is the key design principle of a peptide vaccine?",
+    "options": [
+      "Include the entire protein antigen",
+      "Select immunodominant epitopes that bind MHC molecules and activate T/B cells",
+      "Use only carrier proteins without peptide antigens",
+      "Vaccines don't use peptides"
+    ],
+    "correctIndex": 1,
+    "explanation": "Peptide vaccines use selected immunodominant epitopes (B cell and T cell epitopes) rather than whole proteins. Epitopes are chosen based on MHC binding predictions, immunogenicity, and conservation across strains.",
+    "difficulty": "intermediate",
+    "tags": ["vaccine", "epitope", "design", "immunology"]
+  },
+  {
+    "question": "What is the role of adjuvants in peptide vaccines?",
+    "options": [
+      "Adjuvants are the active peptide antigen",
+      "Adjuvants enhance immune response by activating innate immunity and providing danger signals",
+      "Adjuvants reduce side effects of the vaccine",
+      "Adjuvants are only used in live vaccines"
+    ],
+    "correctIndex": 1,
+    "explanation": "Peptides are weakly immunogenic alone. Adjuvants (alum, MF59, AS01, CpG, STING agonists) activate dendritic cells via PRRs (TLRs, NOD-like receptors), enhancing antigen presentation and co-stimulation for robust adaptive immunity.",
+    "difficulty": "intermediate",
+    "tags": ["vaccine", "adjuvant", "innate-immunity", "toll-like-receptor"]
+  },
+  {
+    "question": "What is multivalent peptide vaccine design?",
+    "options": [
+      "Using a single peptide epitope at high dose",
+      "Incorporating multiple epitopes from different antigens or strains to broaden protection",
+      "Using only carbohydrate antigens",
+      "Injecting the vaccine through multiple routes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multivalent vaccines combine multiple peptide epitopes (conserved across strains, covering different HLA types) to: 1) Broaden coverage, 2) Reduce escape mutant selection, 3) Accommodate HLA polymorphism in diverse populations.",
+    "difficulty": "advanced",
+    "tags": ["vaccine", "multivalent", "design", "coverage"]
+  },
+  {
+    "question": "What is the concept of reverse vaccinology in peptide vaccine discovery?",
+    "options": [
+      "Testing vaccines in reverse chronological order",
+      "Using genome/proteome data to computationally predict vaccine candidates",
+      "Developing vaccines for diseases that have been eradicated",
+      "Administering the vaccine in reverse order (booster before prime)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Reverse vaccinology (Rino Rappuoli, 2000) starts with genome sequences: 1) Predict surface/secreted proteins, 2) Screen for epitopes (MHC binding, B cell), 3) Synthesize and test candidates. Successful for MenB vaccine (Bexsero).",
+    "difficulty": "advanced",
+    "tags": ["vaccine", "reverse-vaccinology", "genomics", "computational"]
+  },
+  {
+    "question": "What is the difference between prophylactic and therapeutic peptide vaccines?",
+    "options": [
+      "Prophylactic: prevent disease; Therapeutic: treat existing disease",
+      "Prophylactic: for children; Therapeutic: for adults",
+      "Prophylactic: injectable; Therapeutic: oral",
+      "Prophylactic: viral diseases; Therapeutic: bacterial diseases"
+    ],
+    "correctIndex": 0,
+    "explanation": "Prophylactic vaccines (e.g., HPV, HepB) prevent infection by generating memory immunity before exposure. Therapeutic vaccines (e.g., cancer, HIV) treat existing disease by stimulating immune responses against established targets.",
+    "difficulty": "beginner",
+    "tags": ["vaccine", "prophylactic", "therapeutic", "classification"]
+  },
+  {
+    "question": "What is the challenge of HLA restriction in peptide vaccine design?",
+    "options": [
+      "HLA molecules are too stable for vaccine delivery",
+      "Different HLA alleles bind different peptide sequences, limiting population coverage",
+      "HLA molecules degrade vaccine peptides too quickly",
+      "HLA restriction only applies to MHC class I, not class II"
+    ],
+    "correctIndex": 1,
+    "explanation": "HLA polymorphism means different individuals present different peptides. A peptide vaccine designed for HLA-A*0201 may not work in HLA-A*0101 individuals. Solutions: polytope vaccines, multiple epitopes, supertype binding peptides, or nanoparticle display.",
+    "difficulty": "advanced",
+    "tags": ["vaccine", "hla", "polymorphism", "population-coverage"]
+  },
+  {
+    "question": "What is the role of carrier proteins in peptide vaccines?",
+    "options": [
+      "Carrier proteins are the main antigen",
+      "Carrier proteins (KLH, CRM197, tetanus toxoid) conjugate to peptides to enhance immunogenicity by providing T cell help",
+      "Carrier proteins reduce the immune response",
+      "Carrier proteins are only used in DNA vaccines"
+    ],
+    "correctIndex": 1,
+    "explanation": "Short peptides may not activate CD4+ T cells (needed for B cell help and memory). Conjugating peptides to carrier proteins provides T cell epitopes that recruit T cell help, enhancing antibody responses and immunological memory.",
+    "difficulty": "intermediate",
+    "tags": ["vaccine", "carrier-protein", "conjugate", "t-cell-help"]
+  },
+  {
+    "question": "What is epitope prediction and which tools are used?",
+    "options": [
+      "Experimental testing of all possible peptides",
+      "Computational algorithms (NetMHC, IEDB, SYFPEITHI) to predict MHC binding and immunogenicity",
+      "Visual inspection of protein structures",
+      "Random peptide synthesis and screening"
+    ],
+    "correctIndex": 1,
+    "explanation": "Epitope prediction tools use machine learning trained on binding data: NetMHCpan (MHC binding), IEDB (multiple prediction methods), SYFPEITHI (scoring). Accuracy: 70-90% for MHC binding, lower for immunogenicity.",
+    "difficulty": "intermediate",
+    "tags": ["vaccine", "epitope-prediction", "bioinformatics", "mhc-binding"]
+  },
+  {
+    "question": "What is the concept of universal influenza vaccine design using peptide epitopes?",
+    "options": [
+      "Targeting the highly variable hemagglutinin head domain",
+      "Targeting conserved epitopes (HA stem, M2e, NP) to provide broad cross-strain protection",
+      "Using live attenuated virus for each new strain",
+      "Vaccinating only against H1N1"
+    ],
+    "correctIndex": 1,
+    "explanation": "Universal influenza vaccines target conserved epitopes: HA stem (conserved across subtypes), M2e (extracellular domain), NP (internal protein). These peptides induce broadly neutralizing antibodies and cross-reactive T cells.",
+    "difficulty": "advanced",
+    "tags": ["vaccine", "influenza", "universal", "conserved-epitope"]
+  },
+  {
+    "question": "What is the significance of glycosylation in vaccine peptide design?",
+    "options": [
+      "Glycosylation has no effect on vaccines",
+      "Glycans can shield epitopes from immune recognition or serve as carbohydrate antigens",
+      "Glycosylation always enhances immunogenicity",
+      "Glycosylation only affects peptide stability"
+    ],
+    "correctIndex": 1,
+    "explanation": "Glycosylation can: 1) Shield protein epitopes (HIV gp120 glycan shield), 2) Serve as antigens (carbohydrate vaccines), 3) Affect MHC presentation, 4) Influence B cell receptor recognition. Glycoengineered vaccines aim to expose hidden epitopes.",
+    "difficulty": "advanced",
+    "tags": ["vaccine", "glycosylation", "glycan-shield", "design"]
+  }
+]

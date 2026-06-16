@@ -1,0 +1,6 @@
+{
+  "front": "What is transpeptidation and how does it create novel peptide bonds?",
+  "back": "Transpeptidation uses engineered enzymes (sortase A, subtiligase) to join peptide segments. Sortase A recognizes LPXTG motif, cleaves between T-G, and transfers to an oligoglycine nucleophile. Used for: PEGylation, antibody-drug conjugates, cyclic peptides, and protein ligation.",
+  "tags": ["biotechnology", "transpeptidation", "sortase", "ligation"],
+  "difficulty": "advanced"
+}

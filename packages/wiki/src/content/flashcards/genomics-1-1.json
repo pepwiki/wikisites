@@ -1,0 +1,6 @@
+{
+  "front": "What is CRISPR-Cas9 and how is it used in peptide research?",
+  "back": "CRISPR-Cas9 is a gene editing system that creates targeted double-strand breaks using a guide RNA (gRNA) and Cas9 nuclease. For peptide research: 1) Knockout genes to study peptide function, 2) Engineer cell lines for peptide production, 3) Create disease models, 4) Study post-translational modification pathways.",
+  "tags": ["genomics", "crispr", "gene-editing"],
+  "difficulty": "intermediate"
+}

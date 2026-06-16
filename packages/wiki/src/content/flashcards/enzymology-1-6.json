@@ -1,0 +1,6 @@
+{
+  "front": "What is the catalytic triad and how does it work in serine proteases?",
+  "back": "The catalytic triad (Ser-His-Asp) is a charge-relay system: 1) His abstracts proton from Ser (nucleophile activated), 2) Ser attacks peptide carbonyl (tetrahedral intermediate), 3) Asp stabilizes His+, 4) Amine leaving group departs (acyl-enzyme), 5) Water hydrolyzes acyl-enzyme (product release).",
+  "tags": ["enzymology", "catalytic-triad", "serine-protease", "mechanism"],
+  "difficulty": "advanced"
+}

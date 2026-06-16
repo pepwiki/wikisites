@@ -1,0 +1,6 @@
+{
+  "front": "What is a proteogenomics approach?",
+  "back": "Proteogenomics combines genomics, transcriptomics, and proteomics to discover novel peptides: 1) Genome translation creates theoretical peptide database, 2) Mass spectrometry data is searched against this database, 3) Novel peptides/PSMs are validated, 4) Integration reveals regulatory mechanisms between genome and proteome.",
+  "tags": ["genomics", "proteogenomics", "omics", "integration"],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,6 @@
+{
+  "front": "What is MALDI-TOF MS and when is it used?",
+  "back": "Matrix-Assisted Laser Desorption/Ionization Time-of-Flight MS uses a laser to desorb/ionize peptides co-crystallized with a matrix (CHCA, DHB). Produces predominantly singly charged ions. Used for: intact mass confirmation, peptide fingerprinting, quality control, and high-throughput screening.",
+  "tags": ["analytical", "maldi-tof", "mass-spectrometry"],
+  "difficulty": "intermediate"
+}

@@ -1,0 +1,6 @@
+{
+  "front": "How do venom peptides cause neurotoxicity?",
+  "back": "Venom peptides target ion channels: \u03b1-neurotoxins bind nAChR (postsynaptic blockade), \u03b2-neurotoxins inhibit ACh release (presynaptic), \u03b4-toxins delay Na+ channel inactivation (depolarization), \u03ba-toxins block K+ channels (prolonged action potentials).",
+  "tags": ["toxicology", "venom", "neurotoxin", "ion-channels"],
+  "difficulty": "advanced"
+}

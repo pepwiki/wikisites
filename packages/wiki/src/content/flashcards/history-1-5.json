@@ -1,0 +1,6 @@
+{
+  "front": "What was the impact of Fmoc chemistry on peptide synthesis?",
+  "back": "Fmoc (9-fluorenylmethyloxycarbonyl) SPPS (1970s, Carpino) uses base-labile Fmoc for N\u03b1-protection and acid-labile side chain protection. Advantages over Boc: 1) Milder conditions (piperidine/TFA), 2) No HF needed, 3) Orthogonal protection, 4) Automated synthesis compatible. Now dominant SPPS method.",
+  "tags": ["history", "fmoc", "spps", "chemistry"],
+  "difficulty": "intermediate"
+}

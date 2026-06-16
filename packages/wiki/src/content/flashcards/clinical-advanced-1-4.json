@@ -1,0 +1,6 @@
+{
+  "front": "What are the clinical considerations for peptide drug immunogenicity?",
+  "back": "Immunogenicity assessment: 1) Anti-drug antibody (ADA) screening (bridging ELISA), 2) Neutralizing antibody (NAb) assays, 3) T-cell epitope prediction (in silico), 4) Risk factors: non-human sequences, aggregation, route. Impact: reduced efficacy, injection site reactions, anaphylaxis. Mitigation: humanization, formulation.",
+  "tags": ["clinical", "immunogenicity", "ada", "safety"],
+  "difficulty": "advanced"
+}

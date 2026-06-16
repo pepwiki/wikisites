@@ -1,0 +1,6 @@
+{
+  "front": "What is the therapeutic index of a peptide drug?",
+  "back": "Therapeutic index (TI) = TD50/ED50 (toxic dose / effective dose). A higher TI indicates a safer drug. Many peptide drugs have narrow TIs due to their potency. For example, insulin TI is relatively low, requiring careful dose titration.",
+  "tags": ["toxicology", "safety", "therapeutic-index"],
+  "difficulty": "intermediate"
+}

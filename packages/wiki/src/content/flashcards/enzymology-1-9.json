@@ -1,0 +1,6 @@
+{
+  "front": "What is angiotensin-converting enzyme (ACE) and its inhibitors?",
+  "back": "ACE is a zinc metalloprotease that cleaves Ang I \u2192 Ang II (vasoconstrictor). Also degrades bradykinin. ACE inhibitors (captopril, enalapril, lisinopril) block active site zinc. Drug design: transition state mimics, zinc-binding groups (thiol, carboxylate, phosphonate). Major hypertension drugs.",
+  "tags": ["enzymology", "ace", "inhibitor", "cardiovascular"],
+  "difficulty": "intermediate"
+}

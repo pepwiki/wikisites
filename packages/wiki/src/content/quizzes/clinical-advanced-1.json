@@ -1,13 +1,132 @@
-{
-  "question": "What is the primary advantage of an adaptive clinical trial design over a traditional parallel-group design?",
-  "options": [
-    "It requires fewer statistical analyses",
-    "It allows real-time modification of trial parameters such as dosing, patient allocation, or stopping rules based on interim data",
-    "It guarantees a positive outcome for the investigational drug",
-    "It eliminates the need for informed consent"
-  ],
-  "correctIndex": 1,
-  "explanation": "Adaptive designs use pre-planned interim analyses to modify trial parameters (sample size re-estimation, dose selection, futility stopping) while controlling Type I error. This improves efficiency, reduces patient exposure to ineffective treatments, and accelerates drug development.",
-  "difficulty": "advanced",
-  "tags": ["clinical", "adaptive-trials", "trial-design"]
-}
+[
+  {
+    "question": "What is the primary endpoint typically used in Phase II peptide drug trials for metabolic diseases?",
+    "options": [
+      "Mortality rate",
+      "Change in HbA1c or body weight from baseline",
+      "Quality of life score",
+      "Imaging biomarker"
+    ],
+    "correctIndex": 1,
+    "explanation": "For metabolic diseases (diabetes, obesity), Phase II trials typically use change in HbA1c (glycemic control) or body weight as primary endpoints, with secondary endpoints for safety and PK/PD.",
+    "difficulty": "intermediate",
+    "tags": ["clinical", "trial-design", "phase-2", "metabolic"]
+  },
+  {
+    "question": "What is the purpose of a run-in period in clinical trials?",
+    "options": [
+      "To increase enrollment numbers",
+      "To establish baseline, washout previous medications, and identify compliant patients",
+      "To reduce the dose of the study drug",
+      "To allow the drug to reach steady state before enrollment"
+    ],
+    "correctIndex": 1,
+    "explanation": "Run-in periods (1-4 weeks) establish baseline measurements, wash out concomitant medications, assess compliance, and identify patients who meet eligibility criteria before randomization.",
+    "difficulty": "intermediate",
+    "tags": ["clinical", "trial-design", "run-in", "methodology"]
+  },
+  {
+    "question": "What is the difference between superiority and non-inferiority trial designs?",
+    "options": [
+      "Superiority: new treatment is better; Non-inferiority: new treatment is not worse than standard",
+      "Superiority: larger sample size; Non-inferiority: smaller sample size",
+      "Superiority: Phase III; Non-inferiority: Phase IV",
+      "Superiority: randomized; Non-inferiority: observational"
+    ],
+    "correctIndex": 0,
+    "explanation": "Superiority trials test if new treatment is better than control (p<0.05). Non-inferiority trials test if new treatment is not worse than active control by a pre-specified margin (Δ), useful when new treatment has other advantages (convenience, safety).",
+    "difficulty": "intermediate",
+    "tags": ["clinical", "trial-design", "superiority", "non-inferiority"]
+  },
+  {
+    "question": "How is sample size calculated for a peptide drug efficacy trial?",
+    "options": [
+      "Based on the number of available patients",
+      "Based on expected effect size, variability, power (80-90%), and significance level (α=0.05)",
+      "Based on the cost of the peptide drug",
+      "Standard size of 100 patients per group"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sample size = f(effect size, standard deviation, power [1-β], significance level [α]). For peptide trials: typical power 80-90%, α=0.05. Small effect sizes (e.g., 0.5% HbA1c difference) require larger samples.",
+    "difficulty": "intermediate",
+    "tags": ["clinical", "sample-size", "statistics", "methodology"]
+  },
+  {
+    "question": "What is the Dose-Limiting Toxicity (DLT) concept in Phase I peptide trials?",
+    "options": [
+      "Any adverse event that occurs during the trial",
+      "The maximum tolerated dose (MTD) is defined by DLTs observed in ≥2 of 6 patients",
+      "DLT is only used for chemotherapy drugs",
+      "DLT is determined by the sponsor, not the investigator"
+    ],
+    "correctIndex": 1,
+    "explanation": "DLT is a predefined toxicity (Grade 3+ non-hematologic, Grade 4 hematologic, Grade 3+ with slow resolution) that defines the MTD. Modified Fibonacci or BOIN designs determine dose escalation based on DLT incidence.",
+    "difficulty": "advanced",
+    "tags": ["clinical", "dlt", "phase-1", "dose-escalation"]
+  },
+  {
+    "question": "What is the role of an Independent Data Monitoring Committee (IDMC) in peptide drug trials?",
+    "options": [
+      "To market the drug after approval",
+      "To monitor safety data, recommend trial continuation/modification, and ensure participant safety",
+      "To write the clinical study report",
+      "To recruit patients for the trial"
+    ],
+    "correctIndex": 1,
+    "explanation": "IDMC (or DSMB) is an independent group that reviews unblinded safety/efficacy data at predefined intervals. They can recommend: continue as planned, modify protocol, stop for futility, or stop for safety/benefit.",
+    "difficulty": "intermediate",
+    "tags": ["clinical", "idmc", "dsmb", "safety-monitoring"]
+  },
+  {
+    "question": "What is an adaptive trial design and how does it benefit peptide drug development?",
+    "options": [
+      "Adaptive designs allow pre-planned modifications based on interim data (sample size re-estimation, dose selection, endpoint adaptation)",
+      "Adaptive designs eliminate the need for randomization",
+      "Adaptive designs only apply to Phase IV trials",
+      "Adaptive designs reduce the number of patients needed to zero"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adaptive designs allow modifications (dose, sample size, endpoints) based on accumulating data while maintaining trial integrity. Benefits: faster development, fewer patients, better dose selection, reduced failure risk.",
+    "difficulty": "advanced",
+    "tags": ["clinical", "adaptive", "trial-design", "innovation"]
+  },
+  {
+    "question": "What is the significance of the 95% confidence interval in clinical trial results?",
+    "options": [
+      "It means 95% of patients will respond to treatment",
+      "It gives the range within which the true effect lies with 95% probability",
+      "It indicates the trial had 95% power",
+      "It means 95% of the data points are within one standard deviation"
+    ],
+    "correctIndex": 1,
+    "explanation": "95% CI means if the trial were repeated many times, 95% of calculated intervals would contain the true population effect. For efficacy: CI excluding 1 (RR) or 0 (OR/mean difference) indicates statistical significance.",
+    "difficulty": "intermediate",
+    "tags": ["clinical", "confidence-interval", "statistics", "efficacy"]
+  },
+  {
+    "question": "What is a crossover trial design and when is it appropriate for peptide drugs?",
+    "options": [
+      "All patients receive all treatments sequentially with washout periods",
+      "Patients are randomized to two parallel groups",
+      "Only Phase IV trials use crossover design",
+      "Crossover is only for oral drugs"
+    ],
+    "correctIndex": 0,
+    "explanation": "Crossover: each patient serves as their own control (Treatment A → washout → Treatment B). Advantages: fewer patients, reduced variability. Appropriate when: disease is stable, treatment effects are reversible, no carryover effects.",
+    "difficulty": "intermediate",
+    "tags": ["clinical", "crossover", "trial-design", "methodology"]
+  },
+  {
+    "question": "What is the concept of intention-to-treat (ITT) analysis?",
+    "options": [
+      "Only patients who completed the full treatment course are analyzed",
+      "All randomized patients are analyzed in the groups they were assigned to, regardless of compliance",
+      "Only patients who responded to treatment are included",
+      "Analysis is performed only by the treating physician"
+    ],
+    "correctIndex": 1,
+    "explanation": "ITT analysis includes all randomized patients as originally assigned, regardless of protocol deviations, withdrawals, or non-compliance. It preserves randomization benefits and provides the most conservative (realistic) estimate of treatment effect.",
+    "difficulty": "intermediate",
+    "tags": ["clinical", "itt", "analysis", "methodology"]
+  }
+]

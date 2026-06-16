@@ -1,0 +1,6 @@
+{
+  "front": "What is the role of real-world evidence (RWE) in peptide drug development?",
+  "back": "RWE from electronic health records, registries, and claims data supplements clinical trials. For peptides: 1) Long-term safety (immunogenicity, rare events), 2) Comparative effectiveness (head-to-head vs. standard care), 3) Dosing optimization in special populations, 4) Post-marketing surveillance, 5) Rare disease evidence generation.",
+  "tags": ["clinical", "rwe", "real-world", "post-marketing"],
+  "difficulty": "advanced"
+}

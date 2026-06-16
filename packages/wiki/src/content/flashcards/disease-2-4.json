@@ -1,0 +1,6 @@
+{
+  "front": "What is the pathophysiology of rheumatoid arthritis at the peptide level?",
+  "back": "In RA, citrullinated peptides (modified arginine residues by PAD enzymes) are recognized as neoantigens. Anti-citrullinated protein antibodies (ACPA) form immune complexes, activating complement and recruiting inflammatory cells to joints, causing synovitis and erosion.",
+  "tags": ["disease", "autoimmune", "rheumatoid", "citrullination"],
+  "difficulty": "advanced"
+}

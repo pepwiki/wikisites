@@ -1,0 +1,6 @@
+{
+  "front": "What are inclusion bodies and how are they handled?",
+  "back": "Inclusion bodies (IBs) are dense, insoluble aggregates of misfolded recombinant protein in E. coli. They form when expression rate exceeds folding capacity. Recovery: 1) Cell lysis, 2) IB washing (remove membrane proteins), 3) Solubilization (8M urea/GdnHCl), 4) Refolding (dialysis/dilution), 5) Purification.",
+  "tags": ["biotechnology", "inclusion-bodies", "e-coli", "refolding"],
+  "difficulty": "advanced"
+}

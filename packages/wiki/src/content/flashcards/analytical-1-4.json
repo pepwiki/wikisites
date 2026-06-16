@@ -1,0 +1,6 @@
+{
+  "front": "What is Edman degradation and what are its limitations?",
+  "back": "Edman degradation sequentially removes N-terminal amino acids using phenylisothiocyanate (PITC). Each cycle yields a PTH-amino acid identified by HPLC. Limitations: 1) Fails at modified residues, 2) Poor with N-terminal pyroglutamate, 3) Limited to ~50 cycles, 4) Requires free N-terminus.",
+  "tags": ["analytical", "edman", "sequencing", "limitations"],
+  "difficulty": "intermediate"
+}

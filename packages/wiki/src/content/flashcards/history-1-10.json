@@ -1,0 +1,6 @@
+{
+  "front": "What is the significance of Veni Vidi Vici for peptide science?",
+  "back": "Veni Vidi Vici (3 peptides, 3 letters) represents the simplicity and power of peptide nomenclature. The three-letter amino acid code (IUPAC-IUBMB, 1983) standardized peptide sequences globally. Single-letter code (1960s) enabled computational analysis. Both are foundational to bioinformatics and peptide databases (UniProt, PDB).",
+  "tags": ["history", "nomenclature", "bioinformatics", "database"],
+  "difficulty": "beginner"
+}

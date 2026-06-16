@@ -1,0 +1,6 @@
+{
+  "front": "What is therapeutic drug monitoring (TDM) for peptide drugs?",
+  "back": "TDM measures drug levels to optimize dosing. For peptides: 1) Complex PK (non-linear for some), 2) Immunogenicity affects levels, 3) Limited validated assays. Examples: insulin (glucose monitoring), cyclosporine (LC-MS/MS), tacrolimus. Challenges: ADA interference, short half-lives, metabolite activity.",
+  "tags": ["clinical", "tdm", "pharmacokinetics", "monitoring"],
+  "difficulty": "advanced"
+}

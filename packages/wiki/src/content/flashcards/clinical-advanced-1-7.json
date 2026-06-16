@@ -1,0 +1,6 @@
+{
+  "front": "What are the phases of clinical trials for peptide drugs?",
+  "back": "Phase I: Safety, PK, MTD in healthy volunteers (20-80). Phase II: Efficacy, dose-finding in patients (100-300). Phase III: Confirmatory, large-scale efficacy/safety (1,000-5,000). Phase IV: Post-marketing surveillance. Special considerations for peptides: 1) First-in-human starting dose calculation (NOAEL), 2) Immunogenicity monitoring.",
+  "tags": ["clinical", "trial-phases", "drug-development"],
+  "difficulty": "intermediate"
+}

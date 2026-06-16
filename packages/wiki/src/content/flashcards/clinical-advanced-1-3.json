@@ -1,0 +1,6 @@
+{
+  "front": "What is a peptide drug's pharmacokinetic profile?",
+  "back": "Typical peptide PK: 1) Rapid absorption (SC/IM), 2) Distribution: limited by size/lipophilicity, 3) Metabolism: proteolytic degradation (not CYP450), 4) Excretion: renal (glomerular filtration + tubular degradation), 5) Half-life: minutes to hours (unmodified), days (PEGylated/lipidated).",
+  "tags": ["clinical", "pharmacokinetics", "absorption", "metabolism"],
+  "difficulty": "intermediate"
+}

@@ -1,0 +1,6 @@
+{
+  "front": "What is recombinant peptide expression and what systems are used?",
+  "back": "Recombinant expression produces peptides using biological systems: 1) E. coli (most common, cheap, but no PTMs), 2) Yeast (Pichia pastoris: secretion, some PTMs), 3) Mammalian cells (HEK293, CHO: full PTMs), 4) Insect cells (baculovirus: high yield), 5) Cell-free systems (rapid, toxic peptides).",
+  "tags": ["biotechnology", "expression", "recombinant"],
+  "difficulty": "intermediate"
+}

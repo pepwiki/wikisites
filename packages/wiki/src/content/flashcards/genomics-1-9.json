@@ -1,0 +1,6 @@
+{
+  "front": "What is metagenomics and antimicrobial peptide discovery?",
+  "back": "Metagenomics sequences DNA from environmental samples without culturing. For AMPs: 1) Mining uncultured microbial genomes for novel AMP genes, 2) Studying microbiome defensive peptide repertoires, 3) Discovering AMPs from extreme environments (deep sea, hot springs), 4) Functional metagenomics screening.",
+  "tags": ["genomics", "metagenomics", "amp", "microbiome"],
+  "difficulty": "advanced"
+}

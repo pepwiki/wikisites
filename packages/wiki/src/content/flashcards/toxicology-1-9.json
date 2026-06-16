@@ -1,0 +1,6 @@
+{
+  "front": "What are the common off-target effects of peptide drugs?",
+  "back": "1) Cross-reactivity with related receptor subtypes, 2) Metabolite toxicity (degradation products), 3) Hypersensitivity reactions, 4) Injection site reactions (local irritation), 5) Immunogenicity (ADA formation), 6) Off-target enzyme inhibition.",
+  "tags": ["toxicology", "off-target", "adverse-effects"],
+  "difficulty": "intermediate"
+}

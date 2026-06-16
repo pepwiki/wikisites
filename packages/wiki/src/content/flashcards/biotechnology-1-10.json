@@ -1,0 +1,6 @@
+{
+  "front": "What is fermentation scale-up and what are the challenges?",
+  "back": "Fermentation scale-up (shake flask \u2192 bioreactor \u2192 industrial) faces: 1) Oxygen transfer limitation, 2) Heat removal, 3) Mixing heterogeneity, 4) pH control, 5) Foam management, 6) Genetic instability at high cell density, 7) Downstream processing bottlenecks. Fed-batch is most common for peptides.",
+  "tags": ["biotechnology", "fermentation", "scale-up", "manufacturing"],
+  "difficulty": "advanced"
+}

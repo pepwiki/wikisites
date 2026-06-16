@@ -1,0 +1,6 @@
+{
+  "front": "What is the maximum tolerated dose (MTD) and how is it determined?",
+  "back": "MTD is the highest dose that produces acceptable toxicity in Phase I clinical trials. Determined using accelerated titration or modified Fibonacci designs. For peptides: start at 1/10th of human equivalent dose from animal NOAEL, escalate until dose-limiting toxicity (DLT) occurs.",
+  "tags": ["toxicology", "clinical", "mtd", "phase-1"],
+  "difficulty": "advanced"
+}

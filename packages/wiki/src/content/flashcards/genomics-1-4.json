@@ -1,0 +1,6 @@
+{
+  "front": "How does next-generation sequencing (NGS) impact peptide therapeutics?",
+  "back": "NGS enables: 1) High-throughput screening of peptide libraries, 2) Immune repertoire analysis for immunogenicity prediction, 3) Tumor mutation profiling for neoantigen peptide vaccines, 4) Microbiome analysis for antimicrobial peptide discovery, 5) Pharmacogenomics for personalized peptide therapy.",
+  "tags": ["genomics", "ngs", "therapeutics", "personalized-medicine"],
+  "difficulty": "advanced"
+}

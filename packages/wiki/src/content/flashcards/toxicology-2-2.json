@@ -1,0 +1,6 @@
+{
+  "front": "What is the role of metabolomics in peptide toxicology?",
+  "back": "Metabolomics profiles small-molecule metabolites to detect toxicity biomarkers. For peptides, it identifies: 1) Degradation products, 2) Off-target metabolic effects, 3) Organ-specific toxicity signatures (hepatotoxicity, nephrotoxicity), 4) Species-specific metabolic differences.",
+  "tags": ["toxicology", "metabolomics", "biomarker"],
+  "difficulty": "advanced"
+}

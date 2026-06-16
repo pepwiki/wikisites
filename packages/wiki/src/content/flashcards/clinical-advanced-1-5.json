@@ -1,0 +1,6 @@
+{
+  "front": "What is the dose-response relationship for peptide drugs?",
+  "back": "Dose-response for peptides: 1) Linear PK peptides (small, unmodified): dose-proportional. 2) Non-linear PK (binding proteins, receptor-mediated clearance): saturable. 3) U-shaped curves possible (hormesis). Therapeutic window: defined by efficacy (EC50) vs toxicity (TD50). Dose titration common (insulin, GLP-1 agonists).",
+  "tags": ["clinical", "dose-response", "pharmacology", "therapeutic-window"],
+  "difficulty": "intermediate"
+}

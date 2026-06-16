@@ -1,0 +1,6 @@
+{
+  "front": "What are matrix metalloproteinases (MMPs) and their role in disease?",
+  "back": "MMPs are zinc-dependent endopeptidases that degrade extracellular matrix. 23 human MMPs: collagenases (MMP-1,13), gelatinases (MMP-2,9), stromelysins (MMP-3,10). Roles: wound healing, cancer metastasis, arthritis, cardiovascular remodeling. Inhibitors (MMPIs) failed in trials due to side effects.",
+  "tags": ["enzymology", "mmp", "matrix", "disease"],
+  "difficulty": "advanced"
+}

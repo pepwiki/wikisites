@@ -1,0 +1,6 @@
+{
+  "front": "What is ESI-MS/MS and how does it sequence peptides?",
+  "back": "Electrospray ionization (ESI) produces multiply charged ions from solution. Collision-induced dissociation (CID) fragments peptides along the backbone, generating b/y or c/z ion series. De novo sequencing reads the mass differences between consecutive ions to determine the amino acid sequence.",
+  "tags": ["analytical", "esi", "msms", "sequencing"],
+  "difficulty": "advanced"
+}

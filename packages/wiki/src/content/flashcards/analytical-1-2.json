@@ -1,0 +1,6 @@
+{
+  "front": "What is HPLC and how does it separate peptides?",
+  "back": "High-Performance Liquid Chromatography separates peptides based on hydrophobicity (reverse-phase), charge (ion-exchange), or size (SEC). RP-HPLC (C18 column) is most common. Elution uses acetonitrile/water gradient with TFA. Detection: UV at 214/220 nm (peptide bond absorption).",
+  "tags": ["analytical", "hplc", "separation"],
+  "difficulty": "intermediate"
+}

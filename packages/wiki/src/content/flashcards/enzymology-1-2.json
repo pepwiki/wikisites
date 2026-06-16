@@ -1,0 +1,6 @@
+{
+  "front": "What are the classes of proteases that degrade peptides?",
+  "back": "Four classes by catalytic mechanism: 1) Serine proteases (trypsin, chymotrypsin - serine nucleophile), 2) Metalloproteases (MMPs, ACE - metal ion catalysis), 3) Aspartyl proteases (pepsin, HIV protease - aspartate catalysis), 4) Cysteine proteases (caspases, papain - cysteine nucleophile).",
+  "tags": ["enzymology", "protease", "classification", "catalysis"],
+  "difficulty": "intermediate"
+}

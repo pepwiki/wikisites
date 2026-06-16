@@ -1,0 +1,6 @@
+{
+  "front": "How is peptide stability in serum measured?",
+  "back": "Serum stability assays incubate peptide in human/plasma at 37\u00b0C and measure degradation over time. Methods: HPLC (intact peptide), LC-MS/MS (metabolite identification). Key metric: t\u00bd (half-life). Unmodified peptides often have t\u00bd of minutes due to protease degradation.",
+  "tags": ["toxicology", "stability", "pharmacokinetics", "methodology"],
+  "difficulty": "intermediate"
+}

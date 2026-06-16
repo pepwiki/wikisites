@@ -1,0 +1,6 @@
+{
+  "front": "What is the difference between a drug product and a drug substance?",
+  "back": "Drug substance (API): the active peptide molecule itself (e.g., synthetic or recombinant peptide). Drug product: the final dosage form containing API + excipients (e.g., insulin vial, semaglutide pen). Manufacturing steps: drug substance \u2192 formulation \u2192 fill-finish \u2192 packaging \u2192 distribution.",
+  "tags": ["formulation", "drug-product", "drug-substance", "manufacturing"],
+  "difficulty": "beginner"
+}

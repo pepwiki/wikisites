@@ -1,0 +1,6 @@
+{
+  "front": "What is whole-genome sequencing (WGS) in the context of peptide discovery?",
+  "back": "WGS determines complete DNA sequence of an organism. For peptides: 1) Identify all predicted ORFs encoding peptides, 2) Discover novel antimicrobial peptide genes, 3) Map venom peptide gene families, 4) Study peptide gene evolution and diversification, 5) Identify genetic variants affecting peptide function.",
+  "tags": ["genomics", "wgs", "genome", "discovery"],
+  "difficulty": "intermediate"
+}

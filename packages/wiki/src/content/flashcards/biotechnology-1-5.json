@@ -1,0 +1,6 @@
+{
+  "front": "What is phage display and how is it used for peptide discovery?",
+  "back": "Phage display links peptide phenotype to genotype by expressing peptides on bacteriophage coat proteins. Libraries of 10^9-10^10 variants are screened against targets (biopanning). Bound phages are eluted and amplified. Used for: antibody discovery, peptide ligand identification, and affinity maturation.",
+  "tags": ["biotechnology", "phage-display", "screening", "library"],
+  "difficulty": "advanced"
+}

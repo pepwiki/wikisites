@@ -1,0 +1,6 @@
+{
+  "front": "What is the role of clinical pharmacogenomics in peptide therapy?",
+  "back": "Pharmacogenomics affects peptide response: 1) HLA typing (immunogenicity risk), 2) Receptor polymorphisms (drug sensitivity), 3) Metabolic enzyme variants (protease expression), 4) Disease subtypes (biomarker-guided therapy). Examples: HLA-B*5701 and abacavir (not peptide, but illustrates principle), OPRM1 variants and opioid response.",
+  "tags": ["clinical", "pharmacogenomics", "personalized-medicine"],
+  "difficulty": "advanced"
+}

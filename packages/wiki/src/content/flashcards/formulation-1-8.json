@@ -1,0 +1,6 @@
+{
+  "front": "What are the ICH guidelines for peptide drug product stability?",
+  "back": "ICH Q1A(R2): Stability testing. Requirements: 1) Long-term (25\u00b0C/60% RH, 12-36 months), 2) Accelerated (40\u00b0C/75% RH, 6 months), 3) Stress conditions. For peptides: 4) Photostability (ICH Q1B), 5) In-use stability, 6) Freeze-thaw cycling. Critical: aggregation, deamidation, oxidation monitoring.",
+  "tags": ["formulation", "stability", "ich", "shelf-life"],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,6 @@
+{
+  "front": "What is a transition state analog and how is it used in drug design?",
+  "back": "Transition state analogs mimic the high-energy transition state of enzymatic reactions. They bind enzymes 10^3-10^6 times tighter than substrates. Examples: HIV protease inhibitors (darunavir), renin inhibitors (aliskiren). Design: structural analysis of TS geometry \u2192 synthesis of stable analogs.",
+  "tags": ["enzymology", "drug-design", "transition-state", "inhibitor"],
+  "difficulty": "advanced"
+}

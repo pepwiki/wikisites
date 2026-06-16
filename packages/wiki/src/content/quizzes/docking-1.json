@@ -1,0 +1,132 @@
+[
+  {
+    "question": "What is molecular docking and how is it used in peptide drug design?",
+    "options": [
+      "Experimentally mixing peptides in solution",
+      "Computational prediction of peptide-protein binding pose and affinity using scoring functions",
+      "Injecting peptides directly into cells",
+      "Measuring peptide solubility"
+    ],
+    "correctIndex": 1,
+    "explanation": "Molecular docking predicts how a peptide binds to a target protein: 1) Generate peptide conformations, 2) Search binding poses on protein surface, 3) Score poses using energy functions (van der Waals, electrostatics, desolvation), 4) Rank and select best candidates.",
+    "difficulty": "intermediate",
+    "tags": ["docking", "computational", "drug-design", "binding"]
+  },
+  {
+    "question": "What is the challenge of peptide docking compared to small molecule docking?",
+    "options": [
+      "Peptides are easier to dock because they're more flexible",
+      "Peptides have high conformational flexibility, making pose prediction computationally expensive",
+      "Peptides don't bind to proteins",
+      "Peptide docking uses the same software as small molecules"
+    ],
+    "correctIndex": 1,
+    "explanation": "Peptides (10-50 aa) have many rotatable bonds, creating vast conformational space. Small molecule docking (6-12 rotatable bonds) is tractable; peptide docking requires: 1) Fragment-based methods, 2) Enhanced sampling (MD, Monte Carlo), 3) Peptide-specific scoring functions.",
+    "difficulty": "advanced",
+    "tags": ["docking", "flexibility", "conformational-space", "challenge"]
+  },
+  {
+    "question": "What is the Rosetta FlexPepDock protocol?",
+    "options": [
+      "A wet-lab technique for peptide synthesis",
+      "A computational method for high-resolution peptide-protein docking with backbone flexibility",
+      "A database of known peptide-protein structures",
+      "A clinical trial design for peptide drugs"
+    ],
+    "correctIndex": 1,
+    "explanation": "FlexPepDock (Rosetta suite) refines peptide-protein complexes with backbone flexibility: 1) Initial docking, 2) Peptide backbone sampling, 3) Interface optimization, 4) Scoring. Accuracy: ~2 Å RMSD for bound peptides, lower for unbound.",
+    "difficulty": "advanced",
+    "tags": ["docking", "rosetta", "flexpepdock", "protocol"]
+  },
+  {
+    "question": "What is the role of scoring functions in peptide docking?",
+    "options": [
+      "Scoring functions are unnecessary for docking",
+      "They estimate binding free energy from atomic interactions (vdW, electrostatics, solvation, entropy)",
+      "Scoring functions only count hydrogen bonds",
+      "Scoring functions are only used for experimental validation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Scoring functions combine: 1) Van der Waals interactions, 2) Electrostatics (Coulomb), 3) Desolvation penalties, 4) Hydrogen bonds, 5) Entropic terms. Limitations: approximate, may not capture peptide-specific interactions (π-stacking, cation-π).",
+    "difficulty": "intermediate",
+    "tags": ["docking", "scoring-function", "binding-energy", "computation"]
+  },
+  {
+    "question": "What is the difference between rigid and flexible docking?",
+    "options": [
+      "Rigid docking treats protein as rigid, peptide as flexible; flexible docking allows both to move",
+      "Rigid docking is always more accurate",
+      "Flexible docking is only for small molecules",
+      "Rigid and flexible docking produce identical results"
+    ],
+    "correctIndex": 0,
+    "explanation": "Rigid docking: protein structure fixed, peptide samples conformations (faster but misses induced fit). Flexible docking: both protein side chains (and sometimes backbone) move (more accurate but computationally expensive). Hybrid: soft docking with scaled vdW radii.",
+    "difficulty": "intermediate",
+    "tags": ["docking", "rigid", "flexible", "induced-fit"]
+  },
+  {
+    "question": "What is molecular dynamics (MD) simulation in the context of peptide-protein binding?",
+    "options": [
+      "A method to predict peptide synthesis outcomes",
+      "A computational technique that simulates atomic movements over time to study binding stability and kinetics",
+      "A database search algorithm",
+      "An experimental technique for measuring binding affinity"
+    ],
+    "correctIndex": 1,
+    "explanation": "MD simulations solve Newton's equations of motion for all atoms: 1) Generate trajectories (ns-μs), 2) Assess binding stability (RMSD), 3) Calculate binding free energy (MM-PBSA, FEP), 4) Identify key interactions over time, 5) Study conformational changes.",
+    "difficulty": "advanced",
+    "tags": ["docking", "molecular-dynamics", "simulation", "binding-kinetics"]
+  },
+  {
+    "question": "What is pharmacophore modeling for peptide design?",
+    "options": [
+      "Building physical models of peptides",
+      "Identifying essential 3D features (H-bond donors/acceptors, hydrophobic, charged) required for biological activity",
+      "Measuring peptide pharmacokinetics",
+      "Synthesizing peptide analogs"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pharmacophore models define spatial arrangement of chemical features necessary for binding: 1) H-bond donors/acceptors, 2) Hydrophobic centers, 3) Aromatic rings, 4) Positive/negative charges. Used for: virtual screening, SAR analysis, scaffold hopping.",
+    "difficulty": "intermediate",
+    "tags": ["docking", "pharmacophore", "drug-design", "sar"]
+  },
+  {
+    "question": "What is the role of water molecules in peptide-protein docking?",
+    "options": [
+      "Water molecules should always be removed before docking",
+      "Water molecules can mediate key hydrogen bonds and bridge peptide-protein interactions",
+      "Water molecules prevent peptide binding",
+      "Water molecules only affect solubility, not binding"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bridging water molecules often mediate peptide-protein contacts (e.g., HIV protease flap water). Including explicit water: 1) Improves pose prediction, 2) Captures water-mediated H-bonds, 3) Affects desolvation penalties. WaterMap analysis identifies conserved waters.",
+    "difficulty": "advanced",
+    "tags": ["docking", "water", "mediated-interaction", "solvation"]
+  },
+  {
+    "question": "What is covalent docking and when is it used for peptides?",
+    "options": [
+      "Docking two peptides together",
+      "Predicting binding of peptides that form covalent bonds with target residues (Cys, Lys, Ser)",
+      "Docking peptides to DNA",
+      "Virtual screening of peptide libraries"
+    ],
+    "correctIndex": 1,
+    "explanation": "Covalent docking predicts binding of reactive peptides (electrophilic warheads) that form covalent bonds with nucleophilic residues (Cys, Lys, Ser, His). Used for: irreversible inhibitors, targeted covalent drugs (e.g., SARS-CoV-2 Mpro inhibitors).",
+    "difficulty": "advanced",
+    "tags": ["docking", "covalent", "irreversible", "reactive-warhead"]
+  },
+  {
+    "question": "What is the role of machine learning in modern peptide docking?",
+    "options": [
+      "ML is not used in docking",
+      "ML accelerates scoring, improves pose prediction, and generates novel peptide candidates",
+      "ML only replaces experimental validation",
+      "ML is only used for small molecule docking"
+    ],
+    "correctIndex": 1,
+    "explanation": "ML in docking: 1) Neural network scoring functions (GNINA, DeepDock), 2) Generative models for peptide design (VAE, GAN), 3) Binding affinity prediction, 4) Conformational sampling guidance, 5) AlphaFold2 for structure prediction.",
+    "difficulty": "advanced",
+    "tags": ["docking", "machine-learning", "deep-learning", "alpha-fold"]
+  }
+]
