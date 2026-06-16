@@ -1,13 +1,67 @@
-{
-  "question": "In biomarker development for peptide therapeutics, what distinguishes a predictive biomarker from a prognostic biomarker?",
-  "options": [
-    "Predictive biomarkers indicate disease severity, while prognostic biomarkers predict drug response",
-    "Predictive biomarkers identify patients likely to respond to a specific therapy, while prognostic biomarkers indicate overall disease outcome regardless of treatment",
-    "Prognostic biomarkers are only used in Phase I trials",
-    "Predictive biomarkers require genomic analysis, while prognostic biomarkers do not"
-  ],
-  "correctIndex": 1,
-  "explanation": "Predictive biomarkers (e.g., HER2 amplification for trastuzumab) indicate which patients will benefit from a specific therapy. Prognostic biomarkers (e.g., tumor grade) indicate expected disease course independent of treatment, helping stratify risk.",
-  "difficulty": "advanced",
-  "tags": ["clinical", "biomarkers", "precision-medicine"]
-}
+[
+  {
+    "question": "What is the primary purpose of a Phase III clinical trial?",
+    "options": [
+      "To determine safe dosage ranges in healthy volunteers",
+      "To confirm efficacy and monitor adverse reactions in large patient populations",
+      "To test the drug in animals before human trials",
+      "To collect data after the drug is on the market"
+    ],
+    "correctIndex": 1,
+    "explanation": "Phase III trials involve hundreds to thousands of patients to confirm efficacy, compare with existing treatments, and monitor side effects. They provide the data needed for FDA approval.",
+    "difficulty": "intermediate",
+    "tags": ["clinical", "trial-design", "phase-3"]
+  },
+  {
+    "question": "What is an adaptive clinical trial design?",
+    "options": [
+      "A trial that uses pre-specified rules to modify the trial based on interim data",
+      "A trial that changes its endpoints after enrollment begins",
+      "A trial that enrolls patients from multiple countries simultaneously",
+      "A trial that uses historical controls instead of concurrent controls"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adaptive trials use pre-planned interim analyses to modify aspects like sample size, dosing, or patient allocation without compromising statistical integrity. They are not the same as uncontrolled protocol changes.",
+    "difficulty": "advanced",
+    "tags": ["clinical", "trial-design", "adaptive"]
+  },
+  {
+    "question": "What is the purpose of a data safety monitoring board (DSMB) in a clinical trial?",
+    "options": [
+      "To design the clinical trial protocol",
+      "To monitor patient safety and recommend trial continuation, modification, or stopping",
+      "To analyze the final data after the trial concludes",
+      "To recruit patients for the trial"
+    ],
+    "correctIndex": 1,
+    "explanation": "An DSMB is an independent group that reviews accumulating data during a trial to ensure patient safety. They can recommend stopping a trial early if the drug is harmful or clearly effective.",
+    "difficulty": "intermediate",
+    "tags": ["clinical", "trial-design", "safety"]
+  },
+  {
+    "question": "What is the difference between non-inferiority and equivalence clinical trials?",
+    "options": [
+      "Non-inferiority tests if a new drug is not worse than standard; equivalence tests if it is neither better nor worse",
+      "They are the same thing with different names",
+      "Non-inferiority is for Phase I; equivalence is for Phase III",
+      "Equivalence trials require smaller sample sizes"
+    ],
+    "correctIndex": 0,
+    "explanation": "Non-inferiority trials aim to show a new treatment is not unacceptably worse than standard care. Equivalence trials aim to show treatments produce nearly identical results. Both require pre-defined margins of clinical relevance.",
+    "difficulty": "advanced",
+    "tags": ["clinical", "trial-design", "statistics"]
+  },
+  {
+    "question": "What is a biomarker in clinical drug development?",
+    "options": [
+      "A chemical compound used to synthesize the drug",
+      "A measurable indicator of a biological state or condition used to assess drug response",
+      "A patient demographic variable used for stratification",
+      "A regulatory requirement for drug approval"
+    ],
+    "correctIndex": 1,
+    "explanation": "Biomarkers are measurable substances (proteins, genes, metabolites, imaging features) that indicate biological processes. They are used for patient selection, efficacy assessment, and safety monitoring in clinical trials.",
+    "difficulty": "intermediate",
+    "tags": ["clinical", "biomarkers", "drug-development"]
+  }
+]

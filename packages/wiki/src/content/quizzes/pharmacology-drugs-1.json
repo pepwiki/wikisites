@@ -1,8 +1,8 @@
 {
-  "question": "Which was the first synthetic peptide drug approved by the FDA?",
+  "question": "Which peptide drug was among the first to be synthesized chemically rather than extracted from natural sources?",
   "options": ["Insulin", "Leuprolide", "Oxytocin", "Calcitonin"],
   "correctIndex": 2,
-  "explanation": "Synthetic oxytocin (Pitocin) was one of the earliest synthetic peptide drugs, approved in the 1950s for labor induction. Note: synthetic human insulin (Humulin) was the first recombinant peptide approved in 1982, but it is recombinant, not synthetic.",
+  "explanation": "Synthetic oxytocin (Pitocin) was synthesized by Vincent du Vigneaud in 1953, earning him the Nobel Prize. It was one of the first peptides to be chemically synthesized for medical use. Insulin was initially extracted from animal pancreases; recombinant human insulin (Humulin) came later in 1982.",
   "difficulty": "intermediate",
   "tags": ["pharmacology", "drugs"]
 }

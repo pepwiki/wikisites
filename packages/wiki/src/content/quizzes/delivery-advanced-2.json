@@ -1,13 +1,67 @@
-{
-  "question": "What is the primary mechanism by which exosomes deliver peptide cargo to recipient cells?",
-  "options": [
-    "Direct membrane fusion releasing cargo into the cytoplasm",
-    "Receptor-mediated endocytosis of exosomes followed by endosomal escape",
-    "Passive diffusion through membrane lipid bilayers",
-    "Receptor-mediated endocytosis followed by lysosomal degradation"
-  ],
-  "correctIndex": 1,
-  "explanation": "Exosomes are internalized primarily through receptor-mediated endocytosis or macropinocytosis. After internalization, cargo must escape the endosome to reach the cytoplasm. Exosomal lipid composition and tetraspanin proteins facilitate this endosomal escape process.",
-  "difficulty": "advanced",
-  "tags": ["delivery", "exosomes", "endocytosis"]
-}
+[
+  {
+    "question": "What is PEGylation and why is it used in peptide drug design?",
+    "options": [
+      "Adding phosphate groups to increase solubility",
+      "Conjugating polyethylene glycol to increase hydrodynamic radius, reduce renal clearance, and extend plasma half-life",
+      "Embedding peptides in polyethylene glycol hydrogels for sustained release",
+      "Cleaving PEG chains to release active drug at the target site"
+    ],
+    "correctIndex": 1,
+    "explanation": "PEGylation attaches polyethylene glycol chains to peptides, increasing their apparent molecular weight. This reduces glomerular filtration, proteolytic degradation, and immunogenicity, extending the drug's circulation time from minutes to hours or days.",
+    "difficulty": "advanced",
+    "tags": ["delivery", "pegylation", "half-life-extension"]
+  },
+  {
+    "question": "What is the advantage of using liposomes for peptide drug delivery?",
+    "options": [
+      "They dissolve peptides in aqueous solution",
+      "They encapsulate peptides in lipid bilayer vesicles, protecting from degradation and enabling targeted delivery",
+      "They chemically modify peptides to improve stability",
+      "They accelerate peptide synthesis during manufacturing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Liposomes are spherical vesicles with a lipid bilayer membrane. They can encapsulate both hydrophilic and hydrophobic peptides, protect them from enzymatic degradation, and be engineered for targeted delivery via surface ligands.",
+    "difficulty": "intermediate",
+    "tags": ["delivery", "liposomes", "nanoparticles"]
+  },
+  {
+    "question": "What is the main challenge of oral peptide delivery?",
+    "options": [
+      "Peptides are too expensive to manufacture",
+      "Peptides are degraded by gastric acid and proteolytic enzymes in the GI tract, and have poor intestinal permeability",
+      "Peptides cannot be formulated into tablets",
+      "Peptides are absorbed too quickly, causing toxicity"
+    ],
+    "correctIndex": 1,
+    "explanation": "Oral peptide delivery faces three barriers: (1) acid degradation in the stomach, (2) enzymatic degradation by proteases in the GI tract, and (3) poor permeability across the intestinal epithelium due to molecular size and hydrophilicity.",
+    "difficulty": "intermediate",
+    "tags": ["delivery", "oral-delivery", "bioavailability"]
+  },
+  {
+    "question": "What is the EPR effect and how does it relate to peptide drug delivery?",
+    "options": [
+      "Enhanced Permeability and Retention — nanoparticles accumulate in tumors due to leaky vasculature and poor lymphatic drainage",
+      "Excessive Protein Renal clearance — peptides are rapidly filtered by the kidneys",
+      "Enzymatic Peptide Resistance — certain peptides resist degradation",
+      "Endosomal Peptide Release — peptides escape endosomes after cellular uptake"
+    ],
+    "correctIndex": 0,
+    "explanation": "The EPR effect describes how nanoparticles and macromolecular drugs preferentially accumulate in tumor tissue due to leaky tumor vasculature (enhanced permeability) and poor lymphatic drainage (retention). This passive targeting mechanism is exploited in cancer nanomedicine.",
+    "difficulty": "advanced",
+    "tags": ["delivery", "nanoparticles", "tumor-targeting"]
+  },
+  {
+    "question": "What is the purpose of using pH-responsive polymers in peptide drug delivery?",
+    "options": [
+      "To maintain a constant pH in the bloodstream",
+      "To trigger drug release at specific pH environments such as tumor tissue or endosomes",
+      "To increase the molecular weight of the peptide",
+      "To prevent peptide aggregation during storage"
+    ],
+    "correctIndex": 1,
+    "explanation": "pH-responsive polymers change their conformation or solubility at specific pH values. For example, polymers that swell at acidic pH (tumor microenvironment ~6.5, endosomes ~5.0) can trigger site-specific drug release, improving therapeutic efficacy.",
+    "difficulty": "advanced",
+    "tags": ["delivery", "smart-materials", "stimuli-responsive"]
+  }
+]

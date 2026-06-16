@@ -1,8 +1,13 @@
 {
-  "question": "What are the four phases of clinical trials?",
-  "options": ["Safety, efficacy, comparison, post-market", "Discovery, development, approval, marketing", "Preclinical, clinical, approval, surveillance", "Phase 1 through 4"],
-  "correctIndex": 3,
-  "explanation": "Clinical trials progress through Phase 1 (safety/dosing), Phase 2 (efficacy/side effects), Phase 3 (large-scale efficacy/comparison), and Phase 4 (post-market surveillance).",
+  "question": "What is the primary objective of Phase 1 clinical trials?",
+  "options": [
+    "Determine the optimal dose and assess safety in a small group of healthy volunteers",
+    "Prove the drug works better than existing treatments in large patient populations",
+    "Monitor long-term side effects after the drug reaches the market",
+    "Screen thousands of compounds to identify drug candidates"
+  ],
+  "correctIndex": 0,
+  "explanation": "Phase 1 trials test safety, dosing, and pharmacokinetics in a small group (20-80 people), often healthy volunteers. Phase 2 tests efficacy in patients. Phase 3 compares to standard treatment in large populations. Phase 4 monitors post-market safety.",
   "difficulty": "beginner",
   "tags": ["clinical-trials", "phases"]
 }

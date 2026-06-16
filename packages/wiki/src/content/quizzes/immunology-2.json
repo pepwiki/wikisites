@@ -1,13 +1,67 @@
-{
-  "question": "In immunogenicity assessment of therapeutic peptides, which assay is used to measure anti-drug antibody (ADA) titers in patient serum?",
-  "options": [
-    "Enzyme-linked immunosorbent assay (ELISA) with bridging format",
-    "Western blot for protein detection",
-    "Polymerase chain reaction for gene expression",
-    "Flow cytometry for cell surface markers"
-  ],
-  "correctIndex": 0,
-  "explanation": "Bridging ELISA assays use biotinylated and detection-labeled drug to capture ADAs in a sandwich format. This sensitive method measures ADA titers and is the standard approach for immunogenicity testing in clinical programs.",
-  "difficulty": "advanced",
-  "tags": ["immunology", "immunogenicity", "bioanalytical"]
-}
+[
+  {
+    "question": "What is the role of MHC class I molecules in antigen presentation?",
+    "options": [
+      "Present extracellular antigens to CD4+ T helper cells",
+      "Present intracellular antigens to CD8+ cytotoxic T cells",
+      "Activate B cells for antibody production",
+      "Regulate inflammatory cytokine production"
+    ],
+    "correctIndex": 1,
+    "explanation": "MHC class I molecules present peptides from intracellular proteins (including viral or tumor antigens) to CD8+ cytotoxic T cells, triggering immune responses against infected or abnormal cells.",
+    "difficulty": "intermediate",
+    "tags": ["immunology", "antigen-presentation", "mhc"]
+  },
+  {
+    "question": "What distinguishes a neutralizing antibody from a non-neutralizing antibody?",
+    "options": [
+      "Neutralizing antibodies are produced by B cells; non-neutralizing antibodies are produced by T cells",
+      "Neutralizing antibodies directly block pathogen binding to host cells; non-neutralizing antibodies do not",
+      "Neutralizing antibodies are only found in IgM; non-neutralizing are IgG",
+      "There is no functional difference between the two"
+    ],
+    "correctIndex": 1,
+    "explanation": "Neutralizing antibodies bind to pathogen surface proteins and directly block infection by preventing attachment or entry into host cells. Non-neutralizing antibodies may still contribute to immunity through other mechanisms like opsonization or complement activation.",
+    "difficulty": "intermediate",
+    "tags": ["immunology", "antibodies", "neutralization"]
+  },
+  {
+    "question": "What is the complement system?",
+    "options": [
+      "A set of membrane-bound receptors on T cells",
+      "A cascade of plasma proteins that enhance (complement) antibody and phagocyte activity",
+      "A type of cytokine produced by macrophages",
+      "A mechanism for T cell tolerance"
+    ],
+    "correctIndex": 1,
+    "explanation": "The complement system consists of ~30 plasma proteins that, when activated, form a cascade leading to pathogen lysis, opsonization, and inflammation. It bridges innate and adaptive immunity.",
+    "difficulty": "beginner",
+    "tags": ["immunology", "complement", "innate-immunity"]
+  },
+  {
+    "question": "What is immunological memory?",
+    "options": [
+      "The ability of the immune system to recognize previously encountered antigens and mount a faster, stronger response upon re-exposure",
+      "The process by which the immune system learns to distinguish self from non-self",
+      "The loss of immune response after vaccination",
+      "The production of antibodies by memory B cells in the absence of antigen"
+    ],
+    "correctIndex": 0,
+    "explanation": "Immunological memory is the basis of vaccination. After initial exposure, memory B and T cells persist and enable a rapid, amplified response upon re-encounter with the same pathogen.",
+    "difficulty": "beginner",
+    "tags": ["immunology", "memory", "vaccination"]
+  },
+  {
+    "question": "What is the role of dendritic cells in the immune response?",
+    "options": [
+      "They produce antibodies against extracellular pathogens",
+      "They serve as professional antigen-presenting cells that activate naive T cells",
+      "They directly kill virus-infected cells through phagocytosis",
+      "They produce complement proteins"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dendritic cells are the most potent antigen-presenting cells. They capture antigens in peripheral tissues, migrate to lymph nodes, and present processed peptides to naive T cells, initiating adaptive immune responses.",
+    "difficulty": "intermediate",
+    "tags": ["immunology", "antigen-presentation", "dendritic-cells"]
+  }
+]
