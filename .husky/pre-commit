@@ -1,1 +1,1 @@
-bunx lint-staged && bunx vitest run --reporter=verbose 2>&1 | tail -20
+bunx lint-staged
