@@ -4,20 +4,45 @@
  * Checks all articles against the content quality standard.
  */
 
-import { readFileSync, readdirSync, existsSync } from "fs";
+import { readFileSync, readdirSync } from "fs";
 import { join } from "path";
 
-const CONTENT_DIR = join(import.meta.dir, "../packages/encp/src/content/articles");
+const CONTENT_DIR = join(
+  import.meta.dir,
+  "../packages/encp/src/content/articles",
+);
 
 const APPROVED_CATEGORIES = [
-  "Tripeptides", "Pentapeptides", "Nonapeptides", "Octapeptides",
-  "Opioid Peptides", "Neuropeptides", "Hormones", "GI Peptides",
-  "Cardiac Peptides", "Vasoactive Peptides", "Hypothalamic Peptides",
-  "Tachykinins", "Incretins", "Peptide Hormones", "Antimicrobial Peptides",
-  "Drug Design", "Pharmacology", "Pharmaceutical Science", "Materials Science",
-  "Neuroscience", "Immunology", "Oncology", "Structural Biology",
-  "Cell Biology", "Diagnostics", "Regenerative Medicine", "Microbiology",
-  "Dipeptides", "Undecapeptides", "Pentadecapeptides",
+  "Tripeptides",
+  "Pentapeptides",
+  "Nonapeptides",
+  "Octapeptides",
+  "Opioid Peptides",
+  "Neuropeptides",
+  "Hormones",
+  "GI Peptides",
+  "Cardiac Peptides",
+  "Vasoactive Peptides",
+  "Hypothalamic Peptides",
+  "Tachykinins",
+  "Incretins",
+  "Peptide Hormones",
+  "Antimicrobial Peptides",
+  "Drug Design",
+  "Pharmacology",
+  "Pharmaceutical Science",
+  "Materials Science",
+  "Neuroscience",
+  "Immunology",
+  "Oncology",
+  "Structural Biology",
+  "Cell Biology",
+  "Diagnostics",
+  "Regenerative Medicine",
+  "Microbiology",
+  "Dipeptides",
+  "Undecapeptides",
+  "Pentadecapeptides",
 ];
 
 interface ValidationResult {
@@ -41,7 +66,16 @@ function validateArticle(filePath: string): ValidationResult {
   const fm = fmMatch[1];
 
   // Check mandatory fields
-  const requiredFields = ["title", "description", "status", "author", "pubDate", "category", "difficulty", "citation"];
+  const requiredFields = [
+    "title",
+    "description",
+    "status",
+    "author",
+    "pubDate",
+    "category",
+    "difficulty",
+    "citation",
+  ];
   for (const field of requiredFields) {
     if (!fm.includes(`${field}:`)) {
       result.errors.push(`Missing required field: ${field}`);
@@ -61,8 +95,10 @@ function validateArticle(filePath: string): ValidationResult {
   const descMatch = fm.match(/description:\s*["'](.+?)["']/);
   if (descMatch) {
     const desc = descMatch[1];
-    if (desc.length < 50) result.warnings.push("Description too short (<50 chars)");
-    if (desc.length > 160) result.warnings.push("Description too long (>160 chars)");
+    if (desc.length < 50)
+      result.warnings.push("Description too short (<50 chars)");
+    if (desc.length > 160)
+      result.warnings.push("Description too long (>160 chars)");
   }
 
   // Check DOI exists
@@ -89,17 +125,26 @@ function validateArticle(filePath: string): ValidationResult {
   };
 
   const [min, max] = limits[difficulty] || [600, 1200];
-  if (wordCount < min) result.warnings.push(`Word count ${wordCount} below minimum ${min}`);
-  if (wordCount > max) result.warnings.push(`Word count ${wordCount} above maximum ${max}`);
+  if (wordCount < min)
+    result.warnings.push(`Word count ${wordCount} below minimum ${min}`);
+  if (wordCount > max)
+    result.warnings.push(`Word count ${wordCount} above maximum ${max}`);
 
   // Check for emojis
-  const emojiRegex = /[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{1F1E0}-\u{1F1FF}\u{2702}-\u{27B0}\u{24C2}-\u{1F251}]/u;
+  const emojiRegex =
+    /[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{1F1E0}-\u{1F1FF}\u{2702}-\u{27B0}\u{24C2}-\u{1F251}]/u;
   if (emojiRegex.test(body)) {
     result.errors.push("Article contains emojis (not allowed)");
   }
 
   // Check for promotional language
-  const promoWords = ["revolutionary", "breakthrough", "cutting-edge", "game-changing", "unprecedented"];
+  const promoWords = [
+    "revolutionary",
+    "breakthrough",
+    "cutting-edge",
+    "game-changing",
+    "unprecedented",
+  ];
   for (const word of promoWords) {
     if (body.toLowerCase().includes(word)) {
       result.warnings.push(`Contains promotional language: "${word}"`);
@@ -132,5 +177,7 @@ for (const file of files) {
   }
 }
 
-console.log(`\nValidation complete: ${totalErrors} errors, ${totalWarnings} warnings across ${files.length} articles`);
+console.log(
+  `\nValidation complete: ${totalErrors} errors, ${totalWarnings} warnings across ${files.length} articles`,
+);
 process.exit(totalErrors > 0 ? 1 : 0);

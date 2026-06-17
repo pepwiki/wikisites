@@ -1,4 +1,4 @@
-import { batch, createMemo, createSignal, Show } from "solid-js";
+import { batch, createMemo, createSignal, For, Show } from "solid-js";
 import Quiz from "./Quiz";
 
 interface QuizQuestion {
@@ -48,18 +48,26 @@ function shuffle<T>(arr: readonly T[]): T[] {
 }
 
 export default function QuizSession(props: QuizSessionProps) {
-  const categories = groupByCategory(props.questions);
-  const allQuestions = categories.flatMap((c) => c.questions);
+  const categories = createMemo(() => groupByCategory(props.questions));
+  const allQuestions = createMemo(() =>
+    categories().flatMap((c) => c.questions),
+  );
 
-  const [phase, setPhase] = createSignal<"selecting" | "quiz" | "done">("selecting");
-  const [selectedCategory, setSelectedCategory] = createSignal<string | null>(null);
+  const [phase, setPhase] = createSignal<"selecting" | "quiz" | "done">(
+    "selecting",
+  );
+  const [selectedCategory, setSelectedCategory] = createSignal<string | null>(
+    null,
+  );
   const [order, setOrder] = createSignal<QuizQuestion[]>([]);
   const [current, setCurrent] = createSignal(0);
   const [correctCount, setCorrectCount] = createSignal(0);
   const [incorrectCount, setIncorrectCount] = createSignal(0);
   const [revealed, setRevealed] = createSignal(false);
   const [elapsed, setElapsed] = createSignal(0);
-  const [accuracyMap, setAccuracyMap] = createSignal<Map<string, number>>(new Map());
+  const [accuracyMap, setAccuracyMap] = createSignal<Map<string, number>>(
+    new Map(),
+  );
   const [roundNumber, setRoundNumber] = createSignal(1);
   let startTime = 0;
 
@@ -68,11 +76,14 @@ export default function QuizSession(props: QuizSessionProps) {
   const progressPercent = createMemo(() => (current() / total()) * 100);
 
   const filteredQuestions = (category: string | null) =>
-    category ? allQuestions.filter((q) => formatCategory(q.id) === category) : allQuestions;
+    category
+      ? allQuestions().filter((q) => formatCategory(q.id) === category)
+      : allQuestions();
 
   const categoryAccuracy = (category: string) => {
     const map = accuracyMap();
-    const qs = categories.find((c) => c.category === category)?.questions ?? [];
+    const qs =
+      categories().find((c) => c.category === category)?.questions ?? [];
     if (qs.length === 0) return null;
     let correct = 0;
     let total = 0;
@@ -136,7 +147,8 @@ export default function QuizSession(props: QuizSessionProps) {
       const raw = localStorage.getItem(STORAGE_KEY_PROGRESS);
       const data = raw ? JSON.parse(raw) : {};
       const cat = formatCategory(q.id);
-      if (!data[cat]) data[cat] = { reviews: 0, correct: 0, lastReviewed: null };
+      if (!data[cat])
+        data[cat] = { reviews: 0, correct: 0, lastReviewed: null };
       data[cat].reviews++;
       if (correct) data[cat].correct++;
       data[cat].lastReviewed = new Date().toISOString();
@@ -213,8 +225,12 @@ export default function QuizSession(props: QuizSessionProps) {
     <div>
       <Show when={phase() === "selecting"}>
         <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-2xl p-8 shadow-sm">
-          <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-2">{props.title}</h2>
-          <p class="text-slate-600 dark:text-slate-400 mb-6">Choose a category to quiz on</p>
+          <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-2">
+            {props.title}
+          </h2>
+          <p class="text-slate-600 dark:text-slate-400 mb-6">
+            Choose a category to quiz on
+          </p>
 
           <div
             class="grid grid-cols-2 sm:grid-cols-3 gap-3"
@@ -230,32 +246,37 @@ export default function QuizSession(props: QuizSessionProps) {
             >
               <span class="block text-sm font-semibold">All</span>
               <span class="text-xs text-slate-500 dark:text-slate-400">
-                {allQuestions.length} questions
+                {allQuestions().length} questions
               </span>
             </button>
 
-            {categories.map((cat) => {
-              const acc = categoryAccuracy(cat.category);
-              return (
-                <button
-                  type="button"
-                  role="radio"
-                  aria-checked={selectedCategory() === cat.category}
-                  class="px-4 py-3 rounded-xl border-2 border-slate-200 dark:border-slate-700 hover:border-[#0D9488] hover:bg-[#0f766e]/5 transition-colors text-left"
-                  onClick={() => startQuiz(cat.category)}
-                >
-                  <span class="block text-sm font-semibold text-slate-900 dark:text-slate-100">
-                    {cat.category}
-                  </span>
-                  <span class="text-xs text-slate-500 dark:text-slate-400">
-                    {cat.questions.length} questions
-                    {acc !== null && (
-                      <span class="ml-1 text-[#0f766e] dark:text-[#2dd4bf]"> · {acc}%</span>
-                    )}
-                  </span>
-                </button>
-              );
-            })}
+            <For each={categories()}>
+              {(cat) => {
+                const acc = categoryAccuracy(cat.category);
+                return (
+                  <button
+                    type="button"
+                    role="radio"
+                    aria-checked={selectedCategory() === cat.category}
+                    class="px-4 py-3 rounded-xl border-2 border-slate-200 dark:border-slate-700 hover:border-[#0D9488] hover:bg-[#0f766e]/5 transition-colors text-left"
+                    onClick={() => startQuiz(cat.category)}
+                  >
+                    <span class="block text-sm font-semibold text-slate-900 dark:text-slate-100">
+                      {cat.category}
+                    </span>
+                    <span class="text-xs text-slate-500 dark:text-slate-400">
+                      {cat.questions.length} questions
+                      {acc !== null && (
+                        <span class="ml-1 text-[#0f766e] dark:text-[#2dd4bf]">
+                          {" "}
+                          · {acc}%
+                        </span>
+                      )}
+                    </span>
+                  </button>
+                );
+              }}
+            </For>
           </div>
         </div>
       </Show>
@@ -302,22 +323,29 @@ export default function QuizSession(props: QuizSessionProps) {
 
       <Show when={phase() === "done"}>
         <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-2xl p-8 shadow-sm text-center">
-          <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-2">Quiz Complete!</h2>
+          <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-2">
+            Quiz Complete!
+          </h2>
           <p class="text-slate-600 dark:text-slate-400 mb-6">{props.title}</p>
 
           <div class="grid grid-cols-3 gap-6 mb-8 max-w-md mx-auto">
             <div class="text-center">
-              <p class="text-3xl font-bold text-[#0f766e] dark:text-[#2dd4bf]">{correctCount()}</p>
+              <p class="text-3xl font-bold text-[#0f766e] dark:text-[#2dd4bf]">
+                {correctCount()}
+              </p>
               <p class="text-sm text-slate-500 dark:text-slate-400">Correct</p>
             </div>
             <div class="text-center">
               <p class="text-3xl font-bold text-slate-900 dark:text-slate-100">
-                {total() > 0 ? Math.round((correctCount() / total()) * 100) : 0}%
+                {total() > 0 ? Math.round((correctCount() / total()) * 100) : 0}
+                %
               </p>
               <p class="text-sm text-slate-500 dark:text-slate-400">Accuracy</p>
             </div>
             <div class="text-center">
-              <p class="text-3xl font-bold text-slate-900 dark:text-slate-100">{elapsed()}s</p>
+              <p class="text-3xl font-bold text-slate-900 dark:text-slate-100">
+                {elapsed()}s
+              </p>
               <p class="text-sm text-slate-500 dark:text-slate-400">Time</p>
             </div>
           </div>

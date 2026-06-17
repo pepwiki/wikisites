@@ -8,7 +8,7 @@ import {
   recordReview,
   type SiteKey,
 } from "@wikisites/query/review-store";
-import { createSignal, onMount, Show } from "solid-js";
+import { createSignal, For, onMount, Show } from "solid-js";
 import { toastSuccess } from "../lib/toast";
 import FlipCard from "./ui/FlipCard";
 import RatingButtons from "./ui/RatingButtons";
@@ -46,7 +46,12 @@ export default function Flashcard(props: FlashcardProps) {
 
   const handleRate = (rating: Rating) => {
     if (!isFSRS()) return;
-    const result = recordReview(props.site!, props.deckId!, props.cardId!, rating);
+    const result = recordReview(
+      props.site!,
+      props.deckId!,
+      props.cardId!,
+      rating,
+    );
     if (result) setCardState(result.card);
     setRated(true);
     setFlipped(false);
@@ -63,7 +68,9 @@ export default function Flashcard(props: FlashcardProps) {
     <>
       <div class="flex items-center gap-2 mb-2">
         <Show when={isFSRS() && cardState()}>
-          <span class={`text-xs font-bold px-2 py-0.5 rounded-full ${getStatusColor(cardState())}`}>
+          <span
+            class={`text-xs font-bold px-2 py-0.5 rounded-full ${getStatusColor(cardState())}`}
+          >
             {getStatusLabel(cardState())}
           </span>
         </Show>
@@ -72,17 +79,25 @@ export default function Flashcard(props: FlashcardProps) {
         {props.front}
       </p>
       <Show when={!rated()}>
-        <p class="text-xs text-slate-400 dark:text-slate-500 mt-4" aria-hidden="true">
+        <p
+          class="text-xs text-slate-400 dark:text-slate-500 mt-4"
+          aria-hidden="true"
+        >
           Click to flip
         </p>
       </Show>
       <Show when={props.tags && props.tags.length > 0}>
-        <div class="flex gap-1 mt-2" aria-label={`Tags: ${props.tags!.join(", ")}`}>
-          {props.tags!.map((tag) => (
-            <span class="text-xs bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 px-2 py-0.5 rounded-full">
-              {tag}
-            </span>
-          ))}
+        <div
+          class="flex gap-1 mt-2"
+          aria-label={`Tags: ${props.tags!.join(", ")}`}
+        >
+          <For each={props.tags!}>
+            {(tag) => (
+              <span class="text-xs bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 px-2 py-0.5 rounded-full">
+                {tag}
+              </span>
+            )}
+          </For>
         </div>
       </Show>
     </>
@@ -102,7 +117,11 @@ export default function Flashcard(props: FlashcardProps) {
       <FlipCard
         flipped={flipped()}
         onFlip={toggle}
-        ariaLabel={flipped() ? `Back: ${props.back}` : `Front: ${props.front}. Click to flip.`}
+        ariaLabel={
+          flipped()
+            ? `Back: ${props.back}`
+            : `Front: ${props.front}. Click to flip.`
+        }
         onKeyDown={(e) => {
           if (e.key === "Enter" || e.key === " ") {
             e.preventDefault();
@@ -121,7 +140,9 @@ export default function Flashcard(props: FlashcardProps) {
 
       <Show when={isFSRS() && rated()}>
         <div class="mt-3 text-center">
-          <span class="text-xs text-[#0f766e] dark:text-[#2dd4bf] font-medium">Rated</span>
+          <span class="text-xs text-[#0f766e] dark:text-[#2dd4bf] font-medium">
+            Rated
+          </span>
           <button
             type="button"
             class="ml-2 text-xs text-slate-400 dark:text-slate-500 hover:text-slate-600 dark:hover:text-slate-300 underline"

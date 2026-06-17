@@ -22,10 +22,14 @@ test.describe("Performance benchmarks", () => {
         await page.waitForLoadState("networkidle");
 
         const metrics = await page.evaluate(() => {
-          const perf = performance.getEntriesByType("navigation")[0] as PerformanceNavigationTiming;
+          const perf = performance.getEntriesByType(
+            "navigation",
+          )[0] as PerformanceNavigationTiming;
           return {
             ttfb: Math.round(perf.responseStart - perf.requestStart),
-            domContentLoaded: Math.round(perf.domContentLoadedEventEnd - perf.fetchStart),
+            domContentLoaded: Math.round(
+              perf.domContentLoadedEventEnd - perf.fetchStart,
+            ),
             fullLoad: Math.round(perf.loadEventEnd - perf.fetchStart),
             transferSize: perf.transferSize,
             encodedBodySize: perf.encodedBodySize,
@@ -34,7 +38,6 @@ test.describe("Performance benchmarks", () => {
         });
 
         // Log metrics for CI reporting
-        // eslint-disable-next-line no-console
         console.log(
           `BENCHMARK ${site.name}${route}: ttfb=${metrics.ttfb} dcl=${metrics.domContentLoaded} load=${metrics.fullLoad} size=${metrics.transferSize} ratio=${(metrics.decodedBodySize / metrics.encodedBodySize).toFixed(1)}x`,
         );

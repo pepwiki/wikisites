@@ -25,14 +25,23 @@ export default function CookieConsent() {
 
   return (
     <Show when={show()}>
-      <div class="fixed bottom-0 left-0 right-0 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-700 shadow-lg z-50 p-4 md:p-6">
+      <div
+        class="fixed bottom-0 left-0 right-0 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-700 shadow-lg z-50 p-4 md:p-6"
+        role="dialog"
+        aria-label="Cookie consent"
+      >
         <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
           <div class="flex-1">
             <p class="text-sm text-slate-600 dark:text-slate-400">
-              Wikipept uses localStorage to save your learning progress locally on this device. No
-              data is sent to any server. By continuing to use this site, you acknowledge this.
+              Wikipept uses localStorage to save your learning progress locally
+              on this device. No data is sent to any server. By continuing to
+              use this site, you acknowledge this.
             </p>
-            <a href="/privacy" class="text-xs text-[#0f766e] dark:text-[#2dd4bf] hover:underline mt-1 inline-block">
+            <a
+              href="/privacy"
+              class="text-xs text-[#0f766e] dark:text-[#2dd4bf] hover:underline mt-1 inline-block"
+              aria-label="Read our Privacy Policy"
+            >
               Read our Privacy Policy
             </a>
           </div>
@@ -41,6 +50,7 @@ export default function CookieConsent() {
               type="button"
               class="px-4 py-2 text-sm text-slate-600 dark:text-slate-400 border border-slate-200 dark:border-slate-700 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors"
               onClick={dismiss}
+              aria-label="Dismiss cookie notice"
             >
               Dismiss
             </button>
@@ -48,6 +58,7 @@ export default function CookieConsent() {
               type="button"
               class="px-4 py-2 text-sm text-white bg-[#0f766e] rounded-lg hover:bg-[#0f766e]/90 transition-colors"
               onClick={accept}
+              aria-label="Accept cookie notice"
             >
               Accept
             </button>

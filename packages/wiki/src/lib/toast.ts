@@ -3,9 +3,13 @@
  * solid-sonner calls window.matchMedia at module scope, breaking SSR.
  */
 
-let _toast: typeof import("solid-sonner").toast | null = null;
+import type { toast as ToastFn } from "solid-sonner";
 
-async function getToast() {
+type Toast = typeof ToastFn;
+
+let _toast: Toast | null = null;
+
+async function getToast(): Promise<Toast> {
   if (!_toast) {
     const mod = await import("solid-sonner");
     _toast = mod.toast;

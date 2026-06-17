@@ -28,9 +28,12 @@ function fallbackT(key: TranslationKeys, ...args: (string | number)[]): string {
 
 const I18nContext = createContext<I18nContextValue>();
 
-export function I18nProvider(props: { children: JSX.Element; locale?: Locale }) {
+export function I18nProvider(props: {
+  children: JSX.Element;
+  locale?: Locale;
+}) {
   const [state, setState] = createStore({
-    locale: (props.locale ?? "en") as Locale,
+    locale: (props.locale ?? "en") as Locale, // eslint-disable-line solid/reactivity -- initialization only
   });
 
   const t = (key: TranslationKeys, ...args: (string | number)[]): string => {

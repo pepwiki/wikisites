@@ -51,7 +51,9 @@ export function applyTheme(theme: Theme): void {
   if (typeof window === "undefined") return;
   const html = document.documentElement;
   if (theme === "system") {
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const prefersDark = window.matchMedia(
+      "(prefers-color-scheme: dark)",
+    ).matches;
     html.setAttribute("data-theme", prefersDark ? "dark" : "light");
   } else {
     html.setAttribute("data-theme", theme);
@@ -70,14 +72,19 @@ export function initTheme(site: Site): void {
 /**
  * Listen for system theme changes (when user has "system" preference).
  */
-export function watchSystemTheme(site: Site, callback?: (isDark: boolean) => void): void {
+export function watchSystemTheme(
+  site: Site,
+  callback?: (isDark: boolean) => void,
+): void {
   if (typeof window === "undefined") return;
-  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
-    if (getTheme(site) === "system") {
-      applyTheme("system");
-      callback?.(e.matches);
-    }
-  });
+  window
+    .matchMedia("(prefers-color-scheme: dark)")
+    .addEventListener("change", (e) => {
+      if (getTheme(site) === "system") {
+        applyTheme("system");
+        callback?.(e.matches);
+      }
+    });
 }
 
 /**
@@ -85,8 +92,10 @@ export function watchSystemTheme(site: Site, callback?: (isDark: boolean) => voi
  */
 function getCookieTheme(): Theme | null {
   if (typeof document === "undefined") return null;
-  const match = document.cookie.match(new RegExp(`(?:^|; )${COOKIE_NAME}=([^;]*)`));
-  if (!match) return null;
+  const match = document.cookie.match(
+    new RegExp(`(?:^|; )${COOKIE_NAME}=([^;]*)`),
+  );
+  if (!match?.[1]) return null;
   const value = decodeURIComponent(match[1]);
   if (value === "dark" || value === "light") return value;
   return null;

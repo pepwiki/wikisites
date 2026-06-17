@@ -1,3 +1,4 @@
+import { For } from "solid-js";
 import { Rating } from "@wikisites/query/fsrs";
 
 interface RatingButtonsProps {
@@ -37,20 +38,24 @@ const RATINGS = [
 
 export default function RatingButtons(props: RatingButtonsProps) {
   const sizeClasses = () =>
-    props.size === "sm" ? "px-3 py-2 text-sm rounded-lg" : "px-4 py-3 rounded-xl font-medium";
+    props.size === "sm"
+      ? "px-3 py-2 text-sm rounded-lg"
+      : "px-4 py-3 rounded-xl font-medium";
 
   return (
     <div class="grid grid-cols-4 gap-2 sm:gap-3">
-      {RATINGS.map(({ rating, label, colors }) => (
-        <button
-          type="button"
-          class={`${sizeClasses()} border-2 transition-colors focus:outline-none focus:ring-2 ${colors}`}
-          onClick={() => props.onSelect(rating)}
-          aria-label={`Rate: ${label}`}
-        >
-          {props.showLabels !== false && label}
-        </button>
-      ))}
+      <For each={RATINGS}>
+        {(item) => (
+          <button
+            type="button"
+            class={`${sizeClasses()} border-2 transition-colors focus:outline-none focus:ring-2 ${item.colors}`}
+            onClick={() => props.onSelect(item.rating)}
+            aria-label={`Rate: ${item.label}`}
+          >
+            {props.showLabels !== false && item.label}
+          </button>
+        )}
+      </For>
     </div>
   );
 }

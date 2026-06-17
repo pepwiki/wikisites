@@ -29,8 +29,8 @@ export default function FlipCard(props: FlipCardProps) {
       tabindex={props.interactive !== false ? 0 : undefined}
       aria-label={props.ariaLabel}
       aria-pressed={props.interactive !== false ? props.flipped : undefined}
-      onClick={props.onFlip}
-      onKeyDown={props.onKeyDown}
+      onClick={() => props.onFlip?.()}
+      onKeyDown={(e) => props.onKeyDown?.(e)}
     >
       <div
         class={`absolute inset-0 transition-transform duration-500 preserve-3d ${

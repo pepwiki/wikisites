@@ -1,4 +1,4 @@
-import { createSignal, Show } from "solid-js";
+import { createMemo, createSignal, Show } from "solid-js";
 import Quiz from "./Quiz";
 
 interface DailyQuestion {
@@ -26,6 +26,7 @@ interface DailyState {
 }
 
 function loadState(date: string): DailyState | null {
+  if (typeof window === "undefined") return null;
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return null;
@@ -38,6 +39,7 @@ function loadState(date: string): DailyState | null {
 }
 
 function saveState(state: DailyState) {
+  if (typeof window === "undefined") return;
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
   } catch {
@@ -69,12 +71,16 @@ function seededShuffle<T>(arr: T[], seed: number): T[] {
 export default function DailyChallenge(props: DailyChallengeProps) {
   const today = new Date().toISOString().split("T")[0]!;
   const seed = hashDate(today);
-  const dailyQuestions = seededShuffle(props.questions, seed).slice(0, 10);
-  const total = dailyQuestions.length;
+  const dailyQuestions = createMemo(() =>
+    seededShuffle(props.questions, seed).slice(0, 10),
+  );
+  const total = () => dailyQuestions().length;
 
   const saved = loadState(today);
   const [current, setCurrent] = createSignal(saved?.current ?? 0);
-  const [correctCount, setCorrectCount] = createSignal(saved?.correctCount ?? 0);
+  const [correctCount, setCorrectCount] = createSignal(
+    saved?.correctCount ?? 0,
+  );
   const [revealed, setRevealed] = createSignal(saved?.revealed ?? false);
   const [done, setDone] = createSignal(saved?.done ?? false);
 
@@ -89,7 +95,7 @@ export default function DailyChallenge(props: DailyChallengeProps) {
     });
   };
 
-  const currentQuestion = () => dailyQuestions[current()];
+  const currentQuestion = () => dailyQuestions()[current()];
 
   const handleReveal = (correct: boolean) => {
     setRevealed(true);
@@ -98,7 +104,7 @@ export default function DailyChallenge(props: DailyChallengeProps) {
   };
 
   const handleNext = () => {
-    if (current() + 1 >= total) {
+    if (current() + 1 >= total()) {
       setDone(true);
     } else {
       setCurrent(current() + 1);
@@ -108,20 +114,26 @@ export default function DailyChallenge(props: DailyChallengeProps) {
   };
 
   const progressPercent = () =>
-    total > 0 ? ((current() + (revealed() ? 1 : 0)) / total) * 100 : 0;
+    total() > 0 ? ((current() + (revealed() ? 1 : 0)) / total()) * 100 : 0;
 
   return (
     <div class="spatial-card p-6">
       <div class="flex items-center justify-between mb-4">
-        <h3 class="text-lg font-bold text-slate-900 dark:text-slate-100">Daily Challenge</h3>
+        <h3 class="text-lg font-bold text-slate-900 dark:text-slate-100">
+          Daily Challenge
+        </h3>
         <span class="text-xs font-medium text-[#F97316] bg-orange-50 dark:bg-orange-950/30 px-2 py-1 rounded-full">
           {today}
         </span>
       </div>
 
       <Show when={!done()}>
-        <p class="text-sm text-slate-500 dark:text-slate-400 mb-2" aria-live="polite">
-          {total} questions, same for everyone today. Question {current() + 1} of {total}
+        <p
+          class="text-sm text-slate-500 dark:text-slate-400 mb-2"
+          aria-live="polite"
+        >
+          {total()} questions, same for everyone today. Question {current() + 1}{" "}
+          of {total()}
         </p>
 
         {/* Progress bar */}
@@ -153,7 +165,7 @@ export default function DailyChallenge(props: DailyChallengeProps) {
               class="px-6 py-2 bg-[#F97316] text-white rounded-full font-medium hover:bg-[#F97316]/90 transition-colors"
               onClick={handleNext}
             >
-              {current() + 1 >= total ? "See Results" : "Next Question"}
+              {current() + 1 >= total() ? "See Results" : "Next Question"}
             </button>
           </div>
         </Show>
@@ -162,20 +174,26 @@ export default function DailyChallenge(props: DailyChallengeProps) {
       <Show when={done()}>
         <div class="text-center py-8">
           <p class="text-3xl font-bold text-[#0f766e] dark:text-[#2dd4bf] mb-2">
-            {correctCount()}/{total}
+            {correctCount()}/{total()}
           </p>
-          <p class="text-slate-600 dark:text-slate-400 mb-4">Correct answers today</p>
+          <p class="text-slate-600 dark:text-slate-400 mb-4">
+            Correct answers today
+          </p>
 
           {/* Score breakdown */}
           <div class="flex justify-center gap-4 mb-4 text-sm">
-            <span class="text-green-600 dark:text-green-400">{correctCount()} correct</span>
-            <span class="text-red-500 dark:text-red-400">{total - correctCount()} incorrect</span>
+            <span class="text-green-600 dark:text-green-400">
+              {correctCount()} correct
+            </span>
+            <span class="text-red-500 dark:text-red-400">
+              {total() - correctCount()} incorrect
+            </span>
           </div>
 
           <p class="text-sm text-slate-400 dark:text-slate-500">
-            {total > 0 && correctCount() / total >= 0.8
+            {total() > 0 && correctCount() / total() >= 0.8
               ? "Excellent work!"
-              : total > 0 && correctCount() / total >= 0.5
+              : total() > 0 && correctCount() / total() >= 0.5
                 ? "Good effort!"
                 : "Keep practicing!"}
           </p>

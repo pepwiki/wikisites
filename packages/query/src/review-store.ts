@@ -7,7 +7,8 @@
  */
 
 import type { CardState } from "./fsrs";
-import { createCard, repeat, getDueCards, Rating } from "./fsrs";
+import type { Rating } from "./fsrs";
+import { createCard, repeat, getDueCards } from "./fsrs";
 
 // ---------------------------------------------------------------------------
 // Types
@@ -91,7 +92,11 @@ export function loadCards(site: SiteKey, deckId: DeckId): Array<CardState> {
 /**
  * Save all cards for a deck.
  */
-export function saveCards(site: SiteKey, deckId: DeckId, cards: ReadonlyArray<CardState>): boolean {
+export function saveCards(
+  site: SiteKey,
+  deckId: DeckId,
+  cards: ReadonlyArray<CardState>,
+): boolean {
   const data: StoredDeck = {
     site,
     deckId,
@@ -114,7 +119,9 @@ export function initializeDeck(
   const existing = loadCards(site, deckId);
   const existingIds = new Set(existing.map((c) => c.id));
 
-  const newCards = cardIds.filter((id) => !existingIds.has(id)).map((id) => createCard(id));
+  const newCards = cardIds
+    .filter((id) => !existingIds.has(id))
+    .map((id) => createCard(id));
 
   const all = [...existing, ...newCards];
   saveCards(site, deckId, all);
@@ -153,13 +160,21 @@ export function recordReview(
   cards[idx] = result.card;
   saveCards(site, deckId, cards);
 
-  return { card: result.card, interval: result.interval, lapsed: result.lapsed };
+  return {
+    card: result.card,
+    interval: result.interval,
+    lapsed: result.lapsed,
+  };
 }
 
 /**
  * Get review statistics for a deck.
  */
-export function getDeckStats(site: SiteKey, deckId: DeckId, _now: Date = new Date()): ReviewStats {
+export function getDeckStats(
+  site: SiteKey,
+  deckId: DeckId,
+  _now: Date = new Date(),
+): ReviewStats {
   const cards = loadCards(site, deckId);
   const reviewed = cards.filter((c) => c.repetitions > 0);
   const totalReviews = reviewed.reduce((sum, c) => sum + c.repetitions, 0);
@@ -174,7 +189,8 @@ export function getDeckStats(site: SiteKey, deckId: DeckId, _now: Date = new Dat
     reviewed: reviewed.length,
     correct: totalReviews - totalLapses,
     incorrect: totalLapses,
-    accuracy: totalReviews > 0 ? (totalReviews - totalLapses) / totalReviews : 0,
+    accuracy:
+      totalReviews > 0 ? (totalReviews - totalLapses) / totalReviews : 0,
     avgInterval: Math.round(avgInterval),
   };
 }

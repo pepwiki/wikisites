@@ -24,7 +24,7 @@ export interface VirtualListProps<T> extends Omit<VListProps<T>, "children"> {
 export default function VirtualList<T>(props: VirtualListProps<T>) {
   return (
     <VList {...props} class={`w-full ${props.class ?? ""}`}>
-      {(item: T) => props.children(item, 0)}
+      {(item: T, index: number) => props.children(item, index)}
     </VList>
   );
 }

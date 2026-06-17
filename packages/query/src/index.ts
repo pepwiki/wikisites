@@ -54,11 +54,13 @@ export function searchPeptides(
   let filtered = peptides;
 
   // Apply length filters
-  if (filters.minLength !== undefined) {
-    filtered = filtered.filter((p) => p.length >= filters.minLength);
+  const minLength = filters.minLength;
+  const maxLength = filters.maxLength;
+  if (minLength !== undefined) {
+    filtered = filtered.filter((p) => p.length >= minLength);
   }
-  if (filters.maxLength !== undefined) {
-    filtered = filtered.filter((p) => p.length <= filters.maxLength);
+  if (maxLength !== undefined) {
+    filtered = filtered.filter((p) => p.length <= maxLength);
   }
 
   // Apply sequence filter (prefix match)

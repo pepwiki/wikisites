@@ -20,27 +20,55 @@ export type PeptideProperties = {
 };
 
 const AMINO_ACID_MW: Record<string, number> = {
-  G: 75.03, A: 89.09, V: 117.15, L: 131.17, I: 131.17,
-  P: 115.13, F: 165.19, W: 204.23, Y: 181.19, S: 105.09,
-  T: 119.12, C: 121.16, M: 149.21, N: 132.12, Q: 146.15,
-  D: 133.10, E: 147.13, K: 146.19, R: 174.20, H: 155.16,
-};
-
-const AMINO_ACID_PI: Record<string, number> = {
-  G: 5.97, A: 6.00, V: 5.96, L: 5.98, I: 6.02,
-  P: 6.30, F: 5.48, W: 5.89, Y: 5.66, S: 5.68,
-  T: 5.60, C: 5.07, M: 5.74, N: 5.41, Q: 5.65,
-  D: 2.77, E: 3.22, K: 9.74, R: 10.76, H: 7.59,
+  G: 75.03,
+  A: 89.09,
+  V: 117.15,
+  L: 131.17,
+  I: 131.17,
+  P: 115.13,
+  F: 165.19,
+  W: 204.23,
+  Y: 181.19,
+  S: 105.09,
+  T: 119.12,
+  C: 121.16,
+  M: 149.21,
+  N: 132.12,
+  Q: 146.15,
+  D: 133.1,
+  E: 147.13,
+  K: 146.19,
+  R: 174.2,
+  H: 155.16,
 };
 
 const AMINO_ACID_HYDROPATHY: Record<string, number> = {
-  G: -0.4, A: 1.8, V: 4.2, L: 3.8, I: 4.5,
-  P: -1.6, F: 2.8, W: -0.9, Y: -1.3, S: -0.8,
-  T: -0.7, C: 2.5, M: 1.9, N: -3.5, Q: -3.5,
-  D: -3.5, E: -3.5, K: -3.9, R: -4.5, H: -3.2,
+  G: -0.4,
+  A: 1.8,
+  V: 4.2,
+  L: 3.8,
+  I: 4.5,
+  P: -1.6,
+  F: 2.8,
+  W: -0.9,
+  Y: -1.3,
+  S: -0.8,
+  T: -0.7,
+  C: 2.5,
+  M: 1.9,
+  N: -3.5,
+  Q: -3.5,
+  D: -3.5,
+  E: -3.5,
+  K: -3.9,
+  R: -4.5,
+  H: -3.2,
 };
 
-const AMINO_ACID_FORMULA: Record<string, { C: number; H: number; N: number; O: number; S: number }> = {
+const AMINO_ACID_FORMULA: Record<
+  string,
+  { C: number; H: number; N: number; O: number; S: number }
+> = {
   G: { C: 2, H: 5, N: 1, O: 2, S: 0 },
   A: { C: 3, H: 7, N: 1, O: 2, S: 0 },
   V: { C: 5, H: 11, N: 1, O: 2, S: 0 },
@@ -119,13 +147,27 @@ export function calculatePI(sequence: string): number {
   // Side chain pKa values
   for (const aa of seq) {
     switch (aa) {
-      case "D": pks.push(3.65); break;
-      case "E": pks.push(4.25); break;
-      case "C": pks.push(8.18); break;
-      case "Y": pks.push(10.07); break;
-      case "H": pks.push(6.00); break;
-      case "K": pks.push(10.53); break;
-      case "R": pks.push(12.48); break;
+      case "D":
+        pks.push(3.65);
+        break;
+      case "E":
+        pks.push(4.25);
+        break;
+      case "C":
+        pks.push(8.18);
+        break;
+      case "Y":
+        pks.push(10.07);
+        break;
+      case "H":
+        pks.push(6.0);
+        break;
+      case "K":
+        pks.push(10.53);
+        break;
+      case "R":
+        pks.push(12.48);
+        break;
     }
   }
 
@@ -156,7 +198,7 @@ export function calculateCharge(sequence: string, pH: number): number {
   return Math.round(calculateChargeAtPH(seq, pH) * 100) / 100;
 }
 
-function calculateChargeAtPH(seq: string, pH: number, pks?: number[]): number {
+function calculateChargeAtPH(seq: string, pH: number, _pks?: number[]): number {
   let charge = 0;
 
   // N-terminal amino group (+1 at low pH)
@@ -168,13 +210,27 @@ function calculateChargeAtPH(seq: string, pH: number, pks?: number[]): number {
   // Side chains
   for (const aa of seq) {
     switch (aa) {
-      case "D": charge -= 1 / (1 + Math.pow(10, 3.65 - pH)); break;
-      case "E": charge -= 1 / (1 + Math.pow(10, 4.25 - pH)); break;
-      case "C": charge -= 1 / (1 + Math.pow(10, 8.18 - pH)); break;
-      case "Y": charge -= 1 / (1 + Math.pow(10, 10.07 - pH)); break;
-      case "H": charge += 1 / (1 + Math.pow(10, pH - 6.00)); break;
-      case "K": charge += 1 / (1 + Math.pow(10, pH - 10.53)); break;
-      case "R": charge += 1 / (1 + Math.pow(10, pH - 12.48)); break;
+      case "D":
+        charge -= 1 / (1 + Math.pow(10, 3.65 - pH));
+        break;
+      case "E":
+        charge -= 1 / (1 + Math.pow(10, 4.25 - pH));
+        break;
+      case "C":
+        charge -= 1 / (1 + Math.pow(10, 8.18 - pH));
+        break;
+      case "Y":
+        charge -= 1 / (1 + Math.pow(10, 10.07 - pH));
+        break;
+      case "H":
+        charge += 1 / (1 + Math.pow(10, pH - 6.0));
+        break;
+      case "K":
+        charge += 1 / (1 + Math.pow(10, pH - 10.53));
+        break;
+      case "R":
+        charge += 1 / (1 + Math.pow(10, pH - 12.48));
+        break;
     }
   }
 
