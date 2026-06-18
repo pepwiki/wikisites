@@ -1,6 +1,6 @@
 # wikisites
 
-Monorepo for two oligopeptide educational websites: 98 articles, 29 flashcards, 23 quiz questions
+Monorepo for two oligopeptide educational websites.
 
 - **Encyclopeptide** (encyclopeptide.com) -- Academic reference for oligopeptide research
 - **Wikipept** (wikipept.com) -- Community-driven learning platform with quizzes, flashcards, and annotations
@@ -11,13 +11,13 @@ Monorepo for two oligopeptide educational websites: 98 articles, 29 flashcards, 
 wikisites/
   packages/
     shared/     @wikisites/shared     Zod schemas, types, molecular weight calculation
-    query/      @wikisites/query      Peptide search engine with Zod-validated input
+    query/      @wikisites/query      FSRS v4 spaced repetition, search engine, review store
     workers/    @wikisites/workers    Cloudflare Workers API (health, search, static asset routing)
     encp/       @wikisites/encp       Astro static site for encyclopeptide.com
     wiki/       @wikisites/wiki       Astro + SolidJS static site for wikipept.com
 ```
 
-**Dependency graph:**
+Dependency graph:
 
 ```
 shared  <--  query     <--  encp
@@ -35,45 +35,12 @@ shared  <--  workers
 | Type Safety    | TypeScript 5.9 (strict mode)       |
 | Validation     | Zod 3.x                            |
 | Testing        | Vitest 3.x + Playwright            |
-| Linting        | ESLint 9.x + Prettier 3.x          |
+| Linting        | ESLint 9.x (flat config) + Biome   |
+| Formatting     | Prettier 3.x                       |
 | Commit Linting | commitlint (Conventional Commits)  |
 | Package Mgr    | Bun 1.3                            |
 | Hosting        | Cloudflare Pages + Workers         |
-| CI/CD          | GitHub Actions                     |
-
-## Dark Mode
-
-Both sites support dark mode via Tailwind's `dark:` variant system:
-
-- **Wikipept**: Starlight theme toggle (Auto/Dark/Light) stored in `localStorage` as `starlight-theme`, applied via `data-theme="dark"` attribute on `<html>`
-- **Encyclopeptide**: Custom theme toggle in header, stored as `encp-theme`, applied via `data-theme="dark"` attribute
-
-### Adding dark mode to new components
-
-```astro
-<!-- Use dark: variants for all color classes -->
-<div class="bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-100">
-  <p class="text-slate-600 dark:text-slate-400">Content</p>
-</div>
-```
-
-### Color palette (dark mode)
-
-| Element     | Light     | Dark      |
-| ----------- | --------- | --------- |
-| Body bg     | `#f8fafc` | `#020617` |
-| Card bg     | `#ffffff` | `#1e293b` |
-| Sidebar/Nav | `#ffffff` | `#0f172a` |
-| Text        | `#1e293b` | `#e2e8f0` |
-| Muted text  | `#64748b` | `#94a3b8` |
-| Border      | `#e2e8f0` | `#334155` |
-| Accent      | `#0d9488` | `#0d9488` |
-
-### Testing dark mode
-
-```bash
-bunx playwright test tests/e2e/dark-mode.spec.ts --reporter=list
-```
+| CI/CD          | GitHub Actions (Forgejo-compatible)|
 
 ## Prerequisites
 
@@ -95,15 +62,18 @@ bun run dev        # Starts both encp and wiki dev servers
 | `bun run dev:encp`      | Start encyclopeptide dev server         |
 | `bun run dev:wiki`      | Start wikipept dev server               |
 | `bun run build`         | Build both sites                        |
-| `bun run test`          | Run Vitest test suite                   |
+| `bun run test`          | Run Vitest test suite (242 tests)       |
 | `bun run test:coverage` | Run tests with V8 coverage report       |
-| `bun run lint`          | ESLint                                  |
+| `bun run lint`          | ESLint (flat config)                    |
 | `bun run format`        | Prettier format all files               |
+| `bun run format:check`  | Prettier check (no write)               |
 | `bun run typecheck`     | TypeScript type checking (all packages) |
 | `bun run check`         | typecheck + lint + format + test        |
 | `bun run clean`         | Remove all dist/ and node_modules/      |
 
 ## Testing
+
+Unit tests: 242 tests across 19 test files in 5 packages.
 
 ```bash
 bun run test              # Run all unit tests
@@ -113,29 +83,29 @@ bunx playwright test      # Run E2E tests
 
 Coverage thresholds (enforced in `vitest.config.ts`):
 
-- Lines: 80%
-- Branches: 80%
-- Functions: 80%
-- Statements: 80%
+| Metric    | Threshold |
+| --------- | --------- |
+| Lines     | 80%       |
+| Branches  | 80%       |
+| Functions | 80%       |
+| Statements| 80%       |
 
-E2E tests (`tests/e2e/`) verify:
+E2E tests (`tests/e2e/`) cover:
 
-- All 22 wiki routes render in light and dark mode
-- Theme toggle correctly sets `data-theme` attribute
-- Body/header backgrounds are dark in dark mode
-- No SSR errors on custom pages (quizzes, flashcards, review, daily)
+- Dark mode verification across all routes
+- Accessibility audit (axe-core WCAG 2.1 AA)
+- Visual regression baselines
+- Full GUI traversal with DOM/screenshot capture
 
 ## CI/CD
 
 The GitHub Actions pipeline (`.github/workflows/ci.yml`) runs on push/PR to `main`:
 
-1. **Lint** -- ESLint + Prettier format check
-2. **Type Check** -- TypeScript strict mode validation
-3. **Test** -- Vitest with coverage reporting
-4. **Build** -- Astro static site generation for both sites
-5. **E2E** -- Playwright dark mode verification
-6. **Lighthouse** -- Performance audit (push only)
-7. **Deploy** -- Cloudflare Pages deployment (main branch only)
+1. **Lint, Typecheck, Test** -- ESLint + Prettier + TypeScript + Vitest with coverage
+2. **Build** -- Astro static site generation + Pagefind search indexing
+3. **E2E** -- Playwright dark mode, accessibility, visual regression
+4. **Lighthouse** -- Performance audit (push only)
+5. **Deploy** -- Cloudflare Pages (main branch only)
 
 ## Deployment
 
@@ -152,10 +122,36 @@ Husky + lint-staged enforce on every commit:
 
 - ESLint auto-fix on `.ts`, `.tsx`, `.js`, `.jsx`
 - Prettier formatting on all staged files
-- TypeScript type checking on `.ts`, `.tsx`
-- Full test suite execution
 
 Commit messages must follow Conventional Commits (enforced by commitlint).
+
+## Dark Mode
+
+Both sites support dark mode via `data-theme` attribute on `<html>`:
+
+- **Wikipept**: Starlight theme toggle (Auto/Dark/Light), stored in `localStorage` as `starlight-theme`
+- **Encyclopeptide**: Custom theme toggle, stored as `encp-theme`
+- **Cross-subdomain**: Shared cookie `wikisites-theme` on `.pages.dev` domain
+
+### Adding dark mode to new components
+
+```astro
+<div class="bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100">
+  <p class="text-slate-600 dark:text-slate-400">Content</p>
+</div>
+```
+
+### Color palette
+
+| Element     | Light     | Dark      |
+| ----------- | --------- | --------- |
+| Body bg     | `#f8fafc` | `#020617` |
+| Card bg     | `#ffffff` | `#1e293b` |
+| Sidebar/Nav | `#ffffff` | `#0f172a` |
+| Text        | `#1e293b` | `#e2e8f0` |
+| Muted text  | `#64748b` | `#94a3b8` |
+| Border      | `#e2e8f0` | `#334155` |
+| Accent      | `#0d9488` | `#0d9488` |
 
 ## License
 

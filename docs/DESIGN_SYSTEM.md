@@ -101,16 +101,19 @@ All interactive elements have visible focus indicators in both themes:
 
 ### Reduced Motion
 
-Theme transitions respect `prefers-reduced-motion`:
+Both sites respect `prefers-reduced-motion`. The wiki `global.css` includes:
 
 ```css
 @media (prefers-reduced-motion: reduce) {
-  body,
-  header,
-  footer,
-  .spatial-card {
-    transition: none;
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
+  .amoebic-blob { animation: none; }
+  .spatial-card:hover { transform: none; }
 }
 ```
 
