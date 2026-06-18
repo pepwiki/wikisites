@@ -1,8 +1,9 @@
 import { createContext, useContext, createSignal, onMount, type ParentComponent } from "solid-js";
 import {
-  STORAGE_KEY,
   emptySessionData,
   emptySessionSnapshot,
+  loadStats,
+  saveStats,
   mergeSession,
   type SessionData,
   type SessionSnapshot,
@@ -22,26 +23,6 @@ interface SessionContextValue {
 }
 
 const SessionContext = createContext<SessionContextValue>();
-
-function loadStats(): SessionData {
-  if (typeof window === "undefined") return emptySessionData();
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return emptySessionData();
-    return JSON.parse(raw) as SessionData;
-  } catch {
-    return emptySessionData();
-  }
-}
-
-function saveStats(data: SessionData): void {
-  if (typeof window === "undefined") return;
-  try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
-  } catch {
-    // quota exceeded or SSR
-  }
-}
 
 export const SessionProvider: ParentComponent = (props) => {
   const [allTime, setAllTime] = createSignal<SessionData>(emptySessionData());

@@ -34,6 +34,32 @@ export function emptySessionData(): SessionData {
   };
 }
 
+/**
+ * Load session data from localStorage. Returns empty data if unavailable.
+ */
+export function loadStats(): SessionData {
+  if (typeof window === "undefined") return emptySessionData();
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return emptySessionData();
+    return JSON.parse(raw) as SessionData;
+  } catch {
+    return emptySessionData();
+  }
+}
+
+/**
+ * Save session data to localStorage. No-op if unavailable.
+ */
+export function saveStats(data: SessionData): void {
+  if (typeof window === "undefined") return;
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+  } catch {
+    // quota exceeded or SSR
+  }
+}
+
 export function emptySessionSnapshot(): SessionSnapshot {
   return {
     reviews: 0,
