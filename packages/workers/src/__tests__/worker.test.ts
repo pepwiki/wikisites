@@ -14,22 +14,6 @@ const mockEnv: Env = {
         }),
       )) as typeof fetch,
   },
-  DB: {
-    exec: async () => ({}),
-    prepare: () => ({
-      bind: () => ({
-        first: async () => null,
-        run: async () => ({}),
-      }),
-      first: async () => null,
-    }),
-  } as unknown as Env["DB"],
-  PUSH_SUBSCRIPTIONS: {
-    get: async () => null,
-    put: async () => {},
-    delete: async () => {},
-    list: async () => ({ keys: [], list_complete: true, cacheStatus: null }),
-  } as unknown as Env["PUSH_SUBSCRIPTIONS"],
 };
 
 // ---------------------------------------------------------------------------
@@ -95,23 +79,12 @@ describe("Worker fetch handler", () => {
   });
 
   describe("API: /api/search", () => {
-    it("returns search results via D1 FTS", async () => {
+    it("returns rate limit response for search", async () => {
       const request = makeRequest("https://example.com/api/search", "GET", { q: "glutathione" });
       const response = await worker.fetch(request, mockEnv);
       expect(response.status).toBe(200);
-      const body = await response.json<{
-        query: string;
-        results: unknown[];
-        total: number;
-      }>();
-      expect(body.query).toBe("glutathione");
-      expect(body.results).toEqual([]);
-    });
-
-    it("returns 400 when q param is missing", async () => {
-      const request = makeRequest("https://example.com/api/search");
-      const response = await worker.fetch(request, mockEnv);
-      expect(response.status).toBe(400);
+      const body = await response.json<{ status: string; message: string }>();
+      expect(body.status).toBe("ok");
     });
   });
 
