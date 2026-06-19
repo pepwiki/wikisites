@@ -1,5 +1,8 @@
 import { batch, createMemo, createSignal, For, Show } from "solid-js";
+import ErrorBoundary from "./ErrorBoundary";
 import Quiz from "./Quiz";
+import { trackQuizResult } from "./ScoreTracker";
+import { getRecommendedDifficulty } from "./AdaptiveDifficulty";
 
 interface QuizQuestion {
   id: string;
@@ -103,6 +106,7 @@ export default function QuizSession(props: QuizSessionProps) {
 
     let sorted: QuizQuestion[];
     if (round > 1) {
+      const recommended = getRecommendedDifficulty(category ?? "all");
       sorted = [...qs].sort((a, b) => {
         const accA = map.get(a.id) ?? 0;
         const accB = map.get(b.id) ?? 0;
@@ -160,6 +164,8 @@ export default function QuizSession(props: QuizSessionProps) {
 
   const handleNext = () => {
     if (current() + 1 >= total()) {
+      const quizId = selectedCategory() ?? "all";
+      trackQuizResult(quizId, correctCount(), total(), Date.now() - startTime);
       setElapsed(Math.round((Date.now() - startTime) / 1000));
       setDone(true);
     } else {
@@ -307,14 +313,16 @@ export default function QuizSession(props: QuizSessionProps) {
         </div>
 
         <Show when={currentQuestion()}>
-          <Quiz
-            client:load
-            question={currentQuestion()!.question}
-            options={currentQuestion()!.options}
-            correctIndex={currentQuestion()!.correctIndex}
-            explanation={currentQuestion()!.explanation}
-            onReveal={handleReveal}
-          />
+          <ErrorBoundary componentName="Quiz">
+            <Quiz
+              client:load
+              question={currentQuestion()!.question}
+              options={currentQuestion()!.options}
+              correctIndex={currentQuestion()!.correctIndex}
+              explanation={currentQuestion()!.explanation}
+              onReveal={handleReveal}
+            />
+          </ErrorBoundary>
         </Show>
 
         <Show when={revealed()}>

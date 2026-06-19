@@ -4,9 +4,13 @@ const en: TranslationMessages = {
   nav: {
     home: "Home",
     articles: "Articles",
-    glossary: "Glossary",
-    quiz: "Quiz",
+    learn: "Learn",
+    review: "Review",
+    quizzes: "Quizzes",
     flashcards: "Flashcards",
+    glossary: "Glossary",
+    community: "Community",
+    quiz: "Quiz",
   },
   language: {
     switcher: "Language",

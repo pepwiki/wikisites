@@ -3,6 +3,7 @@ import { isDue } from "@wikisites/query/fsrs";
 import type { DeckId, SiteKey } from "@wikisites/query/review-store";
 import { loadCards } from "@wikisites/query/review-store";
 import { createEffect, createSignal, For, Show } from "solid-js";
+import ErrorBoundary from "./ErrorBoundary";
 import Flashcard from "./Flashcard";
 import KeyboardShortcuts from "./KeyboardShortcuts";
 
@@ -168,14 +169,16 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
       </Show>
 
       <Show when={currentCard()}>
-        <Flashcard
-          front={currentCard()!.front}
-          back={currentCard()!.back}
-          tags={currentCard()!.tags}
-          cardId={currentCard()!.id}
-          site={props.site}
-          deckId={props.deckId}
-        />
+        <ErrorBoundary componentName="Flashcard">
+          <Flashcard
+            front={currentCard()!.front}
+            back={currentCard()!.back}
+            tags={currentCard()!.tags}
+            cardId={currentCard()!.id}
+            site={props.site}
+            deckId={props.deckId}
+          />
+        </ErrorBoundary>
         <button
           type="button"
           class="mt-4 w-full px-4 py-2 bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 rounded-xl font-medium hover:bg-slate-200 dark:hover:bg-slate-600 transition-colors"

@@ -5,6 +5,11 @@ import Toaster from "../components/ui/Toaster";
 import MobileNav from "../components/MobileNav";
 import CookieConsent from "../components/CookieConsent.tsx";
 import PushNotifications from "../components/PushNotifications.tsx";
+import LanguageSwitcher from "../components/LanguageSwitcher";
+import { loadTranslations, t } from "@wikisites/shared/i18n";
+import en from "@wikisites/shared/i18n/locales/en";
+
+loadTranslations("en", en);
 
 interface Props {
   title: string;
@@ -60,6 +65,10 @@ const {
         });
       })();
     </script>
+    <script>
+      import { initErrorTracking } from "../lib/error-tracking";
+      initErrorTracking();
+    </script>
     <meta name="description" content={description} />
     <meta name="robots" content="index, follow" />
     <meta name="theme-color" content="#0D9488" />
@@ -92,6 +101,21 @@ const {
         }
       });
     </script>
+    <script>
+      import { trackSearch } from "../lib/search-analytics";
+      window.addEventListener("DOMContentLoaded", () => {
+        const searchInput = document.querySelector("#search input");
+        if (!searchInput) return;
+        let debounceTimer: ReturnType<typeof setTimeout>;
+        searchInput.addEventListener("input", () => {
+          clearTimeout(debounceTimer);
+          debounceTimer = setTimeout(() => {
+            const results = document.querySelectorAll("#search .pagefind-ui__result");
+            trackSearch((searchInput as HTMLInputElement).value, results.length);
+          }, 500);
+        });
+      });
+    </script>
   </head>
   <body class="bg-[#F8FAFC] dark:bg-slate-950 text-slate-900 dark:text-slate-100 font-sans">
     <Toaster client:only="solid-js" />
@@ -115,34 +139,35 @@ const {
           <a
             href="/learn"
             class="text-slate-600 dark:text-slate-400 hover:text-[#0D9488] focus:text-[#0D9488] focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 rounded transition-colors"
-            >Learn</a
+            >{t("nav.learn")}</a
           >
           <a
             href="/review"
             class="text-slate-600 dark:text-slate-400 hover:text-[#0D9488] focus:text-[0D9488] focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 rounded transition-colors"
-            >Review</a
+            >{t("nav.review")}</a
           >
           <a
             href="/quizzes"
             class="text-slate-600 dark:text-slate-400 hover:text-[#0D9488] focus:text-[0D9488] focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 rounded transition-colors"
-            >Quizzes</a
+            >{t("nav.quizzes")}</a
           >
           <a
             href="/flashcards"
             class="text-slate-600 dark:text-slate-400 hover:text-[#0D9488] focus:text-[0D9488] focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 rounded transition-colors"
-            >Flashcards</a
+            >{t("nav.flashcards")}</a
           >
           <a
             href="/community"
             class="text-slate-600 dark:text-slate-400 hover:text-[#0D9488] focus:text-[0D9488] focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 rounded transition-colors"
-            >Community</a
+            >{t("nav.community")}</a
           >
           <a
             href="/glossary"
             class="text-slate-600 dark:text-slate-400 hover:text-[0D9488] focus:text-[0D9488] focus:outline-none focus:ring-2 focus:ring-[#0D9488] focus:ring-offset-2 dark:focus:ring-offset-slate-900 rounded transition-colors"
-            >Glossary</a
+            >{t("nav.glossary")}</a
           >
         </div>
+        <LanguageSwitcher client:load />
         <MobileNav client:load currentPath={Astro.url.pathname} />
       </nav>
     </header>

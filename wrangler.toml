@@ -3,28 +3,31 @@ main = "packages/workers/src/index.ts"
 compatibility_date = "2026-06-07"
 compatibility_flags = ["nodejs_compat"]
 
-# Bindings for Cloudflare services
+# Secrets (set via `wrangler secret put <NAME>`)
+# JWT_SECRET - HMAC-SHA256 secret for JWT signing (generate: openssl rand -hex 32)
+
+# KV namespace for session cache
+# Provision: wrangler kv namespace create CACHE
+# Then uncomment and fill in the id:
 # [kv_namespaces]
 # binding = "CACHE"
-# id = "your-kv-namespace-id"
+# id = "<FILL_IN_AFTER_PROVISION>"
 
-# [r2_buckets]
-# binding = "ASSETS_BUCKET"
-# bucket_name = "wikisites-assets"
-
+# D1 database for user data, annotations, comments, progress
+# Provision: wrangler d1 create wikisites-db
+# Then uncomment and fill in the database_id:
 # [d1_databases]
 # binding = "DB"
 # database_name = "wikisites-db"
-# database_id = "your-d1-database-id"
+# database_id = "<FILL_IN_AFTER_PROVISION>"
+# migrations_dir = "packages/workers/src/db/migrations"
 
-# [durable_objects]
-# [[durable_objects.bindings]]
-# name = "WikiCollaboration"
-# class_name = "WikiCollaboration"
-
-# [migrations]
-# tag = "v1"
-# new_classes = ["WikiCollaboration"]
+# Push notification subscriptions KV
+# Provision: wrangler kv namespace create PUSH_SUBSCRIPTIONS
+# Then uncomment:
+# [[kv_namespaces]]
+# binding = "PUSH_SUBSCRIPTIONS"
+# id = "<FILL_IN_AFTER_PROVISION>"
 
 [[routes]]
 pattern = "encyclopeptide.com/api/*"
