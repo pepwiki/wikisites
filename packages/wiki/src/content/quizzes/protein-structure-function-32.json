@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of alpha-synuclein in Parkinson's disease?",
+  "options": [
+    "It is a protective antioxidant",
+    "Its misfolding and aggregation contribute to neurodegeneration",
+    "It is only found in healthy neurons",
+    "It promotes protein synthesis"
+  ],
+  "correctIndex": 1,
+  "explanation": "Alpha-synuclein misfolds and aggregates to form Lewy bodies in Parkinson's disease, leading to dopaminergic neuron death and disease progression.",
+  "difficulty": "advanced",
+  "tags": ["structure", "function"]
+}

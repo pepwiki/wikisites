@@ -1,0 +1,16 @@
+{
+  "question": "Which protease is activated during neutrophil degranulation to degrade extracellular matrix?",
+  "options": [
+    "Caspase-3",
+    "Neutrophil elastase",
+    "Calpain-1",
+    "Cathepsin B"
+  ],
+  "correctIndex": 1,
+  "explanation": "Neutrophil elastase is a serine protease stored in azurophilic granules. Upon activation, it degrades elastin, collagen, and proteoglycans during inflammation.",
+  "difficulty": "advanced",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

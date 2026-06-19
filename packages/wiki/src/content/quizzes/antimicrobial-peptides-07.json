@@ -1,0 +1,16 @@
+{
+  "question": "Which defense peptide is produced by Paneth cells in the gut?",
+  "options": [
+    "LL-37",
+    "Alpha-defensins (cryptdins)",
+    "Cathelicidins",
+    "Histatins"
+  ],
+  "correctIndex": 1,
+  "explanation": "Paneth cells at the base of intestinal crypts secrete alpha-defensins and other antimicrobial peptides that shape the gut microbiome and protect against pathogens.",
+  "difficulty": "beginner",
+  "tags": [
+    "antimicrobial",
+    "defense"
+  ]
+}

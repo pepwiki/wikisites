@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the Cys-Ser disulfide engineering?",
+  "options": [
+    "It always decreases stability",
+    "It creates a reducible crosslink for controlled release",
+    "It eliminates biological activity",
+    "It only works in reducing environments"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cys-Ser disulfide engineering can create reducible crosslinks that release active peptide in reducing intracellular environments for targeted delivery.",
+  "difficulty": "advanced",
+  "tags": ["stability", "modifications"]
+}

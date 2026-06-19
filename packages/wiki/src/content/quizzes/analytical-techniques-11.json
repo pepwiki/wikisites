@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the b and y ions in peptide fragmentation?",
+  "options": [
+    "They are only for protein quantification",
+    "They represent N-terminal and C-terminal fragments for sequencing",
+    "They measure peptide concentration",
+    "They indicate post-translational modifications only"
+  ],
+  "correctIndex": 1,
+  "explanation": "b ions are N-terminal fragments and y ions are C-terminal fragments from peptide backbone cleavage. The mass differences between consecutive ions reveal the amino acid sequence.",
+  "difficulty": "intermediate",
+  "tags": ["analytical", "techniques"]
+}

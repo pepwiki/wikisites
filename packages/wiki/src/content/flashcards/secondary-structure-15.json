@@ -1,0 +1,9 @@
+{
+  "front": "What is a left-handed alpha-helix?",
+  "back": "A left-handed alpha-helix is a rare secondary structure with opposite handedness to the common right-handed alpha-helix. It has approximately 4.1 residues per turn and is energetically less favorable.",
+  "tags": [
+    "structure",
+    "secondary"
+  ],
+  "difficulty": "advanced"
+}

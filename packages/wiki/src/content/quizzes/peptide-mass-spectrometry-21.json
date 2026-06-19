@@ -1,0 +1,16 @@
+{
+  "question": "What is the resolution of a mass analyzer?",
+  "options": [
+    "Sample loading speed",
+    "Ability to distinguish two peaks separated by 1 m/z at a given m/z value",
+    "The mass accuracy only",
+    "The number of scans per second"
+  ],
+  "correctIndex": 1,
+  "explanation": "Resolution describes the ability to separate closely spaced m/z values. Higher resolution reduces spectral complexity and improves confident peptide identification.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of negative selection in the thymus?",
+  "options": [
+    "It activates T cells",
+    "It eliminates T cells that strongly recognize self-antigens",
+    "It produces new T cells",
+    "It matures B cells"
+  ],
+  "correctIndex": 1,
+  "explanation": "Negative selection eliminates T cells that bind too strongly to self-peptide-MHC complexes, preventing autoimmunity by removing self-reactive T cells.",
+  "difficulty": "intermediate",
+  "tags": ["immunology", "peptides"]
+}

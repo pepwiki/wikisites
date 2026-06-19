@@ -1,0 +1,9 @@
+{
+  "front": "What is Edman degradation?",
+  "back": "Edman degradation sequentially removes and identifies N-terminal amino acids from a peptide using phenylisothiocyanate (PITC). It can sequence approximately 20-50 residues from the N-terminus.",
+  "tags": [
+    "analytical",
+    "methods"
+  ],
+  "difficulty": "intermediate"
+}

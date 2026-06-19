@@ -1,0 +1,13 @@
+{
+  "question": "What is the difference between Gs and Gi proteins?",
+  "options": [
+    "Gs activates adenylyl cyclase, Gi inhibits it",
+    "Gs inhibits adenylyl cyclase, Gi activates it",
+    "They have different receptor specificities",
+    "They both activate phospholipase C"
+  ],
+  "correctIndex": 0,
+  "explanation": "Gs proteins stimulate adenylyl cyclase, increasing cAMP production. Gi proteins inhibit adenylyl cyclase, decreasing cAMP. This opposition allows fine-tuning of signaling.",
+  "difficulty": "intermediate",
+  "tags": ["receptors", "pharmacology"]
+}

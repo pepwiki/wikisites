@@ -1,0 +1,16 @@
+{
+  "question": "What is the advantage of alpha-emitting radionuclides for micrometastatic disease?",
+  "options": [
+    "Longer range reaches all cells",
+    "Short range delivers lethal dose to small clusters without crossfire to distant normal tissue",
+    "Lower radiation damage",
+    "Better imaging quality"
+  ],
+  "correctIndex": 1,
+  "explanation": "Alpha particles have a range matching micrometastases size (~50-100 um), delivering highly cytotoxic radiation while sparing surrounding normal tissue.",
+  "difficulty": "advanced",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

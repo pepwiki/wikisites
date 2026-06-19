@@ -1,0 +1,16 @@
+{
+  "question": "What is an excipient in peptide drug formulation?",
+  "options": [
+    "The active peptide ingredient",
+    "Inactive substances used as carriers, diluents, or stabilizers",
+    "Contaminants in the drug",
+    "Packaging materials only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Excipients are inactive ingredients that serve as vehicles, carriers, or stabilizers for the active peptide drug.",
+  "difficulty": "beginner",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

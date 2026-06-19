@@ -1,0 +1,13 @@
+{
+  "question": "What is the difference between bioequivalence and therapeutic equivalence?",
+  "options": [
+    "They are the same thing",
+    "Bioequivalence compares PK, therapeutic equivalence compares clinical effects",
+    "Bioequivalence is for generics only",
+    "Therapeutic equivalence requires new clinical trials"
+  ],
+  "correctIndex": 1,
+  "explanation": "Bioequivalence shows similar PK profiles, while therapeutic equivalence demonstrates comparable clinical efficacy and safety, which may require additional clinical data.",
+  "difficulty": "advanced",
+  "tags": ["clinical", "trials"]
+}

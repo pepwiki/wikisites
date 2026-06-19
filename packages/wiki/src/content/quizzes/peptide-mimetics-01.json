@@ -1,0 +1,16 @@
+{
+  "question": "What is a peptidomimetic?",
+  "options": [
+    "A natural peptide",
+    "A molecule that mimics the biological activity of a peptide with non-peptide structural features",
+    "A protein enzyme",
+    "A carbohydrate drug"
+  ],
+  "correctIndex": 1,
+  "explanation": "Peptidomimetics are designed molecules that replicate the three-dimensional presentation of pharmacophoric groups of a peptide while improving drug-like properties.",
+  "difficulty": "beginner",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

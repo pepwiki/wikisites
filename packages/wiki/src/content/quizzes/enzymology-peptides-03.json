@@ -1,0 +1,16 @@
+{
+  "question": "Which protease cleaves after positively charged residues (Lys, Arg)?",
+  "options": [
+    "Chymotrypsin",
+    "Elastase",
+    "Trypsin",
+    "Carboxypeptidase A"
+  ],
+  "correctIndex": 2,
+  "explanation": "Trypsin cleaves peptide bonds on the C-terminal side of lysine and arginine residues due to its specificity pocket accommodating positively charged side chains.",
+  "difficulty": "beginner",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the advantage of cell-free peptide library synthesis?",
+  "options": [
+    "Uses living cells only",
+    "In vitro translation allows incorporation of non-natural amino acids and toxic sequences",
+    "Always produces glycosylated peptides",
+    "Requires only standard amino acids"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cell-free translation systems (e.g., PURE system) enable incorporation of non-natural amino acids and avoid toxicity constraints of cell-based expression.",
+  "difficulty": "intermediate",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

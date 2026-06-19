@@ -1,0 +1,13 @@
+{
+  "question": "What is molecular dynamics (MD) simulation used for in peptide design?",
+  "options": [
+    "To synthesize peptides",
+    "To study peptide structure and dynamics over time",
+    "To purify peptides",
+    "To manufacture peptides"
+  ],
+  "correctIndex": 1,
+  "explanation": "MD simulations model the physical movements of atoms over time, providing insights into peptide folding, flexibility, and interactions with targets.",
+  "difficulty": "beginner",
+  "tags": ["computational", "design"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is a drug-device combination product?",
+  "options": [
+    "Two separate products",
+    "A product combining a drug with a delivery device requiring integrated development",
+    "Only a drug product",
+    "Only a medical device"
+  ],
+  "correctIndex": 1,
+  "explanation": "Combination products like insulin pens integrate drug and device development with coordinated regulatory submissions.",
+  "difficulty": "advanced",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

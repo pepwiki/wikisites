@@ -1,0 +1,9 @@
+{
+  "front": "What is method validation?",
+  "back": "Method validation demonstrates that an analytical method meets its intended purpose. It assesses accuracy, precision, specificity, linearity, range, robustness, and detection/quantitation limits.",
+  "tags": [
+    "analytics",
+    "validation"
+  ],
+  "difficulty": "beginner"
+}

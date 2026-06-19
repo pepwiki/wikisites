@@ -1,0 +1,13 @@
+{
+  "question": "What is the primary benefit of PEGylation for peptide drugs?",
+  "options": [
+    "It decreases molecular weight",
+    "It increases circulation half-life and reduces immunogenicity",
+    "It always increases binding affinity",
+    "It reduces synthesis cost"
+  ],
+  "correctIndex": 1,
+  "explanation": "PEGylation adds polyethylene glycol chains that increase hydrodynamic radius, reduce renal clearance, shield from proteases, and reduce immune recognition.",
+  "difficulty": "beginner",
+  "tags": ["stability", "modifications"]
+}

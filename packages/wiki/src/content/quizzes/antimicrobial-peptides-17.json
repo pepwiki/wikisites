@@ -1,0 +1,16 @@
+{
+  "question": "Which resistance mechanism involves proteolytic destruction of AMPs?",
+  "options": [
+    "Membrane lipid modification",
+    "Bacterial secretion of proteases that degrade AMPs",
+    "Active efflux of AMPs",
+    "Ribosomal target modification"
+  ],
+  "correctIndex": 1,
+  "explanation": "Some pathogenic bacteria secrete extracellular proteases that degrade host defense peptides, neutralizing the antimicrobial effect before membrane contact.",
+  "difficulty": "intermediate",
+  "tags": [
+    "antimicrobial",
+    "defense"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of the hydrophobic core in protein stability?",
+  "options": [
+    "It destabilizes the protein",
+    "It provides a driving force for folding through van der Waals interactions",
+    "It prevents protein-protein interactions",
+    "It only exists in membrane proteins"
+  ],
+  "correctIndex": 1,
+  "explanation": "The hydrophobic core excludes water and provides van der Waals interactions that stabilize the folded state, contributing significantly to protein stability.",
+  "difficulty": "intermediate",
+  "tags": ["structure", "function"]
+}

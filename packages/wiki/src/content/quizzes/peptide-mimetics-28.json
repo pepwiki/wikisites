@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of protease resistance in peptidomimetic selection?",
+  "options": [
+    "No importance",
+    "A key parameter determining in vivo half-life and therapeutic potential of peptidomimetic drugs",
+    "Only relevant for topical applications",
+    "Only affects synthesis cost"
+  ],
+  "correctIndex": 1,
+  "explanation": "Protease resistance directly determines in vivo half-life and bioavailability. Peptidomimetics with improved resistance show longer duration of action and reduced dosing frequency.",
+  "difficulty": "advanced",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

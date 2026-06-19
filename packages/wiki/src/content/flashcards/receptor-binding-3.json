@@ -1,0 +1,9 @@
+{
+  "front": "What is EC50?",
+  "back": "EC50 (half-maximal effective concentration) is the concentration of an agonist that produces 50% of the maximum response. It measures the potency of an agonist at a receptor.",
+  "tags": [
+    "receptors",
+    "binding"
+  ],
+  "difficulty": "beginner"
+}

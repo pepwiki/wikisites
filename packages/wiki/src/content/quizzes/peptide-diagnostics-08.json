@@ -1,0 +1,16 @@
+{
+  "question": "What is a point-of-care (POC) diagnostic test?",
+  "options": [
+    "Laboratory-based centralized testing",
+    "A test performed near the patient with rapid results",
+    "A test requiring specialized equipment only",
+    "A test that takes days to complete"
+  ],
+  "correctIndex": 1,
+  "explanation": "POC tests provide rapid results at or near the site of patient care, enabling immediate clinical decisions.",
+  "difficulty": "beginner",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

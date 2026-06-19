@@ -1,0 +1,16 @@
+{
+  "question": "What is deconvolution in peptide library screening?",
+  "options": [
+    "Purification of a single peptide",
+    "Identifying the active sequence from a library after finding a positive pool through iterative sub-pooling",
+    "Breaking peptide bonds",
+    "Removing protecting groups"
+  ],
+  "correctIndex": 1,
+  "explanation": "Deconvolution identifies individual active sequences from positive pools by systematically subdividing the library into smaller sub-pools and re-screening.",
+  "difficulty": "intermediate",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

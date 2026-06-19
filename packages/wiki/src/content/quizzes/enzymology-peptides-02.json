@@ -1,0 +1,16 @@
+{
+  "question": "Which class of proteases uses a catalytic triad of Ser-His-Asp?",
+  "options": [
+    "Metalloproteases",
+    "Cysteine proteases",
+    "Serine proteases",
+    "Aspartic proteases"
+  ],
+  "correctIndex": 2,
+  "explanation": "Serine proteases employ a Ser-His-Asp catalytic triad for nucleophilic attack on the peptide bond. Trypsin, chymotrypsin, and elastase are well-known examples.",
+  "difficulty": "beginner",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

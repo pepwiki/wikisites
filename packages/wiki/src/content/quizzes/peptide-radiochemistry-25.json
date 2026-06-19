@@ -1,0 +1,16 @@
+{
+  "question": "What is the theranostic pairing of Ga-68 and Lu-177?",
+  "options": [
+    "Both are therapeutic",
+    "Ga-68 diagnoses and selects patients; Lu-177 delivers therapy to the same target",
+    "They are always given together",
+    "They target different receptors"
+  ],
+  "correctIndex": 1,
+  "explanation": "Ga-68-DOTATATE PET identifies patients with somatostatin receptor-positive tumors for enrollment in Lu-177-DOTATATE therapy, ensuring only likely responders receive treatment.",
+  "difficulty": "advanced",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the half-life difference between native GLP-1 and exendin-4?",
+  "options": [
+    "Same half-life",
+    "Native GLP-1 is 2-5 min; exendin-4 is approximately 30 min",
+    "Exendin-4 has shorter half-life",
+    "Both last several hours"
+  ],
+  "correctIndex": 1,
+  "explanation": "Native GLP-1 is rapidly degraded by DPP-4 (half-life 2-5 min). Exendin-4 is DPP-4 resistant with a 30-min half-life, forming the basis for exenatide therapy.",
+  "difficulty": "intermediate",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

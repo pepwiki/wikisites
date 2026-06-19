@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of beta-amino acids in peptide stability?",
+  "options": [
+    "They decrease peptide stability",
+    "They are resistant to proteolytic degradation",
+    "They always reduce binding",
+    "They are only for research"
+  ],
+  "correctIndex": 1,
+  "explanation": "Beta-amino acids have an extra carbon atom in the backbone, making them unrecognizable to most proteases and conferring enhanced stability.",
+  "difficulty": "intermediate",
+  "tags": ["stability", "modifications"]
+}

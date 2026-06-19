@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of cathepsins in antigen processing?",
+  "options": [
+    "They transport peptides to the ER",
+    "They degrade proteins in endosomes/lysosomes for MHC II loading",
+    "They activate T cells",
+    "They produce antibodies"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cathepsins are proteases in endosomes/lysosomes that degrade proteins into peptides for loading onto MHC class II molecules.",
+  "difficulty": "intermediate",
+  "tags": ["immunology", "peptides"]
+}

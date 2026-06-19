@@ -1,0 +1,9 @@
+{
+  "front": "Which amino acid is optically inactive?",
+  "back": "Glycine is optically inactive because its alpha-carbon is not chiral\u2014it has two hydrogen atoms attached. All other standard amino acids are chiral and exist as L- and D-enantiomers.",
+  "tags": [
+    "amino-acids",
+    "properties"
+  ],
+  "difficulty": "beginner"
+}

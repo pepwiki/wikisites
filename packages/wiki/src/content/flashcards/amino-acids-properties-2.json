@@ -1,0 +1,9 @@
+{
+  "front": "Which amino acid has the highest molecular weight?",
+  "back": "Tryptophan has the highest molecular weight among the standard amino acids at 204.23 Da, due to its large indole side chain.",
+  "tags": [
+    "amino-acids",
+    "properties"
+  ],
+  "difficulty": "beginner"
+}

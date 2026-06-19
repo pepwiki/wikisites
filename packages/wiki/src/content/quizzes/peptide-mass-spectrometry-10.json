@@ -1,0 +1,16 @@
+{
+  "question": "What does CID produce in peptide MS/MS?",
+  "options": [
+    "Only y and b ions",
+    "y and b ion series from backbone amide bond cleavage",
+    "Only immonium ions",
+    "Complete amino acid conversion"
+  ],
+  "correctIndex": 1,
+  "explanation": "CID cleaves peptide backbone amide bonds, producing b-ions (N-terminal) and y-ions (C-terminal). Mass differences between consecutive ions reveal the amino acid sequence.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

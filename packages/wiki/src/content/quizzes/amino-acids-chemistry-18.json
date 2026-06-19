@@ -1,0 +1,8 @@
+{
+  "question": "Which amino acid is most commonly glycosylated in proteins?",
+  "options": ["Serine", "Threonine", "Asparagine", "All are equally common"],
+  "correctIndex": 2,
+  "explanation": "Asparagine is the most common site for N-linked glycosylation, where sugars attach to the amide nitrogen. The consensus sequence Asn-X-Ser/Thr is required for this modification.",
+  "difficulty": "intermediate",
+  "tags": ["amino-acids", "chemistry"]
+}

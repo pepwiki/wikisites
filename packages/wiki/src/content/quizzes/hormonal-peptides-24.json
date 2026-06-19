@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of natriuretic peptides (ANP, BNP)?",
+  "options": [
+    "Increase blood pressure",
+    "Promote natriuresis, diuresis, and vasodilation to reduce blood volume and pressure",
+    "Stimulate aldosterone release",
+    "Increase heart rate only"
+  ],
+  "correctIndex": 1,
+  "explanation": "ANP and BNP bind NPR-A receptors, activating guanylyl cyclase to produce cGMP, causing vasodilation, natriuresis, and diuresis to counteract the renin-angiotensin system.",
+  "difficulty": "advanced",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of galanin in the nervous system?",
+  "options": [
+    "Promotes seizures only",
+    "Modulates neurotransmission involved in cognition, feeding, and pain",
+    "Primary role in vision",
+    "No known function"
+  ],
+  "correctIndex": 1,
+  "explanation": "Galanin is a 29-amino acid neuropeptide that modulates acetylcholine release, regulates feeding behavior, inhibits seizures, and participates in pain processing.",
+  "difficulty": "intermediate",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

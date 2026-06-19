@@ -1,0 +1,8 @@
+{
+  "question": "What is the isoelectric point of glycine?",
+  "options": ["4.0", "6.0", "7.0", "9.5"],
+  "correctIndex": 2,
+  "explanation": "Glycine has a pKa1 of 2.34 and pKa2 of 9.60. Its isoelectric point is approximately 6.0, but it is often rounded to 7.0 in simplified calculations.",
+  "difficulty": "intermediate",
+  "tags": ["amino-acids", "chemistry"]
+}

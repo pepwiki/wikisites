@@ -1,0 +1,9 @@
+{
+  "front": "What percentage of amino acids in globular proteins are in alpha-helices vs beta-sheets?",
+  "back": "On average, alpha-helices account for about 30-40% and beta-sheets about 15-25% of residues in globular proteins. The remainder is in loops, turns, and unstructured regions.",
+  "tags": [
+    "structure",
+    "secondary"
+  ],
+  "difficulty": "beginner"
+}

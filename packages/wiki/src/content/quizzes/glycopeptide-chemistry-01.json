@@ -1,0 +1,16 @@
+{
+  "question": "What type of bond links glycans to asparagine residues?",
+  "options": [
+    "O-glycosidic bond",
+    "N-glycosidic bond",
+    "Thioester bond",
+    "Phosphoester bond"
+  ],
+  "correctIndex": 1,
+  "explanation": "N-glycosidic bonds connect glycans to the amide nitrogen of asparagine within the consensus sequence Asn-X-Ser/Thr.",
+  "difficulty": "beginner",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

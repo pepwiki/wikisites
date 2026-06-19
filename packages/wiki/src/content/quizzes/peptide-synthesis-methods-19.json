@@ -1,0 +1,13 @@
+{
+  "question": "What is the difference between Boc and Fmoc protecting groups?",
+  "options": [
+    "Boc is acid-labile, Fmoc is base-labile",
+    "Boc is base-labile, Fmoc is acid-labile",
+    "Both are acid-labile",
+    "Both are base-labile"
+  ],
+  "correctIndex": 0,
+  "explanation": "Boc (tert-butyloxycarbonyl) is removed by acid (TFA), while Fmoc (fluorenylmethyloxycarbonyl) is removed by base (piperidine). This orthogonal chemistry allows selective deprotection.",
+  "difficulty": "beginner",
+  "tags": ["synthesis", "methods"]
+}

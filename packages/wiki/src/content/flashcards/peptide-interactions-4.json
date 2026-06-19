@@ -1,0 +1,9 @@
+{
+  "front": "What is an ionic interaction (salt bridge)?",
+  "back": "Ionic interactions form between oppositely charged residues (e.g., Lys\u207a and Asp\u207b). Salt bridges contribute 5-10 kJ/mol and are important for protein stability and peptide-receptor binding.",
+  "tags": [
+    "interactions",
+    "binding"
+  ],
+  "difficulty": "beginner"
+}

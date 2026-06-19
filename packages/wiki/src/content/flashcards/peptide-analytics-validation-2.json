@@ -1,0 +1,9 @@
+{
+  "front": "What are the ICH guidelines?",
+  "back": "ICH (International Council for Harmonisation) guidelines provide standardized requirements for pharmaceutical development. Key guidelines include Q2 (validation), Q1A (stability), and Q6B (specifications).",
+  "tags": [
+    "analytics",
+    "validation"
+  ],
+  "difficulty": "beginner"
+}

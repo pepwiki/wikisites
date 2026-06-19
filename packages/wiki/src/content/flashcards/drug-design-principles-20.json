@@ -1,0 +1,9 @@
+{
+  "front": "What is drug-likeness?",
+  "back": "Drug-likeness refers to whether a compound has properties consistent with successful oral drugs. It is assessed using rules (Lipinski, Veber) and computational predictions of pharmacokinetic properties.",
+  "tags": [
+    "drug-design",
+    "principles"
+  ],
+  "difficulty": "beginner"
+}

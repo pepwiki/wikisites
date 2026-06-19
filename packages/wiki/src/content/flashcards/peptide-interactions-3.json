@@ -1,0 +1,9 @@
+{
+  "front": "What is the hydrophobic effect?",
+  "back": "The hydrophobic effect drives nonpolar residues to cluster in the protein interior, away from water. It is the dominant force in protein folding and peptide-receptor binding.",
+  "tags": [
+    "interactions",
+    "binding"
+  ],
+  "difficulty": "beginner"
+}

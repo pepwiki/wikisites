@@ -1,0 +1,13 @@
+{
+  "question": "What is the critical micelle concentration (CMC)?",
+  "options": [
+    "The concentration at which micelles dissolve",
+    "The concentration at which surfactants form micelles",
+    "The maximum drug loading capacity",
+    "The concentration at which nanoparticles precipitate"
+  ],
+  "correctIndex": 1,
+  "explanation": "CMC is the concentration above which surfactant molecules spontaneously aggregate to form micelles. Below CMC, surfactants exist as monomers.",
+  "difficulty": "intermediate",
+  "tags": ["delivery", "formulation"]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the hydrophobic effect in protein folding?",
+  "options": [
+    "Hydrophobic residues attract water",
+    "Hydrophobic residues cluster in the protein interior to avoid water",
+    "Hydrophobic residues are always on the surface",
+    "Hydrophobic effect prevents protein folding"
+  ],
+  "correctIndex": 1,
+  "explanation": "The hydrophobic effect drives protein folding by causing nonpolar residues to cluster in the protein core, away from water, increasing entropy of surrounding water molecules.",
+  "difficulty": "intermediate",
+  "tags": ["structure", "function"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is non-ribosomal peptide synthesis (NRPS)?",
+  "options": [
+    "Standard ribosomal translation",
+    "Enzymatic peptide synthesis using large modular enzyme complexes independent of ribosomes",
+    "Chemical synthesis only",
+    "A type of DNA replication"
+  ],
+  "correctIndex": 1,
+  "explanation": "NRPS uses massive multi-modular enzyme complexes to assemble peptides from amino acid building blocks without ribosomes.",
+  "difficulty": "beginner",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

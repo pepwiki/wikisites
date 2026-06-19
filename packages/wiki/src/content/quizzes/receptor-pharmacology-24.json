@@ -1,0 +1,13 @@
+{
+  "question": "What is the Clark model of drug-receptor interaction?",
+  "options": [
+    "Receptors exist in multiple conformational states",
+    "Drug effect is proportional to receptor occupancy",
+    "Receptors require signal amplification",
+    "Drugs bind to allosteric sites"
+  ],
+  "correctIndex": 1,
+  "explanation": "The Clark model proposes that drug effect is directly proportional to the fraction of receptors occupied, assuming a linear relationship between occupancy and response.",
+  "difficulty": "intermediate",
+  "tags": ["receptors", "pharmacology"]
+}

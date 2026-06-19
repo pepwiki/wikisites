@@ -1,0 +1,16 @@
+{
+  "question": "What is a peptoid?",
+  "options": [
+    "A peptide that binds to nucleic acids",
+    "An oligomer with side chains attached to the backbone nitrogen instead of alpha-carbon",
+    "A peptide with proline residues only",
+    "A peptide that has lost its activity"
+  ],
+  "correctIndex": 1,
+  "explanation": "Peptoids (N-substituted glycines) have side chains on the nitrogen atom rather than the alpha-carbon, making them resistant to proteases and membrane-permeable.",
+  "difficulty": "beginner",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What type of assay is an ELISA?",
+  "options": [
+    "Enzymatic assay",
+    "Enzyme-linked immunosorbent assay",
+    "Electrophoresis-based assay",
+    "Electrochemical assay"
+  ],
+  "correctIndex": 1,
+  "explanation": "ELISA uses enzyme-labeled antibodies to detect and quantify specific peptides in biological samples through colorimetric, fluorescent, or chemiluminescent signals.",
+  "difficulty": "beginner",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is the pI of lysine?",
+  "back": "The pI of lysine is approximately 9.74. At physiological pH, lysine carries a positive charge due to its epsilon-amino group with a pKa of approximately 10.5.",
+  "tags": [
+    "amino-acids",
+    "properties"
+  ],
+  "difficulty": "intermediate"
+}

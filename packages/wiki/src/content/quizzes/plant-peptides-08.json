@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of protease inhibitors in plant defense?",
+  "options": [
+    "Promote protein synthesis",
+    "Inhibit digestive proteases in herbivore guts, reducing nutritional value",
+    "Activate plant growth",
+    "Attract pollinators only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Plant protease inhibitors inhibit digestive enzymes in herbivore guts, reducing protein digestion.",
+  "difficulty": "beginner",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

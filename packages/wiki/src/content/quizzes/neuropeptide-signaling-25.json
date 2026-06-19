@@ -1,0 +1,16 @@
+{
+  "question": "What is the significance of neuropeptide receptor dimerization?",
+  "options": [
+    "Receptors never interact",
+    "Homo- and heterodimerization alters signaling properties and pharmacology",
+    "Dimerization inactivates all receptors",
+    "Only occurs with enzyme-linked receptors"
+  ],
+  "correctIndex": 1,
+  "explanation": "GPCRs form dimers that can alter ligand binding affinity, G-protein coupling specificity, and trafficking. Mu-delta opioid heteromers show enhanced analgesia.",
+  "difficulty": "advanced",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

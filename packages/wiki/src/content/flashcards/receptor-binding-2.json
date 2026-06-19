@@ -1,0 +1,9 @@
+{
+  "front": "What is the difference between Ki and Kd?",
+  "back": "Kd measures ligand affinity directly, while Ki is the inhibition constant measured in competition assays. Ki accounts for the concentration of the competing ligand and is calculated using the Cheng-Prusoff equation.",
+  "tags": [
+    "receptors",
+    "binding"
+  ],
+  "difficulty": "intermediate"
+}

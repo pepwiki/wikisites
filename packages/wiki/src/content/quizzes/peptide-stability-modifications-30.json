@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of depot formulations for peptide drugs?",
+  "options": [
+    "They provide immediate release",
+    "They provide sustained release over days to weeks",
+    "They always require daily dosing",
+    "They only work for intravenous delivery"
+  ],
+  "correctIndex": 1,
+  "explanation": "Depot formulations (microspheres, implants) provide sustained peptide release over extended periods, reducing dosing frequency to weekly or monthly.",
+  "difficulty": "intermediate",
+  "tags": ["stability", "modifications"]
+}

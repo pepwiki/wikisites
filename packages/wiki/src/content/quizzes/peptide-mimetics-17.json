@@ -1,0 +1,16 @@
+{
+  "question": "What is the advantage of beta-turn peptidomimetics in drug design?",
+  "options": [
+    "Always cheaper",
+    "They reproduce the critical recognition geometry of peptide-protein interactions on smaller, drug-like scaffolds",
+    "They are always more potent",
+    "They have no advantage over linear peptides"
+  ],
+  "correctIndex": 1,
+  "explanation": "Beta-turn mimetics reproduce the spatial arrangement of pharmacophores in a compact, drug-like scaffold with improved oral bioavailability and protease resistance.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "Which spectroscopic method measures peptide bond vibrations?",
+  "options": [
+    "UV-Vis spectroscopy",
+    "Infrared (IR) spectroscopy",
+    "Fluorescence spectroscopy",
+    "Circular dichroism"
+  ],
+  "correctIndex": 1,
+  "explanation": "IR spectroscopy detects amide I (C=O stretch) and amide II (N-H bend) vibrations of peptide bonds, providing information about secondary structure content.",
+  "difficulty": "beginner",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

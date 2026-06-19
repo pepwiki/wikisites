@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of surfactants in emulsion-based drug delivery?",
+  "options": [
+    "They increase drug degradation",
+    "They stabilize the interface between immiscible phases",
+    "They reduce drug solubility",
+    "They increase drug toxicity"
+  ],
+  "correctIndex": 1,
+  "explanation": "Surfactants lower interfacial tension and form stabilizing films at oil-water interfaces, preventing droplet coalescence and maintaining emulsion stability.",
+  "difficulty": "beginner",
+  "tags": ["delivery", "formulation"]
+}

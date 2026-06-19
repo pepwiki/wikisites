@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of protein glycosylation?",
+  "options": [
+    "It only affects protein folding",
+    "It influences stability, function, and cell-cell recognition",
+    "It is always required for activity",
+    "It only occurs in bacteria"
+  ],
+  "correctIndex": 1,
+  "explanation": "Glycosylation adds sugar chains that affect protein folding, stability, solubility, and participate in cell signaling and immune recognition.",
+  "difficulty": "intermediate",
+  "tags": ["structure", "function"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "Cysteine proteases form which type of covalent intermediate?",
+  "options": [
+    "Ester bond",
+    "Thioester intermediate",
+    "Phosphorylated enzyme",
+    "Disulfide bond"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cysteine proteases use a catalytic cysteine that attacks the peptide bond to form a thioester intermediate, which is then hydrolyzed to complete catalysis.",
+  "difficulty": "intermediate",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

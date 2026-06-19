@@ -1,0 +1,13 @@
+{
+  "question": "What is the challenge with using peptide vaccines for CD8+ T cell responses?",
+  "options": [
+    "Peptides are too large",
+    "Peptides need to be processed and presented on MHC I",
+    "CD8+ T cells cannot recognize peptides",
+    "Peptides are always too immunogenic"
+  ],
+  "correctIndex": 1,
+  "explanation": "Exogenous peptides must be cross-presented on MHC class I molecules to activate CD8+ T cells, which is less efficient than MHC class II presentation.",
+  "difficulty": "advanced",
+  "tags": ["immunology", "peptides"]
+}

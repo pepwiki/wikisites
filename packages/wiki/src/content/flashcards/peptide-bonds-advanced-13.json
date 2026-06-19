@@ -1,10 +1,9 @@
 {
-  "front": "What is the mechanism of peptide bond formation by the ribosome?",
-  "back": "The ribosome uses 2'-OH of A76 in the peptidyl-tRNA as a nucleophile, attacking the ester carbonyl of peptidyl-tRNA. This forms a tetrahedral intermediate that collapses to release deacylated tRNA. The mechanism is analogous to serine proteases.",
+  "front": "How does an omega peptide bond differ from phi and psi bonds?",
+  "back": "The omega (\u03c9) bond is the peptide bond itself (C-N) with restricted rotation, while phi (\u03c6) and psi (\u03c8) are bonds in the backbone (N-C\u03b1 and C\u03b1-C) that have more rotational freedom.",
   "tags": [
     "peptide-bonds",
-    "molecular-biology",
-    "translation"
+    "structure"
   ],
-  "difficulty": "expert"
+  "difficulty": "beginner"
 }

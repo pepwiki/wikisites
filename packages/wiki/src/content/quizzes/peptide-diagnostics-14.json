@@ -1,0 +1,16 @@
+{
+  "question": "What is the clinical utility of amyloid-beta peptide ratios?",
+  "options": [
+    "Liver function assessment",
+    "Alzheimer disease diagnosis and prognosis",
+    "Kidney function evaluation",
+    "Pancreatic insufficiency detection"
+  ],
+  "correctIndex": 1,
+  "explanation": "The ratio of A-beta-42 to A-beta-40 in CSF or plasma reflects brain amyloid deposition. Decreased ratios indicate amyloid pathology characteristic of Alzheimer disease.",
+  "difficulty": "intermediate",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is TROSY in NMR?",
+  "back": "Transverse relaxation-optimized spectroscopy (TROSY) exploits cross-correlation between dipole-dipole and chemical shift anisotropy relaxation mechanisms. It enables NMR studies of larger proteins.",
+  "tags": [
+    "analytical",
+    "methods"
+  ],
+  "difficulty": "advanced"
+}

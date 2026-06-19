@@ -1,0 +1,16 @@
+{
+  "question": "What does ICH stand for?",
+  "options": [
+    "International Council for Harmonisation",
+    "International Chemical Handbook",
+    "Institute of Clinical Chemistry",
+    "International Committee for Health"
+  ],
+  "correctIndex": 0,
+  "explanation": "ICH develops guidelines for drug development and registration across regulatory authorities worldwide.",
+  "difficulty": "beginner",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

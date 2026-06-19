@@ -1,10 +1,9 @@
 {
-  "front": "Explain the concept of peptide bond half-life in biological systems.",
-  "back": "Peptide bond half-life ranges from minutes (unstructured regions) to years (buried in stable proteins). In vivo, proteasomal degradation dominates. Serum half-life of peptides is typically minutes due to renal clearance and proteolysis.",
+  "front": "What is the significance of the Ramachandran plot in structural biology?",
+  "back": "The Ramachandran plot maps sterically allowed backbone conformations. It is used to validate protein structures, identify residues in unusual conformations, and understand the conformational preferences of different amino acids.",
   "tags": [
     "peptide-bonds",
-    "biochemistry",
-    "pharmacology"
+    "structure"
   ],
-  "difficulty": "advanced"
+  "difficulty": "intermediate"
 }

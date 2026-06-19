@@ -1,0 +1,8 @@
+{
+  "question": "Which modification involves the addition of a phosphate group to serine, threonine, or tyrosine?",
+  "options": ["Methylation", "Acetylation", "Phosphorylation", "Ubiquitination"],
+  "correctIndex": 2,
+  "explanation": "Phosphorylation is the addition of a phosphate group (PO4³⁻) to hydroxyl-containing amino acids. It is a key regulatory modification that alters protein activity and interactions.",
+  "difficulty": "beginner",
+  "tags": ["amino-acids", "chemistry"]
+}

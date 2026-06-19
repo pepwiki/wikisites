@@ -1,0 +1,13 @@
+{
+  "question": "What type of receptor is the insulin receptor?",
+  "options": [
+    "GPCR",
+    "Receptor tyrosine kinase (RTK)",
+    "Ion channel receptor",
+    "Nuclear receptor"
+  ],
+  "correctIndex": 1,
+  "explanation": "The insulin receptor is a receptor tyrosine kinase (RTK) that autophosphorylates upon insulin binding, activating downstream PI3K/Akt signaling pathways.",
+  "difficulty": "beginner",
+  "tags": ["receptors", "pharmacology"]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is a beta-sheet?",
+  "back": "A beta-sheet consists of beta-strands connected by hydrogen bonds. Strands can be parallel (same N-to-C direction) or antiparallel (opposite directions). The extended strand has a rise of ~3.4 \u00c5 per residue.",
+  "tags": [
+    "structure",
+    "secondary"
+  ],
+  "difficulty": "beginner"
+}

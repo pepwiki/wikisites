@@ -1,0 +1,16 @@
+{
+  "question": "Growth hormone is produced by which gland?",
+  "options": [
+    "Thyroid gland",
+    "Anterior pituitary gland",
+    "Adrenal gland",
+    "Pancreas"
+  ],
+  "correctIndex": 1,
+  "explanation": "Growth hormone is synthesized by somatotroph cells of the anterior pituitary, regulated by hypothalamic GHRH and somatostatin.",
+  "difficulty": "beginner",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

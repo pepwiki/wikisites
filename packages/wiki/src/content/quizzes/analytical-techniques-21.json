@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of the detector in HPLC?",
+  "options": [
+    "It separates peptides",
+    "It measures peptide concentration as they elute",
+    "It stores peptides",
+    "It fragments peptides"
+  ],
+  "correctIndex": 1,
+  "explanation": "The detector (UV, fluorescence, or MS) measures peptide concentration as they elute from the column, generating the chromatogram for analysis.",
+  "difficulty": "beginner",
+  "tags": ["analytical", "techniques"]
+}

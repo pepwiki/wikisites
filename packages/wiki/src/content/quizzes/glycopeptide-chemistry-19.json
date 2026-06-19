@@ -1,0 +1,16 @@
+{
+  "question": "What is the reducing end of a glycan?",
+  "options": [
+    "The end with sialic acid",
+    "The end linked to the peptide",
+    "The free anomeric carbon",
+    "The end with fucose"
+  ],
+  "correctIndex": 2,
+  "explanation": "The reducing end has a free anomeric carbon that can open to the aldehyde form. In glycopeptides, this end is attached to the peptide through the glycosidic bond.",
+  "difficulty": "advanced",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

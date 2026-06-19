@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of proteasomes in antigen processing?",
+  "options": [
+    "They synthesize peptides",
+    "They degrade proteins into peptide fragments for MHC I presentation",
+    "They present antigens directly to T cells",
+    "They produce antibodies"
+  ],
+  "correctIndex": 1,
+  "explanation": "Proteasomes degrade intracellular proteins into peptide fragments that are transported to the ER and loaded onto MHC class I molecules for presentation.",
+  "difficulty": "intermediate",
+  "tags": ["immunology", "peptides"]
+}

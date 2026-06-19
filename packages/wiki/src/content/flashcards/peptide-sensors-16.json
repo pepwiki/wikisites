@@ -1,0 +1,9 @@
+{
+  "front": "What is the dynamic range of a biosensor?",
+  "back": "The dynamic range is the concentration range over which the sensor provides a measurable response. Wide dynamic ranges (several orders of magnitude) are desirable for practical applications.",
+  "tags": [
+    "sensors",
+    "biosensors"
+  ],
+  "difficulty": "intermediate"
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of the blood-brain barrier in neuropeptide signaling?",
+  "options": [
+    "No role",
+    "Restricts peripheral neuropeptide access, separating central and peripheral signaling",
+    "Enhances neuropeptide entry",
+    "Degrades all neurotransmitters only"
+  ],
+  "correctIndex": 1,
+  "explanation": "The BBB prevents most circulating neuropeptides from entering the brain, maintaining separate central and peripheral signaling compartments.",
+  "difficulty": "advanced",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

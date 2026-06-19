@@ -1,0 +1,16 @@
+{
+  "question": "What is the concept of the pharmacophore in peptidomimetic design?",
+  "options": [
+    "The entire molecular structure",
+    "The minimal set of structural features required for biological activity",
+    "The drug's side effects",
+    "The molecule's molecular weight"
+  ],
+  "correctIndex": 1,
+  "explanation": "The pharmacophore defines essential 3D arrangement of functional groups for target binding. Peptidomimetics reproduce this arrangement on non-peptide scaffolds.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is a urea or thiourea linkage in peptidomimetics?",
+  "options": [
+    "A natural peptide bond",
+    "An amide bond replacement that provides additional hydrogen bonding and conformational restriction",
+    "A type of disulfide bond",
+    "A glycosidic bond"
+  ],
+  "correctIndex": 1,
+  "explanation": "Urea (NH-CO-NH) and thiourea (NH-CS-NH) linkages replace amide bonds, providing additional H-bond donors/acceptors and restricted conformational freedom.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

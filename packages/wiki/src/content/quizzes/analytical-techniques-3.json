@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of NMR spectroscopy in peptide analysis?",
+  "options": [
+    "It only measures molecular weight",
+    "It provides information about structure, dynamics, and interactions in solution",
+    "It requires crystallization",
+    "It only works for small peptides"
+  ],
+  "correctIndex": 1,
+  "explanation": "NMR spectroscopy provides atomic-resolution information about peptide structure, dynamics, and interactions in solution, complementing X-ray crystallography.",
+  "difficulty": "beginner",
+  "tags": ["analytical", "techniques"]
+}

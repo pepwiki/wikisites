@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the energy minimization step?",
+  "options": [
+    "It sequences proteins",
+    "It finds the nearest local energy minimum for molecular structures",
+    "It synthesizes molecules",
+    "It purifies compounds"
+  ],
+  "correctIndex": 1,
+  "explanation": "Energy minimization adjusts atomic coordinates to reduce the potential energy of a molecular system, removing steric clashes and optimizing geometry.",
+  "difficulty": "intermediate",
+  "tags": ["computational", "design"]
+}

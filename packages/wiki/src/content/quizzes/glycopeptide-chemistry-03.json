@@ -1,0 +1,16 @@
+{
+  "question": "Which amino acid is most commonly O-glycosylated?",
+  "options": [
+    "Asparagine",
+    "Serine",
+    "Tryptophan",
+    "Cysteine"
+  ],
+  "correctIndex": 1,
+  "explanation": "Serine and threonine are the most common O-glycosylation sites, with the hydroxyl group forming an O-glycosidic bond with GalNAc.",
+  "difficulty": "beginner",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

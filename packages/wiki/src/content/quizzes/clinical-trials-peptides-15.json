@@ -1,0 +1,13 @@
+{
+  "question": "What is the purpose of a crossover study design?",
+  "options": [
+    "To test multiple drugs simultaneously",
+    "To compare treatments within the same patients",
+    "To eliminate placebo effect",
+    "To reduce sample size only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Crossover designs have patients receive multiple treatments in sequence, allowing each patient to serve as their own control and reducing inter-patient variability.",
+  "difficulty": "intermediate",
+  "tags": ["clinical", "trials"]
+}

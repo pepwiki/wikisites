@@ -1,0 +1,13 @@
+{
+  "question": "What is the difference between MHC class I and MHC class II molecules?",
+  "options": [
+    "MHC I presents to CD4+ T cells, MHC II to CD8+ T cells",
+    "MHC I presents to CD8+ T cells, MHC II to CD4+ T cells",
+    "They present the same peptides to the same cells",
+    "MHC I is only on B cells, MHC II on all cells"
+  ],
+  "correctIndex": 1,
+  "explanation": "MHC class I molecules present endogenous peptides to CD8+ cytotoxic T cells, while MHC class II molecules present exogenous peptides to CD4+ helper T cells.",
+  "difficulty": "beginner",
+  "tags": ["immunology", "peptides"]
+}

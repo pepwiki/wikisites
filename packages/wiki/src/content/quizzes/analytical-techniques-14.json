@@ -1,0 +1,13 @@
+{
+  "question": "What is the difference between MRM and SRM in mass spectrometry?",
+  "options": [
+    "They are the same technique",
+    "MRM monitors multiple transitions, SRM monitors single transitions",
+    "MRM is for proteins, SRM is for peptides",
+    "MRM is faster than SRM"
+  ],
+  "correctIndex": 1,
+  "explanation": "SRM (Selected Reaction Monitoring) monitors a single precursor-product transition, while MRM (Multiple Reaction Monitoring) monitors multiple transitions simultaneously.",
+  "difficulty": "advanced",
+  "tags": ["analytical", "techniques"]
+}

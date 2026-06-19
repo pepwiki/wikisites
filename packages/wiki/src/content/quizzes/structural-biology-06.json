@@ -1,0 +1,16 @@
+{
+  "question": "What does CD spectroscopy measure?",
+  "options": [
+    "Molecular mass",
+    "Chirality-dependent absorption of polarized light",
+    "Radioactive decay",
+    "Electrical conductivity"
+  ],
+  "correctIndex": 1,
+  "explanation": "Circular dichroism measures differential absorption of left and right circularly polarized light by chiral molecules, reporting on peptide secondary structure content.",
+  "difficulty": "beginner",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

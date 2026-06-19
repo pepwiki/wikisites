@@ -1,0 +1,13 @@
+{
+  "question": "What is the difference between a silent antagonist and an inverse agonist?",
+  "options": [
+    "Silent antagonists reduce basal activity, inverse agonists do not",
+    "Silent antagonists have no effect on basal activity, inverse agonists reduce it",
+    "They are pharmacologically identical",
+    "Silent agonists are always more potent"
+  ],
+  "correctIndex": 1,
+  "explanation": "Silent antagonists block agonist binding without affecting basal receptor activity. Inverse agonists actively reduce constitutive receptor activity below basal levels.",
+  "difficulty": "advanced",
+  "tags": ["receptors", "pharmacology"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the Lipinski rule of five and how do peptidomimetics address it?",
+  "options": [
+    "Rules for peptide synthesis only",
+    "Guidelines for oral bioavailability that peptidomimetics improve by reducing H-bond donors and molecular flexibility",
+    "Rules for protein folding",
+    "Rules for DNA hybridization"
+  ],
+  "correctIndex": 1,
+  "explanation": "Lipinski's rules predict oral absorption. Peptidomimetics reduce H-bond donors (N-methylation), increase lipophilicity, and constrain flexibility to improve drug-like properties.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

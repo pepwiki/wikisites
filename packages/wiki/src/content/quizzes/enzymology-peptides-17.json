@@ -1,0 +1,16 @@
+{
+  "question": "Carboxypeptidase A removes which type of C-terminal amino acid?",
+  "options": [
+    "Negatively charged residues",
+    "Aromatic and branched aliphatic residues",
+    "Basic residues only",
+    "Any amino acid equally"
+  ],
+  "correctIndex": 1,
+  "explanation": "Carboxypeptidase A is a pancreatic zinc metalloprotease that selectively removes C-terminal amino acids with aromatic or branched aliphatic side chains.",
+  "difficulty": "intermediate",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

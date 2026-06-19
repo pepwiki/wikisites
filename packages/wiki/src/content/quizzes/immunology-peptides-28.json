@@ -1,0 +1,13 @@
+{
+  "question": "What is the challenge with predicting MHC-binding peptides?",
+  "options": [
+    "MHC molecules bind any peptide",
+    "MHC molecules have specific binding motifs but high polymorphism",
+    "Peptides always bind MHC with equal affinity",
+    "MHC binding is not important for immunity"
+  ],
+  "correctIndex": 1,
+  "explanation": "MHC molecules have specific binding motifs (anchor residues) but are highly polymorphic, making prediction of binding across different HLA types challenging.",
+  "difficulty": "advanced",
+  "tags": ["immunology", "peptides"]
+}

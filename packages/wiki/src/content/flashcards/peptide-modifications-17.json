@@ -1,0 +1,9 @@
+{
+  "front": "What is a D-amino acid substitution?",
+  "back": "Substituting L-amino acids with D-enantiomers increases resistance to proteolysis. D-amino acids are not recognized by most proteases, extending the half-life of peptides in vivo.",
+  "tags": [
+    "modifications",
+    "chemistry"
+  ],
+  "difficulty": "intermediate"
+}

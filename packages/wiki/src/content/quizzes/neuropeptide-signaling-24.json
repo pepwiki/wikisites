@@ -1,0 +1,16 @@
+{
+  "question": "What is neuropeptide cross-talk?",
+  "options": [
+    "No interaction between peptide systems",
+    "One neuropeptide system modulating the activity or expression of another",
+    "Accidental activation of wrong receptors",
+    "Peptides degrading each other"
+  ],
+  "correctIndex": 1,
+  "explanation": "Neuropeptide systems interact extensively. NPY and alpha-MSH have opposing effects on appetite, while orexin modulates multiple neurotransmitter systems simultaneously.",
+  "difficulty": "advanced",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

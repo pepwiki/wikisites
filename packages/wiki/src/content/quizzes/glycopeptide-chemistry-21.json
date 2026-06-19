@@ -1,0 +1,16 @@
+{
+  "question": "What is O-GlcNAcylation and how does it differ from mucin-type O-glycosylation?",
+  "options": [
+    "Same modification",
+    "O-GlcNAc is a single sugar added in nucleus/cytoplasm, not secretory pathway",
+    "O-GlcNAc requires GalNAc",
+    "O-GlcNAc is only in bacteria"
+  ],
+  "correctIndex": 1,
+  "explanation": "O-GlcNAcylation is a dynamic, reversible addition of a single GlcNAc to Ser/Thr in the nucleus and cytoplasm, unlike mucin-type O-glycosylation which occurs on secreted proteins.",
+  "difficulty": "advanced",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

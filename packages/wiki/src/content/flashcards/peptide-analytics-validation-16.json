@@ -1,0 +1,9 @@
+{
+  "front": "What is the concept of analytical target profile (ATP)?",
+  "back": "The ATP defines the performance requirements of an analytical method before development. It specifies required accuracy, precision, and other performance characteristics.",
+  "tags": [
+    "analytics",
+    "validation"
+  ],
+  "difficulty": "advanced"
+}

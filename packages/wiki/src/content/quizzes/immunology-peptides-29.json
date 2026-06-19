@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of natural killer T (NKT) cells?",
+  "options": [
+    "They are identical to NK cells",
+    "They recognize lipid antigens presented by CD1d molecules",
+    "They only produce antibodies",
+    "They are B cell precursors"
+  ],
+  "correctIndex": 1,
+  "explanation": "NKT cells recognize lipid antigens presented by CD1d molecules on APCs, bridging innate and adaptive immunity through rapid cytokine production.",
+  "difficulty": "advanced",
+  "tags": ["immunology", "peptides"]
+}

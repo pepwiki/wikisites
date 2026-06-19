@@ -1,0 +1,13 @@
+{
+  "question": "What is the main challenge with oral peptide delivery?",
+  "options": [
+    "Peptides are too small",
+    "Enzymatic degradation and poor membrane permeability",
+    "Peptides are too expensive",
+    "Peptides have poor taste"
+  ],
+  "correctIndex": 1,
+  "explanation": "Oral peptides face degradation by gastrointestinal enzymes and poor absorption due to their size and hydrophilicity, requiring specialized delivery strategies.",
+  "difficulty": "beginner",
+  "tags": ["delivery", "formulation"]
+}

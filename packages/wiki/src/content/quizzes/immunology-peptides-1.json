@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of MHC molecules in antigen presentation?",
+  "options": [
+    "They kill infected cells",
+    "They present peptide antigens to T cells",
+    "They produce antibodies",
+    "They phagocytose pathogens"
+  ],
+  "correctIndex": 1,
+  "explanation": "MHC (Major Histocompatibility Complex) molecules bind peptide fragments and present them on cell surfaces for recognition by T cells, initiating adaptive immune responses.",
+  "difficulty": "beginner",
+  "tags": ["immunology", "peptides"]
+}

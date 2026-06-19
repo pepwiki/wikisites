@@ -1,0 +1,16 @@
+{
+  "question": "What is the concept of peptide-based plant disease resistance biomarkers?",
+  "options": [
+    "Any plant protein can serve as biomarker",
+    "Measuring changes in defense peptide expression levels as early indicators of pathogen infection for precision agriculture",
+    "Peptide biomarkers only exist in animals",
+    "Plant diseases cannot be detected early"
+  ],
+  "correctIndex": 1,
+  "explanation": "Changes in defense peptide expression profiles can serve as early biomarkers of plant pathogen infection, enabling timely intervention in precision agriculture and reducing crop losses.",
+  "difficulty": "advanced",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

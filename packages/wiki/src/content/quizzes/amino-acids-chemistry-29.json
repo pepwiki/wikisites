@@ -1,0 +1,13 @@
+{
+  "question": "What is the mechanism of the Sakaguchi reaction for arginine detection?",
+  "options": [
+    "Oxidation of the guanidino group",
+    "Reduction of the guanidino group",
+    "Hydrolysis of the guanidino group",
+    "Addition of the guanidino group"
+  ],
+  "correctIndex": 0,
+  "explanation": "The Sakaguchi reaction involves oxidation of arginine's guanidino group with alpha-naphthol and hypochlorite to produce a red-orange color, used for arginine detection.",
+  "difficulty": "advanced",
+  "tags": ["amino-acids", "chemistry"]
+}

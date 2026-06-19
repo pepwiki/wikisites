@@ -1,0 +1,9 @@
+{
+  "front": "What is a system suitability test?",
+  "back": "System suitability tests verify that the chromatographic system is working properly before analysis. Parameters include resolution, tailing factor, plate count, and retention time reproducibility.",
+  "tags": [
+    "analytics",
+    "validation"
+  ],
+  "difficulty": "intermediate"
+}

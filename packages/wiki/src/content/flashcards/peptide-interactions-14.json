@@ -1,0 +1,9 @@
+{
+  "front": "What is the role of the desolvation penalty?",
+  "back": "When a peptide binds its target, water molecules must be displaced from binding surfaces. This desolvation costs entropy and enthalpy, which must be overcome by the new interactions formed.",
+  "tags": [
+    "interactions",
+    "binding"
+  ],
+  "difficulty": "advanced"
+}

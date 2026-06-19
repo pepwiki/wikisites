@@ -1,0 +1,13 @@
+{
+  "question": "What is receptor desensitization?",
+  "options": [
+    "Increased receptor sensitivity",
+    "Reduced response to continued agonist exposure",
+    "Receptor upregulation",
+    "Enhanced signal transduction"
+  ],
+  "correctIndex": 1,
+  "explanation": "Desensitization is the reduced cellular response to an agonist despite continued exposure. It involves receptor phosphorylation, internalization, and downregulation.",
+  "difficulty": "intermediate",
+  "tags": ["receptors", "pharmacology"]
+}

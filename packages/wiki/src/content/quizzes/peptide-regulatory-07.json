@@ -1,0 +1,16 @@
+{
+  "question": "What is a Certificate of Analysis?",
+  "options": [
+    "A drug prescription",
+    "A document providing test results and specifications for a batch of materials",
+    "A patent certificate",
+    "A marketing authorization document"
+  ],
+  "correctIndex": 1,
+  "explanation": "A CoA provides analytical test results confirming a batch meets predefined specifications.",
+  "difficulty": "beginner",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

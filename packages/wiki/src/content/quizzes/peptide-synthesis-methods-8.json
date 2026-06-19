@@ -1,0 +1,13 @@
+{
+  "question": "What is the capping step in SPPS?",
+  "options": [
+    "Final cleavage from resin",
+    "Blocking unreacted amino groups",
+    "First coupling reaction",
+    "Side chain deprotection"
+  ],
+  "correctIndex": 1,
+  "explanation": "Capping uses acetic anhydride to block unreacted amino groups, preventing deletion sequences that would otherwise be difficult to separate from the target peptide.",
+  "difficulty": "intermediate",
+  "tags": ["synthesis", "methods"]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is the role of consensus design?",
+  "back": "Consensus design analyzes multiple homologous sequences to identify the most frequent amino acids at each position. Consensus sequences often have improved stability and activity.",
+  "tags": [
+    "engineering",
+    "design"
+  ],
+  "difficulty": "intermediate"
+}

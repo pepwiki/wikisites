@@ -1,0 +1,13 @@
+{
+  "question": "What is the mechanism of acid hydrolysis of peptide bonds?",
+  "options": [
+    "Nucleophilic attack by water",
+    "Base-catalyzed elimination",
+    "Radical-mediated cleavage",
+    "Enzymatic oxidation"
+  ],
+  "correctIndex": 0,
+  "explanation": "Acid hydrolysis proceeds through protonation of the carbonyl oxygen, followed by nucleophilic attack by water on the activated carbonyl carbon, breaking the peptide bond.",
+  "difficulty": "advanced",
+  "tags": ["amino-acids", "chemistry"]
+}

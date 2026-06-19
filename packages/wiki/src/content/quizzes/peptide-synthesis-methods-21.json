@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of native chemical ligation over SPPS for long peptides?",
+  "options": [
+    "It is faster",
+    "It allows synthesis of proteins >100 residues",
+    "It is cheaper",
+    "It requires less purification"
+  ],
+  "correctIndex": 1,
+  "explanation": "Native chemical ligation joins synthetic peptide fragments through a chemoselective reaction, enabling synthesis of proteins too long for direct SPPS (typically >100 residues).",
+  "difficulty": "advanced",
+  "tags": ["synthesis", "methods"]
+}

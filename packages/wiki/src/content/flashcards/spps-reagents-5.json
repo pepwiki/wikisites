@@ -1,0 +1,9 @@
+{
+  "front": "What is the Fmoc protecting group strategy?",
+  "back": "Fmoc (Fluorenylmethyloxycarbonyl) is a base-labile N\u03b1 protecting group removed by 20% piperidine in DMF. It is orthogonal to acid-labile side-chain protecting groups used in SPPS.",
+  "tags": [
+    "synthesis",
+    "reagents"
+  ],
+  "difficulty": "beginner"
+}

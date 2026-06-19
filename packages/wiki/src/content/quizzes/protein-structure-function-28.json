@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of chaperonins in protein folding?",
+  "options": [
+    "They prevent protein synthesis",
+    "They provide a protected cavity for proteins to fold correctly",
+    "They degrade misfolded proteins",
+    "They transport proteins to the nucleus"
+  ],
+  "correctIndex": 1,
+  "explanation": "Chaperonins (like GroEL/GroES) provide an enclosed cavity where proteins can fold in isolation, preventing aggregation with other cellular proteins.",
+  "difficulty": "intermediate",
+  "tags": ["structure", "function"]
+}

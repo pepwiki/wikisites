@@ -1,0 +1,9 @@
+{
+  "front": "How does proline affect alpha-helices?",
+  "back": "Proline is a helix-breaker because its cyclic side chain eliminates the N-H hydrogen bond donor. Proline also introduces a kink of approximately 20-30\u00b0 in the helix axis.",
+  "tags": [
+    "structure",
+    "secondary"
+  ],
+  "difficulty": "beginner"
+}

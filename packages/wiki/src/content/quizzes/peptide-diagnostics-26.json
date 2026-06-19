@@ -1,0 +1,16 @@
+{
+  "question": "What is cross-reactivity and why is it problematic?",
+  "options": [
+    "Positive interference from structurally similar peptides",
+    "A desired feature for multiplexing",
+    "A type of calibration method",
+    "Sample matrix effect"
+  ],
+  "correctIndex": 0,
+  "explanation": "Cross-reactivity occurs when antibodies bind structurally similar peptides (e.g., GLP-1 vs GLP-2), producing falsely elevated results that must be characterized and minimized.",
+  "difficulty": "advanced",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the difference between apo and holo proteins?",
+  "options": [
+    "Apo proteins are degraded, holo are active",
+    "Apo proteins lack cofactors, holo proteins have bound cofactors",
+    "They are the same thing",
+    "Apo proteins are always inactive"
+  ],
+  "correctIndex": 1,
+  "explanation": "Apo proteins lack their required cofactors or prosthetic groups, while holo proteins have these bound and are typically in their active conformation.",
+  "difficulty": "intermediate",
+  "tags": ["structure", "function"]
+}

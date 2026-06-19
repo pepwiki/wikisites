@@ -1,0 +1,16 @@
+{
+  "question": "What distinguishes high-mannose from complex N-glycans?",
+  "options": [
+    "High-mannose has no processing",
+    "Complex glycans contain only mannose",
+    "High-mannose glycans have multiple terminal mannose residues",
+    "Complex glycans lack sialic acid"
+  ],
+  "correctIndex": 2,
+  "explanation": "High-mannose glycans retain multiple mannose residues on the core, while complex glycans have been extensively processed and may contain GlcNAc, galactose, sialic acid, and fucose.",
+  "difficulty": "intermediate",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

@@ -1,10 +1,9 @@
 {
-  "front": "What is the role of peptide bonds in beta-turn formation?",
-  "back": "Beta-turns involve 4 residues with i+1 to i+2 peptide bond in cis or specific phi/psi angles. Type I and II turns are most common. Proline is favored at i+1 due to its constrained phi angle. Turns enable protein chain reversal and surface presentation.",
+  "front": "Which amino acid most frequently adopts the cis conformation?",
+  "back": "Proline most frequently adopts the cis conformation (~5-10% of X-Pro bonds). The cyclic structure of proline reduces the energy difference between cis and trans forms.",
   "tags": [
     "peptide-bonds",
-    "structural-biology",
-    "protein-folding"
+    "structure"
   ],
-  "difficulty": "advanced"
+  "difficulty": "intermediate"
 }

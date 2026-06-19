@@ -1,0 +1,9 @@
+{
+  "front": "What is the Cmax in PK analysis?",
+  "back": "Cmax is the maximum plasma concentration achieved after dosing. It reflects the rate of absorption and is one of the key PK parameters alongside Tmax, AUC, and half-life.",
+  "tags": [
+    "clinical",
+    "development"
+  ],
+  "difficulty": "beginner"
+}

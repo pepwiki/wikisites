@@ -1,0 +1,13 @@
+{
+  "question": "Which chemical treatment is used to specifically cleave peptide bonds at methionine residues?",
+  "options": [
+    "Cyanogen bromide (CNBr)",
+    "Hydroxylamine",
+    "N-tosyl-L-phenylalanine chloromethyl ketone",
+    "2-mercaptoethanol"
+  ],
+  "correctIndex": 0,
+  "explanation": "Cyanogen bromide specifically cleaves at the C-terminal side of methionine residues. The reaction involves cyanide addition followed by cyclization and peptide bond cleavage.",
+  "difficulty": "advanced",
+  "tags": ["amino-acids", "chemistry"]
+}

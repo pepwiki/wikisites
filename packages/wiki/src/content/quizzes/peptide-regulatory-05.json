@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of a Qualified Person in EU manufacturing?",
+  "options": [
+    "Quality control analyst",
+    "Responsible for certifying each batch has been manufactured according to GMP",
+    "Financial officer",
+    "Marketing director"
+  ],
+  "correctIndex": 1,
+  "explanation": "The QP is legally responsible for certifying that each batch has been manufactured in accordance with GMP and the marketing authorization.",
+  "difficulty": "beginner",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

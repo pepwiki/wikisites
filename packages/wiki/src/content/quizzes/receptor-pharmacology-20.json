@@ -1,0 +1,13 @@
+{
+  "question": "What is receptor upregulation?",
+  "options": [
+    "Decreased receptor expression",
+    "Increased receptor number or sensitivity",
+    "Receptor internalization",
+    "Receptor phosphorylation"
+  ],
+  "correctIndex": 1,
+  "explanation": "Upregulation occurs when chronic antagonist treatment or decreased signaling leads to increased receptor expression or sensitivity, a form of homeostatic adaptation.",
+  "difficulty": "intermediate",
+  "tags": ["receptors", "pharmacology"]
+}

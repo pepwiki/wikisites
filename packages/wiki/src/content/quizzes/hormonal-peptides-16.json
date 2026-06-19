@@ -1,0 +1,16 @@
+{
+  "question": "Which hormone stimulates milk ejection?",
+  "options": [
+    "Progesterone",
+    "Oxytocin",
+    "Estrogen",
+    "Prolactin"
+  ],
+  "correctIndex": 1,
+  "explanation": "Oxytocin causes contraction of myoepithelial cells surrounding mammary alveoli, ejecting milk into ducts in response to suckling.",
+  "difficulty": "intermediate",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

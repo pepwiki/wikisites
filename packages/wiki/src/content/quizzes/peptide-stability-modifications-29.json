@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the iPr group in Aib?",
+  "options": [
+    "It decreases steric hindrance",
+    "It provides conformational restriction favoring helices",
+    "It increases flexibility",
+    "It only affects solubility"
+  ],
+  "correctIndex": 1,
+  "explanation": "The isopropyl group of Aib creates steric hindrance that restricts backbone dihedral angles, strongly favoring helical conformations.",
+  "difficulty": "advanced",
+  "tags": ["stability", "modifications"]
+}

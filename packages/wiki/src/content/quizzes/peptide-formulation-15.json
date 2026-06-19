@@ -1,0 +1,16 @@
+{
+  "question": "What is a depot injection formulation?",
+  "options": [
+    "Immediate-release injection",
+    "A long-acting injection releasing peptide over weeks to months from a carrier",
+    "A sublingual formulation",
+    "An oral tablet formulation"
+  ],
+  "correctIndex": 1,
+  "explanation": "Depot injections use oil-based solutions, microspheres, or implants to provide sustained peptide release.",
+  "difficulty": "intermediate",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

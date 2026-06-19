@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of an Independent Ethics Committee (IEC)?",
+  "options": [
+    "To design the trial protocol",
+    "To protect rights, safety, and well-being of trial subjects",
+    "To manufacture the drug",
+    "To analyze the data"
+  ],
+  "correctIndex": 1,
+  "explanation": "IECs review and approve research protocols, informed consent documents, and ensure the protection of human subjects throughout the clinical trial.",
+  "difficulty": "beginner",
+  "tags": ["clinical", "trials"]
+}

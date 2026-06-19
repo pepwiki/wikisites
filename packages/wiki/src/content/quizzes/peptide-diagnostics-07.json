@@ -1,0 +1,16 @@
+{
+  "question": "Which technique measures peptide mass directly for diagnostic purposes?",
+  "options": [
+    "ELISA",
+    "Mass spectrometry",
+    "Western blotting",
+    "PCR"
+  ],
+  "correctIndex": 1,
+  "explanation": "Mass spectrometry can directly measure peptide mass and sequence, enabling multiplexed detection of multiple biomarkers simultaneously with high specificity.",
+  "difficulty": "beginner",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

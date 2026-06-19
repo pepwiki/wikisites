@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of perforin and granzymes in cytotoxic T cell killing?",
+  "options": [
+    "They activate B cells",
+    "Perforin forms pores, granzymes enter to induce apoptosis",
+    "They are cytokines",
+    "They enhance antigen presentation"
+  ],
+  "correctIndex": 1,
+  "explanation": "Perforin creates pores in target cell membranes, allowing granzymes to enter and activate caspase cascades, inducing apoptosis of infected or cancerous cells.",
+  "difficulty": "intermediate",
+  "tags": ["immunology", "peptides"]
+}

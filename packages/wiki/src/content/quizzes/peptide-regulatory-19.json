@@ -1,0 +1,16 @@
+{
+  "question": "What is Cleaning Validation?",
+  "options": [
+    "Visual inspection of equipment",
+    "Documented evidence that cleaning procedures effectively remove residues from equipment",
+    "Calibrating cleaning equipment",
+    "Training cleaning staff"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cleaning validation demonstrates that cleaning procedures reliably remove previous product residues to acceptable levels.",
+  "difficulty": "intermediate",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

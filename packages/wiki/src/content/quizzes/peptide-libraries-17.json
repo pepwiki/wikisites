@@ -1,0 +1,16 @@
+{
+  "question": "What is a positional scanning library?",
+  "options": [
+    "Random peptide positioning",
+    "Each sub-library has one position fixed while all others are random",
+    "All positions are fixed",
+    "Peptides are screened in different positions of the well plate"
+  ],
+  "correctIndex": 1,
+  "explanation": "Positional scanning libraries fix one position at each of the 20 amino acids while randomizing all others, identifying the preferred residue at each position for target binding.",
+  "difficulty": "intermediate",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

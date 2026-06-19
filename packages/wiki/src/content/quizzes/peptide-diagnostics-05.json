@@ -1,0 +1,16 @@
+{
+  "question": "What does a sandwich ELISA use for detection?",
+  "options": [
+    "Single antibody",
+    "Two antibodies targeting different epitopes",
+    "Radioactive labels only",
+    "Mass spectrometry detection"
+  ],
+  "correctIndex": 1,
+  "explanation": "Sandwich ELISA captures the target peptide with one antibody and detects it with a second enzyme-labeled antibody binding a different epitope, enhancing specificity.",
+  "difficulty": "beginner",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

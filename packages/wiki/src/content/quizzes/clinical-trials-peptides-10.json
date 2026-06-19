@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the NNT in clinical trials?",
+  "options": [
+    "Number of New Treatments",
+    "Number Needed to Treat to prevent one adverse outcome",
+    "Net Neutralizing Titer",
+    "Non-Nucleotide Therapeutic"
+  ],
+  "correctIndex": 1,
+  "explanation": "NNT (Number Needed to Treat) indicates how many patients need to be treated to prevent one additional adverse outcome, reflecting clinical effectiveness.",
+  "difficulty": "intermediate",
+  "tags": ["clinical", "trials"]
+}

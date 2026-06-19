@@ -1,0 +1,16 @@
+{
+  "question": "What are phytoalexins?",
+  "options": [
+    "Structural support only",
+    "Antimicrobial compounds synthesized de novo in response to pathogen attack",
+    "Nutrient storage only",
+    "Pigment synthesis only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Phytoalexins are antimicrobial compounds synthesized rapidly at infection sites as chemical defense.",
+  "difficulty": "intermediate",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

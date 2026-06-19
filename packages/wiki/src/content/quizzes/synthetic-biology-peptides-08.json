@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of the adenylation (A) domain?",
+  "options": [
+    "Peptide bond formation",
+    "Selects and activates the correct amino acid by forming an aminoacyl-AMP intermediate",
+    "Removes protecting groups",
+    "Degrades the finished peptide"
+  ],
+  "correctIndex": 1,
+  "explanation": "The A domain recognizes a specific amino acid and activates it as an aminoacyl-AMP for transfer to the T domain.",
+  "difficulty": "beginner",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

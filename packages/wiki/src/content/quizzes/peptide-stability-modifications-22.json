@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of white blood cell-derived vesicles for peptide delivery?",
+  "options": [
+    "They are synthetic",
+    "They provide natural targeting and immune evasion",
+    "They are always smaller than liposomes",
+    "They are cheaper to produce"
+  ],
+  "correctIndex": 1,
+  "explanation": "White blood cell-derived vesicles (like exosomes) naturally evade immune detection and can target inflamed tissues or tumors through inherent tropism.",
+  "difficulty": "advanced",
+  "tags": ["stability", "modifications"]
+}

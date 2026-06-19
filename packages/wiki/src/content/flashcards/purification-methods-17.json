@@ -1,0 +1,9 @@
+{
+  "front": "What is a C18 SPE cartridge?",
+  "back": "A C18 solid-phase extraction cartridge is used for rapid peptide desalting and concentration. Peptides are bound to the C18 resin, washed to remove salts, and eluted with organic solvent.",
+  "tags": [
+    "purification",
+    "chromatography"
+  ],
+  "difficulty": "beginner"
+}

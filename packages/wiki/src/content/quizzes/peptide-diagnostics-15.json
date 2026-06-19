@@ -1,0 +1,16 @@
+{
+  "question": "What is the hook effect in immunoassays?",
+  "options": [
+    "Peptide binding to the capture surface",
+    "Falsely low results at very high analyte concentrations due to saturation",
+    "Sample evaporation artifact",
+    "Antibody denaturation during storage"
+  ],
+  "correctIndex": 1,
+  "explanation": "The hook effect occurs when extremely high analyte concentrations saturate both capture and detection antibodies, preventing sandwich formation and yielding falsely low results.",
+  "difficulty": "intermediate",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

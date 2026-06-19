@@ -1,0 +1,16 @@
+{
+  "question": "What is genetic code expansion?",
+  "options": [
+    "Changing the number of nucleotides",
+    "Incorporating non-natural amino acids into proteins using engineered translation machinery",
+    "Expanding the genome",
+    "Adding more chromosomes"
+  ],
+  "correctIndex": 1,
+  "explanation": "Genetic code expansion uses engineered aminoacyl-tRNA synthetase/tRNA pairs to incorporate non-natural amino acids at amber stop codons.",
+  "difficulty": "beginner",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

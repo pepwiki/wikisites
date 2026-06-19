@@ -1,0 +1,16 @@
+{
+  "question": "Amylin is co-secreted with which hormone?",
+  "options": [
+    "Glucagon",
+    "Insulin",
+    "GH",
+    "ACTH"
+  ],
+  "correctIndex": 1,
+  "explanation": "Amylin is co-secreted with insulin from pancreatic beta cells, slowing gastric emptying, suppressing postprandial glucagon, and promoting satiety.",
+  "difficulty": "beginner",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of NMR spectroscopy in protein structure determination?",
+  "options": [
+    "It requires crystallization",
+    "It provides information about protein dynamics in solution",
+    "It only works for small proteins",
+    "It determines structures at atomic resolution in crystals"
+  ],
+  "correctIndex": 1,
+  "explanation": "NMR spectroscopy determines protein structures in solution and provides unique information about protein dynamics, flexibility, and interactions on multiple timescales.",
+  "difficulty": "intermediate",
+  "tags": ["structure", "function"]
+}

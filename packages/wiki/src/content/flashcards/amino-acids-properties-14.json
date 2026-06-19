@@ -1,0 +1,9 @@
+{
+  "front": "What is the extinction coefficient of tryptophan at 280 nm?",
+  "back": "Tryptophan has a molar extinction coefficient of approximately 5,500 M\u207b\u00b9cm\u207b\u00b9 at 280 nm, which is significantly higher than tyrosine (1,490) and cysteine (125).",
+  "tags": [
+    "amino-acids",
+    "properties"
+  ],
+  "difficulty": "advanced"
+}

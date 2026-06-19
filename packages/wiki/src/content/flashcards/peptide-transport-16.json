@@ -1,0 +1,9 @@
+{
+  "front": "What is the role of peptide lipophilicity in membrane permeability?",
+  "back": "Moderate lipophilicity (logP -1 to 3) favors passive membrane permeability. Too hydrophilic peptides cannot cross membranes; too lipophilic peptides may be trapped in membranes.",
+  "tags": [
+    "transport",
+    "membrane"
+  ],
+  "difficulty": "intermediate"
+}

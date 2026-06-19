@@ -1,0 +1,8 @@
+{
+  "question": "At physiological pH (7.4), which form predominates for a typical amino acid?",
+  "options": ["Fully protonated cation", "Fully deprotonated anion", "Zwitterion", "Uncharged nonionic"],
+  "correctIndex": 2,
+  "explanation": "At physiological pH, amino acids exist primarily as zwitterions with a protonated amino group (+NH3) and deprotonated carboxyl group (COO-). This gives them both positive and negative charges.",
+  "difficulty": "beginner",
+  "tags": ["amino-acids", "chemistry"]
+}

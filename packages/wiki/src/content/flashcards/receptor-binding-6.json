@@ -1,0 +1,9 @@
+{
+  "front": "What is a dose-response curve?",
+  "back": "A dose-response curve plots the biological response against the logarithm of drug concentration. It typically follows a sigmoidal shape and provides EC50, Emax, and Hill slope information.",
+  "tags": [
+    "receptors",
+    "binding"
+  ],
+  "difficulty": "beginner"
+}

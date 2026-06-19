@@ -1,0 +1,16 @@
+{
+  "question": "What is phage display?",
+  "options": [
+    "Electron microscopy technique",
+    "Expression of peptides on bacteriophage surface for affinity selection",
+    "A type of peptide synthesis",
+    "DNA sequencing method"
+  ],
+  "correctIndex": 1,
+  "explanation": "Phage display expresses peptide sequences as fusions with phage coat proteins, enabling biopanning to select high-affinity binders from billions of variants.",
+  "difficulty": "beginner",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

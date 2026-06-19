@@ -1,0 +1,13 @@
+{
+  "question": "What is the primary advantage of microwave-assisted peptide synthesis?",
+  "options": [
+    "Lower cost",
+    "Higher purity",
+    "Faster coupling and deprotection",
+    "Simpler equipment"
+  ],
+  "correctIndex": 2,
+  "explanation": "Microwave irradiation heats the reaction mixture rapidly and uniformly, significantly reducing coupling and deprotection times while often improving yields for difficult sequences.",
+  "difficulty": "intermediate",
+  "tags": ["synthesis", "methods"]
+}

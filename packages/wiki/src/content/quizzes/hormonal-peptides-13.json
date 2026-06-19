@@ -1,0 +1,16 @@
+{
+  "question": "Which IGF is primarily produced by the liver in response to GH?",
+  "options": [
+    "IGF-1",
+    "IGF-2",
+    "IGF-3",
+    "EGF"
+  ],
+  "correctIndex": 0,
+  "explanation": "IGF-1 is produced mainly by hepatocytes under GH stimulation, mediating many growth-promoting effects of GH on target tissues throughout the body.",
+  "difficulty": "intermediate",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

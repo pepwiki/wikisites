@@ -1,0 +1,9 @@
+{
+  "front": "What is computational peptide design?",
+  "back": "Computational design uses algorithms (Rosetta, AlphaFold) to predict and optimize peptide structures. It can design novel peptides, predict mutations, and optimize binding affinity.",
+  "tags": [
+    "engineering",
+    "design"
+  ],
+  "difficulty": "intermediate"
+}

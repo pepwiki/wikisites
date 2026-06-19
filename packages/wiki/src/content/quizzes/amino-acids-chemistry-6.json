@@ -1,0 +1,8 @@
+{
+  "question": "Which amino acid is most susceptible to oxidation by reactive oxygen species?",
+  "options": ["Glycine", "Proline", "Methionine", "Valine"],
+  "correctIndex": 2,
+  "explanation": "Methionine is highly susceptible to oxidation due to its thioether side chain, which can be oxidized to methionine sulfoxide. This is a common post-translational modification under oxidative stress.",
+  "difficulty": "intermediate",
+  "tags": ["amino-acids", "chemistry"]
+}

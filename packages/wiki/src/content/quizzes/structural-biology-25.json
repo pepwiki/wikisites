@@ -1,0 +1,16 @@
+{
+  "question": "What does hydrogen-deuterium exchange (HDX) measure?",
+  "options": [
+    "Peptide molecular weight",
+    "Solvent accessibility and dynamics of peptide backbone",
+    "Disulfide bond connectivity",
+    "Post-translational modifications"
+  ],
+  "correctIndex": 1,
+  "explanation": "HDX-MS measures the rate at which backbone amide hydrogens exchange with deuterium, reporting on solvent accessibility and local structural dynamics.",
+  "difficulty": "advanced",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

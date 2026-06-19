@@ -1,0 +1,9 @@
+{
+  "front": "What is the concept of directed peptide evolution?",
+  "back": "Directed peptide evolution combines random mutagenesis with screening/selection. Error-prone PCR or DNA shuffling creates diversity; functional screening identifies improved variants.",
+  "tags": [
+    "engineering",
+    "design"
+  ],
+  "difficulty": "intermediate"
+}

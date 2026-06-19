@@ -1,0 +1,9 @@
+{
+  "front": "What is a 3-10 helix and how does it differ from an alpha-helix?",
+  "back": "A 3-10 helix has 3 residues per turn with hydrogen bonds between residues i and i+3. It is tighter (pitch 6.0 \u00c5) than the alpha-helix and is often found at the ends of alpha-helices.",
+  "tags": [
+    "structure",
+    "secondary"
+  ],
+  "difficulty": "intermediate"
+}

@@ -1,0 +1,8 @@
+{
+  "question": "What is the typical molecular weight range for peptides synthesized by SPPS?",
+  "options": ["<1 kDa", "1-5 kDa", "5-15 kDa", "15-30 kDa"],
+  "correctIndex": 2,
+  "explanation": "SPPS is most efficient for peptides in the 1-10 kDa range (approximately 10-100 amino acids). Beyond this, yields and purity decrease significantly.",
+  "difficulty": "intermediate",
+  "tags": ["synthesis", "methods"]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is MHC class II?",
+  "back": "MHC class II molecules present exogenous peptides (13-25 amino acids) to CD4+ T cells. They are expressed on antigen-presenting cells and activate helper T cell responses.",
+  "tags": [
+    "immunology",
+    "MHC"
+  ],
+  "difficulty": "beginner"
+}

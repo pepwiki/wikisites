@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of DIEA in peptide synthesis?",
+  "options": [
+    "It acts as a coupling reagent",
+    "It is a non-nucleophilic base",
+    "It removes protecting groups",
+    "It activates amino acids"
+  ],
+  "correctIndex": 1,
+  "explanation": "DIEA (diisopropylethylamine) is a sterically hindered, non-nucleophilic base used to maintain basic pH during coupling reactions without interfering with the reaction.",
+  "difficulty": "intermediate",
+  "tags": ["synthesis", "methods"]
+}

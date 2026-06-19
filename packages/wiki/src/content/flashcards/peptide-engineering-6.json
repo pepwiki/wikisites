@@ -1,0 +1,9 @@
+{
+  "front": "What is alanine scanning mutagenesis?",
+  "back": "Alanine scanning systematically replaces each residue with alanine to identify residues critical for binding or activity. Alanine removes side-chain interactions without disrupting the backbone.",
+  "tags": [
+    "engineering",
+    "design"
+  ],
+  "difficulty": "intermediate"
+}

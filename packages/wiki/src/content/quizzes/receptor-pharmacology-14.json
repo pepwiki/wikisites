@@ -1,0 +1,13 @@
+{
+  "question": "What is the difference between efficacy and potency?",
+  "options": [
+    "Efficacy is maximum effect, potency is concentration for effect",
+    "Efficacy is binding affinity, potency is selectivity",
+    "They are interchangeable terms",
+    "Efficacy determines EC50"
+  ],
+  "correctIndex": 0,
+  "explanation": "Efficacy (Emax) is the maximum response a drug can produce, while potency (EC50) is the concentration needed to produce a given effect. A drug can have high efficacy but low potency.",
+  "difficulty": "intermediate",
+  "tags": ["receptors", "pharmacology"]
+}

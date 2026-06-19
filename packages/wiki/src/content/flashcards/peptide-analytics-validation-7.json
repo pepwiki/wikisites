@@ -1,0 +1,9 @@
+{
+  "front": "What is the limit of detection (LOD)?",
+  "back": "LOD is the lowest concentration that can be reliably detected but not quantified. It is typically calculated as 3.3 \u00d7 \u03c3/S, where \u03c3 is the standard deviation and S is the slope of the calibration curve.",
+  "tags": [
+    "analytics",
+    "validation"
+  ],
+  "difficulty": "intermediate"
+}

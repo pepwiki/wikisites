@@ -1,0 +1,16 @@
+{
+  "question": "Who developed the original SPPS methodology?",
+  "options": [
+    "Frederick Sanger",
+    "Robert Bruce Merrifield",
+    "Christian Anfinsen",
+    "Linus Pauling"
+  ],
+  "correctIndex": 1,
+  "explanation": "Robert Bruce Merrifield invented SPPS in 1963, receiving the 1984 Nobel Prize in Chemistry for this revolutionary approach to peptide synthesis.",
+  "difficulty": "beginner",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

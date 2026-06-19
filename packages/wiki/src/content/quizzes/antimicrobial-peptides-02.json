@@ -1,0 +1,16 @@
+{
+  "question": "What charge do most antimicrobial peptides carry?",
+  "options": [
+    "Neutral",
+    "Negatively charged",
+    "Positively charged (cationic)",
+    "Variable charge"
+  ],
+  "correctIndex": 2,
+  "explanation": "Most AMPs are cationic with net positive charges from lysine and arginine residues, enabling selective binding to negatively charged bacterial membranes.",
+  "difficulty": "beginner",
+  "tags": [
+    "antimicrobial",
+    "defense"
+  ]
+}

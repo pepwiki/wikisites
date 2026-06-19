@@ -1,0 +1,9 @@
+{
+  "front": "How is a peptide sequence written?",
+  "back": "Peptide sequences are always written from N-terminus (left) to C-terminus (right). The convention is standard across all nomenclature systems.",
+  "tags": [
+    "nomenclature",
+    "terminology"
+  ],
+  "difficulty": "beginner"
+}

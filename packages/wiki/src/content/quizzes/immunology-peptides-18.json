@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of adjuvants in peptide vaccines?",
+  "options": [
+    "They are the antigen itself",
+    "They enhance immune responses to peptide antigens",
+    "They suppress immune responses",
+    "They are only for prophylactic vaccines"
+  ],
+  "correctIndex": 1,
+  "explanation": "Adjuvants enhance immune responses by activating innate immunity, providing danger signals, and improving antigen presentation to T and B cells.",
+  "difficulty": "beginner",
+  "tags": ["immunology", "peptides"]
+}

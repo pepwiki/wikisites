@@ -1,0 +1,9 @@
+{
+  "front": "What is neoantigen prediction?",
+  "back": "Neoantigens are tumor-specific peptides arising from somatic mutations. Computational prediction of neoantigen-MHC binding is used for personalized cancer immunotherapy and vaccine design.",
+  "tags": [
+    "immunology",
+    "MHC"
+  ],
+  "difficulty": "advanced"
+}

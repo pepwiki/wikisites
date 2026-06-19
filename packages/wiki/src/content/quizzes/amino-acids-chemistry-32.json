@@ -1,0 +1,8 @@
+{
+  "question": "Which amino acid has the highest codon degeneracy in the genetic code?",
+  "options": ["Methionine", "Tryptophan", "Leucine", "Serine"],
+  "correctIndex": 2,
+  "explanation": "Leucine and serine both have 6 codons, the highest degeneracy. This reflects their importance and the need for accurate incorporation during translation.",
+  "difficulty": "intermediate",
+  "tags": ["amino-acids", "chemistry"]
+}

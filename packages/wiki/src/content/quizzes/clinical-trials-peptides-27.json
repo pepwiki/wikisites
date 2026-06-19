@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the first-pass effect?",
+  "options": [
+    "The drug's first clinical trial",
+    "The metabolism of drug in the gut wall and liver before systemic circulation",
+    "The first dose of a drug",
+    "The drug's initial absorption"
+  ],
+  "correctIndex": 1,
+  "explanation": "The first-pass effect refers to extensive metabolism of orally administered drugs in the gut wall and liver, reducing bioavailability before reaching systemic circulation.",
+  "difficulty": "intermediate",
+  "tags": ["clinical", "trials"]
+}

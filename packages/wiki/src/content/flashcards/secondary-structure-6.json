@@ -1,0 +1,9 @@
+{
+  "front": "What is a pi-helix?",
+  "back": "A pi-helix has 4.1 residues per turn with hydrogen bonds between residues i and i+5. It is wider and shorter than an alpha-helix and is relatively rare in proteins.",
+  "tags": [
+    "structure",
+    "secondary"
+  ],
+  "difficulty": "advanced"
+}

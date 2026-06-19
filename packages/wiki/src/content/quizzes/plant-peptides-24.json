@@ -1,0 +1,16 @@
+{
+  "question": "What is the concept of peptide-based biopesticides from plants?",
+  "options": [
+    "Synthetic chemical pesticides only",
+    "Using purified plant defense peptides as environmentally friendly alternatives to chemical pesticides",
+    "Genetically modified crops only",
+    "Organic farming practices only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Plant-derived peptides offer biodegradable, target-specific alternatives to chemical pesticides with lower environmental impact.",
+  "difficulty": "advanced",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is a reactive metabolite assessment?",
+  "options": [
+    "Measuring drug metabolism rate only",
+    "Identifying chemically reactive intermediates that can covalently bind to proteins or DNA",
+    "Measuring drug concentration",
+    "Assessing drug solubility only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Reactive metabolites can covalently modify cellular macromolecules, triggering immune responses or direct cytotoxicity.",
+  "difficulty": "advanced",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

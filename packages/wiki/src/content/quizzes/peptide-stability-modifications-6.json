@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of N-methylation of peptide bonds?",
+  "options": [
+    "It increases peptide flexibility",
+    "It increases protease resistance and membrane permeability",
+    "It decreases peptide stability",
+    "It always reduces binding affinity"
+  ],
+  "correctIndex": 1,
+  "explanation": "N-methylation blocks the NH group of peptide bonds, preventing protease recognition and reducing hydrogen bonding capacity, which can enhance oral bioavailability.",
+  "difficulty": "intermediate",
+  "tags": ["stability", "modifications"]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the therapeutic index of a drug?",
+  "options": [
+    "The ratio of toxic dose to effective dose",
+    "The drug's half-life",
+    "The drug's selectivity",
+    "The drug's potency"
+  ],
+  "correctIndex": 0,
+  "explanation": "The therapeutic index (TI) is the ratio of the dose that produces toxicity to the dose that produces the desired effect. A higher TI indicates a safer drug.",
+  "difficulty": "intermediate",
+  "tags": ["receptors", "pharmacology"]
+}

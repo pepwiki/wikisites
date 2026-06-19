@@ -1,0 +1,8 @@
+{
+  "question": "Which amino acid has a sulfhydryl group capable of forming disulfide bonds?",
+  "options": ["Methionine", "Cysteine", "Serine", "Threonine"],
+  "correctIndex": 1,
+  "explanation": "Cysteine contains a thiol (-SH) group that can oxidize to form disulfide bonds with other cysteines. Methionine has a thioether but cannot form disulfide bonds.",
+  "difficulty": "beginner",
+  "tags": ["amino-acids", "chemistry"]
+}

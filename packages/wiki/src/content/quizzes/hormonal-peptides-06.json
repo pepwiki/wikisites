@@ -1,0 +1,16 @@
+{
+  "question": "What is the structure of insulin?",
+  "options": [
+    "Single polypeptide chain",
+    "Two chains (A and B) linked by disulfide bonds",
+    "Three subunits",
+    "A single beta-barrel domain"
+  ],
+  "correctIndex": 1,
+  "explanation": "Mature insulin consists of an A-chain (21 residues) and B-chain (30 residues) linked by two interchain disulfide bonds, with one intrachain disulfide in the A-chain.",
+  "difficulty": "beginner",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

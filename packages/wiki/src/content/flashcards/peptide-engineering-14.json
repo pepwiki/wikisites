@@ -1,0 +1,9 @@
+{
+  "front": "What is a focused peptide library?",
+  "back": "A focused library is designed based on known structure-activity relationships. It concentrates diversity at key positions rather than randomizing all positions, improving hit rates.",
+  "tags": [
+    "engineering",
+    "design"
+  ],
+  "difficulty": "intermediate"
+}

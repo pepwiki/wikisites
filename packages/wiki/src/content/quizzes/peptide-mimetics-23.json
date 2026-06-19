@@ -1,0 +1,16 @@
+{
+  "question": "What is the concept of privileged scaffolds in peptidomimetic design?",
+  "options": [
+    "Any molecule that is expensive",
+    "Molecular frameworks that are known to bind multiple biological targets",
+    "Scaffolds used only once",
+    "Scaffolds that are always active"
+  ],
+  "correctIndex": 1,
+  "explanation": "Privileged scaffolds (e.g., benzodiazepines, biphenyls, indoles) are versatile frameworks that repeatedly appear in bioactive molecules, providing starting points for peptidomimetic design.",
+  "difficulty": "advanced",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

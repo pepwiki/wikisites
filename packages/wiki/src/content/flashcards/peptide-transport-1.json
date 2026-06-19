@@ -1,0 +1,9 @@
+{
+  "front": "What are cell-penetrating peptides (CPPs)?",
+  "back": "CPPs are short peptides (5-30 residues) that can cross cell membranes. Examples include TAT (GRKKRRQRRRPQ) and penetratin. They can carry cargo including drugs, nucleic acids, and nanoparticles.",
+  "tags": [
+    "transport",
+    "membrane"
+  ],
+  "difficulty": "beginner"
+}

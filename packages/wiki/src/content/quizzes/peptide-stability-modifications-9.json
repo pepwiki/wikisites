@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of albumin-binding peptides in extending half-life?",
+  "options": [
+    "They decrease albumin binding",
+    "They tether peptides to circulating albumin for prolonged circulation",
+    "They eliminate renal clearance entirely",
+    "They increase immunogenicity"
+  ],
+  "correctIndex": 1,
+  "explanation": "Albumin-binding domains or moieties link peptides to serum albumin, taking advantage of albumin's long half-life (19 days) to extend peptide circulation time.",
+  "difficulty": "intermediate",
+  "tags": ["stability", "modifications"]
+}

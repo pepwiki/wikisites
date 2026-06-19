@@ -1,0 +1,13 @@
+{
+  "question": "Which spectroscopic property is used to quantify proteins at 280 nm?",
+  "options": [
+    "Peptide bond absorption",
+    "Aromatic amino acid absorption",
+    "Disulfide bond absorption",
+    "Carbonyl absorption"
+  ],
+  "correctIndex": 1,
+  "explanation": "Aromatic amino acids (Trp, Tyr, Phe) absorb UV light at 280 nm. This property is used for rapid protein quantification using the Beer-Lambert law.",
+  "difficulty": "intermediate",
+  "tags": ["amino-acids", "chemistry"]
+}

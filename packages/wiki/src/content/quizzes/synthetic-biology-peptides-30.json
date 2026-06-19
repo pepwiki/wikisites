@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of genome mining in NRPS discovery?",
+  "options": [
+    "No role in discovery",
+    "Bioinformatic analysis to identify NRPS gene clusters and predict their peptide products",
+    "Only for taxonomy only",
+    "Only for sequencing only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Genome mining uses bioinformatics tools like antiSMASH to identify NRPS gene clusters and predict products for novel natural product discovery.",
+  "difficulty": "advanced",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

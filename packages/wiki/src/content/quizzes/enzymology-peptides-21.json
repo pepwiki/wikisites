@@ -1,0 +1,16 @@
+{
+  "question": "Which inhibition pattern shows parallel lines on a Lineweaver-Burk plot?",
+  "options": [
+    "Competitive",
+    "Non-competitive",
+    "Uncompetitive",
+    "Mixed"
+  ],
+  "correctIndex": 2,
+  "explanation": "Uncompetitive inhibition yields parallel lines because both Km and Vmax decrease by the same factor. The inhibitor binds only to the ES complex, not free enzyme.",
+  "difficulty": "intermediate",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

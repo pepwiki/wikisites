@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of a quadrupole mass filter?",
+  "options": [
+    "Ionizes peptides",
+    "Selects specific m/z values by oscillating electric fields",
+    "Measures time-of-flight",
+    "Stores ions in a trap"
+  ],
+  "correctIndex": 1,
+  "explanation": "Quadrupoles use oscillating DC and RF voltages to create stable trajectories for specific m/z values, filtering out other ions for selected ion monitoring.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

@@ -1,10 +1,9 @@
 {
-  "front": "How do metalloproteases catalyze peptide bond cleavage?",
-  "back": "Metalloproteases (thermolysin, MMPs) use Zn2+ to activate a water molecule for nucleophilic attack. The metal polarizes the carbonyl and stabilizes the transition state. Glu/His coordinates the zinc ion. TIMPs are endogenous inhibitors.",
+  "front": "Why does the peptide bond have partial double-bond character?",
+  "back": "The peptide bond has partial double-bond character due to resonance between the carbonyl oxygen and the amide nitrogen. This restricts rotation around the C-N bond and makes the peptide bond planar.",
   "tags": [
     "peptide-bonds",
-    "enzymology",
-    "mechanism"
+    "structure"
   ],
-  "difficulty": "advanced"
+  "difficulty": "beginner"
 }

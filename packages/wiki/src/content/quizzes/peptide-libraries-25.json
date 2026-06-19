@@ -1,0 +1,16 @@
+{
+  "question": "What is the challenge of library bias?",
+  "options": [
+    "No issues with bias",
+    "Some sequences are preferentially synthesized, amplified, or displayed, reducing effective diversity",
+    "All libraries are unbiased",
+    "Bias only affects computational design"
+  ],
+  "correctIndex": 1,
+  "explanation": "Library bias from codon usage, synthesis errors, differential phage amplification, or aggregation can reduce the representation of certain sequences, limiting discovery potential.",
+  "difficulty": "advanced",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

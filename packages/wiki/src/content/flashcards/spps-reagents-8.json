@@ -1,0 +1,9 @@
+{
+  "front": "What is TFA (trifluoroacetic acid) used for in peptide synthesis?",
+  "back": "TFA is used for cleaving acid-labile protecting groups and for final peptide cleavage from the resin in Fmoc SPPS. A typical cleavage cocktail is TFA/water/thiol (95:2.5:2.5).",
+  "tags": [
+    "synthesis",
+    "reagents"
+  ],
+  "difficulty": "beginner"
+}

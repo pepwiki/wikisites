@@ -1,0 +1,9 @@
+{
+  "front": "What is a structure-activity relationship (SAR) study?",
+  "back": "SAR studies systematically modify specific positions of a molecule to determine which structural features are essential for activity. This guides rational drug design.",
+  "tags": [
+    "drug-design",
+    "principles"
+  ],
+  "difficulty": "beginner"
+}

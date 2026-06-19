@@ -1,0 +1,13 @@
+{
+  "question": "What is the main advantage of liposomal drug delivery?",
+  "options": [
+    "Increased drug solubility",
+    "Targeted delivery and reduced toxicity",
+    "Faster drug absorption",
+    "Improved drug stability in stomach"
+  ],
+  "correctIndex": 1,
+  "explanation": "Liposomes encapsulate drugs in lipid bilayers, enabling targeted delivery to specific tissues while reducing systemic toxicity and improving therapeutic index.",
+  "difficulty": "beginner",
+  "tags": ["delivery", "formulation"]
+}

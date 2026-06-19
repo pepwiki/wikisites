@@ -1,0 +1,16 @@
+{
+  "question": "What is an spirocyclic scaffold in peptidomimetics?",
+  "options": [
+    "A linear chain",
+    "A rigid scaffold where two rings share one atom, constraining pharmacophore geometry",
+    "A peptide with two disulfide bonds",
+    "A peptide that forms spirals in solution"
+  ],
+  "correctIndex": 1,
+  "explanation": "Spirocyclic scaffolds share one spiro-atom between two rings, creating rigid three-dimensional frameworks that position pharmacophoric groups in defined spatial orientations.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

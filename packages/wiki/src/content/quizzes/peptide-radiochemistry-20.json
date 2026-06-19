@@ -1,0 +1,16 @@
+{
+  "question": "What is dose fractionation in PRRT?",
+  "options": [
+    "Giving the entire dose at once",
+    "Dividing total therapy into multiple cycles to allow normal tissue recovery",
+    "Reducing the dose over time",
+    "Using multiple radionuclides simultaneously"
+  ],
+  "correctIndex": 1,
+  "explanation": "Fractionated PRRT allows normal tissue repair between cycles while maintaining cumulative tumor damage, improving the therapeutic ratio.",
+  "difficulty": "intermediate",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

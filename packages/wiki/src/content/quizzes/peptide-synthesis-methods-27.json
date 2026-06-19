@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of the automated peptide synthesizer in modern SPPS?",
+  "options": [
+    "It eliminates the need for protecting groups",
+    "It automates coupling, washing, and deprotection cycles",
+    "It purifies the final peptide",
+    "It performs native chemical ligation"
+  ],
+  "correctIndex": 1,
+  "explanation": "Automated synthesizers perform repetitive SPPS cycles (coupling, washing, deprotection) with precision, enabling high-throughput synthesis of multiple peptides.",
+  "difficulty": "beginner",
+  "tags": ["synthesis", "methods"]
+}

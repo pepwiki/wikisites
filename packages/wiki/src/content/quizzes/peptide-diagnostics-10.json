@@ -1,0 +1,16 @@
+{
+  "question": "What is the preanalytical phase in diagnostic testing?",
+  "options": [
+    "Running the actual assay",
+    "Sample collection, transport, and storage before analysis",
+    "Data interpretation and reporting",
+    "Equipment calibration"
+  ],
+  "correctIndex": 1,
+  "explanation": "The preanalytical phase encompasses all steps before analysis. Errors in this phase are the largest source of diagnostic errors.",
+  "difficulty": "intermediate",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

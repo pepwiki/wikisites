@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of DMF (dimethylformamide) in SPPS?",
+  "options": [
+    "Cleavage solvent",
+    "Coupling solvent that dissolves amino acids and reagents while swelling the resin",
+    "Fmoc deprotection agent",
+    "Resin storage medium"
+  ],
+  "correctIndex": 1,
+  "explanation": "DMF is a polar aprotic solvent that dissolves amino acids, coupling reagents, and byproducts. It is used during coupling, deprotection, and washing steps.",
+  "difficulty": "intermediate",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

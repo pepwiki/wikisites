@@ -1,0 +1,16 @@
+{
+  "question": "What is the Boc protecting group strategy?",
+  "options": [
+    "Base-labile protection",
+    "Acid-labile N-alpha protection removed by TFA, with HF final cleavage",
+    "Permanent protection",
+    "Only for side chain protection"
+  ],
+  "correctIndex": 1,
+  "explanation": "The Boc strategy uses TFA for repeated N-alpha deprotection and anhydrous HF for final resin cleavage, the original SPPS strategy before Fmoc became dominant.",
+  "difficulty": "beginner",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is dynamic exclusion in MS/MS acquisition?",
+  "options": [
+    "Prevents all repeat analyses",
+    "Excludes previously fragmented m/z values to focus on novel precursors",
+    "Speeds up data acquisition",
+    "Increases ion source temperature"
+  ],
+  "correctIndex": 1,
+  "explanation": "Dynamic exclusion prevents redundant MS/MS of the same precursor by temporarily excluding it from selection, maximizing unique peptides fragmented.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

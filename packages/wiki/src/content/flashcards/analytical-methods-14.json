@@ -1,0 +1,9 @@
+{
+  "front": "What is the significance of the m/z ratio in mass spectrometry?",
+  "back": "The mass-to-charge ratio (m/z) is the fundamental measurement in mass spectrometry. For ESI, multiply charged ions allow analysis of large molecules within the mass range of the instrument.",
+  "tags": [
+    "analytical",
+    "methods"
+  ],
+  "difficulty": "beginner"
+}

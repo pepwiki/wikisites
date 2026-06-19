@@ -1,0 +1,9 @@
+{
+  "front": "What is computational protein design?",
+  "back": "Computational protein design uses physics-based and knowledge-based methods to design novel protein structures and functions. Software like Rosetta, RosettaDesign, and AlphaFold are key tools.",
+  "tags": [
+    "engineering",
+    "design"
+  ],
+  "difficulty": "intermediate"
+}

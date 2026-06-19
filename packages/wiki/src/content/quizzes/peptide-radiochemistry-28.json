@@ -1,0 +1,16 @@
+{
+  "question": "What are renal protection strategies in PRRT?",
+  "options": [
+    "No protection needed",
+    "Co-infusion of basic amino acids to competitively inhibit tubular reabsorption",
+    "Increasing radiation dose to kidneys",
+    "Removing kidneys before therapy"
+  ],
+  "correctIndex": 1,
+  "explanation": "Infusion of lysine or arginine competitively inhibits megalin-mediated tubular reabsorption, reducing kidney absorbed dose by 20-50% without affecting tumor uptake.",
+  "difficulty": "advanced",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

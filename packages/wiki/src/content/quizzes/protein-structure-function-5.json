@@ -1,0 +1,13 @@
+{
+  "question": "What is quaternary structure?",
+  "options": [
+    "The structure of a single polypeptide chain",
+    "The arrangement of multiple protein subunits",
+    "The sequence of amino acids",
+    "The local folding patterns"
+  ],
+  "correctIndex": 1,
+  "explanation": "Quaternary structure describes how multiple polypeptide chains (subunits) assemble to form a functional protein complex, like hemoglobin's four subunits.",
+  "difficulty": "beginner",
+  "tags": ["structure", "function"]
+}

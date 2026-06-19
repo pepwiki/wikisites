@@ -1,0 +1,13 @@
+{
+  "question": "What is the difference between passive and active targeting?",
+  "options": [
+    "Passive targeting uses ligands, active does not",
+    "Passive uses EPR effect, active uses targeting ligands",
+    "There is no difference",
+    "Active targeting is always more effective"
+  ],
+  "correctIndex": 1,
+  "explanation": "Passive targeting relies on the EPR effect and physicochemical properties, while active targeting uses ligand-receptor interactions to enhance cellular uptake at target sites.",
+  "difficulty": "intermediate",
+  "tags": ["delivery", "formulation"]
+}

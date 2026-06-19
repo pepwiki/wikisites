@@ -1,0 +1,13 @@
+{
+  "question": "What is the primary objective of Phase 1 clinical trials?",
+  "options": [
+    "Determine efficacy against disease",
+    "Assess safety, tolerability, and pharmacokinetics",
+    "Compare with existing treatments",
+    "Obtain regulatory approval"
+  ],
+  "correctIndex": 1,
+  "explanation": "Phase 1 trials are the first-in-human studies that assess safety, tolerability, pharmacokinetics, and determine appropriate dosing in a small number of healthy volunteers or patients.",
+  "difficulty": "beginner",
+  "tags": ["clinical", "trials"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of kisspeptin in reproductive function?",
+  "options": [
+    "Inhibits reproduction only",
+    "Stimulates GnRH neurons to activate the hypothalamic-pituitary-gonadal axis",
+    "Promotes lactation only",
+    "Regulates appetite only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Kisspeptin acting through KISS1R is the most potent known stimulator of GnRH neurons, essential for puberty onset and fertility regulation.",
+  "difficulty": "advanced",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

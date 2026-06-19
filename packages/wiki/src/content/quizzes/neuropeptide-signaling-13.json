@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of neutral endopeptidase (NEP) in neuropeptide signaling?",
+  "options": [
+    "Synthesizes neuropeptides",
+    "Degrades enkephalins and other neuropeptides to terminate signaling",
+    "Transports peptides across membranes",
+    "Packages peptides into vesicles"
+  ],
+  "correctIndex": 1,
+  "explanation": "NEP is a zinc metalloprotease on the cell surface that cleaves and inactivates neuropeptides including enkephalins and substance P, terminating signaling.",
+  "difficulty": "intermediate",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

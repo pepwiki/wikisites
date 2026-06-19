@@ -1,0 +1,9 @@
+{
+  "front": "What is a coiled-coil structure?",
+  "back": "A coiled-coil consists of two or more alpha-helices that twist around each other. It is characterized by a heptad repeat (a-b-c-d-e-f-g) where positions a and d are hydrophobic residues.",
+  "tags": [
+    "structure",
+    "secondary"
+  ],
+  "difficulty": "intermediate"
+}

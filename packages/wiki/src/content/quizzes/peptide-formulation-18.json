@@ -1,0 +1,16 @@
+{
+  "question": "What is spray-drying in peptide formulation?",
+  "options": [
+    "A liquid formulation",
+    "Peptide powder produced by atomizing solution into hot gas creating dry particles",
+    "A frozen formulation",
+    "A gel formulation"
+  ],
+  "correctIndex": 1,
+  "explanation": "Spray drying rapidly converts peptide solutions into dry powders with controlled particle size for pulmonary delivery.",
+  "difficulty": "intermediate",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

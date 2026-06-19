@@ -1,0 +1,13 @@
+{
+  "question": "What does EC50 represent in dose-response curves?",
+  "options": [
+    "Maximum effect",
+    "Concentration producing 50% of maximum effect",
+    "Binding affinity",
+    "Receptor density"
+  ],
+  "correctIndex": 1,
+  "explanation": "EC50 is the concentration of an agonist that produces 50% of its maximum effect. It is a measure of potency, with lower EC50 indicating higher potency.",
+  "difficulty": "beginner",
+  "tags": ["receptors", "pharmacology"]
+}

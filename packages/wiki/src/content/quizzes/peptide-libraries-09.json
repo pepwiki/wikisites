@@ -1,0 +1,16 @@
+{
+  "question": "What is the YGGFL peptide in library contexts?",
+  "options": [
+    "A random peptide",
+    "Leu-enkephalin, a reference opioid peptide often included as a positive control",
+    "A degradation product",
+    "A contaminant"
+  ],
+  "correctIndex": 1,
+  "explanation": "YGGFL (Leu-enkephalin) is an endogenous opioid peptide often used as a positive control in receptor-binding screens and peptide library assays.",
+  "difficulty": "beginner",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

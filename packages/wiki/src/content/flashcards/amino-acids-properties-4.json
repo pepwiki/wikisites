@@ -1,0 +1,9 @@
+{
+  "front": "Which amino acid is most commonly phosphorylated in eukaryotes?",
+  "back": "Serine is the most commonly phosphorylated amino acid, followed by threonine and tyrosine. These three hydroxyl-containing residues are the primary targets of kinases.",
+  "tags": [
+    "amino-acids",
+    "properties"
+  ],
+  "difficulty": "beginner"
+}

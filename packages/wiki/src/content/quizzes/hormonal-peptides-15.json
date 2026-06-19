@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of C-peptide?",
+  "options": [
+    "Active hormone with therapeutic effects",
+    "Inactive marker of endogenous insulin secretion",
+    "Part of the insulin receptor",
+    "Degrades insulin in circulation"
+  ],
+  "correctIndex": 1,
+  "explanation": "C-peptide is equimolarly released with insulin during proinsulin processing, serving as a clinical marker of endogenous insulin production.",
+  "difficulty": "intermediate",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

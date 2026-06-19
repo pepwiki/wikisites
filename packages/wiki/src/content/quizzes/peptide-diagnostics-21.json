@@ -1,0 +1,16 @@
+{
+  "question": "What is a mass spectrometry-based MRM assay?",
+  "options": [
+    "A general protein assay",
+    "A targeted quantification method using specific precursor-product ion transitions",
+    "A gel-based detection method",
+    "A fluorescence immunoassay"
+  ],
+  "correctIndex": 1,
+  "explanation": "MRM selects specific precursor-product ion pairs for targeted peptide quantification, achieving high sensitivity and specificity without antibodies for clinical biomarker validation.",
+  "difficulty": "advanced",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

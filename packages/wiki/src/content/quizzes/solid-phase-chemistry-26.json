@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of chain length in SPPS difficulty?",
+  "options": [
+    "No effect on difficulty",
+    "Longer peptides accumulate more deletions and truncations, exponentially reducing yield",
+    "Longer peptides are always easier to purify",
+    "Chain length does not affect coupling efficiency"
+  ],
+  "correctIndex": 1,
+  "explanation": "SPPS difficulty increases exponentially with chain length. A 30-mer with 99% efficiency per step yields ~74%, while a 50-mer yields only ~61%, making purification increasingly challenging.",
+  "difficulty": "advanced",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

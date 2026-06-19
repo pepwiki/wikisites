@@ -1,0 +1,16 @@
+{
+  "question": "What analytical technique can distinguish glycan isomers with the same mass?",
+  "options": [
+    "SDS-PAGE only",
+    "Ion mobility spectrometry-mass spectrometry or capillary electrophoresis",
+    "UV spectroscopy",
+    "Standard MALDI-TOF alone"
+  ],
+  "correctIndex": 1,
+  "explanation": "Ion mobility spectrometry-MS separates glycan isomers by collision cross-sections, while CE separates by charge-to-size ratio, resolving isomers identical by mass alone.",
+  "difficulty": "advanced",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

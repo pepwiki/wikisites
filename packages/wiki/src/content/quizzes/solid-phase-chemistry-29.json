@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of urea formation in SPPS?",
+  "options": [
+    "Desired side reaction",
+    "Undesired byproduct from carbodiimide activation that reduces coupling efficiency",
+    "Protecting group formation",
+    "Resin modification"
+  ],
+  "correctIndex": 1,
+  "explanation": "N-acylurea (urea) forms from O-acylisourea rearrangement, representing dead-end byproducts that consume coupling reagent and reduce effective amino acid activation.",
+  "difficulty": "advanced",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

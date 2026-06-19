@@ -1,0 +1,16 @@
+{
+  "question": "What is biopanning in phage display?",
+  "options": [
+    "Freezing phage samples",
+    "Iterative selection of phage clones that bind a target, with amplification between rounds",
+    "A type of phage purification",
+    "Phage storage method"
+  ],
+  "correctIndex": 1,
+  "explanation": "Biopanning involves incubating phage libraries with immobilized target, washing unbound phage, eluting bound clones, and amplifying for the next selection round.",
+  "difficulty": "beginner",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

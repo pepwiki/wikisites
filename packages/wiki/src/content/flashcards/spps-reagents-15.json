@@ -1,0 +1,9 @@
+{
+  "front": "What is the Kaiser test?",
+  "back": "The Kaiser test (ninhydrin test) detects free primary amines on resin-bound peptides. A blue or purple color indicates incomplete coupling, while a yellow or colorless result indicates successful coupling.",
+  "tags": [
+    "synthesis",
+    "reagents"
+  ],
+  "difficulty": "beginner"
+}

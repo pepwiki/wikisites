@@ -1,0 +1,16 @@
+{
+  "question": "What is a positron in nuclear medicine?",
+  "options": [
+    "A neutron with positive charge",
+    "The antiparticle of an electron, emitted during beta-plus decay",
+    "A proton with no charge",
+    "A gamma photon"
+  ],
+  "correctIndex": 1,
+  "explanation": "A positron is the antimatter counterpart of the electron. When emitted during beta-plus decay, it annihilates with an electron producing two 511 keV gamma photons.",
+  "difficulty": "beginner",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

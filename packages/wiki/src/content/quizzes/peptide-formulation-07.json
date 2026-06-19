@@ -1,0 +1,16 @@
+{
+  "question": "What is the glass transition temperature (Tg) in lyophilization?",
+  "options": [
+    "Room temperature always",
+    "The temperature at which frozen formulation transitions from glassy to rubbery state",
+    "The melting point of ice",
+    "The boiling point of water"
+  ],
+  "correctIndex": 1,
+  "explanation": "Tg is critical: the product must be kept below collapse temperature during primary drying to prevent structural collapse.",
+  "difficulty": "beginner",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is ion mobility spectrometry-mass spectrometry (IMS-MS)?",
+  "back": "IMS-MS adds a gas-phase separation step based on ion shape and charge before mass analysis. It can separate peptide isomers and provide structural information about gas-phase conformations.",
+  "tags": [
+    "analytical",
+    "methods"
+  ],
+  "difficulty": "advanced"
+}

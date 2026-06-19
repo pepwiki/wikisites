@@ -1,10 +1,9 @@
 {
-  "front": "What is peptide bond cis-trans isomerization and why is it kinetically slow?",
-  "back": "Peptide bonds adopt trans configuration (omega ~180) due to steric clash of cis (omega ~0). Cis-trans isomerization has a barrier of ~20 kcal/mol, with half-lives of seconds to minutes. This is the rate-limiting step in protein folding.",
+  "front": "What is the preferred conformation of a peptide bond in most proteins?",
+  "back": "The trans conformation is preferred, with approximately 99.6% of peptide bonds in trans. In trans, the two alpha-carbons are on opposite sides of the peptide bond.",
   "tags": [
     "peptide-bonds",
-    "physical-chemistry",
-    "protein-folding"
+    "structure"
   ],
-  "difficulty": "advanced"
+  "difficulty": "beginner"
 }

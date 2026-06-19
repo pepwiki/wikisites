@@ -1,0 +1,13 @@
+{
+  "question": "What is the purpose of the stealth property in nanoparticle design?",
+  "options": [
+    "To make nanoparticles invisible to imaging",
+    "To evade immune recognition and prolong circulation",
+    "To increase drug loading",
+    "To improve targeting"
+  ],
+  "correctIndex": 1,
+  "explanation": "Stealth properties, often achieved through PEGylation, reduce opsonization and phagocytic uptake, allowing nanoparticles to circulate longer and accumulate at target sites.",
+  "difficulty": "intermediate",
+  "tags": ["delivery", "formulation"]
+}

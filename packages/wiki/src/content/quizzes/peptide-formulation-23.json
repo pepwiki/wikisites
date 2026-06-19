@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of stabilizing excipients in lyophilization?",
+  "options": [
+    "Provides color only",
+    "Forms a glassy matrix immobilizing the peptide and preventing degradation",
+    "Increases peptide solubility only",
+    "Acts as a preservative only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Stabilizers like sucrose form amorphous matrices that immobilize peptides, preventing molecular mobility and degradation during storage.",
+  "difficulty": "advanced",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is lyophilization (freeze-drying)?",
+  "back": "Lyophilization removes water by sublimation under vacuum. It improves peptide stability by eliminating hydrolysis and reducing molecular mobility, but can cause aggregation during freezing.",
+  "tags": [
+    "stability",
+    "formulation"
+  ],
+  "difficulty": "beginner"
+}

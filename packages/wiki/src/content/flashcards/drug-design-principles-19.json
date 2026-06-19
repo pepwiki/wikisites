@@ -1,0 +1,9 @@
+{
+  "front": "What is the role of computational chemistry in drug design?",
+  "back": "Computational chemistry provides tools for molecular modeling, docking, MD simulations, and free energy calculations. It reduces experimental costs and accelerates drug discovery.",
+  "tags": [
+    "drug-design",
+    "principles"
+  ],
+  "difficulty": "intermediate"
+}

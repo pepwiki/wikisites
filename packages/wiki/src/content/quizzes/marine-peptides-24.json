@@ -1,0 +1,16 @@
+{
+  "question": "What is dereplication in marine natural product discovery?",
+  "options": [
+    "Removing duplicate samples",
+    "Identifying known compounds early to avoid re-discovery, focusing on novel activities",
+    "Increasing sample number",
+    "Reducing ecosystem complexity"
+  ],
+  "correctIndex": 1,
+  "explanation": "Dereplication uses MS, NMR, and databases to rapidly identify known compounds, allowing focus on novel structures.",
+  "difficulty": "advanced",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

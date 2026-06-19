@@ -1,0 +1,9 @@
+{
+  "front": "What is the role of the Peyer's patches in oral peptide delivery?",
+  "back": "Peyer's patches are lymphoid tissues in the intestine that sample antigens via M cells. Nanoparticles can be taken up by M cells, enabling oral delivery of peptide vaccines.",
+  "tags": [
+    "transport",
+    "membrane"
+  ],
+  "difficulty": "advanced"
+}

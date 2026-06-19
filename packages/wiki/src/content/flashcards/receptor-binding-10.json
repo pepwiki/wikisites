@@ -1,0 +1,9 @@
+{
+  "front": "What is competitive inhibition?",
+  "back": "Competitive inhibitors bind to the same site as the substrate/agonist, competing for binding. They increase apparent Km without affecting Vmax, and can be overcome by increasing substrate concentration.",
+  "tags": [
+    "receptors",
+    "binding"
+  ],
+  "difficulty": "beginner"
+}

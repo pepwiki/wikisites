@@ -1,0 +1,16 @@
+{
+  "question": "What is the challenge of systemic AMP therapy?",
+  "options": [
+    "Too weak to work",
+    "Rapid renal clearance, serum degradation, and potential toxicity at therapeutic doses",
+    "Too expensive to produce",
+    "No resistance development concerns"
+  ],
+  "correctIndex": 1,
+  "explanation": "Systemic AMP use faces challenges including rapid renal clearance, serum protease degradation, blood component sequestration, and potential toxicity at effective concentrations.",
+  "difficulty": "advanced",
+  "tags": [
+    "antimicrobial",
+    "defense"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of capillary electrophoresis (CE) in peptide analysis?",
+  "options": [
+    "It is only for DNA analysis",
+    "It separates peptides based on charge-to-size ratio",
+    "It is slower than HPLC",
+    "It requires large sample volumes"
+  ],
+  "correctIndex": 1,
+  "explanation": "CE separates peptides based on charge-to-size ratio with high resolution and efficiency, requiring minimal sample volumes and providing complementary information to HPLC.",
+  "difficulty": "intermediate",
+  "tags": ["analytical", "techniques"]
+}

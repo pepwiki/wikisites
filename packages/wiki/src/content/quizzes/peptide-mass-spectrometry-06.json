@@ -1,0 +1,16 @@
+{
+  "question": "What is tandem mass spectrometry (MS/MS)?",
+  "options": [
+    "Using two mass spectrometers in sequence",
+    "Selecting a precursor ion, fragmenting it, and analyzing product ions",
+    "Measuring mass twice",
+    "Using two ionization sources"
+  ],
+  "correctIndex": 1,
+  "explanation": "MS/MS selects a specific precursor ion, fragments it, and analyzes the resulting product ions, providing sequence information for peptide identification.",
+  "difficulty": "beginner",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

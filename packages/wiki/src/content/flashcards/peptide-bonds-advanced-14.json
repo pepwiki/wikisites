@@ -1,10 +1,9 @@
 {
-  "front": "How do backbone modifications affect peptide bond hydrolysis resistance?",
-  "back": "N-methylation (as in cyclosporine), beta-amino acids, and peptoid backbones resist proteolytic cleavage. These modifications remove hydrogen bond donors or alter backbone geometry. Stapled peptides use hydrocarbon cross-links to stabilize helices.",
+  "front": "What is the bond angle at the peptide carbonyl carbon?",
+  "back": "The bond angles at the peptide carbonyl carbon are approximately 120\u00b0, consistent with the sp\u00b2 hybridization that creates the planar geometry of the peptide bond.",
   "tags": [
     "peptide-bonds",
-    "chemistry",
-    "drug-design"
+    "structure"
   ],
   "difficulty": "advanced"
 }

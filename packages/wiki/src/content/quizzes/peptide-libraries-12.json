@@ -1,0 +1,16 @@
+{
+  "question": "What is the concept of library diversity?",
+  "options": [
+    "Number of peptides in the library only",
+    "The total number of unique sequences that can be generated, often 10^6 to 10^12",
+    "The purity of each peptide",
+    "The size of each peptide"
+  ],
+  "correctIndex": 1,
+  "explanation": "Library diversity (e.g., 10^9 variants in phage display) determines the probability of finding rare high-affinity sequences. Higher diversity increases screening success rates.",
+  "difficulty": "intermediate",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

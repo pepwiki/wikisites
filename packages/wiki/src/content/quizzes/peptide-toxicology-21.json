@@ -1,0 +1,16 @@
+{
+  "question": "What is organ-on-a-chip in toxicology?",
+  "options": [
+    "A new drug formulation",
+    "Microfluidic devices mimicking organ function for in vitro toxicity testing",
+    "An implantable device",
+    "A patient monitoring system"
+  ],
+  "correctIndex": 1,
+  "explanation": "Organ-on-a-chip technology creates physiologically relevant models for predicting human toxicity without animal testing.",
+  "difficulty": "advanced",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

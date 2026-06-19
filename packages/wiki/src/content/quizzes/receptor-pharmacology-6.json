@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of beta-arrestin in GPCR signaling?",
+  "options": [
+    "It enhances G protein signaling",
+    "It mediates receptor internalization and desensitization",
+    "It activates adenylyl cyclase",
+    "It inhibits protein kinase A"
+  ],
+  "correctIndex": 1,
+  "explanation": "Beta-arrestin binds to phosphorylated GPCRs, uncoupling them from G proteins and mediating receptor internalization through clathrin-coated pits.",
+  "difficulty": "advanced",
+  "tags": ["receptors", "pharmacology"]
+}

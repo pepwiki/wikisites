@@ -1,0 +1,16 @@
+{
+  "question": "What is the minimum resolution needed to see individual atoms in X-ray crystallography?",
+  "options": [
+    "5.0 A",
+    "3.0 A",
+    "1.2 A",
+    "10.0 A"
+  ],
+  "correctIndex": 2,
+  "explanation": "Atomic resolution (~1.2 A or better) allows unambiguous determination of individual atom positions. At 3.0 A, side chain conformations may be ambiguous.",
+  "difficulty": "beginner",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

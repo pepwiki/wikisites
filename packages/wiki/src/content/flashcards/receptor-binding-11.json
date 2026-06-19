@@ -1,0 +1,9 @@
+{
+  "front": "What is non-competitive inhibition?",
+  "back": "Non-competitive inhibitors bind to an allosteric site, reducing Vmax without affecting Km. The inhibitor can bind to either the free enzyme or the enzyme-substrate complex.",
+  "tags": [
+    "receptors",
+    "binding"
+  ],
+  "difficulty": "beginner"
+}

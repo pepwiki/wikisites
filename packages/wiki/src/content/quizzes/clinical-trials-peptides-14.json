@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the AUC in pharmacokinetics?",
+  "options": [
+    "Area Under the Curve represents total drug exposure over time",
+    "It measures maximum drug concentration",
+    "It indicates drug half-life only",
+    "It measures drug solubility"
+  ],
+  "correctIndex": 0,
+  "explanation": "AUC (Area Under the Curve) represents the total systemic exposure to a drug over a specific time period, integrating concentration and time.",
+  "difficulty": "intermediate",
+  "tags": ["clinical", "trials"]
+}

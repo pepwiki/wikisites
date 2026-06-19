@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of the mass analyzer in mass spectrometry?",
+  "options": [
+    "It ionizes peptides",
+    "It separates ions based on mass-to-charge ratio",
+    "It fragments peptides",
+    "It detects ions"
+  ],
+  "correctIndex": 1,
+  "expl": "The mass analyzer separates ions based on their mass-to-charge ratio (m/z), providing the mass spectrum. Different analyzers (quadrupole, TOF, Orbitrap) have different characteristics.",
+  "difficulty": "beginner",
+  "tags": ["analytical", "techniques"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What does 'specific activity' mean in radiochemistry?",
+  "options": [
+    "How specific a drug is",
+    "Radioactivity per unit mass of the radiolabeled compound",
+    "The chemical reaction rate",
+    "The biological activity level"
+  ],
+  "correctIndex": 1,
+  "explanation": "Specific activity measures radioactivity per amount of compound. Higher specific activity means more radioactive atoms relative to cold atoms.",
+  "difficulty": "beginner",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

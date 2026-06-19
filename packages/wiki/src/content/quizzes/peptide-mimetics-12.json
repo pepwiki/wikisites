@@ -1,0 +1,16 @@
+{
+  "question": "What is the concept of conformational restriction in peptidomimetics?",
+  "options": [
+    "Increasing peptide flexibility",
+    "Limiting the conformational space of a peptide to favor the bioactive conformation",
+    "Making peptides more soluble",
+    "Reducing peptide length"
+  ],
+  "correctIndex": 1,
+  "explanation": "Conformational restriction through cyclization, stapling, or non-natural amino acids reduces the entropic cost of binding by pre-organizing the peptide in its bioactive conformation.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

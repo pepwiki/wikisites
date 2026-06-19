@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of orexin in sleep-wake regulation?",
+  "options": [
+    "Promotes sleep",
+    "Stabilizes wakefulness; loss causes narcolepsy",
+    "No role in sleep",
+    "Promotes only REM sleep"
+  ],
+  "correctIndex": 1,
+  "explanation": "Orexin neurons in the lateral hypothalamus stabilize wakefulness by activating wake-promoting circuits. Loss of orexin neurons causes narcolepsy type 1.",
+  "difficulty": "advanced",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

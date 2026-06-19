@@ -1,0 +1,9 @@
+{
+  "front": "Which amino acids are commonly found in alpha-helices?",
+  "back": "Alanine, leucine, methionine, and glutamate are strong helix-formers. Proline and glycine are helix-breakers\u2014proline disrupts the helix due to its cyclic structure, and glycine is too flexible.",
+  "tags": [
+    "structure",
+    "secondary"
+  ],
+  "difficulty": "intermediate"
+}

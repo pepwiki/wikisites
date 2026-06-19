@@ -1,0 +1,8 @@
+{
+  "question": "What is the approximate pKa of the carboxyl group in a free amino acid?",
+  "options": ["2.0", "4.5", "7.0", "9.5"],
+  "correctIndex": 0,
+  "explanation": "The carboxyl group (COOH) of free amino acids typically has a pKa around 2.0, making it strongly acidic. This allows it to lose a proton readily at physiological pH.",
+  "difficulty": "beginner",
+  "tags": ["amino-acids", "chemistry"]
+}

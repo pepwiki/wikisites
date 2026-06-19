@@ -1,0 +1,16 @@
+{
+  "question": "What is a peptide synthetase module in NRPS?",
+  "options": [
+    "A ribosomal subunit",
+    "A discrete enzymatic unit that activates, modifies, and incorporates one amino acid",
+    "A type of protease",
+    "A DNA repair enzyme"
+  ],
+  "correctIndex": 1,
+  "explanation": "Each NRPS module contains domains for amino acid activation, thiolation, and condensation, determining which amino acid is incorporated.",
+  "difficulty": "beginner",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

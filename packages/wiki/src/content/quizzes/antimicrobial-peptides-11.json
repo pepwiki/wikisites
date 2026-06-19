@@ -1,0 +1,16 @@
+{
+  "question": "Which modification can increase AMP resistance to proteolytic degradation?",
+  "options": [
+    "D-amino acid substitution",
+    "Glycosylation at the N-terminus",
+    "Phosphorylation",
+    "Acetylation only"
+  ],
+  "correctIndex": 0,
+  "explanation": "Substituting L-amino acids with D-enantiomers renders peptides resistant to most proteases, which recognize only L-amino acid substrates.",
+  "difficulty": "intermediate",
+  "tags": [
+    "antimicrobial",
+    "defense"
+  ]
+}

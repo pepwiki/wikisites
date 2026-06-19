@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of protein kinase C (PKC) in Gq signaling?",
+  "options": [
+    "It is activated by cAMP",
+    "It is activated by diacylglycerol and calcium",
+    "It inhibits phospholipase C",
+    "It activates adenylyl cyclase"
+  ],
+  "correctIndex": 1,
+  "explanation": "PKC is activated by diacylglycerol (DAG) and calcium ions released through Gq-mediated phospholipase C activation, leading to phosphorylation of various substrates.",
+  "difficulty": "intermediate",
+  "tags": ["receptors", "pharmacology"]
+}

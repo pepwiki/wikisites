@@ -1,0 +1,16 @@
+{
+  "question": "What is cumulative toxicity?",
+  "options": [
+    "Acute toxicity only",
+    "Toxic effects that build up over repeated exposures due to tissue accumulation",
+    "Single exposure effects",
+    "Immediate toxicity only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cumulative toxicity occurs when repeated low-dose exposures progressively damage tissues through accumulation.",
+  "difficulty": "advanced",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

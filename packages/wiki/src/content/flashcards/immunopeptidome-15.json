@@ -1,0 +1,9 @@
+{
+  "front": "What is HLA-DM's function?",
+  "back": "HLA-DM catalyzes the exchange of CLIP for antigenic peptides in MHC class II molecules. It acts as a peptide editor, selecting high-affinity peptides for stable MHC-II presentation.",
+  "tags": [
+    "immunology",
+    "MHC"
+  ],
+  "difficulty": "advanced"
+}

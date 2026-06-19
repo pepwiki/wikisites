@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the 'difficult sequence' concept in SPPS?",
+  "options": [
+    "Sequences that are toxic to synthesizers",
+    "Sequences prone to aggregation and incomplete coupling",
+    "Sequences with rare amino acids",
+    "Sequences that cannot be purified"
+  ],
+  "correctIndex": 1,
+  "explanation": "Difficult sequences contain stretches that form stable secondary structures on resin, leading to aggregation, incomplete coupling, and deletion sequences requiring special strategies.",
+  "difficulty": "advanced",
+  "tags": ["synthesis", "methods"]
+}

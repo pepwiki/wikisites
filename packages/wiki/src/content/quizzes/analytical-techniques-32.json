@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the peptide mapping in quality control?",
+  "options": [
+    "It measures peptide concentration",
+    "It confirms the identity and purity of therapeutic peptides",
+    "It measures peptide flexibility",
+    "It determines peptide solubility"
+  ],
+  "correctIndex": 1,
+  "explanation": "Peptide mapping uses enzymatic digestion and LC-MS to confirm the amino acid sequence, identify modifications, and assess purity of therapeutic peptides.",
+  "difficulty": "intermediate",
+  "tags": ["analytical", "techniques"]
+}

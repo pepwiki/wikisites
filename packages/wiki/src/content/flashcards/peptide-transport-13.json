@@ -1,0 +1,9 @@
+{
+  "front": "What is the mechanism of the TAT peptide?",
+  "back": "TAT (GRKKRRQRRRPQ) from HIV-1 enters cells through multiple mechanisms including direct penetration and endocytosis. Its arginine residues interact with membrane phospholipids.",
+  "tags": [
+    "transport",
+    "membrane"
+  ],
+  "difficulty": "intermediate"
+}

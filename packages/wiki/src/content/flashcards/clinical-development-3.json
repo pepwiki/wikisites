@@ -1,0 +1,9 @@
+{
+  "front": "What is PK/PD in drug development?",
+  "back": "Pharmacokinetics (PK) describes what the body does to a drug (ADME). Pharmacodynamics (PD) describes what the drug does to the body (efficacy, toxicity). PK/PD modeling guides dosing optimization.",
+  "tags": [
+    "clinical",
+    "development"
+  ],
+  "difficulty": "beginner"
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the difference between orthosteric and allosteric binding sites?",
+  "options": [
+    "Orthosteric sites are on transmembrane domains, allosteric are extracellular",
+    "Orthosteric sites bind agonists, allosteric bind antagonists",
+    "Orthosteric sites are the primary binding sites, allosteric modulate binding",
+    "There is no difference"
+  ],
+  "correctIndex": 2,
+  "explanation": "Orthosteric sites are the primary ligand-binding sites where agonists and competitive antagonists bind. Allosteric sites are distinct and modulate orthosteric binding or receptor function.",
+  "difficulty": "intermediate",
+  "tags": ["receptors", "pharmacology"]
+}

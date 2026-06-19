@@ -1,0 +1,8 @@
+{
+  "question": "What is the typical percentage of TFA used for Fmoc side chain deprotection?",
+  "options": ["5%", "20%", "50%", "95%"],
+  "correctIndex": 3,
+  "explanation": "Fmoc side chain protecting groups (like tBu, Pbf, Trt) require concentrated TFA (95%) for cleavage, typically with scavengers to protect sensitive residues.",
+  "difficulty": "intermediate",
+  "tags": ["synthesis", "methods"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is a reproductive toxicity study?",
+  "options": [
+    "Fertility testing only",
+    "Comprehensive assessment of effects on fertility, embryo-fetal development, and postnatal development",
+    "Pregnancy detection only",
+    "Contraceptive testing only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Reproductive toxicity studies evaluate effects on fertility, teratogenicity, and pre/postnatal development required for marketing authorization.",
+  "difficulty": "intermediate",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

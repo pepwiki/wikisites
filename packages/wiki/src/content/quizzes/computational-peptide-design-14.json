@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the Ramachandran plot in computational modeling?",
+  "options": [
+    "It measures protein concentration",
+    "It validates backbone conformations and identifies outliers",
+    "It sequences peptides",
+    "It determines molecular weight"
+  ],
+  "correctIndex": 1,
+  "explanation": "The Ramachandran plot shows allowed backbone dihedral angles, used to validate computed structures and identify sterically unfavorable conformations.",
+  "difficulty": "intermediate",
+  "tags": ["computational", "design"]
+}

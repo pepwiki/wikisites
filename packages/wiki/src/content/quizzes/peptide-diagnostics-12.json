@@ -1,0 +1,16 @@
+{
+  "question": "What is MALDI used for in diagnostics?",
+  "options": [
+    "Cell imaging",
+    "High-throughput peptide mass fingerprinting",
+    "DNA sequencing",
+    "Protein crystallization"
+  ],
+  "correctIndex": 1,
+  "explanation": "MALDI-TOF is used for rapid microbial identification and peptide profiling in clinical laboratories by ionizing peptides from a solid matrix using laser pulses.",
+  "difficulty": "intermediate",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

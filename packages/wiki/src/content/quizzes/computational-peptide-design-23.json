@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the van der Waals radius in molecular modeling?",
+  "options": [
+    "It measures peptide concentration",
+    "It defines the effective size of atoms for steric interactions",
+    "It sequences proteins",
+    "It determines molecular weight"
+  ],
+  "correctIndex": 1,
+  "explanation": "Van der Waals radii define the effective atomic sizes used to calculate steric clashes and van der Waals interactions in molecular simulations.",
+  "difficulty": "intermediate",
+  "tags": ["computational", "design"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the physiological role of angiotensin-converting enzyme (ACE)?",
+  "options": [
+    "Degrades insulin",
+    "Converts angiotensin I to II and degrades bradykinin",
+    "Synthesizes neuropeptides",
+    "Cleaves collagen"
+  ],
+  "correctIndex": 1,
+  "explanation": "ACE converts the inactive angiotensin I to the vasoconstrictor angiotensin II and degrades vasodilatory bradykinin. ACE inhibitors treat hypertension by opposing both effects.",
+  "difficulty": "intermediate",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

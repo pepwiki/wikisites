@@ -1,0 +1,13 @@
+{
+  "question": "What is bioavailability in pharmacokinetics?",
+  "options": [
+    "The drug's solubility in water",
+    "The fraction of administered drug reaching systemic circulation",
+    "The drug's half-life",
+    "The drug's maximum concentration"
+  ],
+  "correctIndex": 1,
+  "explanation": "Bioavailability is the fraction of an administered dose that reaches the systemic circulation unchanged, typically 100% for IV administration and lower for other routes.",
+  "difficulty": "intermediate",
+  "tags": ["clinical", "trials"]
+}

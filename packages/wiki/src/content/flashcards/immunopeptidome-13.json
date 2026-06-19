@@ -1,0 +1,9 @@
+{
+  "front": "What is the MHC restriction phenomenon?",
+  "back": "MHC restriction means T cells can only recognize antigens when presented by specific MHC molecules. This determines which peptides a given individual's T cells can respond to.",
+  "tags": [
+    "immunology",
+    "MHC"
+  ],
+  "difficulty": "intermediate"
+}

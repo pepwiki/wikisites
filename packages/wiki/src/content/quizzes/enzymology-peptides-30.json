@@ -1,0 +1,16 @@
+{
+  "question": "What is the kinetic mechanism of the proteasome's caspase-like activity?",
+  "options": [
+    "Hydrolyzes only at the active site",
+    "Cleaves after acidic residues like glutamate",
+    "Cleaves only at basic residues",
+    "Cleaves at hydrophobic residues only"
+  ],
+  "correctIndex": 1,
+  "explanation": "The caspase-like (PGPH) activity of the proteasome's beta-5 subunit cleaves after acidic residues, playing a key role in generating MHC class I presentation peptides.",
+  "difficulty": "advanced",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

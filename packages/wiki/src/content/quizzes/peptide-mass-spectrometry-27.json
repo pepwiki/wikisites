@@ -1,0 +1,16 @@
+{
+  "question": "What is SWATH/DIA (data-independent acquisition)?",
+  "options": [
+    "Selective ion monitoring only",
+    "Fragmenting all ions within wide m/z windows systematically for comprehensive profiling",
+    "Acquiring only MS1 data",
+    "Only selecting single precursor ions"
+  ],
+  "correctIndex": 1,
+  "explanation": "DIA fragments all ions in predefined wide m/z windows, creating comprehensive spectral libraries for reproducible, quantitative proteome measurements.",
+  "difficulty": "advanced",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

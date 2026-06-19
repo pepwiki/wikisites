@@ -1,0 +1,9 @@
+{
+  "front": "What is the net charge of arginine at physiological pH (7.4)?",
+  "back": "Arginine carries a net positive charge of +1 at physiological pH. Its guanidinium group has a pKa of approximately 12.5 and remains fully protonated.",
+  "tags": [
+    "amino-acids",
+    "properties"
+  ],
+  "difficulty": "intermediate"
+}

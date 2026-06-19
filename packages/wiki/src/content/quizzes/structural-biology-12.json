@@ -1,0 +1,16 @@
+{
+  "question": "What is the isoelectric point (pI) of a peptide?",
+  "options": [
+    "pH where it has maximum charge",
+    "pH where net charge is zero",
+    "pH where it precipitates",
+    "pH of optimal enzymatic activity"
+  ],
+  "correctIndex": 1,
+  "explanation": "The isoelectric point is the pH at which a peptide carries no net electrical charge. Above pI the peptide is negatively charged; below pI, positively charged.",
+  "difficulty": "intermediate",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is receptor internalization and why is it important?",
+  "options": [
+    "Receptors are destroyed",
+    "Ligand-induced endocytosis that desensitizes cells to continued neuropeptide exposure",
+    "Receptors move to the nucleus",
+    "Receptors are synthesized de novo"
+  ],
+  "correctIndex": 1,
+  "explanation": "After prolonged neuropeptide exposure, receptors are phosphorylated, bound by beta-arrestin, and internalized via clathrin-coated pits, preventing overstimulation.",
+  "difficulty": "intermediate",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

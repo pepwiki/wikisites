@@ -1,0 +1,16 @@
+{
+  "question": "What is immunotoxicity assessment?",
+  "options": [
+    "Testing immunization efficacy",
+    "Evaluating adverse effects on the immune system including immunosuppression and hypersensitivity",
+    "Measuring antibody levels only",
+    "Assessing vaccine response only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Immunotoxicity studies assess unwanted immunosuppression, hypersensitivity, or autoimmune reactions through functional analyses.",
+  "difficulty": "intermediate",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

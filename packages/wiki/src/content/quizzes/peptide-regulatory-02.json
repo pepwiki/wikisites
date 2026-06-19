@@ -1,0 +1,16 @@
+{
+  "question": "What regulatory agency oversees drug approval in the United States?",
+  "options": [
+    "EMA",
+    "FDA",
+    "WHO",
+    "ICH"
+  ],
+  "correctIndex": 1,
+  "explanation": "The Food and Drug Administration evaluates the safety, efficacy, and quality of drugs before allowing them on the US market.",
+  "difficulty": "beginner",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

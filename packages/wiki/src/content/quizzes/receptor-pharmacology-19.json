@@ -1,0 +1,13 @@
+{
+  "question": "What is the van't Hoff equation used for in pharmacology?",
+  "options": [
+    "Calculating binding entropy",
+    "Determining reaction kinetics",
+    "Measuring protein stability",
+    "Assessing drug solubility"
+  ],
+  "correctIndex": 0,
+  "explanation": "The van't Hoff equation relates binding affinity to temperature, allowing calculation of enthalpy and entropy changes during drug-receptor binding interactions.",
+  "difficulty": "advanced",
+  "tags": ["receptors", "pharmacology"]
+}

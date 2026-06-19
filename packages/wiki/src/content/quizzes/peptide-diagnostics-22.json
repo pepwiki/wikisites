@@ -1,0 +1,16 @@
+{
+  "question": "What is digital ELISA (Simoa)?",
+  "options": [
+    "Uses colorimetric detection",
+    "Encapsulates single molecules in femtoliter wells for single-molecule counting",
+    "Uses radioactive labels",
+    "Requires larger sample volumes"
+  ],
+  "correctIndex": 1,
+  "explanation": "Single molecule array (Simoa) traps individual enzyme-labeled immunocomplexes in femtoliter-volume wells, enabling single-molecule detection with 1000-fold greater sensitivity than conventional ELISA.",
+  "difficulty": "advanced",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What are the factors affecting RP-HPLC peptide retention?",
+  "back": "Peptide retention depends on hydrophobicity (number of hydrophobic residues), chain length, secondary structure, the mobile phase composition, temperature, and the type of stationary phase.",
+  "tags": [
+    "purification",
+    "chromatography"
+  ],
+  "difficulty": "intermediate"
+}

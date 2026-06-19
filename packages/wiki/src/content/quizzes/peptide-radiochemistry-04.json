@@ -1,0 +1,16 @@
+{
+  "question": "Why are peptides used as imaging agents?",
+  "options": [
+    "They are always radioactive",
+    "They can target specific receptors overexpressed on disease tissues",
+    "They are cheaper than antibodies",
+    "They never degrade in vivo"
+  ],
+  "correctIndex": 1,
+  "explanation": "Peptides targeting receptors overexpressed on tumors deliver radionuclides specifically to disease sites for sensitive imaging.",
+  "difficulty": "beginner",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

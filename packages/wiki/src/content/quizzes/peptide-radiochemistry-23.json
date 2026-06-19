@@ -1,0 +1,16 @@
+{
+  "question": "What is cumulated activity in dosimetry?",
+  "options": [
+    "Single time-point measurement",
+    "Total number of disintegrations over the effective residence time",
+    "Maximum activity at any time",
+    "The administered activity only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cumulated activity is the time-integral of activity, representing total nuclear transformations essential for calculating absorbed dose in radionuclide therapy.",
+  "difficulty": "advanced",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of pancreatic alpha cells?",
+  "options": [
+    "Produces insulin",
+    "Produces glucagon to increase hepatic glucose output during fasting",
+    "Produces amylin",
+    "Produces somatostatin only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Pancreatic alpha cells produce glucagon, stimulating hepatic glycogenolysis and gluconeogenesis during fasting to prevent hypoglycemia.",
+  "difficulty": "advanced",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of an Ethics Committee in clinical trials?",
+  "options": [
+    "Manufacturing oversight",
+    "Protecting rights, safety, and well-being of trial participants",
+    "Financial auditing",
+    "Regulatory submission only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Ethics Committees review clinical trial protocols to ensure participant safety, informed consent, and ethical conduct of research.",
+  "difficulty": "intermediate",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

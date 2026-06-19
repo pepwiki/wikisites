@@ -1,0 +1,16 @@
+{
+  "question": "What is quantitative proteomics?",
+  "options": [
+    "Only identifying proteins",
+    "Measuring relative or absolute protein abundance across samples",
+    "Only sequencing peptides",
+    "Measuring only post-translational modifications"
+  ],
+  "correctIndex": 1,
+  "explanation": "Quantitative proteomics measures protein abundance changes using methods like label-free quantification, SILAC, TMT, or iTRAQ to discover biological differences.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

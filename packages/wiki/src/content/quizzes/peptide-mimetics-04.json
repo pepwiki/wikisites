@@ -1,0 +1,16 @@
+{
+  "question": "What is a non-natural (D-) amino acid?",
+  "options": [
+    "An amino acid from another species",
+    "An amino acid with D-configuration at the alpha-carbon, resistant to proteases",
+    "A modified amino acid with extra carbons",
+    "An amino acid not found in nature"
+  ],
+  "correctIndex": 1,
+  "explanation": "D-amino acids are enantiomers of natural L-amino acids. Peptides containing D-amino acids resist proteolytic degradation while often maintaining target binding.",
+  "difficulty": "beginner",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

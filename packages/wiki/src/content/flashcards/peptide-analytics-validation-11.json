@@ -1,0 +1,9 @@
+{
+  "front": "What is the difference between validation and verification?",
+  "back": "Validation demonstrates method fitness for a specific purpose. Verification confirms that a validated method works in a specific laboratory setting under local conditions.",
+  "tags": [
+    "analytics",
+    "validation"
+  ],
+  "difficulty": "intermediate"
+}

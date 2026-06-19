@@ -1,0 +1,9 @@
+{
+  "front": "What is the typical gradient used in peptide RP-HPLC?",
+  "back": "A linear gradient from 5-10% to 90-95% acetonitrile in water (with 0.1% TFA) over 15-60 minutes is standard. Shallow gradients (1% B/min or less) improve resolution of closely eluting peaks.",
+  "tags": [
+    "purification",
+    "chromatography"
+  ],
+  "difficulty": "intermediate"
+}

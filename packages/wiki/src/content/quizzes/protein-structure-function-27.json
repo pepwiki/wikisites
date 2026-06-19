@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of histones in protein structure?",
+  "options": [
+    "They are enzymes that digest DNA",
+  "They package DNA into chromatin structures",
+    "They transport DNA between compartments",
+    "They repair DNA damage"
+  ],
+  "correctIndex": 1,
+  "explanation": "Histones are positively charged proteins that bind DNA and package it into nucleosomes, forming the basic units of chromatin structure in eukaryotic cells.",
+  "difficulty": "intermediate",
+  "tags": ["structure", "function"]
+}

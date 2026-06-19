@@ -1,0 +1,16 @@
+{
+  "question": "What is an engineered NRPS?",
+  "options": [
+    "A natural enzyme only",
+    "A genetically modified NRPS designed to produce novel peptide structures with desired activities",
+    "A ribosomal enzyme",
+    "A standard protease"
+  ],
+  "correctIndex": 1,
+  "explanation": "Engineered NRPS enzymes are redesigned through domain swapping, mutagenesis, or computational design to produce novel analogs.",
+  "difficulty": "intermediate",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

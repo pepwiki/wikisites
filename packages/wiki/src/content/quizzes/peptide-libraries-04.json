@@ -1,0 +1,16 @@
+{
+  "question": "What is the split-and-mix (SPOT) synthesis method?",
+  "options": [
+    "Mixing peptides in solution",
+    "Spatially addressing peptide synthesis on membranes using partitioning",
+    "Solid-phase purification only",
+    "Computational design method"
+  ],
+  "correctIndex": 1,
+  "explanation": "SPOT synthesis addresses each peptide at a defined position on a cellulose membrane, enabling hundreds of peptides to be synthesized simultaneously in an array format.",
+  "difficulty": "beginner",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

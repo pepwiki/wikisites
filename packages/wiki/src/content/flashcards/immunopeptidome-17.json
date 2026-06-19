@@ -1,0 +1,9 @@
+{
+  "front": "What is peptide-MHC tetramer staining?",
+  "back": "MHC tetramers are four MHC-peptide complexes bound to a streptavidin-fluorophore. They enable direct visualization and quantification of antigen-specific T cells by flow cytometry.",
+  "tags": [
+    "immunology",
+    "MHC"
+  ],
+  "difficulty": "intermediate"
+}

@@ -1,0 +1,16 @@
+{
+  "question": "Why are peptides often formulated as lyophilized powders?",
+  "options": [
+    "Aesthetics only",
+    "Peptides are unstable in aqueous solution; lyophilization extends shelf life significantly",
+    "Peptides are always soluble in water",
+    "Lyophilization is always required for approval"
+  ],
+  "correctIndex": 1,
+  "explanation": "Lyophilization removes water, dramatically slowing degradation reactions and extending shelf life from weeks to years.",
+  "difficulty": "beginner",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

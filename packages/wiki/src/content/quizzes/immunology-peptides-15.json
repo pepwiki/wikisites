@@ -1,0 +1,13 @@
+{
+  "question": "What is the concept of MHC restriction?",
+  "options": [
+    "T cells recognize any MHC molecule",
+    "T cells recognize peptides only in the context of self-MHC molecules",
+    "MHC molecules only present self-peptides",
+    "T cells recognize MHC molecules directly"
+  ],
+  "correctIndex": 1,
+  "explanation": "MHC restriction means T cells can only recognize peptides presented by specific MHC molecules they encountered during thymic development.",
+  "difficulty": "intermediate",
+  "tags": ["immunology", "peptides"]
+}

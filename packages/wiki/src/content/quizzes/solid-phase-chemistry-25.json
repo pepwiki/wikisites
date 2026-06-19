@@ -1,0 +1,16 @@
+{
+  "question": "What is the concept of on-resin head-to-tail cyclization?",
+  "options": [
+    "Linear peptide synthesis only",
+    "Cyclizing the peptide while still attached to the resin through activation of the C-terminal residue",
+    "Cleaving the peptide first then cyclizing",
+    "A type of side chain modification"
+  ],
+  "correctIndex": 1,
+  "explanation": "On-resin cyclization activates the C-terminal carboxyl group (on resin) for intramolecular reaction with the N-terminal amine, forming a cyclic peptide before cleavage.",
+  "difficulty": "advanced",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

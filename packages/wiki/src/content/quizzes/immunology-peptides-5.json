@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of the T-cell receptor (TCR)?",
+  "options": [
+    "It binds to free antigens",
+    "It recognizes peptide-MHC complexes on antigen-presenting cells",
+    "It produces cytokines",
+    "It phagocytoses pathogens"
+  ],
+  "correctIndex": 1,
+  "explanation": "The TCR specifically recognizes peptide-MHC complexes on antigen-presenting cells, triggering T cell activation and immune responses.",
+  "difficulty": "beginner",
+  "tags": ["immunology", "peptides"]
+}

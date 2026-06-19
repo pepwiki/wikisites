@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of isotopic labeling in quantitative proteomics?",
+  "options": [
+    "It improves peptide solubility",
+    "It enables relative quantification between samples",
+    "It increases peptide stability",
+    "It simplifies purification"
+  ],
+  "correctIndex": 1,
+  "explanation": "Isotopic labeling (SILAC, iTRAQ, TMT) introduces mass tags that enable relative quantification of peptides/proteins across different samples.",
+  "difficulty": "intermediate",
+  "tags": ["analytical", "techniques"]
+}

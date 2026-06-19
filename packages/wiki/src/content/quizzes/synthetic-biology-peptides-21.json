@@ -1,0 +1,16 @@
+{
+  "question": "What is a RiPP precursor peptide?",
+  "options": [
+    "The mature bioactive peptide only",
+    "A short ribosomally synthesized peptide with leader sequence for enzyme recognition and core peptide for modification",
+    "A DNA sequence only",
+    "A chemical intermediate only"
+  ],
+  "correctIndex": 1,
+  "explanation": "RiPP precursor peptides contain an N-terminal leader peptide recognized by tailoring enzymes and a C-terminal core peptide that becomes the final product.",
+  "difficulty": "advanced",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

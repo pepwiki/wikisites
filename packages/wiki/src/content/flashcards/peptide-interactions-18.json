@@ -1,0 +1,9 @@
+{
+  "front": "What is a cooperative binding event?",
+  "back": "Cooperative binding occurs when binding at one site affects binding at another. Positive cooperativity means binding is enhanced; negative cooperativity means binding is reduced.",
+  "tags": [
+    "interactions",
+    "binding"
+  ],
+  "difficulty": "intermediate"
+}

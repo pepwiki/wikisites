@@ -1,0 +1,16 @@
+{
+  "question": "What is the concept of hormonal negative feedback?",
+  "options": [
+    "Hormone enhances its own release",
+    "Target organ hormones inhibit upstream signaling to maintain homeostasis",
+    "Hormones only act in positive loops",
+    "Feedback only occurs in the thyroid axis"
+  ],
+  "correctIndex": 1,
+  "explanation": "Negative feedback loops maintain hormonal balance. T3/T4 inhibit hypothalamic TRH and pituitary TSH release, preventing overproduction of thyroid hormones.",
+  "difficulty": "advanced",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

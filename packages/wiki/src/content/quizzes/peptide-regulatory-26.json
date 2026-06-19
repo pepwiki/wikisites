@@ -1,0 +1,16 @@
+{
+  "question": "What is a comparability exercise for biosimilars?",
+  "options": [
+    "Same as generic approval",
+    "Comprehensive studies demonstrating biosimilarity to the reference product",
+    "Comparing prices only",
+    "Marketing comparison only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Comparability exercises use extensive analytical, functional, and clinical studies to demonstrate no clinically meaningful differences from the reference product.",
+  "difficulty": "advanced",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

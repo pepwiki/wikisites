@@ -1,0 +1,9 @@
+{
+  "front": "What is a peptide-based biosensor?",
+  "back": "A peptide-based biosensor uses a peptide as the molecular recognition element to detect specific analytes. The peptide undergoes a conformational or chemical change upon binding, generating a measurable signal.",
+  "tags": [
+    "sensors",
+    "biosensors"
+  ],
+  "difficulty": "beginner"
+}

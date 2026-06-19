@@ -1,0 +1,9 @@
+{
+  "front": "What is the advantage of using formic acid instead of TFA in RP-HPLC?",
+  "back": "Formic acid is more compatible with LC-MS analysis and can be removed more easily than TFA. However, it provides weaker ion-pairing and may give lower resolution for some peptides.",
+  "tags": [
+    "purification",
+    "chromatography"
+  ],
+  "difficulty": "advanced"
+}

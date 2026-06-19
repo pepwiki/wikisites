@@ -1,0 +1,9 @@
+{
+  "front": "What is thymic selection?",
+  "back": "Thymic selection shapes the T cell repertoire. Positive selection ensures T cells can recognize self-MHC; negative selection eliminates T cells that bind too strongly to self-peptides, preventing autoimmunity.",
+  "tags": [
+    "immunology",
+    "MHC"
+  ],
+  "difficulty": "intermediate"
+}

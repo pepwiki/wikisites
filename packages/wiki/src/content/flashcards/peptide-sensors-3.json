@@ -1,0 +1,9 @@
+{
+  "front": "What is an electrochemical peptide sensor?",
+  "back": "Electrochemical sensors use peptides as recognition elements on electrodes. Binding events generate electrical signals through changes in impedance, current, or potential.",
+  "tags": [
+    "sensors",
+    "biosensors"
+  ],
+  "difficulty": "intermediate"
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of genetic algorithms in peptide optimization?",
+  "options": [
+    "They sequence DNA only",
+    "They evolve peptide sequences to optimize properties",
+  "They purify peptides",
+    "They synthesize peptides"
+  ],
+  "correctIndex": 1,
+  "explanation": "Genetic algorithms mimic natural selection to evolve peptide sequences, selecting and mutating sequences to optimize desired properties like binding affinity.",
+  "difficulty": "advanced",
+  "tags": ["computational", "design"]
+}

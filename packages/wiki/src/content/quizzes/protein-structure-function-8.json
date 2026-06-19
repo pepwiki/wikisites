@@ -1,0 +1,13 @@
+{
+  "question": "What is the Ramachandran plot used for?",
+  "options": [
+    "Predicting protein molecular weight",
+    "Analyzing backbone dihedral angles",
+    "Measuring protein concentration",
+    "Determining protein sequence"
+  ],
+  "correctIndex": 1,
+  "explanation": "The Ramachandran plot displays phi and psi backbone dihedral angles, showing allowed and disallowed conformations based on steric constraints.",
+  "difficulty": "intermediate",
+  "tags": ["structure", "function"]
+}

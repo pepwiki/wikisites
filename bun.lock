@@ -67,6 +67,13 @@
         "vitest": "^3.0.0",
       },
     },
+    "packages/sdk": {
+      "name": "@wikisites/sdk",
+      "version": "1.0.0",
+      "devDependencies": {
+        "typescript": "^5.7.0",
+      },
+    },
     "packages/shared": {
       "name": "@wikisites/shared",
       "version": "1.0.0",
@@ -687,6 +694,8 @@
     "@wikisites/encp": ["@wikisites/encp@workspace:packages/encp"],
 
     "@wikisites/query": ["@wikisites/query@workspace:packages/query"],
+
+    "@wikisites/sdk": ["@wikisites/sdk@workspace:packages/sdk"],
 
     "@wikisites/shared": ["@wikisites/shared@workspace:packages/shared"],
 

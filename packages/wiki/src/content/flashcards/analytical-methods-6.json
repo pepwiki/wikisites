@@ -1,0 +1,9 @@
+{
+  "front": "What is ESI-MS?",
+  "back": "Electrospray ionization mass spectrometry (ESI-MS) ionizes peptides from solution by applying high voltage. It produces multiply charged ions, enabling analysis of large peptides and proteins.",
+  "tags": [
+    "analytical",
+    "methods"
+  ],
+  "difficulty": "intermediate"
+}

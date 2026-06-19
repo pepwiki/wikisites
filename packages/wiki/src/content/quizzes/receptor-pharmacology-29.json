@@ -1,0 +1,13 @@
+{
+  "question": "What is the concept of receptor economy?",
+  "options": [
+    "The cost of receptor production",
+    "The relationship between receptor density and drug sensitivity",
+    "The efficiency of receptor recycling",
+    "The metabolic cost of signaling"
+  ],
+  "correctIndex": 1,
+  "explanation": "Receptor economy describes how cells regulate receptor density to maintain appropriate sensitivity, balancing synthesis, internalization, and degradation.",
+  "difficulty": "advanced",
+  "tags": ["receptors", "pharmacology"]
+}

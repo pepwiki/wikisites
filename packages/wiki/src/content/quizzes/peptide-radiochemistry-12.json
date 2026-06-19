@@ -1,0 +1,16 @@
+{
+  "question": "Why is gallium-68 used as a PET radionuclide?",
+  "options": [
+    "It has the longest half-life",
+    "Generator-produced with convenient 68-min half-life",
+    "It emits alpha particles",
+    "It is produced in cyclotrons only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Ga-68 is eluted from a Ge-68/Ga-68 generator, eliminating the need for an on-site cyclotron. Its 68-min half-life matches peptide pharmacokinetics.",
+  "difficulty": "intermediate",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

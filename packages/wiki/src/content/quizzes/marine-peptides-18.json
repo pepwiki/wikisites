@@ -1,0 +1,16 @@
+{
+  "question": "What is marine chemical ecology in drug discovery?",
+  "options": [
+    "Ocean chemistry only",
+    "Chemical defense strategies inspiring drug discovery by revealing bioactive natural products",
+    "Marine archaeology",
+    "Marine geology only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Marine organisms use bioactive peptides for defense, and these ecological functions translate to potential therapeutic activities.",
+  "difficulty": "intermediate",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

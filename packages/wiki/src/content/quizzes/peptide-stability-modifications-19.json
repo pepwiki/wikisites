@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of polyethylene glycol (PEG) size in PEGylation?",
+  "options": [
+    "Smaller PEG is always better",
+    "PEG size affects circulation time, biodistribution, and activity",
+    "PEG size has no effect",
+    "Larger PEG always reduces immunogenicity"
+  ],
+  "correctIndex": 1,
+  "explanation": "PEG molecular weight influences hydrodynamic radius, renal clearance, tissue penetration, and can affect biological activity, requiring optimization.",
+  "difficulty": "intermediate",
+  "tags": ["stability", "modifications"]
+}

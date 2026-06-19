@@ -1,0 +1,9 @@
+{
+  "front": "What is fluorescence polarization (FP)?",
+  "back": "FP measures the rotation of fluorescent molecules in solution. Small molecules rotate fast (low FP), while bound molecules rotate slowly (high FP). It is used to measure peptide-receptor binding.",
+  "tags": [
+    "sensors",
+    "biosensors"
+  ],
+  "difficulty": "intermediate"
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of nano-LC over conventional HPLC for peptide analysis?",
+  "options": [
+    "Nano-LC is faster",
+    "Nano-LC provides higher sensitivity with lower flow rates",
+    "Nano-LC is cheaper",
+    "Nano-LC has higher loading capacity"
+  ],
+  "correctIndex": 1,
+  "explanation": "Nano-LC operates at very low flow rates (nL/min), providing higher sensitivity for mass spectrometry detection and requiring minimal sample amounts.",
+  "difficulty": "intermediate",
+  "tags": ["analytical", "techniques"]
+}

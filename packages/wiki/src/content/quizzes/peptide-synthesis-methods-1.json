@@ -1,0 +1,13 @@
+{
+  "question": "What does SPPS stand for in peptide synthesis?",
+  "options": [
+    "Solid Phase Peptide Synthesis",
+    "Solution Phase Peptide Synthesis",
+    "Sequential Peptide Purification System",
+    "Standard Peptide Processing Strategy"
+  ],
+  "correctIndex": 0,
+  "explanation": "SPPS stands for Solid Phase Peptide Synthesis, where the peptide chain is assembled on an insoluble resin support, allowing easy purification by filtration.",
+  "difficulty": "beginner",
+  "tags": ["synthesis", "methods"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is renal dosimetry in PRRT?",
+  "options": [
+    "Measuring radiation to the brain",
+    "Estimating absorbed dose to kidneys, the dose-limiting organ due to tubular reabsorption",
+    "Measuring liver function only",
+    "Not relevant for peptide imaging"
+  ],
+  "correctIndex": 1,
+  "explanation": "Kidneys are dose-limiting in PRRT because filtered peptides are reabsorbed by proximal tubule cells. Amino acid co-infusion reduces renal uptake.",
+  "difficulty": "advanced",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

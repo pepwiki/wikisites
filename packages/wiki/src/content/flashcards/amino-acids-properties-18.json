@@ -1,0 +1,9 @@
+{
+  "front": "What is the hydrophobicity index of isoleucine on the Kyte-Doolittle scale?",
+  "back": "Isoleucine has a Kyte-Doolittle hydrophobicity index of 4.5, making it the most hydrophobic amino acid. It is commonly found in the interior of globular proteins.",
+  "tags": [
+    "amino-acids",
+    "properties"
+  ],
+  "difficulty": "advanced"
+}

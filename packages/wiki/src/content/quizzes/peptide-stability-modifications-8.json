@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of disulfide bond engineering in peptides?",
+  "options": [
+    "It increases peptide flexibility",
+    "It constrains conformation and improves stability",
+    "It reduces peptide solubility always",
+    "It eliminates biological activity"
+  ],
+  "correctIndex": 1,
+  "explanation": "Engineered disulfide bonds constrain peptide conformation, reducing the entropy of the unfolded state and stabilizing the bioactive conformation.",
+  "difficulty": "intermediate",
+  "tags": ["stability", "modifications"]
+}

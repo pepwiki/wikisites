@@ -1,0 +1,13 @@
+{
+  "question": "What is the Schild analysis used for?",
+  "options": [
+    "Determining agonist potency",
+    "Characterizing competitive antagonism",
+    "Measuring receptor density",
+    "Assessing drug selectivity"
+  ],
+  "correctIndex": 1,
+  "explanation": "Schild analysis quantifies competitive antagonism by determining the dose ratio at different antagonist concentrations. The Schild slope indicates competitive antagonism.",
+  "difficulty": "advanced",
+  "tags": ["receptors", "pharmacology"]
+}

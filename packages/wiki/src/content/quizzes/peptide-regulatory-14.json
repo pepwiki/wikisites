@@ -1,0 +1,16 @@
+{
+  "question": "What is process validation?",
+  "options": [
+    "Equipment calibration only",
+    "Documented evidence that a manufacturing process consistently produces product meeting specifications",
+    "Final product testing only",
+    "Raw material certification"
+  ],
+  "correctIndex": 1,
+  "explanation": "Process validation demonstrates consistent production of drug product meeting quality attributes through prospective, concurrent, and retrospective validation.",
+  "difficulty": "intermediate",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

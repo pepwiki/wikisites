@@ -1,0 +1,16 @@
+{
+  "question": "What is the coefficient of variation (CV) in assay performance?",
+  "options": [
+    "Sample volume",
+    "Measure of assay precision (reproducibility)",
+    "Detection limit",
+    "Assay cost metric"
+  ],
+  "correctIndex": 1,
+  "explanation": "CV expresses the standard deviation as a percentage of the mean, quantifying the precision of repeated measurements. Lower CV values indicate better assay reproducibility.",
+  "difficulty": "intermediate",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

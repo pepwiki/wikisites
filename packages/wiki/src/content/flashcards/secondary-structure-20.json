@@ -1,0 +1,9 @@
+{
+  "front": "What is a pi-helix-like structural element in membrane proteins?",
+  "back": "Some transmembrane helices adopt a pi-helix conformation rather than an alpha-helix. The extra width creates a channel-like structure that can be important for substrate binding or transport.",
+  "tags": [
+    "structure",
+    "secondary"
+  ],
+  "difficulty": "advanced"
+}

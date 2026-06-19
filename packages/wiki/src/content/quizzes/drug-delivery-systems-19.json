@@ -1,0 +1,13 @@
+{
+  "question": "What is the purpose of ligand-functionalized nanoparticles?",
+  "options": [
+    "To improve taste",
+    "To enable receptor-mediated endocytosis",
+    "To reduce manufacturing cost",
+    "To increase particle size"
+  ],
+  "correctIndex": 1,
+  "explanation": "Ligands (antibodies, peptides, folate) on nanoparticle surfaces bind to specific receptors, triggering receptor-mediated endocytosis and enhanced cellular uptake.",
+  "difficulty": "intermediate",
+  "tags": ["delivery", "formulation"]
+}

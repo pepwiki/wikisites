@@ -1,0 +1,16 @@
+{
+  "question": "What is radiochemical stability?",
+  "options": [
+    "How stable the radioisotope is physically",
+    "Resistance of the radiolabeled compound to decomposition or radionuclide loss in biological conditions",
+    "The chemical stability of the peptide only",
+    "The physical half-life of the isotope only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Radiochemical stability ensures the radionuclide remains securely chelated throughout its journey in vivo. Instability causes non-specific uptake in bone or liver.",
+  "difficulty": "intermediate",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "MMP-1 cleaves fibrillar collagens at which position?",
+  "options": [
+    "N-terminus",
+    "C-terminus",
+    "Three-quarters from the N-terminus",
+    "Exact midpoint"
+  ],
+  "correctIndex": 2,
+  "explanation": "MMP-1 cleaves fibrillar collagens (types I, II, III) at a specific site three-quarters from the N-terminus, producing characteristic 3/4 and 1/4 fragments.",
+  "difficulty": "intermediate",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

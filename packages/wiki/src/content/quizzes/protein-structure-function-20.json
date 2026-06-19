@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of proline in protein secondary structure?",
+  "options": [
+    "It promotes alpha helix formation",
+    "It often disrupts helices and appears in turns",
+    "It is only found in beta sheets",
+    "It has no structural preference"
+  ],
+  "correctIndex": 1,
+  "explanation": "Proline's rigid ring structure restricts backbone angles and lacks an amide hydrogen for H-bonding, making it a helix breaker commonly found in turns and loops.",
+  "difficulty": "intermediate",
+  "tags": ["structure", "function"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of GMP in radiopharmaceutical production?",
+  "options": [
+    "Optional guidelines",
+    "Regulatory framework ensuring quality, safety, and consistency of manufacturing",
+    "Only for non-radioactive drugs",
+    "Marketing requirement only"
+  ],
+  "correctIndex": 1,
+  "explanation": "GMP regulations govern every aspect of radiopharmaceutical production from facility design to documentation, ensuring each batch meets specifications for safety.",
+  "difficulty": "advanced",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

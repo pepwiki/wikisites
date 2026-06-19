@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of using sodium chloride in peptide cleavage cocktails?",
+  "options": [
+    "It increases TFA concentration",
+    "It reduces oxidation of sensitive residues",
+    "It improves peptide solubility",
+    "It prevents peptide aggregation"
+  ],
+  "correctIndex": 1,
+  "explanation": "Sodium chloride can help reduce oxidation of methionine and tryptophan during cleavage by providing a reducing environment and scavenging reactive species.",
+  "difficulty": "advanced",
+  "tags": ["synthesis", "methods"]
+}

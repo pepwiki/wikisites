@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of high-resolution mass spectrometry (HRMS)?",
+  "options": [
+    "It is cheaper",
+    "It provides accurate mass measurements for elemental composition",
+    "It is faster",
+    "It requires less sample preparation"
+  ],
+  "correctIndex": 1,
+  "explanation": "HRMS (like Orbitrap or TOF) provides mass accuracy <5 ppm, enabling determination of elemental composition and identification of unknown modifications.",
+  "difficulty": "intermediate",
+  "tags": ["analytical", "techniques"]
+}

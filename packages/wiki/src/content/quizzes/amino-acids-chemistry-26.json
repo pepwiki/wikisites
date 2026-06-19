@@ -1,0 +1,13 @@
+{
+  "question": "Which reagent is commonly used to reduce disulfide bonds?",
+  "options": [
+    "Iodoacetamide",
+    "Dithiothreitol (DTT)",
+    "N-ethylmaleimide",
+    "Hydrogen peroxide"
+  ],
+  "correctIndex": 1,
+  "explanation": "DTT is a reducing agent that breaks disulfide bonds by thiol-disulfide exchange. It provides two thiol groups that can reduce the disulfide bridge.",
+  "difficulty": "intermediate",
+  "tags": ["amino-acids", "chemistry"]
+}

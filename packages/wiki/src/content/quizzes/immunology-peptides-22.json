@@ -1,0 +1,13 @@
+{
+  "question": "What is the concept of immune escape in cancer?",
+  "options": [
+    "Cancer cells activate immune responses",
+    "Cancer cells evade immune recognition and destruction",
+    "Cancer cells are always recognized by T cells",
+    "Cancer cells enhance antigen presentation"
+  ],
+  "correctIndex": 1,
+  "explanation": "Immune escape mechanisms include downregulating MHC molecules, expressing immune checkpoint ligands, and creating immunosuppressive microenvironments.",
+  "difficulty": "intermediate",
+  "tags": ["immunology", "peptides"]
+}

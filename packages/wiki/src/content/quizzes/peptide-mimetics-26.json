@@ -1,0 +1,16 @@
+{
+  "question": "What is the advantage of aromatic oligoamide foldamers?",
+  "options": [
+    "They are always cheaper",
+    "Their pre-organized, rigid helical structures resist proteolysis while maintaining defined 3D shape",
+    "They are always more soluble",
+    "They can only form sheets"
+  ],
+  "correctIndex": 1,
+  "explanation": "Aromatic oligoamide foldamers form stable helical structures through steric and electronic effects, providing rigid scaffolds for presenting pharmacophoric groups while resisting enzymatic degradation.",
+  "difficulty": "advanced",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

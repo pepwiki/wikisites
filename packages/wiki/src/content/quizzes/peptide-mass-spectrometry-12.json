@@ -1,0 +1,16 @@
+{
+  "question": "What is an Orbitrap mass analyzer?",
+  "options": [
+    "A type of ion trap using orbital trapping in an electrostatic field",
+    "A magnetic sector analyzer",
+    "A time-of-flight device",
+    "An ion cyclotron resonance cell"
+  ],
+  "correctIndex": 0,
+  "explanation": "The Orbitrap traps ions in an electrostatic field around a spindle electrode. Ions orbit at frequencies inversely proportional to sqrt(m/z), yielding ultra-high resolution.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

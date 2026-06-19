@@ -1,0 +1,16 @@
+{
+  "question": "What is a Qualified Person for Pharmacovigilance?",
+  "options": [
+    "A quality control analyst",
+    "A person designated to ensure pharmacovigilance system compliance and adverse event reporting",
+    "A clinical trial monitor",
+    "A manufacturing supervisor"
+  ],
+  "correctIndex": 1,
+  "explanation": "The QPPV is responsible for establishing and maintaining the pharmacovigilance system and ensuring adverse drug reactions are reported.",
+  "difficulty": "advanced",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

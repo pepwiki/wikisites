@@ -1,0 +1,16 @@
+{
+  "question": "What is a controlled-release peptide formulation?",
+  "options": [
+    "Immediate release only",
+    "A formulation designed to release peptide at a predetermined rate over an extended period",
+    "A formulation activated by light",
+    "A formulation requiring refrigeration only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Controlled-release formulations release peptide gradually over days to months, reducing dosing frequency.",
+  "difficulty": "beginner",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

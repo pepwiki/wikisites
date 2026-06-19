@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of GMPPA in GDP-fucose biosynthesis?",
+  "options": [
+    "Transports fucose into the ER",
+    "Catalyzes the first committed step of de novo GDP-fucose synthesis",
+    "Degrades fucose-containing glycans",
+    "Adds fucose to proteins directly"
+  ],
+  "correctIndex": 1,
+  "explanation": "GMPPA catalyzes GDP-mannose formation, a precursor for GDP-fucose biosynthesis through a two-step pathway essential for fucosylation of glycans.",
+  "difficulty": "advanced",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

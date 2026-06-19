@@ -1,0 +1,13 @@
+{
+  "question": "What is molecular docking in computational drug design?",
+  "options": [
+    "It sequences proteins",
+    "It predicts the binding pose and affinity of peptides to targets",
+    "It synthesizes molecules",
+    "It purifies compounds"
+  ],
+  "correctIndex": 1,
+  "explanation": "Molecular docking predicts how a peptide binds to its target protein, estimating binding pose, orientation, and affinity through scoring functions.",
+  "difficulty": "beginner",
+  "tags": ["computational", "design"]
+}

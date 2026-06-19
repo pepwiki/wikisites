@@ -1,0 +1,16 @@
+{
+  "question": "What is ziconotide (Prialt)?",
+  "options": [
+    "An antibiotic peptide",
+    "A synthetic cone snail omega-conotoxin for severe chronic pain",
+    "A marine sponge extract",
+    "A coral-derived calcium supplement"
+  ],
+  "correctIndex": 1,
+  "explanation": "Ziconotide blocks N-type voltage-gated calcium channels, providing potent analgesia without opioid addiction risk.",
+  "difficulty": "beginner",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

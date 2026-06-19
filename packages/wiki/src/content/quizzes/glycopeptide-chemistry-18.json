@@ -1,0 +1,16 @@
+{
+  "question": "Which enzyme adds the first GlcNAc to form hybrid glycans?",
+  "options": [
+    "GnT-I (MGAT1)",
+    "GnT-V (MGAT5)",
+    "Fucosyltransferase",
+    "Sialyltransferase"
+  ],
+  "correctIndex": 0,
+  "explanation": "GnT-I adds GlcNAc to the Man alpha-1,3 arm, initiating the conversion from high-mannose to hybrid and complex N-glycans.",
+  "difficulty": "intermediate",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

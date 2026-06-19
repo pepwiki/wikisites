@@ -1,0 +1,16 @@
+{
+  "question": "What is histatin 5 and where is it found?",
+  "options": [
+    "Skin peptide",
+    "Salivary antimicrobial peptide effective against Candida",
+    "Neuropeptide",
+    "Intestinal peptide"
+  ],
+  "correctIndex": 1,
+  "explanation": "Histatin 5 is a small cationic peptide produced by salivary glands with potent antifungal activity against Candida albicans, acting through intracellular membrane targeting.",
+  "difficulty": "intermediate",
+  "tags": [
+    "antimicrobial",
+    "defense"
+  ]
+}

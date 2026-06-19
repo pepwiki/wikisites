@@ -1,0 +1,13 @@
+{
+  "question": "What is functional selectivity (biased agonism) in GPCR pharmacology?",
+  "options": [
+    "Selectivity for different receptor subtypes",
+    "Ability to activate specific signaling pathways over others",
+    "Selectivity for different tissue types",
+    "Differential binding affinities"
+  ],
+  "correctIndex": 1,
+  "explanation": "Biased agonism describes ligands that preferentially activate certain signaling pathways (e.g., G protein vs. beta-arrestin) over others at the same receptor.",
+  "difficulty": "advanced",
+  "tags": ["receptors", "pharmacology"]
+}

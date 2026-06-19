@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the scoring function in molecular docking?",
+  "options": [
+    "It sequences peptides",
+    "It estimates binding affinity based on receptor-ligand interactions",
+    "It synthesizes molecules",
+    "It purifies compounds"
+  ],
+  "correctIndex": 1,
+  "explanation": "Scoring functions estimate binding affinity based on van der Waals, electrostatic, and desolvation interactions between receptor and ligand.",
+  "difficulty": "intermediate",
+  "tags": ["computational", "design"]
+}

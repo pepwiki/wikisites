@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of the alpha subunit in G proteins?",
+  "options": [
+    "It binds to the receptor",
+    "It has GTPase activity and activates effectors",
+    "It inhibits the beta-gamma complex",
+    "It anchors the G protein to the membrane"
+  ],
+  "correctIndex": 1,
+  "explanation": "The alpha subunit binds GTP, has intrinsic GTPase activity, and activates downstream effectors like adenylyl cyclase or phospholipase C when in the GTP-bound state.",
+  "difficulty": "intermediate",
+  "tags": ["receptors", "pharmacology"]
+}

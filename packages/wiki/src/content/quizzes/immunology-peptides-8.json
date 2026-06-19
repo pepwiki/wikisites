@@ -1,0 +1,13 @@
+{
+  "question": "What is the immunological synapse?",
+  "options": [
+    "A structure for B cell activation",
+    "A specialized contact zone between T cells and APCs",
+    "A site of antibody production",
+    "A complement activation complex"
+  ],
+  "correctIndex": 1,
+  "explanation": "The immunological synapse is a structured interface between T cells and antigen-presenting cells where TCR-MHC interactions and signaling molecules concentrate.",
+  "difficulty": "intermediate",
+  "tags": ["immunology", "peptides"]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the charge state distribution in ESI-MS?",
+  "options": [
+    "It indicates peptide sequence only",
+    "It provides information about peptide size and conformation",
+    "It measures peptide concentration",
+    "It indicates solvent composition"
+  ],
+  "correctIndex": 1,
+  "explanation": "The charge state distribution in ESI-MS reflects the number of basic sites available for protonation, providing information about peptide size, conformation, and composition.",
+  "difficulty": "advanced",
+  "tags": ["analytical", "techniques"]
+}

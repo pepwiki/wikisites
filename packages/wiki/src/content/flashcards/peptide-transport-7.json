@@ -1,0 +1,9 @@
+{
+  "front": "What is the role of P-glycoprotein in peptide absorption?",
+  "back": "P-glycoprotein (P-gp) is an efflux pump that actively transports peptides back into the gut lumen. It reduces oral bioavailability of many peptide drugs.",
+  "tags": [
+    "transport",
+    "membrane"
+  ],
+  "difficulty": "intermediate"
+}

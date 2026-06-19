@@ -1,0 +1,16 @@
+{
+  "question": "What is the challenge of scale-up production for marine peptides?",
+  "options": [
+    "No challenges exist",
+    "Complex structures requiring multistep synthesis, low natural abundance, and difficult fermentation of marine organisms",
+    "Marine peptides are always abundant",
+    "Scale-up is always straightforward"
+  ],
+  "correctIndex": 1,
+  "explanation": "Marine peptide scale-up faces challenges including complex multistep synthesis, low yields from natural sources, and difficulties in fermenting slow-growing marine organisms or their symbionts.",
+  "difficulty": "intermediate",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

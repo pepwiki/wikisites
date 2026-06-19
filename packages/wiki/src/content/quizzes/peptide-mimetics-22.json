@@ -1,0 +1,16 @@
+{
+  "question": "What is a foldamer in the context of peptidomimetics?",
+  "options": [
+    "A peptide that unfolds",
+    "An oligomer that adopts a well-defined secondary structure in solution",
+    "A peptide that forms amyloid fibrils",
+    "A peptide that binds to folding chaperones"
+  ],
+  "correctIndex": 1,
+  "explanation": "Foldamers are oligomers (beta-peptides, peptoids, aromatic amides) that spontaneously adopt defined helical, sheet, or turn structures, mimicking protein secondary structure elements.",
+  "difficulty": "advanced",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the mechanism of terzepatide's activity?",
+  "options": [
+    "GLP-1 agonism only",
+    "Combined GLP-1 and GIP receptor agonism",
+    "Insulin receptor activation only",
+    "DPP-4 inhibition only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Terzepatide is a dual GIP/GLP-1 receptor agonist achieving superior glycemic control and weight loss through complementary metabolic effects.",
+  "difficulty": "advanced",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

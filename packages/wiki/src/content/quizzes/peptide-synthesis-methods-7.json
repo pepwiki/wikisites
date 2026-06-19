@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of piperidine in Fmoc-SPPS?",
+  "options": [
+    "Coupling agent",
+    "Fmoc deprotection reagent",
+    "Side chain protector",
+    "Cleavage reagent"
+  ],
+  "correctIndex": 1,
+  "explanation": "Piperidine (typically 20% in DMF) removes the Fmoc protecting group through beta-elimination, exposing the free amino group for the next coupling step.",
+  "difficulty": "beginner",
+  "tags": ["synthesis", "methods"]
+}

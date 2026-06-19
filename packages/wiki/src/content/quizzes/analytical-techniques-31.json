@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of using an Orbitrap mass analyzer?",
+  "options": [
+    "It is the cheapest option",
+    "It provides high resolution and mass accuracy",
+    "It is the fastest analyzer",
+    "It requires no calibration"
+  ],
+  "correctIndex": 1,
+  "explanation": "Orbitrap analyzers provide high mass resolution (>100,000) and accuracy (<2 ppm), enabling confident identification of peptides and their modifications.",
+  "difficulty": "intermediate",
+  "tags": ["analytical", "techniques"]
+}

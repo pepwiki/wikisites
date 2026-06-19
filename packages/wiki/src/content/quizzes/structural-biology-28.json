@@ -1,0 +1,16 @@
+{
+  "question": "What is cryo-electron tomography (cryo-ET) used for?",
+  "options": [
+    "High-resolution atomic structures",
+    "3D visualization of molecular complexes in cellular context",
+    "Determining protein sequences",
+    "Measuring enzyme kinetics"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cryo-ET reconstructs 3D volumes of thin cellular sections, visualizing peptide-receptor complexes and other macromolecular machines in their native cellular environment.",
+  "difficulty": "advanced",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

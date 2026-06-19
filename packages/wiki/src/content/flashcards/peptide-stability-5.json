@@ -1,0 +1,9 @@
+{
+  "front": "What is the role of pH in peptide stability?",
+  "back": "Peptides are most stable at pH 4-6. Extreme pH accelerates hydrolysis, deamidation (alkaline), and acid-catalyzed cleavage. The optimal pH depends on the specific peptide sequence.",
+  "tags": [
+    "stability",
+    "formulation"
+  ],
+  "difficulty": "beginner"
+}

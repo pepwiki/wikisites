@@ -1,0 +1,13 @@
+{
+  "question": "What is protein misfolding?",
+  "options": [
+    "Correct folding into native state",
+    "Improper folding leading to non-functional or aggregated states",
+    "Folding that requires chaperones",
+    "Folding at low temperatures"
+  ],
+  "correctIndex": 1,
+  "explanation": "Protein misfolding occurs when proteins fail to adopt their native conformation, often leading to aggregation and diseases like Alzheimer's and Parkinson's.",
+  "difficulty": "beginner",
+  "tags": ["structure", "function"]
+}

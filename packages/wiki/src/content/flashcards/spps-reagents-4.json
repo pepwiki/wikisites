@@ -1,0 +1,9 @@
+{
+  "front": "What is the role of HOAt in peptide coupling?",
+  "back": "HOAt (1-Hydroxy-7-azabenzotriazole) is an additive that reduces racemization during coupling. It forms a more reactive ester than HOBt, particularly effective with sterically hindered amino acids.",
+  "tags": [
+    "synthesis",
+    "reagents"
+  ],
+  "difficulty": "intermediate"
+}

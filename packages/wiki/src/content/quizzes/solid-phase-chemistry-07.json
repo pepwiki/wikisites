@@ -1,0 +1,16 @@
+{
+  "question": "What is piperidine used for in Fmoc-SPPS?",
+  "options": [
+    "Coupling amino acids",
+    "Removing Fmoc protecting groups from the N-terminus",
+    "Cleaving peptide from resin",
+    "Side chain deprotection"
+  ],
+  "correctIndex": 1,
+  "explanation": "20% piperidine in DMF removes the Fmoc group via beta-elimination, exposing the free amine for the next coupling cycle.",
+  "difficulty": "beginner",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

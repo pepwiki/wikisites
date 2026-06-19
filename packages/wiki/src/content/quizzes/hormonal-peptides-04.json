@@ -1,0 +1,16 @@
+{
+  "question": "Which hormone regulates water balance?",
+  "options": [
+    "ACTH",
+    "Antidiuretic hormone (ADH/vasopressin)",
+    "TSH",
+    "FSH"
+  ],
+  "correctIndex": 1,
+  "explanation": "ADH is synthesized in the hypothalamus and released from the posterior pituitary, acting on kidney collecting ducts to increase water reabsorption.",
+  "difficulty": "beginner",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

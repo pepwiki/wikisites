@@ -1,0 +1,9 @@
+{
+  "front": "What is linearity in method validation?",
+  "back": "Linearity is the ability to obtain results proportional to concentration. It is demonstrated by analyzing 5+ concentrations and calculating correlation coefficients (typically r\u00b2 > 0.999).",
+  "tags": [
+    "analytics",
+    "validation"
+  ],
+  "difficulty": "intermediate"
+}

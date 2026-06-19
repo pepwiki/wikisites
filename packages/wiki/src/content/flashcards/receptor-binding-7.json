@@ -1,0 +1,9 @@
+{
+  "front": "What is the Hill coefficient?",
+  "back": "The Hill coefficient (nH) describes the cooperativity of binding. nH > 1 indicates positive cooperativity, nH = 1 indicates non-cooperative binding, and nH < 1 indicates negative cooperativity.",
+  "tags": [
+    "receptors",
+    "binding"
+  ],
+  "difficulty": "intermediate"
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is a hairpin turn in beta-sheets?",
+  "back": "A beta-hairpin is an antiparallel beta-sheet connected by a tight turn, often just two residues. The turn residues are frequently glycine and proline, which favor the tight turns needed for hairpin formation.",
+  "tags": [
+    "structure",
+    "secondary"
+  ],
+  "difficulty": "beginner"
+}

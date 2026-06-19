@@ -1,0 +1,16 @@
+{
+  "question": "What is a peptide library?",
+  "options": [
+    "A collection of books about peptides",
+    "A set of diverse peptides synthesized for screening against a target",
+    "A database of peptide sequences",
+    "A peptide purification method"
+  ],
+  "correctIndex": 1,
+  "explanation": "Peptide libraries are collections of many different peptides used to identify sequences with desired binding, catalytic, or biological properties.",
+  "difficulty": "beginner",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

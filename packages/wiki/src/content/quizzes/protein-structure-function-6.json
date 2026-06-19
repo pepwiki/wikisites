@@ -1,0 +1,13 @@
+{
+  "question": "What is a motif in protein structure?",
+  "options": [
+    "The entire 3D structure",
+    "A recognizable combination of secondary structures",
+    "The amino acid sequence",
+    "The active site only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Motifs are supersecondary structures, recurring combinations of alpha helices and beta sheets that form recognizable patterns like helix-turn-helix or beta-alpha-beta.",
+  "difficulty": "intermediate",
+  "tags": ["structure", "function"]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is the IUPAC name for a peptide?",
+  "back": "IUPAC nomenclature names peptides from N- to C-terminus using three-letter codes with hyphens. The C-terminal residue retains its full name (e.g., Gly-Ala-Val).",
+  "tags": [
+    "nomenclature",
+    "terminology"
+  ],
+  "difficulty": "beginner"
+}

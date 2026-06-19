@@ -1,0 +1,16 @@
+{
+  "question": "Chymotrypsin uses which catalytic mechanism?",
+  "options": [
+    "Direct hydrolysis",
+    "Covalent catalysis via acyl-enzyme intermediate",
+    "Radical-mediated cleavage",
+    "Acid-base shuttle"
+  ],
+  "correctIndex": 1,
+  "explanation": "Chymotrypsin forms a transient acyl-enzyme intermediate between Ser-195 and the substrate, which is then hydrolyzed to release the product and regenerate the enzyme.",
+  "difficulty": "intermediate",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

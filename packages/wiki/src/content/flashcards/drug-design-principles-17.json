@@ -1,0 +1,9 @@
+{
+  "front": "What is the concept of therapeutic window?",
+  "back": "The therapeutic window is the dose range between the minimum effective concentration and the maximum tolerated concentration. A wide therapeutic window is desirable for drug safety.",
+  "tags": [
+    "drug-design",
+    "principles"
+  ],
+  "difficulty": "beginner"
+}

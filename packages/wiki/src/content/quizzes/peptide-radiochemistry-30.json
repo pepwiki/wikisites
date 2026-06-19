@@ -1,0 +1,16 @@
+{
+  "question": "What is radio-HPLC used for in quality control?",
+  "options": [
+    "Used for treatment planning",
+    "Separates and quantifies radiolabeled product from impurities based on hydrophobicity",
+    "Measures patient dose",
+    "Determines receptor affinity only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Radio-HPLC separates the radiolabeled peptide from free radionuclide and degradation products. The radioactivity detector quantifies the desired product fraction.",
+  "difficulty": "advanced",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

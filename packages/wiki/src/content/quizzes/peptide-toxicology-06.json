@@ -1,0 +1,16 @@
+{
+  "question": "What is a peptide's typical plasma half-life?",
+  "options": [
+    "Days to weeks",
+    "Minutes to hours",
+    "Only seconds",
+    "Permanent in circulation"
+  ],
+  "correctIndex": 1,
+  "explanation": "Unmodified peptides typically have half-lives of minutes to hours due to renal filtration and enzymatic degradation.",
+  "difficulty": "beginner",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

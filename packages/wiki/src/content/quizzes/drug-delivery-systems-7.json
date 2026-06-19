@@ -1,0 +1,13 @@
+{
+  "question": "What is the purpose of mucoadhesive drug delivery systems?",
+  "options": [
+    "To increase drug solubility",
+    "To prolong drug residence time at absorption sites",
+    "To reduce drug toxicity",
+    "To improve drug taste"
+  ],
+  "correctIndex": 1,
+  "explanation": "Mucoadhesive systems adhere to mucosal surfaces, prolonging contact time and enhancing drug absorption, particularly useful for nasal, buccal, and ocular delivery.",
+  "difficulty": "intermediate",
+  "tags": ["delivery", "formulation"]
+}

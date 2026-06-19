@@ -1,0 +1,9 @@
+{
+  "front": "What is the significance of the tert-butyl protecting group in SPPS?",
+  "back": "tert-Butyl groups protect side-chain functionalities (Asp, Glu, Cys, Ser, Thr, Lys, Tyr, Trp) and are cleaved simultaneously with Fmoc SPPS resin cleavage using TFA.",
+  "tags": [
+    "synthesis",
+    "reagents"
+  ],
+  "difficulty": "beginner"
+}

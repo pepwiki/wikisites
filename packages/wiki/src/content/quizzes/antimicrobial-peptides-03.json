@@ -1,0 +1,16 @@
+{
+  "question": "Defensins are classified into which groups?",
+  "options": [
+    "Alpha and beta only",
+    "Alpha, beta, and theta",
+    "Class I and II",
+    "Type 1 and Type 2"
+  ],
+  "correctIndex": 1,
+  "explanation": "Alpha-defensins are found in neutrophils and Paneth cells, beta-defensins in epithelial tissues, and theta-defensins (cyclic) in some primate leukocytes.",
+  "difficulty": "beginner",
+  "tags": [
+    "antimicrobial",
+    "defense"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is the TOF principle in mass spectrometry?",
+  "back": "Time-of-flight (TOF) measures the time ions take to travel through a field-free region. Lighter ions travel faster, allowing mass determination. MALDI-TOF can achieve mass accuracy < 50 ppm.",
+  "tags": [
+    "analytical",
+    "methods"
+  ],
+  "difficulty": "advanced"
+}

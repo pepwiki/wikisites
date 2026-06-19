@@ -1,0 +1,16 @@
+{
+  "question": "What are cyclic peptides from marine organisms used for?",
+  "options": [
+    "Only as toxins",
+    "Antimicrobial, antiviral, and anticancer drug discovery",
+    "Only as food additives",
+    "Only as research tools"
+  ],
+  "correctIndex": 1,
+  "explanation": "Marine cyclic peptides like patellamides show potent anticancer and antimicrobial activities through novel mechanisms.",
+  "difficulty": "beginner",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

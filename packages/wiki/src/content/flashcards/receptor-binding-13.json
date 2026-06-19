@@ -1,0 +1,9 @@
+{
+  "front": "What is the equilibrium association constant (Ka)?",
+  "back": "Ka is the reciprocal of Kd (Ka = 1/Kd). It measures the association affinity, with higher Ka values indicating stronger binding. Ka = [RL]/([R][L]) at equilibrium.",
+  "tags": [
+    "receptors",
+    "binding"
+  ],
+  "difficulty": "intermediate"
+}

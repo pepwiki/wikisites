@@ -1,0 +1,9 @@
+{
+  "front": "What is accuracy in analytical methods?",
+  "back": "Accuracy is the closeness of measured values to the true value. It is assessed by analyzing samples of known concentration and expressed as percent recovery (typically 98-102%).",
+  "tags": [
+    "analytics",
+    "validation"
+  ],
+  "difficulty": "beginner"
+}

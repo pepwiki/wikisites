@@ -1,10 +1,9 @@
 {
-  "front": "Explain the role of omega angles in collagen triple helix structure.",
-  "back": "Collagen triple helix requires specific omega angles (~180 for trans-proline). 4-hydroxyproline shifts cis-trans equilibrium toward trans, stabilizing the triple helix. Gly-X-Y repeats position glycine in the interior where steric clashes prevent other residues.",
+  "front": "What percentage of peptide bonds are in the cis conformation?",
+  "back": "Approximately 0.4% of non-proline peptide bonds are cis, while about 5-10% of X-Pro bonds are cis. Cis peptide bonds can create steric clashes that affect protein structure.",
   "tags": [
     "peptide-bonds",
-    "structural-biology",
-    "collagen"
+    "structure"
   ],
-  "difficulty": "advanced"
+  "difficulty": "intermediate"
 }

@@ -1,0 +1,16 @@
+{
+  "question": "What is the clinical significance of procalcitonin monitoring?",
+  "options": [
+    "Measuring kidney function",
+    "Guiding antibiotic therapy duration in sepsis",
+    "Assessing bone density",
+    "Monitoring liver enzymes"
+  ],
+  "correctIndex": 1,
+  "explanation": "Serial PCT measurements guide antibiotic therapy duration in ICU patients. Decreasing PCT levels suggest effective treatment, allowing safe antibiotic discontinuation.",
+  "difficulty": "advanced",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

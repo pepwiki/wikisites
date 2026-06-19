@@ -1,0 +1,16 @@
+{
+  "question": "What class of peptides do sponges produce?",
+  "options": [
+    "Only toxins",
+    "Peptides with antimicrobial, cytotoxic, and anti-inflammatory activities including dolastatins",
+    "Only structural proteins",
+    "Only digestive enzymes"
+  ],
+  "correctIndex": 1,
+  "explanation": "Sponges produce diverse bioactive peptides including dolastatins (cytotoxic) and jaspamides (actin-modifying).",
+  "difficulty": "beginner",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

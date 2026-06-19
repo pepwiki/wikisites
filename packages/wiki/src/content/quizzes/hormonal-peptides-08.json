@@ -1,0 +1,16 @@
+{
+  "question": "What is the primary role of TSH?",
+  "options": [
+    "Stimulate adrenal glands",
+    "Stimulate the thyroid to produce T3 and T4",
+    "Regulate blood calcium",
+    "Control growth hormone release"
+  ],
+  "correctIndex": 1,
+  "explanation": "TSH binds TSH receptors on thyroid follicular cells, stimulating synthesis and release of thyroid hormones T3 and T4.",
+  "difficulty": "beginner",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

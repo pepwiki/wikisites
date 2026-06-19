@@ -1,0 +1,16 @@
+{
+  "question": "Neuropeptide Y is most associated with which function?",
+  "options": [
+    "Sleep regulation",
+    "Appetite stimulation and energy homeostasis",
+    "Muscle contraction",
+    "Blood pressure reduction only"
+  ],
+  "correctIndex": 1,
+  "explanation": "NPY is one of the most potent orexigenic peptides in the brain, acting on Y1 and Y5 receptors in the hypothalamus to promote feeding and energy storage.",
+  "difficulty": "beginner",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

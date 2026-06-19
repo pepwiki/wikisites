@@ -1,0 +1,16 @@
+{
+  "question": "Which brain region is the primary site of neuropeptide synthesis for appetite regulation?",
+  "options": [
+    "Cerebellum",
+    "Hypothalamus",
+    "Brainstem only",
+    "Hippocampus"
+  ],
+  "correctIndex": 1,
+  "explanation": "The hypothalamus contains neurons that synthesize key appetite-regulating neuropeptides including NPY, AgRP, POMC, and CART in the arcuate nucleus.",
+  "difficulty": "intermediate",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

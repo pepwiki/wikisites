@@ -1,0 +1,16 @@
+{
+  "question": "What is the typical bond length of a peptide bond C-N?",
+  "options": [
+    "1.0 A",
+    "1.33 A",
+    "1.54 A",
+    "2.0 A"
+  ],
+  "correctIndex": 1,
+  "explanation": "The peptide bond C-N has partial double bond character (1.33 A), shorter than a pure single bond. This restricts rotation and keeps the peptide group planar.",
+  "difficulty": "beginner",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

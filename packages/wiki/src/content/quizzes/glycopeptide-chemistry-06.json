@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of sugar nucleotides in glycosylation?",
+  "options": [
+    "Energy source only",
+    "Activated sugar donors for glycosyltransferases",
+    "Structural scaffolds",
+    "Enzyme inhibitors"
+  ],
+  "correctIndex": 1,
+  "explanation": "Sugar nucleotides like UDP-GalNAc and CMP-Neu5Ac serve as activated donor substrates that glycosyltransferases use to transfer specific sugars to growing glycan chains.",
+  "difficulty": "beginner",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

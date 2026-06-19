@@ -1,0 +1,9 @@
+{
+  "front": "What is the molecular weight of histidine?",
+  "back": "Histidine has a molecular weight of 155.16 Da. Its imidazole side chain has a pKa near physiological pH (~6.0), making it important for enzyme catalysis and buffer systems.",
+  "tags": [
+    "amino-acids",
+    "properties"
+  ],
+  "difficulty": "intermediate"
+}

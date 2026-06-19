@@ -1,0 +1,16 @@
+{
+  "question": "What is lyophilization in radiopharmaceutical preparation?",
+  "options": [
+    "Freeze-drying of the final product",
+    "Flash-freezing at liquid nitrogen temperatures",
+    "Heating to remove moisture",
+    "Chemical precipitation of the radiolabeled compound"
+  ],
+  "correctIndex": 0,
+  "explanation": "Lyophilization removes water from heat-sensitive radiopharmaceutical preparations under vacuum, producing stable dry formulations reconstituted before administration.",
+  "difficulty": "intermediate",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

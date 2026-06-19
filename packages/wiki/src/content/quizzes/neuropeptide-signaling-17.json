@@ -1,0 +1,16 @@
+{
+  "question": "Which neuropeptide system is primarily targeted by opioid analgesics?",
+  "options": [
+    "Neuropeptide Y system",
+    "Endorphin/enkephalin system",
+    "Oxytocin system",
+    "Somatostatin system"
+  ],
+  "correctIndex": 1,
+  "explanation": "Opioid analgesics mimic endogenous endorphins and enkephalins by activating mu, delta, and kappa opioid receptors, inhibiting pain transmission.",
+  "difficulty": "intermediate",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

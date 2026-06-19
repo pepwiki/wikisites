@@ -1,0 +1,16 @@
+{
+  "question": "What is a Wang resin?",
+  "options": [
+    "A base-labile resin",
+    "An acid-labile resin linker producing C-terminal carboxylic acid peptides",
+    "A photolabile resin",
+    "A hydrazine-cleavable resin"
+  ],
+  "correctIndex": 1,
+  "explanation": "Wang resin contains a p-alkoxybenzyl alcohol linker that releases C-terminal carboxylic acid peptides upon TFA cleavage, one of the most common SPPS resins.",
+  "difficulty": "intermediate",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

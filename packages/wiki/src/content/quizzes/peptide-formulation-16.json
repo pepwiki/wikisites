@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of osmolality in parenteral formulations?",
+  "options": [
+    "No importance",
+    "Must be isotonic (280-310 mOsm/kg) with body fluids to prevent pain and tissue damage",
+    "Determines peptide stability only",
+    "Affects shelf life only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Parenteral formulations must be isotonic to prevent pain, cell damage, and hemolysis at the injection site.",
+  "difficulty": "intermediate",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

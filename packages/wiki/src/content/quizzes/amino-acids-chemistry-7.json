@@ -1,0 +1,8 @@
+{
+  "question": "What is the isoelectric point (pI) of a protein composed predominantly of acidic amino acids?",
+  "options": ["Above 7.0", "Around 7.0", "Below 7.0", "Cannot be determined"],
+  "correctIndex": 2,
+  "explanation": "Proteins rich in acidic amino acids (Asp, Glu) have more carboxyl groups, giving them a net negative charge at neutral pH. Their pI is below 7.0, typically in the range of 4-5.",
+  "difficulty": "intermediate",
+  "tags": ["amino-acids", "chemistry"]
+}

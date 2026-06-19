@@ -1,0 +1,13 @@
+{
+  "question": "What is the purpose of using pseudo-halide activation in peptide coupling?",
+  "options": [
+    "To increase reaction speed",
+    "To improve stereochemical control",
+    "To reduce side reactions",
+    "All of the above"
+  ],
+  "correctIndex": 3,
+  "explanation": "Pseudo-halide activation (like with HATU) provides rapid, selective activation with minimal racemization, improving both speed and stereochemical outcomes.",
+  "difficulty": "advanced",
+  "tags": ["synthesis", "methods"]
+}

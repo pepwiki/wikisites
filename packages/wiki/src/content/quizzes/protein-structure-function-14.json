@@ -1,0 +1,13 @@
+{
+  "question": "What is induced fit in enzyme catalysis?",
+  "options": [
+    "The enzyme is rigid and doesn't change shape",
+    "The enzyme changes conformation upon substrate binding",
+    "The substrate changes to fit the enzyme",
+    "The enzyme denatures during catalysis"
+  ],
+  "correctIndex": 1,
+  "explanation": "Induced fit describes how enzymes undergo conformational changes upon substrate binding, optimizing interactions and positioning catalytic residues for catalysis.",
+  "difficulty": "intermediate",
+  "tags": ["structure", "function"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the cross-fire effect in radionuclide therapy?",
+  "options": [
+    "Two beams intersecting",
+    "Radiation from one cell killing neighboring tumor cells that may not have taken up the radiotracer",
+    "A detection artifact",
+    "A type of radioactive decay"
+  ],
+  "correctIndex": 1,
+  "explanation": "The cross-fire effect occurs when beta particles or alpha particles travel far enough to irradiate neighboring cells, advantageous for treating heterogeneous tumors.",
+  "difficulty": "advanced",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

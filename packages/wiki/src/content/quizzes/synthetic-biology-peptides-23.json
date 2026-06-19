@@ -1,0 +1,16 @@
+{
+  "question": "What is a silent gene cluster activation strategy?",
+  "options": [
+    "Gene deletion only",
+    "Using genetic tools to express otherwise silent biosynthetic gene clusters",
+    "Gene silencing only",
+    "Only natural expression conditions"
+  ],
+  "correctIndex": 1,
+  "explanation": "Silent cluster activation uses promoters, CRISPRa, heterologous hosts, or co-culture approaches to trigger expression of cryptic clusters.",
+  "difficulty": "advanced",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

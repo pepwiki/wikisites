@@ -1,0 +1,16 @@
+{
+  "question": "What does AMP selectivity for bacteria over human cells depend on?",
+  "options": [
+    "Peptide length only",
+    "Differences in membrane lipid composition",
+    "Temperature sensitivity",
+    "Enzyme activity"
+  ],
+  "correctIndex": 1,
+  "explanation": "Bacterial membranes contain abundant negatively charged phospholipids while human membranes have predominantly neutral lipids. Cationic AMPs preferentially bind bacterial surfaces.",
+  "difficulty": "beginner",
+  "tags": [
+    "antimicrobial",
+    "defense"
+  ]
+}

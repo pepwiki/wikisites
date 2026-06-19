@@ -1,0 +1,16 @@
+{
+  "question": "What unique feature do many marine peptides share?",
+  "options": [
+    "Always linear",
+    "Rich in disulfide bonds and non-standard amino acids for stability",
+    "Always glycosylated",
+    "Always very large molecules"
+  ],
+  "correctIndex": 1,
+  "explanation": "Marine peptides often contain multiple disulfide bonds, D-amino acids, and modifications providing stability in harsh marine environments.",
+  "difficulty": "beginner",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

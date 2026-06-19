@@ -1,0 +1,16 @@
+{
+  "question": "What is the main route of peptide degradation in the body?",
+  "options": [
+    "Chemical oxidation only",
+    "Proteolytic cleavage by peptidases and proteases in blood and tissues",
+    "Photodegradation in skin",
+    "Renal filtration only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Peptides are primarily degraded by endopeptidases and exopeptidases in blood and tissues, limiting their in vivo half-life.",
+  "difficulty": "beginner",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

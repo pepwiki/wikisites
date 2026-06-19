@@ -1,0 +1,9 @@
+{
+  "front": "What is the advantage of HBTU over DIC for peptide coupling?",
+  "back": "HBTU forms a highly reactive HOBt ester intermediate that minimizes racemization and provides faster coupling than DIC alone. DIC is a carbodiimide that requires HOBt as an additive.",
+  "tags": [
+    "synthesis",
+    "reagents"
+  ],
+  "difficulty": "intermediate"
+}

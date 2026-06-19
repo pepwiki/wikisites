@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of T7 phage in phage display?",
+  "options": [
+    "Targets the peptide for degradation",
+    "Provides the genetic information and structural scaffold for displaying peptides on the phage surface",
+    "Amplifies the peptide sequence",
+    "Purifies the displayed peptide"
+  ],
+  "correctIndex": 1,
+  "explanation": "T7 phage has a robust capsid that tolerates diverse peptide insertions. The peptide is displayed as a fusion with capsid protein E10, enabling biopanning selection.",
+  "difficulty": "intermediate",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

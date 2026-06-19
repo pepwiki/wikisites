@@ -1,0 +1,16 @@
+{
+  "question": "What is sigma-A weighting used for in crystallographic refinement?",
+  "options": [
+    "Increases resolution",
+    "Provides optimal weighting of observed and calculated structure factors",
+    "Corrects for radiation damage",
+    "Accounts for twinning"
+  ],
+  "correctIndex": 1,
+  "explanation": "Sigma-A weighting optimally combines observed and calculated structure factors, reducing model bias in electron density maps used for model building and refinement.",
+  "difficulty": "advanced",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

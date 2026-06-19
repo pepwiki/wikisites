@@ -1,0 +1,13 @@
+{
+  "question": "What is a primary endpoint in a clinical trial?",
+  "options": [
+    "A secondary measure of efficacy",
+    "The main outcome measure used to determine treatment effect",
+    "A safety parameter",
+    "A quality of life assessment"
+  ],
+  "correctIndex": 1,
+  "explanation": "The primary endpoint is the main outcome measure that directly addresses the trial's objective and is used to determine whether the treatment is effective.",
+  "difficulty": "intermediate",
+  "tags": ["clinical", "trials"]
+}

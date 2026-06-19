@@ -1,0 +1,16 @@
+{
+  "question": "What is the physiological consequence of DPP-4 inhibition in type 2 diabetes?",
+  "options": [
+    "Increased glucagon secretion",
+    "Prolonged GLP-1 and GIP action",
+    "Decreased insulin sensitivity",
+    "Increased hepatic glucose output"
+  ],
+  "correctIndex": 1,
+  "explanation": "DPP-4 inhibitors prevent incretin degradation, extending GLP-1 and GIP half-lives. This enhances glucose-dependent insulin secretion and suppresses glucagon release.",
+  "difficulty": "advanced",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is the difference between specific and non-specific binding?",
+  "back": "Specific binding involves defined interactions at a particular site with defined stoichiometry. Non-specific binding occurs at multiple sites with low affinity and is often concentration-dependent.",
+  "tags": [
+    "interactions",
+    "binding"
+  ],
+  "difficulty": "intermediate"
+}

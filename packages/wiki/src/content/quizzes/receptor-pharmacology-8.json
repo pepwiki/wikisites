@@ -1,0 +1,13 @@
+{
+  "question": "What is the Hill coefficient used for in pharmacology?",
+  "options": [
+    "Measuring receptor density",
+    "Assessing cooperativity in binding",
+    "Calculating drug half-life",
+    "Determining selectivity"
+  ],
+  "correctIndex": 1,
+  "explanation": "The Hill coefficient measures cooperative binding. A coefficient >1 indicates positive cooperativity, <1 indicates negative cooperativity, and =1 indicates non-cooperative binding.",
+  "difficulty": "advanced",
+  "tags": ["receptors", "pharmacology"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is a mass spectrum?",
+  "options": [
+    "A photograph of ions",
+    "A plot of ion intensity versus mass-to-charge ratio",
+    "A chromatographic separation",
+    "A UV absorption spectrum"
+  ],
+  "correctIndex": 1,
+  "explanation": "A mass spectrum displays ion abundance (y-axis) versus m/z (x-axis). Each peak represents an ion species with intensity reflecting relative abundance.",
+  "difficulty": "beginner",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

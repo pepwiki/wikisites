@@ -1,0 +1,9 @@
+{
+  "front": "What is a peptide-based pH sensor?",
+  "back": "pH-sensitive peptides change conformation or charge with pH changes. They can be conjugated to fluorophores for intracellular pH measurement or environmental monitoring.",
+  "tags": [
+    "sensors",
+    "biosensors"
+  ],
+  "difficulty": "intermediate"
+}

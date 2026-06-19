@@ -1,0 +1,16 @@
+{
+  "question": "What is a coupling reagent in SPPS?",
+  "options": [
+    "Removes protecting groups",
+    "Activates the incoming amino acid carboxyl group for amide bond formation",
+    "Cleaves the peptide from the resin",
+    "Washes the resin between cycles"
+  ],
+  "correctIndex": 1,
+  "explanation": "Coupling reagents like HBTU, HATU, and DIC/HOBt activate the amino acid carboxyl group as an active ester for peptide bond formation.",
+  "difficulty": "beginner",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

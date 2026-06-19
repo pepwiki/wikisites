@@ -1,0 +1,13 @@
+{
+  "question": "What is PEGylation used for in drug delivery?",
+  "options": [
+    "To increase drug toxicity",
+    "To improve pharmacokinetics and reduce immunogenicity",
+    "To decrease drug solubility",
+    "To加快 drug metabolism"
+  ],
+  "correctIndex": 1,
+  "explanation": "PEGylation attaches polyethylene glycol chains to drugs, increasing circulation time, reducing immunogenicity, and improving bioavailability through enhanced solubility.",
+  "difficulty": "beginner",
+  "tags": ["delivery", "formulation"]
+}

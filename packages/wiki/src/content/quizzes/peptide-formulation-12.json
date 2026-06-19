@@ -1,0 +1,16 @@
+{
+  "question": "What is an adsorption isotherm in formulation?",
+  "options": [
+    "A type of peptide synthesis",
+    "The relationship between peptide concentration adsorbed to a surface and concentration in solution",
+    "A temperature control method",
+    "A dissolution profile only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Adsorption isotherms characterize peptide binding to container surfaces, which can reduce delivered dose.",
+  "difficulty": "intermediate",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

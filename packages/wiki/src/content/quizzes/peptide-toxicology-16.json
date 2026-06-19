@@ -1,0 +1,16 @@
+{
+  "question": "What is pharmacovigilance?",
+  "options": [
+    "Manufacturing quality control",
+    "The science of detection, assessment, and prevention of adverse drug reactions",
+    "Drug patent monitoring",
+    "Clinical trial design only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Pharmacovigilance encompasses post-marketing surveillance including adverse event reporting and risk assessment.",
+  "difficulty": "intermediate",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the effect of incorporating D-amino acids into peptides?",
+  "options": [
+    "It decreases stability",
+    "It increases resistance to proteolytic degradation",
+    "It reduces binding affinity always",
+    "It eliminates all biological activity"
+  ],
+  "correctIndex": 1,
+  "explanation": "D-amino acids are not recognized by most proteases, making peptides containing them resistant to enzymatic degradation while often maintaining biological activity.",
+  "difficulty": "beginner",
+  "tags": ["stability", "modifications"]
+}

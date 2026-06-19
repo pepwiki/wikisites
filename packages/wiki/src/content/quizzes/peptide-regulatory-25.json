@@ -1,0 +1,16 @@
+{
+  "question": "What is post-marketing surveillance?",
+  "options": [
+    "Pre-clinical monitoring only",
+    "Ongoing monitoring of drug safety after approval to detect rare adverse effects",
+    "Only manufacturing oversight",
+    "Only distribution monitoring"
+  ],
+  "correctIndex": 1,
+  "explanation": "Post-marketing surveillance monitors drug safety in the general population, detecting rare adverse events not seen in clinical trials.",
+  "difficulty": "advanced",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

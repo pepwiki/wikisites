@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of coarse-grained simulations?",
+  "options": [
+    "They provide atomic resolution",
+    "They enable longer timescale and larger system simulations",
+    "They are always more accurate",
+    "They require no parameterization"
+  ],
+  "correctIndex": 1,
+  "explanation": "Coarse-grained models group atoms into larger units, reducing computational cost and enabling simulations of larger systems and longer timescales.",
+  "difficulty": "advanced",
+  "tags": ["computational", "design"]
+}

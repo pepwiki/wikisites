@@ -1,0 +1,9 @@
+{
+  "front": "What is virtual screening?",
+  "back": "Virtual screening computationally searches large compound databases to identify potential active molecules. It includes structure-based (docking) and ligand-based (similarity) approaches.",
+  "tags": [
+    "drug-design",
+    "principles"
+  ],
+  "difficulty": "intermediate"
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of transferability in machine learning models for peptides?",
+  "options": [
+    "Models can only predict training data",
+    "Models can generalize to unseen peptide sequences",
+    "Models are always faster",
+    "Models require no training"
+  ],
+  "correctIndex": 1,
+  "explanation": "Transferability refers to the ability of ML models trained on one set of peptides to generalize predictions to new, unseen sequences, which is critical for practical design.",
+  "difficulty": "advanced",
+  "tags": ["computational", "design"]
+}

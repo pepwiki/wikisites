@@ -1,0 +1,16 @@
+{
+  "question": "What is top-down proteomics?",
+  "options": [
+    "Digesting proteins first then analyzing peptides",
+    "Analyzing intact proteins by MS/MS without prior enzymatic digestion",
+    "Purifying proteins by chromatography only",
+    "Using only MALDI for protein analysis"
+  ],
+  "correctIndex": 1,
+  "explanation": "Top-down proteomics analyzes intact proteins by MS/MS, preserving information about proteoforms and combinatorial post-translational modifications.",
+  "difficulty": "advanced",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

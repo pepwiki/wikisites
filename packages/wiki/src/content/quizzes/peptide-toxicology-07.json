@@ -1,0 +1,16 @@
+{
+  "question": "What is the safety factor in risk assessment?",
+  "options": [
+    "A factor of 1 only",
+    "A margin of safety between NOAEL and human dose accounting for variability",
+    "A factor for drug pricing",
+    "A packaging safety rating"
+  ],
+  "correctIndex": 1,
+  "explanation": "Safety factors (typically 100x) are applied to the NOAEL to derive a safe starting dose for human trials.",
+  "difficulty": "beginner",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of a carrier protein in NRPS?",
+  "options": [
+    "Transports amino acids to ribosomes",
+    "Serves as a molecular tether holding growing peptide intermediates during assembly line synthesis",
+    "Degrades the finished peptide",
+    "Catalyzes peptide bond formation at the ribosome"
+  ],
+  "correctIndex": 1,
+  "explanation": "The peptidyl carrier protein uses a phosphopantetheine arm to tether intermediates and shuttle them between catalytic domains.",
+  "difficulty": "beginner",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

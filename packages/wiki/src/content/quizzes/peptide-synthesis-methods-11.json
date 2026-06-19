@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of using DIC/HOBt over DCC for peptide coupling?",
+  "options": [
+    "DIC is cheaper",
+    "DIC produces water-soluble byproducts",
+    "DIC is faster",
+    "DIC prevents racemization better"
+  ],
+  "correctIndex": 1,
+  "explanation": "DIC (diisopropylcarbodiimide) produces a urea byproduct that is soluble in organic solvents, making it easier to remove than DCC's insoluble dicyclohexylurea.",
+  "difficulty": "intermediate",
+  "tags": ["synthesis", "methods"]
+}

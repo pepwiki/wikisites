@@ -1,0 +1,9 @@
+{
+  "front": "What is residence time in drug-receptor binding?",
+  "back": "Residence time (\u03c4 = 1/koff) is the average time a drug remains bound to its receptor. Longer residence times often correlate with better in vivo efficacy, regardless of binding affinity.",
+  "tags": [
+    "receptors",
+    "binding"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,16 @@
+{
+  "question": "Which technique determines peptide structures in solution without crystallization?",
+  "options": [
+    "X-ray crystallography",
+    "Cryo-electron microscopy",
+    "Nuclear magnetic resonance (NMR)",
+    "Electron diffraction"
+  ],
+  "correctIndex": 2,
+  "explanation": "NMR spectroscopy determines three-dimensional structures of peptides and small proteins in solution, providing information about dynamics and conformational flexibility.",
+  "difficulty": "beginner",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

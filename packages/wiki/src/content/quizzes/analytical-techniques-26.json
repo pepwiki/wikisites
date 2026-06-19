@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the duty cycle in mass spectrometry?",
+  "options": [
+    "It measures detector lifespan",
+    "It determines how much of the ion beam is utilized for analysis",
+    "It indicates sample loading time",
+    "It measures chromatographic resolution"
+  ],
+  "correctIndex": 1,
+  "explanation": "Duty cycle is the fraction of time the mass analyzer is actively analyzing ions. Higher duty cycle means more ions are detected, improving sensitivity.",
+  "difficulty": "advanced",
+  "tags": ["analytical", "techniques"]
+}

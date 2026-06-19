@@ -1,0 +1,9 @@
+{
+  "front": "Which amino acid is classified as a branched-chain amino acid (BCAA)?",
+  "back": "Leucine, isoleucine, and valine are the three branched-chain amino acids. They are essential amino acids and important for muscle protein synthesis.",
+  "tags": [
+    "amino-acids",
+    "properties"
+  ],
+  "difficulty": "beginner"
+}

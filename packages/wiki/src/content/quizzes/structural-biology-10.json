@@ -1,0 +1,16 @@
+{
+  "question": "At what resolution do side chain orientations become reliably determined?",
+  "options": [
+    "6.0 A",
+    "3.5 A",
+    "2.0 A",
+    "1.0 A"
+  ],
+  "correctIndex": 2,
+  "explanation": "At 2.0 A resolution, alpha-helices and beta-sheets are clearly visible, side chain orientations can be determined, and water molecules become apparent in electron density.",
+  "difficulty": "intermediate",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

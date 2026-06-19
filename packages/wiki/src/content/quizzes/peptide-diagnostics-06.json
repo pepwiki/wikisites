@@ -1,0 +1,16 @@
+{
+  "question": "What is the analytical sensitivity of an assay?",
+  "options": [
+    "How specific it is",
+    "The lowest detectable concentration of analyte",
+    "How fast results are obtained",
+    "The cost per test"
+  ],
+  "correctIndex": 1,
+  "explanation": "Analytical sensitivity refers to the minimum concentration of peptide analyte that can be reliably distinguished from zero with a stated confidence level.",
+  "difficulty": "beginner",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

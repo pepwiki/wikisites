@@ -1,0 +1,16 @@
+{
+  "question": "What is a scaffold hopping strategy in peptidomimetic design?",
+  "options": [
+    "Random scaffold changes",
+    "Replacing the peptide core scaffold while preserving the pharmacophore arrangement",
+    "Changing only the side chains",
+    "Adding more amino acids to the peptide"
+  ],
+  "correctIndex": 1,
+  "explanation": "Scaffold hopping replaces the original peptide backbone with a structurally different framework while maintaining the critical spatial arrangement of binding groups.",
+  "difficulty": "advanced",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

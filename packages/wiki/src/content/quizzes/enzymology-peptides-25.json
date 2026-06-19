@@ -1,0 +1,16 @@
+{
+  "question": "What is SPINK1's role in the pancreas?",
+  "options": [
+    "Activates trypsinogen",
+    "Inhibits premature trypsin activation",
+    "Degrades dietary proteins",
+    "Synthesizes digestive enzymes"
+  ],
+  "correctIndex": 1,
+  "explanation": "SPINK1 binds and inhibits prematurely activated trypsin in the pancreas, preventing autodigestion. Mutations in SPINK1 are linked to chronic pancreatitis.",
+  "difficulty": "advanced",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

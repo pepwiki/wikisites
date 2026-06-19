@@ -1,0 +1,16 @@
+{
+  "question": "What is radiochemical purity?",
+  "options": [
+    "How pure the radioisotope is",
+    "The fraction of total radioactivity present as the desired radiolabeled species",
+    "Chemical purity of the non-radioactive compound",
+    "The specific activity of the final product"
+  ],
+  "correctIndex": 1,
+  "explanation": "Radiochemical purity measures the percentage of total radioactivity in the correct chemical form. Impurities can cause non-specific uptake and reduce image quality.",
+  "difficulty": "intermediate",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

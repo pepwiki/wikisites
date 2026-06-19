@@ -1,0 +1,9 @@
+{
+  "front": "How can CD spectra indicate alpha-helix content?",
+  "back": "Alpha-helical peptides show characteristic CD minima at 208 nm and 222 nm, and a maximum at 192 nm. Beta-sheets show a minimum at 218 nm and maximum at 195 nm.",
+  "tags": [
+    "analytical",
+    "methods"
+  ],
+  "difficulty": "intermediate"
+}

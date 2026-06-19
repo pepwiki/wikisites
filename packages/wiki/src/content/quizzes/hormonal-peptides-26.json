@@ -1,0 +1,16 @@
+{
+  "question": "What is the significance of pulsatile hormone release?",
+  "options": [
+    "No physiological importance",
+    "Prevents receptor downregulation and maintains hormonal sensitivity",
+    "Only occurs during sleep",
+    "Only affects growth hormone"
+  ],
+  "correctIndex": 1,
+  "explanation": "Pulsatile release prevents sustained receptor occupancy that leads to desensitization. Continuous GnRH exposure paradoxically suppresses LH/FSH, used therapeutically.",
+  "difficulty": "advanced",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

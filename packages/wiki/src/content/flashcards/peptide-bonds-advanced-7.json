@@ -1,10 +1,9 @@
 {
-  "front": "What is the significance of peptide bonds in non-aqueous peptide synthesis?",
-  "back": "DMF, DMSO, and NMP are common solvents for peptide coupling. Water must be excluded to prevent hydrolysis. Dielectric constant affects coupling efficiency. Peptide bonds are kinetically stable but thermodynamically metastable in aqueous solution.",
+  "front": "What is peptidyl-prolyl isomerase (PPIase)?",
+  "back": "PPIase is an enzyme that catalyzes the cis-trans isomerization of proline peptide bonds, accelerating protein folding. Cyclophilin and FK506-binding proteins are examples of PPIases.",
   "tags": [
     "peptide-bonds",
-    "chemistry",
-    "synthesis"
+    "structure"
   ],
   "difficulty": "advanced"
 }

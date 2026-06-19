@@ -1,0 +1,9 @@
+{
+  "front": "What is theGRAVY index and what does it measure?",
+  "back": "GRAVY (Grand Average of Hydropathy) is the sum of hydropathy values divided by the number of residues. Positive values indicate hydrophobic proteins, negative values indicate hydrophilic proteins.",
+  "tags": [
+    "amino-acids",
+    "properties"
+  ],
+  "difficulty": "advanced"
+}

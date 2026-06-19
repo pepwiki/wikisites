@@ -1,0 +1,16 @@
+{
+  "question": "What is chemical shift indexing (CSI) in NMR?",
+  "options": [
+    "Identifying metabolites",
+    "Predicting secondary structure from backbone chemical shifts",
+    "Assigning side chain resonances",
+    "Measuring diffusion coefficients"
+  ],
+  "correctIndex": 1,
+  "explanation": "CSI compares observed C-alpha and H-alpha chemical shifts to random coil values. Deviations predict alpha-helix or beta-sheet secondary structure.",
+  "difficulty": "intermediate",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

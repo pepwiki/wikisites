@@ -1,0 +1,16 @@
+{
+  "question": "What is a carcinogenicity bioassay?",
+  "options": [
+    "Always required for all drugs",
+    "Typically required for drugs intended for chronic use (>6 months)",
+    "Required only for topical drugs",
+    "Required for all injectable drugs"
+  ],
+  "correctIndex": 1,
+  "explanation": "Carcinogenicity studies are required for drugs anticipated for chronic use, unless waived based on negative genotoxicity results.",
+  "difficulty": "advanced",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

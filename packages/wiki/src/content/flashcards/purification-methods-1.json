@@ -1,0 +1,9 @@
+{
+  "front": "What is RP-HPLC and how does it purify peptides?",
+  "back": "Reversed-phase HPLC separates peptides based on hydrophobicity. A C18 or C8 stationary phase retains peptides, which are eluted using an acetonitrile/water gradient with TFA as ion-pairing agent.",
+  "tags": [
+    "purification",
+    "chromatography"
+  ],
+  "difficulty": "beginner"
+}

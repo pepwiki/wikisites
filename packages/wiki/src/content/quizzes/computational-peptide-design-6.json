@@ -1,0 +1,13 @@
+{
+  "question": "What is homology modeling in structural biology?",
+  "options": [
+    "Building structures from scratch",
+    "Predicting protein structure based on related known structures",
+    "Determining structure by NMR",
+    "Measuring protein flexibility"
+  ],
+  "correctIndex": 1,
+  "explanation": "Homology modeling predicts protein 3D structure based on sequence similarity to proteins with known structures, using the template as a guide.",
+  "difficulty": "intermediate",
+  "tags": ["computational", "design"]
+}

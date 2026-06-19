@@ -1,0 +1,13 @@
+{
+  "question": "What is the main limitation of SPPS for peptide synthesis?",
+  "options": [
+    "It cannot incorporate non-natural amino acids",
+    "It is limited to short peptides (<100 residues)",
+    "It requires expensive reagents",
+    "It cannot produce cyclic peptides"
+  ],
+  "correctIndex": 1,
+  "explanation": "SPPS efficiency decreases exponentially with chain length, making it impractical for peptides longer than ~50-100 residues due to cumulative coupling inefficiencies.",
+  "difficulty": "intermediate",
+  "tags": ["synthesis", "methods"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is a stability study?",
+  "options": [
+    "Assessing patient compliance",
+    "Testing drug product quality over time under defined storage conditions",
+    "Measuring drug potency only",
+    "Testing drug interactions only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Stability studies determine how quality varies with time under storage conditions, establishing shelf life.",
+  "difficulty": "intermediate",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

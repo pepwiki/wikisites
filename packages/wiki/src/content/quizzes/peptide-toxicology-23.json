@@ -1,0 +1,16 @@
+{
+  "question": "What is the therapeutic index?",
+  "options": [
+    "A drug pricing index",
+    "The ratio of toxic dose (TD50) to effective dose (ED50), quantifying drug safety",
+    "A patient satisfaction score",
+    "A manufacturing quality metric"
+  ],
+  "correctIndex": 1,
+  "explanation": "TI = TD50/ED50. A TI greater than 1 indicates the drug is effective at doses below toxic levels.",
+  "difficulty": "advanced",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

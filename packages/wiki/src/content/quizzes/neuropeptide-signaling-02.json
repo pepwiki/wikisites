@@ -1,0 +1,16 @@
+{
+  "question": "Which neuropeptide is commonly known as the 'feel-good' molecule?",
+  "options": [
+    "Substance P",
+    "Endorphins",
+    "Somatostatin",
+    "Neuropeptide Y"
+  ],
+  "correctIndex": 1,
+  "explanation": "Endorphins are endogenous opioid neuropeptides that bind mu-opioid receptors, producing analgesia and feelings of pleasure.",
+  "difficulty": "beginner",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

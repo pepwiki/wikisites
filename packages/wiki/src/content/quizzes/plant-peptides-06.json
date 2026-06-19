@@ -1,0 +1,16 @@
+{
+  "question": "What is the knottin fold?",
+  "options": [
+    "A knotted protein structure",
+    "A compact structural motif with three disulfide bonds creating a cystine knot core",
+    "A type of enzyme active site",
+    "A DNA binding motif"
+  ],
+  "correctIndex": 1,
+  "explanation": "The knottin fold features three conserved disulfide bonds forming a compact, rigid core providing exceptional structural stability.",
+  "difficulty": "beginner",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

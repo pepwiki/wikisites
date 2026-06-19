@@ -1,0 +1,16 @@
+{
+  "question": "What is a NDA in drug development?",
+  "options": [
+    "National drug association",
+    "New drug application submitted for marketing approval",
+    "New dosage approval",
+    "Non-derivative application"
+  ],
+  "correctIndex": 1,
+  "explanation": "A New Drug Application is submitted to the FDA requesting approval to market a drug, containing comprehensive data from preclinical and clinical studies.",
+  "difficulty": "beginner",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

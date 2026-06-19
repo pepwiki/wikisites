@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of the bifunctional chelator (BFC)?",
+  "options": [
+    "Provides radioactivity only",
+    "Links a targeting peptide to a radionuclide through separate binding groups",
+    "Increases peptide half-life",
+    "Acts as the imaging agent itself"
+  ],
+  "correctIndex": 1,
+  "explanation": "BFCs have two functional moieties: one for covalent peptide attachment and another for chelating the metal radionuclide, connecting targeting and imaging functions.",
+  "difficulty": "intermediate",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

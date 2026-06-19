@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the volume of distribution (Vd)?",
+  "options": [
+    "The volume of drug solution",
+    "The theoretical volume relating drug concentration to total amount in body",
+    "The volume of blood",
+    "The volume of urine"
+  ],
+  "correctIndex": 1,
+  "explanation": "Vd is a theoretical volume that relates the amount of drug in the body to the plasma concentration, indicating how widely the drug distributes into tissues.",
+  "difficulty": "advanced",
+  "tags": ["clinical", "trials"]
+}

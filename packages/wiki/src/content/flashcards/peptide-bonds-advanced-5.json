@@ -1,10 +1,9 @@
 {
-  "front": "What is the mechanism of peptide bond hydrolysis by serine proteases?",
-  "back": "Serine proteases (trypsin, chymotrypsin) use a catalytic triad (Ser-His-Asp). Serine attacks the peptide carbonyl, forming an acyl-enzyme intermediate. His acts as general base/acid. The oxyanion hole stabilizes the tetrahedral transition state.",
+  "front": "What is the allowed range of phi and psi angles in a Ramachandran plot?",
+  "back": "The Ramachandran plot shows sterically allowed conformations. Alpha-helices cluster around \u03c6=-57\u00b0, \u03c8=-47\u00b0, while beta-sheets cluster around \u03c6=-135\u00b0, \u03c8=+135\u00b0. Glycine has much broader allowed regions.",
   "tags": [
     "peptide-bonds",
-    "enzymology",
-    "mechanism"
+    "structure"
   ],
-  "difficulty": "advanced"
+  "difficulty": "intermediate"
 }

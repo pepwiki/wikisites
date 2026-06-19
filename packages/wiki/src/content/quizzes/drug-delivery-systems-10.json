@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of targeted drug delivery over conventional therapy?",
+  "options": [
+    "It is always cheaper",
+    "It reduces systemic side effects and improves efficacy",
+    "It eliminates the need for drug metabolism",
+    "It works for all types of drugs"
+  ],
+  "correctIndex": 1,
+  "explanation": "Targeted delivery concentrates drugs at disease sites while minimizing exposure to healthy tissues, reducing side effects and improving therapeutic outcomes.",
+  "difficulty": "beginner",
+  "tags": ["delivery", "formulation"]
+}

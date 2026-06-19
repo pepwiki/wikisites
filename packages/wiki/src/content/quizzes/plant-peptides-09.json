@@ -1,0 +1,16 @@
+{
+  "question": "What are nonspecific lipid transfer proteins in plants?",
+  "options": [
+    "Structural proteins only",
+    "Small cysteine-rich peptides transferring lipids between membranes with antimicrobial activity",
+    "Photosynthetic enzymes",
+    "Root absorption proteins"
+  ],
+  "correctIndex": 1,
+  "explanation": "nsLTPs transfer lipids between membranes, contributing to cuticle formation and pathogen defense.",
+  "difficulty": "intermediate",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

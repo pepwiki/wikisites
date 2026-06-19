@@ -1,0 +1,16 @@
+{
+  "question": "What type of receptors do most neuropeptides signal through?",
+  "options": [
+    "Ion channels",
+    "G-protein coupled receptors (GPCRs)",
+    "Receptor tyrosine kinases",
+    "Nuclear receptors"
+  ],
+  "correctIndex": 1,
+  "explanation": "The majority of neuropeptide receptors are GPCRs with seven transmembrane domains. Binding triggers intracellular signaling cascades through G-proteins.",
+  "difficulty": "beginner",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

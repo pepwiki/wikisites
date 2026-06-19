@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of EDTA in peptide formulations?",
+  "options": [
+    "pH adjustment only",
+    "Sequestering trace metal ions that catalyze oxidative degradation",
+    "Increase solubility only",
+    "Prevent microbial growth only"
+  ],
+  "correctIndex": 1,
+  "explanation": "EDTA binds trace metal ions that catalyze oxidative degradation and metal-catalyzed aggregation of peptides.",
+  "difficulty": "advanced",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

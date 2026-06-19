@@ -1,0 +1,16 @@
+{
+  "question": "What is a Master Batch Record?",
+  "options": [
+    "A record of past batches",
+    "A template document describing the complete manufacturing procedure for a drug product",
+    "A quality control report",
+    "An equipment qualification document"
+  ],
+  "correctIndex": 1,
+  "explanation": "The MBR is a controlled template defining all manufacturing instructions and in-process controls for producing a specific drug product.",
+  "difficulty": "intermediate",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

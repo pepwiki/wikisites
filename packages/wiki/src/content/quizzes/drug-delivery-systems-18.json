@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of thermosensitive liposomes?",
+  "options": [
+    "They are stable at room temperature",
+    "They release drugs upon heating to 40-42°C",
+    "They are always biodegradable",
+  "They have higher drug loading"
+  ],
+  "correctIndex": 1,
+  "explanation": "Thermosensitive liposomes undergo phase transitions at mild hyperthermia (40-42°C), releasing their contents locally when combined with localized heating of target tissues.",
+  "difficulty": "intermediate",
+  "tags": ["delivery", "formulation"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is a condensation (C) domain in NRPS?",
+  "options": [
+    "Amino acid activation",
+    "Catalyzes amide bond formation between aminoacyl-S-PCP and peptidyl-S-PCP substrates",
+    "Peptide degradation",
+    "DNA replication only"
+  ],
+  "correctIndex": 1,
+  "explanation": "The C domain catalyzes peptide bond formation between upstream and downstream carrier proteins, extending the chain.",
+  "difficulty": "intermediate",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is surface plasmon resonance (SPR)?",
+  "back": "SPR measures real-time binding kinetics (kon, koff, Kd) by detecting changes in refractive index when molecules bind to a sensor surface. It requires immobilization of one binding partner.",
+  "tags": [
+    "receptors",
+    "binding"
+  ],
+  "difficulty": "intermediate"
+}

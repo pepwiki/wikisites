@@ -1,0 +1,8 @@
+{
+  "question": "Which protecting group strategy is most commonly used in modern SPPS?",
+  "options": ["Boc/Bzl", "Fmoc/tBu", "Cbz/Ala", "Ac/OMe"],
+  "correctIndex": 1,
+  "explanation": "Fmoc/tBu strategy is preferred because it uses mild basic conditions for Fmoc removal and TFA for final cleavage, avoiding harsh HF treatment required by Boc strategy.",
+  "difficulty": "beginner",
+  "tags": ["synthesis", "methods"]
+}

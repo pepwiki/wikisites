@@ -1,0 +1,16 @@
+{
+  "question": "What is a dipeptide mimetic?",
+  "options": [
+    "Two amino acids joined normally",
+    "A non-peptide scaffold that mimics the spatial arrangement of two amino acid side chains",
+    "A peptide that is exactly two residues long",
+    "A peptide that dimerizes"
+  ],
+  "correctIndex": 1,
+  "explanation": "Dipeptide mimetics use small molecule scaffolds (e.g., aminomethylenebenzamides) to present two amino acid side chains in the correct spatial relationship for target recognition.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

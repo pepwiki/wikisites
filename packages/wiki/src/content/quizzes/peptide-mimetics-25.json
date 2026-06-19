@@ -1,0 +1,16 @@
+{
+  "question": "What is the concept of proteomimetics?",
+  "options": [
+    "Molecules that mimic proteases",
+    "Small molecules that mimic the surface topology of protein secondary structures for protein-protein interaction disruption",
+    "Molecules that degrade proteins",
+    "Molecules that replace entire proteins"
+  ],
+  "correctIndex": 1,
+  "explanation": "Proteomimetics are small molecules that reproduce the spatial arrangement of key residues on protein surfaces (helices, sheets), disrupting disease-relevant protein-protein interactions.",
+  "difficulty": "advanced",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the lectin fold?",
+  "options": [
+    "A protease domain",
+    "A carbohydrate-binding protein domain",
+    "A kinase domain",
+    "A DNA-binding motif"
+  ],
+  "correctIndex": 1,
+  "explanation": "Lectins are proteins with carbohydrate-recognition domains (CRDs) that specifically bind glycan structures, mediating cell-cell recognition and immune regulation.",
+  "difficulty": "beginner",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

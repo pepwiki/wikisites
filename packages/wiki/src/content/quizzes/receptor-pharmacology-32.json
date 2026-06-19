@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of receptor dimerization in RTK signaling?",
+  "options": [
+    "It reduces receptor sensitivity",
+    "It is required for kinase activation and signal initiation",
+    "It prevents ligand binding",
+    "It enhances receptor internalization"
+  ],
+  "correctIndex": 1,
+  "explanation": "RTK dimerization upon ligand binding brings the kinase domains into proximity, allowing trans-autophosphorylation and initiation of downstream signaling cascades.",
+  "difficulty": "intermediate",
+  "tags": ["receptors", "pharmacology"]
+}

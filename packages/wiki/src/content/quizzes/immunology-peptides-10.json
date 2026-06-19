@@ -1,0 +1,13 @@
+{
+  "question": "What is a peptide epitope?",
+  "options": [
+    "The entire antigen molecule",
+    "The specific part of an antigen recognized by immune cells",
+    "An antibody molecule",
+    "A cytokine receptor"
+  ],
+  "correctIndex": 1,
+  "explanation": "A peptide epitope is the specific amino acid sequence within an antigen that is recognized by T cells (via TCR) or antibodies (via BCR).",
+  "difficulty": "beginner",
+  "tags": ["immunology", "peptides"]
+}

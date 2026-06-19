@@ -1,0 +1,16 @@
+{
+  "question": "What is trapped ion mobility spectrometry (TIMS)?",
+  "options": [
+    "Higher ionization efficiency",
+    "Ion focusing combined with mobility separation increases sensitivity",
+    "Better sample preparation",
+    "Lower vacuum requirements"
+  ],
+  "correctIndex": 1,
+  "explanation": "TIMS traps and releases ions based on mobility, providing ion focusing that concentrates ions before release, improving sensitivity and adding cross-section information.",
+  "difficulty": "advanced",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is phytoremediation using plant defense peptides?",
+  "options": [
+    "Only water purification",
+    "Using transgenic plants with antimicrobial peptides for pathogen resistance while removing heavy metals",
+    "Only soil fertilization",
+    "Only plant breeding"
+  ],
+  "correctIndex": 1,
+  "explanation": "Transgenic plants expressing antimicrobial peptides show enhanced resistance while some systems are used for phytoremediation.",
+  "difficulty": "advanced",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

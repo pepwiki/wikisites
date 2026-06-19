@@ -1,0 +1,16 @@
+{
+  "question": "What is a macrocyclic peptidomimetic?",
+  "options": [
+    "A linear peptide",
+    "A cyclic non-peptide scaffold that mimics a peptide's three-dimensional presentation",
+    "A peptide that forms large aggregates",
+    "A peptide synthesized on a macrocyclic resin"
+  ],
+  "correctIndex": 1,
+  "explanation": "Macrocyclic scaffolds (e.g., resorc[4]arenes, oxazolidinones) present pharmacophoric groups in spatial orientations mimicking bioactive peptide conformations.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

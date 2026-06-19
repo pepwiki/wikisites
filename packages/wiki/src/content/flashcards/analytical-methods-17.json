@@ -1,0 +1,9 @@
+{
+  "front": "What is a Tm value from DSC?",
+  "back": "The melting temperature (Tm) is the temperature at which 50% of the peptide is unfolded. Higher Tm values indicate greater thermal stability and are important for formulation development.",
+  "tags": [
+    "analytical",
+    "methods"
+  ],
+  "difficulty": "beginner"
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of half-life extension for peptide drugs?",
+  "options": [
+    "It only affects manufacturing",
+    "It reduces dosing frequency and improves patient compliance",
+    "It increases side effects",
+    "It decreases efficacy"
+  ],
+  "correctIndex": 1,
+  "explanation": "Longer half-lives mean less frequent dosing, improving patient compliance and maintaining therapeutic drug levels over extended periods.",
+  "difficulty": "beginner",
+  "tags": ["stability", "modifications"]
+}

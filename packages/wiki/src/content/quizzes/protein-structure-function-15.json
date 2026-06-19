@@ -1,0 +1,13 @@
+{
+  "question": "What is the difference between allosteric and competitive inhibition?",
+  "options": [
+    "They both bind the active site",
+    "Allosteric binds elsewhere, competitive binds the active site",
+    "Allosteric is always reversible",
+    "Competitive always increases Km"
+  ],
+  "correctIndex": 1,
+  "explanation": "Competitive inhibitors bind the active site, competing with substrate. Allosteric inhibitors bind at a different site, inducing conformational changes that reduce activity.",
+  "difficulty": "intermediate",
+  "tags": ["structure", "function"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is microwave-assisted SPPS?",
+  "options": [
+    "Using microwaves for detection",
+    "Applying microwave irradiation to accelerate coupling and deprotection reactions",
+    "Using microwaves for peptide purification",
+    "Microwave-based resin synthesis"
+  ],
+  "correctIndex": 1,
+  "explanation": "Microwave heating accelerates SPPS reactions by providing rapid, uniform heating, reducing aggregation, improving coupling efficiency, and shortening overall synthesis time.",
+  "difficulty": "intermediate",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

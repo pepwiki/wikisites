@@ -1,0 +1,16 @@
+{
+  "question": "What is the advantage of stapled peptides?",
+  "options": [
+    "Cheaper to synthesize",
+    "Alpha-helical stabilization through hydrocarbon staples improves binding affinity and cell permeability",
+    "Always more soluble",
+    "Resistant to all degradation"
+  ],
+  "correctIndex": 1,
+  "explanation": "Stapled peptides use a hydrocarbon bridge between i, i+4 or i, i+7 positions to lock the alpha-helical conformation, enhancing protease resistance, cell penetration, and target binding.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

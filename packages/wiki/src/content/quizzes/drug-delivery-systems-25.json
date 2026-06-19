@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of intranasal drug delivery?",
+  "options": [
+    "Higher drug stability",
+    "Avoidance of first-pass metabolism and potential brain targeting",
+    "Faster drug clearance",
+    "Lower drug solubility"
+  ],
+  "correctIndex": 1,
+  "explanation": "Intranasal delivery bypasses gastrointestinal degradation and first-pass hepatic metabolism, and the olfactory pathway can provide direct nose-to-brain delivery.",
+  "difficulty": "intermediate",
+  "tags": ["delivery", "formulation"]
+}

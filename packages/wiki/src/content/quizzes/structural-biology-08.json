@@ -1,0 +1,16 @@
+{
+  "question": "What is the B-factor in X-ray crystallography?",
+  "options": [
+    "Bond energy",
+    "Atomic displacement parameter indicating thermal motion",
+    "Beta-sheet content",
+    "Background noise level"
+  ],
+  "correctIndex": 1,
+  "explanation": "The B-factor quantifies atomic displacement from mean positions due to thermal vibration and static disorder. High B-factors indicate flexible or disordered regions.",
+  "difficulty": "beginner",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

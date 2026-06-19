@@ -1,0 +1,16 @@
+{
+  "question": "What is an internal standard in quantitative peptide MS?",
+  "options": [
+    "External calibrator",
+    "Isotopically labeled version of the target peptide added to samples",
+    "A known peptide in the matrix",
+    "A blank sample"
+  ],
+  "correctIndex": 1,
+  "explanation": "Isotope-labeled internal standards are added at known concentrations to correct for ionization suppression, extraction efficiency, and matrix effects.",
+  "difficulty": "advanced",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

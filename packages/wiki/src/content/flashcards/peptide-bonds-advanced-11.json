@@ -1,10 +1,9 @@
 {
-  "front": "What is the thermodynamic stability of peptide bonds versus ester bonds?",
-  "back": "Peptide bonds have resonance stabilization energy of ~20 kcal/mol, making them ~10^7 times more stable than ester bonds to hydrolysis. This provides kinetic stability to proteins while allowing enzymatic degradation by proteases.",
+  "front": "Why are planar peptide bonds energetically favored?",
+  "back": "Planar peptide bonds maximize the overlap of p-orbitals between the carbonyl carbon and nitrogen, allowing resonance delocalization. Non-planar conformations would disrupt this orbital overlap.",
   "tags": [
     "peptide-bonds",
-    "physical-chemistry",
-    "thermodynamics"
+    "structure"
   ],
   "difficulty": "advanced"
 }

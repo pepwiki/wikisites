@@ -1,0 +1,13 @@
+{
+  "question": "What is the Cheng-Prusoff equation used for?",
+  "options": [
+    "Calculating enzyme kinetics",
+    "Converting IC50 to Ki for competitive inhibitors",
+    "Determining receptor density",
+    "Measuring drug selectivity"
+  ],
+  "correctIndex": 1,
+  "explanation": "The Cheng-Prusoff equation relates the IC50 of a competitive inhibitor to its inhibition constant (Ki), accounting for the concentration of substrate used in the assay.",
+  "difficulty": "intermediate",
+  "tags": ["receptors", "pharmacology"]
+}

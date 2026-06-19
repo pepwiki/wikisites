@@ -1,0 +1,9 @@
+{
+  "front": "What is the difference between 1D and 2D NMR?",
+  "back": "1D NMR records a single spectrum, while 2D NMR (COSY, NOESY, TOCSY) correlates different nuclei. 2D NMR provides connectivity information and is essential for peptide structure determination.",
+  "tags": [
+    "analytical",
+    "methods"
+  ],
+  "difficulty": "intermediate"
+}

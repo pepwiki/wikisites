@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of glycosylation for peptide stability?",
+  "options": [
+    "It decreases solubility",
+    "It can increase stability and reduce immunogenicity",
+    "It always reduces binding affinity",
+    "It is only for intravenous delivery"
+  ],
+  "correctIndex": 1,
+  "explanation": "Glycosylation adds sugar moieties that can shield peptides from proteases, improve solubility, and reduce immune recognition.",
+  "difficulty": "intermediate",
+  "tags": ["stability", "modifications"]
+}

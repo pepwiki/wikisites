@@ -1,0 +1,9 @@
+{
+  "front": "Which amino acids are classified as acidic at physiological pH?",
+  "back": "Aspartate (Asp) and glutamate (Glu) are the acidic amino acids, with side chain pKa values of approximately 3.9 and 4.2 respectively. Both carry negative charges at pH 7.4.",
+  "tags": [
+    "amino-acids",
+    "properties"
+  ],
+  "difficulty": "beginner"
+}

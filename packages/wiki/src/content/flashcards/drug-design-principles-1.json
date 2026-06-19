@@ -1,0 +1,9 @@
+{
+  "front": "What is SAR in drug design?",
+  "back": "Structure-Activity Relationship (SAR) studies how structural modifications to a molecule affect its biological activity. It guides optimization of potency, selectivity, and pharmacokinetic properties.",
+  "tags": [
+    "drug-design",
+    "principles"
+  ],
+  "difficulty": "beginner"
+}

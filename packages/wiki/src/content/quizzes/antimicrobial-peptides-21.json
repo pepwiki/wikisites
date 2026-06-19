@@ -1,0 +1,16 @@
+{
+  "question": "Which AMP shows synergistic activity with conventional antibiotics?",
+  "options": [
+    "Only synthetic peptides",
+    "Many AMPs including LL-37 and magainins",
+    "No AMPs show synergy",
+    "Only defensins"
+  ],
+  "correctIndex": 1,
+  "explanation": "AMPs can synergize with antibiotics by permeabilizing membranes and enhancing drug uptake. LL-37 synergizes with tobramycin against P. aeruginosa.",
+  "difficulty": "advanced",
+  "tags": [
+    "antimicrobial",
+    "defense"
+  ]
+}

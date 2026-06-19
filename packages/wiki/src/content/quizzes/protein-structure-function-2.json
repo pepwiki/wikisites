@@ -1,0 +1,13 @@
+{
+  "question": "What stabilizes an alpha helix structure?",
+  "options": [
+    "Disulfide bonds",
+    "Hydrogen bonds between backbone NH and C=O groups",
+    "Ionic interactions between side chains",
+    "Covalent bonds between residues"
+  ],
+  "correctIndex": 1,
+  "explanation": "Alpha helices are stabilized by hydrogen bonds between the backbone NH group of one residue and the backbone C=O group four residues earlier in the sequence.",
+  "difficulty": "beginner",
+  "tags": ["structure", "function"]
+}

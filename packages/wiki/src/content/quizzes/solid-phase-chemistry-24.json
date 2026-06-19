@@ -1,0 +1,16 @@
+{
+  "question": "What is the advantage of automated peptide synthesizers?",
+  "options": [
+    "Always cheaper",
+    "Standardized synthesis with controlled coupling times, reagent delivery, and temperature",
+    "Eliminates need for purification",
+    "Produces only linear peptides"
+  ],
+  "correctIndex": 1,
+  "explanation": "Automated synthesizers standardize all synthesis parameters including reagent volumes, coupling times, temperature, and mixing, improving reproducibility and throughput.",
+  "difficulty": "advanced",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

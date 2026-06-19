@@ -1,0 +1,13 @@
+{
+  "question": "What is the difference between MALDI-TOF and ESI mass spectrometry?",
+  "options": [
+    "MALDI is for small molecules, ESI for proteins",
+    "MALDI uses laser desorption, ESI uses electrospray ionization",
+    "They are the same technique",
+    "MALDI requires溶液, ESI requires solid samples"
+  ],
+  "correctIndex": 1,
+  "explanation": "MALDI-TOF uses laser desorption/ionization with time-of-flight analysis, while ESI generates ions from solution through electrospray, often coupling with LC.",
+  "difficulty": "intermediate",
+  "tags": ["analytical", "techniques"]
+}

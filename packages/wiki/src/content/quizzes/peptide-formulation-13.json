@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of polysorbate in peptide formulations?",
+  "options": [
+    "Antimicrobial agent only",
+    "Surfactant that prevents peptide aggregation at interfaces",
+    "pH buffer",
+    "Tonicity agent only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Polysorbates adsorb at interfaces, preventing peptide unfolding and aggregation caused by surface exposure.",
+  "difficulty": "intermediate",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

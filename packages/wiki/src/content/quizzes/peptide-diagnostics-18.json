@@ -1,0 +1,16 @@
+{
+  "question": "What is immunohistochemistry (IHC) used for in peptide diagnostics?",
+  "options": [
+    "Measuring circulating peptide levels",
+    "Visualizing peptide expression in tissue sections",
+    "Synthesizing diagnostic peptides",
+    "Measuring peptide molecular weight"
+  ],
+  "correctIndex": 1,
+  "explanation": "IHC uses labeled antibodies to detect and localize specific peptides within fixed tissue sections, providing spatial information about peptide expression in cancer diagnosis.",
+  "difficulty": "intermediate",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

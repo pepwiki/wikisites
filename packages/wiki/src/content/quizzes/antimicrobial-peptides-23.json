@@ -1,0 +1,16 @@
+{
+  "question": "How does the glycocalyx protect bacteria from AMPs?",
+  "options": [
+    "Enhances AMP binding",
+    "Creates a physical barrier preventing AMP access to the membrane",
+    "Degrades AMPs enzymatically",
+    "Increases membrane fluidity"
+  ],
+  "correctIndex": 1,
+  "explanation": "Capsules and biofilm matrices create polysaccharide barriers that sequester AMPs through charge repulsion or steric hindrance, preventing membrane contact.",
+  "difficulty": "advanced",
+  "tags": [
+    "antimicrobial",
+    "defense"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is a Deviation in GMP?",
+  "options": [
+    "Intentional process change",
+    "Any departure from approved procedures that requires investigation",
+    "Normal process variation",
+    "Scheduled maintenance activity"
+  ],
+  "correctIndex": 1,
+  "explanation": "Deviations are unplanned departures from standard procedures that must be documented, investigated, and assessed for impact on product quality.",
+  "difficulty": "intermediate",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

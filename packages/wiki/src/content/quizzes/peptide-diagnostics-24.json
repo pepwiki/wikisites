@@ -1,0 +1,16 @@
+{
+  "question": "What is the imprecision at the medical decision point?",
+  "options": [
+    "Total assay error",
+    "Analytical variability at the clinically critical concentration",
+    "Sample preparation time",
+    "Reference range width"
+  ],
+  "correctIndex": 1,
+  "explanation": "Imprecision at medical decision points determines whether analytical variation could cause misclassification. Guidelines require CV below 10% at these concentrations.",
+  "difficulty": "advanced",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

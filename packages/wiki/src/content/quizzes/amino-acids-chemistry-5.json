@@ -1,0 +1,8 @@
+{
+  "question": "What type of reaction occurs when asparagine or glutamine undergoes deamidation?",
+  "options": ["Oxidation", "Reduction", "Hydrolysis", "Isomerization"],
+  "correctIndex": 2,
+  "explanation": "Deamidation is a hydrolysis reaction where the amide group of asparagine or glutamine is converted to a carboxyl group, forming aspartate or glutamate respectively.",
+  "difficulty": "intermediate",
+  "tags": ["amino-acids", "chemistry"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the concept of cell-free peptide biosynthesis?",
+  "options": [
+    "Only living cells can synthesize peptides",
+    "Using cell lysates containing the translational machinery to produce peptides without intact cells",
+    "A type of chemical synthesis only",
+    "Using dead cells that still grow"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cell-free systems (PURE extract, E. coli S30 lysate) provide all necessary components for transcription and translation, enabling rapid peptide production without maintaining cell viability.",
+  "difficulty": "intermediate",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

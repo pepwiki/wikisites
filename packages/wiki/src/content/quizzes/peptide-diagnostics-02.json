@@ -1,0 +1,16 @@
+{
+  "question": "Which peptide is commonly measured to diagnose myocardial infarction?",
+  "options": [
+    "Insulin",
+    "BNP/NT-proBNP",
+    "GLP-1",
+    "Oxytocin"
+  ],
+  "correctIndex": 1,
+  "explanation": "B-type natriuretic peptide (BNP) and NT-proBNP are released from cardiac ventricles in response to wall stress, serving as key biomarkers for heart failure.",
+  "difficulty": "beginner",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

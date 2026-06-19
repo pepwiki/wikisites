@@ -1,0 +1,8 @@
+{
+  "question": "Which coupling reagent is classified as a phosphonium salt?",
+  "options": ["HATU", "PyBOP", "EDC", "TBTU"],
+  "correctIndex": 1,
+  "explanation": "PyBOP is a phosphonium-based coupling reagent. It activates carboxyl groups through a phosphonium intermediate, facilitating peptide bond formation.",
+  "difficulty": "advanced",
+  "tags": ["synthesis", "methods"]
+}

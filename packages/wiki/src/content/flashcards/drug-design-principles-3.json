@@ -1,0 +1,9 @@
+{
+  "front": "What does ADMET stand for?",
+  "back": "ADMET describes the pharmacokinetic properties of a drug: Absorption, Distribution, Metabolism, Excretion, and Toxicity. It is a critical framework for evaluating drug candidates.",
+  "tags": [
+    "drug-design",
+    "principles"
+  ],
+  "difficulty": "beginner"
+}

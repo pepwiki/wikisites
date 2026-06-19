@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of a post-marketing surveillance study?",
+  "options": [
+    "To replace Phase 3 trials",
+    "To monitor long-term safety and efficacy in broader populations",
+    "To test new formulations only",
+    "To reduce drug costs"
+  ],
+  "correctIndex": 1,
+  "explanation": "Post-marketing surveillance (Phase 4) monitors drug safety and efficacy in larger, more diverse populations after approval, detecting rare adverse effects.",
+  "difficulty": "intermediate",
+  "tags": ["clinical", "trials"]
+}

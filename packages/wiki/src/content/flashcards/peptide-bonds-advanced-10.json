@@ -1,10 +1,9 @@
 {
-  "front": "How does microwave irradiation accelerate peptide bond formation?",
-  "back": "Microwave heating (typically 60-80C) increases reaction rates 10-1000 fold. It provides uniform heating, reduces side reactions, and improves coupling efficiency. Combined with HATU/DIC activation, it enables difficult couplings in sterically hindered sequences.",
+  "front": "What is the omega (\u03c9) angle in a peptide bond?",
+  "back": "The omega (\u03c9) angle describes rotation around the peptide bond itself (C-N). In trans peptide bonds, \u03c9 is approximately 180\u00b0; in cis bonds, \u03c9 is approximately 0\u00b0.",
   "tags": [
     "peptide-bonds",
-    "synthesis",
-    "methodology"
+    "structure"
   ],
-  "difficulty": "advanced"
+  "difficulty": "intermediate"
 }

@@ -1,0 +1,16 @@
+{
+  "question": "What does the free R-factor (R-free) assess?",
+  "options": [
+    "Bond length accuracy",
+    "Model quality against unused test set reflections",
+    "Solvent content",
+    "Crystal symmetry"
+  ],
+  "correctIndex": 1,
+  "explanation": "R-free is calculated from a randomly selected 5-10% of reflections excluded from refinement, providing an unbiased measure of model quality and guarding against overfitting.",
+  "difficulty": "intermediate",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

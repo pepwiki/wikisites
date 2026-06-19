@@ -1,0 +1,16 @@
+{
+  "question": "What is the NOAEL?",
+  "options": [
+    "No observed adverse effect level - highest dose with no detectable adverse effects",
+    "National organization for animal ethics",
+    "New original analytical evaluation limit",
+    "Non-oxidative assessment of lesions"
+  ],
+  "correctIndex": 0,
+  "explanation": "The NOAEL is the highest exposure level with no treatment-related adverse effects, used to set safe human doses.",
+  "difficulty": "beginner",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

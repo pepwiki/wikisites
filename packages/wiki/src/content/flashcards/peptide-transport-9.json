@@ -1,0 +1,9 @@
+{
+  "front": "What is the role of endocytosis in peptide delivery?",
+  "back": "Endocytosis internalizes peptides via clathrin-coated pits, caveolae, or macropinocytosis. Once internalized, peptides must escape endosomes to reach their intracellular targets.",
+  "tags": [
+    "transport",
+    "membrane"
+  ],
+  "difficulty": "intermediate"
+}

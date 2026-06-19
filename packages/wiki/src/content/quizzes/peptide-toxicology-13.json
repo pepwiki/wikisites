@@ -1,0 +1,16 @@
+{
+  "question": "What is in silico toxicology prediction?",
+  "options": [
+    "Animal testing only",
+    "Computational methods predicting toxicity based on chemical structure and QSAR models",
+    "In vitro cell culture",
+    "Clinical observation only"
+  ],
+  "correctIndex": 1,
+  "explanation": "In silico methods use QSAR models and machine learning to predict potential toxicity from molecular structure alone.",
+  "difficulty": "intermediate",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

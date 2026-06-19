@@ -1,0 +1,16 @@
+{
+  "question": "What is the Klunk screening approach?",
+  "options": [
+    "Random selection",
+    "High-throughput screening of peptide arrays using fluorescently labeled targets",
+    "A computational method only",
+    "A type of phage display"
+  ],
+  "correctIndex": 1,
+  "explanation": "Klunk screening uses fluorescently labeled targets incubated with peptide arrays, then detects binding by fluorescence imaging, enabling rapid, label-free identification of active sequences.",
+  "difficulty": "advanced",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

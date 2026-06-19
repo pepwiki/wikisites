@@ -1,0 +1,16 @@
+{
+  "question": "Which NMR experiment identifies sequentially connected backbone atoms?",
+  "options": [
+    "NOESY",
+    "HSQC",
+    "HNCA",
+    "TOCSY"
+  ],
+  "correctIndex": 2,
+  "explanation": "The HNCA experiment correlates each amide proton with its own and preceding residue's C-alpha, enabling sequential backbone assignment for structure determination.",
+  "difficulty": "intermediate",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

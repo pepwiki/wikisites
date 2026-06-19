@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of exosome-based drug delivery?",
+  "options": [
+    "They are synthetic and easy to produce",
+    "They are natural vesicles with low immunogenicity",
+    "They always cross the blood-brain barrier",
+    "They are cheaper than liposomes"
+  ],
+  "correctIndex": 1,
+  "explanation": "Exosomes are natural cell-derived vesicles with inherent targeting abilities, low immunogenicity, and the ability to cross biological barriers including the blood-brain barrier.",
+  "difficulty": "advanced",
+  "tags": ["delivery", "formulation"]
+}

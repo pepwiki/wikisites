@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of tin(II) chloride in Tc-99m radiopharmaceuticals?",
+  "options": [
+    "It is the radioactive component",
+    "It reduces Tc-99m from Tc(VII) to lower oxidation states for chelation",
+    "It stabilizes the peptide",
+    "It acts as a buffer"
+  ],
+  "correctIndex": 1,
+  "explanation": "SnCl2 reduces Tc-99m from pertechnetate to lower oxidation states that can coordinate with chelating groups in the targeting peptide.",
+  "difficulty": "intermediate",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

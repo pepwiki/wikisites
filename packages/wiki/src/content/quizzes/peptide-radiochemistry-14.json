@@ -1,0 +1,16 @@
+{
+  "question": "What is the main advantage of PRRT?",
+  "options": [
+    "No side effects",
+    "Targeted delivery of cytotoxic radiation to tumor cells expressing specific receptors",
+    "Systemic chemotherapy equivalent",
+    "Surgical precision without surgery"
+  ],
+  "correctIndex": 1,
+  "explanation": "PRRT delivers beta or alpha-emitting radionuclides specifically to tumor cells via peptide-receptor binding, causing DNA damage while minimizing normal tissue damage.",
+  "difficulty": "intermediate",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

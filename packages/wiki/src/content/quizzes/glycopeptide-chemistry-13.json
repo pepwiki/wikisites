@@ -1,0 +1,16 @@
+{
+  "question": "What is peptide N-glycosidase F (PNGase F) used for?",
+  "options": [
+    "Adding glycans to peptides",
+    "Cleaving N-linked glycans from glycopeptides",
+    "Synthesizing glycopeptides",
+    "Purifying glycoproteins"
+  ],
+  "correctIndex": 1,
+  "explanation": "PNGase F hydrolyzes the bond between the innermost GlcNAc and asparagine, releasing intact N-linked glycans for structural analysis.",
+  "difficulty": "intermediate",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

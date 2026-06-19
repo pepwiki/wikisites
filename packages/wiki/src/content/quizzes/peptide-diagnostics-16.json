@@ -1,0 +1,16 @@
+{
+  "question": "What is an aptamer in peptide diagnostic contexts?",
+  "options": [
+    "A synthetic antibody",
+    "A nucleic acid oligonucleotide that binds specific peptide targets",
+    "A type of peptide receptor",
+    "A carbohydrate-binding protein"
+  ],
+  "correctIndex": 1,
+  "explanation": "Aptamers are short DNA or RNA oligonucleotides selected to bind specific targets with high affinity, serving as alternatives to antibodies in diagnostic platforms.",
+  "difficulty": "intermediate",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

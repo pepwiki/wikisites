@@ -1,0 +1,8 @@
+{
+  "question": "What is the loading capacity of a typical SPPS resin?",
+  "options": ["0.01 mmol/g", "0.1-0.5 mmol/g", "5-10 mmol/g", "50 mmol/g"],
+  "correctIndex": 1,
+  "explanation": "Standard SPPS resins have loading capacities of 0.1-0.5 mmol/g. Higher loadings can lead to intermolecular interactions and reduced coupling efficiency.",
+  "difficulty": "beginner",
+  "tags": ["synthesis", "methods"]
+}

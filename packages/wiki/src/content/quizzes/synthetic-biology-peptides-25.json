@@ -1,0 +1,16 @@
+{
+  "question": "What is a stand-alone NRPS vs a mega-enzyme?",
+  "options": [
+    "Same thing",
+    "Stand-alone NRPS have one or a few domains; mega-enzymes are massive multi-domain single polypeptides",
+    "Mega-enzymes are always smaller",
+    "Stand-alone NRPS are always inactive"
+  ],
+  "correctIndex": 1,
+  "explanation": "Stand-alone NRPS are individual proteins with single modules, while mega-enzymes are massive single polypeptides containing all modules.",
+  "difficulty": "advanced",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

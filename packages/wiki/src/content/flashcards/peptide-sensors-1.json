@@ -1,0 +1,9 @@
+{
+  "front": "What is FRET and how is it used in peptide sensors?",
+  "back": "FRET (F\u00f6rster Resonance Energy Transfer) transfers energy from an excited donor fluorophore to an acceptor within 1-10 nm. Peptide sensors use FRET to detect conformational changes, cleavage, or binding.",
+  "tags": [
+    "sensors",
+    "biosensors"
+  ],
+  "difficulty": "beginner"
+}

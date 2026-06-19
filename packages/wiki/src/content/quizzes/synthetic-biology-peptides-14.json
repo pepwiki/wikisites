@@ -1,0 +1,16 @@
+{
+  "question": "What is directed evolution of NRPS?",
+  "options": [
+    "Natural evolution only",
+    "Iterative rounds of mutagenesis and screening to improve function or product yield",
+    "Random gene deletion",
+    "Computational prediction only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Directed evolution introduces mutations then screens for improved activity, altered specificity, or enhanced production.",
+  "difficulty": "intermediate",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What are van der Waals interactions?",
+  "back": "Van der Waals interactions are weak, short-range attractions between atoms (0.4-4 kJ/mol). They are numerous in protein interiors and contribute significantly to binding affinity through cumulative effects.",
+  "tags": [
+    "interactions",
+    "binding"
+  ],
+  "difficulty": "beginner"
+}

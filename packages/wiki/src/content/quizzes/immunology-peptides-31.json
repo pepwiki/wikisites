@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of heat shock proteins (HSPs) in antigen presentation?",
+  "options": [
+    "They degrade peptides",
+    "They chaperone peptides to MHC molecules",
+    "They activate complement",
+    "They produce cytokines"
+  ],
+  "correctIndex": 1,
+  "explanation": "HSPs (like Hsp70, Hsp90) bind peptide fragments and facilitate their transport to and loading onto MHC molecules, enhancing antigen presentation.",
+  "difficulty": "advanced",
+  "tags": ["immunology", "peptides"]
+}

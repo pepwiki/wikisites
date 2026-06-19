@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of using AlphaFold for peptide design?",
+  "options": [
+    "It synthesizes peptides",
+    "It provides accurate structure predictions for template-based design",
+    "It purifies compounds",
+    "It sequences peptides"
+  ],
+  "correctIndex": 1,
+  "explanation": "AlphaFold provides highly accurate protein structure predictions that can serve as templates for peptide design, especially for understanding binding interfaces.",
+  "difficulty": "intermediate",
+  "tags": ["computational", "design"]
+}

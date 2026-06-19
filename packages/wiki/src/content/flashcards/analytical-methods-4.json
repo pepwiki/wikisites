@@ -1,0 +1,9 @@
+{
+  "front": "How does SDS-PAGE separate peptides?",
+  "back": "SDS-PAGE separates peptides by molecular weight. SDS denatures peptides and gives them uniform negative charge, allowing separation based solely on size during electrophoresis.",
+  "tags": [
+    "analytical",
+    "methods"
+  ],
+  "difficulty": "beginner"
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of using Rosetta for peptide design?",
+  "options": [
+    "It only predicts protein structure",
+    "It combines structure prediction with function optimization",
+    "It is only for small molecules",
+    "It requires no computational resources"
+  ],
+  "correctIndex": 1,
+  "explanation": "Rosetta is a comprehensive software suite for protein structure prediction, design, and optimization, including peptide design and docking.",
+  "difficulty": "intermediate",
+  "tags": ["computational", "design"]
+}

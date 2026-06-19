@@ -1,0 +1,16 @@
+{
+  "question": "How do neuropeptides differ from classical neurotransmitters in release?",
+  "options": [
+    "Same release mechanism",
+    "Neuropeptides require high-frequency stimulation and are released from dense-core vesicles",
+    "Neuropeptides are not released from neurons",
+    "They are released from all vesicles equally"
+  ],
+  "correctIndex": 1,
+  "explanation": "Unlike small-molecule neurotransmitters in synaptic vesicles, neuropeptides are released from large dense-core vesicles that require sustained high-frequency neuronal firing.",
+  "difficulty": "beginner",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

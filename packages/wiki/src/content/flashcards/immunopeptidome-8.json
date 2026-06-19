@@ -1,0 +1,9 @@
+{
+  "front": "What is HLA typing?",
+  "back": "HLA (Human Leukocyte Antigen) typing determines an individual's MHC genotype. HLA molecules are highly polymorphic, affecting peptide binding and influencing immune responses and transplant compatibility.",
+  "tags": [
+    "immunology",
+    "MHC"
+  ],
+  "difficulty": "intermediate"
+}

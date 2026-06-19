@@ -1,0 +1,16 @@
+{
+  "question": "How do cyclotides exert insecticidal activity?",
+  "options": [
+    "Inhibit DNA replication only",
+    "Membrane disruption through insertion and pore formation in insect gut membranes",
+    "Inhibit protein synthesis only",
+    "Block ion channels only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cyclotides insert into insect gut membranes through hydrophobic loops, causing membrane disruption and cell lysis.",
+  "difficulty": "intermediate",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

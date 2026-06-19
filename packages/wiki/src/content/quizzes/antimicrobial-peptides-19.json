@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of LPS in AMP resistance?",
+  "options": [
+    "LPS prevents all AMP interactions",
+    "O-antigen and LPS modifications can reduce AMP access to the outer membrane",
+    "LPS enhances AMP binding",
+    "LPS has no role in AMP resistance"
+  ],
+  "correctIndex": 1,
+  "explanation": "Long O-antigen chains create a steric barrier preventing AMPs from reaching the outer membrane. Lipid A modifications reduce negative charge and cationic AMP attraction.",
+  "difficulty": "intermediate",
+  "tags": [
+    "antimicrobial",
+    "defense"
+  ]
+}

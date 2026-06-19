@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of ER processing in conotoxin maturation?",
+  "options": [
+    "No folding requirement",
+    "Conotoxins require ER enzymes for disulfide bond formation and gamma-carboxylation",
+    "Folding occurs in cytoplasm only",
+    "Conotoxins never fold"
+  ],
+  "correctIndex": 1,
+  "explanation": "Conotoxins undergo extensive post-translational processing including disulfide bond formation and gamma-carboxylation in the ER.",
+  "difficulty": "intermediate",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

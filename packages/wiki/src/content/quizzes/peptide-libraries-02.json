@@ -1,0 +1,16 @@
+{
+  "question": "What is combinatorial peptide chemistry?",
+  "options": [
+    "Sequential single-peptide synthesis",
+    "Simultaneous synthesis of many peptide variants in a single batch",
+    "Computational peptide design",
+    "Peptide purification technique"
+  ],
+  "correctIndex": 1,
+  "explanation": "Combinatorial chemistry uses split-and-mix or parallel synthesis strategies to generate large numbers of peptide variants simultaneously, maximizing diversity with minimal effort.",
+  "difficulty": "beginner",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

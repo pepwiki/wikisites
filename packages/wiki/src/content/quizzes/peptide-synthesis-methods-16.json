@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of using pseudo-prolines in SPPS?",
+  "options": [
+    "They reduce synthesis cost",
+    "They prevent aggregation and improve coupling",
+    "They increase peptide solubility",
+    "They simplify purification"
+  ],
+  "correctIndex": 1,
+  "explanation": "Pseudo-proline dipeptides introduce kinks in the peptide backbone, disrupting secondary structure formation that leads to aggregation during synthesis.",
+  "difficulty": "advanced",
+  "tags": ["synthesis", "methods"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is native chemical ligation (NCL)?",
+  "options": [
+    "Standard SPPS coupling",
+    "Chemoselective ligation of unprotected peptide fragments via thioester and N-terminal cysteine",
+    "A purification method",
+    "A type of peptide cyclization"
+  ],
+  "correctIndex": 1,
+  "explanation": "NCL joins unprotected peptide segments through a chemoselective reaction between a C-terminal thioester and N-terminal cysteine, forming a native peptide bond after S-to-N acyl shift.",
+  "difficulty": "advanced",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the concept of coupling efficiency in SPPS?",
+  "options": [
+    "Speed of each coupling step",
+    "Percentage of available amino groups successfully coupled in each cycle",
+    "Purity of the final peptide",
+    "Cost per coupling step"
+  ],
+  "correctIndex": 1,
+  "explanation": "Coupling efficiency (typically 99-99.9%) determines overall yield. For a 30-mer, 99% efficiency per step yields ~74% overall, while 99.9% yields ~97%.",
+  "difficulty": "intermediate",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "Which dipeptidyl peptidase is targeted by gliptin diabetes drugs?",
+  "options": [
+    "DPP-1",
+    "DPP-4",
+    "DPP-8",
+    "DPP-9"
+  ],
+  "correctIndex": 1,
+  "explanation": "DPP-4 degrades incretin hormones GLP-1 and GIP. Gliptins like sitagliptin inhibit DPP-4, prolonging incretin action and enhancing glucose-dependent insulin secretion.",
+  "difficulty": "intermediate",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

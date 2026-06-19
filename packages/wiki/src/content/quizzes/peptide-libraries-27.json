@@ -1,0 +1,16 @@
+{
+  "question": "What is a focused peptide library?",
+  "options": [
+    "Completely random sequences",
+    "Library based on known active sequences with systematic modifications around a lead",
+    "A library with only natural amino acids",
+    "A library with no design constraints"
+  ],
+  "correctIndex": 1,
+  "explanation": "Focused libraries are rationally designed around known active peptides, introducing systematic substitutions to optimize binding, selectivity, or pharmacological properties.",
+  "difficulty": "advanced",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is shelf life determination?",
+  "options": [
+    "Time on the shelf only",
+    "The time period during which the drug product meets all quality specifications",
+    "Manufacturing time only",
+    "Clinical trial duration only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Shelf life is determined from stability studies, defined as the time the product meets all quality specifications.",
+  "difficulty": "advanced",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

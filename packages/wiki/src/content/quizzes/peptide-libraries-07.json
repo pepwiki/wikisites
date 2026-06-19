@@ -1,0 +1,16 @@
+{
+  "question": "What is a cyclic peptide library?",
+  "options": [
+    "Linear peptides only",
+    "Peptides with intramolecular bonds (disulfide, lactam) that constrain conformation",
+    "Peptides that degrade and reform",
+    "Peptides that only exist in solution"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cyclic peptide libraries constrain the peptide backbone through cyclization, reducing conformational entropy and often improving binding affinity and selectivity.",
+  "difficulty": "beginner",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

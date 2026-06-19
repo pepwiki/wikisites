@@ -1,0 +1,16 @@
+{
+  "question": "What is a local tolerance study?",
+  "options": [
+    "Systemic toxicity assessment",
+    "Evaluation of tissue reactions at the administration site",
+    "Patient compliance assessment",
+    "Taste testing only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Local tolerance studies assess tissue damage and inflammation at the injection site, important for injectable formulations.",
+  "difficulty": "beginner",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

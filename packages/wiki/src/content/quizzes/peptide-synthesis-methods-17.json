@@ -1,0 +1,8 @@
+{
+  "question": "What is the typical yield for a 20-amino acid peptide synthesized by SPPS?",
+  "options": ["1-5%", "20-40%", "50-70%", "90-95%"],
+  "correctIndex": 1,
+  "explanation": "SPPS yields decrease with chain length due to cumulative incomplete couplings. For a 20-mer, typical crude yields are 20-40%, with purity requiring further purification.",
+  "difficulty": "intermediate",
+  "tags": ["synthesis", "methods"]
+}

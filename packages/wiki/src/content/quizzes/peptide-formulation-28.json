@@ -1,0 +1,16 @@
+{
+  "question": "What is process analytical technology (PAT)?",
+  "options": [
+    "Only for final product testing",
+    "Real-time monitoring and control of manufacturing using analytical tools",
+    "A type of stability study",
+    "A clinical trial monitoring tool"
+  ],
+  "correctIndex": 1,
+  "explanation": "PAT uses in-line analytical tools to monitor critical quality attributes during manufacturing for real-time quality assurance.",
+  "difficulty": "advanced",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

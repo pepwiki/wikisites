@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of high-performance capillary electrophoresis (HPCE)?",
+  "options": [
+    "It requires large sample volumes",
+    "It provides high resolution with minimal sample amounts",
+    "It is slower than HPLC",
+    "It cannot separate peptides"
+  ],
+  "correctIndex": 1,
+  "explanation": "HPCE provides very high resolution separations with nanoliter sample volumes, complementing HPLC for peptide analysis with different selectivity.",
+  "difficulty": "intermediate",
+  "tags": ["analytical", "techniques"]
+}

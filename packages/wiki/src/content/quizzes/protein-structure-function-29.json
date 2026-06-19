@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the B-factor in X-ray crystallography?",
+  "options": [
+    "It measures protein concentration",
+    "It indicates atomic displacement and flexibility",
+    "It determines protein molecular weight",
+    "It measures diffraction quality"
+  ],
+  "correctIndex": 1,
+  "explanation": "B-factors (temperature factors) indicate atomic displacement from their mean positions, reflecting protein flexibility and the quality of electron density.",
+  "difficulty": "advanced",
+  "tags": ["structure", "function"]
+}

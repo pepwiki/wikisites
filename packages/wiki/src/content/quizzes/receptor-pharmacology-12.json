@@ -1,0 +1,13 @@
+{
+  "question": "What is the Scatchard plot used for in receptor binding studies?",
+  "options": [
+    "Measuring enzyme kinetics",
+    "Determining receptor density and affinity",
+    "Calculating dose-response curves",
+    "Assessing drug selectivity"
+  ],
+  "correctIndex": 1,
+  "explanation": "Scatchard plots analyze receptor-ligand binding data to determine receptor density (Bmax) and dissociation constant (Kd), providing information about binding characteristics.",
+  "difficulty": "advanced",
+  "tags": ["receptors", "pharmacology"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is POMC processing?",
+  "options": [
+    "Produces only ACTH",
+    "Produces ACTH, MSH, beta-endorphin, and lipotropin from a single precursor",
+    "Produces only insulin",
+    "Produces only growth hormone"
+  ],
+  "correctIndex": 1,
+  "explanation": "POMC is processed by prohormone convertases in a tissue-specific manner: anterior pituitary produces ACTH, while hypothalamus produces alpha-MSH and both produce beta-endorphin.",
+  "difficulty": "intermediate",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

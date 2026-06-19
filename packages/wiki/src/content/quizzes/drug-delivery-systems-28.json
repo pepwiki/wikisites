@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of pulsed drug delivery?",
+  "options": [
+    "Continuous drug release",
+    "Pulsatile release matching biological rhythms",
+    "Always cheaper than continuous release",
+    "Only works for oral delivery"
+  ],
+  "correctIndex": 1,
+  "explanation": "Pulsed delivery systems release drugs at predetermined intervals, matching circadian rhythms or providing drug-free intervals to reduce tolerance.",
+  "difficulty": "advanced",
+  "tags": ["delivery", "formulation"]
+}

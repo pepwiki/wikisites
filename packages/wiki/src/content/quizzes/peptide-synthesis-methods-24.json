@@ -1,0 +1,13 @@
+{
+  "question": "What is the challenge with synthesizing peptides containing aspartimide-prone sequences?",
+  "options": [
+    "Low coupling efficiency",
+    "Side reactions leading to aspartimide formation",
+    "Poor solubility",
+    "Difficult purification"
+  ],
+  "correctIndex": 1,
+  "explanation": "Aspartimide formation occurs when Asp-Gly or Asp-Ser sequences undergo cyclization, leading to racemization and branching. Special conditions are needed to minimize this.",
+  "difficulty": "advanced",
+  "tags": ["synthesis", "methods"]
+}

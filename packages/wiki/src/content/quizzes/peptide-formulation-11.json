@@ -1,0 +1,16 @@
+{
+  "question": "What is peptide aggregation in formulation?",
+  "options": [
+    "Intentional clustering",
+    "Unwanted association of peptide molecules into larger assemblies reducing efficacy and causing immunogenicity",
+    "A purification technique",
+    "A type of chemical modification"
+  ],
+  "correctIndex": 1,
+  "explanation": "Peptide aggregation reduces active monomer concentration, may cause immunogenicity, and is promoted by agitation and interfaces.",
+  "difficulty": "intermediate",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is HILIC chromatography?",
+  "back": "Hydrophilic interaction liquid chromatography (HILIC) separates polar peptides based on their hydrophilicity. It uses a polar stationary phase with a high organic mobile phase, complementary to RP-HPLC.",
+  "tags": [
+    "purification",
+    "chromatography"
+  ],
+  "difficulty": "intermediate"
+}

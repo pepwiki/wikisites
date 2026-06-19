@@ -1,0 +1,16 @@
+{
+  "question": "What is combinatorial biosynthesis?",
+  "options": [
+    "Single gene expression only",
+    "Mixing and matching biosynthetic genes from different organisms to create hybrid pathways",
+    "Only natural pathways",
+    "Only one organism's genes"
+  ],
+  "correctIndex": 1,
+  "explanation": "Combinatorial biosynthesis combines NRPS/PKS genes from different organisms to generate hybrid natural products with novel activities.",
+  "difficulty": "advanced",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

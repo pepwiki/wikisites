@@ -1,0 +1,16 @@
+{
+  "question": "What is false discovery rate (FDR) in proteomics?",
+  "options": [
+    "The rate of instrument failure",
+    "The estimated fraction of incorrect peptide identifications in a dataset",
+    "The cost per identification",
+    "The throughput rate"
+  ],
+  "correctIndex": 1,
+  "explanation": "FDR is estimated using target-decoy database searching. A 1% FDR means approximately 1 in 100 identifications may be incorrect.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

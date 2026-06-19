@@ -1,0 +1,16 @@
+{
+  "question": "What is DIC (N,N'-diisopropylcarbodiimide) used for?",
+  "options": [
+    "Fmoc removal",
+    "Carbodiimide coupling reagent that activates carboxyl groups as O-acylisourea intermediates",
+    "Side chain deprotection",
+    "Resin cleavage"
+  ],
+  "correctIndex": 1,
+  "explanation": "DIC activates amino acid carboxyl groups as O-acylisourea intermediates that react with HOBt to form active esters, facilitating efficient amide bond formation.",
+  "difficulty": "intermediate",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

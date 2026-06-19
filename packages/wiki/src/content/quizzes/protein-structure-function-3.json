@@ -1,0 +1,13 @@
+{
+  "question": "What is the difference between alpha helices and beta sheets?",
+  "options": [
+    "Alpha helices are coiled, beta sheets are extended",
+    "Alpha helices are flat, beta sheets are coiled",
+    "There is no difference",
+    "Alpha helices are only in extracellular proteins"
+  ],
+  "correctIndex": 0,
+  "explanation": "Alpha helices have a coiled structure with 3.6 residues per turn, while beta sheets consist of extended polypeptide chains connected by hydrogen bonds.",
+  "difficulty": "beginner",
+  "tags": ["structure", "function"]
+}

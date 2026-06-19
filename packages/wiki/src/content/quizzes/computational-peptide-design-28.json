@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the rotamer library in peptide design?",
+  "options": [
+    "It sequences proteins",
+    "It provides common side-chain conformations for structure prediction",
+    "It synthesizes molecules",
+    "It purifies compounds"
+  ],
+  "correctIndex": 1,
+  "explanation": "Rotamer libraries contain statistically preferred side-chain conformations (chi angles) used in structure prediction and design to sample realistic conformations.",
+  "difficulty": "intermediate",
+  "tags": ["computational", "design"]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of checkpoint inhibitors in cancer immunotherapy?",
+  "options": [
+    "They enhance immune suppression",
+    "They block inhibitory signals to restore T cell activity",
+    "They activate B cells",
+    "They promote tumor growth"
+  ],
+  "correctIndex": 1,
+  "explanation": "Checkpoint inhibitors (anti-PD-1, anti-CTLA-4) block inhibitory receptor-ligand interactions, reactivating exhausted T cells to attack cancer cells.",
+  "difficulty": "intermediate",
+  "tags": ["immunology", "peptides"]
+}

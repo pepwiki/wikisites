@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of selection pressure in phage display?",
+  "options": [
+    "No role in selection",
+    "Conditions that determine which phage clones survive, including target concentration, wash stringency, and amplification",
+    "Temperature control",
+    "Phage storage conditions"
+  ],
+  "correctIndex": 1,
+  "explanation": "Selection pressure parameters determine which clones dominate after biopanning. Lower target concentrations and harsher washes select for higher affinity binders.",
+  "difficulty": "advanced",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

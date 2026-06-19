@@ -1,0 +1,9 @@
+{
+  "front": "What is electrochemical impedance spectroscopy (EIS)?",
+  "back": "EIS measures changes in impedance at a peptide-modified electrode surface. Binding events alter the charge transfer resistance, which is detected as a change in the impedance spectrum.",
+  "tags": [
+    "sensors",
+    "biosensors"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the concept of a minimal genome for peptide production?",
+  "options": [
+    "The largest possible genome",
+    "Engineering a stripped-down organism with only essential genes plus the peptide biosynthetic pathway for efficient production",
+    "Using natural organisms without modification",
+    "Removing all genes from an organism"
+  ],
+  "correctIndex": 1,
+  "explanation": "Minimal genome approaches create streamlined chassis organisms (e.g., Mycoplasma JCVI-syn3.0 based systems) with only essential genes, freeing cellular resources for heterologous peptide production.",
+  "difficulty": "advanced",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

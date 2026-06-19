@@ -1,0 +1,16 @@
+{
+  "question": "Why are peptides preferred over antibodies in some diagnostic assays?",
+  "options": [
+    "Peptides are always cheaper",
+    "Peptides can be synthesized with high reproducibility",
+    "Peptides are always more sensitive",
+    "Peptides never degrade"
+  ],
+  "correctIndex": 1,
+  "explanation": "Synthetic peptides offer batch-to-batch reproducibility, defined composition, and lower immunogenicity concerns compared to antibodies.",
+  "difficulty": "beginner",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

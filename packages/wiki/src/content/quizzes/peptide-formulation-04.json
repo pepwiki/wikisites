@@ -1,0 +1,16 @@
+{
+  "question": "What is a peptide formulation excipient?",
+  "options": [
+    "The active peptide drug",
+    "An inactive ingredient added to improve stability, solubility, or delivery",
+    "A contaminant in the formulation",
+    "A packaging material only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Excipients serve as buffers, stabilizers, tonicity agents, and preservatives for the active peptide drug.",
+  "difficulty": "beginner",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

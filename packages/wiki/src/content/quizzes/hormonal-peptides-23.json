@@ -1,0 +1,16 @@
+{
+  "question": "What is desmopressin (DDAVP) used for?",
+  "options": [
+    "Treats hypertension",
+    "Synthetic ADH analog for diabetes insipidus and enuresis",
+    "Treats type 2 diabetes",
+    "Growth hormone replacement therapy"
+  ],
+  "correctIndex": 1,
+  "explanation": "Desmopressin is a synthetic ADH analog with selectivity for V2 receptors, treating central diabetes insipidus by enhancing renal water reabsorption.",
+  "difficulty": "advanced",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is a Change Control procedure?",
+  "options": [
+    "Changing management style",
+    "Systematic evaluation of proposed changes to GMP processes before implementation",
+    "Budget change approval",
+    "Personnel change management"
+  ],
+  "correctIndex": 1,
+  "explanation": "Change Control ensures modifications to validated processes are properly evaluated, documented, and approved before implementation.",
+  "difficulty": "intermediate",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is peptide racemization and why is it a concern in SPPS?",
+  "options": [
+    "Peptide degradation",
+    "Loss of chiral integrity at alpha-carbon during coupling reactions",
+    "Peptide misfolding",
+    "Incorrect sequence incorporation"
+  ],
+  "correctIndex": 1,
+  "explanation": "Racemization converts L-amino acids to D-enantiomers during activation, creating diastereomeric impurities. It is minimized by using HOBt and avoiding prolonged activation.",
+  "difficulty": "advanced",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

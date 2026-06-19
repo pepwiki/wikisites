@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of machine learning in peptide design?",
+  "options": [
+    "It eliminates experimental validation",
+    "It can predict peptide properties from large datasets",
+    "It always finds the best solution",
+    "It is cheaper than experiments only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Machine learning algorithms can identify patterns in large datasets to predict peptide properties, stability, binding affinity, and other characteristics.",
+  "difficulty": "intermediate",
+  "tags": ["computational", "design"]
+}

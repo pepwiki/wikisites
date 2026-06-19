@@ -1,0 +1,9 @@
+{
+  "front": "What is the difference between Asp and Asn?",
+  "back": "Asp (aspartic acid, D) has a carboxyl side chain; Asn (asparagine, N) has an amide side chain. Asp is negatively charged at physiological pH; Asn is neutral.",
+  "tags": [
+    "nomenclature",
+    "terminology"
+  ],
+  "difficulty": "beginner"
+}

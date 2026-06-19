@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of LC-MS/MS over HPLC-UV for peptide analysis?",
+  "options": [
+    "LC-MS/MS is always faster",
+    "LC-MS/MS provides structural information and higher specificity",
+    "LC-MS/MS is cheaper",
+    "LC-MS/MS requires less sample"
+  ],
+  "correctIndex": 1,
+  "explanation": "LC-MS/MS combines liquid chromatography separation with tandem mass spectrometry, providing molecular weight, sequence, and modification information with high specificity.",
+  "difficulty": "intermediate",
+  "tags": ["analytical", "techniques"]
+}

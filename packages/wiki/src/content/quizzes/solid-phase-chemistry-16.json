@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of DCM (dichloromethane) in SPPS?",
+  "options": [
+    "Coupling reagent",
+    "Swelling solvent that provides optimal resin accessibility for reagents",
+    "Cleavage agent",
+    "Protecting group remover"
+  ],
+  "correctIndex": 1,
+  "explanation": "DCM is the primary swelling solvent in SPPS that expands the resin beads, making the linker and growing peptide chain accessible to incoming reagents and coupling reagents.",
+  "difficulty": "intermediate",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

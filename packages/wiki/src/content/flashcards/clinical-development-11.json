@@ -1,0 +1,9 @@
+{
+  "front": "What is the half-life of a therapeutic peptide?",
+  "back": "Peptide half-lives vary widely: insulin (minutes), GLP-1 agonists (hours to days), PEGylated peptides (days to weeks). Half-life determines dosing frequency and patient compliance.",
+  "tags": [
+    "clinical",
+    "development"
+  ],
+  "difficulty": "intermediate"
+}

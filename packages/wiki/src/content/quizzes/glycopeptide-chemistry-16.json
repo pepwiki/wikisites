@@ -1,0 +1,16 @@
+{
+  "question": "What is the ER quality control cycle for glycoprotein folding?",
+  "options": [
+    "Calnexin/calreticulin cycle",
+    "Golgi processing cycle",
+    "Lysosomal degradation cycle",
+    "Ribosomal translocation cycle"
+  ],
+  "correctIndex": 0,
+  "explanation": "The calnexin/calreticulin cycle monitors glycoprotein folding by binding monoglucosylated N-glycans, with ER mannosidase I and UGGT regulating cycling between folded and unfolded states.",
+  "difficulty": "intermediate",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

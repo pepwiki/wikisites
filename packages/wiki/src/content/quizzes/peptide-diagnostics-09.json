@@ -1,0 +1,16 @@
+{
+  "question": "What does 'dynamic range' mean in peptide diagnostics?",
+  "options": [
+    "The speed of the assay",
+    "The range of concentrations over which the assay produces reliable results",
+    "The physical size of the equipment",
+    "The number of tests that can be performed"
+  ],
+  "correctIndex": 1,
+  "explanation": "Dynamic range is the concentration interval between the lower and upper limits of quantitation where the assay response is proportional to analyte concentration.",
+  "difficulty": "beginner",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

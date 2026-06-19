@@ -1,0 +1,9 @@
+{
+  "front": "What is receptor selectivity?",
+  "back": "Receptor selectivity is the ability of a ligand to bind preferentially to one receptor subtype over others. It is measured by the ratio of Ki values for different receptor subtypes.",
+  "tags": [
+    "receptors",
+    "binding"
+  ],
+  "difficulty": "beginner"
+}

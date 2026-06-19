@@ -1,0 +1,8 @@
+{
+  "question": "What is the typical solvent used for Fmoc-SPPS?",
+  "options": ["Water", "Ethanol", "DMF (dimethylformamide)", "Dichloromethane"],
+  "correctIndex": 2,
+  "explanation": "DMF is the standard solvent for Fmoc-SPPS due to its ability to swell resins, dissolve amino acids, and facilitate coupling reactions at room temperature.",
+  "difficulty": "beginner",
+  "tags": ["synthesis", "methods"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "How does CRH function in the stress response?",
+  "options": [
+    "Promotes relaxation",
+    "Initiates the HPA axis cascade leading to ACTH and cortisol release",
+    "Inhibits immune function only",
+    "Stimulates growth hormone release"
+  ],
+  "correctIndex": 1,
+  "explanation": "CRH is released from the hypothalamus in response to stress, stimulating anterior pituitary corticotrophs to secrete ACTH, which stimulates adrenal cortisol production.",
+  "difficulty": "intermediate",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

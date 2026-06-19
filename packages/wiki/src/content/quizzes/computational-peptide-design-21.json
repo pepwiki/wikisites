@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of conformational sampling in peptide design?",
+  "options": [
+    "It sequences peptides",
+    "It explores the conformational space to find low-energy states",
+    "It synthesizes molecules",
+    "It purifies compounds"
+  ],
+  "correctIndex": 1,
+  "explanation": "Conformational sampling methods (Monte Carlo, molecular dynamics) explore the range of possible peptide conformations to identify biologically relevant structures.",
+  "difficulty": "advanced",
+  "tags": ["computational", "design"]
+}

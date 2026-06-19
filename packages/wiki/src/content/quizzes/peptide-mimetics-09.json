@@ -1,0 +1,16 @@
+{
+  "question": "What is a turn mimetic?",
+  "options": [
+    "A molecule that promotes beta-sheets",
+    "A small molecule that reproduces the geometry of a peptide beta-turn",
+    "A helix-breaker residue",
+    "A type of amino acid"
+  ],
+  "correctIndex": 1,
+  "explanation": "Turn mimetics are non-peptide scaffolds that reproduce the i->i+3 spatial arrangement of beta-turns, which are critical recognition elements in many bioactive peptides.",
+  "difficulty": "beginner",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

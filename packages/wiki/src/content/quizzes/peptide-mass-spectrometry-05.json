@@ -1,0 +1,16 @@
+{
+  "question": "Which enzyme is most commonly used for proteolytic digestion in proteomics?",
+  "options": [
+    "Chymotrypsin",
+    "Trypsin",
+    "Pepsin",
+    "Collagenase"
+  ],
+  "correctIndex": 1,
+  "explanation": "Trypsin cleaves at Lys and Arg residues, producing peptides of 6-20 residues ideal for mass spectrometry analysis.",
+  "difficulty": "beginner",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

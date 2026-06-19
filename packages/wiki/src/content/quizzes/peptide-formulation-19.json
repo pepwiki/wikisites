@@ -1,0 +1,16 @@
+{
+  "question": "What is a cold chain?",
+  "options": [
+    "A manufacturing process",
+    "Temperature-controlled supply chain maintaining peptides at 2-8C from manufacturing to patient",
+    "A type of packaging",
+    "A refrigeration unit only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cold chain logistics maintain temperature-sensitive peptides throughout manufacturing, storage, and transportation.",
+  "difficulty": "intermediate",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

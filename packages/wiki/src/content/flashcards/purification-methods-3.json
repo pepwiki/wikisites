@@ -1,0 +1,9 @@
+{
+  "front": "What is ion exchange chromatography (IEX)?",
+  "back": "IEX separates peptides based on net charge. Cation exchange uses negatively charged resins to bind positively charged peptides, while anion exchange uses positively charged resins for negatively charged peptides.",
+  "tags": [
+    "purification",
+    "chromatography"
+  ],
+  "difficulty": "beginner"
+}

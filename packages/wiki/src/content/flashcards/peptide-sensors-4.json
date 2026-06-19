@@ -1,0 +1,9 @@
+{
+  "front": "What is a molecular beacon?",
+  "back": "Molecular beacons are hairpin-shaped oligonucleotides or peptides with a fluorophore and quencher. When the target binds, the hairpin opens, separating the fluorophore and quencher, generating fluorescence.",
+  "tags": [
+    "sensors",
+    "biosensors"
+  ],
+  "difficulty": "intermediate"
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of permeation enhancers in transdermal delivery?",
+  "options": [
+    "They reduce drug stability",
+    "They temporarily disrupt skin barrier to increase drug flux",
+    "They decrease drug solubility",
+    "They increase skin thickness"
+  ],
+  "correctIndex": 1,
+  "explanation": "Permeation enhancers reversibly disrupt the stratum corneum lipid structure, increasing skin permeability to allow drug penetration while maintaining barrier function.",
+  "difficulty": "intermediate",
+  "tags": ["delivery", "formulation"]
+}

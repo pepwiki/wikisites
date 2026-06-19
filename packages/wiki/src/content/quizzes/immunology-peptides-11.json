@@ -1,0 +1,13 @@
+{
+  "question": "What is the difference between linear and conformational epitopes?",
+  "options": [
+    "Linear epitopes are on proteins, conformational on lipids",
+    "Linear epitopes are continuous sequences, conformational are discontinuous in 3D",
+    "They are the same thing",
+    "Conformational epitopes are always longer"
+  ],
+  "correctIndex": 1,
+  "explanation": "Linear epitopes consist of contiguous amino acid sequences, while conformational epitopes are formed by residues brought together in 3D space from different parts of the sequence.",
+  "difficulty": "intermediate",
+  "tags": ["immunology", "peptides"]
+}

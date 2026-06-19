@@ -1,0 +1,16 @@
+{
+  "question": "What is the advantage of peptide arrays over solution-phase libraries?",
+  "options": [
+    "Always higher diversity",
+    "Spatially resolved screening allows identification of active sequences by position",
+    "Faster synthesis only",
+    "Lower cost only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Peptide arrays enable spatial addressing of each variant, allowing direct identification of active sequences by their position on the array without deconvolution.",
+  "difficulty": "intermediate",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

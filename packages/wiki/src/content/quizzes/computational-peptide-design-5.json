@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of force fields in molecular simulations?",
+  "options": [
+    "They analyze experimental data",
+    "They define potential energy functions for atomic interactions",
+    "They sequence peptides",
+    "They purify compounds"
+  ],
+  "correctIndex": 1,
+  "explanation": "Force fields (AMBER, CHARMM, OPLS) define mathematical functions that describe the potential energy of molecular systems based on bond lengths, angles, and interactions.",
+  "difficulty": "intermediate",
+  "tags": ["computational", "design"]
+}

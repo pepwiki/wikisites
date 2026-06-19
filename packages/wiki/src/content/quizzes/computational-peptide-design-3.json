@@ -1,0 +1,13 @@
+{
+  "question": "What is QSAR in drug design?",
+  "options": [
+    "Quantum Structure-Activity Relationship",
+    "Quantitative Structure-Activity Relationship",
+    "Quality Structure-Activity Relationship",
+    "Quantitative Synthesis-Activity Relationship"
+  ],
+  "correctIndex": 1,
+  "explanation": "QSAR (Quantitative Structure-Activity Relationship)建立 mathematical models relating chemical structure to biological activity for predicting properties of new compounds.",
+  "difficulty": "intermediate",
+  "tags": ["computational", "design"]
+}

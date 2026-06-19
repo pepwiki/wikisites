@@ -1,0 +1,16 @@
+{
+  "question": "GLP-1 is secreted by which cells?",
+  "options": [
+    "Pancreatic beta cells",
+    "Intestinal L-cells",
+    "Liver hepatocytes",
+    "Adrenal cortical cells"
+  ],
+  "correctIndex": 1,
+  "explanation": "GLP-1 is an incretin hormone secreted by intestinal L-cells in response to nutrient ingestion, stimulating insulin secretion and suppressing glucagon.",
+  "difficulty": "beginner",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the signal-to-noise ratio in analytical chemistry?",
+  "options": [
+    "It measures instrument cost",
+    "It determines the reliability and sensitivity of detection",
+    "It indicates sample purity only",
+    "It measures chromatographic resolution"
+  ],
+  "correctIndex": 1,
+  "explanation": "Signal-to-noise ratio indicates how well the analytical signal can be distinguished from background noise, determining detection and quantification limits.",
+  "difficulty": "intermediate",
+  "tags": ["analytical", "techniques"]
+}

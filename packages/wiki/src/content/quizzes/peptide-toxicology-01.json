@@ -1,0 +1,16 @@
+{
+  "question": "What is immunogenicity in peptide therapeutics?",
+  "options": [
+    "Enhanced immune response",
+    "The ability of a therapeutic peptide to elicit an immune response potentially neutralizing efficacy",
+    "Resistance to all infections",
+    "Allergic reaction to food"
+  ],
+  "correctIndex": 1,
+  "explanation": "Immunogenicity refers to the tendency of a therapeutic peptide to provoke antibody formation, which can reduce efficacy or cause adverse effects.",
+  "difficulty": "beginner",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

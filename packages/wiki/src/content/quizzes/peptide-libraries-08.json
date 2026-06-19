@@ -1,0 +1,16 @@
+{
+  "question": "What is a one-bead-one-compound (OBOC) library?",
+  "options": [
+    "Multiple peptides per bead",
+    "Each bead displays a single unique peptide compound",
+    "All beads have the same peptide",
+    "Peptides in solution phase"
+  ],
+  "correctIndex": 1,
+  "explanation": "OBOC libraries use split-and-mix synthesis so each resin bead displays a single peptide variant. After screening, positive beads are sequenced by Edman degradation or MS.",
+  "difficulty": "beginner",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

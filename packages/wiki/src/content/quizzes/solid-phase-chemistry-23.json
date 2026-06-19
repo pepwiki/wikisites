@@ -1,0 +1,16 @@
+{
+  "question": "What is the safety-catch resin principle?",
+  "options": [
+    "Standard acid-labile resin",
+    "A resin that requires chemical activation before cleavage, stable to both acid and base",
+    "A photolabile resin",
+    "A resin that cleaves spontaneously"
+  ],
+  "correctIndex": 1,
+  "explanation": "Safety-catch resins (e.g., trisaccharide handle) are stable to standard SPPS conditions and require specific chemical activation (e.g., diazomethane) before TFA cleavage.",
+  "difficulty": "advanced",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of MALDI-TOF for peptide mass fingerprinting?",
+  "options": [
+    "It provides sequence information directly",
+    "It is fast and sensitive for intact mass measurement",
+    "It requires chromatographic separation",
+    "It is cheaper than other methods"
+  ],
+  "correctIndex": 1,
+  "explanation": "MALDI-TOF is ideal for peptide mass fingerprinting due to its speed, sensitivity, and ability to measure intact peptide masses accurately.",
+  "difficulty": "intermediate",
+  "tags": ["analytical", "techniques"]
+}

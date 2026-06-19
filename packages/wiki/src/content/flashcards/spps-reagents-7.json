@@ -1,0 +1,9 @@
+{
+  "front": "What is piperidine used for in SPPS?",
+  "back": "Piperidine (typically 20% in DMF) is used to remove the Fmoc protecting group from the alpha-amino group. The mechanism involves a beta-elimination reaction that releases the dibenzofulvene derivative.",
+  "tags": [
+    "synthesis",
+    "reagents"
+  ],
+  "difficulty": "intermediate"
+}

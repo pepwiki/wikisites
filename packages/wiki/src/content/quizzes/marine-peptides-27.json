@@ -1,0 +1,16 @@
+{
+  "question": "What is the iodine-rich peptide family from marine organisms?",
+  "options": [
+    "No such peptides exist",
+    "Peptides containing iodinated tyrosine residues with antimicrobial activity",
+    "Peptides that only bind calcium",
+    "Peptides that only transport oxygen"
+  ],
+  "correctIndex": 1,
+  "explanation": "Iodinated peptides from marine sponges show potent antimicrobial activity through enhanced hydrophobic interactions and oxidative damage to microbial membranes.",
+  "difficulty": "advanced",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

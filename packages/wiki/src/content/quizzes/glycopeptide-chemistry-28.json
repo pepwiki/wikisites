@@ -1,0 +1,16 @@
+{
+  "question": "What structural feature distinguishes O-mannosylation from O-GalNAc glycosylation?",
+  "options": [
+    "Both are identical",
+    "O-mannose links directly to Ser/Thr, O-GalNAc uses GalNAc",
+    "O-mannose is only in plants",
+    "O-GalNAc is intracellular only"
+  ],
+  "correctIndex": 1,
+  "explanation": "O-mannosylation adds mannose directly to serine/threonine, while mucin-type O-glycosylation adds GalNAc. O-mannosylation is particularly important in brain glycoproteins.",
+  "difficulty": "advanced",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

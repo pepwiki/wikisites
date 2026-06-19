@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of solvation models in molecular simulations?",
+  "options": [
+    "They only measure water concentration",
+    "They account for the effects of solvent on molecular properties",
+    "They sequence proteins",
+    "They purify compounds"
+  ],
+  "correctIndex": 1,
+  "explanation": "Solvation models (explicit water, implicit solvent) account for solvent effects on molecular structure, dynamics, and binding, crucial for accurate simulations.",
+  "difficulty": "advanced",
+  "tags": ["computational", "design"]
+}

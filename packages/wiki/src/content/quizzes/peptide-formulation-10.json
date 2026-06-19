@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of a buffering agent?",
+  "options": [
+    "Provides color only",
+    "Maintains pH within a narrow range to prevent peptide degradation",
+    "Increases peptide concentration",
+    "Prevents aggregation only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Buffers maintain formulation pH. Peptides are most stable at specific pH values, and pH excursions accelerate degradation.",
+  "difficulty": "beginner",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

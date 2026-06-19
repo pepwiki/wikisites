@@ -1,0 +1,13 @@
+{
+  "question": "What are the phases of clinical trials?",
+  "options": [
+    "Phase 0, 1, 2, 3, 4",
+    "Phase 1, 2, 3 only",
+    "Phase A, B, C",
+    "Screening, Treatment, Follow-up"
+  ],
+  "correctIndex": 0,
+  "explanation": "Clinical trials progress through Phase 0 (microdosing), Phase 1 (safety), Phase 2 (efficacy), Phase 3 (confirmation), and Phase 4 (post-marketing surveillance).",
+  "difficulty": "beginner",
+  "tags": ["clinical", "trials"]
+}

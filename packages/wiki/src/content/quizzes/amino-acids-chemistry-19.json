@@ -1,0 +1,8 @@
+{
+  "question": "What is the pKa of the sulfhydryl group in cysteine?",
+  "options": ["4.5", "7.0", "8.3", "10.5"],
+  "correctIndex": 2,
+  "explanation": "The cysteine thiol group has a pKa of approximately 8.3, meaning it is partially deprotonated at physiological pH. This allows cysteine to participate in acid-base catalysis.",
+  "difficulty": "intermediate",
+  "tags": ["amino-acids", "chemistry"]
+}

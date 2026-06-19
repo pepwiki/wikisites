@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of CD4 and CD8 co-receptors?",
+  "options": [
+    "They are antigen receptors",
+    "CD4 binds MHC II, CD8 binds MHC I, stabilizing TCR interactions",
+    "They are cytokine receptors",
+    "They are immunoglobulins"
+  ],
+  "correctIndex": 1,
+  "explanation": "CD4 and CD8 co-receptors stabilize TCR-MHC interactions and recruit signaling molecules, with CD4 binding MHC II and CD8 binding MHC I.",
+  "difficulty": "intermediate",
+  "tags": ["immunology", "peptides"]
+}

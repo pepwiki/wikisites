@@ -1,0 +1,16 @@
+{
+  "question": "How do plant defensin precursors get processed?",
+  "options": [
+    "No processing needed",
+    "Signal peptide cleavage and sometimes propeptide removal to generate mature defensin",
+    "Only phosphorylation",
+    "Only glycosylation removal"
+  ],
+  "correctIndex": 1,
+  "explanation": "Plant defensins are synthesized with a signal peptide and sometimes a propeptide that is cleaved to yield the active defensin.",
+  "difficulty": "intermediate",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

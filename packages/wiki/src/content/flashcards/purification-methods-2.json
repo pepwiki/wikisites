@@ -1,0 +1,9 @@
+{
+  "front": "What is the role of TFA in RP-HPLC?",
+  "back": "TFA (trifluoroacetic acid) serves as an ion-pairing agent that protonates basic residues and forms volatile ion pairs. This improves peak shape and resolution during peptide separation.",
+  "tags": [
+    "purification",
+    "chromatography"
+  ],
+  "difficulty": "intermediate"
+}

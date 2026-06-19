@@ -1,0 +1,16 @@
+{
+  "question": "Where are plant defensins primarily located?",
+  "options": [
+    "Xylem only",
+    "Seeds, roots, and leaves, particularly in cereal crop endosperm",
+    "Only in flowers",
+    "Only in fruits"
+  ],
+  "correctIndex": 1,
+  "explanation": "Plant defensins are concentrated in seeds where they protect the embryo, and also found in roots and leaves.",
+  "difficulty": "beginner",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

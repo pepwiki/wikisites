@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of chelating agents beyond EDTA?",
+  "options": [
+    "pH adjustment only",
+    "Preventing metal-catalyzed oxidation and aggregation through trace metal sequestration",
+    "Increasing solubility only",
+    "Providing color only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Chelators prevent iron and copper-catalyzed oxidative damage that can cause peptide aggregation, fragmentation, and loss of biological activity.",
+  "difficulty": "advanced",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

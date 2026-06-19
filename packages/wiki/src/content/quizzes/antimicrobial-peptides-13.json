@@ -1,0 +1,16 @@
+{
+  "question": "Which bacterial defense mechanism involves modification of membrane lipids?",
+  "options": [
+    "Efflux pumps",
+    "LPS modification reducing AMP binding",
+    "Beta-lactamase production",
+    "Ribosomal methylation"
+  ],
+  "correctIndex": 1,
+  "explanation": "Some bacteria modify their LPS with aminoarabinose or phosphoethanolamine, reducing the negative surface charge and decreasing cationic AMP binding affinity.",
+  "difficulty": "intermediate",
+  "tags": [
+    "antimicrobial",
+    "defense"
+  ]
+}

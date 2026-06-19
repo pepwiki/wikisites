@@ -1,0 +1,9 @@
+{
+  "front": "What are the ICH stability guidelines for peptides?",
+  "back": "ICH guidelines (Q1A-Q1E) require stability testing at multiple temperatures (5\u00b0C, 25\u00b0C, 40\u00b0C) and humidity levels. Long-term, accelerated, and stress studies define shelf life and storage conditions.",
+  "tags": [
+    "stability",
+    "formulation"
+  ],
+  "difficulty": "advanced"
+}

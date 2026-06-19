@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of molecular descriptors in QSAR?",
+  "options": [
+    "They measure peptide concentration",
+    "They numerically represent chemical properties for modeling",
+    "They sequence proteins",
+    "They purify compounds"
+  ],
+  "correctIndex": 1,
+  "explanation": "Molecular descriptors (topological, geometric, electronic) quantitatively represent chemical properties, enabling mathematical modeling of structure-activity relationships.",
+  "difficulty": "intermediate",
+  "tags": ["computational", "design"]
+}

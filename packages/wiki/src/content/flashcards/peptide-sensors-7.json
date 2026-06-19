@@ -1,0 +1,9 @@
+{
+  "front": "What is surface-enhanced Raman spectroscopy (SERS)?",
+  "back": "SERS enhances Raman signals from molecules near metal surfaces. Peptide-functionalized nanoparticles can detect analytes with high sensitivity through changes in the SERS spectrum.",
+  "tags": [
+    "sensors",
+    "biosensors"
+  ],
+  "difficulty": "advanced"
+}

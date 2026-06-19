@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the retention time in HPLC?",
+  "options": [
+    "It measures peak height",
+    "It indicates the time a peptide takes to elute from the column",
+    "It measures peak area only",
+    "It indicates peptide molecular weight"
+  ],
+  "correctIndex": 1,
+  "explanation": "Retention time indicates how long a peptide interacts with the stationary phase, providing qualitative identification and reflecting peptide hydrophobicity.",
+  "difficulty": "beginner",
+  "tags": ["analytical", "techniques"]
+}

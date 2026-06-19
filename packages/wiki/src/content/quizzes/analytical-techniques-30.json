@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of the quadrupole in mass spectrometry?",
+  "options": [
+    "It ionizes peptides",
+    "It filters ions based on mass-to-charge ratio",
+  "It fragments peptides",
+    "It amplifies signals"
+  ],
+  "correctIndex": 1,
+  "explanation": "Quadrupoles use oscillating electric fields to filter ions, allowing only ions with specific m/z ratios to pass through, acting as mass filters.",
+  "difficulty": "intermediate",
+  "tags": ["analytical", "techniques"]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What resin is commonly used in Fmoc SPPS?",
+  "back": "Wang resin, Rink amide resin, and 2-chlorotrityl chloride resin are commonly used. Wang resin gives C-terminal carboxylic acids, while Rink amide resin gives C-terminal amides.",
+  "tags": [
+    "synthesis",
+    "reagents"
+  ],
+  "difficulty": "beginner"
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of multi-epitope peptide vaccines?",
+  "options": [
+    "They are simpler to produce",
+    "They target multiple antigens to broaden immune coverage",
+    "They only require one adjuvant",
+    "They are always more potent"
+  ],
+  "correctIndex": 1,
+  "explanation": "Multi-epitope vaccines combine several peptide epitopes to target multiple antigens, increasing coverage and reducing the chance of immune escape.",
+  "difficulty": "intermediate",
+  "tags": ["immunology", "peptides"]
+}

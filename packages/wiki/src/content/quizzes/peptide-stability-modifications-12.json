@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of lipidation for peptide stability?",
+  "options": [
+    "It decreases binding affinity",
+    "It can enhance membrane interaction and albumin binding",
+    "It reduces peptide solubility always",
+    "It decreases half-life"
+  ],
+  "correctIndex": 1,
+  "explanation": "Lipidation (fatty acid addition) can enhance albumin binding, promote membrane interaction, and improve oral bioavailability of peptides.",
+  "difficulty": "intermediate",
+  "tags": ["stability", "modifications"]
+}

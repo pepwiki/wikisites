@@ -1,0 +1,16 @@
+{
+  "question": "What is a dermal sensitization test?",
+  "options": [
+    "Testing skin moisturizing effects",
+    "Assessing whether a drug causes allergic contact dermatitis",
+    "Testing skin permeation rate only",
+    "Measuring skin temperature only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Dermal sensitization tests identify chemicals causing allergic contact dermatitis, important for topical formulations.",
+  "difficulty": "advanced",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

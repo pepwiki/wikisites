@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of a matrix in MALDI?",
+  "options": [
+    "Peptide separation",
+    "Absorbs laser energy to facilitate peptide desorption and ionization",
+    "Prevents peptide aggregation",
+    "Provides chromatographic resolution"
+  ],
+  "correctIndex": 1,
+  "explanation": "The MALDI matrix co-crystallizes with the peptide, absorbs laser pulse energy, and facilitates vaporization and proton transfer to generate peptide ions.",
+  "difficulty": "beginner",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

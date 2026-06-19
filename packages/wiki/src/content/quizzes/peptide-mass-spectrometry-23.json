@@ -1,0 +1,16 @@
+{
+  "question": "What is ion mobility spectrometry (IMS) coupled to MS used for?",
+  "options": [
+    "Only separating by mass",
+    "Separating ions by collision cross-section (shape/size) before mass analysis",
+    "Only ionizing peptides",
+    "Only detecting peptides"
+  ],
+  "correctIndex": 1,
+  "explanation": "IMS separates ions based on collision cross-section in a drift gas, providing an additional separation dimension based on peptide shape and size.",
+  "difficulty": "advanced",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the clearance (CL) in pharmacokinetics?",
+  "options": [
+    "It measures drug absorption rate",
+    "It is the volume of plasma cleared of drug per unit time",
+    "It indicates drug distribution only",
+    "It measures drug binding to plasma proteins"
+  ],
+  "correctIndex": 1,
+  "explanation": "Clearance is the volume of plasma completely cleared of drug per unit time, determining the maintenance dose needed to achieve steady-state concentrations.",
+  "difficulty": "intermediate",
+  "tags": ["clinical", "trials"]
+}

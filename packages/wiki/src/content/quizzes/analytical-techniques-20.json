@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the charge density in capillary electrophoresis?",
+  "options": [
+    "It affects only peptide migration",
+    "It determines electrophoretic mobility and separation efficiency",
+    "It measures peptide concentration",
+    "It indicates peptide size only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Charge density (charge-to-size ratio) determines electrophoretic mobility in CE, with higher charge density leading to faster migration towards the electrode.",
+  "difficulty": "advanced",
+  "tags": ["analytical", "techniques"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is a Rink amide resin used for?",
+  "options": [
+    "Producing C-terminal acid peptides",
+    "Producing C-terminal amide peptides upon TFA cleavage",
+    "Producing C-terminal ester peptides",
+    "Side chain protection only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Rink amide linker releases the peptide with a C-terminal amide upon TFA cleavage, mimicking the natural C-terminal amidation found in many bioactive peptides.",
+  "difficulty": "intermediate",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

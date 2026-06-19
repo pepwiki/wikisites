@@ -1,0 +1,16 @@
+{
+  "question": "What is a pre-filled syringe formulation?",
+  "options": [
+    "A multi-dose vial",
+    "A single-dose syringe containing a pre-measured dose ready for administration",
+    "A tablet in a syringe",
+    "A powder that requires manual filling"
+  ],
+  "correctIndex": 1,
+  "explanation": "Pre-filled syringes improve dosing accuracy, patient compliance, and reduce contamination risk.",
+  "difficulty": "beginner",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

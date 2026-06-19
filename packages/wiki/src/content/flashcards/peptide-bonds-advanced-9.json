@@ -1,10 +1,9 @@
 {
-  "front": "What is the role of peptide bond geometry in amyloid fibril formation?",
-  "back": "Amyloid fibrils have extended beta-sheets with inter-strand hydrogen bonds. The cross-beta structure has strands perpendicular to the fibril axis. Peptide bond torsion angles (phi/psi) are restricted to beta-sheet region on Ramachandran plot.",
+  "front": "How many hydrogen bonds stabilize a single turn of an alpha-helix?",
+  "back": "Each hydrogen bond in an alpha-helix connects the C=O of residue i to the N-H of residue i+4. There are approximately 3.6 residues per turn, each contributing one hydrogen bond to stabilize the helix.",
   "tags": [
     "peptide-bonds",
-    "structural-biology",
-    "disease"
+    "structure"
   ],
-  "difficulty": "advanced"
+  "difficulty": "intermediate"
 }

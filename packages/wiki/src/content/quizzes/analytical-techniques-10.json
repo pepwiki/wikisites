@@ -1,0 +1,13 @@
+{
+  "question": "What is the principle of size-exclusion chromatography (SEC)?",
+  "options": [
+    "Separation based on charge",
+    "Separation based on hydrophobicity",
+    "Separation based on molecular size",
+    "Separation based on boiling point"
+  ],
+  "correctIndex": 2,
+  "explanation": "SEC separates molecules by size, with larger molecules eluting first as they cannot enter the porous stationary phase beads.",
+  "difficulty": "beginner",
+  "tags": ["analytical", "techniques"]
+}

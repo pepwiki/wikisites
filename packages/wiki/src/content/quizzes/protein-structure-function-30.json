@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of salt bridges in protein stability?",
+  "options": [
+    "They only destabilize proteins",
+    "They provide electrostatic interactions that can stabilize structure",
+    "They are only found in enzymes",
+    "They prevent protein folding"
+  ],
+  "correctIndex": 1,
+  "explanation": "Salt bridges are ionic interactions between oppositely charged residues that contribute to protein stability, often found on protein surfaces.",
+  "difficulty": "intermediate",
+  "tags": ["structure", "function"]
+}

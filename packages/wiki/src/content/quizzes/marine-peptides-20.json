@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of sponge peptides in ADC development?",
+  "options": [
+    "No role in ADC development",
+    "Sponge-derived cytotoxins serve as ADC payloads",
+    "Sponges produce the antibodies",
+    "Sponges are used for ADC purification"
+  ],
+  "correctIndex": 1,
+  "explanation": "Sponge-derived cytotoxins like auristatins are potent antimitotic agents conjugated to antibodies in ADCs.",
+  "difficulty": "intermediate",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

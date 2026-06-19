@@ -1,0 +1,16 @@
+{
+  "question": "What is an LC-MS/MS workflow?",
+  "options": [
+    "Gel-based separation only",
+    "Online liquid chromatography separation coupled to tandem mass spectrometry detection",
+    "Manual peptide injection",
+    "Single-stage mass analysis only"
+  ],
+  "correctIndex": 1,
+  "explanation": "LC-MS/MS couples nano- or micro-LC separation of peptides with online tandem mass spectrometry for comprehensive proteome analysis.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

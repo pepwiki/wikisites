@@ -1,0 +1,16 @@
+{
+  "question": "What is an IND application?",
+  "options": [
+    "Investigational new drug application submitted before starting clinical trials",
+    "Individual new drug label",
+    "International natural drug permit",
+    "Integrated nucleotide database entry"
+  ],
+  "correctIndex": 0,
+  "explanation": "An IND application must be submitted to the FDA before initiating clinical trials, providing preclinical safety data and manufacturing information.",
+  "difficulty": "beginner",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

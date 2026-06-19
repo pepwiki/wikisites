@@ -1,0 +1,16 @@
+{
+  "question": "Which technique is the gold standard for glycan structural characterization?",
+  "options": [
+    "SDS-PAGE",
+    "Sequential exoglycosidase digestion combined with mass spectrometry",
+    "Western blotting only",
+    "ELISA only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Sequential exoglylosidase digestion systematically trims glycan termini while MS monitors mass changes, building a complete picture of glycan composition, linkage, and branching.",
+  "difficulty": "advanced",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

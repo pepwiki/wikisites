@@ -1,0 +1,16 @@
+{
+  "question": "Leptin is produced by which tissue?",
+  "options": [
+    "Liver",
+    "Adipose tissue",
+    "Pancreas",
+    "Brain"
+  ],
+  "correctIndex": 1,
+  "explanation": "Leptin is secreted by adipocytes in proportion to fat mass, acting on hypothalamic receptors to suppress appetite and increase energy expenditure.",
+  "difficulty": "beginner",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

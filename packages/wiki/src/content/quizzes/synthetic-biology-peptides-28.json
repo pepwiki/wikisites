@@ -1,0 +1,16 @@
+{
+  "question": "What is the E (epimerization) domain function in NRPS?",
+  "options": [
+    "Peptide bond formation",
+    "Converts L-amino acids to D-configuration within the growing peptide chain",
+    "Catalyzes disulfide bond formation",
+    "Removes protecting groups only"
+  ],
+  "correctIndex": 1,
+  "explanation": "E domains epimerize L-amino acids to D-configuration, introducing stereochemical diversity and protease resistance.",
+  "difficulty": "advanced",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is isotope labeling in NMR?",
+  "back": "Isotope labeling (\u00b9\u2075N, \u00b9\u00b3C) enhances NMR sensitivity and enables multi-dimensional experiments. Uniform labeling is achieved by expressing proteins in bacteria grown on \u00b9\u2075N/\u00b9\u00b3C media.",
+  "tags": [
+    "analytical",
+    "methods"
+  ],
+  "difficulty": "advanced"
+}

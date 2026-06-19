@@ -1,0 +1,13 @@
+{
+  "question": "What is the primary application of mass spectrometry in peptide analysis?",
+  "options": [
+    "Measuring peptide concentration",
+    "Determining molecular weight and sequence",
+    "Measuring peptide flexibility",
+    "Determining peptide solubility"
+  ],
+  "correctIndex": 1,
+  "explanation": "Mass spectrometry determines peptide molecular weight and can be used for sequencing through fragmentation patterns (MS/MS), identifying post-translational modifications.",
+  "difficulty": "beginner",
+  "tags": ["analytical", "techniques"]
+}

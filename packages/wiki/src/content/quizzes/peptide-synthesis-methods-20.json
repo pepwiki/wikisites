@@ -1,0 +1,13 @@
+{
+  "question": "What is the purpose of the TFA cleavage step in Fmoc-SPPS?",
+  "options": [
+    "To remove Fmoc groups",
+    "To cleave the peptide from resin and remove side chain protectors",
+    "To purify the peptide",
+    "To activate coupling reagents"
+  ],
+  "correctIndex": 1,
+  "explanation": "TFA (trifluoroacetic acid) simultaneously cleaves the peptide from the resin and removes acid-labile side chain protecting groups in a single step.",
+  "difficulty": "beginner",
+  "tags": ["synthesis", "methods"]
+}

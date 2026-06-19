@@ -1,0 +1,8 @@
+{
+  "question": "Which amino acid side chain can undergo beta-elimination to form dehydroalanine?",
+  "options": ["Cysteine", "Serine", "Threonine", "All of the above"],
+  "correctIndex": 3,
+  "explanation": "Serine, threonine, and cysteine can all undergo beta-elimination under alkaline conditions or enzymatic catalysis to form dehydroalanine, an unsaturated amino acid.",
+  "difficulty": "advanced",
+  "tags": ["amino-acids", "chemistry"]
+}

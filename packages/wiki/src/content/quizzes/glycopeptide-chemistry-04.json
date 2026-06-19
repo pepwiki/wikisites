@@ -1,0 +1,16 @@
+{
+  "question": "What sugar is typically added first in mucin-type O-glycosylation?",
+  "options": [
+    "Glucose",
+    "GalNAc (N-acetylgalactosamine)",
+    "Mannose",
+    "Fucose"
+  ],
+  "correctIndex": 1,
+  "explanation": "Mucin-type O-glycosylation begins with the addition of GalNAc to serine or threonine by polypeptide GalNAc-transferases.",
+  "difficulty": "beginner",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

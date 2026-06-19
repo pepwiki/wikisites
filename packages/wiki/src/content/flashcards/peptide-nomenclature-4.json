@@ -1,0 +1,9 @@
+{
+  "front": "How are peptides named in the IUPAC system?",
+  "back": "Peptides are named from N- to C-terminus. Each amino acid except the C-terminal uses the -yl suffix (e.g., glycyl, alanyl). The C-terminal retains its amino acid name.",
+  "tags": [
+    "nomenclature",
+    "terminology"
+  ],
+  "difficulty": "beginner"
+}

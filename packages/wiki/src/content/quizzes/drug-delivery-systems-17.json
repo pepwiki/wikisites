@@ -1,0 +1,13 @@
+{
+  "question": "What is the main challenge with long-circulating nanoparticles?",
+  "options": [
+    "They are too small",
+    "They accumulate in the liver and spleen",
+    "They are too expensive",
+    "They have poor drug loading"
+  ],
+  "correctIndex": 1,
+  "explanation": "Despite stealth properties, long-circulating nanoparticles eventually accumulate in the reticuloendothelial system (liver and spleen), potentially causing organ toxicity.",
+  "difficulty": "advanced",
+  "tags": ["delivery", "formulation"]
+}

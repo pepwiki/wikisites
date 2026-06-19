@@ -1,0 +1,9 @@
+{
+  "front": "What is the difference between on-rate and off-rate?",
+  "back": "The on-rate (kon or kass) is the rate of ligand-receptor association, while the off-rate (koff or kdis) is the rate of dissociation. Kd = koff/kon, so high kon and low koff give high affinity.",
+  "tags": [
+    "receptors",
+    "binding"
+  ],
+  "difficulty": "intermediate"
+}

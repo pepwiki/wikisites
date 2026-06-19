@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of binding free energy calculations?",
+  "options": [
+    "They measure peptide concentration",
+    "They estimate the strength of peptide-target interactions",
+    "They determine peptide purity",
+    "They measure reaction kinetics"
+  ],
+  "correctIndex": 1,
+  "explanation": "Binding free energy calculations (FEP, MM-PBSA) estimate the thermodynamic favorability of peptide binding to targets, guiding lead optimization.",
+  "difficulty": "advanced",
+  "tags": ["computational", "design"]
+}

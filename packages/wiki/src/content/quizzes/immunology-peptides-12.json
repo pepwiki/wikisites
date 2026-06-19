@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of invariant chain (Ii) in MHC class II antigen processing?",
+  "options": [
+    "It transports MHC I to the cell surface",
+    "It blocks peptide binding to MHC II until endosomal processing",
+    "It activates complement",
+    "It produces cytokines"
+  ],
+  "correctIndex": 1,
+  "explanation": "The invariant chain prevents premature peptide binding to MHC class II molecules and directs them to endosomal compartments where antigen processing occurs.",
+  "difficulty": "advanced",
+  "tags": ["immunology", "peptides"]
+}

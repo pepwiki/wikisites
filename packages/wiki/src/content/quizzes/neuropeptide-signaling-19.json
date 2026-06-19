@@ -1,0 +1,16 @@
+{
+  "question": "What mechanism amplifies neuropeptide signals?",
+  "options": [
+    "Direct ion channel gating only",
+    "G-protein coupled cascades generating second messenger amplification",
+    "Single receptor single response",
+    "No amplification occurs"
+  ],
+  "correctIndex": 1,
+  "explanation": "Neuropeptide-GPCR binding activates G-proteins that stimulate adenylyl cyclase or phospholipase C, producing second messengers that activate kinases, amplifying the signal.",
+  "difficulty": "intermediate",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

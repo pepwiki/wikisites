@@ -1,0 +1,16 @@
+{
+  "question": "What is a Type II Drug Master File?",
+  "options": [
+    "A drug product specification",
+    "Confidential detailed manufacturing information submitted to FDA",
+    "A patient medication record",
+    "A marketing authorization document"
+  ],
+  "correctIndex": 1,
+  "explanation": "A Type II DMF contains detailed manufacturing, processing, packaging, and storage information for drug substances.",
+  "difficulty": "advanced",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

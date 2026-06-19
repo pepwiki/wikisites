@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of the splice cyclization in peptide synthesis?",
+  "options": [
+    "It cuts the peptide",
+    "It forms a head-to-tail amide bond for cyclization",
+    "It adds side chains",
+    "It purifies the peptide"
+  ],
+  "correctIndex": 1,
+  "explanation": "Lactam (amide) cyclization forms a head-to-tail amide bond between the N-terminal amine and C-terminal carboxyl group, creating a cyclic peptide.",
+  "difficulty": "intermediate",
+  "tags": ["stability", "modifications"]
+}

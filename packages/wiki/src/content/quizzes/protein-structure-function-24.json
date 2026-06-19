@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of zinc fingers in protein structure?",
+  "options": [
+    "They catalyze metal oxidation",
+    "They are DNA-binding structural motifs stabilized by zinc",
+    "They transport zinc ions",
+    "They are only found in enzymes"
+  ],
+  "correctIndex": 1,
+  "explanation": "Zinc fingers are small structural motifs where zinc ions coordinate with cysteine and histidine residues, stabilizing finger-like projections that bind DNA.",
+  "difficulty": "intermediate",
+  "tags": ["structure", "function"]
+}

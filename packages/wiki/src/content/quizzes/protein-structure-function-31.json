@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of the signal peptide in protein targeting?",
+  "options": [
+    "It catalyzes protein synthesis",
+    "It directs proteins to specific cellular compartments",
+    "It stabilizes protein structure",
+    "It removes post-translational modifications"
+  ],
+  "correctIndex": 1,
+  "explanation": "Signal peptides are N-terminal sequences that direct proteins to the endoplasmic reticulum, mitochondria, or other compartments during or after synthesis.",
+  "difficulty": "intermediate",
+  "tags": ["structure", "function"]
+}

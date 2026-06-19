@@ -1,0 +1,9 @@
+{
+  "front": "What is UHPLC and how does it differ from HPLC?",
+  "back": "Ultra-high-performance liquid chromatography (UHPLC) uses sub-2 \u03bcm particles and higher pressures (>1000 bar). It provides faster separations, higher resolution, and better sensitivity than conventional HPLC.",
+  "tags": [
+    "analytical",
+    "methods"
+  ],
+  "difficulty": "intermediate"
+}

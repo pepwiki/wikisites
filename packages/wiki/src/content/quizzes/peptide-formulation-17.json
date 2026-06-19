@@ -1,0 +1,16 @@
+{
+  "question": "What are peptide-container interactions?",
+  "options": [
+    "No interactions occur",
+    "Peptides can adsorb to, denature at, or interact with container surfaces affecting dose and stability",
+    "Only relevant for glass containers",
+    "Only affects oral formulations"
+  ],
+  "correctIndex": 1,
+  "explanation": "Peptides adsorb to glass and plastic surfaces, requiring careful container-closure selection and compatibility testing.",
+  "difficulty": "intermediate",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

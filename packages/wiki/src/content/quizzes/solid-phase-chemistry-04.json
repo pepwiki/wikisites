@@ -1,0 +1,16 @@
+{
+  "question": "What is the Fmoc protecting group strategy?",
+  "options": [
+    "Permanent protection of all side chains",
+    "Base-labile N-alpha protection removed by piperidine between coupling cycles",
+    "Permanent N-terminal protection",
+    "Side chain protection only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Fmoc is removed by 20% piperidine in DMF, while side chain protecting groups (tBu, Boc, Trt) are stable to base and cleaved by TFA at the end.",
+  "difficulty": "beginner",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

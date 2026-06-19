@@ -1,0 +1,9 @@
+{
+  "front": "What is weak cation exchange (WCX) chromatography?",
+  "back": "WCX uses carboxyl groups with pH-dependent charge. It provides gentler elution conditions than SCX and is useful for separating proteins and large peptides with subtle charge differences.",
+  "tags": [
+    "purification",
+    "chromatography"
+  ],
+  "difficulty": "intermediate"
+}

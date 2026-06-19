@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of thioanisole in TFA cleavage cocktails?",
+  "options": [
+    "It acts as a reducing agent",
+    "It scavenges reactive carbocations",
+    "It precipitates the peptide",
+    "It activates the resin"
+  ],
+  "correctIndex": 1,
+  "explanation": "Thioanisole is a carbocation scavenger that protects acid-sensitive side chains (like Trp) during TFA cleavage by reacting with generated carbocations.",
+  "difficulty": "advanced",
+  "tags": ["synthesis", "methods"]
+}

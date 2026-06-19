@@ -1,0 +1,16 @@
+{
+  "question": "What is the minimum inhibitory concentration (MIC)?",
+  "options": [
+    "Maximum concentration tested",
+    "Lowest concentration that prevents visible microbial growth",
+    "Optimal therapeutic dose",
+    "Toxic concentration"
+  ],
+  "correctIndex": 1,
+  "explanation": "MIC is the lowest concentration of an antimicrobial agent that prevents visible growth of a microorganism after overnight incubation.",
+  "difficulty": "beginner",
+  "tags": [
+    "antimicrobial",
+    "defense"
+  ]
+}

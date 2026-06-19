@@ -1,0 +1,9 @@
+{
+  "front": "What is a cation-pi interaction?",
+  "back": "Cation-pi interactions occur between a positively charged group (Lys, Arg) and an aromatic ring (Phe, Tyr, Trp). They can contribute 5-80 kJ/mol and are important in enzyme active sites.",
+  "tags": [
+    "interactions",
+    "binding"
+  ],
+  "difficulty": "intermediate"
+}

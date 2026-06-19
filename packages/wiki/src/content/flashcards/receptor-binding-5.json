@@ -1,0 +1,9 @@
+{
+  "front": "What is the Cheng-Prusoff equation?",
+  "back": "Ki = IC50 / (1 + [S]/Km). This equation converts IC50 values to inhibition constants (Ki) for competitive inhibitors, accounting for the substrate concentration in the assay.",
+  "tags": [
+    "receptors",
+    "binding"
+  ],
+  "difficulty": "intermediate"
+}

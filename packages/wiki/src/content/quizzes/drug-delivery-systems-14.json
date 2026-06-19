@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of microencapsulation for drug delivery?",
+  "options": [
+    "It increases drug solubility",
+    "It provides controlled and sustained release",
+    "It eliminates first-pass metabolism",
+    "It always increases bioavailability"
+  ],
+  "correctIndex": 1,
+  "explanation": "Microencapsulation protects drugs from degradation and provides controlled release profiles, reducing dosing frequency and maintaining therapeutic concentrations.",
+  "difficulty": "intermediate",
+  "tags": ["delivery", "formulation"]
+}

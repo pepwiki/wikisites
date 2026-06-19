@@ -1,0 +1,16 @@
+{
+  "question": "What is a linear peptide library format?",
+  "options": [
+    "Cyclic peptides only",
+    "Peptides without intramolecular constraints, allowing maximum conformational flexibility",
+    "Peptides with disulfide bonds only",
+    "Peptides synthesized on beads only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Linear peptide libraries allow free conformational sampling, useful for initial screening. Hits are often subsequently cyclized to improve binding properties.",
+  "difficulty": "intermediate",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

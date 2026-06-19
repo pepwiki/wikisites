@@ -1,0 +1,16 @@
+{
+  "question": "What is the Tn antigen?",
+  "options": [
+    "A complex N-glycan",
+    "Simple GalNAc-alpha-Ser/Thr structure",
+    "A sialylated glycan",
+    "A high-mannose glycan"
+  ],
+  "correctIndex": 1,
+  "explanation": "The Tn antigen consists of a single GalNAc residue O-linked to serine or threonine. It is normally masked by further glycosylation but exposed in many cancers.",
+  "difficulty": "intermediate",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

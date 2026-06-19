@@ -1,0 +1,9 @@
+{
+  "front": "What does the notation [D-Ala\u00b2] mean?",
+  "back": "[D-Ala\u00b2] indicates that the alanine at position 2 has been replaced by D-alanine. This notation specifies both the position and the stereochemistry of the substitution.",
+  "tags": [
+    "nomenclature",
+    "terminology"
+  ],
+  "difficulty": "intermediate"
+}

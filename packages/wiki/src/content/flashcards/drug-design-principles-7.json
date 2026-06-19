@@ -1,0 +1,9 @@
+{
+  "front": "What is fragment-based drug design?",
+  "back": "Fragment-based drug design screens small molecular fragments (MW 150-250 Da) that bind weakly to a target. Fragments are then linked or grown to create potent drug candidates.",
+  "tags": [
+    "drug-design",
+    "principles"
+  ],
+  "difficulty": "intermediate"
+}

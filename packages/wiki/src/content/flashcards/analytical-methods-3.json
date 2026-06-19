@@ -1,0 +1,9 @@
+{
+  "front": "What does DSC measure in peptide analysis?",
+  "back": "Differential scanning calorimetry (DSC) measures heat capacity changes during thermal transitions. It provides information about thermal stability, melting temperature (Tm), and unfolding thermodynamics.",
+  "tags": [
+    "analytical",
+    "methods"
+  ],
+  "difficulty": "intermediate"
+}

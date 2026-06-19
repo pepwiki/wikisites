@@ -1,0 +1,16 @@
+{
+  "question": "What is absorbed dose in radionuclide therapy?",
+  "options": [
+    "The amount of radioactivity administered",
+    "Energy deposited per unit mass of tissue (Gy)",
+    "The blood concentration of the radiotracer",
+    "The scanning time"
+  ],
+  "correctIndex": 1,
+  "explanation": "Absorbed dose quantifies energy deposited by radiation in tissue. Accurate dosimetry for PRRT requires measuring tumor and organ uptake over time.",
+  "difficulty": "intermediate",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

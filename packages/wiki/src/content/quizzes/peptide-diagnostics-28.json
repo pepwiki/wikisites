@@ -1,0 +1,16 @@
+{
+  "question": "What is a companion diagnostic in peptide medicine?",
+  "options": [
+    "A general screening test",
+    "A test that identifies patients who will respond to a specific peptide therapy",
+    "A diagnostic that accompanies a research publication",
+    "A laboratory quality control material"
+  ],
+  "correctIndex": 1,
+  "explanation": "Companion diagnostics are FDA-approved tests that identify patients likely to benefit from a specific therapeutic, like HER2 testing for trastuzumab.",
+  "difficulty": "advanced",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

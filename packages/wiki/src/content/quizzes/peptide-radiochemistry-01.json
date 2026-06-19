@@ -1,0 +1,16 @@
+{
+  "question": "What does PET stand for?",
+  "options": [
+    "Peptide emission tomography",
+    "Positron emission tomography",
+    "Photoelectron transition",
+    "Proton energy transfer"
+  ],
+  "correctIndex": 1,
+  "explanation": "Positron emission tomography detects gamma rays from positron-electron annihilation events, enabling quantitative imaging of radiotracer distribution in vivo.",
+  "difficulty": "beginner",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

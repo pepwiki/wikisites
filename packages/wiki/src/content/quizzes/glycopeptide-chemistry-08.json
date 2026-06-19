@@ -1,0 +1,16 @@
+{
+  "question": "Which technique is commonly used to analyze glycopeptide composition?",
+  "options": [
+    "Western blotting only",
+    "Mass spectrometry with glycopeptide enrichment",
+    "X-ray crystallography",
+    "Isoelectric focusing"
+  ],
+  "correctIndex": 1,
+  "explanation": "Mass spectrometry combined with lectin affinity or HILIC enables sensitive identification and characterization of glycopeptides.",
+  "difficulty": "beginner",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

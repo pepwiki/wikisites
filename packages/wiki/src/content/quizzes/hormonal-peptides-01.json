@@ -1,0 +1,16 @@
+{
+  "question": "What is the primary function of insulin?",
+  "options": [
+    "Increase blood glucose",
+    "Lower blood glucose by promoting cellular uptake",
+    "Increase glucagon secretion",
+    "Stimulate lipolysis"
+  ],
+  "correctIndex": 1,
+  "explanation": "Insulin promotes glucose uptake into muscle and adipose tissue, glycogen synthesis, and lipogenesis while inhibiting gluconeogenesis and glycogenolysis.",
+  "difficulty": "beginner",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

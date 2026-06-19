@@ -1,0 +1,16 @@
+{
+  "question": "Which protease class requires a zinc ion for catalytic activity?",
+  "options": [
+    "Serine proteases",
+    "Cysteine proteases",
+    "Metalloproteases",
+    "Aspartic proteases"
+  ],
+  "correctIndex": 2,
+  "explanation": "Metalloproteases use a catalytically essential zinc ion coordinated by histidine and glutamate residues. The zinc activates a water molecule for nucleophilic attack.",
+  "difficulty": "intermediate",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

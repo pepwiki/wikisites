@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the Fc fusion for peptide half-life?",
+  "options": [
+    "It decreases molecular weight",
+    "It binds Fc receptors for recycling via FcRn",
+    "It eliminates immunogenicity",
+    "It reduces production cost"
+  ],
+  "correctIndex": 1,
+  "explanation": "Fc fusion peptides bind the neonatal Fc receptor (FcRn), which protects them from lysosomal degradation and recycles them back to circulation, extending half-life.",
+  "difficulty": "advanced",
+  "tags": ["stability", "modifications"]
+}

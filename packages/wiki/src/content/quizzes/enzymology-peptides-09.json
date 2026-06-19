@@ -1,0 +1,16 @@
+{
+  "question": "Substrate-specific proteases recognize what feature of their substrates?",
+  "options": [
+    "Only protein size",
+    "Defined consensus sequences",
+    "Only pH conditions",
+    "Only temperature"
+  ],
+  "correctIndex": 1,
+  "explanation": "Substrate-specific proteases recognize defined sequence motifs within their substrates. For example, caspases recognize the DEVD motif in their target proteins.",
+  "difficulty": "beginner",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

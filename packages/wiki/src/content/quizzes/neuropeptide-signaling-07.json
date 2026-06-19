@@ -1,0 +1,16 @@
+{
+  "question": "Oxytocin is primarily associated with which behaviors?",
+  "options": [
+    "Aggression only",
+    "Social bonding, trust, and maternal behavior",
+    "Fear conditioning",
+    "Motor coordination"
+  ],
+  "correctIndex": 1,
+  "explanation": "Oxytocin promotes social bonding, maternal behavior, trust, and pair bonding through oxytocin receptors in limbic brain regions.",
+  "difficulty": "beginner",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

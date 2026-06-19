@@ -1,0 +1,9 @@
+{
+  "front": "What is the concept of shape complementarity?",
+  "back": "Shape complementarity measures how well two surfaces fit together. High shape complementarity maximizes van der Waals contacts and minimizes unoccupied volume in the binding interface.",
+  "tags": [
+    "interactions",
+    "binding"
+  ],
+  "difficulty": "intermediate"
+}

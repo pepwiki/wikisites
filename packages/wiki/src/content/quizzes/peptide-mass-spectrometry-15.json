@@ -1,0 +1,16 @@
+{
+  "question": "What is a tryptic missed cleavage?",
+  "options": [
+    "A digestion artifact only",
+    "Peptide bonds at Lys/Arg not cleaved by trypsin due to neighboring effects",
+    "A mass spectrometry error",
+    "A type of post-translational modification"
+  ],
+  "correctIndex": 1,
+  "explanation": "Missed cleavages occur when trypsin fails to cleave at Lys or Arg, often due to neighboring proline residues, producing longer peptides with characteristic mass shifts.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

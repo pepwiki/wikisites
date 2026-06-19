@@ -1,0 +1,9 @@
+{
+  "front": "What is functional selectivity (biased agonism)?",
+  "back": "Functional selectivity occurs when a ligand preferentially activates specific signaling pathways through the same receptor. A biased agonist may activate G-protein signaling but not \u03b2-arrestin recruitment, or vice versa.",
+  "tags": [
+    "receptors",
+    "binding"
+  ],
+  "difficulty": "advanced"
+}

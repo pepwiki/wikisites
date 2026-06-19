@@ -1,0 +1,16 @@
+{
+  "question": "What is peptide SPPS library synthesis?",
+  "options": [
+    "Solution-phase only",
+    "Parallel synthesis of multiple peptides using modified SPPS protocols on arrays or in multi-well plates",
+    "Gel-based synthesis",
+    "Chromatographic purification"
+  ],
+  "correctIndex": 1,
+  "explanation": "Parallel SPPS on polymer membranes or in 96/384-well plates enables simultaneous synthesis of hundreds to thousands of peptides with defined sequences.",
+  "difficulty": "intermediate",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

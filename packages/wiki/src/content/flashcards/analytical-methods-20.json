@@ -1,0 +1,9 @@
+{
+  "front": "How is peptide purity typically assessed?",
+  "back": "Peptide purity is assessed by RP-HPLC (>95% by UV area), mass spectrometry (confirming correct molecular weight), and sometimes by NMR for structural confirmation.",
+  "tags": [
+    "analytical",
+    "methods"
+  ],
+  "difficulty": "beginner"
+}

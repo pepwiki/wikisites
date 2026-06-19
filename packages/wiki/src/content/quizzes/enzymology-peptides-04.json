@@ -1,0 +1,16 @@
+{
+  "question": "What is the Km value in Michaelis-Menten kinetics?",
+  "options": [
+    "Maximum velocity",
+    "Substrate concentration at half-Vmax",
+    "Catalytic rate constant",
+    "Enzyme concentration at saturation"
+  ],
+  "correctIndex": 1,
+  "explanation": "Km represents the substrate concentration at which reaction velocity is half of Vmax. A lower Km indicates higher substrate affinity for the enzyme.",
+  "difficulty": "beginner",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

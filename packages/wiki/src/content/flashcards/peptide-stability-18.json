@@ -1,0 +1,9 @@
+{
+  "front": "What is peptide adsorption?",
+  "back": "Peptides can adsorb to container surfaces (glass, plastic) and formulation components. This reduces the effective concentration and can cause aggregation at the interface.",
+  "tags": [
+    "stability",
+    "formulation"
+  ],
+  "difficulty": "intermediate"
+}

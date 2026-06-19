@@ -1,0 +1,9 @@
+{
+  "front": "What is the role of the proton pump in peptide absorption?",
+  "back": "The gastric H+/K+ ATPase maintains stomach acidity (pH 1-3). Peptide formulations may include acid-resistant coatings or buffering agents to protect peptides from acid degradation.",
+  "tags": [
+    "transport",
+    "membrane"
+  ],
+  "difficulty": "intermediate"
+}

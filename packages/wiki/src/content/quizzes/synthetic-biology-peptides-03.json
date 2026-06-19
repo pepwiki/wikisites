@@ -1,0 +1,16 @@
+{
+  "question": "What is a RiPP?",
+  "options": [
+    "A non-ribosomal peptide",
+    "A peptide synthesized by ribosomes then extensively modified by tailoring enzymes",
+    "A chemical synthesis product",
+    "A DNA replication product"
+  ],
+  "correctIndex": 1,
+  "explanation": "RiPPs are ribosomally produced as precursor peptides then modified by dedicated enzymes to create diverse structures.",
+  "difficulty": "beginner",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the primary source of marine natural product peptides?",
+  "options": [
+    "Marine mammals",
+    "Sessile marine invertebrates and microorganisms",
+    "Marine fish only",
+    "Seaweed only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Marine sponges, tunicates, bryozoans, and marine bacteria produce diverse bioactive peptides as chemical defense mechanisms.",
+  "difficulty": "beginner",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

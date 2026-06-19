@@ -1,0 +1,16 @@
+{
+  "question": "What is the Debye-Waller factor in crystallography?",
+  "options": [
+    "Phase calculation method",
+    "Correction for thermal motion reducing diffraction intensity",
+    "Solvent density correction",
+    "Anomalous scattering factor"
+  ],
+  "correctIndex": 1,
+  "explanation": "The Debye-Waller factor accounts for the reduction in diffraction intensity due to atomic thermal motion. Higher B-factors mean less observed intensity.",
+  "difficulty": "advanced",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

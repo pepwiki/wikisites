@@ -1,0 +1,9 @@
+{
+  "front": "How does temperature affect peptide stability?",
+  "back": "Higher temperatures accelerate degradation reactions including deamidation, oxidation, and hydrolysis. Peptide formulations are typically stored at 2-8\u00b0C or frozen at -20\u00b0C to minimize degradation.",
+  "tags": [
+    "stability",
+    "formulation"
+  ],
+  "difficulty": "beginner"
+}

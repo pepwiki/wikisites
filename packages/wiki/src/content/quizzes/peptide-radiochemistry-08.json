@@ -1,0 +1,16 @@
+{
+  "question": "What is the theranostic concept in peptide radiochemistry?",
+  "options": [
+    "Using drugs without imaging",
+    "Using the same peptide target for both diagnosis and therapy with different radionuclides",
+    "Only diagnostic applications",
+    "Only therapeutic applications"
+  ],
+  "correctIndex": 1,
+  "explanation": "Theranostics pairs a diagnostic radionuclide (e.g., Ga-68) with a therapeutic radionuclide (e.g., Lu-177) on the same targeting peptide for personalized treatment.",
+  "difficulty": "beginner",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

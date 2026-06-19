@@ -1,10 +1,9 @@
 {
-  "front": "What is the role of peptide bonds in cyclic peptide cell permeability?",
-  "back": "Cyclic peptides (cyclosporine, vancomycin) can cross membranes despite having polar amide bonds. Intramolecular hydrogen bonds shield polar groups, creating a hydrophobic exterior. N-methylation further reduces polarity and increases permeability.",
+  "front": "Why is glycine more conformationally flexible than other amino acids?",
+  "back": "Glycine has only a hydrogen atom as its side chain, so it lacks steric constraints on its phi and psi angles. This allows it to adopt conformations that are sterically forbidden for other amino acids.",
   "tags": [
     "peptide-bonds",
-    "drug-design",
-    "membrane-transport"
+    "structure"
   ],
-  "difficulty": "advanced"
+  "difficulty": "beginner"
 }

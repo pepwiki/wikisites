@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of internal calibration in mass accuracy?",
+  "options": [
+    "Uses reference m/z values acquired in the same run to correct mass measurement errors",
+    "Uses theoretical masses only",
+    "Improves ionization only",
+    "Calibrates the LC system only"
+  ],
+  "correctIndex": 0,
+  "explanation": "Internal calibration uses known m/z values acquired simultaneously to correct mass measurement errors, achieving sub-ppm accuracy.",
+  "difficulty": "advanced",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

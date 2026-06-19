@@ -1,0 +1,16 @@
+{
+  "question": "Which organism produces the antimicrobial peptide magainin?",
+  "options": [
+    "Humans",
+    "Frogs",
+    "Bacteria",
+    "Plants"
+  ],
+  "correctIndex": 1,
+  "explanation": "Magainins are cationic AMPs isolated from the skin of the African clawed frog Xenopus laevis, forming pores in bacterial membranes leading to cell lysis.",
+  "difficulty": "beginner",
+  "tags": [
+    "antimicrobial",
+    "defense"
+  ]
+}

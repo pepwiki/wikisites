@@ -1,0 +1,9 @@
+{
+  "front": "What is the pKa of the cysteine thiol group?",
+  "back": "The pKa of the cysteine thiol group is approximately 8.3, though it can range from 6.5 to 11 depending on the local protein environment.",
+  "tags": [
+    "amino-acids",
+    "properties"
+  ],
+  "difficulty": "intermediate"
+}

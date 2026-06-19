@@ -1,0 +1,16 @@
+{
+  "question": "What is neuropeptide measurement used for in neurological diagnostics?",
+  "options": [
+    "No clinical utility",
+    "Assessing neurotransmitter pathway integrity and neurodegeneration",
+    "Only for research purposes",
+    "Measuring blood glucose levels"
+  ],
+  "correctIndex": 1,
+  "explanation": "Neuropeptide levels in CSF reflect neurotransmitter pathway function. Decreased hypocretin-1 confirms narcolepsy diagnosis, while other neuropeptides indicate neurodegeneration.",
+  "difficulty": "advanced",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the difference between efficacy and effectiveness?",
+  "options": [
+    "They are the same thing",
+    "Efficacy is under ideal conditions, effectiveness is in real-world settings",
+    "Efficacy is for prevention, effectiveness for treatment",
+    "Efficacy is measured by PK, effectiveness by PD"
+  ],
+  "correctIndex": 1,
+  "explanation": "Efficacy is the treatment effect under controlled trial conditions, while effectiveness is the treatment effect in routine clinical practice with diverse patient populations.",
+  "difficulty": "intermediate",
+  "tags": ["clinical", "trials"]
+}

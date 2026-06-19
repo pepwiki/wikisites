@@ -1,0 +1,16 @@
+{
+  "question": "What is a microsphere formulation?",
+  "options": [
+    "A tablet formulation",
+    "Polymeric microspheres that encapsulate peptides for sustained release over weeks to months",
+    "A type of eye drop",
+    "A diagnostic reagent"
+  ],
+  "correctIndex": 1,
+  "explanation": "PLGA microspheres encapsulate peptides, releasing them slowly as the polymer degrades by hydrolysis.",
+  "difficulty": "beginner",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

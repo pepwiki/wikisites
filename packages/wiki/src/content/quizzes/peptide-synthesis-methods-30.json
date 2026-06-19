@@ -1,0 +1,13 @@
+{
+  "question": "What is the purpose of using NMP as a co-solvent in SPPS?",
+  "options": [
+    "To reduce racemization",
+    "To improve resin swelling and coupling",
+    "To prevent side chain reactions",
+    "To facilitate peptide cleavage"
+  ],
+  "correctIndex": 1,
+  "explanation": "NMP (N-methylpyrrolidone) improves resin swelling and solubility of amino acids, often used as a co-solvent with DMF to enhance coupling efficiency.",
+  "difficulty": "intermediate",
+  "tags": ["synthesis", "methods"]
+}

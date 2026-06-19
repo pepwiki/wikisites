@@ -1,0 +1,16 @@
+{
+  "question": "What is a repeat-dose toxicity study?",
+  "options": [
+    "Single dose only",
+    "Multiple-dose study assessing cumulative toxic effects over a defined treatment period",
+    "Dose escalation study only",
+    "Maximum dose study only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Repeat-dose studies identify target organs of toxicity and establish NOAEL for chronic dosing.",
+  "difficulty": "intermediate",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

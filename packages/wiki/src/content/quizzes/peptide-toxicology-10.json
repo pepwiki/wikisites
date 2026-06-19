@@ -1,0 +1,16 @@
+{
+  "question": "What is a hypersensitivity reaction to a peptide drug?",
+  "options": [
+    "Normal pharmacological effect",
+    "An immune-mediated adverse reaction ranging from mild to life-threatening anaphylaxis",
+    "A dose-dependent side effect",
+    "A drug interaction"
+  ],
+  "correctIndex": 1,
+  "explanation": "Hypersensitivity reactions involve IgE-mediated or T-cell-mediated immune responses requiring discontinuation of therapy.",
+  "difficulty": "intermediate",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

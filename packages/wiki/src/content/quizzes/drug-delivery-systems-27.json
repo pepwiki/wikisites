@@ -1,0 +1,13 @@
+{
+  "question": "What is the difference between hydrogels and liposomes?",
+  "options": [
+    "Hydrogels are solid matrices, liposomes are vesicles",
+    "Hydrogels are always synthetic, liposomes are natural",
+    "There is no difference",
+    "Hydrogels are more biocompatible"
+  ],
+  "correctIndex": 0,
+  "explanation": "Hydrogels are crosslinked polymer networks that swell in water, while liposomes are lipid bilayer vesicles with aqueous cores. They offer different release kinetics and applications.",
+  "difficulty": "intermediate",
+  "tags": ["delivery", "formulation"]
+}

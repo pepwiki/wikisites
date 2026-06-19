@@ -1,0 +1,16 @@
+{
+  "question": "What is protein splicing used for in synthetic biology?",
+  "options": [
+    "Breaking proteins apart",
+    "Self-removing elements enabling seamless protein joining, purification tags, and conditional activation",
+    "Protein degradation only",
+    "Protein storage only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Intein-based splicing enables seamless protein ligation, affinity purification, and conditional protein activation.",
+  "difficulty": "intermediate",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

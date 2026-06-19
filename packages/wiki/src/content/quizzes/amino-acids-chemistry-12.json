@@ -1,0 +1,8 @@
+{
+  "question": "Which type of bond is formed between the amino group of one amino acid and the carboxyl group of another?",
+  "options": ["Ionic bond", "Hydrogen bond", "Peptide bond", "Disulfide bond"],
+  "correctIndex": 2,
+  "explanation": "A peptide bond is a covalent amide bond formed through a condensation reaction between the α-amino group of one amino acid and the α-carboxyl group of another.",
+  "difficulty": "beginner",
+  "tags": ["amino-acids", "chemistry"]
+}

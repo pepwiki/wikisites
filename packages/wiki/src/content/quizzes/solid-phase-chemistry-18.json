@@ -1,0 +1,16 @@
+{
+  "question": "What is the concept of double coupling in SPPS?",
+  "options": [
+    "Coupling the same amino acid twice in one cycle",
+    "Using two different coupling reagents simultaneously",
+    "Performing two coupling cycles per amino acid addition for difficult couplings",
+    "Coupling two amino acids at once"
+  ],
+  "correctIndex": 2,
+  "explanation": "Double coupling repeats the coupling step for the same amino acid when initial coupling is incomplete, as detected by the Kaiser test, ensuring maximal incorporation.",
+  "difficulty": "intermediate",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

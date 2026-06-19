@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of molecular mechanics in computational chemistry?",
+  "options": [
+    "It uses quantum mechanics only",
+    "It uses classical physics to model molecular systems",
+    "It sequences proteins",
+    "It purifies compounds"
+  ],
+  "correctIndex": 1,
+  "explanation": "Molecular mechanics uses classical physics and force fields to calculate molecular energies and optimize structures, providing efficient simulations of large systems.",
+  "difficulty": "intermediate",
+  "tags": ["computational", "design"]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is peptide stapling?",
+  "options": [
+    "Connecting the ends of a peptide",
+    "Creating a crosslink between side chains to stabilize alpha-helices",
+    "Attaching the peptide to a surface",
+    "Adding sugar moieties to the peptide"
+  ],
+  "correctIndex": 1,
+  "explanation": "Stapling introduces hydrocarbon crosslinks between side chains (typically i, i+7 positions) to stabilize alpha-helical conformation, improving binding and cell penetration.",
+  "difficulty": "intermediate",
+  "tags": ["stability", "modifications"]
+}

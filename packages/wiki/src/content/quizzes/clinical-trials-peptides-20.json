@@ -1,0 +1,13 @@
+{
+  "question": "What is the difference between open-label and double-blind studies?",
+  "options": [
+    "Open-label uses placebos, double-blind does not",
+    "In open-label both parties know treatment, in double-blind neither knows",
+    "Open-label is for Phase 1, double-blind for Phase 3",
+    "They have different statistical requirements"
+  ],
+  "correctIndex": 1,
+  "explanation": "Open-label studies have no blinding, while double-blind studies neither patients nor investigators know which treatment is being administered, reducing bias.",
+  "difficulty": "intermediate",
+  "tags": ["clinical", "trials"]
+}

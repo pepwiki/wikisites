@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of microneedle delivery for peptides?",
+  "options": [
+    "It only works for large molecules",
+    "It enables transdermal delivery bypassing GI degradation",
+    "It increases peptide degradation",
+    "It is only for diagnostic peptides"
+  ],
+  "correctIndex": 1,
+  "explanation": "Microneedles create transient pores in the stratum corneum, enabling transdermal peptide delivery while avoiding GI degradation and first-pass metabolism.",
+  "difficulty": "intermediate",
+  "tags": ["stability", "modifications"]
+}

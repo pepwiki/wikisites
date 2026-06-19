@@ -1,0 +1,9 @@
+{
+  "front": "What is the SELEX process?",
+  "back": "SELEX (Systematic Evolution of Ligands by Exponential Enrichment) selects aptamers from random nucleic acid libraries through iterative rounds of binding and amplification.",
+  "tags": [
+    "engineering",
+    "design"
+  ],
+  "difficulty": "advanced"
+}

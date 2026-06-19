@@ -1,0 +1,16 @@
+{
+  "question": "What is TFA (trifluoroacetic acid) used for in SPPS?",
+  "options": [
+    "Removing Fmoc groups",
+    "Cleaving the peptide from the resin and removing acid-labile side chain protecting groups",
+    "Activating amino acids",
+    "Neutralizing the reaction mixture"
+  ],
+  "correctIndex": 1,
+  "explanation": "TFA simultaneously cleaves the acid-labile linker connecting the peptide to the resin and removes acid-labile side chain protecting groups like tBu and Trt.",
+  "difficulty": "beginner",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

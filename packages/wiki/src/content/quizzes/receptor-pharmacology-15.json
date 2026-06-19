@@ -1,0 +1,13 @@
+{
+  "question": "What is the two-state model of receptor activation?",
+  "options": [
+    "Receptors have active and inactive states in equilibrium",
+    "Receptors require two ligands to activate",
+    "Receptors have two binding sites",
+    "Receptors undergo two conformational changes"
+  ],
+  "correctIndex": 0,
+  "explanation": "The two-state model proposes that receptors exist in equilibrium between active (R*) and inactive (R) states. Agonists stabilize R*, while inverse agonists stabilize R.",
+  "difficulty": "advanced",
+  "tags": ["receptors", "pharmacology"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the Dali server used for in structural biology?",
+  "options": [
+    "Protein purification",
+    "Structural comparison and fold classification",
+    "Peptide synthesis",
+    "Sequence alignment only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Dali (Distance matrix ALignment) compares 3D structures to identify structural neighbors and classify folds, useful for understanding peptide structural relationships.",
+  "difficulty": "advanced",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

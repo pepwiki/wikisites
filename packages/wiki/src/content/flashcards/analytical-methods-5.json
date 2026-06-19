@@ -1,0 +1,9 @@
+{
+  "front": "What is MALDI-TOF mass spectrometry?",
+  "back": "MALDI-TOF (Matrix-Assisted Laser Desorption/Ionization Time-of-Flight) ionizes peptides using a laser with a matrix. It provides accurate molecular weight determination and is tolerant of impurities.",
+  "tags": [
+    "analytical",
+    "methods"
+  ],
+  "difficulty": "intermediate"
+}

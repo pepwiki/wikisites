@@ -1,0 +1,16 @@
+{
+  "question": "What does MALDI stand for?",
+  "options": [
+    "Mass analysis by laser-induced desorption",
+    "Matrix-assisted laser desorption/ionization",
+    "Magnetic alignment of laser-induced ions",
+    "Monoisotopic analysis by laser ionization"
+  ],
+  "correctIndex": 1,
+  "explanation": "MALDI uses a laser-absorbing matrix to desorb and ionize peptides from a solid surface, producing primarily singly charged ions ideal for mass fingerprinting.",
+  "difficulty": "beginner",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

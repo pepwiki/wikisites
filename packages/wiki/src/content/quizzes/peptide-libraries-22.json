@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of stringency washing in library selection?",
+  "options": [
+    "Gentle washing only",
+    "Progressively harsher conditions to remove weakly bound clones, enriching for high-affinity binders",
+    "Chemical modification of bound peptides",
+    "Temperature cycling of the library"
+  ],
+  "correctIndex": 1,
+  "explanation": "Stringency washing increases salt concentration, detergent, or pH across rounds to remove weakly bound peptides, progressively enriching for high-affinity binders.",
+  "difficulty": "advanced",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

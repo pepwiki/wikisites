@@ -1,0 +1,16 @@
+{
+  "question": "What is a glycopeptide mimetic?",
+  "options": [
+    "A natural glycopeptide",
+    "A non-peptide scaffold displaying sugar moieties in orientations mimicking glycopeptide recognition",
+    "A peptide that binds to glycans only",
+    "A peptide with modified sugars"
+  ],
+  "correctIndex": 1,
+  "explanation": "Glycopeptide mimetics use non-peptide scaffolds to present carbohydrate pharmacophores, enabling inhibition of carbohydrate-binding proteins without the instability of natural glycopeptides.",
+  "difficulty": "advanced",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

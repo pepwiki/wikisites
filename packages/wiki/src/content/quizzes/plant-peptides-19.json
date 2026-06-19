@@ -1,0 +1,16 @@
+{
+  "question": "What is systemin?",
+  "options": [
+    "A plant structural protein",
+    "An 18-amino acid peptide hormone from tomato activating systemic defense responses",
+    "A plant mineral nutrient",
+    "A plant pigment precursor"
+  ],
+  "correctIndex": 1,
+  "explanation": "Systemin was the first plant peptide hormone discovered, activating systemic wound responses including proteinase inhibitor production.",
+  "difficulty": "intermediate",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

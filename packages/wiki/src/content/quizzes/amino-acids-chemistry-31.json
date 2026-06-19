@@ -1,0 +1,13 @@
+{
+  "question": "What is the Strecker synthesis used for in peptide chemistry?",
+  "options": [
+    "Peptide bond formation",
+    "Amino acid synthesis from aldehydes",
+    "Protein purification",
+    "Disulfide bond formation"
+  ],
+  "correctIndex": 1,
+  "explanation": "The Strecker synthesis produces amino acids from aldehydes, ammonium chloride, and potassium cyanide. It is one of the oldest methods for racemic amino acid synthesis.",
+  "difficulty": "advanced",
+  "tags": ["amino-acids", "chemistry"]
+}

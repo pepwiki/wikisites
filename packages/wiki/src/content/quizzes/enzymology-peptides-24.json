@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of furin in peptide processing?",
+  "options": [
+    "Cleaves signal peptides in ER",
+    "Processes proproteins at basic motifs in the Golgi",
+    "Degrades peptides in lysosomes",
+    "Cleaves N-glycans"
+  ],
+  "correctIndex": 1,
+  "explanation": "Furin is a Golgi-resident proprotein convertase that cleaves precursors at (R/K)Xn(R/K) motifs, activating proinsulin, pro-BMP, and many viral glycoproteins.",
+  "difficulty": "advanced",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

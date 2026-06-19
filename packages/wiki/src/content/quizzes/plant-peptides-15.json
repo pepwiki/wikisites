@@ -1,0 +1,16 @@
+{
+  "question": "What is the distribution of cyclotides across plant families?",
+  "options": [
+    "Universal in all plants",
+    "Primarily Violaceae and Rubiaceae, with some in Cucurbitaceae and Fabaceae",
+    "Only in tropical plants",
+    "Only in monocots"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cyclotides are predominantly found in Violaceae and Rubiaceae, with occasional occurrences in other families.",
+  "difficulty": "intermediate",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

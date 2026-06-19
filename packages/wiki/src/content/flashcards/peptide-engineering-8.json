@@ -1,0 +1,9 @@
+{
+  "front": "What is the role of machine learning in peptide design?",
+  "back": "Machine learning models (deep learning, generative models) can predict peptide properties, generate novel sequences, and optimize multiple properties simultaneously.",
+  "tags": [
+    "engineering",
+    "design"
+  ],
+  "difficulty": "intermediate"
+}

@@ -1,0 +1,9 @@
+{
+  "front": "How are turns classified in protein structures?",
+  "back": "Turns are classified by the number of residues in the turn (Type I, II, III, I', II') and the positions of the hydrogen bonds. Type I and II are the most common, differing in the phi/psi angles of the middle residue.",
+  "tags": [
+    "structure",
+    "secondary"
+  ],
+  "difficulty": "advanced"
+}

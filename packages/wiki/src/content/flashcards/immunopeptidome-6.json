@@ -1,0 +1,9 @@
+{
+  "front": "What is the proteasome's role in MHC-I presentation?",
+  "back": "The proteasome cleaves cytosolic proteins into peptides of 8-10 residues. The immunoproteasome (containing LMP2, LMP7, MECL-1) has altered cleavage specificity that favors MHC-I peptide generation.",
+  "tags": [
+    "immunology",
+    "MHC"
+  ],
+  "difficulty": "intermediate"
+}

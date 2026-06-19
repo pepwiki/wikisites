@@ -1,0 +1,16 @@
+{
+  "question": "What parameter defines the quality of a protein crystal?",
+  "options": [
+    "Crystal color",
+    "Mosaicity",
+    "Crystal weight",
+    "pH of mother liquor"
+  ],
+  "correctIndex": 1,
+  "explanation": "Mosaicity measures the angular spread of lattice orientations within a crystal. Low mosaicity indicates well-ordered crystals that produce high-quality diffraction data.",
+  "difficulty": "intermediate",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

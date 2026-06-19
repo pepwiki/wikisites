@@ -1,0 +1,16 @@
+{
+  "question": "Which NMR parameter provides information about peptide backbone flexibility?",
+  "options": [
+    "Chemical shift anisotropy",
+    "Heteronuclear NOE (hetNOE)",
+    "J-coupling",
+    "Trans-hydrogen bond J-coupling"
+  ],
+  "correctIndex": 1,
+  "explanation": "The heteronuclear NOE (15N-1H) measures local backbone dynamics. Values near +0.7 indicate rigid regions, while negative values indicate fast nanosecond-timescale motion.",
+  "difficulty": "advanced",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

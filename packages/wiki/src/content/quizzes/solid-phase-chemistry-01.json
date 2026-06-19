@@ -1,0 +1,16 @@
+{
+  "question": "What does SPPS stand for?",
+  "options": [
+    "Solid-phase peptide synthesis",
+    "Solution-phase peptide synthesis",
+    "Surface peptide processing",
+    "Sequential peptide purification system"
+  ],
+  "correctIndex": 0,
+  "explanation": "Solid-phase peptide synthesis builds peptides by sequential coupling reactions while anchored to an insoluble resin, enabling easy purification by filtration.",
+  "difficulty": "beginner",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

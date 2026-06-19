@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of pharmacophore modeling?",
+  "options": [
+    "It synthesizes drugs",
+    "It identifies essential features for biological activity",
+    "It sequences proteins",
+    "It purifies compounds"
+  ],
+  "correctIndex": 1,
+  "explanation": "Pharmacophore modeling identifies the spatial arrangement of essential features (H-bond donors/acceptors, charges, hydrophobic groups) required for biological activity.",
+  "difficulty": "intermediate",
+  "tags": ["computational", "design"]
+}

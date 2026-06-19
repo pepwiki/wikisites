@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of HOBt in peptide coupling reactions?",
+  "options": [
+    "Removes protecting groups",
+    "Activates the carboxyl group",
+    "Prevents racemization",
+    "All of the above"
+  ],
+  "correctIndex": 1,
+  "explanation": "HOBt (hydroxybenzotriazole) activates the carboxyl group by forming an active ester, facilitating nucleophilic attack by the amino group. It also reduces racemization.",
+  "difficulty": "intermediate",
+  "tags": ["synthesis", "methods"]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the difference between a partial agonist and a full agonist?",
+  "options": [
+    "Partial agonists have higher affinity",
+    "Partial agonists produce less than maximum response",
+    "Partial agonists are always antagonists",
+    "Partial agonists bind to different sites"
+  ],
+  "correctIndex": 1,
+  "explanation": "Partial agonists bind to receptors but produce submaximal responses even at full receptor occupancy. They can also act as competitive antagonists in the presence of full agonists.",
+  "difficulty": "intermediate",
+  "tags": ["receptors", "pharmacology"]
+}

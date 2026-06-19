@@ -1,0 +1,16 @@
+{
+  "question": "What is gamma-thionin antifungal mechanism?",
+  "options": [
+    "Inhibit DNA replication only",
+    "Bind fungal membranes through electrostatic interactions with phospholipids causing permeabilization",
+    "Inhibit fungal photosynthesis only",
+    "Block fungal spore germination only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Plant gamma-thionins bind fungal membranes causing permeabilization and ion leakage through electrostatic interactions.",
+  "difficulty": "advanced",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

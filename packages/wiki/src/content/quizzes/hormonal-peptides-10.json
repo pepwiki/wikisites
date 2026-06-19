@@ -1,0 +1,16 @@
+{
+  "question": "How is proinsulin processed to mature insulin?",
+  "options": [
+    "Cleaved by furin in the cytoplasm",
+    "Cleaved by PC1/3 and PC2 in secretory granules",
+    "Cleaved by trypsin in the intestine",
+    "No processing required"
+  ],
+  "correctIndex": 1,
+  "explanation": "Proinsulin undergoes proteolytic processing by PC1/3 and PC2 in pancreatic beta cell secretory granules, removing the C-peptide to yield mature insulin.",
+  "difficulty": "intermediate",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

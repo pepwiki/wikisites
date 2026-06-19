@@ -1,0 +1,16 @@
+{
+  "question": "What distinguishes semaglutide's pharmacokinetics from native GLP-1?",
+  "options": [
+    "Same clearance",
+    "Albumin binding and DPP-4 resistance extend half-life to approximately 1 week",
+    "Faster renal clearance",
+    "Shorter half-life than native GLP-1"
+  ],
+  "correctIndex": 1,
+  "explanation": "Semaglutide combines DPP-4 resistance with albumin binding through a fatty diacid linker, extending half-life to approximately 165 hours for once-weekly dosing.",
+  "difficulty": "advanced",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

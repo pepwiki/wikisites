@@ -1,0 +1,16 @@
+{
+  "question": "What is the significance of the omega angle in peptide structures?",
+  "options": [
+    "Measures helix pitch",
+    "Defines cis/trans isomerization of the peptide bond",
+    "Measures side chain rotation",
+    "Defines disulfide geometry"
+  ],
+  "correctIndex": 1,
+  "explanation": "The omega angle (180 degrees for trans, 0 degrees for cis) defines peptide bond geometry. Proline residues have a higher propensity for cis peptide bonds than other amino acids.",
+  "difficulty": "advanced",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is directed evolution?",
+  "back": "Directed evolution mimics natural selection in the laboratory. Libraries of peptide variants are created and screened for desired properties, with the best variants selected for further rounds of mutation.",
+  "tags": [
+    "engineering",
+    "design"
+  ],
+  "difficulty": "beginner"
+}

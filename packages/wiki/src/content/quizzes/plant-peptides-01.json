@@ -1,0 +1,16 @@
+{
+  "question": "What are cyclotides?",
+  "options": [
+    "Cyclic DNA molecules",
+    "Circular plant peptides with a cystine knot motif, exceptionally stable and bioactive",
+    "Cyclic carbohydrates",
+    "Cyclic lipids"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cyclotides are head-to-tail cyclic peptides found in plants with a conserved cystine knot motif providing extraordinary stability.",
+  "difficulty": "beginner",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

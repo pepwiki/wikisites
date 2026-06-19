@@ -1,0 +1,9 @@
+{
+  "front": "What is molecular docking?",
+  "back": "Molecular docking predicts the binding mode and affinity of a ligand to a protein target. It samples different conformations and orientations and scores them using energy functions.",
+  "tags": [
+    "drug-design",
+    "principles"
+  ],
+  "difficulty": "intermediate"
+}

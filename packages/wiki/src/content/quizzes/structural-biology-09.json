@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of a heavy atom derivative in X-ray phasing?",
+  "options": [
+    "Increases crystal size",
+    "Provides anomalous scattering for phase determination",
+    "Prevents radiation damage",
+    "Enhances peptide solubility"
+  ],
+  "correctIndex": 1,
+  "explanation": "Heavy atoms like Se, Hg, and Pt introduce anomalous scattering that enables experimental phase determination through SAD or MAD phasing methods.",
+  "difficulty": "beginner",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is ghrelin's primary function?",
+  "options": [
+    "Satiety signal",
+    "Hunger hormone that stimulates appetite via GHSR in the hypothalamus",
+    "Glucose lowering hormone",
+    "Thyroid stimulant"
+  ],
+  "correctIndex": 1,
+  "explanation": "Ghrelin is secreted by stomach oxyntic cells when fasting, acting on GHSR-1a in the hypothalamus to stimulate appetite and increase GH release.",
+  "difficulty": "intermediate",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

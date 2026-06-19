@@ -1,0 +1,16 @@
+{
+  "question": "Which irreversible protease inhibitor forms a covalent bond with the active site?",
+  "options": [
+    "Benzamidine",
+    "Leupeptin",
+    "PMSF",
+    "Soybean trypsin inhibitor"
+  ],
+  "correctIndex": 2,
+  "explanation": "PMSF (phenylmethylsulfonyl fluoride) forms a covalent sulfonate ester with the active site serine of serine proteases, irreversibly inactivating them.",
+  "difficulty": "beginner",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

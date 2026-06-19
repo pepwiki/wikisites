@@ -1,0 +1,16 @@
+{
+  "question": "What is reconstitution of a lyophilized peptide?",
+  "options": [
+    "Heating the powder",
+    "Adding a diluent to restore the peptide to solution before administration",
+    "Dissolving in alcohol",
+    "Melting the lyophilized cake"
+  ],
+  "correctIndex": 1,
+  "explanation": "Reconstitution involves adding sterile diluent to dissolve the lyophilized cake before injection.",
+  "difficulty": "beginner",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

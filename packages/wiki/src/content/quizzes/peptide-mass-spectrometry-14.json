@@ -1,0 +1,16 @@
+{
+  "question": "What is the y-ion series in peptide MS/MS?",
+  "options": [
+    "Ions containing the N-terminus",
+    "Ions containing the C-terminus produced by amide bond cleavage",
+    "Internal fragment ions",
+    "Immonium ions"
+  ],
+  "correctIndex": 1,
+  "explanation": "y-ions retain the C-terminal portion of the peptide after backbone amide bond cleavage, complementary to b-ions for sequence determination.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

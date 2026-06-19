@@ -1,0 +1,16 @@
+{
+  "question": "What is SPECT imaging?",
+  "options": [
+    "Single photon emission computed tomography",
+    "Sequential positron emission CT",
+    "Surface photoelectron emission CT",
+    "Synchronized photon energy CT"
+  ],
+  "correctIndex": 0,
+  "explanation": "SPECT uses gamma-emitting radionuclides and rotating gamma cameras to reconstruct 3D images of radiotracer distribution in the body.",
+  "difficulty": "beginner",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

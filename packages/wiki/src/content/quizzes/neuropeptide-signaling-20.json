@@ -1,0 +1,16 @@
+{
+  "question": "What is the concept of neuropeptide receptor reserve?",
+  "options": [
+    "Receptors that are non-functional",
+    "Excess receptors allowing maximal response without full receptor occupancy",
+    "Receptors only active at night",
+    "Damaged receptors awaiting repair"
+  ],
+  "correctIndex": 1,
+  "explanation": "Spare receptors mean maximum biological response can be achieved without occupying all available receptors, providing sensitivity and buffer against receptor loss.",
+  "difficulty": "intermediate",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

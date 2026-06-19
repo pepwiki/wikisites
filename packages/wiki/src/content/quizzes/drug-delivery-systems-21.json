@@ -1,0 +1,13 @@
+{
+  "question": "What is the main advantage of antibody-drug conjugates (ADCs)?",
+  "options": [
+    "They are cheaper to produce",
+    "They combine antibody specificity with drug potency",
+    "They are always biodegradable",
+    "They have improved taste"
+  ],
+  "correctIndex": 1,
+  "explanation": "ADCs link cytotoxic drugs to antibodies via linkers, enabling targeted delivery of potent drugs to specific cells while minimizing systemic toxicity.",
+  "difficulty": "intermediate",
+  "tags": ["delivery", "formulation"]
+}

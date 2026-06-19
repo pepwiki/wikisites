@@ -1,0 +1,16 @@
+{
+  "question": "Which caspase is the initiator in the extrinsic apoptosis pathway?",
+  "options": [
+    "Caspase-3",
+    "Caspase-7",
+    "Caspase-8",
+    "Caspase-9"
+  ],
+  "correctIndex": 2,
+  "explanation": "Caspase-8 is activated by death receptor signaling at the DISC. It then cleaves and activates executioner caspases like caspase-3 and caspase-7.",
+  "difficulty": "intermediate",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

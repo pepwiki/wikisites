@@ -1,0 +1,16 @@
+{
+  "question": "Which radionuclide is most commonly used in clinical PET imaging?",
+  "options": [
+    "Tc-99m",
+    "F-18",
+    "I-131",
+    "In-111"
+  ],
+  "correctIndex": 1,
+  "explanation": "F-18 (as FDG) is the most widely used PET radionuclide due to its optimal half-life, low positron energy, and versatile fluorination chemistry.",
+  "difficulty": "beginner",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

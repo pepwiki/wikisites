@@ -1,0 +1,9 @@
+{
+  "front": "What is the design space in analytical method development?",
+  "back": "The design space is the multidimensional combination of input variables that have been demonstrated to provide quality assurance. It allows operational flexibility within validated ranges.",
+  "tags": [
+    "analytics",
+    "validation"
+  ],
+  "difficulty": "advanced"
+}

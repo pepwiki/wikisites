@@ -1,0 +1,9 @@
+{
+  "front": "What is PEGylation?",
+  "back": "PEGylation covalently attaches polyethylene glycol (PEG) chains to peptides. It increases circulating half-life by reducing renal clearance and proteolytic degradation, and can improve solubility.",
+  "tags": [
+    "modifications",
+    "chemistry"
+  ],
+  "difficulty": "beginner"
+}

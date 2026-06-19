@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of fragment-based drug design?",
+  "options": [
+    "It only modifies existing drugs",
+    "It builds leads from small molecular fragments",
+    "It is slower than other methods",
+    "It requires less computation"
+  ],
+  "correctIndex": 1,
+  "explanation": "Fragment-based design starts with small, low-affinity fragments that bind to target sub-pockets, then links or grows them into potent leads.",
+  "difficulty": "advanced",
+  "tags": ["computational", "design"]
+}

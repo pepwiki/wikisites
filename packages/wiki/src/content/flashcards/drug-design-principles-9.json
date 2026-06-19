@@ -1,0 +1,9 @@
+{
+  "front": "What is selectivity index in drug design?",
+  "back": "The selectivity ratio compares the drug's effect on the intended target versus off-target effects. Higher selectivity indicates fewer side effects. It is calculated as IC50(off-target)/IC50(target).",
+  "tags": [
+    "drug-design",
+    "principles"
+  ],
+  "difficulty": "intermediate"
+}

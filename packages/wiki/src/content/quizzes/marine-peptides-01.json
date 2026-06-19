@@ -1,0 +1,16 @@
+{
+  "question": "Where are conotoxins derived from?",
+  "options": [
+    "Sponges",
+    "Cone snails (Conus species)",
+    "Coral reefs",
+    "Jellyfish"
+  ],
+  "correctIndex": 1,
+  "explanation": "Conotoxins are small, disulfide-rich peptides from cone snail venom targeting ion channels with remarkable specificity.",
+  "difficulty": "beginner",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of chitosan in nanoparticle drug delivery?",
+  "options": [
+    "It is a surfactant",
+    "It is a mucoadhesive, biodegradable polymer",
+    "It is a targeting ligand",
+    "It is a fluorescent marker"
+  ],
+  "correctIndex": 1,
+  "explanation": "Chitosan is a natural, mucoadhesive polymer that enhances nanoparticle adhesion to mucosal surfaces and promotes paracellular transport, improving drug absorption.",
+  "difficulty": "intermediate",
+  "tags": ["delivery", "formulation"]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is antigen processing?",
+  "back": "Antigen processing is the mechanism by which proteins are degraded into peptides for MHC presentation. Proteasomal degradation generates peptides for MHC-I; endosomal degradation generates peptides for MHC-II.",
+  "tags": [
+    "immunology",
+    "MHC"
+  ],
+  "difficulty": "beginner"
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of cysteine-rich secretory proteins in plant defense?",
+  "options": [
+    "Storage proteins only",
+    "A superfamily including defensins and nsLTPs providing structural diversity for pathogen defense",
+    "Only for cell wall structure",
+    "Only for seed development"
+  ],
+  "correctIndex": 1,
+  "explanation": "CRiPs encompass diverse families using various mechanisms for plant defense including membrane binding and lipid transfer.",
+  "difficulty": "advanced",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

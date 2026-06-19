@@ -1,0 +1,9 @@
+{
+  "front": "What is the hydrophobicity scale used to rank amino acid side chains?",
+  "back": "The Kyte-Doolittle scale is commonly used, where positive values indicate hydrophobicity. Isoleucine (4.5) is the most hydrophobic, while arginine (-4.5) is the most hydrophilic.",
+  "tags": [
+    "amino-acids",
+    "properties"
+  ],
+  "difficulty": "intermediate"
+}

@@ -1,0 +1,9 @@
+{
+  "front": "Which amino acid can undergo racemization under physiological conditions?",
+  "back": "Aspartate can undergo racemization under physiological conditions, converting L-Asp to D-Asp. This is relevant in aging, where D-Asp accumulates in long-lived proteins.",
+  "tags": [
+    "amino-acids",
+    "properties"
+  ],
+  "difficulty": "advanced"
+}

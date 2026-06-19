@@ -1,0 +1,16 @@
+{
+  "question": "What is peptide mass fingerprinting (PMF)?",
+  "options": [
+    "Individual amino acid analysis",
+    "Matching experimental peptide masses from digestion to predicted masses from a database",
+    "Sequencing entire proteins directly",
+    "Measuring post-translational modifications only"
+  ],
+  "correctIndex": 1,
+  "explanation": "PMF compares the set of peptide masses from enzymatic digestion with predicted masses from protein databases for identification.",
+  "difficulty": "beginner",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

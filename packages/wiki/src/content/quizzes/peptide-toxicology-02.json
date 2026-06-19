@@ -1,0 +1,16 @@
+{
+  "question": "What does ADME stand for?",
+  "options": [
+    "Adverse Drug Monitoring and Evaluation",
+    "Absorption, Distribution, Metabolism, and Excretion",
+    "Antibody-Dependent Mediated Elimination",
+    "Acute Dose Measurement Evaluation"
+  ],
+  "correctIndex": 1,
+  "explanation": "ADME describes the four key pharmacokinetic processes determining drug concentration at the site of action.",
+  "difficulty": "beginner",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is precision?",
+  "back": "Precision is the reproducibility of measurements. It includes repeatability (same operator, same day), intermediate precision (different days/operators), and reproducibility (different laboratories).",
+  "tags": [
+    "analytics",
+    "validation"
+  ],
+  "difficulty": "beginner"
+}

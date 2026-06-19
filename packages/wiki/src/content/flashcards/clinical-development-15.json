@@ -1,0 +1,9 @@
+{
+  "front": "What is bioequivalence?",
+  "back": "Bioequivalence compares the pharmacokinetics of a generic drug to the reference drug. The generic must have AUC and Cmax within 80-125% of the reference to be considered equivalent.",
+  "tags": [
+    "clinical",
+    "development"
+  ],
+  "difficulty": "intermediate"
+}

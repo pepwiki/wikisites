@@ -1,0 +1,9 @@
+{
+  "front": "What is a disulfide bond's contribution to stability?",
+  "back": "Disulfide bonds contribute 10-20 kJ/mol of stability. They constrain the conformational entropy of the unfolded state, making the folded state more favorable.",
+  "tags": [
+    "interactions",
+    "binding"
+  ],
+  "difficulty": "intermediate"
+}

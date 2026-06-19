@@ -1,0 +1,9 @@
+{
+  "front": "What is method transfer?",
+  "back": "Method transfer demonstrates that a validated method performs equivalently when moved between laboratories. It involves parallel testing and statistical comparison of results.",
+  "tags": [
+    "analytics",
+    "validation"
+  ],
+  "difficulty": "intermediate"
+}

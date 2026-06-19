@@ -1,0 +1,16 @@
+{
+  "question": "What is the LecT cell phenotype associated with?",
+  "options": [
+    "Enhanced glycosylation",
+    "Loss of core fucosylation of N-glycans",
+    "Increased sialylation",
+    "Hyper-O-glycosylation"
+  ],
+  "correctIndex": 1,
+  "explanation": "The LecT phenotype results from loss of FUT8 activity, eliminating core fucose from N-glycans. This modification affects antibody-dependent cellular cytotoxicity.",
+  "difficulty": "advanced",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

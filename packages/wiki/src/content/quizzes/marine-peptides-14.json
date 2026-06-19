@@ -1,0 +1,16 @@
+{
+  "question": "What is a depsipeptide?",
+  "options": [
+    "A regular peptide",
+    "A peptide containing both amide and ester bonds in the backbone",
+    "A peptide with only disulfide bonds",
+    "A dephosphorylated peptide"
+  ],
+  "correctIndex": 1,
+  "explanation": "Depsipeptides incorporate ester bonds alongside amide bonds, creating hybrid structures common in marine natural products.",
+  "difficulty": "intermediate",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is the tapasin protein?",
+  "back": "Tapasin bridges TAP to MHC class I molecules, facilitating peptide loading and editing. It ensures that only high-affinity peptides are loaded onto MHC-I, improving presentation quality.",
+  "tags": [
+    "immunology",
+    "MHC"
+  ],
+  "difficulty": "advanced"
+}

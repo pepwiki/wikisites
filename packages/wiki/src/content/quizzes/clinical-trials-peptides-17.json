@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of Cmax and Tmax in PK analysis?",
+  "options": [
+    "Cmax is minimum concentration, Tmax is time to minimum",
+    "Cmax is maximum concentration, Tmax is time to reach Cmax",
+    "They measure drug half-life",
+    "They indicate drug clearance"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cmax is the peak drug concentration achieved, and Tmax is the time to reach that peak. They describe the rate and extent of drug absorption.",
+  "difficulty": "intermediate",
+  "tags": ["clinical", "trials"]
+}

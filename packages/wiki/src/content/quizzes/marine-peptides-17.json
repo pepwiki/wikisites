@@ -1,0 +1,16 @@
+{
+  "question": "What is the challenge of producing marine natural product peptides?",
+  "options": [
+    "Always easy to synthesize",
+    "Supply limited by difficult access to organisms, low yields, and complex structures",
+    "Always abundant in nature",
+    "Never requires synthesis"
+  ],
+  "correctIndex": 1,
+  "explanation": "Marine organisms are difficult to collect sustainably, requiring total synthesis, semi-synthesis, or heterologous expression for supply.",
+  "difficulty": "intermediate",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

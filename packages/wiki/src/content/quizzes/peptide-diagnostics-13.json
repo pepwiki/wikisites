@@ -1,0 +1,16 @@
+{
+  "question": "What is a Luminex multiplex bead assay?",
+  "options": [
+    "Fluorescent microscopy method",
+    "Flow cytometry-based simultaneous detection of multiple analytes",
+    "Gel electrophoresis technique",
+    "Chromatographic separation method"
+  ],
+  "correctIndex": 1,
+  "explanation": "Luminex assays use spectrally distinct microspheres coated with capture antibodies to simultaneously measure multiple peptides in a single sample using flow cytometry.",
+  "difficulty": "intermediate",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

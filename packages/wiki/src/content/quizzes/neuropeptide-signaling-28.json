@@ -1,0 +1,16 @@
+{
+  "question": "How do neuropeptide agonists and antagonists differ from classical drug targets?",
+  "options": [
+    "Same approach",
+    "Neuropeptide GPCRs have large, flexible binding sites requiring peptidomimetic design",
+    "Classical targets are always better drug targets",
+    "Neuropeptide receptors are always easier to drug"
+  ],
+  "correctIndex": 1,
+  "explanation": "Neuropeptide GPCRs have large, solvent-exposed orthosteric sites that accommodate peptide ligands, making them challenging to drug with small molecules.",
+  "difficulty": "advanced",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

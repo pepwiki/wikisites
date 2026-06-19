@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of water molecules in molecular docking?",
+  "options": [
+    "They are always removed",
+    "Conserved water molecules can mediate peptide-protein interactions",
+    "They only affect solubility",
+    "They have no role in binding"
+  ],
+  "correctIndex": 1,
+  "explanation": "Conserved water molecules can form bridging hydrogen bonds between peptide and protein, significantly affecting binding affinity and specificity.",
+  "difficulty": "advanced",
+  "tags": ["computational", "design"]
+}

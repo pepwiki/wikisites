@@ -1,0 +1,9 @@
+{
+  "front": "What is a stability-indicating method?",
+  "back": "A stability-indicating method can resolve the intact peptide from all degradation products. It is essential for stability studies and must be validated per ICH guidelines.",
+  "tags": [
+    "analytics",
+    "validation"
+  ],
+  "difficulty": "intermediate"
+}

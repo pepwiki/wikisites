@@ -1,0 +1,8 @@
+{
+  "question": "What is the pKa of the imidazole ring in histidine?",
+  "options": ["3.5", "6.0", "8.5", "10.5"],
+  "correctIndex": 1,
+  "explanation": "Histidine's imidazole side chain has a pKa near 6.0, allowing it to function as both a proton donor and acceptor at physiological pH. This makes it crucial in enzyme active sites.",
+  "difficulty": "intermediate",
+  "tags": ["amino-acids", "chemistry"]
+}

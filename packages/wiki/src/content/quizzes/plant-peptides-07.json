@@ -1,0 +1,16 @@
+{
+  "question": "Which plant produces kalata B1?",
+  "options": [
+    "Tobacco",
+    "Oldenlandia affinis (Rubiaceae family)",
+    "Soybean",
+    "Arabidopsis"
+  ],
+  "correctIndex": 1,
+  "explanation": "Kalata B1 was first isolated from Oldenlandia affinis, the prototypical cyclotide with uterotonic activity.",
+  "difficulty": "beginner",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

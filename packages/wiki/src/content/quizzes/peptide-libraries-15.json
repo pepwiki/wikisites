@@ -1,0 +1,16 @@
+{
+  "question": "What is DNA-encoded chemical library (DECL) technology?",
+  "options": [
+    "Encoding DNA in peptides",
+    "Linking each peptide to a unique DNA barcode for affinity selection and sequencing",
+    "Using DNA as a template for peptide synthesis",
+    "A type of gene therapy"
+  ],
+  "correctIndex": 1,
+  "explanation": "DECL attaches unique DNA tags to each peptide, enabling selection by affinity capture and identification by PCR amplification and DNA sequencing of the barcode.",
+  "difficulty": "intermediate",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

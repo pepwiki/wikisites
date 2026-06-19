@@ -1,0 +1,16 @@
+{
+  "question": "What is a batch record in GMP manufacturing?",
+  "options": [
+    "Sales records",
+    "Documented account of all manufacturing steps and quality results for a specific batch",
+    "Employee records",
+    "Equipment maintenance logs only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Batch records provide complete documentation of the manufacturing process for each batch produced.",
+  "difficulty": "intermediate",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

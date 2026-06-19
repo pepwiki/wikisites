@@ -1,0 +1,13 @@
+{
+  "question": "What is the main advantage of peptide cyclization?",
+  "options": [
+    "It increases peptide size",
+    "It improves stability and reduces proteolytic degradation",
+    "It increases flexibility",
+    "It reduces binding affinity"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cyclization constrains peptide conformation, reducing flexibility and protecting against exopeptidase degradation, thereby improving metabolic stability and bioavailability.",
+  "difficulty": "beginner",
+  "tags": ["stability", "modifications"]
+}

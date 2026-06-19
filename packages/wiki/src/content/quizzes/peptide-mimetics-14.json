@@ -1,0 +1,16 @@
+{
+  "question": "What is a triazole peptide mimic?",
+  "options": [
+    "A peptide with three nitrogen atoms",
+    "A molecule using 1,2,3-triazole as an amide bond bioisostere from click chemistry",
+    "A peptide that binds to triazoles",
+    "A three-ring aromatic system"
+  ],
+  "correctIndex": 1,
+  "explanation": "1,2,3-Triazoles, formed by copper-catalyzed azide-alkyne cycloaddition, serve as amide bond mimics with improved metabolic stability, rigidity, and dipole moment similar to peptide bonds.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

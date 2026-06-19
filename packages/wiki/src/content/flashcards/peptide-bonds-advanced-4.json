@@ -1,10 +1,9 @@
 {
-  "front": "Explain the mechanism of asparagine deamidation and its pharmaceutical significance.",
-  "back": "Asn-Gly and Asn-Ser sequences undergo spontaneous deamidation via succinimide intermediate, converting Asn to Asp/isoAsp. Rate depends on pH, temperature, and local structure. This is a major degradation pathway for therapeutic proteins.",
+  "front": "What are the phi (\u03c6) and psi (\u03c8) torsion angles in a peptide?",
+  "back": "Phi (\u03c6) is the rotation angle around the N-C\u03b1 bond, and psi (\u03c8) is the rotation angle around the C\u03b1-C bond. Together with omega (\u03c9), they define the backbone conformation.",
   "tags": [
     "peptide-bonds",
-    "chemistry",
-    "pharmaceutical"
+    "structure"
   ],
-  "difficulty": "advanced"
+  "difficulty": "beginner"
 }

@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of cAMP in GPCR signaling?",
+  "options": [
+    "It is a second messenger activated by Gq proteins",
+    "It is a second messenger produced by adenylyl cyclase",
+    "It is a kinase that phosphorylates receptors",
+    "It is a G protein subunit"
+  ],
+  "correctIndex": 1,
+  "explanation": "cAMP is produced by adenylyl cyclase when activated by Gs proteins. It activates protein kinase A (PKA) and serves as a key second messenger in many signaling pathways.",
+  "difficulty": "beginner",
+  "tags": ["receptors", "pharmacology"]
+}

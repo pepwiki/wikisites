@@ -1,0 +1,16 @@
+{
+  "question": "What is the carpet model of AMP action?",
+  "options": [
+    "AMPs form transmembrane pores",
+    "AMPs coat the membrane surface, disrupting integrity without defined pores",
+    "AMPs insert only into the inner leaflet",
+    "AMPs create lipid rafts"
+  ],
+  "correctIndex": 1,
+  "explanation": "In the carpet model, cationic AMPs accumulate on the membrane surface and disrupt the bilayer in a detergent-like manner without forming defined pore structures.",
+  "difficulty": "intermediate",
+  "tags": [
+    "antimicrobial",
+    "defense"
+  ]
+}

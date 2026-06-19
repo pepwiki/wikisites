@@ -1,0 +1,16 @@
+{
+  "question": "What distinguishes exopeptidases from endopeptidases?",
+  "options": [
+    "Exopeptidases cleave internal bonds",
+    "Endopeptidases remove terminal residues",
+    "Exopeptidases cleave from termini, endopeptidases cleave internally",
+    "They differ only in substrate size"
+  ],
+  "correctIndex": 2,
+  "explanation": "Exopeptidases sequentially remove amino acids from the N-terminus or C-terminus, while endopeptidases cleave internal peptide bonds within the chain.",
+  "difficulty": "beginner",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

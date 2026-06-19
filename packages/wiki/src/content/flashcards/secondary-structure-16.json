@@ -1,0 +1,9 @@
+{
+  "front": "What determines the stability of an alpha-helix?",
+  "back": "Helix stability depends on the intrinsic helix propensity of amino acids, side-chain interactions (i, i+3 and i, i+4), capping interactions at the helix termini, and the helix dipole moment.",
+  "tags": [
+    "structure",
+    "secondary"
+  ],
+  "difficulty": "intermediate"
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is a pseudoproline dipeptide and when is it used?",
+  "back": "Pseudoproline dipeptides are Fmoc-Xaa-Pro-OR derivatives where the oxazolidine ring mimics proline's structural constraints. They are used to improve coupling efficiency at difficult sequences prone to aggregation.",
+  "tags": [
+    "synthesis",
+    "reagents"
+  ],
+  "difficulty": "advanced"
+}

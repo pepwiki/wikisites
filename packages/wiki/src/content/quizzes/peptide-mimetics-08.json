@@ -1,0 +1,16 @@
+{
+  "question": "What is an alpha,alpha-disubstituted amino acid?",
+  "options": [
+    "An amino acid with two alpha-hydrogens",
+    "An amino acid with two substituents at the alpha-carbon, restricting conformational flexibility",
+    "An amino acid with two carboxyl groups",
+    "An amino acid with two amino groups"
+  ],
+  "correctIndex": 1,
+  "explanation": "Alpha,alpha-disubstituted amino acids (e.g., Aib) restrict phi/psi angles, stabilizing specific secondary structures like helices and reducing conformational entropy.",
+  "difficulty": "beginner",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

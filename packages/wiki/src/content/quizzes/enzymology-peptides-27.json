@@ -1,0 +1,16 @@
+{
+  "question": "What distinguishes pure non-competitive from mixed inhibition?",
+  "options": [
+    "Non-competitive binds only ES complex",
+    "Non-competitive binds free enzyme and ES equally",
+    "Mixed does not change Km",
+    "Non-competitive increases Vmax"
+  ],
+  "correctIndex": 1,
+  "explanation": "In pure non-competitive inhibition, the inhibitor binds free enzyme and ES complex with equal affinity, leaving Km unchanged. Mixed inhibition has unequal binding affinities.",
+  "difficulty": "advanced",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

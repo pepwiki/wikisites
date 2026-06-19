@@ -1,0 +1,16 @@
+{
+  "question": "What is a Kaiser test?",
+  "options": [
+    "Measures peptide mass",
+    "Colorimetric test for free amines on resin to verify coupling completion",
+    "Measures coupling reagent concentration",
+    "Tests for racemization"
+  ],
+  "correctIndex": 1,
+  "explanation": "The Kaiser (ninhydrin) test detects free primary amines on the resin. A negative (yellow) result confirms complete coupling; blue/purple indicates incomplete coupling.",
+  "difficulty": "intermediate",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

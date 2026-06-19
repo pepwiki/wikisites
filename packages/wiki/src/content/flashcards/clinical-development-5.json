@@ -1,0 +1,9 @@
+{
+  "front": "What is a randomized controlled trial (RCT)?",
+  "back": "An RCT randomly assigns participants to treatment or control groups. It is the gold standard for clinical evidence, minimizing bias and allowing causal inference about treatment effects.",
+  "tags": [
+    "clinical",
+    "development"
+  ],
+  "difficulty": "beginner"
+}

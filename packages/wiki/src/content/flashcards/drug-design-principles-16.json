@@ -1,0 +1,9 @@
+{
+  "front": "What is PAINS in drug screening?",
+  "back": "Pan-Assay Interference Compounds (PAINS) are frequent hitters that give false positives in high-throughput screens. They include reactive groups like quinones, catechols, and rhodanines.",
+  "tags": [
+    "drug-design",
+    "principles"
+  ],
+  "difficulty": "advanced"
+}

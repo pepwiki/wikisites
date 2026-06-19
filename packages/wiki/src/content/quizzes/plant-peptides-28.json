@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of antimicrobial peptide genes in transgenic crop protection?",
+  "options": [
+    "No role in agriculture",
+    "Introducing AMP genes into crops provides enhanced resistance to fungal and bacterial pathogens without chemical pesticides",
+    "AMP genes only function in wild plants",
+    "Transgenic crops never express AMPs effectively"
+  ],
+  "correctIndex": 1,
+  "explanation": "Transgenic expression of plant or animal AMP genes (defensins, cecropins, thionins) in crops like rice, wheat, and tobacco enhances resistance to major fungal and bacterial diseases.",
+  "difficulty": "intermediate",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

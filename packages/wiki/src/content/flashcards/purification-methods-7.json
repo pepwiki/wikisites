@@ -1,0 +1,9 @@
+{
+  "front": "What is preparative HPLC?",
+  "back": "Preparative HPLC uses larger columns and flow rates to purify milligram to gram quantities of peptides. It typically uses gradient elution with collection of fractions that are later analyzed.",
+  "tags": [
+    "purification",
+    "chromatography"
+  ],
+  "difficulty": "beginner"
+}

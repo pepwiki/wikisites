@@ -1,0 +1,16 @@
+{
+  "question": "What is fragment condensation in peptide synthesis?",
+  "options": [
+    "Coupling single amino acids only",
+    "Synthesizing protected peptide fragments separately then coupling them together",
+    "Breaking peptides into smaller pieces",
+    "A type of peptide purification"
+  ],
+  "correctIndex": 1,
+  "explanation": "Fragment condensation synthesizes protected peptide fragments (5-20 residues) by SPPS, then couples them sequentially, enabling synthesis of longer peptides with reduced deletion products.",
+  "difficulty": "advanced",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

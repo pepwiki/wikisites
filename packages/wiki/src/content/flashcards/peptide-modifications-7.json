@@ -1,0 +1,9 @@
+{
+  "front": "What is amidation of the C-terminus?",
+  "back": "C-terminal amidation replaces the C-terminal carboxyl group with an amide. This increases stability against carboxypeptidases and is a natural modification in many bioactive peptides.",
+  "tags": [
+    "modifications",
+    "chemistry"
+  ],
+  "difficulty": "beginner"
+}

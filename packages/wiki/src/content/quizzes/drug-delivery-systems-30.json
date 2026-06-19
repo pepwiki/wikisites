@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of microspheres for peptide delivery?",
+  "options": [
+    "They provide immediate release",
+    "They protect peptides from degradation and provide sustained release",
+    "They always have high drug loading",
+    "They are only for oral delivery"
+  ],
+  "correctIndex": 1,
+  "explanation": "Microspheres protect peptides from enzymatic degradation and provide controlled, sustained release over days to weeks, reducing dosing frequency.",
+  "difficulty": "intermediate",
+  "tags": ["delivery", "formulation"]
+}

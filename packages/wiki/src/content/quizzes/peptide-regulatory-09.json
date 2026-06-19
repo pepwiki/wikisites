@@ -1,0 +1,16 @@
+{
+  "question": "What is a drug substance vs drug product?",
+  "options": [
+    "Same thing",
+    "Drug substance is the API; drug product is the finished dosage form",
+    "Drug substance is the raw material only",
+    "Drug product is always injectable"
+  ],
+  "correctIndex": 1,
+  "explanation": "The drug substance is the pure active peptide. The drug product is the final formulated dosage form ready for patient administration.",
+  "difficulty": "beginner",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

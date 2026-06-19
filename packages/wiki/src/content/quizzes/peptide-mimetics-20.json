@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of computational design in peptidomimetics?",
+  "options": [
+    "No role in design",
+    "Molecular modeling identifies optimal scaffolds, predicts binding modes, and guides structure-activity relationships",
+    "Only for visualization",
+    "Only for protein structure prediction"
+  ],
+  "correctIndex": 1,
+  "explanation": "Computational methods (docking, molecular dynamics, de novo design) predict peptidomimetic-target interactions, optimizing scaffold choice and substituent placement for maximal activity.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

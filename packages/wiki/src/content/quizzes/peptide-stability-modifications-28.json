@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of spray-dried peptide formulations?",
+  "options": [
+    "They increase peptide degradation",
+    "They provide stable solid dosage forms with improved shelf life",
+    "They always require refrigeration",
+    "They are only for liquid formulations"
+  ],
+  "correctIndex": 1,
+  "explanation": "Spray drying converts peptide solutions to stable solid powders, improving shelf life and enabling various delivery routes including inhalation.",
+  "difficulty": "intermediate",
+  "tags": ["stability", "modifications"]
+}

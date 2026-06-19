@@ -1,0 +1,16 @@
+{
+  "question": "What does the NOE (Nuclear Overhauser Effect) report on?",
+  "options": [
+    "Covalent bond connectivity",
+    "Through-space distances between nearby nuclei",
+    "J-coupling constants",
+    "Chemical exchange rates"
+  ],
+  "correctIndex": 1,
+  "explanation": "NOE signals arise from dipolar coupling between nuclei within ~5 A of each other in space. NOE distance constraints drive NMR structure calculations.",
+  "difficulty": "intermediate",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

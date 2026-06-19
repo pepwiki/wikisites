@@ -1,0 +1,16 @@
+{
+  "question": "What are sunflower trypsin inhibitors (SFTIs)?",
+  "options": [
+    "Sunflower structural proteins",
+    "Cyclic peptides from sunflower seeds that potently inhibit trypsin, potential oral drug scaffolds",
+    "Sunflower pigments",
+    "Sunflower allergens only"
+  ],
+  "correctIndex": 1,
+  "explanation": "SFTI-1 is a cyclic peptide with picomolar trypsin inhibitory activity being explored for oral peptide drugs.",
+  "difficulty": "intermediate",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

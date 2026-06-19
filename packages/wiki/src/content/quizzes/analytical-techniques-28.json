@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of two-dimensional chromatography for peptide separation?",
+  "options": [
+    "It is faster than 1D",
+    "It provides greater peak capacity and resolution",
+    "It requires less sample",
+    "It is cheaper"
+  ],
+  "correctIndex": 1,
+  "explanation": "2D chromatography (like strong cation exchange followed by reversed-phase) provides greater peak capacity by orthogonal separation mechanisms, resolving complex mixtures.",
+  "difficulty": "intermediate",
+  "tags": ["analytical", "techniques"]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is the Schild analysis?",
+  "back": "Schild analysis determines the mechanism of antagonism and measures antagonist potency (pA2). A linear Schild plot with slope = 1 confirms competitive antagonism.",
+  "tags": [
+    "receptors",
+    "binding"
+  ],
+  "difficulty": "advanced"
+}

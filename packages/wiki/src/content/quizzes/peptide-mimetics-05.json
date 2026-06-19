@@ -1,0 +1,16 @@
+{
+  "question": "What is N-methylation of peptide bonds?",
+  "options": [
+    "Adding a methyl group to the N-terminus",
+    "Replacing the amide NH with N-methyl, reducing H-bond donors and increasing membrane permeability",
+    "Methylating the alpha-carbon",
+    "Adding methionine to the sequence"
+  ],
+  "correctIndex": 1,
+  "explanation": "N-methylation replaces amide NH with N-CH3, reducing the number of H-bond donors, increasing lipophilicity and membrane permeability, and blocking protease recognition.",
+  "difficulty": "beginner",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

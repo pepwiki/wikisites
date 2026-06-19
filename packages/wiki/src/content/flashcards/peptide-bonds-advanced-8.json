@@ -1,10 +1,9 @@
 {
-  "front": "Describe the role of backbone hydrogen bonds in alpha-helix stability.",
-  "back": "Alpha-helices have i to i+4 backbone hydrogen bonds (C=O...H-N). Each bond contributes ~1 kcal/mol. Helix dipole effects stabilize N-capping. Proline and glycine are helix breakers. Side chain interactions modulate helix propensity.",
+  "front": "What is the bond length of a peptide C-N bond?",
+  "back": "The peptide C-N bond length is approximately 1.32 \u00c5, which is intermediate between a single C-N bond (1.49 \u00c5) and a double C=N bond (1.27 \u00c5), reflecting its partial double-bond character.",
   "tags": [
     "peptide-bonds",
-    "structural-biology",
-    "protein-structure"
+    "structure"
   ],
   "difficulty": "advanced"
 }

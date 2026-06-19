@@ -1,0 +1,9 @@
+{
+  "front": "What is the ICH Q2 guideline?",
+  "back": "ICH Q2 provides harmonized requirements for validation of analytical procedures. It covers parameters including specificity, accuracy, precision, detection limit, quantitation limit, and linearity.",
+  "tags": [
+    "analytics",
+    "validation"
+  ],
+  "difficulty": "beginner"
+}

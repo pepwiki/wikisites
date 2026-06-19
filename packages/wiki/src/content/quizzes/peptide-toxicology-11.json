@@ -1,0 +1,16 @@
+{
+  "question": "What is a therapeutic window?",
+  "options": [
+    "A pharmacy delivery service",
+    "The range between minimum effective concentration and minimum toxic concentration",
+    "A type of drug formulation",
+    "Patient compliance metric"
+  ],
+  "correctIndex": 1,
+  "explanation": "The therapeutic window defines the concentration range where a drug is effective without being toxic.",
+  "difficulty": "intermediate",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

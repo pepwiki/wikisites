@@ -1,0 +1,16 @@
+{
+  "question": "What makes cyclotides resistant to degradation?",
+  "options": [
+    "Lack of functional groups",
+    "Cyclic backbone combined with three conserved disulfide bonds creating an extremely stable structure",
+    "They are very small",
+    "They contain D-amino acids only"
+  ],
+  "correctIndex": 1,
+  "explanation": "The combination of cyclic backbone and cystine knot makes cyclotides resistant to heat, denaturation, and proteolytic degradation.",
+  "difficulty": "beginner",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

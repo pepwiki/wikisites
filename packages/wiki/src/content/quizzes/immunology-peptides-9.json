@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of dendritic cells in peptide vaccine responses?",
+  "options": [
+    "They produce antibodies",
+    "They are professional APCs that activate naive T cells",
+    "They phagocytose B cells",
+    "They suppress immune responses"
+  ],
+  "correctIndex": 1,
+  "explanation": "Dendritic cells are the most potent antigen-presenting cells, capturing and presenting peptides to naive T cells to initiate adaptive immune responses.",
+  "difficulty": "beginner",
+  "tags": ["immunology", "peptides"]
+}

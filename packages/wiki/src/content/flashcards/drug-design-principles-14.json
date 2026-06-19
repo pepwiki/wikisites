@@ -1,0 +1,9 @@
+{
+  "front": "What is the Veber rule?",
+  "back": "Veber's rules complement Lipinski's: compounds with rotatable bonds \u2264 10 and polar surface area \u2264 140 \u00c5\u00b2 tend to have good oral bioavailability, regardless of MW and logP.",
+  "tags": [
+    "drug-design",
+    "principles"
+  ],
+  "difficulty": "advanced"
+}

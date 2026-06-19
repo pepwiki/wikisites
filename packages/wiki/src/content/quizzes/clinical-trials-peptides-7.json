@@ -1,0 +1,13 @@
+{
+  "question": "What is the difference between pharmacokinetics and pharmacodynamics?",
+  "options": [
+    "PK measures drug effect, PD measures drug concentration",
+    "PK measures drug concentration over time, PD measures drug effect",
+    "They are the same thing",
+    "PK is for peptides, PD is for small molecules"
+  ],
+  "correctIndex": 1,
+  "explanation": "PK measures drug concentration in the body over time (ADME), while PD measures the relationship between drug concentration and its biological effect.",
+  "difficulty": "intermediate",
+  "tags": ["clinical", "trials"]
+}

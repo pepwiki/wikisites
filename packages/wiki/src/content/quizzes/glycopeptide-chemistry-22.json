@@ -1,0 +1,16 @@
+{
+  "question": "What is the glycosylphosphatidylinositol (GPI) anchor?",
+  "options": [
+    "N-linked glycan to cysteine",
+    "Phosphoethanolamine linker, glycan core, and phosphatidylinositol lipid",
+    "O-linked glycan to serine",
+    "Single fatty acid chain"
+  ],
+  "correctIndex": 1,
+  "explanation": "GPI anchors attach proteins to the outer leaflet of cell membranes through phosphoethanolamine-linker, mannose3-GlcNAc glycan core, and phosphatidylinositol with lipid tails.",
+  "difficulty": "advanced",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

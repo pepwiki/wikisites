@@ -1,0 +1,16 @@
+{
+  "question": "What does cryo-EM stand for?",
+  "options": [
+    "Crystallographic yield electron microscopy",
+    "Cryo-electron microscopy",
+    "Cryogenic energy mapping",
+    "Cross-linked electron microscopy"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cryo-electron microscopy flash-freezes samples in vitreous ice, preserving native conformations. It resolves structures of large complexes without crystallization.",
+  "difficulty": "beginner",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of GCP (Good Clinical Practice) guidelines?",
+  "options": [
+    "To manufacture drugs",
+    "To ensure quality, safety, and ethical conduct of clinical trials",
+    "To market drugs",
+    "To design drug formulations"
+  ],
+  "correctIndex": 1,
+  "explanation": "GCP provides international ethical and scientific quality standards for designing, conducting, recording, and reporting clinical trials involving human subjects.",
+  "difficulty": "beginner",
+  "tags": ["clinical", "trials"]
+}

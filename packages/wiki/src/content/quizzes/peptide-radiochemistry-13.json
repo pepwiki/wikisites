@@ -1,0 +1,16 @@
+{
+  "question": "What is DOTA?",
+  "options": [
+    "A peptide sequence",
+    "A macrocyclic chelator for radiometals",
+    "A type of PET scanner",
+    "A radioisotope"
+  ],
+  "correctIndex": 1,
+  "explanation": "DOTA is a macrocyclic chelator forming extremely stable complexes with trivalent and tetravalent metal ions, the gold standard for Lu-177, Ga-68, and Y-90.",
+  "difficulty": "intermediate",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

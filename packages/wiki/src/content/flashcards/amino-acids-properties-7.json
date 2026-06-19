@@ -1,0 +1,9 @@
+{
+  "front": "What makes proline unique among the 20 standard amino acids?",
+  "back": "Proline is the only amino acid where the side chain cyclizes back to the backbone nitrogen, forming a pyrrolidine ring. This restricts its conformational flexibility and introduces kinks in peptide chains.",
+  "tags": [
+    "amino-acids",
+    "properties"
+  ],
+  "difficulty": "intermediate"
+}

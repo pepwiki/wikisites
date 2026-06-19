@@ -1,0 +1,16 @@
+{
+  "question": "What is a Quality Management System (QMS)?",
+  "options": [
+    "A single quality test",
+    "The organizational structure, procedures, and resources for implementing quality management",
+    "An accounting system",
+    "A laboratory information management system only"
+  ],
+  "correctIndex": 1,
+  "explanation": "A QMS encompasses all activities that determine quality policy, objectives, and responsibilities.",
+  "difficulty": "intermediate",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

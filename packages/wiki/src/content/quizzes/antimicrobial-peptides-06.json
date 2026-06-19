@@ -1,0 +1,16 @@
+{
+  "question": "What is the typical mechanism of pore-forming AMPs?",
+  "options": [
+    "Inhibiting protein synthesis",
+    "Inserting into membranes to form channels or pores",
+    "Blocking DNA replication",
+    "Inhibiting cell wall synthesis"
+  ],
+  "correctIndex": 1,
+  "explanation": "Pore-forming AMPs insert into bacterial lipid bilayers and assemble into transmembrane channels through barrel-stave, toroidal pore, or carpet mechanisms.",
+  "difficulty": "beginner",
+  "tags": [
+    "antimicrobial",
+    "defense"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the primary structure of a protein?",
+  "options": [
+    "Alpha helices and beta sheets",
+    "The 3D folded conformation",
+    "The linear sequence of amino acids",
+    "Subunit arrangement"
+  ],
+  "correctIndex": 2,
+  "explanation": "Primary structure is the linear sequence of amino acids linked by peptide bonds. It determines all higher levels of protein structure and function.",
+  "difficulty": "beginner",
+  "tags": ["amino-acids", "chemistry"]
+}

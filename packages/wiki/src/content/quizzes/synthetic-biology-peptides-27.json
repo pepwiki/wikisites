@@ -1,0 +1,16 @@
+{
+  "question": "What is the thiotemplate mechanism in NRPS?",
+  "options": [
+    "DNA template only",
+    "The NRPS enzyme itself serves as template using covalent thioester intermediates instead of mRNA codons",
+    "Ribosomal template only",
+    "No template needed only"
+  ],
+  "correctIndex": 1,
+  "explanation": "In thiotemplate mechanism, the NRPS enzyme determines peptide sequence using thioester-linked intermediates rather than codon-anticodon recognition.",
+  "difficulty": "advanced",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

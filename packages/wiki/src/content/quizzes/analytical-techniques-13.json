@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of the Trypsin digestion in proteomics?",
+  "options": [
+    "It synthesizes peptides",
+    "It cleaves proteins at Lys and Arg residues for analysis",
+    "It purifies peptides",
+    "It quantifies peptides"
+  ],
+  "correctIndex": 1,
+  "explanation": "Trypsin specifically cleaves after lysine and arginine residues, generating predictable peptide fragments for mass spectrometric analysis and protein identification.",
+  "difficulty": "beginner",
+  "tags": ["analytical", "techniques"]
+}

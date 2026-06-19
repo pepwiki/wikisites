@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the PDB (Protein Data Bank)?",
+  "options": [
+    "It synthesizes proteins",
+    "It archives experimentally determined 3D structures",
+    "It sequences genomes",
+    "It purifies proteins"
+  ],
+  "correctIndex": 1,
+  "explanation": "The PDB is a repository of experimentally determined 3D structures of proteins and nucleic acids, providing structural data for computational modeling.",
+  "difficulty": "beginner",
+  "tags": ["computational", "design"]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What distinguishes proline from other amino acids structurally?",
+  "options": [
+    "It has no chiral center",
+    "It is a secondary amine",
+    "It lacks an amino group",
+    "It has a straight side chain"
+  ],
+  "correctIndex": 1,
+  "explanation": "Proline is unique because its side chain cyclizes back to the backbone nitrogen, forming a pyrrolidine ring. This makes it a secondary amine, restricting peptide bond rotation.",
+  "difficulty": "beginner",
+  "tags": ["amino-acids", "chemistry"]
+}

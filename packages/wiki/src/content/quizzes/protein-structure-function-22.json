@@ -1,0 +1,13 @@
+{
+  "question": "What is the Levinthal paradox?",
+  "options": [
+    "Proteins fold too fast to be explained by random search",
+    "Proteins never fold correctly",
+    "Proteins fold too slowly to be functional",
+    "Proteins have too many possible conformations"
+  ],
+  "correctIndex": 0,
+  "explanation": "The Levinthal paradox notes that random conformational search would take longer than the age of the universe, yet proteins fold in milliseconds, implying directed folding pathways.",
+  "difficulty": "advanced",
+  "tags": ["structure", "function"]
+}

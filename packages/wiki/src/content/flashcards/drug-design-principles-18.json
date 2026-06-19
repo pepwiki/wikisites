@@ -1,0 +1,9 @@
+{
+  "front": "What is QSAR?",
+  "back": "Quantitative Structure-Activity Relationship (QSAR) uses mathematical models to predict biological activity from molecular descriptors. It enables virtual screening and activity prediction.",
+  "tags": [
+    "drug-design",
+    "principles"
+  ],
+  "difficulty": "intermediate"
+}

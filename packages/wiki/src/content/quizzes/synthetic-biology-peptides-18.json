@@ -1,0 +1,16 @@
+{
+  "question": "What is a minimal NRPS?",
+  "options": [
+    "An oversized enzyme",
+    "A minimal set of domains sufficient to produce a desired peptide, designed for easier engineering",
+    "A complete biosynthetic pathway",
+    "A deleted gene only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Minimal NRPS designs reduce complexity to essential catalytic units, making the system easier to engineer and express.",
+  "difficulty": "intermediate",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

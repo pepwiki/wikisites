@@ -1,0 +1,16 @@
+{
+  "question": "What is the sialyl Lewis X epitope involved in?",
+  "options": [
+    "Protein folding only",
+    "Selectin-mediated leukocyte trafficking",
+    "Ribosomal translation",
+    "DNA replication"
+  ],
+  "correctIndex": 1,
+  "explanation": "Sialyl Lewis X is a glycan epitope on leukocyte surface glycoproteins that binds to selectins on endothelial cells, mediating leukocyte extravasation during inflammation.",
+  "difficulty": "advanced",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

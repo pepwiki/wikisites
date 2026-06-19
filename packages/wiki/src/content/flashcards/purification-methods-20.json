@@ -1,0 +1,9 @@
+{
+  "front": "What is the typical particle size for preparative HPLC columns?",
+  "back": "Preparative columns typically use 5-10 \u03bcm particles, while analytical columns use 3-5 \u03bcm. Sub-2 \u03bcm particles are used in UHPLC for high-resolution separations.",
+  "tags": [
+    "purification",
+    "chromatography"
+  ],
+  "difficulty": "advanced"
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is the concept of bioisosterism?",
+  "back": "Bioisosterism replaces functional groups with similar-sized groups that maintain biological activity. Classic bioisosteres include F for H, Cl for CH\u2083, and tetrazole for carboxylic acid.",
+  "tags": [
+    "drug-design",
+    "principles"
+  ],
+  "difficulty": "intermediate"
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of the binding site analysis in peptide design?",
+  "options": [
+    "It sequences proteins",
+    "It identifies key residues and interactions for peptide binding",
+    "It synthesizes molecules",
+    "It purifies compounds"
+  ],
+  "correctIndex": 1,
+  "explanation": "Binding site analysis identifies hot-spot residues, pocket shapes, and interaction patterns that guide the design of peptides with high affinity and specificity.",
+  "difficulty": "intermediate",
+  "tags": ["computational", "design"]
+}

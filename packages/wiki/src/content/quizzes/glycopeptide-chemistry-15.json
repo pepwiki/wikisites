@@ -1,0 +1,16 @@
+{
+  "question": "Which monosaccharide is typically found at the non-reducing termini of glycans?",
+  "options": [
+    "Mannose",
+    "Glucose",
+    "Sialic acid (Neu5Ac)",
+    "N-acetylglucosamine"
+  ],
+  "correctIndex": 2,
+  "explanation": "Sialic acid is commonly added to the non-reducing ends of glycan antennae, capping the chains and contributing negative charge to glycoconjugates.",
+  "difficulty": "intermediate",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

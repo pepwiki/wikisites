@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of Tandem MS (MS/MS) over single MS?",
+  "options": [
+    "MS/MS is faster",
+    "MS/MS provides structural information through fragmentation",
+    "MS/MS is cheaper",
+    "MS/MS has higher throughput"
+  ],
+  "correctIndex": 1,
+  "explanation": "MS/MS selects specific ions and fragments them, providing sequence information and enabling identification of post-translational modifications.",
+  "difficulty": "intermediate",
+  "tags": ["analytical", "techniques"]
+}

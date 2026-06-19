@@ -1,0 +1,16 @@
+{
+  "question": "What is the half-life of most neuropeptides in the synaptic cleft?",
+  "options": [
+    "Hours",
+    "Seconds to minutes",
+    "Days",
+    "Only while neurons are active"
+  ],
+  "correctIndex": 1,
+  "explanation": "Neuropeptides have short half-lives of seconds to minutes due to enzymatic degradation by peptidases and diffusion away from the synapse.",
+  "difficulty": "intermediate",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

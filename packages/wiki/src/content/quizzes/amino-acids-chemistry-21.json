@@ -1,0 +1,13 @@
+{
+  "question": "What type of interaction does histidine's imidazole ring participate in at pH 6.0?",
+  "options": [
+    "Only hydrogen bonding",
+    "Only hydrophobic interactions",
+    "Both hydrogen bonding and metal coordination",
+    "Only ionic interactions"
+  ],
+  "correctIndex": 2,
+  "explanation": "At pH 6.0, histidine can act as both a hydrogen bond donor/acceptor and coordinate metal ions like zinc. This versatility is critical in enzyme catalysis.",
+  "difficulty": "intermediate",
+  "tags": ["amino-acids", "chemistry"]
+}

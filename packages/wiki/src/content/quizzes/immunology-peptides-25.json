@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of NK cells in innate immunity?",
+  "options": [
+    "They produce antibodies",
+    "They kill virus-infected and tumor cells without prior sensitization",
+    "They present antigens to T cells",
+    "They phagocytose bacteria"
+  ],
+  "correctIndex": 1,
+  "explanation": "NK cells recognize and kill cells lacking MHC class I expression or displaying stress ligands, providing immediate defense against infections and tumors.",
+  "difficulty": "beginner",
+  "tags": ["immunology", "peptides"]
+}

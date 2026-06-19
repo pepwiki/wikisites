@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of symbiotic bacteria in marine peptide production?",
+  "options": [
+    "No role",
+    "Many bioactive peptides are actually produced by symbiotic bacteria, not the host organism",
+    "Symbiotic bacteria degrade all peptides",
+    "Symbiotic bacteria only digest food"
+  ],
+  "correctIndex": 1,
+  "explanation": "Many marine natural products are produced by symbiotic microorganisms rather than the host organism.",
+  "difficulty": "beginner",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

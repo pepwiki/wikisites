@@ -1,0 +1,9 @@
+{
+  "front": "What are hydrogen bonds in peptide interactions?",
+  "back": "Hydrogen bonds form between a hydrogen bond donor (N-H, O-H) and acceptor (C=O, N). In peptides, backbone H-bonds stabilize secondary structures, while side-chain H-bonds mediate specific recognition.",
+  "tags": [
+    "interactions",
+    "binding"
+  ],
+  "difficulty": "beginner"
+}

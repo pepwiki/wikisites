@@ -1,0 +1,9 @@
+{
+  "front": "What is a prodrug?",
+  "back": "A prodrug is an inactive form that is metabolically converted to the active drug in vivo. Prodrugs can improve bioavailability, reduce toxicity, or enable targeted delivery.",
+  "tags": [
+    "drug-design",
+    "principles"
+  ],
+  "difficulty": "beginner"
+}

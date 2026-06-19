@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of regulatory T cells (Tregs) in immune tolerance?",
+  "options": [
+    "They activate immune responses",
+    "They suppress excessive immune responses and prevent autoimmunity",
+    "They produce antibodies",
+    "They kill infected cells"
+  ],
+  "correctIndex": 1,
+  "explanation": "Tregs (CD4+CD25+FoxP3+) suppress immune responses through cytokine production and cell-contact mechanisms, maintaining tolerance and preventing autoimmunity.",
+  "difficulty": "intermediate",
+  "tags": ["immunology", "peptides"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is a key advantage of cryo-EM over X-ray crystallography?",
+  "options": [
+    "Higher resolution always",
+    "No crystallization required",
+    "Faster data collection",
+    "Smaller sample amounts"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cryo-EM determines structures without crystallization, especially valuable for flexible peptide-receptor complexes that resist crystallization or lose native conformation.",
+  "difficulty": "intermediate",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

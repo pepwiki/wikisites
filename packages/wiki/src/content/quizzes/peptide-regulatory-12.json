@@ -1,0 +1,16 @@
+{
+  "question": "What is a Corrective and Preventive Action (CAPA)?",
+  "options": [
+    "A type of drug formulation",
+    "Systematic investigation and correction of deviations to prevent recurrence",
+    "A marketing strategy",
+    "A clinical trial design"
+  ],
+  "correctIndex": 1,
+  "explanation": "CAPA addresses root causes of quality issues and implements measures to prevent potential problems, ensuring continuous improvement.",
+  "difficulty": "intermediate",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

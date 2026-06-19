@@ -1,0 +1,9 @@
+{
+  "front": "What is a lateral flow assay?",
+  "back": "A lateral flow assay uses a peptide or antibody on a membrane strip. When the sample flows across, analyte binding generates a visible line. It is used for rapid point-of-care testing.",
+  "tags": [
+    "sensors",
+    "biosensors"
+  ],
+  "difficulty": "beginner"
+}

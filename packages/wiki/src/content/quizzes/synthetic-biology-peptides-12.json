@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of a thiolation (T) domain in NRPS?",
+  "options": [
+    "Catalyzes peptide bond formation",
+    "Covalently tethers the growing peptide via a phosphopantetheine arm for domain-to-domain transfer",
+    "Activates amino acids",
+    "Removes the final peptide"
+  ],
+  "correctIndex": 1,
+  "explanation": "The T domain uses a phosphopantetheine group to form a thioester with the intermediate, serving as a flexible tether.",
+  "difficulty": "intermediate",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

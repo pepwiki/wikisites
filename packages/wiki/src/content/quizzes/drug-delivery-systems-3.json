@@ -1,0 +1,13 @@
+{
+  "question": "What is the EPR effect in nanoparticle drug delivery?",
+  "options": [
+    "Enhanced permeability and retention in tumor tissues",
+    "Enhanced protein release and excretion",
+    "Enhanced permeability and renal elimination",
+    "Enhanced protein binding and redistribution"
+  ],
+  "correctIndex": 0,
+  "explanation": "The EPR effect describes how nanoparticles accumulate in tumor tissues due to leaky vasculature and poor lymphatic drainage, providing passive tumor targeting.",
+  "difficulty": "intermediate",
+  "tags": ["delivery", "formulation"]
+}

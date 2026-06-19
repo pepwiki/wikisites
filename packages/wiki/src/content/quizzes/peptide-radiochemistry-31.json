@@ -1,0 +1,16 @@
+{
+  "question": "What is the tumor sink effect in theranostics?",
+  "options": [
+    "Tumors absorb all radiation",
+    "High tumor burden can absorb significant radiotracer, reducing normal organ uptake",
+    "Tumors block radiation",
+    "Tumors enhance normal tissue uptake"
+  ],
+  "correctIndex": 1,
+  "explanation": "A large tumor burden may absorb enough radiotracer to reduce availability for normal organs, beneficial for reducing toxicity but potentially masking normal organ uptake.",
+  "difficulty": "advanced",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

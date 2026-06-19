@@ -1,10 +1,9 @@
 {
-  "front": "How does peptide bond strain affect protein function?",
-  "back": "Strained peptide bonds (omega angles deviating from 180) store energy for catalysis. In serine proteases, the oxyanion hole stabilizes strained tetrahedral intermediate. Mechanical force on titin unfolds proteins by straining peptide bonds.",
+  "front": "What is the dihedral angle constraint for trans peptide bonds?",
+  "back": "In trans peptide bonds, the dihedral angle \u03c9 is approximately 180\u00b0 \u00b1 5\u00b0, placing the two alpha-carbons on opposite sides of the peptide bond plane.",
   "tags": [
     "peptide-bonds",
-    "structural-biology",
-    "mechanobiology"
+    "structure"
   ],
-  "difficulty": "advanced"
+  "difficulty": "intermediate"
 }

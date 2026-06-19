@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of the inositol trisphosphate (IP3) receptor?",
+  "options": [
+    "It activates adenylyl cyclase",
+    "It releases calcium from the endoplasmic reticulum",
+    "It phosphorylates membrane proteins",
+    "It synthesizes diacylglycerol"
+  ],
+  "correctIndex": 1,
+  "explanation": "IP3 receptors are ligand-gated calcium channels on the endoplasmic reticulum. IP3 binding opens these channels, releasing stored calcium into the cytoplasm.",
+  "difficulty": "intermediate",
+  "tags": ["receptors", "pharmacology"]
+}

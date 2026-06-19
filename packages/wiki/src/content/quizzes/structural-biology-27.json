@@ -1,0 +1,16 @@
+{
+  "question": "What is the phase problem in X-ray crystallography?",
+  "options": [
+    "Measuring diffraction intensities",
+    "Determining the phase angles from intensity data only",
+    "Calculating electron density",
+    "Identifying heavy atom positions"
+  ],
+  "correctIndex": 1,
+  "explanation": "X-ray detectors measure only intensities but not phases. Without phases, electron density cannot be directly calculated, making this the central challenge of crystallography.",
+  "difficulty": "advanced",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

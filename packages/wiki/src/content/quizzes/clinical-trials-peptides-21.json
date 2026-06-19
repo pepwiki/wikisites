@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of pharmacovigilance in drug development?",
+  "options": [
+    "It only monitors Phase 1 trials",
+    "It detects, assesses, and prevents adverse effects after marketing",
+    "It is only for vaccine safety",
+    "It replaces clinical trials"
+  ],
+  "correctIndex": 1,
+  "explanation": "Pharmacovigilance continuously monitors drug safety after market approval, detecting and assessing adverse effects to ensure ongoing patient safety.",
+  "difficulty": "intermediate",
+  "tags": ["clinical", "trials"]
+}

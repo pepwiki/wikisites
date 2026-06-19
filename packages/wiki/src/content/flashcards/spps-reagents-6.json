@@ -1,0 +1,9 @@
+{
+  "front": "What is the Boc protecting group strategy?",
+  "back": "Boc (tert-Butyloxycarbonyl) is an acid-labile N\u03b1 protecting group removed by trifluoroacetic acid (TFA). The Boc strategy requires HF for final resin cleavage, which is more hazardous than Fmoc chemistry.",
+  "tags": [
+    "synthesis",
+    "reagents"
+  ],
+  "difficulty": "beginner"
+}

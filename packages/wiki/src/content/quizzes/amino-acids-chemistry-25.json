@@ -1,0 +1,13 @@
+{
+  "question": "What is the effect of introducing a D-amino acid into an alpha helix?",
+  "options": [
+    "Strengthens the helix",
+    "Has no effect",
+    "Disrupts the helix structure",
+    "Converts it to a beta sheet"
+  ],
+  "correctIndex": 2,
+  "explanation": "D-amino acids have inverted stereochemistry that is incompatible with the right-handed alpha helix geometry. Their introduction typically disrupts helical structure.",
+  "difficulty": "advanced",
+  "tags": ["amino-acids", "chemistry"]
+}

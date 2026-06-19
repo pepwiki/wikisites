@@ -1,0 +1,16 @@
+{
+  "question": "What is a biowaiver in generic drug development?",
+  "options": [
+    "Complete waiver of all testing",
+    "Waiver of in vivo bioequivalence studies for certain highly soluble, permeable drugs",
+    "Waiver of all regulatory requirements",
+    "A marketing exception"
+  ],
+  "correctIndex": 1,
+  "explanation": "Biowaivers allow skipping bioequivalence studies for BCS Class I drugs with rapidly dissolving formulations.",
+  "difficulty": "advanced",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

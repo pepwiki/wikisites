@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of evolutionary algorithms in peptide optimization?",
+  "options": [
+    "They sequence DNA",
+    "They evolve populations of peptides to optimize fitness",
+    "They purify peptides",
+    "They synthesize peptides"
+  ],
+  "correctIndex": 1,
+  "explanation": "Evolutionary algorithms use selection, crossover, and mutation operations to evolve peptide populations toward improved properties like binding or stability.",
+  "difficulty": "advanced",
+  "tags": ["computational", "design"]
+}

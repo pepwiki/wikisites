@@ -1,0 +1,16 @@
+{
+  "question": "What is the advantage of cyclic vs linear peptide libraries for drug discovery?",
+  "options": [
+    "Cyclic libraries are always more diverse",
+    "Cyclic peptides have reduced conformational entropy, improved metabolic stability, and often higher target affinity",
+    "Cyclic libraries are easier to synthesize",
+    "Cyclic peptides cannot cross cell membranes"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cyclic peptides show improved metabolic stability, cell permeability, and binding affinity due to pre-organized conformations that reduce the entropic cost of target binding.",
+  "difficulty": "advanced",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

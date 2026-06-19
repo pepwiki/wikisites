@@ -1,0 +1,9 @@
+{
+  "front": "What is mRNA display?",
+  "back": "mRNA display covalently links mRNA to its encoded peptide via a puromycin linker. It enables selection of peptides without transformation and can include non-natural amino acids.",
+  "tags": [
+    "engineering",
+    "design"
+  ],
+  "difficulty": "advanced"
+}

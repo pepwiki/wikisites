@@ -1,0 +1,9 @@
+{
+  "front": "What is the blood-brain barrier (BBB)?",
+  "back": "The BBB is a highly selective barrier formed by endothelial cells with tight junctions. It prevents most drugs from entering the brain. Peptides can cross via receptor-mediated transcytosis.",
+  "tags": [
+    "transport",
+    "membrane"
+  ],
+  "difficulty": "beginner"
+}

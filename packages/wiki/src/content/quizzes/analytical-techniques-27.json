@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of the electron transfer dissociation (ETD) in MS/MS?",
+  "options": [
+    "It is only for small molecules",
+    "It fragments peptides while preserving labile modifications",
+    "It ionizes peptides",
+    "It separates peptides"
+  ],
+  "correctIndex": 1,
+  "explanation": "ETD fragments peptides through electron transfer, preserving labile modifications like phosphorylation and glycosylation that are lost in CID.",
+  "difficulty": "advanced",
+  "tags": ["analytical", "techniques"]
+}

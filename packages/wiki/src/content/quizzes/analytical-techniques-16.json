@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of circular dichroism (CD) in peptide analysis?",
+  "options": [
+    "It measures peptide concentration",
+    "It determines secondary structure content",
+    "It sequences peptides",
+    "It measures molecular weight"
+  ],
+  "correctIndex": 1,
+  "explanation": "CD spectroscopy measures differential absorption of left and right circularly polarized light, providing information about alpha-helix, beta-sheet, and random coil content.",
+  "difficulty": "intermediate",
+  "tags": ["analytical", "techniques"]
+}

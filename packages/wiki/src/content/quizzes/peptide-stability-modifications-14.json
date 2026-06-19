@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of thioether cyclization?",
+  "options": [
+    "It is always reversible",
+    "It creates a stable, non-reducible crosslink",
+    "It requires reducing conditions",
+    "It is less stable than disulfide bonds"
+  ],
+  "correctIndex": 1,
+  "explanation": "Thioether cyclization creates a stable, non-reducible crosslink between cysteine and a halogenated residue, providing stability without susceptibility to reduction.",
+  "difficulty": "advanced",
+  "tags": ["stability", "modifications"]
+}

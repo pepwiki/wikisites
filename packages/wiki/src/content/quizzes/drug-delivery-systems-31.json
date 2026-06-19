@@ -1,0 +1,13 @@
+{
+  "question": "What is the main challenge with nanoparticles crossing the blood-brain barrier?",
+  "options": [
+    "They are too small",
+    "The BBB has tight junctions and efflux transporters",
+    "Nanoparticles are always too large",
+    "The BBB does not exist in the brain"
+  ],
+  "correctIndex": 1,
+  "explanation": "The blood-brain barrier has tight endothelial junctions and efflux transporters (P-gp) that limit nanoparticle entry, requiring specialized surface modifications.",
+  "difficulty": "advanced",
+  "tags": ["delivery", "formulation"]
+}

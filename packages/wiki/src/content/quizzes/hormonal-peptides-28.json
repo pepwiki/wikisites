@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of apelin in cardiovascular function?",
+  "options": [
+    "Vasoconstrictor only",
+    "Inotropic peptide that increases cardiac output and promotes vasodilation",
+    "Promotes hypertension",
+    "Only regulates appetite"
+  ],
+  "correctIndex": 1,
+  "explanation": "Apelin acting through the APJ receptor is a positive inotrope that increases cardiac contractility while promoting vasodilation and is cardioprotective.",
+  "difficulty": "advanced",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

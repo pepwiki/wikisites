@@ -1,0 +1,16 @@
+{
+  "question": "What is the affinity maturation process in library screening?",
+  "options": [
+    "Initial screening only",
+    "Iterative rounds of mutagenesis and selection to improve binding affinity of lead peptides",
+    "Peptide synthesis optimization",
+    "Database searching for related sequences"
+  ],
+  "correctIndex": 1,
+  "explanation": "Affinity maturation introduces random or focused mutations around initial hit sequences and re-selects, iteratively improving binding affinity from micromolar to nanomolar or better.",
+  "difficulty": "intermediate",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

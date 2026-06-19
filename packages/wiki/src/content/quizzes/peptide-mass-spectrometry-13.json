@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of a database search engine like Mascot?",
+  "options": [
+    "Performs the MS experiment",
+    "Matches experimental MS/MS spectra against predicted spectra from protein databases",
+    "Synthesizes peptides",
+    "Purifies proteins"
+  ],
+  "correctIndex": 1,
+  "explanation": "Search engines correlate experimental MS/MS spectra with in silico-generated spectra from protein sequence databases, scoring matches for identification.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

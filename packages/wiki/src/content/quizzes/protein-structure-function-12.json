@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of molecular chaperones?",
+  "options": [
+    "They catalyze peptide bond formation",
+    "They assist protein folding and prevent aggregation",
+  "They degrade misfolded proteins",
+    "They transport proteins across membranes"
+  ],
+  "correctIndex": 1,
+  "explanation": "Molecular chaperones (like Hsp70 and chaperonins) assist protein folding by preventing aggregation and providing a protected environment for proper folding.",
+  "difficulty": "intermediate",
+  "tags": ["structure", "function"]
+}

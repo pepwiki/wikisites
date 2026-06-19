@@ -1,0 +1,9 @@
+{
+  "front": "What is peptide-MHC binding?",
+  "back": "Peptide-MHC binding is the critical step in antigen presentation. Peptides bind in the MHC groove through anchor residues that fit into specific pockets, determining the repertoire of presented peptides.",
+  "tags": [
+    "immunology",
+    "MHC"
+  ],
+  "difficulty": "intermediate"
+}

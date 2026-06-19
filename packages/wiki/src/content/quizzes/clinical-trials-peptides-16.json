@@ -1,0 +1,13 @@
+{
+  "question": "What is the NDA process in drug approval?",
+  "options": [
+    "New Drug Application for FDA approval",
+    "National Drug Association",
+    "Non-Destructive Analysis",
+    "New Dosage Application"
+  ],
+  "correctIndex": 0,
+  "explanation": "NDA (New Drug Application) is the formal proposal submitted to the FDA for approval to market a new drug, containing all preclinical and clinical data.",
+  "difficulty": "intermediate",
+  "tags": ["clinical", "trials"]
+}

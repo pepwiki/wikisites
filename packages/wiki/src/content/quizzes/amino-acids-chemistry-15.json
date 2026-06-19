@@ -1,0 +1,13 @@
+{
+  "question": "What causes the racemization of amino acids in aged proteins?",
+  "options": [
+    "Enzymatic catalysis",
+    "Spontaneous base-catalyzed inversion",
+    "UV light exposure",
+    "Disulfide bond formation"
+  ],
+  "correctIndex": 1,
+  "explanation": "Amino acids undergo slow spontaneous racemization through base-catalyzed enolization of the alpha proton. This process is accelerated at alkaline pH and elevated temperature.",
+  "difficulty": "advanced",
+  "tags": ["amino-acids", "chemistry"]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the steady-state concentration (Css)?",
+  "options": [
+    "The concentration at first dose",
+    "The equilibrium concentration with regular dosing",
+    "The maximum concentration achievable",
+    "The concentration at drug discontinuation"
+  ],
+  "correctIndex": 1,
+  "explanation": "Steady-state is reached when drug input equals elimination, typically after 4-5 half-lives. It represents the equilibrium concentration during repeated dosing.",
+  "difficulty": "intermediate",
+  "tags": ["clinical", "trials"]
+}

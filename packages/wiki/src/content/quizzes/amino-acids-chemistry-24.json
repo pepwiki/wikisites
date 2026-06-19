@@ -1,0 +1,8 @@
+{
+  "question": "Which amino acid is most likely to be found in a beta-turn structure?",
+  "options": ["Alanine", "Glycine", "Leucine", "Valine"],
+  "correctIndex": 1,
+  "explanation": "Glycine's small size and flexibility make it ideal for beta-turns where the polypeptide chain must reverse direction. Proline is also common in beta-turns.",
+  "difficulty": "intermediate",
+  "tags": ["amino-acids", "chemistry"]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is peptide stapling?",
+  "back": "Peptide stapling introduces crosslinks (hydrocarbon, lactam) to constrain alpha-helical peptides. This enhances cell penetration, protease resistance, and target binding affinity.",
+  "tags": [
+    "engineering",
+    "design"
+  ],
+  "difficulty": "intermediate"
+}

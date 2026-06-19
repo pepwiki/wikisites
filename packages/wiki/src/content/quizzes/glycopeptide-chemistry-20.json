@@ -1,0 +1,16 @@
+{
+  "question": "What is the biological significance of core fucosylation of IgG Fc glycans?",
+  "options": [
+    "Increases antibody stability only",
+    "Modulates antibody-dependent cellular cytotoxicity (ADCC)",
+    "Prevents proteolytic degradation",
+    "Enhances complement activation"
+  ],
+  "correctIndex": 1,
+  "explanation": "Core fucose on IgG Fc N-glycans reduces binding to Fc gamma receptor IIIa, decreasing ADCC. Afucosylated antibodies show dramatically enhanced ADCC activity.",
+  "difficulty": "advanced",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

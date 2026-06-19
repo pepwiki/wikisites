@@ -1,0 +1,16 @@
+{
+  "question": "Cathelicidins are stored in which form in neutrophils?",
+  "options": [
+    "Active mature peptide",
+    "Inactive prepropeptide (profensin)",
+    "Lipid-conjugated form",
+    "Glycosylated form"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cathelicidins are stored as inactive precursor proteins in neutrophil granules. Proteolytic cleavage releases the active C-terminal antimicrobial domain upon infection.",
+  "difficulty": "beginner",
+  "tags": [
+    "antimicrobial",
+    "defense"
+  ]
+}

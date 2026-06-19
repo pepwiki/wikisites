@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of genomics in marine peptide discovery?",
+  "options": [
+    "No role",
+    "Genome mining reveals silent biosynthetic gene clusters encoding cryptic peptides",
+    "Genomics only identifies pathogens",
+    "Genomics is only for taxonomy"
+  ],
+  "correctIndex": 1,
+  "explanation": "Genome mining uncovers cryptic biosynthetic gene clusters encoding bioactive peptides not expressed under standard conditions.",
+  "difficulty": "advanced",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

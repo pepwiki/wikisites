@@ -1,0 +1,16 @@
+{
+  "question": "What is the toroidal pore model?",
+  "options": [
+    "AMPs form rings on the outer leaflet",
+    "AMPs insert causing lipid headgroups to curve through the pore, forming a toroid",
+    "AMPs dissolve in the hydrophobic core",
+    "AMPs create lipid vesicles"
+  ],
+  "correctIndex": 1,
+  "explanation": "In the toroidal pore model, AMPs induce continuous bending of lipid headgroups, creating a pore where peptide and lipid headgroups line the channel together.",
+  "difficulty": "intermediate",
+  "tags": [
+    "antimicrobial",
+    "defense"
+  ]
+}

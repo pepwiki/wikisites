@@ -1,0 +1,16 @@
+{
+  "question": "What is the half-life of fluorine-18 (F-18)?",
+  "options": [
+    "2 minutes",
+    "110 minutes",
+    "8 days",
+    "6 hours"
+  ],
+  "correctIndex": 1,
+  "explanation": "F-18 has a half-life of 109.77 minutes, making it ideal for PET imaging: long enough for synthesis and imaging but short enough to limit radiation dose.",
+  "difficulty": "beginner",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

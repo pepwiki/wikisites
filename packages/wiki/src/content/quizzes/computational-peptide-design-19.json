@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of deep learning in peptide design?",
+  "options": [
+    "It only sequences DNA",
+    "It predicts peptide properties and generates novel sequences",
+    "It purifies peptides",
+    "It synthesizes peptides"
+  ],
+  "correctIndex": 1,
+  "explanation": "Deep learning models (neural networks, transformers) can learn patterns from peptide databases to predict properties and generate novel sequences with desired functions.",
+  "difficulty": "intermediate",
+  "tags": ["computational", "design"]
+}

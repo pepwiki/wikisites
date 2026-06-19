@@ -1,0 +1,13 @@
+{
+  "question": "What is the consequence of converting an L-amino acid to a D-amino acid?",
+  "options": [
+    "Increased peptide bond flexibility",
+    "Inversion of stereochemistry at the alpha carbon",
+    "Addition of a chiral center",
+    "Removal of the amino group"
+  ],
+  "correctIndex": 1,
+  "explanation": "D-amino acids are stereoisomers of L-amino acids with inverted configuration at the alpha carbon. This change can dramatically affect peptide structure and resistance to proteolysis.",
+  "difficulty": "advanced",
+  "tags": ["amino-acids", "chemistry"]
+}

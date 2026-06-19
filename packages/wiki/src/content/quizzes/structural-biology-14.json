@@ -1,0 +1,16 @@
+{
+  "question": "What is the molecular replacement method in crystallography?",
+  "options": [
+    "Using heavy atoms for phasing",
+    "Using a known homologous structure to solve phases",
+    "Direct methods from diffraction data",
+    "Using anomalous dispersion"
+  ],
+  "correctIndex": 1,
+  "explanation": "Molecular replacement uses a known homologous structure as a search model to determine phases. It works when a sufficiently similar structure is available in the PDB.",
+  "difficulty": "intermediate",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

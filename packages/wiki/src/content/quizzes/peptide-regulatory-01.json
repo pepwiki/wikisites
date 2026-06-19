@@ -1,0 +1,16 @@
+{
+  "question": "What does GMP stand for in pharmaceutical manufacturing?",
+  "options": [
+    "Good manufacturing practice",
+    "General manufacturing process",
+    "Genetic modification protocol",
+    "Global marketing platform"
+  ],
+  "correctIndex": 0,
+  "explanation": "Good Manufacturing Practice ensures pharmaceutical products are consistently produced and controlled according to quality standards.",
+  "difficulty": "beginner",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

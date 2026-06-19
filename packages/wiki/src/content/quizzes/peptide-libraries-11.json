@@ -1,0 +1,16 @@
+{
+  "question": "What is mRNA display?",
+  "options": [
+    "Displaying mRNA sequences on cells",
+    "Linking mRNA to its encoded peptide through puromycin for in vitro selection",
+    "A type of Northern blot",
+    "mRNA purification technique"
+  ],
+  "correctIndex": 1,
+  "explanation": "mRNA display covalently links mRNA to its encoded peptide via a puromycin linker, enabling in vitro selection of peptides with desired properties from large libraries.",
+  "difficulty": "intermediate",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

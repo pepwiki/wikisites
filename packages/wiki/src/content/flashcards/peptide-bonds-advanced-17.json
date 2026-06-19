@@ -1,10 +1,9 @@
 {
-  "front": "What is the concept of peptide bond rotational barriers in NMR spectroscopy?",
-  "back": "Restricted rotation about peptide bonds gives rise to cis-trans isomers detectable by NMR. Slow exchange on NMR timescale produces separate peaks. Chemical shift differences of 0.1-0.5 ppm distinguish cis and trans conformers.",
+  "front": "How does the peptide bond dipole moment affect protein structure?",
+  "back": "The peptide bond has a dipole moment of approximately 3.5 D, with the oxygen partially negative and the nitrogen partially positive. In alpha-helices, these dipoles align, creating a macroscopic helix dipole.",
   "tags": [
     "peptide-bonds",
-    "spectroscopy",
-    "nuclear-magnetic-resonance"
+    "structure"
   ],
   "difficulty": "advanced"
 }

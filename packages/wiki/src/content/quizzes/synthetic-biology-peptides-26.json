@@ -1,0 +1,16 @@
+{
+  "question": "What is the phosphopantetheine prosthetic group?",
+  "options": [
+    "Catalytic metal only",
+    "A flexible arm on T/CP domains that tethers intermediates and enables domain-to-domain transfer",
+    "Structural support only",
+    "No functional role only"
+  ],
+  "correctIndex": 1,
+  "explanation": "The 4'-phosphopantetheine arm is covalently attached to T/CP domains and provides flexible tethering for substrate positioning.",
+  "difficulty": "advanced",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

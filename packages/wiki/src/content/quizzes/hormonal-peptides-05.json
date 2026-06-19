@@ -1,0 +1,16 @@
+{
+  "question": "Which hormone is critical for calcium homeostasis in bone?",
+  "options": [
+    "Insulin",
+    "Parathyroid hormone (PTH)",
+    "Cortisol",
+    "Epinephrine"
+  ],
+  "correctIndex": 1,
+  "explanation": "PTH is secreted by parathyroid glands in response to low blood calcium, stimulating osteoclast bone resorption and enhancing renal calcium reabsorption.",
+  "difficulty": "beginner",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

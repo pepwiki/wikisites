@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of X-ray crystallography in structural biology?",
+  "options": [
+    "It measures protein concentration",
+    "It determines atomic-resolution 3D structures",
+    "It sequences proteins",
+    "It measures protein dynamics"
+  ],
+  "correctIndex": 1,
+  "explanation": "X-ray crystallography diffracts X-rays through protein crystals to determine atomic-resolution 3D structures, providing detailed information about protein architecture.",
+  "difficulty": "beginner",
+  "tags": ["structure", "function"]
+}

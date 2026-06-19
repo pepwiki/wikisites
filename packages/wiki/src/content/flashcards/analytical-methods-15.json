@@ -1,0 +1,9 @@
+{
+  "front": "What is capillary electrophoresis (CE)?",
+  "back": "CE separates peptides based on their charge-to-size ratio in a narrow capillary under high voltage. It provides high resolution and requires minimal sample amounts.",
+  "tags": [
+    "analytical",
+    "methods"
+  ],
+  "difficulty": "intermediate"
+}

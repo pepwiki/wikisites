@@ -1,0 +1,16 @@
+{
+  "question": "What stabilizes the tetrahedral intermediate in serine protease catalysis?",
+  "options": [
+    "Oxyanion hole",
+    "Zinc coordination",
+    "Disulfide bond",
+    "Hydrophobic pocket"
+  ],
+  "correctIndex": 0,
+  "explanation": "The oxyanion hole, formed by backbone NH groups, stabilizes the negative charge on the tetrahedral intermediate via hydrogen bonding, lowering the transition state energy.",
+  "difficulty": "advanced",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

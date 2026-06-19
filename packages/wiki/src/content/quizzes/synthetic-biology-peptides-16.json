@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of tailoring enzymes in RiPP biosynthesis?",
+  "options": [
+    "Synthesize the precursor peptide",
+    "Post-translationally modify the precursor peptide (halogenation, methylation, cyclization)",
+    "Degrade the peptide",
+    "Transport the peptide outside the cell only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Tailoring enzymes modify the ribosomally synthesized precursor, creating diverse structural features characteristic of RiPPs.",
+  "difficulty": "intermediate",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

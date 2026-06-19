@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of next-generation sequencing in peptide library analysis?",
+  "options": [
+    "Only for DNA analysis",
+    "Enables deep sequencing of DNA-encoded libraries to identify enriched sequences at high resolution",
+    "Only for quality control",
+    "Replaces protein sequencing entirely"
+  ],
+  "correctIndex": 1,
+  "explanation": "NGS enables deep sequencing of billions of DNA barcodes, providing quantitative enrichment data across entire libraries rather than just top hits.",
+  "difficulty": "advanced",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

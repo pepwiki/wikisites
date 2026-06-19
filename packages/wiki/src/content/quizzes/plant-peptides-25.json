@@ -1,0 +1,16 @@
+{
+  "question": "What is the evolutionary relationship between plant and animal defensins?",
+  "options": [
+    "No relationship",
+    "They share a common ancestor with the cystine knot fold despite low sequence identity",
+    "Animal defensins evolved from plant defensins only",
+    "They are completely unrelated"
+  ],
+  "correctIndex": 1,
+  "explanation": "Plant and animal defensins share the cystine knot structural fold despite low sequence similarity, suggesting common ancestry.",
+  "difficulty": "advanced",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

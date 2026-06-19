@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of collision-induced dissociation (CID) in MS/MS?",
+  "options": [
+    "It ionizes peptides",
+    "It fragments peptides for sequencing",
+    "It separates peptides",
+    "It concentrates peptides"
+  ],
+  "correctIndex": 1,
+  "explanation": "CID fragments peptide ions through collisions with inert gas, generating product ions that reveal amino acid sequence and modification sites.",
+  "difficulty": "intermediate",
+  "tags": ["analytical", "techniques"]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the MM-PBSA method?",
+  "options": [
+    "It sequences proteins",
+    "It estimates binding free energy from MD simulations",
+    "It synthesizes molecules",
+    "It purifies compounds"
+  ],
+  "correctIndex": 1,
+  "explanation": "MM-PBSA (Molecular Mechanics-Poisson-Boltzmann Surface Area) estimates binding free energies by combining molecular mechanics energies with continuum solvation models.",
+  "difficulty": "advanced",
+  "tags": ["computational", "design"]
+}

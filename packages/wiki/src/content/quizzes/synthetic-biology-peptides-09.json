@@ -1,0 +1,16 @@
+{
+  "question": "What is a lantibiotic?",
+  "options": [
+    "A standard peptide antibiotic",
+    "A RiPP containing lanthionine thioether bridges produced by Gram-positive bacteria",
+    "A synthetic peptide antibiotic",
+    "A ribosomally inactive peptide"
+  ],
+  "correctIndex": 1,
+  "explanation": "Lantibiotics are ribosomally synthesized peptides containing unusual thioether amino acids formed by dehydration and Cys addition.",
+  "difficulty": "beginner",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

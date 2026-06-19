@@ -1,0 +1,16 @@
+{
+  "question": "What is the EMA?",
+  "options": [
+    "Only approves drugs in Germany",
+    "Evaluates and authorizes medicines for the EU market and monitors safety",
+    "Only regulates food products",
+    "Only sets manufacturing standards"
+  ],
+  "correctIndex": 1,
+  "explanation": "EMA evaluates marketing authorization applications, monitors drug safety, and provides scientific advice across EU member states.",
+  "difficulty": "advanced",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

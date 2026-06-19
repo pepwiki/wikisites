@@ -1,0 +1,16 @@
+{
+  "question": "What is the core structure of all N-linked glycans?",
+  "options": [
+    "Mannose pentasaccharide",
+    "Chitobiose core (GlcNAc2Man3)",
+    "Sialylated lactosamine",
+    "Hyaluronic acid repeat"
+  ],
+  "correctIndex": 1,
+  "explanation": "All N-linked glycans share a common chitobiose core of two GlcNAc residues followed by three mannose residues, from which diverse antennae extend.",
+  "difficulty": "beginner",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

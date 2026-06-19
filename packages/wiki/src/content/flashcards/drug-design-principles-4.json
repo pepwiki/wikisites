@@ -1,0 +1,9 @@
+{
+  "front": "What is a pharmacophore?",
+  "back": "A pharmacophore is the spatial arrangement of functional groups necessary for molecular recognition by a biological target. It represents the minimum structural features required for activity.",
+  "tags": [
+    "drug-design",
+    "principles"
+  ],
+  "difficulty": "intermediate"
+}

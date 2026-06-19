@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of cryo-electron microscopy (cryo-EM) in structural biology?",
+  "options": [
+    "It requires protein crystallization",
+    "It determines structures of large complexes without crystals",
+    "It only works for small proteins",
+    "It measures protein dynamics in real-time"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cryo-EM images flash-frozen protein samples, allowing structure determination of large complexes and membrane proteins without crystallization.",
+  "difficulty": "intermediate",
+  "tags": ["structure", "function"]
+}

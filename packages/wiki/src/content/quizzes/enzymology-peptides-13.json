@@ -1,0 +1,16 @@
+{
+  "question": "Which protease converts proinsulin to active insulin?",
+  "options": [
+    "Trypsin",
+    "Furin",
+    "PC1/3 and PC2",
+    "Matrix metalloproteinase-9"
+  ],
+  "correctIndex": 2,
+  "explanation": "Prohormone convertases PC1/3 and PC2 cleave proinsulin at dibasic residues, removing C-peptide to produce mature insulin with A and B chains linked by disulfide bonds.",
+  "difficulty": "intermediate",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

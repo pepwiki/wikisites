@@ -1,0 +1,13 @@
+{
+  "question": "What is the purpose of a linker in drug delivery systems?",
+  "options": [
+    "To increase drug solubility",
+    "To connect drug to carrier and control release",
+    "To target specific tissues",
+    "To improve drug taste"
+  ],
+  "correctIndex": 1,
+  "explanation": "Linkers connect drugs to carriers (like nanoparticles or antibodies) and can be designed to release drugs under specific conditions (pH, enzymes, reduction).",
+  "difficulty": "beginner",
+  "tags": ["delivery", "formulation"]
+}

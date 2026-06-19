@@ -1,0 +1,9 @@
+{
+  "front": "What information does NMR spectroscopy provide about peptides?",
+  "back": "NMR provides atomic-resolution information about peptide structure, dynamics, and interactions. It can determine secondary structure, tertiary fold, and binding sites in solution.",
+  "tags": [
+    "analytical",
+    "methods"
+  ],
+  "difficulty": "beginner"
+}

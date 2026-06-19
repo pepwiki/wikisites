@@ -1,0 +1,16 @@
+{
+  "question": "What is a constrained amino acid in peptidomimetics?",
+  "options": [
+    "An amino acid with restricted rotation",
+    "An amino acid where the phi/psi angles are constrained by cyclic side chain or backbone modifications",
+    "An amino acid that only forms beta-sheets",
+    "An amino acid that cannot be synthesized"
+  ],
+  "correctIndex": 1,
+  "explanation": "Constrained amino acids (e.g., ACPC, pipecolic acid, proline analogs) restrict backbone dihedral angles, stabilizing specific secondary structures in the modified peptide.",
+  "difficulty": "advanced",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

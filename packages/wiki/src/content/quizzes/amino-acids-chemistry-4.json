@@ -1,0 +1,8 @@
+{
+  "question": "Which amino acid side chain has the highest pKa value?",
+  "options": ["Aspartic acid", "Glutamic acid", "Lysine", "Tyrosine"],
+  "correctIndex": 2,
+  "explanation": "Lysine has the highest pKa (~10.5) among standard amino acid side chains. This means its epsilon-amino group remains protonated at most physiological conditions.",
+  "difficulty": "intermediate",
+  "tags": ["amino-acids", "chemistry"]
+}

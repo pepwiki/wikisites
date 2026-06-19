@@ -1,0 +1,9 @@
+{
+  "front": "What is the role of TAP in antigen presentation?",
+  "back": "TAP (Transporter Associated with Antigen Processing) transports proteasomal peptides from the cytosol into the ER lumen, where they can be loaded onto MHC class I molecules.",
+  "tags": [
+    "immunology",
+    "MHC"
+  ],
+  "difficulty": "intermediate"
+}

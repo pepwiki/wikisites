@@ -1,0 +1,16 @@
+{
+  "question": "Why are natural peptides often poor drugs?",
+  "options": [
+    "Always too toxic",
+    "Rapid proteolytic degradation, poor oral bioavailability, and rapid renal clearance",
+    "Always too expensive",
+    "Never have biological activity"
+  ],
+  "correctIndex": 1,
+  "explanation": "Natural peptides face challenges including enzymatic degradation, poor membrane permeability, conformational flexibility, and rapid clearance, limiting their therapeutic utility.",
+  "difficulty": "beginner",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

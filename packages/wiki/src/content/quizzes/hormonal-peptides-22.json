@@ -1,0 +1,16 @@
+{
+  "question": "What is the molecular mechanism of insulin receptor activation?",
+  "options": [
+    "G-protein coupling",
+    "Ligand-induced autophosphorylation of a receptor tyrosine kinase",
+    "Ion channel opening",
+    "Nuclear receptor activation"
+  ],
+  "correctIndex": 1,
+  "explanation": "Insulin binds the alpha subunits, inducing conformational change that activates intrinsic tyrosine kinase activity in the beta subunits, leading to autophosphorylation and IRS recruitment.",
+  "difficulty": "advanced",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

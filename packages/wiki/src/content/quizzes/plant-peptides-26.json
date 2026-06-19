@@ -1,0 +1,16 @@
+{
+  "question": "What is peptide secretion in plant-microbe interactions?",
+  "options": [
+    "No peptide secretion occurs",
+    "Plants secrete antimicrobial peptides into the apoplast and rhizosphere for defense and microbiome shaping",
+    "Only root exudates contain peptides",
+    "Only floral tissues secrete peptides"
+  ],
+  "correctIndex": 1,
+  "explanation": "Plants secrete antimicrobial peptides into the apoplast during pathogen attack and into the rhizosphere influencing soil microbiome.",
+  "difficulty": "advanced",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

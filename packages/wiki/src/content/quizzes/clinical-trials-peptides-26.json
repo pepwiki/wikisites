@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of an orphan drug designation?",
+  "options": [
+    "For common diseases",
+    "For drugs treating rare diseases affecting <200,000 people",
+    "For drugs with severe side effects",
+    "For drugs from natural sources"
+  ],
+  "correctIndex": 1,
+  "explanation": "Orphan drug designation provides incentives (tax credits, market exclusivity) for developing drugs to treat rare diseases affecting fewer than 200,000 people in the US.",
+  "difficulty": "intermediate",
+  "tags": ["clinical", "trials"]
+}

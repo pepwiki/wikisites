@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the precursor ion in MS/MS?",
+  "options": [
+    "It is the final product",
+    "It is the selected ion that will be fragmented",
+    "It is the calibration standard",
+    "It is the solvent peak"
+  ],
+  "correctIndex": 1,
+  "explanation": "The precursor (parent) ion is the specific ion selected in the first mass analyzer for fragmentation in MS/MS experiments.",
+  "difficulty": "intermediate",
+  "tags": ["analytical", "techniques"]
+}

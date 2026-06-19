@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of hydrocarbon stapling over disulfide stapling?",
+  "options": [
+    "Hydrocarbon staples are reducible",
+    "Hydrocarbon staples are metabolically stable and cell-permeable",
+    "Hydrocarbon staples are weaker",
+    "Hydrocarbon staples require reducing agents"
+  ],
+  "correctIndex": 1,
+  "explanation": "Hydrocarbon staples are non-reducible, metabolically stable crosslinks that also enhance cell penetration compared to disulfide bonds.",
+  "difficulty": "advanced",
+  "tags": ["stability", "modifications"]
+}

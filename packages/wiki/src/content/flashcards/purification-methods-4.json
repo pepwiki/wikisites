@@ -1,0 +1,9 @@
+{
+  "front": "What is size exclusion chromatography (SEC)?",
+  "back": "SEC separates molecules by hydrodynamic radius. Larger molecules elute first as they cannot enter the pores of the stationary phase, while smaller molecules elute later.",
+  "tags": [
+    "purification",
+    "chromatography"
+  ],
+  "difficulty": "beginner"
+}

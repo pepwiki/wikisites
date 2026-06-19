@@ -1,0 +1,16 @@
+{
+  "question": "What biological activities do cyclotides have beyond insecticidal?",
+  "options": [
+    "Only insecticidal",
+    "Antimicrobial, antiviral, anti-HIV, hemolytic, cytotoxic, and uterotonic activities",
+    "Only structural functions",
+    "Only enzymatic activities"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cyclotides show diverse bioactivities including antimicrobial, anti-HIV, cytotoxic, and uterotonic effects.",
+  "difficulty": "intermediate",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

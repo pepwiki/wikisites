@@ -1,0 +1,16 @@
+{
+  "question": "What does standardization of peptide biomarker assays require?",
+  "options": [
+    "Using any available antibody",
+    "Reference materials, calibrators, and harmonized measurement procedures",
+    "Only sample dilution",
+    "Room temperature incubation"
+  ],
+  "correctIndex": 1,
+  "explanation": "Standardization ensures comparable results across laboratories through certified reference materials, traceable calibrators, and harmonized measurement procedures.",
+  "difficulty": "intermediate",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

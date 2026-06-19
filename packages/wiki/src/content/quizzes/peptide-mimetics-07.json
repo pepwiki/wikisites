@@ -1,0 +1,16 @@
+{
+  "question": "What is the concept of bioisosteric replacement in peptidomimetics?",
+  "options": [
+    "Random chemical modification",
+    "Replacing a peptide functional group with a structurally similar group that maintains biological activity",
+    "Removing active groups",
+    "Adding fluorescent labels"
+  ],
+  "correctIndex": 1,
+  "explanation": "Bioisosteric replacement substitutes functional groups with chemically similar moieties that maintain essential interactions while improving pharmacokinetic properties.",
+  "difficulty": "beginner",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "How are modified amino acids indicated in sequences?",
+  "back": "Modified amino acids are indicated with brackets: [pSer] for phosphoserine, [MeLys] for methyllysine, [AcK] for acetyllysine. Position numbers specify location.",
+  "tags": [
+    "nomenclature",
+    "terminology"
+  ],
+  "difficulty": "intermediate"
+}

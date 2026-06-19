@@ -1,0 +1,13 @@
+{
+  "question": "What is the purpose of the racemization check in peptide synthesis?",
+  "options": [
+    "To verify amino acid composition",
+    "To detect D-amino acid contamination",
+    "To measure peptide purity",
+    "To confirm correct sequence"
+  ],
+  "correctIndex": 1,
+  "explanation": "Racemization checks detect unwanted formation of D-amino acids during synthesis. Chiral HPLC or enzymatic methods can identify racemized products.",
+  "difficulty": "advanced",
+  "tags": ["synthesis", "methods"]
+}

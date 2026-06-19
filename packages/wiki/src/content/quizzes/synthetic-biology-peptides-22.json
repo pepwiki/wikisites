@@ -1,0 +1,16 @@
+{
+  "question": "What is the NRPS assembly line concept?",
+  "options": [
+    "Random enzyme complex",
+    "An organized sequence of modules where intermediates are passed module to module in conveyor belt fashion",
+    "A linear DNA sequence only",
+    "A ribosome complex only"
+  ],
+  "correctIndex": 1,
+  "explanation": "NRPS assembly lines function as molecular conveyors where growing intermediates are passed between modules in defined order.",
+  "difficulty": "advanced",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

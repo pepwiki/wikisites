@@ -1,0 +1,16 @@
+{
+  "question": "Which pathway primarily degrades intracellular proteins via the 26S proteasome?",
+  "options": [
+    "Lysosomal degradation",
+    "Ubiquitin-proteasome system",
+    "Autophagy",
+    "Calpain system"
+  ],
+  "correctIndex": 1,
+  "explanation": "The ubiquitin-proteasome system tags proteins with polyubiquitin chains for degradation by the 26S proteasome, the primary pathway for regulated intracellular protein turnover.",
+  "difficulty": "beginner",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

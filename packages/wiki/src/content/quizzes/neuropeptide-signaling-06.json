@@ -1,0 +1,16 @@
+{
+  "question": "Where are neuropeptides typically synthesized?",
+  "options": [
+    "In the synapse",
+    "In the cell body and packaged into dense-core vesicles",
+    "At the axon terminal only",
+    "In the nucleus only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Neuropeptides are synthesized as prepropeptides in the rough ER of the cell body, processed in the Golgi, and packaged into large dense-core vesicles.",
+  "difficulty": "beginner",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

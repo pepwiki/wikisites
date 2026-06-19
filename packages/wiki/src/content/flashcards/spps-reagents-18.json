@@ -1,0 +1,9 @@
+{
+  "front": "What is the role of thioanisole in cleavage cocktails?",
+  "back": "Thioanisole is a scavenger that neutralizes reactive cations formed during TFA cleavage, particularly important for protecting groups like trityl and t-butyl. It prevents alkylation of sensitive residues.",
+  "tags": [
+    "synthesis",
+    "reagents"
+  ],
+  "difficulty": "advanced"
+}

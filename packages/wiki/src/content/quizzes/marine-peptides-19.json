@@ -1,0 +1,16 @@
+{
+  "question": "What is the kahalalide peptide family?",
+  "options": [
+    "Sponge structural proteins",
+    "Cyclic peptides from mollusk Elysia rufescens with anticancer activities",
+    "Coral skeleton components",
+    "Fish mucus peptides"
+  ],
+  "correctIndex": 1,
+  "explanation": "Kahalalides are cyclic depsipeptides showing anticancer activity through disruption of lysosomal function.",
+  "difficulty": "intermediate",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

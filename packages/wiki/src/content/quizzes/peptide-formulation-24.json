@@ -1,0 +1,16 @@
+{
+  "question": "What is a forced degradation study?",
+  "options": [
+    "Accidental degradation only",
+    "Deliberate exposure to stress conditions to identify degradation pathways",
+    "Standard stability testing only",
+    "Patient compliance testing only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Forced degradation studies identify degradation products and pathways under accelerated conditions, informing formulation design.",
+  "difficulty": "advanced",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "question": "Which resin is most commonly used for Fmoc-SPPS to produce C-terminal amides?",
+  "options": ["Wang resin", "Rink amide resin", " Merrifield resin", "JandaJel resin"],
+  "correctIndex": 1,
+  "explanation": "Rink amide resin produces C-terminal amides upon TFA cleavage. It is the standard choice when the final peptide requires an amidated C-terminus.",
+  "difficulty": "intermediate",
+  "tags": ["synthesis", "methods"]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is PK/PD in clinical pharmacology?",
+  "options": [
+    "Pharmacokinetics/Pharmacodynamics",
+    "Protein Kinase/Protein Degradation",
+    "Patient Kinetics/Patient Dynamics",
+    "Peptide Kinetics/Peptide Degradation"
+  ],
+  "correctIndex": 0,
+  "explanation": "PK (pharmacokinetics) describes what the body does to a drug (absorption, distribution, metabolism, excretion), while PD (pharmacodynamics) describes what the drug does to the body.",
+  "difficulty": "beginner",
+  "tags": ["clinical", "trials"]
+}

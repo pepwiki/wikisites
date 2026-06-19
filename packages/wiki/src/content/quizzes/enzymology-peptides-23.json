@@ -1,0 +1,16 @@
+{
+  "question": "Which protease is essential for MHC class I antigen presentation?",
+  "options": [
+    "Calpain",
+    "Immunoproteasome",
+    "Cathepsin D",
+    "ADAM17"
+  ],
+  "correctIndex": 1,
+  "explanation": "The immunoproteasome generates 8-10 residue peptides transported into the ER by TAP and loaded onto MHC class I molecules for immune surveillance.",
+  "difficulty": "advanced",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

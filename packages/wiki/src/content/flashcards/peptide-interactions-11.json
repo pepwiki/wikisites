@@ -1,0 +1,9 @@
+{
+  "front": "What is the role of conformational entropy in peptide binding?",
+  "back": "Peptide binding often restricts conformational freedom, causing an unfavorable entropy change. This must be compensated by favorable enthalpy from interactions for net binding to occur.",
+  "tags": [
+    "interactions",
+    "binding"
+  ],
+  "difficulty": "advanced"
+}

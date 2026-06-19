@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of TAP transporters in antigen presentation?",
+  "options": [
+    "They present peptides to T cells",
+    "They transport peptides from cytoplasm to ER lumen",
+    "They degrade proteins in lysosomes",
+    "They activate B cells"
+  ],
+  "correctIndex": 1,
+  "explanation": "TAP (Transporter Associated with Antigen Processing) transports cytoplasmic peptides into the ER lumen, where they are loaded onto MHC class I molecules.",
+  "difficulty": "intermediate",
+  "tags": ["immunology", "peptides"]
+}

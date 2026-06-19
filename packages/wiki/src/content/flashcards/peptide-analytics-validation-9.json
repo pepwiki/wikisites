@@ -1,0 +1,9 @@
+{
+  "front": "What is robustness in method validation?",
+  "back": "Robustness measures the method's ability to remain unaffected by small, deliberate variations (pH, temperature, flow rate). It identifies critical parameters that must be controlled.",
+  "tags": [
+    "analytics",
+    "validation"
+  ],
+  "difficulty": "intermediate"
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is alpha therapy vs beta therapy?",
+  "options": [
+    "Same type of radiation",
+    "Alpha particles have high LET and short range; beta particles have lower LET and longer range",
+    "Alpha particles are less damaging",
+    "Beta particles have shorter range"
+  ],
+  "correctIndex": 1,
+  "explanation": "Alpha particles deposit high linear energy transfer over very short distances (~50-100 um), while beta particles travel further (~1 mm) with lower LET.",
+  "difficulty": "advanced",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of neuropeptide processing enzymes?",
+  "options": [
+    "Degrade DNA",
+    "Cleave propeptides into active neuropeptides",
+    "Synthesize amino acids",
+    "Modify RNA"
+  ],
+  "correctIndex": 1,
+  "explanation": "Prohormone convertases (PC1/3, PC2) and carboxypeptidase E cleave inactive precursor proteins to generate mature, biologically active neuropeptides.",
+  "difficulty": "beginner",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

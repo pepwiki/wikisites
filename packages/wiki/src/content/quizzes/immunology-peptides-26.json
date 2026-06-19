@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of tumor-associated antigens (TAAs) for peptide vaccines?",
+  "options": [
+    "They are only on normal cells",
+    "They are overexpressed or mutated proteins on cancer cells",
+    "They are only on viruses",
+    "They are always non-immunogenic"
+  ],
+  "correctIndex": 1,
+  "explanation": "TAAs include overexpressed proteins, mutated proteins, and cancer-testis antigens that can be targeted by peptide-based cancer vaccines.",
+  "difficulty": "intermediate",
+  "tags": ["immunology", "peptides"]
+}

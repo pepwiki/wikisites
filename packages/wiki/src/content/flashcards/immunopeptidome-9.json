@@ -1,0 +1,9 @@
+{
+  "front": "What is cross-presentation?",
+  "back": "Cross-presentation is the process where exogenous antigens are presented on MHC class I molecules, enabling activation of CD8+ T cells against viruses that don't directly infect antigen-presenting cells.",
+  "tags": [
+    "immunology",
+    "MHC"
+  ],
+  "difficulty": "advanced"
+}

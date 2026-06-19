@@ -1,0 +1,16 @@
+{
+  "question": "What is the maximum tolerated dose (MTD)?",
+  "options": [
+    "The lowest effective dose",
+    "The highest dose that produces acceptable toxicity",
+    "Any dose that cures",
+    "The dose used in all patients"
+  ],
+  "correctIndex": 1,
+  "explanation": "MTD is determined in phase I trials as the highest administered activity producing dose-limiting toxicity in no more than a fraction of patients.",
+  "difficulty": "intermediate",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

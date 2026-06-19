@@ -1,0 +1,16 @@
+{
+  "question": "What is a Reference Listed Drug?",
+  "options": [
+    "Any generic drug",
+    "The approved drug product upon which a generic application relies for demonstrating bioequivalence",
+    "A recalled drug product",
+    "A prescription-only drug"
+  ],
+  "correctIndex": 1,
+  "explanation": "The RLD is the listed drug product that serves as the reference standard for ANDA submissions.",
+  "difficulty": "advanced",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

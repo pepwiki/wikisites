@@ -1,0 +1,16 @@
+{
+  "question": "What is ETD (electron transfer dissociation)?",
+  "options": [
+    "A type of chromatography",
+    "A fragmentation method that cleaves N-Calpha bonds, preserving labile modifications",
+    "A type of ion source",
+    "An ion mobility technique"
+  ],
+  "correctIndex": 1,
+  "explanation": "ETD transfers electrons to multiply charged peptide cations, causing N-Calpha backbone cleavage while preserving labile modifications like phosphorylation.",
+  "difficulty": "advanced",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

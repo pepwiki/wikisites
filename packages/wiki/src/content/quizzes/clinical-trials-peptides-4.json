@@ -1,0 +1,13 @@
+{
+  "question": "What is the purpose of a placebo-controlled trial?",
+  "options": [
+    "To avoid using any treatment",
+    "To compare treatment effects against no treatment",
+    "To eliminate side effects",
+    "To reduce study costs"
+  ],
+  "correctIndex": 1,
+  "explanation": "Placebo-controlled trials compare the investigational treatment against an inert substance to determine if the treatment effect is greater than the placebo response.",
+  "difficulty": "intermediate",
+  "tags": ["clinical", "trials"]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of a protocol amendment in clinical trials?",
+  "options": [
+    "To terminate the trial",
+    "To make changes to the trial design or conduct",
+    "To publish results",
+    "To manufacture the drug"
+  ],
+  "correctIndex": 1,
+  "explanation": "Protocol amendments modify the trial design based on new information or operational needs, requiring IRB/IEC approval and sometimes patient re-consent.",
+  "difficulty": "intermediate",
+  "tags": ["clinical", "trials"]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is the role of DIPEA in peptide coupling?",
+  "back": "DIPEA (N,N-Diisopropylethylamine, H\u00fcnig's base) is a non-nucleophilic base that maintains the pH during coupling. It is typically used as 2-4 equivalents relative to the amino acid.",
+  "tags": [
+    "synthesis",
+    "reagents"
+  ],
+  "difficulty": "beginner"
+}

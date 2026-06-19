@@ -1,0 +1,9 @@
+{
+  "front": "What is a mass spectrometer's role in peptide purification?",
+  "back": "LC-MS combines HPLC separation with mass spectrometric detection. It allows real-time monitoring of purification and confirms the identity and purity of eluting peptide peaks.",
+  "tags": [
+    "purification",
+    "chromatography"
+  ],
+  "difficulty": "intermediate"
+}

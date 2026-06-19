@@ -1,0 +1,13 @@
+{
+  "question": "What is the purpose of a safety run-in period?",
+  "options": [
+    "To test drug efficacy",
+    "To assess tolerability before randomization",
+    "To increase sample size",
+    "To reduce study duration"
+  ],
+  "correctIndex": 1,
+  "explanation": "A safety run-in exposes all patients to the study drug before randomization to identify those who cannot tolerate the treatment, improving the safety of the main trial.",
+  "difficulty": "advanced",
+  "tags": ["clinical", "trials"]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the therapeutic window?",
+  "options": [
+    "The time of day drugs are administered",
+    "The range between minimum effective and minimum toxic concentrations",
+    "The window of time for drug absorption",
+    "The period of drug专利 protection"
+  ],
+  "correctIndex": 1,
+  "explanation": "The therapeutic window is the concentration range where a drug provides efficacy without unacceptable toxicity. Drugs with narrow windows require careful monitoring.",
+  "difficulty": "intermediate",
+  "tags": ["clinical", "trials"]
+}

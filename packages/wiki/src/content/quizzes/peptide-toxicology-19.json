@@ -1,0 +1,16 @@
+{
+  "question": "What is a safety margin?",
+  "options": [
+    "Zero risk",
+    "The ratio between toxic dose and therapeutic dose indicating safety buffer",
+    "Drug packaging margin",
+    "Clinical trial dropout rate"
+  ],
+  "correctIndex": 1,
+  "explanation": "Safety margin = toxic dose / therapeutic dose. A larger margin indicates greater separation between effective and harmful doses.",
+  "difficulty": "intermediate",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

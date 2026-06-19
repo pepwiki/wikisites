@@ -1,0 +1,16 @@
+{
+  "question": "What is yeast surface display for peptide libraries?",
+  "options": [
+    "Displaying peptides in solution",
+    "Expressing peptides as fusions with Aga2p on the yeast cell surface for FACS-based selection",
+    "A type of fermentation",
+    "Yeast two-hybrid system"
+  ],
+  "correctIndex": 1,
+  "explanation": "Yeast display expresses peptides on the cell surface linked to Aga2p, enabling quantitative selection by FACS based on binding affinity and expression level simultaneously.",
+  "difficulty": "advanced",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of peptidase-resistant neuropeptide analogs in research?",
+  "options": [
+    "No use in research",
+    "They allow sustained receptor activation for studying chronic effects",
+    "They are weaker than native peptides",
+    "They only work in cell-free systems"
+  ],
+  "correctIndex": 1,
+  "explanation": "Modified neuropeptide analogs resistant to enzymatic degradation enable prolonged receptor activation, facilitating study of chronic signaling effects.",
+  "difficulty": "advanced",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

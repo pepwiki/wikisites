@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of protease-resistant peptide bonds?",
+  "options": [
+    "They increase peptide flexibility",
+    "They maintain biological activity while resisting enzymatic cleavage",
+    "They always reduce binding affinity",
+    "They are only for research"
+  ],
+  "correctIndex": 1,
+  "explanation": "Modified peptide bonds (e.g., reduced amides, triazoles) maintain structural features for binding while being unrecognizable to proteases.",
+  "difficulty": "advanced",
+  "tags": ["stability", "modifications"]
+}

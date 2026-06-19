@@ -1,0 +1,16 @@
+{
+  "question": "What is a Risk-Based Approach to GMP compliance?",
+  "options": [
+    "Ignoring all risks",
+    "Systematically identifying and controlling risks based on impact and probability",
+    "Only testing final products",
+    "No documentation required"
+  ],
+  "correctIndex": 1,
+  "explanation": "Risk-based approaches prioritize quality controls based on risk assessment, focusing resources on critical quality attributes with greatest impact.",
+  "difficulty": "advanced",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

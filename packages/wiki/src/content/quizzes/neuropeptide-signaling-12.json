@@ -1,0 +1,16 @@
+{
+  "question": "What is co-transmission in neuropeptide signaling?",
+  "options": [
+    "Neurons release only one messenger",
+    "Neurons release multiple neurotransmitters and neuropeptides together",
+    "Only glia release neuropeptides",
+    "Peptides cannot coexist with small molecules"
+  ],
+  "correctIndex": 1,
+  "explanation": "Many neurons co-release classical neurotransmitters with neuropeptides. The peptide modulates the fast neurotransmitter response, providing slower, longer-lasting effects.",
+  "difficulty": "intermediate",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

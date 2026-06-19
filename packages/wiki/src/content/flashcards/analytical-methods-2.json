@@ -1,0 +1,9 @@
+{
+  "front": "What is circular dichroism (CD) spectroscopy?",
+  "back": "CD spectroscopy measures the differential absorption of left and right circularly polarized light by chiral molecules. It is used to determine secondary structure content of peptides in solution.",
+  "tags": [
+    "analytical",
+    "methods"
+  ],
+  "difficulty": "beginner"
+}

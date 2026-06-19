@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of the active site in enzymes?",
+  "options": [
+    "It provides structural stability",
+    "It binds substrates and catalyzes reactions",
+    "It stores energy",
+    "It transports molecules"
+  ],
+  "correctIndex": 1,
+  "explanation": "The active site is a specific pocket or cleft where substrates bind and undergo chemical transformation. It contains catalytic residues that lower activation energy.",
+  "difficulty": "beginner",
+  "tags": ["structure", "function"]
+}

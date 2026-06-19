@@ -1,0 +1,16 @@
+{
+  "question": "What is the primary target of most antimicrobial peptides?",
+  "options": [
+    "Ribosomes",
+    "Bacterial cell membranes",
+    "DNA gyrase",
+    "RNA polymerase"
+  ],
+  "correctIndex": 1,
+  "explanation": "Most AMPs target bacterial cell membranes through electrostatic interactions with negatively charged lipids, leading to membrane disruption and cell death.",
+  "difficulty": "beginner",
+  "tags": [
+    "antimicrobial",
+    "defense"
+  ]
+}

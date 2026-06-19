@@ -6,6 +6,7 @@
   "description": "Oligopeptide educational websites — encyclopeptide.com & wikipept.com",
   "workspaces": [
     "packages/shared",
+    "packages/sdk",
     "packages/encp",
     "packages/wiki",
     "packages/query",

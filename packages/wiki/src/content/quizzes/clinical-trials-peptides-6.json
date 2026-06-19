@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of an Institutional Review Board (IRB)?",
+  "options": [
+    "To design clinical trials",
+    "To protect rights and welfare of human subjects",
+    "To manufacture drugs",
+    "To analyze data"
+  ],
+  "correctIndex": 1,
+  "explanation": "IRBs review and approve research protocols to ensure the protection of human subjects' rights, welfare, and safety throughout the clinical trial.",
+  "difficulty": "intermediate",
+  "tags": ["clinical", "trials"]
+}

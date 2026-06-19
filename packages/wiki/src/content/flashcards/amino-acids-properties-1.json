@@ -1,0 +1,9 @@
+{
+  "front": "What is the isoelectric point (pI) of glycine?",
+  "back": "The pI of glycine is approximately 5.97. At this pH, glycine carries no net electrical charge.",
+  "tags": [
+    "amino-acids",
+    "properties"
+  ],
+  "difficulty": "beginner"
+}

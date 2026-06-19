@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of a Data Safety Monitoring Board (DSMB)?",
+  "options": [
+    "To enroll patients",
+    "To monitor safety data and recommend trial modifications",
+    "To analyze final results",
+    "To market the drug"
+  ],
+  "correctIndex": 1,
+  "explanation": "An DSMB is an independent group that monitors accumulating safety data and can recommend trial continuation, modification, or early termination.",
+  "difficulty": "intermediate",
+  "tags": ["clinical", "trials"]
+}

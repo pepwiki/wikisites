@@ -1,0 +1,16 @@
+{
+  "question": "What is pseudoproline dipeptide in SPPS?",
+  "options": [
+    "A standard amino acid",
+    "An oxazolidine-based dipeptide that acts as a temporary backbone protection to improve synthesis of difficult sequences",
+    "A coupling reagent",
+    "A resin linker"
+  ],
+  "correctIndex": 1,
+  "explanation": "Pseudoprolines are backbone-protecting dipeptides (e.g., Fmoc-Xaa-Pro-OMe) that introduce local conformational disruption, preventing aggregation during synthesis of aggregation-prone sequences.",
+  "difficulty": "intermediate",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

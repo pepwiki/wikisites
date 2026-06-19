@@ -1,0 +1,16 @@
+{
+  "question": "What is biomimetic synthesis for marine peptides?",
+  "options": [
+    "Synthesizing natural peptides exactly",
+    "Designing simplified analogs retaining bioactivity while being synthetically accessible",
+    "Synthesizing marine organisms",
+    "Copying marine ecosystems in the lab"
+  ],
+  "correctIndex": 1,
+  "explanation": "Biomimetic synthesis creates simplified analogs retaining essential pharmacophoric elements while improving drug developability.",
+  "difficulty": "advanced",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

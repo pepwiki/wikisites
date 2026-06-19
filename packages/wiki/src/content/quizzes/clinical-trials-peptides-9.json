@@ -1,0 +1,13 @@
+{
+  "question": "What is the purpose of a dose-escalation study in Phase 1?",
+  "options": [
+    "To determine the maximum tolerated dose",
+    "To test multiple drugs simultaneously",
+    "To compare different formulations",
+    "To assess long-term effects"
+  ],
+  "correctIndex": 0,
+  "explanation": "Dose-escalation studies gradually increase the dose to determine the maximum tolerated dose (MTD) and dose-limiting toxicities for further development.",
+  "difficulty": "intermediate",
+  "tags": ["clinical", "trials"]
+}

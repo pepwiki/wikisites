@@ -1,0 +1,9 @@
+{
+  "front": "What is a peptide mass fingerprint (PMF)?",
+  "back": "PMF identifies proteins by comparing experimental peptide masses from enzymatic digestion with calculated masses from a database. MALDI-TOF is commonly used for PMF analysis.",
+  "tags": [
+    "analytical",
+    "methods"
+  ],
+  "difficulty": "intermediate"
+}

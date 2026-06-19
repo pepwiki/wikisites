@@ -1,0 +1,13 @@
+{
+  "question": "What is the difference between a domain and a motif?",
+  "options": [
+    "They are the same thing",
+    "Domains are independently folding units, motifs are smaller structural patterns",
+    "Motifs are larger than domains",
+    "Domains only exist in enzymes"
+  ],
+  "correctIndex": 1,
+  "explanation": "Domains are independently folding, stable units that can exist on their own, while motifs are smaller, recognizable patterns of secondary structure elements.",
+  "difficulty": "intermediate",
+  "tags": ["structure", "function"]
+}

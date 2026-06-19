@@ -1,0 +1,13 @@
+{
+  "question": "What is the operational model of agonism?",
+  "options": [
+    "A model that incorporates both receptor binding and efficacy",
+    "A model for competitive antagonism only",
+    "A model that ignores receptor reserves",
+    "A model for allosteric modulators"
+  ],
+  "correctIndex": 0,
+  "explanation": "The operational model (Black and Leff) quantifies agonism by incorporating both receptor binding affinity and the efficiency of signal transduction (efficacy).",
+  "difficulty": "advanced",
+  "tags": ["receptors", "pharmacology"]
+}

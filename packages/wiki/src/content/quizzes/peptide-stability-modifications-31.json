@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the FcRn-mediated recycling pathway?",
+  "options": [
+    "It degrades all proteins",
+    "It rescues Fc-containing proteins from lysosomal degradation",
+    "It only works for small molecules",
+    "It eliminates immunogenicity"
+  ],
+  "correctIndex": 1,
+  "explanation": "FcRn binds Fc domains in acidic endosomes and recycles them back to the cell surface, rescuing Fc-fusion proteins from lysosomal degradation.",
+  "difficulty": "advanced",
+  "tags": ["stability", "modifications"]
+}

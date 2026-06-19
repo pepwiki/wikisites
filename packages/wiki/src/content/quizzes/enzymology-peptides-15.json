@@ -1,0 +1,16 @@
+{
+  "question": "What does the Lineweaver-Burk plot represent?",
+  "options": [
+    "Michaelis-Menten curve",
+    "Double reciprocal of kinetic data",
+    "Product vs time",
+    "Enzyme concentration curve"
+  ],
+  "correctIndex": 1,
+  "explanation": "The Lineweaver-Burk plot displays 1/V versus 1/[S], producing a linear relationship. Intercepts reveal kinetic parameters: y-intercept equals 1/Vmax, x-intercept equals -1/Km.",
+  "difficulty": "intermediate",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

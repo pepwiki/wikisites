@@ -1,0 +1,9 @@
+{
+  "front": "What is IC50?",
+  "back": "IC50 (half-maximal inhibitory concentration) is the concentration of an inhibitor that reduces a biological response by 50%. It is commonly used to compare inhibitor potency.",
+  "tags": [
+    "receptors",
+    "binding"
+  ],
+  "difficulty": "beginner"
+}

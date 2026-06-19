@@ -1,0 +1,9 @@
+{
+  "front": "What is the difference between potency and efficacy?",
+  "back": "Potency is the concentration needed for 50% effect (EC50), while efficacy is the maximum effect achievable (Emax). A potent drug has low EC50; an efficacious drug has high Emax.",
+  "tags": [
+    "drug-design",
+    "principles"
+  ],
+  "difficulty": "intermediate"
+}

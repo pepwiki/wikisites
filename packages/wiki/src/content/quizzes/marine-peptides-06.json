@@ -1,0 +1,16 @@
+{
+  "question": "What is dolastatin-10?",
+  "options": [
+    "A sea sponge structural protein",
+    "A potent cytotoxic peptide precursor to anticancer drug brentuximab vedotin",
+    "A fish hormone",
+    "A coral pigment"
+  ],
+  "correctIndex": 1,
+  "explanation": "Dolastatin-10 is a pentapeptide whose synthetic analog MMAE is the payload in the ADC brentuximab vedotin.",
+  "difficulty": "beginner",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

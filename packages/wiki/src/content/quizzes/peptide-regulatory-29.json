@@ -1,0 +1,16 @@
+{
+  "question": "What is a Pediatric Investigation Plan?",
+  "options": [
+    "Adult clinical trial design only",
+    "A documented development plan for studying a medicinal product in the pediatric population",
+    "A school laboratory exercise",
+    "A pediatric medical device application"
+  ],
+  "correctIndex": 1,
+  "explanation": "A PIP describes the planned pediatric clinical development program required before requesting marketing authorization for adult indications.",
+  "difficulty": "advanced",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

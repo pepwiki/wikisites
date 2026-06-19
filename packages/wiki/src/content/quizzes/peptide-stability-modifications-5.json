@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the half-life of therapeutic peptides?",
+  "options": [
+    "It only affects manufacturing cost",
+    "It determines dosing frequency and duration of therapeutic effect",
+    "It measures peptide purity",
+    "It indicates peptide solubility"
+  ],
+  "correctIndex": 1,
+  "explanation": "Half-life determines how long a peptide remains active in the body, directly impacting dosing frequency, patient compliance, and therapeutic effectiveness.",
+  "difficulty": "beginner",
+  "tags": ["stability", "modifications"]
+}

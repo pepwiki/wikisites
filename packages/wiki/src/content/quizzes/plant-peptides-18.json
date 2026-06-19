@@ -1,0 +1,16 @@
+{
+  "question": "What are plant peptide hormones?",
+  "options": [
+    "Same as animal hormones",
+    "Small peptides regulating plant growth, development, and defense through receptor-mediated signaling",
+    "Peptides that only defend against pathogens",
+    "Peptides that only transport nutrients"
+  ],
+  "correctIndex": 1,
+  "explanation": "Plant peptide hormones (systemin, CLV3, CLE peptides) regulate cell proliferation, differentiation, and defense through receptor kinase signaling.",
+  "difficulty": "intermediate",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

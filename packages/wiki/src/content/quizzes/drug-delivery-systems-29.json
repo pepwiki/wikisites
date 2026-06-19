@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of the corona in nanoparticle drug delivery?",
+  "options": [
+    "It prevents particle formation",
+    "It forms when proteins adsorb to particle surface in blood",
+    "It improves drug loading",
+    "It always enhances targeting"
+  ],
+  "correctIndex": 1,
+  "explanation": "The protein corona forms when nanoparticles encounter biological fluids. It determines biological fate and can either enhance or reduce targeting depending on composition.",
+  "difficulty": "advanced",
+  "tags": ["delivery", "formulation"]
+}

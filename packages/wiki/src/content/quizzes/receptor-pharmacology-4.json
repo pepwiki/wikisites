@@ -1,0 +1,13 @@
+{
+  "question": "What characterizes a competitive antagonist?",
+  "options": [
+    "Binds to an allosteric site",
+    "Increases maximum effect",
+    "Shifts dose-response curve rightward without changing maximum",
+    "Irreversibly blocks the receptor"
+  ],
+  "correctIndex": 2,
+  "explanation": "Competitive antagonists bind to the same site as agonists, increasing apparent EC50 (rightward shift) without affecting maximum response, which can be overcome by increasing agonist concentration.",
+  "difficulty": "intermediate",
+  "tags": ["receptors", "pharmacology"]
+}

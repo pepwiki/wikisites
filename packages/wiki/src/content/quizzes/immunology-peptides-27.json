@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of interferons in antiviral immunity?",
+  "options": [
+    "They are only for bacterial infections",
+    "They induce antiviral states in neighboring cells",
+    "They suppress immune responses",
+    "They activate complement"
+  ],
+  "correctIndex": 1,
+  "explanation": "Interferons (IFN-α, IFN-β) induce expression of antiviral genes that inhibit viral replication and enhance MHC class I expression on neighboring cells.",
+  "difficulty": "intermediate",
+  "tags": ["immunology", "peptides"]
+}

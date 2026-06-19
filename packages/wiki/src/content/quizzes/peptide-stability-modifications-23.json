@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of cyclodextrin complexation in peptide stability?",
+  "options": [
+    "It decreases solubility",
+    "It protects peptides from degradation and improves bioavailability",
+    "It always reduces activity",
+    "It only works for large proteins"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cyclodextrins form inclusion complexes with hydrophobic portions of peptides, protecting them from enzymatic degradation and improving aqueous solubility.",
+  "difficulty": "intermediate",
+  "tags": ["stability", "modifications"]
+}

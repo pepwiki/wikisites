@@ -1,0 +1,16 @@
+{
+  "question": "What is proton transfer charge reduction in ESI?",
+  "options": [
+    "Increases charge states only",
+    "Reduces multiple charging to simplify spectra and reduce overlap",
+    "Destroys the peptide ions",
+    "Increases ionization efficiency"
+  ],
+  "correctIndex": 1,
+  "explanation": "Proton transfer reactions reduce charge states of ESI ions, simplifying spectra of large peptides/proteins by reducing overlapping isotope envelopes.",
+  "difficulty": "advanced",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

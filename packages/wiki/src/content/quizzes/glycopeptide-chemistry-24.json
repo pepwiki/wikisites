@@ -1,0 +1,16 @@
+{
+  "question": "What causes congenital disorders of glycosylation (CDG)?",
+  "options": [
+    "Glycosidase deficiencies",
+    "Defects in glycan biosynthesis or processing pathways",
+    "Overexpression of glycosyltransferases",
+    "Antibodies against glycans"
+  ],
+  "correctIndex": 1,
+  "explanation": "CDG are inherited metabolic disorders caused by mutations in genes encoding glycosylation enzymes or their regulators, affecting multiple organ systems.",
+  "difficulty": "advanced",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

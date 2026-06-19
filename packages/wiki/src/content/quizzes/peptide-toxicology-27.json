@@ -1,0 +1,16 @@
+{
+  "question": "What is an ADME-Tox integrated assessment?",
+  "options": [
+    "Separate testing only",
+    "Holistic evaluation combining pharmacokinetic and toxicological data for human safety prediction",
+    "Toxicity testing in animals only",
+    "Blood concentration monitoring only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Integrated ADME-Tox assessments combine PK parameters with toxicity data to predict safe human dosing.",
+  "difficulty": "advanced",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is the effect of light on peptide stability?",
+  "back": "Light, especially UV, can cause photo-oxidation of aromatic residues (Trp, Tyr, Phe) and generate reactive oxygen species. Peptide formulations should be protected from light.",
+  "tags": [
+    "stability",
+    "formulation"
+  ],
+  "difficulty": "beginner"
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the difference between DPP-4 inhibitors and GLP-1 receptor agonists?",
+  "options": [
+    "Same mechanism",
+    "DPP-4 inhibitors extend endogenous GLP-1; GLP-1 agonists are exogenous resistant analogs",
+    "DPP-4 inhibitors are injectable only",
+    "GLP-1 agonists are oral only"
+  ],
+  "correctIndex": 1,
+  "explanation": "DPP-4 inhibitors prevent degradation of native GLP-1, modestly increasing levels. GLP-1 receptor agonists are resistant analogs given at pharmacological doses with greater effects.",
+  "difficulty": "advanced",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

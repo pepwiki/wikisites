@@ -1,0 +1,16 @@
+{
+  "question": "What is blue biotechnology?",
+  "options": [
+    "Traditional medicine only",
+    "Using marine biological resources and biotechnology for therapeutic peptide development",
+    "Marine engineering only",
+    "Ocean conservation only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Blue biotechnology applies modern tools to marine biological resources for sustainable peptide drug discovery and production.",
+  "difficulty": "advanced",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the incretin effect?",
+  "options": [
+    "Oral glucose produces less insulin than IV glucose",
+    "Oral glucose produces more insulin than IV glucose due to gut hormone release",
+    "Insulin has no oral bioavailability",
+    "GLP-1 is only produced in the brain"
+  ],
+  "correctIndex": 1,
+  "explanation": "The incretin effect refers to oral glucose producing a greater insulin response than intravenous glucose, due to GLP-1 and GIP released from the gut.",
+  "difficulty": "intermediate",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

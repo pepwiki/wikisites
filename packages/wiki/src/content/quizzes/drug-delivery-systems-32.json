@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of stimulus-responsive drug delivery systems?",
+  "options": [
+    "They are always cheaper",
+    "They release drugs in response to specific triggers (pH, temperature, light)",
+    "They have no side effects",
+    "They work for all drugs equally"
+  ],
+  "correctIndex": 1,
+  "explanation": "Stimulus-responsive systems release drugs selectively when exposed to specific triggers (tumor pH, inflammation temperature, external light), enabling spatiotemporal control.",
+  "difficulty": "intermediate",
+  "tags": ["delivery", "formulation"]
+}

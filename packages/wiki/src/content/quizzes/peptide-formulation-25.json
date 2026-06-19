@@ -1,0 +1,16 @@
+{
+  "question": "What is peptide formulation for pulmonary delivery?",
+  "options": [
+    "Oral administration only",
+    "Designing inhaled formulations with optimal aerodynamic particle size for deep lung deposition",
+    "Intravenous injection only",
+    "Transdermal delivery only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Pulmonary delivery requires particles of 1-5 um aerodynamic diameter for alveolar deposition.",
+  "difficulty": "advanced",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

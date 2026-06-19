@@ -1,0 +1,16 @@
+{
+  "question": "What is a peptide implant?",
+  "options": [
+    "An injectable solution",
+    "A solid dosage form placed subcutaneously releasing peptide over months to years",
+    "An oral capsule",
+    "A transdermal patch only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Peptide implants provide continuous release over 6-12 months, eliminating frequent injections and improving adherence.",
+  "difficulty": "advanced",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

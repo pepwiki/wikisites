@@ -1,0 +1,16 @@
+{
+  "question": "In cryo-EM, what is the contrast transfer function (CTF)?",
+  "options": [
+    "Temperature control system",
+    "Mathematical correction for electron optics aberrations",
+    "Sample freezing rate",
+    "Detector sensitivity curve"
+  ],
+  "correctIndex": 1,
+  "explanation": "The CTF describes how electron optics introduce oscillations and phase reversals. Correcting for CTF is essential for recovering true structural information from micrographs.",
+  "difficulty": "intermediate",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

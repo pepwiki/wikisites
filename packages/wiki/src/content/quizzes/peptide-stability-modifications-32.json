@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of dual-drug peptide conjugates?",
+  "options": [
+    "They always have lower efficacy",
+    "They can target multiple pathways simultaneously",
+  "They are always cheaper",
+    "They always have shorter half-lives"
+  ],
+  "correctIndex": 1,
+  "explanation": "Dual-drug conjugates link two therapeutic peptides or a peptide with another drug, enabling synergistic effects by targeting multiple pathways simultaneously.",
+  "difficulty": "advanced",
+  "tags": ["stability", "modifications"]
+}

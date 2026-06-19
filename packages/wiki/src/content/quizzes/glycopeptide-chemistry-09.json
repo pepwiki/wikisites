@@ -1,0 +1,16 @@
+{
+  "question": "What is a glycan antenna?",
+  "options": [
+    "The core oligosaccharide",
+    "Branching sugar chains extending from the core",
+    "The lipid anchor",
+    "The peptide backbone modification"
+  ],
+  "correctIndex": 1,
+  "explanation": "Glycan antennae are branching oligosaccharide chains that extend from the conserved core structure, creating enormous structural diversity in glycan epitopes.",
+  "difficulty": "beginner",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

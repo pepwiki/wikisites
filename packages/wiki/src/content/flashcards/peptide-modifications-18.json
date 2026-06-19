@@ -1,0 +1,9 @@
+{
+  "front": "What is the role of cysteine alkylation?",
+  "back": "Cysteine alkylation adds alkyl groups (e.g., iodoacetamide) to free cysteines, preventing disulfide bond formation. It is used in proteomics and can modify peptide properties.",
+  "tags": [
+    "modifications",
+    "chemistry"
+  ],
+  "difficulty": "advanced"
+}

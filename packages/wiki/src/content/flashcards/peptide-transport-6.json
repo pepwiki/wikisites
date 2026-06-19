@@ -1,0 +1,9 @@
+{
+  "front": "What is the role of tight junctions in peptide transport?",
+  "back": "Tight junctions seal the space between epithelial cells, preventing paracellular transport. Peptides generally cannot cross tight junctions and must use transcellular routes.",
+  "tags": [
+    "transport",
+    "membrane"
+  ],
+  "difficulty": "intermediate"
+}

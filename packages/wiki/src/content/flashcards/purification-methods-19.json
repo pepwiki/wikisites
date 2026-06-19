@@ -1,0 +1,9 @@
+{
+  "front": "What is multidimensional chromatography?",
+  "back": "Multidimensional chromatography uses two or more different separation modes in sequence (e.g., SCX followed by RP-HPLC). It provides enhanced resolution for complex peptide mixtures like proteomics samples.",
+  "tags": [
+    "purification",
+    "chromatography"
+  ],
+  "difficulty": "advanced"
+}

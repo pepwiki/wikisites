@@ -1,0 +1,16 @@
+{
+  "question": "What is a ChloroTrityl chloride resin?",
+  "options": [
+    "Base-labile resin",
+    "Extremely acid-labile resin for Fmoc-SPPS allowing mild cleavage conditions",
+    "Photolabile resin",
+    "Safety-catch resin"
+  ],
+  "correctIndex": 1,
+  "explanation": "ChloroTrityl chloride resin allows peptide cleavage with very mild acid (1% TFA), preserving acid-labile side chain protecting groups for fragment condensation strategies.",
+  "difficulty": "intermediate",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

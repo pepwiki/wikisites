@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of peptide charge state in ESI?",
+  "options": [
+    "Determines retention time only",
+    "More basic residues and larger peptides carry more charges, affecting m/z and detection",
+    "Has no effect on analysis",
+    "Only affects MALDI"
+  ],
+  "correctIndex": 1,
+  "explanation": "In ESI, peptides acquire multiple charges primarily at Arg, Lys, His, and the N-terminus. Larger, more basic peptides carry higher charges, reducing m/z into analyzer range.",
+  "difficulty": "intermediate",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

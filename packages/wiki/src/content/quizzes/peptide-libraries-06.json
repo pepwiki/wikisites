@@ -1,0 +1,16 @@
+{
+  "question": "What is a random peptide library?",
+  "options": [
+    "A library of natural peptides",
+    "A library where each position is randomized to encode all 20 amino acids",
+    "A library with only common amino acids",
+    "A library designed for one specific target"
+  ],
+  "correctIndex": 1,
+  "explanation": "Random peptide libraries use degenerate codons (e.g., NNK) at each position to encode all 20 amino acids, generating unbiased diversity for target discovery.",
+  "difficulty": "beginner",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

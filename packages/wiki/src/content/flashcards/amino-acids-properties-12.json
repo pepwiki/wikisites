@@ -1,0 +1,9 @@
+{
+  "front": "What is the molecular weight of cysteine?",
+  "back": "Cysteine has a molecular weight of 121.16 Da. Its thiol group (-SH) is reactive and can form disulfide bonds with other cysteine residues.",
+  "tags": [
+    "amino-acids",
+    "properties"
+  ],
+  "difficulty": "intermediate"
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is the immunopeptidome?",
+  "back": "The immunopeptidome is the complete set of peptides presented by MHC molecules on cell surfaces. Mass spectrometry-based immunopeptidomics identifies these peptides to study immune recognition.",
+  "tags": [
+    "immunology",
+    "MHC"
+  ],
+  "difficulty": "intermediate"
+}

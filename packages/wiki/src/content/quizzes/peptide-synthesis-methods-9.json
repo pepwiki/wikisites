@@ -1,0 +1,13 @@
+{
+  "question": "Which HPLC mode is most commonly used for peptide purification?",
+  "options": [
+    "Normal phase HPLC",
+    "Reversed-phase HPLC",
+    "Ion exchange HPLC",
+    "Size exclusion HPLC"
+  ],
+  "correctIndex": 1,
+  "explanation": "Reversed-phase HPLC (RP-HPLC) with C18 columns is the standard method for peptide purification, using water/acetonitrile gradients with TFA as ion-pairing reagent.",
+  "difficulty": "beginner",
+  "tags": ["synthesis", "methods"]
+}

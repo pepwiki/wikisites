@@ -1,0 +1,16 @@
+{
+  "question": "Non-competitive inhibition affects which kinetic parameter?",
+  "options": [
+    "Increases Km only",
+    "Decreases Vmax only",
+    "Increases both Km and Vmax",
+    "No change to either"
+  ],
+  "correctIndex": 1,
+  "explanation": "Non-competitive inhibitors bind equally to free enzyme and ES complex, reducing Vmax without changing Km since substrate binding affinity is unaffected.",
+  "difficulty": "intermediate",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

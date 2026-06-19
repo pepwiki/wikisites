@@ -1,0 +1,16 @@
+{
+  "question": "What is an acute toxicity study?",
+  "options": [
+    "Long-term exposure study",
+    "Single-dose study to determine toxic effects and lethality over a short period",
+    "Repeated dose study",
+    "Carcinogenicity study"
+  ],
+  "correctIndex": 1,
+  "explanation": "Acute toxicity studies determine toxic effects of a single high dose, providing initial safety information including maximum tolerated dose.",
+  "difficulty": "beginner",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

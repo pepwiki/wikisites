@@ -1,0 +1,16 @@
+{
+  "question": "How do AMPs contribute to wound healing?",
+  "options": [
+    "Only kill bacteria",
+    "Antimicrobial activity plus modulation of inflammation and promotion of re-epithelialization",
+    "Only recruit immune cells",
+    "Only prevent scarring"
+  ],
+  "correctIndex": 1,
+  "explanation": "AMPs like LL-37 serve dual roles: direct pathogen killing and immunomodulation including promoting angiogenesis, modulating cytokines, and stimulating epithelial cell proliferation.",
+  "difficulty": "intermediate",
+  "tags": [
+    "antimicrobial",
+    "defense"
+  ]
+}

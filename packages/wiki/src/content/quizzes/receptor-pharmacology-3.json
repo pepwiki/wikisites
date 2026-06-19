@@ -1,0 +1,13 @@
+{
+  "question": "What is the difference between affinity and efficacy in pharmacology?",
+  "options": [
+    "Affinity is binding strength, efficacy is ability to activate",
+    "Affinity is potency, efficacy is selectivity",
+    "They are the same thing",
+    "Affinity determines maximum effect"
+  ],
+  "correctIndex": 0,
+  "explanation": "Affinity measures how well a drug binds to its receptor, while efficacy measures the ability of the drug-receptor complex to produce a biological response.",
+  "difficulty": "intermediate",
+  "tags": ["receptors", "pharmacology"]
+}

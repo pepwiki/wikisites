@@ -1,0 +1,9 @@
+{
+  "front": "What is an adaptive clinical trial design?",
+  "back": "Adaptive designs allow modifications to the trial based on interim data without compromising integrity. Adaptations can include dose changes, sample size re-estimation, or treatment arm selection.",
+  "tags": [
+    "clinical",
+    "development"
+  ],
+  "difficulty": "advanced"
+}

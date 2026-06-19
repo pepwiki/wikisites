@@ -1,0 +1,16 @@
+{
+  "question": "What is the correlation time in NMR?",
+  "options": [
+    "Translational diffusion",
+    "Molecular tumbling rate affecting relaxation",
+    "Torsion angle of the backbone",
+    "Relaxation delay"
+  ],
+  "correctIndex": 1,
+  "explanation": "The correlation time describes how fast a molecule tumbles in solution, directly affecting NMR relaxation rates. Larger peptides have longer correlation times.",
+  "difficulty": "advanced",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

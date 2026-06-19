@@ -1,0 +1,13 @@
+{
+  "question": "What is the concept of heterologous prime-boost in peptide vaccination?",
+  "options": [
+    "Using the same vaccine repeatedly",
+    "Using different vaccine formats to prime and boost the same immune response",
+    "Vaccinating different species",
+    "Using only live vaccines"
+  ],
+  "correctIndex": 1,
+  "explanation": "Heterologous prime-boost uses different vaccine platforms (e.g., DNA prime, peptide boost) to prime and expand the same antigen-specific immune response more effectively.",
+  "difficulty": "advanced",
+  "tags": ["immunology", "peptides"]
+}

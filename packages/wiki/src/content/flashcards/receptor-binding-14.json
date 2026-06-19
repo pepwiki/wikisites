@@ -1,0 +1,9 @@
+{
+  "front": "What is a binding isotherm?",
+  "back": "A binding isotherm plots the fraction of bound receptors against ligand concentration at constant temperature. It is used to determine binding constants and stoichiometry.",
+  "tags": [
+    "receptors",
+    "binding"
+  ],
+  "difficulty": "advanced"
+}

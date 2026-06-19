@@ -1,0 +1,16 @@
+{
+  "question": "What is domain swapping in NRPS engineering?",
+  "options": [
+    "Random domain deletion",
+    "Replacing NRPS domains with heterologous domains to produce novel peptide analogs",
+    "Swapping entire synthetases only",
+    "Changing DNA only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Domain swapping alters substrate specificity, introduces modifications, or changes the peptide sequence by replacing specific domains.",
+  "difficulty": "intermediate",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

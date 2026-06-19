@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of de novo peptide design?",
+  "options": [
+    "It only modifies existing peptides",
+    "It creates novel peptides with desired properties from scratch",
+    "It is always faster than experimental design",
+    "It eliminates the need for testing"
+  ],
+  "correctIndex": 1,
+  "explanation": "De novo design uses computational methods to create novel peptide sequences with specific binding, stability, or functional properties.",
+  "difficulty": "intermediate",
+  "tags": ["computational", "design"]
+}

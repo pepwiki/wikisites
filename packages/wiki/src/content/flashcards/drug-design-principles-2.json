@@ -1,0 +1,9 @@
+{
+  "front": "What are Lipinski's Rule of Five?",
+  "back": "Lipinski's rules predict drug-likeness: MW < 500, logP < 5, H-bond donors < 5, H-bond acceptors < 10. Compounds violating more than one rule are likely to have poor oral bioavailability.",
+  "tags": [
+    "drug-design",
+    "principles"
+  ],
+  "difficulty": "beginner"
+}

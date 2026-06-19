@@ -1,0 +1,9 @@
+{
+  "front": "What is a peptide library?",
+  "back": "A peptide library is a collection of many peptide variants. Libraries can be random, focused, or designed. They enable high-throughput screening for desired properties.",
+  "tags": [
+    "engineering",
+    "design"
+  ],
+  "difficulty": "beginner"
+}

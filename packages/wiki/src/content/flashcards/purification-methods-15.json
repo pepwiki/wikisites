@@ -1,0 +1,9 @@
+{
+  "front": "What is the typical column loading for preparative RP-HPLC?",
+  "back": "Column loading depends on the resolution needed. For analytical purification, 1-5 mg per injection is typical; for preparative work, 50-500 mg can be loaded on larger columns.",
+  "tags": [
+    "purification",
+    "chromatography"
+  ],
+  "difficulty": "advanced"
+}

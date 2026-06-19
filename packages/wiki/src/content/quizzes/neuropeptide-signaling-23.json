@@ -1,0 +1,16 @@
+{
+  "question": "What is the relationship between BDNF and neuropeptide signaling?",
+  "options": [
+    "Unrelated",
+    "BDNF acts as a neuropeptide-like modulator of synaptic plasticity through TrkB receptors",
+    "BDNF inhibits all neuropeptide release",
+    "BDNF is only for peripheral nerves"
+  ],
+  "correctIndex": 1,
+  "explanation": "BDNF modulates synaptic transmission and plasticity through TrkB receptor signaling, influencing the release and effects of multiple neuropeptide systems.",
+  "difficulty": "advanced",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

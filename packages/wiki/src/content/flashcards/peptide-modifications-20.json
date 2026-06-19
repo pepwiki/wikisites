@@ -1,0 +1,9 @@
+{
+  "front": "What is the purpose of FRET labeling?",
+  "back": "FRET (F\u00f6rster Resonance Energy Transfer) pairs fluorescent donors and acceptors to measure distances and interactions. In peptides, it monitors conformational changes, cleavage, and binding events.",
+  "tags": [
+    "modifications",
+    "chemistry"
+  ],
+  "difficulty": "intermediate"
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the source of trabectedin (Yondelis)?",
+  "options": [
+    "Synthetic only",
+    "Marine tunicate Ecteinascidia turbinata, now produced semi-synthetically",
+    "Marine sponge",
+    "Cone snail venom"
+  ],
+  "correctIndex": 1,
+  "explanation": "Trabectedin was isolated from tunicate E. turbinata and is now produced from the symbiotic bacterium Pseudomonas.",
+  "difficulty": "intermediate",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

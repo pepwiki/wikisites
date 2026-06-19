@@ -1,0 +1,16 @@
+{
+  "question": "What is jaspamide (jasplakinolide)?",
+  "options": [
+    "An antimicrobial only",
+    "A cyclic depsipeptide stabilizing actin filaments, used as a research tool",
+    "A peptide hormone",
+    "A cell signaling molecule"
+  ],
+  "correctIndex": 1,
+  "explanation": "Jaspamide stabilizes F-actin, disrupting cell motility and division. It is widely used as a cell biology research tool.",
+  "difficulty": "intermediate",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

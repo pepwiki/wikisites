@@ -1,0 +1,13 @@
+{
+  "question": "What is the principle of reversed-phase HPLC?",
+  "options": [
+    "Separation based on size",
+    "Separation based on hydrophobicity",
+    "Separation based on charge",
+    "Separation based on boiling point"
+  ],
+  "correctIndex": 1,
+  "explanation": "Reversed-phase HPLC separates peptides based on hydrophobicity, using nonpolar stationary phases (C18) and polar mobile phases with organic modifiers.",
+  "difficulty": "beginner",
+  "tags": ["analytical", "techniques"]
+}

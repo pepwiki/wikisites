@@ -1,0 +1,9 @@
+{
+  "front": "What is the concept of binding thermodynamics?",
+  "back": "Binding thermodynamics relates free energy (\u0394G = \u0394H - T\u0394S) to enthalpy and entropy. Favorable binding requires \u0394G < 0, achieved through favorable \u0394H and/or \u0394S.",
+  "tags": [
+    "interactions",
+    "binding"
+  ],
+  "difficulty": "advanced"
+}

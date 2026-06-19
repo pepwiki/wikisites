@@ -1,0 +1,9 @@
+{
+  "front": "What is Kd in receptor binding?",
+  "back": "The dissociation constant (Kd) measures the affinity of a ligand for its receptor. It represents the concentration at which 50% of receptors are occupied. Lower Kd indicates higher affinity.",
+  "tags": [
+    "receptors",
+    "binding"
+  ],
+  "difficulty": "beginner"
+}

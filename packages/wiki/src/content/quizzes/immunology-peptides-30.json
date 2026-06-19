@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the T cell epitope repertoire?",
+  "options": [
+    "It is the same for all individuals",
+    "It varies between individuals due to MHC polymorphism",
+    "It only includes viral peptides",
+    "It is determined only by antigen sequence"
+  ],
+  "correctIndex": 1,
+  "explanation": "The T cell epitope repertoire varies between individuals due to MHC polymorphism, affecting which peptides each person can present and respond to.",
+  "difficulty": "intermediate",
+  "tags": ["immunology", "peptides"]
+}

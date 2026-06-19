@@ -1,0 +1,16 @@
+{
+  "question": "What is a scavenger in SPPS cleavage cocktail?",
+  "options": [
+    "Increases coupling efficiency",
+    "Captures reactive carbocations released during TFA cleavage to prevent peptide modification",
+    "Removes Fmoc groups",
+    "Activates the incoming amino acid"
+  ],
+  "correctIndex": 1,
+  "explanation": "Scavengers like water, triisopropylsilane, and EDT react with cationic byproducts (tert-butyl cations) generated during TFA cleavage, preventing re-attachment to the peptide.",
+  "difficulty": "beginner",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

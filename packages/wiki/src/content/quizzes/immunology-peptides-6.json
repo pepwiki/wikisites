@@ -1,0 +1,13 @@
+{
+  "question": "What is cross-presentation?",
+  "options": [
+    "Presentation of self-antigens",
+    "Presentation of exogenous antigens on MHC class I molecules",
+    "Presentation of peptides by B cells",
+    "Presentation of intracellular antigens on MHC class II"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cross-presentation allows exogenous antigens to be presented on MHC class I molecules, enabling CD8+ T cell responses against viruses that don't directly infect antigen-presenting cells.",
+  "difficulty": "advanced",
+  "tags": ["immunology", "peptides"]
+}

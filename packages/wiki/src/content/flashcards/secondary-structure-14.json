@@ -1,0 +1,9 @@
+{
+  "front": "What is a helix dipole and how does it affect peptide stability?",
+  "back": "An alpha-helix has a macroscopic dipole with the N-terminus positive and C-terminus negative. This dipole can destabilize the helix and is often stabilized by negative charges at the C-terminus or positive charges at the N-terminus.",
+  "tags": [
+    "structure",
+    "secondary"
+  ],
+  "difficulty": "advanced"
+}

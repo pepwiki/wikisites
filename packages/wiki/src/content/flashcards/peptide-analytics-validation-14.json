@@ -1,0 +1,9 @@
+{
+  "front": "What is the role of reference standards?",
+  "back": "Reference standards are well-characterized materials used to calibrate instruments and validate methods. Primary standards are purified; secondary standards are calibrated against primary standards.",
+  "tags": [
+    "analytics",
+    "validation"
+  ],
+  "difficulty": "beginner"
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is an allosteric modulator?",
+  "back": "An allosteric modulator binds to a site different from the orthosteric (primary) binding site. It can enhance (positive allosteric modulator, PAM) or reduce (negative allosteric modulator, NAM) receptor activity.",
+  "tags": [
+    "receptors",
+    "binding"
+  ],
+  "difficulty": "intermediate"
+}

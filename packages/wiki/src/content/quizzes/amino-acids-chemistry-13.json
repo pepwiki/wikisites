@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of the Edman degradation reagent phenylisothiocyanate (PITC)?",
+  "options": [
+    "Cleaves peptide bonds at proline",
+    "Labels the N-terminal amino acid",
+    "Oxidizes cysteine residues",
+    "Reduces disulfide bonds"
+  ],
+  "correctIndex": 1,
+  "explanation": "PITC reacts with the N-terminal amino group under mild alkaline conditions to form a phenylthiocarbamoyl derivative, which is then cleaved and identified in sequencing.",
+  "difficulty": "advanced",
+  "tags": ["amino-acids", "chemistry"]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is a calorimetric peptide sensor?",
+  "back": "Calorimetric sensors measure heat changes upon peptide-analyte binding. Isothermal titration calorimetry (ITC) provides thermodynamic data including binding constants and enthalpy changes.",
+  "tags": [
+    "sensors",
+    "biosensors"
+  ],
+  "difficulty": "intermediate"
+}

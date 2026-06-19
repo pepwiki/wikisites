@@ -1,0 +1,16 @@
+{
+  "question": "What is a lyoprotectant?",
+  "options": [
+    "A peptide drug itself",
+    "A substance added to protect peptide structure during freeze-drying",
+    "A cleaning agent for lyophilizers",
+    "A temperature monitoring device"
+  ],
+  "correctIndex": 1,
+  "explanation": "Lyoprotectants like sucrose and trehalose form a glassy matrix preventing peptide unfolding and aggregation during drying.",
+  "difficulty": "beginner",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

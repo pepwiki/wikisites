@@ -1,0 +1,13 @@
+{
+  "question": "What is a peptide vaccine?",
+  "options": [
+    "A vaccine containing whole pathogens",
+    "A vaccine containing specific peptide epitopes to induce immunity",
+    "A vaccine containing only carbohydrates",
+    "A vaccine containing live attenuated viruses"
+  ],
+  "correctIndex": 1,
+  "explanation": "Peptide vaccines contain specific antigenic peptide epitopes designed to stimulate immune responses against target pathogens or cancer cells.",
+  "difficulty": "beginner",
+  "tags": ["immunology", "peptides"]
+}

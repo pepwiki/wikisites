@@ -1,0 +1,13 @@
+{
+  "question": "What is inverse agonism?",
+  "options": [
+    "Activating the receptor opposite to agonist",
+    "Reducing constitutive receptor activity",
+    "Blocking both agonist and antagonist",
+    "Enhancing receptor sensitivity"
+  ],
+  "correctIndex": 1,
+  "explanation": "Inverse agonists reduce constitutive (basal) receptor activity below the unliganded level, producing effects opposite to those of agonists at the same receptor.",
+  "difficulty": "advanced",
+  "tags": ["receptors", "pharmacology"]
+}

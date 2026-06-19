@@ -1,0 +1,16 @@
+{
+  "question": "What makes marine peptides attractive for drug discovery?",
+  "options": [
+    "Always cheaper to produce",
+    "Novel structures and mechanisms not found in terrestrial organisms",
+    "Always higher yields",
+    "Always orally bioavailable"
+  ],
+  "correctIndex": 1,
+  "explanation": "Marine organisms produce structurally unique peptides with novel mechanisms due to evolutionary adaptation to extreme environments.",
+  "difficulty": "intermediate",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

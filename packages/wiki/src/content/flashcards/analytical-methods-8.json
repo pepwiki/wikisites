@@ -1,0 +1,9 @@
+{
+  "front": "What is ATR-FTIR spectroscopy?",
+  "back": "ATR-FTIR (Attenuated Total Reflectance Fourier Transform Infrared) measures infrared absorption of peptides. Amide I (1600-1700 cm\u207b\u00b9) and Amide II (1500-1600 cm\u207b\u00b9) bands indicate secondary structure.",
+  "tags": [
+    "analytical",
+    "methods"
+  ],
+  "difficulty": "intermediate"
+}

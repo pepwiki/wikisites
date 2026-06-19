@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of water molecules in protein folding?",
+  "options": [
+    "They prevent folding",
+    "They are only structural components",
+    "They participate in hydrogen bonding and solvation",
+  "They are always excluded from the protein interior"
+  ],
+  "correctIndex": 2,
+  "explanation": "Water molecules participate in hydrogen bonding networks, solvate surface residues, and can be trapped in the interior, contributing to protein stability and function.",
+  "difficulty": "intermediate",
+  "tags": ["structure", "function"]
+}

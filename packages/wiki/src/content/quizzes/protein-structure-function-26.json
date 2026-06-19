@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the protein folding funnel?",
+  "options": [
+    "It shows proteins fold randomly",
+    "It illustrates the energy landscape guiding folding to the native state",
+    "It describes protein degradation",
+    "It shows how proteins aggregate"
+  ],
+  "correctIndex": 1,
+  "explanation": "The folding funnel represents the energy landscape where proteins progressively lose conformational entropy while gaining enthalpy, guiding folding to the native state.",
+  "difficulty": "advanced",
+  "tags": ["structure", "function"]
+}

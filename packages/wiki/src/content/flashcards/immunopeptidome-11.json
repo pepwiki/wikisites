@@ -1,0 +1,9 @@
+{
+  "front": "What are immunodominant epitopes?",
+  "back": "Immunodominant epitopes are the peptides that elicit the strongest immune response. They are determined by MHC binding affinity, T cell receptor recognition, and peptide abundance.",
+  "tags": [
+    "immunology",
+    "MHC"
+  ],
+  "difficulty": "intermediate"
+}

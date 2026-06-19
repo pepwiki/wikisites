@@ -1,0 +1,16 @@
+{
+  "question": "What is the concept of supply chain sustainability for marine drug peptides?",
+  "options": [
+    "Unlimited wild harvest is acceptable",
+    "Developing aquaculture, fermentation, and synthetic methods to ensure sustainable supply without depleting wild populations",
+    "Only deep-sea mining is relevant",
+    "Marine organisms reproduce too quickly for sustainability concerns"
+  ],
+  "correctIndex": 1,
+  "explanation": "Sustainable supply chains require aquaculture, bacterial fermentation, or total synthesis to reduce pressure on wild marine organism populations while maintaining drug development pipelines.",
+  "difficulty": "advanced",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

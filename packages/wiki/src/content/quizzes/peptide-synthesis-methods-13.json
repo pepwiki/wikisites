@@ -1,0 +1,13 @@
+{
+  "question": "What is the Kaiser test used for in SPPS?",
+  "options": [
+    "Testing peptide purity",
+    "Detecting free amino groups",
+    "Measuring resin loading",
+    "Checking coupling efficiency"
+  ],
+  "correctIndex": 1,
+  "explanation": "The Kaiser test (ninhydrin test) detects free amino groups by producing a blue/purple color. A negative result indicates complete coupling of the amino group.",
+  "difficulty": "intermediate",
+  "tags": ["synthesis", "methods"]
+}

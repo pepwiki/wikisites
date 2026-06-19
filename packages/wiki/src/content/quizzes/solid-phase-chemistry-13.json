@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of HOBt (hydroxybenzotriazole) in peptide coupling?",
+  "options": [
+    "Fmoc deprotection",
+    "Prevents racemization and accelerates coupling by forming an active ester intermediate",
+    "Cleaves the peptide from resin",
+    "Removes side chain protecting groups"
+  ],
+  "correctIndex": 1,
+  "explanation": "HOBt forms an active ester with the activated amino acid, reducing racemization and suppressing oxazolone formation while accelerating the coupling reaction.",
+  "difficulty": "intermediate",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

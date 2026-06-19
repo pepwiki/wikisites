@@ -1,0 +1,9 @@
+{
+  "front": "What is deep mutational scanning?",
+  "back": "Deep mutational scanning introduces all possible single mutations at every position and measures their effects by next-generation sequencing. It creates comprehensive fitness landscapes.",
+  "tags": [
+    "engineering",
+    "design"
+  ],
+  "difficulty": "advanced"
+}

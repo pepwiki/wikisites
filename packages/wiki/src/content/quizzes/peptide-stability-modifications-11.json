@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of retro-inverso peptides?",
+  "options": [
+    "They have reversed sequence only",
+    "They mimic native peptide topology while being protease resistant",
+    "They are always non-immunogenic",
+    "They have reduced binding affinity"
+  ],
+  "correctIndex": 1,
+  "explanation": "Retro-inverso peptides reverse the sequence direction and use D-amino acids, maintaining similar side chain topology while being resistant to proteolysis.",
+  "difficulty": "advanced",
+  "tags": ["stability", "modifications"]
+}

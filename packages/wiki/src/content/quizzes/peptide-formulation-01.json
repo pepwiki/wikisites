@@ -1,0 +1,16 @@
+{
+  "question": "What is lyophilization?",
+  "options": [
+    "Heating to remove moisture",
+    "Freeze-drying to remove water from heat-sensitive peptide formulations",
+    "Chemical precipitation",
+    "Dissolving in organic solvents"
+  ],
+  "correctIndex": 1,
+  "explanation": "Lyophilization removes water by sublimation under vacuum, producing stable dry powders of heat-sensitive peptides.",
+  "difficulty": "beginner",
+  "tags": [
+    "formulation",
+    "delivery"
+  ]
+}

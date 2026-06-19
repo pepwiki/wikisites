@@ -1,0 +1,16 @@
+{
+  "question": "What is an intein?",
+  "options": [
+    "An intervening DNA sequence",
+    "A protein element that splices itself out, enabling protein ligation",
+    "A type of ribosome",
+    "A DNA repair enzyme"
+  ],
+  "correctIndex": 1,
+  "explanation": "Inteins are self-splicing protein elements that excise themselves and ligate flanking exteins, enabling protein-level recombination.",
+  "difficulty": "beginner",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

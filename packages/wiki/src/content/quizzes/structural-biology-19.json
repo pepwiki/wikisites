@@ -1,0 +1,16 @@
+{
+  "question": "What is the R-factor in crystallography?",
+  "options": [
+    "Resolution factor",
+    "Measure of agreement between observed and calculated structure factors",
+    "Reliability index for NMR",
+    "Ramachandran factor"
+  ],
+  "correctIndex": 1,
+  "explanation": "The R-factor quantifies agreement between observed and calculated structure factors. Values below 0.20 generally indicate a well-refined structure.",
+  "difficulty": "intermediate",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

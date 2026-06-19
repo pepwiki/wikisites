@@ -1,0 +1,16 @@
+{
+  "question": "What distinguishes volume transmission from synaptic transmission?",
+  "options": [
+    "Same mechanism",
+    "Volume transmission involves neuropeptide diffusion through extracellular fluid to distant receptors",
+    "Volume transmission is faster",
+    "It only occurs in invertebrates"
+  ],
+  "correctIndex": 1,
+  "explanation": "Volume transmission allows neuropeptides to diffuse from release sites to distant receptors, affecting large neuronal populations compared to point-to-point synaptic transmission.",
+  "difficulty": "intermediate",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the Aib (alpha-aminoisobutyric acid) residue?",
+  "options": [
+    "It decreases helix stability",
+    "It strongly promotes helix formation and protease resistance",
+    "It is always non-functional",
+    "It reduces peptide solubility always"
+  ],
+  "correctIndex": 1,
+  "explanation": "Aib is a sterically constrained amino acid that strongly promotes helical structure formation and is resistant to proteolytic degradation.",
+  "difficulty": "advanced",
+  "tags": ["stability", "modifications"]
+}

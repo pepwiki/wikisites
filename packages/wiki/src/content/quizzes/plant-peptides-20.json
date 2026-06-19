@@ -1,0 +1,16 @@
+{
+  "question": "What is the cyclotide-based drug design concept?",
+  "options": [
+    "Using the entire cyclotide as a drug",
+    "Exploiting the scaffold to present bioactive epitopes in a stable, protease-resistant framework",
+    "Modifying cyclotides to become toxins",
+    "Only studying cyclotide structure"
+  ],
+  "correctIndex": 1,
+  "explanation": "The cyclotide scaffold presents bioactive sequences in a protease-resistant, orally bioavailable format.",
+  "difficulty": "advanced",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

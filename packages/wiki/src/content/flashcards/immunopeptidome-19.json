@@ -1,0 +1,9 @@
+{
+  "front": "What is the role of the proteasome in generating MHC-I peptides?",
+  "back": "The 20S proteasome core generates most MHC-I peptides. The 11S regulator (PA28) can replace the 19S cap to enhance MHC-I peptide generation, particularly during immune responses.",
+  "tags": [
+    "immunology",
+    "MHC"
+  ],
+  "difficulty": "intermediate"
+}

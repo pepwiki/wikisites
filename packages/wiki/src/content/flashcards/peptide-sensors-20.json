@@ -1,0 +1,9 @@
+{
+  "front": "What is a peptide array?",
+  "back": "A peptide array is a high-throughput format where multiple peptides are immobilized on a solid surface. It enables simultaneous screening of many peptide-analyte interactions.",
+  "tags": [
+    "sensors",
+    "biosensors"
+  ],
+  "difficulty": "intermediate"
+}

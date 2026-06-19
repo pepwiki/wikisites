@@ -1,0 +1,16 @@
+{
+  "question": "What does ESI stand for in mass spectrometry?",
+  "options": [
+    "Electron spray ionization",
+    "Electrospray ionization",
+    "Electronic state ionization",
+    "Energy-selective ionization"
+  ],
+  "correctIndex": 1,
+  "explanation": "ESI generates multiply charged peptide ions from solution by applying high voltage to a capillary, producing charged droplets that undergo Coulombic fission.",
+  "difficulty": "beginner",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

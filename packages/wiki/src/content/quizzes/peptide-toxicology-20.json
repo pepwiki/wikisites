@@ -1,0 +1,16 @@
+{
+  "question": "What is genotoxicity testing?",
+  "options": [
+    "Testing drug purity only",
+    "Assessing whether a drug damages DNA and has mutagenic or carcinogenic potential",
+    "Testing patient genetics",
+    "Assessing drug metabolism only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Genotoxicity studies (Ames test, micronucleus assay) screen for DNA-damaging potential, informing risk assessment.",
+  "difficulty": "advanced",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

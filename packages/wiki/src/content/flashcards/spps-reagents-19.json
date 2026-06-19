@@ -1,0 +1,9 @@
+{
+  "front": "What is a coupling reagent's role in preventing racemization?",
+  "back": "Coupling reagents activate the carboxyl group without forming a free oxazolone intermediate, which is prone to racemization. Active esters formed with HOBt/HOAt proceed with minimal epimerization.",
+  "tags": [
+    "synthesis",
+    "reagents"
+  ],
+  "difficulty": "intermediate"
+}

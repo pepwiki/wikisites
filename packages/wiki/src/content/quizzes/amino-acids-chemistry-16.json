@@ -1,0 +1,8 @@
+{
+  "question": "Which amino acid has a branched-chain aliphatic side chain?",
+  "options": ["Alanine", "Valine", "Serine", "Asparagine"],
+  "correctIndex": 1,
+  "explanation": "Valine has an isopropyl side chain, making it a branched-chain amino acid along with leucine and isoleucine. These are essential amino acids with hydrophobic properties.",
+  "difficulty": "beginner",
+  "tags": ["amino-acids", "chemistry"]
+}

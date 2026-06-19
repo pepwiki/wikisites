@@ -1,0 +1,16 @@
+{
+  "question": "What is a cryptic biosynthetic gene cluster?",
+  "options": [
+    "A well-expressed gene cluster",
+    "A silent gene cluster not expressed under standard conditions encoding potentially novel natural products",
+    "A deleted gene cluster",
+    "A gene cluster active only in nature"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cryptic gene clusters encode biosynthetic machinery silent in laboratory conditions, revealing novel chemistry when activated.",
+  "difficulty": "intermediate",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

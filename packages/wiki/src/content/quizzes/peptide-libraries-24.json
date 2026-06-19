@@ -1,0 +1,16 @@
+{
+  "question": "What is the concept of encode-decode in DNA-encoded libraries?",
+  "options": [
+    "DNA replication",
+    "The DNA tag encodes the synthetic history of each compound; sequencing decodes identity",
+    "Protein translation",
+    "Peptide degradation pathway"
+  ],
+  "correctIndex": 1,
+  "explanation": "Each chemical transformation adds a DNA barcode element, building an encyclopedic tag. After selection, sequencing the tag decodes which compound was enriched.",
+  "difficulty": "advanced",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

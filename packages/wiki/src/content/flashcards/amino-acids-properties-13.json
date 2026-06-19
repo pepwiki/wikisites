@@ -1,0 +1,9 @@
+{
+  "front": "How does the Chou-Fasman method predict secondary structure from amino acid composition?",
+  "back": "The Chou-Fasman method assigns propensity values for each amino acid to form helices, sheets, or turns. Proline and glycine are strong helix-breakers, while alanine and leucine are strong helix-formers.",
+  "tags": [
+    "amino-acids",
+    "properties"
+  ],
+  "difficulty": "advanced"
+}

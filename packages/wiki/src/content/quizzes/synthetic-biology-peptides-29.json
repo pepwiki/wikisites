@@ -1,0 +1,16 @@
+{
+  "question": "What is chemoenzymatic synthesis?",
+  "options": [
+    "Purely chemical synthesis only",
+    "Combining chemical synthesis of fragments with enzymatic modifications using NRPS or tailoring enzymes",
+    "Purely biological synthesis only",
+    "No synthesis required only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Chemoenzymatic synthesis combines chemical precision for fragment assembly with enzymatic selectivity for complex modified peptide natural products.",
+  "difficulty": "advanced",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

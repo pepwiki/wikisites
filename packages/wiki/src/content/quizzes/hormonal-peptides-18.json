@@ -1,0 +1,16 @@
+{
+  "question": "What causes the dawn phenomenon in diabetes?",
+  "options": [
+    "Dietary factors",
+    "Nocturnal surge of GH and cortisol increasing hepatic glucose output",
+    "Insulin pump malfunction",
+    "Hypoglycemia during sleep"
+  ],
+  "correctIndex": 1,
+  "explanation": "The dawn phenomenon results from the pre-morning surge in counterregulatory hormones that increase hepatic glucose output, causing fasting hyperglycemia.",
+  "difficulty": "intermediate",
+  "tags": [
+    "hormones",
+    "endocrine"
+  ]
+}

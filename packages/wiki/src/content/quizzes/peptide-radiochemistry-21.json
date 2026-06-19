@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of peptide mass spectrometry in radiopharmaceutical development?",
+  "options": [
+    "Directly images patients",
+    "Characterizes radiolabeled peptide identity, purity, and in vitro stability",
+    "Measures radiation dose",
+    "Only determines peptide sequence"
+  ],
+  "correctIndex": 1,
+  "explanation": "LC-MS confirms radiolabeled peptide identity, measures radiochemical purity, and monitors in vitro stability under physiological conditions.",
+  "difficulty": "intermediate",
+  "tags": [
+    "radiochemistry",
+    "imaging"
+  ]
+}

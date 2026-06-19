@@ -1,0 +1,13 @@
+{
+  "question": "What is the main advantage of dendrimers as drug carriers?",
+  "options": [
+    "They are natural polymers",
+    "They have precise, well-defined structures",
+    "They are biodegradable",
+    "They are always non-toxic"
+  ],
+  "correctIndex": 1,
+  "explanation": "Dendrimers have monodisperse, well-defined structures with multiple functional groups for drug conjugation, enabling precise control over drug loading and release.",
+  "difficulty": "intermediate",
+  "tags": ["delivery", "formulation"]
+}

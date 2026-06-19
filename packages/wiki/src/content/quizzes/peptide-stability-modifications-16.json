@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of protease inhibitors in peptide delivery?",
+  "options": [
+    "They enhance peptide synthesis",
+    "They protect peptides from enzymatic degradation in vivo",
+    "They increase peptide solubility",
+    "They reduce peptide immunogenicity"
+  ],
+  "correctIndex": 1,
+  "explanation": "Co-formulating peptides with protease inhibitors can protect them from degradation in the gastrointestinal tract or circulation, improving bioavailability.",
+  "difficulty": "intermediate",
+  "tags": ["stability", "modifications"]
+}

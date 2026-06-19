@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of G protein-coupled receptor kinases (GRKs)?",
+  "options": [
+    "They activate G proteins",
+    "They phosphorylate activated GPCRs for desensitization",
+    "They synthesize second messengers",
+    "They degrade receptor ligands"
+  ],
+  "correctIndex": 1,
+  "explanation": "GRKs specifically phosphorylate agonist-occupied GPCRs, creating binding sites for beta-arrestin, which leads to receptor desensitization and internalization.",
+  "difficulty": "advanced",
+  "tags": ["receptors", "pharmacology"]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is a beta-turn?",
+  "back": "A beta-turn is a four-residue motif that reverses the direction of a peptide chain. It is stabilized by a hydrogen bond between the C=O of residue i and the N-H of residue i+3, commonly found on protein surfaces.",
+  "tags": [
+    "structure",
+    "secondary"
+  ],
+  "difficulty": "beginner"
+}

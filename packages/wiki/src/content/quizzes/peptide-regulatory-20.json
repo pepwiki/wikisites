@@ -1,0 +1,16 @@
+{
+  "question": "What is supply chain integrity?",
+  "options": [
+    "Only delivery logistics",
+    "Ensuring traceability, authenticity, and quality of materials from source to patient",
+    "Only packaging integrity",
+    "Only storage conditions"
+  ],
+  "correctIndex": 1,
+  "explanation": "Supply chain integrity encompasses traceability, authentication, and quality assurance throughout the pharmaceutical distribution chain.",
+  "difficulty": "intermediate",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

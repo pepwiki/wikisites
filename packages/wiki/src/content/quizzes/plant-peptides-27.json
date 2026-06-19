@@ -1,0 +1,16 @@
+{
+  "question": "What is the challenge of recombinant plant peptide production?",
+  "options": [
+    "No challenges",
+    "Low expression levels, improper folding, and lack of post-translational modifications in heterologous systems",
+    "Always toxic to host cells",
+    "Always requires chemical synthesis only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Recombinant production faces challenges including low yields, improper disulfide bond formation, and absence of plant-specific processing enzymes.",
+  "difficulty": "advanced",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

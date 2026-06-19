@@ -1,0 +1,9 @@
+{
+  "front": "What are the common detection methods in HPLC?",
+  "back": "UV detection at 214 nm (peptide bond) and 280 nm (aromatic residues) is standard. RI (refractive index) and ELSD (evaporative light scattering) are also used for non-chromophoric analytes.",
+  "tags": [
+    "purification",
+    "chromatography"
+  ],
+  "difficulty": "beginner"
+}

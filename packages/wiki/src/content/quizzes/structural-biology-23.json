@@ -1,0 +1,16 @@
+{
+  "question": "What is small-angle X-ray scattering (SAXS) used for?",
+  "options": [
+    "Atomic resolution structures",
+    "Low-resolution shape and size envelope in solution",
+    "Secondary structure assignment",
+    "Disulfide bond mapping"
+  ],
+  "correctIndex": 1,
+  "explanation": "SAXS provides low-resolution information about the overall shape, size, and conformational state of peptides and proteins in solution under near-physiological conditions.",
+  "difficulty": "advanced",
+  "tags": [
+    "structural",
+    "biology"
+  ]
+}

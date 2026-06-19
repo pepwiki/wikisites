@@ -1,0 +1,9 @@
+{
+  "front": "Which amino acid has the smallest side chain?",
+  "back": "Glycine has the smallest side chain, consisting of only a single hydrogen atom. This gives it exceptional conformational flexibility.",
+  "tags": [
+    "amino-acids",
+    "properties"
+  ],
+  "difficulty": "beginner"
+}

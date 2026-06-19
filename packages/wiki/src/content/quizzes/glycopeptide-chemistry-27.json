@@ -1,0 +1,16 @@
+{
+  "question": "What is the concept of the glycome?",
+  "options": [
+    "All proteins in a cell",
+    "The complete set of glycans expressed by a cell or organism",
+    "All lipids in a membrane",
+    "All nucleic acids in a genome"
+  ],
+  "correctIndex": 1,
+  "explanation": "The glycome encompasses the full repertoire of glycans produced by an organism. Unlike the genome, it is not template-encoded and varies by cell type and disease state.",
+  "difficulty": "advanced",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

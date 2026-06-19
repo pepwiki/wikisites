@@ -1,0 +1,16 @@
+{
+  "question": "What is the function of dolichol phosphate in N-glycosylation?",
+  "options": [
+    "Accepts glycans in the cytoplasm",
+    "Lipid carrier that builds the precursor oligosaccharide in the ER membrane",
+    "Catalyzes glycosidic bond formation",
+    "Transports glycans to the Golgi"
+  ],
+  "correctIndex": 1,
+  "explanation": "Dolichol phosphate is a long-chain isoprenoid lipid in the ER membrane that serves as the anchor on which the 14-sugar precursor oligosaccharide is assembled.",
+  "difficulty": "intermediate",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

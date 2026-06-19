@@ -1,0 +1,13 @@
+{
+  "question": "What is the main characteristic of G-protein coupled receptors (GPCRs)?",
+  "options": [
+    "They have intrinsic kinase activity",
+    "They have seven transmembrane domains",
+    "They function as ion channels",
+    "They are nuclear receptors"
+  ],
+  "correctIndex": 1,
+  "explanation": "GPCRs are characterized by their seven transmembrane alpha-helices. They signal through heterotrimeric G proteins upon ligand binding.",
+  "difficulty": "beginner",
+  "tags": ["receptors", "pharmacology"]
+}

@@ -1,0 +1,9 @@
+{
+  "front": "What is the role of aminopeptidases in MHC-I presentation?",
+  "back": "Aminopeptidases in the ER (ERAP1, ERAP2) trim N-terminal extensions from peptides to generate optimal 8-10 residue peptides for MHC-I binding.",
+  "tags": [
+    "immunology",
+    "MHC"
+  ],
+  "difficulty": "advanced"
+}

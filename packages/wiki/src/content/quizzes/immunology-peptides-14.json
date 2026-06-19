@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of HLA-DM in MHC class II antigen presentation?",
+  "options": [
+    "It degrades peptides",
+    "It catalyzes peptide exchange on MHC II molecules",
+    "It transports MHC II to the cell surface",
+    "It activates T cells"
+  ],
+  "correctIndex": 1,
+  "explanation": "HLA-DM acts as a peptide editor, catalyzing the exchange of CLIP for antigenic peptides on MHC class II molecules, ensuring high-affinity peptide binding.",
+  "difficulty": "advanced",
+  "tags": ["immunology", "peptides"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is a human relevant safety biomarker?",
+  "options": [
+    "Any measured parameter",
+    "A measurable indicator that predicts or detects drug-induced toxicity before clinical symptoms",
+    "A marketing metric only",
+    "A manufacturing quality parameter"
+  ],
+  "correctIndex": 1,
+  "explanation": "Safety biomarkers (troponin for cardiotoxicity, KIM-1 for nephrotoxicity) enable early detection of organ-specific toxicity.",
+  "difficulty": "advanced",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

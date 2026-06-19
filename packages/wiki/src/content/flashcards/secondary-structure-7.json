@@ -1,0 +1,9 @@
+{
+  "front": "What is the hydrogen bonding pattern in a parallel beta-sheet?",
+  "back": "In parallel beta-strands, the N-H and C=O groups of one strand hydrogen bond to the opposite groups of the adjacent strand. The hydrogen bonds are angled rather than perpendicular to the strand direction.",
+  "tags": [
+    "structure",
+    "secondary"
+  ],
+  "difficulty": "intermediate"
+}

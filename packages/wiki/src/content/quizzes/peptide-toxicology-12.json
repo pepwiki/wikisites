@@ -1,0 +1,16 @@
+{
+  "question": "What is hepatotoxicity assessment?",
+  "options": [
+    "Measuring liver enzyme levels only",
+    "Comprehensive evaluation of liver function and histopathology for drug-induced liver injury",
+    "Kidney function testing only",
+    "Brain function assessment only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Hepatotoxicity assessment includes liver histopathology, serum ALT/AST, bilirubin measurements to detect liver damage during preclinical studies.",
+  "difficulty": "intermediate",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

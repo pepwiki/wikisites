@@ -1,0 +1,9 @@
+{
+  "front": "What is the F\u00f6rster radius (R0)?",
+  "back": "The F\u00f6rster radius is the distance at which FRET efficiency is 50%. It depends on the spectral overlap between donor and acceptor, their orientations, and the refractive index of the medium.",
+  "tags": [
+    "sensors",
+    "biosensors"
+  ],
+  "difficulty": "intermediate"
+}

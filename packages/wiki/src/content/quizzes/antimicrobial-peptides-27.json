@@ -1,0 +1,16 @@
+{
+  "question": "What is the contribution of intracellular AMP targets to killing?",
+  "options": [
+    "AMPs have no intracellular targets",
+    "Some AMPs enter cells and inhibit DNA/RNA/protein synthesis after membrane interaction",
+    "AMPs only act extracellularly",
+    "AMPs only target cell walls"
+  ],
+  "correctIndex": 1,
+  "explanation": "While membrane disruption is primary, some AMPs like buforin II penetrate the membrane and bind intracellular targets including DNA and RNA, contributing to cell death.",
+  "difficulty": "advanced",
+  "tags": [
+    "antimicrobial",
+    "defense"
+  ]
+}

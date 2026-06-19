@@ -1,0 +1,16 @@
+{
+  "question": "Glycosylation occurs primarily in which organelle?",
+  "options": [
+    "Nucleus",
+    "Mitochondria",
+    "Endoplasmic reticulum and Golgi apparatus",
+    "Ribosome"
+  ],
+  "correctIndex": 2,
+  "explanation": "N-glycosylation begins in the ER with transfer of a preformed oligosaccharide, while both N- and O-glycosylation are elaborated in the Golgi.",
+  "difficulty": "beginner",
+  "tags": [
+    "glycopeptides",
+    "chemistry"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of oral peptide delivery formulations?",
+  "options": [
+    "They are always more expensive",
+    "They improve patient compliance through convenient administration",
+    "They always have higher bioavailability",
+    "They eliminate need for refrigeration"
+  ],
+  "correctIndex": 1,
+  "explanation": "Oral formulations improve patient compliance by enabling self-administration without injection, though they face challenges with GI degradation and permeability.",
+  "difficulty": "beginner",
+  "tags": ["stability", "modifications"]
+}

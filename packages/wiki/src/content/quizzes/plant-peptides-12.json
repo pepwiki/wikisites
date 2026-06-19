@@ -1,0 +1,16 @@
+{
+  "question": "What is the gene organization of cyclotides?",
+  "options": [
+    "Single copy genes",
+    "Multiple cyclotide genes in families with precursor proteins containing one or multiple cyclotide domains",
+    "Mitochondrial genes only",
+    "Chloroplast genes only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cyclotides are encoded as precursor proteins containing signal peptide, prodomain, and one or multiple cyclotide domains.",
+  "difficulty": "intermediate",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

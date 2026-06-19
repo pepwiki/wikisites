@@ -1,0 +1,13 @@
+{
+  "question": "What is the typical cleavage cocktail for Fmoc-SPPS?",
+  "options": [
+    "HF/anisole",
+    "TFA/TIS/water",
+    "HCl/dioxane",
+    "NaOH/methanol"
+  ],
+  "correctIndex": 1,
+  "explanation": "The standard Fmoc cleavage cocktail is TFA (95%) with TIS (2.5%) and water (2.5%) to scavenge reactive cations and protect sensitive side chains during cleavage.",
+  "difficulty": "intermediate",
+  "tags": ["synthesis", "methods"]
+}

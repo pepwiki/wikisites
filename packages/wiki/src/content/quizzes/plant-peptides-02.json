@@ -1,0 +1,16 @@
+{
+  "question": "What is the primary function of plant defense peptides?",
+  "options": [
+    "Photosynthesis support",
+    "Protection against pathogens, herbivores, and environmental stresses",
+    "Nutrient storage only",
+    "Pollen germination only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Plant defense peptides protect against fungal, bacterial, and viral pathogens, as well as insect herbivores.",
+  "difficulty": "beginner",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

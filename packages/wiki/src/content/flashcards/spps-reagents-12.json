@@ -1,0 +1,9 @@
+{
+  "front": "What is the advantage of PyBOP over BOP for peptide coupling?",
+  "back": "PyBOP uses pyrrolidinyl instead of hexamethyleneamine phosphonium, avoiding the carcinogenic HMPA byproduct. It provides excellent coupling with minimal epimerization.",
+  "tags": [
+    "synthesis",
+    "reagents"
+  ],
+  "difficulty": "advanced"
+}

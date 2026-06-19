@@ -1,0 +1,16 @@
+{
+  "question": "What is the catalytic efficiency constant?",
+  "options": [
+    "Km/Vmax",
+    "kcat/Km",
+    "Vmax/kcat",
+    "Km times kcat"
+  ],
+  "correctIndex": 1,
+  "explanation": "The specificity constant kcat/Km integrates substrate binding affinity and catalytic turnover into a single measure of enzyme efficiency.",
+  "difficulty": "beginner",
+  "tags": [
+    "enzymology",
+    "peptides"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is biased agonism at neuropeptide receptors?",
+  "options": [
+    "All agonists activate the same pathways",
+    "Different ligands preferentially activate G-protein vs arrestin pathways at the same receptor",
+    "Biased agonism only occurs with antagonists",
+    "It only affects receptor internalization"
+  ],
+  "correctIndex": 1,
+  "explanation": "Biased agonists selectively activate specific downstream pathways at the same receptor, potentially separating therapeutic effects from side effects.",
+  "difficulty": "advanced",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is a peptide library counter-screen?",
+  "options": [
+    "Primary screen only",
+    "Screening against off-target or anti-targets to eliminate non-selective binders",
+    "A type of quality control",
+    "Peptide sequence validation"
+  ],
+  "correctIndex": 1,
+  "explanation": "Counter-screening against closely related targets or anti-targets eliminates peptides with poor selectivity, enriching for sequences that bind specifically to the desired target.",
+  "difficulty": "intermediate",
+  "tags": [
+    "libraries",
+    "screening"
+  ]
+}

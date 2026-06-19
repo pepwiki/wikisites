@@ -1,0 +1,16 @@
+{
+  "question": "What is a thionin in plant biology?",
+  "options": [
+    "A thiol-containing enzyme",
+    "A small, cysteine-rich antimicrobial peptide found in plant seeds and leaves",
+    "A type of plant hormone",
+    "A structural protein in cell walls"
+  ],
+  "correctIndex": 1,
+  "explanation": "Thionins are small antimicrobial peptides with three or four disulfide bonds found in cereal seeds and leaves.",
+  "difficulty": "beginner",
+  "tags": [
+    "plant",
+    "defense"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of virtual screening in drug discovery?",
+  "options": [
+    "It eliminates the need for experiments",
+    "It rapidly screens large compound libraries computationally",
+    "It is always more accurate than experiments",
+    "It only works for peptides"
+  ],
+  "correctIndex": 1,
+  "explanation": "Virtual screening computationally evaluates large numbers of compounds against a target, prioritizing candidates for experimental testing and reducing costs.",
+  "difficulty": "intermediate",
+  "tags": ["computational", "design"]
+}

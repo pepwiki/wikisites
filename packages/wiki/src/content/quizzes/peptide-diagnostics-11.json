@@ -1,0 +1,16 @@
+{
+  "question": "What is a procalcitonin (PCT) assay used for?",
+  "options": [
+    "Cancer screening",
+    "Diagnosing bacterial infection severity",
+    "Measuring thyroid function",
+    "Assessing bone density"
+  ],
+  "correctIndex": 1,
+  "explanation": "Procalcitonin levels rise in systemic bacterial infections and sepsis. Serial PCT measurements guide antibiotic therapy duration in critical care.",
+  "difficulty": "intermediate",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

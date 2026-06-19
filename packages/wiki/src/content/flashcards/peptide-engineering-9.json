@@ -1,0 +1,9 @@
+{
+  "front": "What is peptide scaffolding?",
+  "back": "Peptide scaffolding uses stable frameworks (knottins, affibodies, DARPins) to present binding loops. This creates small, stable proteins with target-binding capability.",
+  "tags": [
+    "engineering",
+    "design"
+  ],
+  "difficulty": "intermediate"
+}

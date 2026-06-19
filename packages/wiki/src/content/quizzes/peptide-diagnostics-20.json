@@ -1,0 +1,16 @@
+{
+  "question": "What is a liquid biopsy in peptide diagnostics?",
+  "options": [
+    "Urine test",
+    "Analysis of circulating tumor-derived peptides in blood",
+    "Tissue biopsy in liquid nitrogen",
+    "Spinal tap procedure"
+  ],
+  "correctIndex": 1,
+  "explanation": "Liquid biopsies detect circulating tumor-derived peptides in blood, enabling non-invasive cancer diagnosis, monitoring, and treatment response assessment.",
+  "difficulty": "advanced",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

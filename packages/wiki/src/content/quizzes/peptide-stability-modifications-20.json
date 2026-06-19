@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of using peptoids as peptide mimetics?",
+  "options": [
+    "They are identical to peptides",
+    "They have N-substituted glycine backbone resistant to proteases",
+    "They always have higher affinity",
+    "They are cheaper to synthesize always"
+  ],
+  "correctIndex": 1,
+  "explanation": "Peptoids have side chains on the nitrogen instead of alpha carbon, making them resistant to proteases while maintaining similar structural diversity.",
+  "difficulty": "advanced",
+  "tags": ["stability", "modifications"]
+}

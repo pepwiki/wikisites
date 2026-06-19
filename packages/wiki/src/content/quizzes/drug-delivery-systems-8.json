@@ -1,0 +1,13 @@
+{
+  "question": "What is the difference between liposomes and solid lipid nanoparticles (SLNs)?",
+  "options": [
+    "Liposomes have aqueous cores, SLNs have solid lipid matrices",
+    "Liposomes are solid, SLNs are liquid",
+    "Liposomes are larger, SLNs are smaller",
+    "There is no difference"
+  ],
+  "correctIndex": 0,
+  "explanation": "Liposomes consist of lipid bilayers surrounding aqueous cores, while SLNs are composed of solid lipid matrices. SLNs offer better stability and controlled release.",
+  "difficulty": "intermediate",
+  "tags": ["delivery", "formulation"]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the colinearity rule in NRPS?",
+  "options": [
+    "Peptides are always linear",
+    "The order of NRPS modules corresponds directly to the amino acid order in the final peptide",
+    "All modules are identical",
+    "Modules can be rearranged freely"
+  ],
+  "correctIndex": 1,
+  "explanation": "In canonical NRPS, the linear arrangement of modules directly determines the linear sequence of amino acids in the product.",
+  "difficulty": "intermediate",
+  "tags": [
+    "synthetic-biology",
+    "engineering"
+  ]
+}

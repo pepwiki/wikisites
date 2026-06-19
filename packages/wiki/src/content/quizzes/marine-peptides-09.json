@@ -1,0 +1,16 @@
+{
+  "question": "What is patellamide?",
+  "options": [
+    "A spongin fiber",
+    "A cyclic peptide from ascidian symbionts with antiproliferative activity",
+    "A calcium carbonate structure",
+    "A UV-protective pigment"
+  ],
+  "correctIndex": 1,
+  "explanation": "Patellamides are cyanobactins from Prochloron symbionts showing anticancer activity through metal chelation.",
+  "difficulty": "beginner",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

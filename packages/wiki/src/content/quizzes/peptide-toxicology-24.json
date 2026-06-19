@@ -1,0 +1,16 @@
+{
+  "question": "What is a micronucleus assay?",
+  "options": [
+    "Cell counting only",
+    "Detecting chromosomal damage by measuring micronucleus formation in dividing cells",
+    "Protein purification",
+    "DNA sequencing only"
+  ],
+  "correctIndex": 1,
+  "explanation": "The micronucleus assay detects clastogenic and aneugenic events by counting extra-nuclear DNA bodies in dividing cells.",
+  "difficulty": "advanced",
+  "tags": [
+    "toxicology",
+    "safety"
+  ]
+}

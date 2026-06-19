@@ -1,0 +1,9 @@
+{
+  "front": "What is a binding assay?",
+  "back": "A binding assay measures the interaction between a ligand and its receptor. Methods include radioligand binding, SPR, fluorescence polarization, and cell-based assays.",
+  "tags": [
+    "receptors",
+    "binding"
+  ],
+  "difficulty": "beginner"
+}

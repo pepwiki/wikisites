@@ -1,10 +1,9 @@
 {
-  "front": "Describe the photochemistry of peptide bonds under UV radiation.",
-  "back": "UV-C (200-280 nm) excitation of peptide bonds causes Norrish type II reactions, forming radicals. In proteins, Trp and Tyr absorb UV and transfer energy. UV-induced cross-links include dityrosine and Trp-Trp adducts.",
+  "front": "What is a cis-proline turn and where is it found?",
+  "back": "A cis-proline turn is a structural motif where proline adopts a cis peptide bond, often found in beta-turns connecting antiparallel beta-strands. These turns are common in protein surface loops.",
   "tags": [
     "peptide-bonds",
-    "photochemistry",
-    "radiation"
+    "structure"
   ],
-  "difficulty": "expert"
+  "difficulty": "advanced"
 }

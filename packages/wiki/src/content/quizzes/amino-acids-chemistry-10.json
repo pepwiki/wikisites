@@ -1,0 +1,8 @@
+{
+  "question": "Which amino acid undergoes spontaneous cyclization to form pyroglutamate at the N-terminus?",
+  "options": ["Glutamine", "Glutamic acid", "Proline", "Histidine"],
+  "correctIndex": 0,
+  "explanation": "N-terminal glutamine can spontaneously cyclize to form pyroglutamic acid (5-oxoproline) through intramolecular cyclization. This modification affects peptide sequencing and can reduce bioactivity.",
+  "difficulty": "advanced",
+  "tags": ["amino-acids", "chemistry"]
+}

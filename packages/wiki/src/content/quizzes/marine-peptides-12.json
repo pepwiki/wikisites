@@ -1,0 +1,16 @@
+{
+  "question": "What is the classification system for conotoxins?",
+  "options": [
+    "Based on size only",
+    "Greek letter designation based on pharmacological target",
+    "Based on color only",
+    "Based on geographic origin only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Conotoxins are classified by Greek letter: alpha (nAChR), omega (CaV), kappa (Kv), mu (NaV), etc.",
+  "difficulty": "intermediate",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

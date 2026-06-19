@@ -1,0 +1,9 @@
+{
+  "front": "What is content uniformity testing?",
+  "back": "Content uniformity testing ensures that each unit (tablet, vial) contains the declared amount of active ingredient. It is required by pharmacopeias for solid dosage forms.",
+  "tags": [
+    "analytics",
+    "validation"
+  ],
+  "difficulty": "beginner"
+}

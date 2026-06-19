@@ -1,0 +1,9 @@
+{
+  "front": "What is MHC class I?",
+  "back": "MHC class I molecules present endogenous peptides (8-10 amino acids) to CD8+ T cells. They are expressed on all nucleated cells and are essential for intracellular pathogen surveillance.",
+  "tags": [
+    "immunology",
+    "MHC"
+  ],
+  "difficulty": "beginner"
+}

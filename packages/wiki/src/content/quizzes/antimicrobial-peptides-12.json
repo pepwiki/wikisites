@@ -1,0 +1,16 @@
+{
+  "question": "What is the therapeutic index of an AMP?",
+  "options": [
+    "Half-life in blood",
+    "Ratio of cytotoxic concentration to MIC",
+    "Molecular weight",
+    "Number of disulfide bonds"
+  ],
+  "correctIndex": 1,
+  "explanation": "The therapeutic index is the ratio of hemolytic concentration (HC50) to MIC. A higher index indicates a wider safety margin between antimicrobial and toxic effects.",
+  "difficulty": "intermediate",
+  "tags": [
+    "antimicrobial",
+    "defense"
+  ]
+}

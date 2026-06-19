@@ -1,0 +1,9 @@
+{
+  "front": "What defines an alpha-helix?",
+  "back": "An alpha-helix is a right-handed coiled secondary structure with 3.6 residues per turn, a rise of 1.5 \u00c5 per residue, and a pitch of 5.4 \u00c5. It is stabilized by backbone hydrogen bonds between residues i and i+4.",
+  "tags": [
+    "structure",
+    "secondary"
+  ],
+  "difficulty": "beginner"
+}

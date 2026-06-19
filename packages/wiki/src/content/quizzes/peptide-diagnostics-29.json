@@ -1,0 +1,16 @@
+{
+  "question": "What analytical challenge does sample matrix present?",
+  "options": [
+    "No significant challenge",
+    "Ion suppression, protein adsorption, and non-specific binding can reduce accuracy",
+    "Only affects colorimetric assays",
+    "Increases peptide stability"
+  ],
+  "correctIndex": 1,
+  "explanation": "Complex biological matrices cause ion suppression in MS, non-specific binding in immunoassays, and interference from structurally similar molecules.",
+  "difficulty": "advanced",
+  "tags": [
+    "diagnostics",
+    "biomarkers"
+  ]
+}

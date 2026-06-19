@@ -1,0 +1,9 @@
+{
+  "front": "What is the sensitivity of a peptide biosensor?",
+  "back": "Sensitivity is the slope of the calibration curve (signal change per unit concentration change). Higher sensitivity enables detection of lower analyte concentrations.",
+  "tags": [
+    "sensors",
+    "biosensors"
+  ],
+  "difficulty": "intermediate"
+}

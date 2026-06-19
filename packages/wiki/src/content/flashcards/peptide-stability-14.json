@@ -1,0 +1,9 @@
+{
+  "front": "What is peptide hydrolysis?",
+  "back": "Peptide hydrolysis breaks peptide bonds, primarily at aspartate residues (Asp-X bonds are labile) and under extreme pH conditions. It generates shorter peptide fragments.",
+  "tags": [
+    "stability",
+    "formulation"
+  ],
+  "difficulty": "intermediate"
+}

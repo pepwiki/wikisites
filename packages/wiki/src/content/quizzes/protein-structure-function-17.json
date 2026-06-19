@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of electrostatic interactions in protein structure?",
+  "options": [
+    "They only destabilize proteins",
+    "They contribute to folding, stability, and function",
+    "They are only important in membrane proteins",
+    "They prevent protein-protein interactions"
+  ],
+  "correctIndex": 1,
+  "explanation": "Electrostatic interactions (salt bridges, ion pairs) contribute to protein stability, folding pathways, and are crucial for enzyme catalysis and ligand binding.",
+  "difficulty": "intermediate",
+  "tags": ["structure", "function"]
+}

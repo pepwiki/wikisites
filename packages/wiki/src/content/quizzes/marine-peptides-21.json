@@ -1,0 +1,16 @@
+{
+  "question": "What is aquaculture for marine drug supply?",
+  "options": [
+    "Traditional fishing only",
+    "Farming marine organisms in controlled environments for sustainable drug supply",
+    "Artificial reef construction",
+    "Marine tourism only"
+  ],
+  "correctIndex": 1,
+  "explanation": "Aquaculture and fermentation of symbiotic bacteria provide sustainable supply chains for marine natural product drugs.",
+  "difficulty": "advanced",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

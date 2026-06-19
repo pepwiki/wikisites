@@ -1,0 +1,9 @@
+{
+  "front": "What is an allosteric peptide sensor?",
+  "back": "An allosteric peptide sensor undergoes a conformational change upon binding that modulates a signaling domain. The signal output (fluorescence, enzymatic activity) indicates analyte presence.",
+  "tags": [
+    "sensors",
+    "biosensors"
+  ],
+  "difficulty": "advanced"
+}

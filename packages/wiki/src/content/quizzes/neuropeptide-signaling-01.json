@@ -1,0 +1,16 @@
+{
+  "question": "What is the primary role of neuropeptides?",
+  "options": [
+    "DNA repair",
+    "Modulation of neuronal signaling",
+    "Protein synthesis",
+    "Lipid metabolism"
+  ],
+  "correctIndex": 1,
+  "explanation": "Neuropeptides are signaling molecules released by neurons that modulate synaptic transmission, affecting mood, pain, appetite, and other neurological functions.",
+  "difficulty": "beginner",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

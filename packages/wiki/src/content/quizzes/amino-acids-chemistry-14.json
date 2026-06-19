@@ -1,0 +1,8 @@
+{
+  "question": "Which amino acid contains an indole ring in its side chain?",
+  "options": ["Phenylalanine", "Tyrosine", "Tryptophan", "Histidine"],
+  "correctIndex": 2,
+  "explanation": "Tryptophan contains an indole ring, a bicyclic structure with a benzene ring fused to a pyrrole ring. This gives tryptophan strong UV absorption at 280 nm.",
+  "difficulty": "beginner",
+  "tags": ["amino-acids", "chemistry"]
+}

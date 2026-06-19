@@ -1,0 +1,9 @@
+{
+  "front": "What is the concept of ligand efficiency?",
+  "back": "Ligand efficiency (LE = \u0394G/heavy atom count) normalizes binding affinity by molecular size. It helps compare compounds of different sizes and guides optimization toward smaller, more efficient molecules.",
+  "tags": [
+    "drug-design",
+    "principles"
+  ],
+  "difficulty": "advanced"
+}

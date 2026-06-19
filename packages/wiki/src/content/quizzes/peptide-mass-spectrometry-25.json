@@ -1,0 +1,16 @@
+{
+  "question": "What is de novo peptide sequencing?",
+  "options": [
+    "Database searching only",
+    "Determining peptide sequence directly from MS/MS fragmentation patterns without database lookup",
+    "Only using Edman degradation",
+    "Only using amino acid analysis"
+  ],
+  "correctIndex": 1,
+  "explanation": "De novo sequencing reads the amino acid sequence from consecutive b- or y-ion mass differences without requiring a reference database.",
+  "difficulty": "advanced",
+  "tags": [
+    "mass-spec",
+    "analytical"
+  ]
+}

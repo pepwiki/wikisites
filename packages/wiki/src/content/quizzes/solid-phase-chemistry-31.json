@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of DMAP in SPPS esterification steps?",
+  "options": [
+    "Fmoc removal",
+    "Catalyst for ester bond formation between amino acid and hydroxyl-containing resins",
+    "Coupling accelerator",
+    "Side chain protecting group remover"
+  ],
+  "correctIndex": 1,
+  "explanation": "DMAP (4-dimethylaminopyridine) catalyzes esterification reactions for loading the first amino acid onto hydroxyl-containing resins like Wang or HMPB resins.",
+  "difficulty": "advanced",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

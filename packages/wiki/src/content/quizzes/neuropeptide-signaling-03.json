@@ -1,0 +1,16 @@
+{
+  "question": "Substance P primarily functions in which process?",
+  "options": [
+    "Appetite suppression",
+    "Pain transmission and inflammation",
+    "Blood clotting",
+    "Bone formation"
+  ],
+  "correctIndex": 1,
+  "explanation": "Substance P is a tachykinin neuropeptide released by sensory neurons that transmits pain signals and promotes neurogenic inflammation through NK1 receptors.",
+  "difficulty": "beginner",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

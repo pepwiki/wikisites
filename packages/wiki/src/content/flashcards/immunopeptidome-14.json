@@ -1,0 +1,9 @@
+{
+  "front": "What is the invariant chain (Ii)?",
+  "back": "The invariant chain (CD74) prevents premature peptide binding to MHC class II in the ER. It is degraded in endosomes, leaving CLIP in the MHC-II groove, which is then exchanged for antigenic peptides.",
+  "tags": [
+    "immunology",
+    "MHC"
+  ],
+  "difficulty": "advanced"
+}

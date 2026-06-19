@@ -1,0 +1,13 @@
+{
+  "question": "What is the challenge with polymeric nanoparticles for peptide delivery?",
+  "options": [
+    "They are too large",
+    "They may have burst release and incomplete degradation",
+    "They are always non-biodegradable",
+    "They cannot encapsulate peptides"
+  ],
+  "correctIndex": 1,
+  "explanation": "Polymeric nanoparticles often show initial burst release followed by slow release, and incomplete polymer degradation can lead to accumulation and toxicity.",
+  "difficulty": "advanced",
+  "tags": ["delivery", "formulation"]
+}

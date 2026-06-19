@@ -1,0 +1,9 @@
+{
+  "front": "What is the yeast two-hybrid system?",
+  "back": "The yeast two-hybrid system detects protein-protein interactions in vivo. Peptides are expressed as fusions with DNA-binding or activation domains to identify binding partners.",
+  "tags": [
+    "engineering",
+    "design"
+  ],
+  "difficulty": "intermediate"
+}

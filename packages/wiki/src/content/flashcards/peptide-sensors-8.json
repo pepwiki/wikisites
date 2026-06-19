@@ -1,0 +1,9 @@
+{
+  "front": "What is a quenched fluorescent peptide?",
+  "back": "A quenched fluorescent peptide has a fluorophore and quencher in proximity. When a target enzyme cleaves the peptide, the fluorophore and quencher separate, generating a fluorescent signal.",
+  "tags": [
+    "sensors",
+    "biosensors"
+  ],
+  "difficulty": "intermediate"
+}

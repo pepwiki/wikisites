@@ -1,0 +1,13 @@
+{
+  "question": "What is the concept of spare receptors?",
+  "options": [
+    "Receptors that are no longer functional",
+    "Receptors that exist but are not needed for maximal response",
+    "Receptors that have higher affinity",
+    "Receptors that have been downregulated"
+  ],
+  "correctIndex": 1,
+  "explanation": "Spare receptors are additional receptors beyond those needed for maximal response. They allow full activation at lower ligand concentrations, effectively increasing potency.",
+  "difficulty": "intermediate",
+  "tags": ["receptors", "pharmacology"]
+}

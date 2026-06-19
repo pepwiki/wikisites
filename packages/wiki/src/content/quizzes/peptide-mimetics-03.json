@@ -1,0 +1,16 @@
+{
+  "question": "What is a beta-peptide?",
+  "options": [
+    "A peptide with beta-amino acids that form stable secondary structures",
+    "A peptide that degrades beta-amyloid",
+    "A peptide with beta-sheet structure only",
+    "A peptide from beta cells"
+  ],
+  "correctIndex": 0,
+  "explanation": "Beta-peptides contain beta-amino acids with an extra methylene group, forming stable helices (e.g., 14-helix) that resist proteolysis while maintaining biological activity.",
+  "difficulty": "beginner",
+  "tags": [
+    "mimetics",
+    "design"
+  ]
+}

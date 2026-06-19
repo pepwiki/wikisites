@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of cyclodextrins in drug delivery?",
+  "options": [
+    "They act as crosslinkers",
+    "They form inclusion complexes to improve solubility",
+    "They are targeting ligands",
+    "They are fluorescent markers"
+  ],
+  "correctIndex": 1,
+  "explanation": "Cyclodextrins are cyclic oligosaccharides that form inclusion complexes with hydrophobic drugs, improving their aqueous solubility and bioavailability.",
+  "difficulty": "intermediate",
+  "tags": ["delivery", "formulation"]
+}

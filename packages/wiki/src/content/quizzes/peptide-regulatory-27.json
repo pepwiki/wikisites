@@ -1,0 +1,16 @@
+{
+  "question": "What is Data Integrity in GMP?",
+  "options": [
+    "Data encryption only",
+    "ALCOA+ principles ensuring data is Attributable, Legible, Contemporaneous, Original, and Accurate",
+    "Data storage only",
+    "Data deletion protocols"
+  ],
+  "correctIndex": 1,
+  "explanation": "ALCOA+ principles ensure all GMP data is trustworthy, traceable, and suitable for regulatory review.",
+  "difficulty": "advanced",
+  "tags": [
+    "regulatory",
+    "compliance"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "question": "What is the role of disulfide bonds in protein structure?",
+  "options": [
+    "They are only for catalysis",
+    "They stabilize tertiary and quaternary structure",
+    "They only exist in extracellular proteins",
+    "They are temporary bonds"
+  ],
+  "correctIndex": 1,
+  "explanation": "Disulfide bonds between cysteine residues covalently link parts of the polypeptide chain, stabilizing the folded structure, especially in extracellular proteins.",
+  "difficulty": "intermediate",
+  "tags": ["structure", "function"]
+}

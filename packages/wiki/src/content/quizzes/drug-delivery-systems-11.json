@@ -1,0 +1,8 @@
+{
+  "question": "What is the typical size range for nanoparticles used in drug delivery?",
+  "options": ["1-10 nm", "10-200 nm", "200-1000 nm", "1-100 μm"],
+  "correctIndex": 1,
+  "explanation": "Nanoparticles for drug delivery typically range from 10-200 nm. This size allows them to evade rapid clearance while enabling tissue penetration and cellular uptake.",
+  "difficulty": "intermediate",
+  "tags": ["delivery", "formulation"]
+}

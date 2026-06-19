@@ -1,0 +1,13 @@
+{
+  "question": "What is the significance of the half-life (t1/2) of a peptide drug?",
+  "options": [
+    "It determines drug color",
+  "It affects dosing frequency and duration of action",
+    "It only matters for oral drugs",
+    "It determines drug taste"
+  ],
+  "correctIndex": 1,
+  "explanation": "Half-life determines how often a drug must be administered. Shorter half-lives require more frequent dosing, while longer half-lives allow less frequent administration.",
+  "difficulty": "beginner",
+  "tags": ["clinical", "trials"]
+}

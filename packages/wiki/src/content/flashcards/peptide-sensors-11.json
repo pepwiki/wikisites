@@ -1,0 +1,9 @@
+{
+  "front": "What is the role of quantum dots in peptide sensing?",
+  "back": "Quantum dots are semiconductor nanocrystals with size-dependent fluorescence. They can be conjugated to peptides for multiplexed detection with narrow emission spectra and high brightness.",
+  "tags": [
+    "sensors",
+    "biosensors"
+  ],
+  "difficulty": "advanced"
+}

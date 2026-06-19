@@ -1,0 +1,8 @@
+{
+  "question": "What is the coupling time typically required for Fmoc-SPPS?",
+  "options": ["1-5 minutes", "30-60 minutes", "12-24 hours", "1 week"],
+  "correctIndex": 1,
+  "explanation": "Standard Fmoc-SPPS coupling reactions typically require 30-60 minutes at room temperature. Difficult sequences may require extended coupling times or microwave assistance.",
+  "difficulty": "beginner",
+  "tags": ["synthesis", "methods"]
+}

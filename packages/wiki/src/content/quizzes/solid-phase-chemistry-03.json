@@ -1,0 +1,16 @@
+{
+  "question": "What is the role of the resin in SPPS?",
+  "options": [
+    "Catalyzes the coupling reaction",
+    "Insoluble support that anchors the growing peptide chain",
+    "Serves as the first amino acid",
+    "Purifies the final peptide"
+  ],
+  "correctIndex": 1,
+  "explanation": "The resin provides an insoluble solid support. The first amino acid is attached, and the peptide chain grows from C-terminus to N-terminus.",
+  "difficulty": "beginner",
+  "tags": [
+    "spps",
+    "synthesis"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "question": "What is the clinical significance of orexin receptor antagonists?",
+  "options": [
+    "Treatment of epilepsy",
+    "Suvorexant and lemborexant treat insomnia by blocking wake-promoting orexin signaling",
+    "Treatment of diabetes only",
+    "No clinical application yet"
+  ],
+  "correctIndex": 1,
+  "explanation": "Orexin receptor antagonists block wake-promoting orexin signaling, representing a mechanistically distinct approach to treating insomnia.",
+  "difficulty": "advanced",
+  "tags": [
+    "neuropeptides",
+    "signaling"
+  ]
+}

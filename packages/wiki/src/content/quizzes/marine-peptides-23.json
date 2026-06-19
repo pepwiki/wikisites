@@ -1,0 +1,16 @@
+{
+  "question": "What is domoic acid?",
+  "options": [
+    "An antimicrobial only",
+    "A kainoid amino acid from red algae causing amnesic shellfish poisoning",
+    "A fish attractant",
+    "A coral fluorescent protein"
+  ],
+  "correctIndex": 1,
+  "explanation": "Domoic acid mimics glutamate, overactivating AMPA/kainate receptors and causing amnesic shellfish poisoning.",
+  "difficulty": "advanced",
+  "tags": [
+    "marine",
+    "natural-products"
+  ]
+}

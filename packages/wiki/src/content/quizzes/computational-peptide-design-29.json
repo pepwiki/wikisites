@@ -1,0 +1,13 @@
+{
+  "question": "What is the advantage of network pharmacology in peptide design?",
+  "options": [
+    "It only targets single proteins",
+    "It considers multi-target effects and pathway interactions",
+    "It is slower than other methods",
+    "It is less accurate"
+  ],
+  "correctIndex": 1,
+  "explanation": "Network pharmacology analyzes how peptides affect multiple targets and pathways, providing a systems-level understanding of therapeutic effects.",
+  "difficulty": "advanced",
+  "tags": ["computational", "design"]
+}

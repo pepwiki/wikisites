@@ -1,0 +1,9 @@
+{
+  "front": "What is the difference between N-linked and O-linked glycosylation?",
+  "back": "N-linked glycosylation occurs at asparagine in the consensus sequence Asn-X-Ser/Thr, while O-linked occurs at serine or threonine without a consensus sequence. N-linked starts in the ER; O-linked occurs in the Golgi.",
+  "tags": [
+    "modifications",
+    "chemistry"
+  ],
+  "difficulty": "intermediate"
+}
