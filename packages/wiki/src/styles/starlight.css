@@ -25,6 +25,11 @@
   --sl-color-accent-low: #0f766e;
 }
 
+/* Hide the text site title — logo SVG is sufficient */
+.site-title span {
+  display: none;
+}
+
 /* Starlight sidebar styling */
 .starlight-aside {
   border-radius: 0.75rem;
