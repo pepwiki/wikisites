@@ -1,0 +1,279 @@
+# =============================================================================
+# Domain Constraints — Social, Editor, and Extensibility Features
+# Document ID: DCS-SOCIAL-001
+# Version: 1.0.0
+# Date: 2026-06-19
+# Status: DRAFT
+# Associated Yellow Papers: YP-SOCIAL-COMMENTS-001, YP-SOCIAL-ANNOTATIONS-001,
+#   YP-SOCIAL-ACCOUNTS-001, YP-EDITOR-MDX-001, YP-EDITOR-VERSION-HISTORY-001,
+#   YP-EXT-PLUGIN-API-001, YP-EXT-THEMES-001, YP-EXT-SETTINGS-001
+# =============================================================================
+
+[metadata]
+project = "wikisites"
+scope = "Social, editor, and extensibility feature constraints"
+last_updated = "2026-06-19"
+applicable_sites = ["ENCP", "WIKI"]
+
+# =============================================================================
+# COMMENTS SYSTEM CONSTRAINTS
+# =============================================================================
+
+[comments]
+description = "Constraints for comments system (YP-SOCIAL-COMMENTS-001)"
+
+[comments.length]
+max_characters = 10000
+min_characters = 1
+notes = "Prevents abuse while allowing detailed comments."
+
+[comments.threading]
+max_nesting_depth = 3
+max_replies_per_thread = 50
+notes = "Limits thread depth for readability."
+
+[comments.rate_limiting]
+max_comments_per_user_per_hour = 10
+max_comments_per_page_per_hour = 20
+max_api_requests_per_minute = 30
+notes = "Multi-level rate limiting for abuse prevention."
+
+[comments.spam_detection]
+auto_reject_threshold = 0.8
+auto_hold_threshold = 0.5
+manual_review_threshold = 0.3
+notes = "Spam score thresholds for automated actions."
+
+[comments.performance]
+max_load_time_ms = 500
+max_submission_time_ms = 500
+bundle_size_limit_kb = 15
+notes = "UX performance requirements."
+
+[comments.storage]
+d1_max_rows = 1000000
+kv_max_entries = 100000
+notes = "Storage capacity limits."
+
+# =============================================================================
+# ANNOTATION LAYER CONSTRAINTS
+# =============================================================================
+
+[annotations]
+description = "Constraints for annotation layer (YP-SOCIAL-ANNOTATIONS-001)"
+
+[annotations.length]
+max_annotation_length = 5000
+max_reply_length = 2000
+max_tags_per_annotation = 5
+notes = "Content length limits."
+
+[annotations.count]
+max_annotations_per_page = 100
+max_replies_per_annotation = 50
+notes = "Volume limits for performance."
+
+[annotations.anchoring]
+xpath_tolerance = "structural_changes_only"
+text_position_tolerance = "character_exact"
+quote_fuzzy_threshold = 0.8
+notes = "Anchoring accuracy requirements."
+
+[annotations.performance]
+max_load_time_ms = 300
+max_highlight_render_ms = 100
+max_sync_latency_ms = 500
+bundle_size_limit_kb = 20
+notes = "Performance requirements."
+
+[annotations.accessibility]
+wcag_level = "AA"
+keyboard_navigation = "full"
+screen_reader_support = "full"
+color_contrast_ratio = 4.5
+notes = "Accessibility requirements per WCAG 2.1."
+
+# =============================================================================
+# USER ACCOUNTS CONSTRAINTS
+# =============================================================================
+
+[accounts]
+description = "Constraints for user accounts (YP-SOCIAL-ACCOUNTS-001)"
+
+[accounts.authentication]
+max_oauth_providers = 3
+magic_link_expiry_minutes = 15
+jwt_expiry_hours = 24
+max_failed_attempts = 5
+lockout_duration_minutes = 30
+notes = "Authentication security limits."
+
+[accounts.rbac]
+max_admins = 3
+max_moderators = 10
+role_change_cooldown_hours = 24
+notes = "Role management limits."
+
+[accounts.session]
+max_concurrent_sessions = 5
+session_timeout_hours = 24
+idle_timeout_minutes = 60
+notes = "Session management limits."
+
+[accounts.privacy]
+consent_required = true
+data_export_format = "json"
+data_deletion_method = "anonymize"
+retention_period_days = 30
+notes = "GDPR compliance requirements."
+
+[accounts.profile]
+max_name_length = 100
+max_bio_length = 500
+avatar_max_size_kb = 500
+notes = "Profile data limits."
+
+# =============================================================================
+# EDITOR CONSTRAINTS
+# =============================================================================
+
+[editor]
+description = "Constraints for MDX editor (YP-EDITOR-MDX-001)"
+
+[editor.document]
+max_document_size_kb = 100
+max_frontmatter_size_kb = 5
+max_line_length = 200
+notes = "Document size limits."
+
+[editor.performance]
+editor_load_time_ms = 2000
+syntax_highlight_ms = 100
+preview_render_ms = 500
+auto_save_interval_s = 30
+auto_save_latency_ms = 1000
+notes = "Performance requirements."
+
+[editor.preview]
+client_debounce_ms = 300
+server_preview_timeout_ms = 5000
+max_preview_size_kb = 50
+notes = "Preview rendering limits."
+
+[editor.collaboration]
+max_concurrent_editors = 10
+sync_latency_ms = 100
+conflict_resolution_strategy = "crdt"
+notes = "Collaborative editing limits."
+
+[editor.security]
+rate_limit_saves_per_minute = 10
+max_file_upload_size_mb = 10
+allowed_upload_types = ["image/png", "image/jpeg", "image/gif", "image/webp"]
+notes = "Security constraints."
+
+# =============================================================================
+# VERSION HISTORY CONSTRAINTS
+# =============================================================================
+
+[version_history]
+description = "Constraints for version history (YP-EDITOR-VERSION-HISTORY-001)"
+
+[version_history.storage]
+max_versions_per_page = 500
+max_diff_size_kb = 100
+d1_row_max_size_kb = 1000
+notes = "Storage limits."
+
+[version_history.performance]
+diff_computation_ms = 500
+visual_render_ms = 1000
+version_load_ms = 200
+notes = "Performance requirements."
+
+[version_history.attribution]
+require_author = true
+require_timestamp = true
+timestamp_precision = "iso8601_with_timezone"
+notes = "Attribution requirements."
+
+# =============================================================================
+# PLUGIN API CONSTRAINTS
+# =============================================================================
+
+[plugins]
+description = "Constraints for plugin API (YP-EXT-PLUGIN-API-001)"
+
+[plugins.installed]
+max_plugins_installed = 20
+plugin_bundle_size_kb = 500
+plugin_load_time_ms = 100
+notes = "Plugin resource limits."
+
+[plugins.security]
+sandbox_enforced = true
+csp_required = true
+permission_granularity = "capability_based"
+notes = "Security requirements."
+
+[plugins.ui]
+max_panels_per_plugin = 3
+max_toolbar_buttons = 5
+max_notifications_per_hour = 10
+notes = "UI extension limits."
+
+[plugins.api]
+api_call_timeout_ms = 5000
+max_concurrent_api_calls = 10
+notes = "API usage limits."
+
+# =============================================================================
+# THEME CONSTRAINTS
+# =============================================================================
+
+[themes]
+description = "Constraints for custom themes (YP-EXT-THEMES-001)"
+
+[themes.size]
+critical_css_max_kb = 2
+theme_css_max_kb = 10
+max_custom_tokens = 200
+notes = "Theme size limits."
+
+[themes.performance]
+theme_switch_ms = 50
+no_fouc_required = true
+cache_ttl_days = 7
+notes = "Performance requirements."
+
+[themes.inheritance]
+max_inheritance_levels = 4
+override_precedence = "base < site < user < plugin"
+notes = "Inheritance rules."
+
+# =============================================================================
+# SETTINGS CONSTRAINTS
+# =============================================================================
+
+[settings]
+description = "Constraints for settings export/import (YP-EXT-SETTINGS-001)"
+
+[settings.size]
+max_settings_size_kb = 10
+max_import_file_size_kb = 50
+notes = "Settings size limits."
+
+[settings.sync]
+sync_interval_seconds = 30
+max_schema_versions = 10
+notes = "Sync requirements."
+
+[settings.compatibility]
+migration_required_on_upgrade = true
+downgrade_supported = true
+notes = "Version compatibility."
+
+[settings.conflict_resolution]
+default_strategy = "merge"
+strategies = ["merge", "overwrite", "selective"]
+notes = "Available resolution strategies."

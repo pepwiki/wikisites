@@ -2,10 +2,16 @@ import { defineConfig } from "astro/config";
 import solid from "@astrojs/solid-js";
 import tailwindcss from "@tailwindcss/vite";
 import starlight from "@astrojs/starlight";
+import remarkKatex from "./src/lib/remark-katex.ts";
+import rehypeKatex from "./src/lib/rehype-katex.ts";
 
 export default defineConfig({
   site: "https://wikipept.com",
   output: "static",
+  markdown: {
+    remarkPlugins: [remarkKatex],
+    rehypePlugins: [rehypeKatex],
+  },
   integrations: [
     starlight({
       title: "Wikipept",

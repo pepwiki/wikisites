@@ -1,0 +1,202 @@
+# =============================================================================
+# Test Vectors: UI Commands & Keyboard Shortcuts
+# Document ID: TVS-UI-COMMANDS-001
+# Version: 1.0.0
+# Date: 2026-06-19
+# Status: DRAFT
+# =============================================================================
+
+[metadata]
+paper_ids = ["YP-UI-COMMAND-PALETTE-001", "YP-UI-KEYBOARD-SHORTCUTS-001"]
+total_vectors = 16
+
+# =============================================================================
+# COMMAND PALETTE TEST VECTORS
+# =============================================================================
+
+[[test_set]]
+id = "TVS-CP-001"
+paper_id = "YP-UI-COMMAND-PALETTE-001"
+description = "Fuzzy match scoring correctness"
+
+[[test_set.tests]]
+id = "TV-CP-001"
+description = "Fuzzy match finds consecutive characters"
+query = "gth"
+item = "Go to Home"
+expected = { should_match = true, min_score = 20, highlight_indices = [0, 2, 3] }
+
+[[test_set.tests]]
+id = "TV-CP-002"
+description = "Fuzzy match skips characters"
+query = "gm"
+item = "Generate Map"
+expected = { should_match = true, min_score = 10 }
+
+[[test_set.tests]]
+id = "TV-CP-003"
+description = "Fuzzy match rejects non-matching"
+query = "xyz"
+item = "Settings"
+expected = { should_match = false }
+
+[[test_set.tests]]
+id = "TV-CP-004"
+description = "Fuzzy match case insensitive"
+query = "GLP"
+item = "glp1 receptor"
+expected = { should_match = true, min_score = 15 }
+
+[[test_set]]
+id = "TVS-CP-002"
+paper_id = "YP-UI-COMMAND-PALETTE-001"
+description = "Command palette open/close"
+
+[[test_set.tests]]
+id = "TV-CP-010"
+description = "Open palette with Ctrl+Shift+P"
+platform = "linux"
+sequence = ["Control+Shift+P"]
+expected = { palette_open = true, input_focused = true }
+
+[[test_set.tests]]
+id = "TV-CP-011"
+description = "Open palette with Cmd+Shift+P"
+platform = "macos"
+sequence = ["Meta+Shift+P"]
+expected = { palette_open = true, input_focused = true }
+
+[[test_set.tests]]
+id = "TV-CP-012"
+description = "Close palette with Escape"
+sequence = ["Control+Shift+P", "Escape"]
+expected = { palette_open = false, previous_focus_restored = true }
+
+[[test_set.tests]]
+id = "TV-CP-013"
+description = "Close palette with click outside"
+events = ["open_palette", "click_outside"]
+expected = { palette_open = false }
+
+# =============================================================================
+# KEYBOARD NAVIGATION TEST VECTORS
+# =============================================================================
+
+[[test_set]]
+id = "TVS-CP-003"
+paper_id = "YP-UI-COMMAND-PALETTE-001"
+description = "Keyboard navigation in palette"
+
+[[test_set.tests]]
+id = "TV-CP-020"
+description = "ArrowDown moves selection down"
+sequence = ["Control+Shift+P", "a", "ArrowDown"]
+expected = { selected_index = 1 }
+
+[[test_set.tests]]
+id = "TV-CP-021"
+description = "ArrowUp moves selection up"
+sequence = ["Control+Shift+P", "a", "ArrowDown", "ArrowDown", "ArrowUp"]
+expected = { selected_index = 1 }
+
+[[test_set.tests]]
+id = "TV-CP-022"
+description = "Enter executes selected command"
+sequence = ["Control+Shift+P", "dark", "Enter"]
+expected = { action_executed = "toggle_theme", palette_closed = true }
+
+[[test_set.tests]]
+id = "TV-CP-023"
+description = "Tab moves to next focusable"
+sequence = ["Control+Shift+P", "Tab"]
+expected = { focus_moved = true }
+
+# =============================================================================
+# KEYBOARD SHORTCUT TEST VECTORS
+# =============================================================================
+
+[[test_set]]
+id = "TVS-KS-001"
+paper_id = "YP-UI-KEYBOARD-SHORTCUTS-001"
+description = "Global shortcut activation"
+
+[[test_set.tests]]
+id = "TV-KS-001"
+description = "Ctrl+/ focuses search"
+platform = "linux"
+sequence = ["Control+/"]
+expected = { action = "focus_search", search_focused = true }
+
+[[test_set.tests]]
+id = "TV-KS-002"
+description = "Cmd+/ focuses search"
+platform = "macos"
+sequence = ["Meta+/"]
+expected = { action = "focus_search", search_focused = true }
+
+[[test_set.tests]]
+id = "TV-KS-003"
+description = "? opens help"
+sequence = ["?"]
+expected = { action = "open_help", help_visible = true }
+
+[[test_set.tests]]
+id = "TV-KS-004"
+description = "g then h navigates home (chord)"
+sequence = ["g", "h"]
+timeout_ms = 1000
+expected = { action = "navigate_home", url = "/" }
+
+[[test_set.tests]]
+id = "TV-KS-005"
+description = "g then t navigates to top"
+sequence = ["g", "t"]
+timeout_ms = 1000
+expected = { action = "scroll_to_top" }
+
+[[test_set.tests]]
+id = "TV-KS-006"
+description = "j scrolls down"
+sequence = ["j"]
+expected = { action = "scroll_down", amount = 50 }
+
+[[test_set.tests]]
+id = "TV-KS-007"
+description = "k scrolls up"
+sequence = ["k"]
+expected = { action = "scroll_up", amount = 50 }
+
+# =============================================================================
+# CONFLICT DETECTION TEST VECTORS
+# =============================================================================
+
+[[test_set]]
+id = "TVS-KS-002"
+paper_id = "YP-UI-KEYBOARD-SHORTCUTS-001"
+description = "Shortcut conflict resolution"
+
+[[test_set.tests]]
+id = "TV-KS-010"
+description = "Page scope wins over global"
+bindings = [
+  { keys = "Ctrl+K", action = "global_action", scope = "global", priority = 1 },
+  { keys = "Ctrl+K", action = "page_action", scope = "page", priority = 1 }
+]
+expected = { winner = "page_action", conflict_detected = true }
+
+[[test_set.tests]]
+id = "TV-KS-011"
+description = "Higher priority wins"
+bindings = [
+  { keys = "Ctrl+K", action = "low_priority", scope = "global", priority = 1 },
+  { keys = "Ctrl+K", action = "high_priority", scope = "global", priority = 10 }
+]
+expected = { winner = "high_priority", conflict_detected = true }
+
+[[test_set.tests]]
+id = "TV-KS-012"
+description = "Reserved shortcuts not overridden"
+bindings = [
+  { keys = "Ctrl+C", action = "custom_action", scope = "global" }
+]
+expected = { rejected = true, reason = "reserved_browser_shortcut" }

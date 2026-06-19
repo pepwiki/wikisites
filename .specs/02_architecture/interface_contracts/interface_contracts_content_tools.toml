@@ -1,0 +1,344 @@
+# =============================================================================
+# Interface Contracts: Content Tools (P1)
+# Source: BP-CONTENT-TOOLS-001 §5.1–5.4
+# Version: 1.0.0
+# Date: 2026-06-19
+# Status: DRAFT
+# =============================================================================
+
+[metadata]
+document_id = "IC-CONTENT-TOOLS-001"
+source_paper = "BP-CONTENT-TOOLS-001"
+version = "1.0.0"
+date = "2026-06-19"
+status = "DRAFT"
+description = "TOML interface contracts for Content Tools subsystem APIs"
+yellow_paper_refs = [
+    "YP-CONTENT-LATEX-001",
+    "YP-CONTENT-GRAPH-VIEW-001",
+    "YP-UI-SPLIT-VIEWS-001",
+    "YP-CONTENT-REGEX-SEARCH-001",
+]
+
+# =============================================================================
+# IF-LATEX-001: LaTeXRenderer (BP-CONTENT-TOOLS-001 §5.1)
+# =============================================================================
+
+[interfaces.latex]
+
+[interfaces.latex.LatexRendererProps]
+description = "Props for the LaTeXRenderer SolidJS component"
+fields = [
+    { name = "expression", type = "string", constraints = "non-empty, valid LaTeX math syntax" },
+    { name = "mode", type = "enum", values = ["inline", "display", "mathml"], default = "inline" },
+    { name = "forceClient", type = "boolean", default = false },
+    { name = "options", type = "KaTeXOptions", optional = true },
+    { name = "className", type = "string", optional = true },
+]
+preconditions = [
+    "expression must be non-empty",
+    "expression must be parseable by KaTeX",
+    "KaTeX fonts loaded (SSR) or loading (CSR)",
+]
+postconditions = [
+    "DOM element contains rendered math",
+    "MathML fallback present for screen readers",
+    "Error state displays errorColor text if expression invalid",
+]
+invariants = [
+    "SSR and CSR produce identical output for same expression",
+    "MathML fallback always present regardless of render mode",
+]
+error_handling = [
+    "Invalid LaTeX: display errorColor text with aria-label containing source",
+    "KaTeX load failure: graceful degradation to plain text",
+    "Font load failure: system font fallback",
+]
+
+[interfaces.latex.KaTeXOptions]
+description = "Configuration options passed to KaTeX renderer"
+fields = [
+    { name = "displayMode", type = "boolean", default = false },
+    { name = "throwOnError", type = "boolean", default = false },
+    { name = "errorColor", type = "string", default = "#cc0000", constraints = "valid CSS color" },
+    { name = "macros", type = "map(string, string)", optional = true },
+    { name = "trust", type = "boolean | function", default = false },
+    { name = "strict", type = "enum", values = ["ignore", "warn", "error"], default = "warn" },
+    { name = "output", type = "enum", values = ["html", "mathml", "htmlAndMathml"], default = "htmlAndMathml" },
+]
+
+[interfaces.latex.LatexSSRResult]
+description = "Result of server-side KaTeX rendering"
+fields = [
+    { name = "html", type = "string", constraints = "non-empty on success" },
+    { name = "mathml", type = "string", constraints = "non-empty on success" },
+    { name = "success", type = "boolean" },
+    { name = "error", type = "string", optional = true, constraints = "non-empty on failure" },
+]
+invariants = [
+    "success=true implies html and mathml are non-empty",
+    "success=false implies error is non-empty",
+]
+
+# =============================================================================
+# IF-GRAPH-001: GraphView (BP-CONTENT-TOOLS-001 §5.2)
+# =============================================================================
+
+[interfaces.graph]
+
+[interfaces.graph.GraphViewProps]
+description = "Props for the GraphView SolidJS component"
+fields = [
+    { name = "data", type = "GraphData", constraints = "nodes non-empty" },
+    { name = "layout", type = "enum", values = ["force", "radial", "hierarchical"], default = "force" },
+    { name = "maxNodes", type = "int", default = 1000, constraints = "min(1), max(5000)" },
+    { name = "onNodeClick", type = "function(GraphNode) => void", optional = true },
+    { name = "onNodeHover", type = "function(GraphNode | null) => void", optional = true },
+    { name = "highlightQuery", type = "string", optional = true },
+    { name = "className", type = "string", optional = true },
+]
+preconditions = [
+    "data.nodes must be non-empty",
+    "data.edges source/target must reference valid node IDs",
+    "Canvas element must be in DOM",
+]
+postconditions = [
+    "Graph rendered with specified layout",
+    "Interactions (hover, click, zoom, pan) active",
+    "Node count <= maxNodes",
+]
+invariants = [
+    "Layout computation completes within 2000ms for <=1000 nodes",
+    "Frame rate >=30fps during interaction",
+    "Filtered view maintains edge consistency",
+]
+
+[interfaces.graph.GraphData]
+description = "Graph data model containing nodes and edges"
+fields = [
+    { name = "nodes", type = "GraphNode[]", constraints = "non-empty" },
+    { name = "edges", type = "GraphEdge[]" },
+]
+
+[interfaces.graph.GraphNode]
+description = "Individual graph node representing an article, tag, or entity"
+fields = [
+    { name = "id", type = "string", constraints = "non-empty, unique" },
+    { name = "label", type = "string", constraints = "non-empty" },
+    { name = "group", type = "enum", values = ["article", "tag", "category", "peptide"], default = "article" },
+    { name = "size", type = "number", optional = true, constraints = "positive" },
+    { name = "color", type = "string", optional = true, constraints = "regex(#[0-9a-fA-F]{6})" },
+    { name = "href", type = "string", optional = true, constraints = "valid URL path" },
+    { name = "inDegree", type = "int", default = 0, constraints = "min(0)" },
+    { name = "outDegree", type = "int", default = 0, constraints = "min(0)" },
+    { name = "meta", type = "map(string, any)", optional = true },
+]
+
+[interfaces.graph.GraphEdge]
+description = "Directed edge between two graph nodes"
+fields = [
+    { name = "source", type = "string", constraints = "non-empty, must match node.id" },
+    { name = "target", type = "string", constraints = "non-empty, must match node.id" },
+    { name = "type", type = "enum", values = ["link", "tag", "reference", "related"], default = "link" },
+    { name = "weight", type = "number", default = 1.0, constraints = "positive" },
+    { name = "label", type = "string", optional = true },
+]
+
+[interfaces.graph.GraphViewController]
+description = "Programmatic control interface for the graph view"
+methods = [
+    { name = "zoomToFit", returns = "void", description = "Zoom to fit all visible nodes" },
+    { name = "centerOn", args = [{ name = "nodeId", type = "string" }], returns = "void", description = "Center viewport on a specific node" },
+    { name = "filterByGroup", args = [{ name = "groups", type = "string[]" }], returns = "void", description = "Show only nodes matching specified groups" },
+    { name = "resetFilters", returns = "void", description = "Clear all active filters" },
+    { name = "exportPNG", returns = "Promise<Blob>", description = "Export graph as PNG image" },
+]
+
+# =============================================================================
+# IF-SPLIT-001: SplitPane (BP-CONTENT-TOOLS-001 §5.3)
+# =============================================================================
+
+[interfaces.split]
+
+[interfaces.split.SplitPaneProps]
+description = "Props for the SplitPane SolidJS component"
+fields = [
+    { name = "panes", type = "PaneConfig[]", constraints = "min(1)" },
+    { name = "direction", type = "enum", values = ["horizontal", "vertical"], default = "horizontal" },
+    { name = "initialSizes", type = "float[]", optional = true, constraints = "length matches panes, values in (0,1], sum to 1.0" },
+    { name = "minPaneSize", type = "int", default = 80, constraints = "min(40), unit:px" },
+    { name = "persistKey", type = "string", optional = true, constraints = "non-empty" },
+    { name = "className", type = "string", optional = true },
+]
+preconditions = [
+    "panes must contain at least 1 entry",
+    "initialSizes length must match panes length if provided",
+    "minPaneSize must be >= 40px",
+]
+postconditions = [
+    "Panes rendered in CSS Grid layout",
+    "Resize handles draggable when panes.length > 1",
+    "State persisted to localStorage if persistKey provided",
+]
+invariants = [
+    "Resize handle drag completes within 16ms frame budget",
+    "Minimum pane size enforced at all times",
+    "Responsive stacking triggers at viewport <=768px",
+    "State restoration produces identical layout",
+]
+
+[interfaces.split.PaneConfig]
+description = "Configuration for a single pane within the split layout"
+fields = [
+    { name = "id", type = "string", constraints = "non-empty, unique" },
+    { name = "title", type = "string", constraints = "non-empty" },
+    { name = "content", type = "function() => JSX.Element", constraints = "non-null" },
+    { name = "icon", type = "string", optional = true },
+    { name = "closable", type = "boolean", default = true },
+]
+
+[interfaces.split.SplitPaneState]
+description = "Serialized split pane state for persistence"
+fields = [
+    { name = "version", type = "int", constraints = "positive" },
+    { name = "sizes", type = "float[]", constraints = "sum to 1.0, all values in (0,1]" },
+    { name = "activePanes", type = "int[]" },
+    { name = "isStacked", type = "boolean" },
+    { name = "responsiveDirection", type = "enum", values = ["horizontal", "vertical", "stacked"] },
+    { name = "lastModified", type = "string", constraints = "ISO 8601 datetime" },
+]
+invariants = [
+    "sizes sum to 1.0",
+    "All sizes > 0",
+    "activePanes indices within valid range",
+]
+
+[interfaces.split.SplitPaneController]
+description = "Programmatic control interface for the split pane layout"
+methods = [
+    { name = "addPane", args = [{ name = "config", type = "PaneConfig" }, { name = "index", type = "int", optional = true }], returns = "void", description = "Add a new pane at specified index" },
+    { name = "removePane", args = [{ name = "id", type = "string" }], returns = "void", description = "Remove a pane by ID" },
+    { name = "setSizes", args = [{ name = "sizes", type = "float[]" }], returns = "void", description = "Set split ratios" },
+    { name = "resetSizes", returns = "void", description = "Reset to initial sizes" },
+    { name = "getState", returns = "SplitPaneState", description = "Get current state snapshot" },
+]
+
+# =============================================================================
+# IF-REGEX-001: RegexSearch (BP-CONTENT-TOOLS-001 §5.4)
+# =============================================================================
+
+[interfaces.regex]
+
+[interfaces.regex.RegexSearchProps]
+description = "Props for the RegexSearch SolidJS component"
+fields = [
+    { name = "pagefindIndex", type = "PagefindIndex", constraints = "loaded and ready" },
+    { name = "placeholder", type = "string", default = "Search with regex..." },
+    { name = "maxResults", type = "int", default = 100, constraints = "min(1), max(1000)" },
+    { name = "onResults", type = "function(RegexSearchResult[]) => void", optional = true },
+    { name = "className", type = "string", optional = true },
+]
+preconditions = [
+    "pagefindIndex must be loaded",
+    "maxResults must be >= 1",
+]
+postconditions = [
+    "Search results displayed in panel",
+    "Match highlighting active in target content",
+    "Navigation between matches functional",
+]
+invariants = [
+    "Search execution completes within 100ms timeout",
+    "Result count never exceeds maxResults",
+    "Safety score computed before execution",
+]
+
+[interfaces.regex.RegexSearchQuery]
+description = "Regex search query with pattern, flags, and options"
+fields = [
+    { name = "pattern", type = "string", constraints = "non-empty, max 200 chars, valid RegExp syntax" },
+    { name = "flags", type = "string", default = "", constraints = "regex(^[gimsuy]*$)" },
+    { name = "fields", type = "string[]", default = ["title", "body"], constraints = "non-empty subset of [title, body, tags]" },
+    { name = "booleanOp", type = "enum", values = ["AND", "OR", "NOT"], default = "AND" },
+    { name = "caseSensitive", type = "boolean", default = false },
+]
+invariants = [
+    "pattern length <= 200 characters",
+    "flags only contain valid RegExp flag characters",
+    "fields is non-empty subset of allowed fields",
+]
+
+[interfaces.regex.RegexSearchResult]
+description = "Single search result with match highlights"
+fields = [
+    { name = "pagefindResult", type = "PagefindResult", constraints = "non-null" },
+    { name = "highlights", type = "SearchResultHighlight[]" },
+    { name = "matchMeta", type = "object" },
+]
+subfields.matchMeta = [
+    { name = "totalMatches", type = "int", constraints = "positive" },
+    { name = "matchIndex", type = "int", constraints = "min(0)" },
+    { name = "field", type = "string", constraints = "non-empty" },
+]
+
+[interfaces.regex.SearchResultHighlight]
+description = "Highlighted text fragment within a search result"
+fields = [
+    { name = "text", type = "string", constraints = "non-empty" },
+    { name = "start", type = "int", constraints = "min(0)" },
+    { name = "end", type = "int", constraints = "> start" },
+    { name = "isActive", type = "boolean" },
+]
+
+[interfaces.regex.RegexSearchController]
+description = "Programmatic control interface for regex search"
+methods = [
+    { name = "search", args = [{ name = "query", type = "RegexSearchQuery" }], returns = "Promise<RegexSearchResult[]>", description = "Execute a regex search" },
+    { name = "nextMatch", returns = "void", description = "Navigate to next match" },
+    { name = "prevMatch", returns = "void", description = "Navigate to previous match" },
+    { name = "clear", returns = "void", description = "Clear search and results" },
+    { name = "safetyScore", returns = "ReDoSSafetyScore", description = "Get current pattern safety score" },
+]
+
+[interfaces.regex.ReDoSSafetyScore]
+description = "Safety analysis result for a regex pattern"
+fields = [
+    { name = "rating", type = "enum", values = ["safe", "warn", "blocked"] },
+    { name = "complexity", type = "int", constraints = "range(0, 100)" },
+    { name = "lengthOk", type = "boolean" },
+    { name = "hasVulnerability", type = "boolean" },
+    { name = "message", type = "string", constraints = "non-empty" },
+]
+invariants = [
+    "rating='blocked' implies complexity > 50",
+    "rating='safe' implies complexity <= 30 and hasVulnerability=false",
+    "lengthOk=false implies pattern.length > 200",
+]
+
+# =============================================================================
+# CROSS-REFERENCE MATRIX
+# =============================================================================
+
+[cross_references]
+# Maps interface IDs to source components and Yellow Papers
+IF-LATEX-001 = { component = "COMP-CONTENT-001", yellow_paper = "YP-CONTENT-LATEX-001" }
+IF-GRAPH-001 = { component = "COMP-CONTENT-002", yellow_paper = "YP-CONTENT-GRAPH-VIEW-001" }
+IF-SPLIT-001 = { component = "COMP-CONTENT-003", yellow_paper = "YP-UI-SPLIT-VIEWS-001" }
+IF-REGEX-001 = { component = "COMP-CONTENT-004", yellow_paper = "YP-CONTENT-REGEX-SEARCH-001" }
+
+# =============================================================================
+# VALIDATION RULES
+# =============================================================================
+
+[validation]
+# Zod schemas to be generated from these contracts
+target = "packages/shared/src/schemas/content-tools.ts"
+output_format = "typescript-zod"
+strict_mode = true
+
+# =============================================================================
+# VERSION HISTORY
+# =============================================================================
+
+[version_history]
+v1.0.0 = { date = "2026-06-19", author = "Wikisites Architecture Team", notes = "Initial creation — 4 interfaces, 24 types, 4 controllers" }

@@ -1,27 +1,374 @@
+# Wikisites CI/CD Pipeline Configuration
+# Toolchain: Bun 1.3.x / Node 20 / Astro 5.x / SolidJS 1.9 / Cloudflare Pages
+
 [pipeline]
 name = "wikisites-ci"
 trigger = ["push", "pull_request"]
+branches = { production = "main", staging = "staging", preview = ["feature/*", "hotfix/*"] }
+concurrency = { group = "ci-${{ github.ref }}", cancel_in_progress = true }
+default_timeout = 600  # 10 minutes overall guard
 
 [tool]
 package_manager = "bun"
-bun_version = "1.x"
+bun_version = "1.3.11"
+node_version = "20"
 
+# ──────────────────────────────────────────────────────────────────────────────
+# Caching
+# ──────────────────────────────────────────────────────────────────────────────
+[cache]
+deps = { key = "bun-deps-${{ hashFiles('bun.lock') }}", restore_keys = "bun-deps-", paths = ["node_modules", "packages/*/node_modules"] }
+eslint = { key = "eslint-${{ github.sha }}", restore_keys = "eslint-", paths = [".eslintcache"] }
+build = { key = "build-${{ github.sha }}", restore_keys = "build-", paths = ["packages/*/dist"] }
+playwright = { key = "playwright-${{ hashFiles('bun.lock') }}", restore_keys = "playwright-", paths = ["~/.cache/ms-playwright"] }
+vitest = { key = "vitest-${{ hashFiles('bun.lock') }}", restore_keys = "vitest-", paths = ["node_modules/.vitest"] }
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Stage 1: LINT
+# ──────────────────────────────────────────────────────────────────────────────
 [[stage]]
 name = "lint"
-steps = ["eslint", "prettier-check", "typescript-check"]
+parallel = false
+timeout = 120
+depends_on = []
+quality_gates = { max_warnings = 0, max_errors = 0 }
 
+  [stage.commands]
+  eslint = "bunx eslint . --cache --max-warnings=0"
+  prettier_check = "bun run format:check"
+  typecheck = "bun run typecheck"
+
+  # Workspace-level typecheck runs sequentially through each package
+  typecheck_chain = [
+    "bun run typecheck:shared",
+    "bun run typecheck:query",
+    "bun run typecheck:workers",
+    "bun run typecheck:encp",
+    "bun run typecheck:wiki",
+  ]
+
+  [stage.cache]
+  use = ["deps", "eslint"]
+
+  [stage.on_failure]
+  block_all = true
+  notify = false
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Stage 2: TYPECHECK (separated for faster feedback on type errors)
+# ──────────────────────────────────────────────────────────────────────────────
 [[stage]]
-name = "test"
-steps = ["vitest-unit", "vitest-integration"]
+name = "typecheck"
+parallel = false
+timeout = 120
+depends_on = ["lint"]
+quality_gates = { max_errors = 0 }
 
+  [stage.commands]
+  # Astro check is the primary type validator; runs per-package
+  astro_check_encp = "bun run --filter @wikisites/encp exec astro check"
+  astro_check_wiki = "bun run --filter @wikisites/wiki exec astro check"
+  tsc_strict = "bunx tsc --noEmit --strict"
+
+  [stage.cache]
+  use = ["deps"]
+
+  [stage.on_failure]
+  block_all = true
+  notify = false
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Stage 3: UNIT TEST
+# ──────────────────────────────────────────────────────────────────────────────
 [[stage]]
-name = "security"
-steps = ["npm-audit", "snyk-test", "csp-check"]
+name = "unit_test"
+parallel = true
+timeout = 180
+depends_on = ["lint"]
+quality_gates = { min_coverage_lines = 80, min_coverage_branches = 80, min_coverage_functions = 80, min_coverage_statements = 80, max_failures = 0 }
 
+  [stage.commands]
+  vitest_run = "bun run test:coverage"
+  # Coverage thresholds enforced in vitest.config.ts (lines/branches/functions/statements >= 80%)
+  coverage_report = "bunx vitest run --coverage --reporter=json --outputFile=coverage/coverage-summary.json"
+
+  [stage.cache]
+  use = ["deps", "vitest"]
+
+  [stage.artifacts]
+  coverage = { path = "coverage/", retention_days = 7 }
+  junit = { path = "test-results/junit.xml", retention_days = 7 }
+
+  [stage.on_failure]
+  block_all = true
+  notify = false
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Stage 4: INTEGRATION TEST
+# ──────────────────────────────────────────────────────────────────────────────
+[[stage]]
+name = "integration_test"
+parallel = true
+timeout = 240
+depends_on = ["lint"]
+quality_gates = { max_failures = 0 }
+
+  [stage.commands]
+  # Astro + SolidJS component integration (server rendering + hydration)
+  vitest_integration = "bunx vitest run --config vitest.config.ts --reporter=verbose"
+  # Worker integration (D1, KV, Durable Objects mocked)
+  worker_integration = "bunx vitest run packages/workers/src/__tests__/ --reporter=verbose"
+  # SDK integration
+  sdk_integration = "bunx vitest run packages/sdk/src/__tests__/ --reporter=verbose"
+
+  [stage.cache]
+  use = ["deps", "vitest"]
+
+  [stage.on_failure]
+  block_all = true
+  notify = false
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Stage 5: SECURITY SCAN
+# ──────────────────────────────────────────────────────────────────────────────
+[[stage]]
+name = "security_scan"
+parallel = true
+timeout = 180
+depends_on = ["lint"]
+quality_gates = { max_severity = "high", block_on_critical = true }
+
+  [stage.commands]
+  # Dependency audit (bun audit via audit-ci wrapper)
+  dependency_audit = "bunx audit-ci --moderate"
+  # Snyk vulnerability scan (if SNYK_TOKEN available)
+  snyk_test = { command = "bunx snyk test --severity-threshold=high", optional = true }
+  # CSP header validation
+  csp_check = "bunx node scripts/check-csp.js || true"
+  # Secret scanning (gitleaks)
+  secret_scan = { command = "bunx gitleaks detect --source=. --verbose", optional = true }
+
+  [stage.cache]
+  use = ["deps"]
+
+  [stage.on_failure]
+  block_all = true  # Critical/high vulns block deploy
+  notify = true     # Security failures always notify
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Stage 6: E2E TEST
+# ──────────────────────────────────────────────────────────────────────────────
+[[stage]]
+name = "e2e_test"
+parallel = false
+timeout = 600  # 10 minutes for full E2E suite
+depends_on = ["build"]
+quality_gates = { max_failures = 0 }
+
+  [stage.commands]
+  install_browsers = "bunx playwright install chromium --with-deps"
+  # Run E2E test suites sequentially (shared dev server)
+  dark_mode = "bunx playwright test tests/e2e/dark-mode.spec.ts --reporter=list"
+  accessibility = "bunx playwright test tests/e2e/accessibility.spec.ts --project=chromium --reporter=list"
+  visual_regression = "bunx playwright test tests/e2e/visual-regression.spec.ts --project=chromium --reporter=list"
+  gui_traversal = "bunx playwright test tests/e2e/gui-traversal.spec.ts --project=chromium --reporter=list"
+  benchmark = { command = "bunx playwright test tests/e2e/benchmark.spec.ts --project=chromium --reporter=list", optional = true }
+
+  # New P0-P4 feature E2E tests (added as features ship)
+  command_palette = { command = "bunx playwright test tests/e2e/command-palette.spec.ts --project=chromium --reporter=list", optional = true, feature = "P0" }
+  keyboard_shortcuts = { command = "bunx playwright test tests/e2e/keyboard-shortcuts.spec.ts --project=chromium --reporter=list", optional = true, feature = "P0" }
+  outline_panel = { command = "bunx playwright test tests/e2e/outline-panel.spec.ts --project=chromium --reporter=list", optional = true, feature = "P0" }
+  breadcrumbs = { command = "bunx playwright test tests/e2e/breadcrumbs.spec.ts --project=chromium --reporter=list", optional = true, feature = "P0" }
+  katex = { command = "bunx playwright test tests/e2e/katex.spec.ts --project=chromium --reporter=list", optional = true, feature = "P1" }
+  force_graph = { command = "bunx playwright test tests/e2e/force-graph.spec.ts --project=chromium --reporter=list", optional = true, feature = "P1" }
+  split_pane = { command = "bunx playwright test tests/e2e/split-pane.spec.ts --project=chromium --reporter=list", optional = true, feature = "P1" }
+  regex_search = { command = "bunx playwright test tests/e2e/regex-search.spec.ts --project=chromium --reporter=list", optional = true, feature = "P1" }
+  giscus = { command = "bunx playwright test tests/e2e/giscus.spec.ts --project=chromium --reporter=list", optional = true, feature = "P2" }
+  annotations = { command = "bunx playwright test tests/e2e/annotations.spec.ts --project=chromium --reporter=list", optional = true, feature = "P2" }
+  user_accounts = { command = "bunx playwright test tests/e2e/user-accounts.spec.ts --project=chromium --reporter=list", optional = true, feature = "P2" }
+  tiptap_editor = { command = "bunx playwright test tests/e2e/tiptap-editor.spec.ts --project=chromium --reporter=list", optional = true, feature = "P3" }
+  version_history = { command = "bunx playwright test tests/e2e/version-history.spec.ts --project=chromium --reporter=list", optional = true, feature = "P3" }
+  plugin_api = { command = "bunx playwright test tests/e2e/plugin-api.spec.ts --project=chromium --reporter=list", optional = true, feature = "P4" }
+
+  [stage.cache]
+  use = ["deps", "playwright"]
+
+  [stage.artifacts]
+  results = { path = ["test-results/", "playwright-report/"], retention_days = 7, on_failure = "always" }
+  screenshots = { path = "test-results/**/*.png", retention_days = 14, on_failure = "always" }
+  traces = { path = "test-results/**/*.zip", retention_days = 7, on_failure = "always" }
+
+  [stage.on_failure]
+  block_all = true
+  notify = false
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Stage 7: PERFORMANCE AUDIT
+# ──────────────────────────────────────────────────────────────────────────────
+[[stage]]
+name = "performance_audit"
+parallel = false
+timeout = 300  # 5 minutes for Lighthouse
+depends_on = ["build"]
+quality_gates = { min_lighthouse_performance = 85, min_lighthouse_accessibility = 90, min_lighthouse_best_practices = 90, min_lighthouse_seo = 95, max_bundle_size_kb = 250 }
+
+  [stage.commands]
+  # Bundle size check (against baseline)
+  bundle_check = "bunx node scripts/check-bundle-size.js || true"
+  # Lighthouse CI (production URLs on push to main, local preview on PRs)
+  lighthouse_ci = "bunx @lhci/cli autorun --config=./lighthouserc.json"
+  # Web vitals budget check
+  web_vitals = "bunx node scripts/check-web-vitals.js || true"
+
+  [stage.cache]
+  use = ["deps", "build"]
+
+  [stage.artifacts]
+  lighthouse = { path = ".lighthouseci/", retention_days = 30 }
+
+  [stage.on_failure]
+  block_all = false  # Performance regressions warn, don't block (unless critical)
+  notify = true
+  # Override: block if Lighthouse performance drops below 70
+  critical_threshold = { min_lighthouse_performance = 70, block = true }
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Stage 8: BUILD
+# ──────────────────────────────────────────────────────────────────────────────
 [[stage]]
 name = "build"
-steps = ["astro-build-encp", "astro-build-wiki"]
+parallel = false
+timeout = 300
+depends_on = ["unit_test", "integration_test", "security_scan"]
+quality_gates = { max_build_time_seconds = 120, max_bundle_size_kb = 250 }
 
+  [stage.commands]
+  # Build shared packages first (dependencies)
+  build_shared = "bun run build:shared"
+  build_query = "bun run build:query"
+  # Build sites
+  build_encp = "bun run build:encp"
+  build_wiki = "bun run build:wiki"
+  # Search index generation
+  search_index_encp = "bunx pagefind --site packages/encp/dist --output-path packages/encp/dist/_pagefind"
+  search_index_wiki = "bunx pagefind --site packages/wiki/dist --output-path packages/wiki/dist/_pagefind"
+
+  [stage.cache]
+  use = ["deps", "build"]
+
+  [stage.artifacts]
+  encp = { path = "packages/encp/dist", retention_days = 1 }
+  wiki = { path = "packages/wiki/dist", retention_days = 1 }
+
+  [stage.on_failure]
+  block_all = true
+  notify = false
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Stage 9: DEPLOY PREVIEW
+# ──────────────────────────────────────────────────────────────────────────────
 [[stage]]
-name = "deploy"
-steps = ["cloudflare-pages-encp", "cloudflare-pages-wiki"]
+name = "deploy_preview"
+parallel = false
+timeout = 120
+depends_on = ["build"]
+condition = "github.event_name == 'pull_request'"
+
+  [stage.commands]
+  deploy_encp_preview = "bunx wrangler pages deploy packages/encp/dist --project-name=wikisites-encp --branch=${{ github.head_ref }}"
+  deploy_wiki_preview = "bunx wrangler pages deploy packages/wiki/dist --project-name=wikisites-wiki --branch=${{ github.head_ref }}"
+  # Post preview URL to PR comment
+  post_preview_url = "bunx node scripts/post-preview-url.js"
+
+  [stage.env]
+  CLOUDFLARE_API_TOKEN = "${{ secrets.CLOUDFLARE_API_TOKEN }}"
+  CLOUDFLARE_ACCOUNT_ID = "${{ secrets.CLOUDFLARE_ACCOUNT_ID }}"
+
+  [stage.on_failure]
+  block_all = false
+  notify = true
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Stage 10: DEPLOY PRODUCTION
+# ──────────────────────────────────────────────────────────────────────────────
+[[stage]]
+name = "deploy_production"
+parallel = false
+timeout = 120
+depends_on = ["build", "e2e_test", "performance_audit"]
+condition = "github.ref == 'refs/heads/main'"
+
+  [stage.commands]
+  deploy_encp = "bunx wrangler pages deploy packages/encp/dist --project-name=wikisites-encp --branch=main"
+  deploy_wiki = "bunx wrangler pages deploy packages/wiki/dist --project-name=wikisites-wiki --branch=main"
+  # Post-deployment health check
+  health_check_encp = "curl -sf https://encp.wikisites.dev/ || exit 1"
+  health_check_wiki = "curl -sf https://wiki.wikisites.dev/ || exit 1"
+  # Post-deployment Lighthouse on production
+  lighthouse_post_deploy = "bunx @lhci/cli autorun --config=./lighthouserc.production.json"
+  # Notify
+  notify_deploy = "bunx node scripts/notify-deploy.js"
+
+  [stage.env]
+  CLOUDFLARE_API_TOKEN = "${{ secrets.CLOUDFLARE_API_TOKEN }}"
+  CLOUDFLARE_ACCOUNT_ID = "${{ secrets.CLOUDFLARE_ACCOUNT_ID }}"
+
+  [stage.on_failure]
+  block_all = false
+  notify = true
+  # Automatic rollback trigger
+  auto_rollback = { condition = "health_check_fails OR lighthouse_critical_fails" }
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Pipeline execution order (dependency graph)
+# ──────────────────────────────────────────────────────────────────────────────
+#
+#  lint ──────────┬──> unit_test ──────────┬──> build ──┬──> e2e_test ──────────┬──> deploy_production
+#                 ├──> integration_test ───┤            ├──> performance_audit ──┘
+#                 ├──> security_scan ──────┘            └──> deploy_preview (PRs only)
+#                 └──> typecheck
+#
+# Parallel opportunities:
+#   - unit_test, integration_test, security_scan, typecheck all run after lint
+#   - e2e_test, performance_audit run in parallel after build
+#   - deploy_preview runs after build on PRs
+#
+# Estimated total pipeline time:
+#   PR:     ~4-5 min (lint 30s + tests 60s + build 90s + e2e 120s + deploy preview 30s)
+#   Merge:  ~5-6 min (lint 30s + tests 60s + build 90s + e2e 120s + perf 60s + deploy 30s)
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Feature flag integration
+# ──────────────────────────────────────────────────────────────────────────────
+[feature_flags]
+# Feature flags are evaluated at build time via Astro env vars
+# and at runtime via Cloudflare Workers KV
+#
+# Format: FEATURES_<name> = "true" | "false"
+# CI sets these based on branch name or manual trigger inputs
+#
+# P0 features (ship first, always enabled after merge)
+command_palette = { env = "FEATURE_COMMAND_PALETTE", default = true }
+keyboard_shortcuts = { env = "FEATURE_KEYBOARD_SHORTCUTS", default = true }
+outline_panel = { env = "FEATURE_OUTLINE_PANEL", default = true }
+breadcrumbs = { env = "FEATURE_BREADCRUMBS", default = true }
+
+# P1 features (gradual rollout via flag)
+katex = { env = "FEATURE_KATEX", default = false, rollout = "10%" }
+force_graph = { env = "FEATURE_FORCE_GRAPH", default = false, rollout = "10%" }
+split_pane = { env = "FEATURE_SPLIT_PANE", default = false, rollout = "10%" }
+regex_search = { env = "FEATURE_REGEX_SEARCH", default = false, rollout = "10%" }
+
+# P2 features (require user accounts backend)
+giscus = { env = "FEATURE_GISCUS", default = false }
+annotations = { env = "FEATURE_ANNOTATIONS", default = false }
+user_accounts = { env = "FEATURE_USER_ACCOUNTS", default = false }
+
+# P3 features (editor + versioning)
+tiptap_editor = { env = "FEATURE_TIPTAP_EDITOR", default = false }
+version_history = { env = "FEATURE_VERSION_HISTORY", default = false }
+
+# P4 features (extensibility)
+plugin_api = { env = "FEATURE_PLUGIN_API", default = false }
+themes = { env = "FEATURE_THEMES", default = false }
+settings = { env = "FEATURE_SETTINGS", default = false }

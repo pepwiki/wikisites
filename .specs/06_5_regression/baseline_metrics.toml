@@ -1,21 +1,149 @@
-[metadata]
-established = "2026-06-07"
-version = "1.0.0"
+[baseline]
+version = "2.0.0"
+date = "2026-06-19"
 description = "Regression baseline metrics for wikisites. Derived from Phase 5 performance profiling and production monitoring."
 
-[performance]
-lcp_p75_ms = 2200
-cls_p75 = 0.05
-inp_p75_ms = 150
-ttfb_p75_ms = 180
-total_page_weight_kb = 450
+# ─── Core Web Vitals ───────────────────────────────────────────────
 
-[build]
-build_time_s = 240
-cold_start_s = 180
+[baseline.core_web_vitals]
+lcp = { p50 = 1200, p95 = 2500, unit = "ms" }
+fid = { p50 = 50, p95 = 150, unit = "ms" }
+cls = { p50 = 0.05, p95 = 0.1, unit = "score" }
+inp = { p50 = 100, p95 = 300, unit = "ms" }
 
-[quality]
-test_pass_rate = 100.0
-code_coverage_critical = 95.0
-code_coverage_overall = 80.0
-security_vulnerabilities_critical = 0
+# ─── Bundle Size ───────────────────────────────────────────────────
+
+[baseline.bundle_size]
+initial_js = { value = 85, unit = "KB", gzipped = true }
+initial_css = { value = 25, unit = "KB", gzipped = true }
+total = { value = 110, unit = "KB", gzipped = true }
+
+# ─── Page Load ─────────────────────────────────────────────────────
+
+[baseline.page_load]
+ttfb = { p50 = 50, p95 = 121, unit = "ms" }
+fcp = { p50 = 800, p95 = 1500, unit = "ms" }
+tti = { p50 = 1200, p95 = 2500, unit = "ms" }
+
+# ─── Build Health ──────────────────────────────────────────────────
+
+[baseline.build]
+build_time_s = { value = 240, unit = "s" }
+cold_start_s = { value = 180, unit = "s" }
+
+# ─── Quality ───────────────────────────────────────────────────────
+
+[baseline.quality]
+test_pass_rate = { value = 100.0, unit = "%" }
+code_coverage_critical = { value = 95.0, unit = "%" }
+code_coverage_overall = { value = 80.0, unit = "%" }
+security_vulnerabilities_critical = { value = 0, unit = "count" }
+
+# ═══════════════════════════════════════════════════════════════════
+# Per-Page-Type Metrics
+# ═══════════════════════════════════════════════════════════════════
+
+# ─── Homepage ──────────────────────────────────────────────────────
+
+[baseline.pages.homepage]
+url = "/"
+description = "Landing page — highest traffic, entry point"
+
+[baseline.pages.homepage.core_web_vitals]
+lcp = { p50 = 900, p95 = 1800, unit = "ms" }
+cls = { p50 = 0.02, p95 = 0.05, unit = "score" }
+inp = { p50 = 80, p95 = 200, unit = "ms" }
+
+[baseline.pages.homepage.page_load]
+ttfb = { p50 = 30, p95 = 80, unit = "ms" }
+fcp = { p50 = 600, p95 = 1200, unit = "ms" }
+tti = { p50 = 900, p95 = 1800, unit = "ms" }
+
+[baseline.pages.homepage.bundle]
+js = { value = 45, unit = "KB", gzipped = true }
+css = { value = 15, unit = "KB", gzipped = true }
+total = { value = 60, unit = "KB", gzipped = true }
+
+# ─── Article ───────────────────────────────────────────────────────
+
+[baseline.pages.article]
+url = "/articles/[slug]"
+description = "Core content page — MDX-rendered, KaTeX/force-graph lazy"
+
+[baseline.pages.article.core_web_vitals]
+lcp = { p50 = 1200, p95 = 2500, unit = "ms" }
+cls = { p50 = 0.03, p95 = 0.08, unit = "score" }
+inp = { p50 = 90, p95 = 250, unit = "ms" }
+
+[baseline.pages.article.page_load]
+ttfb = { p50 = 50, p95 = 121, unit = "ms" }
+fcp = { p50 = 800, p95 = 1500, unit = "ms" }
+tti = { p50 = 1200, p95 = 2500, unit = "ms" }
+
+[baseline.pages.article.bundle]
+js = { value = 85, unit = "KB", gzipped = true }
+css = { value = 25, unit = "KB", gzipped = true }
+total = { value = 110, unit = "KB", gzipped = true }
+
+# ─── Quiz ──────────────────────────────────────────────────────────
+
+[baseline.pages.quiz]
+url = "/quizzes"
+description = "Quiz page — interactive SolidJS component, user state"
+
+[baseline.pages.quiz.core_web_vitals]
+lcp = { p50 = 1100, p95 = 2200, unit = "ms" }
+cls = { p50 = 0.04, p95 = 0.09, unit = "score" }
+inp = { p50 = 120, p95 = 350, unit = "ms" }
+
+[baseline.pages.quiz.page_load]
+ttfb = { p50 = 45, p95 = 110, unit = "ms" }
+fcp = { p50 = 750, p95 = 1400, unit = "ms" }
+tti = { p50 = 1100, p95 = 2200, unit = "ms" }
+
+[baseline.pages.quiz.bundle]
+js = { value = 70, unit = "KB", gzipped = true }
+css = { value = 20, unit = "KB", gzipped = true }
+total = { value = 90, unit = "KB", gzipped = true }
+
+# ─── Flashcard ─────────────────────────────────────────────────────
+
+[baseline.pages.flashcard]
+url = "/flashcards"
+description = "Flashcard page — flip animation, spaced repetition state"
+
+[baseline.pages.flashcard.core_web_vitals]
+lcp = { p50 = 1000, p95 = 2000, unit = "ms" }
+cls = { p50 = 0.03, p95 = 0.07, unit = "score" }
+inp = { p50 = 110, p95 = 300, unit = "ms" }
+
+[baseline.pages.flashcard.page_load]
+ttfb = { p50 = 40, p95 = 100, unit = "ms" }
+fcp = { p50 = 700, p95 = 1300, unit = "ms" }
+tti = { p50 = 1000, p95 = 2000, unit = "ms" }
+
+[baseline.pages.flashcard.bundle]
+js = { value = 65, unit = "KB", gzipped = true }
+css = { value = 18, unit = "KB", gzipped = true }
+total = { value = 83, unit = "KB", gzipped = true }
+
+# ─── Search ────────────────────────────────────────────────────────
+
+[baseline.pages.search]
+url = "/search?q=..."
+description = "Search page — Pagefind client-side index, JS-heavy"
+
+[baseline.pages.search.core_web_vitals]
+lcp = { p50 = 1400, p95 = 2800, unit = "ms" }
+cls = { p50 = 0.05, p95 = 0.12, unit = "score" }
+inp = { p50 = 150, p95 = 400, unit = "ms" }
+
+[baseline.pages.search.page_load]
+ttfb = { p50 = 35, p95 = 90, unit = "ms" }
+fcp = { p50 = 900, p95 = 1600, unit = "ms" }
+tti = { p50 = 1400, p95 = 2800, unit = "ms" }
+
+[baseline.pages.search.bundle]
+js = { value = 100, unit = "KB", gzipped = true }
+css = { value = 22, unit = "KB", gzipped = true }
+total = { value = 122, unit = "KB", gzipped = true }

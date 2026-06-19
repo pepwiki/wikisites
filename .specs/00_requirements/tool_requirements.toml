@@ -1,477 +1,374 @@
-# Tool Requirements Specification
-# Document ID: TOOL-REQ-001
+# Wikisites Tool Requirements
 # Version: 1.0.0
-# Date: 2026-06-07
-# Status: Approved
-# Scope: encyclopeptide.com and wikipept.com
-
-[metadata]
-project = "wikisites"
-version = "0.1.0"
-date = "2026-06-07"
-scope = "encyclopeptide.com and wikipept.com"
+# Date: 2026-06-19
+# All tools must be compatible with: Bun 1.3+, Astro 5.x, SolidJS 1.9, TypeScript 5.9
 
 # =============================================================================
-# CORE FRAMEWORK
+# P0: Power User Shell
 # =============================================================================
 
 [[tool]]
-name = "astro"
-version = ">=5.0.0"
-max_version = "<6.0.0"
-purpose = "Primary static site generator providing island architecture, content collections, view transitions, and zero-JS-by-default page rendering"
-criticality = "critical"
-install_method = "pnpm add astro"
-config_file = "astro.config.mjs"
-breaking_change_risk = "high"
-notes = "Core dependency. encyclopeptide.com uses output:'static'. wikipept.com uses output:'hybrid'."
+name = "@nanopop/kmenu"
+version = "^2.0.0"
+purpose = "Command palette component — keyboard-navigable, fuzzy-searchable command menu"
+tier = "P0"
+category = "UI"
+license = "MIT"
+bundle_impact = "~8KB gzipped"
+notes = "SolidJS-compatible via solid-headless alternatives or vanilla JS wrapper. Evaluate cmdk (React) vs kmenu (vanilla) vs custom implementation. Consider solid-cmdk if available."
 
 [[tool]]
-name = "solid-js"
-version = ">=1.8.0"
-max_version = "<2.0.0"
-purpose = "Reactive UI framework for interactive components requiring fine-grained reactivity, high performance, and small bundle size (~7KB gzipped)"
-criticality = "critical"
-install_method = "pnpm add solid-js @astrojs/solid-js"
-config_file = "astro.config.mjs"
-breaking_change_risk = "high"
-notes = "Used for quiz engine, flashcard system, molecular viewer wrapper, progress tracking dashboard, wiki editing interface."
+name = "cmdk"
+version = "^1.0.0"
+purpose = "Command palette React component (may need SolidJS adapter or rewrite)"
+tier = "P0"
+category = "UI"
+license = "MIT"
+bundle_impact = "~12KB gzipped"
+notes = "React-based; may need to port to SolidJS or use as reference for custom implementation. Popular in Next.js/Vercel ecosystem."
 
 [[tool]]
-name = "tailwindcss"
-version = ">=4.0.0"
-max_version = "<5.0.0"
-purpose = "Utility-first CSS framework providing design system primitives, responsive design utilities, dark mode support, and CSS custom properties integration"
-criticality = "critical"
-install_method = "pnpm add tailwindcss @tailwindcss/vite"
-config_file = "tailwind.config.encyclopeptide.ts, tailwind.config.wikipept.ts"
-breaking_change_risk = "high"
-notes = "v4 native CSS custom properties required for design token definition. Separate config per site."
+name = "hotkeys-js"
+version = "^3.13.0"
+purpose = "Keyboard shortcut management — register, scope, and dispatch keyboard shortcuts"
+tier = "P0"
+category = "Utility"
+license = "MIT"
+bundle_impact = "~3KB gzipped"
+notes = "Lightweight, well-maintained. Supports key sequences, scopes, and filtering. Alternative: tinykeys (~400B)."
 
 [[tool]]
-name = "typescript"
-version = ">=5.3.0"
-max_version = "<6.0.0"
-purpose = "Static type checking for JavaScript providing type safety for component props, API responses, content schemas, and build configuration"
-criticality = "critical"
-install_method = "pnpm add -D typescript"
-config_file = "tsconfig.json"
-breaking_change_risk = "medium"
-notes = "Strict mode enabled. No 'any' type permitted. Path aliases: @/ for src/."
+name = "tinykeys"
+version = "^2.0.0"
+purpose = "Lightweight keyboard shortcut library (~400 bytes)"
+tier = "P0"
+category = "Utility"
+license = "MIT"
+bundle_impact = "~0.4KB gzipped"
+notes = "Minimal alternative to hotkeys-js. Supports key sequences (e.g., g+h). Better for bundle size budget."
+
+[[tool]]
+name = "intersection-observer"
+version = "^0.12.0"
+purpose = "Scroll spy for outline panel — detect which heading is in viewport"
+tier = "P0"
+category = "Utility"
+license = "MIT"
+bundle_impact = "~1KB gzipped (polyfill)"
+notes = "Native IntersectionObserver is widely supported; polyfill only for very old browsers. Consider native API with fallback."
 
 # =============================================================================
-# RUNTIME & PACKAGE MANAGEMENT
-# =============================================================================
-
-[[tool]]
-name = "node.js"
-version = ">=20.11.0"
-max_version = "<21.0.0"
-purpose = "JavaScript runtime for build processes, development server, and tooling. Provides execution environment for Astro, Vite, Tailwind, TypeScript."
-criticality = "critical"
-install_method = "System package manager / nvm / fnm"
-config_file = ".nvmrc, .node-version"
-breaking_change_risk = "high"
-notes = "LTS version pinned in .nvmrc. All environments must use same major.minor version."
-
-[[tool]]
-name = "pnpm"
-version = ">=9.0.0"
-max_version = "<10.0.0"
-purpose = "Fast, disk-efficient package manager with strict dependency resolution, content-addressable storage, and workspace support"
-criticality = "critical"
-install_method = "corepack enable && corepack prepare pnpm@9.x --activate"
-config_file = "package.json (packageManager field), pnpm-lock.yaml, pnpm-workspace.yaml"
-breaking_change_risk = "medium"
-notes = "Lockfile committed. CI uses --frozen-lockfile. node-linker=isolated (default) for strict resolution."
-
-# =============================================================================
-# CONTENT MANAGEMENT
+# P1: Content Tools
 # =============================================================================
 
 [[tool]]
-name = "mdx"
-version = ">=3.0.0"
-max_version = "<4.0.0"
-purpose = "Markdown authoring with JSX component embedding for content files with interactive components"
-criticality = "critical"
-install_method = "pnpm add mdx @astrojs/mdx"
-config_file = "astro.config.mjs"
-breaking_change_risk = "high"
-notes = "Frontmatter validated via Zod schemas. Supports code highlighting, math rendering, table of contents."
+name = "katex"
+version = "^0.16.0"
+purpose = "LaTeX/KaTeX math rendering — fast, self-contained math typesetting"
+tier = "P1"
+category = "Rendering"
+license = "MIT"
+bundle_impact = "~30KB gzipped (CSS + JS)"
+notes = "Must bundle CSS locally (not CDN) for offline support. Consider dynamic import for pages without math. Alternative: MathJax 3 (larger, more complete)."
 
 [[tool]]
-name = "@astrojs/mdx"
-version = ">=4.0.0"
-max_version = "<5.0.0"
-purpose = "Astro integration for MDX content processing"
-criticality = "critical"
-install_method = "pnpm add @astrojs/mdx"
-breaking_change_risk = "medium"
-notes = "Must be compatible with Astro v5.x."
+name = "d3-force"
+version = "^3.0.0"
+purpose = "Force-directed graph layout for knowledge graph visualization"
+tier = "P1"
+category = "Visualization"
+license = "ISC"
+bundle_impact = "~15KB gzipped"
+notes = "d3-force for layout; render with Canvas (performance) or SVG (interactivity). Alternative: force-graph library (wraps d3-force + Three.js)."
+
+[[tool]]
+name = "force-graph"
+version = "^1.0.0"
+purpose = "Declarative force-directed graph component (wraps d3-force)"
+tier = "P1"
+category = "Visualization"
+license = "MIT"
+bundle_impact = "~25KB gzipped"
+notes = "Higher-level API than raw d3-force. Supports canvas rendering for 500+ nodes. May need SolidJS wrapper."
+
+[[tool]]
+name = "diff-match-patch"
+version = "^1.0.0"
+purpose = "Text diff algorithm for version history visual diff"
+tier = "P3"
+category = "Utility"
+license = "Apache-2.0"
+bundle_impact = "~8KB gzipped"
+notes = "Google's diff library. Produces character-level diffs. Alternative: jsdiff (diff library) for line-level diffs."
+
+[[tool]]
+name = "diff"
+version = "^5.0.0"
+purpose = "Line-level text diff for version history"
+tier = "P3"
+category = "Utility"
+license = "BSD-3-Clause"
+bundle_impact = "~6KB gzipped"
+notes = "Generates unified diffs, structured diffs. Better for side-by-side view than diff-match-patch."
+
+[[tool]]
+name = "codemirror"
+version = "^6.0.0"
+purpose = "MDX editor for web-based content authoring (code editor component)"
+tier = "P3"
+category = "Editor"
+license = "MIT"
+bundle_impact = "~40KB gzipped (core + markdown mode)"
+notes = "CodeMirror 6 is modular — only bundle needed language modes. Alternative: Monaco Editor (larger, VS Code engine). Consider @codemirror/lang-markdown and @codemirror/lang-javascript for MDX."
+
+[[tool]]
+name = "@codemirror/lang-markdown"
+version = "^6.0.0"
+purpose = "Markdown/MDX language support for CodeMirror"
+tier = "P3"
+category = "Editor"
+license = "MIT"
+bundle_impact = "~8KB gzipped"
+notes = "Bundled with CodeMirror core. Provides syntax highlighting, folding, and autocomplete for Markdown."
+
+[[tool]]
+name = "markdown-it"
+version = "^14.0.0"
+purpose = "Markdown parser for preview rendering in editor"
+tier = "P3"
+category = "Rendering"
+license = "MIT"
+bundle_impact = "~12KB gzipped"
+notes = "Fast, pluggable Markdown parser. Used for live preview in editor. Alternative: marked (smaller, faster)."
+
+[[tool]]
+name = "sanitize-html"
+version = "^2.0.0"
+purpose = "HTML sanitization for user-generated content (comments, annotations)"
+tier = "P2"
+category = "Security"
+license = "ISC"
+bundle_impact = "~5KB gzipped"
+notes = "Whitelist-based HTML sanitizer. Server-side enforcement required. Alternative: DOMPurify (browser-only). Must run server-side in Cloudflare Worker."
+
+[[tool]]
+name = "dompurify"
+version = "^3.0.0"
+purpose = "DOM-only HTML sanitizer (client-side fallback)"
+tier = "P2"
+category = "Security"
+license = "Apache-2.0"
+bundle_impact = "~3KB gzipped"
+notes = "Browser-only; cannot run in Cloudflare Worker. Use as client-side defense-in-depth alongside server-side sanitize-html."
+
+[[tool]]
+name = "pagefind"
+version = "^1.5.0"
+purpose = "Static search index (already in use) — extend for regex and advanced filters"
+tier = "P1"
+category = "Search"
+license = "MIT"
+bundle_impact = "~50KB WASM"
+notes = "Already integrated. Regex search support needs evaluation — Pagefind may not support native regex. May need custom search layer on top."
+
+[[tool]]
+name = "flexsearch"
+version = "^0.7.0"
+purpose = "Full-text search library (alternative to Pagefind for regex support)"
+tier = "P1"
+category = "Search"
+license = "MIT"
+bundle_impact = "~10KB gzipped"
+notes = "Supports regex, faceted search, and indexable. Client-side. Consider as Pagefind alternative if regex is critical and Pagefind doesn't support it."
+
+# =============================================================================
+# P2: Social Layer
+# =============================================================================
+
+[[tool]]
+name = "giscus"
+version = "^2.0.0"
+purpose = "GitHub Discussions-based comment system"
+tier = "P2"
+category = "Social"
+license = "MIT"
+bundle_impact = "~15KB gzipped"
+notes = "Uses GitHub Discussions as backend. Pros: no custom backend, spam protection via GitHub. Cons: requires GitHub account, limited customization. Alternative: custom comments with D1 backend."
+
+[[tool]]
+name = "marked"
+version = "^12.0.0"
+purpose = "Markdown parser for comment rendering (lighter than markdown-it)"
+tier = "P2"
+category = "Rendering"
+license = "MIT"
+bundle_impact = "~8KB gzipped"
+notes = "Fast, lightweight Markdown parser. Use for rendering user-submitted Markdown in comments and annotations."
+
+# =============================================================================
+# P3: Editor
+# =============================================================================
+
+[[tool]]
+name = "@codemirror/view"
+version = "^6.0.0"
+purpose = "CodeMirror 6 editor view layer"
+tier = "P3"
+category = "Editor"
+license = "MIT"
+bundle_impact = "~20KB gzipped"
+notes = "Core view component for CodeMirror. Required for any CodeMirror-based editor."
+
+[[tool]]
+name = "@codemirror/state"
+version = "^6.0.0"
+purpose = "CodeMirror 6 state management"
+tier = "P3"
+category = "Editor"
+license = "MIT"
+bundle_impact = "~5KB gzipped"
+notes = "Core state component for CodeMirror 6."
+
+[[tool]]
+name = "prosemirror"
+version = "^1.0.0"
+purpose = "WYSIWYG editor framework (alternative to CodeMirror for non-technical users)"
+tier = "P3"
+category = "Editor"
+license = "MIT"
+bundle_impact = "~50KB gzipped"
+notes = "Rich text editing. More appropriate for WYSIWYG than CodeMirror. Consider if non-technical contributor experience is priority. Larger bundle than CodeMirror."
+
+# =============================================================================
+# P4: Extensibility
+# =============================================================================
+
+[[tool]]
+name = "ajv"
+version = "^8.0.0"
+purpose = "JSON Schema validation for plugin API configs and settings"
+tier = "P4"
+category = "Validation"
+license = "MIT"
+bundle_impact = "~12KB gzipped"
+notes = "Fast JSON schema validator. Used to validate plugin configs and settings on import. Alternative: zod (already in project)."
 
 [[tool]]
 name = "zod"
-version = ">=3.22.0"
-max_version = "<4.0.0"
-purpose = "Schema validation for content collections, API request/response validation, and build-time data validation"
-criticality = "critical"
-install_method = "pnpm add zod"
-breaking_change_risk = "low"
-notes = "Used in content collection schemas. Provides type inference for TypeScript."
+version = "^3.0.0"
+purpose = "Schema validation for settings (already in project)"
+tier = "P4"
+category = "Validation"
+license = "MIT"
+bundle_impact = "~14KB gzipped"
+notes = "Already used in @wikisites/shared. Prefer over ajv for consistency. Can validate settings schemas and plugin configs."
 
 # =============================================================================
-# TESTING
+# Cross-Cutting: Accessibility
+# =============================================================================
+
+[[tool]]
+name = "@axe-core/playwright"
+version = "^4.11.0"
+purpose = "Automated accessibility testing (already in project)"
+tier = "Cross"
+category = "Testing"
+license = "MIT"
+bundle_impact = "Dev only"
+notes = "Already integrated. Extend E2E tests to cover all new UI components (command palette, outline panel, breadcrumbs)."
+
+[[tool]]
+name = "axe-core"
+version = "^4.11.0"
+purpose = "Accessibility engine (used by @axe-core/playwright)"
+tier = "Cross"
+category = "Testing"
+license = "MPL-2.0"
+bundle_impact = "Dev only"
+notes = "Core engine. Run in CI on all pages. Already configured."
+
+# =============================================================================
+# Cross-Cutting: Testing
 # =============================================================================
 
 [[tool]]
 name = "vitest"
-version = ">=2.0.0"
-max_version = "<3.0.0"
-purpose = "Unit and integration testing framework. Vite-native, Jest API compatible. Tests component logic, utilities, schemas, API handlers."
-criticality = "critical"
-install_method = "pnpm add -D vitest"
-config_file = "vitest.config.ts"
-breaking_change_risk = "medium"
-notes = "Coverage thresholds: 80% lines, 80% branches, 80% functions. Enforced in CI."
-
-[[tool]]
-name = "@vitest/coverage-v8"
-version = ">=2.0.0"
-max_version = "<3.0.0"
-purpose = "V8-based code coverage reporting for Vitest tests"
-criticality = "high"
-install_method = "pnpm add -D @vitest/coverage-v8"
-breaking_change_risk = "medium"
-notes = "Generates coverage reports in multiple formats (text, lcov, json)."
+version = "^3.0.0"
+purpose = "Unit testing framework (already in project)"
+tier = "Cross"
+category = "Testing"
+license = "MIT"
+bundle_impact = "Dev only"
+notes = "Already configured with 80% coverage thresholds. Extend tests for all new requirements."
 
 [[tool]]
 name = "@playwright/test"
-version = ">=1.40.0"
-max_version = "<2.0.0"
-purpose = "End-to-end testing framework for full user journey testing in real browsers (Chromium, Firefox, WebKit)"
-criticality = "critical"
-install_method = "pnpm add -D @playwright/test"
-config_file = "playwright.config.ts"
-breaking_change_risk = "low"
-notes = "Tests run on Chromium (primary), Firefox, WebKit. Mobile testing via device emulation (iPhone 14, Pixel 7)."
-
-[[tool]]
-name = "@solidjs/testing-library"
-version = ">=1.0.0"
-max_version = "<2.0.0"
-purpose = "SolidJS component testing utilities for Vitest integration"
-criticality = "high"
-install_method = "pnpm add -D @solidjs/testing-library"
-breaking_change_risk = "low"
-notes = "Provides render, screen, fireEvent, waitFor utilities for SolidJS component tests."
-
-[[tool]]
-name = "@axe-core/playwright"
-version = ">=4.0.0"
-max_version = "<5.0.0"
-purpose = "Automated accessibility testing integration for Playwright using axe-core engine"
-criticality = "high"
-install_method = "pnpm add -D @axe-core/playwright"
-breaking_change_risk = "low"
-notes = "Runs WCAG 2.1 AA compliance checks on every page during E2E test suite."
+version = "^1.50.0"
+purpose = "E2E testing framework (already in project)"
+tier = "Cross"
+category = "Testing"
+license = "Apache-2.0"
+bundle_impact = "Dev only"
+notes = "Already configured for dark mode, accessibility, and visual regression. Add E2E tests for command palette, keyboard shortcuts, outline panel."
 
 # =============================================================================
-# PERFORMANCE & AUDITING
+# Cross-Cutting: Performance Monitoring
 # =============================================================================
 
 [[tool]]
-name = "@lhci/cli"
-version = ">=0.14.0"
-max_version = "<1.0.0"
-purpose = "Lighthouse CI for automated performance, accessibility, SEO, and best practices auditing in CI/CD pipeline"
-criticality = "critical"
-install_method = "pnpm add -D @lhci/cli"
-config_file = "lighthouserc.js"
-breaking_change_risk = "low"
-notes = "Budgets: Performance ≥90, Accessibility ≥95, Best Practices ≥90, SEO ≥95. Build fails if exceeded."
+name = "lighthouse"
+version = "^12.0.0"
+purpose = "Performance auditing (already in project via CI)"
+tier = "Cross"
+category = "Monitoring"
+license = "Apache-2.0"
+bundle_impact = "Dev only"
+notes = "Already in CI pipeline. Add performance budget assertions for new features."
 
 [[tool]]
-name = "pagefind"
-version = ">=1.0.0"
-max_version = "<2.0.0"
-purpose = "Static search index generation at build time for client-side full-text search with zero server infrastructure"
-criticality = "high"
-install_method = "pnpm add -D pagefind"
-breaking_change_risk = "low"
-notes = "Index generated via 'pagefind --site dist'. Supports CJK text. Index served as static JSON."
-
-[[tool]]
-name = "flexsearch"
-version = ">=0.7.0"
-max_version = "<0.8.0"
-purpose = "High-performance client-side full-text search for dynamic content on wikipept.com"
-criticality = "medium"
-install_method = "pnpm add flexsearch"
-breaking_change_risk = "low"
-notes = "Used alongside Pagefind for dynamic wiki pages. Custom tokenizer for scientific content."
+name = "web-vitals"
+version = "^3.0.0"
+purpose = "Core Web Vitals measurement (LCP, FID, CLS)"
+tier = "Cross"
+category = "Monitoring"
+license = "Apache-2.0"
+bundle_impact = "~2KB gzipped"
+notes = "Client-side vitals reporting. Consider integrating for production monitoring via Cloudflare Web Analytics."
 
 # =============================================================================
-# DEPLOYMENT & INFRASTRUCTURE
+# Cross-Cutting: Security
 # =============================================================================
 
 [[tool]]
-name = "cloudflare-pages"
-version = "current"
-purpose = "Static site hosting and deployment platform with global edge network (300+ cities), automatic HTTPS, preview deployments"
-criticality = "critical"
-install_method = "Cloudflare dashboard + Git integration"
-breaking_change_risk = "low"
-notes = "Build output: dist/. Build command: pnpm build. Preview deployments for PRs."
-
-[[tool]]
-name = "cloudflare-workers"
-version = "v2"
-purpose = "Serverless edge compute for dynamic features: authentication, community editing, progress tracking, search API, webhooks"
-criticality = "critical"
-install_method = "Pages Functions / wrangler"
-config_file = "wrangler.toml, wrangler.jsonc"
-breaking_change_risk = "medium"
-notes = "CPU: 50ms (paid). Memory: 128MB. Subrequests: 1000 (paid). ESM format."
-
-[[tool]]
-name = "cloudflare-r2"
-version = "current"
-purpose = "S3-compatible object storage with zero egress fees for molecular structure files, images, downloadable data, user content"
-criticality = "high"
-install_method = "Cloudflare dashboard + Workers API"
-breaking_change_risk = "low"
-notes = "Separate buckets per site. Versioning enabled. Lifecycle rules for infrequent access."
-
-[[tool]]
-name = "cloudflare-kv"
-version = "current"
-purpose = "Global low-latency key-value store for caching, session storage, feature flags, and rate limiting data"
-criticality = "high"
-install_method = "Cloudflare dashboard + Workers API"
-breaking_change_risk = "low"
-notes = "Eventually consistent. TTL-based expiration. API cache: 1hr TTL. Sessions: 24hr TTL."
-
-[[tool]]
-name = "cloudflare-d1"
-version = "current"
-purpose = "Edge-native SQLite database for user accounts, learning progress, community contributions, content metadata"
-criticality = "high"
-install_method = "Cloudflare dashboard + Workers API"
-breaking_change_risk = "low"
-notes = "SQLite semantics. Relational data for wikipept.com dynamic features."
-
-[[tool]]
-name = "cloudflare-durable-objects"
-version = "current"
-purpose = "Strongly consistent edge compute for real-time wiki collaboration, edit conflict resolution, WebSocket support"
-criticality = "high"
-install_method = "Workers API"
-breaking_change_risk = "low"
-notes = "Required for wiki editing system real-time collaboration features."
-
-[[tool]]
-name = "wrangler"
-version = ">=3.0.0"
-max_version = "<4.0.0"
-purpose = "Cloudflare Workers CLI and local development tool for testing Workers, KV, R2, D1 locally"
-criticality = "critical"
-install_method = "pnpm add -D wrangler"
-config_file = "wrangler.toml"
-breaking_change_risk = "medium"
-notes = "Local dev via 'wrangler dev'. Deployment via 'wrangler pages deploy dist'."
-
-[[tool]]
-name = "@cloudflare/workers-types"
-version = ">=4.0.0"
-max_version = "<5.0.0"
-purpose = "TypeScript type definitions for Cloudflare Workers runtime APIs"
-criticality = "high"
-install_method = "pnpm add -D @cloudflare/workers-types"
-breaking_change_risk = "low"
-notes = "Provides types for KV, R2, D1, Durable Objects, and Workers runtime."
+name = "helmet"
+version = "^8.0.0"
+purpose = "HTTP security headers middleware (reference for Cloudflare Worker headers)"
+tier = "Cross"
+category = "Security"
+license = "MIT"
+bundle_impact = "Server only"
+notes = "Not directly usable in Cloudflare Workers, but reference for header configuration. Already implementing CSP, HSTS manually."
 
 # =============================================================================
-# ANALYTICS & MONITORING
+# Tool Summary
 # =============================================================================
 
-[[tool]]
-name = "cloudflare-web-analytics"
-version = "current"
-purpose = "Privacy-first, cookie-free web analytics providing page views, visitors, Core Web Vitals without tracking individuals"
-criticality = "high"
-install_method = "Cloudflare dashboard"
-breaking_change_risk = "low"
-notes = "No cookies. No consent required. GDPR/CCPA compliant by design."
-
-[[tool]]
-name = "plausible-analytics"
-version = ">=2.0.0"
-purpose = "Privacy-first, lightweight web analytics fallback. Cookie-free, GDPR/CCPA compliant. Script <1KB."
-criticality = "low"
-install_method = "Script tag / self-hosted"
-breaking_change_risk = "low"
-notes = "Optional fallback. Custom events for quiz completions, flashcard reviews, community edits."
-
-# =============================================================================
-# INTERNATIONALIZATION
-# =============================================================================
-
-[[tool]]
-name = "astro-i18next"
-version = ">=2.0.0"
-max_version = "<3.0.0"
-purpose = "Internationalization integration for Astro providing i18n routing, locale detection, translation functions"
-criticality = "high"
-install_method = "pnpm add astro-i18next"
-config_file = "astro.config.mjs"
-breaking_change_risk = "medium"
-notes = "Initial launch: EN. Phase 2: ES, FR, DE, ZH, JA. Locale-prefixed URLs (/en/, /zh/)."
-
-# =============================================================================
-# CODE QUALITY
-# =============================================================================
-
-[[tool]]
-name = "eslint"
-version = ">=9.0.0"
-max_version = "<10.0.0"
-purpose = "JavaScript/TypeScript linting for code quality, consistency, and error detection"
-criticality = "high"
-install_method = "pnpm add -D eslint @eslint/js"
-config_file = "eslint.config.js"
-breaking_change_risk = "medium"
-notes = "Flat config format (ESLint v9). Enforced in CI/CD pipeline."
-
-[[tool]]
-name = "@typescript-eslint/eslint-plugin"
-version = ">=8.0.0"
-max_version = "<9.0.0"
-purpose = "TypeScript-specific ESLint rules for type safety and code quality"
-criticality = "high"
-install_method = "pnpm add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser"
-breaking_change_risk = "medium"
-notes = "Must be compatible with TypeScript 5.x and ESLint 9.x."
-
-[[tool]]
-name = "@typescript-eslint/parser"
-version = ">=8.0.0"
-max_version = "<9.0.0"
-purpose = "TypeScript parser for ESLint enabling TypeScript-specific linting rules"
-criticality = "high"
-install_method = "pnpm add -D @typescript-eslint/parser"
-breaking_change_risk = "medium"
-notes = "Parses TypeScript source files for ESLint analysis."
-
-[[tool]]
-name = "prettier"
-version = ">=3.0.0"
-max_version = "<4.0.0"
-purpose = "Code formatting for consistent style across the codebase"
-criticality = "high"
-install_method = "pnpm add -D prettier"
-config_file = ".prettierrc"
-breaking_change_risk = "low"
-notes = "Enforced in CI/CD via format check. Integrates with ESLint."
-
-# =============================================================================
-# BUILD TOOLS & DEPENDENCIES
-# =============================================================================
-
-[[tool]]
-name = "sharp"
-version = ">=0.33.0"
-max_version = "<1.0.0"
-purpose = "High-performance image processing and optimization for molecular diagrams, educational illustrations, social cards"
-criticality = "medium"
-install_method = "pnpm add sharp"
-breaking_change_risk = "low"
-notes = "Used by Astro's built-in image optimization. Generates WebP/AVIF formats."
-
-[[tool]]
-name = "git"
-version = ">=2.0.0"
-purpose = "Version control for source code, content, configuration, and documentation"
-criticality = "critical"
-install_method = "System package manager"
-breaking_change_risk = "low"
-notes = "All changes tracked. Signed commits recommended. Branch protection on main."
-
-[[tool]]
-name = "github-actions"
-version = "current"
-purpose = "CI/CD pipeline automation for build, test, lint, audit, and deployment"
-criticality = "critical"
-install_method = ".github/workflows/ configuration"
-breaking_change_risk = "low"
-notes = "8-stage pipeline: install → typecheck → lint → test → build → E2E → Lighthouse → deploy."
-
-# =============================================================================
-# DEVELOPMENT TOOLS
-# =============================================================================
-
-[[tool]]
-name = "shiki"
-version = ">=1.0.0"
-max_version = "<2.0.0"
-purpose = "Syntax highlighting for code blocks in MDX content (chemical notation, code examples)"
-criticality = "high"
-install_method = "Built-in with Astro"
-breaking_change_risk = "low"
-notes = "Astro includes Shiki by default. Supports all major languages."
-
-[[tool]]
-name = "katex"
-version = ">=0.16.0"
-max_version = "<1.0.0"
-purpose = "LaTeX math rendering for pharmacokinetic equations, binding affinity calculations, structural formulas"
-criticality = "medium"
-install_method = "pnpm add katex"
-breaking_change_risk = "low"
-notes = "Required for mathematical content on encyclopeptide.com."
-
-# =============================================================================
-# VERSION CONSTRAINT SUMMARY
-# =============================================================================
-
-# | Tool                    | Min Version | Recommended | Max Version  | Breaking Risk |
-# |-------------------------|-------------|-------------|--------------|---------------|
-# | Astro                   | 5.0.0       | 5.x latest  | <6.0.0       | High          |
-# | SolidJS                 | 1.8.0       | 1.x latest  | <2.0.0       | High          |
-# | Tailwind CSS            | 4.0.0       | 4.x latest  | <5.0.0       | High          |
-# | TypeScript              | 5.3.0       | 5.x latest  | <6.0.0       | Medium        |
-# | Node.js                 | 20.11.0     | 20.x LTS    | <21.0.0      | High          |
-# | pnpm                    | 9.0.0       | 9.x latest  | <10.0.0      | Medium        |
-# | Vitest                  | 2.0.0       | 2.x latest  | <3.0.0       | Medium        |
-# | Playwright               | 1.40.0      | 1.x latest  | <2.0.0       | Low           |
-# | LHCI                    | 0.14.0      | 0.14.x      | <1.0.0       | Low           |
-# | Pagefind                | 1.0.0       | 1.x latest  | <2.0.0       | Low           |
-# | Wrangler                | 3.0.0       | 3.x latest  | <4.0.0       | Medium        |
-# | ESLint                  | 9.0.0       | 9.x latest  | <10.0.0      | Medium        |
-# | Prettier                | 3.0.0       | 3.x latest  | <4.0.0       | Low           |
-# | Zod                     | 3.22.0      | 3.x latest  | <4.0.0       | Low           |
-# | MDX                     | 3.0.0       | 3.x latest  | <4.0.0       | High          |
-# | astro-i18next           | 2.0.0       | 2.x latest  | <3.0.0       | Medium        |
-# | FlexSearch              | 0.7.0       | 0.7.x       | <0.8.0       | Low           |
-# | KaTeX                   | 0.16.0      | 0.16.x      | <1.0.0       | Low           |
-# | sharp                   | 0.33.0      | 0.33.x      | <1.0.0       | Low           |
-
-# =============================================================================
-# CRITICALITY CLASSIFICATION
-# =============================================================================
-
-# Critical: Failure prevents site from functioning. No workaround.
-#   → Astro, SolidJS, Tailwind CSS, TypeScript, Node.js, pnpm, Vitest,
-#     Playwright, LHCI, Cloudflare Pages, Cloudflare Workers, Zod, Wrangler, Git, GitHub Actions
-#
-# High: Failure degrades significant functionality. Workaround exists.
-#   → Pagefind, astro-i18next, Cloudflare R2, Cloudflare KV, Cloudflare D1,
-#     Cloudflare Durable Objects, Cloudflare Web Analytics, ESLint, Prettier,
-#     @typescript-eslint, @vitest/coverage-v8, @solidjs/testing-library,
-#     @axe-core/playwright, Shiki, @cloudflare/workers-types, MDX
-#
-# Medium: Failure affects non-critical feature. User can accomplish goals without it.
-#   → FlexSearch, KaTeX, sharp
-#
-# Low: Failure is cosmetic or organizational. No user impact.
-#   → Plausible Analytics
+[summary]
+total_tools = 30
+by_tier = { P0 = 5, P1 = 6, P2 = 3, P3 = 7, P4 = 2, Cross = 7 }
+by_category = {
+  UI = 2,
+  Utility = 3,
+  Rendering = 3,
+  Visualization = 2,
+  Editor = 4,
+  Search = 2,
+  Security = 2,
+  Social = 1,
+  Validation = 2,
+  Testing = 3,
+  Monitoring = 2,
+  "Dev only" = 2
+}
+existing_in_project = ["vitest", "@playwright/test", "@axe-core/playwright", "axe-core", "pagefind", "lighthouse", "zod"]
+new_dependencies = 23

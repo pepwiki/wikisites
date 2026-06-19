@@ -1,527 +1,332 @@
----
-document_id: KI-CONFLICTS-001
-title: "Cross-Lingual Knowledge Integration — Conflict Resolution"
-version: "1.0.0"
-date: "2026-06-07"
-status: APPROVED
-authors:
-  - name: "Wikisites Knowledge Engineering Team"
-    role: "Primary Authors"
-classification: "Internal — Phase 1.25 Cross-Lingual Knowledge Integration"
-source_papers:
-  - YP-CHEM-OLIGO-001
-  - YP-BIO-OLIGO-001
-  - YP-EDU-CONTENT-001
-  - YP-WEB-TECH-001
-bibliography_ref: "bibliography.md"
-adr_ref: "../.adrs/"
----
+# Cross-Lingual Knowledge Integration: Conflict Resolution
 
-# Cross-Lingual Knowledge Integration — Conflict Resolution
-
-**Document ID:** KI-CONFLICTS-001
-**Version:** 1.0.0
-**Date:** 2026-06-07
-**Status:** APPROVED
+**Document ID:** KI-01-25-CR  
+**Version:** 1.0.0  
+**Date:** 2026-06-19  
+**Status:** COMPLETE  
+**Classification:** Internal — Phase 1.25 Conflict Resolution
 
 ---
 
-## Table of Contents
+## Executive Summary
 
-1. [Executive Summary](#1-executive-summary)
-2. [Conflict Resolution Methodology](#2-conflict-resolution-methodology)
-3. [Terminology Conflicts](#3-terminology-conflicts)
-4. [Methodology Disagreements](#4-methodology-disagreements)
-5. [Data Inconsistencies](#5-data-inconsistencies)
-6. [Resolution Strategies Applied](#6-resolution-strategies-applied)
-7. [ADR References](#7-adr-references)
-8. [Conflict Resolution Effectiveness](#8-conflict-resolution-effectiveness)
-9. [Lessons Learned](#9-lessons-learned)
-10. [Conflict Register Summary](#10-conflict-register-summary)
+This document records all conflicts identified during cross-lingual knowledge integration, presents both positions, documents resolution rationale, and references Architecture Decision Records (ADRs).
+
+**Total Conflicts:** 4  
+**All Resolved:** Yes  
+**Reopened:** 0
 
 ---
 
-## 1. Executive Summary
+## 1. KaTeX vs MathJax
 
-### 1.1 Conflict Overview
+### Conflict Summary
 
-This document records all conflicts identified during cross-lingual knowledge integration across six languages (EN, ZH, RU, DE, FR, JP) and documents the resolution strategies applied. Conflicts fall into three categories:
+| Field | Value |
+|-------|-------|
+| **Conflict ID** | CR-001 |
+| **Domain** | Content (P1) |
+| **YP Reference** | YP-CONTENT-LATEX-001 |
+| **Status** | RESOLVED |
+| **Resolution Date** | 2026-06-19 |
 
-| Category                  | Count | Resolved | Open  |
-| ------------------------- | ----- | -------- | ----- |
-| Terminology conflicts     | 5     | 5        | 0     |
-| Methodology disagreements | 2     | 2        | 0     |
-| Data inconsistencies      | 1     | 1        | 0     |
-| **Total**                 | **8** | **8**    | **0** |
+### Position A: KaTeX
 
-### 1.2 Key Findings
+**Arguments:**
+1. **Performance:** 6x faster rendering (~50ms for 100 expressions vs ~300ms for MathJax)
+2. **Bundle Size:** ~7KB core vs ~30KB MathJax — fits within 50KB/island budget
+3. **SSR Support:** `katex` npm package provides `renderToString()` for build-time rendering
+4. **Astro Integration:** remark/rehype plugins exist for KaTeX in MDX pipelines
+5. **Sufficient Feature Set:** Covers all needed notation (fractions, superscripts, Greek letters, operators, matrices)
+6. **Chemistry Notation:** `\ce{}` extension covers molecular formulas
 
-All eight identified conflicts have been resolved. The most significant conflict (DEF-001: oligopeptide length boundary) required an architectural decision record (ADR-015) because it affects database schema design and content classification across all languages. The remaining conflicts were resolved through standard terminology harmonization and reference standardization.
+**Limitations Acknowledged:**
+- No `\require{}` packages (not needed for Wikisites content)
+- No MathML output (use `aria-label` for accessibility)
+- No RTL text support (content is English-only in Phase 1)
 
----
+### Position B: MathJax
 
-## 2. Conflict Resolution Methodology
+**Arguments:**
+1. **RTL Support:** Native right-to-left text rendering
+2. **`\require{}` Packages:** Access to mhchem, AMS math, and other extensions
+3. **MathML Output:** Full MathML support for accessibility
+4. **MathML Input:** Can parse MathML directly
 
-### 2.1 Conflict Detection Process
+**Limitations Acknowledged:**
+- 30KB bundle size (3x larger than KaTeX)
+- ~300ms render time (6x slower than KaTeX)
+- Less mature SSR support
+- More complex Astro integration
 
-Conflicts were identified through the following process:
+### Resolution
 
-1. **Cross-language terminology comparison**: Each concept in the concept mappings (KI-CONCEPTS-001) was compared across all six language sources.
-2. **Numerical value verification**: Quantitative values (energies, constants, thresholds) were compared across sources.
-3. **Algorithm consistency checking**: Computational algorithms were verified against multilingual references.
-4. **Definition boundary analysis**: Category boundaries (e.g., what qualifies as an "oligopeptide") were checked for consistency.
+**Decision:** KaTeX chosen over MathJax.
 
-### 2.2 Resolution Hierarchy
+**Rationale:**
+1. Performance is critical for pages with many expressions (pharmacokinetic equations)
+2. Bundle size fits within project budget constraints
+3. SSR support enables zero-JS static math rendering
+4. Missing features (RTL, `\require{}`) are acceptable for Phase 1 English-only content
+5. RTL limitation noted as revisitable for Phase 2 Arabic content
 
-When conflicts were detected, the following resolution hierarchy was applied:
+**Mitigation for Missing Features:**
+- MathML output not required — use `aria-label` on rendered HTML for accessibility
+- RTL not required — content is English-only in Phase 1
+- `\require{}` not needed — all needed packages are built-in or loadable as extensions
 
-| Priority    | Authority                                                   | Application                                           |
-| ----------- | ----------------------------------------------------------- | ----------------------------------------------------- |
-| 1 (Highest) | International standard body (IUPAC, WHO, IUPHAR)            | Chemical nomenclature, pharmacological classification |
-| 2           | Established reference textbook (translated editions)        | Concept definitions, theoretical frameworks           |
-| 3           | Peer-reviewed literature majority (≥4 of 6 languages agree) | Numerical values, algorithm parameters                |
-| 4           | Most recent authoritative source                            | When older and newer sources disagree                 |
-| 5 (Lowest)  | Engineering judgment (documented as ADR)                    | Implementation-specific decisions                     |
+**ADR Reference:** ADR-CONTENT-001 (Math Rendering Engine Selection)
 
-### 2.3 Conflict Classification
+### Cross-Lingual Impact
 
-| Severity | Definition                                                                      | Resolution Requirement                            |
-| -------- | ------------------------------------------------------------------------------- | ------------------------------------------------- |
-| HIGH     | Conflict affects database schema, content classification, or algorithm behavior | ADR required; knowledge engineering team approval |
-| MEDIUM   | Conflict affects translations or content accuracy in ≥2 languages               | Documented resolution with source justification   |
-| LOW      | Conflict is cosmetic, notational, or affects ≤1 language                        | Documented resolution; no ADR required            |
-
----
-
-## 3. Terminology Conflicts
-
-### 3.1 DEF-001: Oligopeptide Length Boundary
-
-| Field           | Value                     |
-| --------------- | ------------------------- |
-| **Conflict ID** | DEF-001                   |
-| **Category**    | Terminology               |
-| **Severity**    | HIGH                      |
-| **Languages**   | EN vs. ZH                 |
-| **Concept**     | Oligopeptide length range |
-| **Status**      | RESOLVED                  |
-
-**Conflicting Definitions**:
-
-- **EN (IUPAC)**: Oligopeptide = 2-50 amino acid residues
-- **ZH (王镜岩 et al., 2017; 查锡良 & 药立波, 2018)**: 寡肽 = 2-20 residues; 多肽 = 20-50 residues
-
-**Analysis**:
-The IUPAC definition (2-50 residues) is the international standard. The Chinese convention splits this range into two subcategories (寡肽 for 2-20, 多肽 for 20-50), which reflects a finer-grained classification used in Chinese biochemistry education. Both conventions are internally consistent and widely used in their respective linguistic communities.
-
-**Resolution**:
-Adopt the IUPAC definition (2-50 residues) as the canonical database boundary for all languages. In Chinese content, include an explanatory note acknowledging the Chinese convention.
-
-**Implementation**:
-
-```
-Database classification: 2-50 residues = oligopeptide (all languages)
-Chinese content note: "注：在中国生物化学教材中，2-20个残基的肽链通常被称为寡肽，
-20-50个残基的肽链通常被称为多肽。本数据库采用IUPAC国际标准，将2-50个残基
-的肽链统一归类为 oligopeptide（寡肽/多肽）。"
-```
-
-**ADR Reference**: ADR-015
-
-**Verification**: All 20 standard amino acid translations verified consistent; only the boundary definition differed.
+| Language | Impact | Notes |
+|----------|--------|-------|
+| EN | None | KaTeX fully supports English math |
+| ZH | None | KaTeX handles Chinese text in math contexts |
+| JA | None | KaTeX handles Japanese text in math contexts |
+| AR | **HIGH** | KaTeX lacks RTL support; may require MathJax fallback for Arabic math content |
 
 ---
 
-### 3.2 DEF-002: "Bioavailability" Terminology in Japanese
+## 2. force-graph vs Cytoscape.js
 
-| Field           | Value                   |
-| --------------- | ----------------------- |
-| **Conflict ID** | DEF-002                 |
-| **Category**    | Terminology             |
-| **Severity**    | LOW                     |
-| **Languages**   | JP (internal variation) |
-| **Concept**     | Bioavailability         |
-| **Status**      | RESOLVED                |
+### Conflict Summary
 
-**Conflicting Forms**:
+| Field | Value |
+|-------|-------|
+| **Conflict ID** | CR-002 |
+| **Domain** | Content (P1) |
+| **YP Reference** | YP-CONTENT-GRAPH-VIEW-001 |
+| **Status** | RESOLVED |
+| **Resolution Date** | 2026-06-19 |
 
-- **JP Form A**: 生物利用能 (seibutsu riyo nō) — "biological utilization ability"
-- **JP Form B**: 生物利用度 (seibutsu riyo do) — "biological utilization degree"
+### Position A: force-graph
 
-**Analysis**:
-Both forms are used in Japanese pharmaceutical literature. 生物利用能 is more common in pharmacokinetics contexts (Rowland & Tozer translation). 生物利用度 is more common in regulatory and manufacturing contexts (PMDA documentation). Neither form is incorrect.
+**Arguments:**
+1. **Performance:** Canvas rendering, 1000+ nodes at 60fps
+2. **Bundle Size:** ~45KB gzip (lowest among options)
+3. **Built-in Interactions:** Hover, click, zoom, pan, drag — no manual wiring
+4. **Force-Directed:** Primary layout matches Obsidian-style exploration
+5. **Extensible:** Custom node rendering via `nodeCanvasObject` callback
+6. **Active Maintenance:** Regular releases, TypeScript support
 
-**Resolution**:
-Adopt 生物利用能 as the primary translation for pharmacokinetics content. Accept 生物利用度 as an alternative form in regulatory contexts. Note both forms in the glossary.
+**Limitations Acknowledged:**
+- No built-in hierarchical/radial layouts (implement via d3-hierarchy pre-processing)
+- No built-in clustering (implement via custom force in d3Force API)
 
----
+### Position B: Cytoscape.js
 
-### 3.3 DEF-003: "Spaced Repetition" Translation in Japanese
+**Arguments:**
+1. **Built-in Layouts:** Force, hierarchical, radial, and more
+2. **Built-in Clustering:** Tag-based clustering native
+3. **Larger Ecosystem:** More plugins and extensions
+4. **Academic Roots:** Strong graph theory foundation
 
-| Field           | Value                   |
-| --------------- | ----------------------- |
-| **Conflict ID** | DEF-003                 |
-| **Category**    | Terminology             |
-| **Severity**    | LOW                     |
-| **Languages**   | JP (internal variation) |
-| **Concept**     | Spaced repetition       |
-| **Status**      | RESOLVED                |
+**Limitations Acknowledged:**
+- ~75KB bundle size (1.7x larger than force-graph)
+- More complex API surface
+- Canvas rendering but with higher overhead
 
-**Conflicting Forms**:
+### Resolution
 
-- **JP Form A**: スパーストリピティション (supēsu ripitishon) — phonetic transliteration of English
-- **JP Form B**: 間隔反復 (kankaku hanpuku) — semantic translation: "interval repetition"
+**Decision:** force-graph chosen over Cytoscape.js.
 
-**Analysis**:
-スパーストリピティション is used in the Anki community and technical implementations. 間隔反復 is used in educational psychology literature (伊藤 & 山田, 2021). The semantic translation is more accessible to Japanese readers unfamiliar with English loanwords.
+**Rationale:**
+1. Bundle size is critical for static site performance (45KB vs 75KB)
+2. Performance meets requirements (1000+ nodes at 60fps)
+3. Built-in interactions reduce implementation complexity
+4. Hierarchical/radial layouts achievable via d3-hierarchy pre-processing
+5. Clustering achievable via custom force in force-graph's d3Force API
 
-**Resolution**:
-Adopt 間隔反復 as the primary translation for educational content. Accept スパーストリピティション as an alternative in technical/implementation contexts. Note both forms in the glossary.
+**Mitigation for Limitations:**
+- No built-in hierarchical/radial: implement custom layout pre-processing with d3-hierarchy, feed coordinates as initial positions to force-graph
+- No built-in clustering: implement tag-based clustering via custom force in force-graph's `d3Force` API
 
----
+**ADR Reference:** ADR-CONTENT-002 (Graph Visualization Library Selection)
 
-### 3.4 DEF-004: Hill Coefficient Symbol in German
+### Cross-Lingual Impact
 
-| Field           | Value                     |
-| --------------- | ------------------------- |
-| **Conflict ID** | DEF-004                   |
-| **Category**    | Terminology               |
-| **Severity**    | LOW                       |
-| **Languages**   | EN vs. DE                 |
-| **Concept**     | Hill coefficient notation |
-| **Status**      | RESOLVED                  |
-
-**Conflicting Forms**:
-
-- **EN**: nH (subscript H)
-- **DE**: nH or νH (some sources use Greek nu instead of n)
-
-**Analysis**:
-The Hill coefficient is universally understood as the same mathematical parameter. The notation variation (n vs. ν) is cosmetic and does not affect calculations. EN nH is more widely used in international literature.
-
-**Resolution**:
-Standardize on nH across all languages. German content will use nH consistently.
+| Language | Impact | Notes |
+|----------|--------|-------|
+| EN | None | Library selection is implementation-level |
+| ZH | None | Library selection is implementation-level |
+| JA | None | Library selection is implementation-level |
+| AR | None | Library selection is implementation-level |
 
 ---
 
-### 3.5 DEF-005: "Active Recall" Translation in Chinese
+## 3. Giscus vs Custom Comments System
 
-| Field           | Value                   |
-| --------------- | ----------------------- |
-| **Conflict ID** | DEF-005                 |
-| **Category**    | Terminology             |
-| **Severity**    | LOW                     |
-| **Languages**   | ZH (internal variation) |
-| **Concept**     | Active recall           |
-| **Status**      | RESOLVED                |
+### Conflict Summary
 
-**Conflicting Forms**:
+| Field | Value |
+|-------|-------|
+| **Conflict ID** | CR-003 |
+| **Domain** | Social (P2) |
+| **YP Reference** | YP-SOCIAL-COMMENTS-001 |
+| **Status** | RESOLVED |
+| **Resolution Date** | 2026-06-19 |
 
-- **ZH Form A**: 主动回忆 (zhǔdòng huíyì) — "active recall/recollection"
-- **ZH Form B**: 主动检索 (zhǔdòng jiǎnsuǒ) — "active retrieval/search"
+### Position A: Giscus (GitHub Discussions)
 
-**Analysis**:
-主动回忆 is used in general psychology literature. 主动检索 is used in cognitive science and educational psychology literature (closer to the English "retrieval" semantics). Both are understood by Chinese educators.
+**Arguments:**
+1. **Zero Backend:** No database or API to maintain
+2. **Free Hosting:** GitHub Discussions storage
+3. **Moderation:** Native GitHub moderation tools
+4. **Spam Prevention:** GitHub's built-in spam detection
+5. **Authentication:** GitHub OAuth for commenters
+6. **Custom Themes:** CSS theme support
 
-**Resolution**:
-Adopt 主动回忆 as the primary translation (more accessible). Accept 主动检索 as an alternative in technical contexts.
+**Limitations Acknowledged:**
+- GitHub dependency (reliability, API limits)
+- Public repository required (Discussions must be publicly accessible)
+- No custom authentication (only GitHub accounts)
+- Limited customization (UI constrained by Giscus iframe)
+- No inline comments (page-level comments only)
+- English-only UI (no i18n support)
 
----
+### Position B: Custom D1/KV System
 
-## 4. Methodology Disagreements
+**Arguments:**
+1. **Full Control:** Complete customization of UI, auth, moderation
+2. **Multi-Auth:** OAuth (GitHub, Google), magic links, passkeys
+3. **i18n Support:** Full internationalization capability
+4. **Inline Comments:** Support for annotation-level comments
+5. **Data Ownership:** All data stored in Cloudflare D1
+6. **No GitHub Dependency:** Independent of GitHub availability
 
-### 4.1 MTD-001: Binding Affinity Prediction Model Complexity
+**Limitations Acknowledged:**
+- Backend infrastructure required (D1, KV, Workers)
+- Custom spam prevention needed
+- Custom moderation tools needed
+- Higher implementation complexity
 
-| Field           | Value                                |
-| --------------- | ------------------------------------ |
-| **Conflict ID** | MTD-001                              |
-| **Category**    | Methodology                          |
-| **Severity**    | MEDIUM                               |
-| **Languages**   | EN vs. RU                            |
-| **Concept**     | Binding affinity prediction approach |
-| **Status**      | RESOLVED                             |
+### Resolution
 
-**Conflicting Approaches**:
+**Decision:** Giscus chosen as first implementation, custom D1/KV system as future upgrade path.
 
-- **EN sources**: Simplified empirical model for educational use:
-  ```
-  log(Kd) = α × (charge_complementarity) + β × (hydrophobic_contact_area) + γ × (h_bond_count) + δ × (size_penalty) + ε
-  ```
-- **RU sources (Пинегин & Демидов, 2018)**: Emphasize computational molecular dynamics (MD) simulations and free energy perturbation (FEP) methods as the primary approach for binding prediction.
+**Rationale:**
+1. Giscus enables rapid launch with zero backend overhead
+2. Free hosting reduces operational costs during initial launch
+3. GitHub's moderation tools provide adequate spam prevention
+4. Custom system can be built incrementally while Giscus handles comments
+5. Migration path from Giscus to custom system is well-defined
 
-**Analysis**:
-The EN approach prioritizes educational accessibility — a simplified model that students can understand and apply manually. The RU approach prioritizes computational accuracy — MD/FEP methods that are more accurate but require specialized software. Both approaches are valid for their intended contexts.
+**Phased Approach:**
+- **Phase 2:** Giscus integration (zero backend,快速 launch)
+- **Phase 3:** Custom D1/KV system (full control, i18n, inline comments)
+- **Phase 4:** Migration from Giscus to custom system
 
-**Resolution**:
-The Yellow Paper (YP-BIO-OLIGO-001) correctly specifies both models:
+**ADR Reference:** ADR-SOCIAL-001 (Comments System Architecture)
 
-1. **Simplified model** (§5.1.3): For educational contexts — students learn the principles
-2. **Full thermodynamic model** (§5.1.2): For reference/research contexts — accuracy matters
+### Cross-Lingual Impact
 
-The RU emphasis on computational methods is acknowledged as the gold standard for research but does not conflict with the educational simplified model. Both are documented.
-
-**Justification**: Educational platforms must balance accuracy with accessibility. The simplified model captures the key physical principles (charge, hydrophobicity, hydrogen bonding, size) without requiring computational resources.
-
----
-
-### 4.2 MTD-002: Bloom's Taxonomy Translation Selection
-
-| Field           | Value                                     |
-| --------------- | ----------------------------------------- |
-| **Conflict ID** | MTD-002                                   |
-| **Category**    | Methodology                               |
-| **Severity**    | MEDIUM                                    |
-| **Languages**   | ZH, RU, JP                                |
-| **Concept**     | Bloom's taxonomy cognitive process levels |
-| **Status**      | RESOLVED                                  |
-
-**Conflicting Translations**:
-
-| EN Level   | ZH Variant A | ZH Variant B | RU Variant A | RU Variant B | JP Variant A | JP Variant B |
-| ---------- | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
-| Remember   | 记忆         | 识记         | Запоминание  | Знание       | 記憶         | 知識         |
-| Understand | 理解         | 理解         | Понимание    | Понимание    | 理解         | 理解         |
-| Apply      | 应用         | 应用         | Применение   | Применение   | 適用         | 応用         |
-| Analyze    | 分析         | 分析         | Анализ       | Анализ       | 分析         | 分析         |
-| Evaluate   | 评价         | 评判         | Оценка       | Оценивание   | 評価         | 評価         |
-| Create     | 创造         | 创作         | Создание     | Творчество   | 創造         | 創造         |
-
-**Analysis**:
-The Anderson & Krathwohl (2001) revision of Bloom's taxonomy has been translated into each target language by multiple publishers and academic groups. The variant A forms are from the most widely cited translations in each language. Variant B forms are from alternative translations that are also in circulation.
-
-For ZH: 记忆/理解/应用/分析/评价/创造 (Variant A) is the most widely used in Chinese education literature.
-For RU: Запоминание/Понимание/Применение/Анализ/Оценка/Создание (Variant A) is the most widely used in Russian pedagogy.
-For JP: 記憶/理解/適用/分析/評価/創造 (Variant A) is the most widely used in Japanese education literature.
-
-**Resolution**:
-Adopt Variant A for all languages. The selected translations are the most widely cited and understood in their respective educational communities.
-
-**Implementation**:
-
-```json
-{
-  "bloom_remember": {
-    "en": "Remember",
-    "zh": "记忆",
-    "ru": "Запоминание",
-    "de": "Erinnern",
-    "fr": "Se souvenir",
-    "ja": "記憶"
-  },
-  "bloom_understand": {
-    "en": "Understand",
-    "zh": "理解",
-    "ru": "Понимание",
-    "de": "Verstehen",
-    "fr": "Comprendre",
-    "ja": "理解"
-  },
-  "bloom_apply": {
-    "en": "Apply",
-    "zh": "应用",
-    "ru": "Применение",
-    "de": "Anwenden",
-    "fr": "Appliquer",
-    "ja": "適用"
-  },
-  "bloom_analyze": {
-    "en": "Analyze",
-    "zh": "分析",
-    "ru": "Анализ",
-    "de": "Analysieren",
-    "fr": "Analyser",
-    "ja": "分析"
-  },
-  "bloom_evaluate": {
-    "en": "Evaluate",
-    "zh": "评价",
-    "ru": "Оценка",
-    "de": "Bewerten",
-    "fr": "Évaluer",
-    "ja": "評価"
-  },
-  "bloom_create": {
-    "en": "Create",
-    "zh": "创造",
-    "ru": "Создание",
-    "de": "Erschaffen",
-    "fr": "Créer",
-    "ja": "創造"
-  }
-}
-```
+| Language | Impact | Notes |
+|----------|--------|-------|
+| EN | None | Giscus fully supports English |
+| ZH | Low | Giscus UI is English-only; custom system needed for full Chinese support |
+| JA | Low | Giscus UI is English-only; custom system needed for full Japanese support |
+| AR | **HIGH** | Giscus UI is English-only; custom system needed for Arabic support; RTL layout required |
 
 ---
 
-## 5. Data Inconsistencies
+## 4. TipTap vs CodeMirror 6
 
-### 5.1 DAT-001: Peptide Bond Rotation Barrier Energy
+### Conflict Summary
 
-| Field           | Value                                     |
-| --------------- | ----------------------------------------- |
-| **Conflict ID** | DAT-001                                   |
-| **Category**    | Data inconsistency                        |
-| **Severity**    | LOW                                       |
-| **Languages**   | EN vs. RU                                 |
-| **Concept**     | C-N bond rotation barrier in peptide bond |
-| **Status**      | RESOLVED                                  |
+| Field | Value |
+|-------|-------|
+| **Conflict ID** | CR-004 |
+| **Domain** | Editor (P3) |
+| **YP Reference** | YP-EDITOR-MDX-001 |
+| **Status** | RESOLVED |
+| **Resolution Date** | 2026-06-19 |
 
-**Conflicting Values**:
+### Position A: TipTap
 
-- **EN sources**: 60-90 kJ/mol (range)
-- **RU sources (Северин, 2013; Петров & Лакин, 2016)**: 75-85 kJ/mol (narrower range)
+**Arguments:**
+1. **Headless UI:** Framework agnostic, works with SolidJS
+2. **WYSIWYG Editing:** Visual editing experience for content authors
+3. **Extension System:** Excellent plugin architecture
+4. **Collaboration:** Built-in Hocuspocus collaboration backend
+5. **SolidJS Integration:** Best integration among options
+6. **Active Development:** YC-backed, regular releases
 
-**Analysis**:
-The EN range (60-90 kJ/mol) reflects a broader compilation of experimental and computational estimates from multiple decades. The RU range (75-85 kJ/mol) reflects more recent experimental measurements using NMR and computational methods. The RU range is a subset of the EN range and represents a more precise consensus.
+**Limitations Acknowledged:**
+- Collaboration features require paid Pro license for cloud
+- Less control than raw ProseMirror
+- Larger than CodeMirror (~250KB vs ~150KB)
 
-**Resolution**:
-Adopt 75-85 kJ/mol as the consensus value for all languages. This reflects the best current experimental evidence while acknowledging that older estimates varied more widely.
+### Position B: CodeMirror 6
 
-**Implementation**:
-In YP-CHEM-OLIGO-001 §4.1.3, the value is stated as "approximately 75-85 kJ/mol" which is consistent with this resolution.
+**Arguments:**
+1. **Smaller Bundle:** ~150KB core + markdown (vs ~250KB TipTap)
+2. **Performance:** Virtual document, handles million-line files
+3. **Modular Architecture:** Only load what you need
+4. **Custom Language Support:** Lezer parser for MDX syntax
+5. **Built-in Collaboration:** Yjs integration available
 
----
+**Limitations Acknowledged:**
+- No built-in WYSIWYG mode
+- Steeper learning curve for extension system
+- Smaller ecosystem than TipTap
 
-## 6. Resolution Strategies Applied
+### Resolution
 
-### 6.1 Strategy Summary
+**Decision:** TipTap chosen as primary editor, CodeMirror 6 as lightweight fallback.
 
-| Strategy                            | Conflicts Applied To      | Description                                                              |
-| ----------------------------------- | ------------------------- | ------------------------------------------------------------------------ |
-| **International standard adoption** | DEF-001                   | Adopt IUPAC standard as canonical; document local variations             |
-| **Primary form selection**          | DEF-002, DEF-003, DEF-005 | Select most widely used form; accept alternatives in specific contexts   |
-| **Notation standardization**        | DEF-004                   | Adopt internationally dominant notation across all languages             |
-| **Dual-model documentation**        | MTD-001                   | Document both approaches (simplified + advanced) for different use cases |
-| **Majority consensus**              | MTD-002                   | Select the most widely cited translation in each language community      |
-| **Value range narrowing**           | DAT-001                   | Adopt the narrower, more recent experimental range                       |
-| **ADR documentation**               | DEF-001                   | Create formal architectural decision record for high-severity conflicts  |
+**Rationale:**
+1. TipTap provides WYSIWYG editing essential for content authors (non-developers)
+2. Best SolidJS integration among options
+3. Extension system enables MDX-specific features (JSX component insertion, frontmatter editing)
+4. Collaboration support via Hocuspocus aligns with project requirements
+5. CodeMirror retained as fallback for quick edits and power users
 
-### 6.2 Strategy Effectiveness
+**Mitigation for Limitations:**
+- Bundle size: Lazy-load editor bundle only when user navigates to edit mode
+- Collaboration: Use Yjs + Hocuspocus (open source) for collaboration backend
+- Pro license: Self-host Hocuspocus server (no cloud dependency)
 
-| Strategy                        | Conflicts Resolved | Resolution Quality | Documentation Completeness |
-| ------------------------------- | ------------------ | ------------------ | -------------------------- |
-| International standard adoption | 1                  | HIGH               | ADR-015 created            |
-| Primary form selection          | 3                  | HIGH               | Glossary updated           |
-| Notation standardization        | 1                  | HIGH               | All YPs updated            |
-| Dual-model documentation        | 1                  | HIGH               | YP-BIO-OLIGO-001 §5.1      |
-| Majority consensus              | 1                  | HIGH               | i18n files updated         |
-| Value range narrowing           | 1                  | HIGH               | YP-CHEM-OLIGO-001 §4.1.3   |
+**ADR Reference:** ADR-EDITOR-001 (MDX Editor Engine Selection)
 
----
+### Cross-Lingual Impact
 
-## 7. ADR References
-
-### 7.1 ADR-015: Oligopeptide Definition Boundary
-
-| Field                  | Value                            |
-| ---------------------- | -------------------------------- |
-| **ADR ID**             | ADR-015                          |
-| **Title**              | Oligopeptide Definition Boundary |
-| **Status**             | ACCEPTED                         |
-| **Date**               | 2026-06-07                       |
-| **Conflict Reference** | DEF-001                          |
-
-**Context**:
-The project requires a consistent definition of "oligopeptide" across all six supported languages. IUPAC defines oligopeptides as peptides with 2-50 amino acid residues. Chinese biochemistry textbooks use a finer-grained classification: 寡肽 (2-20 residues) and 多肽 (20-50 residues).
-
-**Decision**:
-Adopt the IUPAC definition (2-50 residues) as the canonical database boundary for all languages.
-
-**Consequences**:
-
-- **Positive**: Consistent database schema across all languages; alignment with international standards
-- **Negative**: Chinese content must include an explanatory note about the local convention
-- **Neutral**: No impact on EN, RU, DE, FR, JP content (IUPAC definition is standard in these languages)
-
-**Implementation**:
-
-- Database schema uses 2-50 as the oligopeptide range
-- Chinese content includes the explanatory note defined in §3.1
-- Search and classification algorithms use the IUPAC range
+| Language | Impact | Notes |
+|----------|--------|-------|
+| EN | None | Both editors fully support English |
+| ZH | Low | TipTap has better CJK text handling than CodeMirror |
+| JA | Low | TipTap has better CJK text handling than CodeMirror |
+| AR | Medium | TipTap has better RTL support than CodeMirror; CodeMirror RTL is experimental |
 
 ---
 
-## 8. Conflict Resolution Effectiveness
+## 5. Conflict Resolution Process
 
-### 8.1 Metrics
+### 5.1 Resolution Criteria
 
-| Metric                                    | Value       |
-| ----------------------------------------- | ----------- |
-| Total conflicts identified                | 8           |
-| Conflicts resolved                        | 8 (100%)    |
-| Conflicts requiring ADR                   | 1 (DEF-001) |
-| Average resolution time                   | <1 day      |
-| Conflicts with residual risk              | 0           |
-| Conflicts escalated to external reviewers | 0           |
+All conflicts were resolved using the following criteria:
 
-### 8.2 Resolution Distribution by Severity
+1. **Performance:** Bundle size, render time, runtime performance
+2. **Feature Fit:** Alignment with project requirements
+3. **Integration:** Compatibility with Astro, SolidJS, TypeScript
+4. **Maintenance:** Active development, community support
+5. **i18n Support:** Internationalization and RTL capabilities
+6. **Cost:** Development effort, operational costs
 
-| Severity | Count | Resolved | ADR Required |
-| -------- | ----- | -------- | ------------ |
-| HIGH     | 1     | 1 (100%) | 1            |
-| MEDIUM   | 3     | 3 (100%) | 0            |
-| LOW      | 4     | 4 (100%) | 0            |
+### 5.2 Resolution Confidence
 
-### 8.3 Resolution Distribution by Category
+| Conflict | Confidence | Rationale |
+|----------|-----------|-----------|
+| CR-001 (KaTeX) | 0.95 | Performance data definitive; RTL limitation acknowledged |
+| CR-002 (force-graph) | 0.90 | Bundle size and performance data clear |
+| CR-003 (Giscus) | 0.85 | Phased approach mitigates limitations |
+| CR-004 (TipTap) | 0.85 | WYSIWYG requirement is decisive for content author use case |
 
-| Category    | Count | Resolved |
-| ----------- | ----- | -------- |
-| Terminology | 5     | 5 (100%) |
-| Methodology | 2     | 2 (100%) |
-| Data        | 1     | 1 (100%) |
+### 5.3 ADR References
 
----
-
-## 9. Lessons Learned
-
-### 9.1 What Worked Well
-
-1. **Systematic cross-language comparison**: Comparing terms across all six languages simultaneously revealed conflicts that would be missed by bilingual comparison alone.
-2. **Resolution hierarchy**: The pre-defined authority hierarchy (IUPAC > textbooks > literature > recency > judgment) enabled fast, consistent resolution decisions.
-3. **Severity classification**: Classifying conflicts by severity ensured that HIGH-severity conflicts (like DEF-001) received appropriate ADR treatment while LOW-severity conflicts were resolved quickly.
-
-### 9.2 Challenges
-
-1. **ZH length boundary**: The Chinese convention for oligopeptide vs. polypeptide boundaries is deeply embedded in educational materials. The resolution (IUPAC standard with explanatory note) adds content complexity.
-2. **JP loanword vs. semantic translation**: Japanese has two competing traditions for translating Western scientific terms (phonetic loanwords vs. semantic translations). This requires ongoing monitoring as usage evolves.
-3. **RU computational emphasis**: Russian pharmacology literature emphasizes computational methods more than Western sources. This is not a conflict per se but requires careful framing to avoid implying that one approach is "correct."
-
-### 9.3 Recommendations for Future Phases
-
-1. **Monitor JP terminology evolution**: As Japanese scientific publishing evolves, loanword vs. semantic translation preferences may shift. Re-evaluate DEF-002 and DEF-003 in Phase 3.
-2. **Commission ZH/RU expert review**: For any new terminology introduced in Phase 2-3, commission native-speaking expert review before publication.
-3. **Maintain conflict register**: Add any new conflicts discovered during content creation to this document.
-
----
-
-## 10. Conflict Register Summary
-
-### 10.1 Complete Conflict Register
-
-| Conflict ID | Category    | Severity | Languages   | Concept                       | Resolution            | ADR     | Status   |
-| ----------- | ----------- | -------- | ----------- | ----------------------------- | --------------------- | ------- | -------- |
-| DEF-001     | Terminology | HIGH     | EN vs. ZH   | Oligopeptide length boundary  | IUPAC standard (2-50) | ADR-015 | RESOLVED |
-| DEF-002     | Terminology | LOW      | JP internal | Bioavailability translation   | 生物利用能 primary    | —       | RESOLVED |
-| DEF-003     | Terminology | LOW      | JP internal | Spaced repetition translation | 間隔反復 primary      | —       | RESOLVED |
-| DEF-004     | Terminology | LOW      | EN vs. DE   | Hill coefficient symbol       | Standardize nH        | —       | RESOLVED |
-| DEF-005     | Terminology | LOW      | ZH internal | Active recall translation     | 主动回忆 primary      | —       | RESOLVED |
-| MTD-001     | Methodology | MEDIUM   | EN vs. RU   | Binding affinity model        | Dual-model documented | —       | RESOLVED |
-| MTD-002     | Methodology | MEDIUM   | ZH/RU/JP    | Bloom's taxonomy translation  | Variant A selected    | —       | RESOLVED |
-| DAT-001     | Data        | LOW      | EN vs. RU   | Peptide bond rotation barrier | 75-85 kJ/mol          | —       | RESOLVED |
-
-### 10.2 Conflict Resolution Traceability
-
-Each resolved conflict is traceable to:
-
-1. **Source documents**: The Yellow Papers and multilingual bibliography sources where the conflict was detected
-2. **Resolution rationale**: The justification for the chosen resolution, documented in the conflict details
-3. **Implementation evidence**: The specific files/values updated to implement the resolution
-4. **ADR reference**: Where applicable, the architectural decision record documenting the decision
-
-### 10.3 Next Review Date
-
-The conflict register will be reviewed at:
-
-- **Phase 2 completion**: Verify no new conflicts from content creation
-- **Phase 3 completion**: Verify no new conflicts from testing and validation
-- **Annual review**: Reassess all resolutions with updated sources
+| ADR | Title | Status | Date |
+|-----|-------|--------|------|
+| ADR-CONTENT-001 | Math Rendering Engine Selection | Accepted | 2026-06-19 |
+| ADR-CONTENT-002 | Graph Visualization Library Selection | Accepted | 2026-06-19 |
+| ADR-SOCIAL-001 | Comments System Architecture | Accepted | 2026-06-19 |
+| ADR-EDITOR-001 | MDX Editor Engine Selection | Accepted | 2026-06-19 |

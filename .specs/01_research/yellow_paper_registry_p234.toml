@@ -1,0 +1,263 @@
+# =============================================================================
+# Yellow Paper Registry — P2-P4 Features
+# Document ID: YP-REGISTRY-P234-001
+# Version: 1.0.0
+# Date: 2026-06-19
+# Status: DRAFT
+# Scope: Phase 2-4 Epistemological Discovery — Social, Editor, Extensibility
+# =============================================================================
+
+[metadata]
+project = "wikisites"
+last_updated = "2026-06-19"
+total_papers = 8
+total_test_vector_sets = 1
+total_domain_constraint_sets = 1
+registry_owner = "Wikisites Knowledge Engineering Team"
+classification = "Internal — Phase 1 Epistemological Discovery (P2-P4)"
+
+# =============================================================================
+# YELLOW PAPERS — P2: Social Layer
+# =============================================================================
+
+[[yellow_paper]]
+id = "YP-SOCIAL-COMMENTS-001"
+title = "Comments System for Educational Platforms"
+status = "DRAFT"
+version = "1.0.0"
+date = "2026-06-19"
+authors = ["Wikisites Knowledge Engineering Team"]
+abstract = "Specification of the comments system including Giscus (GitHub Discussions) vs custom (D1/KV) architecture, authentication options, spam prevention strategies, SSR compatibility with Astro, privacy considerations (GDPR), and performance impact (lazy loading)."
+sections = [
+    "Document Header",
+    "Executive Summary",
+    "Nomenclature and Notation",
+    "Theoretical Foundation",
+    "Algorithm Specification",
+    "Test Vector Specification",
+    "Domain Constraints",
+    "Bibliography",
+    "Knowledge Graph Concepts",
+    "Quality Checklist"
+]
+test_vector_ref = "test_vectors/test_vectors_social_editor_ext.toml"
+domain_constraint_ref = "domain_constraints/domain_constraints_social.toml"
+applicable_sites = ["ENCP", "WIKI"]
+
+[[yellow_paper]]
+id = "YP-SOCIAL-ANNOTATIONS-001"
+title = "Annotation Layer for Educational Platforms"
+status = "DRAFT"
+version = "1.0.0"
+date = "2026-06-19"
+authors = ["Wikisites Knowledge Engineering Team"]
+abstract = "Specification of the annotation layer including annotation data model (position, text, replies), text anchoring algorithms (XPath, CFI, text position), storage strategies (D1, localStorage, sync), collaboration patterns (public, private, shared), and accessibility (screen reader navigation)."
+sections = [
+    "Document Header",
+    "Executive Summary",
+    "Nomenclature and Notation",
+    "Theoretical Foundation",
+    "Algorithm Specification",
+    "Test Vector Specification",
+    "Domain Constraints",
+    "Bibliography",
+    "Knowledge Graph Concepts",
+    "Quality Checklist"
+]
+test_vector_ref = "test_vectors/test_vectors_social_editor_ext.toml"
+domain_constraint_ref = "domain_constraints/domain_constraints_social.toml"
+applicable_sites = ["ENCP", "WIKI"]
+
+[[yellow_paper]]
+id = "YP-SOCIAL-ACCOUNTS-001"
+title = "User Accounts for Educational Platforms"
+status = "DRAFT"
+version = "1.0.0"
+date = "2026-06-19"
+authors = ["Wikisites Knowledge Engineering Team"]
+abstract = "Specification of user accounts including authentication (OAuth, magic links, passkeys), session management (JWT, Durable Objects), role-based access control (reader, contributor, moderator, admin), profile data model, and privacy/GDPR compliance (data export, deletion)."
+sections = [
+    "Document Header",
+    "Executive Summary",
+    "Nomenclature and Notation",
+    "Theoretical Foundation",
+    "Algorithm Specification",
+    "Test Vector Specification",
+    "Domain Constraints",
+    "Bibliography",
+    "Knowledge Graph Concepts",
+    "Quality Checklist"
+]
+test_vector_ref = "test_vectors/test_vectors_social_editor_ext.toml"
+domain_constraint_ref = "domain_constraints/domain_constraints_social.toml"
+applicable_sites = ["ENCP", "WIKI"]
+
+# =============================================================================
+# YELLOW PAPERS — P3: Editor
+# =============================================================================
+
+[[yellow_paper]]
+id = "YP-EDITOR-MDX-001"
+title = "Web-based MDX Editor for Educational Platforms"
+status = "DRAFT"
+version = "1.0.0"
+date = "2026-06-19"
+authors = ["Wikisites Knowledge Engineering Team"]
+abstract = "Specification of the web-based MDX editor including editor engines (CodeMirror 6, Monaco, ProseMirror, TipTap), MDX-specific editing (JSX component insertion, frontmatter), preview rendering (Astro SSR vs client-side), conflict resolution (concurrent editing), and performance (large documents)."
+sections = [
+    "Document Header",
+    "Executive Summary",
+    "Nomenclature and Notation",
+    "Theoretical Foundation",
+    "Algorithm Specification",
+    "Test Vector Specification",
+    "Domain Constraints",
+    "Bibliography",
+    "Knowledge Graph Concepts",
+    "Quality Checklist"
+]
+test_vector_ref = "test_vectors/test_vectors_social_editor_ext.toml"
+domain_constraint_ref = "domain_constraints/domain_constraints_social.toml"
+applicable_sites = ["ENCP", "WIKI"]
+
+[[yellow_paper]]
+id = "YP-EDITOR-VERSION-HISTORY-001"
+title = "Version History for Educational Platforms"
+status = "DRAFT"
+version = "1.0.0"
+date = "2026-06-19"
+authors = ["Wikisites Knowledge Engineering Team"]
+abstract = "Specification of version history including diff algorithms (Myers, patience, LCS), visual diff rendering (side-by-side, inline), storage strategies (git-backed, D1 snapshots), branch/merge patterns, and attribution tracking."
+sections = [
+    "Document Header",
+    "Executive Summary",
+    "Nomenclature and Notation",
+    "Theoretical Foundation",
+    "Algorithm Specification",
+    "Test Vector Specification",
+    "Domain Constraints",
+    "Bibliography",
+    "Knowledge Graph Concepts",
+    "Quality Checklist"
+]
+test_vector_ref = "test_vectors/test_vectors_social_editor_ext.toml"
+domain_constraint_ref = "domain_constraints/domain_constraints_social.toml"
+applicable_sites = ["ENCP", "WIKI"]
+
+# =============================================================================
+# YELLOW PAPERS — P4: Extensibility
+# =============================================================================
+
+[[yellow_paper]]
+id = "YP-EXT-PLUGIN-API-001"
+title = "Plugin API for Educational Platforms"
+status = "DRAFT"
+version = "1.0.0"
+date = "2026-06-19"
+authors = ["Wikisites Knowledge Engineering Team"]
+abstract = "Specification of the plugin API including plugin architecture (hooks, lifecycle, sandboxing), API surface design (read-only vs read-write), security model (permissions, sandboxing), SolidJS integration (custom elements, portals), and discovery and installation."
+sections = [
+    "Document Header",
+    "Executive Summary",
+    "Nomenclature and Notation",
+    "Theoretical Foundation",
+    "Algorithm Specification",
+    "Test Vector Specification",
+    "Domain Constraints",
+    "Bibliography",
+    "Knowledge Graph Concepts",
+    "Quality Checklist"
+]
+test_vector_ref = "test_vectors/test_vectors_social_editor_ext.toml"
+domain_constraint_ref = "domain_constraints/domain_constraints_social.toml"
+applicable_sites = ["ENCP", "WIKI"]
+
+[[yellow_paper]]
+id = "YP-EXT-THEMES-001"
+title = "Custom Themes for Educational Platforms"
+status = "DRAFT"
+version = "1.0.0"
+date = "2026-06-19"
+authors = ["Wikisites Knowledge Engineering Team"]
+abstract = "Specification of custom themes including CSS custom properties architecture, theme inheritance (base to override), dark/light mode system (existing + extension), theme marketplace patterns, and performance (critical CSS, lazy loading)."
+sections = [
+    "Document Header",
+    "Executive Summary",
+    "Nomenclature and Notation",
+    "Theoretical Foundation",
+    "Algorithm Specification",
+    "Test Vector Specification",
+    "Domain Constraints",
+    "Bibliography",
+    "Knowledge Graph Concepts",
+    "Quality Checklist"
+]
+test_vector_ref = "test_vectors/test_vectors_social_editor_ext.toml"
+domain_constraint_ref = "domain_constraints/domain_constraints_social.toml"
+applicable_sites = ["ENCP", "WIKI"]
+
+[[yellow_paper]]
+id = "YP-EXT-SETTINGS-001"
+title = "Settings Export/Import for Educational Platforms"
+status = "DRAFT"
+version = "1.0.0"
+date = "2026-06-19"
+authors = ["Wikisites Knowledge Engineering Team"]
+abstract = "Specification of settings export/import including settings data model (JSON schema), import/export flow, conflict resolution (merge vs overwrite), version compatibility, and storage (localStorage to file to sync)."
+sections = [
+    "Document Header",
+    "Executive Summary",
+    "Nomenclature and Notation",
+    "Theoretical Foundation",
+    "Algorithm Specification",
+    "Test Vector Specification",
+    "Domain Constraints",
+    "Bibliography",
+    "Knowledge Graph Concepts",
+    "Quality Checklist"
+]
+test_vector_ref = "test_vectors/test_vectors_social_editor_ext.toml"
+domain_constraint_ref = "domain_constraints/domain_constraints_social.toml"
+applicable_sites = ["ENCP", "WIKI"]
+
+# =============================================================================
+# TEST VECTOR SETS
+# =============================================================================
+
+[[test_vector_set]]
+id = "TVS-SOCIAL-EDITOR-EXT-001"
+paper_ids = ["YP-SOCIAL-COMMENTS-001", "YP-SOCIAL-ANNOTATIONS-001", "YP-SOCIAL-ACCOUNTS-001", "YP-EDITOR-MDX-001", "YP-EDITOR-VERSION-HISTORY-001", "YP-EXT-PLUGIN-API-001", "YP-EXT-THEMES-001", "YP-EXT-SETTINGS-001"]
+file = "test_vectors/test_vectors_social_editor_ext.toml"
+status = "DRAFT"
+version = "1.0.0"
+total_vectors = 236
+
+# =============================================================================
+# DOMAIN CONSTRAINT SETS
+# =============================================================================
+
+[[domain_constraint_set]]
+id = "DCS-SOCIAL-001"
+paper_ids = ["YP-SOCIAL-COMMENTS-001", "YP-SOCIAL-ANNOTATIONS-001", "YP-SOCIAL-ACCOUNTS-001", "YP-EDITOR-MDX-001", "YP-EDITOR-VERSION-HISTORY-001", "YP-EXT-PLUGIN-API-001", "YP-EXT-THEMES-001", "YP-EXT-SETTINGS-001"]
+file = "domain_constraints/domain_constraints_social.toml"
+status = "DRAFT"
+version = "1.0.0"
+
+# =============================================================================
+# CROSS-REFERENCE MATRIX — Links to Phase 1 Yellow Papers
+# =============================================================================
+
+[cross_references]
+# P2 Social features build on P1 web technology stack
+YP-SOCIAL-COMMENTS-001 = { depends_on = "YP-WEB-TECH-001", section = "Cloudflare Edge Computing" }
+YP-SOCIAL-ANNOTATIONS-001 = { depends_on = "YP-WEB-TECH-001", section = "D1 Database" }
+YP-SOCIAL-ACCOUNTS-001 = { depends_on = "YP-WEB-TECH-001", section = "Durable Objects" }
+
+# P3 Editor features build on P1 web technology stack
+YP-EDITOR-MDX-001 = { depends_on = "YP-WEB-TECH-001", section = "Astro Islands Architecture" }
+YP-EDITOR-VERSION-HISTORY-001 = { depends_on = "YP-WEB-TECH-001", section = "R2 Object Storage" }
+
+# P4 Extensibility features build on P1 web technology stack
+YP-EXT-PLUGIN-API-001 = { depends_on = "YP-WEB-TECH-001", section = "SolidJS Reactivity" }
+YP-EXT-THEMES-001 = { depends_on = "YP-WEB-TECH-001", section = "CSS Design System" }
+YP-EXT-SETTINGS-001 = { depends_on = "YP-WEB-TECH-001", section = "Edge Computing" }

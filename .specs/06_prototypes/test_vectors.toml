@@ -1,0 +1,561 @@
+# Test Vectors — Power User Shell P0 Prototypes
+# Phase 5: Adversarial Loop
+# Generated: 2026-06-19
+
+# =============================================================================
+# CommandPalette — Fuzzy Scoring
+# =============================================================================
+
+[[fuzzy_scoring]]
+id = "FZ-001"
+description = "Exact match scores highest"
+query = "Navigate"
+label = "Navigate"
+expected_score_gt = 0
+notes = "Should return high score for exact match"
+
+[[fuzzy_scoring]]
+id = "FZ-002"
+description = "Prefix match scores well"
+query = "Nav"
+label = "Navigate"
+expected_score_gt = 0
+notes = "Prefix bonus applied"
+
+[[fuzzy_scoring]]
+id = "FZ-003"
+description = "Substring match"
+query = "iga"
+label = "Navigation"
+expected_score_gt = 0
+notes = "Case-insensitive substring match"
+
+[[fuzzy_scoring]]
+id = "FZ-004"
+description = "No match returns 0"
+query = "xyz"
+label = "Navigate"
+expected_score = 0
+
+[[fuzzy_scoring]]
+id = "FZ-005"
+description = "Empty query matches everything"
+query = ""
+label = "Navigate"
+expected_score_gt = 0
+notes = "Empty query should return base score (1)"
+
+[[fuzzy_scoring]]
+id = "FZ-006"
+description = "Consecutive matches score higher"
+query = "nav"
+label = "Navigation"
+vs_query = "nv"
+vs_label = "Navigation"
+expected_first_higher = true
+notes = "Consecutive characters should score above scattered"
+
+[[fuzzy_scoring]]
+id = "FZ-007"
+description = "After-separator bonus"
+query = "amino"
+label = "Amino Acids"
+expected_score_gt = 0
+notes = "Space-separated word gets bonus"
+
+[[fuzzy_scoring]]
+id = "FZ-008"
+description = "Case insensitive"
+query = "NAVIGATE"
+label = "navigate"
+expected_score_gt = 0
+
+[[fuzzy_scoring]]
+id = "FZ-009"
+description = "Empty label returns 0"
+query = "test"
+label = ""
+expected_score = 0
+
+[[fuzzy_scoring]]
+id = "FZ-010"
+description = "Query longer than label returns 0"
+query = "NavigationHelper"
+label = "Nav"
+expected_score = 0
+
+# =============================================================================
+# CommandPalette — Command Registry
+# =============================================================================
+
+[[registry_tests]]
+id = "CR-001"
+description = "Add and retrieve a command"
+action = "add_then_get"
+command = { id = "test-1", label = "Test Command", description = "A test", category = "action", enabled = true }
+expected_found = true
+
+[[registry_tests]]
+id = "CR-002"
+description = "Remove a command"
+action = "add_then_remove_then_get"
+command = { id = "test-2", label = "Test", description = "A test", category = "action", enabled = true }
+expected_found = false
+
+[[registry_tests]]
+id = "CR-003"
+description = "Search filters by query"
+action = "add_multiple_then_search"
+commands = [
+  { id = "nav-1", label = "Navigate Home", description = "Go home", category = "navigation", enabled = true },
+  { id = "nav-2", label = "Navigate Back", description = "Go back", category = "navigation", enabled = true },
+  { id = "act-1", label = "Toggle Theme", description = "Dark mode", category = "action", enabled = true },
+]
+query = "nav"
+expected_count = 2
+
+[[registry_tests]]
+id = "CR-004"
+description = "Search excludes disabled commands"
+action = "add_disabled_then_search"
+command = { id = "test-4", label = "Disabled Command", description = "Off", category = "action", enabled = false }
+query = "Disabled"
+expected_count = 0
+
+[[registry_tests]]
+id = "CR-005"
+description = "Search is case-insensitive"
+action = "add_then_search_case"
+command = { id = "test-5", label = "Navigate Home", description = "Go", category = "navigation", enabled = true }
+query = "NAVIGATE"
+expected_count = 1
+
+[[registry_tests]]
+id = "CR-006"
+description = "Empty registry returns empty search"
+action = "search_empty_registry"
+query = "anything"
+expected_count = 0
+
+[[registry_tests]]
+id = "CR-007"
+description = "Invalid command rejected"
+action = "add_invalid"
+command = { id = "", label = "", description = "", category = "invalid", enabled = true }
+expected_rejected = true
+
+# =============================================================================
+# KeyboardShortcuts — Parsing
+# =============================================================================
+
+[[keybinding_parsing]]
+id = "KB-PARSE-001"
+description = "Simple key"
+input = "j"
+expected_key = "j"
+expected_modifiers = []
+
+[[keybinding_parsing]]
+id = "KB-PARSE-002"
+description = "Ctrl+K"
+input = "Ctrl+K"
+expected_key = "K"
+expected_modifiers = ["Ctrl"]
+
+[[keybinding_parsing]]
+id = "KB-PARSE-003"
+description = "Multiple modifiers"
+input = "Ctrl+Shift+ArrowDown"
+expected_key = "ArrowDown"
+expected_modifiers = ["Ctrl", "Shift"]
+
+[[keybinding_parsing]]
+id = "KB-PARSE-004"
+description = "Single modifier no key"
+input = "Ctrl+"
+expected_error = "KeybindingParseError"
+
+[[keybinding_parsing]]
+id = "KB-PARSE-005"
+description = "Empty string"
+input = ""
+expected_error = "KeybindingParseError"
+
+# =============================================================================
+# KeyboardShortcuts — Conflict Detection
+# =============================================================================
+
+[[conflict_detection]]
+id = "KB-CD-001"
+description = "Same key+scope is a conflict"
+new = { id = "a", key = "K", modifiers = ["Ctrl"], action = "a", scope = "global", description = "A" }
+existing = [{ id = "b", key = "K", modifiers = ["Ctrl"], action = "b", scope = "global", description = "B" }]
+expected_conflict_count = 1
+
+[[conflict_detection]]
+id = "KB-CD-002"
+description = "Different keys no conflict"
+new = { id = "a", key = "K", modifiers = ["Ctrl"], action = "a", scope = "global", description = "A" }
+existing = [{ id = "b", key = "J", modifiers = ["Ctrl"], action = "b", scope = "global", description = "B" }]
+expected_conflict_count = 0
+
+[[conflict_detection]]
+id = "KB-CD-003"
+description = "Global scope conflicts with any same key"
+new = { id = "a", key = "K", modifiers = ["Ctrl"], action = "a", scope = "global", description = "A" }
+existing = [{ id = "b", key = "K", modifiers = ["Ctrl"], action = "b", scope = "modal", description = "B" }]
+expected_conflict_count = 1
+
+[[conflict_detection]]
+id = "KB-CD-004"
+description = "Different scopes same key — no conflict if neither global"
+new = { id = "a", key = "K", modifiers = [], action = "a", scope = "modal", description = "A" }
+existing = [{ id = "b", key = "K", modifiers = [], action = "b", scope = "article", description = "B" }]
+expected_conflict_count = 0
+
+[[conflict_detection]]
+id = "KB-CD-005"
+description = "Same binding different modifiers — no conflict"
+new = { id = "a", key = "K", modifiers = ["Ctrl"], action = "a", scope = "global", description = "A" }
+existing = [{ id = "b", key = "K", modifiers = ["Ctrl", "Shift"], action = "b", scope = "global", description = "B" }]
+expected_conflict_count = 0
+
+[[conflict_detection]]
+id = "KB-CD-006"
+description = "Empty existing — no conflict"
+new = { id = "a", key = "K", modifiers = ["Ctrl"], action = "a", scope = "global", description = "A" }
+existing = []
+expected_conflict_count = 0
+
+# =============================================================================
+# KeyboardShortcuts — Platform Normalization
+# =============================================================================
+
+[[platform_normalization]]
+id = "KB-PN-001"
+description = "Ctrl normalizes to Meta on Mac"
+input_modifier = "Ctrl"
+platform = "Mac"
+expected = "Meta"
+
+[[platform_normalization]]
+id = "KB-PN-002"
+description = "Ctrl stays Ctrl on non-Mac"
+input_modifier = "Ctrl"
+platform = "Linux"
+expected = "Ctrl"
+
+[[platform_normalization]]
+id = "KB-PN-003"
+description = "Alt stays Alt on all platforms"
+input_modifier = "Alt"
+platform = "Mac"
+expected = "Alt"
+
+# =============================================================================
+# OutlinePanel — Heading Extraction
+# =============================================================================
+
+[[outline_extraction]]
+id = "OL-EXT-001"
+description = "Extract h2 and h3 headings"
+html = """
+<div id="content">
+  <h2 id="intro">Introduction</h2>
+  <p>Some text</p>
+  <h2 id="background">Background</h2>
+  <p>More text</p>
+  <h3 id="history">History</h3>
+  <p>Details</p>
+  <h3 id="methods">Methods</h3>
+  <p>More details</p>
+</div>
+"""
+expected_count = 4
+expected_ids = ["intro", "background", "history", "methods"]
+expected_levels = [2, 2, 3, 3]
+
+[[outline_extraction]]
+id = "OL-EXT-002"
+description = "Skip headings without id"
+html = """
+<div id="content">
+  <h2>No ID Here</h2>
+  <h2 id="has-id">Has ID</h2>
+</div>
+"""
+expected_count = 1
+expected_ids = ["has-id"]
+
+[[outline_extraction]]
+id = "OL-EXT-003"
+description = "Skip h1 and h4+"
+html = """
+<div id="content">
+  <h1 id="h1">Title</h1>
+  <h2 id="h2">Section</h2>
+  <h3 id="h3">Subsection</h3>
+  <h4 id="h4">Sub-subsection</h4>
+</div>
+"""
+expected_count = 2
+expected_ids = ["h2", "h3"]
+
+[[outline_extraction]]
+id = "OL-EXT-004"
+description = "Empty container"
+html = '<div id="content"></div>'
+expected_count = 0
+
+[[outline_extraction]]
+id = "OL-EXT-005"
+description = "Deep nesting preserves order"
+html = """
+<div id="content">
+  <h2 id="a">A</h2>
+  <h3 id="a1">A.1</h3>
+  <h3 id="a2">A.2</h3>
+  <h2 id="b">B</h2>
+  <h3 id="b1">B.1</h3>
+</div>
+"""
+expected_count = 5
+expected_ids = ["a", "a1", "a2", "b", "b1"]
+expected_levels = [2, 3, 3, 2, 3]
+
+# =============================================================================
+# Breadcrumbs — Trail Generation
+# =============================================================================
+
+[[breadcrumb_generation]]
+id = "BC-GEN-001"
+description = "Generate trail from simple path"
+path = "/learn/amino-acids"
+expected_items = [
+  { label = "Home", href = "/", current = false },
+  { label = "Learn", href = "/learn", current = false },
+  { label = "Amino Acids", href = "/learn/amino-acids", current = true },
+]
+
+[[breadcrumb_generation]]
+id = "BC-GEN-002"
+description = "Root path returns single item"
+path = "/"
+expected_items = [
+  { label = "Home", href = "/", current = true },
+]
+
+[[breadcrumb_generation]]
+id = "BC-GEN-003"
+description = "Deep nesting"
+path = "/learn/peptides/alanine/effects"
+expected_count = 5
+expected_last_label = "Effects"
+expected_last_current = true
+
+[[breadcrumb_generation]]
+id = "BC-GEN-004"
+description = "Custom root label"
+path = "/wiki/intro"
+root_label = "Wiki"
+expected_first_label = "Wiki"
+
+# =============================================================================
+# Breadcrumbs — Responsive Overflow
+# =============================================================================
+
+[[breadcrumb_overflow]]
+id = "BC-OVF-001"
+description = "No overflow when within limit"
+items = ["Home", "Learn", "Peptides"]
+max_items = 5
+expected_has_ellipsis = false
+
+[[breadcrumb_overflow]]
+id = "BC-OVF-002"
+description = "Overflow collapses middle items"
+items = ["Home", "Learn", "Peptides", "Alanine", "Effects"]
+max_items = 3
+expected_has_ellipsis = true
+expected_first = "Home"
+expected_last = "Effects"
+
+[[breadcrumb_overflow]]
+id = "BC-OVF-003"
+description = "Exactly at limit — no overflow"
+items = ["Home", "Learn", "Peptides", "Alanine"]
+max_items = 4
+expected_has_ellipsis = false
+
+[[breadcrumb_overflow]]
+id = "BC-OVF-004"
+description = "Two items — no overflow"
+items = ["Home", "Current"]
+max_items = 3
+expected_has_ellipsis = false
+
+# =============================================================================
+# Breadcrumbs — Schema.org
+# =============================================================================
+
+[[schema_org]]
+id = "BC-SO-001"
+description = "JSON-LD structure is valid"
+trail = [
+  { label = "Home", href = "https://example.com/" },
+  { label = "Learn", href = "https://example.com/learn" },
+]
+expected_context = "https://schema.org"
+expected_type = "BreadcrumbList"
+expected_item_count = 2
+expected_positions = [1, 2]
+
+[[schema_org]]
+id = "BC-SO-002"
+description = "Single item trail"
+trail = [
+  { label = "Home", href = "https://example.com/" },
+]
+expected_item_count = 1
+expected_position = 1
+
+# =============================================================================
+# Accessibility Test Cases
+# =============================================================================
+
+[[a11y_tests]]
+id = "A11Y-001"
+component = "CommandPalette"
+description = "Dialog has aria-modal and aria-label"
+checks = ["role=dialog", "aria-modal=true", "aria-label present"]
+
+[[a11y_tests]]
+id = "A11Y-002"
+component = "CommandPalette"
+description = "Input has combobox role"
+checks = ["role=combobox", "aria-expanded", "aria-controls", "aria-autocomplete=list"]
+
+[[a11y_tests]]
+id = "A11Y-003"
+component = "CommandPalette"
+description = "Results have listbox role"
+checks = ["role=listbox", "role=option on items", "aria-selected"]
+
+[[a11y_tests]]
+id = "A11Y-004"
+component = "CommandPalette"
+description = "Status region has aria-live"
+checks = ["role=status", "aria-live=polite"]
+
+[[a11y_tests]]
+id = "A11Y-005"
+component = "OutlinePanel"
+description = "Navigation has accessible label"
+checks = ["aria-label='Document outline'", "role=navigation"]
+
+[[a11y_tests]]
+id = "A11Y-006"
+component = "OutlinePanel"
+description = "Tree has proper ARIA roles"
+checks = ["role=tree", "role=treeitem", "aria-selected on active"]
+
+[[a11y_tests]]
+id = "A11Y-007"
+component = "Breadcrumbs"
+description = "Nav has aria-label='Breadcrumb'"
+checks = ["aria-label='Breadcrumb'", "ol structure"]
+
+[[a11y_tests]]
+id = "A11Y-008"
+component = "Breadcrumbs"
+description = "Current page has aria-current"
+checks = ["aria-current=page on last item"]
+
+[[a11y_tests]]
+id = "A11Y-009"
+component = "KeyboardShortcuts"
+description = "Escape closes palette (no keyboard trap)"
+checks = ["Escape triggers onClose", "focus returns to previous element"]
+
+[[a11y_tests]]
+id = "A11Y-010"
+component = "All"
+description = "All interactive elements focusable"
+checks = ["tabIndex >= 0 on interactive elements", "focus-visible style present"]
+
+# =============================================================================
+# Edge Cases
+# =============================================================================
+
+[[edge_cases]]
+id = "EDGE-001"
+component = "CommandPalette"
+description = "500 commands performance"
+input = "500 commands, query 'nav'"
+expected_behavior = "Results return within 16ms (60fps)"
+performance_budget_ms = 16
+
+[[edge_cases]]
+id = "EDGE-002"
+component = "KeyboardShortcuts"
+description = "1000 registered bindings"
+input = "1000 bindings, keydown event"
+expected_behavior = "Conflict detection within 1ms"
+performance_budget_ms = 1
+
+[[edge_cases]]
+id = "EDGE-003"
+component = "OutlinePanel"
+description = "500 headings"
+input = "500 h2/h3 headings"
+expected_behavior = "Extract within 10ms, scroll-sync O(1)"
+performance_budget_ms = 10
+
+[[edge_cases]]
+id = "EDGE-004"
+component = "Breadcrumbs"
+description = "Empty trail"
+input = "[]"
+expected_behavior = "Renders nothing, no error"
+
+[[edge_cases]]
+id = "EDGE-005"
+component = "KeyboardShortcuts"
+description = "Duplicate ID registration"
+input = "register same ID twice"
+expected_behavior = "Throws DuplicateBindingError"
+
+[[edge_cases]]
+id = "EDGE-006"
+component = "CommandPalette"
+description = "Rapid open/close"
+input = "Open and close 100 times rapidly"
+expected_behavior = "No memory leaks, focus restored correctly"
+
+[[edge_cases]]
+id = "EDGE-007"
+component = "OutlinePanel"
+description = "No headings in article"
+input = "Article with no h2/h3"
+expected_behavior = "Panel hidden, no error"
+
+[[edge_cases]]
+id = "EDGE-008"
+component = "Breadcrumbs"
+description = "Very long labels"
+input = "Label with 128 characters"
+expected_behavior = "Truncated or ellipsis, no layout break"
+
+[[edge_cases]]
+id = "EDGE-009"
+component = "KeyboardShortcuts"
+description = "localStorage unavailable"
+input = "SSR environment"
+expected_behavior = "Silent fallback, no crash"
+
+[[edge_cases]]
+id = "EDGE-010"
+component = "CommandPalette"
+description = "Unicode in query"
+input = "Query: 日本語"
+expected_behavior = "Returns 0 results (no crash)"

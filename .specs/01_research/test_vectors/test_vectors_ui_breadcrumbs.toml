@@ -1,0 +1,121 @@
+# =============================================================================
+# Test Vectors: Breadcrumb Navigation
+# Document ID: TVS-UI-BREADCRUMBS-001
+# Version: 1.0.0
+# Date: 2026-06-19
+# Status: DRAFT
+# =============================================================================
+
+[metadata]
+paper_ids = ["YP-UI-BREADCRUMBS-001"]
+total_vectors = 5
+
+# =============================================================================
+# HIERARCHY RESOLUTION TEST VECTORS
+# =============================================================================
+
+[[test_set]]
+id = "TVS-BC-001"
+paper_id = "YP-UI-BREADCRUMBS-001"
+description = "URL-based hierarchy resolution"
+
+[[test_set.tests]]
+id = "TV-BC-001"
+description = "Resolve root path"
+pathname = "/"
+expected = [
+  { label = "Home", href = "/", is_current = true }
+]
+
+[[test_set.tests]]
+id = "TV-BC-002"
+description = "Resolve single segment"
+pathname = "/peptides"
+expected = [
+  { label = "Home", href = "/", is_current = false },
+  { label = "Peptides", href = "/peptides", is_current = true }
+]
+
+[[test_set.tests]]
+id = "TV-BC-003"
+description = "Resolve nested path"
+pathname = "/peptides/glp1-agonists"
+expected = [
+  { label = "Home", href = "/", is_current = false },
+  { label = "Peptides", href = "/peptides", is_current = false },
+  { label = "GLP-1 Agonists", href = "/peptides/glp1-agonists", is_current = true }
+]
+
+[[test_set.tests]]
+id = "TV-BC-004"
+description = "Format slug to label"
+slug = "glp-1-receptor-agonists"
+expected_label = "GLP-1 Receptor Agonists"
+
+# =============================================================================
+# SCHEMA.ORG TEST VECTORS
+# =============================================================================
+
+[[test_set]]
+id = "TVS-BC-002"
+paper_id = "YP-UI-BREADCRUMBS-001"
+description = "Schema.org BreadcrumbList validation"
+
+[[test_set.tests]]
+id = "TV-BC-010"
+description = "Generate valid BreadcrumbList JSON-LD"
+breadcrumbs = [
+  { name = "Home", item = "https://example.com" },
+  { name = "Peptides", item = "https://example.com/peptides" },
+  { name = "GLP-1", item = "https://example.com/peptides/glp1" }
+]
+expected = {
+  "@context" = "https://schema.org",
+  "@type" = "BreadcrumbList",
+  "itemListElement" = [
+    { "@type" = "ListItem", "position" = 1, "name" = "Home", "item" = "https://example.com" },
+    { "@type" = "ListItem", "position" = 2, "name" = "Peptides", "item" = "https://example.com/peptides" },
+    { "@type" = "ListItem", "position" = 3, "name" = "GLP-1", "item" = "https://example.com/peptides/glp1" }
+  ]
+}
+
+# =============================================================================
+# RESPONSIVE BEHAVIOR TEST VECTORS
+# =============================================================================
+
+[[test_set]]
+id = "TVS-BC-003"
+paper_id = "YP-UI-BREADCRUMBS-001"
+description = "Responsive breadcrumb collapse"
+
+[[test_set.tests]]
+id = "TV-BC-020"
+description = "Desktop shows all items"
+items = 5
+viewport_width = 1024
+expected_visible = 5
+expected_collapsed = false
+
+[[test_set.tests]]
+id = "TV-BC-021"
+description = "Tablet collapses middle items"
+items = 5
+viewport_width = 600
+expected_visible = 3  # first + ellipsis + last
+expected_collapsed = true
+
+[[test_set.tests]]
+id = "TV-BC-022"
+description = "Mobile shows back button"
+items = 5
+viewport_width = 375
+expected_visible = 1  # previous item only
+expected_back_button = true
+
+[[test_set.tests]]
+id = "TV-BC-023"
+description = "Short trail not collapsed"
+items = 2
+viewport_width = 375
+expected_visible = 2
+expected_collapsed = false

@@ -9,10 +9,10 @@
 
 [metadata]
 project = "wikisites"
-last_updated = "2026-06-07"
-total_papers = 4
-total_test_vector_sets = 2
-total_domain_constraint_sets = 2
+last_updated = "2026-06-19"
+total_papers = 8
+total_test_vector_sets = 4
+total_domain_constraint_sets = 3
 registry_owner = "Wikisites Knowledge Engineering Team"
 classification = "Internal — Phase 1 Epistemological Discovery"
 
@@ -116,6 +116,101 @@ test_vector_ref = "test_vectors/test_vectors_web.toml"
 domain_constraint_ref = "domain_constraints/domain_constraints_web.toml"
 applicable_sites = ["ENCP", "WIKI"]
 
+[[yellow_paper]]
+id = "YP-UI-COMMAND-PALETTE-001"
+title = "Command Palette — Universal Action Launcher"
+status = "DRAFT"
+version = "1.0.0"
+date = "2026-06-19"
+authors = ["DeepThought (Researcher)"]
+abstract = "Specification of the command palette implementing a keyboard-driven universal action launcher following the VS Code paradigm. Covers WAI-ARIA Combobox pattern, fuzzy search algorithms (fzy-style O(n·m) scoring), SolidJS reactive command registry, portal-based rendering with focus trap, and performance constraints for static sites."
+sections = [
+    "Executive Summary",
+    "Nomenclature",
+    "Theoretical Foundation",
+    "Algorithm Specification",
+    "Complexity Analysis",
+    "Test Vector Specification",
+    "Domain Constraints",
+    "Bibliography",
+    "Quality Checklist"
+]
+test_vector_ref = "test_vectors/test_vectors_ui_commands.toml"
+domain_constraint_ref = "domain_constraints/domain_constraints_ui.toml"
+applicable_sites = ["ENCP", "WIKI"]
+
+[[yellow_paper]]
+id = "YP-UI-KEYBOARD-SHORTCUTS-001"
+title = "Keyboard Shortcut System"
+status = "DRAFT"
+version = "1.0.0"
+date = "2026-06-19"
+authors = ["DeepThought (Researcher)"]
+abstract = "Specification of the keyboard shortcut system enabling mouse-free navigation. Covers remappable keybinding registry with priority-based conflict resolution, modal/modeless shortcut layers, platform-aware modifier keys, chord sequences, ARIA live region announcements, and SolidJS reactive state management."
+sections = [
+    "Executive Summary",
+    "Nomenclature",
+    "Theoretical Foundation",
+    "Algorithm Specification",
+    "Accessibility Patterns",
+    "Conflict Resolution",
+    "SolidJS State Management",
+    "Test Vector Specification",
+    "Domain Constraints",
+    "Bibliography",
+    "Quality Checklist"
+]
+test_vector_ref = "test_vectors/test_vectors_ui_commands.toml"
+domain_constraint_ref = "domain_constraints/domain_constraints_ui.toml"
+applicable_sites = ["ENCP", "WIKI"]
+
+[[yellow_paper]]
+id = "YP-UI-OUTLINE-PANEL-001"
+title = "Outline/Minimap Panel"
+status = "DRAFT"
+version = "1.0.0"
+date = "2026-06-19"
+authors = ["DeepThought (Researcher)"]
+abstract = "Specification of the outline and minimap panel for document overview navigation. Covers AST-based heading extraction from Astro content collections, IntersectionObserver scroll-sync, CSS-only minimap rendering, virtual scrolling for large documents, and WAI-ARIA Tree View pattern."
+sections = [
+    "Executive Summary",
+    "Nomenclature",
+    "Theoretical Foundation",
+    "Algorithm Specification",
+    "ARIA Tree View Pattern",
+    "Test Vector Specification",
+    "Domain Constraints",
+    "Bibliography",
+    "Quality Checklist"
+]
+test_vector_ref = "test_vectors/test_vectors_ui_outline.toml"
+domain_constraint_ref = "domain_constraints/domain_constraints_ui.toml"
+applicable_sites = ["ENCP", "WIKI"]
+
+[[yellow_paper]]
+id = "YP-UI-BREADCRUMBS-001"
+title = "Breadcrumb Navigation"
+status = "DRAFT"
+version = "1.0.0"
+date = "2026-06-19"
+authors = ["DeepThought (Researcher)"]
+abstract = "Specification of breadcrumb navigation for hierarchical context and navigation. Covers URL-based hierarchy resolution, Schema.org BreadcrumbList structured data, WAI-ARIA breadcrumb pattern, responsive overflow handling for mobile, and accessibility requirements."
+sections = [
+    "Executive Summary",
+    "Nomenclature",
+    "Theoretical Foundation",
+    "Schema.org BreadcrumbList Markup",
+    "ARIA Breadcrumb Pattern",
+    "Responsive Design",
+    "Test Vector Specification",
+    "Domain Constraints",
+    "Bibliography",
+    "Quality Checklist"
+]
+test_vector_ref = "test_vectors/test_vectors_ui_breadcrumbs.toml"
+domain_constraint_ref = "domain_constraints/domain_constraints_ui.toml"
+applicable_sites = ["ENCP", "WIKI"]
+
 # =============================================================================
 # TEST VECTOR SETS
 # =============================================================================
@@ -136,6 +231,30 @@ status = "APPROVED"
 version = "1.0.0"
 total_vectors = 28
 
+[[test_vector_set]]
+id = "TVS-UI-COMMANDS-001"
+paper_id = "YP-UI-COMMAND-PALETTE-001"
+file = "test_vectors/test_vectors_ui_commands.toml"
+status = "DRAFT"
+version = "1.0.0"
+total_vectors = 16
+
+[[test_vector_set]]
+id = "TVS-UI-OUTLINE-001"
+paper_id = "YP-UI-OUTLINE-PANEL-001"
+file = "test_vectors/test_vectors_ui_outline.toml"
+status = "DRAFT"
+version = "1.0.0"
+total_vectors = 6
+
+[[test_vector_set]]
+id = "TVS-UI-BREADCRUMBS-001"
+paper_id = "YP-UI-BREADCRUMBS-001"
+file = "test_vectors/test_vectors_ui_breadcrumbs.toml"
+status = "DRAFT"
+version = "1.0.0"
+total_vectors = 5
+
 # =============================================================================
 # DOMAIN CONSTRAINT SETS
 # =============================================================================
@@ -152,6 +271,13 @@ id = "DCS-WEB-001"
 paper_id = "YP-WEB-TECH-001"
 file = "domain_constraints/domain_constraints_web.toml"
 status = "APPROVED"
+version = "1.0.0"
+
+[[domain_constraint_set]]
+id = "DCS-UI-001"
+paper_id = "YP-UI-COMMAND-PALETTE-001"
+file = "domain_constraints/domain_constraints_ui.toml"
+status = "DRAFT"
 version = "1.0.0"
 
 # =============================================================================
@@ -171,3 +297,11 @@ FR-030 = { paper = "YP-WEB-TECH-001", section = "Domain Constraints — Performa
 NFR-001 = { paper = "YP-WEB-TECH-001", section = "Domain Constraints — Core Web Vitals" }
 NFR-005 = { paper = "YP-EDU-CONTENT-001", section = "Theoretical Foundation — Learning Science" }
 NFR-010 = { paper = "YP-CHEM-OLIGO-001", section = "Domain Constraints — Precision" }
+FR-UI-001 = { paper = "YP-UI-COMMAND-PALETTE-001", section = "Algorithm Specification — Fuzzy Match" }
+FR-UI-002 = { paper = "YP-UI-KEYBOARD-SHORTCUTS-001", section = "Algorithm Specification — Keypress Handler" }
+FR-UI-003 = { paper = "YP-UI-OUTLINE-PANEL-001", section = "Algorithm Specification — Heading Extraction" }
+FR-UI-004 = { paper = "YP-UI-BREADCRUMBS-001", section = "Theoretical Foundation — Hierarchy Resolution" }
+NFR-UI-001 = { paper = "YP-UI-COMMAND-PALETTE-001", section = "Domain Constraints — Performance" }
+NFR-UI-002 = { paper = "YP-UI-KEYBOARD-SHORTCUTS-001", section = "Accessibility Patterns — ARIA Live Region" }
+NFR-UI-003 = { paper = "YP-UI-OUTLINE-PANEL-001", section = "ARIA Tree View Pattern" }
+NFR-UI-004 = { paper = "YP-UI-BREADCRUMBS-001", section = "ARIA Breadcrumb Pattern" }

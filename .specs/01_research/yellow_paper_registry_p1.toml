@@ -1,0 +1,223 @@
+# =============================================================================
+# Yellow Paper Registry — P1 Content Tools
+# Document ID: YP-REGISTRY-P1-001
+# Version: 1.0.0
+# Date: 2026-06-19
+# Status: DRAFT
+# Scope: Phase 1 P1 Content Tools — all Yellow Papers
+# =============================================================================
+
+[metadata]
+project = "wikisites"
+last_updated = "2026-06-19"
+total_papers = 4
+total_test_vector_sets = 1
+total_domain_constraint_sets = 1
+registry_owner = "Wikisites Knowledge Engineering Team"
+classification = "Internal — Phase 1 P1 Content Tools"
+
+# =============================================================================
+# YELLOW PAPERS
+# =============================================================================
+
+[[yellow_paper]]
+id = "YP-CONTENT-LATEX-001"
+title = "LaTeX/KaTeX Math Rendering"
+status = "DRAFT"
+version = "1.0.0"
+date = "2026-06-19"
+authors = ["Wikisites Knowledge Engineering Team"]
+abstract = "Specification of LaTeX/KaTeX math rendering for oligopeptide educational content. Covers KaTeX vs MathJax comparison, SSR vs client-side rendering strategies for Astro islands, bundle size impact analysis, MDX pipeline integration, font loading strategies, and accessibility via MathML fallback."
+sections = [
+    "Document Header",
+    "Executive Summary",
+    "Nomenclature and Notation",
+    "Theoretical Foundation",
+    "Algorithm Specification",
+    "Test Vector Specification",
+    "Domain Constraints",
+    "Bibliography",
+    "Knowledge Graph Concepts",
+    "Quality Checklist"
+]
+test_vector_ref = "test_vectors/test_vectors_content_tools.toml"
+domain_constraint_ref = "domain_constraints/domain_constraints_content.toml"
+applicable_sites = ["ENCP", "WIKI"]
+
+[[yellow_paper]]
+id = "YP-CONTENT-GRAPH-VIEW-001"
+title = "Knowledge Graph View"
+status = "DRAFT"
+version = "1.0.0"
+date = "2026-06-19"
+authors = ["Wikisites Knowledge Engineering Team"]
+abstract = "Specification of an Obsidian-style knowledge graph visualization for oligopeptide educational content. Covers graph layout algorithms, JavaScript library evaluation, SolidJS integration, performance optimization for 500+ nodes, graph data model, interaction patterns, and accessibility compliance."
+sections = [
+    "Document Header",
+    "Executive Summary",
+    "Nomenclature and Notation",
+    "Theoretical Foundation",
+    "Algorithm Specification",
+    "Test Vector Specification",
+    "Domain Constraints",
+    "Bibliography",
+    "Knowledge Graph Concepts",
+    "Quality Checklist"
+]
+test_vector_ref = "test_vectors/test_vectors_content_tools.toml"
+domain_constraint_ref = "domain_constraints/domain_constraints_content.toml"
+applicable_sites = ["ENCP", "WIKI"]
+
+[[yellow_paper]]
+id = "YP-UI-SPLIT-VIEWS-001"
+title = "Split/Multi-Pane Views"
+status = "DRAFT"
+version = "1.0.0"
+date = "2026-06-19"
+authors = ["Wikisites Knowledge Engineering Team"]
+abstract = "Specification of split and multi-pane view layout system for side-by-side content comparison. Covers layout algorithms, resize handle interaction patterns, responsive behavior, state persistence, SolidJS layout patterns, and CSS Grid vs Flexbox evaluation."
+sections = [
+    "Document Header",
+    "Executive Summary",
+    "Nomenclature and Notation",
+    "Theoretical Foundation",
+    "Algorithm Specification",
+    "Test Vector Specification",
+    "Domain Constraints",
+    "Bibliography",
+    "Knowledge Graph Concepts",
+    "Quality Checklist"
+]
+test_vector_ref = "test_vectors/test_vectors_content_tools.toml"
+domain_constraint_ref = "domain_constraints/domain_constraints_content.toml"
+applicable_sites = ["ENCP", "WIKI"]
+
+[[yellow_paper]]
+id = "YP-CONTENT-REGEX-SEARCH-001"
+title = "Regex Search"
+status = "DRAFT"
+version = "1.0.0"
+date = "2026-06-19"
+authors = ["Wikisites Knowledge Engineering Team"]
+abstract = "Specification of power-user regex search with regular expression support. Covers regex engine evaluation, Pagefind integration, search UI patterns, performance constraints, ReDoS prevention, and advanced search syntax."
+sections = [
+    "Document Header",
+    "Executive Summary",
+    "Nomenclature and Notation",
+    "Theoretical Foundation",
+    "Algorithm Specification",
+    "Test Vector Specification",
+    "Domain Constraints",
+    "Bibliography",
+    "Knowledge Graph Concepts",
+    "Quality Checklist"
+]
+test_vector_ref = "test_vectors/test_vectors_content_tools.toml"
+domain_constraint_ref = "domain_constraints/domain_constraints_content.toml"
+applicable_sites = ["ENCP", "WIKI"]
+
+# =============================================================================
+# TEST VECTOR SETS
+# =============================================================================
+
+[[test_vector_set]]
+id = "TVS-CONTENT-001"
+paper_id = "YP-CONTENT-LATEX-001"
+file = "test_vectors/test_vectors_content_tools.toml"
+status = "DRAFT"
+version = "1.0.0"
+total_vectors = 40
+
+[[test_vector_set]]
+id = "TVS-GRAPH-001"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+file = "test_vectors/test_vectors_content_tools.toml"
+status = "DRAFT"
+version = "1.0.0"
+total_vectors = 27
+
+[[test_vector_set]]
+id = "TVS-SPLIT-001"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+file = "test_vectors/test_vectors_content_tools.toml"
+status = "DRAFT"
+version = "1.0.0"
+total_vectors = 23
+
+[[test_vector_set]]
+id = "TVS-REGEX-001"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+file = "test_vectors/test_vectors_content_tools.toml"
+status = "DRAFT"
+version = "1.0.0"
+total_vectors = 34
+
+# =============================================================================
+# DOMAIN CONSTRAINT SETS
+# =============================================================================
+
+[[domain_constraint_set]]
+id = "DCS-CONTENT-001"
+paper_id = "YP-CONTENT-LATEX-001"
+file = "domain_constraints/domain_constraints_content.toml"
+status = "DRAFT"
+version = "1.0.0"
+
+[[domain_constraint_set]]
+id = "DCS-GRAPH-001"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+file = "domain_constraints/domain_constraints_content.toml"
+status = "DRAFT"
+version = "1.0.0"
+
+[[domain_constraint_set]]
+id = "DCS-SPLIT-001"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+file = "domain_constraints/domain_constraints_content.toml"
+status = "DRAFT"
+version = "1.0.0"
+
+[[domain_constraint_set]]
+id = "DCS-REGEX-001"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+file = "domain_constraints/domain_constraints_content.toml"
+status = "DRAFT"
+version = "1.0.0"
+
+# =============================================================================
+# CROSS-REFERENCE MATRIX
+# =============================================================================
+
+[cross_references]
+# Maps P1 feature IDs to Yellow Paper sections for traceability
+P1-LATEX-001 = { paper = "YP-CONTENT-LATEX-001", section = "Algorithm Specification — MDX KaTeX Pipeline Plugin" }
+P1-LATEX-002 = { paper = "YP-CONTENT-LATEX-001", section = "Algorithm Specification — Dynamic Math Component" }
+P1-LATEX-003 = { paper = "YP-CONTENT-LATEX-001", section = "Theoretical Foundation — Font Loading Strategy" }
+P1-LATEX-004 = { paper = "YP-CONTENT-LATEX-001", section = "Theoretical Foundation — Accessibility (MathML Fallback)" }
+P1-GRAPH-001 = { paper = "YP-CONTENT-GRAPH-VIEW-001", section = "Algorithm Specification — Graph Layout Engine" }
+P1-GRAPH-002 = { paper = "YP-CONTENT-GRAPH-VIEW-001", section = "Algorithm Specification — Graph Data Generation" }
+P1-GRAPH-003 = { paper = "YP-CONTENT-GRAPH-VIEW-001", section = "Theoretical Foundation — Performance Optimization" }
+P1-GRAPH-004 = { paper = "YP-CONTENT-GRAPH-VIEW-001", section = "Theoretical Foundation — Interaction Patterns" }
+P1-SPLIT-001 = { paper = "YP-UI-SPLIT-VIEWS-001", section = "Algorithm Specification — Resize Drag Algorithm" }
+P1-SPLIT-002 = { paper = "YP-UI-SPLIT-VIEWS-001", section = "Algorithm Specification — Tab Switching Algorithm" }
+P1-SPLIT-003 = { paper = "YP-UI-SPLIT-VIEWS-001", section = "Theoretical Foundation — Responsive Behavior" }
+P1-SPLIT-004 = { paper = "YP-UI-SPLIT-VIEWS-001", section = "Theoretical Foundation — State Persistence" }
+P1-REGEX-001 = { paper = "YP-CONTENT-REGEX-SEARCH-001", section = "Algorithm Specification — Combined Search Algorithm" }
+P1-REGEX-002 = { paper = "YP-CONTENT-REGEX-SEARCH-001", section = "Theoretical Foundation — ReDoS Prevention" }
+P1-REGEX-003 = { paper = "YP-CONTENT-REGEX-SEARCH-001", section = "Theoretical Foundation — Advanced Search Syntax" }
+P1-REGEX-004 = { paper = "YP-CONTENT-REGEX-SEARCH-001", section = "Theoretical Foundation — Pagefind Integration" }
+
+# =============================================================================
+# DEPENDENCY MATRIX
+# =============================================================================
+
+[dependencies]
+# P1 features that depend on other features or papers
+YP-CONTENT-LATEX-001 = { depends_on = ["YP-WEB-TECH-001"], reason = "MDX pipeline integration and bundle size budgets" }
+YP-CONTENT-GRAPH-VIEW-001 = { depends_on = ["YP-EDU-CONTENT-001", "YP-WEB-TECH-001"], reason = "Graph data model derives from content schema; performance budgets" }
+YP-UI-SPLIT-VIEWS-001 = { depends_on = ["YP-WEB-TECH-001"], reason = "Bundle size budgets and accessibility requirements" }
+YP-CONTENT-REGEX-SEARCH-001 = { depends_on = ["YP-WEB-TECH-001"], reason = "Pagefind integration and search performance constraints" }
+
+# Cross-P1 dependencies
+YP-CONTENT-GRAPH-VIEW-001 = { cross_depends_on = ["YP-UI-SPLIT-VIEWS-001"], reason = "Graph view may use split pane for detail panel" }
+YP-CONTENT-REGEX-SEARCH-001 = { cross_depends_on = ["YP-CONTENT-LATEX-001"], reason = "Regex search must handle math expression content" }

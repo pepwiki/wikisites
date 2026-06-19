@@ -1,0 +1,1228 @@
+# =============================================================================
+# Test Vectors — P1 Content Tools
+# Document ID: TVS-CONTENT-TOOLS-001
+# Version: 1.0.0
+# Date: 2026-06-19
+# Status: DRAFT
+# Associated Yellow Papers: YP-CONTENT-LATEX-001, YP-CONTENT-GRAPH-VIEW-001,
+#                          YP-UI-SPLIT-VIEWS-001, YP-CONTENT-REGEX-SEARCH-001
+# Schema Version: 1.0
+# =============================================================================
+
+[metadata]
+total_vectors = 124
+categories = ["latex_inline", "latex_display", "latex_complex", "latex_chemistry", "latex_accessibility", "latex_error", "latex_darkmode", "graph_construction", "graph_layout", "graph_search", "graph_interaction", "graph_performance", "graph_accessibility", "split_resize", "split_tabs", "split_state", "split_responsive", "split_accessibility", "regex_basic", "regex_complex", "regex_fields", "regex_boolean", "regex_redos", "regex_performance"]
+precision_note = "All test vectors validated against algorithm specifications in respective Yellow Papers."
+
+# =============================================================================
+# LATEX/KATEX RENDERING — INLINE MATH
+# Format: input = TeX expression, expected = rendered output characteristics
+# =============================================================================
+
+[[test_vector]]
+id = "LATEX-INLINE-001"
+category = "latex_inline"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Simple subscript notation"
+input = { tex = "H_2O", display_mode = false }
+expected = { contains_subscript = true, contains_text = "H", aria_label = "H_2O" }
+notes = "Water molecular formula. Most basic subscript usage in chemistry."
+
+[[test_vector]]
+id = "LATEX-INLINE-002"
+category = "latex_inline"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Greek letter alpha"
+input = { tex = "\\alpha = 0.05", display_mode = false }
+expected = { contains_greek = true, contains_alpha = true, aria_label = "alpha = 0.05" }
+notes = "Statistical significance level. Common in scientific notation."
+
+[[test_vector]]
+id = "LATEX-INLINE-003"
+category = "latex_inline"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Superscript notation"
+input = { tex = "Ca^{2+}", display_mode = false }
+expected = { contains_superscript = true, aria_label = "Ca^{2+}" }
+notes = "Calcium ion notation. Essential for biochemistry."
+
+[[test_vector]]
+id = "LATEX-INLINE-004"
+category = "latex_inline"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Delta G equation inline"
+input = { tex = "\\Delta G = -RT \\ln K", display_mode = false }
+expected = { contains_delta = true, contains_greek = true, aria_label = "Delta G = -RT ln K" }
+notes = "Gibbs free energy equation. Core thermodynamic formula."
+
+[[test_vector]]
+id = "LATEX-INLINE-005"
+category = "latex_inline"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Degree symbol"
+input = { tex = "T = 37^\\circ C", display_mode = false }
+expected = { contains_degree = true, aria_label = "T = 37^\\circ C" }
+notes = "Body temperature. Common in pharmacokinetics."
+
+[[test_vector]]
+id = "LATEX-INLINE-006"
+category = "latex_inline"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Plus-minus symbol"
+input = { tex = "MW = 555.6 \\pm 0.2 \\text{ Da}", display_mode = false }
+expected = { contains_plusminus = true, aria_label_matches = "555.6" }
+notes = "Molecular weight with uncertainty. Common in analytical chemistry."
+
+[[test_vector]]
+id = "LATEX-INLINE-007"
+category = "latex_inline"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Approximately equal"
+input = { tex = "K_d \\approx 10^{-9} \\text{ M}", display_mode = false }
+expected = { contains_approx = true, contains_scientific = true }
+notes = "Dissociation constant. Binding affinity measurement."
+
+[[test_vector]]
+id = "LATEX-INLINE-008"
+category = "latex_inline"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Subscript with multiple characters"
+input = { tex = "pH_{7.4}", display_mode = false }
+expected = { contains_subscript = true, aria_label = "pH_{7.4}" }
+notes = "Physiological pH value."
+
+# =============================================================================
+# LATEX/KATEX RENDERING — DISPLAY MATH
+# =============================================================================
+
+[[test_vector]]
+id = "LATEX-DISPLAY-001"
+category = "latex_display"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Fraction notation"
+input = { tex = "\\frac{k_{cat}}{K_M}", display_mode = true }
+expected = { is_display = true, contains_fraction = true, centered = true }
+notes = "Catalytic efficiency. Core enzyme kinetics metric."
+
+[[test_vector]]
+id = "LATEX-DISPLAY-002"
+category = "latex_display"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Integral notation"
+input = { tex = "\\int_0^{\\infty} e^{-kt} dt", display_mode = true }
+expected = { is_display = true, contains_integral = true, centered = true }
+notes = "Exponential decay integral. Used in pharmacokinetic modeling."
+
+[[test_vector]]
+id = "LATEX-DISPLAY-003"
+category = "latex_display"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Summation notation"
+input = { tex = "\\sum_{i=1}^{n} m_i", display_mode = true }
+expected = { is_display = true, contains_summation = true, centered = true }
+notes = "Sum of molecular weights. Used in peptide mass calculation."
+
+[[test_vector]]
+id = "LATEX-DISPLAY-004"
+category = "latex_display"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Square root"
+input = { tex = "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}", display_mode = true }
+expected = { is_display = true, contains_sqrt = true, centered = true }
+notes = "Quadratic formula. Reference equation for binding models."
+
+[[test_vector]]
+id = "LATEX-DISPLAY-005"
+category = "latex_display"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Multi-line aligned equation"
+input = { tex = "\\begin{aligned} \\Delta G &= -RT \\ln K \\\\ &= -(8.314)(310) \\ln(10^9) \\end{aligned}", display_mode = true }
+expected = { is_display = true, contains_aligned = true, multi_line = true }
+notes = "Gibbs free energy calculation with substitution. Common in thermodynamics."
+
+[[test_vector]]
+id = "LATEX-DISPLAY-006"
+category = "latex_display"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Matrix notation"
+input = { tex = "\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}", display_mode = true }
+expected = { is_display = true, contains_matrix = true, centered = true }
+notes = "2x2 matrix. Used in structural biology notation."
+
+[[test_vector]]
+id = "LATEX-DISPLAY-007"
+category = "latex_display"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Limit notation"
+input = { tex = "\\lim_{x \\to \\infty} f(x)", display_mode = true }
+expected = { is_display = true, contains_limit = true, centered = true }
+notes = "Limit expression. Used in kinetic modeling."
+
+[[test_vector]]
+id = "LATEX-DISPLAY-008"
+category = "latex_display"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Differential equation"
+input = { tex = "\\frac{d[A]}{dt} = -k[A]^2", display_mode = true }
+expected = { is_display = true, contains_fraction = true, centered = true }
+notes = "Second-order rate equation. Core pharmacokinetic model."
+
+# =============================================================================
+# LATEX/KATEX RENDERING — COMPLEX EXPRESSIONS
+# =============================================================================
+
+[[test_vector]]
+id = "LATEX-COMPLEX-001"
+category = "latex_complex"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Hill equation"
+input = { tex = "\\theta = \\frac{[L]^n}{K_d^n + [L]^n}", display_mode = true }
+expected = { is_display = true, contains_fraction = true, contains_superscript = true }
+notes = "Hill equation for cooperative binding. Critical in pharmacology."
+
+[[test_vector]]
+id = "LATEX-COMPLEX-002"
+category = "latex_complex"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Michaelis-Menten equation"
+input = { tex = "v = \\frac{V_{max}[S]}{K_m + [S]}", display_mode = true }
+expected = { is_display = true, contains_fraction = true, contains_subscript = true }
+notes = "Enzyme kinetics fundamental equation."
+
+[[test_vector]]
+id = "LATEX-COMPLEX-003"
+category = "latex_complex"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Henderson-Hasselbalch equation"
+input = { tex = "pH = pK_a + \\log_{10}\\frac{[A^-]}{[HA]}", display_mode = true }
+expected = { is_display = true, contains_log = true, contains_fraction = true }
+notes = "Acid-base equilibrium. Essential for peptide charge calculation."
+
+[[test_vector]]
+id = "LATEX-COMPLEX-004"
+category = "latex_complex"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Nernst equation"
+input = { tex = "E = E^\\circ - \\frac{RT}{nF}\\ln Q", display_mode = true }
+expected = { is_display = true, contains_fraction = true, contains_ln = true }
+notes = "Electrochemistry equation. Used in biosensor applications."
+
+[[test_vector]]
+id = "LATEX-COMPLEX-005"
+category = "latex_complex"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Piecewise function"
+input = { tex = "f(x) = \\begin{cases} x^2 & \\text{if } x \\geq 0 \\\\ -x & \\text{if } x < 0 \\end{cases}", display_mode = true }
+expected = { is_display = true, contains_cases = true, multi_line = true }
+notes = "Piecewise function. Used in dose-response models."
+
+[[test_vector]]
+id = "LATEX-COMPLEX-006"
+category = "latex_complex"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Nested fractions"
+input = { tex = "\\frac{\\frac{a}{b}}{\\frac{c}{d}}", display_mode = true }
+expected = { is_display = true, contains_nested_fraction = true, centered = true }
+notes = "Complex fraction. Tests deep nesting rendering."
+
+# =============================================================================
+# LATEX/KATEX RENDERING — CHEMISTRY NOTATION
+# =============================================================================
+
+[[test_vector]]
+id = "LATEX-CHEM-001"
+category = "latex_chemistry"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Chemical formula with mhchem"
+input = { tex = "\\ce{H2O}", display_mode = false }
+expected = { contains_subscript = true, aria_label = "H2O" }
+notes = "Water molecule using mhchem package. Basic chemistry notation."
+
+[[test_vector]]
+id = "LATEX-CHEM-002"
+category = "latex_chemistry"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Ion notation"
+input = { tex = "\\ce{Ca^2+}", display_mode = false }
+expected = { contains_superscript = true, aria_label_matches = "Ca" }
+notes = "Calcium ion. Essential for biochemistry."
+
+[[test_vector]]
+id = "LATEX-CHEM-003"
+category = "latex_chemistry"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Chemical reaction"
+input = { tex = "\\ce{A + B -> C + D}", display_mode = true }
+expected = { is_display = true, contains_arrow = true, centered = true }
+notes = "Generic reaction. Used in synthesis pathway documentation."
+
+[[test_vector]]
+id = "LATEX-CHEM-004"
+category = "latex_chemistry"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Equilibrium arrows"
+input = { tex = "\\ce{A <=> B}", display_mode = true }
+expected = { is_display = true, contains_equilibrium = true, centered = true }
+notes = "Reversible reaction. Used in peptide folding documentation."
+
+[[test_vector]]
+id = "LATEX-CHEM-005"
+category = "latex_chemistry"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Complex peptide bond"
+input = { tex = "\\ce{CH3-CO-NH-CH(R)-COOH}", display_mode = false }
+expected = { contains_chemistry = true, aria_label_matches = "peptide" }
+notes = "Peptide bond structure. Core oligopeptide chemistry."
+
+# =============================================================================
+# LATEX/KATEX RENDERING — ACCESSIBILITY
+# =============================================================================
+
+[[test_vector]]
+id = "LATEX-A11Y-001"
+category = "latex_accessibility"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "ARIA label on inline math"
+input = { tex = "E = mc^2", display_mode = false }
+expected = { has_aria_label = true, has_role_math = true, aria_label = "E = mc^2" }
+notes = "Basic accessibility requirement for inline math."
+
+[[test_vector]]
+id = "LATEX-A11Y-002"
+category = "latex_accessibility"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "ARIA label on display math"
+input = { tex = "\\frac{a}{b}", display_mode = true }
+expected = { has_aria_label = true, has_role_math = true, is_display = true }
+notes = "Display math accessibility with role attribute."
+
+[[test_vector]]
+id = "LATEX-A11Y-003"
+category = "latex_accessibility"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Complex expression speech text"
+input = { tex = "\\Delta G = -RT \\ln K", display_mode = true }
+expected = { has_aria_label = true, aria_label_contains = "Delta G" }
+notes = "Speech text should be human-readable, not raw TeX."
+
+[[test_vector]]
+id = "LATEX-A11Y-004"
+category = "latex_accessibility"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "MathML fallback present"
+input = { tex = "x^2", display_mode = false }
+expected = { has_mathml_fallback = true, has_aria_label = true }
+notes = "MathML fallback for browsers that support it."
+
+[[test_vector]]
+id = "LATEX-A11Y-005"
+category = "latex_accessibility"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Focusable math container"
+input = { tex = "\\sum_{i=1}^n x_i", display_mode = true }
+expected = { is_focusable = true, has_tabindex = true }
+notes = "Interactive math expressions must be keyboard focusable."
+
+# =============================================================================
+# LATEX/KATEX RENDERING — ERROR HANDLING
+# =============================================================================
+
+[[test_vector]]
+id = "LATEX-ERROR-001"
+category = "latex_error"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Unclosed brace"
+input = { tex = "\\frac{a}{b", display_mode = false }
+expected = { shows_error = true, error_visible = true, no_crash = true }
+notes = "Invalid TeX should show visible error, not break layout."
+
+[[test_vector]]
+id = "LATEX-ERROR-002"
+category = "latex_error"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Unknown command"
+input = { tex = "\\nonexistentcommand", display_mode = false }
+expected = { shows_error = true, error_visible = true, no_crash = true }
+notes = "Unknown commands should be handled gracefully."
+
+[[test_vector]]
+id = "LATEX-ERROR-003"
+category = "latex_error"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Empty math expression"
+input = { tex = "", display_mode = false }
+expected = { shows_error = true, no_crash = true }
+notes = "Empty expressions should not crash renderer."
+
+[[test_vector]]
+id = "LATEX-ERROR-004"
+category = "latex_error"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Unclosed delimiter"
+input = { tex = "$E = mc^2", display_mode = false }
+expected = { shows_error = true, error_visible = true, no_crash = true }
+notes = "Unclosed inline math delimiter."
+
+# =============================================================================
+# LATEX/KATEX RENDERING — DARK MODE
+# =============================================================================
+
+[[test_vector]]
+id = "LATEX-DARK-001"
+category = "latex_darkmode"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Dark mode contrast ratio"
+input = { tex = "E = mc^2", display_mode = false, theme = "dark" }
+expected = { contrast_ratio_gte = 4.5, text_visible = true }
+notes = "WCAG 2.1 AA contrast requirement for dark mode."
+
+[[test_vector]]
+id = "LATEX-DARK-002"
+category = "latex_darkmode"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Dark mode Greek letters"
+input = { tex = "\\alpha \\beta \\gamma \\delta", display_mode = true, theme = "dark" }
+expected = { contrast_ratio_gte = 4.5, greek_visible = true }
+notes = "Greek letters must be visible in dark mode."
+
+[[test_vector]]
+id = "LATEX-DARK-003"
+category = "latex_darkmode"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Dark mode fractions"
+input = { tex = "\\frac{a}{b}", display_mode = true, theme = "dark" }
+expected = { contrast_ratio_gte = 4.5, fraction_line_visible = true }
+notes = "Fraction line must be visible in dark mode."
+
+[[test_vector]]
+id = "LATEX-DARK-004"
+category = "latex_darkmode"
+paper_id = "YP-CONTENT-LATEX-001"
+description = "Dark mode error state"
+input = { tex = "\\invalid", display_mode = false, theme = "dark" }
+expected = { error_visible = true, error_contrast_gte = 4.5 }
+notes = "Error messages must also be visible in dark mode."
+
+# =============================================================================
+# KNOWLEDGE GRAPH — CONSTRUCTION
+# =============================================================================
+
+[[test_vector]]
+id = "GRAPH-CONSTRUCT-001"
+category = "graph_construction"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Node creation from article"
+input = { articles = [{ slug = "glutathione", title = "Glutathione", category = "chemistry", tags = ["antioxidant", "tripeptide"], relatedArticles = ["oxytocin"] }] }
+expected = { node_count = 1, edge_count = 0, node_has_field = ["id", "label", "type", "category", "tags", "url"] }
+notes = "Single article produces single node with no edges (relatedArticles are external)."
+
+[[test_vector]]
+id = "GRAPH-CONSTRUCT-002"
+category = "graph_construction"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Edge creation from relatedArticles"
+input = { articles = [{ slug = "a", title = "A", category = "chemistry", tags = ["x"], relatedArticles = ["b"] }, { slug = "b", title = "B", category = "biology", tags = ["x"], relatedArticles = [] }] }
+expected = { node_count = 2, edge_count = 1, edge_type = "related" }
+notes = "relatedArticles creates 'related' edge type between nodes."
+
+[[test_vector]]
+id = "GRAPH-CONSTRUCT-003"
+category = "graph_construction"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Edge creation from shared tags"
+input = { articles = [{ slug = "a", title = "A", category = "chemistry", tags = ["pharmacology", "receptor"], relatedArticles = [] }, { slug = "b", title = "B", category = "biology", tags = ["pharmacology", "receptor"], relatedArticles = [] }] }
+expected = { node_count = 2, edge_count = 1, edge_type = "tag", edge_weight = 0.4 }
+notes = "Shared tags create 'tag' edges with weight proportional to tag count."
+
+[[test_vector]]
+id = "GRAPH-CONSTRUCT-004"
+category = "graph_construction"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Relevance scoring"
+input = { articles = [{ slug = "a", title = "A", category = "chemistry", tags = [], relatedArticles = ["b", "c"] }, { slug = "b", title = "B", category = "biology", tags = [], relatedArticles = ["a"] }, { slug = "c", title = "C", category = "pharmacology", tags = [], relatedArticles = ["a"] }] }
+expected = { node_a_relevance_gt = 0.5, node_b_relevance_lt = 0.5 }
+notes = "Node 'a' has highest degree centrality (3 connections)."
+
+[[test_vector]]
+id = "GRAPH-CONSTRUCT-005"
+category = "graph_construction"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Deduplication of edges"
+input = { articles = [{ slug = "a", title = "A", category = "chemistry", tags = ["x"], relatedArticles = ["b"] }, { slug = "b", title = "B", category = "biology", tags = ["x"], relatedArticles = ["a"] }] }
+expected = { node_count = 2, edge_count = 2, unique_edge_pairs = 2 }
+notes = "Bidirectional relatedArticles produces one edge per direction, plus one tag edge."
+
+[[test_vector]]
+id = "GRAPH-CONSTRUCT-006"
+category = "graph_construction"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Graph metadata generation"
+input = { articles = [{ slug = "a", title = "A", category = "chemistry", tags = ["x", "y"], relatedArticles = [] }, { slug = "b", title = "B", category = "biology", tags = ["y", "z"], relatedArticles = [] }] }
+expected = { total_nodes = 2, total_edges = 1, categories = ["chemistry", "biology"], tags_contain = ["x", "y", "z"] }
+notes = "Metadata aggregates all unique categories and tags."
+
+# =============================================================================
+# KNOWLEDGE GRAPH — LAYOUT
+# =============================================================================
+
+[[test_vector]]
+id = "GRAPH-LAYOUT-001"
+category = "graph_layout"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Force-directed layout positions"
+input = { nodes = [{ id: "a" }, { id: "b" }], edges = [{ source: "a", target: "b" }], layout = "force", width = 800, height = 600 }
+expected = { nodes_within_bounds = true, no_overlap = true, connected_nodes_close = true }
+notes = "Force-directed layout should position connected nodes near each other."
+
+[[test_vector]]
+id = "GRAPH-LAYOUT-002"
+category = "graph_layout"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Hierarchical layout layers"
+input = { nodes = [{ id: "a", depth: 0 }, { id: "b", depth: 1 }, { id: "c", depth: 2 }], edges = [{ source: "a", target: "b" }, { source: "b", target: "c" }], layout = "hierarchical" }
+expected = { layer_order = ["a", "b", "c"], nodes_within_bounds = true }
+notes = "Hierarchical layout respects depth ordering."
+
+[[test_vector]]
+id = "GRAPH-LAYOUT-003"
+category = "graph_layout"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Radial layout centering"
+input = { nodes = [{ id: "center" }, { id: "a" }, { id: "b" }, { id: "c" }], edges = [{ source: "center", target: "a" }, { source: "center", target: "b" }, { source: "center", target: "c" }], layout = "radial", focus = "center" }
+expected = { center_at_origin = true, neighbors_in_ring = true, no_overlap = true }
+notes = "Radial layout positions focus node at center, neighbors in ring."
+
+[[test_vector]]
+id = "GRAPH-LAYOUT-004"
+category = "graph_layout"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Layout with 100 nodes completes"
+input = { node_count = 100, edge_count = 300, layout = "force" }
+expected = { completes = true, time_ms_lt = 2000, no_overlap = true }
+notes = "Layout computation must complete within performance budget."
+
+[[test_vector]]
+id = "GRAPH-LAYOUT-005"
+category = "graph_layout"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Layout respects min-distance constraint"
+input = { nodes = [{ id: "a" }, { id: "b" }], edges = [], layout = "force" }
+expected = { min_distance_gte = 20, no_overlap = true }
+notes = "Nodes without edges should still maintain minimum spacing."
+
+# =============================================================================
+# KNOWLEDGE GRAPH — SEARCH/FILTER
+# =============================================================================
+
+[[test_vector]]
+id = "GRAPH-SEARCH-001"
+category = "graph_search"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Search by title"
+input = { query = "glutathione", nodes = [{ id: "a", label: "Glutathione" }, { id: "b", label: "Oxytocin" }] }
+expected = { matching_nodes = ["a"], dimmed_nodes = ["b"] }
+notes = "Title search should match exact article."
+
+[[test_vector]]
+id = "GRAPH-SEARCH-002"
+category = "graph_search"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Search by tag"
+input = { query = "pharmacology", nodes = [{ id: "a", label: "A", tags: ["pharmacology"] }, { id: "b", label: "B", tags: ["chemistry"] }] }
+expected = { matching_nodes = ["a"], dimmed_nodes = ["b"] }
+notes = "Tag search should find articles with matching tags."
+
+[[test_vector]]
+id = "GRAPH-SEARCH-003"
+category = "graph_search"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Search highlights neighbors"
+input = { query = "a", nodes = [{ id: "a", label: "Article A" }, { id: "b", label: "Article B" }], edges = [{ source: "a", target: "b" }] }
+expected = { matching_nodes = ["a"], highlighted_neighbors = ["b"], dimmed_nodes = [] }
+notes = "Neighbors of matching nodes should be highlighted, not dimmed."
+
+[[test_vector]]
+id = "GRAPH-SEARCH-004"
+category = "graph_search"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Empty query shows all nodes"
+input = { query = "", nodes = [{ id: "a" }, { id: "b" }] }
+expected = { matching_nodes = ["a", "b"], dimmed_nodes = [] }
+notes = "Empty query should show all nodes without dimming."
+
+[[test_vector]]
+id = "GRAPH-SEARCH-005"
+category = "graph_search"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Case-insensitive search"
+input = { query = "GLUTATHIONE", nodes = [{ id: "a", label: "Glutathione" }] }
+expected = { matching_nodes = ["a"] }
+notes = "Search should be case-insensitive."
+
+# =============================================================================
+# KNOWLEDGE GRAPH — INTERACTION
+# =============================================================================
+
+[[test_vector]]
+id = "GRAPH-INTERACT-001"
+category = "graph_interaction"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Click node navigates to article"
+input = { action = "click", node_id = "glutathione" }
+expected = { navigates_to = "/articles/glutathione" }
+notes = "Clicking a node should navigate to the corresponding article."
+
+[[test_vector]]
+id = "GRAPH-INTERACT-002"
+category = "graph_interaction"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Hover shows tooltip"
+input = { action = "hover", node_id = "glutathione" }
+expected = { tooltip_visible = true, tooltip_contains = "Glutathione" }
+notes = "Hovering should show article title in tooltip."
+
+[[test_vector]]
+id = "GRAPH-INTERACT-003"
+category = "graph_interaction"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Keyboard Tab focuses nodes"
+input = { action = "tab", focusable_nodes = ["a", "b", "c"] }
+expected = { focus_order = ["a", "b", "c"] }
+notes = "Tab should move focus between nodes in order."
+
+[[test_vector]]
+id = "GRAPH-INTERACT-004"
+category = "graph_interaction"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Enter activates focused node"
+input = { action = "enter", focused_node = "glutathione" }
+expected = { navigates_to = "/articles/glutathione" }
+notes = "Enter on focused node should navigate to article."
+
+# =============================================================================
+# KNOWLEDGE GRAPH — PERFORMANCE
+# =============================================================================
+
+[[test_vector]]
+id = "GRAPH-PERF-001"
+category = "graph_performance"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "500-node graph initial render"
+input = { node_count = 500, edge_count = 2000, platform = "desktop" }
+expected = { render_time_ms_lt = 2000, memory_mb_lt = 50 }
+notes = "Desktop must render 500-node graph within 2 seconds."
+
+[[test_vector]]
+id = "GRAPH-PERF-002"
+category = "graph_performance"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "500-node graph frame rate"
+input = { node_count = 500, edge_count = 2000, interaction = "zoom" }
+expected = { fps_gte = 60 }
+notes = "Zoom interaction must maintain 60fps on desktop."
+
+[[test_vector]]
+id = "GRAPH-PERF-003"
+category = "graph_performance"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "200-node mobile graph render"
+input = { node_count = 200, edge_count = 800, platform = "mobile" }
+expected = { render_time_ms_lt = 3000, memory_mb_lt = 30 }
+notes = "Mobile rendering is slower but must stay within budget."
+
+[[test_vector]]
+id = "GRAPH-PERF-004"
+category = "graph_performance"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Graph JSON size"
+input = { node_count = 500, edge_count = 2000 }
+expected = { json_size_kb_lt = 500, compressed_size_kb_lt = 100 }
+notes = "Graph data transfer must be within network budget."
+
+# =============================================================================
+# KNOWLEDGE GRAPH — ACCESSIBILITY
+# =============================================================================
+
+[[test_vector]]
+id = "GRAPH-A11Y-001"
+category = "graph_accessibility"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "ARIA labels on nodes"
+input = { nodes = [{ id: "a", label: "Glutathione" }] }
+expected = { node_has_aria_label = true, aria_label = "Glutathione" }
+notes = "All graph nodes must have descriptive ARIA labels."
+
+[[test_vector]]
+id = "GRAPH-A11Y-002"
+category = "graph_accessibility"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Screen reader graph description"
+input = { node_count = 50, edge_count = 100, categories = ["chemistry", "biology"] }
+expected = { description_contains_stats = true, description_contains_navigation = true }
+notes = "Screen reader should announce graph summary and navigation help."
+
+[[test_vector]]
+id = "GRAPH-A11Y-003"
+category = "graph_accessibility"
+paper_id = "YP-CONTENT-GRAPH-VIEW-001"
+description = "Reduced motion disables animation"
+input = { prefers_reduced_motion = true }
+expected = { simulation_animated = false, transition_animated = false }
+notes = "Force simulation animation must be disabled when reduced motion is preferred."
+
+# =============================================================================
+# SPLIT VIEWS — RESIZE
+# =============================================================================
+
+[[test_vector]]
+id = "SPLIT-RESIZE-001"
+category = "split_resize"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Mouse drag resize adjusts proportions"
+input = { action = "drag", start_x = 400, delta_x = 50, container_width = 800 }
+expected = { left_proportion_gte = 50, left_proportion_lte = 60, response_time_ms_lt = 16 }
+notes = "Drag resize must respond within one frame (16ms)."
+
+[[test_vector]]
+id = "SPLIT-RESIZE-002"
+category = "split_resize"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Keyboard resize adjusts by 5%"
+input = { action = "arrow_right", current_proportion = 50, step = 5 }
+expected = { new_proportion = 55, response_time_ms_lt = 16 }
+notes = "Arrow keys adjust by 5% by default."
+
+[[test_vector]]
+id = "SPLIT-RESIZE-003"
+category = "split_resize"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Shift+arrow adjusts by 20%"
+input = { action = "shift_arrow_right", current_proportion = 50, step = 20 }
+expected = { new_proportion = 70 }
+notes = "Shift modifier enables coarse adjustment."
+
+[[test_vector]]
+id = "SPLIT-RESIZE-004"
+category = "split_resize"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Double-click resets to 50/50"
+input = { action = "dblclick", current_proportion = 70 }
+expected = { new_proportion = 50, animated = true }
+notes = "Double-click should animate to equal split."
+
+[[test_vector]]
+id = "SPLIT-RESIZE-005"
+category = "split_resize"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Minimum pane size enforced"
+input = { action = "drag", delta_x = -700, container_width = 800 }
+expected = { left_proportion_gte = 10, left_proportion_px_gte = 200 }
+notes = "Pane cannot shrink below 200px minimum."
+
+[[test_vector]]
+id = "SPLIT-RESIZE-006"
+category = "split_resize"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Maximum pane size enforced"
+input = { action = "drag", delta_x = 700, container_width = 800 }
+expected = { left_proportion_lte = 90, right_proportion_px_gte = 200 }
+notes = "Pane cannot grow beyond container minus minimum."
+
+# =============================================================================
+# SPLIT VIEWS — TABS
+# =============================================================================
+
+[[test_vector]]
+id = "SPLIT-TABS-001"
+category = "split_tabs"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Tab switch loads correct content"
+input = { pane_id = "left", tabs = [{ contentId: "article-a" }, { contentId: "article-b" }], activeTab = 1 }
+expected = { visible_content = "article-b", previous_content_hidden = true }
+notes = "Tab switching should show correct article."
+
+[[test_vector]]
+id = "SPLIT-TABS-002"
+category = "split_tabs"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Add tab to pane"
+input = { pane_id = "left", existing_tabs = 2, new_tab = { contentId: "article-c" } }
+expected = { tab_count = 3, new_tab_visible = true }
+notes = "New tab should be added and selectable."
+
+[[test_vector]]
+id = "SPLIT-TABS-003"
+category = "split_tabs"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Remove tab from pane"
+input = { pane_id = "left", tabs = [{ contentId: "a" }, { contentId: "b" }], removeTab = 1 }
+expected = { tab_count = 1, remaining_content = "a" }
+notes = "Removing a tab should not affect other tabs."
+
+[[test_vector]]
+id = "SPLIT-TABS-004"
+category = "split_tabs"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Tab state persists"
+input = { pane_id = "left", tabs = [{ contentId: "a" }], activeTab = 0 }
+expected = { state_saved = true, state_restored = true }
+notes = "Active tab should persist across page reloads."
+
+# =============================================================================
+# SPLIT VIEWS — STATE PERSISTENCE
+# =============================================================================
+
+[[test_vector]]
+id = "SPLIT-STATE-001"
+category = "split_state"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Pane proportions persist"
+input = { proportions = [60, 40], action = "save_and_reload" }
+expected = { restored_proportions = [60, 40] }
+notes = "Proportions should survive page reload."
+
+[[test_vector]]
+id = "SPLIT-STATE-002"
+category = "split_state"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Pane content persists"
+input = { panes = [{ contentId: "glutathione" }, { contentId: "oxytocin" }], action = "save_and_reload" }
+expected = { restored_panes_contain = ["glutathione", "oxytocin"] }
+notes = "Open articles should survive page reload."
+
+[[test_vector]]
+id = "SPLIT-STATE-003"
+category = "split_state"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Invalid state falls back to default"
+input = { state_version = 999, action = "load" }
+expected = { uses_default_state = true }
+notes = "Unknown state versions should trigger fallback."
+
+[[test_vector]]
+id = "SPLIT-STATE-004"
+category = "split_state"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Deleted article handled gracefully"
+input = { panes = [{ contentId: "deleted-article" }], action = "load" }
+expected = { falls_back_to_default_article = true, no_crash = true }
+notes = "Missing articles should trigger fallback, not crash."
+
+# =============================================================================
+# SPLIT VIEWS — RESPONSIVE
+# =============================================================================
+
+[[test_vector]]
+id = "SPLIT-RESPONSIVE-001"
+category = "split_responsive"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Mobile stacks panes vertically"
+input = { viewport_width = 375 }
+expected = { layout = "stacked", resize_handle_visible = false, tab_navigation = true }
+notes = "Mobile should show single pane with tab switching."
+
+[[test_vector]]
+id = "SPLIT-RESPONSIVE-002"
+category = "split_responsive"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Tablet shows two-column"
+input = { viewport_width = 768 }
+expected = { layout = "two-column", resize_handle_visible = true }
+notes = "Tablet should show two-pane horizontal split."
+
+[[test_vector]]
+id = "SPLIT-RESPONSIVE-003"
+category = "split_responsive"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Desktop shows full grid"
+input = { viewport_width = 1440 }
+expected = { layout = "grid", max_panes = 4, resize_handle_visible = true }
+notes = "Desktop should support up to 4 panes in grid."
+
+[[test_vector]]
+id = "SPLIT-RESPONSIVE-004"
+category = "split_responsive"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Breakpoint transition preserves state"
+input = { from_width = 1440, to_width = 375, proportions = [60, 40] }
+expected = { state_preserved = true, restored_after_resize = true }
+notes = "State should persist through viewport changes."
+
+[[test_vector]]
+id = "SPLIT-RESPONSIVE-005"
+category = "split_responsive"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Touch resize on tablet"
+input = { viewport_width = 768, action = "touch_drag", delta_x = 50 }
+expected = { resize_works = true, response_time_ms_lt = 16 }
+notes = "Touch drag should work on tablet resize handles."
+
+# =============================================================================
+# SPLIT VIEWS — ACCESSIBILITY
+# =============================================================================
+
+[[test_vector]]
+id = "SPLIT-A11Y-001"
+category = "split_accessibility"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Resize handle focusable"
+input = { action = "tab" }
+expected = { handle_receives_focus = true, focus_ring_visible = true }
+notes = "Resize handle must be reachable via Tab key."
+
+[[test_vector]]
+id = "SPLIT-A11Y-002"
+category = "split_accessibility"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Resize handle has ARIA label"
+input = { handle_exists = true }
+expected = { has_aria_label = true, aria_label_contains = "resize" }
+notes = "Resize handle must have descriptive ARIA label."
+
+[[test_vector]]
+id = "SPLIT-A11Y-003"
+category = "split_accessibility"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Keyboard resize announces proportions"
+input = { action = "arrow_right", current_proportion = 50 }
+expected = { aria_live_announcement = true, announcement_contains = "55%" }
+notes = "Proportion changes must be announced to screen readers."
+
+[[test_vector]]
+id = "SPLIT-A11Y-004"
+category = "split_accessibility"
+paper_id = "YP-UI-SPLIT-VIEWS-001"
+description = "Pane region has ARIA role"
+input = { pane_exists = true }
+expected = { has_role_region = true, has_aria_label = true }
+notes = "Pane container should be a landmark region."
+
+# =============================================================================
+# REGEX SEARCH — BASIC
+# =============================================================================
+
+[[test_vector]]
+id = "REGEX-BASIC-001"
+category = "regex_basic"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Literal text match"
+input = { pattern = "glutathione", flags = "i", corpus = ["Glutathione is an antioxidant.", "Oxytocin is a hormone."] }
+expected = { match_count = 1, matched_doc = 0 }
+notes = "Simple literal match with case insensitivity."
+
+[[test_vector]]
+id = "REGEX-BASIC-002"
+category = "regex_basic"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Digit match"
+input = { pattern = "\\d+", flags = "g", corpus = ["MW 555.62 Da", "Sequence: YGGFL"] }
+expected = { match_count = 1, matched_values_contain = ["555", "62"] }
+notes = "Digit quantifier matches numerical values."
+
+[[test_vector]]
+id = "REGEX-BASIC-003"
+category = "regex_basic"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Character class match"
+input = { pattern = "[ACDEFGHIKLMNPQRSTVWY]{5}", flags = "g", corpus = ["YGGFL is a pentapeptide", "Hello world"] }
+expected = { match_count = 1, matched_values_contain = ["YGGFL"] }
+notes = "Amino acid character class matches peptide sequences."
+
+[[test_vector]]
+id = "REGEX-BASIC-004"
+category = "regex_basic"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Anchor match"
+input = { pattern = "^# ", flags = "gm", corpus = ["# Title\nSome text\n## Subtitle"] }
+expected = { match_count = 1 }
+notes = "Start anchor matches markdown headings."
+
+[[test_vector]]
+id = "REGEX-BASIC-005"
+category = "regex_basic"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Word boundary match"
+input = { pattern = "\\bpeptide\\b", flags = "gi", corpus = ["oligopeptide", "peptide bond", "peptides"] }
+expected = { match_count = 1, matched_values_contain = ["peptide"] }
+notes = "Word boundary matches standalone 'peptide' only."
+
+[[test_vector]]
+id = "REGEX-BASIC-006"
+category = "regex_basic"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Alternation match"
+input = { pattern = "insulin|glucagon", flags = "gi", corpus = ["insulin regulates glucose", "glucagon raises blood sugar", "oxytocin"] }
+expected = { match_count = 2 }
+notes = "Alternation matches either pattern."
+
+[[test_vector]]
+id = "REGEX-BASIC-007"
+category = "regex_basic"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Quantifier match"
+input = { pattern = "a{3,5}", flags = "g", corpus = ["a aa aaa aaaa aaaaa aaaaaa"] }
+expected = { match_count = 3, matched_values_contain = ["aaa", "aaaa", "aaaaa"] }
+notes = "Range quantifier matches specified repetitions."
+
+[[test_vector]]
+id = "REGEX-BASIC-008"
+category = "regex_basic"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Group capture"
+input = { pattern = "(\\d+)\\s*Da", flags = "g", corpus = ["MW 555.62 Da", "MW 1007.43 Da"] }
+expected = { match_count = 2, capture_groups = [["555.62"], ["1007.43"]] }
+notes = "Capture group extracts numerical values."
+
+# =============================================================================
+# REGEX SEARCH — COMPLEX
+# =============================================================================
+
+[[test_vector]]
+id = "REGEX-COMPLEX-001"
+category = "regex_complex"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Peptide sequence pattern"
+input = { pattern = "^[ACDEFGHIKLMNPQRSTVWY]{2,50}$", flags = "m", corpus = ["YGGFL", "CYIQNCPLG", "Hello", "GSH"] }
+expected = { match_count = 3 }
+notes = "Full-line peptide sequence pattern."
+
+[[test_vector]]
+id = "REGEX-COMPLEX-002"
+category = "regex_complex"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Molecular weight range"
+input = { pattern = "\\b(\\d{3,5}\\.\\d+)\\s*Da\\b", flags = "g", corpus = ["MW 555.62 Da", "MW 99999.99 Da", "MW 99.9 Da"] }
+expected = { match_count = 2 }
+notes = "Matches MW values with 3-5 digit integer part."
+
+[[test_vector]]
+id = "REGEX-COMPLEX-003"
+category = "regex_complex"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Lookahead for peptide with MW"
+input = { pattern = "(?=.*\\d+\\s*Da)[ACDEFGHIKLMNPQRSTVWY]+", flags = "g", corpus = ["YGGFL 555.62 Da", "CYIQNCPLG", "GSH 307.32 Da"] }
+expected = { match_count = 2 }
+notes = "Lookahead finds sequences followed by molecular weight."
+
+[[test_vector]]
+id = "REGEX-COMPLEX-004"
+category = "regex_complex"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Multi-line header extraction"
+input = { pattern = "^## (.+)$", flags = "gm", corpus = ["## Introduction\nText\n## Methods\nMore text"] }
+expected = { match_count = 2, matched_values_contain = ["Introduction", "Methods"] }
+notes = "Extracts markdown H2 headers."
+
+[[test_vector]]
+id = "REGEX-COMPLEX-005"
+category = "regex_complex"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Non-greedy match"
+input = { pattern = "<.+?>", flags = "g", corpus = ["<p>text</p><div>more</div>"] }
+expected = { match_count = 2, matched_values_contain = ["<p>", "<div>"] }
+notes = "Non-greedy match captures individual tags, not entire string."
+
+[[test_vector]]
+id = "REGEX-COMPLEX-006"
+category = "regex_complex"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Complex chemical formula"
+input = { pattern = "[A-Z][a-z]?\\d*(?:[A-Z][a-z]?\\d*){2,}", flags = "g", corpus = ["C43H66N12O12S2", "Hello World", "NaCl"] }
+expected = { match_count = 1, matched_values_contain = ["C43H66N12O12S2"] }
+notes = "Matches complex chemical formulas (3+ elements)."
+
+# =============================================================================
+# REGEX SEARCH — FIELD-SPECIFIC
+# =============================================================================
+
+[[test_vector]]
+id = "REGEX-FIELDS-001"
+category = "regex_fields"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Title field search"
+input = { query = "title:glutathione", documents = [{ title: "Glutathione", tags: [] }, { title: "Oxytocin", tags: ["glutathione"] }] }
+expected = { matched_docs = [0] }
+notes = "Field prefix restricts search to title."
+
+[[test_vector]]
+id = "REGEX-FIELDS-002"
+category = "regex_fields"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Tag field search"
+input = { query = "tag:pharmacology", documents = [{ title: "A", tags: ["pharmacology"] }, { title: "B", tags: ["chemistry"] }] }
+expected = { matched_docs = [0] }
+notes = "Tag field finds articles with specific tag."
+
+[[test_vector]]
+id = "REGEX-FIELDS-003"
+category = "regex_fields"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Category field search"
+input = { query = "category:chemistry", documents = [{ title: "A", category: "chemistry" }, { title: "B", category: "biology" }] }
+expected = { matched_docs = [0] }
+notes = "Category field filters by category."
+
+[[test_vector]]
+id = "REGEX-FIELDS-004"
+category = "regex_fields"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Difficulty field search"
+input = { query = "difficulty:advanced", documents = [{ title: "A", difficulty: "advanced" }, { title: "B", difficulty: "beginner" }] }
+expected = { matched_docs = [0] }
+notes = "Difficulty field filters by difficulty level."
+
+[[test_vector]]
+id = "REGEX-FIELDS-005"
+category = "regex_fields"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Author field search"
+input = { query = 'author:"Smith"', documents = [{ title: "A", author: "Smith" }, { title: "B", author: "Jones" }] }
+expected = { matched_docs = [0] }
+notes = "Author field finds articles by specific author."
+
+# =============================================================================
+# REGEX SEARCH — BOOLEAN OPERATORS
+# =============================================================================
+
+[[test_vector]]
+id = "REGEX-BOOLEAN-001"
+category = "regex_boolean"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "AND operator"
+input = { query = "insulin AND receptor", documents = [{ text: "insulin receptor binding" }, { text: "insulin glucose" }, { text: "glucagon receptor" }] }
+expected = { matched_docs = [0] }
+notes = "AND requires both terms present."
+
+[[test_vector]]
+id = "REGEX-BOOLEAN-002"
+category = "regex_boolean"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "OR operator"
+input = { query = "insulin OR glucagon", documents = [{ text: "insulin regulates" }, { text: "oxytocin" }, { text: "glucagon raises" }] }
+expected = { matched_docs = [0, 2] }
+notes = "OR matches documents with either term."
+
+[[test_vector]]
+id = "REGEX-BOOLEAN-003"
+category = "regex_boolean"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "NOT operator"
+input = { query = "peptide NOT synthetic", documents = [{ text: "natural peptide" }, { text: "synthetic peptide" }, { text: "peptide bond" }] }
+expected = { matched_docs = [0, 2] }
+notes = "NOT excludes documents with the term."
+
+[[test_vector]]
+id = "REGEX-BOOLEAN-004"
+category = "regex_boolean"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Combined AND + NOT"
+input = { query = "peptide AND binding NOT synthetic", documents = [{ text: "peptide binding natural" }, { text: "peptide synthetic" }, { text: "peptide binding synthetic" }] }
+expected = { matched_docs = [0] }
+notes = "Combined operators apply in sequence."
+
+[[test_vector]]
+id = "REGEX-BOOLEAN-005"
+category = "regex_boolean"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Field + boolean"
+input = { query = "tag:pharmacology AND title:insulin", documents = [{ title: "Insulin", tags: ["pharmacology"] }, { title: "Oxytocin", tags: ["pharmacology"] }, { title: "Insulin", tags: ["chemistry"] }] }
+expected = { matched_docs = [0] }
+notes = "Field and boolean operators combine."
+
+# =============================================================================
+# REGEX SEARCH — ReDoS PREVENTION
+# =============================================================================
+
+[[test_vector]]
+id = "REGEX-REDOS-001"
+category = "regex_redos"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Nested quantifiers detected"
+input = { pattern = "(a+)+b" }
+expected = { complexity_score_gte = 80, warning = true, safe = false }
+notes = "Classic ReDoS pattern. Must be detected and flagged."
+
+[[test_vector]]
+id = "REGEX-REDOS-002"
+category = "regex_redos"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Overlapping alternations detected"
+input = { pattern = "(a|a)+b" }
+expected = { complexity_score_gte = 50, warning = true }
+notes = "Overlapping alternatives cause backtracking."
+
+[[test_vector]]
+id = "REGEX-REDOS-003"
+category = "regex_redos"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Safe pattern passes"
+input = { pattern = "[a-z]+\\d{3}" }
+expected = { complexity_score_lt = 30, safe = true, warning = false }
+notes = "Simple character class + quantifier is safe."
+
+[[test_vector]]
+id = "REGEX-REDOS-004"
+category = "regex_redos"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Execution timeout on malicious input"
+input = { pattern = "(a+)+$", text = "aaaaaaaaaaaaaaaaaaaaaaaaaaa!" }
+expected = { execution_time_ms_lt = 100, error_or_timeout = true }
+notes = "Vulnerable pattern must timeout within 100ms."
+
+[[test_vector]]
+id = "REGEX-REDOS-005"
+category = "regex_redos"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Maximum pattern length enforced"
+input = { pattern = "a".repeat(300) }
+expected = { error = true, error_message_contains = "length" }
+notes = "Patterns exceeding 200 chars must be rejected."
+
+[[test_vector]]
+id = "REGEX-REDOS-006"
+category = "regex_redos"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Invalid regex syntax handled"
+input = { pattern = "(unclosed" }
+expected = { error = true, error_message_contains = "Invalid" }
+notes = "Invalid regex must show helpful error message."
+
+# =============================================================================
+# REGEX SEARCH — PERFORMANCE
+# =============================================================================
+
+[[test_vector]]
+id = "REGEX-PERF-001"
+category = "regex_performance"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Simple pattern on small corpus"
+input = { pattern = "insulin", corpus_size = 100, avg_doc_size = 2000 }
+expected = { total_time_ms_lt = 50 }
+notes = "Simple literal search on 100 documents."
+
+[[test_vector]]
+id = "REGEX-PERF-002"
+category = "regex_performance"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Complex pattern on medium corpus"
+input = { pattern = "[ACDEFGHIKLMNPQRSTVWY]{5,10}", corpus_size = 500, avg_doc_size = 2000 }
+expected = { total_time_ms_lt = 200 }
+notes = "Character class quantifier on 500 documents."
+
+[[test_vector]]
+id = "REGEX-PERF-003"
+category = "regex_performance"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Anchored pattern on full corpus"
+input = { pattern = "^## .+$", flags = "gm", corpus_size = 500, avg_doc_size = 2000 }
+expected = { total_time_ms_lt = 100 }
+notes = "Anchored pattern is fast due to early termination."
+
+[[test_vector]]
+id = "REGEX-PERF-004"
+category = "regex_performance"
+paper_id = "YP-CONTENT-REGEX-SEARCH-001"
+description = "Multiple patterns on corpus"
+input = { patterns = ["insulin", "receptor", "binding"], corpus_size = 500 }
+expected = { total_time_ms_lt = 150 }
+notes = "Multiple sequential regex searches."

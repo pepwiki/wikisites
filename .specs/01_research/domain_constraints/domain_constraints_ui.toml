@@ -1,0 +1,172 @@
+# =============================================================================
+# Domain Constraints: UI Features
+# Document ID: DCS-UI-001
+# Version: 1.0.0
+# Date: 2026-06-19
+# Status: DRAFT
+# =============================================================================
+
+[metadata]
+paper_ids = [
+  "YP-UI-COMMAND-PALETTE-001",
+  "YP-UI-KEYBOARD-SHORTCUTS-001",
+  "YP-UI-OUTLINE-PANEL-001",
+  "YP-UI-BREADCRUMBS-001"
+]
+total_constraints = 32
+
+# =============================================================================
+# PERFORMANCE CONSTRAINTS
+# =============================================================================
+
+[performance]
+
+[performance.bundle_size]
+description = "Maximum JavaScript bundle size for UI components"
+command_palette = { max_kb = 15, gzipped_kb = 5, rationale = "Lazy-loaded on first invocation" }
+keyboard_shortcuts = { max_kb = 8, gzipped_kb = 3, rationale = "Critical path, must be immediate" }
+outline_panel = { max_kb = 12, gzipped_kb = 4, rationale = "Lazy-loaded on panel open" }
+breadcrumbs = { max_kb = 3, gzipped_kb = 1, rationale = "Minimal logic, mostly static" }
+total_ui = { max_kb = 38, gzipped_kb = 13, rationale = "Combined UI feature budget" }
+
+[performance.latency]
+description = "Maximum latency for user interactions"
+palette_open_ms = { target = 50, max = 100, rationale = "Perceived instant response" }
+palette_close_ms = { target = 25, max = 50, rationale = "Dismissal should be instant" }
+fuzzy_match_100_cmds_ms = { target = 5, max = 10, rationale = "60fps frame budget" }
+fuzzy_match_1000_cmds_ms = { target = 20, max = 30, rationale = "Still within frame budget" }
+shortcut_detection_ms = { target = 1, max = 5, rationale = "Must feel instantaneous" }
+scroll_sync_ms = { target = 16, max = 32, rationale = "1-2 frames at 60fps" }
+outline_render_ms = { target = 100, max = 200, rationale = "Initial panel render" }
+breadcrumb_render_ms = { target = 5, max = 10, rationale = "Simple DOM structure" }
+
+[performance.core_web_vitals]
+description = "Core Web Vitals impact constraints"
+LCP_impact_ms = { max = 50, rationale = "UI features must not delay LCP" }
+FID_impact_ms = { max = 10, rationale = "Minimal main thread blocking" }
+CLS_impact = { max = 0.05, rationale = "UI panels must not cause layout shift" }
+INP_impact_ms = { max = 50, rationale = "Interaction to next paint budget" }
+
+[performance.memory]
+description = "Memory usage constraints"
+command_registry_max_items = { value = 2000, rationale = "Before virtualization required" }
+heading_cache_max = { value = 500, rationale = "Max headings cached in memory" }
+shortcut_bindings_max = { value = 100, rationale = "User custom binding limit" }
+minimap_content_cache = { value = 1, rationale = "Only current document cached" }
+
+# =============================================================================
+# ACCESSIBILITY CONSTRAINTS
+# =============================================================================
+
+[accessibility]
+
+[accessibility.wcag]
+description = "WCAG 2.1 compliance requirements"
+minimum_level = { value = "AA", rationale = "Educational content standard" }
+keyboard_operable = { value = true, rationale = "Core power user requirement" }
+screen_reader_compatible = { value = true, rationale = "Inclusive design" }
+focus_visible = { value = true, rationale = "WCAG 2.4.7 requirement" }
+color_contrast = { value = 4.5, unit = "ratio", rationale = "WCAG 1.4.3 requirement" }
+
+[accessibility.aria]
+description = "ARIA implementation requirements"
+combobox_pattern = { required = true, reference = "WAI-ARIA APG Combobox" }
+tree_view_pattern = { required = true, reference = "WAI-ARIA APG TreeView" }
+breadcrumb_pattern = { required = true, reference = "WAI-ARIA APG Breadcrumb" }
+live_region = { required = true, type = "polite", rationale = "Non-intrusive announcements" }
+focus_trap = { required = true, scope = "palette_dialog", rationale = "Modal accessibility" }
+aria_expanded = { required = true, elements = ["combobox", "treeitem"], rationale = "State communication" }
+aria_current = { required = true, element = "breadcrumb_current", value = "page", rationale = "Navigation context" }
+
+[accessibility.keyboard]
+description = "Keyboard interaction requirements"
+tab_navigable = { value = true, rationale = "Standard keyboard navigation" }
+escape_dismisses = { value = true, rationale = "Standard modal dismissal" }
+arrow_key_navigation = { value = true, rationale = "List/tree navigation" }
+home_end_navigation = { value = true, rationale = "First/last item access" }
+enter_activates = { value = true, rationale = "Item activation" }
+no_keyboard_traps = { value = true, rationale = "WCAG 2.1.2 requirement" }
+
+# =============================================================================
+# USABILITY CONSTRAINTS
+# =============================================================================
+
+[usability]
+
+[usability.command_palette]
+description = "Command palette UX requirements"
+max_results_visible = { value = 20, rationale = "Information overload prevention" }
+result_height_px = { value = 40, rationale = "Comfortable click target" }
+input_placeholder = { value = "Type a command...", rationale = "Clear affordance" }
+empty_state_message = { value = "No commands found", rationale = "Feedback on no results" }
+category_grouping = { value = true, rationale = "Visual organization" }
+keyword_aliases = { value = true, rationale = "Discoverability" }
+
+[usability.keyboard_shortcuts]
+description = "Keyboard shortcut UX requirements"
+modifier_key_display = { value = "platform_aware", rationale = "Show ⌘ on Mac, Ctrl on Windows/Linux" }
+shortcut_hints_visible = { value = true, scope = "menu_items", rationale = "Discovery" }
+conflict_notification = { value = true, type = "toast", rationale = "User feedback" }
+customizable = { value = true, rationale = "Power user preference" }
+
+[usability.outline_panel]
+description = "Outline panel UX requirements"
+collapsible = { value = true, rationale = "Screen real estate management" }
+resizable = { value = true, range = "150-400px", rationale = "User preference" }
+auto_expand_current = { value = true, rationale = "Context awareness" }
+scroll_sync_enabled = { value = true, rationale = "Navigation feedback" }
+minimap_click_navigates = { value = true, rationale = "Rapid navigation" }
+
+[usability.breadcrumbs]
+description = "Breadcrumb UX requirements"
+clickable_middle_items = { value = true, rationale = "Direct navigation" }
+current_page_not_linked = { value = true, rationale = "UX best practice" }
+responsive_collapse = { value = true, threshold = "480px", rationale = "Mobile support" }
+separator_visible = { value = true, value_display = "/", rationale = "Visual hierarchy" }
+
+# =============================================================================
+# TECHNICAL CONSTRAINTS
+# =============================================================================
+
+[technical]
+
+[technical.browser_support]
+description = "Browser compatibility requirements"
+chrome = { min_version = 90, rationale = "IntersectionObserver, CSS transforms" }
+firefox = { min_version = 88, rationale = "Feature parity" }
+safari = { min_version = 14, rationale = "WebKit support" }
+edge = { min_version = 90, rationale = "Chromium-based" }
+ie_support = { value = false, rationale = "End of life" }
+
+[technical.framework]
+description = "Framework-specific constraints"
+solidjs_version = { value = "^1.9.0", rationale = "Project dependency" }
+astro_islands = { value = true, rationale = "SSG with dynamic islands" }
+tailwind_css = { value = "^4.3.0", rationale = "Project dependency" }
+typescript = { value = "^5.9.0", rationale = "Project dependency" }
+
+[technical.performance]
+description = "Technical performance constraints"
+lazy_loading = { required = true, components = ["command_palette", "outline_panel"], rationale = "Initial load optimization" }
+code_splitting = { required = true, rationale = "Bundle size management" }
+tree_shaking = { required = true, rationale = "Dead code elimination" }
+ssr_compatible = { value = true, rationale = "Astro SSG requirement" }
+island_architecture = { value = true, rationale = "Astro pattern" }
+
+# =============================================================================
+# SECURITY CONSTRAINTS
+# =============================================================================
+
+[security]
+
+[security.xss]
+description = "XSS prevention requirements"
+sanitize_user_input = { value = true, rationale = "Command palette search input" }
+escape_html_in_output = { value = true, rationale = "Prevent injection" }
+content_security_policy = { value = true, rationale = "Defense in depth" }
+
+[security.storage]
+description = "Client-side storage security"
+localStorage_usage = { value = true, scope = "user_preferences", rationale = "Shortcut customizations" }
+no_sensitive_data = { value = true, rationale = "Client-side only storage" }
+storage_size_limit_kb = { value = 100, rationale = "Prevent abuse" }

@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document defines the resource limits for all Cloudflare platform services and client-side budgets. Every limit includes current tier values, monitoring thresholds, and mitigation strategies for approaching or exceeding limits.
+This document defines the resource limits for all Cloudflare platform services, client-side budgets, and per-component limits for all new features: Command Palette, Keyboard Shortcuts, Outline Panel, Breadcrumbs, KaTeX Renderer, Graph View, Split Pane, Regex Search, Comments/Annotations, User Accounts, TipTap MDX Editor, Version History, Plugin API (Web Workers), Theme Engine, and Settings Manager.
 
 ## 1. Cloudflare Workers CPU Time Limits
 
@@ -22,26 +22,24 @@ This document defines the resource limits for all Cloudflare platform services a
 | `/wiki/:slug` (page view) | 5ms | 15ms | KV cache; stream response |
 | `/wiki/:slug/edit` (page edit) | 8ms | 25ms | Defer non-critical computation |
 | `/api/search` | 15ms | 28ms | Pre-built search index in KV |
+| `/api/search/regex` | 20ms | 28ms | Precompiled patterns; bounded scan |
 | `/api/auth/*` | 5ms | 15ms | Session validation in KV |
 | `/api/upload` | 10ms | 25ms | Stream to R2; background processing |
+| `/api/comments` | 5ms | 15ms | KV-backed; batch reads |
+| `/api/versions/:id` | 8ms | 20ms | D1 indexed queries |
+| `/api/plugins/*` | 5ms | 15ms | Sandboxed; capability-gated |
 
 ### CPU Time Monitoring
 
 ```typescript
-// Worker-level CPU time tracking
 const cpuStart = performance.now();
 
 // After request processing
 const cpuTime = performance.now() - cpuStart;
-
-// Report if approaching limit
-if (cpuTime > 8) { // 80% of free tier limit
+if (cpuTime > 8) {
   console.warn(`High CPU time: ${cpuTime.toFixed(1)}ms`);
-  
-  // Emit metric
   emitMetric('worker.cpu_time', cpuTime, {
     route: request.url,
-    tier: 'free',
     warning: cpuTime > 8,
     critical: cpuTime > 9.5,
   });
@@ -50,11 +48,11 @@ if (cpuTime > 8) { // 80% of free tier limit
 
 ### CPU Time Optimization Techniques
 
-1. **Pre-computation**: Move expensive operations to build time or background jobs
-2. **Caching**: Store computed results in KV with appropriate TTL
-3. **Lazy computation**: Defer expensive calculations until response is sent
-4. **Algorithm optimization**: Use efficient data structures (Map over Object for dynamic keys)
-5. **Early returns**: Short-circuit on common cases (cache hits, auth failures)
+1. Pre-computation: Move expensive operations to build time or background jobs
+2. Caching: Store computed results in KV with appropriate TTL
+3. Lazy computation: Defer expensive calculations until response is sent
+4. Algorithm optimization: Use efficient data structures (Map over Object for dynamic keys)
+5. Early returns: Short-circuit on common cases (cache hits, auth failures)
 
 ## 2. Cloudflare Pages Build Limits
 
@@ -83,28 +81,6 @@ Target: **Under 5 minutes** for production builds.
 | Asset hashing | 10s | 30s | Content-hash naming |
 | **Total** | **3m 25s** | **6m 00s** | — |
 
-### Build Optimization Strategy
-
-```json
-// wrangler.toml build configuration
-[build]
-command = "npm run build"
-upload_dir = "dist"
-compatibility_date = "2024-01-01"
-
-[build.environment]
-NODE_OPTIONS = "--max-old-space-size=2048"
-NPM_CONFIG_CACHE = ".npm-cache"
-```
-
-### Build Monitoring
-
-Track build metrics:
-- Total build time (target: <5 minutes)
-- Bundle size per output (target: <500KB total)
-- Number of chunks generated (target: <20)
-- Asset count (target: <100)
-
 ## 3. R2 Storage Limits
 
 ### R2 Quotas
@@ -118,8 +94,6 @@ Track build metrics:
 | Egress | Free | Free | No egress fees |
 | Max object size | 5TB | 5TB | Single PUT |
 | Max object name length | 1024 bytes | 1024 bytes | UTF-8 encoded |
-| Max multipart parts | 10,000 | 10,000 | Per upload |
-| Multipart part size | 5MB–5GB | 5MB–5GB | Recommended: 100MB |
 
 ### R2 Budget Allocation
 
@@ -131,29 +105,6 @@ Track build metrics:
 | Backups | 500MB | 50MB | 1.1GB |
 | Static assets | 200MB | 20MB | 440MB |
 | **Total** | **2.85GB** | **285MB** | **6.26GB** |
-
-### R2 Usage Monitoring
-
-```typescript
-// Track R2 operations
-async function trackedR2Put(bucket: R2Bucket, key: string, body: ReadableStream | ArrayBuffer): Promise<R2Object> {
-  const start = performance.now();
-  try {
-    const result = await bucket.put(key, body);
-    const duration = performance.now() - start;
-    
-    emitMetric('r2.put', duration, {
-      key_prefix: key.split('/')[0],
-      size: result.size,
-    });
-    
-    return result;
-  } catch (error) {
-    emitMetric('r2.put.error', 1, { error: (error as Error).message });
-    throw error;
-  }
-}
-```
 
 ### R2 Cleanup Policy
 
@@ -178,9 +129,6 @@ async function trackedR2Put(bucket: R2Bucket, key: string, body: ReadableStream 
 | Storage | 1GB | 1GB per namespace | Additional at $0.50/GB/mo |
 | Max value size | 25MB | 25MB | Compressed recommended |
 | Max key length | 512 bytes | 512 bytes | UTF-8 encoded |
-| Max metadata | 1KB | 1KB | Per key-value pair |
-| Write latency | 1–60 seconds | 1–60 seconds | Eventually consistent |
-| Read latency | <10ms (edge) | <10ms (edge) | Cached at edge |
 
 ### KV Namespace Allocation
 
@@ -191,46 +139,15 @@ async function trackedR2Put(bucket: R2Bucket, key: string, body: ReadableStream 
 | `CONFIG` | Wiki configuration | 2,000 | 100 |
 | `PAGES` | Page content cache | 30,000 | 2,000 |
 | `SEARCH` | Search index fragments | 5,000 | 200 |
-| **Total** | — | **97,000** | **7,800** |
-
-### KV Caching Strategy
-
-```typescript
-// Tiered caching pattern
-async function getCached<T>(
-  kv: KVNamespace,
-  key: string,
-  fetcher: () => Promise<T>,
-  options?: { ttl?: number; cacheFirst?: boolean }
-): Promise<T> {
-  const ttl = options?.ttl ?? 300; // Default 5 minutes
-  
-  // Try KV cache first
-  if (options?.cacheFirst !== false) {
-    const cached = await kv.get(key, { type: 'json' });
-    if (cached) {
-      emitMetric('kv.cache.hit', 1, { key_prefix: key.split(':')[0] });
-      return cached as T;
-    }
-  }
-  
-  // Fetch fresh data
-  const data = await fetcher();
-  
-  // Write to KV cache (non-blocking)
-  kv.put(key, JSON.stringify(data), { expirationTtl: ttl }).catch(err => {
-    console.error('KV write failed:', err);
-  });
-  
-  emitMetric('kv.cache.miss', 1, { key_prefix: key.split(':')[0] });
-  return data;
-}
-```
+| `COMMENTS` | Comment/annotation data | 8,000 | 1,000 |
+| `VERSIONS` | Version history metadata | 3,000 | 500 |
+| `THEMES` | Theme definitions | 1,000 | 50 |
+| `PLUGINS` | Plugin registry/metadata | 500 | 100 |
+| **Total** | — | **109,500** | **9,450** |
 
 ### KV Rate Limit Protection
 
 ```typescript
-// Implement rate limiting using KV
 async function checkRateLimit(
   kv: KVNamespace,
   identifier: string,
@@ -238,10 +155,9 @@ async function checkRateLimit(
   windowSeconds: number
 ): Promise<{ allowed: boolean; remaining: number; resetAt: number }> {
   const key = `ratelimit:${identifier}:${Math.floor(Date.now() / (windowSeconds * 1000))}`;
-  
   const current = await kv.get(key, { type: 'json' }) as { count: number } | null;
   const count = (current?.count ?? 0) + 1;
-  
+
   if (count > limit) {
     return {
       allowed: false,
@@ -249,12 +165,11 @@ async function checkRateLimit(
       resetAt: (Math.floor(Date.now() / (windowSeconds * 1000)) + 1) * windowSeconds * 1000,
     };
   }
-  
-  // Write updated count (non-blocking)
+
   kv.put(key, JSON.stringify({ count }), {
-    expirationTtl: windowSeconds * 2, // Extra buffer for clock skew
+    expirationTtl: windowSeconds * 2,
   });
-  
+
   return {
     allowed: true,
     remaining: limit - count,
@@ -275,8 +190,6 @@ async function checkRateLimit(
 | Max database size | 10GB | 10GB | Hard limit |
 | Max batch size | 50 statements | 50 statements | Per batch call |
 | Query timeout | 30 seconds | 30 seconds | Worker limit applies |
-| Concurrent databases | 1 | 5 | Per account |
-| Databases per account | 50 | 50 | Soft limit |
 
 ### D1 Query Budget
 
@@ -288,7 +201,10 @@ async function checkRateLimit(
 | User auth check | 2 rows | 20,000 | 40,000 |
 | Wiki config | 5 rows | 5,000 | 25,000 |
 | Category tree | 50 rows | 2,000 | 100,000 |
-| **Total** | — | — | **1,015,000** |
+| Comment thread | 10 rows | 3,000 | 30,000 |
+| Version history | 5 rows | 1,000 | 5,000 |
+| Plugin registry | 3 rows | 500 | 1,500 |
+| **Total** | — | — | **1,051,500** |
 
 ### D1 Write Budget
 
@@ -299,15 +215,11 @@ async function checkRateLimit(
 | Delete page (soft) | 1 | 50 | 50 |
 | User login | 1 | 1,000 | 1,000 |
 | Wiki settings update | 1 | 10 | 10 |
-| **Total** | — | — | **2,160** |
-
-### D1 Optimization Strategies
-
-1. **Index optimization**: Ensure all frequently queried columns are indexed
-2. **Query batching**: Combine related reads into batch operations
-3. **Connection caching**: Cache query results in KV for hot paths
-4. **Pagination**: Use cursor-based pagination for large result sets
-5. **Soft deletes**: Mark rows as deleted instead of removing (avoids write amplification)
+| Create comment | 1 | 200 | 200 |
+| Resolve comment | 1 | 100 | 100 |
+| Create version | 2 | 300 | 600 |
+| Plugin install/uninstall | 2 | 10 | 20 |
+| **Total** | — | — | **3,080** |
 
 ## 6. Client-Side Resource Budgets
 
@@ -318,12 +230,31 @@ async function checkRateLimit(
 | Framework (SolidJS) | 8KB | 12KB | Brotli |
 | Router | 4KB | 6KB | Brotli |
 | State management | 2KB | 4KB | Brotli |
-| UI components | 15KB | 25KB | Brotli |
+| UI components (shared) | 15KB | 25KB | Brotli |
 | Markdown renderer | 20KB | 30KB | Brotli |
 | Search engine | 10KB | 15KB | Brotli |
 | Utilities | 5KB | 8KB | Brotli |
 | **Initial load total** | **64KB** | **100KB** | **Brotli** |
-| Route chunks (avg) | 8KB | 15KB | Brotli |
+
+### Lazy-Loaded Component Bundles
+
+| Component | Target Size | Max Size | Loading Strategy |
+|---|---|---|---|
+| Command Palette | 8KB | 12KB | `client:idle` |
+| Keyboard Shortcuts | 3KB | 5KB | Eager (small) |
+| Outline Panel | 5KB | 8KB | `client:visible` |
+| Breadcrumbs | 2KB | 3KB | Eager (small) |
+| KaTeX Renderer | 30KB | 40KB | `client:idle` + dynamic import |
+| Graph View | 40KB | 60KB | `client:visible` + dynamic import |
+| Split Pane | 4KB | 6KB | `client:visible` |
+| Regex Search | 8KB | 12KB | `client:idle` |
+| Comments/Annotations | 10KB | 15KB | `client:idle` |
+| User Accounts | 5KB | 8KB | `client:idle` |
+| TipTap MDX Editor | 50KB | 70KB | `client:idle` + dynamic import |
+| Version History | 8KB | 12KB | `client:idle` |
+| Plugin API | 10KB | 15KB | `client: idle` |
+| Theme Engine | 5KB | 8KB | Eager (small) |
+| Settings Manager | 5KB | 8KB | Eager (small) |
 
 ### CSS Budget
 
@@ -358,22 +289,194 @@ async function checkRateLimit(
 | TLS handshakes | 1 | 1 |
 | HTTP requests (initial) | 5 | 10 |
 
-### Runtime Memory Budget
+## 7. Runtime Memory Budgets
+
+### Per-Page Heap Budget
+
+Total JavaScript heap target: **<100MB** (absolute maximum), **<8MB** target.
 
 | Component | Budget | Eviction Policy |
 |---|---|---|
-| JavaScript heap | 8MB | GC + manual cleanup |
-| DOM nodes | 1,500 | Virtual scrolling |
-| Event listeners | 50 | Cleanup on unmount |
-| Active timers | 10 | Clear on unmount |
-| Network requests | 5 concurrent | Queue; abort stale |
-| Web Workers | 2 | Terminate idle |
-| Cache entries | 1,000 | LRU |
+| JavaScript heap (framework) | 500KB | GC + manual cleanup |
+| Application state | 1MB | onCleanup |
+| Route components | 1.5MB | Route transition |
+| Shared UI | 1MB | Page unload |
+| Markdown rendering | 1.5MB | AST cache LRU |
+| Search index | 1.5MB | Idle timeout |
+| Command Palette | 200KB | Close/unmount |
+| Outline Panel | 300KB | Route change |
+| KaTeX Renderer | 430KB | LRU (200 entries) |
+| Graph View | 4.7MB | Pause + destroy |
+| TipTap Editor | 630KB | Editor.destroy() |
+| Version History | 600KB | LRU (50 revisions) |
+| Comments/Annotations | 150KB | Route change |
+| Theme Engine | 100KB | Theme switch |
+| Settings Manager | 30KB | Persist to localStorage |
+| Plugin Workers (3×8MB) | 24MB | Terminate on unload |
+| Service Worker cache | 50MB | LRU + pressure |
+| **Total (without workers)** | **~14MB** | |
+| **Total (with 3 workers)** | **~38MB** | |
+| **Absolute maximum** | **<100MB** | |
 
-### Performance Budget Enforcement
+### DOM Node Budget
+
+| Resource | Budget | Enforcement |
+|---|---|---|
+| Total DOM nodes | 1,500 | Virtual scrolling |
+| Active event listeners | 50 | Cleanup on unmount |
+| Active timers | 10 | Clear on unmount |
+| Concurrent network requests | 5 | Queue; abort stale |
+| Active Web Workers | 3 | Terminate idle |
+| Cache entries (all types) | 1,000 | LRU |
+
+### localStorage Budget
+
+| Key Prefix | Max Size | TTL |
+|---|---|---|
+| `ws_settings_*` | 50KB | Indefinite |
+| `ws_theme_*` | 20KB | Indefinite |
+| `ws_shortcuts_*` | 5KB | Indefinite |
+| `ws_recent_*` | 50KB | 30 days |
+| `ws_cache_*` | 100KB | 24 hours |
+| **Total `ws_*`** | **500KB** | — |
+| Browser limit | **5MB** | — |
+
+### Service Worker Cache Budget
+
+| Cache Name | Max Size | Eviction |
+|---|---|---|
+| `static-assets` | 10MB | LRU, 30-day TTL |
+| `page-content` | 20MB | LRU, 7-day TTL |
+| `images` | 30MB | LRU, 30-day TTL |
+| `search-index` | 5MB | LRU, 24-hour TTL |
+| **Total** | **50MB** | Pressure-based |
+
+## 8. Per-Component Resource Limits
+
+### Command Palette
+
+| Resource | Limit | Notes |
+|---|---|---|
+| Registered commands | 200 | Hard limit for fuzzy search perf |
+| Fuzzy search index | 200KB | In-memory |
+| Rendered items (DOM) | 20 virtual | Virtualized list |
+| Open/close transitions | 150ms | 60fps animation |
+| Keyboard shortcut capture | 3s timeout | Abort after 3s |
+
+### Outline Panel
+
+| Resource | Limit | Notes |
+|---|---|---|
+| Parsed headings | 100 | Hard limit; deeper ignored |
+| IntersectionObserver elements | 50 | Headings tracked |
+| Scroll sync frequency | 60fps | Debounced to frame |
+| Nesting depth | 6 levels | h1–h6 |
+
+### KaTeX Renderer
+
+| Resource | Limit | Notes |
+|---|---|---|
+| Cached expressions | 200 | LRU eviction |
+| Expression size | 10KB | Truncate beyond |
+| Render timeout | 100ms | Fall back to plain text |
+| Font metric cache | 200 entries | Per font family |
+
+### Graph View
+
+| Resource | Limit | Notes |
+|---|---|---|
+| Maximum nodes rendered | 1,000 | Prune by degree centrality |
+| Maximum edges rendered | 2,000 | Derived from nodes |
+| Canvas resolution | 2x DPR | Max 2x for memory |
+| Simulation tick rate | 30fps | Reduced from 60fps |
+| Node label cache | 200KB | LRU |
+| Pause when off-screen | 5s idle | IntersectionObserver trigger |
+
+### Split Pane
+
+| Resource | Limit | Notes |
+|---|---|---|
+| Minimum pane width | 200px | Hard floor |
+| Maximum panes | 3 | Vertical split only |
+| Drag event frequency | 60fps | requestAnimationFrame |
+| Persist dimensions | localStorage | 5KB budget |
+
+### Regex Search
+
+| Resource | Limit | Notes |
+|---|---|---|
+| Compiled regex cache | 50 | LRU eviction |
+| Regex complexity | 1000 steps | Backtracking limit |
+| Max pattern length | 200 chars | Truncate beyond |
+| Max results returned | 1,000 | Paginate beyond |
+| Search timeout | 5s | Abort + show partial |
+
+### Comments / Annotations
+
+| Resource | Limit | Notes |
+|---|---|---|
+| Comments per page | 500 | Pagination beyond |
+| Nested reply depth | 5 levels | Hard limit |
+| Comment body size | 10KB | Truncate display |
+| Annotation regions per page | 100 | Virtualize beyond |
+| Attachment size per comment | 1MB | R2 storage |
+
+### TipTap MDX Editor
+
+| Resource | Limit | Notes |
+|---|---|---|
+| Document size | 100KB | Hard limit; warn at 80KB |
+| History undo steps | 50 | Trim beyond |
+| Active extensions | 20 | Limit loaded extensions |
+| Collaborative cursors | 10 | Prune oldest |
+| Autosave debounce | 1s | Abort previous on new edit |
+| Cursor blink rate | 530ms | Standard blink |
+
+### Version History
+
+| Resource | Limit | Notes |
+|---|---|---|
+| In-memory revisions | 50 | LRU; rest in IndexedDB |
+| Diff patch size | 10KB | Compress larger |
+| Snapshot interval | 5 min | Minimum between snapshots |
+| Max diff chain depth | 10 | Re-base beyond |
+
+### Plugin API (Web Workers)
+
+| Resource | Limit | Notes |
+|---|---|---|
+| Concurrent workers | 3 | Global limit |
+| Per-plugin worker memory | 8MB | Terminated on breach |
+| Message queue depth | 100 | Drop oldest beyond |
+| Worker idle timeout | 60s | Auto-terminate |
+| Plugin capabilities | 10 | Capability-gated |
+| Plugin registry size | 50 plugins | Max installed |
+
+### Theme Engine
+
+| Resource | Limit | Notes |
+|---|---|---|
+| CSS variables | 100 | Hard limit |
+| Theme overrides | 200 | Per custom theme |
+| Theme file size | 50KB | Compressed |
+| Apply transition | 100ms | No jank |
+| localStorage for themes | 20KB | Budget-managed |
+
+### Settings Manager
+
+| Resource | Limit | Notes |
+|---|---|---|
+| Setting keys | 200 | Indexed access |
+| Setting value size | 10KB | Truncate beyond |
+| Schema validation | Zod | Compile-time + runtime |
+| Sync frequency | 5s debounce | Cross-tab via BroadcastChannel |
+| localStorage for settings | 50KB | Budget-managed |
+
+## 9. Performance Budget Enforcement
+
+### Lighthouse CI Assertions
 
 ```json
-// lighthouserc.json
 {
   "ci": {
     "assert": {
@@ -392,10 +495,9 @@ async function checkRateLimit(
 }
 ```
 
-### Budget Monitoring Dashboard
+### Budget Monitoring
 
 ```typescript
-// Track budget adherence
 interface BudgetReport {
   timestamp: string;
   jsSize: number;
@@ -407,23 +509,46 @@ interface BudgetReport {
   ttfb: number;
   heapUsed: number;
   domNodes: number;
+  workerCount: number;
+  cacheSize: number;
 }
 
 function checkBudgets(report: BudgetReport): BudgetViolation[] {
   const violations: BudgetViolation[] = [];
-  
-  if (report.totalSize > 500_000) {
+
+  if (report.totalSize > 500_000)
     violations.push({ metric: 'totalSize', actual: report.totalSize, limit: 500_000 });
-  }
-  
-  if (report.lcp > 2500) {
+  if (report.heapUsed > 100 * 1024 * 1024)
+    violations.push({ metric: 'heapUsed', actual: report.heapUsed, limit: 100 * 1024 * 1024 });
+  if (report.domNodes > 1500)
+    violations.push({ metric: 'domNodes', actual: report.domNodes, limit: 1500 });
+  if (report.workerCount > 3)
+    violations.push({ metric: 'workerCount', actual: report.workerCount, limit: 3 });
+  if (report.lcp > 2500)
     violations.push({ metric: 'lcp', actual: report.lcp, limit: 2500 });
-  }
-  
-  if (report.cls > 0.1) {
+  if (report.cls > 0.1)
     violations.push({ metric: 'cls', actual: report.cls, limit: 0.1 });
-  }
-  
+
   return violations;
 }
 ```
+
+## 10. Summary Limits Table
+
+### Absolute Maximums
+
+| Resource | Hard Limit | Target | Mitigation |
+|---|---|---|---|
+| JS heap per page | 100MB | 8MB | GC, eviction, workers |
+| localStorage | 5MB | 500KB | LRU, quota-aware |
+| Service Worker cache | 50MB | 50MB | LRU + pressure |
+| Concurrent Workers | 3 | 3 | Terminate oldest |
+| Graph nodes | 1,000 | 1,000 | Prune by centrality |
+| TipTap document | 100KB | 80KB warn | Truncate, split |
+| KaTeX expressions | 200 | 200 | LRU eviction |
+| DOM nodes | 1,500 | 1,500 | Virtual scrolling |
+| Event listeners | 50 | 50 | Cleanup on unmount |
+| KV reads/day | 10M | 109,500 | Cache, batch |
+| D1 rows read/day | 25M | 1,051,500 | Index, cache |
+| R2 storage | 10GB | 2.85GB | Cleanup policy |
+| Workers CPU (paid) | 30s | 20ms | Early return, cache |

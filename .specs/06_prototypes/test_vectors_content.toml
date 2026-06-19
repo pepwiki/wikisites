@@ -1,0 +1,291 @@
+# Test vectors for P1 Content Tools prototypes.
+# Covers: LaTeXRenderer, GraphView, SplitPane, RegexSearch.
+
+# ===========================================================================
+# LaTeXRenderer Test Vectors
+# ===========================================================================
+
+[latex.inline_basic]
+expression = "E = mc^2"
+mode = "inline"
+expected_type = "inline"
+expected_detect = true
+
+[latex.inline_nested_braces]
+expression = "\\frac{d}{dx} \\int_0^x f(t) \\, dt"
+mode = "inline"
+expected_detect = true
+
+[latex.display_basic]
+expression = "\\sum_{i=1}^{n} x_i"
+mode = "display"
+expected_detect = true
+
+[latex.chemistry_mhchem]
+expression = "\\ce{H2O -> H+ + OH-}"
+mode = "inline"
+expected_chemical = true
+
+[latex.error_invalid]
+expression = "\\frac"
+mode = "inline"
+expected_success = false
+
+[latex.detection_display]
+content = "The equation $$E = mc^2$$ is famous."
+expected_segments = 1
+expected_segment_type = "display"
+
+[latex.detection_inline]
+content = "We write $x^2$ for simplicity."
+expected_segments = 1
+expected_segment_type = "inline"
+
+[latex.detection_mixed]
+content = "Let $a > 0$. Then $$\\int_0^\\infty e^{-ax} dx = \\frac{1}{a}$$."
+expected_segments = 2
+
+[latex.detection_no_math]
+content = "No math here, just plain text."
+expected_segments = 0
+
+[latex.unicode_math]
+expression = "∀ε>0, ∃δ>0"
+mode = "inline"
+expected_detect = true
+
+# ===========================================================================
+# GraphView Test Vectors
+# ===========================================================================
+
+[graph.simple_2node]
+data.nodes = [
+  { id = "a", label = "Node A", group = "article" },
+  { id = "b", label = "Node B", group = "article" }
+]
+data.edges = [
+  { source = "a", target = "b", label = "references" }
+]
+expected_node_count = 2
+expected_edge_count = 1
+
+[graph.truncation_needed]
+# 5 nodes, maxNodes = 3
+data.nodes = [
+  { id = "n1", label = "Hub", group = "article", size = 10 },
+  { id = "n2", label = "Leaf1", group = "article" },
+  { id = "n3", label = "Leaf2", group = "article" },
+  { id = "n4", label = "Leaf3", group = "article" },
+  { id = "n5", label = "Leaf4", group = "article" }
+]
+data.edges = [
+  { source = "n1", target = "n2" },
+  { source = "n1", target = "n3" },
+  { source = "n1", target = "n4" },
+  { source = "n1", target = "n5" }
+]
+maxNodes = 3
+expected_node_count = 3
+expected_edge_count = 3
+
+[graph.filter_by_group]
+data.nodes = [
+  { id = "a1", label = "Article 1", group = "article" },
+  { id = "a2", label = "Article 2", group = "article" },
+  { id = "t1", label = "Peptide", group = "tag" },
+  { id = "c1", label = "Biology", group = "category" }
+]
+data.edges = [
+  { source = "a1", target = "t1" },
+  { source = "a2", target = "c1" },
+  { source = "a1", target = "a2" }
+]
+filter_groups = ["article"]
+expected_filtered_nodes = 2
+
+[graph.empty_nodes]
+data.nodes = []
+data.edges = []
+expected_error = true
+
+[graph.large_graph]
+# Synthetic 100-node graph
+node_count = 100
+edge_count = 200
+maxNodes = 50
+expected_truncated = true
+
+# ===========================================================================
+# SplitPane Test Vectors
+# ===========================================================================
+
+[split.two_panes]
+pane_count = 2
+direction = "horizontal"
+minPaneSize = 120
+expected_grid = "grid-template-columns"
+
+[split.three_panes]
+pane_count = 3
+direction = "vertical"
+initialSizes = [0.5, 0.25, 0.25]
+expected_grid = "grid-template-rows"
+
+[split.single_pane]
+pane_count = 1
+expected_handles = 0
+
+[split.min_size_enforcement]
+pane_count = 2
+minPaneSize = 120
+container_width = 800
+# 120 / 800 = 0.15 minimum ratio
+expected_min_ratio = 0.15
+
+[split.persists_state]
+persistKey = "test-layout"
+sizes = [0.4, 0.6]
+expected_storage_key = "wikisites:split-pane:test-layout"
+
+[split.responsive_stacking]
+viewport_width = 768
+expected_stacked = true
+
+[split.responsive_normal]
+viewport_width = 1024
+expected_stacked = false
+
+[split.keyboard_resize]
+initial_sizes = [0.5, 0.5]
+arrow = "ArrowLeft"
+ctrl_alt = true
+step = 0.05
+expected_sizes_after = [0.45, 0.55]
+
+[split.invalid_sizes_normalize]
+# Sizes that don't sum to 1.0
+raw_sizes = [2.0, 3.0]
+pane_count = 2
+expected_normalized = [0.4, 0.6]
+
+# ===========================================================================
+# RegexSearch Test Vectors
+# ===========================================================================
+
+[regex.simple_match]
+pattern = "peptide"
+flags = "i"
+field = "title"
+documents = [
+  { id = "1", title = "Insulin Peptide", body = "A short peptide.", tags = ["hormone"] }
+]
+expected_matches = 1
+
+[regex.no_match]
+pattern = "zzzznotfound"
+flags = "i"
+documents = [
+  { id = "1", title = "Hello World", body = "Nothing here.", tags = [] }
+]
+expected_matches = 0
+
+[regex.redos_nested_quantifiers]
+pattern = "(a+)+b"
+expected_rating = "blocked"
+expected_complexity_gt = 50
+
+[regex.redos_safe_pattern]
+pattern = "^[a-z]+$"
+expected_rating = "safe"
+expected_complexity_lt = 25
+
+[regex.pattern_too_long]
+pattern = "a"
+repeat = 201
+expected_lengthOk = false
+
+[regex.case_insensitive]
+pattern = "PEPTIDE"
+flags = ""
+caseSensitive = false
+documents = [
+  { id = "1", title = "The peptide chain", body = "Science", tags = [] }
+]
+expected_matches = 1
+
+[regex.case_sensitive]
+pattern = "PEPTIDE"
+flags = ""
+caseSensitive = true
+documents = [
+  { id = "1", title = "The peptide chain", body = "Science", tags = [] }
+]
+expected_matches = 0
+
+[regex.field_body_only]
+pattern = "helix"
+fields = ["body"]
+documents = [
+  { id = "1", title = "Alpha Helix", body = "The alpha helix is a structure.", tags = [] },
+  { id = "2", title = "Beta Sheet", body = "The beta sheet has pleated form.", tags = [] }
+]
+expected_matches = 1
+
+[regex.field_tags_only]
+pattern = "hormone"
+fields = ["tags"]
+documents = [
+  { id = "1", title = "Insulin", body = "A hormone.", tags = ["hormone", "peptide"] }
+]
+expected_matches = 1
+
+[regex.pagination]
+pattern = "\\w+"
+documents = [
+  { id = "1", title = "A", body = "Word", tags = [] },
+  { id = "2", title = "B", body = "Word", tags = [] },
+  { id = "3", title = "C", body = "Word", tags = [] }
+]
+page = 1
+pageSize = 2
+expected_page_count = 2
+expected_has_more = true
+
+[regex.timeout_defense]
+pattern = "(a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a)+b"
+# Complex alternation — should be caught by complexity analysis
+expected_rating = "blocked"
+
+[regex.invalid_regex]
+pattern = "[unclosed"
+expected_error = true
+
+[regex.highlight_offsets]
+pattern = "cat"
+documents = [
+  { id = "1", title = "Cat", body = "The cat sat on the cat mat.", tags = [] }
+]
+expected_highlights = 2
+expected_first_match_start = 4
+expected_first_match_end = 7
+
+# ===========================================================================
+# Integration Test Vectors
+# ===========================================================================
+
+[integration.search_then_graph]
+# Search finds articles, graph shows their relationships
+search_pattern = "insulin"
+graph_node_count = 5
+expected_flow = "search → filter graph → highlight nodes"
+
+[integration.split_then_search]
+# Split pane with article on left, search on right
+pane_count = 2
+search_in_pane = "right"
+expected_flow = "split view → regex search in right pane"
+
+[integration.latex_in_graph_node]
+# LaTeX expression in graph node label
+node_label = "$\\alpha$-helix"
+expected_render = true

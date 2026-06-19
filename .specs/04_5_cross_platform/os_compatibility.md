@@ -16,7 +16,10 @@ abstract: >-
   Comprehensive OS-level compatibility analysis for KP Wikisites across all
   supported operating systems and browser combinations. Defines known issues,
   workarounds, feature detection strategies, and polyfill requirements for
-  Windows, macOS, iOS, Android, Linux, and ChromeOS.
+  Windows, macOS, iOS, Android, Linux, and ChromeOS. Includes compatibility
+  analysis for new interactive components (Command Palette, Keyboard Shortcuts,
+  LaTeX Renderer, Graph View, Split Pane, Regex Search, MDX Editor) and
+  RTL layout support for Arabic.
 depends_on:
   - "04_performance/performance_requirements.md"
   - "04_performance/optimization_roadmap.md"
@@ -575,7 +578,157 @@ export const MolecularViewer: Component<{ pdbId: string }> = (props) => {
 
 ---
 
-## 12. Workaround Catalog
+## 12. New Component OS Compatibility
+
+### 12.1 Command Palette
+
+| Feature | macOS | Windows | Linux | iOS | Android | Notes |
+|---------|-------|---------|-------|-----|---------|-------|
+| `Cmd+K` / `Ctrl+K` | Cmd+K | Ctrl+K | Ctrl+K | Limited (on-screen keyboard) | Limited (on-screen keyboard) | Physical keyboard required |
+| `Escape` to close | Full | Full | Full | Full | Full | Universal |
+| Arrow key navigation | Full | Full | Full | N/A (touch) | N/A (touch) | Touch: swipe or tap |
+| Fuzzy search | Full | Full | Full | Full | Full | Fuse.js — JS-based |
+| `<dialog>` modal | Full | Full | Full | Full | Full | All modern browsers |
+| Focus trap | Full | Full | Full | Full | Full | Accessibility requirement |
+| RTL mirror (Arabic) | Full | Full | Full | Full | Full | Logical CSS properties |
+
+**OS-Specific Considerations:**
+- **macOS:** Cmd as primary modifier; Cmd+K may conflict with Safari address bar focus
+- **Windows:** Ctrl as primary modifier; Ctrl+K may conflict with Chrome omnibox
+- **Linux:** Ctrl as primary modifier; may conflict with window manager shortcuts (e.g., KWin)
+- **iOS/Android:** Command Palette accessible via button tap; keyboard shortcuts require external keyboard
+
+### 12.2 Keyboard Shortcuts
+
+| Feature | macOS | Windows | Linux | iOS | Android | Notes |
+|---------|-------|---------|-------|-----|---------|-------|
+| Modifier key detection | `metaKey` | `ctrlKey` | `ctrlKey` | N/A | N/A | OS detection via `navigator.platform` |
+| Shortcut display labels | ⌘ ⌥ ⇧ | Ctrl Alt Shift | Ctrl Alt Shift | N/A | N/A | Platform-aware labels |
+| `event.repeat` detection | Full | Full | Full | Full | Full | Prevents key repeat actions |
+| `event.code` for physical keys | Full | Full | Full | N/A | N/A | Layout-independent detection |
+| Conflict detection | Manual | Manual | Manual | N/A | N/A | Browser shortcuts documented |
+
+**OS-Specific Considerations:**
+- **macOS:** Cmd-based shortcuts; Option for alternate modifier; Cmd+Space reserved for Spotlight
+- **Windows:** Ctrl-based shortcuts; Alt for menu access; Win key reserved for OS
+- **Linux:** Ctrl-based shortcuts; may conflict with window manager (e.g., Alt+F4, Ctrl+Alt+T)
+- **iOS/Android:** Shortcuts disabled without external keyboard; on-screen keyboard shortcuts limited
+
+### 12.3 LaTeX Renderer
+
+| Feature | macOS | Windows | Linux | iOS | Android | Notes |
+|---------|-------|---------|-------|-----|---------|-------|
+| KaTeX rendering | Full | Full | Full | Full | Full | JS-based rendering |
+| Canvas 2D output | Full | Full | Full | Full | Full | Fallback renderer |
+| WebGL 3D math | Full | Full | Depends on GPU driver | Full | Full | Hardware acceleration |
+| Font rendering | SF Pro | Segoe UI | Noto Sans | SF Pro | Roboto | System font stack |
+| MathML native | Full (Safari 16.4+) | Full | Full | Full (Safari 16.4+) | N/A | Not primary renderer |
+| Touch zoom on equations | Full | Full | Full | Full | Full | Pinch-to-zoom |
+
+**OS-Specific Considerations:**
+- **macOS:** Metal backend for WebGL; Retina rendering; SF Pro font for math labels
+- **Windows:** Direct3D/ANGLE backend; ClearType font rendering; Segoe UI for math labels
+- **Linux:** Mesa/OpenGL backend; font rendering varies by distro; Noto Sans fallback
+- **iOS:** Metal backend; Retina rendering; memory limits on older devices
+- **Android:** OpenGL ES backend; varies by GPU vendor; font rendering varies
+
+### 12.4 Graph View
+
+| Feature | macOS | Windows | Linux | iOS | Android | Notes |
+|---------|-------|---------|-------|-----|---------|-------|
+| WebGL2 renderer | Full | Full | Full (15+) | Full (15+) | Full | Primary renderer |
+| Canvas 2D fallback | Full | Full | Full | Full | Full | Fallback for no-WebGL |
+| SVG fallback | Full | Full | Full | Full | Full | Final fallback |
+| Force-directed layout | Full | Full | Full | Full | Full | JS-based computation |
+| Touch pan/zoom | Full | Full | Full | Full | Full | Pointer events |
+| Worker-based layout | Full | Full | Full | N/A (Safari) | N/A | SharedWorker not in Firefox |
+| Node label rendering | Full | Full | Full | Full | Full | Canvas 2D text |
+
+**OS-Specific Considerations:**
+- **macOS:** Metal WebGL backend; efficient on Apple Silicon; Retina rendering
+- **Windows:** ANGLE WebGL backend; hardware acceleration on most GPUs
+- **Linux:** Mesa WebGL backend; may have reduced performance on older AMD GPUs; software fallback available
+- **iOS:** Metal backend; memory limits (may crash on iPhone SE with large graphs); `OffscreenCanvas` not supported
+- **Android:** OpenGL ES backend; varies by device; low-end devices may need reduced node count
+
+### 12.5 Split Pane
+
+| Feature | macOS | Windows | Linux | iOS | Android | Notes |
+|---------|-------|---------|-------|-----|---------|-------|
+| Pointer Events | Full | Full | Full | Full | Full | Unified mouse/touch |
+| ResizeObserver | Full | Full | Full | Full | Full | Responsive sizing |
+| `touch-action: none` | Full | Full | Full | Full | Full | Prevents scroll conflict |
+| Container Queries | Full | Full | Full | Full | Full | Responsive breakpoints |
+| Mouse drag resize | Full | Full | Full | N/A | N/A | Desktop only |
+| Touch drag resize | Full | Full | Full | Full | Full | Touch handles |
+| Snap-to-center | Full | Full | Full | Full | Full | JS-based detection |
+| Keyboard resize (arrows) | Full | Full | Full | N/A | N/A | Accessibility |
+
+**OS-Specific Considerations:**
+- **macOS:** Smooth resize with hardware acceleration; may conflict with Mission Control gestures
+- **Windows:** Smooth resize; may conflict with Aero Snap (window edge snapping)
+- **Linux:** Resize may conflict with window manager tiling shortcuts
+- **iOS:** Touch resize handle may conflict with system swipe gestures (back/forward); use `touch-action: none`
+- **Android:** Touch resize handle; may conflict with system navigation gestures on gesture-based navigation
+
+### 12.6 Regex Search
+
+| Feature | macOS | Windows | Linux | iOS | Android | Notes |
+|---------|-------|---------|-------|-----|---------|-------|
+| `RegExp` with `u` flag | Full | Full | Full | Full | Full | Unicode mode |
+| `RegExp` with `v` flag | Full (17+) | Full (113+) | Full (116+) | Full (17+) | Full (113+) | Unicode sets |
+| Unicode property escapes | Full | Full | Full | Full | Full | `\p{L}`, `\p{Script=Han}` |
+| `Intl.Segmenter` | Chrome only | Chrome only | Chrome only | Chrome only | Chrome only | CJK word segmentation |
+| NFD normalization | Full | Full | Full | Full | Full | Diacritic-insensitive |
+| Case-insensitive | Full | Full | Full | Full | Full | Unicode case folding |
+
+**OS-Specific Considerations:**
+- **macOS/Windows/Linux:** Full Unicode support; `Intl.Segmenter` only in Chromium browsers
+- **iOS:** Full Unicode support; Safari may have different regex performance characteristics
+- **Android:** Full Unicode support; performance varies by device
+
+### 12.7 MDX Editor
+
+| Feature | macOS | Windows | Linux | iOS | Android | Notes |
+|---------|-------|---------|-------|-----|---------|-------|
+| `contenteditable` | Full | Full | Full | Full | Full | Rich text editing |
+| `beforeinput` event | Full | Full | Full | Full | Partial | Content change detection |
+| IME composition | Full | Full | Full | Full | Full | CJK/Arabic input |
+| `execCommand` | Full | Full | Full | Full | Partial | Formatting commands |
+| Paste as markdown | Full | Full | Full | Full | Full | Clipboard API |
+| Toolbar formatting | Full | Full | Full | Full | Full | Touch/click targets |
+| Markdown shortcuts | Full | Full | Full | Full | Full | `# `, `- `, `> `, etc. |
+| Split view (edit/preview) | Full | Full | Full | Full | Full | Side-by-side layout |
+
+**OS-Specific Considerations:**
+- **macOS:** Smooth IME for Japanese (Romaji → Kana → Kanji); Cmd-based formatting shortcuts
+- **Windows:** Smooth IME for Chinese (Pinyin); Ctrl-based formatting shortcuts
+- **Linux:** IME support varies by desktop environment (IBus, Fcitx); may need configuration
+- **iOS:** Native iOS IME works well; virtual keyboard may obscure editor; use `visualViewport` API
+- **Android:** Native Android IME works well; virtual keyboard handling similar to iOS
+
+### 12.8 RTL Layout Support (Arabic)
+
+| Component | RTL Support | Implementation | Known Issues |
+|-----------|------------|----------------|--------------|
+| Navigation sidebar | Full | Logical properties | None |
+| Command Palette | Full | Logical CSS | Modal positioning |
+| Keyboard Shortcuts | Partial | Text direction neutral | Shortcut labels always LTR |
+| LaTeX Renderer | N/A | Math is direction-neutral | None |
+| Graph View | Partial | Labels respect `dir` | Node positions are LTR |
+| Split Pane | Full | Logical properties | Pane order mirrors |
+| Regex Search | Full | Logical CSS | Search input aligns right |
+| MDX Editor | Full | `dir="rtl"` on container | Toolbar mirrors |
+| Toast notifications | Full | Logical positioning | Position switches to right |
+
+**RTL-Specific Considerations:**
+- **All platforms:** Use CSS logical properties (`margin-inline-start`, `padding-inline-end`, etc.) instead of physical properties
+- **iOS/Android:** RTL layout works correctly on mobile; no platform-specific quirks
+- **macOS/Windows/Linux:** RTL layout works correctly on desktop; font rendering for Arabic is consistent
+
+---
+
+## 13. Workaround Catalog
 
 ### 12.1 Viewport Height Workaround
 

@@ -1,0 +1,376 @@
+# =============================================================================
+# Interface Contracts: Social Layer
+# Source: BP-SOCIAL-LAYER-001 §5.1–5.3
+# Version: 1.0.0
+# Date: 2026-06-19
+# Status: DRAFT
+# =============================================================================
+
+[metadata]
+document_id = "IC-SOCIAL-001"
+source_paper = "BP-SOCIAL-LAYER-001"
+version = "1.0.0"
+date = "2026-06-19"
+status = "DRAFT"
+description = "TOML interface contracts for social layer APIs (comments, annotations, user accounts)"
+
+# =============================================================================
+# COMMENTS (BP-SOCIAL-LAYER-001 §5.1 — IF-COMMENT-001)
+# =============================================================================
+
+[interfaces.comments]
+
+[interfaces.comments.Comment]
+description = "Core comment data model"
+fields = [
+    { name = "id", type = "string", constraints = "UUID v7" },
+    { name = "pageId", type = "string", constraints = "non-empty" },
+    { name = "parentId", type = "string | null", constraints = "null = top-level, else valid comment ID" },
+    { name = "authorId", type = "string", constraints = "UUID v7" },
+    { name = "authorName", type = "string", constraints = "min(1), max(100)" },
+    { name = "authorAvatar", type = "string | null", constraints = "URL format if present" },
+    { name = "body", type = "string", constraints = "min(1), max(5000), markdown" },
+    { name = "createdAt", type = "string", constraints = "ISO 8601" },
+    { name = "updatedAt", type = "string", constraints = "ISO 8601, >= createdAt" },
+    { name = "edited", type = "boolean", constraints = "default(false)" },
+    { name = "deleted", type = "boolean", constraints = "default(false)" },
+    { name = "depth", type = "int", constraints = "range(0, 5)" },
+    { name = "reactionCounts", type = "Record<string, int>", constraints = "default({})" },
+    { name = "provider", type = "enum", values = ["giscus", "custom"] },
+]
+
+[interfaces.comments.CreateCommentRequest]
+description = "Request to create a new comment"
+fields = [
+    { name = "pageId", type = "string", constraints = "non-empty" },
+    { name = "parentId", type = "string | null", constraints = "null = top-level, else valid comment ID" },
+    { name = "body", type = "string", constraints = "min(1), max(5000), markdown" },
+]
+
+[interfaces.comments.UpdateCommentRequest]
+description = "Request to update an existing comment"
+fields = [
+    { name = "body", type = "string", constraints = "min(1), max(5000), markdown" },
+]
+
+[interfaces.comments.CommentListRequest]
+description = "Request to list comments for a page"
+fields = [
+    { name = "pageId", type = "string", constraints = "non-empty" },
+    { name = "parentId", type = "string?", constraints = "filter by thread root" },
+    { name = "limit", type = "int?", constraints = "range(1, 200), default(50)" },
+    { name = "offset", type = "int?", constraints = "min(0), default(0)" },
+    { name = "sort", type = "enum?", values = ["newest", "oldest", "most_reactions"], constraints = "default(newest)" },
+]
+
+[interfaces.comments.CommentListResponse]
+description = "Paginated comment list"
+fields = [
+    { name = "comments", type = "Comment[]", constraints = "ordered by sort param" },
+    { name = "total", type = "int", constraints = "min(0)" },
+    { name = "hasMore", type = "boolean", constraints = "computed from total/offset/limit" },
+]
+
+# =============================================================================
+# ANNOTATIONS (BP-SOCIAL-LAYER-001 §5.2 — IF-ANNOT-001)
+# =============================================================================
+
+[interfaces.annotations]
+
+[interfaces.annotations.Annotation]
+description = "W3C Web Annotation data model"
+fields = [
+    { name = "id", type = "string", constraints = "UUID v7" },
+    { name = "type", type = "string", constraints = "fixed: Annotation" },
+    { name = "pageId", type = "string", constraints = "non-empty" },
+    { name = "authorId", type = "string", constraints = "UUID v7" },
+    { name = "authorName", type = "string", constraints = "min(1), max(100)" },
+    { name = "body", type = "AnnotationBody", constraints = "required" },
+    { name = "target", type = "AnnotationTarget", constraints = "required" },
+    { name = "visibility", type = "enum", values = ["public", "private", "shared"] },
+    { name = "sharedWith", type = "string[]", constraints = "default([]), user IDs" },
+    { name = "createdAt", type = "string", constraints = "ISO 8601" },
+    { name = "updatedAt", type = "string", constraints = "ISO 8601, >= createdAt" },
+    { name = "replies", type = "AnnotationReply[]", constraints = "default([])" },
+    { name = "tags", type = "string[]", constraints = "default([])" },
+]
+
+[interfaces.annotations.AnnotationBody]
+description = "Annotation body content"
+fields = [
+    { name = "type", type = "string", constraints = "fixed: TextualBody" },
+    { name = "value", type = "string", constraints = "min(1), max(2000), markdown" },
+    { name = "format", type = "string", constraints = "fixed: text/markdown" },
+    { name = "purpose", type = "enum", values = ["commenting", "highlighting", "question", "correction"] },
+]
+
+[interfaces.annotations.AnnotationTarget]
+description = "Annotation target (what is annotated)"
+fields = [
+    { name = "source", type = "string", constraints = "non-empty, page URL or ID" },
+    { name = "selector", type = "TextSelector", constraints = "required" },
+]
+
+[interfaces.annotations.TextSelector]
+description = "Text selection anchor (W3C Web Annotation selector)"
+fields = [
+    { name = "type", type = "enum", values = ["XPathSelector", "TextPositionSelector"] },
+    { name = "startContainer", type = "string?", constraints = "XPath to start node (XPathSelector)" },
+    { name = "startOffset", type = "int?", constraints = "min(0) (XPathSelector)" },
+    { name = "endContainer", type = "string?", constraints = "XPath to end node (XPathSelector)" },
+    { name = "endOffset", type = "int?", constraints = "min(0) (XPathSelector)" },
+    { name = "start", type = "int?", constraints = "min(0) (TextPositionSelector)" },
+    { name = "end", type = "int?", constraints = "> start (TextPositionSelector)" },
+    { name = "exact", type = "string?", constraints = "exact text for verification" },
+    { name = "prefix", type = "string?", constraints = "context before" },
+    { name = "suffix", type = "string?", constraints = "context after" },
+]
+
+[interfaces.annotations.AnnotationReply]
+description = "Reply to an annotation"
+fields = [
+    { name = "id", type = "string", constraints = "UUID v7" },
+    { name = "authorId", type = "string", constraints = "UUID v7" },
+    { name = "authorName", type = "string", constraints = "min(1), max(100)" },
+    { name = "body", type = "string", constraints = "min(1), max(2000), markdown" },
+    { name = "createdAt", type = "string", constraints = "ISO 8601" },
+]
+
+[interfaces.annotations.CreateAnnotationRequest]
+description = "Request to create a new annotation"
+fields = [
+    { name = "pageId", type = "string", constraints = "non-empty" },
+    { name = "body", type = "AnnotationBody", constraints = "required" },
+    { name = "target", type = "AnnotationTarget", constraints = "required" },
+    { name = "visibility", type = "enum", values = ["public", "private", "shared"] },
+    { name = "sharedWith", type = "string[]?", constraints = "required if visibility=shared" },
+    { name = "tags", type = "string[]?", constraints = "default([])" },
+]
+
+[interfaces.annotations.AnnotationListRequest]
+description = "Request to list annotations for a page"
+fields = [
+    { name = "pageId", type = "string", constraints = "non-empty" },
+    { name = "visibility", type = "enum?", values = ["public", "private", "shared", "all"], constraints = "default(public)" },
+    { name = "authorId", type = "string?", constraints = "filter by author" },
+    { name = "limit", type = "int?", constraints = "range(1, 200), default(50)" },
+    { name = "offset", type = "int?", constraints = "min(0), default(0)" },
+]
+
+[interfaces.annotations.AnnotationListResponse]
+description = "Paginated annotation list"
+fields = [
+    { name = "annotations", type = "Annotation[]", constraints = "ordered by position" },
+    { name = "total", type = "int", constraints = "min(0)" },
+    { name = "hasMore", type = "boolean", constraints = "computed" },
+]
+
+# =============================================================================
+# USER ACCOUNTS (BP-SOCIAL-LAYER-001 §5.3 — IF-USER-001)
+# =============================================================================
+
+[interfaces.accounts]
+
+[interfaces.accounts.User]
+description = "Authenticated user profile"
+fields = [
+    { name = "id", type = "string", constraints = "UUID v7" },
+    { name = "email", type = "string", constraints = "email format" },
+    { name = "displayName", type = "string", constraints = "min(1), max(100)" },
+    { name = "avatarUrl", type = "string | null", constraints = "URL format if present" },
+    { name = "role", type = "enum", values = ["reader", "contributor", "moderator", "admin"] },
+    { name = "authProvider", type = "enum", values = ["github", "google", "passkey"] },
+    { name = "createdAt", type = "string", constraints = "ISO 8601" },
+    { name = "lastLoginAt", type = "string", constraints = "ISO 8601" },
+    { name = "preferences", type = "UserPreferences", constraints = "required" },
+    { name = "gdprConsent", type = "GDPRConsent", constraints = "required" },
+]
+
+[interfaces.accounts.UserPreferences]
+description = "User preference settings"
+fields = [
+    { name = "locale", type = "string", constraints = "ISO 639-1, default(en)" },
+    { name = "theme", type = "enum", values = ["light", "dark", "system"], constraints = "default(system)" },
+    { name = "editorFontSize", type = "int", constraints = "range(12, 24), default(16)" },
+    { name = "showAnnotations", type = "boolean", constraints = "default(true)" },
+    { name = "emailNotifications", type = "boolean", constraints = "default(true)" },
+]
+
+[interfaces.accounts.GDPRConsent]
+description = "GDPR consent record"
+fields = [
+    { name = "analytics", type = "boolean", constraints = "default(false)" },
+    { name = "marketing", type = "boolean", constraints = "default(false)" },
+    { name = "consentedAt", type = "string", constraints = "ISO 8601" },
+    { name = "lastUpdated", type = "string", constraints = "ISO 8601" },
+]
+
+[interfaces.accounts.AuthSession]
+description = "Authentication session"
+fields = [
+    { name = "accessToken", type = "string", constraints = "JWT, expires in 15 min" },
+    { name = "refreshToken", type = "string", constraints = "opaque, expires in 30 days" },
+    { name = "expiresAt", type = "string", constraints = "ISO 8601" },
+    { name = "user", type = "User", constraints = "required" },
+]
+
+[interfaces.accounts.OAuthCallbackRequest]
+description = "OAuth callback from provider"
+fields = [
+    { name = "provider", type = "enum", values = ["github", "google"] },
+    { name = "code", type = "string", constraints = "non-empty, authorization code" },
+    { name = "state", type = "string", constraints = "non-empty, CSRF token" },
+]
+
+[interfaces.accounts.PasskeyRegistrationRequest]
+description = "Passkey registration initiation"
+fields = [
+    { name = "username", type = "string", constraints = "min(1), max(100)" },
+    { name = "displayName", type = "string", constraints = "min(1), max(100)" },
+]
+
+[interfaces.accounts.PasskeyAuthenticationRequest]
+description = "Passkey authentication assertion"
+fields = [
+    { name = "credentialId", type = "string", constraints = "non-empty" },
+    { name = "authenticatorData", type = "string", constraints = "base64url" },
+    { name = "clientDataJSON", type = "string", constraints = "base64url" },
+    { name = "signature", type = "string", constraints = "base64url" },
+]
+
+[interfaces.accounts.UserProfileUpdateRequest]
+description = "Update user profile"
+fields = [
+    { name = "displayName", type = "string?", constraints = "min(1), max(100)" },
+    { name = "avatarUrl", type = "string?", constraints = "URL format" },
+    { name = "preferences", type = "Partial<UserPreferences>?", constraints = "merged with existing" },
+]
+
+[interfaces.accounts.DataExportResponse]
+description = "GDPR data export"
+fields = [
+    { name = "user", type = "User", constraints = "complete profile" },
+    { name = "comments", type = "Comment[]", constraints = "all user comments" },
+    { name = "annotations", type = "Annotation[]", constraints = "all user annotations" },
+    { name = "exportedAt", type = "string", constraints = "ISO 8601" },
+    { name = "formatVersion", type = "string", constraints = "semver" },
+]
+
+# =============================================================================
+# RBAC (BP-SOCIAL-LAYER-001 §3.4)
+# =============================================================================
+
+[interfaces.rbac]
+
+[interfaces.rbac.Role]
+description = "User roles in ascending permission order"
+type = "enum"
+values = ["reader", "contributor", "moderator", "admin"]
+
+[interfaces.rbac.Permission]
+description = "System permissions"
+type = "enum"
+values = [
+    "page:read",
+    "page:create",
+    "page:edit",
+    "page:delete",
+    "comment:create",
+    "comment:edit:own",
+    "comment:delete:own",
+    "comment:moderate",
+    "annotation:create",
+    "annotation:edit:own",
+    "annotation:delete:own",
+    "annotation:moderate",
+    "annotation:read:private",
+    "user:manage",
+    "settings:manage",
+    "analytics:view",
+]
+
+[interfaces.rbac.RolePermissions]
+description = "Role to permission mapping"
+type = "map"
+[interfaces.rbac.RolePermissions.reader]
+permissions = ["page:read", "comment:create", "annotation:create"]
+[interfaces.rbac.RolePermissions.contributor]
+permissions = ["page:read", "page:create", "page:edit", "comment:create", "comment:edit:own", "comment:delete:own", "annotation:create", "annotation:edit:own", "annotation:delete:own"]
+[interfaces.rbac.RolePermissions.moderator]
+permissions = ["page:read", "page:create", "page:edit", "page:delete", "comment:create", "comment:edit:own", "comment:delete:own", "comment:moderate", "annotation:create", "annotation:edit:own", "annotation:delete:own", "annotation:moderate", "annotation:read:private", "analytics:view"]
+[interfaces.rbac.RolePermissions.admin]
+permissions = ["page:read", "page:create", "page:edit", "page:delete", "comment:create", "comment:edit:own", "comment:delete:own", "comment:moderate", "annotation:create", "annotation:edit:own", "annotation:delete:own", "annotation:moderate", "annotation:read:private", "user:manage", "settings:manage", "analytics:view"]
+
+# =============================================================================
+# ERRORS
+# =============================================================================
+
+[interfaces.errors]
+
+[interfaces.errors.AuthError]
+description = "Authentication/authorization error"
+fields = [
+    { name = "code", type = "string", constraints = "enum: UNAUTHORIZED, FORBIDDEN, TOKEN_EXPIRED, INVALID_STATE" },
+    { name = "message", type = "string", constraints = "human-readable" },
+    { name = "requiredPermission", type = "Permission?", constraints = "if authorization error" },
+]
+
+[interfaces.errors.ValidationError]
+description = "Input validation error"
+fields = [
+    { name = "code", type = "string", constraints = "e.g. INVALID_BODY, MISSING_FIELD" },
+    { name = "message", type = "string", constraints = "human-readable" },
+    { name = "field", type = "string?", constraints = "dot-separated path" },
+]
+
+[interfaces.errors.RateLimitError]
+description = "Rate limit exceeded"
+fields = [
+    { name = "code", type = "string", constraints = "fixed: RATE_LIMITED" },
+    { name = "message", type = "string", constraints = "human-readable" },
+    { name = "retryAfter", type = "int", constraints = "seconds until retry allowed" },
+]
+
+[interfaces.errors.GDPRError]
+description = "GDPR compliance error"
+fields = [
+    { name = "code", type = "string", constraints = "enum: CONSENT_REQUIRED, EXPORT_FAILED, DELETION_FAILED" },
+    { name = "message", type = "string", constraints = "human-readable" },
+]
+
+# =============================================================================
+# EXPORTS
+# =============================================================================
+
+[exports]
+interfaces = [
+    "interfaces.comments.Comment",
+    "interfaces.comments.CreateCommentRequest",
+    "interfaces.comments.UpdateCommentRequest",
+    "interfaces.comments.CommentListRequest",
+    "interfaces.comments.CommentListResponse",
+    "interfaces.annotations.Annotation",
+    "interfaces.annotations.AnnotationBody",
+    "interfaces.annotations.AnnotationTarget",
+    "interfaces.annotations.TextSelector",
+    "interfaces.annotations.AnnotationReply",
+    "interfaces.annotations.CreateAnnotationRequest",
+    "interfaces.annotations.AnnotationListRequest",
+    "interfaces.annotations.AnnotationListResponse",
+    "interfaces.accounts.User",
+    "interfaces.accounts.UserPreferences",
+    "interfaces.accounts.GDPRConsent",
+    "interfaces.accounts.AuthSession",
+    "interfaces.accounts.OAuthCallbackRequest",
+    "interfaces.accounts.PasskeyRegistrationRequest",
+    "interfaces.accounts.PasskeyAuthenticationRequest",
+    "interfaces.accounts.UserProfileUpdateRequest",
+    "interfaces.accounts.DataExportResponse",
+    "interfaces.rbac.Role",
+    "interfaces.rbac.Permission",
+    "interfaces.rbac.RolePermissions",
+    "interfaces.errors.AuthError",
+    "interfaces.errors.ValidationError",
+    "interfaces.errors.RateLimitError",
+    "interfaces.errors.GDPRError",
+]

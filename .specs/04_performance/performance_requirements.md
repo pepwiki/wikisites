@@ -2,348 +2,356 @@
 
 ## Overview
 
-This document defines measurable performance requirements for KP Wikisites across all user-facing and system-facing metrics. Every requirement includes its target value, measurement methodology, acceptance criteria, and remediation path when targets are not met.
+Performance budgets and targets for Wikisites (Astro 5.x + SolidJS 1.9 + Cloudflare Pages). All new components are tiered by impact and lazy-loaded. Budgets enforce that no tier degrades the user experience below threshold.
 
 ## 1. Core Web Vitals Targets
 
-### Largest Contentful Paint (LCP)
-
-| Metric | Target | Acceptable | Unacceptable |
+| Metric | Target | Max | Measurement |
 |---|---|---|---|
-| LCP | <1.8s | <2.5s | >2.5s |
+| LCP (P75) | <1.8s | <2.5s | Navigation start → largest contentful element |
+| CLS (P75) | <0.05 | <0.1 | Session window (5s, 1s gap) |
+| INP (P98) | <150ms | <200ms | All interactions, 98th percentile |
+| FID (P75) | <50ms | <100ms | First input delay |
 
-**Measurement:**
-- Measured from navigation start to largest contentful element render
-- Largest element is typically a hero image, heading, or content block
-- Measured at 75th percentile across all page loads
+**TTFB targets by content type:**
 
-**Optimization levers:**
-1. Server-side render critical content (SolidJS SSR)
-2. Preload hero images with `<link rel="preload" as="image">`
-3. Use `fetchpriority="high"` on LCP element
-4. Inline critical CSS for above-the-fold content
-5. Serve assets from Cloudflare edge (low TTFB)
-
-**Monitoring:**
-```typescript
-// Performance observer for LCP
-const lcpObserver = new PerformanceObserver((list) => {
-  const entries = list.getEntries();
-  const lastEntry = entries[entries.length - 1];
-  
-  emitMetric('web_vitals.lcp', lastEntry.startTime, {
-    element: lastEntry.element?.tagName,
-    url: window.location.pathname,
-  });
-});
-
-lcpObserver.observe({ type: 'largest-contentful-paint', buffered: true });
-```
-
-### Cumulative Layout Shift (CLS)
-
-| Metric | Target | Acceptable | Unacceptable |
-|---|---|---|---|
-| CLS | <0.05 | <0.1 | >0.1 |
-
-**Measurement:**
-- Sum of all layout shift scores within session window
-- Session window: maximum 5 seconds, gap threshold 1 second
-- Only counts unexpected shifts (not user-initiated)
-
-**Optimization levers:**
-1. Set explicit `width` and `height` on all images and video
-2. Use `aspect-ratio` CSS property for responsive media
-3. Reserve space for dynamic content (skeleton screens, ad slots)
-4. Use CSS `contain` for layout boundaries
-5. Avoid inserting content above existing content after load
-
-**Monitoring:**
-```typescript
-const clsObserver = new PerformanceObserver((list) => {
-  let clsValue = 0;
-  for (const entry of list.getEntries()) {
-    if (!entry.hadRecentInput) {
-      clsValue += entry.value;
-    }
-  }
-  
-  emitMetric('web_vitals.cls', clsValue, {
-    url: window.location.pathname,
-  });
-});
-
-clsObserver.observe({ type: 'layout-shift', buffered: true });
-```
-
-### First Input Delay (FID)
-
-| Metric | Target | Acceptable | Unacceptable |
-|---|---|---|---|
-| FID | <50ms | <100ms | >100ms |
-
-**Measurement:**
-- Time from first user interaction to browser event handler execution
-- Only measured on first interaction
-- Superseded by INP in practice but still tracked for historical comparison
-
-**Optimization levers:**
-1. Defer non-critical JavaScript execution
-2. Use `requestIdleCallback` for low-priority work
-3. Break long tasks (>50ms) into smaller chunks
-4. Minimize main thread work during initial load
-5. Use Web Workers for expensive computation
-
-### Interaction to Next Paint (INP)
-
-| Metric | Target | Acceptable | Unacceptable |
-|---|---|---|---|
-| INP | <150ms | <200ms | >200ms |
-
-**Measurement:**
-- Latency of all interactions (clicks, taps, key presses) throughout page lifecycle
-- P98 of all interaction latencies
-- Most critical for perceived responsiveness
-
-**Optimization levers:**
-1. Keep event handlers under 50ms
-2. Use `startTransition()` for non-urgent state updates in SolidJS
-3. Debounce input handlers (search, form validation)
-4. Offload heavy computation to Web Workers
-5. Use CSS `will-change` for animated properties
-
-**Monitoring:**
-```typescript
-const inpObserver = new PerformanceObserver((list) => {
-  for (const entry of list.getEntries()) {
-    emitMetric('web_vitals.inp', entry.duration, {
-      interactionType: entry.name,
-      url: window.location.pathname,
-    });
-  }
-});
-
-inpObserver.observe({ type: 'event', buffered: true });
-```
-
-## 2. Time to First Byte (TTFB)
-
-| Metric | Target | Acceptable | Unacceptable |
-|---|---|---|---|
-| TTFB | <100ms | <200ms | >200ms |
-
-**Measurement:**
-- Time from request start to first byte received
-- Measured by `PerformanceNavigationTiming.responseStart`
-- Critical for perceived responsiveness
-
-**Optimization levers:**
-1. Cloudflare Workers at edge (global PoP network)
-2. KV cache for frequently accessed content
-3. Minimize worker startup time (avoid heavy imports)
-4. Stream response headers immediately
-5. Use `cf: { cacheTtl: 300 }` for cacheable responses
-
-**TTFB by content type:**
-
-| Content | TTFB Target | Caching Strategy |
+| Content | Target | Cache Strategy |
 |---|---|---|
-| Wiki page (cached) | <50ms | KV cache, 5 min TTL |
-| Wiki page (uncached) | <150ms | D1 query + KV cache |
-| Search results | <100ms | Pre-built index in KV |
-| Static assets | <20ms | CDN edge cache, immutable |
-| API responses | <100ms | KV cache, varies by endpoint |
+| Static wiki page | <50ms | KV cache, 5 min TTL |
+| Uncached wiki page | <150ms | D1 query + KV cache |
+| Search results | <80ms | Pre-built index in KV |
+| Static assets | <15ms | CDN edge, immutable |
+| API responses | <100ms | Stale-while-revalidate |
 
-## 3. Total Page Weight
+## 2. Bundle Size Budgets Per Tier
 
-### Initial Load Budget
+### Tier Budgets (gzipped)
 
-| Resource Type | Target | Maximum |
-|---|---|---|
-| HTML | 10KB | 20KB |
-| JavaScript (initial) | 64KB | 100KB |
-| CSS | 20KB | 40KB |
-| Images (above fold) | 50KB | 100KB |
-| Fonts | 0KB | 0KB (system fonts) |
-| **Total initial** | **144KB** | **260KB** |
+| Tier | Components | JS Budget | CSS Budget | Total Budget | Loading |
+|---|---|---|---|---|---|
+| **P0** | Command Palette, Keyboard Shortcuts, Outline Panel, Breadcrumbs | 12KB | 3KB | 15KB | Palette/Outline lazy, Shortcuts/Breadcrumbs eager |
+| **P1** | KaTeX, force-graph, Split Pane, Regex Search | 340KB | 10KB | 350KB | All lazy, on-demand |
+| **P2** | Giscus, Annotations, User Accounts | 30KB | 5KB | 35KB | All lazy, on user action |
+| **P3** | TipTap, Diff Viewer | 210KB | 5KB | 215KB | All lazy, on edit mode |
+| **P4** | Plugin API, Theme Engine, Settings | 8KB | 2KB | 10KB | Theme eager, rest lazy |
 
-### Full Page Budget
-
-| Resource Type | Target | Maximum |
-|---|---|---|
-| All JavaScript | 150KB | 250KB |
-| All CSS | 40KB | 80KB |
-| All images (loaded) | 200KB | 400KB |
-| Fonts | 0KB | 0KB |
-| Other (icons, data) | 10KB | 30KB |
-| **Total page** | **400KB** | **760KB** |
-
-### Compression Targets
-
-| Format | Target Ratio | Applicable Resources |
-|---|---|---|
-| Brotli | 80% | JS, CSS, HTML, SVG, JSON |
-| Gzip | 70% | Fallback for older browsers |
-| WebP | 75% | Photographs |
-| AVIF | 85% | Photographs (modern browsers) |
-| SVG | 60% | Icons, illustrations |
-
-## 4. Build Time
-
-| Metric | Target | Maximum | Critical |
-|---|---|---|---|
-| Total build time | <3 minutes | <5 minutes | >5 minutes |
-| Cold start build | <4 minutes | <6 minutes | >6 minutes |
-| Incremental build | <30 seconds | <60 seconds | >60 seconds |
-| Type checking | <20 seconds | <40 seconds | >40 seconds |
-| Linting | <10 seconds | <20 seconds | >20 seconds |
-| Testing | <60 seconds | <120 seconds | >120 seconds |
-
-### Build Pipeline Stages
-
-```
-┌─────────────────┐
-│  Install deps   │  Target: 30s
-│  (npm ci)       │  Max: 60s
-└────────┬────────┘
-         │
-┌────────▼────────┐
-│  Type check     │  Target: 20s
-│  (tsc --noEmit) │  Max: 40s
-└────────┬────────┘
-         │
-┌────────▼────────┐
-│  Lint           │  Target: 10s
-│  (eslint)       │  Max: 20s
-└────────┬────────┘
-         │
-┌────────▼────────┐
-│  Test           │  Target: 60s
-│  (vitest run)   │  Max: 120s
-└────────┬────────┘
-         │
-┌────────▼────────┐
-│  Build          │  Target: 90s
-│  (vite build)   │  Max: 150s
-└────────┬────────┘
-         │
-┌────────▼────────┐
-│  Optimize       │  Target: 30s
-│  (minify, hash) │  Max: 60s
-└────────┬────────┘
-         │
-┌────────▼────────┐
-│  Deploy         │  Target: 20s
-│  (wrangler)     │  Max: 40s
-└─────────────────┘
-```
-
-## 5. Search Response Time
-
-| Metric | Target | Acceptable | Unacceptable |
-|---|---|---|---|
-| Search response (client) | <50ms | <100ms | >100ms |
-| Search response (server) | <80ms | <150ms | >150ms |
-| Search index load | <200ms | <500ms | >500ms |
-| Search result render | <16ms | <33ms | >33ms |
-
-### Search Pipeline Budget
-
-| Stage | Target | Method |
-|---|---|---|
-| Query parsing | <2ms | Tokenize + normalize |
-| Index lookup | <10ms | Trigram index in KV |
-| Fuzzy matching | <20ms | Levenshtein with pruning |
-| Ranking | <5ms | TF-IDF + recency boost |
-| Snippet generation | <5ms | Extract from content |
-| Serialization | <3ms | JSON response |
-| **Total server** | **<45ms** | — |
-| Network (edge) | <10ms | KV proximity |
-| **Total client** | **<55ms** | — |
-
-### Search UX Requirements
-
-1. Results appear within 100ms of keystroke
-2. Debounce input at 150ms (prevents excessive queries)
-3. Show loading indicator if response >50ms
-4. Cache last 10 queries with results
-5. Support incremental/prefix search
-
-## 6. API Response Time
-
-| Endpoint Category | Target | Maximum | Measurement |
-|---|---|---|---|
-| Authentication | <50ms | <100ms | P95 |
-| Page CRUD | <100ms | <200ms | P95 |
-| Search | <50ms | <100ms | P95 |
-| File upload (init) | <100ms | <200ms | P95 |
-| File upload (transfer) | N/A | N/A | Depends on file size |
-| Wiki settings | <80ms | <150ms | P95 |
-| User profile | <60ms | <120ms | P95 |
-
-### API Latency Distribution
-
-Target distribution for all API endpoints:
-
-| Percentile | Target | Maximum |
-|---|---|---|
-| P50 | <50ms | <100ms |
-| P75 | <80ms | <150ms |
-| P90 | <100ms | <200ms |
-| P95 | <120ms | <250ms |
-| P99 | <200ms | <500ms |
-
-### API Response Structure
-
-```typescript
-interface APIResponse<T> {
-  data: T;
-  meta: {
-    requestId: string;    // Trace ID for debugging
-    duration: number;     // Server processing time in ms
-    cached: boolean;      // Whether response was served from cache
-    timestamp: string;    // ISO 8601 timestamp
-  };
-  error?: {
-    code: string;
-    message: string;
-    details?: Record<string, unknown>;
-  };
-}
-```
-
-## 7. Lighthouse Score Targets
-
-| Category | Target | Minimum |
-|---|---|---|
-| Performance | >95 | >90 |
-| Accessibility | >98 | >95 |
-| Best Practices | >95 | >90 |
-| SEO | >100 | >95 |
-| PWA | N/A | N/A |
-
-### Lighthouse Metrics
+### Cumulative Budget
 
 | Metric | Target | Maximum |
 |---|---|---|
-| First Contentful Paint | <1.0s | <1.8s |
-| Largest Contentful Paint | <1.8s | <2.5s |
-| Total Blocking Time | <100ms | <200ms |
-| Cumulative Layout Shift | <0.05 | <0.1 |
-| Speed Index | <2.0s | <3.0s |
-| Time to Interactive | <2.5s | <3.5s |
+| Base app (no new components) | 60KB JS | 100KB JS |
+| P0 added | +72KB | +85KB |
+| P0+P1 added | +212KB | +250KB |
+| P0+P1+P2 added | +242KB | +295KB |
+| P0+P1+P2+P3 added | +442KB | +510KB |
+| All tiers loaded | +450KB | +520KB |
+| **Total with all tiers** | **<500KB** | **<600KB** |
+| Total CSS | <30KB | <50KB |
+| Total page weight (all resources) | <500KB | <750KB |
 
-## 8. Performance Monitoring and Alerting
+### Per-Component Budgets
 
-### Monitoring Stack
+| Component | Size (gzipped) | Max | Loading Strategy |
+|---|---|---|---|
+| Command Palette | ~5KB | 7KB | Lazy, dynamic import on Cmd+K |
+| Keyboard Shortcuts | ~1KB | 2KB | Eager, bundled with app shell |
+| Outline Panel | ~5KB | 7KB | Lazy, dynamic import on toggle |
+| Breadcrumbs | ~1KB | 2KB | Eager, static content |
+| KaTeX | ~300KB | 320KB | Lazy, dynamic import on math block |
+| force-graph | ~45KB | 55KB | Lazy, dynamic import on graph view |
+| Split Pane | ~0KB | 1KB | Lazy, near-zero (CSS only) |
+| Regex Search | ~0KB | 1KB | Lazy, near-zero (logic only) |
+| Giscus | ~15KB | 20KB | Lazy, dynamic import on scroll to comments |
+| Annotations | ~10KB | 15KB | Lazy, dynamic import on annotation trigger |
+| User Accounts | ~5KB | 8KB | Lazy, dynamic import on login click |
+| TipTap | ~200KB | 220KB | Lazy, dynamic import on edit mode |
+| Diff Viewer | ~10KB | 15KB | Lazy, dynamic import on diff view |
+| Plugin API | ~5KB | 8KB | Lazy, dynamic import on plugin load |
+| Theme Engine | ~2KB | 3KB | Eager, applied on page load |
+| Settings | ~1KB | 2KB | Lazy, dynamic import on settings open |
 
-| Tool | Purpose | Frequency |
+## 3. Lazy Loading Strategy
+
+### Loading Classification
+
+```
+Eager (bundled with shell, ~2KB total):
+  - Keyboard Shortcuts (1KB)
+  - Breadcrumbs (1KB)
+  - Theme Engine (2KB)
+
+Lazy - UI Components (on user trigger):
+  - Command Palette (5KB) → Cmd+K / Ctrl+K
+  - Outline Panel (5KB) → Toggle button click
+  - Settings (1KB) → Settings icon click
+  - User Accounts (5KB) → Login button click
+
+Lazy - Content Renderers (on content need):
+  - KaTeX (300KB) → Math block detection in markdown
+  - force-graph (45KB) → Graph view toggle
+  - Regex Search (0KB) → Search input focus + regex mode
+  - Split Pane (0KB) → Split view toggle
+
+Lazy - Heavy Editors (on edit mode):
+  - TipTap (200KB) → Edit button click
+  - Diff Viewer (10KB) → Diff view toggle
+
+Lazy - Social/External (on scroll):
+  - Giscus (15KB) → Scroll to comments section
+  - Annotations (10KB) → Annotation trigger
+
+Lazy - Extensions:
+  - Plugin API (5KB) → First plugin load
+```
+
+### Dynamic Import Pattern
+
+```typescript
+// Astro island pattern for lazy components
+// src/components/islands/CommandPaletteIsland.tsx
+import { lazy, Suspense } from 'solid-js';
+
+const CommandPalette = lazy(() => import('../CommandPalette'));
+
+export function CommandPaletteIsland() {
+  return (
+    <Suspense fallback={null}>
+      <CommandPalette />
+    </Suspense>
+  );
+}
+```
+
+### Loading Priority Map
+
+| Priority | Trigger | Components | Max Wait |
+|---|---|---|---|
+| P0-critical | Page load | Shortcuts, Breadcrumbs, Theme | 0ms (eager) |
+| P0-interactive | User input | Command Palette, Outline Panel | 100ms |
+| P1-content | Content render | KaTeX, force-graph, Regex | 200ms |
+| P2-social | Scroll/trigger | Giscus, Annotations, Accounts | 500ms |
+| P3-editor | Edit mode | TipTap, Diff Viewer | 1000ms |
+| P4-extension | Plugin load | Plugin API, Settings | 500ms |
+
+## 4. Code Splitting Plan
+
+### Vite Manual Chunks
+
+```typescript
+// astro.config.mjs - vite config
+vite: {
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // Core app shell
+          'app-core': ['solid-js', 'solid-js/web'],
+          // Heavy libraries (each in own chunk)
+          'vendor-katex': ['katex'],
+          'vendor-tiptap': ['@tiptap/core', '@tiptap/starter-kit'],
+          'vendor-force-graph': ['force-graph'],
+          'vendor-giscus': ['@giscus/react'],
+          // Shared utilities
+          'utils-search': ['./src/lib/search'],
+          'utils-markdown': ['./src/lib/markdown'],
+        },
+      },
+    },
+    target: 'es2022',
+  },
+}
+```
+
+### Chunk Naming Convention
+
+```
+assets/js/
+├── app-[hash].js           # Core shell (60KB)
+├── vendor-katex-[hash].js  # KaTeX (300KB)
+├── vendor-tiptap-[hash].js # TipTap (200KB)
+├── vendor-force-[hash].js  # force-graph (45KB)
+├── ui-palette-[hash].js    # Command Palette (5KB)
+├── ui-outline-[hash].js    # Outline Panel (5KB)
+├── ui-diff-[hash].js       # Diff Viewer (10KB)
+├── social-giscus-[hash].js # Giscus (15KB)
+├── ext-plugins-[hash].js   # Plugin API (5KB)
+└── shared-[hash].js        # Shared utilities (10KB)
+```
+
+### Astro Islands Configuration
+
+```astro
+---
+// Each tier-1+ component gets its own island
+// Only the eagerly-needed islands are included in the base HTML
+import CommandPalette from '../components/islands/CommandPaletteIsland';
+import OutlinePanel from '../components/islands/OutlinePanelIsland';
+
+// Tier-0 components that are eager
+import Breadcrumbs from '../components/Breadcrumbs';
+import KeyboardShortcuts from '../components/KeyboardShortcuts';
+import ThemeEngine from '../components/ThemeEngine';
+---
+
+<Layout>
+  <Breadcrumbs />
+  <KeyboardShortcuts />
+  <ThemeEngine />
+  <!-- Lazy islands loaded via client:idle or client:visible -->
+  <CommandPalette client:idle />
+  <OutlinePanel client:visible />
+</Layout>
+```
+
+## 5. Font Loading Strategy
+
+### KaTeX Fonts
+
+KaTeX requires math fonts. Strategy: load on-demand when first math block is detected.
+
+```typescript
+// Font loading for KaTeX
+let katexFontsLoaded = false;
+
+async function loadKaTeXFonts() {
+  if (katexFontsLoaded) return;
+
+  // Preload critical KaTeX font files
+  const fonts = [
+    '/fonts/KaTeX_Main-Regular.woff2',
+    '/fonts/KaTeX_Math-Italic.woff2',
+    '/fonts/KaTeX_Size1-Regular.woff2',
+  ];
+
+  await Promise.all(
+    fonts.map(url => {
+      const link = document.createElement('link');
+      link.rel = 'preload';
+      link.href = url;
+      link.as = 'font';
+      link.type = 'font/woff2';
+      link.crossOrigin = 'anonymous';
+      document.head.appendChild(link);
+    })
+  );
+
+  katexFontsLoaded = true;
+}
+
+// Load fonts when KaTeX component is loaded
+const KaTeX = lazy(async () => {
+  await loadKaTeXFonts();
+  return import('./KaTeXRenderer');
+});
+```
+
+### System Font Stack (Primary)
+
+```css
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+}
+code, pre {
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono',
+    'Lucida Console', Monaco, monospace;
+}
+```
+
+### KaTeX Font Fallback
+
+```css
+.katex { font-family: 'KaTeX_Main', 'Times New Roman', serif; }
+.katex-math italic { font-family: 'KaTeX_Math', serif; font-style: italic; }
+```
+
+## 6. Image Optimization
+
+| Format | Target | Fallback |
 |---|---|---|
-| Lighthouse CI | Automated performance testing | Every PR + daily |
-| WebPageTest | Deep performance analysis | Weekly |
-| Custom RUM | Real user monitoring | Continuous |
-| Cloudflare Analytics | Edge performance | Continuous |
-| Sentry Performance | Error + performance tracking | Continuous |
+| WebP | Primary format | JPEG/PNG |
+| AVIF | Modern browsers | WebP |
+| SVG | Icons, diagrams | N/A |
+
+```astro
+---
+// Astro image component with responsive srcset
+const { src, alt, width, height } = Astro.props;
+---
+
+<picture>
+  <source srcset={`${src}?w=400&f=avif`} type="image/avif" />
+  <source srcset={`${src}?w=400&f=webp`} type="image/webp" />
+  <img
+    src={`${src}?w=800`}
+    alt={alt}
+    width={width}
+    height={height}
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+  />
+</picture>
+```
+
+### Image Budget
+
+| Resource | Budget | Max |
+|---|---|---|
+| Above-fold images | 50KB | 100KB |
+| Below-fold images | 150KB | 300KB |
+| Icons | 5KB | 10KB |
+| Placeholders | 2KB | 5KB |
+
+## 7. Cache Strategy
+
+### Service Worker
+
+```typescript
+// sw.ts - Workbox-based service worker
+const CACHE_VERSION = 'v1';
+
+// Static assets: Cache-first, immutable
+const STATIC_CACHE = `static-${CACHE_VERSION}`;
+const STATIC_ASSETS = [
+  '/assets/js/app-*.js',
+  '/assets/css/app-*.css',
+  '/assets/fonts/*.woff2',
+];
+
+// HTML pages: Network-first, offline fallback
+const PAGE_CACHE = `pages-${CACHE_VERSION}`;
+
+// API: Stale-while-revalidate
+const API_CACHE = `api-${CACHE_VERSION}`;
+```
+
+### Cache TTL by Resource Type
+
+| Resource | TTL | Strategy |
+|---|---|---|
+| JS/CSS bundles | 1 year | Immutable (hash in filename) |
+| Fonts | 1 year | Immutable |
+| HTML pages | 5 min | Stale-while-revalidate |
+| API responses | 1 min | Stale-while-revalidate |
+| Images | 30 days | Cache-first |
+| Search index | 1 hour | Background refresh |
+| Giscus widget | Session | Network-first |
+
+### CDN Headers (Cloudflare Pages)
+
+```
+/_astro/*:
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.html:
+  Cache-Control: public, s-maxage=300, stale-while-revalidate=600
+
+/assets/js/vendor-*:
+  Cache-Control: public, max-age=31536000, immutable
+```
+
+## 8. Performance Monitoring
 
 ### Alert Thresholds
 
@@ -351,54 +359,41 @@ interface APIResponse<T> {
 |---|---|---|---|
 | LCP P75 | >2.0s | >2.5s | Investigate LCP element |
 | CLS P75 | >0.08 | >0.1 | Fix layout shifts |
-| TTFB P75 | >150ms | >200ms | Check cache hit rate |
-| API P95 | >200ms | >500ms | Profile slow queries |
+| TTFB P75 | >120ms | >200ms | Check cache hit rate |
+| Bundle size | >500KB | >600KB | Audit new components |
+| INP P98 | >150ms | >200ms | Profile event handlers |
 | Error rate | >1% | >5% | Investigate errors |
-| Build time | >4min | >6min | Optimize pipeline |
 
-### Performance Regression Detection
+### Regression Detection
 
 ```typescript
-// Automated regression detection
-interface PerformanceBaseline {
-  metric: string;
-  p50: number;
-  p75: number;
-  p95: number;
-  samples: number;
-  lastUpdated: string;
-}
-
-function checkRegression(
-  current: PerformanceBaseline,
-  baseline: PerformanceBaseline
-): Regression[] {
-  const regressions: Regression[] = [];
-  
-  // 10% regression threshold
-  const threshold = 1.10;
-  
-  if (current.p75 > baseline.p75 * threshold) {
-    regressions.push({
-      metric: current.metric,
-      baseline: baseline.p75,
-      current: current.p75,
-      change: ((current.p75 - baseline.p75) / baseline.p75) * 100,
-      severity: current.p75 > baseline.p75 * 1.25 ? 'critical' : 'warning',
-    });
-  }
-  
-  return regressions;
+// 10% regression threshold on any metric
+function checkRegression(current: number, baseline: number): 'pass' | 'warn' | 'fail' {
+  const change = (current - baseline) / baseline;
+  if (change > 0.25) return 'fail';
+  if (change > 0.10) return 'warn';
+  return 'pass';
 }
 ```
 
-## 9. Performance Testing Schedule
+### CI Integration
 
-| Test Type | Frequency | Environment | Duration |
-|---|---|---|---|
-| Lighthouse CI | Every PR | Local + staging | 2 minutes |
-| Bundle size check | Every PR | CI | 30 seconds |
-| Load test (k6) | Weekly | Staging | 10 minutes |
-| Stress test | Monthly | Staging | 30 minutes |
-| Real user monitoring | Continuous | Production | Ongoing |
-| Synthetic monitoring | Every 5 minutes | Production | 30 seconds per test |
+```yaml
+# Bundle size check on every PR
+- name: Check bundle size
+  run: |
+    npx bundlesize --config .bundlesizerc.json
+    # Fail if any chunk exceeds budget
+```
+
+```json
+// .bundlesizerc.json
+{
+  "files": [
+    { "path": "dist/assets/js/app-*.js", "maxSize": "100kb" },
+    { "path": "dist/assets/js/vendor-katex-*.js", "maxSize": "320kb" },
+    { "path": "dist/assets/js/vendor-tiptap-*.js", "maxSize": "220kb" },
+    { "path": "dist/assets/css/app-*.css", "maxSize": "30kb" }
+  ]
+}
+```

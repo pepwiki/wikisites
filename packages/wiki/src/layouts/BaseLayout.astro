@@ -1,11 +1,15 @@
 ---
 import "../styles/global.css";
 import "../styles/critical.css";
+import "../styles/power-user.css";
+import "../styles/content-tools.css";
 import Toaster from "../components/ui/Toaster";
 import MobileNav from "../components/MobileNav";
 import CookieConsent from "../components/CookieConsent.tsx";
 import PushNotifications from "../components/PushNotifications.tsx";
 import LanguageSwitcher from "../components/LanguageSwitcher";
+import PowerUserShell from "../components/PowerUserShell.tsx";
+import ContentToolsShell from "../components/ContentToolsShell.tsx";
 import { loadTranslations, t } from "@wikisites/shared/i18n";
 import en from "@wikisites/shared/i18n/locales/en";
 
@@ -18,7 +22,7 @@ interface Props {
 
 const {
   title,
-  description = "Collaborative wiki for learning oligopeptides -- quizzes, flashcards, community annotations",
+  description = "Static wiki for learning oligopeptides -- quizzes, flashcards, power-user tools",
 } = Astro.props;
 ---
 
@@ -186,6 +190,8 @@ const {
         <a href="/privacy" class="hover:text-[#0D9488] transition-colors">Privacy Policy</a>
       </div>
     </footer>
+    <PowerUserShell pathname={Astro.url.pathname} client:load />
+    <ContentToolsShell client:idle />
     <PushNotifications client:load />
     <CookieConsent client:load />
     <script is:inline>

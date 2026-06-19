@@ -1,10 +1,11 @@
-# Phase -1: Context Discovery Report
+# Phase -1: Context Discovery Report — Power-User Viewer
 
-**Document ID:** RPT-PHASE--1-001
-**Version:** 1.0.0
-**Date:** 2026-06-07
-**Status:** Final
-**Project:** Wikisites — Dual-Site Oligopeptide Educational Platform
+**Document ID:** RPT-PHASE--1-002
+**Version:** 2.0.0
+**Date:** 2026-06-19
+**Status:** Active
+**Project:** Wikisites — Power-User Viewer Transformation
+**Phase:** -1 (Context Discovery — Power-User Viewer)
 
 ---
 
@@ -12,468 +13,324 @@
 
 1. [Executive Summary](#1-executive-summary)
 2. [Domain Analysis Summary](#2-domain-analysis-summary)
-3. [Key Findings](#3-key-findings)
-4. [Standards Mapping Summary](#4-standards-mapping-summary)
-5. [Capability Assessment](#5-capability-assessment)
-6. [Multi-lingual Strategy](#6-multi-lingual-strategy)
-7. [Risk Register Summary](#7-risk-register-summary)
-8. [Recommended Next Steps for Phase 0](#8-recommended-next-steps-for-phase-0)
-9. [Quality Gate Status](#9-quality-gate-status)
+3. [Standards Mapping Summary](#3-standards-mapping-summary)
+4. [Capability Assessment](#4-capability-assessment)
+5. [Multi-lingual Strategy](#5-multi-lingual-strategy)
+6. [Risk Register Summary](#6-risk-register-summary)
+7. [Recommended Next Steps for Phase 0](#7-recommended-next-steps-for-phase-0)
+8. [Quality Gate Status](#8-quality-gate-status)
 
 ---
 
 ## 1. Executive Summary
 
-The Wikisites project establishes two complementary oligopeptide educational websites built on a shared Astro + SolidJS + Cloudflare stack: **encyclopeptide.com** (a formal, encyclopedic reference) and **wikipept.com** (a collaborative, wiki-style learning platform). The project targets the intersection of biochemistry education, pharmacological reference, and computational biology resource provision.
+Wikisites is an established monorepo containing two educational oligopeptide sites — Encyclopeptide (encyclopeptide.com) and Wikipept (wikipept.com) — built on Astro 5.x, SolidJS 1.9, Tailwind CSS 4.x, TypeScript 5.9, and deployed to Cloudflare Pages + Workers. The project shipped v1.0.0 with 158 articles, 680 quizzes, 502 flashcards, 12 learn lessons, 218 tests, and full CI/CD.
 
-The oligopeptide domain — molecules composed of 2–20 amino acid residues — represents a critical intermediate class between individual amino acids and larger polypeptide/protein structures. Oligopeptides serve essential roles in cell signaling, antimicrobial defense, neurotransmission, hormonal regulation, and represent a rapidly expanding class of therapeutic agents with projected global market value exceeding $12.8 billion by 2030.
+This Phase -1 report covers the transformation into a **maximal, power-user viewer** — "VS Code for content." The power-user viewer paradigm shifts the user experience from passive reading to active, keyboard-driven, density-optimized exploration.
 
-The dual-site strategy addresses two fundamentally distinct user intent patterns:
+**Key Deliverables This Phase:**
 
-- **Encyclopedic intent**: Users seeking authoritative, citable, peer-reviewed-grade data on specific oligopeptide structures, synthesis routes, and pharmacokinetic parameters. This population demands precision, traceability, and formal scientific notation.
-- **Educational intent**: Users seeking to learn about oligopeptides from foundational concepts through expert-level material, leveraging community knowledge, interactive assessment tools, and progressive disclosure of complexity.
+| Document | Version | Scope |
+|----------|---------|-------|
+| `domain_analysis.md` | 2.0.0 | Domain scope, personas, risks, multi-lingual requirements |
+| `applicable_standards.md` | 2.0.0 | All applicable standards with clause-level detail |
+| `capability_requirements.md` | 2.0.0 | Feature tiers, tools, integration points, performance constraints |
 
-Phase -1 has completed a comprehensive context discovery encompassing domain scope definition, audience analysis, content strategy differentiation, technical constraint identification, multi-lingual requirements elicitation, and risk assessment. This report synthesizes all findings and establishes the baseline for Phase 0 (Requirements Engineering).
+### 1.1 Transformation Summary
 
-**Project Scope Summary:**
+| Dimension | Current | Target |
+|-----------|---------|--------|
+| Navigation | Sidebar + search | Command palette + keyboard shortcuts + graph |
+| Layout | Single-column | Multi-panel, split-view, customizable |
+| Density | Standard web | Compact/power-user density option |
+| Cross-refs | Inline links | Bidirectional links, backlinks, graph |
+| Interaction | Click-driven | Keyboard-first, mouse-optional |
+| Data | localStorage | localStorage + edge sync (KV/D1) |
+| Offline | PWA shell | Full offline article/quiz/graph access |
 
-| Dimension            | encyclopeptide.com                                              | wikipept.com                                              |
-| -------------------- | --------------------------------------------------------------- | --------------------------------------------------------- |
-| Primary content type | Monographs, data tables, molecular visualizations               | Study guides, tutorials, community annotations            |
-| Citation model       | DOI-linked, peer-reviewed references                            | Community-sourced, editable footnotes                     |
-| Interactivity level  | 3D molecular viewer, structure search                           | Quizzes, flashcards, spaced repetition, progress tracking |
-| Editing model        | Editorial board review                                          | Wiki-style collaborative editing                          |
-| Visual identity      | Clinical, journal-like (Dark Navy + Gold)                       | Warm, card-based, modern wiki (Teal + Coral)              |
-| Target audience      | Academic researchers, bioinformaticians, industry professionals | Students, science enthusiasts, general public             |
-| Languages            | EN primary, ZH/RU/DE/FR/JP secondary                            | EN primary, ZH/RU/DE/FR/JP secondary                      |
+### 1.2 Competitive Positioning
+
+The power-user viewer addresses gaps identified in competitive benchmark:
+
+| Gap | Competitor | Power-User Viewer Fix | Tier |
+|-----|-----------|----------------------|------|
+| 3D molecular visualization | RCSB PDB | Mol* viewer integration | P1 |
+| Peptide property calculator | Peptide2.com | Full property suite | P1 |
+| Sequence search | UniProt | Faceted/fuzzy search | P0 |
+| API access | RCSB PDB | REST + OpenAPI | P2 |
+| Dense data views | UniProt | Power-user density mode | P1 |
 
 ---
 
 ## 2. Domain Analysis Summary
 
-### 2.1 Domain Scope
+### 2.1 Primary Domain
 
-The oligopeptide knowledge domain spans five major axes:
+- **Primary:** Educational content platform / scientific reference
+- **Secondary:** Oligopeptide biochemistry knowledge base
+- **Tertiary:** Community-driven learning system with spaced repetition
 
-1. **Chemical classification** — by chain length (dipeptides through icosapeptides), chemical class (linear, cyclic, branched), structural features (D-amino acid-containing, modified, peptidomimetics)
-2. **Functional classification** — neurotransmitter modulators, hormonal regulators, antimicrobial peptides, immunomodulatory peptides, antioxidant peptides, ACE-inhibitory peptides, bioactive food peptides, neuropeptides
-3. **Source organism** — mammalian, microbial, marine, plant-derived, synthetic/combinatorial
-4. **Therapeutic application** — oncology, infectious disease, endocrinology, neurology, dermatology, metabolic disorders, cardiovascular
-5. **Educational taxonomy** — four levels from foundational (high school) through expert (established researcher)
+### 2.2 Domain Ontology (Power-User Viewer)
 
-### 2.2 encyclopeptide.com — Formal Reference Site
+The power-user viewer requires a formal knowledge graph:
 
-**Role:** Authoritative, citable reference for oligopeptide data.
+| Node Type | Examples | Power-User Viewer Usage |
+|-----------|---------|------------------------|
+| Peptide | Glutathione, Oxytocin, Insulin | Article links, graph nodes |
+| Amino Acid | Leucine, Cysteine, Glycine | Composition data, graph edges |
+| Receptor | GPCR, Ion Channel, Nuclear Receptor | Binding data, graph edges |
+| Pathway | NF-κB, MAPK, PI3K/Akt | Functional classification |
+| Disease | Cancer, Diabetes, Neurodegeneration | Therapeutic application |
+| Publication | DOI-linked papers | Citations, graph edges |
 
-**Content model:** Monographs structured as formal scientific entries with classification metadata, structural information (primary sequence, molecular formula, 3D structure via Mol\*/NGL), biological activity data (receptor binding affinities, signaling pathways), pharmacological properties (PK parameters, therapeutic applications, safety profiles), synthesis routes (SPPS, biosynthetic, recombinant), analytical characterization (MS, HPLC, NMR), and DOI-linked references.
+### 2.3 User Personas
 
-**Editorial model:** Expert editorial board with peer review process. All quantitative values require primary literature citations with DOI. Structural data cross-referenced against PDB, UniProt, and ChEMBL. Content updated quarterly/annually with formal errata process.
-
-**Search model:** Structure-based search (substructure, similarity), database-style filtered queries, API access for programmatic data retrieval.
-
-### 2.3 wikipept.com — Collaborative Wiki Site
-
-**Role:** Accessible, community-driven learning platform for oligopeptide education.
-
-**Content model:** Study guides with progressive depth disclosure (foundational → intermediate → advanced → expert), interactive quiz engine (SM-2/FSRS spaced repetition), flashcard decks, community annotation system, comparison table builder, contribution leaderboard, and version history with edit diff visualization.
-
-**Editorial model:** Wiki-style collaborative editing with reputation-weighted trust system. Expert review queue for high-traffic pages. Community moderation tools (flag, vote, revert). "Pending changes" review for new contributors. Clear community guidelines and code of conduct.
-
-**Learning model:** Bottom-up learning progression with interleaved review, active recall emphasis, community scaffolding, and mastery-based advancement (unlock advanced topics after demonstrating foundational competency).
-
-### 2.4 Shared Data Layer
-
-Both sites share underlying peptide data but present it differently. The canonical data model includes:
-
-- Peptide identity (name, synonyms, CAS, UniProt ID, PDB entries)
-- Structural data (sequence, molecular formula, weight, charge, modifications)
-- Biological activity (targets, affinities, pathways)
-- Pharmacological parameters (PK, PD, safety)
-- Synthesis information (chemical, biosynthetic, recombinant)
-- Literature references (DOI-linked)
-
-The shared data layer prevents double maintenance while allowing independent content evolution and presentation.
+| Persona | Goals | Power-User Features | Frequency |
+|---------|------|---------------------|-----------|
+| Power-User Researcher | Quick lookup, cross-refs, citations | Cmd palette, graph, multi-panel, dense | Daily |
+| Power-User Student | Learn, review, track progress | Unified dashboard, keyboard review, spaced rep | Daily |
+| Power-User Contributor | Edit, annotate, review | Quick-edit, inline diff, batch ops | Weekly |
+| Casual Reader | Read articles | Standard mode (default) | Occasional |
 
 ---
 
-## 3. Key Findings
+## 3. Standards Mapping Summary
 
-### 3.1 Oligopeptide Domain Complexity
+### 3.1 Standards by Domain
 
-**Finding:** The oligopeptide domain exhibits extreme multidimensionality that creates significant information architecture challenges.
+| Domain | Standards | P0 Requirements |
+|--------|-----------|-----------------|
+| Accessibility | WCAG 2.1 AA/AAA, Section 508, ARIA 1.2 | Full keyboard access, ARIA roles, contrast |
+| Privacy | GDPR, CCPA | Consent, data minimization, export |
+| Security | OWASP Top 10, NIST SP 800-53, CSP Level 3 | XSS prevention, CSRF, input sanitization |
+| Web | HTML5, CSS3, ES2024, URL Standard | Semantic HTML, CSS variables, modern JS |
+| Content | Dublin Core, Schema.org, IMS CC, LTI | Metadata, structured data |
+| Quality | ISO/IEC 25010, ISO/IEC 25012 | Software quality, data quality |
+| Educational | SCORM, xAPI, IEEE 1484.12.1 | Learning records, content packaging |
+| i18n | ICU, CLDR, BCP 47, UAX #9 | Locale support, RTL, bidirectional |
 
-**Evidence:**
+### 3.2 Compliance Baseline
 
-- 6+ classification axes (length, function, source, structure, application, educational level)
-- 20 standard amino acids × modification combinations yield combinatorial structural diversity
-- Multiple synthesis pathways (ribosomal, NRPS, chemical SPPS, recombinant, hybrid)
-- Complex receptor pharmacology (GPCRs, ionotropic, enzyme-linked) with multiple signal transduction cascades
-- Rapidly expanding therapeutic market ($12.8B projected by 2030) with active clinical pipelines
-- Cross-disciplinary dependencies spanning biochemistry, pharmacology, computational biology, clinical medicine
+Existing compliance ✅:
 
-**Implication:** Information architecture must support multi-axis faceted navigation with prominent search. Content templates must enforce structural consistency across the vast dimensional space. Progressive disclosure is essential to prevent information overload.
+- WCAG 2.1 AA (axe-core E2E tests)
+- GDPR (cookie consent, privacy policy)
+- CSP Level 2 (CSP headers in Workers)
+- HSTS (security headers)
+- Rate limiting (Cloudflare Workers)
+- Input sanitization (Zod validation)
+- Dark mode (prefers-color-scheme + toggle)
+- i18n (4 locales: en, zh, ja, ar)
+- RTL support (Arabic)
+- prefers-reduced-motion (all animations)
 
-### 3.2 Audience Segmentation
+### 3.3 Standards-to-Tier Coverage
 
-**Finding:** Four distinct primary audience segments with fundamentally different needs, behaviors, and content preferences require careful platform targeting.
-
-| Segment              | Primary Platform   | Key Need                             | Content Preference                          |
-| -------------------- | ------------------ | ------------------------------------ | ------------------------------------------- |
-| Academic researchers | encyclopeptide.com | Precise quantitative data, citations | Data tables, DOI references, export formats |
-| Students (UG/Grad)   | wikipept.com       | Concept understanding, exam prep     | Progressive depth, quizzes, flashcards      |
-| Bioinformaticians    | encyclopeptide.com | Structured data, API access          | RESTful API, bulk download, schema docs     |
-| General public       | wikipept.com       | Accessible explanations, reliability | Jargon-free language, visual explanations   |
-
-**Implication:** Each site's UX, content model, and feature set must be optimized for its primary audience. Cross-linking between sites enables secondary audience access without compromising primary experience.
-
-### 3.3 Content Strategy
-
-**Finding:** The content strategy distinction between sites is well-defined and mutually reinforcing.
-
-**encyclopeptide.com content model:**
-
-- Tone: Formal, academic, authoritative
-- Voice: Third-person, passive constructions common
-- Update frequency: Periodic (quarterly/annual major updates)
-- Structural format: Monographs, data tables, structured profiles
-- Visual style: Minimal, data-dense, precise (Dark Navy #1B2A4A, Gold #C9A84C)
-
-**wikipept.com content model:**
-
-- Tone: Conversational, supportive, community-oriented
-- Voice: Second-person active, encouraging
-- Update frequency: Continuous (real-time community edits)
-- Structural format: Tutorials, study guides, wikis, quizzes, flashcards
-- Visual style: Rich, illustrative, approachable (Teal #0097A7, Coral #FF6F61)
-
-**Implication:** Content templates, editorial workflows, and quality assurance processes must be independently optimized for each site's content model while sharing the canonical data layer.
-
-### 3.4 Technical Constraints
-
-**Finding:** Performance, accessibility, and security requirements are stringent and interdependent.
-
-**Performance targets:**
-
-- FCP <1.5s, LCP <2.5s, CLS <0.1, FID <100ms (Core Web Vitals)
-- 3D molecular viewer: initial load <2s, 60fps rotation/zoom, <500MB memory
-- Search response: <200ms simple, <500ms complex filtered
-- Total initial page weight: <500KB
-
-**Accessibility:** WCAG 2.1 Level AA mandatory (contrast ratios, keyboard access, semantic HTML, alt text for molecular visualizations). Level AAA aspirational.
-
-**Security:** HTTPS enforced, CSP headers, API rate limiting, input validation, CSRF protection, bcrypt/argon2 password hashing, OAuth 2.0/OIDC integration.
-
-**Implication:** Astro + SolidJS + Cloudflare stack is well-suited for these constraints (see Section 5). Performance budgets must be enforced at build time. Accessibility audits must be integrated into CI/CD.
-
-### 3.5 Multi-lingual Complexity
-
-**Finding:** Multi-lingual support introduces significant technical and editorial complexity, particularly for scientific nomenclature.
-
-**Key challenges:**
-
-- IUPAC nomenclature, amino acid codes, chemical formulas, gene symbols must remain in English/IUPAC standard regardless of display language
-- Chinese (Simplified) requires ICP filing, data localization, and Great Firewall compatibility
-- Russian requires data localization per federal law
-- EU languages require GDPR compliance and European Accessibility Act conformance
-- Translation workflow requires professional translation + domain expert review + community validation pipeline
-
-**Implication:** i18n architecture must be established at project inception, not retrofitted. URL structure (`/en/`, `/zh/`, `/ru/`, `/de/`, `/fr/`, `/jp/`) must be defined before content creation begins. Glossary management system (500+ terms) must precede translation work.
+| Tier | Standards Coverage | Gap |
+|------|-------------------|-----|
+| P0 | Full (all mandatory standards) | None |
+| P1 | Full + selected AAA criteria | WCAG AAA for dense mode |
+| P2 | Full + data portability (GDPR Art. 15-20) | Export functionality |
+| P3 | LTI, SCORM, xAPI integration | Enterprise features |
+| P4 | AI, voice, AR (emerging standards) | Vision features |
 
 ---
 
-## 4. Standards Mapping Summary
+## 4. Capability Assessment
 
-The following standards are most critical to the Wikisites project, listed in order of implementation priority:
+### 4.1 Existing Capabilities (Power-User Viewer Ready)
 
-| #   | Standard                                                                 | Scope                      | Priority | Relevance                                                                                                                                                                                                                             |
-| --- | ------------------------------------------------------------------------ | -------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | **WCAG 2.1 Level AA**                                                    | Accessibility              | P0       | Mandatory legal compliance; ensures inclusive access for researchers and students with disabilities. Covers contrast ratios, keyboard navigation, screen reader compatibility, and molecular viewer accessibility alternatives.       |
-| 2   | **Schema.org ScholarlyArticle / LearningResource**                       | Structured data            | P0       | Required for SEO, academic indexing, and machine-readable content. `ScholarlyArticle` for encyclopeptide.com monographs; `LearningResource` for wikipept.com study guides. Enables Google Scholar and educational search integration. |
-| 3   | **IUPAC-IUB Nomenclature Standards**                                     | Scientific notation        | P0       | Non-negotiable for scientific accuracy. Governs amino acid abbreviations (3-letter/1-letter codes), peptide sequence notation (N→C convention), modification notation, and stereochemistry designations. Cross-lingual invariant.     |
-| 4   | **Core Web Vitals (LCP <2.5s, CLS <0.1, FID <100ms)**                    | Performance                | P0       | Google ranking signal and user experience baseline. Critical for mobile-first educational access. 3D molecular viewer performance budgets must be defined per-page.                                                                   |
-| 5   | **GDPR (EU) + CCPA (California)**                                        | Data privacy               | P0       | Governs user account data, learning progress tracking, community contributions, analytics. Requires consent management, data export, deletion rights, privacy-by-design architecture.                                                 |
-| 6   | **FAIR Data Principles** (Findable, Accessible, Interoperable, Reusable) | Data management            | P1       | Guides structured data design, API documentation, metadata standards, and citation practices. Ensures peptide data is discoverable and reusable by the bioinformatics community.                                                      |
-| 7   | **ISO 8601 / Unicode CLDR**                                              | Date/time and localization | P1       | Required for multi-lingual date formatting, timezone handling, and locale-aware number formatting across 6 languages. Foundation for translation memory and content synchronization.                                                  |
-| 8   | **Content Security Policy (CSP) Level 3**                                | Security                   | P1       | Protects against XSS, code injection, and data exfiltration. Critical given 3D viewer WebGL contexts, community-editable content, and external API integrations.                                                                      |
-| 9   | **RFC 7519 (JWT) / OAuth 2.0**                                           | Authentication             | P1       | Governs user authentication for wikipept.com community features. JWT for session management; OAuth 2.0 for potential SSO with institutional identity providers.                                                                       |
-| 10  | **OpenAPI Specification 3.1**                                            | API documentation          | P2       | Structured API documentation for programmatic data access (encyclopeptide.com). Enables auto-generated client libraries, interactive API explorer, and integration testing.                                                           |
+| Capability | Status | Component | Power-User Ready |
+|------------|--------|-----------|-----------------|
+| Dark mode | ✅ | ThemeToggle.tsx | Yes |
+| Basic keyboard shortcuts | ✅ | KeyboardShortcuts.tsx | Partial (expand) |
+| FSRS v4 spaced repetition | ✅ | @wikisites/query | Yes |
+| Quiz engine | ✅ | Quiz.tsx | Yes |
+| Flashcard system | ✅ | Flashcard.tsx | Yes |
+| Pagefind search | ✅ | @wikisites/query | Augment |
+| i18n (4 locales) | ✅ | astro-i18next | Yes |
+| RTL support | ✅ | Tailwind rtl: | Yes |
+| PWA | ✅ | Service worker | Extend |
+| WCAG 2.1 AA | ✅ | axe-core E2E | Yes |
+| prefers-reduced-motion | ✅ | CSS media query | Yes |
+| Molecule viewer | ✅ | MoleculeViewer.tsx | Extend for 3D |
+| Error boundary | ✅ | ErrorBoundary.tsx | Yes |
+| Session stats | ✅ | SessionStats.tsx | Extend for dashboard |
 
----
+### 4.2 New Capabilities Required
 
-## 5. Capability Assessment
+| Capability | Tier | Priority | Effort |
+|------------|------|----------|--------|
+| Command palette | P0 | Must | 1 week |
+| Keyboard shortcut registry | P0 | Must | 3 days |
+| Faceted search | P0 | Must | 3 days |
+| Responsive multi-panel layout | P1 | Should | 1 week |
+| Graph visualization | P1 | Should | 2 weeks |
+| Dense mode | P1 | Should | 3 days |
+| Progress dashboard | P1 | Should | 1 week |
+| Graph data collection | P1 | Should | 3 days |
+| Inline editor | P2 | Could | 2 weeks |
+| Batch operations | P2 | Could | 1 week |
+| Offline graph | P2 | Could | 3 days |
+| Citation system | P2 | Could | 1 week |
+| Real-time collaboration | P3 | Won't yet | 4 weeks |
+| LTI integration | P3 | Won't yet | 3 weeks |
+| SCORM export | P3 | Won't yet | 2 weeks |
+| xAPI statements | P3 | Won't yet | 2 weeks |
+| AI-powered search | P4 | Nice to have | 4 weeks |
+| Voice commands | P4 | Nice to have | 2 weeks |
+| AR peptide viewer | P4 | Nice to have | 4 weeks |
 
-### 5.1 Stack Selection: Astro + SolidJS + Cloudflare
+### 4.3 New Dependencies Required
 
-**Selected Stack:**
-
-- **Framework:** Astro (static site generation with islands architecture)
-- **UI Runtime:** SolidJS (reactive UI components via Astro islands)
-- **Hosting/CDN:** Cloudflare Pages + Workers + KV + D1
-
-### 5.2 Justification Analysis
-
-#### 5.2.1 Astro
-
-| Capability            | Assessment | Rationale                                                                                                                                                                   |
-| --------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Static generation     | Excellent  | Monographs and study guides are primarily static content. Astro generates optimized static HTML at build time, minimizing TTFB and maximizing CDN cacheability.             |
-| Islands architecture  | Excellent  | Enables selective hydration — 3D molecular viewer, quiz engine, and flashcard components load as interactive islands without impacting initial page load of static content. |
-| Content collections   | Excellent  | Native support for MDX/markdown content with schema validation. Ideal for monograph and study guide templating. Built-in type safety for frontmatter.                       |
-| Multi-lingual routing | Good       | File-based routing with `[lang]` parameter supports `/en/`, `/zh/`, etc. Static generation per language at build time.                                                      |
-| Performance           | Excellent  | Zero-JS by default for static pages. Automatic code-splitting. Built-in image optimization. Aligns with <500KB initial page weight target.                                  |
-| SEO                   | Excellent  | Server-rendered HTML ensures full content indexability. Structured data (Schema.org) easily embedded in layouts.                                                            |
-| Ecosystem             | Good       | Growing plugin ecosystem. SolidJS integration via `@astrojs/solid-js`. Cloudflare adapter available.                                                                        |
-
-#### 5.2.2 SolidJS
-
-| Capability       | Assessment | Rationale                                                                                                                                                |
-| ---------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reactivity model | Excellent  | Fine-grained reactivity without virtual DOM overhead. Ideal for quiz engine state, flashcard flipping, progress tracking, and molecular viewer controls. |
-| Bundle size      | Excellent  | ~7KB runtime (vs. ~45KB React). Critical for mobile performance and <500KB page weight budget.                                                           |
-| Performance      | Excellent  | Compiled to vanilla DOM operations. No reconciliation overhead. 60fps molecular viewer rotation achievable.                                              |
-| TypeScript       | Excellent  | First-class TypeScript support. Strong typing for peptide data models, quiz state, and API responses.                                                    |
-| Learning curve   | Good       | JSX syntax familiar to React developers. Reactivity primitives (createSignal, createEffect) are intuitive. Smaller API surface than React.               |
-| Ecosystem        | Moderate   | Smaller ecosystem than React. Fewer pre-built component libraries. May require custom implementations for complex UI patterns.                           |
-
-#### 5.2.3 Cloudflare
-
-| Capability             | Assessment | Rationale                                                                                                                                   |
-| ---------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| Pages (static hosting) | Excellent  | Global edge distribution. Automatic preview deploys. Git integration. Unlimited bandwidth.                                                  |
-| Workers (serverless)   | Excellent  | API endpoints for quiz submission, progress sync, community editing, search queries. V8 isolates for low-latency edge computation.          |
-| KV (key-value store)   | Good       | Session storage, user preferences, cached search results, translation memory cache. Eventually consistent, suitable for non-critical reads. |
-| D1 (SQLite database)   | Good       | Relational data for user accounts, learning progress, community contributions, content metadata. SQLite semantics familiar to developers.   |
-| R2 (object storage)    | Excellent  | Molecular structure files (PDB, SDF), user-uploaded content, backup storage. S3-compatible API. No egress fees.                             |
-| CDN / caching          | Excellent  | Global edge network. Configurable cache rules per content type. APO for dynamic content caching.                                            |
-| Security               | Excellent  | DDoS protection, WAF, Bot Management. Free SSL/TLS. Custom domains with automatic certificate provisioning.                                 |
-
-### 5.3 Stack Risk Assessment
-
-| Risk                            | Likelihood | Impact | Mitigation                                                                                                                              |
-| ------------------------------- | ---------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------- |
-| SolidJS ecosystem gaps          | Medium     | Medium | Identify required components early; build custom components for quiz/flashcard if needed; evaluate Preact as fallback.                  |
-| D1 maturity                     | Low        | Medium | D1 is production-ready (GA). SQLite semantics limit horizontal scaling but are sufficient for Year 1–3 traffic projections.             |
-| Cloudflare vendor lock-in       | Low        | Low    | Astro generates standard static output. Workers use standard Web APIs. Migration path exists to Vercel/Netlify + any serverless.        |
-| 3D viewer on Cloudflare Workers | Low        | Medium | 3D viewer is client-side (WebGL). Workers serve static assets and API endpoints only. No server-side rendering of molecular structures. |
-
-### 5.4 Capability Matrix
-
-| Capability                | Requirement | Astro       | SolidJS | Cloudflare       | Status   |
-| ------------------------- | ----------- | ----------- | ------- | ---------------- | -------- |
-| Static site generation    | Core        | ✓           | —       | ✓                | Met      |
-| Selective hydration       | Core        | ✓ (Islands) | ✓       | —                | Met      |
-| Interactive UI components | Core        | —           | ✓       | —                | Met      |
-| Content collections (MDX) | Core        | ✓           | —       | —                | Met      |
-| Multi-lingual routing     | Core        | ✓           | —       | —                | Met      |
-| API endpoints             | Core        | —           | —       | ✓ (Workers)      | Met      |
-| Relational database       | Core        | —           | —       | ✓ (D1)           | Met      |
-| Key-value cache           | Core        | —           | —       | ✓ (KV)           | Met      |
-| Object storage            | Core        | —           | —       | ✓ (R2)           | Met      |
-| Global CDN                | Core        | —           | —       | ✓                | Met      |
-| 3D molecular viewer       | Feature     | ✓ (Islands) | ✓       | —                | Planned  |
-| Quiz/flashcard engine     | Feature     | —           | ✓       | ✓ (D1)           | Planned  |
-| Spaced repetition (FSRS)  | Feature     | —           | ✓       | ✓ (D1)           | Planned  |
-| Community editing         | Feature     | —           | ✓       | ✓ (Workers + D1) | Planned  |
-| Search (Meilisearch)      | Feature     | —           | —       | ✓ (Workers)      | Planned  |
-| Real-time collaboration   | Feature     | —           | —       | —                | Deferred |
+| Package | Tier | Bundle Impact |
+|---------|------|---------------|
+| `fuse.js` | P0 | ~10KB gzipped |
+| `d3-force`, `d3-selection`, `d3-zoom`, `d3-drag` | P1 | ~31KB gzipped |
+| `chart.js` | P1 | ~20KB gzipped (tree-shakeable) |
+| `diff-match-patch` | P2 | ~10KB gzipped |
+| `markdown-it` | P2 | ~15KB gzipped |
+| `idb` | P2 | ~3KB gzipped |
 
 ---
 
-## 6. Multi-lingual Strategy
+## 5. Multi-lingual Strategy
 
-### 6.1 Language Prioritization
+### 5.1 Current Locale Support
 
-| Language             | Code  | Priority | Coverage Target     | Key Markets                                 | Special Considerations                                                                   |
-| -------------------- | ----- | -------- | ------------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| English              | EN    | Primary  | 100%                | Global                                      | Canonical source language; all content authored in English first                         |
-| Chinese (Simplified) | ZH-CN | High     | 80% of core content | Mainland China, Singapore, Taiwan           | ICP filing required; data localization; Great Firewall compatibility; CJK typography     |
-| Russian              | RU    | High     | 60% of core content | Russia, CIS countries                       | Federal data localization law; Cyrillic typography; transliteration standards            |
-| German               | DE    | Medium   | 60% of core content | Germany, Austria, Switzerland               | GDPR compliance; compound word handling in UI; formal/informal register                  |
-| French               | FR    | Medium   | 60% of core content | France, Canada, Belgium, Francophone Africa | Quebec Bill 96 compliance; accented character handling; formal register                  |
-| Japanese             | JP    | Medium   | 60% of core content | Japan                                       | APPI compliance; CJK typography; vertical text support consideration; honorific register |
+| Locale | Language | Script | Direction | Status |
+|--------|----------|--------|-----------|--------|
+| en | English | Latin | LTR | Primary |
+| zh | Chinese (Simplified) | Han | LTR | Active |
+| ja | Japanese | Han + Hiragana + Katakana | LTR | Active |
+| ar | Arabic | Arabic | RTL | Active |
 
-### 6.2 Content Localization Rules
+### 5.2 Power-User Viewer i18n Requirements
 
-**Invariant elements (remain in English/IUPAC regardless of display language):**
+| Requirement | Tier | Notes |
+|-------------|------|-------|
+| Command palette labels localized | P0 | All command names, categories |
+| Keyboard shortcut names localized | P1 | Display in user's locale |
+| Graph node labels localized | P1 | Peptide names, pathway names |
+| Search queries support CJK input | P0 | IME composition for zh/ja |
+| RTL layout for command palette | P0 | Full mirroring for Arabic |
+| Date/number formatting per locale | P1 | ICU-based formatting |
+| Locale-aware sorting in lists | P2 | CLDR collation rules |
 
-- IUPAC nomenclature
-- Amino acid 3-letter and 1-letter codes
-- Chemical formulas (H₂O, not localized)
-- Gene and protein symbols (HGNC/UniProt)
-- SI units (nm, Da, M, etc.)
-- Peptide sequences (N→C, single-letter code)
-- Database identifiers (UniProt, PDB, ChEMBL, etc.)
+### 5.3 RTL Implementation
 
-**Localized elements:**
-
-- Page titles, meta descriptions, navigation labels
-- Explanatory prose and descriptions
-- Common names (where established localized versions exist, e.g., 谷胱甘肽 for glutathione)
-- UI labels, buttons, form elements
-- Error messages, help text
-- Date/time and number formatting (locale-appropriate)
-- Medical/health disclaimers (required in local language)
-
-### 6.3 URL Structure
-
-```
-encyclopeptide.com/
-├── /en/angiotensin-ii          (English — default, also accessible as /angiotensin-ii)
-├── /zh/angiotensin-ii          (Chinese Simplified)
-├── /ru/angiotensin-ii          (Russian)
-├── /de/angiotensin-ii          (German)
-├── /fr/angiotensin-ii          (French)
-└── /jp/angiotensin-ii          (Japanese)
-
-wikipept.com/
-├── /en/peptide-bonds           (English — default)
-├── /zh/peptide-bonds           (Chinese Simplified)
-├── /ru/peptide-bonds           (Russian)
-├── /de/peptide-bonds           (German)
-├── /fr/peptide-bonds           (French)
-└── /jp/peptide-bonds           (Japanese)
-```
-
-### 6.4 Translation Workflow
-
-1. **Content freeze** — English source marked "ready for translation"; translation memory updated; glossary terms verified
-2. **Translation** — Professional translators with biochemistry/pharmacology domain expertise; machine translation post-editing (MTPE) for volume efficiency
-3. **Review** — Bilingual review by second translator; technical accuracy review by domain expert; terminology consistency check
-4. **Integration** — Translated content integrated into CMS; automated quality checks (broken links, encoding, formatting); preview and QA
-5. **Publication** — Staggered release per language; post-publication quality spot-check
-
-### 6.5 Glossary Management
-
-- Master glossary maintained as structured data (JSON/YAML) with 500+ core terms
-- Version-controlled with translation memory tools (PO files, TMX)
-- Approved by domain experts and professional translators
-- Community suggestions accepted via pull request with expert review
-- Consistency checks run automatically on all translated content
-- Glossary updates propagated to all translations
+- Tailwind `rtl:` variant for directional styles
+- `dir="rtl"` attribute on HTML element
+- Bidi isolation for mixed LTR/RTL content (peptide names)
+- Command palette mirroring for Arabic
+- Graph node label alignment for RTL
 
 ---
 
-## 7. Risk Register Summary
+## 6. Risk Register Summary
 
-### Top 5 Risks with Mitigations
+### 6.1 Top 5 Risks
 
-| #   | Risk                                           | Category    | Likelihood | Impact | Overall  | Mitigation Strategy                                                                                                                                                                                                                                                                                                                                                                   |
-| --- | ---------------------------------------------- | ----------- | ---------- | ------ | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | **Scientific accuracy and currency**           | Content     | High       | High   | CRITICAL | Mandatory citation requirements for all quantitative claims. Annual content review cycle. Community error reporting mechanism. Expert reviewer network. Prominent "last reviewed" dates. Version control with audit trail. Clear disclaimer: reference resource, not clinical guidance. Rapid correction protocol with errata publication.                                            |
-| 2   | **Community content quality (wikipept.com)**   | Content     | High       | High   | CRITICAL | Reputation-weighted trust system (experienced contributors have higher edit priority). Expert review queue for high-traffic pages. Automated quality checks (citation requirements, formatting). Community moderation tools (flag, vote, revert). "Pending changes" review for new contributors.定期 expert review. Clear community guidelines. Escalation path for disputed content. |
-| 3   | **3D molecular viewer integration**            | Technical   | High       | Medium | HIGH     | Progressive enhancement: 2D fallback for all 3D content. Lazy loading for viewer initialization. Structure simplification for mobile. Cross-browser testing matrix (Chrome, Firefox, Safari, Edge, mobile). Accessibility audit specific to viewer. Performance budget enforcement per page.                                                                                          |
-| 4   | **Data backup and disaster recovery**          | Operational | Medium     | High   | HIGH     | Automated daily backups with off-site storage. Database point-in-time recovery. Annual DR drill. RTO: 4 hours. RPO: 1 hour. User-facing backup/export functionality. Redundant infrastructure across availability zones.                                                                                                                                                              |
-| 5   | **Mobile performance of interactive features** | Technical   | Medium     | Medium | MEDIUM   | Offline-first architecture for learning features. Local-first data storage with periodic sync. Lightweight quiz engine optimized for mobile. Service worker for offline access. Battery-aware sync scheduling.                                                                                                                                                                        |
+| Risk | Severity | Mitigation |
+|------|----------|------------|
+| Command palette keyboard conflicts | HIGH | Check OS/browser shortcuts; allow remapping |
+| Scientific inaccuracy in community content | CRITICAL | Editorial review queue; expert moderation |
+| Graph viz bundle size on mobile | MEDIUM | Lazy-load, Canvas rendering, 2D fallback |
+| Feature learning curve | HIGH | Progressive disclosure; standard mode default |
+| XSS via command palette input | HIGH | Input sanitization; CSP enforcement |
 
-### Risk Distribution Summary
+### 6.2 Risk Distribution
 
-| Severity | Count | Risks                                                                                               |
-| -------- | ----- | --------------------------------------------------------------------------------------------------- |
-| CRITICAL | 2     | Scientific accuracy, Community content quality                                                      |
-| HIGH     | 2     | 3D viewer integration, Backup/recovery                                                              |
-| MEDIUM   | 5     | Search at scale, Mobile performance, IP/licensing, Info architecture, Traffic scaling, Supply chain |
-| LOW      | 2     | Data sync, Feature learning curve                                                                   |
-
----
-
-## 8. Recommended Next Steps for Phase 0
-
-### 8.1 Phase 0 (Requirements Engineering) Scope
-
-Phase 0 will translate context discovery findings into formal, testable requirements. The following work packages are recommended:
-
-#### WP-0.1: Functional Requirements Specification
-
-1. **Content model formalization** — Define complete schema for oligopeptide monographs (encyclopeptide.com) and study guides (wikipept.com) with all required fields, validation rules, and cross-reference constraints
-2. **Search requirements** — Specify search functionality (full-text, faceted, structure-based, cross-language) with query syntax, result ranking, and performance targets
-3. **Quiz/flashcard engine** — Define quiz question types, scoring algorithms, spaced repetition parameters (FSRS), progress tracking metrics, and offline sync requirements
-4. **Community editing system** — Specify edit workflow (create, revise, review, approve), version control model, conflict resolution, reputation system, and moderation tools
-5. **3D molecular viewer** — Define integration requirements (Mol\* vs. NGL vs. 3Dmol.js), lazy loading strategy, 2D fallback specifications, and accessibility alternatives
-6. **API specification** — Define RESTful API endpoints, authentication, rate limiting, response formats, and OpenAPI documentation requirements
-7. **Multi-lingual content management** — Define translation workflow, glossary management, content synchronization, and localization quality checks
-
-#### WP-0.2: Non-Functional Requirements
-
-1. **Performance budgets** — Page-level performance budgets (FCP, LCP, CLS, TTI, page weight) with automated enforcement in CI/CD
-2. **Accessibility requirements** — WCAG 2.1 Level AA compliance checklist with molecular viewer-specific accessibility requirements
-3. **Security requirements** — Threat model, authentication/authorization flows, data protection measures, and security testing strategy
-4. **Scalability requirements** — Traffic projections, infrastructure sizing, caching strategy, and database scaling plan
-5. **Reliability requirements** — SLA targets, backup/DR procedures, monitoring/alerting strategy
-
-#### WP-0.3: Data Architecture
-
-1. **Canonical data model** — Unified peptide data schema shared between sites with site-specific extensions
-2. **Database schema** — D1 table definitions for users, content, community contributions, learning progress, and translations
-3. **API data contracts** — Request/response schemas for all API endpoints
-4. **Data sourcing strategy** — Integration plan for UniProt, PDB, ChEMBL, PubChem, and other reference databases
-
-#### WP-0.4: Information Architecture
-
-1. **Site map** — Complete page hierarchy for both sites with navigation model
-2. **URL scheme** — Final URL structure with language routing, redirect rules, and canonical URL strategy
-3. **Navigation model** — Multi-axis faceted navigation for encyclopeptide.com; learning pathway navigation for wikipept.com
-4. **Content taxonomy** — Controlled vocabulary for tagging, categorizing, and cross-linking content
-
-#### WP-0.5: Design System Specification
-
-1. **Component library** — SolidJS component specifications for both sites' design systems
-2. **Responsive breakpoints** — Mobile-first breakpoint strategy with content priority per viewport
-3. **Dark mode** — Dark mode specification (optional, deferred unless requested)
-4. **Iconography** — Icon set selection and custom icon requirements
-
-### 8.2 Dependencies and Prerequisites
-
-| Prerequisite                                           | Status   | Required For   |
-| ------------------------------------------------------ | -------- | -------------- |
-| Domain analysis (DOM-ANALYSIS-001)                     | Approved | All WP-0.x     |
-| Phase -1 report (this document)                        | Final    | All WP-0.x     |
-| Technology stack validation (spike)                    | Pending  | WP-0.1, WP-0.2 |
-| Content sample creation (5 monographs, 5 study guides) | Pending  | WP-0.1, WP-0.4 |
-| Accessibility audit of prototype                       | Pending  | WP-0.2         |
-| Security threat modeling                               | Pending  | WP-0.2         |
-
-### 8.3 Estimated Effort
-
-| Work Package                        | Estimated Effort | Dependencies    |
-| ----------------------------------- | ---------------- | --------------- |
-| WP-0.1: Functional Requirements     | 3–4 weeks        | Domain analysis |
-| WP-0.2: Non-Functional Requirements | 2–3 weeks        | Domain analysis |
-| WP-0.3: Data Architecture           | 2–3 weeks        | WP-0.1          |
-| WP-0.4: Information Architecture    | 2–3 weeks        | WP-0.1          |
-| WP-0.5: Design System Specification | 2–3 weeks        | WP-0.1          |
-| **Total Phase 0**                   | **10–14 weeks**  | —               |
+| Severity | Count | Mitigation Status |
+|----------|-------|-------------------|
+| CRITICAL | 1 | Active mitigation (editorial queue) |
+| HIGH | 4 | Active mitigation planned |
+| MEDIUM | 6 | Deferred to P2+ |
+| LOW | 2 | Monitor |
 
 ---
 
-## 9. Quality Gate Status
+## 7. Recommended Next Steps for Phase 0
 
-### Phase -1 Quality Gates
+### 7.1 Immediate Actions (Week 1)
 
-| Gate ID      | Gate Description                   | Criteria                                                                                                            | Status   | Evidence                                                                                                                                                                           |
-| ------------ | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **QG--1.1**  | Domain scope defined               | In-scope and out-of-scope molecular classes, content types, technical features, and audiences explicitly enumerated | **PASS** | Domain analysis §2.1–2.2: 6 in-scope categories with detailed subcategories; 4 out-of-scope categories with rationale                                                              |
-| **QG--1.2**  | Audience segments identified       | Primary audience profiles with behavioral patterns, content preferences, and pain points documented                 | **PASS** | Domain analysis §4: 4 primary segments (academic researchers, students, bioinformaticians, general public) with full profiles                                                      |
-| **QG--1.3**  | Content strategy differentiated    | Distinct content models, editorial workflows, and visual identities defined for each site                           | **PASS** | Domain analysis §5: Content type comparison matrix, visual identity specifications (color palettes, typography, layout principles, component design) for both sites                |
-| **QG--1.4**  | Technical constraints documented   | Performance, accessibility, security, scalability, and integration requirements specified with measurable targets   | **PASS** | Domain analysis §6: WCAG 2.1 AA compliance, Core Web Vitals targets, security requirements, traffic projections, API rate limits                                                   |
-| **QG--1.5**  | Multi-lingual requirements defined | Language priorities, localization rules, URL structure, translation workflow, and glossary management specified     | **PASS** | Domain analysis §8: 6 languages with priority levels, invariant/localized element rules, URL scheme, professional + community translation pipeline, 500+ term glossary requirement |
-| **QG--1.6**  | Risk register established          | Top risks identified with likelihood, impact, mitigation strategies, and residual risk assessment                   | **PASS** | Domain analysis §7: 12 risks across 4 categories (technical, content, UX, operational) with full risk matrix                                                                       |
-| **QG--1.7**  | Technology stack justified         | Stack selection rationale with capability mapping to requirements                                                   | **PASS** | This report §5: Astro + SolidJS + Cloudflare capability matrix with justification and risk assessment                                                                              |
-| **QG--1.8**  | Phase 0 roadmap defined            | Phase 0 work packages, dependencies, prerequisites, and effort estimates documented                                 | **PASS** | This report §8: 5 work packages with dependencies, prerequisites, and 10–14 week total estimate                                                                                    |
-| **QG--1.9**  | Domain analysis approved           | Domain analysis document reviewed and approved by stakeholders                                                      | **PASS** | DOM-ANALYSIS-001 status: Approved (2026-06-07)                                                                                                                                     |
-| **QG--1.10** | VERSION.md initialized             | Project state ledger initialized with current phase, version, and site status                                       | **PASS** | VERSION.md: Phase -1, Version 0.1.0, Status In Progress                                                                                                                            |
+| Action | Owner | Effort | Dependencies |
+|--------|-------|--------|-------------|
+| Create command palette component | Frontend | 5 days | Fuse.js install |
+| Create keyboard shortcut registry | Frontend | 3 days | None |
+| Extend existing KeyboardShortcuts.tsx | Frontend | 2 days | Registry |
+| Add Fuse.js dependency | DevOps | 0.5 days | None |
+| Update Tailwind config for dense mode tokens | Frontend | 1 day | None |
+| Create graph data collection schema | Content | 2 days | Zod schema |
+| Add P0 ARIA roles to new components | Frontend | 2 days | Components |
 
-### Gate Summary
+### 7.2 Sprint 1-2 (Weeks 2-4)
 
-| Status   | Count |
-| -------- | ----- |
-| **PASS** | 10    |
-| PENDING  | 0     |
-| FAIL     | 0     |
+| Action | Owner | Effort | Dependencies |
+|--------|-------|--------|-------------|
+| Implement faceted search | Frontend | 3 days | Fuse.js |
+| Create multi-panel layout | Frontend | 5 days | None |
+| Implement dense mode | Frontend | 3 days | Tailwind tokens |
+| Create graph visualization (basic) | Frontend | 10 days | D3 install |
+| Create progress dashboard | Frontend | 5 days | FSRS data |
+| E2E tests for power-user features | QA | 5 days | Components |
 
-**Phase -1 Quality Gate Verdict: ALL GATES PASSED — Ready to proceed to Phase 0**
+### 7.3 Sprint 3-4 (Weeks 5-8)
+
+| Action | Owner | Effort | Dependencies |
+|--------|-------|--------|-------------|
+| Implement inline editor | Frontend | 10 days | markdown-it |
+| Add batch operations | Frontend | 5 days | Multi-panel |
+| Offline graph caching | Frontend | 3 days | IndexedDB |
+| Citation resolution API | Backend | 5 days | CrossRef/NCBI APIs |
+| xAPI statement tracking | Backend | 5 days | LRS setup |
+
+### 7.4 Quality Gates
+
+| Gate | Criteria | Status |
+|------|----------|--------|
+| Accessibility | WCAG 2.1 AA (all new features) | Pending |
+| Performance | Command palette < 100ms, graph < 500ms | Pending |
+| Bundle size | < 30KB gzipped (P0), < 55KB (P0+P1) | Pending |
+| Test coverage | 80%+ for new components | Pending |
+| i18n | All P0 strings localized in 4 locales | Pending |
+| Security | No XSS/CSRF in new features | Pending |
 
 ---
 
-**End of Phase -1 Context Discovery Report**
+## 8. Quality Gate Status
 
-_This document is version-controlled. Changes require review by the project lead. Next scheduled review: upon completion of Phase 0._
+### 8.1 Current Compliance
+
+| Gate | Status | Evidence |
+|------|--------|----------|
+| WCAG 2.1 AA | ✅ Pass | axe-core E2E tests |
+| GDPR | ✅ Pass | Cookie consent, privacy policy |
+| OWASP Top 10 | ✅ Pass | CSP, HSTS, rate limiting |
+| TypeScript strict | ✅ Pass | `tsc --noEmit` zero errors |
+| ESLint | ✅ Pass | Zero lint errors |
+| Test coverage 80% | ✅ Pass | V8 coverage report |
+| Build success | ✅ Pass | `astro build` completes |
+| E2E dark mode | ✅ Pass | Playwright tests |
+| E2E visual regression | ✅ Pass | Baseline screenshots |
+| Lighthouse 90+ | ✅ Pass | CI pipeline |
+
+### 8.2 Power-User Viewer Quality Gates (Pending)
+
+| Gate | Target | Status |
+|------|--------|--------|
+| Command palette keyboard navigation | Full keyboard access | Pending |
+| Multi-panel screen reader support | ARIA tablist/tab/tabpanel | Pending |
+| Graph text alternative | Adjacency list for AT | Pending |
+| Dense mode contrast | 7:1 ratio (AAA) | Pending |
+| Graph animation frame rate | 60fps | Pending |
+| Command palette load time | < 100ms | Pending |
+| Offline graph availability | IndexedDB cache | Pending |
+| Shortcut remapping | Settings panel | Pending |
+
+---
+
+**Document Status:** Complete
+**Next Action:** Proceed to Phase 0 (Scaffold) — implement P0 features (command palette, keyboard shortcuts, faceted search)
+**Owner:** Wikisites Development Team
+**Review Cycle:** Update after each sprint

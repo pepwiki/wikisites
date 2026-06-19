@@ -1,0 +1,139 @@
+# =============================================================================
+# Test Vectors: Outline Panel
+# Document ID: TVS-UI-OUTLINE-001
+# Version: 1.0.0
+# Date: 2026-06-19
+# Status: DRAFT
+# =============================================================================
+
+[metadata]
+paper_ids = ["YP-UI-OUTLINE-PANEL-001"]
+total_vectors = 6
+
+# =============================================================================
+# HEADING EXTRACTION TEST VECTORS
+# =============================================================================
+
+[[test_set]]
+id = "TVS-OP-001"
+paper_id = "YP-UI-OUTLINE-PANEL-001"
+description = "Heading extraction from markdown"
+
+[[test_set.tests]]
+id = "TV-OP-001"
+description = "Extract all heading levels"
+input = """
+# Main Title
+## Section 1
+### Subsection 1.1
+### Subsection 1.2
+## Section 2
+### Subsection 2.1
+"""
+expected = [
+  { level = 1, text = "Main Title", id = "main-title", child_count = 2 },
+  { level = 2, text = "Section 1", id = "section-1", child_count = 2 },
+  { level = 3, text = "Subsection 1.1", id = "subsection-11", child_count = 0 },
+  { level = 3, text = "Subsection 1.2", id = "subsection-12", child_count = 0 },
+  { level = 2, text = "Section 2", id = "section-2", child_count = 1 },
+  { level = 3, text = "Subsection 2.1", id = "subsection-21", child_count = 0 }
+]
+
+[[test_set.tests]]
+id = "TV-OP-002"
+description = "Handle empty document"
+input = ""
+expected = []
+
+[[test_set.tests]]
+id = "TV-OP-003"
+description = "Handle single heading"
+input = "# Only Heading"
+expected = [
+  { level = 1, text = "Only Heading", id = "only-heading", child_count = 0 }
+]
+
+# =============================================================================
+# SCROLL SYNC TEST VECTORS
+# =============================================================================
+
+[[test_set]]
+id = "TVS-OP-002"
+paper_id = "YP-UI-OUTLINE-PANEL-001"
+description = "Scroll sync accuracy"
+
+[[test_set.tests]]
+id = "TV-OP-010"
+description = "Active heading at viewport top"
+scroll_y = 0
+viewport_height = 800
+headings = [
+  { id = "intro", top = 100 },
+  { id = "methods", top = 600 },
+  { id = "results", top = 1200 }
+]
+expected_active = "intro"
+
+[[test_set.tests]]
+id = "TV-OP-011"
+description = "Active heading changes on scroll"
+scroll_y = 500
+viewport_height = 800
+headings = [
+  { id = "intro", top = 100 },
+  { id = "methods", top = 600 },
+  { id = "results", top = 1200 }
+]
+expected_active = "methods"
+
+[[test_set.tests]]
+id = "TV-OP-012"
+description = "Last heading remains active when scrolled to bottom"
+scroll_y = 2000
+viewport_height = 800
+headings = [
+  { id = "intro", top = 100 },
+  { id = "methods", top = 600 },
+  { id = "results", top = 1200 }
+]
+expected_active = "results"
+
+# =============================================================================
+# TREE NAVIGATION TEST VECTORS
+# =============================================================================
+
+[[test_set]]
+id = "TVS-OP-003"
+paper_id = "YP-UI-OUTLINE-PANEL-001"
+description = "Tree view keyboard navigation"
+
+[[test_set.tests]]
+id = "TV-OP-020"
+description = "ArrowDown moves to next visible item"
+initial_focus = "intro"
+sequence = ["ArrowDown"]
+expected_focus = "section-1"
+
+[[test_set.tests]]
+id = "TV-OP-021"
+description = "ArrowRight expands collapsed node"
+initial_focus = "section-1"
+initial_expanded = false
+sequence = ["ArrowRight"]
+expected_expanded = true
+expected_focus = "subsection-1-1"
+
+[[test_set.tests]]
+id = "TV-OP-022"
+description = "ArrowLeft collapses expanded node"
+initial_focus = "section-1"
+initial_expanded = true
+sequence = ["ArrowLeft"]
+expected_expanded = false
+
+[[test_set.tests]]
+id = "TV-OP-023"
+description = "Enter navigates to heading"
+initial_focus = "section-2"
+sequence = ["Enter"]
+expected = { scrolled_to = "section-2", heading_visible = true }

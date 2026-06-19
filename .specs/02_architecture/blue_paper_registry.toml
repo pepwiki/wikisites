@@ -1,211 +1,775 @@
-# =============================================================================
 # Blue Paper Registry
-# Document ID: BP-REGISTRY-001
-# Version: 1.0.0
-# Date: 2026-06-07
-# Status: DRAFT
-# Scope: Phase 2 Architectural Specification — all Blue Papers
-# =============================================================================
+# IEEE 1016-2009 Software Design Descriptions
+# Generated: 2026-06-19
 
 [metadata]
+version = "1.0.0"
 project = "wikisites"
-last_updated = "2026-06-07"
-total_papers = 6
-registry_owner = "Wikisites Architecture Team"
-classification = "Internal — Phase 2 Architectural Specification"
-ieee_standard = "IEEE 1016-2024"
-phase = 2
-
-# =============================================================================
-# BLUE PAPERS
-# =============================================================================
+standard = "IEEE 1016-2009"
+generated = "2026-06-19"
 
 [[blue_paper]]
-id = "BP-SITE-ENCP-001"
-title = "Encyclopeptide.com Site Architecture"
-status = "DRAFT"
+id = "BP-POWER-USER-SHELL-001"
+title = "Power User Shell"
 version = "1.0.0"
-date = "2026-06-07"
-authors = ["Wikisites Architecture Team"]
-abstract = "IEEE 1016 compliant architectural specification for encyclopeptide.com — the formal encyclopedic oligopeptide reference site. Covers system purpose and scope, design decomposition into 12 Blue Paper sections, design rationale for Astro/SolidJS/Cloudflare stack decisions, requirements traceability matrix, interface contracts for all API surfaces, oligopeptide data model and content schema, component design with state machines and sequence diagrams, Cloudflare Pages deployment topology, formal verification properties, HAL specification for edge abstraction, compliance matrix, and quality checklist."
-sections = [
-    "BP-1: Design Overview",
-    "BP-2: Design Decomposition",
-    "BP-3: Design Rationale",
-    "BP-4: Traceability",
-    "BP-5: Interface Design",
-    "BP-6: Data Design",
-    "BP-7: Component Design",
-    "BP-8: Deployment Design",
-    "BP-9: Formal Verification",
-    "BP-10: HAL Specification",
-    "BP-11: Compliance Matrix",
-    "BP-12: Quality Checklist"
-]
-applicable_sites = ["ENCP"]
-yellow_paper_refs = ["YP-CHEM-OLIGO-001", "YP-BIO-OLIGO-001", "YP-WEB-TECH-001"]
-requirement_refs = ["FR-001", "FR-003", "FR-004", "FR-005", "FR-006", "FR-008", "FR-009", "FR-010", "FR-011", "FR-012", "FR-013", "FR-014", "FR-015", "FR-016", "FR-017", "FR-018", "FR-019", "FR-020", "FR-021", "FR-022", "FR-023", "FR-024", "FR-025", "FR-026", "FR-027", "FR-028", "FR-029", "FR-030", "FR-049", "FR-050", "NFR-001", "NFR-002", "NFR-003", "NFR-004", "NFR-005", "NFR-006", "NFR-007", "NFR-008", "NFR-009", "NFR-010", "NFR-011", "NFR-012", "NFR-013", "NFR-014", "NFR-015", "NFR-016", "NFR-017", "NFR-018", "NFR-019"]
+status = "draft"
+priority = "P0"
+package = "@wikisites/wiki"
+file = ".specs/02_architecture/BP-POWER-USER-SHELL-001.md"
+created = "2026-06-19"
+updated = "2026-06-19"
+authors = ["Construct (Systems Architect)"]
+
+[[blue_paper.requirements]]
+id = "REQ-P0-001"
+description = "Command palette opens with Ctrl+K"
+component = "COMP-CP-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P0-002"
+description = "Fuzzy matching scores within O(n·m)"
+component = "COMP-CP-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P0-003"
+description = "Keyboard shortcuts are remappable"
+component = "COMP-KS-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P0-004"
+description = "Conflict detection on binding changes"
+component = "COMP-KS-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P0-005"
+description = "Outline panel shows article headings"
+component = "COMP-OP-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P0-006"
+description = "Scroll-sync highlights active heading"
+component = "COMP-OP-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P0-007"
+description = "Breadcrumbs use Schema.org BreadcrumbList"
+component = "COMP-BC-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P0-008"
+description = "Responsive overflow with ellipsis"
+component = "COMP-BC-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P0-009"
+description = "All components lazy-loaded"
+component = "COMP-PUS-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P0-010"
+description = "WCAG 2.1 AA compliance"
+component = "COMP-PUS-001"
+
+[[blue_paper.yellow_papers]]
+id = "YP-UI-COMMAND-PALETTE-001"
+title = "Command Palette Fuzzy Matching"
+status = "accepted"
+bp_section = "BP-7.2, BP-5.1"
+
+[[blue_paper.yellow_papers]]
+id = "YP-UI-KEYBOARD-SHORTCUTS-001"
+title = "Remappable Keyboard Shortcuts"
+status = "accepted"
+bp_section = "BP-7.3, BP-5.2"
+
+[[blue_paper.yellow_papers]]
+id = "YP-UI-OUTLINE-PANEL-001"
+title = "Outline Panel Scroll Sync"
+status = "accepted"
+bp_section = "BP-7.4, BP-5.3"
+
+[[blue_paper.yellow_papers]]
+id = "YP-UI-BREADCRUMBS-001"
+title = "Schema.org Breadcrumbs"
+status = "accepted"
+bp_section = "BP-7.5, BP-5.4"
+
+[[blue_paper.components]]
+id = "COMP-PUS-001"
+name = "PowerUserShell"
+type = "orchestrator"
+responsibility = "Lifecycle coordination, state management"
+file = "src/components/power-user/PowerUserShell.tsx"
+
+[[blue_paper.components]]
+id = "COMP-CP-001"
+name = "CommandPalette"
+type = "ui-component"
+responsibility = "Fuzzy command search, execution"
+file = "src/components/power-user/CommandPalette.tsx"
+
+[[blue_paper.components]]
+id = "COMP-KS-001"
+name = "KeyboardShortcuts"
+type = "service"
+responsibility = "Global keybinding registry, conflict detection"
+file = "src/components/power-user/KeyboardShortcuts.tsx"
+
+[[blue_paper.components]]
+id = "COMP-OP-001"
+name = "OutlinePanel"
+type = "ui-component"
+responsibility = "Heading extraction, scroll-sync, virtual scroll"
+file = "src/components/power-user/OutlinePanel.tsx"
+
+[[blue_paper.components]]
+id = "COMP-BC-001"
+name = "Breadcrumbs"
+type = "ui-component"
+responsibility = "Schema.org BreadcrumbList, responsive overflow"
+file = "src/components/power-user/Breadcrumbs.tsx"
+
+[[blue_paper.interfaces]]
+id = "IF-CMD-001"
+name = "CommandPalette"
+component = "COMP-CP-001"
+type = "props"
+
+[[blue_paper.interfaces]]
+id = "IF-KB-001"
+name = "KeyboardShortcutRegistry"
+component = "COMP-KS-001"
+type = "service"
+
+[[blue_paper.interfaces]]
+id = "IF-OUT-001"
+name = "OutlinePanel"
+component = "COMP-OP-001"
+type = "props"
+
+[[blue_paper.interfaces]]
+id = "IF-BC-001"
+name = "Breadcrumbs"
+component = "COMP-BC-001"
+type = "props"
+
+[[blue_paper.adrs]]
+id = "ADR-PUS-001"
+decision = "SolidJS for all P0 interactive components"
+status = "accepted"
+
+[[blue_paper.adrs]]
+id = "ADR-PUS-002"
+decision = "No external fuzzy match libraries"
+status = "accepted"
+
+[[blue_paper.adrs]]
+id = "ADR-PUS-003"
+decision = "Zod schemas in shared package for validation"
+status = "accepted"
+
+[[blue_paper.adrs]]
+id = "ADR-PUS-004"
+decision = "IntersectionObserver over scroll events"
+status = "accepted"
 
 [[blue_paper]]
-id = "BP-SITE-WIKI-001"
-title = "Wikipept.com Site Architecture"
-status = "DRAFT"
+id = "BP-CONTENT-TOOLS-001"
+title = "Content Tools"
 version = "1.0.0"
-date = "2026-06-07"
-authors = ["Wikisites Architecture Team"]
-abstract = "IEEE 1016 compliant architectural specification for wikipept.com — the collaborative wiki-style oligopeptide educational platform. Covers wiki editing system architecture, quiz and flashcard engine design, user contribution workflow, community moderation system, spaced repetition scheduler integration, progress tracking subsystem, and hybrid static/dynamic deployment model on Cloudflare."
-sections = [
-    "BP-1: Design Overview",
-    "BP-2: Design Decomposition",
-    "BP-3: Design Rationale",
-    "BP-4: Traceability",
-    "BP-5: Interface Design",
-    "BP-6: Data Design",
-    "BP-7: Component Design",
-    "BP-8: Deployment Design",
-    "BP-9: Formal Verification",
-    "BP-10: HAL Specification",
-    "BP-11: Compliance Matrix",
-    "BP-12: Quality Checklist"
-]
-applicable_sites = ["WIKI"]
-yellow_paper_refs = ["YP-CHEM-OLIGO-001", "YP-BIO-OLIGO-001", "YP-EDU-CONTENT-001", "YP-WEB-TECH-001"]
-requirement_refs = ["FR-001", "FR-002", "FR-005", "FR-007", "FR-008", "FR-009", "FR-010", "FR-011", "FR-012", "FR-013", "FR-014", "FR-015", "FR-031", "FR-032", "FR-033", "FR-034", "FR-035", "FR-036", "FR-037", "FR-038", "FR-039", "FR-040", "FR-041", "FR-042", "FR-043", "FR-044", "FR-045", "FR-046", "FR-047", "FR-048", "FR-049", "FR-050", "NFR-001", "NFR-002", "NFR-003", "NFR-004", "NFR-006", "NFR-007", "NFR-008", "NFR-009", "NFR-010", "NFR-011", "NFR-012", "NFR-013", "NFR-014", "NFR-015", "NFR-016", "NFR-017", "NFR-018", "NFR-019"]
+status = "draft"
+priority = "P1"
+package = "@wikisites/wiki"
+file = ".specs/02_architecture/BP-CONTENT-TOOLS-001.md"
+created = "2026-06-19"
+updated = "2026-06-19"
+authors = ["Construct (Systems Architect)"]
+
+[[blue_paper.requirements]]
+id = "REQ-P1-LATEX-001"
+description = "LaTeX math rendering in content"
+component = "COMP-CONTENT-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P1-LATEX-002"
+description = "SSR-first rendering strategy"
+component = "COMP-CONTENT-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P1-LATEX-003"
+description = "MathML accessibility fallback"
+component = "COMP-CONTENT-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P1-LATEX-004"
+description = "mhchem molecular formula support"
+component = "COMP-CONTENT-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P1-LATEX-005"
+description = "Dark mode theming"
+component = "COMP-CONTENT-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P1-GRAPH-001"
+description = "Knowledge graph visualization"
+component = "COMP-CONTENT-002"
+
+[[blue_paper.requirements]]
+id = "REQ-P1-GRAPH-002"
+description = "Force-directed layout"
+component = "COMP-CONTENT-002"
+
+[[blue_paper.requirements]]
+id = "REQ-P1-GRAPH-003"
+description = "1000+ node performance"
+component = "COMP-CONTENT-002"
+
+[[blue_paper.requirements]]
+id = "REQ-P1-GRAPH-004"
+description = "Interactive hover/click/zoom"
+component = "COMP-CONTENT-002"
+
+[[blue_paper.requirements]]
+id = "REQ-P1-GRAPH-005"
+description = "Node filtering and search"
+component = "COMP-CONTENT-002"
+
+[[blue_paper.requirements]]
+id = "REQ-P1-SPLIT-001"
+description = "Resizable split pane layout"
+component = "COMP-CONTENT-003"
+
+[[blue_paper.requirements]]
+id = "REQ-P1-SPLIT-002"
+description = "Drag-to-resize interaction"
+component = "COMP-CONTENT-003"
+
+[[blue_paper.requirements]]
+id = "REQ-P1-SPLIT-003"
+description = "Pane state persistence"
+component = "COMP-CONTENT-003"
+
+[[blue_paper.requirements]]
+id = "REQ-P1-SPLIT-004"
+description = "Responsive mobile stacking"
+component = "COMP-CONTENT-003"
+
+[[blue_paper.requirements]]
+id = "REQ-P1-SPLIT-005"
+description = "Tabbed pane groups"
+component = "COMP-CONTENT-003"
+
+[[blue_paper.requirements]]
+id = "REQ-P1-REGEX-001"
+description = "Regex-powered search"
+component = "COMP-CONTENT-004"
+
+[[blue_paper.requirements]]
+id = "REQ-P1-REGEX-002"
+description = "ReDoS prevention"
+component = "COMP-CONTENT-004"
+
+[[blue_paper.requirements]]
+id = "REQ-P1-REGEX-003"
+description = "Field-specific search"
+component = "COMP-CONTENT-004"
+
+[[blue_paper.requirements]]
+id = "REQ-P1-REGEX-004"
+description = "Match highlighting"
+component = "COMP-CONTENT-004"
+
+[[blue_paper.requirements]]
+id = "REQ-P1-REGEX-005"
+description = "Boolean operators (AND/OR/NOT)"
+component = "COMP-CONTENT-004"
+
+[[blue_paper.yellow_papers]]
+id = "YP-CONTENT-LATEX-001"
+title = "LaTeX/KaTeX Math Rendering"
+status = "accepted"
+bp_section = "BP-3.1, BP-5.1, BP-7.1"
+
+[[blue_paper.yellow_papers]]
+id = "YP-CONTENT-GRAPH-VIEW-001"
+title = "Knowledge Graph View"
+status = "accepted"
+bp_section = "BP-3.2, BP-5.2, BP-7.2"
+
+[[blue_paper.yellow_papers]]
+id = "YP-UI-SPLIT-VIEWS-001"
+title = "Split/Multi-Pane Views"
+status = "accepted"
+bp_section = "BP-3.3, BP-5.3, BP-7.3"
+
+[[blue_paper.yellow_papers]]
+id = "YP-CONTENT-REGEX-SEARCH-001"
+title = "Regex Search"
+status = "accepted"
+bp_section = "BP-3.4, BP-5.4, BP-7.4"
+
+[[blue_paper.components]]
+id = "COMP-CONTENT-001"
+name = "LaTeXRenderer"
+type = "solidjs-island"
+responsibility = "LaTeX math expression rendering (SSR + CSR)"
+file = "packages/wiki/src/components/content/LatexRenderer.tsx"
+
+[[blue_paper.components]]
+id = "COMP-CONTENT-002"
+name = "GraphView"
+type = "solidjs-island"
+responsibility = "Interactive knowledge graph visualization"
+file = "packages/wiki/src/components/content/GraphView.tsx"
+
+[[blue_paper.components]]
+id = "COMP-CONTENT-003"
+name = "SplitPane"
+type = "solidjs-island"
+responsibility = "Resizable multi-pane layout"
+file = "packages/wiki/src/components/content/SplitPane.tsx"
+
+[[blue_paper.components]]
+id = "COMP-CONTENT-004"
+name = "RegexSearch"
+type = "solidjs-island"
+responsibility = "Pattern-based content search with ReDoS defense"
+file = "packages/wiki/src/components/content/RegexSearch.tsx"
+
+[[blue_paper.interfaces]]
+id = "IF-LATEX-001"
+name = "LatexRenderer"
+component = "COMP-CONTENT-001"
+type = "props"
+
+[[blue_paper.interfaces]]
+id = "IF-GRAPH-001"
+name = "GraphView"
+component = "COMP-CONTENT-002"
+type = "props"
+
+[[blue_paper.interfaces]]
+id = "IF-SPLIT-001"
+name = "SplitPane"
+component = "COMP-CONTENT-003"
+type = "props"
+
+[[blue_paper.interfaces]]
+id = "IF-REGEX-001"
+name = "RegexSearch"
+component = "COMP-CONTENT-004"
+type = "props"
+
+[[blue_paper.adrs]]
+id = "ADR-CT-001"
+decision = "KaTeX over MathJax for math rendering (6x faster, SSR-native)"
+status = "accepted"
+
+[[blue_paper.adrs]]
+id = "ADR-CT-002"
+decision = "force-graph over Cytoscape.js (45KB, Canvas, 1000+ nodes)"
+status = "accepted"
+
+[[blue_paper.adrs]]
+id = "ADR-CT-003"
+decision = "Custom CSS Grid over allotment (0KB, full control)"
+status = "accepted"
+
+[[blue_paper.adrs]]
+id = "ADR-CT-004"
+decision = "Native RegExp over re2 WASM (0KB, 4-layer ReDoS defense)"
+status = "accepted"
 
 [[blue_paper]]
-id = "BP-COMP-SHARED-001"
-title = "Shared Components Library"
-status = "DRAFT"
+id = "BP-SOCIAL-LAYER-001"
+title = "Social Layer"
 version = "1.0.0"
-date = "2026-06-07"
-authors = ["Wikisites Architecture Team"]
-abstract = "IEEE 1016 compliant architectural specification for the shared component library consumed by both encyclopeptide.com and wikipept.com. Covers oligopeptide data models, molecular structure renderer integration, search engine abstraction, internationalization system, authentication/authorization subsystem, and analytics pipeline."
-sections = [
-    "BP-1: Design Overview",
-    "BP-2: Design Decomposition",
-    "BP-3: Design Rationale",
-    "BP-4: Traceability",
-    "BP-5: Interface Design",
-    "BP-6: Data Design",
-    "BP-7: Component Design",
-    "BP-8: Deployment Design",
-    "BP-9: Formal Verification",
-    "BP-10: HAL Specification",
-    "BP-11: Compliance Matrix",
-    "BP-12: Quality Checklist"
-]
-applicable_sites = ["SHARED"]
-yellow_paper_refs = ["YP-CHEM-OLIGO-001", "YP-BIO-OLIGO-001", "YP-WEB-TECH-001"]
+status = "draft"
+priority = "P2"
+package = "@wikisites/shared"
+file = ".specs/02_architecture/BP-SOCIAL-LAYER-001.md"
+created = "2026-06-19"
+updated = "2026-06-19"
+authors = ["Construct (Systems Architect)"]
+
+[[blue_paper.requirements]]
+id = "REQ-P2-COMMENT-001"
+description = "Giscus integration with GitHub Discussions"
+component = "COMP-COMMENTS-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P2-COMMENT-002"
+description = "Custom D1/KV comments for wiki"
+component = "COMP-COMMENTS-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P2-COMMENT-003"
+description = "Threaded comments with depth limit 5"
+component = "COMP-COMMENTS-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P2-ANNOT-001"
+description = "W3C Web Annotation data model"
+component = "COMP-ANNOT-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P2-ANNOT-002"
+description = "XPath text anchoring"
+component = "COMP-ANNOT-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P2-ANNOT-003"
+description = "Public/private/shared visibility"
+component = "COMP-ANNOT-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P2-USER-001"
+description = "OAuth (GitHub, Google) authentication"
+component = "COMP-USER-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P2-USER-002"
+description = "Passkey (WebAuthn) authentication"
+component = "COMP-USER-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P2-USER-003"
+description = "JWT session management via Durable Objects"
+component = "COMP-USER-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P2-USER-004"
+description = "RBAC (reader, contributor, moderator, admin)"
+component = "COMP-USER-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P2-USER-005"
+description = "GDPR data export and deletion"
+component = "COMP-USER-001"
+
+[[blue_paper.yellow_papers]]
+id = "YP-SOCIAL-COMMENTS-001"
+title = "Comments System"
+status = "accepted"
+bp_section = "BP-3.1, BP-5.1, BP-7.1"
+
+[[blue_paper.yellow_papers]]
+id = "YP-SOCIAL-ANNOTATIONS-001"
+title = "Annotation Layer"
+status = "accepted"
+bp_section = "BP-3.2, BP-5.2, BP-7.2"
+
+[[blue_paper.yellow_papers]]
+id = "YP-SOCIAL-ACCOUNTS-001"
+title = "User Accounts"
+status = "accepted"
+bp_section = "BP-3.3, BP-3.4, BP-5.3, BP-7.3"
+
+[[blue_paper.components]]
+id = "COMP-COMMENTS-001"
+name = "CommentsSystem"
+type = "orchestrator"
+responsibility = "Giscus integration, custom D1 comments, threading, spam guard"
+file = "packages/shared/src/social/comments/"
+
+[[blue_paper.components]]
+id = "COMP-ANNOT-001"
+name = "AnnotationLayer"
+type = "orchestrator"
+responsibility = "W3C annotations, XPath anchoring, visibility control"
+file = "packages/shared/src/social/annotations/"
+
+[[blue_paper.components]]
+id = "COMP-USER-001"
+name = "UserAccounts"
+type = "orchestrator"
+responsibility = "OAuth, passkeys, JWT sessions, RBAC, GDPR compliance"
+file = "packages/shared/src/social/accounts/"
+
+[[blue_paper.interfaces]]
+id = "IF-COMMENT-001"
+name = "Comment"
+component = "COMP-COMMENTS-001"
+type = "data-model"
+
+[[blue_paper.interfaces]]
+id = "IF-ANNOT-001"
+name = "Annotation"
+component = "COMP-ANNOT-001"
+type = "data-model"
+
+[[blue_paper.interfaces]]
+id = "IF-USER-001"
+name = "User"
+component = "COMP-USER-001"
+type = "data-model"
+
+[[blue_paper.adrs]]
+id = "ADR-SL-001"
+decision = "Giscus for encp (formal), custom D1 for wiki (collaborative)"
+status = "accepted"
+
+[[blue_paper.adrs]]
+id = "ADR-SL-002"
+decision = "W3C Web Annotation Data Model over custom"
+status = "accepted"
+
+[[blue_paper.adrs]]
+id = "ADR-SL-003"
+decision = "JWT sessions via Durable Objects for strong consistency"
+status = "accepted"
 
 [[blue_paper]]
-id = "BP-COMP-QUERY-001"
-title = "Query Engine Component"
-status = "DRAFT"
+id = "BP-EDITOR-001"
+title = "Editor Component"
 version = "1.0.0"
-date = "2026-06-07"
-authors = ["Wikisites Architecture Team"]
-abstract = "IEEE 1016 compliant architectural specification for the oligopeptide database query engine. Covers query interface design, search indexing pipeline, faceted search implementation, autocomplete subsystem, cross-reference lookup, and sequence-based search algorithms."
-sections = [
-    "BP-1: Design Overview",
-    "BP-2: Design Decomposition",
-    "BP-3: Design Rationale",
-    "BP-4: Traceability",
-    "BP-5: Interface Design",
-    "BP-6: Data Design",
-    "BP-7: Component Design",
-    "BP-8: Deployment Design",
-    "BP-9: Formal Verification",
-    "BP-10: HAL Specification",
-    "BP-11: Compliance Matrix",
-    "BP-12: Quality Checklist"
-]
-applicable_sites = ["SHARED"]
-yellow_paper_refs = ["YP-CHEM-OLIGO-001", "YP-WEB-TECH-001"]
+status = "draft"
+priority = "P3"
+package = "@wikisites/wiki"
+file = ".specs/02_architecture/BP-EDITOR-001.md"
+created = "2026-06-19"
+updated = "2026-06-19"
+authors = ["Construct (Systems Architect)"]
+
+[[blue_paper.requirements]]
+id = "REQ-P3-EDITOR-001"
+description = "TipTap + SolidJS MDX editor"
+component = "COMP-EDITOR-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P3-EDITOR-002"
+description = "Yjs CRDT collaborative editing"
+component = "COMP-COLLAB-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P3-EDITOR-003"
+description = "MDX extensions (JSX, math, mermaid, callout)"
+component = "COMP-EDITOR-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P3-VERSION-001"
+description = "Git-backed version storage via Forgejo"
+component = "COMP-VERSION-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P3-VERSION-002"
+description = "Myers/patience diff computation"
+component = "COMP-VERSION-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P3-VERSION-003"
+description = "Side-by-side and inline diff rendering"
+component = "COMP-VERSION-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P3-VERSION-004"
+description = "Branch/merge workflow"
+component = "COMP-VERSION-001"
+
+[[blue_paper.requirements]]
+id = "REQ-P3-VERSION-005"
+description = "Per-line attribution tracking"
+component = "COMP-VERSION-001"
+
+[[blue_paper.yellow_papers]]
+id = "YP-EDITOR-MDX-001"
+title = "MDX Editor"
+status = "accepted"
+bp_section = "BP-3.1, BP-5.1, BP-7.1"
+
+[[blue_paper.yellow_papers]]
+id = "YP-EDITOR-VERSION-HISTORY-001"
+title = "Version History"
+status = "accepted"
+bp_section = "BP-3.3, BP-3.4, BP-5.2, BP-7.2"
+
+[[blue_paper.components]]
+id = "COMP-EDITOR-001"
+name = "MDXEditor"
+type = "solidjs-island"
+responsibility = "TipTap WYSIWYG MDX editing with SolidJS UI"
+file = "packages/wiki/src/components/editor/MDXEditor.tsx"
+
+[[blue_paper.components]]
+id = "COMP-COLLAB-001"
+name = "CollaborationEngine"
+type = "service"
+responsibility = "Yjs CRDT sync, awareness, conflict resolution"
+file = "packages/wiki/src/lib/collaboration/"
+
+[[blue_paper.components]]
+id = "COMP-VERSION-001"
+name = "VersionHistory"
+type = "orchestrator"
+responsibility = "Git backend, diff engine, branch/merge, attribution"
+file = "packages/wiki/src/lib/version/"
+
+[[blue_paper.interfaces]]
+id = "IF-EDITOR-001"
+name = "EditorDocument"
+component = "COMP-EDITOR-001"
+type = "data-model"
+
+[[blue_paper.interfaces]]
+id = "IF-DIFF-001"
+name = "DiffResponse"
+component = "COMP-VERSION-001"
+type = "data-model"
+
+[[blue_paper.adrs]]
+id = "ADR-ED-001"
+decision = "TipTap over CodeMirror/Monaco (WYSIWYG, extension ecosystem)"
+status = "accepted"
+
+[[blue_paper.adrs]]
+id = "ADR-ED-002"
+decision = "Yjs CRDT over Operational Transforms (offline, edge-friendly)"
+status = "accepted"
+
+[[blue_paper.adrs]]
+id = "ADR-ED-003"
+decision = "Git via Forgejo for version storage (native diff/branch/merge)"
+status = "accepted"
 
 [[blue_paper]]
-id = "BP-INFRA-CF-001"
-title = "Cloudflare Infrastructure"
-status = "DRAFT"
+id = "BP-EXTENSIBILITY-001"
+title = "Extensibility Layer"
 version = "1.0.0"
-date = "2026-06-07"
-authors = ["Wikisites Architecture Team"]
-abstract = "IEEE 1016 compliant architectural specification for the Cloudflare infrastructure layer. Covers Pages configuration, Workers routes, R2 storage for assets, KV for caching, D1 for database, Durable Objects for wiki collaboration, DNS configuration, SSL/TLS setup, and edge computing topology."
-sections = [
-    "BP-1: Design Overview",
-    "BP-2: Design Decomposition",
-    "BP-3: Design Rationale",
-    "BP-4: Traceability",
-    "BP-5: Interface Design",
-    "BP-6: Data Design",
-    "BP-7: Component Design",
-    "BP-8: Deployment Design",
-    "BP-9: Formal Verification",
-    "BP-10: HAL Specification",
-    "BP-11: Compliance Matrix",
-    "BP-12: Quality Checklist"
-]
-applicable_sites = ["SHARED"]
-yellow_paper_refs = ["YP-WEB-TECH-001"]
+status = "draft"
+priority = "P4"
+package = "@wikisites/shared"
+file = ".specs/02_architecture/BP-EXTENSIBILITY-001.md"
+created = "2026-06-19"
+updated = "2026-06-19"
+authors = ["Construct (Systems Architect)"]
 
-# =============================================================================
-# CROSS-REFERENCE MATRIX
-# =============================================================================
+[[blue_paper.requirements]]
+id = "REQ-P4-PLUGIN-001"
+description = "Web Worker sandboxed plugin execution"
+component = "COMP-PLUGIN-001"
 
-[cross_references]
-# Maps Blue Paper IDs to Yellow Paper IDs for traceability
-BP-SITE-ENCP-001 = ["YP-CHEM-OLIGO-001", "YP-BIO-OLIGO-001", "YP-WEB-TECH-001"]
-BP-SITE-WIKI-001 = ["YP-CHEM-OLIGO-001", "YP-BIO-OLIGO-001", "YP-EDU-CONTENT-001", "YP-WEB-TECH-001"]
-BP-COMP-SHARED-001 = ["YP-CHEM-OLIGO-001", "YP-BIO-OLIGO-001", "YP-WEB-TECH-001"]
-BP-COMP-QUERY-001 = ["YP-CHEM-OLIGO-001", "YP-WEB-TECH-001"]
-BP-INFRA-CF-001 = ["YP-WEB-TECH-001"]
+[[blue_paper.requirements]]
+id = "REQ-P4-PLUGIN-002"
+description = "Capability-based plugin permissions"
+component = "COMP-PLUGIN-001"
 
-# Maps requirement categories to Blue Papers
-search_requirements = ["BP-COMP-QUERY-001", "BP-SITE-ENCP-001", "BP-SITE-WIKI-001"]
-content_requirements = ["BP-SITE-ENCP-001", "BP-SITE-WIKI-001"]
-infrastructure_requirements = ["BP-INFRA-CF-001"]
-shared_component_requirements = ["BP-COMP-SHARED-001"]
+[[blue_paper.requirements]]
+id = "REQ-P4-PLUGIN-003"
+description = "Plugin lifecycle hooks (onLoad, onNavigate, etc.)"
+component = "COMP-PLUGIN-001"
 
-# =============================================================================
-# DEPENDENCY GRAPH
-# =============================================================================
+[[blue_paper.requirements]]
+id = "REQ-P4-THEME-001"
+description = "CSS custom properties theme system"
+component = "COMP-THEME-001"
 
-[dependencies]
-# Infrastructure is foundational — all other Blue Papers depend on it
-BP-INFRA-CF-001 = []
-BP-COMP-SHARED-001 = ["BP-INFRA-CF-001"]
-BP-COMP-QUERY-001 = ["BP-COMP-SHARED-001", "BP-INFRA-CF-001"]
-BP-SITE-ENCP-001 = ["BP-COMP-SHARED-001", "BP-COMP-QUERY-001", "BP-INFRA-CF-001"]
-BP-SITE-WIKI-001 = ["BP-COMP-SHARED-001", "BP-COMP-QUERY-001", "BP-INFRA-CF-001"]
+[[blue_paper.requirements]]
+id = "REQ-P4-THEME-002"
+description = "Theme inheritance (base → user → plugin)"
+component = "COMP-THEME-001"
 
-# =============================================================================
-# SUPPORTING ARTIFACTS
-# =============================================================================
+[[blue_paper.requirements]]
+id = "REQ-P4-THEME-003"
+description = "Dark/light mode toggle"
+component = "COMP-THEME-001"
 
-[artifacts]
+[[blue_paper.requirements]]
+id = "REQ-P4-THEME-004"
+description = "Theme marketplace"
+component = "COMP-THEME-001"
 
-[artifacts.interface_contracts]
-file = "interface_contracts/interface_contracts_shared.toml"
-description = "TOML interface contracts for shared component library APIs"
-source_paper = "BP-COMP-SHARED-001"
-interfaces_defined = 32
-modules = ["data_models", "calculations", "search", "i18n", "auth", "analytics", "errors"]
+[[blue_paper.requirements]]
+id = "REQ-P4-SETTINGS-001"
+description = "JSON Schema + Zod settings validation"
+component = "COMP-SETTINGS-001"
 
-[artifacts.proofs]
-file = "proofs/proof_oligo_classification.lean"
-description = "Lean4 proof skeleton for oligopeptide classification algorithm"
-source_papers = ["BP-COMP-SHARED-001", "BP-COMP-QUERY-001"]
-properties_proven = 6
-axioms_justified = 8
-total_properties = 14
+[[blue_paper.requirements]]
+id = "REQ-P4-SETTINGS-002"
+description = "Import/export with conflict resolution"
+component = "COMP-SETTINGS-001"
 
-[artifacts.phase_report]
-file = "../reports/phase_02_architecture_report.md"
-description = "Phase 2 architecture completion report"
+[[blue_paper.requirements]]
+id = "REQ-P4-SETTINGS-003"
+description = "Version migration"
+component = "COMP-SETTINGS-001"
 
-# =============================================================================
-# VERSION HISTORY
-# =============================================================================
+[[blue_paper.yellow_papers]]
+id = "YP-EXT-PLUGIN-API-001"
+title = "Plugin API"
+status = "accepted"
+bp_section = "BP-3.1, BP-5.1, BP-7.1"
 
-[version_history]
-v1.0.0 = { date = "2026-06-07", author = "Wikisites Architecture Team", notes = "Initial creation of all 5 Blue Papers for Phase 2 Architectural Specification" }
-v1.1.0 = { date = "2026-06-07", author = "Wikisites Architecture Team", notes = "Added interface contracts TOML, Lean4 proof skeleton, and phase report" }
+[[blue_paper.yellow_papers]]
+id = "YP-EXT-THEMES-001"
+title = "Custom Themes"
+status = "accepted"
+bp_section = "BP-3.2, BP-5.2, BP-7.2"
+
+[[blue_paper.yellow_papers]]
+id = "YP-EXT-SETTINGS-001"
+title = "Settings Export/Import"
+status = "accepted"
+bp_section = "BP-3.3, BP-5.3, BP-7.3"
+
+[[blue_paper.components]]
+id = "COMP-PLUGIN-001"
+name = "PluginAPI"
+type = "orchestrator"
+responsibility = "Plugin registry, Worker sandbox, capability matrix, lifecycle hooks"
+file = "packages/shared/src/extensibility/plugin/"
+
+[[blue_paper.components]]
+id = "COMP-THEME-001"
+name = "ThemeEngine"
+type = "orchestrator"
+responsibility = "CSS custom properties, theme inheritance, dark/light mode, marketplace"
+file = "packages/shared/src/extensibility/theme/"
+
+[[blue_paper.components]]
+id = "COMP-SETTINGS-001"
+name = "SettingsManager"
+type = "orchestrator"
+responsibility = "JSON Schema + Zod validation, import/export, conflict resolution, migration"
+file = "packages/shared/src/extensibility/settings/"
+
+[[blue_paper.interfaces]]
+id = "IF-PLUGIN-001"
+name = "PluginManifest"
+component = "COMP-PLUGIN-001"
+type = "data-model"
+
+[[blue_paper.interfaces]]
+id = "IF-THEME-001"
+name = "ThemeTokens"
+component = "COMP-THEME-001"
+type = "data-model"
+
+[[blue_paper.interfaces]]
+id = "IF-SETTINGS-001"
+name = "UserSettings"
+component = "COMP-SETTINGS-001"
+type = "data-model"
+
+[[blue_paper.adrs]]
+id = "ADR-EX-001"
+decision = "Web Worker sandbox over iframe (CPU isolation, no DOM access)"
+status = "accepted"
+
+[[blue_paper.adrs]]
+id = "ADR-EX-002"
+decision = "CSS custom properties over CSS-in-JS (zero overhead, SSR-native)"
+status = "accepted"
+
+[[blue_paper.adrs]]
+id = "ADR-EX-003"
+decision = "JSON Schema portable + Zod runtime (dual validation)"
+status = "accepted"
+
+[registry_summary]
+total_blue_papers = 5
+total_requirements = 48
+total_components = 15
+total_interfaces = 14
+total_yellow_papers = 11
+total_adrs = 11

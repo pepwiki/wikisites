@@ -1,0 +1,350 @@
+# =============================================================================
+# Domain Constraints — P1 Content Tools
+# Document ID: DCS-CONTENT-TOOLS-001
+# Version: 1.0.0
+# Date: 2026-06-19
+# Status: DRAFT
+# Associated Yellow Papers: YP-CONTENT-LATEX-001, YP-CONTENT-GRAPH-VIEW-001,
+#                          YP-UI-SPLIT-VIEWS-001, YP-CONTENT-REGEX-SEARCH-001
+# =============================================================================
+
+[metadata]
+project = "wikisites"
+scope = "Bundle size, render time, node limits, and performance constraints for P1 content tools"
+last_updated = "2026-06-19"
+applicable_sites = ["ENCP", "WIKI"]
+
+# =============================================================================
+# LATEX/KATEX RENDERING CONSTRAINTS
+# =============================================================================
+
+[latex]
+description = "KaTeX math rendering performance and size constraints"
+
+[latex.bundle_size]
+kaTeX_core_js_kilobytes = 12
+kaTeX_core_js_gzip_kilobytes = 4
+kaTeX_css_kilobytes = 25
+kaTeX_css_gzip_kilobytes = 5
+kaTeX_fonts_total_kilobytes = 200
+kaTeX_fonts_subset_kilobytes = 60
+dynamic_math_island_kilobytes = 8
+dynamic_math_island_gzip_kilobytes = 3
+max_total_per_page_static_kilobytes = 85
+max_total_per_page_static_gzip_kilobytes = 65
+max_total_per_page_dynamic_kilobytes = 93
+max_total_per_page_dynamic_gzip_kilobytes = 68
+notes = "Static math: only CSS + fonts (zero JS). Dynamic math: adds JS island."
+rationale = "KaTeX core ~7KB uncompressed. Subset fonts ~60KB. Fits within 200KB/page budget."
+
+[latex.render_time]
+ssr_render_100_expressions_ms = 200
+ssr_render_100_expressions_critical_ms = 1000
+client_render_10_expressions_ms = 50
+client_render_10_expressions_critical_ms = 200
+font_load_first_paint_ms = 100
+font_load_first_paint_critical_ms = 300
+css_parse_ms = 10
+css_parse_critical_ms = 50
+notes = "SSR render happens at build time. Client render for dynamic expressions only."
+rationale = "KaTeX benchmarks show ~50ms for 100 expressions on modern hardware."
+
+[latex.font_loading]
+strategy = "preload + font-display: swap"
+unicode_range_enabled = true
+subset_to_latin = true
+subset_to_math_symbols = true
+preload_critical_fonts = 2
+max_preload_kilobytes = 50
+notes = "Preload KaTeX_Main-Regular and KaTeX_Math-Italic. Use font-display: swap for all."
+rationale = "Preloading prevents FOIT. Subsetting reduces download size."
+
+[latex.accessibility]
+aria_label_required = true
+role_math_required = true
+mathml_fallback_enabled = true
+speech_text_auto_generated = true
+contrast_ratio_dark_mode = 4.5
+notes = "All math expressions must have ARIA labels. MathML fallback for supported browsers."
+rationale = "WCAG 2.1 AA compliance required."
+
+[latex.expression_limits]
+max_expression_length_chars = 500
+max_nested_groups = 10
+max_matrix_dimensions = "10x10"
+max_expressions_per_page = 200
+max_newcommand_definitions = 20
+notes = "Limits prevent performance degradation from complex expressions."
+rationale = "Extreme expressions cause rendering delays and accessibility issues."
+
+# =============================================================================
+# KNOWLEDGE GRAPH VIEW CONSTRAINTS
+# =============================================================================
+
+[graph]
+description = "Knowledge graph visualization performance and size constraints"
+
+[graph.size_limits]
+max_nodes_desktop = 1000
+max_nodes_mobile = 300
+max_edges = 5000
+max_node_label_length_chars = 50
+max_graph_json_size_compressed_kb = 100
+max_graph_json_size_uncompressed_kb = 500
+notes = "Limits ensure manageable graph complexity for rendering and interaction."
+rationale = "Force-directed layout degrades beyond ~1000 nodes on Canvas."
+
+[graph.render_performance]
+initial_layout_500_nodes_ms = 2000
+initial_layout_500_nodes_critical_ms = 5000
+frame_rate_desktop_500_nodes = 60
+frame_rate_desktop_500_nodes_critical = 30
+frame_rate_mobile_200_nodes = 30
+frame_rate_mobile_200_nodes_critical = 15
+zoom_pan_response_ms = 16
+zoom_pan_response_critical_ms = 50
+memory_usage_500_nodes_mb = 50
+memory_usage_500_nodes_critical_mb = 100
+notes = "Desktop targets 60fps. Mobile targets 30fps. Response within one frame."
+rationale = "Canvas rendering with spatial indexing enables these targets."
+
+[graph.layout_parameters]
+force_repulsion = -500
+force_attraction = 0.01
+force_center_gravity = 0.1
+force_link_distance_px = 100
+force_max_iterations = 300
+force_alpha_decay = 0.02
+force_velocity_decay = 0.4
+notes = "Force-directed layout parameters. Tuned for educational content graph."
+rationale = "Parameters balance node spacing, convergence speed, and visual clarity."
+
+[graph.accessibility]
+keyboard_navigation_required = true
+aria_labels_on_nodes_required = true
+focus_visible_required = true
+screen_reader_graph_description_required = true
+reduced_motion_disables_simulation = true
+touch_targets_min_px = 44
+notes = "Full keyboard navigation with arrow keys between adjacent nodes."
+rationale = "WCAG 2.1 AA compliance. Obsidian-style graph accessibility."
+
+[graph.responsive]
+mobile_max_px = 640
+tablet_max_px = 1024
+desktop_min_px = 1025
+mobile_max_nodes = 100
+tablet_max_nodes = 300
+desktop_max_nodes = 1000
+mobile_interaction = "touch_only"
+tablet_interaction = "touch_stylus"
+desktop_interaction = "mouse_keyboard"
+notes = "Mobile shows simplified view. Desktop shows full interactive graph."
+rationale = "Performance and usability constraints on smaller screens."
+
+[graph.data_model]
+node_types = ["article", "glossary", "flashcard_deck", "quiz_category"]
+edge_types = ["related", "tag", "category", "prerequisite"]
+max_tags_per_node = 10
+max_related_articles = 5
+relevance_algorithm = "degree_centrality"
+notes = "Graph data model derives from content schema in shared package."
+rationale = "Consistent with existing ArticleSchema and GlossaryTermSchema."
+
+# =============================================================================
+# SPLIT/MULTI-PANE VIEWS CONSTRAINTS
+# =============================================================================
+
+[split]
+description = "Split pane layout performance and usability constraints"
+
+[split.layout_limits]
+max_panes_desktop = 4
+max_panes_tablet = 2
+max_panes_mobile = 1
+min_pane_size_px = 200
+max_nesting_depth = 2
+max_tabs_per_pane = 4
+notes = "Limits prevent overly complex layouts that hurt usability."
+rationale = "VS Code supports 4 panes max. Mobile cannot support side-by-side."
+
+[split.performance]
+resize_response_ms = 16
+resize_response_critical_ms = 50
+layout_reflow_during_resize = 0
+layout_reflow_critical = 2
+state_persistence_write_ms = 5
+state_persistence_write_critical_ms = 50
+state_persistence_read_ms = 5
+state_persistence_read_critical_ms = 20
+tab_switch_render_ms = 100
+tab_switch_render_critical_ms = 300
+notes = "Resize must respond within one frame (16ms) for smooth interaction."
+rationale = "Direct DOM manipulation avoids React reconciliation overhead."
+
+[split.resize_handles]
+handle_width_px = 4
+handle_min_touch_target_px = 44
+keyboard_step_percent = 5
+keyboard_step_shift_percent = 20
+snap_positions = [33, 50, 67]
+snap_threshold_px = 10
+double_click_reset_animated = true
+double_click_reset_duration_ms = 200
+notes = "Handle is 4px wide but touch target is 44px (invisible padding)."
+rationale = "Small visual handle with large touch target for usability."
+
+[split.state_persistence]
+storage_mechanism = "localStorage"
+storage_key = "wikisites:pane-state"
+max_state_size_kb = 10
+state_version = 1
+stale_state_expiry_days = 30
+max_cached_content_per_pane = 5
+notes = "State persists across page reloads. LRU eviction for cached content."
+rationale = "localStorage is simplest persistence mechanism for static sites."
+
+[split.responsive]
+mobile_breakpoint_px = 640
+tablet_breakpoint_px = 1024
+mobile_layout = "stacked"
+tablet_layout = "two-column"
+desktop_layout = "grid"
+resize_handle_mobile = false
+resize_handle_tablet = true
+resize_handle_desktop = true
+tab_navigation_mobile = true
+notes = "Mobile shows single pane with tab switching between content."
+rationale = "Responsive design per YP-WEB-TECH-001 Section 7.7."
+
+[split.accessibility]
+resize_handle_focusable = true
+resize_handle_aria_label_required = true
+keyboard_resize_arrow_keys = true
+keyboard_resize_home_end = true
+keyboard_resize_enter_reset = true
+focus_ring_visible = true
+focus_ring_color = "#C9A84C"
+aria_live_announce_proportions = true
+pane_region_role_required = true
+notes = "Full keyboard resize with screen reader announcements."
+rationale = "WCAG 2.1 AA compliance. VS Code accessibility patterns."
+
+# =============================================================================
+# REGEX SEARCH CONSTRAINTS
+# =============================================================================
+
+[regex]
+description = "Regex search performance and security constraints"
+
+[regex.performance]
+regex_execution_per_doc_ms = 10
+regex_execution_per_doc_critical_ms = 100
+total_search_time_ms = 200
+total_search_time_critical_ms = 500
+complex_pattern_timeout_ms = 100
+complex_pattern_timeout_critical_ms = 200
+pagefind_query_ms = 50
+pagefind_query_critical_ms = 100
+snippet_generation_ms = 10
+snippet_generation_critical_ms = 50
+notes = "Regex execution on individual documents. Total search includes Pagefind + regex."
+rationale = "Small corpus (~500KB) enables fast client-side regex execution."
+
+[regex.security]
+redos_complexity_score_max = 50
+redos_complexity_score_critical = 80
+execution_timeout_ms = 100
+max_pattern_length_chars = 200
+max_matches_per_document = 100
+max_results_displayed = 20
+max_nested_groups = 5
+max_alternation_branches = 10
+max_capture_groups = 10
+input_sanitization_required = true
+notes = "Defense-in-depth: static analysis + timeout + result limits."
+rationale = "OWASP ReDoS prevention guidelines. Browser-native RegExp is vulnerable."
+
+[regex.syntax]
+supported_regex_flags = ["g", "i", "m", "s"]
+field_prefixes = ["title:", "tag:", "category:", "difficulty:", "author:", "citation:"]
+boolean_operators = ["AND", "OR", "NOT"]
+max_query_length_chars = 500
+regex_delimiters = ["/", "/"]
+phrase_delimiters = ['"', '"']
+notes = "Extended search syntax supports field-specific and boolean queries."
+rationale = "Power user features for scientific content discovery."
+
+[regex.ui]
+search_panel_shortcut = "Ctrl+K"
+search_panel_shortcut_alt = "/"
+result_navigation_next = "F3"
+result_navigation_prev = "Shift+F3"
+result_navigation_enter = "Enter"
+debounce_ms = 300
+syntax_highlighting_enabled = true
+match_highlight_color = "#FEF08A"
+notes = "UI follows VS Code search conventions for familiarity."
+rationale = "Consistent with power user expectations."
+
+[regex.integration]
+pagefind_index_used = true
+regex_layer_on_top_of_pagefind = true
+field_search_requires_metadata = true
+augmented_index_at_build_time = true
+augmented_fields = ["sequences", "numbers", "formulas", "citations"]
+notes = "Regex search builds on Pagefind results, not replaces them."
+rationale = "Pagefind handles BM25 ranking; regex adds pattern matching."
+
+# =============================================================================
+# CROSS-CUTTING CONSTRAINTS
+# =============================================================================
+
+[total_budget]
+description = "Combined bundle size budget for all P1 content tools on a single page"
+
+[max_bundle_per_page]
+total_js_kilobytes = 200
+total_js_gzip_kilobytes = 60
+total_css_kilobytes = 80
+total_css_gzip_kilobytes = 15
+notes = "All P1 features must share the existing per-page budget."
+rationale = "Defined in YP-WEB-TECH-001 Section 7.2. No increase allowed."
+
+[feature_budget_allocation]
+latex_static_only_percent = 0
+latex_with_dynamic_percent = 20
+graph_view_percent = 25
+split_views_percent = 15
+regex_search_percent = 10
+remaining_for_other_islands_percent = 50
+notes = "Approximate allocation of JS budget per page with all features enabled."
+rationale = "Not all features load on every page. Dynamic imports keep budget manageable."
+
+[performance_budget]
+lighthouse_performance_min = 90
+lighthouse_performance_target = 95
+lcp_max_ms = 2500
+cls_max = 0.1
+inp_max_ms = 200
+notes = "All P1 features must not degrade Core Web Vitals."
+rationale = "Defined in YP-WEB-TECH-001 Section 7.1."
+
+[accessibility_budget]
+wcag_level = "AA"
+lighthouse_accessibility_min = 95
+contrast_ratio_normal_text = 4.5
+contrast_ratio_large_text = 3.0
+keyboard_navigation_required = true
+screen_reader_support_required = true
+reduced_motion_support_required = true
+notes = "All P1 features must meet WCAG 2.1 AA compliance."
+rationale = "Defined in YP-WEB-TECH-001 Section 7.6."
+
+[build_time_budget]
+latex_ssr_render_100_expressions_ms = 200
+graph_generation_500_nodes_ms = 500
+search_index_augmentation_ms = 500
+total_p1_build_overhead_ms = 2000
+notes = "P1 features should not add more than 2 seconds to build time."
+rationale = "Build time budget per YP-WEB-TECH-001 Section 7.3."

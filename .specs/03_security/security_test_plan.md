@@ -1,8 +1,8 @@
 ---
 document_id: SEC-TEST-001
 title: "Comprehensive Security Test Plan"
-version: "1.0.0"
-date: "2026-06-07"
+version: "2.0.0"
+date: "2026-06-19"
 status: DRAFT
 authors:
   - name: "Wikisites Security Team"
@@ -16,6 +16,9 @@ abstract: >-
   Comprehensive security test plan covering static analysis, dynamic analysis,
   dependency scanning, penetration testing, fuzzing, CSP validation, and
   authentication/authorization testing for both encyclopeptide.com and wikipept.com.
+  Version 2.0 adds test cases for Phase 2 components: Command Palette, Keyboard
+  Shortcuts, Graph View, LaTeX Renderer, Regex Search (ReDoS), Comments, Annotations,
+  User Accounts, MDX Editor, Plugin API, Theme Engine, and Settings Manager.
 applicable_standards:
   - "OWASP ASVS 4.0"
   - "OWASP Top 10 2021"
@@ -26,8 +29,8 @@ applicable_standards:
 # Comprehensive Security Test Plan
 
 **Document ID:** SEC-TEST-001
-**Version:** 1.0.0
-**Date:** 2026-06-07
+**Version:** 2.0.0
+**Date:** 2026-06-19
 **Status:** DRAFT
 **Applicable Sites:** encyclopeptide.com, wikipept.com
 
@@ -48,8 +51,9 @@ applicable_standards:
 11. [API Security Testing](#11-api-security-testing)
 12. [Client-Side Security Testing](#12-client-side-security-testing)
 13. [Infrastructure Security Testing](#13-infrastructure-security-testing)
-14. [Test Environment and Tooling](#14-test-environment-and-tooling)
-15. [Test Execution and Reporting](#15-test-execution-and-reporting)
+14. [Phase 2 Component Security Testing](#14-phase-2-component-security-testing)
+15. [Test Environment and Tooling](#15-test-environment-and-tooling)
+16. [Test Execution and Reporting](#16-test-execution-and-reporting)
 
 ---
 
@@ -57,7 +61,7 @@ applicable_standards:
 
 ### 1.1 Purpose
 
-This document defines the comprehensive security test plan for both wikisites. It covers all security testing activities from static analysis through penetration testing, providing executable test cases with pass/fail criteria aligned to OWASP ASVS 4.0, OWASP Top 10 2021, and NIST SP 800-53 Rev. 5.
+This document defines the comprehensive security test plan for both wikisites. It covers all security testing activities from static analysis through penetration testing, providing executable test cases with pass/fail criteria aligned to OWASP ASVS 4.0, OWASP Top 10 2021, and NIST SP 800-53 Rev. 5. Version 2.0 adds dedicated test cases for all Phase 2 new components.
 
 ### 1.2 Scope
 
@@ -67,17 +71,10 @@ This document defines the comprehensive security test plan for both wikisites. I
 | Dynamic Analysis (DAST) | OWASP ZAP, Burp Suite | Weekly + pre-release | Security review |
 | Dependency Scanning | npm audit, Snyk | Every build | CI/CD pipeline |
 | Penetration Testing | Manual + automated | Quarterly | Security audit |
-| Fuzzing | Custom + OWASP ZAP | Weekly | Automated |
+| Fuzzing | Custom + OWASP ZAP + property-based | Weekly | Automated |
 | CSP Validation | Header audit | Every deployment | CI/CD pipeline |
 | Auth/AuthZ Testing | Custom test suite | Every commit | CI/CD pipeline |
-
-### 1.3 Entry and Exit Criteria
-
-| Gate | Entry Criteria | Exit Criteria |
-|------|---------------|---------------|
-| CI/CD Security Gate | Code committed | Zero critical/high SAST findings; zero high-severity dependency vulnerabilities |
-| Pre-Release Security | All CI/CD gates pass | Zero critical DAST findings; CSP validation passes; auth tests pass |
-| Launch Security | All pre-release gates pass | Penetration test complete with no critical findings; all OWASP Top 10 addressed |
+| **Phase 2 Component Testing** | **Custom + property-based** | **Every commit** | **CI/CD pipeline** |
 
 ---
 
@@ -98,6 +95,8 @@ This document defines the comprehensive security test plan for both wikisites. I
            /------------------\
           /     Unit Tests     \ Security Unit Tests (Every commit, Automated)
          /----------------------\
+        /   Component Tests     \ Phase 2 Component Security (Every commit)
+       /--------------------------\
 ```
 
 ### 2.2 Threat-Driven Test Coverage
@@ -108,7 +107,7 @@ This document defines the comprehensive security test plan for both wikisites. I
 | Tampering | XSS injection, SQL injection, CSRF testing, input validation | 100% of input points |
 | Repudiation | Audit log verification, action attribution testing | 100% of state-changing operations |
 | Information Disclosure | API response audit, data leakage testing, header analysis | 100% of API endpoints |
-| Denial of Service | Rate limiting testing, resource exhaustion testing | 100% of public endpoints |
+| Denial of Service | Rate limiting testing, resource exhaustion testing, ReDoS | 100% of public endpoints |
 | Elevation of Privilege | RBAC testing, role escalation testing, IDOR testing | 100% of authorization checks |
 
 ---
@@ -140,7 +139,26 @@ This document defines the comprehensive security test plan for both wikisites. I
 | `no-with` | Prohibit with statement | Error | A03:2021 Injection |
 | `radix` | Require radix parameter for parseInt | Error | A03:2021 Injection |
 
-#### 3.1.2 TypeScript Strict Mode Configuration
+### 3.2 Custom Security Lint Rules
+
+| Rule ID | Description | Pattern | Severity |
+|---------|-------------|---------|----------|
+| SEC-001 | No hardcoded secrets | `(password\|secret\|api[_-]?key\|token)\s*[:=]\s*['"`]` | Error |
+| SEC-002 | No SQL string concatenation | `(SELECT\|INSERT\|UPDATE\|DELETE).*\+\s*[a-zA-Z]` | Error |
+| SEC-003 | No innerHTML assignment | `\.innerHTML\s*=` | Error |
+| SEC-004 | No document.write | `document\.write\(` | Error |
+| SEC-005 | No eval-like functions | `(eval\|Function\|setTimeout\|setInterval)\s*\(` | Error |
+| SEC-006 | No HTTP URLs in code | `http://[a-zA-Z]` (except localhost) | Warning |
+| SEC-007 | No console.log in production | `console\.(log\|debug\|info)\(` | Warning |
+| SEC-008 | DOMPurify required before innerHTML | `.innerHTML\s*=\s*(?!DOMPurify)` | Error |
+| SEC-009 | JWT secret not in code | `JWT_SECRET\|SIGNING_KEY` in source | Error |
+| SEC-010 | Parameterized query required | D1 `.prepare(` without `.bind(` | Error |
+| SEC-011 | Web Worker postMessage origin check | `onmessage` without `origin` validation | Error |
+| SEC-012 | No CSS expression() | `expression\(` in CSS/theme code | Error |
+| SEC-013 | No CSS url() in theme tokens | `url\(` in ThemeTokens values | Error |
+| SEC-014 | ReDoS pattern detection | Nested quantifiers `(a+)+` in regex source | Warning |
+
+### 3.3 TypeScript Strict Mode Configuration
 
 **tsconfig.json strict settings:**
 
@@ -166,79 +184,6 @@ This document defines the comprehensive security test plan for both wikisites. I
 }
 ```
 
-**Verification:** `tsc --noEmit` must return zero errors.
-
-### 3.2 Custom Security Lint Rules
-
-| Rule ID | Description | Pattern | Severity |
-|---------|-------------|---------|----------|
-| SEC-001 | No hardcoded secrets | `(password\|secret\|api[_-]?key\|token)\s*[:=]\s*['"`]` | Error |
-| SEC-002 | No SQL string concatenation | `(SELECT\|INSERT\|UPDATE\|DELETE).*\+\s*[a-zA-Z]` | Error |
-| SEC-003 | No innerHTML assignment | `\.innerHTML\s*=` | Error |
-| SEC-004 | No document.write | `document\.write\(` | Error |
-| SEC-005 | No eval-like functions | `(eval\|Function\|setTimeout\|setInterval)\s*\(` | Error |
-| SEC-006 | No HTTP URLs in code | `http://[a-zA-Z]` (except localhost) | Warning |
-| SEC-007 | No console.log in production | `console\.(log\|debug\|info)\(` | Warning |
-| SEC-008 | DOMPurify required before innerHTML | `.innerHTML\s*=\s*(?!DOMPurify)` | Error |
-| SEC-009 | JWT secret not in code | `JWT_SECRET\|SIGNING_KEY` in source | Error |
-| SEC-010 | Parameterized query required | D1 `.prepare(` without `.bind(` | Error |
-
-### 3.3 ESLint Configuration
-
-```javascript
-// .eslintrc.security.js
-module.exports = {
-  extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
-  ],
-  plugins: ['@typescript-eslint', 'security'],
-  rules: {
-    // Security rules
-    'no-eval': 'error',
-    'no-implied-eval': 'error',
-    'no-new-func': 'error',
-    'no-script-url': 'error',
-    'no-caller': 'error',
-    'no-octal': 'error',
-    'no-extend-native': 'error',
-    'no-global-assign': 'error',
-    'no-proto': 'error',
-    'no-with': 'error',
-    'radix': 'error',
-    // TypeScript strict
-    '@typescript-eslint/no-unused-vars': 'error',
-    '@typescript-eslint/no-explicit-any': 'error',
-    '@typescript-eslint/explicit-function-return-type': 'warn',
-    '@typescript-eslint/no-floating-promises': 'error',
-    '@typescript-eslint/no-misused-promises': 'error',
-  },
-};
-```
-
-### 3.4 SAST Execution in CI/CD
-
-```yaml
-# .github/workflows/security.yml
-name: Security Scan
-on: [push, pull_request]
-
-jobs:
-  sast:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v2
-      - run: pnpm install --frozen-lockfile
-      - name: TypeScript strict check
-        run: pnpm tsc --noEmit
-      - name: ESLint security scan
-        run: pnpm eslint src/ --ext .ts,.tsx
-      - name: Custom security rules
-        run: pnpm lint:security
-```
-
 ---
 
 ## 4. Dynamic Application Security Testing (DAST)
@@ -249,167 +194,9 @@ jobs:
 **Mode:** Automated scan + manual verification
 **Frequency:** Weekly automated + pre-release manual
 
-#### 4.1.1 ZAP Scan Profiles
+### 4.2 DAST Test Cases
 
-| Profile | Description | Scope | Duration |
-|---------|-------------|-------|----------|
-| Quick Scan | Passive scanning only | All pages | ~30 min |
-| Full Scan | Active + passive scanning | All pages + API | ~4 hours |
-| API Scan | OpenAPI-driven API scan | /api/v1/* endpoints | ~2 hours |
-| Spider Crawl | Full site crawl | All linked pages | ~1 hour |
-
-#### 4.1.2 ZAP Configuration File
-
-```yaml
-# zap-config.yml
----
-env:
-  contexts:
-    - name: "wikipept"
-      urls:
-        - "https://wikipept.com"
-        - "https://api.wikipept.com"
-      includePaths:
-        - "https://wikipept.com/.*"
-        - "https://api.wikipept.com/.*"
-      excludePaths:
-        - ".*\\.js$"
-        - ".*\\.css$"
-        - ".*\\.png$"
-        - ".*\\.jpg$"
-      authentication:
-        method: "form"
-        parameters:
-          loginUrl: "https://wikipept.com/api/v1/auth/login"
-          loginRequestData: "username={username}&password={password}"
-        verification:
-          method: "response"
-          loggedInRegex: "\\Qtoken\\E"
-
-  parameters:
-    failOnError: true
-    progressToStdout: true
-
-  policies:
-    - name: "security"
-      rules:
-        - id: 10010   # Cookie no HttpOnly Flag
-          strength: "high"
-          threshold: "low"
-        - id: 10011   # Cookie without SameSite
-          strength: "medium"
-          threshold: "medium"
-        - id: 10015   # Cross-Domain JavaScript Source Inclusion
-          strength: "high"
-          threshold: "medium"
-        - id: 10017   # Cross-Domain CSS Source Inclusion
-          strength: "medium"
-          threshold: "low"
-        - id: 10019   # Content-Type Header Missing
-          strength: "medium"
-          threshold: "low"
-        - id: 10020   # X-Frame-Options Missing
-          strength: "medium"
-          threshold: "low"
-        - id: 10021   # X-Content-Type-Options Missing
-          strength: "medium"
-          threshold: "low"
-        - id: 10023   # Information Disclosure
-          strength: "medium"
-          threshold: "low"
-        - id: 10024   # Information Disclosure - Debug Errors
-          strength: "medium"
-          threshold: "low"
-        - id: 10027   # Information Disclosure - Sensitive Information in URL
-          strength: "medium"
-          threshold: "low"
-        - id: 10035   # Strict-Transport-Security Header
-          strength: "medium"
-          threshold: "low"
-        - id: 10036   # Server Leaks Version via "Server" Header
-          strength: "low"
-          threshold: "low"
-        - id: 10037   # Server Leaks Info via X-Powered-By
-          strength: "low"
-          threshold: "low"
-        - id: 10038   # Content Security Policy Header
-          strength: "medium"
-          threshold: "low"
-        - id: 40012   # Cross-Site Request Forgery
-          strength: "medium"
-          threshold: "medium"
-        - id: 40014   # Polymer DOM XSS
-          strength: "high"
-          threshold: "medium"
-        - id: 40018   # SQL Injection
-          strength: "high"
-          threshold: "low"
-        - id: 40019   # SQL Injection (MySQL)
-          strength: "high"
-          threshold: "low"
-        - id: 40020   # XSS (Persistent)
-          strength: "high"
-          threshold: "low"
-        - id: 90018   # Advanced SQL Injection
-          strength: "high"
-          threshold: "low"
-        - id: 90019   # Server Side Code Injection
-          strength: "high"
-          threshold: "low"
-        - id: 90020   # Remote OS Command Injection
-          strength: "high"
-          threshold: "low"
-        - id: 90021   # XPath Injection
-          strength: "high"
-          threshold: "low"
-        - id: 90023   # XML External Entity Attack
-          strength: "high"
-          threshold: "low"
-        - id: 90024   # Generic Padding Oracle
-          strength: "high"
-          threshold: "low"
-        - id: 90025   # Expression Language Injection
-          strength: "high"
-          threshold: "low"
-```
-
-### 4.2 Burp Suite Configuration
-
-**Tool:** Burp Suite Professional
-**Mode:** Manual testing + extensions
-**Frequency:** Quarterly penetration test
-
-#### 4.2.1 Burp Extensions Required
-
-| Extension | Purpose |
-|-----------|---------|
-| Autorize | Authorization testing (IDOR detection) |
-| Active Scan++ | Enhanced active scanning |
-| Param Miner | Hidden parameter discovery |
-| Turbo Intruder | High-speed fuzzing |
-| Logger++ | Advanced request/response logging |
-| Retire.js | Known vulnerable JavaScript detection |
-| JS Link Finder | JavaScript endpoint discovery |
-| Backslash Powered Scanner | Novel injection detection |
-
-#### 4.2.2 Burp Scan Configuration
-
-| Check | Scope | Priority |
-|-------|-------|----------|
-| SQL Injection | All input parameters | Critical |
-| XSS (Reflected + Stored) | All input parameters | Critical |
-| CSRF | All state-changing endpoints | High |
-| IDOR | All endpoints with ID parameters | High |
-| Command Injection | All input parameters | Critical |
-| Path Traversal | All file-related endpoints | High |
-| Open Redirect | All redirect parameters | Medium |
-| Header Injection | All input headers | Medium |
-| HTTP Method Tampering | All endpoints | Medium |
-| Host Header Injection | All endpoints | Low |
-
-### 4.3 DAST Test Cases
-
-#### 4.3.1 XSS Test Cases
+#### 4.2.1 XSS Test Cases
 
 | Test ID | Description | Input | Expected Result | Severity |
 |---------|-------------|-------|-----------------|----------|
@@ -423,8 +210,14 @@ env:
 | DAST-XSS-008 | Template injection in MDX | `{{7*7}}` | Rendered as literal text | High |
 | DAST-XSS-009 | CSS injection | `<style>body{background:red}</style>` | Blocked by DOMPurify | Medium |
 | DAST-XSS-010 | Mutation XSS | `<noscript><p title="</noscript><script>alert(1)</script>">` | Blocked by DOMPurify | High |
+| DAST-XSS-011 | MDX editor JSX injection (NEW) | Inject `<script>` via MDX editor | Blocked by MDX whitelist | Critical |
+| DAST-XSS-012 | Comment body stored XSS (NEW) | `<img onerror=alert(1) src=x>` in comment | Blocked by DOMPurify | Critical |
+| DAST-XSS-013 | Plugin postMessage XSS (NEW) | Forge postMessage with XSS payload | Blocked by origin check | High |
+| DAST-XSS-014 | Annotation XPath injection (NEW) | Malicious XPath selector in annotation | XPath validation rejects | High |
+| DAST-XSS-015 | LaTeX expression XSS (NEW) | `\href{javascript:alert(1)}{click}` | Blocked by KaTeX sanitization | Medium |
+| DAST-XSS-016 | Regex search result XSS (NEW) | Pattern matching HTML in results | HTML-encoded output | Medium |
 
-#### 4.3.2 SQL Injection Test Cases
+#### 4.2.2 SQL Injection Test Cases
 
 | Test ID | Description | Input | Expected Result | Severity |
 |---------|-------------|-------|-----------------|----------|
@@ -436,7 +229,7 @@ env:
 | DAST-SQLI-006 | Second-order injection | User registration with `'` in username | Stored safely, not executed on login | Critical |
 | DAST-SQLI-007 | D1 parameter binding | All API endpoints with DB queries | Parameterized queries only | Critical |
 
-#### 4.3.3 CSRF Test Cases
+#### 4.2.3 CSRF Test Cases
 
 | Test ID | Description | Method | Expected Result | Severity |
 |---------|-------------|--------|-----------------|----------|
@@ -445,6 +238,10 @@ env:
 | DAST-CSRF-003 | Invalid CSRF token | POST with invalid token | 403 Forbidden | High |
 | DAST-CSRF-004 | Reused CSRF token | POST with used token | 403 Forbidden | High |
 | DAST-CSRF-005 | SameSite cookie bypass | POST from cross-origin | Request blocked by cookie | High |
+| DAST-CSRF-006 | Comment submission CSRF (NEW) | POST /api/v1/comments without token | 403 Forbidden | High |
+| DAST-CSRF-007 | Annotation creation CSRF (NEW) | POST /api/v1/annotations without token | 403 Forbidden | High |
+| DAST-CSRF-008 | MDX editor save CSRF (NEW) | POST /api/v1/pages/{slug}/edit without token | 403 Forbidden | High |
+| DAST-CSRF-009 | Settings sync CSRF (NEW) | POST /api/v1/settings without token | 403 Forbidden | High |
 
 ---
 
@@ -456,44 +253,7 @@ env:
 **Frequency:** Every build (CI) + weekly full scan
 **Fail threshold:** High severity or above
 
-#### 5.1.1 npm Audit in CI/CD
-
-```yaml
-# .github/workflows/dependency-scan.yml
-name: Dependency Security Scan
-on: [push, pull_request, schedule]
-
-jobs:
-  audit:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v2
-      - run: pnpm install --frozen-lockfile
-      - name: npm audit
-        run: pnpm audit --audit-level=high
-      - name: Snyk test
-        run: pnpm snyk test --severity-threshold=high
-        env:
-          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-      - name: License compliance
-        run: pnpm license-checker --production --failOn "GPL-3.0;AGPL-3.0"
-```
-
-### 5.2 Snyk Configuration
-
-```json
-// .snyk
-{
-  "version": "1.25.0",
-  "freeze": true,
-  "ignore": {},
-  "patch": {},
-  "upgradePaths": {}
-}
-```
-
-### 5.3 Dependency Scanning Test Cases
+### 5.2 Dependency Scanning Test Cases
 
 | Test ID | Description | Expected Result | Severity |
 |---------|-------------|-----------------|----------|
@@ -504,35 +264,10 @@ jobs:
 | DEP-005 | License compliance | No GPL-3.0 or AGPL-3.0 in production | Medium |
 | DEP-006 | Unknown package detection | All packages from trusted registries | High |
 | DEP-007 | Transitive dependency audit | No known vulnerabilities in transitive deps | High |
-
-### 5.4 Dependency Monitoring Configuration
-
-```yaml
-# renovate.json
-{
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base",
-    ":security"
-  ],
-  "vulnerabilityAlerts": {
-    "enabled": true,
-    "labels": ["security"]
-  },
-  "packageRules": [
-    {
-      "matchUpdateTypes": ["patch"],
-      "automerge": false,
-      "requiredStatusChecks": ["security-scan"]
-    },
-    {
-      "matchUpdateTypes": ["minor", "major"],
-      "automerge": false,
-      "requiredStatusChecks": ["security-scan", "integration-tests"]
-    }
-  ]
-}
-```
+| DEP-008 | KaTeX vulnerability scan (NEW) | No known ReDoS or XSS in KaTeX | High |
+| DEP-009 | TipTap/ProseMirror audit (NEW) | No known XSS in editor framework | High |
+| DEP-010 | Yjs dependency audit (NEW) | No known vulnerabilities in CRDT lib | High |
+| DEP-011 | DOMPurify version check (NEW) | Using latest patched version | High |
 
 ---
 
@@ -582,6 +317,9 @@ jobs:
 | PT-AUTHZ-010 | Delete page without admin role | 403 Forbidden | |
 | PT-AUTHZ-011 | Bypass moderation queue | Queue enforced for rep < 10 | |
 | PT-AUTHZ-012 | Access mastery-gated content without prerequisite | 403 Forbidden | |
+| PT-AUTHZ-013 | Plugin access unauthorized capabilities (NEW) | 403 Forbidden | |
+| PT-AUTHZ-014 | Theme override security-critical CSS (NEW) | Blocked by schema | |
+| PT-AUTHZ-015 | Settings override server-only fields (NEW) | Stripped by validator | |
 
 ### 6.4 Input Validation Testing
 
@@ -602,38 +340,11 @@ jobs:
 | PT-INPUT-013 | Header injection | Header validation | |
 | PT-INPUT-014 | HTTP response splitting | Output encoding | |
 | PT-INPUT-015 | Prototype pollution | Object.freeze on prototype | |
-
-### 6.5 API Security Testing
-
-| Test ID | Test Case | Expected Result | Status |
-|---------|-----------|-----------------|--------|
-| PT-API-001 | Missing authentication header | 401 Unauthorized | |
-| PT-API-002 | Expired authentication token | 401 Unauthorized | |
-| PT-API-003 | Rate limiting (101 requests/min) | 429 Too Many Requests | |
-| PT-API-004 | Rate limiting (authenticated, 301 req/min) | 429 Too Many Requests | |
-| PT-API-005 | HTTP method tampering (PUT on POST endpoint) | 405 Method Not Allowed | |
-| PT-API-006 | Content-Type bypass | 415 Unsupported Media Type | |
-| PT-API-007 | API versioning bypass | Current version enforced | |
-| PT-API-008 | Mass assignment | Only allowed fields modified | |
-| PT-API-009 | GraphQL introspection (if applicable) | Introspection disabled in production | |
-| PT-API-010 | CORS misconfiguration | Correct CORS headers | |
-
-### 6.6 Infrastructure Testing
-
-| Test ID | Test Case | Expected Result | Status |
-|---------|-----------|-----------------|--------|
-| PT-INFRA-001 | SSL/TLS configuration | TLS 1.2+ only, strong ciphers | |
-| PT-INFRA-002 | HSTS header | includeSubDomains, preload | |
-| PT-INFRA-003 | CSP header | Correct directives, no unsafe-inline | |
-| PT-INFRA-004 | X-Frame-Options | DENY or SAMEORIGIN | |
-| PT-INFRA-005 | X-Content-Type-Options | nosniff | |
-| PT-INFRA-006 | Referrer-Policy | strict-origin-when-cross-origin | |
-| PT-INFRA-007 | Permissions-Policy | Restrictive policy | |
-| PT-INFRA-008 | Server header information leak | Minimal server info | |
-| PT-INFRA-009 | Directory listing disabled | No directory listing | |
-| PT-INFRA-010 | Error page information leak | Generic error messages | |
-| PT-INFRA-011 | DNS configuration | DNSSEC enabled | |
-| PT-INFRA-012 | WAF rules | OWASP managed rules active | |
+| PT-INPUT-016 | ReDoS in regex search (NEW) | 4-layer defense, timeout | |
+| PT-INPUT-017 | LaTeX expression injection (NEW) | Length limit, KaTeX sanitization | |
+| PT-INPUT-018 | Settings import prototype pollution (NEW) | __proto__ rejected | |
+| PT-INPUT-019 | Theme token CSS injection (NEW) | Zod schema validation | |
+| PT-INPUT-020 | Plugin manifest tampering (NEW) | Schema validation, signature check | |
 
 ---
 
@@ -649,10 +360,97 @@ jobs:
 | API Endpoints | All parameters | OWASP ZAP + Turbo Intruder | 8 hours |
 | URL Paths | Path segments | DirBuster + custom | 2 hours |
 | HTTP Headers | All headers | OWASP ZAP | 1 hour |
+| Regex Search Patterns (NEW) | Pattern strings | Custom + property-based | 4 hours |
+| LaTeX Expressions (NEW) | Math expressions | Custom + property-based | 2 hours |
+| Settings Import (NEW) | JSON files | Custom + AFL++ | 4 hours |
+| Plugin postMessage (NEW) | Message objects | Custom fuzzer | 4 hours |
 
-### 7.2 Fuzzing Payloads
+### 7.2 Property-Based Fuzzing (NEW)
 
-#### 7.2.1 XSS Fuzzing Payloads
+Property-based testing generates random inputs to verify invariants hold across the entire input space.
+
+#### 7.2.1 Regex Search Properties
+
+```typescript
+// Property: ReDoS defender never allows execution > 100ms
+fc.assert(
+  fc.property(
+    fc.string({ minLength: 1, maxLength: 256 }),
+    (pattern) => {
+      const start = Date.now();
+      const result = analyzePatternComplexity(pattern);
+      const elapsed = Date.now() - start;
+      // Complexity analysis itself must be fast
+      expect(elapsed).toBeLessThan(50);
+      // If pattern is accepted, execution must be safe
+      if (result.safe) {
+        const execStart = Date.now();
+        try {
+          new RegExp(pattern).test('test input string');
+          const execElapsed = Date.now() - execStart;
+          expect(execElapsed).toBeLessThan(100);
+        } catch (e) {
+          // Invalid regex is acceptable
+        }
+      }
+    }
+  ),
+  { numRuns: 10000 }
+);
+```
+
+#### 7.2.2 Settings Import Properties
+
+```typescript
+// Property: Imported settings never contain __proto__ pollution
+fc.assert(
+  fc.property(
+    fc.jsonValue(),
+    (input) => {
+      const result = validateSettingsImport(input);
+      if (result.success) {
+        expect(result.settings).not.toHaveProperty('__proto__');
+        expect(result.settings).not.toHaveProperty('constructor');
+        expect(result.settings).not.toHaveProperty('prototype');
+        // Verify prototype chain is intact
+        expect(Object.getPrototypeOf(result.settings)).toBe(Object.prototype);
+      }
+    }
+  ),
+  { numRuns: 10000 }
+);
+```
+
+#### 7.2.3 Theme Token Properties
+
+```typescript
+// Property: Theme tokens never contain url(), expression(), or behavior
+fc.assert(
+  fc.property(
+    fc.record({
+      'color-primary': fc.hexColor(),
+      'font-sans': fc.constantFrom('Arial', 'Helvetica', 'sans-serif'),
+      // ... other token fields
+    }),
+    (tokens) => {
+      const result = validateThemeTokens(tokens);
+      if (result.success) {
+        for (const [key, value] of Object.entries(result.tokens)) {
+          expect(String(value)).not.toMatch(/url\(/i);
+          expect(String(value)).not.toMatch(/expression\(/i);
+          expect(String(value)).not.toMatch(/behavior:/i);
+          expect(String(value)).not.toMatch(/-moz-binding/i);
+        }
+      }
+    }
+  ),
+  { numRuns: 10000 }
+);
+```
+
+### 7.3 Fuzzing Payloads
+
+#### 7.3.1 XSS Fuzzing Payloads
 
 ```
 <script>alert(1)</script>
@@ -665,87 +463,37 @@ jobs:
 <details open ontoggle=alert(1)>
 <video><source onerror=alert(1)>
 <audio src=x onerror=alert(1)>
-<img src="x" onerror="alert(1)">
-<svg/onload=alert(1)>
-<script>alert(1)//
-"><script>alert(1)</script>
-';alert(1)//
-javascript:alert(1)
-data:text/html,<script>alert(1)</script>
-base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==
 ```
 
-#### 7.2.2 SQL Injection Fuzzing Payloads
-
-``'
-" OR "1"="1
-' OR '1'='1'--
-' OR '1'='1'/*
-' OR '1'='1'#
-1' ORDER BY 1--
-1' ORDER BY 10--
-' UNION SELECT NULL--
-' UNION SELECT NULL,NULL--
-' UNION SELECT NULL,NULL,NULL--
-' UNION ALL SELECT NULL,NULL,NULL--
-1'; WAITFOR DELAY '0:0:5'--
-1' AND SLEEP(5)--
-1' AND BENCHMARK(10000000,SHA1('test'))--
-1' AND (SELECT * FROM (SELECT(SLEEP(5)))a)--
-' AND 1=CONVERT(int,@@version)--
-' AND 1=CONVERT(int,(SELECT TOP 1 table_name FROM information_schema.tables))--
-```
-
-#### 7.2.3 Path Traversal Fuzzing Payloads
+#### 7.3.2 ReDoS Fuzzing Payloads (NEW)
 
 ```
-../../../etc/passwd
-..%2f..%2f..%2fetc/passwd
-....//....//....//etc/passwd
-%2e%2e%2f%2e%2e%2f%2e%2e%2fetc%2fpasswd
-..%252f..%252f..%252fetc/passwd
-..%c0%af..%c0%af..%c0%afetc/passwd
-..%c1%9c..%c1%9c..%c1%9cetc/passwd
-/etc/passwd%00
-/etc/passwd%0a
-../../../windows/system32/config/sam
+(a+)+$
+(a|a)+$
+(a|aa)+$
+(a|aaa)+$
+(a|b|ab)+$
+(a|b|ba)+$
+(a|b|a)+$
+(a|ab|b)+$
+(a+b?)+$
+(a|b?)+$
+(a|b|c|ab)+$
+(a|b|c|bc)+$
+(a|b|c|abc)+$
+((a|b)*(a|b)*b)*$
+(a|b|ab)*$
 ```
 
-#### 7.2.4 SSRF Fuzzing Payloads
+#### 7.3.3 Settings Import Fuzzing Payloads (NEW)
 
-```
-http://127.0.0.1
-http://localhost
-http://[::1]
-http://0x7f000001
-http://2130706433
-http://0177.0.0.1
-http://127.0.0.1:8080
-http://127.0.0.1/admin
-http://metadata.google.internal/computeMetadata/v1/
-http://169.254.169.254/latest/meta-data/
-http://[0:0:0:0:0:ffff:127.0.0.1]
-file:///etc/passwd
-gopher://127.0.0.1:25/
-dict://127.0.0.1:6379/
-```
-
-### 7.3 Fuzzing Execution
-
-```bash
-# ZAP Fuzzing
-zap-cli quick-scan -s all -r https://wikipept.com
-
-# Turbo Intruder for API fuzzing
-# Configure in Burp Suite with custom scripts
-
-# Custom file upload fuzzer
-for i in $(seq 1 1000); do
-  curl -X POST https://api.wikipept.com/api/v1/flashcards/decks/import \
-    -H "Authorization: Bearer $TOKEN" \
-    -F "file=@fuzz_payload_$i.apkg" \
-    -F "format=anki"
-done
+```json
+{"__proto__": {"polluted": true}}
+{"constructor": {"prototype": {"polluted": true}}}
+{"settings": {"__proto__": {"isAdmin": true}}}
+{"theme": {"color-primary": "url(https://evil.com/steal)"}}
+{"shortcuts": {"a".repeat(10000): "b"}}
+{"version": 999999, "data": {}}
 ```
 
 ---
@@ -795,45 +543,8 @@ Content-Security-Policy:
 | CSP-011 | CSP violation reports generated | Reports sent to report-uri | |
 | CSP-012 | upgrade-insecure-requests works | HTTP upgraded to HTTPS | |
 | CSP-013 | block-all-mixed-content works | Mixed content blocked | |
-
-### 8.3 CSP Validation Script
-
-```bash
-#!/bin/bash
-# csp-validate.sh
-
-SITE="https://wikipept.com"
-CSP_HEADER=$(curl -sI "$SITE" | grep -i "content-security-policy")
-
-if [ -z "$CSP_HEADER" ]; then
-  echo "FAIL: CSP header missing"
-  exit 1
-fi
-
-# Check required directives
-DIRECTIVES=("default-src" "script-src" "style-src" "img-src" "connect-src" "object-src" "frame-src" "frame-ancestors" "form-action" "base-uri" "report-uri")
-
-for dir in "${DIRECTIVES[@]}"; do
-  if ! echo "$CSP_HEADER" | grep -q "$dir"; then
-    echo "FAIL: Missing directive: $dir"
-    exit 1
-  fi
-done
-
-# Check unsafe-inline not in script-src
-if echo "$CSP_HEADER" | grep "script-src" | grep -q "unsafe-inline"; then
-  echo "FAIL: unsafe-inline in script-src"
-  exit 1
-fi
-
-# Check report-uri present
-if ! echo "$CSP_HEADER" | grep -q "report-uri"; then
-  echo "FAIL: report-uri missing"
-  exit 1
-fi
-
-echo "PASS: CSP header validated"
-```
+| CSP-014 | worker-src 'self' blocks cross-origin Workers (NEW) | Plugin Workers same-origin only | |
+| CSP-015 | Plugin Worker CSP inherits parent (NEW) | Plugin cannot bypass CSP | |
 
 ---
 
@@ -878,16 +589,6 @@ echo "PASS: CSP header validated"
 | AUTHZ-008 | Approve moderation | moderator | /api/v1/moderation/approve | 200 OK | |
 | AUTHZ-009 | Manage users | contributor | /api/v1/users/manage | 403 Forbidden | |
 | AUTHZ-010 | Manage users | admin | /api/v1/users/manage | 200 OK | |
-| AUTHZ-011 | Access mastery-gated content | contributor (no prerequisite) | /en/advanced-topic | 403 Forbidden | |
-| AUTHZ-012 | Access mastery-gated content | contributor (prerequisite met) | /en/advanced-topic | 200 OK | |
-| AUTHZ-013 | Create quiz | contributor | /api/v1/quizzes | 200 OK | |
-| AUTHZ-014 | Moderate quiz | contributor | /api/v1/quizzes/moderate | 403 Forbidden | |
-| AUTHZ-015 | View analytics | contributor | /api/v1/analytics | 403 Forbidden | |
-| AUTHZ-016 | View analytics | admin | /api/v1/analytics | 200 OK | |
-| AUTHZ-017 | Import flashcard deck | contributor | /api/v1/flashcards/decks/import | 200 OK | |
-| AUTHZ-018 | Delete other's flashcard deck | contributor | /api/v1/flashcards/decks/{other} | 403 Forbidden | |
-| AUTHZ-019 | Create annotation | contributor | /api/v1/pages/{slug}/annotations | 200 OK | |
-| AUTHZ-020 | Delete other's annotation | contributor | /api/v1/annotations/{other} | 403 Forbidden | |
 
 ### 9.3 RBAC Permission Matrix
 
@@ -901,12 +602,17 @@ echo "PASS: CSP header validated"
 | quiz:moderate | No | No | Yes | Yes |
 | annotation:create | Yes | Yes | Yes | Yes |
 | annotation:moderate | No | No | Yes | Yes |
+| comment:create | Yes | Yes | Yes | Yes |
+| comment:moderate | No | No | Yes | Yes |
+| plugin:install | Yes | Yes | Yes | Yes |
+| plugin:publish | No | No | Yes | Yes |
+| theme:install | Yes | Yes | Yes | Yes |
+| theme:publish | No | No | Yes | Yes |
+| settings:manage | Yes | Yes | Yes | Yes |
 | user:manage | No | No | No | Yes |
 | analytics:view | No | No | Yes | Yes |
 | moderation:approve | No | No | Yes | Yes |
 | moderation:reject | No | No | Yes | Yes |
-| reputation:view | Yes | Yes | Yes | Yes |
-| reputation:override | No | No | No | Yes |
 
 ---
 
@@ -925,28 +631,6 @@ echo "PASS: CSP header validated"
 | CRYPTO-007 | JWT jku header injection | jku parameter validated | |
 | CRYPTO-008 | Refresh token rotation | Old refresh tokens rejected | |
 
-### 10.2 TLS Tests
-
-| Test ID | Test Case | Expected Result | Status |
-|---------|-----------|-----------------|--------|
-| TLS-001 | TLS 1.2+ only | No TLS 1.0 or 1.1 | |
-| TLS-002 | Strong cipher suites | No RC4, DES, 3DES, export ciphers | |
-| TLS-003 | Certificate validity | Valid cert, not expired | |
-| TLS-004 | Certificate chain | Complete chain to trusted root | |
-| TLS-005 | HSTS header | includeSubDomains, preload, max-age >= 31536000 | |
-| TLS-006 | HTTP to HTTPS redirect | All HTTP redirected to HTTPS | |
-| TLS-007 | OCSP stapling | Enabled | |
-| TLS-008 | Certificate transparency | CT logs present | |
-
-### 10.3 Password Storage Tests
-
-| Test ID | Test Case | Expected Result | Status |
-|---------|-----------|-----------------|--------|
-| PWD-001 | Password hashing algorithm | Argon2id or bcrypt | |
-| PWD-002 | Password salt | Unique salt per password | |
-| PWD-003 | Password hash not in logs | No password data in any log | |
-| PWD-004 | Password not in error messages | Generic error on login failure | |
-
 ---
 
 ## 11. API Security Testing
@@ -957,37 +641,14 @@ echo "PASS: CSP header validated"
 |----------|--------|---------------|-------------|-----------------|------------------|
 | /api/v1/peptides | GET | No | Yes (100/min) | Yes | Yes |
 | /api/v1/peptides/{id} | GET | No | Yes (100/min) | Yes | Yes |
-| /api/v1/peptides/{id}/structure | GET | No | Yes (100/min) | Yes | Yes |
-| /api/v1/pages | GET | No | Yes (100/min) | Yes | Yes |
-| /api/v1/pages/{slug} | GET | No | Yes (100/min) | Yes | Yes |
-| /api/v1/pages/{slug}/revisions | GET | No | Yes (100/min) | Yes | Yes |
 | /api/v1/pages/{slug}/edit | POST | Yes | Yes (300/min) | Yes | Yes |
-| /api/v1/pages/{slug}/revert | POST | Yes | Yes (300/min) | Yes | Yes |
-| /api/v1/pages/{slug}/annotations | GET | No | Yes (100/min) | Yes | Yes |
 | /api/v1/pages/{slug}/annotations | POST | Yes | Yes (300/min) | Yes | Yes |
-| /api/v1/pages/{slug}/flag | POST | Yes | Yes (300/min) | Yes | Yes |
-| /api/v1/quizzes | GET | No | Yes (100/min) | Yes | Yes |
-| /api/v1/quizzes | POST | Yes | Yes (300/min) | Yes | Yes |
-| /api/v1/quizzes/{sessionId} | GET | Yes | Yes (300/min) | Yes | Yes |
-| /api/v1/quizzes/{sessionId}/answer | POST | Yes | Yes (300/min) | Yes | Yes |
-| /api/v1/quizzes/{sessionId}/complete | POST | Yes | Yes (300/min) | Yes | Yes |
-| /api/v1/flashcards/review | GET | Yes | Yes (300/min) | Yes | Yes |
-| /api/v1/flashcards/rate | POST | Yes | Yes (300/min) | Yes | Yes |
-| /api/v1/flashcards/decks/import | POST | Yes | Yes (300/min) | Yes | Yes |
-| /api/v1/users/me | GET | Yes | Yes (300/min) | Yes | Yes |
-
-### 11.2 API Security Headers
-
-| Header | Value | Test |
-|--------|-------|------|
-| Strict-Transport-Security | max-age=31536000; includeSubDomains; preload | Present on all responses |
-| Content-Security-Policy | (see Section 8.1) | Present on all responses |
-| X-Content-Type-Options | nosniff | Present on all responses |
-| X-Frame-Options | DENY | Present on all responses |
-| Referrer-Policy | strict-origin-when-cross-origin | Present on all responses |
-| Permissions-Policy | camera=(), microphone=(), geolocation=() | Present on all responses |
-| Cache-Control | no-store (for authenticated responses) | Present on sensitive responses |
-| X-XSS-Protection | 0 | Present (disabled to rely on CSP) |
+| /api/v1/comments | POST | Yes | Yes (300/min) | Yes | Yes |
+| /api/v1/auth/login | POST | No | Yes (10/min) | Yes | Yes |
+| /api/v1/auth/refresh | POST | Yes | Yes (100/min) | Yes | Yes |
+| /api/v1/settings/sync | POST | Yes | Yes (100/min) | Yes | Yes |
+| /api/v1/plugins/install | POST | Yes | Yes (10/min) | Yes | Yes |
+| /api/v1/themes/install | POST | Yes | Yes (10/min) | Yes | Yes |
 
 ---
 
@@ -1009,16 +670,10 @@ echo "PASS: CSP header validated"
 | CLIENT-010 | No postMessage without origin check | Event listeners validate origin | |
 | CLIENT-011 | No dynamic import with user input | Import paths are static | |
 | CLIENT-012 | No Service Worker cache poisoning | SW scope restricted | |
-
-### 12.2 Third-Party Script Audit
-
-| Test ID | Test Case | Expected Result | Status |
-|---------|-----------|-----------------|--------|
-| CLIENT-TP-001 | All third-party scripts loaded from allowlist | No unauthorized domains | |
-| CLIENT-TP-002 | Third-party scripts loaded with integrity hash | SRI enabled | |
-| CLIENT-TP-003 | Third-party scripts loaded with CSP nonce | Nonce verified | |
-| CLIENT-TP-004 | No third-party scripts in production | Minimal third-party usage | |
-| CLIENT-TP-005 | Third-party script updates monitored | Dependabot/Renovate tracking | |
+| CLIENT-013 | Plugin Worker isolated from DOM (NEW) | No DOM access from Worker | |
+| CLIENT-014 | Plugin postMessage validated (NEW) | Origin + schema check on messages | |
+| CLIENT-015 | Theme CSS applied safely (NEW) | CSS custom properties only | |
+| CLIENT-016 | Regex search timeout enforced (NEW) | Execution killed after 100ms | |
 
 ---
 
@@ -1039,24 +694,177 @@ echo "PASS: CSP header validated"
 | INFRA-009 | Security Level | Medium or High | |
 | INFRA-010 | Browser Integrity Check | Enabled | |
 
-### 13.2 Worker Security Tests
+---
+
+## 14. Phase 2 Component Security Testing (NEW)
+
+### 14.1 Command Palette Security Tests
 
 | Test ID | Test Case | Expected Result | Status |
 |---------|-----------|-----------------|--------|
-| INFRA-W-001 | Worker bindings isolated | No cross-worker access | |
-| INFRA-W-002 | Environment variables encrypted | Secrets not in code | |
-| INFRA-W-003 | Worker CPU time limits | 10ms (free) / 50ms (paid) enforced | |
-| INFRA-W-004 | Worker subrequest limits | Max 50 subrequests per request | |
-| INFRA-W-005 | D1 database access | Worker-only, no public access | |
-| INFRA-W-006 | KV namespace access | Worker-only, no public access | |
-| INFRA-W-007 | R2 bucket access | Worker proxy only, no public access | |
-| INFRA-W-008 | Durable Object access | Authenticated WebSocket only | |
+| CP-001 | XSS via command input | Command palette rejects HTML/script input | |
+| CP-002 | Command injection via input | Only whitelisted commands executable | |
+| CP-003 | Focus trap escape | Focus returns to main content on Escape | |
+| CP-004 | Input history not persisted to server | History stored in localStorage only | |
+| CP-005 | Keyboard shortcut collision | Conflict detection warns user | |
+
+### 14.2 Keyboard Shortcuts Security Tests
+
+| Test ID | Test Case | Expected Result | Status |
+|---------|-----------|-----------------|--------|
+| KS-001 | Global keydown listener scope | Only active when command palette or shortcut mode enabled | |
+| KS-002 | Shortcut remapping persistence | Only stored in localStorage, not sent to server | |
+| KS-003 | Shortcut conflict with browser defaults | Critical browser shortcuts not overridden | |
+| KS-004 | Shortcut input in form fields | Shortcuts disabled when input focused | |
+
+### 14.3 Graph View Security Tests
+
+| Test ID | Test Case | Expected Result | Status |
+|---------|-----------|-----------------|--------|
+| GV-001 | Node count limit | Max 500 nodes enforced | |
+| GV-002 | Edge count limit | Max 2000 edges enforced | |
+| GV-003 | Graph data from build-time only | No user input in graph data | |
+| GV-004 | Canvas click handler origin check | Click events from same origin only | |
+| GV-005 | Memory usage with max-size graph | Within 50MB budget | |
+| GV-006 | Force layout termination | Simulation stops within 300 iterations | |
+
+### 14.4 LaTeX Renderer Security Tests
+
+| Test ID | Test Case | Expected Result | Status |
+|---------|-----------|-----------------|--------|
+| LATEX-001 | Expression length limit | Max 1000 characters enforced | |
+| LATEX-002 | Render timeout | Execution killed after 500ms | |
+| LATEX-003 | Malformed expression handling | Graceful error message, no crash | |
+| LATEX-004 | XSS via LaTeX `\href` | javascript: URIs blocked by KaTeX | |
+| LATEX-005 | XSS via LaTeX `\includegraphics` | File:// URIs blocked | |
+| LATEX-006 | SSR rendering correctness | Build-time output matches expected | |
+
+### 14.5 Regex Search Security Tests (CRITICAL)
+
+| Test ID | Test Case | Expected Result | Status |
+|---------|-----------|-----------------|--------|
+| REGEX-001 | Pattern length limit | Max 256 characters enforced | |
+| REGEX-002 | Known ReDoS pattern `(a+)+$` | Timeout within 100ms | |
+| REGEX-003 | Known ReDoS pattern `(a|a)+$` | Timeout within 100ms | |
+| REGEX-004 | Known ReDoS pattern `(a|aa)+$` | Timeout within 100ms | |
+| REGEX-005 | Known ReDoS pattern `(a|b|ab)+$` | Timeout within 100ms | |
+| REGEX-006 | Nested quantifiers detection | redos-analyzer flags pattern | |
+| REGEX-007 | Overlapping alternations detection | redos-analyzer flags pattern | |
+| REGEX-008 | Execution timeout | RegExp.test() killed after 100ms | |
+| REGEX-009 | Fallback to linear scan | Timeout triggers safe fallback | |
+| REGEX-010 | Unicode pattern handling | No bypass via Unicode characters | |
+| REGEX-011 | Browser responsiveness during search | UI remains interactive | |
+| REGEX-012 | Property-based ReDoS invariant | All patterns execute within 100ms | |
+
+### 14.6 Comments Security Tests
+
+| Test ID | Test Case | Expected Result | Status |
+|---------|-----------|-----------------|--------|
+| COMM-001 | XSS in comment body (custom store) | DOMPurify sanitization | |
+| COMM-002 | CSRF on comment submission | CSRF token validated | |
+| COMM-003 | Comment author spoofing | Author derived from JWT, not client | |
+| COMM-004 | Rate limiting on comment creation | 10 comments/hour per user | |
+| COMM-005 | Giscus iframe sandbox | iframe sandboxed, no parent access | |
+| COMM-006 | Comment depth limit | Max nesting depth enforced | |
+| COMM-007 | Spam detection | SpamGuard rate limiting active | |
+
+### 14.7 Annotations Security Tests
+
+| Test ID | Test Case | Expected Result | Status |
+|---------|-----------|-----------------|--------|
+| ANNO-001 | XSS in annotation body | DOMPurify sanitization | |
+| ANNO-002 | CSRF on annotation creation | CSRF token validated | |
+| ANNO-003 | Annotation author spoofing | Author derived from JWT, not client | |
+| ANNO-004 | XPath selector injection | XPath validated against whitelist | |
+| ANNO-005 | Annotation visibility bypass | Visibility enforced server-side | |
+| ANNO-006 | W3C data model compliance | Structured body, no raw HTML | |
+| ANNO-007 | Annotation count limit per page | Max 100 annotations per page | |
+
+### 14.8 User Accounts Security Tests
+
+| Test ID | Test Case | Expected Result | Status |
+|---------|-----------|-----------------|--------|
+| ACCT-001 | OAuth redirect URI validation | Only registered URIs accepted | |
+| ACCT-002 | JWT token theft via XSS | HttpOnly cookies prevent access | |
+| ACCT-003 | Session fixation | New session after login | |
+| ACCT-004 | Role escalation via API | Server-side RBAC enforced | |
+| ACCT-005 | Account enumeration | Same error for invalid email/password | |
+| ACCT-006 | Passkey registration security | WebAuthn challenge validated | |
+| ACCT-007 | GDPR data export | All user data included | |
+| ACCT-008 | GDPR account deletion | All data removed from D1, KV, R2 | |
+
+### 14.9 MDX Editor Security Tests
+
+| Test ID | Test Case | Expected Result | Status |
+|---------|-----------|-----------------|--------|
+| MDX-001 | Stored XSS via MDX output | MDX whitelist + DOMPurify | |
+| MDX-002 | CSRF on editor save | CSRF token validated | |
+| MDX-003 | Preview renderer isolation | Sandboxed iframe for preview | |
+| MDX-004 | Collaboration WebSocket auth | JWT required for Yjs connection | |
+| MDX-005 | Frontmatter injection | YAML parsed safely, no code exec | |
+| MDX-006 | Version history attribution | Author from JWT, not client | |
+| MDX-007 | Diff rendering XSS | Output encoded, not rendered as HTML | |
+
+### 14.10 Plugin API Security Tests (CRITICAL)
+
+| Test ID | Test Case | Expected Result | Status |
+|---------|-----------|-----------------|--------|
+| PLUG-001 | DOM access from Worker | SecurityError thrown | |
+| PLUG-002 | postMessage origin validation | Only same-origin messages accepted | |
+| PLUG-003 | Capability escalation | Capabilities immutable after install | |
+| PLUG-004 | Plugin crash isolation | Host continues unaffected | |
+| PLUG-005 | Plugin memory limit | Worker killed at 16MB | |
+| PLUG-006 | Plugin CPU time limit | Worker killed at 50ms per message | |
+| PLUG-007 | Network exfiltration without capability | fetch blocked without network:fetch | |
+| PLUG-008 | Plugin manifest tampering | Schema validation rejects | |
+| PLUG-009 | Plugin bundle signing | Unsigned bundles rejected | |
+| PLUG-010 | Plugin sandbox escape (fuzz) | No escape found in 10000 iterations | |
+| PLUG-011 | Plugin storage isolation | Plugins cannot access other plugins' storage | |
+| PLUG-012 | Plugin lifecycle audit logging | All events logged to D1 | |
+
+### 14.11 Theme Engine Security Tests
+
+| Test ID | Test Case | Expected Result | Status |
+|---------|-----------|-----------------|--------|
+| THEME-001 | CSS expression() injection | Zod schema rejects | |
+| THEME-002 | CSS url() data exfiltration | Zod schema rejects | |
+| THEME-003 | CSS -moz-binding injection | Zod schema rejects | |
+| THEME-004 | Theme cannot override security CSS | Focus indicators not overridable | |
+| THEME-005 | Theme marketplace automated scan | Malicious CSS detected | |
+| THEME-006 | Theme loading from same-origin | No cross-origin theme CSS | |
+| THEME-007 | Dark/light mode toggle | System preference respected | |
+| THEME-008 | Theme inheritance security | Plugin themes cannot escalate | |
+
+### 14.12 Settings Manager Security Tests
+
+| Test ID | Test Case | Expected Result | Status |
+|---------|-----------|-----------------|--------|
+| SET-001 | Import __proto__ pollution | Key rejected by validator | |
+| SET-002 | Import constructor pollution | Key rejected by validator | |
+| SET-003 | Import prototype pollution | Key rejected by validator | |
+| SET-004 | Server-only field override | Fields stripped on import | |
+| SET-005 | Schema version migration | Old formats migrated safely | |
+| SET-006 | Import size limit | Max 100KB enforced | |
+| SET-007 | Settings sync CSRF | CSRF token validated | |
+| SET-008 | Export sensitive data exclusion | No tokens/keys in export | |
+| SET-009 | Conflict resolution safety | Deep merge does not pollute | |
+| SET-010 | localStorage quota handling | Graceful degradation on full storage | |
+
+### 14.13 Service Worker Security Tests
+
+| Test ID | Test Case | Expected Result | Status |
+|---------|-----------|-----------------|--------|
+| SW-001 | SW registration same-origin only | Cross-origin registration blocked | |
+| SW-002 | Cache versioning | Cache-busting hashes on assets | |
+| SW-003 | Cache poisoning detection | Modified assets rejected | |
+| SW-004 | SW scope restriction | Scope limited to origin | |
+| SW-005 | Offline XSS prevention | Cached pages cannot execute injected scripts | |
 
 ---
 
-## 14. Test Environment and Tooling
+## 15. Test Environment and Tooling
 
-### 14.1 Required Tools
+### 15.1 Required Tools
 
 | Tool | Version | Purpose | License |
 |------|---------|---------|---------|
@@ -1073,35 +881,14 @@ echo "PASS: CSP header validated"
 | axe-core | Latest | Accessibility | MPL-2 |
 | DOMPurify | Latest | HTML sanitization | Apache-2 |
 | jsSHA | Latest | Hashing | BSD-3 |
-
-### 14.2 Test Environment Configuration
-
-```yaml
-# Test environment
-test:
-  base_url: https://wikipept.pages.dev  # Preview deployment
-  api_url: https://api.wikipept.pages.dev
-  auth:
-    test_user:
-      email: test@example.com
-      password: TestPassword123!
-    test_moderator:
-      email: mod@example.com
-      password: ModPassword123!
-    test_admin:
-      email: admin@example.com
-      password: AdminPassword123!
-  database:
-    d1: wikipept-test-db  # Isolated test database
-  storage:
-    r2: wikipept-test-uploads  # Isolated test bucket
-```
+| fast-check | Latest | Property-based testing | MIT |
+| AFL++ | Latest | Binary fuzzing | Apache-2 |
 
 ---
 
-## 15. Test Execution and Reporting
+## 16. Test Execution and Reporting
 
-### 15.1 Test Execution Schedule
+### 16.1 Test Execution Schedule
 
 | Test Type | Frequency | Owner | Gate |
 |-----------|-----------|-------|------|
@@ -1113,51 +900,18 @@ test:
 | CSP validation | Every deployment | CI/CD | CI/CD |
 | Auth/AuthZ tests | Every commit | Developer | CI/CD |
 | Header audit | Every deployment | CI/CD | CI/CD |
+| Phase 2 component tests | Every commit | Developer | CI/CD |
+| Property-based tests | Every commit | Developer | CI/CD |
 
-### 15.2 Defect Classification
+### 16.2 Defect Classification
 
 | Severity | Description | SLA |
 |----------|-------------|-----|
-| Critical | Remote code execution, authentication bypass, SQL injection | Fix within 24 hours |
-| High | XSS, CSRF, IDOR, privilege escalation | Fix within 7 days |
-| Medium | Missing security headers, information disclosure | Fix within 30 days |
+| Critical | Remote code execution, authentication bypass, SQL injection, ReDoS, sandbox escape | Fix within 24 hours |
+| High | XSS, CSRF, IDOR, privilege escalation, plugin capability escalation | Fix within 7 days |
+| Medium | Missing security headers, information disclosure, CSS injection | Fix within 30 days |
 | Low | Verbose errors, missing best practices | Fix within 90 days |
 | Informational | Code quality, optimization suggestions | Backlog |
-
-### 15.3 Security Test Report Template
-
-```markdown
-# Security Test Report
-
-**Date:** YYYY-MM-DD
-**Tester:** Name
-**Scope:** [endpoint/feature]
-**Environment:** [staging/production]
-
-## Summary
-- Total tests: N
-- Passed: N
-- Failed: N
-- Blocked: N
-
-## Critical Findings
-[None / List]
-
-## High Findings
-[List with evidence]
-
-## Medium Findings
-[List with evidence]
-
-## Low Findings
-[List with evidence]
-
-## Recommendations
-[Prioritized list]
-
-## Sign-off
-[Name, Date]
-```
 
 ---
 

@@ -1,0 +1,463 @@
+# =============================================================================
+# Interface Contracts: Extensibility Layer
+# Source: BP-EXTENSIBILITY-001 §5.1–5.3
+# Version: 1.0.0
+# Date: 2026-06-19
+# Status: DRAFT
+# =============================================================================
+
+[metadata]
+document_id = "IC-EXTENSIBILITY-001"
+source_paper = "BP-EXTENSIBILITY-001"
+version = "1.0.0"
+date = "2026-06-19"
+status = "DRAFT"
+description = "TOML interface contracts for plugin API, theme engine, and settings manager"
+
+# =============================================================================
+# PLUGIN API (BP-EXTENSIBILITY-001 §5.1 — IF-PLUGIN-001)
+# =============================================================================
+
+[interfaces.plugins]
+
+[interfaces.plugins.PluginManifest]
+description = "Plugin manifest declaring capabilities and entry point"
+fields = [
+    { name = "id", type = "string", constraints = "npm-style unique ID, non-empty" },
+    { name = "name", type = "string", constraints = "min(1), max(100), display name" },
+    { name = "version", type = "string", constraints = "semver format" },
+    { name = "description", type = "string", constraints = "min(1), max(500)" },
+    { name = "author", type = "string", constraints = "min(1), max(100)" },
+    { name = "license", type = "string", constraints = "SPDX license identifier" },
+    { name = "homepage", type = "string?", constraints = "URL format" },
+    { name = "capabilities", type = "PluginCapability[]", constraints = "non-empty" },
+    { name = "hooks", type = "PluginHook[]", constraints = "non-empty" },
+    { name = "entryPoint", type = "string", constraints = "JS file path in bundle" },
+    { name = "dependencies", type = "string[]?", constraints = "other plugin IDs" },
+    { name = "minAppVersion", type = "string?", constraints = "semver" },
+]
+
+[interfaces.plugins.PluginCapability]
+description = "Specific permission granted to a plugin"
+type = "enum"
+values = [
+    "read:pages",
+    "write:pages",
+    "read:annotations",
+    "write:annotations",
+    "read:comments",
+    "write:comments",
+    "read:user-profile",
+    "write:user-profile",
+    "ui:inject",
+    "ui:sidebar",
+    "ui:modal",
+    "theme:override",
+    "settings:read",
+    "settings:write",
+    "analytics:read",
+    "network:fetch",
+]
+
+[interfaces.plugins.PluginHook]
+description = "Lifecycle callback point"
+type = "enum"
+values = [
+    "onLoad",
+    "onUnload",
+    "onNavigate",
+    "onEdit",
+    "onRender",
+    "onSave",
+    "onCommentCreate",
+    "onAnnotationCreate",
+    "onThemeChange",
+]
+
+[interfaces.plugins.PluginInstalled]
+description = "Installed plugin record"
+fields = [
+    { name = "manifest", type = "PluginManifest", constraints = "required" },
+    { name = "installedAt", type = "string", constraints = "ISO 8601" },
+    { name = "enabled", type = "boolean", constraints = "default(true)" },
+    { name = "settings", type = "Record<string, unknown>", constraints = "default({})" },
+    { name = "lastUsed", type = "string?", constraints = "ISO 8601" },
+]
+
+[interfaces.plugins.PluginListRequest]
+description = "Query plugin registry"
+fields = [
+    { name = "query", type = "string?", constraints = "search query" },
+    { name = "category", type = "string?", constraints = "plugin category" },
+    { name = "sort", type = "enum?", values = ["popular", "recent", "name"], constraints = "default(popular)" },
+    { name = "limit", type = "int?", constraints = "range(1, 100), default(20)" },
+    { name = "offset", type = "int?", constraints = "min(0), default(0)" },
+]
+
+[interfaces.plugins.PluginListResponse]
+description = "Paginated plugin list"
+fields = [
+    { name = "plugins", type = "PluginManifest[]", constraints = "ordered by sort" },
+    { name = "total", type = "int", constraints = "min(0)" },
+    { name = "hasMore", type = "boolean", constraints = "computed" },
+]
+
+[interfaces.plugins.PluginInstallRequest]
+description = "Install a plugin"
+fields = [
+    { name = "pluginId", type = "string", constraints = "non-empty" },
+    { name = "version", type = "string?", constraints = "semver, default: latest" },
+]
+
+[interfaces.plugins.PluginInstallResponse]
+description = "Installation result"
+fields = [
+    { name = "success", type = "boolean", constraints = "required" },
+    { name = "plugin", type = "PluginInstalled", constraints = "installed plugin record" },
+    { name = "warnings", type = "string[]?", constraints = "non-critical issues" },
+]
+
+[interfaces.plugins.PluginMessage]
+description = "Message sent to plugin Worker"
+fields = [
+    { name = "type", type = "string", constraints = "message type identifier" },
+    { name = "id", type = "string", constraints = "UUID, for response correlation" },
+    { name = "payload", type = "Record<string, unknown>", constraints = "message-specific data" },
+]
+
+[interfaces.plugins.PluginResponse]
+description = "Response from plugin Worker"
+fields = [
+    { name = "type", type = "string", constraints = "response type identifier" },
+    { name = "id", type = "string", constraints = "correlates to request id" },
+    { name = "success", type = "boolean", constraints = "required" },
+    { name = "data", type = "Record<string, unknown>?", constraints = "response data" },
+    { name = "error", type = "string?", constraints = "error message if failed" },
+]
+
+# =============================================================================
+# THEME ENGINE (BP-EXTENSIBILITY-001 §5.2 — IF-THEME-001)
+# =============================================================================
+
+[interfaces.themes]
+
+[interfaces.themes.ThemeDefinition]
+description = "Complete theme definition"
+fields = [
+    { name = "id", type = "string", constraints = "unique theme ID" },
+    { name = "name", type = "string", constraints = "min(1), max(100)" },
+    { name = "version", type = "string", constraints = "semver" },
+    { name = "description", type = "string", constraints = "min(1), max(500)" },
+    { name = "author", type = "string", constraints = "min(1), max(100)" },
+    { name = "preview", type = "ThemePreview", constraints = "required" },
+    { name = "tokens", type = "ThemeTokens", constraints = "required" },
+    { name = "darkTokens", type = "ThemeTokens?", constraints = "dark mode overrides" },
+    { name = "meta", type = "ThemeMeta", constraints = "required" },
+]
+
+[interfaces.themes.ThemePreview]
+description = "Theme preview assets"
+fields = [
+    { name = "thumbnail", type = "string", constraints = "URL to 300x200 thumbnail" },
+    { name = "screenshot", type = "string", constraints = "URL to full screenshot" },
+    { name = "colors", type = "string[]", constraints = "5 primary palette hex colors" },
+]
+
+[interfaces.themes.ThemeTokens]
+description = "CSS custom property values for theming"
+fields = [
+    { name = "color-primary", type = "string", constraints = "hex color" },
+    { name = "color-primary-hover", type = "string", constraints = "hex color" },
+    { name = "color-secondary", type = "string", constraints = "hex color" },
+    { name = "color-background", type = "string", constraints = "hex color" },
+    { name = "color-surface", type = "string", constraints = "hex color" },
+    { name = "color-text", type = "string", constraints = "hex color" },
+    { name = "color-text-muted", type = "string", constraints = "hex color" },
+    { name = "color-border", type = "string", constraints = "hex color" },
+    { name = "color-accent", type = "string", constraints = "hex color" },
+    { name = "color-success", type = "string", constraints = "hex color" },
+    { name = "color-warning", type = "string", constraints = "hex color" },
+    { name = "color-error", type = "string", constraints = "hex color" },
+    { name = "font-sans", type = "string", constraints = "CSS font-family stack" },
+    { name = "font-serif", type = "string", constraints = "CSS font-family stack" },
+    { name = "font-mono", type = "string", constraints = "CSS font-family stack" },
+    { name = "font-size-xs", type = "string", constraints = "CSS length" },
+    { name = "font-size-sm", type = "string", constraints = "CSS length" },
+    { name = "font-size-base", type = "string", constraints = "CSS length" },
+    { name = "font-size-lg", type = "string", constraints = "CSS length" },
+    { name = "font-size-xl", type = "string", constraints = "CSS length" },
+    { name = "font-size-2xl", type = "string", constraints = "CSS length" },
+    { name = "line-height-tight", type = "string", constraints = "CSS number" },
+    { name = "line-height-normal", type = "string", constraints = "CSS number" },
+    { name = "line-height-relaxed", type = "string", constraints = "CSS number" },
+    { name = "space-unit", type = "string", constraints = "CSS length" },
+    { name = "radius-sm", type = "string", constraints = "CSS length" },
+    { name = "radius-md", type = "string", constraints = "CSS length" },
+    { name = "radius-lg", type = "string", constraints = "CSS length" },
+    { name = "content-width", type = "string", constraints = "CSS length" },
+    { name = "sidebar-width", type = "string", constraints = "CSS length" },
+    { name = "header-height", type = "string", constraints = "CSS length" },
+]
+
+[interfaces.themes.ThemeMeta]
+description = "Theme marketplace metadata"
+fields = [
+    { name = "tags", type = "string[]", constraints = "default([])" },
+    { name = "createdAt", type = "string", constraints = "ISO 8601" },
+    { name = "updatedAt", type = "string", constraints = "ISO 8601" },
+    { name = "downloads", type = "int", constraints = "min(0), default(0)" },
+    { name = "rating", type = "number", constraints = "range(0, 5)" },
+    { name = "verified", type = "boolean", constraints = "default(false)" },
+]
+
+[interfaces.themes.ThemeApplyRequest]
+description = "Apply a theme"
+fields = [
+    { name = "themeId", type = "string", constraints = "non-empty" },
+    { name = "mode", type = "enum?", values = ["light", "dark", "system"], constraints = "default(system)" },
+]
+
+[interfaces.themes.ThemeCustomizeRequest]
+description = "Customize theme tokens"
+fields = [
+    { name = "themeId", type = "string", constraints = "non-empty" },
+    { name = "overrides", type = "Partial<ThemeTokens>", constraints = "token overrides" },
+]
+
+[interfaces.themes.ThemeListRequest]
+description = "Query theme registry"
+fields = [
+    { name = "query", type = "string?", constraints = "search query" },
+    { name = "tags", type = "string[]?", constraints = "filter by tags" },
+    { name = "sort", type = "enum?", values = ["popular", "recent", "rating", "name"], constraints = "default(popular)" },
+    { name = "limit", type = "int?", constraints = "range(1, 100), default(20)" },
+    { name = "offset", type = "int?", constraints = "min(0), default(0)" },
+]
+
+[interfaces.themes.ThemeListResponse]
+description = "Paginated theme list"
+fields = [
+    { name = "themes", type = "ThemeDefinition[]", constraints = "ordered by sort" },
+    { name = "total", type = "int", constraints = "min(0)" },
+    { name = "hasMore", type = "boolean", constraints = "computed" },
+    { name = "installed", type = "string[]", constraints = "IDs of installed themes" },
+]
+
+[interfaces.themes.ThemeInstallRequest]
+description = "Install a theme"
+fields = [
+    { name = "themeId", type = "string", constraints = "non-empty" },
+]
+
+[interfaces.themes.ThemeInstallResponse]
+description = "Installation result"
+fields = [
+    { name = "success", type = "boolean", constraints = "required" },
+    { name = "theme", type = "ThemeDefinition", constraints = "installed theme" },
+]
+
+# =============================================================================
+# SETTINGS MANAGER (BP-EXTENSIBILITY-001 §5.3 — IF-SETTINGS-001)
+# =============================================================================
+
+[interfaces.settings]
+
+[interfaces.settings.UserSettings]
+description = "Complete user settings"
+fields = [
+    { name = "version", type = "string", constraints = "schema version, semver" },
+    { name = "updatedAt", type = "string", constraints = "ISO 8601" },
+    { name = "theme", type = "ThemeSettings", constraints = "required" },
+    { name = "editor", type = "EditorSettings", constraints = "required" },
+    { name = "comments", type = "CommentSettings", constraints = "required" },
+    { name = "annotations", type = "AnnotationSettings", constraints = "required" },
+    { name = "notifications", type = "NotificationSettings", constraints = "required" },
+    { name = "plugins", type = "Record<string, Record<string, unknown>>", constraints = "per-plugin settings" },
+]
+
+[interfaces.settings.ThemeSettings]
+description = "Theme-related settings"
+fields = [
+    { name = "activeTheme", type = "string", constraints = "theme ID" },
+    { name = "mode", type = "enum", values = ["light", "dark", "system"] },
+    { name = "customTokens", type = "Partial<ThemeTokens>?", constraints = "token overrides" },
+]
+
+[interfaces.settings.EditorSettings]
+description = "Editor-related settings"
+fields = [
+    { name = "fontSize", type = "int", constraints = "range(12, 24), default(16)" },
+    { name = "fontFamily", type = "string", constraints = "CSS font-family" },
+    { name = "lineNumbers", type = "boolean", constraints = "default(true)" },
+    { name = "wordWrap", type = "boolean", constraints = "default(true)" },
+    { name = "tabSize", type = "int", constraints = "enum(2, 4), default(2)" },
+    { name = "autoSave", type = "boolean", constraints = "default(true)" },
+    { name = "autoSaveDelay", type = "int", constraints = "min(500), default(1000), milliseconds" },
+    { name = "previewPosition", type = "enum", values = ["right", "bottom", "hidden"], constraints = "default(right)" },
+]
+
+[interfaces.settings.CommentSettings]
+description = "Comment-related settings"
+fields = [
+    { name = "showByDefault", type = "boolean", constraints = "default(true)" },
+    { name = "sortBy", type = "enum", values = ["newest", "oldest", "most_reactions"], constraints = "default(newest)" },
+    { name = "emailOnReply", type = "boolean", constraints = "default(true)" },
+]
+
+[interfaces.settings.AnnotationSettings]
+description = "Annotation-related settings"
+fields = [
+    { name = "showByDefault", type = "boolean", constraints = "default(true)" },
+    { name = "highlightColor", type = "string", constraints = "hex color, default(#FFEB3B)" },
+    { name = "emailOnReply", type = "boolean", constraints = "default(true)" },
+]
+
+[interfaces.settings.NotificationSettings]
+description = "Notification preferences"
+fields = [
+    { name = "email", type = "boolean", constraints = "default(true)" },
+    { name = "browser", type = "boolean", constraints = "default(true)" },
+    { name = "digestFrequency", type = "enum", values = ["daily", "weekly", "never"], constraints = "default(daily)" },
+]
+
+[interfaces.settings.SettingsExport]
+description = "Exported settings bundle"
+fields = [
+    { name = "version", type = "string", constraints = "export format version" },
+    { name = "exportedAt", type = "string", constraints = "ISO 8601" },
+    { name = "source", type = "enum", values = ["encp", "wiki"] },
+    { name = "settings", type = "UserSettings", constraints = "required" },
+    { name = "installedPlugins", type = "PluginInstalled[]", constraints = "installed plugins" },
+    { name = "installedThemes", type = "string[]", constraints = "installed theme IDs" },
+    { name = "checksum", type = "string", constraints = "SHA-256 of settings JSON" },
+]
+
+[interfaces.settings.ImportSettingsRequest]
+description = "Import settings from external source"
+fields = [
+    { name = "data", type = "string", constraints = "JSON string or file content" },
+    { name = "format", type = "enum", values = ["json", "file"] },
+    { name = "strategy", type = "enum", values = ["merge", "overwrite", "prompt"], constraints = "default(merge)" },
+]
+
+[interfaces.settings.ImportSettingsResponse]
+description = "Import result with conflict details"
+fields = [
+    { name = "success", type = "boolean", constraints = "required" },
+    { name = "imported", type = "UserSettings", constraints = "resulting settings" },
+    { name = "conflicts", type = "SettingsConflict[]", constraints = "default([])" },
+    { name = "warnings", type = "string[]", constraints = "default([])" },
+    { name = "requiresMigration", type = "boolean", constraints = "default(false)" },
+    { name = "fromVersion", type = "string", constraints = "imported schema version" },
+    { name = "toVersion", type = "string", constraints = "current schema version" },
+]
+
+[interfaces.settings.SettingsConflict]
+description = "Per-field settings conflict"
+fields = [
+    { name = "path", type = "string", constraints = "dot-separated path, e.g. theme.mode" },
+    { name = "local", type = "unknown", constraints = "current local value" },
+    { name = "remote", type = "unknown", constraints = "imported value" },
+    { name = "resolution", type = "enum?", values = ["local", "remote", "merged"] },
+    { name = "merged", type = "unknown?", constraints = "merged value if auto-resolved" },
+]
+
+[interfaces.settings.MigrationPlan]
+description = "Schema version migration plan"
+fields = [
+    { name = "fromVersion", type = "string", constraints = "source version" },
+    { name = "toVersion", type = "string", constraints = "target version" },
+    { name = "steps", type = "MigrationStep[]", constraints = "ordered migration steps" },
+    { name = "breakingChanges", type = "string[]", constraints = "user-facing breaking changes" },
+]
+
+[interfaces.settings.MigrationStep]
+description = "Single migration step"
+fields = [
+    { name = "version", type = "string", constraints = "target version for this step" },
+    { name = "description", type = "string", constraints = "human-readable description" },
+]
+
+[interfaces.settings.SettingsSchema]
+description = "JSON Schema for settings validation"
+fields = [
+    { name = "$schema", type = "string", constraints = "JSON Schema meta-schema URL" },
+    { name = "$id", type = "string", constraints = "schema identifier URL" },
+    { name = "title", type = "string", constraints = "schema title" },
+    { name = "version", type = "string", constraints = "schema version" },
+    { name = "type", type = "string", constraints = "fixed: object" },
+]
+
+# =============================================================================
+# ERRORS
+# =============================================================================
+
+[interfaces.errors]
+
+[interfaces.errors.PluginError]
+description = "Plugin operation error"
+fields = [
+    { name = "code", type = "string", constraints = "enum: MANIFEST_INVALID, INSTALL_FAILED, NOT_FOUND, CAPABILITY_DENIED, SANDBOX_VIOLATION" },
+    { name = "message", type = "string", constraints = "human-readable" },
+    { name = "pluginId", type = "string?", constraints = "affected plugin" },
+]
+
+[interfaces.errors.ThemeError]
+description = "Theme operation error"
+fields = [
+    { name = "code", type = "string", constraints = "enum: TOKENS_INVALID, NOT_FOUND, INSTALL_FAILED, APPLY_FAILED" },
+    { name = "message", type = "string", constraints = "human-readable" },
+    { name = "themeId", type = "string?", constraints = "affected theme" },
+]
+
+[interfaces.errors.SettingsError]
+description = "Settings operation error"
+fields = [
+    { name = "code", type = "string", constraints = "enum: VALIDATION_FAILED, MIGRATION_FAILED, IMPORT_FAILED, CHECKSUM_MISMATCH" },
+    { name = "message", type = "string", constraints = "human-readable" },
+    { name = "path", type = "string?", constraints = "dot-separated path to error" },
+]
+
+# =============================================================================
+# EXPORTS
+# =============================================================================
+
+[exports]
+interfaces = [
+    "interfaces.plugins.PluginManifest",
+    "interfaces.plugins.PluginCapability",
+    "interfaces.plugins.PluginHook",
+    "interfaces.plugins.PluginInstalled",
+    "interfaces.plugins.PluginListRequest",
+    "interfaces.plugins.PluginListResponse",
+    "interfaces.plugins.PluginInstallRequest",
+    "interfaces.plugins.PluginInstallResponse",
+    "interfaces.plugins.PluginMessage",
+    "interfaces.plugins.PluginResponse",
+    "interfaces.themes.ThemeDefinition",
+    "interfaces.themes.ThemePreview",
+    "interfaces.themes.ThemeTokens",
+    "interfaces.themes.ThemeMeta",
+    "interfaces.themes.ThemeApplyRequest",
+    "interfaces.themes.ThemeCustomizeRequest",
+    "interfaces.themes.ThemeListRequest",
+    "interfaces.themes.ThemeListResponse",
+    "interfaces.themes.ThemeInstallRequest",
+    "interfaces.themes.ThemeInstallResponse",
+    "interfaces.settings.UserSettings",
+    "interfaces.settings.ThemeSettings",
+    "interfaces.settings.EditorSettings",
+    "interfaces.settings.CommentSettings",
+    "interfaces.settings.AnnotationSettings",
+    "interfaces.settings.NotificationSettings",
+    "interfaces.settings.SettingsExport",
+    "interfaces.settings.ImportSettingsRequest",
+    "interfaces.settings.ImportSettingsResponse",
+    "interfaces.settings.SettingsConflict",
+    "interfaces.settings.MigrationPlan",
+    "interfaces.settings.MigrationStep",
+    "interfaces.settings.SettingsSchema",
+    "interfaces.errors.PluginError",
+    "interfaces.errors.ThemeError",
+    "interfaces.errors.SettingsError",
+]

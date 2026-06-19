@@ -14,6 +14,10 @@ const mockEnv: Env = {
         }),
       )) as typeof fetch,
   },
+  DB: {
+    prepare: () => ({ bind: () => ({ all: () => Promise.resolve({ results: [] }), first: () => Promise.resolve(null), run: () => Promise.resolve({}) }) }),
+    exec: () => Promise.resolve({}),
+  } as unknown as D1Database,
 };
 
 // ---------------------------------------------------------------------------

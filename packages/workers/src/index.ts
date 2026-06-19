@@ -2,6 +2,8 @@ import { withSecurityHeaders, checkRateLimit } from "./security";
 
 export interface Env {
   readonly ASSETS: { readonly fetch: typeof fetch };
+  /** Allowed origins for CORS. */
+  readonly ALLOWED_ORIGINS?: string;
 }
 
 const JSON_HEADERS: Readonly<Record<string, string>> = Object.freeze({
@@ -17,7 +19,7 @@ function jsonResponse(data: unknown, status = 200): Response {
   });
 }
 
-async function handleApi(request: Request, _env: Env): Promise<Response> {
+async function handleApi(request: Request, env: Env): Promise<Response> {
   const url = new URL(request.url);
 
   // API Explorer (Scalar)

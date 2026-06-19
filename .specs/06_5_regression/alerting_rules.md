@@ -2,316 +2,219 @@
 
 ## Purpose
 
-Define notification channels, escalation rules, and delivery schedules for all regression detections, CI failures, security events, and operational anomalies. Every alert must reach the right person through the right channel within the required response time.
+Define notification channels, severity levels, escalation paths, and suppression rules for all regression detections. Every alert reaches the right person through the right channel within the required response time.
 
 ---
 
-## 1. Alert Channels
+## 1. Alert Categories
 
-### Slack / Discord (Real-Time Team Notifications)
+### Performance Budget Violations
 
-**Webhook Configuration**
-- Channel: `#wikisites-ci` for all CI/CD notifications.
-- Channel: `#wikisites-alerts` for production monitoring alerts.
-- Channel: `#wikisites-security` for security-specific notifications.
+| Condition | Severity | Channel | Response |
+|-----------|----------|---------|----------|
+| CWV metric 10% over baseline | Warning | Slack `#wikisites-ci` | 24h acknowledgment, 1-week fix |
+| CWV metric 20% over baseline | Critical | Slack `#wikisites-alerts` + Email | 4h acknowledgment, 24h fix/rollback |
+| Lighthouse score drops 5 points | Warning | Slack `#wikisites-ci` | 24h acknowledgment, 1-week fix |
+| Lighthouse score drops 10 points | Critical | Slack `#wikisites-alerts` + Email | 4h acknowledgment, 24h fix/rollback |
+| TTFB exceeds 200ms P95 | Warning | Slack `#wikisites-ci` | 24h acknowledgment |
+| TTFB exceeds 300ms P95 | Critical | Slack `#wikisites-alerts` | 4h acknowledgment |
+| CLS exceeds 0.1 P95 | Warning | Slack `#wikisites-ci` | 24h acknowledgment |
 
-**Message Format**
+### Bundle Size Increases
+
+| Condition | Severity | Channel | Response |
+|-----------|----------|---------|----------|
+| JS bundle >15% over baseline | Warning | Slack `#wikisites-ci` | 24h acknowledgment, 1-week fix |
+| JS bundle >30% over baseline | Critical | Slack `#wikisites-alerts` + Email | 4h acknowledgment, 24h fix |
+| Single chunk exceeds 100 KB | Warning | Slack `#wikisites-ci` | 24h acknowledgment |
+| Single chunk exceeds 150 KB | Critical | Slack `#wikisites-alerts` | 4h acknowledgment, block merge |
+| CSS bundle >15% over baseline | Warning | Slack `#wikisites-ci` | 24h acknowledgment |
+| New dependency adds >25 KB | Warning | Slack `#wikisites-ci` | Requires manual review |
+
+### Test Coverage Drops
+
+| Condition | Severity | Channel | Response |
+|-----------|----------|---------|----------|
+| Critical module coverage drops >5% | Warning | Slack `#wikisites-ci` | 24h acknowledgment, 1-week fix |
+| Critical module coverage drops >10% | Critical | Slack `#wikisites-alerts` + Email | 4h acknowledgment, block merge |
+| Overall coverage drops >5% | Warning | Slack `#wikisites-ci` | 24h acknowledgment |
+| Overall coverage drops >10% | Critical | Slack `#wikisites-alerts` + Email | 4h acknowledgment, block merge |
+| Test pass rate drops below 99% | Warning | Slack `#wikisites-ci` | 24h acknowledgment |
+| Test pass rate drops below 97% | Critical | Slack `#wikisites-alerts` | Immediate investigation |
+
+### Security Scan Failures
+
+| Condition | Severity | Channel | Response |
+|-----------|----------|---------|----------|
+| Low-severity CVE detected | Warning | Slack `#wikisites-security` | 24h acknowledgment, 1-week fix |
+| Medium-severity CVE (CVSS 4.0-6.9) | Critical | Slack `#wikisites-security` + Email | 4h acknowledgment, 24h fix |
+| High-severity CVE (CVSS 7.0-8.9) | Critical | Slack `#wikisites-security` + Email | 1h acknowledgment, 24h fix/rollback |
+| Critical CVE (CVSS 9.0+) | Emergency | Slack `#wikisites-security` + Email + PagerDuty | Immediate response, 1h fix/rollback |
+| CSP violation detected | Warning | Slack `#wikisites-security` | 24h acknowledgment |
+| Repeated CSP violations | Critical | Slack `#wikisites-security` + Email | 4h acknowledgment |
+
+### Build Health
+
+| Condition | Severity | Channel | Response |
+|-----------|----------|---------|----------|
+| Build time >20% over baseline | Warning | Slack `#wikisites-ci` | 24h acknowledgment |
+| Build time >40% over baseline | Critical | Slack `#wikisites-alerts` | 4h acknowledgment |
+| Build fails completely | Critical | Slack `#wikisites-alerts` + Email | Immediate investigation |
+| Cold start >20% over baseline | Warning | Slack `#wikisites-ci` | 24h acknowledgment |
+| CI pipeline timeout | Critical | Slack `#wikisites-alerts` | Immediate investigation |
+
+---
+
+## 2. Notification Channels
+
+### Slack / Discord (Real-Time)
+
+```
+#wikisites-ci          ── All CI/CD notifications (lint, test, build, deploy)
+#wikisites-alerts      ── Production monitoring and critical regressions
+#wikisites-security    ── Security vulnerability notifications
+```
+
+**Message Format:**
+
 ```
 [{severity}] {source}
-{metric}: {current_value} (baseline: {baseline_value})
+Metric: {current_value} (baseline: {baseline_value})
 Threshold: {threshold_type} ({threshold_value})
 Commit: {commit_sha} by {author}
-PR: {pr_url} (if applicable)
+PR: {pr_url}
 Action required: {response_time}
 ```
 
-**Notification Rules**
-- All CI pipeline failures (lint, test, security, build) post to `#wikisites-ci`.
-- Performance threshold breaches post to `#wikisites-alerts`.
-- Security vulnerabilities post to `#wikisites-security`.
-- Warnings include `@channel` mention; critical alerts include `@here` mention.
-- Emergency alerts include `@here` with explicit call to action.
+### Email (Formal)
 
-### Email (Formal Notifications)
+- **To**: Project maintainer (`wyatt@wikisites.dev`)
+- **Triggers**: Critical/Emergency severity, security CVEs of any severity
+- **Weekly digest**: Every Monday 09:00 UTC
+- **Monthly security report**: First Monday of each month
 
-**Recipients**
-- Primary: Project maintainer (`wyatt@wikisites.dev`).
-- Secondary: Security team distribution list.
+### Dashboard (Visual)
 
-**Email Rules**
-- Security vulnerabilities of any severity: immediate email to maintainer.
-- Critical performance regressions: email within 1 hour of detection.
-- Weekly digest: every Monday at 09:00 UTC, sent to maintainer.
-- Monthly security report: first Monday of each month.
-
-**Email Template**
-```
-Subject: [{severity}] Wikisites Alert - {alert_type}
-
-Alert Details:
-- Type: {alert_type}
-- Severity: {severity}
-- Detected: {timestamp}
-- Metric: {metric_name}
-- Current: {current_value}
-- Baseline: {baseline_value}
-- Threshold: {threshold_value}
-- Commit: {commit_sha}
-- Author: {author}
-
-Impact Assessment:
-{impact_description}
-
-Required Action:
-{action_items}
-
-Dashboard: {dashboard_url}
-```
-
-### Dashboard (Visual Monitoring)
-
-**Dashboard Stack**
-- Cloudflare Web Analytics for RUM data.
-- Custom dashboard aggregating CI build times, test coverage, bundle sizes.
-- Grafana or equivalent for time-series visualization of all metrics.
-
-**Dashboard Panels**
-
-| Panel | Data Source | Refresh Rate |
-|-------|------------|--------------|
-| Core Web Vitals (LCP, CLS, INP, TTFB) | Cloudflare Analytics API | 5 minutes |
-| Build Time Trend | CI artifact logs | Per build |
-| Bundle Size Trend | CI build output | Per build |
-| Test Coverage Trend | Coverage reports | Per PR |
-| Lighthouse Scores | Lighthouse CI results | Weekly |
-| Security Vulnerabilities | npm audit / Snyk | Per PR |
-
-**Drill-Down Views**
-- Click any alert to see the specific commit, diff, and author.
-- Click any metric to see 7-day, 30-day, and 90-day trends.
-- Click any regression to see the suggested fix from detection strategy.
-
-### Weekly Digest Reports
-
-**Delivery**: Every Monday at 09:00 UTC via email and posted to `#wikisites-ci`.
-
-**Report Contents**
-```
-Wikisites Weekly Digest - {week_ending_date}
-
-## Performance Summary
-- LCP P75: {value} ms ({trend} vs last week)
-- CLS P75: {value} ({trend})
-- INP P75: {value} ms ({trend})
-- TTFB P75: {value} ms ({trend})
-- Total Page Weight: {value} KB ({trend})
-
-## Build Health
-- Average build time: {value} s
-- Build success rate: {value}%
-- Failed builds: {count} (list with links)
-
-## Test Coverage
-- Critical coverage: {value}% ({delta})
-- Overall coverage: {value}% ({delta})
-- Tests added: {count}
-- Tests removed: {count}
-
-## Security
-- New vulnerabilities: {count}
-- Resolved vulnerabilities: {count}
-- Open vulnerabilities: {count}
-
-## Bundle Size
-- JS bundle (encp): {value} KB ({delta})
-- JS bundle (wiki): {value} KB ({delta})
-- CSS bundle: {value} KB ({delta})
-
-## Lighthouse Scores
-- Performance: {score}
-- Accessibility: {score}
-- Best Practices: {score}
-- SEO: {score}
-
-## Notable Changes
-{list_of_significant_commits_and_prs}
-
-## Action Items
-{open_issues_and_regressions_requiring_attention}
-```
+- Cloudflare Web Analytics for RUM data (LCP, CLS, INP, TTFB)
+- CI artifact logs for build times and bundle sizes
+- Coverage reports for test trends
+- Lighthouse CI results for scoring trends
+- 5-minute refresh for real-time panels, per-build for CI metrics
 
 ---
 
-## 2. Alert Severity Definitions
+## 3. Severity Levels
 
 ### Warning (Yellow)
 
-**Trigger Conditions**
-- Any metric exceeds the alert threshold (10% performance degradation, 20% build time increase, 15% bundle size increase, 5% coverage decrease, 5-point Lighthouse decrease).
-- Build takes more than 288 seconds.
-- Test pass rate drops below 99%.
-
-**Response Requirements**
-- Acknowledgment within 24 hours.
-- Root cause identified within 48 hours.
-- Fix or documented mitigation within 1 week.
-
-**Notifications**
-- Slack/Discord: message only, no `@channel`.
-- Dashboard: yellow indicator on affected panel.
+- **Acknowledgment**: Within 24 hours
+- **Root cause**: Within 48 hours
+- **Fix**: Within 1 week
+- **Notifications**: Slack message only, no `@channel`
+- **Dashboard**: Yellow indicator on affected panel
 
 ### Critical (Orange)
 
-**Trigger Conditions**
-- Any metric exceeds the critical threshold (25% performance degradation, 40% build time increase, 30% bundle size increase, 10% coverage decrease, 10-point Lighthouse decrease).
-- Build fails completely.
-- Test pass rate drops below 97%.
-- Security vulnerability with CVSS score >= 7.0.
-
-**Response Requirements**
-- Acknowledgment within 4 hours.
-- Active investigation started immediately.
-- Fix or rollback within 24 hours.
-
-**Notifications**
-- Slack/Discord: `@here` mention, message in `#wikisites-alerts`.
-- Email: immediate notification to maintainer.
-- Dashboard: orange indicator with blinking alert.
+- **Acknowledgment**: Within 4 hours
+- **Investigation**: Starts immediately
+- **Fix/rollback**: Within 24 hours
+- **Notifications**: Slack `@here` + Email to maintainer
+- **Dashboard**: Orange indicator, blinking alert
 
 ### Emergency (Red)
 
-**Trigger Conditions**
-- Production site is down or returning errors.
-- Security vulnerability with CVSS score >= 9.0.
-- Data loss or corruption detected.
-- Complete CI pipeline failure blocking all deployments.
-
-**Response Requirements**
-- Immediate response (drop all other work).
-- Fix or rollback within 1 hour.
-- Post-mortem within 48 hours.
-
-**Notifications**
-- Slack/Discord: `@here` with explicit "EMERGENCY" prefix in `#wikisites-alerts`.
-- Email: immediate with "URGENT" subject prefix.
-- Dashboard: red indicator, full-screen alert mode.
+- **Response**: Immediate (drop all other work)
+- **Fix/rollback**: Within 1 hour
+- **Post-mortem**: Within 48 hours
+- **Notifications**: Slack `@here` EMERGENCY prefix + Email URGENT prefix
+- **Dashboard**: Red indicator, full-screen alert mode
 
 ---
 
-## 3. Notification Routing Rules
-
-### By Alert Source
-
-| Source | Channel | Severity Mapping |
-|--------|---------|-----------------|
-| Lighthouse CI | Slack `#wikisites-ci` | Warning: yellow, Critical: orange, Emergency: red |
-| Vitest | Slack `#wikisites-ci` | Warning: yellow, Critical: orange, Emergency: red |
-| npm audit / Snyk | Slack `#wikisites-security` + Email | Always at least Warning; CVSS >= 7 is Critical |
-| Build pipeline | Slack `#wikisites-ci` | Failure: Critical, Timeout: Warning |
-| Cloudflare Analytics | Slack `#wikisites-alerts` | Threshold breach as defined in detection strategy |
-| CSP violations | Slack `#wikisites-security` | Warning: yellow, repeated: Critical |
+## 4. Notification Routing
 
 ### By Time of Day
 
-| Time Window | Routing |
-|-------------|---------|
+| Window | Routing |
+|--------|---------|
 | Business hours (09:00-17:00 UTC) | All channels active |
-| Off-hours (17:00-09:00 UTC) | Critical and Emergency only; Warning queued for morning |
+| Off-hours (17:00-09:00 UTC) | Critical + Emergency only; Warning queued |
 | Weekends | Emergency only; all others queued for Monday |
 
 ### By Author
 
 | Condition | Action |
 |-----------|--------|
-| PR author is available | Notify author directly via Slack DM. |
-| PR author is unavailable | Notify project maintainer. |
-| No author identified (automated) | Notify channel, maintainer responds. |
+| PR author available | Notify author via Slack DM |
+| PR author unavailable | Notify project maintainer |
+| No author identified | Notify channel; maintainer responds |
 
 ---
 
-## 4. Alert Suppression Rules
+## 5. Suppression Rules
 
 ### Known Issues
 
-- If a regression is documented in an open issue, suppress Warning-level alerts for that metric.
-- Critical and Emergency alerts are never suppressed, even for known issues.
-- Suppression must be explicitly requested and approved by a maintainer.
+- Regression documented in open issue → suppress Warning-level alerts only
+- Critical and Emergency are **never** suppressed
+- Suppression requires explicit maintainer approval
 
 ### Maintenance Windows
 
-- During scheduled maintenance, suppress all alerts except Emergency.
-- Maintenance windows must be announced 24 hours in advance in `#wikisites-ci`.
-- Post-maintenance, run full regression check and compare against baseline.
+- Announce 24 hours in advance in `#wikisites-ci`
+- Suppress all alerts except Emergency during window
+- Post-maintenance: run full regression check against baseline
 
 ### Flaky Tests
 
-- Tests identified as flaky are excluded from coverage regression checks.
-- Flaky test list is maintained in `vitest.config.ts` and reviewed monthly.
-- If a flaky test fails, it posts a Warning to `#wikisites-ci` but does not block merge.
+- Flaky tests excluded from coverage regression checks
+- Flaky test list maintained in `vitest.config.ts`, reviewed monthly
+- Flaky test failure posts Warning but does not block merge
 
 ---
 
-## 5. Escalation Matrix
+## 6. Escalation Matrix
 
-| Level | Initial Responder | Escalation Target | Escalation Timeout |
-|-------|-------------------|-------------------|-------------------|
+| Level | Initial Responder | Escalation Target | Timeout |
+|-------|-------------------|-------------------|---------|
 | Warning | PR author | Project maintainer | 48 hours |
-| Critical | PR author or on-call | Project maintainer | 4 hours |
-| Emergency | First responder | Project maintainer + team lead | 30 minutes |
+| Critical | PR author / on-call | Project maintainer | 4 hours |
+| Emergency | First responder | Maintainer + team lead | 30 minutes |
 
-**Escalation Actions**
-1. On timeout, send escalation notification to the next level.
-2. If no response within escalation timeout, auto-revert the offending commit.
-3. After revert, notify team and schedule post-mortem.
+### Escalation Actions
+
+1. On timeout → send escalation notification to next level
+2. No response within escalation timeout → auto-revert offending commit
+3. After revert → notify team, schedule post-mortem
 
 ---
 
-## 6. Alert Acknowledgment and Resolution
+## 7. Acknowledgment and Resolution
 
 ### Acknowledgment
 
-- All Critical and Emergency alerts require explicit acknowledgment in Slack/Discord.
-- Acknowledgment format: "Acknowledged by {name} at {time}. Investigating."
-- Failure to acknowledge within response time triggers escalation.
+- Critical and Emergency alerts require explicit Slack acknowledgment
+- Format: `"Acknowledged by {name} at {time}. Investigating."`
+- Failure to acknowledge within response time triggers escalation
 
 ### Resolution
 
-- Resolution must be documented in the alert thread or linked issue.
-- Resolution format: "Resolved by {name}. Root cause: {cause}. Fix: {description}."
-- For Emergency alerts, resolution triggers automatic post-mortem creation.
+- Documented in alert thread or linked issue
+- Format: `"Resolved by {name}. Root cause: {cause}. Fix: {description}."`
+- Emergency alerts trigger automatic post-mortem creation
 
-### False Positive Handling
+### False Positives
 
-- If an alert is determined to be a false positive, document the cause.
-- Adjust thresholds or detection rules to prevent recurrence.
-- Tag the false positive in monitoring system for trend analysis.
-
----
-
-## 7. Alerting System Maintenance
-
-### Monthly Review
-
-- Review all alerts from the past month.
-- Identify patterns: recurring warnings, frequent false positives, missed detections.
-- Adjust thresholds, channels, or rules based on findings.
-- Update this document with any changes.
-
-### Quarterly Audit
-
-- Full audit of all alerting rules against current codebase and infrastructure.
-- Verify all webhooks and email addresses are current.
-- Test emergency escalation path with a simulated alert.
-- Update contact information and channel names as needed.
+- Document the cause in monitoring system
+- Adjust thresholds or detection rules to prevent recurrence
+- Tag for trend analysis in monthly review
 
 ---
 
-## 8. Integration Points
-
-### CI/CD Pipeline
+## 8. CI/CD Integration
 
 ```yaml
-# Example GitHub Actions / Forgejo Actions integration
+# GitHub/Forgejo Actions alert integration
 alert-on-failure:
   if: failure()
   steps:
@@ -336,16 +239,15 @@ alert-on-failure:
         body: "Pipeline failed. See: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
 ```
 
-### Cloudflare Workers (Cron-Based Monitoring)
+---
 
-```javascript
-// Scheduled handler for weekly digest
-export default {
-  async scheduled(event, env, ctx) {
-    const metrics = await gatherWeeklyMetrics(env);
-    const report = generateDigestReport(metrics);
-    await sendEmail(env.ALERT_EMAIL, report);
-    await postToSlack(env.SLACK_WEBHOOK, '#wikisites-ci', report);
-  }
-};
-```
+## 9. Maintenance
+
+| Activity | Frequency | Owner |
+|----------|-----------|-------|
+| Alert threshold review | Monthly | Maintainer |
+| Contact information update | Quarterly | Maintainer |
+| Escalation path test (simulated) | Quarterly | Team |
+| False positive review | Monthly | Team |
+| Suppression list cleanup | Monthly | Maintainer |
+| Full alerting audit | Quarterly | Team |

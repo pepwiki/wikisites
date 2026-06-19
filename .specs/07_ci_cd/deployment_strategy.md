@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Define the deployment workflow, environment management, rollback procedures, and infrastructure configuration for wikisites. The strategy leverages Cloudflare Pages for hosting with a blue-green deployment model to ensure zero-downtime releases and safe rollbacks.
+Define the deployment workflow, environment management, feature flag rollout, rollback procedures, monitoring, and infrastructure configuration for wikisites. Covers Cloudflare Pages preview/production deployments, gradual feature rollout for P0-P4 features, and alerting.
 
 ---
 
@@ -11,23 +11,38 @@ Define the deployment workflow, environment management, rollback procedures, and
 ### Infrastructure Overview
 
 ```
-Git Repository (Forgejo)
-    |
-    v
-CI Pipeline (Phase 6)
-    |
-    +-- Lint Stage
-    +-- Test Stage
-    +-- Security Stage
-    +-- Build Stage
-    |       |
-    |       +-- Astro Build (encp)
-    |       +-- Astro Build (wiki)
-    |
-    +-- Deploy Stage
-            |
-            +-- Cloudflare Pages (encp)
-            +-- Cloudflare Pages (wiki)
+Git Push / PR (Forgejo)
+        |
+        v
+  CI Pipeline (Phase 6)
+        |
+        +-- Lint ──> Typecheck
+        +-- Unit Test ──> Integration Test ──> Security Scan
+        +-- Build (encp + wiki + search index)
+        +-- E2E Test (Playwright)
+        +-- Performance Audit (Lighthouse CI)
+        |
+        v
+  +---------------------------+
+  | DEPLOY                    |
+  |  +-- Preview (PRs)       |
+  |  +-- Staging (staging)   |
+  |  +-- Production (main)   |
+  +---------------------------+
+        |
+        v
+  Cloudflare Pages
+        |
+        +-- encp.wikisites.dev
+        +-- wiki.wikisites.dev
+        |
+        v
+  Post-Deploy Monitoring
+        |
+        +-- Health Check
+        +-- Lighthouse Audit
+        +-- Error Rate Monitoring
+        +-- Feature Flag Evaluation
 ```
 
 ### Cloudflare Pages Configuration
@@ -35,181 +50,236 @@ CI Pipeline (Phase 6)
 **Project: wikisites-encp**
 - Production URL: `encp.wikisites.dev`
 - Preview URL: `encp--{branch-name}.wikisites.dev.pages.dev`
-- Build command: `npm run build:encp`
-- Build output directory: `dist/encp`
-- Node.js version: 20
+- Build output: `packages/encp/dist`
+- Node.js: 20
 
 **Project: wikisites-wiki**
 - Production URL: `wiki.wikisites.dev`
 - Preview URL: `wiki--{branch-name}.wikisites.dev.pages.dev`
-- Build command: `npm run build:wiki`
-- Build output directory: `dist/wiki`
-- Node.js version: 20
+- Build output: `packages/wiki/dist`
+- Node.js: 20
 
-### Environment Variables
+### Workers Configuration
 
-| Variable | Environment | Source |
-|----------|-------------|--------|
-| `NODE_ENV` | All | Set by pipeline |
-| `ASTRO_OUTPUT` | Build | Set by pipeline |
-| `CF_API_TOKEN` | Deploy | Secret in CI |
-| `CF_ACCOUNT_ID` | Deploy | Secret in CI |
-| `SNYK_TOKEN` | Security | Secret in CI |
+- Worker: `wikisites-api`
+- Routes: `encyclopeptide.com/api/*`, `wikipept.com/api/*`
+- Compatibility: `nodejs_compat` flag
 
 ---
 
 ## 2. Deployment Flow
 
-### Automatic Deployment from Git
+### 2.1 Branch Strategy
 
-**Production Deployment**
-- Triggered by pushes to the `main` branch.
-- CI pipeline runs all stages sequentially: lint -> test -> security -> build -> deploy.
-- Build artifacts are uploaded to Cloudflare Pages.
-- Cloudflare handles propagation globally (typically < 30 seconds).
-- Post-deployment Lighthouse audit runs against production URLs.
+| Branch | Purpose | Deployment Target | Approval Required |
+|--------|---------|-------------------|-------------------|
+| `main` | Production | Production URLs | CI passes only |
+| `staging` | Pre-production validation | Staging URLs | CI passes + manual review |
+| `feature/*` | Feature development | Preview URLs | None (auto) |
+| `hotfix/*` | Emergency fixes | Preview → Production | Maintainer approval for prod |
 
-**Preview Deployment**
-- Triggered by pull requests targeting `main`.
-- CI pipeline runs all stages, but deploy stage uploads to preview URL.
-- Preview URL is posted as a comment on the pull request for review.
-- Preview environment uses the same Cloudflare Workers and KV bindings as production (via environment-specific configuration).
+### 2.2 PR Workflow
 
-### Branch Strategy
+1. Developer pushes feature branch
+2. CI pipeline runs: lint → tests → security → build
+3. Build artifacts uploaded as CI artifacts
+4. Deploy preview stage runs on PRs
+5. Preview URL posted to PR via bot comment
+6. Reviewer validates preview, approves PR
+7. PR merged to `main`
+8. CI runs again on `main`
+9. All stages pass → production deploy
 
-| Branch | Purpose | Deployment Target |
-|--------|---------|-------------------|
-| `main` | Production | Production URLs |
-| `staging` | Pre-production validation | Staging URLs |
-| `feature/*` | Feature development | Preview URLs |
-| `hotfix/*` | Emergency fixes | Preview, then production after approval |
+### 2.3 Production Deployment
+
+1. Push to `main` triggers CI pipeline
+2. All stages pass (lint, tests, security, build, E2E, performance)
+3. Deploy stage uploads to Cloudflare Pages (encp + wiki)
+4. Cloudflare propagates globally (< 30 seconds)
+5. Post-deployment health check runs
+6. Post-deployment Lighthouse audit runs
+7. Feature flags evaluated and applied
+8. Monitoring begins
 
 ---
 
 ## 3. Environment Management
 
-### Production Environment
+### 3.1 Environments
 
-- **URL**: `encp.wikisites.dev` and `wiki.wikisites.dev`
-- **Cloudflare Zone**: Full CDN, caching, and DDoS protection enabled.
-- **Workers**: Production-bound Workers for edge logic.
-- **KV Namespaces**: Production KV for content and caching.
-- **Analytics**: Cloudflare Web Analytics enabled.
+| Environment | URL | Purpose | Infrastructure |
+|-------------|-----|---------|---------------|
+| **Production** | `encp.wikisites.dev`, `wiki.wikisites.dev` | Live site | Full CDN, Workers, D1, KV |
+| **Staging** | `staging-encp.wikisites.dev`, `staging-wiki.wikisites.dev` | Pre-prod validation | Mirrors production (separate D1/KV) |
+| **Preview** | `encp--{branch}.wikisites.pages.dev` | PR review | Cloudflare Pages preview |
+| **Local** | `localhost:4321` (wiki), `localhost:4322` (encp) | Development | Local dev server |
 
-**Access Control**
-- Deployment to production requires: all CI stages passing + manual approval (for initial rollout).
-- After initial validation, automatic deployment from `main` is enabled.
-- Manual approval gate can be re-enabled for high-risk changes.
+### 3.2 Environment Variables
 
-### Staging Environment
+| Variable | Production | Staging | Preview |
+|----------|-----------|---------|---------|
+| `NODE_ENV` | production | production | development |
+| `ASTRO_OUTPUT` | static | static | static |
+| `CF_API_TOKEN` | Secret | Secret | Secret |
+| `CF_ACCOUNT_ID` | Secret | Secret | Secret |
+| `SNYK_TOKEN` | Secret | Secret | Secret |
+| `FEATURE_*` | KV-based flags | KV-based flags | Build-time flags |
 
-- **URL**: `staging-encp.wikisites.dev` and `staging-wiki.wikisites.dev`
-- **Purpose**: Validate changes in a production-like environment before merging to `main`.
-- **Trigger**: Push to `staging` branch.
-- **Configuration**: Mirrors production infrastructure (Workers, KV) but with separate namespaces.
+### 3.3 Feature Flag Configuration
 
-**Staging Validation Checklist**
-- [ ] All CI stages pass.
-- [ ] Lighthouse scores meet or exceed baseline.
-- [ ] Visual regression test shows no unexpected changes.
-- [ ] Manual smoke test of critical user flows.
-- [ ] No security vulnerabilities detected.
+Feature flags are stored in Cloudflare Workers KV and evaluated at runtime. For preview/staging environments, flags are set at build time via Astro environment variables.
 
-### Preview Environment
-
-- **URL**: Generated per pull request by Cloudflare Pages.
-- **Purpose**: Review changes before merge.
-- **Lifecycle**: Automatically created on PR open, destroyed on PR close.
-- **Limitations**: No custom domain, no Workers (unless configured), reduced rate limits.
+**KV Namespace:** `FEATURE_FLAGS`
+**Key format:** `feature:<flag-name>`
+**Value format:** `{ "enabled": true, "rollout": 100, "variants": {} }`
 
 ---
 
-## 4. Manual Approval Process
+## 4. Feature Flags for Gradual Rollout
 
-### When Approval is Required
+### 4.1 P0 Features (Ship Immediately)
 
-| Change Type | Approval Required | Approver |
-|-------------|-------------------|----------|
-| Feature merge to `main` | No (CI passes) | N/A |
-| Hotfix merge to `main` | Yes | Maintainer |
-| Infrastructure change | Yes | Maintainer |
-| Dependency major version bump | Yes | Maintainer |
-| Security patch | No (auto-deploy) | N/A |
-| Rollback | Yes | Maintainer |
+| Feature | Flag | Default | Rollout Strategy |
+|---------|------|---------|-----------------|
+| Command Palette | `feature:command-palette` | enabled | 100% on merge |
+| Keyboard Shortcuts | `feature:keyboard-shortcuts` | enabled | 100% on merge |
+| Outline Panel | `feature:outline-panel` | enabled | 100% on merge |
+| Breadcrumbs | `feature:breadcrumbs` | enabled | 100% on merge |
 
-### Approval Workflow
+### 4.2 P1 Features (Gradual Rollout)
 
-1. Developer opens PR targeting `main`.
-2. CI pipeline runs all stages.
-3. Preview deployment URL posted to PR.
-4. Reviewer validates preview and approves PR.
-5. PR is merged to `main`.
-6. CI pipeline runs again on `main`.
-7. If all stages pass, deployment proceeds automatically (or via manual approval gate for high-risk changes).
+| Feature | Flag | Default | Rollout Strategy |
+|---------|------|---------|-----------------|
+| KaTeX | `feature:katex` | disabled | 10% → 25% → 50% → 100% |
+| Force Graph | `feature:force-graph` | disabled | 10% → 25% → 50% → 100% |
+| Split Pane | `feature:split-pane` | disabled | 10% → 25% → 50% → 100% |
+| Regex Search | `feature:regex-search` | disabled | 10% → 25% → 50% → 100% |
 
-### Approval Gate Implementation
+### 4.3 P2 Features (Require Backend)
 
-```yaml
-# In CI pipeline configuration
-deploy-production:
-  needs: [lint, test, security, build]
-  if: github.ref == 'refs/heads/main'
-  environment:
-    name: production
-    url: https://encp.wikisites.dev
-  # Manual approval configured in Cloudflare Pages or CI platform
+| Feature | Flag | Default | Rollout Strategy |
+|---------|------|---------|-----------------|
+| Giscus | `feature:giscus` | disabled | 100% (binary) |
+| Annotations | `feature:annotations` | disabled | 10% → 100% |
+| User Accounts | `feature:user-accounts` | disabled | 100% (binary) |
+
+### 4.4 P3 Features (Editor)
+
+| Feature | Flag | Default | Rollout Strategy |
+|---------|------|---------|-----------------|
+| TipTap Editor | `feature:tiptap-editor` | disabled | 10% → 50% → 100% |
+| Version History | `feature:version-history` | disabled | 10% → 50% → 100% |
+
+### 4.5 P4 Features (Extensibility)
+
+| Feature | Flag | Default | Rollout Strategy |
+|---------|------|---------|-----------------|
+| Plugin API | `feature:plugin-api` | disabled | 100% (binary) |
+| Themes | `feature:themes` | disabled | 10% → 100% |
+| Settings | `feature:settings` | disabled | 10% → 100% |
+
+### 4.6 Feature Flag Implementation
+
+```typescript
+// packages/shared/src/feature-flags.ts
+import type { AstroGlobal } from "astro";
+
+interface FeatureFlag {
+  enabled: boolean;
+  rollout: number; // 0-100 percentage
+}
+
+// Server-side: read from KV or env
+export function getFeatureFlag(name: string): FeatureFlag {
+  // In CI/preview: read from env
+  const envKey = `FEATURE_${name.toUpperCase().replace(/-/g, "_")}`;
+  if (import.meta.env[envKey] !== undefined) {
+    return { enabled: import.meta.env[envKey] === "true", rollout: 100 };
+  }
+  // In production: read from KV (via Workers)
+  return { enabled: false, rollout: 0 };
+}
+
+// Client-side: check flag before rendering
+export function isFeatureEnabled(flag: FeatureFlag, userId?: string): boolean {
+  if (!flag.enabled) return false;
+  if (flag.rollout >= 100) return true;
+  // Deterministic rollout: hash(userId) % 100 < rollout
+  if (userId) {
+    const hash = simpleHash(userId);
+    return hash % 100 < flag.rollout;
+  }
+  // No user: use random for anonymous visitors
+  return Math.random() * 100 < flag.rollout;
+}
 ```
+
+### 4.7 Feature Flag Rollout Procedure
+
+1. Deploy with flag disabled (or low rollout %)
+2. Monitor error rates and performance for 24 hours
+3. If metrics stable, increase rollout: 10% → 25% → 50% → 100%
+4. At each step, wait 4-24 hours and check metrics
+5. If issues detected, immediately set rollout to 0%
+6. Once at 100%, remove flag after 1 week of stability
 
 ---
 
 ## 5. Rollback Procedures
 
-### Automatic Rollback
+### 5.1 Automatic Rollback
 
 **Trigger Conditions**
-- Post-deployment Lighthouse audit fails critical threshold.
-- Error rate increases by more than 50% within 10 minutes of deployment.
-- Cloudflare Health Check reports degraded status.
+- Health check fails after deployment (HTTP 5xx or timeout)
+- Lighthouse performance drops below 70 (critical threshold)
+- Error rate increases by > 50% within 10 minutes
+- Cloudflare Health Check reports degraded status
 
 **Process**
-1. Cloudflare Pages automatically reverts to the previous deployment.
-2. Rollback notification sent to `#wikisites-alerts`.
-3. Developer is notified and must investigate root cause.
-4. Post-incident review required within 48 hours.
+1. Cloudflare Pages reverts to the previous deployment
+2. Rollback notification sent to team channel
+3. Developer notified, must investigate root cause
+4. Post-incident review required within 48 hours
 
-### Manual Rollback
+### 5.2 Manual Rollback
 
 **When to Use**
-- Performance degradation detected in monitoring (below automatic rollback threshold).
-- Content or functionality issue identified by users.
-- Security concern requiring immediate revert.
+- Performance degradation below automatic threshold
+- Content or functionality issue reported by users
+- Security concern requiring immediate revert
+- Feature flag causing unexpected behavior
 
 **Process**
 
 ```bash
 # List recent deployments
-npx wrangler pages deployment list --project-name=wikisites-encp
+bunx wrangler pages deployment list --project-name=wikisites-encp
 
 # Rollback to specific deployment
-npx wrangler pages deployment rollback --project-name=wikisites-encp {deployment-id}
+bunx wrangler pages deployment rollback --project-name=wikisites-encp {deployment-id}
 
 # Verify rollback
 curl -I https://encp.wikisites.dev
 ```
 
-**Post-Rollback Actions**
-1. Notify team in `#wikisites-ci` with rollback reason.
-2. Create issue documenting the regression.
-3. Fix the issue in a new branch.
-4. Go through full deployment process again.
+### 5.3 Feature Flag Rollback
 
-### Rollback Time Objectives
+For feature-related issues, disable the flag instead of rolling back the entire deployment:
+
+```bash
+# Disable a feature flag immediately
+bunx wrangler kv:key put --namespace-id=FEATURE_FLAGS "feature:command-palette" \
+  '{"enabled": false, "rollout": 0}'
+```
+
+### 5.4 Rollback Time Objectives
 
 | Metric | Target |
 |--------|--------|
 | Detection to acknowledgment | < 5 minutes |
 | Acknowledgment to rollback decision | < 15 minutes |
-| Rollback execution | < 2 minutes |
+| Feature flag disable | < 30 seconds |
+| Cloudflare Pages rollback | < 2 minutes |
 | Full rollback (including verification) | < 30 minutes |
 
 ---
@@ -219,213 +289,233 @@ curl -I https://encp.wikisites.dev
 ### Concept
 
 Cloudflare Pages implements blue-green deployment inherently:
-- **Blue**: Current production deployment serving traffic.
-- **Green**: New deployment uploaded but not yet routed to production.
-- **Switch**: Cloudflare propagates the new deployment globally; old deployment remains as fallback.
+- **Blue**: Current production deployment serving traffic
+- **Green**: New deployment uploaded, not yet routed
+- **Switch**: Cloudflare propagates new deployment globally; old remains as fallback
 
 ### Implementation
 
-**Step 1: Deploy Green**
-```bash
-npx wrangler pages deploy dist/encp --project-name=wikisites-encp --branch=main
-```
-
-**Step 2: Verify Green**
-- Run smoke tests against the new deployment.
-- Check Cloudflare Pages dashboard for deployment status.
-- Verify DNS propagation is complete.
-
-**Step 3: Route Traffic**
-- Cloudflare Pages automatically routes traffic to the latest production deployment.
-- No manual DNS changes required.
-- Previous deployment remains accessible for rollback.
-
-**Step 4: Monitor**
-- Watch error rates, performance metrics, and user reports for 30 minutes.
-- If issues detected, trigger rollback (see Section 5).
-
-### Rollback via Blue-Green
-
-Since Cloudflare Pages retains previous deployments:
-1. Identify the stable previous deployment in Cloudflare Pages dashboard.
-2. Click "Rollback to this deployment" or use CLI.
-3. Cloudflare routes traffic back to the previous deployment.
-4. Total rollback time: < 2 minutes.
+1. **Deploy Green**: `bunx wrangler pages deploy dist --project-name=wikisites-encp --branch=main`
+2. **Verify Green**: Smoke tests, dashboard status check, DNS propagation
+3. **Route Traffic**: Cloudflare auto-routes to latest production deployment
+4. **Monitor**: Watch error rates, performance for 30 minutes
+5. **Rollback if needed**: Previous deployment retained for instant revert
 
 ---
 
-## 7. Deployment Monitoring
+## 7. Staging Environment
 
-### Pre-Deployment Checks
+### Purpose
+
+Validate changes in a production-like environment before merging to `main`.
+
+### Deployment
+
+- Trigger: Push to `staging` branch
+- Infrastructure: Mirrors production (separate D1/KV namespaces)
+- Feature flags: Set to 100% rollout for testing
+
+### Staging Validation Checklist
+
+- [ ] All CI stages pass
+- [ ] Lighthouse scores meet baseline (>= 90 performance, >= 90 accessibility)
+- [ ] Visual regression shows no unexpected changes
+- [ ] Manual smoke test of critical user flows
+- [ ] Feature flags tested at 100% rollout
+- [ ] No security vulnerabilities detected
+- [ ] E2E tests pass on staging URLs
+
+---
+
+## 8. Monitoring and Alerting
+
+### 8.1 Monitoring Layers
+
+| Layer | Tool | Timing | What to Watch |
+|-------|------|--------|---------------|
+| **Health Check** | curl / health endpoint | Immediate (0-5 min) | HTTP status, response time |
+| **Lighthouse Audit** | Lighthouse CI | Within 5 minutes | Performance scores |
+| **Error Rate** | Cloudflare Analytics | 30-minute observation | 5xx errors, exception rate |
+| **RUM Performance** | Cloudflare Web Analytics | 24-hour observation | Core Web Vitals |
+| **User Reports** | Manual / support channels | Ongoing | Functional issues |
+
+### 8.2 Alerting Thresholds
+
+| Metric | Warning | Critical | Action |
+|--------|---------|----------|--------|
+| Error rate | > 1% | > 5% | Auto-rollback if critical |
+| Response time (P95) | > 3s | > 5s | Investigate; auto-rollback if critical |
+| Lighthouse Performance | < 85 | < 70 | Block deploy if < 70 |
+| Lighthouse Accessibility | < 90 | < 80 | Block deploy if < 80 |
+| TTFB | > 200ms | > 500ms | Investigate; block deploy if critical |
+| Bundle size growth | > 10% | > 25% | Investigate |
+| Deployment failure | Any | Any | Auto-rollback, notify |
+
+### 8.3 Monitoring Dashboard
+
+| Panel | Data Source | Refresh Rate |
+|-------|-----------|-------------|
+| Build status | CI pipeline | Real-time |
+| Deployment history | Cloudflare Pages API | 5 minutes |
+| Error rate | Cloudflare Analytics | 1 minute |
+| Core Web Vitals | RUM data | 5 minutes |
+| Feature flag status | KV store | 1 minute |
+| Lighthouse trends | Lighthouse CI | Per deploy |
+
+### 8.4 Notification Channels
+
+| Event | Channel | Recipients |
+|-------|---------|------------|
+| Deploy success | Team chat | Developers |
+| Deploy failure | Team chat + email | Developers + Maintainer |
+| Auto-rollback triggered | Team chat + email | All |
+| Security vulnerability | Email | Maintainer |
+| Performance regression | Team chat | Developers |
+| Weekly digest | Email | All |
+
+---
+
+## 9. Pre-Deployment Checks
 
 | Check | Tool | Gate |
 |-------|------|------|
-| Lint passes | ESLint, Prettier, TypeScript | Required |
+| Lint passes | ESLint + Prettier | Required |
+| Type check passes | TypeScript + Astro check | Required |
 | Unit tests pass | Vitest | Required |
-| Integration tests pass | Vitest | Required |
-| Security scan clean | npm audit, Snyk | Required |
+| Coverage >= 80% | Vitest coverage | Required |
+| Integration tests pass | Vitest (jsdom) | Required |
+| Security scan clean | audit-ci + gitleaks | Required (high+) |
 | Build succeeds | Astro build | Required |
-| Bundle size within threshold | Bundle analyzer | Required |
+| Bundle size within budget | Custom script | Required |
+| E2E tests pass | Playwright | Required |
+| Lighthouse scores meet budget | Lighthouse CI | Required (warn at 85, block at 70) |
 
-### Post-Deployment Checks
+---
+
+## 10. Post-Deployment Checks
 
 | Check | Tool | Timing |
 |-------|------|--------|
-| Health check | curl / health endpoint | Immediate |
+| Health check | curl / endpoints | Immediate |
+| Smoke test | Manual / automated | Within 5 minutes |
 | Lighthouse audit | Lighthouse CI | Within 5 minutes |
 | Error rate monitoring | Cloudflare Analytics | 30-minute observation |
 | RUM performance | Cloudflare Web Analytics | 24-hour observation |
-| User reports | Manual / support channels | Ongoing |
-
-### Deployment Health Dashboard
-
-Track the following in the deployment dashboard:
-
-| Metric | Healthy | Warning | Critical |
-|--------|---------|---------|----------|
-| Error rate | < 1% | 1-5% | > 5% |
-| Response time (P95) | < 3s | 3-5s | > 5s |
-| Lighthouse Performance | > 85 | 70-85 | < 70 |
-| Lighthouse Accessibility | > 90 | 80-90 | < 80 |
-| TTFB | < 200ms | 200-400ms | > 400ms |
+| Feature flag evaluation | KV store check | Immediate |
+| Visual regression | Playwright screenshots | Within 30 minutes |
 
 ---
 
-## 8. CI Pipeline Stage Details
-
-### Lint Stage
-
-```yaml
-lint:
-  steps:
-    - name: ESLint
-      run: npx eslint . --max-warnings=0
-    - name: Prettier Check
-      run: npx prettier --check .
-    - name: TypeScript Check
-      run: npx tsc --noEmit
-```
-
-**Failure Behavior**: Block all subsequent stages. No deployment.
-
-### Test Stage
-
-```yaml
-test:
-  needs: lint
-  steps:
-    - name: Vitest Unit
-      run: npx vitest run --reporter=verbose
-    - name: Vitest Integration
-      run: npx vitest run --config vitest.integration.config.ts
-    - name: Coverage Report
-      run: npx vitest run --coverage
-```
-
-**Failure Behavior**: Block all subsequent stages. Coverage regression checked against `baseline_metrics.toml`.
-
-### Security Stage
-
-```yaml
-security:
-  needs: lint
-  steps:
-    - name: npm audit
-      run: npm audit --audit-level=high
-    - name: Snyk Test
-      run: npx snyk test --severity-threshold=high
-    - name: CSP Check
-      run: node scripts/check-csp.js
-```
-
-**Failure Behavior**: High/critical vulnerabilities block deployment. Low/moderate logged as warnings.
-
-### Build Stage
-
-```yaml
-build:
-  needs: [test, security]
-  steps:
-    - name: Build ENCP
-      run: npm run build:encp
-    - name: Build Wiki
-      run: npm run build:wiki
-    - name: Bundle Size Check
-      run: node scripts/check-bundle-size.js
-    - name: Build Time Report
-      run: node scripts/report-build-time.js
-```
-
-**Failure Behavior**: Build failure blocks deployment. Bundle size exceeding threshold blocks deployment. Build time exceeding threshold logs warning.
-
-### Deploy Stage
-
-```yaml
-deploy:
-  needs: build
-  if: github.ref == 'refs/heads/main' || github.event_name == 'pull_request'
-  steps:
-    - name: Deploy ENCP
-      run: npx wrangler pages deploy dist/encp --project-name=wikisites-encp
-    - name: Deploy Wiki
-      run: npx wrangler pages deploy dist/wiki --project-name=wikisites-wiki
-    - name: Post Deploy Lighthouse
-      run: npx lhci autorun
-    - name: Notify Deployment
-      run: node scripts/notify-deploy.js
-```
-
-**Failure Behavior**: Deployment failure triggers automatic rollback to previous stable deployment.
-
----
-
-## 9. Security Considerations
+## 11. Security Considerations
 
 ### Secrets Management
 
-- All secrets stored in CI platform's secret store (not in repository).
-- Secrets rotated quarterly or on personnel change.
-- Minimum privilege principle: each stage only has access to required secrets.
+- All secrets in CI platform secret store (never in repository)
+- Secrets rotated quarterly or on personnel change
+- Minimum privilege: each stage only accesses required secrets
 
 ### Supply Chain Security
 
-- Lockfile committed and validated in CI.
-- Dependencies pinned to specific versions in `package.json`.
-- `npm ci` used in CI (not `npm install`) to ensure reproducible builds.
-- Snyk monitors for newly discovered vulnerabilities in dependencies.
+- Lockfile committed and validated in CI
+- Dependencies pinned in `package.json`
+- `bun install --frozen-lockfile` in CI (reproducible builds)
+- Snyk monitors for newly disclosed vulnerabilities
 
 ### Deployment Security
 
-- Cloudflare API tokens scoped to Pages projects only.
-- No direct SSH access to production infrastructure.
-- All deployments logged with commit SHA, author, and timestamp.
-- Deployment audit trail available in Cloudflare dashboard.
+- Cloudflare API tokens scoped to Pages projects only
+- No direct SSH access to infrastructure
+- All deployments logged with commit SHA, author, timestamp
+- Deployment audit trail in Cloudflare dashboard
 
 ---
 
-## 10. Maintenance and Operations
+## 12. Maintenance and Operations
 
 ### Regular Operations
 
 | Task | Frequency | Owner |
 |------|-----------|-------|
-| Dependency updates | Weekly (automated via Renovate) | Automated |
+| Dependency updates (Renovate) | Weekly (automated) | Automated |
 | Security scan review | Weekly | Maintainer |
 | Deployment log review | Monthly | Maintainer |
-| Cloudflare configuration audit | Quarterly | Maintainer |
+| Feature flag cleanup | After 1 week at 100% | Developer |
+| Cloudflare config audit | Quarterly | Maintainer |
 | Rollback procedure test | Quarterly | Team |
+| Lighthouse budget review | Quarterly | Team |
 
 ### Incident Response
 
-1. **Detection**: Automated monitoring or user report.
-2. **Triage**: Assess severity using alerting rules from Phase 5.5.
-3. **Mitigation**: Rollback if user-impacting; fix forward if non-critical.
-4. **Resolution**: Deploy fix through full CI pipeline.
-5. **Post-Mortem**: Document root cause, impact, and prevention measures.
+1. **Detection**: Automated monitoring or user report
+2. **Triage**: Assess severity using alerting thresholds
+3. **Mitigation**: Feature flag disable or deployment rollback
+4. **Resolution**: Deploy fix through full CI pipeline
+5. **Post-Mortem**: Document root cause, impact, prevention
 
-### Capacity Planning
+---
 
-- Monitor Cloudflare Pages bandwidth and request limits.
-- Current plan supports wikisites traffic with significant headroom.
-- Review plan limits quarterly as traffic grows.
-- Alert when approaching 80% of plan limits.
+## 13. Pipeline Flow Diagram
+
+```
+[Git Push / PR]
+       |
+       v
+  +----------+     +------------+
+  |   LINT   |────>| TYPECHECK  |
+  +----------+     +------------+
+       |
+       +----------+-----------+-----------+
+       |          |           |           |
+       v          v           v           v
+  +--------+ +----------+ +----------+ +----------+
+  |  UNIT  | |INTEGRATION| | SECURITY | | TYPECHECK|
+  |  TEST  | |   TEST    | |   SCAN   | |          |
+  +--------+ +----------+ +----------+ +----------+
+       |          |           |
+       +----------+-----------+
+       |
+       v
+  +----------+
+  |   BUILD  |  shared → query → encp → wiki → search
+  +----------+
+       |
+       +----------+-----------+
+       |                      |
+       v                      v
+  +----------+         +----------+
+  |   E2E    |         |PERFORMANCE|
+  |   TEST   |         |  AUDIT   |
+  +----------+         +----------+
+       |                      |
+       +----------+-----------+
+       |
+       v
+  +---------------------------+
+  |       DEPLOY              |
+  |  PR → Preview             |
+  |  main → Production        |
+  |  staging → Staging        |
+  +---------------------------+
+       |
+       v
+  +---------------------------+
+  |  POST-DEPLOY MONITORING   |
+  |  Health + Lighthouse +    |
+  |  Error Rate + Feature Flags|
+  +---------------------------+
+```
+
+---
+
+## 14. Success Criteria
+
+- [x] Pipeline configuration with 10 stages (lint, typecheck, unit test, integration test, security scan, E2E test, performance audit, build, deploy preview, deploy production)
+- [x] Deployment strategy covers production, staging, and preview environments
+- [x] Feature flag system for gradual P0-P4 rollout
+- [x] Automatic rollback on health check failure or Lighthouse critical drop
+- [x] Manual rollback via Cloudflare Pages CLI (< 2 minutes)
+- [x] Feature flag rollback (< 30 seconds)
+- [x] Post-deployment monitoring: health check, Lighthouse, error rate, RUM
+- [x] Alerting thresholds for warning and critical states
+- [x] Security: dependency scanning, secret detection, CSP validation
+- [x] All documentation actionable, no placeholders

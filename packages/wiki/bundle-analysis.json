@@ -1,0 +1,24 @@
+{
+  "budgets": [
+    { "name": "initial-js", "maximumWarning": "100KB", "maximumError": "150KB" },
+    { "name": "initial-css", "maximumWarning": "30KB", "maximumError": "50KB" },
+    { "name": "lazy-katex", "maximumWarning": "150KB", "maximumError": "200KB" },
+    { "name": "lazy-force-graph", "maximumWarning": "50KB", "maximumError": "75KB" },
+    { "name": "lazy-tiptap", "maximumWarning": "100KB", "maximumError": "150KB" }
+  ],
+  "performance": {
+    "lighthouse": { "perf": 90, "a11y": 95, "best-practices": 90, "seo": 95 },
+    "core-web-vitals": {
+      "lcp": { "p50": 1200, "p95": 2500, "unit": "ms" },
+      "fid": { "p50": 50, "p95": 150, "unit": "ms" },
+      "cls": { "p50": 0.05, "p95": 0.1 },
+      "inp": { "p50": 100, "p95": 300, "unit": "ms" }
+    }
+  },
+  "lazy-loading": {
+    "katex": { "trigger": "math-block-detected", "strategy": "dynamic-import" },
+    "force-graph": { "trigger": "graph-route-or-command", "strategy": "dynamic-import" },
+    "tiptap": { "trigger": "edit-button-click", "strategy": "dynamic-import" },
+    "giscus": { "trigger": "comments-section-visible", "strategy": "intersection-observer" }
+  }
+}

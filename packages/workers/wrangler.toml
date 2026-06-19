@@ -1,0 +1,31 @@
+name = "wikisite-workers"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+# D1 database binding for comments, annotations, users, versions
+[[d1_databases]]
+binding = "DB"
+database_name = "wikisite-db"
+database_id = "<YOUR_D1_DATABASE_ID>"
+# Uncomment after running: npx wrangler d1 create wikisite-db
+# Then paste the returned database_id above
+
+# KV namespace for session storage
+# Create with: npx wrangler kv namespace create SESSIONS
+# [[kv_namespaces]]
+# binding = "SESSIONS"
+# id = "<YOUR_KV_NAMESPACE_ID>"
+
+# R2 bucket for asset storage (optional)
+# Create with: npx wrangler r2 bucket create wikisite-assets
+# [[r2_buckets]]
+# binding = "ASSETS"
+# bucket_name = "wikisite-assets"
+
+# Environment variables (set via wrangler secret or .dev.vars)
+# JWT_SECRET = "your-secret-here"
+# OAUTH_CLIENT_ID = "your-client-id"
+# OAUTH_CLIENT_SECRET = "your-client-secret"
+# OAUTH_REDIRECT_URI = "https://your-domain.com/api/auth/callback"
+# ALLOWED_ORIGINS = "https://your-domain.com"

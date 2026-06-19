@@ -1,0 +1,411 @@
+# Interface Contracts — Power User Shell (P0)
+# IEEE 1016-2009 Interface Specification
+# Generated: 2026-06-19
+
+[metadata]
+version = "1.0.0"
+blue_paper = "BP-POWER-USER-SHELL-001"
+generated = "2026-06-19"
+
+# =============================================================================
+# IF-CMD-001: CommandPalette
+# =============================================================================
+
+[[interface]]
+id = "IF-CMD-001"
+name = "CommandPalette"
+component = "COMP-CP-001"
+type = "solidjs-props"
+language = "typescript"
+
+[interface.signature]
+returns = "JSX.Element"
+export = "default"
+generic_params = []
+
+[[interface.parameters]]
+name = "isOpen"
+type = "boolean"
+direction = "in"
+required = true
+description = "Whether the palette is currently visible"
+
+[[interface.parameters]]
+name = "onClose"
+type = "() => void"
+direction = "in"
+required = true
+description = "Callback when palette requests close"
+
+[[interface.parameters]]
+name = "onExecute"
+type = "(commandId: string) => void"
+direction = "in"
+required = true
+description = "Callback when a command is selected"
+
+[[interface.parameters]]
+name = "category"
+type = "CommandCategory | undefined"
+direction = "in"
+required = false
+description = "Optional filter by command category"
+default = "undefined (all categories)"
+
+[interface.preconditions]
+conditions = [
+    "isOpen transitions from false to true before palette renders",
+    "Document body must exist (SSR guard: typeof document !== 'undefined')",
+    "onClose is a stable function reference (wrapped in useCallback if needed)",
+]
+
+[interface.postconditions]
+conditions = [
+    "Palette captures focus on open",
+    "Focus returns to previously focused element on close",
+    "onExecute called with valid command ID from registry",
+    "Escape key triggers onClose",
+]
+
+[interface.invariants]
+conditions = [
+    "At most one palette instance active at a time",
+    "Input field debounced at 150ms",
+    "Results list limited to maxResults (default: 20)",
+]
+
+[interface.error_handling]
+strategy = "defensive"
+on_invalid_command = "console.warn; no-op"
+on_execute_throw = "caught; toast notification via shared/toast"
+on_quota_exceeded = "silent fallback to defaults"
+
+[interface.complexity]
+time = "O(n·m) per keystroke for fuzzy scoring, n = commands, m = query length"
+space = "O(n) for filtered results array"
+
+[thread_safety]
+model = "single-threaded (browser main thread)"
+concurrent_access = "none"
+
+# =============================================================================
+# IF-KB-001: KeyboardShortcutRegistry
+# =============================================================================
+
+[[interface]]
+id = "IF-KB-001"
+name = "KeyboardShortcutRegistry"
+component = "COMP-KS-001"
+type = "solidjs-service"
+language = "typescript"
+
+[interface.signature]
+returns = "KeyboardShortcutRegistry"
+export = "named"
+generic_params = []
+
+[[interface.methods]]
+name = "register"
+signature = "(binding: Keybinding) => void"
+description = "Register a new shortcut binding"
+
+[[interface.methods]]
+name = "unregister"
+signature = "(id: string) => void"
+description = "Unregister a shortcut by ID"
+
+[[interface.methods]]
+name = "getAll"
+signature = "() => Keybinding[]"
+description = "Get all registered bindings"
+
+[[interface.methods]]
+name = "detectConflict"
+signature = "(binding: Keybinding) => Keybinding[]"
+description = "Detect conflicts with existing bindings"
+
+[[interface.methods]]
+name = "save"
+signature = "() => void"
+description = "Persist to localStorage"
+
+[[interface.methods]]
+name = "load"
+signature = "() => void"
+description = "Load from localStorage"
+
+[[interface.methods]]
+name = "reset"
+signature = "() => void"
+description = "Reset to defaults"
+
+[interface.preconditions]
+conditions = [
+    "Keybinding string must parse successfully (format: [Mod+]Key)",
+    "Scope must be one of: global, modal, article",
+    "ID must be unique within registry",
+]
+
+[interface.postconditions]
+conditions = [
+    "Binding added to registry",
+    "Conflict list returned (may be empty)",
+    "localStorage updated if save() called",
+    "Event listener attached to document",
+]
+
+[interface.invariants]
+conditions = [
+    "No duplicate IDs within registry",
+    "Global bindings always active",
+    "Modal bindings only when modal is open",
+    "Article bindings only within article content area",
+]
+
+[interface.error_handling]
+strategy = "throw-on-invalid"
+on_malformed_key = "throws KeybindingParseError"
+on_duplicate_id = "throws DuplicateBindingError"
+on_localstorage_quota = "caught; silent fallback to defaults"
+
+[interface.complexity]
+time = "O(n) for conflict detection, n = registered bindings"
+space = "O(n) for registry storage"
+
+[thread_safety]
+model = "single-threaded (browser main thread)"
+concurrent_access = "none"
+
+# =============================================================================
+# IF-OUT-001: OutlinePanel
+# =============================================================================
+
+[[interface]]
+id = "IF-OUT-001"
+name = "OutlinePanel"
+component = "COMP-OP-001"
+type = "solidjs-props"
+language = "typescript"
+
+[interface.signature]
+returns = "JSX.Element"
+export = "default"
+generic_params = []
+
+[[interface.parameters]]
+name = "headings"
+type = "OutlineHeading[]"
+direction = "in"
+required = true
+description = "Headings extracted from article content"
+
+[[interface.parameters]]
+name = "activeId"
+type: "string | null"
+direction = "in"
+required = true
+description = "Currently active heading ID (scroll-synced)"
+
+[[interface.parameters]]
+name = "isVisible"
+type = "boolean"
+direction = "in"
+required = true
+description = "Whether the panel is visible"
+
+[interface.preconditions]
+conditions = [
+    "Container element must exist in DOM",
+    "Headings must have unique id attributes",
+    "IntersectionObserver must be available (SSR guard)",
+    "Only h2/h3 headings included",
+]
+
+[interface.postconditions]
+conditions = [
+    "Active heading updated on scroll",
+    "Panel scrolls to keep active heading visible",
+    "scrollTo() triggers smooth scroll",
+]
+
+[interface.invariants]
+conditions = [
+    "Only h2/h3 headings included",
+    "Virtual scroll window maintains ≤20 DOM nodes visible",
+    "Active heading always highlighted",
+]
+
+[interface.error_handling]
+strategy = "graceful-degradation"
+on_no_headings = "empty panel, no error"
+on_observer_unavailable = "falls back to scroll event polling"
+
+[interface.complexity]
+time = "O(n) extraction, O(1) scroll-sync update, O(log n) virtual scroll"
+space = "O(n) for headings array, O(1) for active tracking"
+
+[thread_safety]
+model = "single-threaded (browser main thread)"
+concurrent_access = "IntersectionObserver runs on background thread"
+
+# =============================================================================
+# IF-BC-001: Breadcrumbs
+# =============================================================================
+
+[[interface]]
+id = "IF-BC-001"
+name = "Breadcrumbs"
+component = "COMP-BC-001"
+type = "solidjs-props"
+language = "typescript"
+
+[interface.signature]
+returns = "JSX.Element"
+export = "default"
+generic_params = []
+
+[[interface.parameters]]
+name = "trail"
+type = "BreadcrumbItem[]"
+direction = "in"
+required = true
+description = "Trail of breadcrumb items"
+
+[[interface.parameters]]
+name = "maxItems"
+type = "number"
+direction = "in"
+required = false
+description = "Maximum items before overflow"
+default = "5"
+
+[interface.preconditions]
+conditions = [
+    "Trail must contain at least one item",
+    "Each item must have non-empty label and href",
+    "Last item should have current: true",
+]
+
+[interface.postconditions]
+conditions = [
+    "JSON-LD injected into head via script type=application/ld+json",
+    "ARIA aria-label='Breadcrumb' on nav element",
+    "Overflow items collapsed with ellipsis on narrow viewports",
+    "Last item renders as text, not linked",
+]
+
+[interface.invariants]
+conditions = [
+    "Last item has current: true, no href link (aria-current=page)",
+    "Schema.org BreadcrumbList structure compliant",
+    "Responsive: ≤4 items shown on mobile, all on desktop",
+]
+
+[interface.error_handling]
+strategy = "defensive"
+on_empty_trail = "renders nothing (no error)"
+on_invalid_url = "rendered as text, not linked"
+
+[interface.complexity]
+time = "O(n) for rendering, O(n) for JSON-LD generation"
+space = "O(n) for trail storage"
+
+[thread_safety]
+model = "single-threaded (browser main thread)"
+concurrent_access = "none"
+
+# =============================================================================
+# TYPE DEFINITIONS
+# =============================================================================
+
+[types.CommandCategory]
+type = "enum"
+values = ["navigation", "action", "settings", "view"]
+
+[types.Command]
+type = "object"
+fields = [
+    { name = "id", type = "string", constraints = "min(1), max(64)" },
+    { name = "label", type = "string", constraints = "min(1), max(128)" },
+    { name = "description", type = "string", constraints = "min(1), max(256)" },
+    { name = "category", type = "CommandCategory" },
+    { name = "shortcut", type = "string | undefined" },
+    { name = "icon", type = "string | undefined" },
+    { name = "enabled", type = "boolean", default = "true" },
+]
+
+[types.Keybinding]
+type = "object"
+fields = [
+    { name = "id", type = "string", constraints = "min(1), max(64)" },
+    { name = "key", type = "string", constraints = "min(1), max(32)" },
+    { name = "modifiers", type = "Modifier[]", default = "[]" },
+    { name = "action", type = "string", constraints = "min(1)" },
+    { name = "scope", type = "BindingScope" },
+    { name = "description", type = "string", constraints = "min(1), max(128)" },
+]
+
+[types.Modifier]
+type = "enum"
+values = ["Ctrl", "Alt", "Shift", "Meta"]
+
+[types.BindingScope]
+type = "enum"
+values = ["global", "modal", "article"]
+
+[types.OutlineHeading]
+type = "object"
+fields = [
+    { name = "id", type = "string", constraints = "min(1), max(128)" },
+    { name = "text", type = "string", constraints = "min(1), max(256)" },
+    { name = "level", type = "2 | 3" },
+    { name = "slug", type = "string", constraints = "min(1), max(128)" },
+]
+
+[types.BreadcrumbItem]
+type = "object"
+fields = [
+    { name = "label", type = "string", constraints = "min(1), max(128)" },
+    { name = "href", type = "string", constraints = "url()" },
+    { name = "current", type = "boolean", default = "false" },
+]
+
+# =============================================================================
+# DEPENDENCY MATRIX
+# =============================================================================
+
+[[dependency]]
+from = "IF-CMD-001"
+to = "IF-KB-001"
+type = "event-dispatch"
+description = "KeyboardShortcuts dispatches command palette toggle to CommandPalette"
+
+[[dependency]]
+from = "IF-OUT-001"
+to = "IF-KB-001"
+type = "event-dispatch"
+description = "KeyboardShortcuts dispatches scroll commands to OutlinePanel"
+
+[[dependency]]
+from = "IF-BC-001"
+to = "IF-KB-001"
+type = "event-dispatch"
+description = "KeyboardShortcuts dispatches navigation commands to Breadcrumbs"
+
+[[dependency]]
+from = "IF-CMD-001"
+to = "shared/schemas"
+type = "validation"
+description = "CommandPalette uses CommandSchema for input validation"
+
+[[dependency]]
+from = "IF-OUT-001"
+to = "shared/schemas"
+type = "validation"
+description = "OutlinePanel uses OutlineHeadingSchema for heading validation"
+
+[[dependency]]
+from = "IF-BC-001"
+to = "shared/schemas"
+type = "validation"
+description = "Breadcrumbs uses BreadcrumbItemSchema for trail validation"

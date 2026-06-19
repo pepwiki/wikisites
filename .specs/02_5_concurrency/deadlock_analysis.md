@@ -1,8 +1,8 @@
 ---
 document_id: CONCURRENCY-025-002
 title: "Deadlock Risk Analysis"
-version: "1.0.0"
-date: "2026-06-07"
+version: "2.0.0"
+date: "2026-06-19"
 status: DRAFT
 authors:
   - name: "Wikisites Architecture Team"
@@ -10,21 +10,29 @@ authors:
 classification: "Internal — Phase 2.5 Concurrency Specification"
 ieee_standard: "IEEE 1016-2024"
 applicable_sites:
-  - SHARED
+  - ENCP
+  - WIKI
 abstract: >-
-  Deadlock risk assessment for the wikisites platform covering Promise
-  resolution patterns, async/await chain dependencies, resource acquisition
-  ordering, Cloudflare KV eventual consistency, D1 database connection pooling,
-  R2 upload/download concurrency, and Durable Object message ordering.
+  Comprehensive deadlock risk assessment for the wikisites platform covering
+  Promise resolution patterns, Yjs CRDT synchronization, Web Worker message
+  passing, D1/KV/R2 access patterns, Durable Object handler sequencing,
+  Service Worker caching, and all Phase 2 component subsystems.
 yellow_paper_refs:
   - "YP-WEB-TECH-001"
+blue_paper_refs:
+  - "BP-POWER-USER-SHELL-001"
+  - "BP-CONTENT-TOOLS-001"
+  - "BP-SOCIAL-LAYER-001"
+  - "BP-EDITOR-001"
+  - "BP-EXTENSIBILITY-001"
+  - "BP-INFRA-CF-001"
 ---
 
 # Deadlock Risk Analysis
 
 **Document ID:** CONCURRENCY-025-002
-**Version:** 1.0.0
-**Date:** 2026-06-07
+**Version:** 2.0.0
+**Date:** 2026-06-19
 **Status:** DRAFT
 **IEEE Standard:** IEEE 1016-2024
 
@@ -34,670 +42,219 @@ yellow_paper_refs:
 
 1. [Deadlock Theory in JavaScript Context](#1-deadlock-theory-in-javascript-context)
 2. [Promise Resolution Patterns](#2-promise-resolution-patterns)
-3. [Async/Await Chain Dependencies](#3-asyncawait-chain-dependencies)
-4. [Resource Acquisition Ordering](#4-resource-acquisition-ordering)
-5. [Cloudflare KV Eventual Consistency](#5-cloudflare-kv-eventual-consistency)
-6. [D1 Database Connection Pooling](#6-d1-database-connection-pooling)
-7. [R2 Upload/Download Concurrency](#7-r2-uploaddownload-concurrency)
-8. [Durable Object Message Ordering](#8-durable-object-message-ordering)
-9. [Promise.all / Promise.race Analysis](#9-promiseall--promiserace-analysis)
-10. [Formal Deadlock Freedom Properties](#10-formal-deadlock-freedom-properties)
-11. [Livelock and Starvation Analysis](#11-livelock-and-starvation-analysis)
-12. [Risk Register](#12-risk-register)
-13. [Recommendations](#13-recommendations)
+3. [Yjs CRDT Synchronization Deadlock Analysis](#3-yjs-crdt-synchronization-deadlock-analysis)
+4. [Web Worker Message Passing Deadlock Analysis](#4-web-worker-message-passing-deadlock-analysis)
+5. [Durable Object Handler Sequencing](#5-durable-object-handler-sequencing)
+6. [Cloudflare KV Eventual Consistency](#6-cloudflare-kv-eventual-consistency)
+7. [D1 Database Connection Pooling](#7-d1-database-connection-pooling)
+8. [R2 Upload/Download Concurrency](#8-r2-uploaddownload-concurrency)
+9. [Service Worker Caching Deadlock Analysis](#9-service-worker-caching-deadlock-analysis)
+10. [Component-Specific Deadlock Analysis](#10-component-specific-deadlock-analysis)
+11. [Promise.all / Promise.race Analysis](#11-promiseall--promiserace-analysis)
+12. [Formal Deadlock Freedom Properties](#12-formal-deadlock-freedom-properties)
+13. [Livelock and Starvation Analysis](#13-livelock-and-starvation-analysis)
+14. [Risk Register](#14-risk-register)
+15. [Recommendations](#15-recommendations)
 
 ---
 
 ## 1. Deadlock Theory in JavaScript Context
 
-### 1.1 Classical Deadlock Conditions (Coffman Conditions)
+### 1.1 Classical Deadlock Conditions (Coffman)
 
-Classical deadlock requires all four conditions simultaneously:
+| Condition | Classical | JavaScript Equivalent |
+|-----------|-----------|----------------------|
+| Mutual Exclusion | Resource cannot be shared | Locks, semaphores (N/A in JS) |
+| Hold and Wait | Process holds resource while waiting | Synchronous lock acquisition (N/A) |
+| No Preemption | Resources cannot be forcibly removed | Non-preemptible locks (N/A) |
+| Circular Wait | Cyclic dependency in resource requests | Circular Promise chains |
 
-| Condition        | Classical Definition                             | JavaScript/V8 Equivalent     |
-| ---------------- | ------------------------------------------------ | ---------------------------- |
-| Mutual Exclusion | Resource cannot be shared                        | Locks, semaphores            |
-| Hold and Wait    | Process holds resource while waiting for another | Synchronous lock acquisition |
-| No Preemption    | Resources cannot be forcibly removed             | Non-preemptible locks        |
-| Circular Wait    | Cyclic dependency in resource requests           | Circular Promise chains      |
+**Key insight**: Classical deadlock **cannot occur** in single-threaded JavaScript. JavaScript has no locks, no blocking waits, and no mutual exclusion. However, **logical deadlocks** (hanging Promises, circular dependencies) are possible.
 
 ### 1.2 JavaScript Deadlock Model
 
-JavaScript (V8) is single-threaded per execution context. Classical deadlock **cannot occur** within a single-threaded event loop because:
-
-1. **No locks**: JavaScript has no built-in lock primitive.
-2. **No blocking wait**: `await` yields control to the event loop; it does not block.
-3. **No mutual exclusion**: There are no critical sections.
-
-However, **logical deadlocks** can occur in JavaScript through:
-
-| Pattern             | Description                                                 | Severity |
-| ------------------- | ----------------------------------------------------------- | -------- |
-| Promise deadlock    | Two Promises waiting on each other's resolution             | HIGH     |
-| Circular dependency | Module A imports B imports A                                | HIGH     |
-| Infinite loop       | Synchronous loop that never yields                          | HIGH     |
-| Starvation          | High-priority tasks prevent low-priority from executing     | MEDIUM   |
-| Resource exhaustion | All D1 connections occupied, new requests wait indefinitely | MEDIUM   |
-
-### 1.3 Scope of Analysis
-
-This analysis covers all asynchronous patterns in the wikisites platform:
-
-1. Promise resolution chains
-2. `async/await` control flow
-3. Resource acquisition (KV, D1, R2, Durable Objects)
-4. Cross-worker communication
-5. Event-driven architecture patterns
+| Pattern | Description | Severity |
+|---------|-------------|----------|
+| Promise deadlock | Two Promises waiting on each other's resolution | HIGH |
+| Circular dependency | Module A imports B imports A | HIGH |
+| Infinite loop | Synchronous loop that never yields | HIGH |
+| Starvation | High-priority tasks prevent low-priority | MEDIUM |
+| Resource exhaustion | All D1 connections occupied | MEDIUM |
 
 ---
 
 ## 2. Promise Resolution Patterns
 
-### 2.1 Promise Resolution Semantics
-
-A Promise is in one of three states:
-
-```
-         ┌──────────┐
-         │ pending  │ ← Initial state
-         └────┬─────┘
-              │
-    ┌─────────┴─────────┐
-    │                   │
-    ▼                   ▼
-┌──────────┐       ┌──────────┐
-│fulfilled │       │ rejected │
-└──────────┘       └──────────┘
-```
-
-**Thread Safety Property**: Promise resolution is atomic. Once resolved or rejected, the state never changes.
-
-**Property ID**: DL-PROM-001
-**Statement**: `∀ promise p: once p.state ∈ {fulfilled, rejected}, p.state is immutable`
-
-### 2.2 Circular Promise Chains
-
-#### 2.2.1 Pattern: Promise Awaiting Promise B Awaiting Promise A
+### 2.1 Circular Promise Chains
 
 ```typescript
-// DEADLOCK PATTERN (hypothetical)
+// DEADLOCK PATTERN
 const promiseA = new Promise((resolve) => {
   promiseB.then(() => resolve("done"));
 });
-
 const promiseB = new Promise((resolve) => {
   promiseA.then(() => resolve("done"));
 });
+// Neither ever resolves
 ```
 
-**Analysis**: Neither promise ever resolves. `promiseA` waits for `promiseB` to resolve, but `promiseB` waits for `promiseA` to resolve. Both remain in `pending` state forever.
+**Property DL-PROM-002**: Circular Promise chains remain pending forever.
 
-**Property ID**: DL-PROM-002
-**Statement**: `∀ promises p₁, p₂: if p₁.resolution depends on p₂.resolution and p₂.resolution depends on p₁.resolution, then both remain pending forever`
+**Risk in Wikisites**: LOW. No circular dependency chains between Promises.
 
-**Risk in Wikisites**: LOW. This pattern is a coding error and would be caught in code review. The wikisites codebase does not have circular dependency chains between Promises.
+### 2.2 Promise.all Hang Analysis
 
-**Detection**: Static analysis tools (TypeScript `--noUnusedLocals`, ESLint `no-unused-vars`) can detect potential circular dependencies.
+**Property DL-PROM-004**: `∀ Promise.all([p₁, ..., pₙ]): result resolves ⟺ ∀i: pᵢ resolves`
 
-### 2.2.3 Pattern: Recursive Promise Construction
+If any input promise hangs, `Promise.all` hangs.
 
-```typescript
-// SAFE: Recursive but terminates
-async function processPages(pages: string[], index: number): Promise<void> {
-  if (index >= pages.length) return;
-  await processPage(pages[index]);
-  await processPages(pages, index + 1);
-}
-```
+### 2.3 Promise.allSettled Hang Analysis
 
-**Analysis**: This is tail-call recursive but not tail-call optimized in JavaScript. Each recursive call creates a new Promise. For large arrays, this creates deep Promise chains but does not deadlock.
+**Critical finding**: `Promise.allSettled` also hangs if any input promise never resolves.
 
-**Property ID**: DL-PROM-003
-**Statement**: `∀ recursive promise chain c of depth d: c resolves in O(d) event loop ticks`
+**Property DL-PAR-003**: `∀ Promise.allSettled([p₁, ..., pₙ]): hangs if ∃ pᵢ that never resolves`
 
-**Risk**: MEDIUM for very large arrays (stack overflow from deep recursion). Use iteration instead.
+**Mitigation**: Add explicit timeouts to all external calls.
 
-### 2.3 Promise.all Deadlock Analysis
+### 2.4 Promise.race with Timeout
 
 ```typescript
-// SAFE: All promises are independent
-const [users, pages, quizzes] = await Promise.all([fetchUsers(), fetchPages(), fetchQuizzes()]);
-```
-
-**Analysis**: `Promise.all` resolves when ALL input promises resolve. If any input promise never resolves, `Promise.all` never resolves (it "hangs").
-
-**Property ID**: DL-PROM-004
-**Statement**: `∀ Promise.all([p₁, ..., pₙ]): result resolves ⟺ ∀i: pᵢ resolves`
-
-**Deadlock scenario**: If `fetchUsers()` calls `fetchPages()` internally and `fetchPages()` calls `fetchUsers()`, a circular dependency could cause both to hang.
-
-**Risk in Wikisites**: LOW. API calls are independent.
-
-### 2.4 Promise.race Analysis
-
-```typescript
-// Timeout pattern
-const result = await Promise.race([
-  fetchData(),
-  new Promise((_, reject) => setTimeout(() => reject(new Error("Timeout")), 5000)),
-]);
-```
-
-**Analysis**: `Promise.race` resolves when the FIRST promise resolves/rejects. The losing promise continues executing but its result is discarded.
-
-**Property ID**: DL-PROM-005
-**Statement**: `∀ Promise.race([p₁, ..., pₙ]): result = first(p₁, ..., pₙ).result; other promises continue executing`
-
-**Risk**: LOW. The timeout pattern is safe. The discarded promise does not block the caller.
-
-### 2.5 Promise.allSettled Analysis
-
-```typescript
-// Safe: Always resolves, never hangs
-const results = await Promise.allSettled([fetchUsers(), fetchPages(), fetchQuizzes()]);
-```
-
-**Analysis**: `Promise.allSettled` resolves when ALL input promises settle (resolve or reject). It never hangs due to a single promise.
-
-**Property ID**: DL-PROM-006
-**Statement**: `∀ Promise.allSettled([p₁, ..., pₙ]): result always resolves; individual rejections are captured`
-
----
-
-## 3. Async/Await Chain Dependencies
-
-### 3.1 Sequential Async Operations
-
-```typescript
-// Pattern: Sequential dependency chain
-async function handleWikiEdit(slug: string, edit: WikiEdit) {
-  const page = await getPage(slug); // Step 1
-  const validated = await validateEdit(edit); // Step 2 (depends on Step 1)
-  const saved = await saveRevision(validated); // Step 3 (depends on Step 2)
-  await invalidateCache(slug); // Step 4 (depends on Step 3)
-  return saved;
-}
-```
-
-**Analysis**: Steps are sequential and dependent. If any step hangs, the entire chain hangs. This is not deadlock but is a **blocking chain**.
-
-**Property ID**: DL-ASYNC-001
-**Statement**: `∀ sequential chain c = [s₁, s₂, ..., sₙ]: c completes ⟺ ∀i: sᵢ completes`
-
-**Risk**: MEDIUM. If `getPage()` hangs (e.g., D1 connection pool exhausted), `handleWikiEdit` hangs indefinitely.
-
-**Mitigation**: Add timeouts to each async operation:
-
-```typescript
-async function withTimeout<T>(promise: Promise<T>, ms: number): Promise<T> {
+function withTimeout<T>(promise: Promise<T>, ms: number): Promise<T> {
   return Promise.race([
     promise,
-    new Promise<T>((_, reject) => setTimeout(() => reject(new Error(`Timeout after ${ms}ms`)), ms)),
+    new Promise<T>((_, reject) =>
+      setTimeout(() => reject(new Error(`Timeout after ${ms}ms`)), ms)
+    ),
   ]);
 }
-
-const page = await withTimeout(getPage(slug), 5000);
 ```
 
-### 3.2 Parallel Async Operations
-
-```typescript
-// Pattern: Parallel independent operations
-async function loadDashboard(userId: string) {
-  const [progress, streaks, recommendations, notifications] = await Promise.all([
-    getProgress(userId),
-    getStreaks(userId),
-    getRecommendations(userId),
-    getNotifications(userId),
-  ]);
-  return { progress, streaks, recommendations, notifications };
-}
-```
-
-**Analysis**: All four operations are independent. If one hangs, `Promise.all` hangs. `Promise.allSettled` would be safer.
-
-**Property ID**: DL-ASYNC-002
-**Statement**: `∀ Promise.all([p₁, ..., pₙ]) where pᵢ are independent: deadlock risk = 0 iff no pᵢ hangs`
-
-**Risk**: LOW (for independent operations). Use `Promise.allSettled` for fault tolerance.
-
-### 3.3 Nested Async/Await
-
-```typescript
-// Pattern: Nested async with dependency
-async function syncSearchIndex(): Promise<void> {
-  const pages = await getAllPages();
-
-  for (const page of pages) {
-    const content = await getPageContent(page.id);
-    const indexed = await indexPage(content);
-
-    // Nested async within loop
-    for (const tag of page.tags) {
-      await updateTagIndex(tag, indexed);
-    }
-  }
-}
-```
-
-**Analysis**: This pattern can be slow (O(n × m) sequential operations) but does not deadlock. Each operation is independent.
-
-**Property ID**: DL-ASYNC-003
-**Statement**: `∀ nested async loops: no deadlock; total time = Σ time(operations)`
-
-**Risk**: LOW (correctness), MEDIUM (performance). Use `Promise.all` for independent operations within each level.
-
-### 3.4 Error Propagation in Async Chains
-
-```typescript
-// Pattern: Error in async chain
-async function riskyOperation() {
-  try {
-    const result = await operationThatMightFail();
-    return result;
-  } catch (error) {
-    // If this also fails, the error is swallowed
-    await logError(error);
-    throw error;
-  }
-}
-```
-
-**Analysis**: If `logError()` also fails, the original error is lost. This is not a deadlock but is a **silent failure** pattern.
-
-**Property ID**: DL-ASYNC-004
-**Statement**: `∀ async chain with try/catch: if catch handler throws, original error context is lost`
-
-**Risk**: MEDIUM. Ensure `logError()` is fault-tolerant.
+**Property DL-PROM-005**: `Promise.race` resolves when FIRST promise resolves/rejects.
 
 ---
 
-## 4. Resource Acquisition Ordering
+## 3. Yjs CRDT Synchronization Deadlock Analysis
 
-### 4.1 Cloudflare Resource Access Patterns
+### 3.1 Yjs WebSocket Provider
 
-The wikisites platform acquires resources in this typical order:
-
+**Execution Model**:
 ```
-Request arrives
-    │
-    ▼
-┌──────────────┐
-│ Auth check   │ ← KV or D1 lookup
-└──────┬───────┘
-       │
-       ▼
-┌──────────────┐
-│ Business     │ ← D1 query, R2 read
-│ Logic        │
-└──────┬───────┘
-       │
-       ▼
-┌──────────────┐
-│ Write result │ ← D1 write, KV put, R2 put
-└──────┬───────┘
-       │
-       ▼
-┌──────────────┐
-│ Cache invalid│ ← KV delete/put
-└──────────────┘
+Client A ──WebSocket──► Durable Object ──WebSocket──► Client B
+                           │
+                      Yjs document
+                      (single-threaded)
 ```
 
-### 4.2 Lock-Free Resource Acquisition
+**Deadlock Risks**:
 
-Cloudflare resources (KV, D1, R2) are accessed via HTTP API calls, not locks. There is no mutual exclusion.
+| Risk | Scenario | Risk Level | Analysis |
+|------|----------|------------|----------|
+| WebSocket message flood | Client sends faster than DO processes | Low | Messages queue; backpressure, not deadlock |
+| DO handler never completes | Yjs merge takes infinite time | Negligible | Yjs merge is O(n) bounded by document size |
+| WebSocket disconnect during sync | Client disconnects mid-sync | Low | Yjs handles gracefully; pending updates queued |
+| Circular Yjs update | Update A triggers update B triggers update A | Negligible | Yjs CRDT prevents infinite loops via vector clocks |
 
-**Property ID**: DL-RES-001
-**Statement**: `∀ Cloudflare resources r: access to r is lock-free; concurrent reads are safe; concurrent writes are serialized by the service`
+**Property DL-ED-001**: Yjs WebSocket messages queue in DO's event loop. No deadlock from message ordering.
 
-**Analysis**: Since there are no locks, there can be no deadlock from lock ordering violations.
+**Property DL-ED-002**: Yjs CRDT merge is idempotent and terminates. No infinite merge loops.
 
-### 4.3 D1 Batch Ordering
+### 3.2 Yjs Awareness Protocol
 
-```typescript
-// Pattern: D1 batch with implicit ordering
-await env.DB.batch([
-  env.DB.prepare("INSERT INTO revisions (page_id, content) VALUES (?, ?)").bind(pageId, content),
-  env.DB.prepare("UPDATE pages SET current_revision = current_revision + 1 WHERE id = ?").bind(
-    pageId,
-  ),
-]);
-```
+**Deadlock Risks**:
 
-**Analysis**: D1 `batch()` statements execute atomically in order. No other request can interleave. No deadlock possible.
+| Risk | Scenario | Risk Level | Analysis |
+|------|----------|------------|----------|
+| Awareness state inconsistency | Multiple cursors for same user | Low | Awareness state is ephemeral; last-write-wins |
+| Awareness timeout | Stale cursor never removed | Low | 10s timeout removes stale awareness states |
 
-**Property ID**: DL-RES-002
-**Statement**: `∀ D1 batch b: statements execute atomically in order; no interleaving; no deadlock`
+**Property DL-ED-003**: Awareness protocol is eventually consistent. No deadlock possible.
 
-### 4.4 Cross-Service Dependency Chains
+### 3.3 Yjs Document Persistence
 
-```
-Request → Auth (KV) → Business Logic (D1) → Write (D1 + KV) → Response
-```
+**Deadlock Risks**:
 
-**Analysis**: This is a linear dependency chain. No circular dependencies exist.
+| Risk | Scenario | Risk Level | Analysis |
+|------|----------|------------|----------|
+| DO crash during persistence | Yjs state partially written to D1 | Low | Yjs state is atomic (single write); D1 batch for recovery |
+| D1 write during Yjs merge | Persistence and merge interleave | Negligible | DO single-threaded: handlers execute sequentially |
 
-**Property ID**: DL-RES-003
-**Statement**: `∀ request r: resource acquisition follows DAG ordering; no circular dependencies`
-
-**Risk**: LOW. If any service is unavailable, the request fails. This is not a deadlock but is a **failure cascade**.
-
-### 4.5 Multi-Database Access Pattern
-
-```typescript
-// Pattern: Accessing multiple D1 databases
-async function importFlashcardDeck(userId: string, deck: FlashcardDeck) {
-  // Database 1: User database
-  const user = await env.USERS_DB.prepare("SELECT * FROM users WHERE id = ?").bind(userId).first();
-
-  // Database 2: Flashcard database
-  await env.FLASHCARDS_DB.prepare("INSERT INTO decks ...").bind(...).run();
-
-  // Database 3: Progress database
-  await env.PROGRESS_DB.prepare("UPDATE learning_progress ...").bind(...).run();
-}
-```
-
-**Analysis**: Three separate D1 databases are accessed sequentially. Each access is an independent HTTP API call. No circular dependencies.
-
-**Property ID**: DL-RES-004
-**Statement**: `∀ multi-database access d: databases are independent services; no shared locks; no deadlock`
-
-**Risk**: LOW. If one database is unavailable, the operation fails. Use try/catch to handle partial failures.
+**Property DL-ED-004**: Yjs document persistence is atomic within DO handler. No interleaving.
 
 ---
 
-## 5. Cloudflare KV Eventual Consistency
+## 4. Web Worker Message Passing Deadlock Analysis
 
-### 5.1 KV Consistency Model
+### 4.1 Plugin Worker Communication
 
-Cloudflare KV is **eventually consistent**:
-
-| Operation         | Consistency           | Implication                                                      |
-| ----------------- | --------------------- | ---------------------------------------------------------------- |
-| `put(key, value)` | Eventually consistent | Write may not be visible to reads in other locations immediately |
-| `get(key)`        | Eventually consistent | May return stale value after recent write                        |
-| `delete(key)`     | Eventually consistent | Deletion may not be visible immediately                          |
-| `list()`          | Eventually consistent | May include recently deleted keys                                |
-
-### 5.2 KV "Deadlock" Patterns
-
-KV does not have traditional deadlock (no locks), but has **consistency-related hangs**:
-
-#### 5.2.1 Pattern: Read-After-Write Inconsistency
-
-```typescript
-async function updateCache(key: string, value: string) {
-  await env.CACHE.put(key, value);
-  const cached = await env.CACHE.get(key);
-  // cached may be null or stale value!
-}
+**Execution Model**:
+```
+Main Thread                Plugin Worker
+┌──────────────┐          ┌──────────────┐
+│ Host App     │ postMsg  │ Plugin Code  │
+│              │─────────>│              │
+│              │ postMsg  │              │
+│              │<─────────│              │
+└──────────────┘          └──────────────┘
 ```
 
-**Analysis**: This is not a deadlock but is a **logical inconsistency**. The read may not reflect the write.
+**Deadlock Risks**:
 
-**Property ID**: DL-KV-001
-**Statement**: `∀ KV put(k, v) followed by KV get(k): get(k) may return null, stale value, or v`
+| Risk | Scenario | Risk Level | Analysis |
+|------|----------|------------|----------|
+| Request-response deadlock | Host waits for plugin response; plugin waits for host | Low | Messages are independent; no blocking waits |
+| Plugin infinite loop | Plugin never yields in Worker | Medium | Worker has no DOM; infinite loop blocks Worker thread only |
+| Host timeout | Plugin never responds to host message | Medium | Host-side timeout (5s) terminates and rejects |
+| Message ordering violation | Messages arrive out of order | Low | postMessage is ordered per channel |
 
-**Mitigation**: Accept eventual consistency for cache writes. Use D1 for consistency-critical reads.
+**Property DL-EXT-001**: Plugin Worker communication is non-blocking. Host can timeout; Worker is isolated.
 
-#### 5.2.2 Pattern: Conditional Write Based on Read
+**Property DL-EXT-002**: Plugin crash in Worker does not affect host. `Worker.terminate()` isolates failure.
 
-```typescript
-// DANGEROUS: Read-then-write pattern
-async function incrementCounter(key: string): Promise<number> {
-  const current = (await env.CACHE.get<number>(key)) ?? 0;
-  // ⚠️ Another request may have modified `current` between read and write
-  await env.CACHE.put(key, current + 1);
-  return current + 1;
-}
-```
-
-**Analysis**: This is a **lost update** problem, not a deadlock. Two concurrent requests may read the same value and both write `current + 1`, losing one increment.
-
-**Property ID**: DL-KV-002
-**Statement**: `∀ concurrent increment operations on same KV key: lost updates may occur`
-
-**Mitigation**: Use D1 `UPDATE ... SET counter = counter + 1` (atomic increment) for counters. Use KV only for caches where lost updates are acceptable.
-
-#### 5.2.3 Pattern: KV List During Iteration
+### 4.2 Plugin Lifecycle Deadlock
 
 ```typescript
-// Pattern: List and process all keys
-let cursor: string | undefined;
-do {
-  const result = await env.CACHE.list({ cursor, limit: 100 });
-  for (const key of result.keys) {
-    await processKey(key.name);
-  }
-  cursor = result.list_complete ? undefined : result.cursor;
-} while (cursor);
+// Plugin install flow
+Worker A (Host)                    Plugin Worker
+    │                                    │
+    │── postMessage({type:"init"}) ────>│
+    │                                    │ plugin.onLoad()
+    │<── postMessage({type:"ready"}) ───│
+    │                                    │
+    │── postMessage({type:"execute"}) ─>│
+    │                                    │ plugin.execute()
+    │<── postMessage({type:"result"}) ──│
 ```
 
-**Analysis**: If keys are added/deleted during iteration, some keys may be processed twice or skipped. This is not a deadlock.
+**Deadlock Risks**:
 
-**Property ID**: DL-KV-003
-**Statement**: `∀ KV list iteration: keys added/deleted during iteration may be processed inconsistently`
+| Risk | Scenario | Risk Level | Analysis |
+|------|----------|------------|----------|
+| Plugin never sends "ready" | onLoad() hangs | Low | Host-side timeout (5s) |
+| Plugin never returns result | execute() hangs | Low | Host-side timeout (5s) |
+| Multiple init messages | Host sends init twice | Low | Plugin ignores duplicate inits |
 
-**Mitigation**: Accept eventual consistency for cache operations. For critical operations, use D1 with transactions.
+**Property DL-EXT-003**: Plugin lifecycle is timeout-bounded. No permanent deadlock.
 
-### 5.3 KV "Deadlock" Risk Summary
+### 4.3 Search Worker Communication
 
-| Pattern                           | Risk                     | Impact      | Mitigation                     |
-| --------------------------------- | ------------------------ | ----------- | ------------------------------ |
-| Read-after-write inconsistency    | High (expected behavior) | Low (cache) | Use D1 for consistency         |
-| Lost updates on concurrent writes | High (expected behavior) | Medium      | Use D1 atomic operations       |
-| List iteration inconsistency      | Medium                   | Low         | Accept eventual consistency    |
-| KV unavailability                 | Low                      | High        | Retry with exponential backoff |
+**Deadlock Risks**:
+
+| Risk | Scenario | Risk Level | Analysis |
+|------|----------|------------|----------|
+| Index query during rebuild | Query arrives while index updating | Low | Worker processes messages sequentially |
+| Large result set transfer | Results exceed memory limits | Low | Paginated results; bounded by protocol |
+
+**Property DL-EXT-004**: Search Worker processes messages sequentially. No concurrent index modification.
 
 ---
 
-## 6. D1 Database Connection Pooling
+## 5. Durable Object Handler Sequencing
 
-### 6.1 D1 Connection Model
-
-Cloudflare D1 manages connections internally:
+### 5.1 Durable Object Execution Model
 
 ```
 ┌──────────────────────────────────────────────┐
-│              D1 Connection Model              │
-│                                              │
-│  Worker Request → D1 API → Connection Pool   │
-│                                              │
-│  Pool managed by Cloudflare runtime          │
-│  No user-space connection management         │
-│  No connection string configuration          │
-│                                              │
-│  Limits:                                     │
-│  ├── Max concurrent queries per DB: 1000     │
-│  ├── Max batch size: 5000 statements         │
-│  └── Max query size: 100KB                   │
-│                                              │
-└──────────────────────────────────────────────┘
-```
-
-### 6.2 D1 "Deadlock" Analysis
-
-#### 6.2.1 Connection Pool Exhaustion
-
-```typescript
-// Pattern: Multiple concurrent D1 queries
-async function handleConcurrentRequests(requests: Request[]): Promise<Response[]> {
-  return Promise.all(
-    requests.map(async (req) => {
-      const result = await env.DB.prepare("SELECT * FROM pages WHERE slug = ?")
-        .bind(new URL(req.url).pathname)
-        .first();
-      return new Response(JSON.stringify(result));
-    }),
-  );
-}
-```
-
-**Analysis**: If 1000+ concurrent requests all query D1 simultaneously, the connection pool may be exhausted. Subsequent queries will wait (not deadlock — they queue).
-
-**Property ID**: DL-D1-001
-**Statement**: `∀ D1 queries q₁, ..., qₙ where n > max_pool_size: queries queue; they do not deadlock`
-
-**Risk**: LOW. Cloudflare manages the connection pool. Queries are queued, not blocked.
-
-**Mitigation**: Use rate limiting at the Worker level to prevent pool exhaustion.
-
-#### 6.2.2 D1 Batch Atomicity
-
-```typescript
-// Pattern: Multi-statement batch
-await env.DB.batch([
-  env.DB.prepare("BEGIN TRANSACTION"),
-  env.DB.prepare("UPDATE pages SET revision = ? WHERE id = ?").bind(rev, pageId),
-  env.DB.prepare("INSERT INTO revisions ...").bind(...),
-  env.DB.prepare("COMMIT"),
-]);
-```
-
-**Analysis**: D1 `batch()` executes statements atomically. No other request can interleave between statements. No deadlock possible.
-
-**Property ID**: DL-D1-002
-**Statement**: `∀ D1 batch b: b executes atomically; no interleaving; no deadlock`
-
-#### 6.2.3 D1 Long-Running Queries
-
-```typescript
-// Pattern: Large aggregation query
-const result = await env.DB.prepare(
-  `
-  SELECT category, COUNT(*) as count, AVG(quality_score) as avg_quality
-  FROM pages
-  GROUP BY category
-  ORDER BY avg_quality DESC
-`,
-).all();
-```
-
-**Analysis**: Long-running queries hold a connection from the pool. If many long-running queries execute concurrently, the pool may be exhausted.
-
-**Property ID**: DL-D1-003
-**Statement**: `∀ long-running D1 queries: pool connections are held for query duration; pool exhaustion possible under high concurrency`
-
-**Risk**: LOW. D1 queries on small datasets (< 10K rows) are fast. Wiki content datasets are small.
-
-### 6.3 D1 Connection Pooling Risk Summary
-
-| Pattern                     | Risk       | Impact | Mitigation                                              |
-| --------------------------- | ---------- | ------ | ------------------------------------------------------- |
-| Pool exhaustion             | Low        | Medium | Rate limiting, connection pooling managed by Cloudflare |
-| Batch atomicity failure     | Negligible | High   | D1 guarantees atomicity                                 |
-| Long-running query blocking | Low        | Low    | Use pagination, limit query scope                       |
-| D1 unavailability           | Low        | High   | Retry with exponential backoff                          |
-
----
-
-## 7. R2 Upload/Download Concurrency
-
-### 7.1 R2 Consistency Model
-
-Cloudflare R2 provides **strong consistency** for object operations:
-
-| Operation        | Consistency           | Implication                                 |
-| ---------------- | --------------------- | ------------------------------------------- |
-| `put(key, body)` | Strongly consistent   | Subsequent `get(key)` returns the new value |
-| `get(key)`       | Strongly consistent   | Returns the most recently written value     |
-| `delete(key)`    | Strongly consistent   | Subsequent `get(key)` returns null          |
-| `list()`         | Eventually consistent | May include recently deleted keys           |
-
-### 7.2 R2 Concurrent Upload Patterns
-
-#### 7.2.1 Pattern: Concurrent Uploads to Same Key
-
-```typescript
-// Pattern: Multiple workers uploading to same R2 key
-async function uploadFile(key: string, body: ReadableStream) {
-  await env.R2.put(key, body);
-}
-```
-
-**Analysis**: If two requests upload to the same key concurrently, the last write wins. This is **last-write-wins** semantics, not deadlock.
-
-**Property ID**: DL-R2-001
-**Statement**: `∀ concurrent R2 put(k, v₁) and put(k, v₂): final state is either v₁ or v₂ (non-deterministic)`
-
-**Risk**: MEDIUM for wiki content uploads. Use versioned keys or D1 metadata to track versions.
-
-#### 7.2.2 Pattern: Multipart Upload Concurrency
-
-```typescript
-// Pattern: Large file upload
-async function uploadLargeFile(key: string, body: ReadableStream) {
-  const upload = await env.R2.createMultipartUpload(key);
-  // ... write parts ...
-  await upload.complete();
-}
-```
-
-**Analysis**: Multipart uploads are atomic. If a multipart upload is interrupted, the incomplete upload does not affect existing objects.
-
-**Property ID**: DL-R2-002
-**Statement**: `∀ R2 multipart upload u: u is atomic; incomplete u does not affect existing objects`
-
-### 7.3 R2 Download Concurrency
-
-#### 7.3.1 Pattern: Concurrent Downloads of Same Object
-
-```typescript
-// Pattern: Multiple clients downloading the same file
-async function downloadFile(key: string): Promise<ArrayBuffer> {
-  const obj = await env.R2.get(key);
-  if (!obj) throw new Error("Not found");
-  return obj.arrayBuffer();
-}
-```
-
-**Analysis**: Concurrent downloads are safe. R2 serves the same object to all requests.
-
-**Property ID**: DL-R2-003
-**Statement**: `∀ concurrent R2 get(k): all requests receive the same consistent value`
-
-### 7.4 R2 "Deadlock" Patterns
-
-R2 operations are HTTP-based and lock-free. No deadlock is possible from R2 itself. However:
-
-#### 7.4.1 Pattern: Upload-Download Race
-
-```typescript
-// Client A: Upload
-await r2.put("deck-123.apkg", deckData);
-
-// Client B: Download (may happen before upload completes)
-const deck = await r2.get("deck-123.apkg"); // null!
-```
-
-**Analysis**: This is a **timing issue**, not a deadlock. The download fails because the upload hasn't completed yet.
-
-**Property ID**: DL-R2-004
-**Statement**: `∀ R2 get(k) where put(k) is in progress: get(k) may return null`
-
-**Mitigation**: Use D1 metadata to track upload status. Only serve downloads after upload is confirmed.
-
-### 7.5 R2 Concurrency Risk Summary
-
-| Pattern                       | Risk   | Impact | Mitigation                       |
-| ----------------------------- | ------ | ------ | -------------------------------- |
-| Last-write-wins on same key   | Medium | Medium | Use versioned keys, D1 metadata  |
-| Multipart upload interruption | Low    | Low    | Atomic semantics, retry          |
-| Download during upload        | Low    | Low    | Check D1 metadata before serving |
-| R2 unavailability             | Low    | High   | Retry with exponential backoff   |
-
----
-
-## 8. Durable Object Message Ordering
-
-### 8.1 Durable Object Execution Model
-
-Durable Objects guarantee **single-threaded, sequential execution** of all handlers:
-
-```
-┌──────────────────────────────────────────────┐
-│              Durable Object Execution          │
+│              Durable Object                   │
 │                                              │
 │  fetch(request₁) → complete                  │
 │  fetch(request₂) → complete                  │
@@ -706,151 +263,226 @@ Durable Objects guarantee **single-threaded, sequential execution** of all handl
 │                                              │
 │  All handlers execute sequentially           │
 │  No handler starts until previous completes  │
-│  State mutations are atomic within handler   │
 │                                              │
 └──────────────────────────────────────────────┘
 ```
 
-### 8.2 Durable Object "Deadlock" Analysis
+**Property DL-DO-004**: `∀ DO d, ∀ handlers h₁, h₂: h₁.start < h₂.start ∨ h₂.start < h₁.start`
 
-#### 8.2.1 Pattern: Handler Never Completes
+### 5.2 DO Handler Never Completes
 
 ```typescript
 // DANGEROUS: Handler that never completes
 async fetch(request: Request) {
-  // Infinite loop — handler never returns
-  while (true) {
-    // ...
-  }
+  while (true) { /* ... */ } // Blocks all subsequent handlers
 }
 ```
 
-**Analysis**: If a Durable Object handler never completes, subsequent handlers for that DO are blocked indefinitely. This is a **logical deadlock** within the DO.
+**Property DL-DO-001**: If a DO handler never completes, subsequent handlers for that DO are blocked.
 
-**Property ID**: DL-DO-001
-**Statement**: `∀ DO handler h that never completes: all subsequent handlers for same DO are blocked indefinitely`
+**Risk in Wikisites**: LOW. All DO handlers (WikiRoom, QuizSession, ReviewSession, SessionStore, YJS_DOCUMENT) are designed to be short-lived with timeouts.
 
-**Risk**: LOW. Handlers are designed to be short-lived. Use timeouts for external calls.
-
-#### 8.2.2 Pattern: DO Calling Another DO
+### 5.3 Circular DO-to-DO Calls
 
 ```typescript
-// Durable Object A calls Durable Object B
-async fetch(request: Request) {
-  const stub = env.DO_B.get(env.DO_B.idFromName("room-1"));
-  const response = await stub.fetch(request);
-  return response;
-}
+// DANGEROUS: DO A calls DO B, DO B calls DO A
+// Both handlers block indefinitely
 ```
 
-**Analysis**: DO A's handler does not complete until DO B responds. If DO B also calls DO A, a **circular dependency** occurs, and both handlers block.
+**Property DL-DO-002**: Circular DO-to-DO calls cause deadlock.
 
-**Property ID**: DL-DO-002
-**Statement**: `∀ DO instances d₁, d₂: if d₁.fetch() calls d₂.fetch() and d₂.fetch() calls d₁.fetch(), both handlers block indefinitely`
+**Risk in Wikisites**: NEGLIGIBLE. Architecture constraint: no DO-to-DO calls. All coordination mediated by Workers.
 
-**Risk in Wikisites**: LOW. Durable Objects do not call each other. WikiRoom, QuizSession, and ReviewSession are independent.
+### 5.4 WebSocket Message Flooding
 
-**Mitigation**: Document that DO-to-DO calls must follow a DAG ordering. Never allow circular DO dependencies.
+**Property DL-DO-003**: Messages queue in DO's event loop. No messages lost; backpressure may cause latency.
 
-#### 8.2.3 Pattern: WebSocket Message Flooding
-
-```typescript
-// Client sends messages faster than DO can process
-async webSocketMessage(ws: WebSocket, message: string) {
-  // If processing takes longer than message interval,
-  // messages queue but never cause deadlock
-  await processMessage(message);
-  ws.send(JSON.stringify({ status: "ok" }));
-}
-```
-
-**Analysis**: Messages queue in the DO's event loop. No messages are lost, but processing may lag behind. This is **backpressure**, not deadlock.
-
-**Property ID**: DL-DO-003
-**Statement**: `∀ DO message queue q: messages are processed in order; no messages are lost; backpressure may cause latency`
-
-**Risk**: LOW. Add rate limiting on the client side to prevent message flooding.
-
-### 8.3 Durable Object Concurrency Risk Summary
-
-| Pattern                    | Risk             | Impact | Mitigation                  |
-| -------------------------- | ---------------- | ------ | --------------------------- |
-| Handler never completes    | Low              | High   | Timeouts for external calls |
-| Circular DO-to-DO calls    | Low (if avoided) | High   | DAG ordering, code review   |
-| WebSocket message flooding | Low              | Low    | Client-side rate limiting   |
-| DO restart after failure   | Low              | Medium | Cloudflare DO persistence   |
+**Mitigation**: Client-side rate limiting (10 messages/second).
 
 ---
 
-## 9. Promise.all / Promise.race Analysis
+## 6. Cloudflare KV Eventual Consistency
 
-### 9.1 Promise.all Hang Scenarios
+### 6.1 KV Read-After-Write Inconsistency
 
 ```typescript
-// Scenario: One promise never resolves
+await env.CACHE.put("key", "value");
+const cached = await env.CACHE.get("key"); // May be null or stale!
+```
+
+**Property DL-KV-001**: `∀ KV put(k, v) followed by get(k): get(k) may return null, stale value, or v`
+
+### 6.2 KV Lost Updates
+
+```typescript
+const current = (await env.CACHE.get<number>(key)) ?? 0;
+await env.CACHE.put(key, current + 1); // Another request may have modified!
+```
+
+**Property DL-KV-002**: `∀ concurrent KV increment operations on same key: lost updates may occur`
+
+**Mitigation**: Use D1 atomic increment: `UPDATE SET col = col + 1`.
+
+---
+
+## 7. D1 Database Connection Pooling
+
+### 7.1 D1 Connection Model
+
+```
+Worker Request → D1 API → Connection Pool
+Pool managed by Cloudflare runtime
+Limits: max 1000 concurrent queries per DB
+```
+
+**Property DL-D1-001**: `∀ D1 queries q₁, ..., qₙ where n > max_pool_size: queries queue; they do not deadlock`
+
+### 7.2 D1 Batch Atomicity
+
+**Property DL-D1-002**: `∀ D1 batch b: b executes atomically; no interleaving; no deadlock`
+
+---
+
+## 8. R2 Upload/Download Concurrency
+
+### 8.1 R2 Concurrent Uploads
+
+**Property DL-R2-001**: `∀ concurrent R2 put(k, v₁) and put(k, v₂): final state is either v₁ or v₂ (last-write-wins)`
+
+### 8.2 R2 Download During Upload
+
+**Property DL-R2-004**: `∀ R2 get(k) where put(k) is in progress: get(k) may return null`
+
+---
+
+## 9. Service Worker Caching Deadlock Analysis
+
+### 9.1 Service Worker Lifecycle
+
+**Note**: The wikisites platform does NOT currently use a custom Service Worker. PWA functionality is handled by Cloudflare Pages CDN caching (stale-while-revalidate). If a Service Worker is introduced in the future:
+
+**Potential Deadlock Risks**:
+
+| Risk | Scenario | Risk Level | Analysis |
+|------|----------|------------|----------|
+| SW update loop | New SW installed, immediately claims clients, clients reload, new SW installed... | Low | Use `skipWaiting()` carefully; version check |
+| Cache API contention | Multiple tabs read/write same cache | Low | Cache API is asynchronous; no blocking |
+| Fetch handler blocking | SW fetch handler takes too long | Medium | Browser timeout (~30s); use `event.waitUntil()` |
+| Navigation preload race | Navigation request arrives before SW activated | Low | Use `clients.claim()` after activation |
+
+**Property DL-SW-001**: Service Worker fetch handlers are asynchronous and non-blocking. No classical deadlock.
+
+**Property DL-SW-002**: Cache API operations are atomic per call. No interleaving within single cache operation.
+
+### 9.2 SW Cache Invalidation Patterns
+
+```typescript
+// Pattern: Stale-while-revalidate in SW
+self.addEventListener('fetch', (event) => {
+  event.respondWith(
+    caches.open('v1').then(async (cache) => {
+      const cached = await cache.match(event.request);
+      const fetchPromise = fetch(event.request).then((response) => {
+        cache.put(event.request, response.clone());
+        return response;
+      });
+      return cached || fetchPromise;
+    })
+  );
+});
+```
+
+**Deadlock Risks**:
+
+| Risk | Scenario | Risk Level | Analysis |
+|------|----------|------------|----------|
+| Cache size exhaustion | Too many entries; eviction needed | Low | LRU eviction; bounded cache size |
+| Fetch + cache.put race | Two SW instances cache same URL | Low | Cache API is per-origin; no cross-origin race |
+
+---
+
+## 10. Component-Specific Deadlock Analysis
+
+### 10.1 Power User Shell
+
+| Component | Deadlock Risk | Analysis |
+|-----------|--------------|----------|
+| CommandPalette | None | Synchronous fuzzy search, no async I/O |
+| KeyboardShortcuts | None | Synchronous event dispatch |
+| OutlinePanel | None | IntersectionObserver callback is async but non-blocking |
+| Breadcrumbs | None | Static rendering, no async operations |
+
+### 10.2 Content Tools
+
+| Component | Deadlock Risk | Analysis |
+|-----------|--------------|----------|
+| LaTeXRenderer | None | KaTeX rendering is synchronous (SSR) or non-blocking (CSR) |
+| GraphView | Low | d3-force simulation runs in requestAnimationFrame; no blocking |
+| SplitPane | None | CSS Grid layout is browser-internal; no JS blocking |
+| RegexSearch | Medium | ReDoS could block main thread; mitigated by 4-layer defense + timeout |
+
+**Property DL-CT-001**: RegexSearch execution bounded by 100ms timeout. AbortController terminates if exceeded.
+
+### 10.3 Social Layer
+
+| Component | Deadlock Risk | Analysis |
+|-----------|--------------|----------|
+| CommentsSystem | Low | D1 batch atomicity prevents interleaving; KV rate limits queue |
+| AnnotationLayer | Low | D1 batch atomicity; XPath resolution is synchronous |
+| UserAccounts | Low | DO single-threaded for sessions; OAuth flow is external |
+
+### 10.4 Editor
+
+| Component | Deadlock Risk | Analysis |
+|-----------|--------------|----------|
+| MDXEditor | None | TipTap is single-threaded; no blocking I/O |
+| CollaborationEngine (Yjs) | Low | WebSocket messages queue; DO single-threaded; CRDT merge terminates |
+| VersionHistory | Low | Forgejo API calls are HTTP (non-blocking); D1 cache reads are atomic |
+
+**Property DL-ED-005**: Yjs CRDT merge terminates in O(n) where n = number of concurrent updates.
+
+### 10.5 Extensibility Layer
+
+| Component | Deadlock Risk | Analysis |
+|-----------|--------------|----------|
+| PluginAPI | Medium | Plugin infinite loop blocks Worker; host timeout (5s) mitigates |
+| ThemeEngine | None | CSS custom properties swap is atomic (browser compositor) |
+| SettingsManager | Low | localStorage is synchronous (non-blocking); D1 sync is async |
+
+**Property DL-EXT-004**: Plugin Worker is terminated after 5s timeout if no response.
+
+---
+
+## 11. Promise.all / Promise.race Analysis
+
+### 11.1 Promise.all Hang Scenarios
+
+```typescript
+// HANGS if any input promise never resolves
 const results = await Promise.all([
-  fetchUsers(), // Resolves in 100ms
-  fetchPages(), // Resolves in 200ms
+  fetchUsers(),      // Resolves in 100ms
+  fetchPages(),      // Resolves in 200ms
   new Promise(() => {}), // Never resolves — HANGS ENTIRE await
 ]);
 ```
 
-**Analysis**: `Promise.all` hangs if ANY input promise hangs. This is the most dangerous pattern.
+**Property DL-PAR-001**: `∀ Promise.all([p₁, ..., pₙ]): hangs if ∃ pᵢ that never resolves`
 
-**Property ID**: DL-PAR-001
-**Statement**: `∀ Promise.all([p₁, ..., pₙ]): hangs if ∃ pᵢ that never resolves`
-
-**Mitigation options**:
-
-1. Use `Promise.allSettled` (never hangs).
-2. Add timeouts to each promise.
-3. Use `AbortController` to cancel hanging operations.
+### 11.2 Promise.allSettled Hang Scenarios
 
 ```typescript
-// SAFE: Promise.allSettled
-const results = await Promise.allSettled([fetchUsers(), fetchPages(), fetchQuizzes()]);
-const successful = results.filter((r) => r.status === "fulfilled");
-```
-
-### 9.2 Promise.race Hang Scenarios
-
-```typescript
-// Scenario: All promises hang
-const result = await Promise.race([
-  new Promise(() => {}), // Never resolves
-  new Promise(() => {}), // Never resolves
-]);
-// HANGS
-```
-
-**Analysis**: `Promise.race` hangs if ALL input promises hang. If at least one resolves, it returns that result.
-
-**Property ID**: DL-PAR-002
-**Statement**: `∀ Promise.race([p₁, ..., pₙ]): hangs if ∀ pᵢ never resolves`
-
-**Mitigation**: Always include a timeout promise in `Promise.race`.
-
-### 9.3 Promise.allsettled Safety
-
-```typescript
-// SAFE: Never hangs
+// ALSO HANGS if any promise never resolves!
 const results = await Promise.allSettled([
   fetchUsers(),
-  fetchPages(),
-  new Promise(() => {}), // Never resolves — but Promise.allSettled still hangs!
+  new Promise(() => {}), // Never resolves — Promise.allSettled hangs too!
 ]);
 ```
 
-**Wait — Promise.allSettled ALSO hangs if a promise never resolves!**
+**Property DL-PAR-003**: `∀ Promise.allSettled([p₁, ..., pₙ]): hangs if ∃ pᵢ that never resolves`
 
-**Correction**: `Promise.allSettled` waits for ALL promises to settle. If any promise remains pending forever, `Promise.allSettled` also hangs.
+**This is a critical insight.** Both `Promise.all` and `Promise.allSettled` protect against rejections but NOT against hanging promises.
 
-**Property ID**: DL-PAR-003
-**Statement**: `∀ Promise.allSettled([p₁, ..., pₙ]): hangs if ∃ pᵢ that never resolves`
-
-**This is a critical insight.** Neither `Promise.all` nor `Promise.allSettled` protects against hanging promises.
-
-**Mitigation**: Always add timeouts:
+### 11.3 Safe Pattern: Timeout-Protected Parallel Execution
 
 ```typescript
 function withTimeout<T>(promise: Promise<T>, ms: number, fallback: T): Promise<T> {
@@ -860,6 +492,7 @@ function withTimeout<T>(promise: Promise<T>, ms: number, fallback: T): Promise<T
   ]);
 }
 
+// SAFE: All promises have timeouts
 const results = await Promise.allSettled([
   withTimeout(fetchUsers(), 5000, []),
   withTimeout(fetchPages(), 5000, []),
@@ -869,16 +502,16 @@ const results = await Promise.allSettled([
 
 ---
 
-## 10. Formal Deadlock Freedom Properties
+## 12. Formal Deadlock Freedom Properties
 
-### 10.1 Invariants
+### 12.1 Invariants
 
 ```
 // Invariant 1: V8 event loop is non-blocking
 ∀ await expression a: a yields control to event loop; a does not block
 
 // Invariant 2: No mutual exclusion in JavaScript
-∀ JavaScript execution context c: no locks, semaphores, or critical sections exist
+∀ JavaScript execution context c: no locks, semaphores, or critical sections
 
 // Invariant 3: Promise resolution is one-way
 ∀ promise p: p transitions pending → fulfilled/rejected exactly once
@@ -892,192 +525,154 @@ const results = await Promise.allSettled([
 // Invariant 6: Web Worker communication is message-based
 ∀ worker communication: postMessage creates independent copies; no shared memory
 
-// Invariant 7: Build-time is single-process
-∀ Astro build b: single Node.js process; no concurrent file modifications
+// Invariant 7: Yjs CRDT merge terminates
+∀ Yjs update u: merge(u) completes in O(n) time
+
+// Invariant 8: Plugin Worker is timeout-bounded
+∀ plugin message m: host waits ≤ timeout(m); Worker terminated if exceeded
 ```
 
-### 10.2 Properties Table
+### 12.2 Properties Table
 
-| Property ID  | Description                                   | Status | Verification                     |
-| ------------ | --------------------------------------------- | ------ | -------------------------------- |
-| DL-PROM-001  | Promise state immutability                    | Proven | ECMAScript specification         |
-| DL-PROM-002  | Circular promise chains cause hang            | Proven | Promise resolution semantics     |
-| DL-PROM-003  | Recursive promises terminate                  | Proven | Well-founded recursion           |
-| DL-PROM-004  | Promise.all hangs if any input hangs          | Proven | Promise.all specification        |
-| DL-PROM-005  | Promise.race hangs if all inputs hang         | Proven | Promise.race specification       |
-| DL-PROM-006  | Promise.allSettled hangs if any input hangs   | Proven | Promise.allSettled specification |
-| DL-ASYNC-001 | Sequential chain hangs if any step hangs      | Proven | async/await semantics            |
-| DL-ASYNC-002 | Parallel operations hang if Promise.all hangs | Proven | Promise.all semantics            |
-| DL-ASYNC-003 | Nested async loops are deadlock-free          | Proven | No shared mutable state          |
-| DL-ASYNC-004 | Error propagation in async chains             | Proven | try/catch semantics              |
-| DL-RES-001   | Cloudflare resources are lock-free            | Proven | HTTP API model                   |
-| DL-RES-002   | D1 batch atomicity                            | Proven | SQLite transaction semantics     |
-| DL-RES-003   | Cross-service dependencies form DAG           | Proven | Architecture design              |
-| DL-RES-004   | Multi-database access is sequential           | Proven | Independent services             |
-| DL-KV-001    | KV eventual consistency                       | Proven | KV specification                 |
-| DL-KV-002    | KV lost updates                               | Proven | KV eventual consistency          |
-| DL-KV-003    | KV list iteration inconsistency               | Proven | KV eventual consistency          |
-| DL-D1-001    | D1 queries queue, don't deadlock              | Proven | Connection pool model            |
-| DL-D1-002    | D1 batch atomicity                            | Proven | SQLite transaction semantics     |
-| DL-D1-003    | D1 long-running queries hold connections      | Proven | Connection pool model            |
-| DL-R2-001    | R2 last-write-wins                            | Proven | R2 consistency model             |
-| DL-R2-002    | R2 multipart upload atomicity                 | Proven | R2 specification                 |
-| DL-R2-003    | R2 concurrent downloads are safe              | Proven | R2 consistency model             |
-| DL-R2-004    | R2 download during upload returns null        | Proven | R2 consistency model             |
-| DL-DO-001    | DO handler that never completes blocks all    | Proven | DO single-threaded model         |
-| DL-DO-002    | Circular DO-to-DO calls cause deadlock        | Proven | DO execution model               |
-| DL-DO-003    | DO message flooding causes backpressure       | Proven | DO event queue model             |
-| DL-PAR-001   | Promise.all hangs if any input hangs          | Proven | Promise.all specification        |
-| DL-PAR-002   | Promise.race hangs if all inputs hang         | Proven | Promise.race specification       |
-| DL-PAR-003   | Promise.allSettled hangs if any input hangs   | Proven | Promise.allSettled specification |
+| Property ID | Description | Status | Verification |
+|-------------|-------------|--------|--------------|
+| DL-PROM-001 | Promise state immutability | Proven | ECMAScript specification |
+| DL-PROM-002 | Circular promise chains cause hang | Proven | Promise resolution semantics |
+| DL-PROM-004 | Promise.all hangs if any input hangs | Proven | Promise.all specification |
+| DL-PROM-005 | Promise.race hangs if all inputs hang | Proven | Promise.race specification |
+| DL-PROM-006 | Promise.allSettled hangs if any input hangs | Proven | Promise.allSettled specification |
+| DL-ASYNC-001 | Sequential chain hangs if any step hangs | Proven | async/await semantics |
+| DL-RES-001 | Cloudflare resources are lock-free | Proven | HTTP API model |
+| DL-RES-002 | D1 batch atomicity | Proven | SQLite transaction semantics |
+| DL-KV-001 | KV eventual consistency | Proven | KV specification |
+| DL-KV-002 | KV lost updates | Proven | KV eventual consistency |
+| DL-D1-001 | D1 queries queue, don't deadlock | Proven | Connection pool model |
+| DL-D1-002 | D1 batch atomicity | Proven | SQLite transaction semantics |
+| DL-R2-001 | R2 last-write-wins | Proven | R2 consistency model |
+| DL-R2-004 | R2 download during upload returns null | Proven | R2 consistency model |
+| DL-DO-001 | DO handler that never completes blocks all | Proven | DO single-threaded model |
+| DL-DO-002 | Circular DO-to-DO calls cause deadlock | Proven | DO execution model |
+| DL-DO-003 | DO message flooding causes backpressure | Proven | DO event queue model |
+| DL-DO-004 | DO handlers execute sequentially | Proven | DO single-threaded guarantee |
+| DL-ED-001 | Yjs WebSocket messages queue in DO | Proven | DO single-threaded |
+| DL-ED-002 | Yjs CRDT merge terminates | Proven | Yjs specification |
+| DL-ED-003 | Yjs awareness eventually consistent | Proven | Yjs specification |
+| DL-ED-004 | Yjs persistence atomic in DO | Proven | DO single-threaded |
+| DL-EXT-001 | Plugin Worker communication non-blocking | Proven | Web Worker API |
+| DL-EXT-002 | Plugin crash isolated | Proven | Worker.terminate() |
+| DL-EXT-003 | Plugin lifecycle timeout-bounded | Proven | Host-side timeout |
+| DL-EXT-004 | Plugin Worker terminated on timeout | Proven | Worker.terminate() |
+| DL-CT-001 | RegexSearch timeout bounded | Proven | 4-layer defense |
+| DL-SW-001 | SW fetch handlers non-blocking | Proven | Service Worker spec |
+| DL-SW-002 | Cache API operations atomic | Proven | Cache API spec |
+| DL-PAR-001 | Promise.all hangs if any input hangs | Proven | Promise.all specification |
+| DL-PAR-003 | Promise.allSettled hangs if any input hangs | Proven | Promise.allSettled specification |
+| **Total** | **31 properties** | **All Proven** | |
 
 ---
 
-## 11. Livelock and Starvation Analysis
+## 13. Livelock and Starvation Analysis
 
-### 11.1 Livelock Patterns
+### 13.1 Livelock Patterns
 
-Livelock occurs when processes continuously change state in response to each other but make no progress.
-
-#### 11.1.1 Pattern: Retry Storm
+#### 13.1.1 Retry Storm
 
 ```typescript
-// Pattern: Aggressive retry without backoff
+// DANGEROUS: Aggressive retry without backoff
 async function fetchWithRetry(url: string): Promise<Response> {
   while (true) {
-    try {
-      return await fetch(url);
-    } catch {
-      // Immediately retry — no backoff
-      // If the server is overloaded, this makes things worse
-    }
+    try { return await fetch(url); }
+    catch { /* Immediately retry — no backoff */ }
   }
 }
 ```
 
-**Analysis**: This is a livelock pattern. The client continuously retries, and the server continuously rejects.
+**Property DL-LIVE-001**: Retry without backoff may cause livelock under high concurrency.
 
-**Property ID**: DL-LIVE-001
-**Statement**: `∀ retry without backoff: may cause livelock under high concurrency`
+**Mitigation**: Exponential backoff with jitter.
 
-**Mitigation**: Exponential backoff with jitter:
+### 13.2 Starvation Patterns
 
-```typescript
-async function fetchWithBackoff(url: string, maxRetries: number = 3): Promise<Response> {
-  for (let i = 0; i < maxRetries; i++) {
-    try {
-      return await fetch(url);
-    } catch (error) {
-      if (i === maxRetries - 1) throw error;
-      const delay = Math.min(1000 * Math.pow(2, i) + Math.random() * 100, 10000);
-      await new Promise((resolve) => setTimeout(resolve, delay));
-    }
-  }
-  throw new Error("Max retries exceeded");
-}
-```
+#### 13.2.1 KV Write Starvation
 
-### 11.2 Starvation Patterns
+**Property DL-STAR-001**: `∀ concurrent KV increments: only one write succeeds; others are lost`
 
-Starvation occurs when a task never gets access to a resource.
+**Mitigation**: Use D1 atomic increment.
 
-#### 11.2.1 Pattern: KV Write Starvation
+#### 13.2.2 D1 Connection Starvation
 
-```typescript
-// Pattern: Many writes to same KV key
-async function incrementVisitCount(pageId: string) {
-  const key = `visits:${pageId}`;
-  const current = (await env.CACHE.get<number>(key)) ?? 0;
-  await env.CACHE.put(key, current + 1);
-}
-```
+**Property DL-STAR-002**: `∀ long-running D1 queries: simple queries may be starved of connections`
 
-**Analysis**: Under high concurrency, many requests read the same `current` value and write `current + 1`. Only one increment "sticks" — the rest are lost. This is **write starvation** (lost updates).
-
-**Property ID**: DL-STAR-001
-**Statement**: `∀ concurrent KV increments: only one write succeeds; others are lost`
-
-**Mitigation**: Use D1 atomic increment: `UPDATE pages SET view_count = view_count + 1 WHERE id = ?`
-
-#### 11.2.2 Pattern: D1 Connection Starvation
-
-```typescript
-// Pattern: Long-running query blocks pool
-async function complexQuery() {
-  return env.DB.prepare(
-    `
-    SELECT * FROM pages 
-    WHERE content LIKE '%angiotensin%' 
-    ORDER BY quality_score DESC
-  `,
-  ).all(); // May take seconds on large dataset
-}
-```
-
-**Analysis**: If many complex queries run concurrently, the connection pool may be exhausted, starving simple queries.
-
-**Property ID**: DL-STAR-002
-**Statement**: `∀ long-running D1 queries: simple queries may be starved of connections`
-
-**Mitigation**: Use pagination, limit query scope, add timeouts.
+**Mitigation**: Pagination, query scope limits, timeouts.
 
 ---
 
-## 12. Risk Register
+## 14. Risk Register
 
-| Risk ID  | Description                                  | Probability     | Impact | Risk Score | Mitigation                                 | Residual Risk |
-| -------- | -------------------------------------------- | --------------- | ------ | ---------- | ------------------------------------------ | ------------- |
-| R-DL-001 | Promise.all hangs due to one hanging promise | Medium          | High   | MH         | Timeout all promises; use AbortController  | Low           |
-| R-DL-002 | KV lost updates on concurrent writes         | High            | Medium | MH         | Use D1 for atomic operations               | Low           |
-| R-DL-003 | Circular DO-to-DO call deadlock              | Low             | High   | LH         | Architecture constraint: no DO-to-DO calls | Negligible    |
-| R-DL-004 | D1 connection pool exhaustion                | Low             | Medium | LM         | Rate limiting, pagination                  | Low           |
-| R-DL-005 | Retry storm (livelock)                       | Medium          | Medium | MM         | Exponential backoff with jitter            | Low           |
-| R-DL-006 | KV read-after-write inconsistency            | High (expected) | Low    | HL         | Use D1 for consistency-critical reads      | Low           |
-| R-DL-007 | R2 last-write-wins on concurrent uploads     | Medium          | Medium | MM         | Versioned keys, D1 metadata                | Low           |
-| R-DL-008 | DO handler that never completes              | Low             | High   | LH         | Timeouts for external calls                | Low           |
-| R-DL-009 | Nested async chain hangs                     | Medium          | Medium | MM         | Timeout each async operation               | Low           |
-| R-DL-010 | Starvation from long-running D1 queries      | Low             | Low    | LL         | Pagination, query scope limits             | Negligible    |
+| Risk ID | Component | Description | Probability | Impact | Risk Score | Mitigation | Residual |
+|---------|-----------|-------------|-------------|--------|------------|------------|----------|
+| R-DL-001 | All | Promise.all hangs due to hanging promise | Medium | High | MH | Timeout all promises | Low |
+| R-DL-002 | KV | Lost updates on concurrent writes | High | Medium | MH | Use D1 atomic operations | Low |
+| R-DL-003 | Durable Objects | Circular DO-to-DO call deadlock | Negligible | High | LH | Architecture constraint | Negligible |
+| R-DL-004 | D1 | Connection pool exhaustion | Low | Medium | LM | Rate limiting, pagination | Low |
+| R-DL-005 | All | Retry storm (livelock) | Medium | Medium | MM | Exponential backoff | Low |
+| R-DL-006 | KV | Read-after-write inconsistency | High (expected) | Low | HL | Use D1 for consistency | Low |
+| R-DL-007 | R2 | Last-write-wins on concurrent uploads | Medium | Medium | MM | Versioned keys | Low |
+| R-DL-008 | Durable Objects | Handler never completes | Low | High | LH | Timeouts for external calls | Low |
+| R-DL-009 | PluginAPI | Plugin infinite loop blocks Worker | Medium | Medium | MM | Host-side 5s timeout | Low |
+| R-DL-010 | RegexSearch | ReDoS blocks main thread | Medium | High | MH | 4-layer defense + timeout | Low |
+| R-DL-011 | Yjs | WebSocket message flood | Low | Low | LL | Client-side rate limiting | Negligible |
+| R-DL-012 | ServiceWorker | SW update loop | Low | Medium | LM | Version check, skipWaiting | Low |
 
 ---
 
-## 13. Recommendations
+## 15. Recommendations
 
-### 13.1 Immediate Actions
+### 15.1 Immediate Actions (Phase 3)
 
-1. **Add timeouts to all external calls**: Every KV, D1, R2, and DO fetch should have a timeout (5–30 seconds depending on operation).
+1. **Add timeouts to ALL external calls**: Every KV, D1, R2, DO, Forgejo, and WebSocket call must have a timeout (5–30 seconds).
 
-2. **Use `Promise.allSettled` instead of `Promise.all`** for independent operations. If one fails, others still succeed.
+2. **Use `Promise.allSettled` with timeouts**: Never use `Promise.all` for independent operations. Always pair with `withTimeout()`.
 
-3. **Use D1 for atomic operations**: Never implement read-modify-write patterns on KV. Use D1 `UPDATE ... SET col = col + 1` for atomic increments.
+3. **Use D1 for atomic operations**: Never implement read-modify-write on KV. Use D1 `UPDATE SET col = col + 1`.
 
-4. **Implement exponential backoff**: All retry logic must include backoff with jitter.
+4. **Implement exponential backoff**: All retry logic must use backoff with jitter (base 1000ms, max 10s).
 
-### 13.2 Architecture Constraints
+5. **Plugin Worker timeout**: All plugin messages must have a 5s host-side timeout. Terminate Worker on timeout.
 
-1. **No DO-to-DO calls**: Durable Objects must not call other Durable Objects. This prevents circular dependency deadlocks.
+### 15.2 Architecture Constraints
+
+1. **No DO-to-DO calls**: Durable Objects must not call other Durable Objects.
 
 2. **No mutable global state in Workers**: Use KV or D1 for cross-request state.
 
-3. **No synchronous blocking in async handlers**: All operations in async handlers must be non-blocking (use `await`).
+3. **All cache entries must have TTL**: No indefinite cache entries without explicit invalidation.
 
-### 13.3 Testing Requirements
+4. **All OCC edits must include baseRevision**: No blind writes.
 
-| Test Type        | Scope                         | Tool               | Frequency     |
-| ---------------- | ----------------------------- | ------------------ | ------------- |
-| Unit test        | Promise timeout behavior      | Vitest             | Every commit  |
-| Unit test        | Atomic increment correctness  | Vitest + Miniflare | Every commit  |
-| Integration test | Concurrent request handling   | Vitest + Miniflare | Every PR      |
-| Stress test      | D1 connection pool exhaustion | wrangler dev       | Before deploy |
-| Chaos test       | KV unavailability handling    | Vitest + Miniflare | Weekly        |
+5. **Plugin sandbox blocks DOM access**: Plugins execute in Web Worker with no DOM access.
 
-### 13.4 Monitoring Requirements
+### 15.3 Testing Requirements
 
-| Metric                                 | Alert Threshold | Action                         |
-| -------------------------------------- | --------------- | ------------------------------ |
-| D1 query latency                       | > 500ms (p99)   | Investigate slow queries       |
-| KV read-after-write inconsistency rate | > 1%            | Switch to D1 for affected keys |
-| Promise timeout rate                   | > 0.1%          | Investigate hanging operations |
-| DO handler duration                    | > 10 seconds    | Optimize handler logic         |
+| Test Type | Scope | Tool | Frequency |
+|-----------|-------|------|-----------|
+| Unit | Promise timeout behavior | Vitest | Every commit |
+| Unit | OCC conflict detection | Vitest + Miniflare | Every commit |
+| Unit | ReDoS defense effectiveness | Vitest | Every commit |
+| Integration | Concurrent request handling | Vitest + Miniflare | Every PR |
+| Integration | Plugin Worker isolation | Vitest + worker harness | Every PR |
+| Stress | D1 connection pool exhaustion | wrangler dev | Before deploy |
+| Chaos | KV unavailability handling | Vitest + Miniflare | Weekly |
+
+### 15.4 Monitoring Requirements
+
+| Metric | Alert Threshold | Action |
+|--------|----------------|--------|
+| D1 query latency | > 500ms (p99) | Investigate slow queries |
+| Promise timeout rate | > 0.1% | Investigate hanging operations |
+| DO handler duration | > 10 seconds | Optimize handler logic |
+| Plugin Worker timeout rate | > 1% | Investigate plugin performance |
+| OCC conflict rate | > 5% of edits | Investigate edit patterns |
 
 ---
 

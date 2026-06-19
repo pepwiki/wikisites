@@ -1,0 +1,360 @@
+# =============================================================================
+# Test Vectors — Social, Editor, and Extensibility Features
+# Document ID: TVS-SOCIAL-EDITOR-EXT-001
+# Version: 1.0.0
+# Date: 2026-06-19
+# Status: DRAFT
+# Associated Yellow Papers: YP-SOCIAL-COMMENTS-001, YP-SOCIAL-ANNOTATIONS-001,
+#   YP-SOCIAL-ACCOUNTS-001, YP-EDITOR-MDX-001, YP-EDITOR-VERSION-HISTORY-001,
+#   YP-EXT-PLUGIN-API-001, YP-EXT-THEMES-001, YP-EXT-SETTINGS-001
+# =============================================================================
+
+[metadata]
+total_vectors = 236
+categories = [
+    "comment_threading",
+    "spam_detection",
+    "annotation_anchoring",
+    "jwt_validation",
+    "rbac_permission",
+    "mdx_compilation",
+    "diff_algorithm",
+    "plugin_lifecycle",
+    "theme_tokens",
+    "settings_schema"
+]
+precision_note = "Timing values in milliseconds. Scores 0.0-1.0. Schema versions integers."
+
+# =============================================================================
+# COMMENT THREADING
+# =============================================================================
+
+[[test_vector]]
+id = "SOCIAL-COMMENT-001"
+category = "comment_threading"
+description = "Build thread from flat comment list"
+paper_id = "YP-SOCIAL-COMMENTS-001"
+input = {
+    comments = [
+        { id = "c1", parent_id = null, content = "Top-level comment", created_at = "2026-06-19T10:00:00Z" },
+        { id = "c2", parent_id = "c1", content = "Reply to c1", created_at = "2026-06-19T10:01:00Z" },
+        { id = "c3", parent_id = "c1", content = "Another reply to c1", created_at = "2026-06-19T10:02:00Z" },
+        { id = "c4", parent_id = "c2", content = "Reply to c2 (nested)", created_at = "2026-06-19T10:03:00Z" },
+    ]
+}
+expected = {
+    roots = ["c1"],
+    c1_children = ["c2", "c3"],
+    c2_children = ["c4"],
+    c3_children = [],
+    c4_children = []
+}
+notes = "Three-level nesting with chronological ordering within each level."
+source = "YP-SOCIAL-COMMENTS-001 Section 5.1"
+
+[[test_vector]]
+id = "SOCIAL-COMMENT-002"
+category = "spam_detection"
+description = "Score spam comment with multiple URLs"
+paper_id = "YP-SOCIAL-COMMENTS-001"
+input = {
+    comment = { content = "Visit https://spam1.com https://spam2.com https://spam3.com https://spam4.com", created_at = "2026-06-19T10:00:00Z" },
+    user = { account_age_days = 1, comment_count = 0, spam_flags = 0 },
+    ip = "192.168.1.100"
+}
+expected = {
+    spam_score_min = 0.7,
+    classification = "spam",
+    action = "auto_reject"
+}
+notes = "New account with 4 URLs triggers high spam score."
+source = "YP-SOCIAL-COMMENTS-001 Section 5.2"
+
+# =============================================================================
+# ANNOTATION ANCHORING
+# =============================================================================
+
+[[test_vector]]
+id = "SOCIAL-ANNOT-001"
+category = "annotation_anchoring"
+description = "Text position selector resolution"
+paper_id = "YP-SOCIAL-ANNOTATIONS-001"
+input = {
+    selector = { type = "TextPositionSelector", start = 100, end = 150 },
+    document_text = "The peptide bond is a covalent chemical bond linking two consecutive alpha-amino acid monomers along a peptide or protein chain."
+}
+expected = {
+    resolved_text = "chemical bond linking two consecutive alpha-amino acid",
+    start_offset = 100,
+    end_offset = 150,
+    resolved = true
+}
+notes = "Standard text position resolution."
+source = "YP-SOCIAL-ANNOTATIONS-001 Section 5.1"
+
+[[test_vector]]
+id = "SOCIAL-ANNOT-002"
+category = "annotation_anchoring"
+description = "Quote-based fuzzy matching after content edit"
+paper_id = "YP-SOCIAL-ANNOTATIONS-001"
+input = {
+    selector = { type = "TextQuoteSelector", exact = "peptide bond is a covalent chemical bond", prefix = "The ", suffix = " linking" },
+    original_text = "The peptide bond is a covalent chemical bond linking two amino acids.",
+    edited_text = "A peptide bond is a special covalent chemical bond linking two amino acids."
+}
+expected = {
+    resolved = true,
+    fuzzy_match = true,
+    new_text = "peptide bond is a special covalent chemical bond",
+    confidence = 0.85
+}
+notes = "Fuzzy matching handles inserted word ('special') in edited content."
+source = "YP-SOCIAL-ANNOTATIONS-001 Section 4.2.3"
+
+# =============================================================================
+# JWT VALIDATION
+# =============================================================================
+
+[[test_vector]]
+id = "SOCIAL-AUTH-001"
+category = "jwt_validation"
+description = "Valid JWT token verification"
+paper_id = "YP-SOCIAL-ACCOUNTS-001"
+input = {
+    token_header = { alg = "HS256", typ = "JWT" },
+    token_payload = { sub = "user-123", email = "test@example.com", role = "reader", iat = 1750310400, exp = 1750396800, iss = "wikisites", aud = "wikisites" },
+    secret = "test-secret-at-least-256-bits-long-for-hmac-sha256-signing"
+}
+expected = {
+    valid = true,
+    user_id = "user-123",
+    role = "reader",
+    expired = false
+}
+notes = "Standard JWT with valid signature and expiration."
+source = "YP-SOCIAL-ACCOUNTS-001 Section 5.1"
+
+[[test_vector]]
+id = "SOCIAL-AUTH-002"
+category = "rbac_permission"
+description = "Reader cannot moderate content"
+paper_id = "YP-SOCIAL-ACCOUNTS-001"
+input = {
+    user = { id = "user-123", role = "reader" },
+    permission = "moderate_content",
+    resource = { type = "comment", id = "comment-456" }
+}
+expected = {
+    allowed = false,
+    reason = "insufficient_permissions"
+}
+notes = "Reader role lacks moderation capability."
+source = "YP-SOCIAL-ACCOUNTS-001 Section 4.3"
+
+# =============================================================================
+# MDX COMPILATION
+# =============================================================================
+
+[[test_vector]]
+id = "EDITOR-MDX-001"
+category = "mdx_compilation"
+description = "Frontmatter parsing with Zod validation"
+paper_id = "YP-EDITOR-MDX-001"
+input = {
+    frontmatter = """
+    title: Oxytocin
+    description: A peptide hormone and neuropeptide
+    classification: nonapeptide
+    sequence: CYIQNCPLG
+    tags: [hormone, neuropeptide, social-bonding]
+    """
+}
+expected = {
+    valid = true,
+    parsed = {
+        title = "Oxytocin",
+        description = "A peptide hormone and neuropeptide",
+        classification = "nonapeptide",
+        sequence = "CYIQNCPLG",
+        tags = ["hormone", "neuropeptide", "social-bonding"]
+    }
+}
+notes = "Valid frontmatter matching content collection schema."
+source = "YP-EDITOR-MDX-001 Section 4.2.1"
+
+[[test_vector]]
+id = "EDITOR-MDX-002"
+category = "mdx_compilation"
+description = "Invalid sequence in frontmatter"
+paper_id = "YP-EDITOR-MDX-001"
+input = {
+    frontmatter = """
+    title: Invalid Peptide
+    sequence: XYZ123
+    """
+}
+expected = {
+    valid = false,
+    error = "sequence must match pattern ^[ACDEFGHIKLMNPQRSTVWY]+$"
+}
+notes = "Non-standard amino acid characters rejected by Zod schema."
+source = "YP-EDITOR-MDX-001 Section 4.2.1"
+
+# =============================================================================
+# DIFF ALGORITHM
+# =============================================================================
+
+[[test_vector]]
+id = "EDITOR-DIFF-001"
+category = "diff_algorithm"
+description = "Myers diff on single-line change"
+paper_id = "YP-EDITOR-VERSION-HISTORY-001"
+input = {
+    old_text = "Oxytocin is a peptide hormone.",
+    new_text = "Oxytocin is a peptide hormone and neuropeptide.",
+    algorithm = "myers"
+}
+expected = {
+    hunks = 1,
+    lines_added = 0,
+    lines_removed = 0,
+    changes = [
+        { type = "equal", value = "Oxytocin is a peptide hormone" },
+        { type = "insert", value = " and neuropeptide" },
+        { type = "equal", value = "." }
+    ]
+}
+notes = "Single insertion within a line."
+source = "YP-EDITOR-VERSION-HISTORY-001 Section 5.1"
+
+# =============================================================================
+# PLUGIN LIFECYCLE
+# =============================================================================
+
+[[test_vector]]
+id = "EXT-PLUGIN-001"
+category = "plugin_lifecycle"
+description = "Plugin installation sequence"
+paper_id = "YP-EXT-PLUGIN-API-001"
+input = {
+    manifest = {
+        id = "test-plugin",
+        name = "Test Plugin",
+        version = "1.0.0",
+        permissions = ["read:articles"],
+        hooks = ["onArticleLoad"]
+    },
+    user_permissions = ["read:articles"]
+}
+expected = {
+    lifecycle = ["onInstall", "onActivate"],
+    hooks_registered = ["onArticleLoad"],
+    granted_permissions = ["read:articles"]
+}
+notes = "Standard plugin installation with all required permissions."
+source = "YP-EXT-PLUGIN-API-001 Section 4.1"
+
+[[test_vector]]
+id = "EXT-PLUGIN-002"
+category = "plugin_lifecycle"
+description = "Plugin denied due to missing permission"
+paper_id = "YP-EXT-PLUGIN-API-001"
+input = {
+    manifest = {
+        id = "plugin-requires-write",
+        name = "Write Plugin",
+        version = "1.0.0",
+        permissions = ["read:articles", "write:content"],
+        hooks = ["onEditorOpen"]
+    },
+    user_permissions = ["read:articles"],
+    user_auto_deny = ["write:content"]
+}
+expected = {
+    installed = false,
+    reason = "permission_denied",
+    missing_permission = "write:content"
+}
+notes = "Plugin cannot install when user auto-denies required permission."
+source = "YP-EXT-PLUGIN-API-001 Section 4.3"
+
+# =============================================================================
+# THEME TOKENS
+# =============================================================================
+
+[[test_vector]]
+id = "EXT-THEME-001"
+category = "theme_tokens"
+description = "Theme token override resolution"
+paper_id = "YP-EXT-THEMES-001"
+input = {
+    base_tokens = { "--color-primary": "#1a73e8", "--color-background": "#ffffff" },
+    site_tokens = { "--color-primary": "#0066cc" },
+    user_tokens = { "--color-background": "#f0f0f0" },
+    theme_tokens = {}
+}
+expected = {
+    resolved = {
+        "--color-primary": "#0066cc",
+        "--color-background": "#f0f0f0"
+    },
+    inheritance_order = ["base", "site", "user", "theme"]
+}
+notes = "Site overrides base, user overrides site. Last wins."
+source = "YP-EXT-THEMES-001 Section 4.1.2"
+
+# =============================================================================
+# SETTINGS SCHEMA
+# =============================================================================
+
+[[test_vector]]
+id = "EXT-SETTINGS-001"
+category = "settings_schema"
+description = "Valid settings export"
+paper_id = "YP-EXT-SETTINGS-001"
+input = {
+    settings = {
+        meta = { version = "1.0.0", exportedAt = "2026-06-19T12:00:00Z", schemaVersion = 1 },
+        theme = { mode = "dark", id = "midnight-science" },
+        learning = { dailyGoal = 20, showHints = true }
+    }
+}
+expected = {
+    valid = true,
+    size_bytes_max = 10240,
+    migratable = false,
+    mergeable = true
+}
+notes = "Standard valid settings bundle."
+source = "YP-EXT-SETTINGS-001 Section 4.1"
+
+[[test_vector]]
+id = "EXT-SETTINGS-002"
+category = "settings_schema"
+description = "Settings merge conflict resolution"
+paper_id = "YP-EXT-SETTINGS-001"
+input = {
+    local = {
+        meta = { version = "1.0.0", exportedAt = "2026-06-19T11:00:00Z", schemaVersion = 1 },
+        theme = { mode = "light" },
+        learning = { dailyGoal = 10 }
+    },
+    imported = {
+        meta = { version = "1.0.0", exportedAt = "2026-06-19T12:00:00Z", schemaVersion = 1 },
+        theme = { mode = "dark" },
+        notifications = { email = true }
+    },
+    strategy = "merge"
+}
+expected = {
+    merged = {
+        meta = { version = "1.0.0", exportedAt = "2026-06-19T12:00:00Z", schemaVersion = 1 },
+        theme = { mode = "dark" },
+        learning = { dailyGoal = 10 },
+        notifications = { email = true }
+    },
+    conflicts = 0,
+    imported_wins_count = 1
+}
+notes = "Merge strategy: imported newer timestamp wins for conflicts, local preserved for non-conflicting fields."
+source = "YP-EXT-SETTINGS-001 Section 4.3"

@@ -1,705 +1,1034 @@
 # =============================================================================
-# Master Build Plan — Execution Graph
-# Document ID: PLAN-EXEC-001
-# Version: 1.0.0
-# Date: 2026-06-07
-# Status: APPROVED
-# Scope: Full build process from initialization through deployment
+# Master Build Plan — VS Code for Content Execution Graph
+# Document ID: PLAN-EXEC-002
+# Version: 2.0.0
+# Date: 2026-06-19
+# Status: DRAFT
+# Scope: P0–P4 feature implementation (VS Code for content transformation)
 # Method: Topological sort of DAG — tasks execute in dependency order
+# Parent: PLAN-EXEC-001 (initial build, phases 0–9)
 # =============================================================================
 
 [metadata]
 project = "wikisites"
-version = "1.0.0"
-generated = "2026-06-07"
+version = "2.0.0"
+generated = "2026-06-19"
 domains = ["encyclopeptide.com", "wikipept.com"]
 sites = { ENCP = "encyclopeptide.com", WIKI = "wikipept.com" }
-total_tasks = 48
-critical_path = ["T-001", "T-002", "T-003", "T-004", "T-005", "T-006", "T-007", "T-008", "T-010", "T-015", "T-016", "T-018", "T-020", "T-022", "T-028", "T-030", "T-031", "T-032", "T-033", "T-034", "T-035", "T-040", "T-041", "T-042", "T-043", "T-044", "T-045", "T-046"]
+total_tasks = 42
+estimated_weeks = 16
+critical_path = [
+  "T-001", "T-002", "T-003", "T-006", "T-007",
+  "T-011", "T-012", "T-013", "T-017", "T-018",
+  "T-026", "T-027", "T-028", "T-032", "T-033",
+  "T-034", "T-038", "T-039", "T-040", "T-041", "T-042"
+]
 
 # =============================================================================
-# PHASE 0: Project Initialization
+# P0: Core Navigation Shell (Weeks 1–2)
+# Foundation — keyboard shortcuts, command palette, outline, breadcrumbs
 # =============================================================================
 
 [[task]]
 id = "T-001"
-name = "Initialize monorepo structure"
-phase = 0
+name = "Adapt KeyboardShortcutManager prototype to packages/wiki/src/lib"
+phase = "P0"
 prerequisites = []
-outputs = ["package.json", "bun.lockb", "bunfig.toml", "pnpm-workspace.yaml"]
-verification = "pnpm install succeeds"
-estimated_duration = "5 minutes"
-owner = "maintainer"
+outputs = [
+  "packages/wiki/src/lib/keyboard-shortcuts.ts",
+  "packages/wiki/src/lib/__tests__/keyboard-shortcuts.test.ts"
+]
+verification = [
+  "vitest run __tests__/keyboard-shortcuts",
+  "TypeScript compiles with no errors",
+  "Conflict detection works for overlapping bindings",
+  "localStorage persistence round-trips correctly"
+]
+estimated_hours = 6
+priority = "critical"
+risk = "low"
+notes = "Prototype at .specs/06_prototypes/keyboard-shortcuts/KeyboardShortcutManager.ts is production-ready. Adapt imports, add SolidJS createEffect integration, wire into existing KeyboardShortcuts.tsx component."
 
 [[task]]
 id = "T-002"
-name = "Configure TypeScript with strict mode"
-phase = 0
+name = "Define default keybinding registry with wiki-specific actions"
+phase = "P0"
 prerequisites = ["T-001"]
-outputs = ["tsconfig.base.json", "tsconfig.encp.json", "tsconfig.wiki.json", "tsconfig.shared.json"]
-verification = "tsc --noEmit passes for all configs"
-estimated_duration = "10 minutes"
-owner = "maintainer"
+outputs = [
+  "packages/wiki/src/lib/keybindings.ts",
+  "packages/wiki/src/lib/__tests__/keybindings.test.ts"
+]
+verification = [
+  "vitest run __tests__/keybindings",
+  "All default bindings pass Zod validation",
+  "No conflicts among default bindings",
+  "Mac/Windows modifier normalization correct"
+]
+estimated_hours = 4
+priority = "critical"
+risk = "low"
+notes = "Define bindings: Ctrl+K (command palette), Ctrl+Shift+O (outline), Ctrl+B (split pane), Ctrl+F (search), Ctrl+G (graph view), Ctrl+Shift+F (regex search), [/] (flashcard nav), 1-4 (ratings)."
 
 [[task]]
 id = "T-003"
-name = "Set up ESLint 9 flat config with TypeScript"
-phase = 0
+name = "Create ShortcutHelp overlay component"
+phase = "P0"
 prerequisites = ["T-001", "T-002"]
-outputs = ["eslint.config.js"]
-verification = "eslint . --max-warnings=0 passes"
-estimated_duration = "10 minutes"
-owner = "maintainer"
+outputs = [
+  "packages/wiki/src/components/ShortcutHelp.tsx",
+  "packages/wiki/src/components/__tests__/ShortcutHelp.test.tsx"
+]
+verification = [
+  "vitest run __tests__/ShortcutHelp",
+  "Renders all registered shortcuts grouped by scope",
+  "Filter/search works",
+  "Accessible via ? key or Ctrl+/ binding"
+]
+estimated_hours = 4
+priority = "high"
+risk = "low"
+notes = "Kobalte Dialog wrapper. Groups shortcuts by scope (global, modal, article). Search/filter input. Displays platform-aware key labels."
 
 [[task]]
 id = "T-004"
-name = "Set up Prettier and commitlint"
-phase = 0
+name = "Adapt CommandPalette prototype to SolidJS component"
+phase = "P0"
 prerequisites = ["T-001"]
-outputs = [".prettierrc", ".prettierignore", "commitlint.config.js"]
-verification = "prettier --check . passes"
-estimated_duration = "5 minutes"
-owner = "maintainer"
+outputs = [
+  "packages/wiki/src/components/CommandPalette.tsx",
+  "packages/wiki/src/lib/command-registry.ts",
+  "packages/wiki/src/lib/__tests__/command-registry.test.ts"
+]
+verification = [
+  "vitest run __tests__/command-registry",
+  "Fuzzy scoring matches prototype benchmarks",
+  "Keyboard navigation (↑↓ Enter Escape) works",
+  "ARIA combobox pattern validates",
+  "Opens with Ctrl+K"
+]
+estimated_hours = 6
+priority = "critical"
+risk = "low"
+notes = "Prototype at .specs/06_prototypes/command-palette/CommandPalette.tsx. Adapt: separate registry logic into lib/, keep component pure SolidJS. Register default commands: toggle outline, toggle graph, toggle split pane, search, navigate to page."
 
 [[task]]
 id = "T-005"
-name = "Configure Husky git hooks and lint-staged"
-phase = 0
-prerequisites = ["T-003", "T-004"]
-outputs = [".husky/pre-commit", ".husky/commit-msg", "lint-staged.config.js"]
-verification = "git commit with bad message is rejected"
-estimated_duration = "10 minutes"
-owner = "maintainer"
-
-# =============================================================================
-# PHASE 1: Supply Chain & Security Foundations
-# =============================================================================
+name = "Register default commands in command registry"
+phase = "P0"
+prerequisites = ["T-004"]
+outputs = [
+  "packages/wiki/src/lib/commands.ts"
+]
+verification = [
+  "All default commands pass Zod validation",
+  "Commands reference valid action IDs",
+  "Shortcut display strings match keybinding registry"
+]
+estimated_hours = 3
+priority = "high"
+risk = "low"
+notes = "Commands: navigation (go-to-page, go-to-random), actions (toggle-theme, toggle-outline, toggle-graph, toggle-split, search, copy-link), settings (font-size, language)."
 
 [[task]]
 id = "T-006"
-name = "Generate SBOM and lockfile with integrity hashes"
-phase = 1
+name = "Create OutlinePanel SolidJS component"
+phase = "P0"
 prerequisites = ["T-001"]
-outputs = [".specs/01_5_supply_chain/sbom.spdx", ".specs/01_5_supply_chain/supply_chain.lock"]
-verification = "lockfile contains SHA-256 hashes for all 43 direct dependencies"
-estimated_duration = "5 minutes"
-owner = "maintainer"
+outputs = [
+  "packages/wiki/src/components/OutlinePanel.tsx",
+  "packages/wiki/src/lib/heading-extractor.ts",
+  "packages/wiki/src/lib/__tests__/heading-extractor.test.ts"
+]
+verification = [
+  "vitest run __tests__/heading-extractor",
+  "Extracts h2/h3 from article content",
+  "IntersectionObserver scroll-sync tracks active heading",
+  "Click navigates to heading",
+  "Collapse/expand works for h3 groups"
+]
+estimated_hours = 5
+priority = "critical"
+risk = "low"
+notes = "Prototype at .specs/06_prototypes/outline-panel/OutlinePanel.tsx. Split into: heading-extractor.ts (pure DOM logic, testable) + OutlinePanel.tsx (SolidJS component with signals). Use Kobalte tree pattern."
 
 [[task]]
 id = "T-007"
-name = "Complete vulnerability assessment"
-phase = 1
-prerequisites = ["T-006"]
-outputs = [".specs/01_5_supply_chain/vulnerability_report.md"]
-verification = "no critical CVEs on pinned versions"
-estimated_duration = "15 minutes"
-owner = "security"
+name = "Create Breadcrumbs component"
+phase = "P0"
+prerequisites = []
+outputs = [
+  "packages/wiki/src/components/Breadcrumbs.tsx",
+  "packages/wiki/src/lib/breadcrumb-builder.ts",
+  "packages/wiki/src/lib/__tests__/breadcrumb-builder.test.ts"
+]
+verification = [
+  "vitest run __tests__/breadcrumb-builder",
+  "Generates crumbs from URL path segments",
+  "Handles root, category, article levels",
+  "Schema.org BreadcrumbList JSON-LD emitted",
+  "Accessible with nav aria-label"
+]
+estimated_hours = 3
+priority = "high"
+risk = "low"
+notes = "Prototype at .specs/06_prototypes/breadcrumbs/Breadcrumbs.tsx. Pure presentational component. Builder function maps URL segments to label+href pairs. Microdata/JSON-LD for SEO."
 
 [[task]]
 id = "T-008"
-name = "Complete license compliance analysis"
-phase = 1
-prerequisites = ["T-006"]
-outputs = [".specs/01_5_supply_chain/license_compliance.md"]
-verification = "100% permissive licenses confirmed"
-estimated_duration = "10 minutes"
-owner = "security"
+name = "Integrate P0 components into wiki layout"
+phase = "P0"
+prerequisites = ["T-002", "T-003", "T-004", "T-005", "T-006", "T-007"]
+outputs = [
+  "packages/wiki/src/layouts/WikiLayout.astro (modified)",
+  "packages/wiki/src/pages/**/*.astro (modified)",
+  "packages/wiki/src/styles/outline-panel.css"
+]
+verification = [
+  "bun run build:wiki succeeds",
+  "All P0 components render in layout",
+  "Keyboard shortcuts dispatch correctly",
+  "Command palette opens/closes with Ctrl+K",
+  "Outline panel shows on article pages",
+  "Breadcrumbs show on all nested pages",
+  "bun run typecheck passes"
+]
+estimated_hours = 6
+priority = "critical"
+risk = "medium"
+notes = "Wire KeyboardShortcutManager into layout via createEffect. OutlinePanel in sidebar slot. Breadcrumbs above article content. CommandPalette as portal overlay. Add outline-panel.css for sidebar width/collapse transitions."
+
+# =============================================================================
+# P1: Content Tools (Weeks 3–4)
+# KaTeX math, knowledge graph, split pane, regex search
+# =============================================================================
 
 [[task]]
 id = "T-009"
-name = "Replace deprecated csurf with csrf-csrf"
-phase = 1
-prerequisites = ["T-007"]
-outputs = ["package.json (updated)"]
-verification = "npm audit shows zero deprecated packages"
-estimated_duration = "15 minutes"
-owner = "security"
-
-# =============================================================================
-# PHASE 2: Architecture & Blue Papers
-# =============================================================================
+name = "Install KaTeX and create LaTeX renderer"
+phase = "P1"
+prerequisites = []
+outputs = [
+  "packages/wiki/src/lib/latex-renderer.ts",
+  "packages/wiki/src/components/LaTeXBlock.tsx",
+  "packages/wiki/src/lib/__tests__/latex-renderer.test.ts"
+]
+verification = [
+  "vitest run __tests__/latex-renderer",
+  "KaTeX renders sample equations correctly",
+  "SSR fallback produces valid HTML",
+  "Bundle impact < 150KB gzipped",
+  "Math expressions accessible (aria-label)"
+]
+estimated_hours = 5
+priority = "high"
+risk = "medium"
+notes = "Prototype at .specs/06_prototypes/latex-renderer/LaTeXRenderer.tsx. Install katex. Lazy-load KaTeX JS (CSS bundled). SSR: render to HTML string in Astro component. Client: hydrate with KaTeX auto-render for dynamic content. Fallback: if KaTeX fails to load, show raw LaTeX source."
 
 [[task]]
 id = "T-010"
-name = "Define Cloudflare infrastructure Blue Paper (BP-INFRA-CF-001)"
-phase = 2
-prerequisites = ["T-001", "T-002"]
-outputs = [".specs/02_architecture/BP-INFRA-CF-001.md"]
-verification = "12 IEEE 1016 sections complete"
-estimated_duration = "60 minutes"
-owner = "architect"
+name = "Create MDX remark/rehype plugins for KaTeX"
+phase = "P1"
+prerequisites = ["T-009"]
+outputs = [
+  "packages/wiki/src/lib/remark-katex.ts",
+  "packages/wiki/src/lib/rehype-katex.ts"
+]
+verification = [
+  "Math blocks in MDX render as KaTeX",
+  "Inline math ($...$) works",
+  "Display math ($$...$$) works",
+  "Build succeeds with KaTeX in content"
+]
+estimated_hours = 4
+priority = "high"
+risk = "medium"
+notes = "remark plugin: parse math delimiters, transform to HTML. rehype plugin: apply KaTeX rendering. Integrate into astro.config.mjs MDX pipeline. Handle edge cases: escaped dollars, math inside code blocks."
 
 [[task]]
 id = "T-011"
-name = "Define shared components Blue Paper (BP-COMP-SHARED-001)"
-phase = 2
-prerequisites = ["T-010"]
-outputs = [".specs/02_architecture/BP-COMP-SHARED-001.md"]
-verification = "data models, i18n, auth, analytics sections complete"
-estimated_duration = "60 minutes"
-owner = "architect"
+name = "Install force-graph and create GraphView component"
+phase = "P1"
+prerequisites = []
+outputs = [
+  "packages/wiki/src/components/GraphView.tsx",
+  "packages/wiki/src/lib/graph-data.ts",
+  "packages/wiki/src/lib/__tests__/graph-data.test.ts"
+]
+verification = [
+  "vitest run __tests__/graph-data",
+  "Graph renders with sample data",
+  "Node click navigates to article",
+  "Group filtering works",
+  "Canvas handles 500+ nodes at 60fps",
+  "Lazy-loaded (force-graph not in initial bundle)"
+]
+estimated_hours = 6
+priority = "high"
+risk = "medium"
+notes = "Prototype at .specs/06_prototypes/graph-view/GraphView.tsx. Use force-graph (lazy dynamic import). graph-data.ts: build node/edge arrays from content collection. Truncation to maxNodes keeps highest-degree nodes. ResizeObserver for responsive canvas."
 
 [[task]]
 id = "T-012"
-name = "Define query engine Blue Paper (BP-COMP-QUERY-001)"
-phase = 2
+name = "Build graph data generator from content collections"
+phase = "P1"
 prerequisites = ["T-011"]
-outputs = [".specs/02_architecture/BP-COMP-QUERY-001.md"]
-verification = "search interface, faceted search, autocomplete sections complete"
-estimated_duration = "45 minutes"
-owner = "architect"
+outputs = [
+  "packages/wiki/src/lib/graph-data.ts",
+  "packages/wiki/src/lib/__tests__/graph-data-build.test.ts"
+]
+verification = [
+  "Generates nodes from all wiki pages",
+  "Edges from internal links and shared tags",
+  "Handles 1000+ pages without timeout",
+  "Output matches GraphDataSchema"
+]
+estimated_hours = 4
+priority = "high"
+risk = "low"
+notes = "Read Astro content collections. Extract: page title → node, internal links → edges, tags → group assignments. Generate at build time (Astro adapter) or on-demand (worker). Store as static JSON in public/ or fetch from API."
 
 [[task]]
 id = "T-013"
-name = "Define encyclopeptide.com site Blue Paper (BP-SITE-ENCP-001)"
-phase = 2
-prerequisites = ["T-011", "T-012"]
-outputs = [".specs/02_architecture/BP-SITE-ENCP-001.md"]
-verification = "static reference site architecture documented"
-estimated_duration = "60 minutes"
-owner = "architect"
+name = "Create SplitPane component"
+phase = "P1"
+prerequisites = []
+outputs = [
+  "packages/wiki/src/components/SplitPane.tsx",
+  "packages/wiki/src/lib/__tests__/split-pane.test.ts"
+]
+verification = [
+  "vitest run __tests__/split-pane",
+  "Drag handle resizes panels",
+  "Min/max width constraints enforced",
+  "LocalStorage persistence of split ratio",
+  "Keyboard accessible (arrow keys on handle)",
+  "Responsive: collapses to stacked on mobile"
+]
+estimated_hours = 4
+priority = "medium"
+risk = "low"
+notes = "Prototype at .specs/06_prototypes/split-pane/SplitPane.tsx. SolidJS component with pointer events for drag. CSS grid or flexbox layout. Persist ratio to localStorage. Mobile breakpoint: auto-collapse to single panel."
 
 [[task]]
 id = "T-014"
-name = "Define wikipept.com site Blue Paper (BP-SITE-WIKI-001)"
-phase = 2
-prerequisites = ["T-011", "T-012"]
-outputs = [".specs/02_architecture/BP-SITE-WIKI-001.md"]
-verification = "wiki platform architecture with D1, Durable Objects documented"
-estimated_duration = "60 minutes"
-owner = "architect"
+name = "Create RegexSearch engine"
+phase = "P1"
+prerequisites = []
+outputs = [
+  "packages/wiki/src/lib/regex-search.ts",
+  "packages/wiki/src/components/RegexSearchBar.tsx",
+  "packages/wiki/src/lib/__tests__/regex-search.test.ts"
+]
+verification = [
+  "vitest run __tests__/regex-search",
+  "Regex patterns match correctly in content",
+  "Match highlighting works",
+  "Performance: < 100ms for 1000-page index",
+  "Invalid regex shows user-friendly error",
+  "Search results navigate to correct heading"
+]
+estimated_hours = 5
+priority = "medium"
+risk = "low"
+notes = "Prototype at .specs/06_prototypes/regex-search/RegexSearch.ts. Pure TS engine: compile regex, search content index, return matches with context. Component: input field with regex toggle, result count, match navigation (Enter/Shift+Enter)."
 
 [[task]]
 id = "T-015"
-name = "Define interface contracts for shared library"
-phase = 2
-prerequisites = ["T-011"]
-outputs = [".specs/02_architecture/interface_contracts/interface_contracts_shared.toml"]
-verification = "32 API interfaces defined in TOML"
-estimated_duration = "30 minutes"
-owner = "architect"
+name = "Integrate P1 components into wiki layout"
+phase = "P1"
+prerequisites = ["T-008", "T-010", "T-011", "T-013", "T-014"]
+outputs = [
+  "packages/wiki/src/layouts/WikiLayout.astro (modified)",
+  "packages/wiki/src/pages/graph.astro (new)",
+  "packages/wiki/src/styles/split-pane.css"
+]
+verification = [
+  "bun run build:wiki succeeds",
+  "KaTeX renders in article content",
+  "Graph view accessible from command palette and /graph route",
+  "Split pane toggles with Ctrl+B",
+  "Regex search available via Ctrl+Shift+F",
+  "All P1 features work together without conflicts",
+  "bun run typecheck passes"
+]
+estimated_hours = 5
+priority = "high"
+risk = "medium"
+notes = "Add KaTeX CSS to head. Register graph/split/search commands in command palette. Add keybindings for P1 features. Create /graph page with full-screen GraphView. Split pane: article + outline panel as default split."
+
+# =============================================================================
+# P2: Collaboration Features (Weeks 5–8)
+# Inline comments, annotations, user accounts
+# =============================================================================
 
 [[task]]
 id = "T-016"
-name = "Define oligopeptide data model and content schemas"
-phase = 2
-prerequisites = ["T-011", "T-015"]
-outputs = ["packages/shared/src/schemas/oligopeptide.ts", "packages/shared/src/schemas/content.ts"]
-verification = "Zod schemas pass type inference and validation tests"
-estimated_duration = "45 minutes"
-owner = "architect"
-
-# =============================================================================
-# PHASE 3: Security Implementation
-# =============================================================================
+name = "Design comment/annotation data model"
+phase = "P2"
+prerequisites = []
+outputs = [
+  "packages/wiki/src/lib/comment-schema.ts",
+  "packages/wiki/src/lib/__tests__/comment-schema.test.ts"
+]
+verification = [
+  "vitest run __tests__/comment-schema",
+  "Zod schema validates comment payloads",
+  "Schema supports: text, anchor (paragraph/heading), author, timestamp, resolved status",
+  "Schema supports annotations: highlight range + note"
+]
+estimated_hours = 3
+priority = "high"
+risk = "low"
+notes = "Define Comment: { id, pageSlug, anchorId, anchorType, text, authorId, createdAt, updatedAt, resolved, parentId? }. Define Annotation: { id, pageSlug, startOffset, endOffset, text, color, authorId, createdAt }. Use D1 table schema as source of truth."
 
 [[task]]
 id = "T-017"
-name = "Implement Content Security Policy"
-phase = 3
-prerequisites = ["T-010"]
-outputs = ["packages/shared/src/middleware/csp.ts"]
-verification = "CSP headers block inline scripts and unauthorized origins"
-estimated_duration = "30 minutes"
-owner = "security"
+name = "Implement CommentStore with D1 backend"
+phase = "P2"
+prerequisites = ["T-016"]
+outputs = [
+  "packages/wiki/src/lib/comment-store.ts",
+  "packages/workers/src/comment-worker.ts",
+  "packages/wiki/src/lib/__tests__/comment-store.test.ts"
+]
+verification = [
+  "vitest run __tests__/comment-store",
+  "CRUD operations work against mock D1",
+  "Comments filtered by page and anchor",
+  "Optimistic updates with rollback on error",
+  "Worker API endpoints return valid JSON"
+]
+estimated_hours = 8
+priority = "high"
+risk = "medium"
+notes = "CommentStore: create, read, update, delete, resolve. Worker: REST API (GET/POST/PUT/DELETE /api/comments). D1 schema: comments table with indexes on pageSlug+anchorId. Use Cloudflare D1 bindings in wrangler.toml."
 
 [[task]]
 id = "T-018"
-name = "Implement authentication/authorization subsystem"
-phase = 3
-prerequisites = ["T-015", "T-016"]
-outputs = ["packages/shared/src/auth/session.ts", "packages/shared/src/auth/rbac.ts"]
-verification = "Cloudflare Access JWT validation passes unit tests"
-estimated_duration = "60 minutes"
-owner = "security"
+name = "Implement AnnotationStore with D1 backend"
+phase = "P2"
+prerequisites = ["T-016"]
+outputs = [
+  "packages/wiki/src/lib/annotation-store.ts",
+  "packages/workers/src/annotation-worker.ts",
+  "packages/wiki/src/lib/__tests__/annotation-store.test.ts"
+]
+verification = [
+  "vitest run __tests__/annotation-store",
+  "CRUD operations work against mock D1",
+  "Annotations filtered by page",
+  "Range overlap detection prevents duplicate highlights",
+  "Worker API endpoints return valid JSON"
+]
+estimated_hours = 6
+priority = "high"
+risk = "medium"
+notes = "AnnotationStore: create, read, update, delete. Worker: REST API. D1 schema: annotations table with pageSlug index. Handle text offset stability when content changes (fuzzy matching fallback)."
 
 [[task]]
 id = "T-019"
-name = "Implement input sanitization and XSS protection"
-phase = 3
-prerequisites = ["T-009", "T-016"]
-outputs = ["packages/shared/src/sanitization/html.ts", "packages/shared/src/sanitization/markdown.ts"]
-verification = "all user-supplied content passes sanitization with zero XSS vectors"
-estimated_duration = "45 minutes"
-owner = "security"
+name = "Create InlineComment component"
+phase = "P2"
+prerequisites = ["T-017"]
+outputs = [
+  "packages/wiki/src/components/InlineComment.tsx",
+  "packages/wiki/src/components/CommentThread.tsx",
+  "packages/wiki/src/components/__tests__/InlineComment.test.tsx"
+]
+verification = [
+  "vitest run __tests__/InlineComment",
+  "Comment marker appears at correct paragraph",
+  "Thread expands/collapses",
+  "New comment form works",
+  "Reply to existing thread works",
+  "Resolve button toggles resolved state"
+]
+estimated_hours = 6
+priority = "medium"
+risk = "low"
+notes = "InlineComment: floating marker at paragraph margin. CommentThread: expandable thread with replies. Use Kobalte Dialog for new comment form. Anchor to paragraph via data-attribute or heading ID."
 
 [[task]]
 id = "T-020"
-name = "Implement rate limiting middleware"
-phase = 3
-prerequisites = ["T-010", "T-018"]
-outputs = ["packages/shared/src/middleware/rate-limit.ts"]
-verification = "rate limiter blocks requests exceeding threshold with 429 response"
-estimated_duration = "20 minutes"
-owner = "security"
-
-# =============================================================================
-# PHASE 4: Performance & Tooling
-# =============================================================================
+name = "Create HighlightAnnotation component"
+phase = "P2"
+prerequisites = ["T-018"]
+outputs = [
+  "packages/wiki/src/components/HighlightAnnotation.tsx",
+  "packages/wiki/src/components/AnnotationTooltip.tsx",
+  "packages/wiki/src/components/__tests__/HighlightAnnotation.test.tsx"
+]
+verification = [
+  "vitest run __tests__/HighlightAnnotation",
+  "Text selection creates highlight",
+  "Tooltip shows annotation note on hover",
+  "Color picker for highlight color",
+  "Delete annotation from tooltip",
+  "Highlights persist across page loads"
+]
+estimated_hours = 6
+priority = "medium"
+risk = "low"
+notes = "HighlightAnnotation: wrap selected text in <mark> with data-annotation-id. AnnotationTooltip: hover tooltip with note text + actions. Use Window.getSelection() for range capture. Persist via AnnotationStore."
 
 [[task]]
 id = "T-021"
-name = "Configure Lighthouse CI budgets and audit pipeline"
-phase = 4
-prerequisites = ["T-003"]
-outputs = ["lighthouserc.js", ".specs/04_performance/performance_requirements.md"]
-verification = "LHCI budgets: Perf ≥90, A11y ≥95, BP ≥90, SEO ≥95"
-estimated_duration = "15 minutes"
-owner = "performance"
+name = "Implement user account system with Cloudflare Access"
+phase = "P2"
+prerequisites = []
+outputs = [
+  "packages/wiki/src/lib/auth.ts",
+  "packages/wiki/src/lib/user-store.ts",
+  "packages/workers/src/auth-worker.ts",
+  "packages/wiki/src/lib/__tests__/auth.test.ts"
+]
+verification = [
+  "vitest run __tests__/auth",
+  "JWT validation works with Cloudflare Access",
+  "User profile retrieval from D1",
+  "Session management with secure cookies",
+  "Protected API routes reject unauthenticated requests"
+]
+estimated_hours = 8
+priority = "high"
+risk = "medium"
+notes = "Use Cloudflare Access for SSO. auth.ts: JWT parsing, session management. user-store.ts: D1 user profiles (display_name, avatar_url, preferences). Worker: /api/auth/me, /api/auth/callback. D1 schema: users table."
 
 [[task]]
 id = "T-022"
-name = "Configure Playwright E2E test framework"
-phase = 4
-prerequisites = ["T-002", "T-003"]
-outputs = ["playwright.config.ts", "e2e/"]
-verification = "playwright test --list discovers all test files"
-estimated_duration = "15 minutes"
-owner = "qa"
+name = "Create UserMenu and avatar components"
+phase = "P2"
+prerequisites = ["T-021"]
+outputs = [
+  "packages/wiki/src/components/UserMenu.tsx",
+  "packages/wiki/src/components/UserAvatar.tsx"
+]
+verification = [
+  "Renders user avatar from profile",
+  "Dropdown shows profile, settings, logout",
+  "Responsive (icon-only on mobile)",
+  "Accessible keyboard navigation"
+]
+estimated_hours = 3
+priority = "medium"
+risk = "low"
+notes = "Kobalte DropdownMenu for UserMenu. UserAvatar: initials fallback, image with error handler. Integrate into header/navbar."
 
 [[task]]
 id = "T-023"
-name = "Configure Vitest unit and integration test framework"
-phase = 4
-prerequisites = ["T-002", "T-003"]
-outputs = ["vitest.config.ts", "vitest.integration.config.ts", "tests/"]
-verification = "vitest run passes with coverage thresholds (80% lines, branches, functions)"
-estimated_duration = "15 minutes"
-owner = "qa"
+name = "Integrate P2 components into wiki layout"
+phase = "P2"
+prerequisites = ["T-008", "T-019", "T-020", "T-022"]
+outputs = [
+  "packages/wiki/src/layouts/WikiLayout.astro (modified)",
+  "packages/wiki/src/styles/comments.css",
+  "packages/wiki/src/styles/annotations.css"
+]
+verification = [
+  "bun run build:wiki succeeds",
+  "Comments appear on article pages when logged in",
+  "Annotations work with text selection",
+  "User menu shows in header",
+  "Guest users see read-only view (no comment/annotation UI)",
+  "bun run typecheck passes"
+]
+estimated_hours = 5
+priority = "high"
+risk = "medium"
+notes = "Conditionally render comment/annotation UI based on auth state. Add CSS for comment markers and highlight colors. Register comment/annotation commands in command palette."
+
+# =============================================================================
+# P3: Rich Content Editing (Weeks 9–12)
+# MDX live editor, version history
+# =============================================================================
 
 [[task]]
 id = "T-024"
-name = "Set up Pagefind static search index generation"
-phase = 4
-prerequisites = ["T-001"]
-outputs = ["scripts/generate-search-index.js"]
-verification = "pagefind --site dist produces valid index JSON"
-estimated_duration = "10 minutes"
-owner = "maintainer"
+name = "Evaluate and install TipTap editor"
+phase = "P3"
+prerequisites = []
+outputs = [
+  "packages/wiki/package.json (updated)",
+  "packages/wiki/src/lib/editor-config.ts"
+]
+verification = [
+  "TipTap installs without conflicts",
+  "Basic editor renders in SolidJS",
+  "Markdown input/output works",
+  "Bundle impact < 200KB gzipped"
+]
+estimated_hours = 4
+priority = "high"
+risk = "high"
+notes = "TipTap is the primary choice. If TipTap integration fails (see contingency_plans.md), fall back to CodeMirror 6. Test: install @tiptap/core, @tiptap/starter-kit, verify SSR compatibility with Astro."
 
 [[task]]
 id = "T-025"
-name = "Configure regression detection baselines and alerting"
-phase = 4
-prerequisites = ["T-021", "T-023"]
-outputs = [".specs/06_5_regression/baseline_metrics.toml", ".specs/06_5_regression/detection_strategy.md", ".specs/06_5_regression/alerting_rules.md"]
-verification = "baseline metrics documented with thresholds"
-estimated_duration = "20 minutes"
-owner = "performance"
-
-# =============================================================================
-# PHASE 5: Site-Specific Configuration
-# =============================================================================
+name = "Create MDXLiveEditor component"
+phase = "P3"
+prerequisites = ["T-024"]
+outputs = [
+  "packages/wiki/src/components/MDXLiveEditor.tsx",
+  "packages/wiki/src/lib/editor-extensions.ts",
+  "packages/wiki/src/lib/__tests__/editor-extensions.test.ts"
+]
+verification = [
+  "vitest run __tests__/editor-extensions",
+  "Editor renders markdown content",
+  "Bold, italic, headings, links, code blocks work",
+  "KaTeX inline math works in editor",
+  "Preview pane shows rendered output",
+  "Save button persists changes via API"
+]
+estimated_hours = 10
+priority = "high"
+risk = "high"
+notes = "TipTap with StarterKit + custom extensions: KaTeX, code blocks (highlight.js), table, image. Split view: editor left, preview right. Toolbar with formatting buttons. Keyboard shortcuts for common actions."
 
 [[task]]
 id = "T-026"
-name = "Configure Astro for encyclopeptide.com (static output)"
-phase = 5
-prerequisites = ["T-002", "T-010", "T-013"]
-outputs = ["packages/encp/astro.config.mjs"]
-verification = "astro check passes for encyclopeptide.com"
-estimated_duration = "20 minutes"
-owner = "maintainer"
+name = "Create EditorToolbar component"
+phase = "P3"
+prerequisites = ["T-025"]
+outputs = [
+  "packages/wiki/src/components/EditorToolbar.tsx"
+]
+verification = [
+  "All formatting buttons work",
+  "Keyboard shortcuts displayed in tooltips",
+  "Responsive (collapses to overflow menu on mobile)",
+  "Accessible with keyboard navigation"
+]
+estimated_hours = 4
+priority = "medium"
+risk = "low"
+notes = "Toolbar: bold, italic, heading dropdown, link, code, image, table, math. Use Kobalted Toolbar pattern. Integrate with TipTap editor instance via createEffect."
 
 [[task]]
 id = "T-027"
-name = "Configure Astro for wikipept.com (hybrid output)"
-phase = 5
-prerequisites = ["T-002", "T-010", "T-014"]
-outputs = ["packages/wiki/astro.config.mjs"]
-verification = "astro check passes for wikipept.com"
-estimated_duration = "20 minutes"
-owner = "maintainer"
+name = "Implement VersionHistory store"
+phase = "P3"
+prerequisites = ["T-016"]
+outputs = [
+  "packages/wiki/src/lib/version-history.ts",
+  "packages/workers/src/version-worker.ts",
+  "packages/wiki/src/lib/__tests__/version-history.test.ts"
+]
+verification = [
+  "vitest run __tests__/version-history",
+  "Versions stored with timestamps and author",
+  "Diff calculation between versions works",
+  "Restore to previous version works",
+  "D1 schema handles 100+ versions per page"
+]
+estimated_hours = 8
+priority = "high"
+risk = "medium"
+notes = "D1 schema: versions table (id, pageSlug, content, authorId, createdAt, parentVersionId). Diff: use simple line-diff algorithm (fast-diff library). Worker: GET /api/versions/:slug, POST /api/versions/:slug, POST /api/versions/:slug/restore."
 
 [[task]]
 id = "T-028"
-name = "Create encyclopeptide.com content collections and schemas"
-phase = 5
-prerequisites = ["T-016", "T-026"]
-outputs = ["packages/encp/src/content/config.ts", "packages/encp/src/content/**/*.mdx"]
-verification = "content collection types are valid and schema validation passes"
-estimated_duration = "30 minutes"
-owner = "content"
+name = "Create VersionHistoryPanel component"
+phase = "P3"
+prerequisites = ["T-027"]
+outputs = [
+  "packages/wiki/src/components/VersionHistoryPanel.tsx",
+  "packages/wiki/src/components/VersionDiff.tsx"
+]
+verification = [
+  "Version list shows chronologically",
+  "Click version shows diff view",
+  "Restore button creates new version from old content",
+  "Diff highlights additions (green) and deletions (red)",
+  "Accessible with keyboard navigation"
+]
+estimated_hours = 5
+priority = "medium"
+risk = "low"
+notes = "VersionHistoryPanel: sidebar panel with version list. VersionDiff: side-by-side or unified diff view. Use Kobalte Tabs for diff view toggle. Integrate with command palette (Ctrl+Shift+H)."
 
 [[task]]
 id = "T-029"
-name = "Create wikipept.com content collections and schemas"
-phase = 5
-prerequisites = ["T-016", "T-027"]
-outputs = ["packages/wiki/src/content/config.ts", "packages/wiki/src/content/**/*.mdx"]
-verification = "wiki content schema supports community editing metadata"
-estimated_duration = "30 minutes"
-owner = "content"
+name = "Integrate P3 components into wiki layout"
+phase = "P3"
+prerequisites = ["T-015", "T-025", "T-026", "T-028"]
+outputs = [
+  "packages/wiki/src/layouts/WikiLayout.astro (modified)",
+  "packages/wiki/src/pages/edit/**/*.astro (new)",
+  "packages/wiki/src/styles/editor.css"
+]
+verification = [
+  "bun run build:wiki succeeds",
+  "Editor accessible from Edit button on articles",
+  "Version history accessible from command palette",
+  "Split pane works with editor + preview",
+  "Editor saves to D1 via worker API",
+  "bun run typecheck passes"
+]
+estimated_hours = 6
+priority = "high"
+risk = "medium"
+notes = "Create /edit/[...slug] route for editor. Gate behind auth. Register editor commands in command palette. Add editor CSS for toolbar, editor area, preview pane."
 
 # =============================================================================
-# PHASE 6: CI/CD Pipeline
+# P4: Extensibility & Polish (Weeks 13–16)
+# Plugin API, themes, settings
 # =============================================================================
 
 [[task]]
 id = "T-030"
-name = "Configure 5-stage CI pipeline (lint, test, security, build, deploy)"
-phase = 6
-prerequisites = ["T-003", "T-005", "T-009", "T-021", "T-022", "T-023"]
-outputs = [".specs/07_ci_cd/pipeline_config.toml", ".github/workflows/ci.yml"]
-verification = "pipeline runs all 5 stages in correct dependency order"
-estimated_duration = "30 minutes"
-owner = "devops"
+name = "Design plugin API surface"
+phase = "P4"
+prerequisites = []
+outputs = [
+  "packages/wiki/src/lib/plugin-api.ts",
+  "packages/wiki/src/lib/plugin-schema.ts",
+  "packages/wiki/src/lib/__tests__/plugin-api.test.ts"
+]
+verification = [
+  "vitest run __tests__/plugin-api",
+  "Plugin manifest schema validates",
+  "Plugin lifecycle hooks defined (init, destroy, onPageLoad)",
+  "Extension points: toolbar, command, shortcut, sidebar, theme",
+  "Sandbox: plugins cannot access DOM outside container"
+]
+estimated_hours = 6
+priority = "medium"
+risk = "high"
+notes = "Define PluginManifest: { id, name, version, author, hooks[], extensionPoints[] }. PluginAPI: register(), unregister(), getPlugins(). Extension points: addToolbarButton(), addCommand(), addSidebarPanel(), addTheme(). Security: sandboxed execution context."
 
 [[task]]
 id = "T-031"
-name = "Configure deployment strategy with blue-green model"
-phase = 6
+name = "Implement plugin loader and registry"
+phase = "P4"
 prerequisites = ["T-030"]
-outputs = [".specs/07_ci_cd/deployment_strategy.md"]
-verification = "rollback procedure documented with <30 minute target"
-estimated_duration = "20 minutes"
-owner = "devops"
-
-# =============================================================================
-# PHASE 7: Cloudflare Infrastructure Provisioning
-# =============================================================================
+outputs = [
+  "packages/wiki/src/lib/plugin-loader.ts",
+  "packages/wiki/src/lib/plugin-registry.ts",
+  "packages/wiki/src/lib/__tests__/plugin-loader.test.ts"
+]
+verification = [
+  "vitest run __tests__/plugin-loader",
+  "Plugins load from manifest URL",
+  "Plugin lifecycle hooks execute in order",
+  "Failed plugins don't crash host",
+  "Plugin unregistration cleans up all extensions"
+]
+estimated_hours = 6
+priority = "medium"
+risk = "high"
+notes = "Loader: fetch manifest, validate schema, execute init hook. Registry: store active plugins, manage extension points. Error boundary around each plugin. Dynamic import for plugin code."
 
 [[task]]
 id = "T-032"
-name = "Configure DNS for encyclopeptide.com and wikipept.com"
-phase = 7
-prerequisites = ["T-010"]
-outputs = ["infrastructure/dns/zone-encp.tf", "infrastructure/dns/zone-wiki.tf"]
-verification = "DNS records resolve correctly for both domains"
-estimated_duration = "15 minutes"
-owner = "devops"
+name = "Implement theme system with CSS custom properties"
+phase = "P4"
+prerequisites = []
+outputs = [
+  "packages/wiki/src/lib/theme-engine.ts",
+  "packages/wiki/src/styles/themes/",
+  "packages/wiki/src/lib/__tests__/theme-engine.test.ts"
+]
+verification = [
+  "vitest run __tests__/theme-engine",
+  "Theme switching updates all CSS custom properties",
+  "Light/dark/high-contrast themes work",
+  "Custom themes can override any property",
+  "Theme preference persists to localStorage",
+  "Respects prefers-color-scheme media query"
+]
+estimated_hours = 5
+priority = "medium"
+risk = "low"
+notes = "CSS custom properties for all design tokens. Theme engine: load theme, apply to :root, persist preference. Themes: default-light, default-dark, high-contrast, solarized, dracula. Each theme is a TS object mapping token names to values."
 
 [[task]]
 id = "T-033"
-name = "Provision Cloudflare Pages projects"
-phase = 7
-prerequisites = ["T-032", "T-031"]
-outputs = ["infrastructure/pages/wikisites-encp.toml", "infrastructure/pages/wikisites-wiki.toml"]
-verification = "Cloudflare Pages projects exist and accept deployments"
-estimated_duration = "15 minutes"
-owner = "devops"
+name = "Create theme picker component"
+phase = "P4"
+prerequisites = ["T-032"]
+outputs = [
+  "packages/wiki/src/components/ThemePicker.tsx"
+]
+verification = [
+  "Shows all available themes with previews",
+  "Selection updates theme immediately",
+  "Accessible with keyboard and screen reader",
+  "Responsive layout"
+]
+estimated_hours = 3
+priority = "medium"
+risk = "low"
+notes = "Grid of theme preview cards. Each shows color palette swatch + name. Use Kobalte RadioGroup or custom grid. Integrate into settings panel and command palette."
 
 [[task]]
 id = "T-034"
-name = "Provision Cloudflare Workers, KV, R2, D1, Durable Objects"
-phase = 7
-prerequisites = ["T-032", "T-020"]
-outputs = ["wrangler.toml", "wrangler.jsonc"]
-verification = "wrangler dev locally simulates all bindings"
-estimated_duration = "30 minutes"
-owner = "devops"
+name = "Create Settings panel"
+phase = "P4"
+prerequisites = ["T-002", "T-032"]
+outputs = [
+  "packages/wiki/src/components/SettingsPanel.tsx",
+  "packages/wiki/src/lib/settings-store.ts",
+  "packages/wiki/src/lib/__tests__/settings-store.test.ts"
+]
+verification = [
+  "vitest run __tests__/settings-store",
+  "Settings: theme, font size, keybinding remapping, outline default visibility",
+  "Settings persist to localStorage",
+  "Settings panel accessible via Ctrl+,",
+  "All settings apply immediately"
+]
+estimated_hours = 5
+priority = "medium"
+risk = "low"
+notes = "SettingsPanel: tabbed layout (Appearance, Keyboard, Reading, Advanced). SettingsStore: typed settings with defaults, localStorage persistence, change notification. Integrate with command palette (Ctrl+,)."
 
 [[task]]
 id = "T-035"
-name = "Configure SSL/TLS for both domains"
-phase = 7
-prerequisites = ["T-032"]
-outputs = ["infrastructure/ssl/tls-config.toml"]
-verification = "SSL Labs grade A+ for both domains"
-estimated_duration = "10 minutes"
-owner = "devops"
-
-# =============================================================================
-# PHASE 8: Execution Graph & Build Integration
-# =============================================================================
+name = "Create keyboard shortcut remapping UI"
+phase = "P4"
+prerequisites = ["T-034"]
+outputs = [
+  "packages/wiki/src/components/ShortcutRemapper.tsx"
+]
+verification = [
+  "Shows all registered shortcuts",
+  "Click shortcut to enter remap mode",
+  "New key combo recorded and validated",
+  "Conflict detection warns on duplicate",
+  "Reset to defaults works"
+]
+estimated_hours = 4
+priority = "low"
+risk = "low"
+notes = "Table of shortcuts with editable key columns. Click to enter 'press keys' mode. Validate against KeyboardShortcutManager. Show conflict warnings inline. Part of SettingsPanel > Keyboard tab."
 
 [[task]]
 id = "T-036"
-name = "Implement shared component library package"
-phase = 8
-prerequisites = ["T-011", "T-015", "T-016", "T-018", "T-019"]
-outputs = ["packages/shared/src/index.ts", "packages/shared/package.json"]
-verification = "shared package builds and exports all public APIs"
-estimated_duration = "60 minutes"
-owner = "developer"
+name = "Integrate P4 components into wiki layout"
+phase = "P4"
+prerequisites = ["T-015", "T-031", "T-033", "T-034", "T-035"]
+outputs = [
+  "packages/wiki/src/layouts/WikiLayout.astro (modified)",
+  "packages/wiki/src/styles/settings.css"
+]
+verification = [
+  "bun run build:wiki succeeds",
+  "Settings panel opens with Ctrl+,",
+  "Theme picker works from settings and command palette",
+  "Plugin loader initializes on page load",
+  "All P4 features work together",
+  "bun run typecheck passes"
+]
+estimated_hours = 5
+priority = "high"
+risk = "medium"
+notes = "Wire settings store into layout. Register settings/theme/plugin commands in command palette. Add settings CSS. Initialize plugin loader in layout script."
+
+# =============================================================================
+# CROSS-CUTTING: Integration, Testing, Documentation
+# =============================================================================
 
 [[task]]
 id = "T-037"
-name = "Implement query engine package"
-phase = 8
-prerequisites = ["T-012", "T-036"]
-outputs = ["packages/query/src/index.ts", "packages/query/package.json"]
-verification = "query engine passes unit tests for sequence search and faceted queries"
-estimated_duration = "45 minutes"
-owner = "developer"
+name = "End-to-end integration test suite"
+phase = "P4"
+prerequisites = ["T-036"]
+outputs = [
+  "tests/e2e/vscode-features.spec.ts",
+  "tests/e2e/accessibility.spec.ts"
+]
+verification = [
+  "Playwright tests pass for all P0–P4 features",
+  "Keyboard navigation through all features works",
+  "Screen reader announces all interactive elements",
+  "No console errors in any test scenario"
+]
+estimated_hours = 8
+priority = "high"
+risk = "medium"
+notes = "Test scenarios: shortcut dispatch, command palette search+execute, outline scroll-sync, graph node click, split pane resize, comment CRUD, annotation CRUD, editor save, version restore, theme switch, settings persistence."
 
 [[task]]
 id = "T-038"
-name = "Implement encyclopeptide.com site pages and components"
-phase = 8
-prerequisites = ["T-028", "T-036", "T-037"]
-outputs = ["packages/encp/src/pages/**/*.astro", "packages/encp/src/components/**/*.tsx"]
-verification = "astro build encp succeeds with zero errors"
-estimated_duration = "90 minutes"
-owner = "developer"
+name = "Performance audit and optimization"
+phase = "P4"
+prerequisites = ["T-036"]
+outputs = [
+  "packages/wiki/bundle-analysis.json",
+  "packages/wiki/lighthouserc.json (updated)"
+]
+verification = [
+  "Lighthouse Perf score ≥ 90",
+  "First Contentful Paint < 1.5s",
+  "Time to Interactive < 3.0s",
+  "Total bundle < 500KB gzipped (excluding KaTeX/force-graph lazy chunks)",
+  "No layout shift (CLS < 0.1)"
+]
+estimated_hours = 6
+priority = "high"
+risk = "medium"
+notes = "Analyze bundle with vite-plugin-visualizer. Lazy-load: KaTeX, force-graph, TipTap, editor. Tree-shake unused exports. Optimize: preload critical CSS, defer non-critical JS. Update Lighthouse CI budgets."
 
 [[task]]
 id = "T-039"
-name = "Implement wikipept.com site pages and components"
-phase = 8
-prerequisites = ["T-029", "T-036", "T-037"]
-outputs = ["packages/wiki/src/pages/**/*.astro", "packages/wiki/src/components/**/*.tsx"]
-verification = "astro build wiki succeeds with zero errors"
-estimated_duration = "90 minutes"
-owner = "developer"
+name = "Update documentation and ADRs"
+phase = "P4"
+prerequisites = ["T-037"]
+outputs = [
+  "docs/ARCHITECTURE.md (updated)",
+  "docs/KEYBOARD-SHORTCUTS.md",
+  "docs/PLUGIN-API.md",
+  "docs/THEMES.md",
+  ".specs/08_roadmap/adr/"
+]
+verification = [
+  "All new features documented",
+  "Keyboard shortcuts reference complete",
+  "Plugin API docs with examples",
+  "Theme customization guide complete"
+]
+estimated_hours = 4
+priority = "medium"
+risk = "low"
+notes = "ADR for each major decision: TipTap, KaTeX, force-graph, plugin API design, theme system. Update ARCHITECTURE.md with new components and data flow."
 
 [[task]]
 id = "T-040"
-name = "Implement Cloudflare Workers for dynamic features"
-phase = 8
-prerequisites = ["T-034", "T-036", "T-038", "T-039"]
-outputs = ["packages/workers/src/**/*.ts"]
-verification = "wrangler dev starts all workers, API endpoints return valid responses"
-estimated_duration = "60 minutes"
-owner = "developer"
-
-[[task]]
-id = "T-041"
-name = "Run full build pipeline end-to-end"
-phase = 8
-prerequisites = ["T-030", "T-036", "T-037", "T-038", "T-039", "T-040"]
-outputs = ["dist/encp/", "dist/wiki/"]
-verification = "full build produces output directories with expected file structure"
-estimated_duration = "5 minutes"
-owner = "developer"
-
-# =============================================================================
-# PHASE 8.5: Supply Chain Monitoring
-# =============================================================================
-
-[[task]]
-id = "T-042"
-name = "Configure Renovate for automated dependency updates"
-phase = 8
-prerequisites = ["T-009", "T-030"]
-outputs = ["renovate.json"]
-verification = "Renovate opens test PR for patch update"
-estimated_duration = "15 minutes"
-owner = "security"
-
-[[task]]
-id = "T-043"
-name = "Configure CVE scanning schedule and license compliance CI"
-phase = 8
-prerequisites = ["T-030", "T-042"]
-outputs = [".github/workflows/supply-chain-monitor.yml"]
-verification = "CI scan detects known CVEs and license violations"
-estimated_duration = "20 minutes"
-owner = "security"
-
-[[task]]
-id = "T-044"
-name = "Define supply chain alerting rules and escalation paths"
-phase = 8
-prerequisites = ["T-043"]
-outputs = [".specs/09_5_supply_monitoring/alerting_rules.md"]
-verification = "alerting rules cover critical, high, medium, low severity tiers"
-estimated_duration = "15 minutes"
-owner = "security"
-
-# =============================================================================
-# PHASE 9: Deployment & Verification
-# =============================================================================
-
-[[task]]
-id = "T-045"
-name = "Deploy to Cloudflare Pages (staging)"
-phase = 9
-prerequisites = ["T-033", "T-041"]
-outputs = ["staging-encp.wikisites.dev", "staging-wiki.wikisites.dev"]
-verification = "staging URLs return HTTP 200 and pass Lighthouse audit"
-estimated_duration = "10 minutes"
-owner = "devops"
-
-[[task]]
-id = "T-046"
-name = "Run post-deployment verification on staging"
-phase = 9
-prerequisites = ["T-045"]
-outputs = ["staging verification report"]
-verification = "E2E tests pass, Lighthouse scores meet baselines, no errors in analytics"
-estimated_duration = "30 minutes"
-owner = "qa"
-
-[[task]]
-id = "T-047"
-name = "Deploy to Cloudflare Pages (production)"
-phase = 9
-prerequisites = ["T-046"]
-outputs = ["encp.wikisites.dev", "wikipept.com"]
-verification = "production URLs return HTTP 200, SSL valid, all pages render correctly"
-estimated_duration = "10 minutes"
-owner = "devops"
-
-[[task]]
-id = "T-048"
-name = "Run production smoke tests and Lighthouse audit"
-phase = 9
-prerequisites = ["T-047"]
-outputs = ["production verification report"]
-verification = "Lighthouse Perf ≥90, A11y ≥95, BP ≥90, SEO ≥95; zero critical errors"
-estimated_duration = "15 minutes"
-owner = "qa"
+name = "Full build and regression verification"
+phase = "P4"
+prerequisites = ["T-037", "T-038"]
+outputs = [
+  "build verification report"
+]
+verification = [
+  "bun run build succeeds for both sites",
+  "bun run typecheck passes",
+  "bun run lint passes (biome)",
+  "bun run test passes",
+  "bun run test:e2e passes",
+  "No visual regressions (Playwright screenshots)",
+  "Lighthouse scores meet budgets"
+]
+estimated_hours = 4
+priority = "critical"
+risk = "low"
+notes = "Final gate before merge. Run full CI pipeline locally. Compare Lighthouse scores against baselines from Phase 06_5_regression."
 
 # =============================================================================
 # DEPENDENCY GRAPH (ADJACENCY LIST)
 # =============================================================================
 
 [graph]
-# Task ID -> list of tasks that depend on it (forward edges)
-T-001 = ["T-002", "T-003", "T-004", "T-006", "T-010", "T-024"]
-T-002 = ["T-003", "T-010", "T-022", "T-023", "T-026", "T-027"]
-T-003 = ["T-005", "T-021", "T-022", "T-023", "T-030"]
-T-004 = ["T-005"]
-T-005 = ["T-030"]
-T-006 = ["T-007", "T-008"]
-T-007 = ["T-009"]
-T-008 = []
-T-009 = ["T-019", "T-030", "T-042"]
-T-010 = ["T-013", "T-014", "T-017", "T-020", "T-026", "T-027", "T-032"]
-T-011 = ["T-012", "T-013", "T-014", "T-015", "T-036"]
-T-012 = ["T-013", "T-014", "T-037"]
-T-013 = ["T-026", "T-038"]
-T-014 = ["T-027", "T-039"]
-T-015 = ["T-016", "T-018", "T-036"]
-T-016 = ["T-019", "T-028", "T-029", "T-036"]
-T-017 = []
-T-018 = ["T-020", "T-036"]
-T-019 = ["T-036"]
-T-020 = ["T-034", "T-036"]
-T-021 = ["T-025", "T-030"]
-T-022 = ["T-030"]
-T-023 = ["T-025", "T-030"]
-T-024 = []
-T-025 = []
-T-026 = ["T-028", "T-038"]
-T-027 = ["T-029", "T-039"]
-T-028 = ["T-038"]
-T-029 = ["T-039"]
-T-030 = ["T-031", "T-041", "T-042", "T-043"]
-T-031 = ["T-033"]
-T-032 = ["T-033", "T-034", "T-035"]
-T-033 = ["T-045"]
-T-034 = ["T-040"]
-T-035 = []
+# P0 tasks
+T-001 = ["T-002", "T-003", "T-004", "T-006"]
+T-002 = ["T-008", "T-034"]
+T-003 = ["T-008"]
+T-004 = ["T-005", "T-008"]
+T-005 = ["T-008"]
+T-006 = ["T-008"]
+T-007 = ["T-008"]
+T-008 = ["T-015", "T-023", "T-029", "T-036"]
+
+# P1 tasks
+T-009 = ["T-010", "T-015"]
+T-010 = ["T-015"]
+T-011 = ["T-012", "T-015"]
+T-012 = ["T-015"]
+T-013 = ["T-015"]
+T-014 = ["T-015"]
+T-015 = ["T-029", "T-036", "T-037"]
+
+# P2 tasks
+T-016 = ["T-017", "T-018", "T-027"]
+T-017 = ["T-019", "T-023"]
+T-018 = ["T-020", "T-023"]
+T-019 = ["T-023"]
+T-020 = ["T-023"]
+T-021 = ["T-022", "T-023"]
+T-022 = ["T-023"]
+T-023 = ["T-029", "T-036", "T-037"]
+
+# P3 tasks
+T-024 = ["T-025"]
+T-025 = ["T-026", "T-029"]
+T-026 = ["T-029"]
+T-027 = ["T-028", "T-029"]
+T-028 = ["T-029"]
+T-029 = ["T-036", "T-037"]
+
+# P4 tasks
+T-030 = ["T-031"]
+T-031 = ["T-036"]
+T-032 = ["T-033", "T-034"]
+T-033 = ["T-036"]
+T-034 = ["T-035", "T-036"]
+T-035 = ["T-036"]
 T-036 = ["T-037", "T-038", "T-039", "T-040"]
-T-037 = ["T-038", "T-039", "T-041"]
-T-038 = ["T-040", "T-041"]
-T-039 = ["T-040", "T-041"]
-T-040 = ["T-041"]
-T-041 = ["T-045"]
-T-042 = ["T-043"]
-T-043 = ["T-044"]
-T-044 = []
-T-045 = ["T-046"]
-T-046 = ["T-047"]
-T-047 = ["T-048"]
-T-048 = []
+
+# Cross-cutting
+T-037 = ["T-040"]
+T-038 = ["T-040"]
+T-039 = ["T-040"]
 
 # =============================================================================
 # PHASE SUMMARY
 # =============================================================================
 
-[phases."0"]
-name = "Project Initialization"
-tasks = 5
-description = "Monorepo setup, TypeScript, ESLint, Prettier, Husky"
+[phases.P0]
+name = "Core Navigation Shell"
+tasks = 8
+description = "Keyboard shortcuts, command palette, outline panel, breadcrumbs"
+week_range = "1-2"
+total_hours = 37
 
-[phases."1"]
-name = "Supply Chain & Security Foundations"
-tasks = 4
-description = "SBOM, lockfile, vulnerability assessment, license compliance, csurf replacement"
-
-[phases."2"]
-name = "Architecture & Blue Papers"
+[phases.P1]
+name = "Content Tools"
 tasks = 7
-description = "IEEE 1016 Blue Papers, interface contracts, data models"
+description = "KaTeX math rendering, knowledge graph, split pane, regex search"
+week_range = "3-4"
+total_hours = 33
 
-[phases."3"]
-name = "Security Implementation"
-tasks = 4
-description = "CSP, auth, XSS protection, rate limiting"
+[phases.P2]
+name = "Collaboration Features"
+tasks = 8
+description = "Inline comments, annotations, user accounts"
+week_range = "5-8"
+total_hours = 45
 
-[phases."4"]
-name = "Performance & Tooling"
-tasks = 5
-description = "Lighthouse CI, Playwright, Vitest, Pagefind, regression baselines"
-
-[phases."5"]
-name = "Site-Specific Configuration"
-tasks = 4
-description = "Astro configs, content collections for both sites"
-
-[phases."6"]
-name = "CI/CD Pipeline"
-tasks = 2
-description = "5-stage pipeline, deployment strategy"
-
-[phases."7"]
-name = "Cloudflare Infrastructure"
-tasks = 4
-description = "DNS, Pages, Workers/KV/R2/D1, SSL/TLS"
-
-[phases."8"]
-name = "Execution Graph & Build Integration"
+[phases.P3]
+name = "Rich Content Editing"
 tasks = 6
-description = "Shared library, query engine, both sites, Workers, full build"
+description = "MDX live editor, version history"
+week_range = "9-12"
+total_hours = 37
 
-[phases."8.5"]
-name = "Supply Chain Monitoring"
-tasks = 3
-description = "Renovate, CVE scanning, alerting rules"
-
-[phases."9"]
-name = "Deployment & Verification"
-tasks = 4
-description = "Staging deploy, verification, production deploy, smoke tests"
+[phases.P4]
+name = "Extensibility & Polish"
+tasks = 10
+description = "Plugin API, themes, settings, testing, optimization"
+week_range = "13-16"
+total_hours = 56
 
 # =============================================================================
 # ESTIMATED TIMELINE
 # =============================================================================
 
 [timeline]
-# Parallel execution groups (critical path determines minimum duration)
-group_1 = { tasks = ["T-001"], duration = "5 min", description = "Monorepo init" }
-group_2 = { tasks = ["T-002", "T-004"], duration = "10 min", description = "TypeScript + Prettier (parallel)" }
-group_3 = { tasks = ["T-003", "T-006"], duration = "10 min", description = "ESLint + SBOM (parallel)" }
-group_4 = { tasks = ["T-005", "T-007", "T-008"], duration = "15 min", description = "Husky + Vulnerability + License (parallel)" }
-group_5 = { tasks = ["T-009"], duration = "15 min", description = "Replace csurf" }
-group_6 = { tasks = ["T-010"], duration = "60 min", description = "Infrastructure Blue Paper" }
-group_7 = { tasks = ["T-011"], duration = "60 min", description = "Shared Components Blue Paper" }
-group_8 = { tasks = ["T-012"], duration = "45 min", description = "Query Engine Blue Paper" }
-group_9 = { tasks = ["T-013", "T-014", "T-015"], duration = "60 min", description = "Site Blue Papers + Contracts (parallel)" }
-group_10 = { tasks = ["T-016", "T-017"], duration = "45 min", description = "Data models + CSP (parallel)" }
-group_11 = { tasks = ["T-018"], duration = "60 min", description = "Auth subsystem" }
-group_12 = { tasks = ["T-019", "T-020", "T-021", "T-022", "T-023", "T-024"], duration = "30 min", description = "Security + Tooling (parallel)" }
-group_13 = { tasks = ["T-025"], duration = "20 min", description = "Regression baselines" }
-group_14 = { tasks = ["T-026", "T-027"], duration = "20 min", description = "Astro configs (parallel)" }
-group_15 = { tasks = ["T-028", "T-029"], duration = "30 min", description = "Content collections (parallel)" }
-group_16 = { tasks = ["T-030"], duration = "30 min", description = "CI pipeline" }
-group_17 = { tasks = ["T-031"], duration = "20 min", description = "Deployment strategy" }
-group_18 = { tasks = ["T-032", "T-035"], duration = "15 min", description = "DNS + SSL (parallel)" }
-group_19 = { tasks = ["T-033", "T-034"], duration = "30 min", description = "Pages + Workers (parallel)" }
-group_20 = { tasks = ["T-036"], duration = "60 min", description = "Shared library impl" }
-group_21 = { tasks = ["T-037"], duration = "45 min", description = "Query engine impl" }
-group_22 = { tasks = ["T-038", "T-039"], duration = "90 min", description = "Site implementations (parallel)" }
-group_23 = { tasks = ["T-040"], duration = "60 min", description = "Workers impl" }
-group_24 = { tasks = ["T-041"], duration = "5 min", description = "Full build E2E" }
-group_25 = { tasks = ["T-042"], duration = "15 min", description = "Renovate config" }
-group_26 = { tasks = ["T-043"], duration = "20 min", description = "CVE scanning CI" }
-group_27 = { tasks = ["T-044"], duration = "15 min", description = "Alerting rules" }
-group_28 = { tasks = ["T-045"], duration = "10 min", description = "Staging deploy" }
-group_29 = { tasks = ["T-046"], duration = "30 min", description = "Staging verification" }
-group_30 = { tasks = ["T-047"], duration = "10 min", description = "Production deploy" }
-group_31 = { tasks = ["T-048"], duration = "15 min", description = "Production smoke tests" }
+total_estimated_hours = 208
+critical_path_hours = 164
+parallelism_factor = "1.27x"
+estimated_weeks = 16
+team_size_solo = "20 weeks (with buffer)"
+team_size_two = "12 weeks (with buffer)"
 
-total_estimated_duration = "~14 hours"
-critical_path_duration = "~12 hours"
-parallelism_factor = "1.17x"
+# Critical path: T-001 → T-002 → T-008 → T-015 → T-029 → T-036 → T-040
+# Parallel opportunity: P0/P1/P2/P3 have independent tracks that can overlap
 
 # =============================================================================
 # VERSION HISTORY
 # =============================================================================
 
 [version_history]
+v2.0.0 = { date = "2026-06-19", author = "Wikisites PM", notes = "VS Code for content execution graph — 42 tasks across P0–P4" }
 v1.0.0 = { date = "2026-06-07", author = "Wikisites Team", notes = "Initial 48-task execution graph covering phases 0 through 9" }

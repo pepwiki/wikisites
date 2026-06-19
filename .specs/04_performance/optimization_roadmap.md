@@ -2,1074 +2,673 @@
 
 ## Overview
 
-This document defines a four-phase optimization roadmap for KP Wikisites, progressing from foundational static optimizations through advanced edge and rendering techniques. Each phase has clear deliverables, success criteria, and dependencies.
+Five-phase optimization strategy for Wikisites new components. Each phase is independent and shippable. Phases are ordered by user impact and bundle cost.
 
-## Phase 1: Static Optimization
+## Phase 1: P0 Features — Minimal Bundle Impact
 
-### Duration: 2-3 weeks
-### Goal: Minimize initial payload and enable efficient caching
+### Duration: 1-2 weeks
+### Components: Command Palette, Keyboard Shortcuts, Outline Panel, Breadcrumbs
+### Bundle impact: +12KB gzipped (+7KB eager, +5KB lazy)
 
-### 1.1 Image Optimization
+### 1.1 Eager Components (Keyboard Shortcuts, Breadcrumbs)
 
-**Objective:** Reduce image payload by 70% while maintaining visual quality.
+**Strategy:** Bundle with app shell. No dynamic import needed.
 
-| Task | Approach | Expected Impact |
-|---|---|---|
-| Format migration | Convert PNG/JPEG to WebP with AVIF fallback | 40-60% size reduction |
-| Responsive images | Generate srcset for 3 breakpoints (400w, 800w, 1200w) | 30-50% per-viewport savings |
-| Lazy loading | IntersectionObserver with 200px rootMargin | Defer off-screen images |
-| Blur-up placeholders | Generate 20px wide placeholder on upload | Perceived performance |
-| Image CDN | Cloudflare Image Resizing for dynamic optimization | Automatic format/size |
-
-**Implementation:**
 ```typescript
-// Image optimization pipeline
-interface OptimizedImage {
-  original: string;          // Original R2 path
-  webp: {                    // WebP variants
-    sm: string;              // 400px wide
-    md: string;              // 800px wide
-    lg: string;              // 1200px wide
-  };
-  avif?: {                   // AVIF variants (modern browsers)
-    sm: string;
-    md: string;
-    lg: string;
-  };
-  placeholder: string;       // Base64 blur-up
-  width: number;
-  height: number;
-  alt: string;
-}
-
-// Upload processing
-async function processImage(file: File): Promise<OptimizedImage> {
-  const buffer = await file.arrayBuffer();
-  
-  // Generate variants using Cloudflare Image Resizing
-  const variants = await Promise.all([
-    resizeImage(buffer, { width: 400, format: 'webp' }),
-    resizeImage(buffer, { width: 800, format: 'webp' }),
-    resizeImage(buffer, { width: 1200, format: 'webp' }),
-    resizeImage(buffer, { width: 20, format: 'webp', blur: 10 }),
-  ]);
-  
-  return {
-    original: await uploadToR2(file, 'original'),
-    webp: { sm: variants[0], md: variants[1], lg: variants[2] },
-    placeholder: variants[3],
-    width: 0, // Extract from metadata
-    height: 0,
-    alt: file.name,
-  };
+// src/components/Breadcrumbs.tsx
+// ~1KB gzipped, pure static content, no external deps
+export function Breadcrumbs(props: { items: Array<{ label: string; href: string }> }) {
+  return (
+    <nav aria-label="Breadcrumb" class="breadcrumbs">
+      <ol>
+        {props.items.map((item, i) => (
+          <li>
+            {i < props.items.length - 1 ? (
+              <a href={item.href}>{item.label}</a>
+            ) : (
+              <span aria-current="page">{item.label}</span>
+            )}
+          </li>
+        ))}
+      </ol>
+    </nav>
+  );
 }
 ```
 
-### 1.2 Code Splitting
-
-**Objective:** Reduce initial JavaScript payload to under 100KB.
-
-| Strategy | Target | Implementation |
-|---|---|---|
-| Route-based splitting | 15KB per route chunk | SolidJS lazy() for routes |
-| Component-level splitting | 5-10KB per feature chunk | Dynamic imports for editors, search |
-| Vendor isolation | Separate chunk for dependencies | Manual chunks in Vite config |
-| Tree shaking | Remove unused code | ESM-only imports; sideEffects: false |
-
-**Vite configuration:**
 ```typescript
-// vite.config.ts
-export default defineConfig({
-  build: {
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          'vendor-solid': ['solid-js'],
-          'vendor-router': ['@solidjs/router'],
-          'vendor-markdown': ['marked', 'highlight.js'],
-          'vendor-search': ['fuse.js'],
-        },
-        // Chunk naming convention
-        chunkFileNames: 'assets/js/[name]-[hash].js',
-        entryFileNames: 'assets/js/[name]-[hash].js',
-        assetFileNames: 'assets/[ext]/[name]-[hash].[ext]',
-      },
-    },
-    // Target modern browsers for smaller output
-    target: 'es2022',
-    // Source maps for production debugging
-    sourcemap: true,
-    // Minification
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true,
-        drop_debugger: true,
-      },
-    },
-  },
-});
-```
+// src/components/KeyboardShortcuts.tsx
+// ~1KB gzipped, event listener registration
+// Registers: Cmd+K (palette), Cmd+Shift+O (outline), Escape (close)
+import { onCleanup, onMount } from 'solid-js';
 
-### 1.3 CSS Optimization
-
-**Objective:** Reduce CSS payload to under 40KB.
-
-| Task | Approach | Expected Impact |
-|---|---|---|
-| Critical CSS inlining | Inline above-fold CSS in HTML | Eliminate render-blocking CSS |
-| PurgeCSS | Remove unused CSS classes | 20-40% CSS reduction |
-| CSS minification | Terser CSS minification | 10-15% reduction |
-| CSS containment | Use `contain` for layout isolation | Reduce layout recalculations |
-
-```typescript
-// Critical CSS extraction
-async function extractCriticalCSS(html: string, css: string): Promise<string> {
-  const { critical } = await penthouse({
-    url: html,
-    css: css,
-    width: 1920,
-    height: 1080,
-    timeout: 30000,
-    renderWaitTime: 1000,
+export function KeyboardShortcuts() {
+  onMount(() => {
+    const handler = (e: KeyboardEvent) => {
+      if (e.metaKey && e.key === 'k') {
+        e.preventDefault();
+        document.dispatchEvent(new CustomEvent('toggle-command-palette'));
+      }
+      if (e.metaKey && e.shiftKey && e.key === 'o') {
+        e.preventDefault();
+        document.dispatchEvent(new CustomEvent('toggle-outline-panel'));
+      }
+    };
+    document.addEventListener('keydown', handler);
+    onCleanup(() => document.removeEventListener('keydown', handler));
   });
-  return critical;
+
+  return null; // No DOM output
 }
 ```
 
-### 1.4 Font Strategy
+### 1.2 Lazy Components (Command Palette, Outline Panel)
 
-**Objective:** Zero external font requests; use system font stack.
+**Strategy:** Dynamic import on user trigger. Zero cost until used.
 
-```css
-/* System font stack - no network requests */
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
+```typescript
+// src/components/islands/CommandPaletteIsland.tsx
+import { lazy, Suspense, createSignal, onMount, onCleanup } from 'solid-js';
 
-/* Monospace for code blocks */
-code, pre {
-  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono',
-    'Lucida Console', Monaco, monospace;
+const CommandPalette = lazy(() => import('../CommandPalette'));
+
+export function CommandPaletteIsland() {
+  const [open, setOpen] = createSignal(false);
+
+  onMount(() => {
+    const handler = () => setOpen(prev => !prev);
+    document.addEventListener('toggle-command-palette', handler);
+    onCleanup(() => document.removeEventListener('toggle-command-palette', handler));
+  });
+
+  return (
+    <Show when={open()}>
+      <Suspense fallback={<div class="palette-skeleton" />}>
+        <CommandPalette onClose={() => setOpen(false)} />
+      </Suspense>
+    </Show>
+  );
 }
 ```
+
+### 1.3 Optimization Actions
+
+- [ ] Add Command Palette dynamic import via `lazy()`
+- [ ] Add Outline Panel dynamic import via `lazy()`
+- [ ] Bundle Keyboard Shortcuts and Breadcrumbs with app shell
+- [ ] Configure Vite manual chunks for P0 UI components
+- [ ] Add bundle size check to CI (max +15KB)
+- [ ] Run Lighthouse before/after, verify no regression
 
 ### Phase 1 Success Criteria
 
-| Metric | Baseline | Target |
-|---|---|---|
-| Total page weight | 800KB | <300KB |
-| Initial JS bundle | 150KB | <64KB |
-| CSS total | 60KB | <20KB |
-| Image payload | 400KB | <100KB |
-| Lighthouse score | 75 | >90 |
-| LCP | 3.2s | <2.0s |
+| Metric | Before | Target | Max |
+|---|---|---|---|
+| JS bundle size | 60KB | 67KB (+7KB) | 72KB |
+| LCP | 1.5s | 1.5s | 1.6s |
+| TBT | 80ms | 85ms | 95ms |
+| Lighthouse score | 95 | 95 | 93 |
 
 ---
 
-## Phase 2: Dynamic Optimization
+## Phase 2: P1 Features — Code-Split Heavy Libraries
 
 ### Duration: 2-3 weeks
-### Goal: Optimize runtime behavior and data loading patterns
+### Components: KaTeX, force-graph, Split Pane, Regex Search
+### Bundle impact: +340KB gzipped (all lazy, on-demand)
 
-### 2.1 Lazy Loading
+### 2.1 KaTeX (300KB)
 
-**Objective:** Defer non-critical resources until needed.
-
-| Resource | Strategy | Threshold |
-|---|---|---|
-| Route components | `lazy()` with `<Suspense>` | On navigation |
-| Images below fold | IntersectionObserver | 200px before viewport |
-| Search index | Dynamic import on first search | User interaction |
-| Markdown editor | Dynamic import on edit mode | User click |
-| Syntax highlighting | Dynamic import on code block | Content render |
+**Strategy:** Dynamic import on math block detection. Preload fonts when KaTeX component loads.
 
 ```typescript
-// Route-level lazy loading
-const HomePage = lazy(() => import('./pages/Home'));
-const WikiPage = lazy(() => import('./pages/Wiki'));
-const SearchPage = lazy(() => import('./pages/Search'));
+// src/components/KaTeXRenderer.tsx
+// Loaded only when markdown contains math blocks ($$...$$ or \(...\))
+import { lazy, Suspense } from 'solid-js';
 
-// Component-level lazy loading
-const MarkdownEditor = lazy(() => import('./components/MarkdownEditor'));
-const ImageGallery = lazy(() => import('./components/ImageGallery'));
-
-// Usage with Suspense and fallback
-<Show when={isEditing()}>
-  <Suspense fallback={<EditorSkeleton />}>
-    <MarkdownEditor content={pageContent()} />
-  </Suspense>
-</Show>
-```
-
-### 2.2 Prefetching
-
-**Objective:** Predict and preload resources before user requests them.
-
-| Trigger | Prefetch Target | Method |
-|---|---|---|
-| Hover over link | Next route chunk | `<link rel="prefetch">` |
-| Focus on search input | Search index | Dynamic import |
-| View page list | Next 5 pages | Background fetch |
-| Enter edit mode | Editor chunk | Dynamic import |
-
-```typescript
-// Link prefetching on hover
-function PrefetchLink(props: { href: string; children: JSX.Element }) {
-  const [triggered, setTriggered] = createSignal(false);
-  
-  const prefetch = () => {
-    if (triggered()) return;
-    setTriggered(true);
-    
-    // Prefetch route chunk
+const KaTeX = lazy(async () => {
+  // Preload KaTeX fonts
+  const fontPromises = [
+    '/fonts/KaTeX_Main-Regular.woff2',
+    '/fonts/KaTeX_Math-Italic.woff2',
+  ].map(url => {
     const link = document.createElement('link');
-    link.rel = 'prefetch';
-    link.href = `/assets/js/${props.href.replace(/\//g, '-')}.js`;
+    link.rel = 'preload';
+    link.href = url;
+    link.as = 'font';
+    link.type = 'font/woff2';
+    link.crossOrigin = 'anonymous';
     document.head.appendChild(link);
-  };
-  
-  return (
-    <a
-      href={props.href}
-      onMouseEnter={prefetch}
-      onFocus={prefetch}
-    >
-      {props.children}
-    </a>
-  );
-}
-
-// Search index prefetching
-function SearchInput() {
-  const [focused, setFocused] = createSignal(false);
-  
-  // Prefetch search index when input is focused
-  createEffect(() => {
-    if (focused()) {
-      import('./lib/search-index').then(module => {
-        module.preloadIndex(currentWikiId());
-      });
-    }
+    return new Promise<void>(r => { link.onload = () => r(); link.onerror = r; });
   });
-  
+
+  await Promise.all(fontPromises);
+  return import('katex');
+});
+
+// In markdown renderer:
+// Detect math blocks and render KaTeX only when present
+function renderMath(content: string) {
+  if (!/\$\$|\\\(/.test(content)) return content;
+  // Split content, wrap math blocks in KaTeX component
+  return content.replace(/\$\$(.*?)\$\$/gs, (_, tex) =>
+    `<div class="math-block" data-tex="${encodeURIComponent(tex)}"></div>`
+  );
+}
+```
+
+### 2.2 force-graph (45KB)
+
+**Strategy:** Dynamic import on graph view toggle. Canvas-based rendering.
+
+```typescript
+// src/components/ForceGraphIsland.tsx
+import { lazy, Suspense, createSignal, onMount } from 'solid-js';
+
+const ForceGraph = lazy(() => import('force-graph'));
+
+export function ForceGraphIsland(props: { wikiId: string }) {
+  const [showGraph, setShowGraph] = createSignal(false);
+
   return (
-    <input
-      onFocus={() => setFocused(true)}
-      onBlur={() => setFocused(false)}
-      placeholder="Search..."
-    />
+    <div>
+      <button onClick={() => setShowGraph(true)}>Show Graph</button>
+      <Show when={showGraph()}>
+        <Suspense fallback={<div class="graph-skeleton" />}>
+          <ForceGraph wikiId={props.wikiId} />
+        </Suspense>
+      </Show>
+    </div>
   );
 }
 ```
 
-### 2.3 Service Worker
+### 2.3 Split Pane (0KB)
 
-**Objective:** Enable offline-first capability and intelligent caching.
+**Strategy:** Pure CSS implementation. No JS bundle.
 
-```typescript
-// sw.ts - Service Worker
-const CACHE_NAME = 'kp-wikisites-v1';
-const STATIC_ASSETS = [
-  '/',
-  '/assets/js/app-[hash].js',
-  '/assets/css/app-[hash].css',
-];
-
-// Install: Cache static assets
-self.addEventListener('install', (event) => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => {
-      return cache.addAll(STATIC_ASSETS);
-    })
-  );
-});
-
-// Fetch: Cache-first for static, network-first for API
-self.addEventListener('fetch', (event) => {
-  const { request } = event;
-  const url = new URL(request.url);
-  
-  // Static assets: Cache-first
-  if (url.pathname.startsWith('/assets/')) {
-    event.respondWith(
-      caches.match(request).then(cached => {
-        return cached || fetch(request).then(response => {
-          const clone = response.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put(request, clone));
-          return response;
-        });
-      })
-    );
-    return;
-  }
-  
-  // API calls: Network-first with cache fallback
-  if (url.pathname.startsWith('/api/')) {
-    event.respondWith(
-      fetch(request)
-        .then(response => {
-          const clone = response.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put(request, clone));
-          return response;
-        })
-        .catch(() => caches.match(request))
-    );
-    return;
-  }
-  
-  // HTML pages: Network-first
-  if (request.mode === 'navigate') {
-    event.respondWith(
-      fetch(request)
-        .then(response => {
-          const clone = response.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put(request, clone));
-          return response;
-        })
-        .catch(() => caches.match('/offline.html'))
-    );
-    return;
-  }
-});
-
-// Activate: Clean old caches
-self.addEventListener('activate', (event) => {
-  event.waitUntil(
-    caches.keys().then(keys => {
-      return Promise.all(
-        keys
-          .filter(key => key !== CACHE_NAME)
-          .map(key => caches.delete(key))
-      );
-    })
-  );
-});
-```
-
-### 2.4 Data Prefetching Strategy
-
-```typescript
-// Predictive data loading
-class DataPrefetcher {
-  private prefetchQueue: Map<string, Promise<unknown>> = new Map();
-  private observedPatterns: Map<string, string[]> = new Map();
-  
-  // Learn navigation patterns
-  recordNavigation(from: string, to: string) {
-    const patterns = this.observedPatterns.get(from) ?? [];
-    patterns.push(to);
-    this.observedPatterns.set(from, patterns.slice(-10)); // Keep last 10
-  }
-  
-  // Prefetch based on patterns
-  async prefetch(currentPage: string) {
-    const likelyNext = this.observedPatterns.get(currentPage);
-    if (!likelyNext) return;
-    
-    // Prefetch most common next pages
-    const topPages = this.getTopPages(likelyNext, 3);
-    await Promise.all(
-      topPages.map(page => this.prefetchPage(page))
-    );
-  }
-  
-  private async prefetchPage(pageId: string) {
-    if (this.prefetchQueue.has(pageId)) return;
-    
-    const promise = fetch(`/api/pages/${pageId}`)
-      .then(res => res.json())
-      .then(data => {
-        // Cache in memory for quick access
-        this.pageCache.set(pageId, data);
-        return data;
-      });
-    
-    this.prefetchQueue.set(pageId, promise);
-  }
+```css
+/* Split Pane - CSS-only */
+.split-pane {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  height: 100%;
+}
+.split-pane .divider {
+  width: 4px;
+  cursor: col-resize;
+  background: var(--border);
+}
+.split-pane .divider:hover {
+  background: var(--accent);
 }
 ```
+
+### 2.4 Regex Search (0KB)
+
+**Strategy:** Leverages existing search infrastructure. Adds regex toggle to search input.
+
+```typescript
+// src/components/RegexSearchToggle.tsx
+// ~0KB - just a toggle + regex wrapper around existing search
+import { createSignal } from 'solid-js';
+
+export function RegexSearchToggle(props: { onToggle: (enabled: boolean) => void }) {
+  const [regexMode, setRegexMode] = createSignal(false);
+
+  return (
+    <label class="regex-toggle">
+      <input
+        type="checkbox"
+        checked={regexMode()}
+        onChange={(e) => {
+          setRegexMode(e.target.checked);
+          props.onToggle(e.target.checked);
+        }}
+      />
+      <span>Regex</span>
+    </label>
+  );
+}
+```
+
+### 2.5 Optimization Actions
+
+- [ ] Configure Vite to split KaTeX into separate chunk
+- [ ] Configure Vite to split force-graph into separate chunk
+- [ ] Implement math block detection in markdown renderer
+- [ ] Add font preload strategy for KaTeX
+- [ ] Implement graph view lazy loading
+- [ ] Split Pane as pure CSS component
+- [ ] Regex search toggle wired to existing search
+- [ ] Add chunk size limits to CI (KaTeX <320KB, force-graph <55KB)
+- [ ] Run Lighthouse before/after each component
 
 ### Phase 2 Success Criteria
 
-| Metric | Phase 1 Result | Target |
-|---|---|---|
-| LCP | 2.0s | <1.8s |
-| TBT | 250ms | <150ms |
-| TTI | 3.5s | <2.5s |
-| Repeat visit weight | 300KB | <100KB |
-| Offline capability | None | Basic offline |
-| Search latency | 150ms | <80ms |
+| Metric | After P1 | Target | Max |
+|---|---|---|---|
+| Base JS (no KaTeX/force-graph) | 72KB | 75KB | 80KB |
+| KaTeX chunk | — | 300KB | 320KB |
+| force-graph chunk | — | 45KB | 55KB |
+| LCP (wiki page) | 1.5s | 1.6s | 1.8s |
+| LCP (math page) | — | 2.0s | 2.5s |
+| TBT (wiki page) | 85ms | 90ms | 110ms |
+| Time to interactive (math) | — | 2.2s | 2.8s |
 
 ---
 
-## Phase 3: Edge Optimization
+## Phase 3: P2 Features — Lazy Load Social
 
-### Duration: 2-3 weeks
-### Goal: Leverage Cloudflare edge for global low-latency delivery
+### Duration: 1-2 weeks
+### Components: Giscus, Annotations, User Accounts
+### Bundle impact: +30KB gzipped (all lazy)
 
-### 3.1 Workers Edge Computing
+### 3.1 Giscus (15KB)
 
-**Objective:** Move computation to the edge for sub-100ms responses.
-
-| Route | Edge Strategy | Expected Latency |
-|---|---|---|
-| Page views | KV cache + edge render | <50ms TTFB |
-| Search | Pre-built index in KV | <80ms |
-| API responses | Edge caching + stale-while-revalidate | <60ms |
-| Static assets | CDN edge cache | <20ms |
-| Authentication | Session validation in KV | <30ms |
+**Strategy:** Load only when user scrolls to comments section. Use IntersectionObserver.
 
 ```typescript
-// Worker with edge caching
-export default {
-  async fetch(request: Request, env: Env): Promise<Response> {
-    const url = new URL(request.url);
-    
-    // Check edge cache first
-    const cache = caches.default;
-    const cacheKey = new Request(url.toString(), request);
-    const cached = await cache.match(cacheKey);
-    
-    if (cached) {
-      // Return cached response with fresh headers
-      const response = new Response(cached.body, cached);
-      response.headers.set('X-Cache', 'HIT');
-      response.headers.set('X-Cache-TTL', getRemainingTTL(cached));
-      return response;
-    }
-    
-    // Cache miss: compute response
-    const response = await handleRequest(request, env);
-    
-    // Cache for 5 minutes (or custom TTL)
-    const ttl = getRouteTTL(url.pathname);
-    if (ttl > 0) {
-      const responseToCache = new Response(response.body, response);
-      responseToCache.headers.set('Cache-Control', `s-maxage=${ttl}`);
-      responseToCache.headers.set('X-Cache', 'MISS');
-      await cache.put(cacheKey, responseToCache);
-    }
-    
-    return response;
-  },
-};
-```
+// src/components/GiscusIsland.tsx
+import { lazy, Suspense, createSignal, onMount } from 'solid-js';
 
-### 3.2 KV Caching Strategy
+const GiscusWidget = lazy(() => import('@giscus/react'));
 
-**Objective:** Achieve 95%+ cache hit rate for read-heavy operations.
+export function GiscusIsland() {
+  const [visible, setVisible] = createSignal(false);
+  let sentinelRef!: HTMLDivElement;
 
-| Content Type | Cache TTL | Invalidation | Strategy |
-|---|---|---|---|
-| Wiki pages | 5 minutes | On edit | Stale-while-revalidate |
-| Page lists | 2 minutes | On create/delete | Cache + background refresh |
-| Search index | 1 hour | On content change | Periodic rebuild |
-| User sessions | 24 hours | On logout | Direct KV lookup |
-| Wiki config | 1 hour | On settings change | Cache + event invalidation |
-
-```typescript
-// Stale-while-revalidate pattern
-async function staleWhileRevalidate<T>(
-  kv: KVNamespace,
-  key: string,
-  fetcher: () => Promise<T>,
-  options: { ttl: number; staleTtl: number }
-): Promise<{ data: T; source: 'cache' | 'fresh' | 'revalidated' }> {
-  const cached = await kv.getWithMetadata<T>(key);
-  
-  if (cached.value) {
-    const age = Date.now() - (cached.metadata as any)?.timestamp;
-    
-    // Fresh cache: return immediately
-    if (age < options.ttl * 1000) {
-      return { data: cached.value, source: 'cache' };
-    }
-    
-    // Stale but usable: return stale, revalidate in background
-    if (age < (options.ttl + options.staleTtl) * 1000) {
-      // Background revalidation (non-blocking)
-      fetcher().then(fresh => {
-        kv.put(key, JSON.stringify(fresh), {
-          metadata: { timestamp: Date.now() },
-          expirationTtl: options.ttl + options.staleTtl,
-        });
-      });
-      
-      return { data: cached.value, source: 'revalidated' };
-    }
-  }
-  
-  // Cache miss or expired: fetch fresh
-  const fresh = await fetcher();
-  await kv.put(key, JSON.stringify(fresh), {
-    metadata: { timestamp: Date.now() },
-    expirationTtl: options.ttl + options.staleTtl,
+  onMount(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: '200px' }
+    );
+    observer.observe(sentinelRef);
   });
-  
-  return { data: fresh, source: 'fresh' };
+
+  return (
+    <div ref={sentinelRef!}>
+      <Show when={visible()}>
+        <Suspense fallback={<div class="comments-skeleton" />}>
+          <GiscusWidget
+            repo="KP/wikisites"
+            repoId="..."
+            category="Announcements"
+            categoryId="..."
+            mapping="pathname"
+            reactionsEnabled="1"
+            emitMetadata="0"
+            inputPosition="top"
+            theme="dark"
+            lang="en"
+          />
+        </Suspense>
+      </Show>
+    </div>
+  );
 }
 ```
 
-### 3.3 R2 Edge Storage
+### 3.2 Annotations (10KB)
 
-**Objective:** Serve all assets from R2 for zero-egress global delivery.
-
-| Asset Type | R2 Path | Cache Headers | Edge Strategy |
-|---|---|---|---|
-| Page content | `content/{wikiId}/{pageId}.json` | s-maxage=300 | KV cache + R2 fallback |
-| Images | `images/{wikiId}/{hash}.{ext}` | max-age=31536000, immutable | CDN edge |
-| Search indexes | `indexes/{wikiId}/search.json` | s-maxage=3600 | KV cache |
-| Backups | `backups/{wikiId}/{date}.json` | no-cache | Direct access |
-| User uploads | `uploads/{wikiId}/{userId}/{hash}.{ext}` | max-age=86400 | CDN edge |
+**Strategy:** Load on annotation trigger (text selection or button click).
 
 ```typescript
-// R2 with edge caching and range requests
-async function serveR2Object(
-  bucket: R2Bucket,
-  request: Request,
-  key: string
-): Promise<Response> {
-  // Check cache
-  const cache = caches.default;
-  const cacheKey = new Request(new URL(key, request.url).toString(), request);
-  const cached = await cache.match(cacheKey);
-  
-  if (cached && request.headers.get('Range')) {
-    // Cache doesn't support range requests; fetch from R2
-  } else if (cached) {
-    return cached;
-  }
-  
-  // Fetch from R2
-  const object = await bucket.get(key, {
-    range: request.headers.get('Range') ? parseRange(request.headers.get('Range')!) : undefined,
-  });
-  
-  if (!object) {
-    return new Response('Not Found', { status: 404 });
-  }
-  
-  const response = new Response(object.body, {
-    headers: {
-      'Content-Type': object.httpMetadata?.contentType || 'application/octet-stream',
-      'Content-Length': object.size.toString(),
-      'ETag': object.httpEtag,
-      'Cache-Control': getCacheControl(key),
-    },
-  });
-  
-  // Cache successful responses
-  if (response.ok) {
-    const responseToCache = response.clone();
-    await cache.put(cacheKey, responseToCache);
-  }
-  
-  return response;
+// src/components/AnnotationsIsland.tsx
+const Annotations = lazy(() => import('./Annotations'));
+
+export function AnnotationsIsland(props: { pageId: string }) {
+  const [active, setActive] = createSignal(false);
+
+  return (
+    <div>
+      <button onClick={() => setActive(true)}>Annotations</button>
+      <Show when={active()}>
+        <Suspense fallback={null}>
+          <Annotations pageId={props.pageId} onClose={() => setActive(false)} />
+        </Suspense>
+      </Show>
+    </div>
+  );
 }
 ```
 
-### 3.4 Edge Search
+### 3.3 User Accounts (5KB)
 
-**Objective:** Sub-100ms search response from edge.
+**Strategy:** Load on login button click. Minimal initial footprint.
 
 ```typescript
-// Edge search implementation
-async function edgeSearch(
-  request: Request,
-  env: Env
-): Promise<SearchResults> {
-  const url = new URL(request.url);
-  const query = url.searchParams.get('q') || '';
-  const wikiId = url.searchParams.get('wiki') || '';
-  
-  // Get search index from KV (cached at edge)
-  const indexKey = `search:${wikiId}`;
-  const index = await env.KV.get(indexKey, { type: 'json' }) as SearchIndex;
-  
-  if (!index) {
-    // Fallback: query D1 directly
-    return d1Search(env.DB, wikiId, query);
-  }
-  
-  // Perform search in-memory at edge
-  const results = performSearch(index, query, {
-    maxResults: 20,
-    fuzzyThreshold: 0.3,
-    boostTitle: 2.0,
-    boostRecency: 1.5,
-  });
-  
-  return {
-    results: results.hits,
-    total: results.total,
-    query,
-    duration: results.duration,
-  };
-}
+// src/components/UserAccountsIsland.tsx
+const UserAuth = lazy(() => import('./UserAuth'));
 
-// Build search index in background
-async function buildSearchIndex(wikiId: string, env: Env): Promise<void> {
-  const pages = await env.DB.prepare(
-    'SELECT id, title, content, updated_at FROM pages WHERE wiki_id = ? AND deleted_at IS NULL'
-  ).bind(wikiId).all();
-  
-  const index: SearchIndex = {
-    wikiId,
-    builtAt: Date.now(),
-    pages: pages.results.map(page => ({
-      id: page.id,
-      title: page.title,
-      tokens: tokenize(page.title + ' ' + page.content),
-      updatedAt: page.updated_at,
-    })),
-  };
-  
-  // Store in KV
-  await env.KV.put(`search:${wikiId}`, JSON.stringify(index), {
-    expirationTtl: 3600,
-  });
+export function UserAccountsIsland() {
+  const [showLogin, setShowLogin] = createSignal(false);
+
+  return (
+    <div>
+      <button onClick={() => setShowLogin(true)}>Sign In</button>
+      <Show when={showLogin()}>
+        <Suspense fallback={<div class="auth-skeleton" />}>
+          <UserAuth onClose={() => setShowLogin(false)} />
+        </Suspense>
+      </Show>
+    </div>
+  );
 }
 ```
+
+### 3.4 Optimization Actions
+
+- [ ] Giscus loaded via IntersectionObserver
+- [ ] Annotations loaded on trigger
+- [ ] User Accounts loaded on login click
+- [ ] All P2 components use `client:idle` or `client:visible` Astro directive
+- [ ] Verify no third-party scripts load until triggered
+- [ ] Run Lighthouse before/after
 
 ### Phase 3 Success Criteria
 
-| Metric | Phase 2 Result | Target |
-|---|---|---|
-| TTFB (global) | 150ms | <80ms |
-| TTFB (cached) | 100ms | <50ms |
-| Cache hit rate | 80% | >95% |
-| Search latency | 80ms | <50ms |
-| API P95 | 200ms | <120ms |
-| Offline support | Basic | Full offline read |
+| Metric | After P2 | Target | Max |
+|---|---|---|---|
+| Base JS | 75KB | 78KB | 85KB |
+| Giscus chunk | — | 15KB | 20KB |
+| Annotations chunk | — | 10KB | 15KB |
+| LCP | 1.6s | 1.6s | 1.7s |
+| TBT | 90ms | 92ms | 100ms |
+| Third-party count | 0 | 0 (until triggered) | 0 |
 
 ---
 
-## Phase 4: Advanced Optimization
+## Phase 4: P3 Features — Lazy Load Editor
 
-### Duration: 3-4 weeks
-### Goal: Cutting-edge performance through ISR, streaming, and partial hydration
+### Duration: 2-3 weeks
+### Components: TipTap, Diff Viewer
+### Bundle impact: +210KB gzipped (all lazy)
 
-### 4.1 Incremental Static Regeneration (ISR)
+### 4.1 TipTap (200KB)
 
-**Objective:** Serve static pages with dynamic updates without full rebuilds.
-
-```typescript
-// ISR implementation with Cloudflare
-interface ISRConfig {
-  revalidate: number;    // Seconds between revalidations
-  staleWhileRevalidate: number;  // Serve stale while rebuilding
-  tags: string[];        // Cache tags for targeted invalidation
-}
-
-async function ISRHandler(
-  request: Request,
-  env: Env,
-  config: ISRConfig
-): Promise<Response> {
-  const url = new URL(request.url);
-  const cacheKey = `isr:${url.pathname}`;
-  
-  // Check cache
-  const cached = await env.KV.getWithMetadata<ISRPage>(cacheKey);
-  
-  if (cached.value) {
-    const age = (Date.now() - (cached.metadata as ISRMetadata).generatedAt) / 1000;
-    
-    // Fresh: serve from cache
-    if (age < config.revalidate) {
-      return new Response(cached.value.html, {
-        headers: {
-          'Content-Type': 'text/html',
-          'X-ISR-Status': 'fresh',
-          'X-ISR-Age': age.toFixed(0),
-        },
-      });
-    }
-    
-    // Stale: serve stale, trigger background revalidation
-    if (age < config.revalidate + config.staleWhileRevalidate) {
-      // Non-blocking revalidation
-      revalidatePage(url.pathname, env, config).catch(console.error);
-      
-      return new Response(cached.value.html, {
-        headers: {
-          'Content-Type': 'text/html',
-          'X-ISR-Status': 'stale',
-          'X-ISR-Age': age.toFixed(0),
-        },
-      });
-    }
-  }
-  
-  // Cache miss or expired: generate fresh page
-  const page = await generatePage(url.pathname, env);
-  
-  await env.KV.put(cacheKey, JSON.stringify(page), {
-    metadata: { generatedAt: Date.now(), tags: config.tags },
-    expirationTtl: config.revalidate + config.staleWhileRevalidate,
-  });
-  
-  return new Response(page.html, {
-    headers: {
-      'Content-Type': 'text/html',
-      'X-ISR-Status': 'fresh',
-    },
-  });
-}
-
-// Targeted invalidation by tag
-async function invalidateISR(
-  env: Env,
-  tags: string[]
-): Promise<void> {
-  // List all ISR cache entries
-  const keys = await env.KV.list({ prefix: 'isr:' });
-  
-  for (const key of keys.keys) {
-    const metadata = await env.KV.getWithMetadata(key.name);
-    const entryTags = (metadata.metadata as ISRMetadata)?.tags ?? [];
-    
-    // If any tag matches, invalidate
-    if (tags.some(tag => entryTags.includes(tag))) {
-      await env.KV.delete(key.name);
-    }
-  }
-}
-```
-
-### 4.2 Partial Hydration
-
-**Objective:** Hydrate only interactive components; keep static content server-rendered.
+**Strategy:** Load only in edit mode. Show loading skeleton during load.
 
 ```typescript
-// Partial hydration strategy
-const HYDRATION_LEVELS = {
-  // No hydration needed (pure content)
-  static: 'none',
-  
-  // Hydrate only on interaction
-  interactive: 'lazy',
-  
-  // Hydrate immediately
-  dynamic: 'eager',
-};
+// src/components/TipTapIsland.tsx
+import { lazy, Suspense, createSignal, Show } from 'solid-js';
 
-// Component metadata for hydration decisions
-interface HydrationManifest {
-  components: {
-    [id: string]: {
-      level: 'none' | 'lazy' | 'eager';
-      chunk: string;
-      props: Record<string, unknown>;
-    };
-  };
-}
+const TipTapEditor = lazy(() => import('./TipTapEditor'));
 
-// Server-side: Generate hydration manifest
-function generateManifest(tree: ComponentTree): HydrationManifest {
-  const manifest: HydrationManifest = { components: {} };
-  
-  function walk(node: ComponentNode, depth: number) {
-    const hydrationLevel = classifyHydration(node);
-    
-    if (hydrationLevel !== 'none') {
-      manifest.components[node.id] = {
-        level: hydrationLevel,
-        chunk: getChunkName(node.type),
-        props: serializeProps(node.props),
-      };
-    }
-    
-    for (const child of node.children) {
-      walk(child, depth + 1);
-    }
-  }
-  
-  walk(tree.root, 0);
-  return manifest;
-}
+export function TipTapIsland(props: { content: string; pageId: string }) {
+  const [editing, setEditing] = createSignal(false);
 
-function classifyHydration(node: ComponentNode): 'none' | 'lazy' | 'eager' {
-  // Static content: headings, paragraphs, lists
-  if (isStaticComponent(node.type)) return 'none';
-  
-  // Interactive: search, forms, toggles
-  if (isInteractiveComponent(node.type)) return 'lazy';
-  
-  // Dynamic: real-time data, animations
-  if (isDynamicComponent(node.type)) return 'eager';
-  
-  return 'lazy'; // Default to lazy
-}
+  return (
+    <div>
+      <Show when={!editing()}>
+        <div class="wiki-content" innerHTML={props.content} />
+        <button onClick={() => setEditing(true)}>Edit</button>
+      </Show>
 
-// Client-side: Selective hydration
-async function selectiveHydration(manifest: HydrationManifest) {
-  // Eager: hydrate immediately
-  for (const [id, config] of Object.entries(manifest.components)) {
-    if (config.level === 'eager') {
-      hydrateComponent(id, config);
-    }
-  }
-  
-  // Lazy: hydrate on interaction
-  for (const [id, config] of Object.entries(manifest.components)) {
-    if (config.level === 'lazy') {
-      const element = document.getElementById(id);
-      if (!element) continue;
-      
-      const interactionHandler = () => {
-        hydrateComponent(id, config);
-        element.removeEventListener('mouseenter', interactionHandler);
-        element.removeEventListener('focusin', interactionHandler);
-      };
-      
-      element.addEventListener('mouseenter', interactionHandler, { once: true });
-      element.addEventListener('focusin', interactionHandler, { once: true });
-    }
-  }
-  
-  // None: skip hydration entirely
-}
-```
-
-### 4.3 Streaming SSR
-
-**Objective:** Stream HTML to client for faster TTFB and FCP.
-
-```typescript
-// Streaming SSR with SolidJS
-async function streamSSR(request: Request, env: Env): Promise<Response> {
-  const { readable, writable } = new TransformStream();
-  const writer = writable.getWriter();
-  const encoder = new TextEncoder();
-  
-  // Start streaming HTML shell
-  await writer.write(encoder.encode(`<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/assets/css/app.css">
-  <link rel="preload" href="/assets/js/app.js" as="script">
-</head>
-<body>
-  <div id="app">`));
-  
-  // Stream content progressively
-  const stream = renderToStream(() => <App request={request} env={env} />);
-  
-  // Write shell while content streams
-  stream.onData((chunk) => {
-    writer.write(encoder.encode(chunk));
-  });
-  
-  // Close HTML after streaming completes
-  stream.onEnd(async () => {
-    await writer.write(encoder.encode(`
+      <Show when={editing()}>
+        <Suspense fallback={
+          <div class="editor-skeleton">
+            <div class="toolbar-skeleton" />
+            <div class="content-skeleton" />
+          </div>
+        }>
+          <TipTapEditor
+            content={props.content}
+            pageId={props.pageId}
+            onSave={() => setEditing(false)}
+            onCancel={() => setEditing(false)}
+          />
+        </Suspense>
+      </Show>
     </div>
-    <script src="/assets/js/app.js" defer></script>
-    <script>
-      // Hydration data
-      window.__SSR_DATA__ = ${JSON.stringify(getSSRData(request))};
-    </script>
-  </body>
-</html>`));
-    await writer.close();
-  });
-  
-  stream.onError((error) => {
-    console.error('SSR stream error:', error);
-    writer.close();
-  });
-  
-  return new Response(readable, {
-    headers: {
-      'Content-Type': 'text/html',
-      'Transfer-Encoding': 'chunked',
-      'X-Content-Type-Options': 'nosniff',
-    },
-  });
+  );
 }
 ```
 
-### 4.4 Edge-Side Includes (ESI)
+### 4.2 Diff Viewer (10KB)
 
-**Objective:** Compose pages from multiple edge-cached fragments.
+**Strategy:** Load on diff view toggle. Compare two content versions.
 
 ```typescript
-// ESI-like composition at edge
-async function composePage(
-  request: Request,
-  env: Env
-): Promise<Response> {
-  const url = new URL(request.url);
-  
-  // Fetch page fragments in parallel
-  const [header, content, sidebar, footer] = await Promise.all([
-    env.KV.get('fragment:header', { type: 'text' }),
-    getPageContent(url.pathname, env),
-    env.KV.get('fragment:sidebar', { type: 'text' }),
-    env.KV.get('fragment:footer', { type: 'text' }),
-  ]);
-  
-  // Compose final HTML
-  const html = `<!DOCTYPE html>
-<html lang="en">
-<head>${getHead(url)}</head>
-<body>
-  <header>${header}</header>
-  <main>${content}</main>
-  <aside>${sidebar}</aside>
-  <footer>${footer}</footer>
-  <script src="/assets/js/app.js" defer></script>
-</body>
-</html>`;
-  
-  return new Response(html, {
-    headers: { 'Content-Type': 'text/html' },
-  });
+// src/components/DiffViewerIsland.tsx
+import { lazy, Suspense, createSignal, Show } from 'solid-js';
+
+const DiffViewer = lazy(() => import('./DiffViewer'));
+
+export function DiffViewerIsland(props: { oldContent: string; newContent: string }) {
+  const [showDiff, setShowDiff] = createSignal(false);
+
+  return (
+    <div>
+      <button onClick={() => setShowDiff(true)}>Show Changes</button>
+      <Show when={showDiff()}>
+        <Suspense fallback={<div class="diff-skeleton" />}>
+          <DiffViewer
+            oldContent={props.oldContent}
+            newContent={props.newContent}
+            onClose={() => setShowDiff(false)}
+          />
+        </Suspense>
+      </Show>
+    </div>
+  );
 }
 ```
 
-### 4.5 Advanced Caching Patterns
+### 4.3 Optimization Actions
 
-```typescript
-// Multi-tier caching with intelligent invalidation
-class AdvancedCache {
-  private l1: Map<string, CacheEntry>;  // In-memory (per-request)
-  private l2: KVNamespace;              // Edge KV (global)
-  private l3: R2Bucket;                 // Persistent storage
-  
-  async get<T>(
-    key: string,
-    options?: { l1?: boolean; l2?: boolean; l3?: boolean }
-  ): Promise<{ data: T; source: 'l1' | 'l2' | 'l3' | 'miss' } | null> {
-    const opts = { l1: true, l2: true, l3: true, ...options };
-    
-    // L1: In-memory (fastest)
-    if (opts.l1) {
-      const l1Entry = this.l1.get(key);
-      if (l1Entry && !l1Entry.expired) {
-        return { data: l1Entry.data, source: 'l1' };
-      }
-    }
-    
-    // L2: Edge KV (fast)
-    if (opts.l2) {
-      const l2Entry = await this.l2.getWithMetadata<T>(key);
-      if (l2Entry.value) {
-        // Promote to L1
-        if (opts.l1) {
-          this.l1.set(key, {
-            data: l2Entry.value,
-            timestamp: Date.now(),
-            ttl: 60_000, // 1 minute in L1
-          });
-        }
-        return { data: l2Entry.value, source: 'l2' };
-      }
-    }
-    
-    // L3: R2 (slower but persistent)
-    if (opts.l3) {
-      const l3Object = await this.l3.get(key);
-      if (l3Object) {
-        const data = await l3Object.json<T>() as T;
-        // Promote to L2 and L1
-        await this.l2.put(key, JSON.stringify(data), {
-          expirationTtl: 300,
-        });
-        if (opts.l1) {
-          this.l1.set(key, {
-            data,
-            timestamp: Date.now(),
-            ttl: 60_000,
-          });
-        }
-        return { data, source: 'l3' };
-      }
-    }
-    
-    return null;
-  }
-  
-  async invalidate(key: string): Promise<void> {
-    this.l1.delete(key);
-    await this.l2.delete(key);
-    // R2 cleanup is async and deferred
-    this.l3.delete(key).catch(console.error);
-  }
-  
-  async invalidatePattern(pattern: string): Promise<void> {
-    const regex = new RegExp(pattern);
-    
-    // Invalidate L1
-    for (const key of this.l1.keys()) {
-      if (regex.test(key)) this.l1.delete(key);
-    }
-    
-    // Invalidate L2
-    const l2Keys = await this.l2.list();
-    for (const key of l2Keys.keys) {
-      if (regex.test(key.name)) {
-        await this.l2.delete(key.name);
-      }
-    }
-  }
-}
-```
+- [ ] TipTap loaded only on edit button click
+- [ ] Diff Viewer loaded only on diff toggle
+- [ ] TipTap vendor chunk split from main bundle
+- [ ] Editor skeleton shown during load
+- [ ] Verify INP remains <200ms with editor loaded
+- [ ] Memory budget: editor <8MB heap after load
+- [ ] Run full benchmark suite before/after
 
 ### Phase 4 Success Criteria
 
-| Metric | Phase 3 Result | Target |
-|---|---|---|
-| TTFB (global) | 80ms | <50ms |
-| LCP (P75) | 1.8s | <1.5s |
-| INP (P95) | 200ms | <150ms |
-| TTI | 2.5s | <2.0s |
-| Time to interactive | 2.5s | <1.5s |
-| Cache hit rate | 95% | >98% |
-| ISR revalidation | N/A | <30s |
-| Streaming TTFB | N/A | <100ms |
+| Metric | After P3 | Target | Max |
+|---|---|---|---|
+| Base JS | 78KB | 80KB | 88KB |
+| TipTap chunk | — | 200KB | 220KB |
+| Diff Viewer chunk | — | 10KB | 15KB |
+| LCP (edit mode) | — | 2.0s | 2.5s |
+| TBT (edit mode) | — | 120ms | 180ms |
+| INP (typing) | — | 40ms | 80ms |
+| Memory (edit mode) | — | 15MB | 25MB |
 
 ---
 
-## Overall Roadmap Timeline
+## Phase 5: P4 Features — Minimal Overhead
 
+### Duration: 1 week
+### Components: Plugin API, Theme Engine, Settings
+### Bundle impact: +8KB gzipped (2KB eager, 6KB lazy)
+
+### 5.1 Theme Engine (2KB eager)
+
+**Strategy:** Bundle with app shell. Applies theme on page load to prevent FOUC.
+
+```typescript
+// src/components/ThemeEngine.tsx
+// ~2KB gzipped, eager load
+import { createSignal, onMount } from 'solid-js';
+
+type Theme = 'light' | 'dark' | 'system';
+
+export function ThemeEngine() {
+  const [theme, setTheme] = createSignal<Theme>('system');
+
+  onMount(() => {
+    const saved = localStorage.getItem('theme') as Theme | null;
+    if (saved) setTheme(saved);
+    applyTheme(theme());
+  });
+
+  return null; // No visual output, applies to :root
+}
+
+function applyTheme(theme: Theme) {
+  const root = document.documentElement;
+  if (theme === 'system') {
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    root.dataset.theme = prefersDark ? 'dark' : 'light';
+  } else {
+    root.dataset.theme = theme;
+  }
+}
 ```
-Phase 1: Static Optimization (Weeks 1-3)
-├── Image optimization
-├── Code splitting
-├── CSS optimization
-└── Font strategy
 
-Phase 2: Dynamic Optimization (Weeks 4-6)
-├── Lazy loading
-├── Prefetching
-├── Service worker
-└── Data prefetching
+### 5.2 Plugin API (5KB lazy)
 
-Phase 3: Edge Optimization (Weeks 7-9)
-├── Workers edge computing
-├── KV caching strategy
-├── R2 edge storage
-└── Edge search
+**Strategy:** Load only when first plugin is registered.
 
-Phase 4: Advanced (Weeks 10-13)
-├── ISR
-├── Partial hydration
-├── Streaming SSR
-└── ESI composition
+```typescript
+// src/components/PluginAPI.tsx
+import { lazy, Suspense } from 'solid-js';
+
+const PluginLoader = lazy(() => import('./PluginLoader'));
+
+export function PluginAPI(props: { wikiId: string }) {
+  return (
+    <Suspense fallback={null}>
+      <PluginLoader wikiId={props.wikiId} />
+    </Suspense>
+  );
+}
 ```
 
-## Dependencies and Prerequisites
+### 5.3 Settings (1KB lazy)
 
-| Phase | Prerequisites | Dependencies |
+**Strategy:** Load on settings icon click.
+
+```typescript
+// src/components/SettingsIsland.tsx
+import { lazy, Suspense, createSignal, Show } from 'solid-js';
+
+const Settings = lazy(() => import('./Settings'));
+
+export function SettingsIsland() {
+  const [open, setOpen] = createSignal(false);
+
+  return (
+    <div>
+      <button onClick={() => setOpen(true)} aria-label="Settings">
+        {/* gear icon */}
+      </button>
+      <Show when={open()}>
+        <Suspense fallback={<div class="settings-skeleton" />}>
+          <Settings onClose={() => setOpen(false)} />
+        </Suspense>
+      </Show>
+    </div>
+  );
+}
+```
+
+### 5.4 Optimization Actions
+
+- [ ] Theme Engine bundled with app shell
+- [ ] Plugin API loaded on first plugin use
+- [ ] Settings loaded on icon click
+- [ ] Verify theme applies without FOUC
+- [ ] Final full benchmark suite run
+- [ ] Update performance report
+
+### Phase 5 Success Criteria
+
+| Metric | After P4 | Target | Max |
+|---|---|---|---|
+| Base JS | 80KB | 82KB | 88KB |
+| Plugin API chunk | — | 5KB | 8KB |
+| LCP | 1.6s | 1.6s | 1.7s |
+| TBT | 92ms | 95ms | 105ms |
+| Lighthouse score | 95 | 95 | 93 |
+
+---
+
+## Tree-Shaking Analysis
+
+### Libraries Tree-Shakeable?
+
+| Library | Tree-Shakeable | Notes |
 |---|---|---|
-| Phase 1 | SolidJS setup, Vite config | None |
-| Phase 2 | Phase 1 complete | Service worker registration |
-| Phase 3 | Cloudflare account, Workers setup | D1 database, KV namespaces, R2 bucket |
-| Phase 4 | Phase 3 complete | Streaming support, ISR infrastructure |
+| KaTeX | Partial | Core CSS must be included; individual functions can be imported |
+| force-graph | Yes | ESM build available |
+| TipTap | Yes | Modular; only import needed extensions |
+| Giscus | Yes | Single component import |
+| SolidJS | Yes | Already in app; no additional cost |
+| @kobalte/core | Yes | Already in app |
+
+### Bundle Impact Summary
+
+```
+Phase 1 (P0):  +7KB eager  +5KB lazy   = +12KB total
+Phase 2 (P1):  +0KB eager  +345KB lazy = +345KB total (lazy only)
+Phase 3 (P2):  +0KB eager  +30KB lazy  = +30KB total (lazy only)
+Phase 4 (P3):  +0KB eager  +210KB lazy = +210KB total (lazy only)
+Phase 5 (P4):  +2KB eager  +6KB lazy   = +8KB total
+───────────────────────────────────────────────────────────────
+Total:          +9KB eager  +596KB lazy = +605KB total
+
+Eager impact on initial load: +9KB (within 100KB budget)
+Lazy impact on initial load:  0KB (loaded on demand)
+```
+
+## Dynamic Imports Strategy
+
+```typescript
+// Central dynamic import registry
+export const LAZY_COMPONENTS = {
+  commandPalette: () => import('./CommandPalette'),
+  outlinePanel: () => import('./OutlinePanel'),
+  katex: () => import('./KaTeXRenderer'),
+  forceGraph: () => import('./ForceGraph'),
+  tiptap: () => import('./TipTapEditor'),
+  diffViewer: () => import('./DiffViewer'),
+  giscus: () => import('./GiscusWidget'),
+  annotations: () => import('./Annotations'),
+  userAccounts: () => import('./UserAuth'),
+  pluginApi: () => import('./PluginLoader'),
+  settings: () => import('./Settings'),
+} as const;
+
+// Prefetch on hover/focus
+export function prefetchComponent(key: keyof typeof LAZY_COMPONENTS) {
+  LAZY_COMPONENTS[key](); // Triggers webpack/vite chunk loading
+}
+```
+
+## Prefetch Strategy
+
+| Trigger | Action | Components |
+|---|---|---|
+| Hover Cmd+K hint | Prefetch palette chunk | Command Palette |
+| Hover outline toggle | Prefetch outline chunk | Outline Panel |
+| Scroll to math block | Prefetch KaTeX | KaTeX |
+| Hover graph button | Prefetch force-graph | force-graph |
+| Click edit button | Prefetch TipTap | TipTap |
+| Click diff button | Prefetch diff viewer | Diff Viewer |
+| Scroll to comments | Prefetch Giscus | Giscus |
+| Click settings | Prefetch settings | Settings |
+| First plugin load | Prefetch plugin API | Plugin API |
+
+```typescript
+// Astro prefetch integration
+// <a> tags with data-astro-prefetch trigger automatic prefetching
+<a href="/wiki/page" data-astro-prefetch>Page</a>
+
+// Component prefetch on hover
+<button
+  onmouseenter={() => prefetchComponent('katex')}
+  onClick={() => setShowMath(true)}
+>
+  Show Math
+</button>
+```

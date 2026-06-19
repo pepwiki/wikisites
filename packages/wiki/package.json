@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "@wikisites/shared": "workspace:*",
-    "@wikisites/query": "workspace:*"
+    "@wikisites/query": "workspace:*",
+    "zod": "^3.24.0"
   },
   "devDependencies": {
     "@astrojs/solid-js": "^5.0.0",

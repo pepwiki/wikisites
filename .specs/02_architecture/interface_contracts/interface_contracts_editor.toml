@@ -1,0 +1,352 @@
+# =============================================================================
+# Interface Contracts: Editor Component
+# Source: BP-EDITOR-001 §5.1–5.2
+# Version: 1.0.0
+# Date: 2026-06-19
+# Status: DRAFT
+# =============================================================================
+
+[metadata]
+document_id = "IC-EDITOR-001"
+source_paper = "BP-EDITOR-001"
+version = "1.0.0"
+date = "2026-06-19"
+status = "DRAFT"
+description = "TOML interface contracts for editor and version history APIs"
+
+# =============================================================================
+# EDITOR (BP-EDITOR-001 §5.1 — IF-EDITOR-001)
+# =============================================================================
+
+[interfaces.editor]
+
+[interfaces.editor.EditorDocument]
+description = "Core editor document model"
+fields = [
+    { name = "id", type = "string", constraints = "non-empty, page/entry ID" },
+    { name = "title", type = "string", constraints = "min(1), max(200)" },
+    { name = "content", type = "string", constraints = "MDX source" },
+    { name = "frontmatter", type = "FrontmatterData", constraints = "required" },
+    { name = "format", type = "enum", values = ["mdx", "md"] },
+    { name = "createdAt", type = "string", constraints = "ISO 8601" },
+    { name = "updatedAt", type = "string", constraints = "ISO 8601, >= createdAt" },
+    { name = "authorId", type = "string", constraints = "UUID v7" },
+    { name = "authorName", type = "string", constraints = "min(1), max(100)" },
+]
+
+[interfaces.editor.FrontmatterData]
+description = "YAML frontmatter for MDX documents"
+fields = [
+    { name = "title", type = "string", constraints = "min(1), max(200)" },
+    { name = "description", type = "string?", constraints = "max(500)" },
+    { name = "tags", type = "string[]?", constraints = "default([])" },
+    { name = "category", type = "string?", constraints = "non-empty" },
+    { name = "difficulty", type = "int?", constraints = "range(1, 5)" },
+    { name = "language", type = "string?", constraints = "ISO 639-1" },
+    { name = "status", type = "enum?", values = ["draft", "review", "published"] },
+    { name = "customFields", type = "Record<string, unknown>?", constraints = "default({})" },
+]
+
+[interfaces.editor.EditorState]
+description = "Current editor state"
+fields = [
+    { name = "document", type = "EditorDocument", constraints = "required" },
+    { name = "isDirty", type = "boolean", constraints = "default(false)" },
+    { name = "isCollaborating", type = "boolean", constraints = "default(false)" },
+    { name = "collaborators", type = "Collaborator[]", constraints = "default([])" },
+    { name = "cursor", type = "EditorCursor", constraints = "required" },
+    { name = "selection", type = "EditorSelection | null", constraints = "null if no selection" },
+]
+
+[interfaces.editor.Collaborator]
+description = "Remote collaborator presence"
+fields = [
+    { name = "userId", type = "string", constraints = "UUID v7" },
+    { name = "name", type = "string", constraints = "min(1), max(100)" },
+    { name = "color", type = "string", constraints = "hex color (#RRGGBB)" },
+    { name = "cursor", type = "EditorCursor | null", constraints = "null if not visible" },
+    { name = "lastActive", type = "string", constraints = "ISO 8601" },
+]
+
+[interfaces.editor.EditorCursor]
+description = "Cursor position in editor"
+fields = [
+    { name = "position", type = "int", constraints = "min(0), character offset" },
+    { name = "selection", type = "{anchor: int, head: int}?", constraints = "optional selection range" },
+]
+
+[interfaces.editor.EditorSelection]
+description = "Selected text range"
+fields = [
+    { name = "from", type = "int", constraints = "min(0)" },
+    { name = "to", type = "int", constraints = "> from" },
+    { name = "content", type = "string", constraints = "selected text" },
+]
+
+[interfaces.editor.SaveDocumentRequest]
+description = "Save document to version history"
+fields = [
+    { name = "id", type = "string", constraints = "non-empty" },
+    { name = "content", type = "string", constraints = "MDX source" },
+    { name = "frontmatter", type = "FrontmatterData", constraints = "required" },
+    { name = "commitMessage", type = "string?", constraints = "auto-generated if omitted" },
+    { name = "branch", type = "string?", constraints = "default: main" },
+]
+
+[interfaces.editor.SaveDocumentResponse]
+description = "Save result"
+fields = [
+    { name = "success", type = "boolean", constraints = "required" },
+    { name = "version", type = "string", constraints = "git commit SHA" },
+    { name = "conflict", type = "ConflictInfo?", constraints = "if concurrent edit detected" },
+]
+
+[interfaces.editor.ConflictInfo]
+description = "Conflict details when concurrent edits detected"
+fields = [
+    { name = "remoteVersion", type = "string", constraints = "remote commit SHA" },
+    { name = "remoteContent", type = "string", constraints = "remote MDX content" },
+    { name = "remoteAuthor", type = "string", constraints = "remote editor name" },
+    { name = "remoteUpdatedAt", type = "string", constraints = "ISO 8601" },
+    { name = "resolution", type = "enum", values = ["auto", "manual"] },
+]
+
+[interfaces.editor.InsertComponentRequest]
+description = "Insert MDX component at cursor"
+fields = [
+    { name = "componentType", type = "enum", values = ["jsx", "math", "mermaid", "callout", "image"] },
+    { name = "props", type = "Record<string, unknown>", constraints = "component-specific props" },
+    { name = "position", type = "int?", constraints = "cursor position, default: current" },
+]
+
+[interfaces.editor.PreviewRequest]
+description = "Render MDX preview"
+fields = [
+    { name = "content", type = "string", constraints = "MDX source" },
+    { name = "frontmatter", type = "FrontmatterData", constraints = "required" },
+    { name = "format", type = "enum", values = ["mdx", "md"] },
+]
+
+[interfaces.editor.PreviewResponse]
+description = "Rendered preview"
+fields = [
+    { name = "html", type = "string", constraints = "rendered HTML" },
+    { name = "errors", type = "PreviewError[]", constraints = "default([])" },
+    { name = "renderTimeMs", type = "int", constraints = "min(0)" },
+]
+
+[interfaces.editor.PreviewError]
+description = "Preview render error"
+fields = [
+    { name = "line", type = "int", constraints = "min(1)" },
+    { name = "column", type = "int", constraints = "min(1)" },
+    { name = "message", type = "string", constraints = "human-readable" },
+    { name = "severity", type = "enum", values = ["error", "warning"] },
+]
+
+# =============================================================================
+# DIFF / VERSION HISTORY (BP-EDITOR-001 §5.2 — IF-DIFF-001)
+# =============================================================================
+
+[interfaces.diff]
+
+[interfaces.diff.DiffRequest]
+description = "Compute diff between two texts"
+fields = [
+    { name = "oldContent", type = "string", constraints = "original text" },
+    { name = "newContent", type = "string", constraints = "modified text" },
+    { name = "algorithm", type = "enum?", values = ["myers", "patience", "lcs"], constraints = "default(myers)" },
+    { name = "context", type = "int?", constraints = "min(0), default(3), lines of context" },
+]
+
+[interfaces.diff.DiffResponse]
+description = "Computed diff result"
+fields = [
+    { name = "hunks", type = "DiffHunk[]", constraints = "ordered by position" },
+    { name = "stats", type = "DiffStats", constraints = "required" },
+    { name = "algorithm", type = "string", constraints = "algorithm used" },
+]
+
+[interfaces.diff.DiffHunk]
+description = "Contiguous block of changes"
+fields = [
+    { name = "oldStart", type = "int", constraints = "min(1), 1-indexed line" },
+    { name = "oldLines", type = "int", constraints = "min(0)" },
+    { name = "newStart", type = "int", constraints = "min(1), 1-indexed line" },
+    { name = "newLines", type = "int", constraints = "min(0)" },
+    { name = "lines", type = "DiffLine[]", constraints = "non-empty" },
+]
+
+[interfaces.diff.DiffLine]
+description = "Single line in a diff hunk"
+fields = [
+    { name = "type", type = "enum", values = ["equal", "insert", "delete"] },
+    { name = "content", type = "string", constraints = "line content (without newline)" },
+    { name = "oldLineNumber", type = "int?", constraints = "present for equal/delete" },
+    { name = "newLineNumber", type = "int?", constraints = "present for equal/insert" },
+]
+
+[interfaces.diff.DiffStats]
+description = "Diff statistics"
+fields = [
+    { name = "totalLines", type = "int", constraints = "min(0)" },
+    { name = "additions", type = "int", constraints = "min(0)" },
+    { name = "deletions", type = "int", constraints = "min(0)" },
+    { name = "hunks", type = "int", constraints = "min(0), number of hunks" },
+]
+
+[interfaces.diff.VersionInfo]
+description = "Git commit metadata"
+fields = [
+    { name = "sha", type = "string", constraints = "40-char hex SHA" },
+    { name = "message", type = "string", constraints = "commit message" },
+    { name = "author", type = "string", constraints = "author name" },
+    { name = "authorEmail", type = "string", constraints = "author email" },
+    { name = "date", type = "string", constraints = "ISO 8601" },
+    { name = "parents", type = "string[]", constraints = "parent commit SHAs" },
+]
+
+[interfaces.diff.VersionListRequest]
+description = "List versions for a page"
+fields = [
+    { name = "pageId", type = "string", constraints = "non-empty" },
+    { name = "branch", type = "string?", constraints = "default: main" },
+    { name = "limit", type = "int?", constraints = "range(1, 200), default(50)" },
+    { name = "offset", type = "int?", constraints = "min(0), default(0)" },
+]
+
+[interfaces.diff.VersionListResponse]
+description = "Paginated version list"
+fields = [
+    { name = "versions", type = "VersionInfo[]", constraints = "ordered by date desc" },
+    { name = "total", type = "int", constraints = "min(0)" },
+    { name = "hasMore", type = "boolean", constraints = "computed" },
+    { name = "currentBranch", type = "string", constraints = "active branch name" },
+    { name = "branches", type = "string[]", constraints = "available branches" },
+]
+
+[interfaces.diff.VersionDiffRequest]
+description = "Diff between two versions"
+fields = [
+    { name = "pageId", type = "string", constraints = "non-empty" },
+    { name = "fromSha", type = "string", constraints = "40-char hex SHA" },
+    { name = "toSha", type = "string", constraints = "40-char hex SHA" },
+]
+
+[interfaces.diff.VersionDiffResponse]
+description = "Version diff result"
+fields = [
+    { name = "diff", type = "DiffResponse", constraints = "required" },
+    { name = "from", type = "VersionInfo", constraints = "from commit info" },
+    { name = "to", type = "VersionInfo", constraints = "to commit info" },
+]
+
+[interfaces.diff.BranchCreateRequest]
+description = "Create a new branch"
+fields = [
+    { name = "pageId", type = "string", constraints = "non-empty" },
+    { name = "branchName", type = "string", constraints = "regex(^[a-z0-9-/]+$), max(100)" },
+    { name = "fromBranch", type = "string?", constraints = "default: main" },
+]
+
+[interfaces.diff.MergeRequest]
+description = "Merge branches"
+fields = [
+    { name = "pageId", type = "string", constraints = "non-empty" },
+    { name = "sourceBranch", type = "string", constraints = "non-empty" },
+    { name = "targetBranch", type = "string", constraints = "non-empty" },
+    { name = "commitMessage", type = "string?", constraints = "auto-generated if omitted" },
+    { name = "strategy", type = "enum?", values = ["merge", "squash", "rebase"], constraints = "default(merge)" },
+]
+
+[interfaces.diff.MergeResponse]
+description = "Merge result"
+fields = [
+    { name = "success", type = "boolean", constraints = "required" },
+    { name = "mergeSha", type = "string?", constraints = "merge commit SHA if successful" },
+    { name = "conflicts", type = "MergeConflict[]?", constraints = "if merge conflicts" },
+]
+
+[interfaces.diff.MergeConflict]
+description = "Merge conflict details"
+fields = [
+    { name = "path", type = "string", constraints = "file path" },
+    { name = "ours", type = "string", constraints = "our version content" },
+    { name = "theirs", type = "string", constraints = "their version content" },
+    { name = "base", type = "string", constraints = "common ancestor content" },
+]
+
+[interfaces.diff.AttributionEntry]
+description = "Author attribution for content"
+fields = [
+    { name = "userId", type = "string", constraints = "UUID v7" },
+    { name = "userName", type = "string", constraints = "display name" },
+    { name = "contributedLines", type = "int", constraints = "min(1)" },
+    { name = "dateRange", type = "[string, string]", constraints = "ISO 8601 pair" },
+    { name = "sections", type = "string[]", constraints = "section names contributed to" },
+]
+
+# =============================================================================
+# ERRORS
+# =============================================================================
+
+[interfaces.errors]
+
+[interfaces.errors.EditorError]
+description = "Editor operation error"
+fields = [
+    { name = "code", type = "string", constraints = "enum: SAVE_FAILED, CONFLICT, PREVIEW_FAILED, INVALID_MDX" },
+    { name = "message", type = "string", constraints = "human-readable" },
+]
+
+[interfaces.errors.VersionError]
+description = "Version history error"
+fields = [
+    { name = "code", type = "string", constraints = "enum: COMMIT_FAILED, MERGE_CONFLICT, BRANCH_EXISTS, BRANCH_NOT_FOUND" },
+    { name = "message", type = "string", constraints = "human-readable" },
+]
+
+[interfaces.errors.DiffError]
+description = "Diff computation error"
+fields = [
+    { name = "code", type = "string", constraints = "enum: INVALID_SHA, VERSION_NOT_FOUND, DIFF_TOO_LARGE" },
+    { name = "message", type = "string", constraints = "human-readable" },
+]
+
+# =============================================================================
+# EXPORTS
+# =============================================================================
+
+[exports]
+interfaces = [
+    "interfaces.editor.EditorDocument",
+    "interfaces.editor.FrontmatterData",
+    "interfaces.editor.EditorState",
+    "interfaces.editor.Collaborator",
+    "interfaces.editor.EditorCursor",
+    "interfaces.editor.SaveDocumentRequest",
+    "interfaces.editor.SaveDocumentResponse",
+    "interfaces.editor.ConflictInfo",
+    "interfaces.editor.InsertComponentRequest",
+    "interfaces.editor.PreviewRequest",
+    "interfaces.editor.PreviewResponse",
+    "interfaces.editor.PreviewError",
+    "interfaces.diff.DiffRequest",
+    "interfaces.diff.DiffResponse",
+    "interfaces.diff.DiffHunk",
+    "interfaces.diff.DiffLine",
+    "interfaces.diff.DiffStats",
+    "interfaces.diff.VersionInfo",
+    "interfaces.diff.VersionListRequest",
+    "interfaces.diff.VersionListResponse",
+    "interfaces.diff.VersionDiffRequest",
+    "interfaces.diff.VersionDiffResponse",
+    "interfaces.diff.BranchCreateRequest",
+    "interfaces.diff.MergeRequest",
+    "interfaces.diff.MergeResponse",
+    "interfaces.diff.MergeConflict",
+    "interfaces.diff.AttributionEntry",
+    "interfaces.errors.EditorError",
+    "interfaces.errors.VersionError",
+    "interfaces.errors.DiffError",
+]
