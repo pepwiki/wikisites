@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "./rtl.css";
 @plugin "@tailwindcss/typography";
 
 /* Enable dark mode via Starlight's data-theme attribute */
@@ -97,6 +98,10 @@ h6 {
   animation: amoebic-drift 20s ease-in-out infinite alternate;
   pointer-events: none;
   z-index: 0;
+}
+
+[data-theme="dark"] .amoebic-blob {
+  background: linear-gradient(135deg, rgba(13, 148, 136, 0.1) 0%, rgba(249, 115, 22, 0.05) 100%);
 }
 
 @keyframes amoebic-drift {

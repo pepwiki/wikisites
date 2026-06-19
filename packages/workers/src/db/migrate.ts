@@ -73,10 +73,23 @@ CREATE TABLE IF NOT EXISTS session_stats (
   UNIQUE(user_id)
 );
 
+CREATE TABLE IF NOT EXISTS comments (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  article_slug TEXT NOT NULL,
+  site TEXT NOT NULL CHECK(site IN ('encp', 'wiki')),
+  content TEXT NOT NULL,
+  parent_id INTEGER REFERENCES comments(id) ON DELETE CASCADE,
+  created_at TEXT NOT NULL DEFAULT (datetime('now')),
+  updated_at TEXT NOT NULL DEFAULT (datetime('now'))
+);
+
 CREATE INDEX IF NOT EXISTS idx_review_progress_user ON review_progress(user_id);
 CREATE INDEX IF NOT EXISTS idx_review_progress_deck ON review_progress(site, deck_id);
 CREATE INDEX IF NOT EXISTS idx_annotations_article ON annotations(site, article_slug);
 CREATE INDEX IF NOT EXISTS idx_quiz_results_user ON quiz_results(user_id);
+CREATE INDEX IF NOT EXISTS idx_comments_article ON comments(site, article_slug);
+CREATE INDEX IF NOT EXISTS idx_comments_parent ON comments(parent_id);
 `;
 
 export async function runMigrations(db: {

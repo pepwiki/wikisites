@@ -291,7 +291,14 @@ export default function QuizSession(props: QuizSessionProps) {
               {correctCount()} correct &middot; {incorrectCount()} incorrect
             </span>
           </div>
-          <div class="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-2">
+          <div
+            class="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-2"
+            role="progressbar"
+            aria-valuenow={Math.round(progressPercent())}
+            aria-valuemin={0}
+            aria-valuemax={100}
+            aria-label="Quiz progress"
+          >
             <div
               class="bg-[#0f766e] dark:bg-[#2dd4bf] h-2 rounded-full transition-all duration-300"
               style={{ width: `${progressPercent()}%` }}

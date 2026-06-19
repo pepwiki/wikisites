@@ -128,7 +128,7 @@ export default function ReviewDashboard(props: ReviewDashboardProps) {
         onNext={handleNext}
       />
       {/* Stats bar */}
-      <div class="flex items-center justify-between mb-6 p-4 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800">
+      <div class="flex items-center justify-between mb-6 p-4 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800" aria-label="Review session statistics">
         <div class="text-center px-4">
           <div class="text-2xl font-bold text-[#0f766e] dark:text-[#2dd4bf]">{stats().total}</div>
           <div class="text-xs text-slate-500 dark:text-slate-400">Total Cards</div>

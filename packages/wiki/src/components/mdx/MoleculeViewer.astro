@@ -1,0 +1,13 @@
+---
+import MoleculeViewer from "../MoleculeViewer";
+
+interface Props {
+  pdbId?: string;
+  smiles?: string;
+  name: string;
+}
+
+const { pdbId, smiles, name } = Astro.props;
+---
+
+<MoleculeViewer client:load pdbId={pdbId} smiles={smiles} name={name} />

@@ -1,0 +1,54 @@
+---
+interface Props {
+  type?: "info" | "warning" | "danger" | "tip" | "note";
+  title?: string;
+}
+
+const { type = "info", title } = Astro.props;
+
+const config: Record<string, { icon: string; title: string; classes: string }> = {
+  info: {
+    icon: "ℹ️",
+    title: title ?? "Info",
+    classes: "border-blue-500/30 bg-blue-50 dark:bg-blue-950/30 text-blue-900 dark:text-blue-200",
+  },
+  warning: {
+    icon: "⚠️",
+    title: title ?? "Warning",
+    classes: "border-amber-500/30 bg-amber-50 dark:bg-amber-950/30 text-amber-900 dark:text-amber-200",
+  },
+  danger: {
+    icon: "🚫",
+    title: title ?? "Danger",
+    classes: "border-red-500/30 bg-red-50 dark:bg-red-950/30 text-red-900 dark:text-red-200",
+  },
+  tip: {
+    icon: "💡",
+    title: title ?? "Tip",
+    classes: "border-emerald-500/30 bg-emerald-50 dark:bg-emerald-950/30 text-emerald-900 dark:text-emerald-200",
+  },
+  note: {
+    icon: "📝",
+    title: title ?? "Note",
+    classes: "border-slate-500/30 bg-slate-50 dark:bg-slate-800/50 text-slate-900 dark:text-slate-200",
+  },
+};
+
+const c = config[type] ?? config.info;
+---
+
+<div
+  class={`callout rounded-2xl border-l-4 p-4 my-6 shadow-sm ${c.classes}`}
+  role="note"
+  aria-label={c.title}
+>
+  <div class="flex items-start gap-3">
+    <span class="text-lg leading-none mt-0.5" aria-hidden="true">{c.icon}</span>
+    <div class="min-w-0 flex-1">
+      <p class="font-bold text-sm mb-1">{c.title}</p>
+      <div class="text-sm leading-relaxed opacity-90">
+        <slot />
+      </div>
+    </div>
+  </div>
+</div>

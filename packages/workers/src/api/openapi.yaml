@@ -1,0 +1,198 @@
+openapi: 3.0.3
+info:
+  title: WikiSites API
+  description: REST API for WikiSites - peptide learning platform
+  version: 1.0.0
+  contact:
+    name: WikiSites Team
+servers:
+  - url: /api
+    description: API base path
+
+paths:
+  /health:
+    get:
+      summary: Health check
+      operationId: getHealth
+      tags: [System]
+      responses:
+        "200":
+          description: Service healthy
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: ok
+                  timestamp:
+                    type: integer
+                    format: int64
+
+  /stats:
+    get:
+      summary: Platform statistics
+      operationId: getStats
+      tags: [Analytics]
+      responses:
+        "200":
+          description: Aggregated stats
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  total_users:
+                    type: integer
+                  total_reviews:
+                    type: integer
+                  total_quizzes:
+                    type: integer
+                  total_annotations:
+                    type: integer
+                  total_comments:
+                    type: integer
+
+  /annotations:
+    get:
+      summary: List annotations
+      operationId: listAnnotations
+      tags: [Annotations]
+      parameters:
+        - name: articleId
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Annotations list
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Annotation"
+    post:
+      summary: Create annotation
+      operationId: createAnnotation
+      tags: [Annotations]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [articleId, text]
+              properties:
+                articleId:
+                  type: string
+                text:
+                  type: string
+                range:
+                  type: object
+      responses:
+        "201":
+          description: Annotation created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Annotation"
+
+  /comments:
+    get:
+      summary: List comments
+      operationId: listComments
+      tags: [Comments]
+      parameters:
+        - name: articleId
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Comments list
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Comment"
+
+  /progress:
+    get:
+      summary: Get user progress
+      operationId: getProgress
+      tags: [Progress]
+      responses:
+        "200":
+          description: User progress data
+          content:
+            application/json:
+              schema:
+                type: object
+
+  /search:
+    get:
+      summary: Search content
+      operationId: search
+      tags: [Search]
+      parameters:
+        - name: q
+          in: query
+          required: true
+          schema:
+            type: string
+          description: Search query
+      responses:
+        "200":
+          description: Search results
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                    title:
+                      type: string
+                    snippet:
+                      type: string
+
+components:
+  schemas:
+    Annotation:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        articleId:
+          type: string
+        text:
+          type: string
+        range:
+          type: object
+        createdAt:
+          type: string
+          format: date-time
+
+    Comment:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        articleId:
+          type: string
+        author:
+          type: string
+        body:
+          type: string
+        createdAt:
+          type: string
+          format: date-time

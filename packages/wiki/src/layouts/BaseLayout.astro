@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import "../styles/critical.css";
 import Toaster from "../components/ui/Toaster";
 import MobileNav from "../components/MobileNav";
 import CookieConsent from "../components/CookieConsent.tsx";
@@ -81,6 +82,7 @@ const {
       defer
       src="https://static.cloudflareinsights.com/beacon.min.js"
       data-cf-beacon='{"token": "WIKIPEPT_CF_ANALYTICS_TOKEN"}'></script>
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
     <link href="/_pagefind/pagefind-ui.css" rel="stylesheet" />
     <script src="/_pagefind/pagefind-ui.js" defer></script>
     <script is:inline>

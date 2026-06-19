@@ -137,7 +137,14 @@ export default function DailyChallenge(props: DailyChallengeProps) {
         </p>
 
         {/* Progress bar */}
-        <div class="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-2 mb-4">
+        <div
+          class="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-2 mb-4"
+          role="progressbar"
+          aria-valuenow={Math.round(progressPercent())}
+          aria-valuemin={0}
+          aria-valuemax={100}
+          aria-label="Daily challenge progress"
+        >
           <div
             class="bg-[#F97316] h-2 rounded-full transition-all duration-300"
             style={{ width: `${progressPercent()}%` }}

@@ -106,6 +106,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
       <div class="flex flex-wrap gap-2 mb-6">
         <button
           type="button"
+          aria-pressed={activeTag() === null}
           class={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
             activeTag() === null
               ? "bg-[#0f766e] text-white"
@@ -119,6 +120,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
           {(tag) => (
             <button
               type="button"
+              aria-pressed={activeTag() === tag}
               class={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
                 activeTag() === tag
                   ? "bg-[#0f766e] text-white"
@@ -149,7 +151,14 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
           <span>
             Card {currentIndex() + 1} of {filteredCards().length}
           </span>
-          <div class="flex-1 h-1.5 bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden">
+          <div
+            class="flex-1 h-1.5 bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden"
+            role="progressbar"
+            aria-valuenow={Math.round(((currentIndex() + 1) / filteredCards().length) * 100)}
+            aria-valuemin={0}
+            aria-valuemax={100}
+            aria-label="Flashcard progress"
+          >
             <div
               class="h-full bg-[#0f766e] rounded-full transition-all"
               style={{ width: `${((currentIndex() + 1) / filteredCards().length) * 100}%` }}

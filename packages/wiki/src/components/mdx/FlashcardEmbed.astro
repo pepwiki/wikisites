@@ -1,0 +1,15 @@
+---
+import Flashcard from "../../Flashcard";
+
+interface Props {
+  front: string;
+  back: string;
+  tags?: string[];
+}
+
+const { front, back, tags } = Astro.props;
+---
+
+<div class="my-6">
+  <Flashcard client:load front={front} back={back} tags={tags} />
+</div>

@@ -34,16 +34,18 @@ export default function MWCalculator() {
   };
 
   return (
-    <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
-      <h3 class="text-lg font-bold text-[#0A1628] mb-4">Molecular Weight Calculator</h3>
-      <p class="text-sm text-slate-500 mb-4">
+    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-2xl p-6 shadow-sm">
+      <h3 class="text-lg font-bold text-[#0A1628] dark:text-slate-100 mb-4">
+        Molecular Weight Calculator
+      </h3>
+      <p class="text-sm text-slate-500 dark:text-slate-400 mb-4">
         Enter a peptide sequence using one-letter amino acid codes (G, A, V, L, I, P, F, W, M, S, T,
         C, Y, H, D, E, N, Q, K, R)
       </p>
       <div class="flex gap-2">
         <input
           type="text"
-          class="flex-1 px-4 py-2 border border-slate-200 rounded-lg text-sm font-mono focus:border-[#C9A84C] focus:outline-none transition-colors"
+          class="flex-1 px-4 py-2 border border-slate-200 dark:border-slate-700 rounded-lg text-sm font-mono bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:border-[#C9A84C] focus:outline-none transition-colors"
           placeholder="e.g., GSH, CYIQNCPLG"
           value={input()}
           onInput={(e) => setInput(e.currentTarget.value)}
@@ -51,7 +53,7 @@ export default function MWCalculator() {
         />
         <button
           type="button"
-          class="px-4 py-2 bg-[#0A1628] text-white rounded-lg text-sm font-medium hover:bg-[#0A1628]/90 transition-colors"
+          class="px-4 py-2 bg-[#0A1628] dark:bg-slate-700 text-white rounded-lg text-sm font-medium hover:bg-[#0A1628]/90 dark:hover:bg-slate-600 transition-colors"
           onClick={calculate}
         >
           Calculate
@@ -59,19 +61,19 @@ export default function MWCalculator() {
       </div>
       <Show when={result()}>
         <div class="mt-4 grid grid-cols-3 gap-4 text-center">
-          <div class="p-3 bg-slate-50 rounded-lg">
-            <div class="text-xl font-bold text-[#0A1628]">{result()!.mw}</div>
-            <div class="text-xs text-slate-500">Da</div>
+          <div class="p-3 bg-slate-50 dark:bg-slate-800 rounded-lg">
+            <div class="text-xl font-bold text-[#0A1628] dark:text-slate-100">{result()!.mw}</div>
+            <div class="text-xs text-slate-500 dark:text-slate-400">Da</div>
           </div>
-          <div class="p-3 bg-slate-50 rounded-lg">
-            <div class="text-xl font-bold text-[#0A1628]">{result()!.residueCount}</div>
-            <div class="text-xs text-slate-500">Residues</div>
+          <div class="p-3 bg-slate-50 dark:bg-slate-800 rounded-lg">
+            <div class="text-xl font-bold text-[#0A1628] dark:text-slate-100">{result()!.residueCount}</div>
+            <div class="text-xs text-slate-500 dark:text-slate-400">Residues</div>
           </div>
-          <div class="p-3 bg-slate-50 rounded-lg">
-            <div class="text-xl font-bold text-[#0A1628] font-mono text-sm">
+          <div class="p-3 bg-slate-50 dark:bg-slate-800 rounded-lg">
+            <div class="text-xl font-bold text-[#0A1628] dark:text-slate-100 font-mono text-sm">
               {result()!.composition}
             </div>
-            <div class="text-xs text-slate-500">Composition</div>
+            <div class="text-xs text-slate-500 dark:text-slate-400">Composition</div>
           </div>
         </div>
       </Show>

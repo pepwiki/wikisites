@@ -1,0 +1,49 @@
+---
+import Quiz from "../../Quiz";
+
+interface Props {
+  questionId: string;
+  question?: string;
+  options?: string[];
+  correctIndex?: number;
+  explanation?: string;
+}
+
+const { questionId, question, options, correctIndex, explanation } = Astro.props;
+
+let resolvedQuestion = question ?? "";
+let resolvedOptions = options ?? [];
+let resolvedCorrectIndex = correctIndex ?? 0;
+let resolvedExplanation = explanation ?? "";
+
+if (!question) {
+  try {
+    const quizData = await import(`../../content/quizzes/${questionId}.json`);
+    const q = quizData.default ?? quizData;
+    resolvedQuestion = q.question;
+    resolvedOptions = q.options;
+    resolvedCorrectIndex = q.correctIndex;
+    resolvedExplanation = q.explanation;
+  } catch {
+    // Fallback: render placeholder
+  }
+}
+---
+
+<div class="my-6">
+  {resolvedQuestion ? (
+    <Quiz
+      client:load
+      question={resolvedQuestion}
+      options={resolvedOptions}
+      correctIndex={resolvedCorrectIndex}
+      explanation={resolvedExplanation}
+    />
+  ) : (
+    <div class="p-4 rounded-2xl border border-dashed border-slate-300 dark:border-slate-600 text-center">
+      <p class="text-sm text-slate-500 dark:text-slate-400">
+        Quiz "{questionId}" not found.
+      </p>
+    </div>
+  )}
+</div>
