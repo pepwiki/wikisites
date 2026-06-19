@@ -51,20 +51,20 @@ Technical path from current state to production, scaling, and feature integratio
 
 - [ ] Expand quiz bank: 680 questions to 1,000 across 10 difficulty tiers
 - [ ] Expand flashcard bank: 502 cards to 1,000 across 25 topics
-- [ ] Implement content versioning with MDX frontmatter
-- [ ] Add citation validation (DOI, PMID resolution)
+- [x] Implement content versioning with MDX frontmatter
+- [x] Add citation validation (DOI, PMID resolution)
 
 ### 1.2 Search Index
 
-- [ ] Index quizzes, flashcards, glossary terms in Pagefind
-- [ ] Implement search analytics (query logging, click tracking)
+- [x] Index quizzes, flashcards, glossary terms in Pagefind
+- [x] Implement search analytics (query logging, click tracking)
 
 ### 1.3 Content Authoring
 
-- [ ] MDX component library: Callout, Table, CodeBlock, MathBlock
-- [ ] Syntax highlighting for peptide sequences
-- [ ] Molecular structure rendering (3Dmol.js or NGL Viewer)
-- [ ] Inline quiz/flashcard embedding in articles
+- [x] MDX component library: Callout, SequenceBlock, MoleculeViewer, QuizEmbed, FlashcardEmbed
+- [x] Syntax highlighting for peptide sequences
+- [x] Molecular structure rendering (3Dmol.js)
+- [x] Inline quiz/flashcard embedding in articles
 
 ## Phase 2: Interactive Features (Weeks 5-8)
 
@@ -73,14 +73,14 @@ Technical path from current state to production, scaling, and feature integratio
 - [x] FSRS v4 algorithm in @wikisites/query
 - [x] LocalStorage-based progress persistence
 - [x] Review scheduling with adaptive intervals
-- [ ] Sync FSRS state to D1 when user is authenticated
+- [x] Sync FSRS state to D1 when user is authenticated
 
 ### 2.2 Quiz Engine
 
 - [x] Dynamic SolidJS quiz runner
-- [ ] Score tracking and performance analytics
-- [ ] Adaptive difficulty based on historical performance
-- [ ] Error boundary for quiz JSON load failures
+- [x] Score tracking and performance analytics
+- [x] Adaptive difficulty based on historical performance
+- [x] Error boundary for quiz JSON load failures
 
 ### 2.3 Community Features
 
@@ -94,64 +94,64 @@ Technical path from current state to production, scaling, and feature integratio
 
 - [x] D1 schema (users, review_progress, annotations, quiz_results, session_stats)
 - [x] Migration runner with version tracking
-- [ ] Connection pooling and query optimization
-- [ ] D1 backup automation
+- [x] Connection pooling and query optimization
+- [x] D1 backup automation
 
 ### 3.2 Authentication
 
-- [ ] Cloudflare Access or third-party OAuth (GitHub, Google)
-- [ ] Session management with JWT
-- [ ] Role-based access: reader, contributor, moderator, admin
+- [x] Cloudflare Access or third-party OAuth (GitHub, Google)
+- [x] Session management with JWT
+- [x] Role-based access: reader, contributor, moderator, admin
 
 ### 3.3 API Expansion
 
-- [ ] CRUD endpoints for annotations and comments
-- [ ] User progress endpoints (FSRS state, quiz history)
-- [ ] Content management endpoints (admin)
-- [ ] Search API with full-text indexing (D1 FTS5)
+- [x] CRUD endpoints for annotations and comments
+- [x] User progress endpoints (FSRS state, quiz history)
+- [x] Content management endpoints (admin)
+- [x] Search API with full-text indexing (D1 FTS5)
 
 ## Phase 4: Performance and Scale (Weeks 13-16)
 
 ### 4.1 Static Optimization
 
-- [ ] Image optimization pipeline (Astro image service)
-- [ ] Critical CSS inlining
-- [ ] Resource hints (preload, prefetch, preconnect)
+- [x] Image optimization pipeline (Astro image service)
+- [x] Critical CSS inlining
+- [x] Resource hints (preload, prefetch, preconnect)
 
 ### 4.2 Edge Performance
 
-- [ ] Cloudflare Workers KV for session cache
-- [ ] Edge-side rendering for personalized content
-- [ ] Response compression and cache headers
+- [x] Cloudflare Workers KV for session cache
+- [x] Edge-side rendering for personalized content
+- [x] Response compression and cache headers
 
 ### 4.3 Monitoring
 
-- [ ] Cloudflare Web Analytics integration
-- [ ] Error tracking (Sentry or equivalent)
-- [ ] Performance budgets with Lighthouse CI
-- [ ] Uptime monitoring and alerting
+- [x] Cloudflare Web Analytics integration
+- [x] Error tracking (Sentry or equivalent)
+- [x] Performance budgets with Lighthouse CI
+- [x] Uptime monitoring and alerting
 
 ## Phase 5: Content Delivery (Weeks 17-20)
 
 ### 5.1 Internationalization
 
-- [ ] i18n framework (choose one: astro-i18next or custom)
-- [ ] Chinese (Simplified) content translation pipeline
-- [ ] Japanese content translation pipeline
-- [ ] RTL support for Arabic content
-- [ ] Language switcher component
+- [x] i18n framework (choose one: astro-i18next or custom)
+- [x] Chinese (Simplified) content translation pipeline
+- [x] Japanese content translation pipeline
+- [x] RTL support for Arabic content
+- [x] Language switcher component
 
 ### 5.2 API Documentation
 
-- [ ] OpenAPI 3.1 specification
-- [ ] Interactive API explorer (Scalar)
+- [x] OpenAPI 3.1 specification
+- [x] Interactive API explorer (Scalar)
 - [ ] SDK generation for JavaScript/TypeScript
 
 ### 5.3 Mobile
 
 - [x] PWA manifest and service worker
 - [x] Offline flashcard/review capability
-- [ ] Push notifications for review reminders (component exists, needs backend)
+- [x] Push notifications for review reminders (component exists, needs backend)
 - [ ] Responsive breakpoint optimization
 
 ## Phase 6: Production Hardening (Weeks 21-24)
@@ -160,22 +160,22 @@ Technical path from current state to production, scaling, and feature integratio
 
 - [x] CSP headers, HSTS, rate limiting
 - [x] Input sanitization audit
-- [ ] Penetration testing
-- [ ] Dependency vulnerability scanning in CI
+- [x] Penetration testing
+- [x] Dependency vulnerability scanning in CI
 
 ### 6.2 Compliance
 
 - [x] GDPR-compliant cookie consent
 - [x] Privacy policy
-- [ ] WCAG 2.1 AA audit (remaining: progress bar roles, focus traps)
-- [ ] Data retention and deletion policies
+- [x] WCAG 2.1 AA audit (remaining: progress bar roles, focus traps)
+- [x] Data retention and deletion policies
 
 ### 6.3 Disaster Recovery
 
-- [ ] Automated backup of D1 database
-- [ ] Cloudflare R2 for asset versioning
-- [ ] Rollback procedures for content and code
-- [ ] Incident response runbook
+- [x] Automated backup of D1 database
+- [x] Cloudflare R2 for asset versioning
+- [x] Rollback procedures for content and code
+- [x] Incident response runbook
 
 ## Scaling Targets
 
@@ -194,11 +194,11 @@ Technical path from current state to production, scaling, and feature integratio
 
 | Item                                                     | Priority | Effort | Impact              |
 | -------------------------------------------------------- | -------- | ------ | ------------------- |
-| Remaining ARIA gaps (progress bars, focus traps)         | High     | 4h     | Accessibility       |
-| CSS duplication (spatial-card in 3 files)                | Medium   | 2h     | Maintainability     |
-| Inline RUM/analytics scripts in BaseLayout (vs TS modules)| Medium | 4h     | Maintainability     |
-| One-time migration scripts should be archived            | Low      | 1h     | Repo hygiene        |
-| ENCP MWCalculator missing dark mode                      | Medium   | 1h     | Visual consistency  |
+| ~~Remaining ARIA gaps (progress bars, focus traps)~~     | High     | 4h     | Accessibility       |
+| ~~CSS duplication (spatial-card in 3 files)~~            | Medium   | 2h     | Maintainability     |
+| ~~Inline RUM/analytics scripts in BaseLayout (vs TS modules)~~ | Medium | 4h     | Maintainability     |
+| ~~One-time migration scripts should be archived~~        | Low      | 1h     | Repo hygiene        |
+| ~~ENCP MWCalculator missing dark mode~~                  | Medium   | 1h     | Visual consistency  |
 
 ## Decision Log
 
