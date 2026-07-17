@@ -57,6 +57,16 @@ export default defineConfig({
           ],
         },
         {
+          label: "Practical",
+          items: [
+            { label: "Reconstitution", slug: "learn/reconstitution" },
+            { label: "Storage & Handling", slug: "learn/peptide-storage" },
+            { label: "Safety", slug: "learn/peptide-safety" },
+            { label: "Calculations", slug: "learn/peptide-calculations" },
+            { label: "Impurities", slug: "learn/peptide-impurities" },
+          ],
+        },
+        {
           label: "Community",
           items: [
             { label: "Get Involved", slug: "community" },
