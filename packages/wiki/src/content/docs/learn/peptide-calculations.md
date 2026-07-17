@@ -1,216 +1,189 @@
 ---
 title: Peptide Calculations
-description: How to calculate doses, concentrations, and volumes for peptide solutions
+description: Quantitative methods for peptide mass, concentration, dose, and volume calculations
 ---
 
-## Introduction
+## Molecular Weight Determination
 
-Accurate calculations are essential for peptide research. Incorrect dosing or concentration can invalidate experiments, waste expensive materials, or compromise animal welfare. This guide covers the fundamental calculations every researcher needs to master.
+The molecular weight (MW) of a peptide is calculated from its primary sequence. During solid-phase peptide synthesis (SPPS), each amino acid coupling releases one water molecule (H₂O, MW 18.015 Da) as the peptide bond forms between the α-carboxyl of the incoming residue and the α-amino of the growing chain:
 
-## Molecular Weight and Molarity
+$$\text{MW} = \sum_{i=1}^{n} \text{MW}_{\text{residue},i} - (n-1) \times 18.015$$
 
-### Molecular Weight (MW)
+where $n$ is the number of amino acid residues and each residue MW is the molecular weight of the amino acid minus water (i.e., the residue mass as incorporated into the chain).
 
-The molecular weight of a peptide is the sum of the molecular weights of its constituent amino acid residues minus water molecules lost during peptide bond formation:
+**Quick estimation:** Average amino acid residue weight is ~110 Da. For a 20-mer peptide, MW ≈ 20 × 110 = 2,200 Da. This ignores the N-terminal H (+1.008 Da) and C-terminal OH (+17.007 Da), which contribute a net +18.015 Da (one water molecule) to the free peptide.
 
-```
-MW = Σ(residue MWs) - (n-1) × 18.015
-```
+**Common modifications to account for:**
+- N-terminal acetyl: +42.011 Da (blocks N-terminus)
+- C-terminal amide: -0.984 Da (replaces OH with NH₂)
+- Disulfide bond (Cys-Cys): -2.016 Da (loss of 2H)
+- Phosphorylation (Ser/Thr): +79.966 Da
+- TFA counterion: +114.01 Da per TFA (if lyophilized from TFA)
 
-Where n is the number of amino acid residues. Each peptide bond releases one water molecule (MW = 18.015 Da).
+## Molar Concentration
 
-**Average amino acid residue weight:** ~110 Da (used for quick estimation)
+Molarity (M) relates mass to concentration through molecular weight:
 
-### Molarity
+$$C (\text{M}) = \frac{m (\text{g})}{\text{MW} (\text{g/mol}) \times V (\text{L})}$$
 
-Molarity (M) expresses concentration as moles per liter:
+Rearranged for practical use:
 
-```
-Molarity (M) = Mass (g) / [MW (g/mol) × Volume (L)]
-```
+$$C (\text{mg/mL}) = \frac{m (\text{mg})}{V (\text{mL})}$$
 
-For practical peptide work, millimolar (mM) and micromolar (μM) are more common:
-- 1 mM = 1 mmol/L = 1 μmol/mL
-- 1 μM = 1 μmol/L = 1 nmol/mL
+For molar concentrations:
 
-## Converting Between Units
+$$C (\text{mM}) = \frac{m (\text{mg}) \times 1000}{\text{MW} (\text{Da}) \times V (\text{mL})}$$
 
-### Mass Conversions
+**Example:** 5 mg of a 2,000 Da peptide dissolved in 2.5 mL:
 
-| From | To | Multiply by |
-|------|----|-------------|
-| mg | μg | 1000 |
-| g | mg | 1000 |
-| mg | mol | ÷ MW |
-| mol | mg | × MW |
+$$C = \frac{5 \times 1000}{2000 \times 2.5} = 1.0 \text{ mM}$$
 
-### Volume Conversions
+### Unit Conversions
 
-| From | To | Multiply by |
-|------|----|-------------|
-| mL | L | 0.001 |
-| L | mL | 1000 |
-| μL | mL | 0.001 |
-| mL | μL | 1000 |
-
-### Common Peptide Concentrations
-
-| Concentration | Equivalent |
-|---------------|------------|
+| Unit | Equivalent |
+|------|-----------|
+| 1 M | 1 mol/L |
+| 1 mM | 1 mmol/L = 1 μmol/mL |
+| 1 μM | 1 μmol/L = 1 nmol/mL |
 | 1 mg/mL | 1 g/L |
-| 1 mM (for 1000 Da peptide) | 1 mg/mL |
-| 100 μM | 0.1 mM |
 
-## Dose Calculation Formula
+For a 1,000 Da peptide: 1 mM = 1 mg/mL. This equivalence scales linearly—for a 2,000 Da peptide, 1 mM = 2 mg/mL.
+
+## Dose Calculation
 
 The fundamental dosing equation:
 
-```
-Dose (mg) = Concentration (mg/mL) × Volume (mL)
-```
+$$\text{Dose (mg)} = C (\text{mg/mL}) \times V (\text{mL})$$
 
-Or rearranged:
+Rearranged for volume:
 
-```
-Volume (mL) = Dose (mg) / Concentration (mg/mL)
-```
+$$V (\text{mL}) = \frac{\text{Dose (mg)}}{C (\text{mg/mL})}$$
 
-**Example:** If your peptide solution is 2 mg/mL and you need a 0.5 mg dose:
-```
-Volume = 0.5 mg / 2 mg/mL = 0.25 mL = 250 μL
-```
+**Example:** A 2 mg/mL solution, target dose 0.5 mg:
 
-## Reconstitution Calculator
+$$V = \frac{0.5}{2} = 0.25 \text{ mL} = 250 \text{ μL}$$
 
-When reconstituting lyophilized peptides, calculate the volume of solvent to add:
+### From Molar Dose
 
-### Formula
+If the dose is specified in moles or μmol:
 
-```
-Volume to add (mL) = Desired concentration (mg/mL) / Peptide mass (mg)
-```
+$$\text{Dose (mg)} = \text{Dose (μmol)} \times \frac{\text{MW (Da)}}{1000}$$
 
-Or equivalently:
+**Example:** 50 μmol dose of a 2,000 Da peptide:
 
-```
-Volume to add (mL) = Desired dose (mg) / Vial content (mg) × Vial volume
-```
+$$\text{Dose} = 50 \times \frac{2000}{1000} = 100 \text{ mg}$$
 
-### Practical Examples
+## Reconstitution Volume
 
-**Example 1: Simple Reconstitution**
+To reconstitute a lyophilized peptide to a target concentration:
 
-You have a 5 mg vial and want a 2 mg/mL solution:
-```
-Volume = 5 mg / 2 mg/mL = 2.5 mL
-```
-Add 2.5 mL of bacteriostatic water to the vial.
+$$V_{\text{add}} (\text{mL}) = \frac{m_{\text{peptide}} (\text{mg})}{C_{\text{target}} (\text{mg/mL})}$$
 
-**Example 2: Targeting a Specific Dose**
+**Worked examples:**
 
-You have a 10 mg vial, need 200 μg per dose, and want to inject 0.25 mL per dose:
+**Example 1 — Direct reconstitution:**
+5 mg vial, target 2 mg/mL:
 
-First, find the required concentration:
-```
-Concentration = 200 μg / 250 μL = 0.8 μg/μL = 0.8 mg/mL
-```
+$$V = \frac{5}{2} = 2.5 \text{ mL}$$
 
-Then calculate reconstitution volume:
-```
-Volume = 10 mg / 0.8 mg/mL = 12.5 mL
-```
+**Example 2 — Targeting a specific dose and volume:**
+10 mg vial, target dose 200 μg in 0.25 mL injection volume:
 
-**Example 3: Partial Vial Use**
+First, find required concentration:
 
-You have a 2 mg vial but only need 1 mg. You want 0.5 mL per injection:
-```
-Concentration needed = 1 mg / 0.5 mL = 2 mg/mL
-Volume to add = 1 mg / 2 mg/mL = 0.5 mL
-```
+$$C = \frac{0.2 \text{ mg}}{0.25 \text{ mL}} = 0.8 \text{ mg/mL}$$
 
-Add only 0.5 mL to dissolve the 1 mg you need (though the entire vial contents will dissolve).
+Then reconstitution volume:
 
-## Unit Conversions
+$$V = \frac{10}{0.8} = 12.5 \text{ mL}$$
 
-### Milligrams to Micrograms
+**Example 3 — Multi-dose vial:**
+5 mg vial, target 200 μg/dose in 100 μL injection, for 25 doses:
 
-```
-1 mg = 1000 μg
-```
+Required concentration:
 
-**Common conversions:**
-- 0.5 mg = 500 μg
-- 0.1 mg = 100 μg
-- 0.05 mg = 50 μg
-- 0.01 mg = 10 μg
+$$C = \frac{0.2 \text{ mg}}{0.1 \text{ mL}} = 2 \text{ mg/mL}$$
 
-### Milliliters to Insulin Syringe Units
+Total volume for 25 doses: 25 × 0.1 = 2.5 mL. Reconstitution volume for the full vial:
 
-Insulin syringes are commonly used for peptide measurements:
+$$V = \frac{5}{2} = 2.5 \text{ mL}$$
 
-| Syringe Size | Markings | 1 Unit = | 10 Units = |
-|--------------|----------|----------|------------|
-| 0.3 mL | 30 units | 0.01 mL | 0.1 mL |
-| 0.5 mL | 50 units | 0.01 mL | 0.1 mL |
-| 1.0 mL | 100 units | 0.01 mL | 0.1 mL |
+## Insulin Syringe Conversions
 
-**Key insight:** On standard insulin syringes, **1 unit = 0.01 mL = 10 μL** regardless of syringe size.
+Standard insulin syringes provide the most practical measurement for microgram-scale peptide doses.
 
-## Insulin Syringe Markings
+**Key relationship:** 1 insulin unit = 0.01 mL = 10 μL, regardless of total syringe capacity.
 
-Understanding insulin syringe markings is crucial for accurate dosing:
+| Syringe Capacity | Graduation | Maximum Units |
+|-----------------|------------|---------------|
+| 0.3 mL | 1 unit (0.01 mL) | 30 units |
+| 0.5 mL | 1 unit (0.01 mL) | 50 units |
+| 1.0 mL | 1 unit (0.01 mL) | 100 units |
 
-### Reading the Scale
+### Volume-to-Units Table
 
-- Large numbers (10, 20, 30...) represent **units**
-- Small tick marks between numbers represent **single units** (0.01 mL each)
-- On a 0.5 mL syringe: the "50" mark = 0.5 mL
+| Desired Volume | Units on Syringe |
+|---------------|-----------------|
+| 50 μL | 5 units |
+| 100 μL | 10 units |
+| 150 μL | 15 units |
+| 200 μL | 20 units |
+| 250 μL | 25 units |
+| 300 μL | 30 units |
+| 500 μL | 50 units |
 
-### Conversion Table
+### Dose from Concentration and Units
 
-| Units on Syringe | Volume (mL) | Volume (μL) |
-|------------------|-------------|-------------|
-| 5 | 0.05 | 50 |
-| 10 | 0.10 | 100 |
-| 15 | 0.15 | 150 |
-| 20 | 0.20 | 200 |
-| 25 | 0.25 | 250 |
-| 30 | 0.30 | 300 |
-| 50 | 0.50 | 500 |
+$$\text{Dose (μg)} = C (\text{mg/mL}) \times \text{Units} \times 0.01 \times 1000$$
 
-## Precision Considerations
+**Example:** 2 mg/mL solution, drawing 15 units:
 
-### Measurement Accuracy
+$$\text{Dose} = 2 \times 15 \times 0.01 \times 1000 = 300 \text{ μg}$$
 
-- **Use calibrated equipment** — verify syringe and pipette accuracy regularly
-- **Account for dead volume** — needles retain approximately 5-10 μL of solution
-- **Read meniscus correctly** — for glass syringes, read at the bottom of the meniscus
-- **Temperature effects** — volumes can vary slightly with temperature; measure at room temperature
+## Precision and Error Propagation
+
+### Measurement Uncertainty
+
+Every measurement introduces uncertainty. The cumulative error in a multi-step procedure propagates multiplicatively:
+
+$$\sigma_C / C = \sqrt{(\sigma_m / m)^2 + (\sigma_V / V)^2}$$
+
+where $\sigma_C$ is the concentration uncertainty, $\sigma_m$ is the mass uncertainty, and $\sigma_V$ is the volume uncertainty.
+
+**Practical limits:**
+- Analytical balance: ±0.1 mg (typical)
+- 1 mL insulin syringe: ±2% (±2 μL at 100 μL)
+- 5 mL syringe: ±2% (±10 μL at 500 μL)
+- P1000 pipette: ±1% (±10 μL at 1000 μL)
+
+### Dead Volume
+
+Needles retain 5–10 μL of solution due to surface tension and capillary action. For volumes >200 μL, this is negligible (<5%). For volumes <50 μL, account for dead volume by drawing an additional 5–10 μL.
 
 ### Significant Figures
 
-- Report concentrations to **2-3 significant figures** for most research applications
-- For precise work, use **3-4 significant figures**
-- Never claim precision beyond your measurement capability
+Report concentrations to 2–3 significant figures. A 2.5 mg/mL solution measured with a 0.1 mg balance and a 5 mL syringe has a practical precision of ±3–5%. Claiming "2.500 mg/mL" implies 0.02% precision, which exceeds the measurement capability.
 
-### Common Errors
+## Common Errors
 
-| Error Type | Example | Prevention |
-|------------|---------|------------|
-| Unit confusion | Reading mL as units | Double-check syringe markings |
-| Dilution errors | Incorrect reconstitution volume | Calculate twice, add once |
-| Meniscus error | Reading top of liquid curve | Read at bottom of meniscus |
-| Dead volume neglect | Assuming all drug is delivered | Account for needle retention |
+| Error | Magnitude | Prevention |
+|-------|-----------|------------|
+| Unit confusion (reading mL as units) | 100× | Verify syringe markings; 1 unit = 0.01 mL |
+| Incorrect reconstitution volume | Variable | Calculate twice, verify once |
+| Meniscus misreading (glass syringes) | 5–10% | Read at bottom of meniscus |
+| Dead volume neglect | 5–10 μL | Account for needle retention |
+| Temperature-dependent volume | ~0.1%/°C | Measure at 20–25°C |
 
-## Quick Reference: Common Calculations
+## Quick Reference
 
 | Goal | Formula | Example |
 |------|---------|---------|
-| Dose from concentration | Dose = Conc × Vol | 2 mg/mL × 0.3 mL = 0.6 mg |
-| Volume from dose | Vol = Dose / Conc | 0.4 mg / 2 mg/mL = 0.2 mL |
-| Reconstitution volume | Vol = Mass / Conc | 5 mg / 2.5 mg/mL = 2 mL |
-| Concentration | Conc = Mass / Vol | 10 mg / 5 mL = 2 mg/mL |
+| Dose | $D = C \times V$ | 2 mg/mL × 0.3 mL = 0.6 mg |
+| Volume | $V = D / C$ | 0.4 mg / 2 mg/mL = 0.2 mL |
+| Reconstitution volume | $V = m / C$ | 5 mg / 2.5 mg/mL = 2 mL |
+| Concentration | $C = m / V$ | 10 mg / 5 mL = 2 mg/mL |
+| Molar concentration | $C = m / (\text{MW} \times V)$ | 5 mg / (2000 × 2.5) = 1 mM |
 
 ---
 
-*For research use only. Always verify calculations before preparing solutions. When in doubt, consult a senior researcher or pharmacist.*
+*For research use only. Verify all calculations before preparing solutions.*
