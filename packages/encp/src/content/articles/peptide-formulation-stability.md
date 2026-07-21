@@ -25,7 +25,9 @@ Peptide therapeutics are inherently susceptible to multiple degradation pathways
 
 ### Chemical Degradation
 
-Deamidation of asparagine and glutamine residues to aspartate and glutamate, respectively, proceeds through a succinimide intermediate and is accelerated at alkaline pH and elevated temperatures. The rate of deamidation depends on the local sequence context, with Asn-Gly sequences being particularly labile. Oxidation of methionine, cysteine, tryptophan, and histidine residues is mediated by reactive oxygen species and trace metal ions. Asparagine-proline and aspartate-proline peptide bonds are susceptible to hydrolysis through a diketopiperazine mechanism. Racemization of L-amino acids, particularly at aspartate residues, generates D-enantiomers that may elicit immunogenic responses.
+Deamidation of asparagine and glutamine residues to aspartate and glutamate, respectively, proceeds through a succinimide intermediate and is accelerated at alkaline pH and elevated temperatures.
+
+> **Learn more:** [Solid-Phase Peptide Synthesis](https://wikipept.com/learn/spps/) on Wikipept The rate of deamidation depends on the local sequence context, with Asn-Gly sequences being particularly labile. Oxidation of methionine, cysteine, tryptophan, and histidine residues is mediated by reactive oxygen species and trace metal ions. Asparagine-proline and aspartate-proline peptide bonds are susceptible to hydrolysis through a diketopiperazine mechanism. Racemization of L-amino acids, particularly at aspartate residues, generates D-enantiomers that may elicit immunogenic responses.
 
 ### Physical Instability
 

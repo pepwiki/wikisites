@@ -5,6 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   site: "https://encyclopeptide.com",
   output: "static",
+  trailingSlash: "always",
   integrations: [solid()],
   markdown: {
     shikiConfig: {

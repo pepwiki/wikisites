@@ -71,6 +71,8 @@ Leptin              AgRP (antagonist) → ↑ Appetite
 ### Appetite Regulation
 - α-MSH is the key satiety signal from POMC neurons
 - MC4R activation suppresses food intake
+
+> **Learn more:** [Therapeutic Peptides](https://wikipept.com/learn/pharmacology/) on Wikipept
 - **AgRP** (antagonist) blocks MC4R → stimulates feeding
 - **Leptin** stimulates POMC neurons → ↑ α-MSH
 

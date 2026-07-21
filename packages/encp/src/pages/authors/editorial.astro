@@ -1,0 +1,101 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Encyclopeptide Editorial Team",
+  url: "https://encyclopeptide.com/authors/editorial",
+  description: "The Encyclopeptide editorial team creates and reviews academic reference content on oligopeptide structures, pharmacology, synthesis, and clinical applications.",
+  jobTitle: "Editorial Team",
+  worksFor: {
+    "@type": "Organization",
+    name: "Encyclopeptide",
+    url: "https://encyclopeptide.com",
+  },
+  sameAs: [
+    "https://kingstonpeptides.com",
+  ],
+};
+---
+
+<BaseLayout
+  title="Encyclopeptide Editorial Team | Encyclopeptide"
+  description="Meet the Encyclopeptide editorial team — scientists and researchers producing rigorous academic reference content on oligopeptide science."
+>
+  <article class="max-w-3xl mx-auto">
+    <header class="mb-8">
+      <h1 class="text-4xl font-serif font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Encyclopeptide Editorial Team
+      </h1>
+      <p class="text-lg text-slate-600 dark:text-slate-400">
+        Our editorial team comprises researchers, pharmacologists, and peptide scientists dedicated to producing rigorous academic reference material on oligopeptide biology.
+      </p>
+    </header>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-serif font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Our Mission
+      </h2>
+      <p class="text-slate-600 dark:text-slate-400 mb-4">
+        Encyclopeptide serves as a comprehensive academic reference for the peptide research community. Each article provides detailed molecular information, receptor pharmacology, biosynthetic pathways, clinical trial data, and drug development context. Our goal is to create the definitive reference work for oligopeptide science.
+      </p>
+      <p class="text-slate-600 dark:text-slate-400">
+        Our content spans the full scope of peptide science — from molecular structure and conformational analysis through receptor pharmacokinetics, clinical development, formulation stability, and emerging therapeutic modalities including peptide-drug conjugates, cyclic peptides, and peptide vaccines.
+      </p>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-serif font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Editorial Standards
+      </h2>
+      <ul class="list-disc list-inside space-y-2 text-slate-600 dark:text-slate-400">
+        <li>Content is peer-reviewed by domain experts in biochemistry and pharmacology</li>
+        <li>All molecular data is verified against primary literature and databases</li>
+        <li>Receptor binding data includes EC₅₀, Kd, and selectivity profiles where available</li>
+        <li>Clinical trial data references published results from registered trials</li>
+        <li>Synthetic methods reference established solid-phase peptide synthesis protocols</li>
+        <li>Articles include structured data (chemical identity, receptors, clinical significance)</li>
+      </ul>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-serif font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Featured Reference Articles
+      </h2>
+      <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-2">
+        <li><a href="/peptides/semaglutide" class="text-[#C9A84C] hover:underline">Semaglutide — GLP-1 receptor agonist pharmacology</a></li>
+        <li><a href="/peptides/tirzepatide" class="text-[#C9A84C] hover:underline">Tirzepatide — Dual GIP/GLP-1 receptor agonist</a></li>
+        <li><a href="/peptides/oxytocin" class="text-[#C9A84C] hover:underline">Oxytocin — Nonapeptide hormone reference</a></li>
+        <li><a href="/peptides/insulin-a-chain" class="text-[#C9A84C] hover:underline">Insulin A-Chain — Structural biochemistry</a></li>
+        <li><a href="/peptides/insulin-b-chain" class="text-[#C9A84C] hover:underline">Insulin B-Chain — Receptor binding and signaling</a></li>
+        <li><a href="/peptides/peptide-formulation-stability" class="text-[#C9A84C] hover:underline">Peptide Formulation Stability — Pharmaceutical development</a></li>
+        <li><a href="/peptides/peptide-blood-stability" class="text-[#C9A84C] hover:underline">Peptide Blood Stability — Protease resistance strategies</a></li>
+        <li><a href="/peptides/cck-receptor-pharmacology" class="text-[#C9A84C] hover:underline">CCK Receptor Pharmacology — GPCR signaling</a></li>
+      </ul>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-serif font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Cross-Site Resources
+      </h2>
+      <p class="text-slate-600 dark:text-slate-400 mb-4">
+        For interactive learning tools, quizzes, flashcards, and educational content on peptide biology fundamentals, visit our companion site:
+      </p>
+      <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-1">
+        <li><a href="https://wikipept.com" rel="noopener" class="text-[#C9A84C] hover:underline">Wikipept — Interactive peptide biology learning</a></li>
+        <li><a href="https://wikipept.com/learn" rel="noopener" class="text-[#C9A84C] hover:underline">Wikipept Learn — Structured educational content</a></li>
+        <li><a href="https://wikipept.com/quizzes" rel="noopener" class="text-[#C9A84C] hover:underline">Wikipept Quizzes — Self-assessment tools</a></li>
+      </ul>
+    </section>
+
+    <section class="p-6 bg-[#C9A84C]/5 border border-[#C9A84C]/20 rounded-xl">
+      <h3 class="font-serif font-semibold text-[#a88a30] mb-2">Affiliated Organization</h3>
+      <p class="text-sm text-slate-600 dark:text-slate-400">
+        Encyclopeptide is affiliated with <a href="https://kingstonpeptides.com" rel="noopener" class="text-[#C9A84C] hover:underline">Kingston Peptides</a>, a provider of research-grade peptides and amino acids for laboratory use.
+      </p>
+    </section>
+  </article>
+
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(personJsonLd)} />
+</BaseLayout>

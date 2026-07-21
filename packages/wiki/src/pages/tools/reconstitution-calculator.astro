@@ -1,0 +1,241 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ReconstitutionCalculator from "../../components/ReconstitutionCalculator.tsx";
+
+const howToJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "How to Reconstitute a Peptide",
+  step: [
+    {
+      "@type": "HowToStep",
+      name: "Determine Vial Mass",
+      text: "Identify the mass of lyophilized peptide in the vial (typically 1 mg, 2 mg, or 5 mg).",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Choose Concentration",
+      text: "Select your desired concentration in mg/mL based on your dosing needs.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Calculate Volume",
+      text: "Divide the vial mass by the desired concentration to find the volume of BAC water to add.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Add BAC Water",
+      text: "Slowly inject the calculated volume of bacteriostatic (BAC) water into the vial along the side wall. Do not shake vigorously — gently swirl or roll.",
+    },
+  ],
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "How much BAC water do I add to reconstitute a peptide?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The volume of BAC water is calculated as: Volume (mL) = Vial mass (mg) ÷ Desired concentration (mg/mL). For example, for a 2 mg vial at 2 mg/mL concentration, add 1 mL of BAC water.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is the formula for peptide reconstitution?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Volume (mL) = Mass (mg) / Concentration (mg/mL). This simple division gives you the exact volume of solvent needed to achieve your target concentration.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is the difference between 1 mg/mL and 2 mg/mL concentration?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "A 1 mg/mL concentration is more dilute and requires more BAC water per mg of peptide, making it easier to draw precise low doses. A 2 mg/mL concentration is more concentrated, requiring less volume per dose, which may be preferable when larger volumes are impractical.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How do I read an insulin syringe for peptide reconstitution?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "An insulin syringe marked in units can be converted: 100 units = 1 mL. So 0.5 mL = 50 units, 0.25 mL = 25 units, etc. This helps with precise dosing of reconstituted peptides.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can I use water instead of BAC water for reconstitution?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Bacteriostatic (BAC) water is recommended because it contains 0.9% benzyl alcohol, which acts as a preservative and antimicrobial agent. Plain sterile water can be used but lacks the preservative and may support bacterial growth after reconstitution.",
+      },
+    },
+  ],
+};
+---
+
+<BaseLayout
+  title="Peptide Reconstitution Calculator | Wikipept"
+  description="Calculate the exact volume of BAC water needed to reconstitute your peptide to a specific concentration."
+>
+  <article class="max-w-4xl mx-auto">
+    <header class="mb-8">
+      <h1 class="text-4xl font-extrabold text-slate-900 dark:text-slate-100 mb-4">
+        Peptide Reconstitution Calculator
+      </h1>
+      <p class="text-lg text-slate-600 dark:text-slate-400">
+        Calculate the exact volume of BAC water needed to reconstitute your peptide to a specific concentration.
+      </p>
+    </header>
+
+    <section class="mb-12">
+      <ReconstitutionCalculator client:load />
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        How to Use This Calculator
+      </h2>
+      <ol class="list-decimal list-inside space-y-2 text-slate-600 dark:text-slate-400">
+        <li>Enter the <strong>mass of peptide</strong> in your vial (in mg)</li>
+        <li>Enter the <strong>desired concentration</strong> (in mg/mL)</li>
+        <li>Or click one of the <strong>preset buttons</strong> for common vial sizes</li>
+        <li>View the required volume of BAC water and the equivalent insulin syringe units</li>
+      </ol>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        The Formula
+      </h2>
+      <div class="p-6 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+        <p class="text-slate-700 dark:text-slate-300 mb-3">
+          The volume of solvent (BAC water) needed is calculated by dividing the mass of peptide by the desired concentration:
+        </p>
+        <div class="font-mono text-lg text-center py-4 text-slate-900 dark:text-slate-100">
+          Volume (mL) = Mass (mg) / Concentration (mg/mL)
+        </div>
+        <p class="text-sm text-slate-500 dark:text-slate-400 mt-3">
+          For insulin syringe reading: <strong>100 units = 1 mL</strong>. Multiply your volume in mL by 100 to get the equivalent units.
+        </p>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Common Reconstitution Scenarios
+      </h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <th class="text-left py-2 px-3 text-slate-900 dark:text-slate-100">Vial Mass</th>
+              <th class="text-left py-2 px-3 text-slate-900 dark:text-slate-100">Concentration</th>
+              <th class="text-right py-2 px-3 text-slate-900 dark:text-slate-100">BAC Water</th>
+              <th class="text-right py-2 px-3 text-slate-900 dark:text-slate-100">Syringe Units</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-600 dark:text-slate-400">
+            <tr class="border-b border-slate-100 dark:border-slate-800">
+              <td class="py-2 px-3 font-mono font-bold">1 mg</td>
+              <td class="py-2 px-3">1 mg/mL</td>
+              <td class="py-2 px-3 text-right font-mono">1.00 mL</td>
+              <td class="py-2 px-3 text-right font-mono">100 units</td>
+            </tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800">
+              <td class="py-2 px-3 font-mono font-bold">1 mg</td>
+              <td class="py-2 px-3">2 mg/mL</td>
+              <td class="py-2 px-3 text-right font-mono">0.50 mL</td>
+              <td class="py-2 px-3 text-right font-mono">50 units</td>
+            </tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800">
+              <td class="py-2 px-3 font-mono font-bold">1 mg</td>
+              <td class="py-2 px-3">5 mg/mL</td>
+              <td class="py-2 px-3 text-right font-mono">0.20 mL</td>
+              <td class="py-2 px-3 text-right font-mono">20 units</td>
+            </tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800">
+              <td class="py-2 px-3 font-mono font-bold">2 mg</td>
+              <td class="py-2 px-3">1 mg/mL</td>
+              <td class="py-2 px-3 text-right font-mono">2.00 mL</td>
+              <td class="py-2 px-3 text-right font-mono">200 units</td>
+            </tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800">
+              <td class="py-2 px-3 font-mono font-bold">2 mg</td>
+              <td class="py-2 px-3">2 mg/mL</td>
+              <td class="py-2 px-3 text-right font-mono">1.00 mL</td>
+              <td class="py-2 px-3 text-right font-mono">100 units</td>
+            </tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800">
+              <td class="py-2 px-3 font-mono font-bold">5 mg</td>
+              <td class="py-2 px-3">2 mg/mL</td>
+              <td class="py-2 px-3 text-right font-mono">2.50 mL</td>
+              <td class="py-2 px-3 text-right font-mono">250 units</td>
+            </tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800">
+              <td class="py-2 px-3 font-mono font-bold">5 mg</td>
+              <td class="py-2 px-3">5 mg/mL</td>
+              <td class="py-2 px-3 text-right font-mono">1.00 mL</td>
+              <td class="py-2 px-3 text-right font-mono">100 units</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Frequently Asked Questions
+      </h2>
+      <div class="space-y-6">
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">How much BAC water do I add to reconstitute a peptide?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            The volume of BAC water is calculated as: <strong>Volume (mL) = Vial mass (mg) ÷ Desired concentration (mg/mL)</strong>. For example, for a 2 mg vial at 2 mg/mL concentration, add 1 mL of BAC water.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">What is the formula for peptide reconstitution?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            <strong>Volume (mL) = Mass (mg) / Concentration (mg/mL)</strong>. This simple division gives you the exact volume of solvent needed to achieve your target concentration.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">What is the difference between 1 mg/mL and 2 mg/mL concentration?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            A 1 mg/mL concentration is more dilute and requires more BAC water per mg of peptide, making it easier to draw precise low doses. A 2 mg/mL concentration is more concentrated, requiring less volume per dose.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">How do I read an insulin syringe for peptide reconstitution?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            An insulin syringe marked in units can be converted: <strong>100 units = 1 mL</strong>. So 0.5 mL = 50 units, 0.25 mL = 25 units, etc.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Can I use water instead of BAC water for reconstitution?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            Bacteriostatic (BAC) water is recommended because it contains 0.9% benzyl alcohol, which acts as a preservative. Plain sterile water can be used but lacks the preservative and may support bacterial growth after reconstitution.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-6 bg-[#0D9488]/5 border border-[#0D9488]/20 rounded-xl">
+      <h3 class="font-semibold text-[#0f766e] mb-2">Related Resources</h3>
+      <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-1">
+        <li><a href="/learn/reconstitution" class="text-[#0D9488] hover:underline">Learn: Peptide Reconstitution Theory</a></li>
+        <li><a href="/learn/peptide-storage" class="text-[#0D9488] hover:underline">Learn: Storage &amp; Handling</a></li>
+        <li><a href="/tools/molecular-weight-calculator" class="text-[#0D9488] hover:underline">Tool: Molecular Weight Calculator</a></li>
+        <li><a href="/learn/peptide-safety" class="text-[#0D9488] hover:underline">Learn: Safety</a></li>
+      </ul>
+    </section>
+  </article>
+
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+</BaseLayout>

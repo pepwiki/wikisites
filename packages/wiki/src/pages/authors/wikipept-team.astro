@@ -1,0 +1,83 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Wikipept Editorial Team",
+  url: "https://wikipept.com/authors/wikipept-team",
+  description: "The Wikipept editorial team creates and reviews educational content on oligopeptide biology, synthesis, pharmacology, and therapeutics.",
+  jobTitle: "Editorial Team",
+  worksFor: {
+    "@type": "Organization",
+    name: "Wikipept",
+    url: "https://wikipept.com",
+  },
+  sameAs: [
+    "https://kingstonpeptides.com",
+  ],
+};
+---
+
+<BaseLayout
+  title="Wikipept Editorial Team | Wikipept"
+  description="Meet the Wikipept editorial team — scientists and educators creating peer-reviewed content on oligopeptide biology."
+>
+  <article class="max-w-3xl mx-auto">
+    <header class="mb-8">
+      <h1 class="text-4xl font-extrabold text-slate-900 dark:text-slate-100 mb-4">
+        Wikipept Editorial Team
+      </h1>
+      <p class="text-lg text-slate-600 dark:text-slate-400">
+        Our editorial team consists of scientists, pharmacologists, and peptide chemists committed to producing accurate, accessible educational content.
+      </p>
+    </header>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Our Mission
+      </h2>
+      <p class="text-slate-600 dark:text-slate-400 mb-4">
+        Wikipept exists to make oligopeptide science accessible and understandable. Every article on this platform is written or reviewed by subject-matter experts with training in biochemistry, pharmacology, or medicinal chemistry. We aim to bridge the gap between primary literature and practical understanding.
+      </p>
+      <p class="text-slate-600 dark:text-slate-400">
+        Our content covers the full spectrum of peptide science — from amino acid fundamentals and peptide bond chemistry through solid-phase synthesis, purification, receptor pharmacology, clinical trials, and regulatory pathways. We prioritize accuracy, clarity, and practical relevance.
+      </p>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Editorial Standards
+      </h2>
+      <ul class="list-disc list-inside space-y-2 text-slate-600 dark:text-slate-400">
+        <li>Content is reviewed for scientific accuracy against primary literature</li>
+        <li>Citations reference peer-reviewed publications and established databases</li>
+        <li>Therapeutic information is contextualized with appropriate disclaimers</li>
+        <li>Interactive tools are validated against published reference data</li>
+        <li>Content is updated as new evidence and clinical data emerge</li>
+      </ul>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Authored Content
+      </h2>
+      <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-2">
+        <li><a href="/learn" class="text-[#0D9488] hover:underline">Learn — Oligopeptide biology fundamentals</a></li>
+        <li><a href="/reference/peptides" class="text-[#0D9488] hover:underline">Peptide Database — Reference entries for therapeutic peptides</a></li>
+        <li><a href="/reference/glossary" class="text-[#0D9488] hover:underline">Glossary — Key terms and definitions</a></li>
+        <li><a href="/tools/molecular-weight-calculator" class="text-[#0D9488] hover:underline">MW Calculator — Interactive molecular weight tool</a></li>
+        <li><a href="/tools/reconstitution-calculator" class="text-[#0D9488] hover:underline">Reconstitution Calculator — BAC water volume tool</a></li>
+      </ul>
+    </section>
+
+    <section class="p-6 bg-[#0D9488]/5 border border-[#0D9488]/20 rounded-xl">
+      <h3 class="font-semibold text-[#0f766e] mb-2">Affiliated Organization</h3>
+      <p class="text-sm text-slate-600 dark:text-slate-400">
+        Wikipept is affiliated with <a href="https://kingstonpeptides.com" rel="noopener" class="text-[#0D9488] hover:underline">Kingston Peptides</a>, a provider of research-grade peptides and amino acids for laboratory use.
+      </p>
+    </section>
+  </article>
+
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(personJsonLd)} />
+</BaseLayout>

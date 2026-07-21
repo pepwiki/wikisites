@@ -8,6 +8,7 @@ import rehypeKatex from "./src/lib/rehype-katex.ts";
 export default defineConfig({
   site: "https://wikipept.com",
   output: "static",
+  trailingSlash: "always",
   markdown: {
     remarkPlugins: [remarkKatex],
     rehypePlugins: [rehypeKatex],
@@ -64,12 +65,15 @@ export default defineConfig({
             { label: "Safety", slug: "learn/peptide-safety" },
             { label: "Calculations", slug: "learn/peptide-calculations" },
             { label: "Impurities", slug: "learn/peptide-impurities" },
+            { label: "Semaglutide vs Tirzepatide", slug: "learn/semaglutide-vs-tirzepatide" },
+            { label: "Peptide Half-Life", slug: "learn/peptide-half-life" },
           ],
         },
         {
           label: "Tools",
           items: [
             { label: "MW Calculator", link: "/tools/molecular-weight-calculator" },
+            { label: "Reconstitution Calculator", link: "/tools/reconstitution-calculator" },
           ],
         },
         {

@@ -31,7 +31,9 @@ Insulin is synthesized as preproinsulin in pancreatic beta cells, where the sign
 
 ## Receptor Binding and Signaling
 
-The B-chain contributes significantly to insulin receptor binding. Residues B24-Phe, B25-Phe, and B26-Tyr are critical for high-affinity interaction with the insulin receptor's alpha subunit. Mutations in the B-chain, such as the Chicago variant (Phe-B25-Leu), result in impaired receptor binding and clinical diabetes. Molecular dynamics simulations indicate that the B-chain undergoes conformational rearrangement upon receptor engagement, facilitating signal transduction through the beta subunit tyrosine kinase.
+The B-chain contributes significantly to insulin receptor binding. Residues B24-Phe, B25-Phe, and B26-Tyr are critical for high-affinity interaction with the insulin receptor's alpha subunit.
+
+> **Learn more:** [Protein Structure](https://wikipept.com/learn/structure/) on Wikipept Mutations in the B-chain, such as the Chicago variant (Phe-B25-Leu), result in impaired receptor binding and clinical diabetes. Molecular dynamics simulations indicate that the B-chain undergoes conformational rearrangement upon receptor engagement, facilitating signal transduction through the beta subunit tyrosine kinase.
 
 ## Clinical Significance
 
