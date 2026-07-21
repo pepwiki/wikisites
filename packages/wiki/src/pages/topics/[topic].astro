@@ -1,0 +1,215 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+export async function getStaticPaths() {
+  const topics = [
+    {
+      slug: "peptide-synthesis",
+      title: "Peptide Synthesis",
+      description: "Learn about solid-phase peptide synthesis (SPPS), coupling reagents, and manufacturing processes.",
+      learnSlugs: ["spps", "purification"],
+      articleTags: ["synthesis", "spps", "manufacturing"],
+      quizTags: ["peptide-synthesis", "synthesis"],
+      flashcardTags: ["peptide-synthesis", "synthesis"],
+    },
+    {
+      slug: "amino-acids",
+      title: "Amino Acids",
+      description: "Master the 20 standard amino acids — their structures, properties, classifications, and roles in peptide biology.",
+      learnSlugs: ["amino-acids"],
+      articleTags: ["amino-acids", "amino-acid"],
+      quizTags: ["amino-acids", "amino-acid"],
+      flashcardTags: ["amino-acids", "amino-acid"],
+    },
+    {
+      slug: "pharmacology",
+      title: "Peptide Pharmacology",
+      description: "Explore FDA-approved peptide drugs, mechanisms of action, and therapeutic applications.",
+      learnSlugs: ["pharmacology", "receptors", "signaling"],
+      articleTags: ["pharmacology", "drug", "therapeutic"],
+      quizTags: ["peptide-pharmacology", "pharmacology"],
+      flashcardTags: ["peptide-pharmacology", "pharmacology"],
+    },
+    {
+      slug: "drug-discovery",
+      title: "Drug Discovery & Development",
+      description: "From target identification to clinical trials — the complete peptide drug development pipeline.",
+      learnSlugs: ["drug-delivery", "clinical-trials", "regulatory"],
+      articleTags: ["drug-discovery", "drug-delivery", "clinical"],
+      quizTags: ["drug-discovery", "drug-delivery", "clinical"],
+      flashcardTags: ["drug-delivery", "clinical-regulatory"],
+    },
+    {
+      slug: "receptors",
+      title: "Receptors & Signaling",
+      description: "Understand receptor binding, GPCR signaling, and how peptides communicate with cells.",
+      learnSlugs: ["receptors", "signaling"],
+      articleTags: ["receptor", "signaling", "gpcr"],
+      quizTags: ["receptors", "signaling"],
+      flashcardTags: ["receptor", "signaling"],
+    },
+    {
+      slug: "peptide-structure",
+      title: "Peptide Structure",
+      description: "Explore primary, secondary, tertiary, and quaternary structure levels and the forces that stabilize them.",
+      learnSlugs: ["structure", "peptide-bonds"],
+      articleTags: ["structure", "folding", "peptide-bond"],
+      quizTags: ["peptide-structure", "peptide-bonds", "structural"],
+      flashcardTags: ["peptide-structure", "peptide-bond"],
+    },
+  ];
+
+  const allLearn = [
+    { slug: "amino-acids", title: "20 Standard Amino Acids", category: "Fundamentals" },
+    { slug: "peptide-bonds", title: "Peptide Bond Chemistry", category: "Fundamentals" },
+    { slug: "structure", title: "Protein Structure Levels", category: "Fundamentals" },
+    { slug: "signaling", title: "Peptide Signaling", category: "Cell Biology" },
+    { slug: "receptors", title: "Receptor Binding", category: "Pharmacology" },
+    { slug: "pharmacology", title: "Therapeutic Peptides", category: "Pharmacology" },
+    { slug: "spps", title: "Solid-Phase Synthesis", category: "Synthesis" },
+    { slug: "purification", title: "Purification Methods", category: "Analytical" },
+    { slug: "computational", title: "Computational Design", category: "Computational" },
+    { slug: "drug-delivery", title: "Drug Delivery Systems", category: "Pharmaceutical" },
+    { slug: "clinical-trials", title: "Clinical Trial Design", category: "Clinical" },
+    { slug: "regulatory", title: "Regulatory Pathways", category: "Regulatory" },
+    { slug: "toxicology", title: "Peptide Toxicology", category: "Safety Sciences" },
+    { slug: "analytical-methods", title: "Analytical Methods", category: "Analytical Sciences" },
+  ];
+
+  const allArticles = (await getCollection("articles")).map((a) => ({
+    slug: a.id,
+    title: a.data.title,
+    tags: a.data.tags,
+    category: a.data.category,
+  }));
+
+  const allQuizzes = (await getCollection("quizzes")).map((q) => ({
+    id: q.id,
+    tags: q.data.tags ?? [],
+  }));
+
+  const allFlashcards = (await getCollection("flashcards")).map((f) => ({
+    id: f.id,
+    tags: f.data.tags ?? [],
+  }));
+
+  return topics.map((topic) => {
+    const learnPages = allLearn.filter((l) => topic.learnSlugs.includes(l.slug));
+    const articles = allArticles.filter((a) =>
+      (a.tags ?? []).some((t) => topic.articleTags.some((kat) => t.includes(kat)))
+    );
+    const quizzes = allQuizzes.filter((q) =>
+      (q.tags ?? []).some((t) => topic.quizTags.some((kat) => t.includes(kat)))
+    );
+    const flashcards = allFlashcards.filter((f) =>
+      (f.tags ?? []).some((t) => topic.flashcardTags.some((kat) => t.includes(kat)))
+    );
+
+    return {
+      params: { topic: topic.slug },
+      props: {
+        ...topic,
+        learnPages,
+        articles: articles.slice(0, 20),
+        quizzes: quizzes.slice(0, 20),
+        flashcards: flashcards.slice(0, 20),
+      },
+    };
+  });
+}
+
+const { title, description, learnPages, articles, quizzes, flashcards } = Astro.props;
+const siteUrl = "https://wikipept.com";
+
+const collectionPageJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: title,
+  description,
+  url: `${siteUrl}/topics/${Astro.params.topic}`,
+};
+---
+
+<BaseLayout title={`${title} | Wikipept`} description={description}>
+  <article class="max-w-4xl mx-auto">
+    <nav class="text-sm text-slate-500 dark:text-slate-400 mb-6">
+      <a href="/" class="hover:text-[#0D9488] transition-colors">Home</a>
+      <span class="mx-2">/</span>
+      <span class="text-slate-900 dark:text-slate-100">{title}</span>
+    </nav>
+
+    <header class="mb-8">
+      <h1 class="text-4xl font-extrabold text-slate-900 dark:text-slate-100 mb-4">{title}</h1>
+      <p class="text-lg text-slate-600 dark:text-slate-400">{description}</p>
+    </header>
+
+    {learnPages.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Learn</h2>
+        <div class="grid gap-3 sm:grid-cols-2">
+          {learnPages.map((page) => (
+            <a
+              href={`/learn/${page.slug}`}
+              class="block p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-[#0D9488] transition-colors"
+            >
+              <h3 class="font-semibold text-slate-900 dark:text-slate-100">{page.title}</h3>
+              <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">{page.category}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {articles.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Articles</h2>
+        <div class="grid gap-3 sm:grid-cols-2">
+          {articles.map((article) => (
+            <a
+              href={`/articles/${article.slug}`}
+              class="block p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 hover:border-[#0D9488] transition-colors"
+            >
+              <h3 class="font-semibold text-slate-900 dark:text-slate-100">{article.title}</h3>
+              <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">{article.category}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {quizzes.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Quizzes</h2>
+        <div class="flex flex-wrap gap-2">
+          {quizzes.map((quiz) => (
+            <a
+              href={`/quizzes/${quiz.tags[0]}`}
+              class="text-sm text-[#0D9488] border border-[#0D9488] px-3 py-1 rounded-full hover:bg-[#0D9488] hover:text-white transition-colors"
+            >
+              {quiz.tags[0]?.replace(/-/g, " ")}
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {flashcards.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Flashcards</h2>
+        <div class="flex flex-wrap gap-2">
+          {flashcards.map((fc) => (
+            <a
+              href={`/flashcards/${fc.tags[0]}`}
+              class="text-sm text-[#0D9488] border border-[#0D9488] px-3 py-1 rounded-full hover:bg-[#0D9488] hover:text-white transition-colors"
+            >
+              {fc.tags[0]?.replace(/-/g, " ")}
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+  </article>
+
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(collectionPageJsonLd)} />
+</BaseLayout>

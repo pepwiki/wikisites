@@ -65,3 +65,5 @@ Example: **Hemoglobin** consists of four subunits (two alpha, two beta) that coo
 - **Schools** have repeating patterns (like repeating helices and sheets).
 - **Towers** rise into complex 3D shapes (like folded domains).
 - **Queens** rule over kingdoms made of many people (like multi-subunit complexes).
+
+> **Learn more:** Study the full [Protein Structure Levels](/learn/structure) lesson, or explore [Protein Folding Thermodynamics](/articles/protein-folding-thermodynamics) for the energy landscape.

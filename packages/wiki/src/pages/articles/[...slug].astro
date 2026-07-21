@@ -14,6 +14,40 @@ export async function getStaticPaths() {
 const { article } = Astro.props;
 const { Content } = await render(article);
 
+const siteUrl = "https://wikipept.com";
+const canonicalUrl = `${siteUrl}/articles/${article.id}`;
+const pubDateStr = article.data.pubDate.toISOString().split("T")[0];
+const modDateStr = article.data.updatedDate
+  ? article.data.updatedDate.toISOString().split("T")[0]
+  : pubDateStr;
+
+const scholarlyArticleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  headline: article.data.title,
+  description: article.data.description,
+  author: { "@type": "Organization", name: article.data.author },
+  datePublished: pubDateStr,
+  dateModified: modDateStr,
+  publisher: {
+    "@type": "Organization",
+    name: "Wikipept",
+    logo: { "@type": "ImageObject", url: `${siteUrl}/og-default.svg` },
+  },
+  mainEntityOfPage: canonicalUrl,
+  image: `${siteUrl}/og-default.svg`,
+};
+
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
+    { "@type": "ListItem", position: 2, name: article.data.category, item: `${siteUrl}/articles/` },
+    { "@type": "ListItem", position: 3, name: article.data.title },
+  ],
+};
+
 // Extract headings for Table of Contents
 const headingRegex = /^#{2,3}\s+(.+)$/gm;
 const headings = [];
@@ -37,6 +71,8 @@ while ((match = headingRegex.exec(article.body)) !== null) {
     {article.data.tags.length > 0 && article.data.tags.map((tag: string) => (
       <meta property="article:tag" content={tag} />
     ))}
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(scholarlyArticleJsonLd)} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   </Fragment>
   <ReadingProgress client:load />
   <article class="max-w-3xl">

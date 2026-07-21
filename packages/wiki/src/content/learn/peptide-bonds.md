@@ -151,3 +151,7 @@ Understanding peptide bond chemistry is essential for:
 - **Structure prediction**: Understanding conformational constraints
 
 The planarity and restricted rotation of peptide bonds are fundamental constraints that guide protein folding and determine the allowed conformations of peptide chains.
+
+> **Deep dive:** Explore [Peptide Bond Enzyme Catalysis](/articles/peptide-bond-enzyme-catalysis) for biological catalysis mechanisms, or read about [Peptide Bond Hydrolysis](/articles/peptide-bond-hydrolysis) for degradation pathways.
+
+> **Test yourself:** Take the [Peptide Bonds Quiz](/quizzes/peptide-bonds) or study with [Peptide Bond Flashcards](/flashcards/peptide-bond).

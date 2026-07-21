@@ -120,3 +120,7 @@ The one-letter codes were designed to be mnemonic:
 ## Summary
 
 Understanding amino acid properties is fundamental to peptide and protein science. The classification into hydrophobic, polar, charged, and special categories provides a framework for predicting protein behavior, designing synthetic peptides, and understanding molecular interactions.
+
+> **Deep dive:** Read the full [Understanding Amino Acids](/articles/amino-acids) article for a beginner-friendly overview, or explore [Essential vs Non-Essential Amino Acids](/articles/amino-acid-classification) for dietary classification details.
+
+> **Test yourself:** Take the [Amino Acids Quiz](/quizzes/amino-acids) or study with [Amino Acids Flashcards](/flashcards/amino-acids).

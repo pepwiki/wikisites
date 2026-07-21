@@ -435,3 +435,7 @@ Clinical trials are the cornerstone of drug development, providing evidence of s
 ## Summary
 
 Clinical trial design for peptide therapeutics requires careful consideration of peptide-specific challenges including immunogenicity, formulation, and delivery. Modern adaptive designs and biomarker-driven approaches can accelerate development while maintaining rigorous scientific standards.
+
+> **Deep dive:** Read about [Regulatory Pathways](/learn/regulatory) for FDA/EMA requirements, or explore [Peptide Toxicology](/learn/toxicology) for preclinical safety assessment.
+
+> **Test yourself:** Take the [Clinical Trials Quiz](/quizzes/clinical-trials-regulatory) or study with [Clinical Regulatory Flashcards](/flashcards/clinical-regulatory).

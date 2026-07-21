@@ -67,6 +67,23 @@ export default defineConfig({
           ],
         },
         {
+          label: "Tools",
+          items: [
+            { label: "MW Calculator", link: "/tools/molecular-weight-calculator" },
+          ],
+        },
+        {
+          label: "Topics",
+          items: [
+            { label: "Amino Acids", link: "/topics/amino-acids" },
+            { label: "Peptide Structure", link: "/topics/peptide-structure" },
+            { label: "Peptide Synthesis", link: "/topics/peptide-synthesis" },
+            { label: "Pharmacology", link: "/topics/pharmacology" },
+            { label: "Receptors & Signaling", link: "/topics/receptors" },
+            { label: "Drug Discovery", link: "/topics/drug-discovery" },
+          ],
+        },
+        {
           label: "Community",
           items: [
             { label: "Get Involved", slug: "community" },

@@ -59,3 +59,5 @@ Most combinations of phi and psi angles are sterically forbidden. Allowed region
 | Preferred configuration | Trans                        |
 | Torsion angles          | Phi (phi) and Psi (psi)      |
 | Plot                    | Ramachandran plot            |
+
+> **Learn more:** Study the full [Peptide Bond Chemistry](/learn/peptide-bonds) lesson, or explore [Peptide Bond Rotation](/articles/peptide-bond-rotation) for conformational dynamics.

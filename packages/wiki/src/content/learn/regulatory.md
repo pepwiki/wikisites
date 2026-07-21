@@ -424,3 +424,7 @@ Regulatory approval is essential for bringing peptide therapeutics to market. Th
 ## Summary
 
 Regulatory pathways for peptide therapeutics vary by product characteristics, manufacturing method, and target indication. Understanding the available pathways, including expedited programs and orphan drug designation, is essential for efficient drug development. Close interaction with regulatory agencies throughout development helps ensure successful approval.
+
+> **Deep dive:** Read about [Clinical Trial Design](/learn/clinical-trials) for study design, or explore [Purification Methods](/learn/purification) for quality control requirements.
+
+> **Test yourself:** Take the [Regulatory Quiz](/quizzes/regulatory) or study with [Clinical Regulatory Flashcards](/flashcards/clinical-regulatory).

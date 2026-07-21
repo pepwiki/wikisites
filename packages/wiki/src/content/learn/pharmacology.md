@@ -172,3 +172,7 @@ The peptide drug pipeline includes over 150 candidates in clinical trials, addre
 ## Summary
 
 Peptide therapeutics offer unique advantages in specificity and potency. While challenges remain in half-life and delivery, innovative strategies are expanding the clinical utility of peptide drugs across multiple therapeutic areas.
+
+> **Deep dive:** Read about [Endogenous Peptide Drugs](/articles/endogenous-peptide-drugs) for naturally occurring therapeutics, or explore [Opioid Peptide Pharmacology](/articles/opioid-peptide-pharmacology) for pain management peptides.
+
+> **Test yourself:** Take the [Pharmacology Quiz](/quizzes/peptide-pharmacology) or study with [Pharmacology Flashcards](/flashcards/peptide-pharmacology).

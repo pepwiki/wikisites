@@ -182,3 +182,7 @@ Proper signal termination is crucial for biological regulation. Mechanisms inclu
 ## Summary
 
 Peptide signaling is a complex and highly regulated system that controls virtually all physiological processes. Understanding the mechanisms of autocrine, paracrine, and endocrine signaling, along with receptor binding and signal transduction, is essential for developing effective peptide therapeutics.
+
+> **Deep dive:** Read about [Neuropeptide Signaling](/articles/neuropeptide-signaling) for nervous system peptides, or explore [GPCR Pharmacology](/articles/gpcr-pharmacology) for receptor mechanisms.
+
+> **Test yourself:** Take the [Signaling Quiz](/quizzes/peptide-signaling) or study with [Signaling Flashcards](/flashcards/peptide-signaling).

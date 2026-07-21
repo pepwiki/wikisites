@@ -433,3 +433,7 @@ Peptide drug delivery faces unique challenges due to the inherent instability of
 ## Summary
 
 Peptide drug delivery technologies continue to advance, enabling oral, pulmonary, and targeted delivery of peptide therapeutics. Selection of appropriate delivery technology depends on peptide properties, therapeutic indication, and patient needs. Integration of multiple technologies may provide optimal delivery solutions.
+
+> **Deep dive:** Read about [Therapeutic Peptide Oral Delivery](/articles/therapeutic-peptide-oral-delivery) for oral bioavailability challenges, or explore [Peptide Targeted Delivery](/articles/peptide-targeted-delivery) for site-specific approaches.
+
+> **Test yourself:** Take the [Drug Delivery Quiz](/quizzes/delivery) or study with [Drug Delivery Flashcards](/flashcards/drug-delivery).

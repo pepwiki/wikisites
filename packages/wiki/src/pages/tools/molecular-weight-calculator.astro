@@ -1,0 +1,238 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import MWCalculator from "../../components/MWCalculator.tsx";
+
+const siteUrl = "https://wikipept.com";
+
+const howToJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "How to Calculate Peptide Molecular Weight",
+  step: [
+    {
+      "@type": "HowToStep",
+      name: "Enter Sequence",
+      text: "Enter your peptide sequence using one-letter amino acid codes (e.g., GSH for glutathione).",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Calculate",
+      text: "Click the Calculate button to compute the molecular weight.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Read Results",
+      text: "View the molecular weight in Daltons, residue count, and amino acid composition.",
+    },
+  ],
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What is the molecular weight of a peptide?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The molecular weight of a peptide is the sum of the molecular weights of its constituent amino acid residues minus the water molecules lost during peptide bond formation. For a peptide with n residues, (n-1) water molecules (18.015 Da each) are removed.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How do you calculate peptide molecular weight manually?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Sum the molecular weights of all amino acid residues in the sequence, then subtract 18.015 Da for each peptide bond (number of residues minus 1). For example, for GSH (Gly-Ser-His): 75.03 + 105.09 + 155.16 - 2×18.015 = 299.30 Da.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What units are used for peptide molecular weight?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Peptide molecular weight is typically expressed in Daltons (Da) or atomic mass units (AMU), which are equivalent to g/mol.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Does this calculator account for disulfide bonds?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The basic calculator computes the linear peptide molecular weight. Disulfide bonds between cysteine residues result in loss of 2 hydrogen atoms (2.016 Da per bond), which should be subtracted for cyclic peptides.",
+      },
+    },
+  ],
+};
+---
+
+<BaseLayout
+  title="Peptide Molecular Weight Calculator | Wikipept"
+  description="Calculate the molecular weight of any peptide sequence. Free online tool with amino acid reference table."
+>
+  <article class="max-w-4xl mx-auto">
+    <header class="mb-8">
+      <h1 class="text-4xl font-extrabold text-slate-900 dark:text-slate-100 mb-4">
+        Peptide Molecular Weight Calculator
+      </h1>
+      <p class="text-lg text-slate-600 dark:text-slate-400">
+        Calculate the molecular weight of any peptide sequence. Free online tool with instant results and amino acid composition breakdown.
+      </p>
+    </header>
+
+    <section class="mb-12">
+      <MWCalculator client:load />
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        How to Use This Calculator
+      </h2>
+      <ol class="list-decimal list-inside space-y-2 text-slate-600 dark:text-slate-400">
+        <li>Enter your peptide sequence using <strong>one-letter amino acid codes</strong></li>
+        <li>Accepted codes: G, A, V, L, I, P, F, W, M, S, T, C, Y, H, D, E, N, Q, K, R</li>
+        <li>Click <strong>Calculate</strong> to see the molecular weight in Daltons (Da)</li>
+        <li>View the residue count and amino acid composition breakdown</li>
+      </ol>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        The Formula
+      </h2>
+      <div class="p-6 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+        <p class="text-slate-700 dark:text-slate-300 mb-3">
+          The molecular weight of a peptide is calculated by summing the residue weights of each amino acid:
+        </p>
+        <div class="font-mono text-lg text-center py-4 text-slate-900 dark:text-slate-100">
+          MW<sub>peptide</sub> = Σ MW<sub>residue</sub> − (n − 1) × 18.015
+        </div>
+        <p class="text-sm text-slate-500 dark:text-slate-400 mt-3">
+          Where <em>n</em> is the number of amino acid residues and 18.015 Da is the mass of water lost during each peptide bond formation (condensation reaction).
+        </p>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Example Calculations
+      </h2>
+      <div class="grid gap-4 md:grid-cols-2">
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Glutathione (GSH)</h3>
+          <p class="font-mono text-sm text-[#0D9488] mb-2">Gly-Ser-His</p>
+          <p class="text-sm text-slate-600 dark:text-slate-400">
+            75.03 + 105.09 + 155.16 − 2 × 18.015 = <strong>299.30 Da</strong>
+          </p>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Oxytocin (truncated)</h3>
+          <p class="font-mono text-sm text-[#0D9488] mb-2">CYIQNCPLG</p>
+          <p class="text-sm text-slate-600 dark:text-slate-400">
+            9 residues, disulfide-bonded cyclic nonapeptide = <strong>1007.19 Da</strong>
+          </p>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Tripeptide AAA</h3>
+          <p class="font-mono text-sm text-[#0D9488] mb-2">Ala-Ala-Ala</p>
+          <p class="text-sm text-slate-600 dark:text-slate-400">
+            89.09 × 3 − 2 × 18.015 = <strong>231.23 Da</strong>
+          </p>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Vasopressin (truncated)</h3>
+          <p class="font-mono text-sm text-[#0D9488] mb-2">CYFQNCPRG</p>
+          <p class="text-sm text-slate-600 dark:text-slate-400">
+            9 residues, cyclic nonapeptide = <strong>1056.22 Da</strong>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Amino Acid Residue Weights
+      </h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <th class="text-left py-2 px-3 text-slate-900 dark:text-slate-100">Code</th>
+              <th class="text-left py-2 px-3 text-slate-900 dark:text-slate-100">Amino Acid</th>
+              <th class="text-right py-2 px-3 text-slate-900 dark:text-slate-100">Residue MW (Da)</th>
+              <th class="text-left py-2 px-3 text-slate-900 dark:text-slate-100 hidden sm:table-cell">Formula</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-600 dark:text-slate-400">
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">G</td><td class="py-2 px-3">Glycine</td><td class="py-2 px-3 text-right font-mono">75.03</td><td class="py-2 px-3 hidden sm:table-cell">C₂H₅NO₂</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">A</td><td class="py-2 px-3">Alanine</td><td class="py-2 px-3 text-right font-mono">89.09</td><td class="py-2 px-3 hidden sm:table-cell">C₃H₇NO₂</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">V</td><td class="py-2 px-3">Valine</td><td class="py-2 px-3 text-right font-mono">117.15</td><td class="py-2 px-3 hidden sm:table-cell">C₅H₁₁NO₂</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">L</td><td class="py-2 px-3">Leucine</td><td class="py-2 px-3 text-right font-mono">131.17</td><td class="py-2 px-3 hidden sm:table-cell">C₆H₁₃NO₂</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">I</td><td class="py-2 px-3">Isoleucine</td><td class="py-2 px-3 text-right font-mono">131.17</td><td class="py-2 px-3 hidden sm:table-cell">C₆H₁₃NO₂</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">P</td><td class="py-2 px-3">Proline</td><td class="py-2 px-3 text-right font-mono">115.13</td><td class="py-2 px-3 hidden sm:table-cell">C₅H₉NO₂</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">F</td><td class="py-2 px-3">Phenylalanine</td><td class="py-2 px-3 text-right font-mono">165.19</td><td class="py-2 px-3 hidden sm:table-cell">C₉H₁₁NO₂</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">W</td><td class="py-2 px-3">Tryptophan</td><td class="py-2 px-3 text-right font-mono">204.23</td><td class="py-2 px-3 hidden sm:table-cell">C₁₁H₁₂N₂O₂</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">M</td><td class="py-2 px-3">Methionine</td><td class="py-2 px-3 text-right font-mono">149.21</td><td class="py-2 px-3 hidden sm:table-cell">C₅H₁₁NO₂S</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">S</td><td class="py-2 px-3">Serine</td><td class="py-2 px-3 text-right font-mono">105.09</td><td class="py-2 px-3 hidden sm:table-cell">C₃H₇NO₃</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">T</td><td class="py-2 px-3">Threonine</td><td class="py-2 px-3 text-right font-mono">119.12</td><td class="py-2 px-3 hidden sm:table-cell">C₄H₉NO₃</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">C</td><td class="py-2 px-3">Cysteine</td><td class="py-2 px-3 text-right font-mono">121.16</td><td class="py-2 px-3 hidden sm:table-cell">C₃H₇NO₂S</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">Y</td><td class="py-2 px-3">Tyrosine</td><td class="py-2 px-3 text-right font-mono">181.19</td><td class="py-2 px-3 hidden sm:table-cell">C₉H₁₁NO₃</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">H</td><td class="py-2 px-3">Histidine</td><td class="py-2 px-3 text-right font-mono">155.16</td><td class="py-2 px-3 hidden sm:table-cell">C₆H₉N₃O₂</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">D</td><td class="py-2 px-3">Aspartic Acid</td><td class="py-2 px-3 text-right font-mono">133.10</td><td class="py-2 px-3 hidden sm:table-cell">C₄H₇NO₄</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">E</td><td class="py-2 px-3">Glutamic Acid</td><td class="py-2 px-3 text-right font-mono">147.13</td><td class="py-2 px-3 hidden sm:table-cell">C₅H₉NO₄</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">N</td><td class="py-2 px-3">Asparagine</td><td class="py-2 px-3 text-right font-mono">132.12</td><td class="py-2 px-3 hidden sm:table-cell">C₄H₈N₂O₃</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">Q</td><td class="py-2 px-3">Glutamine</td><td class="py-2 px-3 text-right font-mono">146.15</td><td class="py-2 px-3 hidden sm:table-cell">C₅H₁₀N₂O₃</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">K</td><td class="py-2 px-3">Lysine</td><td class="py-2 px-3 text-right font-mono">146.19</td><td class="py-2 px-3 hidden sm:table-cell">C₆H₁₄N₂O₂</td></tr>
+            <tr><td class="py-2 px-3 font-mono font-bold">R</td><td class="py-2 px-3">Arginine</td><td class="py-2 px-3 text-right font-mono">174.20</td><td class="py-2 px-3 hidden sm:table-cell">C₆H₁₄N₄O₂</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Frequently Asked Questions
+      </h2>
+      <div class="space-y-6">
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">What is the molecular weight of a peptide?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            The molecular weight of a peptide is the sum of the molecular weights of its constituent amino acid residues minus the water molecules lost during peptide bond formation. For a peptide with <em>n</em> residues, (<em>n</em>−1) water molecules (18.015 Da each) are removed.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">How do you calculate peptide molecular weight manually?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            Sum the molecular weights of all amino acid residues in the sequence, then subtract 18.015 Da for each peptide bond (number of residues minus 1). For example, for GSH (Gly-Ser-His): 75.03 + 105.09 + 155.16 − 2 × 18.015 = 299.30 Da.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">What units are used for peptide molecular weight?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            Peptide molecular weight is typically expressed in <strong>Daltons (Da)</strong> or atomic mass units (AMU), which are equivalent to g/mol.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Does this calculator account for disulfide bonds?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            The basic calculator computes the linear peptide molecular weight. Disulfide bonds between cysteine residues result in loss of 2 hydrogen atoms (2.016 Da per bond), which should be subtracted for cyclic peptides.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-6 bg-[#0D9488]/5 border border-[#0D9488]/20 rounded-xl">
+      <h3 class="font-semibold text-[#0f766e] mb-2">Related Resources</h3>
+      <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-1">
+        <li><a href="/learn/amino-acids" class="text-[#0D9488] hover:underline">Learn: 20 Standard Amino Acids</a></li>
+        <li><a href="/learn/peptide-bonds" class="text-[#0D9488] hover:underline">Learn: Peptide Bond Chemistry</a></li>
+        <li><a href="/quizzes/amino-acids" class="text-[#0D9488] hover:underline">Quiz: Amino Acids</a></li>
+        <li><a href="/flashcards/amino-acids" class="text-[#0D9488] hover:underline">Flashcards: Amino Acids</a></li>
+      </ul>
+    </section>
+  </article>
+
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+</BaseLayout>

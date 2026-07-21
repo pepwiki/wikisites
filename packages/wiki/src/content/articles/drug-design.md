@@ -106,3 +106,5 @@ Peptide drug design balances potency, selectivity, and drug-like properties. The
 | **Cyclization**       | Improves stability and selectivity                                  |
 | **D-amino acids**     | Blocks protease recognition                                         |
 | **PEGylation**        | Extends half-life, improves solubility                              |
+
+> **Learn more:** Study [Therapeutic Peptides](/learn/pharmacology) for FDA-approved drugs, or explore [Drug Delivery Systems](/learn/drug-delivery) for formulation strategies.

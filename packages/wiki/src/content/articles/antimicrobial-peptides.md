@@ -59,3 +59,5 @@ Unlike conventional antibiotics, AMPs target the physical structure of the lipid
 ## Learning Tip
 
 When memorizing AMP mechanisms, remember: cationic charge targets the membrane, amphipathicity enables insertion, and the lipid bilayer itself is the target. This is why resistance is hard — the target is a physical structure, not a single enzyme.
+
+> **Learn more:** Study [Receptor Binding](/learn/receptors) for how peptides interact with cell surfaces, or explore [Peptide Signaling](/learn/signaling) for communication pathways.

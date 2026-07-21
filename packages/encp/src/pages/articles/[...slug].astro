@@ -13,6 +13,69 @@ export async function getStaticPaths() {
 const { article } = Astro.props;
 const { Content } = await render(article);
 
+const siteUrl = "https://encyclopeptide.com";
+const canonicalUrl = `${siteUrl}/articles/${article.id}`;
+const pubDateStr = article.data.pubDate.toISOString().split("T")[0];
+const modDateStr = article.data.updatedDate
+  ? article.data.updatedDate.toISOString().split("T")[0]
+  : pubDateStr;
+
+const scholarlyArticleJsonLd: Record<string, unknown> = {
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  headline: article.data.title,
+  description: article.data.description,
+  author: { "@type": "Organization", name: article.data.author },
+  datePublished: pubDateStr,
+  dateModified: modDateStr,
+  publisher: {
+    "@type": "Organization",
+    name: "Encyclopeptide",
+    logo: { "@type": "ImageObject", url: `${siteUrl}/og-default.svg` },
+  },
+  mainEntityOfPage: canonicalUrl,
+  image: `${siteUrl}/og-default.svg`,
+};
+
+if (article.data.citation?.doi) {
+  scholarlyArticleJsonLd.citation = {
+    "@type": "ScholarlyArticle",
+    name: article.data.title,
+    url: `https://doi.org/${article.data.citation.doi}`,
+  };
+}
+
+const chemicalSubstanceJsonLd: Record<string, unknown> | null = (() => {
+  const body = article.body;
+  const formulaMatch = body.match(/\*\*Chemical Formula\*\*\s*\|\s*([^\s|]+)/i);
+  const mwMatch = body.match(/\*\*Molecular Weight\*\*\s*\|\s*([^\s|]+)/i);
+  const seqMatch = body.match(/\*\*Sequence\*\*\s*\|\s*`?([^`|]+)`?/i);
+
+  if (!formulaMatch && !mwMatch) return null;
+
+  const substance: Record<string, unknown> = {
+    "@context": "https://schema.org",
+    "@type": "ChemicalSubstance",
+    name: article.data.title,
+    description: article.data.description,
+  };
+  if (formulaMatch) substance.molecularFormula = formulaMatch[1].trim();
+  if (mwMatch) substance.molecularWeight = mwMatch[1].trim();
+  if (seqMatch) substance.smiles = seqMatch[1].trim();
+
+  return substance;
+})();
+
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
+    { "@type": "ListItem", position: 2, name: article.data.category, item: `${siteUrl}/` },
+    { "@type": "ListItem", position: 3, name: article.data.title },
+  ],
+};
+
 // Extract headings for Table of Contents
 const headingRegex = /^#{2,3}\s+(.+)$/gm;
 const headings = [];
@@ -29,6 +92,11 @@ while ((match = headingRegex.exec(article.body)) !== null) {
 ---
 
 <BaseLayout title={article.data.title} description={article.data.description}>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(scholarlyArticleJsonLd)} />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+  {chemicalSubstanceJsonLd && (
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(chemicalSubstanceJsonLd)} />
+  )}
   <article class="max-w-3xl">
     <header class="mb-8">
       <div class="flex items-center gap-3 mb-4">

@@ -89,3 +89,5 @@ Understanding amino acid properties is essential for:
 - Interpreting genetic mutations
 
 ---
+
+> **Learn more:** Dive deeper with our interactive [20 Standard Amino Acids](/learn/amino-acids) lesson, or test your knowledge with the [Amino Acids Quiz](/quizzes/amino-acids).

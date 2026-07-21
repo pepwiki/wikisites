@@ -256,3 +256,7 @@ The **therapeutic window** is the range of drug concentrations that produces the
 ## Summary
 
 Receptor binding is the foundation of peptide pharmacology. Understanding receptor types, binding kinetics, and dose-response relationships enables rational drug design and effective therapeutic development.
+
+> **Deep dive:** Read about [Receptor Pharmacology](/articles/receptor-pharmacology) for advanced binding kinetics, or explore [Peptide-Receptor Internalization](https://encyclopeptide.com/articles/peptide-receptor-internalization) on Encyclopeptide for cellular uptake mechanisms.
+
+> **Test yourself:** Take the [Receptors Quiz](/quizzes/receptors) or study with [Receptor Pharmacology Flashcards](/flashcards/receptor-pharmacology).

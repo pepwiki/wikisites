@@ -275,3 +275,7 @@ The Fmoc strategy provides **orthogonal protection**:
 ## Summary
 
 Solid-phase peptide synthesis is a powerful and versatile method for peptide production. The Fmoc strategy, combined with modern coupling reagents and resins, enables efficient synthesis of complex peptides for research and therapeutic applications.
+
+> **Deep dive:** Read about [Peptide Synthesis Methods](/articles/peptide-synthesis-methods) for a broader overview, or explore [Peptide Drug Manufacturing](/articles/peptide-drug-manufacturing) for industrial-scale production.
+
+> **Test yourself:** Take the [Synthesis Quiz](/quizzes/peptide-synthesis) or study with [Synthesis Flashcards](/flashcards/peptide-synthesis).

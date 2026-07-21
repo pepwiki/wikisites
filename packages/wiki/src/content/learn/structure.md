@@ -178,3 +178,7 @@ Understanding protein structure is essential for:
 ## Summary
 
 The four levels of protein structure form a hierarchical organization where each level influences the next. Primary structure determines all higher levels, while quaternary structure enables complex biological functions through subunit interactions.
+
+> **Deep dive:** Read about [Protein Folding Thermodynamics](/articles/protein-folding-thermodynamics) for the energy landscape, or explore [Disulfide Bonds](/articles/disulfide-bonds) for a key structural stabilizer.
+
+> **Test yourself:** Take the [Structural Biology Quiz](/quizzes/structural) or study with [Peptide Structure Flashcards](/flashcards/peptide-structure).

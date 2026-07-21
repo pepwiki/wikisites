@@ -1,0 +1,52 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import FlashcardDeck from "../../components/FlashcardDeck.tsx";
+
+export async function getStaticPaths() {
+  const allFlashcards = await getCollection("flashcards");
+
+  const tagMap = new Map<string, typeof allFlashcards>();
+  for (const card of allFlashcards) {
+    const tags: string[] = card.data.tags ?? [];
+    for (const tag of tags) {
+      if (!tagMap.has(tag)) tagMap.set(tag, []);
+      tagMap.get(tag)!.push(card);
+    }
+  }
+
+  return Array.from(tagMap.entries()).map(([tag, cards]) => ({
+    params: { tag },
+    props: {
+      tag,
+      cards: cards.map((c) => ({
+        id: c.id,
+        front: c.data.front,
+        back: c.data.back,
+        tags: c.data.tags,
+        difficulty: c.data.difficulty,
+      })),
+    },
+  }));
+}
+
+const { tag, cards } = Astro.props;
+const topicName = tag.replace(/-/g, " ").replace(/\b\w/g, (c: string) => c.toUpperCase());
+---
+
+<BaseLayout title={`${topicName} Flashcards | Wikipept`} description={`Study ${topicName} with interactive flashcards`}>
+  <nav class="text-sm text-slate-500 dark:text-slate-400 mb-6">
+    <a href="/flashcards" class="hover:text-[#0D9488] transition-colors">Flashcards</a>
+    <span class="mx-2">/</span>
+    <span class="text-slate-900 dark:text-slate-100">{topicName}</span>
+  </nav>
+
+  <h1 class="text-4xl font-extrabold mb-4 text-slate-900 dark:text-slate-100">
+    {topicName} Flashcards
+  </h1>
+  <p class="text-slate-600 dark:text-slate-400 mb-8">
+    Study {topicName.toLowerCase()} with {cards.length} flashcards. Click any card to flip, then rate your recall.
+  </p>
+
+  <FlashcardDeck client:load cards={cards} site="wiki" deckId={`tag-${tag}`} />
+</BaseLayout>
