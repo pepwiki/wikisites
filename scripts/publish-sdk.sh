@@ -5,7 +5,7 @@ set -e
 
 echo "=== Step 1: Create GitHub repo ==="
 # Requires: gh auth login with the temporal account
-gh repo create WyattAu/peptide-mw-calculator \
+gh repo create pepwiki/peptide-mw-calculator \
   --public \
   --description "Zero-dependency peptide molecular weight calculator. Calculate MW and molecular formula from amino acid sequences." \
   --source packages/sdk \
@@ -13,7 +13,7 @@ gh repo create WyattAu/peptide-mw-calculator \
   --push
 
 echo "=== Step 2: Add topics for discoverability ==="
-gh repo edit WyattAu/peptide-mw-calculator \
+gh repo edit pepwiki/peptide-mw-calculator \
   --add-topic peptide \
   --add-topic biochemistry \
   --add-topic molecular-weight \
@@ -27,5 +27,5 @@ npm publish --access public
 cd ../..
 
 echo "=== Done ==="
-echo "GitHub: https://github.com/WyattAu/peptide-mw-calculator"
-echo "npm: https://www.npmjs.com/package/@peptide-tools/mw-calculator"
+echo "GitHub: https://github.com/pepwiki/peptide-mw-calculator"
+echo "npm: https://www.npmjs.com/package/peptide-mw-calculator"

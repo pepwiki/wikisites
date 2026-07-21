@@ -4,7 +4,7 @@
 set -e
 
 echo "=== Creating GitHub repo ==="
-gh repo create WyattAu/wikisites \
+gh repo create pepwiki/wikisites \
   --public \
   --description "Wikipept + Encyclopeptide — peptide science wiki and encyclopedia. VS Code for content." \
   --source . \
@@ -12,7 +12,7 @@ gh repo create WyattAu/wikisites \
   --push
 
 echo "=== Adding topics ==="
-gh repo edit WyattAu/wikisites \
+gh repo edit pepwiki/wikisites \
   --add-topic peptide \
   --add-topic wiki \
   --add-topic encyclopedia \
@@ -24,4 +24,4 @@ echo "=== Push all branches ==="
 git push github main
 
 echo "=== Done ==="
-echo "GitHub: https://github.com/WyattAu/wikisites"
+echo "GitHub: https://github.com/pepwiki/wikisites"

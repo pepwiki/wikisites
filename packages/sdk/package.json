@@ -26,13 +26,13 @@
   ],
   "author": "Wyatt Au",
   "license": "MIT",
-  "homepage": "https://github.com/WyattAu/peptide-mw-calculator",
+  "homepage": "https://github.com/pepwiki/peptide-mw-calculator",
   "repository": {
     "type": "git",
-    "url": "https://github.com/WyattAu/peptide-mw-calculator"
+    "url": "https://github.com/pepwiki/peptide-mw-calculator"
   },
   "bugs": {
-    "url": "https://github.com/WyattAu/peptide-mw-calculator/issues"
+    "url": "https://github.com/pepwiki/peptide-mw-calculator/issues"
   },
   "dependencies": {},
   "devDependencies": {
