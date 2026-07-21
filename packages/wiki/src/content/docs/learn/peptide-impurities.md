@@ -132,7 +132,7 @@ A CoA provides manufacturer-verified quality data for a specific lot:
 | Storage | Temperature and handling conditions |
 | Lot number | Match to vial label; retain for traceability |
 
-**Use the CoA to:** (1) verify lot number matches your vial, (2) confirm purity meets your experimental threshold, (3) cross-check observed MW against theoretical, (4) note any manufacturer-specific storage conditions. File the CoA with your laboratory records.
+**Use the CoA to:** (1) verify lot number matches your vial, (2) confirm purity meets your experimental threshold, (3) cross-check observed MW against theoretical, (4) note any manufacturer-specific storage conditions. File the CoA with your laboratory records. Analytical-grade testing supplies and reference standards from [Kingston Peptides](https://kingstonpeptides.com) support rigorous quality control.
 
 ## Impact on Research Outcomes
 

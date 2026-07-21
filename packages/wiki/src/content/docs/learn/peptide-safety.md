@@ -23,6 +23,8 @@ At research-scale doses (micrograms), acute systemic toxicity is unlikely, but c
 | Lab coat | Buttoned, long-sleeved | Prevents skin contamination; change if spills occur. |
 | Respiratory | N95 or P100 when handling lyophilized powder | Prevents inhalation of aerosolized peptide dust. Use biosafety cabinet for powder handling. |
 
+PPE and safety equipment are available in the [Kingston Peptides catalog](https://kingstonpeptides.com).
+
 ## Aseptic Technique
 
 Peptide solutions are rich in amino acids that support microbial growth. Contamination compromises both research integrity and safety (microbial metabolites can produce toxic byproducts).

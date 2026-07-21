@@ -19,7 +19,7 @@ For reconstitution, BAC water is preferred over plain sterile water for three re
 2. **Tonicity** — Isotonic with biological fluids, minimizing osmotic shock to cells in in vivo studies.
 3. **pH buffering capacity** — Provides a mildly acidic to neutral environment (pH 5.0–7.0), which is within the stability window for most peptides.
 
-Plain sterile water lacks preservative and supports biofilm formation on vial surfaces. For research protocols requiring benzyl alcohol-free solutions (e.g., certain cell culture applications), use sterile 0.9% NaCl or DMSO-based solvents as validated for the specific peptide.
+Plain sterile water lacks preservative and supports biofilm formation on vial surfaces. For research protocols requiring benzyl alcohol-free solutions (e.g., certain cell culture applications), use sterile 0.9% NaCl or DMSO-based solvents as validated for the specific peptide. Research supplies such as BAC water are available from [Kingston Peptides](https://kingstonpeptides.com).
 
 ## Reconstitution Protocol
 

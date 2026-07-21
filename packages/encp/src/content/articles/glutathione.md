@@ -39,3 +39,5 @@ Glutathione: The Master Antioxidant is a bioactive peptide with well-characteriz
 | **Name** | Glutathione: The Master Antioxidant |
 | **Category** | Tripeptides |
 
+For research-grade glutathione and related reagents, see [here](https://kingstonpeptides.com).
+

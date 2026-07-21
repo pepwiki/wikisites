@@ -126,6 +126,8 @@ Oxytocin → OXTR → Gαq → PLCβ → IP₃ + DAG
 - **Purification**: RP-HPLC
 - **Lyophilization**: With mannitol as bulking agent
 
+Oxytocin and analogs for research are available from [Kingston Peptides](https://kingstonpeptides.com).
+
 ## References
 
 1. Gimpl G, Fahrenholz F. "The oxytocin receptor system: structure, function, and regulation." *Physiological Reviews* 81:629-731, 2001. doi:10.1016/j.neuroscience.2006.07.033

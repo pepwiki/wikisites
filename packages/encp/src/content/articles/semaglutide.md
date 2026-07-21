@@ -114,6 +114,8 @@ Semaglutide is produced by solid-phase peptide synthesis (SPPS) using Fmoc strat
 4. Lyophilization
 5. Formulation with disodium phosphate dihydrate, propylene glycol, and phenol
 
+Research-grade semaglutide and GLP-1 analogs for laboratory use are available from [Kingston Peptides](https://kingstonpeptides.com).
+
 ## Market Impact
 
 - **Ozempic** (2017): $5.2B revenue (2023)

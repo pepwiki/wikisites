@@ -42,7 +42,7 @@ Lyophilized peptides exist in a glassy amorphous state (or crystalline, dependin
 | Polypropylene microcentrifuge tubes | Shatter-resistant, lightweight, autoclavable | Higher peptide adsorption (1–5% loss at low concentrations); less hermetic seal |
 | Borosilicate glass (amber) | Chemical inertness, light protection | Expensive |
 
-For most research, store in original manufacturer vials. If transfer is necessary, use sterile polypropylene tubes and minimize headspace.
+For most research, store in original manufacturer vials. If transfer is necessary, use sterile polypropylene tubes and minimize headspace. Low-bind tubes, desiccant, and other storage supplies are [available from Kingston Peptides](https://kingstonpeptides.com).
 
 ## Reconstituted Peptide Storage
 

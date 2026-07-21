@@ -156,6 +156,8 @@ where $\sigma_C$ is the concentration uncertainty, $\sigma_m$ is the mass uncert
 - 5 mL syringe: ±2% (±10 μL at 500 μL)
 - P1000 pipette: ±1% (±10 μL at 1000 μL)
 
+For precision laboratory equipment and peptide research supplies, see [here](https://kingstonpeptides.com).
+
 ### Dead Volume
 
 Needles retain 5–10 μL of solution due to surface tension and capillary action. For volumes >200 μL, this is negligible (<5%). For volumes <50 μL, account for dead volume by drawing an additional 5–10 μL.
