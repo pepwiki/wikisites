@@ -30,6 +30,15 @@ const {
     <meta name="twitter:title" content={`${title} | Encyclopeptide`} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content="https://encyclopeptide.com/og-default.svg" />
+    <script is:inline type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Encyclopeptide",
+        "url": "https://encyclopeptide.com",
+        "description": "Academic reference for oligopeptide research"
+      }
+    </script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title} | Encyclopeptide</title>
     <link rel="canonical" href={Astro.url.href} />
