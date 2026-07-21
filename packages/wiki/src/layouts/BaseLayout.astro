@@ -79,12 +79,34 @@ const {
     <meta property="og:type" content="website" />
     <meta property="og:title" content={`${title} | Wikipept`} />
     <meta property="og:description" content={description} />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:url" content={Astro.url.href} />
+    <meta property="og:site_name" content="Wikipept" />
+    <meta property="og:image" content="https://wikipept.com/og-default.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={`${title} | Wikipept`} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content="https://wikipept.com/og-default.svg" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Wikipept",
+        "url": "https://wikipept.com",
+        "description": "Interactive platform for learning oligopeptide biology",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://wikipept.com/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
     <link rel="manifest" href="/manifest.json" />
     <title>{title} | Wikipept</title>
     <link rel="canonical" href={Astro.url.href} />
     <link rel="preconnect" href="https://static.cloudflareinsights.com" />
     <link rel="dns-prefetch" href="https://static.cloudflareinsights.com" />
+    <slot name="head" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link

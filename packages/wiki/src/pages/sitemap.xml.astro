@@ -11,6 +11,29 @@ const staticPages = [
   { path: "/flashcards", priority: "0.8", changefreq: "weekly" },
   { path: "/community", priority: "0.7", changefreq: "weekly" },
   { path: "/glossary", priority: "0.7", changefreq: "monthly" },
+  { path: "/privacy", priority: "0.3", changefreq: "yearly" },
+];
+
+const docPages = [
+  { path: "/learn/amino-acids", priority: "0.8", changefreq: "monthly" },
+  { path: "/learn/peptide-bonds", priority: "0.8", changefreq: "monthly" },
+  { path: "/learn/structure", priority: "0.8", changefreq: "monthly" },
+  { path: "/learn/signaling", priority: "0.8", changefreq: "monthly" },
+  { path: "/learn/receptors", priority: "0.8", changefreq: "monthly" },
+  { path: "/learn/pharmacology", priority: "0.8", changefreq: "monthly" },
+  { path: "/learn/spps", priority: "0.8", changefreq: "monthly" },
+  { path: "/learn/purification", priority: "0.8", changefreq: "monthly" },
+  { path: "/learn/computational", priority: "0.8", changefreq: "monthly" },
+  { path: "/learn/drug-delivery", priority: "0.8", changefreq: "monthly" },
+  { path: "/learn/clinical-trials", priority: "0.8", changefreq: "monthly" },
+  { path: "/learn/regulatory", priority: "0.8", changefreq: "monthly" },
+  { path: "/learn/reconstitution", priority: "0.8", changefreq: "monthly" },
+  { path: "/learn/peptide-storage", priority: "0.8", changefreq: "monthly" },
+  { path: "/learn/peptide-safety", priority: "0.8", changefreq: "monthly" },
+  { path: "/learn/peptide-calculations", priority: "0.8", changefreq: "monthly" },
+  { path: "/learn/peptide-impurities", priority: "0.8", changefreq: "monthly" },
+  { path: "/reference/glossary", priority: "0.7", changefreq: "monthly" },
+  { path: "/reference/peptides", priority: "0.7", changefreq: "monthly" },
 ];
 
 const articles = await getCollection("articles");
@@ -21,7 +44,7 @@ const articlePages = articles.map((article) => ({
   lastmod: article.data.pubDate.toISOString().split("T")[0],
 }));
 
-const allPages = [...staticPages, ...articlePages];
+const allPages = [...staticPages, ...docPages, ...articlePages];
 
 return new Response(
   `<?xml version="1.0" encoding="UTF-8"?>

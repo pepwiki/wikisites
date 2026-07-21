@@ -1,0 +1,17 @@
+{
+  "name": "Encyclopeptide - Oligopeptide Reference",
+  "short_name": "Encyclopeptide",
+  "description": "Comprehensive oligopeptide reference — molecular structures, synthesis pathways, pharmacokinetics",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A1628",
+  "theme_color": "#0A1628",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

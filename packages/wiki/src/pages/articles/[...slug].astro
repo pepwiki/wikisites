@@ -30,6 +30,14 @@ while ((match = headingRegex.exec(article.body)) !== null) {
 ---
 
 <BaseLayout title={article.data.title} description={article.data.description}>
+  <Fragment slot="head">
+    <meta property="article:published_time" content={article.data.pubDate.toISOString()} />
+    <meta property="article:author" content={article.data.author} />
+    <meta property="og:type" content="article" />
+    {article.data.tags.length > 0 && article.data.tags.map((tag: string) => (
+      <meta property="article:tag" content={tag} />
+    ))}
+  </Fragment>
   <ReadingProgress client:load />
   <article class="max-w-3xl">
     <header class="mb-8">

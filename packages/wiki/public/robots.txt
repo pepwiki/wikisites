@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /offline
+
+Sitemap: https://wikipept.com/sitemap.xml

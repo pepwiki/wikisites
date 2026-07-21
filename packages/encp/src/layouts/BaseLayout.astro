@@ -23,6 +23,13 @@ const {
     <meta property="og:type" content="website" />
     <meta property="og:title" content={`${title} | Encyclopeptide`} />
     <meta property="og:description" content={description} />
+    <meta property="og:url" content={Astro.url.href} />
+    <meta property="og:site_name" content="Encyclopeptide" />
+    <meta property="og:image" content="https://encyclopeptide.com/og-default.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={`${title} | Encyclopeptide`} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content="https://encyclopeptide.com/og-default.svg" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title} | Encyclopeptide</title>
     <link rel="canonical" href={Astro.url.href} />
