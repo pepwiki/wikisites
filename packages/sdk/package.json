@@ -1,10 +1,38 @@
 {
-  "name": "@wikisites/sdk",
+  "name": "peptide-mw-calculator",
   "version": "1.0.0",
+  "description": "Zero-dependency peptide molecular weight calculator. Calculate MW and molecular formula from amino acid sequences.",
   "type": "module",
-  "exports": "./src/index.ts",
+  "main": "src/mw-calculator.ts",
+  "types": "src/mw-calculator.ts",
+  "exports": {
+    ".": "./src/mw-calculator.ts"
+  },
+  "files": [
+    "src/mw-calculator.ts",
+    "README.md"
+  ],
   "scripts": {
     "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "peptide",
+    "molecular-weight",
+    "calculator",
+    "amino-acid",
+    "biochemistry",
+    "proteomics",
+    "mass-spectrometry"
+  ],
+  "author": "Wyatt Au",
+  "license": "MIT",
+  "homepage": "https://github.com/WyattAu/peptide-mw-calculator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WyattAu/peptide-mw-calculator"
+  },
+  "bugs": {
+    "url": "https://github.com/WyattAu/peptide-mw-calculator/issues"
   },
   "dependencies": {},
   "devDependencies": {
