@@ -238,4 +238,18 @@ const faqJsonLd = {
 
   <script is:inline type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />
   <script is:inline type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+  <script is:inline type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Peptide Reconstitution Calculator",
+  "description": "Calculate the volume of BAC water needed to reconstitute peptides",
+  "url": "https://wikipept.com/tools/reconstitution-calculator/",
+  "medicalAudience": {
+    "@type": "MedicalAudience",
+    "audienceType": "Researcher"
+  },
+  "lastReviewed": "2026-07-21"
+}
+  </script>
 </BaseLayout>

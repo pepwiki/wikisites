@@ -236,4 +236,18 @@ const faqJsonLd = {
 
   <script is:inline type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />
   <script is:inline type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+  <script is:inline type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Peptide Molecular Weight Calculator",
+  "description": "Calculate the molecular weight of any peptide sequence from one-letter amino acid codes",
+  "url": "https://wikipept.com/tools/molecular-weight-calculator/",
+  "medicalAudience": {
+    "@type": "MedicalAudience",
+    "audienceType": "Researcher"
+  },
+  "lastReviewed": "2026-07-21"
+}
+  </script>
 </BaseLayout>

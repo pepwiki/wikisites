@@ -1,0 +1,13 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Wikipept",
+  "name_for_model": "Wikipept Peptide Encyclopedia",
+  "description_for_human": "Interactive platform for learning peptide biology with quizzes, flashcards, and tools.",
+  "description_for_model": "Wikipept is a comprehensive educational resource for peptide science, featuring 800+ pages on amino acids, peptide bonds, synthesis, pharmacology, and drug delivery. Includes interactive quizzes, flashcards with spaced repetition, molecular weight calculator, and reconstitution calculator.",
+  "auth": { "type": "none" },
+  "api": { "type": "openapi", "url": "https://wikipept.com/api/openapi.yaml" },
+  "logo_url": "https://wikipept.com/icon.svg",
+  "contact_email": "admin@wikipept.com",
+  "legal_url": "https://wikipept.com/privacy/",
+  "github": "https://github.com/WyattAu/wikisites"
+}

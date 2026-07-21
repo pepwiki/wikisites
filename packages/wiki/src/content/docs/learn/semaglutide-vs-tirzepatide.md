@@ -161,3 +161,32 @@ The oral semaglutide formulation (Rybelsus) offers a non-injectable option absen
 3. Jastreboff AM, et al. "Tirzepatide once weekly for the treatment of obesity (SURMOUNT-1)." *NEJM* 2022;387:205-216.
 4. Davies MJ, et al. "Semaglutide 2.4 mg once weekly in adults with overweight or obesity (STEP 2)." *Lancet* 2021;397:1003-1012.
 5. Rosenstock J, et al. "Efficacy and safety of a novel dual GIP and GLP-1 receptor agonist tirzepatide in patients with type 2 diabetes (SURPASS-1)." *Lancet* 2021;398:143-155.
+
+<script is:inline type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Drug",
+  "name": "Semaglutide",
+  "description": "GLP-1 receptor agonist for type 2 diabetes and obesity",
+  "drugClass": "Incretin mimetic",
+  "chemicalFormula": "C187H291N41O59",
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "Novo Nordisk"
+  }
+}
+</script>
+<script is:inline type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Drug",
+  "name": "Tirzepatide",
+  "description": "Dual GIP/GLP-1 receptor agonist for type 2 diabetes and obesity",
+  "drugClass": "Incretin mimetic",
+  "chemicalFormula": "C225H347N51O99",
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "Eli Lilly"
+  }
+}
+</script>
