@@ -1,0 +1,431 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const howToJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "How to Predict Peptide Stability",
+  step: [
+    {
+      "@type": "HowToStep",
+      name: "Enter Sequence Parameters",
+      text: "Input the peptide sequence length, number of susceptible residues (Asp, Met, Asn, Gln), and other structural features.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Select Modifications",
+      text: "Indicate N- and C-terminal modifications, cyclization status, and D-amino acid content.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Calculate Stability",
+      text: "Click Calculate to receive an estimated half-life category based on degradation mechanisms.",
+    },
+  ],
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What factors affect peptide stability the most?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The primary factors are: (1) sequence length and composition (susceptible residues), (2) presence of disulfide bonds, (3) terminal modifications, (4) cyclization, and (5) D-amino acid content. Susceptible residues (Asp, Met, Asn, Gln) undergo deamidation, oxidation, and isomerization, while terminal modifications protect against exopeptidase degradation.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is peptide half-life?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Peptide half-life is the time required for 50% of the peptide to degrade under physiological conditions (pH 7.4, 37°C, in plasma or serum). It depends on degradation mechanisms including enzymatic proteolysis, chemical degradation (deamidation, oxidation, hydrolysis), and aggregation propensity.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How do disulfide bonds affect peptide stability?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Disulfide bonds constrain peptide conformation, reducing proteolytic susceptibility and increasing structural rigidity. Peptides with intramolecular disulfide bonds (e.g., oxytocin, insulin) are generally more stable than linear peptides of similar length. However, disulfide bonds can undergo reduction in reducing environments, potentially decreasing stability.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is the effect of D-amino acids on peptide stability?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "D-amino acid substitution at protease-susceptible sites dramatically increases stability by preventing recognition by L-amino acid-specific proteases. A single D-amino acid substitution can increase half-life 5-10 fold. D-amino acids also reduce aggregation propensity and may alter receptor binding selectivity.",
+      },
+    },
+  ],
+};
+---
+
+<BaseLayout
+  title="Peptide Stability Predictor | Wikipept"
+  description="Estimate peptide half-life based on sequence features, modifications, and degradation mechanisms. Free interactive tool for peptide researchers."
+>
+  <article class="max-w-4xl mx-auto">
+    <header class="mb-8">
+      <h1 class="text-4xl font-extrabold text-slate-900 dark:text-slate-100 mb-4">
+        Peptide Stability Predictor
+      </h1>
+      <p class="text-lg text-slate-600 dark:text-slate-400">
+        Estimate the half-life category of a peptide based on sequence features, modifications, and degradation susceptibility. Free interactive tool for peptide researchers.
+      </p>
+    </header>
+
+    <section class="mb-12 p-6 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700" id="calculator">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Stability Calculator</h2>
+      <div class="grid gap-6 md:grid-cols-2">
+        <div>
+          <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Sequence Length (amino acids)</label>
+          <input type="number" id="seqLength" min="2" max="200" value="10" class="w-full rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-slate-900 dark:text-slate-100" />
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Susceptible Residues (Asp + Met + Asn + Gln)</label>
+          <input type="number" id="susceptibleCount" min="0" max="100" value="2" class="w-full rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-slate-900 dark:text-slate-100" />
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Disulfide Bonds</label>
+          <select id="disulfideBonds" class="w-full rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-slate-900 dark:text-slate-100">
+            <option value="0">None (linear)</option>
+            <option value="1">1 disulfide bond</option>
+            <option value="2">2 disulfide bonds</option>
+            <option value="3">3+ disulfide bonds</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">N-Terminal Modification</label>
+          <select id="nTermMod" class="w-full rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-slate-900 dark:text-slate-100">
+            <option value="none">None (free amine)</option>
+            <option value="acetyl">Acetylation</option>
+            <option value="pyroglu">Pyroglutamate</option>
+            <option value="benzoyl">Benzoylation</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">C-Terminal Modification</label>
+          <select id="cTermMod" class="w-full rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-slate-900 dark:text-slate-100">
+            <option value="none">None (free carboxyl)</option>
+            <option value="amide">Amidation</option>
+            <option value="methyl">Methyl ester</option>
+            <option value="ethyl">Ethyl ester</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Cyclization</label>
+          <select id="cyclization" class="w-full rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-slate-900 dark:text-slate-100">
+            <option value="none">None (linear)</option>
+            <option value="head-tail">Head-to-tail cyclization</option>
+            <option value="side-chain">Side-chain cyclization</option>
+            <option value="stapled">Stapled peptide</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">D-Amino Acid Content (%)</label>
+          <input type="number" id="dAminoAcid" min="0" max="100" value="0" class="w-full rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-slate-900 dark:text-slate-100" />
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">PEGylation</label>
+          <select id="pegylation" class="w-full rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-slate-900 dark:text-slate-100">
+            <option value="none">None</option>
+            <option value="low">Low MW PEG (2-5 kDa)</option>
+            <option value="high">High MW PEG (10-40 kDa)</option>
+          </select>
+        </div>
+      </div>
+      <button id="calculateBtn" class="mt-6 px-6 py-3 bg-[#0D9488] text-white rounded-lg font-semibold hover:bg-[#0f766e] transition-colors">
+        Calculate Stability
+      </button>
+    </section>
+
+    <section class="mb-12 p-6 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700" id="results" style="display:none;">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Estimated Stability</h2>
+      <div id="resultDisplay" class="space-y-4"></div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Degradation Mechanisms</h2>
+      <div class="grid gap-4 md:grid-cols-2">
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Deamidation</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-400">Asn and Gln residues undergo spontaneous deamidation at neutral pH. Asn-Gly sequences are particularly susceptible (t½ ~1-2 days). The reaction produces Asp/isoAsp, altering charge and potentially disrupting structure.</p>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Oxidation</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-400">Met and Cys residues are oxidized by reactive oxygen species. Met → Met sulfoxide is reversible; further oxidation to Met sulfone is irreversible. Trp is also susceptible to oxidation under photooxidative conditions.</p>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Isomerization</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-400">Asp residues undergo base-catalyzed isomerization to isoAsp via a succinimide intermediate. This converts L-Asp to L-isoAsp, potentially disrupting secondary structure. The reaction is accelerated by Gly flanking residues.</p>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Proteolysis</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-400">Exopeptidases (aminopeptidases, carboxypeptidases) degrade N- and C-termini. Endopeptidases (DPP-4, neprilysin, ACE) cleave internal bonds. Terminal modifications and D-amino acids protect against exopeptidase attack.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Half-Life Categories</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <th class="text-left py-2 px-3 text-slate-900 dark:text-slate-100">Category</th>
+              <th class="text-left py-2 px-3 text-slate-900 dark:text-slate-100">Half-Life</th>
+              <th class="text-left py-2 px-3 text-slate-900 dark:text-slate-100">Examples</th>
+              <th class="text-left py-2 px-3 text-slate-900 dark:text-slate-100">Stabilization Strategies</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-600 dark:text-slate-400">
+            <tr class="border-b border-slate-100 dark:border-slate-800">
+              <td class="py-2 px-3 font-semibold">Very Short</td>
+              <td class="py-2 px-3">&lt;1 hour</td>
+              <td class="py-2 px-3">GLP-1 (native), VIP, oxytocin</td>
+              <td class="py-2 px-3">PEGylation, fatty acylation, cyclization</td>
+            </tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800">
+              <td class="py-2 px-3 font-semibold">Short</td>
+              <td class="py-2 px-3">1–24 hours</td>
+              <td class="py-2 px-3">Exenatide, insulin, melanotan II</td>
+              <td class="py-2 px-3">D-amino acids, terminal modifications, albumin binding</td>
+            </tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800">
+              <td class="py-2 px-3 font-semibold">Medium</td>
+              <td class="py-2 px-3">1–7 days</td>
+              <td class="py-2 px-3">Liraglutide, dulaglutide, cagrilintide</td>
+              <td class="py-2 px-3">Fc fusion, fatty acylation, D-amino acid substitutions</td>
+            </tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800">
+              <td class="py-2 px-3 font-semibold">Long</td>
+              <td class="py-2 px-3">1–4 weeks</td>
+              <td class="py-2 px-3">Semaglutide, tirzepatide, lanreotide</td>
+              <td class="py-2 px-3">Albumin binding, Fc fusion, depot formulations</td>
+            </tr>
+            <tr>
+              <td class="py-2 px-3 font-semibold">Very Long</td>
+              <td class="py-2 px-3">&gt;4 weeks</td>
+              <td class="py-2 px-3">Insulin degludec, PEGylated peptides, microsphere formulations</td>
+              <td class="py-2 px-3">Multi-hexamer formation, high MW PEG, depot injections</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Stabilization Strategies</h2>
+      <div class="grid gap-4 md:grid-cols-3">
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Chemical Modifications</h3>
+          <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-1">
+            <li>Terminal acetylation/amidation</li>
+            <li>D-amino acid substitution</li>
+            <li>Cyclization (head-to-tail, side-chain)</li>
+            <li>PEGylation</li>
+            <li>Fatty acylation (albumin binding)</li>
+          </ul>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Formulation Approaches</h3>
+          <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-1">
+            <li>Lyophilization (dry powder)</li>
+            <li>Microsphere depot (PLGA)</li>
+            <li>Liposomal encapsulation</li>
+            <li>Nanoparticle delivery</li>
+            <li>Hydrogel formulations</li>
+          </ul>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Sequence Design</h3>
+          <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-1">
+            <li>Avoid Asn-Gly sequences</li>
+            <li>Minimize Met/Cys exposure</li>
+            <li>Introduce β-branched residues</li>
+            <li>Disulfide bond introduction</li>
+            <li>Minimize aggregation-prone regions</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Frequently Asked Questions</h2>
+      <div class="space-y-6">
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">What is peptide half-life?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            Peptide half-life is the time required for 50% of the peptide to degrade under physiological conditions. It depends on degradation mechanisms including enzymatic proteolysis, chemical degradation, and aggregation propensity.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">What are susceptible residues?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            Susceptible residues are amino acids prone to chemical degradation: Asp (isomerization, deamidation), Met (oxidation), Asn (deamidation), and Gln (deamidation). Their frequency correlates inversely with chemical stability.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">How accurate is this predictor?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            This tool provides categorical estimates based on empirical rules and published data. Actual half-lives depend on additional factors including secondary structure, solvent accessibility, pH, temperature, and protein binding. For precise values, experimental stability testing is required.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Can this tool predict in vivo stability?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            This tool estimates chemical stability under physiological conditions. In vivo half-lives also depend on renal clearance, hepatic metabolism, and receptor-mediated endocytosis, which are not captured in this model.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-6 bg-[#0D9488]/5 border border-[#0D9488]/20 rounded-xl">
+      <h3 class="font-semibold text-[#0f766e] mb-2">Related Resources</h3>
+      <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-1">
+        <li><a href="/learn/peptide-half-life" class="text-[#0D9488] hover:underline">Learn: Peptide Half-Life</a></li>
+        <li><a href="/learn/peptide-storage" class="text-[#0D9488] hover:underline">Learn: Peptide Storage & Handling</a></li>
+        <li><a href="/reference/peptide-modifications" class="text-[#0D9488] hover:underline">Reference: Peptide Modifications</a></li>
+        <li><a href="/tools/molecular-weight-calculator" class="text-[#0D9488] hover:underline">Tool: Molecular Weight Calculator</a></li>
+        <li><a href="https://kingstonpeptides.com" rel="noopener" class="text-[#0D9488] hover:underline">Research-grade peptides available from Kingston Peptides</a></li>
+      </ul>
+    </section>
+  </article>
+
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+  <script is:inline type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Peptide Stability Predictor",
+  "description": "Estimate peptide half-life based on sequence features and modifications",
+  "url": "https://wikipept.com/tools/stability-predictor/",
+  "medicalAudience": {
+    "@type": "MedicalAudience",
+    "audienceType": "Researcher"
+  },
+  "lastReviewed": "2026-07-22"
+}
+  </script>
+
+  <script is:inline>
+    document.getElementById('calculateBtn').addEventListener('click', function() {
+      const seqLen = parseInt(document.getElementById('seqLength').value) || 10;
+      const susceptible = parseInt(document.getElementById('susceptibleCount').value) || 0;
+      const disulfide = parseInt(document.getElementById('disulfideBonds').value) || 0;
+      const nTerm = document.getElementById('nTermMod').value;
+      const cTerm = document.getElementById('cTermMod').value;
+      const cyclization = document.getElementById('cyclization').value;
+      const dAmino = parseInt(document.getElementById('dAminoAcid').value) || 0;
+      const pegylation = document.getElementById('pegylation').value;
+
+      let stabilityScore = 0;
+
+      // Length penalty: longer = more susceptible sites
+      stabilityScore -= Math.floor(seqLen / 10) * 2;
+
+      // Susceptible residues penalty
+      const susRatio = susceptible / Math.max(seqLen, 1);
+      if (susRatio > 0.3) stabilityScore -= 8;
+      else if (susRatio > 0.2) stabilityScore -= 5;
+      else if (susRatio > 0.1) stabilityScore -= 2;
+
+      // Disulfide bonds bonus
+      stabilityScore += disulfide * 3;
+
+      // Terminal modifications bonus
+      if (nTerm === 'acetyl') stabilityScore += 3;
+      else if (nTerm === 'pyroglu') stabilityScore += 4;
+      else if (nTerm === 'benzoyl') stabilityScore += 3;
+
+      if (cTerm === 'amide') stabilityScore += 3;
+      else if (cTerm === 'methyl') stabilityScore += 2;
+      else if (cTerm === 'ethyl') stabilityScore += 2;
+
+      // Cyclization bonus
+      if (cyclization === 'head-tail') stabilityScore += 6;
+      else if (cyclization === 'side-chain') stabilityScore += 5;
+      else if (cyclization === 'stapled') stabilityScore += 8;
+
+      // D-amino acid bonus
+      if (dAmino >= 50) stabilityScore += 10;
+      else if (dAmino >= 25) stabilityScore += 6;
+      else if (dAmino > 0) stabilityScore += 3;
+
+      // PEGylation bonus
+      if (pegylation === 'low') stabilityScore += 4;
+      else if (pegylation === 'high') stabilityScore += 7;
+
+      // Determine category
+      let category, halfLife, color, description;
+      if (stabilityScore >= 12) {
+        category = 'Very Long';
+        halfLife = '>4 weeks';
+        color = '#16a34a';
+        description = 'This peptide is expected to have excellent stability, suitable for once-monthly or less frequent dosing.';
+      } else if (stabilityScore >= 6) {
+        category = 'Long';
+        halfLife = '1–4 weeks';
+        color = '#2563eb';
+        description = 'Good stability suitable for once-weekly dosing. Multiple stabilization strategies contribute to extended half-life.';
+      } else if (stabilityScore >= 0) {
+        category = 'Medium';
+        halfLife = '1–7 days';
+        color = '#ca8a04';
+        description = 'Moderate stability suitable for daily to weekly dosing. Some stabilization strategies may improve half-life.';
+      } else if (stabilityScore >= -6) {
+        category = 'Short';
+        halfLife = '1–24 hours';
+        color = '#ea580c';
+        description = 'Limited stability requiring multiple daily dosing or formulation strategies for sustained release.';
+      } else {
+        category = 'Very Short';
+        halfLife = '<1 hour';
+        color = '#dc2626';
+        description = 'Rapid degradation expected. Requires significant stabilization strategies for therapeutic use.';
+      }
+
+      const susceptiblePercent = (susRatio * 100).toFixed(1);
+
+      document.getElementById('results').style.display = 'block';
+      document.getElementById('resultDisplay').innerHTML = `
+        <div class="p-4 rounded-xl border-2" style="border-color: ${color}; background: ${color}10;">
+          <div class="text-2xl font-bold" style="color: ${color};">${category} Stability</div>
+          <div class="text-lg text-slate-600 dark:text-slate-400">Estimated half-life: ${halfLife}</div>
+          <p class="mt-2 text-sm text-slate-600 dark:text-slate-400">${description}</p>
+        </div>
+        <div class="grid gap-3 md:grid-cols-3 mt-4">
+          <div class="p-3 bg-slate-50 dark:bg-slate-900 rounded-lg">
+            <div class="text-sm text-slate-500">Stability Score</div>
+            <div class="text-xl font-bold text-slate-900 dark:text-slate-100">${stabilityScore > 0 ? '+' : ''}${stabilityScore}</div>
+          </div>
+          <div class="p-3 bg-slate-50 dark:bg-slate-900 rounded-lg">
+            <div class="text-sm text-slate-500">Susceptible Residue Ratio</div>
+            <div class="text-xl font-bold text-slate-900 dark:text-slate-100">${susceptiblePercent}%</div>
+          </div>
+          <div class="p-3 bg-slate-50 dark:bg-slate-900 rounded-lg">
+            <div class="text-sm text-slate-500">Stabilization Features</div>
+            <div class="text-xl font-bold text-slate-900 dark:text-slate-100">${[disulfide > 0 ? 'SS' : '', nTerm !== 'none' ? 'N-term' : '', cTerm !== 'none' ? 'C-term' : '', cyclization !== 'none' ? 'Cyclic' : '', dAmino > 0 ? 'D-AA' : '', pegylation !== 'none' ? 'PEG' : ''].filter(Boolean).length || 'None'}</div>
+          </div>
+        </div>
+        <div class="mt-4 p-4 bg-slate-50 dark:bg-slate-900 rounded-lg">
+          <h4 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Recommended Next Steps</h4>
+          <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-1">
+            ${stabilityScore < 0 ? '<li>Consider PEGylation or fatty acylation for albumin binding</li>' : ''}
+            ${susRatio > 0.2 ? '<li>Reduce susceptible residues via D-amino acid substitution or sequence redesign</li>' : ''}
+            ${disulfide === 0 && seqLen < 40 ? '<li>Introduce disulfide bonds to constrain conformation</li>' : ''}
+            ${cyclization === 'none' && seqLen < 30 ? '<li>Consider head-to-tail cyclization for protease resistance</li>' : ''}
+            ${dAmino === 0 ? '<li>D-amino acid substitution at protease-susceptible sites</li>' : ''}
+            <li>See <a href="/learn/peptide-half-life" class="text-[#0D9488] hover:underline">Peptide Half-Life</a> for detailed mechanisms</li>
+          </ul>
+        </div>
+      `;
+      document.getElementById('results').scrollIntoView({ behavior: 'smooth' });
+    });
+  </script>
+</BaseLayout>
