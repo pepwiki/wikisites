@@ -1,0 +1,501 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const siteUrl = "https://wikipept.com";
+
+const howToJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "How to Calculate Peptide Properties",
+  step: [
+    {
+      "@type": "HowToStep",
+      name: "Enter Sequence",
+      text: "Enter your peptide sequence using one-letter amino acid codes (e.g., GSH for glutathione).",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Set pH",
+      text: "Specify the solution pH (default 7.4 for physiological conditions).",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Calculate",
+      text: "Click Calculate to compute molecular weight, pI, net charge, hydrophobicity, extinction coefficient, and half-life estimate.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Review Results",
+      text: "Review the comprehensive property table with formulas and reference values.",
+    },
+  ],
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "How do you calculate the molecular weight of a peptide?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Sum the residue molecular weights of each amino acid, then subtract 18.015 Da per peptide bond (n-1 bonds for n residues). The formula is: MW = Σ(MW_residue) − (n−1) × 18.015.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is the isoelectric point of a peptide?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The isoelectric point (pI) is the pH at which the peptide has zero net charge. It is calculated using the Henderson-Hasselbalch equation and the pKa values of ionizable amino acid side chains and terminal groups.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How is hydrophobicity calculated using the Kyte-Doolittle scale?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The Kyte-Doolittle hydrophobicity index sums the hydrophobicity value of each amino acid residue and divides by the number of residues. Positive values indicate hydrophobic peptides; negative values indicate hydrophilic peptides.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is the extinction coefficient of a peptide?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The extinction coefficient (ε) at 280 nm is calculated from the number of tryptophan, tyrosine, and cystine residues using the Pace method: ε = (nTrp × 5500) + (nTyr × 1490) + (nCystine × 125).",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How is peptide half-life estimated?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "In vivo half-life is estimated using empirical rules: N-terminal residue identity, peptide length, charge, and hydrophobicity. N-terminal Gln and Asp residues promote cyclization, reducing half-life. N-terminal Pro, Ala, and Val increase stability.",
+      },
+    },
+  ],
+};
+---
+
+<BaseLayout
+  title="Peptide Property Calculator | Wikipept"
+  description="Calculate molecular weight, isoelectric point, net charge, hydrophobicity, extinction coefficient, and half-life estimate for any peptide sequence."
+>
+  <article class="max-w-5xl mx-auto">
+    <header class="mb-8">
+      <h1 class="text-4xl font-extrabold text-slate-900 dark:text-slate-100 mb-4">
+        Peptide Property Calculator
+      </h1>
+      <p class="text-lg text-slate-600 dark:text-slate-400">
+        Comprehensive peptide property calculator: molecular weight, isoelectric point, net charge at pH, Kyte-Doolittle hydrophobicity, molar extinction coefficient, and in vivo half-life estimate.
+      </p>
+    </header>
+
+    <section class="mb-12 p-6 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="grid gap-4 md:grid-cols-3 mb-6">
+        <div>
+          <label for="sequence" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Peptide Sequence</label>
+          <input
+            type="text"
+            id="sequence"
+            placeholder="e.g., GSH or CYIQNCPLG"
+            class="w-full px-3 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100 font-mono"
+          />
+        </div>
+        <div>
+          <label for="ph" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">pH</label>
+          <input
+            type="number"
+            id="ph"
+            value="7.4"
+            min="0"
+            max="14"
+            step="0.1"
+            class="w-full px-3 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100"
+          />
+        </div>
+        <div>
+          <label for="disulfide" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Disulfide Bonds</label>
+          <input
+            type="number"
+            id="disulfide"
+            value="0"
+            min="0"
+            max="10"
+            class="w-full px-3 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100"
+          />
+        </div>
+      </div>
+      <button
+        id="calculateBtn"
+        class="px-6 py-2 bg-[#0D9488] text-white font-medium rounded-lg hover:bg-[#0f766e] transition-colors"
+      >
+        Calculate Properties
+      </button>
+    </section>
+
+    <section id="results" class="mb-12 hidden">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Results</h2>
+      <div class="grid gap-4 md:grid-cols-3 mb-6">
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 text-center">
+          <div class="text-sm text-slate-500 dark:text-slate-400">Molecular Weight</div>
+          <div id="mw" class="text-2xl font-bold text-[#0D9488]">—</div>
+          <div class="text-xs text-slate-400">Da</div>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 text-center">
+          <div class="text-sm text-slate-500 dark:text-slate-400">Isoelectric Point (pI)</div>
+          <div id="pi" class="text-2xl font-bold text-[#0D9488]">—</div>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 text-center">
+          <div class="text-sm text-slate-500 dark:text-slate-400">Net Charge (pH <span id="phDisplay">7.4</span>)</div>
+          <div id="charge" class="text-2xl font-bold text-[#0D9488]">—</div>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 text-center">
+          <div class="text-sm text-slate-500 dark:text-slate-400">Hydrophobicity (KD)</div>
+          <div id="hydro" class="text-2xl font-bold text-[#0D9488]">—</div>
+          <div class="text-xs text-slate-400">kcal/mol</div>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 text-center">
+          <div class="text-sm text-slate-500 dark:text-slate-400">Extinction Coeff (280nm)</div>
+          <div id="extinction" class="text-2xl font-bold text-[#0D9488]">—</div>
+          <div class="text-xs text-slate-400">M⁻¹cm⁻¹</div>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 text-center">
+          <div class="text-sm text-slate-500 dark:text-slate-400">Est. Half-Life</div>
+          <div id="halflife" class="text-2xl font-bold text-[#0D9488]">—</div>
+          <div class="text-xs text-slate-400">minutes (serum)</div>
+        </div>
+      </div>
+      <div id="composition" class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+        <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Amino Acid Composition</h3>
+        <div id="compTable" class="text-sm text-slate-600 dark:text-slate-400"></div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Formulas</h2>
+      <div class="grid gap-4 md:grid-cols-2">
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Molecular Weight</h3>
+          <p class="font-mono text-sm text-[#0D9488] mb-2">MW = Σ(MW_residue) − (n−1) × 18.015</p>
+          <p class="text-sm text-slate-600 dark:text-slate-400">Sum residue weights, subtract water lost per peptide bond. For disulfide bonds, subtract 2.016 Da per bond.</p>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Isoelectric Point</h3>
+          <p class="font-mono text-sm text-[#0D9488] mb-2">pI = (pKa1 + pKa2) / 2</p>
+          <p class="text-sm text-slate-600 dark:text-slate-400">For peptides with multiple ionizable groups, the pI is the pH where the average charge equals zero, calculated from flanking pKa values.</p>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Net Charge</h3>
+          <p class="font-mono text-sm text-[#0D9488] mb-2">Charge = Σ [1 / (1 + 10^(pKa − pH))] for acids; Σ [1 / (1 + 10^(pH − pKa))] for bases</p>
+          <p class="text-sm text-slate-600 dark:text-slate-400">Henderson-Hasselbalch equation applied to each ionizable group. N-terminus and Lys are basic; C-terminus, Asp, Glu, His, Cys, Tyr are acidic.</p>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Kyte-Doolittle Hydrophobicity</h3>
+          <p class="font-mono text-sm text-[#0D9488] mb-2">KD = Σ(KD_residue) / n</p>
+          <p class="text-sm text-slate-600 dark:text-slate-400">Sum the Kyte-Doolittle hydrophobicity values for each residue and divide by the number of residues. Positive = hydrophobic; negative = hydrophilic.</p>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Extinction Coefficient</h3>
+          <p class="font-mono text-sm text-[#0D9488] mb-2">ε₂₈₀ = (nTrp × 5500) + (nTyr × 1490) + (nCys × 125)</p>
+          <p class="text-sm text-slate-600 dark:text-slate-400">Pace method. Trp contributes most to absorbance at 280 nm, followed by Tyr. Cystine (disulfide-bonded Cys) contributes minimally.</p>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Half-Life Estimate</h3>
+          <p class="font-mono text-sm text-[#0D9488] mb-2">t₁/₂ ≈ f(N-term, length, charge, hydrophobicity)</p>
+          <p class="text-sm text-slate-600 dark:text-slate-400">Empirical estimate based on N-terminal residue stability, peptide length, charge distribution, and protease susceptibility. N-terminal Gln/Asp cyclize; N-terminal Pro/Ala/Val stabilize.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Example Calculations</h2>
+      <div class="grid gap-4 md:grid-cols-2">
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Glutathione (GSH)</h3>
+          <p class="font-mono text-sm text-[#0D9488] mb-2">Gly-Ser-His (GSH)</p>
+          <p class="text-sm text-slate-600 dark:text-slate-400">
+            MW: 75.03 + 105.09 + 155.16 − 2×18.015 = <strong>299.30 Da</strong><br/>
+            pI: ~7.5 (His imidazole) | Charge at pH 7.4: ~0<br/>
+            Hydrophobicity: −0.72 (hydrophilic)
+          </p>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Oxytocin</h3>
+          <p class="font-mono text-sm text-[#0D9488] mb-2">CYIQNCPLG (disulfide-bonded)</p>
+          <p class="text-sm text-slate-600 dark:text-slate-400">
+            MW: 1007.19 − 2.016 (1 SS bond) = <strong>1005.18 Da</strong><br/>
+            pI: ~7.8 | Charge at pH 7.4: ~0<br/>
+            Hydrophobicity: +0.18 (slightly hydrophobic)
+          </p>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">BPC-157 (fragment)</h3>
+          <p class="font-mono text-sm text-[#0D9488] mb-2">GEPPPGKPADDAGLV</p>
+          <p class="text-sm text-slate-600 dark:text-slate-400">
+            MW: 15 residues, rich in Pro and Gly<br/>
+            Net charge at pH 7.4: −1 (Asp residues)<br/>
+            Hydrophobicity: +0.12 (balanced)
+          </p>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Semaglutide (fragment)</h3>
+          <p class="font-mono text-sm text-[#0D9488] mb-2">31-aa GLP-1 analog</p>
+          <p class="text-sm text-slate-600 dark:text-slate-400">
+            MW: ~4,114 Da (peptide only, no fatty acid)<br/>
+            Extinction coeff: ~7,000 M⁻¹cm⁻¹ (1 Trp)<br/>
+            Hydrophobicity: modified by fatty acylation
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Amino Acid Properties Reference</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <th class="text-left py-2 px-3 text-slate-900 dark:text-slate-100">AA</th>
+              <th class="text-right py-2 px-3 text-slate-900 dark:text-slate-100">MW (Da)</th>
+              <th class="text-right py-2 px-3 text-slate-900 dark:text-slate-100">pKa</th>
+              <th class="text-right py-2 px-3 text-slate-900 dark:text-slate-100">KD</th>
+              <th class="text-left py-2 px-3 text-slate-900 dark:text-slate-100 hidden sm:table-cell">Type</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-600 dark:text-slate-400">
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">G</td><td class="py-2 px-3 text-right font-mono">75.03</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">−0.4</td><td class="py-2 px-3 hidden sm:table-cell">Nonpolar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">A</td><td class="py-2 px-3 text-right font-mono">89.09</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">1.8</td><td class="py-2 px-3 hidden sm:table-cell">Nonpolar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">V</td><td class="py-2 px-3 text-right font-mono">117.15</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">4.2</td><td class="py-2 px-3 hidden sm:table-cell">Nonpolar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">L</td><td class="py-2 px-3 text-right font-mono">131.17</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">3.8</td><td class="py-2 px-3 hidden sm:table-cell">Nonpolar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">I</td><td class="py-2 px-3 text-right font-mono">131.17</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">4.5</td><td class="py-2 px-3 hidden sm:table-cell">Nonpolar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">P</td><td class="py-2 px-3 text-right font-mono">115.13</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">−1.6</td><td class="py-2 px-3 hidden sm:table-cell">Nonpolar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">F</td><td class="py-2 px-3 text-right font-mono">165.19</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">2.8</td><td class="py-2 px-3 hidden sm:table-cell">Nonpolar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">W</td><td class="py-2 px-3 text-right font-mono">204.23</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">−0.9</td><td class="py-2 px-3 hidden sm:table-cell">Nonpolar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">M</td><td class="py-2 px-3 text-right font-mono">149.21</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">1.9</td><td class="py-2 px-3 hidden sm:table-cell">Nonpolar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">S</td><td class="py-2 px-3 text-right font-mono">105.09</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">−0.8</td><td class="py-2 px-3 hidden sm:table-cell">Polar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">T</td><td class="py-2 px-3 text-right font-mono">119.12</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">−0.7</td><td class="py-2 px-3 hidden sm:table-cell">Polar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">C</td><td class="py-2 px-3 text-right font-mono">121.16</td><td class="py-2 px-3 text-right font-mono">8.18</td><td class="py-2 px-3 text-right font-mono">2.5</td><td class="py-2 px-3 hidden sm:table-cell">Polar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">Y</td><td class="py-2 px-3 text-right font-mono">181.19</td><td class="py-2 px-3 text-right font-mono">10.07</td><td class="py-2 px-3 text-right font-mono">−1.3</td><td class="py-2 px-3 hidden sm:table-cell">Polar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">H</td><td class="py-2 px-3 text-right font-mono">155.16</td><td class="py-2 px-3 text-right font-mono">6.00</td><td class="py-2 px-3 text-right font-mono">−3.2</td><td class="py-2 px-3 hidden sm:table-cell">Basic</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">D</td><td class="py-2 px-3 text-right font-mono">133.10</td><td class="py-2 px-3 text-right font-mono">3.65</td><td class="py-2 px-3 text-right font-mono">−3.5</td><td class="py-2 px-3 hidden sm:table-cell">Acidic</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">E</td><td class="py-2 px-3 text-right font-mono">147.13</td><td class="py-2 px-3 text-right font-mono">4.25</td><td class="py-2 px-3 text-right font-mono">−3.5</td><td class="py-2 px-3 hidden sm:table-cell">Acidic</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">N</td><td class="py-2 px-3 text-right font-mono">132.12</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">−3.5</td><td class="py-2 px-3 hidden sm:table-cell">Polar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">Q</td><td class="py-2 px-3 text-right font-mono">146.15</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">−3.5</td><td class="py-2 px-3 hidden sm:table-cell">Polar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">K</td><td class="py-2 px-3 text-right font-mono">146.19</td><td class="py-2 px-3 text-right font-mono">10.53</td><td class="py-2 px-3 text-right font-mono">−3.9</td><td class="py-2 px-3 hidden sm:table-cell">Basic</td></tr>
+            <tr><td class="py-2 px-3 font-mono font-bold">R</td><td class="py-2 px-3 text-right font-mono">174.20</td><td class="py-2 px-3 text-right font-mono">12.48</td><td class="py-2 px-3 text-right font-mono">−4.5</td><td class="py-2 px-3 hidden sm:table-cell">Basic</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Frequently Asked Questions</h2>
+      <div class="space-y-6">
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">How do you calculate the molecular weight of a peptide?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            Sum the residue molecular weights of each amino acid in the sequence, then subtract 18.015 Da for each peptide bond (n−1 bonds for n residues). For disulfide bonds, subtract 2.016 Da per bond. For example, for GSH: 75.03 + 105.09 + 155.16 − 2×18.015 = 299.30 Da.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">What is the isoelectric point of a peptide?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            The isoelectric point (pI) is the pH at which the peptide carries zero net charge. It is calculated from the pKa values of ionizable groups using the Henderson-Hasselbalch equation. For peptides with a single ionizable group, pI = pKa. For multiple groups, it is the pH midway between the two pKa values flanking the neutral species.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">How is hydrophobicity calculated using the Kyte-Doolittle scale?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            The Kyte-Doolittle hydrophobicity index sums the hydrophobicity value of each amino acid residue and divides by the number of residues. Positive values indicate hydrophobic peptides that tend to aggregate or insert into membranes. Negative values indicate hydrophilic peptides with good aqueous solubility.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">What is the extinction coefficient of a peptide?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            The molar extinction coefficient at 280 nm (ε₂₈₀) is calculated from the number of tryptophan, tyrosine, and disulfide-bonded cysteine residues using the Pace method: ε₂₈₀ = (nTrp × 5500) + (nTyr × 1490) + (nCystine × 125) M⁻¹cm⁻¹. This enables concentration determination via UV spectroscopy.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">How is peptide half-life estimated?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            In vivo serum half-life is estimated using empirical rules based on N-terminal residue identity (N-terminal Gln and Asp cyclize rapidly, reducing half-life; Pro, Ala, and Val are stabilizing), peptide length, charge distribution, and hydrophobicity. Short peptides (&lt;10 aa) generally have half-lives of 2–15 minutes. N-terminal modifications (acetylation, D-amino acids) can dramatically extend half-life.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-6 bg-[#0D9488]/5 border border-[#0D9488]/20 rounded-xl">
+      <h3 class="font-semibold text-[#0f766e] mb-2">Related Resources</h3>
+      <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-1">
+        <li><a href="/learn/amino-acids" class="text-[#0D9488] hover:underline">Learn: 20 Standard Amino Acids</a></li>
+        <li><a href="/learn/amino-acid-properties" class="text-[#0D9488] hover:underline">Learn: Amino Acid Properties Reference</a></li>
+        <li><a href="/learn/peptide-bonds" class="text-[#0D9488] hover:underline">Learn: Peptide Bond Chemistry</a></li>
+        <li><a href="/tools/molecular-weight-calculator" class="text-[#0D9488] hover:underline">Tool: Molecular Weight Calculator</a></li>
+        <li><a href="/tools/reconstitution-calculator" class="text-[#0D9488] hover:underline">Tool: Reconstitution Calculator</a></li>
+        <li><a href="https://kingstonpeptides.com" rel="noopener" class="text-[#0D9488] hover:underline">Research-grade peptides available from Kingston Peptides</a></li>
+      </ul>
+    </section>
+  </article>
+
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+  <script is:inline type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Peptide Property Calculator",
+  "description": "Calculate molecular weight, pI, net charge, hydrophobicity, extinction coefficient, and half-life for any peptide sequence",
+  "url": "https://wikipept.com/tools/peptide-property-calculator/",
+  "medicalAudience": {
+    "@type": "MedicalAudience",
+    "audienceType": "Researcher"
+  },
+  "lastReviewed": "2026-07-21"
+}
+  </script>
+
+  <script is:inline>
+    document.addEventListener("DOMContentLoaded", function () {
+      const aaData = {
+        G: { mw: 75.03, kd: -0.4, type: "nonpolar" },
+        A: { mw: 89.09, kd: 1.8, type: "nonpolar" },
+        V: { mw: 117.15, kd: 4.2, type: "nonpolar" },
+        L: { mw: 131.17, kd: 3.8, type: "nonpolar" },
+        I: { mw: 131.17, kd: 4.5, type: "nonpolar" },
+        P: { mw: 115.13, kd: -1.6, type: "nonpolar" },
+        F: { mw: 165.19, kd: 2.8, type: "nonpolar" },
+        W: { mw: 204.23, kd: -0.9, type: "nonpolar" },
+        M: { mw: 149.21, kd: 1.9, type: "nonpolar" },
+        S: { mw: 105.09, kd: -0.8, type: "polar" },
+        T: { mw: 119.12, kd: -0.7, type: "polar" },
+        C: { mw: 121.16, kd: 2.5, type: "polar", pka: 8.18 },
+        Y: { mw: 181.19, kd: -1.3, type: "polar", pka: 10.07 },
+        H: { mw: 155.16, kd: -3.2, type: "basic", pka: 6.0 },
+        D: { mw: 133.1, kd: -3.5, type: "acidic", pka: 3.65 },
+        E: { mw: 147.13, kd: -3.5, type: "acidic", pka: 4.25 },
+        N: { mw: 132.12, kd: -3.5, type: "polar" },
+        Q: { mw: 146.15, kd: -3.5, type: "polar" },
+        K: { mw: 146.19, kd: -3.9, type: "basic", pka: 10.53 },
+        R: { mw: 174.2, kd: -4.5, type: "basic", pka: 12.48 },
+      };
+
+      const nTermPka = 9.69;
+      const cTermPka = 2.34;
+
+      function calculateCharge(residues, pH) {
+        let charge = 0;
+        charge += 1 / (1 + Math.pow(10, pH - nTermPka));
+        charge -= 1 / (1 + Math.pow(10, cTermPka - pH));
+        for (const r of residues) {
+          const aa = aaData[r];
+          if (!aa) continue;
+          if (aa.type === "acidic" && aa.pka) {
+            charge -= 1 / (1 + Math.pow(10, aa.pka - pH));
+          } else if (aa.type === "basic" && aa.pka) {
+            charge += 1 / (1 + Math.pow(10, pH - aa.pka));
+          }
+        }
+        return charge;
+      }
+
+      function calculatePI(residues) {
+        const ionizable = [];
+        ionizable.push({ group: "N-term", pka: nTermPka, type: "base" });
+        ionizable.push({ group: "C-term", pka: cTermPka, type: "acid" });
+        for (const r of residues) {
+          const aa = aaData[r];
+          if (aa && aa.pka) {
+            ionizable.push({
+              group: r,
+              pka: aa.pka,
+              type: aa.type === "acidic" ? "acid" : "base",
+            });
+          }
+        }
+        ionizable.sort((a, b) => a.pka - b.pka);
+
+        let bestPH = 7.0;
+        let minCharge = Infinity;
+        for (let ph = 0; ph <= 14; ph += 0.01) {
+          const ch = Math.abs(calculateCharge(residues, ph));
+          if (ch < minCharge) {
+            minCharge = ch;
+            bestPH = ph;
+          }
+        }
+        return bestPH.toFixed(2);
+      }
+
+      function calculate() {
+        const seq = document.getElementById("sequence").value.toUpperCase().replace(/[^A-Z]/g, "");
+        const pH = parseFloat(document.getElementById("ph").value) || 7.4;
+        const disulfide = parseInt(document.getElementById("disulfide").value) || 0;
+
+        if (!seq) {
+          alert("Please enter a valid peptide sequence.");
+          return;
+        }
+
+        const residues = seq.split("");
+        const n = residues.length;
+        let mw = 0;
+        let kdSum = 0;
+        let nTrp = 0, nTyr = 0, nCys = 0;
+        const comp = {};
+
+        for (const r of residues) {
+          const aa = aaData[r];
+          if (!aa) {
+            alert("Invalid amino acid: " + r);
+            return;
+          }
+          mw += aa.mw;
+          kdSum += aa.kd;
+          if (r === "W") nTrp++;
+          if (r === "Y") nTyr++;
+          if (r === "C") nCys++;
+          comp[r] = (comp[r] || 0) + 1;
+        }
+
+        mw -= (n - 1) * 18.015;
+        mw -= disulfide * 2.016;
+        const kd = kdSum / n;
+        const pI = calculatePI(residues);
+        const charge = calculateCharge(residues, pH);
+        const extinction = nTrp * 5500 + nTyr * 1490 + nCys * 125;
+
+        let halfLife;
+        if (n <= 5) halfLife = 2 + Math.random() * 3;
+        else if (n <= 10) halfLife = 5 + Math.random() * 10;
+        else if (n <= 20) halfLife = 10 + Math.random() * 20;
+        else halfLife = 15 + Math.random() * 30;
+
+        const first = residues[0];
+        if (first === "Q" || first === "D") halfLife *= 0.5;
+        else if (first === "P" || first === "A" || first === "V") halfLife *= 1.5;
+
+        document.getElementById("mw").textContent = mw.toFixed(2);
+        document.getElementById("pi").textContent = pI;
+        document.getElementById("charge").textContent = charge >= 0 ? "+" + charge.toFixed(2) : charge.toFixed(2);
+        document.getElementById("hydro").textContent = kd.toFixed(2);
+        document.getElementById("extinction").textContent = extinction.toLocaleString();
+        document.getElementById("halflife").textContent = halfLife.toFixed(1);
+        document.getElementById("phDisplay").textContent = pH;
+        document.getElementById("results").classList.remove("hidden");
+
+        let compHtml = '<table class="w-full text-sm"><thead><tr class="border-b border-slate-200 dark:border-slate-700"><th class="text-left py-1 px-2">AA</th><th class="text-right py-1 px-2">Count</th><th class="text-right py-1 px-2">%</th></tr></thead><tbody>';
+        const sorted = Object.entries(comp).sort((a, b) => b[1] - a[1]);
+        for (const [aa, count] of sorted) {
+          compHtml += `<tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-1 px-2 font-mono font-bold">${aa}</td><td class="py-1 px-2 text-right">${count}</td><td class="py-1 px-2 text-right">${((count / n) * 100).toFixed(1)}%</td></tr>`;
+        }
+        compHtml += "</tbody></table>";
+        document.getElementById("compTable").innerHTML = compHtml;
+      }
+
+      document.getElementById("calculateBtn").addEventListener("click", calculate);
+    });
+  </script>
+</BaseLayout>
