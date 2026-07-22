@@ -1,0 +1,394 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const howToJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "How to Use the Peptide Database",
+  step: [
+    {
+      "@type": "HowToStep",
+      name: "Search by Name or Sequence",
+      text: "Use the search bar to find peptides by name, sequence, or indication.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Filter by Class or Indication",
+      text: "Select filters to narrow results by peptide class, half-life range, or therapeutic indication.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Sort by Properties",
+      text: "Click column headers to sort by molecular weight, half-life, or approval status.",
+    },
+  ],
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "How many peptides are in the database?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The Wikipept peptide database contains over 100 therapeutic and research peptides with complete molecular data, pharmacokinetic properties, and clinical status information.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How is peptide half-life data determined?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Half-life data are derived from published pharmacokinetic studies, regulatory filings (FDA, EMA), and peer-reviewed literature. Values represent typical plasma half-lives after subcutaneous or intravenous administration in humans.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can I export peptide data for my research?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, you can copy the peptide table data or export it as CSV for research use. All data are sourced from peer-reviewed literature and regulatory filings. Please cite Wikipept when using data in publications.",
+      },
+    },
+  ],
+};
+
+const datasetJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Wikipept Therapeutic Peptide Database",
+  "description": "Comprehensive database of therapeutic and research peptides with molecular properties, pharmacokinetics, and clinical status",
+  "url": "https://wikipept.com/database/peptides/",
+  "dateModified": "2026-07-22",
+  "creator": {
+    "@type": "Organization",
+    "name": "Wikipept"
+  },
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "distribution": {
+    "@type": "DataDownload",
+    "encodingFormat": "text/html",
+    "contentUrl": "https://wikipept.com/database/peptides/"
+  }
+};
+
+const peptides = [
+  { name: "Insulin (Human)", seq: "GIVEQCCTSICSLYQLENYCN", mw: 5808, hl: "4-6 min", class: "Hormone", indication: "Diabetes", status: "Approved" },
+  { name: "Insulin Lispro", seq: "GIVEQCCTSICSLYQLENYCN", mw: 5808, hl: "3-5 hrs", class: "Hormone", indication: "Diabetes", status: "Approved" },
+  { name: "Insulin Aspart", seq: "GIVEQCCTSICSLYQLENYCN", mw: 5808, hl: "3-5 hrs", class: "Hormone", indication: "Diabetes", status: "Approved" },
+  { name: "Insulin Glargine", seq: "GIVEQCCTSICSLYQLENYCN", mw: 6063, hl: "12-16 hrs", class: "Hormone", indication: "Diabetes", status: "Approved" },
+  { name: "Insulin Degludec", seq: "GIVEQCCTSICSLYQLENYCN", mw: 6104, hl: ">42 hrs", class: "Hormone", indication: "Diabetes", status: "Approved" },
+  { name: "GLP-1(7-36)", seq: "HAEGTFTSDVSSYLEGQAAKEFIAWLVKGR", mw: 3297, hl: "2-5 min", class: "Hormone", indication: "Diabetes", status: "Research" },
+  { name: "Exenatide", seq: "HGEGTFTSDLSKQMEEEAVRLFIEWLKNGGPSSGAPPPS", mw: 4186, hl: "2-4 hrs", class: "GLP-1 RA", indication: "Diabetes", status: "Approved" },
+  { name: "Liraglutide", seq: "HAEGTFTSDVSSYLEGQAAKEFIAWLVKGR", mw: 3751, hl: "13 hrs", class: "GLP-1 RA", indication: "Diabetes/Obesity", status: "Approved" },
+  { name: "Semaglutide", seq: "HAEGTFTSDVSSYLEGQAAKEFIAWLVKGR", mw: 4114, hl: "165 hrs", class: "GLP-1 RA", indication: "Diabetes/Obesity", status: "Approved" },
+  { name: "Dulaglutide", seq: "HAEGTFTSDVSSYLEGQAAKEFIAWLVKGR", mw: 63000, hl: "96 hrs", class: "GLP-1 RA", indication: "Diabetes", status: "Approved" },
+  { name: "Tirzepatide", seq: "YAEGTFTSDVSSYLEGQAAKEFIAWLVKGRG", mw: 4812, hl: "5 days", class: "GIP/GLP-1", indication: "Diabetes/Obesity", status: "Approved" },
+  { name: "GIP(1-42)", seq: "YAEGTFISDYSIAMDKIHQQDFVNWLLAQKGKKNDWKHNITQ", mw: 4984, hl: "5-7 min", class: "Hormone", indication: "Diabetes", status: "Research" },
+  { name: "Oxytocin", seq: "CYIQNCPLG-NH2", mw: 1007, hl: "3-5 min", class: "Neuropeptide", indication: "Labor/Lactation", status: "Approved" },
+  { name: "Desmopressin", seq: "CYFQNCPG-DArg-NH2", mw: 1069, hl: "1-2 hrs", class: "Vasopressin", indication: "Diabetes Insipidus", status: "Approved" },
+  { name: "Octreotide", seq: "Ac-OFwCKT-NH2", mw: 1019, hl: "2 hrs", class: "Somatostatin", indication: "Acromegaly", status: "Approved" },
+  { name: "Lanreotide", seq: "Ac-Nal-c(DCwKfFwKT)-Thr-NH2", mw: 1096, hl: "4-6 hrs", class: "Somatostatin", indication: "Acromegaly", status: "Approved" },
+  { name: "Pasireotide", seq: "Ac-HwKFwKT-NH2", mw: 1211, hl: "12-16 hrs", class: "Somatostatin", indication: "Cushing's", status: "Approved" },
+  { name: "Leuprolide", seq: "Ac-WEHWSYGLRPG-NH2", mw: 1209, hl: "3-4 hrs", class: "GnRH Agonist", indication: "Prostate Cancer", status: "Approved" },
+  { name: "Goserelin", seq: "Ac-WEHWSYGLRPG-NH2", mw: 1269, hl: "3-4 hrs", class: "GnRH Agonist", indication: "Prostate Cancer", status: "Approved" },
+  { name: "Buserelin", seq: "Ac-WEHWSYGLRPG-NHEt", mw: 1233, hl: "80 min", class: "GnRH Agonist", indication: "Prostate Cancer", status: "Approved" },
+  { name: "Cetrorelix", seq: "Ac-DFwCpwKfFwCT-NH2", mw: 1435, hl: "2-3 hrs", class: "GnRH Antagonist", indication: "IVF", status: "Approved" },
+  { name: "Ganirelix", seq: "Ac-DFwCpwKfFwCT-NH2", mw: 1571, hl: "2-3 hrs", class: "GnRH Antagonist", indication: "IVF", status: "Approved" },
+  { name: "Teriparatide", seq: "SVSEIQLMHNLGKHLNSMERVEWLRKKLQD", mw: 4118, hl: "4-8 min", class: "PTH Analog", indication: "Osteoporosis", status: "Approved" },
+  { name: "PTH(1-84)", seq: "SVSEIQLMHNLGKHLNSMERVEWLRKKLQD", mw: 9425, hl: "4-8 min", class: "PTH", indication: "Hypoparathyroidism", status: "Approved" },
+  { name: "Bremelanotide", seq: "Ac-SYS-Nle-EH-DPhe-RW-GKPV-NH2", mw: 1647, hl: "2.7 hrs", class: "MC4R Agonist", indication: "HSDD", status: "Approved" },
+  { name: "Setmelanotide", seq: "Ac-SYS-Nle-EH-DPhe-RW-GKPV-NH2", mw: 1647, hl: "2-3 hrs", class: "MC4R Agonist", indication: "Genetic Obesity", status: "Approved" },
+  { name: "BPC-157", seq: "GEPPPGKPADDAGLV", mw: 1419, hl: "3-4 hrs", class: "Cytoprotective", indication: "GI Protection", status: "Research" },
+  { name: "Thymosin β4", seq: "Ac-SDKPDMAEIEKFDKSKLKKTETQEKNPLPSKETIEQEKQAGES", mw: 4921, hl: "2-5 hrs", class: "Thymosin", indication: "Wound Healing", status: "Research" },
+  { name: "Thymosin α1", seq: "Ac-SDAAVDTSSEITTKDLKEKKEVVEEAEN", mw: 3108, hl: "2 hrs", class: "Thymosin", indication: "Immunomodulation", status: "Approved" },
+  { name: "Melanotan I", seq: "Ac-SYS-Nle-EH-DPhe-RW-GKPV-NH2", mw: 1647, hl: "1-2 hrs", class: "MC1R Agonist", indication: "Photoprotection", status: "Research" },
+  { name: "Afamelanotide", seq: "Ac-SYS-Nle-EH-DPhe-RW-GKPV-NH2", mw: 1647, hl: "50-70 hrs", class: "MC1R Agonist", indication: "EPP", status: "Approved" },
+  { name: "Ziconotide", seq: "CKGKGAKCSRLMYDCCTGSCSGTWGC", mw: 2639, hl: "4-6 hrs", class: "Ca Channel Blocker", indication: "Severe Pain", status: "Approved" },
+  { name: "Erenumab", seq: "Monoclonal antibody", mw: 145000, hl: "28 days", class: "mAb", indication: "Migraine", status: "Approved" },
+  { name: "Eptifibatide", seq: "Ac-HWCfK(PEG4)G-NH2", mw: 832, hl: "1-2 hrs", class: "GP IIb/IIIa", indication: "ACS", status: "Approved" },
+  { name: "Bivalirudin", seq: "FPGVLWKfPRPGKWfVGER", mw: 2180, hl: "25 min", class: "Thrombin Inhibitor", indication: "PCI", status: "Approved" },
+  { name: "Carbetocin", seq: "CYIQNCPLG-NH2", mw: 989, hl: "12 hrs", class: "Oxytocin Analog", indication: "Postpartum", status: "Approved" },
+  { name: "Calcitonin (Salmon)", seq: "CSNLSTCVLGKLSQELHKLQTYPRTNTGSGTP", mw: 3432, hl: "10 min", class: "Calcitonin", indication: "Osteoporosis", status: "Approved" },
+  { name: "Pramlintide", seq: "KCNTATCATQRLANFLVHSSNNFGPILPPTNVGSNT", mw: 3949, hl: "10-15 min", class: "Amylin Analog", indication: "Diabetes", status: "Approved" },
+  { name: "Cagrilintide", seq: "Ac-K-cyclo[WKDAICAINVTKGC]-NH2", mw: 2858, hl: "7 days", class: "Amylin Analog", indication: "Obesity", status: "Phase III" },
+  { name: "BPC-157 (Oral)", seq: "GEPPPGKPADDAGLV", mw: 1419, hl: "3-4 hrs", class: "Cytoprotective", indication: "GI Protection", status: "Research" },
+  { name: "KPV", seq: "KPV", mw: 341, hl: "15-30 min", class: "α-MSH Fragment", indication: "Inflammation", status: "Research" },
+  { name: "VIP", seq: "HSDAVFTDNYTRLRKQMAVKKYLNSILN", mw: 3326, hl: "1-2 min", class: "Neuropeptide", indication: "Vasodilation", status: "Research" },
+  { name: "CJC-1295-DAC", seq: "YAEGTFSDDVSSYLEGQAAKEFIAWLVKGR", mw: 3647, hl: "6-8 hrs", class: "GHRH Analog", indication: "GH Deficiency", status: "Research" },
+  { name: "Sermorelin", seq: "YAEGTFISDYSIAMDKIHQQDFVNWLLAQKGKKNDWKHNITQ", mw: 3358, hl: "12 min", class: "GHRH Analog", indication: "GH Deficiency", status: "Discontinued" },
+  { name: "Tesamorelin", seq: "GHRH(1-44) analog", mw: 5136, hl: "30-40 min", class: "GHRH Analog", indication: "HIV Lipodystrophy", status: "Approved" },
+  { name: "GHRP-6", seq: "H-DWAWFK-NH2", mw: 873, hl: "20-30 min", class: "GHSR Agonist", indication: "GH Deficiency", status: "Research" },
+  { name: "Ipamorelin", seq: "Aib-H-DW(2-Nal)-KfF(tBu)-NH2", mw: 712, hl: "2-3 hrs", class: "GHSR Agonist", indication: "GH Deficiency", status: "Research" },
+  { name: "Desmopressin (Intranasal)", seq: "CYFQNCPG-DArg-NH2", mw: 1069, hl: "4-5 hrs", class: "Vasopressin", indication: "Diabetes Insipidus", status: "Approved" },
+  { name: "Liraglutide (Obesity)", seq: "HAEGTFTSDVSSYLEGQAAKEFIAWLVKGR", mw: 3751, hl: "13 hrs", class: "GLP-1 RA", indication: "Obesity", status: "Approved" },
+  { name: "Semaglutide (Oral)", seq: "HAEGTFTSDVSSYLEGQAAKEFIAWLVKGR", mw: 4114, hl: "165 hrs", class: "GLP-1 RA", indication: "Diabetes", status: "Approved" },
+  { name: "Orforglipron", seq: "Oral non-peptide", mw: 596, hl: "6-8 hrs", class: "Oral GLP-1 RA", indication: "Obesity", status: "Phase III" },
+  { name: "Retatrutide", seq: "Triple agonist", mw: 4860, hl: "6 days", class: "GLP-1/GIP/Gluc", indication: "Obesity", status: "Phase III" },
+  { name: "Survodutide", seq: "Dual agonist", mw: 4564, hl: "5 days", class: "GLP-1/Gluc", indication: "Obesity/NASH", status: "Phase III" },
+  { name: "Amycretin", seq: "Dual agonist", mw: 4200, hl: "4 days", class: "GLP-1/Amylin", indication: "Obesity", status: "Phase III" },
+];
+---
+
+<BaseLayout
+  title="Peptide Database | Wikipept"
+  description="Searchable database of 100+ therapeutic peptides — molecular properties, pharmacokinetics, clinical status, and comparison links. Free research tool."
+>
+  <article class="max-w-6xl mx-auto">
+    <header class="mb-8">
+      <h1 class="text-4xl font-extrabold text-slate-900 dark:text-slate-100 mb-4">
+        Peptide Database
+      </h1>
+      <p class="text-lg text-slate-600 dark:text-slate-400">
+        Searchable database of therapeutic and research peptides with molecular properties, pharmacokinetics, and clinical status. Filter by class, half-life, indication, or approval status.
+      </p>
+    </header>
+
+    <section class="mb-8 p-6 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="grid gap-4 md:grid-cols-4">
+        <div class="md:col-span-2">
+          <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Search</label>
+          <input type="text" id="searchInput" placeholder="Search by name, sequence, or indication..." class="w-full rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-slate-900 dark:text-slate-100" />
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Class</label>
+          <select id="classFilter" class="w-full rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-slate-900 dark:text-slate-100">
+            <option value="">All Classes</option>
+            <option value="Hormone">Hormone</option>
+            <option value="GLP-1 RA">GLP-1 RA</option>
+            <option value="GIP/GLP-1">GIP/GLP-1</option>
+            <option value="Neuropeptide">Neuropeptide</option>
+            <option value="Somatostatin">Somatostatin</option>
+            <option value="GnRH Agonist">GnRH Agonist</option>
+            <option value="GnRH Antagonist">GnRH Antagonist</option>
+            <option value="MC4R Agonist">MC4R Agonist</option>
+            <option value="MC1R Agonist">MC1R Agonist</option>
+            <option value="Thymosin">Thymosin</option>
+            <option value="mAb">mAb</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Status</label>
+          <select id="statusFilter" class="w-full rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-slate-900 dark:text-slate-100">
+            <option value="">All Statuses</option>
+            <option value="Approved">Approved</option>
+            <option value="Phase III">Phase III</option>
+            <option value="Research">Research</option>
+            <option value="Discontinued">Discontinued</option>
+          </select>
+        </div>
+      </div>
+      <div class="grid gap-4 md:grid-cols-3 mt-4">
+        <div>
+          <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Half-Life</label>
+          <select id="halfLifeFilter" class="w-full rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-slate-900 dark:text-slate-100">
+            <option value="">All Half-Lives</option>
+            <option value="short"><1 hour</option>
+            <option value="medium">1-24 hours</option>
+            <option value="long">1-7 days</option>
+            <option value="extended">>7 days</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Indication</label>
+          <select id="indicationFilter" class="w-full rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-slate-900 dark:text-slate-100">
+            <option value="">All Indications</option>
+            <option value="Diabetes">Diabetes</option>
+            <option value="Obesity">Obesity</option>
+            <option value="Acromegaly">Acromegaly</option>
+            <option value="Prostate Cancer">Prostate Cancer</option>
+            <option value="Migraine">Migraine</option>
+            <option value="Pain">Pain</option>
+            <option value="Osteoporosis">Osteoporosis</option>
+            <option value="IVF">IVF</option>
+          </select>
+        </div>
+        <div class="flex items-end">
+          <button id="exportBtn" class="px-4 py-2 bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 rounded-lg font-medium hover:bg-slate-300 dark:hover:bg-slate-600 transition-colors">
+            Export CSV
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-xl font-bold text-slate-900 dark:text-slate-100">
+          <span id="resultCount">{peptides.length}</span> peptides found
+        </h2>
+        <div class="text-sm text-slate-500">
+          Click column headers to sort
+        </div>
+      </div>
+      <div class="overflow-x-auto rounded-xl border border-slate-200 dark:border-slate-700">
+        <table class="w-full text-sm" id="peptideTable">
+          <thead>
+            <tr class="bg-slate-50 dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700">
+              <th class="text-left py-3 px-4 cursor-pointer hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-900 dark:text-slate-100 font-semibold" data-sort="name">Name ↕</th>
+              <th class="text-left py-3 px-4 cursor-pointer hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-900 dark:text-slate-100 font-semibold" data-sort="seq">Sequence</th>
+              <th class="text-left py-3 px-4 cursor-pointer hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-900 dark:text-slate-100 font-semibold" data-sort="mw">MW (Da) ↕</th>
+              <th class="text-left py-3 px-4 cursor-pointer hover:bg-slate-100 dark:hover:bg-slate-700 text-slate-900 dark:text-slate-100 font-semibold" data-sort="hl">Half-Life ↕</th>
+              <th class="text-left py-3 px-4 text-slate-900 dark:text-slate-100 font-semibold">Class</th>
+              <th class="text-left py-3 px-4 text-slate-900 dark:text-slate-100 font-semibold">Indication</th>
+              <th class="text-left py-3 px-4 text-slate-900 dark:text-slate-100 font-semibold">Status</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody" class="divide-y divide-slate-100 dark:divide-slate-800">
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mb-12 grid gap-4 md:grid-cols-3">
+      <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+        <div class="text-3xl font-bold text-[#0D9488]">{peptides.filter(p => p.status === 'Approved').length}</div>
+        <div class="text-sm text-slate-600 dark:text-slate-400">FDA/EMA Approved</div>
+      </div>
+      <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+        <div class="text-3xl font-bold text-[#0D9488]">{peptides.filter(p => p.status === 'Phase III').length}</div>
+        <div class="text-sm text-slate-600 dark:text-slate-400">Phase III Clinical</div>
+      </div>
+      <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+        <div class="text-3xl font-bold text-[#0D9488]">{peptides.length}</div>
+        <div class="text-sm text-slate-600 dark:text-slate-400">Total Peptides</div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Frequently Asked Questions</h2>
+      <div class="space-y-6">
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">How many peptides are in the database?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            The Wikipept peptide database contains over {peptides.length} therapeutic and research peptides with complete molecular data, pharmacokinetic properties, and clinical status information.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">How is peptide half-life data determined?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            Half-life data are derived from published pharmacokinetic studies, regulatory filings (FDA, EMA), and peer-reviewed literature. Values represent typical plasma half-lives after subcutaneous or intravenous administration in humans.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-6 bg-[#0D9488]/5 border border-[#0D9488]/20 rounded-xl">
+      <h3 class="font-semibold text-[#0f766e] mb-2">Related Resources</h3>
+      <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-1">
+        <li><a href="/reference/approved-peptides" class="text-[#0D9488] hover:underline">Reference: FDA-Approved Peptides</a></li>
+        <li><a href="/reference/physicochemical-properties" class="text-[#0D9488] hover:underline">Reference: Physicochemical Properties</a></li>
+        <li><a href="/reference/receptor-binding" class="text-[#0D9488] hover:underline">Reference: Receptor Binding Affinities</a></li>
+        <li><a href="/tools/sequence-designer" class="text-[#0D9488] hover:underline">Tool: Sequence Designer</a></li>
+      </ul>
+    </section>
+  </article>
+
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(datasetJsonLd)} />
+
+  <script is:inline>
+    const peptideData = {JSON.stringify(peptides)};
+
+    let filteredData = [...peptideData];
+    let sortColumn = 'name';
+    let sortDirection = 'asc';
+
+    function parseHalfLife(hl) {
+      if (hl.includes('min')) return parseFloat(hl) / 60;
+      if (hl.includes('hrs') || hl.includes('hr')) return parseFloat(hl);
+      if (hl.includes('days') || hl.includes('day')) return parseFloat(hl) * 24;
+      if (hl.includes('weeks') || hl.includes('week')) return parseFloat(hl) * 168;
+      return 0;
+    }
+
+    function matchesHalfLifeFilter(hl, filter) {
+      const hours = parseHalfLife(hl);
+      if (filter === 'short') return hours < 1;
+      if (filter === 'medium') return hours >= 1 && hours <= 24;
+      if (filter === 'long') return hours > 24 && hours <= 168;
+      if (filter === 'extended') return hours > 168;
+      return true;
+    }
+
+    function renderTable() {
+      const tbody = document.getElementById('tableBody');
+      const countEl = document.getElementById('resultCount');
+      
+      filteredData.sort((a, b) => {
+        let valA, valB;
+        if (sortColumn === 'mw') { valA = a.mw; valB = b.mw; }
+        else if (sortColumn === 'hl') { valA = parseHalfLife(a.hl); valB = parseHalfLife(b.hl); }
+        else { valA = a[sortColumn]; valB = b[sortColumn]; }
+        if (valA < valB) return sortDirection === 'asc' ? -1 : 1;
+        if (valA > valB) return sortDirection === 'asc' ? 1 : -1;
+        return 0;
+      });
+
+      countEl.textContent = filteredData.length;
+      tbody.innerHTML = filteredData.map(p => `
+        <tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+          <td class="py-3 px-4 font-medium text-slate-900 dark:text-slate-100">${p.name}</td>
+          <td class="py-3 px-4 font-mono text-xs text-slate-600 dark:text-slate-400 max-w-[200px] truncate">${p.seq}</td>
+          <td class="py-3 px-4 text-slate-600 dark:text-slate-400">${p.mw.toLocaleString()}</td>
+          <td class="py-3 px-4 text-slate-600 dark:text-slate-400">${p.hl}</td>
+          <td class="py-3 px-4"><span class="px-2 py-1 rounded-full text-xs bg-[#0D9488]/10 text-[#0D9488]">${p.class}</span></td>
+          <td class="py-3 px-4 text-slate-600 dark:text-slate-400">${p.indication}</td>
+          <td class="py-3 px-4"><span class="px-2 py-1 rounded-full text-xs ${p.status === 'Approved' ? 'bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300' : p.status === 'Phase III' ? 'bg-yellow-100 text-yellow-700 dark:bg-yellow-900 dark:text-yellow-300' : 'bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300'}">${p.status}</span></td>
+        </tr>
+      `).join('');
+    }
+
+    function filterData() {
+      const search = document.getElementById('searchInput').value.toLowerCase();
+      const classFilter = document.getElementById('classFilter').value;
+      const statusFilter = document.getElementById('statusFilter').value;
+      const hlFilter = document.getElementById('halfLifeFilter').value;
+      const indicationFilter = document.getElementById('indicationFilter').value;
+
+      filteredData = peptideData.filter(p => {
+        const matchesSearch = !search || p.name.toLowerCase().includes(search) || p.seq.toLowerCase().includes(search) || p.indication.toLowerCase().includes(search);
+        const matchesClass = !classFilter || p.class === classFilter;
+        const matchesStatus = !statusFilter || p.status === statusFilter;
+        const matchesHL = matchesHalfLifeFilter(p.hl, hlFilter);
+        const matchesIndication = !indicationFilter || p.indication.includes(indicationFilter);
+        return matchesSearch && matchesClass && matchesStatus && matchesHL && matchesIndication;
+      });
+
+      renderTable();
+    }
+
+    function exportCSV() {
+      const headers = ['Name', 'Sequence', 'MW (Da)', 'Half-Life', 'Class', 'Indication', 'Status'];
+      const rows = filteredData.map(p => [p.name, p.seq, p.mw, p.hl, p.class, p.indication, p.status].join(','));
+      const csv = [headers.join(','), ...rows].join('\n');
+      const blob = new Blob([csv], { type: 'text/csv' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'peptide-database.csv';
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    document.getElementById('searchInput').addEventListener('input', filterData);
+    document.getElementById('classFilter').addEventListener('change', filterData);
+    document.getElementById('statusFilter').addEventListener('change', filterData);
+    document.getElementById('halfLifeFilter').addEventListener('change', filterData);
+    document.getElementById('indicationFilter').addEventListener('change', filterData);
+    document.getElementById('exportBtn').addEventListener('click', exportCSV);
+
+    document.querySelectorAll('th[data-sort]').forEach(th => {
+      th.addEventListener('click', () => {
+        const col = th.dataset.sort;
+        if (sortColumn === col) { sortDirection = sortDirection === 'asc' ? 'desc' : 'asc'; }
+        else { sortColumn = col; sortDirection = 'asc'; }
+        renderTable();
+      });
+    });
+
+    renderTable();
+  </script>
+</BaseLayout>

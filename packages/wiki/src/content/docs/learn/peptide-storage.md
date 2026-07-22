@@ -106,4 +106,6 @@ Maintain a log recording: peptide name, sequence, lot number, manufacturer, date
 
 ---
 
+> **See also:** [Peptide Stability Testing](/learn/peptide-stability-testing/) for analytical methods to assess peptide stability and [Peptide Half-Life](/learn/peptide-half-life/) for understanding degradation kinetics.
+
 *For research use only. Follow institutional protocols for chemical storage and handling.*

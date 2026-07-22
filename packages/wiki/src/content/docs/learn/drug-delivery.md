@@ -29,3 +29,5 @@ Effective drug delivery is critical for peptide therapeutics, which often face c
 ## Route of Administration
 
 The choice of delivery route depends on the therapeutic index, pharmacokinetic requirements, and patient population. **Intravenous** administration provides 100% bioavailability but requires clinical settings. **Subcutaneous** and **intramuscular** routes offer depot effects. **Oral** and **nasal** routes improve patient compliance but face significant bioavailability challenges for peptide therapeutics.
+
+> **See also:** [Peptide Formulation](/learn/peptide-formulation/) for formulation development strategies and [Peptide Half-Life](/learn/peptide-half-life/) for half-life extension techniques.

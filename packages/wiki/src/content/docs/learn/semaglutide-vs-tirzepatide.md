@@ -190,3 +190,5 @@ The oral semaglutide formulation (Rybelsus) offers a non-injectable option absen
   }
 }
 </script>
+
+> **See also:** [Mounjaro vs Ozempic](/learn/mounjaro-vs-ozempic/) for brand-name comparison and [Tirzepatide vs Semaglutide Weight Loss](/learn/tirzepatide-vs-semaglutide-weight-loss/) for obesity-focused comparison.

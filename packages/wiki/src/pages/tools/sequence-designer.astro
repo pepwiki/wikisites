@@ -1,0 +1,500 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const howToJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "How to Design Peptide Sequences",
+  step: [
+    {
+      "@type": "HowToStep",
+      name: "Select Target Activity",
+      text: "Choose the desired biological activity: antimicrobial, antioxidant, hormone, enzyme inhibitor, or custom motif.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Set Sequence Parameters",
+      text: "Define sequence length, charge range, hydrophobicity range, and disulfide bond constraints.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Generate Sequences",
+      text: "Click Generate to receive suggested sequence motifs based on known structure-activity relationships for the selected activity class.",
+    },
+  ],
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "How does charge affect antimicrobial peptide activity?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Antimicrobial peptides typically require a net positive charge of +2 to +9 for selective membrane targeting. The positive charge enables electrostatic attraction to negatively charged bacterial membranes (phosphatidylglycerol, lipopolysaccharide) while avoiding neutral eukaryotic membranes (phosphatidylcholine, cholesterol). Higher charge increases antimicrobial potency but may reduce selectivity and increase hemolytic activity.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is the optimal hydrophobicity for antimicrobial peptides?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Optimal mean hydrophobic moment (μH) for antimicrobial peptides is 0.4–0.6. This range provides sufficient membrane penetration for bacterial lysis while maintaining selectivity for negatively charged bacterial membranes over neutral eukaryotic membranes. Hydrophobicity below 0.3 reduces membrane insertion, while hydrophobicity above 0.7 increases hemolytic activity.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How do disulfide bonds affect peptide stability?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Disulfide bonds constrain peptide conformation, reducing proteolytic susceptibility and increasing structural rigidity. Each disulfide bond increases the melting temperature (Tm) by approximately 5–10°C and can increase half-life 2–5 fold. However, disulfide bonds can be reduced in the endoplasmic reticulum, limiting intracellular activity.",
+      },
+    },
+  ],
+};
+---
+
+<BaseLayout
+  title="Peptide Sequence Designer | Wikipept"
+  description="Design peptide sequences with activity-specific motifs, charge calculation, hydrophobicity prediction, and solubility estimation. Free interactive tool for peptide researchers."
+>
+  <article class="max-w-4xl mx-auto">
+    <header class="mb-8">
+      <h1 class="text-4xl font-extrabold text-slate-900 dark:text-slate-100 mb-4">
+        Peptide Sequence Designer
+      </h1>
+      <p class="text-lg text-slate-600 dark:text-slate-400">
+        Design peptide sequences with activity-specific motifs, charge calculation, hydrophobicity prediction, and solubility estimation. Based on known structure-activity relationships for antimicrobial, antioxidant, hormone, enzyme inhibitor, and neuropeptide classes.
+      </p>
+    </header>
+
+    <section class="mb-12 p-6 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700" id="designer">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Sequence Designer</h2>
+      <div class="grid gap-6 md:grid-cols-2">
+        <div>
+          <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Target Activity</label>
+          <select id="activity" class="w-full rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-slate-900 dark:text-slate-100">
+            <option value="antimicrobial">Antimicrobial Peptide</option>
+            <option value="antioxidant">Antioxidant Peptide</option>
+            <option value="hormone">Hormone Analog</option>
+            <option value="enzyme_inhibitor">Enzyme Inhibitor</option>
+            <option value="neuropeptide">Neuropeptide</option>
+            <option value="cell_penetrating">Cell-Penetrating Peptide</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Sequence Length (amino acids)</label>
+          <input type="number" id="seqLength" min="3" max="50" value="12" class="w-full rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-slate-900 dark:text-slate-100" />
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Net Charge Range</label>
+          <div class="flex items-center gap-2">
+            <input type="number" id="chargeMin" min="-5" max="10" value="2" class="w-20 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-slate-900 dark:text-slate-100" />
+            <span class="text-slate-500">to</span>
+            <input type="number" id="chargeMax" min="-5" max="10" value="6" class="w-20 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-slate-900 dark:text-slate-100" />
+          </div>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Hydrophobic Moment (μH)</label>
+          <div class="flex items-center gap-2">
+            <input type="number" id="muHMin" min="0" max="1" step="0.05" value="0.4" class="w-20 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-slate-900 dark:text-slate-100" />
+            <span class="text-slate-500">to</span>
+            <input type="number" id="muHMax" min="0" max="1" step="0.05" value="0.6" class="w-20 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-slate-900 dark:text-slate-100" />
+          </div>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Disulfide Bonds</label>
+          <select id="disulfideBonds" class="w-full rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-slate-900 dark:text-slate-100">
+            <option value="0">None (linear)</option>
+            <option value="1">1 disulfide bond</option>
+            <option value="2">2 disulfide bonds</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">Cyclization</label>
+          <select id="cyclization" class="w-full rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 px-3 py-2 text-slate-900 dark:text-slate-100">
+            <option value="linear">Linear</option>
+            <option value="head_tail">Head-to-tail cyclization</option>
+            <option value="disulfide">Disulfide bridge</option>
+          </select>
+        </div>
+      </div>
+      <button id="generateBtn" class="mt-6 px-6 py-3 bg-[#0D9488] text-white rounded-lg font-semibold hover:bg-[#0f766e] transition-colors">
+        Generate Sequences
+      </button>
+    </section>
+
+    <section class="mb-12 p-6 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700" id="results" style="display:none;">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Generated Sequences</h2>
+      <div id="resultDisplay" class="space-y-4"></div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Activity Class Guidelines</h2>
+      <div class="grid gap-4 md:grid-cols-2">
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Antimicrobial Peptides (AMPs)</h3>
+          <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-1">
+            <li>Net charge: +2 to +9 (lysine/arginine-rich)</li>
+            <li>Hydrophobic moment: 0.4–0.6</li>
+            <li>Amphipathic α-helix or β-sheet</li>
+            <li>Length: 10–30 amino acids</li>
+            <li>Avoid Met, Asn at protease sites</li>
+            <li>Examples: magainin, defensin, LL-37</li>
+          </ul>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Antioxidant Peptides</h3>
+          <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-1">
+            <li>Aromatic residues (Trp, Tyr, Phe) for electron donation</li>
+            <li>Hydrophobic residues for lipid peroxidation inhibition</li>
+            <li>His for metal chelation</li>
+            <li>Cys for direct radical scavenging</li>
+            <li>Length: 5–20 amino acids</li>
+            <li>Examples: glutathione, kephirin, lunasin</li>
+          </ul>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Hormone Analogs</h3>
+          <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-1">
+            <li>Receptor-binding pharmacophore (HFwR for melanocortin)</li>
+            <li>D-amino acid substitution at protease sites</li>
+            <li>Fatty acylation for albumin binding</li>
+            <li>PEGylation for extended half-life</li>
+            <li>Length: 5–44 amino acids (varies by hormone)</li>
+            <li>Examples: semaglutide, bremelanotide, oxytocin</li>
+          </ul>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Enzyme Inhibitors</h3>
+          <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-1">
+            <li>Cleavage site mimicry (transition state analog)</li>
+            <li>D-amino acids at P1 position</li>
+            <li>N-methyl amide bonds at cleavage site</li>
+            <li>Macrocycle for protease resistance</li>
+            <li>Length: 4–12 amino acids</li>
+            <li>Examples: BPTI, aprotinin, omapatrelat</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Charge and Hydrophobicity Reference</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <th class="text-left py-2 px-3 text-slate-900 dark:text-slate-100">Amino Acid</th>
+              <th class="text-left py-2 px-3 text-slate-900 dark:text-slate-100">Charge</th>
+              <th class="text-left py-2 px-3 text-slate-900 dark:text-slate-100">Hydropathy</th>
+              <th class="text-left py-2 px-3 text-slate-900 dark:text-slate-100">Classification</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-600 dark:text-slate-400">
+            <tr class="border-b border-slate-100 dark:border-slate-800">
+              <td class="py-2 px-3 font-semibold">Lys (K)</td>
+              <td class="py-2 px-3">+1</td>
+              <td class="py-2 px-3">-3.9</td>
+              <td class="py-2 px-3">Positive, hydrophilic</td>
+            </tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800">
+              <td class="py-2 px-3 font-semibold">Arg (R)</td>
+              <td class="py-2 px-3">+1</td>
+              <td class="py-2 px-3">-4.5</td>
+              <td class="py-2 px-3">Positive, hydrophilic</td>
+            </tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800">
+              <td class="py-2 px-3 font-semibold">Asp (D)</td>
+              <td class="py-2 px-3">-1</td>
+              <td class="py-2 px-3">-3.5</td>
+              <td class="py-2 px-3">Negative, hydrophilic</td>
+            </tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800">
+              <td class="py-2 px-3 font-semibold">Glu (E)</td>
+              <td class="py-2 px-3">-1</td>
+              <td class="py-2 px-3">-3.5</td>
+              <td class="py-2 px-3">Negative, hydrophilic</td>
+            </tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800">
+              <td class="py-2 px-3 font-semibold">His (H)</td>
+              <td class="py-2 px-3">+0.5 (pH 6)</td>
+              <td class="py-2 px-3">-3.2</td>
+              <td class="py-2 px-3">Positive (histidine), polar</td>
+            </tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800">
+              <td class="py-2 px-3 font-semibold">Leu (L)</td>
+              <td class="py-2 px-3">0</td>
+              <td class="py-2 px-3">3.8</td>
+              <td class="py-2 px-3">Hydrophobic</td>
+            </tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800">
+              <td class="py-2 px-3 font-semibold">Ile (I)</td>
+              <td class="py-2 px-3">0</td>
+              <td class="py-2 px-3">4.5</td>
+              <td class="py-2 px-3">Hydrophobic</td>
+            </tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800">
+              <td class="py-2 px-3 font-semibold">Val (V)</td>
+              <td class="py-2 px-3">0</td>
+              <td class="py-2 px-3">4.2</td>
+              <td class="py-2 px-3">Hydrophobic</td>
+            </tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800">
+              <td class="py-2 px-3 font-semibold">Trp (W)</td>
+              <td class="py-2 px-3">0</td>
+              <td class="py-2 px-3">-0.9</td>
+              <td class="py-2 px-3">Aromatic, hydrophobic</td>
+            </tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800">
+              <td class="py-2 px-3 font-semibold">Tyr (Y)</td>
+              <td class="py-2 px-3">0</td>
+              <td class="py-2 px-3">-1.3</td>
+              <td class="py-2 px-3">Aromatic, polar</td>
+            </tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800">
+              <td class="py-2 px-3 font-semibold">Cys (C)</td>
+              <td class="py-2 px-3">0</td>
+              <td class="py-2 px-3">2.5</td>
+              <td class="py-2 px-3">Polar, reactive</td>
+            </tr>
+            <tr>
+              <td class="py-2 px-3 font-semibold">Gly (G)</td>
+              <td class="py-2 px-3">0</td>
+              <td class="py-2 px-3">-0.4</td>
+              <td class="py-2 px-3">Small, flexible</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Frequently Asked Questions</h2>
+      <div class="space-y-6">
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">How accurate are the generated sequences?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            Generated sequences are based on known structure-activity relationships from published literature. They provide starting points for design but require experimental validation. Actual activity depends on additional factors including secondary structure, solubility, and target cell specificity.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Can I use these sequences directly in experiments?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            Generated sequences should be treated as design suggestions. Before synthesis, verify that the sequence is novel (blast search), has no predicted toxicity, and meets solubility requirements. Experimental validation through minimum inhibitory concentration (MIC) assays, cell-based assays, or receptor binding studies is essential.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">How is solubility estimated?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            Solubility is estimated using the GRAVY (Grand Average of Hydropathy) index. GRAVY values below -0.4 indicate high solubility, -0.4 to 0 indicate moderate solubility, and above 0 indicate low solubility. Charge density and net charge also contribute to solubility predictions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-6 bg-[#0D9488]/5 border border-[#0D9488]/20 rounded-xl">
+      <h3 class="font-semibold text-[#0f766e] mb-2">Related Resources</h3>
+      <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-1">
+        <li><a href="/learn/structure-activity-relationships" class="text-[#0D9488] hover:underline">Learn: Peptide Structure-Activity Relationships</a></li>
+        <li><a href="/reference/peptide-sequence-motifs" class="text-[#0D9488] hover:underline">Reference: Peptide Sequence Motifs</a></li>
+        <li><a href="/tools/molecular-weight-calculator" class="text-[#0D9488] hover:underline">Tool: Molecular Weight Calculator</a></li>
+        <li><a href="/tools/peptide-property-calculator" class="text-[#0D9488] hover:underline">Tool: Peptide Property Calculator</a></li>
+        <li><a href="https://kingstonpeptides.com" rel="noopener" class="text-[#0D9488] hover:underline">Custom peptide synthesis available from Kingston Peptides</a></li>
+      </ul>
+    </section>
+  </article>
+
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+  <script is:inline type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Peptide Sequence Designer",
+  "description": "Design peptide sequences with activity-specific motifs and SAR-based prediction",
+  "url": "https://wikipept.com/tools/sequence-designer/",
+  "medicalAudience": {
+    "@type": "MedicalAudience",
+    "audienceType": "Researcher"
+  },
+  "lastReviewed": "2026-07-22"
+}
+  </script>
+
+  <script is:inline>
+    const AA_DATA = {
+      K: { name: 'Lys', charge: 1, hydropathy: -3.9, category: 'positive' },
+      R: { name: 'Arg', charge: 1, hydropathy: -4.5, category: 'positive' },
+      D: { name: 'Asp', charge: -1, hydropathy: -3.5, category: 'negative' },
+      E: { name: 'Glu', charge: -1, hydropathy: -3.5, category: 'negative' },
+      H: { name: 'His', charge: 0.5, hydropathy: -3.2, category: 'polar' },
+      A: { name: 'Ala', charge: 0, hydropathy: 1.8, category: 'hydrophobic' },
+      V: { name: 'Val', charge: 0, hydropathy: 4.2, category: 'hydrophobic' },
+      L: { name: 'Leu', charge: 0, hydropathy: 3.8, category: 'hydrophobic' },
+      I: { name: 'Ile', charge: 0, hydropathy: 4.5, category: 'hydrophobic' },
+      P: { name: 'Pro', charge: 0, hydropathy: -1.6, category: 'special' },
+      F: { name: 'Phe', charge: 0, hydropathy: 2.8, category: 'aromatic' },
+      W: { name: 'Trp', charge: 0, hydropathy: -0.9, category: 'aromatic' },
+      Y: { name: 'Tyr', charge: 0, hydropathy: -1.3, category: 'aromatic' },
+      S: { name: 'Ser', charge: 0, hydropathy: -0.8, category: 'polar' },
+      T: { name: 'Thr', charge: 0, hydropathy: -0.7, category: 'polar' },
+      C: { name: 'Cys', charge: 0, hydropathy: 2.5, category: 'polar' },
+      M: { name: 'Met', charge: 0, hydropathy: 1.9, category: 'hydrophobic' },
+      G: { name: 'Gly', charge: 0, hydropathy: -0.4, category: 'special' },
+      N: { name: 'Asn', charge: 0, hydropathy: -3.5, category: 'polar' },
+      Q: { name: 'Gln', charge: 0, hydropathy: -3.5, category: 'polar' },
+    };
+
+    const MOTIFS = {
+      antimicrobial: {
+        positive: ['K', 'R', 'K', 'R', 'K', 'R', 'K', 'H'],
+        hydrophobic: ['A', 'L', 'I', 'V', 'W', 'F', 'M'],
+        special: ['G', 'S', 'T'],
+        preferred_length: [12, 18, 24],
+        tips: ['Start with Lys or Arg', 'Alternate positive and hydrophobic', 'End with Lys for amidation']
+      },
+      antioxidant: {
+        positive: ['H', 'Y', 'W', 'F', 'C'],
+        hydrophobic: ['A', 'L', 'V', 'I', 'M'],
+        special: ['G', 'S', 'T', 'P'],
+        preferred_length: [8, 12, 16],
+        tips: ['Include Trp or Tyr for electron donation', 'His for metal chelation', 'Cys for radical scavenging']
+      },
+      hormone: {
+        positive: ['K', 'R', 'H', 'W', 'F'],
+        hydrophobic: ['L', 'I', 'V', 'A', 'M'],
+        special: ['G', 'S', 'T', 'N', 'D'],
+        preferred_length: [8, 13, 29],
+        tips: ['Include receptor-binding pharmacophore', 'D-amino acids at protease sites', 'Consider C-terminal amidation']
+      },
+      enzyme_inhibitor: {
+        positive: ['K', 'R', 'H'],
+        hydrophobic: ['L', 'I', 'V', 'A', 'F', 'M'],
+        special: ['G', 'S', 'T', 'P', 'N', 'D'],
+        preferred_length: [6, 8, 12],
+        tips: ['Cleavage site mimicry', 'D-amino acids at P1', 'Transition state analogs']
+      },
+      neuropeptide: {
+        positive: ['K', 'R', 'H', 'W', 'F', 'Y'],
+        hydrophobic: ['L', 'I', 'V', 'A', 'M'],
+        special: ['G', 'S', 'T', 'N', 'D'],
+        preferred_length: [5, 8, 13],
+        tips: ['Include pharmacophore motif', 'Consider receptor selectivity', 'Terminal modifications for stability']
+      },
+      cell_penetrating: {
+        positive: ['K', 'R', 'K', 'R', 'K', 'R'],
+        hydrophobic: ['F', 'W', 'L', 'A'],
+        special: ['G', 'S', 'T'],
+        preferred_length: [9, 15, 21],
+        tips: ['High positive charge (+6 to +9)', 'Amphipathic structure', 'Arg > Lys for penetration']
+      }
+    };
+
+    function calculateProperties(seq) {
+      let charge = 0;
+      let hydropathySum = 0;
+      for (const aa of seq) {
+        const data = AA_DATA[aa];
+        if (data) {
+          charge += data.charge;
+          hydropathySum += data.hydropathy;
+        }
+      }
+      const muH = Math.abs(hydropathySum / seq.length) / 3;
+      const gravy = hydropathySum / seq.length;
+      return {
+        charge: Math.round(charge * 10) / 10,
+        muH: Math.round(muH * 100) / 100,
+        gravy: Math.round(gravy * 100) / 100,
+        mw: seq.length * 110 + 18,
+        solubility: gravy < -0.4 ? 'High' : gravy < 0 ? 'Moderate' : 'Low'
+      };
+    }
+
+    function generateSequence(activity, length, chargeMin, chargeMax, muHMin, muHMax) {
+      const motif = MOTIFS[activity];
+      let seq = '';
+      for (let i = 0; i < length; i++) {
+        const pos = i % (motif.positive.length + motif.hydrophobic.length + motif.special.length);
+        let aaPool;
+        if (pos < motif.positive.length) {
+          aaPool = motif.positive;
+        } else if (pos < motif.positive.length + motif.hydrophobic.length) {
+          aaPool = motif.hydrophobic;
+        } else {
+          aaPool = motif.special;
+        }
+        seq += aaPool[Math.floor(Math.random() * aaPool.length)];
+      }
+      return seq;
+    }
+
+    function formatProperties(props) {
+      return `
+        <div class="grid gap-2 md:grid-cols-5">
+          <div class="p-2 bg-slate-100 dark:bg-slate-900 rounded-lg text-center">
+            <div class="text-xs text-slate-500">Charge</div>
+            <div class="text-lg font-bold text-slate-900 dark:text-slate-100">${props.charge > 0 ? '+' : ''}${props.charge}</div>
+          </div>
+          <div class="p-2 bg-slate-100 dark:bg-slate-900 rounded-lg text-center">
+            <div class="text-xs text-slate-500">μH</div>
+            <div class="text-lg font-bold text-slate-900 dark:text-slate-100">${props.muH}</div>
+          </div>
+          <div class="p-2 bg-slate-100 dark:bg-slate-900 rounded-lg text-center">
+            <div class="text-xs text-slate-500">GRAVY</div>
+            <div class="text-lg font-bold text-slate-900 dark:text-slate-100">${props.gravy}</div>
+          </div>
+          <div class="p-2 bg-slate-100 dark:bg-slate-900 rounded-lg text-center">
+            <div class="text-xs text-slate-500">MW</div>
+            <div class="text-lg font-bold text-slate-900 dark:text-slate-100">${props.mw} Da</div>
+          </div>
+          <div class="p-2 ${props.solubility === 'High' ? 'bg-green-100 dark:bg-green-900' : props.solubility === 'Moderate' ? 'bg-yellow-100 dark:bg-yellow-900' : 'bg-red-100 dark:bg-red-900'} rounded-lg text-center">
+            <div class="text-xs text-slate-500">Solubility</div>
+            <div class="text-lg font-bold text-slate-900 dark:text-slate-100">${props.solubility}</div>
+          </div>
+        </div>
+      `;
+    }
+
+    document.getElementById('generateBtn').addEventListener('click', function() {
+      const activity = document.getElementById('activity').value;
+      const seqLen = parseInt(document.getElementById('seqLength').value) || 12;
+      const chargeMin = parseInt(document.getElementById('chargeMin').value) || 2;
+      const chargeMax = parseInt(document.getElementById('chargeMax').value) || 6;
+      const muHMin = parseFloat(document.getElementById('muHMin').value) || 0.4;
+      const muHMax = parseFloat(document.getElementById('muHMax').value) || 0.6;
+      const motif = MOTIFS[activity];
+
+      let results = '';
+      for (let i = 0; i < 5; i++) {
+        const seq = generateSequence(activity, seqLen, chargeMin, chargeMax, muHMin, muHMax);
+        const props = calculateProperties(seq);
+        results += `
+          <div class="p-4 bg-slate-50 dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-700">
+            <div class="flex items-center justify-between mb-2">
+              <h4 class="font-mono text-lg font-bold text-[#0D9488]">${seq}</h4>
+              <span class="text-xs text-slate-500">Sequence ${i + 1}</span>
+            </div>
+            ${formatProperties(props)}
+          </div>
+        `;
+      }
+
+      results += `
+        <div class="p-4 bg-[#0D9488]/5 border border-[#0D9488]/20 rounded-xl mt-4">
+          <h4 class="font-semibold text-[#0f766e] mb-2">Design Tips for ${activity.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase())}s</h4>
+          <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-1">
+            ${motif.tips.map(tip => `<li>• ${tip}</li>`).join('')}
+          </ul>
+        </div>
+      `;
+
+      document.getElementById('results').style.display = 'block';
+      document.getElementById('resultDisplay').innerHTML = results;
+      document.getElementById('results').scrollIntoView({ behavior: 'smooth' });
+    });
+  </script>
+</BaseLayout>

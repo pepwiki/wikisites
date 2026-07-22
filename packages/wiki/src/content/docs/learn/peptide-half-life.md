@@ -121,3 +121,5 @@ The ideal half-life extension strategy achieves the target pharmacokinetic profi
 3. Bhatt DL, et al. "Peptide-based therapeutics: half-life considerations." *Nat Rev Drug Discov* 2023;22:875-894.
 4. Di Marchi R, et al. "Design of insulin analogues for improved therapeutic profiles." *Biopolymers* 2018;110:e23264.
 5. Frokjaer S, Otzen DE. "Protein drug stability: a formulation challenge." *Nat Rev Drug Discov* 2005;4:298-306.
+
+> **See also:** [Peptide Stability Testing](/learn/peptide-stability-testing/) for stability assessment methods and [Peptide Formulation](/learn/peptide-formulation/) for formulation strategies.

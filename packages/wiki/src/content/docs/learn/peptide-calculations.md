@@ -188,4 +188,6 @@ Report concentrations to 2–3 significant figures. A 2.5 mg/mL solution measure
 
 ---
 
+> **See also:** [Amino Acid Properties](/learn/amino-acid-properties/) for detailed residue information and [Peptide Bonds](/learn/peptide-bonds/) for understanding peptide chemistry.
+
 *For research use only. Verify all calculations before preparing solutions.*

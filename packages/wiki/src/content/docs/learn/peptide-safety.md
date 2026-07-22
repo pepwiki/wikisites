@@ -107,4 +107,6 @@ Record: peptide identity (name, sequence, lot number), storage conditions, recon
 
 ---
 
+> **See also:** [Peptide Formulation](/learn/peptide-formulation/) for formulation strategies and [Reconstitution](/learn/reconstitution/) for reconstitution protocols.
+
 *For research use only. Follow institutional biosafety and chemical safety protocols.*

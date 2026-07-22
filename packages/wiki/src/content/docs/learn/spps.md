@@ -50,3 +50,5 @@ The Fmoc strategy provides **orthogonal protection**: Fmoc is removed by base (p
 ## Cleavage and Deprotection
 
 Standard cleavage uses **TFA (95%)** with TIS (2.5%) and water (2.5%) as scavengers. The mechanism involves protonation of the linker, cleavage from resin, removal of acid-labile protecting groups, and scavenging of carbocations. Mild cleavage (1% TFA in DCM) is available for 2-chlorotrityl resin. High-purity Fmoc-amino acids and coupling reagents for SPPS are available [here](https://kingstonpeptides.com).
+
+> **See also:** [Peptide Scale-Up](/learn/peptide-scale-up/) for transitioning from lab to production scale and [SPPS Protocol](/learn/spps-protocol/) for detailed synthesis procedures.
