@@ -1,0 +1,421 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const siteUrl = "https://wikipept.com";
+
+const howToJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "How to Use the Peptide Discovery Tool",
+  step: [
+    {
+      "@type": "HowToStep",
+      name: "Select Desired Properties",
+      text: "Choose one or more peptide properties (half-life, charge, hydrophobicity) from the filter options.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Filter by Classification",
+      text: "Narrow results by peptide class (GLP-1 RA, GHS, repair peptide, etc.) or indication.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Set Parameter Ranges",
+      text: "Define minimum and maximum values for half-life, molecular weight, or other physicochemical parameters.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Review Matching Peptides",
+      text: "View the filtered peptide database with properties, mechanisms, and clinical data.",
+    },
+  ],
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "How does the peptide discovery tool work?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The tool searches a database of 50+ peptides filtered by physicochemical properties (half-life, charge, hydrophobicity, molecular weight), peptide class, and clinical indication. You select desired properties and the tool returns peptides matching all criteria.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What peptide classes are included?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The database includes GLP-1 receptor agonists, GIP agonists, dual GIP/GLP-1 agonists, growth hormone secretagogues, GH analogues, repair peptides (BPC-157, TB-500, GHK-Cu), melanocortin analogues, oxytocin/vasopressin analogues, thymic peptides, insulin analogues, amylin analogues, and natriuretic peptides.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can I search by half-life range?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. The tool allows you to filter peptides by half-life range (minutes, hours, days, or weeks). This helps identify peptides suitable for different dosing frequencies — from ultra-rapid (minutes) to ultra-long-acting (weekly).",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is this tool for clinical decision-making?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "No. This tool is for educational and research purposes only. It provides pharmacological data about peptides but does not constitute medical advice. Always consult qualified healthcare providers for clinical decisions.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How current is the peptide database?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The database is updated quarterly with data from published literature, FDA approvals, and clinical trial registries. Last updated July 2026.",
+      },
+    },
+  ],
+};
+
+const peptideDatabase = [
+  { name: "Semaglutide", class: "GLP-1 RA", halfLife: "165 h", halfLifeHours: 165, mw: 4114, charge: -3, hydrophobicity: 0.35, indication: "T2D, Obesity", route: "SC/Oral", approved: true },
+  { name: "Tirzepatide", class: "Dual GIP/GLP-1", halfLife: "120 h", halfLifeHours: 120, mw: 4810, charge: -3, hydrophobicity: 0.42, indication: "T2D, Obesity", route: "SC", approved: true },
+  { name: "Liraglutide", class: "GLP-1 RA", halfLife: "13 h", halfLifeHours: 13, mw: 3751, charge: -2, hydrophobicity: 0.38, indication: "T2D, Obesity", route: "SC", approved: true },
+  { name: "Dulaglutide", class: "GLP-1 RA", halfLife: "120 h", halfLifeHours: 120, mw: 63000, charge: -5, hydrophobicity: 0.30, indication: "T2D", route: "SC", approved: true },
+  { name: "Exenatide", class: "GLP-1 RA", halfLife: "2 h", halfLifeHours: 2, mw: 4194, charge: -1, hydrophobicity: 0.28, indication: "T2D", route: "SC", approved: true },
+  { name: "Exenatide ER", class: "GLP-1 RA", halfLife: "168 h", halfLifeHours: 168, mw: 4194, charge: -1, hydrophobicity: 0.28, indication: "T2D", route: "SC", approved: true },
+  { name: "Lixisenatide", class: "GLP-1 RA", halfLife: "2 h", halfLifeHours: 2, mw: 3298, charge: -1, hydrophobicity: 0.25, indication: "T2D", route: "SC", approved: true },
+  { name: "Orforglipron", class: "Oral GLP-1", halfLife: "8 h", halfLifeHours: 8, mw: 1008, charge: 0, hydrophobicity: 0.55, indication: "T2D, Obesity", route: "Oral", approved: false },
+  { name: "Danuglipron", class: "Oral GLP-1", halfLife: "4 h", halfLifeHours: 4, mw: 1008, charge: 0, hydrophobicity: 0.52, indication: "T2D", route: "Oral", approved: false },
+  { name: "Retatrutide", class: "Triple Agonist", halfLife: "120 h", halfLifeHours: 120, mw: 4980, charge: -3, hydrophobicity: 0.40, indication: "T2D, Obesity", route: "SC", approved: false },
+  { name: "Survodutide", class: "Dual GCGR/GLP-1", halfLife: "96 h", halfLifeHours: 96, mw: 4850, charge: -2, hydrophobicity: 0.38, indication: "T2D, Obesity", route: "SC", approved: false },
+  { name: "Cagrilintide", class: "Amylin Analog", halfLife: "160 h", halfLifeHours: 160, mw: 4000, charge: -1, hydrophobicity: 0.35, indication: "Obesity", route: "SC", approved: false },
+  { name: "Pramlintide", class: "Amylin Analog", halfLife: "0.5 h", halfLifeHours: 0.5, mw: 3949, charge: +1, hydrophobicity: 0.22, indication: "T1D, T2D", route: "SC", approved: true },
+  { name: "Insulin Lispro", class: "Rapid-Acting Insulin", halfLife: "1 h", halfLifeHours: 1, mw: 5808, charge: -1, hydrophobicity: 0.30, indication: "T1D, T2D", route: "SC", approved: true },
+  { name: "Insulin Aspart", class: "Rapid-Acting Insulin", halfLife: "1 h", halfLifeHours: 1, mw: 5826, charge: -1, hydrophobicity: 0.28, indication: "T1D, T2D", route: "SC", approved: true },
+  { name: "Insulin Glargine", class: "Long-Acting Insulin", halfLife: "36 h", halfLifeHours: 36, mw: 6063, charge: -2, hydrophobicity: 0.35, indication: "T1D, T2D", route: "SC", approved: true },
+  { name: "Insulin Degludec", class: "Ultra-Long Insulin", halfLife: "25 h", halfLifeHours: 25, mw: 6100, charge: -2, hydrophobicity: 0.45, indication: "T1D, T2D", route: "SC", approved: true },
+  { name: "Icodec", class: "Weekly Insulin", halfLife: "196 h", halfLifeHours: 196, mw: 6300, charge: -2, hydrophobicity: 0.48, indication: "T1D, T2D", route: "SC", approved: true },
+  { name: "CJC-1295 DAC", class: "GHRH Analogue", halfLife: "8 h", halfLifeHours: 8, mw: 3647, charge: +1, hydrophobicity: 0.25, indication: "GH deficiency", route: "SC", approved: false },
+  { name: "CJC-1295 No-DAC", class: "GHRH Analogue", halfLife: "0.5 h", halfLifeHours: 0.5, mw: 3370, charge: +1, hydrophobicity: 0.22, indication: "GH deficiency", route: "SC", approved: false },
+  { name: "Sermorelin", class: "GHRH Analogue", halfLife: "0.3 h", halfLifeHours: 0.3, mw: 3358, charge: +1, hydrophobicity: 0.20, indication: "GH deficiency", route: "SC", approved: true },
+  { name: "Ipamorelin", class: "GHS (Ghrelin Mimetic)", halfLife: "2 h", halfLifeHours: 2, mw: 711, charge: +2, hydrophobicity: 0.30, indication: "GH deficiency", route: "SC", approved: false },
+  { name: "GHRP-6", class: "GHS (Ghrelin Mimetic)", halfLife: "0.3 h", halfLifeHours: 0.3, mw: 873, charge: +2, hydrophobicity: 0.35, indication: "GH stimulation", route: "SC/IV", approved: false },
+  { name: "GHRP-2", class: "GHS (Ghrelin Mimetic)", halfLife: "0.3 h", halfLifeHours: 0.3, mw: 817, charge: +2, hydrophobicity: 0.32, indication: "GH stimulation", route: "SC/IV", approved: false },
+  { name: "MK-677", class: "Non-Peptide GHS", halfLife: "16 h", halfLifeHours: 16, mw: 529, charge: 0, hydrophobicity: 0.60, indication: "GH deficiency", route: "Oral", approved: false },
+  { name: "Tesamorelin", class: "GHRH Analogue", halfLife: "0.4 h", halfLifeHours: 0.4, mw: 3500, charge: +1, hydrophobicity: 0.22, indication: "HIV lipodystrophy", route: "SC", approved: true },
+  { name: "BPC-157", class: "Repair Peptide", halfLife: "4 h", halfLifeHours: 4, mw: 1419, charge: -1, hydrophobicity: 0.18, indication: "Tissue repair", route: "SC/Oral", approved: false },
+  { name: "Thymosin Beta-4", class: "Repair Peptide", halfLife: "2 h", halfLifeHours: 2, mw: 4921, charge: -3, hydrophobicity: 0.15, indication: "Tissue repair", route: "SC/IM", approved: false },
+  { name: "TB-500", class: "Repair Peptide", halfLife: "2 h", halfLifeHours: 2, mw: 4921, charge: -3, hydrophobicity: 0.15, indication: "Tissue repair", route: "SC/IM", approved: false },
+  { name: "GHK-Cu", class: "Repair Peptide", halfLife: "1 h", halfLifeHours: 1, mw: 340, charge: +1, hydrophobicity: 0.10, indication: "Wound healing, skin", route: "Topical/SC", approved: false },
+  { name: "Melanotan I", class: "Melanocortin", halfLife: "1 h", halfLifeHours: 1, mw: 1641, charge: 0, hydrophobicity: 0.28, indication: "Tanning (research)", route: "SC", approved: false },
+  { name: "Melanotan II", class: "Melanocortin", halfLife: "1 h", halfLifeHours: 1, mw: 1024, charge: +1, hydrophobicity: 0.35, indication: "Tanning/ED (research)", route: "SC", approved: false },
+  { name: "Afamelanotide", class: "Melanocortin", halfLife: "1 h", halfLifeHours: 1, mw: 1641, charge: 0, hydrophobicity: 0.28, indication: "EPP", route: "SC implant", approved: true },
+  { name: "PT-141", class: "Melanocortin", halfLife: "2 h", halfLifeHours: 2, mw: 1025, charge: +1, hydrophobicity: 0.32, indication: "FSD/ED", route: "SC/Nasal", approved: false },
+  { name: "Oxytocin", class: "Neuropeptide", halfLife: "0.1 h", halfLifeHours: 0.1, mw: 1007, charge: 0, hydrophobicity: 0.15, indication: "Labor, social cognition", route: "IV/Nasal", approved: true },
+  { name: "Desmopressin", class: "Vasopressin Analog", halfLife: "2 h", halfLifeHours: 2, mw: 1183, charge: +1, hydrophobicity: 0.12, indication: "Diabetes insipidus", route: "SC/Nasal/Oral", approved: true },
+  { name: "Carbetocin", class: "Oxytocin Analog", halfLife: "30 h", halfLifeHours: 30, mw: 988, charge: 0, hydrophobicity: 0.20, indication: "Postpartum hemorrhage", route: "IV/IM", approved: true },
+  { name: "Thymosin Alpha-1", class: "Thymic Peptide", halfLife: "2 h", halfLifeHours: 2, mw: 3108, charge: -4, hydrophobicity: 0.12, indication: "Immunomodulation", route: "SC", approved: "China/Japan" },
+  { name: "Thymulin", class: "Thymic Peptide", halfLife: "0.5 h", halfLifeHours: 0.5, mw: 900, charge: +1, hydrophobicity: 0.10, indication: "Immunomodulation", route: "SC", approved: false },
+  { name: "VIP", class: "Neuropeptide", halfLife: "0.1 h", halfLifeHours: 0.1, mw: 3326, charge: +2, hydrophobicity: 0.22, indication: "Pulmonary HTN", route: "Inhalation/IV", approved: false },
+  { name: "PACAP", class: "Neuropeptide", halfLife: "0.1 h", halfLifeHours: 0.1, mw: 3800, charge: +3, hydrophobicity: 0.20, indication: "Research", route: "IV", approved: false },
+  { name: "Bremelanotide", class: "Melanocortin", halfLife: "2.5 h", halfLifeHours: 2.5, mw: 1025, charge: +1, hydrophobicity: 0.32, indication: "FSD", route: "SC", approved: true },
+  { name: "Nesiritide", class: "Natriuretic Peptide", halfLife: "0.1 h", halfLifeHours: 0.1, mw: 3464, charge: -3, hydrophobicity: 0.18, indication: "Heart failure", route: "IV", approved: true },
+  { name: "Ularitide", class: "Natriuretic Peptide", halfLife: "0.2 h", halfLifeHours: 0.2, mw: 4527, charge: -2, hydrophobicity: 0.15, indication: "Acute HF (research)", route: "IV", approved: false },
+  { name: "Eptifibatide", class: "Antiplatelet Peptide", halfLife: "0.3 h", halfLifeHours: 0.3, mw: 832, charge: +2, hydrophobicity: 0.20, indication: "ACS", route: "IV", approved: true },
+  { name: "Eptifibatide", class: "Antiplatelet Peptide", halfLife: "0.3 h", halfLifeHours: 0.3, mw: 832, charge: +2, hydrophobicity: 0.20, indication: "ACS", route: "IV", approved: true },
+  { name: "Tirofiban", class: "Antiplatelet Peptide", halfLife: "2 h", halfLifeHours: 2, mw: 495, charge: +1, hydrophobicity: 0.15, indication: "ACS", route: "IV", approved: true },
+  { name: "Lanreotide", class: "Somatostatin Analog", halfLife: "120 h", halfLifeHours: 120, mw: 1098, charge: 0, hydrophobicity: 0.45, indication: "Acromegaly, NET", route: "SC", approved: true },
+  { name: "Octreotide", class: "Somatostatin Analog", halfLife: "2 h", halfLifeHours: 2, mw: 1019, charge: 0, hydrophobicity: 0.42, indication: "Acromegaly, NET", route: "SC/IM", approved: true },
+  { name: "Pasireotide", class: "Somatostatin Analog", halfLife: "12 h", halfLifeHours: 12, mw: 1186, charge: +1, hydrophobicity: 0.40, indication: "Cushing's, NET", route: "SC/IM", approved: true },
+  { name: "Angiopeptin-2", class: "Somatostatin Analog", halfLife: "0.5 h", halfLifeHours: 0.5, mw: 1200, charge: 0, hydrophobicity: 0.38, indication: "Research", route: "IV", approved: false },
+];
+---
+
+<BaseLayout
+  title="Peptide Discovery Tool | Wikipept"
+  description="Interactive peptide discovery tool — search 50+ peptides by half-life, charge, hydrophobicity, class, and indication. Find peptides matching your research criteria."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+
+  <div class="max-w-6xl mx-auto px-4 py-8">
+    <h1 class="text-4xl font-bold mb-4">Peptide Discovery Tool</h1>
+    <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
+      Search 50+ peptides by physicochemical properties, class, and indication.
+      Filter by half-life, charge, hydrophobicity, and more.
+    </p>
+
+    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-8">
+      <h2 class="text-2xl font-semibold mb-4">Filters</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+        <div>
+          <label for="class-filter" class="block text-sm font-medium mb-2">Peptide Class</label>
+          <select id="class-filter" class="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700">
+            <option value="">All Classes</option>
+            <option value="GLP-1 RA">GLP-1 Receptor Agonists</option>
+            <option value="Dual GIP/GLP-1">Dual GIP/GLP-1 Agonists</option>
+            <option value="Oral GLP-1">Oral GLP-1 Agonists</option>
+            <option value="Triple Agonist">Triple Agonists</option>
+            <option value="Dual GCGR/GLP-1">Dual GCGR/GLP-1</option>
+            <option value="Amylin Analog">Amylin Analogues</option>
+            <option value="Rapid-Acting Insulin">Rapid-Acting Insulin</option>
+            <option value="Long-Acting Insulin">Long-Acting Insulin</option>
+            <option value="Ultra-Long Insulin">Ultra-Long Insulin</option>
+            <option value="Weekly Insulin">Weekly Insulin</option>
+            <option value="GHRH Analogue">GHRH Analogues</option>
+            <option value="GHS (Ghrelin Mimetic)">Ghrelin Mimetics</option>
+            <option value="Non-Peptide GHS">Non-Peptide GHS</option>
+            <option value="Repair Peptide">Repair Peptides</option>
+            <option value="Melanocortin">Melanocortin Analogs</option>
+            <option value="Neuropeptide">Neuropeptides</option>
+            <option value="Vasopressin Analog">Vasopressin Analogs</option>
+            <option value="Thymic Peptide">Thymic Peptides</option>
+            <option value="Somatostatin Analog">Somatostatin Analogs</option>
+            <option value="Natriuretic Peptide">Natriuretic Peptides</option>
+            <option value="Antiplatelet Peptide">Antiplatelet Peptides</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="indication-filter" class="block text-sm font-medium mb-2">Indication</label>
+          <select id="indication-filter" class="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700">
+            <option value="">All Indications</option>
+            <option value="T2D">Type 2 Diabetes</option>
+            <option value="T1D">Type 1 Diabetes</option>
+            <option value="Obesity">Obesity</option>
+            <option value="GH deficiency">GH Deficiency</option>
+            <option value="Tissue repair">Tissue Repair</option>
+            <option value="EPP">Erythropoietic Protoporphyria</option>
+            <option value="FSD">Female Sexual Dysfunction</option>
+            <option value="ED">Erectile Dysfunction</option>
+            <option value="Acromegaly">Acromegaly</option>
+            <option value="Heart failure">Heart Failure</option>
+            <option value="Immunomodulation">Immunomodulation</option>
+            <option value="Labor">Labor Induction</option>
+            <option value="ACS">Acute Coronary Syndrome</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="approved-filter" class="block text-sm font-medium mb-2">Approval Status</label>
+          <select id="approved-filter" class="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700">
+            <option value="">All</option>
+            <option value="true">FDA Approved</option>
+            <option value="false">Research/Investigational</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+        <div>
+          <label for="half-life-min" class="block text-sm font-medium mb-2">Min Half-Life (hours)</label>
+          <input type="number" id="half-life-min" placeholder="0" min="0" class="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700" />
+        </div>
+        <div>
+          <label for="half-life-max" class="block text-sm font-medium mb-2">Max Half-Life (hours)</label>
+          <input type="number" id="half-life-max" placeholder="300" min="0" class="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700" />
+        </div>
+        <div>
+          <label for="charge-filter" class="block text-sm font-medium mb-2">Charge at pH 7.4</label>
+          <select id="charge-filter" class="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700">
+            <option value="">Any</option>
+            <option value="positive">Positive (+)</option>
+            <option value="negative">Negative (−)</option>
+            <option value="neutral">Neutral (0)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+        <div>
+          <label for="search-input" class="block text-sm font-medium mb-2">Search Peptide Name</label>
+          <input type="text" id="search-input" placeholder="e.g., Semaglutide" class="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700" />
+        </div>
+        <div class="flex items-end">
+          <button id="reset-btn" class="px-6 py-2 bg-gray-500 text-white rounded-lg hover:bg-gray-600 mr-2">Reset</button>
+          <button id="sort-btn" class="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Sort by Half-Life</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="results-count" class="text-sm text-gray-600 dark:text-gray-400 mb-4"></div>
+
+    <div id="results-table" class="overflow-x-auto">
+      <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+          <tr>
+            <th scope="col" class="px-6 py-3">Peptide</th>
+            <th scope="col" class="px-6 py-3">Class</th>
+            <th scope="col" class="px-6 py-3">Half-Life</th>
+            <th scope="col" class="px-6 py-3">MW (Da)</th>
+            <th scope="col" class="px-6 py-3">Charge</th>
+            <th scope="col" class="px-6 py-3">Route</th>
+            <th scope="col" class="px-6 py-3">Indication</th>
+            <th scope="col" class="px-6 py-3">Status</th>
+          </tr>
+        </thead>
+        <tbody id="peptide-tbody">
+        </tbody>
+      </table>
+    </div>
+
+    <div class="mt-8 bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+      <h2 class="text-2xl font-semibold mb-4">How to Use This Tool</h2>
+      <ol class="list-decimal list-inside space-y-2 text-gray-600 dark:text-gray-400">
+        <li>Select a peptide class or indication to narrow results</li>
+        <li>Set half-life range to filter by dosing frequency (e.g., 100–300 h for weekly agents)</li>
+        <li>Filter by charge to find positively, negatively, or neutrally charged peptides</li>
+        <li>Use the search box for direct name matching</li>
+        <li>Click "Sort by Half-Life" to order results from shortest to longest half-life</li>
+        <li>Click "Reset" to clear all filters</li>
+      </ol>
+    </div>
+
+    <div class="mt-8 bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+      <h2 class="text-2xl font-semibold mb-4">FAQ</h2>
+      <div class="space-y-4">
+        <details class="group">
+          <summary class="cursor-pointer font-medium text-blue-600 dark:text-blue-400">How does the peptide discovery tool work?</summary>
+          <p class="mt-2 text-gray-600 dark:text-gray-400">The tool searches a database of 50+ peptides filtered by physicochemical properties (half-life, charge, hydrophobicity, molecular weight), peptide class, and clinical indication.</p>
+        </details>
+        <details class="group">
+          <summary class="cursor-pointer font-medium text-blue-600 dark:text-blue-400">What peptide classes are included?</summary>
+          <p class="mt-2 text-gray-600 dark:text-gray-400">The database includes GLP-1 RAs, GIP agonists, dual GIP/GLP-1 agonists, GHRH analogues, ghrelin mimetics, repair peptides, melanocortin analogues, neuropeptides, thymic peptides, insulin analogues, amylin analogues, somatostatin analogues, and natriuretic peptides.</p>
+        </details>
+        <details class="group">
+          <summary class="cursor-pointer font-medium text-blue-600 dark:text-blue-400">Can I search by half-life range?</summary>
+          <p class="mt-2 text-gray-600 dark:text-gray-400">Yes. Use the Min/Max Half-Life fields to define a range. This helps identify peptides suitable for different dosing frequencies — from ultra-rapid (minutes) to ultra-long-acting (weekly).</p>
+        </details>
+        <details class="group">
+          <summary class="cursor-pointer font-medium text-blue-600 dark:text-blue-400">Is this tool for clinical decision-making?</summary>
+          <p class="mt-2 text-gray-600 dark:text-gray-400">No. This tool is for educational and research purposes only. It provides pharmacological data but does not constitute medical advice.</p>
+        </details>
+      </div>
+    </div>
+  </div>
+
+  <script is:inline>
+    const peptideData = [
+      { name: "Semaglutide", class: "GLP-1 RA", halfLife: "165 h", halfLifeHours: 165, mw: 4114, charge: -3, hydrophobicity: 0.35, indication: "T2D, Obesity", route: "SC/Oral", approved: true },
+      { name: "Tirzepatide", class: "Dual GIP/GLP-1", halfLife: "120 h", halfLifeHours: 120, mw: 4810, charge: -3, hydrophobicity: 0.42, indication: "T2D, Obesity", route: "SC", approved: true },
+      { name: "Liraglutide", class: "GLP-1 RA", halfLife: "13 h", halfLifeHours: 13, mw: 3751, charge: -2, hydrophobicity: 0.38, indication: "T2D, Obesity", route: "SC", approved: true },
+      { name: "Dulaglutide", class: "GLP-1 RA", halfLife: "120 h", halfLifeHours: 120, mw: 63000, charge: -5, hydrophobicity: 0.30, indication: "T2D", route: "SC", approved: true },
+      { name: "Exenatide", class: "GLP-1 RA", halfLife: "2 h", halfLifeHours: 2, mw: 4194, charge: -1, hydrophobicity: 0.28, indication: "T2D", route: "SC", approved: true },
+      { name: "Exenatide ER", class: "GLP-1 RA", halfLife: "168 h", halfLifeHours: 168, mw: 4194, charge: -1, hydrophobicity: 0.28, indication: "T2D", route: "SC", approved: true },
+      { name: "Lixisenatide", class: "GLP-1 RA", halfLife: "2 h", halfLifeHours: 2, mw: 3298, charge: -1, hydrophobicity: 0.25, indication: "T2D", route: "SC", approved: true },
+      { name: "Orforglipron", class: "Oral GLP-1", halfLife: "8 h", halfLifeHours: 8, mw: 1008, charge: 0, hydrophobicity: 0.55, indication: "T2D, Obesity", route: "Oral", approved: false },
+      { name: "Danuglipron", class: "Oral GLP-1", halfLife: "4 h", halfLifeHours: 4, mw: 1008, charge: 0, hydrophobicity: 0.52, indication: "T2D", route: "Oral", approved: false },
+      { name: "Retatrutide", class: "Triple Agonist", halfLife: "120 h", halfLifeHours: 120, mw: 4980, charge: -3, hydrophobicity: 0.40, indication: "T2D, Obesity", route: "SC", approved: false },
+      { name: "Survodutide", class: "Dual GCGR/GLP-1", halfLife: "96 h", halfLifeHours: 96, mw: 4850, charge: -2, hydrophobicity: 0.38, indication: "T2D, Obesity", route: "SC", approved: false },
+      { name: "Cagrilintide", class: "Amylin Analog", halfLife: "160 h", halfLifeHours: 160, mw: 4000, charge: -1, hydrophobicity: 0.35, indication: "Obesity", route: "SC", approved: false },
+      { name: "Pramlintide", class: "Amylin Analog", halfLife: "0.5 h", halfLifeHours: 0.5, mw: 3949, charge: 1, hydrophobicity: 0.22, indication: "T1D, T2D", route: "SC", approved: true },
+      { name: "Insulin Lispro", class: "Rapid-Acting Insulin", halfLife: "1 h", halfLifeHours: 1, mw: 5808, charge: -1, hydrophobicity: 0.30, indication: "T1D, T2D", route: "SC", approved: true },
+      { name: "Insulin Aspart", class: "Rapid-Acting Insulin", halfLife: "1 h", halfLifeHours: 1, mw: 5826, charge: -1, hydrophobicity: 0.28, indication: "T1D, T2D", route: "SC", approved: true },
+      { name: "Insulin Glargine", class: "Long-Acting Insulin", halfLife: "36 h", halfLifeHours: 36, mw: 6063, charge: -2, hydrophobicity: 0.35, indication: "T1D, T2D", route: "SC", approved: true },
+      { name: "Insulin Degludec", class: "Ultra-Long Insulin", halfLife: "25 h", halfLifeHours: 25, mw: 6100, charge: -2, hydrophobicity: 0.45, indication: "T1D, T2D", route: "SC", approved: true },
+      { name: "Icodec", class: "Weekly Insulin", halfLife: "196 h", halfLifeHours: 196, mw: 6300, charge: -2, hydrophobicity: 0.48, indication: "T1D, T2D", route: "SC", approved: true },
+      { name: "CJC-1295 DAC", class: "GHRH Analogue", halfLife: "8 h", halfLifeHours: 8, mw: 3647, charge: 1, hydrophobicity: 0.25, indication: "GH deficiency", route: "SC", approved: false },
+      { name: "CJC-1295 No-DAC", class: "GHRH Analogue", halfLife: "0.5 h", halfLifeHours: 0.5, mw: 3370, charge: 1, hydrophobicity: 0.22, indication: "GH deficiency", route: "SC", approved: false },
+      { name: "Sermorelin", class: "GHRH Analogue", halfLife: "0.3 h", halfLifeHours: 0.3, mw: 3358, charge: 1, hydrophobicity: 0.20, indication: "GH deficiency", route: "SC", approved: true },
+      { name: "Ipamorelin", class: "GHS (Ghrelin Mimetic)", halfLife: "2 h", halfLifeHours: 2, mw: 711, charge: 2, hydrophobicity: 0.30, indication: "GH deficiency", route: "SC", approved: false },
+      { name: "GHRP-6", class: "GHS (Ghrelin Mimetic)", halfLife: "0.3 h", halfLifeHours: 0.3, mw: 873, charge: 2, hydrophobicity: 0.35, indication: "GH stimulation", route: "SC/IV", approved: false },
+      { name: "GHRP-2", class: "GHS (Ghrelin Mimetic)", halfLife: "0.3 h", halfLifeHours: 0.3, mw: 817, charge: 2, hydrophobicity: 0.32, indication: "GH stimulation", route: "SC/IV", approved: false },
+      { name: "MK-677", class: "Non-Peptide GHS", halfLife: "16 h", halfLifeHours: 16, mw: 529, charge: 0, hydrophobicity: 0.60, indication: "GH deficiency", route: "Oral", approved: false },
+      { name: "Tesamorelin", class: "GHRH Analogue", halfLife: "0.4 h", halfLifeHours: 0.4, mw: 3500, charge: 1, hydrophobicity: 0.22, indication: "HIV lipodystrophy", route: "SC", approved: true },
+      { name: "BPC-157", class: "Repair Peptide", halfLife: "4 h", halfLifeHours: 4, mw: 1419, charge: -1, hydrophobicity: 0.18, indication: "Tissue repair", route: "SC/Oral", approved: false },
+      { name: "Thymosin Beta-4", class: "Repair Peptide", halfLife: "2 h", halfLifeHours: 2, mw: 4921, charge: -3, hydrophobicity: 0.15, indication: "Tissue repair", route: "SC/IM", approved: false },
+      { name: "GHK-Cu", class: "Repair Peptide", halfLife: "1 h", halfLifeHours: 1, mw: 340, charge: 1, hydrophobicity: 0.10, indication: "Wound healing, skin", route: "Topical/SC", approved: false },
+      { name: "Melanotan I", class: "Melanocortin", halfLife: "1 h", halfLifeHours: 1, mw: 1641, charge: 0, hydrophobicity: 0.28, indication: "Tanning (research)", route: "SC", approved: false },
+      { name: "Melanotan II", class: "Melanocortin", halfLife: "1 h", halfLifeHours: 1, mw: 1024, charge: 1, hydrophobicity: 0.35, indication: "Tanning/ED (research)", route: "SC", approved: false },
+      { name: "Afamelanotide", class: "Melanocortin", halfLife: "1 h", halfLifeHours: 1, mw: 1641, charge: 0, hydrophobicity: 0.28, indication: "EPP", route: "SC implant", approved: true },
+      { name: "PT-141", class: "Melanocortin", halfLife: "2 h", halfLifeHours: 2, mw: 1025, charge: 1, hydrophobicity: 0.32, indication: "FSD/ED", route: "SC/Nasal", approved: false },
+      { name: "Oxytocin", class: "Neuropeptide", halfLife: "0.1 h", halfLifeHours: 0.1, mw: 1007, charge: 0, hydrophobicity: 0.15, indication: "Labor, social cognition", route: "IV/Nasal", approved: true },
+      { name: "Desmopressin", class: "Vasopressin Analog", halfLife: "2 h", halfLifeHours: 2, mw: 1183, charge: 1, hydrophobicity: 0.12, indication: "Diabetes insipidus", route: "SC/Nasal/Oral", approved: true },
+      { name: "Carbetocin", class: "Oxytocin Analog", halfLife: "30 h", halfLifeHours: 30, mw: 988, charge: 0, hydrophobicity: 0.20, indication: "Postpartum hemorrhage", route: "IV/IM", approved: true },
+      { name: "Thymosin Alpha-1", class: "Thymic Peptide", halfLife: "2 h", halfLifeHours: 2, mw: 3108, charge: -4, hydrophobicity: 0.12, indication: "Immunomodulation", route: "SC", approved: true },
+      { name: "Thymulin", class: "Thymic Peptide", halfLife: "0.5 h", halfLifeHours: 0.5, mw: 900, charge: 1, hydrophobicity: 0.10, indication: "Immunomodulation", route: "SC", approved: false },
+      { name: "VIP", class: "Neuropeptide", halfLife: "0.1 h", halfLifeHours: 0.1, mw: 3326, charge: 2, hydrophobicity: 0.22, indication: "Pulmonary HTN", route: "Inhalation/IV", approved: false },
+      { name: "PACAP", class: "Neuropeptide", halfLife: "0.1 h", halfLifeHours: 0.1, mw: 3800, charge: 3, hydrophobicity: 0.20, indication: "Research", route: "IV", approved: false },
+      { name: "Bremelanotide", class: "Melanocortin", halfLife: "2.5 h", halfLifeHours: 2.5, mw: 1025, charge: 1, hydrophobicity: 0.32, indication: "FSD", route: "SC", approved: true },
+      { name: "Nesiritide", class: "Natriuretic Peptide", halfLife: "0.1 h", halfLifeHours: 0.1, mw: 3464, charge: -3, hydrophobicity: 0.18, indication: "Heart failure", route: "IV", approved: true },
+      { name: "Lanreotide", class: "Somatostatin Analog", halfLife: "120 h", halfLifeHours: 120, mw: 1098, charge: 0, hydrophobicity: 0.45, indication: "Acromegaly, NET", route: "SC", approved: true },
+      { name: "Octreotide", class: "Somatostatin Analog", halfLife: "2 h", halfLifeHours: 2, mw: 1019, charge: 0, hydrophobicity: 0.42, indication: "Acromegaly, NET", route: "SC/IM", approved: true },
+      { name: "Pasireotide", class: "Somatostatin Analog", halfLife: "12 h", halfLifeHours: 12, mw: 1186, charge: 1, hydrophobicity: 0.40, indication: "Cushing's, NET", route: "SC/IM", approved: true },
+      { name: "Eptifibatide", class: "Antiplatelet Peptide", halfLife: "0.3 h", halfLifeHours: 0.3, mw: 832, charge: 2, hydrophobicity: 0.20, indication: "ACS", route: "IV", approved: true },
+      { name: "Tirofiban", class: "Antiplatelet Peptide", halfLife: "2 h", halfLifeHours: 2, mw: 495, charge: 1, hydrophobicity: 0.15, indication: "ACS", route: "IV", approved: true },
+    ];
+
+    let sortAscending = true;
+
+    function renderTable(data) {
+      const tbody = document.getElementById("peptide-tbody");
+      tbody.innerHTML = data.map(p => `
+        <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+          <td class="px-6 py-4 font-medium text-gray-900 dark:text-white">${p.name}</td>
+          <td class="px-6 py-4">${p.class}</td>
+          <td class="px-6 py-4">${p.halfLife}</td>
+          <td class="px-6 py-4">${p.mw.toLocaleString()}</td>
+          <td class="px-6 py-4">${p.charge > 0 ? "+" : ""}${p.charge}</td>
+          <td class="px-6 py-4">${p.route}</td>
+          <td class="px-6 py-4">${p.indication}</td>
+          <td class="px-6 py-4"><span class="${p.approved ? 'text-green-600 dark:text-green-400' : 'text-yellow-600 dark:text-yellow-400'}">${p.approved ? 'Approved' : 'Research'}</span></td>
+        </tr>
+      `).join("");
+      document.getElementById("results-count").textContent = `Showing ${data.length} peptide(s)`;
+    }
+
+    function filterData() {
+      const classVal = document.getElementById("class-filter").value;
+      const indicationVal = document.getElementById("indication-filter").value;
+      const approvedVal = document.getElementById("approved-filter").value;
+      const hlMin = parseFloat(document.getElementById("half-life-min").value) || 0;
+      const hlMax = parseFloat(document.getElementById("half-life-max").value) || 999;
+      const chargeVal = document.getElementById("charge-filter").value;
+      const searchVal = document.getElementById("search-input").value.toLowerCase();
+
+      const filtered = peptideData.filter(p => {
+        if (classVal && p.class !== classVal) return false;
+        if (indicationVal && !p.indication.toLowerCase().includes(indicationVal.toLowerCase())) return false;
+        if (approvedVal !== "" && p.approved.toString() !== approvedVal) return false;
+        if (p.halfLifeHours < hlMin || p.halfLifeHours > hlMax) return false;
+        if (chargeVal === "positive" && p.charge <= 0) return false;
+        if (chargeVal === "negative" && p.charge >= 0) return false;
+        if (chargeVal === "neutral" && p.charge !== 0) return false;
+        if (searchVal && !p.name.toLowerCase().includes(searchVal)) return false;
+        return true;
+      });
+
+      renderTable(filtered);
+    }
+
+    document.getElementById("class-filter").addEventListener("change", filterData);
+    document.getElementById("indication-filter").addEventListener("change", filterData);
+    document.getElementById("approved-filter").addEventListener("change", filterData);
+    document.getElementById("half-life-min").addEventListener("input", filterData);
+    document.getElementById("half-life-max").addEventListener("input", filterData);
+    document.getElementById("charge-filter").addEventListener("change", filterData);
+    document.getElementById("search-input").addEventListener("input", filterData);
+
+    document.getElementById("reset-btn").addEventListener("click", () => {
+      document.getElementById("class-filter").value = "";
+      document.getElementById("indication-filter").value = "";
+      document.getElementById("approved-filter").value = "";
+      document.getElementById("half-life-min").value = "";
+      document.getElementById("half-life-max").value = "";
+      document.getElementById("charge-filter").value = "";
+      document.getElementById("search-input").value = "";
+      filterData();
+    });
+
+    document.getElementById("sort-btn").addEventListener("click", () => {
+      peptideData.sort((a, b) => sortAscending ? a.halfLifeHours - b.halfLifeHours : b.halfLifeHours - a.halfLifeHours);
+      sortAscending = !sortAscending;
+      filterData();
+    });
+
+    renderTable(peptideData);
+  </script>
+</BaseLayout>

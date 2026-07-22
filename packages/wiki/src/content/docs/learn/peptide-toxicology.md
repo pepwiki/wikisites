@@ -327,3 +327,10 @@ Where KM = body surface area conversion factor.
 8. **Dose selection** should be based on exposure multiples (AUC, Cmax) rather than just dose multiples
 9. **Local tolerance** must be assessed for the intended route of administration
 10. **NOAEL determination** and safety factor calculations guide first-in-human dose selection
+
+## See Also
+
+- [Safety Data](/reference/peptide-safety-data) — Compiled safety profiles for approved peptide therapeutics
+- [Clinical Trial Design](/learn/peptide-clinical-trial-design) — Study design principles informed by toxicology requirements
+- [ICH Guidelines](/learn/peptide-ich-guidelines) — S6(R1) and other guidelines governing nonclinical safety evaluation
+- [Approved Peptides](/reference/approved-peptides) — Regulatory status and safety information for marketed peptide drugs

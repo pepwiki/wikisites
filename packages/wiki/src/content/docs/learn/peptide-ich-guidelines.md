@@ -231,3 +231,10 @@ The International Council for Harmonisation (ICH) provides harmonized guidelines
 6. **Q8-Q12** provide the framework for QbD, risk management, and lifecycle management
 7. **Peptide-specific considerations** include deamidation, oxidation, aggregation, and D-amino acid formation
 8. **Regulatory submission** requires comprehensive CMC documentation covering development through commercial manufacture
+
+## See Also
+
+- [Regulatory Submission](/learn/peptide-regulatory-submission) — NDA/BLA filing requirements and strategies
+- [Clinical Trial Design](/learn/peptide-clinical-trial-design) — Study design principles for peptide drugs
+- [Quality Control](/reference/peptide-quality-control) — Analytical methods and specifications aligned with ICH guidelines
+- [GMP Manufacturing](/learn/peptide-gmp-manufacturing) — Good Manufacturing Practice requirements for peptide API

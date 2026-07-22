@@ -188,3 +188,10 @@ The global peptide therapeutics market represents one of the fastest-growing seg
 ## Key Takeaways
 
 The peptide therapeutics market is experiencing unprecedented growth driven by GLP-1 receptor agonists for diabetes and obesity. Novo Nordisk and Eli Lilly dominate with >80% market share. The market is projected to reach $200–250B by 2028, with oral peptides and next-generation multi-agonists driving expansion. Manufacturing capacity, pricing, and biosimilar competition are the key challenges for sustaining growth.
+
+## See Also
+
+- [Approved Peptides](/reference/approved-peptides) — Complete list of FDA/EMA-approved peptide therapeutics
+- [Drug Pipeline](/reference/peptide-pipeline) — Phase I–III peptide drugs and projected launches
+- [Cost Analysis](/reference/peptide-cost-analysis) — Manufacturing costs, pricing trends, and COGS breakdown
+- [Patents](/reference/peptide-patents) — Patent expirations and biosimilar opportunities shaping the market

@@ -179,3 +179,10 @@ Formulation patents can extend effective market exclusivity beyond composition-o
 5. **Biosimilar pathways** (BPCIA in US, similar in EU) enable competition post-exclusivity
 6. **Patent thickets** (multiple overlapping patents) can delay biosimilar entry
 7. **Paragraph IV certifications** enable generic challenge of Orange Book patents
+
+## See Also
+
+- [Approved Peptides](/reference/approved-peptides) — Regulatory status and patent expiry dates for marketed peptides
+- [Drug Pipeline](/reference/peptide-pipeline) — Pipeline peptides approaching patent cliffs
+- [Market Data](/reference/peptide-market-data) — Revenue projections and competitive landscape post-patent expiration
+- [Cost Analysis](/reference/peptide-cost-analysis) — Manufacturing cost trends and biosimilar pricing
