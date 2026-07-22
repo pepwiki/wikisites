@@ -11,7 +11,7 @@ Peptides serve as crucial signaling molecules in biological systems. They mediat
 
 ### Autocrine Signaling
 
-**Autocrine signaling** occurs when a cell secretes a peptide that binds to receptors on the same cell. This mechanism is important for cell proliferation and differentiation, immune cell activation, cancer progression, and feedback regulation. Examples include T-cell activation (IL-2 signaling) and tumor cell growth factors.
+**Autocrine signaling** occurs when a cell secretes a peptide that binds to [receptors](/learn/receptors/) on the same cell. This mechanism is important for cell proliferation and differentiation, immune cell activation, cancer progression, and feedback regulation. Examples include T-cell activation (IL-2 signaling) and tumor cell growth factors.
 
 ### Paracrine Signaling
 

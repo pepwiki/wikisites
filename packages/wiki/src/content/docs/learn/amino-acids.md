@@ -5,7 +5,7 @@ description: A comprehensive guide to the 20 standard amino acids, their classif
 
 ## Introduction
 
-Amino acids are the fundamental building blocks of all peptides and proteins. Each amino acid consists of a central carbon atom (alpha carbon) bonded to four groups: an **amino group** (NH2), a **carboxyl group** (COOH), a hydrogen atom, and a unique **side chain** (R group). The side chain determines the chemical properties of each amino acid.
+Amino acids are the fundamental building blocks of all peptides and proteins. Each amino acid consists of a central carbon atom (alpha carbon) bonded to four groups: an **amino group** (NH2), a **carboxyl group** (COOH), a hydrogen atom, and a unique **side chain** (R group). The side chain determines the chemical properties of each amino acid (see [Amino Acid Properties](/learn/amino-acid-properties/)).
 
 ## Hydrophobic Amino Acids
 
@@ -71,3 +71,5 @@ These amino acids carry a negative charge at physiological pH. They are often in
 - **K** for Lysine (K is next to L in the alphabet, but L was taken by Leucine)
 - **D** for Aspartate (D is "aspartate" minus the A)
 - **E** for Glutamate (E is "glutamate" minus the G)
+
+> **See also:** [Amino Acid Properties](/learn/amino-acid-properties/) for detailed coverage of side chain chemistry, and [Peptide Bonds](/learn/peptide-bonds/) for how amino acids link together.

@@ -163,3 +163,7 @@ MK-677's oral bioavailability is a significant practical advantage. Once-daily d
 3. Smith RG, et al. "MK-677, a novel growth hormone secretagogue." *Science* 1993;260:164-166.
 4. Nass R, et al. "Effects of an oral ghrelin secretagogue on body composition." *J Clin Endocrinol Metab* 2008;93:715-722.
 5. Johansen PB, et al. "Ipamorelin: a novel growth hormone secretagogue." *Eur J Endocrinol* 2000;143:575-580.
+
+<script is:inline type="application/ld+json">
+{"@context":"https://schema.org","@type":"Drug","name":"MK-677","drugClass":"Growth hormone secretagogue","chemicalFormula":"C27H36N4O5S"}
+</script>

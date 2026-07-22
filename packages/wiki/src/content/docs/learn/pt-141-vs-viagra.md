@@ -157,3 +157,7 @@ PT-141 (bremelanotide) is FDA-approved for hypoactive sexual desire disorder (HS
 3. Goldstein I, et al. "Oral sildenafil in the treatment of erectile dysfunction." *NEJM* 1998;338:1397-1404.
 4. Simon JA, et al. "Bremelanotide for treatment of hypoactive sexual desire disorder." *Obstet Gynecol* 2019;133:1023-1033.
 5. Shivers ML, et al. "PT-141 for erectile dysfunction." *J Urol* 2004;171:2365-2369.
+
+<script is:inline type="application/ld+json">
+{"@context":"https://schema.org","@type":"Drug","name":"Sildenafil","drugClass":"PDE5 inhibitor","chemicalFormula":"C22H30N6O4S"}
+</script>

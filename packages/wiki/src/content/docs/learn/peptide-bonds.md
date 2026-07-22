@@ -5,7 +5,7 @@ description: Understanding the chemistry of peptide bonds, including formation, 
 
 ## Introduction
 
-The peptide bond is the covalent chemical bond linking two amino acids together. It is the fundamental connection that forms the backbone of all peptides and proteins. Understanding peptide bond chemistry is essential for grasping protein structure, function, and synthesis.
+The peptide bond is the covalent chemical bond linking two [amino acids](/learn/amino-acids/) together. It is the fundamental connection that forms the backbone of all peptides and proteins. Understanding peptide bond chemistry is essential for grasping protein structure, function, and synthesis.
 
 ## Peptide Bond Formation
 
@@ -63,3 +63,5 @@ The peptide bond serves as both hydrogen bond donor (N-H) and acceptor (C=O). Th
 ## Peptide Bond Hydrolysis
 
 The peptide bond is thermodynamically unstable but kinetically stable. Hydrolysis is slow without catalysis because the resonance-stabilized transition state has high activation energy, the leaving group (NH2-) is a strong base, and water is a poor nucleophile. Enzymes (proteases) catalyze hydrolysis by activating water molecules, stabilizing the tetrahedral intermediate, and providing acid-base catalysis.
+
+> **See also:** [Amino Acids](/learn/amino-acids/) for the building blocks, and [Solid-Phase Peptide Synthesis](/learn/spps/) for laboratory synthesis of peptide bonds.

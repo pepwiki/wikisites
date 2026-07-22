@@ -79,6 +79,11 @@ export default defineConfig({
             { label: "GHK-Cu vs BPC-157", slug: "learn/ghk-cu-vs-bpc-157" },
             { label: "Ipamorelin vs MK-677", slug: "learn/ipamorelin-vs-mk-677" },
             { label: "CJC-1295 vs Ipamorelin", slug: "learn/cjc-1295-vs-ipamorelin" },
+            { label: "Insulin Glargine vs Detemir", slug: "learn/insulin-glargine-vs-detemir" },
+            { label: "CJC-1295 vs Sermorelin", slug: "learn/cjc-1295-vs-sermorelin" },
+            { label: "TB-500 vs BPC-157 (Recovery)", slug: "learn/tb-500-vs-bpc-157-recovery" },
+            { label: "Melanotan I vs Melanotan II", slug: "learn/melanotan-i-vs-melanotan-ii" },
+            { label: "Oxytocin vs Vasopressin", slug: "learn/oxytocin-vs-vasopressin" },
           ],
         },
         {

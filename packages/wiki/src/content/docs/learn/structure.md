@@ -9,7 +9,7 @@ Proteins have a hierarchical structure organized into four levels: primary, seco
 
 ## Primary Structure
 
-The **primary structure** is the linear sequence of amino acids in a polypeptide chain. It is determined by the genetic code and represents the most basic level of protein organization. The primary structure dictates the folding pathway, final three-dimensional structure, and biological function. A single amino acid change can cause disease (e.g., sickle cell anemia).
+The **primary structure** is the linear sequence of [amino acids](/learn/amino-acids/) in a polypeptide chain. It is determined by the genetic code and represents the most basic level of protein organization. The primary structure dictates the folding pathway, final three-dimensional structure, and biological function. A single amino acid change can cause disease (e.g., sickle cell anemia).
 
 **Stabilizing forces:** Peptide bonds (covalent) between amino acids, and disulfide bonds between cysteine residues.
 
@@ -51,3 +51,5 @@ Quaternary structures include dimers (2 subunits), trimers (3), tetramers (4), h
 ## Structure-Function Relationship
 
 Protein structure directly determines function. Enzyme active sites require specific 3D arrangements of catalytic residues. Binding sites provide complementary shape for ligand binding. Signaling proteins undergo conformational changes for signal transduction. Misfolding diseases (Alzheimer's, Parkinson's) result from loss of proper structure.
+
+> **See also:** [Pharmacology](/learn/pharmacology/) for how protein structure influences drug design and therapeutic peptides.

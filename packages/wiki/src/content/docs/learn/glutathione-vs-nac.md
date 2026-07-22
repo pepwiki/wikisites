@@ -145,3 +145,10 @@ NAC accelerates this cycle by providing cysteine, the rate-limiting substrate. G
 3. Millea PJ. "N-Acetylcysteine: multiple clinical applications." *Am Fam Physician* 2009;80:265-269.
 4. Trepanier CH, et al. "Glutathione in pulmonary medicine." *Can Respir J* 2005;12:213-216.
 5. Sinha R, et al. "Assessment of novel glutathione-enhancing formulas." *Clin Pharmacol Drug Dev* 2018;7:640-649.
+
+<script is:inline type="application/ld+json">
+{"@context":"https://schema.org","@type":"Drug","name":"Glutathione","drugClass":"Antioxidant","chemicalFormula":"C10H17N3O6S"}
+</script>
+<script is:inline type="application/ld+json">
+{"@context":"https://schema.org","@type":"Drug","name":"N-Acetylcysteine","drugClass":"Mucolytic","chemicalFormula":"C5H9NO3S"}
+</script>
