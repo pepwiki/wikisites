@@ -46,6 +46,7 @@ export default defineConfig({
           items: [
             { label: "Peptide Database", slug: "reference/peptides" },
             { label: "Glossary", slug: "reference/glossary" },
+            { label: "Comprehensive Glossary", slug: "reference/peptide-glossary-comprehensive" },
           ],
         },
         {
@@ -84,6 +85,12 @@ export default defineConfig({
             { label: "TB-500 vs BPC-157 (Recovery)", slug: "learn/tb-500-vs-bpc-157-recovery" },
             { label: "Melanotan I vs Melanotan II", slug: "learn/melanotan-i-vs-melanotan-ii" },
             { label: "Oxytocin vs Vasopressin", slug: "learn/oxytocin-vs-vasopressin" },
+            { label: "NADH vs NADPH", slug: "learn/nadh-vs-nadph" },
+            { label: "Heparin vs Enoxaparin", slug: "learn/heparin-vs-enoxaparin" },
+            { label: "Testosterone vs GHRP-6", slug: "learn/testosterone-vs-ghrp-6" },
+            { label: "BPC-157 Oral vs Injectable", slug: "learn/bpc-157-orally-vs-injectable" },
+            { label: "CJC-1295 DAC vs No-DAC", slug: "learn/cjc-1295-dac-vs-no-dac" },
+            { label: "Peptide Interactions", slug: "learn/peptide-interactions" },
           ],
         },
         {
