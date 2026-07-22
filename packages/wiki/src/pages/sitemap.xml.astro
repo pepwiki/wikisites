@@ -12,29 +12,61 @@ const staticPages = [
   { path: "/community", priority: "0.7", changefreq: "weekly" },
   { path: "/glossary", priority: "0.7", changefreq: "monthly" },
   { path: "/privacy", priority: "0.3", changefreq: "yearly" },
+  { path: "/daily", priority: "0.6", changefreq: "daily" },
+  { path: "/database/peptides", priority: "0.7", changefreq: "monthly" },
 ];
 
-const docPages = [
-  { path: "/learn/amino-acids", priority: "0.8", changefreq: "monthly" },
-  { path: "/learn/peptide-bonds", priority: "0.8", changefreq: "monthly" },
-  { path: "/learn/structure", priority: "0.8", changefreq: "monthly" },
-  { path: "/learn/signaling", priority: "0.8", changefreq: "monthly" },
-  { path: "/learn/receptors", priority: "0.8", changefreq: "monthly" },
-  { path: "/learn/pharmacology", priority: "0.8", changefreq: "monthly" },
-  { path: "/learn/spps", priority: "0.8", changefreq: "monthly" },
-  { path: "/learn/purification", priority: "0.8", changefreq: "monthly" },
-  { path: "/learn/computational", priority: "0.8", changefreq: "monthly" },
-  { path: "/learn/drug-delivery", priority: "0.8", changefreq: "monthly" },
-  { path: "/learn/clinical-trials", priority: "0.8", changefreq: "monthly" },
-  { path: "/learn/regulatory", priority: "0.8", changefreq: "monthly" },
-  { path: "/learn/reconstitution", priority: "0.8", changefreq: "monthly" },
-  { path: "/learn/peptide-storage", priority: "0.8", changefreq: "monthly" },
-  { path: "/learn/peptide-safety", priority: "0.8", changefreq: "monthly" },
-  { path: "/learn/peptide-calculations", priority: "0.8", changefreq: "monthly" },
-  { path: "/learn/peptide-impurities", priority: "0.8", changefreq: "monthly" },
-  { path: "/reference/glossary", priority: "0.7", changefreq: "monthly" },
-  { path: "/reference/peptides", priority: "0.7", changefreq: "monthly" },
+const toolPages = [
+  { path: "/tools/molecular-weight-calculator", priority: "0.7", changefreq: "monthly" },
+  { path: "/tools/reconstitution-calculator", priority: "0.7", changefreq: "monthly" },
+  { path: "/tools/peptide-property-calculator", priority: "0.7", changefreq: "monthly" },
+  { path: "/tools/stability-predictor", priority: "0.7", changefreq: "monthly" },
+  { path: "/tools/sequence-designer", priority: "0.7", changefreq: "monthly" },
+  { path: "/tools/interaction-checker", priority: "0.7", changefreq: "monthly" },
+  { path: "/tools/sequence-analyzer", priority: "0.7", changefreq: "monthly" },
 ];
+
+const authorPages = [
+  { path: "/authors/wikipept-team", priority: "0.5", changefreq: "monthly" },
+];
+
+const topics = [
+  { slug: "peptide-synthesis", priority: "0.8", changefreq: "weekly" },
+  { slug: "amino-acids", priority: "0.8", changefreq: "weekly" },
+  { slug: "pharmacology", priority: "0.8", changefreq: "weekly" },
+  { slug: "drug-discovery", priority: "0.8", changefreq: "weekly" },
+  { slug: "receptors", priority: "0.8", changefreq: "weekly" },
+  { slug: "peptide-structure", priority: "0.8", changefreq: "weekly" },
+];
+
+const topicPages = topics.map((topic) => ({
+  path: `/topics/${topic.slug}`,
+  priority: topic.priority,
+  changefreq: topic.changefreq,
+}));
+
+const docs = await getCollection("docs");
+const learnPages = docs
+  .filter((doc) => doc.id.startsWith("learn/"))
+  .map((doc) => ({
+    path: `/learn/${doc.id.replace("learn/", "")}`,
+    priority: "0.8",
+    changefreq: "monthly",
+    lastmod: doc.data.lastUpdated
+      ? new Date(doc.data.lastUpdated).toISOString().split("T")[0]
+      : undefined,
+  }));
+
+const referencePages = docs
+  .filter((doc) => doc.id.startsWith("reference/"))
+  .map((doc) => ({
+    path: `/reference/${doc.id.replace("reference/", "")}`,
+    priority: "0.7",
+    changefreq: "monthly",
+    lastmod: doc.data.lastUpdated
+      ? new Date(doc.data.lastUpdated).toISOString().split("T")[0]
+      : undefined,
+  }));
 
 const articles = await getCollection("articles");
 const articlePages = articles.map((article) => ({
@@ -44,7 +76,33 @@ const articlePages = articles.map((article) => ({
   lastmod: article.data.pubDate.toISOString().split("T")[0],
 }));
 
-const allPages = [...staticPages, ...docPages, ...articlePages];
+const quizzes = await getCollection("quizzes");
+const quizTags = [...new Set(quizzes.flatMap((q) => q.data.tags ?? []))];
+const quizTagPages = quizTags.map((tag) => ({
+  path: `/quizzes/${tag}`,
+  priority: "0.6",
+  changefreq: "weekly",
+}));
+
+const flashcards = await getCollection("flashcards");
+const flashcardTags = [...new Set(flashcards.flatMap((f) => f.data.tags ?? []))];
+const flashcardTagPages = flashcardTags.map((tag) => ({
+  path: `/flashcards/${tag}`,
+  priority: "0.6",
+  changefreq: "weekly",
+}));
+
+const allPages = [
+  ...staticPages,
+  ...toolPages,
+  ...authorPages,
+  ...topicPages,
+  ...learnPages,
+  ...referencePages,
+  ...articlePages,
+  ...quizTagPages,
+  ...flashcardTagPages,
+];
 
 return new Response(
   `<?xml version="1.0" encoding="UTF-8"?>

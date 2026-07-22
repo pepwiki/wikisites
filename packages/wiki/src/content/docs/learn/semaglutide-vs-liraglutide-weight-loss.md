@@ -1,6 +1,6 @@
 ---
 title: Semaglutide vs Liraglutide for Weight Loss
-description: Weight loss-specific comparison of semaglutide and liraglutide — dosing, efficacy in obesity trials, mechanisms of appetite suppression, and patient selection criteria.
+description: Weight loss-specific comparison of semaglutide and liraglutide — dosing, efficacy in obesity trials, mechanisms of appetite suppression, and patient s.
 ---
 
 While both semaglutide and liraglutide are GLP-1 receptor agonists approved for chronic weight management, their pharmacokinetic differences produce substantially divergent weight loss outcomes. Semaglutide 2.4 mg weekly achieves approximately 15% body weight reduction — nearly double the 8% achieved by liraglutide 3.0 mg daily — driven by higher sustained receptor occupancy, more potent central appetite suppression, and superior patient adherence to once-weekly dosing.

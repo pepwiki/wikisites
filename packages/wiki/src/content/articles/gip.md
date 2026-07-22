@@ -96,3 +96,5 @@ Remember GIP functions with **GIP GLUCOSE**:
 ## Future Directions
 
 Understanding GIP physiology continues to reveal therapeutic opportunities. Next-generation dual and triple agonists combining GIP with GLP-1 and glucagon receptor activities represent the frontier of metabolic disease treatment.
+
+> **See also:** [Therapeutic Peptides](/learn/pharmacology/) for an overview of FDA-approved peptide drugs and their mechanisms.

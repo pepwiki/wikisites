@@ -1,6 +1,6 @@
 ---
 title: Semaglutide Oral vs Injectable
-description: Head-to-head comparison of oral semaglutide (Rybelsus) and injectable semaglutide (Ozempic/Wegovy) — bioavailability, pharmacokinetics, efficacy, dosing, and clinical positioning.
+description: Comparison of oral semaglutide (Rybelsus) and injectable semaglutide (Ozempic/Wegovy) — bioavailability, efficacy, and dosing.
 ---
 
 Oral semaglutide (Rybelsus) and injectable semaglutide (Ozempic for diabetes, Wegovy for obesity) contain the identical active molecule — semaglutide — but differ fundamentally in delivery route, bioavailability, and achievable plasma concentrations. The oral formulation uses the absorption enhancer SNAC (sodium N-[8-(2-hydroxybenzoyl) amino] caprylate) to enable gastric absorption, but achieves only ~1% oral bioavailability compared to ~89% subcutaneous bioavailability.

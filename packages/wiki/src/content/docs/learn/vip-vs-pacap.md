@@ -1,6 +1,6 @@
 ---
 title: VIP vs PACAP
-description: Comparison of vasoactive intestinal peptide (VIP) and pituitary adenylate cyclase-activating polypeptide (PACAP) — shared receptors, distinct pharmacology, and therapeutic applications.
+description: Comparison of vasoactive intestinal peptide (VIP) and pituitary adenylate cyclase-activating polypeptide (PACAP) — shared receptors, distinct pharmacology, a.
 ---
 
 Vasoactive intestinal peptide (VIP) and pituitary adenylate cyclase-activating polypeptide (PACAP) are structurally related neuropeptides belonging to the secretin/glucagon superfamily. Both activate VPAC receptors with similar affinity but diverge at the PAC1 receptor, where PACAP acts selectively. This receptor selectivity creates distinct physiological profiles despite 68% sequence homology.

@@ -1,6 +1,6 @@
 ---
 title: Thymosin Beta-4 vs XTRA
-description: Clarification of TB-4 nomenclature — thymosin beta-4, TB-500, and XTRA as the same or different products, with evidence-based comparison of claims and clinical data.
+description: Clarification of TB-4 nomenclature — thymosin beta-4, TB-500, and XTRA as the same or different products, with evidence-based comparison of claims and c.
 ---
 
 The nomenclature surrounding thymosin beta-4 (TB-4) is among the most confusing in peptide research. "TB-500" is a veterinary supplement brand name for a thymosin beta-4 fragment, while "XTRA" is another supplement brand marketing a thymosin beta-4 fragment. All three terms — TB-4, TB-500, and XTRA — ultimately refer to the same or overlapping peptides derived from the 43-amino acid thymosin beta-4 protein. The differences lie in fragment length, manufacturing quality, and regulatory status rather than fundamental molecular identity.

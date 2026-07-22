@@ -163,3 +163,5 @@ For long-term studies (>6 months), perform periodic HPLC analysis of stored aliq
 > **See also:** [HPLC Purification](/learn/hplc-purification/) for purification strategies and [Mass Spectrometry](/learn/mass-spectrometry-peptides/) for identity confirmation.
 
 *For research use only. Verify peptide purity and identity before critical experiments.*
+
+> **See also:** [AMP Resistance](/articles/amp-resistance) for antimicrobial peptide resistance mechanisms.

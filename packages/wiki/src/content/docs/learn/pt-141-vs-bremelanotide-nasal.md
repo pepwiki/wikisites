@@ -1,6 +1,6 @@
 ---
 title: PT-141 vs Bremelanotide Nasal
-description: Head-to-head comparison of PT-141 (bremelanotide) and intranasal bremelanotide (Vyleesi) — subcutaneous vs intranasal delivery, pharmacokinetics, efficacy, and tolerability for hypoactive sexual desire disorder.
+description: Comparison of PT-141 (bremelanotide) and intranasal bremelanotide (Vyleesi) — subcutaneous vs intranasal delivery, pharmacokinetics, efficacy, and t.
 ---
 
 PT-141 and bremelanotide are the same molecule — both refer to the synthetic melanocortin analog [Nle4,D-Phe7]-α-MSH. The nomenclature confusion arises because PT-141 was the original research designation, while bremelanotide is the International Nonproprietary Name (INN). The critical comparison is not between two different peptides but between two different formulations: subcutaneous PT-141 (research/investigational) and intranasal bremelanotide (Vyleesi, FDA-approved for HSDD).

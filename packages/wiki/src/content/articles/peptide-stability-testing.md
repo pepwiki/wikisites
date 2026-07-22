@@ -53,3 +53,5 @@ A stability-indicating assay is a validated analytical method that quantifies th
 Real-time stability studies at intended storage conditions (typically 2-8 degrees Celsius for peptides) generate the data for shelf-life assignment. ICH guidelines Q1A and Q1E provide the framework for study design and statistical analysis of degradation trends.
 
 Accelerated stability studies at elevated temperatures help predict long-term behavior, but real-time data remains the gold standard for expiration dating. Arrhenius modeling can extrapolate degradation rates across temperatures, though this assumes a constant degradation mechanism.
+
+> **See also:** [Peptide Storage and Handling](/learn/peptide-storage/) for practical guidance on storing peptides based on stability data.

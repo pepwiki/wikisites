@@ -1,6 +1,6 @@
 ---
 title: Orforglipron vs Danuglipron
-description: Comparison of oral non-peptide GLP-1 receptor agonists — orforglipron and danuglipron — pharmacology, pharmacokinetics, efficacy, and tolerability in the emerging oral incretin landscape.
+description: Comparison of oral non-peptide GLP-1 receptor agonists — orforglipron and danuglipron — pharmacology, pharmacokinetics, efficacy, and tolerability in the eme.
 ---
 
 Orforglipron and danuglipron are first-in-class oral non-peptide GLP-1 receptor agonists that bypass the peptide degradation barriers of oral delivery. Both are small molecules that activate GLP-1R with nanomolar potency, but differ in pharmacokinetic profiles, dosing requirements, and clinical development status. Their development represents a paradigm shift from injectable peptide incretins to orally bioavailable small molecules.

@@ -1,6 +1,6 @@
 ---
 title: Amino Acid Properties Reference
-description: Comprehensive reference table of all 20 standard amino acids with molecular weights, pKa values, isoelectric points, hydrophobicity, side chain classification, codons, and common modifications.
+description: Reference table of all 20 standard amino acids with molecular weights, pKa values, isoelectric points, hydrophobicity, side chain classification, codons,.
 ---
 
 This reference provides systematic data for all 20 standard amino acids and non-standard amino acids commonly used in peptide synthesis. All values are for L-configurational amino acids at 25°C unless otherwise noted.

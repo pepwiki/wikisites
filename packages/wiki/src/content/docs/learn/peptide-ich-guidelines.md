@@ -1,6 +1,6 @@
 ---
 title: Peptide ICH Guidelines
-description: International Council for Harmonisation guidelines relevant to peptide drug development — Q-series, stability testing, impurity control, and quality requirements.
+description: International Council for Harmonisation guidelines relevant to peptide drug development — Q-series, stability testing, impurity control, and quality r.
 ---
 
 The International Council for Harmonisation (ICH) provides harmonized guidelines that govern the quality, safety, and efficacy requirements for pharmaceutical products, including peptides. This guide covers the ICH guidelines most relevant to peptide drug development.

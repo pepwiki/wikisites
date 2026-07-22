@@ -1,6 +1,6 @@
 ---
 title: PT-141 vs Melanotan II
-description: Comparison of PT-141 (bremelanotide) and Melanotan II — melanocortin receptor selectivity, tanning vs sexual function, half-life, side effects, and administration routes.
+description: Comparison of PT-141 (bremelanotide) and Melanotan II — melanocortin receptor selectivity, tanning vs sexual function, half-life, side effects, and a.
 ---
 
 PT-141 (bremelanotide) and Melanotan II (MT-II) are synthetic melanocortin analogs derived from the same parent peptide, α-MSH. Their structural modifications create distinct receptor selectivity profiles: PT-141 favors sexual function through MC4R agonism, while MT-II produces tanning through MC1R activation.

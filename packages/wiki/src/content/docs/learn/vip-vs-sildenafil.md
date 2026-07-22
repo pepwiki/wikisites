@@ -1,6 +1,6 @@
 ---
 title: VIP vs Sildenafil
-description: Comparison of vasoactive intestinal peptide (VIP) and sildenafil — vasoactive peptide signaling vs PDE5 inhibition, pulmonary vasodilation, and erectile dysfunction therapy.
+description: Comparison of vasoactive intestinal peptide (VIP) and sildenafil — vasoactive peptide signaling vs PDE5 inhibition, pulmonary vasodilation, and erectile d.
 ---
 
 VIP (vasoactive intestinal peptide) and sildenafil represent fundamentally different approaches to promoting vasodilation. VIP is a 28-amino acid neuropeptide that activates VPAC receptors to produce NO-dependent vasodilation, while sildenafil is a small molecule PDE5 inhibitor that potentiates endogenous NO/cGMP signaling. Both promote vasodilation through the NO pathway but at different mechanistic levels — VIP as a receptor agonist and sildenafil as an enzyme inhibitor.

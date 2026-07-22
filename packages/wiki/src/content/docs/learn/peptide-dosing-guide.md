@@ -1,6 +1,6 @@
 ---
 title: Peptide Dosing Guide
-description: Comprehensive guide to peptide dosing — dose calculation principles, body weight-based dosing, fixed dosing protocols, dose escalation strategies, and therapeutic window concepts.
+description: Guide to peptide dosing — dose calculation principles, body weight-based dosing, fixed dosing protocols, dose escalation strategies, and therapeutic window c.
 ---
 
 This guide provides graduate-level coverage of peptide dosing principles, from fundamental pharmacokinetic concepts to practical clinical dosing tables for 20+ peptides.

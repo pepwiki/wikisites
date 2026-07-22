@@ -1,6 +1,6 @@
 ---
 title: Circular Dichroism for Peptide Structure
-description: Guide to circular dichroism (CD) spectroscopy for peptide secondary structure determination — alpha-helix vs beta-sheet signatures, sample preparation, and data analysis.
+description: Guide to circular dichroism (CD) spectroscopy for peptide secondary structure determination — alpha-helix vs beta-sheet signatures, sample preparation, and d.
 ---
 
 Circular dichroism (CD) spectroscopy measures the differential absorption of left and right circularly polarized light by chiral molecules. For peptides and proteins, CD provides rapid, quantitative assessment of secondary structure content in solution, making it an essential tool for structural characterization.

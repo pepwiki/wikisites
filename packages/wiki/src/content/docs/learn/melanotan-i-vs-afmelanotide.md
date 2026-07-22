@@ -1,6 +1,6 @@
 ---
 title: Melanotan I vs Afamelanotide
-description: Head-to-head comparison of MC1R-selective peptides — melanotan I (afamelanotide precursor) and afamelanotide (Scenesse) for photoprotection, pigmentation, and erythropoietic protoporphyria.
+description: Comparison of MC1R-selective peptides — melanotan I (afamelanotide precursor) and afamelanotide (Scenesse) for photoprotection, pigmentation, and e.
 ---
 
 Melanotan I and afamelanotide are structurally identical peptides — both are synthetic analogs of α-melanocyte stimulating hormone (α-MSH) with selectivity for the melanocortin-1 receptor (MC1R). The critical difference lies in their regulatory status: afamelanotide is the Good Manufacturing Practice (GMP)-produced pharmaceutical grade peptide approved as Scenesse® for erythropoietic protoporphyria (EPP), while melanotan I refers to the research-grade peptide sold through online vendors with variable purity and no regulatory oversight.

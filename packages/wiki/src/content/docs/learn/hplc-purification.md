@@ -1,6 +1,6 @@
 ---
 title: HPLC Purification of Synthetic Peptides
-description: Comprehensive guide to reverse-phase HPLC purification of synthetic peptides — gradient optimization, fraction collection, analytical vs preparative methods, and troubleshooting.
+description: Guide to reverse-phase HPLC purification of synthetic peptides — gradient optimization, fraction collection, analytical vs preparative methods, and t.
 ---
 
 High-performance liquid chromatography (HPLC) is the gold standard for purifying synthetic peptides. Reverse-phase HPLC (RP-HPLC) separates peptides based on hydrophobicity, enabling isolation of the target peptide from deletion sequences, truncated products, and other impurities.

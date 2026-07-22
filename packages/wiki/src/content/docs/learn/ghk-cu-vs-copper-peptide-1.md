@@ -1,6 +1,6 @@
 ---
 title: GHK-Cu vs Copper Peptide-1
-description: Nomenclature comparison of GHK-Cu (glycyl-L-histidyl-L-lysine copper complex) and Copper Peptide-1 — naming conventions, chemical identity, and formulation differences.
+description: Nomenclature comparison of GHK-Cu (glycyl-L-histidyl-L-lysine copper complex) and Copper Peptide-1 — naming conventions, chemical identity, and formulation d.
 ---
 
 GHK-Cu and Copper Peptide-1 refer to the same molecular entity but represent different nomenclature systems. GHK-Cu is the biochemical designation, while Copper Peptide-1 is a cosmetic industry term. Understanding the naming conventions prevents confusion when evaluating products, ingredients, and research literature.

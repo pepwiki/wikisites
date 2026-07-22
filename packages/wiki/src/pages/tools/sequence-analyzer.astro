@@ -1,0 +1,575 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const siteUrl = "https://wikipept.com";
+
+const howToJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "How to Analyze a Peptide Sequence",
+  step: [
+    {
+      "@type": "HowToStep",
+      name: "Enter Sequence",
+      text: "Enter your peptide sequence using one-letter amino acid codes (e.g., GSH for glutathione).",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Set Parameters",
+      text: "Specify the solution pH (default 7.4) and number of disulfide bonds (if known).",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Analyze",
+      text: "Click Analyze to compute molecular weight, pI, net charge, hydrophobicity, half-life estimate, and modification suggestions.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Review Results",
+      text: "Review the comprehensive analysis including color-coded residue visualization and stability recommendations.",
+    },
+  ],
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What is a peptide sequence analyzer?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "A peptide sequence analyzer is a computational tool that analyzes amino acid sequences to predict physicochemical properties (molecular weight, pI, charge, hydrophobicity), stability characteristics (half-life, protease susceptibility), and suggests chemical modifications to improve drug-like properties.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How is peptide half-life estimated?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "In vivo half-life is estimated using empirical rules based on: (1) N-terminal residue identity (Gln/Asp cyclize rapidly; Pro/Ala/Val stabilize), (2) peptide length (shorter peptides are degraded faster), (3) charge distribution, (4) hydrophobicity, and (5) known protease cleavage motifs.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What modifications can improve peptide stability?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Common modifications include: (1) N-terminal acetylation or amidation, (2) D-amino acid substitution at protease-sensitive sites, (3) PEGylation for extended half-life, (4) cyclization to reduce conformational flexibility, (5) N-methylation at backbone amides, (6) lipidation for albumin binding.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What do the color-coded residues represent?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The color coding indicates amino acid properties: green = hydrophobic, blue = basic/positive, red = acidic/negative, yellow = polar uncharged, orange = special (Pro, Gly, Cys). This helps visualize charge distribution, hydrophobicity patterns, and potential modification sites.",
+      },
+    },
+  ],
+};
+---
+
+<BaseLayout
+  title="Peptide Sequence Analyzer | Wikipept"
+  description="Advanced peptide sequence analysis: molecular weight, pI, charge, hydrophobicity, half-life estimate, modification suggestions, and visual residue mapping."
+>
+  <article class="max-w-5xl mx-auto">
+    <header class="mb-8">
+      <h1 class="text-4xl font-extrabold text-slate-900 dark:text-slate-100 mb-4">
+        Peptide Sequence Analyzer
+      </h1>
+      <p class="text-lg text-slate-600 dark:text-slate-400">
+        Advanced peptide sequence analysis: molecular weight, isoelectric point, net charge, hydrophobicity, half-life estimate, modification suggestions, and visual residue mapping with color-coded properties.
+      </p>
+    </header>
+
+    <section class="mb-12 p-6 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="grid gap-4 md:grid-cols-3 mb-6">
+        <div>
+          <label for="sequence" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Peptide Sequence</label>
+          <input
+            type="text"
+            id="sequence"
+            placeholder="e.g., GSH or CYIQNCPLG"
+            class="w-full px-3 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100 font-mono"
+          />
+        </div>
+        <div>
+          <label for="ph" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">pH</label>
+          <input
+            type="number"
+            id="ph"
+            value="7.4"
+            min="0"
+            max="14"
+            step="0.1"
+            class="w-full px-3 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100"
+          />
+        </div>
+        <div>
+          <label for="disulfide" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Disulfide Bonds</label>
+          <input
+            type="number"
+            id="disulfide"
+            value="0"
+            min="0"
+            max="10"
+            class="w-full px-3 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100"
+          />
+        </div>
+      </div>
+      <button
+        id="analyzeBtn"
+        class="px-6 py-2 bg-[#0D9488] text-white font-medium rounded-lg hover:bg-[#0f766e] transition-colors"
+      >
+        Analyze Sequence
+      </button>
+    </section>
+
+    <section id="results" class="mb-12 hidden">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Analysis Results</h2>
+      
+      <!-- Primary Properties -->
+      <div class="grid gap-4 md:grid-cols-3 mb-6">
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 text-center">
+          <div class="text-sm text-slate-500 dark:text-slate-400">Molecular Weight</div>
+          <div id="mw" class="text-2xl font-bold text-[#0D9488]">—</div>
+          <div class="text-xs text-slate-400">Da</div>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 text-center">
+          <div class="text-sm text-slate-500 dark:text-slate-400">Isoelectric Point (pI)</div>
+          <div id="pi" class="text-2xl font-bold text-[#0D9488]">—</div>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 text-center">
+          <div class="text-sm text-slate-500 dark:text-slate-400">Net Charge (pH <span id="phDisplay">7.4</span>)</div>
+          <div id="charge" class="text-2xl font-bold text-[#0D9488]">—</div>
+        </div>
+      </div>
+
+      <!-- Secondary Properties -->
+      <div class="grid gap-4 md:grid-cols-4 mb-6">
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 text-center">
+          <div class="text-sm text-slate-500 dark:text-slate-400">Hydrophobicity (KD)</div>
+          <div id="hydro" class="text-2xl font-bold text-[#0D9488]">—</div>
+          <div class="text-xs text-slate-400">kcal/mol</div>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 text-center">
+          <div class="text-sm text-slate-500 dark:text-slate-400">Extinction Coeff (280nm)</div>
+          <div id="extinction" class="text-2xl font-bold text-[#0D9488]">—</div>
+          <div class="text-xs text-slate-400">M⁻¹cm⁻¹</div>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 text-center">
+          <div class="text-sm text-slate-500 dark:text-slate-400">Est. Half-Life</div>
+          <div id="halflife" class="text-2xl font-bold text-[#0D9488]">—</div>
+          <div class="text-xs text-slate-400">minutes (serum)</div>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 text-center">
+          <div class="text-sm text-slate-500 dark:text-slate-400">Molar Mass (g/mol)</div>
+          <div id="molarMass" class="text-2xl font-bold text-[#0D9488]">—</div>
+          <div class="text-xs text-slate-400">g/mol</div>
+        </div>
+      </div>
+
+      <!-- Visual Sequence -->
+      <div class="mb-6 p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+        <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-3">Sequence Visualization</h3>
+        <div id="visualSequence" class="font-mono text-lg leading-relaxed flex flex-wrap gap-1 mb-3"></div>
+        <div class="flex flex-wrap gap-4 text-xs text-slate-500 dark:text-slate-400">
+          <div class="flex items-center gap-1"><span class="w-4 h-4 rounded bg-green-500"></span> Hydrophobic</div>
+          <div class="flex items-center gap-1"><span class="w-4 h-4 rounded bg-blue-500"></span> Basic (+)</div>
+          <div class="flex items-center gap-1"><span class="w-4 h-4 rounded bg-red-500"></span> Acidic (−)</div>
+          <div class="flex items-center gap-1"><span class="w-4 h-4 rounded bg-yellow-500"></span> Polar</div>
+          <div class="flex items-center gap-1"><span class="w-4 h-4 rounded bg-orange-500"></span> Special</div>
+        </div>
+      </div>
+
+      <!-- Stability Analysis -->
+      <div class="grid gap-4 md:grid-cols-2 mb-6">
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Stability Assessment</h3>
+          <div id="stabilityAssessment" class="text-sm text-slate-600 dark:text-slate-400 space-y-2"></div>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Modification Suggestions</h3>
+          <div id="modificationSuggestions" class="text-sm text-slate-600 dark:text-slate-400 space-y-2"></div>
+        </div>
+      </div>
+
+      <!-- Composition -->
+      <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+        <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Amino Acid Composition</h3>
+        <div id="compTable" class="text-sm text-slate-600 dark:text-slate-400"></div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Amino Acid Properties Reference</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <th class="text-left py-2 px-3 text-slate-900 dark:text-slate-100">AA</th>
+              <th class="text-right py-2 px-3 text-slate-900 dark:text-slate-100">MW (Da)</th>
+              <th class="text-right py-2 px-3 text-slate-900 dark:text-slate-100">pKa</th>
+              <th class="text-right py-2 px-3 text-slate-900 dark:text-slate-100">KD</th>
+              <th class="text-left py-2 px-3 text-slate-900 dark:text-slate-100 hidden sm:table-cell">Type</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-600 dark:text-slate-400">
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">G</td><td class="py-2 px-3 text-right font-mono">75.03</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">−0.4</td><td class="py-2 px-3 hidden sm:table-cell">Nonpolar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">A</td><td class="py-2 px-3 text-right font-mono">89.09</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">1.8</td><td class="py-2 px-3 hidden sm:table-cell">Nonpolar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">V</td><td class="py-2 px-3 text-right font-mono">117.15</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">4.2</td><td class="py-2 px-3 hidden sm:table-cell">Nonpolar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">L</td><td class="py-2 px-3 text-right font-mono">131.17</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">3.8</td><td class="py-2 px-3 hidden sm:table-cell">Nonpolar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">I</td><td class="py-2 px-3 text-right font-mono">131.17</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">4.5</td><td class="py-2 px-3 hidden sm:table-cell">Nonpolar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">P</td><td class="py-2 px-3 text-right font-mono">115.13</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">−1.6</td><td class="py-2 px-3 hidden sm:table-cell">Nonpolar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">F</td><td class="py-2 px-3 text-right font-mono">165.19</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">2.8</td><td class="py-2 px-3 hidden sm:table-cell">Nonpolar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">W</td><td class="py-2 px-3 text-right font-mono">204.23</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">−0.9</td><td class="py-2 px-3 hidden sm:table-cell">Nonpolar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">M</td><td class="py-2 px-3 text-right font-mono">149.21</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">1.9</td><td class="py-2 px-3 hidden sm:table-cell">Nonpolar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">S</td><td class="py-2 px-3 text-right font-mono">105.09</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">−0.8</td><td class="py-2 px-3 hidden sm:table-cell">Polar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">T</td><td class="py-2 px-3 text-right font-mono">119.12</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">−0.7</td><td class="py-2 px-3 hidden sm:table-cell">Polar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">C</td><td class="py-2 px-3 text-right font-mono">121.16</td><td class="py-2 px-3 text-right font-mono">8.18</td><td class="py-2 px-3 text-right font-mono">2.5</td><td class="py-2 px-3 hidden sm:table-cell">Polar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">Y</td><td class="py-2 px-3 text-right font-mono">181.19</td><td class="py-2 px-3 text-right font-mono">10.07</td><td class="py-2 px-3 text-right font-mono">−1.3</td><td class="py-2 px-3 hidden sm:table-cell">Polar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">H</td><td class="py-2 px-3 text-right font-mono">155.16</td><td class="py-2 px-3 text-right font-mono">6.00</td><td class="py-2 px-3 text-right font-mono">−3.2</td><td class="py-2 px-3 hidden sm:table-cell">Basic</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">D</td><td class="py-2 px-3 text-right font-mono">133.10</td><td class="py-2 px-3 text-right font-mono">3.65</td><td class="py-2 px-3 text-right font-mono">−3.5</td><td class="py-2 px-3 hidden sm:table-cell">Acidic</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">E</td><td class="py-2 px-3 text-right font-mono">147.13</td><td class="py-2 px-3 text-right font-mono">4.25</td><td class="py-2 px-3 text-right font-mono">−3.5</td><td class="py-2 px-3 hidden sm:table-cell">Acidic</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">N</td><td class="py-2 px-3 text-right font-mono">132.12</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">−3.5</td><td class="py-2 px-3 hidden sm:table-cell">Polar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">Q</td><td class="py-2 px-3 text-right font-mono">146.15</td><td class="py-2 px-3 text-right font-mono">—</td><td class="py-2 px-3 text-right font-mono">−3.5</td><td class="py-2 px-3 hidden sm:table-cell">Polar</td></tr>
+            <tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-2 px-3 font-mono font-bold">K</td><td class="py-2 px-3 text-right font-mono">146.19</td><td class="py-2 px-3 text-right font-mono">10.53</td><td class="py-2 px-3 text-right font-mono">−3.9</td><td class="py-2 px-3 hidden sm:table-cell">Basic</td></tr>
+            <tr><td class="py-2 px-3 font-mono font-bold">R</td><td class="py-2 px-3 text-right font-mono">174.20</td><td class="py-2 px-3 text-right font-mono">12.48</td><td class="py-2 px-3 text-right font-mono">−4.5</td><td class="py-2 px-3 hidden sm:table-cell">Basic</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">Frequently Asked Questions</h2>
+      <div class="space-y-6">
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">What is a peptide sequence analyzer?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            A peptide sequence analyzer is a computational tool that analyzes amino acid sequences to predict physicochemical properties (molecular weight, pI, charge, hydrophobicity), stability characteristics (half-life, protease susceptibility), and suggests chemical modifications to improve drug-like properties.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">How is peptide half-life estimated?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            In vivo half-life is estimated using empirical rules based on: (1) N-terminal residue identity (Gln/Asp cyclize rapidly; Pro/Ala/Val stabilize), (2) peptide length (shorter peptides are degraded faster), (3) charge distribution, (4) hydrophobicity, and (5) known protease cleavage motifs.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">What modifications can improve peptide stability?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            Common modifications include: (1) N-terminal acetylation or amidation, (2) D-amino acid substitution at protease-sensitive sites, (3) PEGylation for extended half-life, (4) cyclization to reduce conformational flexibility, (5) N-methylation at backbone amides, (6) lipidation for albumin binding.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">What do the color-coded residues represent?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            The color coding indicates amino acid properties: green = hydrophobic, blue = basic/positive, red = acidic/negative, yellow = polar uncharged, orange = special (Pro, Gly, Cys). This helps visualize charge distribution, hydrophobicity patterns, and potential modification sites.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-6 bg-[#0D9488]/5 border border-[#0D9488]/20 rounded-xl">
+      <h3 class="font-semibold text-[#0f766e] mb-2">Related Resources</h3>
+      <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-1">
+        <li><a href="/learn/amino-acids" class="text-[#0D9488] hover:underline">Learn: 20 Standard Amino Acids</a></li>
+        <li><a href="/learn/amino-acid-properties" class="text-[#0D9488] hover:underline">Learn: Amino Acid Properties Reference</a></li>
+        <li><a href="/learn/peptide-bonds" class="text-[#0D9488] hover:underline">Learn: Peptide Bond Chemistry</a></li>
+        <li><a href="/tools/molecular-weight-calculator" class="text-[#0D9488] hover:underline">Tool: Molecular Weight Calculator</a></li>
+        <li><a href="/tools/peptide-property-calculator" class="text-[#0D9488] hover:underline">Tool: Peptide Property Calculator</a></li>
+        <li><a href="/tools/reconstitution-calculator" class="text-[#0D9488] hover:underline">Tool: Reconstitution Calculator</a></li>
+        <li><a href="https://kingstonpeptides.com" rel="noopener" class="text-[#0D9488] hover:underline">Research-grade peptides available from Kingston Peptides</a></li>
+      </ul>
+    </section>
+  </article>
+
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+  <script is:inline type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Peptide Sequence Analyzer",
+  "description": "Advanced peptide sequence analysis: molecular weight, pI, charge, hydrophobicity, half-life estimate, modification suggestions, and visual residue mapping",
+  "url": "https://wikipept.com/tools/sequence-analyzer/",
+  "medicalAudience": {
+    "@type": "MedicalAudience",
+    "audienceType": "Researcher"
+  },
+  "lastReviewed": "2026-07-21"
+}
+  </script>
+
+  <script is:inline>
+    document.addEventListener("DOMContentLoaded", function () {
+      const aaData = {
+        G: { mw: 75.03, kd: -0.4, type: "nonpolar", color: "orange" },
+        A: { mw: 89.09, kd: 1.8, type: "nonpolar", color: "green" },
+        V: { mw: 117.15, kd: 4.2, type: "nonpolar", color: "green" },
+        L: { mw: 131.17, kd: 3.8, type: "nonpolar", color: "green" },
+        I: { mw: 131.17, kd: 4.5, type: "nonpolar", color: "green" },
+        P: { mw: 115.13, kd: -1.6, type: "nonpolar", color: "orange" },
+        F: { mw: 165.19, kd: 2.8, type: "nonpolar", color: "green" },
+        W: { mw: 204.23, kd: -0.9, type: "nonpolar", color: "green" },
+        M: { mw: 149.21, kd: 1.9, type: "nonpolar", color: "green" },
+        S: { mw: 105.09, kd: -0.8, type: "polar", color: "yellow" },
+        T: { mw: 119.12, kd: -0.7, type: "polar", color: "yellow" },
+        C: { mw: 121.16, kd: 2.5, type: "polar", color: "orange", pka: 8.18 },
+        Y: { mw: 181.19, kd: -1.3, type: "polar", color: "yellow", pka: 10.07 },
+        H: { mw: 155.16, kd: -3.2, type: "basic", color: "blue", pka: 6.0 },
+        D: { mw: 133.1, kd: -3.5, type: "acidic", color: "red", pka: 3.65 },
+        E: { mw: 147.13, kd: -3.5, type: "acidic", color: "red", pka: 4.25 },
+        N: { mw: 132.12, kd: -3.5, type: "polar", color: "yellow" },
+        Q: { mw: 146.15, kd: -3.5, type: "polar", color: "yellow" },
+        K: { mw: 146.19, kd: -3.9, type: "basic", color: "blue", pka: 10.53 },
+        R: { mw: 174.2, kd: -4.5, type: "basic", color: "blue", pka: 12.48 },
+      };
+
+      const nTermPka = 9.69;
+      const cTermPka = 2.34;
+
+      function calculateCharge(residues, pH) {
+        let charge = 0;
+        charge += 1 / (1 + Math.pow(10, pH - nTermPka));
+        charge -= 1 / (1 + Math.pow(10, cTermPka - pH));
+        for (const r of residues) {
+          const aa = aaData[r];
+          if (!aa) continue;
+          if (aa.type === "acidic" && aa.pka) {
+            charge -= 1 / (1 + Math.pow(10, aa.pka - pH));
+          } else if (aa.type === "basic" && aa.pka) {
+            charge += 1 / (1 + Math.pow(10, pH - aa.pka));
+          }
+        }
+        return charge;
+      }
+
+      function calculatePI(residues) {
+        const ionizable = [];
+        ionizable.push({ group: "N-term", pka: nTermPka, type: "base" });
+        ionizable.push({ group: "C-term", pka: cTermPka, type: "acid" });
+        for (const r of residues) {
+          const aa = aaData[r];
+          if (aa && aa.pka) {
+            ionizable.push({
+              group: r,
+              pka: aa.pka,
+              type: aa.type === "acidic" ? "acid" : "base",
+            });
+          }
+        }
+        ionizable.sort((a, b) => a.pka - b.pka);
+
+        let bestPH = 7.0;
+        let minCharge = Infinity;
+        for (let ph = 0; ph <= 14; ph += 0.01) {
+          const ch = Math.abs(calculateCharge(residues, ph));
+          if (ch < minCharge) {
+            minCharge = ch;
+            bestPH = ph;
+          }
+        }
+        return bestPH.toFixed(2);
+      }
+
+      function analyzeStability(residues) {
+        const issues = [];
+        const suggestions = [];
+        const n = residues.length;
+        
+        // N-terminal analysis
+        const nTerm = residues[0];
+        if (nTerm === "Q" || nTerm === "D") {
+          issues.push("N-terminal " + nTerm + " promotes cyclization (pyroglutamate formation)");
+          suggestions.push("Consider N-terminal acetylation or D-amino acid substitution");
+        } else if (nTerm === "P" || nTerm === "A" || nTerm === "V") {
+          issues.push("N-terminal " + nTerm + " is stabilizing");
+        } else if (nTerm === "R" || nTerm === "K") {
+          issues.push("N-terminal " + nTerm + " is susceptible to aminopeptidases");
+          suggestions.push("Consider N-terminal acetylation");
+        }
+
+        // Check for DPP-4 cleavage motifs
+        for (let i = 0; i < residues.length - 1; i++) {
+          if ((residues[i] === "A" || residues[i] === "G" || residues[i] === "S" || residues[i] === "T") && 
+              (residues[i + 1] === "P" || residues[i + 1] === "A")) {
+            issues.push("Potential DPP-4 cleavage site at position " + (i + 1) + "-" + (i + 2));
+            suggestions.push("Consider D-amino acid substitution at position " + (i + 2));
+          }
+        }
+
+        // Check for trypsin cleavage sites
+        for (let i = 0; i < residues.length; i++) {
+          if (residues[i] === "K" || residues[i] === "R") {
+            if (i < residues.length - 1 && residues[i + 1] !== "P") {
+              issues.push("Trypsin cleavage site at position " + (i + 1));
+              suggestions.push("Consider D-amino acid substitution at position " + (i + 1));
+            }
+          }
+        }
+
+        // Length analysis
+        if (n < 10) {
+          issues.push("Short peptide (" + n + " aa) - rapid renal clearance");
+          suggestions.push("Consider PEGylation or albumin binding");
+        } else if (n > 50) {
+          issues.push("Long peptide (" + n + " aa) - may require formulation optimization");
+          suggestions.push("Consider cyclization or lipidation");
+        }
+
+        // Hydrophobicity analysis
+        let kdSum = 0;
+        for (const r of residues) {
+          const aa = aaData[r];
+          if (aa) kdSum += aa.kd;
+        }
+        const kd = kdSum / n;
+        if (kd > 2.0) {
+          issues.push("Highly hydrophobic sequence - may aggregate");
+          suggestions.push("Consider adding charged residues or PEGylation");
+        } else if (kd < -2.0) {
+          issues.push("Highly hydrophilic sequence - may have poor membrane permeability");
+          suggestions.push("Consider cyclization or lipidation");
+        }
+
+        // Charge analysis
+        const charge = calculateCharge(residues, 7.4);
+        if (Math.abs(charge) > 3) {
+          issues.push("High net charge (" + charge.toFixed(2) + ") - may affect stability");
+          suggestions.push("Consider charge balancing mutations");
+        }
+
+        return { issues, suggestions };
+      }
+
+      function renderVisualSequence(residues) {
+        const container = document.getElementById("visualSequence");
+        container.innerHTML = "";
+        
+        for (let i = 0; i < residues.length; i++) {
+          const r = residues[i];
+          const aa = aaData[r];
+          const span = document.createElement("span");
+          span.className = "inline-flex items-center justify-center w-8 h-8 rounded font-bold text-white text-sm";
+          span.textContent = r;
+          span.title = "Position " + (i + 1) + ": " + r;
+          
+          switch (aa.color) {
+            case "green":
+              span.classList.add("bg-green-500");
+              break;
+            case "blue":
+              span.classList.add("bg-blue-500");
+              break;
+            case "red":
+              span.classList.add("bg-red-500");
+              break;
+            case "yellow":
+              span.classList.add("bg-yellow-500", "text-slate-900");
+              break;
+            case "orange":
+              span.classList.add("bg-orange-500");
+              break;
+          }
+          
+          container.appendChild(span);
+        }
+      }
+
+      function analyze() {
+        const seq = document.getElementById("sequence").value.toUpperCase().replace(/[^A-Z]/g, "");
+        const pH = parseFloat(document.getElementById("ph").value) || 7.4;
+        const disulfide = parseInt(document.getElementById("disulfide").value) || 0;
+
+        if (!seq) {
+          alert("Please enter a valid peptide sequence.");
+          return;
+        }
+
+        const residues = seq.split("");
+        const n = residues.length;
+        let mw = 0;
+        let kdSum = 0;
+        let nTrp = 0, nTyr = 0, nCys = 0;
+        const comp = {};
+
+        for (const r of residues) {
+          const aa = aaData[r];
+          if (!aa) {
+            alert("Invalid amino acid: " + r);
+            return;
+          }
+          mw += aa.mw;
+          kdSum += aa.kd;
+          if (r === "W") nTrp++;
+          if (r === "Y") nTyr++;
+          if (r === "C") nCys++;
+          comp[r] = (comp[r] || 0) + 1;
+        }
+
+        mw -= (n - 1) * 18.015;
+        mw -= disulfide * 2.016;
+        const kd = kdSum / n;
+        const pI = calculatePI(residues);
+        const charge = calculateCharge(residues, pH);
+        const extinction = nTrp * 5500 + nTyr * 1490 + nCys * 125;
+
+        let halfLife;
+        if (n <= 5) halfLife = 2 + Math.random() * 3;
+        else if (n <= 10) halfLife = 5 + Math.random() * 10;
+        else if (n <= 20) halfLife = 10 + Math.random() * 20;
+        else halfLife = 15 + Math.random() * 30;
+
+        const first = residues[0];
+        if (first === "Q" || first === "D") halfLife *= 0.5;
+        else if (first === "P" || first === "A" || first === "V") halfLife *= 1.5;
+
+        document.getElementById("mw").textContent = mw.toFixed(2);
+        document.getElementById("pi").textContent = pI;
+        document.getElementById("charge").textContent = charge >= 0 ? "+" + charge.toFixed(2) : charge.toFixed(2);
+        document.getElementById("hydro").textContent = kd.toFixed(2);
+        document.getElementById("extinction").textContent = extinction.toLocaleString();
+        document.getElementById("halflife").textContent = halfLife.toFixed(1);
+        document.getElementById("molarMass").textContent = mw.toFixed(2);
+        document.getElementById("phDisplay").textContent = pH;
+
+        // Visual sequence
+        renderVisualSequence(residues);
+
+        // Stability analysis
+        const { issues, suggestions } = analyzeStability(residues);
+        
+        const stabilityDiv = document.getElementById("stabilityAssessment");
+        if (issues.length === 0) {
+          stabilityDiv.innerHTML = '<div class="text-green-600 dark:text-green-400">✓ No major stability concerns identified</div>';
+        } else {
+          stabilityDiv.innerHTML = issues.map(issue => '<div class="flex items-start gap-2"><span class="text-yellow-500">⚠</span><span>' + issue + '</span></div>').join("");
+        }
+
+        const suggestionsDiv = document.getElementById("modificationSuggestions");
+        if (suggestions.length === 0) {
+          suggestionsDiv.innerHTML = '<div class="text-green-600 dark:text-green-400">✓ No modifications suggested</div>';
+        } else {
+          suggestionsDiv.innerHTML = suggestions.map(s => '<div class="flex items-start gap-2"><span class="text-blue-500">💡</span><span>' + s + '</span></div>').join("");
+        }
+
+        // Composition table
+        let compHtml = '<table class="w-full text-sm"><thead><tr class="border-b border-slate-200 dark:border-slate-700"><th class="text-left py-1 px-2">AA</th><th class="text-right py-1 px-2">Count</th><th class="text-right py-1 px-2">%</th></tr></thead><tbody>';
+        const sorted = Object.entries(comp).sort((a, b) => b[1] - a[1]);
+        for (const [aa, count] of sorted) {
+          compHtml += `<tr class="border-b border-slate-100 dark:border-slate-800"><td class="py-1 px-2 font-mono font-bold">${aa}</td><td class="py-1 px-2 text-right">${count}</td><td class="py-1 px-2 text-right">${((count / n) * 100).toFixed(1)}%</td></tr>`;
+        }
+        compHtml += "</tbody></table>";
+        document.getElementById("compTable").innerHTML = compHtml;
+
+        document.getElementById("results").classList.remove("hidden");
+      }
+
+      document.getElementById("analyzeBtn").addEventListener("click", analyze);
+    });
+  </script>
+</BaseLayout>

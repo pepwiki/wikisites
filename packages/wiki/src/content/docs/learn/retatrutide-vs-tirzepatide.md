@@ -1,6 +1,6 @@
 ---
 title: Retatrutide vs Tirzepatide
-description: Comparison of retatrutide (triple agonist) and tirzepatide (dual agonist) — GLP-1/GIP/glucagon mechanisms, phase 2 data, weight loss efficacy, and development status.
+description: Comparison of retatrutide (triple agonist) and tirzepatide (dual agonist) — mechanisms, efficacy, and development status.
 ---
 
 Retatrutide and tirzepatide represent successive generations of incretin-based obesity therapeutics. Tirzepatide's dual GIP/GLP-1 agonism achieved ~20% weight loss, while retatrutide's triple agonism (GIP/GLP-1/glucagon) has demonstrated ~24% weight loss in phase 2 trials — approaching bariatric surgery efficacy.

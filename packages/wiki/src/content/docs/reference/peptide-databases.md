@@ -1,6 +1,6 @@
 ---
 title: "Peptide Databases"
-description: Overview of public peptide databases — UniProt, PDB, PeptideAtlas, Antimicrobial Peptide Database, and specialized resources for sequence, structure, and functional data.
+description: Overview of public peptide databases — UniProt, PDB, PeptideAtlas, Antimicrobial Peptide Database, and specialized resources for sequence, structure, and f.
 ---
 
 # Peptide Databases

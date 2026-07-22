@@ -1,6 +1,6 @@
 ---
 title: CJC-1295 vs Tesamorelin
-description: Head-to-head comparison of GHRH analogs — CJC-157 (modified GRF 1-29) and tesamorelin for growth hormone deficiency, pharmacokinetics, and clinical applications.
+description: Comparison of GHRH analogs — CJC-157 (modified GRF 1-29) and tesamorelin for growth hormone deficiency, pharmacokinetics, and clinical applications
 ---
 
 CJC-1295 (specifically the modified GRF 1-29, or Mod GRF 1-29) and tesamorelin are both growth hormone-releasing hormone (GHRH) analogs used to stimulate endogenous growth hormone (GH) secretion, but they differ in their molecular design, duration of action, and primary therapeutic indications. CJC-1295 is engineered for extended half-life through D-Ala substitution and Drug Affinity Complex (DAC) conjugation, while tesamorelin is a transglutaminase substrate designed specifically for HIV-associated lipodystrophy.

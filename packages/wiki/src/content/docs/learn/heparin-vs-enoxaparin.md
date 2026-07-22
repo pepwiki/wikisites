@@ -1,6 +1,6 @@
 ---
 title: Heparin vs Enoxaparin
-description: Comparison of unfractionated heparin and enoxaparin — molecular weight differences, anticoagulation mechanisms, monitoring requirements, onset profiles, reversal agents, and clinical positioning.
+description: Comparison of unfractionated heparin and enoxaparin — molecular weight differences, anticoagulation mechanisms, monitoring requirements, onset profiles, r.
 ---
 
 Heparin and enoxaparin are both anticoagulants that enhance antithrombin III (ATIII) activity, but they differ fundamentally in molecular weight, pharmacokinetics, and clinical application. Unfractionated heparin (UFH) is a heterogeneous mixture of sulfated glycosaminoglycan chains ranging from 3,000–30,000 Da, while enoxaparin is a low-molecular-weight heparin (LMWH) produced by controlled depolymerization, averaging ~4,500 Da. These molecular weight differences produce distinct anticoagulation profiles, monitoring requirements, and safety considerations.

@@ -1,6 +1,6 @@
 ---
 title: Testosterone vs GHRP-6
-description: Comparison of testosterone and GHRP-6 — androgen receptor vs GHSR1a, direct vs indirect GH stimulation, side effect profiles, detection windows, and clinical applications.
+description: Comparison of testosterone and GHRP-6 — androgen receptor vs GHSR1a, direct vs indirect GH stimulation, side effect profiles, detection windows, and c.
 ---
 
 Testosterone and GHRP-6 represent fundamentally different approaches to performance enhancement and hormonal optimization. Testosterone is an endogenous steroid hormone that directly activates androgen receptors to drive muscle protein synthesis, while GHRP-6 is a synthetic hexapeptide that stimulates GH release via the ghrelin receptor (GHSR1a). Their mechanisms, pharmacokinetics, side effect profiles, and detection characteristics diverge completely.

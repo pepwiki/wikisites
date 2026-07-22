@@ -1,6 +1,6 @@
 ---
 title: Cagrilintide vs Amylin
-description: Comparison of native amylin and cagrilintide — aggregation kinetics, receptor pharmacology, glycemic effects, and development as a amylin analog for obesity and diabetes.
+description: Comparison of native amylin and cagrilintide — aggregation kinetics, receptor pharmacology, glycemic effects, and development as a amylin analog for obesity .
 ---
 
 Amylin (islet amyloid polypeptide, IAPP) is a 37-amino acid hormone co-secreted with insulin from pancreatic β-cells. Cagrilintide is a long-acting synthetic amylin analogue with proline substitutions that resist aggregation and extend plasma half-life. Both agents activate the amylin receptor (AMY) complex, but cagrilintide's pharmacokinetic improvements enable clinical utility beyond native amylin's short-lived action.

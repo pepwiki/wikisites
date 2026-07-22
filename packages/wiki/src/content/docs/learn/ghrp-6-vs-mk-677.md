@@ -1,6 +1,6 @@
 ---
 title: GHRP-6 vs MK-677
-description: Head-to-head comparison of peptide vs small molecule GH secretagogues — GHRP-6 (hexarelin analog) and MK-677 (ibutamoren) for growth hormone stimulation, pharmacokinetics, and clinical applications.
+description: Comparison of peptide vs small molecule GH secretagogues — GHRP-6 (hexarelin analog) and MK-677 (ibutamoren) for growth hormone stimulation, p.
 ---
 
 GHRP-6 and MK-677 (ibutamoren) represent two fundamentally different approaches to growth hormone secretagogue (GHS) pharmacology. GHRP-6 is a synthetic hexapeptide that activates the ghrelin receptor (GHS-R1a) to stimulate GH release, while MK-677 is an orally bioavailable non-peptide small molecule that mimics ghrelin's action at the same receptor. The distinction between peptide and small molecule modalities has profound implications for bioavailability, pharmacokinetics, and clinical utility.

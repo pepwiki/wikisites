@@ -1,6 +1,6 @@
 ---
 title: GHK-Cu vs Melatonin
-description: Comparison of GHK-Cu (copper peptide) and melatonin — skin regeneration vs circadian regulation, antioxidant mechanisms, and complementary roles in skin biology.
+description: Comparison of GHK-Cu (copper peptide) and melatonin — skin regeneration vs circadian regulation, antioxidant mechanisms, and complementary roles in skin biology
 ---
 
 GHK-Cu (glycyl-L-histidyl-L-lysine copper(II)) and melatonin are endogenous molecules with distinct primary functions — copper-dependent tissue remodeling and circadian rhythm regulation, respectively — that share surprising overlap in antioxidant defense and skin biology. GHK-Cu acts as a signaling peptide that activates tissue repair genes, while melatonin is a hormone with potent free radical scavenging properties.

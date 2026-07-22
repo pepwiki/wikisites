@@ -1,6 +1,6 @@
 ---
 title: Comprehensive Peptide Glossary
-description: 200+ terms organized alphabetically covering pharmacology, chemistry, biology, and clinical peptide science with cross-references to learn pages and related terms.
+description: 200+ terms organized alphabetically covering pharmacology, chemistry, biology, and clinical peptide science with cross-references to learn pages and related.
 ---
 
 This glossary contains over 200 terms relevant to peptide biology, pharmacology, chemistry, and clinical science. Terms are organized alphabetically with category tags, definitions, and cross-references to learn pages and related terms.

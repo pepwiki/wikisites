@@ -95,3 +95,5 @@ Remember the key elements of peptide vaccine design with **EPIC**:
 - **P**resentation enhanced by adjuvants and carriers
 - **I**mmune response directed toward T-cell and B-cell targets
 - **C**onserved sequences reduce escape variant risk
+
+> **See also:** [Therapeutic Peptides](/learn/pharmacology/) for an overview of peptide-based therapies and clinical applications.

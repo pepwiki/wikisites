@@ -1,6 +1,6 @@
 ---
 title: Semaglutide vs Empagliflozin
-description: Comparison of the GLP-1 receptor agonist semaglutide and the SGLT2 inhibitor empagliflozin — mechanisms, cardiovascular outcomes, weight effects, and clinical positioning.
+description: Comparison of the GLP-1 receptor agonist semaglutide and the SGLT2 inhibitor empagliflozin — mechanisms, cardiovascular outcomes, weight effects, and c.
 ---
 
 Semaglutide and empagliflozin represent two mechanistically distinct classes of antihyperglycemic agents with demonstrated cardiovascular and renal benefits. Semaglutide is a glucagon-like peptide-1 receptor agonist (GLP-1 RA), while empagliflozin is a sodium-glucose cotransporter 2 (SGLT2) inhibitor. Their complementary mechanisms and differing benefit profiles make comparison essential for individualized therapy.

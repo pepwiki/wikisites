@@ -1,6 +1,6 @@
 ---
 title: Insulin Detemir vs Insulin Degludec
-description: Head-to-head comparison of albumin-binding basal insulins — detemir's single fatty acid acylation vs degludec's multi-hexamer chain mechanism, pharmacokinetics, and clinical outcomes.
+description: Comparison of albumin-binding basal insulins — detemir's single fatty acid acylation vs degludec's multi-hexamer chain mechanism, pharmacokinetics, and c.
 ---
 
 Insulin detemir and insulin degludec both exploit albumin binding to prolong basal insulin action, yet they achieve this through fundamentally different molecular architectures. Detemir uses a single C-14 fatty acid chain attached directly to LysB29, while degludec employs a C-16 fatty diacid via a γ-glutamic acid spacer and forms soluble multi-hexamer chains before albumin engagement.

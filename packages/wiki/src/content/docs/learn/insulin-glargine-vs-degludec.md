@@ -1,6 +1,6 @@
 ---
 title: Insulin Glargine vs Insulin Degludec
-description: Head-to-head comparison of long-acting insulin analogs — glargine U-100/U-300 and degludec — covering mechanism of prolonged action, pharmacokinetics, glycemic outcomes, and hypoglycemia risk.
+description: Comparison of long-acting insulin analogs — glargine and degludec — mechanisms, pharmacokinetics, and hypoglycemia risk.
 ---
 
 Insulin glargine and insulin degludec represent two distinct engineering strategies for achieving prolonged basal insulin coverage. Glargine achieves a relatively flat 24-hour profile through pH-dependent precipitation at subcutaneous injection sites, while degludec forms soluble multi-hexamer chains that slowly dissociate and bind albumin, producing an ultra-long half-life exceeding 42 hours.

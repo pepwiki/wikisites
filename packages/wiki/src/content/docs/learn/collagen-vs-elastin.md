@@ -1,6 +1,6 @@
 ---
 title: Collagen vs Elastin Peptides
-description: Comparison of collagen and elastin peptides — triple helix vs random coil structure, strength vs elasticity function, supplementation strategies, bioavailability, and clinical evidence.
+description: Comparison of collagen and elastin peptides — triple helix vs random coil structure, strength vs elasticity function, supplementation strategies, b.
 ---
 
 Collagen and elastin are the two primary structural proteins of the extracellular matrix (ECM). Collagen provides tensile strength through its triple-helical structure, while elastin provides elastic recoil through its amorphous random-coil configuration. Their complementary mechanical properties maintain tissue integrity across all organ systems.

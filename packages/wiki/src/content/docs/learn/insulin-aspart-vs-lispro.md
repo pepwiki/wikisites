@@ -1,6 +1,6 @@
 ---
 title: Insulin Aspart vs Lispro
-description: Head-to-head comparison of rapid-acting insulin analogs insulin aspart (NovoRapid) and insulin lispro (Humalog) — pharmacokinetics, onset, peak, duration, and clinical equivalence.
+description: Comparison of rapid-acting insulin analogs insulin aspart (NovoRapid) and insulin lispro (Humalog) — pharmacokinetics, onset, peak, duration, and clinical e.
 ---
 
 Insulin aspart and insulin lispro are the two most widely prescribed rapid-acting insulin analogs. Both are engineered to dissociate rapidly from hexamers into monomers after subcutaneous injection, producing a faster onset than regular human insulin. Despite identical clinical utility, subtle differences in pharmacokinetics, formulation, and device technology influence clinical selection.

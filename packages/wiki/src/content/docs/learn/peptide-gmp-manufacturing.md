@@ -1,6 +1,6 @@
 ---
 title: Peptide GMP Manufacturing
-description: GMP compliance for peptide manufacturing — quality systems, facility design, process validation, and regulatory requirements for current Good Manufacturing Practice.
+description: GMP compliance for peptide manufacturing — quality systems, facility design, process validation, and regulatory requirements for current Good Manufacturing P.
 ---
 
 Good Manufacturing Practice (GMP) compliance is mandatory for all peptide drugs intended for clinical use. This guide covers the quality systems, facility requirements, process controls, and regulatory expectations for manufacturing peptides under GMP conditions.

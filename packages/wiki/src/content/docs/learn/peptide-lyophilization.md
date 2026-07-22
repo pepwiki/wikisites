@@ -1,6 +1,6 @@
 ---
 title: Peptide Lyophilization
-description: Comprehensive lyophilization protocols for therapeutic peptides — cycle design, excipient selection, cake appearance optimization, and reconstitution procedures.
+description: Comprehensive lyophilization protocols for therapeutic peptides — cycle design, excipient selection, cake appearance optimization, and reconstitution procedures
 ---
 
 Lyophilization (freeze-drying) is the gold standard for long-term peptide storage, converting aqueous peptide solutions into stable dry powders. This protocol covers the complete lyophilization workflow from formulation development through cycle optimization to reconstitution.

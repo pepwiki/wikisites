@@ -1,6 +1,6 @@
 ---
 title: Bremelanotide vs Alprostadil
-description: Comparison of bremelanotide (melanocortin agonist) and alprostadil (prostaglandin) — mechanisms, central vs peripheral action, sexual dysfunction efficacy, and side effects.
+description: Comparison of bremelanotide (melanocortin agonist) and alprostadil (prostaglandin) — mechanisms, central vs peripheral action, sexual dysfunction efficacy, a.
 ---
 
 Bremelanotide and alprostadil represent fundamentally different approaches to treating sexual dysfunction. Bremelanotide activates central melanocortin pathways to enhance sexual desire, while alprostadil provides peripheral vasodilation through prostaglandin signaling. Their mechanisms create complementary therapeutic profiles.

@@ -1,6 +1,6 @@
 ---
 title: CJC-1295 with DAC vs without DAC
-description: Comparison of CJC-1295-DAC and CJC-1295 no-DAC — Drug Affinity Complex mechanism, half-life engineering, GH pulsatility, IGF-1 dynamics, and clinical implications.
+description: Comparison of CJC-1295-DAC and CJC-1295 no-DAC — Drug Affinity Complex mechanism, half-life engineering, GH pulsatility, IGF-1 dynamics, and clinical i.
 ---
 
 CJC-1295 exists in two pharmacologically distinct forms: with Drug Affinity Complex (DAC) and without DAC. Both are synthetic analogs of growth hormone-releasing hormone (GHRH) with D-Ala² and other modifications for DPP-IV resistance, but the addition of DAC fundamentally alters the pharmacokinetic profile from a 30-minute peptide to a 6–8 day depot. This engineering creates two distinct therapeutic profiles: pulsatile GH release (no-DAC) versus sustained GH elevation (DAC).

@@ -85,6 +85,6 @@ Do not freeze reconstituted solutions unless specifically validated for that pep
 
 ---
 
-> **See also:** [Peptide Stability Testing](/learn/peptide-stability-testing/) for analytical methods and [Peptide Storage](/learn/peptide-storage/) for optimal storage conditions.
+> **See also:** [Peptide Stability Testing](/articles/peptide-stability-testing) for analytical methods and [Peptide Storage](/learn/peptide-storage/) for optimal storage conditions.
 
 *For research use only. Not for human consumption. Follow institutional protocols for peptide handling and disposal.*

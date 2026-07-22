@@ -1,6 +1,6 @@
 ---
 title: Retatrutide vs Survodutide
-description: Comparison of triple agonist (GIP/GLP-1/glucagon) retatrutide and dual agonist (GLP-1/glucagon) survodutide — receptor pharmacology, weight loss efficacy, and MASH outcomes.
+description: Comparison of retatrutide (triple agonist) and survodutide (dual agonist) for weight loss and MASH treatment.
 ---
 
 Retatrutide and survodutide represent two distinct approaches to harnessing glucagon receptor agonism alongside GLP-1R activation. Retatrutide is a triple agonist (GIP/GLP-1/glucagon), while survodutide is a dual agonist (GLP-1/glucagon) with a glucagon-biased profile. Both achieve substantial weight loss but through different receptor activation patterns, with survodutide showing particular promise in metabolic dysfunction-associated steatohepatitis (MASH).

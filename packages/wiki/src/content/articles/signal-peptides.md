@@ -51,3 +51,5 @@ Remember the translocation pathway with **SHARP**:
 ## Clinical Significance
 
 Defects in signal peptides or signal peptidase can cause protein misfolding, ER stress, and disease. Some bacterial toxins use signal peptide-like sequences to exploit the host secretory pathway. Understanding signal peptides is essential for recombinant protein production, as adding or optimizing signal peptides can dramatically improve protein secretion yields in expression systems.
+
+> **See also:** [Protein Structure Levels](/learn/structure/) for how signal peptides fit into the broader context of protein organization.

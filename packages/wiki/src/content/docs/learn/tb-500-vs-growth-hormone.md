@@ -1,6 +1,6 @@
 ---
 title: TB-500 vs Growth Hormone
-description: Comparison of TB-500 (thymosin β4) and growth hormone (GH) — tissue repair mechanisms, pharmacokinetics, IGF-1 axis, and clinical applications for recovery and regeneration.
+description: Comparison of TB-500 (thymosin β4) and growth hormone (GH) — tissue repair mechanisms, pharmacokinetics, IGF-1 axis, and clinical applications for recovery a.
 ---
 
 TB-500 (thymosin β4 fragment, Ac-Asp-Ser-Gly-Pro-Thr) is a synthetic fragment of thymosin β4 containing the active region responsible for actin polymerization and tissue repair. Growth hormone (GH) is a 191-amino acid pituitary hormone that stimulates IGF-1 production and systemic tissue growth. Both promote tissue repair but through fundamentally different mechanisms — TB-500 through local actin cytoskeletal regulation and GH through systemic IGF-1-mediated growth signaling.

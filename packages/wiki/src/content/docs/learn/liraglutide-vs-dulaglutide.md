@@ -1,6 +1,6 @@
 ---
 title: Liraglutide vs Dulaglutide
-description: Head-to-head comparison of liraglutide and dulaglutide — fatty acylation vs Fc-fusion conjugation strategies, pharmacokinetics, efficacy, and clinical positioning for GLP-1 receptor agonist therapy.
+description: Comparison of liraglutide and dulaglutide — fatty acylation vs Fc-fusion conjugation strategies, pharmacokinetics, efficacy, and clinical positioning for G.
 ---
 
 Liraglutide and dulaglutide represent two fundamentally different approaches to extending the half-life of native GLP-1. Liraglutide employs non-covalent albumin binding via fatty acylation, while dulaglutide uses covalent fusion to immunoglobulin Fc. Both achieve once-weekly or once-daily dosing through distinct pharmacokinetic mechanisms.

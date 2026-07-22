@@ -1,6 +1,6 @@
 ---
 title: Insulin Degludec vs Glargine U-300
-description: Comparison of ultra-long-acting insulin analogs — multi-hexamer formation vs microprecipitate pharmacokinetics, pharmacodynamic profiles, and clinical evidence from cardiovascular outcome trials.
+description: Comparison of ultra-long-acting insulin analogs — multi-hexamer formation vs microprecipitate pharmacokinetics, pharmacodynamic profiles, and clinical e.
 ---
 
 Insulin degludec (Tresiba) and insulin glargine U-300 (Toujeo) are ultra-long-acting basal insulin analogs designed to provide flat, stable pharmacodynamic profiles over 24+ hours. Degludec forms soluble multi-hexamer chains after subcutaneous injection, while glargine U-300 precipitates as amorphous microprecipitates that slowly dissolve. Both achieve >42-hour half-lives with once-daily dosing.

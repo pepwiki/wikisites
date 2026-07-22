@@ -1,6 +1,6 @@
 ---
 title: HGH vs IGF-1
-description: Comparison of human growth hormone (HGH) and insulin-like growth factor 1 (IGF-1) — mechanisms, pulsatility, production sites, side effects, and clinical applications.
+description: Comparison of human growth hormone (HGH) and insulin-like growth factor 1 (IGF-1) — mechanisms, pulsatility, production sites, side effects, and clinical a.
 ---
 
 Human growth hormone (HGH) and insulin-like growth factor 1 (IGF-1) form the somatotropic axis, where GH stimulates hepatic IGF-1 production. However, their pharmacological profiles diverge substantially — HGH acts indirectly through receptor-mediated signaling, while IGF-1 provides direct anabolic effects at peripheral tissues.

@@ -1,6 +1,6 @@
 ---
 title: CJC-1295 DAC vs Ipamorelin Stack
-description: Mechanistic rationale for combination GH secretagogue therapy — CJC-1295 DAC's sustained GHRH agonism combined with ipamorelin's selective ghrelin mimetic activity.
+description: Mechanistic rationale for combination GH secretagogue therapy — CJC-1295 DAC's sustained GHRH agonism combined with ipamorelin's selective ghrelin mimetic a.
 ---
 
 CJC-1295 DAC and ipamorelin are the most widely used growth hormone secretagogue combination, designed to synergistically stimulate pulsatile GH release through complementary receptor mechanisms. CJC-1295 DAC provides sustained GHRH receptor agonism, while ipamorelin selectively activates the ghrelin receptor (GHS-R1a) without the cortisol-elevating effects of non-selective secretagogues.

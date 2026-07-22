@@ -1,6 +1,6 @@
 ---
 title: Tirzepatide vs Semaglutide for Weight Loss
-description: Head-to-head comparison of tirzepatide and semaglutide for weight management — dual vs single incretin agonism, SURPASS/STEP trial data, and clinical decision factors.
+description: Comparison of tirzepatide and semaglutide for weight management — dual vs single incretin agonism and clinical decision factors.
 ---
 
 Tirzepatide (Zepbound) and semaglutide (Wegovy) represent the leading pharmacological options for chronic weight management. Tirzepatide's dual GIP/GLP-1 receptor agonism produces greater weight loss than semaglutide's selective GLP-1 agonism, but the practical implications depend on dose, tolerability, cost, and clinical context.

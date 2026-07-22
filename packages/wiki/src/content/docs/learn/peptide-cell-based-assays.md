@@ -1,6 +1,6 @@
 ---
 title: Peptide Cell-Based Assays
-description: Cell-based potency assay methods for therapeutic peptides — reporter gene assays, proliferation assays, signal transduction assays, and functional characterization.
+description: Cell-based potency assay methods for therapeutic peptides — reporter gene assays, proliferation assays, signal transduction assays, and functional c.
 ---
 
 Cell-based assays evaluate the biological activity of therapeutic peptides in a physiological context, providing functional potency data complementary to receptor binding studies. This protocol covers cell-based assay design, execution, data analysis, and regulatory requirements for peptide potency testing.

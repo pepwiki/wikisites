@@ -1,6 +1,6 @@
 ---
 title: Peptide Drug Interactions
-description: Comprehensive reference for peptide-drug interactions — CYP450 enzyme effects, QT prolongation risks, insulin interactions, GLP-1 agonist interactions, clinical significance ratings, and monitoring recommendations.
+description: Comprehensive reference for peptide-drug interactions — CYP450 enzyme effects, QT prolongation risks, insulin interactions, GLP-1 agonist interactions, c.
 ---
 
 Peptide drugs interact with conventional small-molecule medications through multiple mechanisms including CYP450 enzyme modulation, transporter interactions, pharmacodynamic synergism, and shared metabolic pathways. Unlike traditional drug-drug interactions, peptide interactions are often mediated by indirect effects on hepatic enzyme expression rather than direct competitive inhibition. This reference covers clinically relevant interactions with evidence-based significance ratings.

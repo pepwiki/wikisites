@@ -53,3 +53,4 @@ Quaternary structures include dimers (2 subunits), trimers (3), tetramers (4), h
 Protein structure directly determines function. Enzyme active sites require specific 3D arrangements of catalytic residues. Binding sites provide complementary shape for ligand binding. Signaling proteins undergo conformational changes for signal transduction. Misfolding diseases (Alzheimer's, Parkinson's) result from loss of proper structure.
 
 > **See also:** [Pharmacology](/learn/pharmacology/) for how protein structure influences drug design and therapeutic peptides.
+> **See also:** [Signal Peptides](/articles/signal-peptides) for peptide secretion mechanisms.

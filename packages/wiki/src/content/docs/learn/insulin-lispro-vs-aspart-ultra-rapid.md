@@ -1,6 +1,6 @@
 ---
 title: Insulin Lispro vs Insulin Aspart (Ultra-Rapid)
-description: Head-to-head comparison of ultra-rapid insulin analogs — lispro and aspart — engineering strategies for accelerated absorption, pharmacokinetics, and clinical applications.
+description: Comparison of ultra-rapid insulin analogs — lispro and aspart — engineering strategies for accelerated absorption, pharmacokinetics, and clinical applications
 ---
 
 Insulin lispro (Humalog) and insulin aspart (NovoRapid/NovoLog) are both rapid-acting insulin analogs designed to accelerate absorption from subcutaneous injection sites. They achieve ultra-rapid pharmacokinetics through distinct structural modifications: lispro inverts Pro-Lys at positions B28-B29 to Lys-Pro, while aspart substitutes AsnB28 with Pro. Both modifications reduce insulin self-association, producing faster absorption and shorter duration of action compared to regular human insulin.

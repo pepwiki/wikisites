@@ -66,3 +66,5 @@ Remember AMP resistance mechanisms with **MEMBRANE**:
 ## Clinical Implications
 
 AMP resistance tends to develop slowly and often carries fitness costs. Combining AMPs with conventional antibiotics can overcome existing resistance mechanisms and reduce the likelihood of de novo resistance emergence. Monitoring membrane modifications in clinical isolates will be essential as AMP-based therapies advance toward widespread use.
+
+> **See also:** [Therapeutic Peptides](/learn/pharmacology/) for an overview of peptide drug development and clinical applications.

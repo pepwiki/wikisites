@@ -57,3 +57,4 @@ Peptide drugs typically have short half-lives due to enzymatic degradation by pr
 - Potential immunogenicity
 - Complex manufacturing
 - Susceptible to aggregation
+> **See also:** [GIP](/articles/gip) for glucose-dependent insulinotropic polypeptide details.

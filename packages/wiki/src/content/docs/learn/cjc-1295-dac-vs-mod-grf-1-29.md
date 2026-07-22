@@ -1,6 +1,6 @@
 ---
 title: CJC-1295 DAC vs Mod GRF 1-29
-description: Comparison of Growth Hormone Releasing Hormone analogs — CJC-1295 with Drug Affinity Complex (DAC) for sustained release vs Modified GRF 1-29 for pulsatile GH stimulation.
+description: Comparison of Growth Hormone Releasing Hormone analogs — CJC-1295 with Drug Affinity Complex (DAC) for sustained release vs Modified GRF 1-29 for pulsatile G.
 ---
 
 CJC-1295 DAC and Modified GRF 1-29 (Mod GRF) are synthetic analogs of growth hormone-releasing hormone (GHRH) that differ fundamentally in pharmacokinetics and clinical application. CJC-1295 DAC is engineered for sustained GH release through albumin binding, while Mod GRF mimics physiological pulsatile GH secretion.
