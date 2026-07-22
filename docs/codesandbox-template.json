@@ -1,0 +1,66 @@
+{
+  "name": "peptide-molecular-weight-calculator",
+  "version": "1.0.0",
+  "description": "Interactive peptide molecular weight calculator built with React and TypeScript",
+  "keywords": [
+    "peptide",
+    "molecular-weight",
+    "calculator",
+    "bioinformatics",
+    "amino-acids"
+  ],
+  "author": "WikiPept <info@wikipept.com>",
+  "license": "MIT",
+  "homepage": "https://wikipept.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pepwiki/peptide-mw-calculator"
+  },
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/node": "^20.11.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "sandbox": {
+    "infiniteLoopProtection": true,
+    "hardReloadOnChange": true,
+    "template": "create-react-app-typescript"
+  },
+  "_sandbox_index_tsx": {
+    "_comment": "This is the index.tsx file content for the CodeSandbox",
+    "content": "import React from 'react';\nimport ReactDOM from 'react-dom/client';\nimport App from './App';\n\nconst root = ReactDOM.createRoot(\n  document.getElementById('root') as HTMLElement\n);\n\nroot.render(\n  <React.StrictMode>\n    <App />\n  </React.StrictMode>\n);"
+  },
+  "_sandbox_app_tsx": {
+    "_comment": "This is the App.tsx file content for the CodeSandbox",
+    "content": "import React, { useState } from 'react';\nimport './App.css';\n\n// Amino acid monoisotopic masses\nconst aminoAcidMasses: Record<string, { mono: number; avg: number; formula: Record<string, number> }> = {\n  'G': { mono: 57.02146, avg: 57.02146, formula: { C: 2, H: 3, N: 1, O: 1, S: 0 } },\n  'A': { mono: 71.03711, avg: 71.0788, formula: { C: 3, H: 5, N: 1, O: 1, S: 0 } },\n  'V': { mono: 99.06841, avg: 99.1326, formula: { C: 5, H: 9, N: 1, O: 1, S: 0 } },\n  'L': { mono: 113.08406, avg: 113.1576, formula: { C: 6, H: 11, N: 1, O: 1, S: 0 } },\n  'I': { mono: 113.08406, avg: 113.1576, formula: { C: 6, H: 11, N: 1, O: 1, S: 0 } },\n  'P': { mono: 97.05276, avg: 97.1152, formula: { C: 5, H: 7, N: 1, O: 1, S: 0 } },\n  'F': { mono: 147.06841, avg: 147.1739, formula: { C: 9, H: 9, N: 1, O: 1, S: 0 } },\n  'W': { mono: 186.07931, avg: 186.2132, formula: { C: 11, H: 10, N: 2, O: 1, S: 0 } },\n  'M': { mono: 131.04049, avg: 131.1961, formula: { C: 5, H: 9, N: 1, O: 1, S: 1 } },\n  'S': { mono: 87.03203, avg: 87.0773, formula: { C: 3, H: 5, N: 1, O: 2, S: 0 } },\n  'T': { mono: 101.04768, avg: 101.1039, formula: { C: 4, H: 7, N: 1, O: 2, S: 0 } },\n  'C': { mono: 103.00919, avg: 103.1388, formula: { C: 3, H: 5, N: 1, O: 1, S: 1 } },\n  'Y': { mono: 163.06333, avg: 163.1732, formula: { C: 9, H: 9, N: 1, O: 2, S: 0 } },\n  'H': { mono: 137.05891, avg: 137.1393, formula: { C: 6, H: 7, N: 3, O: 1, S: 0 } },\n  'D': { mono: 115.02694, avg: 115.0886, formula: { C: 4, H: 5, N: 1, O: 3, S: 0 } },\n  'E': { mono: 129.04259, avg: 129.1155, formula: { C: 5, H: 7, N: 1, O: 3, S: 0 } },\n  'N': { mono: 114.04293, avg: 114.1026, formula: { C: 4, H: 6, N: 2, O: 2, S: 0 } },\n  'Q': { mono: 128.05858, avg: 128.1292, formula: { C: 5, H: 8, N: 2, O: 2, S: 0 } },\n  'K': { mono: 128.09496, avg: 128.1724, formula: { C: 6, H: 12, N: 2, O: 1, S: 0 } },\n  'R': { mono: 156.10111, avg: 156.1857, formula: { C: 6, H: 12, N: 4, O: 1, S: 0 } }\n};\n\ninterface CalculationResult {\n  sequence: string;\n  length: number;\n  monoMW: number;\n  avgMW: number;\n  formula: Record<string, number>;\n}\n\nfunction calculateMW(sequence: string): CalculationResult {\n  const seq = sequence.toUpperCase().trim();\n  let monoMW = 0;\n  let avgMW = 0;\n  const formula: Record<string, number> = { C: 0, H: 0, N: 0, O: 0, S: 0 };\n\n  for (const aa of seq) {\n    const data = aminoAcidMasses[aa];\n    if (data) {\n      monoMW += data.mono;\n      avgMW += data.avg;\n      formula.C += data.formula.C;\n      formula.H += data.formula.H;\n      formula.N += data.formula.N;\n      formula.O += data.formula.O;\n      formula.S += data.formula.S;\n    }\n  }\n\n  // Add water (H2O) for terminal groups\n  monoMW += 18.01056;\n  avgMW += 18.01528;\n  formula.H += 2;\n  formula.O += 1;\n\n  return {\n    sequence: seq,\n    length: seq.length,\n    monoMW,\n    avgMW,\n    formula\n  };\n}\n\nconst App: React.FC = () => {\n  const [sequence, setSequence] = useState('OXYTOCIN');\n  const [result, setResult] = useState<CalculationResult | null>(null);\n  const [error, setError] = useState('');\n\n  const handleCalculate = () => {\n    setError('');\n    \n    if (!sequence.trim()) {\n      setError('Please enter a peptide sequence');\n      return;\n    }\n\n    const validChars = /^[ACDEFGHIKLMNPQRSTVWY]+$/;\n    if (!validChars.test(sequence.toUpperCase())) {\n      setError('Invalid characters. Use only: A C D E F G H I K L M N P Q R S T V W Y');\n      return;\n    }\n\n    const calcResult = calculateMW(sequence);\n    setResult(calcResult);\n  };\n\n  const examples = ['OXYTOCIN', 'GLUTATHIONE', 'INSULIN', 'ACDEFGHIKLMNPQRSTVWY', 'AAAAAAAAAA'];\n\n  return (\n    <div className=\"app\">\n      <header className=\"header\">\n        <h1>Peptide MW Calculator</h1>\n        <p>Calculate molecular weight from amino acid sequence</p>\n      </header>\n\n      <main className=\"main\">\n        <div className=\"input-group\">\n          <label htmlFor=\"sequence\">Peptide Sequence</label>\n          <input\n            id=\"sequence\"\n            type=\"text\"\n            value={sequence}\n            onChange={(e) => setSequence(e.target.value)}\n            placeholder=\"Enter sequence (e.g., ACDEFGHIKLMNPQRSTVWY)\"\n            maxLength={100}\n            onKeyPress={(e) => e.key === 'Enter' && handleCalculate()}\n          />\n        </div>\n\n        <button className=\"btn\" onClick={handleCalculate}>\n          Calculate Molecular Weight\n        </button>\n\n        {error && <div className=\"error\">{error}</div>}\n\n        {result && (\n          <div className=\"result\">\n            <h3>Results</h3>\n            <div className=\"result-row\">\n              <span className=\"result-label\">Sequence:</span>\n              <span className=\"result-value\">{result.sequence}</span>\n            </div>\n            <div className=\"result-row\">\n              <span className=\"result-label\">Length:</span>\n              <span className=\"result-value\">{result.length} amino acids</span>\n            </div>\n            <div className=\"result-row\">\n              <span className=\"result-label\">Monoisotopic MW:</span>\n              <span className=\"result-value\">{result.monoMW.toFixed(4)} Da</span>\n            </div>\n            <div className=\"result-row\">\n              <span className=\"result-label\">Average MW:</span>\n              <span className=\"result-value\">{result.avgMW.toFixed(4)} Da</span>\n            </div>\n            <div className=\"result-row\">\n              <span className=\"result-label\">Molecular Formula:</span>\n              <span className=\"result-value\">\n                C{result.formula.C}H{result.formula.H}N{result.formula.N}O{result.formula.O}S{result.formula.S}\n              </span>\n            </div>\n          </div>\n        )}\n\n        <div className=\"examples\">\n          <h4>Try these examples:</h4>\n          <div className=\"example-buttons\">\n            {examples.map((ex) => (\n              <button\n                key={ex}\n                className=\"example-btn\"\n                onClick={() => {\n                  setSequence(ex);\n                  setResult(calculateMW(ex));\n                }}\n              >\n                {ex}\n              </button>\n            ))}\n          </div>\n        </div>\n      </main>\n\n      <footer className=\"footer\">\n        <p>\n          Based on <a href=\"https://wikipept.com\" target=\"_blank\" rel=\"noopener noreferrer\">WikiPept</a> data\n        </p>\n        <p>\n          <a href=\"https://encyclopeptide.com\" target=\"_blank\" rel=\"noopener noreferrer\">Encyclopeptide</a> | \n          <a href=\"https://kingstonpeptides.com\" target=\"_blank\" rel=\"noopener noreferrer\">Kingston Peptides</a>\n        </p>\n      </footer>\n    </div>\n  );\n};\n\nexport default App;"
+  },
+  "_sandbox_app_css": {
+    "_comment": "This is the App.css file content for the CodeSandbox",
+    "content": "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;\n  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\n  min-height: 100vh;\n}\n\n.app {\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n}\n\n.header {\n  background: rgba(255, 255, 255, 0.95);\n  padding: 20px;\n  text-align: center;\n  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);\n}\n\n.header h1 {\n  color: #2d3748;\n  font-size: 1.8rem;\n  margin-bottom: 5px;\n}\n\n.header p {\n  color: #718096;\n  font-size: 0.9rem;\n}\n\n.main {\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  padding: 40px 20px;\n}\n\n.input-group {\n  width: 100%;\n  max-width: 500px;\n  margin-bottom: 20px;\n}\n\n.input-group label {\n  display: block;\n  color: white;\n  font-weight: 600;\n  margin-bottom: 8px;\n}\n\n.input-group input {\n  width: 100%;\n  padding: 14px 16px;\n  border: 2px solid rgba(255, 255, 255, 0.3);\n  border-radius: 8px;\n  font-size: 1.1rem;\n  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;\n  text-transform: uppercase;\n  background: white;\n  transition: border-color 0.2s, box-shadow 0.2s;\n}\n\n.input-group input:focus {\n  outline: none;\n  border-color: #667eea;\n  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.3);\n}\n\n.btn {\n  width: 100%;\n  max-width: 500px;\n  padding: 14px;\n  background: white;\n  color: #667eea;\n  border: none;\n  border-radius: 8px;\n  font-size: 1.1rem;\n  font-weight: 600;\n  cursor: pointer;\n  transition: transform 0.2s, box-shadow 0.2s;\n}\n\n.btn:hover {\n  transform: translateY(-2px);\n  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);\n}\n\n.error {\n  width: 100%;\n  max-width: 500px;\n  color: #fed7d7;\n  text-align: center;\n  margin-top: 15px;\n  font-size: 0.9rem;\n  background: #c53030;\n  padding: 10px;\n  border-radius: 8px;\n}\n\n.result {\n  width: 100%;\n  max-width: 500px;\n  margin-top: 30px;\n  padding: 20px;\n  background: white;\n  border-radius: 8px;\n  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);\n}\n\n.result h3 {\n  color: #2d3748;\n  margin-bottom: 15px;\n  font-size: 1.1rem;\n}\n\n.result-row {\n  display: flex;\n  justify-content: space-between;\n  padding: 8px 0;\n  border-bottom: 1px solid #e2e8f0;\n}\n\n.result-row:last-child {\n  border-bottom: none;\n}\n\n.result-label {\n  color: #718096;\n}\n\n.result-value {\n  color: #2d3748;\n  font-weight: 600;\n  font-family: 'Monaco', 'Menlo', monospace;\n}\n\n.examples {\n  width: 100%;\n  max-width: 500px;\n  margin-top: 20px;\n  padding: 15px;\n  background: rgba(255, 255, 255, 0.1);\n  border-radius: 8px;\n}\n\n.examples h4 {\n  color: white;\n  font-size: 0.9rem;\n  margin-bottom: 10px;\n}\n\n.example-buttons {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 8px;\n}\n\n.example-btn {\n  padding: 6px 12px;\n  background: white;\n  border: none;\n  border-radius: 6px;\n  font-size: 0.85rem;\n  cursor: pointer;\n  transition: background 0.2s, color 0.2s;\n}\n\n.example-btn:hover {\n  background: #667eea;\n  color: white;\n}\n\n.footer {\n  background: rgba(255, 255, 255, 0.95);\n  padding: 20px;\n  text-align: center;\n  margin-top: auto;\n}\n\n.footer p {\n  color: #718096;\n  font-size: 0.85rem;\n  margin-bottom: 5px;\n}\n\n.footer a {\n  color: #667eea;\n  text-decoration: none;\n}\n\n.footer a:hover {\n  text-decoration: underline;\n}"
+  }
+}
