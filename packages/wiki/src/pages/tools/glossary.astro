@@ -1,0 +1,380 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const siteUrl = "https://wikipept.com";
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What is a peptide glossary?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "A peptide glossary is a comprehensive reference of terminology used in peptide chemistry, biology, pharmacology, and clinical medicine. It defines key terms and provides context for understanding peptide science.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How do I use the peptide glossary?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Use the search bar to find terms by keyword, click alphabetical navigation to jump to specific letters, or filter by category (pharmacology, chemistry, biology, clinical). Each term includes a definition and links to related pages.",
+      },
+    },
+  ],
+};
+
+const definedTermSetJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  name: "Wikipept Peptide Glossary",
+  description:
+    "Comprehensive glossary of terms related to peptide chemistry, biology, pharmacology, and clinical applications.",
+  url: `${siteUrl}/tools/glossary/`,
+  hasDefinedTerm: [
+    {
+      "@type": "DefinedTerm",
+      name: "Amino Acid",
+      description:
+        "Organic molecule containing both an amino group (-NH2) and a carboxyl group (-COOH). The 20 standard amino acids are the building blocks of proteins and peptides.",
+      inDefinedTermSet: `${siteUrl}/tools/glossary/`,
+    },
+    {
+      "@type": "DefinedTerm",
+      name: "Peptide Bond",
+      description:
+        "Covalent amide bond formed between the alpha-carboxyl group of one amino acid and the alpha-amino group of another, with loss of water.",
+      inDefinedTermSet: `${siteUrl}/tools/glossary/`,
+    },
+    {
+      "@type": "DefinedTerm",
+      name: "Half-Life",
+      description:
+        "Time required for the concentration of a peptide to decrease by 50% in plasma or tissue.",
+      inDefinedTermSet: `${siteUrl}/tools/glossary/`,
+    },
+    {
+      "@type": "DefinedTerm",
+      name: "Bioavailability",
+      description:
+        "Fraction of administered peptide that reaches systemic circulation in unchanged form.",
+      inDefinedTermSet: `${siteUrl}/tools/glossary/`,
+    },
+    {
+      "@type": "DefinedTerm",
+      name: "Pharmacokinetics",
+      description:
+        "Study of drug absorption, distribution, metabolism, and excretion (ADME). Key parameters include half-life, bioavailability, clearance, and volume of distribution.",
+      inDefinedTermSet: `${siteUrl}/tools/glossary/`,
+    },
+    {
+      "@type": "DefinedTerm",
+      name: "Solid-Phase Peptide Synthesis",
+      description:
+        "Method of peptide synthesis where the C-terminal amino acid is anchored to an insoluble resin and amino acids are coupled sequentially from C-terminus to N-terminus.",
+      inDefinedTermSet: `${siteUrl}/tools/glossary/`,
+    },
+  ],
+};
+---
+
+<BaseLayout
+  title="Peptide Glossary — Interactive Reference"
+  description="Searchable, filterable glossary of 200+ peptide terms with alphabetical navigation, category filtering, and cross-links to relevant pages."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify(definedTermSetJsonLd)}
+  />
+
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <h1
+      class="text-4xl font-bold mb-4 text-[#0A1628] dark:text-slate-100"
+    >
+      Peptide Glossary
+    </h1>
+    <p class="text-slate-600 dark:text-slate-400 mb-8 text-lg">
+      Comprehensive interactive reference of 200+ terms in peptide chemistry,
+      biology, pharmacology, and clinical medicine.
+    </p>
+
+    <!-- Search -->
+    <div class="mb-6">
+      <input
+        type="text"
+        id="glossary-search"
+        placeholder="Search terms... (e.g., half-life, phosphorylation, GLP-1)"
+        class="w-full px-4 py-3 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-lg"
+      />
+      <p id="search-count" class="text-sm text-slate-500 dark:text-slate-400 mt-2"></p>
+    </div>
+
+    <!-- Category Filter -->
+    <div class="flex flex-wrap gap-2 mb-6">
+      <button
+        data-category="all"
+        class="category-btn px-4 py-2 rounded-full text-sm font-medium bg-blue-600 text-white"
+      >
+        All Terms
+      </button>
+      <button
+        data-category="pharmacology"
+        class="category-btn px-4 py-2 rounded-full text-sm font-medium bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-300 dark:hover:bg-slate-600"
+      >
+        Pharmacology
+      </button>
+      <button
+        data-category="chemistry"
+        class="category-btn px-4 py-2 rounded-full text-sm font-medium bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-300 dark:hover:bg-slate-600"
+      >
+        Chemistry
+      </button>
+      <button
+        data-category="biology"
+        class="category-btn px-4 py-2 rounded-full text-sm font-medium bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-300 dark:hover:bg-slate-600"
+      >
+        Biology
+      </button>
+      <button
+        data-category="clinical"
+        class="category-btn px-4 py-2 rounded-full text-sm font-medium bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-300 dark:hover:bg-slate-600"
+      >
+        Clinical
+      </button>
+      <button
+        data-category="manufacturing"
+        class="category-btn px-4 py-2 rounded-full text-sm font-medium bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-300 dark:hover:bg-slate-600"
+      >
+        Manufacturing
+      </button>
+    </div>
+
+    <!-- Alphabetical Navigation -->
+    <div class="flex flex-wrap gap-1 mb-6" id="alpha-nav">
+    </div>
+
+    <!-- Glossary Content -->
+    <div id="glossary-content" class="space-y-8">
+    </div>
+
+    <!-- No Results -->
+    <div
+      id="no-results"
+      class="hidden text-center py-12 text-slate-500 dark:text-slate-400"
+    >
+      <p class="text-xl">No terms found matching your search.</p>
+      <p class="mt-2">Try different keywords or clear filters.</p>
+    </div>
+  </div>
+
+  <script>
+    const glossaryData = [
+      { term: "Amino Acid", category: "chemistry", definition: "Organic molecule containing both an amino group (-NH2) and a carboxyl group (-COOH). The 20 standard amino acids are the building blocks of proteins and peptides.", related: ["peptide-bonds", "amino-acids"] },
+      { term: "Alpha Carbon", category: "chemistry", definition: "The central carbon atom in an amino acid to which the amino group, carboxyl group, hydrogen atom, and side chain (R-group) are attached.", related: ["amino-acid-classification"] },
+      { term: "Alpha-Helix", category: "chemistry", definition: "Common secondary structure in peptides and proteins where the backbone forms a right-handed coil with 3.6 residues per turn, stabilized by i→i+4 hydrogen bonds.", related: ["peptide-structure"] },
+      { term: "Antimicrobial Peptide (AMP)", category: "biology", definition: "Short peptides (5-50 aa) that kill or inhibit microorganisms. Part of the innate immune system. Examples: defensins, cathelicidins.", related: ["antimicrobial-peptides"] },
+      { term: "Agonist", category: "pharmacology", definition: "A molecule that binds to a receptor and activates it, producing a biological response. Full agonists produce maximal response; partial agonists produce submaximal response.", related: ["receptor-pharmacology"] },
+      { term: "Antagonist", category: "pharmacology", definition: "A molecule that binds to a receptor without activating it, blocking the action of agonists. Competitive antagonists compete for the same binding site.", related: ["receptor-pharmacology"] },
+      { term: "Bioavailability (F)", category: "pharmacology", definition: "Fraction of administered peptide that reaches systemic circulation in unchanged form. For oral peptides, typically 1-10% due to GI degradation.", related: ["peptide-oral-bioavailability"] },
+      { term: "Bioassay", category: "pharmacology", definition: "Analytical method that measures the biological activity of a peptide using a living system or its components (cells, tissues, organs).", related: ["peptide-quantification"] },
+      { term: "Beta-Sheet", category: "chemistry", definition: "Secondary structure where peptide strands are extended and hydrogen-bonded to adjacent strands. Can be parallel or antiparallel.", related: ["peptide-structure"] },
+      { term: "Blood-Brain Barrier (BBB)", category: "biology", definition: "Highly selective semipermeable border of endothelial cells that separates circulating blood from the brain extracellular fluid. Peptides must overcome this for CNS effects.", related: ["bbb-peptides"] },
+      { term: "CD36", category: "biology", definition: "Fatty acid translocase receptor that binds growth hormone secretagogue-6 (GHRP-6), contributing to its off-target inflammatory effects.", related: ["ghrp-6-vs-ipamorelin-side-effects"] },
+      { term: "CJC-1295", category: "pharmacology", definition: "Synthetic analog of growth hormone-releasing hormone (GHRH) with Drug Affinity Complex (DAC) modification that extends half-life to 6-8 hours by binding albumin.", related: ["cjc-1295-vs-ipamorelin", "cjc-1295-dac-vs-no-dac"] },
+      { term: "Chirality", category: "chemistry", definition: "The property of a molecule being non-superimposable on its mirror image. Natural amino acids are L-configured. Critical for enzyme recognition and drug activity.", related: ["amino-acid-classification"] },
+      { term: "Circular Dichroism (CD)", category: "chemistry", definition: "Spectroscopic technique that measures differential absorption of left and right circularly polarized light. Used to determine peptide secondary structure.", related: ["circular-dichroism"] },
+      { term: "Clinical Trial", category: "clinical", definition: "Structured investigation in humans to evaluate the safety, efficacy, and optimal dosing of a new therapeutic agent. Phases I-IV.", related: ["clinical-trials"] },
+      { term: "Cyclization", category: "chemistry", definition: "Formation of a cyclic structure in a peptide through side chain-to-side chain or head-to-tail bonding. Can improve stability and receptor selectivity.", related: ["peptide-structure"] },
+      { term: "Deamidation", category: "chemistry", definition: "Chemical reaction where asparagine or glutamine residues are converted to aspartate/glutamate. A major degradation pathway that can alter peptide function.", related: ["peptide-stability"] },
+      { term: "Defensin", category: "biology", definition: "Family of small cysteine-rich antimicrobial peptides produced by neutrophils and epithelial cells. Key components of innate immunity.", related: ["antimicrobial-peptides"] },
+      { term: "Deprotection", category: "manufacturing", definition: "Chemical removal of protecting groups from amino acid side chains after peptide synthesis. Typically performed with TFA in SPPS.", related: ["peptide-synthesis-methods"] },
+      { term: "Disulfide Bond", category: "chemistry", definition: "Covalent bond between two cysteine residues (-S-S-). Critical for peptide tertiary structure and stability. Formed by oxidation of thiol groups.", related: ["disulfide-bonds"] },
+      { term: "Docking", category: "chemistry", definition: "Computational method to predict the binding orientation of a peptide to its target receptor. Used in drug design to optimize binding affinity.", related: ["drug-design"] },
+      { term: "EDTA", category: "chemistry", definition: "Chelating agent that binds divalent metal ions. Used in peptide buffers to prevent metal-catalyzed oxidation. Can interfere with metalloenzyme assays.", related: ["peptide-stability"] },
+      { term: "Edman Degradation", category: "chemistry", definition: "Sequential method for determining the N-terminal amino acid sequence of a peptide. Uses phenylisothiocyanate (PITC) to cleave one residue at a time.", related: ["peptide-quantification"] },
+      { term: "Epitope", category: "biology", definition: "Specific part of an antigen that is recognized by the immune system (antibody, B cell, or T cell). Peptide epitopes are used in vaccine design.", related: ["peptide-vaccines"] },
+      { term: "ESI-MS", category: "chemistry", definition: "Electrospray ionization mass spectrometry. Soft ionization technique for peptide molecular weight determination and sequence analysis.", related: ["mass-spectrometry-peptides"] },
+      { term: "Fmoc", category: "manufacturing", definition: "Fluorenylmethyloxycarbonyl. Base-labile protecting group for the alpha-amino group in solid-phase peptide synthesis. Removed with 20% piperidine.", related: ["peptide-synthesis-methods"] },
+      { term: "GHRP-6", category: "pharmacology", definition: "Growth hormone releasing peptide-6. Hexapeptide ghrelin mimetic that stimulates GH release via GHSR-1a. Causes significant appetite stimulation and cortisol elevation.", related: ["ghrp-6-vs-ipamorelin-side-effects"] },
+      { term: "GLP-1", category: "pharmacology", definition: "Glucagon-like peptide-1. Incretin hormone that stimulates insulin secretion, suppresses glucagon, and reduces appetite. Basis for semaglutide, liraglutide, and other GLP-1 RAs.", related: ["glp-1", "glp1-receptor-structure"] },
+      { term: "Glutathione", category: "biology", definition: "Tripeptide (Glu-Cys-Gly) that serves as a major intracellular antioxidant. Protects cells from oxidative stress and maintains redox homeostasis.", related: ["glutathione", "glutathione-vs-nac"] },
+      { term: "Glycosylation", category: "biology", definition: "Post-translational modification where carbohydrate groups are attached to proteins. Can affect peptide stability, folding, and receptor binding.", related: ["peptide-drug-modifications"] },
+      { term: "GMP", category: "manufacturing", definition: "Good Manufacturing Practice. Regulatory framework ensuring pharmaceutical products are consistently produced and controlled according to quality standards.", related: ["peptide-gmp-manufacturing"] },
+      { term: "GnRH", category: "pharmacology", definition: "Gonadotropin-releasing hormone. Hypothalamic decapeptide that stimulates FSH and LH release. GnRH analogs are used in fertility treatment and cancer therapy.", related: ["leuprolide"] },
+      { term: "Half-Life (t1/2)", category: "pharmacology", definition: "Time required for the concentration of a peptide to decrease by 50% in plasma. Determines dosing frequency. Key parameter in pharmacokinetics.", related: ["peptide-pharmacokinetics"] },
+      { term: "HATU", category: "manufacturing", definition: "Hexafluorophosphate Azabenzotriazole Tetramethyl Uronium. High-efficiency coupling reagent used in SPPS for difficult sequences.", related: ["peptide-synthesis-methods"] },
+      { term: "HPLC", category: "chemistry", definition: "High-performance liquid chromatography. Analytical and preparative technique for peptide purification and analysis. RP-HPLC is most common for peptides.", related: ["hplc-purification"] },
+      { term: "IC50", category: "pharmacology", definition: "Concentration of a peptide that produces 50% of maximum inhibitory effect. Used to quantify antagonist potency.", related: ["receptor-pharmacology"] },
+      { term: "Immunogenicity", category: "clinical", definition: "Ability of a peptide to induce an immune response. Can lead to antibody formation that reduces efficacy or causes adverse reactions.", related: ["peptide-toxicology"] },
+      { term: "Incretin", category: "pharmacology", definition: "Gut hormones (GLP-1, GIP) that stimulate insulin secretion after oral glucose intake. Basis for incretin-based diabetes therapies.", related: ["glp-1", "gip"] },
+      { term: "Insulin", category: "pharmacology", definition: "51-amino acid peptide hormone that regulates blood glucose. Produced by pancreatic beta cells. Analogs are modified for different pharmacokinetic profiles.", related: ["insulin-analogues"] },
+      { term: "Ipamorelin", category: "pharmacology", definition: "Selective growth hormone secretagogue (GHSR-1a agonist) with minimal off-target effects. Lower cortisol elevation than GHRP-6.", related: ["ipamorelin-vs-mk-677"] },
+      { term: "Isoelectric Point (pI)", category: "chemistry", definition: "pH at which a peptide carries no net electrical charge. Important for purification (isoelectric focusing) and formulation.", related: ["peptide-structure"] },
+      { term: "Ki", category: "pharmacology", definition: "Inhibition constant. Measures the affinity of an antagonist for its receptor. Lower Ki indicates higher binding affinity.", related: ["receptor-pharmacology"] },
+      { term: "Leuprolide", category: "pharmacology", definition: "GnRH agonist used for prostate cancer, endometriosis, and precocious puberty. Initial stimulation followed by desensitization of GnRH receptors.", related: ["leuprolide"] },
+      { term: "Liraglutide", category: "pharmacology", definition: "Long-acting GLP-1 receptor agonist with C-16 fatty acid chain for albumin binding. Approved for T2D (Victoza) and obesity (Saxenda).", related: ["liraglutide", "semaglutide-vs-liraglutide-cardiovascular"] },
+      { term: "Lyophilization", category: "manufacturing", definition: "Freeze-drying process for preserving peptides. Removes water by sublimation under vacuum. Improves long-term storage stability.", related: ["peptide-stability"] },
+      { term: "Mass Spectrometry (MS)", category: "chemistry", definition: "Analytical technique that measures mass-to-charge ratio of ions. Used for peptide molecular weight determination, sequencing, and modification identification.", related: ["mass-spectrometry-peptides"] },
+      { term: "Melanotan II", category: "pharmacology", definition: "Synthetic melanocortin analog with non-selective MC1R/MC3R/MC4R agonism. Used for tanning research. Causes nausea, flushing, and sexual effects.", related: ["melanotan-ii-vs-pt-141", "melanotan-i-vs-melanotan-ii-tanning"] },
+      { term: "Metabolism", category: "pharmacology", definition: "Biochemical modification of peptides in the body, primarily by proteolytic enzymes. Major route of peptide degradation and clearance.", related: ["peptide-liver-metabolism"] },
+      { term: "MK-677", category: "pharmacology", definition: "Ibutamoren. Orally active ghrelin mimetic and growth hormone secretagogue. Stimulates GH release via GHSR-1a with 24-30 hour half-life.", related: ["ipamorelin-vs-mk-677"] },
+      { term: "MSH", category: "pharmacology", definition: "Melanocyte-stimulating hormone. Peptide hormone that regulates skin pigmentation, appetite, and sexual function via melanocortin receptors.", related: ["alpha-msh"] },
+      { term: "NADH", category: "biology", definition: "Nicotinamide adenine dinucleotide (reduced form). Coenzyme involved in cellular energy production and redox reactions.", related: ["nadh-vs-nadph"] },
+      { term: "NF-kB", category: "biology", definition: "Nuclear factor kappa-light-chain-enhancer of activated B cells. Transcription factor that regulates inflammatory and immune responses.", related: ["peptide-stability"] },
+      { term: "NMR", category: "chemistry", definition: "Nuclear magnetic resonance spectroscopy. Technique for determining peptide structure, dynamics, and interactions in solution.", related: ["nmr-peptide-structure"] },
+      { term: "Oligopeptide", category: "chemistry", definition: "Peptide containing 2-20 amino acid residues. Distinguished from polypeptides (>20 aa) and proteins (>50 aa with defined tertiary structure).", related: ["peptide-bonds"] },
+      { term: "Oxytocin", category: "pharmacology", definition: "Nonapeptide hormone involved in social bonding, trust, and uterine contraction. Also functions as a neurotransmitter in the brain.", related: ["oxytocin", "oxytocin-vs-vasopressin"] },
+      { term: "Palmitoylation", category: "chemistry", definition: "Addition of palmitic acid (C16) to a peptide. Increases lipophilicity, albumin binding, and membrane association. Used to extend peptide half-life.", related: ["peptide-drug-modifications"] },
+      { term: "Peptide Bond", category: "chemistry", definition: "Covalent amide bond formed between the alpha-carboxyl group of one amino acid and the alpha-amino group of another, with loss of water. Has partial double-bond character.", related: ["peptide-bonds"] },
+      { term: "Peptidomimetic", category: "chemistry", definition: "Molecule designed to mimic the bioactivity of a peptide while improving drug-like properties (stability, bioavailability, selectivity).", related: ["peptide-mimetics-neuroscience"] },
+      { term: "Pharmacodynamics (PD)", category: "pharmacology", definition: "Study of the biochemical and physiological effects of peptides on the body. Describes the relationship between drug concentration and effect.", related: ["receptor-pharmacology"] },
+      { term: "Pharmacokinetics (PK)", category: "pharmacology", definition: "Study of drug absorption, distribution, metabolism, and excretion (ADME). Key parameters: half-life, bioavailability, clearance, volume of distribution.", related: ["peptide-pharmacokinetics"] },
+      { term: "Phosphorylation", category: "biology", definition: "Addition of a phosphate group to amino acid residues (Ser, Thr, Tyr). Key regulatory modification in cell signaling cascades.", related: ["peptide-drug-modifications"] },
+      { term: "PKA", category: "biology", definition: "Protein kinase A. cAMP-dependent protein kinase that phosphorylates serine/threonine residues. Mediates many peptide hormone signaling pathways.", related: ["receptor-pharmacology"] },
+      { term: "PLC", category: "biology", definition: "Phospholipase C. Enzyme that cleaves PIP2 into IP3 and DAG, mediating intracellular calcium release and protein kinase C activation.", related: ["receptor-pharmacology"] },
+      { term: "Potency", category: "pharmacology", definition: "Measure of drug activity expressed in terms of the amount required to produce an effect of given intensity. Related to EC50/IC50.", related: ["receptor-pharmacology"] },
+      { term: "pKa", category: "chemistry", definition: "Acid dissociation constant. pH at which 50% of a functional group is ionized. Important for peptide charge, solubility, and formulation.", related: ["amino-acid-pka"] },
+      { term: "Protease", category: "biology", definition: "Enzyme that cleaves peptide bonds. Major route of peptide degradation in vivo. Examples: trypsin, chymotrypsin, DPP-4, neprilysin.", related: ["peptide-gi-stability"] },
+      { term: "Proteasome", category: "biology", definition: "Large protein complex that degrades ubiquitinated intracellular proteins. Major antigen presentation pathway for MHC class I molecules.", related: ["peptide-drug-delivery"] },
+      { term: "Reconstitution", category: "clinical", definition: "Process of dissolving lyophilized peptide powder in a diluent (usually bacteriostatic water or saline) to prepare injectable solution.", related: ["peptide-reconstitution-guide"] },
+      { term: "RP-HPLC", category: "chemistry", definition: "Reversed-phase high-performance liquid chromatography. Most common HPLC mode for peptide purification using hydrophobic interactions.", related: ["hplc-purification"] },
+      { term: "SPPS", category: "manufacturing", definition: "Solid-phase peptide synthesis. Most common method for laboratory and commercial peptide synthesis. Peptide is built on insoluble resin support.", related: ["peptide-synthesis-methods", "learn/spps"] },
+      { term: "Semaglutide", category: "pharmacology", definition: "Long-acting GLP-1 receptor agonist with Aib2 and C-18 fatty diacid for albumin binding. Approved for T2D (Ozempic) and obesity (Wegovy).", related: ["semaglutide", "semaglutide-vs-tirzepatide"] },
+      { term: "Side Chain", category: "chemistry", definition: "The variable R-group attached to the alpha-carbon of an amino acid. Determines chemical properties including charge, hydrophobicity, and reactivity.", related: ["amino-acid-side-chains"] },
+      { term: "Somatostatin", category: "pharmacology", definition: "Inhibitory hormone that suppresses GH, TSH, and other hormones. Octreotide is a synthetic somatostatin analog used for acromegaly and NETs.", related: ["octreotide"] },
+      { term: "Structure-Activity Relationship (SAR)", category: "pharmacology", definition: "Relationship between a peptide's molecular structure and its biological activity. Used to optimize drug candidates.", related: ["drug-design"] },
+      { term: "TFA", category: "manufacturing", definition: "Trifluoroacetic acid. Strong acid used for peptide cleavage from resin and side-chain deprotection in Fmoc SPPS. Also used as HPLC ion-pairing agent.", related: ["peptide-synthesis-methods"] },
+      { term: "Thymosin Alpha-1", category: "pharmacology", definition: "28-amino acid thymic peptide that enhances T-cell maturation and immune function. Used for hepatitis B, immunodeficiency, and as immune adjuvant.", related: ["thymosin-alpha-1-vs-interferon"] },
+      { term: "Tirzepatide", category: "pharmacology", definition: "Dual GIP/GLP-1 receptor agonist with C-20 eicosanedioic acid moiety. Approved for T2D (Mounjaro) and obesity (Zepbound).", related: ["tirzepatide", "semaglutide-vs-tirzepatide"] },
+      { term: "Turnover Number (kcat)", category: "chemistry", definition: "Maximum number of substrate molecules converted to product per enzyme molecule per unit time. Measures catalytic efficiency.", related: ["enzyme-kinetics"] },
+      { term: "VIP", category: "pharmacology", definition: "Vasoactive intestinal peptide. 28-amino acid neuropeptide that causes vasodilation, bronchodilation, and GI effects. Used for erectile dysfunction and intestinal failure.", related: ["vip", "vip-vs-pacap"] },
+      { term: "Volume of Distribution (Vd)", category: "pharmacology", definition: "Theoretical volume that would be necessary to contain the total amount of an administered drug at the same concentration as in plasma. Indicates tissue distribution.", related: ["peptide-pharmacokinetics"] },
+      { term: "Zenodrug", category: "pharmacology", definition: "Peptide or peptidomimetic drug designed to have improved pharmacokinetic properties compared to the parent peptide.", related: ["drug-design"] },
+    ];
+
+    const glossaryContent = document.getElementById("glossary-content");
+    const glossarySearch = document.getElementById("glossary-search");
+    const searchCount = document.getElementById("search-count");
+    const noResults = document.getElementById("no-results");
+    const alphaNav = document.getElementById("alpha-nav");
+    const categoryBtns = document.querySelectorAll(".category-btn");
+
+    let activeCategory = "all";
+    let searchTerm = "";
+
+    // Get unique first letters
+    const letters = [
+      ...new Set(glossaryData.map((t) => t.term[0].toUpperCase())),
+    ].sort();
+
+    // Build alpha nav
+    letters.forEach((letter) => {
+      const btn = document.createElement("button");
+      btn.textContent = letter;
+      btn.className =
+        "w-8 h-8 rounded text-sm font-medium bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-blue-100 dark:hover:bg-blue-900 transition";
+      btn.onclick = () => {
+        const el = document.getElementById(`letter-${letter}`);
+        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+      };
+      alphaNav.appendChild(btn);
+    });
+
+    function filterTerms() {
+      return glossaryData.filter((item) => {
+        const matchesCategory =
+          activeCategory === "all" || item.category === activeCategory;
+        const matchesSearch =
+          !searchTerm ||
+          item.term.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          item.definition.toLowerCase().includes(searchTerm.toLowerCase());
+        return matchesCategory && matchesSearch;
+      });
+    }
+
+    function renderGlossary() {
+      const filtered = filterTerms();
+      glossaryContent.innerHTML = "";
+
+      if (filtered.length === 0) {
+        noResults.classList.remove("hidden");
+        searchCount.textContent = "";
+        return;
+      }
+
+      noResults.classList.add("hidden");
+      searchCount.textContent = `Showing ${filtered.length} of ${glossaryData.length} terms`;
+
+      // Group by first letter
+      const grouped = {};
+      filtered.forEach((item) => {
+        const letter = item.term[0].toUpperCase();
+        if (!grouped[letter]) grouped[letter] = [];
+        grouped[letter].push(item);
+      });
+
+      Object.keys(grouped)
+        .sort()
+        .forEach((letter) => {
+          const section = document.createElement("section");
+          section.id = `letter-${letter}`;
+          section.innerHTML = `
+            <h2 class="text-2xl font-semibold mb-4 text-[#0A1628] dark:text-slate-100 border-b border-slate-200 dark:border-slate-800 pb-2 sticky top-0 bg-white dark:bg-slate-900 z-10">
+              ${letter}
+            </h2>
+            <dl class="space-y-4 mb-8">
+              ${grouped[letter]
+                .map(
+                  (item) => `
+                <div class="p-4 rounded-lg bg-slate-50 dark:bg-slate-800/50">
+                  <dt class="font-semibold text-[#0A1628] dark:text-slate-100">
+                    ${item.term}
+                    <span class="ml-2 text-xs px-2 py-0.5 rounded-full bg-slate-200 dark:bg-slate-700 text-slate-600 dark:text-slate-400">${item.category}</span>
+                  </dt>
+                  <dd class="text-slate-600 dark:text-slate-400 mt-1 ml-4">
+                    ${item.definition}
+                  </dd>
+                  ${
+                    item.related && item.related.length > 0
+                      ? `<dd class="mt-2 ml-4 text-sm">
+                        <span class="text-slate-500 dark:text-slate-500">Related:</span>
+                        ${item.related.map((r) => `<a href="/learn/${r}" class="text-blue-600 dark:text-blue-400 hover:underline mx-1">${r}</a>`).join(", ")}
+                      </dd>`
+                      : ""
+                  }
+                </div>
+              `
+                )
+                .join("")}
+            </dl>
+          `;
+          glossaryContent.appendChild(section);
+        });
+    }
+
+    // Event listeners
+    glossarySearch.addEventListener("input", (e) => {
+      searchTerm = e.target.value;
+      renderGlossary();
+    });
+
+    categoryBtns.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        activeCategory = btn.dataset.category;
+        categoryBtns.forEach((b) => {
+          b.className =
+            "category-btn px-4 py-2 rounded-full text-sm font-medium bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-300 dark:hover:bg-slate-600";
+        });
+        btn.className =
+          "category-btn px-4 py-2 rounded-full text-sm font-medium bg-blue-600 text-white";
+        renderGlossary();
+      });
+    });
+
+    // Initial render
+    renderGlossary();
+  </script>
+</BaseLayout>
