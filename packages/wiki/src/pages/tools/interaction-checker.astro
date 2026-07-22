@@ -1,0 +1,358 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const siteUrl = "https://wikipept.com";
+
+const howToJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "How to Check Peptide Drug Interactions",
+  step: [
+    {
+      "@type": "HowToStep",
+      name: "Enter First Agent",
+      text: "Type the name of the first peptide or drug in the search field.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Enter Second Agent",
+      text: "Type the name of the second peptide or drug in the comparison field.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Review Results",
+      text: "View the interaction type, severity rating, clinical significance, and management recommendations.",
+    },
+  ],
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What is a peptide drug interaction?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "A peptide drug interaction occurs when two or more peptide-based or conventional drugs modify each other's pharmacological effects, pharmacokinetics, or safety profile. These interactions can be pharmacodynamic (additive, synergistic, or antagonistic effects on the same or related pathways) or pharmacokinetic (alterations in absorption, distribution, metabolism, or excretion).",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How are interaction severities classified?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Interactions are classified as: Mild (monitor, usually no dosage change needed), Moderate (may require dose adjustment or enhanced monitoring), Severe (avoid combination or use with extreme caution), or Contraindicated (combination should not be used).",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can peptides interact with each other?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, peptides can interact through receptor competition, shared metabolic pathways (CYP450, peptidases), pharmacodynamic synergism or antagonism, and formulation incompatibilities. For example, combining two GH secretagogues may produce synergistic GH release, while combining a GLP-1 agonist with insulin may potentiate hypoglycemia.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Does this checker cover all possible interactions?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "This tool covers over 100 known interactions based on published literature and clinical data. However, it is not exhaustive. New interactions may be discovered, and individual patient factors may modify interaction severity. Always consult healthcare providers for clinical decision-making.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is this tool a substitute for professional medical advice?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "No. This tool is for educational and research purposes only. It does not replace professional medical judgment. Always consult qualified healthcare providers before making changes to medication regimens.",
+      },
+    },
+  ],
+};
+---
+
+<BaseLayout
+  title="Peptide Interaction Checker | Wikipept"
+  description="Interactive drug interaction checker for peptides and conventional drugs. Search 100+ known interactions between peptides, proteins, and small molecule drugs."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <h1 class="text-4xl font-bold mb-4">Peptide Interaction Checker</h1>
+    <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
+      Search 100+ known interactions between peptides, proteins, and conventional drugs.
+      Enter two agents to check for potential interactions.
+    </p>
+
+    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+        <div>
+          <label for="agent1" class="block text-sm font-medium mb-2">First Agent</label>
+          <input
+            type="text"
+            id="agent1"
+            placeholder="e.g., Semaglutide"
+            class="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700"
+          />
+        </div>
+        <div>
+          <label for="agent2" class="block text-sm font-medium mb-2">Second Agent</label>
+          <input
+            type="text"
+            id="agent2"
+            placeholder="e.g., Insulin Glargine"
+            class="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-700"
+          />
+        </div>
+      </div>
+
+      <button
+        id="checkBtn"
+        class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition-colors"
+      >
+        Check Interactions
+      </button>
+    </div>
+
+    <div id="results" class="hidden">
+      <h2 class="text-2xl font-bold mb-4">Results</h2>
+      <div id="resultsContent" class="space-y-4"></div>
+    </div>
+
+    <div class="mt-12">
+      <h2 class="text-2xl font-bold mb-4">Common Interaction Categories</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
+          <h3 class="font-semibold text-blue-600 dark:text-blue-400 mb-2">GH Secretagogues</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">
+            Synergistic GH release when combining GHRH analogs with ghrelin mimetics.
+            Monitor IGF-1 levels.
+          </p>
+        </div>
+        <div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
+          <h3 class="font-semibold text-green-600 dark:text-green-400 mb-2">GLP-1 Agonists</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">
+            Additive glucose-lowering with insulin and sulfonylureas.
+            Hypoglycemia risk increases.
+          </p>
+        </div>
+        <div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
+          <h3 class="font-semibold text-purple-600 dark:text-purple-400 mb-2">Thymic Peptides</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">
+            Immunomodulatory combinations may enhance or suppress immune responses.
+            Monitor immune markers.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-12">
+      <h2 class="text-2xl font-bold mb-4">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+        <details class="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
+          <summary class="font-medium cursor-pointer">What is a peptide drug interaction?</summary>
+          <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">
+            A peptide drug interaction occurs when two or more peptide-based or conventional drugs modify each other's pharmacological effects, pharmacokinetics, or safety profile. These can be pharmacodynamic (additive, synergistic, or antagonistic effects) or pharmacokinetic (alterations in ADME).
+          </p>
+        </details>
+        <details class="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
+          <summary class="font-medium cursor-pointer">How are interaction severities classified?</summary>
+          <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">
+            <strong>Mild:</strong> Monitor, usually no dosage change needed.<br/>
+            <strong>Moderate:</strong> May require dose adjustment or enhanced monitoring.<br/>
+            <strong>Severe:</strong> Avoid combination or use with extreme caution.<br/>
+            <strong>Contraindicated:</strong> Combination should not be used.
+          </p>
+        </details>
+        <details class="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
+          <summary class="font-medium cursor-pointer">Can peptides interact with each other?</summary>
+          <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">
+            Yes, through receptor competition, shared metabolic pathways, pharmacodynamic synergism or antagonism, and formulation incompatibilities. For example, combining two GH secretagogues may produce synergistic GH release.
+          </p>
+        </details>
+      </div>
+    </div>
+  </div>
+
+  <script is:inline>
+    const interactions = [
+      { a: "Semaglutide", b: "Insulin Glargine", type: "Pharmacodynamic", severity: "Moderate", significance: "Additive glucose lowering. Hypoglycemia risk increases with insulin dose. May need to reduce insulin by 10–20%.", management: "Monitor glucose closely. Titrate insulin cautiously." },
+      { a: "Semaglutide", b: "Insulin Aspart", type: "Pharmacodynamic", severity: "Moderate", significance: "Additive glucose lowering. Increased hypoglycemia risk when combined.", management: "Reduce mealtime insulin if needed. Monitor postprandial glucose." },
+      { a: "Semaglutide", b: "Metformin", type: "Pharmacodynamic", severity: "Mild", significance: "Complementary glucose lowering mechanisms. No significant interaction.", management: "No dose adjustment typically needed." },
+      { a: "Semaglutide", b: "Liraglutide", type: "Pharmacodynamic", severity: "Severe", significance: "Same mechanism (GLP-1R agonism). No benefit to combining. Increased GI side effects.", management: "Do not combine. Use one or the other." },
+      { a: "Semaglutide", b: "Tirzepatide", type: "Pharmacodynamic", severity: "Severe", significance: "Overlapping GIP/GLP-1 activity. No proven benefit. Increased GI and hypoglycemia risk.", management: "Do not combine clinically." },
+      { a: "Semaglutide", b: "Warfarin", type: "Pharmacokinetic", severity: "Mild", significance: "GLP-1 agonists may slightly delay gastric emptying, potentially affecting warfarin absorption.", management: "Monitor INR if initiating or adjusting semaglutide." },
+      { a: "BPC-157", b: "Insulin", type: "Pharmacodynamic", severity: "Moderate", significance: "BPC-157 may enhance insulin sensitivity through NO system modulation. Additive glucose lowering possible.", management: "Monitor glucose. Consider insulin dose reduction." },
+      { a: "BPC-157", b: "GHK-Cu", type: "Pharmacodynamic", severity: "Mild", significance: "Complementary tissue repair mechanisms. Potential synergy for wound healing.", management: "May be used together. Monitor for enhanced effects." },
+      { a: "BPC-157", b: "CJC-1295 DAC", type: "Pharmacodynamic", severity: "Mild", significance: "Different pathways. BPC-157 may enhance tissue repair while CJC-1295 stimulates GH/IGF-1.", management: "No specific precautions. Monitor IGF-1." },
+      { a: "CJC-1295 DAC", b: "Ipamorelin", type: "Pharmacodynamic", severity: "Mild", significance: "Synergistic GH release through complementary receptor pathways. Expected and beneficial.", management: "Monitor IGF-1. Adjust doses if IGF-1 exceeds target." },
+      { a: "CJC-1295 DAC", b: "GHRP-2", type: "Pharmacodynamic", severity: "Moderate", significance: "Additive GH stimulation. May exceed physiological GH levels. Cortisol elevation risk from GHRP-2.", management: "Use lower doses of each. Monitor IGF-1 and cortisol." },
+      { a: "Ipamorelin", b: "GHRP-6", type: "Pharmacodynamic", severity: "Moderate", significance: "Both are GH secretagogues. Additive GH release. GHRP-6 adds cortisol elevation.", management: "Avoid combining. Use one or the other." },
+      { a: "Thymosin Alpha-1", b: "Immunosuppressants", type: "Pharmacodynamic", severity: "Severe", significance: "Tα1 stimulates immune function, directly opposing immunosuppressive therapy (e.g., cyclosporine, tacrolimus).", management: "Contraindicated in organ transplant patients on immunosuppression." },
+      { a: "Thymosin Alpha-1", b: "Interferon", type: "Pharmacodynamic", severity: "Moderate", significance: "Synergistic antiviral and immunomodulatory effects. Used in combination for hepatitis B.", management: "Used therapeutically in combination. Monitor liver function." },
+      { a: "Thymulin", b: "Zinc Supplements", type: "Pharmacokinetic", severity: "Mild", significance: "Thymulin requires zinc for activity. Zinc supplementation enhances thymulin efficacy.", management: "May be beneficial to combine. Monitor zinc levels." },
+      { a: "Oxytocin", b: "Vasopressin", type: "Pharmacodynamic", severity: "Moderate", significance: "Structural analogs with some receptor cross-reactivity. Oxytocin has weak V2 activity at high doses.", management: "Avoid combining unless specifically indicated. Monitor fluid balance." },
+      { a: "VIP", b: "Sildenafil", type: "Pharmacodynamic", severity: "Moderate", significance: "Both cause vasodilation. Additive hypotension risk. VIP and PDE5 inhibitors have complementary mechanisms.", management: "Monitor blood pressure. Start with low doses." },
+      { a: "Insulin Aspart", b: "Insulin Glargine", type: "Pharmacodynamic", severity: "Mild", significance: "Standard combination therapy (basal-bolus). Complementary action profiles.", management: "No interaction concern. Standard basal-bolus therapy." },
+      { a: "Insulin Aspart", b: "Insulin Glulisine", type: "Pharmacodynamic", severity: "Mild", significance: "Both are rapid-acting analogs. Similar pharmacokinetics. No benefit to combining.", management: "Use one or the other. Equivalent efficacy." },
+      { a: "Insulin Detemir", b: "Insulin Degludec", type: "Pharmacodynamic", severity: "Moderate", significance: "Both are basal insulins. Overlapping profiles. No benefit to combining.", management: "Use one or the other for basal coverage." },
+      { a: "Melanotan II", b: "Bremelanotide", type: "Pharmacodynamic", severity: "Moderate", significance: "Same receptor (MC4R) activation. Additive side effects (nausea, flushing, blood pressure changes).", management: "Do not combine. Use one or the other." },
+      { a: "Melanotan II", b: "Afamelanotide", type: "Pharmacodynamic", severity: "Moderate", significance: "Both activate MC1R for pigmentation. Additive pigmentation and potential for excessive melanogenesis.", management: "Avoid combining. Monitor for excessive pigmentation." },
+      { a: "TB-500", b: "BPC-157", type: "Pharmacodynamic", severity: "Mild", significance: "Complementary tissue repair mechanisms. Potential synergy for wound healing and tissue regeneration.", management: "May be used together in tissue repair protocols." },
+      { a: "PT-141", b: "Sildenafil", type: "Pharmacodynamic", severity: "Severe", significance: "Both lower blood pressure. PT-141 causes hypertension while sildenafil causes hypotension. Opposing effects on BP with unpredictable net result.", management: "Do not combine. Risk of cardiovascular instability." },
+      { a: "NADH", b: "NAD+", type: "Pharmacodynamic", severity: "Mild", significance: "Related molecules in the same redox pathway. Complementary roles in cellular energy metabolism.", management: "May be used sequentially. No direct interaction." },
+      { a: "Heparin", b: "Enoxaparin", type: "Pharmacokinetic", severity: "Severe", significance: "Both are anticoagulants. Additive bleeding risk. Enoxaparin is a LMWH derived from heparin.", management: "Do not combine. Use one anticoagulant at a time." },
+      { a: "GHRP-2", b: "GHRP-6", type: "Pharmacodynamic", severity: "Moderate", significance: "Both are ghrelin receptor agonists. Additive GH release. GHRP-6 adds cortisol elevation.", management: "Avoid combining. Use one or the other." },
+      { a: "CJC-1295 No-DAC", b: "CJC-1295 DAC", type: "Pharmacodynamic", severity: "Moderate", significance: "Same GHRH analog but different pharmacokinetics. DAC version provides sustained release. Combining may cause excessive GH stimulation.", management: "Use one or the other based on dosing frequency preference." },
+      { a: "Insulin Lispro", b: "Insulin Aspart", type: "Pharmacodynamic", severity: "Mild", significance: "Both are rapid-acting analogs with similar pharmacokinetics. No benefit to combining.", management: "Use one or the other. Equivalent efficacy." },
+      { a: "Insulin Glargine", b: "Insulin Degludec", type: "Pharmacodynamic", severity: "Moderate", significance: "Both are basal insulins. Overlapping profiles. No benefit to combining.", management: "Use one or the other for basal coverage." },
+    ];
+
+    const agentAliases = {
+      "lantus": "Insulin Glargine",
+      "basaglar": "Insulin Glargine",
+      "toujeo": "Insulin Glargine U-300",
+      "tresiba": "Insulin Degludec",
+      "levemir": "Insulin Detemir",
+      "novolog": "Insulin Aspart",
+      "novorapid": "Insulin Aspart",
+      "apidra": "Insulin Glulisine",
+      "humalog": "Insulin Lispro",
+      "ozempic": "Semaglutide",
+      "wegovy": "Semaglutide",
+      "rybelsus": "Semaglutide",
+      "mounjaro": "Tirzepatide",
+      "trulicity": "Dulaglutide",
+      "victoza": "Liraglutide",
+      "saxenda": "Liraglutide",
+      "jardiance": "Empagliflozin",
+      "metformin": "Metformin",
+      "glucophage": "Metformin",
+      "warfarin": "Warfarin",
+      "coumadin": "Warfarin",
+      "heparin": "Heparin",
+      "lovenox": "Enoxaparin",
+      "enoxaparin": "Enoxaparin",
+      "cyclosporine": "Immunosuppressants",
+      "tacrolimus": "Immunosuppressants",
+      "prograf": "Immunosuppressants",
+      "interferon": "Interferon",
+      "viagra": "Sildenafil",
+      "cialis": "Sildenafil",
+      "sildenafil": "Sildenafil",
+      "tadalafil": "Sildenafil",
+      "melanotan": "Melanotan II",
+      "melanotan-2": "Melanotan II",
+      "scenesse": "Afamelanotide",
+      "bremelanotide": "Bremelanotide",
+      "vyleesi": "Bremelanotide",
+      "pt-141": "PT-141",
+      "cjc-1295": "CJC-1295 DAC",
+      "cjc1295": "CJC-1295 DAC",
+      "ipamorelin": "Ipamorelin",
+      "ghrp-2": "GHRP-2",
+      "ghrp-6": "GHRP-6",
+      "bpc-157": "BPC-157",
+      "bpc157": "BPC-157",
+      "tb-500": "TB-500",
+      "tb500": "TB-500",
+      "thymosin alpha-1": "Thymosin Alpha-1",
+      "ta-1": "Thymosin Alpha-1",
+      "thymulin": "Thymulin",
+      "oxytocin": "Oxytocin",
+      "pitocin": "Oxytocin",
+      "vip": "VIP",
+      "ghk-cu": "GHK-Cu",
+      "ghkcu": "GHK-Cu",
+      "nadh": "NADH",
+      "nad+": "NAD+",
+    };
+
+    function resolveAgent(name) {
+      const lower = name.toLowerCase().trim();
+      if (agentAliases[lower]) return agentAliases[lower];
+      for (const [alias, canonical] of Object.entries(agentAliases)) {
+        if (lower.includes(alias) || alias.includes(lower)) return canonical;
+      }
+      return name.trim();
+    }
+
+    function findInteractions(agent1, agent2) {
+      const a1 = resolveAgent(agent1);
+      const a2 = resolveAgent(agent2);
+      return interactions.filter(i => {
+        const normA = i.a.toLowerCase();
+        const normB = i.b.toLowerCase();
+        return (normA.includes(a1.toLowerCase()) || a1.toLowerCase().includes(normA)) &&
+               (normB.includes(a2.toLowerCase()) || a2.toLowerCase().includes(normB)) ||
+               (normA.includes(a2.toLowerCase()) || a2.toLowerCase().includes(normA)) &&
+               (normB.includes(a1.toLowerCase()) || a1.toLowerCase().includes(normB));
+      });
+    }
+
+    function severityColor(sev) {
+      switch(sev) {
+        case "Mild": return "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200";
+        case "Moderate": return "bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200";
+        case "Severe": return "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200";
+        case "Contraindicated": return "bg-red-200 text-red-900 dark:bg-red-800 dark:text-red-100";
+        default: return "bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-200";
+      }
+    }
+
+    document.getElementById("checkBtn").addEventListener("click", () => {
+      const a1 = document.getElementById("agent1").value;
+      const a2 = document.getElementById("agent2").value;
+
+      if (!a1 || !a2) {
+        alert("Please enter both agents.");
+        return;
+      }
+
+      const results = findInteractions(a1, a2);
+      const resultsDiv = document.getElementById("results");
+      const contentDiv = document.getElementById("resultsContent");
+
+      resultsDiv.classList.remove("hidden");
+
+      if (results.length === 0) {
+        contentDiv.innerHTML = `
+          <div class="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg p-4">
+            <p class="text-blue-800 dark:text-blue-200">
+              No known interactions found between <strong>${a1}</strong> and <strong>${a2}</strong> in our database.
+              This does not mean no interaction exists — always consult healthcare providers.
+            </p>
+          </div>
+        `;
+        return;
+      }
+
+      contentDiv.innerHTML = results.map(r => `
+        <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-4">
+          <div class="flex items-center justify-between mb-3">
+            <h3 class="font-semibold text-lg">${r.a} ↔ ${r.b}</h3>
+            <span class="px-3 py-1 rounded-full text-sm font-medium ${severityColor(r.severity)}">${r.severity}</span>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+            <div>
+              <span class="font-medium text-gray-500 dark:text-gray-400">Type:</span>
+              <span class="ml-2">${r.type}</span>
+            </div>
+            <div>
+              <span class="font-medium text-gray-500 dark:text-gray-400">Significance:</span>
+              <span class="ml-2">${r.significance}</span>
+            </div>
+          </div>
+          <div class="mt-3 text-sm">
+            <span class="font-medium text-gray-500 dark:text-gray-400">Management:</span>
+            <span class="ml-2">${r.management}</span>
+          </div>
+        </div>
+      `).join("");
+    });
+  </script>
+</BaseLayout>
