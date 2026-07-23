@@ -16,12 +16,34 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Wikipept",
-      description: "Interactive, community-driven platform for learning oligopeptide biology",
+      description: "Community-driven platform for learning oligopeptide biology with quizzes, flashcards, databases, and power-user tools for researchers and students.",
       logo: {
         src: "./src/assets/logo.svg",
         alt: "Wikipept",
       },
       social: [],
+      head: [
+        {
+          tag: "meta",
+          attrs: { property: "og:image", content: "https://wikipept.com/og-default.svg" },
+        },
+        {
+          tag: "meta",
+          attrs: { property: "og:image:width", content: "1200" },
+        },
+        {
+          tag: "meta",
+          attrs: { property: "og:image:height", content: "630" },
+        },
+        {
+          tag: "meta",
+          attrs: { name: "twitter:card", content: "summary_large_image" },
+        },
+        {
+          tag: "meta",
+          attrs: { name: "twitter:image", content: "https://wikipept.com/og-default.svg" },
+        },
+      ],
       sidebar: [
         {
           label: "Learn",
@@ -221,7 +243,6 @@ export default defineConfig({
             { label: "Sequence Analyzer", link: "/tools/sequence-analyzer" },
             { label: "Peptide Discovery", link: "/tools/peptide-discovery" },
             { label: "Peptide Glossary", link: "/tools/glossary" },
-            { label: "API Documentation", link: "/api/docs" },
           ],
         },
         {

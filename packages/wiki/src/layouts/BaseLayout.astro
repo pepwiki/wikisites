@@ -22,7 +22,7 @@ interface Props {
 
 const {
   title,
-  description = "Static wiki for learning oligopeptides -- quizzes, flashcards, power-user tools",
+  description = "Community-driven platform for learning oligopeptide biology with interactive quizzes, flashcards, peptide databases, and power-user tools for researchers and students.",
 } = Astro.props;
 ---
 
@@ -82,6 +82,8 @@ const {
     <meta property="og:url" content={Astro.url.href} />
     <meta property="og:site_name" content="Wikipept" />
     <meta property="og:image" content="https://wikipept.com/og-default.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={`${title} | Wikipept`} />
     <meta name="twitter:description" content={description} />
