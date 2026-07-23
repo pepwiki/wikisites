@@ -91,6 +91,8 @@ Final volume = (Current concentration × Current volume) / Final concentration
 - Dilute into aqueous buffer slowly
 - Use sonication if needed (bath sonicator, 5 min)
 
+BAC water and supplies available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## Related Resources
 
 - Use the [Reconstitution Calculator](/tools/reconstitution-calculator) for precise volume calculations

@@ -234,6 +234,8 @@ Technology transfer (TT) is the systematic transfer of manufacturing knowledge, 
 | Equipment maintenance review | Semi-annual |
 | Training effectiveness review | Annual |
 
+Transfer materials available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## References
 
 - [Peptide Technology Transfer](/learn/peptide-technology-transfer/)

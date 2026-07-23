@@ -173,6 +173,8 @@ Thorough characterization of synthetic peptides is essential for confirming iden
 | Broad SEC peak | Aggregation | Optimize buffer, add surfactant |
 | Low AAA recovery | Incomplete hydrolysis | Extend hydrolysis time |
 
+Analytical standards available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## Related Resources
 
 - See [Analytical Methods](/reference/analytical-methods) for detailed method conditions

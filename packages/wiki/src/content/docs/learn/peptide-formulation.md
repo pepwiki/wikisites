@@ -183,6 +183,8 @@ Formulation development for peptide therapeutics addresses stability, delivery, 
 | Cyclic olefin copolymer | Good | Vials |
 | HDPE | Moderate | Research containers |
 
+Excipients and formulation supplies available [here](https://kingstonpeptides.com)
+
 ## Related Resources
 
 - See [Drug Delivery Systems](/reference/drug-delivery-systems) for delivery technologies

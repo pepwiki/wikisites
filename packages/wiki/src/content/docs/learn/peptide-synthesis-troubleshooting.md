@@ -157,6 +157,8 @@ Successful peptide synthesis requires identifying and resolving common problems.
 - Train personnel
 - Implement controls
 
+Fmoc-amino acids available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## Reference Conditions
 
 ### Standard SPPS Protocol

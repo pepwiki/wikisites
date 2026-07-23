@@ -201,6 +201,8 @@ Lyophilization (freeze-drying) is the gold standard for long-term peptide storag
 | High moisture | Insufficient secondary drying | Extend secondary drying |
 | Low potency | Degradation during cycle | Optimize cycle parameters |
 
+Lyophilization supplies available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## References
 
 1. Jennings TA. *Lyophilization: Principles and Practices*. Springer, 2016.

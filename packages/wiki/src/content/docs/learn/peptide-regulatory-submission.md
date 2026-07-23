@@ -270,6 +270,8 @@ Regulatory submission for peptide drugs requires comprehensive Chemistry, Manufa
 | Post-marketing study | As committed | IVRS study |
 | Pharmacovigilance | Ongoing | Safety monitoring |
 
+Reference materials available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## References
 
 - [Peptide Regulatory Pathways](/learn/regulatory/)

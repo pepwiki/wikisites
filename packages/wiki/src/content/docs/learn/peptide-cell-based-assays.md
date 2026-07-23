@@ -259,6 +259,8 @@ Cell-based assays evaluate the biological activity of therapeutic peptides in a 
 | Cytotoxicity | High peptide concentration | Reduce concentration range |
 | Plate edge effects | Evaporation | Use humidified incubator |
 
+Cell culture supplies available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## References
 
 1. Bhatt DL, et al. "Cell-based assays for peptide therapeutics." *Assay Drug Dev Technol* 2015;13:1-12.

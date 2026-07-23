@@ -60,6 +60,8 @@ A comprehensive reference for clinical peptide-drug interactions.
 4. **Check INR** with anticoagulants + GLP-1 RAs
 5. **Monitor electrolytes** with desmopressin + lithium
 
+Drug interaction testing kits available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## References
 
 - [Peptide Storage and Handling](/learn/peptide-storage/)

@@ -328,6 +328,8 @@ Where KM = body surface area conversion factor.
 9. **Local tolerance** must be assessed for the intended route of administration
 10. **NOAEL determination** and safety factor calculations guide first-in-human dose selection
 
+Control materials available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## See Also
 
 - [Safety Data](/reference/peptide-safety-data) — Compiled safety profiles for approved peptide therapeutics

@@ -175,6 +175,8 @@ Scaling peptide synthesis from laboratory to production requires careful process
 | Regulatory filing | 6–12 months | CTD preparation |
 | Commercial launch | 12–24 months | Total timeline |
 
+Scale-up reagents available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## Related Resources
 
 - See [GMP Manufacturing](/learn/gmp-manufacturing) for regulatory requirements

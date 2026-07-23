@@ -34,3 +34,5 @@ description: "Safety profiles, adverse events, and contraindications for common 
 3. **Monitor liver function** with GH secretagogues
 4. **Watch for injection site reactions** with all injectable peptides
 5. **Report adverse events** to FDA MedWatch
+
+Safety equipment available from [Kingston Peptides](https://kingstonpeptides.com)

@@ -248,6 +248,8 @@ Acceptable range: 50–200% (FDA), 50–200% (EU GMP)
 | Stability | Endotoxin | Per protocol | Within spec |
 | Environmental | Endotoxin | Per schedule | Monitor trend |
 
+LAL testing kits available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## References
 
 1. Cooper JF. "Resolving LAL test interferences." *PDA J Pharm Sci Technol* 1990;44:13-16.

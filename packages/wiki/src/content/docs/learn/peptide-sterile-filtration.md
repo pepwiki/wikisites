@@ -198,6 +198,8 @@ Sterile filtration is the most common method for achieving sterility in injectab
 | Particulates in filtrate | Filter bypass, pre-filter failure | Check filter integrity, add pre-filter |
 | Peptide aggregation | Incompatible filter, shear stress | Change filter material, reduce pressure |
 
+Filtration supplies available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## Filter Sizing Calculator
 
 | Parameter | Formula | Example |

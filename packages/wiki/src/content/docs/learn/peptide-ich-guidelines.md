@@ -232,6 +232,8 @@ The International Council for Harmonisation (ICH) provides harmonized guidelines
 7. **Peptide-specific considerations** include deamidation, oxidation, aggregation, and D-amino acid formation
 8. **Regulatory submission** requires comprehensive CMC documentation covering development through commercial manufacture
 
+Reference standards available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## See Also
 
 - [Regulatory Submission](/learn/peptide-regulatory-submission) — NDA/BLA filing requirements and strategies

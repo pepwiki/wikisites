@@ -231,6 +231,8 @@ GMP validation is a systematic process demonstrating that manufacturing processe
 | Deviation reports | Non-conformance investigation | As needed |
 | CAPA reports | Corrective action | As needed |
 
+Validation standards available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## References
 
 - [Peptide GMP Manufacturing](/learn/peptide-gmp-manufacturing/)

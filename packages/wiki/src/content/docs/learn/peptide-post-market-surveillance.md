@@ -285,6 +285,8 @@ Post-market surveillance (PMS) is the systematic monitoring of a drug's safety p
 | CAPA records | Ongoing | 10+ years |
 | Training records | Ongoing | Duration of employment + 3 years |
 
+Monitoring supplies available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## References
 
 - [Peptide Post-Market Surveillance](/learn/peptide-post-market-surveillance/)

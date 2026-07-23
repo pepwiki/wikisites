@@ -262,6 +262,8 @@ Where:
 7. **Bioanalytical methods** (LC-MS/MS, ELISA) must meet stringent validation criteria for PK studies
 8. **PK/PD modeling** integrates exposure-response relationships for rational dose selection
 
+Research compounds available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## See Also
 
 - [Clinical Dosing](/reference/peptide-clinical-dosing) — Dose recommendations and titration protocols for approved peptides

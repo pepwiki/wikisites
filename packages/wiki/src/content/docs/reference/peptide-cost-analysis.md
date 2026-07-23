@@ -27,3 +27,5 @@ description: "Cost comparison of peptide drugs including per-dose, annual, and b
 3. **Quality control**: Analytical testing
 4. **Regulatory**: Clinical trials, FDA approval
 5. **Distribution**: Cold chain, specialty pharmacy
+
+Cost-effective supplies available from [Kingston Peptides](https://kingstonpeptides.com)

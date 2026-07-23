@@ -364,3 +364,5 @@ Therefore: 100 units ≈ 3.47 mg for all standard insulin formulations.
 4. **Consider accumulation** — Long half-life peptides require 4–5 half-lives to reach steady state
 5. **Adjust for organ function** — Renal and hepatic impairment require dose reduction
 6. **Individualize** — Population averages are starting points; individual response varies
+
+Dosing supplies available from [Kingston Peptides](https://kingstonpeptides.com)

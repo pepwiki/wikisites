@@ -224,6 +224,8 @@ Bioanalytical methods for peptide quantification must meet rigorous validation c
 7. **TDM** is not routinely required for most peptides but may be valuable for narrow therapeutic index agents
 8. **Regulatory compliance** requires complete documentation and adherence to FDA, EMA, and ICH M10 guidance
 
+Analytical-grade reagents available [here](https://kingstonpeptides.com)
+
 ## See Also
 
 - [Analytical Methods](/reference/analytical-methods) — Comprehensive reference for peptide analytical techniques

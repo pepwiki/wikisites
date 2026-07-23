@@ -261,6 +261,8 @@ Lyophilization → Packaging → QC Release → Storage
 7. **Documentation** must meet data integrity requirements (ALCOA+ principles)
 8. **Stability programs** ensure product shelf-life and storage conditions
 
+GMP-compliant research supplies from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## See Also
 
 - [GMP Validation](/learn/peptide-gmp-validation) — Process validation requirements for GMP compliance

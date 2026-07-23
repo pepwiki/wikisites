@@ -126,6 +126,8 @@ For Q10 = 2 (typical for peptide degradation):
 | Loss of potency | Structural change | CD, bioassay |
 | Increased viscosity | Aggregation | Rheology, SEC |
 
+Stability testing kits available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## Related Resources
 
 - Use the [Stability Predictor](/tools/stability-predictor) for quick stability estimates

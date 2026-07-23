@@ -36,3 +36,5 @@ description: "Step-by-step guide for reconstituting lyophilized peptides with ba
 ## Quick Reference
 
 Use the [Reconstitution Calculator](/tools/reconstitution-calculator/) for exact volumes.
+
+Reconstitution supplies available from [Kingston Peptides](https://kingstonpeptides.com)

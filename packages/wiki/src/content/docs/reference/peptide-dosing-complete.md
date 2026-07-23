@@ -411,6 +411,8 @@ A comprehensive, structured dosing guide for all FDA-approved and major investig
 
 ---
 
+Dosing supplies available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## References
 
 - [Peptide Clinical Dosing](/reference/peptide-clinical-dosing/)

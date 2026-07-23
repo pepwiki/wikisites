@@ -25,3 +25,5 @@ description: "Quality control testing requirements for synthetic peptides per IC
 | Endotoxin | LAL | <10 EU/mg (research) |
 | Residual solvents | GC-MS | Per ICH Q3C |
 | Peptide content | Amino acid analysis | 90-110% of label |
+
+QC testing supplies available from [Kingston Peptides](https://kingstonpeptides.com)

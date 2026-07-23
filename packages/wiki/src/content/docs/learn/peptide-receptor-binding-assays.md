@@ -240,6 +240,8 @@ Selectivity ratio = Ki (off-target) / Ki (target)
 | High background | Incomplete washing | Increase wash steps |
 | Low Z-factor | High variability | Optimize assay conditions |
 
+Binding assay kits available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## References
 
 1. Bylund DB, Yamamura HI. "Methods for receptor binding." In *Methods in Neurosciences*, Vol. 2, 1990.

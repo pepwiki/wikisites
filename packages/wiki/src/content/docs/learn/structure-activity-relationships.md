@@ -192,6 +192,8 @@ Understanding SAR is essential for designing peptides with improved potency, sel
 - Safety assessment
 - Formulation development
 
+Research peptides available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## Related Resources
 
 - Use [Sequence Designer](/tools/sequence-designer) for SAR-guided design

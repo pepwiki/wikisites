@@ -38,3 +38,5 @@ description: "Optimal storage conditions for lyophilized and reconstituted pepti
 3. **Aliquot before freezing** (avoid freeze-thaw cycles)
 4. **Protect from light** (photodegradation of aromatic residues)
 5. **Track expiry dates** (label vials with date and concentration)
+
+Storage supplies available from [Kingston Peptides](https://kingstonpeptides.com)
