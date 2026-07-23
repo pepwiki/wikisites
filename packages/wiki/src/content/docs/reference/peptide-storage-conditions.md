@@ -1,6 +1,6 @@
 ---
-title: "Peptide Storage Conditions"
-description: "Optimal storage conditions for lyophilized and reconstituted peptides."
+title: "Peptide Storage Conditions — Temperature and Humidity"
+description: "Optimal storage conditions for lyophilized and reconstituted peptides including temperature ranges, light protection, humidity control, and container compatibility."
 ---
 # Peptide Storage Conditions
 

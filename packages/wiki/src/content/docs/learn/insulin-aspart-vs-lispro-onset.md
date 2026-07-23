@@ -1,6 +1,6 @@
 ---
-title: Insulin Aspart vs Lispro
-description: Comparative pharmacokinetic analysis of insulin aspart and insulin lispro — onset profiles, peak timing, duration, and clinical implications for postprandial glucose control.
+title: "Insulin Aspart vs Lispro Onset — Pharmacokinetics"
+description: "Comparative pharmacokinetic analysis of insulin aspart and insulin lispro — onset profiles, peak timing, duration, and clinical implications for glucose control."
 ---
 
 Insulin aspart (NovoRapid/Novolog) and insulin lispro (Humalog) are the two most widely used rapid-acting insulin analogues. Despite sharing the same pharmacological class, they differ subtly in pharmacokinetic profiles, formulation options, and clinical positioning. Understanding these distinctions informs optimal postprandial glucose management.

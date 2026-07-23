@@ -1,6 +1,6 @@
 ---
-title: "Peptide Quality Control"
-description: "Quality control testing requirements for synthetic peptides per ICH guidelines."
+title: "Peptide Quality Control — ICH Testing Requirements"
+description: "Quality control testing requirements for synthetic peptides per ICH guidelines including identity, purity, potency, and stability assays for pharmaceutical release."
 ---
 # Peptide Quality Control
 

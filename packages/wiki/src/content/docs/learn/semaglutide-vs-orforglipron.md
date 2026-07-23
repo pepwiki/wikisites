@@ -1,5 +1,5 @@
 ---
-title: Semaglutide vs Orforglipron
+title: "Semaglutide vs Orforglipron — Injectable vs Oral GLP-1"
 description: Injectable vs oral non-peptide GLP-1 receptor agonist — pharmacokinetic differences, efficacy data, tolerability profiles, and clinical positioning.
 ---
 

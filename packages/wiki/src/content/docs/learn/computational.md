@@ -1,6 +1,6 @@
 ---
-title: Computational Design
-description: Advanced computational methods for peptide design, including molecular dynamics, docking, and AI-driven approaches.
+title: "Computational Design — AI-Driven Peptide Engineering"
+description: "Advanced computational methods for peptide design, including molecular dynamics simulations, docking studies, AI-driven approaches, and machine learning optimization."
 ---
 
 ## Introduction

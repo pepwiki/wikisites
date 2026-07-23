@@ -1,6 +1,6 @@
 ---
-title: Semaglutide vs Tirzepatide
-description: Pharmacoeconomic comparison of semaglutide and tirzepatide — drug costs, quality-adjusted life years, incremental cost-effectiveness ratios, and payer coverage strategies.
+title: "Semaglutide vs Tirzepatide Cost — Economics Analysis"
+description: "Pharmacoeconomic comparison of semaglutide and tirzepatide — drug costs, quality-adjusted life years, cost-effectiveness ratios, and payer coverage strategies."
 ---
 
 Semaglutide and tirzepatide represent two generations of incretin-based therapy. Semaglutide is a GLP-1 receptor agonist; tirzepatide is a dual GIP/GLP-1 receptor agonist. Both achieve substantial HbA1c reduction and weight loss, but differ in acquisition cost, dosing frequency, and pharmacoeconomic profile. This analysis compares their cost-effectiveness across clinical and economic dimensions.

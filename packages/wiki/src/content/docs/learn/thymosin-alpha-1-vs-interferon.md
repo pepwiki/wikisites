@@ -1,6 +1,6 @@
 ---
 title: Thymosin Alpha-1 vs Interferon
-description: Immunomodulatory comparison of thymosin alpha-1 (Tα1) and interferon (IFN-α/IFN-β) — mechanisms of immune activation, antiviral activity, clinical applications, and safety profiles.
+description: "Immunomodulatory comparison of thymosin alpha-1 (Tα1) and interferon (IFN-α/IFN-β) — mechanisms of immune activation, antiviral activity, and safety profiles."
 ---
 
 Thymosin alpha-1 (Tα1) and interferon-alpha (IFN-α) are both immunomodulatory proteins with clinical applications in viral infections, cancer, and immune deficiency. However, they operate through fundamentally different mechanisms: Tα1 enhances endogenous immune responses through thymic signaling, while IFN-α directly activates antiviral and antiproliferative pathways. Understanding their distinct pharmacology is essential for rational immunotherapy selection.

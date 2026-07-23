@@ -1,6 +1,6 @@
 ---
-title: VIP vs L-Arginine
-description: Analysis of vasoactive intestinal peptide (VIP) and L-arginine in nitric oxide signaling — convergent vasodilatory mechanisms, distinct molecular pathways, and clinical applications.
+title: "VIP vs L-Arginine — Nitric Oxide Signaling Pathways"
+description: "Analysis of VIP and L-arginine in nitric oxide signaling — convergent vasodilatory mechanisms, distinct molecular pathways, and clinical applications."
 ---
 
 VIP and L-arginine both contribute to vasodilation and NO-mediated signaling, but through distinct molecular mechanisms. VIP activates adenylate cyclase via VPAC receptors, producing cAMP-dependent vasodilation and eNOS upregulation. L-arginine is the direct substrate for nitric oxide synthase (NOS), providing the raw material for NO production. Their comparison illustrates the distinction between receptor-mediated vasodilation and substrate-dependent NO synthesis.

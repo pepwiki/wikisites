@@ -1,6 +1,6 @@
 ---
-title: 20 Standard Amino Acids
-description: A comprehensive guide to the 20 standard amino acids, their classifications, properties, and codes.
+title: "20 Standard Amino Acids — Classification and Properties"
+description: "A comprehensive guide to the 20 standard amino acids, their classifications, properties, and genetic codes including essential and conditionally essential categories."
 ---
 
 ## Introduction

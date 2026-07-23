@@ -1,6 +1,6 @@
 ---
-title: "Peptide Dosing Complete"
-description: "Comprehensive dosing guide for all FDA-approved peptides and major investigational peptides — routes, frequencies, titration, and special populations."
+title: "Peptide Dosing Complete — All Therapeutic Protocols"
+description: "Evidence-based dosing protocols for FDA-approved and investigational peptide drugs including titration schedules and patient-specific optimization strategies."
 ---
 
 # Complete Peptide Dosing Reference

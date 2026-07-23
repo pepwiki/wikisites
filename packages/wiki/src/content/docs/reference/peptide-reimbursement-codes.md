@@ -1,6 +1,6 @@
 ---
-title: Peptide Reimbursement Codes
-description: Insurance billing codes for peptide therapeutics — HCPCS/CPT codes, ICD-10 diagnosis codes, prior authorization requirements, and reimbursement optimization strategies.
+title: "Peptide Reimbursement Codes — HCPCS and CPT Reference"
+description: "Insurance billing codes for peptide therapeutics — HCPCS/CPT codes, ICD-10 diagnosis codes, prior authorization requirements, and reimbursement optimization."
 ---
 
 Peptide therapeutics require specific billing codes for insurance reimbursement. This reference provides HCPCS/CPT codes, ICD-10 diagnosis codes, prior authorization pathways, and reimbursement optimization strategies for major peptide classes.

@@ -1,5 +1,5 @@
 ---
-title: BPC-157 vs KPV Analysis
+title: "BPC-157 vs KPV Analysis — Gut Healing Peptide Data"
 description: Comparative analysis of BPC-157 and KPV — gut peptide sequences, mechanisms of gastrointestinal protection, anti-inflammatory pathways, and therapeutic a.
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: Receptor Binding
-description: Understanding receptor types, ligand binding kinetics, and dose-response relationships in peptide pharmacology.
+title: "Receptor Binding — Peptide Pharmacodynamics Overview"
+description: "Understanding receptor types, ligand binding kinetics, and dose-response relationships in peptide pharmacology including GPCRs, RTKs, and ion channel-coupled receptors."
 ---
 
 ## Introduction

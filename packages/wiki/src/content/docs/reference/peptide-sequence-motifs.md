@@ -1,5 +1,5 @@
 ---
-title: "Peptide Sequence Motifs"
+title: "Peptide Sequence Motifs — Structure-Function Patterns"
 description: Reference table of common peptide sequence motifs, their biological functions, structural implications, and significance in drug design.
 ---
 

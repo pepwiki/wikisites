@@ -1,5 +1,5 @@
 ---
-title: Semaglutide vs Empagliflozin
+title: "Semaglutide vs Empagliflozin — GLP-1 vs SGLT2 in T2D"
 description: Comparison of the GLP-1 receptor agonist semaglutide and the SGLT2 inhibitor empagliflozin — mechanisms, cardiovascular outcomes, weight effects, and c.
 ---
 

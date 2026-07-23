@@ -1,6 +1,6 @@
 ---
-title: "Peptide Reconstitution Guide"
-description: "Step-by-step guide for reconstituting lyophilized peptides with bacteriostatic water."
+title: "Peptide Reconstitution Guide — Diluent Selection Data"
+description: "Step-by-step guide for reconstituting lyophilized peptides with bacteriostatic water including volume calculations, technique optimization, and contamination prevention."
 ---
 # Peptide Reconstitution Guide
 

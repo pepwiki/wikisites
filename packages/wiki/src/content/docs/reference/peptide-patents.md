@@ -1,5 +1,5 @@
 ---
-title: Peptide Patents
+title: "Peptide Patents — Intellectual Property Landscape"
 description: Key patent expirations and licensing opportunities for therapeutic peptides — blockbuster patents, biosimilar opportunities, and IP landscape.
 ---
 

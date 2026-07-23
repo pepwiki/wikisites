@@ -1,5 +1,5 @@
 ---
-title: Retatrutide vs Tirzepatide
+title: "Retatrutide vs Tirzepatide — Triple vs Dual Agonist"
 description: Comparison of retatrutide (triple agonist) and tirzepatide (dual agonist) — mechanisms, efficacy, and development status.
 ---
 

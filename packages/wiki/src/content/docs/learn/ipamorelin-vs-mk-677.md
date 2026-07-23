@@ -1,5 +1,5 @@
 ---
-title: Ipamorelin vs MK-677
+title: "Ipamorelin vs MK-677 — Selective vs Non-selective GH"
 description: Comparison of ipamorelin and MK-677 (ibutamoren) — ghrelin mimetics, GH secretagogue selectivity, cortisol effects, oral bioavailability, and pulsatility.
 ---
 

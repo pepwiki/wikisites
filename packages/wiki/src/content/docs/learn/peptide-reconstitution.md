@@ -1,5 +1,5 @@
 ---
-title: "Peptide Reconstitution"
+title: "Peptide Reconstitution — Diluent and Technique Guide"
 description: Complete guide to peptide reconstitution — buffer selection, techniques, concentration calculations, and storage after reconstitution.
 ---
 

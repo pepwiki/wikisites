@@ -1,5 +1,5 @@
 ---
-title: Oxymetazoline vs Brimonidine
+title: "Oxymetazoline vs Brimonidine — Alpha-Agonist Comparison"
 description: Comparison of alpha-adrenergic agonists — oxymetazoline for nasal congestion and facial erythema vs brimonidine for glaucoma and rosacea.
 ---
 

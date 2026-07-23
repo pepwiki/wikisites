@@ -1,5 +1,5 @@
 ---
-title: Mounjaro vs Ozempic
+title: "Mounjaro vs Ozempic — GLP-1 vs Dual Agonist Comparison"
 description: Comparison of Mounjaro (tirzepatide) and Ozempic (semaglutide) — brand names, indications, dosing, efficacy, cost, and insurance coverage.
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "Peptide Cost Analysis"
-description: "Cost comparison of peptide drugs including per-dose, annual, and biosimilar savings."
+title: "Peptide Cost Analysis — Pricing and Biosimilar Economics"
+description: "Cost comparison of peptide drugs including per-dose pricing, annual treatment costs, biosimilar savings, insurance coverage considerations, and patient assistance."
 ---
 # Peptide Drug Cost Analysis
 

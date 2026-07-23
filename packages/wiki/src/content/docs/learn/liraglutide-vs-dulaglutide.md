@@ -1,5 +1,5 @@
 ---
-title: Liraglutide vs Dulaglutide
+title: "Liraglutide vs Dulaglutide — GLP-1 RA Comparison"
 description: Comparison of liraglutide and dulaglutide — fatty acylation vs Fc-fusion conjugation strategies, pharmacokinetics, efficacy, and clinical positioning for G.
 ---
 

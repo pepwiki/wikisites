@@ -1,6 +1,6 @@
 ---
-title: VIP vs Sildenafil
-description: Comparison of vasoactive intestinal peptide (VIP) and sildenafil for erectile dysfunction — direct smooth muscle relaxation vs PDE5 inhibition, efficacy data, and combination therapy potential.
+title: "VIP vs Sildenafil — Erectile Dysfunction Treatment"
+description: "Comparison of VIP and sildenafil for erectile dysfunction — direct smooth muscle relaxation vs PDE5 inhibition, efficacy data, and combination therapy potential."
 ---
 
 VIP and sildenafil represent fundamentally different pharmacological approaches to erectile dysfunction (ED). VIP is an endogenous neuropeptide that directly relaxes cavernosal smooth muscle via cAMP signaling; sildenafil is a synthetic phosphodiesterase type 5 (PDE5) inhibitor that amplifies endogenous nitric oxide (NO) signaling. Understanding their distinct mechanisms, efficacy profiles, and complementary potential is essential for informed therapeutic selection.

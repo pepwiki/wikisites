@@ -1,6 +1,6 @@
 ---
-title: Peptide Half-Life Comparison
-description: Comprehensive half-life data for therapeutic peptides — from minutes to weeks, with modification strategies.
+title: "Peptide Half-Life Comparison — Duration of Action Data"
+description: "Comprehensive half-life data for therapeutic peptides — from minutes to weeks, with modification strategies including PEGylation, lipidation, and albumin binding."
 ---
 
 The half-life of a peptide determines its dosing frequency, therapeutic window, and clinical utility. Native peptides range from seconds (GLP-1, insulin) to hours (oxytocin), while engineered analogues achieve half-lives of days to weeks through structural modifications. Understanding what controls peptide half-life — and how to extend it — is fundamental to rational peptide drug design.

@@ -1,5 +1,5 @@
 ---
-title: Oxytocin vs Desmopressin
+title: "Oxytocin vs Desmopressin — Antidiuretic Hormone Analogs"
 description: Head-to-head comparison of oxytocin and desmopressin — vasopressin family peptides, receptor selectivity, pharmacokinetics, and clinical applications.
 ---
 

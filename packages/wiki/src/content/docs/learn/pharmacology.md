@@ -1,5 +1,5 @@
 ---
-title: Therapeutic Peptides
+title: "Therapeutic Peptides — Pharmacology Overview Guide"
 description: Overview of FDA-approved peptide drugs, their mechanisms of action, pharmacokinetics, and key challenges in peptide therapeutics development and delivery.
 ---
 

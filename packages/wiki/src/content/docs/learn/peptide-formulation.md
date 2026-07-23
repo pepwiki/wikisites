@@ -1,5 +1,5 @@
 ---
-title: "Peptide Formulation"
+title: "Peptide Formulation — Drug Product Development Guide"
 description: Guide to peptide formulation development — excipient selection, dosage forms, stability considerations, and delivery system design.
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Semaglutide vs Tirzepatide
+title: "Semaglutide vs Tirzepatide — GLP-1 vs Dual Agonist"
 description: Head-to-head comparison of semaglutide and tirzepatide — mechanism, efficacy, dosing, side effects, and clinical evidence.
 ---
 

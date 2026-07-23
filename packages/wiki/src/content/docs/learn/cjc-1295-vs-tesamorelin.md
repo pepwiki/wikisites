@@ -1,5 +1,5 @@
 ---
-title: CJC-1295 vs Tesamorelin
+title: "CJC-1295 vs Tesamorelin — GHRH Analog Comparison"
 description: Comparison of GHRH analogs — CJC-157 (modified GRF 1-29) and tesamorelin for growth hormone deficiency, pharmacokinetics, and clinical applications
 ---
 

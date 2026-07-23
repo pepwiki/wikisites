@@ -1,6 +1,6 @@
 ---
 title: "Peptide Drug Interactions Complete"
-description: "Comprehensive database of 100+ peptide-drug interactions with severity, mechanism, and clinical management recommendations."
+description: "Comprehensive database of peptide-drug interactions with severity ratings and clinical recommendations for managing combination therapy in metabolic conditions."
 ---
 
 # Complete Peptide Drug Interactions Reference

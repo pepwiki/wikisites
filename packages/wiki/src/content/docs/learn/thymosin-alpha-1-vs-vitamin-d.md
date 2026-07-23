@@ -1,6 +1,6 @@
 ---
-title: Thymosin Alpha-1 vs Vitamin D
-description: Comparative analysis of thymosin alpha-1 (peptide immunomodulator) and vitamin D (secosteroid hormone) — immune pathways, clinical applications, and synergistic potential.
+title: "Thymosin Alpha-1 vs Vitamin D — Immune Modulation"
+description: "Comparative analysis of thymosin alpha-1 (peptide immunomodulator) and vitamin D (secosteroid hormone) — immune pathways, clinical applications, and synergy."
 ---
 
 Thymosin alpha-1 (Tα1) and vitamin D (calcitriol) both modulate immune function, but through distinct molecular mechanisms. Tα1 is a 28-amino acid thymic peptide acting primarily on T-cell maturation and NK cell function; vitamin D is a secosteroid hormone acting through the vitamin D receptor (VDR) on multiple immune cell types. Their comparison illuminates convergent immune pathways targeted by different molecular classes.

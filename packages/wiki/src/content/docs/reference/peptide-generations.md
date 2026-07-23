@@ -1,5 +1,5 @@
 ---
-title: Peptide Drug Generations
+title: "Peptide Drug Generations — Evolution of Therapeutics"
 description: Evolution of peptide drug generations — from native peptides to peptidomimetics, stapled peptides, and next-generation modalities.
 ---
 

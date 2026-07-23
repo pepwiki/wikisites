@@ -1,5 +1,5 @@
 ---
-title: Peptide Clinical Trial Design
+title: "Peptide Clinical Trial Design — Study Methodology"
 description: Comprehensive guide to clinical trial design for peptide drugs — study phases, endpoints, statistical considerations, and regulatory strategy.
 ---
 

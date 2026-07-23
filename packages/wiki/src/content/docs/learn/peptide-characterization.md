@@ -1,6 +1,6 @@
 ---
-title: "Peptide Characterization"
-description: Complete guide to peptide characterization — identity confirmation, purity analysis, structural characterization, and quality control specifications.
+title: "Peptide Characterization — Analytical Identification"
+description: "Comprehensive guide to peptide characterization techniques including mass spectrometry, NMR, CD spectroscopy, HPLC, and bioanalytical methods for structure confirmation."
 ---
 
 # Peptide Characterization

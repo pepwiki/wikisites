@@ -1,5 +1,5 @@
 ---
-title: CJC-1295 DAC vs Mod GRF 1-29
+title: "CJC-1295 DAC vs Mod GRF 1-29 — GHRH Analog Potency"
 description: Comparison of Growth Hormone Releasing Hormone analogs — CJC-1295 with Drug Affinity Complex (DAC) for sustained release vs Modified GRF 1-29 for pulsatile G.
 ---
 

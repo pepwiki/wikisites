@@ -1,5 +1,5 @@
 ---
-title: Peptide ICH Guidelines
+title: "Peptide ICH Guidelines — Regulatory Quality Standards"
 description: International Council for Harmonisation guidelines relevant to peptide drug development — Q-series, stability testing, impurity control, and quality r.
 ---
 

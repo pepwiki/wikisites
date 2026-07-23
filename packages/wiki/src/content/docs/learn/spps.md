@@ -1,6 +1,6 @@
 ---
-title: Solid-Phase Synthesis
-description: Advanced guide to solid-phase peptide synthesis (SPPS), including Fmoc strategy, coupling reagents, and purification.
+title: "Solid-Phase Synthesis — Peptide Manufacturing Methods"
+description: "Advanced guide to solid-phase peptide synthesis (SPPS), including Fmoc strategy, coupling reagents, resin selection, and purification for difficult sequences."
 ---
 
 ## Introduction

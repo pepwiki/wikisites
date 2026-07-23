@@ -1,6 +1,6 @@
 ---
-title: "Peptide Safety Data"
-description: "Safety profiles, adverse events, and contraindications for common peptide drugs."
+title: "Peptide Safety Data — Clinical Safety Profiles"
+description: "Safety profiles, adverse events, and contraindications for common peptide drugs including injection site reactions, immunogenicity risk, and drug interactions."
 ---
 # Peptide Safety Data
 

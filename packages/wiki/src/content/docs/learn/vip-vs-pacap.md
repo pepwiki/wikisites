@@ -1,5 +1,5 @@
 ---
-title: VIP vs PACAP
+title: "VIP vs PACAP — VPAC Receptor Selectivity Comparison"
 description: Comparison of vasoactive intestinal peptide (VIP) and pituitary adenylate cyclase-activating polypeptide (PACAP) — shared receptors, distinct pharmacology, a.
 ---
 

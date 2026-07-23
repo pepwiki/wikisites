@@ -1,5 +1,5 @@
 ---
-title: BPC-157 vs Thymosin Beta-4
+title: "BPC-157 vs Thymosin Beta-4 — Tissue Repair Peptides"
 description: Comparison of BPC-157 and Thymosin Beta-4 — mechanisms of tissue repair, stability, clinical evidence, and regulatory status.
 ---
 

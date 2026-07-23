@@ -1,6 +1,6 @@
 ---
-title: VIP vs PACAP
-description: Comparison of VIP and PACAP — VPAC1/VPAC2 vs PAC1 receptor selectivity and signaling pathways.
+title: "VIP vs PACAP Receptor — Pharmacology and Signaling"
+description: "Comparison of VIP and PACAP — VPAC1/VPAC2 vs PAC1 receptor selectivity and signaling pathways including cAMP, calcium mobilization, and tissue-specific effects."
 ---
 
 VIP and PACAP are structurally related neuropeptides with overlapping but distinct receptor pharmacology. VIP primarily activates VPAC receptors (VPAC1, VPAC2), while PACAP activates both VPAC receptors and the PAC1 receptor. This selectivity difference explains their distinct physiological effects.

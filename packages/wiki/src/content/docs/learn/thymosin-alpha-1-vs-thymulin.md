@@ -1,6 +1,6 @@
 ---
-title: Thymosin Alpha-1 vs Thymulin
-description: Thymic peptide comparison — Tα1's multifunctional immunomodulation vs thymulin's zinc-dependent T-cell maturation.
+title: "Thymosin Alpha-1 vs Thymulin — Thymic Peptide Rx"
+description: "Thymic peptide comparison — Tα1's multifunctional immunomodulation vs thymulin's zinc-dependent T-cell maturation including clinical applications in immunodeficiency."
 ---
 
 Thymosin alpha-1 (Tα1) and thymulin are both thymic peptides involved in T-cell development and immune function, yet they operate through distinct molecular mechanisms. Tα1 is a 28-amino acid peptide with pleiotropic immunomodulatory effects, while thymulin is a nonapeptide whose activity is strictly zinc-dependent.

@@ -1,6 +1,6 @@
 ---
-title: Peptide Reconstitution
-description: Detailed physicochemical principles and precision protocols for reconstituting lyophilized peptides including solvent selection, concentration calculations, and stability considerations
+title: "Peptide Reconstitution — Comprehensive Preparation Guide"
+description: "Step-by-step guide for reconstituting lyophilized peptides with bacteriostatic water including volume calculations, technique optimization, and contamination prevention."
 ---
 
 ## Lyophilization and Its Thermodynamic Basis

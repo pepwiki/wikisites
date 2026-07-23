@@ -1,6 +1,6 @@
 ---
-title: Melanotan II vs Afamelanotide
-description: Detailed mechanism of action comparison for melanotan II and afamelanotide — melanocortin receptor selectivity, signaling pathways, pigmentation kinetics, and off-target effects.
+title: "Melanotan II vs Afamelanotide Mechanism — MC Receptors"
+description: "Detailed mechanism of action comparison for melanotan II and afamelanotide — melanocortin receptor selectivity, signaling pathways, and pigmentation kinetics."
 ---
 
 Melanotan II and afamelanotide (melanotan I) are synthetic α-melanocyte-stimulating hormone (α-MSH) analogues that promote skin pigmentation through melanocortin receptor activation. However, they differ fundamentally in receptor selectivity — melanotan II activates MC1R, MC3R, MC4R, and MC5R, while afamelanotide is engineered for MC1R selectivity. These selectivity differences produce distinct pigmentation kinetics, side effect profiles, and clinical applications.

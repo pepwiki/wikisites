@@ -1,6 +1,6 @@
 ---
 title: "Peptide Drug Interactions Database"
-description: "Comprehensive database of peptide-drug interactions with severity ratings and clinical recommendations."
+description: "Comprehensive database of peptide-drug interactions with severity ratings and clinical recommendations for combination therapy in metabolic and oncologic conditions."
 ---
 
 # Peptide Drug Interactions Database

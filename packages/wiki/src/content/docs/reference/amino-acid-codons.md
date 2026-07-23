@@ -1,5 +1,5 @@
 ---
-title: "Amino Acid Codon Table"
+title: "Amino Acid Codon Table — Genetic Code Reference"
 description: Complete codon table with degeneracy, wobble rules, and amino acid frequency — reference for codon optimization and peptide design.
 ---
 

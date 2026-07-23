@@ -1,6 +1,6 @@
 ---
-title: Protein Structure Levels
-description: Understanding the four levels of protein structure — primary, secondary, tertiary, and quaternary — and the forces that stabilize each level in peptide and protein biology.
+title: "Protein Structure Levels — Primary to Quaternary"
+description: "Understanding the four levels of protein structure — primary, secondary, tertiary, and quaternary — and the forces that stabilize each level."
 ---
 
 ## Introduction

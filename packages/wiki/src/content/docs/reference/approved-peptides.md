@@ -1,5 +1,5 @@
 ---
-title: "FDA-Approved Peptide Drugs"
+title: "FDA-Approved Peptide Drugs — Complete Therapeutic List"
 description: Complete reference of FDA-approved peptide therapeutics with approval year, indication, mechanism, sponsor, and route of administration.
 ---
 

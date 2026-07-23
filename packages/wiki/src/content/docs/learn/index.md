@@ -1,5 +1,5 @@
 ---
-title: Learning Paths
+title: "Learning Paths — Peptide Education Roadmap"
 description: Explore our comprehensive learning paths for oligopeptide biology — from amino acid fundamentals to advanced clinical peptide therapeutics and research methods
 ---
 

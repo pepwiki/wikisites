@@ -1,6 +1,6 @@
 ---
-title: Oxytocin vs Ocitocin (Nasal)
-description: Formulation comparison of oxytocin and ocitocin — nasal spray bioavailability, pharmacokinetics, receptor binding, and clinical applications.
+title: "Oxytocin vs Ocitocin Nasal — Intranasal Formulations"
+description: "Comparative pharmacokinetic analysis of oxytocin (injectable) and Ocitocin (intranasal) — bioavailability, CNS penetration, and clinical applications."
 ---
 
 Oxytocin and ocitocin represent the same neuropeptide administered through distinct nasal formulations that affect bioavailability, distribution, and clinical utility. Oxytocin is the native nine-amino acid neuropeptide, while ocitocin refers to the synthetic form optimized for nasal delivery with enhanced mucosal absorption characteristics.

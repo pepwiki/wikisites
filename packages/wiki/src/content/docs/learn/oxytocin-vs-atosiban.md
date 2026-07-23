@@ -1,5 +1,5 @@
 ---
-title: Oxytocin vs Atosiban
+title: "Oxytocin vs Atosiban — Uterine Contraction Modulation"
 description: Tocolytic comparison of oxytocin and atosiban — oxytocin receptor pharmacology, competitive antagonism, preterm labor management, and clinical outcomes.
 ---
 

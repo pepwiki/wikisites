@@ -1,5 +1,5 @@
 ---
-title: Melanotan II vs PT-141
+title: "Melanotan II vs PT-141 Selectivity — MC4R Targeting"
 description: Detailed comparison of melanocortin receptor selectivity for melanotan II and PT-141 (bremelanotide) — MC3R vs MC4R activation, pigmentation, and sexual f.
 ---
 

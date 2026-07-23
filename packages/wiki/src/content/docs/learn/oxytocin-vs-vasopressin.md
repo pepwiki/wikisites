@@ -1,5 +1,5 @@
 ---
-title: Oxytocin vs Vasopressin
+title: "Oxytocin vs Vasopressin — Neurohypophyseal Hormones"
 description: Comparison of oxytocin and vasopressin — two amino acid difference, uterine vs renal effects, social bonding vs water retention, and receptor selectivity.
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Heparin vs Enoxaparin
+title: "Heparin vs Enoxaparin — Anticoagulant Peptide Comparison"
 description: Comparison of unfractionated heparin and enoxaparin — molecular weight differences, anticoagulation mechanisms, monitoring requirements, onset profiles, r.
 ---
 

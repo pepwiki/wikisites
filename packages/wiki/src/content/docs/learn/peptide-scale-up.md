@@ -1,5 +1,5 @@
 ---
-title: "Peptide Scale-Up"
+title: "Peptide Scale-Up — Manufacturing Process Optimization"
 description: Guide to peptide manufacturing scale-up — from bench to production, GMP requirements, equipment selection, and process optimization.
 ---
 

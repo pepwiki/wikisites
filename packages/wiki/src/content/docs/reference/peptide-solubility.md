@@ -1,5 +1,5 @@
 ---
-title: Peptide Solubility
+title: "Peptide Solubility — Dissolution and Buffer Selection"
 description: Solubility data and prediction rules for therapeutic peptides — GRAVY indices, pI values, formulation strategies, and experimental methods.
 ---
 

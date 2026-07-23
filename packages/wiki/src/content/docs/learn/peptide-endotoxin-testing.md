@@ -1,6 +1,6 @@
 ---
-title: Peptide Endotoxin Testing
-description: Endotoxin testing protocols for therapeutic peptides — LAL testing, endotoxin removal methods, and regulatory compliance for injectable peptide products.
+title: "Peptide Endotoxin Testing — LAL and rFC Methods"
+description: "Comprehensive guide to endotoxin testing for peptide therapeutics — LAL assay, rFC method, validation requirements, and regulatory compliance for injectables."
 ---
 
 Endotoxins (lipopolysaccharides, LPS) are pyrogenic components of Gram-negative bacterial cell walls that can cause fever, sepsis, and death when present in injectable products. This protocol covers endotoxin testing methods, removal strategies, and regulatory requirements for therapeutic peptides.

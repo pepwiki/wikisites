@@ -1,5 +1,5 @@
 ---
-title: Collagen vs Elastin Peptides
+title: "Collagen vs Elastin Peptides — Structural Protein Rx"
 description: Comparison of collagen and elastin peptides — triple helix vs random coil structure, strength vs elasticity function, supplementation strategies, b.
 ---
 

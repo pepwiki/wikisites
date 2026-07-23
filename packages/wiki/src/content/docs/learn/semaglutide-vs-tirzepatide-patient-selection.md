@@ -1,6 +1,6 @@
 ---
-title: Semaglutide vs Tirzepatide
-description: Evidence-based patient selection for semaglutide vs tirzepatide — BMI thresholds, comorbidity profiles, cardiovascular risk, and treatment optimization strategies.
+title: "Semaglutide vs Tirzepatide Patient Selection — Choosing"
+description: "Evidence-based patient selection for semaglutide vs tirzepatide — BMI thresholds, comorbidity profiles, cardiovascular risk, and treatment optimization."
 ---
 
 Semaglutide (GLP-1 receptor agonist) and tirzepatide (dual GIP/GLP-1 receptor agonist) are the two most effective incretin-based therapies for type 2 diabetes and obesity. While both achieve substantial HbA1c reduction and weight loss, they differ in efficacy magnitude, cardiovascular outcome data, cost, and patient-specific response patterns. Optimal patient selection requires matching individual characteristics to each agent's strengths.

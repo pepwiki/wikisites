@@ -1,6 +1,6 @@
 ---
-title: BPC-157 vs KPV
-description: Comparison of the 15-amino acid gastric peptide BPC-157 and the tripeptide KPV (alpha-MSH fragment) — gut healing, anti-inflammatory mechanisms, and r.
+title: "BPC-157 vs KPV — Gastric Peptide vs Tripeptide"
+description: "Comparative analysis of BPC-157 and KPV for gastrointestinal protection — gut peptide sequences, mechanisms of mucosal defense, and anti-inflammatory pathways."
 ---
 
 BPC-157 and KPV are both gut-derived peptides with anti-inflammatory and tissue-healing properties, but they differ fundamentally in size, mechanism, and evidence base. BPC-157 is a 15-amino acid fragment of human gastric juice with systemic healing effects, while KPV is a tripeptide (Lys-Pro-Val) representing the C-terminal anti-inflammatory domain of alpha-melanocyte-stimulating hormone (α-MSH).

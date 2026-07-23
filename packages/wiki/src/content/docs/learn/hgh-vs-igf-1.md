@@ -1,5 +1,5 @@
 ---
-title: HGH vs IGF-1
+title: "HGH vs IGF-1 — Growth Hormone vs Insulin-like Growth Factor"
 description: Comparison of human growth hormone (HGH) and insulin-like growth factor 1 (IGF-1) — mechanisms, pulsatility, production sites, side effects, and clinical a.
 ---
 

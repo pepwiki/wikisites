@@ -1,5 +1,5 @@
 ---
-title: Peptide Reimbursement
+title: "Peptide Reimbursement — Insurance Coverage Strategies"
 description: Insurance coverage and reimbursement status for therapeutic peptides — payer policies, prior authorization requirements, and cost mitigation strategies.
 ---
 

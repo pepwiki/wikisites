@@ -1,5 +1,5 @@
 ---
-title: Melanotan I vs Afamelanotide
+title: "Melanotan I vs Afamelanotide — MC1R Agonist Comparison"
 description: Comparison of MC1R-selective peptides — melanotan I (afamelanotide precursor) and afamelanotide (Scenesse) for photoprotection, pigmentation, and e.
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: Peptide Stability Data
-description: Comprehensive stability data for 100+ peptides — half-lives, degradation mechanisms, and stabilization strategies across therapeutic peptide classes.
+title: "Peptide Stability Data — Storage and Degradation"
+description: "In-depth analysis of thermodynamic and kinetic principles governing peptide stability across storage conditions including temperature, pH, and formulation factors."
 ---
 
 This reference compiles stability data for over 100 peptides, including half-lives, degradation mechanisms, and evidence-based stabilization strategies. Data are derived from published pharmacokinetic studies, regulatory filings, and peer-reviewed literature.

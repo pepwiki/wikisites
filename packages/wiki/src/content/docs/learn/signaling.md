@@ -1,6 +1,6 @@
 ---
-title: Peptide Signaling
-description: Understanding peptide signaling mechanisms, including autocrine, paracrine, and endocrine signaling pathways.
+title: "Peptide Signaling — Autocrine, Paracrine, Endocrine"
+description: "Understanding peptide signaling mechanisms, including autocrine, paracrine, and endocrine signaling pathways with examples from growth factor and incretin biology."
 ---
 
 ## Introduction

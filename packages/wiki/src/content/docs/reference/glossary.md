@@ -1,5 +1,5 @@
 ---
-title: Glossary
+title: "Peptide Glossary — Comprehensive Reference Guide"
 description: Comprehensive searchable glossary of terminology for oligopeptide biology, chemistry, pharmacology, and clinical research with definitions and context.
 ---
 

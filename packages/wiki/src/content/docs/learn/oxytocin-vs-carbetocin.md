@@ -1,5 +1,5 @@
 ---
-title: Oxytocin vs Carbetocin
+title: "Oxytocin vs Carbetocin — Uterotonic Agent Comparison"
 description: Comparison of oxytocin (short-acting) and carbetocin (long-acting oxytocin analogue) — pharmacokinetics, receptor pharmacology, and obstetric applications.
 ---
 

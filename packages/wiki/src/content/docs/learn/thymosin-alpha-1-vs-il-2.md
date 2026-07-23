@@ -1,6 +1,6 @@
 ---
-title: Tα1 vs IL-2
-description: Immunotherapy comparison of thymosin alpha-1 (Tα1) and interleukin-2 (IL-2) — T-cell activation mechanisms, antitumor immunity, immune reconstitution, and clinical applications in oncology.
+title: "Thymosin Alpha-1 vs IL-2 — Immunotherapy Comparison"
+description: "Immunotherapy comparison of thymosin alpha-1 (Tα1) and interleukin-2 (IL-2) — T-cell activation mechanisms, antitumor immunity, and clinical applications."
 ---
 
 Thymosin alpha-1 (Tα1) and interleukin-2 (IL-2) are both immunomodulatory proteins with clinical applications in cancer and immune deficiency. However, they operate through fundamentally different mechanisms: Tα1 enhances endogenous immune responses through thymic signaling, while IL-2 directly activates T-cell and NK-cell cytotoxicity. Understanding their distinct immunopharmacology is essential for rational immunotherapy selection.

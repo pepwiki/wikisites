@@ -1,6 +1,6 @@
 ---
-title: Peptide Regulatory Status
-description: Global regulatory status for therapeutic peptides — FDA, EMA, PMDA, and TGA approval status, clinical trial phases, and regulatory pathways.
+title: "Peptide Regulatory Status — Global Approval Database"
+description: "Overview of global regulatory frameworks for peptide therapeutics including FDA, EMA, PMDA approval pathways, breakthrough designations, and orphan drug status."
 ---
 
 This reference compiles the regulatory status of therapeutic peptides across major regulatory agencies worldwide, including FDA (USA), EMA (Europe), PMDA (Japan), and TGA (Australia). Data include approval status, indication, approval date, and regulatory pathway.

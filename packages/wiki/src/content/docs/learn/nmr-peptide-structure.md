@@ -1,6 +1,6 @@
 ---
 title: NMR for Peptide Structure Determination
-description: Guide to NMR spectroscopy for peptide structure determination — 1D/2D NMR, NOESY, TOCSY, and structure calculation.
+description: "Guide to NMR spectroscopy for peptide structure determination — 1D/2D NMR techniques, NOESY, TOCSY experiments, and structure calculation methods for analysis."
 ---
 
 Nuclear magnetic resonance (NMR) spectroscopy provides atomic-resolution structural information for peptides in solution. Unlike X-ray crystallography, NMR determines structure under near-physiological conditions, revealing dynamic properties and solvent interactions.

@@ -1,5 +1,5 @@
 ---
-title: CJC-1295 vs Sermorelin
+title: "CJC-1295 vs Sermorelin — Growth Hormone Releasing"
 description: Comparison of CJC-1295 and sermorelin — GRF analog engineering, GHRH receptor pharmacology, half-life optimization, and clinical applications.
 ---
 

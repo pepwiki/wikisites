@@ -1,6 +1,6 @@
 ---
-title: Melanotan II vs Afamelanotide
-description: Regulatory comparison of melanotan II (research chemical) and afamelanotide (Scenesse, FDA-approved) — approval pathways, clinical evidence, and regulatory status by jurisdiction.
+title: "Melanotan II vs Afamelanotide FDA — Approval Status"
+description: "Regulatory comparison of melanotan II (research chemical) and afamelanotide (Scenesse, FDA-approved) — approval pathways, clinical evidence, and jurisdiction status."
 ---
 
 Melanotan II and afamelanotide are both synthetic melanocortin analogues targeting the MC1R and MC3R/MC4R receptors, but their regulatory trajectories diverge significantly. Afamelanotide (Scenesse) received FDA approval in 2019 for erythropoietic protoporphyria (EPP), while melanotan II remains an unapproved research chemical with no regulatory authorization for human use in any major market.

@@ -1,5 +1,5 @@
 ---
-title: Semaglutide vs Liraglutide
+title: "Semaglutide vs Liraglutide — GLP-1 RA Generation"
 description: Head-to-head comparison of semaglutide and liraglutide — mechanism, pharmacokinetics, efficacy, dosing, and clinical evidence across diabetes and obesity.
 ---
 

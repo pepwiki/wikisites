@@ -1,5 +1,5 @@
 ---
-title: TB-500 vs Growth Hormone
+title: "TB-500 vs Growth Hormone — Tissue Repair Peptides"
 description: Comparison of TB-500 (thymosin β4) and growth hormone (GH) — tissue repair mechanisms, pharmacokinetics, IGF-1 axis, and clinical applications for recovery a.
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Insulin Glargine vs Detemir
+title: "Insulin Glargine vs Detemir — Basal Insulin Comparison"
 description: Comparison of insulin glargine and insulin detemir — isoelectric precipitation vs fatty acid albumin binding, pharmacokinetic profiles, and dosing strategies.
 ---
 

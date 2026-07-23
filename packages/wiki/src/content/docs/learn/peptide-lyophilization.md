@@ -1,5 +1,5 @@
 ---
-title: Peptide Lyophilization
+title: "Peptide Lyophilization — Freeze-Drying Optimization"
 description: Comprehensive lyophilization protocols for therapeutic peptides — cycle design, excipient selection, cake appearance optimization, and reconstitution procedures
 ---
 

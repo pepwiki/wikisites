@@ -1,5 +1,5 @@
 ---
-title: GHK-Cu vs BPC-157
+title: "GHK-Cu vs BPC-157 — Tissue Repair Peptide Comparison"
 description: Comparison of GHK-Cu and BPC-157 — copper peptide vs gastric pentadecapeptide, mechanisms, clinical evidence, and safety profiles.
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Peptide Bioanalysis
+title: "Peptide Bioanalysis — Quantification Methods Guide"
 description: Bioanalytical method validation for peptide quantification — chromatographic, immunoassay, and mass spectrometry approaches with regulatory requirements.
 ---
 

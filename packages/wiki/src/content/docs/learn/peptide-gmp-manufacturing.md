@@ -1,5 +1,5 @@
 ---
-title: Peptide GMP Manufacturing
+title: "Peptide GMP Manufacturing — Quality Production Guide"
 description: GMP compliance for peptide manufacturing — quality systems, facility design, process validation, and regulatory requirements for current Good Manufacturing P.
 ---
 

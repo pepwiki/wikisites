@@ -1,6 +1,6 @@
 ---
-title: BPC-157 vs CPP-157
-description: Sequence comparison of BPC-157 (body protection compound) and CPP-157 (cell-penetrating peptide-157) — structural homology, membrane translocation mechanisms, and divergent biological activities.
+title: "BPC-157 vs CPP-157 — Gastric vs Cell-Penetrating Peptides"
+description: "Sequence comparison of BPC-157 and CPP-157 — structural homology, membrane translocation mechanisms, and divergent biological activities in tissue repair."
 ---
 
 BPC-157 (body protection compound) and CPP-157 (cell-penetrating peptide-157) share sequence homology as derivatives of human gastric juice protein but diverge fundamentally in their biological activities. BPC-157 operates through extracellular receptor signaling; CPP-157 enhances intracellular delivery through membrane translocation. Understanding their structural relationship and functional divergence is essential for distinguishing these peptides.

@@ -1,6 +1,6 @@
 ---
-title: SPPS Protocol
-description: Step-by-step solid-phase peptide synthesis protocol using Fmoc chemistry — coupling, deprotection, cleavage, purification, and quality control.
+title: "SPPS Protocol — Solid-Phase Peptide Synthesis Guide"
+description: "Advanced guide to solid-phase peptide synthesis (SPPS), including Fmoc strategy, coupling reagents, resin selection, and purification for difficult sequences."
 ---
 
 Solid-phase peptide synthesis (SPPS) is the standard method for laboratory-scale peptide production. Developed by Bruce Merrifield in the 1960s (Nobel Prize, 1984), SPPS enables efficient assembly of peptide chains on an insoluble polymer support through iterative coupling and deprotection cycles.

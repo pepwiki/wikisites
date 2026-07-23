@@ -1,5 +1,5 @@
 ---
-title: Peptide Calculations
+title: "Peptide Calculations — Dosing and Reconstitution Math"
 description: Essential quantitative methods and formulas for peptide mass, concentration, dose, and volume calculations used in research and clinical applications
 ---
 

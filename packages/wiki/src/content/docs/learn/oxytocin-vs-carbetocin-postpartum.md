@@ -1,6 +1,6 @@
 ---
-title: Oxytocin vs Carbetocin
-description: Comparative pharmacology of oxytocin and carbetocin for postpartum hemorrhage prevention — receptor selectivity, uterotonic efficacy, duration of action, and clinical outcomes.
+title: "Oxytocin vs Carbetocin Postpartum — Hemorrhage Prevention"
+description: "Comparative pharmacology of oxytocin and carbetocin for postpartum hemorrhage prevention — receptor selectivity, uterotonic efficacy, and clinical outcomes."
 ---
 
 Oxytocin and carbetocin are both uterotonic agents used for prevention and treatment of postpartum hemorrhage (PPH), the leading cause of maternal mortality worldwide. Oxytocin is the natural neuropeptide and current first-line agent; carbetocin is a synthetic analogue with extended duration designed for single-dose PPH prevention. Understanding their pharmacological differences informs rational uterotonic selection.

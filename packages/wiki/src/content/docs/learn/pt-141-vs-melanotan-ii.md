@@ -1,5 +1,5 @@
 ---
-title: PT-141 vs Melanotan II
+title: "PT-141 vs Melanotan II — Sexual Function Comparison"
 description: Comparison of PT-141 (bremelanotide) and Melanotan II — melanocortin receptor selectivity, tanning vs sexual function, half-life, side effects, and a.
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Insulin Glargine vs Peglispro
+title: "Insulin Glargine vs Peglispro — Hepatoselectivity"
 description: Detailed comparison of insulin glargine (long-acting) and peglispro (PEGylated long-acting insulin) — pharmacokinetics, PEGylation technology, and clinical i.
 ---
 

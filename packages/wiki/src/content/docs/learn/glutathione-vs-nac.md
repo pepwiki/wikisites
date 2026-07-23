@@ -1,5 +1,5 @@
 ---
-title: Glutathione vs NAC
+title: "Glutathione vs NAC — Antioxidant Peptide Comparison"
 description: Comparison of glutathione and N-acetylcysteine — bioavailability, mechanisms, recycling pathways, clinical applications, and dosing strategies.
 ---
 

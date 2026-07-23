@@ -1,6 +1,6 @@
 ---
-title: Melanotan II vs Afamelanotide
-description: Safety comparison of melanotan II and afamelanotide (melanotan I) — melanocortin receptor selectivity, systemic side effects, regulatory warnings, and risk-benefit profiles.
+title: "Melanotan II vs Afamelanotide Safety — Risk Profiles"
+description: "Safety comparison of melanotan II and afamelanotide (melanotan I) — melanocortin receptor selectivity, systemic side effects, and risk-benefit profiles."
 ---
 
 Melanotan II and afamelanotide (melanotan I) are both synthetic α-MSH analogues that promote skin pigmentation through melanocortin receptor activation. However, they differ fundamentally in receptor selectivity and safety profiles. Melanotan II's non-selective melanocortin receptor activity produces significant systemic side effects, while afamelanotide's MC1R selectivity provides a favorable safety profile. Understanding these distinctions is essential for informed pigmentary therapy selection.

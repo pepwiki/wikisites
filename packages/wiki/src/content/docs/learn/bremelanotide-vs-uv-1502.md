@@ -1,6 +1,6 @@
 ---
-title: Bremelanotide vs UV-1502
-description: Comparison of bremelanotide (MC4R) vs UV-1502 (dual MC4R/MC3R) for sexual desire disorder treatment.
+title: "Bremelanotide vs UV-1502 — Sexual Desire Disorder"
+description: "Comparison of bremelanotide (MC4R) vs UV-1502 (dual MC4R/MC3R) for sexual desire disorder treatment including efficacy data, safety profiles, and positioning."
 ---
 
 Bremelanotide (Vyleesi) is an approved melanocortin-4 receptor (MC4R) agonist for hypoactive sexual desire disorder (HSDD) in premenopausal women. UV-1502 (now known as bremelanotide with optimized pharmacokinetics) represents an evolution of the melanocortin agonist platform with improved receptor selectivity and reduced emetic potential. Both target the melanocortin pathway but differ in pharmacological profile and clinical development stage.

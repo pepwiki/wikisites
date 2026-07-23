@@ -1,6 +1,6 @@
 ---
-title: Peptide Physician Guides
-description: Prescribing guides for peptide therapeutics — dosing protocols, monitoring requirements, drug interactions, contraindications, and clinical decision algorithms for primary care and specialists.
+title: "Peptide Physician Guides — Prescribing Reference"
+description: "Prescribing guides for peptide therapeutics — dosing protocols, monitoring requirements, drug interactions, contraindications, and clinical decision algorithms."
 ---
 
 This reference provides evidence-based prescribing information for major peptide therapeutics, organized by therapeutic class with dosing protocols, monitoring requirements, and clinical decision support.

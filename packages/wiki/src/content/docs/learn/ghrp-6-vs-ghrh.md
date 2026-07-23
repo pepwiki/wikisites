@@ -1,6 +1,6 @@
 ---
-title: GHRP-6 vs GHRH
-description: Growth hormone pathway comparison of GHRP-6 (ghrelin receptor agonist) and GHRH (growth hormone-releasing hormone) — hypothalamic-pituitary signaling, GH pulsatility, and complementary secretagogue mechanisms.
+title: "GHRP-6 vs GHRH — Growth Hormone Secretagogue Comparison"
+description: "Growth hormone pathway comparison of GHRP-6 and GHRH — hypothalamic-pituitary signaling, GH pulsatility, and complementary secretagogue mechanisms."
 ---
 
 GHRP-6 (growth hormone-releasing peptide-6) and GHRH (growth hormone-releasing hormone) are the two fundamental hypothalamic signals that control growth hormone (GH) secretion from the anterior pituitary. GHRH provides the primary stimulatory drive; ghrelin (which GHRP-6 mimics) provides the secondary, augmenting signal. Understanding their distinct signaling pathways is essential for rational GH secretagogue therapy.

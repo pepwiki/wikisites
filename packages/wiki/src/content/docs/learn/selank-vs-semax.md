@@ -1,5 +1,5 @@
 ---
-title: Selank vs Semax
+title: "Selank vs Semax — Nootropic Peptide Comparison"
 description: Comparison of Selank and Semax — tuftsin vs ACTH analogs, anxiotropic vs nootropic effects, GABA vs BDNF modulation, clinical evidence, and dosing protocols.
 ---
 

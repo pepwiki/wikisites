@@ -1,5 +1,5 @@
 ---
-title: "Peptide Databases"
+title: "Peptide Databases — Sequence and Structure Resources"
 description: Overview of public peptide databases — UniProt, PDB, PeptideAtlas, Antimicrobial Peptide Database, and specialized resources for sequence, structure, and f.
 ---
 

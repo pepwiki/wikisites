@@ -1,5 +1,5 @@
 ---
-title: GHK-Cu vs Copper Peptide-1
+title: "GHK-Cu vs Copper Peptide-1 — Skin Repair Comparison"
 description: Nomenclature comparison of GHK-Cu (glycyl-L-histidyl-L-lysine copper complex) and Copper Peptide-1 — naming conventions, chemical identity, and formulation d.
 ---
 

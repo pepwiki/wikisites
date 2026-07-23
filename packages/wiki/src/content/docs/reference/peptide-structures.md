@@ -1,5 +1,5 @@
 ---
-title: Peptide Structures
+title: "Peptide Structures — Molecular Architecture Reference"
 description: Three-dimensional structural data for therapeutic peptides — PDB IDs, AlphaFold models, NMR structures, and X-ray crystallography data.
 ---
 

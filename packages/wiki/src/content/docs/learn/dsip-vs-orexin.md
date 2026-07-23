@@ -1,6 +1,6 @@
 ---
-title: DSIP vs Orexin
-description: Comparison of DSIP (sleep-promoting) vs orexin (wake-promoting) neuropeptides and their roles in sleep regulation.
+title: "DSIP vs Orexin — Sleep-Wake Neuropeptide Comparison"
+description: "Comparison of DSIP (sleep-promoting) vs orexin (wake-promoting) neuropeptides and their roles in sleep-wake regulation, narcolepsy, and circadian rhythm."
 ---
 
 Delta sleep-inducing peptide (DSIP) and orexin (hypocretin) represent opposing forces in sleep-wake regulation. DSIP promotes slow-wave sleep through GABAergic mechanisms, while orexin stabilizes wakefulness through excitatory signaling in arousal circuits. Understanding their complementary roles is essential for comprehending sleep architecture and developing sleep disorder therapeutics.

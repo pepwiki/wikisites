@@ -1,5 +1,5 @@
 ---
-title: NADH vs NADPH
+title: "NADH vs NADPH — Cellular Redox Coenzyme Differences"
 description: Comparison of NADH and NADPH — redox potentials, biological roles in energy metabolism vs biosynthesis, regeneration pathways, and supplementation strategies.
 ---
 

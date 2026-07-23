@@ -1,6 +1,6 @@
 ---
-title: Peptide Pharmacokinetics
-description: PK modeling for peptides — absorption, distribution, metabolism, and excretion with population PK approaches, compartmental modeling, and dose optimization.
+title: "Peptide Pharmacokinetics — ADME Parameters Guide"
+description: "Detailed pharmacokinetic analysis of therapeutic peptides — absorption, distribution, metabolism, excretion pathways, and PK/PD modeling for dose optimization."
 ---
 
 Peptide pharmacokinetics (PK) are governed by unique physicochemical properties that distinguish them from small molecules. This guide covers ADME principles, PK modeling approaches, and dose optimization strategies for peptide therapeutics.

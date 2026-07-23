@@ -1,6 +1,6 @@
 ---
-title: CJC-1295 vs Ipamorelin
-description: Dosing protocol comparison for CJC-1295 and ipamorelin — single agent, combination, titration schedules, and protocol optimization for growth hormone secretagogue therapy.
+title: "CJC-1295 vs Ipamorelin Dosing — Protocol Optimization"
+description: "Dosing protocol comparison for CJC-1295 and ipamorelin — single agent, combination, titration schedules, and protocol optimization for GH secretagogue therapy."
 ---
 
 CJC-1295 and ipamorelin are growth hormone (GH) secretagogues used individually and in combination for GH deficiency and anti-aging protocols. CJC-1295 is a GHRH analog producing sustained GH elevation, while ipamorelin is a selective GHSR1a agonist producing pulsatile GH release. Their distinct pharmacokinetic profiles require different dosing strategies, and their combination produces synergistic GH release.

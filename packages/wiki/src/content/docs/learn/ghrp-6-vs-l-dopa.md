@@ -1,6 +1,6 @@
 ---
-title: GHRP-6 vs L-DOPA
-description: Comparative analysis of GHRP-6 (ghrelin receptor agonist) and L-dopa (dopamine precursor) in GH stimulation — divergent neuroendocrine pathways and pharmacological profiles.
+title: "GHRP-6 vs L-DOPA — GH Stimulation Pathway Comparison"
+description: "Comparative analysis of GHRP-6 (ghrelin receptor agonist) and L-dopa (dopamine precursor) in GH stimulation — divergent neuroendocrine pathways."
 ---
 
 GHRP-6 and L-dopa stimulate growth hormone release through fundamentally different neuroendocrine pathways. GHRP-6 acts directly on the ghrelin receptor (GHSR-1a) on somatotrophs, producing acute GH release. L-dopa increases dopamine levels, which modulate GH release through hypothalamic GHRH and somatostatin regulation. Their comparison illustrates the distinction between direct pituitary stimulation and hypothalamic modulation.

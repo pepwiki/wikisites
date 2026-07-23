@@ -1,6 +1,6 @@
 ---
-title: Peptide Approval Timeline
-description: Chronological timeline of peptide drug approvals by the FDA, EMA, and other regulatory agencies — milestones in peptide therapeutics development from insulin to modern GLP-1 agonists.
+title: "Peptide Approval Timeline — FDA and EMA Milestones"
+description: "Chronological timeline of peptide drug approvals by FDA, EMA, and other regulatory agencies — milestones from insulin to modern GLP-1 agonists development."
 ---
 
 This timeline documents the major milestones in peptide drug approval, from the first peptide therapeutic (insulin) in 1922 to modern GLP-1 receptor agonists and beyond.

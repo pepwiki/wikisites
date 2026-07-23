@@ -1,6 +1,6 @@
 ---
-title: Insulin Degludec vs Icodec
-description: Comparison of insulin degludec (ultra-long-acting) and icodec (once-weekly insulin) — ultra-long-acting pharmacokinetics, formulations, and clinical i.
+title: "Insulin Degludec vs Icodec — Ultra-Long-Acting Insulins"
+description: "Head-to-head comparison of insulin degludec (ultra-long-acting daily) and icodec (once-weekly) — pharmacokinetics, efficacy, and clinical positioning."
 ---
 
 Insulin degludec and icodec represent the evolution of ultra-long-acting insulins. Degludec has a half-life of ~25 hours (once-daily dosing), while icodec has a half-life of ~196 hours (once-weekly dosing). This pharmacokinetic difference fundamentally changes insulin therapy.

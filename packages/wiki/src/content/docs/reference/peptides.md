@@ -1,5 +1,5 @@
 ---
-title: Peptide Database
+title: "Peptide Database — Approved and Investigational Agents"
 description: Comprehensive searchable database of 795+ therapeutic peptides organized across 23 categories with sequences, properties, and clinical data
 ---
 

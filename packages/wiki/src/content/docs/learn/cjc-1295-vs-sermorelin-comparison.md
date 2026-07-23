@@ -1,5 +1,5 @@
 ---
-title: CJC-1295 vs Sermorelin
+title: "CJC-1295 vs Sermorelin — GHRH Analogue Comparison"
 description: Comprehensive comparison of CJC-1295 (modified GRF 1-29) and sermorelin (GHRH 1-29) — GHRH analog pharmacokinetics, growth hormone stimulation, and clinical .
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: Insulin Degludec vs Icodec
-description: Head-to-head comparison of insulin degludec (ultra-long-acting daily) and icodec (once-weekly) — pharmacokinetics, efficacy, dosing convenience, and clinical positioning.
+title: "Insulin Degludec vs Icodec Weekly — Dosing Frequency"
+description: "Head-to-head comparison of insulin degludec (ultra-long-acting daily) and icodec (once-weekly) — pharmacokinetics, efficacy, and dosing convenience."
 ---
 
 Insulin degludec and icodec represent distinct pharmacokinetic strategies for basal insulin. Degludec achieves ultra-long action through multi-hexamer chain formation in subcutaneous tissue, while icodec leverages enhanced albumin binding and reduced receptor affinity for ultra-slow clearance. The fundamental difference is dosing frequency: daily versus weekly.

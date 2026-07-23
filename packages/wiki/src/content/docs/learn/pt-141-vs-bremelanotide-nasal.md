@@ -1,5 +1,5 @@
 ---
-title: PT-141 vs Bremelanotide Nasal
+title: "PT-141 vs Bremelanotide Nasal — Sexual Function Rx"
 description: Comparison of PT-141 (bremelanotide) and intranasal bremelanotide (Vyleesi) — subcutaneous vs intranasal delivery, pharmacokinetics, efficacy, and t.
 ---
 

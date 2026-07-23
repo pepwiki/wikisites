@@ -1,5 +1,5 @@
 ---
-title: GHRP-6 vs MK-677
+title: "GHRP-6 vs MK-677 — Oral GH Secretagogue Comparison"
 description: Comparison of peptide vs small molecule GH secretagogues — GHRP-6 (hexarelin analog) and MK-677 (ibutamoren) for growth hormone stimulation, p.
 ---
 

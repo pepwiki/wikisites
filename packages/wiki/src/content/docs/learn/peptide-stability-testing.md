@@ -1,5 +1,5 @@
 ---
-title: "Peptide Stability Testing"
+title: "Peptide Stability Testing — ICH Stability Protocols"
 description: Guide to peptide stability testing methods — forced degradation, accelerated stability, and long-term storage studies for peptide therapeutics.
 ---
 

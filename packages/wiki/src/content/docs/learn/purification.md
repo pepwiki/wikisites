@@ -1,5 +1,5 @@
 ---
-title: Purification Methods
+title: "Purification Methods — Peptide Isolation Techniques"
 description: Advanced techniques for peptide purification and characterization, including HPLC, mass spectrometry, and analytical methods.
 ---
 

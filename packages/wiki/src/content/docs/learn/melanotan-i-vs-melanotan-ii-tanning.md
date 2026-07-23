@@ -1,6 +1,6 @@
 ---
-title: Melanotan I vs Melanotan II
-description: Comparative dermatological analysis of melanotan I (afamelanotide) and melanotan II — melanocortin receptor selectivity, tanning efficacy, dosing regimens, and cutaneous safety profiles.
+title: "Melanotan I vs II Tanning — Efficacy and Safety"
+description: "Comparative dermatological analysis of melanotan I and melanotan II — melanocortin receptor selectivity, tanning efficacy, dosing regimens, and safety profiles."
 ---
 
 Melanotan I (afamelanotide) and melanotan II are synthetic analogues of alpha-melanocyte-stimulating hormone (α-MSH) that promote skin pigmentation through melanocortin receptor activation. Despite sharing the same therapeutic goal, they differ fundamentally in receptor selectivity, tanning mechanism, side effect profile, and regulatory status. Understanding these distinctions is essential for informed pigmentary therapy selection.

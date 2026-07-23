@@ -1,5 +1,5 @@
 ---
-title: Insulin Aspart vs Lispro
+title: "Insulin Aspart vs Lispro — Rapid-Acting Analogs"
 description: Comparison of rapid-acting insulin analogs insulin aspart (NovoRapid) and insulin lispro (Humalog) — pharmacokinetics, onset, peak, duration, and clinical e.
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: GHRP-6 vs Ipamorelin
-description: Comparative safety analysis of GHRP-6 and ipamorelin — receptor selectivity, off-target effects, cortisol and prolactin elevation, appetite stimulation, and tolerability profiles.
+title: "GHRP-6 vs Ipamorelin — Side Effects and Tolerability"
+description: "Comparative safety analysis of GHRP-6 and ipamorelin — receptor selectivity, off-target effects, cortisol and prolactin elevation, and tolerability profiles."
 ---
 
 GHRP-6 (growth hormone-releasing peptide-6) and ipamorelin are both growth hormone secretagogues (GHS) that stimulate GH release through ghrelin receptor (GHSR1a) agonism. Despite sharing the same primary receptor, they differ markedly in receptor selectivity, off-target hormone effects, and clinical tolerability. Understanding these distinctions is essential for informed secretagogue selection.

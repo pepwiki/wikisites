@@ -1,5 +1,5 @@
 ---
-title: PT-141 vs Sildenafil (Viagra)
+title: "PT-141 vs Sildenafil Viagra — Erectile Dysfunction Rx"
 description: Comparison of PT-141 (bremelanotide) and sildenafil — melanocortin vs PDE5 pathways, central vs peripheral mechanisms, efficacy, and side effect profiles.
 ---
 

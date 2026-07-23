@@ -1,6 +1,6 @@
 ---
-title: "Peptide Environmental Impact"
-description: "Environmental considerations for peptide manufacturing and disposal."
+title: "Peptide Environmental Impact — Green Chemistry Guide"
+description: "Environmental considerations for peptide manufacturing including green chemistry, waste reduction, solvent recycling, and sustainable pharmaceutical production practices."
 ---
 # Peptide Environmental Impact
 

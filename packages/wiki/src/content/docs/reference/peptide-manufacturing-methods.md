@@ -1,6 +1,6 @@
 ---
-title: "Peptide Manufacturing Methods"
-description: "Comparison of SPPS, liquid-phase synthesis, and recombinant production for peptides."
+title: "Peptide Manufacturing Methods — SPPS vs Recombinant"
+description: "Comparison of SPPS, liquid-phase synthesis, and recombinant production for peptides including cost analysis, scalability, purity outcomes, and regulatory considerations."
 ---
 # Peptide Manufacturing Methods
 

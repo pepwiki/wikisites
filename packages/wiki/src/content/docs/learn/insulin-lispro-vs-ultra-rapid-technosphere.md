@@ -1,6 +1,6 @@
 ---
 title: Insulin Lispro vs Technosphere Insulin
-description: Comparison of insulin lispro (injectable rapid-acting) and Technosphere insulin (Afrezza, inhaled) — pharmacokinetics, bioavailability, pulmonary delivery, and clinical positioning.
+description: "Comparison of insulin lispro (injectable) and Technosphere insulin (Afrezza, inhaled) — pharmacokinetics, bioavailability, pulmonary delivery, and positioning."
 ---
 
 Insulin lispro and Technosphere insulin (Afrezza) represent two distinct delivery approaches for rapid-acting insulin. Lispro is a parenteral rapid-acting analogue with well-characterized PK; Technosphere insulin is a pulmonary-delivered insulin with ultra-rapid absorption and elimination. Their comparison illustrates the pharmacokinetic trade-offs between injectable and inhaled insulin delivery.

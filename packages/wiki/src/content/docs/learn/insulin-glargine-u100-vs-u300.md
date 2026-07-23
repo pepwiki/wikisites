@@ -1,6 +1,6 @@
 ---
-title: Insulin Glargine U100 vs U300
-description: Comparison of insulin glargine U100 (Lantus) and U300 (Toujeo) — concentration-dependent pharmacokinetics, hypoglycemia risk, dosing flexibility, and clinical positioning in diabetes management.
+title: "Insulin Glargine U100 vs U300 — Concentration Effects"
+description: "Comparison of insulin glargine U100 (Lantus) and U300 (Toujeo) — concentration-dependent pharmacokinetics, hypoglycemia risk, and clinical positioning."
 ---
 
 Insulin glargine U100 (Lantus) and U300 (Toujeo) contain the same active insulin glargine molecule but at different concentrations: 100 units/mL and 300 units/mL, respectively. This threefold concentration difference produces clinically meaningful pharmacokinetic and pharmacodynamic distinctions that influence hypoglycemia risk, dosing flexibility, and patient selection.

@@ -1,6 +1,6 @@
 ---
-title: Peptide Patient Education
-description: Patient education materials for peptide therapeutics — administration techniques, injection training, storage requirements, side effect management, and adherence strategies.
+title: "Peptide Patient Education — Administration Training"
+description: "Patient education materials for peptide therapeutics — administration techniques, injection training, storage requirements, and side effect management."
 ---
 
 Effective peptide therapy requires patient education on self-injection, storage, monitoring, and side effect management. This reference provides comprehensive patient education materials for major peptide classes.

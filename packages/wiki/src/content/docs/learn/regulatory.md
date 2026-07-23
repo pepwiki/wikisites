@@ -1,6 +1,6 @@
 ---
-title: Regulatory Pathways
-description: Overview of global regulatory frameworks for peptide therapeutics including FDA, EMA, and PMDA pathways.
+title: "Regulatory Pathways — Global Peptide Drug Approval"
+description: "Overview of global regulatory frameworks for peptide therapeutics including FDA, EMA, and PMDA pathways, breakthrough designations, and orphan drug requirements."
 ---
 
 ## FDA Regulatory Pathways (United States)

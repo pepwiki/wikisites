@@ -1,5 +1,5 @@
 ---
-title: GHK-Cu vs Melatonin
+title: "GHK-Cu vs Melatonin — Sleep and Recovery Peptides"
 description: Comparison of GHK-Cu (copper peptide) and melatonin — skin regeneration vs circadian regulation, antioxidant mechanisms, and complementary roles in skin biology
 ---
 
