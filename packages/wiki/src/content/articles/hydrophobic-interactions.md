@@ -1,6 +1,6 @@
 ---
 title: "Hydrophobic Interactions"
-description: "Learn how hydrophobic interactions drive protein folding through the hydrophobic effect, thermodynamic principles, and entropic forces that stabilize biomolecular structures."
+description: "Learn how hydrophobic interactions drive protein folding through the hydrophobic effect, thermodynamic principles, and entropic forces."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2025-12-15

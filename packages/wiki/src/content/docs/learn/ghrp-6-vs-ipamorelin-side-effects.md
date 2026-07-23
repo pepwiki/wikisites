@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "GHRP-6 vs Ipamorelin — Side Effects and Tolerability"
 description: "Comparative safety analysis of GHRP-6 and ipamorelin — receptor selectivity, off-target effects, cortisol and prolactin elevation, and tolerability profiles."
 ---

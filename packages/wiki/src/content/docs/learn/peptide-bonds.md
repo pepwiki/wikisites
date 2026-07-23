@@ -1,4 +1,6 @@
 ---
+date: 2026-06-08
+author: "Wikipept Contributors"
 title: "Peptide Bond Chemistry — Formation and Properties"
 description: "Understanding the chemistry of peptide bonds including formation mechanisms, resonance structure, conformational constraints, and role in secondary structure."
 ---

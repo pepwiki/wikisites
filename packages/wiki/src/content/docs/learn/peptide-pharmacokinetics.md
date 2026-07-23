@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Pharmacokinetics — ADME Parameters Guide"
 description: "Detailed pharmacokinetic analysis of therapeutic peptides — absorption, distribution, metabolism, excretion pathways, and PK/PD modeling for dose optimization."
 ---

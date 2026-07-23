@@ -1,6 +1,8 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 title: "Biotechnology & Analytical Glossary"
-description: "Glossary covering biotechnology, bioinformatics, materials science, nanotechnology, imaging, spectroscopy, chromatography, mass spectrometry, thermodynamics, and kinetics terms relevant to oligopeptide research."
+description: "Glossary covering biotechnology, bioinformatics, materials science, nanotechnology, and analytical chemistry terms."
 ---
 
 ## Biotechnology

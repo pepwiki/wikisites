@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Thymosin Alpha-1 vs Interferon
 description: "Immunomodulatory comparison of thymosin alpha-1 (Tα1) and interferon (IFN-α/IFN-β) — mechanisms of immune activation, antiviral activity, and safety profiles."
 ---

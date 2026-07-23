@@ -1,6 +1,6 @@
 ---
 title: "Peptide Bond Formation in the Ribosome"
-description: "The ribosome catalyzes peptide bond formation at the peptidyl transferase center using A, P, and E sites. Kinetic proofreading ensures translational fidelity through GTP hydrolysis and monitoring mechanisms."
+description: "The ribosome catalyzes peptide bond formation at the peptidyl transferase center using A, P, and E sites during translation."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

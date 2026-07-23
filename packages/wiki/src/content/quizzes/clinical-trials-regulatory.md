@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: quiz-clinical-trials-regulatory-001
 question: "What is the primary objective of a Phase I clinical trial for a new peptide drug?"
 options:

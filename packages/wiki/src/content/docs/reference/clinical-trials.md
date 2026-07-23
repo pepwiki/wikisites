@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Clinical Trials Database"
 description: Reference database of peptide-based therapeutics in active or completed clinical trials with phase, indication, sponsor, results, and NCT identifiers.
 ---

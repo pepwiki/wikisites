@@ -1,6 +1,6 @@
 ---
 title: "Blood-Brain Barrier and Peptides"
-description: "The blood-brain barrier presents a formidable challenge for peptide therapeutics, but multiple delivery strategies including cell-penetrating peptides offer promising solutions."
+description: "The blood-brain barrier presents formidable challenges for peptide therapeutics, but cell-penetrating peptides offer delivery solutions."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

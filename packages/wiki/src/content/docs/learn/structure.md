@@ -1,4 +1,6 @@
 ---
+date: 2026-06-08
+author: "Wikipept Contributors"
 title: "Protein Structure Levels — Primary to Quaternary"
 description: "Understanding the four levels of protein structure — primary, secondary, tertiary, and quaternary — and the forces that stabilize each level."
 ---

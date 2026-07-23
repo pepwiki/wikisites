@@ -1,3 +1,6 @@
+---
+date: 2026-06-12
+author: "Wikipept Contributors"
 # Bacterial Peptides Database
 
 Comprehensive structured database of bioactive peptides derived from bacteria, including bacteriocins, polymyxins, glycopeptides, lipopeptides, signaling peptides, and toxins with therapeutic and research applications.

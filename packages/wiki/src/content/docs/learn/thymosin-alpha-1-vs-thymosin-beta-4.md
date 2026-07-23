@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Thymosin Alpha-1 vs Thymosin Beta 4
 description: Comparison of thymosin family peptides — Thymosin Alpha-1 (Tα1) as an immunomodulator vs Thymosin Beta 4 (Tβ4) as a tissue repair and anti-inflammatory peptide.
 ---

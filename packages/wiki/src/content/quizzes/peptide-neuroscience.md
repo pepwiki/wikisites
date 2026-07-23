@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: quiz-peptide-neuroscience-001
 question: "How are neuropeptides synthesized differently from small-molecule neurotransmitters like glutamate or GABA?"
 options:

@@ -1,6 +1,8 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 title: Marine Peptides Database
-description: Comprehensive database of bioactive peptides derived from marine organisms including toxins, anti-cancer agents, anti-inflammatory compounds, therapeutic drugs, and cosmetic peptides
+description: "Database of bioactive peptides from marine organisms including fish, mollusks, sponges, and marine bacteria."
 category: Marine Biotechnology
 tags: [marine, peptides, toxins, anti-cancer, conotoxins, ocean, bioactive]
 lastUpdated: 2026-06-12

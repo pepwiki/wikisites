@@ -1,6 +1,8 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Peptide Quality Control
-description: Comprehensive quality control testing requirements for peptide drugs, covering identity, purity, potency, safety, and stability testing with ICH guidelines and pharmacopeial standards.
+description: "Quality control reference for synthetic peptides covering identity, purity, potency, and stability testing."
 ---
 
 This reference table outlines quality control (QC) testing requirements for peptide drugs, organized by test category, acceptance criteria, and regulatory expectations. Applicable to research-grade, clinical-grade, and commercial peptide products.

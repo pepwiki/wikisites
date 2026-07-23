@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Formulation — Drug Product Development Guide"
 description: Guide to peptide formulation development — excipient selection, dosage forms, stability considerations, and delivery system design.
 ---

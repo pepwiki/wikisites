@@ -1,6 +1,8 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 title: Synthetic Peptides Database
-description: Comprehensive database of synthetic and engineered peptides including stapled peptides, cyclic peptides, peptide drug conjugates, vaccines, antimicrobial, cosmetic, diagnostic, and research peptides
+description: "Database of synthetic peptides including modified analogs, peptidomimetics, and engineered peptide constructs."
 category: synthetic
 total_peptides: 40
 last_updated: 2024-12-12

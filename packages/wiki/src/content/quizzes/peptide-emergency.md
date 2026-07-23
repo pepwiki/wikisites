@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: quiz-emergency-anaphylaxis-001
 question: "Which peptide-based agent is the first-line treatment for anaphylaxis in the emergency department?"
 options:

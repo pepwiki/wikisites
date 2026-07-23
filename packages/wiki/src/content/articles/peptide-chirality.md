@@ -1,6 +1,6 @@
 ---
 title: "Chirality in Peptides"
-description: "Amino acids in natural peptides are almost exclusively L-isomers. Understanding chirality, optical rotation, and the biological significance of L versus D configuration is fundamental to peptide chemistry."
+description: "Amino acids in natural peptides are almost exclusively L-isomers. Understanding chirality and biological significance of D-forms."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

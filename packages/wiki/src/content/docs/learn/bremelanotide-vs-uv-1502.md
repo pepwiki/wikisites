@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Bremelanotide vs UV-1502 — Sexual Desire Disorder"
 description: "Comparison of bremelanotide (MC4R) vs UV-1502 (dual MC4R/MC3R) for sexual desire disorder treatment including efficacy data, safety profiles, and positioning."
 ---

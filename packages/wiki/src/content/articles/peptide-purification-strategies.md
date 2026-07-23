@@ -1,6 +1,6 @@
 ---
 title: "Peptide Purification Strategies"
-description: "A practical guide to peptide purification methods including RP-HPLC, ion exchange chromatography, and size exclusion, with guidance on preparative versus analytical approaches."
+description: "A practical guide to peptide purification methods including RP-HPLC, ion exchange chromatography, and size exclusion chromatography."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

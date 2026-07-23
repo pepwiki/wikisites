@@ -1,6 +1,6 @@
 ---
 title: "Peptide Bond Geometry in Drug Design"
-description: "Learn how peptide bond geometry influences drug design through bioisosteres, peptidomimetics, and conformational constraint strategies for improved therapeutic agents."
+description: "How peptide bond geometry influences drug design through bioisosteres, peptidomimetics, and conformational constraint strategies."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

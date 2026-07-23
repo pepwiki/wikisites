@@ -1,6 +1,8 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Peptide Modification Strategies
-description: Comprehensive reference table of peptide modification strategies — PEGylation, fatty acid acylation, cyclization, D-amino acids, and their effects on pharmacokinetics and pharmacodynamics.
+description: "Reference guide to peptide modifications including PEGylation, lipidation, cyclization, and D-amino acid substitution."
 ---
 
 Peptide modifications are essential for transforming native peptides into viable therapeutics. These strategies extend half-life, improve bioavailability, enhance receptor selectivity, and reduce immunogenicity.

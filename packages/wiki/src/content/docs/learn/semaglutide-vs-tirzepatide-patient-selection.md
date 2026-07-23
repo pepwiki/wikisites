@@ -1,4 +1,6 @@
 ---
+date: 2026-07-23
+author: "Wikipept Contributors"
 title: "Semaglutide vs Tirzepatide Patient Selection — Choosing"
 description: "Evidence-based patient selection for semaglutide vs tirzepatide — BMI thresholds, comorbidity profiles, cardiovascular risk, and treatment optimization."
 ---

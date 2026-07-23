@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: quiz-peptide-stability-factors-001
 question: "Which of the following is NOT a major factor affecting peptide stability in solution?"
 options:

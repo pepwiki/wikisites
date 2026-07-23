@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Insulin Degludec vs Glargine U-300
 description: Comparison of ultra-long-acting insulin analogs — multi-hexamer formation vs microprecipitate pharmacokinetics, pharmacodynamic profiles, and clinical e.
 ---

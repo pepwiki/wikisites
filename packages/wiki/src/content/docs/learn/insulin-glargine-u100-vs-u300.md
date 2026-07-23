@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Insulin Glargine U100 vs U300 — Concentration Effects"
 description: "Comparison of insulin glargine U100 (Lantus) and U300 (Toujeo) — concentration-dependent pharmacokinetics, hypoglycemia risk, and clinical positioning."
 ---

@@ -1,6 +1,8 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Peptide Manufacturing Methods
-description: Comparative analysis of peptide manufacturing methods including solid-phase peptide synthesis (SPPS), liquid-phase synthesis, and recombinant production, covering cost, scale, purity, and applications.
+description: "Comparison of SPPS, liquid-phase synthesis, and recombinant production methods for peptide manufacturing."
 ---
 
 This reference table compares the three primary methods for peptide manufacturing: solid-phase peptide synthesis (SPPS), liquid-phase peptide synthesis (LPPS), and recombinant production. Each method has distinct advantages for specific peptide types, scales, and purity requirements.

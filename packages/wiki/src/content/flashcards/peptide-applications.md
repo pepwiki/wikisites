@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: peptide-biomarkers
 front: What are peptide biomarkers?
 back: Peptides whose presence, absence, or concentration in biological fluids indicates a disease state, physiological condition, or treatment response. Examples include BNP for heart failure, amyloid-beta peptides for Alzheimer's disease, and procalcitonin for bacterial infection.

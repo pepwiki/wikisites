@@ -1,4 +1,6 @@
 ---
+date: 2026-06-13
+author: "Wikipept Contributors"
 title: "Peptide Applications Database"
 description: "Comprehensive database of peptide applications across therapeutic, diagnostic, cosmetic, agricultural, and industrial domains"
 category: "Peptide Science"

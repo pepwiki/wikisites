@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: fc-tox-mechanisms
 front: "What are the primary toxicity mechanisms of peptides?"
 back: "Peptide toxicity mechanisms include: (1) membrane disruption via amphipathic peptides, (2) receptor-mediated signaling disruption, (3) enzyme inhibition, (4) protein aggregation, (5) mitochondrial dysfunction, (6) oxidative stress induction, and (7) immune-mediated damage. Unlike small molecules, peptides typically degrade to amino acids, reducing chronic accumulation risk."

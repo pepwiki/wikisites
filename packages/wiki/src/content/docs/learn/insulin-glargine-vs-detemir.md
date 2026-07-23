@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Insulin Glargine vs Detemir — Basal Insulin Comparison"
 description: Comparison of insulin glargine and insulin detemir — isoelectric precipitation vs fatty acid albumin binding, pharmacokinetic profiles, and dosing strategies.
 ---

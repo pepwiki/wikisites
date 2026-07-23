@@ -1,6 +1,8 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Semaglutide vs Liraglutide CV — Cardiovascular Outcomes"
-description: "Cardiovascular outcome comparison of semaglutide and liraglutide — LEADER, SUSTAIN, PIONEER, and SELECT trial results, MACE reduction, and cardiometabolic effects."
+description: "Cardiovascular outcome comparison of semaglutide and liraglutide — LEADER, SUSTAIN, and PIONEER trials."
 ---
 
 Semaglutide and liraglutide are both GLP-1 receptor agonists with demonstrated cardiovascular benefits, but they differ in the magnitude of cardioprotection, cardiovascular outcome trial (CVOT) evidence, and pharmacological profile. Understanding their distinct CV evidence is essential for cardiovascular risk-guided therapy selection in type 2 diabetes.

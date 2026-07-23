@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: fc-insulin-structure
 front: "What is the structure of insulin?"
 back: "Insulin is a 51-amino acid peptide hormone composed of two chains: A-chain (21 aa) and B-chain (30 aa) connected by two disulfide bonds, with an additional intra-chain disulfide bond in the A-chain."

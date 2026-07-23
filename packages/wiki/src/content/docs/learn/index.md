@@ -1,4 +1,6 @@
 ---
+date: 2026-06-08
+author: "Wikipept Contributors"
 title: "Learning Paths — Peptide Education Roadmap"
 description: Explore our comprehensive learning paths for oligopeptide biology — from amino acid fundamentals to advanced clinical peptide therapeutics and research methods
 ---

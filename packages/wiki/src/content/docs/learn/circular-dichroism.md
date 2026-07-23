@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Circular Dichroism for Peptide Structure
 description: Guide to circular dichroism (CD) spectroscopy for peptide secondary structure determination — alpha-helix vs beta-sheet signatures, sample preparation, and d.
 ---

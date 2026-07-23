@@ -1,6 +1,6 @@
 ---
 title: "BPC-157 vs KPV: Gut Health Comparison"
-description: "Comparative analysis of BPC-157 and KPV for gastrointestinal healing, examining mechanisms of action, clinical evidence, dosing protocols, and therapeutic applications in gut health."
+description: "Comparative analysis of BPC-157 and KPV for gastrointestinal healing, examining mechanisms of action, clinical evidence, and therapeutic applications."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-07-22

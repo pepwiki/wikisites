@@ -1,3 +1,6 @@
+---
+date: 2026-06-12
+author: "Wikipept Contributors"
 # Plant Peptides Database
 
 A comprehensive database of bioactive peptides derived from plants, including defense peptides, cyclic peptides, storage proteins, signaling molecules, toxins, and bioactive compounds.

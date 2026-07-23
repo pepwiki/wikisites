@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Modification Strategies"
 description: Reference guide to chemical and biological modification strategies for improving peptide half-life, potency, stability, and pharmacokinetics.
 ---

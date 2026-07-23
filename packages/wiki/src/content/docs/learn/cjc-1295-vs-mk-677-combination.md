@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "CJC-1295 vs MK-677 Combination — GH Stacking Strategy"
 description: "Pharmacological analysis of combining CJC-1295 (GHRH analogue) with MK-677 (GHSR agonist) — synergistic GH stimulation, pharmacokinetics, and safety profile."
 ---

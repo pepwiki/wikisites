@@ -1,6 +1,8 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Quality Control — ICH Testing Requirements"
-description: "Quality control testing requirements for synthetic peptides per ICH guidelines including identity, purity, potency, and stability assays for pharmaceutical release."
+description: "Quality control testing for synthetic peptides per ICH guidelines — identity, purity, and potency."
 ---
 # Peptide Quality Control
 

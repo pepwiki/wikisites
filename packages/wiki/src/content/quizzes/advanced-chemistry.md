@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: quiz-peptide-bond-resonance-001
 question: "What is the primary consequence of resonance in the peptide bond?"
 options:

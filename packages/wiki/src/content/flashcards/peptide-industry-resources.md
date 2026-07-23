@@ -1,4 +1,6 @@
 ---
+date: 2026-06-15
+author: "Wikipept Contributors"
 id: fc-peptide-company-novo-nordisk
 front: "What is Novo Nordisk's role in the peptide industry?"
 back: "Novo Nordisk is a Danish pharmaceutical company and the global leader in peptide therapeutics, particularly GLP-1 receptor agonists. They developed semaglutide (Ozempic, Wegovy, Rybelsus) and liraglutide (Victoza, Saxenda). By 2024, their GLP-1 franchise generated over $30 billion annually, making them the most valuable peptide-focused company worldwide."

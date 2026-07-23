@@ -1,4 +1,6 @@
 ---
+date: 2026-06-13
+author: "Wikipept Contributors"
 title: "Peptide Databases Reference"
 description: "Comprehensive reference of databases for peptide research, drug discovery, and clinical applications"
 category: "tools"

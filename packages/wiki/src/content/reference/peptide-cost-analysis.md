@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Peptide Cost Analysis
 description: Comprehensive cost comparison of peptide drugs, including acquisition costs, total cost of care, biosimilar impact, and health economic considerations.
 ---

@@ -1,6 +1,8 @@
 ---
+date: 2026-06-16
+author: "Wikipept Contributors"
 title: "Expert Glossary"
-description: "Expert-level glossary covering advanced chemistry, biology, pharmacology, clinical research, and regulatory affairs terms for pharmaceutical and biotech professionals."
+description: "Expert-level glossary covering advanced peptide biology, pharmacokinetics, and therapeutic development terminology."
 ---
 
 ## Advanced Chemistry

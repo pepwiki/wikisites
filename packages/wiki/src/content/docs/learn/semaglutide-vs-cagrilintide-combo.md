@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Semaglutide vs Cagrilintide Combination
 description: Comparison of semaglutide (GLP-1 RA) monotherapy vs cagrilintide-semaglutide combination therapy — dual incretin-amylin mechanisms for weight loss and g.
 ---

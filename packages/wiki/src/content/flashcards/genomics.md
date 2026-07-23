@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: fc-gene-expression
 front: "What is gene expression?"
 back: "The process by which information from a gene is used to synthesize a functional gene product (typically a protein). Involves two main steps: transcription (DNA → mRNA) and translation (mRNA → protein). Gene expression is regulated at multiple levels including chromatin structure, transcription, post-transcriptional processing, translation, and post-translational modification. Differential gene expression allows cells with identical genomes to have different phenotypes."

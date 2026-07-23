@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Cagrilintide vs Amylin — Amylin Analog Comparison"
 description: Comparison of native amylin and cagrilintide — aggregation kinetics, receptor pharmacology, glycemic effects, and development as a amylin analog for obesity .
 ---

@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Oxytocin vs Carbetocin Postpartum — Hemorrhage Prevention"
 description: "Comparative pharmacology of oxytocin and carbetocin for postpartum hemorrhage prevention — receptor selectivity, uterotonic efficacy, and clinical outcomes."
 ---

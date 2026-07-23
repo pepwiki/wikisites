@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Structure-Activity Relationships"
 description: Guide to peptide structure-activity relationships — how sequence, modifications, and conformation affect biological activity and pharmacokinetics.
 ---

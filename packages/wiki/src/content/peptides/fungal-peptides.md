@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 title: Fungal Peptides Database
 description: Comprehensive database of bioactive peptides derived from fungi including antibiotics, cyclopeptides, lipopeptides, toxins, and therapeutic compounds
 category: Fungal Biotechnology

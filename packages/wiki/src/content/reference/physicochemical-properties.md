@@ -1,6 +1,8 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Peptide Physicochemical Properties
-description: Comprehensive reference table of physicochemical properties for 50+ therapeutic and research peptides — molecular weight, pI, charge, half-life, hydrophobicity, and solubility.
+description: "Reference table of molecular weight, isoelectric point, charge, half-life, and solubility for therapeutic peptides."
 ---
 
 This reference table compiles physicochemical properties of commonly used therapeutic and research peptides. Values represent typical measurements under physiological conditions (pH 7.4, 25°C) unless otherwise noted.

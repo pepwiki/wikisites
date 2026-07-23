@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Melanotan I vs Afamelanotide — MC1R Agonist Comparison"
 description: Comparison of MC1R-selective peptides — melanotan I (afamelanotide precursor) and afamelanotide (Scenesse) for photoprotection, pigmentation, and e.
 ---

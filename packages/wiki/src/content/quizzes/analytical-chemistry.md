@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: quiz-analytical-chem-hplc-principles-001
 question: "What is the fundamental principle behind High-Performance Liquid Chromatography (HPLC)?"
 options:

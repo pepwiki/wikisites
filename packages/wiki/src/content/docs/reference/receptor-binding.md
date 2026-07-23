@@ -1,6 +1,8 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Receptor Binding Affinities"
-description: "Reference table of Kd, EC50, selectivity ratios, and clinical significance for major peptide-receptor pairs including GLP-1, GIP, melanocortin, and GHSR receptors."
+description: "Reference table of Kd, EC50, selectivity ratios, and clinical significance for therapeutic peptides."
 ---
 
 # Peptide Receptor Binding Affinities

@@ -1,6 +1,8 @@
 ---
+date: 2026-06-08
+author: "Wikipept Contributors"
 title: "20 Standard Amino Acids — Classification and Properties"
-description: "A comprehensive guide to the 20 standard amino acids, their classifications, properties, and genetic codes including essential and conditionally essential categories."
+description: "Reference guide to the 20 standard amino acids — molecular weights, pKa values, side chain properties, and codons."
 ---
 
 ## Introduction

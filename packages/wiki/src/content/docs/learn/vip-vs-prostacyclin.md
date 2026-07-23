@@ -1,6 +1,8 @@
 ---
+date: 2026-07-23
+author: "Wikipept Contributors"
 title: "VIP vs Prostacyclin — Vasodilator Pharmacology"
-description: "Vasodilator comparison of VIP and prostacyclin (PGI₂) — cAMP-mediated vasodilation, receptor pharmacology, pulmonary hypertension applications, and clinical positioning."
+description: "Comparison of VIP and prostacyclin vasodilators — cAMP signaling and clinical applications."
 ---
 
 Vasoactive intestinal peptide (VIP) and prostacyclin (PGI₂) are both potent vasodilators that signal through cyclic adenosine monophosphate (cAMP) elevation. Despite sharing this downstream signaling mechanism, they differ in receptor pharmacology, tissue distribution, and clinical applications. VIP is a neuropeptide with broad tissue effects; prostacyclin is an eicosanoid with primary vascular and platelet functions. Understanding their distinctions informs rational vasodilator selection.

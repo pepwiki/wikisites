@@ -1,6 +1,8 @@
 ---
+date: 2026-06-15
+author: "Wikipept Contributors"
 title: Peptide Companies Database
-description: Comprehensive database of peptide therapeutics companies, contract development and manufacturing organizations (CDMOs), and technology providers in the global market
+description: "Directory of companies specializing in peptide therapeutics, CDMOs, and research peptide suppliers."
 lastUpdated: 2025-01-14
 categories:
   - Big Pharma

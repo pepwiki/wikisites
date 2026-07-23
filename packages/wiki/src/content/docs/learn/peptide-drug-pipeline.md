@@ -1,4 +1,6 @@
 ---
+date: 2026-07-21
+author: "Wikipept Contributors"
 title: Peptide Drug Pipeline 2025-2026
 description: Overview of peptides in clinical development — Phase 3, Phase 2, and recently approved agents with mechanisms, indications, and key data.
 ---

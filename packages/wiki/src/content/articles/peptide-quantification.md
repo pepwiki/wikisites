@@ -1,6 +1,6 @@
 ---
 title: "Peptide Quantification Methods"
-description: "Accurate peptide quantification is essential for research and pharmaceutical applications, with multiple assay methods each offering distinct advantages and limitations."
+description: "Accurate peptide quantification is essential for research and pharmaceutical applications, with multiple assay methods available."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

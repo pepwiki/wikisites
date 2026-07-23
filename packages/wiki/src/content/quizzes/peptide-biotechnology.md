@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: quiz-recombinant-peptide-001
 question: "What is the primary advantage of recombinant peptide production over chemical synthesis?"
 options:

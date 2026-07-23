@@ -1,4 +1,6 @@
 ---
+date: 2026-07-21
+author: "Wikipept Contributors"
 title: "Retatrutide vs Tirzepatide — Triple vs Dual Agonist"
 description: Comparison of retatrutide (triple agonist) and tirzepatide (dual agonist) — mechanisms, efficacy, and development status.
 ---

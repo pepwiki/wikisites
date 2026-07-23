@@ -1,4 +1,6 @@
 ---
+date: 2026-07-17
+author: "Wikipept Contributors"
 title: "Peptide Calculations — Dosing and Reconstitution Math"
 description: Essential quantitative methods and formulas for peptide mass, concentration, dose, and volume calculations used in research and clinical applications
 ---

@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 title: "Oligopeptide Education Platform"
 description: "Comprehensive 20-lesson curriculum covering peptide science from amino acid fundamentals to cutting-edge therapeutic applications."
 lessons:

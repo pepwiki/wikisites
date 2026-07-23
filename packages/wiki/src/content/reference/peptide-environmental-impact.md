@@ -1,6 +1,8 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Peptide Environmental Impact
-description: Environmental considerations for peptide manufacturing, including solvent waste, energy consumption, water usage, carbon footprint, and sustainability initiatives across synthesis methods.
+description: "Environmental impact assessment of peptide manufacturing including waste management and green chemistry."
 ---
 
 This reference table examines the environmental impact of peptide manufacturing processes, comparing solid-phase synthesis, liquid-phase synthesis, and recombinant production across key environmental metrics.

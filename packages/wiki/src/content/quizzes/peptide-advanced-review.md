@@ -1,4 +1,6 @@
 ---
+date: 2026-06-16
+author: "Wikipept Contributors"
 id: quiz-peptide-advanced-review-001
 question: "Which computational approach is used to design peptides that adopt a specific secondary structure upon binding to a target protein?"
 options:

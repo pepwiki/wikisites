@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Melanotan I vs Melanotan II — Melanocortin Analogs"
 description: "Comparative dermatological analysis of melanotan I (afamelanotide) and melanotan II — melanocortin receptor selectivity, tanning efficacy, and safety profiles."
 ---

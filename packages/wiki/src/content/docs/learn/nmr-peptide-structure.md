@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: NMR for Peptide Structure Determination
 description: "Guide to NMR spectroscopy for peptide structure determination — 1D/2D NMR techniques, NOESY, TOCSY experiments, and structure calculation methods for analysis."
 ---

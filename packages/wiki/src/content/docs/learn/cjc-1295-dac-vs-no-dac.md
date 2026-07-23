@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: CJC-1295 with DAC vs without DAC
 description: Comparison of CJC-1295-DAC and CJC-1295 no-DAC — Drug Affinity Complex mechanism, half-life engineering, GH pulsatility, IGF-1 dynamics, and clinical i.
 ---

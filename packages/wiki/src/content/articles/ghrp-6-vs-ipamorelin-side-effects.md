@@ -1,6 +1,6 @@
 ---
 title: "GHRP-6 vs Ipamorelin: Side Effect Profiles"
-description: "Comparative analysis of GHRP-6 and ipamorelin side effect profiles, covering growth hormone secretagogue adverse events, corticotropin effects, appetite stimulation, and tolerability."
+description: "Comparative analysis of GHRP-6 and ipamorelin side effect profiles, covering growth hormone secretagogue adverse events and clinical considerations."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-07-22

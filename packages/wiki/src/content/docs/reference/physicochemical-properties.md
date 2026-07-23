@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Physicochemical Properties"
 description: Reference table of molecular weight, isoelectric point, charge, half-life, hydrophobicity, and solubility for 60+ therapeutic and research peptides.
 ---

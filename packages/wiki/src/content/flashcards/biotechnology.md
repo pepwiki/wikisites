@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: fc-recombinant-expression
 front: "What is recombininant peptide expression?"
 back: "A biotechnology approach where a gene encoding a peptide of interest is inserted into a host organism using recombinant DNA technology. The host cell then produces the peptide using its own transcription and translation machinery. Common hosts include E. coli, yeast, insect cells, and mammalian cells."

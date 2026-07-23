@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: quiz-food-peptide-bioactive-001
 question: "What defines a bioactive peptide derived from food proteins?"
 options:

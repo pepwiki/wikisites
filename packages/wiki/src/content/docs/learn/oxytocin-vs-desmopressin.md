@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Oxytocin vs Desmopressin — Antidiuretic Hormone Analogs"
 description: Head-to-head comparison of oxytocin and desmopressin — vasopressin family peptides, receptor selectivity, pharmacokinetics, and clinical applications.
 ---

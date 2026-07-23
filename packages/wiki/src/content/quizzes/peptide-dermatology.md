@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: quiz-peptide-dermatology-collagen-001
 question: "What is the primary mechanism by which oral collagen peptides improve skin appearance?"
 options:

@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: fc-peptide-stability
 front: "What are the main factors affecting peptide stability in formulations?"
 back: "Peptide stability is influenced by: (1) pH - affects ionization state and degradation rates, (2) temperature - accelerates degradation kinetics, (3) oxidation - from dissolved oxygen or metal ions, (4) hydrolysis - peptide bond cleavage, (5) aggregation - self-association, (6) light exposure, (7) ionic strength, (8) mechanical stress (shear). The relative importance depends on the specific peptide sequence and formulation conditions."

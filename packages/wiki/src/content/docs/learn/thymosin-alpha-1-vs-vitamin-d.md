@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Thymosin Alpha-1 vs Vitamin D — Immune Modulation"
 description: "Comparative analysis of thymosin alpha-1 (peptide immunomodulator) and vitamin D (secosteroid hormone) — immune pathways, clinical applications, and synergy."
 ---

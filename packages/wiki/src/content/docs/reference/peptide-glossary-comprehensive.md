@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Comprehensive Peptide Glossary
 description: 200+ terms organized alphabetically covering pharmacology, chemistry, biology, and clinical peptide science with cross-references to learn pages and related.
 ---

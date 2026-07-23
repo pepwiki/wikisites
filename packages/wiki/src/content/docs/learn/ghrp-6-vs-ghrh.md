@@ -1,4 +1,6 @@
 ---
+date: 2026-07-23
+author: "Wikipept Contributors"
 title: "GHRP-6 vs GHRH — Growth Hormone Secretagogue Comparison"
 description: "Growth hormone pathway comparison of GHRP-6 and GHRH — hypothalamic-pituitary signaling, GH pulsatility, and complementary secretagogue mechanisms."
 ---

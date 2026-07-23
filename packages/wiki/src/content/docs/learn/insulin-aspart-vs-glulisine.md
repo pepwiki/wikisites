@@ -1,6 +1,8 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Insulin Aspart vs Insulin Glulisine
-description: "Comparison of insulin glulisine (Apidra) and insulin aspart (NovoRapid) — ultra-rapid pharmacokinetics, formulation innovations, and postprandial glucose control."
+description: "Comparison of insulin glulisine and insulin aspart — ultra-rapid pharmacokinetics and onset profiles."
 ---
 
 Insulin aspart and insulin glulisine are both ultra-rapid-acting insulin analogs designed to provide faster absorption and more physiological postprandial insulin profiles than regular human insulin. They achieve this through distinct amino acid modifications that alter zinc coordination and self-association behavior.

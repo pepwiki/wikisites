@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: fc-glycine-properties
 front: "What are the key structural and ionization properties of glycine?"
 back: "Glycine (Gly, G) is the smallest amino acid with a single hydrogen as its R-group. It is achiral (no stereocenter) because it has two identical substituents on the α-carbon. pKa values: α-COOH = 2.34, α-NH3+ = 9.60. MW = 75.03 Da."

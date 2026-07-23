@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: quiz-peptide-radiology-001
 question: "Which radiolabeled peptide is most commonly used for imaging neuroendocrine tumors expressing somatostatin receptors?"
 options:

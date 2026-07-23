@@ -1,4 +1,6 @@
 ---
+date: 2026-07-21
+author: "Wikipept Contributors"
 title: "GHK-Cu vs BPC-157 — Tissue Repair Peptide Comparison"
 description: Comparison of GHK-Cu and BPC-157 — copper peptide vs gastric pentadecapeptide, mechanisms, clinical evidence, and safety profiles.
 ---

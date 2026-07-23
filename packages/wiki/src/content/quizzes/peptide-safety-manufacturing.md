@@ -1,4 +1,6 @@
 ---
+date: 2026-06-13
+author: "Wikipept Contributors"
 id: quiz-peptide-safety-anaphylaxis-management-001
 question: "A patient on chronic peptide therapy develops urticaria, bronchospasm, and hypotension after their 12th dose. What is the most appropriate immediate intervention?"
 options:

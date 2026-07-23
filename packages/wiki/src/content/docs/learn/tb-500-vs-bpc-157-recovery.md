@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: TB-500 vs BPC-157 for Recovery
 description: Comparison of TB-500 and BPC-157 — actin regulation vs angiogenic repair, tissue specificity, systemic vs local effects, and preclinical evidence.
 ---

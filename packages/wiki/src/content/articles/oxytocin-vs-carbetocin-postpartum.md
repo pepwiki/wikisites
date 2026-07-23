@@ -1,6 +1,6 @@
 ---
 title: "Oxytocin vs Carbetocin: Postpartum Use"
-description: "Comparative analysis of oxytocin and carbetocin for postpartum hemorrhage prevention and treatment, covering pharmacology, clinical efficacy, safety, and dosing protocols."
+description: "Comparative analysis of oxytocin and carbetocin for postpartum hemorrhage prevention and treatment, covering pharmacology, clinical efficacy, and safety."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-07-22

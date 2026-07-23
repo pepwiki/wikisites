@@ -1,6 +1,7 @@
 ---
+date: 2026-06-12
 title: Peptide Allergy and Immunology
-description: Test your knowledge of peptides in allergy and immunology including allergen peptides, epitope-based vaccines, T cell tolerance, sublingual immunotherapy, cytokine and chemokine peptides, complement peptides, autoimmune biomarkers, tolerance induction, regulatory T cell peptides, immunosuppressants, transplant rejection, graft-vs-host disease, and autoimmune disease peptides.
+description: "Quiz covering peptide roles in allergy and immunology, including IgE signaling and mast cell degranulation mechanisms."
 category: immunology
 author: WikiSites
 tags:

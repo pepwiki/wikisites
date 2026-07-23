@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Dosing Complete — All Therapeutic Protocols"
 description: "Evidence-based dosing protocols for FDA-approved and investigational peptide drugs including titration schedules and patient-specific optimization strategies."
 ---

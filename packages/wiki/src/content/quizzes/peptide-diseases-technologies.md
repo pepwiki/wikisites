@@ -1,4 +1,6 @@
 ---
+date: 2026-06-13
+author: "Wikipept Contributors"
 id: quiz-peptide-disease-prion-001
 question: "Prion diseases (transmissible spongiform encephalopathies) involve misfolding of which host protein?"
 options:

@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "VIP vs PACAP — VPAC Receptor Selectivity Comparison"
 description: Comparison of vasoactive intestinal peptide (VIP) and pituitary adenylate cyclase-activating polypeptide (PACAP) — shared receptors, distinct pharmacology, a.
 ---

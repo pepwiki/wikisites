@@ -1,3 +1,6 @@
+---
+date: 2026-06-12
+author: "Wikipept Contributors"
 # Peptide Interactions Database
 
 A comprehensive database of peptide interactions including peptide-receptor, peptide-enzyme, peptide-peptide, peptide-protein, and peptide-ligand interactions.

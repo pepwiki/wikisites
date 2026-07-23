@@ -1,4 +1,6 @@
 ---
+date: 2026-06-13
+author: "Wikipept Contributors"
 id: fc-peptide-design-stapling
 front: "What are stapled peptides and why are they used?"
 back: "Stapled peptides have their alpha-helical conformation locked by a covalent cross-link (hydrocarbon, lactam, or disulfide staple) between side chains. This improves: 1) binding affinity by reducing conformational entropy, 2) proteolytic stability, 3) cell permeability in some cases. Example: ALRN-6924 (MDM2/MDMX inhibitor)."

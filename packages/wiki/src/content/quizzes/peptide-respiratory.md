@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: quiz-respiratory-pulmonary-delivery-001
 question: "Which anatomical region of the lung provides the largest surface area for systemic peptide absorption after inhalation?"
 options:

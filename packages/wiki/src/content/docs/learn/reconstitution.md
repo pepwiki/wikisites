@@ -1,6 +1,8 @@
 ---
+date: 2026-07-17
+author: "Wikipept Contributors"
 title: "Peptide Reconstitution — Comprehensive Preparation Guide"
-description: "Step-by-step guide for reconstituting lyophilized peptides with bacteriostatic water including volume calculations, technique optimization, and contamination prevention."
+description: "Guide for reconstituting lyophilized peptides — volume calculations, technique, and contamination prevention."
 ---
 
 ## Lyophilization and Its Thermodynamic Basis

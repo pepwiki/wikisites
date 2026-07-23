@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Insulin Lispro vs Technosphere Insulin
 description: "Comparison of insulin lispro (injectable) and Technosphere insulin (Afrezza, inhaled) — pharmacokinetics, bioavailability, pulmonary delivery, and positioning."
 ---

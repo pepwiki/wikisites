@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Synthesis Troubleshooting"
 description: Guide to troubleshooting peptide synthesis problems — incomplete couplings, side reactions, purification challenges, and quality issues.
 ---

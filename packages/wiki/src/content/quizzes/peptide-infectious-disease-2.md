@@ -1,6 +1,7 @@
 ---
+date: 2026-06-12
 title: Peptides in Infectious Disease Part 2
-description: Test your knowledge of peptide-based diagnostics, anti-biofilm strategies, quorum sensing, peptide vaccines, immunotherapy, and therapeutic peptides against bacteria, viruses, fungi, and parasites.
+description: "Quiz on antimicrobial peptides and their role in fighting bacterial, viral, and fungal infections."
 category: infectious-disease
 author: WikiSites
 tags:

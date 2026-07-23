@@ -1,4 +1,6 @@
 ---
+date: 2026-06-14
+author: "Wikipept Contributors"
 title: "Peptide Future Trends Database"
 description: "Comprehensive database of emerging trends, technologies, and market developments shaping the future of peptide science"
 category: "Future Trends"

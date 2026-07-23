@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: quiz-peptide-med-chem-lipinski-001
 question: "A linear hexapeptide (MW 680 Da, cLogP 1.2, HBD 8, HBA 12) is being evaluated for oral absorption. According to Lipinski's Rule of Five, which violation is most concerning for oral bioavailability?"
 options:

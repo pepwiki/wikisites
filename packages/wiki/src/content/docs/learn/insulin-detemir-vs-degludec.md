@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Insulin Detemir vs Insulin Degludec
 description: Comparison of albumin-binding basal insulins — detemir's single fatty acid acylation vs degludec's multi-hexamer chain mechanism, pharmacokinetics, and c.
 ---

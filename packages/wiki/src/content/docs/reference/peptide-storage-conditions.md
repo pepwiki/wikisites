@@ -1,6 +1,8 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Storage Conditions — Temperature and Humidity"
-description: "Optimal storage conditions for lyophilized and reconstituted peptides including temperature ranges, light protection, humidity control, and container compatibility."
+description: "Storage conditions for lyophilized and reconstituted peptides — temperature, humidity, and light."
 ---
 # Peptide Storage Conditions
 

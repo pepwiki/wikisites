@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 title: "Peptide Receptor Pharmacology - Rigorous Flashcards"
 description: "Scientifically rigorous flashcards covering peptide receptor nomenclature, binding kinetics, signal transduction, tissue distribution, and clinical relevance"
 tags:

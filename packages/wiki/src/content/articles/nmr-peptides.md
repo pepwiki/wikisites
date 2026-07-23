@@ -1,6 +1,6 @@
 ---
 title: "NMR Spectroscopy for Peptides"
-description: "Nuclear magnetic resonance spectroscopy using 1H NMR, COSY, and NOESY experiments provides atomic-resolution structure determination of peptides in solution under near-physiological conditions."
+description: "Nuclear magnetic resonance spectroscopy using 1H NMR, COSY, and NOESY experiments provides atomic-resolution structure determination of peptides in solution."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

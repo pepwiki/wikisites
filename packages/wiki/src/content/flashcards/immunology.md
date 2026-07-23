@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: fc-antigen-presentation
 front: "What is antigen presentation?"
 back: "The process by which cells display processed antigen fragments on their surface bound to MHC molecules, enabling T cells to recognize and respond to pathogens or abnormal cells."

@@ -1,3 +1,6 @@
+---
+date: 2026-06-12
+author: "Wikipept Contributors"
 # Peptide Drug Conjugates (PDCs) Database
 
 A comprehensive database of peptide drug conjugates (PDCs) including radiolabeled therapeutics, cytotoxic conjugates, immunomodulatory conjugates, and diagnostic agents.

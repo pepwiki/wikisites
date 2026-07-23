@@ -1,3 +1,6 @@
+---
+date: 2026-06-12
+author: "Wikipept Contributors"
 # Peptide Vaccines Database
 
 A comprehensive database of peptide-based vaccines across cancer, infectious disease, autoimmune, and allergy indications.

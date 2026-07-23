@@ -1,6 +1,6 @@
 ---
 title: "Peptide Bond in Enzyme Catalysis"
-description: "Understanding how enzymes catalyze peptide bond formation and hydrolysis through transition state stabilization, catalytic triads, and proton transfer mechanisms."
+description: "How enzymes catalyze peptide bond formation and hydrolysis through transition state stabilization and catalytic triads."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

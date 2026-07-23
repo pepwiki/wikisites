@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Thymosin Beta-4 vs XTRA — Tissue Repair Comparison"
 description: Clarification of TB-4 nomenclature — thymosin beta-4, TB-500, and XTRA as the same or different products, with evidence-based comparison of claims and c.
 ---

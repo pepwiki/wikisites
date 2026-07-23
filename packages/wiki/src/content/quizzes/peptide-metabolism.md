@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: quiz-peptide-metabolism-protease-classification-001
 question: "Which of the following is NOT one of the major catalytic classes of proteases?"
 options:

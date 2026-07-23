@@ -1,4 +1,6 @@
 ---
+date: 2026-06-16
+author: "Wikipept Contributors"
 id: fc-synth-adv-hatu-hbtu
 front: "What are the key differences between HATU and HBTU as coupling reagents in SPPS?"
 back: "HATU (1-[Bis(dimethylamino)methylene]-1H-1,2,3-triazolo[4,5-b]pyridinium 3-oxide hexafluorophosphate) forms more reactive uronium species vs HBTU's guanidinium. HATU: faster coupling, less racemization, preferred for sterically hindered residues (Aib, N-methyl amino acids). HBTU: cheaper, adequate for standard couplings. Both generate HOBt esters in situ. HATU coupling efficiency >99.5% per cycle vs ~99% for HBTU."

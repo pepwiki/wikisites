@@ -1,4 +1,6 @@
 ---
+date: 2026-07-21
+author: "Wikipept Contributors"
 title: Amino Acid Properties Reference
 description: Reference table of all 20 standard amino acids with molecular weights, pKa values, isoelectric points, hydrophobicity, side chain classification, codons,.
 ---

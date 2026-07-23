@@ -1,4 +1,6 @@
 ---
+date: 2026-06-13
+author: "Wikipept Contributors"
 id: fc-peptide-disease-prion
 front: "What is the molecular basis of prion diseases?"
 back: "Prion diseases involve conformational conversion of normal cellular prion protein (PrPC, alpha-helix rich) into pathogenic PrPSc (beta-sheet rich). PrPSc acts as a template to recruit and convert more PrPC, leading to exponential propagation of misfolded protein. This causes spongiform neurodegeneration in diseases such as Creutzfeldt-Jakob disease (CJD), bovine spongiform encephalopathy (BSE), and scrapie."

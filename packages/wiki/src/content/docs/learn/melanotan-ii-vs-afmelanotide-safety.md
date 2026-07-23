@@ -1,4 +1,6 @@
 ---
+date: 2026-07-23
+author: "Wikipept Contributors"
 title: "Melanotan II vs Afamelanotide Safety — Risk Profiles"
 description: "Safety comparison of melanotan II and afamelanotide (melanotan I) — melanocortin receptor selectivity, systemic side effects, and risk-benefit profiles."
 ---

@@ -1,4 +1,6 @@
 ---
+date: 2026-06-13
+author: "Wikipept Contributors"
 title: Peptide Modifications Database
 description: Comprehensive database of peptide modifications with structural, stability, and pharmacological data
 ---

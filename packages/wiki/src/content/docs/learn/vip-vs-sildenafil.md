@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "VIP vs Sildenafil — Vasodilation Mechanism Comparison"
 description: Comparison of vasoactive intestinal peptide (VIP) and sildenafil — vasoactive peptide signaling vs PDE5 inhibition, pulmonary vasodilation, and erectile d.
 ---

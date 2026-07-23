@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: fc-diabetes-insulin
 front: "What is the role of insulin in diabetes?"
 back: "Insulin is a 51-amino acid peptide hormone (2 chains: A=21 aa, B=30 aa, linked by disulfide bonds) produced by pancreatic beta cells. In Type 1 diabetes, autoimmune destruction of beta cells eliminates insulin production. In Type 2 diabetes, peripheral tissues become resistant to insulin signaling, and beta cell function progressively declines."

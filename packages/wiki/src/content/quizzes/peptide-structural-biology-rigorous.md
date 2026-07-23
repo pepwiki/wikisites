@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: quiz-peptide-structural-biology-rigorous-001
 question: "What is the experimentally determined C-N bond length in a peptide bond, and what explains this value?"
 options:

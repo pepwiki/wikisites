@@ -1,6 +1,6 @@
 ---
 title: "Peptide Bond in Extreme Environments"
-description: "Exploring how peptide bonds withstand extreme conditions including high temperature, high pressure, and the unique adaptations of deep-sea and thermophilic organisms."
+description: "How peptide bonds withstand extreme conditions including high temperature, high pressure, and thermophilic organism adaptations."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

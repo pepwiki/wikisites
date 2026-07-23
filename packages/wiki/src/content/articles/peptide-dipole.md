@@ -1,6 +1,6 @@
 ---
 title: "Peptide Bond Dipole Moment"
-description: "The peptide bond carries a significant electric dipole moment arising from resonance between the carbonyl and amide nitrogen. Understanding this dipole is essential for predicting protein folding behavior and secondary structure stability."
+description: "The peptide bond carries a significant electric dipole moment from resonance between the carbonyl and amide nitrogen."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

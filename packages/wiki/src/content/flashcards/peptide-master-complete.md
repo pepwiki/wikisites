@@ -1,4 +1,6 @@
 ---
+date: 2026-06-16
+author: "Wikipept Contributors"
 title: Peptide Master Flashcards
 description: Complete collection of 400+ peptide science flashcards covering amino acids, peptide bonds, pharmacology, synthesis, and more for interactive learning
 source: peptide-master-complete

@@ -1,6 +1,6 @@
 ---
 title: "Peptide Stability in the GI Tract"
-description: "The gastrointestinal tract presents formidable barriers to oral peptide delivery through enzymatic degradation and poor absorption, requiring innovative protection strategies."
+description: "The gastrointestinal tract presents formidable barriers to oral peptide delivery through enzymatic degradation and poor absorption."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

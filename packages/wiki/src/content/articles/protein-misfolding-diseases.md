@@ -1,6 +1,6 @@
 ---
 title: "Protein Misfolding Diseases"
-description: "Learn about amyloidosis, prion diseases, and neurodegenerative disorders caused by protein misfolding, including mechanisms, aggregation pathways, and therapeutic approaches."
+description: "Learn about amyloidosis, prion diseases, and neurodegenerative disorders caused by protein misfolding, including mechanisms and therapeutic strategies."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

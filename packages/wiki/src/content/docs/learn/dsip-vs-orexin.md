@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "DSIP vs Orexin — Sleep-Wake Neuropeptide Comparison"
 description: "Comparison of DSIP (sleep-promoting) vs orexin (wake-promoting) neuropeptides and their roles in sleep-wake regulation, narcolepsy, and circadian rhythm."
 ---

@@ -1,6 +1,8 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Cell-Based Assays — Functional Activity Testing"
-description: "Detailed guide to cell-based assays for peptide characterization — receptor binding, signaling pathway activation, dose-response, and functional activity profiling."
+description: "Guide to cell-based assays for peptide characterization — receptor binding, signaling, and selectivity."
 ---
 
 Cell-based assays evaluate the biological activity of therapeutic peptides in a physiological context, providing functional potency data complementary to receptor binding studies. This protocol covers cell-based assay design, execution, data analysis, and regulatory requirements for peptide potency testing.

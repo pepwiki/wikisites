@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: quiz-peptide-disease-diabetes-001
 question: "In type 1 diabetes, which peptide hormone is absent or severely deficient due to autoimmune destruction of pancreatic beta cells?"
 options:

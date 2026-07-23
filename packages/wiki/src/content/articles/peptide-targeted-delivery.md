@@ -1,6 +1,6 @@
 ---
 title: "Peptide-Targeted Drug Delivery"
-description: "How peptide ligands like RGD, transferrin, and folate are used to direct therapeutic agents to specific tissues, particularly tumors, for improved drug delivery."
+description: "How peptide ligands like RGD and transferrin direct therapeutic agents to specific tissues for improved drug delivery."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

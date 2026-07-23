@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: fc-spps-overview
 front: "What is Solid-Phase Peptide Synthesis (SPPS)?"
 back: "A method developed by Merrifield (1963) where amino acids are sequentially assembled on an insoluble polymeric resin. The growing peptide remains anchored to the resin throughout synthesis, allowing excess reagents to be removed by simple filtration and washing."

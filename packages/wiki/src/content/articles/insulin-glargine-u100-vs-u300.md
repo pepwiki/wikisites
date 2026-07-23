@@ -1,6 +1,6 @@
 ---
 title: "Insulin Glargine U-100 vs U-300"
-description: "Pharmacokinetic and pharmacodynamic comparison of insulin glargine at 100 U/mL and 300 U/mL concentrations, covering onset, peak, duration, and clinical implications."
+description: "Comparison of insulin glargine at 100 U/mL and 300 U/mL concentrations, covering pharmacokinetics and clinical implications."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-07-22

@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 title: "Clinical & Regulatory Glossary"
 description: "Glossary of toxicology, formulation, clinical trial, regulatory, and disease-related terms for oligopeptide therapeutics development."
 ---

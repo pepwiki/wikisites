@@ -1,6 +1,6 @@
 ---
 title: "Peptide Aggregation"
-description: "Peptide aggregation into amyloid fibrils underlies diseases like Alzheimer's and Parkinson's. Understanding beta-sheet stacking and aggregation mechanisms is essential for developing therapeutic strategies."
+description: "Peptide aggregation into amyloid fibrils underlies diseases like Alzheimer's and Parkinson's, driven by beta-sheet stacking."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

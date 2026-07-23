@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: peptide-structure-001
 front: What are the 20 standard amino acids and their one-letter codes?
 back: "Glycine (G), Alanine (A), Valine (V), Leucine (L), Isoleucine (I), Proline (P), Phenylalanine (F), Tryptophan (W), Methionine (M), Serine (S), Threonine (T), Cysteine (C), Tyrosine (Y), Asparagine (N), Glutamine (Q), Aspartic acid (D), Glutamic acid (E), Lysine (K), Arginine (R), Histidine (H)"

@@ -1,6 +1,6 @@
 ---
 title: "Peptide Bond Isomerization"
-description: "Explore cis-trans isomerization of peptide bonds, the role of prolyl isomerase in protein folding, and how this process affects folding kinetics and biological function."
+description: "Explore cis-trans isomerization of peptide bonds, the role of prolyl isomerase in protein folding, and how this process affects folding kinetics and dynamics."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

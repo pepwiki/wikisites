@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: quiz-reproductive-gnrh-001
 question: "Gonadotropin-releasing hormone (GnRH) is a decapeptide secreted from the hypothalamus. What is its primary effect on the anterior pituitary?"
 options:

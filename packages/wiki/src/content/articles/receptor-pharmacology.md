@@ -1,6 +1,6 @@
 ---
 title: "Receptor Pharmacology"
-description: "Receptor pharmacology explains how drugs interact with receptors to produce biological effects. This article covers agonists, antagonists, partial agonists, and dose-response relationships."
+description: "Receptor pharmacology explains how drugs interact with receptors to produce biological effects, covering agonists, antagonists, and partial agonists."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

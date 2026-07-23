@@ -1,4 +1,6 @@
 ---
+date: 2026-07-23
+author: "Wikipept Contributors"
 title: "Thymosin Alpha-1 vs IL-2 — Immunotherapy Comparison"
 description: "Immunotherapy comparison of thymosin alpha-1 (Tα1) and interleukin-2 (IL-2) — T-cell activation mechanisms, antitumor immunity, and clinical applications."
 ---

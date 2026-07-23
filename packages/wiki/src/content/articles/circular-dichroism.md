@@ -1,6 +1,6 @@
 ---
 title: "Circular Dichroism Spectroscopy"
-description: "Circular dichroism is a powerful technique for determining peptide and protein secondary structure by measuring differential absorption of left and right circularly polarized light."
+description: "Circular dichroism determines peptide and protein secondary structure by measuring differential absorption of circularly polarized light."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

@@ -1,6 +1,8 @@
 ---
+date: 2026-07-17
+author: "Wikipept Contributors"
 title: "Peptide Storage and Handling — Stability Guidelines"
-description: "In-depth analysis of thermodynamic and kinetic principles governing peptide stability across various storage conditions including temperature, humidity, and light."
+description: "Analysis of principles governing peptide stability — temperature, humidity, and container considerations."
 ---
 
 ## Degradation Kinetics and Storage

@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Analytical Methods for Peptides"
 description: Comparison of HPLC, mass spectrometry, circular dichroism, and NMR methods for peptide characterization — principles, applications, and sample requirements.
 ---

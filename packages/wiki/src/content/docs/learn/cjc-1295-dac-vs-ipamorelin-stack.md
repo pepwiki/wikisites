@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: CJC-1295 DAC vs Ipamorelin Stack
 description: Mechanistic rationale for combination GH secretagogue therapy — CJC-1295 DAC's sustained GHRH agonism combined with ipamorelin's selective ghrelin mimetic a.
 ---

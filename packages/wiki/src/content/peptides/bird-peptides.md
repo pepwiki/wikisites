@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 title: Bird Peptides Database
 description: Comprehensive database of bioactive peptides from avian species including chickens, turkeys, ducks, geese, ostriches, pigeons, and other birds
 ---

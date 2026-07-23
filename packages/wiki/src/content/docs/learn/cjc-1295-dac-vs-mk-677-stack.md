@@ -1,6 +1,8 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "CJC-1295 DAC vs MK-677 Stack — Growth Hormone Protocol"
-description: "Pharmacological analysis of combining CJC-1295 DAC with MK-677 — synergistic GH stimulation, dosing protocols, and safety considerations for growth hormone therapy."
+description: "Analysis of combining CJC-1295 DAC with MK-677 — synergistic GH release, pulsatility, and IGF-1 dynamics."
 ---
 
 CJC-1295 DAC and MK-677 represent two distinct classes of growth hormone secretagogues: CJC-1295 DAC is a modified growth hormone-releasing hormone (GHRH) analogue, while MK-677 (Ibutamoren) is a non-peptide ghrelin receptor (GHSR) agonist. Their combination targets two separate receptors on somatotrophs, potentially producing synergistic GH release through complementary signaling.

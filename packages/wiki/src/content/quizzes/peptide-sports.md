@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: quiz-peptide-sports-001
 question: "Which recombinant growth hormone is most commonly abused by athletes for performance enhancement?"
 options:

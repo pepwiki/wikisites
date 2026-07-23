@@ -1,6 +1,6 @@
 ---
 title: "Peptide Stability Testing"
-description: "Peptide stability testing determines how therapeutic peptides degrade over time and under stress. This article covers forced degradation, stability-indicating assays, and shelf-life determination."
+description: "Peptide stability testing determines how therapeutic peptides degrade over time and under stress conditions."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

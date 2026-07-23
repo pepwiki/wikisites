@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: quiz-neuropeptide-synthesis-001
 question: "How are neuropeptides fundamentally different from classical neurotransmitters in terms of synthesis?"
 options:

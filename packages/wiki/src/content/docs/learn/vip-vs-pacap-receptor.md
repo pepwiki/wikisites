@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "VIP vs PACAP Receptor — Pharmacology and Signaling"
 description: "Comparison of VIP and PACAP — VPAC1/VPAC2 vs PAC1 receptor selectivity and signaling pathways including cAMP, calcium mobilization, and tissue-specific effects."
 ---

@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "BPC-157 vs Thymosin Beta-4 Synergy — Combined Use"
 description: Synergistic mechanisms of BPC-157 and thymosin beta-4 in combination — complementary pathways in tissue repair, angiogenesis, and anti-inflammatory modulation.
 ---

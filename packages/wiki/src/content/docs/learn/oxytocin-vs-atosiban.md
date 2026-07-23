@@ -1,4 +1,6 @@
 ---
+date: 2026-07-23
+author: "Wikipept Contributors"
 title: "Oxytocin vs Atosiban — Uterine Contraction Modulation"
 description: Tocolytic comparison of oxytocin and atosiban — oxytocin receptor pharmacology, competitive antagonism, preterm labor management, and clinical outcomes.
 ---

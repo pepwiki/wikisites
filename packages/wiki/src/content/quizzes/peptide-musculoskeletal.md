@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: quiz-peptide-musculoskeletal-001
 question: "Which collagen peptide is most commonly used as a nutraceutical supplement for joint health and osteoarthritis management?"
 options:

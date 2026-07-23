@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Mass Spectrometry for Peptide Analysis
 description: Guide to mass spectrometric techniques for peptide characterization — MALDI-TOF, ESI-MS, LC-MS/MS, fragmentation patterns, and de novo sequencing.
 ---

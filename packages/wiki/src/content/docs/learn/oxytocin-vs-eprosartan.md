@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Oxytocin vs Eprosartan — Blood Pressure Regulation"
 description: "Pharmacological comparison of oxytocin (neuropeptide) and eprosartan (ARB) — divergent mechanisms in blood pressure regulation and cardiovascular protection."
 ---

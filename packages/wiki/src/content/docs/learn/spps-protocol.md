@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "SPPS Protocol — Solid-Phase Peptide Synthesis Guide"
 description: "Advanced guide to solid-phase peptide synthesis (SPPS), including Fmoc strategy, coupling reagents, resin selection, and purification for difficult sequences."
 ---

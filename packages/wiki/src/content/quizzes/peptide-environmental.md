@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: quiz-peptide-env-degradation-001
 question: "What is the primary mechanism by which peptides are degraded in soil environments?"
 options:

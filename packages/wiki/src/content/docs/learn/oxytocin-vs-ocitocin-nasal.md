@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Oxytocin vs Ocitocin Nasal — Intranasal Formulations"
 description: "Comparative pharmacokinetic analysis of oxytocin (injectable) and Ocitocin (intranasal) — bioavailability, CNS penetration, and clinical applications."
 ---

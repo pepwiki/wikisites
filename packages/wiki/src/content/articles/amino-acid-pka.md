@@ -1,6 +1,6 @@
 ---
 title: "Amino Acid pKa Values"
-description: "pKa values determine the protonation state of amino acid side chains and backbone groups. Understanding these values is critical for predicting charge states, buffer behavior, and protein function."
+description: "pKa values determine the protonation state of amino acid side chains and backbone groups, critical for predicting charge states and reactivity."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

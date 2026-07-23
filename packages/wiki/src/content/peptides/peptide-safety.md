@@ -1,4 +1,6 @@
 ---
+date: 2026-06-13
+author: "Wikipept Contributors"
 title: Peptide Safety Database
 description: Comprehensive database of therapeutic peptide safety concerns, mechanisms, symptoms, treatments, and regulatory requirements
 category: peptide-safety

@@ -1,6 +1,8 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Peptide GMP Validation Protocols
-description: "Comprehensive guide to GMP validation for peptide manufacturing — process validation, cleaning validation, equipment qualification, and analytical method validation."
+description: "Guide to GMP validation for peptide manufacturing — process, cleaning, and analytical method validation."
 ---
 
 GMP validation is a systematic process demonstrating that manufacturing processes consistently produce a product meeting predetermined quality specifications. For peptides, validation must address the unique challenges of solid-phase peptide synthesis (SPPS), cleavage/deprotection, purification, and lyophilization.

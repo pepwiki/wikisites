@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Peptide Formulation Excipients
 description: Excipient compatibility data for therapeutic peptides — stabilizers, preservatives, tonicity agents, and buffer systems with compatibility ratings.
 ---

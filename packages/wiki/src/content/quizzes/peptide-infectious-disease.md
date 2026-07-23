@@ -1,4 +1,5 @@
 ---
+date: 2026-06-11
 title: Peptides in Infectious Disease
 description: Test your knowledge of antimicrobial peptides, antiviral therapeutics, peptide-based diagnostics, and resistance mechanisms in infectious disease applications.
 category: infectious-disease

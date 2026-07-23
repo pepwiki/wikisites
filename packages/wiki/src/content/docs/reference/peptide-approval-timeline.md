@@ -1,4 +1,6 @@
 ---
+date: 2026-07-23
+author: "Wikipept Contributors"
 title: "Peptide Approval Timeline — FDA and EMA Milestones"
 description: "Chronological timeline of peptide drug approvals by FDA, EMA, and other regulatory agencies — milestones from insulin to modern GLP-1 agonists development."
 ---

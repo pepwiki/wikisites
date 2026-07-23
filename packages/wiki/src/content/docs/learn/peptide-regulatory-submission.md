@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Peptide Regulatory Submission Requirements
 description: Comprehensive guide to regulatory submission requirements for peptide drugs — IND, NDA, BLA, MAA, and international filing requirements.
 ---

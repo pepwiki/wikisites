@@ -1,6 +1,6 @@
 ---
 title: "VIP vs Sildenafil: Erectile Dysfunction"
-description: "Comparative analysis of vasoactive intestinal peptide (VIP) and sildenafil for erectile dysfunction, covering mechanisms of action, clinical efficacy, safety profiles, and combination potential."
+description: "Comparison of vasoactive intestinal peptide and sildenafil for erectile dysfunction, covering mechanisms and clinical efficacy."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-07-22

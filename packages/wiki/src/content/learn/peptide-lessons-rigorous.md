@@ -1,6 +1,8 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 title: "Oligopeptide Science: Rigorous Foundations"
-description: "Ten scientifically rigorous lessons covering amino acid chemistry, peptide bonds, protein folding, enzyme kinetics, receptor binding, pharmacokinetics, drug design, analytical methods, clinical development, and regulatory requirements for peptide therapeutics."
+description: "Rigorous lessons on peptide biology with detailed coverage of molecular mechanisms and clinical applications."
 lessons:
   - id: "amino-acid-chemistry-rigorous"
     title: "Amino Acid Chemistry and Properties"

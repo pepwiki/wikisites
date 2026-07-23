@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Oxymetazoline vs Brimonidine — Alpha-Agonist Comparison"
 description: Comparison of alpha-adrenergic agonists — oxymetazoline for nasal congestion and facial erythema vs brimonidine for glaucoma and rosacea.
 ---

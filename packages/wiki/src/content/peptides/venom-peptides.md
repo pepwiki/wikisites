@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 title: Venom Peptides Database
 description: Comprehensive database of venom peptides from snakes, cone snails, scorpions, spiders, bees, wasps, and marine organisms
 ---

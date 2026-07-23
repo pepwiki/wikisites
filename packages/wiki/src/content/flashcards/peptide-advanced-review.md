@@ -1,4 +1,6 @@
 ---
+date: 2026-06-16
+author: "Wikipept Contributors"
 id: fc-peptide-design-cyclic
 front: "What are cyclic peptides and what advantages do they offer over linear peptides?"
 back: "Cyclic peptides have their N- and C-termini (or side chains) joined to form a ring. Advantages: 1) constrained conformation improves target selectivity, 2) enhanced metabolic stability against exopeptidases, 3) improved membrane permeability in some cases, 4) higher binding affinity due to pre-organized structure. Examples: cyclosporine A, vancomycin."

@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: quiz-peptide-ophthalmology-delivery-001
 question: "Which route of peptide delivery to the eye achieves the highest bioavailability for posterior segment targets?"
 options:

@@ -1,6 +1,6 @@
 ---
 title: "Insulin Aspart vs Lispro: Onset Time"
-description: "Comparative analysis of insulin aspart and insulin lispro rapid-acting insulin analogs, focusing on onset time, pharmacokinetics, pharmacodynamics, and clinical implications for mealtime dosing."
+description: "Comparative analysis of insulin aspart and insulin lispro rapid-acting insulin analogs, focusing on onset time, pharmacokinetics, and clinical use."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-07-22

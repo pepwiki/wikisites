@@ -1,6 +1,6 @@
 ---
 title: "Peptide Bond IR Spectroscopy"
-description: "Learn how infrared spectroscopy identifies peptide bonds through amide I and II bands, secondary structure assignment, and ATR-FTIR applications in protein analysis."
+description: "Infrared spectroscopy identifies peptide bonds through amide I and II bands, with applications in secondary structure analysis."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

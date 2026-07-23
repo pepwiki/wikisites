@@ -1,6 +1,6 @@
 ---
 title: "Amino Acid Metabolism"
-description: "Amino acid metabolism encompasses the pathways by which the body processes amino acids for energy, biosynthesis, and nitrogen disposal. This article covers transamination, deamination, and the urea cycle."
+description: "Amino acid metabolism encompasses pathways for energy production, biosynthesis, and nitrogen disposal."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

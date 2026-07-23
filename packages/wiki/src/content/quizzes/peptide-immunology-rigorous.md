@@ -1,3 +1,6 @@
+---
+date: 2026-06-12
+author: "Wikipept Contributors"
 # Peptide Immunology: Scientifically Rigorous Quiz
 
 ## Advanced MHC, T Cell Biology & Vaccine Design

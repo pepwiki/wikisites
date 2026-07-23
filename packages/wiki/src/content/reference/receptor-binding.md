@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Receptor Binding Affinities
 description: Comprehensive reference table of peptide-receptor binding affinities — Kd values, EC50 measurements, selectivity ratios, and pharmacological characterization.
 ---

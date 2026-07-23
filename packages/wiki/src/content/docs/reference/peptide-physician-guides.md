@@ -1,4 +1,6 @@
 ---
+date: 2026-07-23
+author: "Wikipept Contributors"
 title: "Peptide Physician Guides — Prescribing Reference"
 description: "Prescribing guides for peptide therapeutics — dosing protocols, monitoring requirements, drug interactions, contraindications, and clinical decision algorithms."
 ---

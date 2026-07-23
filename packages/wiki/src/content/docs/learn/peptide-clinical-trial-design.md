@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Clinical Trial Design — Study Methodology"
 description: Comprehensive guide to clinical trial design for peptide drugs — study phases, endpoints, statistical considerations, and regulatory strategy.
 ---

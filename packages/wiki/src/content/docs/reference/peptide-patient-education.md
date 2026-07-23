@@ -1,4 +1,6 @@
 ---
+date: 2026-07-23
+author: "Wikipept Contributors"
 title: "Peptide Patient Education — Administration Training"
 description: "Patient education materials for peptide therapeutics — administration techniques, injection training, storage requirements, and side effect management."
 ---

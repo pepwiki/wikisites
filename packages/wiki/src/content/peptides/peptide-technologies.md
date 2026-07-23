@@ -1,4 +1,6 @@
 ---
+date: 2026-06-13
+author: "Wikipept Contributors"
 title: Peptide Technologies Database
 description: Comprehensive database of peptide technologies including synthesis, delivery, analysis, and computational methods for peptide research and development
 category: technologies

@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: fc-phase-i-trials
 front: "What are the primary objectives of Phase I clinical trials?"
 back: "Phase I trials evaluate safety, tolerability, and pharmacokinetics in healthy volunteers (20-100 subjects). They determine maximum tolerated dose (MTD), dose-limiting toxicities, and drug absorption/metabolism/excretion. Duration is typically several months."

@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Collagen vs Elastin Peptides — Structural Protein Rx"
 description: Comparison of collagen and elastin peptides — triple helix vs random coil structure, strength vs elasticity function, supplementation strategies, b.
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Amino Acid Charge at Physiological pH"
-description: "Understanding how amino acids carry charge at physiological pH is essential for grasping protein structure and function. Learn about pKa values, zwitterions, and isoelectric point calculations."
+description: "Understanding how amino acids carry charge at physiological pH is essential for grasping protein structure and function."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

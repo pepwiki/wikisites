@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: FDA-Approved Peptide Drugs
 description: Comprehensive table of all FDA-approved peptide therapeutics — approval date, indication, company, mechanism, and clinical significance.
 ---

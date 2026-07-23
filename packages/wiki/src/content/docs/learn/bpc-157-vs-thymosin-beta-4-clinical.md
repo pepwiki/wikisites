@@ -1,4 +1,6 @@
 ---
+date: 2026-07-23
+author: "Wikipept Contributors"
 title: "BPC-157 vs Thymosin Beta-4 Clinical — Trial Data"
 description: Clinical evidence comparison of BPC-157 and thymosin beta-4 — trial data, case studies, safety profiles, and regulatory status for tissue repair peptides.
 ---

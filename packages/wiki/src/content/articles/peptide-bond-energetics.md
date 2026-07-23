@@ -1,6 +1,6 @@
 ---
 title: "Peptide Bond Formation Energetics"
-description: "Peptide bond formation is thermodynamically unfavorable and requires energy input. This article explains ATP coupling in biological synthesis and activation strategies in chemical synthesis."
+description: "Peptide bond formation is thermodynamically unfavorable and requires energy input through ATP coupling and activation strategies."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

@@ -1,6 +1,8 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Reconstitution Guide — Diluent Selection Data"
-description: "Step-by-step guide for reconstituting lyophilized peptides with bacteriostatic water including volume calculations, technique optimization, and contamination prevention."
+description: "Guide for reconstituting lyophilized peptides — techniques, calculations, and safety considerations."
 ---
 # Peptide Reconstitution Guide
 

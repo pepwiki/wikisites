@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: quiz-peptide-pharm-rigorous-001
 question: "Semaglutide contains an α-aminoisobutyric acid (Aib) substitution at position 8 of the GLP-1 sequence. What is the primary pharmacological purpose of this modification?"
 options:

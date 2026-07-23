@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Liraglutide vs Dulaglutide — GLP-1 RA Comparison"
 description: Comparison of liraglutide and dulaglutide — fatty acylation vs Fc-fusion conjugation strategies, pharmacokinetics, efficacy, and clinical positioning for G.
 ---

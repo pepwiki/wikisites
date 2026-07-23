@@ -1,6 +1,8 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 title: Mammalian Peptides Database
-description: Comprehensive database of bioactive peptides derived from mammals including bovine, porcine, ovine, canine, feline, and mammalian neuropeptides with antimicrobial and neuroactive properties
+description: "Comprehensive database of bioactive peptides derived from mammals including bovine, porcine, ovine, and neuropeptides."
 category: Mammalian Biotechnology
 tags: [mammalian, peptides, antimicrobial, bovine, porcine, ovine, canine, feline, neuropeptides, cathelicidin, defensin]
 lastUpdated: 2026-06-12

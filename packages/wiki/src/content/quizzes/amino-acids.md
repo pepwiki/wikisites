@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: quiz-amino-acid-glycine-001
 question: "Which amino acid is the smallest, with only a hydrogen atom as its side chain?"
 options:

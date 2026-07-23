@@ -1,6 +1,8 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 title: "Scientifically Rigorous Glossary"
-description: "Precise definitions of biochemistry, structural biology, pharmacology, analytical chemistry, and clinical pharmacokinetics terms with formal equations and units."
+description: "Rigorous glossary of oligopeptide biology terms with detailed definitions for researchers and students."
 ---
 
 ## Biochemistry

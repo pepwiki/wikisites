@@ -1,4 +1,6 @@
 ---
+date: 2026-06-13
+author: "Wikipept Contributors"
 id: amino-acids-comprehensive-001
 front: What is the molecular weight of Glycine?
 back: "75.07 g/mol. Glycine is the smallest amino acid with only a hydrogen atom as its side chain (H)."

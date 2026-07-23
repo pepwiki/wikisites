@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: quiz-nephrology-renal-peptide-handling-001
 question: "What is the primary mechanism by which small peptides (< 5 kDa) are processed by the kidney?"
 options:

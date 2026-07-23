@@ -1,4 +1,6 @@
 ---
+date: 2026-07-21
+author: "Wikipept Contributors"
 title: "CJC-1295 vs Ipamorelin — GHRH vs GHSR Agonist"
 description: Comparison of CJC-1295 and ipamorelin — GRF analog vs GHSR1a agonist, GH release patterns, IGF-1 elevation, and combination use.
 ---

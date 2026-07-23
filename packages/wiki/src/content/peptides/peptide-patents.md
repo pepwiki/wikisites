@@ -1,6 +1,8 @@
 ---
+date: 2026-06-13
+author: "Wikipept Contributors"
 title: Peptide Patents Database
-description: Comprehensive database and analysis of peptide-related patents covering therapeutic applications, drug delivery systems, synthesis methods, and commercial landscapes
+description: "Overview of peptide-related patents including therapeutic peptides, delivery systems, and synthesis methods."
 lastUpdated: 2025-01-13
 ---
 

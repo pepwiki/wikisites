@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 title: "Oligopeptide Glossary"
 description: "Comprehensive glossary of terms related to oligopeptide chemistry, biology, pharmacology, and clinical applications."
 ---

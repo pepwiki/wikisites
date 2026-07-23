@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Peptide Receptor Binding Assays
 description: Receptor binding assay methods for therapeutic peptides — radioligand binding, competition assays, SPR, and selectivity profiling.
 ---

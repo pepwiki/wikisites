@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Storage Complete — All Stability Data"
 description: "Comprehensive storage conditions for all peptides — temperature, light, humidity, reconstitution stability, and shelf life data."
 ---

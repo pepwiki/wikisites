@@ -1,6 +1,6 @@
 ---
 title: "Semaglutide vs Liraglutide: Cardiovascular Outcomes"
-description: "Comparative analysis of cardiovascular outcomes data for semaglutide and liraglutide, covering LEADER, SUSTAIN-6, PIONEER-6, SELECT, and other landmark cardiovascular outcome trials."
+description: "Comparative analysis of cardiovascular outcomes data for semaglutide and liraglutide, covering LEADER, SUSTAIN-6, PIONEER-6, SELECT, and other landmark trials."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-07-22

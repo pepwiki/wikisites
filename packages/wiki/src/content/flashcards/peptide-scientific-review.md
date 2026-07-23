@@ -1,6 +1,8 @@
 ---
+date: 2026-06-16
+author: "Wikipept Contributors"
 title: Peptide Scientific Review Flashcards
-description: 400 flashcards covering medicinal chemistry, biology, clinical sciences, analytical sciences, synthesis, delivery, immunology, and advanced topics for peptide drug development
+description: "Flashcards for reviewing peptide scientific literature concepts, experimental methods, and research findings."
 ---
 
 # Peptide Scientific Review

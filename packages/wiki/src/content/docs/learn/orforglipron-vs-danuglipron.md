@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Orforglipron vs Danuglipron — Oral GLP-1 Comparison"
 description: Comparison of oral non-peptide GLP-1 receptor agonists — orforglipron and danuglipron — pharmacology, pharmacokinetics, efficacy, and tolerability in the eme.
 ---

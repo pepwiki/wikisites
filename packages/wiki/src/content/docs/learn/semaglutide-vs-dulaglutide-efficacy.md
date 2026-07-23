@@ -1,6 +1,8 @@
 ---
+date: 2026-07-23
+author: "Wikipept Contributors"
 title: "Semaglutide vs Dulaglutide Efficacy — GLP-1 Outcomes"
-description: "Head-to-head efficacy comparison of semaglutide and dulaglutide — HbA1c reduction, weight loss, cardiovascular outcomes, dosing convenience, and GLP-1 selection."
+description: "Efficacy comparison of semaglutide and dulaglutide — HbA1c reduction, weight loss, and trial data."
 ---
 
 Semaglutide and dulaglutide are both once-weekly GLP-1 receptor agonists with established efficacy in type 2 diabetes. However, they differ in receptor binding kinetics, clinical trial evidence, and magnitude of metabolic effects. Understanding their distinct efficacy profiles informs rational GLP-1 RA selection.

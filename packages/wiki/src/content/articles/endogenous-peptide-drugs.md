@@ -1,6 +1,6 @@
 ---
 title: "Endogenous Peptide Drugs"
-description: "Naturally occurring peptides like insulin, oxytocin, vasopressin, and calcitonin serve as the basis for important therapeutic agents. These molecules demonstrate how endogenous peptides can be harnessed for medicine."
+description: "Naturally occurring peptides like insulin, oxytocin, vasopressin, and calcitonin serve as the basis for important therapeutic agents."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

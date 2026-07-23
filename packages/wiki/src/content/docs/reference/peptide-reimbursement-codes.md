@@ -1,4 +1,6 @@
 ---
+date: 2026-07-23
+author: "Wikipept Contributors"
 title: "Peptide Reimbursement Codes — HCPCS and CPT Reference"
 description: "Insurance billing codes for peptide therapeutics — HCPCS/CPT codes, ICD-10 diagnosis codes, prior authorization requirements, and reimbursement optimization."
 ---

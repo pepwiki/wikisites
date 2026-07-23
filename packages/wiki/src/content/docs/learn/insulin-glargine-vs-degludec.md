@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Insulin Glargine vs Insulin Degludec
 description: Comparison of long-acting insulin analogs — glargine and degludec — mechanisms, pharmacokinetics, and hypoglycemia risk.
 ---

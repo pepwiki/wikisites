@@ -1,6 +1,6 @@
 ---
 title: "Peptide Bond Hydrolysis"
-description: "Peptide bond hydrolysis is the fundamental reaction that breaks proteins into smaller peptides or amino acids. This article covers the thermodynamics, mechanisms, and energy barriers involved."
+description: "Peptide bond hydrolysis is the fundamental reaction that breaks proteins into smaller peptides or amino acids, catalyzed by proteases and chemical methods."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

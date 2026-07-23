@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Toxicology — Safety and Adverse Effects Guide"
 description: Preclinical toxicology studies for peptide drugs — study design, regulatory requirements, safety pharmacology, and toxicity endpoints.
 ---

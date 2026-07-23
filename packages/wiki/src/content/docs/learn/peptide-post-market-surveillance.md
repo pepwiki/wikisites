@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Peptide Post-Market Surveillance
 description: Comprehensive guide to post-market surveillance for peptide drugs — pharmacovigilance, signal detection, risk management, and REMS programs.
 ---

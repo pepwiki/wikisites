@@ -1,3 +1,6 @@
+---
+date: 2026-06-12
+author: "Wikipept Contributors"
 # Yeast Peptide Database
 
 | id | name | sequence | length | source_yeast | target | mechanism | bioactivity | category |

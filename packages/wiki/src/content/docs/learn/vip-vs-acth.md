@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "VIP vs ACTH — Neuropeptide vs Hormone Signaling"
 description: Neuropeptide vs hormone — vasoactive intestinal peptide's versatile signaling vs corticotropin's stress axis regulation.
 ---

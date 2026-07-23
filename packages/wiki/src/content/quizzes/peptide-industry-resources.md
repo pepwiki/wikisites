@@ -1,5 +1,7 @@
 ---
-title: "Peptide Industry Companies, Resources, Trends & Career Paths Quiz"
+date: 2026-06-15
+author: "Wikipept Contributors"
+title: "Peptide Industry & Career Resources Quiz"
 description: "Test your knowledge on peptide industry companies, key resources, market trends, industry analysis, and career opportunities in peptide science."
 category: "peptides"
 difficulty: "mixed"

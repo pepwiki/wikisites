@@ -1,6 +1,8 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Market Data — Industry Growth and Trends"
-description: "Market competition analysis for therapeutic peptides — market share, pricing dynamics, pipeline threats, patent cliffs, and biosimilar entry across therapeutic classes."
+description: "Market data for therapeutic peptides — market share, pricing trends, and growth projections."
 ---
 
 The global peptide therapeutics market represents one of the fastest-growing segments of the pharmaceutical industry, driven by GLP-1 receptor agonist dominance, expanding indications, and manufacturing innovations.

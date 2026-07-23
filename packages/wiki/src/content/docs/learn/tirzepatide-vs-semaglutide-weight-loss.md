@@ -1,4 +1,6 @@
 ---
+date: 2026-07-21
+author: "Wikipept Contributors"
 title: Tirzepatide vs Semaglutide for Weight Loss
 description: Comparison of tirzepatide and semaglutide for weight management — dual vs single incretin agonism and clinical decision factors.
 ---

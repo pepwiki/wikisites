@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: quiz-peptide-psychiatry-001
 question: "Which neuropeptide system is most consistently implicated in the pathophysiology of major depressive disorder?"
 options:

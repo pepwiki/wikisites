@@ -1,6 +1,6 @@
 ---
 title: "CJC-1295 vs MK-677: Combination Analysis"
-description: "Comparative analysis of CJC-1295 and MK-677 as growth hormone secretagogues, examining their pharmacological profiles, combination potential, and synergistic effects in GH axis stimulation."
+description: "Comparative analysis of CJC-1295 and MK-677 as growth hormone secretagogues, examining their pharmacological profiles and combination potential."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-07-22

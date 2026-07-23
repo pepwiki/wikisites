@@ -1,6 +1,6 @@
 ---
 title: "Protein Folding Thermodynamics"
-description: "Protein folding is governed by thermodynamic principles that determine how a linear chain achieves its native structure. This article covers the Levinthal paradox, energy landscapes, and the role of chaperones."
+description: "Protein folding is governed by thermodynamic principles that determine how a linear polypeptide chain achieves its native three-dimensional structure."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

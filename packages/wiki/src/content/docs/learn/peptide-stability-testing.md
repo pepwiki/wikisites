@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Stability Testing — ICH Stability Protocols"
 description: Guide to peptide stability testing methods — forced degradation, accelerated stability, and long-term storage studies for peptide therapeutics.
 ---

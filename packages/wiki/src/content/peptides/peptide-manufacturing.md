@@ -1,4 +1,6 @@
 ---
+date: 2026-06-13
+author: "Wikipept Contributors"
 title: Peptide Manufacturing Database
 description: Comprehensive database of peptide synthesis, purification, characterization, formulation, and quality control processes
 category: Peptide Manufacturing

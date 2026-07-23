@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 title: "Food-Derived Bioactive Peptides"
 description: "Database of bioactive peptides derived from food proteins, including sequences, sources, biological functions, and activity values."
 ---

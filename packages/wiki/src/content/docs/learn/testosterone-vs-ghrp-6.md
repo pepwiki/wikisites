@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Testosterone vs GHRP-6 — Hormone Stimulation Pathways"
 description: Comparison of testosterone and GHRP-6 — androgen receptor vs GHSR1a, direct vs indirect GH stimulation, side effect profiles, detection windows, and c.
 ---

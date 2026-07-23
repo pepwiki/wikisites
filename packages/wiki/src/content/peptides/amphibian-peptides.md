@@ -1,6 +1,8 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 title: Amphibian Peptides Database
-description: Comprehensive database of bioactive peptides derived from amphibians including antimicrobial, opioid, neuropeptide, bradykinin, caerulein, and antiviral peptides
+description: "Database of bioactive peptides from amphibians including antimicrobial, opioid, neuropeptide, and bradykinin-related peptides."
 category: Amphibian Biotechnology
 tags: [amphibian, peptides, antimicrobial, opioid, neuropeptides, bradykinin, caerulein, antiviral, frogs, toads]
 lastUpdated: 2026-06-12

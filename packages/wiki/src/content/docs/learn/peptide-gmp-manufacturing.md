@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide GMP Manufacturing — Quality Production Guide"
 description: GMP compliance for peptide manufacturing — quality systems, facility design, process validation, and regulatory requirements for current Good Manufacturing P.
 ---

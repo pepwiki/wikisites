@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 title: Reptile Peptides Database
 description: Comprehensive database of bioactive peptides from reptiles including snakes, lizards, crocodilians, turtles, geckos, and chameleons
 ---

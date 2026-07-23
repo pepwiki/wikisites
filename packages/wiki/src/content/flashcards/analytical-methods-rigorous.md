@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: fc-rp-hplc-c18
 front: "Describe the stationary phase composition and retention mechanism of RP-HPLC on a C18 column."
 back: "C18 columns contain octadecylsilane chains (n-C18H37) covalently bonded to silica particles (typically 3–5 μm). Retention is governed by hydrophobic interaction: analytes partition between the aqueous/organic mobile phase and the non-polar stationary phase. Longer alkyl chains and higher hydrophobicity increase retention. The column dead volume (t₀) is measured with an unretained solute (e.g., uracil)."

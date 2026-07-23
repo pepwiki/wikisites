@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 title: "Cosmetic Peptides"
 description: "Database of peptides used in cosmetic and skincare formulations, including sequences, INCI names, mechanisms, and applications."
 ---

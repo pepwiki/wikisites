@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Excipient Compatibility"
 description: "Excipient compatibility data for peptide formulation development including buffer selection, surfactant effects, and container-closure compatibility studies."
 ---

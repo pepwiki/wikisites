@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Safety Data — Clinical Safety Profiles"
 description: "Safety profiles, adverse events, and contraindications for common peptide drugs including injection site reactions, immunogenicity risk, and drug interactions."
 ---

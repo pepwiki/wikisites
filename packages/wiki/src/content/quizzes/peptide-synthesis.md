@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: quiz-fmoc-vs-boc-001
 question: "What is the key difference between Fmoc and Boc protecting groups in solid phase peptide synthesis?"
 options:

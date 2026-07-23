@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "BPC-157 Oral vs Injectable — Bioavailability Routes"
 description: Comparison of oral and injectable BPC-157 administration — bioavailability, GI tract stability, systemic vs local effects, clinical evidence, and dosing c.
 ---

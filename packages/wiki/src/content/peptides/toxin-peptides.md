@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 title: Toxin Peptides Database
 description: Comprehensive database of toxin peptides and toxic molecules from various organisms including venom, plant, and microbial sources with sequences and mechanisms
 ---

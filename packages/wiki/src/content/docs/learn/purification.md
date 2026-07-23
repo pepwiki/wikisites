@@ -1,4 +1,6 @@
 ---
+date: 2026-06-08
+author: "Wikipept Contributors"
 title: "Purification Methods — Peptide Isolation Techniques"
 description: Advanced techniques for peptide purification and characterization, including HPLC, mass spectrometry, and analytical methods.
 ---

@@ -1,4 +1,6 @@
 ---
+date: 2026-07-21
+author: "Wikipept Contributors"
 title: "PT-141 vs Sildenafil Viagra — Erectile Dysfunction Rx"
 description: Comparison of PT-141 (bremelanotide) and sildenafil — melanocortin vs PDE5 pathways, central vs peripheral mechanisms, efficacy, and side effect profiles.
 ---

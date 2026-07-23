@@ -1,6 +1,7 @@
 ---
+date: 2026-06-11
 title: Peptide Oncology
-description: Test your knowledge of peptides in oncology including tumor antigens, peptide vaccines, immune checkpoint peptides, radiolabeled peptides, drug conjugates, tumor-homing peptides, biomarkers, and personalized therapy.
+description: "Quiz on peptide applications in oncology, including tumor-targeting peptides and cancer immunotherapy."
 category: oncology
 author: WikiSites
 tags:

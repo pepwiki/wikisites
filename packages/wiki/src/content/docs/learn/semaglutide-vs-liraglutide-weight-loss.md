@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Semaglutide vs Liraglutide for Weight Loss
 description: Weight loss-specific comparison of semaglutide and liraglutide — dosing, efficacy in obesity trials, mechanisms of appetite suppression, and patient s.
 ---

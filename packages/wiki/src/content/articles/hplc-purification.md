@@ -1,6 +1,6 @@
 ---
 title: "HPLC Purification"
-description: "Learn the principles of reversed-phase, normal-phase, and ion-exchange HPLC for peptide purification, including gradient elution strategies and practical optimization."
+description: "Learn the principles of reversed-phase, normal-phase, and ion-exchange HPLC for peptide purification, including gradient elution strategies and practical tips."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2025-12-15

@@ -1,6 +1,8 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 title: Worm & Nematode Peptides Database
-description: Comprehensive database of bioactive peptides from worms including nematode neuropeptides, insulin-like peptides, earthworm antimicrobial peptides, leech anticoagulants, and flatworm parasitic peptides
+description: "Database of bioactive peptides from helminths and nematodes including antimicrobial and immunomodulatory peptides."
 category: Helminth Biotechnology
 tags: [worm, nematode, earthworm, leech, flatworm, neuropeptide, hirudin, antimicrobial, parasitic, C. elegans, bioactive]
 lastUpdated: 2026-06-12

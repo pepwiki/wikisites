@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Regulatory Status — Global Approval Database"
 description: "Overview of global regulatory frameworks for peptide therapeutics including FDA, EMA, PMDA approval pathways, breakthrough designations, and orphan drug status."
 ---

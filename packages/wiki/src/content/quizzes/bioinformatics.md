@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: quiz-bioinformatics-001
 question: "Which scoring matrix is most commonly used for comparing closely related protein sequences?"
 options:

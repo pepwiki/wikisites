@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: quiz-peptide-surgery-wound-healing-001
 question: "Which peptide growth factor is most commonly used clinically to accelerate wound healing in surgical patients?"
 options:

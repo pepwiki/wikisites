@@ -1,3 +1,6 @@
+---
+date: 2026-06-13
+author: "Wikipept Contributors"
 # Peptide Clinical Trials Database
 
 Comprehensive database of peptide-based clinical trials organized by phase.

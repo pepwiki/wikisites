@@ -1,4 +1,6 @@
 ---
+date: 2026-07-21
+author: "Wikipept Contributors"
 title: "Semaglutide vs Liraglutide — GLP-1 RA Generation"
 description: Head-to-head comparison of semaglutide and liraglutide — mechanism, pharmacokinetics, efficacy, dosing, and clinical evidence across diabetes and obesity.
 ---

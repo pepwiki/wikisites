@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 title: "Peptides in Veterinary Medicine"
 description: "Test your knowledge of peptide applications across veterinary medicine, from livestock production to wildlife conservation."
 difficulty: advanced

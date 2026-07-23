@@ -1,6 +1,6 @@
 ---
 title: "Peptide Bond Electronegativity"
-description: "Understanding the electronegativity differences between oxygen and nitrogen in peptide bonds, partial charge distribution, and how this influences chemical reactivity."
+description: "Understanding electronegativity differences between oxygen and nitrogen in peptide bonds and their influence on chemical reactivity."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

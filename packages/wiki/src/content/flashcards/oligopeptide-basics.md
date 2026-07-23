@@ -1,4 +1,6 @@
 ---
+date: 2026-06-10
+author: "Wikipept Contributors"
 id: fc-amino-acid-glycine
 front: "What is the simplest amino acid?"
 back: "Glycine (Gly, G) - its side chain is a single hydrogen atom, making it the only achiral amino acid."

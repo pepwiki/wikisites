@@ -1,4 +1,6 @@
 ---
+date: 2026-06-14
+author: "Wikipept Contributors"
 title: "Peptide History Database"
 description: "Comprehensive timeline of peptide science milestones from 1820 to present"
 category: "peptide-research"

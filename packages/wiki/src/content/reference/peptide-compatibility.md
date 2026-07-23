@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Peptide Compatibility Data
 description: Excipient compatibility data for therapeutic peptides — compatibility with common excipients, diluents, and formulation additives, including stability data.
 ---

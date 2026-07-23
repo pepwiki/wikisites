@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: quiz-peptide-metabolic-disease-insulin-resistance-001
 question: "Which peptide hormone is primarily responsible for regulating glucose homeostasis and is central to the pathophysiology of type 2 diabetes?"
 options:

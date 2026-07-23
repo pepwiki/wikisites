@@ -1,6 +1,6 @@
 ---
 title: "Peptide Folding Pathways"
-description: "Exploring peptide folding through energy landscapes, folding funnels, molten globule intermediates, and the thermodynamic and kinetic factors that guide folding."
+description: "Peptide folding through energy landscapes, folding funnels, molten globule intermediates, and thermodynamic guiding factors."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

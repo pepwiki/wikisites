@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: quiz-peptide-pain-001
 question: "Which endogenous opioid peptide is cleaved from proenkephalin A and contains the Met-enkephalin sequence repeated multiple times?"
 options:

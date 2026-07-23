@@ -1,4 +1,6 @@
 ---
+date: 2026-06-16
+author: "Wikipept Contributors"
 id: fc-disease-cardiovascular-1
 front: "What is hypertension and how does it relate to peptide therapeutics?"
 back: "Hypertension is sustained elevated blood pressure (>130/80 mmHg). Peptide therapeutics include: 1) ACE inhibitors (captopril, enalaprilat) - block angiotensin-converting enzyme, 2) ARBs (losartan-like peptides) - block AT1 receptors, 3) natriuretic peptides (ANP, BNP) - promote vasodilation and natriuresis, 4) endothelin receptor antagonists (bosentan). Peptide-based approaches offer high specificity with reduced off-target effects."

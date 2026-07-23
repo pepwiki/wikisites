@@ -1,3 +1,6 @@
+---
+date: 2026-06-12
+author: "Wikipept Contributors"
 # Therapeutic Peptides Database
 
 A comprehensive database of FDA-approved and clinically used therapeutic peptides and peptide-like molecules.

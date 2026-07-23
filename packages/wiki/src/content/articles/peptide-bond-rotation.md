@@ -1,6 +1,6 @@
 ---
 title: "Peptide Bond Rotation"
-description: "Peptide bond rotation is restricted due to partial double-bond character, limiting conformational freedom. This article explains phi and psi angles, the Ramachandran plot, and allowed backbone conformations."
+description: "Peptide bond rotation is restricted due to partial double-bond character, limiting conformational freedom and defining protein structural constraints."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

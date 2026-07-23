@@ -1,6 +1,6 @@
 ---
 title: "Peptide Drug Modifications"
-description: "Explore the major chemical strategies used to improve peptide drug pharmacokinetics, including D-amino acid substitution, cyclization, PEGylation, and fatty acid conjugation."
+description: "Explore chemical strategies to improve peptide drug pharmacokinetics, including D-amino acid substitution, cyclization, PEGylation, and fatty acid conjugation."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2025-02-01

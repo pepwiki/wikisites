@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Selank vs Semax — Nootropic Peptide Comparison"
 description: Comparison of Selank and Semax — tuftsin vs ACTH analogs, anxiotropic vs nootropic effects, GABA vs BDNF modulation, clinical evidence, and dosing protocols.
 ---

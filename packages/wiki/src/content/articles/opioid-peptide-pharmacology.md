@@ -1,6 +1,6 @@
 ---
 title: "Opioid Peptide Pharmacology"
-description: "Endogenous opioid peptides including endorphins, enkephalins, and dynorphins modulate pain, mood, and reward through mu, delta, and kappa receptors. Understanding their pharmacology is key to pain management and addiction research."
+description: "Endogenous opioid peptides including endorphins, enkephalins, and dynorphins modulate pain, mood, and reward through mu, delta, and kappa receptors."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

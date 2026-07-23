@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Peptide Storage Conditions
 description: Optimal storage conditions for therapeutic peptides — temperature, light, humidity, reconstituted stability, and shelf life data for each peptide class.
 ---

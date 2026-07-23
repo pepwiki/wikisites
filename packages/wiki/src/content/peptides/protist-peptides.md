@@ -1,3 +1,6 @@
+---
+date: 2026-06-12
+author: "Wikipept Contributors"
 # Protist Peptide Database
 
 | id | name | sequence | length | source_protist | target | mechanism | bioactivity | category |

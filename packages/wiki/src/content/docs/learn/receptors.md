@@ -1,6 +1,8 @@
 ---
+date: 2026-06-08
+author: "Wikipept Contributors"
 title: "Receptor Binding — Peptide Pharmacodynamics Overview"
-description: "Understanding receptor types, ligand binding kinetics, and dose-response relationships in peptide pharmacology including GPCRs, RTKs, and ion channel-coupled receptors."
+description: "Overview of receptor types, ligand binding kinetics, and dose-response relationships for peptides."
 ---
 
 ## Introduction

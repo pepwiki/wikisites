@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Reconstitution — Diluent and Technique Guide"
 description: Complete guide to peptide reconstitution — buffer selection, techniques, concentration calculations, and storage after reconstitution.
 ---

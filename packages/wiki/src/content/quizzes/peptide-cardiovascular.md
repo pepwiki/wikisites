@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: quiz-cardiovascular-natriuretic-001
 question: "Which natriuretic peptide is primarily released from ventricular cardiomyocytes in response to volume overload and is the gold standard biomarker for heart failure?"
 options:

@@ -1,6 +1,7 @@
 ---
+date: 2026-06-12
 title: Peptide Hematology
-description: Test your knowledge of peptides in hematology including erythropoietin, thrombopoietin, hematopoietic growth factors, colony stimulating factors, interleukins, biomarkers, anticoagulant and antiplatelet peptides, fibrinolytic and hemostatic peptides, and therapeutic applications in blood disorders.
+description: "Quiz on peptide involvement in hematological processes, coagulation cascades, and blood cell signaling."
 category: hematology
 author: WikiSites
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "Peptide Vaccines"
-description: "Peptide vaccines use synthetic peptide epitopes to stimulate targeted immune responses, offering advantages in safety and manufacturing over traditional vaccine approaches."
+description: "Peptide vaccines use synthetic peptide epitopes to stimulate targeted immune responses, offering advantages in safety and manufacturing."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

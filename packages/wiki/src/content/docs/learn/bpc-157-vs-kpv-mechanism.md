@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "BPC-157 vs KPV Mechanism — Anti-inflammatory Pathways"
 description: Detailed mechanistic comparison of BPC-157 (body protection compound) and KPV (α-MSH tripeptide) — molecular pathways, receptor pharmacology, and ti.
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Amino Acid Post-Translational Modifications"
-description: "An overview of major post-translational modifications including phosphorylation, glycosylation, acetylation, and ubiquitination, and their roles in cellular regulation."
+description: "An overview of post-translational modifications including phosphorylation, glycosylation, acetylation, and ubiquitination."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

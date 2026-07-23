@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Melanotan I vs II Tanning — Efficacy and Safety"
 description: "Comparative dermatological analysis of melanotan I and melanotan II — melanocortin receptor selectivity, tanning efficacy, dosing regimens, and safety profiles."
 ---

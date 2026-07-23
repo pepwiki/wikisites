@@ -1,6 +1,8 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Environmental Impact — Green Chemistry Guide"
-description: "Environmental considerations for peptide manufacturing including green chemistry, waste reduction, solvent recycling, and sustainable pharmaceutical production practices."
+description: "Environmental considerations for peptide manufacturing — green chemistry and waste reduction strategies."
 ---
 # Peptide Environmental Impact
 

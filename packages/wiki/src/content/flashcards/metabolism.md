@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: fc-protease-families
 front: "What are the four major families of proteases classified by catalytic mechanism?"
 back: "1) Serine proteases (serine nucleophile), 2) Cysteine proteases (cysteine nucleophile), 3) Aspartic proteases (aspartate-activated water), 4) Metalloproteases (metal-activated water). Each family uses a different catalytic strategy to hydrolyze peptide bonds."

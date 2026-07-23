@@ -1,6 +1,6 @@
 ---
 title: "Ion Channels and Peptides"
-description: "Explore voltage-gated and ligand-gated ion channels, how peptide toxins serve as experimental probes, and the pharmacological significance of channel modulation."
+description: "Explore ion channels, how peptide toxins serve as experimental probes, and pharmacological significance of channel modulation."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2025-12-15

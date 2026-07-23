@@ -1,6 +1,6 @@
 ---
 title: "Peptide Bond Rotation Energy Barriers"
-description: "Understanding the energy barriers that govern rotation around peptide bonds, including rotational isomeric states, energy profiles, and temperature-dependent behavior."
+description: "Energy barriers governing rotation around peptide bonds, including rotational isomeric states and energy profiles."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

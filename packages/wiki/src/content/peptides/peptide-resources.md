@@ -1,3 +1,6 @@
+---
+date: 2026-06-15
+author: "Wikipept Contributors"
 # Peptide Resources Database
 
 A comprehensive directory of textbooks, journals, databases, tools, courses, and conferences for peptide research and education.

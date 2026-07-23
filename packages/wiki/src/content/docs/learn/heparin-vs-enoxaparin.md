@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Heparin vs Enoxaparin — Anticoagulant Peptide Comparison"
 description: Comparison of unfractionated heparin and enoxaparin — molecular weight differences, anticoagulation mechanisms, monitoring requirements, onset profiles, r.
 ---

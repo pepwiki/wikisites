@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Drug Delivery Systems for Peptides"
 description: Comparison of peptide drug delivery methods — subcutaneous, oral, transdermal, nasal, pulmonary, and implantable systems with pharmacokinetic and clinical data.
 ---

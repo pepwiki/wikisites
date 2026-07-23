@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: quiz-peptide-forensics-001
 question: "Which peptide biomarker is commonly used to determine the time since death in forensic investigations?"
 options:

@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Bremelanotide vs Alprostadil — Sexual Dysfunction Rx"
 description: Comparison of bremelanotide (melanocortin agonist) and alprostadil (prostaglandin) — mechanisms, central vs peripheral action, sexual dysfunction efficacy, a.
 ---

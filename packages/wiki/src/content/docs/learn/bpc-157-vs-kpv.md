@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "BPC-157 vs KPV — Gastric Peptide vs Tripeptide"
 description: "Comparative analysis of BPC-157 and KPV for gastrointestinal protection — gut peptide sequences, mechanisms of mucosal defense, and anti-inflammatory pathways."
 ---

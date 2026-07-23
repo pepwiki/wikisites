@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: BPC-157 vs GHK-Cu (Tissue Repair)
 description: Mechanistic comparison of two tissue repair peptides — BPC-157's gut-brain axis modulation vs GHK-Cu's copper-dependent extracellular matrix remodeling.
 ---

@@ -1,4 +1,6 @@
 ---
+date: 2026-06-13
+author: "Wikipept Contributors"
 id: quiz-peptide-design-rigidification-001
 question: "Which strategy is most commonly used to constrain peptide backbone flexibility and improve receptor binding selectivity?"
 options:

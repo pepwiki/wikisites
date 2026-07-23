@@ -1,4 +1,6 @@
 ---
+date: 2026-06-08
+author: "Wikipept Contributors"
 title: "Therapeutic Peptides — Pharmacology Overview Guide"
 description: Overview of FDA-approved peptide drugs, their mechanisms of action, pharmacokinetics, and key challenges in peptide therapeutics development and delivery.
 ---

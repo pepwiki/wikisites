@@ -1,4 +1,6 @@
 ---
+date: 2026-06-14
+author: "Wikipept Contributors"
 id: fc-peptide-du-vigneaud
 front: "Who first synthesized a peptide hormone and what was it?"
 back: "Vincent du Vigneaud synthesized oxytocin in 1953, the first synthesis of a peptide hormone. He received the Nobel Prize in Chemistry in 1955. This demonstrated that synthetic peptides could reproduce the biological activity of naturally occurring hormones, paving the way for peptide therapeutics."

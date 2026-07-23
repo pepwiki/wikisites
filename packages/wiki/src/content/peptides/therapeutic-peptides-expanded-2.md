@@ -1,3 +1,6 @@
+---
+date: 2026-06-12
+author: "Wikipept Contributors"
 # Therapeutic Peptides Database (Expanded 2)
 
 A second expanded database of therapeutic peptides, peptide-derived molecules, antibody-drug conjugates, and novel therapeutic agents across multiple disease areas.

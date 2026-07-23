@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: GHRP-2 vs GHRP-6 (Selectivity)
 description: Growth hormone secretagogue selectivity comparison — receptor binding profiles, off-target effects, and clinical implications of GHRP-2 vs GHRP-6.
 ---

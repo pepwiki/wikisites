@@ -1,6 +1,8 @@
 ---
+date: 2026-06-13
+author: "Wikipept Contributors"
 title: "Comprehensive Peptide Science Quiz"
-description: "A comprehensive quiz covering peptide chemistry, biology, and technology including chirality, bond formation, signaling, synthesis, purification, and regulatory topics."
+description: "Comprehensive quiz covering all aspects of peptide biology, chemistry, pharmacology, and therapeutic applications."
 category: "peptides"
 difficulty: "mixed"
 totalQuestions: 30

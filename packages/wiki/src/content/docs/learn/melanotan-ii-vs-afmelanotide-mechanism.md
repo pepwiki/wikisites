@@ -1,4 +1,6 @@
 ---
+date: 2026-07-23
+author: "Wikipept Contributors"
 title: "Melanotan II vs Afamelanotide Mechanism — MC Receptors"
 description: "Detailed mechanism of action comparison for melanotan II and afamelanotide — melanocortin receptor selectivity, signaling pathways, and pigmentation kinetics."
 ---

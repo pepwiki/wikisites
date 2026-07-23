@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Structures — Molecular Architecture Reference"
 description: Three-dimensional structural data for therapeutic peptides — PDB IDs, AlphaFold models, NMR structures, and X-ray crystallography data.
 ---

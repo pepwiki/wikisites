@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: quiz-insulin-signaling-001
 question: "What is the primary signaling pathway activated by insulin binding to its receptor?"
 options:

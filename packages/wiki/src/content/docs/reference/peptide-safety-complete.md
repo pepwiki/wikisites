@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Safety Complete — Comprehensive Safety Database"
 description: "Comprehensive safety profile for all peptides — adverse effects, contraindications, warnings, monitoring, and risk management."
 ---

@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Insulin Degludec vs Icodec Weekly — Dosing Frequency"
 description: "Head-to-head comparison of insulin degludec (ultra-long-acting daily) and icodec (once-weekly) — pharmacokinetics, efficacy, and dosing convenience."
 ---

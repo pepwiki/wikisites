@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Drug Generations — Evolution of Therapeutics"
 description: Evolution of peptide drug generations — from native peptides to peptidomimetics, stapled peptides, and next-generation modalities.
 ---

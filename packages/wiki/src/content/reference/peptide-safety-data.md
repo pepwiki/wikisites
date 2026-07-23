@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Peptide Safety Data
 description: Comprehensive safety profiles for common therapeutic peptides, including adverse event rates, contraindications, drug interactions, and monitoring requirements.
 ---

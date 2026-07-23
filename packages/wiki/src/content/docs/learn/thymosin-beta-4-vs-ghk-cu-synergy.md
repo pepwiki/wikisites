@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Thymosin Beta-4 vs GHK-Cu Synergy — Repair Peptides"
 description: Comparison of thymosin beta-4 (TB-500) and GHK-Cu (copper peptide) for tissue repair — synergistic mechanisms, combination protocols, and clinical applications.
 ---

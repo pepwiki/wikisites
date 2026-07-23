@@ -1,4 +1,6 @@
 ---
+date: 2026-06-13
+author: "Wikipept Contributors"
 title: Peptide-Related Diseases Database
 description: Comprehensive database of diseases involving peptide dysregulation, biomarkers, and therapeutic targets
 category: peptide-medicine

@@ -1,3 +1,6 @@
+---
+date: 2026-06-12
+author: "Wikipept Contributors"
 # Peptide Biochemistry: Scientifically Rigorous Quiz
 
 ## Advanced Structural & Post-Translational Biochemistry

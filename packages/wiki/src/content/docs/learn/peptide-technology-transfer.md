@@ -1,6 +1,8 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Technology Transfer — Manufacturing Scale-Up"
-description: "Detailed guide to technology transfer for peptide manufacturing — process documentation, equipment qualification, analytical method transfer, and regulatory filing."
+description: "Guide to technology transfer for peptide manufacturing — process documentation and validation."
 ---
 
 Technology transfer (TT) is the systematic transfer of manufacturing knowledge, processes, and analytical methods from one facility (sending unit) to another (receiving unit). For peptide APIs, TT must address the unique challenges of SPPS, cleavage/deprotection, purification, and lyophilization, each with process-specific nuances.

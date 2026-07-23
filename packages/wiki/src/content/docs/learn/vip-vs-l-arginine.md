@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "VIP vs L-Arginine — Nitric Oxide Signaling Pathways"
 description: "Analysis of VIP and L-arginine in nitric oxide signaling — convergent vasodilatory mechanisms, distinct molecular pathways, and clinical applications."
 ---

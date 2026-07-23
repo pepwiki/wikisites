@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 title: "Peptide General Knowledge Quiz"
 description: "Test your knowledge on miscellaneous peptide topics including naming conventions, stability, quality control, and interactions."
 category: "peptides"

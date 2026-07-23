@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: fc-serine-protease-catalytic-triad
 front: "Describe the catalytic triad of serine proteases and the role of each residue."
 back: "The catalytic triad consists of Ser195, His57, and Asp102 (chymotrypsinogen numbering). Ser195 acts as the nucleophile, attacking the carbonyl carbon of the scissile peptide bond. His57 acts as a general base, abstracting a proton from Ser195's hydroxyl to enhance its nucleophilicity. Asp102 stabilizes the positive charge on His57 via a hydrogen bond (charge relay system). The mechanism proceeds through a tetrahedral intermediate stabilized by the oxyanion hole (backbone NH groups of Gly193 and Ser195)."

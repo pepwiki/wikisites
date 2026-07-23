@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Dosing Guide — Clinical Protocols and Safety"
 description: Guide to peptide dosing — dose calculation principles, body weight-based dosing, fixed dosing protocols, dose escalation strategies, and therapeutic window c.
 ---

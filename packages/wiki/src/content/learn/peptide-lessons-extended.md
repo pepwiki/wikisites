@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 title: "Oligopeptide Extended Lessons"
 description: "Ten in-depth lessons covering amino acid properties, peptide chemistry, synthesis, analysis, signaling, drug development, therapeutics, and future directions."
 lessons:

@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "GHRP-6 vs L-DOPA — GH Stimulation Pathway Comparison"
 description: "Comparative analysis of GHRP-6 (ghrelin receptor agonist) and L-dopa (dopamine precursor) in GH stimulation — divergent neuroendocrine pathways."
 ---

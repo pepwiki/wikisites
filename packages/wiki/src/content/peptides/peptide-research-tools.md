@@ -1,3 +1,6 @@
+---
+date: 2026-06-13
+author: "Wikipept Contributors"
 # Peptide Research Tools Database
 
 Comprehensive database of instrumentation and equipment used in peptide research, synthesis, purification, analysis, and characterization.

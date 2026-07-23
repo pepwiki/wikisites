@@ -1,3 +1,6 @@
+---
+date: 2026-06-12
+author: "Wikipept Contributors"
 # Antimicrobial Peptides Database
 
 Comprehensive structured database of antimicrobial peptides (AMPs) with sequence data, activity spectra, and mechanism of action.

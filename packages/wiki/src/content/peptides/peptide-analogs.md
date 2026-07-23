@@ -1,3 +1,6 @@
+---
+date: 2026-06-12
+author: "Wikipept Contributors"
 # Peptide Analogs Database
 
 A comprehensive database of modified peptide analogs organized by therapeutic category, including insulin analogs, GLP-1 analogs, somatostatin analogs, GnRH analogs, calcitonin analogs, vasopressin analogs, and opioid analogs.

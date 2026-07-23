@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 title: Neuropeptides Database
 description: Comprehensive database of neuropeptides with amino acid sequences, receptor targets, signaling mechanisms, and physiological functions in the nervous system
 category: neuropeptides

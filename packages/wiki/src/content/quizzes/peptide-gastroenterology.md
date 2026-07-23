@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: quiz-peptide-gastro-gastrin-001
 question: "Which peptide hormone is the primary stimulant of gastric acid secretion from parietal cells?"
 options:

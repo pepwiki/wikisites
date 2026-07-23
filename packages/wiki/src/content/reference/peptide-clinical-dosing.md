@@ -1,6 +1,8 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Peptide Clinical Dosing Protocols
-description: Clinical dosing protocols for FDA-approved and investigational peptides — dosing ranges, titration schedules, administration routes, and special population adjustments.
+description: "Clinical dosing reference for therapeutic peptides including administration routes, schedules, and dose adjustments."
 ---
 
 This reference provides clinical dosing protocols for therapeutic peptides, including FDA-approved and investigational agents. Protocols include starting doses, titration schedules, maintenance doses, and special population adjustments.

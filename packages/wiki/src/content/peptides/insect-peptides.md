@@ -1,6 +1,8 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 title: Insect Peptides Database
-description: Comprehensive database of bioactive peptides derived from insects including defensins, cecropins, hormones, venom peptides, antimicrobial peptides, and silk proteins
+description: "Database of bioactive peptides from insects including antimicrobial, neuropeptide, and venom-derived peptides."
 category: Entomological Biotechnology
 tags: [insect, peptides, defensins, cecropins, venom, antimicrobial, silk, hormones, bioactive]
 lastUpdated: 2026-06-12

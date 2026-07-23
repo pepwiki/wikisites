@@ -1,6 +1,6 @@
 ---
 title: "Peptide-Drug Interactions"
-description: "Peptide-drug interactions describe how therapeutic peptides bind to their molecular targets. This article covers binding models, affinity metrics, and practical considerations for drug design."
+description: "Peptide-drug interactions describe how therapeutic peptides bind to molecular targets, covering binding models and affinity metrics."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

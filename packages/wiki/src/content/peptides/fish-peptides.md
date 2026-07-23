@@ -1,6 +1,8 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 title: Fish Peptides Database
-description: Comprehensive database of bioactive peptides derived from fish species including antimicrobial peptides, neuropeptides, peptide hormones, venom peptides, and collagen peptides
+description: "Database of bioactive peptides derived from fish species including antimicrobial, antioxidant, and bioactive peptides."
 category: Marine Biotechnology
 tags: [fish, peptides, antimicrobial, neuropeptides, hormones, venom, collagen, aquaculture, therapeutic]
 lastUpdated: 2026-06-12

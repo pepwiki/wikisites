@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Semaglutide vs Tirzepatide Cost — Economics Analysis"
 description: "Pharmacoeconomic comparison of semaglutide and tirzepatide — drug costs, quality-adjusted life years, cost-effectiveness ratios, and payer coverage strategies."
 ---

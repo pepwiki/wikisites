@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Semaglutide Oral vs Injectable
 description: Comparison of oral semaglutide (Rybelsus) and injectable semaglutide (Ozempic/Wegovy) — bioavailability, efficacy, and dosing.
 ---

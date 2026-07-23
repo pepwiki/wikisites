@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: fc-hplc-principles
 front: "What is the basic principle of HPLC?"
 back: "High Performance Liquid Chromatography separates compounds based on their differential interactions with a stationary phase (column packing) and a mobile phase (solvent). Components elute at different times based on their chemical properties."

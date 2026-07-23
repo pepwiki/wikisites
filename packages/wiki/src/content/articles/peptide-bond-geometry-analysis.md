@@ -1,6 +1,6 @@
 ---
 title: "Peptide Bond Geometry Analysis"
-description: "A comprehensive guide to understanding peptide bond geometry including phi/psi angles, Ramachandran plots, and how molecular dynamics and NMR methods reveal protein structure."
+description: "A guide to peptide bond geometry including phi/psi angles, Ramachandran plots, and NMR methods for conformational analysis."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

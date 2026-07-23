@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Retatrutide vs Survodutide — Multi-Agonist Comparison"
 description: "Comparison of retatrutide (triple agonist) and survodutide (dual agonist) for weight loss and MASH treatment including Phase 3 trial results and safety data."
 ---

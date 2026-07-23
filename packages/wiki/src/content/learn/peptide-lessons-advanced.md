@@ -1,6 +1,8 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 title: "Oligopeptide Science: Advanced Specialized Topics"
-description: "Ten advanced lessons covering venom peptide biology, marine drug discovery, antimicrobial mechanisms, vaccine design, drug delivery, stability and formulation, analytical characterization, regulatory pathways, patent landscape, and future therapeutics."
+description: "Advanced lessons on peptide biology covering complex topics in pharmacology, synthesis, and therapeutic design."
 lessons:
   - id: "venom-peptide-biology"
     title: "Venom Peptide Biology"

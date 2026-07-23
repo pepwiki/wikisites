@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Melanotan II vs Afamelanotide (Freckles)
 description: Cosmetic melanogenesis vs therapeutic photoprotection — comparing melanocortin receptor selectivity, pigmentation patterns, and clinical applications.
 ---

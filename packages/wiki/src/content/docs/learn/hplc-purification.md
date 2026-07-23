@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: HPLC Purification of Synthetic Peptides
 description: Guide to reverse-phase HPLC purification of synthetic peptides — gradient optimization, fraction collection, analytical vs preparative methods, and t.
 ---

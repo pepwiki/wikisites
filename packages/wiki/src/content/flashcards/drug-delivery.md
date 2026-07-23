@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: peptide-delivery-001
 front: What are the main challenges of oral peptide drug delivery?
 back: "1. **Acid degradation** – gastric pH (1.5–3.5) hydrolyzes peptide bonds\n2. **Proteolytic enzymes** – pepsin, trypsin, chymotrypsin cleave peptides\n3. **Poor permeability** – large MW (>500 Da) limits paracellular/transcellular transport\n4. **First-pass metabolism** – hepatic degradation before reaching systemic circulation\n5. **Mucus barrier** – traps and clears peptide molecules\n6. **Efflux pumps** – P-glycoprotein expels absorbed peptides back into lumen"

@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: quiz-peptide-nanoparticles-001
 question: "What is the primary mechanism by which peptide nanoparticles form stable structures in aqueous solution?"
 options:

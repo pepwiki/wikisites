@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: fc-peptide-pk-overview
 front: "What is peptide pharmacokinetics?"
 back: "The study of how peptides are absorbed, distributed, metabolized, and excreted (ADME) by the body. Peptides have unique PK challenges including rapid enzymatic degradation, poor oral bioavailability, and renal clearance."

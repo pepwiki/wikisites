@@ -1,4 +1,6 @@
 ---
+date: 2026-07-17
+author: "Wikipept Contributors"
 title: "Peptide Handling Safety — Laboratory Best Practices"
 description: Comprehensive hazard characterization and exposure control guidelines for handling bioactive peptide compounds in research and clinical settings
 ---

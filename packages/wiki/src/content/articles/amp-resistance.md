@@ -1,6 +1,6 @@
 ---
 title: "Antimicrobial Peptide Resistance"
-description: "Antimicrobial peptides face unique resistance challenges due to their membrane-targeting mechanisms, though resistance remains rare compared to conventional antibiotics."
+description: "Antimicrobial peptides face unique resistance challenges due to their membrane-targeting mechanisms, though resistance remains rare."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

@@ -1,6 +1,8 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Peptide Interactions Database
-description: Comprehensive database of 50+ peptide-drug, peptide-food, and peptide-supplement interactions — clinical significance, mechanisms, and management recommendations.
+description: "Database of peptide-drug interactions with severity ratings, mechanisms, and clinical management recommendations."
 ---
 
 This database compiles known interactions between therapeutic peptides and other medications, supplements, and foods. Interactions are classified by clinical significance (major, moderate, minor) and include mechanisms, evidence levels, and management recommendations.

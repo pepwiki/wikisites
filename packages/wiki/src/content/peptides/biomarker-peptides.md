@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 title: "Disease Biomarker Peptides"
 description: "Database of peptide and protein biomarkers used in clinical diagnosis, prognosis, and monitoring of disease."
 ---

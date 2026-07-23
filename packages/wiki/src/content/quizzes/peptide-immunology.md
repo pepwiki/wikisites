@@ -1,6 +1,7 @@
 ---
+date: 2026-06-11
 title: Peptide Immunology
-description: Test your knowledge of peptide immunology including antigen presentation, MHC pathways, T cell and B cell recognition, epitope mapping, and immunotherapy approaches.
+description: "Quiz on peptide immunology topics including antigen presentation, T-cell recognition, and immune modulation."
 category: immunology
 author: WikiSites
 tags:

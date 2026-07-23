@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Peptide Reconstitution Guide
 description: Comprehensive reconstitution protocols for therapeutic peptides — diluent selection, volume calculations, technique, and stability data for each peptide class.
 ---

@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Melanotan II vs PT-141 — Melanocortin Selectivity"
 description: "Comparison of Melanotan II (non-selective MC agonist) vs PT-141 (MC4R-selective) for tanning, sexual function, and side effect profiles in clinical research."
 ---

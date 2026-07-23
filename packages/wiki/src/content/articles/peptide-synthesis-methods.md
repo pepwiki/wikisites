@@ -1,6 +1,6 @@
 ---
 title: "Peptide Synthesis Methods"
-description: "Compare solid-phase peptide synthesis (SPPS), liquid-phase synthesis, and recombinant production methods for creating peptides and small proteins in the laboratory."
+description: "Compare SPPS, liquid-phase synthesis, and recombinant production methods for creating peptides and small proteins."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2025-12-15

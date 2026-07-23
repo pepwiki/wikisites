@@ -1,6 +1,8 @@
 ---
+date: 2026-07-23
+author: "Wikipept Contributors"
 title: "Insulin Glulisine vs IAsp — Ultra-Rapid Insulin Kinetics"
-description: "Detailed analysis of insulin glulisine and insulin aspart — ultra-rapid pharmacokinetics, formulation innovations, and clinical positioning in diabetes management."
+description: "Analysis of insulin glulisine and insulin aspart — ultra-rapid pharmacokinetics and clinical use."
 ---
 
 Insulin glulisine (Apidra) and insulin aspart (NovoRapid/Novolog) are rapid-acting insulin analogues designed for postprandial glucose management. While both achieve rapid onset, they differ in molecular modification, formulation options, and clinical positioning. Understanding these distinctions informs optimal rapid-acting insulin selection.

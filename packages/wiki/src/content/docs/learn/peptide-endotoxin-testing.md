@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Endotoxin Testing — LAL and rFC Methods"
 description: "Comprehensive guide to endotoxin testing for peptide therapeutics — LAL assay, rFC method, validation requirements, and regulatory compliance for injectables."
 ---

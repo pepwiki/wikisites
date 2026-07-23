@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: quiz-medical-devices-stent-001
 question: "Which peptide sequence is most commonly immobilized on coronary stent surfaces to promote rapid endothelialization?"
 options:

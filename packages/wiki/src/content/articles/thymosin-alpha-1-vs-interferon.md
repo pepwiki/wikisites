@@ -1,6 +1,6 @@
 ---
 title: "Thymosin Alpha-1 vs Interferon: Immune Modulation"
-description: "Comparative analysis of thymosin alpha-1 and interferon-alpha for immune modulation, covering mechanisms of action, clinical applications, efficacy, and safety profiles."
+description: "Comparative analysis of thymosin alpha-1 and interferon-alpha for immune modulation, covering mechanisms of action, clinical applications, and efficacy data."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-07-22

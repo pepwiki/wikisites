@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Immunogenicity — Antibody Formation Risk"
 description: Immunogenicity risk factors for therapeutic peptides — anti-drug antibody formation, T-cell epitopes, and mitigation strategies.
 ---

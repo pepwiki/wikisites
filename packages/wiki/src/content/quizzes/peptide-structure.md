@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: quiz-peptide-structure-001
 question: "Which amino acid side chain is classified as positively charged at physiological pH?"
 options:

@@ -1,4 +1,6 @@
 ---
+date: 2026-06-10
+author: "Wikipept Contributors"
 id: quiz-amino-acid-structure-001
 question: "Which amino acid has a side chain that contains a sulfur atom?"
 options:

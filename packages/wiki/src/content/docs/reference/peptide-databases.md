@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Databases — Sequence and Structure Resources"
 description: Overview of public peptide databases — UniProt, PDB, PeptideAtlas, Antimicrobial Peptide Database, and specialized resources for sequence, structure, and f.
 ---

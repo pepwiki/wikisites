@@ -1,6 +1,8 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: "Peptide Drug Interactions Database"
-description: "Comprehensive database of peptide-drug interactions with severity ratings and clinical recommendations for combination therapy in metabolic and oncologic conditions."
+description: "Database of peptide-drug interactions with severity ratings and clinical management recommendations."
 ---
 
 # Peptide Drug Interactions Database

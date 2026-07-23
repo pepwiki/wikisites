@@ -1,6 +1,8 @@
 ---
+date: 2026-07-23
+author: "Wikipept Contributors"
 title: "Peptide Competitive Landscape — Market Analysis Data"
-description: "Market competition analysis for therapeutic peptides — market share, pricing dynamics, pipeline threats, patent cliffs, biosimilar entry, and strategic positioning."
+description: "Market competition analysis for therapeutic peptides — market share, pricing, and pipeline agents."
 ---
 
 The peptide therapeutics market is characterized by intense competition, patent expirations, and rapidly evolving pipeline candidates. This analysis examines competitive dynamics across major therapeutic classes, identifying market leaders, emerging threats, and strategic positioning opportunities.

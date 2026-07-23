@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: quiz-gene-expression-001
 question: "Which process converts DNA information into mRNA?"
 options:

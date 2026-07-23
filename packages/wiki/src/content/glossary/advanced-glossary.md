@@ -1,6 +1,8 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 title: "Advanced Oligopeptide Glossary"
-description: "Advanced glossary covering stereochemistry, structural motifs, synthesis techniques, pharmacology, delivery systems, mass spectrometry, cell biology, clinical research, regulatory affairs, and disease-related peptide terms."
+description: "Advanced glossary covering stereochemistry, structural motifs, synthesis, pharmacology, delivery, and mass spectrometry terms."
 ---
 
 ## Advanced Chemistry

@@ -1,6 +1,6 @@
 ---
 title: "Peptide-Protein Interactions"
-description: "Peptides bind proteins at defined interfaces involving hotspot residues. Computational docking and experimental methods like alanine scanning characterize these interactions for drug design."
+description: "Peptides bind proteins at defined interfaces involving hotspot residues. Computational docking and alanine scanning characterize these interactions."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

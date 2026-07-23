@@ -1,4 +1,6 @@
 ---
+date: 2026-06-16
+author: "Wikipept Contributors"
 id: quiz-peptide-expert-review-001
 question: "In Fmoc-SPPS, which coupling reagent combination provides the highest activation efficiency for sterically hindered residues like Aib (alpha-aminoisobutyric acid)?"
 options:

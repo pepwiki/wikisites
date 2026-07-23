@@ -1,4 +1,6 @@
 ---
+date: 2026-06-13
+author: "Wikipept Contributors"
 id: fc-safety-anaphylaxis-signs
 front: "What are the clinical signs of peptide-induced anaphylaxis?"
 back: "Anaphylaxis signs include: (1) skin - urticaria, flushing, angioedema, (2) respiratory - bronchospasm, laryngeal edema, dyspnea, (3) cardiovascular - hypotension, tachycardia, shock, (4) GI - nausea, vomiting, diarrhea, (5) neurological - dizziness, syncope, altered consciousness. Onset typically within minutes to 1 hour of administration. Biphasic reactions can occur 4-12 hours later."

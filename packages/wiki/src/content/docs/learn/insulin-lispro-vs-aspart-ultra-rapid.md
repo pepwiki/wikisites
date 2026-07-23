@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Insulin Lispro vs Insulin Aspart (Ultra-Rapid)
 description: Comparison of ultra-rapid insulin analogs — lispro and aspart — engineering strategies for accelerated absorption, pharmacokinetics, and clinical applications
 ---

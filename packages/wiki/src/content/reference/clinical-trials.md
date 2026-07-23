@@ -1,4 +1,6 @@
 ---
+date: 2026-07-22
+author: "Wikipept Contributors"
 title: Peptide Clinical Trials Database
 description: Comprehensive database of peptide clinical trials — phase, indication, company, key results, and regulatory status for 30+ therapeutic peptides.
 ---

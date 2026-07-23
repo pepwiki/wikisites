@@ -1,4 +1,6 @@
 ---
+date: 2026-06-12
+author: "Wikipept Contributors"
 id: peptide-biomarkers-expanded
 title: Expanded Peptide Biomarkers Database
 description: Comprehensive database of peptide biomarkers used in clinical diagnostics across cardiology, oncology, neurology, metabolism, and inflammation

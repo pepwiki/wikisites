@@ -1,6 +1,6 @@
 ---
 title: "G-Protein Coupled Receptors"
-description: "G-protein coupled receptors are the largest family of drug targets, mediating diverse physiological responses through G-protein signaling and second messengers. This article covers their structure, signaling, and regulation."
+description: "G-protein coupled receptors are the largest family of drug targets, mediating diverse physiological responses through G-protein and second messenger signaling."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07

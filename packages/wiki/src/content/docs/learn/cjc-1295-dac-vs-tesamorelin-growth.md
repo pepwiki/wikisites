@@ -1,6 +1,8 @@
 ---
+date: 2026-07-23
+author: "Wikipept Contributors"
 title: "CJC-1295 DAC vs Tesamorelin Growth — GH Stimulation"
-description: "Comparative analysis of CJC-1295 with DAC and tesamorelin for growth hormone stimulation — GHRH analogue pharmacology, DAC half-life extension, and applications."
+description: "Comparison of CJC-1295 DAC and tesamorelin for growth hormone stimulation — pharmacokinetics and clinical data."
 ---
 
 CJC-1295 with Drug Affinity Complex (DAC) and tesamorelin are both GHRH (growth hormone-releasing hormone) analogues that stimulate GH release through the GHRH receptor. However, they differ fundamentally in half-life engineering, clinical indication, and regulatory status. CJC-1295 DAC uses a covalent albumin-binding moiety for dramatic half-life extension; tesamorelin uses a stabilized peptide scaffold for intermediate half-life. Understanding their pharmacological distinctions informs rational GHRH analogue selection.

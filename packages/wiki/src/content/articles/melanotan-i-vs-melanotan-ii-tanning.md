@@ -1,6 +1,6 @@
 ---
 title: "Melanotan I vs Melanotan II: Tanning Efficacy"
-description: "Comparative analysis of Melanotan I (afamelanotide) and Melanotan II for tanning efficacy, covering melanogenesis mechanisms, dosing protocols, side effect profiles, and clinical applications."
+description: "Comparative analysis of Melanotan I and Melanotan II for tanning efficacy, covering melanogenesis mechanisms, dosing protocols, and side effect profiles."
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-07-22

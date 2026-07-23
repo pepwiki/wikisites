@@ -1,4 +1,6 @@
 ---
+date: 2026-07-23
+author: "Wikipept Contributors"
 title: "CJC-1295 vs Ipamorelin Dosing — Protocol Optimization"
 description: "Dosing protocol comparison for CJC-1295 and ipamorelin — single agent, combination, titration schedules, and protocol optimization for GH secretagogue therapy."
 ---

@@ -1,4 +1,6 @@
 ---
+date: 2026-06-11
+author: "Wikipept Contributors"
 id: quiz-peptide-biomarker-001
 question: "Which peptide is widely used as a biomarker for cardiac damage?"
 options:

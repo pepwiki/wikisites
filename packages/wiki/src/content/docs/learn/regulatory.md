@@ -1,6 +1,8 @@
 ---
+date: 2026-06-08
+author: "Wikipept Contributors"
 title: "Regulatory Pathways — Global Peptide Drug Approval"
-description: "Overview of global regulatory frameworks for peptide therapeutics including FDA, EMA, and PMDA pathways, breakthrough designations, and orphan drug requirements."
+description: "Overview of global regulatory frameworks for peptide therapeutics — FDA, EMA, and ICH guidelines."
 ---
 
 ## FDA Regulatory Pathways (United States)

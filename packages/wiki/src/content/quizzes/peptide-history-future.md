@@ -1,5 +1,7 @@
 ---
-title: "Peptide History, Future Trends, Market Analysis, Regulatory & AI Quiz"
+date: 2026-06-14
+author: "Wikipept Contributors"
+title: "Peptide History, Markets & Future Trends Quiz"
 description: "Test your knowledge on peptide history, future trends, market analysis, regulatory landscape, and AI applications in peptide science."
 category: "peptides"
 difficulty: "mixed"
