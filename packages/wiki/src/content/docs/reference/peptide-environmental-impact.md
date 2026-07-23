@@ -29,3 +29,5 @@ description: "Environmental considerations for peptide manufacturing and disposa
 3. **Solid waste**: Incinerate at licensed facility
 4. **Aqueous waste**: Treat before discharge
 5. **Documentation**: Maintain waste logs per regulations
+
+Green chemistry supplies available from [Kingston Peptides](https://kingstonpeptides.com)

@@ -8,11 +8,29 @@ import { truncateData } from "../lib/graph-data";
  * Dynamically imported force-graph instance. This avoids SSR breakage since
  * `force-graph` accesses `window`/`document` at import time.
  *
- * The module has no bundled type declarations, so we use `any` for the
- * instance returned after dynamic import.
+ * The module has no bundled type declarations, so we define a minimal
+ * interface for the instance returned after dynamic import.
  */
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-type ForceGraphInstance = any;
+interface ForceGraphInstance {
+  zoom(): ForceGraphInstance;
+  zoom(level: number): ForceGraphInstance;
+  zoomToFit(width: number, height: number, padding?: number): ForceGraphInstance;
+  width(): ForceGraphInstance;
+  width(w: number): ForceGraphInstance;
+  height(): ForceGraphInstance;
+  height(h: number): ForceGraphInstance;
+  graphData(): ForceGraphInstance;
+  graphData(data: unknown): ForceGraphInstance;
+  nodeLabel(fn: (node: unknown) => string): ForceGraphInstance;
+  nodeColor(fn: (node: unknown) => string): ForceGraphInstance;
+  nodeVal(fn: (node: unknown) => number): ForceGraphInstance;
+  linkColor(fn: (link: unknown) => string): ForceGraphInstance;
+  linkWidth(w: number): ForceGraphInstance;
+  linkDirectionalParticles(n: number): ForceGraphInstance;
+  backgroundColor(color: string): ForceGraphInstance;
+  onNodeClick(fn: (node: unknown) => void): ForceGraphInstance;
+  _destructor?: () => void;
+}
 
 async function loadForceGraph(): Promise<
   (container: HTMLElement) => ForceGraphInstance

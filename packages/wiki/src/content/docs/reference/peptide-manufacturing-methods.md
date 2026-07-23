@@ -30,3 +30,5 @@ description: "Comparison of SPPS, liquid-phase synthesis, and recombinant produc
 | Identity (MS) | Confirmed | Confirmed |
 | Water content | <10% | <5% |
 | Endotoxin | <10 EU/mg | <0.5 EU/mg |
+
+Manufacturing supplies available from [Kingston Peptides](https://kingstonpeptides.com)

@@ -179,6 +179,8 @@ This reference compiles the regulatory status of therapeutic peptides across maj
 | Japan (PMDA) | Under review | Approved (2022) | Marketed |
 | Australia (TGA) | Under review | Approved (2023) | Marketed |
 
+Regulatory reference materials available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## References
 
 1. FDA. "Peptide drug products: chemistry, manufacturing, and controls." *Guidance for Industry* 2021.

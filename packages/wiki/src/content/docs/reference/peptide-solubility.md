@@ -197,6 +197,8 @@ If hydrophobic residues < 30% → High solubility expected
 5. **Characterize aggregates** (SEC, DLS) to ensure soluble monomers
 6. **Confirm activity** after formulation optimization
 
+Solubility testing supplies available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## References
 
 1. Kyte J, Doolittle RF. "A simple method for displaying the hydropathic character of a protein." *J Mol Biol* 1982;157:105-132.

@@ -435,23 +435,24 @@ export function createKeyboardShortcutManager(
   const initial = saved?.bindings ?? defaults;
   setBindings(initial);
 
-  // Sync internal registry state when bindings change
+  // Sync internal registry state when bindings change.
+  // Reads are wrapped in untrack to prevent tracking the signals inside
+  // this helper, avoiding a race between two separate signal reads.
   function syncRegistry() {
-    // Re-initialize by clearing and re-registering
-    const current = bindings();
-    // Use the registry's load to hydrate from storage, then overlay
-    registry.load();
-    const stored = registry.getAll();
-    // If stored doesn't match, update storage
-    if (stored.length !== current.length) {
-      for (const b of current) {
-        try {
-          registry.register(b);
-        } catch {
-          // duplicate — already present
+    untrack(() => {
+      const current = bindings();
+      registry.load();
+      const stored = registry.getAll();
+      if (stored.length !== current.length) {
+        for (const b of current) {
+          try {
+            registry.register(b);
+          } catch {
+            // duplicate — already present
+          }
         }
       }
-    }
+    });
   }
 
   syncRegistry();
@@ -466,10 +467,9 @@ export function createKeyboardShortcutManager(
   // Auto-save to localStorage whenever bindings change
   createEffect(() => {
     const current = bindings();
-    // Read the signal to subscribe to changes
-    void current.length;
+    void current;
     untrack(() => {
-      saveToStorage(bindings());
+      saveToStorage(current);
     });
   });
 
@@ -510,21 +510,27 @@ export function createKeyboardShortcutManager(
   }
 
   function load(): void {
-    registry.load();
-    setBindings(registry.getAll());
+    untrack(() => {
+      registry.load();
+      setBindings(registry.getAll());
+    });
   }
 
   function reset(): void {
-    registry.reset();
-    setBindings([...defaults]);
-    removeFromStorage();
+    untrack(() => {
+      registry.reset();
+      setBindings([...defaults]);
+      removeFromStorage();
+    });
   }
 
   function handleKeydown(
     event: KeyboardEvent,
     scope?: BindingScope
   ): string | null {
-    return registry.handleKeydown(event, scope ?? activeScope());
+    return untrack(() =>
+      registry.handleKeydown(event, scope ?? activeScope()),
+    );
   }
 
   // Wire global keydown listener

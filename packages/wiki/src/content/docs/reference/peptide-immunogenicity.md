@@ -186,6 +186,8 @@ Immunogenicity is the propensity of a therapeutic peptide to elicit an immune re
 | EpiVax | Immunogenicity risk | 75–85% | Sequence |
 | OptiTope | Epitope optimization | 70–80% | Sequence + HLA |
 
+Immunogenicity testing kits available from [Kingston Peptides](https://kingstonpeptides.com)
+
 ## References
 
 1. Kessler M, et al. "Immunogenicity of biopharmaceuticals." *Nat Rev Drug Discov* 2003;2:436-444.

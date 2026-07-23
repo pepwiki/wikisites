@@ -24,6 +24,10 @@ export const CommandSchema = z.object({
 
 export type Command = z.infer<typeof CommandSchema>;
 
+export type CommandCategory = Command["category"];
+
+export type CommandRegistry = CommandRegistryApi;
+
 // ─── Fuzzy Match ─────────────────────────────────────────────────────────────
 
 /**

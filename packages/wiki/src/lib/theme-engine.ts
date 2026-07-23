@@ -126,8 +126,18 @@ export function setActiveTheme(name: string): void {
  * @throws Error if validation fails.
  */
 export function importTheme(json: string | unknown): ThemeDefinition {
-  const parsed =
-    typeof json === "string" ? JSON.parse(json) : json;
+  let parsed: unknown;
+  if (typeof json === "string") {
+    try {
+      parsed = JSON.parse(json);
+    } catch (e) {
+      throw new Error(
+        `Invalid JSON: ${e instanceof Error ? e.message : String(e)}`,
+      );
+    }
+  } else {
+    parsed = json;
+  }
   const result = ThemeDefinitionSchema.safeParse(parsed);
   if (!result.success) {
     const issues = result.error.issues

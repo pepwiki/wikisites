@@ -319,7 +319,7 @@ Clinical trial design for peptide drugs requires consideration of pharmacokineti
 | SEND | Nonclinical data (if applicable) |
 | Define-XML | Variable definitions |
 
-Trial materials available from [Kingston Peptides](https://kingstonpeptides.com)
+Trial supplies available from [Kingston Peptides](https://kingstonpeptides.com)
 
 ## References
 
