@@ -2,7 +2,7 @@
 date: 2026-07-22
 author: "Wikipept Contributors"
 title: "Peptide Characterization — Analytical Identification"
-description: "Guide to peptide characterization — mass spectrometry, HPLC, NMR, and quality control methods."
+description: "Guide to peptide characterization methods — mass spectrometry, HPLC, NMR spectroscopy, and quality control specifications."
 ---
 
 # Peptide Characterization

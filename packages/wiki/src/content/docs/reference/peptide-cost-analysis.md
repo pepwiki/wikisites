@@ -2,7 +2,7 @@
 date: 2026-07-22
 author: "Wikipept Contributors"
 title: "Peptide Cost Analysis — Pricing and Biosimilar Economics"
-description: "Cost comparison of peptide drugs — per-dose pricing, annual treatment costs, and biosimilar impact."
+description: "Cost comparison of peptide drugs — per-dose pricing, annual treatment costs, and biosimilar impact on market access analysis."
 ---
 # Peptide Drug Cost Analysis
 

@@ -2,7 +2,7 @@
 date: 2026-07-22
 author: "Wikipept Contributors"
 title: "Peptide Sterile Filtration — Aseptic Manufacturing"
-description: "Guide to sterile filtration for peptide manufacturing — membrane selection and validation strategies."
+description: "Guide to sterile filtration for peptide manufacturing — membrane selection, validation, and regulatory compliance requirements."
 ---
 
 Sterile filtration is the most common method for achieving sterility in injectable peptide formulations. This protocol covers filter selection, compatibility testing, integrity verification, and regulatory compliance for peptide sterile filtration.

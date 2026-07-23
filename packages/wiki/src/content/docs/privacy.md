@@ -1,6 +1,8 @@
 ---
-title: "Privacy Policy"
-description: "How Wikipept handles your data"
+author: "Wikipept Team"
+date: 2026-06-01
+title: "Wikipept Privacy Policy for Users"
+description: "Wikipept privacy policy — how we collect, use, and protect your personal data on our oligopeptide biology learning platform."
 template: "doc"
 ---
 

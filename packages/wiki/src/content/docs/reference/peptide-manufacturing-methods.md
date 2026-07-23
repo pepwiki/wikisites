@@ -2,7 +2,7 @@
 date: 2026-07-22
 author: "Wikipept Contributors"
 title: "Peptide Manufacturing Methods — SPPS vs Recombinant"
-description: "Comparison of SPPS, liquid-phase synthesis, and recombinant production for peptide manufacturing."
+description: "Comparison of SPPS, liquid-phase synthesis, and recombinant production for peptide manufacturing at various scales overview."
 ---
 # Peptide Manufacturing Methods
 

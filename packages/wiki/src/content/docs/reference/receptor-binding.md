@@ -2,7 +2,7 @@
 date: 2026-07-22
 author: "Wikipept Contributors"
 title: "Peptide Receptor Binding Affinities"
-description: "Reference table of Kd, EC50, selectivity ratios, and clinical significance for therapeutic peptides."
+description: "Reference table of Kd, EC50, selectivity ratios, and clinical significance for therapeutic peptide receptor binding data."
 ---
 
 # Peptide Receptor Binding Affinities

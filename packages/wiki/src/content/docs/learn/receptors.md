@@ -2,7 +2,7 @@
 date: 2026-06-08
 author: "Wikipept Contributors"
 title: "Receptor Binding — Peptide Pharmacodynamics Overview"
-description: "Overview of receptor types, ligand binding kinetics, and dose-response relationships for peptides."
+description: "Overview of receptor types, ligand binding kinetics, and dose-response relationships for peptide pharmacodynamics analysis."
 ---
 
 ## Introduction

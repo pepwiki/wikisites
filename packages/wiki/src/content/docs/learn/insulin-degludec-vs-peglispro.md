@@ -2,7 +2,7 @@
 date: 2026-07-23
 author: "Wikipept Contributors"
 title: "Insulin Degludec vs Peglispro — Ultra-Long Insulins"
-description: "Comparison of ultra-long-acting insulins degludec and peglispro — mechanisms and pharmacokinetics."
+description: "Comparison of ultra-long-acting insulins degludec and peglispro — mechanisms, pharmacokinetics, and clinical outcomes data."
 ---
 
 Insulin degludec (Tresiba) and insulin peglispro (LY2605541) represent two distinct approaches to ultra-long-acting insulin engineering. Degludec uses multi-hexamer formation for ultra-long absorption; peglispro uses polyethylene glycol (PEG)ylation for hepatoselectivity and extended duration. Understanding their pharmacological differences is essential for rational ultra-long-acting insulin selection.

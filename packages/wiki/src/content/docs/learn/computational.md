@@ -2,7 +2,7 @@
 date: 2026-06-08
 author: "Wikipept Contributors"
 title: "Computational Design — AI-Driven Peptide Engineering"
-description: "Computational methods for peptide design — molecular dynamics, docking, AI-driven design, and ADMET prediction."
+description: "Computational methods for peptide design — molecular dynamics, docking simulations, AI-driven design, and ADMET prediction."
 ---
 
 ## Introduction

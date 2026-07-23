@@ -2,7 +2,7 @@
 date: 2026-07-22
 author: "Wikipept Contributors"
 title: "Peptide Stability Data — Storage and Degradation"
-description: "Analysis of principles governing peptide stability — degradation pathways and storage optimization."
+description: "Analysis of principles governing peptide stability — degradation pathways, storage conditions, and formulation strategies."
 ---
 
 This reference compiles stability data for over 100 peptides, including half-lives, degradation mechanisms, and evidence-based stabilization strategies. Data are derived from published pharmacokinetic studies, regulatory filings, and peer-reviewed literature.

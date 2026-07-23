@@ -1,5 +1,7 @@
 ---
-title: Wikipept
+author: "Wikipept Team"
+date: 2026-06-01
+title: "Wikipept — Oligopeptide Biology Learning Platform"
 description: Interactive community-driven platform for learning oligopeptide biology with quizzes, flashcards, databases, and power-user tools for researchers and students
 ---
 

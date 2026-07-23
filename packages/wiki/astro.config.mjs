@@ -285,6 +285,9 @@ export default defineConfig({
       customCss: [
         "./src/styles/starlight.css",
       ],
+      components: {
+        Head: "./src/components/overrides/Head.astro",
+      },
     }),
     solid(),
   ],

@@ -1,5 +1,7 @@
 ---
-title: Get Involved
+author: "Wikipept Team"
+date: 2026-06-01
+title: "Wikipept Community — Get Involved"
 description: Get involved with the Wikipept community — contribute content, report issues, suggest features, and connect with fellow peptide researchers and students
 ---
 

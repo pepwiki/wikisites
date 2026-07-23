@@ -2,7 +2,7 @@
 date: 2026-07-21
 author: "Wikipept Contributors"
 title: "Peptide Half-Life Comparison — Duration of Action Data"
-description: "Half-life data for therapeutic peptides — modification strategies including PEGylation and lipidation."
+description: "Half-life data for therapeutic peptides — modification strategies including PEGylation, lipidation, and cyclization approaches."
 ---
 
 The half-life of a peptide determines its dosing frequency, therapeutic window, and clinical utility. Native peptides range from seconds (GLP-1, insulin) to hours (oxytocin), while engineered analogues achieve half-lives of days to weeks through structural modifications. Understanding what controls peptide half-life — and how to extend it — is fundamental to rational peptide drug design.

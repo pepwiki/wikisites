@@ -2,7 +2,7 @@
 date: 2026-07-17
 author: "Wikipept Contributors"
 title: Understanding Peptide Impurities
-description: "Analysis of peptide impurity origins, characterization methods, and regulatory impact on purity."
+description: "Analysis of peptide impurity origins, characterization methods, and regulatory limits for synthetic peptide quality control."
 ---
 
 ## Impurity Origins in SPPS

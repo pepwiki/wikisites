@@ -2,7 +2,7 @@
 date: 2026-06-08
 author: "Wikipept Contributors"
 title: "20 Standard Amino Acids — Classification and Properties"
-description: "Reference guide to the 20 standard amino acids — molecular weights, pKa values, side chain properties, and codons."
+description: "Reference guide to the 20 standard amino acids — molecular weights, pKa values, side chain properties, and codon usage tables."
 ---
 
 ## Introduction

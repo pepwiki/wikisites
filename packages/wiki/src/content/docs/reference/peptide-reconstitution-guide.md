@@ -2,7 +2,7 @@
 date: 2026-07-22
 author: "Wikipept Contributors"
 title: "Peptide Reconstitution Guide — Diluent Selection Data"
-description: "Guide for reconstituting lyophilized peptides — techniques, calculations, and safety considerations."
+description: "Guide for reconstituting lyophilized peptides — techniques, calculations, buffer selection, and storage after reconstitution."
 ---
 # Peptide Reconstitution Guide
 

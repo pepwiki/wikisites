@@ -1,0 +1,41 @@
+---
+const { title, description } = Astro.locals.starlightRoute.entry.data;
+const canonicalURL = Astro.url.href;
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": title,
+  "description": description || "",
+  "url": canonicalURL,
+  "author": {
+    "@type": "Organization",
+    "name": "Wikipept Contributors"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Wikipept",
+    "url": "https://wikipept.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://wikipept.com/icon.svg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": canonicalURL
+  }
+};
+
+const entry = Astro.locals.starlightRoute.entry;
+if (entry.data.date) {
+  articleSchema.datePublished = String(entry.data.date);
+}
+if (entry.data.lastUpdated) {
+  articleSchema.dateModified = String(entry.data.lastUpdated);
+}
+---
+
+{Astro.locals.starlightRoute.head.map(({ tag: Tag, attrs, content }) => <Tag {...attrs} set:html={content} />)}
+
+<script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
