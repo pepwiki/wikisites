@@ -1,5 +1,5 @@
 ---
-title: Insulin Lispro vs Ultra-Rapid Technosphere — Inhaled Insulin
+title: Insulin Lispro vs Technosphere Insulin
 description: Comparison of insulin lispro (injectable rapid-acting) and Technosphere insulin (Afrezza, inhaled) — pharmacokinetics, bioavailability, pulmonary delivery, and clinical positioning.
 ---
 

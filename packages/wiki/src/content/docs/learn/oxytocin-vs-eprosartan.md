@@ -1,5 +1,5 @@
 ---
-title: Oxytocin vs Eprosartan — Cardiovascular and Neuroendocrine Modulation
+title: Oxytocin vs Eprosartan
 description: Comparison of oxytocin (neuropeptide) and eprosartan (ARB) — divergent mechanisms in blood pressure regulation, cardiovascular protection, and neuroendocrine effects.
 ---
 
