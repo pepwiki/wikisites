@@ -1,5 +1,5 @@
 ---
-title: "Peptide Reconstitution — Complete Reference"
+title: "Peptide Reconstitution Complete"
 description: "Comprehensive reconstitution guide for all peptides — solvents, volumes, techniques, syringe selection, and stability data."
 ---
 

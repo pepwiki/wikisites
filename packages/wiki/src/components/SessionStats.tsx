@@ -55,7 +55,7 @@ export default function SessionStats() {
   return (
     <div class="spatial-card p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800">
       <div class="flex items-center justify-between mb-4">
-        <h3 class="text-lg font-bold text-slate-900 dark:text-slate-100">Session Stats</h3>
+        <h2 class="text-lg font-bold text-slate-900 dark:text-slate-100">Session Stats</h2>
         <Show when={streakActive()}>
           <div class="flex items-center gap-1.5 px-2.5 py-1 bg-orange-50 dark:bg-orange-950/30 rounded-full border border-orange-200">
             <span class="text-[#F97316] text-sm font-bold">{allTime()?.currentStreak}</span>

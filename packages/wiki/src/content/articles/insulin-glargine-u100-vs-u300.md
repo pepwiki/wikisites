@@ -7,7 +7,7 @@ pubDate: 2026-07-22
 tags: ["insulin-glargine", "U-100", "U-300", "long-acting-insulin", "diabetes", "pharmacokinetics"]
 category: "Insulin Analogues"
 difficulty: "intermediate"
-relatedArticles: ["insulin-glargine-vs-detemir", "insulin-degludec-vs-glargine-u300", "insulin-aspart-vs-lispro"]
+relatedArticles: ["peptide-drug-modifications", "peptide-drug-modifications", "peptide-receptor-kinetics"]
 ---
 
 # Insulin Glargine U-100 vs U-300

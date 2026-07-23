@@ -1,6 +1,6 @@
 ---
 title: Peptide Patents Database
-description: Comprehensive database of peptide-related patents covering therapeutics, delivery, and synthesis
+description: Comprehensive database and analysis of peptide-related patents covering therapeutic applications, drug delivery systems, synthesis methods, and commercial landscapes
 lastUpdated: 2025-01-13
 ---
 

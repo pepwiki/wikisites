@@ -7,7 +7,7 @@ pubDate: 2026-06-07
 tags: ["antimicrobial-peptides", "resistance", "membrane-modification", "protease-upregulation"]
 category: "Pharmacology"
 difficulty: "advanced"
-relatedArticles: ["antimicrobial-peptides", "membrane-biology", "antibiotic-resistance"]
+relatedArticles: ["antimicrobial-peptides", "ion-channels-peptides", "amp-resistance"]
 ---
 
 # Antimicrobial Peptide Resistance

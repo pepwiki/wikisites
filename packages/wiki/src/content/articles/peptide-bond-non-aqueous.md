@@ -11,7 +11,7 @@ tags:
     "ionic-liquids",
     "deep-eutectic-solvents",
     "non-aqueous-chemistry",
-    "peptide-synthesis",
+    "peptide-synthesis-methods",
   ]
 category: "Chemistry"
 difficulty: "intermediate"

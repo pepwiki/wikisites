@@ -7,7 +7,7 @@ pubDate: 2026-06-07
 tags: ["signal-peptide", "ER-translocation", "protein-targeting", "signal-peptidase"]
 category: "Fundamentals"
 difficulty: "intermediate"
-relatedArticles: ["amino-acids", "protein-folding", "post-translational-modifications"]
+relatedArticles: ["amino-acids", "protein-folding-thermodynamics", "amino-acid-ptm"]
 ---
 
 # Signal Peptides

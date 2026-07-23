@@ -1,5 +1,5 @@
 ---
-title: Melanotan I vs Melanotan II — Tanning
+title: Melanotan I vs Melanotan II
 description: Comparative dermatological analysis of melanotan I (afamelanotide) and melanotan II — melanocortin receptor selectivity, tanning efficacy, dosing regimens, and cutaneous safety profiles.
 ---
 

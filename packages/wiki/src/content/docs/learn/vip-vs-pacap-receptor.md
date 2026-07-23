@@ -1,5 +1,5 @@
 ---
-title: VIP vs PACAP — Receptor Pharmacology
+title: VIP vs PACAP
 description: Comparison of VIP and PACAP — VPAC1/VPAC2 vs PAC1 receptor selectivity and signaling pathways.
 ---
 

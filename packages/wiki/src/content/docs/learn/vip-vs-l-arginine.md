@@ -1,5 +1,5 @@
 ---
-title: VIP vs L-Arginine — NO Pathway Comparison
+title: VIP vs L-Arginine
 description: Analysis of vasoactive intestinal peptide (VIP) and L-arginine in nitric oxide signaling — convergent vasodilatory mechanisms, distinct molecular pathways, and clinical applications.
 ---
 

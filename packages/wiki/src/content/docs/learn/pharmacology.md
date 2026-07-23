@@ -1,6 +1,6 @@
 ---
 title: Therapeutic Peptides
-description: Overview of FDA-approved peptide drugs, their mechanisms, and challenges in peptide therapeutics.
+description: Overview of FDA-approved peptide drugs, their mechanisms of action, pharmacokinetics, and key challenges in peptide therapeutics development and delivery.
 ---
 
 ## Introduction

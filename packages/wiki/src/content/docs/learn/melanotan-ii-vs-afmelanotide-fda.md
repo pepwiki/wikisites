@@ -1,5 +1,5 @@
 ---
-title: Melanotan II vs Afamelanotide — FDA Approval Status
+title: Melanotan II vs Afamelanotide
 description: Regulatory comparison of melanotan II (research chemical) and afamelanotide (Scenesse, FDA-approved) — approval pathways, clinical evidence, and regulatory status by jurisdiction.
 ---
 

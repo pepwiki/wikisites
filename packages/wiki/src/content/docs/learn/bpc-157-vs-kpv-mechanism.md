@@ -1,5 +1,5 @@
 ---
-title: BPC-157 vs KPV — Mechanism Deep Dive
+title: BPC-157 vs KPV
 description: Detailed mechanistic comparison of BPC-157 (body protection compound) and KPV (α-MSH tripeptide) — molecular pathways, receptor pharmacology, and ti.
 ---
 

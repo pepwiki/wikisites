@@ -7,7 +7,7 @@ pubDate: 2026-06-07
 tags: ["GI-tract", "peptide-stability", "oral-delivery", "proteases", "drug-delivery"]
 category: "Pharmacology"
 difficulty: "beginner"
-relatedArticles: ["peptide-drug-delivery", "peptide-stability", "oral-bioavailability"]
+relatedArticles: ["peptide-drug-delivery", "peptide-stability", "peptide-gi-stability"]
 ---
 
 # Peptide Stability in the GI Tract

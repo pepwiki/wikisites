@@ -1,5 +1,5 @@
 ---
-title: CJC-1295 DAC vs MK-677 — GH Secretagogue Stacking
+title: CJC-1295 DAC vs MK-677
 description: Pharmacological analysis of combining CJC-1295 DAC (GHRH analogue) with MK-677 (GHSR agonist) — synergistic GH stimulation, dosing protocols, and safety considerations.
 ---
 

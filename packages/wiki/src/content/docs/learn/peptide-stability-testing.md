@@ -132,5 +132,5 @@ Stability testing kits available from [Kingston Peptides](https://kingstonpeptid
 
 - Use the [Stability Predictor](/tools/stability-predictor) for quick stability estimates
 - See [Peptide Stability Data](/reference/peptide-stability-data) for published half-life data
-- Review [ICH Guidelines Summary](/reference/ich-guidelines) for regulatory requirements
+- Review [ICH Guidelines Summary](/learn/peptide-ich-guidelines) for regulatory requirements
 - Check [Analytical Methods](/reference/analytical-methods) for detailed method conditions

@@ -1,5 +1,5 @@
 ---
-title: Insulin Degludec vs Icodec — Weekly Insulin Comparison
+title: Insulin Degludec vs Icodec
 description: Head-to-head comparison of insulin degludec (ultra-long-acting daily) and icodec (once-weekly) — pharmacokinetics, efficacy, dosing convenience, and clinical positioning.
 ---
 

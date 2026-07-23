@@ -1,6 +1,6 @@
 ---
 title: Understanding Peptide Impurities
-description: Origin, characterization, and impact of impurities in synthetic peptide preparations
+description: Detailed analysis of impurity origins, characterization methods, and regulatory impact of impurities in synthetic peptide preparations for pharmaceutical applications
 ---
 
 ## Impurity Origins in SPPS

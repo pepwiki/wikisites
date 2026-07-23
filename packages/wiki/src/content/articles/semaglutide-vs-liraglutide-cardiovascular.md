@@ -4,10 +4,10 @@ description: "Comparative analysis of cardiovascular outcomes data for semagluti
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-07-22
-tags: ["semaglutide", "liraglutide", "cardiovascular", "CVOT", "GLP-1", "MACE", "heart-failure"]
+tags: ["semaglutide-vs-liraglutide-cardiovascular", "semaglutide-vs-liraglutide-cardiovascular", "cardiovascular", "CVOT", "GLP-1", "MACE", "heart-failure"]
 category: "GLP-1 Analogs"
 difficulty: "advanced"
-relatedArticles: ["semaglutide-vs-tirzepatide", "liraglutide", "semaglutide", "glp1-receptor-structure"]
+relatedArticles: ["semaglutide-vs-liraglutide-cardiovascular", "semaglutide-vs-liraglutide-cardiovascular", "semaglutide-vs-liraglutide-cardiovascular", "receptor-pharmacology"]
 ---
 
 # Semaglutide vs Liraglutide: Cardiovascular Outcomes

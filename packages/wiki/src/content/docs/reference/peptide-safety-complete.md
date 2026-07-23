@@ -1,5 +1,5 @@
 ---
-title: "Peptide Safety — Complete Reference"
+title: "Peptide Safety Complete"
 description: "Comprehensive safety profile for all peptides — adverse effects, contraindications, warnings, monitoring, and risk management."
 ---
 

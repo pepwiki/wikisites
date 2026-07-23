@@ -1,6 +1,6 @@
 ---
 title: Peptide Reconstitution
-description: Physicochemical principles and precision protocols for reconstituting lyophilized peptides
+description: Detailed physicochemical principles and precision protocols for reconstituting lyophilized peptides including solvent selection, concentration calculations, and stability considerations
 ---
 
 ## Lyophilization and Its Thermodynamic Basis

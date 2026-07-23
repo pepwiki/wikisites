@@ -573,7 +573,7 @@ export const bacterialFamilies = [
   "Corynebacteriaceae"
 ];
 
-# Bacterial Peptides Database
+## Overview
 
 Comprehensive collection of bioactive peptides produced by bacteria, spanning antimicrobial agents, signaling molecules, and toxins with diverse therapeutic and biotechnological applications.
 

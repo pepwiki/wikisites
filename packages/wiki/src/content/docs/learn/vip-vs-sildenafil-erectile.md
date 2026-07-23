@@ -1,5 +1,5 @@
 ---
-title: VIP vs Sildenafil — Erectile Function
+title: VIP vs Sildenafil
 description: Comparison of vasoactive intestinal peptide (VIP) and sildenafil for erectile dysfunction — direct smooth muscle relaxation vs PDE5 inhibition, efficacy data, and combination therapy potential.
 ---
 

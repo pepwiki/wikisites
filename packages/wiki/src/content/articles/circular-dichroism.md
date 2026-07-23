@@ -7,7 +7,7 @@ pubDate: 2026-06-07
 tags: ["circular-dichroism", "secondary-structure", "spectroscopy", "alpha-helix", "beta-sheet"]
 category: "Chemistry"
 difficulty: "advanced"
-relatedArticles: ["peptide-structure", "protein-folding", "spectroscopy-basics"]
+relatedArticles: ["circular-dichroism", "protein-folding-thermodynamics", "circular-dichroism"]
 ---
 
 # Circular Dichroism Spectroscopy

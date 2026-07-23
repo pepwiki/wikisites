@@ -7,7 +7,7 @@ pubDate: 2026-07-22
 tags: ["melanotan-I", "melanotan-II", "afamelanotide", "tanning", "melanogenesis", "MC1R"]
 category: "Melanocortin Peptides"
 difficulty: "intermediate"
-relatedArticles: ["melanotan-i-vs-afamelanotide", "melanotan-ii-vs-pt-141", "alpha-msh"]
+relatedArticles: ["melanotan-i-vs-melanotan-ii-tanning", "receptor-pharmacology", "melanotan-i-vs-melanotan-ii-tanning"]
 ---
 
 # Melanotan I vs Melanotan II: Tanning Efficacy

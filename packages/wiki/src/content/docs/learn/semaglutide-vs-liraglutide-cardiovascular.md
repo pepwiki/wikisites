@@ -1,5 +1,5 @@
 ---
-title: Semaglutide vs Liraglutide — CV Outcomes
+title: Semaglutide vs Liraglutide
 description: Cardiovascular outcome comparison of semaglutide and liraglutide — LEADER, SUSTAIN, PIONEER, and SELECT trial results, MACE reduction, and cardiometabolic effects in type 2 diabetes.
 ---
 

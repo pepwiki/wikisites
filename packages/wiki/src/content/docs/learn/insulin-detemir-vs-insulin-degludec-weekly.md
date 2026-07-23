@@ -1,5 +1,5 @@
 ---
-title: Insulin Detemir vs Insulin Degludec — Weekly Dosing
+title: Insulin Detemir vs Insulin Degludec
 description: Comparison of weekly basal insulin options — detemir's twice-daily limitation vs degludec's ultra-long action enabling flexible and weekly-like dosing regimens.
 ---
 

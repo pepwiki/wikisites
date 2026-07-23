@@ -1,5 +1,5 @@
 ---
-title: CJC-1295 vs Ipamorelin — Dosing Protocols
+title: CJC-1295 vs Ipamorelin
 description: Dosing protocol comparison for CJC-1295 and ipamorelin — single agent, combination, titration schedules, and protocol optimization for growth hormone secretagogue therapy.
 ---
 

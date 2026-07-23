@@ -1,5 +1,5 @@
 ---
-title: Semaglutide vs Tirzepatide — Cost-Effectiveness Analysis
+title: Semaglutide vs Tirzepatide
 description: Pharmacoeconomic comparison of semaglutide and tirzepatide — drug costs, quality-adjusted life years, incremental cost-effectiveness ratios, and payer coverage strategies.
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Melanotan II vs Afamelanotide — Mechanism of Action
+title: Melanotan II vs Afamelanotide
 description: Detailed mechanism of action comparison for melanotan II and afamelanotide — melanocortin receptor selectivity, signaling pathways, pigmentation kinetics, and off-target effects.
 ---
 

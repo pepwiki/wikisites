@@ -4,7 +4,7 @@ description: "Understand how covalent disulfide bonds form between cysteine resi
 status: "published"
 author: "Wikipept Community"
 pubDate: 2025-01-20
-tags: ["disulfide-bonds", "cysteine", "protein-folding", "redox"]
+tags: ["disulfide-bonds", "cysteine", "protein-folding-thermodynamics", "redox"]
 category: "Chemistry"
 difficulty: "intermediate"
 relatedArticles: ["amino-acid-side-chains", "peptide-drug-modifications"]

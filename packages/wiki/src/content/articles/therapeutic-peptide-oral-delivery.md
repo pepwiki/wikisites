@@ -7,7 +7,7 @@ pubDate: 2026-06-07
 tags:
   [
     "peptide-delivery",
-    "oral-bioavailability",
+    "peptide-gi-stability",
     "permeation-enhancers",
     "nanoparticles",
     "pharmacology",

@@ -7,7 +7,7 @@ pubDate: 2026-06-07
 tags: ["GIP", "incretin", "insulin", "dual-agonists", "type-2-diabetes", "obesity"]
 category: "Pharmacology"
 difficulty: "intermediate"
-relatedArticles: ["glp-1", "incretin-physiology", "diabetes-therapeutics", "peptide-hormones"]
+relatedArticles: ["gip", "gip", "endogenous-peptide-drugs", "neuropeptide-signaling"]
 ---
 
 # Glucose-Dependent Insulinotropic Polypeptide

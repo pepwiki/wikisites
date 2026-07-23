@@ -1,6 +1,6 @@
 ---
 title: Peptide Calculations
-description: Quantitative methods for peptide mass, concentration, dose, and volume calculations
+description: Essential quantitative methods and formulas for peptide mass, concentration, dose, and volume calculations used in research and clinical applications
 ---
 
 ## Molecular Weight Determination

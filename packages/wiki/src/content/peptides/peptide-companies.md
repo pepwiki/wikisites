@@ -1,6 +1,6 @@
 ---
 title: Peptide Companies Database
-description: Comprehensive database of peptide therapeutics, CDMO, and technology companies
+description: Comprehensive database of peptide therapeutics companies, contract development and manufacturing organizations (CDMOs), and technology providers in the global market
 lastUpdated: 2025-01-14
 categories:
   - Big Pharma

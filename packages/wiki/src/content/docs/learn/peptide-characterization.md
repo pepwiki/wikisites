@@ -179,5 +179,5 @@ Analytical standards available from [Kingston Peptides](https://kingstonpeptides
 
 - See [Analytical Methods](/reference/analytical-methods) for detailed method conditions
 - Review [HPLC Purification](/learn/purification) for preparative scale methods
-- Check [Mass Spectrometry](/reference/mass-spectrometry) for MS applications
+- Check [Mass Spectrometry](/learn/mass-spectrometry-peptides) for MS applications
 - Use [Sequence Designer](/tools/sequence-designer) for sequence optimization

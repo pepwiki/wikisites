@@ -1,5 +1,5 @@
 ---
-title: Oxytocin vs Carbetocin — Postpartum
+title: Oxytocin vs Carbetocin
 description: Comparative pharmacology of oxytocin and carbetocin for postpartum hemorrhage prevention — receptor selectivity, uterotonic efficacy, duration of action, and clinical outcomes.
 ---
 

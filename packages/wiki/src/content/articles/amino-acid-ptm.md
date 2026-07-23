@@ -6,7 +6,7 @@ author: "Wikipept Community"
 pubDate: 2026-06-07
 tags:
   [
-    "post-translational-modifications",
+    "amino-acid-ptm",
     "phosphorylation",
     "glycosylation",
     "acetylation",

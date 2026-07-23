@@ -1,5 +1,5 @@
 ---
-title: GHRP-6 vs Ipamorelin — Side Effects
+title: GHRP-6 vs Ipamorelin
 description: Comparative safety analysis of GHRP-6 and ipamorelin — receptor selectivity, off-target effects, cortisol and prolactin elevation, appetite stimulation, and tolerability profiles.
 ---
 

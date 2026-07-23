@@ -1,5 +1,5 @@
 ---
-title: "Peptide Dosing — Complete Reference"
+title: "Peptide Dosing Complete"
 description: "Comprehensive dosing guide for all FDA-approved peptides and major investigational peptides — routes, frequencies, titration, and special populations."
 ---
 

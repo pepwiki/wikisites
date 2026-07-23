@@ -1,5 +1,5 @@
 ---
-title: BPC-157 vs Thymosin Beta-4 — Combination Therapy
+title: BPC-157 vs Thymosin Beta-4
 description: Synergistic mechanisms of BPC-157 and thymosin beta-4 in combination — complementary pathways in tissue repair, angiogenesis, and anti-inflammatory modulation.
 ---
 

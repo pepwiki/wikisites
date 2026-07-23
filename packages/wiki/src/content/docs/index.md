@@ -1,6 +1,6 @@
 ---
 title: Wikipept
-description: Interactive, community-driven platform for learning oligopeptide biology
+description: Interactive community-driven platform for learning oligopeptide biology with quizzes, flashcards, databases, and power-user tools for researchers and students
 ---
 
 Wikipept is an interactive, community-driven platform for learning oligopeptide biology. Quizzes, flashcards, spaced repetition, and collaborative annotations.

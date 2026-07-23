@@ -4,7 +4,7 @@ description: "Explore cis-trans isomerization of peptide bonds, the role of prol
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07
-tags: ["peptide-bond", "isomerization", "protein-folding", "prolyl-isomerase", "kinetics"]
+tags: ["peptide-bond", "isomerization", "protein-folding-thermodynamics", "prolyl-isomerase", "kinetics"]
 category: "Chemistry"
 difficulty: "advanced"
 relatedArticles:

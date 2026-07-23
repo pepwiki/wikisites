@@ -192,6 +192,6 @@ The peptide therapeutics market is experiencing unprecedented growth driven by G
 ## See Also
 
 - [Approved Peptides](/reference/approved-peptides) — Complete list of FDA/EMA-approved peptide therapeutics
-- [Drug Pipeline](/reference/peptide-pipeline) — Phase I–III peptide drugs and projected launches
+- [Drug Pipeline](/learn/peptide-drug-pipeline) — Phase I–III peptide drugs and projected launches
 - [Cost Analysis](/reference/peptide-cost-analysis) — Manufacturing costs, pricing trends, and COGS breakdown
 - [Patents](/reference/peptide-patents) — Patent expirations and biosimilar opportunities shaping the market

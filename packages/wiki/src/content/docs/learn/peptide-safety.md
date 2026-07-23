@@ -1,6 +1,6 @@
 ---
 title: Peptide Handling Safety
-description: Hazard characterization and exposure control for bioactive peptide compounds
+description: Comprehensive hazard characterization and exposure control guidelines for handling bioactive peptide compounds in research and clinical settings
 ---
 
 ## Hazard Profile

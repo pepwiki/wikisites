@@ -1,6 +1,6 @@
 ---
 title: Glossary
-description: Searchable terminology reference for oligopeptide biology, chemistry, and pharmacology.
+description: Comprehensive searchable glossary of terminology for oligopeptide biology, chemistry, pharmacology, and clinical research with definitions and context.
 ---
 
 ## A

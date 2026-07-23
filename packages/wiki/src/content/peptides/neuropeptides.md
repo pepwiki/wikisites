@@ -1,6 +1,6 @@
 ---
 title: Neuropeptides Database
-description: Comprehensive database of neuropeptides with sequences, receptors, mechanisms, and functions
+description: Comprehensive database of neuropeptides with amino acid sequences, receptor targets, signaling mechanisms, and physiological functions in the nervous system
 category: neuropeptides
 totalEntries: 30
 ---

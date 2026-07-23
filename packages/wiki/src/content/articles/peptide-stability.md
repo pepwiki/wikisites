@@ -7,7 +7,7 @@ pubDate: 2026-06-07
 tags: ["peptide-stability", "degradation", "aggregation", "oxidation", "deamidation", "storage"]
 category: "Pharmacology"
 difficulty: "intermediate"
-relatedArticles: ["peptide-synthesis", "peptide-formulation", "amino-acids"]
+relatedArticles: ["peptide-synthesis-methods", "peptide-stability", "amino-acids"]
 ---
 
 # Peptide Stability

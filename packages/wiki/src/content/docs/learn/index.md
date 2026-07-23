@@ -1,6 +1,6 @@
 ---
 title: Learning Paths
-description: Explore our comprehensive learning paths for oligopeptide biology
+description: Explore our comprehensive learning paths for oligopeptide biology — from amino acid fundamentals to advanced clinical peptide therapeutics and research methods
 ---
 
 ## Beginner: Fundamentals

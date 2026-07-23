@@ -1,0 +1,44 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Tools" description="Interactive peptide research tools including calculators, analyzers, and discovery platforms.">
+  <h1 class="text-4xl font-extrabold mb-8 text-slate-900 dark:text-slate-100">Tools</h1>
+  <p class="text-slate-600 dark:text-slate-400 mb-8">
+    Powerful interactive tools for peptide researchers, students, and clinicians.
+  </p>
+  <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <a href="/tools/molecular-weight-calculator/" class="block p-4 rounded-lg border border-slate-200 dark:border-slate-700 hover:border-[#0D9488] hover:shadow-md transition-all">
+      <h2 class="font-semibold text-slate-900 dark:text-slate-100">MW Calculator</h2>
+      <p class="text-sm text-slate-600 dark:text-slate-400 mt-1">Calculate molecular weight from sequence</p>
+    </a>
+    <a href="/tools/reconstitution-calculator/" class="block p-4 rounded-lg border border-slate-200 dark:border-slate-700 hover:border-[#0D9488] hover:shadow-md transition-all">
+      <h2 class="font-semibold text-slate-900 dark:text-slate-100">Reconstitution Calculator</h2>
+      <p class="text-sm text-slate-600 dark:text-slate-400 mt-1">Calculate reconstitution volumes</p>
+    </a>
+    <a href="/tools/peptide-property-calculator/" class="block p-4 rounded-lg border border-slate-200 dark:border-slate-700 hover:border-[#0D9488] hover:shadow-md transition-all">
+      <h2 class="font-semibold text-slate-900 dark:text-slate-100">Property Calculator</h2>
+      <p class="text-sm text-slate-600 dark:text-slate-400 mt-1">Compute peptide physicochemical properties</p>
+    </a>
+    <a href="/tools/stability-predictor/" class="block p-4 rounded-lg border border-slate-200 dark:border-slate-700 hover:border-[#0D9488] hover:shadow-md transition-all">
+      <h2 class="font-semibold text-slate-900 dark:text-slate-100">Stability Predictor</h2>
+      <p class="text-sm text-slate-600 dark:text-slate-400 mt-1">Predict peptide stability in solution</p>
+    </a>
+    <a href="/tools/interaction-checker/" class="block p-4 rounded-lg border border-slate-200 dark:border-slate-700 hover:border-[#0D9488] hover:shadow-md transition-all">
+      <h2 class="font-semibold text-slate-900 dark:text-slate-100">Interaction Checker</h2>
+      <p class="text-sm text-slate-600 dark:text-slate-400 mt-1">Check peptide-drug interactions</p>
+    </a>
+    <a href="/tools/sequence-analyzer/" class="block p-4 rounded-lg border border-slate-200 dark:border-slate-700 hover:border-[#0D9488] hover:shadow-md transition-all">
+      <h2 class="font-semibold text-slate-900 dark:text-slate-100">Sequence Analyzer</h2>
+      <p class="text-sm text-slate-600 dark:text-slate-400 mt-1">Analyze peptide sequences</p>
+    </a>
+    <a href="/tools/peptide-discovery/" class="block p-4 rounded-lg border border-slate-200 dark:border-slate-700 hover:border-[#0D9488] hover:shadow-md transition-all">
+      <h2 class="font-semibold text-slate-900 dark:text-slate-100">Peptide Discovery</h2>
+      <p class="text-sm text-slate-600 dark:text-slate-400 mt-1">Discover peptide candidates</p>
+    </a>
+    <a href="/tools/glossary/" class="block p-4 rounded-lg border border-slate-200 dark:border-slate-700 hover:border-[#0D9488] hover:shadow-md transition-all">
+      <h2 class="font-semibold text-slate-900 dark:text-slate-100">Peptide Glossary</h2>
+      <p class="text-sm text-slate-600 dark:text-slate-400 mt-1">Searchable peptide terminology</p>
+    </a>
+  </div>
+</BaseLayout>

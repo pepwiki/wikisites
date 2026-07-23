@@ -7,7 +7,7 @@ pubDate: 2026-02-01
 tags: ["amino-acids", "beginner", "fundamentals"]
 category: "Fundamentals"
 difficulty: "beginner"
-relatedArticles: ["peptide-bonds", "protein-structure", "essential-amino-acids"]
+relatedArticles: ["peptide-bonds", "protein-structure", "amino-acid-classification"]
 ---
 
 # Understanding Amino Acids

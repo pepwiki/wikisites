@@ -1,5 +1,5 @@
 ---
-title: Insulin Aspart vs Lispro — Onset
+title: Insulin Aspart vs Lispro
 description: Comparative pharmacokinetic analysis of insulin aspart and insulin lispro — onset profiles, peak timing, duration, and clinical implications for postprandial glucose control.
 ---
 

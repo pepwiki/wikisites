@@ -1,5 +1,5 @@
 ---
-title: Thymosin Alpha-1 vs Vitamin D — Immune Modulation
+title: Thymosin Alpha-1 vs Vitamin D
 description: Comparative analysis of thymosin alpha-1 (peptide immunomodulator) and vitamin D (secosteroid hormone) — immune pathways, clinical applications, and synergistic potential.
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Peptide Storage and Handling
-description: Thermodynamic and kinetic principles governing peptide stability across storage conditions
+description: In-depth analysis of thermodynamic and kinetic principles governing peptide stability across various storage conditions including temperature, pH, and formulation factors
 ---
 
 ## Degradation Kinetics and Storage

@@ -1,5 +1,5 @@
 ---
-title: GHRP-6 vs L-DOPA — Growth Hormone Stimulation Pathways
+title: GHRP-6 vs L-DOPA
 description: Comparative analysis of GHRP-6 (ghrelin receptor agonist) and L-dopa (dopamine precursor) in GH stimulation — divergent neuroendocrine pathways and pharmacological profiles.
 ---
 

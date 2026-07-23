@@ -1,5 +1,5 @@
 ---
-title: Semaglutide vs Tirzepatide — Patient Selection Criteria
+title: Semaglutide vs Tirzepatide
 description: Evidence-based patient selection for semaglutide vs tirzepatide — BMI thresholds, comorbidity profiles, cardiovascular risk, and treatment optimization strategies.
 ---
 

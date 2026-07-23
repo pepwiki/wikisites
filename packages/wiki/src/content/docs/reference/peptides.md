@@ -1,6 +1,6 @@
 ---
 title: Peptide Database
-description: Comprehensive database of 795+ peptides across 23 categories
+description: Comprehensive searchable database of 795+ therapeutic peptides organized across 23 categories with sequences, properties, and clinical data
 ---
 
 :::note

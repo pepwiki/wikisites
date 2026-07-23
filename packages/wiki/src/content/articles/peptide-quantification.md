@@ -8,7 +8,7 @@ tags:
   ["peptide-quantification", "BCA-assay", "Bradford-assay", "UV-absorbance", "amino-acid-analysis"]
 category: "Chemistry"
 difficulty: "intermediate"
-relatedArticles: ["amino-acids", "peptide-synthesis", "hplc-analysis"]
+relatedArticles: ["amino-acids", "peptide-synthesis-methods", "peptide-quantification"]
 ---
 
 # Peptide Quantification Methods

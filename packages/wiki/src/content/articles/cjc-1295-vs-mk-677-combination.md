@@ -7,7 +7,7 @@ pubDate: 2026-07-22
 tags: ["CJC-1295", "MK-677", "growth-hormone", "secretagogue", "GHRH", "ghrelin", "stacking"]
 category: "Growth Hormone Secretagogues"
 difficulty: "advanced"
-relatedArticles: ["cjc-1295-vs-ipamorelin", "ghrp-6-vs-mk-677-orality", "ipamorelin-vs-mk-677", "cjc-1295-dac-vs-no-dac"]
+relatedArticles: ["gpcr-pharmacology", "peptide-oral-bioavailability", "gpcr-pharmacology", "peptide-drug-modifications"]
 ---
 
 # CJC-1295 vs MK-677: Combination Analysis

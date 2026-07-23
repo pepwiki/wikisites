@@ -1,5 +1,5 @@
 ---
-title: GHRP-6 vs MK-677 — Oral Bioavailability
+title: GHRP-6 vs MK-677
 description: Comparison of GHRP-6 (peptide) and MK-677 (non-peptide secretagogue) — oral bioavailability, pharmacokinetics, and growth hormone stimulation.
 ---
 

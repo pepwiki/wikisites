@@ -8,14 +8,14 @@ tags:
   [
     "blood-brain-barrier",
     "drug-delivery",
-    "cell-penetrating-peptides",
+    "peptide-gi-stability",
     "nasal-delivery",
     "neuropharmacology",
   ]
 category: "Pharmacology"
 difficulty: "advanced"
 relatedArticles:
-  ["peptide-drug-delivery", "cell-penetrating-peptides", "neurodegenerative-diseases"]
+  ["peptide-drug-delivery", "peptide-gi-stability"]
 ---
 
 # Blood-Brain Barrier and Peptides

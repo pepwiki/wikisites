@@ -197,6 +197,6 @@ Research peptides available from [Kingston Peptides](https://kingstonpeptides.co
 ## Related Resources
 
 - Use [Sequence Designer](/tools/sequence-designer) for SAR-guided design
-- See [Amino Acid Properties](/reference/amino-acid-properties) for residue information
+- See [Amino Acid Properties](/learn/amino-acid-properties) for residue information
 - Check [Physicochemical Properties](/reference/physicochemical-properties) for molecular data
 - Review [Peptide Modifications](/reference/peptide-modifications) for modification details

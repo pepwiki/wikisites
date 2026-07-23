@@ -4,7 +4,7 @@ description: "Protein folding is governed by thermodynamic principles that deter
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07
-tags: ["protein-folding", "thermodynamics", "energy-landscape", "chaperones"]
+tags: ["protein-folding-thermodynamics", "thermodynamics", "energy-landscape", "chaperones"]
 category: "Chemistry"
 difficulty: "advanced"
 relatedArticles: ["peptide-bond-hydrolysis", "peptide-bond-rotation"]

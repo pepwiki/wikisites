@@ -188,6 +188,6 @@ Excipients and formulation supplies available [here](https://kingstonpeptides.co
 ## Related Resources
 
 - See [Drug Delivery Systems](/reference/drug-delivery-systems) for delivery technologies
-- Review [Formulation Excipients](/reference/formulation-excipients) for excipient details
-- Check [Lyophilization](/learn/lyophilization) for freeze-drying protocols
+- Review [Formulation Excipients](/learn/peptide-formulation) for excipient details
+- Check [Lyophilization](/learn/peptide-lyophilization) for freeze-drying protocols
 - Use [Reconstitution Calculator](/tools/reconstitution-calculator) for dilution calculations

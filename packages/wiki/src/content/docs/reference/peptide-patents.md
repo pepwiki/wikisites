@@ -183,6 +183,6 @@ Formulation patents can extend effective market exclusivity beyond composition-o
 ## See Also
 
 - [Approved Peptides](/reference/approved-peptides) — Regulatory status and patent expiry dates for marketed peptides
-- [Drug Pipeline](/reference/peptide-pipeline) — Pipeline peptides approaching patent cliffs
+- [Drug Pipeline](/learn/peptide-drug-pipeline) — Pipeline peptides approaching patent cliffs
 - [Market Data](/reference/peptide-market-data) — Revenue projections and competitive landscape post-patent expiration
 - [Cost Analysis](/reference/peptide-cost-analysis) — Manufacturing cost trends and biosimilar pricing

@@ -1,0 +1,36 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Topics" description="Browse peptide research topics from amino acids to drug discovery.">
+  <h1 class="text-4xl font-extrabold mb-8 text-slate-900 dark:text-slate-100">Topics</h1>
+  <p class="text-slate-600 dark:text-slate-400 mb-8">
+    Explore curated topic collections covering all aspects of peptide science.
+  </p>
+  <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <a href="/topics/amino-acids/" class="block p-4 rounded-lg border border-slate-200 dark:border-slate-700 hover:border-[#0D9488] hover:shadow-md transition-all">
+      <h2 class="font-semibold text-slate-900 dark:text-slate-100">Amino Acids</h2>
+      <p class="text-sm text-slate-600 dark:text-slate-400 mt-1">Building blocks of peptides</p>
+    </a>
+    <a href="/topics/peptide-structure/" class="block p-4 rounded-lg border border-slate-200 dark:border-slate-700 hover:border-[#0D9488] hover:shadow-md transition-all">
+      <h2 class="font-semibold text-slate-900 dark:text-slate-100">Peptide Structure</h2>
+      <p class="text-sm text-slate-600 dark:text-slate-400 mt-1">Conformations and folding</p>
+    </a>
+    <a href="/topics/peptide-synthesis/" class="block p-4 rounded-lg border border-slate-200 dark:border-slate-700 hover:border-[#0D9488] hover:shadow-md transition-all">
+      <h2 class="font-semibold text-slate-900 dark:text-slate-100">Peptide Synthesis</h2>
+      <p class="text-sm text-slate-600 dark:text-slate-400 mt-1">SPPS and manufacturing</p>
+    </a>
+    <a href="/topics/pharmacology/" class="block p-4 rounded-lg border border-slate-200 dark:border-slate-700 hover:border-[#0D9488] hover:shadow-md transition-all">
+      <h2 class="font-semibold text-slate-900 dark:text-slate-100">Pharmacology</h2>
+      <p class="text-sm text-slate-600 dark:text-slate-400 mt-1">Drug action and therapeutic use</p>
+    </a>
+    <a href="/topics/receptors/" class="block p-4 rounded-lg border border-slate-200 dark:border-slate-700 hover:border-[#0D9488] hover:shadow-md transition-all">
+      <h2 class="font-semibold text-slate-900 dark:text-slate-100">Receptors & Signaling</h2>
+      <p class="text-sm text-slate-600 dark:text-slate-400 mt-1">Cell signaling pathways</p>
+    </a>
+    <a href="/topics/drug-discovery/" class="block p-4 rounded-lg border border-slate-200 dark:border-slate-700 hover:border-[#0D9488] hover:shadow-md transition-all">
+      <h2 class="font-semibold text-slate-900 dark:text-slate-100">Drug Discovery</h2>
+      <p class="text-sm text-slate-600 dark:text-slate-400 mt-1">From target to therapy</p>
+    </a>
+  </div>
+</BaseLayout>

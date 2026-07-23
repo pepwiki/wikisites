@@ -1,5 +1,5 @@
 ---
-title: Semaglutide vs Dulaglutide — Efficacy
+title: Semaglutide vs Dulaglutide
 description: Head-to-head efficacy comparison of semaglutide and dulaglutide — HbA1c reduction, weight loss, cardiovascular outcomes, dosing convenience, and GLP-1 receptor agonist selection.
 ---
 

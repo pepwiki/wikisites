@@ -1,5 +1,5 @@
 ---
-title: "Peptide Drug Interactions — Complete Reference"
+title: "Peptide Drug Interactions Complete"
 description: "Comprehensive database of 100+ peptide-drug interactions with severity, mechanism, and clinical management recommendations."
 ---
 

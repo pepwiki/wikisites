@@ -179,7 +179,7 @@ Scale-up reagents available from [Kingston Peptides](https://kingstonpeptides.co
 
 ## Related Resources
 
-- See [GMP Manufacturing](/learn/gmp-manufacturing) for regulatory requirements
+- See [GMP Manufacturing](/learn/peptide-gmp-manufacturing) for regulatory requirements
 - Review [Peptide Characterization](/learn/peptide-characterization) for analytical methods
 - Check [Stability Testing](/learn/peptide-stability-testing) for shelf life studies
 - Use [Sequence Designer](/tools/sequence-designer) for scale-up optimized sequences

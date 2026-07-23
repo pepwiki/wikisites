@@ -4,7 +4,7 @@ description: "A complete guide to the 20 standard amino acids, their dietary cla
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07
-tags: ["amino-acids", "essential-amino-acids", "nutrition", "protein-synthesis"]
+tags: ["amino-acids", "amino-acid-classification", "nutrition", "protein-synthesis"]
 category: "Fundamentals"
 difficulty: "beginner"
 relatedArticles: ["peptide-bonds", "protein-structure"]

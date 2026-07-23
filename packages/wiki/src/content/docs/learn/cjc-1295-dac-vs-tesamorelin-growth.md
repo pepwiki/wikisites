@@ -1,5 +1,5 @@
 ---
-title: CJC-1295 DAC vs Tesamorelin — Growth
+title: CJC-1295 DAC vs Tesamorelin
 description: Comparative analysis of CJC-1295 with DAC and tesamorelin for growth hormone stimulation — GHRH analogue pharmacology, DAC-mediated half-life extension, IGF-1 dynamics, and clinical applications.
 ---
 

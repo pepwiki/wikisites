@@ -6,7 +6,7 @@ const NAV_LINKS = [
   { href: "/quizzes", label: "Quizzes" },
   { href: "/flashcards", label: "Flashcards" },
   { href: "/community", label: "Community" },
-  { href: "/glossary", label: "Glossary" },
+  { href: "/reference/glossary", label: "Glossary" },
 ];
 
 interface MobileNavProps {

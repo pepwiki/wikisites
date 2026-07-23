@@ -7,7 +7,7 @@ pubDate: 2026-06-07
 tags: ["peptide-vaccines", "epitope-design", "adjuvants", "carrier-proteins", "immunology"]
 category: "Pharmacology"
 difficulty: "intermediate"
-relatedArticles: ["immunology-basics", "antigen-presentation", "vaccine-development"]
+relatedArticles: ["peptide-vaccines", "peptide-vaccines", "peptide-vaccines"]
 ---
 
 # Peptide Vaccines

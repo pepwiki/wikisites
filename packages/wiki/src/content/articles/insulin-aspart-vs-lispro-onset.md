@@ -7,7 +7,7 @@ pubDate: 2026-07-22
 tags: ["insulin-aspart", "insulin-lispro", "rapid-acting", "onset", "pharmacokinetics", "diabetes", "mealtime"]
 category: "Insulin Analogues"
 difficulty: "intermediate"
-relatedArticles: ["insulin-aspart-vs-glulisine", "insulin-lispro-vs-aspart-ultra-rapid", "insulin-glargine-vs-detemir"]
+relatedArticles: ["peptide-receptor-kinetics", "peptide-receptor-kinetics", "peptide-drug-modifications"]
 ---
 
 # Insulin Aspart vs Lispro: Onset Time

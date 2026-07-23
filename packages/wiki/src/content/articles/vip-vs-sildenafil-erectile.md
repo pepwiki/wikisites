@@ -7,7 +7,7 @@ pubDate: 2026-07-22
 tags: ["VIP", "sildenafil", "erectile-dysfunction", "vasoactive-intestinal-peptide", "PDE5", "vasodilation"]
 category: "Reproductive Peptides"
 difficulty: "intermediate"
-relatedArticles: ["vip", "vip-vs-pacap", "pt-141-vs-viagra", "vip-vs-acth"]
+relatedArticles: ["vip-vs-sildenafil-erectile", "vip-vs-sildenafil-erectile", "vip-vs-sildenafil-erectile", "vip-vs-sildenafil-erectile"]
 ---
 
 # VIP vs Sildenafil: Erectile Dysfunction

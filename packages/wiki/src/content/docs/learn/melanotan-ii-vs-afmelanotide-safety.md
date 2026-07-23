@@ -1,5 +1,5 @@
 ---
-title: Melanotan II vs Afamelanotide — Safety
+title: Melanotan II vs Afamelanotide
 description: Safety comparison of melanotan II and afamelanotide (melanotan I) — melanocortin receptor selectivity, systemic side effects, regulatory warnings, and risk-benefit profiles.
 ---
 

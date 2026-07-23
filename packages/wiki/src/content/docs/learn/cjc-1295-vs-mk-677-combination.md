@@ -1,5 +1,5 @@
 ---
-title: CJC-1295 vs MK-677 — GH Combination
+title: CJC-1295 vs MK-677
 description: Pharmacological analysis of combining CJC-1295 (GHRH analogue) with MK-677 (GHSR agonist) — synergistic growth hormone stimulation, pharmacokinetic considerations, and safety profile.
 ---
 

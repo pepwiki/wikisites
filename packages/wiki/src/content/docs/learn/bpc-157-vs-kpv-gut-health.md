@@ -1,5 +1,5 @@
 ---
-title: BPC-157 vs KPV — Gut Health
+title: BPC-157 vs KPV
 description: Comparative analysis of BPC-157 and KPV for gastrointestinal protection — gut peptide sequences, mechanisms of mucosal defense, anti-inflammatory pathways, and therapeutic applications.
 ---
 # BPC-157 vs KPV — Gut Health

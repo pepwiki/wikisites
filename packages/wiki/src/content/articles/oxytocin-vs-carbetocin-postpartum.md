@@ -4,10 +4,10 @@ description: "Comparative analysis of oxytocin and carbetocin for postpartum hem
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-07-22
-tags: ["oxytocin", "carbetocin", "postpartum", "hemorrhage", "uterotonic", "obstetrics"]
+tags: ["oxytocin-vs-carbetocin-postpartum", "carbetocin", "postpartum", "hemorrhage", "uterotonic", "obstetrics"]
 category: "Obstetric Peptides"
 difficulty: "advanced"
-relatedArticles: ["oxytocin", "oxytocin-vs-vasopressin", "oxytocin-vs-desmopressin"]
+relatedArticles: ["oxytocin-vs-carbetocin-postpartum", "peptide-receptor-kinetics", "peptide-receptor-kinetics"]
 ---
 
 # Oxytocin vs Carbetocin: Postpartum Use

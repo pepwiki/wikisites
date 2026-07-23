@@ -1,5 +1,5 @@
 ---
-title: "Peptide Storage — Complete Reference"
+title: "Peptide Storage Complete"
 description: "Comprehensive storage conditions for all peptides — temperature, light, humidity, reconstitution stability, and shelf life data."
 ---
 

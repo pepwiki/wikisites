@@ -526,8 +526,6 @@ export const trialStats = {
   ]
 };
 
-# Peptide Clinical Trials Database
-
 ## Overview
 
 This database contains **30 clinical trials** spanning Phase I through Phase III for peptide-based therapeutics across multiple therapeutic areas.

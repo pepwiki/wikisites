@@ -7,7 +7,7 @@ pubDate: 2026-07-22
 tags: ["GHRP-6", "ipamorelin", "growth-hormone", "side-effects", "secretagogue", "cortisol", "appetite"]
 category: "Growth Hormone Secretagogues"
 difficulty: "intermediate"
-relatedArticles: ["ghrp-2-vs-ghrp-6-selectivity", "ghrp-6-vs-mk-677-orality", "ipamorelin-vs-mk-677"]
+relatedArticles: ["receptor-pharmacology", "peptide-oral-bioavailability", "gpcr-pharmacology"]
 ---
 
 # GHRP-6 vs Ipamorelin: Side Effect Profiles

@@ -7,7 +7,7 @@ pubDate: 2026-07-22
 tags: ["thymosin-alpha-1", "interferon", "immune-modulation", "immunotherapy", "antiviral", "cancer"]
 category: "Immunomodulatory Peptides"
 difficulty: "advanced"
-relatedArticles: ["thymosin-alpha-1-vs-thymosin-beta-4", "thymosin-alpha-1-vs-thymulin"]
+relatedArticles: ["thymosin-alpha-1-vs-interferon", "thymosin-alpha-1-vs-interferon"]
 ---
 
 # Thymosin Alpha-1 vs Interferon: Immune Modulation

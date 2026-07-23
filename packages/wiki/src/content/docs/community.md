@@ -1,6 +1,6 @@
 ---
 title: Get Involved
-description: Community features and contribution guidelines for Wikipept
+description: Get involved with the Wikipept community — contribute content, report issues, suggest features, and connect with fellow peptide researchers and students
 ---
 
 ## Community

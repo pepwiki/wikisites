@@ -1,6 +1,6 @@
 ---
 title: Toxin Peptides Database
-description: Comprehensive database of toxin peptides and toxic molecules from various organisms
+description: Comprehensive database of toxin peptides and toxic molecules from various organisms including venom, plant, and microbial sources with sequences and mechanisms
 ---
 
 # Toxin Peptides Database

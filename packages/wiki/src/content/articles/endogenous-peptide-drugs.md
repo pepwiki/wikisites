@@ -4,7 +4,7 @@ description: "Naturally occurring peptides like insulin, oxytocin, vasopressin, 
 status: "published"
 author: "Wikipept Community"
 pubDate: 2026-06-07
-tags: ["endogenous peptides", "insulin", "oxytocin", "vasopressin", "calcitonin", "therapeutics"]
+tags: ["endogenous peptides", "insulin", "oxytocin-vs-carbetocin-postpartum", "vasopressin", "calcitonin", "therapeutics"]
 category: "Pharmacology"
 difficulty: "beginner"
 relatedArticles: ["opioid-peptide-pharmacology", "peptide-protein-interactions", "amino-acid-pka"]
