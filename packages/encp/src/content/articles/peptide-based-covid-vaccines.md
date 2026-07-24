@@ -1,5 +1,5 @@
 ---
-title: "Peptide-Based COVID Vaccines"
+title: "Peptide-Based COVID Vaccines: Comprehensive Peptide Refer..."
 description: "Comprehensive reference for Peptide-Based COVID Vaccines, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,6 +1,6 @@
 ---
 title: "Soystatin: Structure, Function, and Significance"
-description: "Soystatin is an ACE-inhibitory peptide from soy protein hydrolysates with antihypertensive activity."
+description: "Soystatin is an ACE-inhibitory peptide from soy protein hydrolysates with antihypertensive activity. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Nisin"
-description: "Lantibiotic peptide from Lactococcus lactis used as a food preservative, with unique lipid II targeting mechanism."
+title: "Nisin: Antimicrobial Peptide Reference"
+description: "Lantibiotic peptide from Lactococcus lactis used as a food preservative, with unique lipid II targeting mechanism. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

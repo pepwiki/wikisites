@@ -1,6 +1,6 @@
 ---
-title: "tomography for Peptides"
-description: "Application of tomography technique for peptide characterization, structure determination, or formulation."
+title: "tomography for Peptides: Analytical Technique in Peptide ..."
+description: "Application of tomography technique for peptide characterization, structure determination, or formulation. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

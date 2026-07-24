@@ -1,6 +1,6 @@
 ---
-title: "Klotho Peptide Hormone"
-description: "The Klotho Peptide Hormone and its role in endocrine signaling."
+title: "Klotho Peptide Hormone: Endogenous Peptide Hormone Reference"
+description: "Klotho, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical sig..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

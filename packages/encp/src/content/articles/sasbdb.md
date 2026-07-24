@@ -1,6 +1,6 @@
 ---
-title: "SASBDB"
-description: "Small Angle Scattering Biological Data Bank for SAXS/SANS data."
+title: "SASBDB: Oligopeptide Research Reference"
+description: "Small Angle Scattering Biological Data Bank for SAXS/SANS data. This peptide or oligopeptide is studied for its biological activity, structure-activity relat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

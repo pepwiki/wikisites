@@ -1,6 +1,6 @@
 ---
 title: "Factor Xa Cleavage Purification"
-description: "A purification technique for separating and isolating peptides using Factor Xa Cleavage."
+description: "A purification technique for separating and isolating peptides using Factor Xa Cleavage. This analytical technique provides valuable insights into peptide st..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

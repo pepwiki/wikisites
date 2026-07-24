@@ -1,6 +1,6 @@
 ---
-title: "Peptide Microsphere Depot"
-description: "Biodegradable microspheres forming sustained-release depots for peptide drugs."
+title: "Peptide Microsphere Depot: Comprehensive Peptide Reference"
+description: "Biodegradable microspheres forming sustained-release depots for peptide drugs. This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

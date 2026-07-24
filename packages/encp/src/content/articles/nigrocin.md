@@ -1,6 +1,6 @@
 ---
-title: "Nigrocin"
-description: "AMP from frog skin with multiple tryptophan residues for membrane insertion."
+title: "Nigrocin: Antimicrobial Peptide Reference"
+description: "AMP from frog skin with multiple tryptophan residues for membrane insertion. This antimicrobial peptide demonstrates activity against pathogens and is studie..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

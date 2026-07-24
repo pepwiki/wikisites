@@ -1,6 +1,6 @@
 ---
-title: "Notch Modulator"
-description: "Comprehensive reference for Notch modulator in peptide research."
+title: "Notch Modulator: Oligopeptide Research Reference"
+description: "Notch modulator in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential app..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Goserelin"
-description: "Comprehensive reference for goserelin in peptide research."
+title: "Goserelin: Oligopeptide Research Reference"
+description: "goserelin in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicati..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

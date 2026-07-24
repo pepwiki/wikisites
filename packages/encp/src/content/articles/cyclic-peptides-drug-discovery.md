@@ -1,6 +1,6 @@
 ---
 title: "Cyclic Peptides in Drug Discovery"
-description: "Structural and pharmacological principles of cyclic peptide drug design including head-to-tail cyclization, stapled peptides, and strategies for enhanced cell permeability."
+description: "Structural and pharmacological principles of cyclic peptide drug design including head-to-tail cyclization, stapled peptides, and strategies for enhanced cel..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-11-05

@@ -1,6 +1,6 @@
 ---
-title: "Amylin Protein Hormone"
-description: "The Amylin Protein Hormone and its role in endocrine signaling."
+title: "Amylin Protein Hormone: Endogenous Peptide Hormone Reference"
+description: "Amylin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical sig..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

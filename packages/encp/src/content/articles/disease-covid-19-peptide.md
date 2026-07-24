@@ -1,6 +1,6 @@
 ---
-title: "Covid 19 Peptides"
-description: "Peptides associated with Covid 19 including biomarkers, therapeutic targets, and diagnostic markers."
+title: "Covid 19 Peptides: Oligopeptide Research Reference"
+description: "Peptides associated with Covid 19 including biomarkers, therapeutic targets, and diagnostic markers. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

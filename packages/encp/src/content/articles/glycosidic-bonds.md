@@ -1,6 +1,6 @@
 ---
 title: "Glycosidic Bonds in Glycopeptides"
-description: "Explore glycosidic bond formation in glycopeptide conjugates and glycoprotein engineering."
+description: "Explore glycosidic bond formation in glycopeptide conjugates and glycoprotein engineering. This modification affects peptide stability, receptor binding, and..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Tuberculosis"
-description: "M. tuberculosis. Treatments: RIPE therapy (4 drugs, 6 months)."
+title: "Tuberculosis: Oligopeptide Research Reference"
+description: "M. tuberculosis. Treatments: RIPE therapy (4 drugs, 6 months). This peptide or oligopeptide is studied for its biological activity, structure-activity relati..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Nisin Z"
-description: "nisin-z is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity."
+title: "Nisin Z: Antimicrobial Peptide Reference"
+description: "nisin-z is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity. This antimicrobial peptide demonstrates activity against ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

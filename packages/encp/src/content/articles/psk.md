@@ -1,6 +1,6 @@
 ---
-title: "PSK"
-description: "Comprehensive reference for PSK, a peptide compound with applications in research and therapeutics."
+title: "PSK: Oligopeptide Research Reference"
+description: "PSK, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

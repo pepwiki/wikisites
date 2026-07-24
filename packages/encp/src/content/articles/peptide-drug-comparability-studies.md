@@ -1,6 +1,6 @@
 ---
 title: "Peptide Drug Comparability Studies"
-description: "Requirements for demonstrating comparability of peptide drug products after manufacturing changes."
+description: "Requirements for demonstrating comparability of peptide drug products after manufacturing changes. This peptide or oligopeptide is studied for its biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

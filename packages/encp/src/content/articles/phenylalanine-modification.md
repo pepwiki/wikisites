@@ -1,5 +1,5 @@
 ---
-title: "Phenylalanine Modification"
+title: "Phenylalanine Modification: Comprehensive Peptide Reference"
 description: "Post-translational modifications of Phenylalanine including phosphorylation, methylation, acetylation, and ubiquitination."
 status: "published"
 author: "Encyclopeptide Editorial"

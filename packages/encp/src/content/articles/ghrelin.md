@@ -1,5 +1,5 @@
 ---
-title: "Ghrelin"
+title: "Ghrelin: Endogenous Peptide Hormone Reference"
 description: "28-amino acid orexigenic hormone from the stomach that stimulates growth hormone release and appetite through GHS-R signaling."
 status: "published"
 author: "Encyclopeptide Editorial"

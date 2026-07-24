@@ -1,6 +1,6 @@
 ---
-title: "Type1 Diabetes Peptides"
-description: "Peptides associated with Type1 Diabetes including biomarkers, therapeutic targets, and diagnostic markers."
+title: "Type1 Diabetes Peptides: Oligopeptide Research Reference"
+description: "Peptides associated with Type1 Diabetes including biomarkers, therapeutic targets, and diagnostic markers. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

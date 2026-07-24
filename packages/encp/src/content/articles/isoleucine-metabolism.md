@@ -1,6 +1,6 @@
 ---
-title: "Isoleucine Metabolism"
-description: "Metabolic pathways involving Isoleucine including biosynthesis, catabolism, and transamination."
+title: "Isoleucine Metabolism: Oligopeptide Research Reference"
+description: "Metabolic pathways involving Isoleucine including biosynthesis, catabolism, and transamination. This peptide or oligopeptide is studied for its biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

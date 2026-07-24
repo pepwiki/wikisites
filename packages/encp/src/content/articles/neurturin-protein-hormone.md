@@ -1,6 +1,6 @@
 ---
-title: "Neurturin Protein Hormone"
-description: "The Neurturin Protein Hormone and its role in endocrine signaling."
+title: "Neurturin Protein Hormone: Comprehensive Peptide Reference"
+description: "Neurturin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

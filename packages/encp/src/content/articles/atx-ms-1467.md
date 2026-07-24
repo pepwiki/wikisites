@@ -1,6 +1,6 @@
 ---
-title: "ATX-MS-1467"
-description: "Comprehensive reference for ATX-MS-1467, a peptide compound with applications in research and therapeutics."
+title: "ATX-MS-1467: Oligopeptide Research Reference"
+description: "ATX-MS-1467, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

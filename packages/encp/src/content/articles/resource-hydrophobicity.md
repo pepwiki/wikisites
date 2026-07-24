@@ -1,6 +1,6 @@
 ---
-title: "hydrophobicity Resource"
-description: "The hydrophobicity database or resource for peptide research, providing data on structure, function, and interactions."
+title: "hydrophobicity Resource: Oligopeptide Research Reference"
+description: "The hydrophobicity database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

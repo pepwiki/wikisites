@@ -1,6 +1,6 @@
 ---
 title: "Growth Hormone Family Peptides"
-description: "Comprehensive guide to growth hormone family peptides including GH, prolactin, and placental lactogen."
+description: "Comprehensive guide to growth hormone family peptides including GH, prolactin, and placental lactogen. This peptide or oligopeptide is studied for its biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

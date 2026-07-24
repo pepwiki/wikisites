@@ -1,5 +1,5 @@
 ---
-title: "Insulin A-Chain: Structure, Disulfide Architecture, and Clinical Significance"
+title: "Insulin A-Chain: Structure, Disulfide Architecture, and C..."
 description: "An overview of the insulin A-chain, a 21-residue peptide that forms one-half of the bioactive insulin heterodimer critical for glucose homeostasis."
 status: "published"
 author: "Encyclopeptide Editorial"

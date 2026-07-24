@@ -1,6 +1,6 @@
 ---
-title: "Melittin"
-description: "A 26-amino acid cytolytic peptide comprising 40-50% of honeybee (Apis mellifera) venom, with potent membrane-disrupting activity and anti-inflammatory properties."
+title: "Melittin: Peptide Toxin in Pharmacology Reference"
+description: "A 26-amino acid cytolytic peptide comprising 40-50% of honeybee (Apis mellifera) venom, with potent membrane-disrupting activity and anti-inflammatory proper..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "AMP Structural Classification"
-description: "Classification into alpha-helical, beta-sheet, extended, and loop conformations."
+title: "AMP Structural Classification: Comprehensive Peptide Refe..."
+description: "Classification into alpha-helical, beta-sheet, extended, and loop conformations. This antimicrobial peptide demonstrates activity against pathogens and is st..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

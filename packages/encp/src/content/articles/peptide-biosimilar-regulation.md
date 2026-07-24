@@ -1,6 +1,6 @@
 ---
-title: "Peptide Biosimilar Regulation"
-description: "Navigate regulatory pathways for peptide biosimilars including comparative analytical and clinical studies."
+title: "Peptide Biosimilar Regulation: Comprehensive Peptide Refe..."
+description: "Navigate regulatory pathways for peptide biosimilars including comparative analytical and clinical studies. This peptide or oligopeptide is studied for its b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

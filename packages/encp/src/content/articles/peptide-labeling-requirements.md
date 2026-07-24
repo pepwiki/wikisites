@@ -1,6 +1,6 @@
 ---
-title: "Peptide Labeling Requirements"
-description: "Learn regulatory requirements for peptide drug labeling including package inserts and prescribing information."
+title: "Peptide Labeling Requirements: Comprehensive Peptide Refe..."
+description: "Learn regulatory requirements for peptide drug labeling including package inserts and prescribing information. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

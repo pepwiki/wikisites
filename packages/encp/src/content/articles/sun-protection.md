@@ -1,6 +1,6 @@
 ---
-title: "Sun Protection"
-description: "Peptide-based UV protection approaches."
+title: "Sun Protection: Oligopeptide Research Reference"
+description: "Peptide-based UV protection approaches. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

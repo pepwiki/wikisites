@@ -1,6 +1,6 @@
 ---
-title: "Metformin"
-description: "Biguanide oral antidiabetic that reduces hepatic glucose production and improves insulin sensitivity."
+title: "Metformin: Oligopeptide Research Reference"
+description: "Biguanide oral antidiabetic that reduces hepatic glucose production and improves insulin sensitivity. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

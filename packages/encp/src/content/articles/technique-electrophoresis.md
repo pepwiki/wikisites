@@ -1,6 +1,6 @@
 ---
-title: "electrophoresis for Peptides"
-description: "Application of electrophoresis technique for peptide characterization, structure determination, or formulation."
+title: "electrophoresis for Peptides: Comprehensive Peptide Refer..."
+description: "Application of electrophoresis technique for peptide characterization, structure determination, or formulation. Covers molecular mechanisms, biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

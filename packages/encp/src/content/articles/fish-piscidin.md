@@ -1,6 +1,6 @@
 ---
-title: "Fish Piscidin"
-description: "AMP from fish gill and skin providing mucosal defense against aquatic pathogens."
+title: "Fish Piscidin: Antimicrobial Peptide Reference"
+description: "AMP from fish gill and skin providing mucosal defense against aquatic pathogens. This antimicrobial peptide demonstrates activity against pathogens and is st..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

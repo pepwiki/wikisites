@@ -1,6 +1,6 @@
 ---
 title: "Ziconotide - Pain (NCT00000125)"
-description: "Trial of ziconotide for chronic pain."
+description: "Trial of ziconotide for chronic pain. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential ap..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

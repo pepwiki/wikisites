@@ -1,6 +1,6 @@
 ---
-title: "Teduglutide"
-description: "GLP-2 analog resistant to DPP-4 degradation for short bowel syndrome, reducing parenteral nutrition dependence."
+title: "Teduglutide: Oligopeptide Research Reference"
+description: "GLP-2 analog resistant to DPP-4 degradation for short bowel syndrome, reducing parenteral nutrition dependence. Covers molecular mechanisms, biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

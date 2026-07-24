@@ -1,5 +1,5 @@
 ---
-title: "Regulatory Harmonization"
+title: "Regulatory Harmonization: Oligopeptide Research Reference"
 description: "Comprehensive reference for Regulatory Harmonization, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

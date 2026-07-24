@@ -1,6 +1,6 @@
 ---
-title: "Peptide-Loaded Nanoparticles"
-description: "An examination of nanoparticle-based delivery systems for therapeutic peptides, covering PLGA, liposomes, and chitosan carriers with sustained release and targeting strategies."
+title: "Peptide-Loaded Nanoparticles: Comprehensive Peptide Refer..."
+description: "An examination of nanoparticle-based delivery systems for therapeutic peptides, covering PLGA, liposomes, and chitosan carriers with sustained release and ta..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-05-20

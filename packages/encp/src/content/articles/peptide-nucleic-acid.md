@@ -1,6 +1,6 @@
 ---
-title: "Peptide nucleic acid"
-description: "Reference for peptide nucleic acid in peptide research."
+title: "Peptide nucleic acid: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide nucleic acid, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

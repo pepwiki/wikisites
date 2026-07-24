@@ -1,6 +1,6 @@
 ---
-title: "Resistin Hormone"
-description: "The Resistin Hormone and its role in endocrine signaling."
+title: "Resistin Hormone: Endogenous Peptide Hormone Reference"
+description: "Resistin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

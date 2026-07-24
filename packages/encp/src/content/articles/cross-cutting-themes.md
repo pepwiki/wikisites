@@ -1,6 +1,6 @@
 ---
-title: "Cross-Cutting Themes"
-description: "Common themes across peptide-related diseases."
+title: "Cross-Cutting Themes: Oligopeptide Research Reference"
+description: "Common themes across peptide-related diseases. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and pot..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "S Typhi Peptide"
-description: "A peptide associated with S Typhi for research or therapeutic applications."
+title: "S Typhi Peptide: Oligopeptide Research Reference"
+description: "A peptide associated with S Typhi for research or therapeutic applications. This peptide or oligopeptide is studied for its biological activity, structure-ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

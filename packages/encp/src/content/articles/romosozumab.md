@@ -1,6 +1,6 @@
 ---
-title: "Romosozumab"
-description: "Anti-sclerostin monoclonal antibody for osteoporosis stimulating formation and reducing resorption."
+title: "Romosozumab: Oligopeptide Research Reference"
+description: "Anti-sclerostin monoclonal antibody for osteoporosis stimulating formation and reducing resorption. This peptide or oligopeptide is studied for its biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

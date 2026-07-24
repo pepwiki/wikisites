@@ -1,6 +1,6 @@
 ---
-title: "Adhd Peptides"
-description: "Peptides associated with Adhd including biomarkers, therapeutic targets, and diagnostic markers."
+title: "Adhd Peptides: Oligopeptide Research Reference"
+description: "Peptides associated with Adhd including biomarkers, therapeutic targets, and diagnostic markers. This peptide or oligopeptide is studied for its biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

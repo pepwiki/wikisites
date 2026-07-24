@@ -1,6 +1,6 @@
 ---
-title: "Schistosoma Peptides"
-description: "Comprehensive reference for Schistosoma Peptides, a peptide compound with applications in research and therapeutics."
+title: "Schistosoma Peptides: Oligopeptide Research Reference"
+description: "Schistosoma Peptides, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

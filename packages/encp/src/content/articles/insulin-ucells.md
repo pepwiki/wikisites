@@ -1,6 +1,6 @@
 ---
 title: "Insulin U-100 Concentration Standard"
-description: "Standard 100 units/mL insulin concentration used as the reference formulation for all dose calculations."
+description: "Standard 100 units/mL insulin concentration used as the reference formulation for all dose calculations. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

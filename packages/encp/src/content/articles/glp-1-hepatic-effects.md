@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 Hepatic Effects"
-description: "Hepatic effects on glucose production, lipid metabolism, and nonalcoholic fatty liver disease."
+title: "GLP-1 Hepatic Effects: Oligopeptide Research Reference"
+description: "Hepatic effects on glucose production, lipid metabolism, and nonalcoholic fatty liver disease. This peptide or oligopeptide is studied for its biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

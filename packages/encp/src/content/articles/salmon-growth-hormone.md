@@ -1,6 +1,6 @@
 ---
-title: "Salmon Growth Hormone"
-description: "Comprehensive reference for Salmon Growth Hormone, a peptide compound with applications in research and therapeutics."
+title: "Salmon Growth Hormone: Oligopeptide Research Reference"
+description: "Salmon Growth Hormone, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

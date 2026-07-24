@@ -1,6 +1,6 @@
 ---
-title: "GPI Anchors on Peptides"
-description: "Guide to glycosylphosphatidylinositol anchors linking peptides to cell membranes."
+title: "GPI Anchors on Peptides: Post-Translational Modification ..."
+description: "Guide to glycosylphosphatidylinositol anchors linking peptides to cell membranes. This modification affects peptide stability, receptor binding, and biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

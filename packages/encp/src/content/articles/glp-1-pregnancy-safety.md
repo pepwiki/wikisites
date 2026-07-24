@@ -1,6 +1,6 @@
 ---
 title: "GLP-1 Agonist Pregnancy Safety"
-description: "Safety considerations for GLP-1 receptor agonist use during pregnancy and current recommendations."
+description: "Safety considerations for GLP-1 receptor agonist use during pregnancy and current recommendations. This peptide or oligopeptide is studied for its biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

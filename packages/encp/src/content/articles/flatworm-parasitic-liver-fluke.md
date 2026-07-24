@@ -1,6 +1,6 @@
 ---
 title: "Flatworm Parasitic / Liver Fluke"
-description: "Flatworm Parasitic / Liver Fluke is a bioactive compound with applications in peptide research and therapeutics."
+description: "Flatworm Parasitic / Liver Fluke is a bioactive compound with applications in peptide research and therapeutics. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

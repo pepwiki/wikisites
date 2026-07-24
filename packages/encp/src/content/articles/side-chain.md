@@ -1,6 +1,6 @@
 ---
-title: "Side Chain"
-description: "Transient"
+title: "Side Chain: Post-Translational Modification Reference"
+description: "Transient. This modification affects peptide stability, receptor binding, and biological activity, playing an important role in the design of optimized thera..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

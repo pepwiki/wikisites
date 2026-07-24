@@ -1,5 +1,5 @@
 ---
-title: "Prolactin-Releasing Peptide"
+title: "Prolactin-Releasing Peptide: Comprehensive Peptide Reference"
 description: "Prolactin-releasing peptide is a hypothalamic neuropeptide that stimulates prolactin secretion through GPR10 receptor activation in the anterior pituitary."
 status: "published"
 author: "Encyclopeptide Editorial"

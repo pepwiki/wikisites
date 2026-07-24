@@ -1,6 +1,6 @@
 ---
-title: "Liraglutide"
-description: "GLP-1 agonist. Type 2 diabetes and obesity."
+title: "Liraglutide: Oligopeptide Research Reference"
+description: "GLP-1 agonist. Type 2 diabetes and obesity. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potent..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

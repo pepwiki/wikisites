@@ -1,6 +1,6 @@
 ---
-title: "Datopotamab Deruxtecan"
-description: "Comprehensive reference for Datopotamab Deruxtecan, a peptide compound with applications in research and therapeutics."
+title: "Datopotamab Deruxtecan: Oligopeptide Research Reference"
+description: "Datopotamab Deruxtecan, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,5 +1,5 @@
 ---
-title: "The Incretin Effect"
+title: "The Incretin Effect: Peptide Family Reference"
 description: "Physiological phenomenon where oral glucose produces greater insulin secretion than intravenous glucose, mediated by GLP-1 and GIP."
 status: "published"
 author: "Encyclopeptide Editorial"

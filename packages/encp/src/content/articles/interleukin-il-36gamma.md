@@ -1,6 +1,6 @@
 ---
-title: "Interleukin IL-36gamma"
-description: "Reference for interleukin IL-36gamma in peptide research."
+title: "Interleukin IL-36gamma: Oligopeptide Research Reference"
+description: "Comprehensive reference for interleukin IL-36gamma, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,5 +1,5 @@
 ---
-title: "Acetyl Carnosine"
+title: "Acetyl Carnosine: Oligopeptide Research Reference"
 description: "acetyl-carnosine is a bioactive peptide with potential health benefits including antihypertensive, antioxidant, or neuroprotective properties."
 status: "published"
 author: "Encyclopeptide Editorial"

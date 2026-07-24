@@ -1,6 +1,6 @@
 ---
-title: "dipole-moment Resource"
-description: "The dipole-moment database or resource for peptide research, providing data on structure, function, and interactions."
+title: "dipole-moment Resource: Oligopeptide Research Reference"
+description: "The dipole-moment database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

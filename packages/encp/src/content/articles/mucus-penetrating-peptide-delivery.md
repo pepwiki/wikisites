@@ -1,6 +1,6 @@
 ---
 title: "Mucus-Penetrating Peptide Delivery"
-description: "Learn nanoparticle designs that penetrate mucosal barriers for enhanced peptide absorption at mucosal sites."
+description: "Learn nanoparticle designs that penetrate mucosal barriers for enhanced peptide absorption at mucosal sites. This peptide or oligopeptide is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

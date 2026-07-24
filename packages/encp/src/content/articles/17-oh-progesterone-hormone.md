@@ -1,6 +1,6 @@
 ---
-title: "17 OH Progesterone Hormone"
-description: "The 17 OH Progesterone Hormone and its role in endocrine signaling."
+title: "17 OH Progesterone Hormone: Comprehensive Peptide Reference"
+description: "17 OH Progesterone, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

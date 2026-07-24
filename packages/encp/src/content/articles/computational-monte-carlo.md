@@ -1,6 +1,6 @@
 ---
-title: "Monte Carlo for Peptides"
-description: "A computational method for studying peptides using Monte Carlo."
+title: "Monte Carlo for Peptides: Analytical Technique in Peptide..."
+description: "A computational method for studying peptides using Monte Carlo. This analytical technique provides valuable insights into peptide structure, purity, and char..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

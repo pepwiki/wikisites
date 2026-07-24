@@ -1,6 +1,6 @@
 ---
-title: "Delta Conotoxin GVIA"
-description: "delta-conotoxin-GVIA is a conotoxin from cone snail venom with specific ion channel blocking properties."
+title: "Delta Conotoxin GVIA: Peptide Toxin in Pharmacology Refer..."
+description: "delta-conotoxin-GVIA is a conotoxin from cone snail venom with specific ion channel blocking properties. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

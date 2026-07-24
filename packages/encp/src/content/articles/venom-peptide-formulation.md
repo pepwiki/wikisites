@@ -1,6 +1,6 @@
 ---
-title: "Venom Peptide Formulation"
-description: "Formulation strategies for venom peptide therapeutics including lyophilization."
+title: "Venom Peptide Formulation: Comprehensive Peptide Reference"
+description: "Formulation strategies for venom peptide therapeutics including lyophilization. This peptide toxin is derived from venom and studied for its pharmacological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

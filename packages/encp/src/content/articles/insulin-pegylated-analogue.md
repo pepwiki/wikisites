@@ -1,6 +1,6 @@
 ---
-title: "PEGylated Insulin Analogues"
-description: "Polyethylene glycol conjugation of insulin for half-life extension through increased hydrodynamic radius."
+title: "PEGylated Insulin Analogues: Comprehensive Peptide Reference"
+description: "Polyethylene glycol conjugation of insulin for half-life extension through increased hydrodynamic radius. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

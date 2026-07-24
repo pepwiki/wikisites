@@ -1,6 +1,6 @@
 ---
-title: "Semaphorin 3A Inhibitor"
-description: "Comprehensive reference for semaphorin 3A inhibitor in peptide research."
+title: "Semaphorin 3A Inhibitor: Oligopeptide Research Reference"
+description: "semaphorin 3A inhibitor in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and poten..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

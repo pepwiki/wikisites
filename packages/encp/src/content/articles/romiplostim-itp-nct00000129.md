@@ -1,6 +1,6 @@
 ---
 title: "Romiplostim - ITP (NCT00000129)"
-description: "Trial of romiplostim for immune thrombocytopenia."
+description: "Trial of romiplostim for immune thrombocytopenia. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

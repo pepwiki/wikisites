@@ -1,6 +1,6 @@
 ---
-title: "Secretin Protein Hormone"
-description: "The Secretin Protein Hormone and its role in endocrine signaling."
+title: "Secretin Protein Hormone: Endogenous Peptide Hormone Refe..."
+description: "Secretin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

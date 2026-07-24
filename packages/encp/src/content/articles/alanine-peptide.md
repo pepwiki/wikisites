@@ -1,6 +1,6 @@
 ---
-title: "Alanine Peptide"
-description: "Alanine (A) is one of the 20 standard amino acids. It plays essential roles in protein structure and function."
+title: "Alanine Peptide: Oligopeptide Research Reference"
+description: "Alanine (A) is one of the 20 standard amino acids. It plays essential roles in protein structure and function. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "PROSITE Resource"
-description: "The PROSITE database or resource for peptide research, providing data on structure, function, and interactions."
+title: "PROSITE Resource: Oligopeptide Research Reference"
+description: "The PROSITE database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

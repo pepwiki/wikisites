@@ -1,6 +1,6 @@
 ---
-title: "Endogenous opioid peptide"
-description: "Endogenous opioid peptide is a bioactive compound with applications in peptide research and therapeutics."
+title: "Endogenous opioid peptide: Comprehensive Peptide Reference"
+description: "Endogenous opioid peptide is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

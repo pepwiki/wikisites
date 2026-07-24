@@ -1,6 +1,6 @@
 ---
-title: "GLP 1 Hormone"
-description: "The GLP 1 Hormone and its role in endocrine signaling."
+title: "GLP 1 Hormone: Endogenous Peptide Hormone Reference"
+description: "GLP 1, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical sign..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "HPLC MS Analysis"
-description: "An analytical technique for characterizing peptides using HPLC MS."
+title: "HPLC MS Analysis: Analytical Technique in Peptide Research"
+description: "An analytical technique for characterizing peptides using HPLC MS. This analytical technique provides valuable insights into peptide structure, purity, and c..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

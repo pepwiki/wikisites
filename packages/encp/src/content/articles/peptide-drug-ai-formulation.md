@@ -1,6 +1,6 @@
 ---
 title: "AI in Peptide Formulation Development"
-description: "Application of artificial intelligence and machine learning to optimize peptide drug formulations."
+description: "Application of artificial intelligence and machine learning to optimize peptide drug formulations. This peptide or oligopeptide is studied for its biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

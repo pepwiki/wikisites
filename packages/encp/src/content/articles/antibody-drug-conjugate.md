@@ -1,6 +1,6 @@
 ---
-title: "Antibody-drug conjugate"
-description: "Reference for antibody-drug conjugate in peptide research."
+title: "Antibody-drug conjugate: Oligopeptide Research Reference"
+description: "Comprehensive reference for antibody-drug conjugate, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

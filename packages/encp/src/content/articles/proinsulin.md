@@ -1,5 +1,5 @@
 ---
-title: "Proinsulin"
+title: "Proinsulin: Oligopeptide Research Reference"
 description: "Single-chain precursor of insulin containing A chain, B chain, and connecting C-peptide, cleaved to release mature insulin."
 status: "published"
 author: "Encyclopeptide Editorial"

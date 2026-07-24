@@ -1,6 +1,6 @@
 ---
-title: "NMF for Peptides"
-description: "A computational method for studying peptides using NMF."
+title: "NMF for Peptides: Analytical Technique in Peptide Research"
+description: "A computational method for studying peptides using NMF. This analytical technique provides valuable insights into peptide structure, purity, and characteriza..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

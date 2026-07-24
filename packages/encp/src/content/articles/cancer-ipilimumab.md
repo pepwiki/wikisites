@@ -1,6 +1,6 @@
 ---
-title: "Ipilimumab"
-description: "Comprehensive reference for ipilimumab in peptide research."
+title: "Ipilimumab: Oligopeptide Research Reference"
+description: "ipilimumab in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

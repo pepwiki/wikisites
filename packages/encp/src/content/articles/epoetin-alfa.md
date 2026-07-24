@@ -1,6 +1,6 @@
 ---
-title: "Epoetin Alfa"
-description: "Recombinant human erythropoietin for anemia treatment in chronic kidney disease and chemotherapy."
+title: "Epoetin Alfa: Oligopeptide Research Reference"
+description: "Recombinant human erythropoietin for anemia treatment in chronic kidney disease and chemotherapy. This peptide or oligopeptide is studied for its biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

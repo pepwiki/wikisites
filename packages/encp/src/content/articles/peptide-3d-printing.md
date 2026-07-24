@@ -1,5 +1,5 @@
 ---
-title: "Peptide 3D Printing"
+title: "Peptide 3D Printing: Oligopeptide Research Reference"
 description: "Integration of bioactive peptides into 3D-printed scaffolds for tissue engineering and regenerative medicine applications."
 status: "published"
 author: "Encyclopeptide Editorial"

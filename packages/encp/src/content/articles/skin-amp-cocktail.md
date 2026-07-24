@@ -1,6 +1,6 @@
 ---
-title: "Skin AMP Cocktail"
-description: "Combination of dermcidin, defensins, and cathelicidin on skin surface."
+title: "Skin AMP Cocktail: Antimicrobial Peptide Reference"
+description: "Combination of dermcidin, defensins, and cathelicidin on skin surface. This antimicrobial peptide demonstrates activity against pathogens and is studied for ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

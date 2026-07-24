@@ -1,6 +1,6 @@
 ---
 title: "Peptide Drug Device Development"
-description: "Development of drug-device combination products including autoinjectors and pen injectors."
+description: "Development of drug-device combination products including autoinjectors and pen injectors. This peptide or oligopeptide is studied for its biological activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

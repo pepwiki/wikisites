@@ -1,6 +1,6 @@
 ---
-title: "Glucagon 1-18"
-description: "Reference for glucagon 1-18 variant in peptide research."
+title: "Glucagon 1-18: Peptide Fragment Reference"
+description: "Comprehensive reference for glucagon 1-18 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

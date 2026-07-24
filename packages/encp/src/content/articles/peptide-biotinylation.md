@@ -1,6 +1,6 @@
 ---
-title: "Peptide biotinylation"
-description: "Reference for peptide biotinylation in peptide research."
+title: "Peptide biotinylation: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide biotinylation, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

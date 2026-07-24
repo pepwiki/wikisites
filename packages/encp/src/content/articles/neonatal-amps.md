@@ -1,6 +1,6 @@
 ---
-title: "Neonatal AMPs"
-description: "Immature defensin expression in neonates contributing to infection susceptibility."
+title: "Neonatal AMPs: Antimicrobial Peptide Reference"
+description: "Immature defensin expression in neonates contributing to infection susceptibility. This antimicrobial peptide demonstrates activity against pathogens and is ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

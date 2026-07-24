@@ -1,6 +1,6 @@
 ---
-title: "Premixed Insulin 50/50"
-description: "Equal-ratio premixed insulin containing 50% intermediate-acting protamine lispro and 50% rapid-acting insulin lispro."
+title: "Premixed Insulin 50/50: Peptide Family Reference"
+description: "Equal-ratio premixed insulin containing 50% intermediate-acting protamine lispro and 50% rapid-acting insulin lispro. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

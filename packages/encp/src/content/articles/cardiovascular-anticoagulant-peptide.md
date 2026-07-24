@@ -1,6 +1,6 @@
 ---
 title: "Cardiovascular / Anticoagulant Peptide"
-description: "Cardiovascular / Anticoagulant Peptide is a bioactive compound with applications in peptide research and therapeutics."
+description: "Cardiovascular / Anticoagulant Peptide is a bioactive compound with applications in peptide research and therapeutics. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

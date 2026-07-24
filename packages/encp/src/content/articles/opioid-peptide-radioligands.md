@@ -1,6 +1,6 @@
 ---
-title: "Opioid Peptide Radioligands"
-description: "Radiolabeled opioid peptides for receptor imaging and binding studies."
+title: "Opioid Peptide Radioligands: Comprehensive Peptide Reference"
+description: "Radiolabeled opioid peptides for receptor imaging and binding studies. This neuropeptide is involved in neurological signaling and is studied for its roles i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

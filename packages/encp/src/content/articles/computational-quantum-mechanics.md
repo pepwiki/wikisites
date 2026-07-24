@@ -1,6 +1,6 @@
 ---
 title: "Quantum Mechanics for Peptides"
-description: "A computational method for studying peptides using Quantum Mechanics."
+description: "A computational method for studying peptides using Quantum Mechanics. This analytical technique provides valuable insights into peptide structure, purity, an..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

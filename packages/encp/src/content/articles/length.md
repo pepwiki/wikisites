@@ -1,6 +1,6 @@
 ---
-title: "Length"
-description: "Primary Function"
+title: "Length: Neuropeptide in Neuroscience Reference"
+description: "Primary Function. This neuropeptide is involved in neurological signaling and is studied for its roles in brain function, behavior regulation, and potential ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

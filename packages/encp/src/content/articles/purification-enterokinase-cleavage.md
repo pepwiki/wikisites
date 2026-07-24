@@ -1,6 +1,6 @@
 ---
 title: "Enterokinase Cleavage Purification"
-description: "A purification technique for separating and isolating peptides using Enterokinase Cleavage."
+description: "A purification technique for separating and isolating peptides using Enterokinase Cleavage. This analytical technique provides valuable insights into peptide..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

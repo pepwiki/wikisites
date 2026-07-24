@@ -1,6 +1,6 @@
 ---
-title: "Peptide PEGylation Strategies"
-description: "PEG conjugation strategies for extending peptide half-life in vivo."
+title: "Peptide PEGylation Strategies: Comprehensive Peptide Refe..."
+description: "PEG conjugation strategies for extending peptide half-life in vivo. This peptide or oligopeptide is studied for its biological activity, structure-activity r..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
 title: "IUPHAR/BPS Guide to Pharmacology"
-description: "Comprehensive guide to pharmacological targets and their ligands."
+description: "Comprehensive guide to pharmacological targets and their ligands. This peptide or oligopeptide is studied for its biological activity, structure-activity rel..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

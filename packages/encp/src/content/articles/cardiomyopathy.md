@@ -1,6 +1,6 @@
 ---
-title: "Cardiomyopathy"
-description: "Disease of the heart muscle leading to impaired cardiac function. Types: dilated (DCM), hypertrophic (HCM), restrictive (RCM), arrhythmogenic (ARVC). Treatments: heart failure medications, device therapy (ICD, CRT), transplantation."
+title: "Cardiomyopathy: Oligopeptide Research Reference"
+description: "Disease of the heart muscle leading to impaired cardiac function. Types: dilated (DCM), hypertrophic (HCM), restrictive (RCM), arrhythmogenic (ARVC). Treatme..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Disease of the heart muscle leading to impaired cardiac function. Types: dilated (DCM), hypertrophic (HCM), restrictive (RCM), arrhythmogenic (ARVC). Treatments: heart failure medications, device therapy (ICD, CRT), transplantation.
+Disease of the heart muscle leading to impaired cardiac function. Types: dilated (DCM), hypertrophic (HCM), restrictive (RCM), arrhythmogenic (ARVC). Treatme...
 
 ## Clinical Significance
 

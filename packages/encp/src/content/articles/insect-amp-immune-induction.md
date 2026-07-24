@@ -1,6 +1,6 @@
 ---
-title: "Insect AMP Immune Induction"
-description: "Pathogen recognition and signaling for AMP gene expression in insects."
+title: "Insect AMP Immune Induction: Comprehensive Peptide Reference"
+description: "Pathogen recognition and signaling for AMP gene expression in insects. This antimicrobial peptide demonstrates activity against pathogens and is studied for ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

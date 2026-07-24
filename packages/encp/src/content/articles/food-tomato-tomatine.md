@@ -1,6 +1,6 @@
 ---
-title: "Tomato Tomatine"
-description: "Comprehensive reference for tomato tomatine in peptide research."
+title: "Tomato Tomatine: Oligopeptide Research Reference"
+description: "tomato tomatine in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential app..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

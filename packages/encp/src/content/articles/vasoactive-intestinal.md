@@ -1,5 +1,5 @@
 ---
-title: "Vasoactive Intestinal Peptide"
+title: "Vasoactive Intestinal Peptide: Comprehensive Peptide Refe..."
 description: "A 28-amino acid neuropeptide with potent vasodilatory, secretory, and immunomodulatory effects, acting through VPAC1 and VPAC2 receptors throughout the body."
 status: "published"
 author: "Encyclopeptide Editorial"

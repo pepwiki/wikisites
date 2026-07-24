@@ -1,6 +1,6 @@
 ---
-title: "Peptide Fc Fusion Technology"
-description: "Fc fusion protein technology for extending peptide drug half-life."
+title: "Peptide Fc Fusion Technology: Comprehensive Peptide Refer..."
+description: "Fc fusion protein technology for extending peptide drug half-life. This peptide or oligopeptide is studied for its biological activity, structure-activity re..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

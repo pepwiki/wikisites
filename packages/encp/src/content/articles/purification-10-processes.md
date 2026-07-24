@@ -1,5 +1,5 @@
 ---
-title: "Purification (10 processes)"
+title: "Purification (10 processes): Comprehensive Peptide Reference"
 description: "Comprehensive reference for Purification (10 processes), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

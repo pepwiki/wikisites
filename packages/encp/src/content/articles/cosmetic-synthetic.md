@@ -1,6 +1,6 @@
 ---
-title: "Cosmetic Synthetic"
-description: "Peptides for topical applications"
+title: "Cosmetic Synthetic: Oligopeptide Research Reference"
+description: "Peptides for topical applications. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appli..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

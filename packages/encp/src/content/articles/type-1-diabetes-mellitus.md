@@ -1,5 +1,5 @@
 ---
-title: "Type 1 Diabetes Mellitus"
+title: "Type 1 Diabetes Mellitus: Oligopeptide Research Reference"
 description: "Comprehensive reference for Type 1 Diabetes Mellitus, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

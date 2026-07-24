@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 Agonist Gastric Safety"
-description: "Safety profile of GLP-1 receptor agonists regarding gastric emptying, gastroparesis, and gastrointestinal tolerability."
+title: "GLP-1 Agonist Gastric Safety: Comprehensive Peptide Refer..."
+description: "Safety profile of GLP-1 receptor agonists regarding gastric emptying, gastroparesis, and gastrointestinal tolerability. Covers molecular mechanisms, biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

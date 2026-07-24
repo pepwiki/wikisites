@@ -1,6 +1,6 @@
 ---
-title: "Arginine Metabolism"
-description: "Metabolic pathways involving Arginine including biosynthesis, catabolism, and transamination."
+title: "Arginine Metabolism: Oligopeptide Research Reference"
+description: "Metabolic pathways involving Arginine including biosynthesis, catabolism, and transamination. This peptide or oligopeptide is studied for its biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

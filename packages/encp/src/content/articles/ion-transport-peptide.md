@@ -1,6 +1,6 @@
 ---
-title: "Ion Transport Peptide"
-description: "Comprehensive reference for Ion Transport Peptide, a peptide compound with applications in research and therapeutics."
+title: "Ion Transport Peptide: Oligopeptide Research Reference"
+description: "Ion Transport Peptide, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

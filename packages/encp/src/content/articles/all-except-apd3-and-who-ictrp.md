@@ -1,6 +1,6 @@
 ---
-title: "All except APD3 and WHO ICTRP"
-description: "Data Type"
+title: "All except APD3 and WHO ICTRP: Comprehensive Peptide Refe..."
+description: "Data Type. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in biomedical re..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

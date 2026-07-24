@@ -1,6 +1,6 @@
 ---
-title: "Keratin intermediate filament"
-description: "Reference for keratin intermediate filament in peptide research."
+title: "Keratin intermediate filament: Comprehensive Peptide Refe..."
+description: "Comprehensive reference for keratin intermediate filament, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

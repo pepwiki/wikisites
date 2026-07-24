@@ -1,6 +1,6 @@
 ---
-title: "UV Cleavable Purification"
-description: "A purification technique for separating and isolating peptides using UV Cleavable."
+title: "UV Cleavable Purification: Comprehensive Peptide Reference"
+description: "A purification technique for separating and isolating peptides using UV Cleavable. This analytical technique provides valuable insights into peptide structur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

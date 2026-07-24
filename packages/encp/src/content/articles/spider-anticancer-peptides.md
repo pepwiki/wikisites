@@ -1,6 +1,6 @@
 ---
-title: "Spider Anticancer Peptides"
-description: "Spider venom peptides with selective toxicity against cancer cells."
+title: "Spider Anticancer Peptides: Comprehensive Peptide Reference"
+description: "Spider venom peptides with selective toxicity against cancer cells. This peptide toxin is derived from venom and studied for its pharmacological activity, me..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
 title: "Earthworm Antimicrobial Peptide"
-description: "Earthworm Antimicrobial Peptide is a bioactive compound with applications in peptide research and therapeutics."
+description: "Earthworm Antimicrobial Peptide is a bioactive compound with applications in peptide research and therapeutics. Covers molecular mechanisms, biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

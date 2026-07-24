@@ -1,6 +1,6 @@
 ---
-title: "Peptide Career Paths"
-description: "Career opportunities and professional paths in the peptide therapeutics industry."
+title: "Peptide Career Paths: Oligopeptide Research Reference"
+description: "Career opportunities and professional paths in the peptide therapeutics industry. This peptide or oligopeptide is studied for its biological activity, struct..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

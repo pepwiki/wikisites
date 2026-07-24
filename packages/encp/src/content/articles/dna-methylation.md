@@ -1,6 +1,6 @@
 ---
-title: "DNA methylation"
-description: "Reference for dna methylation in peptide research."
+title: "DNA methylation: Oligopeptide Research Reference"
+description: "Comprehensive reference for dna methylation, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

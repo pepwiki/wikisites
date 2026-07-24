@@ -1,6 +1,6 @@
 ---
-title: "Margatoxin"
-description: "Comprehensive reference for Margatoxin, a peptide compound with applications in research and therapeutics."
+title: "Margatoxin: Peptide Toxin in Pharmacology Reference"
+description: "Margatoxin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

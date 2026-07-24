@@ -1,6 +1,6 @@
 ---
-title: "Peptide glass transition"
-description: "Reference for peptide glass transition in peptide research."
+title: "Peptide glass transition: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide glass transition, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

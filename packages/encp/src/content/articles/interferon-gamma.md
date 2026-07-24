@@ -1,5 +1,5 @@
 ---
-title: "Interferon Gamma"
+title: "Interferon Gamma: Oligopeptide Research Reference"
 description: "Type II interferon that activates macrophages and enhances immune function for chronic granulomatous disease and osteopetrosis."
 status: "published"
 author: "Encyclopeptide Editorial"

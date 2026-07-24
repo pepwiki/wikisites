@@ -1,6 +1,6 @@
 ---
 title: "Venom Peptide / G-protein Activator"
-description: "Venom Peptide / G-protein Activator is a bioactive compound with applications in peptide research and therapeutics."
+description: "Venom Peptide / G-protein Activator is a bioactive compound with applications in peptide research and therapeutics. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

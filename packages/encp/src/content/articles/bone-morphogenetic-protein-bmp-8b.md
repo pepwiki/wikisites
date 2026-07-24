@@ -1,6 +1,6 @@
 ---
 title: "Bone Morphogenetic Protein BMP-8b"
-description: "Reference for bone morphogenetic protein BMP-8b in peptide research."
+description: "Comprehensive reference for bone morphogenetic protein BMP-8b, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

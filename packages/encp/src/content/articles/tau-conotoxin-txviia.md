@@ -1,6 +1,6 @@
 ---
-title: "Tau Conotoxin TxVIIA"
-description: "tau-conotoxin-TxVIIA is a conotoxin from cone snail venom with specific ion channel blocking properties."
+title: "Tau Conotoxin TxVIIA: Peptide Toxin in Pharmacology Refer..."
+description: "tau-conotoxin-TxVIIA is a conotoxin from cone snail venom with specific ion channel blocking properties. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Bee Venom Apitherapy"
-description: "Clinical applications of bee venom in traditional and integrative medicine."
+title: "Bee Venom Apitherapy: Peptide Toxin in Pharmacology Refer..."
+description: "Clinical applications of bee venom in traditional and integrative medicine. This peptide toxin is derived from venom and studied for its pharmacological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

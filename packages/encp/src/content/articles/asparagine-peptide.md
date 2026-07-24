@@ -1,6 +1,6 @@
 ---
-title: "Asparagine Peptide"
-description: "Asparagine (N) is one of the 20 standard amino acids. It plays essential roles in protein structure and function."
+title: "Asparagine Peptide: Oligopeptide Research Reference"
+description: "Asparagine (N) is one of the 20 standard amino acids. It plays essential roles in protein structure and function. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
 title: "Peptide-Quantum Dot Conjugates"
-description: "Bioconjugation of peptides to semiconductor quantum dots for bioimaging, sensing, and targeted delivery applications."
+description: "Bioconjugation of peptides to semiconductor quantum dots for bioimaging, sensing, and targeted delivery applications. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

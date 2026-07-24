@@ -1,6 +1,6 @@
 ---
 title: "Glutathione Peroxidase Mimetic"
-description: "Comprehensive reference for glutathione peroxidase mimetic in peptide research."
+description: "glutathione peroxidase mimetic in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, an..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,5 +1,5 @@
 ---
-title: "Cancer and Peptides"
+title: "Cancer and Peptides: Oligopeptide Research Reference"
 description: "Learn about peptide-based cancer therapies including targeted drug conjugates, immunomodulatory peptides, and tumor-homing peptides."
 status: "published"
 author: "Encyclopeptide Editorial"

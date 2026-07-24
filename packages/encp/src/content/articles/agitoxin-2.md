@@ -1,5 +1,5 @@
 ---
-title: "Agitoxin-2"
+title: "Agitoxin-2: Oligopeptide Research Reference"
 description: "38-residue peptide from Leiurus quinquestriatus scorpion venom. Blocks voltage-gated potassium channels (Kv1.1, Kv1.2, Kv1.3)."
 status: "published"
 author: "Encyclopeptide Editorial"

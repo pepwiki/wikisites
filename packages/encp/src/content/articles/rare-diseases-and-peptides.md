@@ -1,6 +1,6 @@
 ---
-title: "Rare Diseases and Peptides"
-description: "Explore orphan peptide drugs for rare diseases including enzyme replacement therapies and receptor-targeting peptides."
+title: "Rare Diseases and Peptides: Comprehensive Peptide Reference"
+description: "Explore orphan peptide drugs for rare diseases including enzyme replacement therapies and receptor-targeting peptides. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,5 +1,5 @@
 ---
-title: "Zinc-Binding Group Peptides"
+title: "Zinc-Binding Group Peptides: Comprehensive Peptide Reference"
 description: "Peptides containing zinc-binding pharmacophores for metalloprotease inhibition including hydroxamates, carboxylates, and thiols."
 status: "published"
 author: "Encyclopeptide Editorial"

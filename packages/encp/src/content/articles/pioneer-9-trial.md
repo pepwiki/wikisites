@@ -1,6 +1,6 @@
 ---
-title: "PIONEER 9 Trial"
-description: "Clinical trial evaluating iGlarLixi fixed-ratio glargine-lixisenatide versus glargine alone."
+title: "PIONEER 9 Trial: Oligopeptide Research Reference"
+description: "Clinical trial evaluating iGlarLixi fixed-ratio glargine-lixisenatide versus glargine alone. This peptide or oligopeptide is studied for its biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

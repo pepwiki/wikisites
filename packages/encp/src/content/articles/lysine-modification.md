@@ -1,6 +1,6 @@
 ---
-title: "Lysine Modification"
-description: "Post-translational modifications of Lysine including phosphorylation, methylation, acetylation, and ubiquitination."
+title: "Lysine Modification: Post-Translational Modification Refe..."
+description: "Post-translational modifications of Lysine including phosphorylation, methylation, acetylation, and ubiquitination. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

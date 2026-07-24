@@ -1,6 +1,6 @@
 ---
-title: "Anti-Drug Antibodies (ADA)"
-description: "Antibodies generated against therapeutic peptides. Can reduce efficacy and cause allergic reactions."
+title: "Anti-Drug Antibodies (ADA): Comprehensive Peptide Reference"
+description: "Antibodies generated against therapeutic peptides. Can reduce efficacy and cause allergic reactions. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

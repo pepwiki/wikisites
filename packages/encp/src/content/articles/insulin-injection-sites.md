@@ -1,6 +1,6 @@
 ---
-title: "Insulin Injection Sites"
-description: "Anatomical considerations for subcutaneous injection including absorption rates from abdomen, thigh, arm, and buttock."
+title: "Insulin Injection Sites: Oligopeptide Research Reference"
+description: "Anatomical considerations for subcutaneous injection including absorption rates from abdomen, thigh, arm, and buttock. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

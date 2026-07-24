@@ -1,6 +1,6 @@
 ---
-title: "Actin filament"
-description: "Reference for actin filament in peptide research."
+title: "Actin filament: Oligopeptide Research Reference"
+description: "Comprehensive reference for actin filament, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

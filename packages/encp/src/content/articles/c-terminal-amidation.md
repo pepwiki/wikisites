@@ -1,6 +1,6 @@
 ---
-title: "C-Terminal Amidation"
-description: "Addition of amide group at C-terminus. Protects against exopeptidase degradation."
+title: "C-Terminal Amidation: Oligopeptide Research Reference"
+description: "Addition of amide group at C-terminus. Protects against exopeptidase degradation. This peptide or oligopeptide is studied for its biological activity, struct..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

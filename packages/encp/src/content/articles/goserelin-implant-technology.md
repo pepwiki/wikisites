@@ -1,6 +1,6 @@
 ---
-title: "Goserelin Implant Technology"
-description: "Biodegradable Zoladex implant technology providing sustained GnRH agonist release for hormone-dependent conditions."
+title: "Goserelin Implant Technology: Comprehensive Peptide Refer..."
+description: "Biodegradable Zoladex implant technology providing sustained GnRH agonist release for hormone-dependent conditions. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

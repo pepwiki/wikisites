@@ -1,6 +1,6 @@
 ---
-title: "Soy Peptide"
-description: "A bioactive peptide derived from soy with potential health benefits."
+title: "Soy Peptide: Oligopeptide Research Reference"
+description: "A bioactive peptide derived from soy with potential health benefits. This peptide or oligopeptide is studied for its biological activity, structure-activity ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

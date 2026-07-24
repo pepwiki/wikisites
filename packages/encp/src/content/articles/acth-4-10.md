@@ -1,6 +1,6 @@
 ---
-title: "ACTH 4-10"
-description: "Reference for ACTH 4-10 variant in peptide research."
+title: "ACTH 4-10: Adrenocorticotropic Hormone Fragment in Peptid..."
+description: "Comprehensive reference for ACTH 4-10 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "IFN Beta Hormone"
-description: "The IFN Beta Hormone and its role in endocrine signaling."
+title: "IFN Beta Hormone: Endogenous Peptide Hormone Reference"
+description: "IFN Beta, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

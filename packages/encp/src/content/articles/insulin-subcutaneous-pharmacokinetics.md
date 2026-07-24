@@ -1,6 +1,6 @@
 ---
 title: "Insulin Subcutaneous Pharmacokinetics"
-description: "Factors affecting subcutaneous absorption including blood flow, capillary permeability, and concentration."
+description: "Factors affecting subcutaneous absorption including blood flow, capillary permeability, and concentration. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

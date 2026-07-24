@@ -1,6 +1,6 @@
 ---
-title: "Bruker AVANCE III HD"
-description: "High-field NMR spectrometer (600-950 MHz) for protein structure determination."
+title: "Bruker AVANCE III HD: Oligopeptide Research Reference"
+description: "High-field NMR spectrometer (600-950 MHz) for protein structure determination. This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,5 +1,5 @@
 ---
-title: "CaMK Pathway Peptide 4"
+title: "CaMK Pathway Peptide 4: Oligopeptide Research Reference"
 description: "A peptide involved in the CaMK signal transduction pathway, playing roles in cell proliferation, differentiation, or survival."
 status: "published"
 author: "Encyclopeptide Editorial"

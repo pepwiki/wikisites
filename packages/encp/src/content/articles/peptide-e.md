@@ -1,5 +1,5 @@
 ---
-title: "Peptide E"
+title: "Peptide E: Neuropeptide in Neuroscience Reference"
 description: "peptide-E is an opioid neuropeptide that modulates pain, reward, and stress responses through opioid receptor activation."
 status: "published"
 author: "Encyclopeptide Editorial"

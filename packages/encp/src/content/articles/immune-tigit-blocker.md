@@ -1,6 +1,6 @@
 ---
-title: "TIGIT Blocker"
-description: "Comprehensive reference for TIGIT blocker in peptide research."
+title: "TIGIT Blocker: Oligopeptide Research Reference"
+description: "TIGIT blocker in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appli..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

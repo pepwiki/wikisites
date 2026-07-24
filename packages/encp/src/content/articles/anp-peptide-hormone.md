@@ -1,6 +1,6 @@
 ---
-title: "ANP Peptide Hormone"
-description: "The ANP Peptide Hormone and its role in endocrine signaling."
+title: "ANP Peptide Hormone: Endogenous Peptide Hormone Reference"
+description: "ANP, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical signif..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

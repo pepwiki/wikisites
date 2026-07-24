@@ -1,6 +1,6 @@
 ---
-title: "Dulaglutide"
-description: "Once-weekly GLP-1 agonist fused to modified Fc domain for extended half-life and DPP-4 resistance."
+title: "Dulaglutide: Oligopeptide Research Reference"
+description: "Once-weekly GLP-1 agonist fused to modified Fc domain for extended half-life and DPP-4 resistance. This peptide or oligopeptide is studied for its biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

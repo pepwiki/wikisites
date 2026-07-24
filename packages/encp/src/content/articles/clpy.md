@@ -1,6 +1,6 @@
 ---
-title: "CLPY"
-description: "CLPY is a cathelicidin antimicrobial peptide with broad-spectrum activity against bacteria, fungi, and viruses."
+title: "CLPY: Antimicrobial Peptide Reference"
+description: "CLPY is a cathelicidin antimicrobial peptide with broad-spectrum activity against bacteria, fungi, and viruses. Covers molecular mechanisms, biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

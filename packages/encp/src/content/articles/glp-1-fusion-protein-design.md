@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 Fusion Protein Design"
-description: "Engineering GLP-1 Fc fusion proteins and albumin fusions for extended half-life."
+title: "GLP-1 Fusion Protein Design: Comprehensive Peptide Reference"
+description: "Engineering GLP-1 Fc fusion proteins and albumin fusions for extended half-life. This peptide or oligopeptide is studied for its biological activity, structu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

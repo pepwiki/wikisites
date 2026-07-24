@@ -1,6 +1,6 @@
 ---
-title: "Biosensors"
-description: "Peptide-based biosensors for detecting analytes."
+title: "Biosensors: Oligopeptide Research Reference"
+description: "Peptide-based biosensors for detecting analytes. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

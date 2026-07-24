@@ -1,6 +1,6 @@
 ---
-title: "Luspatercept"
-description: "TGF-β superfamily ligand trap. Stimulates erythropoiesis. FDA-approved for MDS."
+title: "Luspatercept: Oligopeptide Research Reference"
+description: "TGF-β superfamily ligand trap. Stimulates erythropoiesis. FDA-approved for MDS. This peptide or oligopeptide is studied for its biological activity, structur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

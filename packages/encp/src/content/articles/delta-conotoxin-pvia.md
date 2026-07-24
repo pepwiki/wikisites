@@ -1,6 +1,6 @@
 ---
-title: "Delta-Conotoxin PVIA"
-description: "Sodium channel modulator from Conus pennaceus affecting action potential kinetics."
+title: "Delta-Conotoxin PVIA: Peptide Toxin in Pharmacology Refer..."
+description: "Sodium channel modulator from Conus pennaceus affecting action potential kinetics. This peptide toxin is derived from venom and studied for its pharmacologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

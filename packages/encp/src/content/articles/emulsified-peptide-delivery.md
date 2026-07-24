@@ -1,6 +1,6 @@
 ---
-title: "Emulsified Peptide Delivery"
-description: "Oil-in-water emulsions for oral peptide delivery with lipid-based absorption enhancement."
+title: "Emulsified Peptide Delivery: Comprehensive Peptide Reference"
+description: "Oil-in-water emulsions for oral peptide delivery with lipid-based absorption enhancement. This peptide or oligopeptide is studied for its biological activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

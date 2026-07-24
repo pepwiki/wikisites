@@ -1,5 +1,5 @@
 ---
-title: "Gramicidin A"
+title: "Gramicidin A: Antimicrobial Peptide Reference"
 description: "Linear pentadecapeptide that forms monovalent cation channels in bacterial membranes, component of topical antimicrobial preparations."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,6 +1,6 @@
 ---
-title: "Peptide Drug Digital Twins"
-description: "Digital twin technology for peptide drug development and manufacturing processes."
+title: "Peptide Drug Digital Twins: Comprehensive Peptide Reference"
+description: "Digital twin technology for peptide drug development and manufacturing processes. This peptide or oligopeptide is studied for its biological activity, struct..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

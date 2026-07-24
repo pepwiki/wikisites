@@ -1,6 +1,6 @@
 ---
-title: "VIP/Secretin family"
-description: "VIP/Secretin family is a bioactive compound with applications in peptide research and therapeutics."
+title: "VIP/Secretin family: Neuropeptide in Neuroscience Reference"
+description: "VIP/Secretin family is a bioactive compound with applications in peptide research and therapeutics. This neuropeptide is involved in neurological signaling a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

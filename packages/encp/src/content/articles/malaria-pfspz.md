@@ -1,6 +1,6 @@
 ---
-title: "Malaria PfSPZ"
-description: "Malaria-PfSPZ is a peptide antigen used in vaccine development for infectious disease prevention."
+title: "Malaria PfSPZ: Oligopeptide Research Reference"
+description: "Malaria-PfSPZ is a peptide antigen used in vaccine development for infectious disease prevention. This peptide or oligopeptide is studied for its biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Fab Conjugation Synthesis"
-description: "A peptide synthesis method using Fab Conjugation for producing peptides with specific properties."
+title: "Fab Conjugation Synthesis: Comprehensive Peptide Reference"
+description: "A peptide synthesis method using Fab Conjugation for producing peptides with specific properties. This analytical technique provides valuable insights into p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

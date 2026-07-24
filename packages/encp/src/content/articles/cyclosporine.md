@@ -1,6 +1,6 @@
 ---
-title: "Cyclosporine"
-description: "Cyclic undecapeptide calcineurin inhibitor for immunosuppression in transplantation."
+title: "Cyclosporine: Oligopeptide Research Reference"
+description: "Cyclic undecapeptide calcineurin inhibitor for immunosuppression in transplantation. This peptide or oligopeptide is studied for its biological activity, str..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

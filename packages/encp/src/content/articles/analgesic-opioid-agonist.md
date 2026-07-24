@@ -1,6 +1,6 @@
 ---
-title: "Analgesic / Opioid Agonist"
-description: "Analgesic / Opioid Agonist is a bioactive compound with applications in peptide research and therapeutics."
+title: "Analgesic / Opioid Agonist: Comprehensive Peptide Reference"
+description: "Analgesic / Opioid Agonist is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Motilin Protein Hormone"
-description: "The Motilin Protein Hormone and its role in endocrine signaling."
+title: "Motilin Protein Hormone: Endogenous Peptide Hormone Refer..."
+description: "Motilin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical si..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

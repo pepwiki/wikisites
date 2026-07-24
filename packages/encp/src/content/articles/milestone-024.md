@@ -1,6 +1,6 @@
 ---
-title: "Milestone 024"
-description: "1970: Schally and Guillemin isolate TRH, LH-RH, and somatostatin. Nobel Prize 1977."
+title: "Milestone 024: Oligopeptide Research Reference"
+description: "1970: Schally and Guillemin isolate TRH, LH-RH, and somatostatin. Nobel Prize 1977. This peptide or oligopeptide is studied for its biological activity, stru..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Exosome Delivery"
-description: "Using exosomes as natural nanoparticles for peptide drug delivery."
+title: "Exosome Delivery: Oligopeptide Research Reference"
+description: "Using exosomes as natural nanoparticles for peptide drug delivery. This peptide or oligopeptide is studied for its biological activity, structure-activity re..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

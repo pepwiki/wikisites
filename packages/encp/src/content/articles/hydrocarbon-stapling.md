@@ -1,6 +1,6 @@
 ---
-title: "Hydrocarbon Stapling"
-description: "Introduction of hydrocarbon cross-links to stabilize α-helical conformation."
+title: "Hydrocarbon Stapling: Oligopeptide Research Reference"
+description: "Introduction of hydrocarbon cross-links to stabilize α-helical conformation. This peptide or oligopeptide is studied for its biological activity, structure-a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Evaporation Purification"
-description: "A purification technique for separating and isolating peptides using Evaporation."
+title: "Evaporation Purification: Analytical Technique in Peptide..."
+description: "A purification technique for separating and isolating peptides using Evaporation. This analytical technique provides valuable insights into peptide structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

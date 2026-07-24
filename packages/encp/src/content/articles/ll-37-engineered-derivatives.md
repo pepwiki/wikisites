@@ -1,6 +1,6 @@
 ---
-title: "LL-37 Engineered Derivatives"
-description: "Engineered LL-37 derivatives with enhanced activity and reduced cytotoxicity."
+title: "LL-37 Engineered Derivatives: Comprehensive Peptide Refer..."
+description: "Engineered LL-37 derivatives with enhanced activity and reduced cytotoxicity. This antimicrobial peptide demonstrates activity against pathogens and is studi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

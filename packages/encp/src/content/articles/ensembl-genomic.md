@@ -1,6 +1,6 @@
 ---
-title: "Ensembl (Genomic)"
-description: "Genomic database for genome annotation and comparative genomics."
+title: "Ensembl (Genomic): Oligopeptide Research Reference"
+description: "Genomic database for genome annotation and comparative genomics. This peptide or oligopeptide is studied for its biological activity, structure-activity rela..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

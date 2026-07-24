@@ -1,6 +1,6 @@
 ---
-title: "Adiponectin"
-description: "Adiponectin is a 244-amino acid adipokine that enhances insulin sensitivity, exerts anti-inflammatory effects, and protects against cardiovascular disease through AdipoR1 and AdipoR2 signaling."
+title: "Adiponectin: Oligopeptide Research Reference"
+description: "Adiponectin is a 244-amino acid adipokine that enhances insulin sensitivity, exerts anti-inflammatory effects, and protects against cardiovascular disease th..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-07-25

@@ -1,6 +1,6 @@
 ---
-title: "Magainin 2"
-description: "Amphipathic alpha-helical AMP from African clawed frog with broad-spectrum bactericidal activity."
+title: "Magainin 2: Antimicrobial Peptide Reference"
+description: "Amphipathic alpha-helical AMP from African clawed frog with broad-spectrum bactericidal activity. This antimicrobial peptide demonstrates activity against pa..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

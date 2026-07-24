@@ -1,6 +1,6 @@
 ---
-title: "Bt Toxin Vip3A"
-description: "Comprehensive reference for Bt toxin Vip3A in peptide research."
+title: "Bt Toxin Vip3A: Oligopeptide Research Reference"
+description: "Bt toxin Vip3A in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appl..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

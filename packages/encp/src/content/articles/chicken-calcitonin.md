@@ -1,6 +1,6 @@
 ---
-title: "Chicken Calcitonin"
-description: "32-aa hormone from chicken parafollicular C-cells. Regulates calcium metabolism."
+title: "Chicken Calcitonin: Oligopeptide Research Reference"
+description: "32-aa hormone from chicken parafollicular C-cells. Regulates calcium metabolism. This peptide or oligopeptide is studied for its biological activity, structu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

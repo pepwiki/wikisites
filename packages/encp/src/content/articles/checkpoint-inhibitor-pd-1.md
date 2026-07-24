@@ -1,6 +1,6 @@
 ---
-title: "Checkpoint Inhibitor PD-1"
-description: "Reference for checkpoint inhibitor PD-1 in peptide research."
+title: "Checkpoint Inhibitor PD-1: Comprehensive Peptide Reference"
+description: "Comprehensive reference for checkpoint inhibitor PD-1, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

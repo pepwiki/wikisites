@@ -1,6 +1,6 @@
 ---
-title: "Denosumab"
-description: "RANKL inhibitor monoclonal antibody preventing osteoclast formation for bone density improvement."
+title: "Denosumab: Oligopeptide Research Reference"
+description: "RANKL inhibitor monoclonal antibody preventing osteoclast formation for bone density improvement. This peptide or oligopeptide is studied for its biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

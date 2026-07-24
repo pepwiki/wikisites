@@ -1,6 +1,6 @@
 ---
-title: "Locked nucleic acid"
-description: "Reference for locked nucleic acid in peptide research."
+title: "Locked nucleic acid: Oligopeptide Research Reference"
+description: "Comprehensive reference for locked nucleic acid, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

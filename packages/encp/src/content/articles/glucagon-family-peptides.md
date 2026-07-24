@@ -1,6 +1,6 @@
 ---
-title: "Glucagon Family Peptides"
-description: "Overview of glucagon family peptides including glucagon, GLP-1, GLP-2, GIP, and secretin in metabolic regulation."
+title: "Glucagon Family Peptides: Oligopeptide Research Reference"
+description: "Overview of glucagon family peptides including glucagon, GLP-1, GLP-2, GIP, and secretin in metabolic regulation. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

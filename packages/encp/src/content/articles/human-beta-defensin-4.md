@@ -1,6 +1,6 @@
 ---
-title: "Human Beta-Defensin 4"
-description: "Neutrophil-derived defensin with antimicrobial and wound healing functions at mucosal surfaces."
+title: "Human Beta-Defensin 4: Antimicrobial Peptide Reference"
+description: "Neutrophil-derived defensin with antimicrobial and wound healing functions at mucosal surfaces. This antimicrobial peptide demonstrates activity against path..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

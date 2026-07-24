@@ -1,6 +1,6 @@
 ---
-title: "Prion Protein (PrPSc)"
-description: "Misfolded prion protein. Transmissible spongiform encephalopathies."
+title: "Prion Protein (PrPSc): Oligopeptide Research Reference"
+description: "Misfolded prion protein. Transmissible spongiform encephalopathies. This peptide or oligopeptide is studied for its biological activity, structure-activity r..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

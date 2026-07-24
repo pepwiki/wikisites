@@ -1,5 +1,5 @@
 ---
-title: "time-to-response Resource"
+title: "time-to-response Resource: Comprehensive Peptide Reference"
 description: "The time-to-response database or resource for peptide research, providing data on structure, function, and interactions."
 status: "published"
 author: "Encyclopeptide Editorial"

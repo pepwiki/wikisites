@@ -1,6 +1,6 @@
 ---
-title: "Green-tea Peptide"
-description: "A bioactive peptide derived from green-tea with potential health benefits."
+title: "Green-tea Peptide: Oligopeptide Research Reference"
+description: "A bioactive peptide derived from green-tea with potential health benefits. This peptide or oligopeptide is studied for its biological activity, structure-act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

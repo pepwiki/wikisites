@@ -1,6 +1,6 @@
 ---
-title: "Atherosclerosis"
-description: "Arterial wall inflammation, lipid accumulation, plaque formation. Treatments: statins, antiplatelets, PCSK9 inhibitors."
+title: "Atherosclerosis: Oligopeptide Research Reference"
+description: "Arterial wall inflammation, lipid accumulation, plaque formation. Treatments: statins, antiplatelets, PCSK9 inhibitors. Covers molecular mechanisms, biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

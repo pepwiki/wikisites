@@ -1,6 +1,6 @@
 ---
-title: "P53 Activator PDC"
-description: "A peptide-drug conjugate targeting P53 Activator for selective drug delivery."
+title: "P53 Activator PDC: Oligopeptide Research Reference"
+description: "A peptide-drug conjugate targeting P53 Activator for selective drug delivery. This peptide or oligopeptide is studied for its biological activity, structure-..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

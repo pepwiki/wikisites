@@ -1,6 +1,6 @@
 ---
-title: "Tachystatin"
-description: "Chitin-binding antimicrobial protein from horseshoe crab providing innate defense against fungi."
+title: "Tachystatin: Antimicrobial Peptide Reference"
+description: "Chitin-binding antimicrobial protein from horseshoe crab providing innate defense against fungi. This antimicrobial peptide demonstrates activity against pat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

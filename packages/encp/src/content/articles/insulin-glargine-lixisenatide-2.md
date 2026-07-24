@@ -1,6 +1,6 @@
 ---
 title: "Insulin Glargine/Lixisenatide Fixed Ratio"
-description: "Fixed-ratio combination of basal insulin glargine and rapid-acting GLP-1 agonist lixisenatide."
+description: "Fixed-ratio combination of basal insulin glargine and rapid-acting GLP-1 agonist lixisenatide. This peptide or oligopeptide is studied for its biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

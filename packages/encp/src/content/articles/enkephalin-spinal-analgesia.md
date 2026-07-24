@@ -1,6 +1,6 @@
 ---
-title: "Enkephalin Spinal Analgesia"
-description: "Segmental enkephalin-mediated pain inhibition in dorsal horn."
+title: "Enkephalin Spinal Analgesia: Comprehensive Peptide Reference"
+description: "Segmental enkephalin-mediated pain inhibition in dorsal horn. This neuropeptide is involved in neurological signaling and is studied for its roles in brain f..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

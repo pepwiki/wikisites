@@ -1,6 +1,6 @@
 ---
 title: "Crystalline Insulin Formulations"
-description: "Use of zinc-insulin crystallization to create depot formulations providing extended insulin release."
+description: "Use of zinc-insulin crystallization to create depot formulations providing extended insulin release. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

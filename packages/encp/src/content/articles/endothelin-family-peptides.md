@@ -1,6 +1,6 @@
 ---
-title: "Endothelin Family Peptides"
-description: "Guide to endothelin peptides ET-1, ET-2, ET-3 in vasoconstriction and cardiovascular regulation."
+title: "Endothelin Family Peptides: Comprehensive Peptide Reference"
+description: "Guide to endothelin peptides ET-1, ET-2, ET-3 in vasoconstriction and cardiovascular regulation. This peptide or oligopeptide is studied for its biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

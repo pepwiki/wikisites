@@ -1,5 +1,5 @@
 ---
-title: "Atrial Natriuretic Peptide"
+title: "Atrial Natriuretic Peptide: Comprehensive Peptide Reference"
 description: "A 28-amino acid cardiac peptide that promotes natriuresis, diuresis, and vasodilation to regulate blood volume and pressure."
 status: "published"
 author: "Encyclopeptide Editorial"

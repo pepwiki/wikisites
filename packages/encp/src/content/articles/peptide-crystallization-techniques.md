@@ -1,6 +1,6 @@
 ---
 title: "Peptide Crystallization Techniques"
-description: "Guide to peptide crystallization methods including hanging drop, sitting drop, and microbatch approaches."
+description: "Guide to peptide crystallization methods including hanging drop, sitting drop, and microbatch approaches. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

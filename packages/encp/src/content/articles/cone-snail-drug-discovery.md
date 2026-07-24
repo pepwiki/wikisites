@@ -1,6 +1,6 @@
 ---
-title: "Cone Snail Drug Discovery"
-description: "Cone snail venom as source of novel therapeutics including ziconotide."
+title: "Cone Snail Drug Discovery: Comprehensive Peptide Reference"
+description: "Cone snail venom as source of novel therapeutics including ziconotide. This peptide toxin is derived from venom and studied for its pharmacological activity,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

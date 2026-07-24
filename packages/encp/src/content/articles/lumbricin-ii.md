@@ -1,6 +1,6 @@
 ---
-title: "Lumbricin II"
-description: "Comprehensive reference for Lumbricin II, a peptide compound with applications in research and therapeutics."
+title: "Lumbricin II: Oligopeptide Research Reference"
+description: "Lumbricin II, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

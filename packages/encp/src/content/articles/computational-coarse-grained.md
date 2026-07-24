@@ -1,6 +1,6 @@
 ---
-title: "Coarse Grained for Peptides"
-description: "A computational method for studying peptides using Coarse Grained."
+title: "Coarse Grained for Peptides: Comprehensive Peptide Reference"
+description: "A computational method for studying peptides using Coarse Grained. This analytical technique provides valuable insights into peptide structure, purity, and c..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

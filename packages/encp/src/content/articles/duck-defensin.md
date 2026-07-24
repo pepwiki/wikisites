@@ -1,6 +1,6 @@
 ---
-title: "Duck Defensin"
-description: "Comprehensive reference for Duck Defensin, a peptide compound with applications in research and therapeutics."
+title: "Duck Defensin: Oligopeptide Research Reference"
+description: "Duck Defensin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

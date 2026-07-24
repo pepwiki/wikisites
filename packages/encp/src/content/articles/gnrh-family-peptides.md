@@ -1,6 +1,6 @@
 ---
-title: "GnRH Family Peptides"
-description: "Overview of gonadotropin-releasing hormone family peptides in reproductive axis regulation."
+title: "GnRH Family Peptides: Oligopeptide Research Reference"
+description: "Overview of gonadotropin-releasing hormone family peptides in reproductive axis regulation. This peptide or oligopeptide is studied for its biological activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

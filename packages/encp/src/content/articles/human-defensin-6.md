@@ -1,5 +1,5 @@
 ---
-title: "Human Defensin 6"
+title: "Human Defensin 6: Antimicrobial Peptide Reference"
 description: "human-defensin-6 is a defensin-family antimicrobial peptide with cysteine-stabilized structure and broad-spectrum activity."
 status: "published"
 author: "Encyclopeptide Editorial"

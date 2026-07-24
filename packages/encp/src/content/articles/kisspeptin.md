@@ -1,6 +1,6 @@
 ---
-title: "Kisspeptin"
-description: "Hypothalamic neuropeptide essential for puberty onset and reproductive function."
+title: "Kisspeptin: Neuropeptide in Neuroscience Reference"
+description: "Hypothalamic neuropeptide essential for puberty onset and reproductive function. This neuropeptide is involved in neurological signaling and is studied for i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Pentosan Polysulfate"
-description: "Semi-synthetic glycosaminoglycan for interstitial cystitis bladder pain syndrome."
+title: "Pentosan Polysulfate: Oligopeptide Research Reference"
+description: "Semi-synthetic glycosaminoglycan for interstitial cystitis bladder pain syndrome. This peptide or oligopeptide is studied for its biological activity, struct..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

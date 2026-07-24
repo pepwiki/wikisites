@@ -1,6 +1,6 @@
 ---
 title: "Liquid chromatography-mass spectrometry"
-description: "Vitamin D, drug monitoring"
+description: "Vitamin D, drug monitoring. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "GMP for Peptide Manufacturing"
-description: "Learn Good Manufacturing Practice requirements specific to peptide drug substance and product manufacturing facilities."
+title: "GMP for Peptide Manufacturing: Comprehensive Peptide Refe..."
+description: "Learn Good Manufacturing Practice requirements specific to peptide drug substance and product manufacturing facilities. Covers molecular mechanisms, biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

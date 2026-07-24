@@ -1,6 +1,6 @@
 ---
-title: "Spider Toxin Insecticidal"
-description: "Insecticidal spider venom peptides for pest control applications."
+title: "Spider Toxin Insecticidal: Comprehensive Peptide Reference"
+description: "Insecticidal spider venom peptides for pest control applications. This peptide toxin is derived from venom and studied for its pharmacological activity, mech..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

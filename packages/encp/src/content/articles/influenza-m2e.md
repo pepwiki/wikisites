@@ -1,6 +1,6 @@
 ---
-title: "Influenza M2e"
-description: "influenza-M2e is a peptide antigen used in vaccine development for infectious disease prevention."
+title: "Influenza M2e: Oligopeptide Research Reference"
+description: "influenza-M2e is a peptide antigen used in vaccine development for infectious disease prevention. This peptide or oligopeptide is studied for its biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

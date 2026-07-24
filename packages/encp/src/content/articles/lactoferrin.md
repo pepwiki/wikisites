@@ -1,6 +1,6 @@
 ---
-title: "Lactoferrin"
-description: "86 kDa iron-binding glycoprotein. Antimicrobial, anti-inflammatory, immunomodulatory. Found in milk, neutrophils."
+title: "Lactoferrin: Oligopeptide Research Reference"
+description: "86 kDa iron-binding glycoprotein. Antimicrobial, anti-inflammatory, immunomodulatory. Found in milk, neutrophils. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,5 +1,5 @@
 ---
-title: "Basiliximab"
+title: "Basiliximab: Oligopeptide Research Reference"
 description: "Chimeric anti-CD25 monoclonal antibody that prevents acute rejection in kidney transplant by blocking IL-2 receptor activation."
 status: "published"
 author: "Encyclopeptide Editorial"

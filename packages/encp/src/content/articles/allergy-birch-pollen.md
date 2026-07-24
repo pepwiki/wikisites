@@ -1,6 +1,6 @@
 ---
-title: "Allergy / Birch Pollen"
-description: "Allergy / Birch Pollen is a bioactive compound with applications in peptide research and therapeutics."
+title: "Allergy / Birch Pollen: Oligopeptide Research Reference"
+description: "Allergy / Birch Pollen is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

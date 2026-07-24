@@ -1,6 +1,6 @@
 ---
-title: "Sulodexide"
-description: "Glycosaminoglycan mixture of heparan sulfate and dermatan sulfate for diabetic nephropathy."
+title: "Sulodexide: Oligopeptide Research Reference"
+description: "Glycosaminoglycan mixture of heparan sulfate and dermatan sulfate for diabetic nephropathy. This peptide or oligopeptide is studied for its biological activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

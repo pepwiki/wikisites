@@ -1,6 +1,6 @@
 ---
-title: "Liposomal Delivery"
-description: "Encapsulating peptides in liposomes for targeted delivery."
+title: "Liposomal Delivery: Oligopeptide Research Reference"
+description: "Encapsulating peptides in liposomes for targeted delivery. This peptide or oligopeptide is studied for its biological activity, structure-activity relationsh..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

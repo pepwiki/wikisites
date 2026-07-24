@@ -1,6 +1,6 @@
 ---
-title: "VMD"
-description: "Visual Molecular Dynamics software for molecular visualization and analysis."
+title: "VMD: Oligopeptide Research Reference"
+description: "Visual Molecular Dynamics software for molecular visualization and analysis. This peptide or oligopeptide is studied for its biological activity, structure-a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

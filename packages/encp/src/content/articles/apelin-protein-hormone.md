@@ -1,6 +1,6 @@
 ---
-title: "Apelin Protein Hormone"
-description: "The Apelin Protein Hormone and its role in endocrine signaling."
+title: "Apelin Protein Hormone: Endogenous Peptide Hormone Reference"
+description: "Apelin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical sig..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

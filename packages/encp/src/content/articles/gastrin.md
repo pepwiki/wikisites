@@ -1,6 +1,6 @@
 ---
-title: "Gastrin"
-description: "A gastrointestinal hormone that stimulates gastric acid secretion and growth of the gastric mucosa, existing in multiple forms including gastrin-14, gastrin-17, and gastrin-34."
+title: "Gastrin: Oligopeptide Research Reference"
+description: "A gastrointestinal hormone that stimulates gastric acid secretion and growth of the gastric mucosa, existing in multiple forms including gastrin-14, gastrin-..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

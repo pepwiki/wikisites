@@ -1,6 +1,6 @@
 ---
-title: "Branched peptide"
-description: "Reference for branched peptide in peptide research."
+title: "Branched peptide: Oligopeptide Research Reference"
+description: "Comprehensive reference for branched peptide, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

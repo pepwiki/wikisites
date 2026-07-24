@@ -1,6 +1,6 @@
 ---
-title: "Insulin Renal Clearance"
-description: "Kidney-mediated insulin degradation and dosing adjustments in chronic and end-stage kidney disease."
+title: "Insulin Renal Clearance: Oligopeptide Research Reference"
+description: "Kidney-mediated insulin degradation and dosing adjustments in chronic and end-stage kidney disease. This peptide or oligopeptide is studied for its biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

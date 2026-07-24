@@ -1,6 +1,6 @@
 ---
-title: "Kappa Conotoxin PVIIA"
-description: "kappa-conotoxin-PVIIA is a conotoxin from cone snail venom with specific ion channel blocking properties."
+title: "Kappa Conotoxin PVIIA: Peptide Toxin in Pharmacology Refe..."
+description: "kappa-conotoxin-PVIIA is a conotoxin from cone snail venom with specific ion channel blocking properties. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

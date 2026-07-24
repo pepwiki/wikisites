@@ -1,6 +1,6 @@
 ---
-title: "Matrixyl"
-description: "Palmitoyl pentapeptide-4. Stimulates collagen synthesis. Anti-wrinkle skincare peptide."
+title: "Matrixyl: Oligopeptide Research Reference"
+description: "Palmitoyl pentapeptide-4. Stimulates collagen synthesis. Anti-wrinkle skincare peptide. This peptide or oligopeptide is studied for its biological activity, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

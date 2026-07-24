@@ -1,6 +1,6 @@
 ---
-title: "Kappa Bungarotoxin"
-description: "kappa-bungarotoxin is a snake venom peptide toxin with specific pharmacological activity."
+title: "Kappa Bungarotoxin: Peptide Toxin in Pharmacology Reference"
+description: "kappa-bungarotoxin is a snake venom peptide toxin with specific pharmacological activity. This peptide toxin is derived from venom and studied for its pharma..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

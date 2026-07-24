@@ -1,6 +1,6 @@
 ---
-title: "Glutamate Modification"
-description: "Post-translational modifications of Glutamate including phosphorylation, methylation, acetylation, and ubiquitination."
+title: "Glutamate Modification: Post-Translational Modification R..."
+description: "Post-translational modifications of Glutamate including phosphorylation, methylation, acetylation, and ubiquitination. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

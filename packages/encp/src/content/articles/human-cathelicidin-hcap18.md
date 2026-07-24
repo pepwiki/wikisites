@@ -1,6 +1,6 @@
 ---
-title: "Human Cathelicidin hCAP18"
-description: "Precursor protein of LL-37 with antimicrobial and immunomodulatory functions."
+title: "Human Cathelicidin hCAP18: Comprehensive Peptide Reference"
+description: "Precursor protein of LL-37 with antimicrobial and immunomodulatory functions. This antimicrobial peptide demonstrates activity against pathogens and is studi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Polymerase PDC"
-description: "A peptide-drug conjugate targeting Polymerase for selective drug delivery."
+title: "Polymerase PDC: Oligopeptide Research Reference"
+description: "A peptide-drug conjugate targeting Polymerase for selective drug delivery. This peptide or oligopeptide is studied for its biological activity, structure-act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

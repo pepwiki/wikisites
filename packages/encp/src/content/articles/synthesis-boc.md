@@ -1,6 +1,6 @@
 ---
-title: "Boc Synthesis"
-description: "A peptide synthesis method using Boc for producing peptides with specific properties."
+title: "Boc Synthesis: Analytical Technique in Peptide Research"
+description: "A peptide synthesis method using Boc for producing peptides with specific properties. This analytical technique provides valuable insights into peptide struc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

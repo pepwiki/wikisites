@@ -1,6 +1,6 @@
 ---
-title: "Calcitonin Family Peptides"
-description: "Learn about calcitonin, amylin, and CGRP in the calcitonin peptide family and their metabolic roles."
+title: "Calcitonin Family Peptides: Comprehensive Peptide Reference"
+description: "Learn about calcitonin, amylin, and CGRP in the calcitonin peptide family and their metabolic roles. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

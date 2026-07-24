@@ -1,6 +1,6 @@
 ---
 title: "Ixazomib Oral Proteasome Inhibitor"
-description: "First oral boronic acid proteasome inhibitor for multiple myeloma, enabling convenient oral chemotherapy regimens."
+description: "First oral boronic acid proteasome inhibitor for multiple myeloma, enabling convenient oral chemotherapy regimens. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

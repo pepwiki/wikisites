@@ -1,5 +1,5 @@
 ---
-title: "Stapled Peptides in Cancer"
+title: "Stapled Peptides in Cancer: Comprehensive Peptide Reference"
 description: "An overview of hydrocarbon stapled peptides as cancer therapeutics, covering MDM2/MDMX inhibition, BCL-2 family targeting, and ALRN-6924 clinical development."
 status: "published"
 author: "Encyclopeptide Editorial"

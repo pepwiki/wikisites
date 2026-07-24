@@ -1,5 +1,5 @@
 ---
-title: "Substance P → ACE (Substrate)"
+title: "Substance P → ACE (Substrate): Comprehensive Peptide Refe..."
 description: "Comprehensive reference for Substance P → ACE (Substrate), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

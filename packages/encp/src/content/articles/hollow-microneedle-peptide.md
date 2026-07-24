@@ -1,6 +1,6 @@
 ---
-title: "Hollow Microneedle Peptide"
-description: "Hollow microneedle devices enabling liquid peptide formulation delivery."
+title: "Hollow Microneedle Peptide: Comprehensive Peptide Reference"
+description: "Hollow microneedle devices enabling liquid peptide formulation delivery. This peptide or oligopeptide is studied for its biological activity, structure-activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

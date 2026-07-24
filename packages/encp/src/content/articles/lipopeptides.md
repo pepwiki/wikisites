@@ -1,6 +1,6 @@
 ---
-title: "Lipopeptides"
-description: "Membrane disruption"
+title: "Lipopeptides: Oligopeptide Research Reference"
+description: "Membrane disruption. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

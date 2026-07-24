@@ -1,6 +1,6 @@
 ---
 title: "Insulin Phylogenetic Evolution"
-description: "Evolutionary history of insulin from ancestral peptides in invertebrates through modern mammalian insulins."
+description: "Evolutionary history of insulin from ancestral peptides in invertebrates through modern mammalian insulins. This peptide or oligopeptide is studied for its b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

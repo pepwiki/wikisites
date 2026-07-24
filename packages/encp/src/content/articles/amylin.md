@@ -1,5 +1,5 @@
 ---
-title: "Amylin"
+title: "Amylin: Endogenous Peptide Hormone Reference"
 description: "37-amino acid peptide hormone co-secreted with insulin from pancreatic beta cells, regulating gastric emptying and glucagon."
 status: "published"
 author: "Encyclopeptide Editorial"

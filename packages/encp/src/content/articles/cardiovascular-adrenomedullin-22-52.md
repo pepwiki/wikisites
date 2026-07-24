@@ -1,6 +1,6 @@
 ---
-title: "Adrenomedullin 22 52"
-description: "Comprehensive reference for adrenomedullin 22 52 in peptide research."
+title: "Adrenomedullin 22 52: Oligopeptide Research Reference"
+description: "adrenomedullin 22 52 in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potentia..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

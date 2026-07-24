@@ -1,6 +1,6 @@
 ---
-title: "JASCO J-1500"
-description: "Circular dichroism spectrophotometer for protein secondary structure analysis."
+title: "JASCO J-1500: Oligopeptide Research Reference"
+description: "Circular dichroism spectrophotometer for protein secondary structure analysis. This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

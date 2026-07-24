@@ -1,6 +1,6 @@
 ---
-title: "Chicken NPY"
-description: "NPY from chicken brain. Regulates feeding behavior in poultry."
+title: "Chicken NPY: Oligopeptide Research Reference"
+description: "NPY from chicken brain. Regulates feeding behavior in poultry. This peptide or oligopeptide is studied for its biological activity, structure-activity relati..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

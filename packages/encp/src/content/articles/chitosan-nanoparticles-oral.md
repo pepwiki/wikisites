@@ -1,6 +1,6 @@
 ---
-title: "Chitosan Nanoparticles Oral"
-description: "Chitosan-based nanoparticles enhancing oral peptide bioavailability through mucoadhesion."
+title: "Chitosan Nanoparticles Oral: Comprehensive Peptide Reference"
+description: "Chitosan-based nanoparticles enhancing oral peptide bioavailability through mucoadhesion. This peptide or oligopeptide is studied for its biological activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Amyloid-beta 42/40 Ratio"
-description: "Ratio of Aβ42 to Aβ40. Decreased in amyloid pathology. Better than Aβ42 alone."
+title: "Amyloid-beta 42/40 Ratio: Oligopeptide Research Reference"
+description: "Ratio of Aβ42 to Aβ40. Decreased in amyloid pathology. Better than Aβ42 alone. This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

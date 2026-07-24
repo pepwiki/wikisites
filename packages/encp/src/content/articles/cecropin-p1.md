@@ -1,6 +1,6 @@
 ---
-title: "Cecropin P1"
-description: "AMP from pig intestine with broad-spectrum activity against enteric pathogens."
+title: "Cecropin P1: Antimicrobial Peptide Reference"
+description: "AMP from pig intestine with broad-spectrum activity against enteric pathogens. This antimicrobial peptide demonstrates activity against pathogens and is stud..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

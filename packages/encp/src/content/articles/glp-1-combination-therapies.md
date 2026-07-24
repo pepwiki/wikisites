@@ -1,6 +1,6 @@
 ---
 title: "GLP-1 Agonist Combination Therapies"
-description: "Rationale and evidence for combining GLP-1 receptor agonists with other glucose-lowering medications."
+description: "Rationale and evidence for combining GLP-1 receptor agonists with other glucose-lowering medications. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

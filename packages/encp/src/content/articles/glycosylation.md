@@ -1,6 +1,6 @@
 ---
-title: "Glycosylation"
-description: "Addition of carbohydrate groups to proteins. Affects folding, stability, activity."
+title: "Glycosylation: Oligopeptide Research Reference"
+description: "Addition of carbohydrate groups to proteins. Affects folding, stability, activity. This peptide or oligopeptide is studied for its biological activity, struc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Food Preservation"
-description: "Use of antimicrobial peptides for food preservation."
+title: "Food Preservation: Oligopeptide Research Reference"
+description: "Use of antimicrobial peptides for food preservation. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

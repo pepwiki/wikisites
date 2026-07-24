@@ -1,6 +1,6 @@
 ---
-title: "Cryptdin 2"
-description: "cryptdin-2 is a defensin-family antimicrobial peptide with cysteine-stabilized structure and broad-spectrum activity."
+title: "Cryptdin 2: Antimicrobial Peptide Reference"
+description: "cryptdin-2 is a defensin-family antimicrobial peptide with cysteine-stabilized structure and broad-spectrum activity. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

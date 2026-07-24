@@ -1,5 +1,5 @@
 ---
-title: "Captopril"
+title: "Captopril: Oligopeptide Research Reference"
 description: "First oral ACE inhibitor derived from Brazilian pit viper venom, containing a thiol group for angiotensin-converting enzyme inhibition."
 status: "published"
 author: "Encyclopeptide Editorial"

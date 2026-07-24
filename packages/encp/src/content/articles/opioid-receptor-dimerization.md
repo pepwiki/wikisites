@@ -1,6 +1,6 @@
 ---
-title: "Opioid Receptor Dimerization"
-description: "Mu-delta and mu-kappa receptor heterodimer formation affecting selectivity."
+title: "Opioid Receptor Dimerization: Comprehensive Peptide Refer..."
+description: "Mu-delta and mu-kappa receptor heterodimer formation affecting selectivity. This neuropeptide is involved in neurological signaling and is studied for its ro..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

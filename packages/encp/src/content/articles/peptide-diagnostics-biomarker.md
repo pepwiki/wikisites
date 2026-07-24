@@ -1,6 +1,6 @@
 ---
-title: "Peptide Biomarker Diagnostics"
-description: "Use of peptides and peptide fragments as diagnostic biomarkers in clinical laboratory testing and disease monitoring."
+title: "Peptide Biomarker Diagnostics: Comprehensive Peptide Refe..."
+description: "Use of peptides and peptide fragments as diagnostic biomarkers in clinical laboratory testing and disease monitoring. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

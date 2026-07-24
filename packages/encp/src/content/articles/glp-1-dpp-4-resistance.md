@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 DPP-4 Resistance"
-description: "Structural modifications conferring DPP-4 resistance including Aib substitution and fatty acid acylation."
+title: "GLP-1 DPP-4 Resistance: Oligopeptide Research Reference"
+description: "Structural modifications conferring DPP-4 resistance including Aib substitution and fatty acid acylation. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

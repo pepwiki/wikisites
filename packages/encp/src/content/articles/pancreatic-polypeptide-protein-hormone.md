@@ -1,6 +1,6 @@
 ---
 title: "Pancreatic Polypeptide Protein Hormone"
-description: "The Pancreatic Polypeptide Protein Hormone and its role in endocrine signaling."
+description: "Pancreatic Polypeptide, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

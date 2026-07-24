@@ -1,6 +1,6 @@
 ---
-title: "Cardiovascular Disease"
-description: "Diseases of the heart and blood vessels: coronary artery disease, heart failure, arrhythmias, hypertension, peripheral vascular disease. Leading cause of death globally. Treatments: lifestyle modification, medications, interventions (PCI, CABG, device therapy)."
+title: "Cardiovascular Disease: Oligopeptide Research Reference"
+description: "Diseases of the heart and blood vessels: coronary artery disease, heart failure, arrhythmias, hypertension, peripheral vascular disease. Leading cause of dea..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Diseases of the heart and blood vessels: coronary artery disease, heart failure, arrhythmias, hypertension, peripheral vascular disease. Leading cause of death globally. Treatments: lifestyle modification, medications, interventions (PCI, CABG, device therapy).
+Diseases of the heart and blood vessels: coronary artery disease, heart failure, arrhythmias, hypertension, peripheral vascular disease. Leading cause of dea...
 
 ## Clinical Significance
 

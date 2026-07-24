@@ -1,6 +1,6 @@
 ---
-title: "Metabolic / GLP-1 Agonist"
-description: "Metabolic / GLP-1 Agonist is a bioactive compound with applications in peptide research and therapeutics."
+title: "Metabolic / GLP-1 Agonist: Comprehensive Peptide Reference"
+description: "Metabolic / GLP-1 Agonist is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "PP Hormone"
-description: "The PP Hormone and its role in endocrine signaling."
+title: "PP Hormone: Endogenous Peptide Hormone Reference"
+description: "PP, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical signifi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

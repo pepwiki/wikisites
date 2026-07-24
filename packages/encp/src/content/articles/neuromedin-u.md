@@ -1,6 +1,6 @@
 ---
-title: "Neuromedin U"
-description: "Neuropeptide expressed in gut and brain regulating energy homeostasis."
+title: "Neuromedin U: Neuropeptide in Neuroscience Reference"
+description: "Neuropeptide expressed in gut and brain regulating energy homeostasis. This neuropeptide is involved in neurological signaling and is studied for its roles i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

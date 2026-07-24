@@ -1,6 +1,6 @@
 ---
 title: "Electrospray Ionization MS for Peptides"
-description: "Learn ESI-MS methods for peptide sequencing, quantification, and characterization of post-translational modifications."
+description: "Learn ESI-MS methods for peptide sequencing, quantification, and characterization of post-translational modifications. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

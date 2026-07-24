@@ -1,5 +1,5 @@
 ---
-title: "Nematode Secreted Peptides"
+title: "Nematode Secreted Peptides: Comprehensive Peptide Reference"
 description: "Comprehensive reference for Nematode Secreted Peptides, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

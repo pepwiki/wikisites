@@ -1,6 +1,6 @@
 ---
-title: "Calcitonin Salmon"
-description: "Comprehensive reference for calcitonin salmon in peptide research."
+title: "Calcitonin Salmon: Oligopeptide Research Reference"
+description: "calcitonin salmon in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

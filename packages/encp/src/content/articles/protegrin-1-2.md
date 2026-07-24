@@ -1,5 +1,5 @@
 ---
-title: "Protegrin 1"
+title: "Protegrin 1: Antimicrobial Peptide Reference"
 description: "Porcine antimicrobial peptide with beta-hairpin structure that rapidly kills multidrug-resistant bacteria through membrane disruption."
 status: "published"
 author: "Encyclopeptide Editorial"

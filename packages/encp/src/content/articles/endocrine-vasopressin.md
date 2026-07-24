@@ -1,6 +1,6 @@
 ---
-title: "Endocrine / Vasopressin"
-description: "Endocrine / Vasopressin is a bioactive compound with applications in peptide research and therapeutics."
+title: "Endocrine / Vasopressin: Oligopeptide Research Reference"
+description: "Endocrine / Vasopressin is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Peptide Precision Medicine"
-description: "Tailoring peptide therapeutics to individual patient profiles and biomarkers."
+title: "Peptide Precision Medicine: Comprehensive Peptide Reference"
+description: "Tailoring peptide therapeutics to individual patient profiles and biomarkers. This peptide or oligopeptide is studied for its biological activity, structure-..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

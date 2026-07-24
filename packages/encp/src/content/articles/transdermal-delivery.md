@@ -1,6 +1,6 @@
 ---
-title: "Transdermal delivery"
-description: "Reference for transdermal delivery in peptide research."
+title: "Transdermal delivery: Oligopeptide Research Reference"
+description: "Comprehensive reference for transdermal delivery, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

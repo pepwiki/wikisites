@@ -1,6 +1,6 @@
 ---
-title: "Glatiramer"
-description: "Comprehensive reference for glatiramer in peptide research."
+title: "Glatiramer: Oligopeptide Research Reference"
+description: "glatiramer in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

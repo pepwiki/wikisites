@@ -1,6 +1,6 @@
 ---
-title: "Lactenin"
-description: "lactenin is a defensin-family antimicrobial peptide with cysteine-stabilized structure and broad-spectrum activity."
+title: "Lactenin: Antimicrobial Peptide Reference"
+description: "lactenin is a defensin-family antimicrobial peptide with cysteine-stabilized structure and broad-spectrum activity. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

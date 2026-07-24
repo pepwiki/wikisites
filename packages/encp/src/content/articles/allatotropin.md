@@ -1,6 +1,6 @@
 ---
-title: "Allatotropin"
-description: "Comprehensive reference for Allatotropin, a peptide compound with applications in research and therapeutics."
+title: "Allatotropin: Oligopeptide Research Reference"
+description: "Allatotropin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

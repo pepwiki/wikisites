@@ -1,5 +1,5 @@
 ---
-title: "PTH (Parathyroid Hormone)"
+title: "PTH (Parathyroid Hormone): Comprehensive Peptide Reference"
 description: "Comprehensive reference for PTH (Parathyroid Hormone), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

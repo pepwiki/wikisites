@@ -1,6 +1,6 @@
 ---
-title: "Morpholino oligomer"
-description: "Reference for morpholino oligomer in peptide research."
+title: "Morpholino oligomer: Oligopeptide Research Reference"
+description: "Comprehensive reference for morpholino oligomer, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

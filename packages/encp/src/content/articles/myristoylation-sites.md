@@ -1,6 +1,6 @@
 ---
-title: "Peptide Myristoylation Sites"
-description: "Explore N-myristoylation in peptide membrane association and protein interactions."
+title: "Peptide Myristoylation Sites: Comprehensive Peptide Refer..."
+description: "Explore N-myristoylation in peptide membrane association and protein interactions. This modification affects peptide stability, receptor binding, and biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Pasireotide LAR"
-description: "Long-acting pasireotide microspheres for monthly dosing in Cushing disease and acromegaly."
+title: "Pasireotide LAR: Oligopeptide Research Reference"
+description: "Long-acting pasireotide microspheres for monthly dosing in Cushing disease and acromegaly. This peptide or oligopeptide is studied for its biological activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

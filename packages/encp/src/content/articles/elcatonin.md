@@ -1,6 +1,6 @@
 ---
-title: "Elcatonin"
-description: "Synthetic eel calcitonin analogue with reduced immunogenicity for osteoporosis treatment."
+title: "Elcatonin: Oligopeptide Research Reference"
+description: "Synthetic eel calcitonin analogue with reduced immunogenicity for osteoporosis treatment. This peptide or oligopeptide is studied for its biological activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

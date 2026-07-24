@@ -1,6 +1,6 @@
 ---
-title: "PIK3CA Inhibitor PDC"
-description: "A peptide-drug conjugate targeting PIK3CA Inhibitor for selective drug delivery."
+title: "PIK3CA Inhibitor PDC: Oligopeptide Research Reference"
+description: "A peptide-drug conjugate targeting PIK3CA Inhibitor for selective drug delivery. This peptide or oligopeptide is studied for its biological activity, structu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

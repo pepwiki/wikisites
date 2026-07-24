@@ -1,6 +1,6 @@
 ---
-title: "CLPK"
-description: "CLPK is a cathelicidin antimicrobial peptide with broad-spectrum activity against bacteria, fungi, and viruses."
+title: "CLPK: Antimicrobial Peptide Reference"
+description: "CLPK is a cathelicidin antimicrobial peptide with broad-spectrum activity against bacteria, fungi, and viruses. Covers molecular mechanisms, biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

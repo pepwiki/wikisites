@@ -1,6 +1,6 @@
 ---
-title: "Skin Brightening"
-description: "Peptide-based skin brightening approaches."
+title: "Skin Brightening: Oligopeptide Research Reference"
+description: "Peptide-based skin brightening approaches. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potenti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

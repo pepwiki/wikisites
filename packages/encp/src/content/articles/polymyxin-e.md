@@ -1,5 +1,5 @@
 ---
-title: "Polymyxin E"
+title: "Polymyxin E: Antimicrobial Peptide Reference"
 description: "polymyxin-E is a peptide antibiotic produced by bacteria with antimicrobial activity used in clinical and agricultural applications."
 status: "published"
 author: "Encyclopeptide Editorial"

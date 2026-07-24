@@ -1,6 +1,6 @@
 ---
-title: "HCV Peptide Vaccine"
-description: "Comprehensive reference for HCV Peptide Vaccine, a peptide compound with applications in research and therapeutics."
+title: "HCV Peptide Vaccine: Oligopeptide Research Reference"
+description: "HCV Peptide Vaccine, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

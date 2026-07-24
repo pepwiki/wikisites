@@ -1,6 +1,6 @@
 ---
-title: "Adiponectin 1-20"
-description: "Reference for adiponectin 1-20 variant in peptide research."
+title: "Adiponectin 1-20: Peptide Fragment Reference"
+description: "Comprehensive reference for adiponectin 1-20 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

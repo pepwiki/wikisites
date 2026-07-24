@@ -1,6 +1,6 @@
 ---
-title: "Continuous Manufacturing"
-description: "Continuous production processes for peptides. More efficient than batch processing."
+title: "Continuous Manufacturing: Oligopeptide Research Reference"
+description: "Continuous production processes for peptides. More efficient than batch processing. This peptide or oligopeptide is studied for its biological activity, stru..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

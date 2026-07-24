@@ -1,6 +1,6 @@
 ---
-title: "Beta-Amino Acids"
-description: "Amino acids with β-amino group. Enhance proteolytic resistance in peptides."
+title: "Beta-Amino Acids: Oligopeptide Research Reference"
+description: "Amino acids with β-amino group. Enhance proteolytic resistance in peptides. This peptide or oligopeptide is studied for its biological activity, structure-ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

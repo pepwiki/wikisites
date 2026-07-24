@@ -1,6 +1,6 @@
 ---
-title: "Head Neck Cancer Peptides"
-description: "Peptides associated with Head Neck Cancer including biomarkers, therapeutic targets, and diagnostic markers."
+title: "Head Neck Cancer Peptides: Comprehensive Peptide Reference"
+description: "Peptides associated with Head Neck Cancer including biomarkers, therapeutic targets, and diagnostic markers. This peptide or oligopeptide is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

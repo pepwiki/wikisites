@@ -1,6 +1,6 @@
 ---
-title: "Kollaren"
-description: "Palmitoyl pentapeptide-4. Stimulates collagen synthesis. Anti-aging skincare."
+title: "Kollaren: Oligopeptide Research Reference"
+description: "Palmitoyl pentapeptide-4. Stimulates collagen synthesis. Anti-aging skincare. This peptide or oligopeptide is studied for its biological activity, structure-..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

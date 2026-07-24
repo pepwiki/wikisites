@@ -1,6 +1,6 @@
 ---
-title: "Trypanosoma brucei"
-description: "Variable surface glycoprotein epitope switching"
+title: "Trypanosoma brucei: Oligopeptide Research Reference"
+description: "Variable surface glycoprotein epitope switching. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

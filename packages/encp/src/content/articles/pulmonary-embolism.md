@@ -1,6 +1,6 @@
 ---
-title: "Pulmonary Embolism"
-description: "Blood clot in pulmonary arteries. Usually from DVT."
+title: "Pulmonary Embolism: Oligopeptide Research Reference"
+description: "Blood clot in pulmonary arteries. Usually from DVT. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, an..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

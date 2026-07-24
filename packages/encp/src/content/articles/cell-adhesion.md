@@ -1,6 +1,6 @@
 ---
-title: "Cell adhesion"
-description: "Reference for cell adhesion in peptide research."
+title: "Cell adhesion: Oligopeptide Research Reference"
+description: "Comprehensive reference for cell adhesion, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

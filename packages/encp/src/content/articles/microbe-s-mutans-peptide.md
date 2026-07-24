@@ -1,6 +1,6 @@
 ---
-title: "S Mutans Peptide"
-description: "A peptide associated with S Mutans for research or therapeutic applications."
+title: "S Mutans Peptide: Oligopeptide Research Reference"
+description: "A peptide associated with S Mutans for research or therapeutic applications. This peptide or oligopeptide is studied for its biological activity, structure-a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

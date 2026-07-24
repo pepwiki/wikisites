@@ -1,6 +1,6 @@
 ---
-title: "Teriparatide"
-description: "Recombinant PTH(1-34) that stimulates osteoblast activity for osteoporosis treatment, the first anabolic bone agent."
+title: "Teriparatide: Oligopeptide Research Reference"
+description: "Recombinant PTH(1-34) that stimulates osteoblast activity for osteoporosis treatment, the first anabolic bone agent. Covers molecular mechanisms, biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

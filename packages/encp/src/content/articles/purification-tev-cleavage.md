@@ -1,6 +1,6 @@
 ---
-title: "TEV Cleavage Purification"
-description: "A purification technique for separating and isolating peptides using TEV Cleavage."
+title: "TEV Cleavage Purification: Comprehensive Peptide Reference"
+description: "A purification technique for separating and isolating peptides using TEV Cleavage. This analytical technique provides valuable insights into peptide structur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

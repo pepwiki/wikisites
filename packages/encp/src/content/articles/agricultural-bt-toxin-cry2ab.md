@@ -1,6 +1,6 @@
 ---
-title: "Bt Toxin Cry2Ab"
-description: "Comprehensive reference for Bt toxin Cry2Ab in peptide research."
+title: "Bt Toxin Cry2Ab: Oligopeptide Research Reference"
+description: "Bt toxin Cry2Ab in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential app..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

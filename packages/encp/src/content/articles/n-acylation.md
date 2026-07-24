@@ -1,6 +1,6 @@
 ---
-title: "N-Acylation"
-description: "Addition of acyl groups to N-terminus. Modifies pharmacokinetic properties."
+title: "N-Acylation: Oligopeptide Research Reference"
+description: "Addition of acyl groups to N-terminus. Modifies pharmacokinetic properties. This peptide or oligopeptide is studied for its biological activity, structure-ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

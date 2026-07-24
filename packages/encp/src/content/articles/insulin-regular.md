@@ -1,6 +1,6 @@
 ---
-title: "Insulin Regular"
-description: "Short-acting crystalline zinc insulin for intravenous and subcutaneous use with peak effect at 2-4 hours."
+title: "Insulin Regular: Oligopeptide Research Reference"
+description: "Short-acting crystalline zinc insulin for intravenous and subcutaneous use with peak effect at 2-4 hours. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,5 +1,5 @@
 ---
-title: "composite-endpoint Resource"
+title: "composite-endpoint Resource: Comprehensive Peptide Reference"
 description: "The composite-endpoint database or resource for peptide research, providing data on structure, function, and interactions."
 status: "published"
 author: "Encyclopeptide Editorial"

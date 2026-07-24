@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 Agonist Overdose"
-description: "Excessive GLP-1 agonist dosing. Can cause severe hypoglycemia and pancreatitis."
+title: "GLP-1 Agonist Overdose: Oligopeptide Research Reference"
+description: "Excessive GLP-1 agonist dosing. Can cause severe hypoglycemia and pancreatitis. This peptide or oligopeptide is studied for its biological activity, structur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

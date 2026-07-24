@@ -1,6 +1,6 @@
 ---
-title: "Factor Xa Inhibitor"
-description: "Comprehensive reference for factor Xa inhibitor in peptide research."
+title: "Factor Xa Inhibitor: Enzyme in Peptide Biology Reference"
+description: "factor Xa inhibitor in peptide research. This enzyme plays important roles in peptide metabolism and is studied for its biochemical mechanisms, substrate spe..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

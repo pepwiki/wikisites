@@ -1,5 +1,5 @@
 ---
-title: "complete-response Resource"
+title: "complete-response Resource: Comprehensive Peptide Reference"
 description: "The complete-response database or resource for peptide research, providing data on structure, function, and interactions."
 status: "published"
 author: "Encyclopeptide Editorial"

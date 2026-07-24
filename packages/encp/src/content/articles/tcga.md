@@ -1,6 +1,6 @@
 ---
-title: "TCGA"
-description: "The Cancer Genome Atlas for cancer genomics data."
+title: "TCGA: Oligopeptide Research Reference"
+description: "The Cancer Genome Atlas for cancer genomics data. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

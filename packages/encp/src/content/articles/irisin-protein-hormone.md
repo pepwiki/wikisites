@@ -1,6 +1,6 @@
 ---
-title: "Irisin Protein Hormone"
-description: "The Irisin Protein Hormone and its role in endocrine signaling."
+title: "Irisin Protein Hormone: Endogenous Peptide Hormone Reference"
+description: "Irisin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical sig..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,5 +1,5 @@
 ---
-title: "time-to-progression Resource"
+title: "time-to-progression Resource: Comprehensive Peptide Refer..."
 description: "The time-to-progression database or resource for peptide research, providing data on structure, function, and interactions."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,6 +1,6 @@
 ---
 title: "Disulfide Bond Formation Synthesis"
-description: "A peptide synthesis method using Disulfide Bond Formation for producing peptides with specific properties."
+description: "A peptide synthesis method using Disulfide Bond Formation for producing peptides with specific properties. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

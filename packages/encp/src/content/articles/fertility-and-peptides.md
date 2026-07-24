@@ -1,6 +1,6 @@
 ---
-title: "Fertility and Peptides"
-description: "Discover gonadotropin peptides and GnRH analogs for treating infertility and reproductive disorders."
+title: "Fertility and Peptides: Oligopeptide Research Reference"
+description: "Discover gonadotropin peptides and GnRH analogs for treating infertility and reproductive disorders. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

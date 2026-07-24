@@ -1,6 +1,6 @@
 ---
-title: "Peroxiredoxin 1"
-description: "Comprehensive reference for peroxiredoxin 1 in peptide research."
+title: "Peroxiredoxin 1: Oligopeptide Research Reference"
+description: "peroxiredoxin 1 in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential app..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "NPY → Y1R"
-description: "Comprehensive reference for NPY → Y1R, a peptide compound with applications in research and therapeutics."
+title: "NPY → Y1R: Oligopeptide Research Reference"
+description: "NPY → Y1R, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,5 +1,5 @@
 ---
-title: "Vasoactive Intestinal Peptide"
+title: "Vasoactive Intestinal Peptide: Comprehensive Peptide Refe..."
 description: "28-amino acid neuropeptide that causes vasodilation, stimulates intestinal secretion, and has immunomodulatory properties."
 status: "published"
 author: "Encyclopeptide Editorial"

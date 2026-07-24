@@ -1,6 +1,6 @@
 ---
-title: "Insulin Aspart"
-description: "Comprehensive reference for insulin aspart in peptide research."
+title: "Insulin Aspart: Oligopeptide Research Reference"
+description: "insulin aspart in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appl..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

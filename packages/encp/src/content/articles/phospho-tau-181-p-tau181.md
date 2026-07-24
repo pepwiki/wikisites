@@ -1,5 +1,5 @@
 ---
-title: "Phospho-tau 181 (p-tau181)"
+title: "Phospho-tau 181 (p-tau181): Comprehensive Peptide Reference"
 description: "Comprehensive reference for Phospho-tau 181 (p-tau181), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

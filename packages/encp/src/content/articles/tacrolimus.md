@@ -1,5 +1,5 @@
 ---
-title: "Tacrolimus"
+title: "Tacrolimus: Oligopeptide Research Reference"
 description: "Macrolide calcineurin inhibitor from Streptomyces tsukubaensis used as an immunosuppressant in organ transplantation and atopic dermatitis."
 status: "published"
 author: "Encyclopeptide Editorial"

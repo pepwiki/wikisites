@@ -1,6 +1,6 @@
 ---
-title: "Ion Exchange Analysis"
-description: "An analytical technique for characterizing peptides using Ion Exchange."
+title: "Ion Exchange Analysis: Analytical Technique in Peptide Re..."
+description: "An analytical technique for characterizing peptides using Ion Exchange. This analytical technique provides valuable insights into peptide structure, purity, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

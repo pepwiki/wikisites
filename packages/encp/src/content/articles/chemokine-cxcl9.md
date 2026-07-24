@@ -1,6 +1,6 @@
 ---
-title: "Chemokine CXCL9"
-description: "Reference for chemokine CXCL9 in peptide research."
+title: "Chemokine CXCL9: Oligopeptide Research Reference"
+description: "Comprehensive reference for chemokine CXCL9, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

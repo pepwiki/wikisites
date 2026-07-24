@@ -1,6 +1,6 @@
 ---
-title: "Amino Acid Analysis"
-description: "Guide to amino acid analysis methods for determining peptide composition and quantifying individual residues."
+title: "Amino Acid Analysis: Analytical Technique in Peptide Rese..."
+description: "Guide to amino acid analysis methods for determining peptide composition and quantifying individual residues. This peptide or oligopeptide is studied for its..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

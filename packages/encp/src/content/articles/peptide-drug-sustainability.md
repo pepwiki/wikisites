@@ -1,6 +1,6 @@
 ---
-title: "Peptide Drug Sustainability"
-description: "Environmental and social sustainability in peptide drug manufacturing, packaging, and distribution."
+title: "Peptide Drug Sustainability: Comprehensive Peptide Reference"
+description: "Environmental and social sustainability in peptide drug manufacturing, packaging, and distribution. This peptide or oligopeptide is studied for its biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

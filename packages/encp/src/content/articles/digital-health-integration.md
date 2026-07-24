@@ -1,6 +1,6 @@
 ---
-title: "Digital Health Integration"
-description: "Integration of peptide therapeutics with digital health technologies."
+title: "Digital Health Integration: Comprehensive Peptide Reference"
+description: "Integration of peptide therapeutics with digital health technologies. This peptide or oligopeptide is studied for its biological activity, structure-activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

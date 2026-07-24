@@ -1,6 +1,6 @@
 ---
 title: "Platelet Derived Growth Factor fragment-1-30"
-description: "Reference for platelet derived growth factor fragment-1-30 in peptide research."
+description: "Comprehensive reference for platelet derived growth factor fragment-1-30, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

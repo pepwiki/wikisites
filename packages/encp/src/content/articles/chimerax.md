@@ -1,6 +1,6 @@
 ---
-title: "ChimeraX"
-description: "Molecular visualization program for macromolecular structures."
+title: "ChimeraX: Oligopeptide Research Reference"
+description: "Molecular visualization program for macromolecular structures. This peptide or oligopeptide is studied for its biological activity, structure-activity relati..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

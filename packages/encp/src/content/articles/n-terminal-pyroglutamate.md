@@ -1,6 +1,6 @@
 ---
-title: "N-Terminal Pyroglutamate"
-description: "Cyclization of N-terminal glutamine to pyroglutamic acid. Protects against degradation."
+title: "N-Terminal Pyroglutamate: Oligopeptide Research Reference"
+description: "Cyclization of N-terminal glutamine to pyroglutamic acid. Protects against degradation. This peptide or oligopeptide is studied for its biological activity, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

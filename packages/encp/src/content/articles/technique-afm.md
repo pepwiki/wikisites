@@ -1,6 +1,6 @@
 ---
-title: "AFM for Peptides"
-description: "Application of AFM technique for peptide characterization, structure determination, or formulation."
+title: "AFM for Peptides: Analytical Technique in Peptide Research"
+description: "Application of AFM technique for peptide characterization, structure determination, or formulation. This analytical technique provides valuable insights into..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

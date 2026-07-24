@@ -1,6 +1,6 @@
 ---
-title: "ColabFold for Peptides"
-description: "A computational method for studying peptides using ColabFold."
+title: "ColabFold for Peptides: Analytical Technique in Peptide R..."
+description: "A computational method for studying peptides using ColabFold. This analytical technique provides valuable insights into peptide structure, purity, and charac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

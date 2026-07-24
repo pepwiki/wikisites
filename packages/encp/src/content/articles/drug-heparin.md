@@ -1,6 +1,6 @@
 ---
-title: "Heparin"
-description: "Comprehensive reference for heparin in peptide research."
+title: "Heparin: Oligopeptide Research Reference"
+description: "heparin in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential application..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

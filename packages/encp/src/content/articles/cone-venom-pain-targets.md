@@ -1,6 +1,6 @@
 ---
-title: "Cone Venom Pain Targets"
-description: "Molecular targets of conotoxins in pain pathways."
+title: "Cone Venom Pain Targets: Peptide Toxin in Pharmacology Re..."
+description: "Molecular targets of conotoxins in pain pathways. This peptide toxin is derived from venom and studied for its pharmacological activity, mechanism of action,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

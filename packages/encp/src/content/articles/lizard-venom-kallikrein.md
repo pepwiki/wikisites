@@ -1,6 +1,6 @@
 ---
-title: "Lizard Venom Kallikrein"
-description: "Comprehensive reference for Lizard Venom Kallikrein, a peptide compound with applications in research and therapeutics."
+title: "Lizard Venom Kallikrein: Oligopeptide Research Reference"
+description: "Lizard Venom Kallikrein, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

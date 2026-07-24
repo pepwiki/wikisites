@@ -1,6 +1,6 @@
 ---
-title: "Defensin Gene Regulation"
-description: "Transcriptional regulation by NF-kB, TLR signaling, and microbial products."
+title: "Defensin Gene Regulation: Antimicrobial Peptide Reference"
+description: "Transcriptional regulation by NF-kB, TLR signaling, and microbial products. This antimicrobial peptide demonstrates activity against pathogens and is studied..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

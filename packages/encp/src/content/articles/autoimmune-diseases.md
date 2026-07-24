@@ -1,6 +1,6 @@
 ---
-title: "Autoimmune Diseases"
-description: "Immune system attacks self-tissues. >80 known autoimmune diseases. Examples: RA, lupus, MS, type 1 diabetes, IBD, psoriasis. Treatments: immunosuppressants, biologics, JAK inhibitors."
+title: "Autoimmune Diseases: Oligopeptide Research Reference"
+description: "Immune system attacks self-tissues. >80 known autoimmune diseases. Examples: RA, lupus, MS, type 1 diabetes, IBD, psoriasis. Treatments: immunosuppressants, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Immune system attacks self-tissues. >80 known autoimmune diseases. Examples: RA, lupus, MS, type 1 diabetes, IBD, psoriasis. Treatments: immunosuppressants, biologics, JAK inhibitors.
+Immune system attacks self-tissues. >80 known autoimmune diseases. Examples: RA, lupus, MS, type 1 diabetes, IBD, psoriasis. Treatments: immunosuppressants, ...
 
 ## Clinical Significance
 

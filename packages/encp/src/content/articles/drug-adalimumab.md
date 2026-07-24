@@ -1,6 +1,6 @@
 ---
-title: "Adalimumab"
-description: "Comprehensive reference for adalimumab in peptide research."
+title: "Adalimumab: Oligopeptide Research Reference"
+description: "adalimumab in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

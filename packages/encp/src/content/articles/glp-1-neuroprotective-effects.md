@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 Neuroprotective Effects"
-description: "Neuroprotective properties including neuroinflammation reduction and Alzheimer disease benefits."
+title: "GLP-1 Neuroprotective Effects: Comprehensive Peptide Refe..."
+description: "Neuroprotective properties including neuroinflammation reduction and Alzheimer disease benefits. This peptide or oligopeptide is studied for its biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

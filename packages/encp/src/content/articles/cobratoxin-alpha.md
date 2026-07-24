@@ -1,6 +1,6 @@
 ---
-title: "Cobratoxin Alpha"
-description: "cobratoxin-alpha is a snake venom peptide toxin with specific pharmacological activity."
+title: "Cobratoxin Alpha: Peptide Toxin in Pharmacology Reference"
+description: "cobratoxin-alpha is a snake venom peptide toxin with specific pharmacological activity. This peptide toxin is derived from venom and studied for its pharmaco..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

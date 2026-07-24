@@ -1,6 +1,6 @@
 ---
-title: "Abaloparatide SC"
-description: "PTHrP(1-34) analog for postmenopausal osteoporosis with preferential PTH1R anabolic activation."
+title: "Abaloparatide SC: Oligopeptide Research Reference"
+description: "PTHrP(1-34) analog for postmenopausal osteoporosis with preferential PTH1R anabolic activation. This peptide or oligopeptide is studied for its biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

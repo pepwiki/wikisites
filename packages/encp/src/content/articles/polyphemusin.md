@@ -1,6 +1,6 @@
 ---
-title: "Polyphemusin"
-description: "AMP from horseshoe crab with anti-HIV activity through CXCR4 blockade."
+title: "Polyphemusin: Antimicrobial Peptide Reference"
+description: "AMP from horseshoe crab with anti-HIV activity through CXCR4 blockade. This antimicrobial peptide demonstrates activity against pathogens and is studied for ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

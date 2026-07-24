@@ -1,6 +1,6 @@
 ---
-title: "Calcitonin Peptide Hormone"
-description: "The Calcitonin Peptide Hormone and its role in endocrine signaling."
+title: "Calcitonin Peptide Hormone: Comprehensive Peptide Reference"
+description: "Calcitonin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

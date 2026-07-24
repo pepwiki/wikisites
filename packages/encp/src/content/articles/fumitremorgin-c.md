@@ -1,6 +1,6 @@
 ---
-title: "Fumitremorgin C"
-description: "Comprehensive reference for Fumitremorgin C, a peptide compound with applications in research and therapeutics."
+title: "Fumitremorgin C: Oligopeptide Research Reference"
+description: "Fumitremorgin C, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

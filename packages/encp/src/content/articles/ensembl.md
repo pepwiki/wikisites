@@ -1,6 +1,6 @@
 ---
-title: "Ensembl"
-description: "Genome browser and annotation database."
+title: "Ensembl: Oligopeptide Research Reference"
+description: "Genome browser and annotation database. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

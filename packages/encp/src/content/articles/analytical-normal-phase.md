@@ -1,6 +1,6 @@
 ---
-title: "Normal Phase Analysis"
-description: "An analytical technique for characterizing peptides using Normal Phase."
+title: "Normal Phase Analysis: Analytical Technique in Peptide Re..."
+description: "An analytical technique for characterizing peptides using Normal Phase. This analytical technique provides valuable insights into peptide structure, purity, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

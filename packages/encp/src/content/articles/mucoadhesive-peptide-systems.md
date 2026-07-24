@@ -1,6 +1,6 @@
 ---
-title: "Mucoadhesive Peptide Systems"
-description: "Mucoadhesive formulations adhering to GI mucosa for extended peptide absorption."
+title: "Mucoadhesive Peptide Systems: Comprehensive Peptide Refer..."
+description: "Mucoadhesive formulations adhering to GI mucosa for extended peptide absorption. This peptide or oligopeptide is studied for its biological activity, structu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

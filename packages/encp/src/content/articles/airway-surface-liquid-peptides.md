@@ -1,6 +1,6 @@
 ---
 title: "Airway Surface Liquid Peptides"
-description: "Antimicrobial peptides in airway surface liquid protecting against respiratory infections."
+description: "Antimicrobial peptides in airway surface liquid protecting against respiratory infections. This antimicrobial peptide demonstrates activity against pathogens..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

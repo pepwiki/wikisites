@@ -1,5 +1,5 @@
 ---
-title: "Insulin → Insulin Receptor"
+title: "Insulin → Insulin Receptor: Comprehensive Peptide Reference"
 description: "Comprehensive reference for Insulin → Insulin Receptor, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

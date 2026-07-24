@@ -1,6 +1,6 @@
 ---
-title: "Oxidative Folding Synthesis"
-description: "A peptide synthesis method using Oxidative Folding for producing peptides with specific properties."
+title: "Oxidative Folding Synthesis: Comprehensive Peptide Reference"
+description: "A peptide synthesis method using Oxidative Folding for producing peptides with specific properties. This analytical technique provides valuable insights into..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

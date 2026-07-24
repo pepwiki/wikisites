@@ -1,6 +1,6 @@
 ---
-title: "Endokinin A"
-description: "endokinin-A is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation."
+title: "Endokinin A: Neuropeptide in Neuroscience Reference"
+description: "endokinin-A is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

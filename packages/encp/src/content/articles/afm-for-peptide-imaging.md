@@ -1,6 +1,6 @@
 ---
-title: "AFM for Peptide Imaging"
-description: "Explore atomic force microscopy for high-resolution imaging of peptide morphology and self-assembly on surfaces."
+title: "AFM for Peptide Imaging: Analytical Technique in Peptide ..."
+description: "Explore atomic force microscopy for high-resolution imaging of peptide morphology and self-assembly on surfaces. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

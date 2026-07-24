@@ -1,6 +1,6 @@
 ---
 title: "Peptide Supply Chain Management"
-description: "Managing the complex supply chain for peptide raw materials and finished products."
+description: "Managing the complex supply chain for peptide raw materials and finished products. This peptide or oligopeptide is studied for its biological activity, struc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

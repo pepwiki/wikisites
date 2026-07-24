@@ -1,6 +1,6 @@
 ---
-title: "Calpain Inhibitor"
-description: "Comprehensive reference for calpain inhibitor in peptide research."
+title: "Calpain Inhibitor: Enzyme in Peptide Biology Reference"
+description: "calpain inhibitor in peptide research. This enzyme plays important roles in peptide metabolism and is studied for its biochemical mechanisms, substrate speci..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

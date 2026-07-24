@@ -1,6 +1,6 @@
 ---
-title: "Defensin Rs2"
-description: "defensin-rs2 is a defensin-family antimicrobial peptide with cysteine-stabilized structure and broad-spectrum activity."
+title: "Defensin Rs2: Antimicrobial Peptide Reference"
+description: "defensin-rs2 is a defensin-family antimicrobial peptide with cysteine-stabilized structure and broad-spectrum activity. Covers molecular mechanisms, biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

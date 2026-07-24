@@ -1,6 +1,6 @@
 ---
-title: "Enzyme Conjugation Synthesis"
-description: "A peptide synthesis method using Enzyme Conjugation for producing peptides with specific properties."
+title: "Enzyme Conjugation Synthesis: Comprehensive Peptide Refer..."
+description: "A peptide synthesis method using Enzyme Conjugation for producing peptides with specific properties. This analytical technique provides valuable insights int..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Obestatin"
-description: "23-amino acid gastric peptide derived from the ghrelin precursor, initially proposed as an anorexigenic hormone."
+title: "Obestatin: Endogenous Peptide Hormone Reference"
+description: "23-amino acid gastric peptide derived from the ghrelin precursor, initially proposed as an anorexigenic hormone. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

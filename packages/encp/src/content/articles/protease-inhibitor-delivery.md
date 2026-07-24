@@ -1,6 +1,6 @@
 ---
-title: "Protease Inhibitor Delivery"
-description: "Co-administered protease inhibitors protecting peptides from GI enzymatic degradation."
+title: "Protease Inhibitor Delivery: Comprehensive Peptide Reference"
+description: "Co-administered protease inhibitors protecting peptides from GI enzymatic degradation. This peptide or oligopeptide is studied for its biological activity, s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

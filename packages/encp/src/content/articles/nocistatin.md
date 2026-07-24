@@ -1,6 +1,6 @@
 ---
-title: "Nocistatin"
-description: "Prodynorphin-derived peptide modulating nociceptin effects."
+title: "Nocistatin: Neuropeptide in Neuroscience Reference"
+description: "Prodynorphin-derived peptide modulating nociceptin effects. This neuropeptide is involved in neurological signaling and is studied for its roles in brain fun..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Resolvin D1"
-description: "Comprehensive reference for resolvin D1 in peptide research."
+title: "Resolvin D1: Oligopeptide Research Reference"
+description: "resolvin D1 in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

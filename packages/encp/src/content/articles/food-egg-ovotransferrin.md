@@ -1,6 +1,6 @@
 ---
-title: "Egg Ovotransferrin"
-description: "Comprehensive reference for egg ovotransferrin in peptide research."
+title: "Egg Ovotransferrin: Oligopeptide Research Reference"
+description: "egg ovotransferrin in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

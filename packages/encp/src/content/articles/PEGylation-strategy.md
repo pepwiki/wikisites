@@ -1,6 +1,6 @@
 ---
-title: "PEGylation strategy"
-description: "Reference for pegylation strategy in peptide research."
+title: "PEGylation strategy: Oligopeptide Research Reference"
+description: "Comprehensive reference for pegylation strategy, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Insulin Glargine U300"
-description: "Concentrated insulin glargine (300 units/mL). Slower absorption from larger subcutaneous depot. T½ ~36 hours. Flatter profile than U-100. Indication: Type 1 and Type 2 diabetes (Toujeo)."
+title: "Insulin Glargine U300: Therapeutic Peptide Drug Profile"
+description: "Concentrated insulin glargine (300 units/mL). Slower absorption from larger subcutaneous depot. T½ ~36 hours. Flatter profile than U-100. Indication: Type 1 ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -15,11 +15,11 @@ relatedArticles: []
 | Property | Value |
 |----------|-------|
 | **Name** | Insulin Glargine U300 |
-| **Description** | Concentrated insulin glargine (300 units/mL). Slower absorption from larger subcutaneous depot. T½ ~36 hours. Flatter profile than U-100. Indication: Type 1 and Type 2 diabetes (Toujeo). |
+| **Description** | Concentrated insulin glargine (300 units/mL). Slower absorption from larger subcutaneous depot. T½ ~36 hours. Flatter profile than U-100. Indication: Type 1 ... |
 
 ## Mechanism of Action
 
-Concentrated insulin glargine (300 units/mL). Slower absorption from larger subcutaneous depot. T½ ~36 hours. Flatter profile than U-100. Indication: Type 1 and Type 2 diabetes (Toujeo).
+Concentrated insulin glargine (300 units/mL). Slower absorption from larger subcutaneous depot. T½ ~36 hours. Flatter profile than U-100. Indication: Type 1 ...
 
 ## Clinical Significance
 

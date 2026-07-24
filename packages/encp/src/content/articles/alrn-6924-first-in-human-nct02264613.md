@@ -1,6 +1,6 @@
 ---
 title: "ALRN-6924 - First-in-Human (NCT02264613)"
-description: "First-in-human trial of ALRN-6924, a dual MDM2/MDMX inhibitor peptide."
+description: "First-in-human trial of ALRN-6924, a dual MDM2/MDMX inhibitor peptide. This peptide or oligopeptide is studied for its biological activity, structure-activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

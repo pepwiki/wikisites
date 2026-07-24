@@ -1,6 +1,6 @@
 ---
-title: "Nivolumab"
-description: "Comprehensive reference for nivolumab in peptide research."
+title: "Nivolumab: Oligopeptide Research Reference"
+description: "nivolumab in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicati..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

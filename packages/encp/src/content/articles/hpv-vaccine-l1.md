@@ -1,6 +1,6 @@
 ---
-title: "HPV Vaccine L1"
-description: "HPV-vaccine-L1 is a peptide antigen used in vaccine development for infectious disease prevention."
+title: "HPV Vaccine L1: Oligopeptide Research Reference"
+description: "HPV-vaccine-L1 is a peptide antigen used in vaccine development for infectious disease prevention. This peptide or oligopeptide is studied for its biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

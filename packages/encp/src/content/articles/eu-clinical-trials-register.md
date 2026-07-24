@@ -1,6 +1,6 @@
 ---
-title: "EU Clinical Trials Register"
-description: "Database of clinical trials conducted in the European Union."
+title: "EU Clinical Trials Register: Comprehensive Peptide Reference"
+description: "Database of clinical trials conducted in the European Union. This peptide or oligopeptide is studied for its biological activity, structure-activity relation..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

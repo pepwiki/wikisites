@@ -1,6 +1,6 @@
 ---
-title: "Erythropoietin Hormone"
-description: "The Erythropoietin Hormone and its role in endocrine signaling."
+title: "Erythropoietin Hormone: Endogenous Peptide Hormone Reference"
+description: "Erythropoietin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clin..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

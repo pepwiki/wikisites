@@ -1,6 +1,6 @@
 ---
-title: "Thyroid Cancer"
-description: "Malignant transformation of thyroid epithelium."
+title: "Thyroid Cancer: Oligopeptide Research Reference"
+description: "Malignant transformation of thyroid epithelium. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and po..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

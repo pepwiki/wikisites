@@ -1,6 +1,6 @@
 ---
-title: "Long noncoding RNA"
-description: "Reference for long noncoding rna in peptide research."
+title: "Long noncoding RNA: Oligopeptide Research Reference"
+description: "Comprehensive reference for long noncoding rna, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Degarelix"
-description: "GnRH receptor antagonist for prostate cancer providing immediate androgen deprivation."
+title: "Degarelix: Oligopeptide Research Reference"
+description: "GnRH receptor antagonist for prostate cancer providing immediate androgen deprivation. This peptide or oligopeptide is studied for its biological activity, s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

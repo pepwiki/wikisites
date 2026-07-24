@@ -1,6 +1,6 @@
 ---
-title: "Prolactin Family Peptides"
-description: "Learn about prolactin family peptides and their roles in lactation, reproduction, and immune modulation."
+title: "Prolactin Family Peptides: Comprehensive Peptide Reference"
+description: "Learn about prolactin family peptides and their roles in lactation, reproduction, and immune modulation. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
 title: "Peptide Nucleic Acid Detection"
-description: "Learn methods for detecting and characterizing peptide nucleic acid hybrids using gel shift and fluorescence assays."
+description: "Learn methods for detecting and characterizing peptide nucleic acid hybrids using gel shift and fluorescence assays. Covers molecular mechanisms, biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

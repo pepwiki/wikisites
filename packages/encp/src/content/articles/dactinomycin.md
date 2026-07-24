@@ -1,5 +1,5 @@
 ---
-title: "Dactinomycin"
+title: "Dactinomycin: Oligopeptide Research Reference"
 description: "Chromopeptide antibiotic that intercalates into DNA and inhibits RNA polymerase, used as a chemotherapeutic agent for pediatric and testicular cancers."
 status: "published"
 author: "Encyclopeptide Editorial"

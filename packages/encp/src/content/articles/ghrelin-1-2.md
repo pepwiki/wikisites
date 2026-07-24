@@ -1,6 +1,6 @@
 ---
-title: "Ghrelin 1-2"
-description: "Reference for ghrelin 1-2 variant in peptide research."
+title: "Ghrelin 1-2: Peptide Fragment Reference"
+description: "Comprehensive reference for ghrelin 1-2 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

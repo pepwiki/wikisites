@@ -1,6 +1,6 @@
 ---
-title: "BMP 2 Hormone"
-description: "The BMP 2 Hormone and its role in endocrine signaling."
+title: "BMP 2 Hormone: Endogenous Peptide Hormone Reference"
+description: "BMP 2, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical sign..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

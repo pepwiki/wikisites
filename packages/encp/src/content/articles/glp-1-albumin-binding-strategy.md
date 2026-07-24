@@ -1,6 +1,6 @@
 ---
 title: "GLP-1 Albumin Binding Strategy"
-description: "Fatty acid acylation strategy for albumin binding extending half-life through reduced renal clearance."
+description: "Fatty acid acylation strategy for albumin binding extending half-life through reduced renal clearance. This peptide or oligopeptide is studied for its biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

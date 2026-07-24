@@ -1,6 +1,6 @@
 ---
-title: "Ubiquitin-proteasome system, 2004 Nobel Prize (Ciechanover, Hershko, Rose)"
-description: "Ubiquitin-proteasome system, 2004 Nobel Prize (Ciechanover, Hershko, Rose) is a bioactive compound with applications in peptide research and therapeutics."
+title: "Ubiquitin-proteasome system, 2004 Nobel Prize (Ciechanove..."
+description: "Ubiquitin-proteasome system, 2004 Nobel Prize (Ciechanove... is a bioactive compound with applications in peptide research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
@@ -12,13 +12,13 @@ relatedArticles: []
 
 ## Overview
 
-Ubiquitin-proteasome system, 2004 Nobel Prize (Ciechanover, Hershko, Rose) is a peptide compound with applications in research and therapeutics. Field
+Ubiquitin-proteasome system, 2004 Nobel Prize (Ciechanove... is a peptide compound with applications in research and therapeutics. Field
 
 ## Chemical Identity
 
 | Property | Value |
 |----------|-------|
-| Name | Ubiquitin-proteasome system, 2004 Nobel Prize (Ciechanover, Hershko, Rose) |
+| Name | Ubiquitin-proteasome system, 2004 Nobel Prize (Ciechanove... |
 | Sequence | ---
 
 ### Milestone 018 |
@@ -28,11 +28,11 @@ Ubiquitin-proteasome system, 2004 Nobel Prize (Ciechanover, Hershko, Rose) is a 
 
 ## Structure
 
-Ubiquitin-proteasome system, 2004 Nobel Prize (Ciechanover, Hershko, Rose) belongs to the Peptide History class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+Ubiquitin-proteasome system, 2004 Nobel Prize (Ciechanove... belongs to the Peptide History class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
 ## Applications
 
-Ubiquitin-proteasome system, 2004 Nobel Prize (Ciechanover, Hershko, Rose) has been studied for its potential applications in:
+Ubiquitin-proteasome system, 2004 Nobel Prize (Ciechanove... has been studied for its potential applications in:
 - Biomedical research
 - Drug discovery
 - Diagnostic applications

@@ -1,6 +1,6 @@
 ---
-title: "Omega-Conotoxin MVIIA"
-description: "N-type calcium channel blocker from Conus magus for severe chronic pain."
+title: "Omega-Conotoxin MVIIA: Peptide Toxin in Pharmacology Refe..."
+description: "N-type calcium channel blocker from Conus magus for severe chronic pain. This peptide toxin is derived from venom and studied for its pharmacological activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

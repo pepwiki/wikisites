@@ -1,5 +1,5 @@
 ---
-title: "Collagen Peptides (Marine)"
+title: "Collagen Peptides (Marine): Comprehensive Peptide Reference"
 description: "Comprehensive reference for Collagen Peptides (Marine), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

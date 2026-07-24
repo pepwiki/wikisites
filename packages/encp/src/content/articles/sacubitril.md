@@ -1,6 +1,6 @@
 ---
-title: "Sacubitril"
-description: "Sacubitril is a neprilysin inhibitor prodrug that enhances natriuretic peptide levels, combined with valsartan as Entresto for heart failure with reduced ejection fraction."
+title: "Sacubitril: Oligopeptide Research Reference"
+description: "Sacubitril is a neprilysin inhibitor prodrug that enhances natriuretic peptide levels, combined with valsartan as Entresto for heart failure with reduced eje..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-08-25

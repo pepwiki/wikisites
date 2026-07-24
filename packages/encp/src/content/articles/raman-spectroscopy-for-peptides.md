@@ -1,6 +1,6 @@
 ---
 title: "Raman Spectroscopy for Peptides"
-description: "Explore Raman spectroscopy for label-free peptide structural characterization and conformational analysis."
+description: "Explore Raman spectroscopy for label-free peptide structural characterization and conformational analysis. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

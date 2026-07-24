@@ -1,6 +1,6 @@
 ---
-title: "Silk Fibroin"
-description: "The main structural protein of silk, composed of repetitive GAGAGS sequences that form beta-sheet crystalline structures, with applications in biomedical engineering and drug delivery."
+title: "Silk Fibroin: Oligopeptide Research Reference"
+description: "The main structural protein of silk, composed of repetitive GAGAGS sequences that form beta-sheet crystalline structures, with applications in biomedical eng..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

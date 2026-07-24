@@ -1,6 +1,6 @@
 ---
-title: "Galcanezumab"
-description: "Anti-CGRP monoclonal antibody for episodic and chronic migraine prevention."
+title: "Galcanezumab: Oligopeptide Research Reference"
+description: "Anti-CGRP monoclonal antibody for episodic and chronic migraine prevention. This peptide or oligopeptide is studied for its biological activity, structure-ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

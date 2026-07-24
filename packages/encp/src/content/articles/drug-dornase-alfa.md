@@ -1,6 +1,6 @@
 ---
-title: "Dornase Alfa"
-description: "Comprehensive reference for dornase alfa in peptide research."
+title: "Dornase Alfa: Oligopeptide Research Reference"
+description: "dornase alfa in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

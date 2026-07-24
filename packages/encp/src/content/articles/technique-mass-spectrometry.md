@@ -1,6 +1,6 @@
 ---
 title: "mass-spectrometry for Peptides"
-description: "Application of mass-spectrometry technique for peptide characterization, structure determination, or formulation."
+description: "Application of mass-spectrometry technique for peptide characterization, structure determination, or formulation. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

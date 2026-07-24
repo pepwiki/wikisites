@@ -1,6 +1,6 @@
 ---
-title: "Dialysis Purification"
-description: "A purification technique for separating and isolating peptides using Dialysis."
+title: "Dialysis Purification: Analytical Technique in Peptide Re..."
+description: "A purification technique for separating and isolating peptides using Dialysis. This analytical technique provides valuable insights into peptide structure, p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

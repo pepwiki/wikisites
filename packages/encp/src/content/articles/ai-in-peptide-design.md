@@ -1,6 +1,6 @@
 ---
-title: "AI in Peptide Design"
-description: "How artificial intelligence is transforming peptide drug discovery and design optimization."
+title: "AI in Peptide Design: Oligopeptide Research Reference"
+description: "How artificial intelligence is transforming peptide drug discovery and design optimization. This peptide or oligopeptide is studied for its biological activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

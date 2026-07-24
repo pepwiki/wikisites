@@ -1,6 +1,6 @@
 ---
-title: "Half Life Extension System 1"
-description: "A half-life-extension-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy."
+title: "Half Life Extension System 1: Comprehensive Peptide Refer..."
+description: "A half-life-extension-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy.. This innovative approach addresses key c..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

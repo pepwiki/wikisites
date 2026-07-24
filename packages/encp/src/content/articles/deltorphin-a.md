@@ -1,6 +1,6 @@
 ---
-title: "Deltorphin A"
-description: "Comprehensive reference for Deltorphin A, a peptide compound with applications in research and therapeutics."
+title: "Deltorphin A: Antimicrobial Peptide Reference"
+description: "Deltorphin A, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Chameleon Skin Peptide"
-description: "Comprehensive reference for Chameleon Skin Peptide, a peptide compound with applications in research and therapeutics."
+title: "Chameleon Skin Peptide: Oligopeptide Research Reference"
+description: "Chameleon Skin Peptide, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

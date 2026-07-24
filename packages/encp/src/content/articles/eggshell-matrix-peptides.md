@@ -1,5 +1,5 @@
 ---
-title: "Eggshell Matrix Peptides"
+title: "Eggshell Matrix Peptides: Oligopeptide Research Reference"
 description: "Comprehensive reference for Eggshell Matrix Peptides, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,6 +1,6 @@
 ---
-title: "Gamma Bungarotoxin"
-description: "gamma-bungarotoxin is a snake venom peptide toxin with specific pharmacological activity."
+title: "Gamma Bungarotoxin: Peptide Toxin in Pharmacology Reference"
+description: "gamma-bungarotoxin is a snake venom peptide toxin with specific pharmacological activity. This peptide toxin is derived from venom and studied for its pharma..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "UniProt Resource"
-description: "The UniProt database or resource for peptide research, providing data on structure, function, and interactions."
+title: "UniProt Resource: Oligopeptide Research Reference"
+description: "The UniProt database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

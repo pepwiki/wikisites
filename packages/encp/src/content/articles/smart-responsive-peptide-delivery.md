@@ -1,6 +1,6 @@
 ---
 title: "Smart Responsive Peptide Delivery"
-description: "Discover stimuli-responsive delivery systems that release peptides in response to pH, temperature, or enzymes."
+description: "Discover stimuli-responsive delivery systems that release peptides in response to pH, temperature, or enzymes. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

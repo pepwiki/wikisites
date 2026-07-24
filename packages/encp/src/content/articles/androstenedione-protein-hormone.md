@@ -1,6 +1,6 @@
 ---
 title: "Androstenedione Protein Hormone"
-description: "The Androstenedione Protein Hormone and its role in endocrine signaling."
+description: "Androstenedione, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and cli..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "AMP Drug Delivery"
-description: "Formulation strategies including nanoparticle encapsulation and hydrogel systems."
+title: "AMP Drug Delivery: Antimicrobial Peptide Reference"
+description: "Formulation strategies including nanoparticle encapsulation and hydrogel systems. This antimicrobial peptide demonstrates activity against pathogens and is s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

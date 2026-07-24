@@ -1,6 +1,6 @@
 ---
-title: "Milestone 001"
-description: "1921: Discovery of insulin by Banting and Best. First peptide hormone isolated for therapeutic use. Nobel Prize 1923."
+title: "Milestone 001: Oligopeptide Research Reference"
+description: "1921: Discovery of insulin by Banting and Best. First peptide hormone isolated for therapeutic use. Nobel Prize 1923. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Milestone 026"
-description: "1980: First monoclonal antibody (OKT3) approved. Opens era of antibody therapeutics."
+title: "Milestone 026: Oligopeptide Research Reference"
+description: "1980: First monoclonal antibody (OKT3) approved. Opens era of antibody therapeutics. This peptide or oligopeptide is studied for its biological activity, str..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,5 +1,5 @@
 ---
-title: "Tyrocidine B1"
+title: "Tyrocidine B1: Antimicrobial Peptide Reference"
 description: "tyrocidine-B1 is a peptide antibiotic produced by bacteria with antimicrobial activity used in clinical and agricultural applications."
 status: "published"
 author: "Encyclopeptide Editorial"

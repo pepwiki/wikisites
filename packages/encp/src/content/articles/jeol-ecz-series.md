@@ -1,6 +1,6 @@
 ---
-title: "JEOL ECZ Series"
-description: "NMR spectrometer for protein structure and dynamics studies."
+title: "JEOL ECZ Series: Oligopeptide Research Reference"
+description: "NMR spectrometer for protein structure and dynamics studies. This peptide or oligopeptide is studied for its biological activity, structure-activity relation..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

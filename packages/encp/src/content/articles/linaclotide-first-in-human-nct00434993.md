@@ -1,6 +1,6 @@
 ---
 title: "Linaclotide - First-in-Human (NCT00434993)"
-description: "First-in-human trial of linaclotide for IBS-C."
+description: "First-in-human trial of linaclotide for IBS-C. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and pot..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

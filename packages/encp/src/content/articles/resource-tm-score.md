@@ -1,6 +1,6 @@
 ---
-title: "TM-score Resource"
-description: "The TM-score database or resource for peptide research, providing data on structure, function, and interactions."
+title: "TM-score Resource: Oligopeptide Research Reference"
+description: "The TM-score database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

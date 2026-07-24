@@ -1,6 +1,6 @@
 ---
 title: "Brain Derived Growth Factor 1-70"
-description: "Reference for brain derived growth factor 1-70 in peptide research."
+description: "Comprehensive reference for brain derived growth factor 1-70, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

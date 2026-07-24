@@ -1,6 +1,6 @@
 ---
-title: "Milestone 011"
-description: "2003: First anti-TNF biologic (adalimumab) approved. Opens era of biologic immunotherapy."
+title: "Milestone 011: Oligopeptide Research Reference"
+description: "2003: First anti-TNF biologic (adalimumab) approved. Opens era of biologic immunotherapy. This peptide or oligopeptide is studied for its biological activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

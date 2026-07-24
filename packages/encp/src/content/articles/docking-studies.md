@@ -1,6 +1,6 @@
 ---
-title: "Docking Studies"
-description: "Computational methods for predicting peptide-protein binding modes."
+title: "Docking Studies: Oligopeptide Research Reference"
+description: "Computational methods for predicting peptide-protein binding modes. This peptide or oligopeptide is studied for its biological activity, structure-activity r..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

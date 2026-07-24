@@ -1,6 +1,6 @@
 ---
-title: "Degludec Pharmacodynamics"
-description: "Pharmacodynamic profile demonstrating flat glucose-lowering effect with intra-individual variability below 20%."
+title: "Degludec Pharmacodynamics: Comprehensive Peptide Reference"
+description: "Pharmacodynamic profile demonstrating flat glucose-lowering effect with intra-individual variability below 20%. Covers molecular mechanisms, biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

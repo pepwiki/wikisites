@@ -1,6 +1,6 @@
 ---
-title: "NT 4 Peptide Hormone"
-description: "The NT 4 Peptide Hormone and its role in endocrine signaling."
+title: "NT 4 Peptide Hormone: Endogenous Peptide Hormone Reference"
+description: "NT 4, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical signi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Lung Cancer Peptides"
-description: "Peptides associated with Lung Cancer including biomarkers, therapeutic targets, and diagnostic markers."
+title: "Lung Cancer Peptides: Oligopeptide Research Reference"
+description: "Peptides associated with Lung Cancer including biomarkers, therapeutic targets, and diagnostic markers. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

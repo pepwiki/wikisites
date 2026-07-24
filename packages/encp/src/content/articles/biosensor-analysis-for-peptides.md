@@ -1,6 +1,6 @@
 ---
 title: "Biosensor Analysis for Peptides"
-description: "Explore label-free biosensor platforms for real-time monitoring of peptide binding and enzymatic activity."
+description: "Explore label-free biosensor platforms for real-time monitoring of peptide binding and enzymatic activity. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,5 +1,5 @@
 ---
-title: "Codorphin"
+title: "Codorphin: Neuropeptide in Neuroscience Reference"
 description: "codorphin is an opioid neuropeptide that modulates pain, reward, and stress responses through opioid receptor activation."
 status: "published"
 author: "Encyclopeptide Editorial"

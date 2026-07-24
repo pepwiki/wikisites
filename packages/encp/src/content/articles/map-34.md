@@ -1,6 +1,6 @@
 ---
-title: "MAP 34"
-description: "MAP-34 is a cathelicidin antimicrobial peptide with broad-spectrum activity against bacteria, fungi, and viruses."
+title: "MAP 34: Antimicrobial Peptide Reference"
+description: "MAP-34 is a cathelicidin antimicrobial peptide with broad-spectrum activity against bacteria, fungi, and viruses. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

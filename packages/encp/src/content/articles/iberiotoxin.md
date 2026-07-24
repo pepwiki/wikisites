@@ -1,6 +1,6 @@
 ---
-title: "Iberiotoxin"
-description: "Highly selective BK potassium channel blocker from scorpion Buthus tamulus."
+title: "Iberiotoxin: Peptide Toxin in Pharmacology Reference"
+description: "Highly selective BK potassium channel blocker from scorpion Buthus tamulus. This peptide toxin is derived from venom and studied for its pharmacological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Wasp Venom Cancer Targets"
-description: "Molecular targets of wasp venom peptides in cancer cells."
+title: "Wasp Venom Cancer Targets: Comprehensive Peptide Reference"
+description: "Molecular targets of wasp venom peptides in cancer cells. This peptide toxin is derived from venom and studied for its pharmacological activity, mechanism of..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

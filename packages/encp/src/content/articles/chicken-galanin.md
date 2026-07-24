@@ -1,6 +1,6 @@
 ---
-title: "Chicken Galanin"
-description: "Galanin neuropeptide from chicken brain. Roles in feeding behavior and neuroendocrine regulation."
+title: "Chicken Galanin: Oligopeptide Research Reference"
+description: "Galanin neuropeptide from chicken brain. Roles in feeding behavior and neuroendocrine regulation. This peptide or oligopeptide is studied for its biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

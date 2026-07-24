@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 Thyroid C-Cell Risk"
-description: "Preclinical thyroid C-cell tumors in rodents and relevance assessment for human risk."
+title: "GLP-1 Thyroid C-Cell Risk: Comprehensive Peptide Reference"
+description: "Preclinical thyroid C-cell tumors in rodents and relevance assessment for human risk. This peptide or oligopeptide is studied for its biological activity, st..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

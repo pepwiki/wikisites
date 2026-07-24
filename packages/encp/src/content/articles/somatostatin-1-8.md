@@ -1,6 +1,6 @@
 ---
-title: "Somatostatin 1-8"
-description: "Reference for somatostatin 1-8 variant in peptide research."
+title: "Somatostatin 1-8: Peptide Fragment Reference"
+description: "Comprehensive reference for somatostatin 1-8 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,5 +1,5 @@
 ---
-title: "Nematode Surface Peptides"
+title: "Nematode Surface Peptides: Comprehensive Peptide Reference"
 description: "Comprehensive reference for Nematode Surface Peptides, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

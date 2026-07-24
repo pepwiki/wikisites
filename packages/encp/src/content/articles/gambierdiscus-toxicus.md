@@ -1,6 +1,6 @@
 ---
-title: "Gambierdiscus toxicus"
-description: "Persistent Na+ channel activation"
+title: "Gambierdiscus toxicus: Oligopeptide Research Reference"
+description: "Persistent Na+ channel activation. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appli..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

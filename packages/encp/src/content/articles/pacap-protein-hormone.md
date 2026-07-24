@@ -1,6 +1,6 @@
 ---
-title: "PACAP Protein Hormone"
-description: "The PACAP Protein Hormone and its role in endocrine signaling."
+title: "PACAP Protein Hormone: Endogenous Peptide Hormone Reference"
+description: "PACAP, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical sign..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

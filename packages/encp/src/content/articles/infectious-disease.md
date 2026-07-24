@@ -1,6 +1,6 @@
 ---
-title: "Infectious Disease"
-description: "Diseases caused by pathogenic microorganisms (bacteria, viruses, fungi, parasites). Treatments: antibiotics (bacterial), antivirals (viral), antifungals (fungal), antiparasitics (parasitic). Challenges: antimicrobial resistance, emerging pathogens, vaccine development."
+title: "Infectious Disease: Oligopeptide Research Reference"
+description: "Diseases caused by pathogenic microorganisms (bacteria, viruses, fungi, parasites). Treatments: antibiotics (bacterial), antivirals (viral), antifungals (fun..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Diseases caused by pathogenic microorganisms (bacteria, viruses, fungi, parasites). Treatments: antibiotics (bacterial), antivirals (viral), antifungals (fungal), antiparasitics (parasitic). Challenges: antimicrobial resistance, emerging pathogens, vaccine development.
+Diseases caused by pathogenic microorganisms (bacteria, viruses, fungi, parasites). Treatments: antibiotics (bacterial), antivirals (viral), antifungals (fun...
 
 ## Clinical Significance
 

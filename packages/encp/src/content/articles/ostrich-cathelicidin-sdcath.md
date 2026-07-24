@@ -1,5 +1,5 @@
 ---
-title: "Ostrich Cathelicidin (SdCATH)"
+title: "Ostrich Cathelicidin (SdCATH): Comprehensive Peptide Refe..."
 description: "Comprehensive reference for Ostrich Cathelicidin (SdCATH), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

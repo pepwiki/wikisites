@@ -1,6 +1,6 @@
 ---
-title: "Ebola GP Vaccine"
-description: "A peptide vaccine targeting Ebola GP for infectious disease prevention."
+title: "Ebola GP Vaccine: Oligopeptide Research Reference"
+description: "A peptide vaccine targeting Ebola GP for infectious disease prevention. This peptide or oligopeptide is studied for its biological activity, structure-activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

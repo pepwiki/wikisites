@@ -1,6 +1,6 @@
 ---
-title: "Insulin COI-316"
-description: "Ultra-long-acting insulin analog with high albumin affinity and slow receptor dissociation for weekly dosing."
+title: "Insulin COI-316: Oligopeptide Research Reference"
+description: "Ultra-long-acting insulin analog with high albumin affinity and slow receptor dissociation for weekly dosing. This peptide or oligopeptide is studied for its..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

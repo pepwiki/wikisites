@@ -1,6 +1,6 @@
 ---
-title: "Checkpoint Inhibitor 4-1BB"
-description: "Reference for checkpoint inhibitor 4-1BB in peptide research."
+title: "Checkpoint Inhibitor 4-1BB: Comprehensive Peptide Reference"
+description: "Comprehensive reference for checkpoint inhibitor 4-1BB, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "COVID-19"
-description: "SARS-CoV-2 respiratory illness. Treatments: antivirals, monoclonal antibodies, corticosteroids."
+title: "COVID-19: Oligopeptide Research Reference"
+description: "SARS-CoV-2 respiratory illness. Treatments: antivirals, monoclonal antibodies, corticosteroids. This peptide or oligopeptide is studied for its biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

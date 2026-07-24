@@ -1,6 +1,6 @@
 ---
-title: "Insulin"
-description: "A 51-amino acid peptide hormone produced by pancreatic β-cells that regulates glucose metabolism, with A-chain (21 aa) and B-chain (30 aa) connected by disulfide bonds."
+title: "Insulin: Oligopeptide Research Reference"
+description: "A 51-amino acid peptide hormone produced by pancreatic β-cells that regulates glucose metabolism, with A-chain (21 aa) and B-chain (30 aa) connected by disul..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

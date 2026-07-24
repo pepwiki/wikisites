@@ -1,6 +1,6 @@
 ---
-title: "HIV Gp41 MPER"
-description: "HIV-gp41-MPER is a peptide antigen used in vaccine development for infectious disease prevention."
+title: "HIV Gp41 MPER: Oligopeptide Research Reference"
+description: "HIV-gp41-MPER is a peptide antigen used in vaccine development for infectious disease prevention. This peptide or oligopeptide is studied for its biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

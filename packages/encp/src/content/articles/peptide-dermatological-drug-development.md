@@ -1,6 +1,6 @@
 ---
 title: "Peptide Dermatological Drug Development"
-description: "Development challenges for topical peptide therapeutics including skin penetration optimization."
+description: "Development challenges for topical peptide therapeutics including skin penetration optimization. This peptide or oligopeptide is studied for its biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "CD Analysis"
-description: "An analytical technique for characterizing peptides using CD."
+title: "CD Analysis: Analytical Technique in Peptide Research"
+description: "An analytical technique for characterizing peptides using CD. This analytical technique provides valuable insights into peptide structure, purity, and charac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

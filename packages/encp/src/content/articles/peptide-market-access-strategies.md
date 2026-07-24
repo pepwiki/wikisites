@@ -1,6 +1,6 @@
 ---
 title: "Peptide Market Access Strategies"
-description: "Pricing, reimbursement, and market access strategies for peptide therapeutics."
+description: "Pricing, reimbursement, and market access strategies for peptide therapeutics. This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Stress Response Peptides"
-description: "Neuropeptides coordinating hypothalamic-pituitary-adrenal stress response."
+title: "Stress Response Peptides: Neuropeptide in Neuroscience Re..."
+description: "Neuropeptides coordinating hypothalamic-pituitary-adrenal stress response. This neuropeptide is involved in neurological signaling and is studied for its rol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Milk Lactokinin"
-description: "Comprehensive reference for milk lactokinin in peptide research."
+title: "Milk Lactokinin: Oligopeptide Research Reference"
+description: "milk lactokinin in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential app..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

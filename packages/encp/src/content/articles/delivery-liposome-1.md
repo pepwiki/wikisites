@@ -1,6 +1,6 @@
 ---
-title: "Liposome System 1"
-description: "A liposome-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy."
+title: "Liposome System 1: Oligopeptide Research Reference"
+description: "A liposome-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy.. This innovative approach addresses key challenges i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

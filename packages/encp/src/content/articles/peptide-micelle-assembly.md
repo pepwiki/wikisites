@@ -1,6 +1,6 @@
 ---
-title: "Peptide micelle assembly"
-description: "Reference for peptide micelle assembly in peptide research."
+title: "Peptide micelle assembly: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide micelle assembly, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

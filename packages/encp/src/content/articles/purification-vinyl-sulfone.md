@@ -1,6 +1,6 @@
 ---
-title: "Vinyl Sulfone Purification"
-description: "A purification technique for separating and isolating peptides using Vinyl Sulfone."
+title: "Vinyl Sulfone Purification: Comprehensive Peptide Reference"
+description: "A purification technique for separating and isolating peptides using Vinyl Sulfone. This analytical technique provides valuable insights into peptide structu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

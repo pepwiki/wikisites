@@ -1,6 +1,6 @@
 ---
-title: "Hyenain 1"
-description: "hyenain-1 is a cyclotide — a cyclic, knotted peptide from plants with exceptional stability and insecticidal activity."
+title: "Hyenain 1: Oligopeptide Research Reference"
+description: "hyenain-1 is a cyclotide — a cyclic, knotted peptide from plants with exceptional stability and insecticidal activity. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

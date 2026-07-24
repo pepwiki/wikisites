@@ -1,6 +1,6 @@
 ---
 title: "Iontophoresis Peptide Delivery"
-description: "Understand iontophoretic enhancement for transdermal peptide delivery using low-level electrical current."
+description: "Understand iontophoretic enhancement for transdermal peptide delivery using low-level electrical current. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

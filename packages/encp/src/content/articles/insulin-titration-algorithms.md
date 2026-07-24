@@ -1,6 +1,6 @@
 ---
-title: "Insulin Titration Algorithms"
-description: "Algorithmic approaches to basal insulin dose titration including treat-to-target protocols."
+title: "Insulin Titration Algorithms: Comprehensive Peptide Refer..."
+description: "Algorithmic approaches to basal insulin dose titration including treat-to-target protocols. This peptide or oligopeptide is studied for its biological activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

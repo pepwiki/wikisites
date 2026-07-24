@@ -1,6 +1,6 @@
 ---
-title: "Morphine-6-Glucuronide"
-description: "Active metabolite of morphine with potent mu-opioid agonist activity."
+title: "Morphine-6-Glucuronide: Neuropeptide in Neuroscience Refe..."
+description: "Active metabolite of morphine with potent mu-opioid agonist activity. This neuropeptide is involved in neurological signaling and is studied for its roles in..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

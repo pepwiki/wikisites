@@ -1,6 +1,6 @@
 ---
-title: "Alpha Conotoxin AuIB"
-description: "alpha-conotoxin-AuIB is a conotoxin from cone snail venom with specific ion channel blocking properties."
+title: "Alpha Conotoxin AuIB: Peptide Toxin in Pharmacology Refer..."
+description: "alpha-conotoxin-AuIB is a conotoxin from cone snail venom with specific ion channel blocking properties. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

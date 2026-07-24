@@ -1,6 +1,6 @@
 ---
-title: "Digital Health Peptides: Wearable Biosensors and Smart Diagnostics"
-description: "Explore peptide-integrated wearable devices for real-time health monitoring and point-of-care diagnostics."
+title: "Digital Health Peptides: Wearable Biosensors and Smart Di..."
+description: "Explore peptide-integrated wearable devices for real-time health monitoring and point-of-care diagnostics. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

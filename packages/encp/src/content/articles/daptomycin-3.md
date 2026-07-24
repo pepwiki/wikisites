@@ -1,5 +1,5 @@
 ---
-title: "Daptomycin"
+title: "Daptomycin: Antimicrobial Peptide Reference"
 description: "Cyclic lipopeptide antibiotic that inserts into gram-positive bacterial membranes, causing rapid depolarization and cell death."
 status: "published"
 author: "Encyclopeptide Editorial"

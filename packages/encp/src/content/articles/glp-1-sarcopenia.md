@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 Sarcopenia"
-description: "Lean mass loss concerns during weight reduction and strategies for preserving muscle mass."
+title: "GLP-1 Sarcopenia: Oligopeptide Research Reference"
+description: "Lean mass loss concerns during weight reduction and strategies for preserving muscle mass. This peptide or oligopeptide is studied for its biological activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

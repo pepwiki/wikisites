@@ -1,6 +1,6 @@
 ---
-title: "Etorphine"
-description: "Extremely potent semi-synthetic opioid for veterinary immobilization."
+title: "Etorphine: Neuropeptide in Neuroscience Reference"
+description: "Extremely potent semi-synthetic opioid for veterinary immobilization. This neuropeptide is involved in neurological signaling and is studied for its roles in..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

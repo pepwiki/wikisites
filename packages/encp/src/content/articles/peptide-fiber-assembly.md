@@ -1,6 +1,6 @@
 ---
-title: "Peptide fiber assembly"
-description: "Reference for peptide fiber assembly in peptide research."
+title: "Peptide fiber assembly: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide fiber assembly, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

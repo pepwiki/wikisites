@@ -1,6 +1,6 @@
 ---
-title: "Car T Target CD70"
-description: "Reference for car t target CD70 in peptide research."
+title: "Car T Target CD70: Oligopeptide Research Reference"
+description: "Comprehensive reference for car t target CD70, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Toxicity"
-description: "Organ damage (liver, kidney, heart, nerve, blood)"
+title: "Toxicity: Oligopeptide Research Reference"
+description: "Organ damage (liver, kidney, heart, nerve, blood). This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

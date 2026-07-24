@@ -1,6 +1,6 @@
 ---
-title: "Cell-Free Protein Synthesis"
-description: "In vitro transcription/translation using cell extracts"
+title: "Cell-Free Protein Synthesis: Comprehensive Peptide Reference"
+description: "In vitro transcription/translation using cell extracts. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

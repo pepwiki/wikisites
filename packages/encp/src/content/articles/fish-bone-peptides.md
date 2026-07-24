@@ -1,6 +1,6 @@
 ---
-title: "Fish Bone Peptides"
-description: "Comprehensive reference for Fish Bone Peptides, a peptide compound with applications in research and therapeutics."
+title: "Fish Bone Peptides: Oligopeptide Research Reference"
+description: "Fish Bone Peptides, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

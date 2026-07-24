@@ -1,5 +1,5 @@
 ---
-title: "Acetyl Octapeptide-3 (SNAP-8)"
+title: "Acetyl Octapeptide-3 (SNAP-8): Comprehensive Peptide Refe..."
 description: "Comprehensive reference for Acetyl Octapeptide-3 (SNAP-8), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

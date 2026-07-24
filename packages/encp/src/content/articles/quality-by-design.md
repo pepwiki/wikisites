@@ -1,6 +1,6 @@
 ---
-title: "Quality by Design"
-description: "Quality by Design approach to peptide drug development."
+title: "Quality by Design: Oligopeptide Research Reference"
+description: "Quality by Design approach to peptide drug development. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Insulin Pump Infusion Sets"
-description: "Subcutaneous catheter systems for continuous insulin delivery from external pump devices."
+title: "Insulin Pump Infusion Sets: Comprehensive Peptide Reference"
+description: "Subcutaneous catheter systems for continuous insulin delivery from external pump devices. This peptide or oligopeptide is studied for its biological activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

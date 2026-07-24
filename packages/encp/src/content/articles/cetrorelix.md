@@ -1,6 +1,6 @@
 ---
-title: "Cetrorelix"
-description: "Injectable GnRH antagonist used in IVF protocols to prevent premature ovulation and in prostate cancer treatment."
+title: "Cetrorelix: Oligopeptide Research Reference"
+description: "Injectable GnRH antagonist used in IVF protocols to prevent premature ovulation and in prostate cancer treatment. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

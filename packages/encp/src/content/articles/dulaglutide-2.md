@@ -1,6 +1,6 @@
 ---
-title: "Dulaglutide"
-description: "Long-acting GLP-1 receptor agonist fused to human IgG4 Fc for once-weekly type 2 diabetes treatment."
+title: "Dulaglutide: Oligopeptide Research Reference"
+description: "Long-acting GLP-1 receptor agonist fused to human IgG4 Fc for once-weekly type 2 diabetes treatment. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

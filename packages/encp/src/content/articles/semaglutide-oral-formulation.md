@@ -1,5 +1,5 @@
 ---
-title: "Oral Semaglutide Formulation"
+title: "Oral Semaglutide Formulation: Comprehensive Peptide Refer..."
 description: "Oral bioavailability enhancement of semaglutide using SNAC absorption enhancer technology for once-daily oral GLP-1 therapy."
 status: "published"
 author: "Encyclopeptide Editorial"

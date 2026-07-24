@@ -1,6 +1,6 @@
 ---
 title: "Insulin Assay Cross-Reactivity"
-description: "Analytical challenges with insulin immunoassay cross-reactivity from analogs, proinsulin, and antibody complexes."
+description: "Analytical challenges with insulin immunoassay cross-reactivity from analogs, proinsulin, and antibody complexes. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

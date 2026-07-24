@@ -1,5 +1,5 @@
 ---
-title: "Urocortin"
+title: "Urocortin: Neuropeptide in Neuroscience Reference"
 description: "A 40-amino acid neuropeptide related to CRH that preferentially activates CRH-R2 receptors, mediating stress response, feeding, and cardiovascular function."
 status: "published"
 author: "Encyclopeptide Editorial"

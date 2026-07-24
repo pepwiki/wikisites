@@ -1,5 +1,5 @@
 ---
-title: "Arthritis and Peptides"
+title: "Arthritis and Peptides: Oligopeptide Research Reference"
 description: "Discover peptide-based therapies for rheumatoid and osteoarthritis including anti-inflammatory and joint-protective peptides."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,6 +1,6 @@
 ---
-title: "TrkC Agonist"
-description: "Comprehensive reference for TrkC agonist in peptide research."
+title: "TrkC Agonist: Oligopeptide Research Reference"
+description: "TrkC agonist in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
 title: "Peptide Aggregation in Biologics"
-description: "Amyloid formation and non-native peptide aggregation compromise biologics stability, requiring advanced analytical methods and formulation strategies to maintain therapeutic efficacy."
+description: "Amyloid formation and non-native peptide aggregation compromise biologics stability, requiring advanced analytical methods and formulation strategies to main..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-04-10

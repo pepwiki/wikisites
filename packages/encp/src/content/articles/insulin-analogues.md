@@ -1,6 +1,6 @@
 ---
-title: "Insulin Analogues"
-description: "Pharmacological properties and clinical applications of rapid-acting (lispro, aspart) and long-acting (glargine, degludec) insulin analogues for diabetes management."
+title: "Insulin Analogues: Endogenous Peptide Hormone Reference"
+description: "Pharmacological properties and clinical applications of rapid-acting (lispro, aspart) and long-acting (glargine, degludec) insulin analogues for diabetes man..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-06-20

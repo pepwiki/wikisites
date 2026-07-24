@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 as DPP-4 Substrate"
-description: "Mechanism of DPP-4-mediated GLP-1 degradation and how therapeutic analogues overcome this limitation."
+title: "GLP-1 as DPP-4 Substrate: Peptide Family Reference"
+description: "Mechanism of DPP-4-mediated GLP-1 degradation and how therapeutic analogues overcome this limitation. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

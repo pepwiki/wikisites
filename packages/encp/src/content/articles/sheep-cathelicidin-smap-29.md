@@ -1,6 +1,6 @@
 ---
-title: "Sheep Cathelicidin SMAP-29"
-description: "Potent cathelicidin from sheep neutrophils with activity against resistant bacteria."
+title: "Sheep Cathelicidin SMAP-29: Comprehensive Peptide Reference"
+description: "Potent cathelicidin from sheep neutrophils with activity against resistant bacteria. This antimicrobial peptide demonstrates activity against pathogens and i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

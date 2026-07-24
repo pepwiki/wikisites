@@ -1,6 +1,6 @@
 ---
-title: "Thermo Q Exactive"
-description: "Orbitrap mass spectrometer for high-resolution peptide analysis."
+title: "Thermo Q Exactive: Oligopeptide Research Reference"
+description: "Orbitrap mass spectrometer for high-resolution peptide analysis. This peptide or oligopeptide is studied for its biological activity, structure-activity rela..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

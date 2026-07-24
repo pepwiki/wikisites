@@ -1,6 +1,6 @@
 ---
-title: "Lionfish Venom Peptides"
-description: "Comprehensive reference for Lionfish Venom Peptides, a peptide compound with applications in research and therapeutics."
+title: "Lionfish Venom Peptides: Oligopeptide Research Reference"
+description: "Lionfish Venom Peptides, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

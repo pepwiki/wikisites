@@ -1,6 +1,6 @@
 ---
-title: "Xultophy Degludec-Liraglutide"
-description: "Fixed-ratio combination of insulin degludec and GLP-1 agonist liraglutide for once-daily injection."
+title: "Xultophy Degludec-Liraglutide: Comprehensive Peptide Refe..."
+description: "Fixed-ratio combination of insulin degludec and GLP-1 agonist liraglutide for once-daily injection. This peptide or oligopeptide is studied for its biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

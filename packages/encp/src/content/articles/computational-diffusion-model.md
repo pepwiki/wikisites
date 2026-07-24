@@ -1,6 +1,6 @@
 ---
-title: "Diffusion Model for Peptides"
-description: "A computational method for studying peptides using Diffusion Model."
+title: "Diffusion Model for Peptides: Comprehensive Peptide Refer..."
+description: "A computational method for studying peptides using Diffusion Model. This analytical technique provides valuable insights into peptide structure, purity, and ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

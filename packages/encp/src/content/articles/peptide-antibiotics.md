@@ -1,6 +1,6 @@
 ---
-title: "Peptide Antibiotics"
-description: "Explore antimicrobial peptides as next-generation antibiotics against drug-resistant bacteria."
+title: "Peptide Antibiotics: Oligopeptide Research Reference"
+description: "Explore antimicrobial peptides as next-generation antibiotics against drug-resistant bacteria. This peptide or oligopeptide is studied for its biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
 title: "Peptide Drug Connected Devices"
-description: "Integration of digital technology with peptide drug delivery devices for monitoring and adherence."
+description: "Integration of digital technology with peptide drug delivery devices for monitoring and adherence. This peptide or oligopeptide is studied for its biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

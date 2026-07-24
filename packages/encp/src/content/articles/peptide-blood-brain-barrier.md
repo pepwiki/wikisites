@@ -1,6 +1,6 @@
 ---
-title: "Peptide Blood-Brain Barrier"
-description: "Strategies for delivering peptides across the blood-brain barrier."
+title: "Peptide Blood-Brain Barrier: Comprehensive Peptide Reference"
+description: "Strategies for delivering peptides across the blood-brain barrier. This peptide or oligopeptide is studied for its biological activity, structure-activity re..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "CTLA 4 Blocker"
-description: "Comprehensive reference for CTLA 4 blocker in peptide research."
+title: "CTLA 4 Blocker: Oligopeptide Research Reference"
+description: "CTLA 4 blocker in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appl..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

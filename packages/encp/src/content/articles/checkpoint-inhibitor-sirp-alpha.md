@@ -1,6 +1,6 @@
 ---
 title: "Checkpoint Inhibitor SIRP-alpha"
-description: "Reference for checkpoint inhibitor SIRP-alpha in peptide research."
+description: "Comprehensive reference for checkpoint inhibitor SIRP-alpha, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

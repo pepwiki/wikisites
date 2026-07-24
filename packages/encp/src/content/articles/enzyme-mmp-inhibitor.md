@@ -1,6 +1,6 @@
 ---
-title: "MMP Inhibitor"
-description: "Comprehensive reference for MMP inhibitor in peptide research."
+title: "MMP Inhibitor: Enzyme in Peptide Biology Reference"
+description: "MMP inhibitor in peptide research. This enzyme plays important roles in peptide metabolism and is studied for its biochemical mechanisms, substrate specifici..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

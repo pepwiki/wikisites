@@ -1,6 +1,6 @@
 ---
 title: "Autoimmune Diseases and Peptides"
-description: "Understand peptide immunotherapies for autoimmune conditions including tolerance induction and cytokine modulation."
+description: "Understand peptide immunotherapies for autoimmune conditions including tolerance induction and cytokine modulation. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

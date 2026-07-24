@@ -1,5 +1,5 @@
 ---
-title: "Microwave-Assisted Synthesis"
+title: "Microwave-Assisted Synthesis: Comprehensive Peptide Refer..."
 description: "Comprehensive reference for Microwave-Assisted Synthesis, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

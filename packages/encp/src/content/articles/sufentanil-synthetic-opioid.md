@@ -1,6 +1,6 @@
 ---
-title: "Sufentanil Synthetic Opioid"
-description: "Potent synthetic opioid with greater mu-selectivity than fentanyl."
+title: "Sufentanil Synthetic Opioid: Comprehensive Peptide Reference"
+description: "Potent synthetic opioid with greater mu-selectivity than fentanyl. This neuropeptide is involved in neurological signaling and is studied for its roles in br..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

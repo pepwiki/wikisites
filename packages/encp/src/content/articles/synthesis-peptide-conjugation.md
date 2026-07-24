@@ -1,6 +1,6 @@
 ---
-title: "Peptide Conjugation Synthesis"
-description: "A peptide synthesis method using Peptide Conjugation for producing peptides with specific properties."
+title: "Peptide Conjugation Synthesis: Comprehensive Peptide Refe..."
+description: "A peptide synthesis method using Peptide Conjugation for producing peptides with specific properties. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

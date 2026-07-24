@@ -1,5 +1,5 @@
 ---
-title: "Crocodilian Serum Proteins"
+title: "Crocodilian Serum Proteins: Comprehensive Peptide Reference"
 description: "Comprehensive reference for Crocodilian Serum Proteins, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

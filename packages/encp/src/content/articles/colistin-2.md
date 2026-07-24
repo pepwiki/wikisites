@@ -1,5 +1,5 @@
 ---
-title: "Colistin"
+title: "Colistin: Antimicrobial Peptide Reference"
 description: "Polymyxin lipopeptide antibiotic that disrupts gram-negative bacterial outer membranes, used as last-line therapy for MDR infections."
 status: "published"
 author: "Encyclopeptide Editorial"

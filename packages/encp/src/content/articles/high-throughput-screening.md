@@ -1,6 +1,6 @@
 ---
-title: "High-Throughput Screening"
-description: "Automated testing of large peptide libraries for biological activity."
+title: "High-Throughput Screening: Comprehensive Peptide Reference"
+description: "Automated testing of large peptide libraries for biological activity. This peptide or oligopeptide is studied for its biological activity, structure-activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

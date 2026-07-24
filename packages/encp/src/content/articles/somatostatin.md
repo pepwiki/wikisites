@@ -1,6 +1,6 @@
 ---
-title: "Somatostatin"
-description: "A 14-amino acid cyclic neuropeptide that inhibits growth hormone release, modulates GI function, and serves as the prototype for long-acting analogs like octreotide."
+title: "Somatostatin: Oligopeptide Research Reference"
+description: "A 14-amino acid cyclic neuropeptide that inhibits growth hormone release, modulates GI function, and serves as the prototype for long-acting analogs like oct..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

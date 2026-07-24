@@ -1,6 +1,6 @@
 ---
-title: "Hematotoxicity"
-description: "Blood-related adverse effects of peptide drugs."
+title: "Hematotoxicity: Oligopeptide Research Reference"
+description: "Blood-related adverse effects of peptide drugs. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and po..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

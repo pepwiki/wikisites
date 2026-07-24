@@ -1,6 +1,6 @@
 ---
-title: "Granulysin Antimicrobial"
-description: "Cytotoxic granule protein with direct activity against intracellular bacteria."
+title: "Granulysin Antimicrobial: Antimicrobial Peptide Reference"
+description: "Cytotoxic granule protein with direct activity against intracellular bacteria. This antimicrobial peptide demonstrates activity against pathogens and is stud..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

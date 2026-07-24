@@ -1,6 +1,6 @@
 ---
-title: "α-Cobrotoxin"
-description: "Comprehensive reference for α-Cobrotoxin, a peptide compound with applications in research and therapeutics."
+title: "α-Cobrotoxin: Oligopeptide Research Reference"
+description: "α-Cobrotoxin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

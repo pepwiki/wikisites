@@ -1,6 +1,6 @@
 ---
-title: "Peptide acetylation analysis"
-description: "Reference for peptide acetylation analysis in peptide research."
+title: "Peptide acetylation analysis: Comprehensive Peptide Refer..."
+description: "Comprehensive reference for peptide acetylation analysis, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

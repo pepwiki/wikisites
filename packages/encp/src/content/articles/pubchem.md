@@ -1,6 +1,6 @@
 ---
-title: "PubChem"
-description: "Chemical compound database with structures, properties, and bioactivity."
+title: "PubChem: Oligopeptide Research Reference"
+description: "Chemical compound database with structures, properties, and bioactivity. This peptide or oligopeptide is studied for its biological activity, structure-activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

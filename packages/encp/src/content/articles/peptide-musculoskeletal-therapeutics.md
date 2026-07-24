@@ -1,6 +1,6 @@
 ---
 title: "Peptide Musculoskeletal Therapeutics"
-description: "Therapeutic peptides for bone, joint, and muscle conditions including osteoporosis and sarcopenia."
+description: "Therapeutic peptides for bone, joint, and muscle conditions including osteoporosis and sarcopenia. This peptide or oligopeptide is studied for its biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

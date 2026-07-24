@@ -1,6 +1,6 @@
 ---
-title: "Insulin Glargine U500"
-description: "Highly concentrated insulin glargine (500 units/mL). 5× concentration reduces injection volume. Mimics NPH-like profile due to slower absorption. Indication: insulin-resistant patients requiring high doses."
+title: "Insulin Glargine U500: Therapeutic Peptide Drug Profile"
+description: "Highly concentrated insulin glargine (500 units/mL). 5× concentration reduces injection volume. Mimics NPH-like profile due to slower absorption. Indication:..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -15,11 +15,11 @@ relatedArticles: []
 | Property | Value |
 |----------|-------|
 | **Name** | Insulin Glargine U500 |
-| **Description** | Highly concentrated insulin glargine (500 units/mL). 5× concentration reduces injection volume. Mimics NPH-like profile due to slower absorption. Indication: insulin-resistant patients requiring high doses. |
+| **Description** | Highly concentrated insulin glargine (500 units/mL). 5× concentration reduces injection volume. Mimics NPH-like profile due to slower absorption. Indication:... |
 
 ## Mechanism of Action
 
-Highly concentrated insulin glargine (500 units/mL). 5× concentration reduces injection volume. Mimics NPH-like profile due to slower absorption. Indication: insulin-resistant patients requiring high doses.
+Highly concentrated insulin glargine (500 units/mL). 5× concentration reduces injection volume. Mimics NPH-like profile due to slower absorption. Indication:...
 
 ## Clinical Significance
 

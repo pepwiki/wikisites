@@ -1,6 +1,6 @@
 ---
-title: "Cholecystokinin"
-description: "A gastrointestinal neuropeptide that stimulates gallbladder contraction, pancreatic enzyme secretion, and appetite suppression, existing in multiple isoforms including CCK-8, CCK-33, and CCK-58."
+title: "Cholecystokinin: Neuropeptide in Neuroscience Reference"
+description: "A gastrointestinal neuropeptide that stimulates gallbladder contraction, pancreatic enzyme secretion, and appetite suppression, existing in multiple isoforms..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

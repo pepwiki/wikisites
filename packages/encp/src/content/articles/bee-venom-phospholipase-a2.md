@@ -1,6 +1,6 @@
 ---
-title: "Bee Venom Phospholipase A2"
-description: "Major allergenic enzyme component of honeybee venom with inflammatory effects."
+title: "Bee Venom Phospholipase A2: Comprehensive Peptide Reference"
+description: "Major allergenic enzyme component of honeybee venom with inflammatory effects. This peptide toxin is derived from venom and studied for its pharmacological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

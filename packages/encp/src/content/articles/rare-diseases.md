@@ -1,6 +1,6 @@
 ---
-title: "Rare Diseases"
-description: "Peptide therapeutics for rare diseases."
+title: "Rare Diseases: Oligopeptide Research Reference"
+description: "Peptide therapeutics for rare diseases. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

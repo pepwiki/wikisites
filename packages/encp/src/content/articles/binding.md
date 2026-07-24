@@ -1,6 +1,6 @@
 ---
-title: "Binding"
-description: "Non-covalent molecular recognition"
+title: "Binding: Oligopeptide Research Reference"
+description: "Non-covalent molecular recognition. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appl..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

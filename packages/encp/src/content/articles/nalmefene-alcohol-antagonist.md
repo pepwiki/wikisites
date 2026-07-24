@@ -1,6 +1,6 @@
 ---
-title: "Nalmefene Alcohol Antagonist"
-description: "Long-acting opioid antagonist for alcohol use disorder."
+title: "Nalmefene Alcohol Antagonist: Comprehensive Peptide Refer..."
+description: "Long-acting opioid antagonist for alcohol use disorder. This neuropeptide is involved in neurological signaling and is studied for its roles in brain functio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

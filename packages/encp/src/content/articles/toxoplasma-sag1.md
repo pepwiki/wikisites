@@ -1,6 +1,6 @@
 ---
-title: "Toxoplasma SAG1"
-description: "Toxoplasma-SAG1 is a peptide antigen used in vaccine development for infectious disease prevention."
+title: "Toxoplasma SAG1: Oligopeptide Research Reference"
+description: "Toxoplasma-SAG1 is a peptide antigen used in vaccine development for infectious disease prevention. This peptide or oligopeptide is studied for its biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

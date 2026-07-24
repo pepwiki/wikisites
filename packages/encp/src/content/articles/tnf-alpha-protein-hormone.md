@@ -1,6 +1,6 @@
 ---
-title: "TNF Alpha Protein Hormone"
-description: "The TNF Alpha Protein Hormone and its role in endocrine signaling."
+title: "TNF Alpha Protein Hormone: Comprehensive Peptide Reference"
+description: "TNF Alpha, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

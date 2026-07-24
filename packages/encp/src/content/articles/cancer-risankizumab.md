@@ -1,6 +1,6 @@
 ---
-title: "Risankizumab"
-description: "Comprehensive reference for risankizumab in peptide research."
+title: "Risankizumab: Oligopeptide Research Reference"
+description: "risankizumab in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

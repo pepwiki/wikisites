@@ -1,6 +1,6 @@
 ---
-title: "2D PAGE Analysis"
-description: "An analytical technique for characterizing peptides using 2D PAGE."
+title: "2D PAGE Analysis: Analytical Technique in Peptide Research"
+description: "An analytical technique for characterizing peptides using 2D PAGE. This analytical technique provides valuable insights into peptide structure, purity, and c..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

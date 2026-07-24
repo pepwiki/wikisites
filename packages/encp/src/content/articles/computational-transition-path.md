@@ -1,6 +1,6 @@
 ---
-title: "Transition Path for Peptides"
-description: "A computational method for studying peptides using Transition Path."
+title: "Transition Path for Peptides: Comprehensive Peptide Refer..."
+description: "A computational method for studying peptides using Transition Path. This analytical technique provides valuable insights into peptide structure, purity, and ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

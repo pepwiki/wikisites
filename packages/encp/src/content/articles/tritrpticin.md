@@ -1,6 +1,6 @@
 ---
-title: "Tritrpticin"
-description: "Trp-rich AMP from bullfrog skin with broad-spectrum activity and low hemolysis."
+title: "Tritrpticin: Antimicrobial Peptide Reference"
+description: "Trp-rich AMP from bullfrog skin with broad-spectrum activity and low hemolysis. This antimicrobial peptide demonstrates activity against pathogens and is stu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

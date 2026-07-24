@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 and Heart Failure"
-description: "Benefits in heart failure with preserved ejection fraction including hemodynamic improvements."
+title: "GLP-1 and Heart Failure: Oligopeptide Research Reference"
+description: "Benefits in heart failure with preserved ejection fraction including hemodynamic improvements. This peptide or oligopeptide is studied for its biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

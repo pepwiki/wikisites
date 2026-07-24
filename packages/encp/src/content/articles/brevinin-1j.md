@@ -1,6 +1,6 @@
 ---
-title: "Brevinin 1J"
-description: "brevinin-1J is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity."
+title: "Brevinin 1J: Antimicrobial Peptide Reference"
+description: "brevinin-1J is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

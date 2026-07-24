@@ -1,6 +1,6 @@
 ---
-title: "Peptide Conference Calendar"
-description: "Major conferences and events in the peptide therapeutics industry."
+title: "Peptide Conference Calendar: Comprehensive Peptide Reference"
+description: "Major conferences and events in the peptide therapeutics industry. This peptide or oligopeptide is studied for its biological activity, structure-activity re..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

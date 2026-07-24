@@ -1,6 +1,6 @@
 ---
-title: "Myeloma Peptides"
-description: "Peptides associated with Myeloma including biomarkers, therapeutic targets, and diagnostic markers."
+title: "Myeloma Peptides: Oligopeptide Research Reference"
+description: "Peptides associated with Myeloma including biomarkers, therapeutic targets, and diagnostic markers. This peptide or oligopeptide is studied for its biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

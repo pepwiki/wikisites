@@ -1,6 +1,6 @@
 ---
-title: "Peptide Vaccine Immunotherapy"
-description: "Cancer peptide vaccines using tumor-associated antigen peptides to stimulate anti-tumor immune responses."
+title: "Peptide Vaccine Immunotherapy: Comprehensive Peptide Refe..."
+description: "Cancer peptide vaccines using tumor-associated antigen peptides to stimulate anti-tumor immune responses. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Peptide Hydrogel Network"
-description: "Engineering hydrogel networks for controlled peptide release kinetics."
+title: "Peptide Hydrogel Network: Oligopeptide Research Reference"
+description: "Engineering hydrogel networks for controlled peptide release kinetics. This peptide or oligopeptide is studied for its biological activity, structure-activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

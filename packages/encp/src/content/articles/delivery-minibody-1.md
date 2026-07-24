@@ -1,6 +1,6 @@
 ---
-title: "Minibody System 1"
-description: "A minibody-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy."
+title: "Minibody System 1: Oligopeptide Research Reference"
+description: "A minibody-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy.. This innovative approach addresses key challenges i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

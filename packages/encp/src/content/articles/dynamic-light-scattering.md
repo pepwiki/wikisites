@@ -1,6 +1,6 @@
 ---
-title: "Dynamic Light Scattering"
-description: "DLS for measuring peptide size distribution and aggregation state."
+title: "Dynamic Light Scattering: Oligopeptide Research Reference"
+description: "DLS for measuring peptide size distribution and aggregation state. This peptide or oligopeptide is studied for its biological activity, structure-activity re..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

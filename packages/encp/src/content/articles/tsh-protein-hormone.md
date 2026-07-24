@@ -1,6 +1,6 @@
 ---
-title: "TSH Protein Hormone"
-description: "The TSH Protein Hormone and its role in endocrine signaling."
+title: "TSH Protein Hormone: Endogenous Peptide Hormone Reference"
+description: "TSH, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical signif..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

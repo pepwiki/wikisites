@@ -1,6 +1,6 @@
 ---
-title: "Leu-enkephalin"
-description: "Comprehensive reference for Leu-enkephalin, a peptide compound with applications in research and therapeutics."
+title: "Leu-enkephalin: Neuropeptide in Neuroscience Reference"
+description: "Leu-enkephalin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

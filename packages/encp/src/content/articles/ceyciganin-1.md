@@ -1,5 +1,5 @@
 ---
-title: "Ceyciganin 1"
+title: "Ceyciganin 1: Oligopeptide Research Reference"
 description: "ceyciganin-1 is a cyclotide — a cyclic, knotted peptide from plants with exceptional stability and insecticidal activity."
 status: "published"
 author: "Encyclopeptide Editorial"

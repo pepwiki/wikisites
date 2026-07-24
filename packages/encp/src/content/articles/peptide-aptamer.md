@@ -1,6 +1,6 @@
 ---
-title: "Peptide aptamer"
-description: "Reference for peptide aptamer in peptide research."
+title: "Peptide aptamer: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide aptamer, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

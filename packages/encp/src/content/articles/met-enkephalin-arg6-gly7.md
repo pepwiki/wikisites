@@ -1,6 +1,6 @@
 ---
-title: "Met-Enkephalin-Arg6-Gly7"
-description: "Extended enkephalin from proenkephalin processing."
+title: "Met-Enkephalin-Arg6-Gly7: Neuropeptide in Neuroscience Re..."
+description: "Extended enkephalin from proenkephalin processing. This neuropeptide is involved in neurological signaling and is studied for its roles in brain function, be..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

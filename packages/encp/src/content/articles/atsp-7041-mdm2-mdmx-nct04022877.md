@@ -1,6 +1,6 @@
 ---
 title: "ATSP-7041 - MDM2/MDMX (NCT04022877)"
-description: "Phase II trial of ATSP-7041 for MDM2/MDMX-driven cancers."
+description: "Phase II trial of ATSP-7041 for MDM2/MDMX-driven cancers. This peptide or oligopeptide is studied for its biological activity, structure-activity relationshi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

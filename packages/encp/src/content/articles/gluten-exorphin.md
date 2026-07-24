@@ -1,6 +1,6 @@
 ---
-title: "Gluten Exorphin"
-description: "Opioid peptides derived from wheat gluten. Multiple forms (glutenexorphin A5, B5, C5). May affect brain function and behavior. Potential role in gluten sensitivity, schizophrenia, and autism."
+title: "Gluten Exorphin: Oligopeptide Research Reference"
+description: "Opioid peptides derived from wheat gluten. Multiple forms (glutenexorphin A5, B5, C5). May affect brain function and behavior. Potential role in gluten sensi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Opioid peptides derived from wheat gluten. Multiple forms (glutenexorphin A5, B5, C5). May affect brain function and behavior. Potential role in gluten sensitivity, schizophrenia, and autism.
+Opioid peptides derived from wheat gluten. Multiple forms (glutenexorphin A5, B5, C5). May affect brain function and behavior. Potential role in gluten sensi...
 
 ## Clinical Significance
 

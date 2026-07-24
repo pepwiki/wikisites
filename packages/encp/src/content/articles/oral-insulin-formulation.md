@@ -1,6 +1,6 @@
 ---
-title: "Oral Insulin Formulation"
-description: "Oral insulin development including gastric acid protection, intestinal permeation, and hepatic targeting."
+title: "Oral Insulin Formulation: Oligopeptide Research Reference"
+description: "Oral insulin development including gastric acid protection, intestinal permeation, and hepatic targeting. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

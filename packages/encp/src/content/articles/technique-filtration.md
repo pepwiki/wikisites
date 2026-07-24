@@ -1,6 +1,6 @@
 ---
-title: "filtration for Peptides"
-description: "Application of filtration technique for peptide characterization, structure determination, or formulation."
+title: "filtration for Peptides: Analytical Technique in Peptide ..."
+description: "Application of filtration technique for peptide characterization, structure determination, or formulation. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

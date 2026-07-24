@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 Receptor Structure"
-description: "Crystal structure and molecular pharmacology of GLP-1 receptor activation by peptide agonists."
+title: "GLP-1 Receptor Structure: Receptor Pharmacology Reference"
+description: "Crystal structure and molecular pharmacology of GLP-1 receptor activation by peptide agonists. This peptide or oligopeptide is studied for its biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

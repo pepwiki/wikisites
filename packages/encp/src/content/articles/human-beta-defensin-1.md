@@ -1,6 +1,6 @@
 ---
-title: "Human Beta-Defensin 1"
-description: "Constitutively expressed epithelial defensin providing innate defense at mucosal surfaces."
+title: "Human Beta-Defensin 1: Antimicrobial Peptide Reference"
+description: "Constitutively expressed epithelial defensin providing innate defense at mucosal surfaces. This antimicrobial peptide demonstrates activity against pathogens..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

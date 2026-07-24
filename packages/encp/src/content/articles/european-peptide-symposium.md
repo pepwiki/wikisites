@@ -1,6 +1,6 @@
 ---
-title: "European Peptide Symposium"
-description: "European conference for peptide science and technology."
+title: "European Peptide Symposium: Comprehensive Peptide Reference"
+description: "European conference for peptide science and technology. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

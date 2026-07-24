@@ -1,6 +1,6 @@
 ---
-title: "Linzagolix"
-description: "Oral GnRH antagonist for uterine fibroids with selective estrogen suppression."
+title: "Linzagolix: Oligopeptide Research Reference"
+description: "Oral GnRH antagonist for uterine fibroids with selective estrogen suppression. This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

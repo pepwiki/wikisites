@@ -1,6 +1,6 @@
 ---
-title: "Edman Degradation"
-description: "Understand the Edman degradation method for sequential N-terminal sequencing of peptides and proteins."
+title: "Edman Degradation: Analytical Technique in Peptide Research"
+description: "Understand the Edman degradation method for sequential N-terminal sequencing of peptides and proteins. This peptide or oligopeptide is studied for its biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

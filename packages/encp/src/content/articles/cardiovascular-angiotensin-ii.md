@@ -1,6 +1,6 @@
 ---
-title: "Angiotensin II"
-description: "Comprehensive reference for angiotensin II in peptide research."
+title: "Angiotensin II: Oligopeptide Research Reference"
+description: "angiotensin II in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appl..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Caspofungin"
-description: "Comprehensive reference for caspofungin in peptide research."
+title: "Caspofungin: Oligopeptide Research Reference"
+description: "caspofungin in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Ghrelin Protein Hormone"
-description: "The Ghrelin Protein Hormone and its role in endocrine signaling."
+title: "Ghrelin Protein Hormone: Endogenous Peptide Hormone Refer..."
+description: "Ghrelin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical si..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

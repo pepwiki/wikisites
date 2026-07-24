@@ -1,6 +1,6 @@
 ---
-title: "Nodularia spumigena"
-description: "Inhibits PP1 and PP2A, smaller cyclic structure"
+title: "Nodularia spumigena: Oligopeptide Research Reference"
+description: "Inhibits PP1 and PP2A, smaller cyclic structure. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Marine Anti-Cancer Peptide"
-description: "Marine Anti-Cancer Peptide is a bioactive compound with applications in peptide research and therapeutics."
+title: "Marine Anti-Cancer Peptide: Comprehensive Peptide Reference"
+description: "Marine Anti-Cancer Peptide is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

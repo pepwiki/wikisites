@@ -1,6 +1,6 @@
 ---
-title: "Thionin"
-description: "Comprehensive reference for Thionin, a peptide compound with applications in research and therapeutics."
+title: "Thionin: Oligopeptide Research Reference"
+description: "Thionin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

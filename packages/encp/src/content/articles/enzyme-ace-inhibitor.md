@@ -1,6 +1,6 @@
 ---
-title: "ACE Inhibitor"
-description: "Comprehensive reference for ACE inhibitor in peptide research."
+title: "ACE Inhibitor: Enzyme in Peptide Biology Reference"
+description: "ACE inhibitor in peptide research. This enzyme plays important roles in peptide metabolism and is studied for its biochemical mechanisms, substrate specifici..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

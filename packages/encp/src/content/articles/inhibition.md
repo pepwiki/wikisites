@@ -1,6 +1,6 @@
 ---
-title: "Inhibition"
-description: "Suppression of target activity"
+title: "Inhibition: Oligopeptide Research Reference"
+description: "Suppression of target activity. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

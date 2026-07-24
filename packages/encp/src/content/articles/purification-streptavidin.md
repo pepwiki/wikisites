@@ -1,6 +1,6 @@
 ---
-title: "Streptavidin Purification"
-description: "A purification technique for separating and isolating peptides using Streptavidin."
+title: "Streptavidin Purification: Comprehensive Peptide Reference"
+description: "A purification technique for separating and isolating peptides using Streptavidin. This analytical technique provides valuable insights into peptide structur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

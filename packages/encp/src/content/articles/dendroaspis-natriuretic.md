@@ -1,5 +1,5 @@
 ---
-title: "Dendroaspis Natriuretic"
+title: "Dendroaspis Natriuretic: Endogenous Peptide Hormone Refer..."
 description: "Dendroaspis-natriuretic is a natriuretic peptide that regulates blood pressure and fluid balance through vasodilation and natriuresis."
 status: "published"
 author: "Encyclopeptide Editorial"

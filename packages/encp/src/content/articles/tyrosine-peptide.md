@@ -1,6 +1,6 @@
 ---
-title: "Tyrosine Peptide"
-description: "Tyrosine (Y) is one of the 20 standard amino acids. It plays essential roles in protein structure and function."
+title: "Tyrosine Peptide: Oligopeptide Research Reference"
+description: "Tyrosine (Y) is one of the 20 standard amino acids. It plays essential roles in protein structure and function. Covers molecular mechanisms, biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

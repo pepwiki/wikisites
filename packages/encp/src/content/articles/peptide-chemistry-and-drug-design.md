@@ -1,6 +1,6 @@
 ---
 title: "Peptide Chemistry and Drug Design"
-description: "Resource on peptide chemistry principles and drug design applications."
+description: "Resource on peptide chemistry principles and drug design applications. This peptide or oligopeptide is studied for its biological activity, structure-activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

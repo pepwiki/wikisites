@@ -1,6 +1,6 @@
 ---
 title: "History of Peptide Therapeutics"
-description: "From insulin to modern GLP-1 agonists, the evolution of peptide drugs over a century."
+description: "From insulin to modern GLP-1 agonists, the evolution of peptide drugs over a century. This peptide or oligopeptide is studied for its biological activity, st..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
 title: "Microfluidic Peptide Synthesis"
-description: "Continuous flow SPPS in microreactors"
+description: "Continuous flow SPPS in microreactors. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

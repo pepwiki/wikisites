@@ -1,6 +1,6 @@
 ---
-title: "Conantokin G"
-description: "NMDA receptor antagonist from Conus geographus with anticonvulsant properties."
+title: "Conantokin G: Peptide Toxin in Pharmacology Reference"
+description: "NMDA receptor antagonist from Conus geographus with anticonvulsant properties. This peptide toxin is derived from venom and studied for its pharmacological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Pulmonary delivery"
-description: "Reference for pulmonary delivery in peptide research."
+title: "Pulmonary delivery: Oligopeptide Research Reference"
+description: "Comprehensive reference for pulmonary delivery, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
 title: "Scorpion Cardiovascular Effects"
-description: "Cardiovascular effects of scorpion venom including arrhythmias and hypertension."
+description: "Cardiovascular effects of scorpion venom including arrhythmias and hypertension. This peptide toxin is derived from venom and studied for its pharmacological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

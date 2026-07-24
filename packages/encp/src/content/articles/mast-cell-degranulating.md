@@ -1,5 +1,5 @@
 ---
-title: "Mast cell degranulating: Structure, Function, and Significance"
+title: "Mast cell degranulating: Structure, Function, and Signifi..."
 description: "Mast cell degranulating peptide (MCDP) from bee venom triggers histamine release from mast cells through a non-IgE mechanism."
 status: "published"
 author: "Encyclopeptide Editorial"

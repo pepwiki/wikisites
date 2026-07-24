@@ -1,6 +1,6 @@
 ---
-title: "Temporin B"
-description: "Tridecapeptide from temporin family with antimicrobial activity in frog skin secretions."
+title: "Temporin B: Antimicrobial Peptide Reference"
+description: "Tridecapeptide from temporin family with antimicrobial activity in frog skin secretions. This antimicrobial peptide demonstrates activity against pathogens a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

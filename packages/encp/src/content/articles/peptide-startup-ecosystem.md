@@ -1,6 +1,6 @@
 ---
-title: "Peptide Startup Ecosystem"
-description: "Overview of the peptide startup landscape including companies and technology platforms."
+title: "Peptide Startup Ecosystem: Comprehensive Peptide Reference"
+description: "Overview of the peptide startup landscape including companies and technology platforms. This peptide or oligopeptide is studied for its biological activity, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

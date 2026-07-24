@@ -1,6 +1,6 @@
 ---
-title: "Glycine Metabolism"
-description: "Metabolic pathways involving Glycine including biosynthesis, catabolism, and transamination."
+title: "Glycine Metabolism: Oligopeptide Research Reference"
+description: "Metabolic pathways involving Glycine including biosynthesis, catabolism, and transamination. This peptide or oligopeptide is studied for its biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

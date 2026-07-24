@@ -1,6 +1,6 @@
 ---
-title: "Subcutaneous Peptide Delivery"
-description: "Understand subcutaneous injection methods for sustained peptide drug delivery including depot formulations."
+title: "Subcutaneous Peptide Delivery: Comprehensive Peptide Refe..."
+description: "Understand subcutaneous injection methods for sustained peptide drug delivery including depot formulations. This peptide or oligopeptide is studied for its b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

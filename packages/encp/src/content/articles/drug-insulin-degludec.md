@@ -1,6 +1,6 @@
 ---
-title: "Insulin Degludec"
-description: "Comprehensive reference for insulin degludec in peptide research."
+title: "Insulin Degludec: Oligopeptide Research Reference"
+description: "insulin degludec in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential ap..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

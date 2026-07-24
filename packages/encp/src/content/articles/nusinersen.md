@@ -1,6 +1,6 @@
 ---
-title: "Nusinersen"
-description: "Comprehensive reference for Nusinersen, a peptide compound with applications in research and therapeutics."
+title: "Nusinersen: Oligopeptide Research Reference"
+description: "Nusinersen, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

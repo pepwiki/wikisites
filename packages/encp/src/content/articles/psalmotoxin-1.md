@@ -1,6 +1,6 @@
 ---
-title: "Psalmotoxin 1"
-description: "Psalmotoxin-1 is a spider venom peptide with specific ion channel or receptor blocking properties."
+title: "Psalmotoxin 1: Peptide Toxin in Pharmacology Reference"
+description: "Psalmotoxin-1 is a spider venom peptide with specific ion channel or receptor blocking properties. This peptide toxin is derived from venom and studied for i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

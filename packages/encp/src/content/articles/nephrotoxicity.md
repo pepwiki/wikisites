@@ -1,6 +1,6 @@
 ---
-title: "Nephrotoxicity"
-description: "Kidney damage caused by peptide drugs."
+title: "Nephrotoxicity: Oligopeptide Research Reference"
+description: "Kidney damage caused by peptide drugs. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

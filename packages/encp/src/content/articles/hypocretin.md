@@ -1,6 +1,6 @@
 ---
-title: "Hypocretin"
-description: "Alternative name for orexin neuropeptides regulating sleep-wake transitions."
+title: "Hypocretin: Neuropeptide in Neuroscience Reference"
+description: "Alternative name for orexin neuropeptides regulating sleep-wake transitions. This neuropeptide is involved in neurological signaling and is studied for its r..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

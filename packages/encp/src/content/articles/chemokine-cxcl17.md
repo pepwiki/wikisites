@@ -1,6 +1,6 @@
 ---
-title: "Chemokine CXCL17"
-description: "Reference for chemokine CXCL17 in peptide research."
+title: "Chemokine CXCL17: Oligopeptide Research Reference"
+description: "Comprehensive reference for chemokine CXCL17, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

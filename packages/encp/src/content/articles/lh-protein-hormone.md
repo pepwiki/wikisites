@@ -1,6 +1,6 @@
 ---
-title: "LH Protein Hormone"
-description: "The LH Protein Hormone and its role in endocrine signaling."
+title: "LH Protein Hormone: Endogenous Peptide Hormone Reference"
+description: "LH, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical signifi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

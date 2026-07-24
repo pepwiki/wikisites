@@ -1,6 +1,6 @@
 ---
-title: "Wasp Venom Bioactive Peptides"
-description: "Discovery and characterization of bioactive peptides from wasp venoms."
+title: "Wasp Venom Bioactive Peptides: Comprehensive Peptide Refe..."
+description: "Discovery and characterization of bioactive peptides from wasp venoms. This peptide toxin is derived from venom and studied for its pharmacological activity,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

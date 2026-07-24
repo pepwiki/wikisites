@@ -1,6 +1,6 @@
 ---
 title: "Carfilzomib Proteasome Inhibitor"
-description: "Irreversible epoxyketone proteasome inhibitor derived from natural product epoxomicin for multiple myeloma treatment."
+description: "Irreversible epoxyketone proteasome inhibitor derived from natural product epoxomicin for multiple myeloma treatment. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

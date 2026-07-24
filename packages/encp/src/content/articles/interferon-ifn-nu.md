@@ -1,6 +1,6 @@
 ---
-title: "Interferon IFN-nu"
-description: "Reference for interferon IFN-nu in peptide research."
+title: "Interferon IFN-nu: Oligopeptide Research Reference"
+description: "Comprehensive reference for interferon IFN-nu, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

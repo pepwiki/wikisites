@@ -1,6 +1,6 @@
 ---
-title: "Peptide random coil"
-description: "Reference for peptide random coil in peptide research."
+title: "Peptide random coil: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide random coil, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

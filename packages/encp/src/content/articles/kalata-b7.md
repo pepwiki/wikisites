@@ -1,6 +1,6 @@
 ---
-title: "Kalata B7"
-description: "kalata-B7 is a cyclotide — a cyclic, knotted peptide from plants with exceptional stability and insecticidal activity."
+title: "Kalata B7: Oligopeptide Research Reference"
+description: "kalata-B7 is a cyclotide — a cyclic, knotted peptide from plants with exceptional stability and insecticidal activity. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

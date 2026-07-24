@@ -1,6 +1,6 @@
 ---
-title: "Elastin Binding Purification"
-description: "A purification technique for separating and isolating peptides using Elastin Binding."
+title: "Elastin Binding Purification: Comprehensive Peptide Refer..."
+description: "A purification technique for separating and isolating peptides using Elastin Binding. This analytical technique provides valuable insights into peptide struc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

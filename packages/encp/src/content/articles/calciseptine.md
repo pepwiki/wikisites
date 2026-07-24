@@ -1,6 +1,6 @@
 ---
 title: "Calciseptine: Structure, Function, and Significance"
-description: "Calciseptine from black mamba venom blocks L-type calcium channels, causing hypotension and bradycardia."
+description: "Calciseptine from black mamba venom blocks L-type calcium channels, causing hypotension and bradycardia. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,5 +1,5 @@
 ---
-title: "Trabectedin"
+title: "Trabectedin: Oligopeptide Research Reference"
 description: "Marine-derived tetrahydroisoquinoline alkaloid that binds DNA minor groove, used for soft tissue sarcoma and ovarian cancer."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,6 +1,6 @@
 ---
 title: "Handbook of Biologically Active Peptides"
-description: "Comprehensive reference handbook covering all aspects of peptide biology."
+description: "Comprehensive reference handbook covering all aspects of peptide biology. This peptide or oligopeptide is studied for its biological activity, structure-acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

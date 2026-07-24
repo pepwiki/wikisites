@@ -1,6 +1,6 @@
 ---
-title: "Kidney Disease and Peptides"
-description: "Learn about peptide biomarkers and therapeutic peptides for chronic kidney disease and renal fibrosis."
+title: "Kidney Disease and Peptides: Comprehensive Peptide Reference"
+description: "Learn about peptide biomarkers and therapeutic peptides for chronic kidney disease and renal fibrosis. This peptide or oligopeptide is studied for its biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

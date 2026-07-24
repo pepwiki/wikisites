@@ -1,6 +1,6 @@
 ---
-title: "Tachykinin Family Peptides"
-description: "Guide to substance P, neurokinin A, and neurokinin B in pain transmission and neuroinflammation."
+title: "Tachykinin Family Peptides: Comprehensive Peptide Reference"
+description: "Guide to substance P, neurokinin A, and neurokinin B in pain transmission and neuroinflammation. This peptide or oligopeptide is studied for its biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

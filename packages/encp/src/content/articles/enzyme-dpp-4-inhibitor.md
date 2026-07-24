@@ -1,6 +1,6 @@
 ---
-title: "DPP 4 Inhibitor"
-description: "Comprehensive reference for DPP 4 inhibitor in peptide research."
+title: "DPP 4 Inhibitor: Enzyme in Peptide Biology Reference"
+description: "DPP 4 inhibitor in peptide research. This enzyme plays important roles in peptide metabolism and is studied for its biochemical mechanisms, substrate specifi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Peptide-Loaded Microspheres"
-description: "Learn PLGA microsphere formulations for sustained-release injectable peptide depot delivery."
+title: "Peptide-Loaded Microspheres: Comprehensive Peptide Reference"
+description: "Learn PLGA microsphere formulations for sustained-release injectable peptide depot delivery. This peptide or oligopeptide is studied for its biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

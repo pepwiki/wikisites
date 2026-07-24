@@ -1,6 +1,6 @@
 ---
-title: "Argatroban"
-description: "Synthetic direct thrombin inhibitor for heparin-induced thrombocytopenia with active site binding."
+title: "Argatroban: Oligopeptide Research Reference"
+description: "Synthetic direct thrombin inhibitor for heparin-induced thrombocytopenia with active site binding. This peptide or oligopeptide is studied for its biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

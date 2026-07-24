@@ -1,6 +1,6 @@
 ---
-title: "IdegLira Combination"
-description: "Single-pen fixed-ratio co-formulation of ultra-long-acting degludec with liraglutide simplifying therapy."
+title: "IdegLira Combination: Oligopeptide Research Reference"
+description: "Single-pen fixed-ratio co-formulation of ultra-long-acting degludec with liraglutide simplifying therapy. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

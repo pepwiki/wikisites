@@ -1,5 +1,5 @@
 ---
-title: "Endorphin Beta"
+title: "Endorphin Beta: Neuropeptide in Neuroscience Reference"
 description: "endorphin-beta is an opioid neuropeptide that modulates pain, reward, and stress responses through opioid receptor activation."
 status: "published"
 author: "Encyclopeptide Editorial"

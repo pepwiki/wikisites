@@ -1,6 +1,6 @@
 ---
-title: "FSH Analog"
-description: "Comprehensive reference for FSH analog in peptide research."
+title: "FSH Analog: Oligopeptide Research Reference"
+description: "FSH analog in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

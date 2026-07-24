@@ -1,6 +1,6 @@
 ---
-title: "Als Peptides"
-description: "Peptides associated with Als including biomarkers, therapeutic targets, and diagnostic markers."
+title: "Als Peptides: Oligopeptide Research Reference"
+description: "Peptides associated with Als including biomarkers, therapeutic targets, and diagnostic markers. This peptide or oligopeptide is studied for its biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Fab fragment"
-description: "Reference for fab fragment in peptide research."
+title: "Fab fragment: Oligopeptide Research Reference"
+description: "Comprehensive reference for fab fragment, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

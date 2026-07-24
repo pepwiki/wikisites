@@ -1,6 +1,6 @@
 ---
-title: "Neurotensin"
-description: "Neurotensin is a 13-amino acid neuropeptide that modulates dopaminergic signaling, regulates thermoregulation, and functions as both a neurotransmitter and gut hormone."
+title: "Neurotensin: Neuropeptide in Neuroscience Reference"
+description: "Neurotensin is a 13-amino acid neuropeptide that modulates dopaminergic signaling, regulates thermoregulation, and functions as both a neurotransmitter and g..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-06-25

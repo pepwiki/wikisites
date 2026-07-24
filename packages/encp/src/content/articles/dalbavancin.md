@@ -1,5 +1,5 @@
 ---
-title: "Dalbavancin"
+title: "Dalbavancin: Antimicrobial Peptide Reference"
 description: "Lipoglycopeptide antibiotic with ultra-long half-life enabling single-dose treatment of acute bacterial skin infections."
 status: "published"
 author: "Encyclopeptide Editorial"

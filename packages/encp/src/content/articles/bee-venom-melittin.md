@@ -1,6 +1,6 @@
 ---
-title: "Bee Venom Melittin"
-description: "Pharmacological applications of melittin beyond bee sting toxicity."
+title: "Bee Venom Melittin: Peptide Toxin in Pharmacology Reference"
+description: "Pharmacological applications of melittin beyond bee sting toxicity. This peptide toxin is derived from venom and studied for its pharmacological activity, me..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

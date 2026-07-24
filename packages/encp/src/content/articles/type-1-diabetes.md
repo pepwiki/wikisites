@@ -1,5 +1,5 @@
 ---
-title: "Type 1 Diabetes"
+title: "Type 1 Diabetes: Oligopeptide Research Reference"
 description: "Autoimmune β-cell destruction → absolute insulin deficiency. HLA-DR3/DR4 associated. Treatments: insulin replacement (basal-bolus), CGM, insulin pumps."
 status: "published"
 author: "Encyclopeptide Editorial"

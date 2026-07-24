@@ -1,6 +1,6 @@
 ---
-title: "BERT for Peptides"
-description: "A computational method for studying peptides using BERT."
+title: "BERT for Peptides: Analytical Technique in Peptide Research"
+description: "A computational method for studying peptides using BERT. This analytical technique provides valuable insights into peptide structure, purity, and characteriz..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

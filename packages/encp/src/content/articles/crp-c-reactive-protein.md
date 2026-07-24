@@ -1,5 +1,5 @@
 ---
-title: "CRP (C-Reactive Protein)"
+title: "CRP (C-Reactive Protein): Oligopeptide Research Reference"
 description: "Comprehensive reference for CRP (C-Reactive Protein), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

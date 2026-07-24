@@ -1,6 +1,6 @@
 ---
-title: "Endomorphin-1"
-description: "Highly selective mu-opioid endogenous peptide from hypothalamus."
+title: "Endomorphin-1: Neuropeptide in Neuroscience Reference"
+description: "Highly selective mu-opioid endogenous peptide from hypothalamus. This neuropeptide is involved in neurological signaling and is studied for its roles in brai..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

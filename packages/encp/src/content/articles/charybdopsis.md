@@ -1,6 +1,6 @@
 ---
-title: "Charybdopsis"
-description: "Comprehensive reference for Charybdopsis, a peptide compound with applications in research and therapeutics."
+title: "Charybdopsis: Peptide Toxin in Pharmacology Reference"
+description: "Charybdopsis, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

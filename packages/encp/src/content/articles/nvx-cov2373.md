@@ -1,6 +1,6 @@
 ---
-title: "NVX-CoV2373"
-description: "Comprehensive reference for NVX-CoV2373, a peptide compound with applications in research and therapeutics."
+title: "NVX-CoV2373: Oligopeptide Research Reference"
+description: "NVX-CoV2373, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

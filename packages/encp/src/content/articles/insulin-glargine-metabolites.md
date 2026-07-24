@@ -1,6 +1,6 @@
 ---
-title: "Insulin Glargine Metabolites"
-description: "Active metabolites M1 and M2 contributing to prolonged glucose-lowering activity of insulin glargine."
+title: "Insulin Glargine Metabolites: Comprehensive Peptide Refer..."
+description: "Active metabolites M1 and M2 contributing to prolonged glucose-lowering activity of insulin glargine. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

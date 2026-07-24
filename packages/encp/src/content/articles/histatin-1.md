@@ -1,6 +1,6 @@
 ---
-title: "Histatin 1"
-description: "Major salivary histatin contributing to oral mucosal defense against fungal pathogens."
+title: "Histatin 1: Antimicrobial Peptide Reference"
+description: "Major salivary histatin contributing to oral mucosal defense against fungal pathogens. This antimicrobial peptide demonstrates activity against pathogens and..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

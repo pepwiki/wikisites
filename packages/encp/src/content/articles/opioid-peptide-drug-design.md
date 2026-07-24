@@ -1,6 +1,6 @@
 ---
-title: "Opioid Peptide Drug Design"
-description: "Structure-based design of novel opioid peptides with improved properties."
+title: "Opioid Peptide Drug Design: Comprehensive Peptide Reference"
+description: "Structure-based design of novel opioid peptides with improved properties. This neuropeptide is involved in neurological signaling and is studied for its role..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

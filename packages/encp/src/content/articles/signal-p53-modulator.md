@@ -1,6 +1,6 @@
 ---
-title: "P53 Modulator"
-description: "Comprehensive reference for p53 modulator in peptide research."
+title: "P53 Modulator: Oligopeptide Research Reference"
+description: "p53 modulator in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appli..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

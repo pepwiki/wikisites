@@ -1,6 +1,6 @@
 ---
 title: "Advanced Modeling in Peptide Drug Development"
-description: "Computational modeling approaches for predicting peptide drug properties."
+description: "Computational modeling approaches for predicting peptide drug properties. This peptide or oligopeptide is studied for its biological activity, structure-acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "μ-Conotoxin KIIIA"
-description: "Comprehensive reference for μ-Conotoxin KIIIA, a peptide compound with applications in research and therapeutics."
+title: "μ-Conotoxin KIIIA: Peptide Toxin in Pharmacology Reference"
+description: "μ-Conotoxin KIIIA, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

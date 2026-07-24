@@ -1,6 +1,6 @@
 ---
-title: "Immunogenicity"
-description: "ADA formation reducing efficacy"
+title: "Immunogenicity: Oligopeptide Research Reference"
+description: "ADA formation reducing efficacy. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

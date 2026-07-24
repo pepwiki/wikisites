@@ -1,6 +1,6 @@
 ---
-title: "VEGFR Inhibitor"
-description: "Comprehensive reference for VEGFR inhibitor in peptide research."
+title: "VEGFR Inhibitor: Oligopeptide Research Reference"
+description: "VEGFR inhibitor in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential app..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
 title: "History of Peptide Clinical Development"
-description: "The evolution of peptide drugs through clinical trials from insulin to modern therapeutics."
+description: "The evolution of peptide drugs through clinical trials from insulin to modern therapeutics. This peptide or oligopeptide is studied for its biological activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

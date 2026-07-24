@@ -1,6 +1,6 @@
 ---
-title: "Waters Xevo G2-XS QTof"
-description: "Quadrupole time-of-flight mass spectrometer for peptide identification."
+title: "Waters Xevo G2-XS QTof: Oligopeptide Research Reference"
+description: "Quadrupole time-of-flight mass spectrometer for peptide identification. This peptide or oligopeptide is studied for its biological activity, structure-activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

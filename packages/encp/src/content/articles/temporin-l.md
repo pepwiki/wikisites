@@ -1,6 +1,6 @@
 ---
-title: "Temporin L"
-description: "Potent frog AMP with activity against MRSA and efficacy in infection models."
+title: "Temporin L: Antimicrobial Peptide Reference"
+description: "Potent frog AMP with activity against MRSA and efficacy in infection models. This antimicrobial peptide demonstrates activity against pathogens and is studie..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

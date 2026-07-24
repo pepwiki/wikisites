@@ -1,5 +1,5 @@
 ---
-title: "Avian Beta-Defensin 3 (AvBD3)"
+title: "Avian Beta-Defensin 3 (AvBD3): Comprehensive Peptide Refe..."
 description: "Comprehensive reference for Avian Beta-Defensin 3 (AvBD3), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

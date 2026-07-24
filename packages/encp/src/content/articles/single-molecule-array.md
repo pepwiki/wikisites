@@ -1,6 +1,6 @@
 ---
-title: "Single molecule array"
-description: "Ultra-sensitive (neuro)"
+title: "Single molecule array: Oligopeptide Research Reference"
+description: "Ultra-sensitive (neuro). This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

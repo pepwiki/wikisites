@@ -1,6 +1,6 @@
 ---
 title: "Computational Technology Comparison"
-description: "Comparison of computational tools for peptide design and analysis."
+description: "Comparison of computational tools for peptide design and analysis. This peptide or oligopeptide is studied for its biological activity, structure-activity re..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

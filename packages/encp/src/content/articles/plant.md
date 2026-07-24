@@ -1,6 +1,6 @@
 ---
-title: "Plant"
-description: "~0.003 mg/kg"
+title: "Plant: Peptide Toxin in Pharmacology Reference"
+description: "~0.003 mg/kg. This peptide toxin is derived from venom and studied for its pharmacological activity, mechanism of action, and potential applications in resea..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Exendin-4 (Exenatide)"
-description: "Comprehensive reference for Exendin-4 (Exenatide), a peptide compound with applications in research and therapeutics."
+title: "Exendin-4 (Exenatide): Oligopeptide Research Reference"
+description: "Exendin-4 (Exenatide), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

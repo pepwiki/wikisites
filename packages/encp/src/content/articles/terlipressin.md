@@ -1,6 +1,6 @@
 ---
-title: "Terlipressin"
-description: "Glypressin analog for hepatorenal syndrome providing selective splanchnic vasoconstriction."
+title: "Terlipressin: Oligopeptide Research Reference"
+description: "Glypressin analog for hepatorenal syndrome providing selective splanchnic vasoconstriction. This peptide or oligopeptide is studied for its biological activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

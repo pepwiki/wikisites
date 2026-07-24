@@ -1,6 +1,6 @@
 ---
-title: "Interferon IFN-lambda-2"
-description: "Reference for interferon IFN-lambda-2 in peptide research."
+title: "Interferon IFN-lambda-2: Oligopeptide Research Reference"
+description: "Comprehensive reference for interferon IFN-lambda-2, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

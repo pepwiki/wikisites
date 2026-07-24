@@ -1,6 +1,6 @@
 ---
-title: "Peptide Regulatory Landscape"
-description: "Global regulatory frameworks governing peptide drug approval and marketing."
+title: "Peptide Regulatory Landscape: Comprehensive Peptide Refer..."
+description: "Global regulatory frameworks governing peptide drug approval and marketing. This peptide or oligopeptide is studied for its biological activity, structure-ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

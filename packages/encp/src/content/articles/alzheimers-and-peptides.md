@@ -1,6 +1,6 @@
 ---
-title: "Alzheimer's and Peptides"
-description: "Explore peptide approaches to Alzheimer's disease including amyloid-targeting therapies and neuroprotective peptides."
+title: "Alzheimer's and Peptides: Oligopeptide Research Reference"
+description: "Explore peptide approaches to Alzheimer's disease including amyloid-targeting therapies and neuroprotective peptides. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

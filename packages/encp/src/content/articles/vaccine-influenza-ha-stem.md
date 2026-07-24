@@ -1,6 +1,6 @@
 ---
-title: "Influenza HA Stem Vaccine"
-description: "A peptide vaccine targeting Influenza HA Stem for infectious disease prevention."
+title: "Influenza HA Stem Vaccine: Comprehensive Peptide Reference"
+description: "A peptide vaccine targeting Influenza HA Stem for infectious disease prevention. This peptide or oligopeptide is studied for its biological activity, structu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

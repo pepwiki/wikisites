@@ -1,6 +1,6 @@
 ---
-title: "Opioid Stress Analgesia"
-description: "Role of endogenous opioids in stress-induced analgesia."
+title: "Opioid Stress Analgesia: Neuropeptide in Neuroscience Ref..."
+description: "Role of endogenous opioids in stress-induced analgesia. This neuropeptide is involved in neurological signaling and is studied for its roles in brain functio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

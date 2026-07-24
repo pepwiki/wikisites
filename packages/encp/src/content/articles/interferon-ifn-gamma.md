@@ -1,6 +1,6 @@
 ---
-title: "Interferon IFN-gamma"
-description: "Reference for interferon IFN-gamma in peptide research."
+title: "Interferon IFN-gamma: Oligopeptide Research Reference"
+description: "Comprehensive reference for interferon IFN-gamma, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

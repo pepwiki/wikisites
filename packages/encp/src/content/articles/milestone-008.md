@@ -1,6 +1,6 @@
 ---
-title: "Milestone 008"
-description: "1993: First GLP-1 agonist (exenatide) discovered from Gila monster venom. Opens incretin therapy."
+title: "Milestone 008: Oligopeptide Research Reference"
+description: "1993: First GLP-1 agonist (exenatide) discovered from Gila monster venom. Opens incretin therapy. This peptide or oligopeptide is studied for its biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

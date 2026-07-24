@@ -1,6 +1,6 @@
 ---
-title: "PACAP"
-description: "A 38-amino acid hypothalamic neuropeptide that activates adenylyl cyclase, regulating neurotransmission, neuroprotection, and cardiovascular function through PAC1, VPAC1, and VPAC2 receptors."
+title: "PACAP: Neuropeptide in Neuroscience Reference"
+description: "A 38-amino acid hypothalamic neuropeptide that activates adenylyl cyclase, regulating neurotransmission, neuroprotection, and cardiovascular function through..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

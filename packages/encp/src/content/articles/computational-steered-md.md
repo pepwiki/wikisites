@@ -1,6 +1,6 @@
 ---
-title: "Steered MD for Peptides"
-description: "A computational method for studying peptides using Steered MD."
+title: "Steered MD for Peptides: Analytical Technique in Peptide ..."
+description: "A computational method for studying peptides using Steered MD. This analytical technique provides valuable insights into peptide structure, purity, and chara..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

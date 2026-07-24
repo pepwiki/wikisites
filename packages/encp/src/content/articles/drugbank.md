@@ -1,6 +1,6 @@
 ---
-title: "DrugBank"
-description: "Comprehensive drug and drug target database combining detailed drug data with drug target information"
+title: "DrugBank: Therapeutic Peptide Drug Profile"
+description: "Comprehensive drug and drug target database combining detailed drug data with drug target information. This peptide or oligopeptide is studied for its biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

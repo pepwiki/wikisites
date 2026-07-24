@@ -1,6 +1,6 @@
 ---
-title: "ω-Conotoxin"
-description: "Comprehensive reference for ω-Conotoxin, a peptide compound with applications in research and therapeutics."
+title: "ω-Conotoxin: Oligopeptide Research Reference"
+description: "ω-Conotoxin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

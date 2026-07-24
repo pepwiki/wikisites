@@ -1,6 +1,6 @@
 ---
-title: "Gliotoxin"
-description: "Comprehensive reference for Gliotoxin, a peptide compound with applications in research and therapeutics."
+title: "Gliotoxin: Oligopeptide Research Reference"
+description: "Gliotoxin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

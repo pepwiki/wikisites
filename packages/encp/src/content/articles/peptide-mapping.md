@@ -1,5 +1,5 @@
 ---
-title: "Peptide Mapping"
+title: "Peptide Mapping: Analytical Technique in Peptide Research"
 description: "Learn peptide mapping strategies for characterizing protein primary structure and identifying post-translational modifications."
 status: "published"
 author: "Encyclopeptide Editorial"

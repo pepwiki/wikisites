@@ -1,6 +1,6 @@
 ---
-title: "Tetrodotoxin Analogs"
-description: "Comprehensive reference for Tetrodotoxin Analogs, a peptide compound with applications in research and therapeutics."
+title: "Tetrodotoxin Analogs: Oligopeptide Research Reference"
+description: "Tetrodotoxin Analogs, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

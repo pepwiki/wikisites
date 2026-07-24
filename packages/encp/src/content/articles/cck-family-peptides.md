@@ -1,6 +1,6 @@
 ---
 title: "Cholecystokinin Family Peptides"
-description: "Guide to CCK family peptides in digestion, satiety signaling, and neurotransmission."
+description: "Guide to CCK family peptides in digestion, satiety signaling, and neurotransmission. This peptide or oligopeptide is studied for its biological activity, str..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

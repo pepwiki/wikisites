@@ -1,6 +1,6 @@
 ---
-title: "A Baumannii Peptide"
-description: "A peptide associated with A Baumannii for research or therapeutic applications."
+title: "A Baumannii Peptide: Oligopeptide Research Reference"
+description: "A peptide associated with A Baumannii for research or therapeutic applications. This peptide or oligopeptide is studied for its biological activity, structur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

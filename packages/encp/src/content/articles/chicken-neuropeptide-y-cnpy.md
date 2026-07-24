@@ -1,5 +1,5 @@
 ---
-title: "Chicken Neuropeptide Y (cNPY)"
+title: "Chicken Neuropeptide Y (cNPY): Comprehensive Peptide Refe..."
 description: "Comprehensive reference for Chicken Neuropeptide Y (cNPY), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

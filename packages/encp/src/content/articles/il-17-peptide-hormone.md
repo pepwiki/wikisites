@@ -1,6 +1,6 @@
 ---
-title: "IL 17 Peptide Hormone"
-description: "The IL 17 Peptide Hormone and its role in endocrine signaling."
+title: "IL 17 Peptide Hormone: Endogenous Peptide Hormone Reference"
+description: "IL 17, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical sign..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

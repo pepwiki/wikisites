@@ -1,6 +1,6 @@
 ---
-title: "Milestone 013"
-description: "2014: First checkpoint inhibitor (ipilimumab) approved for melanoma. Opens era of cancer immunotherapy."
+title: "Milestone 013: Oligopeptide Research Reference"
+description: "2014: First checkpoint inhibitor (ipilimumab) approved for melanoma. Opens era of cancer immunotherapy. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

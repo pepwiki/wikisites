@@ -1,6 +1,6 @@
 ---
-title: "Ranatuerin-2"
-description: "Comprehensive reference for Ranatuerin-2, a peptide compound with applications in research and therapeutics."
+title: "Ranatuerin-2: Antimicrobial Peptide Reference"
+description: "Ranatuerin-2, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

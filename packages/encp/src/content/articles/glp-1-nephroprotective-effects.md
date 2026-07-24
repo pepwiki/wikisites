@@ -1,6 +1,6 @@
 ---
 title: "GLP-1 Nephroprotective Effects"
-description: "Renal protective effects including natriuresis and glomerular hyperfiltration reduction."
+description: "Renal protective effects including natriuresis and glomerular hyperfiltration reduction. This peptide or oligopeptide is studied for its biological activity,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

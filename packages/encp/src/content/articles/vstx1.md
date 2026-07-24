@@ -1,6 +1,6 @@
 ---
-title: "VSTx1"
-description: "VSTx1 is a spider venom peptide with specific ion channel or receptor blocking properties."
+title: "VSTx1: Peptide Toxin in Pharmacology Reference"
+description: "VSTx1 is a spider venom peptide with specific ion channel or receptor blocking properties. This peptide toxin is derived from venom and studied for its pharm..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

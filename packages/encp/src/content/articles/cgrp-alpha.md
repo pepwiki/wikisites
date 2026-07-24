@@ -1,6 +1,6 @@
 ---
-title: "CGRP Alpha"
-description: "Calcitonin gene-related peptide mediating vasodilation and pain transmission in trigeminal system."
+title: "CGRP Alpha: Neuropeptide in Neuroscience Reference"
+description: "Calcitonin gene-related peptide mediating vasodilation and pain transmission in trigeminal system. This neuropeptide is involved in neurological signaling an..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

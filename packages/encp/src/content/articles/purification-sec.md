@@ -1,6 +1,6 @@
 ---
-title: "SEC Purification"
-description: "A purification technique for separating and isolating peptides using SEC."
+title: "SEC Purification: Analytical Technique in Peptide Research"
+description: "A purification technique for separating and isolating peptides using SEC. This analytical technique provides valuable insights into peptide structure, purity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

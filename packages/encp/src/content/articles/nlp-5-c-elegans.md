@@ -1,6 +1,6 @@
 ---
-title: "NLP-5 (C. elegans)"
-description: "Comprehensive reference for NLP-5 (C. elegans), a peptide compound with applications in research and therapeutics."
+title: "NLP-5 (C. elegans): Oligopeptide Research Reference"
+description: "NLP-5 (C. elegans), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "4 1BB Agonist"
-description: "Comprehensive reference for 4 1BB agonist in peptide research."
+title: "4 1BB Agonist: Oligopeptide Research Reference"
+description: "4 1BB agonist in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appli..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

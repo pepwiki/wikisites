@@ -1,6 +1,6 @@
 ---
-title: "Interleukin IL-17F"
-description: "Reference for interleukin IL-17F in peptide research."
+title: "Interleukin IL-17F: Oligopeptide Research Reference"
+description: "Comprehensive reference for interleukin IL-17F, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

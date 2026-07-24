@@ -1,6 +1,6 @@
 ---
-title: "Melanostatine"
-description: "Peptide that inhibits melanin production. Skin lightening cosmetic."
+title: "Melanostatine: Oligopeptide Research Reference"
+description: "Peptide that inhibits melanin production. Skin lightening cosmetic. This peptide or oligopeptide is studied for its biological activity, structure-activity r..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

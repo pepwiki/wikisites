@@ -1,6 +1,6 @@
 ---
-title: "Microwave Synthesis"
-description: "A peptide synthesis method using Microwave for producing peptides with specific properties."
+title: "Microwave Synthesis: Analytical Technique in Peptide Rese..."
+description: "A peptide synthesis method using Microwave for producing peptides with specific properties. This analytical technique provides valuable insights into peptide..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

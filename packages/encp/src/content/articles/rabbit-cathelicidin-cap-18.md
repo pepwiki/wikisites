@@ -1,6 +1,6 @@
 ---
-title: "Rabbit Cathelicidin CAP-18"
-description: "Cathelicidin from rabbit neutrophils generating LL-37-equivalent active fragment."
+title: "Rabbit Cathelicidin CAP-18: Comprehensive Peptide Reference"
+description: "Cathelicidin from rabbit neutrophils generating LL-37-equivalent active fragment. This antimicrobial peptide demonstrates activity against pathogens and is s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

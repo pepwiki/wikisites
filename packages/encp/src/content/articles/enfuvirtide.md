@@ -1,6 +1,6 @@
 ---
-title: "Enfuvirtide"
-description: "Fusion inhibitor peptide blocking HIV gp41-mediated membrane fusion for treatment-experienced patients."
+title: "Enfuvirtide: Oligopeptide Research Reference"
+description: "Fusion inhibitor peptide blocking HIV gp41-mediated membrane fusion for treatment-experienced patients. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

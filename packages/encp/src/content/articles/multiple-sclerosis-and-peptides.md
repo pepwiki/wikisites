@@ -1,6 +1,6 @@
 ---
 title: "Multiple Sclerosis and Peptides"
-description: "Explore peptide immunotherapies for multiple sclerosis targeting myelin-specific immune responses."
+description: "Explore peptide immunotherapies for multiple sclerosis targeting myelin-specific immune responses. This peptide or oligopeptide is studied for its biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

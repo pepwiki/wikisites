@@ -1,6 +1,6 @@
 ---
-title: "Peptide Clinical Trials"
-description: "Clinical trial phases for peptide drugs: Phase I (safety, dosing, PK), Phase II (efficacy, dose-finding), Phase III (confirmatory, large-scale), Phase IV (post-market). Peptide-specific challenges: short half-life, oral bioavailability, immunogenicity, formulation complexity."
+title: "Peptide Clinical Trials: Oligopeptide Research Reference"
+description: "Clinical trial phases for peptide drugs: Phase I (safety, dosing, PK), Phase II (efficacy, dose-finding), Phase III (confirmatory, large-scale), Phase IV (po..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Clinical trial phases for peptide drugs: Phase I (safety, dosing, PK), Phase II (efficacy, dose-finding), Phase III (confirmatory, large-scale), Phase IV (post-market). Peptide-specific challenges: short half-life, oral bioavailability, immunogenicity, formulation complexity.
+Clinical trial phases for peptide drugs: Phase I (safety, dosing, PK), Phase II (efficacy, dose-finding), Phase III (confirmatory, large-scale), Phase IV (po...
 
 ## Clinical Significance
 

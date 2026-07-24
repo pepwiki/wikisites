@@ -1,6 +1,6 @@
 ---
-title: "Metabolic Diseases"
-description: "Disorders of metabolism: diabetes, obesity, lipid disorders, inborn errors of metabolism (PKU, Gaucher's, Fabry's). Treatments: dietary modification, enzyme replacement, substrate reduction, pharmacotherapy."
+title: "Metabolic Diseases: Oligopeptide Research Reference"
+description: "Disorders of metabolism: diabetes, obesity, lipid disorders, inborn errors of metabolism (PKU, Gaucher's, Fabry's). Treatments: dietary modification, enzyme ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Disorders of metabolism: diabetes, obesity, lipid disorders, inborn errors of metabolism (PKU, Gaucher's, Fabry's). Treatments: dietary modification, enzyme replacement, substrate reduction, pharmacotherapy.
+Disorders of metabolism: diabetes, obesity, lipid disorders, inborn errors of metabolism (PKU, Gaucher's, Fabry's). Treatments: dietary modification, enzyme ...
 
 ## Clinical Significance
 

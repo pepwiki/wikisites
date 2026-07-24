@@ -1,6 +1,6 @@
 ---
-title: "Peptide fluorescent labeling"
-description: "Reference for peptide fluorescent labeling in peptide research."
+title: "Peptide fluorescent labeling: Comprehensive Peptide Refer..."
+description: "Comprehensive reference for peptide fluorescent labeling, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

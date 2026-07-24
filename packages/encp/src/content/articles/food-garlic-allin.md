@@ -1,6 +1,6 @@
 ---
-title: "Garlic Allin"
-description: "Comprehensive reference for garlic allin in peptide research."
+title: "Garlic Allin: Oligopeptide Research Reference"
+description: "garlic allin in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

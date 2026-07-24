@@ -1,6 +1,6 @@
 ---
-title: "Peptide Vaccine Design"
-description: "Principles of peptide-based vaccine development including epitope prediction, adjuvant selection, and nanoparticle delivery strategies for enhanced immunogenicity."
+title: "Peptide Vaccine Design: Oligopeptide Research Reference"
+description: "Principles of peptide-based vaccine development including epitope prediction, adjuvant selection, and nanoparticle delivery strategies for enhanced immunogen..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-08-18

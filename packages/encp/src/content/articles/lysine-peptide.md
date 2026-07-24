@@ -1,6 +1,6 @@
 ---
-title: "Lysine Peptide"
-description: "Lysine (K) is one of the 20 standard amino acids. It plays essential roles in protein structure and function."
+title: "Lysine Peptide: Oligopeptide Research Reference"
+description: "Lysine (K) is one of the 20 standard amino acids. It plays essential roles in protein structure and function. This peptide or oligopeptide is studied for its..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Seed amplification assay"
-description: "Alpha-synuclein (PD)"
+title: "Seed amplification assay: Oligopeptide Research Reference"
+description: "Alpha-synuclein (PD). This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

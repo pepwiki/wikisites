@@ -1,5 +1,5 @@
 ---
-title: "NPH Insulin (Isophane)"
+title: "NPH Insulin (Isophane): Peptide Family Reference"
 description: "Intermediate-acting insulin preparation using protamine to create crystalline complexes providing 12-18 hour basal coverage."
 status: "published"
 author: "Encyclopeptide Editorial"

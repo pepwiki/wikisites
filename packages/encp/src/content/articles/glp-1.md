@@ -1,6 +1,6 @@
 ---
-title: "Glucagon-Like Peptide-1"
-description: "Glucagon-like peptide-1 (GLP-1) is a 30-amino acid incretin hormone that enhances glucose-dependent insulin secretion and serves as the basis for widely prescribed antidiabetic and anti-obesity therapies."
+title: "Glucagon-Like Peptide-1: Oligopeptide Research Reference"
+description: "Glucagon-like peptide-1 (GLP-1) is a 30-amino acid incretin hormone that enhances glucose-dependent insulin secretion and serves as the basis for widely pres..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-12-01

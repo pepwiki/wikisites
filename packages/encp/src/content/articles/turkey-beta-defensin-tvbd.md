@@ -1,5 +1,5 @@
 ---
-title: "Turkey Beta-Defensin (TvBD)"
+title: "Turkey Beta-Defensin (TvBD): Comprehensive Peptide Reference"
 description: "Comprehensive reference for Turkey Beta-Defensin (TvBD), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

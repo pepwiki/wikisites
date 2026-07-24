@@ -1,6 +1,6 @@
 ---
-title: "TGF Beta 3 Hormone"
-description: "The TGF Beta 3 Hormone and its role in endocrine signaling."
+title: "TGF Beta 3 Hormone: Endogenous Peptide Hormone Reference"
+description: "TGF Beta 3, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

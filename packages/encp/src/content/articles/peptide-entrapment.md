@@ -1,6 +1,6 @@
 ---
-title: "Peptide entrapment"
-description: "Reference for peptide entrapment in peptide research."
+title: "Peptide entrapment: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide entrapment, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

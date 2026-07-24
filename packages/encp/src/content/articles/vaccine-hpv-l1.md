@@ -1,6 +1,6 @@
 ---
-title: "HPV L1 Vaccine"
-description: "A peptide vaccine targeting HPV L1 for infectious disease prevention."
+title: "HPV L1 Vaccine: Oligopeptide Research Reference"
+description: "A peptide vaccine targeting HPV L1 for infectious disease prevention. This peptide or oligopeptide is studied for its biological activity, structure-activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

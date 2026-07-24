@@ -1,5 +1,5 @@
 ---
-title: "Interferon Alfa"
+title: "Interferon Alfa: Oligopeptide Research Reference"
 description: "Type I interferon glycoprotein with antiviral, antiproliferative, and immunomodulatory effects for hepatitis and cancer."
 status: "published"
 author: "Encyclopeptide Editorial"

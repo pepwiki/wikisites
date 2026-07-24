@@ -1,6 +1,6 @@
 ---
-title: "Gut Disorders and Peptides"
-description: "Explore peptide therapies for gastrointestinal conditions including IBD, Crohn's disease, and motility disorders."
+title: "Gut Disorders and Peptides: Comprehensive Peptide Reference"
+description: "Explore peptide therapies for gastrointestinal conditions including IBD, Crohn's disease, and motility disorders. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

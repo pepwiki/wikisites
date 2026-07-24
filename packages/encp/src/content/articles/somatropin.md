@@ -1,6 +1,6 @@
 ---
-title: "Somatropin"
-description: "Recombinant human growth hormone identical to endogenous 191 amino acid pituitary GH."
+title: "Somatropin: Oligopeptide Research Reference"
+description: "Recombinant human growth hormone identical to endogenous 191 amino acid pituitary GH. This peptide or oligopeptide is studied for its biological activity, st..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

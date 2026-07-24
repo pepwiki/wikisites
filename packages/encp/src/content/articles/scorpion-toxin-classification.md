@@ -1,6 +1,6 @@
 ---
-title: "Scorpion Toxin Classification"
-description: "Classification of scorpion toxins by target specificity and structure."
+title: "Scorpion Toxin Classification: Comprehensive Peptide Refe..."
+description: "Classification of scorpion toxins by target specificity and structure. This peptide toxin is derived from venom and studied for its pharmacological activity,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

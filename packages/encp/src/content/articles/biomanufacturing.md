@@ -1,6 +1,6 @@
 ---
-title: "Biomanufacturing"
-description: "Large-scale production of peptides using biotechnology methods."
+title: "Biomanufacturing: Oligopeptide Research Reference"
+description: "Large-scale production of peptides using biotechnology methods. This peptide or oligopeptide is studied for its biological activity, structure-activity relat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

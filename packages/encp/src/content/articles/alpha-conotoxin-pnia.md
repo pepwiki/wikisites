@@ -1,6 +1,6 @@
 ---
-title: "Alpha-Conotoxin PnIA"
-description: "Neuronal nicotinic receptor antagonist from Conus pennaceus with analgesic potential."
+title: "Alpha-Conotoxin PnIA: Peptide Toxin in Pharmacology Refer..."
+description: "Neuronal nicotinic receptor antagonist from Conus pennaceus with analgesic potential. This peptide toxin is derived from venom and studied for its pharmacolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

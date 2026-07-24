@@ -1,5 +1,5 @@
 ---
-title: "Faster-Acting Insulin Aspart"
+title: "Faster-Acting Insulin Aspart: Comprehensive Peptide Refer..."
 description: "Next-generation rapid-acting insulin aspart formulation with niacinamide and L-arginine for accelerated initial absorption."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,6 +1,6 @@
 ---
-title: "FDA Peptide Drug Approval"
-description: "Navigate the FDA regulatory pathway for peptide drug approval including IND, NDA, and BLA submission requirements."
+title: "FDA Peptide Drug Approval: Comprehensive Peptide Reference"
+description: "Navigate the FDA regulatory pathway for peptide drug approval including IND, NDA, and BLA submission requirements. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

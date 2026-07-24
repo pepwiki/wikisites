@@ -1,6 +1,6 @@
 ---
-title: "Kluyveromyces lactis"
-description: "tRNA anticodon nuclease activity"
+title: "Kluyveromyces lactis: Oligopeptide Research Reference"
+description: "tRNA anticodon nuclease activity. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

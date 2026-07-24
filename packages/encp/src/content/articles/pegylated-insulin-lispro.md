@@ -1,6 +1,6 @@
 ---
-title: "PEGylated Insulin Lispro"
-description: "PEGylated rapid-acting insulin analog with extended duration providing both prandial and basal coverage."
+title: "PEGylated Insulin Lispro: Oligopeptide Research Reference"
+description: "PEGylated rapid-acting insulin analog with extended duration providing both prandial and basal coverage. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

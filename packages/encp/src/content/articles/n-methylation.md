@@ -1,6 +1,6 @@
 ---
-title: "N-Methylation"
-description: "Addition of methyl group to backbone nitrogen. Increases proteolytic resistance."
+title: "N-Methylation: Oligopeptide Research Reference"
+description: "Addition of methyl group to backbone nitrogen. Increases proteolytic resistance. This peptide or oligopeptide is studied for its biological activity, structu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

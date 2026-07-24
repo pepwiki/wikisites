@@ -1,6 +1,6 @@
 ---
-title: "X Ray Crystal Analysis"
-description: "An analytical technique for characterizing peptides using X Ray Crystal."
+title: "X Ray Crystal Analysis: Analytical Technique in Peptide R..."
+description: "An analytical technique for characterizing peptides using X Ray Crystal. This analytical technique provides valuable insights into peptide structure, purity,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

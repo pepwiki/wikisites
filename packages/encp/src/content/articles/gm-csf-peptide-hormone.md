@@ -1,6 +1,6 @@
 ---
-title: "GM CSF Peptide Hormone"
-description: "The GM CSF Peptide Hormone and its role in endocrine signaling."
+title: "GM CSF Peptide Hormone: Endogenous Peptide Hormone Reference"
+description: "GM CSF, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical sig..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

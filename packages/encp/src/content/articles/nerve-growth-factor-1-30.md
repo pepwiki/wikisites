@@ -1,6 +1,6 @@
 ---
-title: "Nerve Growth Factor 1-30"
-description: "Reference for nerve growth factor 1-30 in peptide research."
+title: "Nerve Growth Factor 1-30: Oligopeptide Research Reference"
+description: "Comprehensive reference for nerve growth factor 1-30, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

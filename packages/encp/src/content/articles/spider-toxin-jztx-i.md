@@ -1,6 +1,6 @@
 ---
-title: "Spider Toxin JZTX-I"
-description: "Sodium channel modulator from Jinzo spider affecting neuronal excitability."
+title: "Spider Toxin JZTX-I: Peptide Toxin in Pharmacology Reference"
+description: "Sodium channel modulator from Jinzo spider affecting neuronal excitability. This peptide toxin is derived from venom and studied for its pharmacological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Proline Metabolism"
-description: "Metabolic pathways involving Proline including biosynthesis, catabolism, and transamination."
+title: "Proline Metabolism: Oligopeptide Research Reference"
+description: "Metabolic pathways involving Proline including biosynthesis, catabolism, and transamination. This peptide or oligopeptide is studied for its biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

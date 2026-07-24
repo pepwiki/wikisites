@@ -1,6 +1,6 @@
 ---
-title: "FGFR Inhibitor"
-description: "Comprehensive reference for FGFR inhibitor in peptide research."
+title: "FGFR Inhibitor: Oligopeptide Research Reference"
+description: "FGFR inhibitor in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appl..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

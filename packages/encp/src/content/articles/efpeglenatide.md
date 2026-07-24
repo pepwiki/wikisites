@@ -1,6 +1,6 @@
 ---
-title: "Efpeglenatide"
-description: "Long-acting GLP-1 agonist with albumin-binding fatty acid for once-monthly dosing."
+title: "Efpeglenatide: Oligopeptide Research Reference"
+description: "Long-acting GLP-1 agonist with albumin-binding fatty acid for once-monthly dosing. This peptide or oligopeptide is studied for its biological activity, struc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

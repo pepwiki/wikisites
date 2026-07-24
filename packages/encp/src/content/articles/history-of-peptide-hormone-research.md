@@ -1,6 +1,6 @@
 ---
 title: "History of Peptide Hormone Research"
-description: "The discovery and characterization of peptide hormones from insulin to GLP-1."
+description: "The discovery and characterization of peptide hormones from insulin to GLP-1. This peptide or oligopeptide is studied for its biological activity, structure-..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

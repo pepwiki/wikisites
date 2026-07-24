@@ -1,5 +1,5 @@
 ---
-title: "Thyrotropin-Releasing Hormone"
+title: "Thyrotropin-Releasing Hormone: Comprehensive Peptide Refe..."
 description: "A tripeptide (pGlu-His-Pro-NH₂) from the hypothalamus that initiates the thyroid axis by stimulating TSH and prolactin release from the anterior pituitary."
 status: "published"
 author: "Encyclopeptide Editorial"

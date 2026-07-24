@@ -1,6 +1,6 @@
 ---
-title: "Bepranemab"
-description: "Comprehensive reference for Bepranemab, a peptide compound with applications in research and therapeutics."
+title: "Bepranemab: Oligopeptide Research Reference"
+description: "Bepranemab, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

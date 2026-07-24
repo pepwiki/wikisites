@@ -1,6 +1,6 @@
 ---
-title: "M Catarrhalis Peptide"
-description: "A peptide associated with M Catarrhalis for research or therapeutic applications."
+title: "M Catarrhalis Peptide: Oligopeptide Research Reference"
+description: "A peptide associated with M Catarrhalis for research or therapeutic applications. This peptide or oligopeptide is studied for its biological activity, struct..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

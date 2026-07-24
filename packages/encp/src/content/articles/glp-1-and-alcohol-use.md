@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 and Alcohol Use"
-description: "Emerging evidence for effects on alcohol craving and potential alcohol use disorder treatment."
+title: "GLP-1 and Alcohol Use: Oligopeptide Research Reference"
+description: "Emerging evidence for effects on alcohol craving and potential alcohol use disorder treatment. This peptide or oligopeptide is studied for its biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Premixed Insulin 75/25"
-description: "Fixed-ratio premixed insulin containing 75% intermediate-acting protamine lispro and 25% rapid-acting insulin lispro."
+title: "Premixed Insulin 75/25: Peptide Family Reference"
+description: "Fixed-ratio premixed insulin containing 75% intermediate-acting protamine lispro and 25% rapid-acting insulin lispro. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

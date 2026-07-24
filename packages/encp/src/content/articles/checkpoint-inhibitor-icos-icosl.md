@@ -1,6 +1,6 @@
 ---
 title: "Checkpoint Inhibitor ICOS-ICOSL"
-description: "Reference for checkpoint inhibitor ICOS-ICOSL in peptide research."
+description: "Comprehensive reference for checkpoint inhibitor ICOS-ICOSL, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

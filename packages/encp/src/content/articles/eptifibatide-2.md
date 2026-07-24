@@ -1,6 +1,6 @@
 ---
-title: "Eptifibatide"
-description: "Cyclic heptapeptide GPIIb/IIIa inhibitor derived from rattlesnake venom, used for acute coronary syndromes and PCI."
+title: "Eptifibatide: Oligopeptide Research Reference"
+description: "Cyclic heptapeptide GPIIb/IIIa inhibitor derived from rattlesnake venom, used for acute coronary syndromes and PCI. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

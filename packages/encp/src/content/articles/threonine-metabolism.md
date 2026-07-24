@@ -1,6 +1,6 @@
 ---
-title: "Threonine Metabolism"
-description: "Metabolic pathways involving Threonine including biosynthesis, catabolism, and transamination."
+title: "Threonine Metabolism: Oligopeptide Research Reference"
+description: "Metabolic pathways involving Threonine including biosynthesis, catabolism, and transamination. This peptide or oligopeptide is studied for its biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

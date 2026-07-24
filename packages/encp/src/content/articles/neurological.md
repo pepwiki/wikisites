@@ -1,6 +1,6 @@
 ---
-title: "Neurological"
-description: "AD diagnosis, neurodegeneration, prion disease"
+title: "Neurological: Oligopeptide Research Reference"
+description: "AD diagnosis, neurodegeneration, prion disease. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and po..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

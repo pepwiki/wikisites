@@ -1,6 +1,6 @@
 ---
-title: "Rimegepant"
-description: "Oral CGRP receptor antagonist for both acute migraine treatment and prevention."
+title: "Rimegepant: Oligopeptide Research Reference"
+description: "Oral CGRP receptor antagonist for both acute migraine treatment and prevention. This peptide or oligopeptide is studied for its biological activity, structur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

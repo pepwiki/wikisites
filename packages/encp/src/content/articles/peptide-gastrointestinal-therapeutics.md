@@ -1,6 +1,6 @@
 ---
 title: "Peptide Gastrointestinal Therapeutics"
-description: "Therapeutic peptides for GI conditions including IBD, IBS, and motility disorders."
+description: "Therapeutic peptides for GI conditions including IBD, IBS, and motility disorders. This peptide or oligopeptide is studied for its biological activity, struc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

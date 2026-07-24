@@ -1,6 +1,6 @@
 ---
 title: "History of Peptide Structure Determination"
-description: "Methods used to determine peptide 3D structures from X-ray to cryo-EM."
+description: "Methods used to determine peptide 3D structures from X-ray to cryo-EM. This peptide or oligopeptide is studied for its biological activity, structure-activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

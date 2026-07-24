@@ -1,6 +1,6 @@
 ---
-title: "Gecko Peptides"
-description: "Antimicrobial, Wound Healing"
+title: "Gecko Peptides: Oligopeptide Research Reference"
+description: "Antimicrobial, Wound Healing. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicatio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

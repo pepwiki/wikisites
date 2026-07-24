@@ -1,6 +1,6 @@
 ---
-title: "Gastrin 1-10"
-description: "Reference for gastrin 1-10 variant in peptide research."
+title: "Gastrin 1-10: Peptide Fragment Reference"
+description: "Comprehensive reference for gastrin 1-10 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

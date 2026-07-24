@@ -1,6 +1,6 @@
 ---
-title: "Aging and Peptides"
-description: "Explore anti-aging peptide therapies including thymic peptides, telomerase activators, and senolytic peptides."
+title: "Aging and Peptides: Oligopeptide Research Reference"
+description: "Explore anti-aging peptide therapies including thymic peptides, telomerase activators, and senolytic peptides. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

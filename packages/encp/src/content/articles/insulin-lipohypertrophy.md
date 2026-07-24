@@ -1,6 +1,6 @@
 ---
-title: "Insulin Lipohypertrophy"
-description: "Pathophysiology and prevention of subcutaneous lipohypertrophy from repetitive injection at same sites."
+title: "Insulin Lipohypertrophy: Oligopeptide Research Reference"
+description: "Pathophysiology and prevention of subcutaneous lipohypertrophy from repetitive injection at same sites. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

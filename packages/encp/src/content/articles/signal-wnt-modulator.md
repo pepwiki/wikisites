@@ -1,6 +1,6 @@
 ---
-title: "Wnt Modulator"
-description: "Comprehensive reference for Wnt modulator in peptide research."
+title: "Wnt Modulator: Oligopeptide Research Reference"
+description: "Wnt modulator in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appli..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

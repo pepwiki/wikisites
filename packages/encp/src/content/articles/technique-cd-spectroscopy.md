@@ -1,6 +1,6 @@
 ---
-title: "CD-spectroscopy for Peptides"
-description: "Application of CD-spectroscopy technique for peptide characterization, structure determination, or formulation."
+title: "CD-spectroscopy for Peptides: Comprehensive Peptide Refer..."
+description: "Application of CD-spectroscopy technique for peptide characterization, structure determination, or formulation. Covers molecular mechanisms, biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

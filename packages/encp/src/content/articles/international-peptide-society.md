@@ -1,6 +1,6 @@
 ---
-title: "International Peptide Society"
-description: "Professional society for peptide science and technology."
+title: "International Peptide Society: Comprehensive Peptide Refe..."
+description: "Professional society for peptide science and technology. This peptide or oligopeptide is studied for its biological activity, structure-activity relationship..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

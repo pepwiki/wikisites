@@ -1,6 +1,6 @@
 ---
-title: "DHEA Hormone"
-description: "The DHEA Hormone and its role in endocrine signaling."
+title: "DHEA Hormone: Endogenous Peptide Hormone Reference"
+description: "DHEA, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical signi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

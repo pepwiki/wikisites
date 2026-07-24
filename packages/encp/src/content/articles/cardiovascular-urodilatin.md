@@ -1,6 +1,6 @@
 ---
-title: "Urodilatin"
-description: "Comprehensive reference for urodilatin in peptide research."
+title: "Urodilatin: Oligopeptide Research Reference"
+description: "urodilatin in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

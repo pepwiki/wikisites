@@ -1,6 +1,6 @@
 ---
 title: "Peptide-Receptor Internalization"
-description: "Clathrin-mediated endocytosis and caveolae pathways govern peptide-receptor internalization and intracellular trafficking, determining signal termination and therapeutic efficacy."
+description: "Clathrin-mediated endocytosis and caveolae pathways govern peptide-receptor internalization and intracellular trafficking, determining signal termination and..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-04-18

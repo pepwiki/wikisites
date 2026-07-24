@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 PEGylation"
-description: "PEG conjugation for extending half-life while maintaining receptor binding and activation."
+title: "GLP-1 PEGylation: Oligopeptide Research Reference"
+description: "PEG conjugation for extending half-life while maintaining receptor binding and activation. This peptide or oligopeptide is studied for its biological activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Poly-Arg Peptides"
-description: "Comprehensive reference for Poly-Arg Peptides, a peptide compound with applications in research and therapeutics."
+title: "Poly-Arg Peptides: Oligopeptide Research Reference"
+description: "Poly-Arg Peptides, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

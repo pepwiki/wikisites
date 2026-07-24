@@ -1,6 +1,6 @@
 ---
-title: "MEK Inhibitor"
-description: "Comprehensive reference for MEK inhibitor in peptide research."
+title: "MEK Inhibitor: Oligopeptide Research Reference"
+description: "MEK inhibitor in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appli..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

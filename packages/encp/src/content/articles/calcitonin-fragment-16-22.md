@@ -1,6 +1,6 @@
 ---
-title: "Calcitonin fragment-16-22"
-description: "Reference for calcitonin fragment-16-22 variant in peptide research."
+title: "Calcitonin fragment-16-22: Comprehensive Peptide Reference"
+description: "Comprehensive reference for calcitonin fragment-16-22 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

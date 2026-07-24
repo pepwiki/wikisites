@@ -1,6 +1,6 @@
 ---
-title: "Venom Peptide Engineering"
-description: "Rational modification of venom peptides for improved therapeutic properties."
+title: "Venom Peptide Engineering: Comprehensive Peptide Reference"
+description: "Rational modification of venom peptides for improved therapeutic properties. This peptide toxin is derived from venom and studied for its pharmacological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

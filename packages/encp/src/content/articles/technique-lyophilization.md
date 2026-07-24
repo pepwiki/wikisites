@@ -1,6 +1,6 @@
 ---
-title: "lyophilization for Peptides"
-description: "Application of lyophilization technique for peptide characterization, structure determination, or formulation."
+title: "lyophilization for Peptides: Comprehensive Peptide Reference"
+description: "Application of lyophilization technique for peptide characterization, structure determination, or formulation. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

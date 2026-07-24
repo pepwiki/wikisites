@@ -1,6 +1,6 @@
 ---
-title: "PMAP 37"
-description: "PMAP-37 is a cathelicidin antimicrobial peptide with broad-spectrum activity against bacteria, fungi, and viruses."
+title: "PMAP 37: Antimicrobial Peptide Reference"
+description: "PMAP-37 is a cathelicidin antimicrobial peptide with broad-spectrum activity against bacteria, fungi, and viruses. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Secretin Family Peptides"
-description: "Overview of secretin family peptides including secretin, VIP, PACAP, and GIP in gastrointestinal function."
+title: "Secretin Family Peptides: Oligopeptide Research Reference"
+description: "Overview of secretin family peptides including secretin, VIP, PACAP, and GIP in gastrointestinal function. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

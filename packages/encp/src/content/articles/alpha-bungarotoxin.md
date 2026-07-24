@@ -1,6 +1,6 @@
 ---
-title: "Alpha-Bungarotoxin"
-description: "Alpha-bungarotoxin is a 74-amino acid three-finger neurotoxin from the banded krait snake that irreversibly blocks nicotinic acetylcholine receptors at the neuromuscular junction."
+title: "Alpha-Bungarotoxin: Peptide Toxin in Pharmacology Reference"
+description: "Alpha-bungarotoxin is a 74-amino acid three-finger neurotoxin from the banded krait snake that irreversibly blocks nicotinic acetylcholine receptors at the n..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-07-15

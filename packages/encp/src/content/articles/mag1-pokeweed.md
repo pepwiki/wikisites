@@ -1,6 +1,6 @@
 ---
-title: "MAG1-Pokeweed"
-description: "Comprehensive reference for MAG1-Pokeweed, a peptide compound with applications in research and therapeutics."
+title: "MAG1-Pokeweed: Oligopeptide Research Reference"
+description: "MAG1-Pokeweed, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

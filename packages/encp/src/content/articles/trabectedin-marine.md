@@ -1,5 +1,5 @@
 ---
-title: "Trabectedin Marine Alkaloid"
+title: "Trabectedin Marine Alkaloid: Comprehensive Peptide Reference"
 description: "Tetrahydroisoquinoline alkaloid from marine tunicate Ecteinascidia turbinata for soft tissue sarcoma and ovarian cancer."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,6 +1,6 @@
 ---
-title: "Asparagine Modification"
-description: "Post-translational modifications of Asparagine including phosphorylation, methylation, acetylation, and ubiquitination."
+title: "Asparagine Modification: Post-Translational Modification ..."
+description: "Post-translational modifications of Asparagine including phosphorylation, methylation, acetylation, and ubiquitination. Covers molecular mechanisms, biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

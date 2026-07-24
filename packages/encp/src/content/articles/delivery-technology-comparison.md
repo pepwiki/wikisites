@@ -1,6 +1,6 @@
 ---
 title: "Delivery Technology Comparison"
-description: "Comparison of different peptide delivery technologies."
+description: "Comparison of different peptide delivery technologies. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

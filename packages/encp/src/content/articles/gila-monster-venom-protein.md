@@ -1,6 +1,6 @@
 ---
-title: "Gila Monster Venom Protein"
-description: "Collection of bioactive peptides from Gila monster venom. Include exendin-4 and gilatoxin."
+title: "Gila Monster Venom Protein: Comprehensive Peptide Reference"
+description: "Collection of bioactive peptides from Gila monster venom. Include exendin-4 and gilatoxin. This peptide or oligopeptide is studied for its biological activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

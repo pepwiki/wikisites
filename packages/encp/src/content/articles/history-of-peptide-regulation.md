@@ -1,6 +1,6 @@
 ---
-title: "History of Peptide Regulation"
-description: "How regulatory frameworks for peptide drugs evolved from early insulin to modern CMC guidelines."
+title: "History of Peptide Regulation: Comprehensive Peptide Refe..."
+description: "How regulatory frameworks for peptide drugs evolved from early insulin to modern CMC guidelines. This peptide or oligopeptide is studied for its biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

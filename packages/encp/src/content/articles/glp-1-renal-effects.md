@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 Agonist Renal Effects"
-description: "Nephroprotective effects of GLP-1 receptor agonists including reduced albuminuria and improved renal outcomes."
+title: "GLP-1 Agonist Renal Effects: Comprehensive Peptide Reference"
+description: "Nephroprotective effects of GLP-1 receptor agonists including reduced albuminuria and improved renal outcomes. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

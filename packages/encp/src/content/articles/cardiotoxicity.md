@@ -1,6 +1,6 @@
 ---
-title: "Cardiotoxicity"
-description: "Heart damage caused by peptide drugs. Can include arrhythmias and cardiomyopathy."
+title: "Cardiotoxicity: Oligopeptide Research Reference"
+description: "Heart damage caused by peptide drugs. Can include arrhythmias and cardiomyopathy. This peptide or oligopeptide is studied for its biological activity, struct..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

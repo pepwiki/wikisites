@@ -1,5 +1,5 @@
 ---
-title: "Lixisenatide"
+title: "Lixisenatide: Oligopeptide Research Reference"
 description: "Short-acting GLP-1 receptor agonist derived from exendin-4 for once-daily postprandial glucose control in type 2 diabetes."
 status: "published"
 author: "Encyclopeptide Editorial"

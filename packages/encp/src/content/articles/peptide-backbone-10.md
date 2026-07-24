@@ -1,6 +1,6 @@
 ---
-title: "Peptide Backbone 10"
-description: "Backbone conformation 10 with specific phi/psi angles in protein structure."
+title: "Peptide Backbone 10: Oligopeptide Research Reference"
+description: "Backbone conformation 10 with specific phi/psi angles in protein structure. This peptide or oligopeptide is studied for its biological activity, structure-ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

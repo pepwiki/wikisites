@@ -1,6 +1,6 @@
 ---
-title: "Plasma Synthesis"
-description: "A peptide synthesis method using Plasma for producing peptides with specific properties."
+title: "Plasma Synthesis: Analytical Technique in Peptide Research"
+description: "A peptide synthesis method using Plasma for producing peptides with specific properties. This analytical technique provides valuable insights into peptide st..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

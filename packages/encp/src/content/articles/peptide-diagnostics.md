@@ -1,6 +1,6 @@
 ---
-title: "Peptide Diagnostics"
-description: "Explore peptide-based diagnostic tools for biomarker detection and disease monitoring."
+title: "Peptide Diagnostics: Oligopeptide Research Reference"
+description: "Explore peptide-based diagnostic tools for biomarker detection and disease monitoring. This peptide or oligopeptide is studied for its biological activity, s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

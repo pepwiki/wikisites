@@ -1,6 +1,6 @@
 ---
-title: "Romidepsin"
-description: "Bicyclic depsipeptide histone deacetylase inhibitor from Chromobacterium violaceum used for T-cell lymphoma treatment."
+title: "Romidepsin: Oligopeptide Research Reference"
+description: "Bicyclic depsipeptide histone deacetylase inhibitor from Chromobacterium violaceum used for T-cell lymphoma treatment. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

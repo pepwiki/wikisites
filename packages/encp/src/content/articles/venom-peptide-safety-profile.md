@@ -1,6 +1,6 @@
 ---
-title: "Venom Peptide Safety Profile"
-description: "Safety considerations for venom peptide therapeutics in clinical development."
+title: "Venom Peptide Safety Profile: Comprehensive Peptide Refer..."
+description: "Safety considerations for venom peptide therapeutics in clinical development. This peptide toxin is derived from venom and studied for its pharmacological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,5 +1,5 @@
 ---
-title: "Met-enkephalin"
+title: "Met-enkephalin: Neuropeptide in Neuroscience Reference"
 description: "Met-enkephalin is an endogenous pentapeptide opioid that modulates pain perception and stress responses through delta-opioid receptor activation."
 status: "published"
 author: "Encyclopeptide Editorial"

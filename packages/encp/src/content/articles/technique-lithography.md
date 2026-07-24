@@ -1,6 +1,6 @@
 ---
-title: "lithography for Peptides"
-description: "Application of lithography technique for peptide characterization, structure determination, or formulation."
+title: "lithography for Peptides: Analytical Technique in Peptide..."
+description: "Application of lithography technique for peptide characterization, structure determination, or formulation. This peptide or oligopeptide is studied for its b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

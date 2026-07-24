@@ -1,6 +1,6 @@
 ---
-title: "RMSD Resource"
-description: "The RMSD database or resource for peptide research, providing data on structure, function, and interactions."
+title: "RMSD Resource: Oligopeptide Research Reference"
+description: "The RMSD database or resource for peptide research, providing data on structure, function, and interactions. This peptide or oligopeptide is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

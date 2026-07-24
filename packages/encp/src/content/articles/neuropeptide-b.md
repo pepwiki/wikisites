@@ -1,6 +1,6 @@
 ---
-title: "Neuropeptide B"
-description: "Hypothalamic neuropeptide involved in feeding regulation."
+title: "Neuropeptide B: Neuropeptide in Neuroscience Reference"
+description: "Hypothalamic neuropeptide involved in feeding regulation. This neuropeptide is involved in neurological signaling and is studied for its roles in brain funct..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

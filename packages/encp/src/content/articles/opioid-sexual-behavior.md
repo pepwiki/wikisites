@@ -1,6 +1,6 @@
 ---
-title: "Opioid Sexual Behavior"
-description: "Role of endogenous opioids in sexual arousal and orgasm."
+title: "Opioid Sexual Behavior: Neuropeptide in Neuroscience Refe..."
+description: "Role of endogenous opioids in sexual arousal and orgasm. This neuropeptide is involved in neurological signaling and is studied for its roles in brain functi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

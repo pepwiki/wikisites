@@ -1,6 +1,6 @@
 ---
-title: "Phylloseptin"
-description: "Tridecapeptide from Phyllomedusa frog skin with membrane-disrupting activity."
+title: "Phylloseptin: Antimicrobial Peptide Reference"
+description: "Tridecapeptide from Phyllomedusa frog skin with membrane-disrupting activity. This antimicrobial peptide demonstrates activity against pathogens and is studi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

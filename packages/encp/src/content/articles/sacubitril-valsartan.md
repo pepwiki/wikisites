@@ -1,6 +1,6 @@
 ---
-title: "Sacubitril-Valsartan"
-description: "Neprilysin inhibitor combined with ARB for heart failure reducing natriuretic peptide degradation."
+title: "Sacubitril-Valsartan: Oligopeptide Research Reference"
+description: "Neprilysin inhibitor combined with ARB for heart failure reducing natriuretic peptide degradation. This peptide or oligopeptide is studied for its biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

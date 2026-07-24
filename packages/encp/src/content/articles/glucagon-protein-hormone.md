@@ -1,6 +1,6 @@
 ---
-title: "Glucagon Protein Hormone"
-description: "The Glucagon Protein Hormone and its role in endocrine signaling."
+title: "Glucagon Protein Hormone: Endogenous Peptide Hormone Refe..."
+description: "Glucagon, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

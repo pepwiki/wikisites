@@ -1,6 +1,6 @@
 ---
-title: "CNP 22"
-description: "Comprehensive reference for CNP 22 in peptide research."
+title: "CNP 22: Oligopeptide Research Reference"
+description: "CNP 22 in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

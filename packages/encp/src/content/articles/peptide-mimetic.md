@@ -1,6 +1,6 @@
 ---
-title: "Peptide mimetic"
-description: "Reference for peptide mimetic in peptide research."
+title: "Peptide mimetic: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide mimetic, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

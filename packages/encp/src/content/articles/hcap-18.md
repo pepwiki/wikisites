@@ -1,6 +1,6 @@
 ---
-title: "HCAP 18"
-description: "hCAP-18 is a cathelicidin antimicrobial peptide with broad-spectrum activity against bacteria, fungi, and viruses."
+title: "HCAP 18: Antimicrobial Peptide Reference"
+description: "hCAP-18 is a cathelicidin antimicrobial peptide with broad-spectrum activity against bacteria, fungi, and viruses. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

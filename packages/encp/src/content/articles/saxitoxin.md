@@ -1,6 +1,6 @@
 ---
-title: "Saxitoxin"
-description: "Saxitoxin is a potent non-peptide neurotoxin produced by dinoflagellates that blocks voltage-gated sodium channels, responsible for paralytic shellfish poisoning."
+title: "Saxitoxin: Peptide Toxin in Pharmacology Reference"
+description: "Saxitoxin is a potent non-peptide neurotoxin produced by dinoflagellates that blocks voltage-gated sodium channels, responsible for paralytic shellfish poiso..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-07-30

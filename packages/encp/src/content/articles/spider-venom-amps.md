@@ -1,6 +1,6 @@
 ---
-title: "Spider Venom AMPs"
-description: "AMPs from spider venom with activity against bacteria and fungi."
+title: "Spider Venom AMPs: Peptide Toxin in Pharmacology Reference"
+description: "AMPs from spider venom with activity against bacteria and fungi. This peptide toxin is derived from venom and studied for its pharmacological activity, mecha..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Liraglutide 3.0mg Obesity"
-description: "Liraglutide 3.0mg daily for chronic weight management with BMI 30 or BMI 27 with comorbidities."
+title: "Liraglutide 3.0mg Obesity: Comprehensive Peptide Reference"
+description: "Liraglutide 3.0mg daily for chronic weight management with BMI 30 or BMI 27 with comorbidities. This peptide or oligopeptide is studied for its biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

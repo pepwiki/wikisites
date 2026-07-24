@@ -1,6 +1,6 @@
 ---
-title: "Glycopeptides"
-description: "Cell wall synthesis inhibition"
+title: "Glycopeptides: Oligopeptide Research Reference"
+description: "Cell wall synthesis inhibition. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

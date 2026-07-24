@@ -1,6 +1,6 @@
 ---
-title: "Peptide-DM1 Conjugates"
-description: "Comprehensive reference for Peptide-DM1 Conjugates, a peptide compound with applications in research and therapeutics."
+title: "Peptide-DM1 Conjugates: Oligopeptide Research Reference"
+description: "Peptide-DM1 Conjugates, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

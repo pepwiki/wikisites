@@ -1,6 +1,6 @@
 ---
-title: "Eye Disease and Peptides"
-description: "Discover peptide therapeutics for ocular diseases including macular degeneration, glaucoma, and dry eye."
+title: "Eye Disease and Peptides: Oligopeptide Research Reference"
+description: "Discover peptide therapeutics for ocular diseases including macular degeneration, glaucoma, and dry eye. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

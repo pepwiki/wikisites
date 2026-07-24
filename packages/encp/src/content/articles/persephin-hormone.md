@@ -1,6 +1,6 @@
 ---
-title: "Persephin Hormone"
-description: "The Persephin Hormone and its role in endocrine signaling."
+title: "Persephin Hormone: Endogenous Peptide Hormone Reference"
+description: "Persephin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

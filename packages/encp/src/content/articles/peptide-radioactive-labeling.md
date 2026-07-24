@@ -1,6 +1,6 @@
 ---
-title: "Peptide radioactive labeling"
-description: "Reference for peptide radioactive labeling in peptide research."
+title: "Peptide radioactive labeling: Comprehensive Peptide Refer..."
+description: "Comprehensive reference for peptide radioactive labeling, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Insulin C-Peptide"
-description: "31-aa peptide from proinsulin. Biomarker for endogenous insulin production."
+title: "Insulin C-Peptide: Oligopeptide Research Reference"
+description: "31-aa peptide from proinsulin. Biomarker for endogenous insulin production. This peptide or oligopeptide is studied for its biological activity, structure-ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

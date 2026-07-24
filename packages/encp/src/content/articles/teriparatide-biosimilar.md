@@ -1,6 +1,6 @@
 ---
-title: "Teriparatide Biosimilar"
-description: "Biosimilar recombinant PTH(1-34) for osteoporosis with equivalent bone formation effects."
+title: "Teriparatide Biosimilar: Oligopeptide Research Reference"
+description: "Biosimilar recombinant PTH(1-34) for osteoporosis with equivalent bone formation effects. This peptide or oligopeptide is studied for its biological activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

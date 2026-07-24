@@ -1,6 +1,6 @@
 ---
-title: "Imaging Agents"
-description: "Peptide-based imaging agents for diagnostics."
+title: "Imaging Agents: Oligopeptide Research Reference"
+description: "Peptide-based imaging agents for diagnostics. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and pote..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

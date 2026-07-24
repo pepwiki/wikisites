@@ -1,5 +1,5 @@
 ---
-title: "Chloroeremomycin"
+title: "Chloroeremomycin: Antimicrobial Peptide Reference"
 description: "Glycopeptide antibiotic precursor to oritavancin, produced by Amycolatopsis orientalis with activity against vancomycin-resistant organisms."
 status: "published"
 author: "Encyclopeptide Editorial"

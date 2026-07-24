@@ -1,6 +1,6 @@
 ---
-title: "Tetanus Toxin (TeNT)"
-description: "Comprehensive reference for Tetanus Toxin (TeNT), a peptide compound with applications in research and therapeutics."
+title: "Tetanus Toxin (TeNT): Peptide Toxin in Pharmacology Refer..."
+description: "Tetanus Toxin (TeNT), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Cerulein"
-description: "Comprehensive reference for Cerulein, a peptide compound with applications in research and therapeutics."
+title: "Cerulein: Antimicrobial Peptide Reference"
+description: "Cerulein, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

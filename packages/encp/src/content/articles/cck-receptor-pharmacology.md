@@ -1,6 +1,6 @@
 ---
 title: "Cholecystokinin Receptor Pharmacology"
-description: "Molecular pharmacology and clinical significance of cholecystokinin-A (CCK-A) and cholecystokinin-B (CCK-B) receptors in satiety, anxiety, and gastrointestinal function."
+description: "Molecular pharmacology and clinical significance of cholecystokinin-A (CCK-A) and cholecystokinin-B (CCK-B) receptors in satiety, anxiety, and gastrointestin..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-10-08

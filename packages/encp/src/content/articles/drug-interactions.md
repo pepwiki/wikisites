@@ -1,6 +1,6 @@
 ---
-title: "Drug Interactions"
-description: "Enhanced toxicity or reduced efficacy"
+title: "Drug Interactions: Oligopeptide Research Reference"
+description: "Enhanced toxicity or reduced efficacy. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

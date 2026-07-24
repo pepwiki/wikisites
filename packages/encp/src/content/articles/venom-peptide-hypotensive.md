@@ -1,6 +1,6 @@
 ---
-title: "Venom Peptide / Hypotensive"
-description: "Venom Peptide / Hypotensive is a bioactive compound with applications in peptide research and therapeutics."
+title: "Venom Peptide / Hypotensive: Comprehensive Peptide Reference"
+description: "Venom Peptide / Hypotensive is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Thermo Vanquish"
-description: "UHPLC system for high-speed peptide separation and analysis."
+title: "Thermo Vanquish: Oligopeptide Research Reference"
+description: "UHPLC system for high-speed peptide separation and analysis. This peptide or oligopeptide is studied for its biological activity, structure-activity relation..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

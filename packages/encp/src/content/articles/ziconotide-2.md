@@ -1,5 +1,5 @@
 ---
-title: "Ziconotide"
+title: "Ziconotide: Oligopeptide Research Reference"
 description: "Synthetic omega-conotoxin MVIIA that blocks N-type calcium channels in the spinal cord for severe chronic pain management."
 status: "published"
 author: "Encyclopeptide Editorial"

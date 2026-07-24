@@ -1,6 +1,6 @@
 ---
-title: "Fish Collagen"
-description: "Fish Collagen is a bioactive compound with applications in peptide research and therapeutics."
+title: "Fish Collagen: Oligopeptide Research Reference"
+description: "Fish Collagen is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

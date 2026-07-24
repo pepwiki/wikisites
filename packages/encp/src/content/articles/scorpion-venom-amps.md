@@ -1,6 +1,6 @@
 ---
-title: "Scorpion Venom AMPs"
-description: "Antimicrobial peptides from scorpion venom with broad-spectrum bactericidal activity."
+title: "Scorpion Venom AMPs: Peptide Toxin in Pharmacology Reference"
+description: "Antimicrobial peptides from scorpion venom with broad-spectrum bactericidal activity. This peptide toxin is derived from venom and studied for its pharmacolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

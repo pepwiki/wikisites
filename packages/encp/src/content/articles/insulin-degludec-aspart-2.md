@@ -1,6 +1,6 @@
 ---
 title: "Insulin Degludec Aspart Combination"
-description: "Dual insulin formulation combining degludec and aspart in fixed ratio for diabetes."
+description: "Dual insulin formulation combining degludec and aspart in fixed ratio for diabetes. This peptide or oligopeptide is studied for its biological activity, stru..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

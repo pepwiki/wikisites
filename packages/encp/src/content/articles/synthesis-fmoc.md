@@ -1,6 +1,6 @@
 ---
-title: "Fmoc Synthesis"
-description: "A peptide synthesis method using Fmoc for producing peptides with specific properties."
+title: "Fmoc Synthesis: Analytical Technique in Peptide Research"
+description: "A peptide synthesis method using Fmoc for producing peptides with specific properties. This analytical technique provides valuable insights into peptide stru..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

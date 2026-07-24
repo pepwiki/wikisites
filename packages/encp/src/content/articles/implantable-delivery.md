@@ -1,6 +1,6 @@
 ---
-title: "Implantable Delivery"
-description: "Implantable devices for sustained peptide drug release."
+title: "Implantable Delivery: Oligopeptide Research Reference"
+description: "Implantable devices for sustained peptide drug release. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "AstraZeneca"
-description: "Goserelin"
+title: "AstraZeneca: Oligopeptide Research Reference"
+description: "Goserelin. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in biomedical re..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

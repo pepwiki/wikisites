@@ -1,6 +1,6 @@
 ---
-title: "Vasopressin lypressin"
-description: "Reference for vasopressin lypressin variant in peptide research."
+title: "Vasopressin lypressin: Endogenous Peptide Hormone Reference"
+description: "Comprehensive reference for vasopressin lypressin variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

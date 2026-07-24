@@ -1,6 +1,6 @@
 ---
-title: "Concentrated Insulin U500"
-description: "Five-fold concentrated regular insulin for insulin-resistant patients requiring high doses."
+title: "Concentrated Insulin U500: Comprehensive Peptide Reference"
+description: "Five-fold concentrated regular insulin for insulin-resistant patients requiring high doses. This peptide or oligopeptide is studied for its biological activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

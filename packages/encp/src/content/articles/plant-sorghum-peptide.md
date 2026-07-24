@@ -1,6 +1,6 @@
 ---
-title: "Sorghum Peptide"
-description: "A bioactive peptide derived from sorghum with potential health benefits."
+title: "Sorghum Peptide: Oligopeptide Research Reference"
+description: "A bioactive peptide derived from sorghum with potential health benefits. This peptide or oligopeptide is studied for its biological activity, structure-activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

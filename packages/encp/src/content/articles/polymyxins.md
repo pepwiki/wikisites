@@ -1,6 +1,6 @@
 ---
-title: "Polymyxins"
-description: "Antimicrobial (Gram-negative)"
+title: "Polymyxins: Oligopeptide Research Reference"
+description: "Antimicrobial (Gram-negative). This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicati..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Hepatic Impairment"
-description: "Considerations for peptide drug dosing in patients with liver disease."
+title: "Hepatic Impairment: Oligopeptide Research Reference"
+description: "Considerations for peptide drug dosing in patients with liver disease. This peptide or oligopeptide is studied for its biological activity, structure-activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

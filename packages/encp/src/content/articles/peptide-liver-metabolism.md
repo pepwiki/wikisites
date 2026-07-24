@@ -1,6 +1,6 @@
 ---
 title: "Peptide Metabolism in the Liver"
-description: "An examination of hepatic peptide metabolism including extraction mechanisms, cytochrome P450 involvement, peptidase activity, and implications for first-pass effect."
+description: "An examination of hepatic peptide metabolism including extraction mechanisms, cytochrome P450 involvement, peptidase activity, and implications for first-pas..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-06-01

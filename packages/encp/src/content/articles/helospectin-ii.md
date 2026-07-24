@@ -1,6 +1,6 @@
 ---
-title: "Helospectin II"
-description: "27-aa VIP-related peptide from Gila monster venom. Similar to helospectin I but shorter."
+title: "Helospectin II: Oligopeptide Research Reference"
+description: "27-aa VIP-related peptide from Gila monster venom. Similar to helospectin I but shorter. This peptide or oligopeptide is studied for its biological activity,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

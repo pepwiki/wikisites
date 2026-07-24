@@ -1,6 +1,6 @@
 ---
-title: "F1-score Resource"
-description: "The F1-score database or resource for peptide research, providing data on structure, function, and interactions."
+title: "F1-score Resource: Oligopeptide Research Reference"
+description: "The F1-score database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

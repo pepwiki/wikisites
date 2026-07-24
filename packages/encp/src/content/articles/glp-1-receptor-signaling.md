@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 Receptor Signaling"
-description: "Intracellular signaling cascades activated by GLP-1 receptor including cAMP, PKA, and CREB pathways."
+title: "GLP-1 Receptor Signaling: Oligopeptide Research Reference"
+description: "Intracellular signaling cascades activated by GLP-1 receptor including cAMP, PKA, and CREB pathways. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

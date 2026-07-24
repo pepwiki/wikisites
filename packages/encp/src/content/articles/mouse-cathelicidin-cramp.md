@@ -1,6 +1,6 @@
 ---
-title: "Mouse Cathelicidin CRAMP"
-description: "Mouse equivalent of human LL-37 with antimicrobial and immunomodulatory properties."
+title: "Mouse Cathelicidin CRAMP: Antimicrobial Peptide Reference"
+description: "Mouse equivalent of human LL-37 with antimicrobial and immunomodulatory properties. This antimicrobial peptide demonstrates activity against pathogens and is..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

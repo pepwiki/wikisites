@@ -1,5 +1,5 @@
 ---
-title: "Lumbricus terrestris Lysozyme"
+title: "Lumbricus terrestris Lysozyme: Comprehensive Peptide Refe..."
 description: "Comprehensive reference for Lumbricus terrestris Lysozyme, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

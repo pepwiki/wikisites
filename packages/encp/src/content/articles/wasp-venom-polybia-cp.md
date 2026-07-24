@@ -1,6 +1,6 @@
 ---
-title: "Wasp Venom Polybia-CP"
-description: "Antimicrobial peptide from Polybia wasp venom with broad-spectrum activity."
+title: "Wasp Venom Polybia-CP: Peptide Toxin in Pharmacology Refe..."
+description: "Antimicrobial peptide from Polybia wasp venom with broad-spectrum activity. This peptide toxin is derived from venom and studied for its pharmacological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

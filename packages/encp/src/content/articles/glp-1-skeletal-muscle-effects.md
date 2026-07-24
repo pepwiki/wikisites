@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 Skeletal Muscle Effects"
-description: "Effects on glucose uptake, mitochondrial function, and insulin sensitivity in muscle."
+title: "GLP-1 Skeletal Muscle Effects: Comprehensive Peptide Refe..."
+description: "Effects on glucose uptake, mitochondrial function, and insulin sensitivity in muscle. This peptide or oligopeptide is studied for its biological activity, st..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

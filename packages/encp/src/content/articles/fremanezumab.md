@@ -1,6 +1,6 @@
 ---
-title: "Fremanezumab"
-description: "Anti-CGRP monoclonal antibody for migraine prevention with monthly or quarterly dosing."
+title: "Fremanezumab: Oligopeptide Research Reference"
+description: "Anti-CGRP monoclonal antibody for migraine prevention with monthly or quarterly dosing. This peptide or oligopeptide is studied for its biological activity, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

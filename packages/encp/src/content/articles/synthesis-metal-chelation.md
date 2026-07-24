@@ -1,6 +1,6 @@
 ---
-title: "Metal Chelation Synthesis"
-description: "A peptide synthesis method using Metal Chelation for producing peptides with specific properties."
+title: "Metal Chelation Synthesis: Comprehensive Peptide Reference"
+description: "A peptide synthesis method using Metal Chelation for producing peptides with specific properties. This analytical technique provides valuable insights into p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

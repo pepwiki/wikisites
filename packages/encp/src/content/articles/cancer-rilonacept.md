@@ -1,6 +1,6 @@
 ---
-title: "Rilonacept"
-description: "Comprehensive reference for rilonacept in peptide research."
+title: "Rilonacept: Oligopeptide Research Reference"
+description: "rilonacept in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

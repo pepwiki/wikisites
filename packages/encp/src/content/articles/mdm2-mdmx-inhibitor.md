@@ -1,6 +1,6 @@
 ---
-title: "MDM2/MDMX Inhibitor"
-description: "MDM2/MDMX Inhibitor is a bioactive compound with applications in peptide research and therapeutics."
+title: "MDM2/MDMX Inhibitor: Oligopeptide Research Reference"
+description: "MDM2/MDMX Inhibitor is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

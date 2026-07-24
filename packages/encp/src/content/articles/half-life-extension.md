@@ -1,6 +1,6 @@
 ---
-title: "Half-life extension"
-description: "Reference for half-life extension in peptide research."
+title: "Half-life extension: Oligopeptide Research Reference"
+description: "Comprehensive reference for half-life extension, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

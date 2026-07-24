@@ -1,6 +1,6 @@
 ---
-title: "Chemokine XCL1"
-description: "Reference for chemokine XCL1 in peptide research."
+title: "Chemokine XCL1: Oligopeptide Research Reference"
+description: "Comprehensive reference for chemokine XCL1, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

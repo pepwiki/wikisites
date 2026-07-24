@@ -1,5 +1,5 @@
 ---
-title: "Integrin Pathway Peptide 1"
+title: "Integrin Pathway Peptide 1: Comprehensive Peptide Reference"
 description: "A peptide involved in the Integrin signal transduction pathway, playing roles in cell proliferation, differentiation, or survival."
 status: "published"
 author: "Encyclopeptide Editorial"

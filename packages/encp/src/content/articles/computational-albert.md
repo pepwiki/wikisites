@@ -1,6 +1,6 @@
 ---
-title: "ALBERT for Peptides"
-description: "A computational method for studying peptides using ALBERT."
+title: "ALBERT for Peptides: Analytical Technique in Peptide Rese..."
+description: "A computational method for studying peptides using ALBERT. This analytical technique provides valuable insights into peptide structure, purity, and character..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Obesity and Peptides"
-description: "Explore peptide therapeutics targeting obesity including GLP-1/GIP dual agonists and appetite-regulating peptides."
+title: "Obesity and Peptides: Oligopeptide Research Reference"
+description: "Explore peptide therapeutics targeting obesity including GLP-1/GIP dual agonists and appetite-regulating peptides. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

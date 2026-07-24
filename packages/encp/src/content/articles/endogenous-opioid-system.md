@@ -1,6 +1,6 @@
 ---
-title: "Endogenous Opioid System"
-description: "Overview of opioid peptides, receptors, and roles in pain and reward."
+title: "Endogenous Opioid System: Neuropeptide in Neuroscience Re..."
+description: "Overview of opioid peptides, receptors, and roles in pain and reward. This neuropeptide is involved in neurological signaling and is studied for its roles in..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

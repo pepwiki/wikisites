@@ -1,6 +1,6 @@
 ---
-title: "Insulin 327"
-description: "Novel long-acting insulin analog with albumin binding and receptor activation properties for once-weekly dosing."
+title: "Insulin 327: Oligopeptide Research Reference"
+description: "Novel long-acting insulin analog with albumin binding and receptor activation properties for once-weekly dosing. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

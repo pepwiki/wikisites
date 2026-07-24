@@ -1,6 +1,6 @@
 ---
-title: "Nafarelin"
-description: "Nasal GnRH agonist for endometriosis pain and central precocious puberty."
+title: "Nafarelin: Oligopeptide Research Reference"
+description: "Nasal GnRH agonist for endometriosis pain and central precocious puberty. This peptide or oligopeptide is studied for its biological activity, structure-acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

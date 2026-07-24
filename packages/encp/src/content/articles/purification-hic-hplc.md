@@ -1,6 +1,6 @@
 ---
-title: "HIC HPLC Purification"
-description: "A purification technique for separating and isolating peptides using HIC HPLC."
+title: "HIC HPLC Purification: Analytical Technique in Peptide Re..."
+description: "A purification technique for separating and isolating peptides using HIC HPLC. This analytical technique provides valuable insights into peptide structure, p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

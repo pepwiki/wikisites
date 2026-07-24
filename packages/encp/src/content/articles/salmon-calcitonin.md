@@ -1,6 +1,6 @@
 ---
-title: "Salmon Calcitonin"
-description: "32-amino acid peptide from salmon thyroid C-cells inhibiting osteoclastic bone resorption."
+title: "Salmon Calcitonin: Oligopeptide Research Reference"
+description: "32-amino acid peptide from salmon thyroid C-cells inhibiting osteoclastic bone resorption. This peptide or oligopeptide is studied for its biological activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

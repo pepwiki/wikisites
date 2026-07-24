@@ -1,6 +1,6 @@
 ---
-title: "Bivalirudin"
-description: "Direct thrombin inhibitor bivalent hirudin analog for PCI and heparin-induced thrombocytopenia."
+title: "Bivalirudin: Oligopeptide Research Reference"
+description: "Direct thrombin inhibitor bivalent hirudin analog for PCI and heparin-induced thrombocytopenia. This peptide or oligopeptide is studied for its biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

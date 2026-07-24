@@ -1,6 +1,6 @@
 ---
 title: "Neurodegeneration / Protein Misfolding"
-description: "Neurodegeneration / Protein Misfolding is a bioactive compound with applications in peptide research and therapeutics."
+description: "Neurodegeneration / Protein Misfolding is a bioactive compound with applications in peptide research and therapeutics. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
 title: "Checkpoint Inhibitor VISTA-antibody"
-description: "Reference for checkpoint inhibitor VISTA-antibody in peptide research."
+description: "Comprehensive reference for checkpoint inhibitor VISTA-antibody, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "A Baumannii Xdr Peptide"
-description: "A peptide associated with A Baumannii Xdr for research or therapeutic applications."
+title: "A Baumannii Xdr Peptide: Oligopeptide Research Reference"
+description: "A peptide associated with A Baumannii Xdr for research or therapeutic applications. This peptide or oligopeptide is studied for its biological activity, stru..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Insulin Hepatic First-Pass"
-description: "First-pass hepatic extraction of portal insulin and implications for peripheral versus portal delivery."
+title: "Insulin Hepatic First-Pass: Comprehensive Peptide Reference"
+description: "First-pass hepatic extraction of portal insulin and implications for peripheral versus portal delivery. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

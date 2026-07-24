@@ -1,5 +1,5 @@
 ---
-title: "Cholecystokinin-8"
+title: "Cholecystokinin-8: Oligopeptide Research Reference"
 description: "CCK-8 is the eight-amino acid bioactive fragment of cholecystokinin responsible for satiety signaling, pancreatic enzyme secretion, and gallbladder contraction."
 status: "published"
 author: "Encyclopeptide Editorial"

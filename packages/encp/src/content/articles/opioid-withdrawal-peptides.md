@@ -1,6 +1,6 @@
 ---
-title: "Opioid Withdrawal Peptides"
-description: "Role of endogenous opioids in withdrawal including anti-opioid peptide systems."
+title: "Opioid Withdrawal Peptides: Comprehensive Peptide Reference"
+description: "Role of endogenous opioids in withdrawal including anti-opioid peptide systems. This neuropeptide is involved in neurological signaling and is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

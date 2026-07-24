@@ -1,5 +1,5 @@
 ---
-title: "Insulin Glulisine"
+title: "Insulin Glulisine: Peptide Family Reference"
 description: "Rapid-acting insulin analog with asparagine at B3 replaced by lysine and lysine at B29 replaced by glutamic acid for rapid absorption."
 status: "published"
 author: "Encyclopeptide Editorial"

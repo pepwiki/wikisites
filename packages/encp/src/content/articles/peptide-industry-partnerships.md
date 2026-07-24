@@ -1,6 +1,6 @@
 ---
-title: "Peptide Industry Partnerships"
-description: "Strategic partnerships and collaborations in the peptide therapeutics industry."
+title: "Peptide Industry Partnerships: Comprehensive Peptide Refe..."
+description: "Strategic partnerships and collaborations in the peptide therapeutics industry. This peptide or oligopeptide is studied for its biological activity, structur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

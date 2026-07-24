@@ -1,6 +1,6 @@
 ---
-title: "H Pylori Peptide"
-description: "A peptide associated with H Pylori for research or therapeutic applications."
+title: "H Pylori Peptide: Oligopeptide Research Reference"
+description: "A peptide associated with H Pylori for research or therapeutic applications. This peptide or oligopeptide is studied for its biological activity, structure-a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

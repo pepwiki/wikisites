@@ -1,6 +1,6 @@
 ---
-title: "Orexin"
-description: "A family of hypothalamic neuropeptides (orexin-A/hypocretin-1 and orexin-B/hypocretin-2) that regulate wakefulness, appetite, and energy homeostasis, with deficiency causing narcolepsy."
+title: "Orexin: Neuropeptide in Neuroscience Reference"
+description: "A family of hypothalamic neuropeptides (orexin-A/hypocretin-1 and orexin-B/hypocretin-2) that regulate wakefulness, appetite, and energy homeostasis, with de..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

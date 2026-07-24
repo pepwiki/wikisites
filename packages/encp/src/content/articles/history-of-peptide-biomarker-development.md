@@ -1,6 +1,6 @@
 ---
 title: "History of Peptide Biomarker Development"
-description: "How peptide biomarkers were discovered and validated for clinical diagnostics."
+description: "How peptide biomarkers were discovered and validated for clinical diagnostics. This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

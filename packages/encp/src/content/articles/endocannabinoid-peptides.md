@@ -1,6 +1,6 @@
 ---
-title: "Endocannabinoid Peptides"
-description: "Lipid-peptide mediators of retrograde synaptic signaling in CNS."
+title: "Endocannabinoid Peptides: Neuropeptide in Neuroscience Re..."
+description: "Lipid-peptide mediators of retrograde synaptic signaling in CNS. This neuropeptide is involved in neurological signaling and is studied for its roles in brai..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

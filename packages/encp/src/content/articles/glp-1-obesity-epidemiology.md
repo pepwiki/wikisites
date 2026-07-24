@@ -1,6 +1,6 @@
 ---
 title: "GLP-1 Agonist Impact on Obesity Epidemiology"
-description: "Impact of GLP-1 receptor agonists on obesity treatment landscape and public health implications."
+description: "Impact of GLP-1 receptor agonists on obesity treatment landscape and public health implications. This peptide or oligopeptide is studied for its biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

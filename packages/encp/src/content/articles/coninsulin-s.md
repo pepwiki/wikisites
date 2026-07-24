@@ -1,6 +1,6 @@
 ---
-title: "Coninsulin S"
-description: "Insulin-like peptide from Conus striatus venom causing hypoglycemic shock in prey."
+title: "Coninsulin S: Peptide Toxin in Pharmacology Reference"
+description: "Insulin-like peptide from Conus striatus venom causing hypoglycemic shock in prey. This peptide toxin is derived from venom and studied for its pharmacologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

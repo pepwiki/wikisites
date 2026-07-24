@@ -1,6 +1,6 @@
 ---
-title: "Geriatrics"
-description: "Special considerations for peptide drug use in elderly patients."
+title: "Geriatrics: Oligopeptide Research Reference"
+description: "Special considerations for peptide drug use in elderly patients. This peptide or oligopeptide is studied for its biological activity, structure-activity rela..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

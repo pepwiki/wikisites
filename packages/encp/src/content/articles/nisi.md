@@ -1,6 +1,6 @@
 ---
 title: "Nisi: Structure, Function, and Significance"
-description: "Nisin-like peptides from Asian frog skin exhibit broad-spectrum antimicrobial activity with minimal hemolytic activity."
+description: "Nisin-like peptides from Asian frog skin exhibit broad-spectrum antimicrobial activity with minimal hemolytic activity. Covers molecular mechanisms, biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "HPLC for Peptide Purification"
-description: "Guide to high-performance liquid chromatography techniques for isolating and purifying synthetic peptides."
+title: "HPLC for Peptide Purification: Comprehensive Peptide Refe..."
+description: "Guide to high-performance liquid chromatography techniques for isolating and purifying synthetic peptides. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

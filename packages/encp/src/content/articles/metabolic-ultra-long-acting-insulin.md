@@ -1,6 +1,6 @@
 ---
 title: "Metabolic / Ultra-Long-Acting Insulin"
-description: "Metabolic / Ultra-Long-Acting Insulin is a bioactive compound with applications in peptide research and therapeutics."
+description: "Metabolic / Ultra-Long-Acting Insulin is a bioactive compound with applications in peptide research and therapeutics. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

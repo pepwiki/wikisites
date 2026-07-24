@@ -1,6 +1,6 @@
 ---
-title: "Mu-Conotoxin MrVIB"
-description: "Sodium channel blocker from Conus magus with local anesthetic potential."
+title: "Mu-Conotoxin MrVIB: Peptide Toxin in Pharmacology Reference"
+description: "Sodium channel blocker from Conus magus with local anesthetic potential. This peptide toxin is derived from venom and studied for its pharmacological activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

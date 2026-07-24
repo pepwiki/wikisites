@@ -1,5 +1,5 @@
 ---
-title: "Melittin"
+title: "Melittin: Antimicrobial Peptide Reference"
 description: "Major component of bee venom that potently disrupts cell membranes, studied for antimicrobial and anticancer applications."
 status: "published"
 author: "Encyclopeptide Editorial"

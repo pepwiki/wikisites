@@ -1,6 +1,6 @@
 ---
 title: "Semaglutide Insulin Coformulation"
-description: "Experimental co-formulation of semaglutide with ultra-long-acting insulin for single-injection therapy."
+description: "Experimental co-formulation of semaglutide with ultra-long-acting insulin for single-injection therapy. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

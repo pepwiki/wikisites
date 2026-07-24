@@ -1,6 +1,6 @@
 ---
-title: "Self Attention for Peptides"
-description: "A computational method for studying peptides using Self Attention."
+title: "Self Attention for Peptides: Comprehensive Peptide Reference"
+description: "A computational method for studying peptides using Self Attention. This analytical technique provides valuable insights into peptide structure, purity, and c..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

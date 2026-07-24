@@ -1,6 +1,6 @@
 ---
-title: "Opioid Distribution Brain"
-description: "Regional distribution of opioid peptides in brain and pain/reward roles."
+title: "Opioid Distribution Brain: Comprehensive Peptide Reference"
+description: "Regional distribution of opioid peptides in brain and pain/reward roles. This neuropeptide is involved in neurological signaling and is studied for its roles..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

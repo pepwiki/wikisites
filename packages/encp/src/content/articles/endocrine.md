@@ -1,6 +1,6 @@
 ---
-title: "Endocrine"
-description: "Clinical trials for endocrine-related diseases."
+title: "Endocrine: Endogenous Peptide Hormone Reference"
+description: "Clinical trials for endocrine-related diseases. This endogenous peptide hormone plays important roles in physiological regulation and is studied for therapeu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,5 +1,5 @@
 ---
-title: "association-constant Resource"
+title: "association-constant Resource: Comprehensive Peptide Refe..."
 description: "The association-constant database or resource for peptide research, providing data on structure, function, and interactions."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,6 +1,6 @@
 ---
 title: "Colony Stimulating Factor EPO-1-50"
-description: "Reference for colony stimulating factor EPO-1-50 in peptide research."
+description: "Comprehensive reference for colony stimulating factor EPO-1-50, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

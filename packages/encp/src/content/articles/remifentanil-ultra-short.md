@@ -1,6 +1,6 @@
 ---
-title: "Remifentanil Ultra-Short"
-description: "Ultra-short-acting opioid with esterase metabolism for surgical anesthesia."
+title: "Remifentanil Ultra-Short: Neuropeptide in Neuroscience Re..."
+description: "Ultra-short-acting opioid with esterase metabolism for surgical anesthesia. This neuropeptide is involved in neurological signaling and is studied for its ro..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

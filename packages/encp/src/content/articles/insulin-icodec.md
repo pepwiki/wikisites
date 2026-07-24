@@ -1,5 +1,5 @@
 ---
-title: "Insulin Icodec"
+title: "Insulin Icodec: Peptide Family Reference"
 description: "Once-weekly basal insulin analog with ultra-long half-life exceeding 196 hours, representing the first weekly insulin formulation."
 status: "published"
 author: "Encyclopeptide Editorial"

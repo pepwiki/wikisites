@@ -1,5 +1,5 @@
 ---
-title: "Hepcidin 22"
+title: "Hepcidin 22: Endogenous Peptide Hormone Reference"
 description: "hepcidin-22 is a growth factor or regulatory peptide involved in cell proliferation, differentiation, and tissue homeostasis."
 status: "published"
 author: "Encyclopeptide Editorial"

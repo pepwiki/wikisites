@@ -1,6 +1,6 @@
 ---
-title: "Sarafotoxin S6b"
-description: "Comprehensive reference for Sarafotoxin S6b, a peptide compound with applications in research and therapeutics."
+title: "Sarafotoxin S6b: Peptide Toxin in Pharmacology Reference"
+description: "Sarafotoxin S6b, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

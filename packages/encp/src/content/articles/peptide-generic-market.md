@@ -1,6 +1,6 @@
 ---
-title: "Peptide Generic Market"
-description: "The landscape of generic and biosimilar peptide therapeutics."
+title: "Peptide Generic Market: Oligopeptide Research Reference"
+description: "The landscape of generic and biosimilar peptide therapeutics. This peptide or oligopeptide is studied for its biological activity, structure-activity relatio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

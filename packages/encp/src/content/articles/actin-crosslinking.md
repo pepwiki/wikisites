@@ -1,6 +1,6 @@
 ---
-title: "Actin crosslinking"
-description: "Reference for actin crosslinking in peptide research."
+title: "Actin crosslinking: Oligopeptide Research Reference"
+description: "Comprehensive reference for actin crosslinking, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

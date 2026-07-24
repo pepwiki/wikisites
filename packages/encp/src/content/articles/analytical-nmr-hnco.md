@@ -1,6 +1,6 @@
 ---
-title: "NMR HNCO Analysis"
-description: "An analytical technique for characterizing peptides using NMR HNCO."
+title: "NMR HNCO Analysis: Analytical Technique in Peptide Research"
+description: "An analytical technique for characterizing peptides using NMR HNCO. This analytical technique provides valuable insights into peptide structure, purity, and ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

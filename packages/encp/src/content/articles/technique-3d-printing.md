@@ -1,6 +1,6 @@
 ---
-title: "3D-printing for Peptides"
-description: "Application of 3D-printing technique for peptide characterization, structure determination, or formulation."
+title: "3D-printing for Peptides: Analytical Technique in Peptide..."
+description: "Application of 3D-printing technique for peptide characterization, structure determination, or formulation. This peptide or oligopeptide is studied for its b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

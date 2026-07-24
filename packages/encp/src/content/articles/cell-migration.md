@@ -1,6 +1,6 @@
 ---
-title: "Cell migration"
-description: "Reference for cell migration in peptide research."
+title: "Cell migration: Oligopeptide Research Reference"
+description: "Comprehensive reference for cell migration, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

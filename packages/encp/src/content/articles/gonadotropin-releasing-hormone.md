@@ -1,6 +1,6 @@
 ---
 title: "Gonadotropin-Releasing Hormone"
-description: "Decapeptide hypothalamic hormone controlling gonadotropin release."
+description: "Decapeptide hypothalamic hormone controlling gonadotropin release. This neuropeptide is involved in neurological signaling and is studied for its roles in br..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Opioid Enteric Nervous System"
-description: "Opioid peptides in enteric and peripheral sensory neurons."
+title: "Opioid Enteric Nervous System: Comprehensive Peptide Refe..."
+description: "Opioid peptides in enteric and peripheral sensory neurons. This neuropeptide is involved in neurological signaling and is studied for its roles in brain func..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,5 +1,5 @@
 ---
-title: "Peptide Cosmeceuticals"
+title: "Peptide Cosmeceuticals: Oligopeptide Research Reference"
 description: "Bioactive peptides used in cosmetic and skincare products for anti-aging, skin brightening, and wound healing applications."
 status: "published"
 author: "Encyclopeptide Editorial"

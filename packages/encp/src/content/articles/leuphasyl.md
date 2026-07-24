@@ -1,6 +1,6 @@
 ---
-title: "Leuphasyl"
-description: "Acetyl pentapeptide-18. Reduces expression wrinkles. Cosmetic peptide."
+title: "Leuphasyl: Oligopeptide Research Reference"
+description: "Acetyl pentapeptide-18. Reduces expression wrinkles. Cosmetic peptide. This peptide or oligopeptide is studied for its biological activity, structure-activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

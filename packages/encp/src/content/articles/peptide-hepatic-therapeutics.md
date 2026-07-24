@@ -1,6 +1,6 @@
 ---
-title: "Peptide Hepatic Therapeutics"
-description: "Therapeutic peptides for liver diseases including hepatitis, cirrhosis, and metabolic liver conditions."
+title: "Peptide Hepatic Therapeutics: Comprehensive Peptide Refer..."
+description: "Therapeutic peptides for liver diseases including hepatitis, cirrhosis, and metabolic liver conditions. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

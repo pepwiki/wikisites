@@ -1,5 +1,5 @@
 ---
-title: "ionization-potential Resource"
+title: "ionization-potential Resource: Comprehensive Peptide Refe..."
 description: "The ionization-potential database or resource for peptide research, providing data on structure, function, and interactions."
 status: "published"
 author: "Encyclopeptide Editorial"

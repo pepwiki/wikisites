@@ -1,5 +1,5 @@
 ---
-title: "Goose Beta-Defensin (AcBD)"
+title: "Goose Beta-Defensin (AcBD): Comprehensive Peptide Reference"
 description: "Comprehensive reference for Goose Beta-Defensin (AcBD), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

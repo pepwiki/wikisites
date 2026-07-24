@@ -1,6 +1,6 @@
 ---
-title: "PLGA Nanoparticles Peptide"
-description: "Poly(lactide-co-glycolide) nanoparticles for sustained peptide drug release."
+title: "PLGA Nanoparticles Peptide: Comprehensive Peptide Reference"
+description: "Poly(lactide-co-glycolide) nanoparticles for sustained peptide drug release. This peptide or oligopeptide is studied for its biological activity, structure-a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

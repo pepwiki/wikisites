@@ -1,5 +1,5 @@
 ---
-title: "Erythropoietin"
+title: "Erythropoietin: Endogenous Peptide Hormone Reference"
 description: "Glycoprotein hormone that stimulates red blood cell production through EPO receptor activation on erythroid progenitor cells."
 status: "published"
 author: "Encyclopeptide Editorial"

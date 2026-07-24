@@ -1,6 +1,6 @@
 ---
-title: "IPP"
-description: "Isoleucine-proline-proline. ACE-inhibitory tripeptide from casein. Found in fermented milk."
+title: "IPP: Oligopeptide Research Reference"
+description: "Isoleucine-proline-proline. ACE-inhibitory tripeptide from casein. Found in fermented milk. This peptide or oligopeptide is studied for its biological activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

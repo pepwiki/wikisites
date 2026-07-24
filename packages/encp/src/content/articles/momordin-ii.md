@@ -1,5 +1,5 @@
 ---
-title: "Momordin II"
+title: "Momordin II: Oligopeptide Research Reference"
 description: "momordin-II is a cyclotide — a cyclic, knotted peptide from plants with exceptional stability and insecticidal activity."
 status: "published"
 author: "Encyclopeptide Editorial"

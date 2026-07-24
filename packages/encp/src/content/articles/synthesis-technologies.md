@@ -1,6 +1,6 @@
 ---
-title: "Synthesis Technologies"
-description: "Methods for peptide bond formation and assembly"
+title: "Synthesis Technologies: Oligopeptide Research Reference"
+description: "Methods for peptide bond formation and assembly. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

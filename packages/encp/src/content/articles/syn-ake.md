@@ -1,6 +1,6 @@
 ---
-title: "Syn-Ake"
-description: "Diaminobutyryl benzylamide. Synthetic tripeptide mimicking Waglerin-1 from temple viper (Tropidolaemus wagleri) venom. Competitively blocks nicotinic acetylcholine receptors at neuromuscular junction."
+title: "Syn-Ake: Oligopeptide Research Reference"
+description: "Diaminobutyryl benzylamide. Synthetic tripeptide mimicking Waglerin-1 from temple viper (Tropidolaemus wagleri) venom. Competitively blocks nicotinic acetylc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Diaminobutyryl benzylamide. Synthetic tripeptide mimicking Waglerin-1 from temple viper (Tropidolaemus wagleri) venom. Competitively blocks nicotinic acetylcholine receptors at neuromuscular junction. Reduces muscle contractions. Used in anti-wrinkle cosmetics (Argireline analog).
+Diaminobutyryl benzylamide. Synthetic tripeptide mimicking Waglerin-1 from temple viper (Tropidolaemus wagleri) venom. Competitively blocks nicotinic acetylc... Reduces muscle contractions. Used in anti-wrinkle cosmetics (Argireline analog).
 
 ## Clinical Significance
 

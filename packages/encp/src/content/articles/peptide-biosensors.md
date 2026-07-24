@@ -1,5 +1,5 @@
 ---
-title: "Peptide-Based Biosensors"
+title: "Peptide-Based Biosensors: Oligopeptide Research Reference"
 description: "A review of peptide-based biosensing platforms including aptamers, molecular imprinted polymers, and lateral flow assays for diagnostic applications."
 status: "published"
 author: "Encyclopeptide Editorial"

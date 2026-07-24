@@ -1,6 +1,6 @@
 ---
-title: "Carfilzomib"
-description: "Epoxyketone proteasome inhibitor that irreversibly inhibits the 20S proteasome for relapsed multiple myeloma."
+title: "Carfilzomib: Oligopeptide Research Reference"
+description: "Epoxyketone proteasome inhibitor that irreversibly inhibits the 20S proteasome for relapsed multiple myeloma. This peptide or oligopeptide is studied for its..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

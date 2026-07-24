@@ -1,6 +1,6 @@
 ---
-title: "ACTH 7-18"
-description: "Reference for ACTH 7-18 variant in peptide research."
+title: "ACTH 7-18: Adrenocorticotropic Hormone Fragment in Peptid..."
+description: "Comprehensive reference for ACTH 7-18 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

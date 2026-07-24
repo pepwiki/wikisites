@@ -1,6 +1,6 @@
 ---
-title: "Recombinant Tubulin"
-description: "Comprehensive reference for recombinant tubulin in peptide research."
+title: "Recombinant Tubulin: Oligopeptide Research Reference"
+description: "recombinant tubulin in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

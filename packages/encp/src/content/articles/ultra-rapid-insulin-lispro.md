@@ -1,6 +1,6 @@
 ---
-title: "Ultra-Rapid Insulin Lispro"
-description: "Ultra-rapid insulin lispro formulation with treprostinil and citrate for accelerated initial absorption."
+title: "Ultra-Rapid Insulin Lispro: Comprehensive Peptide Reference"
+description: "Ultra-rapid insulin lispro formulation with treprostinil and citrate for accelerated initial absorption. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

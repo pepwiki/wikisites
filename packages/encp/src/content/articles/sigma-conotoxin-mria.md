@@ -1,6 +1,6 @@
 ---
-title: "Sigma-Conotoxin MrIA"
-description: "Serotonin transporter inhibitor from Conus marmoreus with antidepressant potential."
+title: "Sigma-Conotoxin MrIA: Peptide Toxin in Pharmacology Refer..."
+description: "Serotonin transporter inhibitor from Conus marmoreus with antidepressant potential. This peptide toxin is derived from venom and studied for its pharmacologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

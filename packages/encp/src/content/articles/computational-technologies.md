@@ -1,6 +1,6 @@
 ---
-title: "Computational Technologies"
-description: "In silico methods for peptide design and prediction"
+title: "Computational Technologies: Comprehensive Peptide Reference"
+description: "In silico methods for peptide design and prediction. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

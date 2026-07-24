@@ -1,6 +1,6 @@
 ---
-title: "2-O-methyl RNA"
-description: "Reference for 2-o-methyl rna in peptide research."
+title: "2-O-methyl RNA: Oligopeptide Research Reference"
+description: "Comprehensive reference for 2-o-methyl rna, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

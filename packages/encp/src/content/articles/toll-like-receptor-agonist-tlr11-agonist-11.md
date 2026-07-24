@@ -1,6 +1,6 @@
 ---
 title: "Toll Like Receptor Agonist TLR11-agonist-11"
-description: "Reference for toll like receptor agonist TLR11-agonist-11 in peptide research."
+description: "Comprehensive reference for toll like receptor agonist TLR11-agonist-11, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

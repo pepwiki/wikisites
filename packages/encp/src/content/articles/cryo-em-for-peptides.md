@@ -1,6 +1,6 @@
 ---
-title: "Cryo-EM for Peptides"
-description: "Learn how cryo-electron microscopy enables near-atomic resolution imaging of peptide assemblies and complexes."
+title: "Cryo-EM for Peptides: Analytical Technique in Peptide Res..."
+description: "Learn how cryo-electron microscopy enables near-atomic resolution imaging of peptide assemblies and complexes. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

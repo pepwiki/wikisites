@@ -1,6 +1,6 @@
 ---
-title: "Depot injection"
-description: "Reference for depot injection in peptide research."
+title: "Depot injection: Oligopeptide Research Reference"
+description: "Comprehensive reference for depot injection, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

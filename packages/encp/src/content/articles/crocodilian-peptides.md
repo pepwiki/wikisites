@@ -1,6 +1,6 @@
 ---
-title: "Crocodilian Peptides"
-description: "Antimicrobial, Anti-infective"
+title: "Crocodilian Peptides: Oligopeptide Research Reference"
+description: "Antimicrobial, Anti-infective. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicati..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

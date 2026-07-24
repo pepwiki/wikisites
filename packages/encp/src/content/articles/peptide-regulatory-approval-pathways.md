@@ -1,6 +1,6 @@
 ---
 title: "Peptide Regulatory Approval Pathways"
-description: "Navigating the regulatory pathways for peptide drug approval in major markets."
+description: "Navigating the regulatory pathways for peptide drug approval in major markets. This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

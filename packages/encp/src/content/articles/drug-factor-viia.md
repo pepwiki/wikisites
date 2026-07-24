@@ -1,6 +1,6 @@
 ---
-title: "Factor VIIa"
-description: "Comprehensive reference for factor VIIa in peptide research."
+title: "Factor VIIa: Oligopeptide Research Reference"
+description: "factor VIIa in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

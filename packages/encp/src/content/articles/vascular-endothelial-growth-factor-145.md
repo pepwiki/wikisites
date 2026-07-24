@@ -1,6 +1,6 @@
 ---
 title: "Vascular Endothelial Growth Factor 145"
-description: "Reference for vascular endothelial growth factor 145 in peptide research."
+description: "Comprehensive reference for vascular endothelial growth factor 145, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

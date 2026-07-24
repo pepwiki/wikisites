@@ -1,6 +1,6 @@
 ---
-title: "CCK Anxiety"
-description: "Central CCK effects on anxiety and panic through CCK-B receptors."
+title: "CCK Anxiety: Neuropeptide in Neuroscience Reference"
+description: "Central CCK effects on anxiety and panic through CCK-B receptors. This neuropeptide is involved in neurological signaling and is studied for its roles in bra..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

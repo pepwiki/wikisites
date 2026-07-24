@@ -1,5 +1,5 @@
 ---
-title: "Ophidine"
+title: "Ophidine: Oligopeptide Research Reference"
 description: "ophidine is a bioactive peptide with potential health benefits including antihypertensive, antioxidant, or neuroprotective properties."
 status: "published"
 author: "Encyclopeptide Editorial"

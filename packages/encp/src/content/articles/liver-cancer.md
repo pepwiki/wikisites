@@ -1,6 +1,6 @@
 ---
-title: "Liver Cancer"
-description: "Hepatocellular carcinoma. Most common primary liver cancer."
+title: "Liver Cancer: Oligopeptide Research Reference"
+description: "Hepatocellular carcinoma. Most common primary liver cancer. This peptide or oligopeptide is studied for its biological activity, structure-activity relations..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Wasp Venom Brachykinin"
-description: "Kinins from wasp venom causing pain and vasodilation."
+title: "Wasp Venom Brachykinin: Peptide Toxin in Pharmacology Ref..."
+description: "Kinins from wasp venom causing pain and vasodilation. This peptide toxin is derived from venom and studied for its pharmacological activity, mechanism of act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Nisin A"
-description: "nisin-a is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity."
+title: "Nisin A: Antimicrobial Peptide Reference"
+description: "nisin-a is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity. This antimicrobial peptide demonstrates activity against ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

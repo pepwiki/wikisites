@@ -1,6 +1,6 @@
 ---
-title: "Mambin 2"
-description: "mambin-2 is a snake venom peptide toxin with specific pharmacological activity."
+title: "Mambin 2: Peptide Toxin in Pharmacology Reference"
+description: "mambin-2 is a snake venom peptide toxin with specific pharmacological activity. This peptide toxin is derived from venom and studied for its pharmacological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

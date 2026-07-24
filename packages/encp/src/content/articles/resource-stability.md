@@ -1,6 +1,6 @@
 ---
-title: "stability Resource"
-description: "The stability database or resource for peptide research, providing data on structure, function, and interactions."
+title: "stability Resource: Oligopeptide Research Reference"
+description: "The stability database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

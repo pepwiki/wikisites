@@ -1,6 +1,6 @@
 ---
-title: "Glatiramer Acetate"
-description: "Random copolymer peptide mixture that modulates immune response in multiple sclerosis, mimicking myelin basic protein."
+title: "Glatiramer Acetate: Oligopeptide Research Reference"
+description: "Random copolymer peptide mixture that modulates immune response in multiple sclerosis, mimicking myelin basic protein. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

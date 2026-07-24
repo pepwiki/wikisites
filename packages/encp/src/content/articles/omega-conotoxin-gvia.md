@@ -1,6 +1,6 @@
 ---
-title: "Omega-Conotoxin GVIA"
-description: "N-type calcium channel blocker from Conus geographus with high selectivity."
+title: "Omega-Conotoxin GVIA: Peptide Toxin in Pharmacology Refer..."
+description: "N-type calcium channel blocker from Conus geographus with high selectivity. This peptide toxin is derived from venom and studied for its pharmacological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

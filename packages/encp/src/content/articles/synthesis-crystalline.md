@@ -1,6 +1,6 @@
 ---
-title: "Crystalline Synthesis"
-description: "A peptide synthesis method using Crystalline for producing peptides with specific properties."
+title: "Crystalline Synthesis: Analytical Technique in Peptide Re..."
+description: "A peptide synthesis method using Crystalline for producing peptides with specific properties. This analytical technique provides valuable insights into pepti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

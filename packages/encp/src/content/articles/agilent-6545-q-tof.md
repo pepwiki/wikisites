@@ -1,6 +1,6 @@
 ---
-title: "Agilent 6545 Q-TOF"
-description: "Quadrupole time-of-flight mass spectrometer. High-resolution accurate mass for peptide identification."
+title: "Agilent 6545 Q-TOF: Oligopeptide Research Reference"
+description: "Quadrupole time-of-flight mass spectrometer. High-resolution accurate mass for peptide identification. This peptide or oligopeptide is studied for its biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

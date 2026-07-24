@@ -1,6 +1,6 @@
 ---
-title: "Psi-Conotoxin TxVII"
-description: "Calcium channel modulator from Conus textile with unique disulfide connectivity."
+title: "Psi-Conotoxin TxVII: Peptide Toxin in Pharmacology Reference"
+description: "Calcium channel modulator from Conus textile with unique disulfide connectivity. This peptide toxin is derived from venom and studied for its pharmacological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

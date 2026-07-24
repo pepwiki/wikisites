@@ -1,6 +1,6 @@
 ---
-title: "Erenumab"
-description: "Monoclonal antibody against CGRP receptor for migraine prevention with monthly dosing."
+title: "Erenumab: Oligopeptide Research Reference"
+description: "Monoclonal antibody against CGRP receptor for migraine prevention with monthly dosing. This peptide or oligopeptide is studied for its biological activity, s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

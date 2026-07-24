@@ -1,5 +1,5 @@
 ---
-title: "Cecropin P1 (Sus scrofa)"
+title: "Cecropin P1 (Sus scrofa): Oligopeptide Research Reference"
 description: "Comprehensive reference for Cecropin P1 (Sus scrofa), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

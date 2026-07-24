@@ -1,6 +1,6 @@
 ---
-title: "GSK"
-description: "Albiglutide"
+title: "GSK: Oligopeptide Research Reference"
+description: "Albiglutide. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in biomedical ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

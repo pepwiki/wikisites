@@ -1,5 +1,5 @@
 ---
-title: "Avibactam"
+title: "Avibactam: Oligopeptide Research Reference"
 description: "Diazabicyclooctane beta-lactamase inhibitor that restores activity of cephalosporins against resistant gram-negative bacteria."
 status: "published"
 author: "Encyclopeptide Editorial"

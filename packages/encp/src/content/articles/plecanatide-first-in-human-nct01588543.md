@@ -1,6 +1,6 @@
 ---
 title: "Plecanatide - First-in-Human (NCT01588543)"
-description: "First-in-human trial of plecanatide."
+description: "First-in-human trial of plecanatide. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential app..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

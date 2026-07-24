@@ -1,6 +1,6 @@
 ---
 title: "differential-scanning for Peptides"
-description: "Application of differential-scanning technique for peptide characterization, structure determination, or formulation."
+description: "Application of differential-scanning technique for peptide characterization, structure determination, or formulation. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

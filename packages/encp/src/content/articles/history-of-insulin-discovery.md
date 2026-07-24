@@ -1,6 +1,6 @@
 ---
-title: "History of Insulin Discovery"
-description: "Tracing the discovery and development of insulin from Banting and Best to modern analogs."
+title: "History of Insulin Discovery: Comprehensive Peptide Refer..."
+description: "Tracing the discovery and development of insulin from Banting and Best to modern analogs. This endogenous peptide hormone plays important roles in physiologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

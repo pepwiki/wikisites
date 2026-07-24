@@ -1,6 +1,6 @@
 ---
-title: "Cecropin B"
-description: "AMP from Hyalophora cecropia with potent gram-negative and some antifungal activity."
+title: "Cecropin B: Antimicrobial Peptide Reference"
+description: "AMP from Hyalophora cecropia with potent gram-negative and some antifungal activity. This antimicrobial peptide demonstrates activity against pathogens and i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

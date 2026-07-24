@@ -1,6 +1,6 @@
 ---
-title: "Bone Disorders"
-description: "Peptide therapeutics for osteoporosis and bone healing."
+title: "Bone Disorders: Oligopeptide Research Reference"
+description: "Peptide therapeutics for osteoporosis and bone healing. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

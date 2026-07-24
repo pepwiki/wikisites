@@ -1,6 +1,6 @@
 ---
-title: "Ranatensin"
-description: "Comprehensive reference for Ranatensin, a peptide compound with applications in research and therapeutics."
+title: "Ranatensin: Antimicrobial Peptide Reference"
+description: "Ranatensin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

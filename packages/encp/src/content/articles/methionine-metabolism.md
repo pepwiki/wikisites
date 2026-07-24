@@ -1,6 +1,6 @@
 ---
-title: "Methionine Metabolism"
-description: "Metabolic pathways involving Methionine including biosynthesis, catabolism, and transamination."
+title: "Methionine Metabolism: Oligopeptide Research Reference"
+description: "Metabolic pathways involving Methionine including biosynthesis, catabolism, and transamination. This peptide or oligopeptide is studied for its biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

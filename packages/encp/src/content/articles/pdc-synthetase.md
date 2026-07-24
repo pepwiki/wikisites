@@ -1,6 +1,6 @@
 ---
-title: "Synthetase PDC"
-description: "A peptide-drug conjugate targeting Synthetase for selective drug delivery."
+title: "Synthetase PDC: Oligopeptide Research Reference"
+description: "A peptide-drug conjugate targeting Synthetase for selective drug delivery. This peptide or oligopeptide is studied for its biological activity, structure-act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

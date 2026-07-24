@@ -1,6 +1,6 @@
 ---
-title: "Peptide Antifungals"
-description: "Guide to antifungal peptides targeting fungal membranes for treatment of invasive mycoses."
+title: "Peptide Antifungals: Oligopeptide Research Reference"
+description: "Guide to antifungal peptides targeting fungal membranes for treatment of invasive mycoses. This peptide or oligopeptide is studied for its biological activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

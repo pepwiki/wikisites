@@ -1,6 +1,6 @@
 ---
 title: "GLP-1 Agonist Gastroparesis Management"
-description: "Clinical management of gastroparesis-like symptoms during GLP-1 agonist therapy."
+description: "Clinical management of gastroparesis-like symptoms during GLP-1 agonist therapy. This peptide or oligopeptide is studied for its biological activity, structu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

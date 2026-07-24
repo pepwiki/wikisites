@@ -1,6 +1,6 @@
 ---
-title: "Anxiety and Peptides"
-description: "Learn about anxiolytic peptide therapeutics targeting neuropeptide Y, CRF, and GABAergic peptide systems."
+title: "Anxiety and Peptides: Oligopeptide Research Reference"
+description: "Learn about anxiolytic peptide therapeutics targeting neuropeptide Y, CRF, and GABAergic peptide systems. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

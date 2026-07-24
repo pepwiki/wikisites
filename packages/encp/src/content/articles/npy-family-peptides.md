@@ -1,6 +1,6 @@
 ---
 title: "Neuropeptide Y Family Peptides"
-description: "Explore NPY, PYY, and pancreatic polypeptide in appetite regulation and energy homeostasis."
+description: "Explore NPY, PYY, and pancreatic polypeptide in appetite regulation and energy homeostasis. This peptide or oligopeptide is studied for its biological activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

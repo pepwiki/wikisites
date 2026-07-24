@@ -1,6 +1,6 @@
 ---
-title: "BMP 7"
-description: "BMP-7 is a growth factor or regulatory peptide involved in cell proliferation, differentiation, and tissue homeostasis."
+title: "BMP 7: Endogenous Peptide Hormone Reference"
+description: "BMP-7 is a growth factor or regulatory peptide involved in cell proliferation, differentiation, and tissue homeostasis. Covers molecular mechanisms, biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

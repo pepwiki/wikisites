@@ -1,6 +1,6 @@
 ---
-title: "Implantable Peptide Delivery"
-description: "Understand biodegradable implant devices for long-term controlled release of peptide therapeutics."
+title: "Implantable Peptide Delivery: Comprehensive Peptide Refer..."
+description: "Understand biodegradable implant devices for long-term controlled release of peptide therapeutics. This peptide or oligopeptide is studied for its biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

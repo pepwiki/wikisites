@@ -1,6 +1,6 @@
 ---
-title: "Silk Elastin Copolymer"
-description: "Comprehensive reference for silk elastin copolymer in peptide research."
+title: "Silk Elastin Copolymer: Oligopeptide Research Reference"
+description: "silk elastin copolymer in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potent..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

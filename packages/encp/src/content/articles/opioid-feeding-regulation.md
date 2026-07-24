@@ -1,6 +1,6 @@
 ---
-title: "Opioid Feeding Regulation"
-description: "Endogenous opioid regulation of feeding behavior and food reward."
+title: "Opioid Feeding Regulation: Comprehensive Peptide Reference"
+description: "Endogenous opioid regulation of feeding behavior and food reward. This neuropeptide is involved in neurological signaling and is studied for its roles in bra..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

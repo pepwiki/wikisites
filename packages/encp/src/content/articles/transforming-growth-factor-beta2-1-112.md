@@ -1,6 +1,6 @@
 ---
 title: "Transforming Growth Factor beta2-1-112"
-description: "Reference for transforming growth factor beta2-1-112 in peptide research."
+description: "Comprehensive reference for transforming growth factor beta2-1-112, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Peptide Phosphorylation Sites"
-description: "Guide to phosphorylation of serine, threonine, and tyrosine residues in peptide signaling."
+title: "Peptide Phosphorylation Sites: Comprehensive Peptide Refe..."
+description: "Guide to phosphorylation of serine, threonine, and tyrosine residues in peptide signaling. This modification affects peptide stability, receptor binding, and..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

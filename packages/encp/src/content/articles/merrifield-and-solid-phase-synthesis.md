@@ -1,6 +1,6 @@
 ---
 title: "Merrifield and Solid-Phase Synthesis"
-description: "Bruce Merrifield's revolutionary invention of solid-phase peptide synthesis in 1963."
+description: "Bruce Merrifield's revolutionary invention of solid-phase peptide synthesis in 1963. This peptide or oligopeptide is studied for its biological activity, str..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

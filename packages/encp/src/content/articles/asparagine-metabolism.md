@@ -1,6 +1,6 @@
 ---
-title: "Asparagine Metabolism"
-description: "Metabolic pathways involving Asparagine including biosynthesis, catabolism, and transamination."
+title: "Asparagine Metabolism: Oligopeptide Research Reference"
+description: "Metabolic pathways involving Asparagine including biosynthesis, catabolism, and transamination. This peptide or oligopeptide is studied for its biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
 title: "Spider Toxin Ca2+ Channel Modulators"
-description: "Calcium channel modulating peptides from spider venom."
+description: "Calcium channel modulating peptides from spider venom. This peptide toxin is derived from venom and studied for its pharmacological activity, mechanism of ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

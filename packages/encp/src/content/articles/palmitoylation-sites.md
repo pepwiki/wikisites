@@ -1,6 +1,6 @@
 ---
-title: "Peptide Palmitoylation Sites"
-description: "Learn about S-palmitoylation in peptide membrane targeting and signal transduction."
+title: "Peptide Palmitoylation Sites: Comprehensive Peptide Refer..."
+description: "Learn about S-palmitoylation in peptide membrane targeting and signal transduction. This modification affects peptide stability, receptor binding, and biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

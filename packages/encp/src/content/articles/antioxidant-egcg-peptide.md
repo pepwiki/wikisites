@@ -1,6 +1,6 @@
 ---
-title: "EGCG Peptide"
-description: "Comprehensive reference for EGCG peptide in peptide research."
+title: "EGCG Peptide: Oligopeptide Research Reference"
+description: "EGCG peptide in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

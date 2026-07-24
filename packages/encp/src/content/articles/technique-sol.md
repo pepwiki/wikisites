@@ -1,6 +1,6 @@
 ---
-title: "sol for Peptides"
-description: "Application of sol technique for peptide characterization, structure determination, or formulation."
+title: "sol for Peptides: Analytical Technique in Peptide Research"
+description: "Application of sol technique for peptide characterization, structure determination, or formulation. This analytical technique provides valuable insights into..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

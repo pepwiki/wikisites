@@ -1,6 +1,6 @@
 ---
-title: "Peptide bioconjugation"
-description: "Reference for peptide bioconjugation in peptide research."
+title: "Peptide bioconjugation: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide bioconjugation, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Cryptdin 4"
-description: "cryptdin-4 is a defensin-family antimicrobial peptide with cysteine-stabilized structure and broad-spectrum activity."
+title: "Cryptdin 4: Antimicrobial Peptide Reference"
+description: "cryptdin-4 is a defensin-family antimicrobial peptide with cysteine-stabilized structure and broad-spectrum activity. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Porcine Cathelicidin PMAP-36"
-description: "Cathelicidin from porcine neutrophils with potent gram-negative bactericidal activity."
+title: "Porcine Cathelicidin PMAP-36: Comprehensive Peptide Refer..."
+description: "Cathelicidin from porcine neutrophils with potent gram-negative bactericidal activity. This antimicrobial peptide demonstrates activity against pathogens and..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

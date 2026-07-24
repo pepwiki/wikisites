@@ -1,6 +1,6 @@
 ---
-title: "Somapacitan"
-description: "Long-acting growth hormone albumin-binding prodrug for once-weekly dosing."
+title: "Somapacitan: Oligopeptide Research Reference"
+description: "Long-acting growth hormone albumin-binding prodrug for once-weekly dosing. This peptide or oligopeptide is studied for its biological activity, structure-act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

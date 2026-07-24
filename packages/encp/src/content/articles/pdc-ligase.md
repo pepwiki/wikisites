@@ -1,6 +1,6 @@
 ---
-title: "Ligase PDC"
-description: "A peptide-drug conjugate targeting Ligase for selective drug delivery."
+title: "Ligase PDC: Oligopeptide Research Reference"
+description: "A peptide-drug conjugate targeting Ligase for selective drug delivery. This peptide or oligopeptide is studied for its biological activity, structure-activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

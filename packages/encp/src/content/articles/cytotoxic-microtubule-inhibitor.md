@@ -1,6 +1,6 @@
 ---
 title: "Cytotoxic / Microtubule Inhibitor"
-description: "Cytotoxic / Microtubule Inhibitor is a bioactive compound with applications in peptide research and therapeutics."
+description: "Cytotoxic / Microtubule Inhibitor is a bioactive compound with applications in peptide research and therapeutics. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

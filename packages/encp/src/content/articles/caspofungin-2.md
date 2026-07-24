@@ -1,5 +1,5 @@
 ---
-title: "Caspofungin"
+title: "Caspofungin: Oligopeptide Research Reference"
 description: "Echinocandin antifungal that inhibits beta-1,3-D-glucan synthase, disrupting fungal cell wall integrity in Candida and Aspergillus."
 status: "published"
 author: "Encyclopeptide Editorial"

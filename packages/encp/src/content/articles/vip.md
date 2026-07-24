@@ -1,5 +1,5 @@
 ---
-title: "Vasoactive Intestinal Peptide"
+title: "Vasoactive Intestinal Peptide: Comprehensive Peptide Refe..."
 description: "VIP is a 28-amino acid neuropeptide mediating vasodilation, secretion, and immune modulation through VPAC1 and VPAC2 receptors."
 status: "published"
 author: "Encyclopeptide Editorial"

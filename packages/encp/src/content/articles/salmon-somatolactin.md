@@ -1,6 +1,6 @@
 ---
-title: "Salmon Somatolactin"
-description: "Comprehensive reference for Salmon Somatolactin, a peptide compound with applications in research and therapeutics."
+title: "Salmon Somatolactin: Oligopeptide Research Reference"
+description: "Salmon Somatolactin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

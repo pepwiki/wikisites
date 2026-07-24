@@ -1,6 +1,6 @@
 ---
-title: "GICWNCKNKGQYYCQC"
-description: "Saccharomyces kluyveri"
+title: "GICWNCKNKGQYYCQC: Oligopeptide Research Reference"
+description: "Saccharomyces kluyveri. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

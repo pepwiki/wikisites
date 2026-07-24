@@ -1,6 +1,6 @@
 ---
-title: "RP-HPLC (Reverse Phase High Performance Liquid Chromatography)"
-description: "Comprehensive reference for RP-HPLC (Reverse Phase High Performance Liquid Chromatography), a peptide compound with applications in research and therapeutics."
+title: "RP-HPLC (Reverse Phase High Performance Liquid Chromatogr..."
+description: "Comprehensive reference for RP-HPLC (Reverse Phase High Performance Liquid Chromatogr..., a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
@@ -10,11 +10,11 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# RP-HPLC (Reverse Phase High Performance Liquid Chromatography)
+# RP-HPLC (Reverse Phase High Performance Liquid Chromatogr...
 
 ## Overview
 
-RP-HPLC (Reverse Phase High Performance Liquid Chromatography) is a bioactive peptide with well-characterized properties and therapeutic applications.
+RP-HPLC (Reverse Phase High Performance Liquid Chromatogr... is a bioactive peptide with well-characterized properties and therapeutic applications.
 
 
 
@@ -30,6 +30,6 @@ RP-HPLC (Reverse Phase High Performance Liquid Chromatography) is a bioactive pe
 
 | Property | Value |
 |----------|-------|
-| **Name** | RP-HPLC (Reverse Phase High Performance Liquid Chromatography) |
+| **Name** | RP-HPLC (Reverse Phase High Performance Liquid Chromatogr... |
 | **Category** | Peptide Manufacturing |
 

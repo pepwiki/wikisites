@@ -1,6 +1,6 @@
 ---
-title: "Computational Design"
-description: "AI and computational approaches to peptide design."
+title: "Computational Design: Oligopeptide Research Reference"
+description: "AI and computational approaches to peptide design. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

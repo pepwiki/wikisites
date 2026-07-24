@@ -1,6 +1,6 @@
 ---
-title: "Antimicrobial Peptide Market"
-description: "Market analysis for antimicrobial peptides."
+title: "Antimicrobial Peptide Market: Comprehensive Peptide Refer..."
+description: "Market analysis for antimicrobial peptides. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potent..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

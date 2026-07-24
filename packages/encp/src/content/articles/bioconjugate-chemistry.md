@@ -1,6 +1,6 @@
 ---
-title: "Bioconjugate Chemistry"
-description: "Journal focused on bioconjugation chemistry and its applications."
+title: "Bioconjugate Chemistry: Oligopeptide Research Reference"
+description: "Journal focused on bioconjugation chemistry and its applications. This peptide or oligopeptide is studied for its biological activity, structure-activity rel..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

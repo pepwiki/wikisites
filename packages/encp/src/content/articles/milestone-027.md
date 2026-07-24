@@ -1,6 +1,6 @@
 ---
-title: "Milestone 027"
-description: "1985: First synthetic peptide drug (desmopressin) gains widespread use."
+title: "Milestone 027: Oligopeptide Research Reference"
+description: "1985: First synthetic peptide drug (desmopressin) gains widespread use. This peptide or oligopeptide is studied for its biological activity, structure-activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

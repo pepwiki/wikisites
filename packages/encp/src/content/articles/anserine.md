@@ -1,6 +1,6 @@
 ---
-title: "Anserine"
-description: "β-alanyl-Nτ-methyl-L-histidine. Dipeptide in muscle tissue. pH buffer, antioxidant. Found in poultry, marine fish."
+title: "Anserine: Oligopeptide Research Reference"
+description: "β-alanyl-Nτ-methyl-L-histidine. Dipeptide in muscle tissue. pH buffer, antioxidant. Found in poultry, marine fish. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

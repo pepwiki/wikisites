@@ -1,6 +1,6 @@
 ---
-title: "Scorpion"
-description: "~4.0 mg/kg"
+title: "Scorpion: Peptide Toxin in Pharmacology Reference"
+description: "~4.0 mg/kg. This peptide toxin is derived from venom and studied for its pharmacological activity, mechanism of action, and potential applications in researc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

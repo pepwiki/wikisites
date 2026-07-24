@@ -1,6 +1,6 @@
 ---
 title: "De Novo Peptide Design with AI"
-description: "Using artificial intelligence to design novel peptide sequences from scratch."
+description: "Using artificial intelligence to design novel peptide sequences from scratch. This peptide or oligopeptide is studied for its biological activity, structure-..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
 title: "Density Functional for Peptides"
-description: "A computational method for studying peptides using Density Functional."
+description: "A computational method for studying peptides using Density Functional. This analytical technique provides valuable insights into peptide structure, purity, a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

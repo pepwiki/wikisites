@@ -1,5 +1,5 @@
 ---
-title: " Polymyxin M"
+title: "Polymyxin M: Antimicrobial Peptide Reference"
 description: " polymyxin-M is a peptide antibiotic produced by bacteria with antimicrobial activity used in clinical and agricultural applications."
 status: "published"
 author: "Encyclopeptide Editorial"

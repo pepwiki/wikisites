@@ -1,5 +1,5 @@
 ---
-title: "Peptide Radioligand Therapy"
+title: "Peptide Radioligand Therapy: Comprehensive Peptide Reference"
 description: "Targeted radionuclide therapy using radiolabeled peptides for peptide receptor radionuclide therapy in neuroendocrine tumors."
 status: "published"
 author: "Encyclopeptide Editorial"

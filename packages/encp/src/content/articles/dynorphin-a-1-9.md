@@ -1,6 +1,6 @@
 ---
-title: "Dynorphin A-1-9"
-description: "Reference for dynorphin A-1-9 variant in peptide research."
+title: "Dynorphin A-1-9: Neuropeptide in Neuroscience Reference"
+description: "Comprehensive reference for dynorphin A-1-9 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

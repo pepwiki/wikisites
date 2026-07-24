@@ -1,6 +1,6 @@
 ---
-title: "C Difficile Peptide"
-description: "A peptide associated with C Difficile for research or therapeutic applications."
+title: "C Difficile Peptide: Oligopeptide Research Reference"
+description: "A peptide associated with C Difficile for research or therapeutic applications. This peptide or oligopeptide is studied for its biological activity, structur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

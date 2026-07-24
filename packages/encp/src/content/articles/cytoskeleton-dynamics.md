@@ -1,6 +1,6 @@
 ---
-title: "Cytoskeleton dynamics"
-description: "Reference for cytoskeleton dynamics in peptide research."
+title: "Cytoskeleton dynamics: Oligopeptide Research Reference"
+description: "Comprehensive reference for cytoskeleton dynamics, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

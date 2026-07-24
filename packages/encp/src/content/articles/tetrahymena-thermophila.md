@@ -1,6 +1,6 @@
 ---
-title: "Tetrahymena thermophila"
-description: "Binds surface receptor during mating"
+title: "Tetrahymena thermophila: Oligopeptide Research Reference"
+description: "Binds surface receptor during mating. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential ap..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Polymyxin B"
-description: "Cyclic lipopeptide antibiotic binding lipopolysaccharide for multidrug-resistant gram-negative infections."
+title: "Polymyxin B: Oligopeptide Research Reference"
+description: "Cyclic lipopeptide antibiotic binding lipopolysaccharide for multidrug-resistant gram-negative infections. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

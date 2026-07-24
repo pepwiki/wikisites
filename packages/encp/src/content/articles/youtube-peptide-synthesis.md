@@ -1,6 +1,6 @@
 ---
-title: "YouTube Peptide Synthesis"
-description: "Educational video resource on peptide synthesis techniques."
+title: "YouTube Peptide Synthesis: Comprehensive Peptide Reference"
+description: "Educational video resource on peptide synthesis techniques. This peptide or oligopeptide is studied for its biological activity, structure-activity relations..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

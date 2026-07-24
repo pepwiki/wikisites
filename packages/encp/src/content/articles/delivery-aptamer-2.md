@@ -1,6 +1,6 @@
 ---
-title: "Aptamer System 2"
-description: "A aptamer-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy."
+title: "Aptamer System 2: Oligopeptide Research Reference"
+description: "A aptamer-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy.. This innovative approach addresses key challenges in..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

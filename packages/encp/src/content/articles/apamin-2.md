@@ -1,6 +1,6 @@
 ---
-title: "Apamin"
-description: "Bee venom neurotoxic peptide that selectively blocks small-conductance calcium-activated potassium channels."
+title: "Apamin: Oligopeptide Research Reference"
+description: "Bee venom neurotoxic peptide that selectively blocks small-conductance calcium-activated potassium channels. This peptide or oligopeptide is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

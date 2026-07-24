@@ -1,6 +1,6 @@
 ---
-title: "Peptide-MMAE Conjugates"
-description: "Comprehensive reference for Peptide-MMAE Conjugates, a peptide compound with applications in research and therapeutics."
+title: "Peptide-MMAE Conjugates: Oligopeptide Research Reference"
+description: "Peptide-MMAE Conjugates, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

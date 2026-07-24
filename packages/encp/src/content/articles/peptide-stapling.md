@@ -1,6 +1,6 @@
 ---
-title: "Peptide stapling"
-description: "Reference for peptide stapling in peptide research."
+title: "Peptide stapling: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide stapling, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

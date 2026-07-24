@@ -1,5 +1,5 @@
 ---
-title: "duration-of-response Resource"
+title: "duration-of-response Resource: Comprehensive Peptide Refe..."
 description: "The duration-of-response database or resource for peptide research, providing data on structure, function, and interactions."
 status: "published"
 author: "Encyclopeptide Editorial"

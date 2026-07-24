@@ -1,6 +1,6 @@
 ---
-title: "Chicken GH"
-description: "Growth hormone from chicken pituitary. 191-aa protein regulating growth and metabolism in avian species."
+title: "Chicken GH: Oligopeptide Research Reference"
+description: "Growth hormone from chicken pituitary. 191-aa protein regulating growth and metabolism in avian species. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

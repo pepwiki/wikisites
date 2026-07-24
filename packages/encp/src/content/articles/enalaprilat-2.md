@@ -1,6 +1,6 @@
 ---
-title: "Enalaprilat"
-description: "Active metabolite of enalapril and intravenous ACE inhibitor for hypertensive emergencies and heart failure."
+title: "Enalaprilat: Oligopeptide Research Reference"
+description: "Active metabolite of enalapril and intravenous ACE inhibitor for hypertensive emergencies and heart failure. This peptide or oligopeptide is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Bone / Calcitonin"
-description: "Bone / Calcitonin is a bioactive compound with applications in peptide research and therapeutics."
+title: "Bone / Calcitonin: Oligopeptide Research Reference"
+description: "Bone / Calcitonin is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

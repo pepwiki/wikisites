@@ -1,6 +1,6 @@
 ---
-title: "Microfluidic Synthesis"
-description: "A peptide synthesis method using Microfluidic for producing peptides with specific properties."
+title: "Microfluidic Synthesis: Analytical Technique in Peptide R..."
+description: "A peptide synthesis method using Microfluidic for producing peptides with specific properties. This analytical technique provides valuable insights into pept..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

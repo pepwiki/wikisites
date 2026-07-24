@@ -1,6 +1,6 @@
 ---
-title: "Milestone 006"
-description: "1982: Humulin (recombinant human insulin) approved by FDA. First biotechnology product."
+title: "Milestone 006: Oligopeptide Research Reference"
+description: "1982: Humulin (recombinant human insulin) approved by FDA. First biotechnology product. This peptide or oligopeptide is studied for its biological activity, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

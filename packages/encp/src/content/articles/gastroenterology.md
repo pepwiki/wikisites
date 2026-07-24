@@ -1,6 +1,6 @@
 ---
-title: "Gastroenterology"
-description: "Clinical trials for gastrointestinal diseases."
+title: "Gastroenterology: Oligopeptide Research Reference"
+description: "Clinical trials for gastrointestinal diseases. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and pot..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

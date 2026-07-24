@@ -1,6 +1,6 @@
 ---
-title: "AlphaFold for Peptides"
-description: "Applying DeepMind's AlphaFold to peptide structure prediction and drug design."
+title: "AlphaFold for Peptides: Oligopeptide Research Reference"
+description: "Applying DeepMind's AlphaFold to peptide structure prediction and drug design. This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

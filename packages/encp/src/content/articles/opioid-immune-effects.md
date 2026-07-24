@@ -1,6 +1,6 @@
 ---
-title: "Opioid Immune Effects"
-description: "Immunomodulatory effects of endogenous opioids on immune function."
+title: "Opioid Immune Effects: Neuropeptide in Neuroscience Refer..."
+description: "Immunomodulatory effects of endogenous opioids on immune function. This neuropeptide is involved in neurological signaling and is studied for its roles in br..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

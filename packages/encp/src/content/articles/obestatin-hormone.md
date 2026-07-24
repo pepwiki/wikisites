@@ -1,6 +1,6 @@
 ---
-title: "Obestatin Hormone"
-description: "The Obestatin Hormone and its role in endocrine signaling."
+title: "Obestatin Hormone: Endogenous Peptide Hormone Reference"
+description: "Obestatin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

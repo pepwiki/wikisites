@@ -1,6 +1,6 @@
 ---
-title: "Adrenomedullin 22 52"
-description: "adrenomedullin-22-52 is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation."
+title: "Adrenomedullin 22 52: Neuropeptide in Neuroscience Reference"
+description: "adrenomedullin-22-52 is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

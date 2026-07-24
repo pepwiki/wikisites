@@ -1,6 +1,6 @@
 ---
-title: "Sea Anemone Toxin ATX-I"
-description: "Sodium channel inactivating peptide from Anemonia sulcata."
+title: "Sea Anemone Toxin ATX-I: Peptide Toxin in Pharmacology Re..."
+description: "Sodium channel inactivating peptide from Anemonia sulcata. This peptide toxin is derived from venom and studied for its pharmacological activity, mechanism o..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

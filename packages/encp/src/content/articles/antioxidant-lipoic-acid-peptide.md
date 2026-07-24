@@ -1,6 +1,6 @@
 ---
-title: "Lipoic Acid Peptide"
-description: "Comprehensive reference for lipoic acid peptide in peptide research."
+title: "Lipoic Acid Peptide: Oligopeptide Research Reference"
+description: "lipoic acid peptide in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

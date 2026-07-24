@@ -1,6 +1,6 @@
 ---
-title: "Canine Serum Peptide"
-description: "Comprehensive reference for Canine Serum Peptide, a peptide compound with applications in research and therapeutics."
+title: "Canine Serum Peptide: Oligopeptide Research Reference"
+description: "Canine Serum Peptide, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

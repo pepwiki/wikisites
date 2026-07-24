@@ -1,6 +1,6 @@
 ---
-title: "Acid Labile Purification"
-description: "A purification technique for separating and isolating peptides using Acid Labile."
+title: "Acid Labile Purification: Analytical Technique in Peptide..."
+description: "A purification technique for separating and isolating peptides using Acid Labile. This analytical technique provides valuable insights into peptide structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

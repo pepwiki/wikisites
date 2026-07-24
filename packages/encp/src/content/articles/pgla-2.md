@@ -1,6 +1,6 @@
 ---
-title: "PGLa"
-description: "Amphibian antimicrobial peptide from Xenopus laevis that synergizes with magainin 2 for enhanced membrane disruption."
+title: "PGLa: Antimicrobial Peptide Reference"
+description: "Amphibian antimicrobial peptide from Xenopus laevis that synergizes with magainin 2 for enhanced membrane disruption. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

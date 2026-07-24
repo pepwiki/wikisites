@@ -1,6 +1,6 @@
 ---
-title: "Knauer Azura"
-description: "HPLC system for analytical and preparative peptide purification."
+title: "Knauer Azura: Oligopeptide Research Reference"
+description: "HPLC system for analytical and preparative peptide purification. This peptide or oligopeptide is studied for its biological activity, structure-activity rela..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

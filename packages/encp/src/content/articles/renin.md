@@ -1,5 +1,5 @@
 ---
-title: "Renin"
+title: "Renin: Enzyme in Peptide Biology Reference"
 description: "Aspartyl protease enzyme that cleaves angiotensinogen to angiotensin I, initiating the renin-angiotensin-aldosterone system."
 status: "published"
 author: "Encyclopeptide Editorial"

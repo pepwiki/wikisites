@@ -1,6 +1,6 @@
 ---
-title: "Orphin"
-description: "orphin is an opioid neuropeptide that modulates pain, reward, and stress responses through opioid receptor activation."
+title: "Orphin: Neuropeptide in Neuroscience Reference"
+description: "orphin is an opioid neuropeptide that modulates pain, reward, and stress responses through opioid receptor activation. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

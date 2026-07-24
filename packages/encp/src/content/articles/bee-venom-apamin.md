@@ -1,6 +1,6 @@
 ---
-title: "Bee Venom Apamin"
-description: "Selective SK potassium channel blocker from honeybee venom."
+title: "Bee Venom Apamin: Peptide Toxin in Pharmacology Reference"
+description: "Selective SK potassium channel blocker from honeybee venom. This peptide toxin is derived from venom and studied for its pharmacological activity, mechanism ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "ASO System 1"
-description: "A ASO-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy."
+title: "ASO System 1: Oligopeptide Research Reference"
+description: "A ASO-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy. This peptide or oligopeptide is studied for its biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

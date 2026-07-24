@@ -1,6 +1,6 @@
 ---
-title: "PeptideAtlas"
-description: "Database of peptide and protein mass spectrometry data."
+title: "PeptideAtlas: Oligopeptide Research Reference"
+description: "Database of peptide and protein mass spectrometry data. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

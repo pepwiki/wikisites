@@ -1,5 +1,5 @@
 ---
-title: "Deltorphin I"
+title: "Deltorphin I: Neuropeptide in Neuroscience Reference"
 description: "deltorphin-I is an opioid neuropeptide that modulates pain, reward, and stress responses through opioid receptor activation."
 status: "published"
 author: "Encyclopeptide Editorial"

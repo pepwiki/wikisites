@@ -1,6 +1,6 @@
 ---
-title: "Chronic Pain Peptides"
-description: "Peptides associated with Chronic Pain including biomarkers, therapeutic targets, and diagnostic markers."
+title: "Chronic Pain Peptides: Oligopeptide Research Reference"
+description: "Peptides associated with Chronic Pain including biomarkers, therapeutic targets, and diagnostic markers. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

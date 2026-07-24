@@ -1,6 +1,6 @@
 ---
-title: "Peptide palmitoylation"
-description: "Reference for peptide palmitoylation in peptide research."
+title: "Peptide palmitoylation: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide palmitoylation, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Leucine Metabolism"
-description: "Metabolic pathways involving Leucine including biosynthesis, catabolism, and transamination."
+title: "Leucine Metabolism: Oligopeptide Research Reference"
+description: "Metabolic pathways involving Leucine including biosynthesis, catabolism, and transamination. This peptide or oligopeptide is studied for its biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

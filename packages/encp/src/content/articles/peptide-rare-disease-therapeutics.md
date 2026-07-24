@@ -1,6 +1,6 @@
 ---
 title: "Peptide Rare Disease Therapeutics"
-description: "Therapeutic peptides for rare diseases including enzyme replacement therapies and hormone replacement."
+description: "Therapeutic peptides for rare diseases including enzyme replacement therapies and hormone replacement. This peptide or oligopeptide is studied for its biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

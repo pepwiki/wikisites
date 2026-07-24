@@ -1,6 +1,6 @@
 ---
-title: "Alpha Synuclein"
-description: "Comprehensive reference for alpha synuclein in peptide research."
+title: "Alpha Synuclein: Oligopeptide Research Reference"
+description: "alpha synuclein in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential app..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

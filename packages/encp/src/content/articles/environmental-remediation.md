@@ -1,5 +1,5 @@
 ---
-title: "Environmental Remediation"
+title: "Environmental Remediation: Comprehensive Peptide Reference"
 description: "Comprehensive reference for Environmental Remediation, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

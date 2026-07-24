@@ -1,6 +1,6 @@
 ---
-title: "Endothelin 1 Peptide Hormone"
-description: "The Endothelin 1 Peptide Hormone and its role in endocrine signaling."
+title: "Endothelin 1 Peptide Hormone: Comprehensive Peptide Refer..."
+description: "Endothelin 1, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

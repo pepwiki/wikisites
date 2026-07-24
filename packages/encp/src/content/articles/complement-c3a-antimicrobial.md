@@ -1,6 +1,6 @@
 ---
-title: "Complement C3a Antimicrobial"
-description: "Anaphylatoxin C3a with direct antimicrobial activity against gram-positive and negative bacteria."
+title: "Complement C3a Antimicrobial: Comprehensive Peptide Refer..."
+description: "Anaphylatoxin C3a with direct antimicrobial activity against gram-positive and negative bacteria. This antimicrobial peptide demonstrates activity against pa..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

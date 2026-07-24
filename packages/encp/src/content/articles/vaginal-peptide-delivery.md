@@ -1,6 +1,6 @@
 ---
-title: "Vaginal Peptide Delivery"
-description: "Vaginal delivery systems for local and systemic peptide drug administration."
+title: "Vaginal Peptide Delivery: Oligopeptide Research Reference"
+description: "Vaginal delivery systems for local and systemic peptide drug administration. This peptide or oligopeptide is studied for its biological activity, structure-a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

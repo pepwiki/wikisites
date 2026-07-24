@@ -1,6 +1,6 @@
 ---
 title: "Centrifugal Separation Purification"
-description: "A purification technique for separating and isolating peptides using Centrifugal Separation."
+description: "A purification technique for separating and isolating peptides using Centrifugal Separation. This analytical technique provides valuable insights into peptid..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

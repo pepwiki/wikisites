@@ -1,5 +1,5 @@
 ---
-title: "Mineral-Binding Peptides"
+title: "Mineral-Binding Peptides: Oligopeptide Research Reference"
 description: "Comprehensive reference for Mineral-Binding Peptides, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

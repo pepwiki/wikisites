@@ -1,6 +1,6 @@
 ---
-title: "KQNLNSDIKKQIEK"
-description: "Saccharomyces cerevisiae"
+title: "KQNLNSDIKKQIEK: Oligopeptide Research Reference"
+description: "Saccharomyces cerevisiae. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

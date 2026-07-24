@@ -1,6 +1,6 @@
 ---
-title: "Neuropeptide Gamma"
-description: "neuropeptide-gamma is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation."
+title: "Neuropeptide Gamma: Neuropeptide in Neuroscience Reference"
+description: "neuropeptide-gamma is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation. This peptide or oligopeptide is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

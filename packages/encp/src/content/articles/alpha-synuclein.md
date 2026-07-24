@@ -1,6 +1,6 @@
 ---
-title: "Alpha-synuclein"
-description: "140-aa presynaptic protein. Aggregates in Parkinson's and Lewy body dementia."
+title: "Alpha-synuclein: Oligopeptide Research Reference"
+description: "140-aa presynaptic protein. Aggregates in Parkinson's and Lewy body dementia. This peptide or oligopeptide is studied for its biological activity, structure-..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

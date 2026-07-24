@@ -1,6 +1,6 @@
 ---
-title: "Peptide Drug Pricing"
-description: "Factors influencing the pricing of peptide therapeutics and market dynamics."
+title: "Peptide Drug Pricing: Oligopeptide Research Reference"
+description: "Factors influencing the pricing of peptide therapeutics and market dynamics. This peptide or oligopeptide is studied for its biological activity, structure-a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Scorpion Neurotoxicity"
-description: "Mechanisms of scorpion neurotoxicity through sodium and potassium channel modulation."
+title: "Scorpion Neurotoxicity: Peptide Toxin in Pharmacology Ref..."
+description: "Mechanisms of scorpion neurotoxicity through sodium and potassium channel modulation. This peptide toxin is derived from venom and studied for its pharmacolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

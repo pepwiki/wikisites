@@ -1,6 +1,6 @@
 ---
 title: "Kyotophin: Structure, Function, and Significance"
-description: "Kyotophin is a dipeptide with opioid-like analgesic activity found in mammalian brain."
+description: "Kyotophin is a dipeptide with opioid-like analgesic activity found in mammalian brain. This peptide or oligopeptide is studied for its biological activity, s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

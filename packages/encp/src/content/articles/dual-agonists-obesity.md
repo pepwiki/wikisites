@@ -1,6 +1,6 @@
 ---
-title: "Dual Agonists in Obesity"
-description: "A review of GIP/GLP-1 dual receptor agonists for obesity treatment, including retatrutide and survodutide, with analysis of clinical trial outcomes and weight loss efficacy."
+title: "Dual Agonists in Obesity: Oligopeptide Research Reference"
+description: "A review of GIP/GLP-1 dual receptor agonists for obesity treatment, including retatrutide and survodutide, with analysis of clinical trial outcomes and weigh..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-07-01

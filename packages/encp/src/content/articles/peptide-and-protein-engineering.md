@@ -1,6 +1,6 @@
 ---
 title: "Peptide and Protein Engineering"
-description: "Journal focused on peptide and protein engineering."
+description: "Journal focused on peptide and protein engineering. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, an..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

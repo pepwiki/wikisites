@@ -1,6 +1,6 @@
 ---
-title: "Lonapegsomatropin"
-description: "PEGylated growth hormone prodrug releasing somatropin for once-weekly pediatric treatment."
+title: "Lonapegsomatropin: Oligopeptide Research Reference"
+description: "PEGylated growth hormone prodrug releasing somatropin for once-weekly pediatric treatment. This peptide or oligopeptide is studied for its biological activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

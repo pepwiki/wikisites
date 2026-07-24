@@ -1,6 +1,6 @@
 ---
-title: "Peptide Diagnostics Future"
-description: "Emerging peptide-based diagnostic technologies for next-generation clinical testing."
+title: "Peptide Diagnostics Future: Comprehensive Peptide Reference"
+description: "Emerging peptide-based diagnostic technologies for next-generation clinical testing. This peptide or oligopeptide is studied for its biological activity, str..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

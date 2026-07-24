@@ -1,6 +1,6 @@
 ---
-title: "Azido Purification"
-description: "A purification technique for separating and isolating peptides using Azido."
+title: "Azido Purification: Analytical Technique in Peptide Research"
+description: "A purification technique for separating and isolating peptides using Azido. This analytical technique provides valuable insights into peptide structure, puri..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

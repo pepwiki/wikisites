@@ -1,6 +1,6 @@
 ---
-title: "Peptide-Receptor"
-description: "GLP-1R, IR, OXTR, V1aR, V2R, GnRHR, SSTR2, CGRP-R, Y1R, OX1R"
+title: "Peptide-Receptor: Oligopeptide Research Reference"
+description: "GLP-1R, IR, OXTR, V1aR, V2R, GnRHR, SSTR2, CGRP-R, Y1R, OX1R. This peptide or oligopeptide is studied for its biological activity, structure-activity relatio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

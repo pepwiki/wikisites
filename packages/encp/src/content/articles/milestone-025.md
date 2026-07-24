@@ -1,6 +1,6 @@
 ---
-title: "Milestone 025"
-description: "1975: Enkephalins discovered. Endogenous opioid peptides identified."
+title: "Milestone 025: Oligopeptide Research Reference"
+description: "1975: Enkephalins discovered. Endogenous opioid peptides identified. This peptide or oligopeptide is studied for its biological activity, structure-activity ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

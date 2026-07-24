@@ -1,6 +1,6 @@
 ---
-title: "DBCO Purification"
-description: "A purification technique for separating and isolating peptides using DBCO."
+title: "DBCO Purification: Analytical Technique in Peptide Research"
+description: "A purification technique for separating and isolating peptides using DBCO. This analytical technique provides valuable insights into peptide structure, purit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

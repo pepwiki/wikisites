@@ -1,6 +1,6 @@
 ---
-title: "Chrysophsin"
-description: "chrysophsin is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity."
+title: "Chrysophsin: Antimicrobial Peptide Reference"
+description: "chrysophsin is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

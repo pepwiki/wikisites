@@ -1,6 +1,6 @@
 ---
-title: "Microtubule dynamics"
-description: "Reference for microtubule dynamics in peptide research."
+title: "Microtubule dynamics: Oligopeptide Research Reference"
+description: "Comprehensive reference for microtubule dynamics, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

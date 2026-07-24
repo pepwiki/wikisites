@@ -1,6 +1,6 @@
 ---
-title: "Conotoxin Folding Protocols"
-description: "Oxidative folding strategies for conotoxin disulfide bond formation."
+title: "Conotoxin Folding Protocols: Comprehensive Peptide Reference"
+description: "Oxidative folding strategies for conotoxin disulfide bond formation. This peptide toxin is derived from venom and studied for its pharmacological activity, m..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

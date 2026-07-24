@@ -1,6 +1,6 @@
 ---
-title: "Insulin Transdermal Delivery"
-description: "Microneedle and iontophoresis technologies enabling transdermal insulin delivery across stratum corneum."
+title: "Insulin Transdermal Delivery: Comprehensive Peptide Refer..."
+description: "Microneedle and iontophoresis technologies enabling transdermal insulin delivery across stratum corneum. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

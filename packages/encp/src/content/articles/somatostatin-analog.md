@@ -1,6 +1,6 @@
 ---
-title: "Somatostatin Analog"
-description: "Somatostatin Analog is a bioactive compound with applications in peptide research and therapeutics."
+title: "Somatostatin Analog: Oligopeptide Research Reference"
+description: "Somatostatin Analog is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

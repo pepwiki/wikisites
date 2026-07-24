@@ -1,5 +1,5 @@
 ---
-title: "Casokinin 1"
+title: "Casokinin 1: Oligopeptide Research Reference"
 description: "casokinin-1 is a bioactive peptide with potential health benefits including antihypertensive, antioxidant, or neuroprotective properties."
 status: "published"
 author: "Encyclopeptide Editorial"

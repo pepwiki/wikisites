@@ -1,6 +1,6 @@
 ---
-title: "Defensin A (Phormia)"
-description: "Comprehensive reference for Defensin A (Phormia), a peptide compound with applications in research and therapeutics."
+title: "Defensin A (Phormia): Oligopeptide Research Reference"
+description: "Defensin A (Phormia), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

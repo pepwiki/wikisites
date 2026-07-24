@@ -1,6 +1,6 @@
 ---
-title: "Isoelectric Focusing Analysis"
-description: "An analytical technique for characterizing peptides using Isoelectric Focusing."
+title: "Isoelectric Focusing Analysis: Comprehensive Peptide Refe..."
+description: "An analytical technique for characterizing peptides using Isoelectric Focusing. This analytical technique provides valuable insights into peptide structure, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Dynorphin A-1-15"
-description: "Reference for dynorphin A-1-15 variant in peptide research."
+title: "Dynorphin A-1-15: Neuropeptide in Neuroscience Reference"
+description: "Comprehensive reference for dynorphin A-1-15 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

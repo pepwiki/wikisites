@@ -1,6 +1,6 @@
 ---
-title: "Milestone 017"
-description: "2022: Tirzepatide (Mounjaro) approved. Dual GIP/GLP-1 agonist with 22.5% weight loss."
+title: "Milestone 017: Oligopeptide Research Reference"
+description: "2022: Tirzepatide (Mounjaro) approved. Dual GIP/GLP-1 agonist with 22.5% weight loss. This peptide or oligopeptide is studied for its biological activity, st..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

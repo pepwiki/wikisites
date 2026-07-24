@@ -1,6 +1,6 @@
 ---
-title: "IFN Gamma Hormone"
-description: "The IFN Gamma Hormone and its role in endocrine signaling."
+title: "IFN Gamma Hormone: Endogenous Peptide Hormone Reference"
+description: "IFN Gamma, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

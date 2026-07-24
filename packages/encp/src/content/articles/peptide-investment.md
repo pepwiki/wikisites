@@ -1,6 +1,6 @@
 ---
-title: "Peptide Investment"
-description: "Venture capital, M&A, and public market investment trends in peptide therapeutics."
+title: "Peptide Investment: Oligopeptide Research Reference"
+description: "Venture capital, M&A, and public market investment trends in peptide therapeutics. This peptide or oligopeptide is studied for its biological activity, struc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

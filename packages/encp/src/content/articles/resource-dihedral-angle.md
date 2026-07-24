@@ -1,6 +1,6 @@
 ---
-title: "dihedral-angle Resource"
-description: "The dihedral-angle database or resource for peptide research, providing data on structure, function, and interactions."
+title: "dihedral-angle Resource: Oligopeptide Research Reference"
+description: "The dihedral-angle database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

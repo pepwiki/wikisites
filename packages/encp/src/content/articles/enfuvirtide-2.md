@@ -1,6 +1,6 @@
 ---
-title: "Enfuvirtide"
-description: "Synthetic 36-amino acid peptide HIV fusion inhibitor that blocks gp41-mediated viral entry into CD4 cells."
+title: "Enfuvirtide: Oligopeptide Research Reference"
+description: "Synthetic 36-amino acid peptide HIV fusion inhibitor that blocks gp41-mediated viral entry into CD4 cells. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

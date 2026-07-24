@@ -1,6 +1,6 @@
 ---
-title: "Carperitide"
-description: "Recombinant human atrial natriuretic peptide used in Japan for acute decompensated heart failure."
+title: "Carperitide: Oligopeptide Research Reference"
+description: "Recombinant human atrial natriuretic peptide used in Japan for acute decompensated heart failure. This peptide or oligopeptide is studied for its biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

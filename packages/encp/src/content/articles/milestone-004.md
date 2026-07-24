@@ -1,5 +1,5 @@
 ---
-title: "Milestone 004"
+title: "Milestone 004: Oligopeptide Research Reference"
 description: "1963: Robert Bruce Merrifield develops solid-phase peptide synthesis (SPPS). Revolutionizes peptide chemistry. Nobel Prize 1984."
 status: "published"
 author: "Encyclopeptide Editorial"

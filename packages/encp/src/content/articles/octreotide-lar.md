@@ -1,6 +1,6 @@
 ---
-title: "Octreotide LAR"
-description: "Long-acting repeatable microsphere formulation of octreotide providing 28-day sustained somatostatin receptor agonism."
+title: "Octreotide LAR: Oligopeptide Research Reference"
+description: "Long-acting repeatable microsphere formulation of octreotide providing 28-day sustained somatostatin receptor agonism. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

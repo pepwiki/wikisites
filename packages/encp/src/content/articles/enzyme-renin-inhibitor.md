@@ -1,6 +1,6 @@
 ---
-title: "Renin Inhibitor"
-description: "Comprehensive reference for renin inhibitor in peptide research."
+title: "Renin Inhibitor: Enzyme in Peptide Biology Reference"
+description: "renin inhibitor in peptide research. This enzyme plays important roles in peptide metabolism and is studied for its biochemical mechanisms, substrate specifi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

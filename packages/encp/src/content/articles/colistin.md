@@ -1,6 +1,6 @@
 ---
-title: "Colistin"
-description: "Cyclic lipopeptide Polymyxin E for extensively drug-resistant gram-negative infections."
+title: "Colistin: Oligopeptide Research Reference"
+description: "Cyclic lipopeptide Polymyxin E for extensively drug-resistant gram-negative infections. This peptide or oligopeptide is studied for its biological activity, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

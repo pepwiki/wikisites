@@ -1,6 +1,6 @@
 ---
-title: "Anidulafungin"
-description: "Echinocandin with long half-life for candidiasis without hepatic or renal dose adjustment."
+title: "Anidulafungin: Oligopeptide Research Reference"
+description: "Echinocandin with long half-life for candidiasis without hepatic or renal dose adjustment. This peptide or oligopeptide is studied for its biological activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

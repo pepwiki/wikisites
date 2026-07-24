@@ -1,6 +1,6 @@
 ---
 title: "GLP-1 and Exendin-4 Receptor Cross-Reactivity"
-description: "Comparison of native GLP-1 and Gila monster exendin-4 at the GLP-1 receptor including binding differences."
+description: "Comparison of native GLP-1 and Gila monster exendin-4 at the GLP-1 receptor including binding differences. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

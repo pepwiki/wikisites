@@ -1,6 +1,6 @@
 ---
-title: "Extrusion Synthesis"
-description: "A peptide synthesis method using Extrusion for producing peptides with specific properties."
+title: "Extrusion Synthesis: Analytical Technique in Peptide Rese..."
+description: "A peptide synthesis method using Extrusion for producing peptides with specific properties. This analytical technique provides valuable insights into peptide..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

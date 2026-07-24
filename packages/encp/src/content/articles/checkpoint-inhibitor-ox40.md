@@ -1,6 +1,6 @@
 ---
-title: "Checkpoint Inhibitor OX40"
-description: "Reference for checkpoint inhibitor OX40 in peptide research."
+title: "Checkpoint Inhibitor OX40: Comprehensive Peptide Reference"
+description: "Comprehensive reference for checkpoint inhibitor OX40, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

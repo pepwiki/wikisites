@@ -1,6 +1,6 @@
 ---
-title: "Car T Target NKG2D"
-description: "Reference for car t target NKG2D in peptide research."
+title: "Car T Target NKG2D: Oligopeptide Research Reference"
+description: "Comprehensive reference for car t target NKG2D, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

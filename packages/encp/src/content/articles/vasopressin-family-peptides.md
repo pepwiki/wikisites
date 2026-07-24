@@ -1,6 +1,6 @@
 ---
-title: "Vasopressin Family Peptides"
-description: "Guide to vasopressin family peptides including AVP and their roles in water balance and blood pressure."
+title: "Vasopressin Family Peptides: Comprehensive Peptide Reference"
+description: "Guide to vasopressin family peptides including AVP and their roles in water balance and blood pressure. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

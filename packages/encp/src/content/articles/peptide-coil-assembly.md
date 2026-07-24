@@ -1,6 +1,6 @@
 ---
-title: "Peptide coil assembly"
-description: "Reference for peptide coil assembly in peptide research."
+title: "Peptide coil assembly: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide coil assembly, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

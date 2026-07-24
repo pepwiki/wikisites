@@ -1,6 +1,6 @@
 ---
-title: "Peptide myristoylation"
-description: "Reference for peptide myristoylation in peptide research."
+title: "Peptide myristoylation: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide myristoylation, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

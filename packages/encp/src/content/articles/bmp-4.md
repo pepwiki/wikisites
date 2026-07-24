@@ -1,6 +1,6 @@
 ---
-title: "BMP 4"
-description: "BMP-4 is a growth factor or regulatory peptide involved in cell proliferation, differentiation, and tissue homeostasis."
+title: "BMP 4: Endogenous Peptide Hormone Reference"
+description: "BMP-4 is a growth factor or regulatory peptide involved in cell proliferation, differentiation, and tissue homeostasis. Covers molecular mechanisms, biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

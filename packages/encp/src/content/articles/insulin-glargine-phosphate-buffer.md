@@ -1,6 +1,6 @@
 ---
 title: "Insulin Glargine Phosphate Buffer System"
-description: "Acidic phosphate buffer system enabling glargine solution for injection before pH-dependent precipitation."
+description: "Acidic phosphate buffer system enabling glargine solution for injection before pH-dependent precipitation. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

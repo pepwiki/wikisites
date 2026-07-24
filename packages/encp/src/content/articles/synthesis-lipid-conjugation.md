@@ -1,6 +1,6 @@
 ---
-title: "Lipid Conjugation Synthesis"
-description: "A peptide synthesis method using Lipid Conjugation for producing peptides with specific properties."
+title: "Lipid Conjugation Synthesis: Comprehensive Peptide Reference"
+description: "A peptide synthesis method using Lipid Conjugation for producing peptides with specific properties. This analytical technique provides valuable insights into..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

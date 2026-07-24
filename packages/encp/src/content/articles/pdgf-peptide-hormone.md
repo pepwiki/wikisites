@@ -1,6 +1,6 @@
 ---
-title: "PDGF Peptide Hormone"
-description: "The PDGF Peptide Hormone and its role in endocrine signaling."
+title: "PDGF Peptide Hormone: Endogenous Peptide Hormone Reference"
+description: "PDGF, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical signi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

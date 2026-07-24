@@ -1,6 +1,6 @@
 ---
-title: "Leptin 1-140"
-description: "Reference for leptin 1-140 variant in peptide research."
+title: "Leptin 1-140: Peptide Fragment Reference"
+description: "Comprehensive reference for leptin 1-140 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Autoencoder for Peptides"
-description: "A computational method for studying peptides using Autoencoder."
+title: "Autoencoder for Peptides: Analytical Technique in Peptide..."
+description: "A computational method for studying peptides using Autoencoder. This analytical technique provides valuable insights into peptide structure, purity, and char..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

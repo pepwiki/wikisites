@@ -1,6 +1,6 @@
 ---
-title: "Brevinin-1"
-description: "Amphibian antimicrobial peptide with potent activity against drug-resistant bacteria and anticancer properties."
+title: "Brevinin-1: Antimicrobial Peptide Reference"
+description: "Amphibian antimicrobial peptide with potent activity against drug-resistant bacteria and anticancer properties. Covers molecular mechanisms, biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Dendrotoxin K"
-description: "dendrotoxin-K is a snake venom peptide toxin with specific pharmacological activity."
+title: "Dendrotoxin K: Peptide Toxin in Pharmacology Reference"
+description: "dendrotoxin-K is a snake venom peptide toxin with specific pharmacological activity. This peptide toxin is derived from venom and studied for its pharmacolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

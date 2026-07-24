@@ -1,6 +1,6 @@
 ---
 title: "Phosphodiester Bonds in Peptides"
-description: "Learn about phosphodiester linkages in nucleopeptide conjugates and bioconjugation."
+description: "Learn about phosphodiester linkages in nucleopeptide conjugates and bioconjugation. This modification affects peptide stability, receptor binding, and biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

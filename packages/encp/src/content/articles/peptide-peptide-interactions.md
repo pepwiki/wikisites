@@ -1,5 +1,5 @@
 ---
-title: "Peptide-Peptide Interactions"
+title: "Peptide-Peptide Interactions: Comprehensive Peptide Refer..."
 description: "Molecular principles governing peptide association including coiled-coil assembly, leucine zipper formation, and amyloid fibril nucleation and propagation."
 status: "published"
 author: "Encyclopeptide Editorial"

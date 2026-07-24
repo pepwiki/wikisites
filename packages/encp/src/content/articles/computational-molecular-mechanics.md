@@ -1,6 +1,6 @@
 ---
 title: "Molecular Mechanics for Peptides"
-description: "A computational method for studying peptides using Molecular Mechanics."
+description: "A computational method for studying peptides using Molecular Mechanics. This analytical technique provides valuable insights into peptide structure, purity, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

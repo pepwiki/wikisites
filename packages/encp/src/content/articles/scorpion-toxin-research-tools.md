@@ -1,6 +1,6 @@
 ---
-title: "Scorpion Toxin Research Tools"
-description: "Use of scorpion toxins as pharmacological research tools."
+title: "Scorpion Toxin Research Tools: Comprehensive Peptide Refe..."
+description: "Use of scorpion toxins as pharmacological research tools. This peptide toxin is derived from venom and studied for its pharmacological activity, mechanism of..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

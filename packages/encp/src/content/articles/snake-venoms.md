@@ -1,6 +1,6 @@
 ---
-title: "Snake Venoms"
-description: "nAChR, Nav, PLA2, K+, ET receptors"
+title: "Snake Venoms: Peptide Toxin in Pharmacology Reference"
+description: "nAChR, Nav, PLA2, K+, ET receptors. This peptide toxin is derived from venom and studied for its pharmacological activity, mechanism of action, and potential..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Neurological Disorders"
-description: "Diseases of the nervous system: neurodegenerative (Alzheimer's, Parkinson's, ALS), autoimmune (MS), vascular (stroke), epileptic, psychiatric (depression, schizophrenia). Treatments vary by etiology: symptomatic, disease-modifying, or curative (rare)."
+title: "Neurological Disorders: Oligopeptide Research Reference"
+description: "Diseases of the nervous system: neurodegenerative (Alzheimer's, Parkinson's, ALS), autoimmune (MS), vascular (stroke), epileptic, psychiatric (depression, sc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Diseases of the nervous system: neurodegenerative (Alzheimer's, Parkinson's, ALS), autoimmune (MS), vascular (stroke), epileptic, psychiatric (depression, schizophrenia). Treatments vary by etiology: symptomatic, disease-modifying, or curative (rare).
+Diseases of the nervous system: neurodegenerative (Alzheimer's, Parkinson's, ALS), autoimmune (MS), vascular (stroke), epileptic, psychiatric (depression, sc...
 
 ## Clinical Significance
 

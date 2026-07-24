@@ -1,6 +1,6 @@
 ---
-title: "Paneth Cell Secretion"
-description: "Regulated exocytosis of defensin granules in response to microbial signals."
+title: "Paneth Cell Secretion: Antimicrobial Peptide Reference"
+description: "Regulated exocytosis of defensin granules in response to microbial signals. This antimicrobial peptide demonstrates activity against pathogens and is studied..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

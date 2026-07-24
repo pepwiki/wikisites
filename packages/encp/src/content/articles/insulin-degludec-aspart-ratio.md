@@ -1,6 +1,6 @@
 ---
-title: "Insulin Degludec/Aspart 70:30"
-description: "Co-formulation of ultra-long-acting insulin degludec and rapid-acting insulin aspart for basal-bolus coverage."
+title: "Insulin Degludec/Aspart 70:30: Comprehensive Peptide Refe..."
+description: "Co-formulation of ultra-long-acting insulin degludec and rapid-acting insulin aspart for basal-bolus coverage. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

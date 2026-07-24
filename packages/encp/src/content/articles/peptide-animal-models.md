@@ -1,6 +1,6 @@
 ---
 title: "Peptide Research in Animal Models"
-description: "Use of animal models for studying peptide pharmacology, toxicology, and efficacy in preclinical drug development."
+description: "Use of animal models for studying peptide pharmacology, toxicology, and efficacy in preclinical drug development. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

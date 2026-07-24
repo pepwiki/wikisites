@@ -1,6 +1,6 @@
 ---
 title: "Insulin-Related Hypoglycemia Unawareness"
-description: "Condition of impaired awareness of hypoglycemia developing from recurrent insulin-induced hypoglycemic episodes."
+description: "Condition of impaired awareness of hypoglycemia developing from recurrent insulin-induced hypoglycemic episodes. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

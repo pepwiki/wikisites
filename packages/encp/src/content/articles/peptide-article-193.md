@@ -1,6 +1,6 @@
 ---
-title: "Peptide Article ${i}"
-description: "Biologically active peptide with therapeutic applications in medicine and research."
+title: "Peptide Article ${i}: Oligopeptide Research Reference"
+description: "Biologically active peptide with therapeutic applications in medicine and research. This peptide or oligopeptide is studied for its biological activity, stru..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

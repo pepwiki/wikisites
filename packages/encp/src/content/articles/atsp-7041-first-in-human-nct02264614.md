@@ -1,6 +1,6 @@
 ---
 title: "ATSP-7041 - First-in-Human (NCT02264614)"
-description: "First-in-human trial of ATSP-7041, a stapled peptide MDM2 antagonist."
+description: "First-in-human trial of ATSP-7041, a stapled peptide MDM2 antagonist. This peptide or oligopeptide is studied for its biological activity, structure-activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

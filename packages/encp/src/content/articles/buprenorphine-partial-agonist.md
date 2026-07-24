@@ -1,6 +1,6 @@
 ---
-title: "Buprenorphine Partial Agonist"
-description: "Semi-synthetic partial mu-agonist and kappa-antagonist for addiction treatment."
+title: "Buprenorphine Partial Agonist: Comprehensive Peptide Refe..."
+description: "Semi-synthetic partial mu-agonist and kappa-antagonist for addiction treatment. This neuropeptide is involved in neurological signaling and is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Insulin Antibody Syndrome"
-description: "Rare condition of high-affinity insulin autoantibodies causing unpredictable glycemic excursions."
+title: "Insulin Antibody Syndrome: Comprehensive Peptide Reference"
+description: "Rare condition of high-affinity insulin autoantibodies causing unpredictable glycemic excursions. This peptide or oligopeptide is studied for its biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

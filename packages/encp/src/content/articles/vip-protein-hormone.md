@@ -1,6 +1,6 @@
 ---
-title: "VIP Protein Hormone"
-description: "The VIP Protein Hormone and its role in endocrine signaling."
+title: "VIP Protein Hormone: Endogenous Peptide Hormone Reference"
+description: "VIP, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical signif..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

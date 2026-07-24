@@ -1,6 +1,6 @@
 ---
-title: "Exenatide Extended Release"
-description: "Once-weekly exenatide in poly(lactide-co-glycolide) microspheres for sustained 7-day release."
+title: "Exenatide Extended Release: Comprehensive Peptide Reference"
+description: "Once-weekly exenatide in poly(lactide-co-glycolide) microspheres for sustained 7-day release. This peptide or oligopeptide is studied for its biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

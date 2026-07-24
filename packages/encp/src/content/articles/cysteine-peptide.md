@@ -1,6 +1,6 @@
 ---
-title: "Cysteine Peptide"
-description: "Cysteine (C) is one of the 20 standard amino acids. It plays essential roles in protein structure and function."
+title: "Cysteine Peptide: Oligopeptide Research Reference"
+description: "Cysteine (C) is one of the 20 standard amino acids. It plays essential roles in protein structure and function. Covers molecular mechanisms, biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

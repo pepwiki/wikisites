@@ -1,6 +1,6 @@
 ---
 title: "Venom Peptide Pharmacokinetics"
-description: "Pharmacokinetic properties of venom-derived therapeutic peptides."
+description: "Pharmacokinetic properties of venom-derived therapeutic peptides. This peptide toxin is derived from venom and studied for its pharmacological activity, mech..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

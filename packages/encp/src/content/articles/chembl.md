@@ -1,6 +1,6 @@
 ---
-title: "ChEMBL"
-description: "Chemical database of bioactive molecules with drug-like properties."
+title: "ChEMBL: Oligopeptide Research Reference"
+description: "Chemical database of bioactive molecules with drug-like properties. This peptide or oligopeptide is studied for its biological activity, structure-activity r..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

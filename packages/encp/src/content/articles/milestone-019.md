@@ -1,6 +1,6 @@
 ---
-title: "Milestone 019"
-description: "2024: Nobel Prize in Chemistry for AlphaFold (Hassabis, Jumper)."
+title: "Milestone 019: Oligopeptide Research Reference"
+description: "2024: Nobel Prize in Chemistry for AlphaFold (Hassabis, Jumper). This peptide or oligopeptide is studied for its biological activity, structure-activity rela..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

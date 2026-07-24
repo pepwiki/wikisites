@@ -1,6 +1,6 @@
 ---
-title: "Aspartate Peptide"
-description: "Aspartate (D) is one of the 20 standard amino acids. It plays essential roles in protein structure and function."
+title: "Aspartate Peptide: Oligopeptide Research Reference"
+description: "Aspartate (D) is one of the 20 standard amino acids. It plays essential roles in protein structure and function. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

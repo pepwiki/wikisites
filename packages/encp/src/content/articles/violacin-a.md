@@ -1,6 +1,6 @@
 ---
-title: "Violacin A"
-description: "violacin-A is a cyclotide — a cyclic, knotted peptide from plants with exceptional stability and insecticidal activity."
+title: "Violacin A: Oligopeptide Research Reference"
+description: "violacin-A is a cyclotide — a cyclic, knotted peptide from plants with exceptional stability and insecticidal activity. Covers molecular mechanisms, biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

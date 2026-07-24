@@ -1,6 +1,6 @@
 ---
-title: "Marine Organism AMPs"
-description: "AMPs from marine invertebrates and vertebrates for antibiotic discovery."
+title: "Marine Organism AMPs: Antimicrobial Peptide Reference"
+description: "AMPs from marine invertebrates and vertebrates for antibiotic discovery. This antimicrobial peptide demonstrates activity against pathogens and is studied fo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "ICH Guidelines for Peptides"
-description: "Explore International Council for Harmonisation guidelines applicable to peptide drug development and registration."
+title: "ICH Guidelines for Peptides: Comprehensive Peptide Reference"
+description: "Explore International Council for Harmonisation guidelines applicable to peptide drug development and registration. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

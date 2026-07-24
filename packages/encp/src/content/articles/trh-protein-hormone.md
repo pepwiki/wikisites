@@ -1,6 +1,6 @@
 ---
-title: "TRH Protein Hormone"
-description: "The TRH Protein Hormone and its role in endocrine signaling."
+title: "TRH Protein Hormone: Endogenous Peptide Hormone Reference"
+description: "TRH, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical signif..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

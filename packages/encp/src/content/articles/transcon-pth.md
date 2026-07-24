@@ -1,6 +1,6 @@
 ---
-title: "TransCon PTH"
-description: "Long-acting prodrug of PTH(1-34) using TransCon technology for continuous release."
+title: "TransCon PTH: Oligopeptide Research Reference"
+description: "Long-acting prodrug of PTH(1-34) using TransCon technology for continuous release. This peptide or oligopeptide is studied for its biological activity, struc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

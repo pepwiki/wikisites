@@ -1,6 +1,6 @@
 ---
-title: "Kidney Cancer Peptides"
-description: "Peptides associated with Kidney Cancer including biomarkers, therapeutic targets, and diagnostic markers."
+title: "Kidney Cancer Peptides: Oligopeptide Research Reference"
+description: "Peptides associated with Kidney Cancer including biomarkers, therapeutic targets, and diagnostic markers. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

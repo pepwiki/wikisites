@@ -1,6 +1,6 @@
 ---
-title: "NMR HNCA Analysis"
-description: "An analytical technique for characterizing peptides using NMR HNCA."
+title: "NMR HNCA Analysis: Analytical Technique in Peptide Research"
+description: "An analytical technique for characterizing peptides using NMR HNCA. This analytical technique provides valuable insights into peptide structure, purity, and ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

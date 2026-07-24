@@ -1,6 +1,6 @@
 ---
-title: "Lanreotide"
-description: "Somatostatin analog octapeptide used for acromegaly and neuroendocrine tumors with prolonged-release formulation."
+title: "Lanreotide: Oligopeptide Research Reference"
+description: "Somatostatin analog octapeptide used for acromegaly and neuroendocrine tumors with prolonged-release formulation. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

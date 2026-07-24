@@ -1,6 +1,6 @@
 ---
-title: "Drug delivery system"
-description: "Reference for drug delivery system in peptide research."
+title: "Drug delivery system: Oligopeptide Research Reference"
+description: "Comprehensive reference for drug delivery system, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

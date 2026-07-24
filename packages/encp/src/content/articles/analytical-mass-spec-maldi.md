@@ -1,6 +1,6 @@
 ---
-title: "Mass Spec MALDI Analysis"
-description: "An analytical technique for characterizing peptides using Mass Spec MALDI."
+title: "Mass Spec MALDI Analysis: Analytical Technique in Peptide..."
+description: "An analytical technique for characterizing peptides using Mass Spec MALDI. This analytical technique provides valuable insights into peptide structure, purit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

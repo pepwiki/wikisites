@@ -1,5 +1,5 @@
 ---
-title: "Ixazomib"
+title: "Ixazomib: Oligopeptide Research Reference"
 description: "First oral proteasome inhibitor for multiple myeloma, a boronic acid that reversibly inhibits the 20S proteasome beta5 subunit."
 status: "published"
 author: "Encyclopeptide Editorial"

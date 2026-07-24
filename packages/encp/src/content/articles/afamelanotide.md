@@ -1,6 +1,6 @@
 ---
-title: "Afamelanotide"
-description: "Synthetic alpha-MSH analog for erythropoietic protoporphyria promoting melanogenesis for photoprotection."
+title: "Afamelanotide: Oligopeptide Research Reference"
+description: "Synthetic alpha-MSH analog for erythropoietic protoporphyria promoting melanogenesis for photoprotection. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

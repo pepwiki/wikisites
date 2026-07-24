@@ -1,6 +1,6 @@
 ---
-title: "Daptomycin"
-description: "Cyclic lipopeptide antibiotic disrupting bacterial membrane potential for serious infections."
+title: "Daptomycin: Oligopeptide Research Reference"
+description: "Cyclic lipopeptide antibiotic disrupting bacterial membrane potential for serious infections. This peptide or oligopeptide is studied for its biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

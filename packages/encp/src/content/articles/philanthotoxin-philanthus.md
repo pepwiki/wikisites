@@ -1,5 +1,5 @@
 ---
-title: "Philanthotoxin (Philanthus)"
+title: "Philanthotoxin (Philanthus): Comprehensive Peptide Reference"
 description: "Comprehensive reference for Philanthotoxin (Philanthus), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

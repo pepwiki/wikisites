@@ -1,6 +1,6 @@
 ---
-title: "Heparin Affinity Purification"
-description: "A purification technique for separating and isolating peptides using Heparin Affinity."
+title: "Heparin Affinity Purification: Comprehensive Peptide Refe..."
+description: "A purification technique for separating and isolating peptides using Heparin Affinity. This analytical technique provides valuable insights into peptide stru..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

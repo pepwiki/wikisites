@@ -1,6 +1,6 @@
 ---
-title: "TB MPT64 Vaccine"
-description: "A peptide vaccine targeting TB MPT64 for infectious disease prevention."
+title: "TB MPT64 Vaccine: Oligopeptide Research Reference"
+description: "A peptide vaccine targeting TB MPT64 for infectious disease prevention. This peptide or oligopeptide is studied for its biological activity, structure-activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Methadone Opioid Maintenance"
-description: "Synthetic opioid for opioid use disorder treatment and pain management."
+title: "Methadone Opioid Maintenance: Comprehensive Peptide Refer..."
+description: "Synthetic opioid for opioid use disorder treatment and pain management. This neuropeptide is involved in neurological signaling and is studied for its roles ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

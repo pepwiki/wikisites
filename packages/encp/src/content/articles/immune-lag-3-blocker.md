@@ -1,6 +1,6 @@
 ---
-title: "LAG 3 Blocker"
-description: "Comprehensive reference for LAG 3 blocker in peptide research."
+title: "LAG 3 Blocker: Oligopeptide Research Reference"
+description: "LAG 3 blocker in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appli..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

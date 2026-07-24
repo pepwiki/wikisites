@@ -1,6 +1,6 @@
 ---
-title: "Opioid Tolerance Mechanisms"
-description: "Cellular mechanisms of tolerance including desensitization and signaling adaptations."
+title: "Opioid Tolerance Mechanisms: Comprehensive Peptide Reference"
+description: "Cellular mechanisms of tolerance including desensitization and signaling adaptations. This neuropeptide is involved in neurological signaling and is studied ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

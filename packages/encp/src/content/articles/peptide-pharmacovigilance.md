@@ -1,6 +1,6 @@
 ---
-title: "Peptide Pharmacovigilance"
-description: "Post-market safety monitoring and adverse event reporting for peptide therapeutics."
+title: "Peptide Pharmacovigilance: Comprehensive Peptide Reference"
+description: "Post-market safety monitoring and adverse event reporting for peptide therapeutics. This peptide or oligopeptide is studied for its biological activity, stru..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

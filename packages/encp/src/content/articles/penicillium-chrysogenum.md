@@ -1,6 +1,6 @@
 ---
-title: "Penicillium chrysogenum"
-description: "Binds chitin in fungal cell wall"
+title: "Penicillium chrysogenum: Oligopeptide Research Reference"
+description: "Binds chitin in fungal cell wall. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

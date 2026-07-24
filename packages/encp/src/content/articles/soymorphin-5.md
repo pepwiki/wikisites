@@ -1,5 +1,5 @@
 ---
-title: "Soymorphin-5"
+title: "Soymorphin-5: Oligopeptide Research Reference"
 description: "Met-enkephalin analog derived from soy β-conglycinin. Opioid activity. Found in soy protein digests. May contribute to neuroactive effects of soy consumption."
 status: "published"
 author: "Encyclopeptide Editorial"

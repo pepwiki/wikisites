@@ -1,6 +1,6 @@
 ---
-title: "Epidermin"
-description: "epidermin is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity."
+title: "Epidermin: Antimicrobial Peptide Reference"
+description: "epidermin is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

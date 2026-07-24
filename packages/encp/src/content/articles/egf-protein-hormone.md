@@ -1,6 +1,6 @@
 ---
-title: "EGF Protein Hormone"
-description: "The EGF Protein Hormone and its role in endocrine signaling."
+title: "EGF Protein Hormone: Endogenous Peptide Hormone Reference"
+description: "EGF, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical signif..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

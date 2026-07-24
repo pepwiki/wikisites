@@ -1,6 +1,6 @@
 ---
-title: "Native PAGE Analysis"
-description: "An analytical technique for characterizing peptides using Native PAGE."
+title: "Native PAGE Analysis: Analytical Technique in Peptide Res..."
+description: "An analytical technique for characterizing peptides using Native PAGE. This analytical technique provides valuable insights into peptide structure, purity, a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

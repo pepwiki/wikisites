@@ -1,6 +1,6 @@
 ---
-title: "Lactoferricin"
-description: "Cationic antimicrobial peptide from lactoferrin with potent gram-negative bactericidal activity."
+title: "Lactoferricin: Antimicrobial Peptide Reference"
+description: "Cationic antimicrobial peptide from lactoferrin with potent gram-negative bactericidal activity. This antimicrobial peptide demonstrates activity against pat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

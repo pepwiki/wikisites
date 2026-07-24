@@ -1,6 +1,6 @@
 ---
-title: "Progesterone Peptide Hormone"
-description: "The Progesterone Peptide Hormone and its role in endocrine signaling."
+title: "Progesterone Peptide Hormone: Comprehensive Peptide Refer..."
+description: "Progesterone, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

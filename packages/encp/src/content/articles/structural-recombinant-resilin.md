@@ -1,6 +1,6 @@
 ---
-title: "Recombinant Resilin"
-description: "Comprehensive reference for recombinant resilin in peptide research."
+title: "Recombinant Resilin: Oligopeptide Research Reference"
+description: "recombinant resilin in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

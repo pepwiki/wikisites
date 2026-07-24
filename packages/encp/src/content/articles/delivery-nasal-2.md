@@ -1,6 +1,6 @@
 ---
-title: "Nasal System 2"
-description: "A nasal-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy."
+title: "Nasal System 2: Oligopeptide Research Reference"
+description: "A nasal-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy.. This innovative approach addresses key challenges in p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

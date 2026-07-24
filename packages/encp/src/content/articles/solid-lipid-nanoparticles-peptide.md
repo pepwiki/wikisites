@@ -1,6 +1,6 @@
 ---
 title: "Solid Lipid Nanoparticles Peptide"
-description: "Solid lipid nanoparticles for controlled peptide release and protection."
+description: "Solid lipid nanoparticles for controlled peptide release and protection. This peptide or oligopeptide is studied for its biological activity, structure-activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

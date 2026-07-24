@@ -1,6 +1,6 @@
 ---
-title: "colloid for Peptides"
-description: "Application of colloid technique for peptide characterization, structure determination, or formulation."
+title: "colloid for Peptides: Analytical Technique in Peptide Res..."
+description: "Application of colloid technique for peptide characterization, structure determination, or formulation. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

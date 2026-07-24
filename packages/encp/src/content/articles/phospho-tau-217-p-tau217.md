@@ -1,5 +1,5 @@
 ---
-title: "Phospho-tau 217 (p-tau217)"
+title: "Phospho-tau 217 (p-tau217): Comprehensive Peptide Reference"
 description: "Comprehensive reference for Phospho-tau 217 (p-tau217), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

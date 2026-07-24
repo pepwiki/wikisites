@@ -1,6 +1,6 @@
 ---
-title: "CGRP Receptor Pharmacology"
-description: "Molecular pharmacology of CGRP receptor including RAMP1 interaction and signal transduction."
+title: "CGRP Receptor Pharmacology: Comprehensive Peptide Reference"
+description: "Molecular pharmacology of CGRP receptor including RAMP1 interaction and signal transduction. This peptide or oligopeptide is studied for its biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

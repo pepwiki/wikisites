@@ -1,6 +1,6 @@
 ---
-title: "recall Resource"
-description: "The recall database or resource for peptide research, providing data on structure, function, and interactions."
+title: "recall Resource: Oligopeptide Research Reference"
+description: "The recall database or resource for peptide research, providing data on structure, function, and interactions. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

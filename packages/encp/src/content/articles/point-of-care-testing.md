@@ -1,6 +1,6 @@
 ---
-title: "Point-of-Care Testing"
-description: "Peptide-based point-of-care diagnostic tests."
+title: "Point-of-Care Testing: Oligopeptide Research Reference"
+description: "Peptide-based point-of-care diagnostic tests. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and pote..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

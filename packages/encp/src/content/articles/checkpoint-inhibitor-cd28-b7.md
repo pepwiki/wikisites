@@ -1,6 +1,6 @@
 ---
-title: "Checkpoint Inhibitor CD28-B7"
-description: "Reference for checkpoint inhibitor CD28-B7 in peptide research."
+title: "Checkpoint Inhibitor CD28-B7: Comprehensive Peptide Refer..."
+description: "Comprehensive reference for checkpoint inhibitor CD28-B7, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

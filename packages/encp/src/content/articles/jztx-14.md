@@ -1,6 +1,6 @@
 ---
-title: "JzTx 14"
-description: "JzTx-14 is a spider venom peptide with specific ion channel or receptor blocking properties."
+title: "JzTx 14: Peptide Toxin in Pharmacology Reference"
+description: "JzTx-14 is a spider venom peptide with specific ion channel or receptor blocking properties. This peptide toxin is derived from venom and studied for its pha..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

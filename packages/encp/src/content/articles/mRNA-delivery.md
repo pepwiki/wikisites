@@ -1,6 +1,6 @@
 ---
-title: "mRNA delivery"
-description: "Reference for mrna delivery in peptide research."
+title: "mRNA delivery: Oligopeptide Research Reference"
+description: "Comprehensive reference for mrna delivery, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

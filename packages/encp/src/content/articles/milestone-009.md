@@ -1,6 +1,6 @@
 ---
-title: "Milestone 009"
-description: "1998: First GnRH antagonist (cetrorelix) approved. Advances reproductive medicine."
+title: "Milestone 009: Oligopeptide Research Reference"
+description: "1998: First GnRH antagonist (cetrorelix) approved. Advances reproductive medicine. This peptide or oligopeptide is studied for its biological activity, struc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

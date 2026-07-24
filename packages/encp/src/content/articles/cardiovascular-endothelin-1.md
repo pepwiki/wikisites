@@ -1,6 +1,6 @@
 ---
-title: "Endothelin 1"
-description: "Comprehensive reference for endothelin 1 in peptide research."
+title: "Endothelin 1: Oligopeptide Research Reference"
+description: "endothelin 1 in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

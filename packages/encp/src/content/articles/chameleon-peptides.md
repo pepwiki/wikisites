@@ -1,6 +1,6 @@
 ---
-title: "Chameleon Peptides"
-description: "Antimicrobial, Pigmentation, Drug Discovery"
+title: "Chameleon Peptides: Oligopeptide Research Reference"
+description: "Antimicrobial, Pigmentation, Drug Discovery. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and poten..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Octreotide"
-description: "Long-acting somatostatin analog with D-Phe and Thr-ol for acromegaly and carcinoid tumors."
+title: "Octreotide: Oligopeptide Research Reference"
+description: "Long-acting somatostatin analog with D-Phe and Thr-ol for acromegaly and carcinoid tumors. This peptide or oligopeptide is studied for its biological activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

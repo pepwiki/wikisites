@@ -1,6 +1,6 @@
 ---
-title: "Milestone 022"
-description: "1955: Du Vigneaud synthesizes oxytocin and vasopressin. First total synthesis of peptide hormones."
+title: "Milestone 022: Oligopeptide Research Reference"
+description: "1955: Du Vigneaud synthesizes oxytocin and vasopressin. First total synthesis of peptide hormones. This peptide or oligopeptide is studied for its biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

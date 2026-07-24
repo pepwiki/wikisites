@@ -1,6 +1,6 @@
 ---
-title: "Caspofungin"
-description: "Echinocandin antifungal inhibiting beta-1,3-glucan synthase for invasive candidiasis."
+title: "Caspofungin: Oligopeptide Research Reference"
+description: "Echinocandin antifungal inhibiting beta-1,3-glucan synthase for invasive candidiasis. This peptide or oligopeptide is studied for its biological activity, st..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

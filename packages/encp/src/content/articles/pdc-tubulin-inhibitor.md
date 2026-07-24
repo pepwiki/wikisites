@@ -1,6 +1,6 @@
 ---
-title: "Tubulin Inhibitor PDC"
-description: "A peptide-drug conjugate targeting Tubulin Inhibitor for selective drug delivery."
+title: "Tubulin Inhibitor PDC: Oligopeptide Research Reference"
+description: "A peptide-drug conjugate targeting Tubulin Inhibitor for selective drug delivery. This peptide or oligopeptide is studied for its biological activity, struct..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

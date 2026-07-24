@@ -1,5 +1,5 @@
 ---
-title: "Aldesleukin"
+title: "Aldesleukin: Oligopeptide Research Reference"
 description: "Recombinant interleukin-2 for metastatic renal cell carcinoma and melanoma, stimulating T-cell and NK cell proliferation."
 status: "published"
 author: "Encyclopeptide Editorial"

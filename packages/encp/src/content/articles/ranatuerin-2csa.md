@@ -1,6 +1,6 @@
 ---
-title: "Ranatuerin 2CSa"
-description: "ranatuerin-2CSa is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity."
+title: "Ranatuerin 2CSa: Antimicrobial Peptide Reference"
+description: "ranatuerin-2CSa is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity. This peptide or oligopeptide is studied for its b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

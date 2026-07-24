@@ -1,6 +1,6 @@
 ---
-title: "Vasopressin ornipressin"
-description: "Reference for vasopressin ornipressin variant in peptide research."
+title: "Vasopressin ornipressin: Endogenous Peptide Hormone Refer..."
+description: "Comprehensive reference for vasopressin ornipressin variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

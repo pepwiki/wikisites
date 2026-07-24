@@ -1,6 +1,6 @@
 ---
-title: "Peptide Clinical Trial Design"
-description: "Design considerations for clinical trials of peptide therapeutics including dosing, endpoints, and safety monitoring."
+title: "Peptide Clinical Trial Design: Comprehensive Peptide Refe..."
+description: "Design considerations for clinical trials of peptide therapeutics including dosing, endpoints, and safety monitoring. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

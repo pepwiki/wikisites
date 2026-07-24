@@ -1,6 +1,6 @@
 ---
 title: "Dimensionality Reduction for Peptides"
-description: "A computational method for studying peptides using Dimensionality Reduction."
+description: "A computational method for studying peptides using Dimensionality Reduction. This analytical technique provides valuable insights into peptide structure, pur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

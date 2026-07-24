@@ -1,6 +1,6 @@
 ---
 title: "Osteopontin peptide: Structure, Function, and Significance"
-description: "RGDSV is an osteopontin-derived peptide involved in bone cell adhesion and remodeling through integrin signaling."
+description: "RGDSV is an osteopontin-derived peptide involved in bone cell adhesion and remodeling through integrin signaling. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

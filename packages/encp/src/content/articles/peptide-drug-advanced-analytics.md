@@ -1,6 +1,6 @@
 ---
 title: "Advanced Analytics in Peptide Drug Development"
-description: "Application of advanced statistical and data analytics methods to peptide drug development."
+description: "Application of advanced statistical and data analytics methods to peptide drug development. This peptide or oligopeptide is studied for its biological activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,5 +1,5 @@
 ---
-title: "Leuprolide Depot Formulation"
+title: "Leuprolide Depot Formulation: Comprehensive Peptide Refer..."
 description: "Extended-release depot microsphere formulations of leuprolide providing 1-month to 12-month sustained testosterone suppression."
 status: "published"
 author: "Encyclopeptide Editorial"

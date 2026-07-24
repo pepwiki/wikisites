@@ -1,6 +1,6 @@
 ---
 title: "Binds ergosterol, forms membrane pores"
-description: "Yeast antimicrobial peptides"
+description: "Yeast antimicrobial peptides. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicatio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

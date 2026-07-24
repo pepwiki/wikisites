@@ -1,6 +1,6 @@
 ---
-title: "bond-angle Resource"
-description: "The bond-angle database or resource for peptide research, providing data on structure, function, and interactions."
+title: "bond-angle Resource: Oligopeptide Research Reference"
+description: "The bond-angle database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

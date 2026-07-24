@@ -1,6 +1,6 @@
 ---
-title: "IL 7 Hormone"
-description: "The IL 7 Hormone and its role in endocrine signaling."
+title: "IL 7 Hormone: Endogenous Peptide Hormone Reference"
+description: "IL 7, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical signi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

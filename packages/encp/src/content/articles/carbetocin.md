@@ -1,6 +1,6 @@
 ---
-title: "Carbetocin"
-description: "Long-acting oxytocin analog for postpartum hemorrhage prevention with D-Tyr substitution."
+title: "Carbetocin: Oligopeptide Research Reference"
+description: "Long-acting oxytocin analog for postpartum hemorrhage prevention with D-Tyr substitution. This peptide or oligopeptide is studied for its biological activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Vicilin"
-description: "Comprehensive reference for Vicilin, a peptide compound with applications in research and therapeutics."
+title: "Vicilin: Oligopeptide Research Reference"
+description: "Vicilin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

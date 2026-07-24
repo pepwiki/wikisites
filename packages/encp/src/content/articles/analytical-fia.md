@@ -1,6 +1,6 @@
 ---
-title: "FIA Analysis"
-description: "An analytical technique for characterizing peptides using FIA."
+title: "FIA Analysis: Analytical Technique in Peptide Research"
+description: "An analytical technique for characterizing peptides using FIA. This analytical technique provides valuable insights into peptide structure, purity, and chara..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
 title: "Trans Cyclooctene Purification"
-description: "A purification technique for separating and isolating peptides using Trans Cyclooctene."
+description: "A purification technique for separating and isolating peptides using Trans Cyclooctene. This analytical technique provides valuable insights into peptide str..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
 title: "Peptide Therapeutic therapeutic-29"
-description: "Reference for peptide therapeutic therapeutic-29 in peptide research."
+description: "Comprehensive reference for peptide therapeutic therapeutic-29, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

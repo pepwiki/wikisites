@@ -1,6 +1,6 @@
 ---
-title: "N-Terminal PEGylation"
-description: "Comprehensive reference for N-Terminal PEGylation, a peptide compound with applications in research and therapeutics."
+title: "N-Terminal PEGylation: Post-Translational Modification Re..."
+description: "N-Terminal PEGylation, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

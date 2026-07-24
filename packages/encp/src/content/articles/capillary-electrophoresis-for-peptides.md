@@ -1,6 +1,6 @@
 ---
 title: "Capillary Electrophoresis for Peptides"
-description: "Explore capillary electrophoresis techniques for high-resolution separation and analysis of peptide mixtures."
+description: "Explore capillary electrophoresis techniques for high-resolution separation and analysis of peptide mixtures. This peptide or oligopeptide is studied for its..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

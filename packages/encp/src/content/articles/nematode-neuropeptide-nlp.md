@@ -1,6 +1,6 @@
 ---
-title: "Nematode Neuropeptide / NLP"
-description: "Nematode Neuropeptide / NLP is a bioactive compound with applications in peptide research and therapeutics."
+title: "Nematode Neuropeptide / NLP: Comprehensive Peptide Reference"
+description: "Nematode Neuropeptide / NLP is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

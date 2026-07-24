@@ -1,6 +1,6 @@
 ---
-title: "Polymer-Peptide Conjugates"
-description: "Learn PEGylation and polymer conjugation strategies for extending peptide half-life and reducing immunogenicity."
+title: "Polymer-Peptide Conjugates: Comprehensive Peptide Reference"
+description: "Learn PEGylation and polymer conjugation strategies for extending peptide half-life and reducing immunogenicity. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

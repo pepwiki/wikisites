@@ -1,6 +1,6 @@
 ---
-title: "Flow Chemistry Synthesis"
-description: "A peptide synthesis method using Flow Chemistry for producing peptides with specific properties."
+title: "Flow Chemistry Synthesis: Analytical Technique in Peptide..."
+description: "A peptide synthesis method using Flow Chemistry for producing peptides with specific properties. This analytical technique provides valuable insights into pe..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

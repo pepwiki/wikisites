@@ -1,6 +1,6 @@
 ---
-title: "CT 1 Peptide Hormone"
-description: "The CT 1 Peptide Hormone and its role in endocrine signaling."
+title: "CT 1 Peptide Hormone: Endogenous Peptide Hormone Reference"
+description: "CT 1, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical signi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

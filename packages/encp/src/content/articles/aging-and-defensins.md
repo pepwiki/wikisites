@@ -1,6 +1,6 @@
 ---
-title: "Aging and Defensins"
-description: "Age-related changes in AMP expression contributing to increased infection in elderly."
+title: "Aging and Defensins: Antimicrobial Peptide Reference"
+description: "Age-related changes in AMP expression contributing to increased infection in elderly. This antimicrobial peptide demonstrates activity against pathogens and ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

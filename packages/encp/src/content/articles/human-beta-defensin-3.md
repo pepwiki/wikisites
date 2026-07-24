@@ -1,6 +1,6 @@
 ---
-title: "Human Beta-Defensin 3"
-description: "Potent inducible defensin with broad-spectrum activity and chemokine function recruiting immune cells."
+title: "Human Beta-Defensin 3: Antimicrobial Peptide Reference"
+description: "Potent inducible defensin with broad-spectrum activity and chemokine function recruiting immune cells. This peptide or oligopeptide is studied for its biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "NK-Lysin Antimicrobial Domain"
-description: "Antimicrobial domain of porcine NK-lysin with membrane-disrupting activity."
+title: "NK-Lysin Antimicrobial Domain: Comprehensive Peptide Refe..."
+description: "Antimicrobial domain of porcine NK-lysin with membrane-disrupting activity. This antimicrobial peptide demonstrates activity against pathogens and is studied..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

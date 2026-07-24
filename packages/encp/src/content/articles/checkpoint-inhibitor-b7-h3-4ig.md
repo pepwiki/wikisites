@@ -1,6 +1,6 @@
 ---
 title: "Checkpoint Inhibitor B7-H3-4Ig"
-description: "Reference for checkpoint inhibitor B7-H3-4Ig in peptide research."
+description: "Comprehensive reference for checkpoint inhibitor B7-H3-4Ig, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
 title: "Isothermal Titration Calorimetry"
-description: "ITC for measuring peptide-protein binding thermodynamics."
+description: "ITC for measuring peptide-protein binding thermodynamics. This peptide or oligopeptide is studied for its biological activity, structure-activity relationshi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

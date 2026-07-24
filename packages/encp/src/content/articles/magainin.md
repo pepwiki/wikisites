@@ -1,6 +1,6 @@
 ---
-title: "Magainin"
-description: "A family of antimicrobial peptides from African clawed frog skin with broad-spectrum activity against bacteria, fungi, and viruses, acting through membrane disruption."
+title: "Magainin: Antimicrobial Peptide Reference"
+description: "A family of antimicrobial peptides from African clawed frog skin with broad-spectrum activity against bacteria, fungi, and viruses, acting through membrane d..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

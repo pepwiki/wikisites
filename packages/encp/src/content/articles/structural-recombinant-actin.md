@@ -1,6 +1,6 @@
 ---
-title: "Recombinant Actin"
-description: "Comprehensive reference for recombinant actin in peptide research."
+title: "Recombinant Actin: Oligopeptide Research Reference"
+description: "recombinant actin in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

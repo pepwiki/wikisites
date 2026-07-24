@@ -1,5 +1,5 @@
 ---
-title: "objective-response Resource"
+title: "objective-response Resource: Comprehensive Peptide Reference"
 description: "The objective-response database or resource for peptide research, providing data on structure, function, and interactions."
 status: "published"
 author: "Encyclopeptide Editorial"

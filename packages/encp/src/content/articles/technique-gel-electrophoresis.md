@@ -1,6 +1,6 @@
 ---
 title: "gel-electrophoresis for Peptides"
-description: "Application of gel-electrophoresis technique for peptide characterization, structure determination, or formulation."
+description: "Application of gel-electrophoresis technique for peptide characterization, structure determination, or formulation. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

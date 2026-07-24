@@ -1,6 +1,6 @@
 ---
-title: "Angiotensin I Protein Hormone"
-description: "The Angiotensin I Protein Hormone and its role in endocrine signaling."
+title: "Angiotensin I Protein Hormone: Comprehensive Peptide Refe..."
+description: "Angiotensin I, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clini..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

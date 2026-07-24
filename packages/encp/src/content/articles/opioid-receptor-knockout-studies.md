@@ -1,6 +1,6 @@
 ---
 title: "Opioid Receptor Knockout Studies"
-description: "Behavioral phenotypes from opioid receptor gene knockout mice."
+description: "Behavioral phenotypes from opioid receptor gene knockout mice. This neuropeptide is involved in neurological signaling and is studied for its roles in brain ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

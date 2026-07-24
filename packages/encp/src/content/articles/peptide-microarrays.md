@@ -1,6 +1,6 @@
 ---
-title: "Peptide Microarrays"
-description: "Learn about high-throughput peptide microarray platforms for screening binding interactions and enzyme substrates."
+title: "Peptide Microarrays: Analytical Technique in Peptide Rese..."
+description: "Learn about high-throughput peptide microarray platforms for screening binding interactions and enzyme substrates. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

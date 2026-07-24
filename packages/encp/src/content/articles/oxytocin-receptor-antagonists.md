@@ -1,6 +1,6 @@
 ---
-title: "Oxytocin Receptor Antagonists"
-description: "Pharmacological inhibition of oxytocin receptors using peptidic antagonists such as atosiban and barusiban for the management of preterm labor and uterine hypercontractility."
+title: "Oxytocin Receptor Antagonists: Comprehensive Peptide Refe..."
+description: "Pharmacological inhibition of oxytocin receptors using peptidic antagonists such as atosiban and barusiban for the management of preterm labor and uterine hy..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-09-15

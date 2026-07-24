@@ -1,6 +1,6 @@
 ---
-title: "Complement C5a Antimicrobial"
-description: "Potent anaphylatoxin with immunomodulatory and direct antimicrobial functions."
+title: "Complement C5a Antimicrobial: Comprehensive Peptide Refer..."
+description: "Potent anaphylatoxin with immunomodulatory and direct antimicrobial functions. This antimicrobial peptide demonstrates activity against pathogens and is stud..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Sermorelin"
-description: "Synthetic GHRH(1-29) analog for GH stimulation testing and potential deficiency treatment."
+title: "Sermorelin: Oligopeptide Research Reference"
+description: "Synthetic GHRH(1-29) analog for GH stimulation testing and potential deficiency treatment. This peptide or oligopeptide is studied for its biological activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

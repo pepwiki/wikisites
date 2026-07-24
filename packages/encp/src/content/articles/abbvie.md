@@ -1,5 +1,5 @@
 ---
-title: "AbbVie"
+title: "AbbVie: Therapeutic Peptide Drug Profile"
 description: "Global biopharmaceutical company specializing in immunology, oncology, and neuroscience peptide therapeutics including leuprolide."
 status: "published"
 author: "Encyclopeptide Editorial"

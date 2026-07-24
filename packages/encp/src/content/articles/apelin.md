@@ -1,5 +1,5 @@
 ---
-title: "Apelin"
+title: "Apelin: Oligopeptide Research Reference"
 description: "Apelin is an adipokine peptide that activates the APJ receptor to regulate cardiovascular function, fluid homeostasis, and energy metabolism."
 status: "published"
 author: "Encyclopeptide Editorial"

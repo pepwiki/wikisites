@@ -1,6 +1,6 @@
 ---
-title: "Immunoaffinity Analysis"
-description: "An analytical technique for characterizing peptides using Immunoaffinity."
+title: "Immunoaffinity Analysis: Analytical Technique in Peptide ..."
+description: "An analytical technique for characterizing peptides using Immunoaffinity. This analytical technique provides valuable insights into peptide structure, purity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

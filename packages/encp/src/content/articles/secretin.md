@@ -1,6 +1,6 @@
 ---
-title: "Secretin"
-description: "27-amino acid gut hormone that stimulates pancreatic bicarbonate secretion and regulates gastric acid output."
+title: "Secretin: Endogenous Peptide Hormone Reference"
+description: "27-amino acid gut hormone that stimulates pancreatic bicarbonate secretion and regulates gastric acid output. This peptide or oligopeptide is studied for its..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

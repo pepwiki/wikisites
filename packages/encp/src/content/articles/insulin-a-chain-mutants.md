@@ -1,6 +1,6 @@
 ---
-title: "Insulin A-Chain Mutants"
-description: "Engineered insulin A-chain variants with altered receptor binding affinity used in structure-activity studies."
+title: "Insulin A-Chain Mutants: Peptide Family Reference"
+description: "Engineered insulin A-chain variants with altered receptor binding affinity used in structure-activity studies. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

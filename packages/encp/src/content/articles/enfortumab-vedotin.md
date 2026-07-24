@@ -1,6 +1,6 @@
 ---
-title: "Enfortumab Vedotin"
-description: "Antibody-drug conjugate targeting Nectin-4 with monomethyl auristatin E payload for urothelial cancer."
+title: "Enfortumab Vedotin: Oligopeptide Research Reference"
+description: "Antibody-drug conjugate targeting Nectin-4 with monomethyl auristatin E payload for urothelial cancer. This peptide or oligopeptide is studied for its biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

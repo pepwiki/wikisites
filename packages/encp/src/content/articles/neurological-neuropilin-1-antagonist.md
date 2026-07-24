@@ -1,6 +1,6 @@
 ---
-title: "Neuropilin 1 Antagonist"
-description: "Comprehensive reference for neuropilin 1 antagonist in peptide research."
+title: "Neuropilin 1 Antagonist: Oligopeptide Research Reference"
+description: "neuropilin 1 antagonist in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and poten..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

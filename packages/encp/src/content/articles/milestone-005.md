@@ -1,6 +1,6 @@
 ---
-title: "Milestone 005"
-description: "1977: Opioid peptides (enkephalins) discovered by Kosterlitz and Hughes. Endogenous pain modulation. Nobel Prize 2004."
+title: "Milestone 005: Oligopeptide Research Reference"
+description: "1977: Opioid peptides (enkephalins) discovered by Kosterlitz and Hughes. Endogenous pain modulation. Nobel Prize 2004. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

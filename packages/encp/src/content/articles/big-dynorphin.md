@@ -1,6 +1,6 @@
 ---
-title: "Big Dynorphin"
-description: "Precursor form containing both dynorphin A and B sequences."
+title: "Big Dynorphin: Neuropeptide in Neuroscience Reference"
+description: "Precursor form containing both dynorphin A and B sequences. This neuropeptide is involved in neurological signaling and is studied for its roles in brain fun..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

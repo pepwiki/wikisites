@@ -1,6 +1,6 @@
 ---
-title: "Guanarito N Vaccine"
-description: "A peptide vaccine targeting Guanarito N for infectious disease prevention."
+title: "Guanarito N Vaccine: Oligopeptide Research Reference"
+description: "A peptide vaccine targeting Guanarito N for infectious disease prevention. This peptide or oligopeptide is studied for its biological activity, structure-act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

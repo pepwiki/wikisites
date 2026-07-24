@@ -1,5 +1,5 @@
 ---
-title: "Nematode Defense Peptides"
+title: "Nematode Defense Peptides: Comprehensive Peptide Reference"
 description: "Comprehensive reference for Nematode Defense Peptides, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

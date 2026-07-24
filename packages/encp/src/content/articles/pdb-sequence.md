@@ -1,6 +1,6 @@
 ---
-title: "PDB (Sequence)"
-description: "Protein sequences from the Protein Data Bank."
+title: "PDB (Sequence): Oligopeptide Research Reference"
+description: "Protein sequences from the Protein Data Bank. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and pote..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

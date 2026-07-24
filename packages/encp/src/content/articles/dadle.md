@@ -1,6 +1,6 @@
 ---
-title: "DADLE"
-description: "Synthetic delta-opioid selective enkephalin analog with neuroprotective effects."
+title: "DADLE: Neuropeptide in Neuroscience Reference"
+description: "Synthetic delta-opioid selective enkephalin analog with neuroprotective effects. This neuropeptide is involved in neurological signaling and is studied for i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

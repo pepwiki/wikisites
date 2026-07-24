@@ -1,6 +1,6 @@
 ---
-title: "Prion Diseases"
-description: "Transmissible spongiform encephalopathies caused by PrPSc."
+title: "Prion Diseases: Oligopeptide Research Reference"
+description: "Transmissible spongiform encephalopathies caused by PrPSc. This peptide or oligopeptide is studied for its biological activity, structure-activity relationsh..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Milestone 016"
-description: "2021: Semaglutide (Wegovy) approved for obesity. STEP trials show 15% weight loss."
+title: "Milestone 016: Oligopeptide Research Reference"
+description: "2021: Semaglutide (Wegovy) approved for obesity. STEP trials show 15% weight loss. This peptide or oligopeptide is studied for its biological activity, struc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

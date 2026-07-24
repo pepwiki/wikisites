@@ -1,6 +1,6 @@
 ---
-title: "AlphaFold"
-description: "DeepMind protein structure prediction. CASP14 winner (GDT 92.4). Nobel Prize 2024. 200M+ predicted structures."
+title: "AlphaFold: Oligopeptide Research Reference"
+description: "DeepMind protein structure prediction. CASP14 winner (GDT 92.4). Nobel Prize 2024. 200M+ predicted structures. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
 title: "Peptide citrullination analysis"
-description: "Reference for peptide citrullination analysis in peptide research."
+description: "Comprehensive reference for peptide citrullination analysis, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

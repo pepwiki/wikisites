@@ -1,5 +1,5 @@
 ---
-title: "Endorphin Alpha"
+title: "Endorphin Alpha: Neuropeptide in Neuroscience Reference"
 description: "endorphin-alpha is an opioid neuropeptide that modulates pain, reward, and stress responses through opioid receptor activation."
 status: "published"
 author: "Encyclopeptide Editorial"

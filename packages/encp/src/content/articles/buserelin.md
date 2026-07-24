@@ -1,6 +1,6 @@
 ---
-title: "Buserelin"
-description: "Potent GnRH agonist with D-Ser(tBu) modification for nasal and subcutaneous administration."
+title: "Buserelin: Oligopeptide Research Reference"
+description: "Potent GnRH agonist with D-Ser(tBu) modification for nasal and subcutaneous administration. This peptide or oligopeptide is studied for its biological activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
 title: "Peptide Sustainability in Manufacturing"
-description: "Green chemistry and sustainable practices in peptide manufacturing."
+description: "Green chemistry and sustainable practices in peptide manufacturing. This peptide or oligopeptide is studied for its biological activity, structure-activity r..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

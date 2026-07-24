@@ -1,6 +1,6 @@
 ---
-title: "HCG Analog"
-description: "Comprehensive reference for hCG analog in peptide research."
+title: "HCG Analog: Oligopeptide Research Reference"
+description: "hCG analog in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

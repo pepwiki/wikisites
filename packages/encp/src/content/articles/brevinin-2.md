@@ -1,6 +1,6 @@
 ---
-title: "Brevinin-2"
-description: "Potent frog AMP with broader spectrum than brevinin-1 and activity against resistant bacteria."
+title: "Brevinin-2: Antimicrobial Peptide Reference"
+description: "Potent frog AMP with broader spectrum than brevinin-1 and activity against resistant bacteria. This antimicrobial peptide demonstrates activity against patho..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

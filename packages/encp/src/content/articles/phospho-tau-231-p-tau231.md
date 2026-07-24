@@ -1,5 +1,5 @@
 ---
-title: "Phospho-tau 231 (p-tau231)"
+title: "Phospho-tau 231 (p-tau231): Comprehensive Peptide Reference"
 description: "Comprehensive reference for Phospho-tau 231 (p-tau231), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

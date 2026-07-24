@@ -1,6 +1,6 @@
 ---
-title: "Tityustoxin Kv1.3"
-description: "Scorpion toxin selectively blocking Kv1.3 potassium channel for immunomodulation."
+title: "Tityustoxin Kv1.3: Peptide Toxin in Pharmacology Reference"
+description: "Scorpion toxin selectively blocking Kv1.3 potassium channel for immunomodulation. This peptide toxin is derived from venom and studied for its pharmacologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

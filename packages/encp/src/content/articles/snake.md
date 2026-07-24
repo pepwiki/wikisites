@@ -1,6 +1,6 @@
 ---
-title: "Snake"
-description: "0.03 mg/kg"
+title: "Snake: Peptide Toxin in Pharmacology Reference"
+description: "0.03 mg/kg. This peptide toxin is derived from venom and studied for its pharmacological activity, mechanism of action, and potential applications in researc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

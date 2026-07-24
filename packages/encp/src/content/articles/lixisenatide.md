@@ -1,6 +1,6 @@
 ---
-title: "Lixisenatide"
-description: "Once-daily short-acting GLP-1 agonist from exendin-4 with C-terminal truncation for rapid onset."
+title: "Lixisenatide: Oligopeptide Research Reference"
+description: "Once-daily short-acting GLP-1 agonist from exendin-4 with C-terminal truncation for rapid onset. This peptide or oligopeptide is studied for its biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

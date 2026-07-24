@@ -1,6 +1,6 @@
 ---
-title: "Peptide Patents"
-description: "Intellectual property strategies and patent landscape for peptide therapeutics."
+title: "Peptide Patents: Oligopeptide Research Reference"
+description: "Intellectual property strategies and patent landscape for peptide therapeutics. This peptide or oligopeptide is studied for its biological activity, structur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

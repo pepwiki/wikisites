@@ -1,6 +1,6 @@
 ---
-title: "Endokinin B"
-description: "endokinin-B is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation."
+title: "Endokinin B: Neuropeptide in Neuroscience Reference"
+description: "endokinin-B is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

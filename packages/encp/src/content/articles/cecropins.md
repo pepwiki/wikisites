@@ -1,6 +1,6 @@
 ---
-title: "Cecropins"
-description: "Broad-spectrum antimicrobial"
+title: "Cecropins: Oligopeptide Research Reference"
+description: "Broad-spectrum antimicrobial. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicatio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

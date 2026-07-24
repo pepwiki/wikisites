@@ -1,6 +1,6 @@
 ---
-title: "Hydrolase PDC"
-description: "A peptide-drug conjugate targeting Hydrolase for selective drug delivery."
+title: "Hydrolase PDC: Oligopeptide Research Reference"
+description: "A peptide-drug conjugate targeting Hydrolase for selective drug delivery. This peptide or oligopeptide is studied for its biological activity, structure-acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

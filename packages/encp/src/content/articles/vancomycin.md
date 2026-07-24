@@ -1,5 +1,5 @@
 ---
-title: "Vancomycin"
+title: "Vancomycin: Antimicrobial Peptide Reference"
 description: "Vancomycin is a glycopeptide antibiotic from Amycolatopsis orientalis that inhibits cell wall synthesis in gram-positive bacteria, including MRSA."
 status: "published"
 author: "Encyclopeptide Editorial"

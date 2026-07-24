@@ -1,6 +1,6 @@
 ---
-title: "Abaloparatide"
-description: "Synthetic analog of PTHrP(1-34) used for osteoporosis treatment, promotes bone formation via PTH1R activation."
+title: "Abaloparatide: Oligopeptide Research Reference"
+description: "Synthetic analog of PTHrP(1-34) used for osteoporosis treatment, promotes bone formation via PTH1R activation. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

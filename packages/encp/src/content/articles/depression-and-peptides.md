@@ -1,6 +1,6 @@
 ---
-title: "Depression and Peptides"
-description: "Explore neuropeptide systems in depression including oxytocin, vasopressin, and melanocortin-based therapies."
+title: "Depression and Peptides: Oligopeptide Research Reference"
+description: "Explore neuropeptide systems in depression including oxytocin, vasopressin, and melanocortin-based therapies. This peptide or oligopeptide is studied for its..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

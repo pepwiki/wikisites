@@ -1,6 +1,6 @@
 ---
-title: "Nanoparticle Peptide Delivery"
-description: "Understand nanoparticle encapsulation strategies for protecting and delivering peptide drugs to target tissues."
+title: "Nanoparticle Peptide Delivery: Comprehensive Peptide Refe..."
+description: "Understand nanoparticle encapsulation strategies for protecting and delivering peptide drugs to target tissues. Covers molecular mechanisms, biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

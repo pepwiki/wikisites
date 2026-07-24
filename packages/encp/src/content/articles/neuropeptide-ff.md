@@ -1,6 +1,6 @@
 ---
-title: "Neuropeptide FF"
-description: "Octapeptide with opioid-modulating and cardiovascular effects."
+title: "Neuropeptide FF: Neuropeptide in Neuroscience Reference"
+description: "Octapeptide with opioid-modulating and cardiovascular effects. This neuropeptide is involved in neurological signaling and is studied for its roles in brain ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

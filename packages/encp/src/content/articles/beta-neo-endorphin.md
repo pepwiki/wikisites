@@ -1,6 +1,6 @@
 ---
-title: "Beta-Neo-Endorphin"
-description: "Prodynorphin-derived opioid with kappa-selectivity in hypothalamus."
+title: "Beta-Neo-Endorphin: Neuropeptide in Neuroscience Reference"
+description: "Prodynorphin-derived opioid with kappa-selectivity in hypothalamus. This neuropeptide is involved in neurological signaling and is studied for its roles in b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

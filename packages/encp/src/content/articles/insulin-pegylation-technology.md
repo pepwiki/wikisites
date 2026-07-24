@@ -1,6 +1,6 @@
 ---
-title: "Insulin PEGylation Technology"
-description: "PEG conjugation to insulin analogs for extending half-life through reduced renal clearance and proteolysis."
+title: "Insulin PEGylation Technology: Comprehensive Peptide Refe..."
+description: "PEG conjugation to insulin analogs for extending half-life through reduced renal clearance and proteolysis. This peptide or oligopeptide is studied for its b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

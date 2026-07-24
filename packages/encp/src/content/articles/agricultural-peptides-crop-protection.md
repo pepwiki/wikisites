@@ -1,6 +1,6 @@
 ---
-title: "Agricultural Peptides: Crop Protection and Growth Enhancement"
-description: "Explore peptide-based biopesticides and plant growth regulators for sustainable agriculture."
+title: "Agricultural Peptides: Crop Protection and Growth Enhance..."
+description: "Explore peptide-based biopesticides and plant growth regulators for sustainable agriculture. This peptide or oligopeptide is studied for its biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

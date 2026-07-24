@@ -1,6 +1,6 @@
 ---
-title: "Beta-hCG"
-description: "Beta subunit of hCG. Trophoblast hormone. Pregnancy and GTD biomarker."
+title: "Beta-hCG: Oligopeptide Research Reference"
+description: "Beta subunit of hCG. Trophoblast hormone. Pregnancy and GTD biomarker. This peptide or oligopeptide is studied for its biological activity, structure-activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

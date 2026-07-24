@@ -1,6 +1,6 @@
 ---
-title: "MAP Kinase Modulator"
-description: "Comprehensive reference for MAP kinase modulator in peptide research."
+title: "MAP Kinase Modulator: Oligopeptide Research Reference"
+description: "MAP kinase modulator in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potentia..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

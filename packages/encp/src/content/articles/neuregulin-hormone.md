@@ -1,6 +1,6 @@
 ---
-title: "Neuregulin Hormone"
-description: "The Neuregulin Hormone and its role in endocrine signaling."
+title: "Neuregulin Hormone: Endogenous Peptide Hormone Reference"
+description: "Neuregulin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

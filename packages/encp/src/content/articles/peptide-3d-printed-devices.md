@@ -1,6 +1,6 @@
 ---
-title: "Peptide 3D Printed Devices"
-description: "3D-printed devices for personalized peptide drug delivery."
+title: "Peptide 3D Printed Devices: Comprehensive Peptide Reference"
+description: "3D-printed devices for personalized peptide drug delivery. This peptide or oligopeptide is studied for its biological activity, structure-activity relationsh..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

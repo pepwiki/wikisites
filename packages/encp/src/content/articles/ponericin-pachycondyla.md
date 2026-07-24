@@ -1,5 +1,5 @@
 ---
-title: "Ponericin (Pachycondyla)"
+title: "Ponericin (Pachycondyla): Oligopeptide Research Reference"
 description: "Comprehensive reference for Ponericin (Pachycondyla), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,5 +1,5 @@
 ---
-title: "Pigeon Crop Milk Peptides"
+title: "Pigeon Crop Milk Peptides: Comprehensive Peptide Reference"
 description: "Comprehensive reference for Pigeon Crop Milk Peptides, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

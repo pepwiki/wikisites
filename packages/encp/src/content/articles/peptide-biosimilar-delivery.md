@@ -1,6 +1,6 @@
 ---
-title: "Peptide Biosimilar Delivery"
-description: "Delivery considerations for biosimilar peptide drug development."
+title: "Peptide Biosimilar Delivery: Comprehensive Peptide Reference"
+description: "Delivery considerations for biosimilar peptide drug development. This peptide or oligopeptide is studied for its biological activity, structure-activity rela..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
 title: "Side Chain Cyclization (Lactam)"
-description: "Formation of lactam bridge between side chain functional groups."
+description: "Formation of lactam bridge between side chain functional groups. This peptide or oligopeptide is studied for its biological activity, structure-activity rela..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

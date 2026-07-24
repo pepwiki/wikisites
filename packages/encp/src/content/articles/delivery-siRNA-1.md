@@ -1,6 +1,6 @@
 ---
-title: "SiRNA System 1"
-description: "A siRNA-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy."
+title: "SiRNA System 1: Oligopeptide Research Reference"
+description: "A siRNA-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy.. This innovative approach addresses key challenges in p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

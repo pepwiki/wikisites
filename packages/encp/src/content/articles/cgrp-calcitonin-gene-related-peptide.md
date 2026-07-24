@@ -1,6 +1,6 @@
 ---
 title: "Calcitonin Gene-Related Peptide"
-description: "37-amino acid neuropeptide potent vasodilator involved in migraine pathophysiology and pain signaling."
+description: "37-amino acid neuropeptide potent vasodilator involved in migraine pathophysiology and pain signaling. This peptide or oligopeptide is studied for its biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

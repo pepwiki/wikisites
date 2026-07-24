@@ -1,6 +1,6 @@
 ---
-title: "Soil Health"
-description: "Use of antimicrobial peptides for soil health."
+title: "Soil Health: Oligopeptide Research Reference"
+description: "Use of antimicrobial peptides for soil health. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and pot..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

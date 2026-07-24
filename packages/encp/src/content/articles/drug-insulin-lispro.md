@@ -1,6 +1,6 @@
 ---
-title: "Insulin Lispro"
-description: "Comprehensive reference for insulin lispro in peptide research."
+title: "Insulin Lispro: Oligopeptide Research Reference"
+description: "insulin lispro in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appl..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

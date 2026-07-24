@@ -1,6 +1,6 @@
 ---
 title: "Checkpoint Inhibitor CD200-CD200R"
-description: "Reference for checkpoint inhibitor CD200-CD200R in peptide research."
+description: "Comprehensive reference for checkpoint inhibitor CD200-CD200R, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

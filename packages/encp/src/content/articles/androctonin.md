@@ -1,6 +1,6 @@
 ---
-title: "Androctonin"
-description: "Scorpion venom defensin with broad-spectrum antimicrobial activity."
+title: "Androctonin: Antimicrobial Peptide Reference"
+description: "Scorpion venom defensin with broad-spectrum antimicrobial activity. This antimicrobial peptide demonstrates activity against pathogens and is studied for its..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

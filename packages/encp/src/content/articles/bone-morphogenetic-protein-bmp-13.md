@@ -1,6 +1,6 @@
 ---
 title: "Bone Morphogenetic Protein BMP-13"
-description: "Reference for bone morphogenetic protein BMP-13 in peptide research."
+description: "Comprehensive reference for bone morphogenetic protein BMP-13, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

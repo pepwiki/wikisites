@@ -1,6 +1,6 @@
 ---
-title: "Zavegepant"
-description: "Intranasal CGRP receptor antagonist for acute migraine with rapid onset via nasal absorption."
+title: "Zavegepant: Oligopeptide Research Reference"
+description: "Intranasal CGRP receptor antagonist for acute migraine with rapid onset via nasal absorption. This peptide or oligopeptide is studied for its biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

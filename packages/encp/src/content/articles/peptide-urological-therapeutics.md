@@ -1,6 +1,6 @@
 ---
 title: "Peptide Urological Therapeutics"
-description: "Therapeutic peptides for urological conditions including overactive bladder and erectile dysfunction."
+description: "Therapeutic peptides for urological conditions including overactive bladder and erectile dysfunction. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Insulin Degludec"
-description: "Ultra-long-acting basal insulin."
+title: "Insulin Degludec: Oligopeptide Research Reference"
+description: "Ultra-long-acting basal insulin. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

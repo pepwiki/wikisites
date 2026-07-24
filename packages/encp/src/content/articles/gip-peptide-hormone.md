@@ -1,6 +1,6 @@
 ---
-title: "GIP Peptide Hormone"
-description: "The GIP Peptide Hormone and its role in endocrine signaling."
+title: "GIP Peptide Hormone: Endogenous Peptide Hormone Reference"
+description: "GIP, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical signif..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

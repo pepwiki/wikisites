@@ -1,6 +1,6 @@
 ---
-title: "Angiotensin II"
-description: "Octapeptide vasoconstrictor hormone of the renin-angiotensin system that regulates blood pressure and fluid balance."
+title: "Angiotensin II: Endogenous Peptide Hormone Reference"
+description: "Octapeptide vasoconstrictor hormone of the renin-angiotensin system that regulates blood pressure and fluid balance. Covers molecular mechanisms, biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

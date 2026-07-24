@@ -1,6 +1,6 @@
 ---
-title: "Histatin 5"
-description: "Salivary antimicrobial peptide with potent antifungal activity against Candida albicans."
+title: "Histatin 5: Antimicrobial Peptide Reference"
+description: "Salivary antimicrobial peptide with potent antifungal activity against Candida albicans. This antimicrobial peptide demonstrates activity against pathogens a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

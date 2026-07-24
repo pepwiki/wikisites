@@ -1,6 +1,6 @@
 ---
 title: "Growth Differentiation Factor GDF-10"
-description: "Reference for growth differentiation factor GDF-10 in peptide research."
+description: "Comprehensive reference for growth differentiation factor GDF-10, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

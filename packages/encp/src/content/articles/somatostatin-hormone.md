@@ -1,6 +1,6 @@
 ---
-title: "Somatostatin Hormone"
-description: "The Somatostatin Hormone and its role in endocrine signaling."
+title: "Somatostatin Hormone: Endogenous Peptide Hormone Reference"
+description: "Somatostatin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

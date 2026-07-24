@@ -1,6 +1,6 @@
 ---
-title: "Bradykinin Family Peptides"
-description: "Overview of bradykinin and kallidin peptides in inflammation, pain, and vascular permeability."
+title: "Bradykinin Family Peptides: Comprehensive Peptide Reference"
+description: "Overview of bradykinin and kallidin peptides in inflammation, pain, and vascular permeability. This peptide or oligopeptide is studied for its biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Insulin Glargine"
-description: "Long-acting basal insulin."
+title: "Insulin Glargine: Oligopeptide Research Reference"
+description: "Long-acting basal insulin. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

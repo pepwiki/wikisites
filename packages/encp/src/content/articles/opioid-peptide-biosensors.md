@@ -1,6 +1,6 @@
 ---
-title: "Opioid Peptide Biosensors"
-description: "Genetically encoded biosensors for real-time imaging of opioid peptide signaling."
+title: "Opioid Peptide Biosensors: Comprehensive Peptide Reference"
+description: "Genetically encoded biosensors for real-time imaging of opioid peptide signaling. This neuropeptide is involved in neurological signaling and is studied for ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

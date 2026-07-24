@@ -1,6 +1,6 @@
 ---
-title: "Agalsidase"
-description: "Comprehensive reference for agalsidase in peptide research."
+title: "Agalsidase: Oligopeptide Research Reference"
+description: "agalsidase in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

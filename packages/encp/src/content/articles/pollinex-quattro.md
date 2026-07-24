@@ -1,6 +1,6 @@
 ---
-title: "Pollinex Quattro"
-description: "Comprehensive reference for Pollinex Quattro, a peptide compound with applications in research and therapeutics."
+title: "Pollinex Quattro: Oligopeptide Research Reference"
+description: "Pollinex Quattro, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

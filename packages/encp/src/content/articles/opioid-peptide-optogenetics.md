@@ -1,6 +1,6 @@
 ---
-title: "Opioid Peptide Optogenetics"
-description: "Optogenetic control of opioid peptide release from specific neuronal populations."
+title: "Opioid Peptide Optogenetics: Comprehensive Peptide Reference"
+description: "Optogenetic control of opioid peptide release from specific neuronal populations. This neuropeptide is involved in neurological signaling and is studied for ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

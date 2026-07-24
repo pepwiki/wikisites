@@ -1,6 +1,6 @@
 ---
-title: "Interleukin IL-25"
-description: "Reference for interleukin IL-25 in peptide research."
+title: "Interleukin IL-25: Oligopeptide Research Reference"
+description: "Comprehensive reference for interleukin IL-25, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Gastrin trigastrin"
-description: "Reference for gastrin trigastrin variant in peptide research."
+title: "Gastrin trigastrin: Endogenous Peptide Hormone Reference"
+description: "Comprehensive reference for gastrin trigastrin variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

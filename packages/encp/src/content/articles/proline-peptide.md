@@ -1,6 +1,6 @@
 ---
-title: "Proline Peptide"
-description: "Proline (P) is one of the 20 standard amino acids. It plays essential roles in protein structure and function."
+title: "Proline Peptide: Oligopeptide Research Reference"
+description: "Proline (P) is one of the 20 standard amino acids. It plays essential roles in protein structure and function. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

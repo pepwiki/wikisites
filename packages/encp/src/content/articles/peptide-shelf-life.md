@@ -1,6 +1,6 @@
 ---
-title: "Peptide shelf life"
-description: "Reference for peptide shelf life in peptide research."
+title: "Peptide shelf life: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide shelf life, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

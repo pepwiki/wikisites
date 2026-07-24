@@ -1,6 +1,6 @@
 ---
-title: "Semaglutide 2.4mg Obesity"
-description: "Higher-dose semaglutide approved for chronic weight management in adults with obesity."
+title: "Semaglutide 2.4mg Obesity: Comprehensive Peptide Reference"
+description: "Higher-dose semaglutide approved for chronic weight management in adults with obesity. This peptide or oligopeptide is studied for its biological activity, s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

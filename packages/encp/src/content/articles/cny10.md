@@ -1,6 +1,6 @@
 ---
-title: "CNY10"
-description: "CNY10 is a cathelicidin antimicrobial peptide with broad-spectrum activity against bacteria, fungi, and viruses."
+title: "CNY10: Antimicrobial Peptide Reference"
+description: "CNY10 is a cathelicidin antimicrobial peptide with broad-spectrum activity against bacteria, fungi, and viruses. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

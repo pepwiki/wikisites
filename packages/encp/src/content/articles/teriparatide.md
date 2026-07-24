@@ -1,6 +1,6 @@
 ---
-title: "Teriparatide"
-description: "Recombinant PTH(1-34) for osteoporosis stimulating osteoblast-mediated bone formation via PTH1R."
+title: "Teriparatide: Oligopeptide Research Reference"
+description: "Recombinant PTH(1-34) for osteoporosis stimulating osteoblast-mediated bone formation via PTH1R. This peptide or oligopeptide is studied for its biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

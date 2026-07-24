@@ -1,6 +1,6 @@
 ---
-title: "Lixisenatide/Insulin Glargine"
-description: "Fixed-ratio combination for type 2 diabetes."
+title: "Lixisenatide/Insulin Glargine: Comprehensive Peptide Refe..."
+description: "Fixed-ratio combination for type 2 diabetes. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and poten..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

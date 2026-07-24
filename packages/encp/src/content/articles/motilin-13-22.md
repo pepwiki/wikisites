@@ -1,6 +1,6 @@
 ---
-title: "Motilin 13-22"
-description: "Reference for motilin 13-22 variant in peptide research."
+title: "Motilin 13-22: Peptide Fragment Reference"
+description: "Comprehensive reference for motilin 13-22 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

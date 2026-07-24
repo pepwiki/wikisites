@@ -1,6 +1,6 @@
 ---
-title: "Rift Valley N Vaccine"
-description: "A peptide vaccine targeting Rift Valley N for infectious disease prevention."
+title: "Rift Valley N Vaccine: Oligopeptide Research Reference"
+description: "A peptide vaccine targeting Rift Valley N for infectious disease prevention. This peptide or oligopeptide is studied for its biological activity, structure-a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

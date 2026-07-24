@@ -1,6 +1,6 @@
 ---
-title: "Gyromitrin"
-description: "Comprehensive reference for Gyromitrin, a peptide compound with applications in research and therapeutics."
+title: "Gyromitrin: Oligopeptide Research Reference"
+description: "Gyromitrin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

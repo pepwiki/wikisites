@@ -1,6 +1,6 @@
 ---
-title: "Premixed Insulin 70/30"
-description: "Fixed combination of 70% NPH intermediate-acting and 30% regular insulin for twice-daily basal-bolus coverage."
+title: "Premixed Insulin 70/30: Oligopeptide Research Reference"
+description: "Fixed combination of 70% NPH intermediate-acting and 30% regular insulin for twice-daily basal-bolus coverage. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

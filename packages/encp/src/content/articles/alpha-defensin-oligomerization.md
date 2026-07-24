@@ -1,6 +1,6 @@
 ---
 title: "Alpha-Defensin Oligomerization"
-description: "Oligomerization forming pore-like structures in bacterial membranes."
+description: "Oligomerization forming pore-like structures in bacterial membranes. This antimicrobial peptide demonstrates activity against pathogens and is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

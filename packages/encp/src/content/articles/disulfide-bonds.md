@@ -1,6 +1,6 @@
 ---
-title: "Disulfide Bonds in Peptides"
-description: "Overview of disulfide bond formation between cysteine residues in peptide folding."
+title: "Disulfide Bonds in Peptides: Comprehensive Peptide Reference"
+description: "Overview of disulfide bond formation between cysteine residues in peptide folding. This modification affects peptide stability, receptor binding, and biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

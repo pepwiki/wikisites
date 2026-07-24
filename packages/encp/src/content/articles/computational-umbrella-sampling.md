@@ -1,6 +1,6 @@
 ---
 title: "Umbrella Sampling for Peptides"
-description: "A computational method for studying peptides using Umbrella Sampling."
+description: "A computational method for studying peptides using Umbrella Sampling. This analytical technique provides valuable insights into peptide structure, purity, an..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

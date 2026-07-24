@@ -1,6 +1,6 @@
 ---
-title: "Alpha-Conotoxin Synthetic"
-description: "Solid-phase synthesis strategies for conotoxin production."
+title: "Alpha-Conotoxin Synthetic: Comprehensive Peptide Reference"
+description: "Solid-phase synthesis strategies for conotoxin production. This peptide toxin is derived from venom and studied for its pharmacological activity, mechanism o..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

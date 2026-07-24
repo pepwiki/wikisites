@@ -1,6 +1,6 @@
 ---
-title: "Delivery Technologies"
-description: "Systems for peptide administration and transport"
+title: "Delivery Technologies: Oligopeptide Research Reference"
+description: "Systems for peptide administration and transport. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

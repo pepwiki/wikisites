@@ -1,6 +1,6 @@
 ---
-title: "Amyloid-beta 40"
-description: "40-aa peptide from APP. Less aggregation-prone than Aβ42. Aβ42/40 ratio is better."
+title: "Amyloid-beta 40: Oligopeptide Research Reference"
+description: "40-aa peptide from APP. Less aggregation-prone than Aβ42. Aβ42/40 ratio is better. This peptide or oligopeptide is studied for its biological activity, struc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

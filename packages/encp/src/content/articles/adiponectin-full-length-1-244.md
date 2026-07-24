@@ -1,6 +1,6 @@
 ---
-title: "Adiponectin full-length-1-244"
-description: "Reference for adiponectin full-length-1-244 variant in peptide research."
+title: "Adiponectin full-length-1-244: Comprehensive Peptide Refe..."
+description: "Comprehensive reference for adiponectin full-length-1-244 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

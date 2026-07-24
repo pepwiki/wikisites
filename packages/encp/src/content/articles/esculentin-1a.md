@@ -1,6 +1,6 @@
 ---
-title: "Esculentin 1a"
-description: "esculentin-1a is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity."
+title: "Esculentin 1a: Antimicrobial Peptide Reference"
+description: "esculentin-1a is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

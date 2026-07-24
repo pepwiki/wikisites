@@ -1,6 +1,6 @@
 ---
-title: "VEGF A Peptide Hormone"
-description: "The VEGF A Peptide Hormone and its role in endocrine signaling."
+title: "VEGF A Peptide Hormone: Endogenous Peptide Hormone Reference"
+description: "VEGF A, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical sig..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
 title: "Analytical Ultracentrifugation for Peptides"
-description: "Understand analytical ultracentrifugation for determining peptide molecular weight and oligomeric state in solution."
+description: "Understand analytical ultracentrifugation for determining peptide molecular weight and oligomeric state in solution. Covers molecular mechanisms, biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

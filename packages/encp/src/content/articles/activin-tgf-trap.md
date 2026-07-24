@@ -1,6 +1,6 @@
 ---
-title: "Activin/TGF-β Trap"
-description: "Activin/TGF-β Trap is a bioactive compound with applications in peptide research and therapeutics."
+title: "Activin/TGF-β Trap: Oligopeptide Research Reference"
+description: "Activin/TGF-β Trap is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

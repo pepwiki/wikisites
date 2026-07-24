@@ -1,6 +1,6 @@
 ---
-title: "Catalase Mimetic"
-description: "Comprehensive reference for catalase mimetic in peptide research."
+title: "Catalase Mimetic: Oligopeptide Research Reference"
+description: "catalase mimetic in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential ap..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

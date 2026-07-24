@@ -1,6 +1,6 @@
 ---
-title: "HPLC UV Analysis"
-description: "An analytical technique for characterizing peptides using HPLC UV."
+title: "HPLC UV Analysis: Analytical Technique in Peptide Research"
+description: "An analytical technique for characterizing peptides using HPLC UV. This analytical technique provides valuable insights into peptide structure, purity, and c..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Lipoxin A4"
-description: "Comprehensive reference for lipoxin A4 in peptide research."
+title: "Lipoxin A4: Oligopeptide Research Reference"
+description: "lipoxin A4 in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

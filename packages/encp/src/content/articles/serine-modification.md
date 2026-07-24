@@ -1,6 +1,6 @@
 ---
-title: "Serine Modification"
-description: "Post-translational modifications of Serine including phosphorylation, methylation, acetylation, and ubiquitination."
+title: "Serine Modification: Post-Translational Modification Refe..."
+description: "Post-translational modifications of Serine including phosphorylation, methylation, acetylation, and ubiquitination. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "α-Lactorphin"
-description: "Opioid peptide derived from β-lactoglobulin. Found in milk. Has analgesic activity."
+title: "α-Lactorphin: Oligopeptide Research Reference"
+description: "Opioid peptide derived from β-lactoglobulin. Found in milk. Has analgesic activity. This peptide or oligopeptide is studied for its biological activity, stru..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

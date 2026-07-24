@@ -1,6 +1,6 @@
 ---
-title: "Thymosin Alpha-1"
-description: "Thymic peptide with immunomodulatory properties enhancing T-cell maturation."
+title: "Thymosin Alpha-1: Antimicrobial Peptide Reference"
+description: "Thymic peptide with immunomodulatory properties enhancing T-cell maturation. This antimicrobial peptide demonstrates activity against pathogens and is studie..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

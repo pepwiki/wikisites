@@ -1,6 +1,6 @@
 ---
-title: "Insulin Efsitora Alfa"
-description: "Weekly basal insulin Fc fusion protein combining insulin efsitora with human IgG2 Fc for extended half-life."
+title: "Insulin Efsitora Alfa: Oligopeptide Research Reference"
+description: "Weekly basal insulin Fc fusion protein combining insulin efsitora with human IgG2 Fc for extended half-life. This peptide or oligopeptide is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

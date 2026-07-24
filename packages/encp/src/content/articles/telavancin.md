@@ -1,5 +1,5 @@
 ---
-title: "Telavancin"
+title: "Telavancin: Antimicrobial Peptide Reference"
 description: "Lipoglycopeptide antibiotic with dual mechanism inhibiting cell wall synthesis and disrupting membrane potential in gram-positive bacteria."
 status: "published"
 author: "Encyclopeptide Editorial"

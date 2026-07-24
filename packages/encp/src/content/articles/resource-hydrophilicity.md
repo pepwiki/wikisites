@@ -1,6 +1,6 @@
 ---
-title: "hydrophilicity Resource"
-description: "The hydrophilicity database or resource for peptide research, providing data on structure, function, and interactions."
+title: "hydrophilicity Resource: Oligopeptide Research Reference"
+description: "The hydrophilicity database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

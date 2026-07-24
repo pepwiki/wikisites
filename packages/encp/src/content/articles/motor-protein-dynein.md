@@ -1,6 +1,6 @@
 ---
-title: "Motor protein dynein"
-description: "Reference for motor protein dynein in peptide research."
+title: "Motor protein dynein: Oligopeptide Research Reference"
+description: "Comprehensive reference for motor protein dynein, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

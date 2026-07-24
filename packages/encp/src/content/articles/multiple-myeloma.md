@@ -1,6 +1,6 @@
 ---
-title: "Multiple Myeloma"
-description: "Plasma cell malignancy. Monoclonal protein, bone lesions, anemia."
+title: "Multiple Myeloma: Oligopeptide Research Reference"
+description: "Plasma cell malignancy. Monoclonal protein, bone lesions, anemia. This peptide or oligopeptide is studied for its biological activity, structure-activity rel..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "FGF21 Protein Hormone"
-description: "The FGF21 Protein Hormone and its role in endocrine signaling."
+title: "FGF21 Protein Hormone: Endogenous Peptide Hormone Reference"
+description: "FGF21, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical sign..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

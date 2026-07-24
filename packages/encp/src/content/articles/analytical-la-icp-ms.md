@@ -1,6 +1,6 @@
 ---
-title: "LA ICP MS Analysis"
-description: "An analytical technique for characterizing peptides using LA ICP MS."
+title: "LA ICP MS Analysis: Analytical Technique in Peptide Research"
+description: "An analytical technique for characterizing peptides using LA ICP MS. This analytical technique provides valuable insights into peptide structure, purity, and..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

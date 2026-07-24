@@ -1,5 +1,5 @@
 ---
-title: "Oritavancin"
+title: "Oritavancin: Antimicrobial Peptide Reference"
 description: "Lipoglycopeptide antibiotic with multiple mechanisms of action and 14-day half-life for single-dose treatment of gram-positive infections."
 status: "published"
 author: "Encyclopeptide Editorial"

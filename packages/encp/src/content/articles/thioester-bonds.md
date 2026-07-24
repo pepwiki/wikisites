@@ -1,6 +1,6 @@
 ---
-title: "Thioester Bonds in Peptides"
-description: "Explore thioester bonds in peptide biosynthesis, including intein-mediated ligation."
+title: "Thioester Bonds in Peptides: Comprehensive Peptide Reference"
+description: "Explore thioester bonds in peptide biosynthesis, including intein-mediated ligation. This modification affects peptide stability, receptor binding, and biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

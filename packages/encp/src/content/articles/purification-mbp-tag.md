@@ -1,6 +1,6 @@
 ---
-title: "MBP Tag Purification"
-description: "A purification technique for separating and isolating peptides using MBP Tag."
+title: "MBP Tag Purification: Analytical Technique in Peptide Res..."
+description: "A purification technique for separating and isolating peptides using MBP Tag. This analytical technique provides valuable insights into peptide structure, pu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

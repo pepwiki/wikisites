@@ -1,6 +1,6 @@
 ---
 title: "Checkpoint Inhibitor CD27-CD70"
-description: "Reference for checkpoint inhibitor CD27-CD70 in peptide research."
+description: "Comprehensive reference for checkpoint inhibitor CD27-CD70, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

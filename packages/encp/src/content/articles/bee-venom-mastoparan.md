@@ -1,6 +1,6 @@
 ---
-title: "Bee Venom Mastoparan"
-description: "Mast cell degranulating peptide from bee venom causing histamine release."
+title: "Bee Venom Mastoparan: Peptide Toxin in Pharmacology Refer..."
+description: "Mast cell degranulating peptide from bee venom causing histamine release. This peptide toxin is derived from venom and studied for its pharmacological activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

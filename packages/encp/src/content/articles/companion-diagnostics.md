@@ -1,6 +1,6 @@
 ---
-title: "Companion Diagnostics"
-description: "Peptide-based companion diagnostics."
+title: "Companion Diagnostics: Oligopeptide Research Reference"
+description: "Peptide-based companion diagnostics. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential app..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

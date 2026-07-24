@@ -1,6 +1,6 @@
 ---
-title: "LH Family Peptides"
-description: "Explore luteinizing hormone family peptides and their critical roles in ovulation and steroidogenesis."
+title: "LH Family Peptides: Oligopeptide Research Reference"
+description: "Explore luteinizing hormone family peptides and their critical roles in ovulation and steroidogenesis. This peptide or oligopeptide is studied for its biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

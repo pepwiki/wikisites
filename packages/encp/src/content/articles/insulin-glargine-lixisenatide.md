@@ -1,6 +1,6 @@
 ---
-title: "Insulin Glargine/Lixisenatide"
-description: "Fixed-ratio glargine/lixisenatide. Basal insulin plus prandial GLP-1 agonist."
+title: "Insulin Glargine/Lixisenatide: Comprehensive Peptide Refe..."
+description: "Fixed-ratio glargine/lixisenatide. Basal insulin plus prandial GLP-1 agonist. This peptide or oligopeptide is studied for its biological activity, structure-..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

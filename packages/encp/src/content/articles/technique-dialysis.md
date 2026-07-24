@@ -1,6 +1,6 @@
 ---
-title: "dialysis for Peptides"
-description: "Application of dialysis technique for peptide characterization, structure determination, or formulation."
+title: "dialysis for Peptides: Analytical Technique in Peptide Re..."
+description: "Application of dialysis technique for peptide characterization, structure determination, or formulation. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

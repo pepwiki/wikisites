@@ -1,6 +1,6 @@
 ---
-title: "Nisin"
-description: "Nisin is a lantibiotic peptide produced by Lactococcus lactis, used as a food preservative since 1969, that kills gram-positive bacteria by binding lipid II and forming pores."
+title: "Nisin: Antimicrobial Peptide Reference"
+description: "Nisin is a lantibiotic peptide produced by Lactococcus lactis, used as a food preservative since 1969, that kills gram-positive bacteria by binding lipid II ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-07-01

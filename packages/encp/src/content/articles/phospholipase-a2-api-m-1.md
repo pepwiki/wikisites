@@ -1,5 +1,5 @@
 ---
-title: "Phospholipase A2 (Api m 1)"
+title: "Phospholipase A2 (Api m 1): Comprehensive Peptide Reference"
 description: "Comprehensive reference for Phospholipase A2 (Api m 1), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

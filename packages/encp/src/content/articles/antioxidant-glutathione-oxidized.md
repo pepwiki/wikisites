@@ -1,6 +1,6 @@
 ---
-title: "Glutathione Oxidized"
-description: "Comprehensive reference for glutathione oxidized in peptide research."
+title: "Glutathione Oxidized: Oligopeptide Research Reference"
+description: "glutathione oxidized in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potentia..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

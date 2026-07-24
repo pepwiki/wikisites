@@ -1,6 +1,6 @@
 ---
 title: "Fibroblast Growth Factor Family"
-description: "Overview of FGF family peptides in cell proliferation, development, and tissue repair."
+description: "Overview of FGF family peptides in cell proliferation, development, and tissue repair. This peptide or oligopeptide is studied for its biological activity, s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

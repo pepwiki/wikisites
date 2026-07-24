@@ -1,6 +1,6 @@
 ---
 title: "Melanostatin: Structure, Function, and Significance"
-description: "Melanostatin (MSH release-inhibiting factor) is a tripeptide that inhibits melanocyte-stimulating hormone release."
+description: "Melanostatin (MSH release-inhibiting factor) is a tripeptide that inhibits melanocyte-stimulating hormone release. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

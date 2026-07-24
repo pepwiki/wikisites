@@ -1,6 +1,6 @@
 ---
-title: "CD47 Blocker"
-description: "Comprehensive reference for CD47 blocker in peptide research."
+title: "CD47 Blocker: Oligopeptide Research Reference"
+description: "CD47 blocker in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

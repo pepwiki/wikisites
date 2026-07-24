@@ -1,6 +1,6 @@
 ---
-title: "Diagnostics Peptides: Biomarker Discovery and Clinical Assays"
-description: "Explore peptide-based diagnostic technologies for disease detection, monitoring, and personalized medicine."
+title: "Diagnostics Peptides: Biomarker Discovery and Clinical As..."
+description: "Explore peptide-based diagnostic technologies for disease detection, monitoring, and personalized medicine. This peptide or oligopeptide is studied for its b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

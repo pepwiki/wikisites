@@ -1,6 +1,6 @@
 ---
-title: "contact-map Resource"
-description: "The contact-map database or resource for peptide research, providing data on structure, function, and interactions."
+title: "contact-map Resource: Oligopeptide Research Reference"
+description: "The contact-map database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

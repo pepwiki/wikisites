@@ -1,6 +1,6 @@
 ---
-title: "NMR CBCACONH Analysis"
-description: "An analytical technique for characterizing peptides using NMR CBCACONH."
+title: "NMR CBCACONH Analysis: Analytical Technique in Peptide Re..."
+description: "An analytical technique for characterizing peptides using NMR CBCACONH. This analytical technique provides valuable insights into peptide structure, purity, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

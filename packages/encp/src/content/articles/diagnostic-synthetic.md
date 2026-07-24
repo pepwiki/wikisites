@@ -1,6 +1,6 @@
 ---
-title: "Diagnostic Synthetic"
-description: "Radiolabeled peptide imaging agents"
+title: "Diagnostic Synthetic: Oligopeptide Research Reference"
+description: "Radiolabeled peptide imaging agents. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential app..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Survivin Peptide"
-description: "Comprehensive reference for survivin peptide in peptide research."
+title: "Survivin Peptide: Oligopeptide Research Reference"
+description: "survivin peptide in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential ap..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

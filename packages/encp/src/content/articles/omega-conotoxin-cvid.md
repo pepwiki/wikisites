@@ -1,6 +1,6 @@
 ---
-title: "Omega-Conotoxin CVID"
-description: "N-type calcium channel blocker from Conus catus with clinical development for pain."
+title: "Omega-Conotoxin CVID: Peptide Toxin in Pharmacology Refer..."
+description: "N-type calcium channel blocker from Conus catus with clinical development for pain. This peptide toxin is derived from venom and studied for its pharmacologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Peptide-polymer conjugate"
-description: "Reference for peptide-polymer conjugate in peptide research."
+title: "Peptide-polymer conjugate: Comprehensive Peptide Reference"
+description: "Comprehensive reference for peptide-polymer conjugate, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

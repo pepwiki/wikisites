@@ -1,6 +1,6 @@
 ---
-title: "Dermcidin"
-description: "Sweat gland-derived antimicrobial peptide providing constitutive skin surface defense."
+title: "Dermcidin: Antimicrobial Peptide Reference"
+description: "Sweat gland-derived antimicrobial peptide providing constitutive skin surface defense. This antimicrobial peptide demonstrates activity against pathogens and..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

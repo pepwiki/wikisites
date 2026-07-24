@@ -1,6 +1,6 @@
 ---
-title: "Insulin in Pregnancy"
-description: "Safety considerations for insulin analog use in gestational and pregestational diabetes during pregnancy."
+title: "Insulin in Pregnancy: Oligopeptide Research Reference"
+description: "Safety considerations for insulin analog use in gestational and pregestational diabetes during pregnancy. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

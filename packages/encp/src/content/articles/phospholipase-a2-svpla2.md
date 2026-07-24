@@ -1,6 +1,6 @@
 ---
-title: "Phospholipase A2 SvPLA2"
-description: "phospholipase-A2-svPLA2 is a snake venom peptide toxin with specific pharmacological activity."
+title: "Phospholipase A2 SvPLA2: Peptide Toxin in Pharmacology Re..."
+description: "phospholipase-A2-svPLA2 is a snake venom peptide toxin with specific pharmacological activity. This peptide toxin is derived from venom and studied for its p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

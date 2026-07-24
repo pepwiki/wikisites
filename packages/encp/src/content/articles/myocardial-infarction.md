@@ -1,6 +1,6 @@
 ---
-title: "Myocardial Infarction"
-description: "Acute myocardial necrosis from prolonged ischemia. STEMI: complete coronary occlusion, ST elevation on ECG, troponin elevation. NSTEMI: partial occlusion, no ST elevation, troponin elevation. Pathophy"
+title: "Myocardial Infarction: Oligopeptide Research Reference"
+description: "Acute myocardial necrosis from prolonged ischemia. STEMI: complete coronary occlusion, ST elevation on ECG, troponin elevation. NSTEMI: partial occlusion, no..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Acute myocardial necrosis from prolonged ischemia. STEMI: complete coronary occlusion, ST elevation on ECG, troponin elevation. NSTEMI: partial occlusion, no ST elevation, troponin elevation. Pathophysiology: atherosclerotic plaque rupture → thrombus formation → coronary occlusion → ischemia → necrosis. Treatments: primary PCI (preferred), thrombolytics, dual antiplatelet therapy (aspirin + P2Y12 inhibitor), anticoagulation, statins.
+Acute myocardial necrosis from prolonged ischemia. STEMI: complete coronary occlusion, ST elevation on ECG, troponin elevation. NSTEMI: partial occlusion, no...siology: atherosclerotic plaque rupture → thrombus formation → coronary occlusion → ischemia → necrosis. Treatments: primary PCI (preferred), thrombolytics, dual antiplatelet therapy (aspirin + P2Y12 inhibitor), anticoagulation, statins.
 
 ## Clinical Significance
 

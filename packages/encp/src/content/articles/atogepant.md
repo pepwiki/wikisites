@@ -1,6 +1,6 @@
 ---
-title: "Atogepant"
-description: "Oral CGRP receptor antagonist for episodic migraine prevention with daily dosing."
+title: "Atogepant: Oligopeptide Research Reference"
+description: "Oral CGRP receptor antagonist for episodic migraine prevention with daily dosing. This peptide or oligopeptide is studied for its biological activity, struct..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

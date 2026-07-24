@@ -1,6 +1,6 @@
 ---
-title: "Synthetic Defensin Mimetics"
-description: "Rationally designed synthetic peptides mimicking defensin structure and function."
+title: "Synthetic Defensin Mimetics: Comprehensive Peptide Reference"
+description: "Rationally designed synthetic peptides mimicking defensin structure and function. This antimicrobial peptide demonstrates activity against pathogens and is s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

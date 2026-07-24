@@ -1,6 +1,6 @@
 ---
-title: "Angiotensin I"
-description: "Angiotensin I is a decapeptide generated from angiotensinogen by renin, serving as the obligate substrate for angiotensin-converting enzyme in the renin-angiotensin system."
+title: "Angiotensin I: Oligopeptide Research Reference"
+description: "Angiotensin I is a decapeptide generated from angiotensinogen by renin, serving as the obligate substrate for angiotensin-converting enzyme in the renin-angi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-07-15

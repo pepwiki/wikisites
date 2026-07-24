@@ -1,6 +1,6 @@
 ---
-title: "Chicken VIP"
-description: "VIP from chicken intestine. Regulates GI function and vasodilation."
+title: "Chicken VIP: Oligopeptide Research Reference"
+description: "VIP from chicken intestine. Regulates GI function and vasodilation. This peptide or oligopeptide is studied for its biological activity, structure-activity r..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,5 +1,5 @@
 ---
-title: "Gramicidin A"
+title: "Gramicidin A: Antimicrobial Peptide Reference"
 description: "Gramicidin A is a linear 15-amino acid peptide antibiotic from Bacillus brevis that forms cation-selective ion channels in bacterial membranes."
 status: "published"
 author: "Encyclopeptide Editorial"

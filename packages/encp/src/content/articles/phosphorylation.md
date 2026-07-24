@@ -1,6 +1,6 @@
 ---
-title: "Phosphorylation"
-description: "Addition of phosphate group to serine, threonine, or tyrosine. Key regulatory modification."
+title: "Phosphorylation: Oligopeptide Research Reference"
+description: "Addition of phosphate group to serine, threonine, or tyrosine. Key regulatory modification. This peptide or oligopeptide is studied for its biological activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

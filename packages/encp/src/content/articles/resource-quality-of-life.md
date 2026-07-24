@@ -1,6 +1,6 @@
 ---
-title: "quality-of-life Resource"
-description: "The quality-of-life database or resource for peptide research, providing data on structure, function, and interactions."
+title: "quality-of-life Resource: Oligopeptide Research Reference"
+description: "The quality-of-life database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
 title: "Peptide-Protein Interaction Design"
-description: "Computational and experimental approaches to designing peptide-protein interactions."
+description: "Computational and experimental approaches to designing peptide-protein interactions. This peptide or oligopeptide is studied for its biological activity, str..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

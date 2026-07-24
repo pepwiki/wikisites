@@ -1,6 +1,6 @@
 ---
-title: "Diphtheria Toxin (DT)"
-description: "Comprehensive reference for Diphtheria Toxin (DT), a peptide compound with applications in research and therapeutics."
+title: "Diphtheria Toxin (DT): Peptide Toxin in Pharmacology Refe..."
+description: "Diphtheria Toxin (DT), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

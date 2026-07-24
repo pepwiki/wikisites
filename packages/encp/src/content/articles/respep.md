@@ -1,6 +1,6 @@
 ---
-title: "ResPep"
-description: "Peptide synthesizer for research-scale SPPS."
+title: "ResPep: Oligopeptide Research Reference"
+description: "Peptide synthesizer for research-scale SPPS. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and poten..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

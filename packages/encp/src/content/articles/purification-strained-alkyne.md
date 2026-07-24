@@ -1,6 +1,6 @@
 ---
-title: "Strained Alkyne Purification"
-description: "A purification technique for separating and isolating peptides using Strained Alkyne."
+title: "Strained Alkyne Purification: Comprehensive Peptide Refer..."
+description: "A purification technique for separating and isolating peptides using Strained Alkyne. This analytical technique provides valuable insights into peptide struc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

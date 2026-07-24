@@ -1,6 +1,6 @@
 ---
-title: "Plicamycin (Mithramycin)"
-description: "Aureolic acid antibiotic from Streptomyces inhibiting RNA synthesis, used for testicular cancer and hypercalcemia."
+title: "Plicamycin (Mithramycin): Oligopeptide Research Reference"
+description: "Aureolic acid antibiotic from Streptomyces inhibiting RNA synthesis, used for testicular cancer and hypercalcemia. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

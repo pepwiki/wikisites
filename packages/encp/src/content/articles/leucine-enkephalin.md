@@ -1,6 +1,6 @@
 ---
-title: "Leucine-Enkephalin"
-description: "A 5-amino acid endogenous opioid peptide (Tyr-Gly-Gly-Phe-Leu) that preferentially activates delta-opioid receptors, mediating analgesia, mood regulation, and reward pathways."
+title: "Leucine-Enkephalin: Neuropeptide in Neuroscience Reference"
+description: "A 5-amino acid endogenous opioid peptide (Tyr-Gly-Gly-Phe-Leu) that preferentially activates delta-opioid receptors, mediating analgesia, mood regulation, an..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

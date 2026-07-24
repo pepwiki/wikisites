@@ -1,6 +1,6 @@
 ---
-title: "xerogel for Peptides"
-description: "Application of xerogel technique for peptide characterization, structure determination, or formulation."
+title: "xerogel for Peptides: Analytical Technique in Peptide Res..."
+description: "Application of xerogel technique for peptide characterization, structure determination, or formulation. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,5 +1,5 @@
 ---
-title: "Omiganan"
+title: "Omiganan: Antimicrobial Peptide Reference"
 description: "Synthetic indolicidin-derived antimicrobial peptide under investigation for catheter-related infections and acne vulgaris."
 status: "published"
 author: "Encyclopeptide Editorial"

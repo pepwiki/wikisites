@@ -1,5 +1,5 @@
 ---
-title: "Canine Neutrophil Peptide"
+title: "Canine Neutrophil Peptide: Comprehensive Peptide Reference"
 description: "Comprehensive reference for Canine Neutrophil Peptide, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

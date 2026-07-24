@@ -1,6 +1,6 @@
 ---
 title: "Antimicrobial Peptide Overdose"
-description: "Excessive dosing of antimicrobial peptides. Can cause toxicity and resistance."
+description: "Excessive dosing of antimicrobial peptides. Can cause toxicity and resistance. This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

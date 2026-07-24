@@ -1,6 +1,6 @@
 ---
-title: "Hepcidin Hormone"
-description: "The Hepcidin Hormone and its role in endocrine signaling."
+title: "Hepcidin Hormone: Endogenous Peptide Hormone Reference"
+description: "Hepcidin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

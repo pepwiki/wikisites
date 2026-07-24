@@ -1,6 +1,6 @@
 ---
-title: "Special Populations"
-description: "Dose adjustment required"
+title: "Special Populations: Oligopeptide Research Reference"
+description: "Dose adjustment required. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

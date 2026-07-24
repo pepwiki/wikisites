@@ -1,5 +1,5 @@
 ---
-title: "Parkinson's and Peptides"
+title: "Parkinson's and Peptides: Oligopeptide Research Reference"
 description: "Understand peptide-based strategies for Parkinson's disease including neurotrophic factors and alpha-synuclein modulators."
 status: "published"
 author: "Encyclopeptide Editorial"

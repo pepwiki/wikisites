@@ -1,6 +1,6 @@
 ---
-title: "Peptide disordered"
-description: "Reference for peptide disordered in peptide research."
+title: "Peptide disordered: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide disordered, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

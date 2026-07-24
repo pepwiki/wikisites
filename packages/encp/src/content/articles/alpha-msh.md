@@ -1,6 +1,6 @@
 ---
-title: "Alpha-MSH"
-description: "A 13-amino acid melanocortin peptide derived from proopiomelanocortin (POMC) that regulates pigmentation, appetite, and inflammation through melanocortin receptors."
+title: "Alpha-MSH: Oligopeptide Research Reference"
+description: "A 13-amino acid melanocortin peptide derived from proopiomelanocortin (POMC) that regulates pigmentation, appetite, and inflammation through melanocortin rec..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

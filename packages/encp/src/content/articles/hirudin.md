@@ -1,5 +1,5 @@
 ---
-title: "Hirudin"
+title: "Hirudin: Oligopeptide Research Reference"
 description: "65-amino acid thrombin inhibitor from medicinal leeches, the most potent natural anticoagulant with bivalent thrombin binding."
 status: "published"
 author: "Encyclopeptide Editorial"

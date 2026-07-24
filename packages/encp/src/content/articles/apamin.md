@@ -1,6 +1,6 @@
 ---
-title: "Apamin"
-description: "Apamin is an 18-amino acid bee venom neurotoxin that selectively blocks small-conductance calcium-activated potassium channels (SK channels), used as a neuroscience research tool."
+title: "Apamin: Peptide Toxin in Pharmacology Reference"
+description: "Apamin is an 18-amino acid bee venom neurotoxin that selectively blocks small-conductance calcium-activated potassium channels (SK channels), used as a neuro..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-07-25

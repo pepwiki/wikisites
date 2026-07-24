@@ -1,6 +1,6 @@
 ---
 title: "Peptide Drug Excipient Compatibility"
-description: "Studies assessing the compatibility of peptide active ingredients with pharmaceutical excipients."
+description: "Studies assessing the compatibility of peptide active ingredients with pharmaceutical excipients. This peptide or oligopeptide is studied for its biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

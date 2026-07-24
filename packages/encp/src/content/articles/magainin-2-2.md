@@ -1,6 +1,6 @@
 ---
-title: "Magainin 2"
-description: "Amphibian antimicrobial peptide from Xenopus laevis skin that pioneered the field of host defense peptides."
+title: "Magainin 2: Antimicrobial Peptide Reference"
+description: "Amphibian antimicrobial peptide from Xenopus laevis skin that pioneered the field of host defense peptides. This peptide or oligopeptide is studied for its b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

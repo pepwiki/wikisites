@@ -1,6 +1,6 @@
 ---
-title: "Amyloid-beta oligomer"
-description: "Reference for amyloid-beta oligomer in peptide research."
+title: "Amyloid-beta oligomer: Oligopeptide Research Reference"
+description: "Comprehensive reference for amyloid-beta oligomer, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

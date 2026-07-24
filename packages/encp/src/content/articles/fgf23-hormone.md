@@ -1,6 +1,6 @@
 ---
-title: "FGF23 Hormone"
-description: "The FGF23 Hormone and its role in endocrine signaling."
+title: "FGF23 Hormone: Endogenous Peptide Hormone Reference"
+description: "FGF23, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical sign..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

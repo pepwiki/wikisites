@@ -1,6 +1,6 @@
 ---
-title: "MenB NHBA"
-description: "MenB-NHBA is a peptide antigen used in vaccine development for infectious disease prevention."
+title: "MenB NHBA: Oligopeptide Research Reference"
+description: "MenB-NHBA is a peptide antigen used in vaccine development for infectious disease prevention. This peptide or oligopeptide is studied for its biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

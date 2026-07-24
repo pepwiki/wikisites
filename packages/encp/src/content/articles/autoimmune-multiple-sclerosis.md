@@ -1,6 +1,6 @@
 ---
 title: "Autoimmune / Multiple Sclerosis"
-description: "Autoimmune / Multiple Sclerosis is a bioactive compound with applications in peptide research and therapeutics."
+description: "Autoimmune / Multiple Sclerosis is a bioactive compound with applications in peptide research and therapeutics. Covers molecular mechanisms, biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

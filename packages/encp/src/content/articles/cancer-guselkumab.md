@@ -1,6 +1,6 @@
 ---
-title: "Guselkumab"
-description: "Comprehensive reference for guselkumab in peptide research."
+title: "Guselkumab: Oligopeptide Research Reference"
+description: "guselkumab in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

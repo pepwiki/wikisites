@@ -1,6 +1,6 @@
 ---
-title: "Iodoacetamide Purification"
-description: "A purification technique for separating and isolating peptides using Iodoacetamide."
+title: "Iodoacetamide Purification: Comprehensive Peptide Reference"
+description: "A purification technique for separating and isolating peptides using Iodoacetamide. This analytical technique provides valuable insights into peptide structu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

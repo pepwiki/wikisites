@@ -1,6 +1,6 @@
 ---
-title: "Muromonab-CD3"
-description: "First monoclonal antibody approved for clinical use, targeting CD3 for acute transplant rejection reversal."
+title: "Muromonab-CD3: Oligopeptide Research Reference"
+description: "First monoclonal antibody approved for clinical use, targeting CD3 for acute transplant rejection reversal. This peptide or oligopeptide is studied for its b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

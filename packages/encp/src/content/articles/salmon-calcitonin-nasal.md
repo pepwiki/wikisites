@@ -1,6 +1,6 @@
 ---
-title: "Salmon Calcitonin Nasal Spray"
-description: "Intranasal formulation of synthetic salmon calcitonin for osteoporosis treatment providing bone-protective effects."
+title: "Salmon Calcitonin Nasal Spray: Comprehensive Peptide Refe..."
+description: "Intranasal formulation of synthetic salmon calcitonin for osteoporosis treatment providing bone-protective effects. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

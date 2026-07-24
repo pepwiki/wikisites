@@ -1,6 +1,6 @@
 ---
-title: "Rice Oryzatin"
-description: "Comprehensive reference for rice oryzatin in peptide research."
+title: "Rice Oryzatin: Oligopeptide Research Reference"
+description: "rice oryzatin in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appli..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

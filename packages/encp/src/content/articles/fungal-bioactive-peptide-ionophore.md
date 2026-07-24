@@ -1,6 +1,6 @@
 ---
 title: "Fungal Bioactive Peptide / Ionophore"
-description: "Fungal Bioactive Peptide / Ionophore is a bioactive compound with applications in peptide research and therapeutics."
+description: "Fungal Bioactive Peptide / Ionophore is a bioactive compound with applications in peptide research and therapeutics. Covers molecular mechanisms, biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

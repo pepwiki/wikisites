@@ -1,6 +1,6 @@
 ---
-title: "Ubiquitination (Lys)"
-description: "Comprehensive reference for Ubiquitination (Lys), a peptide compound with applications in research and therapeutics."
+title: "Ubiquitination (Lys): Post-Translational Modification Ref..."
+description: "Ubiquitination (Lys), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Ovarian Cancer"
-description: "Malignant transformation of ovarian epithelium. Most lethal gynecologic cancer."
+title: "Ovarian Cancer: Oligopeptide Research Reference"
+description: "Malignant transformation of ovarian epithelium. Most lethal gynecologic cancer. This peptide or oligopeptide is studied for its biological activity, structur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

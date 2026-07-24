@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 and Atrial Fibrillation"
-description: "Investigation of effects on atrial fibrillation risk and atrial remodeling in metabolic syndrome."
+title: "GLP-1 and Atrial Fibrillation: Comprehensive Peptide Refe..."
+description: "Investigation of effects on atrial fibrillation risk and atrial remodeling in metabolic syndrome. This peptide or oligopeptide is studied for its biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

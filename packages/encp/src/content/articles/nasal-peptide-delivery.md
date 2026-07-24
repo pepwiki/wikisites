@@ -1,6 +1,6 @@
 ---
-title: "Nasal Peptide Delivery"
-description: "Explore intranasal peptide delivery routes for bypassing first-pass metabolism and achieving brain targeting."
+title: "Nasal Peptide Delivery: Oligopeptide Research Reference"
+description: "Explore intranasal peptide delivery routes for bypassing first-pass metabolism and achieving brain targeting. This peptide or oligopeptide is studied for its..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

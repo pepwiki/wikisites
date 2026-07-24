@@ -1,6 +1,6 @@
 ---
-title: "Thermosensitive Hydrogel"
-description: "Temperature-responsive hydrogels forming depot at body temperature for sustained release."
+title: "Thermosensitive Hydrogel: Oligopeptide Research Reference"
+description: "Temperature-responsive hydrogels forming depot at body temperature for sustained release. This peptide or oligopeptide is studied for its biological activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

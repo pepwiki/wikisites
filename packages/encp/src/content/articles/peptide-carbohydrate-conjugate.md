@@ -1,6 +1,6 @@
 ---
 title: "Peptide-carbohydrate conjugate"
-description: "Reference for peptide-carbohydrate conjugate in peptide research."
+description: "Comprehensive reference for peptide-carbohydrate conjugate, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
 title: "Peptide Supply Chain Management"
-description: "Management of peptide raw materials, intermediates, and finished products throughout the pharmaceutical supply chain."
+description: "Management of peptide raw materials, intermediates, and finished products throughout the pharmaceutical supply chain. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "IL 10 Hormone"
-description: "The IL 10 Hormone and its role in endocrine signaling."
+title: "IL 10 Hormone: Endogenous Peptide Hormone Reference"
+description: "IL 10, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical sign..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

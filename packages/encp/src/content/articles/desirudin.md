@@ -1,6 +1,6 @@
 ---
-title: "Desirudin"
-description: "Recombinant hirudin variant for DVT prophylaxis after hip replacement surgery."
+title: "Desirudin: Oligopeptide Research Reference"
+description: "Recombinant hirudin variant for DVT prophylaxis after hip replacement surgery. This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

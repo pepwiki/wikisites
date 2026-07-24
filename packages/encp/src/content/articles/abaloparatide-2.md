@@ -1,5 +1,5 @@
 ---
-title: "Abaloparatide"
+title: "Abaloparatide: Oligopeptide Research Reference"
 description: "Synthetic PTHrP analog that preferentially activates RG signaling for osteoporosis treatment with less hypercalcemia than teriparatide."
 status: "published"
 author: "Encyclopeptide Editorial"

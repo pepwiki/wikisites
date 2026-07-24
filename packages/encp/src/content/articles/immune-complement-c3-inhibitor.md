@@ -1,6 +1,6 @@
 ---
-title: "Complement C3 Inhibitor"
-description: "Comprehensive reference for complement C3 inhibitor in peptide research."
+title: "Complement C3 Inhibitor: Oligopeptide Research Reference"
+description: "complement C3 inhibitor in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and poten..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

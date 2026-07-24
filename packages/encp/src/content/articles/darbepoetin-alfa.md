@@ -1,5 +1,5 @@
 ---
-title: "Darbepoetin Alfa"
+title: "Darbepoetin Alfa: Oligopeptide Research Reference"
 description: "Long-acting erythropoiesis-stimulating glycoprotein with additional sialic acid residues for extended half-life in anemia treatment."
 status: "published"
 author: "Encyclopeptide Editorial"

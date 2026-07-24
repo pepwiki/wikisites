@@ -1,6 +1,6 @@
 ---
-title: "ACTH 1-13"
-description: "Reference for ACTH 1-13 variant in peptide research."
+title: "ACTH 1-13: Adrenocorticotropic Hormone Fragment in Peptid..."
+description: "Comprehensive reference for ACTH 1-13 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

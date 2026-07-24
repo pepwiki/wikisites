@@ -1,6 +1,6 @@
 ---
-title: "Reproductive Endocrinology"
-description: "Reproductive Endocrinology is a bioactive compound with applications in peptide research and therapeutics."
+title: "Reproductive Endocrinology: Comprehensive Peptide Reference"
+description: "Reproductive Endocrinology is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

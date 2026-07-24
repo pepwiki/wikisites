@@ -1,6 +1,6 @@
 ---
-title: "Cross-Linking MS for Peptides"
-description: "Understand chemical cross-linking mass spectrometry for mapping peptide-protein interaction interfaces."
+title: "Cross-Linking MS for Peptides: Comprehensive Peptide Refe..."
+description: "Understand chemical cross-linking mass spectrometry for mapping peptide-protein interaction interfaces. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

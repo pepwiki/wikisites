@@ -1,5 +1,5 @@
 ---
-title: "Insulin PDegludec"
+title: "Insulin PDegludec: Oligopeptide Research Reference"
 description: "insulin-pDegludec is a modified insulin analog with altered pharmacokinetic properties for improved diabetes management."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,6 +1,6 @@
 ---
-title: "Glucagon"
-description: "A 29-amino acid peptide hormone from pancreatic α-cells that promotes glycogenolysis and gluconeogenesis, serving as the primary counter-regulatory hormone to insulin."
+title: "Glucagon: Oligopeptide Research Reference"
+description: "A 29-amino acid peptide hormone from pancreatic α-cells that promotes glycogenolysis and gluconeogenesis, serving as the primary counter-regulatory hormone t..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

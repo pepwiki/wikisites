@@ -1,6 +1,6 @@
 ---
-title: "BNP → Neprilysin (Substrate)"
-description: "BNP as a substrate for neprilysin enzyme, relevant to sacubitril/valsartan heart failure therapy."
+title: "BNP → Neprilysin (Substrate): Comprehensive Peptide Refer..."
+description: "BNP as a substrate for neprilysin enzyme, relevant to sacubitril/valsartan heart failure therapy. This peptide or oligopeptide is studied for its biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

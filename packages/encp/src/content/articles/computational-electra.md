@@ -1,6 +1,6 @@
 ---
-title: "ELECTRA for Peptides"
-description: "A computational method for studying peptides using ELECTRA."
+title: "ELECTRA for Peptides: Analytical Technique in Peptide Res..."
+description: "A computational method for studying peptides using ELECTRA. This analytical technique provides valuable insights into peptide structure, purity, and characte..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

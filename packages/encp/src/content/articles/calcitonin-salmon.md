@@ -1,6 +1,6 @@
 ---
-title: "Calcitonin Salmon"
-description: "Synthetic salmon calcitonin for osteoporosis and Paget's disease, inhibiting osteoclast-mediated bone resorption."
+title: "Calcitonin Salmon: Oligopeptide Research Reference"
+description: "Synthetic salmon calcitonin for osteoporosis and Paget's disease, inhibiting osteoclast-mediated bone resorption. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

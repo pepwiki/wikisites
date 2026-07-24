@@ -1,6 +1,6 @@
 ---
-title: "Oral Antimicrobial Peptides"
-description: "Salivary antimicrobial peptides including histatins, defensins, and LL-37."
+title: "Oral Antimicrobial Peptides: Comprehensive Peptide Reference"
+description: "Salivary antimicrobial peptides including histatins, defensins, and LL-37. This antimicrobial peptide demonstrates activity against pathogens and is studied ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

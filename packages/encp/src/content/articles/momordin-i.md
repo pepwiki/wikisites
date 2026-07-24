@@ -1,6 +1,6 @@
 ---
-title: "Momordin I"
-description: "momordin-I is a cyclotide — a cyclic, knotted peptide from plants with exceptional stability and insecticidal activity."
+title: "Momordin I: Oligopeptide Research Reference"
+description: "momordin-I is a cyclotide — a cyclic, knotted peptide from plants with exceptional stability and insecticidal activity. Covers molecular mechanisms, biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

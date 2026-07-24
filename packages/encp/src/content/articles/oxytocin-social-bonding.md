@@ -1,6 +1,6 @@
 ---
-title: "Oxytocin Social Bonding"
-description: "Central oxytocin effects on pair bonding, trust, and social recognition."
+title: "Oxytocin Social Bonding: Neuropeptide in Neuroscience Ref..."
+description: "Central oxytocin effects on pair bonding, trust, and social recognition. This neuropeptide is involved in neurological signaling and is studied for its roles..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

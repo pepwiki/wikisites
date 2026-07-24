@@ -1,6 +1,6 @@
 ---
-title: "Photochemical Synthesis"
-description: "A peptide synthesis method using Photochemical for producing peptides with specific properties."
+title: "Photochemical Synthesis: Analytical Technique in Peptide ..."
+description: "A peptide synthesis method using Photochemical for producing peptides with specific properties. This analytical technique provides valuable insights into pep..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

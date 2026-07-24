@@ -1,6 +1,6 @@
 ---
-title: "Peptide-Based Contrast Agents"
-description: "Radiolabeled peptides and MRI contrast agents enable targeted tumor imaging through receptor-mediated accumulation, improving diagnostic sensitivity and treatment monitoring."
+title: "Peptide-Based Contrast Agents: Comprehensive Peptide Refe..."
+description: "Radiolabeled peptides and MRI contrast agents enable targeted tumor imaging through receptor-mediated accumulation, improving diagnostic sensitivity and trea..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-03-22

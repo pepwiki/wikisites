@@ -1,6 +1,6 @@
 ---
 title: "Cell-Penetrating Peptides for Delivery"
-description: "Explore CPP-mediated intracellular delivery of cargo peptides across cell membranes."
+description: "Explore CPP-mediated intracellular delivery of cargo peptides across cell membranes. This peptide or oligopeptide is studied for its biological activity, str..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

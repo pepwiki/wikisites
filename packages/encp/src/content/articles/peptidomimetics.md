@@ -1,6 +1,6 @@
 ---
-title: "Peptidomimetics"
-description: "Overview of peptidomimetic compounds designed to overcome peptide drug limitations."
+title: "Peptidomimetics: Post-Translational Modification Reference"
+description: "Overview of peptidomimetic compounds designed to overcome peptide drug limitations. This modification affects peptide stability, receptor binding, and biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Flow Cytometry Analysis"
-description: "An analytical technique for characterizing peptides using Flow Cytometry."
+title: "Flow Cytometry Analysis: Analytical Technique in Peptide ..."
+description: "An analytical technique for characterizing peptides using Flow Cytometry. This analytical technique provides valuable insights into peptide structure, purity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

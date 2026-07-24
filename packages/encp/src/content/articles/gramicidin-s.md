@@ -1,5 +1,5 @@
 ---
-title: "Gramicidin S"
+title: "Gramicidin S: Antimicrobial Peptide Reference"
 description: "Cyclic decapeptide antibiotic from Bacillus brevis that disrupts bacterial membranes through amphipathic beta-sheet structure."
 status: "published"
 author: "Encyclopeptide Editorial"

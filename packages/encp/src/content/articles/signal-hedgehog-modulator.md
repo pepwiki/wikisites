@@ -1,6 +1,6 @@
 ---
-title: "Hedgehog Modulator"
-description: "Comprehensive reference for Hedgehog modulator in peptide research."
+title: "Hedgehog Modulator: Oligopeptide Research Reference"
+description: "Hedgehog modulator in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

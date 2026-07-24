@@ -1,6 +1,6 @@
 ---
-title: "Peptide backbone modification"
-description: "Reference for peptide backbone modification in peptide research."
+title: "Peptide backbone modification: Comprehensive Peptide Refe..."
+description: "Comprehensive reference for peptide backbone modification, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "AAPPTec Apex"
-description: "Advanced automated peptide synthesizer for solid-phase peptide synthesis with high-throughput capabilities."
+title: "AAPPTec Apex: Oligopeptide Research Reference"
+description: "Advanced automated peptide synthesizer for solid-phase peptide synthesis with high-throughput capabilities. This peptide or oligopeptide is studied for its b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

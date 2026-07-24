@@ -1,6 +1,6 @@
 ---
-title: "Ebv Peptides"
-description: "Peptides associated with Ebv including biomarkers, therapeutic targets, and diagnostic markers."
+title: "Ebv Peptides: Oligopeptide Research Reference"
+description: "Peptides associated with Ebv including biomarkers, therapeutic targets, and diagnostic markers. This peptide or oligopeptide is studied for its biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

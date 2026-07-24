@@ -1,6 +1,6 @@
 ---
-title: "Oyster Defensin Cg-Defh1"
-description: "Hemocyte defensin from Pacific oyster with antibacterial activity."
+title: "Oyster Defensin Cg-Defh1: Antimicrobial Peptide Reference"
+description: "Hemocyte defensin from Pacific oyster with antibacterial activity. This antimicrobial peptide demonstrates activity against pathogens and is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

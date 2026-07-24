@@ -1,6 +1,6 @@
 ---
-title: "Peptide Tumor Targeting"
-description: "Peptide-based tumor targeting for drug delivery and imaging."
+title: "Peptide Tumor Targeting: Oligopeptide Research Reference"
+description: "Peptide-based tumor targeting for drug delivery and imaging. This peptide or oligopeptide is studied for its biological activity, structure-activity relation..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

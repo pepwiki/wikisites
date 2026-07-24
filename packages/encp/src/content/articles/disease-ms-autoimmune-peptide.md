@@ -1,6 +1,6 @@
 ---
-title: "Ms Autoimmune Peptides"
-description: "Peptides associated with Ms Autoimmune including biomarkers, therapeutic targets, and diagnostic markers."
+title: "Ms Autoimmune Peptides: Oligopeptide Research Reference"
+description: "Peptides associated with Ms Autoimmune including biomarkers, therapeutic targets, and diagnostic markers. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

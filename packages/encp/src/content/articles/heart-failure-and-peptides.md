@@ -1,6 +1,6 @@
 ---
-title: "Heart Failure and Peptides"
-description: "Discover natriuretic peptides and other peptide therapies for managing heart failure and cardiovascular dysfunction."
+title: "Heart Failure and Peptides: Comprehensive Peptide Reference"
+description: "Discover natriuretic peptides and other peptide therapies for managing heart failure and cardiovascular dysfunction. Covers molecular mechanisms, biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

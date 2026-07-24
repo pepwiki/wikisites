@@ -1,6 +1,6 @@
 ---
-title: "PI3 Kinase Modulator"
-description: "Comprehensive reference for PI3 kinase modulator in peptide research."
+title: "PI3 Kinase Modulator: Oligopeptide Research Reference"
+description: "PI3 kinase modulator in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potentia..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

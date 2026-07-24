@@ -1,6 +1,6 @@
 ---
-title: "WHO ICTRP"
-description: "WHO International Clinical Trials Registry Platform."
+title: "WHO ICTRP: Oligopeptide Research Reference"
+description: "WHO International Clinical Trials Registry Platform. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

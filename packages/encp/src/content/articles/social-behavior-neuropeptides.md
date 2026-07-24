@@ -1,6 +1,6 @@
 ---
-title: "Social Behavior Neuropeptides"
-description: "Neuropeptides mediating social bonding, recognition, and interaction."
+title: "Social Behavior Neuropeptides: Comprehensive Peptide Refe..."
+description: "Neuropeptides mediating social bonding, recognition, and interaction. This neuropeptide is involved in neurological signaling and is studied for its roles in..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "RTS,S/AS01 (Mosquirix)"
-description: "Comprehensive reference for RTS,S/AS01 (Mosquirix), a peptide compound with applications in research and therapeutics."
+title: "RTS,S/AS01 (Mosquirix): Oligopeptide Research Reference"
+description: "RTS,S/AS01 (Mosquirix), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

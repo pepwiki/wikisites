@@ -1,6 +1,6 @@
 ---
-title: "Peptide Patent Strategy"
-description: "Intellectual property strategy for peptide drugs including composition of matter and formulation patents."
+title: "Peptide Patent Strategy: Oligopeptide Research Reference"
+description: "Intellectual property strategy for peptide drugs including composition of matter and formulation patents. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

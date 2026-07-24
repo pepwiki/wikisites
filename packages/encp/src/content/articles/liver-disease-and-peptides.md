@@ -1,6 +1,6 @@
 ---
-title: "Liver Disease and Peptides"
-description: "Discover hepatoprotective peptides and antifibrotic peptide therapies for liver cirrhosis and fatty liver disease."
+title: "Liver Disease and Peptides: Comprehensive Peptide Reference"
+description: "Discover hepatoprotective peptides and antifibrotic peptide therapies for liver cirrhosis and fatty liver disease. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

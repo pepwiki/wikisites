@@ -1,6 +1,6 @@
 ---
-title: "Fiasp Formulation Science"
-description: "Formulation science behind faster insulin aspart including niacinamide vasodilation and citrate-mediated pH reduction."
+title: "Fiasp Formulation Science: Comprehensive Peptide Reference"
+description: "Formulation science behind faster insulin aspart including niacinamide vasodilation and citrate-mediated pH reduction. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

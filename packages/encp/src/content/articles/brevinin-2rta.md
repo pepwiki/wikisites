@@ -1,6 +1,6 @@
 ---
-title: "Brevinin 2RTa"
-description: "brevinin-2RTa is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity."
+title: "Brevinin 2RTa: Antimicrobial Peptide Reference"
+description: "brevinin-2RTa is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

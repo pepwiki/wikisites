@@ -1,6 +1,6 @@
 ---
-title: "Snake Venom Peptides"
-description: "Neurology, Cardiovascular, Research Tools"
+title: "Snake Venom Peptides: Oligopeptide Research Reference"
+description: "Neurology, Cardiovascular, Research Tools. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potenti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

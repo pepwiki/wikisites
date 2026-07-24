@@ -1,5 +1,5 @@
 ---
-title: "QSAR for Peptides"
+title: "QSAR for Peptides: Analytical Technique in Peptide Research"
 description: "Discover quantitative structure-activity relationship modeling for predicting peptide biological activity from structure."
 status: "published"
 author: "Encyclopeptide Editorial"

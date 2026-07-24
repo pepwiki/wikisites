@@ -1,6 +1,6 @@
 ---
-title: "Chicken Ovotransferrin"
-description: "686-aa iron-binding glycoprotein from chicken egg white. Antimicrobial via iron sequestration."
+title: "Chicken Ovotransferrin: Oligopeptide Research Reference"
+description: "686-aa iron-binding glycoprotein from chicken egg white. Antimicrobial via iron sequestration. This peptide or oligopeptide is studied for its biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

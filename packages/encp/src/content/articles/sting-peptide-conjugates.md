@@ -1,5 +1,5 @@
 ---
-title: "STING Peptide Conjugates"
+title: "STING Peptide Conjugates: Oligopeptide Research Reference"
 description: "Comprehensive reference for STING Peptide Conjugates, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

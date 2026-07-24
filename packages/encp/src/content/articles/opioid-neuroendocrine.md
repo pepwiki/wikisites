@@ -1,6 +1,6 @@
 ---
-title: "Opioid Neuroendocrine"
-description: "Effects on hypothalamic-pituitary axes including cortisol and GH."
+title: "Opioid Neuroendocrine: Neuropeptide in Neuroscience Refer..."
+description: "Effects on hypothalamic-pituitary axes including cortisol and GH. This neuropeptide is involved in neurological signaling and is studied for its roles in bra..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Diabetes and Peptides"
-description: "Discover peptide-based therapies for diabetes management including GLP-1 analogs and insulin derivatives."
+title: "Diabetes and Peptides: Oligopeptide Research Reference"
+description: "Discover peptide-based therapies for diabetes management including GLP-1 analogs and insulin derivatives. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

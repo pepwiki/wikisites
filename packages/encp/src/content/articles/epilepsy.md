@@ -1,6 +1,6 @@
 ---
-title: "Epilepsy"
-description: "Neuronal hyperexcitability causing recurrent unprovoked seizures. Classification: focal (partial) or generalized. Etiology: idiopathic (genetic, 60%), symptomatic (structural/metabolic, 30%), cryptoge"
+title: "Epilepsy: Oligopeptide Research Reference"
+description: "Neuronal hyperexcitability causing recurrent unprovoked seizures. Classification: focal (partial) or generalized. Etiology: idiopathic (genetic, 60%), sympto..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Neuronal hyperexcitability causing recurrent unprovoked seizures. Classification: focal (partial) or generalized. Etiology: idiopathic (genetic, 60%), symptomatic (structural/metabolic, 30%), cryptogenic (10%). Electroencephalography: epileptiform discharges. Treatments: antiepileptic drugs (carbamazepine, valproate, lamotrigine, levetiracetam, topiramate). Drug-resistant epilepsy (20-30%): vagus nerve stimulation, responsive neurostimulation, ketogenic diet, resective surgery.
+Neuronal hyperexcitability causing recurrent unprovoked seizures. Classification: focal (partial) or generalized. Etiology: idiopathic (genetic, 60%), sympto...nic (10%). Electroencephalography: epileptiform discharges. Treatments: antiepileptic drugs (carbamazepine, valproate, lamotrigine, levetiracetam, topiramate). Drug-resistant epilepsy (20-30%): vagus nerve stimulation, responsive neurostimulation, ketogenic diet, resective surgery.
 
 ## Clinical Significance
 

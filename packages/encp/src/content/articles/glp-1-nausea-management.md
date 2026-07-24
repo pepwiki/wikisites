@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 Nausea Management"
-description: "Strategies for managing nausea including dose titration, dietary modifications, and antiemetics."
+title: "GLP-1 Nausea Management: Oligopeptide Research Reference"
+description: "Strategies for managing nausea including dose titration, dietary modifications, and antiemetics. This peptide or oligopeptide is studied for its biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

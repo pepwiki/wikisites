@@ -1,5 +1,5 @@
 ---
-title: "Elastin Peptides (Marine)"
+title: "Elastin Peptides (Marine): Comprehensive Peptide Reference"
 description: "Comprehensive reference for Elastin Peptides (Marine), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

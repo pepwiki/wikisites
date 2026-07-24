@@ -1,6 +1,6 @@
 ---
-title: "Recombinant Collagen III"
-description: "Comprehensive reference for recombinant collagen III in peptide research."
+title: "Recombinant Collagen III: Oligopeptide Research Reference"
+description: "recombinant collagen III in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and pote..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

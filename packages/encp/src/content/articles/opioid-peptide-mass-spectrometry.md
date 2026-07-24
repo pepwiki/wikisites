@@ -1,6 +1,6 @@
 ---
 title: "Opioid Peptide Mass Spectrometry"
-description: "Mass spectrometric methods for identification and quantification of endogenous opioids."
+description: "Mass spectrometric methods for identification and quantification of endogenous opioids. This neuropeptide is involved in neurological signaling and is studie..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

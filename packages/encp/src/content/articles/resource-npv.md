@@ -1,6 +1,6 @@
 ---
-title: "NPV Resource"
-description: "The NPV database or resource for peptide research, providing data on structure, function, and interactions."
+title: "NPV Resource: Oligopeptide Research Reference"
+description: "The NPV database or resource for peptide research, providing data on structure, function, and interactions. This peptide or oligopeptide is studied for its b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,5 +1,5 @@
 ---
-title: "Gramicidin D"
+title: "Gramicidin D: Antimicrobial Peptide Reference"
 description: "Mixture of linear pentadecapeptides from Bacillus brevis that form ion channels in bacterial membranes for topical antimicrobial use."
 status: "published"
 author: "Encyclopeptide Editorial"

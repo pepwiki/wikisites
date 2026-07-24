@@ -1,6 +1,6 @@
 ---
-title: "Golimumab"
-description: "Comprehensive reference for golimumab in peptide research."
+title: "Golimumab: Oligopeptide Research Reference"
+description: "golimumab in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicati..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

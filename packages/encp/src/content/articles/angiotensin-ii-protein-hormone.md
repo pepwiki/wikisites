@@ -1,6 +1,6 @@
 ---
 title: "Angiotensin II Protein Hormone"
-description: "The Angiotensin II Protein Hormone and its role in endocrine signaling."
+description: "Angiotensin II, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clin..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

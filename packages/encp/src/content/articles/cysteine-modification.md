@@ -1,6 +1,6 @@
 ---
-title: "Cysteine Modification"
-description: "Post-translational modifications of Cysteine including phosphorylation, methylation, acetylation, and ubiquitination."
+title: "Cysteine Modification: Post-Translational Modification Re..."
+description: "Post-translational modifications of Cysteine including phosphorylation, methylation, acetylation, and ubiquitination. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

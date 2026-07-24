@@ -1,6 +1,6 @@
 ---
-title: "DTNB Purification"
-description: "A purification technique for separating and isolating peptides using DTNB."
+title: "DTNB Purification: Analytical Technique in Peptide Research"
+description: "A purification technique for separating and isolating peptides using DTNB. This analytical technique provides valuable insights into peptide structure, purit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

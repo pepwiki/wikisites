@@ -1,6 +1,6 @@
 ---
-title: "PRIDE"
-description: "Proteomics Identifications Database for mass spectrometry data."
+title: "PRIDE: Oligopeptide Research Reference"
+description: "Proteomics Identifications Database for mass spectrometry data. This peptide or oligopeptide is studied for its biological activity, structure-activity relat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

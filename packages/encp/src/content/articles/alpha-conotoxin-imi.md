@@ -1,6 +1,6 @@
 ---
-title: "Alpha Conotoxin ImI"
-description: "alpha-conotoxin-ImI is a conotoxin from cone snail venom with specific ion channel blocking properties."
+title: "Alpha Conotoxin ImI: Peptide Toxin in Pharmacology Reference"
+description: "alpha-conotoxin-ImI is a conotoxin from cone snail venom with specific ion channel blocking properties. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

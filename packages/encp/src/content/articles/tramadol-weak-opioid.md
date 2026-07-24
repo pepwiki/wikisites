@@ -1,6 +1,6 @@
 ---
-title: "Tramadol Weak Opioid"
-description: "Weak opioid agonist prodrug with serotonin-norepinephrine reuptake inhibition."
+title: "Tramadol Weak Opioid: Neuropeptide in Neuroscience Reference"
+description: "Weak opioid agonist prodrug with serotonin-norepinephrine reuptake inhibition. This neuropeptide is involved in neurological signaling and is studied for its..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

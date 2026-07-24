@@ -1,6 +1,6 @@
 ---
-title: "Defensin in Atopic Dermatitis"
-description: "Altered AMP expression in atopic dermatitis contributing to recurrent skin infections."
+title: "Defensin in Atopic Dermatitis: Comprehensive Peptide Refe..."
+description: "Altered AMP expression in atopic dermatitis contributing to recurrent skin infections. This antimicrobial peptide demonstrates activity against pathogens and..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

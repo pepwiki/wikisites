@@ -1,6 +1,6 @@
 ---
-title: "Somatostatin Family Peptides"
-description: "Learn about somatostatin and cortistatin peptides in hormone inhibition and neuromodulation."
+title: "Somatostatin Family Peptides: Comprehensive Peptide Refer..."
+description: "Learn about somatostatin and cortistatin peptides in hormone inhibition and neuromodulation. This endogenous peptide hormone plays important roles in physiol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

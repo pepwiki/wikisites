@@ -1,6 +1,6 @@
 ---
-title: "Immunoaffinity Purification"
-description: "A purification technique for separating and isolating peptides using Immunoaffinity."
+title: "Immunoaffinity Purification: Comprehensive Peptide Reference"
+description: "A purification technique for separating and isolating peptides using Immunoaffinity. This analytical technique provides valuable insights into peptide struct..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

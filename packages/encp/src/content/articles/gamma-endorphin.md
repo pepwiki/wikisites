@@ -1,6 +1,6 @@
 ---
-title: "Gamma-Endorphin"
-description: "POMC-derived opioid with potential antipsychotic-like effects."
+title: "Gamma-Endorphin: Neuropeptide in Neuroscience Reference"
+description: "POMC-derived opioid with potential antipsychotic-like effects. This neuropeptide is involved in neurological signaling and is studied for its roles in brain ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

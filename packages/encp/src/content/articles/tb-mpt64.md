@@ -1,6 +1,6 @@
 ---
-title: "TB MPT64"
-description: "TB-MPT64 is a peptide antigen used in vaccine development for infectious disease prevention."
+title: "TB MPT64: Oligopeptide Research Reference"
+description: "TB-MPT64 is a peptide antigen used in vaccine development for infectious disease prevention. This peptide or oligopeptide is studied for its biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

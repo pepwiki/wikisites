@@ -1,6 +1,6 @@
 ---
-title: "Goserelin"
-description: "Sustained-release GnRH agonist depot for prostate cancer, endometriosis, and breast cancer."
+title: "Goserelin: Oligopeptide Research Reference"
+description: "Sustained-release GnRH agonist depot for prostate cancer, endometriosis, and breast cancer. This peptide or oligopeptide is studied for its biological activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

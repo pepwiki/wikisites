@@ -1,6 +1,6 @@
 ---
-title: "Well Tempered for Peptides"
-description: "A computational method for studying peptides using Well Tempered."
+title: "Well Tempered for Peptides: Comprehensive Peptide Reference"
+description: "A computational method for studying peptides using Well Tempered. This analytical technique provides valuable insights into peptide structure, purity, and ch..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

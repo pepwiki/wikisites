@@ -1,6 +1,6 @@
 ---
-title: "NMR HACACB Analysis"
-description: "An analytical technique for characterizing peptides using NMR HACACB."
+title: "NMR HACACB Analysis: Analytical Technique in Peptide Rese..."
+description: "An analytical technique for characterizing peptides using NMR HACACB. This analytical technique provides valuable insights into peptide structure, purity, an..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

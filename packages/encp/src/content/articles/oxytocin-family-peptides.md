@@ -1,6 +1,6 @@
 ---
-title: "Oxytocin Family Peptides"
-description: "Explore oxytocin family peptides and their roles in social bonding, labor, and lactation."
+title: "Oxytocin Family Peptides: Oligopeptide Research Reference"
+description: "Explore oxytocin family peptides and their roles in social bonding, labor, and lactation. This peptide or oligopeptide is studied for its biological activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

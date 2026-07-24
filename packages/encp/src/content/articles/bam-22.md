@@ -1,6 +1,6 @@
 ---
-title: "Bam 22"
-description: "bam-22 is an opioid neuropeptide that modulates pain, reward, and stress responses through opioid receptor activation."
+title: "Bam 22: Neuropeptide in Neuroscience Reference"
+description: "bam-22 is an opioid neuropeptide that modulates pain, reward, and stress responses through opioid receptor activation. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

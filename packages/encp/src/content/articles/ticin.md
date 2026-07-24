@@ -1,6 +1,6 @@
 ---
 title: "Ticin: Structure, Function, and Significance"
-description: "Ticin is a short antimicrobial peptide from horseshoe crab with disulfide-stabilized structure."
+description: "Ticin is a short antimicrobial peptide from horseshoe crab with disulfide-stabilized structure. This antimicrobial peptide demonstrates activity against path..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

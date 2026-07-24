@@ -1,6 +1,6 @@
 ---
 title: "Colony Stimulating Factor M-CSF-1-150"
-description: "Reference for colony stimulating factor M-CSF-1-150 in peptide research."
+description: "Comprehensive reference for colony stimulating factor M-CSF-1-150, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

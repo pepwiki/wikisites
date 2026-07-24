@@ -1,6 +1,6 @@
 ---
-title: "Hymenoptaecin"
-description: "Giant AMP from honeybee with broad-spectrum bactericidal activity."
+title: "Hymenoptaecin: Antimicrobial Peptide Reference"
+description: "Giant AMP from honeybee with broad-spectrum bactericidal activity. This antimicrobial peptide demonstrates activity against pathogens and is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

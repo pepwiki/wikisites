@@ -1,5 +1,5 @@
 ---
-title: "Insulin Family Peptides"
+title: "Insulin Family Peptides: Oligopeptide Research Reference"
 description: "Explore the insulin family of peptides including insulin, IGF-1, IGF-2, and relaxin, key regulators of metabolism and growth."
 status: "published"
 author: "Encyclopeptide Editorial"

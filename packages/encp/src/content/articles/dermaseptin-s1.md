@@ -1,6 +1,6 @@
 ---
-title: "Dermaseptin S1"
-description: "dermaseptin-s1 is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity."
+title: "Dermaseptin S1: Antimicrobial Peptide Reference"
+description: "dermaseptin-s1 is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

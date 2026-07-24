@@ -1,6 +1,6 @@
 ---
-title: "TSH Family Peptides"
-description: "Guide to thyroid-stimulating hormone family peptides and their regulation of thyroid function."
+title: "TSH Family Peptides: Endogenous Peptide Hormone Reference"
+description: "Guide to thyroid-stimulating hormone family peptides and their regulation of thyroid function. This endogenous peptide hormone plays important roles in physi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "D-dimer"
-description: "Fibrin degradation product formed when plasmin cleaves cross-linked fibrin. Marker of fibrinolysis. Normal: <500 ng/mL (age-adjusted). Elevated in DVT, PE, DIC, surgery, trauma. Negative predictive value >95% for VTE. Used for VTE exclusion, not diagnosis."
+title: "D-dimer: Oligopeptide Research Reference"
+description: "Fibrin degradation product formed when plasmin cleaves cross-linked fibrin. Marker of fibrinolysis. Normal: <500 ng/mL (age-adjusted). Elevated in DVT, PE, D..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Fibrin degradation product formed when plasmin cleaves cross-linked fibrin. Marker of fibrinolysis. Normal: <500 ng/mL (age-adjusted). Elevated in DVT, PE, DIC, surgery, trauma. Negative predictive value >95% for VTE. Used for VTE exclusion, not diagnosis.
+Fibrin degradation product formed when plasmin cleaves cross-linked fibrin. Marker of fibrinolysis. Normal: <500 ng/mL (age-adjusted). Elevated in DVT, PE, D...
 
 ## Clinical Significance
 

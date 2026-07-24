@@ -1,6 +1,6 @@
 ---
-title: "DLS Analysis"
-description: "An analytical technique for characterizing peptides using DLS."
+title: "DLS Analysis: Analytical Technique in Peptide Research"
+description: "An analytical technique for characterizing peptides using DLS. This analytical technique provides valuable insights into peptide structure, purity, and chara..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

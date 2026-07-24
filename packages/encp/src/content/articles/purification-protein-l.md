@@ -1,6 +1,6 @@
 ---
-title: "Protein L Purification"
-description: "A purification technique for separating and isolating peptides using Protein L."
+title: "Protein L Purification: Analytical Technique in Peptide R..."
+description: "A purification technique for separating and isolating peptides using Protein L. This analytical technique provides valuable insights into peptide structure, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

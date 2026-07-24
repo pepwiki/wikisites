@@ -1,6 +1,6 @@
 ---
-title: "Lebocin (Bombyx)"
-description: "Comprehensive reference for Lebocin (Bombyx), a peptide compound with applications in research and therapeutics."
+title: "Lebocin (Bombyx): Oligopeptide Research Reference"
+description: "Lebocin (Bombyx), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

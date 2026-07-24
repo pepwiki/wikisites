@@ -1,6 +1,6 @@
 ---
-title: "Venom Peptide Omics"
-description: "Proteomics and peptidomics approaches for venom peptide discovery."
+title: "Venom Peptide Omics: Peptide Toxin in Pharmacology Reference"
+description: "Proteomics and peptidomics approaches for venom peptide discovery. This peptide toxin is derived from venom and studied for its pharmacological activity, mec..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

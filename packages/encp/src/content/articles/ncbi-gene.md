@@ -1,6 +1,6 @@
 ---
-title: "NCBI Gene"
-description: "Gene database with information about gene structure, function, and expression."
+title: "NCBI Gene: Oligopeptide Research Reference"
+description: "Gene database with information about gene structure, function, and expression. This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "IL 23 Antibody"
-description: "Comprehensive reference for IL 23 antibody in peptide research."
+title: "IL 23 Antibody: Oligopeptide Research Reference"
+description: "IL 23 antibody in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appl..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

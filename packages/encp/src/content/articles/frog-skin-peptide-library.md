@@ -1,6 +1,6 @@
 ---
-title: "Frog Skin Peptide Library"
-description: "Library of AMPs from amphibian skin secretions for drug discovery."
+title: "Frog Skin Peptide Library: Comprehensive Peptide Reference"
+description: "Library of AMPs from amphibian skin secretions for drug discovery. This antimicrobial peptide demonstrates activity against pathogens and is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

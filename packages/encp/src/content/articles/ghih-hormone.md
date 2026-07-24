@@ -1,6 +1,6 @@
 ---
-title: "GHIH Hormone"
-description: "The GHIH Hormone and its role in endocrine signaling."
+title: "GHIH Hormone: Endogenous Peptide Hormone Reference"
+description: "GHIH, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical signi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

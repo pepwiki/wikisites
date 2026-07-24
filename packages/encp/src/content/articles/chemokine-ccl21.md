@@ -1,6 +1,6 @@
 ---
-title: "Chemokine CCL21"
-description: "Reference for chemokine CCL21 in peptide research."
+title: "Chemokine CCL21: Oligopeptide Research Reference"
+description: "Comprehensive reference for chemokine CCL21, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

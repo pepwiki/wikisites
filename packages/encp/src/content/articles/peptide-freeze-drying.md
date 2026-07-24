@@ -1,6 +1,6 @@
 ---
-title: "Peptide freeze-drying"
-description: "Reference for peptide freeze-drying in peptide research."
+title: "Peptide freeze-drying: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide freeze-drying, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "SARS CoV 2 RBD"
-description: "SARS-CoV-2-RBD is a peptide antigen used in vaccine development for infectious disease prevention."
+title: "SARS CoV 2 RBD: Oligopeptide Research Reference"
+description: "SARS-CoV-2-RBD is a peptide antigen used in vaccine development for infectious disease prevention. This peptide or oligopeptide is studied for its biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

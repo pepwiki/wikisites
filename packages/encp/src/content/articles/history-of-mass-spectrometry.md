@@ -1,6 +1,6 @@
 ---
-title: "History of Mass Spectrometry"
-description: "From Thomson and Aston to modern proteomics, the evolution of mass spectrometry for peptides."
+title: "History of Mass Spectrometry: Comprehensive Peptide Refer..."
+description: "From Thomson and Aston to modern proteomics, the evolution of mass spectrometry for peptides. This peptide or oligopeptide is studied for its biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

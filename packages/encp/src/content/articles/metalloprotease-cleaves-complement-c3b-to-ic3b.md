@@ -1,6 +1,6 @@
 ---
 title: "Metalloprotease cleaves complement C3b to iC3b"
-description: "Protozoan peptides"
+description: "Protozoan peptides. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in biom..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Lung Disease and Peptides"
-description: "Explore peptide therapies for respiratory conditions including COPD, asthma, and pulmonary fibrosis."
+title: "Lung Disease and Peptides: Comprehensive Peptide Reference"
+description: "Explore peptide therapies for respiratory conditions including COPD, asthma, and pulmonary fibrosis. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

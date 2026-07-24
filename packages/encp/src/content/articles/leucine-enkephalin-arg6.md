@@ -1,6 +1,6 @@
 ---
-title: "Leucine-Enkephalin-Arg6"
-description: "Extended enkephalin with C-terminal arginine for increased stability."
+title: "Leucine-Enkephalin-Arg6: Neuropeptide in Neuroscience Ref..."
+description: "Extended enkephalin with C-terminal arginine for increased stability. This neuropeptide is involved in neurological signaling and is studied for its roles in..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
 title: "Insulin Receptor Binding Kinetics"
-description: "Quantitative analysis of insulin-receptor interaction including binding affinity and dissociation rates."
+description: "Quantitative analysis of insulin-receptor interaction including binding affinity and dissociation rates. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

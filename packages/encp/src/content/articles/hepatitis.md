@@ -1,6 +1,6 @@
 ---
-title: "Hepatitis"
-description: "HBV/HCV liver infection. Treatments: entecavir/tenofovir (HBV), sofosbuvir (HCV)."
+title: "Hepatitis: Oligopeptide Research Reference"
+description: "HBV/HCV liver infection. Treatments: entecavir/tenofovir (HBV), sofosbuvir (HCV). This peptide or oligopeptide is studied for its biological activity, struct..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

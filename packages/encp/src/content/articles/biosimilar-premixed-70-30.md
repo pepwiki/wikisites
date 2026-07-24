@@ -1,6 +1,6 @@
 ---
-title: "Biosimilar Premixed 70/30"
-description: "Biosimilar intermediate premixed insulin combining 70% NPH and 30% regular human insulin."
+title: "Biosimilar Premixed 70/30: Comprehensive Peptide Reference"
+description: "Biosimilar intermediate premixed insulin combining 70% NPH and 30% regular human insulin. This peptide or oligopeptide is studied for its biological activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

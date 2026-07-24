@@ -1,6 +1,6 @@
 ---
-title: "Wheat Peptide"
-description: "A bioactive peptide derived from wheat with potential health benefits."
+title: "Wheat Peptide: Oligopeptide Research Reference"
+description: "A bioactive peptide derived from wheat with potential health benefits. This peptide or oligopeptide is studied for its biological activity, structure-activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

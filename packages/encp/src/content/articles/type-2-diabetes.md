@@ -1,6 +1,6 @@
 ---
-title: "Type 2 Diabetes"
-description: "Chronic metabolic disorder: insulin resistance + β-cell failure. Risk factors: obesity, inactivity, genetics. Complications: retinopathy, nephropathy, neuropathy, CVD. Treatments: metformin, GLP-1 ago"
+title: "Type 2 Diabetes: Oligopeptide Research Reference"
+description: "Chronic metabolic disorder: insulin resistance + β-cell failure. Risk factors: obesity, inactivity, genetics. Complications: retinopathy, nephropathy, neurop..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Chronic metabolic disorder: insulin resistance + β-cell failure. Risk factors: obesity, inactivity, genetics. Complications: retinopathy, nephropathy, neuropathy, CVD. Treatments: metformin, GLP-1 agonists, SGLT2 inhibitors, DPP-4 inhibitors, insulin.
+Chronic metabolic disorder: insulin resistance + β-cell failure. Risk factors: obesity, inactivity, genetics. Complications: retinopathy, nephropathy, neurop...nists, SGLT2 inhibitors, DPP-4 inhibitors, insulin.
 
 ## Clinical Significance
 

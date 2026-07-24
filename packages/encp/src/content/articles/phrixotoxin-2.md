@@ -1,6 +1,6 @@
 ---
-title: "Phrixotoxin 2"
-description: "phrixotoxin-2 is a spider venom peptide with specific ion channel or receptor blocking properties."
+title: "Phrixotoxin 2: Peptide Toxin in Pharmacology Reference"
+description: "phrixotoxin-2 is a spider venom peptide with specific ion channel or receptor blocking properties. This peptide toxin is derived from venom and studied for i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

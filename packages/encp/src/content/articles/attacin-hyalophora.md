@@ -1,6 +1,6 @@
 ---
-title: "Attacin (Hyalophora)"
-description: "Comprehensive reference for Attacin (Hyalophora), a peptide compound with applications in research and therapeutics."
+title: "Attacin (Hyalophora): Oligopeptide Research Reference"
+description: "Attacin (Hyalophora), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

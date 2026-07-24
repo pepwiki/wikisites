@@ -1,5 +1,5 @@
 ---
-title: "Fibroin Heavy Chain (Bombyx)"
+title: "Fibroin Heavy Chain (Bombyx): Comprehensive Peptide Refer..."
 description: "Comprehensive reference for Fibroin Heavy Chain (Bombyx), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

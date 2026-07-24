@@ -1,6 +1,6 @@
 ---
-title: "Skin Disease and Peptides"
-description: "Learn about cosmetic and therapeutic peptides for skin conditions including psoriasis, eczema, and aging."
+title: "Skin Disease and Peptides: Comprehensive Peptide Reference"
+description: "Learn about cosmetic and therapeutic peptides for skin conditions including psoriasis, eczema, and aging. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
 title: "Sea Anemone Toxin Anti-Inflammatory"
-description: "Anti-inflammatory properties of sea anemone toxins."
+description: "Anti-inflammatory properties of sea anemone toxins. This peptide toxin is derived from venom and studied for its pharmacological activity, mechanism of actio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

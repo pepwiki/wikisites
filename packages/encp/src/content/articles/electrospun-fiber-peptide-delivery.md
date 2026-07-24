@@ -1,6 +1,6 @@
 ---
 title: "Electrospun Fiber Peptide Delivery"
-description: "Explore electrospun nanofiber scaffolds for localized peptide delivery in wound healing and tissue repair."
+description: "Explore electrospun nanofiber scaffolds for localized peptide delivery in wound healing and tissue repair. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

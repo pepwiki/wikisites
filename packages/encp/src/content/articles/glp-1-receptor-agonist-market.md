@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 Receptor Agonist Market"
-description: "Market landscape and commercial analysis of GLP-1 receptor agonist drugs for diabetes and obesity."
+title: "GLP-1 Receptor Agonist Market: Comprehensive Peptide Refe..."
+description: "Market landscape and commercial analysis of GLP-1 receptor agonist drugs for diabetes and obesity. This therapeutic peptide is studied for its pharmacologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

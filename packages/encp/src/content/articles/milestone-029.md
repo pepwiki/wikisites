@@ -1,6 +1,6 @@
 ---
-title: "Milestone 029"
-description: "2000: Human genome sequenced. Enables genomics-driven peptide drug discovery."
+title: "Milestone 029: Oligopeptide Research Reference"
+description: "2000: Human genome sequenced. Enables genomics-driven peptide drug discovery. This peptide or oligopeptide is studied for its biological activity, structure-..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

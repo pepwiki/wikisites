@@ -1,6 +1,6 @@
 ---
-title: "Sonophoresis Peptide Delivery"
-description: "Discover ultrasound-mediated transdermal peptide delivery using cavitation and acoustic streaming effects."
+title: "Sonophoresis Peptide Delivery: Comprehensive Peptide Refe..."
+description: "Discover ultrasound-mediated transdermal peptide delivery using cavitation and acoustic streaming effects. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

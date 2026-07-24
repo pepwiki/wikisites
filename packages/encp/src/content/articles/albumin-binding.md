@@ -1,6 +1,6 @@
 ---
-title: "Albumin binding"
-description: "Reference for albumin binding in peptide research."
+title: "Albumin binding: Oligopeptide Research Reference"
+description: "Comprehensive reference for albumin binding, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

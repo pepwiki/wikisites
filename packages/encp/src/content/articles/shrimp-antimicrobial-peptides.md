@@ -1,6 +1,6 @@
 ---
-title: "Shrimp Antimicrobial Peptides"
-description: "AMPs in shrimp hemocytes defending against aquaculture pathogens."
+title: "Shrimp Antimicrobial Peptides: Comprehensive Peptide Refe..."
+description: "AMPs in shrimp hemocytes defending against aquaculture pathogens. This antimicrobial peptide demonstrates activity against pathogens and is studied for its m..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

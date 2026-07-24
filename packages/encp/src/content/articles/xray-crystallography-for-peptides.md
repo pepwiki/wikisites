@@ -1,6 +1,6 @@
 ---
 title: "X-ray Crystallography for Peptides"
-description: "Understand X-ray crystallography methods for resolving atomic-level peptide structures from crystalline samples."
+description: "Understand X-ray crystallography methods for resolving atomic-level peptide structures from crystalline samples. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

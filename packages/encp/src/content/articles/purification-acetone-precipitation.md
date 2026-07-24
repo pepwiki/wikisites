@@ -1,6 +1,6 @@
 ---
 title: "Acetone Precipitation Purification"
-description: "A purification technique for separating and isolating peptides using Acetone Precipitation."
+description: "A purification technique for separating and isolating peptides using Acetone Precipitation. This analytical technique provides valuable insights into peptide..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

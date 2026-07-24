@@ -1,6 +1,6 @@
 ---
-title: "Antifungal Peptide Drugs"
-description: "Peptide-based antifungal agents including lipopeptides and cyclic peptides for invasive fungal infections."
+title: "Antifungal Peptide Drugs: Oligopeptide Research Reference"
+description: "Peptide-based antifungal agents including lipopeptides and cyclic peptides for invasive fungal infections. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Glutamine Peptide"
-description: "Glutamine (Q) is one of the 20 standard amino acids. It plays essential roles in protein structure and function."
+title: "Glutamine Peptide: Oligopeptide Research Reference"
+description: "Glutamine (Q) is one of the 20 standard amino acids. It plays essential roles in protein structure and function. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

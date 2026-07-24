@@ -1,6 +1,6 @@
 ---
-title: "Tetrahymena thermiphila"
-description: "Mucocyst discharge, antimicrobial"
+title: "Tetrahymena thermiphila: Oligopeptide Research Reference"
+description: "Mucocyst discharge, antimicrobial. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appli..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "CGRP Family Peptides"
-description: "Explore calcitonin gene-related peptide family in migraine pathophysiology and vascular biology."
+title: "CGRP Family Peptides: Oligopeptide Research Reference"
+description: "Explore calcitonin gene-related peptide family in migraine pathophysiology and vascular biology. This peptide or oligopeptide is studied for its biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

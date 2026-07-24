@@ -1,6 +1,6 @@
 ---
-title: "Ts1 (Tityustoxin)"
-description: "Comprehensive reference for Ts1 (Tityustoxin), a peptide compound with applications in research and therapeutics."
+title: "Ts1 (Tityustoxin): Peptide Toxin in Pharmacology Reference"
+description: "Ts1 (Tityustoxin), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

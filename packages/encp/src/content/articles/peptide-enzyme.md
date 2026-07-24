@@ -1,6 +1,6 @@
 ---
-title: "Peptide-Enzyme"
-description: "DPP-4, ACE, Neprilysin, Insulin RTK"
+title: "Peptide-Enzyme: Oligopeptide Research Reference"
+description: "DPP-4, ACE, Neprilysin, Insulin RTK. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential app..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

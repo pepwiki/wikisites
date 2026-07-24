@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 and Alzheimers"
-description: "Investigation of effects on amyloid pathology, tau phosphorylation, and cognitive decline."
+title: "GLP-1 and Alzheimers: Oligopeptide Research Reference"
+description: "Investigation of effects on amyloid pathology, tau phosphorylation, and cognitive decline. This peptide or oligopeptide is studied for its biological activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

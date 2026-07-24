@@ -1,6 +1,6 @@
 ---
-title: "Tumor Marker HCG"
-description: "Comprehensive reference for tumor marker HCG in peptide research."
+title: "Tumor Marker HCG: Oligopeptide Research Reference"
+description: "tumor marker HCG in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential ap..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

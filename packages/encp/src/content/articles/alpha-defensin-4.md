@@ -1,5 +1,5 @@
 ---
-title: "Alpha Defensin 4"
+title: "Alpha Defensin 4: Antimicrobial Peptide Reference"
 description: "alpha-defensin-4 is a defensin-family antimicrobial peptide with cysteine-stabilized structure and broad-spectrum activity."
 status: "published"
 author: "Encyclopeptide Editorial"

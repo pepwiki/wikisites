@@ -1,6 +1,6 @@
 ---
-title: "Venom Peptide Evolution"
-description: "Evolutionary biology of venom peptide gene families."
+title: "Venom Peptide Evolution: Peptide Toxin in Pharmacology Re..."
+description: "Evolutionary biology of venom peptide gene families. This peptide toxin is derived from venom and studied for its pharmacological activity, mechanism of acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

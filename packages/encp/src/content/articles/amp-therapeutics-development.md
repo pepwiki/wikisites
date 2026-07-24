@@ -1,6 +1,6 @@
 ---
-title: "AMP Therapeutics Development"
-description: "Clinical development of defensin-based therapeutics including topical formulations."
+title: "AMP Therapeutics Development: Comprehensive Peptide Refer..."
+description: "Clinical development of defensin-based therapeutics including topical formulations. This antimicrobial peptide demonstrates activity against pathogens and is..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

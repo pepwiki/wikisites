@@ -1,5 +1,5 @@
 ---
-title: "Gallium Nitrate"
+title: "Gallium Nitrate: Oligopeptide Research Reference"
 description: "Metal-based therapeutic that inhibits iron-dependent enzymes and ribonucleotide reductase, used for cancer-related hypercalcemia."
 status: "published"
 author: "Encyclopeptide Editorial"

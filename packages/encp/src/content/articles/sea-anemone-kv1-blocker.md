@@ -1,6 +1,6 @@
 ---
-title: "Sea Anemone Kv1 Blocker"
-description: "Potassium channel blocker from sea anemone with neuroprotective potential."
+title: "Sea Anemone Kv1 Blocker: Peptide Toxin in Pharmacology Re..."
+description: "Potassium channel blocker from sea anemone with neuroprotective potential. This peptide toxin is derived from venom and studied for its pharmacological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

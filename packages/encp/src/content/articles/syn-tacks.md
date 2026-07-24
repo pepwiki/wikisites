@@ -1,6 +1,6 @@
 ---
-title: "Syn-Tacks"
-description: "Acetyl hexapeptide-38. Inhibits neurotransmitter release. Reduces expression lines. Used in cosmetic formulations."
+title: "Syn-Tacks: Oligopeptide Research Reference"
+description: "Acetyl hexapeptide-38. Inhibits neurotransmitter release. Reduces expression lines. Used in cosmetic formulations. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

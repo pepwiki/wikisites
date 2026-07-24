@@ -1,6 +1,6 @@
 ---
-title: "Injection Site Reactions"
-description: "Local adverse reactions at peptide drug injection sites."
+title: "Injection Site Reactions: Oligopeptide Research Reference"
+description: "Local adverse reactions at peptide drug injection sites. This peptide or oligopeptide is studied for its biological activity, structure-activity relationship..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

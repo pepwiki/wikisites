@@ -1,6 +1,6 @@
 ---
-title: "Recombinant Silk Fibroin"
-description: "Comprehensive reference for recombinant silk fibroin in peptide research."
+title: "Recombinant Silk Fibroin: Oligopeptide Research Reference"
+description: "recombinant silk fibroin in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and pote..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

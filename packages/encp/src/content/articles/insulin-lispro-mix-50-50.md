@@ -1,6 +1,6 @@
 ---
-title: "Insulin Lispro Mix 50/50"
-description: "Premixed insulin containing 50% lispro protamine and 50% insulin lispro for balanced prandial and basal coverage."
+title: "Insulin Lispro Mix 50/50: Oligopeptide Research Reference"
+description: "Premixed insulin containing 50% lispro protamine and 50% insulin lispro for balanced prandial and basal coverage. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

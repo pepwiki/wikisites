@@ -1,6 +1,6 @@
 ---
-title: "Leishmania donovani"
-description: "Lipophosphoglycan blocks phagolysosome fusion"
+title: "Leishmania donovani: Oligopeptide Research Reference"
+description: "Lipophosphoglycan blocks phagolysosome fusion. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and pot..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

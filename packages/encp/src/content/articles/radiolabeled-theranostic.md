@@ -1,6 +1,6 @@
 ---
-title: "Radiolabeled / Theranostic"
-description: "Radiolabeled / Theranostic is a bioactive compound with applications in peptide research and therapeutics."
+title: "Radiolabeled / Theranostic: Comprehensive Peptide Reference"
+description: "Radiolabeled / Theranostic is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

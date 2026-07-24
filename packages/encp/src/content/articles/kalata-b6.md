@@ -1,6 +1,6 @@
 ---
-title: "Kalata B6"
-description: "kalata-B6 is a cyclotide — a cyclic, knotted peptide from plants with exceptional stability and insecticidal activity."
+title: "Kalata B6: Oligopeptide Research Reference"
+description: "kalata-B6 is a cyclotide — a cyclic, knotted peptide from plants with exceptional stability and insecticidal activity. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

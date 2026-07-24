@@ -1,6 +1,6 @@
 ---
-title: "Temporin 1Tl"
-description: "temporin-1Tl is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity."
+title: "Temporin 1Tl: Antimicrobial Peptide Reference"
+description: "temporin-1Tl is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

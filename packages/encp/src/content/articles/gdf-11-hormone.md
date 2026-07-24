@@ -1,6 +1,6 @@
 ---
-title: "GDF 11 Hormone"
-description: "The GDF 11 Hormone and its role in endocrine signaling."
+title: "GDF 11 Hormone: Endogenous Peptide Hormone Reference"
+description: "GDF 11, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical sig..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

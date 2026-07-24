@@ -1,5 +1,5 @@
 ---
-title: "Batch Release Testing"
+title: "Batch Release Testing: Oligopeptide Research Reference"
 description: "Understand batch release testing requirements for peptide drugs including identity, purity, potency, and sterility assays."
 status: "published"
 author: "Encyclopeptide Editorial"

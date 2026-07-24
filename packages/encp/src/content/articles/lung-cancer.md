@@ -1,6 +1,6 @@
 ---
-title: "Lung Cancer"
-description: "NSCLC (85%): adenocarcinoma, squamous cell, large cell. SCLC (15%): aggressive neuroendocrine. Molecular targets: EGFR, ALK, ROS1, BRAF, KRAS G12C, MET, RET, NTRK. Treatments: chemotherapy, immunother"
+title: "Lung Cancer: Oligopeptide Research Reference"
+description: "NSCLC (85%): adenocarcinoma, squamous cell, large cell. SCLC (15%): aggressive neuroendocrine. Molecular targets: EGFR, ALK, ROS1, BRAF, KRAS G12C, MET, RET,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-NSCLC (85%): adenocarcinoma, squamous cell, large cell. SCLC (15%): aggressive neuroendocrine. Molecular targets: EGFR, ALK, ROS1, BRAF, KRAS G12C, MET, RET, NTRK. Treatments: chemotherapy, immunotherapy (pembrolizumab, atezolizumab), targeted therapy (osimertinib, alectinib).
+NSCLC (85%): adenocarcinoma, squamous cell, large cell. SCLC (15%): aggressive neuroendocrine. Molecular targets: EGFR, ALK, ROS1, BRAF, KRAS G12C, MET, RET,...apy (pembrolizumab, atezolizumab), targeted therapy (osimertinib, alectinib).
 
 ## Clinical Significance
 

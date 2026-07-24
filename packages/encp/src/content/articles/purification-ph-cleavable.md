@@ -1,6 +1,6 @@
 ---
-title: "PH Cleavable Purification"
-description: "A purification technique for separating and isolating peptides using PH Cleavable."
+title: "PH Cleavable Purification: Comprehensive Peptide Reference"
+description: "A purification technique for separating and isolating peptides using PH Cleavable. This analytical technique provides valuable insights into peptide structur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

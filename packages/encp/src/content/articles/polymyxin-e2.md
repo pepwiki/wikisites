@@ -1,5 +1,5 @@
 ---
-title: "Polymyxin E2"
+title: "Polymyxin E2: Antimicrobial Peptide Reference"
 description: "polymyxin-E2 is a peptide antibiotic produced by bacteria with antimicrobial activity used in clinical and agricultural applications."
 status: "published"
 author: "Encyclopeptide Editorial"

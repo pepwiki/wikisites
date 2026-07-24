@@ -1,6 +1,6 @@
 ---
-title: "Spider Toxin PhTx3"
-description: "Potent glutamate receptor antagonist from Phoneutria nigriventer for pain."
+title: "Spider Toxin PhTx3: Peptide Toxin in Pharmacology Reference"
+description: "Potent glutamate receptor antagonist from Phoneutria nigriventer for pain. This peptide toxin is derived from venom and studied for its pharmacological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

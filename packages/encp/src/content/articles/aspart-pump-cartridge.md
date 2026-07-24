@@ -1,6 +1,6 @@
 ---
-title: "Aspart Pump Cartridge"
-description: "Preservative-free insulin aspart for pump cartridges with 48-hour reservoir dwell time stability."
+title: "Aspart Pump Cartridge: Oligopeptide Research Reference"
+description: "Preservative-free insulin aspart for pump cartridges with 48-hour reservoir dwell time stability. This peptide or oligopeptide is studied for its biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

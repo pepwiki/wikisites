@@ -1,6 +1,6 @@
 ---
-title: "Radiolabeled / Diagnostic"
-description: "Radiolabeled / Diagnostic is a bioactive compound with applications in peptide research and therapeutics."
+title: "Radiolabeled / Diagnostic: Comprehensive Peptide Reference"
+description: "Radiolabeled / Diagnostic is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,5 +1,5 @@
 ---
-title: "DUAL I Trial"
+title: "DUAL I Trial: Oligopeptide Research Reference"
 description: "Phase 3 trial demonstrating superiority of degludec-liraglutide over glargine in HbA1c reduction with less hypoglycemia."
 status: "published"
 author: "Encyclopeptide Editorial"

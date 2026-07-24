@@ -1,6 +1,6 @@
 ---
-title: "Biotage Syro"
-description: "Automated peptide synthesizer for SPPS. High-throughput parallel synthesis."
+title: "Biotage Syro: Oligopeptide Research Reference"
+description: "Automated peptide synthesizer for SPPS. High-throughput parallel synthesis. This peptide or oligopeptide is studied for its biological activity, structure-ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

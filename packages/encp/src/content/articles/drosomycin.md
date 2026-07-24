@@ -1,6 +1,6 @@
 ---
-title: "Drosomycin"
-description: "Antifungal defensin from Drosophila hemolymph providing innate immune defense."
+title: "Drosomycin: Antimicrobial Peptide Reference"
+description: "Antifungal defensin from Drosophila hemolymph providing innate immune defense. This antimicrobial peptide demonstrates activity against pathogens and is stud..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

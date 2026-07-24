@@ -1,5 +1,5 @@
 ---
-title: "AI in Peptide Drug Discovery"
+title: "AI in Peptide Drug Discovery: Comprehensive Peptide Refer..."
 description: "Application of artificial intelligence and machine learning to accelerate peptide drug discovery, design, and optimization."
 status: "published"
 author: "Encyclopeptide Editorial"

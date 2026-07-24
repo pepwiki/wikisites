@@ -1,6 +1,6 @@
 ---
-title: "Antimicrobial Peptide Drugs"
-description: "Therapeutic antimicrobial peptides for drug-resistant infections including cationic and lipopeptide classes."
+title: "Antimicrobial Peptide Drugs: Comprehensive Peptide Reference"
+description: "Therapeutic antimicrobial peptides for drug-resistant infections including cationic and lipopeptide classes. This peptide or oligopeptide is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

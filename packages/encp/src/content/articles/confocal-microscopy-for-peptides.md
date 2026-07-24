@@ -1,6 +1,6 @@
 ---
 title: "Confocal Microscopy for Peptides"
-description: "Learn confocal fluorescence microscopy techniques for visualizing peptide localization in cells and tissues."
+description: "Learn confocal fluorescence microscopy techniques for visualizing peptide localization in cells and tissues. This peptide or oligopeptide is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

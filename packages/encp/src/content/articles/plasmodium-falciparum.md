@@ -1,6 +1,6 @@
 ---
-title: "Plasmodium falciparum"
-description: "Binds erythrocyte membrane, remodels host cell"
+title: "Plasmodium falciparum: Oligopeptide Research Reference"
+description: "Binds erythrocyte membrane, remodels host cell. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and po..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Nociceptin 1-13"
-description: "Minimal active fragment of nociceptin for ORL1 receptor activation."
+title: "Nociceptin 1-13: Peptide Fragment Reference"
+description: "Minimal active fragment of nociceptin for ORL1 receptor activation. This neuropeptide is involved in neurological signaling and is studied for its roles in b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

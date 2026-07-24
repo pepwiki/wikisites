@@ -1,6 +1,6 @@
 ---
-title: "Kisspeptin 10"
-description: "Comprehensive reference for kisspeptin 10 in peptide research."
+title: "Kisspeptin 10: Oligopeptide Research Reference"
+description: "kisspeptin 10 in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appli..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

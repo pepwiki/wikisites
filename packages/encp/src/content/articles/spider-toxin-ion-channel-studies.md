@@ -1,6 +1,6 @@
 ---
 title: "Spider Toxin Ion Channel Studies"
-description: "Use of spider toxins as tools to study ion channel function."
+description: "Use of spider toxins as tools to study ion channel function. This peptide toxin is derived from venom and studied for its pharmacological activity, mechanism..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "C-Peptide"
-description: "31-amino acid connecting peptide cleaved from proinsulin, used as a marker of endogenous insulin secretion."
+title: "C-Peptide: Oligopeptide Research Reference"
+description: "31-amino acid connecting peptide cleaved from proinsulin, used as a marker of endogenous insulin secretion. This peptide or oligopeptide is studied for its b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

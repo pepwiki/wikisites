@@ -1,6 +1,6 @@
 ---
-title: "Liberty Blue"
-description: "Automated peptide synthesizer for microwave-assisted SPPS."
+title: "Liberty Blue: Oligopeptide Research Reference"
+description: "Automated peptide synthesizer for microwave-assisted SPPS. This peptide or oligopeptide is studied for its biological activity, structure-activity relationsh..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

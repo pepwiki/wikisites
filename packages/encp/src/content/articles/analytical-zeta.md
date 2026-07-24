@@ -1,6 +1,6 @@
 ---
-title: "Zeta Analysis"
-description: "An analytical technique for characterizing peptides using Zeta."
+title: "Zeta Analysis: Analytical Technique in Peptide Research"
+description: "An analytical technique for characterizing peptides using Zeta. This analytical technique provides valuable insights into peptide structure, purity, and char..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

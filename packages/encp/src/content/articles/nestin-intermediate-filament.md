@@ -1,6 +1,6 @@
 ---
-title: "Nestin intermediate filament"
-description: "Reference for nestin intermediate filament in peptide research."
+title: "Nestin intermediate filament: Comprehensive Peptide Refer..."
+description: "Comprehensive reference for nestin intermediate filament, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

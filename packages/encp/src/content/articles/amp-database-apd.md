@@ -1,6 +1,6 @@
 ---
-title: "AMP Database APD"
-description: "Comprehensive public database with sequences, structures, and activity data."
+title: "AMP Database APD: Antimicrobial Peptide Reference"
+description: "Comprehensive public database with sequences, structures, and activity data. This antimicrobial peptide demonstrates activity against pathogens and is studie..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

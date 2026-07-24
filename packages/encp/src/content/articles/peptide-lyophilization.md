@@ -1,6 +1,6 @@
 ---
-title: "Peptide Lyophilization"
-description: "Lyophilization protocols for stabilizing peptide drugs in solid form."
+title: "Peptide Lyophilization: Oligopeptide Research Reference"
+description: "Lyophilization protocols for stabilizing peptide drugs in solid form. This peptide or oligopeptide is studied for its biological activity, structure-activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

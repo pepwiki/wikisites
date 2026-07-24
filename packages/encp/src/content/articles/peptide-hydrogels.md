@@ -1,6 +1,6 @@
 ---
-title: "Peptide Hydrogels"
-description: "A review of self-assembling peptide hydrogels including RADA16 and EAK16, covering self-assembly mechanisms, mechanical properties, and tissue engineering applications."
+title: "Peptide Hydrogels: Oligopeptide Research Reference"
+description: "A review of self-assembling peptide hydrogels including RADA16 and EAK16, covering self-assembly mechanisms, mechanical properties, and tissue engineering ap..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-04-20

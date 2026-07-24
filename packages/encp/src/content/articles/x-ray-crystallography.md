@@ -1,6 +1,6 @@
 ---
-title: "X-ray Crystallography"
-description: ">"
+title: "X-ray Crystallography: Analytical Technique in Peptide Re..."
+description: ">. This analytical technique provides valuable insights into peptide structure, purity, and characterization, supporting quality control and research in pept..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

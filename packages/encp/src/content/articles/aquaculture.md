@@ -1,6 +1,6 @@
 ---
-title: "Aquaculture"
-description: "Use of antimicrobial peptides in aquaculture."
+title: "Aquaculture: Oligopeptide Research Reference"
+description: "Use of antimicrobial peptides in aquaculture. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and pote..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

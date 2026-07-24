@@ -1,6 +1,6 @@
 ---
-title: "Thrombopoietin"
-description: "Glycoprotein hormone that stimulates megakaryocyte proliferation and platelet production through the c-Mpl receptor."
+title: "Thrombopoietin: Endogenous Peptide Hormone Reference"
+description: "Glycoprotein hormone that stimulates megakaryocyte proliferation and platelet production through the c-Mpl receptor. Covers molecular mechanisms, biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "DESI MS Analysis"
-description: "An analytical technique for characterizing peptides using DESI MS."
+title: "DESI MS Analysis: Analytical Technique in Peptide Research"
+description: "An analytical technique for characterizing peptides using DESI MS. This analytical technique provides valuable insights into peptide structure, purity, and c..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

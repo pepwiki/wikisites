@@ -1,6 +1,6 @@
 ---
-title: "Nanotechnology"
-description: "Peptide-based nanotechnology applications."
+title: "Nanotechnology: Oligopeptide Research Reference"
+description: "Peptide-based nanotechnology applications. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potenti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

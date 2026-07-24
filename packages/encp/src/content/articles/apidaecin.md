@@ -1,6 +1,6 @@
 ---
-title: "Apidaecin"
-description: "Proline-rich AMP from honeybee hemolymph inhibiting bacterial protein synthesis."
+title: "Apidaecin: Antimicrobial Peptide Reference"
+description: "Proline-rich AMP from honeybee hemolymph inhibiting bacterial protein synthesis. This antimicrobial peptide demonstrates activity against pathogens and is st..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

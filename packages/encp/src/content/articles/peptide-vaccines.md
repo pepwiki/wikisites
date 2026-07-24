@@ -1,6 +1,6 @@
 ---
-title: "Peptide Vaccines"
-description: "Learn about peptide-based vaccine design targeting B-cell and T-cell epitopes."
+title: "Peptide Vaccines: Oligopeptide Research Reference"
+description: "Learn about peptide-based vaccine design targeting B-cell and T-cell epitopes. This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

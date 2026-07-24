@@ -1,6 +1,6 @@
 ---
-title: "Agouti-Related Peptide"
-description: "A 113-amino acid neuropeptide co-expressed with NPY in the arcuate nucleus that antagonizes melanocortin receptors (MC3R/MC4R), stimulating appetite and opposing the satiety effects of α-MSH."
+title: "Agouti-Related Peptide: Neuropeptide in Neuroscience Refe..."
+description: "A 113-amino acid neuropeptide co-expressed with NPY in the arcuate nucleus that antagonizes melanocortin receptors (MC3R/MC4R), stimulating appetite and oppo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

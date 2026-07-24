@@ -1,6 +1,6 @@
 ---
-title: "Research Synthetic"
-description: "Cell-penetrating and research peptides"
+title: "Research Synthetic: Oligopeptide Research Reference"
+description: "Cell-penetrating and research peptides. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

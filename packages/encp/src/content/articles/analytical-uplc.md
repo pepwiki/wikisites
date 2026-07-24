@@ -1,6 +1,6 @@
 ---
-title: "UPLC Analysis"
-description: "An analytical technique for characterizing peptides using UPLC."
+title: "UPLC Analysis: Analytical Technique in Peptide Research"
+description: "An analytical technique for characterizing peptides using UPLC. This analytical technique provides valuable insights into peptide structure, purity, and char..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

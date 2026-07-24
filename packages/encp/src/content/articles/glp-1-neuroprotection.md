@@ -1,6 +1,6 @@
 ---
 title: "GLP-1 Agonist Neuroprotective Effects"
-description: "Evidence for neuroprotective and neurorestorative effects of GLP-1 receptor agonists in neurodegenerative diseases."
+description: "Evidence for neuroprotective and neurorestorative effects of GLP-1 receptor agonists in neurodegenerative diseases. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

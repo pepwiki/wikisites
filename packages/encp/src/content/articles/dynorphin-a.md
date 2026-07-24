@@ -1,6 +1,6 @@
 ---
-title: "Dynorphin A"
-description: "A 17-amino acid opioid neuropeptide derived from prodynorphin that preferentially activates kappa-opioid receptors, mediating pain modulation, stress responses, and dysphoria."
+title: "Dynorphin A: Neuropeptide in Neuroscience Reference"
+description: "A 17-amino acid opioid neuropeptide derived from prodynorphin that preferentially activates kappa-opioid receptors, mediating pain modulation, stress respons..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

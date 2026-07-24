@@ -1,6 +1,6 @@
 ---
-title: "Candida albicans target"
-description: "Binds Ssa1p on candida surface, induces ROS"
+title: "Candida albicans target: Oligopeptide Research Reference"
+description: "Binds Ssa1p on candida surface, induces ROS. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and poten..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

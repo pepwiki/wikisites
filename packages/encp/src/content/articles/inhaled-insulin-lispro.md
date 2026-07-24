@@ -1,6 +1,6 @@
 ---
-title: "Inhaled Insulin Lispro"
-description: "Inhaled insulin lispro formulation for pulmonary delivery using specialized dry powder inhaler."
+title: "Inhaled Insulin Lispro: Oligopeptide Research Reference"
+description: "Inhaled insulin lispro formulation for pulmonary delivery using specialized dry powder inhaler. This peptide or oligopeptide is studied for its biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

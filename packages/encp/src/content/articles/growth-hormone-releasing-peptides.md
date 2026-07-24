@@ -1,6 +1,6 @@
 ---
 title: "Growth Hormone Releasing Peptides"
-description: "Synthetic hexapeptides that stimulate growth hormone release through the ghrelin receptor, distinct from GHRH pathway."
+description: "Synthetic hexapeptides that stimulate growth hormone release through the ghrelin receptor, distinct from GHRH pathway. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

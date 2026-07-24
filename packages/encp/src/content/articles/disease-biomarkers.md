@@ -1,6 +1,6 @@
 ---
-title: "Disease Biomarkers"
-description: "Peptide biomarkers for disease diagnosis."
+title: "Disease Biomarkers: Oligopeptide Research Reference"
+description: "Peptide biomarkers for disease diagnosis. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potentia..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Laboratory Diagnostics"
-description: "Peptide-based laboratory diagnostic tests."
+title: "Laboratory Diagnostics: Oligopeptide Research Reference"
+description: "Peptide-based laboratory diagnostic tests. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potenti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

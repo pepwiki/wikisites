@@ -1,6 +1,6 @@
 ---
-title: "Electrochemical Synthesis"
-description: "A peptide synthesis method using Electrochemical for producing peptides with specific properties."
+title: "Electrochemical Synthesis: Comprehensive Peptide Reference"
+description: "A peptide synthesis method using Electrochemical for producing peptides with specific properties. This analytical technique provides valuable insights into p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Prolactin-Releasing Peptide"
-description: "Hypothalamic peptide stimulating prolactin release from anterior pituitary."
+title: "Prolactin-Releasing Peptide: Comprehensive Peptide Reference"
+description: "Hypothalamic peptide stimulating prolactin release from anterior pituitary. This neuropeptide is involved in neurological signaling and is studied for its ro..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

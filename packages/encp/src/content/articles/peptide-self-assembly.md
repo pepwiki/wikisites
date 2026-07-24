@@ -1,6 +1,6 @@
 ---
-title: "Peptide Self-Assembly"
-description: "Peptide self-assembly into nanostructures for drug delivery applications."
+title: "Peptide Self-Assembly: Oligopeptide Research Reference"
+description: "Peptide self-assembly into nanostructures for drug delivery applications. This peptide or oligopeptide is studied for its biological activity, structure-acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

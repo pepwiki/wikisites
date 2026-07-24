@@ -1,6 +1,6 @@
 ---
-title: "Elagolix"
-description: "Oral GnRH antagonist for endometriosis-associated pain with dose-dependent estrogen suppression."
+title: "Elagolix: Oligopeptide Research Reference"
+description: "Oral GnRH antagonist for endometriosis-associated pain with dose-dependent estrogen suppression. This peptide or oligopeptide is studied for its biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

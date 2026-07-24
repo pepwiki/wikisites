@@ -1,6 +1,6 @@
 ---
-title: "Neutralizing Antibodies"
-description: "Antibodies that neutralize the pharmacological activity of therapeutic peptides."
+title: "Neutralizing Antibodies: Oligopeptide Research Reference"
+description: "Antibodies that neutralize the pharmacological activity of therapeutic peptides. This peptide or oligopeptide is studied for its biological activity, structu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

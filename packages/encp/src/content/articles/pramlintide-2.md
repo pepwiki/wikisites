@@ -1,6 +1,6 @@
 ---
-title: "Pramlintide"
-description: "Synthetic amylin analog that slows gastric emptying and suppresses glucagon for improved glycemic control in diabetes."
+title: "Pramlintide: Oligopeptide Research Reference"
+description: "Synthetic amylin analog that slows gastric emptying and suppresses glucagon for improved glycemic control in diabetes. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

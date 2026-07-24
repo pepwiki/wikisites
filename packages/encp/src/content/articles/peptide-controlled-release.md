@@ -1,6 +1,6 @@
 ---
-title: "Peptide Controlled Release"
-description: "Controlled release technologies for maintaining therapeutic peptide levels."
+title: "Peptide Controlled Release: Comprehensive Peptide Reference"
+description: "Controlled release technologies for maintaining therapeutic peptide levels. This peptide or oligopeptide is studied for its biological activity, structure-ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

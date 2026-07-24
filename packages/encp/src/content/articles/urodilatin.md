@@ -1,5 +1,5 @@
 ---
-title: "Urodilatin"
+title: "Urodilatin: Endogenous Peptide Hormone Reference"
 description: "Urodilatin is a natriuretic peptide that regulates blood pressure and fluid balance through vasodilation and natriuresis."
 status: "published"
 author: "Encyclopeptide Editorial"

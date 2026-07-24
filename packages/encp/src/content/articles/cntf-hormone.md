@@ -1,6 +1,6 @@
 ---
-title: "CNTF Hormone"
-description: "The CNTF Hormone and its role in endocrine signaling."
+title: "CNTF Hormone: Endogenous Peptide Hormone Reference"
+description: "CNTF, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical signi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

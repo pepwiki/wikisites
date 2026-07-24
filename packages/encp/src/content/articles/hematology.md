@@ -1,6 +1,6 @@
 ---
-title: "Hematology"
-description: "Clinical trials for blood disorders."
+title: "Hematology: Oligopeptide Research Reference"
+description: "Clinical trials for blood disorders. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential app..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

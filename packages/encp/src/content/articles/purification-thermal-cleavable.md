@@ -1,6 +1,6 @@
 ---
 title: "Thermal Cleavable Purification"
-description: "A purification technique for separating and isolating peptides using Thermal Cleavable."
+description: "A purification technique for separating and isolating peptides using Thermal Cleavable. This analytical technique provides valuable insights into peptide str..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "extrusion for Peptides"
-description: "Application of extrusion technique for peptide characterization, structure determination, or formulation."
+title: "extrusion for Peptides: Analytical Technique in Peptide R..."
+description: "Application of extrusion technique for peptide characterization, structure determination, or formulation. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

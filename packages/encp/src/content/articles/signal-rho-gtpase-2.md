@@ -1,5 +1,5 @@
 ---
-title: "Rho-GTPase Pathway Peptide 2"
+title: "Rho-GTPase Pathway Peptide 2: Comprehensive Peptide Refer..."
 description: "A peptide involved in the Rho-GTPase signal transduction pathway, playing roles in cell proliferation, differentiation, or survival."
 status: "published"
 author: "Encyclopeptide Editorial"

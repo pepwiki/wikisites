@@ -1,6 +1,6 @@
 ---
-title: "Gastrin (G-17)"
-description: "Comprehensive reference for Gastrin (G-17), a peptide compound with applications in research and therapeutics."
+title: "Gastrin (G-17): Neuropeptide in Neuroscience Reference"
+description: "Gastrin (G-17), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

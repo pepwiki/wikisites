@@ -1,6 +1,6 @@
 ---
-title: "Free PSA"
-description: "Unbound PSA. Free/total PSA ratio improves prostate cancer detection."
+title: "Free PSA: Oligopeptide Research Reference"
+description: "Unbound PSA. Free/total PSA ratio improves prostate cancer detection. This peptide or oligopeptide is studied for its biological activity, structure-activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

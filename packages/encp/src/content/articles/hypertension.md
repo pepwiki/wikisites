@@ -1,6 +1,6 @@
 ---
-title: "Hypertension"
-description: "Sustained BP ≥130/80. Treatments: ACEi/ARBs, CCBs, diuretics, beta-blockers."
+title: "Hypertension: Oligopeptide Research Reference"
+description: "Sustained BP ≥130/80. Treatments: ACEi/ARBs, CCBs, diuretics, beta-blockers. This peptide or oligopeptide is studied for its biological activity, structure-a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

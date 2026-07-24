@@ -1,6 +1,6 @@
 ---
-title: "PGLa"
-description: "Antimicrobial peptide from Xenopus skin with synergistic activity with magainin."
+title: "PGLa: Antimicrobial Peptide Reference"
+description: "Antimicrobial peptide from Xenopus skin with synergistic activity with magainin. This antimicrobial peptide demonstrates activity against pathogens and is st..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

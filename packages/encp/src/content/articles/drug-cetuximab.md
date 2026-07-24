@@ -1,6 +1,6 @@
 ---
-title: "Cetuximab"
-description: "Comprehensive reference for cetuximab in peptide research."
+title: "Cetuximab: Oligopeptide Research Reference"
+description: "cetuximab in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicati..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Wasp Venom Antimicrobial"
-description: "Antimicrobial properties of wasp venom peptides for infectious disease."
+title: "Wasp Venom Antimicrobial: Peptide Toxin in Pharmacology R..."
+description: "Antimicrobial properties of wasp venom peptides for infectious disease. This peptide toxin is derived from venom and studied for its pharmacological activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

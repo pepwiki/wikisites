@@ -1,6 +1,6 @@
 ---
-title: "Esculentin 2EM"
-description: "esculentin-2EM is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity."
+title: "Esculentin 2EM: Antimicrobial Peptide Reference"
+description: "esculentin-2EM is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

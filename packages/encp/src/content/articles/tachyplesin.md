@@ -1,6 +1,6 @@
 ---
-title: "Tachyplesin"
-description: "AMP from horseshoe crab hemocytes with beta-sheet structure and membrane-disrupting activity."
+title: "Tachyplesin: Antimicrobial Peptide Reference"
+description: "AMP from horseshoe crab hemocytes with beta-sheet structure and membrane-disrupting activity. This antimicrobial peptide demonstrates activity against pathog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Adiponectin globular-1-150"
-description: "Reference for adiponectin globular-1-150 variant in peptide research."
+title: "Adiponectin globular-1-150: Comprehensive Peptide Reference"
+description: "Comprehensive reference for adiponectin globular-1-150 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

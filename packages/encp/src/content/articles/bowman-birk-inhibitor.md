@@ -1,6 +1,6 @@
 ---
-title: "Bowman-Birk Inhibitor"
-description: "Comprehensive reference for Bowman-Birk Inhibitor, a peptide compound with applications in research and therapeutics."
+title: "Bowman-Birk Inhibitor: Oligopeptide Research Reference"
+description: "Bowman-Birk Inhibitor, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

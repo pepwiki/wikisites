@@ -1,6 +1,6 @@
 ---
-title: "Random Coil System 3"
-description: "A random-coil-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy."
+title: "Random Coil System 3: Oligopeptide Research Reference"
+description: "A random-coil-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy.. This innovative approach addresses key challenge..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

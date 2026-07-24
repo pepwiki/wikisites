@@ -1,6 +1,6 @@
 ---
-title: "Tirzepatide"
-description: "Dual GIP/GLP-1 receptor agonist with C-20 fatty diacid for once-weekly dosing."
+title: "Tirzepatide: Oligopeptide Research Reference"
+description: "Dual GIP/GLP-1 receptor agonist with C-20 fatty diacid for once-weekly dosing. This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

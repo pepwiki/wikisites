@@ -1,6 +1,6 @@
 ---
-title: "M Pneumoniae Peptide"
-description: "A peptide associated with M Pneumoniae for research or therapeutic applications."
+title: "M Pneumoniae Peptide: Oligopeptide Research Reference"
+description: "A peptide associated with M Pneumoniae for research or therapeutic applications. This peptide or oligopeptide is studied for its biological activity, structu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

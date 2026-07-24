@@ -1,6 +1,6 @@
 ---
-title: "Cyclization"
-description: "5–20x"
+title: "Cyclization: Post-Translational Modification Reference"
+description: "5–20x. This modification affects peptide stability, receptor binding, and biological activity, playing an important role in the design of optimized therapeut..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

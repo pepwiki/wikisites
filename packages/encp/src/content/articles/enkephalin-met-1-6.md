@@ -1,6 +1,6 @@
 ---
-title: "Enkephalin met-1-6"
-description: "Reference for enkephalin met-1-6 variant in peptide research."
+title: "Enkephalin met-1-6: Neuropeptide in Neuroscience Reference"
+description: "Comprehensive reference for enkephalin met-1-6 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "α-Latrotoxin"
-description: "Comprehensive reference for α-Latrotoxin, a peptide compound with applications in research and therapeutics."
+title: "α-Latrotoxin: Peptide Toxin in Pharmacology Reference"
+description: "α-Latrotoxin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

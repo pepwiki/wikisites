@@ -1,6 +1,6 @@
 ---
-title: "Hirudin HV3"
-description: "Comprehensive reference for Hirudin HV3, a peptide compound with applications in research and therapeutics."
+title: "Hirudin HV3: Oligopeptide Research Reference"
+description: "Hirudin HV3, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

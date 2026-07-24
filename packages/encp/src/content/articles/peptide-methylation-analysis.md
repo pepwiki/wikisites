@@ -1,6 +1,6 @@
 ---
-title: "Peptide methylation analysis"
-description: "Reference for peptide methylation analysis in peptide research."
+title: "Peptide methylation analysis: Comprehensive Peptide Refer..."
+description: "Comprehensive reference for peptide methylation analysis, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

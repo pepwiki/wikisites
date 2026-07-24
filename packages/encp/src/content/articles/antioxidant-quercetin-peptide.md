@@ -1,6 +1,6 @@
 ---
-title: "Quercetin Peptide"
-description: "Comprehensive reference for quercetin peptide in peptide research."
+title: "Quercetin Peptide: Oligopeptide Research Reference"
+description: "quercetin peptide in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

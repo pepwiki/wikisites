@@ -1,6 +1,6 @@
 ---
-title: "Chicken Lysozyme"
-description: "129-aa enzyme from chicken egg white. Hydrolyzes bacterial cell wall peptidoglycan."
+title: "Chicken Lysozyme: Oligopeptide Research Reference"
+description: "129-aa enzyme from chicken egg white. Hydrolyzes bacterial cell wall peptidoglycan. This peptide or oligopeptide is studied for its biological activity, stru..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

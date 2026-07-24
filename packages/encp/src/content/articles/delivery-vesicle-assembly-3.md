@@ -1,6 +1,6 @@
 ---
-title: "Vesicle Assembly System 3"
-description: "A vesicle-assembly-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy."
+title: "Vesicle Assembly System 3: Comprehensive Peptide Reference"
+description: "A vesicle-assembly-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy.. This innovative approach addresses key chal..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

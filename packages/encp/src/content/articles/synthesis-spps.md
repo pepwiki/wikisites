@@ -1,6 +1,6 @@
 ---
-title: "SPPS Synthesis"
-description: "A peptide synthesis method using SPPS for producing peptides with specific properties."
+title: "SPPS Synthesis: Analytical Technique in Peptide Research"
+description: "A peptide synthesis method using SPPS for producing peptides with specific properties. This analytical technique provides valuable insights into peptide stru..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

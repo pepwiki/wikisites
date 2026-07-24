@@ -1,6 +1,6 @@
 ---
-title: "Alpha Conotoxin GIIA"
-description: "alpha-conotoxin-GIIA is a conotoxin from cone snail venom with specific ion channel blocking properties."
+title: "Alpha Conotoxin GIIA: Peptide Toxin in Pharmacology Refer..."
+description: "alpha-conotoxin-GIIA is a conotoxin from cone snail venom with specific ion channel blocking properties. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

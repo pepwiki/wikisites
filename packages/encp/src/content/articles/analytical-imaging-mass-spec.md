@@ -1,6 +1,6 @@
 ---
-title: "Imaging Mass Spec Analysis"
-description: "An analytical technique for characterizing peptides using Imaging Mass Spec."
+title: "Imaging Mass Spec Analysis: Comprehensive Peptide Reference"
+description: "An analytical technique for characterizing peptides using Imaging Mass Spec. This analytical technique provides valuable insights into peptide structure, pur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

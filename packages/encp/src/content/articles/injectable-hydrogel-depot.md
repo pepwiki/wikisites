@@ -1,6 +1,6 @@
 ---
-title: "Injectable Hydrogel Depot"
-description: "Injectable hydrogels forming sustained-release depots for peptide drugs."
+title: "Injectable Hydrogel Depot: Comprehensive Peptide Reference"
+description: "Injectable hydrogels forming sustained-release depots for peptide drugs. This peptide or oligopeptide is studied for its biological activity, structure-activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

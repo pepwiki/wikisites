@@ -1,6 +1,6 @@
 ---
-title: "Long-Acting Formulations"
-description: "Strategies for extending peptide drug half-life."
+title: "Long-Acting Formulations: Oligopeptide Research Reference"
+description: "Strategies for extending peptide drug half-life. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

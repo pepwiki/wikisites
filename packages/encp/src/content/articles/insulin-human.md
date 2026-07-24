@@ -1,6 +1,6 @@
 ---
-title: "Insulin (Human)"
-description: "Natural human insulin produced by recombinant DNA technology. 51-aa heterodimer."
+title: "Insulin (Human): Oligopeptide Research Reference"
+description: "Natural human insulin produced by recombinant DNA technology. 51-aa heterodimer. This peptide or oligopeptide is studied for its biological activity, structu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

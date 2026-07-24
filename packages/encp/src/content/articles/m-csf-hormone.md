@@ -1,6 +1,6 @@
 ---
-title: "M CSF Hormone"
-description: "The M CSF Hormone and its role in endocrine signaling."
+title: "M CSF Hormone: Endogenous Peptide Hormone Reference"
+description: "M CSF, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical sign..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

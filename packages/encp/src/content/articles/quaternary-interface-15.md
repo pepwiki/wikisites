@@ -1,6 +1,6 @@
 ---
-title: "Quaternary Interface 15"
-description: "A peptide interface region involved in subunit-subunit interactions in protein complexes."
+title: "Quaternary Interface 15: Oligopeptide Research Reference"
+description: "A peptide interface region involved in subunit-subunit interactions in protein complexes. This peptide or oligopeptide is studied for its biological activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

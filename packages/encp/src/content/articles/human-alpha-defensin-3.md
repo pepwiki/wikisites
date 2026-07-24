@@ -1,6 +1,6 @@
 ---
-title: "Human Alpha-Defensin 3"
-description: "Neutrophil defensin with strongest bactericidal activity and membrane disruption capability."
+title: "Human Alpha-Defensin 3: Antimicrobial Peptide Reference"
+description: "Neutrophil defensin with strongest bactericidal activity and membrane disruption capability. This antimicrobial peptide demonstrates activity against pathoge..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

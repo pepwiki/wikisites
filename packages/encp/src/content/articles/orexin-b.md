@@ -1,6 +1,6 @@
 ---
-title: "Orexin B"
-description: "Hypothalamic neuropeptide with wake-promoting activity acting through OX2 receptor."
+title: "Orexin B: Neuropeptide in Neuroscience Reference"
+description: "Hypothalamic neuropeptide with wake-promoting activity acting through OX2 receptor. This neuropeptide is involved in neurological signaling and is studied fo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

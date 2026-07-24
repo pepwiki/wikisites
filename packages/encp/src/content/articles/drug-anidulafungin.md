@@ -1,6 +1,6 @@
 ---
-title: "Anidulafungin"
-description: "Comprehensive reference for anidulafungin in peptide research."
+title: "Anidulafungin: Oligopeptide Research Reference"
+description: "anidulafungin in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appli..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

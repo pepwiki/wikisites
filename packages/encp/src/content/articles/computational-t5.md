@@ -1,6 +1,6 @@
 ---
-title: "T5 for Peptides"
-description: "A computational method for studying peptides using T5."
+title: "T5 for Peptides: Analytical Technique in Peptide Research"
+description: "A computational method for studying peptides using T5. This analytical technique provides valuable insights into peptide structure, purity, and characterizat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

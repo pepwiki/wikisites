@@ -1,6 +1,6 @@
 ---
-title: "Melanin-Concentrating Hormone"
-description: "A 19-amino acid cyclic neuropeptide from the lateral hypothalamus that stimulates feeding and energy storage, with MCHR1 as a potential anti-obesity drug target."
+title: "Melanin-Concentrating Hormone: Comprehensive Peptide Refe..."
+description: "A 19-amino acid cyclic neuropeptide from the lateral hypothalamus that stimulates feeding and energy storage, with MCHR1 as a potential anti-obesity drug target"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

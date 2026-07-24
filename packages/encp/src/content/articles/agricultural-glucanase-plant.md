@@ -1,6 +1,6 @@
 ---
-title: "Glucanase Plant"
-description: "Comprehensive reference for glucanase plant in peptide research."
+title: "Glucanase Plant: Oligopeptide Research Reference"
+description: "glucanase plant in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential app..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

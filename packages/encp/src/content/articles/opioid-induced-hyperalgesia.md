@@ -1,6 +1,6 @@
 ---
-title: "Opioid-Induced Hyperalgesia"
-description: "Paradoxical pain sensitization from chronic opioid use via NMDA pathways."
+title: "Opioid-Induced Hyperalgesia: Comprehensive Peptide Reference"
+description: "Paradoxical pain sensitization from chronic opioid use via NMDA pathways. This neuropeptide is involved in neurological signaling and is studied for its role..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

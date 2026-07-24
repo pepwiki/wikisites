@@ -1,6 +1,6 @@
 ---
-title: "NPH Insulin"
-description: "Intermediate-acting isophane insulin with protamine suspension providing peak action at 4-10 hours."
+title: "NPH Insulin: Oligopeptide Research Reference"
+description: "Intermediate-acting isophane insulin with protamine suspension providing peak action at 4-10 hours. This peptide or oligopeptide is studied for its biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

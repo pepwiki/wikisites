@@ -1,6 +1,6 @@
 ---
-title: "Helodermin"
-description: "35-aa peptide from Gila monster venom. VIP-like peptide with potent vasodilatory effects."
+title: "Helodermin: Oligopeptide Research Reference"
+description: "35-aa peptide from Gila monster venom. VIP-like peptide with potent vasodilatory effects. This peptide or oligopeptide is studied for its biological activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

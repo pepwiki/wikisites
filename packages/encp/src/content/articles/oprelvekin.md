@@ -1,6 +1,6 @@
 ---
-title: "Oprelvekin"
-description: "Recombinant interleukin-11 for chemotherapy-induced thrombocytopenia, stimulating megakaryocyte proliferation."
+title: "Oprelvekin: Oligopeptide Research Reference"
+description: "Recombinant interleukin-11 for chemotherapy-induced thrombocytopenia, stimulating megakaryocyte proliferation. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

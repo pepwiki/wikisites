@@ -1,6 +1,6 @@
 ---
 title: "Peptide Anti-Inflammatory Agents"
-description: "Guide to anti-inflammatory peptides modulating cytokines and immune cell recruitment."
+description: "Guide to anti-inflammatory peptides modulating cytokines and immune cell recruitment. This peptide or oligopeptide is studied for its biological activity, st..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

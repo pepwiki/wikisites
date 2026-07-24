@@ -1,6 +1,6 @@
 ---
-title: "Kallikrein Inhibitor"
-description: "Comprehensive reference for kallikrein inhibitor in peptide research."
+title: "Kallikrein Inhibitor: Enzyme in Peptide Biology Reference"
+description: "kallikrein inhibitor in peptide research. This enzyme plays important roles in peptide metabolism and is studied for its biochemical mechanisms, substrate sp..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

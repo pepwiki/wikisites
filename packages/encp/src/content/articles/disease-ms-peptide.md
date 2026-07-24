@@ -1,6 +1,6 @@
 ---
-title: "Ms Peptides"
-description: "Peptides associated with Ms including biomarkers, therapeutic targets, and diagnostic markers."
+title: "Ms Peptides: Oligopeptide Research Reference"
+description: "Peptides associated with Ms including biomarkers, therapeutic targets, and diagnostic markers. This peptide or oligopeptide is studied for its biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

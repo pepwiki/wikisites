@@ -1,6 +1,6 @@
 ---
-title: "Crocodilin"
-description: "Comprehensive reference for Crocodilin, a peptide compound with applications in research and therapeutics."
+title: "Crocodilin: Oligopeptide Research Reference"
+description: "Crocodilin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

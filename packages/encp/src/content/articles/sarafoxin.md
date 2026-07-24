@@ -1,6 +1,6 @@
 ---
-title: "Sarafoxin"
-description: "sarafoxin is a snake venom peptide toxin with specific pharmacological activity."
+title: "Sarafoxin: Peptide Toxin in Pharmacology Reference"
+description: "sarafoxin is a snake venom peptide toxin with specific pharmacological activity. This peptide toxin is derived from venom and studied for its pharmacological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

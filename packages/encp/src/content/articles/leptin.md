@@ -1,6 +1,6 @@
 ---
-title: "Leptin"
-description: "Leptin is a 167-amino acid hormone secreted by adipose tissue that signals energy sufficiency to the hypothalamus, suppressing appetite and regulating energy homeostasis."
+title: "Leptin: Oligopeptide Research Reference"
+description: "Leptin is a 167-amino acid hormone secreted by adipose tissue that signals energy sufficiency to the hypothalamus, suppressing appetite and regulating energy..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-07-20

@@ -1,6 +1,6 @@
 ---
-title: "Peptide-drug conjugate"
-description: "Reference for peptide-drug conjugate in peptide research."
+title: "Peptide-drug conjugate: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide-drug conjugate, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,5 +1,5 @@
 ---
-title: "Daptomycin"
+title: "Daptomycin: Antimicrobial Peptide Reference"
 description: "Lipopeptide antibiotic from Streptomyces roseosporus that inserts into gram-positive bacterial membranes causing rapid depolarization."
 status: "published"
 author: "Encyclopeptide Editorial"

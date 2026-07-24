@@ -1,6 +1,6 @@
 ---
 title: "Peptide Excipient Qualification"
-description: "Understand excipient selection and qualification requirements for peptide drug product formulation."
+description: "Understand excipient selection and qualification requirements for peptide drug product formulation. This peptide or oligopeptide is studied for its biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

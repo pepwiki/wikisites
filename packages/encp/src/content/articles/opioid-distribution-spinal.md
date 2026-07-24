@@ -1,6 +1,6 @@
 ---
-title: "Opioid Distribution Spinal"
-description: "Distribution in dorsal horn and segmental pain modulation."
+title: "Opioid Distribution Spinal: Comprehensive Peptide Reference"
+description: "Distribution in dorsal horn and segmental pain modulation. This neuropeptide is involved in neurological signaling and is studied for its roles in brain func..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

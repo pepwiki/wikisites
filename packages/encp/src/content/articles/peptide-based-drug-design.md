@@ -1,6 +1,6 @@
 ---
-title: "Peptide-Based Drug Design"
-description: "Resource on computational approaches to peptide drug design."
+title: "Peptide-Based Drug Design: Comprehensive Peptide Reference"
+description: "Resource on computational approaches to peptide drug design. This peptide or oligopeptide is studied for its biological activity, structure-activity relation..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

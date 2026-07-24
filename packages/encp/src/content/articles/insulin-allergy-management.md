@@ -1,6 +1,6 @@
 ---
-title: "Insulin Allergy Management"
-description: "Diagnosis and treatment of insulin hypersensitivity including desensitization and formulation switching."
+title: "Insulin Allergy Management: Comprehensive Peptide Reference"
+description: "Diagnosis and treatment of insulin hypersensitivity including desensitization and formulation switching. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "octupole-moment Resource"
-description: "The octupole-moment database or resource for peptide research, providing data on structure, function, and interactions."
+title: "octupole-moment Resource: Oligopeptide Research Reference"
+description: "The octupole-moment database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

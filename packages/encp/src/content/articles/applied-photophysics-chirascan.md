@@ -1,6 +1,6 @@
 ---
 title: "Applied Photophysics Chirascan"
-description: "Circular dichroism spectrometer for protein secondary structure analysis."
+description: "Circular dichroism spectrometer for protein secondary structure analysis. This peptide or oligopeptide is studied for its biological activity, structure-acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

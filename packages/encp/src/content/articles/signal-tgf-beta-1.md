@@ -1,5 +1,5 @@
 ---
-title: "TGF-beta Pathway Peptide 1"
+title: "TGF-beta Pathway Peptide 1: Comprehensive Peptide Reference"
 description: "A peptide involved in the TGF-beta signal transduction pathway, playing roles in cell proliferation, differentiation, or survival."
 status: "published"
 author: "Encyclopeptide Editorial"

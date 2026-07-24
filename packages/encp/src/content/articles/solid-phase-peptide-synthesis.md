@@ -1,6 +1,6 @@
 ---
-title: "Solid-Phase Peptide Synthesis"
-description: "Comprehensive resource on SPPS methods and applications."
+title: "Solid-Phase Peptide Synthesis: Comprehensive Peptide Refe..."
+description: "Comprehensive resource on SPPS methods and applications. This peptide or oligopeptide is studied for its biological activity, structure-activity relationship..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Renin Hormone"
-description: "The Renin Hormone and its role in endocrine signaling."
+title: "Renin Hormone: Endogenous Peptide Hormone Reference"
+description: "Renin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical sign..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

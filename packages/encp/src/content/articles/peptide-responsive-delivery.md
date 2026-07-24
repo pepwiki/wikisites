@@ -1,6 +1,6 @@
 ---
-title: "Peptide Responsive Delivery"
-description: "Stimuli-responsive delivery systems for on-demand peptide release."
+title: "Peptide Responsive Delivery: Comprehensive Peptide Reference"
+description: "Stimuli-responsive delivery systems for on-demand peptide release. This peptide or oligopeptide is studied for its biological activity, structure-activity re..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

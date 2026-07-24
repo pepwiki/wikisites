@@ -1,6 +1,6 @@
 ---
-title: "Defensin in Cystic Fibrosis"
-description: "Defective AMP function in CF airways contributing to chronic bacterial infections."
+title: "Defensin in Cystic Fibrosis: Comprehensive Peptide Reference"
+description: "Defective AMP function in CF airways contributing to chronic bacterial infections. This antimicrobial peptide demonstrates activity against pathogens and is ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

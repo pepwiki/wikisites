@@ -1,6 +1,6 @@
 ---
-title: "Interferon IFN-delta"
-description: "Reference for interferon IFN-delta in peptide research."
+title: "Interferon IFN-delta: Oligopeptide Research Reference"
+description: "Comprehensive reference for interferon IFN-delta, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

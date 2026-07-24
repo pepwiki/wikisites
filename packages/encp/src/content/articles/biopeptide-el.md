@@ -1,6 +1,6 @@
 ---
-title: "Biopeptide EL"
-description: "Acetyl tetrapeptide-3. Stimulates extracellular matrix. Anti-aging hair care."
+title: "Biopeptide EL: Oligopeptide Research Reference"
+description: "Acetyl tetrapeptide-3. Stimulates extracellular matrix. Anti-aging hair care. This peptide or oligopeptide is studied for its biological activity, structure-..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

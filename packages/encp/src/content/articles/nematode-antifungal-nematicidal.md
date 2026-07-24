@@ -1,6 +1,6 @@
 ---
 title: "Nematode Antifungal / Nematicidal"
-description: "Nematode Antifungal / Nematicidal is a bioactive compound with applications in peptide research and therapeutics."
+description: "Nematode Antifungal / Nematicidal is a bioactive compound with applications in peptide research and therapeutics. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

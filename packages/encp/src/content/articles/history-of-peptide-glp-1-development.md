@@ -1,6 +1,6 @@
 ---
 title: "History of Peptide-GLP-1 Development"
-description: "The journey from GLP-1 discovery to blockbuster diabetes and obesity drugs."
+description: "The journey from GLP-1 discovery to blockbuster diabetes and obesity drugs. This peptide or oligopeptide is studied for its biological activity, structure-ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

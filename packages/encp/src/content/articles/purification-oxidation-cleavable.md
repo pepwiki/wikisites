@@ -1,6 +1,6 @@
 ---
 title: "Oxidation Cleavable Purification"
-description: "A purification technique for separating and isolating peptides using Oxidation Cleavable."
+description: "A purification technique for separating and isolating peptides using Oxidation Cleavable. This analytical technique provides valuable insights into peptide s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

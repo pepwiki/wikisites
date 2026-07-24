@@ -1,6 +1,6 @@
 ---
-title: "Bee Venom Neuroprotective"
-description: "Neuroprotective properties of bee venom components in neurodegenerative disease."
+title: "Bee Venom Neuroprotective: Comprehensive Peptide Reference"
+description: "Neuroprotective properties of bee venom components in neurodegenerative disease. This peptide toxin is derived from venom and studied for its pharmacological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

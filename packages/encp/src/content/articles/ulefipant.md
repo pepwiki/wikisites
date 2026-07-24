@@ -1,6 +1,6 @@
 ---
-title: "Ulefipant"
-description: "NK1 receptor antagonist peptide under investigation for chemotherapy-induced nausea and vomiting."
+title: "Ulefipant: Oligopeptide Research Reference"
+description: "NK1 receptor antagonist peptide under investigation for chemotherapy-induced nausea and vomiting. This peptide or oligopeptide is studied for its biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Peptide Renal Therapeutics"
-description: "Therapeutic peptides for kidney diseases including erythropoiesis-stimulating agents and phosphate binders."
+title: "Peptide Renal Therapeutics: Comprehensive Peptide Reference"
+description: "Therapeutic peptides for kidney diseases including erythropoiesis-stimulating agents and phosphate binders. This peptide or oligopeptide is studied for its b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

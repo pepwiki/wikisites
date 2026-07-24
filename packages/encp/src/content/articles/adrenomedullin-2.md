@@ -1,6 +1,6 @@
 ---
-title: "Adrenomedullin 2"
-description: "adrenomedullin-2 is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation."
+title: "Adrenomedullin 2: Neuropeptide in Neuroscience Reference"
+description: "adrenomedullin-2 is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

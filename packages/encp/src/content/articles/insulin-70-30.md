@@ -1,6 +1,6 @@
 ---
-title: "Insulin 70/30"
-description: "Premixed insulin combining 70% NPH and 30% regular insulin for basal-bolus coverage."
+title: "Insulin 70/30: Oligopeptide Research Reference"
+description: "Premixed insulin combining 70% NPH and 30% regular insulin for basal-bolus coverage. This peptide or oligopeptide is studied for its biological activity, str..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

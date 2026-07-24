@@ -1,5 +1,5 @@
 ---
-title: "Nematode Excretory Peptides"
+title: "Nematode Excretory Peptides: Comprehensive Peptide Reference"
 description: "Comprehensive reference for Nematode Excretory Peptides, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,6 +1,6 @@
 ---
-title: "Sterility Testing"
-description: "Comprehensive reference for Sterility Testing, a peptide compound with applications in research and therapeutics."
+title: "Sterility Testing: Oligopeptide Research Reference"
+description: "Sterility Testing, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

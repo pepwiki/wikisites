@@ -1,6 +1,6 @@
 ---
-title: "Corn Zein Peptide"
-description: "Comprehensive reference for corn zein peptide in peptide research."
+title: "Corn Zein Peptide: Oligopeptide Research Reference"
+description: "corn zein peptide in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

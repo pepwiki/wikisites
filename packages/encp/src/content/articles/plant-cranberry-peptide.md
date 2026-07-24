@@ -1,6 +1,6 @@
 ---
-title: "Cranberry Peptide"
-description: "A bioactive peptide derived from cranberry with potential health benefits."
+title: "Cranberry Peptide: Oligopeptide Research Reference"
+description: "A bioactive peptide derived from cranberry with potential health benefits. This peptide or oligopeptide is studied for its biological activity, structure-act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

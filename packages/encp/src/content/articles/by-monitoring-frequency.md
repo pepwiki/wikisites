@@ -1,6 +1,6 @@
 ---
-title: "By Monitoring Frequency"
-description: "Comprehensive reference for By Monitoring Frequency, a peptide compound with applications in research and therapeutics."
+title: "By Monitoring Frequency: Oligopeptide Research Reference"
+description: "By Monitoring Frequency, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

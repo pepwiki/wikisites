@@ -1,6 +1,6 @@
 ---
-title: "Oral delivery system"
-description: "Reference for oral delivery system in peptide research."
+title: "Oral delivery system: Oligopeptide Research Reference"
+description: "Comprehensive reference for oral delivery system, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

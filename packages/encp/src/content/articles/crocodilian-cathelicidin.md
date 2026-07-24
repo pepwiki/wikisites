@@ -1,5 +1,5 @@
 ---
-title: "Crocodilian Cathelicidin"
+title: "Crocodilian Cathelicidin: Oligopeptide Research Reference"
 description: "Comprehensive reference for Crocodilian Cathelicidin, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,6 +1,6 @@
 ---
-title: "Jingzhaotoxin III"
-description: "Jingzhaotoxin-III is a spider venom peptide with specific ion channel or receptor blocking properties."
+title: "Jingzhaotoxin III: Peptide Toxin in Pharmacology Reference"
+description: "Jingzhaotoxin-III is a spider venom peptide with specific ion channel or receptor blocking properties. This peptide or oligopeptide is studied for its biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

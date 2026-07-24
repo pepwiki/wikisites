@@ -1,6 +1,6 @@
 ---
-title: "Stentor coeruleus"
-description: "Photosensitizer, generates singlet oxygen"
+title: "Stentor coeruleus: Oligopeptide Research Reference"
+description: "Photosensitizer, generates singlet oxygen. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potenti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

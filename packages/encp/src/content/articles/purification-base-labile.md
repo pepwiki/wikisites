@@ -1,6 +1,6 @@
 ---
-title: "Base Labile Purification"
-description: "A purification technique for separating and isolating peptides using Base Labile."
+title: "Base Labile Purification: Analytical Technique in Peptide..."
+description: "A purification technique for separating and isolating peptides using Base Labile. This analytical technique provides valuable insights into peptide structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

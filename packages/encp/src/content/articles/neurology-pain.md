@@ -1,6 +1,6 @@
 ---
-title: "Neurology/Pain"
-description: "Clinical trials for neurological and pain conditions."
+title: "Neurology/Pain: Oligopeptide Research Reference"
+description: "Clinical trials for neurological and pain conditions. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

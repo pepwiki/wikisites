@@ -1,6 +1,6 @@
 ---
-title: "Mussel Antimicrobial Peptides"
-description: "AMPs from blue mussel hemolymph defending against marine pathogens."
+title: "Mussel Antimicrobial Peptides: Comprehensive Peptide Refe..."
+description: "AMPs from blue mussel hemolymph defending against marine pathogens. This antimicrobial peptide demonstrates activity against pathogens and is studied for its..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

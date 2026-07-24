@@ -1,6 +1,6 @@
 ---
-title: "Peptide tube assembly"
-description: "Reference for peptide tube assembly in peptide research."
+title: "Peptide tube assembly: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide tube assembly, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

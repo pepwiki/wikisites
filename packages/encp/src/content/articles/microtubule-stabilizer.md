@@ -1,6 +1,6 @@
 ---
-title: "Microtubule stabilizer"
-description: "Reference for microtubule stabilizer in peptide research."
+title: "Microtubule stabilizer: Oligopeptide Research Reference"
+description: "Comprehensive reference for microtubule stabilizer, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Aducanumab"
-description: "Comprehensive reference for Aducanumab, a peptide compound with applications in research and therapeutics."
+title: "Aducanumab: Oligopeptide Research Reference"
+description: "Aducanumab, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

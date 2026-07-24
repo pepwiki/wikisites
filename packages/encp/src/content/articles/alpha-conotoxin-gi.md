@@ -1,6 +1,6 @@
 ---
-title: "Alpha-Conotoxin GI"
-description: "Short disulfide-rich peptide from Conus geographus blocking nicotinic acetylcholine receptors."
+title: "Alpha-Conotoxin GI: Peptide Toxin in Pharmacology Reference"
+description: "Short disulfide-rich peptide from Conus geographus blocking nicotinic acetylcholine receptors. This peptide toxin is derived from venom and studied for its p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

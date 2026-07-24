@@ -1,6 +1,6 @@
 ---
-title: "Atosiban"
-description: "Oxytocin receptor antagonist for preterm labor with D-Tyr providing competitive myometrial relaxation."
+title: "Atosiban: Oligopeptide Research Reference"
+description: "Oxytocin receptor antagonist for preterm labor with D-Tyr providing competitive myometrial relaxation. This peptide or oligopeptide is studied for its biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

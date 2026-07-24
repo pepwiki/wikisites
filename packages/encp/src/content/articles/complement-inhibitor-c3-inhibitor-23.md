@@ -1,6 +1,6 @@
 ---
 title: "Complement Inhibitor C3-inhibitor-23"
-description: "Reference for complement inhibitor C3-inhibitor-23 in peptide research."
+description: "Comprehensive reference for complement inhibitor C3-inhibitor-23, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

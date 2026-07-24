@@ -1,6 +1,6 @@
 ---
 title: "Fibroblast Growth Factor fragment-50-100"
-description: "Reference for fibroblast growth factor fragment-50-100 in peptide research."
+description: "Comprehensive reference for fibroblast growth factor fragment-50-100, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

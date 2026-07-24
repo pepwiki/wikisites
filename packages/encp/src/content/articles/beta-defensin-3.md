@@ -1,5 +1,5 @@
 ---
-title: "Beta Defensin 3"
+title: "Beta Defensin 3: Antimicrobial Peptide Reference"
 description: "beta-defensin-3 is a defensin-family antimicrobial peptide with cysteine-stabilized structure and broad-spectrum activity."
 status: "published"
 author: "Encyclopeptide Editorial"

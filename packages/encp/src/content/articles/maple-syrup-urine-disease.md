@@ -1,6 +1,6 @@
 ---
-title: "Maple Syrup Urine Disease"
-description: "Inborn error of metabolism. Branched-chain α-ketoacid dehydrogenase deficiency."
+title: "Maple Syrup Urine Disease: Comprehensive Peptide Reference"
+description: "Inborn error of metabolism. Branched-chain α-ketoacid dehydrogenase deficiency. This peptide or oligopeptide is studied for its biological activity, structur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

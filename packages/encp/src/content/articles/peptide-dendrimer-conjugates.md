@@ -1,6 +1,6 @@
 ---
-title: "Peptide Dendrimer Conjugates"
-description: "Dendrimer conjugation for multivalent peptide display and delivery."
+title: "Peptide Dendrimer Conjugates: Comprehensive Peptide Refer..."
+description: "Dendrimer conjugation for multivalent peptide display and delivery. This peptide or oligopeptide is studied for its biological activity, structure-activity r..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
 title: "Oncology/Endocrine / GnRH Agonist"
-description: "Oncology/Endocrine / GnRH Agonist is a bioactive compound with applications in peptide research and therapeutics."
+description: "Oncology/Endocrine / GnRH Agonist is a bioactive compound with applications in peptide research and therapeutics. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

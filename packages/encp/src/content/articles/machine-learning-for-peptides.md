@@ -1,6 +1,6 @@
 ---
-title: "Machine Learning for Peptides"
-description: "Machine learning approaches for peptide property prediction, design, and optimization."
+title: "Machine Learning for Peptides: Comprehensive Peptide Refe..."
+description: "Machine learning approaches for peptide property prediction, design, and optimization. This peptide or oligopeptide is studied for its biological activity, s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

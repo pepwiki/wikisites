@@ -1,6 +1,6 @@
 ---
-title: "Pain Management"
-description: "Peptide-based approaches to pain management."
+title: "Pain Management: Oligopeptide Research Reference"
+description: "Peptide-based approaches to pain management. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and poten..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

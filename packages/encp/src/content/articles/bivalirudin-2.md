@@ -1,5 +1,5 @@
 ---
-title: "Bivalirudin"
+title: "Bivalirudin: Oligopeptide Research Reference"
 description: "Synthetic 20-amino acid direct thrombin inhibitor derived from hirudin, used as an anticoagulant during percutaneous coronary intervention."
 status: "published"
 author: "Encyclopeptide Editorial"

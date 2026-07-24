@@ -1,6 +1,6 @@
 ---
-title: "Soy Soystatin"
-description: "Comprehensive reference for soy soystatin in peptide research."
+title: "Soy Soystatin: Oligopeptide Research Reference"
+description: "soy soystatin in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appli..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "CRH Protein Hormone"
-description: "The CRH Protein Hormone and its role in endocrine signaling."
+title: "CRH Protein Hormone: Endogenous Peptide Hormone Reference"
+description: "CRH, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical signif..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

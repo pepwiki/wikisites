@@ -1,6 +1,6 @@
 ---
 title: "Temporin 1ce: Structure, Function, and Significance"
-description: "Temporin-1Ce is one of the most potent temporins, showing activity against drug-resistant bacteria including MRSA."
+description: "Temporin-1Ce is one of the most potent temporins, showing activity against drug-resistant bacteria including MRSA. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "SPR for Peptide Binding"
-description: "Explore surface plasmon resonance for real-time measurement of peptide binding kinetics and affinity interactions."
+title: "SPR for Peptide Binding: Analytical Technique in Peptide ..."
+description: "Explore surface plasmon resonance for real-time measurement of peptide binding kinetics and affinity interactions. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

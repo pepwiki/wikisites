@@ -1,6 +1,6 @@
 ---
-title: "Peptide Inhaler Devices"
-description: "Guide to dry powder inhaler and metered-dose devices optimized for pulmonary peptide delivery."
+title: "Peptide Inhaler Devices: Oligopeptide Research Reference"
+description: "Guide to dry powder inhaler and metered-dose devices optimized for pulmonary peptide delivery. This peptide or oligopeptide is studied for its biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

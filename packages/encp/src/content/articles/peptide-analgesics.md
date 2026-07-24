@@ -1,6 +1,6 @@
 ---
-title: "Peptide Analgesics"
-description: "Explore peptide-based pain therapeutics targeting opioid, nociceptin, and CGRP pathways."
+title: "Peptide Analgesics: Oligopeptide Research Reference"
+description: "Explore peptide-based pain therapeutics targeting opioid, nociceptin, and CGRP pathways. This peptide or oligopeptide is studied for its biological activity,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

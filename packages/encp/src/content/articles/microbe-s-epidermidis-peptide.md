@@ -1,6 +1,6 @@
 ---
-title: "S Epidermidis Peptide"
-description: "A peptide associated with S Epidermidis for research or therapeutic applications."
+title: "S Epidermidis Peptide: Oligopeptide Research Reference"
+description: "A peptide associated with S Epidermidis for research or therapeutic applications. This peptide or oligopeptide is studied for its biological activity, struct..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

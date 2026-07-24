@@ -1,6 +1,6 @@
 ---
-title: "Microneedle Delivery"
-description: "Using microneedles for transdermal peptide delivery."
+title: "Microneedle Delivery: Oligopeptide Research Reference"
+description: "Using microneedles for transdermal peptide delivery. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,5 +1,5 @@
 ---
-title: "Hedgehog Pathway Peptide 1"
+title: "Hedgehog Pathway Peptide 1: Comprehensive Peptide Reference"
 description: "A peptide involved in the Hedgehog signal transduction pathway, playing roles in cell proliferation, differentiation, or survival."
 status: "published"
 author: "Encyclopeptide Editorial"

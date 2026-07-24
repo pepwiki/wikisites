@@ -1,6 +1,6 @@
 ---
-title: "Peptide-Modified Liposomes"
-description: "Cell-penetrating peptides and RGD-targeted liposomes enhance drug delivery through receptor-mediated uptake and endosomal escape mechanisms for improved intracellular bioavailability."
+title: "Peptide-Modified Liposomes: Comprehensive Peptide Reference"
+description: "Cell-penetrating peptides and RGD-targeted liposomes enhance drug delivery through receptor-mediated uptake and endosomal escape mechanisms for improved intr..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-03-15

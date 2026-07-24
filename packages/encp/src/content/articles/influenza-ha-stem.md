@@ -1,6 +1,6 @@
 ---
-title: "Influenza HA Stem"
-description: "influenza-HA-stem is a peptide antigen used in vaccine development for infectious disease prevention."
+title: "Influenza HA Stem: Oligopeptide Research Reference"
+description: "influenza-HA-stem is a peptide antigen used in vaccine development for infectious disease prevention. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

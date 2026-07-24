@@ -1,6 +1,6 @@
 ---
-title: "EMA Peptide Drug Approval"
-description: "Understand the European Medicines Agency process for peptide drug authorization including centralized procedure steps."
+title: "EMA Peptide Drug Approval: Comprehensive Peptide Reference"
+description: "Understand the European Medicines Agency process for peptide drug authorization including centralized procedure steps. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

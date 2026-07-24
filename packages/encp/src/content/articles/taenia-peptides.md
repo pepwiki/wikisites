@@ -1,6 +1,6 @@
 ---
-title: "Taenia Peptides"
-description: "Comprehensive reference for Taenia Peptides, a peptide compound with applications in research and therapeutics."
+title: "Taenia Peptides: Oligopeptide Research Reference"
+description: "Taenia Peptides, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

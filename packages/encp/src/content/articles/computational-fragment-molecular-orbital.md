@@ -1,6 +1,6 @@
 ---
 title: "Fragment Molecular Orbital for Peptides"
-description: "A computational method for studying peptides using Fragment Molecular Orbital."
+description: "A computational method for studying peptides using Fragment Molecular Orbital. This analytical technique provides valuable insights into peptide structure, p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

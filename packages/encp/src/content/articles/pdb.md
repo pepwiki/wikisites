@@ -1,6 +1,6 @@
 ---
-title: "PDB"
-description: "Protein Data Bank. Repository of 3D structural data for proteins and nucleic acids."
+title: "PDB: Oligopeptide Research Reference"
+description: "Protein Data Bank. Repository of 3D structural data for proteins and nucleic acids. This peptide or oligopeptide is studied for its biological activity, stru..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

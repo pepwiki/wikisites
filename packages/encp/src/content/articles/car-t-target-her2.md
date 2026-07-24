@@ -1,6 +1,6 @@
 ---
-title: "Car T Target HER2"
-description: "Reference for car t target HER2 in peptide research."
+title: "Car T Target HER2: Oligopeptide Research Reference"
+description: "Comprehensive reference for car t target HER2, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

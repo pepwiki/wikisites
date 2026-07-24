@@ -1,6 +1,6 @@
 ---
-title: "Wound Healing AMPs"
-description: "Antimicrobial peptides contributing to wound healing through multiple mechanisms."
+title: "Wound Healing AMPs: Antimicrobial Peptide Reference"
+description: "Antimicrobial peptides contributing to wound healing through multiple mechanisms. This antimicrobial peptide demonstrates activity against pathogens and is s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

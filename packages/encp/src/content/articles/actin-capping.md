@@ -1,6 +1,6 @@
 ---
-title: "Actin capping"
-description: "Reference for actin capping in peptide research."
+title: "Actin capping: Oligopeptide Research Reference"
+description: "Comprehensive reference for actin capping, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

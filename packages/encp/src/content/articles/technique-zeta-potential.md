@@ -1,6 +1,6 @@
 ---
-title: "zeta-potential for Peptides"
-description: "Application of zeta-potential technique for peptide characterization, structure determination, or formulation."
+title: "zeta-potential for Peptides: Comprehensive Peptide Reference"
+description: "Application of zeta-potential technique for peptide characterization, structure determination, or formulation. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

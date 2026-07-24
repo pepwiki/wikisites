@@ -1,6 +1,6 @@
 ---
-title: "Insulin Lispro"
-description: "Rapid-acting insulin analog."
+title: "Insulin Lispro: Oligopeptide Research Reference"
+description: "Rapid-acting insulin analog. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential application..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

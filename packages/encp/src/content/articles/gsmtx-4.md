@@ -1,6 +1,6 @@
 ---
-title: "GsMTx 4"
-description: "GsMTx-4 is a spider venom peptide with specific ion channel or receptor blocking properties."
+title: "GsMTx 4: Peptide Toxin in Pharmacology Reference"
+description: "GsMTx-4 is a spider venom peptide with specific ion channel or receptor blocking properties. This peptide toxin is derived from venom and studied for its pha..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

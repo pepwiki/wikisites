@@ -1,6 +1,6 @@
 ---
-title: "Ricin"
-description: "Ricin is a highly toxic heterodimeric ribosome-inactivating protein from castor beans (Ricinus communis) that inhibits protein synthesis through N-glycosidase activity."
+title: "Ricin: Peptide Toxin in Pharmacology Reference"
+description: "Ricin is a highly toxic heterodimeric ribosome-inactivating protein from castor beans (Ricinus communis) that inhibits protein synthesis through N-glycosidas..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-08-02

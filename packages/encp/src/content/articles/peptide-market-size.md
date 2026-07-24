@@ -1,6 +1,6 @@
 ---
-title: "Peptide Market Size"
-description: "Current global peptide therapeutics market size and growth projections."
+title: "Peptide Market Size: Oligopeptide Research Reference"
+description: "Current global peptide therapeutics market size and growth projections. This peptide or oligopeptide is studied for its biological activity, structure-activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
 title: "Protein Purification / Biochemistry"
-description: "Protein Purification / Biochemistry is a bioactive compound with applications in peptide research and therapeutics."
+description: "Protein Purification / Biochemistry is a bioactive compound with applications in peptide research and therapeutics. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

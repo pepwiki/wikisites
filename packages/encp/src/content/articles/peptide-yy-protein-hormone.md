@@ -1,6 +1,6 @@
 ---
-title: "Peptide YY Protein Hormone"
-description: "The Peptide YY Protein Hormone and its role in endocrine signaling."
+title: "Peptide YY Protein Hormone: Comprehensive Peptide Reference"
+description: "Peptide YY, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

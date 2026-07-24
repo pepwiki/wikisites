@@ -1,6 +1,6 @@
 ---
-title: "Venom AMP Cross-Function"
-description: "Antimicrobial properties of animal venom peptides beyond toxic functions."
+title: "Venom AMP Cross-Function: Antimicrobial Peptide Reference"
+description: "Antimicrobial properties of animal venom peptides beyond toxic functions. This antimicrobial peptide demonstrates activity against pathogens and is studied f..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

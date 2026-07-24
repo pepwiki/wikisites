@@ -1,6 +1,6 @@
 ---
-title: "Insulin NPH"
-description: "Intermediate-acting insulin with protamine suspension, providing 12-18 hours of basal coverage for twice-daily dosing."
+title: "Insulin NPH: Oligopeptide Research Reference"
+description: "Intermediate-acting insulin with protamine suspension, providing 12-18 hours of basal coverage for twice-daily dosing. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Angiotensin IV"
-description: "Comprehensive reference for angiotensin IV in peptide research."
+title: "Angiotensin IV: Oligopeptide Research Reference"
+description: "angiotensin IV in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appl..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

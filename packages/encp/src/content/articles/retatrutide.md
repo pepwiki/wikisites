@@ -1,6 +1,6 @@
 ---
-title: "Retatrutide"
-description: "Triple agonist targeting GLP-1, GIP, and glucagon receptors showing unprecedented weight loss in trials."
+title: "Retatrutide: Oligopeptide Research Reference"
+description: "Triple agonist targeting GLP-1, GIP, and glucagon receptors showing unprecedented weight loss in trials. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

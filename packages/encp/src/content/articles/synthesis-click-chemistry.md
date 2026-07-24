@@ -1,6 +1,6 @@
 ---
-title: "Click Chemistry Synthesis"
-description: "A peptide synthesis method using Click Chemistry for producing peptides with specific properties."
+title: "Click Chemistry Synthesis: Comprehensive Peptide Reference"
+description: "A peptide synthesis method using Click Chemistry for producing peptides with specific properties. This analytical technique provides valuable insights into p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

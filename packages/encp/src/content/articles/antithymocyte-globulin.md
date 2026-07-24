@@ -1,6 +1,6 @@
 ---
-title: "Antithymocyte Globulin"
-description: "Polyclonal antibody preparation against human T cells used for transplant induction and acute rejection treatment."
+title: "Antithymocyte Globulin: Oligopeptide Research Reference"
+description: "Polyclonal antibody preparation against human T cells used for transplant induction and acute rejection treatment. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

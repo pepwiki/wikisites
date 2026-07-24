@@ -1,6 +1,6 @@
 ---
-title: "Adrenomedullin"
-description: "52-amino acid vasodilator peptide with potent hypotensive, natriuretic, and cardioprotective properties."
+title: "Adrenomedullin: Oligopeptide Research Reference"
+description: "52-amino acid vasodilator peptide with potent hypotensive, natriuretic, and cardioprotective properties. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

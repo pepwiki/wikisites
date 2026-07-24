@@ -1,5 +1,5 @@
 ---
-title: "Avian Beta-Defensin 5 (AvBD5)"
+title: "Avian Beta-Defensin 5 (AvBD5): Comprehensive Peptide Refe..."
 description: "Comprehensive reference for Avian Beta-Defensin 5 (AvBD5), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

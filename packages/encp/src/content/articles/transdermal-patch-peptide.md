@@ -1,6 +1,6 @@
 ---
-title: "Transdermal Patch Peptide"
-description: "Transdermal delivery systems for peptide drugs through intact skin."
+title: "Transdermal Patch Peptide: Comprehensive Peptide Reference"
+description: "Transdermal delivery systems for peptide drugs through intact skin. This peptide or oligopeptide is studied for its biological activity, structure-activity r..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

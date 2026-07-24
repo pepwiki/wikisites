@@ -1,6 +1,6 @@
 ---
-title: "H-bond-network Resource"
-description: "The H-bond-network database or resource for peptide research, providing data on structure, function, and interactions."
+title: "H-bond-network Resource: Oligopeptide Research Reference"
+description: "The H-bond-network database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Omega Conotoxin SO3"
-description: "omega-conotoxin-SO3 is a conotoxin from cone snail venom with specific ion channel blocking properties."
+title: "Omega Conotoxin SO3: Peptide Toxin in Pharmacology Reference"
+description: "omega-conotoxin-SO3 is a conotoxin from cone snail venom with specific ion channel blocking properties. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

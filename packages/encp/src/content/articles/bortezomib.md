@@ -1,5 +1,5 @@
 ---
-title: "Bortezomib"
+title: "Bortezomib: Oligopeptide Research Reference"
 description: "Boronic acid proteasome inhibitor that blocks 26S proteasome activity, used for multiple myeloma and mantle cell lymphoma."
 status: "published"
 author: "Encyclopeptide Editorial"

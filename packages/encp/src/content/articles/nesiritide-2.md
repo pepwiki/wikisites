@@ -1,6 +1,6 @@
 ---
-title: "Nesiritide"
-description: "Recombinant B-type natriuretic peptide for acute decompensated heart failure, promoting vasodilation and natriuresis."
+title: "Nesiritide: Oligopeptide Research Reference"
+description: "Recombinant B-type natriuretic peptide for acute decompensated heart failure, promoting vasodilation and natriuresis. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

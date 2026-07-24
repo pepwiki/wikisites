@@ -1,6 +1,6 @@
 ---
-title: "AFM"
-description: "µg"
+title: "AFM: Oligopeptide Research Reference"
+description: "µg. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in biomedical research ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

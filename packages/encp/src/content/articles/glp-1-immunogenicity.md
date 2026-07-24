@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 Agonist Immunogenicity"
-description: "Immunogenicity of GLP-1 receptor agonists including anti-drug antibody formation and clinical impact."
+title: "GLP-1 Agonist Immunogenicity: Comprehensive Peptide Refer..."
+description: "Immunogenicity of GLP-1 receptor agonists including anti-drug antibody formation and clinical impact. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

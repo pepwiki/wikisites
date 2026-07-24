@@ -1,6 +1,6 @@
 ---
-title: "Insulin A-chain-1-20"
-description: "Reference for insulin A-chain-1-20 variant in peptide research."
+title: "Insulin A-chain-1-20: Oligopeptide Research Reference"
+description: "Comprehensive reference for insulin A-chain-1-20 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Clinical Trials for Peptides"
-description: "Explore clinical trial design considerations specific to peptide therapeutics including dose-finding and endpoints."
+title: "Clinical Trials for Peptides: Comprehensive Peptide Refer..."
+description: "Explore clinical trial design considerations specific to peptide therapeutics including dose-finding and endpoints. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

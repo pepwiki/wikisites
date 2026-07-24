@@ -1,6 +1,6 @@
 ---
-title: "Peptide Ubiquitination Sites"
-description: "Explore ubiquitin conjugation to lysine residues and its role in peptide degradation."
+title: "Peptide Ubiquitination Sites: Comprehensive Peptide Refer..."
+description: "Explore ubiquitin conjugation to lysine residues and its role in peptide degradation. This modification affects peptide stability, receptor binding, and biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

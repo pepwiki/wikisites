@@ -1,6 +1,6 @@
 ---
-title: "Cleavage"
-description: "Proteolytic processing"
+title: "Cleavage: Oligopeptide Research Reference"
+description: "Proteolytic processing. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

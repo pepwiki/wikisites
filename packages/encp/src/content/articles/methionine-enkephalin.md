@@ -1,6 +1,6 @@
 ---
-title: "Methionine-Enkephalin"
-description: "Endogenous opioid with delta-selectivity and roles in pain and reward."
+title: "Methionine-Enkephalin: Neuropeptide in Neuroscience Refer..."
+description: "Endogenous opioid with delta-selectivity and roles in pain and reward. This neuropeptide is involved in neurological signaling and is studied for its roles i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

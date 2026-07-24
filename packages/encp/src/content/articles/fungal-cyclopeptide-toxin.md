@@ -1,6 +1,6 @@
 ---
-title: "Fungal Cyclopeptide / Toxin"
-description: "Fungal Cyclopeptide / Toxin is a bioactive compound with applications in peptide research and therapeutics."
+title: "Fungal Cyclopeptide / Toxin: Comprehensive Peptide Reference"
+description: "Fungal Cyclopeptide / Toxin is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

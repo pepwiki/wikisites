@@ -1,6 +1,6 @@
 ---
-title: "Sacituzumab Tirumotecan"
-description: "Comprehensive reference for Sacituzumab Tirumotecan, a peptide compound with applications in research and therapeutics."
+title: "Sacituzumab Tirumotecan: Oligopeptide Research Reference"
+description: "Sacituzumab Tirumotecan, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

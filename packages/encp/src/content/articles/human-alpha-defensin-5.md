@@ -1,6 +1,6 @@
 ---
-title: "Human Alpha-Defensin 5"
-description: "Intestinal Paneth cell defensin maintaining gut microbiome homeostasis."
+title: "Human Alpha-Defensin 5: Antimicrobial Peptide Reference"
+description: "Intestinal Paneth cell defensin maintaining gut microbiome homeostasis. This antimicrobial peptide demonstrates activity against pathogens and is studied for..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

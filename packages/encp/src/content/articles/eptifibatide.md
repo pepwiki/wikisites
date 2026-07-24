@@ -1,6 +1,6 @@
 ---
-title: "Eptifibatide"
-description: "Cyclic heptapeptide GP IIb/IIIa inhibitor containing KGD for acute coronary syndromes."
+title: "Eptifibatide: Oligopeptide Research Reference"
+description: "Cyclic heptapeptide GP IIb/IIIa inhibitor containing KGD for acute coronary syndromes. This peptide or oligopeptide is studied for its biological activity, s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

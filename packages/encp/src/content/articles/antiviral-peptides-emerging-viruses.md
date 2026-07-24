@@ -1,6 +1,6 @@
 ---
 title: "Antiviral Peptides: Therapeutics Against Emerging Viruses"
-description: "Comprehensive overview of peptide-based antivirals targeting viral entry, replication, and assembly."
+description: "Comprehensive overview of peptide-based antivirals targeting viral entry, replication, and assembly. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

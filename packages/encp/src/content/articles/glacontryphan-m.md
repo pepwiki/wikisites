@@ -1,6 +1,6 @@
 ---
-title: "Glacontryphan M"
-description: "glacontryphan-M is a conotoxin from cone snail venom with specific ion channel blocking properties."
+title: "Glacontryphan M: Peptide Toxin in Pharmacology Reference"
+description: "glacontryphan-M is a conotoxin from cone snail venom with specific ion channel blocking properties. This peptide toxin is derived from venom and studied for ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

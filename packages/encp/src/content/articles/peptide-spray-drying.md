@@ -1,6 +1,6 @@
 ---
-title: "Peptide Spray-Drying"
-description: "Spray-drying technology for producing peptide microparticles for inhalation."
+title: "Peptide Spray-Drying: Oligopeptide Research Reference"
+description: "Spray-drying technology for producing peptide microparticles for inhalation. This peptide or oligopeptide is studied for its biological activity, structure-a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

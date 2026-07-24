@@ -1,6 +1,6 @@
 ---
-title: "Car T Target EGFR"
-description: "Reference for car t target EGFR in peptide research."
+title: "Car T Target EGFR: Oligopeptide Research Reference"
+description: "Comprehensive reference for car t target EGFR, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

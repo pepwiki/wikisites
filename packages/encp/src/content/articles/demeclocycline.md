@@ -1,6 +1,6 @@
 ---
-title: "Demeclocycline"
-description: "demeclocycline is an analog or modulator of oxytocin signaling used in obstetric and other clinical applications."
+title: "Demeclocycline: Endogenous Peptide Hormone Reference"
+description: "demeclocycline is an analog or modulator of oxytocin signaling used in obstetric and other clinical applications. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

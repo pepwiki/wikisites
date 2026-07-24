@@ -1,6 +1,6 @@
 ---
-title: "Relaxin Family Peptides"
-description: "Explore relaxin, insulin-like peptides, and their roles in reproduction and tissue remodeling."
+title: "Relaxin Family Peptides: Oligopeptide Research Reference"
+description: "Explore relaxin, insulin-like peptides, and their roles in reproduction and tissue remodeling. This peptide or oligopeptide is studied for its biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Meningococcal PorA"
-description: "meningococcal-PorA is a peptide antigen used in vaccine development for infectious disease prevention."
+title: "Meningococcal PorA: Oligopeptide Research Reference"
+description: "meningococcal-PorA is a peptide antigen used in vaccine development for infectious disease prevention. This peptide or oligopeptide is studied for its biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

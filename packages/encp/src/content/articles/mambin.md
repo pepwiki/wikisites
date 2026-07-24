@@ -1,6 +1,6 @@
 ---
 title: "Mambin: Structure, Function, and Significance"
-description: "Mambins are neurotoxic peptides from mamba venom with unique potassium channel blocking properties."
+description: "Mambins are neurotoxic peptides from mamba venom with unique potassium channel blocking properties. This peptide toxin is derived from venom and studied for ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

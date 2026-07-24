@@ -1,6 +1,6 @@
 ---
-title: "Follistatin"
-description: "Follistatin is a protein with important roles in biological systems."
+title: "Follistatin: Receptor Pharmacology Reference"
+description: "Follistatin is a protein with important roles in biological systems. This peptide or oligopeptide is studied for its biological activity, structure-activity ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

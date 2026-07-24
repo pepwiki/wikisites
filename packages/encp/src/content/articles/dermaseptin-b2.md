@@ -1,6 +1,6 @@
 ---
-title: "Dermaseptin B2"
-description: "Potent frog AMP selective against Candida albicans and cancer cells."
+title: "Dermaseptin B2: Antimicrobial Peptide Reference"
+description: "Potent frog AMP selective against Candida albicans and cancer cells. This antimicrobial peptide demonstrates activity against pathogens and is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
 title: "Peptide Ophthalmic Therapeutics"
-description: "Therapeutic peptides for eye diseases including glaucoma, macular degeneration, and dry eye syndrome."
+description: "Therapeutic peptides for eye diseases including glaucoma, macular degeneration, and dry eye syndrome. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Automated SPPS"
-description: "mg-g"
+title: "Automated SPPS: Oligopeptide Research Reference"
+description: "mg-g. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in biomedical researc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

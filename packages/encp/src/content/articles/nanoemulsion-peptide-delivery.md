@@ -1,6 +1,6 @@
 ---
-title: "Nanoemulsion Peptide Delivery"
-description: "Nanoemulsion systems for improving peptide oral bioavailability."
+title: "Nanoemulsion Peptide Delivery: Comprehensive Peptide Refe..."
+description: "Nanoemulsion systems for improving peptide oral bioavailability. This peptide or oligopeptide is studied for its biological activity, structure-activity rela..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

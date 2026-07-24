@@ -1,6 +1,6 @@
 ---
-title: "PG-1 (Porcine)"
-description: "Comprehensive reference for PG-1 (Porcine), a peptide compound with applications in research and therapeutics."
+title: "PG-1 (Porcine): Oligopeptide Research Reference"
+description: "PG-1 (Porcine), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

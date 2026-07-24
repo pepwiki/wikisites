@@ -1,6 +1,6 @@
 ---
-title: "Semaglutide vs Tirzepatide"
-description: "Comparative pharmacological analysis of semaglutide (GLP-1 RA) and tirzepatide (dual GIP/GLP-1 agonist) in the treatment of obesity and type 2 diabetes mellitus."
+title: "Semaglutide vs Tirzepatide: Comprehensive Peptide Reference"
+description: "Comparative pharmacological analysis of semaglutide (GLP-1 RA) and tirzepatide (dual GIP/GLP-1 agonist) in the treatment of obesity and type 2 diabetes mellitus"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-10-22

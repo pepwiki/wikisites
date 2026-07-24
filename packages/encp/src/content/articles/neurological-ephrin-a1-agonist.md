@@ -1,6 +1,6 @@
 ---
-title: "Ephrin A1 Agonist"
-description: "Comprehensive reference for ephrin A1 agonist in peptide research."
+title: "Ephrin A1 Agonist: Oligopeptide Research Reference"
+description: "ephrin A1 agonist in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

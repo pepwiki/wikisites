@@ -1,6 +1,6 @@
 ---
 title: "Peptide Infectious Disease Therapeutics"
-description: "Therapeutic peptides for infectious diseases including antivirals, antifungals, and antiparasitic agents."
+description: "Therapeutic peptides for infectious diseases including antivirals, antifungals, and antiparasitic agents. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

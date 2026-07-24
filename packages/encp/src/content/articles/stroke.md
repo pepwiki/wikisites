@@ -1,6 +1,6 @@
 ---
-title: "Stroke"
-description: "Cerebrovascular accident. Ischemic (85%) or hemorrhagic (15%)."
+title: "Stroke: Oligopeptide Research Reference"
+description: "Cerebrovascular accident. Ischemic (85%) or hemorrhagic (15%). This peptide or oligopeptide is studied for its biological activity, structure-activity relati..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

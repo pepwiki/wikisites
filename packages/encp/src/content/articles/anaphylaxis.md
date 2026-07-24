@@ -1,6 +1,6 @@
 ---
-title: "Anaphylaxis"
-description: "Severe allergic reaction to peptide drugs. Can be life-threatening. Requires immediate treatment with epinephrine."
+title: "Anaphylaxis: Oligopeptide Research Reference"
+description: "Severe allergic reaction to peptide drugs. Can be life-threatening. Requires immediate treatment with epinephrine. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

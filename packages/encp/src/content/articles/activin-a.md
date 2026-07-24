@@ -1,5 +1,5 @@
 ---
-title: "Activin A"
+title: "Activin A: Endogenous Peptide Hormone Reference"
 description: "activin-A is a growth factor or regulatory peptide involved in cell proliferation, differentiation, and tissue homeostasis."
 status: "published"
 author: "Encyclopeptide Editorial"

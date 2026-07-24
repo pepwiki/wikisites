@@ -1,6 +1,6 @@
 ---
-title: "Degludec-Aspart Coformulation"
-description: "Co-formulation combining ultra-long-acting degludec with rapid-acting aspart for flexible basal-bolus coverage."
+title: "Degludec-Aspart Coformulation: Comprehensive Peptide Refe..."
+description: "Co-formulation combining ultra-long-acting degludec with rapid-acting aspart for flexible basal-bolus coverage. Covers molecular mechanisms, biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

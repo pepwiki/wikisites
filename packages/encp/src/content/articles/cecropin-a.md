@@ -1,6 +1,6 @@
 ---
-title: "Cecropin A"
-description: "Cationic alpha-helical AMP from giant silk moth with gram-negative bactericidal activity."
+title: "Cecropin A: Antimicrobial Peptide Reference"
+description: "Cationic alpha-helical AMP from giant silk moth with gram-negative bactericidal activity. This antimicrobial peptide demonstrates activity against pathogens ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

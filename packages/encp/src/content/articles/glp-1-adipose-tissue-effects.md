@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 Adipose Tissue Effects"
-description: "Effects on lipolysis, adipokine secretion, and browning of white adipose tissue."
+title: "GLP-1 Adipose Tissue Effects: Comprehensive Peptide Refer..."
+description: "Effects on lipolysis, adipokine secretion, and browning of white adipose tissue. This peptide or oligopeptide is studied for its biological activity, structu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Insulin Fc Fusion"
-description: "Genetically engineered insulin-Fc fusion protein utilizing neonatal Fc receptor recycling for weekly basal dosing."
+title: "Insulin Fc Fusion: Oligopeptide Research Reference"
+description: "Genetically engineered insulin-Fc fusion protein utilizing neonatal Fc receptor recycling for weekly basal dosing. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

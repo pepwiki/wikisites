@@ -1,6 +1,6 @@
 ---
-title: "Charybdotoxin"
-description: "Potassium channel blocker from scorpion venom with broad Kv channel activity."
+title: "Charybdotoxin: Peptide Toxin in Pharmacology Reference"
+description: "Potassium channel blocker from scorpion venom with broad Kv channel activity. This peptide toxin is derived from venom and studied for its pharmacological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

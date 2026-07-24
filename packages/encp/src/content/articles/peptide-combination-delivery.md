@@ -1,6 +1,6 @@
 ---
-title: "Peptide Combination Delivery"
-description: "Co-delivery systems for multiple peptide drugs in single formulation."
+title: "Peptide Combination Delivery: Comprehensive Peptide Refer..."
+description: "Co-delivery systems for multiple peptide drugs in single formulation. This peptide or oligopeptide is studied for its biological activity, structure-activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

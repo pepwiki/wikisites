@@ -1,6 +1,6 @@
 ---
-title: "Assignee"
-description: "Key Products"
+title: "Assignee: Oligopeptide Research Reference"
+description: "Key Products. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in biomedical..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Conantokin T"
-description: "NMDA receptor antagonist from Conus tulipa with selective NR2B subunit binding."
+title: "Conantokin T: Peptide Toxin in Pharmacology Reference"
+description: "NMDA receptor antagonist from Conus tulipa with selective NR2B subunit binding. This peptide toxin is derived from venom and studied for its pharmacological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

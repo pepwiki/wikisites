@@ -1,6 +1,6 @@
 ---
-title: "Nerve Growth Factor 1-118"
-description: "Reference for nerve growth factor 1-118 in peptide research."
+title: "Nerve Growth Factor 1-118: Comprehensive Peptide Reference"
+description: "Comprehensive reference for nerve growth factor 1-118, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

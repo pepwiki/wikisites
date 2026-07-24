@@ -1,6 +1,6 @@
 ---
-title: "microscopy for Peptides"
-description: "Application of microscopy technique for peptide characterization, structure determination, or formulation."
+title: "microscopy for Peptides: Analytical Technique in Peptide ..."
+description: "Application of microscopy technique for peptide characterization, structure determination, or formulation. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

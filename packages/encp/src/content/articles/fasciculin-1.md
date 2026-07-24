@@ -1,6 +1,6 @@
 ---
-title: "Fasciculin 1"
-description: "fasciculin-1 is a snake venom peptide toxin with specific pharmacological activity."
+title: "Fasciculin 1: Peptide Toxin in Pharmacology Reference"
+description: "fasciculin-1 is a snake venom peptide toxin with specific pharmacological activity. This peptide toxin is derived from venom and studied for its pharmacologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

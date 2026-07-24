@@ -1,6 +1,6 @@
 ---
-title: "Interferon IFN-xi-2"
-description: "Reference for interferon IFN-xi-2 in peptide research."
+title: "Interferon IFN-xi-2: Oligopeptide Research Reference"
+description: "Comprehensive reference for interferon IFN-xi-2, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

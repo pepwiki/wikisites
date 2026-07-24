@@ -1,6 +1,6 @@
 ---
-title: "Medium-High"
-description: "Structure"
+title: "Medium-High: Oligopeptide Research Reference"
+description: "Structure. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in biomedical re..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

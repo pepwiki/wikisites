@@ -1,6 +1,6 @@
 ---
 title: "Colony Stimulating Factor SCF-1-165"
-description: "Reference for colony stimulating factor SCF-1-165 in peptide research."
+description: "Comprehensive reference for colony stimulating factor SCF-1-165, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

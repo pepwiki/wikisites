@@ -1,6 +1,6 @@
 ---
-title: "Peptide lipidation"
-description: "Reference for peptide lipidation in peptide research."
+title: "Peptide lipidation: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide lipidation, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

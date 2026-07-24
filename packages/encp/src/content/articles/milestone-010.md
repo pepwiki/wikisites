@@ -1,6 +1,6 @@
 ---
-title: "Milestone 010"
-description: "2001: Click chemistry Nobel Prize (Sharpless, Meldal, Bertozzi). Enables bioorthogonal conjugation."
+title: "Milestone 010: Oligopeptide Research Reference"
+description: "2001: Click chemistry Nobel Prize (Sharpless, Meldal, Bertozzi). Enables bioorthogonal conjugation. This peptide or oligopeptide is studied for its biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

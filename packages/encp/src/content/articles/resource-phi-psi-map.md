@@ -1,6 +1,6 @@
 ---
-title: "phi-psi-map Resource"
-description: "The phi-psi-map database or resource for peptide research, providing data on structure, function, and interactions."
+title: "phi-psi-map Resource: Oligopeptide Research Reference"
+description: "The phi-psi-map database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

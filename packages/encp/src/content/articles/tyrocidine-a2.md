@@ -1,5 +1,5 @@
 ---
-title: "Tyrocidine A2"
+title: "Tyrocidine A2: Antimicrobial Peptide Reference"
 description: "tyrocidine-A2 is a peptide antibiotic produced by bacteria with antimicrobial activity used in clinical and agricultural applications."
 status: "published"
 author: "Encyclopeptide Editorial"

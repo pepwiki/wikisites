@@ -1,5 +1,5 @@
 ---
-title: "AMPK Pathway Peptide 4"
+title: "AMPK Pathway Peptide 4: Oligopeptide Research Reference"
 description: "A peptide involved in the AMPK signal transduction pathway, playing roles in cell proliferation, differentiation, or survival."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,6 +1,6 @@
 ---
-title: "Sabia N Vaccine"
-description: "A peptide vaccine targeting Sabia N for infectious disease prevention."
+title: "Sabia N Vaccine: Oligopeptide Research Reference"
+description: "A peptide vaccine targeting Sabia N for infectious disease prevention. This peptide or oligopeptide is studied for its biological activity, structure-activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

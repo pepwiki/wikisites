@@ -1,6 +1,6 @@
 ---
 title: "Vascular Endothelial Growth Factor 206"
-description: "Reference for vascular endothelial growth factor 206 in peptide research."
+description: "Comprehensive reference for vascular endothelial growth factor 206, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

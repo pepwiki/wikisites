@@ -1,6 +1,6 @@
 ---
-title: "SIRP Alpha Antagonist"
-description: "Comprehensive reference for SIRP alpha antagonist in peptide research."
+title: "SIRP Alpha Antagonist: Oligopeptide Research Reference"
+description: "SIRP alpha antagonist in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potenti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

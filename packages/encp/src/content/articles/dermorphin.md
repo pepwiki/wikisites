@@ -1,6 +1,6 @@
 ---
-title: "Dermorphin"
-description: "Comprehensive reference for Dermorphin, a peptide compound with applications in research and therapeutics."
+title: "Dermorphin: Antimicrobial Peptide Reference"
+description: "Dermorphin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

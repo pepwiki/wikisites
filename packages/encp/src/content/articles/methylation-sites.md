@@ -1,6 +1,6 @@
 ---
-title: "Peptide Methylation Sites"
-description: "Learn about arginine and lysine methylation in peptide epigenetic regulation."
+title: "Peptide Methylation Sites: Comprehensive Peptide Reference"
+description: "Learn about arginine and lysine methylation in peptide epigenetic regulation. This modification affects peptide stability, receptor binding, and biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

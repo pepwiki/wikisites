@@ -1,6 +1,6 @@
 ---
-title: "Peptide scaffold"
-description: "Reference for peptide scaffold in peptide research."
+title: "Peptide scaffold: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide scaffold, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

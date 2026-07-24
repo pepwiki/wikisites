@@ -1,6 +1,6 @@
 ---
 title: "Spider Toxin K+ Channel Blockers"
-description: "Potassium channel blocking peptides from spider venom for neurological research."
+description: "Potassium channel blocking peptides from spider venom for neurological research. This peptide toxin is derived from venom and studied for its pharmacological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

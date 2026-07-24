@@ -1,6 +1,6 @@
 ---
-title: "Renal Impairment"
-description: "Considerations for peptide drug dosing in patients with kidney disease."
+title: "Renal Impairment: Oligopeptide Research Reference"
+description: "Considerations for peptide drug dosing in patients with kidney disease. This peptide or oligopeptide is studied for its biological activity, structure-activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

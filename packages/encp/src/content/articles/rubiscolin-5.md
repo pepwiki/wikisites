@@ -1,5 +1,5 @@
 ---
-title: "Rubiscolin 5"
+title: "Rubiscolin 5: Oligopeptide Research Reference"
 description: "rubiscolin-5 is a bioactive peptide with potential health benefits including antihypertensive, antioxidant, or neuroprotective properties."
 status: "published"
 author: "Encyclopeptide Editorial"

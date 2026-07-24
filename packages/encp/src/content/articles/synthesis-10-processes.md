@@ -1,5 +1,5 @@
 ---
-title: "Synthesis (10 processes)"
+title: "Synthesis (10 processes): Oligopeptide Research Reference"
 description: "Comprehensive reference for Synthesis (10 processes), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

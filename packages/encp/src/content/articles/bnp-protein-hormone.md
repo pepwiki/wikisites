@@ -1,6 +1,6 @@
 ---
-title: "BNP Protein Hormone"
-description: "The BNP Protein Hormone and its role in endocrine signaling."
+title: "BNP Protein Hormone: Endogenous Peptide Hormone Reference"
+description: "BNP, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical signif..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

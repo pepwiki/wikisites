@@ -1,6 +1,6 @@
 ---
-title: "SDS-PAGE for Peptides"
-description: "Guide to SDS-polyacrylamide gel electrophoresis for separating peptides by molecular weight and assessing purity."
+title: "SDS-PAGE for Peptides: Analytical Technique in Peptide Re..."
+description: "Guide to SDS-polyacrylamide gel electrophoresis for separating peptides by molecular weight and assessing purity. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

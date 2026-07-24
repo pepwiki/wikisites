@@ -1,5 +1,5 @@
 ---
-title: "Neoendorphin Alpha"
+title: "Neoendorphin Alpha: Neuropeptide in Neuroscience Reference"
 description: "neoendorphin-alpha is an opioid neuropeptide that modulates pain, reward, and stress responses through opioid receptor activation."
 status: "published"
 author: "Encyclopeptide Editorial"

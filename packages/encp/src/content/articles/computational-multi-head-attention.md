@@ -1,6 +1,6 @@
 ---
 title: "Multi Head Attention for Peptides"
-description: "A computational method for studying peptides using Multi Head Attention."
+description: "A computational method for studying peptides using Multi Head Attention. This analytical technique provides valuable insights into peptide structure, purity,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

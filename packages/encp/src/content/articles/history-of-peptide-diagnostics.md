@@ -1,6 +1,6 @@
 ---
 title: "History of Peptide Diagnostics"
-description: "How peptide-based diagnostic assays evolved from immunoassays to modern biomarker testing."
+description: "How peptide-based diagnostic assays evolved from immunoassays to modern biomarker testing. This peptide or oligopeptide is studied for its biological activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

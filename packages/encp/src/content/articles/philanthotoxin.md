@@ -1,6 +1,6 @@
 ---
-title: "Philanthotoxin"
-description: "Comprehensive reference for Philanthotoxin, a peptide compound with applications in research and therapeutics."
+title: "Philanthotoxin: Peptide Toxin in Pharmacology Reference"
+description: "Philanthotoxin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

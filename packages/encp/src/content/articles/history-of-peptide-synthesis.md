@@ -1,6 +1,6 @@
 ---
-title: "History of Peptide Synthesis"
-description: "The evolution of peptide synthesis from early solution-phase methods to modern SPPS and automation."
+title: "History of Peptide Synthesis: Comprehensive Peptide Refer..."
+description: "The evolution of peptide synthesis from early solution-phase methods to modern SPPS and automation. This peptide or oligopeptide is studied for its biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Chi-Conotoxin TxIA"
-description: "Acetylcholine release inhibitor from Conus textile blocking presynaptic channels."
+title: "Chi-Conotoxin TxIA: Peptide Toxin in Pharmacology Reference"
+description: "Acetylcholine release inhibitor from Conus textile blocking presynaptic channels. This peptide toxin is derived from venom and studied for its pharmacologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

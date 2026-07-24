@@ -1,6 +1,6 @@
 ---
-title: "MSH NDP-MSH"
-description: "Reference for MSH NDP-MSH variant in peptide research."
+title: "MSH NDP-MSH: Endogenous Peptide Hormone Reference"
+description: "Comprehensive reference for MSH NDP-MSH variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

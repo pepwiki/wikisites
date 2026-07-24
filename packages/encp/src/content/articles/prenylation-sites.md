@@ -1,6 +1,6 @@
 ---
-title: "Peptide Prenylation Sites"
-description: "Overview of farnesyl and geranylgeranyl modifications anchoring peptides to membranes."
+title: "Peptide Prenylation Sites: Comprehensive Peptide Reference"
+description: "Overview of farnesyl and geranylgeranyl modifications anchoring peptides to membranes. This modification affects peptide stability, receptor binding, and bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

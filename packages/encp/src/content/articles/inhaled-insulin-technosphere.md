@@ -1,6 +1,6 @@
 ---
-title: "Inhaled Insulin Technosphere"
-description: "Pulmonary insulin delivery using fumaryl diketopiperamine microparticles for rapid-onset prandial glucose control."
+title: "Inhaled Insulin Technosphere: Comprehensive Peptide Refer..."
+description: "Pulmonary insulin delivery using fumaryl diketopiperamine microparticles for rapid-onset prandial glucose control. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

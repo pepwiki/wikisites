@@ -1,6 +1,6 @@
 ---
-title: "Gastrin-Releasing Peptide"
-description: "A 27-amino acid neuropeptide that is the mammalian homolog of amphibian bombesin, regulating gastrin release, growth, and serving as a biomarker for small cell lung cancer."
+title: "Gastrin-Releasing Peptide: Comprehensive Peptide Reference"
+description: "A 27-amino acid neuropeptide that is the mammalian homolog of amphibian bombesin, regulating gastrin release, growth, and serving as a biomarker for small ce..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

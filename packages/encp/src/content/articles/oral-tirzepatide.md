@@ -1,6 +1,6 @@
 ---
-title: "Oral Tirzepatide"
-description: "Oral formulation of dual GIP/GLP-1 agonist tirzepatide using SNAC absorption technology."
+title: "Oral Tirzepatide: Oligopeptide Research Reference"
+description: "Oral formulation of dual GIP/GLP-1 agonist tirzepatide using SNAC absorption technology. This peptide or oligopeptide is studied for its biological activity,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

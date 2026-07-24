@@ -1,6 +1,6 @@
 ---
 title: "Evolution of Peptide Synthesis Methods"
-description: "How peptide synthesis techniques evolved from solution-phase to solid-phase and beyond."
+description: "How peptide synthesis techniques evolved from solution-phase to solid-phase and beyond. This peptide or oligopeptide is studied for its biological activity, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
 title: "Venom Peptide Drug Development"
-description: "Clinical development of venom-derived peptides as therapeutic agents."
+description: "Clinical development of venom-derived peptides as therapeutic agents. This peptide toxin is derived from venom and studied for its pharmacological activity, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

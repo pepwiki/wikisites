@@ -1,6 +1,6 @@
 ---
 title: "ITC for Peptide Thermodynamics"
-description: "Discover isothermal titration calorimetry for measuring thermodynamic parameters of peptide-ligand interactions."
+description: "Discover isothermal titration calorimetry for measuring thermodynamic parameters of peptide-ligand interactions. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

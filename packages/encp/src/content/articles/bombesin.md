@@ -1,5 +1,5 @@
 ---
-title: "Bombesin"
+title: "Bombesin: Neuropeptide in Neuroscience Reference"
 description: "A tetradecapeptide originally isolated from frog skin that binds bombesin/GRP receptors and regulates growth, feeding, and cancer biology."
 status: "published"
 author: "Encyclopeptide Editorial"

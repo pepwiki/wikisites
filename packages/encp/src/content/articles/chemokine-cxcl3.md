@@ -1,6 +1,6 @@
 ---
-title: "Chemokine CXCL3"
-description: "Reference for chemokine CXCL3 in peptide research."
+title: "Chemokine CXCL3: Oligopeptide Research Reference"
+description: "Comprehensive reference for chemokine CXCL3, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

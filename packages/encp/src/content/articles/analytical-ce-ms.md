@@ -1,6 +1,6 @@
 ---
-title: "CE MS Analysis"
-description: "An analytical technique for characterizing peptides using CE MS."
+title: "CE MS Analysis: Analytical Technique in Peptide Research"
+description: "An analytical technique for characterizing peptides using CE MS. This analytical technique provides valuable insights into peptide structure, purity, and cha..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

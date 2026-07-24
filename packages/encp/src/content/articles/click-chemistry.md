@@ -1,6 +1,6 @@
 ---
-title: "Click Chemistry"
-description: "Bioorthogonal reactions: CuAAC, SPAAC. Nobel Prize 2001. Applications: ADCs, PET imaging, PROTACs."
+title: "Click Chemistry: Oligopeptide Research Reference"
+description: "Bioorthogonal reactions: CuAAC, SPAAC. Nobel Prize 2001. Applications: ADCs, PET imaging, PROTACs. This peptide or oligopeptide is studied for its biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

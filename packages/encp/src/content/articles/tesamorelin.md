@@ -1,6 +1,6 @@
 ---
-title: "Tesamorelin"
-description: "Synthetic GHRH analog for HIV-associated lipodystrophy reducing visceral adipose tissue."
+title: "Tesamorelin: Oligopeptide Research Reference"
+description: "Synthetic GHRH analog for HIV-associated lipodystrophy reducing visceral adipose tissue. This peptide or oligopeptide is studied for its biological activity,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

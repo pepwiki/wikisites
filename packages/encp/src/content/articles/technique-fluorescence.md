@@ -1,6 +1,6 @@
 ---
-title: "fluorescence for Peptides"
-description: "Application of fluorescence technique for peptide characterization, structure determination, or formulation."
+title: "fluorescence for Peptides: Comprehensive Peptide Reference"
+description: "Application of fluorescence technique for peptide characterization, structure determination, or formulation. This peptide or oligopeptide is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

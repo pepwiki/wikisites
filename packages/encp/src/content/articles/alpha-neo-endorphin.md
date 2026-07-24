@@ -1,6 +1,6 @@
 ---
-title: "Alpha-Neo-Endorphin"
-description: "Prodynorphin-derived opioid with kappa-opioid activity."
+title: "Alpha-Neo-Endorphin: Neuropeptide in Neuroscience Reference"
+description: "Prodynorphin-derived opioid with kappa-opioid activity. This neuropeptide is involved in neurological signaling and is studied for its roles in brain functio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Albiglutide Albumin Fusion"
-description: "Albumin-GLP-1 fusion protein providing once-weekly GLP-1 receptor agonism through non-covalent albumin binding."
+title: "Albiglutide Albumin Fusion: Comprehensive Peptide Reference"
+description: "Albumin-GLP-1 fusion protein providing once-weekly GLP-1 receptor agonism through non-covalent albumin binding. Covers molecular mechanisms, biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

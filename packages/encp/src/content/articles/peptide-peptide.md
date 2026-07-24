@@ -1,6 +1,6 @@
 ---
-title: "Peptide-Peptide"
-description: "Disulfide bonds, amyloid aggregation, collagen, fibrin"
+title: "Peptide-Peptide: Oligopeptide Research Reference"
+description: "Disulfide bonds, amyloid aggregation, collagen, fibrin. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

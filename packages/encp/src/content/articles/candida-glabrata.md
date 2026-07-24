@@ -1,6 +1,6 @@
 ---
-title: "Candida glabrata"
-description: "Disrupts cell wall integrity"
+title: "Candida glabrata: Oligopeptide Research Reference"
+description: "Disrupts cell wall integrity. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicatio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

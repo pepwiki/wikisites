@@ -1,6 +1,6 @@
 ---
-title: "Sleep-Wake Neuropeptides"
-description: "Neuropeptides regulating circadian rhythms and sleep-wake transitions."
+title: "Sleep-Wake Neuropeptides: Neuropeptide in Neuroscience Re..."
+description: "Neuropeptides regulating circadian rhythms and sleep-wake transitions. This neuropeptide is involved in neurological signaling and is studied for its roles i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

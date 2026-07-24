@@ -1,6 +1,6 @@
 ---
-title: "Thymopentin"
-description: "Synthetic pentapeptide from thymopoietin with T-cell stimulating activity."
+title: "Thymopentin: Antimicrobial Peptide Reference"
+description: "Synthetic pentapeptide from thymopoietin with T-cell stimulating activity. This antimicrobial peptide demonstrates activity against pathogens and is studied ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

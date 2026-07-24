@@ -1,6 +1,6 @@
 ---
-title: "Epsilon Bungarotoxin"
-description: "epsilon-bungarotoxin is a snake venom peptide toxin with specific pharmacological activity."
+title: "Epsilon Bungarotoxin: Peptide Toxin in Pharmacology Refer..."
+description: "epsilon-bungarotoxin is a snake venom peptide toxin with specific pharmacological activity. This peptide toxin is derived from venom and studied for its phar..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

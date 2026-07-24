@@ -1,6 +1,6 @@
 ---
-title: "Endorphin alpha-1-22"
-description: "Reference for endorphin alpha-1-22 variant in peptide research."
+title: "Endorphin alpha-1-22: Neuropeptide in Neuroscience Reference"
+description: "Comprehensive reference for endorphin alpha-1-22 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

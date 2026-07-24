@@ -1,6 +1,6 @@
 ---
-title: "MicroRNA"
-description: "Reference for microrna in peptide research."
+title: "MicroRNA: Oligopeptide Research Reference"
+description: "Comprehensive reference for microrna, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

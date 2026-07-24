@@ -1,6 +1,6 @@
 ---
-title: "Parathyroid Hormone"
-description: "PTH for osteoporosis (teriparatide)."
+title: "Parathyroid Hormone: Oligopeptide Research Reference"
+description: "PTH for osteoporosis (teriparatide). This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential app..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

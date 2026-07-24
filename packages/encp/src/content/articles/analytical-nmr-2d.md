@@ -1,6 +1,6 @@
 ---
-title: "NMR 2D Analysis"
-description: "An analytical technique for characterizing peptides using NMR 2D."
+title: "NMR 2D Analysis: Analytical Technique in Peptide Research"
+description: "An analytical technique for characterizing peptides using NMR 2D. This analytical technique provides valuable insights into peptide structure, purity, and ch..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

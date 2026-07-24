@@ -1,5 +1,5 @@
 ---
-title: "Tyrothricin"
+title: "Tyrothricin: Antimicrobial Peptide Reference"
 description: "Mixture of gramicidins and tyrocidines from Bacillus brevis used as a topical antimicrobial for throat and skin infections."
 status: "published"
 author: "Encyclopeptide Editorial"

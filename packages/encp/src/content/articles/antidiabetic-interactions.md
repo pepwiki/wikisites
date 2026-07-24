@@ -1,6 +1,6 @@
 ---
-title: "Antidiabetic Interactions"
-description: "Drug interactions between peptide diabetes drugs and other medications."
+title: "Antidiabetic Interactions: Comprehensive Peptide Reference"
+description: "Drug interactions between peptide diabetes drugs and other medications. This peptide or oligopeptide is studied for its biological activity, structure-activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Ovarian Cancer Peptides"
-description: "Peptides associated with Ovarian Cancer including biomarkers, therapeutic targets, and diagnostic markers."
+title: "Ovarian Cancer Peptides: Oligopeptide Research Reference"
+description: "Peptides associated with Ovarian Cancer including biomarkers, therapeutic targets, and diagnostic markers. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

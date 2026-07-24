@@ -1,6 +1,6 @@
 ---
-title: "TB Ag85A"
-description: "TB-Ag85A is a peptide antigen used in vaccine development for infectious disease prevention."
+title: "TB Ag85A: Oligopeptide Research Reference"
+description: "TB-Ag85A is a peptide antigen used in vaccine development for infectious disease prevention. This peptide or oligopeptide is studied for its biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

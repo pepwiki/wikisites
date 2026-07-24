@@ -1,6 +1,6 @@
 ---
-title: "Coated Microneedle Peptide"
-description: "Solid microneedles coated with peptide formulations for skin delivery."
+title: "Coated Microneedle Peptide: Comprehensive Peptide Reference"
+description: "Solid microneedles coated with peptide formulations for skin delivery. This peptide or oligopeptide is studied for its biological activity, structure-activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

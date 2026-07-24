@@ -1,6 +1,6 @@
 ---
-title: "Disease Categories Overview"
-description: "Overview of disease categories relevant to peptide therapeutics."
+title: "Disease Categories Overview: Comprehensive Peptide Reference"
+description: "Overview of disease categories relevant to peptide therapeutics. This peptide or oligopeptide is studied for its biological activity, structure-activity rela..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

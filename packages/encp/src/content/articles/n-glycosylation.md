@@ -1,6 +1,6 @@
 ---
-title: "N-Glycosylation of Peptides"
-description: "Comprehensive guide to N-glycosylation modifications on asparagine residues in peptide biology."
+title: "N-Glycosylation of Peptides: Comprehensive Peptide Reference"
+description: "Comprehensive guide to N-glycosylation modifications on asparagine residues in peptide biology. This modification affects peptide stability, receptor binding..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

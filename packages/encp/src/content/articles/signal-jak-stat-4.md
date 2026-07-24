@@ -1,5 +1,5 @@
 ---
-title: "JAK-STAT Pathway Peptide 4"
+title: "JAK-STAT Pathway Peptide 4: Comprehensive Peptide Reference"
 description: "A peptide involved in the JAK-STAT signal transduction pathway, playing roles in cell proliferation, differentiation, or survival."
 status: "published"
 author: "Encyclopeptide Editorial"

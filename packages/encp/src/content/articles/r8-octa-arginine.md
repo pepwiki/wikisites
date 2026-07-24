@@ -1,6 +1,6 @@
 ---
-title: "R8 (Octa-Arginine)"
-description: "Comprehensive reference for R8 (Octa-Arginine), a peptide compound with applications in research and therapeutics."
+title: "R8 (Octa-Arginine): Oligopeptide Research Reference"
+description: "R8 (Octa-Arginine), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

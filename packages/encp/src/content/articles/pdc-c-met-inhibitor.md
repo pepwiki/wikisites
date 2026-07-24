@@ -1,6 +1,6 @@
 ---
-title: "C MET Inhibitor PDC"
-description: "A peptide-drug conjugate targeting C MET Inhibitor for selective drug delivery."
+title: "C MET Inhibitor PDC: Oligopeptide Research Reference"
+description: "A peptide-drug conjugate targeting C MET Inhibitor for selective drug delivery. This peptide or oligopeptide is studied for its biological activity, structur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

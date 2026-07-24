@@ -1,6 +1,6 @@
 ---
-title: "Galleria Defensin"
-description: "Major AMP from greater wax moth hemolymph with gram-positive bactericidal activity."
+title: "Galleria Defensin: Antimicrobial Peptide Reference"
+description: "Major AMP from greater wax moth hemolymph with gram-positive bactericidal activity. This antimicrobial peptide demonstrates activity against pathogens and is..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

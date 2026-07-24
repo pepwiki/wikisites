@@ -1,6 +1,6 @@
 ---
-title: "Genitourinary Tract AMPs"
-description: "Antimicrobial peptides in genitourinary tract protecting against urogenital infections."
+title: "Genitourinary Tract AMPs: Antimicrobial Peptide Reference"
+description: "Antimicrobial peptides in genitourinary tract protecting against urogenital infections. This antimicrobial peptide demonstrates activity against pathogens an..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

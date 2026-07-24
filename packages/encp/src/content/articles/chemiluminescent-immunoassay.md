@@ -1,6 +1,6 @@
 ---
-title: "Chemiluminescent immunoassay"
-description: "High-throughput clinical"
+title: "Chemiluminescent immunoassay: Comprehensive Peptide Refer..."
+description: "High-throughput clinical. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

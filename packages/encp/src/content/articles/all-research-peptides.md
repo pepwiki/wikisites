@@ -1,6 +1,6 @@
 ---
-title: "All research peptides"
-description: "Strategy"
+title: "All research peptides: Oligopeptide Research Reference"
+description: "Strategy. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in biomedical res..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "History of Peptide Vaccines"
-description: "The development of peptide-based vaccines from early epitope mapping to neoantigen approaches."
+title: "History of Peptide Vaccines: Comprehensive Peptide Reference"
+description: "The development of peptide-based vaccines from early epitope mapping to neoantigen approaches. This peptide or oligopeptide is studied for its biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

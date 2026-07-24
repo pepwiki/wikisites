@@ -1,6 +1,6 @@
 ---
-title: "ramachandran Resource"
-description: "The ramachandran database or resource for peptide research, providing data on structure, function, and interactions."
+title: "ramachandran Resource: Oligopeptide Research Reference"
+description: "The ramachandran database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

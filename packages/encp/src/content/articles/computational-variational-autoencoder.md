@@ -1,6 +1,6 @@
 ---
 title: "Variational Autoencoder for Peptides"
-description: "A computational method for studying peptides using Variational Autoencoder."
+description: "A computational method for studying peptides using Variational Autoencoder. This analytical technique provides valuable insights into peptide structure, puri..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

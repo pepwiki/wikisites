@@ -1,6 +1,6 @@
 ---
-title: "Tetradecyl Aminobutyroylvalylaminobutyric Urea Trifluoroacetate"
-description: "Comprehensive reference for Tetradecyl Aminobutyroylvalylaminobutyric Urea Trifluoroacetate, a peptide compound with applications in research and therapeutics."
+title: "Tetradecyl Aminobutyroylvalylaminobutyric Urea Trifluoroa..."
+description: "Comprehensive reference for Tetradecyl Aminobutyroylvalylaminobutyric Urea Trifluoroa..., a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15
@@ -12,13 +12,13 @@ relatedArticles: []
 
 ## Overview
 
-**INCI Name:** Tetradecyl Aminobutyroylvalylaminobutyric Urea Trifluoroacetate is a peptide compound with applications in research and therapeutics. **INCI Name:** Palmitoyl Dipeptide-5 Diaminobutyroyl Hydroxythreonine + Palmitoyl Dipeptide-5 Diaminohydroxybutyrate
+**INCI Name:** Tetradecyl Aminobutyroylvalylaminobutyric Urea Trifluoroa... is a peptide compound with applications in research and therapeutics. **INCI Name:** Palmitoyl Dipeptide-5 Diaminobutyroyl Hydroxythreonine + Palmitoyl Dipeptide-5 Diaminohydroxybutyrate
 
 ## Chemical Identity
 
 | Property | Value                                                                          |
 | -------- | ------------------------------------------------------------------------------ |
-| Name     | **INCI Name:** Tetradecyl Aminobutyroylvalylaminobutyric Urea Trifluoroacetate |
+| Name     | **INCI Name:** Tetradecyl Aminobutyroylvalylaminobutyric Urea Trifluoroa... |
 | Sequence | **Sequence:** Modified tetrapeptide with urea bridge                           |
 
 **Mechanism:** Stimulates hyaluronan (HA) synthesis; upregulates hyaluronan synthase 2 (HAS2); promotes HA-mediated dermal restructuring
@@ -38,11 +38,11 @@ Targets the hyaluronan-rich extracellular matrix. Promotes high-molecular-weight
 
 ## Structure
 
-**INCI Name:** Tetradecyl Aminobutyroylvalylaminobutyric Urea Trifluoroacetate belongs to the Cosmetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
+**INCI Name:** Tetradecyl Aminobutyroylvalylaminobutyric Urea Trifluoroa... belongs to the Cosmetic Peptides class of peptides. Its structure and properties make it suitable for various research and therapeutic applications.
 
 ## Applications
 
-**INCI Name:** Tetradecyl Aminobutyroylvalylaminobutyric Urea Trifluoroacetate has been studied for its potential applications in:
+**INCI Name:** Tetradecyl Aminobutyroylvalylaminobutyric Urea Trifluoroa... has been studied for its potential applications in:
 
 - Biomedical research
 - Drug discovery

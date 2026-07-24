@@ -1,6 +1,6 @@
 ---
-title: "Peptide Libraries"
-description: "Collections of diverse peptides for screening and drug discovery."
+title: "Peptide Libraries: Oligopeptide Research Reference"
+description: "Collections of diverse peptides for screening and drug discovery. This peptide or oligopeptide is studied for its biological activity, structure-activity rel..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

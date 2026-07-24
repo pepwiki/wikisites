@@ -1,6 +1,6 @@
 ---
-title: "Topoisomerase PDC"
-description: "A peptide-drug conjugate targeting Topoisomerase for selective drug delivery."
+title: "Topoisomerase PDC: Oligopeptide Research Reference"
+description: "A peptide-drug conjugate targeting Topoisomerase for selective drug delivery. This peptide or oligopeptide is studied for its biological activity, structure-..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

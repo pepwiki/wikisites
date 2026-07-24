@@ -1,6 +1,6 @@
 ---
-title: "Electrochemiluminescence"
-description: "Roche platforms"
+title: "Electrochemiluminescence: Oligopeptide Research Reference"
+description: "Roche platforms. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in biomedi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

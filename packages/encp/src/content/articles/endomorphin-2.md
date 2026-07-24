@@ -1,6 +1,6 @@
 ---
-title: "Endomorphin-2"
-description: "Mu-opioid selective peptide with preferential spinal cord distribution."
+title: "Endomorphin-2: Neuropeptide in Neuroscience Reference"
+description: "Mu-opioid selective peptide with preferential spinal cord distribution. This neuropeptide is involved in neurological signaling and is studied for its roles ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

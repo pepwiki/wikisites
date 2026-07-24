@@ -1,6 +1,6 @@
 ---
-title: "Amorphous Synthesis"
-description: "A peptide synthesis method using Amorphous for producing peptides with specific properties."
+title: "Amorphous Synthesis: Analytical Technique in Peptide Rese..."
+description: "A peptide synthesis method using Amorphous for producing peptides with specific properties. This analytical technique provides valuable insights into peptide..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

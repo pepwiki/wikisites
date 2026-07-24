@@ -1,6 +1,6 @@
 ---
-title: "ITC Analysis"
-description: "An analytical technique for characterizing peptides using ITC."
+title: "ITC Analysis: Analytical Technique in Peptide Research"
+description: "An analytical technique for characterizing peptides using ITC. This analytical technique provides valuable insights into peptide structure, purity, and chara..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

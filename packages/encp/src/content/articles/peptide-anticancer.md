@@ -1,6 +1,6 @@
 ---
-title: "Peptide Anticancer Agents"
-description: "Learn about peptide-based anticancer strategies including targeted delivery and apoptosis induction."
+title: "Peptide Anticancer Agents: Comprehensive Peptide Reference"
+description: "Learn about peptide-based anticancer strategies including targeted delivery and apoptosis induction. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

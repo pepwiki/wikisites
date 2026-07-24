@@ -1,6 +1,6 @@
 ---
-title: "Thiol Ene Synthesis"
-description: "A peptide synthesis method using Thiol Ene for producing peptides with specific properties."
+title: "Thiol Ene Synthesis: Analytical Technique in Peptide Rese..."
+description: "A peptide synthesis method using Thiol Ene for producing peptides with specific properties. This analytical technique provides valuable insights into peptide..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

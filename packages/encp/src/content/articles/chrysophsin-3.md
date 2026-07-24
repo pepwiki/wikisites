@@ -1,6 +1,6 @@
 ---
-title: "Chrysophsin 3"
-description: "Comprehensive reference for Chrysophsin 3, a peptide compound with applications in research and therapeutics."
+title: "Chrysophsin 3: Oligopeptide Research Reference"
+description: "Chrysophsin 3, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

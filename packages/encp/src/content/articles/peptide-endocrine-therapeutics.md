@@ -1,6 +1,6 @@
 ---
 title: "Peptide Endocrine Therapeutics"
-description: "Therapeutic peptides for endocrine disorders including diabetes, thyroid disease, and adrenal insufficiency."
+description: "Therapeutic peptides for endocrine disorders including diabetes, thyroid disease, and adrenal insufficiency. This peptide or oligopeptide is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

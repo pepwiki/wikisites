@@ -1,6 +1,6 @@
 ---
-title: "Prostate Cancer"
-description: "Malignant transformation of prostate epithelial cells. Most common cancer in men. Androgen-dependent in most cases. PSA screening: controversial (overdiagnosis risk). Gleason grading system (6-10). Tr"
+title: "Prostate Cancer: Oligopeptide Research Reference"
+description: "Malignant transformation of prostate epithelial cells. Most common cancer in men. Androgen-dependent in most cases. PSA screening: controversial (overdiagnos..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Malignant transformation of prostate epithelial cells. Most common cancer in men. Androgen-dependent in most cases. PSA screening: controversial (overdiagnosis risk). Gleason grading system (6-10). Treatments: active surveillance (low risk), radical prostatectomy, radiation therapy, ADT, abiraterone, enzalutamide, docetaxel, radium-223.
+Malignant transformation of prostate epithelial cells. Most common cancer in men. Androgen-dependent in most cases. PSA screening: controversial (overdiagnos...eatments: active surveillance (low risk), radical prostatectomy, radiation therapy, ADT, abiraterone, enzalutamide, docetaxel, radium-223.
 
 ## Clinical Significance
 

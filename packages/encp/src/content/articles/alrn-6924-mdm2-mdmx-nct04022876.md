@@ -1,6 +1,6 @@
 ---
 title: "ALRN-6924 - MDM2/MDMX (NCT04022876)"
-description: "Phase II trial of ALRN-6924 for MDM2/MDMX-driven cancers."
+description: "Phase II trial of ALRN-6924 for MDM2/MDMX-driven cancers. This peptide or oligopeptide is studied for its biological activity, structure-activity relationshi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

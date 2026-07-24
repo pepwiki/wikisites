@@ -1,6 +1,6 @@
 ---
-title: "Metal Affinity Purification"
-description: "A purification technique for separating and isolating peptides using Metal Affinity."
+title: "Metal Affinity Purification: Comprehensive Peptide Reference"
+description: "A purification technique for separating and isolating peptides using Metal Affinity. This analytical technique provides valuable insights into peptide struct..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

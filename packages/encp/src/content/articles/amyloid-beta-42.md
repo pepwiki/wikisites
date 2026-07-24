@@ -1,6 +1,6 @@
 ---
-title: "Amyloid-beta 42"
-description: "42-aa peptide from APP. Forms toxic plaques in Alzheimer's disease. AD biomarker."
+title: "Amyloid-beta 42: Oligopeptide Research Reference"
+description: "42-aa peptide from APP. Forms toxic plaques in Alzheimer's disease. AD biomarker. This peptide or oligopeptide is studied for its biological activity, struct..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

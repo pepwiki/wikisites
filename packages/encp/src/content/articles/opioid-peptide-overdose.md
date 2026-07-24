@@ -1,6 +1,6 @@
 ---
-title: "Opioid Peptide Overdose"
-description: "Excessive opioid peptide dosing. Can cause respiratory depression."
+title: "Opioid Peptide Overdose: Oligopeptide Research Reference"
+description: "Excessive opioid peptide dosing. Can cause respiratory depression. This peptide or oligopeptide is studied for its biological activity, structure-activity re..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

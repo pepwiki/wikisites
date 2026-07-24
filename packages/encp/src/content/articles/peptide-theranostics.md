@@ -1,6 +1,6 @@
 ---
-title: "Peptide Theranostics"
-description: "Combining diagnostic and therapeutic functions in single peptide-based agents."
+title: "Peptide Theranostics: Oligopeptide Research Reference"
+description: "Combining diagnostic and therapeutic functions in single peptide-based agents. This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Magainin 1"
-description: "Frog skin AMP from Xenopus laevis forming voltage-dependent ion channels in bacterial membranes."
+title: "Magainin 1: Antimicrobial Peptide Reference"
+description: "Frog skin AMP from Xenopus laevis forming voltage-dependent ion channels in bacterial membranes. This antimicrobial peptide demonstrates activity against pat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Hydrocarbon Stapling System 2"
-description: "A hydrocarbon-stapling-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy."
+title: "Hydrocarbon Stapling System 2: Comprehensive Peptide Refe..."
+description: "A hydrocarbon-stapling-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy.. This innovative approach addresses key ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

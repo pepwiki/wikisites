@@ -1,6 +1,6 @@
 ---
-title: "Cecropin-Drosomycin Hybrid"
-description: "Engineered hybrid combining cecropin and drosomycin for dual activity."
+title: "Cecropin-Drosomycin Hybrid: Comprehensive Peptide Reference"
+description: "Engineered hybrid combining cecropin and drosomycin for dual activity. This antimicrobial peptide demonstrates activity against pathogens and is studied for ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Pramlintide"
-description: "Comprehensive reference for pramlintide in peptide research."
+title: "Pramlintide: Oligopeptide Research Reference"
+description: "pramlintide in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

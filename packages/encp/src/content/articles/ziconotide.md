@@ -1,5 +1,5 @@
 ---
-title: "Ziconotide"
+title: "Ziconotide: Oligopeptide Research Reference"
 description: "Ziconotide is a synthetic omega-conotoxin MVIIA peptide that blocks N-type calcium channels, approved for severe chronic pain via intrathecal delivery."
 status: "published"
 author: "Encyclopeptide Editorial"

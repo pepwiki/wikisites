@@ -1,6 +1,6 @@
 ---
-title: "DPDPE"
-description: "Cyclic delta-opioid peptide agonist with improved metabolic stability."
+title: "DPDPE: Neuropeptide in Neuroscience Reference"
+description: "Cyclic delta-opioid peptide agonist with improved metabolic stability. This neuropeptide is involved in neurological signaling and is studied for its roles i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

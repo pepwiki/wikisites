@@ -1,6 +1,6 @@
 ---
-title: "Galanin"
-description: "A 30-amino acid neuropeptide widely distributed in the brain and peripheral tissues, regulating appetite, pain, cognition, and neuroprotection through three receptor subtypes."
+title: "Galanin: Neuropeptide in Neuroscience Reference"
+description: "A 30-amino acid neuropeptide widely distributed in the brain and peripheral tissues, regulating appetite, pain, cognition, and neuroprotection through three ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Cardiac Troponin T"
-description: "298-aa structural protein of cardiac muscle thin filament. Cardiac-specific isoform (cTnT) encoded by TNNT2 gene. Released upon myocardial injury. Normal: <14 ng/L (high-sensitivity assay). Superior t"
+title: "Cardiac Troponin T: Oligopeptide Research Reference"
+description: "298-aa structural protein of cardiac muscle thin filament. Cardiac-specific isoform (cTnT) encoded by TNNT2 gene. Released upon myocardial injury. Normal: <1..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-298-aa structural protein of cardiac muscle thin filament. Cardiac-specific isoform (cTnT) encoded by TNNT2 gene. Released upon myocardial injury. Normal: <14 ng/L (high-sensitivity assay). Superior to CK-MB for acute coronary syndrome diagnosis.
+298-aa structural protein of cardiac muscle thin filament. Cardiac-specific isoform (cTnT) encoded by TNNT2 gene. Released upon myocardial injury. Normal: <1...o CK-MB for acute coronary syndrome diagnosis.
 
 ## Clinical Significance
 

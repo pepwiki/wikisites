@@ -1,6 +1,6 @@
 ---
-title: "Peptide Nanofiber Delivery"
-description: "Self-assembling peptide nanofibers for localized drug delivery."
+title: "Peptide Nanofiber Delivery: Comprehensive Peptide Reference"
+description: "Self-assembling peptide nanofibers for localized drug delivery. This peptide or oligopeptide is studied for its biological activity, structure-activity relat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

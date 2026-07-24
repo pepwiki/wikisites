@@ -1,6 +1,6 @@
 ---
-title: "Tyrosine Modification"
-description: "Post-translational modifications of Tyrosine including phosphorylation, methylation, acetylation, and ubiquitination."
+title: "Tyrosine Modification: Post-Translational Modification Re..."
+description: "Post-translational modifications of Tyrosine including phosphorylation, methylation, acetylation, and ubiquitination. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

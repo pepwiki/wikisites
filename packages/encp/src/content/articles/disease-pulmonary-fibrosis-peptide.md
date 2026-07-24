@@ -1,6 +1,6 @@
 ---
-title: "Pulmonary Fibrosis Peptides"
-description: "Peptides associated with Pulmonary Fibrosis including biomarkers, therapeutic targets, and diagnostic markers."
+title: "Pulmonary Fibrosis Peptides: Comprehensive Peptide Reference"
+description: "Peptides associated with Pulmonary Fibrosis including biomarkers, therapeutic targets, and diagnostic markers. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

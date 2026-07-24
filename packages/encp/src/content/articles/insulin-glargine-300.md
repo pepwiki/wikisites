@@ -1,5 +1,5 @@
 ---
-title: "Insulin Glargine 300"
+title: "Insulin Glargine 300: Oligopeptide Research Reference"
 description: "Concentrated formulation of insulin glargine providing more stable pharmacokinetic profile with less nocturnal hypoglycemia."
 status: "published"
 author: "Encyclopeptide Editorial"

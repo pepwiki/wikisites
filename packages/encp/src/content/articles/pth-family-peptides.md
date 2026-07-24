@@ -1,6 +1,6 @@
 ---
 title: "Parathyroid Hormone Family Peptides"
-description: "Overview of PTH family peptides including PTH and PTHrP in calcium homeostasis and bone metabolism."
+description: "Overview of PTH family peptides including PTH and PTHrP in calcium homeostasis and bone metabolism. This peptide or oligopeptide is studied for its biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

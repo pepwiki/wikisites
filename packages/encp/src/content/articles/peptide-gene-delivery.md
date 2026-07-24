@@ -1,6 +1,6 @@
 ---
-title: "Peptide Gene Delivery"
-description: "Peptide vectors for nucleic acid delivery in gene therapy."
+title: "Peptide Gene Delivery: Oligopeptide Research Reference"
+description: "Peptide vectors for nucleic acid delivery in gene therapy. This peptide or oligopeptide is studied for its biological activity, structure-activity relationsh..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

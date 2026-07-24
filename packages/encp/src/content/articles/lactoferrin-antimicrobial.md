@@ -1,6 +1,6 @@
 ---
-title: "Lactoferrin Antimicrobial"
-description: "Iron-binding glycoprotein generating antimicrobial lactoferricin fragment upon cleavage."
+title: "Lactoferrin Antimicrobial: Comprehensive Peptide Reference"
+description: "Iron-binding glycoprotein generating antimicrobial lactoferricin fragment upon cleavage. This antimicrobial peptide demonstrates activity against pathogens a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

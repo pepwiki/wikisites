@@ -1,6 +1,6 @@
 ---
-title: "Nanoparticle System 2"
-description: "A nanoparticle-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy."
+title: "Nanoparticle System 2: Oligopeptide Research Reference"
+description: "A nanoparticle-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy.. This innovative approach addresses key challeng..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

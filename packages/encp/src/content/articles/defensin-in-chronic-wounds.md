@@ -1,6 +1,6 @@
 ---
-title: "Defensin in Chronic Wounds"
-description: "Altered defensin expression in chronic wounds and potential AMP supplementation therapy."
+title: "Defensin in Chronic Wounds: Comprehensive Peptide Reference"
+description: "Altered defensin expression in chronic wounds and potential AMP supplementation therapy. This antimicrobial peptide demonstrates activity against pathogens a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

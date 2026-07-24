@@ -1,6 +1,6 @@
 ---
-title: "Diptericin"
-description: "Glycine-rich AMP from Drosophila with gram-negative antibacterial activity."
+title: "Diptericin: Antimicrobial Peptide Reference"
+description: "Glycine-rich AMP from Drosophila with gram-negative antibacterial activity. This antimicrobial peptide demonstrates activity against pathogens and is studied..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

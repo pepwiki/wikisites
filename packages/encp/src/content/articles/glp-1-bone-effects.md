@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 Bone Effects"
-description: "Skeletal effects including bone formation promotion and fracture risk reduction in diabetes."
+title: "GLP-1 Bone Effects: Oligopeptide Research Reference"
+description: "Skeletal effects including bone formation promotion and fracture risk reduction in diabetes. This peptide or oligopeptide is studied for its biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 and Smoking Cessation"
-description: "Investigation of effects on nicotine reward and potential adjunct for smoking cessation."
+title: "GLP-1 and Smoking Cessation: Comprehensive Peptide Reference"
+description: "Investigation of effects on nicotine reward and potential adjunct for smoking cessation. This peptide or oligopeptide is studied for its biological activity,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

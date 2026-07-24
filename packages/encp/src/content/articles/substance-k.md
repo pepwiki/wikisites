@@ -1,5 +1,5 @@
 ---
-title: "Substance K"
+title: "Substance K: Neuropeptide in Neuroscience Reference"
 description: "Substance K is a tachykinin neuropeptide that activates NK2 receptors to mediate smooth muscle contraction and inflammatory responses in mammalian tissues."
 status: "published"
 author: "Encyclopeptide Editorial"

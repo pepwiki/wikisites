@@ -1,6 +1,6 @@
 ---
-title: "Dendrimer encapsulation"
-description: "Reference for dendrimer encapsulation in peptide research."
+title: "Dendrimer encapsulation: Oligopeptide Research Reference"
+description: "Comprehensive reference for dendrimer encapsulation, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Peptide Crop Protection"
-description: "Use of antimicrobial and insecticidal peptides as biopesticides and crop protection agents in agriculture."
+title: "Peptide Crop Protection: Oligopeptide Research Reference"
+description: "Use of antimicrobial and insecticidal peptides as biopesticides and crop protection agents in agriculture. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

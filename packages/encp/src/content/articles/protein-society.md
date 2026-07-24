@@ -1,6 +1,6 @@
 ---
-title: "Protein Society"
-description: "Professional society for protein science research."
+title: "Protein Society: Oligopeptide Research Reference"
+description: "Professional society for protein science research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

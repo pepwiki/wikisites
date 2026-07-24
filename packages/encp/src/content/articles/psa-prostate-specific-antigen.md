@@ -1,6 +1,6 @@
 ---
-title: "PSA"
-description: "240-aa kallikrein-related peptidase (hK3) secreted by prostate epithelial cells. Cleaves semenogelin. Normal: <4 ng/mL (age-adjusted). Elevated in prostate cancer, BPH, prostatitis. PSA density and velocity improve specificity."
+title: "PSA: Oligopeptide Research Reference"
+description: "240-aa kallikrein-related peptidase (hK3) secreted by prostate epithelial cells. Cleaves semenogelin. Normal: <4 ng/mL (age-adjusted). Elevated in prostate c..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-240-aa kallikrein-related peptidase (hK3) secreted by prostate epithelial cells. Cleaves semenogelin. Normal: <4 ng/mL (age-adjusted). Elevated in prostate cancer, BPH, prostatitis. PSA density and velocity improve specificity.
+240-aa kallikrein-related peptidase (hK3) secreted by prostate epithelial cells. Cleaves semenogelin. Normal: <4 ng/mL (age-adjusted). Elevated in prostate c...
 
 ## Clinical Significance
 

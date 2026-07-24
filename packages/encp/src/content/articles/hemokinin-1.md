@@ -1,6 +1,6 @@
 ---
-title: "Hemokinin 1"
-description: "hemokinin-1 is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation."
+title: "Hemokinin 1: Neuropeptide in Neuroscience Reference"
+description: "hemokinin-1 is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

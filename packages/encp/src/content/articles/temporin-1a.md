@@ -1,6 +1,6 @@
 ---
-title: "Temporin 1a"
-description: "temporin-1a is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity."
+title: "Temporin 1a: Antimicrobial Peptide Reference"
+description: "temporin-1a is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

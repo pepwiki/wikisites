@@ -1,6 +1,6 @@
 ---
 title: "History of Peptide Formulation Science"
-description: "The development of formulation strategies for peptide stability and delivery."
+description: "The development of formulation strategies for peptide stability and delivery. This peptide or oligopeptide is studied for its biological activity, structure-..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

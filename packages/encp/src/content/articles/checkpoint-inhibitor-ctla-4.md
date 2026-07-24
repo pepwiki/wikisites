@@ -1,6 +1,6 @@
 ---
-title: "Checkpoint Inhibitor CTLA-4"
-description: "Reference for checkpoint inhibitor CTLA-4 in peptide research."
+title: "Checkpoint Inhibitor CTLA-4: Comprehensive Peptide Reference"
+description: "Comprehensive reference for checkpoint inhibitor CTLA-4, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

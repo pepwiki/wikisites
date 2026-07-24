@@ -1,6 +1,6 @@
 ---
-title: "Cryo-Electron Microscopy"
-description: "Cryo-EM for determining peptide and protein structures at near-atomic resolution."
+title: "Cryo-Electron Microscopy: Oligopeptide Research Reference"
+description: "Cryo-EM for determining peptide and protein structures at near-atomic resolution. This peptide or oligopeptide is studied for its biological activity, struct..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Kalata B10"
-description: "kalata-B10 is a cyclotide — a cyclic, knotted peptide from plants with exceptional stability and insecticidal activity."
+title: "Kalata B10: Oligopeptide Research Reference"
+description: "kalata-B10 is a cyclotide — a cyclic, knotted peptide from plants with exceptional stability and insecticidal activity. Covers molecular mechanisms, biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Insulin Glargine"
-description: "Comprehensive reference for insulin glargine in peptide research."
+title: "Insulin Glargine: Oligopeptide Research Reference"
+description: "insulin glargine in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential ap..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

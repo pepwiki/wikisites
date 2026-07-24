@@ -1,6 +1,6 @@
 ---
-title: "Phenylalanine Metabolism"
-description: "Metabolic pathways involving Phenylalanine including biosynthesis, catabolism, and transamination."
+title: "Phenylalanine Metabolism: Oligopeptide Research Reference"
+description: "Metabolic pathways involving Phenylalanine including biosynthesis, catabolism, and transamination. This peptide or oligopeptide is studied for its biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

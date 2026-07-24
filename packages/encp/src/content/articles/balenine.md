@@ -1,5 +1,5 @@
 ---
-title: "Balenine"
+title: "Balenine: Oligopeptide Research Reference"
 description: "balenine is a bioactive peptide with potential health benefits including antihypertensive, antioxidant, or neuroprotective properties."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,6 +1,6 @@
 ---
 title: "Peptide Self-Healing Materials"
-description: "Self-assembling peptide materials with intrinsic self-healing properties for biomedical and structural applications."
+description: "Self-assembling peptide materials with intrinsic self-healing properties for biomedical and structural applications. Covers molecular mechanisms, biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

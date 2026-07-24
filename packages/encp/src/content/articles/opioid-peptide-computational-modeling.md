@@ -1,6 +1,6 @@
 ---
 title: "Opioid Peptide Computational Modeling"
-description: "Computational models of opioid peptide-receptor interactions."
+description: "Computational models of opioid peptide-receptor interactions. This neuropeptide is involved in neurological signaling and is studied for its roles in brain f..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "ClinicalTrials.gov"
-description: "NIH registry and results database of publicly and privately funded clinical studies"
+title: "ClinicalTrials.gov: Oligopeptide Research Reference"
+description: "NIH registry and results database of publicly and privately funded clinical studies. This peptide or oligopeptide is studied for its biological activity, str..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

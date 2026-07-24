@@ -1,5 +1,5 @@
 ---
-title: "Peptide Quality Control"
+title: "Peptide Quality Control: Oligopeptide Research Reference"
 description: "Analytical methods and specifications for peptide quality control including identity, purity, potency, and stability testing."
 status: "published"
 author: "Encyclopeptide Editorial"

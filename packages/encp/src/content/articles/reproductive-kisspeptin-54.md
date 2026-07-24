@@ -1,6 +1,6 @@
 ---
-title: "Kisspeptin 54"
-description: "Comprehensive reference for kisspeptin 54 in peptide research."
+title: "Kisspeptin 54: Oligopeptide Research Reference"
+description: "kisspeptin 54 in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appli..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

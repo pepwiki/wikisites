@@ -1,6 +1,6 @@
 ---
-title: "DTx1"
-description: "DTx1 is a spider venom peptide with specific ion channel or receptor blocking properties."
+title: "DTx1: Peptide Toxin in Pharmacology Reference"
+description: "DTx1 is a spider venom peptide with specific ion channel or receptor blocking properties. This peptide toxin is derived from venom and studied for its pharma..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

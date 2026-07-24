@@ -1,6 +1,6 @@
 ---
-title: "Liposomal Peptide Delivery"
-description: "Liposome encapsulation protecting peptides from degradation and enabling targeted delivery."
+title: "Liposomal Peptide Delivery: Comprehensive Peptide Reference"
+description: "Liposome encapsulation protecting peptides from degradation and enabling targeted delivery. This peptide or oligopeptide is studied for its biological activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

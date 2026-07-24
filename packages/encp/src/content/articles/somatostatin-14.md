@@ -1,6 +1,6 @@
 ---
-title: "Somatostatin-14"
-description: "Comprehensive reference for Somatostatin-14, a peptide compound with applications in research and therapeutics."
+title: "Somatostatin-14: Neuropeptide in Neuroscience Reference"
+description: "Somatostatin-14, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

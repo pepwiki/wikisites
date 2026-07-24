@@ -1,6 +1,6 @@
 ---
 title: "Peptide-Based Hydrogels for Wound Healing"
-description: "RADA16 self-assembling peptides form hydrogels with antimicrobial activity and hemostatic properties, accelerating tissue repair through biomimetic extracellular matrix support."
+description: "RADA16 self-assembling peptides form hydrogels with antimicrobial activity and hemostatic properties, accelerating tissue repair through biomimetic extracell..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-06-01

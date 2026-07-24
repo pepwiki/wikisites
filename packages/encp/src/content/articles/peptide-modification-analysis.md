@@ -1,6 +1,6 @@
 ---
-title: "Peptide modification analysis"
-description: "Reference for peptide modification analysis in peptide research."
+title: "Peptide modification analysis: Comprehensive Peptide Refe..."
+description: "Comprehensive reference for peptide modification analysis, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

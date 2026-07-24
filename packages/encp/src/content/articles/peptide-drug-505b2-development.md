@@ -1,6 +1,6 @@
 ---
 title: "Peptide Drug 505(b)(2) Development"
-description: "Development pathway for modified peptide drug products using the FDA 505(b)(2) regulatory pathway."
+description: "Development pathway for modified peptide drug products using the FDA 505(b)(2) regulatory pathway. This peptide or oligopeptide is studied for its biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

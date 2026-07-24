@@ -1,6 +1,6 @@
 ---
-title: "Interferon IFN-alpha-1"
-description: "Reference for interferon IFN-alpha-1 in peptide research."
+title: "Interferon IFN-alpha-1: Oligopeptide Research Reference"
+description: "Comprehensive reference for interferon IFN-alpha-1, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

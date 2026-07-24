@@ -1,5 +1,5 @@
 ---
-title: "Exenatide Once Weekly"
+title: "Exenatide Once Weekly: Peptide Family Reference"
 description: "Extended-release microsphere formulation of exenatide providing sustained GLP-1 receptor agonism with once-weekly dosing."
 status: "published"
 author: "Encyclopeptide Editorial"

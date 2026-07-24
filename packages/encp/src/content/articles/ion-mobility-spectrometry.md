@@ -1,6 +1,6 @@
 ---
 title: "Ion Mobility Spectrometry for Peptides"
-description: "Discover ion mobility spectrometry for separating peptide conformers and measuring collision cross sections."
+description: "Discover ion mobility spectrometry for separating peptide conformers and measuring collision cross sections. This peptide or oligopeptide is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

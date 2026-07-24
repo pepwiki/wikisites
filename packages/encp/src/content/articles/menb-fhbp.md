@@ -1,6 +1,6 @@
 ---
-title: "MenB FHbp"
-description: "MenB-fHbp is a peptide antigen used in vaccine development for infectious disease prevention."
+title: "MenB FHbp: Oligopeptide Research Reference"
+description: "MenB-fHbp is a peptide antigen used in vaccine development for infectious disease prevention. This peptide or oligopeptide is studied for its biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Tx3c"
-description: "Tx3c is a spider venom peptide with specific ion channel or receptor blocking properties."
+title: "Tx3c: Peptide Toxin in Pharmacology Reference"
+description: "Tx3c is a spider venom peptide with specific ion channel or receptor blocking properties. This peptide toxin is derived from venom and studied for its pharma..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

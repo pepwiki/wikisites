@@ -1,6 +1,6 @@
 ---
 title: "Checkpoint Inhibitor B7-H4-VTCN"
-description: "Reference for checkpoint inhibitor B7-H4-VTCN in peptide research."
+description: "Comprehensive reference for checkpoint inhibitor B7-H4-VTCN, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

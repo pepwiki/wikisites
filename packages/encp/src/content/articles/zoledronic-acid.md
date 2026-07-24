@@ -1,5 +1,5 @@
 ---
-title: "Zoledronic Acid"
+title: "Zoledronic Acid: Oligopeptide Research Reference"
 description: "Nitrogen-containing bisphosphonate that inhibits farnesyl pyrophosphate synthase, used for osteoporosis and bone metastases."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,6 +1,6 @@
 ---
 title: "Peptide Autoimmune Therapeutics"
-description: "Therapeutic peptides for autoimmune disease treatment including tolerogenic peptides and immunomodulatory agents."
+description: "Therapeutic peptides for autoimmune disease treatment including tolerogenic peptides and immunomodulatory agents. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "PLGA microsphere"
-description: "Reference for plga microsphere in peptide research."
+title: "PLGA microsphere: Oligopeptide Research Reference"
+description: "Comprehensive reference for plga microsphere, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

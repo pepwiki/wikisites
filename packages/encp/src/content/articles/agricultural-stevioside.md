@@ -1,6 +1,6 @@
 ---
-title: "Stevioside"
-description: "Comprehensive reference for stevioside in peptide research."
+title: "Stevioside: Oligopeptide Research Reference"
+description: "stevioside in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

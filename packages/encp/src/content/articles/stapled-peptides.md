@@ -1,6 +1,6 @@
 ---
-title: "Stapled Peptides"
-description: "Alpha-helix stabilized peptides for PPI inhibition"
+title: "Stapled Peptides: Oligopeptide Research Reference"
+description: "Alpha-helix stabilized peptides for PPI inhibition. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, an..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

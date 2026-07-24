@@ -1,6 +1,6 @@
 ---
-title: "Interferon IFN-epsilon"
-description: "Reference for interferon IFN-epsilon in peptide research."
+title: "Interferon IFN-epsilon: Oligopeptide Research Reference"
+description: "Comprehensive reference for interferon IFN-epsilon, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

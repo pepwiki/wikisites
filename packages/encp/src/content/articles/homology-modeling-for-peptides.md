@@ -1,6 +1,6 @@
 ---
 title: "Homology Modeling for Peptides"
-description: "Understand homology modeling approaches for predicting peptide 3D structures from related template structures."
+description: "Understand homology modeling approaches for predicting peptide 3D structures from related template structures. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

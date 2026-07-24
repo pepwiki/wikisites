@@ -1,6 +1,6 @@
 ---
-title: "Mixed"
-description: "Binding + cleavage or modification + binding"
+title: "Mixed: Oligopeptide Research Reference"
+description: "Binding + cleavage or modification + binding. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and pote..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,5 +1,5 @@
 ---
-title: "Sirolimus"
+title: "Sirolimus: Oligopeptide Research Reference"
 description: "Macrolide immunosuppressant that inhibits mTOR to block T-cell proliferation in transplant rejection and coronary stent coatings."
 status: "published"
 author: "Encyclopeptide Editorial"

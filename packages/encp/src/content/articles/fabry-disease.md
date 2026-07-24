@@ -1,6 +1,6 @@
 ---
-title: "Fabry Disease"
-description: "α-galactosidase A deficiency → GL-3 accumulation. Treatments: agalsidase, migalastat."
+title: "Fabry Disease: Oligopeptide Research Reference"
+description: "α-galactosidase A deficiency → GL-3 accumulation. Treatments: agalsidase, migalastat. This peptide or oligopeptide is studied for its biological activity, st..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

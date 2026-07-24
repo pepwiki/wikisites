@@ -1,6 +1,6 @@
 ---
-title: "Histrelin"
-description: "Year-long subcutaneous GnRH agonist implant for central precocious puberty."
+title: "Histrelin: Oligopeptide Research Reference"
+description: "Year-long subcutaneous GnRH agonist implant for central precocious puberty. This peptide or oligopeptide is studied for its biological activity, structure-ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

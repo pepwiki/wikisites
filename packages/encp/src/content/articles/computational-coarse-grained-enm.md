@@ -1,6 +1,6 @@
 ---
 title: "Coarse Grained ENM for Peptides"
-description: "A computational method for studying peptides using Coarse Grained ENM."
+description: "A computational method for studying peptides using Coarse Grained ENM. This analytical technique provides valuable insights into peptide structure, purity, a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

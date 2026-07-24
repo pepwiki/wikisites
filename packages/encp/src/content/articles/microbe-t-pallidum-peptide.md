@@ -1,6 +1,6 @@
 ---
-title: "T Pallidum Peptide"
-description: "A peptide associated with T Pallidum for research or therapeutic applications."
+title: "T Pallidum Peptide: Oligopeptide Research Reference"
+description: "A peptide associated with T Pallidum for research or therapeutic applications. This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

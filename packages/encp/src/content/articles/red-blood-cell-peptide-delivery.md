@@ -1,6 +1,6 @@
 ---
 title: "Red Blood Cell Peptide Delivery"
-description: "Explore erythrocyte-based carriers for extending peptide circulation time through cellular encapsulation."
+description: "Explore erythrocyte-based carriers for extending peptide circulation time through cellular encapsulation. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

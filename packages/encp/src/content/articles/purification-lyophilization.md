@@ -1,6 +1,6 @@
 ---
-title: "Lyophilization Purification"
-description: "A purification technique for separating and isolating peptides using Lyophilization."
+title: "Lyophilization Purification: Comprehensive Peptide Reference"
+description: "A purification technique for separating and isolating peptides using Lyophilization. This analytical technique provides valuable insights into peptide struct..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

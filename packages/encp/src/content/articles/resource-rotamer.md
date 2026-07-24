@@ -1,6 +1,6 @@
 ---
-title: "rotamer Resource"
-description: "The rotamer database or resource for peptide research, providing data on structure, function, and interactions."
+title: "rotamer Resource: Oligopeptide Research Reference"
+description: "The rotamer database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

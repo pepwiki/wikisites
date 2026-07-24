@@ -1,6 +1,6 @@
 ---
-title: "GLCYNCNKFGQYYCTC"
-description: "Pichia kluyveri"
+title: "GLCYNCNKFGQYYCTC: Oligopeptide Research Reference"
+description: "Pichia kluyveri. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in biomedi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

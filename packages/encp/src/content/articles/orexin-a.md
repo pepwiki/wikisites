@@ -1,6 +1,6 @@
 ---
-title: "Orexin A"
-description: "Hypothalamic neuropeptide promoting wakefulness and energy homeostasis."
+title: "Orexin A: Neuropeptide in Neuroscience Reference"
+description: "Hypothalamic neuropeptide promoting wakefulness and energy homeostasis. This neuropeptide is involved in neurological signaling and is studied for its roles ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

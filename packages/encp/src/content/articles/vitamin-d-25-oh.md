@@ -1,6 +1,6 @@
 ---
-title: "Vitamin D (25-OH)"
-description: "25-hydroxyvitamin D. Vitamin D status marker."
+title: "Vitamin D (25-OH): Oligopeptide Research Reference"
+description: "25-hydroxyvitamin D. Vitamin D status marker. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and pote..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

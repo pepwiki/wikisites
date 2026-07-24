@@ -1,6 +1,6 @@
 ---
-title: "BNP 32"
-description: "BNP-32 is a natriuretic peptide that regulates blood pressure and fluid balance through vasodilation and natriuresis."
+title: "BNP 32: Endogenous Peptide Hormone Reference"
+description: "BNP-32 is a natriuretic peptide that regulates blood pressure and fluid balance through vasodilation and natriuresis. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

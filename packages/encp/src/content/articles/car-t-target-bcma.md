@@ -1,6 +1,6 @@
 ---
-title: "Car T Target BCMA"
-description: "Reference for car t target BCMA in peptide research."
+title: "Car T Target BCMA: Oligopeptide Research Reference"
+description: "Comprehensive reference for car t target BCMA, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

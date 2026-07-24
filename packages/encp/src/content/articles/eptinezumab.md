@@ -1,6 +1,6 @@
 ---
-title: "Eptinezumab"
-description: "Anti-CGRP monoclonal antibody for migraine prevention administered as quarterly IV infusion."
+title: "Eptinezumab: Oligopeptide Research Reference"
+description: "Anti-CGRP monoclonal antibody for migraine prevention administered as quarterly IV infusion. This peptide or oligopeptide is studied for its biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

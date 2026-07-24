@@ -1,6 +1,6 @@
 ---
-title: "Somatostatin Analog"
-description: "Comprehensive reference for somatostatin analog in peptide research."
+title: "Somatostatin Analog: Oligopeptide Research Reference"
+description: "somatostatin analog in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

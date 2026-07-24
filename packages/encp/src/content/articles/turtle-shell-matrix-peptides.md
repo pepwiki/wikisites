@@ -1,5 +1,5 @@
 ---
-title: "Turtle Shell Matrix Peptides"
+title: "Turtle Shell Matrix Peptides: Comprehensive Peptide Refer..."
 description: "Comprehensive reference for Turtle Shell Matrix Peptides, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

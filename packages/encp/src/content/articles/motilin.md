@@ -1,6 +1,6 @@
 ---
-title: "Motilin"
-description: "22-amino acid gut hormone that stimulates gastric and intestinal motility through the migrating motor complex."
+title: "Motilin: Endogenous Peptide Hormone Reference"
+description: "22-amino acid gut hormone that stimulates gastric and intestinal motility through the migrating motor complex. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

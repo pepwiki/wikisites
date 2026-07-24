@@ -1,5 +1,5 @@
 ---
-title: "progressive-disease Resource"
+title: "progressive-disease Resource: Comprehensive Peptide Refer..."
 description: "The progressive-disease database or resource for peptide research, providing data on structure, function, and interactions."
 status: "published"
 author: "Encyclopeptide Editorial"

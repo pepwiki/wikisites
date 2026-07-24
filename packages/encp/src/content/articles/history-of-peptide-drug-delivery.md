@@ -1,6 +1,6 @@
 ---
 title: "History of Peptide Drug Delivery"
-description: "The evolution of peptide delivery from injections to oral, nasal, and transdermal systems."
+description: "The evolution of peptide delivery from injections to oral, nasal, and transdermal systems. This peptide or oligopeptide is studied for its biological activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

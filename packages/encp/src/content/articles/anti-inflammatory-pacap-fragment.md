@@ -1,6 +1,6 @@
 ---
-title: "PACAP Fragment"
-description: "Comprehensive reference for PACAP fragment in peptide research."
+title: "PACAP Fragment: Oligopeptide Research Reference"
+description: "PACAP fragment in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appl..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

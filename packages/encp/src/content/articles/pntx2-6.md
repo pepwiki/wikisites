@@ -1,6 +1,6 @@
 ---
-title: "PnTx2 6"
-description: "pnTx2-6 is a spider venom peptide with specific ion channel or receptor blocking properties."
+title: "PnTx2 6: Peptide Toxin in Pharmacology Reference"
+description: "pnTx2-6 is a spider venom peptide with specific ion channel or receptor blocking properties. This peptide toxin is derived from venom and studied for its pha..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

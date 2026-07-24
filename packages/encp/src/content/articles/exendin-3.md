@@ -1,6 +1,6 @@
 ---
-title: "Exendin-3"
-description: "39-aa peptide from Gila monster saliva. Related to exendin-4 but less potent at GLP-1 receptor."
+title: "Exendin-3: Oligopeptide Research Reference"
+description: "39-aa peptide from Gila monster saliva. Related to exendin-4 but less potent at GLP-1 receptor. This peptide or oligopeptide is studied for its biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

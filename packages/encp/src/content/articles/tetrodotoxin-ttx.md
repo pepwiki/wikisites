@@ -1,6 +1,6 @@
 ---
-title: "Tetrodotoxin (TTX)"
-description: "Comprehensive reference for Tetrodotoxin (TTX), a peptide compound with applications in research and therapeutics."
+title: "Tetrodotoxin (TTX): Peptide Toxin in Pharmacology Reference"
+description: "Tetrodotoxin (TTX), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

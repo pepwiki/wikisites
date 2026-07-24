@@ -1,6 +1,6 @@
 ---
-title: "CCK 9"
-description: "Reference for CCK 9 variant in peptide research."
+title: "CCK 9: Neuropeptide in Neuroscience Reference"
+description: "Comprehensive reference for CCK 9 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

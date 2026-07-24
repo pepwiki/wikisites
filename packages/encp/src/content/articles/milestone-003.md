@@ -1,6 +1,6 @@
 ---
-title: "Milestone 003"
-description: "1953: Vincent du Vigneaud synthesizes oxytocin. First chemical synthesis of a peptide hormone. Nobel Prize 1955."
+title: "Milestone 003: Oligopeptide Research Reference"
+description: "1953: Vincent du Vigneaud synthesizes oxytocin. First chemical synthesis of a peptide hormone. Nobel Prize 1955. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

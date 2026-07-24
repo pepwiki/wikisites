@@ -1,6 +1,6 @@
 ---
-title: "Peptide Drug Reprocessing"
-description: "Procedures and controls for reprocessing and reworking peptide drug products during manufacturing."
+title: "Peptide Drug Reprocessing: Comprehensive Peptide Reference"
+description: "Procedures and controls for reprocessing and reworking peptide drug products during manufacturing. This peptide or oligopeptide is studied for its biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

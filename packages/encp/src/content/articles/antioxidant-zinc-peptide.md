@@ -1,6 +1,6 @@
 ---
-title: "Zinc Peptide"
-description: "Comprehensive reference for zinc peptide in peptide research."
+title: "Zinc Peptide: Oligopeptide Research Reference"
+description: "zinc peptide in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

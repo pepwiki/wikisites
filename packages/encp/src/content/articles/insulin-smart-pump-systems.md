@@ -1,6 +1,6 @@
 ---
-title: "Insulin Smart Pump Systems"
-description: "Closed-loop pump systems with continuous glucose monitoring for automated basal insulin delivery."
+title: "Insulin Smart Pump Systems: Comprehensive Peptide Reference"
+description: "Closed-loop pump systems with continuous glucose monitoring for automated basal insulin delivery. This peptide or oligopeptide is studied for its biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

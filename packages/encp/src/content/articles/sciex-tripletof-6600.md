@@ -1,6 +1,6 @@
 ---
-title: "Sciex TripleTOF 6600"
-description: "High-resolution mass spectrometer for proteomics and peptidomics."
+title: "Sciex TripleTOF 6600: Oligopeptide Research Reference"
+description: "High-resolution mass spectrometer for proteomics and peptidomics. This peptide or oligopeptide is studied for its biological activity, structure-activity rel..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

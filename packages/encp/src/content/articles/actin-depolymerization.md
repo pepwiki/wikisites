@@ -1,6 +1,6 @@
 ---
-title: "Actin depolymerization"
-description: "Reference for actin depolymerization in peptide research."
+title: "Actin depolymerization: Oligopeptide Research Reference"
+description: "Comprehensive reference for actin depolymerization, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

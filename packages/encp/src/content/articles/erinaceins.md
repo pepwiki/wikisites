@@ -1,6 +1,6 @@
 ---
-title: "Erinaceins"
-description: "erinaceins is a snake venom peptide toxin with specific pharmacological activity."
+title: "Erinaceins: Peptide Toxin in Pharmacology Reference"
+description: "erinaceins is a snake venom peptide toxin with specific pharmacological activity. This peptide toxin is derived from venom and studied for its pharmacologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

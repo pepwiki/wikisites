@@ -1,6 +1,6 @@
 ---
-title: "Omentin Protein Hormone"
-description: "The Omentin Protein Hormone and its role in endocrine signaling."
+title: "Omentin Protein Hormone: Endogenous Peptide Hormone Refer..."
+description: "Omentin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical si..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Mouse Beta-Defensin 3"
-description: "Inducible mouse beta-defensin with chemotactic and antimicrobial functions."
+title: "Mouse Beta-Defensin 3: Antimicrobial Peptide Reference"
+description: "Inducible mouse beta-defensin with chemotactic and antimicrobial functions. This antimicrobial peptide demonstrates activity against pathogens and is studied..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

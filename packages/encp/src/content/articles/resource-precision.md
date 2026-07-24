@@ -1,6 +1,6 @@
 ---
-title: "precision Resource"
-description: "The precision database or resource for peptide research, providing data on structure, function, and interactions."
+title: "precision Resource: Oligopeptide Research Reference"
+description: "The precision database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

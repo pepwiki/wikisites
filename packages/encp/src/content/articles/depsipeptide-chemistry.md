@@ -1,5 +1,5 @@
 ---
-title: "Depsipeptide Chemistry"
+title: "Depsipeptide Chemistry: Oligopeptide Research Reference"
 description: "Chemistry and pharmacology of depsipeptides containing both amide and ester bonds, including natural products and drug candidates."
 status: "published"
 author: "Encyclopeptide Editorial"

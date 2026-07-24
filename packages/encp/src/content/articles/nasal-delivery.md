@@ -1,6 +1,6 @@
 ---
-title: "Nasal Delivery"
-description: "Delivering peptides through nasal mucosa for brain targeting."
+title: "Nasal Delivery: Oligopeptide Research Reference"
+description: "Delivering peptides through nasal mucosa for brain targeting. This peptide or oligopeptide is studied for its biological activity, structure-activity relatio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Cyanogen Bromide Purification"
-description: "A purification technique for separating and isolating peptides using Cyanogen Bromide."
+title: "Cyanogen Bromide Purification: Comprehensive Peptide Refe..."
+description: "A purification technique for separating and isolating peptides using Cyanogen Bromide. This analytical technique provides valuable insights into peptide stru..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

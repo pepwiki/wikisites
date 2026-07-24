@@ -1,6 +1,6 @@
 ---
-title: "Peptide quaternary structure"
-description: "Reference for peptide quaternary structure in peptide research."
+title: "Peptide quaternary structure: Comprehensive Peptide Refer..."
+description: "Comprehensive reference for peptide quaternary structure, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

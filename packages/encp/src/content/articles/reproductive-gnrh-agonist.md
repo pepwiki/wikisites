@@ -1,6 +1,6 @@
 ---
-title: "GnRH Agonist"
-description: "Comprehensive reference for GnRH agonist in peptide research."
+title: "GnRH Agonist: Oligopeptide Research Reference"
+description: "GnRH agonist in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

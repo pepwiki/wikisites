@@ -1,6 +1,6 @@
 ---
-title: "Sublingual Peptide Delivery"
-description: "Sublingual administration for rapid systemic peptide absorption."
+title: "Sublingual Peptide Delivery: Comprehensive Peptide Reference"
+description: "Sublingual administration for rapid systemic peptide absorption. This peptide or oligopeptide is studied for its biological activity, structure-activity rela..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Chemokine CCL7"
-description: "Reference for chemokine CCL7 in peptide research."
+title: "Chemokine CCL7: Oligopeptide Research Reference"
+description: "Comprehensive reference for chemokine CCL7, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

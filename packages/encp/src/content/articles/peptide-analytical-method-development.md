@@ -1,6 +1,6 @@
 ---
 title: "Peptide Analytical Method Development"
-description: "Developing and validating analytical methods for peptide characterization and quality control."
+description: "Developing and validating analytical methods for peptide characterization and quality control. This peptide or oligopeptide is studied for its biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

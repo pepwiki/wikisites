@@ -1,5 +1,5 @@
 ---
-title: "PI3K Pathway Peptide 1"
+title: "PI3K Pathway Peptide 1: Oligopeptide Research Reference"
 description: "A peptide involved in the PI3K signal transduction pathway, playing roles in cell proliferation, differentiation, or survival."
 status: "published"
 author: "Encyclopeptide Editorial"

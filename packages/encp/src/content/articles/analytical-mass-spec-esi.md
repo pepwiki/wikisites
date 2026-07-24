@@ -1,6 +1,6 @@
 ---
-title: "Mass Spec ESI Analysis"
-description: "An analytical technique for characterizing peptides using Mass Spec ESI."
+title: "Mass Spec ESI Analysis: Analytical Technique in Peptide R..."
+description: "An analytical technique for characterizing peptides using Mass Spec ESI. This analytical technique provides valuable insights into peptide structure, purity,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

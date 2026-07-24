@@ -1,6 +1,6 @@
 ---
-title: "sensitivity Resource"
-description: "The sensitivity database or resource for peptide research, providing data on structure, function, and interactions."
+title: "sensitivity Resource: Oligopeptide Research Reference"
+description: "The sensitivity database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

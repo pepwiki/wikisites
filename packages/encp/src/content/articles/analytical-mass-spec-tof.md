@@ -1,6 +1,6 @@
 ---
-title: "Mass Spec TOF Analysis"
-description: "An analytical technique for characterizing peptides using Mass Spec TOF."
+title: "Mass Spec TOF Analysis: Analytical Technique in Peptide R..."
+description: "An analytical technique for characterizing peptides using Mass Spec TOF. This analytical technique provides valuable insights into peptide structure, purity,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

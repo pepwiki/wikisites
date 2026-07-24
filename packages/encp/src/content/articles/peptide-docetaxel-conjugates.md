@@ -1,5 +1,5 @@
 ---
-title: "Peptide-Docetaxel Conjugates"
+title: "Peptide-Docetaxel Conjugates: Comprehensive Peptide Refer..."
 description: "Comprehensive reference for Peptide-Docetaxel Conjugates, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

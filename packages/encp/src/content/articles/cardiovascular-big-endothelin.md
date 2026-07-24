@@ -1,6 +1,6 @@
 ---
-title: "Big Endothelin"
-description: "Comprehensive reference for big endothelin in peptide research."
+title: "Big Endothelin: Oligopeptide Research Reference"
+description: "big endothelin in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appl..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

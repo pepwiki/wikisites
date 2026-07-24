@@ -1,6 +1,6 @@
 ---
-title: "Opioid Receptor Polymorphisms"
-description: "Genetic variation affecting analgesic response and addiction susceptibility."
+title: "Opioid Receptor Polymorphisms: Comprehensive Peptide Refe..."
+description: "Genetic variation affecting analgesic response and addiction susceptibility. This neuropeptide is involved in neurological signaling and is studied for its r..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

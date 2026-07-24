@@ -1,6 +1,6 @@
 ---
-title: "Inflammatory"
-description: "Infection, sepsis, autoimmune disease"
+title: "Inflammatory: Oligopeptide Research Reference"
+description: "Infection, sepsis, autoimmune disease. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Myriocin iridium"
-description: "Inhibits serine palmitoyltransferase"
+title: "Myriocin iridium: Oligopeptide Research Reference"
+description: "Inhibits serine palmitoyltransferase. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential ap..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

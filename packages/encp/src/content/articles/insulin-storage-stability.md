@@ -1,6 +1,6 @@
 ---
-title: "Insulin Storage Stability"
-description: "Guidelines for insulin storage including refrigeration at 2-8 degrees Celsius and in-use room temperature stability."
+title: "Insulin Storage Stability: Comprehensive Peptide Reference"
+description: "Guidelines for insulin storage including refrigeration at 2-8 degrees Celsius and in-use room temperature stability. Covers molecular mechanisms, biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

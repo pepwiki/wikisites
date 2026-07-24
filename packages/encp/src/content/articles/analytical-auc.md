@@ -1,6 +1,6 @@
 ---
-title: "AUC Analysis"
-description: "An analytical technique for characterizing peptides using AUC."
+title: "AUC Analysis: Analytical Technique in Peptide Research"
+description: "An analytical technique for characterizing peptides using AUC. This analytical technique provides valuable insights into peptide structure, purity, and chara..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

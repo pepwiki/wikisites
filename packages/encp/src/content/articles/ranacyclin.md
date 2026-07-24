@@ -1,6 +1,6 @@
 ---
-title: "Ranacyclin"
-description: "Cyclic AMP from Rana species with disulfide-stabilized structure."
+title: "Ranacyclin: Antimicrobial Peptide Reference"
+description: "Cyclic AMP from Rana species with disulfide-stabilized structure. This antimicrobial peptide demonstrates activity against pathogens and is studied for its m..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

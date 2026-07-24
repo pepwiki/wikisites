@@ -1,6 +1,6 @@
 ---
 title: "History of Peptide Vaccine Development"
-description: "Milestones in peptide vaccine technology from epitope mapping to neoantigen vaccines."
+description: "Milestones in peptide vaccine technology from epitope mapping to neoantigen vaccines. This peptide or oligopeptide is studied for its biological activity, st..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

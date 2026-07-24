@@ -1,6 +1,6 @@
 ---
-title: "Nafithromycin"
-description: "Comprehensive reference for Nafithromycin, a peptide compound with applications in research and therapeutics."
+title: "Nafithromycin: Oligopeptide Research Reference"
+description: "Nafithromycin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

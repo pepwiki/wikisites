@@ -1,6 +1,6 @@
 ---
-title: "Celery Peptide"
-description: "A bioactive peptide derived from celery with potential health benefits."
+title: "Celery Peptide: Oligopeptide Research Reference"
+description: "A bioactive peptide derived from celery with potential health benefits. This peptide or oligopeptide is studied for its biological activity, structure-activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

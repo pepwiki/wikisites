@@ -1,6 +1,6 @@
 ---
-title: "Ellman Purification"
-description: "A purification technique for separating and isolating peptides using Ellman."
+title: "Ellman Purification: Analytical Technique in Peptide Rese..."
+description: "A purification technique for separating and isolating peptides using Ellman. This analytical technique provides valuable insights into peptide structure, pur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

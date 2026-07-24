@@ -1,6 +1,6 @@
 ---
-title: "Dynorphin A 1-13"
-description: "Truncated dynorphin A with retained kappa-opioid selectivity."
+title: "Dynorphin A 1-13: Neuropeptide in Neuroscience Reference"
+description: "Truncated dynorphin A with retained kappa-opioid selectivity. This neuropeptide is involved in neurological signaling and is studied for its roles in brain f..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

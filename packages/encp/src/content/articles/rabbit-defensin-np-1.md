@@ -1,6 +1,6 @@
 ---
-title: "Rabbit Defensin NP-1"
-description: "Neutrophil defensin from rabbit with broad-spectrum bactericidal activity."
+title: "Rabbit Defensin NP-1: Antimicrobial Peptide Reference"
+description: "Neutrophil defensin from rabbit with broad-spectrum bactericidal activity. This antimicrobial peptide demonstrates activity against pathogens and is studied ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

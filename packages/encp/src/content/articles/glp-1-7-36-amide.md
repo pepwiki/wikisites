@@ -1,6 +1,6 @@
 ---
-title: "GLP-1(7-36)amide"
-description: "The primary bioactive form of GLP-1, a 30-amino acid peptide amide produced by intestinal L-cells."
+title: "GLP-1(7-36)amide: Peptide Family Reference"
+description: "The primary bioactive form of GLP-1, a 30-amino acid peptide amide produced by intestinal L-cells. This peptide or oligopeptide is studied for its biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

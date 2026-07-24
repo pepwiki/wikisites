@@ -1,6 +1,6 @@
 ---
-title: "V Cholerae Peptide"
-description: "A peptide associated with V Cholerae for research or therapeutic applications."
+title: "V Cholerae Peptide: Oligopeptide Research Reference"
+description: "A peptide associated with V Cholerae for research or therapeutic applications. This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

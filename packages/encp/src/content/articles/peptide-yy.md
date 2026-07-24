@@ -1,6 +1,6 @@
 ---
-title: "Peptide YY"
-description: "GI-derived neuropeptide suppressing appetite and slowing gastric emptying."
+title: "Peptide YY: Neuropeptide in Neuroscience Reference"
+description: "GI-derived neuropeptide suppressing appetite and slowing gastric emptying. This neuropeptide is involved in neurological signaling and is studied for its rol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

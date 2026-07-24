@@ -1,5 +1,5 @@
 ---
-title: "GLP-1 Receptor Biased Agonism"
+title: "GLP-1 Receptor Biased Agonism: Comprehensive Peptide Refe..."
 description: "Concept of biased agonism at the GLP-1 receptor where different ligands preferentially activate specific signaling pathways."
 status: "published"
 author: "Encyclopeptide Editorial"

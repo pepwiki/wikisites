@@ -1,6 +1,6 @@
 ---
-title: "Triturin"
-description: "triturin is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity."
+title: "Triturin: Antimicrobial Peptide Reference"
+description: "triturin is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity. This antimicrobial peptide demonstrates activity against..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

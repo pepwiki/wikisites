@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 Oral Bioavailability"
-description: "Strategies for oral delivery including permeation enhancers, enzyme inhibitors, and mucoadhesive formulations."
+title: "GLP-1 Oral Bioavailability: Comprehensive Peptide Reference"
+description: "Strategies for oral delivery including permeation enhancers, enzyme inhibitors, and mucoadhesive formulations. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Urodilatin Protein Hormone"
-description: "The Urodilatin Protein Hormone and its role in endocrine signaling."
+title: "Urodilatin Protein Hormone: Comprehensive Peptide Reference"
+description: "Urodilatin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

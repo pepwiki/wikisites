@@ -1,6 +1,6 @@
 ---
-title: "Homocystinuria"
-description: "CBS deficiency. Elevated homocysteine. Treatments: B6, betaine, low-methionine diet."
+title: "Homocystinuria: Oligopeptide Research Reference"
+description: "CBS deficiency. Elevated homocysteine. Treatments: B6, betaine, low-methionine diet. This peptide or oligopeptide is studied for its biological activity, str..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

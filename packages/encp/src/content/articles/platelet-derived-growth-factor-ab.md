@@ -1,6 +1,6 @@
 ---
 title: "Platelet Derived Growth Factor AB"
-description: "Reference for platelet derived growth factor AB in peptide research."
+description: "Comprehensive reference for platelet derived growth factor AB, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

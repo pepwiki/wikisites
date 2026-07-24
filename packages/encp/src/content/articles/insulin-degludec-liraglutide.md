@@ -1,6 +1,6 @@
 ---
-title: "Insulin Degludec/Liraglutide"
-description: "Fixed-ratio degludec/liraglutide. Basal insulin plus GLP-1 agonist."
+title: "Insulin Degludec/Liraglutide: Comprehensive Peptide Refer..."
+description: "Fixed-ratio degludec/liraglutide. Basal insulin plus GLP-1 agonist. This peptide or oligopeptide is studied for its biological activity, structure-activity r..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

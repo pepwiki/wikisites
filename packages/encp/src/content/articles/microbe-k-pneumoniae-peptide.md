@@ -1,6 +1,6 @@
 ---
-title: "K Pneumoniae Peptide"
-description: "A peptide associated with K Pneumoniae for research or therapeutic applications."
+title: "K Pneumoniae Peptide: Oligopeptide Research Reference"
+description: "A peptide associated with K Pneumoniae for research or therapeutic applications. This peptide or oligopeptide is studied for its biological activity, structu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

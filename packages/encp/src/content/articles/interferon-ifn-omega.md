@@ -1,6 +1,6 @@
 ---
-title: "Interferon IFN-omega"
-description: "Reference for interferon IFN-omega in peptide research."
+title: "Interferon IFN-omega: Oligopeptide Research Reference"
+description: "Comprehensive reference for interferon IFN-omega, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

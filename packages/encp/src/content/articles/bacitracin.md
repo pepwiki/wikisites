@@ -1,5 +1,5 @@
 ---
-title: "Bacitracin"
+title: "Bacitracin: Antimicrobial Peptide Reference"
 description: "bacitracin is a peptide antibiotic produced by bacteria with antimicrobial activity used in clinical and agricultural applications."
 status: "published"
 author: "Encyclopeptide Editorial"

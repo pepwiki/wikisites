@@ -1,6 +1,6 @@
 ---
-title: "Milestone 030"
-description: "2010: First peptide-drug conjugate (brentuximab vedotin) approved."
+title: "Milestone 030: Oligopeptide Research Reference"
+description: "2010: First peptide-drug conjugate (brentuximab vedotin) approved. This peptide or oligopeptide is studied for its biological activity, structure-activity re..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

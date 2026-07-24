@@ -1,6 +1,6 @@
 ---
-title: "Survodutide"
-description: "Dual glucagon/GLP-1 receptor agonist for obesity and metabolic dysfunction-associated steatohepatitis."
+title: "Survodutide: Oligopeptide Research Reference"
+description: "Dual glucagon/GLP-1 receptor agonist for obesity and metabolic dysfunction-associated steatohepatitis. This peptide or oligopeptide is studied for its biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

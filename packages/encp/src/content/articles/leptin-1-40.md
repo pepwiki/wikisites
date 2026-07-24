@@ -1,6 +1,6 @@
 ---
-title: "Leptin 1-40"
-description: "Reference for leptin 1-40 variant in peptide research."
+title: "Leptin 1-40: Peptide Fragment Reference"
+description: "Comprehensive reference for leptin 1-40 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

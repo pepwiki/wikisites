@@ -1,6 +1,6 @@
 ---
-title: "Cathelicidin KR-12"
-description: "Minimum active antimicrobial fragment of LL-37 with reduced cytotoxicity."
+title: "Cathelicidin KR-12: Antimicrobial Peptide Reference"
+description: "Minimum active antimicrobial fragment of LL-37 with reduced cytotoxicity. This antimicrobial peptide demonstrates activity against pathogens and is studied f..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

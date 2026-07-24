@@ -1,5 +1,5 @@
 ---
-title: "Formulation (5 processes)"
+title: "Formulation (5 processes): Comprehensive Peptide Reference"
 description: "Comprehensive reference for Formulation (5 processes), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

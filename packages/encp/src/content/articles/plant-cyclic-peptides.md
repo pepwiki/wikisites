@@ -1,6 +1,6 @@
 ---
-title: "Plant Cyclic Peptides"
-description: "Plant Cyclic Peptides is a bioactive compound with applications in peptide research and therapeutics."
+title: "Plant Cyclic Peptides: Oligopeptide Research Reference"
+description: "Plant Cyclic Peptides is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

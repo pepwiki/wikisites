@@ -1,6 +1,6 @@
 ---
-title: "Con-Insulin G1"
-description: "Evolutionary modified insulin from Conus geographus with novel receptor selectivity."
+title: "Con-Insulin G1: Peptide Toxin in Pharmacology Reference"
+description: "Evolutionary modified insulin from Conus geographus with novel receptor selectivity. This peptide toxin is derived from venom and studied for its pharmacolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

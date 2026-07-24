@@ -1,5 +1,5 @@
 ---
-title: "Feline Neutrophil Peptide"
+title: "Feline Neutrophil Peptide: Comprehensive Peptide Reference"
 description: "Comprehensive reference for Feline Neutrophil Peptide, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

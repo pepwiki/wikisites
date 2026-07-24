@@ -1,6 +1,6 @@
 ---
-title: "Neurotoxicity"
-description: "Nervous system damage caused by peptide drugs."
+title: "Neurotoxicity: Oligopeptide Research Reference"
+description: "Nervous system damage caused by peptide drugs. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and pot..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,5 +1,5 @@
 ---
-title: "Teicoplanin"
+title: "Teicoplanin: Antimicrobial Peptide Reference"
 description: "Glycopeptide antibiotic from Actinoplanes teichomyceticus with long half-life, used for gram-positive infections including MRSA."
 status: "published"
 author: "Encyclopeptide Editorial"

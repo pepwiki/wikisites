@@ -1,6 +1,6 @@
 ---
-title: "VIP Family Peptides"
-description: "Learn about vasoactive intestinal peptide and related peptides in vasodilation and immune regulation."
+title: "VIP Family Peptides: Oligopeptide Research Reference"
+description: "Learn about vasoactive intestinal peptide and related peptides in vasodilation and immune regulation. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

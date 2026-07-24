@@ -1,6 +1,6 @@
 ---
-title: "Analysis Technologies"
-description: "Techniques for peptide characterization"
+title: "Analysis Technologies: Oligopeptide Research Reference"
+description: "Techniques for peptide characterization. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

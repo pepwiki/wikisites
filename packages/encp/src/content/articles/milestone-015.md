@@ -1,6 +1,6 @@
 ---
-title: "Milestone 015"
-description: "2020: AlphaFold2 achieves near-experimental protein structure prediction. CASP14 winner."
+title: "Milestone 015: Oligopeptide Research Reference"
+description: "2020: AlphaFold2 achieves near-experimental protein structure prediction. CASP14 winner. This peptide or oligopeptide is studied for its biological activity,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

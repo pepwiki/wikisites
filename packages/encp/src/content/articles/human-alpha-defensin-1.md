@@ -1,6 +1,6 @@
 ---
-title: "Human Alpha-Defensin 1"
-description: "Neutrophil granule defensin with disulfide-stabilized structure for bactericidal activity."
+title: "Human Alpha-Defensin 1: Antimicrobial Peptide Reference"
+description: "Neutrophil granule defensin with disulfide-stabilized structure for bactericidal activity. This antimicrobial peptide demonstrates activity against pathogens..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

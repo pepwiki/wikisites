@@ -1,6 +1,6 @@
 ---
-title: "Calcitonin bovine-1-32"
-description: "Reference for calcitonin bovine-1-32 variant in peptide research."
+title: "Calcitonin bovine-1-32: Endogenous Peptide Hormone Reference"
+description: "Comprehensive reference for calcitonin bovine-1-32 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

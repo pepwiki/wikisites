@@ -1,6 +1,6 @@
 ---
-title: "Milestone 014"
-description: "2017: Semaglutide (Ozempic) approved for type 2 diabetes. Once-weekly GLP-1 agonist."
+title: "Milestone 014: Oligopeptide Research Reference"
+description: "2017: Semaglutide (Ozempic) approved for type 2 diabetes. Once-weekly GLP-1 agonist. This peptide or oligopeptide is studied for its biological activity, str..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

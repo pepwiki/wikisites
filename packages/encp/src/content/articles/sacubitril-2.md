@@ -1,5 +1,5 @@
 ---
-title: "Sacubitril"
+title: "Sacubitril: Oligopeptide Research Reference"
 description: "Neprilysin inhibitor prodrug that increases natriuretic peptide levels, used with valsartan for heart failure with reduced ejection fraction."
 status: "published"
 author: "Encyclopeptide Editorial"

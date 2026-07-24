@@ -1,6 +1,6 @@
 ---
 title: "Insulin Like Growth Factor 40-70"
-description: "Reference for insulin like growth factor 40-70 in peptide research."
+description: "Comprehensive reference for insulin like growth factor 40-70, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Tryptophan Peptide"
-description: "Tryptophan (W) is one of the 20 standard amino acids. It plays essential roles in protein structure and function."
+title: "Tryptophan Peptide: Oligopeptide Research Reference"
+description: "Tryptophan (W) is one of the 20 standard amino acids. It plays essential roles in protein structure and function. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "IL 4 Agonist"
-description: "Comprehensive reference for IL 4 agonist in peptide research."
+title: "IL 4 Agonist: Oligopeptide Research Reference"
+description: "IL 4 agonist in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

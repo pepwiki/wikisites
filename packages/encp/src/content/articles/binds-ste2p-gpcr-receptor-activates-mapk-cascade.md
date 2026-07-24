@@ -1,6 +1,6 @@
 ---
 title: "Binds Ste2p GPCR receptor, activates MAPK cascade"
-description: "Yeast mating peptides"
+description: "Yeast mating peptides. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

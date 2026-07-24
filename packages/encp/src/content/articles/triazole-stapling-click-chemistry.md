@@ -1,6 +1,6 @@
 ---
 title: "Triazole Stapling (Click Chemistry)"
-description: "Introduction of triazole cross-links using click chemistry. Stabilizes peptides."
+description: "Introduction of triazole cross-links using click chemistry. Stabilizes peptides. This peptide or oligopeptide is studied for its biological activity, structu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

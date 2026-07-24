@@ -1,6 +1,6 @@
 ---
-title: "Peptide diffraction"
-description: "Reference for peptide diffraction in peptide research."
+title: "Peptide diffraction: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide diffraction, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

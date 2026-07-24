@@ -1,6 +1,6 @@
 ---
-title: "Agricultural"
-description: "Agricultural is a bioactive compound with applications in peptide research and therapeutics."
+title: "Agricultural: Oligopeptide Research Reference"
+description: "Agricultural is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

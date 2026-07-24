@@ -1,6 +1,6 @@
 ---
-title: "Lysine Metabolism"
-description: "Metabolic pathways involving Lysine including biosynthesis, catabolism, and transamination."
+title: "Lysine Metabolism: Oligopeptide Research Reference"
+description: "Metabolic pathways involving Lysine including biosynthesis, catabolism, and transamination. This peptide or oligopeptide is studied for its biological activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

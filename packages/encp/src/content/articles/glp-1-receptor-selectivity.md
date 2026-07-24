@@ -1,6 +1,6 @@
 ---
 title: "GLP-1 Receptor Selectivity and Pharmacology"
-description: "Structural basis of GLP-1 receptor activation and selectivity over related incretin receptors."
+description: "Structural basis of GLP-1 receptor activation and selectivity over related incretin receptors. This peptide or oligopeptide is studied for its biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

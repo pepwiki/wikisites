@@ -1,6 +1,6 @@
 ---
-title: "Phenylketonuria"
-description: "PAH deficiency → elevated phenylalanine. Treatments: diet, pegvaliase, sapropterin."
+title: "Phenylketonuria: Oligopeptide Research Reference"
+description: "PAH deficiency → elevated phenylalanine. Treatments: diet, pegvaliase, sapropterin. This peptide or oligopeptide is studied for its biological activity, stru..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

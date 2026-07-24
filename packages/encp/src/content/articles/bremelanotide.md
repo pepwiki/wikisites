@@ -1,6 +1,6 @@
 ---
-title: "Bremelanotide"
-description: "Melanocortin MC4R agonist for hypoactive sexual desire disorder in premenopausal women."
+title: "Bremelanotide: Oligopeptide Research Reference"
+description: "Melanocortin MC4R agonist for hypoactive sexual desire disorder in premenopausal women. This peptide or oligopeptide is studied for its biological activity, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

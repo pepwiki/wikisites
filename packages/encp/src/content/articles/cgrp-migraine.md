@@ -1,6 +1,6 @@
 ---
-title: "CGRP in Migraine"
-description: "An analysis of the calcitonin gene-related peptide pathway in migraine pathophysiology, including monoclonal antibody therapies and small-molecule gepants targeting CGRP receptors."
+title: "CGRP in Migraine: Oligopeptide Research Reference"
+description: "An analysis of the calcitonin gene-related peptide pathway in migraine pathophysiology, including monoclonal antibody therapies and small-molecule gepants ta..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-08-10

@@ -1,6 +1,6 @@
 ---
-title: "Triptorelin"
-description: "Long-acting GnRH agonist with D-Trp substitution for profound gonadotropin suppression."
+title: "Triptorelin: Oligopeptide Research Reference"
+description: "Long-acting GnRH agonist with D-Trp substitution for profound gonadotropin suppression. This peptide or oligopeptide is studied for its biological activity, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

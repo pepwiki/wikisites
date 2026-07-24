@@ -1,6 +1,6 @@
 ---
-title: "Carnosine Analog"
-description: "Comprehensive reference for carnosine analog in peptide research."
+title: "Carnosine Analog: Oligopeptide Research Reference"
+description: "carnosine analog in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential ap..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

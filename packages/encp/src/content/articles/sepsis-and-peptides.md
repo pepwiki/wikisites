@@ -1,6 +1,6 @@
 ---
-title: "Sepsis and Peptides"
-description: "Explore antimicrobial and immunomodulatory peptides for managing sepsis and systemic inflammatory responses."
+title: "Sepsis and Peptides: Oligopeptide Research Reference"
+description: "Explore antimicrobial and immunomodulatory peptides for managing sepsis and systemic inflammatory responses. This peptide or oligopeptide is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

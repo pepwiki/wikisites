@@ -1,6 +1,6 @@
 ---
-title: "hs-TnT"
-description: "Cardiac-specific troponin T (298 aa) measured by high-sensitivity assay. Released from damaged cardiomyocytes. Normal: <14 ng/L. Acute MI: >14 ng/L with rise/fall pattern. Superior to CK-MB for ACS di"
+title: "hs-TnT: Oligopeptide Research Reference"
+description: "Cardiac-specific troponin T (298 aa) measured by high-sensitivity assay. Released from damaged cardiomyocytes. Normal: <14 ng/L. Acute MI: >14 ng/L with rise..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Cardiac-specific troponin T (298 aa) measured by high-sensitivity assay. Released from damaged cardiomyocytes. Normal: <14 ng/L. Acute MI: >14 ng/L with rise/fall pattern. Superior to CK-MB for ACS diagnosis. Detectable within 3-4 hours of injury.
+Cardiac-specific troponin T (298 aa) measured by high-sensitivity assay. Released from damaged cardiomyocytes. Normal: <14 ng/L. Acute MI: >14 ng/L with rise...agnosis. Detectable within 3-4 hours of injury.
 
 ## Clinical Significance
 

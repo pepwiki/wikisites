@@ -1,6 +1,6 @@
 ---
-title: "HA Tag Purification"
-description: "A purification technique for separating and isolating peptides using HA Tag."
+title: "HA Tag Purification: Analytical Technique in Peptide Rese..."
+description: "A purification technique for separating and isolating peptides using HA Tag. This analytical technique provides valuable insights into peptide structure, pur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

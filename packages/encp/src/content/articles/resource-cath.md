@@ -1,6 +1,6 @@
 ---
-title: "CATH Resource"
-description: "The CATH database or resource for peptide research, providing data on structure, function, and interactions."
+title: "CATH Resource: Oligopeptide Research Reference"
+description: "The CATH database or resource for peptide research, providing data on structure, function, and interactions. This peptide or oligopeptide is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

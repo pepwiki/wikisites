@@ -1,6 +1,6 @@
 ---
 title: "Alpha cobratoxin: Structure, Function, and Significance"
-description: "Alpha-cobratoxin is a potent postsynaptic neurotoxin from cobra venom that blocks nicotinic acetylcholine receptors."
+description: "Alpha-cobratoxin is a potent postsynaptic neurotoxin from cobra venom that blocks nicotinic acetylcholine receptors. Covers molecular mechanisms, biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

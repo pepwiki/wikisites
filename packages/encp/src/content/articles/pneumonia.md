@@ -1,6 +1,6 @@
 ---
-title: "Pneumonia"
-description: "Lung infection. Treatments: antibiotics based on pathogen."
+title: "Pneumonia: Oligopeptide Research Reference"
+description: "Lung infection. Treatments: antibiotics based on pathogen. This peptide or oligopeptide is studied for its biological activity, structure-activity relationsh..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

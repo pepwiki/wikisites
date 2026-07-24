@@ -1,6 +1,6 @@
 ---
-title: "Conopressin G"
-description: "conopressin-G is a conotoxin from cone snail venom with specific ion channel blocking properties."
+title: "Conopressin G: Peptide Toxin in Pharmacology Reference"
+description: "conopressin-G is a conotoxin from cone snail venom with specific ion channel blocking properties. This peptide toxin is derived from venom and studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

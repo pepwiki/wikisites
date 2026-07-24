@@ -1,6 +1,6 @@
 ---
-title: "Cancer Treatment"
-description: "Multimodal approach: surgery (local control), radiation therapy (local control), chemotherapy (systemic cytotoxic), targeted therapy (molecular targets), immunotherapy (immune activation), hormonal therapy (endocrine manipulation). Combination strategies based on tumor type, stage, and molecular profile."
+title: "Cancer Treatment: Oligopeptide Research Reference"
+description: "Multimodal approach: surgery (local control), radiation therapy (local control), chemotherapy (systemic cytotoxic), targeted therapy (molecular targets), imm..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Multimodal approach: surgery (local control), radiation therapy (local control), chemotherapy (systemic cytotoxic), targeted therapy (molecular targets), immunotherapy (immune activation), hormonal therapy (endocrine manipulation). Combination strategies based on tumor type, stage, and molecular profile.
+Multimodal approach: surgery (local control), radiation therapy (local control), chemotherapy (systemic cytotoxic), targeted therapy (molecular targets), imm...
 
 ## Clinical Significance
 

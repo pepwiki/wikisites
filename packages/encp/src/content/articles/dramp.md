@@ -1,6 +1,6 @@
 ---
-title: "DRAMP"
-description: "Database of Research on Antimicrobial Peptides."
+title: "DRAMP: Oligopeptide Research Reference"
+description: "Database of Research on Antimicrobial Peptides. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and po..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

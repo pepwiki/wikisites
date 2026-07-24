@@ -1,6 +1,6 @@
 ---
-title: "DSLET"
-description: "Delta-opioid selective enkephalin analog for pharmacological studies."
+title: "DSLET: Neuropeptide in Neuroscience Reference"
+description: "Delta-opioid selective enkephalin analog for pharmacological studies. This neuropeptide is involved in neurological signaling and is studied for its roles in..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

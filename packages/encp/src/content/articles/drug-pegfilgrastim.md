@@ -1,6 +1,6 @@
 ---
-title: "Pegfilgrastim"
-description: "Comprehensive reference for pegfilgrastim in peptide research."
+title: "Pegfilgrastim: Oligopeptide Research Reference"
+description: "pegfilgrastim in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appli..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

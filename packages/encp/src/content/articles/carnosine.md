@@ -1,6 +1,6 @@
 ---
-title: "Carnosine"
-description: "Carnosine is a naturally occurring dipeptide composed of beta-alanine and L-histidine, functioning as an intracellular pH buffer, antioxidant, and anti-glycation agent in muscle and brain tissue."
+title: "Carnosine: Short Peptide in Biochemistry Reference"
+description: "Carnosine is a naturally occurring dipeptide composed of beta-alanine and L-histidine, functioning as an intracellular pH buffer, antioxidant, and anti-glyca..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-03-15

@@ -1,6 +1,6 @@
 ---
 title: "Peptide Drug Future Perspectives"
-description: "Emerging trends and future directions in peptide drug development."
+description: "Emerging trends and future directions in peptide drug development. This peptide or oligopeptide is studied for its biological activity, structure-activity re..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

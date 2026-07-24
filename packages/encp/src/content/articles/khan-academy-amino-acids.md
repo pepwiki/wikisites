@@ -1,6 +1,6 @@
 ---
-title: "Khan Academy Amino Acids"
-description: "Educational resource on amino acids and protein structure."
+title: "Khan Academy Amino Acids: Oligopeptide Research Reference"
+description: "Educational resource on amino acids and protein structure. This peptide or oligopeptide is studied for its biological activity, structure-activity relationsh..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

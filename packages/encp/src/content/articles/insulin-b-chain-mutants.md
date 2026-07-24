@@ -1,6 +1,6 @@
 ---
-title: "Insulin B-Chain Mutants"
-description: "Engineered insulin B-chain variants used to study self-association, receptor binding, and pharmacokinetic optimization."
+title: "Insulin B-Chain Mutants: Peptide Family Reference"
+description: "Engineered insulin B-chain variants used to study self-association, receptor binding, and pharmacokinetic optimization. Covers molecular mechanisms, biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

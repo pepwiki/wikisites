@@ -1,6 +1,6 @@
 ---
-title: "Jingzhaotoxin I"
-description: "Jingzhaotoxin-I is a spider venom peptide with specific ion channel or receptor blocking properties."
+title: "Jingzhaotoxin I: Peptide Toxin in Pharmacology Reference"
+description: "Jingzhaotoxin-I is a spider venom peptide with specific ion channel or receptor blocking properties. This peptide toxin is derived from venom and studied for..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

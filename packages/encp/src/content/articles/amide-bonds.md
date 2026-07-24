@@ -1,6 +1,6 @@
 ---
-title: "Amide Bonds in Peptides"
-description: "Guide to amide bond chemistry, the fundamental linkage in peptide and protein structures."
+title: "Amide Bonds in Peptides: Post-Translational Modification ..."
+description: "Guide to amide bond chemistry, the fundamental linkage in peptide and protein structures. This modification affects peptide stability, receptor binding, and ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

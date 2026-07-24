@@ -1,5 +1,5 @@
 ---
-title: "Bleomycin"
+title: "Bleomycin: Oligopeptide Research Reference"
 description: "Glycopeptide antibiotic used as a chemotherapeutic agent that induces DNA strand breaks via metal-dependent oxidative cleavage."
 status: "published"
 author: "Encyclopeptide Editorial"

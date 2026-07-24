@@ -1,6 +1,6 @@
 ---
-title: "TNF Beta Peptide Hormone"
-description: "The TNF Beta Peptide Hormone and its role in endocrine signaling."
+title: "TNF Beta Peptide Hormone: Endogenous Peptide Hormone Refe..."
+description: "TNF Beta, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

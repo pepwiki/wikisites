@@ -1,6 +1,6 @@
 ---
-title: "Adipokinetic Hormone"
-description: "Comprehensive reference for Adipokinetic Hormone, a peptide compound with applications in research and therapeutics."
+title: "Adipokinetic Hormone: Oligopeptide Research Reference"
+description: "Adipokinetic Hormone, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

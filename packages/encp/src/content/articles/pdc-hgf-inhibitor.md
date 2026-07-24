@@ -1,6 +1,6 @@
 ---
-title: "HGF Inhibitor PDC"
-description: "A peptide-drug conjugate targeting HGF Inhibitor for selective drug delivery."
+title: "HGF Inhibitor PDC: Oligopeptide Research Reference"
+description: "A peptide-drug conjugate targeting HGF Inhibitor for selective drug delivery. This peptide or oligopeptide is studied for its biological activity, structure-..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

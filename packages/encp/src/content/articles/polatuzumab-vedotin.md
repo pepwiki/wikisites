@@ -1,6 +1,6 @@
 ---
-title: "Polatuzumab Vedotin"
-description: "Anti-CD79b antibody-drug conjugate with MMAE payload for relapsed or refractory diffuse large B-cell lymphoma."
+title: "Polatuzumab Vedotin: Oligopeptide Research Reference"
+description: "Anti-CD79b antibody-drug conjugate with MMAE payload for relapsed or refractory diffuse large B-cell lymphoma. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

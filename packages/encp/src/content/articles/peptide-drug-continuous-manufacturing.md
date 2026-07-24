@@ -1,6 +1,6 @@
 ---
 title: "Peptide Drug Continuous Manufacturing"
-description: "Transition from batch to continuous manufacturing for peptide drugs."
+description: "Transition from batch to continuous manufacturing for peptide drugs. This peptide or oligopeptide is studied for its biological activity, structure-activity ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

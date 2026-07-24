@@ -1,6 +1,6 @@
 ---
-title: "Hepatotoxicity"
-description: "Liver damage caused by peptide drugs."
+title: "Hepatotoxicity: Oligopeptide Research Reference"
+description: "Liver damage caused by peptide drugs. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential ap..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

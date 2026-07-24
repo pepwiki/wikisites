@@ -1,6 +1,6 @@
 ---
-title: "Mu Conotoxin GIIIB"
-description: "mu-conotoxin-GIIIB is a conotoxin from cone snail venom with specific ion channel blocking properties."
+title: "Mu Conotoxin GIIIB: Peptide Toxin in Pharmacology Reference"
+description: "mu-conotoxin-GIIIB is a conotoxin from cone snail venom with specific ion channel blocking properties. This peptide or oligopeptide is studied for its biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

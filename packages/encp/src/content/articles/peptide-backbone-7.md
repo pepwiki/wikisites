@@ -1,6 +1,6 @@
 ---
-title: "Peptide Backbone 7"
-description: "Backbone conformation 7 with specific phi/psi angles in protein structure."
+title: "Peptide Backbone 7: Oligopeptide Research Reference"
+description: "Backbone conformation 7 with specific phi/psi angles in protein structure. This peptide or oligopeptide is studied for its biological activity, structure-act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

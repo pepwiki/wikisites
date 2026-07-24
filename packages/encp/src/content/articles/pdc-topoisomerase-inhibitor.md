@@ -1,6 +1,6 @@
 ---
-title: "Topoisomerase Inhibitor PDC"
-description: "A peptide-drug conjugate targeting Topoisomerase Inhibitor for selective drug delivery."
+title: "Topoisomerase Inhibitor PDC: Comprehensive Peptide Reference"
+description: "A peptide-drug conjugate targeting Topoisomerase Inhibitor for selective drug delivery. This peptide or oligopeptide is studied for its biological activity, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

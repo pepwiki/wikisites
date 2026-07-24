@@ -1,6 +1,6 @@
 ---
-title: "Neuropeptide B/W family"
-description: "ID"
+title: "Neuropeptide B/W family: Neuropeptide in Neuroscience Ref..."
+description: "ID. This neuropeptide is involved in neurological signaling and is studied for its roles in brain function, behavior regulation, and potential therapeutic ap..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

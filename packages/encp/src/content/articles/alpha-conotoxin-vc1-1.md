@@ -1,6 +1,6 @@
 ---
-title: "Alpha Conotoxin Vc1.1"
-description: "alpha-conotoxin-Vc1.1 is a conotoxin from cone snail venom with specific ion channel blocking properties."
+title: "Alpha Conotoxin Vc1.1: Peptide Toxin in Pharmacology Refe..."
+description: "alpha-conotoxin-Vc1.1 is a conotoxin from cone snail venom with specific ion channel blocking properties. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

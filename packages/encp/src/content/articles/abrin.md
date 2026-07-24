@@ -1,6 +1,6 @@
 ---
-title: "Abrin"
-description: "Abrin is a highly toxic ribosome-inactivating protein from jequirity beans (Abrus precatorius) that inhibits protein synthesis, closely related to ricin in structure and mechanism."
+title: "Abrin: Peptide Toxin in Pharmacology Reference"
+description: "Abrin is a highly toxic ribosome-inactivating protein from jequirity beans (Abrus precatorius) that inhibits protein synthesis, closely related to ricin in s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-08-05

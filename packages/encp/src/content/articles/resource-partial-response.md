@@ -1,5 +1,5 @@
 ---
-title: "partial-response Resource"
+title: "partial-response Resource: Comprehensive Peptide Reference"
 description: "The partial-response database or resource for peptide research, providing data on structure, function, and interactions."
 status: "published"
 author: "Encyclopeptide Editorial"

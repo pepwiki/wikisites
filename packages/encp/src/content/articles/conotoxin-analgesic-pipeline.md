@@ -1,6 +1,6 @@
 ---
-title: "Conotoxin Analgesic Pipeline"
-description: "Clinical pipeline of next-generation conotoxin analgesics."
+title: "Conotoxin Analgesic Pipeline: Comprehensive Peptide Refer..."
+description: "Clinical pipeline of next-generation conotoxin analgesics. This peptide toxin is derived from venom and studied for its pharmacological activity, mechanism o..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

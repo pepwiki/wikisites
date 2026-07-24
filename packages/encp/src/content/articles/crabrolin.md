@@ -1,6 +1,6 @@
 ---
-title: "Crabrolin"
-description: "Comprehensive reference for Crabrolin, a peptide compound with applications in research and therapeutics."
+title: "Crabrolin: Peptide Toxin in Pharmacology Reference"
+description: "Crabrolin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

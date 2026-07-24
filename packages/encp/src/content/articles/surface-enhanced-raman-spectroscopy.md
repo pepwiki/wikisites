@@ -1,6 +1,6 @@
 ---
 title: "Surface-Enhanced Raman for Peptides"
-description: "Explore SERS techniques for ultrasensitive peptide detection using metallic nanostructure signal enhancement."
+description: "Explore SERS techniques for ultrasensitive peptide detection using metallic nanostructure signal enhancement. This peptide or oligopeptide is studied for its..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

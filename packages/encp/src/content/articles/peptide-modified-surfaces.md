@@ -1,6 +1,6 @@
 ---
-title: "Peptide-Modified Surfaces"
-description: "Biomaterial functionalization with adhesive peptides enhances cell adhesion and biocompatibility, enabling implant coatings that promote tissue integration and reduce immune rejection."
+title: "Peptide-Modified Surfaces: Comprehensive Peptide Reference"
+description: "Biomaterial functionalization with adhesive peptides enhances cell adhesion and biocompatibility, enabling implant coatings that promote tissue integration a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-02-10

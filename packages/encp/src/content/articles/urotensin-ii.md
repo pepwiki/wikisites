@@ -1,6 +1,6 @@
 ---
-title: "Urotensin II"
-description: "Cyclic 11-amino acid peptide that activates the UT receptor, considered the most potent mammalian vasoconstrictor."
+title: "Urotensin II: Oligopeptide Research Reference"
+description: "Cyclic 11-amino acid peptide that activates the UT receptor, considered the most potent mammalian vasoconstrictor. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

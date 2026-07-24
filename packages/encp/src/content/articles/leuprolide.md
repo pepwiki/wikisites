@@ -1,6 +1,6 @@
 ---
-title: "Leuprolide"
-description: "GnRH agonist. Prostate cancer, endometriosis."
+title: "Leuprolide: Oligopeptide Research Reference"
+description: "GnRH agonist. Prostate cancer, endometriosis. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and pote..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

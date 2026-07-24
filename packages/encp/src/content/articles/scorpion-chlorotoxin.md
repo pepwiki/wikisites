@@ -1,6 +1,6 @@
 ---
-title: "Scorpion Chlorotoxin"
-description: "Scorpion venom peptide binding matrix metalloproteinase-2 on glioma cells."
+title: "Scorpion Chlorotoxin: Peptide Toxin in Pharmacology Refer..."
+description: "Scorpion venom peptide binding matrix metalloproteinase-2 on glioma cells. This peptide toxin is derived from venom and studied for its pharmacological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

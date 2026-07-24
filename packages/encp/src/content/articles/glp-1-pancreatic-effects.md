@@ -1,6 +1,6 @@
 ---
 title: "GLP-1 Agonist Pancreatic Effects"
-description: "Effects of GLP-1 receptor agonists on pancreatic beta cell function, insulin secretion, and glucagon suppression."
+description: "Effects of GLP-1 receptor agonists on pancreatic beta cell function, insulin secretion, and glucagon suppression. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Leptin Peptide Hormone"
-description: "The Leptin Peptide Hormone and its role in endocrine signaling."
+title: "Leptin Peptide Hormone: Endogenous Peptide Hormone Reference"
+description: "Leptin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical sig..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

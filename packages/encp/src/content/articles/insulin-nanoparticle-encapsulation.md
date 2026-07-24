@@ -1,6 +1,6 @@
 ---
 title: "Insulin Nanoparticle Encapsulation"
-description: "Biodegradable nanoparticle encapsulation of insulin for oral bioavailability protection in GI tract."
+description: "Biodegradable nanoparticle encapsulation of insulin for oral bioavailability protection in GI tract. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,5 +1,5 @@
 ---
-title: "Cancer Immunotherapy Peptides: Neoantigen Vaccines and Checkpoint Modulators"
+title: "Cancer Immunotherapy Peptides: Neoantigen Vaccines and Ch..."
 description: "Explore peptide-based cancer immunotherapy approaches including personalized neoantigen vaccines and checkpoint inhibitor peptidomimetics."
 status: "published"
 author: "Encyclopeptide Editorial"

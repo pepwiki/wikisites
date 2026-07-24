@@ -1,6 +1,6 @@
 ---
-title: "Enteric Defensin HD5"
-description: "Paneth cell defensin critical for intestinal stem cell niche and microbiome composition."
+title: "Enteric Defensin HD5: Antimicrobial Peptide Reference"
+description: "Paneth cell defensin critical for intestinal stem cell niche and microbiome composition. This antimicrobial peptide demonstrates activity against pathogens a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

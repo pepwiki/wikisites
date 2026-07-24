@@ -1,6 +1,6 @@
 ---
-title: "µg-mg"
-description: "Medium"
+title: "µg-mg: Oligopeptide Research Reference"
+description: "Medium. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in biomedical resea..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

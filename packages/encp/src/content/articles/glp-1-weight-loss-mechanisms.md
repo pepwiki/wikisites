@@ -1,6 +1,6 @@
 ---
 title: "GLP-1 Agonist Weight Loss Mechanisms"
-description: "Multifaceted mechanisms by which GLP-1 receptor agonists induce weight loss including central appetite suppression."
+description: "Multifaceted mechanisms by which GLP-1 receptor agonists induce weight loss including central appetite suppression. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

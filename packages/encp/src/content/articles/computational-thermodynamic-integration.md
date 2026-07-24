@@ -1,6 +1,6 @@
 ---
 title: "Thermodynamic Integration for Peptides"
-description: "A computational method for studying peptides using Thermodynamic Integration."
+description: "A computational method for studying peptides using Thermodynamic Integration. This analytical technique provides valuable insights into peptide structure, pu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

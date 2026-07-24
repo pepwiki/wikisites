@@ -1,6 +1,6 @@
 ---
-title: "Exosome Peptide Delivery"
-description: "Understand exosome-based nanocarriers for delivering therapeutic peptides across biological barriers."
+title: "Exosome Peptide Delivery: Oligopeptide Research Reference"
+description: "Understand exosome-based nanocarriers for delivering therapeutic peptides across biological barriers. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

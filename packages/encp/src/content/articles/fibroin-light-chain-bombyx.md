@@ -1,5 +1,5 @@
 ---
-title: "Fibroin Light Chain (Bombyx)"
+title: "Fibroin Light Chain (Bombyx): Comprehensive Peptide Refer..."
 description: "Comprehensive reference for Fibroin Light Chain (Bombyx), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

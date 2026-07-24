@@ -1,6 +1,6 @@
 ---
 title: "Hydroxylamine Cleavage Purification"
-description: "A purification technique for separating and isolating peptides using Hydroxylamine Cleavage."
+description: "A purification technique for separating and isolating peptides using Hydroxylamine Cleavage. This analytical technique provides valuable insights into peptid..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

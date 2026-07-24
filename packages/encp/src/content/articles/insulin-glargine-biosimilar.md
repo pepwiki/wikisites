@@ -1,5 +1,5 @@
 ---
-title: "Insulin Glargine Biosimilar"
+title: "Insulin Glargine Biosimilar: Comprehensive Peptide Reference"
 description: "Biosimilar interchangeable form of insulin glargine with identical amino acid sequence and equivalent pharmacokinetic profile."
 status: "published"
 author: "Encyclopeptide Editorial"

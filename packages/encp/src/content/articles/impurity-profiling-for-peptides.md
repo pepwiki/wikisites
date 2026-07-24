@@ -1,6 +1,6 @@
 ---
 title: "Impurity Profiling for Peptides"
-description: "Learn strategies for identifying, characterizing, and controlling impurities in peptide drug substances and products."
+description: "Learn strategies for identifying, characterizing, and controlling impurities in peptide drug substances and products. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

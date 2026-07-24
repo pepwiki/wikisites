@@ -1,6 +1,6 @@
 ---
-title: "Electrophoretic Synthesis"
-description: "A peptide synthesis method using Electrophoretic for producing peptides with specific properties."
+title: "Electrophoretic Synthesis: Comprehensive Peptide Reference"
+description: "A peptide synthesis method using Electrophoretic for producing peptides with specific properties. This analytical technique provides valuable insights into p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

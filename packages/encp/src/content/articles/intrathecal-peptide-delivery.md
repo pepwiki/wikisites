@@ -1,6 +1,6 @@
 ---
-title: "Intrathecal Peptide Delivery"
-description: "Explore intrathecal injection methods for delivering peptides directly into the cerebrospinal fluid."
+title: "Intrathecal Peptide Delivery: Comprehensive Peptide Refer..."
+description: "Explore intrathecal injection methods for delivering peptides directly into the cerebrospinal fluid. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

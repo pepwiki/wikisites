@@ -1,6 +1,6 @@
 ---
-title: "Hepatitis and Peptides"
-description: "Discover peptide antiviral approaches for hepatitis B and C treatment including direct-acting peptide inhibitors."
+title: "Hepatitis and Peptides: Oligopeptide Research Reference"
+description: "Discover peptide antiviral approaches for hepatitis B and C treatment including direct-acting peptide inhibitors. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

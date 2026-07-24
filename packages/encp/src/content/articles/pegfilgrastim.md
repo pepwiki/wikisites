@@ -1,6 +1,6 @@
 ---
-title: "Pegfilgrastim"
-description: "PEGylated filgrastim with extended half-life for single-dose chemotherapy-induced neutropenia prevention."
+title: "Pegfilgrastim: Oligopeptide Research Reference"
+description: "PEGylated filgrastim with extended half-life for single-dose chemotherapy-induced neutropenia prevention. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

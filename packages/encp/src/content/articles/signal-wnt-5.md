@@ -1,5 +1,5 @@
 ---
-title: "Wnt Pathway Peptide 5"
+title: "Wnt Pathway Peptide 5: Oligopeptide Research Reference"
 description: "A peptide involved in the Wnt signal transduction pathway, playing roles in cell proliferation, differentiation, or survival."
 status: "published"
 author: "Encyclopeptide Editorial"

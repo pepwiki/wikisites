@@ -1,6 +1,6 @@
 ---
-title: "Ghrelin 1-10"
-description: "Reference for ghrelin 1-10 variant in peptide research."
+title: "Ghrelin 1-10: Peptide Fragment Reference"
+description: "Comprehensive reference for ghrelin 1-10 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

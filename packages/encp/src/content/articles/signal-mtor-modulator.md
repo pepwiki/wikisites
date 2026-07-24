@@ -1,6 +1,6 @@
 ---
-title: "MTOR Modulator"
-description: "Comprehensive reference for mTOR modulator in peptide research."
+title: "MTOR Modulator: Oligopeptide Research Reference"
+description: "mTOR modulator in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appl..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

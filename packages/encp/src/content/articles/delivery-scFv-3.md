@@ -1,6 +1,6 @@
 ---
-title: "ScFv System 3"
-description: "A scFv-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy."
+title: "ScFv System 3: Oligopeptide Research Reference"
+description: "A scFv-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

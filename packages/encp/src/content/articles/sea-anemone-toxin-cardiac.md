@@ -1,6 +1,6 @@
 ---
-title: "Sea Anemone Toxin Cardiac"
-description: "Cardiac effects and therapeutic potential of sea anemone toxins."
+title: "Sea Anemone Toxin Cardiac: Comprehensive Peptide Reference"
+description: "Cardiac effects and therapeutic potential of sea anemone toxins. This peptide toxin is derived from venom and studied for its pharmacological activity, mecha..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Enteric Coating for Peptides"
-description: "Explore enteric polymer coatings that protect oral peptides from gastric degradation in the stomach."
+title: "Enteric Coating for Peptides: Comprehensive Peptide Refer..."
+description: "Explore enteric polymer coatings that protect oral peptides from gastric degradation in the stomach. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

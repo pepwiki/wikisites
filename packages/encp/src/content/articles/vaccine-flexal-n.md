@@ -1,6 +1,6 @@
 ---
-title: "Flexal N Vaccine"
-description: "A peptide vaccine targeting Flexal N for infectious disease prevention."
+title: "Flexal N Vaccine: Oligopeptide Research Reference"
+description: "A peptide vaccine targeting Flexal N for infectious disease prevention. This peptide or oligopeptide is studied for its biological activity, structure-activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

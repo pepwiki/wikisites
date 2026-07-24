@@ -1,6 +1,6 @@
 ---
 title: "Defensin Medical Device Coatings"
-description: "Surface coatings with defensin peptides for infection prevention on medical devices."
+description: "Surface coatings with defensin peptides for infection prevention on medical devices. This antimicrobial peptide demonstrates activity against pathogens and i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

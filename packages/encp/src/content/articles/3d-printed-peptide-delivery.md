@@ -1,6 +1,6 @@
 ---
-title: "3D-Printed Peptide Delivery"
-description: "Explore additive manufacturing of personalized peptide drug delivery devices with complex release profiles."
+title: "3D-Printed Peptide Delivery: Comprehensive Peptide Reference"
+description: "Explore additive manufacturing of personalized peptide drug delivery devices with complex release profiles. This peptide or oligopeptide is studied for its b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

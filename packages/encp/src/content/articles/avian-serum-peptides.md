@@ -1,6 +1,6 @@
 ---
-title: "Avian Serum Peptides"
-description: "Comprehensive reference for Avian Serum Peptides, a peptide compound with applications in research and therapeutics."
+title: "Avian Serum Peptides: Oligopeptide Research Reference"
+description: "Avian Serum Peptides, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

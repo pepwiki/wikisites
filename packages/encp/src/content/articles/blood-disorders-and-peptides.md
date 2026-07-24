@@ -1,6 +1,6 @@
 ---
-title: "Blood Disorders and Peptides"
-description: "Learn about peptide-based treatments for hematological conditions including thrombocytopenia and anemia."
+title: "Blood Disorders and Peptides: Comprehensive Peptide Refer..."
+description: "Learn about peptide-based treatments for hematological conditions including thrombocytopenia and anemia. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

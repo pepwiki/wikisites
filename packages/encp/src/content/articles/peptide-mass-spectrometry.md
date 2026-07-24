@@ -1,6 +1,6 @@
 ---
-title: "Peptide mass spectrometry"
-description: "Reference for peptide mass spectrometry in peptide research."
+title: "Peptide mass spectrometry: Comprehensive Peptide Reference"
+description: "Comprehensive reference for peptide mass spectrometry, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

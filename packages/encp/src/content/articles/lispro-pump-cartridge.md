@@ -1,6 +1,6 @@
 ---
-title: "Lispro Pump Cartridge"
-description: "Preservative-free insulin lispro formulated for pump cartridges with stability at 37 degrees Celsius for 48 hours."
+title: "Lispro Pump Cartridge: Oligopeptide Research Reference"
+description: "Preservative-free insulin lispro formulated for pump cartridges with stability at 37 degrees Celsius for 48 hours. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

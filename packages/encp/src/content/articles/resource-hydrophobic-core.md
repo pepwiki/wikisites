@@ -1,5 +1,5 @@
 ---
-title: "hydrophobic-core Resource"
+title: "hydrophobic-core Resource: Comprehensive Peptide Reference"
 description: "The hydrophobic-core database or resource for peptide research, providing data on structure, function, and interactions."
 status: "published"
 author: "Encyclopeptide Editorial"

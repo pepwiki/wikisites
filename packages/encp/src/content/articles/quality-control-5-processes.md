@@ -1,5 +1,5 @@
 ---
-title: "Quality Control (5 processes)"
+title: "Quality Control (5 processes): Comprehensive Peptide Refe..."
 description: "Comprehensive reference for Quality Control (5 processes), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

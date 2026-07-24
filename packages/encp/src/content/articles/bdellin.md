@@ -1,6 +1,6 @@
 ---
-title: "Bdellin"
-description: "Comprehensive reference for Bdellin, a peptide compound with applications in research and therapeutics."
+title: "Bdellin: Oligopeptide Research Reference"
+description: "Bdellin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

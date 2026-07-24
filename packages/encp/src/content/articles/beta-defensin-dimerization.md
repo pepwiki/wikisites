@@ -1,6 +1,6 @@
 ---
-title: "Beta-Defensin Dimerization"
-description: "Homodimer formation enhancing antimicrobial potency through avidity effects."
+title: "Beta-Defensin Dimerization: Comprehensive Peptide Reference"
+description: "Homodimer formation enhancing antimicrobial potency through avidity effects. This antimicrobial peptide demonstrates activity against pathogens and is studie..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

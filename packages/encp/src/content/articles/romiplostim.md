@@ -1,5 +1,5 @@
 ---
-title: "Romiplostim"
+title: "Romiplostim: Oligopeptide Research Reference"
 description: "Thrombopoietin receptor agonist peptibody for immune thrombocytopenia, stimulating platelet production through TPO receptor activation."
 status: "published"
 author: "Encyclopeptide Editorial"

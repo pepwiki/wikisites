@@ -1,5 +1,5 @@
 ---
-title: "Peptide YY"
+title: "Peptide YY: Endogenous Peptide Hormone Reference"
 description: "36-amino acid gut hormone released postprandially that suppresses appetite and slows gastric emptying through Y2 receptor signaling."
 status: "published"
 author: "Encyclopeptide Editorial"

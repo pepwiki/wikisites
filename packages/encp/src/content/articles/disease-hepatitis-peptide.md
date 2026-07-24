@@ -1,6 +1,6 @@
 ---
-title: "Hepatitis Peptides"
-description: "Peptides associated with Hepatitis including biomarkers, therapeutic targets, and diagnostic markers."
+title: "Hepatitis Peptides: Oligopeptide Research Reference"
+description: "Peptides associated with Hepatitis including biomarkers, therapeutic targets, and diagnostic markers. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Growth Disorders and Peptides"
-description: "Explore growth hormone and IGF-1 peptide therapies for treating growth hormone deficiency and dwarfism."
+title: "Growth Disorders and Peptides: Comprehensive Peptide Refe..."
+description: "Explore growth hormone and IGF-1 peptide therapies for treating growth hormone deficiency and dwarfism. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

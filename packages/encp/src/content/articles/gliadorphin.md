@@ -1,6 +1,6 @@
 ---
-title: "Gliadorphin"
-description: "Opioid peptide derived from wheat gluten (gliadin). Sequence: Tyr-Pro-Gln-Pro-Gln. Found in gluten digests. May cross blood-brain barrier and affect neurotransmission. Potential role in schizophrenia "
+title: "Gliadorphin: Oligopeptide Research Reference"
+description: "Opioid peptide derived from wheat gluten (gliadin). Sequence: Tyr-Pro-Gln-Pro-Gln. Found in gluten digests. May cross blood-brain barrier and affect neurotra..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Opioid peptide derived from wheat gluten (gliadin). Sequence: Tyr-Pro-Gln-Pro-Gln. Found in gluten digests. May cross blood-brain barrier and affect neurotransmission. Potential role in schizophrenia and autism spectrum disorders.
+Opioid peptide derived from wheat gluten (gliadin). Sequence: Tyr-Pro-Gln-Pro-Gln. Found in gluten digests. May cross blood-brain barrier and affect neurotra...and autism spectrum disorders.
 
 ## Clinical Significance
 

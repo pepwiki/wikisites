@@ -1,6 +1,6 @@
 ---
-title: "Pasireotide"
-description: "Somatostatin analog with high sst5 affinity for Cushing disease and acromegaly."
+title: "Pasireotide: Oligopeptide Research Reference"
+description: "Somatostatin analog with high sst5 affinity for Cushing disease and acromegaly. This peptide or oligopeptide is studied for its biological activity, structur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

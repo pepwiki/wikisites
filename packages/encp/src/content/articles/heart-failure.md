@@ -1,6 +1,6 @@
 ---
-title: "Heart Failure"
-description: "Cardiac impairment syndrome. HFrEF, HFpEF, HFmrEF. Treatments: ACEi/ARB/ARNI, beta-blockers, MRA, SGLT2i, devices."
+title: "Heart Failure: Oligopeptide Research Reference"
+description: "Cardiac impairment syndrome. HFrEF, HFpEF, HFmrEF. Treatments: ACEi/ARB/ARNI, beta-blockers, MRA, SGLT2i, devices. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

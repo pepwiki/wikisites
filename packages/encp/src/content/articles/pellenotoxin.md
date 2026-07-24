@@ -1,6 +1,6 @@
 ---
-title: "Pellenotoxin"
-description: "pellenotoxin is a spider venom peptide with specific ion channel or receptor blocking properties."
+title: "Pellenotoxin: Peptide Toxin in Pharmacology Reference"
+description: "pellenotoxin is a spider venom peptide with specific ion channel or receptor blocking properties. This peptide toxin is derived from venom and studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

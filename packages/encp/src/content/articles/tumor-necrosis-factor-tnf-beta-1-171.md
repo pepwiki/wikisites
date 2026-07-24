@@ -1,6 +1,6 @@
 ---
 title: "Tumor Necrosis Factor TNF-beta-1-171"
-description: "Reference for tumor necrosis factor TNF-beta-1-171 in peptide research."
+description: "Comprehensive reference for tumor necrosis factor TNF-beta-1-171, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

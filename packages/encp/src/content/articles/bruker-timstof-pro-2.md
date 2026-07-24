@@ -1,6 +1,6 @@
 ---
-title: "Bruker timsTOF Pro 2"
-description: "Trapped ion mobility TOF mass spectrometer. High-resolution proteomics."
+title: "Bruker timsTOF Pro 2: Oligopeptide Research Reference"
+description: "Trapped ion mobility TOF mass spectrometer. High-resolution proteomics. This peptide or oligopeptide is studied for its biological activity, structure-activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

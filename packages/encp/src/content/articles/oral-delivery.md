@@ -1,6 +1,6 @@
 ---
-title: "Oral Delivery"
-description: "Delivering peptides orally despite GI degradation challenges."
+title: "Oral Delivery: Oligopeptide Research Reference"
+description: "Delivering peptides orally despite GI degradation challenges. This peptide or oligopeptide is studied for its biological activity, structure-activity relatio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

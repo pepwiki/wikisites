@@ -1,6 +1,6 @@
 ---
-title: "Fish Beta-Defensin"
-description: "Mucosal defensin in fish skin and gills for aquatic innate immunity."
+title: "Fish Beta-Defensin: Antimicrobial Peptide Reference"
+description: "Mucosal defensin in fish skin and gills for aquatic innate immunity. This antimicrobial peptide demonstrates activity against pathogens and is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

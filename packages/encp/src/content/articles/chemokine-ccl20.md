@@ -1,6 +1,6 @@
 ---
-title: "Chemokine CCL20"
-description: "Reference for chemokine CCL20 in peptide research."
+title: "Chemokine CCL20: Oligopeptide Research Reference"
+description: "Comprehensive reference for chemokine CCL20, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

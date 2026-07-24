@@ -1,6 +1,6 @@
 ---
 title: "Peptide Drug Cleaning Validation"
-description: "Validation of cleaning procedures for peptide manufacturing equipment to prevent cross-contamination."
+description: "Validation of cleaning procedures for peptide manufacturing equipment to prevent cross-contamination. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

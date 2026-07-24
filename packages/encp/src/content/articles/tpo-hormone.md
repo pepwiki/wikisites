@@ -1,6 +1,6 @@
 ---
-title: "TPO Hormone"
-description: "The TPO Hormone and its role in endocrine signaling."
+title: "TPO Hormone: Endogenous Peptide Hormone Reference"
+description: "TPO, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical signif..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

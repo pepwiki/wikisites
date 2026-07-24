@@ -1,6 +1,6 @@
 ---
-title: "N-Terminal Acetylation"
-description: "Addition of acetyl group to N-terminus. Protects against aminopeptidase degradation."
+title: "N-Terminal Acetylation: Oligopeptide Research Reference"
+description: "Addition of acetyl group to N-terminus. Protects against aminopeptidase degradation. This peptide or oligopeptide is studied for its biological activity, str..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

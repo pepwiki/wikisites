@@ -1,6 +1,6 @@
 ---
-title: "Hepcidin"
-description: "Hepcidin is a peptide with important roles in biological systems."
+title: "Hepcidin: Receptor Pharmacology Reference"
+description: "Hepcidin is a peptide with important roles in biological systems. This peptide or oligopeptide is studied for its biological activity, structure-activity rel..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

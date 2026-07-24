@@ -1,6 +1,6 @@
 ---
-title: "Porcine Defensin PR-39"
-description: "Proline-arginine-rich antibiotic from porcine neutrophils inhibiting protein synthesis."
+title: "Porcine Defensin PR-39: Antimicrobial Peptide Reference"
+description: "Proline-arginine-rich antibiotic from porcine neutrophils inhibiting protein synthesis. This antimicrobial peptide demonstrates activity against pathogens an..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

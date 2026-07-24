@@ -1,6 +1,6 @@
 ---
-title: "Peptide DMFs and IMPs"
-description: "Understand Drug Master File and Investigational Medicinal Product dossier requirements for peptide APIs."
+title: "Peptide DMFs and IMPs: Oligopeptide Research Reference"
+description: "Understand Drug Master File and Investigational Medicinal Product dossier requirements for peptide APIs. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

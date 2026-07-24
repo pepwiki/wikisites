@@ -1,6 +1,6 @@
 ---
-title: "Peptide NDA Submission"
-description: "Guide to compiling a complete New Drug Application for peptide therapeutics including CMC and clinical sections."
+title: "Peptide NDA Submission: Oligopeptide Research Reference"
+description: "Guide to compiling a complete New Drug Application for peptide therapeutics including CMC and clinical sections. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

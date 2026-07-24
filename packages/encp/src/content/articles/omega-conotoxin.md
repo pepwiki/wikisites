@@ -1,6 +1,6 @@
 ---
-title: "Omega-Conotoxin"
-description: "Omega-conotoxins are disulfide-rich peptides from cone snail venom that block N-type and P/Q-type voltage-gated calcium channels, with ziconotide as the approved therapeutic."
+title: "Omega-Conotoxin: Peptide Toxin in Pharmacology Reference"
+description: "Omega-conotoxins are disulfide-rich peptides from cone snail venom that block N-type and P/Q-type voltage-gated calcium channels, with ziconotide as the appr..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-07-18

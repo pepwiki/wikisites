@@ -1,5 +1,5 @@
 ---
-title: "Aliskiren"
+title: "Aliskiren: Oligopeptide Research Reference"
 description: "First direct renin inhibitor for hypertension, blocking the rate-limiting step of the renin-angiotensin-aldosterone system."
 status: "published"
 author: "Encyclopeptide Editorial"

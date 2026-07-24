@@ -1,6 +1,6 @@
 ---
-title: "Transcription factor"
-description: "Reference for transcription factor in peptide research."
+title: "Transcription factor: Oligopeptide Research Reference"
+description: "Comprehensive reference for transcription factor, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

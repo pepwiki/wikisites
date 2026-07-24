@@ -1,6 +1,6 @@
 ---
 title: "Differential Scanning Calorimetry for Peptides"
-description: "Discover DSC techniques for measuring peptide thermal stability and thermodynamic folding parameters."
+description: "Discover DSC techniques for measuring peptide thermal stability and thermodynamic folding parameters. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

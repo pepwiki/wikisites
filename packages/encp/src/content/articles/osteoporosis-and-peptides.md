@@ -1,6 +1,6 @@
 ---
-title: "Osteoporosis and Peptides"
-description: "Learn about peptide-based osteoporosis treatments including PTH analogs and calcitonin for bone density improvement."
+title: "Osteoporosis and Peptides: Comprehensive Peptide Reference"
+description: "Learn about peptide-based osteoporosis treatments including PTH analogs and calcitonin for bone density improvement. Covers molecular mechanisms, biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

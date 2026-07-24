@@ -1,6 +1,6 @@
 ---
-title: "Endorphin Pain Modulation"
-description: "Endorphin-mediated descending pain inhibition from brainstem to spinal cord."
+title: "Endorphin Pain Modulation: Comprehensive Peptide Reference"
+description: "Endorphin-mediated descending pain inhibition from brainstem to spinal cord. This neuropeptide is involved in neurological signaling and is studied for its r..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

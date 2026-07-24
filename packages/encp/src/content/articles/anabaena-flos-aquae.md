@@ -1,6 +1,6 @@
 ---
-title: "Anabaena flos-aquae"
-description: "Irreversible acetylcholinesterase inhibitor"
+title: "Anabaena flos-aquae: Oligopeptide Research Reference"
+description: "Irreversible acetylcholinesterase inhibitor. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and poten..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

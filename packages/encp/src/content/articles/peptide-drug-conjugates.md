@@ -1,5 +1,5 @@
 ---
-title: "Peptide Drug Conjugates"
+title: "Peptide Drug Conjugates: Oligopeptide Research Reference"
 description: "An overview of peptide-drug conjugates as targeted therapeutics, covering linker chemistry, payload selection, and mechanisms of intracellular drug release."
 status: "published"
 author: "Encyclopeptide Editorial"

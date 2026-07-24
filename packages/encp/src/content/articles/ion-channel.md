@@ -1,6 +1,6 @@
 ---
-title: "Ion channel"
-description: "Reference for ion channel in peptide research."
+title: "Ion channel: Oligopeptide Research Reference"
+description: "Comprehensive reference for ion channel, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

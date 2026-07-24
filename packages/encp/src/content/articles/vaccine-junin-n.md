@@ -1,6 +1,6 @@
 ---
-title: "Junin N Vaccine"
-description: "A peptide vaccine targeting Junin N for infectious disease prevention."
+title: "Junin N Vaccine: Oligopeptide Research Reference"
+description: "A peptide vaccine targeting Junin N for infectious disease prevention. This peptide or oligopeptide is studied for its biological activity, structure-activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,5 +1,5 @@
 ---
-title: "electron-affinity Resource"
+title: "electron-affinity Resource: Comprehensive Peptide Reference"
 description: "The electron-affinity database or resource for peptide research, providing data on structure, function, and interactions."
 status: "published"
 author: "Encyclopeptide Editorial"

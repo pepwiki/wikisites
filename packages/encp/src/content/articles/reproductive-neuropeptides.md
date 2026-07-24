@@ -1,6 +1,6 @@
 ---
-title: "Reproductive Neuropeptides"
-description: "Hypothalamic peptides controlling gonadotropin release and reproductive function."
+title: "Reproductive Neuropeptides: Comprehensive Peptide Reference"
+description: "Hypothalamic peptides controlling gonadotropin release and reproductive function. This neuropeptide is involved in neurological signaling and is studied for ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Opioid Peptide Microdialysis"
-description: "In vivo microdialysis for measuring opioid peptide release in brain regions."
+title: "Opioid Peptide Microdialysis: Comprehensive Peptide Refer..."
+description: "In vivo microdialysis for measuring opioid peptide release in brain regions. This neuropeptide is involved in neurological signaling and is studied for its r..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

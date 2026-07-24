@@ -1,6 +1,6 @@
 ---
-title: "Cross-Reactive Antibodies"
-description: "Antibodies that cross-react between therapeutic peptides and endogenous proteins."
+title: "Cross-Reactive Antibodies: Comprehensive Peptide Reference"
+description: "Antibodies that cross-react between therapeutic peptides and endogenous proteins. This peptide or oligopeptide is studied for its biological activity, struct..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

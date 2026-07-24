@@ -1,6 +1,6 @@
 ---
-title: "Calcitonin Gene Related"
-description: "calcitonin-gene-related is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation."
+title: "Calcitonin Gene Related: Neuropeptide in Neuroscience Ref..."
+description: "calcitonin-gene-related is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

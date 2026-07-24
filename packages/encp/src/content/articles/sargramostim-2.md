@@ -1,6 +1,6 @@
 ---
-title: "Sargramostim"
-description: "Recombinant GM-CSF myeloid growth factor for neutropenia and stem cell mobilization in transplant settings."
+title: "Sargramostim: Oligopeptide Research Reference"
+description: "Recombinant GM-CSF myeloid growth factor for neutropenia and stem cell mobilization in transplant settings. This peptide or oligopeptide is studied for its b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

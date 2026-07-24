@@ -1,6 +1,6 @@
 ---
-title: "Hedgehog Inhibitor PDC"
-description: "A peptide-drug conjugate targeting Hedgehog Inhibitor for selective drug delivery."
+title: "Hedgehog Inhibitor PDC: Oligopeptide Research Reference"
+description: "A peptide-drug conjugate targeting Hedgehog Inhibitor for selective drug delivery. This peptide or oligopeptide is studied for its biological activity, struc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

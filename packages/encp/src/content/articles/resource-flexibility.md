@@ -1,6 +1,6 @@
 ---
-title: "flexibility Resource"
-description: "The flexibility database or resource for peptide research, providing data on structure, function, and interactions."
+title: "flexibility Resource: Oligopeptide Research Reference"
+description: "The flexibility database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

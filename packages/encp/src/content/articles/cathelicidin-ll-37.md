@@ -1,6 +1,6 @@
 ---
-title: "Cathelicidin LL-37"
-description: "Only human cathelicidin with broad-spectrum antimicrobial and immunomodulatory properties."
+title: "Cathelicidin LL-37: Antimicrobial Peptide Reference"
+description: "Only human cathelicidin with broad-spectrum antimicrobial and immunomodulatory properties. This antimicrobial peptide demonstrates activity against pathogens..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,5 +1,5 @@
 ---
-title: "Amb a 1 Immunostimulatory"
+title: "Amb a 1 Immunostimulatory: Comprehensive Peptide Reference"
 description: "Comprehensive reference for Amb a 1 Immunostimulatory, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

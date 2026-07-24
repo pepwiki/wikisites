@@ -1,6 +1,6 @@
 ---
-title: "Macrolactamization Synthesis"
-description: "A peptide synthesis method using Macrolactamization for producing peptides with specific properties."
+title: "Macrolactamization Synthesis: Comprehensive Peptide Refer..."
+description: "A peptide synthesis method using Macrolactamization for producing peptides with specific properties. This analytical technique provides valuable insights int..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

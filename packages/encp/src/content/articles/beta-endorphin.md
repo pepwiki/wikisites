@@ -1,6 +1,6 @@
 ---
-title: "Beta-Endorphin"
-description: "A 31-amino acid endogenous opioid peptide derived from proopiomelanocortin (POMC) that produces potent analgesia and euphoria through mu-opioid receptor activation."
+title: "Beta-Endorphin: Neuropeptide in Neuroscience Reference"
+description: "A 31-amino acid endogenous opioid peptide derived from proopiomelanocortin (POMC) that produces potent analgesia and euphoria through mu-opioid receptor acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

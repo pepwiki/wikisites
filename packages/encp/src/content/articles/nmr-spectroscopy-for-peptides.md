@@ -1,6 +1,6 @@
 ---
-title: "NMR Spectroscopy for Peptides"
-description: "Explore NMR spectroscopy techniques for determining peptide three-dimensional structure and dynamics in solution."
+title: "NMR Spectroscopy for Peptides: Comprehensive Peptide Refe..."
+description: "Explore NMR spectroscopy techniques for determining peptide three-dimensional structure and dynamics in solution. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

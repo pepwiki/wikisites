@@ -1,6 +1,6 @@
 ---
-title: "Marburg GP Vaccine"
-description: "A peptide vaccine targeting Marburg GP for infectious disease prevention."
+title: "Marburg GP Vaccine: Oligopeptide Research Reference"
+description: "A peptide vaccine targeting Marburg GP for infectious disease prevention. This peptide or oligopeptide is studied for its biological activity, structure-acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

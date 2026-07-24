@@ -1,5 +1,5 @@
 ---
-title: "Conotoxin MVIIA"
+title: "Conotoxin MVIIA: Oligopeptide Research Reference"
 description: "Omega-conotoxin from Conus magus that blocks N-type calcium channels, used as an intrathecal analgesic for severe chronic pain."
 status: "published"
 author: "Encyclopeptide Editorial"

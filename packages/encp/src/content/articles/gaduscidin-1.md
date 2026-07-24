@@ -1,6 +1,6 @@
 ---
-title: "Gaduscidin 1"
-description: "Comprehensive reference for Gaduscidin 1, a peptide compound with applications in research and therapeutics."
+title: "Gaduscidin 1: Oligopeptide Research Reference"
+description: "Gaduscidin 1, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

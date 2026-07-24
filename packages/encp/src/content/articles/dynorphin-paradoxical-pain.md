@@ -1,6 +1,6 @@
 ---
-title: "Dynorphin Paradoxical Pain"
-description: "Paradoxical pronociceptive effects of dynorphin through non-opioid mechanisms."
+title: "Dynorphin Paradoxical Pain: Comprehensive Peptide Reference"
+description: "Paradoxical pronociceptive effects of dynorphin through non-opioid mechanisms. This neuropeptide is involved in neurological signaling and is studied for its..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

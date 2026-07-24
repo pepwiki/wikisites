@@ -1,6 +1,6 @@
 ---
-title: "SEC MALS Analysis"
-description: "An analytical technique for characterizing peptides using SEC MALS."
+title: "SEC MALS Analysis: Analytical Technique in Peptide Research"
+description: "An analytical technique for characterizing peptides using SEC MALS. This analytical technique provides valuable insights into peptide structure, purity, and ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

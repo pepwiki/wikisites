@@ -1,5 +1,5 @@
 ---
-title: "Gramicidin S2"
+title: "Gramicidin S2: Antimicrobial Peptide Reference"
 description: "gramicidin-S2 is a peptide antibiotic produced by bacteria with antimicrobial activity used in clinical and agricultural applications."
 status: "published"
 author: "Encyclopeptide Editorial"

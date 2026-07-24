@@ -1,6 +1,6 @@
 ---
-title: "Agricultural Peptide Market"
-description: "Market analysis for agricultural peptides."
+title: "Agricultural Peptide Market: Comprehensive Peptide Reference"
+description: "Market analysis for agricultural peptides. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potenti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

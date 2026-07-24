@@ -1,6 +1,6 @@
 ---
-title: "Antibiotic Interactions"
-description: "Drug interactions between peptide antibiotics and other medications."
+title: "Antibiotic Interactions: Oligopeptide Research Reference"
+description: "Drug interactions between peptide antibiotics and other medications. This peptide or oligopeptide is studied for its biological activity, structure-activity ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

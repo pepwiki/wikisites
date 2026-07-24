@@ -1,6 +1,6 @@
 ---
-title: "Antimicrobial Peptides"
-description: "Antimicrobial (Gram-negative focus)"
+title: "Antimicrobial Peptides: Oligopeptide Research Reference"
+description: "Antimicrobial (Gram-negative focus). This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential app..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

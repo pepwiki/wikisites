@@ -1,6 +1,6 @@
 ---
-title: "Planaria Peptides"
-description: "Comprehensive reference for Planaria Peptides, a peptide compound with applications in research and therapeutics."
+title: "Planaria Peptides: Oligopeptide Research Reference"
+description: "Planaria Peptides, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

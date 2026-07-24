@@ -1,6 +1,6 @@
 ---
-title: "Semaglutide"
-description: "A long-acting glucagon-like peptide-1 (GLP-1) receptor agonist used for type 2 diabetes and obesity treatment, featuring Aib8 substitution and C-18 fatty diacid conjugation for once-weekly dosing."
+title: "Semaglutide: Therapeutic Peptide Drug Profile"
+description: "A long-acting glucagon-like peptide-1 (GLP-1) receptor agonist used for type 2 diabetes and obesity treatment, featuring Aib8 substitution and C-18 fatty dia..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

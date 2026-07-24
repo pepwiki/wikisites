@@ -1,6 +1,6 @@
 ---
-title: "Ultrasonic Synthesis"
-description: "A peptide synthesis method using Ultrasonic for producing peptides with specific properties."
+title: "Ultrasonic Synthesis: Analytical Technique in Peptide Res..."
+description: "A peptide synthesis method using Ultrasonic for producing peptides with specific properties. This analytical technique provides valuable insights into peptid..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

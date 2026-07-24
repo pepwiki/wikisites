@@ -1,6 +1,6 @@
 ---
 title: "Peptide C-terminal modification"
-description: "Reference for peptide c-terminal modification in peptide research."
+description: "Comprehensive reference for peptide c-terminal modification, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

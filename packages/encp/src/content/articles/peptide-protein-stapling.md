@@ -1,6 +1,6 @@
 ---
-title: "Peptide-Protein Stapling"
-description: "Chemical stapling of peptides to proteins for enhanced stability, cell penetration, and target binding."
+title: "Peptide-Protein Stapling: Oligopeptide Research Reference"
+description: "Chemical stapling of peptides to proteins for enhanced stability, cell penetration, and target binding. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

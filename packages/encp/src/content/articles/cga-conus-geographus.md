@@ -1,6 +1,6 @@
 ---
-title: "CgA (Conus geographus)"
-description: "Comprehensive reference for CgA (Conus geographus), a peptide compound with applications in research and therapeutics."
+title: "CgA (Conus geographus): Oligopeptide Research Reference"
+description: "CgA (Conus geographus), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

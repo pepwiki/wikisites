@@ -1,6 +1,6 @@
 ---
-title: "Ester Bonds in Peptides"
-description: "Overview of ester bonds in depsipeptides and their role in cyclic peptide design."
+title: "Ester Bonds in Peptides: Post-Translational Modification ..."
+description: "Overview of ester bonds in depsipeptides and their role in cyclic peptide design. This modification affects peptide stability, receptor binding, and biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

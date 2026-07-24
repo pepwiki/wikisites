@@ -1,6 +1,6 @@
 ---
-title: "ACTH 1-24"
-description: "Reference for ACTH 1-24 variant in peptide research."
+title: "ACTH 1-24: Adrenocorticotropic Hormone Fragment in Peptid..."
+description: "Comprehensive reference for ACTH 1-24 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Wickerhamomyces anomalus"
-description: "Binds β-1,3-glucan, disrupts cell wall"
+title: "Wickerhamomyces anomalus: Oligopeptide Research Reference"
+description: "Binds β-1,3-glucan, disrupts cell wall. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

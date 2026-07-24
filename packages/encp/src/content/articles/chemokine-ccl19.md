@@ -1,6 +1,6 @@
 ---
-title: "Chemokine CCL19"
-description: "Reference for chemokine CCL19 in peptide research."
+title: "Chemokine CCL19: Oligopeptide Research Reference"
+description: "Comprehensive reference for chemokine CCL19, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

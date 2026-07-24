@@ -1,6 +1,6 @@
 ---
-title: "CNP 53"
-description: "CNP-53 is a natriuretic peptide that regulates blood pressure and fluid balance through vasodilation and natriuresis."
+title: "CNP 53: Endogenous Peptide Hormone Reference"
+description: "CNP-53 is a natriuretic peptide that regulates blood pressure and fluid balance through vasodilation and natriuresis. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Eli Lilly"
-description: "Tirzepatide, Dulaglutide"
+title: "Eli Lilly: Oligopeptide Research Reference"
+description: "Tirzepatide, Dulaglutide. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

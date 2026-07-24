@@ -1,6 +1,6 @@
 ---
-title: "Thrombopoietin Hormone"
-description: "The Thrombopoietin Hormone and its role in endocrine signaling."
+title: "Thrombopoietin Hormone: Endogenous Peptide Hormone Reference"
+description: "Thrombopoietin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clin..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

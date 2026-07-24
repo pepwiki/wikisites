@@ -1,6 +1,6 @@
 ---
 title: "Erabutoxin: Structure, Function, and Significance"
-description: "Erabutoxins are three-finger toxins from sea snake venom that block neuromuscular junction acetylcholine receptors."
+description: "Erabutoxins are three-finger toxins from sea snake venom that block neuromuscular junction acetylcholine receptors. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

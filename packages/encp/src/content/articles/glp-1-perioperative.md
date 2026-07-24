@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 Perioperative"
-description: "Management during surgery including aspiration risk assessment and glycemic control strategies."
+title: "GLP-1 Perioperative: Oligopeptide Research Reference"
+description: "Management during surgery including aspiration risk assessment and glycemic control strategies. This peptide or oligopeptide is studied for its biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

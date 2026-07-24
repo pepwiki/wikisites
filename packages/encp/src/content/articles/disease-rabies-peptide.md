@@ -1,6 +1,6 @@
 ---
-title: "Rabies Peptides"
-description: "Peptides associated with Rabies including biomarkers, therapeutic targets, and diagnostic markers."
+title: "Rabies Peptides: Oligopeptide Research Reference"
+description: "Peptides associated with Rabies including biomarkers, therapeutic targets, and diagnostic markers. This peptide or oligopeptide is studied for its biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

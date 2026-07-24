@@ -1,6 +1,6 @@
 ---
-title: "Natriuretic Peptide Family"
-description: "Explore ANP, BNP, and CNP natriuretic peptides in cardiovascular and renal homeostasis."
+title: "Natriuretic Peptide Family: Comprehensive Peptide Reference"
+description: "Explore ANP, BNP, and CNP natriuretic peptides in cardiovascular and renal homeostasis. This peptide or oligopeptide is studied for its biological activity, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

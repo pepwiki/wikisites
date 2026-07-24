@@ -1,6 +1,6 @@
 ---
-title: "Troponin I"
-description: "Cardiac muscle protein. MI biomarker."
+title: "Troponin I: Oligopeptide Research Reference"
+description: "Cardiac muscle protein. MI biomarker. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential ap..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

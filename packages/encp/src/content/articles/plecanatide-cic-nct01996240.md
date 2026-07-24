@@ -1,6 +1,6 @@
 ---
 title: "Plecanatide - CIC (NCT01996240)"
-description: "Trial of plecanatide for chronic idiopathic constipation."
+description: "Trial of plecanatide for chronic idiopathic constipation. This peptide or oligopeptide is studied for its biological activity, structure-activity relationshi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Sonochemical Synthesis"
-description: "A peptide synthesis method using Sonochemical for producing peptides with specific properties."
+title: "Sonochemical Synthesis: Analytical Technique in Peptide R..."
+description: "A peptide synthesis method using Sonochemical for producing peptides with specific properties. This analytical technique provides valuable insights into pept..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

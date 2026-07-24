@@ -1,6 +1,6 @@
 ---
-title: "HGF Protein Hormone"
-description: "The HGF Protein Hormone and its role in endocrine signaling."
+title: "HGF Protein Hormone: Endogenous Peptide Hormone Reference"
+description: "HGF, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical signif..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

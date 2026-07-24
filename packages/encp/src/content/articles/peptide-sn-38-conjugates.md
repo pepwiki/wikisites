@@ -1,5 +1,5 @@
 ---
-title: "Peptide-SN-38 Conjugates"
+title: "Peptide-SN-38 Conjugates: Oligopeptide Research Reference"
 description: "Comprehensive reference for Peptide-SN-38 Conjugates, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

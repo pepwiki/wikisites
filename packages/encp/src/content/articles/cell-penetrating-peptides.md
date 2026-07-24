@@ -1,6 +1,6 @@
 ---
-title: "Cell-Penetrating Peptides"
-description: "Peptides that can cross cell membranes. Used for intracellular drug delivery."
+title: "Cell-Penetrating Peptides: Comprehensive Peptide Reference"
+description: "Peptides that can cross cell membranes. Used for intracellular drug delivery. This peptide or oligopeptide is studied for its biological activity, structure-..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

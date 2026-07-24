@@ -1,6 +1,6 @@
 ---
-title: "NPY Protein Hormone"
-description: "The NPY Protein Hormone and its role in endocrine signaling."
+title: "NPY Protein Hormone: Endogenous Peptide Hormone Reference"
+description: "NPY, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical signif..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

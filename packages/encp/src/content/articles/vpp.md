@@ -1,6 +1,6 @@
 ---
-title: "VPP"
-description: "Valine-proline-proline. ACE-inhibitory tripeptide from milk. Contributes to antihypertensive effects of dairy."
+title: "VPP: Oligopeptide Research Reference"
+description: "Valine-proline-proline. ACE-inhibitory tripeptide from milk. Contributes to antihypertensive effects of dairy. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

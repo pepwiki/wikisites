@@ -1,6 +1,6 @@
 ---
-title: "Real-World Evidence"
-description: "Comprehensive reference for Real-World Evidence, a peptide compound with applications in research and therapeutics."
+title: "Real-World Evidence: Oligopeptide Research Reference"
+description: "Real-World Evidence, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

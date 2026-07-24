@@ -1,5 +1,5 @@
 ---
-title: "primary-endpoint Resource"
+title: "primary-endpoint Resource: Comprehensive Peptide Reference"
 description: "The primary-endpoint database or resource for peptide research, providing data on structure, function, and interactions."
 status: "published"
 author: "Encyclopeptide Editorial"

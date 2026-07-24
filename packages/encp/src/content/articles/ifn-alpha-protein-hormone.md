@@ -1,6 +1,6 @@
 ---
-title: "IFN Alpha Protein Hormone"
-description: "The IFN Alpha Protein Hormone and its role in endocrine signaling."
+title: "IFN Alpha Protein Hormone: Comprehensive Peptide Reference"
+description: "IFN Alpha, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

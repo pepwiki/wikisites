@@ -1,6 +1,6 @@
 ---
-title: "Learning and Memory Peptides"
-description: "Neuropeptides involved in synaptic plasticity and memory formation."
+title: "Learning and Memory Peptides: Comprehensive Peptide Refer..."
+description: "Neuropeptides involved in synaptic plasticity and memory formation. This neuropeptide is involved in neurological signaling and is studied for its roles in b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

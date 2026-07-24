@@ -1,6 +1,6 @@
 ---
 title: "History of Antimicrobial Peptide Research"
-description: "The discovery and development of antimicrobial peptides from defensins to clinical candidates."
+description: "The discovery and development of antimicrobial peptides from defensins to clinical candidates. This antimicrobial peptide demonstrates activity against patho..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

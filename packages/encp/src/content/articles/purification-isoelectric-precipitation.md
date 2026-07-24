@@ -1,6 +1,6 @@
 ---
 title: "Isoelectric Precipitation Purification"
-description: "A purification technique for separating and isolating peptides using Isoelectric Precipitation."
+description: "A purification technique for separating and isolating peptides using Isoelectric Precipitation. This analytical technique provides valuable insights into pep..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

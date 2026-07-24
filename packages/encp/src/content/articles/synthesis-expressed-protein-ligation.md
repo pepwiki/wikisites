@@ -1,6 +1,6 @@
 ---
 title: "Expressed Protein Ligation Synthesis"
-description: "A peptide synthesis method using Expressed Protein Ligation for producing peptides with specific properties."
+description: "A peptide synthesis method using Expressed Protein Ligation for producing peptides with specific properties. This peptide or oligopeptide is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

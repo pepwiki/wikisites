@@ -1,5 +1,5 @@
 ---
-title: "Cyclopsychotride A"
+title: "Cyclopsychotride A: Oligopeptide Research Reference"
 description: "cyclopsychotride-A is a cyclotide — a cyclic, knotted peptide from plants with exceptional stability and insecticidal activity."
 status: "published"
 author: "Encyclopeptide Editorial"

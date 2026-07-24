@@ -1,6 +1,6 @@
 ---
-title: "Peptide CDMO Industry"
-description: "Contract development and manufacturing organizations specializing in peptide production."
+title: "Peptide CDMO Industry: Oligopeptide Research Reference"
+description: "Contract development and manufacturing organizations specializing in peptide production. This peptide or oligopeptide is studied for its biological activity,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

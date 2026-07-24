@@ -1,6 +1,6 @@
 ---
-title: "Superoxide Dismutase Mn"
-description: "Comprehensive reference for superoxide dismutase mn in peptide research."
+title: "Superoxide Dismutase Mn: Oligopeptide Research Reference"
+description: "superoxide dismutase mn in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and poten..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

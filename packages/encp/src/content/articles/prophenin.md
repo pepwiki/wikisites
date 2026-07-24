@@ -1,6 +1,6 @@
 ---
-title: "Prophenin"
-description: "Comprehensive reference for Prophenin, a peptide compound with applications in research and therapeutics."
+title: "Prophenin: Oligopeptide Research Reference"
+description: "Prophenin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

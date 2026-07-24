@@ -1,6 +1,6 @@
 ---
-title: "Substance P"
-description: "An undecapeptide neuropeptide of the tachykinin family that functions as a neurotransmitter and neuromodulator in the central and peripheral nervous systems, mediating pain, inflammation, and neurogenic responses."
+title: "Substance P: Neuropeptide in Neuroscience Reference"
+description: "An undecapeptide neuropeptide of the tachykinin family that functions as a neurotransmitter and neuromodulator in the central and peripheral nervous systems,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Neuropeptide K"
-description: "neuropeptide-K is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation."
+title: "Neuropeptide K: Neuropeptide in Neuroscience Reference"
+description: "neuropeptide-K is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

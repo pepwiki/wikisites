@@ -1,6 +1,6 @@
 ---
-title: "Total tau (t-tau)"
-description: "Comprehensive reference for Total tau (t-tau), a peptide compound with applications in research and therapeutics."
+title: "Total tau (t-tau): Oligopeptide Research Reference"
+description: "Total tau (t-tau), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

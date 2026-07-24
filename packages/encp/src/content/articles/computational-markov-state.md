@@ -1,6 +1,6 @@
 ---
-title: "Markov State for Peptides"
-description: "A computational method for studying peptides using Markov State."
+title: "Markov State for Peptides: Comprehensive Peptide Reference"
+description: "A computational method for studying peptides using Markov State. This analytical technique provides valuable insights into peptide structure, purity, and cha..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

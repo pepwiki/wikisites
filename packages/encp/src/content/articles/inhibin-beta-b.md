@@ -1,5 +1,5 @@
 ---
-title: "Inhibin Beta B"
+title: "Inhibin Beta B: Endogenous Peptide Hormone Reference"
 description: "inhibin-beta-B is a growth factor or regulatory peptide involved in cell proliferation, differentiation, and tissue homeostasis."
 status: "published"
 author: "Encyclopeptide Editorial"

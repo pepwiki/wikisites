@@ -1,6 +1,6 @@
 ---
-title: "Temporin A"
-description: "Tridecapeptide from red frog skin with potent gram-positive bactericidal activity."
+title: "Temporin A: Antimicrobial Peptide Reference"
+description: "Tridecapeptide from red frog skin with potent gram-positive bactericidal activity. This antimicrobial peptide demonstrates activity against pathogens and is ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "GnRH Agonist Overdose"
-description: "Excessive GnRH agonist dosing. Can cause severe hormone suppression."
+title: "GnRH Agonist Overdose: Oligopeptide Research Reference"
+description: "Excessive GnRH agonist dosing. Can cause severe hormone suppression. This peptide or oligopeptide is studied for its biological activity, structure-activity ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

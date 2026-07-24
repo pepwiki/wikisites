@@ -1,6 +1,6 @@
 ---
 title: "Peptide Intellectual Property Strategy"
-description: "Strategic approaches to protecting peptide innovations through patents and trade secrets."
+description: "Strategic approaches to protecting peptide innovations through patents and trade secrets. This peptide or oligopeptide is studied for its biological activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

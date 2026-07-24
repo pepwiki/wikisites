@@ -1,6 +1,6 @@
 ---
-title: "Brain Natriuretic Peptide"
-description: "Brain natriuretic peptide is a cardiac neurohormone that promotes natriuresis and vasodilation, serving as a critical biomarker and therapeutic target in heart failure."
+title: "Brain Natriuretic Peptide: Comprehensive Peptide Reference"
+description: "Brain natriuretic peptide is a cardiac neurohormone that promotes natriuresis and vasodilation, serving as a critical biomarker and therapeutic target in hea..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-10-28

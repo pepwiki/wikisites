@@ -1,6 +1,6 @@
 ---
-title: "NT 3 Analog"
-description: "Comprehensive reference for NT 3 analog in peptide research."
+title: "NT 3 Analog: Oligopeptide Research Reference"
+description: "NT 3 analog in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

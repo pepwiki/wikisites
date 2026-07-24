@@ -1,6 +1,6 @@
 ---
-title: "Certolizumab"
-description: "Comprehensive reference for certolizumab in peptide research."
+title: "Certolizumab: Oligopeptide Research Reference"
+description: "certolizumab in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

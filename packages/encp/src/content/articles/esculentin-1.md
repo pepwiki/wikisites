@@ -1,6 +1,6 @@
 ---
-title: "Esculentin-1"
-description: "Comprehensive reference for Esculentin-1, a peptide compound with applications in research and therapeutics."
+title: "Esculentin-1: Antimicrobial Peptide Reference"
+description: "Esculentin-1, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

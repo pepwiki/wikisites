@@ -1,6 +1,6 @@
 ---
-title: "Dermaseptin"
-description: "Amphipathic alpha-helical AMP from frog skin active against protozoa and bacteria."
+title: "Dermaseptin: Antimicrobial Peptide Reference"
+description: "Amphipathic alpha-helical AMP from frog skin active against protozoa and bacteria. This antimicrobial peptide demonstrates activity against pathogens and is ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

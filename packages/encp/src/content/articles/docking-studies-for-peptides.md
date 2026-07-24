@@ -1,6 +1,6 @@
 ---
-title: "Docking Studies for Peptides"
-description: "Learn molecular docking methods for predicting peptide-receptor binding poses and interaction energies."
+title: "Docking Studies for Peptides: Comprehensive Peptide Refer..."
+description: "Learn molecular docking methods for predicting peptide-receptor binding poses and interaction energies. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

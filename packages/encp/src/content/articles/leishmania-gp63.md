@@ -1,6 +1,6 @@
 ---
-title: "Leishmania GP63"
-description: "Leishmania-GP63 is a peptide antigen used in vaccine development for infectious disease prevention."
+title: "Leishmania GP63: Oligopeptide Research Reference"
+description: "Leishmania-GP63 is a peptide antigen used in vaccine development for infectious disease prevention. This peptide or oligopeptide is studied for its biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

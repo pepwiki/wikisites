@@ -1,6 +1,6 @@
 ---
 title: "Insulin Like Growth Factor 1-40"
-description: "Reference for insulin like growth factor 1-40 in peptide research."
+description: "Comprehensive reference for insulin like growth factor 1-40, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "HIV V2 Vaccine"
-description: "A peptide vaccine targeting HIV V2 for infectious disease prevention."
+title: "HIV V2 Vaccine: Oligopeptide Research Reference"
+description: "A peptide vaccine targeting HIV V2 for infectious disease prevention. This peptide or oligopeptide is studied for its biological activity, structure-activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Peptide Immunomodulators"
-description: "Overview of immunomodulatory peptides enhancing or suppressing immune responses therapeutically."
+title: "Peptide Immunomodulators: Oligopeptide Research Reference"
+description: "Overview of immunomodulatory peptides enhancing or suppressing immune responses therapeutically. This peptide or oligopeptide is studied for its biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

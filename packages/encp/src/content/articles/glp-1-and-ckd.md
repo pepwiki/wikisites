@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 and CKD"
-description: "Renal outcomes data including albuminuria reduction and eGFR preservation in chronic kidney disease."
+title: "GLP-1 and CKD: Oligopeptide Research Reference"
+description: "Renal outcomes data including albuminuria reduction and eGFR preservation in chronic kidney disease. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Calcitonin"
-description: "Calcitonin is a 32-amino acid peptide hormone produced by thyroid C cells that regulates calcium homeostasis and serves as a therapeutic agent for osteoporosis and Paget disease of bone."
+title: "Calcitonin: Oligopeptide Research Reference"
+description: "Calcitonin is a 32-amino acid peptide hormone produced by thyroid C cells that regulates calcium homeostasis and serves as a therapeutic agent for osteoporos..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-04-15

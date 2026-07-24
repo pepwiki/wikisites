@@ -1,5 +1,5 @@
 ---
-title: "Syn-Hycan"
+title: "Syn-Hycan: Oligopeptide Research Reference"
 description: "Acetyl hexapeptide-30. Inhibits acetylcholine release at neuromuscular junction. Reduces muscle contractions. Used in anti-aging skincare."
 status: "published"
 author: "Encyclopeptide Editorial"

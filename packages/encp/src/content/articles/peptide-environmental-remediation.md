@@ -1,6 +1,6 @@
 ---
 title: "Peptide Environmental Remediation"
-description: "Use of metal-binding and biosurfactant peptides for heavy metal remediation and environmental cleanup applications."
+description: "Use of metal-binding and biosurfactant peptides for heavy metal remediation and environmental cleanup applications. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

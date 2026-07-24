@@ -1,5 +1,5 @@
 ---
-title: "electronegativity Resource"
+title: "electronegativity Resource: Comprehensive Peptide Reference"
 description: "The electronegativity database or resource for peptide research, providing data on structure, function, and interactions."
 status: "published"
 author: "Encyclopeptide Editorial"

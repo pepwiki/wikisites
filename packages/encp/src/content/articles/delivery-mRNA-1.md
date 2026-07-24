@@ -1,6 +1,6 @@
 ---
-title: "MRNA System 1"
-description: "A mRNA-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy."
+title: "MRNA System 1: Oligopeptide Research Reference"
+description: "A mRNA-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

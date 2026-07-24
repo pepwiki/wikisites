@@ -1,6 +1,6 @@
 ---
-title: "Ubrogepant"
-description: "Oral CGRP receptor antagonist for acute migraine treatment providing pain freedom."
+title: "Ubrogepant: Oligopeptide Research Reference"
+description: "Oral CGRP receptor antagonist for acute migraine treatment providing pain freedom. This peptide or oligopeptide is studied for its biological activity, struc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "centrifugation for Peptides"
-description: "Application of centrifugation technique for peptide characterization, structure determination, or formulation."
+title: "centrifugation for Peptides: Comprehensive Peptide Reference"
+description: "Application of centrifugation technique for peptide characterization, structure determination, or formulation. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

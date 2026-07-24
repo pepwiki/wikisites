@@ -1,6 +1,6 @@
 ---
-title: "Amphibian AMP Database"
-description: "Comprehensive database of over 1000 antimicrobial peptides from amphibian skin."
+title: "Amphibian AMP Database: Antimicrobial Peptide Reference"
+description: "Comprehensive database of over 1000 antimicrobial peptides from amphibian skin. This antimicrobial peptide demonstrates activity against pathogens and is stu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

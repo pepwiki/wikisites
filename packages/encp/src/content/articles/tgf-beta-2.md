@@ -1,5 +1,5 @@
 ---
-title: "TGF Beta 2"
+title: "TGF Beta 2: Endogenous Peptide Hormone Reference"
 description: "TGF-beta-2 is a growth factor or regulatory peptide involved in cell proliferation, differentiation, and tissue homeostasis."
 status: "published"
 author: "Encyclopeptide Editorial"

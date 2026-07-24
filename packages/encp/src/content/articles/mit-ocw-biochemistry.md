@@ -1,6 +1,6 @@
 ---
-title: "MIT OCW Biochemistry"
-description: "MIT OpenCourseWare resource on biochemistry."
+title: "MIT OCW Biochemistry: Oligopeptide Research Reference"
+description: "MIT OpenCourseWare resource on biochemistry. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and poten..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "ESMFold2 for Peptides"
-description: "A computational method for studying peptides using ESMFold2."
+title: "ESMFold2 for Peptides: Analytical Technique in Peptide Re..."
+description: "A computational method for studying peptides using ESMFold2. This analytical technique provides valuable insights into peptide structure, purity, and charact..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

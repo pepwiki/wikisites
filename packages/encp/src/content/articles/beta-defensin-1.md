@@ -1,5 +1,5 @@
 ---
-title: "Beta Defensin 1"
+title: "Beta Defensin 1: Antimicrobial Peptide Reference"
 description: "beta-defensin-1 is a defensin-family antimicrobial peptide with cysteine-stabilized structure and broad-spectrum activity."
 status: "published"
 author: "Encyclopeptide Editorial"

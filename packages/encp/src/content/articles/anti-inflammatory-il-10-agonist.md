@@ -1,6 +1,6 @@
 ---
-title: "IL 10 Agonist"
-description: "Comprehensive reference for IL 10 agonist in peptide research."
+title: "IL 10 Agonist: Oligopeptide Research Reference"
+description: "IL 10 agonist in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appli..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

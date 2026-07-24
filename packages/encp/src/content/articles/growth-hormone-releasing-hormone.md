@@ -1,6 +1,6 @@
 ---
 title: "Growth Hormone-Releasing Hormone"
-description: "Hypothalamic peptide stimulating growth hormone release from anterior pituitary."
+description: "Hypothalamic peptide stimulating growth hormone release from anterior pituitary. This neuropeptide is involved in neurological signaling and is studied for i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

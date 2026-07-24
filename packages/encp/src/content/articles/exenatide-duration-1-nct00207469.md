@@ -1,6 +1,6 @@
 ---
 title: "Exenatide - DURATION-1 (NCT00207469)"
-description: "Duration-1 trial comparing exenatide to glimepiride in type 2 diabetes."
+description: "Duration-1 trial comparing exenatide to glimepiride in type 2 diabetes. This peptide or oligopeptide is studied for its biological activity, structure-activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

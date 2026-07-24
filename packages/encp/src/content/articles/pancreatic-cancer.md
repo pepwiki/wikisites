@@ -1,6 +1,6 @@
 ---
-title: "Pancreatic Cancer"
-description: "Most lethal common cancer (5-year survival ~12%). KRAS mutations (90%). Usually diagnosed late. Treatments: FOLFIRINOX, gemcitabine/nab-paclitaxel, olaparib (BRCA), pembrolizumab (MSI-H)."
+title: "Pancreatic Cancer: Oligopeptide Research Reference"
+description: "Most lethal common cancer (5-year survival ~12%). KRAS mutations (90%). Usually diagnosed late. Treatments: FOLFIRINOX, gemcitabine/nab-paclitaxel, olaparib ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Most lethal common cancer (5-year survival ~12%). KRAS mutations (90%). Usually diagnosed late. Treatments: FOLFIRINOX, gemcitabine/nab-paclitaxel, olaparib (BRCA), pembrolizumab (MSI-H).
+Most lethal common cancer (5-year survival ~12%). KRAS mutations (90%). Usually diagnosed late. Treatments: FOLFIRINOX, gemcitabine/nab-paclitaxel, olaparib ...
 
 ## Clinical Significance
 

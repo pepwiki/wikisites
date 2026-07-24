@@ -1,6 +1,6 @@
 ---
-title: "Marine Peptide Drug"
-description: "Marine Peptide Drug is a bioactive compound with applications in peptide research and therapeutics."
+title: "Marine Peptide Drug: Oligopeptide Research Reference"
+description: "Marine Peptide Drug is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

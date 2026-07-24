@@ -1,6 +1,6 @@
 ---
-title: "NeuVax (Nelipepimut-S)"
-description: "Comprehensive reference for NeuVax (Nelipepimut-S), a peptide compound with applications in research and therapeutics."
+title: "NeuVax (Nelipepimut-S): Oligopeptide Research Reference"
+description: "NeuVax (Nelipepimut-S), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

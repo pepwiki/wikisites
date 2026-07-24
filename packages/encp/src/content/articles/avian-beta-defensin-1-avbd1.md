@@ -1,5 +1,5 @@
 ---
-title: "Avian Beta-Defensin 1 (AvBD1)"
+title: "Avian Beta-Defensin 1 (AvBD1): Comprehensive Peptide Refe..."
 description: "Comprehensive reference for Avian Beta-Defensin 1 (AvBD1), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

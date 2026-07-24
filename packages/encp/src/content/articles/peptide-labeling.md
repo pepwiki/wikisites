@@ -1,6 +1,6 @@
 ---
-title: "Peptide labeling"
-description: "Reference for peptide labeling in peptide research."
+title: "Peptide labeling: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide labeling, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

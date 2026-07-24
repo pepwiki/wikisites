@@ -1,6 +1,6 @@
 ---
-title: "Alpha-Endorphin"
-description: "Shorter POMC-derived opioid with mu-opioid receptor activity."
+title: "Alpha-Endorphin: Neuropeptide in Neuroscience Reference"
+description: "Shorter POMC-derived opioid with mu-opioid receptor activity. This neuropeptide is involved in neurological signaling and is studied for its roles in brain f..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

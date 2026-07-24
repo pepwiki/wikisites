@@ -1,6 +1,6 @@
 ---
-title: "Anxiety Disorders"
-description: "Group of disorders characterized by excessive fear and anxiety. Includes GAD, social anxiety, panic disorder, specific phobias. Treatments: SSRIs, SNRIs, benzodiazepines (short-term), buspirone, CBT."
+title: "Anxiety Disorders: Oligopeptide Research Reference"
+description: "Group of disorders characterized by excessive fear and anxiety. Includes GAD, social anxiety, panic disorder, specific phobias. Treatments: SSRIs, SNRIs, ben..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Group of disorders characterized by excessive fear and anxiety. Includes GAD, social anxiety, panic disorder, specific phobias. Treatments: SSRIs, SNRIs, benzodiazepines (short-term), buspirone, CBT.
+Group of disorders characterized by excessive fear and anxiety. Includes GAD, social anxiety, panic disorder, specific phobias. Treatments: SSRIs, SNRIs, ben...
 
 ## Clinical Significance
 

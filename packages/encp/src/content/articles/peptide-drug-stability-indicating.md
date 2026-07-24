@@ -1,6 +1,6 @@
 ---
 title: "Peptide Drug Stability-Indicating Methods"
-description: "Development and validation of analytical methods that detect changes in peptide drug quality over time."
+description: "Development and validation of analytical methods that detect changes in peptide drug quality over time. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

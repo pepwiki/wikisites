@@ -1,6 +1,6 @@
 ---
-title: "Animal Nutrition"
-description: "Use of bioactive peptides in animal feed."
+title: "Animal Nutrition: Oligopeptide Research Reference"
+description: "Use of bioactive peptides in animal feed. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potentia..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

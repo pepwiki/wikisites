@@ -1,6 +1,6 @@
 ---
-title: "Slit 2 Inhibitor"
-description: "Comprehensive reference for slit 2 inhibitor in peptide research."
+title: "Slit 2 Inhibitor: Oligopeptide Research Reference"
+description: "slit 2 inhibitor in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential ap..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

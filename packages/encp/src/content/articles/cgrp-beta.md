@@ -1,6 +1,6 @@
 ---
-title: "CGRP Beta"
-description: "Beta isoform of CGRP with similar vasodilatory and neuromodulatory functions."
+title: "CGRP Beta: Neuropeptide in Neuroscience Reference"
+description: "Beta isoform of CGRP with similar vasodilatory and neuromodulatory functions. This neuropeptide is involved in neurological signaling and is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

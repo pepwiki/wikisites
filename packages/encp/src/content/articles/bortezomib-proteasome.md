@@ -1,6 +1,6 @@
 ---
 title: "Bortezomib Proteasome Inhibition"
-description: "Detailed mechanism of boronic acid dipeptide bortezomib inhibiting the 26S proteasome in multiple myeloma."
+description: "Detailed mechanism of boronic acid dipeptide bortezomib inhibiting the 26S proteasome in multiple myeloma. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

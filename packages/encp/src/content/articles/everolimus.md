@@ -1,5 +1,5 @@
 ---
-title: "Everolimus"
+title: "Everolimus: Oligopeptide Research Reference"
 description: "Derivative of sirolimus that inhibits mTOR, used in transplant immunosuppression, oncology, and tuberous sclerosis treatment."
 status: "published"
 author: "Encyclopeptide Editorial"

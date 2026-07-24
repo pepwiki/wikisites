@@ -1,6 +1,6 @@
 ---
-title: "Insulin Premixed"
-description: "Combination of intermediate and rapid-acting insulin providing both basal and prandial coverage in a single injection."
+title: "Insulin Premixed: Oligopeptide Research Reference"
+description: "Combination of intermediate and rapid-acting insulin providing both basal and prandial coverage in a single injection. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Milestone 002"
-description: "1951: Frederick Sanger determines amino acid sequence of insulin. Nobel Prize 1958."
+title: "Milestone 002: Oligopeptide Research Reference"
+description: "1951: Frederick Sanger determines amino acid sequence of insulin. Nobel Prize 1958. This peptide or oligopeptide is studied for its biological activity, stru..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

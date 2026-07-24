@@ -1,6 +1,6 @@
 ---
-title: "aerogel for Peptides"
-description: "Application of aerogel technique for peptide characterization, structure determination, or formulation."
+title: "aerogel for Peptides: Analytical Technique in Peptide Res..."
+description: "Application of aerogel technique for peptide characterization, structure determination, or formulation. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

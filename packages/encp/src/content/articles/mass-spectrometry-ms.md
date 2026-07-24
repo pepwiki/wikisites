@@ -1,6 +1,6 @@
 ---
-title: "Mass Spectrometry (MS)"
-description: ">"
+title: "Mass Spectrometry (MS): Analytical Technique in Peptide R..."
+description: ">. This analytical technique provides valuable insights into peptide structure, purity, and characterization, supporting quality control and research in pept..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

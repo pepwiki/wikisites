@@ -1,6 +1,6 @@
 ---
-title: "kinetics Resource"
-description: "The kinetics database or resource for peptide research, providing data on structure, function, and interactions."
+title: "kinetics Resource: Oligopeptide Research Reference"
+description: "The kinetics database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

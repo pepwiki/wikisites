@@ -1,6 +1,6 @@
 ---
-title: "RefSeq"
-description: "Reference sequence database for genomes, transcripts, and proteins."
+title: "RefSeq: Oligopeptide Research Reference"
+description: "Reference sequence database for genomes, transcripts, and proteins. This peptide or oligopeptide is studied for its biological activity, structure-activity r..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

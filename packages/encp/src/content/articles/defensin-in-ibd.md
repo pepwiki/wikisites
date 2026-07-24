@@ -1,6 +1,6 @@
 ---
-title: "Defensin in IBD"
-description: "Altered Paneth cell defensin expression in Crohn disease affecting intestinal barrier."
+title: "Defensin in IBD: Antimicrobial Peptide Reference"
+description: "Altered Paneth cell defensin expression in Crohn disease affecting intestinal barrier. This antimicrobial peptide demonstrates activity against pathogens and..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

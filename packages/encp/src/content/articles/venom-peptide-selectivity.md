@@ -1,6 +1,6 @@
 ---
-title: "Venom Peptide Selectivity"
-description: "Structural basis for venom peptide selectivity for biological targets."
+title: "Venom Peptide Selectivity: Comprehensive Peptide Reference"
+description: "Structural basis for venom peptide selectivity for biological targets. This peptide toxin is derived from venom and studied for its pharmacological activity,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

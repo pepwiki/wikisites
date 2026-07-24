@@ -1,6 +1,6 @@
 ---
-title: "Interleukin IL-5"
-description: "Reference for interleukin IL-5 in peptide research."
+title: "Interleukin IL-5: Oligopeptide Research Reference"
+description: "Comprehensive reference for interleukin IL-5, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

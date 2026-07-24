@@ -1,6 +1,6 @@
 ---
-title: "Beta Bungarotoxin"
-description: "beta-bungarotoxin is a snake venom peptide toxin with specific pharmacological activity."
+title: "Beta Bungarotoxin: Peptide Toxin in Pharmacology Reference"
+description: "beta-bungarotoxin is a snake venom peptide toxin with specific pharmacological activity. This peptide toxin is derived from venom and studied for its pharmac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

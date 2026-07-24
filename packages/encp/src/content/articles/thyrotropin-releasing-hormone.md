@@ -1,6 +1,6 @@
 ---
-title: "Thyrotropin-Releasing Hormone"
-description: "Tripeptide hypothalamic hormone stimulating TSH and prolactin release."
+title: "Thyrotropin-Releasing Hormone: Comprehensive Peptide Refe..."
+description: "Tripeptide hypothalamic hormone stimulating TSH and prolactin release. This neuropeptide is involved in neurological signaling and is studied for its roles i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

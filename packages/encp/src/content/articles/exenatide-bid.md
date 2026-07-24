@@ -1,6 +1,6 @@
 ---
-title: "Exenatide Twice Daily"
-description: "First-in-class short-acting GLP-1 receptor agonist derived from Gila monster exendin-4, administered twice daily."
+title: "Exenatide Twice Daily: Peptide Family Reference"
+description: "First-in-class short-acting GLP-1 receptor agonist derived from Gila monster exendin-4, administered twice daily. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

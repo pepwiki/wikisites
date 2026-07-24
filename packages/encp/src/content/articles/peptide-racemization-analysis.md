@@ -1,6 +1,6 @@
 ---
-title: "Peptide racemization analysis"
-description: "Reference for peptide racemization analysis in peptide research."
+title: "Peptide racemization analysis: Comprehensive Peptide Refe..."
+description: "Comprehensive reference for peptide racemization analysis, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Peptide Implant Device"
-description: "Non-biodegradable implant devices for year-long peptide drug delivery."
+title: "Peptide Implant Device: Oligopeptide Research Reference"
+description: "Non-biodegradable implant devices for year-long peptide drug delivery. This peptide or oligopeptide is studied for its biological activity, structure-activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

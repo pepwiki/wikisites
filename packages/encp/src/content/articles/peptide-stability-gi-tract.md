@@ -1,6 +1,6 @@
 ---
-title: "Peptide Stability GI Tract"
-description: "Strategies for protecting peptides from gastrointestinal enzymatic degradation."
+title: "Peptide Stability GI Tract: Comprehensive Peptide Reference"
+description: "Strategies for protecting peptides from gastrointestinal enzymatic degradation. This peptide or oligopeptide is studied for its biological activity, structur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

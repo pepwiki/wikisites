@@ -1,6 +1,6 @@
 ---
 title: "Magnetic Nanoparticle Labeling Synthesis"
-description: "A peptide synthesis method using Magnetic Nanoparticle Labeling for producing peptides with specific properties."
+description: "A peptide synthesis method using Magnetic Nanoparticle Labeling for producing peptides with specific properties. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

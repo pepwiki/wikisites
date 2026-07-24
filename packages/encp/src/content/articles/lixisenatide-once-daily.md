@@ -1,5 +1,5 @@
 ---
-title: "Lixisenatide Once Daily"
+title: "Lixisenatide Once Daily: Peptide Family Reference"
 description: "Short-acting GLP-1 receptor agonist with rapid onset and short duration, primarily targeting postprandial glucose excursions."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,6 +1,6 @@
 ---
-title: "CSTX-1"
-description: "Comprehensive reference for CSTX-1, a peptide compound with applications in research and therapeutics."
+title: "CSTX-1: Peptide Toxin in Pharmacology Reference"
+description: "CSTX-1, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
 title: "Insulin Cardiovascular Outcomes"
-description: "Cardiovascular safety and outcomes data for insulin analogues from large randomized controlled trials."
+description: "Cardiovascular safety and outcomes data for insulin analogues from large randomized controlled trials. This peptide or oligopeptide is studied for its biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

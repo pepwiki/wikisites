@@ -1,5 +1,5 @@
 ---
-title: "Rubiscolin 6"
+title: "Rubiscolin 6: Oligopeptide Research Reference"
 description: "rubiscolin-6 is a bioactive peptide with potential health benefits including antihypertensive, antioxidant, or neuroprotective properties."
 status: "published"
 author: "Encyclopeptide Editorial"

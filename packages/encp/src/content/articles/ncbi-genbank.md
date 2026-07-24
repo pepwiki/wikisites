@@ -1,6 +1,6 @@
 ---
-title: "NCBI GenBank"
-description: "Genetic sequence database maintained by NCBI."
+title: "NCBI GenBank: Oligopeptide Research Reference"
+description: "Genetic sequence database maintained by NCBI. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and pote..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

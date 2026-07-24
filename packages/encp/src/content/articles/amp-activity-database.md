@@ -1,6 +1,6 @@
 ---
-title: "AMP Activity Database"
-description: "Curated MIC values, hemolytic activity, and cytotoxicity data."
+title: "AMP Activity Database: Antimicrobial Peptide Reference"
+description: "Curated MIC values, hemolytic activity, and cytotoxicity data. This antimicrobial peptide demonstrates activity against pathogens and is studied for its mech..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

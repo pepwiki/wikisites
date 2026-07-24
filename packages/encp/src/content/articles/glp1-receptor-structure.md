@@ -1,5 +1,5 @@
 ---
-title: "GLP-1 Receptor Structure"
+title: "GLP-1 Receptor Structure: Analytical Technique in Peptide..."
 description: "An analysis of the GLP-1 receptor cryo-EM structure, receptor activation mechanisms, and biased signaling pathways relevant to metabolic drug development."
 status: "published"
 author: "Encyclopeptide Editorial"

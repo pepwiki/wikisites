@@ -1,6 +1,6 @@
 ---
-title: "NPY Central Effects"
-description: "Central NPY effects on feeding, energy balance, and stress response."
+title: "NPY Central Effects: Neuropeptide in Neuroscience Reference"
+description: "Central NPY effects on feeding, energy balance, and stress response. This neuropeptide is involved in neurological signaling and is studied for its roles in ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

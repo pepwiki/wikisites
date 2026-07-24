@@ -1,6 +1,6 @@
 ---
-title: "Peptide Manufacturing"
-description: "Manufacturing methods: SPPS (Fmoc strategy, most common), liquid-phase synthesis (large-scale), recombinant production (E. coli, yeast, mammalian cells), enzymatic synthesis. Scale-up challenges: coupling efficiency, purification, formulation, cost reduction."
+title: "Peptide Manufacturing: Oligopeptide Research Reference"
+description: "Manufacturing methods: SPPS (Fmoc strategy, most common), liquid-phase synthesis (large-scale), recombinant production (E. coli, yeast, mammalian cells), enz..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Manufacturing methods: SPPS (Fmoc strategy, most common), liquid-phase synthesis (large-scale), recombinant production (E. coli, yeast, mammalian cells), enzymatic synthesis. Scale-up challenges: coupling efficiency, purification, formulation, cost reduction.
+Manufacturing methods: SPPS (Fmoc strategy, most common), liquid-phase synthesis (large-scale), recombinant production (E. coli, yeast, mammalian cells), enz...
 
 ## Clinical Significance
 

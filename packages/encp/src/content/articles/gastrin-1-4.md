@@ -1,6 +1,6 @@
 ---
-title: "Gastrin 1-4"
-description: "Reference for gastrin 1-4 variant in peptide research."
+title: "Gastrin 1-4: Peptide Fragment Reference"
+description: "Comprehensive reference for gastrin 1-4 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

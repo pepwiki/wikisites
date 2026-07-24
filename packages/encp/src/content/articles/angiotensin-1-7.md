@@ -1,5 +1,5 @@
 ---
-title: "Angiotensin 1-7"
+title: "Angiotensin 1-7: Peptide Fragment Reference"
 description: "Heptapeptide counter-regulatory hormone of the RAAS that opposes angiotensin II effects through Mas receptor activation."
 status: "published"
 author: "Encyclopeptide Editorial"

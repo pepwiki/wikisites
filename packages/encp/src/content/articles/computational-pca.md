@@ -1,6 +1,6 @@
 ---
-title: "PCA for Peptides"
-description: "A computational method for studying peptides using PCA."
+title: "PCA for Peptides: Analytical Technique in Peptide Research"
+description: "A computational method for studying peptides using PCA. This analytical technique provides valuable insights into peptide structure, purity, and characteriza..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

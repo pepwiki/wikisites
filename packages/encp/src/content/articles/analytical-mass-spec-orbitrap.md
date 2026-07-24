@@ -1,6 +1,6 @@
 ---
-title: "Mass Spec Orbitrap Analysis"
-description: "An analytical technique for characterizing peptides using Mass Spec Orbitrap."
+title: "Mass Spec Orbitrap Analysis: Comprehensive Peptide Reference"
+description: "An analytical technique for characterizing peptides using Mass Spec Orbitrap. This analytical technique provides valuable insights into peptide structure, pu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

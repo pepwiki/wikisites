@@ -1,6 +1,6 @@
 ---
-title: "Amphipathic Helix Design"
-description: "Rational design based on hydrophobic moment and charge distribution."
+title: "Amphipathic Helix Design: Antimicrobial Peptide Reference"
+description: "Rational design based on hydrophobic moment and charge distribution. This antimicrobial peptide demonstrates activity against pathogens and is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

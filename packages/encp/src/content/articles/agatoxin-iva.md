@@ -1,6 +1,6 @@
 ---
-title: "ω-Agatoxin IVA"
-description: "Comprehensive reference for ω-Agatoxin IVA, a peptide compound with applications in research and therapeutics."
+title: "ω-Agatoxin IVA: Peptide Toxin in Pharmacology Reference"
+description: "ω-Agatoxin IVA, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

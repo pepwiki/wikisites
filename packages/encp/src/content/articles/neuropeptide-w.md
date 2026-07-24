@@ -1,6 +1,6 @@
 ---
-title: "Neuropeptide W"
-description: "Hypothalamic neuropeptide regulating energy homeostasis and feeding."
+title: "Neuropeptide W: Neuropeptide in Neuroscience Reference"
+description: "Hypothalamic neuropeptide regulating energy homeostasis and feeding. This neuropeptide is involved in neurological signaling and is studied for its roles in ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

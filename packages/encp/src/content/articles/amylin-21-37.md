@@ -1,6 +1,6 @@
 ---
-title: "Amylin 21-37"
-description: "Reference for amylin 21-37 variant in peptide research."
+title: "Amylin 21-37: Peptide Fragment Reference"
+description: "Comprehensive reference for amylin 21-37 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

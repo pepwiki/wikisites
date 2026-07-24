@@ -1,6 +1,6 @@
 ---
-title: "Luminescine"
-description: "Peptide that enhances skin radiance. Brightening skincare ingredient."
+title: "Luminescine: Oligopeptide Research Reference"
+description: "Peptide that enhances skin radiance. Brightening skincare ingredient. This peptide or oligopeptide is studied for its biological activity, structure-activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

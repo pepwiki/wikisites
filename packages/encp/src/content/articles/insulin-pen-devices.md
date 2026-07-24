@@ -1,6 +1,6 @@
 ---
-title: "Insulin Pen Devices"
-description: "Mechanical and electronic insulin pen devices including dose memory and bluetooth connectivity."
+title: "Insulin Pen Devices: Oligopeptide Research Reference"
+description: "Mechanical and electronic insulin pen devices including dose memory and bluetooth connectivity. This peptide or oligopeptide is studied for its biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

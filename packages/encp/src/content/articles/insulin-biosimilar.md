@@ -1,5 +1,5 @@
 ---
-title: "Insulin Biosimilars"
+title: "Insulin Biosimilars: Peptide Family Reference"
 description: "Follow-on biologic insulin products demonstrating comparable safety, purity, and efficacy to reference insulin products."
 status: "published"
 author: "Encyclopeptide Editorial"

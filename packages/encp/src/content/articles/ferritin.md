@@ -1,6 +1,6 @@
 ---
-title: "Ferritin"
-description: "Iron-storage protein. Inflammation marker, iron deficiency indicator."
+title: "Ferritin: Oligopeptide Research Reference"
+description: "Iron-storage protein. Inflammation marker, iron deficiency indicator. This peptide or oligopeptide is studied for its biological activity, structure-activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

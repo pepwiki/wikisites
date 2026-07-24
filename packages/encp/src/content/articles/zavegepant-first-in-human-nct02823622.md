@@ -1,6 +1,6 @@
 ---
 title: "Zavegepant - First-in-Human (NCT02823622)"
-description: "First-in-human trial of zavegepant for migraine."
+description: "First-in-human trial of zavegepant for migraine. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

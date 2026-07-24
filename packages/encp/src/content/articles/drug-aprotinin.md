@@ -1,6 +1,6 @@
 ---
-title: "Aprotinin"
-description: "Comprehensive reference for aprotinin in peptide research."
+title: "Aprotinin: Oligopeptide Research Reference"
+description: "aprotinin in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicati..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

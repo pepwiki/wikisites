@@ -1,6 +1,6 @@
 ---
-title: "V5 Tag Purification"
-description: "A purification technique for separating and isolating peptides using V5 Tag."
+title: "V5 Tag Purification: Analytical Technique in Peptide Rese..."
+description: "A purification technique for separating and isolating peptides using V5 Tag. This analytical technique provides valuable insights into peptide structure, pur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

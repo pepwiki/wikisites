@@ -1,6 +1,6 @@
 ---
-title: "Intravenous Peptide Delivery"
-description: "Learn about intravenous administration of peptide therapeutics for rapid systemic delivery and controlled dosing."
+title: "Intravenous Peptide Delivery: Comprehensive Peptide Refer..."
+description: "Learn about intravenous administration of peptide therapeutics for rapid systemic delivery and controlled dosing. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

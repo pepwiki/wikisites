@@ -1,6 +1,6 @@
 ---
-title: "E Coli Peptide"
-description: "A peptide associated with E Coli for research or therapeutic applications."
+title: "E Coli Peptide: Oligopeptide Research Reference"
+description: "A peptide associated with E Coli for research or therapeutic applications. This peptide or oligopeptide is studied for its biological activity, structure-act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

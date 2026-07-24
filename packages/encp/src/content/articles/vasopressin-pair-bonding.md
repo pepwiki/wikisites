@@ -1,6 +1,6 @@
 ---
-title: "Vasopressin Pair Bonding"
-description: "Vasopressin V1a effects on male pair bonding and paternal behavior."
+title: "Vasopressin Pair Bonding: Neuropeptide in Neuroscience Re..."
+description: "Vasopressin V1a effects on male pair bonding and paternal behavior. This neuropeptide is involved in neurological signaling and is studied for its roles in b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

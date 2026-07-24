@@ -1,6 +1,6 @@
 ---
-title: "Carfentanil Veterinary"
-description: "Most potent commercially available synthetic opioid for large animal use."
+title: "Carfentanil Veterinary: Neuropeptide in Neuroscience Refe..."
+description: "Most potent commercially available synthetic opioid for large animal use. This neuropeptide is involved in neurological signaling and is studied for its role..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

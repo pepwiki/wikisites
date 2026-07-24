@@ -1,6 +1,6 @@
 ---
-title: "Leuprolide"
-description: "Comprehensive reference for leuprolide in peptide research."
+title: "Leuprolide: Oligopeptide Research Reference"
+description: "leuprolide in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

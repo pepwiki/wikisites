@@ -1,6 +1,6 @@
 ---
-title: "Market"
-description: "Medium-High"
+title: "Market: Oligopeptide Research Reference"
+description: "Medium-High. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in biomedical ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

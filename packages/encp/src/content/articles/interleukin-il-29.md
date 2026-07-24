@@ -1,6 +1,6 @@
 ---
-title: "Interleukin IL-29"
-description: "Reference for interleukin IL-29 in peptide research."
+title: "Interleukin IL-29: Oligopeptide Research Reference"
+description: "Comprehensive reference for interleukin IL-29, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

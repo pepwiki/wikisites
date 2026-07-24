@@ -1,6 +1,6 @@
 ---
-title: "SAXS for Peptide Structure"
-description: "Understand small-angle X-ray scattering for studying peptide shape, size, and conformational ensembles in solution."
+title: "SAXS for Peptide Structure: Comprehensive Peptide Reference"
+description: "Understand small-angle X-ray scattering for studying peptide shape, size, and conformational ensembles in solution. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

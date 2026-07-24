@@ -1,6 +1,6 @@
 ---
-title: "Amyloid Beta 42"
-description: "Comprehensive reference for amyloid beta 42 in peptide research."
+title: "Amyloid Beta 42: Oligopeptide Research Reference"
+description: "amyloid beta 42 in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential app..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

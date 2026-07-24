@@ -1,6 +1,6 @@
 ---
-title: "All Atom for Peptides"
-description: "A computational method for studying peptides using All Atom."
+title: "All Atom for Peptides: Analytical Technique in Peptide Re..."
+description: "A computational method for studying peptides using All Atom. This analytical technique provides valuable insights into peptide structure, purity, and charact..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

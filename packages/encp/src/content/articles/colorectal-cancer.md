@@ -1,6 +1,6 @@
 ---
-title: "Colorectal Cancer"
-description: "Malignant transformation of colonic or rectal epithelium. Molecular pathways: APC/β-catenin (60%), KRAS (40%), MSI (15%). Treatments: surgery, FOLFOX/FOLFIRI, bevacizumab, cetuximab, pembrolizumab (MS"
+title: "Colorectal Cancer: Oligopeptide Research Reference"
+description: "Malignant transformation of colonic or rectal epithelium. Molecular pathways: APC/β-catenin (60%), KRAS (40%), MSI (15%). Treatments: surgery, FOLFOX/FOLFIRI..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Malignant transformation of colonic or rectal epithelium. Molecular pathways: APC/β-catenin (60%), KRAS (40%), MSI (15%). Treatments: surgery, FOLFOX/FOLFIRI, bevacizumab, cetuximab, pembrolizumab (MSI-H).
+Malignant transformation of colonic or rectal epithelium. Molecular pathways: APC/β-catenin (60%), KRAS (40%), MSI (15%). Treatments: surgery, FOLFOX/FOLFIRI...I-H).
 
 ## Clinical Significance
 

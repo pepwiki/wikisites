@@ -1,6 +1,6 @@
 ---
-title: "LH Analog"
-description: "Comprehensive reference for LH analog in peptide research."
+title: "LH Analog: Oligopeptide Research Reference"
+description: "LH analog in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicati..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

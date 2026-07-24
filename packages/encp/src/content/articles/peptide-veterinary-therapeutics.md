@@ -1,6 +1,6 @@
 ---
 title: "Peptide Veterinary Therapeutics"
-description: "Use of peptide therapeutics in veterinary medicine for companion animals, livestock, and aquaculture."
+description: "Use of peptide therapeutics in veterinary medicine for companion animals, livestock, and aquaculture. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
 title: "Kyotorphin: Structure, Function, and Significance"
-description: "Kyotorphin (L-tyrosyl-L-arginine) is a neuropeptide with analgesic activity, found in bovine brain."
+description: "Kyotorphin (L-tyrosyl-L-arginine) is a neuropeptide with analgesic activity, found in bovine brain. This peptide or oligopeptide is studied for its biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

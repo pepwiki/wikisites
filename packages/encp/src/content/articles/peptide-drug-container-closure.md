@@ -1,6 +1,6 @@
 ---
 title: "Peptide Drug Container Closure Systems"
-description: "Selection and qualification of container closure systems for peptide drug products."
+description: "Selection and qualification of container closure systems for peptide drug products. This peptide or oligopeptide is studied for its biological activity, stru..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

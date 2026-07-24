@@ -1,6 +1,6 @@
 ---
 title: "Self-Emulsifying Peptide Delivery"
-description: "Discover SEDDS formulations for enhancing oral bioavailability of lipophilic peptide drugs."
+description: "Discover SEDDS formulations for enhancing oral bioavailability of lipophilic peptide drugs. This peptide or oligopeptide is studied for its biological activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

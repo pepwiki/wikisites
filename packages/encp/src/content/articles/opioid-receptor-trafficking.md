@@ -1,6 +1,6 @@
 ---
-title: "Opioid Receptor Trafficking"
-description: "Agonist-induced internalization, recycling, and degradation affecting tolerance."
+title: "Opioid Receptor Trafficking: Comprehensive Peptide Reference"
+description: "Agonist-induced internalization, recycling, and degradation affecting tolerance. This neuropeptide is involved in neurological signaling and is studied for i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

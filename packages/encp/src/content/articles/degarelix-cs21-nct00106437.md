@@ -1,6 +1,6 @@
 ---
 title: "Degarelix - CS21 (NCT00106437)"
-description: "Clinical trial of degarelix for prostate cancer."
+description: "Clinical trial of degarelix for prostate cancer. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

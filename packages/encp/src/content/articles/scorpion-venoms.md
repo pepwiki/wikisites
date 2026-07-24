@@ -1,6 +1,6 @@
 ---
-title: "Scorpion Venoms"
-description: "K+, Nav, Cl-, glioma"
+title: "Scorpion Venoms: Peptide Toxin in Pharmacology Reference"
+description: "K+, Nav, Cl-, glioma. This peptide toxin is derived from venom and studied for its pharmacological activity, mechanism of action, and potential applications ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

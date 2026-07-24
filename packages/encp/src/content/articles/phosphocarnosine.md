@@ -1,5 +1,5 @@
 ---
-title: "Phosphocarnosine"
+title: "Phosphocarnosine: Oligopeptide Research Reference"
 description: "phosphocarnosine is a bioactive peptide with potential health benefits including antihypertensive, antioxidant, or neuroprotective properties."
 status: "published"
 author: "Encyclopeptide Editorial"

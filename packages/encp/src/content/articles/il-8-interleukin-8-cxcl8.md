@@ -1,5 +1,5 @@
 ---
-title: "IL-8 (Interleukin-8 / CXCL8)"
+title: "IL-8 (Interleukin-8 / CXCL8): Comprehensive Peptide Refer..."
 description: "Comprehensive reference for IL-8 (Interleukin-8 / CXCL8), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

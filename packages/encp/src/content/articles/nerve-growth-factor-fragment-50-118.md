@@ -1,6 +1,6 @@
 ---
 title: "Nerve Growth Factor fragment-50-118"
-description: "Reference for nerve growth factor fragment-50-118 in peptide research."
+description: "Comprehensive reference for nerve growth factor fragment-50-118, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

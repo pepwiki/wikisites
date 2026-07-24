@@ -1,6 +1,6 @@
 ---
-title: "Global Glargine Biosimilars"
-description: "Review of global biosimilar insulin glargine landscape including Semglee, Abasaglar, and emerging biosimilars."
+title: "Global Glargine Biosimilars: Comprehensive Peptide Reference"
+description: "Review of global biosimilar insulin glargine landscape including Semglee, Abasaglar, and emerging biosimilars. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

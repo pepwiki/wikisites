@@ -1,6 +1,6 @@
 ---
-title: "inkjet-printing for Peptides"
-description: "Application of inkjet-printing technique for peptide characterization, structure determination, or formulation."
+title: "inkjet-printing for Peptides: Comprehensive Peptide Refer..."
+description: "Application of inkjet-printing technique for peptide characterization, structure determination, or formulation. Covers molecular mechanisms, biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Toxcin 1"
-description: "toxcin-1 is a snake venom peptide toxin with specific pharmacological activity."
+title: "Toxcin 1: Peptide Toxin in Pharmacology Reference"
+description: "toxcin-1 is a snake venom peptide toxin with specific pharmacological activity. This peptide toxin is derived from venom and studied for its pharmacological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

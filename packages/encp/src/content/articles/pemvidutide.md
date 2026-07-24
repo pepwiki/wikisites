@@ -1,6 +1,6 @@
 ---
-title: "Pemvidutide"
-description: "Dual GLP-1/glucagon receptor agonist using MOMA technology for balanced receptor activation."
+title: "Pemvidutide: Oligopeptide Research Reference"
+description: "Dual GLP-1/glucagon receptor agonist using MOMA technology for balanced receptor activation. This peptide or oligopeptide is studied for its biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

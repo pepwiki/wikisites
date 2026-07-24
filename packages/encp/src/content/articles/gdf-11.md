@@ -1,5 +1,5 @@
 ---
-title: "GDF 11"
+title: "GDF 11: Endogenous Peptide Hormone Reference"
 description: "GDF-11 is a growth factor or regulatory peptide involved in cell proliferation, differentiation, and tissue homeostasis."
 status: "published"
 author: "Encyclopeptide Editorial"

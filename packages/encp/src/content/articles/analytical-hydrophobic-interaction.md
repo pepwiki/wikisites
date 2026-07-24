@@ -1,6 +1,6 @@
 ---
 title: "Hydrophobic Interaction Analysis"
-description: "An analytical technique for characterizing peptides using Hydrophobic Interaction."
+description: "An analytical technique for characterizing peptides using Hydrophobic Interaction. This analytical technique provides valuable insights into peptide structur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

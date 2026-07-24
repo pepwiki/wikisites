@@ -1,6 +1,6 @@
 ---
-title: "Cryo EM SPA Analysis"
-description: "An analytical technique for characterizing peptides using Cryo EM SPA."
+title: "Cryo EM SPA Analysis: Analytical Technique in Peptide Res..."
+description: "An analytical technique for characterizing peptides using Cryo EM SPA. This analytical technique provides valuable insights into peptide structure, purity, a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

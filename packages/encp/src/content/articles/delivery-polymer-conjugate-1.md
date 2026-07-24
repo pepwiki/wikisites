@@ -1,6 +1,6 @@
 ---
-title: "Polymer Conjugate System 1"
-description: "A polymer-conjugate-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy."
+title: "Polymer Conjugate System 1: Comprehensive Peptide Reference"
+description: "A polymer-conjugate-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy.. This innovative approach addresses key cha..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "PDGFR Inhibitor"
-description: "Comprehensive reference for PDGFR inhibitor in peptide research."
+title: "PDGFR Inhibitor: Oligopeptide Research Reference"
+description: "PDGFR inhibitor in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential app..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

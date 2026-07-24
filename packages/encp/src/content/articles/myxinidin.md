@@ -1,6 +1,6 @@
 ---
-title: "Myxinidin"
-description: "Comprehensive reference for Myxinidin, a peptide compound with applications in research and therapeutics."
+title: "Myxinidin: Oligopeptide Research Reference"
+description: "Myxinidin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

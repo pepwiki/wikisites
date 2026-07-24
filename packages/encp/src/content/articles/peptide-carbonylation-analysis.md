@@ -1,6 +1,6 @@
 ---
 title: "Peptide carbonylation analysis"
-description: "Reference for peptide carbonylation analysis in peptide research."
+description: "Comprehensive reference for peptide carbonylation analysis, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

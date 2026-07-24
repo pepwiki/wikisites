@@ -1,6 +1,6 @@
 ---
-title: "Actin polymerization"
-description: "Reference for actin polymerization in peptide research."
+title: "Actin polymerization: Oligopeptide Research Reference"
+description: "Comprehensive reference for actin polymerization, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

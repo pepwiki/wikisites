@@ -1,6 +1,6 @@
 ---
-title: "Alfentanil Short-Acting"
-description: "Short-acting synthetic opioid with faster onset than fentanyl."
+title: "Alfentanil Short-Acting: Neuropeptide in Neuroscience Ref..."
+description: "Short-acting synthetic opioid with faster onset than fentanyl. This neuropeptide is involved in neurological signaling and is studied for its roles in brain ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

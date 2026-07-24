@@ -1,6 +1,6 @@
 ---
-title: "Albiglutide"
-description: "GLP-1 receptor agonist fused to human albumin for once-weekly type 2 diabetes treatment with reduced immunogenicity."
+title: "Albiglutide: Oligopeptide Research Reference"
+description: "GLP-1 receptor agonist fused to human albumin for once-weekly type 2 diabetes treatment with reduced immunogenicity. Covers molecular mechanisms, biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "DLS for Peptide Size"
-description: "Learn dynamic light scattering techniques for measuring peptide particle size, aggregation, and oligomeric state."
+title: "DLS for Peptide Size: Analytical Technique in Peptide Res..."
+description: "Learn dynamic light scattering techniques for measuring peptide particle size, aggregation, and oligomeric state. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

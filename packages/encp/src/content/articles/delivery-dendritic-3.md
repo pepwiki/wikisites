@@ -1,6 +1,6 @@
 ---
-title: "Dendritic System 3"
-description: "A dendritic-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy."
+title: "Dendritic System 3: Oligopeptide Research Reference"
+description: "A dendritic-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy.. This innovative approach addresses key challenges ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

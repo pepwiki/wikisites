@@ -1,6 +1,6 @@
 ---
-title: "Peptide Microneedle Patches"
-description: "Transdermal microneedle patch technology for painless peptide delivery through the stratum corneum barrier."
+title: "Peptide Microneedle Patches: Comprehensive Peptide Reference"
+description: "Transdermal microneedle patch technology for painless peptide delivery through the stratum corneum barrier. This peptide or oligopeptide is studied for its b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

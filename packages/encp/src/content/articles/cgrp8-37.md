@@ -1,6 +1,6 @@
 ---
-title: "CGRP8 37"
-description: "CGRP8-37 is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation."
+title: "CGRP8 37: Neuropeptide in Neuroscience Reference"
+description: "CGRP8-37 is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation. This neuropeptide is involved in neurological signaling an..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

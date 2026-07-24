@@ -1,6 +1,6 @@
 ---
-title: "B Pertussis Peptide"
-description: "A peptide associated with B Pertussis for research or therapeutic applications."
+title: "B Pertussis Peptide: Oligopeptide Research Reference"
+description: "A peptide associated with B Pertussis for research or therapeutic applications. This peptide or oligopeptide is studied for its biological activity, structur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

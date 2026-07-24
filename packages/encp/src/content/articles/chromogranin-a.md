@@ -1,6 +1,6 @@
 ---
-title: "Chromogranin A"
-description: "439-aa acidic secretory protein co-secreted with catecholamines from neurosecretory granules (chromaffin cells, enterochromaffin-like cells). Marker of neuroendocrine tumors. Normal: <100 ng/mL. Also "
+title: "Chromogranin A: Oligopeptide Research Reference"
+description: "439-aa acidic secretory protein co-secreted with catecholamines from neurosecretory granules (chromaffin cells, enterochromaffin-like cells). Marker of neuro..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-439-aa acidic secretory protein co-secreted with catecholamines from neurosecretory granules (chromaffin cells, enterochromaffin-like cells). Marker of neuroendocrine tumors. Normal: <100 ng/mL. Also used as prognostic marker in heart failure — elevated levels indicate worse prognosis.
+439-aa acidic secretory protein co-secreted with catecholamines from neurosecretory granules (chromaffin cells, enterochromaffin-like cells). Marker of neuro...used as prognostic marker in heart failure — elevated levels indicate worse prognosis.
 
 ## Clinical Significance
 

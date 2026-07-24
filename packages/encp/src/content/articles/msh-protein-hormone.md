@@ -1,6 +1,6 @@
 ---
-title: "MSH Protein Hormone"
-description: "The MSH Protein Hormone and its role in endocrine signaling."
+title: "MSH Protein Hormone: Endogenous Peptide Hormone Reference"
+description: "MSH, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical signif..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Clt A"
-description: "Comprehensive reference for Clt A, a peptide compound with applications in research and therapeutics."
+title: "Clt A: Oligopeptide Research Reference"
+description: "Clt A, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

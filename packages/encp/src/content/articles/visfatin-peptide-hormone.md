@@ -1,6 +1,6 @@
 ---
-title: "Visfatin Peptide Hormone"
-description: "The Visfatin Peptide Hormone and its role in endocrine signaling."
+title: "Visfatin Peptide Hormone: Endogenous Peptide Hormone Refe..."
+description: "Visfatin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

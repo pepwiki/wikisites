@@ -1,6 +1,6 @@
 ---
-title: "Peptide Vaccines for Cancer"
-description: "Tumor-associated antigens and neoantigen peptide vaccines combined with checkpoint inhibitors demonstrate promising immunogenicity and clinical responses across multiple cancer types."
+title: "Peptide Vaccines for Cancer: Comprehensive Peptide Reference"
+description: "Tumor-associated antigens and neoantigen peptide vaccines combined with checkpoint inhibitors demonstrate promising immunogenicity and clinical responses acr..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-05-05

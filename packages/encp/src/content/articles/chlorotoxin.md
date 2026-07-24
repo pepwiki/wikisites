@@ -1,6 +1,6 @@
 ---
-title: "Chlorotoxin"
-description: "Chlorotoxin is a 36-amino acid peptide from deathstalker scorpion venom that binds specifically to glioma cells and matrix metalloproteinase-2, used as a tumor imaging agent."
+title: "Chlorotoxin: Peptide Toxin in Pharmacology Reference"
+description: "Chlorotoxin is a 36-amino acid peptide from deathstalker scorpion venom that binds specifically to glioma cells and matrix metalloproteinase-2, used as a tum..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-07-20

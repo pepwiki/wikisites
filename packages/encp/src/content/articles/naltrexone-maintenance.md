@@ -1,6 +1,6 @@
 ---
-title: "Naltrexone Maintenance"
-description: "Long-acting oral opioid antagonist for addiction and alcohol treatment."
+title: "Naltrexone Maintenance: Neuropeptide in Neuroscience Refe..."
+description: "Long-acting oral opioid antagonist for addiction and alcohol treatment. This neuropeptide is involved in neurological signaling and is studied for its roles ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Opioid Precursor Processing"
-description: "Enzymatic processing of POMC, proenkephalin, and prodynorphin."
+title: "Opioid Precursor Processing: Comprehensive Peptide Reference"
+description: "Enzymatic processing of POMC, proenkephalin, and prodynorphin. This neuropeptide is involved in neurological signaling and is studied for its roles in brain ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

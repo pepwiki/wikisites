@@ -1,6 +1,6 @@
 ---
-title: "Milestone 028"
-description: "1990: First recombinant monoclonal antibody (abciximab) approved."
+title: "Milestone 028: Oligopeptide Research Reference"
+description: "1990: First recombinant monoclonal antibody (abciximab) approved. This peptide or oligopeptide is studied for its biological activity, structure-activity rel..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

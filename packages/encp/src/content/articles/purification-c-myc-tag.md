@@ -1,6 +1,6 @@
 ---
-title: "C Myc Tag Purification"
-description: "A purification technique for separating and isolating peptides using C Myc Tag."
+title: "C Myc Tag Purification: Analytical Technique in Peptide R..."
+description: "A purification technique for separating and isolating peptides using C Myc Tag. This analytical technique provides valuable insights into peptide structure, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

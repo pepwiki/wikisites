@@ -1,5 +1,5 @@
 ---
-title: "Tyrocidine"
+title: "Tyrocidine: Antimicrobial Peptide Reference"
 description: "tyrocidine is a peptide antibiotic produced by bacteria with antimicrobial activity used in clinical and agricultural applications."
 status: "published"
 author: "Encyclopeptide Editorial"

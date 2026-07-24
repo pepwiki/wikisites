@@ -1,6 +1,6 @@
 ---
-title: "Agilent 1260 Infinity II"
-description: "HPLC system for peptide analysis. Binary/quaternary pump, autosampler, DAD detector."
+title: "Agilent 1260 Infinity II: Oligopeptide Research Reference"
+description: "HPLC system for peptide analysis. Binary/quaternary pump, autosampler, DAD detector. This peptide or oligopeptide is studied for its biological activity, str..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

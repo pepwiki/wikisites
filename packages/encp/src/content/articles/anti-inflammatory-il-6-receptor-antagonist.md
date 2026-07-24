@@ -1,6 +1,6 @@
 ---
-title: "IL 6 Receptor Antagonist"
-description: "Comprehensive reference for IL 6 receptor antagonist in peptide research."
+title: "IL 6 Receptor Antagonist: Oligopeptide Research Reference"
+description: "IL 6 receptor antagonist in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and pote..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

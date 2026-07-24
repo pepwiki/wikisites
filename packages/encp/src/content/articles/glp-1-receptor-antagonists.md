@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 Receptor Antagonists"
-description: "Development of GLP-1 receptor antagonists for research tools and potential therapeutic applications in obesity."
+title: "GLP-1 Receptor Antagonists: Comprehensive Peptide Reference"
+description: "Development of GLP-1 receptor antagonists for research tools and potential therapeutic applications in obesity. Covers molecular mechanisms, biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

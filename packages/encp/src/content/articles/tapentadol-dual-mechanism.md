@@ -1,6 +1,6 @@
 ---
-title: "Tapentadol Dual Mechanism"
-description: "Opioid agonist and norepinephrine reuptake inhibitor for moderate to severe pain."
+title: "Tapentadol Dual Mechanism: Comprehensive Peptide Reference"
+description: "Opioid agonist and norepinephrine reuptake inhibitor for moderate to severe pain. This neuropeptide is involved in neurological signaling and is studied for ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

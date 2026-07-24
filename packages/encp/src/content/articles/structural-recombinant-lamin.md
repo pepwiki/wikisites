@@ -1,6 +1,6 @@
 ---
-title: "Recombinant Lamin"
-description: "Comprehensive reference for recombinant lamin in peptide research."
+title: "Recombinant Lamin: Oligopeptide Research Reference"
+description: "recombinant lamin in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
 title: "Soliqua/Suliqua Co-Formulation Technology"
-description: "Dual-chamber pen device technology enabling stable co-formulation of insulin glargine and lixisenatide."
+description: "Dual-chamber pen device technology enabling stable co-formulation of insulin glargine and lixisenatide. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

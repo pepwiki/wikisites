@@ -1,6 +1,6 @@
 ---
-title: "Cell Free Synthesis"
-description: "A peptide synthesis method using Cell Free for producing peptides with specific properties."
+title: "Cell Free Synthesis: Analytical Technique in Peptide Rese..."
+description: "A peptide synthesis method using Cell Free for producing peptides with specific properties. This analytical technique provides valuable insights into peptide..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

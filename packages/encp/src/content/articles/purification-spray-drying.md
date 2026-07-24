@@ -1,6 +1,6 @@
 ---
-title: "Spray Drying Purification"
-description: "A purification technique for separating and isolating peptides using Spray Drying."
+title: "Spray Drying Purification: Comprehensive Peptide Reference"
+description: "A purification technique for separating and isolating peptides using Spray Drying. This analytical technique provides valuable insights into peptide structur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Amphibian Bradykinin"
-description: "Amphibian Bradykinin is a bioactive compound with applications in peptide research and therapeutics."
+title: "Amphibian Bradykinin: Antimicrobial Peptide Reference"
+description: "Amphibian Bradykinin is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

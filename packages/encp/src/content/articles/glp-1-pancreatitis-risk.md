@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 Pancreatitis Risk"
-description: "Evidence examining pancreatitis risk with GLP-1 agonist therapy in type 2 diabetes."
+title: "GLP-1 Pancreatitis Risk: Oligopeptide Research Reference"
+description: "Evidence examining pancreatitis risk with GLP-1 agonist therapy in type 2 diabetes. This peptide or oligopeptide is studied for its biological activity, stru..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

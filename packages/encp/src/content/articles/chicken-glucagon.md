@@ -1,6 +1,6 @@
 ---
-title: "Chicken Glucagon"
-description: "29-aa hormone from chicken pancreas. Regulates glucose metabolism."
+title: "Chicken Glucagon: Oligopeptide Research Reference"
+description: "29-aa hormone from chicken pancreas. Regulates glucose metabolism. This peptide or oligopeptide is studied for its biological activity, structure-activity re..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

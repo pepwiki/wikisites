@@ -1,6 +1,6 @@
 ---
-title: "History of NMR Spectroscopy"
-description: "The development of NMR spectroscopy for peptide structure determination and dynamics."
+title: "History of NMR Spectroscopy: Comprehensive Peptide Reference"
+description: "The development of NMR spectroscopy for peptide structure determination and dynamics. This peptide or oligopeptide is studied for its biological activity, st..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

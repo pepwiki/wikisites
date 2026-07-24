@@ -1,6 +1,6 @@
 ---
-title: "Health Economics of Peptide Therapeutics: Cost-Effectiveness and Market Access"
-description: "Analyze the economic aspects of peptide drug development, pricing, reimbursement, and patient access."
+title: "Health Economics of Peptide Therapeutics: Cost-Effectiven..."
+description: "Analyze the economic aspects of peptide drug development, pricing, reimbursement, and patient access. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

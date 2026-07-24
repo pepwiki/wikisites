@@ -1,6 +1,6 @@
 ---
-title: "O-Glycosylation of Peptides"
-description: "Explore O-glycosylation on serine and threonine residues and its impact on peptide function."
+title: "O-Glycosylation of Peptides: Comprehensive Peptide Reference"
+description: "Explore O-glycosylation on serine and threonine residues and its impact on peptide function. This modification affects peptide stability, receptor binding, a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

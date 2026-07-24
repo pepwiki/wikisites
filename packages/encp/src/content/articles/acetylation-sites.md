@@ -1,6 +1,6 @@
 ---
-title: "Peptide Acetylation Sites"
-description: "Overview of N-terminal and lysine acetylation in peptide stability and function."
+title: "Peptide Acetylation Sites: Comprehensive Peptide Reference"
+description: "Comprehensive overview of N-terminal and lysine acetylation and its role in peptide stability, functional modulation, and pharmacokinetic optimization in the..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

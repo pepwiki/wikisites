@@ -1,6 +1,6 @@
 ---
-title: "Icatibant"
-description: "Bradykinin B2 receptor antagonist for hereditary angioedema acute attacks."
+title: "Icatibant: Oligopeptide Research Reference"
+description: "Bradykinin B2 receptor antagonist for hereditary angioedema acute attacks. This peptide or oligopeptide is studied for its biological activity, structure-act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

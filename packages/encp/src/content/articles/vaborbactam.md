@@ -1,5 +1,5 @@
 ---
-title: "Vaborbactam"
+title: "Vaborbactam: Oligopeptide Research Reference"
 description: "Boronic acid-based beta-lactamase inhibitor that targets KPC carbapenemases, restoring meropenem activity against resistant Enterobacterales."
 status: "published"
 author: "Encyclopeptide Editorial"

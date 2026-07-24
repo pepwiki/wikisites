@@ -1,6 +1,6 @@
 ---
-title: "Cecropin"
-description: "A family of antibacterial peptides first isolated from the giant silk moth Hyalophora cecropia, characterized by their linear structure and potent activity against Gram-negative bacteria."
+title: "Cecropin: Antimicrobial Peptide Reference"
+description: "A family of antibacterial peptides first isolated from the giant silk moth Hyalophora cecropia, characterized by their linear structure and potent activity a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

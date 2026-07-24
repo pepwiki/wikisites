@@ -1,6 +1,6 @@
 ---
-title: "Collagen Elastin Copolymer"
-description: "Comprehensive reference for collagen elastin copolymer in peptide research."
+title: "Collagen Elastin Copolymer: Comprehensive Peptide Reference"
+description: "collagen elastin copolymer in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and po..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

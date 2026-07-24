@@ -1,6 +1,6 @@
 ---
 title: "Journal of Medicinal Chemistry"
-description: "Premier journal for medicinal chemistry and drug design."
+description: "Premier journal for medicinal chemistry and drug design. This peptide or oligopeptide is studied for its biological activity, structure-activity relationship..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
 title: "Positional Encoding for Peptides"
-description: "A computational method for studying peptides using Positional Encoding."
+description: "A computational method for studying peptides using Positional Encoding. This analytical technique provides valuable insights into peptide structure, purity, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

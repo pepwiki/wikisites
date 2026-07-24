@@ -1,6 +1,6 @@
 ---
-title: "Cystatin C"
-description: "Comprehensive reference for cystatin C in peptide research."
+title: "Cystatin C: Oligopeptide Research Reference"
+description: "cystatin C in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

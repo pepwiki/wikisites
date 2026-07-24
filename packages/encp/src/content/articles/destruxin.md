@@ -1,6 +1,6 @@
 ---
-title: "Destruxin"
-description: "Comprehensive reference for Destruxin, a peptide compound with applications in research and therapeutics."
+title: "Destruxin: Oligopeptide Research Reference"
+description: "Destruxin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

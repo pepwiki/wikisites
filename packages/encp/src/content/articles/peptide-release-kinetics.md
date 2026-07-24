@@ -1,6 +1,6 @@
 ---
-title: "Peptide Release Kinetics"
-description: "Mathematical modeling of peptide release from delivery systems."
+title: "Peptide Release Kinetics: Oligopeptide Research Reference"
+description: "Mathematical modeling of peptide release from delivery systems. This peptide or oligopeptide is studied for its biological activity, structure-activity relat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

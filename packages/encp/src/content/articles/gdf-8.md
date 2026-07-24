@@ -1,6 +1,6 @@
 ---
-title: "GDF 8"
-description: "GDF-8 is a growth factor or regulatory peptide involved in cell proliferation, differentiation, and tissue homeostasis."
+title: "GDF 8: Endogenous Peptide Hormone Reference"
+description: "GDF-8 is a growth factor or regulatory peptide involved in cell proliferation, differentiation, and tissue homeostasis. Covers molecular mechanisms, biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Peptide PEG conjugation"
-description: "Reference for peptide peg conjugation in peptide research."
+title: "Peptide PEG conjugation: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide peg conjugation, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

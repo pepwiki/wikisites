@@ -1,6 +1,6 @@
 ---
 title: "Silica Nanoparticle Labeling Synthesis"
-description: "A peptide synthesis method using Silica Nanoparticle Labeling for producing peptides with specific properties."
+description: "A peptide synthesis method using Silica Nanoparticle Labeling for producing peptides with specific properties. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

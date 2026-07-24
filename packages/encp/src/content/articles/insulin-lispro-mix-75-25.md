@@ -1,6 +1,6 @@
 ---
-title: "Insulin Lispro Mix 75/25"
-description: "Premixed formulation with 75% lispro protamine intermediate-acting and 25% insulin lispro rapid-acting."
+title: "Insulin Lispro Mix 75/25: Oligopeptide Research Reference"
+description: "Premixed formulation with 75% lispro protamine intermediate-acting and 25% insulin lispro rapid-acting. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

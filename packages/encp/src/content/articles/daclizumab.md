@@ -1,5 +1,5 @@
 ---
-title: "Daclizumab"
+title: "Daclizumab: Oligopeptide Research Reference"
 description: "Humanized anti-CD25 antibody for transplant rejection prevention and multiple sclerosis (withdrawn due to safety concerns)."
 status: "published"
 author: "Encyclopeptide Editorial"

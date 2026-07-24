@@ -1,6 +1,6 @@
 ---
-title: "Malaria CSP Repeat"
-description: "Malaria-CSP-repeat is a peptide antigen used in vaccine development for infectious disease prevention."
+title: "Malaria CSP Repeat: Oligopeptide Research Reference"
+description: "Malaria-CSP-repeat is a peptide antigen used in vaccine development for infectious disease prevention. This peptide or oligopeptide is studied for its biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

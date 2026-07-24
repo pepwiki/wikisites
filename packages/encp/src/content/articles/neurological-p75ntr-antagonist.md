@@ -1,6 +1,6 @@
 ---
-title: "P75NTR Antagonist"
-description: "Comprehensive reference for p75NTR antagonist in peptide research."
+title: "P75NTR Antagonist: Oligopeptide Research Reference"
+description: "p75NTR antagonist in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

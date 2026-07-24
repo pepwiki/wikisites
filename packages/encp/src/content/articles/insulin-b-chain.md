@@ -1,5 +1,5 @@
 ---
-title: "Insulin B-Chain"
+title: "Insulin B-Chain: Oligopeptide Research Reference"
 description: "The 30-amino acid B-chain of insulin forms the structural core of the insulin heterodimer, essential for receptor binding and glucose homeostasis."
 status: "published"
 author: "Encyclopeptide Editorial"

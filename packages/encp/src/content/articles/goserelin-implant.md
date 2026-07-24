@@ -1,6 +1,6 @@
 ---
-title: "Goserelin Implant"
-description: "Comprehensive reference for Goserelin Implant, a peptide compound with applications in research and therapeutics."
+title: "Goserelin Implant: Oligopeptide Research Reference"
+description: "Goserelin Implant, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

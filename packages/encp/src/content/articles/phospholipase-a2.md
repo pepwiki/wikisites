@@ -1,6 +1,6 @@
 ---
 title: "Phospholipase a2: Structure, Function, and Significance"
-description: "Phospholipase A2 peptides from cobra venom hydrolyze membrane phospholipids, causing cell lysis and inflammation."
+description: "Phospholipase A2 peptides from cobra venom hydrolyze membrane phospholipids, causing cell lysis and inflammation. Covers molecular mechanisms, biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

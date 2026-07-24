@@ -1,6 +1,6 @@
 ---
-title: "Tau (Phosphorylated)"
-description: "Hyperphosphorylated tau. Neurofibrillary tangles in Alzheimer's disease."
+title: "Tau (Phosphorylated): Oligopeptide Research Reference"
+description: "Hyperphosphorylated tau. Neurofibrillary tangles in Alzheimer's disease. This peptide or oligopeptide is studied for its biological activity, structure-activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

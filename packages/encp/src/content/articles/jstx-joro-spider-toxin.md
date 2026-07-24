@@ -1,5 +1,5 @@
 ---
-title: "JSTX (Joro Spider Toxin)"
+title: "JSTX (Joro Spider Toxin): Peptide Toxin in Pharmacology R..."
 description: "Comprehensive reference for JSTX (Joro Spider Toxin), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

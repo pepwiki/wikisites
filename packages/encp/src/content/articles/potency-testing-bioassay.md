@@ -1,6 +1,6 @@
 ---
-title: "Potency Testing (Bioassay)"
-description: ">"
+title: "Potency Testing (Bioassay): Comprehensive Peptide Reference"
+description: ">. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in biomedical research a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

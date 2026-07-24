@@ -1,6 +1,6 @@
 ---
-title: "CCK 11"
-description: "Reference for CCK 11 variant in peptide research."
+title: "CCK 11: Neuropeptide in Neuroscience Reference"
+description: "Comprehensive reference for CCK 11 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

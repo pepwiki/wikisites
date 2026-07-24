@@ -1,6 +1,6 @@
 ---
-title: "Backbone"
-description: "Hours–days"
+title: "Backbone: Post-Translational Modification Reference"
+description: "Hours–days. This modification affects peptide stability, receptor binding, and biological activity, playing an important role in the design of optimized ther..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

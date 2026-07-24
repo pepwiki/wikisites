@@ -1,6 +1,6 @@
 ---
-title: "PNA System 3"
-description: "A PNA-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy."
+title: "PNA System 3: Oligopeptide Research Reference"
+description: "A PNA-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy. This peptide or oligopeptide is studied for its biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

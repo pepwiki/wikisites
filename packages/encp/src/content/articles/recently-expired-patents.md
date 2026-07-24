@@ -1,5 +1,5 @@
 ---
-title: "Recently Expired Patents"
+title: "Recently Expired Patents: Oligopeptide Research Reference"
 description: "Comprehensive reference for Recently Expired Patents, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

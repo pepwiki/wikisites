@@ -1,6 +1,6 @@
 ---
-title: "Endorphin gamma-1-20"
-description: "Reference for endorphin gamma-1-20 variant in peptide research."
+title: "Endorphin gamma-1-20: Neuropeptide in Neuroscience Reference"
+description: "Comprehensive reference for endorphin gamma-1-20 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

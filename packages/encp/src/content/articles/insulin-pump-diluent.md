@@ -1,6 +1,6 @@
 ---
-title: "Insulin Pump Diluent"
-description: "Sterile diluent solution for diluting concentrated insulin formulations for pump reservoir compatibility."
+title: "Insulin Pump Diluent: Oligopeptide Research Reference"
+description: "Sterile diluent solution for diluting concentrated insulin formulations for pump reservoir compatibility. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

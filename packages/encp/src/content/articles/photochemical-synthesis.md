@@ -1,6 +1,6 @@
 ---
-title: "Photochemical Synthesis"
-description: "Using light to drive peptide bond formation."
+title: "Photochemical Synthesis: Oligopeptide Research Reference"
+description: "Using light to drive peptide bond formation. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and poten..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

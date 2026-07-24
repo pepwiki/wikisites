@@ -1,6 +1,6 @@
 ---
-title: "Neurokinin B"
-description: "neurokinin-B is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation."
+title: "Neurokinin B: Neuropeptide in Neuroscience Reference"
+description: "neurokinin-B is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation. This peptide or oligopeptide is studied for its biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

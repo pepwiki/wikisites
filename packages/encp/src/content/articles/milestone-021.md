@@ -1,6 +1,6 @@
 ---
-title: "Milestone 021"
-description: "1922: First clinical use of insulin in human patients."
+title: "Milestone 021: Oligopeptide Research Reference"
+description: "1922: First clinical use of insulin in human patients. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

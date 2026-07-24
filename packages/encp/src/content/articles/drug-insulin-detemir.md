@@ -1,6 +1,6 @@
 ---
-title: "Insulin Detemir"
-description: "Comprehensive reference for insulin detemir in peptide research."
+title: "Insulin Detemir: Oligopeptide Research Reference"
+description: "insulin detemir in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential app..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

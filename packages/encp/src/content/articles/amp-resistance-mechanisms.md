@@ -1,6 +1,6 @@
 ---
-title: "AMP Resistance Mechanisms"
-description: "Bacterial resistance strategies including protease secretion and membrane modification."
+title: "AMP Resistance Mechanisms: Comprehensive Peptide Reference"
+description: "Bacterial resistance strategies including protease secretion and membrane modification. This antimicrobial peptide demonstrates activity against pathogens an..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Gaucher Disease"
-description: "Glucocerebrosidase deficiency → glucocerebroside accumulation. Treatments: imiglucerase, eliglustat."
+title: "Gaucher Disease: Oligopeptide Research Reference"
+description: "Glucocerebrosidase deficiency → glucocerebroside accumulation. Treatments: imiglucerase, eliglustat. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

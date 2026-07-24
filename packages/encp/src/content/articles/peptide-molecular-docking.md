@@ -1,6 +1,6 @@
 ---
-title: "Peptide Molecular Docking"
-description: "Computational methods for predicting peptide-receptor binding poses and affinities in drug design and optimization."
+title: "Peptide Molecular Docking: Comprehensive Peptide Reference"
+description: "Computational methods for predicting peptide-receptor binding poses and affinities in drug design and optimization. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

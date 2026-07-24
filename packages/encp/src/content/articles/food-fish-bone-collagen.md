@@ -1,6 +1,6 @@
 ---
-title: "Fish Bone Collagen"
-description: "Comprehensive reference for fish bone collagen in peptide research."
+title: "Fish Bone Collagen: Oligopeptide Research Reference"
+description: "fish bone collagen in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

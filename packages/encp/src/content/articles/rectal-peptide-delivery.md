@@ -1,6 +1,6 @@
 ---
-title: "Rectal Peptide Delivery"
-description: "Rectal delivery systems for peptide drugs avoiding first-pass metabolism."
+title: "Rectal Peptide Delivery: Oligopeptide Research Reference"
+description: "Rectal delivery systems for peptide drugs avoiding first-pass metabolism. This peptide or oligopeptide is studied for its biological activity, structure-acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

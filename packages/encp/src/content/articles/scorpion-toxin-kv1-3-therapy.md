@@ -1,6 +1,6 @@
 ---
-title: "Scorpion Toxin Kv1.3 Therapy"
-description: "Therapeutic potential of Kv1.3-blocking scorpion toxins for autoimmune diseases."
+title: "Scorpion Toxin Kv1.3 Therapy: Comprehensive Peptide Refer..."
+description: "Therapeutic potential of Kv1.3-blocking scorpion toxins for autoimmune diseases. This peptide toxin is derived from venom and studied for its pharmacological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

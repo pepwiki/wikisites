@@ -1,6 +1,6 @@
 ---
 title: "Defensin Microbiome Interaction"
-description: "Role of defensins in shaping commensal microbiome and preventing pathogen colonization."
+description: "Role of defensins in shaping commensal microbiome and preventing pathogen colonization. This antimicrobial peptide demonstrates activity against pathogens an..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

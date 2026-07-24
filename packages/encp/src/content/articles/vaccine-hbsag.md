@@ -1,6 +1,6 @@
 ---
-title: "HBsAg Vaccine"
-description: "A peptide vaccine targeting HBsAg for infectious disease prevention."
+title: "HBsAg Vaccine: Oligopeptide Research Reference"
+description: "A peptide vaccine targeting HBsAg for infectious disease prevention. This peptide or oligopeptide is studied for its biological activity, structure-activity ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Native Chemical Ligation"
-description: "Cys + thioester → native peptide bond. Enables protein synthesis up to ~200 aa."
+title: "Native Chemical Ligation: Oligopeptide Research Reference"
+description: "Cys + thioester → native peptide bond. Enables protein synthesis up to ~200 aa. This peptide or oligopeptide is studied for its biological activity, structur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

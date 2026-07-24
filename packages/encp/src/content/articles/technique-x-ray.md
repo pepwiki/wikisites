@@ -1,6 +1,6 @@
 ---
-title: "X-ray for Peptides"
-description: "Application of X-ray technique for peptide characterization, structure determination, or formulation."
+title: "X-ray for Peptides: Analytical Technique in Peptide Research"
+description: "Application of X-ray technique for peptide characterization, structure determination, or formulation. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

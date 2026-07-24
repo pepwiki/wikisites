@@ -1,6 +1,6 @@
 ---
 title: "Metabolic Syndrome and Peptides"
-description: "Discover peptide approaches to metabolic syndrome including insulin sensitizers and lipid-modulating peptides."
+description: "Discover peptide approaches to metabolic syndrome including insulin sensitizers and lipid-modulating peptides. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

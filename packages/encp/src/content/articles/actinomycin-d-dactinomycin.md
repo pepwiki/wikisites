@@ -1,6 +1,6 @@
 ---
-title: "Dactinomycin (Actinomycin D)"
-description: "Polyketide-peptide antitumor antibiotic that intercalates DNA and inhibits transcription, used for childhood cancers."
+title: "Dactinomycin (Actinomycin D): Comprehensive Peptide Refer..."
+description: "Polyketide-peptide antitumor antibiotic that intercalates DNA and inhibits transcription, used for childhood cancers. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

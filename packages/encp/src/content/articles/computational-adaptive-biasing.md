@@ -1,6 +1,6 @@
 ---
-title: "Adaptive Biasing for Peptides"
-description: "A computational method for studying peptides using Adaptive Biasing."
+title: "Adaptive Biasing for Peptides: Comprehensive Peptide Refe..."
+description: "A computational method for studying peptides using Adaptive Biasing. This analytical technique provides valuable insights into peptide structure, purity, and..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

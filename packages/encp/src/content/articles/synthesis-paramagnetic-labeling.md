@@ -1,6 +1,6 @@
 ---
 title: "Paramagnetic Labeling Synthesis"
-description: "A peptide synthesis method using Paramagnetic Labeling for producing peptides with specific properties."
+description: "A peptide synthesis method using Paramagnetic Labeling for producing peptides with specific properties. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

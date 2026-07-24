@@ -1,6 +1,6 @@
 ---
-title: "IL-6 (Interleukin-6)"
-description: "Comprehensive reference for IL-6 (Interleukin-6), a peptide compound with applications in research and therapeutics."
+title: "IL-6 (Interleukin-6): Oligopeptide Research Reference"
+description: "IL-6 (Interleukin-6), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

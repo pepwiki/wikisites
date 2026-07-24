@@ -1,6 +1,6 @@
 ---
-title: "Procalcitonin (PCT)"
-description: "Comprehensive reference for Procalcitonin (PCT), a peptide compound with applications in research and therapeutics."
+title: "Procalcitonin (PCT): Oligopeptide Research Reference"
+description: "Procalcitonin (PCT), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

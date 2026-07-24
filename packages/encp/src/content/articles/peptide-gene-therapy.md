@@ -1,6 +1,6 @@
 ---
-title: "Peptide Gene Therapy"
-description: "Peptides as delivery vehicles and modulators in gene therapy applications."
+title: "Peptide Gene Therapy: Oligopeptide Research Reference"
+description: "Peptides as delivery vehicles and modulators in gene therapy applications. This peptide or oligopeptide is studied for its biological activity, structure-act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

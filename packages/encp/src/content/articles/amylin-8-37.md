@@ -1,6 +1,6 @@
 ---
-title: "Amylin 8 37"
-description: "amylin-8-37 is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation."
+title: "Amylin 8 37: Neuropeptide in Neuroscience Reference"
+description: "amylin-8-37 is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation. This peptide or oligopeptide is studied for its biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

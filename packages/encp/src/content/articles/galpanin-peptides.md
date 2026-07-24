@@ -1,6 +1,6 @@
 ---
-title: "Galpanin Peptides"
-description: "Galanin-like peptides with distinct receptor selectivity and distribution."
+title: "Galpanin Peptides: Receptor Pharmacology Reference"
+description: "Galanin-like peptides with distinct receptor selectivity and distribution. This neuropeptide is involved in neurological signaling and is studied for its rol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

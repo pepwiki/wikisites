@@ -1,6 +1,6 @@
 ---
-title: "Desmin intermediate filament"
-description: "Reference for desmin intermediate filament in peptide research."
+title: "Desmin intermediate filament: Comprehensive Peptide Refer..."
+description: "Comprehensive reference for desmin intermediate filament, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "selectivity Resource"
-description: "The selectivity database or resource for peptide research, providing data on structure, function, and interactions."
+title: "selectivity Resource: Oligopeptide Research Reference"
+description: "The selectivity database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

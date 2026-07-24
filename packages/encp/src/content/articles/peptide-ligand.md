@@ -1,6 +1,6 @@
 ---
-title: "Peptide-Ligand"
-description: "Biotin-streptavidin, His-NiNTA, GST-GSH, FLAG, HA"
+title: "Peptide-Ligand: Oligopeptide Research Reference"
+description: "Biotin-streptavidin, His-NiNTA, GST-GSH, FLAG, HA. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

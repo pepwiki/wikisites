@@ -1,6 +1,6 @@
 ---
-title: "Isopeptide Bonds in Peptides"
-description: "Learn about non-canonical isopeptide bonds in peptide cross-linking and stability."
+title: "Isopeptide Bonds in Peptides: Comprehensive Peptide Refer..."
+description: "Learn about non-canonical isopeptide bonds in peptide cross-linking and stability. This modification affects peptide stability, receptor binding, and biologi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,5 +1,5 @@
 ---
-title: "Chicken Growth Hormone (cGH)"
+title: "Chicken Growth Hormone (cGH): Comprehensive Peptide Refer..."
 description: "Comprehensive reference for Chicken Growth Hormone (cGH), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

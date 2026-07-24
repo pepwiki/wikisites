@@ -1,6 +1,6 @@
 ---
-title: "FTIR Analysis"
-description: "An analytical technique for characterizing peptides using FTIR."
+title: "FTIR Analysis: Analytical Technique in Peptide Research"
+description: "An analytical technique for characterizing peptides using FTIR. This analytical technique provides valuable insights into peptide structure, purity, and char..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

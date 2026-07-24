@@ -1,6 +1,6 @@
 ---
-title: "response-rate Resource"
-description: "The response-rate database or resource for peptide research, providing data on structure, function, and interactions."
+title: "response-rate Resource: Oligopeptide Research Reference"
+description: "The response-rate database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

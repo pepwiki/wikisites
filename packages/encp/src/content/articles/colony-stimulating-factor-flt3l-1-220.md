@@ -1,6 +1,6 @@
 ---
 title: "Colony Stimulating Factor Flt3L-1-220"
-description: "Reference for colony stimulating factor Flt3L-1-220 in peptide research."
+description: "Comprehensive reference for colony stimulating factor Flt3L-1-220, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

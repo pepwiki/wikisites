@@ -1,6 +1,6 @@
 ---
-title: "R21/Matrix-M"
-description: "Comprehensive reference for R21/Matrix-M, a peptide compound with applications in research and therapeutics."
+title: "R21/Matrix-M: Oligopeptide Research Reference"
+description: "R21/Matrix-M, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Histidine Modification"
-description: "Post-translational modifications of Histidine including phosphorylation, methylation, acetylation, and ubiquitination."
+title: "Histidine Modification: Post-Translational Modification R..."
+description: "Post-translational modifications of Histidine including phosphorylation, methylation, acetylation, and ubiquitination. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

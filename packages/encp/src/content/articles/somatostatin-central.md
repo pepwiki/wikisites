@@ -1,6 +1,6 @@
 ---
-title: "Somatostatin Central"
-description: "Hypothalamic and GI peptide inhibiting growth hormone and multiple secretory functions."
+title: "Somatostatin Central: Neuropeptide in Neuroscience Reference"
+description: "Hypothalamic and GI peptide inhibiting growth hormone and multiple secretory functions. This neuropeptide is involved in neurological signaling and is studie..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

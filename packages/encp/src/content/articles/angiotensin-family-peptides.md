@@ -1,6 +1,6 @@
 ---
-title: "Angiotensin Family Peptides"
-description: "Learn about angiotensin I-IV peptides in the renin-angiotensin system and blood pressure regulation."
+title: "Angiotensin Family Peptides: Comprehensive Peptide Reference"
+description: "Learn about angiotensin I-IV peptides in the renin-angiotensin system and blood pressure regulation. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

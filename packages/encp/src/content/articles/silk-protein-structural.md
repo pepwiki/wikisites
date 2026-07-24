@@ -1,6 +1,6 @@
 ---
-title: "Silk Protein / Structural"
-description: "Silk Protein / Structural is a bioactive compound with applications in peptide research and therapeutics."
+title: "Silk Protein / Structural: Comprehensive Peptide Reference"
+description: "Silk Protein / Structural is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its bio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

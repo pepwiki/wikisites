@@ -1,6 +1,6 @@
 ---
-title: "SANS for Peptides"
-description: "Application of SANS technique for peptide characterization, structure determination, or formulation."
+title: "SANS for Peptides: Analytical Technique in Peptide Research"
+description: "Application of SANS technique for peptide characterization, structure determination, or formulation. This analytical technique provides valuable insights int..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

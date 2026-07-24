@@ -1,6 +1,6 @@
 ---
-title: "PTH 1-84 Hypoparathyroidism"
-description: "Full-length parathyroid hormone for hypoparathyroidism replacement providing calcium homeostasis."
+title: "PTH 1-84 Hypoparathyroidism: Comprehensive Peptide Reference"
+description: "Full-length parathyroid hormone for hypoparathyroidism replacement providing calcium homeostasis. This peptide or oligopeptide is studied for its biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

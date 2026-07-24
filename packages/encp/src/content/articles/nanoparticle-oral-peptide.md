@@ -1,6 +1,6 @@
 ---
-title: "Nanoparticle Oral Peptide"
-description: "Polymeric nanoparticles protecting and delivering peptides through intestinal barrier."
+title: "Nanoparticle Oral Peptide: Comprehensive Peptide Reference"
+description: "Polymeric nanoparticles protecting and delivering peptides through intestinal barrier. This peptide or oligopeptide is studied for its biological activity, s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

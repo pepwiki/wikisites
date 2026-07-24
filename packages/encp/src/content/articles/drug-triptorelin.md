@@ -1,6 +1,6 @@
 ---
-title: "Triptorelin"
-description: "Comprehensive reference for triptorelin in peptide research."
+title: "Triptorelin: Oligopeptide Research Reference"
+description: "triptorelin in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Interleukin IL-17B"
-description: "Reference for interleukin IL-17B in peptide research."
+title: "Interleukin IL-17B: Oligopeptide Research Reference"
+description: "Comprehensive reference for interleukin IL-17B, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

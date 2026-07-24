@@ -1,6 +1,6 @@
 ---
 title: "Myticus: Structure, Function, and Significance"
-description: "Myticus peptides are antimicrobial peptides from mussel hemolymph with antifungal and antibacterial properties."
+description: "Myticus peptides are antimicrobial peptides from mussel hemolymph with antifungal and antibacterial properties. Covers molecular mechanisms, biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

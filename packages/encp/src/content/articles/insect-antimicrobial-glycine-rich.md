@@ -1,6 +1,6 @@
 ---
 title: "Insect Antimicrobial / Glycine-rich"
-description: "Insect Antimicrobial / Glycine-rich is a bioactive compound with applications in peptide research and therapeutics."
+description: "Insect Antimicrobial / Glycine-rich is a bioactive compound with applications in peptide research and therapeutics. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

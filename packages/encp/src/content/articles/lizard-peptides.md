@@ -1,6 +1,6 @@
 ---
-title: "Lizard Peptides"
-description: "Diabetes (GLP-1R), Antimicrobial, Vasodilation"
+title: "Lizard Peptides: Oligopeptide Research Reference"
+description: "Diabetes (GLP-1R), Antimicrobial, Vasodilation. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and po..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

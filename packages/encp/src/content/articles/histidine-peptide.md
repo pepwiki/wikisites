@@ -1,6 +1,6 @@
 ---
-title: "Histidine Peptide"
-description: "Histidine (H) is one of the 20 standard amino acids. It plays essential roles in protein structure and function."
+title: "Histidine Peptide: Oligopeptide Research Reference"
+description: "Histidine (H) is one of the 20 standard amino acids. It plays essential roles in protein structure and function. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Pain and Peptides"
-description: "Discover neuropeptide-based analgesic approaches including opioid peptides and substance P antagonists."
+title: "Pain and Peptides: Oligopeptide Research Reference"
+description: "Discover neuropeptide-based analgesic approaches including opioid peptides and substance P antagonists. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

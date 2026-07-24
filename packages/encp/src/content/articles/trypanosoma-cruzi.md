@@ -1,6 +1,6 @@
 ---
-title: "Trypanosoma cruzi"
-description: "Transfers sialic acid to parasite surface"
+title: "Trypanosoma cruzi: Oligopeptide Research Reference"
+description: "Transfers sialic acid to parasite surface. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potenti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

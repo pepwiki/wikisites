@@ -1,6 +1,6 @@
 ---
-title: "Peptide Mimetics"
-description: "Guide to peptide mimetics that replicate natural peptide functions with enhanced properties."
+title: "Peptide Mimetics: Post-Translational Modification Reference"
+description: "Guide to peptide mimetics that replicate natural peptide functions with enhanced properties. This modification affects peptide stability, receptor binding, a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

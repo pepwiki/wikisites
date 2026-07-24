@@ -1,6 +1,6 @@
 ---
 title: "Peptide Therapeutics Article ${i}"
-description: "Advanced peptide therapeutic with applications in metabolic, cardiovascular, or oncological medicine."
+description: "peptide therapeutics 295, a bioactive peptide with documented roles in metabolic regulation, receptor pharmacology, and therapeutic development in modern pep..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

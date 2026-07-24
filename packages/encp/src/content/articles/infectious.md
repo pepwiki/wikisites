@@ -1,6 +1,6 @@
 ---
-title: "Infectious"
-description: "Antimicrobial peptides, viral peptides, diagnostic markers"
+title: "Infectious: Oligopeptide Research Reference"
+description: "Antimicrobial peptides, viral peptides, diagnostic markers. This peptide or oligopeptide is studied for its biological activity, structure-activity relations..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

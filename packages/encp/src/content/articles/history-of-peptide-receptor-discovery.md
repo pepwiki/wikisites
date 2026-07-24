@@ -1,6 +1,6 @@
 ---
 title: "History of Peptide Receptor Discovery"
-description: "How peptide receptors were identified and characterized over the past century."
+description: "How peptide receptors were identified and characterized over the past century. This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

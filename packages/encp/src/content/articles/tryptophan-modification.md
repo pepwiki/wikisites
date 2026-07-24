@@ -1,6 +1,6 @@
 ---
-title: "Tryptophan Modification"
-description: "Post-translational modifications of Tryptophan including phosphorylation, methylation, acetylation, and ubiquitination."
+title: "Tryptophan Modification: Post-Translational Modification ..."
+description: "Post-translational modifications of Tryptophan including phosphorylation, methylation, acetylation, and ubiquitination. Covers molecular mechanisms, biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

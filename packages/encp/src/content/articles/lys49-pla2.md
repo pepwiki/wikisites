@@ -1,6 +1,6 @@
 ---
-title: "Lys49 PLA2"
-description: "Lys49-PLA2 is a snake venom peptide toxin with specific pharmacological activity."
+title: "Lys49 PLA2: Peptide Toxin in Pharmacology Reference"
+description: "Lys49-PLA2 is a snake venom peptide toxin with specific pharmacological activity. This peptide toxin is derived from venom and studied for its pharmacologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

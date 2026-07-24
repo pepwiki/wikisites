@@ -1,6 +1,6 @@
 ---
-title: "MALDI for Peptides"
-description: "Understand MALDI mass spectrometry ionization techniques for peptide molecular weight determination and imaging."
+title: "MALDI for Peptides: Analytical Technique in Peptide Research"
+description: "Understand MALDI mass spectrometry ionization techniques for peptide molecular weight determination and imaging. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Galanin-Related Peptide"
-description: "Shorter galanin family peptide with distinct receptor selectivity."
+title: "Galanin-Related Peptide: Receptor Pharmacology Reference"
+description: "Shorter galanin family peptide with distinct receptor selectivity. This neuropeptide is involved in neurological signaling and is studied for its roles in br..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

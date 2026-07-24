@@ -1,6 +1,6 @@
 ---
-title: "Biocatalytic Synthesis"
-description: "A peptide synthesis method using Biocatalytic for producing peptides with specific properties."
+title: "Biocatalytic Synthesis: Analytical Technique in Peptide R..."
+description: "A peptide synthesis method using Biocatalytic for producing peptides with specific properties. This analytical technique provides valuable insights into pept..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

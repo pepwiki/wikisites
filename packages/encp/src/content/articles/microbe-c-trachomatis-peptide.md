@@ -1,6 +1,6 @@
 ---
-title: "C Trachomatis Peptide"
-description: "A peptide associated with C Trachomatis for research or therapeutic applications."
+title: "C Trachomatis Peptide: Oligopeptide Research Reference"
+description: "A peptide associated with C Trachomatis for research or therapeutic applications. This peptide or oligopeptide is studied for its biological activity, struct..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

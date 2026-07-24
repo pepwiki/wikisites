@@ -1,6 +1,6 @@
 ---
-title: "GPT for Peptides"
-description: "A computational method for studying peptides using GPT."
+title: "GPT for Peptides: Analytical Technique in Peptide Research"
+description: "A computational method for studying peptides using GPT. This analytical technique provides valuable insights into peptide structure, purity, and characteriza..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

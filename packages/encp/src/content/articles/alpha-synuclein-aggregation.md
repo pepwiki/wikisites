@@ -1,6 +1,6 @@
 ---
-title: "Alpha-synuclein aggregation"
-description: "Reference for alpha-synuclein aggregation in peptide research."
+title: "Alpha-synuclein aggregation: Comprehensive Peptide Reference"
+description: "Comprehensive reference for alpha-synuclein aggregation, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

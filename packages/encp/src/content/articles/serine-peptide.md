@@ -1,6 +1,6 @@
 ---
-title: "Serine Peptide"
-description: "Serine (S) is one of the 20 standard amino acids. It plays essential roles in protein structure and function."
+title: "Serine Peptide: Oligopeptide Research Reference"
+description: "Serine (S) is one of the 20 standard amino acids. It plays essential roles in protein structure and function. This peptide or oligopeptide is studied for its..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

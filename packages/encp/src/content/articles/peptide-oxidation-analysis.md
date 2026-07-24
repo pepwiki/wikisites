@@ -1,6 +1,6 @@
 ---
-title: "Peptide oxidation analysis"
-description: "Reference for peptide oxidation analysis in peptide research."
+title: "Peptide oxidation analysis: Comprehensive Peptide Reference"
+description: "Comprehensive reference for peptide oxidation analysis, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

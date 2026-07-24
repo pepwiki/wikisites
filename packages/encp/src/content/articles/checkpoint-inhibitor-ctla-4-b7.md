@@ -1,6 +1,6 @@
 ---
 title: "Checkpoint Inhibitor CTLA-4-B7"
-description: "Reference for checkpoint inhibitor CTLA-4-B7 in peptide research."
+description: "Comprehensive reference for checkpoint inhibitor CTLA-4-B7, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

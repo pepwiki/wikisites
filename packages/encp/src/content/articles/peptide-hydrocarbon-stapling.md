@@ -1,6 +1,6 @@
 ---
-title: "Peptide hydrocarbon stapling"
-description: "Reference for peptide hydrocarbon stapling in peptide research."
+title: "Peptide hydrocarbon stapling: Comprehensive Peptide Refer..."
+description: "Comprehensive reference for peptide hydrocarbon stapling, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

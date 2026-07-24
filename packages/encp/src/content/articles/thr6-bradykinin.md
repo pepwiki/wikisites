@@ -1,6 +1,6 @@
 ---
-title: "Thr6-bradykinin"
-description: "Comprehensive reference for Thr6-bradykinin, a peptide compound with applications in research and therapeutics."
+title: "Thr6-bradykinin: Antimicrobial Peptide Reference"
+description: "Thr6-bradykinin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

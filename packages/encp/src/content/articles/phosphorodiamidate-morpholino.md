@@ -1,6 +1,6 @@
 ---
-title: "Phosphorodiamidate morpholino"
-description: "Reference for phosphorodiamidate morpholino in peptide research."
+title: "Phosphorodiamidate morpholino: Comprehensive Peptide Refe..."
+description: "Comprehensive reference for phosphorodiamidate morpholino, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

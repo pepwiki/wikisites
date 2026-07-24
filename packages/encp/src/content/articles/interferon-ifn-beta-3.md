@@ -1,6 +1,6 @@
 ---
-title: "Interferon IFN-beta-3"
-description: "Reference for interferon IFN-beta-3 in peptide research."
+title: "Interferon IFN-beta-3: Oligopeptide Research Reference"
+description: "Comprehensive reference for interferon IFN-beta-3, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

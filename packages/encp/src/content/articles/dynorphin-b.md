@@ -1,6 +1,6 @@
 ---
-title: "Dynorphin B"
-description: "Prodynorphin-derived opioid with kappa-opioid receptor selectivity."
+title: "Dynorphin B: Neuropeptide in Neuroscience Reference"
+description: "Prodynorphin-derived opioid with kappa-opioid receptor selectivity. This neuropeptide is involved in neurological signaling and is studied for its roles in b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

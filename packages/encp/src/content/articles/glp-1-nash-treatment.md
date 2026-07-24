@@ -1,6 +1,6 @@
 ---
 title: "GLP-1 Agonists in NASH/MASH Treatment"
-description: "Efficacy of GLP-1 receptor agonists in nonalcoholic steatohepatitis including histological improvements."
+description: "Efficacy of GLP-1 receptor agonists in nonalcoholic steatohepatitis including histological improvements. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

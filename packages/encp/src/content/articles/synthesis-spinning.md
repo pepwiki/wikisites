@@ -1,6 +1,6 @@
 ---
-title: "Spinning Synthesis"
-description: "A peptide synthesis method using Spinning for producing peptides with specific properties."
+title: "Spinning Synthesis: Analytical Technique in Peptide Research"
+description: "A peptide synthesis method using Spinning for producing peptides with specific properties. This analytical technique provides valuable insights into peptide ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

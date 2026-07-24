@@ -1,6 +1,6 @@
 ---
-title: "Peptide Nanotechnology"
-description: "Self-assembling peptides and nanostructures for biomedical and materials applications."
+title: "Peptide Nanotechnology: Oligopeptide Research Reference"
+description: "Self-assembling peptides and nanostructures for biomedical and materials applications. This peptide or oligopeptide is studied for its biological activity, s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Nociceptin"
-description: "Endogenous ORL1 receptor agonist structurally related to dynorphin."
+title: "Nociceptin: Neuropeptide in Neuroscience Reference"
+description: "Endogenous ORL1 receptor agonist structurally related to dynorphin. This neuropeptide is involved in neurological signaling and is studied for its roles in b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

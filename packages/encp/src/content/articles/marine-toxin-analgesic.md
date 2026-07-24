@@ -1,6 +1,6 @@
 ---
-title: "Marine Toxin / Analgesic"
-description: "Marine Toxin / Analgesic is a bioactive compound with applications in peptide research and therapeutics."
+title: "Marine Toxin / Analgesic: Oligopeptide Research Reference"
+description: "Marine Toxin / Analgesic is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

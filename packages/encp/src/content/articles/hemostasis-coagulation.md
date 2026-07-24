@@ -1,6 +1,6 @@
 ---
-title: "Hemostasis / Coagulation"
-description: "Hemostasis / Coagulation is a bioactive compound with applications in peptide research and therapeutics."
+title: "Hemostasis / Coagulation: Oligopeptide Research Reference"
+description: "Hemostasis / Coagulation is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

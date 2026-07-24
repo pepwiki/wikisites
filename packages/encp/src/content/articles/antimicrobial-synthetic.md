@@ -1,6 +1,6 @@
 ---
-title: "Antimicrobial Synthetic"
-description: "Engineered antimicrobial peptides"
+title: "Antimicrobial Synthetic: Oligopeptide Research Reference"
+description: "Engineered antimicrobial peptides. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appli..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

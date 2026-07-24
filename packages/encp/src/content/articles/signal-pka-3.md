@@ -1,5 +1,5 @@
 ---
-title: "PKA Pathway Peptide 3"
+title: "PKA Pathway Peptide 3: Oligopeptide Research Reference"
 description: "A peptide involved in the PKA signal transduction pathway, playing roles in cell proliferation, differentiation, or survival."
 status: "published"
 author: "Encyclopeptide Editorial"

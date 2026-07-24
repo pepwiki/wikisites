@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 Assay Cross-Reactivity"
-description: "Analytical considerations for immunoassay cross-reactivity with endogenous GLP-1 and metabolites."
+title: "GLP-1 Assay Cross-Reactivity: Comprehensive Peptide Refer..."
+description: "Analytical considerations for immunoassay cross-reactivity with endogenous GLP-1 and metabolites. This peptide or oligopeptide is studied for its biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

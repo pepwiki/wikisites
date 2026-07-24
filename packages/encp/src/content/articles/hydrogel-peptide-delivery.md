@@ -1,6 +1,6 @@
 ---
-title: "Hydrogel Peptide Delivery"
-description: "Hydrogel matrices for sustained local peptide delivery and tissue engineering."
+title: "Hydrogel Peptide Delivery: Comprehensive Peptide Reference"
+description: "Hydrogel matrices for sustained local peptide delivery and tissue engineering. This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

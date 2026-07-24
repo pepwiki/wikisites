@@ -1,5 +1,5 @@
 ---
-title: "Neurokinin A"
+title: "Neurokinin A: Neuropeptide in Neuroscience Reference"
 description: "Neurokinin A is a tachykinin peptide that activates NK2 receptors to regulate airway function, gastrointestinal motility, and inflammatory responses."
 status: "published"
 author: "Encyclopeptide Editorial"

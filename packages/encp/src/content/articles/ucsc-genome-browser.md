@@ -1,6 +1,6 @@
 ---
-title: "UCSC Genome Browser"
-description: "Genome browser for visualizing genomic data."
+title: "UCSC Genome Browser: Oligopeptide Research Reference"
+description: "Genome browser for visualizing genomic data. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and poten..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

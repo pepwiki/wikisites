@@ -1,6 +1,6 @@
 ---
-title: "Peptide-Aptamer Hybrids"
-description: "Chimeric molecules combining peptide and nucleic acid aptamer elements for enhanced target binding and cellular uptake."
+title: "Peptide-Aptamer Hybrids: Oligopeptide Research Reference"
+description: "Chimeric molecules combining peptide and nucleic acid aptamer elements for enhanced target binding and cellular uptake. Covers molecular mechanisms, biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Plasmin Inhibitor"
-description: "Comprehensive reference for plasmin inhibitor in peptide research."
+title: "Plasmin Inhibitor: Enzyme in Peptide Biology Reference"
+description: "plasmin inhibitor in peptide research. This enzyme plays important roles in peptide metabolism and is studied for its biochemical mechanisms, substrate speci..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

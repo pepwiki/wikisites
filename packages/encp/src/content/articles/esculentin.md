@@ -1,6 +1,6 @@
 ---
-title: "Esculentin"
-description: "Potent frog AMP active against Pseudomonas aeruginosa in wound infections."
+title: "Esculentin: Antimicrobial Peptide Reference"
+description: "Potent frog AMP active against Pseudomonas aeruginosa in wound infections. This antimicrobial peptide demonstrates activity against pathogens and is studied ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

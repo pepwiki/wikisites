@@ -1,6 +1,6 @@
 ---
 title: "Carbohydrate Conjugate System 2"
-description: "A carbohydrate-conjugate-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy."
+description: "A carbohydrate-conjugate-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy.. This innovative approach addresses ke..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

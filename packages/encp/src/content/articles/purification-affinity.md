@@ -1,6 +1,6 @@
 ---
-title: "Affinity Purification"
-description: "A purification technique for separating and isolating peptides using Affinity."
+title: "Affinity Purification: Analytical Technique in Peptide Re..."
+description: "A purification technique for separating and isolating peptides using Affinity. This analytical technique provides valuable insights into peptide structure, p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

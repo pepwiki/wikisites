@@ -1,6 +1,6 @@
 ---
 title: "Peptide-Drug Conjugate Technology"
-description: "Antibody-peptide conjugate and small molecule-peptide conjugate technologies for targeted drug delivery."
+description: "Antibody-peptide conjugate and small molecule-peptide conjugate technologies for targeted drug delivery. This peptide or oligopeptide is studied for its biol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

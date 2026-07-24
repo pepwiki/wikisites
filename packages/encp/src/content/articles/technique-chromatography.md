@@ -1,6 +1,6 @@
 ---
-title: "chromatography for Peptides"
-description: "Application of chromatography technique for peptide characterization, structure determination, or formulation."
+title: "chromatography for Peptides: Comprehensive Peptide Reference"
+description: "Application of chromatography technique for peptide characterization, structure determination, or formulation. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

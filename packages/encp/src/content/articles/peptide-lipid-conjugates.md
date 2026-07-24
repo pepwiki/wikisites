@@ -1,6 +1,6 @@
 ---
-title: "Peptide Lipid Conjugates"
-description: "Lipid conjugation for membrane anchoring and sustained peptide release."
+title: "Peptide Lipid Conjugates: Oligopeptide Research Reference"
+description: "Lipid conjugation for membrane anchoring and sustained peptide release. This peptide or oligopeptide is studied for its biological activity, structure-activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Pulmonary Peptide Delivery"
-description: "Inhaled peptide formulations for lung delivery targeting respiratory or systemic effects."
+title: "Pulmonary Peptide Delivery: Comprehensive Peptide Reference"
+description: "Inhaled peptide formulations for lung delivery targeting respiratory or systemic effects. This peptide or oligopeptide is studied for its biological activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

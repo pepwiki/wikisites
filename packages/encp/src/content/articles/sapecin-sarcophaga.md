@@ -1,6 +1,6 @@
 ---
-title: "Sapecin (Sarcophaga)"
-description: "Comprehensive reference for Sapecin (Sarcophaga), a peptide compound with applications in research and therapeutics."
+title: "Sapecin (Sarcophaga): Oligopeptide Research Reference"
+description: "Sapecin (Sarcophaga), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

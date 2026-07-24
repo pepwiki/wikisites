@@ -1,6 +1,6 @@
 ---
 title: "Adrenomedullin Peptide Hormone"
-description: "The Adrenomedullin Peptide Hormone and its role in endocrine signaling."
+description: "Adrenomedullin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clin..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

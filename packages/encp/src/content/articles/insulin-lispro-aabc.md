@@ -1,6 +1,6 @@
 ---
-title: "Insulin Lispro AABC"
-description: "Concentrated insulin lispro (U-200). Larger doses in smaller volumes."
+title: "Insulin Lispro AABC: Oligopeptide Research Reference"
+description: "Concentrated insulin lispro (U-200). Larger doses in smaller volumes. This peptide or oligopeptide is studied for its biological activity, structure-activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

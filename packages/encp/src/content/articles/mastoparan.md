@@ -1,6 +1,6 @@
 ---
-title: "Mastoparan"
-description: "Honeybee venom amphipathic peptide activating G-proteins and forming membrane pores."
+title: "Mastoparan: Antimicrobial Peptide Reference"
+description: "Honeybee venom amphipathic peptide activating G-proteins and forming membrane pores. This antimicrobial peptide demonstrates activity against pathogens and i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

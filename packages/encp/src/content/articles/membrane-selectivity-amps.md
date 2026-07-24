@@ -1,6 +1,6 @@
 ---
-title: "Membrane Selectivity AMPs"
-description: "Structural basis for selectivity for bacterial over host cell membranes."
+title: "Membrane Selectivity AMPs: Comprehensive Peptide Reference"
+description: "Structural basis for selectivity for bacterial over host cell membranes. This antimicrobial peptide demonstrates activity against pathogens and is studied fo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

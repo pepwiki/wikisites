@@ -1,6 +1,6 @@
 ---
-title: "Transdermal Peptide Delivery"
-description: "Learn transdermal approaches for non-invasive peptide delivery across the skin barrier using chemical enhancers."
+title: "Transdermal Peptide Delivery: Comprehensive Peptide Refer..."
+description: "Learn transdermal approaches for non-invasive peptide delivery across the skin barrier using chemical enhancers. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

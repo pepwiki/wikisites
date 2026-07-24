@@ -1,6 +1,6 @@
 ---
-title: "Attacin E"
-description: "AMP from Hyalophora cecropia with antibacterial activity targeting outer membrane."
+title: "Attacin E: Antimicrobial Peptide Reference"
+description: "AMP from Hyalophora cecropia with antibacterial activity targeting outer membrane. This antimicrobial peptide demonstrates activity against pathogens and is ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Peptide clipping"
-description: "Reference for peptide clipping in peptide research."
+title: "Peptide clipping: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide clipping, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

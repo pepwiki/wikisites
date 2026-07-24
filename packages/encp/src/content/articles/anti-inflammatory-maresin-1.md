@@ -1,6 +1,6 @@
 ---
-title: "Maresin 1"
-description: "Comprehensive reference for maresin 1 in peptide research."
+title: "Maresin 1: Oligopeptide Research Reference"
+description: "maresin 1 in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicati..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

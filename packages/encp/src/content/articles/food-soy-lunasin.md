@@ -1,6 +1,6 @@
 ---
-title: "Soy Lunasin"
-description: "Comprehensive reference for soy lunasin in peptide research."
+title: "Soy Lunasin: Oligopeptide Research Reference"
+description: "soy lunasin in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

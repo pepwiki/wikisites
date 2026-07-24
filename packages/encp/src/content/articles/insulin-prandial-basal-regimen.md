@@ -1,6 +1,6 @@
 ---
-title: "Basal-Bolus Insulin Regimens"
-description: "Intensive insulin therapy combining basal insulin analogue with rapid-acting prandial insulin doses."
+title: "Basal-Bolus Insulin Regimens: Comprehensive Peptide Refer..."
+description: "Intensive insulin therapy combining basal insulin analogue with rapid-acting prandial insulin doses. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

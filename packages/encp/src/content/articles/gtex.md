@@ -1,6 +1,6 @@
 ---
-title: "GTEx"
-description: "Genotype-Tissue Expression database for studying gene expression across tissues."
+title: "GTEx: Oligopeptide Research Reference"
+description: "Genotype-Tissue Expression database for studying gene expression across tissues. This peptide or oligopeptide is studied for its biological activity, structu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

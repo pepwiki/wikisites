@@ -1,6 +1,6 @@
 ---
-title: "Morphine-3-Glucuronide"
-description: "Morphine metabolite with neuroexcitatory effects opposing M6G."
+title: "Morphine-3-Glucuronide: Neuropeptide in Neuroscience Refe..."
+description: "Morphine metabolite with neuroexcitatory effects opposing M6G. This neuropeptide is involved in neurological signaling and is studied for its roles in brain ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

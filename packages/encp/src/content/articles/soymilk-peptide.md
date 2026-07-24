@@ -1,5 +1,5 @@
 ---
-title: "Soymilk Peptide"
+title: "Soymilk Peptide: Oligopeptide Research Reference"
 description: "soymilk-peptide is a bioactive peptide with potential health benefits including antihypertensive, antioxidant, or neuroprotective properties."
 status: "published"
 author: "Encyclopeptide Editorial"

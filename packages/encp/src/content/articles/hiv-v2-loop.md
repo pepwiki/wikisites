@@ -1,6 +1,6 @@
 ---
-title: "HIV V2 Loop"
-description: "HIV-V2-loop is a peptide antigen used in vaccine development for infectious disease prevention."
+title: "HIV V2 Loop: Oligopeptide Research Reference"
+description: "HIV-V2-loop is a peptide antigen used in vaccine development for infectious disease prevention. This peptide or oligopeptide is studied for its biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

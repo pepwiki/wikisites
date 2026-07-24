@@ -1,5 +1,5 @@
 ---
-title: "Spodoptericin (Spodoptera)"
+title: "Spodoptericin (Spodoptera): Comprehensive Peptide Reference"
 description: "Comprehensive reference for Spodoptericin (Spodoptera), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

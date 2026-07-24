@@ -1,6 +1,6 @@
 ---
 title: "Analysis Technology Comparison"
-description: "Comparison of different analytical technologies for peptide characterization."
+description: "Comparison of different analytical technologies for peptide characterization. This peptide or oligopeptide is studied for its biological activity, structure-..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "LNPSLYD"
-description: "Semi-synthetic"
+title: "LNPSLYD: Oligopeptide Research Reference"
+description: "Semi-synthetic. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in biomedic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,5 +1,5 @@
 ---
-title: "Triptorelin Sustained Release"
+title: "Triptorelin Sustained Release: Comprehensive Peptide Refe..."
 description: "Long-acting triptorelin depot formulations for sustained GnRH receptor suppression in prostate cancer and central precocious puberty."
 status: "published"
 author: "Encyclopeptide Editorial"

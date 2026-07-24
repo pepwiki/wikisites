@@ -1,6 +1,6 @@
 ---
-title: "Tumor Marker CA125"
-description: "Comprehensive reference for tumor marker CA125 in peptide research."
+title: "Tumor Marker CA125: Oligopeptide Research Reference"
+description: "tumor marker CA125 in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,5 +1,5 @@
 ---
-title: "Cecropin A"
+title: "Cecropin A: Antimicrobial Peptide Reference"
 description: "Insect antimicrobial peptide from the cecropia moth that pioneered innate immunity research and inspired peptide antibiotic development."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,6 +1,6 @@
 ---
-title: "Oxytocin"
-description: "A 9-amino acid neuropeptide hormone produced in the hypothalamus and released from the posterior pituitary, mediating uterine contraction, milk ejection, social bonding, and trust."
+title: "Oxytocin: Endogenous Peptide Hormone Reference"
+description: "A 9-amino acid neuropeptide hormone produced in the hypothalamus and released from the posterior pituitary, mediating uterine contraction, milk ejection, soc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

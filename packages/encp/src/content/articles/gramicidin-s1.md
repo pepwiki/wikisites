@@ -1,5 +1,5 @@
 ---
-title: "Gramicidin S1"
+title: "Gramicidin S1: Antimicrobial Peptide Reference"
 description: "gramicidin-S1 is a peptide antibiotic produced by bacteria with antimicrobial activity used in clinical and agricultural applications."
 status: "published"
 author: "Encyclopeptide Editorial"

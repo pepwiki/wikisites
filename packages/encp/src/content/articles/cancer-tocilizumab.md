@@ -1,6 +1,6 @@
 ---
-title: "Tocilizumab"
-description: "Comprehensive reference for tocilizumab in peptide research."
+title: "Tocilizumab: Oligopeptide Research Reference"
+description: "tocilizumab in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

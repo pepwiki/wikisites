@@ -1,6 +1,6 @@
 ---
-title: "Spexin"
-description: "Novel neuropeptide with anorexigenic and GI motility effects."
+title: "Spexin: Neuropeptide in Neuroscience Reference"
+description: "Novel neuropeptide with anorexigenic and GI motility effects. This neuropeptide is involved in neurological signaling and is studied for its roles in brain f..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

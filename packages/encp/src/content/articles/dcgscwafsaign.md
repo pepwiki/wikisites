@@ -1,6 +1,6 @@
 ---
-title: "DCGSCWAFSAIGN"
-description: "Trypanosoma cruzi"
+title: "DCGSCWAFSAIGN: Oligopeptide Research Reference"
+description: "Trypanosoma cruzi. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in biome..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

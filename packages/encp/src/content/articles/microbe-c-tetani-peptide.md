@@ -1,6 +1,6 @@
 ---
-title: "C Tetani Peptide"
-description: "A peptide associated with C Tetani for research or therapeutic applications."
+title: "C Tetani Peptide: Oligopeptide Research Reference"
+description: "A peptide associated with C Tetani for research or therapeutic applications. This peptide or oligopeptide is studied for its biological activity, structure-a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

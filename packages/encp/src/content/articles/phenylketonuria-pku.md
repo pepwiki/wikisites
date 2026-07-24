@@ -1,6 +1,6 @@
 ---
-title: "Phenylketonuria (PKU)"
-description: "Comprehensive reference for Phenylketonuria (PKU), a peptide compound with applications in research and therapeutics."
+title: "Phenylketonuria (PKU): Oligopeptide Research Reference"
+description: "Phenylketonuria (PKU), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

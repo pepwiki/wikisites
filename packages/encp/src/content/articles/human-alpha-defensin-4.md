@@ -1,6 +1,6 @@
 ---
-title: "Human Alpha-Defensin 4"
-description: "Neutrophil defensin with activity against intracellular pathogens including tuberculosis."
+title: "Human Alpha-Defensin 4: Antimicrobial Peptide Reference"
+description: "Neutrophil defensin with activity against intracellular pathogens including tuberculosis. This antimicrobial peptide demonstrates activity against pathogens ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

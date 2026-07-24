@@ -1,6 +1,6 @@
 ---
-title: "Peptide deamidation analysis"
-description: "Reference for peptide deamidation analysis in peptide research."
+title: "Peptide deamidation analysis: Comprehensive Peptide Refer..."
+description: "Comprehensive reference for peptide deamidation analysis, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

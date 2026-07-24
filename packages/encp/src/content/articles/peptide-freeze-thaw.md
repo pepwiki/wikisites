@@ -1,6 +1,6 @@
 ---
 title: "Peptide Stability in Freeze-Thaw Cycles"
-description: "Freeze-thaw cycles induce peptide aggregation and denaturation requiring cryoprotectant optimization and formulation strategies to maintain structural integrity during storage."
+description: "Freeze-thaw cycles induce peptide aggregation and denaturation requiring cryoprotectant optimization and formulation strategies to maintain structural integr..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-05-15

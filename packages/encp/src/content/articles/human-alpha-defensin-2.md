@@ -1,6 +1,6 @@
 ---
-title: "Human Alpha-Defensin 2"
-description: "Neutrophil defensin with broad-spectrum bactericidal activity in phagolysosomal killing."
+title: "Human Alpha-Defensin 2: Antimicrobial Peptide Reference"
+description: "Neutrophil defensin with broad-spectrum bactericidal activity in phagolysosomal killing. This antimicrobial peptide demonstrates activity against pathogens a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

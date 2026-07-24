@@ -1,6 +1,6 @@
 ---
-title: "Oncology"
-description: "Clinical trials for cancer."
+title: "Oncology: Oligopeptide Research Reference"
+description: "Clinical trials for cancer. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

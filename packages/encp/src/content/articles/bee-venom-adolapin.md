@@ -1,6 +1,6 @@
 ---
-title: "Bee Venom Adolapin"
-description: "Anti-inflammatory peptide from bee venom inhibiting cyclooxygenase activity."
+title: "Bee Venom Adolapin: Peptide Toxin in Pharmacology Reference"
+description: "Anti-inflammatory peptide from bee venom inhibiting cyclooxygenase activity. This peptide toxin is derived from venom and studied for its pharmacological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

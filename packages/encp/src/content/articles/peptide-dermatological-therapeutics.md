@@ -1,6 +1,6 @@
 ---
 title: "Peptide Dermatological Therapeutics"
-description: "Therapeutic peptides for skin conditions including wound healing, anti-scarring, and anti-inflammatory treatments."
+description: "Therapeutic peptides for skin conditions including wound healing, anti-scarring, and anti-inflammatory treatments. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

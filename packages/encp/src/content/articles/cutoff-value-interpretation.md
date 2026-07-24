@@ -1,5 +1,5 @@
 ---
-title: "Cutoff Value Interpretation"
+title: "Cutoff Value Interpretation: Comprehensive Peptide Reference"
 description: "Comprehensive reference for Cutoff Value Interpretation, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

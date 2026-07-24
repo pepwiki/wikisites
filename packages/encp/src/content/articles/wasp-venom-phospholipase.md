@@ -1,6 +1,6 @@
 ---
-title: "Wasp Venom Phospholipase"
-description: "Phospholipase enzymes from wasp venom contributing to tissue damage."
+title: "Wasp Venom Phospholipase: Peptide Toxin in Pharmacology R..."
+description: "Phospholipase enzymes from wasp venom contributing to tissue damage. This peptide toxin is derived from venom and studied for its pharmacological activity, m..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

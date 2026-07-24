@@ -1,5 +1,5 @@
 ---
-title: "Neuropeptide S"
+title: "Neuropeptide S: Neuropeptide in Neuroscience Reference"
 description: "A 20-amino acid neuropeptide that promotes wakefulness and anxiolysis through NPSR1 receptor activation, with genetic variants linked to asthma and anxiety."
 status: "published"
 author: "Encyclopeptide Editorial"

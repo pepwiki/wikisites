@@ -1,6 +1,6 @@
 ---
-title: "GC MS Analysis"
-description: "An analytical technique for characterizing peptides using GC MS."
+title: "GC MS Analysis: Analytical Technique in Peptide Research"
+description: "An analytical technique for characterizing peptides using GC MS. This analytical technique provides valuable insights into peptide structure, purity, and cha..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
 title: "Food Bioactive Library food-bioactive-34"
-description: "Reference for food bioactive library food-bioactive-34 in peptide research."
+description: "Comprehensive reference for food bioactive library food-bioactive-34, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

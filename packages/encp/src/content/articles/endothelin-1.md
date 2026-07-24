@@ -1,6 +1,6 @@
 ---
-title: "Endothelin 1"
-description: "Potent vasoconstrictor 21-amino acid peptide from endothelial cells that regulates vascular tone and blood pressure."
+title: "Endothelin 1: Oligopeptide Research Reference"
+description: "Potent vasoconstrictor 21-amino acid peptide from endothelial cells that regulates vascular tone and blood pressure. Covers molecular mechanisms, biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

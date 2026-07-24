@@ -1,6 +1,6 @@
 ---
-title: "BCL XL Inhibitor PDC"
-description: "A peptide-drug conjugate targeting BCL XL Inhibitor for selective drug delivery."
+title: "BCL XL Inhibitor PDC: Oligopeptide Research Reference"
+description: "A peptide-drug conjugate targeting BCL XL Inhibitor for selective drug delivery. This peptide or oligopeptide is studied for its biological activity, structu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

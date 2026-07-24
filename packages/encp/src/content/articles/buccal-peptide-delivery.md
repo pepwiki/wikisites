@@ -1,6 +1,6 @@
 ---
-title: "Buccal Peptide Delivery"
-description: "Buccal adhesive systems for sustained peptide delivery through cheek mucosa."
+title: "Buccal Peptide Delivery: Oligopeptide Research Reference"
+description: "Buccal adhesive systems for sustained peptide delivery through cheek mucosa. This peptide or oligopeptide is studied for its biological activity, structure-a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

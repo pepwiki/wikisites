@@ -1,6 +1,6 @@
 ---
 title: "Inhibin and Activin Family Peptides"
-description: "Guide to inhibin and activin peptides in TGF-beta signaling and reproductive biology."
+description: "Guide to inhibin and activin peptides in TGF-beta signaling and reproductive biology. This peptide or oligopeptide is studied for its biological activity, st..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

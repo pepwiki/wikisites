@@ -1,6 +1,6 @@
 ---
-title: "Lofentanil Long-Acting"
-description: "Extremely potent long-acting synthetic opioid analog."
+title: "Lofentanil Long-Acting: Neuropeptide in Neuroscience Refe..."
+description: "Extremely potent long-acting synthetic opioid analog. This neuropeptide is involved in neurological signaling and is studied for its roles in brain function,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

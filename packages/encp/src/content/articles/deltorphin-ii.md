@@ -1,5 +1,5 @@
 ---
-title: "Deltorphin II"
+title: "Deltorphin II: Neuropeptide in Neuroscience Reference"
 description: "deltorphin-II is an opioid neuropeptide that modulates pain, reward, and stress responses through opioid receptor activation."
 status: "published"
 author: "Encyclopeptide Editorial"

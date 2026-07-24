@@ -1,6 +1,6 @@
 ---
-title: "AMP Immunomodulation"
-description: "Immunomodulatory functions including chemokine activity and cytokine induction."
+title: "AMP Immunomodulation: Antimicrobial Peptide Reference"
+description: "Immunomodulatory functions including chemokine activity and cytokine induction. This antimicrobial peptide demonstrates activity against pathogens and is stu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "SPR Analysis"
-description: "An analytical technique for characterizing peptides using SPR."
+title: "SPR Analysis: Analytical Technique in Peptide Research"
+description: "An analytical technique for characterizing peptides using SPR. This analytical technique provides valuable insights into peptide structure, purity, and chara..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

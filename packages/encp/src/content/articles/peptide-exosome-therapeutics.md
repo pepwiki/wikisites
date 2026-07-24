@@ -1,6 +1,6 @@
 ---
-title: "Peptide-Exosome Therapeutics"
-description: "Exosome-based delivery of therapeutic peptides using natural extracellular vesicles as biocompatible carriers."
+title: "Peptide-Exosome Therapeutics: Comprehensive Peptide Refer..."
+description: "Exosome-based delivery of therapeutic peptides using natural extracellular vesicles as biocompatible carriers. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

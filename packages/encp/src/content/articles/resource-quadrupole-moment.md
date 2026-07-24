@@ -1,5 +1,5 @@
 ---
-title: "quadrupole-moment Resource"
+title: "quadrupole-moment Resource: Comprehensive Peptide Reference"
 description: "The quadrupole-moment database or resource for peptide research, providing data on structure, function, and interactions."
 status: "published"
 author: "Encyclopeptide Editorial"

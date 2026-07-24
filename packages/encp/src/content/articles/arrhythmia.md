@@ -1,6 +1,6 @@
 ---
-title: "Arrhythmia"
-description: "Comprehensive reference for Arrhythmia, a peptide compound with applications in research and therapeutics."
+title: "Arrhythmia: Oligopeptide Research Reference"
+description: "Arrhythmia, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

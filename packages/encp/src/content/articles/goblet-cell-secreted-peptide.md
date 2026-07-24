@@ -1,6 +1,6 @@
 ---
-title: "Goblet Cell Secreted Peptide"
-description: "Mucin-associated antimicrobial peptide from goblet cells in mucus layer defense."
+title: "Goblet Cell Secreted Peptide: Comprehensive Peptide Refer..."
+description: "Mucin-associated antimicrobial peptide from goblet cells in mucus layer defense. This antimicrobial peptide demonstrates activity against pathogens and is st..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

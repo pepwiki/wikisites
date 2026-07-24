@@ -1,5 +1,5 @@
 ---
-title: "exploratory-endpoint Resource"
+title: "exploratory-endpoint Resource: Comprehensive Peptide Refe..."
 description: "The exploratory-endpoint database or resource for peptide research, providing data on structure, function, and interactions."
 status: "published"
 author: "Encyclopeptide Editorial"

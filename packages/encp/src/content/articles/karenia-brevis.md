@@ -1,6 +1,6 @@
 ---
-title: "Karenia brevis"
-description: "Activates Na+ channel (site 5), persistent opening"
+title: "Karenia brevis: Oligopeptide Research Reference"
+description: "Activates Na+ channel (site 5), persistent opening. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, an..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

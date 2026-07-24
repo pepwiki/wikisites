@@ -1,6 +1,6 @@
 ---
-title: "Vasoactive Intestinal Peptide"
-description: "28-amino acid neuropeptide causing vasodilation and chloride secretion in intestine."
+title: "Vasoactive Intestinal Peptide: Comprehensive Peptide Refe..."
+description: "28-amino acid neuropeptide causing vasodilation and chloride secretion in intestine. This neuropeptide is involved in neurological signaling and is studied f..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

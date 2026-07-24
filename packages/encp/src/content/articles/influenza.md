@@ -1,6 +1,6 @@
 ---
-title: "Influenza"
-description: "Influenza A/B virus. Treatments: oseltamivir, baloxavir."
+title: "Influenza: Oligopeptide Research Reference"
+description: "Influenza A/B virus. Treatments: oseltamivir, baloxavir. This peptide or oligopeptide is studied for its biological activity, structure-activity relationship..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Aldosterone Peptide Hormone"
-description: "The Aldosterone Peptide Hormone and its role in endocrine signaling."
+title: "Aldosterone Peptide Hormone: Comprehensive Peptide Reference"
+description: "Aldosterone, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

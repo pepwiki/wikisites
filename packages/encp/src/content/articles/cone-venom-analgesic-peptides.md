@@ -1,6 +1,6 @@
 ---
-title: "Cone Venom Analgesic Peptides"
-description: "Conotoxins with potent analgesic activity for chronic pain treatment."
+title: "Cone Venom Analgesic Peptides: Comprehensive Peptide Refe..."
+description: "Conotoxins with potent analgesic activity for chronic pain treatment. This peptide toxin is derived from venom and studied for its pharmacological activity, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

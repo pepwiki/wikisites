@@ -1,6 +1,6 @@
 ---
-title: "Peptide SUMOylation Sites"
-description: "Guide to SUMO modification of peptides in nuclear transport and transcriptional regulation."
+title: "Peptide SUMOylation Sites: Comprehensive Peptide Reference"
+description: "Guide to SUMO modification of peptides in nuclear transport and transcriptional regulation. This modification affects peptide stability, receptor binding, an..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

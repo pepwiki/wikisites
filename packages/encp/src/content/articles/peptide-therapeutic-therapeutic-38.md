@@ -1,6 +1,6 @@
 ---
 title: "Peptide Therapeutic therapeutic-38"
-description: "Reference for peptide therapeutic therapeutic-38 in peptide research."
+description: "Comprehensive reference for peptide therapeutic therapeutic-38, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

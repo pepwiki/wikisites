@@ -1,6 +1,6 @@
 ---
 title: "Glutathione: The Master Antioxidant"
-description: "Comprehensive reference for glutathione (GSH), the most abundant tripeptide in mammalian cells, covering molecular structure, biosynthesis, redox chemistry, and clinical significance."
+description: "glutathione (GSH), the most abundant tripeptide in mammalian cells, covering molecular structure, biosynthesis, redox chemistry, and clinical significance"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-01-15

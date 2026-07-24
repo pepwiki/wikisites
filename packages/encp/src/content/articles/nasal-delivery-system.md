@@ -1,6 +1,6 @@
 ---
-title: "Nasal delivery system"
-description: "Reference for nasal delivery system in peptide research."
+title: "Nasal delivery system: Oligopeptide Research Reference"
+description: "Comprehensive reference for nasal delivery system, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "safety-profile Resource"
-description: "The safety-profile database or resource for peptide research, providing data on structure, function, and interactions."
+title: "safety-profile Resource: Oligopeptide Research Reference"
+description: "The safety-profile database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

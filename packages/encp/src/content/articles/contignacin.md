@@ -1,6 +1,6 @@
 ---
-title: "Contignacin"
-description: "contignacin is a conotoxin from cone snail venom with specific ion channel blocking properties."
+title: "Contignacin: Peptide Toxin in Pharmacology Reference"
+description: "contignacin is a conotoxin from cone snail venom with specific ion channel blocking properties. This peptide toxin is derived from venom and studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

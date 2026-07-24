@@ -1,6 +1,6 @@
 ---
-title: "α-Conotoxin MI"
-description: "Comprehensive reference for α-Conotoxin MI, a peptide compound with applications in research and therapeutics."
+title: "α-Conotoxin MI: Peptide Toxin in Pharmacology Reference"
+description: "α-Conotoxin MI, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

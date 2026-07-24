@@ -1,6 +1,6 @@
 ---
 title: "Hydrogen-Deuterium Exchange for Peptides"
-description: "Explore HDX-MS techniques for mapping peptide dynamics, binding interfaces, and conformational changes."
+description: "Explore HDX-MS techniques for mapping peptide dynamics, binding interfaces, and conformational changes. This peptide or oligopeptide is studied for its biolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

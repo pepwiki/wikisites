@@ -1,6 +1,6 @@
 ---
-title: "Replica Exchange for Peptides"
-description: "A computational method for studying peptides using Replica Exchange."
+title: "Replica Exchange for Peptides: Comprehensive Peptide Refe..."
+description: "A computational method for studying peptides using Replica Exchange. This analytical technique provides valuable insights into peptide structure, purity, and..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

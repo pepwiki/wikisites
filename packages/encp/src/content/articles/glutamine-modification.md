@@ -1,6 +1,6 @@
 ---
-title: "Glutamine Modification"
-description: "Post-translational modifications of Glutamine including phosphorylation, methylation, acetylation, and ubiquitination."
+title: "Glutamine Modification: Post-Translational Modification R..."
+description: "Post-translational modifications of Glutamine including phosphorylation, methylation, acetylation, and ubiquitination. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

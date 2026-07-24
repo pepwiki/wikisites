@@ -1,6 +1,6 @@
 ---
 title: "Peptide Hormone Replacement Therapy"
-description: "Clinical use of peptide hormones for replacement therapy in endocrine deficiency disorders."
+description: "Clinical use of peptide hormones for replacement therapy in endocrine deficiency disorders. This endogenous peptide hormone plays important roles in physiolo..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
 title: "Circular Dichroism for Peptides"
-description: "Discover circular dichroism spectroscopy for analyzing peptide secondary structure and conformational changes."
+description: "Discover circular dichroism spectroscopy for analyzing peptide secondary structure and conformational changes. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

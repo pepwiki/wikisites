@@ -1,6 +1,6 @@
 ---
-title: "Sacituzumab Govitecan"
-description: "Anti-Trop-2 antibody-drug conjugate with SN-38 payload for triple-negative breast cancer and urothelial cancer."
+title: "Sacituzumab Govitecan: Oligopeptide Research Reference"
+description: "Anti-Trop-2 antibody-drug conjugate with SN-38 payload for triple-negative breast cancer and urothelial cancer. Covers molecular mechanisms, biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

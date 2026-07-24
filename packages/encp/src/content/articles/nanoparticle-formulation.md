@@ -1,5 +1,5 @@
 ---
-title: "Nanoparticle Formulation"
+title: "Nanoparticle Formulation: Oligopeptide Research Reference"
 description: "Comprehensive reference for Nanoparticle Formulation, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

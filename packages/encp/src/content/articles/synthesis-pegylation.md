@@ -1,6 +1,6 @@
 ---
-title: "PEGylation Synthesis"
-description: "A peptide synthesis method using PEGylation for producing peptides with specific properties."
+title: "PEGylation Synthesis: Analytical Technique in Peptide Res..."
+description: "A peptide synthesis method using PEGylation for producing peptides with specific properties. This analytical technique provides valuable insights into peptid..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

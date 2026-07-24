@@ -1,6 +1,6 @@
 ---
-title: "Temporin A"
-description: "Shortest known natural antimicrobial peptide from frog skin with potent activity against gram-positive bacteria."
+title: "Temporin A: Antimicrobial Peptide Reference"
+description: "Shortest known natural antimicrobial peptide from frog skin with potent activity against gram-positive bacteria. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

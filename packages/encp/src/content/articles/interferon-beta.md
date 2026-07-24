@@ -1,5 +1,5 @@
 ---
-title: "Interferon Beta"
+title: "Interferon Beta: Oligopeptide Research Reference"
 description: "Type I interferon for multiple sclerosis that reduces relapse rate through immunomodulatory and anti-inflammatory mechanisms."
 status: "published"
 author: "Encyclopeptide Editorial"

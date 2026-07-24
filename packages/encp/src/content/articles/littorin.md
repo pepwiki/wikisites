@@ -1,6 +1,6 @@
 ---
 title: "Littorin: Structure, Function, and Significance"
-description: "Littorin is an antimicrobial peptide from the periwinkle snail with broad-spectrum antimicrobial activity."
+description: "Littorin is an antimicrobial peptide from the periwinkle snail with broad-spectrum antimicrobial activity. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

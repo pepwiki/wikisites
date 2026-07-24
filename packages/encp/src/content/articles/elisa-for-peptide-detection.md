@@ -1,6 +1,6 @@
 ---
-title: "ELISA for Peptide Detection"
-description: "Learn enzyme-linked immunosorbent assay methods for sensitive quantitative peptide detection in biological samples."
+title: "ELISA for Peptide Detection: Comprehensive Peptide Reference"
+description: "Learn enzyme-linked immunosorbent assay methods for sensitive quantitative peptide detection in biological samples. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

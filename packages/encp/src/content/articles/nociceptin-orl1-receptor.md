@@ -1,6 +1,6 @@
 ---
-title: "Nociceptin ORL1 Receptor"
-description: "ORL1 receptor activated by nociceptin in pain, anxiety, and reward."
+title: "Nociceptin ORL1 Receptor: Receptor Pharmacology Reference"
+description: "ORL1 receptor activated by nociceptin in pain, anxiety, and reward. This neuropeptide is involved in neurological signaling and is studied for its roles in b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

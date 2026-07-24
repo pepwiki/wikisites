@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 Receptor Agonists"
-description: "GLP-1 receptor agonism, glucose-dependent insulin secretion, appetite suppression"
+title: "GLP-1 Receptor Agonists: Oligopeptide Research Reference"
+description: "GLP-1 receptor agonism, glucose-dependent insulin secretion, appetite suppression. This peptide or oligopeptide is studied for its biological activity, struc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

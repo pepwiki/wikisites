@@ -1,6 +1,6 @@
 ---
-title: "Enzyme Cleavable Purification"
-description: "A purification technique for separating and isolating peptides using Enzyme Cleavable."
+title: "Enzyme Cleavable Purification: Comprehensive Peptide Refe..."
+description: "A purification technique for separating and isolating peptides using Enzyme Cleavable. This analytical technique provides valuable insights into peptide stru..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "GHK-Cu"
-description: "Glycyl-L-histidyl-L-lysine copper complex. Wound healing, anti-aging. Stimulates collagen synthesis."
+title: "GHK-Cu: Oligopeptide Research Reference"
+description: "Glycyl-L-histidyl-L-lysine copper complex. Wound healing, anti-aging. Stimulates collagen synthesis. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

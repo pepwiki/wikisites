@@ -1,6 +1,6 @@
 ---
 title: "FTIR Spectroscopy for Peptides"
-description: "Learn FTIR spectroscopy techniques for analyzing peptide secondary structure through amide bond vibrations."
+description: "Learn FTIR spectroscopy techniques for analyzing peptide secondary structure through amide bond vibrations. This peptide or oligopeptide is studied for its b..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

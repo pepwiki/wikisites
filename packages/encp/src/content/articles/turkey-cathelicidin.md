@@ -1,6 +1,6 @@
 ---
-title: "Turkey Cathelicidin"
-description: "Comprehensive reference for Turkey Cathelicidin, a peptide compound with applications in research and therapeutics."
+title: "Turkey Cathelicidin: Oligopeptide Research Reference"
+description: "Turkey Cathelicidin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

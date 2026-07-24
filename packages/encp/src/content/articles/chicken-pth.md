@@ -1,6 +1,6 @@
 ---
-title: "Chicken PTH"
-description: "Parathyroid hormone from chicken parathyroid glands. Regulates calcium homeostasis in avian species."
+title: "Chicken PTH: Oligopeptide Research Reference"
+description: "Parathyroid hormone from chicken parathyroid glands. Regulates calcium homeostasis in avian species. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

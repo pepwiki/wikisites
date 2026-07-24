@@ -1,6 +1,6 @@
 ---
-title: "Peptide Antivirals"
-description: "Overview of antiviral peptides disrupting viral entry, fusion, and replication processes."
+title: "Peptide Antivirals: Oligopeptide Research Reference"
+description: "Overview of antiviral peptides disrupting viral entry, fusion, and replication processes. This peptide or oligopeptide is studied for its biological activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

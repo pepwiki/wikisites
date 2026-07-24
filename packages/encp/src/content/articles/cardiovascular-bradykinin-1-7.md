@@ -1,6 +1,6 @@
 ---
-title: "Bradykinin 1 7"
-description: "Comprehensive reference for bradykinin 1 7 in peptide research."
+title: "Bradykinin 1 7: Oligopeptide Research Reference"
+description: "bradykinin 1 7 in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appl..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Peptide Food Supplements"
-description: "Bioactive peptides used in nutritional supplements for muscle recovery, joint health, and metabolic support."
+title: "Peptide Food Supplements: Oligopeptide Research Reference"
+description: "Bioactive peptides used in nutritional supplements for muscle recovery, joint health, and metabolic support. This peptide or oligopeptide is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

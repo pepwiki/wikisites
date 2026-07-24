@@ -1,6 +1,6 @@
 ---
-title: "VEGF D Peptide Hormone"
-description: "The VEGF D Peptide Hormone and its role in endocrine signaling."
+title: "VEGF D Peptide Hormone: Endogenous Peptide Hormone Reference"
+description: "VEGF D, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical sig..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

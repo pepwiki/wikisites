@@ -1,6 +1,6 @@
 ---
 title: "Generative Adversarial for Peptides"
-description: "A computational method for studying peptides using Generative Adversarial."
+description: "A computational method for studying peptides using Generative Adversarial. This analytical technique provides valuable insights into peptide structure, purit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

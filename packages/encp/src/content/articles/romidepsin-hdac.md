@@ -1,6 +1,6 @@
 ---
-title: "Romidepsin HDAC Inhibitor"
-description: "Cyclic depsipeptide histone deacetylase inhibitor for cutaneous T-cell lymphoma derived from Chromobacterium violaceum."
+title: "Romidepsin HDAC Inhibitor: Comprehensive Peptide Reference"
+description: "Cyclic depsipeptide histone deacetylase inhibitor for cutaneous T-cell lymphoma derived from Chromobacterium violaceum. Covers molecular mechanisms, biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

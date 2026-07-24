@@ -1,5 +1,5 @@
 ---
-title: "Duck Cathelicidin (ApCATH)"
+title: "Duck Cathelicidin (ApCATH): Comprehensive Peptide Reference"
 description: "Comprehensive reference for Duck Cathelicidin (ApCATH), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

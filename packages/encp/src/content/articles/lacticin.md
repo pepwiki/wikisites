@@ -1,6 +1,6 @@
 ---
-title: "Lacticin"
-description: "lacticin is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity."
+title: "Lacticin: Antimicrobial Peptide Reference"
+description: "lacticin is an antimicrobial peptide from amphibian skin with broad-spectrum antimicrobial activity. This antimicrobial peptide demonstrates activity against..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

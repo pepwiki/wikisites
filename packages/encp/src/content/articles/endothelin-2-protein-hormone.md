@@ -1,6 +1,6 @@
 ---
-title: "Endothelin 2 Protein Hormone"
-description: "The Endothelin 2 Protein Hormone and its role in endocrine signaling."
+title: "Endothelin 2 Protein Hormone: Comprehensive Peptide Refer..."
+description: "Endothelin 2, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Backbone Mod System 1"
-description: "A backbone-mod-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy."
+title: "Backbone Mod System 1: Oligopeptide Research Reference"
+description: "A backbone-mod-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy.. This innovative approach addresses key challeng..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

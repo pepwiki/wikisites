@@ -1,6 +1,6 @@
 ---
-title: "MALDI Imaging Analysis"
-description: "An analytical technique for characterizing peptides using MALDI Imaging."
+title: "MALDI Imaging Analysis: Analytical Technique in Peptide R..."
+description: "An analytical technique for characterizing peptides using MALDI Imaging. This analytical technique provides valuable insights into peptide structure, purity,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

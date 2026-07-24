@@ -1,6 +1,6 @@
 ---
-title: "Malaria"
-description: "Plasmodium parasite. Treatments: ACT, chloroquine, primaquine."
+title: "Malaria: Oligopeptide Research Reference"
+description: "Plasmodium parasite. Treatments: ACT, chloroquine, primaquine. This peptide or oligopeptide is studied for its biological activity, structure-activity relati..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

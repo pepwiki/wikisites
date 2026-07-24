@@ -1,6 +1,6 @@
 ---
-title: "Plitidepsin"
-description: "Marine-derived depsipeptide that inhibits eEF1A, used for multiple myeloma with antiviral activity against SARS-CoV-2."
+title: "Plitidepsin: Oligopeptide Research Reference"
+description: "Marine-derived depsipeptide that inhibits eEF1A, used for multiple myeloma with antiviral activity against SARS-CoV-2. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

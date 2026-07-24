@@ -1,6 +1,6 @@
 ---
-title: "Atomic Force Microscopy"
-description: "AFM for imaging peptide and protein structures at nanometer resolution."
+title: "Atomic Force Microscopy: Oligopeptide Research Reference"
+description: "AFM for imaging peptide and protein structures at nanometer resolution. This peptide or oligopeptide is studied for its biological activity, structure-activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

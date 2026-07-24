@@ -1,6 +1,6 @@
 ---
-title: "Neuropeptide Structure"
-description: "Neuropeptide Structure is a bioactive compound with applications in peptide research and therapeutics."
+title: "Neuropeptide Structure: Oligopeptide Research Reference"
+description: "Neuropeptide Structure is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

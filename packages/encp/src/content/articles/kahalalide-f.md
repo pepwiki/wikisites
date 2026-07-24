@@ -1,6 +1,6 @@
 ---
-title: "Kahalalide F"
-description: "Comprehensive reference for Kahalalide F, a peptide compound with applications in research and therapeutics."
+title: "Kahalalide F: Oligopeptide Research Reference"
+description: "Kahalalide F, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "GnIH"
-description: "Comprehensive reference for GnIH in peptide research."
+title: "GnIH: Oligopeptide Research Reference"
+description: "GnIH in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

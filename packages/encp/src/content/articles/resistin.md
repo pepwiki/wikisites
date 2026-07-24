@@ -1,5 +1,5 @@
 ---
-title: "Resistin"
+title: "Resistin: Oligopeptide Research Reference"
 description: "Resistin is an adipokine that links obesity to insulin resistance and inflammation through AdipoR1 and TLR4 receptor-mediated signaling pathways."
 status: "published"
 author: "Encyclopeptide Editorial"

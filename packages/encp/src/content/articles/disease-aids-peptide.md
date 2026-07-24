@@ -1,6 +1,6 @@
 ---
-title: "Aids Peptides"
-description: "Peptides associated with Aids including biomarkers, therapeutic targets, and diagnostic markers."
+title: "Aids Peptides: Oligopeptide Research Reference"
+description: "Peptides associated with Aids including biomarkers, therapeutic targets, and diagnostic markers. This peptide or oligopeptide is studied for its biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

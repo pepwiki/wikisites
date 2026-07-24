@@ -1,5 +1,5 @@
 ---
-title: "Bioactive Egg White Peptides"
+title: "Bioactive Egg White Peptides: Comprehensive Peptide Refer..."
 description: "Comprehensive reference for Bioactive Egg White Peptides, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

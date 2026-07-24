@@ -1,6 +1,6 @@
 ---
-title: "Human Beta-Defensin 3"
-description: "Most potent human defensin with broad-spectrum activity including MRSA and VRE, and strong immunomodulatory properties."
+title: "Human Beta-Defensin 3: Antimicrobial Peptide Reference"
+description: "Most potent human defensin with broad-spectrum activity including MRSA and VRE, and strong immunomodulatory properties. Covers molecular mechanisms, biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

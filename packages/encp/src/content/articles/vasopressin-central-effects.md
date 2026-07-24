@@ -1,6 +1,6 @@
 ---
-title: "Vasopressin Central Effects"
-description: "Neuropeptide effects on social behavior, aggression, and memory in CNS."
+title: "Vasopressin Central Effects: Comprehensive Peptide Reference"
+description: "Neuropeptide effects on social behavior, aggression, and memory in CNS. This neuropeptide is involved in neurological signaling and is studied for its roles ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

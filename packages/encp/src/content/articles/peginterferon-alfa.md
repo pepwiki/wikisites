@@ -1,6 +1,6 @@
 ---
-title: "Peginterferon Alfa"
-description: "PEGylated interferon alfa with extended half-life for weekly dosing in hepatitis B, hepatitis C, and cancer treatment."
+title: "Peginterferon Alfa: Oligopeptide Research Reference"
+description: "PEGylated interferon alfa with extended half-life for weekly dosing in hepatitis B, hepatitis C, and cancer treatment. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

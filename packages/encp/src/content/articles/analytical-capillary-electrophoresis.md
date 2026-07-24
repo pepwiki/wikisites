@@ -1,6 +1,6 @@
 ---
 title: "Capillary Electrophoresis Analysis"
-description: "An analytical technique for characterizing peptides using Capillary Electrophoresis."
+description: "An analytical technique for characterizing peptides using Capillary Electrophoresis. This analytical technique provides valuable insights into peptide struct..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

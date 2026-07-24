@@ -1,6 +1,6 @@
 ---
-title: "Dengue NS1 Vaccine"
-description: "A peptide vaccine targeting Dengue NS1 for infectious disease prevention."
+title: "Dengue NS1 Vaccine: Oligopeptide Research Reference"
+description: "A peptide vaccine targeting Dengue NS1 for infectious disease prevention. This peptide or oligopeptide is studied for its biological activity, structure-acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

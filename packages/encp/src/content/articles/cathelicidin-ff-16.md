@@ -1,6 +1,6 @@
 ---
-title: "Cathelicidin FF-16"
-description: "Short synthetic antimicrobial peptide from LL-37 with potent bactericidal activity."
+title: "Cathelicidin FF-16: Antimicrobial Peptide Reference"
+description: "Short synthetic antimicrobial peptide from LL-37 with potent bactericidal activity. This antimicrobial peptide demonstrates activity against pathogens and is..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Ellmans Reagent Purification"
-description: "A purification technique for separating and isolating peptides using Ellmans Reagent."
+title: "Ellmans Reagent Purification: Comprehensive Peptide Refer..."
+description: "A purification technique for separating and isolating peptides using Ellmans Reagent. This analytical technique provides valuable insights into peptide struc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

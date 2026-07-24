@@ -1,5 +1,5 @@
 ---
-title: "Inhibin Beta A"
+title: "Inhibin Beta A: Endogenous Peptide Hormone Reference"
 description: "inhibin-beta-A is a growth factor or regulatory peptide involved in cell proliferation, differentiation, and tissue homeostasis."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,6 +1,6 @@
 ---
-title: "Opioid Peptide Family"
-description: "Overview of endorphins, enkephalins, and dynorphins in pain modulation and reward pathways."
+title: "Opioid Peptide Family: Oligopeptide Research Reference"
+description: "Overview of endorphins, enkephalins, and dynorphins in pain modulation and reward pathways. This peptide or oligopeptide is studied for its biological activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

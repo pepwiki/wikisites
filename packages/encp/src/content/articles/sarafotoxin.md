@@ -1,6 +1,6 @@
 ---
 title: "Sarafotoxin: Structure, Function, and Significance"
-description: "Sarafotoxins are potent vasoconstrictor peptides from burrowing asp venom, structurally similar to endothelins."
+description: "Sarafotoxins are potent vasoconstrictor peptides from burrowing asp venom, structurally similar to endothelins. Covers molecular mechanisms, biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

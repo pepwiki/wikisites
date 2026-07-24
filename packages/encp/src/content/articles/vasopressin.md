@@ -1,6 +1,6 @@
 ---
-title: "Vasopressin"
-description: "A 9-amino acid neuropeptide hormone from the posterior pituitary that regulates water balance, blood pressure, and social behavior, with clinical analogs including desmopressin and terlipressin."
+title: "Vasopressin: Endogenous Peptide Hormone Reference"
+description: "A 9-amino acid neuropeptide hormone from the posterior pituitary that regulates water balance, blood pressure, and social behavior, with clinical analogs inc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

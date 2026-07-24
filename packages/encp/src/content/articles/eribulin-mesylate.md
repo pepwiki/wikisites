@@ -1,6 +1,6 @@
 ---
-title: "Eribulin Mesylate"
-description: "Synthetic halichondrin B analog microtubule dynamics inhibitor for metastatic breast cancer and liposarcoma."
+title: "Eribulin Mesylate: Oligopeptide Research Reference"
+description: "Synthetic halichondrin B analog microtubule dynamics inhibitor for metastatic breast cancer and liposarcoma. This peptide or oligopeptide is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

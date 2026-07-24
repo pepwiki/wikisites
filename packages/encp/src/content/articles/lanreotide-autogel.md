@@ -1,6 +1,6 @@
 ---
-title: "Lanreotide Autogel"
-description: "Deep subcutaneous depot somatostatin analog for acromegaly and neuroendocrine tumors."
+title: "Lanreotide Autogel: Oligopeptide Research Reference"
+description: "Deep subcutaneous depot somatostatin analog for acromegaly and neuroendocrine tumors. This peptide or oligopeptide is studied for its biological activity, st..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

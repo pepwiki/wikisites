@@ -1,6 +1,6 @@
 ---
 title: "Platelet Derived Growth Factor AA-1-106"
-description: "Reference for platelet derived growth factor AA-1-106 in peptide research."
+description: "Comprehensive reference for platelet derived growth factor AA-1-106, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Peptide Albumin Binding"
-description: "Albumin-binding strategies for extending peptide circulating half-life."
+title: "Peptide Albumin Binding: Oligopeptide Research Reference"
+description: "Albumin-binding strategies for extending peptide circulating half-life. This peptide or oligopeptide is studied for its biological activity, structure-activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

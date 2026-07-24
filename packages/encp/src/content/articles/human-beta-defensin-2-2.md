@@ -1,5 +1,5 @@
 ---
-title: "Human Beta-Defensin 2"
+title: "Human Beta-Defensin 2: Antimicrobial Peptide Reference"
 description: "Inducible epithelial antimicrobial peptide with potent activity against gram-negative bacteria and chemotactic properties for immune cells."
 status: "published"
 author: "Encyclopeptide Editorial"

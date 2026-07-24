@@ -1,6 +1,6 @@
 ---
-title: "Intermedin"
-description: "intermedin is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation."
+title: "Intermedin: Neuropeptide in Neuroscience Reference"
+description: "intermedin is a neuropeptide involved in pain signaling, inflammation, or cardiovascular regulation. This neuropeptide is involved in neurological signaling ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

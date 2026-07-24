@@ -1,6 +1,6 @@
 ---
-title: "Ganirelix"
-description: "GnRH antagonist peptide used in IVF protocols to prevent premature LH surge during controlled ovarian stimulation."
+title: "Ganirelix: Oligopeptide Research Reference"
+description: "GnRH antagonist peptide used in IVF protocols to prevent premature LH surge during controlled ovarian stimulation. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

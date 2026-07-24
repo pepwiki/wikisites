@@ -1,6 +1,6 @@
 ---
-title: "ACS Medicinal Chemistry"
-description: "American Chemical Society journal focused on medicinal chemistry and drug design."
+title: "ACS Medicinal Chemistry: Oligopeptide Research Reference"
+description: "American Chemical Society journal focused on medicinal chemistry and drug design. This peptide or oligopeptide is studied for its biological activity, struct..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

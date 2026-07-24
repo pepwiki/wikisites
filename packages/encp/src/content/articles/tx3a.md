@@ -1,6 +1,6 @@
 ---
-title: "Tx3a"
-description: "Tx3a is a spider venom peptide with specific ion channel or receptor blocking properties."
+title: "Tx3a: Peptide Toxin in Pharmacology Reference"
+description: "Tx3a is a spider venom peptide with specific ion channel or receptor blocking properties. This peptide toxin is derived from venom and studied for its pharma..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Peptide cleavage"
-description: "Reference for peptide cleavage in peptide research."
+title: "Peptide cleavage: Oligopeptide Research Reference"
+description: "Comprehensive reference for peptide cleavage, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

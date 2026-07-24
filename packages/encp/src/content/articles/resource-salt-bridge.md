@@ -1,6 +1,6 @@
 ---
-title: "salt-bridge Resource"
-description: "The salt-bridge database or resource for peptide research, providing data on structure, function, and interactions."
+title: "salt-bridge Resource: Oligopeptide Research Reference"
+description: "The salt-bridge database or resource for peptide research, providing data on structure, function, and interactions. Covers molecular mechanisms, biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

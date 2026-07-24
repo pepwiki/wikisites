@@ -1,6 +1,6 @@
 ---
-title: "HNTX I"
-description: "HNTX-I is a spider venom peptide with specific ion channel or receptor blocking properties."
+title: "HNTX I: Peptide Toxin in Pharmacology Reference"
+description: "HNTX-I is a spider venom peptide with specific ion channel or receptor blocking properties. This peptide toxin is derived from venom and studied for its phar..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

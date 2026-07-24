@@ -1,6 +1,6 @@
 ---
-title: "Exenatide"
-description: "First-in-class GLP-1 agonist from Gila monster saliva, twice-daily injection for type 2 diabetes."
+title: "Exenatide: Oligopeptide Research Reference"
+description: "First-in-class GLP-1 agonist from Gila monster saliva, twice-daily injection for type 2 diabetes. This peptide or oligopeptide is studied for its biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

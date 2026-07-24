@@ -1,6 +1,6 @@
 ---
 title: "Modulates glucose sensing GPCR pathway"
-description: "Yeast signaling peptides"
+description: "Yeast signaling peptides. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications i..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

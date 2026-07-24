@@ -1,6 +1,6 @@
 ---
-title: "MSH alpha-1-5"
-description: "Reference for MSH alpha-1-5 variant in peptide research."
+title: "MSH alpha-1-5: Endogenous Peptide Hormone Reference"
+description: "Comprehensive reference for MSH alpha-1-5 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

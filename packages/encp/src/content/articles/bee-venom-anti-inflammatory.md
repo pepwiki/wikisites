@@ -1,6 +1,6 @@
 ---
-title: "Bee Venom Anti-Inflammatory"
-description: "Therapeutic anti-inflammatory applications of bee venom components."
+title: "Bee Venom Anti-Inflammatory: Comprehensive Peptide Reference"
+description: "Therapeutic anti-inflammatory applications of bee venom components. This peptide toxin is derived from venom and studied for its pharmacological activity, me..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

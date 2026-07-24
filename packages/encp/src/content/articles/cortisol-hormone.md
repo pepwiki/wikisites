@@ -1,6 +1,6 @@
 ---
-title: "Cortisol Hormone"
-description: "The Cortisol Hormone and its role in endocrine signaling."
+title: "Cortisol Hormone: Endogenous Peptide Hormone Reference"
+description: "Cortisol, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

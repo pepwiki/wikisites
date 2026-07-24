@@ -1,6 +1,6 @@
 ---
-title: "D-Amino Acid Substitution"
-description: "Replacement of L-amino acids with D-enantiomers. Increases proteolytic resistance."
+title: "D-Amino Acid Substitution: Comprehensive Peptide Reference"
+description: "Replacement of L-amino acids with D-enantiomers. Increases proteolytic resistance. This peptide or oligopeptide is studied for its biological activity, struc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

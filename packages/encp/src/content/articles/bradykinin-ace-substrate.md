@@ -1,5 +1,5 @@
 ---
-title: "Bradykinin → ACE (Substrate)"
+title: "Bradykinin → ACE (Substrate): Comprehensive Peptide Refer..."
 description: "Comprehensive reference for Bradykinin → ACE (Substrate), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

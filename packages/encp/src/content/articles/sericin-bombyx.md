@@ -1,6 +1,6 @@
 ---
-title: "Sericin (Bombyx)"
-description: "Comprehensive reference for Sericin (Bombyx), a peptide compound with applications in research and therapeutics."
+title: "Sericin (Bombyx): Oligopeptide Research Reference"
+description: "Sericin (Bombyx), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

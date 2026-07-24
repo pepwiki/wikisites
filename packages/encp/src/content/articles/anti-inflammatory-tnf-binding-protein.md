@@ -1,6 +1,6 @@
 ---
-title: "TNF Binding Protein"
-description: "Comprehensive reference for TNF binding protein in peptide research."
+title: "TNF Binding Protein: Oligopeptide Research Reference"
+description: "TNF binding protein in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

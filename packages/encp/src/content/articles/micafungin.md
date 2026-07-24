@@ -1,6 +1,6 @@
 ---
-title: "Micafungin"
-description: "Echinocandin antifungal for invasive fungal infections including candidemia."
+title: "Micafungin: Oligopeptide Research Reference"
+description: "Echinocandin antifungal for invasive fungal infections including candidemia. This peptide or oligopeptide is studied for its biological activity, structure-a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

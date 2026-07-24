@@ -1,6 +1,6 @@
 ---
-title: "Peptide Companies Overview"
-description: "Major pharmaceutical and biotechnology companies developing peptide therapeutics."
+title: "Peptide Companies Overview: Comprehensive Peptide Reference"
+description: "Major pharmaceutical and biotechnology companies developing peptide therapeutics. This peptide or oligopeptide is studied for its biological activity, struct..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

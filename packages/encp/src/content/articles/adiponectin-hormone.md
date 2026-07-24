@@ -1,6 +1,6 @@
 ---
-title: "Adiponectin Hormone"
-description: "The Adiponectin Hormone and its role in endocrine signaling."
+title: "Adiponectin Hormone: Endogenous Peptide Hormone Reference"
+description: "Adiponectin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

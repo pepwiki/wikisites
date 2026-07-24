@@ -1,6 +1,6 @@
 ---
-title: "Mojave Toxin"
-description: "Comprehensive reference for Mojave Toxin, a peptide compound with applications in research and therapeutics."
+title: "Mojave Toxin: Oligopeptide Research Reference"
+description: "Mojave Toxin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

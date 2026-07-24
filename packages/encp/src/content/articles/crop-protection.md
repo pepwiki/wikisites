@@ -1,6 +1,6 @@
 ---
-title: "Crop Protection"
-description: "Use of antimicrobial peptides as biopesticides."
+title: "Crop Protection: Oligopeptide Research Reference"
+description: "Use of antimicrobial peptides as biopesticides. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and po..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

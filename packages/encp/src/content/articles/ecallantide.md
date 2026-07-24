@@ -1,6 +1,6 @@
 ---
-title: "Ecallantide"
-description: "Plasma kallikrein inhibitor for hereditary angioedema preventing bradykinin generation."
+title: "Ecallantide: Oligopeptide Research Reference"
+description: "Plasma kallikrein inhibitor for hereditary angioedema preventing bradykinin generation. This peptide or oligopeptide is studied for its biological activity, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Flt3L Peptide Hormone"
-description: "The Flt3L Peptide Hormone and its role in endocrine signaling."
+title: "Flt3L Peptide Hormone: Endogenous Peptide Hormone Reference"
+description: "Flt3L, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical sign..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

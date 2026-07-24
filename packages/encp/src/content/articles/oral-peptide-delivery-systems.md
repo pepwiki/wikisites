@@ -1,6 +1,6 @@
 ---
-title: "Oral Peptide Delivery Systems"
-description: "Systems for oral peptide delivery including enzyme inhibitors and permeation enhancers."
+title: "Oral Peptide Delivery Systems: Comprehensive Peptide Refe..."
+description: "Systems for oral peptide delivery including enzyme inhibitors and permeation enhancers. This peptide or oligopeptide is studied for its biological activity, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

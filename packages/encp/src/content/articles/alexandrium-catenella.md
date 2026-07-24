@@ -1,6 +1,6 @@
 ---
-title: "Alexandrium catenella"
-description: "Blocks Na+ channel pore (site 1)"
+title: "Alexandrium catenella: Oligopeptide Research Reference"
+description: "Blocks Na+ channel pore (site 1). This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

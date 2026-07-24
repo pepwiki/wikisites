@@ -1,6 +1,6 @@
 ---
-title: "Inhibin A"
-description: "Comprehensive reference for inhibin A in peptide research."
+title: "Inhibin A: Oligopeptide Research Reference"
+description: "inhibin A in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicati..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

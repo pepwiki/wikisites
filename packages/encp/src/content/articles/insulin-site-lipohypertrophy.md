@@ -1,6 +1,6 @@
 ---
 title: "Insulin Injection Site Lipohypertrophy"
-description: "Lipodystrophy at insulin injection sites caused by localized anabolic effects leading to erratic absorption."
+description: "Lipodystrophy at insulin injection sites caused by localized anabolic effects leading to erratic absorption. This peptide or oligopeptide is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

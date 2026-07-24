@@ -1,6 +1,6 @@
 ---
-title: "PMAP 36"
-description: "PMAP-36 is a cathelicidin antimicrobial peptide with broad-spectrum activity against bacteria, fungi, and viruses."
+title: "PMAP 36: Antimicrobial Peptide Reference"
+description: "PMAP-36 is a cathelicidin antimicrobial peptide with broad-spectrum activity against bacteria, fungi, and viruses. Covers molecular mechanisms, biological ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

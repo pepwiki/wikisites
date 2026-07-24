@@ -1,6 +1,6 @@
 ---
-title: "Vasopressin 1-7"
-description: "Reference for vasopressin 1-7 variant in peptide research."
+title: "Vasopressin 1-7: Peptide Fragment Reference"
+description: "Comprehensive reference for vasopressin 1-7 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

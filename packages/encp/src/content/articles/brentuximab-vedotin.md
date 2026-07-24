@@ -1,6 +1,6 @@
 ---
-title: "Brentuximab Vedotin"
-description: "Anti-CD30 antibody-drug conjugate with MMAE payload for Hodgkin lymphoma and anaplastic large cell lymphoma."
+title: "Brentuximab Vedotin: Oligopeptide Research Reference"
+description: "Anti-CD30 antibody-drug conjugate with MMAE payload for Hodgkin lymphoma and anaplastic large cell lymphoma. This peptide or oligopeptide is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

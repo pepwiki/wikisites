@@ -1,6 +1,6 @@
 ---
-title: "gel for Peptides"
-description: "Application of gel technique for peptide characterization, structure determination, or formulation."
+title: "gel for Peptides: Analytical Technique in Peptide Research"
+description: "Application of gel technique for peptide characterization, structure determination, or formulation. This analytical technique provides valuable insights into..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 and NAFLD"
-description: "Clinical evidence for efficacy in nonalcoholic fatty liver disease including steatosis reduction."
+title: "GLP-1 and NAFLD: Oligopeptide Research Reference"
+description: "Clinical evidence for efficacy in nonalcoholic fatty liver disease including steatosis reduction. This peptide or oligopeptide is studied for its biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

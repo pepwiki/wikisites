@@ -1,6 +1,6 @@
 ---
-title: "Pulchrinin"
-description: "pulchrinin is a conotoxin from cone snail venom with specific ion channel blocking properties."
+title: "Pulchrinin: Peptide Toxin in Pharmacology Reference"
+description: "pulchrinin is a conotoxin from cone snail venom with specific ion channel blocking properties. This peptide toxin is derived from venom and studied for its p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

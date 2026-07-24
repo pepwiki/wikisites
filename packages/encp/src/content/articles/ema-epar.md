@@ -1,6 +1,6 @@
 ---
-title: "EMA EPAR"
-description: "European Medicines Agency European Public Assessment Reports for drugs."
+title: "EMA EPAR: Oligopeptide Research Reference"
+description: "European Medicines Agency European Public Assessment Reports for drugs. This peptide or oligopeptide is studied for its biological activity, structure-activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

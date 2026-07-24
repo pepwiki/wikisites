@@ -1,6 +1,6 @@
 ---
-title: "Pediatrics"
-description: "Special considerations for peptide drug use in pediatric patients."
+title: "Pediatrics: Oligopeptide Research Reference"
+description: "Special considerations for peptide drug use in pediatric patients. This peptide or oligopeptide is studied for its biological activity, structure-activity re..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

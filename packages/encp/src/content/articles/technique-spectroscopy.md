@@ -1,6 +1,6 @@
 ---
-title: "spectroscopy for Peptides"
-description: "Application of spectroscopy technique for peptide characterization, structure determination, or formulation."
+title: "spectroscopy for Peptides: Comprehensive Peptide Reference"
+description: "Application of spectroscopy technique for peptide characterization, structure determination, or formulation. This peptide or oligopeptide is studied for its ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

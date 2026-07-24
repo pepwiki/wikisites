@@ -1,6 +1,6 @@
 ---
-title: "Appetite-Regulating Peptides"
-description: "Network of neuropeptides controlling hunger, satiety, and energy balance."
+title: "Appetite-Regulating Peptides: Comprehensive Peptide Refer..."
+description: "Network of neuropeptides controlling hunger, satiety, and energy balance. This neuropeptide is involved in neurological signaling and is studied for its role..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

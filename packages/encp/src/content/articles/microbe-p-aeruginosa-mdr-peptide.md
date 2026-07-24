@@ -1,6 +1,6 @@
 ---
-title: "P Aeruginosa Mdr Peptide"
-description: "A peptide associated with P Aeruginosa Mdr for research or therapeutic applications."
+title: "P Aeruginosa Mdr Peptide: Oligopeptide Research Reference"
+description: "A peptide associated with P Aeruginosa Mdr for research or therapeutic applications. This peptide or oligopeptide is studied for its biological activity, str..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Amphibian Opioid"
-description: "Amphibian Opioid is a bioactive compound with applications in peptide research and therapeutics."
+title: "Amphibian Opioid: Antimicrobial Peptide Reference"
+description: "Amphibian Opioid is a bioactive compound with applications in peptide research and therapeutics. This peptide or oligopeptide is studied for its biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

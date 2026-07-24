@@ -1,5 +1,5 @@
 ---
-title: "TGF Beta 3"
+title: "TGF Beta 3: Endogenous Peptide Hormone Reference"
 description: "TGF-beta-3 is a growth factor or regulatory peptide involved in cell proliferation, differentiation, and tissue homeostasis."
 status: "published"
 author: "Encyclopeptide Editorial"

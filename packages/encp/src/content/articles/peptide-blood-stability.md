@@ -1,6 +1,6 @@
 ---
-title: "Peptide Stability in Blood"
-description: "A comprehensive review of factors affecting peptide stability in circulation, including protease degradation pathways, half-life determination methods, and formulation strategies."
+title: "Peptide Stability in Blood: Comprehensive Peptide Reference"
+description: "A comprehensive review of factors affecting peptide stability in circulation, including protease degradation pathways, half-life determination methods, and f..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-04-05

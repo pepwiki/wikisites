@@ -1,6 +1,6 @@
 ---
 title: "Peptide Ophthalmic Drug Development"
-description: "Development of peptide therapeutics for eye diseases including formulation challenges."
+description: "Development of peptide therapeutics for eye diseases including formulation challenges. This peptide or oligopeptide is studied for its biological activity, s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

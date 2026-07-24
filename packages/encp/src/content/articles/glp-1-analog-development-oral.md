@@ -1,6 +1,6 @@
 ---
 title: "Oral Semaglutide Development History"
-description: "Development history and formulation science behind oral semaglutide including SNAC technology."
+description: "Development history and formulation science behind oral semaglutide including SNAC technology. This peptide or oligopeptide is studied for its biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

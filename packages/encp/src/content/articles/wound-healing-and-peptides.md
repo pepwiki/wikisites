@@ -1,6 +1,6 @@
 ---
-title: "Wound Healing and Peptides"
-description: "Learn about growth factor peptides and antimicrobial peptides that accelerate wound healing and tissue repair."
+title: "Wound Healing and Peptides: Comprehensive Peptide Reference"
+description: "Learn about growth factor peptides and antimicrobial peptides that accelerate wound healing and tissue repair. This peptide or oligopeptide is studied for it..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

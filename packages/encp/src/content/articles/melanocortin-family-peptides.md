@@ -1,6 +1,6 @@
 ---
-title: "Melanocortin Family Peptides"
-description: "Learn about alpha-MSH, beta-MSH, and ACTH in pigmentation, energy balance, and inflammation."
+title: "Melanocortin Family Peptides: Comprehensive Peptide Refer..."
+description: "Learn about alpha-MSH, beta-MSH, and ACTH in pigmentation, energy balance, and inflammation. This peptide or oligopeptide is studied for its biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
 title: "History of Combinatorial Peptide Libraries"
-description: "The development of combinatorial chemistry for peptide library screening and drug discovery."
+description: "The development of combinatorial chemistry for peptide library screening and drug discovery. This peptide or oligopeptide is studied for its biological activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

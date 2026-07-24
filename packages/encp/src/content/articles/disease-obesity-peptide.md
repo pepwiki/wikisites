@@ -1,6 +1,6 @@
 ---
-title: "Obesity Peptides"
-description: "Peptides associated with Obesity including biomarkers, therapeutic targets, and diagnostic markers."
+title: "Obesity Peptides: Oligopeptide Research Reference"
+description: "Peptides associated with Obesity including biomarkers, therapeutic targets, and diagnostic markers. This peptide or oligopeptide is studied for its biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

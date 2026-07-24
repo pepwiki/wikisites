@@ -1,6 +1,6 @@
 ---
-title: "Whitewater Arroyo N Vaccine"
-description: "A peptide vaccine targeting Whitewater Arroyo N for infectious disease prevention."
+title: "Whitewater Arroyo N Vaccine: Comprehensive Peptide Reference"
+description: "A peptide vaccine targeting Whitewater Arroyo N for infectious disease prevention. This peptide or oligopeptide is studied for its biological activity, struc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

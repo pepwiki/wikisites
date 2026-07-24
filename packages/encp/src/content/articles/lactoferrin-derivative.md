@@ -1,5 +1,5 @@
 ---
-title: "Lactoferrin Derivative"
+title: "Lactoferrin Derivative: Antimicrobial Peptide Reference"
 description: "lactoferrin-derivative is a defensin-family antimicrobial peptide with cysteine-stabilized structure and broad-spectrum activity."
 status: "published"
 author: "Encyclopeptide Editorial"

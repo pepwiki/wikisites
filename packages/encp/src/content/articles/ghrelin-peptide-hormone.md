@@ -1,6 +1,6 @@
 ---
-title: "Ghrelin Peptide Hormone"
-description: "The Ghrelin Peptide Hormone and its role in endocrine signaling."
+title: "Ghrelin Peptide Hormone: Endogenous Peptide Hormone Refer..."
+description: "Ghrelin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical si..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

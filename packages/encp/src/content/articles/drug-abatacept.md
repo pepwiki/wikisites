@@ -1,6 +1,6 @@
 ---
-title: "Abatacept"
-description: "Comprehensive reference for abatacept in peptide research."
+title: "Abatacept: Oligopeptide Research Reference"
+description: "abatacept in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicati..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

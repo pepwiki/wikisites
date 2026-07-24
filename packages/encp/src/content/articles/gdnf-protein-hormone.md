@@ -1,6 +1,6 @@
 ---
-title: "GDNF Protein Hormone"
-description: "The GDNF Protein Hormone and its role in endocrine signaling."
+title: "GDNF Protein Hormone: Endogenous Peptide Hormone Reference"
+description: "GDNF, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical signi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

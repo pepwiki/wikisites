@@ -1,6 +1,6 @@
 ---
-title: "Argireline"
-description: "Acetyl hexapeptide-3. Inhibits SNARE complex. Topical anti-wrinkle peptide (mild Botox-like effect)."
+title: "Argireline: Oligopeptide Research Reference"
+description: "Acetyl hexapeptide-3. Inhibits SNARE complex. Topical anti-wrinkle peptide (mild Botox-like effect). This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

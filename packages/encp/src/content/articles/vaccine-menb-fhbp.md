@@ -1,6 +1,6 @@
 ---
-title: "MenB FHbp Vaccine"
-description: "A peptide vaccine targeting MenB FHbp for infectious disease prevention."
+title: "MenB FHbp Vaccine: Oligopeptide Research Reference"
+description: "A peptide vaccine targeting MenB FHbp for infectious disease prevention. This peptide or oligopeptide is studied for its biological activity, structure-activ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

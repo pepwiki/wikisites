@@ -1,6 +1,6 @@
 ---
-title: "Opioid Respiratory Control"
-description: "Role of endogenous opioids in respiratory rhythm generation."
+title: "Opioid Respiratory Control: Comprehensive Peptide Reference"
+description: "Role of endogenous opioids in respiratory rhythm generation. This neuropeptide is involved in neurological signaling and is studied for its roles in brain fu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Oxytocin Hormone"
-description: "The Oxytocin Hormone and its role in endocrine signaling."
+title: "Oxytocin Hormone: Endogenous Peptide Hormone Reference"
+description: "Oxytocin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

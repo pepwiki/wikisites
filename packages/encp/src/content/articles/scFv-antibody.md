@@ -1,6 +1,6 @@
 ---
-title: "scFv antibody"
-description: "Reference for scfv antibody in peptide research."
+title: "scFv antibody: Oligopeptide Research Reference"
+description: "Comprehensive reference for scfv antibody, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Insect Defensins"
-description: "Antimicrobial (Gram-positive)"
+title: "Insect Defensins: Oligopeptide Research Reference"
+description: "Antimicrobial (Gram-positive). This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicati..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Brevinin-1"
-description: "Frog skin AMP with C-terminal cyclic heptapeptide disulfide bridge for bactericidal activity."
+title: "Brevinin-1: Antimicrobial Peptide Reference"
+description: "Frog skin AMP with C-terminal cyclic heptapeptide disulfide bridge for bactericidal activity. This antimicrobial peptide demonstrates activity against pathog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

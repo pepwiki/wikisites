@@ -1,6 +1,6 @@
 ---
-title: "Microneedle Peptide Delivery"
-description: "Dissolving microneedle arrays for transdermal peptide delivery bypassing GI degradation."
+title: "Microneedle Peptide Delivery: Comprehensive Peptide Refer..."
+description: "Dissolving microneedle arrays for transdermal peptide delivery bypassing GI degradation. This peptide or oligopeptide is studied for its biological activity,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

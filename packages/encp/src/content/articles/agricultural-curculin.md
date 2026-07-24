@@ -1,6 +1,6 @@
 ---
-title: "Curculin"
-description: "Comprehensive reference for curculin in peptide research."
+title: "Curculin: Oligopeptide Research Reference"
+description: "curculin in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applicatio..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

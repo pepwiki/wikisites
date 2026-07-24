@@ -1,6 +1,6 @@
 ---
-title: "NCLNGGYCPGQ"
-description: "Tetrahymena thermophila"
+title: "NCLNGGYCPGQ: Oligopeptide Research Reference"
+description: "Tetrahymena thermophila. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

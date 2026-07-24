@@ -1,6 +1,6 @@
 ---
-title: "Relugolix"
-description: "Oral GnRH receptor antagonist for prostate cancer and uterine fibroids with rapid suppression."
+title: "Relugolix: Oligopeptide Research Reference"
+description: "Oral GnRH receptor antagonist for prostate cancer and uterine fibroids with rapid suppression. This peptide or oligopeptide is studied for its biological act..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

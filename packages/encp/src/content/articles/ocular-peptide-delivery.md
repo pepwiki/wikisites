@@ -1,6 +1,6 @@
 ---
-title: "Ocular Peptide Delivery"
-description: "Ophthalmic delivery systems for peptide drugs targeting anterior and posterior segment."
+title: "Ocular Peptide Delivery: Oligopeptide Research Reference"
+description: "Ophthalmic delivery systems for peptide drugs targeting anterior and posterior segment. This peptide or oligopeptide is studied for its biological activity, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

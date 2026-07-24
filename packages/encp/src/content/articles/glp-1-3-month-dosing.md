@@ -1,6 +1,6 @@
 ---
-title: "Semaglutide 3-Month Dosing"
-description: "Extended dosing interval option for semaglutide allowing three-month intervals between injections."
+title: "Semaglutide 3-Month Dosing: Comprehensive Peptide Reference"
+description: "Extended dosing interval option for semaglutide allowing three-month intervals between injections. This peptide or oligopeptide is studied for its biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

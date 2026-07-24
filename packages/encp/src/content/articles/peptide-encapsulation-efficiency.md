@@ -1,6 +1,6 @@
 ---
 title: "Peptide Encapsulation Efficiency"
-description: "Methods for measuring and optimizing peptide encapsulation in delivery systems."
+description: "Methods for measuring and optimizing peptide encapsulation in delivery systems. This peptide or oligopeptide is studied for its biological activity, structur..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

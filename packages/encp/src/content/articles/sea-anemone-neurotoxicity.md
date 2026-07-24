@@ -1,6 +1,6 @@
 ---
-title: "Sea Anemone Neurotoxicity"
-description: "Neurotoxic mechanisms of sea anemone venoms on nervous system."
+title: "Sea Anemone Neurotoxicity: Comprehensive Peptide Reference"
+description: "Neurotoxic mechanisms of sea anemone venoms on nervous system. This peptide toxin is derived from venom and studied for its pharmacological activity, mechani..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
 title: "Peptide Hematological Therapeutics"
-description: "Therapeutic peptides for blood disorders including anemia, thrombocytopenia, and coagulopathies."
+description: "Therapeutic peptides for blood disorders including anemia, thrombocytopenia, and coagulopathies. This peptide or oligopeptide is studied for its biological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

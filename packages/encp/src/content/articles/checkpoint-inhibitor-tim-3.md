@@ -1,6 +1,6 @@
 ---
-title: "Checkpoint Inhibitor TIM-3"
-description: "Reference for checkpoint inhibitor TIM-3 in peptide research."
+title: "Checkpoint Inhibitor TIM-3: Comprehensive Peptide Reference"
+description: "Comprehensive reference for checkpoint inhibitor TIM-3, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

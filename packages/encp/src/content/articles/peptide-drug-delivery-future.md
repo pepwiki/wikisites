@@ -1,6 +1,6 @@
 ---
-title: "Peptide Drug Delivery Future"
-description: "Next-generation delivery technologies for peptide therapeutics beyond traditional injections."
+title: "Peptide Drug Delivery Future: Comprehensive Peptide Refer..."
+description: "Next-generation delivery technologies for peptide therapeutics beyond traditional injections. This peptide or oligopeptide is studied for its biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

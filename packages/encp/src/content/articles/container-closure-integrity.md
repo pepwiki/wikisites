@@ -1,6 +1,6 @@
 ---
 title: "Container Closure for Peptides"
-description: "Learn container closure system requirements for peptide drug products including extractables and leachables testing."
+description: "Learn container closure system requirements for peptide drug products including extractables and leachables testing. Covers molecular mechanisms, biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

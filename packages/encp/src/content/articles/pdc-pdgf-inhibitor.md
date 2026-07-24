@@ -1,6 +1,6 @@
 ---
-title: "PDGF Inhibitor PDC"
-description: "A peptide-drug conjugate targeting PDGF Inhibitor for selective drug delivery."
+title: "PDGF Inhibitor PDC: Oligopeptide Research Reference"
+description: "A peptide-drug conjugate targeting PDGF Inhibitor for selective drug delivery. This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

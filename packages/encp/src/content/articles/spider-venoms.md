@@ -1,6 +1,6 @@
 ---
-title: "Spider Venoms"
-description: "Cav, Nav, K+, glutamate, nAChR"
+title: "Spider Venoms: Peptide Toxin in Pharmacology Reference"
+description: "Cav, Nav, K+, glutamate, nAChR. This peptide toxin is derived from venom and studied for its pharmacological activity, mechanism of action, and potential app..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

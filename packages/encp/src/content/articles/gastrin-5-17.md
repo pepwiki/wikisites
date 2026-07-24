@@ -1,6 +1,6 @@
 ---
-title: "Gastrin 5-17"
-description: "Reference for gastrin 5-17 variant in peptide research."
+title: "Gastrin 5-17: Peptide Fragment Reference"
+description: "Comprehensive reference for gastrin 5-17 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

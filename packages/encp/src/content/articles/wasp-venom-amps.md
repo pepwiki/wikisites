@@ -1,6 +1,6 @@
 ---
-title: "Wasp Venom AMPs"
-description: "AMPs from wasp venom providing innate defense and prey immobilization."
+title: "Wasp Venom AMPs: Peptide Toxin in Pharmacology Reference"
+description: "AMPs from wasp venom providing innate defense and prey immobilization. This peptide toxin is derived from venom and studied for its pharmacological activity,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

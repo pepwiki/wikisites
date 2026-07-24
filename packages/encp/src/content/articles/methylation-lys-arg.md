@@ -1,6 +1,6 @@
 ---
-title: "Methylation (Lys/Arg)"
-description: "Addition of methyl groups to lysine or arginine. Affects protein interactions."
+title: "Methylation (Lys/Arg): Oligopeptide Research Reference"
+description: "Addition of methyl groups to lysine or arginine. Affects protein interactions. This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

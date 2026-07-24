@@ -1,6 +1,6 @@
 ---
-title: "edX Protein Engineering"
-description: "Online course on protein engineering principles and applications."
+title: "edX Protein Engineering: Oligopeptide Research Reference"
+description: "Online course on protein engineering principles and applications. This peptide or oligopeptide is studied for its biological activity, structure-activity rel..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

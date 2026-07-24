@@ -1,6 +1,6 @@
 ---
-title: "Milestone 023"
-description: "1965: First total synthesis of ribonuclease A by Merrifield. Demonstrates SPPS power."
+title: "Milestone 023: Oligopeptide Research Reference"
+description: "1965: First total synthesis of ribonuclease A by Merrifield. Demonstrates SPPS power. This peptide or oligopeptide is studied for its biological activity, st..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

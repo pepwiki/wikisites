@@ -1,6 +1,6 @@
 ---
-title: "Fish Gelatin"
-description: "Comprehensive reference for Fish Gelatin, a peptide compound with applications in research and therapeutics."
+title: "Fish Gelatin: Oligopeptide Research Reference"
+description: "Fish Gelatin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

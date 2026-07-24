@@ -1,6 +1,6 @@
 ---
-title: "Leucine Modification"
-description: "Post-translational modifications of Leucine including phosphorylation, methylation, acetylation, and ubiquitination."
+title: "Leucine Modification: Post-Translational Modification Ref..."
+description: "Post-translational modifications of Leucine including phosphorylation, methylation, acetylation, and ubiquitination. Covers molecular mechanisms, biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

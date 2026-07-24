@@ -1,6 +1,6 @@
 ---
-title: "Epidermal Growth Factor 1-48"
-description: "Reference for epidermal growth factor 1-48 in peptide research."
+title: "Epidermal Growth Factor 1-48: Comprehensive Peptide Refer..."
+description: "Comprehensive reference for epidermal growth factor 1-48, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

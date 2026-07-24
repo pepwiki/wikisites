@@ -1,5 +1,5 @@
 ---
-title: "Tyrocidine A3"
+title: "Tyrocidine A3: Antimicrobial Peptide Reference"
 description: "tyrocidine-A3 is a peptide antibiotic produced by bacteria with antimicrobial activity used in clinical and agricultural applications."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,6 +1,6 @@
 ---
-title: "Nanocrystalline Synthesis"
-description: "A peptide synthesis method using Nanocrystalline for producing peptides with specific properties."
+title: "Nanocrystalline Synthesis: Comprehensive Peptide Reference"
+description: "A peptide synthesis method using Nanocrystalline for producing peptides with specific properties. This analytical technique provides valuable insights into p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

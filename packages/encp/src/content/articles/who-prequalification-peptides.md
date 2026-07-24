@@ -1,6 +1,6 @@
 ---
 title: "WHO Prequalification for Peptides"
-description: "Understand WHO prequalification program requirements for peptide medicines in global health markets."
+description: "Understand WHO prequalification program requirements for peptide medicines in global health markets. This peptide or oligopeptide is studied for its biologic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

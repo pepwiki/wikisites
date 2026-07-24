@@ -1,6 +1,6 @@
 ---
-title: "Kalata B9"
-description: "kalata-B9 is a cyclotide — a cyclic, knotted peptide from plants with exceptional stability and insecticidal activity."
+title: "Kalata B9: Oligopeptide Research Reference"
+description: "kalata-B9 is a cyclotide — a cyclic, knotted peptide from plants with exceptional stability and insecticidal activity. Covers molecular mechanisms, biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

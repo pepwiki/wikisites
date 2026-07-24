@@ -1,6 +1,6 @@
 ---
 title: "Fibroblast Growth Factor 1-155"
-description: "Reference for fibroblast growth factor 1-155 in peptide research."
+description: "Comprehensive reference for fibroblast growth factor 1-155, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

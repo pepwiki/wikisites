@@ -1,6 +1,6 @@
 ---
-title: "GLP-1 and PCOS"
-description: "Emerging use in polycystic ovary syndrome for insulin sensitization and menstrual regulation."
+title: "GLP-1 and PCOS: Oligopeptide Research Reference"
+description: "Emerging use in polycystic ovary syndrome for insulin sensitization and menstrual regulation. This peptide or oligopeptide is studied for its biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

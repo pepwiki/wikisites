@@ -1,6 +1,6 @@
 ---
 title: "Immunosuppressant Interactions"
-description: "Drug interactions between immunosuppressant peptides and other medications."
+description: "Drug interactions between immunosuppressant peptides and other medications. This peptide or oligopeptide is studied for its biological activity, structure-ac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

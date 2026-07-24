@@ -1,6 +1,6 @@
 ---
-title: "Osteocalcin Hormone"
-description: "The Osteocalcin Hormone and its role in endocrine signaling."
+title: "Osteocalcin Hormone: Endogenous Peptide Hormone Reference"
+description: "Osteocalcin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

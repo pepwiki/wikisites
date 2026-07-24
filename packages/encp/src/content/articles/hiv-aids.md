@@ -1,6 +1,6 @@
 ---
-title: "HIV/AIDS"
-description: "HIV-1/2 → CD4+ T-cell depletion. Treatments: ART (NRTIs, NNRTIs, INSTIs, PIs)."
+title: "HIV/AIDS: Oligopeptide Research Reference"
+description: "HIV-1/2 → CD4+ T-cell depletion. Treatments: ART (NRTIs, NNRTIs, INSTIs, PIs). This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

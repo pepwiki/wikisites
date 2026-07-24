@@ -1,6 +1,6 @@
 ---
 title: "Side Chain Cyclization (Disulfide)"
-description: "Formation of disulfide bond between two cysteine residues. Stabilizes structure."
+description: "Formation of disulfide bond between two cysteine residues. Stabilizes structure. This peptide or oligopeptide is studied for its biological activity, structu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

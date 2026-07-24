@@ -1,6 +1,6 @@
 ---
-title: "T SNE for Peptides"
-description: "A computational method for studying peptides using T SNE."
+title: "T SNE for Peptides: Analytical Technique in Peptide Research"
+description: "A computational method for studying peptides using T SNE. This analytical technique provides valuable insights into peptide structure, purity, and characteri..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

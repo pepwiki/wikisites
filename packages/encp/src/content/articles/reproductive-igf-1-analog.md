@@ -1,6 +1,6 @@
 ---
-title: "IGF 1 Analog"
-description: "Comprehensive reference for IGF 1 analog in peptide research."
+title: "IGF 1 Analog: Oligopeptide Research Reference"
+description: "IGF 1 analog in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

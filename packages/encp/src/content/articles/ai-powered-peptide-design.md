@@ -1,6 +1,6 @@
 ---
-title: "AI-Powered Peptide Design"
-description: "Machine learning approaches including: generative models (VAE, GAN, diffusion), reinforcement learning for optimization, and deep learning for property prediction. Applications in drug discovery and b"
+title: "AI-Powered Peptide Design: Comprehensive Peptide Reference"
+description: "Machine learning approaches including: generative models (VAE, GAN, diffusion), reinforcement learning for optimization, and deep learning for property predi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Machine learning approaches including: generative models (VAE, GAN, diffusion), reinforcement learning for optimization, and deep learning for property prediction. Applications in drug discovery and biomaterial design.
+Machine learning approaches including: generative models (VAE, GAN, diffusion), reinforcement learning for optimization, and deep learning for property predi...iomaterial design.
 
 ## Clinical Significance
 

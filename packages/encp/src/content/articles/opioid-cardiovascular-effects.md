@@ -1,6 +1,6 @@
 ---
-title: "Opioid Cardiovascular Effects"
-description: "Effects of endogenous opioids on heart rate and blood pressure."
+title: "Opioid Cardiovascular Effects: Comprehensive Peptide Refe..."
+description: "Effects of endogenous opioids on heart rate and blood pressure. This neuropeptide is involved in neurological signaling and is studied for its roles in brain..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

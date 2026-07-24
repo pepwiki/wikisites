@@ -1,5 +1,5 @@
 ---
-title: "Obesity"
+title: "Obesity: Oligopeptide Research Reference"
 description: "Excess body fat (BMI ≥30). Multifactorial. Treatments: lifestyle, GLP-1 agonists (semaglutide, tirzepatide), bariatric surgery."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,5 +1,5 @@
 ---
-title: "Oral Peptide Delivery"
+title: "Oral Peptide Delivery: Oligopeptide Research Reference"
 description: "Explore strategies and challenges for oral delivery of peptide drugs including permeation enhancers and enteric coatings."
 status: "published"
 author: "Encyclopeptide Editorial"

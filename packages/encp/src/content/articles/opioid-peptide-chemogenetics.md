@@ -1,6 +1,6 @@
 ---
-title: "Opioid Peptide Chemogenetics"
-description: "DREADD-based chemogenetic control of opioid peptide neurons."
+title: "Opioid Peptide Chemogenetics: Comprehensive Peptide Refer..."
+description: "DREADD-based chemogenetic control of opioid peptide neurons. This neuropeptide is involved in neurological signaling and is studied for its roles in brain fu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

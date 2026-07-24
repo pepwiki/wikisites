@@ -1,6 +1,6 @@
 ---
-title: "Peptide α-Methylation"
-description: "Introduction of methyl group at α-carbon of amino acid residue. Increases metabolic stability, reduces proteolytic degradation, and can modify conformation. Used in drug design for improved pharmacoki"
+title: "Peptide α-Methylation: Oligopeptide Research Reference"
+description: "Introduction of methyl group at α-carbon of amino acid residue. Increases metabolic stability, reduces proteolytic degradation, and can modify conformation. ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
@@ -12,7 +12,7 @@ relatedArticles: []
 
 ## Overview
 
-Introduction of methyl group at α-carbon of amino acid residue. Increases metabolic stability, reduces proteolytic degradation, and can modify conformation. Used in drug design for improved pharmacokinetics.
+Introduction of methyl group at α-carbon of amino acid residue. Increases metabolic stability, reduces proteolytic degradation, and can modify conformation. ...netics.
 
 ## Clinical Significance
 

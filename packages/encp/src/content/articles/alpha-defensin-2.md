@@ -1,5 +1,5 @@
 ---
-title: "Alpha Defensin 2"
+title: "Alpha Defensin 2: Antimicrobial Peptide Reference"
 description: "alpha-defensin-2 is a defensin-family antimicrobial peptide with cysteine-stabilized structure and broad-spectrum activity."
 status: "published"
 author: "Encyclopeptide Editorial"

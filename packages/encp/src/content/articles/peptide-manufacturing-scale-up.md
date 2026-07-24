@@ -1,6 +1,6 @@
 ---
 title: "Peptide Manufacturing Scale-Up"
-description: "Challenges and solutions for scaling peptide synthesis from laboratory to commercial manufacturing."
+description: "Challenges and solutions for scaling peptide synthesis from laboratory to commercial manufacturing. This peptide or oligopeptide is studied for its biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Dengue E Vaccine"
-description: "A peptide vaccine targeting Dengue E for infectious disease prevention."
+title: "Dengue E Vaccine: Oligopeptide Research Reference"
+description: "A peptide vaccine targeting Dengue E for infectious disease prevention. This peptide or oligopeptide is studied for its biological activity, structure-activi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

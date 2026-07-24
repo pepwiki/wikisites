@@ -1,6 +1,6 @@
 ---
-title: "HER2 Inhibitor PDC"
-description: "A peptide-drug conjugate targeting HER2 Inhibitor for selective drug delivery."
+title: "HER2 Inhibitor PDC: Oligopeptide Research Reference"
+description: "A peptide-drug conjugate targeting HER2 Inhibitor for selective drug delivery. This peptide or oligopeptide is studied for its biological activity, structure..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

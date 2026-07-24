@@ -1,6 +1,6 @@
 ---
-title: "Modification"
-description: "Covalent modification (disulfide, conformational)"
+title: "Modification: Oligopeptide Research Reference"
+description: "Covalent modification (disulfide, conformational). This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

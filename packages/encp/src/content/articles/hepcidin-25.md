@@ -1,5 +1,5 @@
 ---
-title: "Hepcidin 25"
+title: "Hepcidin 25: Endogenous Peptide Hormone Reference"
 description: "hepcidin-25 is a growth factor or regulatory peptide involved in cell proliferation, differentiation, and tissue homeostasis."
 status: "published"
 author: "Encyclopeptide Editorial"

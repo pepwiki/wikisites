@@ -1,6 +1,6 @@
 ---
-title: "Albiglutide"
-description: "Once-weekly GLP-1 agonist fused to human albumin via non-cleavable linker for extended half-life."
+title: "Albiglutide: Oligopeptide Research Reference"
+description: "Once-weekly GLP-1 agonist fused to human albumin via non-cleavable linker for extended half-life. This peptide or oligopeptide is studied for its biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

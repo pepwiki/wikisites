@@ -1,5 +1,5 @@
 ---
-title: "Activin AB"
+title: "Activin AB: Endogenous Peptide Hormone Reference"
 description: "activin-AB is a growth factor or regulatory peptide involved in cell proliferation, differentiation, and tissue homeostasis."
 status: "published"
 author: "Encyclopeptide Editorial"

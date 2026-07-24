@@ -1,6 +1,6 @@
 ---
-title: "Tachykinin Like"
-description: "tachykinin-like is a conotoxin from cone snail venom with specific ion channel blocking properties."
+title: "Tachykinin Like: Peptide Toxin in Pharmacology Reference"
+description: "tachykinin-like is a conotoxin from cone snail venom with specific ion channel blocking properties. This peptide toxin is derived from venom and studied for ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

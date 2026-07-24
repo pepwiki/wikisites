@@ -1,6 +1,6 @@
 ---
-title: "Protein G Purification"
-description: "A purification technique for separating and isolating peptides using Protein G."
+title: "Protein G Purification: Analytical Technique in Peptide R..."
+description: "A purification technique for separating and isolating peptides using Protein G. This analytical technique provides valuable insights into peptide structure, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

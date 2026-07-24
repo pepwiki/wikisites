@@ -1,6 +1,6 @@
 ---
-title: "Bovine Cathelicidin BMAP-28"
-description: "Cathelicidin from bovine neutrophils with broad-spectrum antimicrobial properties."
+title: "Bovine Cathelicidin BMAP-28: Comprehensive Peptide Reference"
+description: "Cathelicidin from bovine neutrophils with broad-spectrum antimicrobial properties. This antimicrobial peptide demonstrates activity against pathogens and is ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

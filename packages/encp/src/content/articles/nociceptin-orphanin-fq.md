@@ -1,6 +1,6 @@
 ---
-title: "Nociceptin/Orphanin FQ"
-description: "Comprehensive reference for Nociceptin/Orphanin FQ, a peptide compound with applications in research and therapeutics."
+title: "Nociceptin/Orphanin FQ: Neuropeptide in Neuroscience Refe..."
+description: "Nociceptin/Orphanin FQ, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

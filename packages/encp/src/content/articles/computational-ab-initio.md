@@ -1,6 +1,6 @@
 ---
-title: "Ab Initio for Peptides"
-description: "A computational method for studying peptides using Ab Initio."
+title: "Ab Initio for Peptides: Analytical Technique in Peptide R..."
+description: "A computational method for studying peptides using Ab Initio. This analytical technique provides valuable insights into peptide structure, purity, and charac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

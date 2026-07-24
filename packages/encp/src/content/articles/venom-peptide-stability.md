@@ -1,6 +1,6 @@
 ---
-title: "Venom Peptide Stability"
-description: "Strategies for improving venom peptide stability and bioavailability."
+title: "Venom Peptide Stability: Peptide Toxin in Pharmacology Re..."
+description: "Strategies for improving venom peptide stability and bioavailability. This peptide toxin is derived from venom and studied for its pharmacological activity, ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

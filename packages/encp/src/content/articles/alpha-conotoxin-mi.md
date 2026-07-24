@@ -1,6 +1,6 @@
 ---
-title: "Alpha-Conotoxin MI"
-description: "Muscle-type nicotinic receptor antagonist from Conus magus with therapeutic potential."
+title: "Alpha-Conotoxin MI: Peptide Toxin in Pharmacology Reference"
+description: "Muscle-type nicotinic receptor antagonist from Conus magus with therapeutic potential. This peptide toxin is derived from venom and studied for its pharmacol..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

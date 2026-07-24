@@ -1,6 +1,6 @@
 ---
-title: "Molecular glue"
-description: "Reference for molecular glue in peptide research."
+title: "Molecular glue: Oligopeptide Research Reference"
+description: "Comprehensive reference for molecular glue, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

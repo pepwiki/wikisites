@@ -1,6 +1,6 @@
 ---
-title: "Peptide Nanomedicine"
-description: "Comprehensive reference for Peptide Nanomedicine, a peptide compound with applications in research and therapeutics."
+title: "Peptide Nanomedicine: Oligopeptide Research Reference"
+description: "Peptide Nanomedicine, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

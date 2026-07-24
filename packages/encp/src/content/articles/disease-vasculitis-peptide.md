@@ -1,6 +1,6 @@
 ---
-title: "Vasculitis Peptides"
-description: "Peptides associated with Vasculitis including biomarkers, therapeutic targets, and diagnostic markers."
+title: "Vasculitis Peptides: Oligopeptide Research Reference"
+description: "Peptides associated with Vasculitis including biomarkers, therapeutic targets, and diagnostic markers. This peptide or oligopeptide is studied for its biolog..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

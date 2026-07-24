@@ -1,6 +1,6 @@
 ---
-title: "PACAP"
-description: "Neuropeptide structurally related to VIP with widespread CNS and peripheral effects."
+title: "PACAP: Neuropeptide in Neuroscience Reference"
+description: "Neuropeptide structurally related to VIP with widespread CNS and peripheral effects. This neuropeptide is involved in neurological signaling and is studied f..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

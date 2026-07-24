@@ -1,6 +1,6 @@
 ---
-title: "Lucensomycin"
-description: "Comprehensive reference for Lucensomycin, a peptide compound with applications in research and therapeutics."
+title: "Lucensomycin: Oligopeptide Research Reference"
+description: "Lucensomycin, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

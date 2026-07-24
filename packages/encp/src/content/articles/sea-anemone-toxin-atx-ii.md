@@ -1,6 +1,6 @@
 ---
-title: "Sea Anemone Toxin ATX-II"
-description: "Sodium channel modulator from Anemonia sulcata with cardiotoxic effects."
+title: "Sea Anemone Toxin ATX-II: Peptide Toxin in Pharmacology R..."
+description: "Sodium channel modulator from Anemonia sulcata with cardiotoxic effects. This peptide toxin is derived from venom and studied for its pharmacological activit..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

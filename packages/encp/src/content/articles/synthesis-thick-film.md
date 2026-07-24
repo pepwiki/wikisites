@@ -1,6 +1,6 @@
 ---
-title: "Thick Film Synthesis"
-description: "A peptide synthesis method using Thick Film for producing peptides with specific properties."
+title: "Thick Film Synthesis: Analytical Technique in Peptide Res..."
+description: "A peptide synthesis method using Thick Film for producing peptides with specific properties. This analytical technique provides valuable insights into peptid..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

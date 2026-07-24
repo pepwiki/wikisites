@@ -1,6 +1,6 @@
 ---
 title: "GLP-1 Fatty Acid Conjugation Strategies"
-description: "Chemical conjugation of fatty acid moieties to GLP-1 peptides for albumin binding and half-life extension."
+description: "Chemical conjugation of fatty acid moieties to GLP-1 peptides for albumin binding and half-life extension. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

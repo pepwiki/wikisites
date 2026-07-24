@@ -1,6 +1,6 @@
 ---
-title: "Phosphorothioate RNA"
-description: "Reference for phosphorothioate rna in peptide research."
+title: "Phosphorothioate RNA: Oligopeptide Research Reference"
+description: "Comprehensive reference for phosphorothioate rna, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

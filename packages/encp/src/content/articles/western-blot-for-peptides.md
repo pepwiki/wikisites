@@ -1,5 +1,5 @@
 ---
-title: "Western Blot for Peptides"
+title: "Western Blot for Peptides: Comprehensive Peptide Reference"
 description: "Understand western blotting techniques for detecting and semi-quantifying peptides using gel electrophoresis and immunodetection."
 status: "published"
 author: "Encyclopeptide Editorial"

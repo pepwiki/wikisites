@@ -1,6 +1,6 @@
 ---
-title: "Betatrophin Peptide Hormone"
-description: "The Betatrophin Peptide Hormone and its role in endocrine signaling."
+title: "Betatrophin Peptide Hormone: Comprehensive Peptide Reference"
+description: "Betatrophin, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

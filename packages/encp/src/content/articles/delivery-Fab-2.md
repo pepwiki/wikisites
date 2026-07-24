@@ -1,6 +1,6 @@
 ---
-title: "Fab System 2"
-description: "A Fab-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy."
+title: "Fab System 2: Oligopeptide Research Reference"
+description: "A Fab-based peptide delivery system designed for enhanced bioavailability and therapeutic efficacy. This peptide or oligopeptide is studied for its biologica..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,5 +1,5 @@
 ---
-title: "Filgrastim"
+title: "Filgrastim: Oligopeptide Research Reference"
 description: "Recombinant G-CSF that stimulates neutrophil production and mobilization for chemotherapy-induced neutropenia and stem cell collection."
 status: "published"
 author: "Encyclopeptide Editorial"

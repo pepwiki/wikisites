@@ -1,6 +1,6 @@
 ---
-title: "Nesiritide"
-description: "Recombinant BNP for acute decompensated heart failure reducing cardiac filling pressures."
+title: "Nesiritide: Oligopeptide Research Reference"
+description: "Recombinant BNP for acute decompensated heart failure reducing cardiac filling pressures. This peptide or oligopeptide is studied for its biological activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

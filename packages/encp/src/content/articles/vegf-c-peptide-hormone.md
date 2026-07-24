@@ -1,6 +1,6 @@
 ---
-title: "VEGF C Peptide Hormone"
-description: "The VEGF C Peptide Hormone and its role in endocrine signaling."
+title: "VEGF C Peptide Hormone: Endogenous Peptide Hormone Reference"
+description: "VEGF C, an endogenous hormone involved in endocrine signaling, covering molecular structure, receptor pharmacology, physiological functions, and clinical sig..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

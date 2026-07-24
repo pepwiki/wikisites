@@ -1,5 +1,5 @@
 ---
-title: "GLP-1/Glucagon Dual Agonists"
+title: "GLP-1/Glucagon Dual Agonists: Comprehensive Peptide Refer..."
 description: "Dual receptor agonists targeting both GLP-1 and glucagon receptors for enhanced metabolic effects including weight loss and hepatoprotection."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,6 +1,6 @@
 ---
-title: "GM CSF Inhibitor PDC"
-description: "A peptide-drug conjugate targeting GM CSF Inhibitor for selective drug delivery."
+title: "GM CSF Inhibitor PDC: Oligopeptide Research Reference"
+description: "A peptide-drug conjugate targeting GM CSF Inhibitor for selective drug delivery. This peptide or oligopeptide is studied for its biological activity, structu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

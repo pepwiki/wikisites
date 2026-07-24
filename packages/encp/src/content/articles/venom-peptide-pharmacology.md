@@ -1,6 +1,6 @@
 ---
-title: "Venom Peptide Pharmacology"
-description: "General pharmacology of venom peptides as ion channel and receptor modulators."
+title: "Venom Peptide Pharmacology: Comprehensive Peptide Reference"
+description: "General pharmacology of venom peptides as ion channel and receptor modulators. This peptide toxin is derived from venom and studied for its pharmacological a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

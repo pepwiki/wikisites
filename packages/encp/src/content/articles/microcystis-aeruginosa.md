@@ -1,6 +1,6 @@
 ---
-title: "Microcystis aeruginosa"
-description: "Inhibits protein phosphatases PP1 and PP2A"
+title: "Microcystis aeruginosa: Oligopeptide Research Reference"
+description: "Inhibits protein phosphatases PP1 and PP2A. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potent..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

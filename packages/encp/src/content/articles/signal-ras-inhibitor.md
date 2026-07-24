@@ -1,6 +1,6 @@
 ---
-title: "RAS Inhibitor"
-description: "Comprehensive reference for RAS inhibitor in peptide research."
+title: "RAS Inhibitor: Oligopeptide Research Reference"
+description: "RAS inhibitor in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential appli..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "TrRosetta for Peptides"
-description: "A computational method for studying peptides using TrRosetta."
+title: "TrRosetta for Peptides: Analytical Technique in Peptide R..."
+description: "A computational method for studying peptides using TrRosetta. This analytical technique provides valuable insights into peptide structure, purity, and charac..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

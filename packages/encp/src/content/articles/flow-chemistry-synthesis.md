@@ -1,6 +1,6 @@
 ---
-title: "Flow Chemistry Synthesis"
-description: ">"
+title: "Flow Chemistry Synthesis: Oligopeptide Research Reference"
+description: ">. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applications in biomedical research a..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

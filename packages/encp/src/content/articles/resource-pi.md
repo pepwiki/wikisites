@@ -1,6 +1,6 @@
 ---
-title: "pI Resource"
-description: "The pI database or resource for peptide research, providing data on structure, function, and interactions."
+title: "pI Resource: Oligopeptide Research Reference"
+description: "The pI database or resource for peptide research, providing data on structure, function, and interactions. This peptide or oligopeptide is studied for its bi..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Insulin Pump Therapy"
-description: "Continuous subcutaneous insulin infusion using rapid-acting analogs for precise basal-bolus insulin delivery."
+title: "Insulin Pump Therapy: Oligopeptide Research Reference"
+description: "Continuous subcutaneous insulin infusion using rapid-acting analogs for precise basal-bolus insulin delivery. This peptide or oligopeptide is studied for its..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

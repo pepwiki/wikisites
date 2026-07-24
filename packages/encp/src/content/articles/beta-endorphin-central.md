@@ -1,6 +1,6 @@
 ---
-title: "Beta-Endorphin Central"
-description: "Central effects of beta-endorphin on pain, reward, and stress response."
+title: "Beta-Endorphin Central: Neuropeptide in Neuroscience Refe..."
+description: "Central effects of beta-endorphin on pain, reward, and stress response. This neuropeptide is involved in neurological signaling and is studied for its roles ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

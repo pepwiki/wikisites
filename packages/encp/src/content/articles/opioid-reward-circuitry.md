@@ -1,6 +1,6 @@
 ---
-title: "Opioid Reward Circuitry"
-description: "Endogenous opioids in mesolimbic dopamine reward pathways."
+title: "Opioid Reward Circuitry: Neuropeptide in Neuroscience Ref..."
+description: "Endogenous opioids in mesolimbic dopamine reward pathways. This neuropeptide is involved in neurological signaling and is studied for its roles in brain func..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

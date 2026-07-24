@@ -1,6 +1,6 @@
 ---
-title: "Motor protein myosin"
-description: "Reference for motor protein myosin in peptide research."
+title: "Motor protein myosin: Oligopeptide Research Reference"
+description: "Comprehensive reference for motor protein myosin, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

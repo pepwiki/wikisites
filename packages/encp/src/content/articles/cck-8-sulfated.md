@@ -1,6 +1,6 @@
 ---
-title: "CCK-8 (Sulfated)"
-description: "Comprehensive reference for CCK-8 (Sulfated), a peptide compound with applications in research and therapeutics."
+title: "CCK-8 (Sulfated): Neuropeptide in Neuroscience Reference"
+description: "CCK-8 (Sulfated), a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

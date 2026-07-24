@@ -1,6 +1,6 @@
 ---
-title: "Human Beta-Defensin 2"
-description: "Inducible epithelial defensin upregulated by TLR activation during inflammation and infection."
+title: "Human Beta-Defensin 2: Antimicrobial Peptide Reference"
+description: "Inducible epithelial defensin upregulated by TLR activation during inflammation and infection. This antimicrobial peptide demonstrates activity against patho..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

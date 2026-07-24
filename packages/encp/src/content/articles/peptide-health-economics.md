@@ -1,6 +1,6 @@
 ---
-title: "Peptide Health Economics"
-description: "Health economic evaluation of peptide therapeutics including cost-effectiveness and market access."
+title: "Peptide Health Economics: Oligopeptide Research Reference"
+description: "Health economic evaluation of peptide therapeutics including cost-effectiveness and market access. This peptide or oligopeptide is studied for its biological..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

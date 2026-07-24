@@ -1,6 +1,6 @@
 ---
 title: "Molecular Dynamics for Peptides"
-description: "Explore computational molecular dynamics simulations for predicting peptide conformational behavior and folding."
+description: "Explore computational molecular dynamics simulations for predicting peptide conformational behavior and folding. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

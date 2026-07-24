@@ -1,5 +1,5 @@
 ---
-title: "binding-affinity Resource"
+title: "binding-affinity Resource: Comprehensive Peptide Reference"
 description: "The binding-affinity database or resource for peptide research, providing data on structure, function, and interactions."
 status: "published"
 author: "Encyclopeptide Editorial"

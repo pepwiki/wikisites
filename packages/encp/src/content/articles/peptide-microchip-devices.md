@@ -1,6 +1,6 @@
 ---
-title: "Peptide Microchip Devices"
-description: "Microchip-controlled devices for programmable peptide delivery."
+title: "Peptide Microchip Devices: Comprehensive Peptide Reference"
+description: "Microchip-controlled devices for programmable peptide delivery. This peptide or oligopeptide is studied for its biological activity, structure-activity relat..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

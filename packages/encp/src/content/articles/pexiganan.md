@@ -1,6 +1,6 @@
 ---
-title: "Pexiganan"
-description: "Synthetic magainin analog antimicrobial peptide for diabetic foot ulcer infections with broad-spectrum activity."
+title: "Pexiganan: Antimicrobial Peptide Reference"
+description: "Synthetic magainin analog antimicrobial peptide for diabetic foot ulcer infections with broad-spectrum activity. Covers molecular mechanisms, biological acti..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

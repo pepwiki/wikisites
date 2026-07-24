@@ -1,5 +1,5 @@
 ---
-title: "Feather Keratin Peptides"
+title: "Feather Keratin Peptides: Oligopeptide Research Reference"
 description: "Comprehensive reference for Feather Keratin Peptides, a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

@@ -1,6 +1,6 @@
 ---
 title: "Epidermal Growth Factor Family"
-description: "Learn about EGF, TGF-alpha, and amphiregulin in epithelial growth and cancer biology."
+description: "Learn about EGF, TGF-alpha, and amphiregulin in epithelial growth and cancer biology. This peptide or oligopeptide is studied for its biological activity, st..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

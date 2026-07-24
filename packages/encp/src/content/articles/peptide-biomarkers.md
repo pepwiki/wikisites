@@ -1,6 +1,6 @@
 ---
-title: "Peptide Biomarkers"
-description: "Peptides as diagnostic and prognostic biomarkers for disease detection and monitoring."
+title: "Peptide Biomarkers: Oligopeptide Research Reference"
+description: "Peptides as diagnostic and prognostic biomarkers for disease detection and monitoring. This peptide or oligopeptide is studied for its biological activity, s..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

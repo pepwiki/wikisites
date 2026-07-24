@@ -1,6 +1,6 @@
 ---
-title: "Targeted delivery"
-description: "Reference for targeted delivery in peptide research."
+title: "Targeted delivery: Oligopeptide Research Reference"
+description: "Comprehensive reference for targeted delivery, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

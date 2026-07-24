@@ -1,6 +1,6 @@
 ---
-title: "PD 1 Blocker"
-description: "Comprehensive reference for PD 1 blocker in peptide research."
+title: "PD 1 Blocker: Oligopeptide Research Reference"
+description: "PD 1 blocker in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential applic..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

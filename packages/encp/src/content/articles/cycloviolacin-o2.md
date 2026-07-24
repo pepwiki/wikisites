@@ -1,6 +1,6 @@
 ---
-title: "Cycloviolacin O2"
-description: "Comprehensive reference for Cycloviolacin O2, a peptide compound with applications in research and therapeutics."
+title: "Cycloviolacin O2: Oligopeptide Research Reference"
+description: "Cycloviolacin O2, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

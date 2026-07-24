@@ -1,5 +1,5 @@
 ---
-title: "Neuropeptide Y"
+title: "Neuropeptide Y: Neuropeptide in Neuroscience Reference"
 description: "A 36-amino acid neuropeptide and the most potent known appetite stimulant, playing central roles in energy homeostasis, stress response, and circadian rhythms."
 status: "published"
 author: "Encyclopeptide Editorial"

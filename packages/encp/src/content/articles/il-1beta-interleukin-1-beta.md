@@ -1,5 +1,5 @@
 ---
-title: "IL-1beta (Interleukin-1 Beta)"
+title: "IL-1beta (Interleukin-1 Beta): Comprehensive Peptide Refe..."
 description: "Comprehensive reference for IL-1beta (Interleukin-1 Beta), a peptide compound with applications in research and therapeutics."
 status: "published"
 author: "Encyclopeptide Editorial"

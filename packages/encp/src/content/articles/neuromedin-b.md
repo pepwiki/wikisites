@@ -1,6 +1,6 @@
 ---
-title: "Neuromedin B"
-description: "Bombesin-related neuropeptide with roles in satiety and stress response."
+title: "Neuromedin B: Neuropeptide in Neuroscience Reference"
+description: "Bombesin-related neuropeptide with roles in satiety and stress response. This neuropeptide is involved in neurological signaling and is studied for its roles..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

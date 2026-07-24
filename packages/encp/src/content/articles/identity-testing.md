@@ -1,6 +1,6 @@
 ---
-title: "Identity Testing"
-description: "Comprehensive reference for Identity Testing, a peptide compound with applications in research and therapeutics."
+title: "Identity Testing: Oligopeptide Research Reference"
+description: "Identity Testing, a bioactive peptide compound with documented applications in biomedical research, pharmacological studies, and therapeutic development"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Peptide Imaging Agents"
-description: "Guide to radiolabeled peptides as imaging agents in PET, SPECT, and fluorescence imaging."
+title: "Peptide Imaging Agents: Oligopeptide Research Reference"
+description: "Guide to radiolabeled peptides as imaging agents in PET, SPECT, and fluorescence imaging. This peptide or oligopeptide is studied for its biological activity..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

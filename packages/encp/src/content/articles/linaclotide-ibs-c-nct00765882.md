@@ -1,6 +1,6 @@
 ---
 title: "Linaclotide - IBS-C (NCT00765882)"
-description: "Phase III trial of linaclotide for IBS-C."
+description: "Phase III trial of linaclotide for IBS-C. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potentia..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

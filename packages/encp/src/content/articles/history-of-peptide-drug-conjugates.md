@@ -1,6 +1,6 @@
 ---
 title: "History of Peptide Drug Conjugates"
-description: "The evolution of peptide-drug conjugates from early concepts to approved therapies."
+description: "The evolution of peptide-drug conjugates from early concepts to approved therapies. This peptide or oligopeptide is studied for its biological activity, stru..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

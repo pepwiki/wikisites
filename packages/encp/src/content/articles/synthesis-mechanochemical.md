@@ -1,6 +1,6 @@
 ---
-title: "Mechanochemical Synthesis"
-description: "A peptide synthesis method using Mechanochemical for producing peptides with specific properties."
+title: "Mechanochemical Synthesis: Comprehensive Peptide Reference"
+description: "A peptide synthesis method using Mechanochemical for producing peptides with specific properties. This analytical technique provides valuable insights into p..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

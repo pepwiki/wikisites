@@ -1,6 +1,6 @@
 ---
-title: "Diafiltration Purification"
-description: "A purification technique for separating and isolating peptides using Diafiltration."
+title: "Diafiltration Purification: Comprehensive Peptide Reference"
+description: "A purification technique for separating and isolating peptides using Diafiltration. This analytical technique provides valuable insights into peptide structu..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

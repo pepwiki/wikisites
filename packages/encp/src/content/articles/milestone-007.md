@@ -1,6 +1,6 @@
 ---
-title: "Milestone 007"
-description: "1987: Zasloff discovers magainins from frog skin. Opens field of antimicrobial peptides."
+title: "Milestone 007: Oligopeptide Research Reference"
+description: "1987: Zasloff discovers magainins from frog skin. Opens field of antimicrobial peptides. This peptide or oligopeptide is studied for its biological activity,..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

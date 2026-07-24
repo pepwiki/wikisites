@@ -1,6 +1,6 @@
 ---
-title: "Wasp Venom Polybia-MP1"
-description: "Membrane-disrupting peptide from Polybia paulista wasp venom."
+title: "Wasp Venom Polybia-MP1: Peptide Toxin in Pharmacology Ref..."
+description: "Membrane-disrupting peptide from Polybia paulista wasp venom. This peptide toxin is derived from venom and studied for its pharmacological activity, mechanis..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

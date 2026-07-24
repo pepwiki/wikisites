@@ -1,6 +1,6 @@
 ---
-title: "Insulin Aspart Protamine"
-description: "Rapid-acting insulin aspart complexed with protamine. Intermediate-acting profile."
+title: "Insulin Aspart Protamine: Oligopeptide Research Reference"
+description: "Rapid-acting insulin aspart complexed with protamine. Intermediate-acting profile. This peptide or oligopeptide is studied for its biological activity, struc..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

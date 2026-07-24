@@ -1,6 +1,6 @@
 ---
-title: "TR FRET Analysis"
-description: "An analytical technique for characterizing peptides using TR FRET."
+title: "TR FRET Analysis: Analytical Technique in Peptide Research"
+description: "An analytical technique for characterizing peptides using TR FRET. This analytical technique provides valuable insights into peptide structure, purity, and c..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -1,6 +1,6 @@
 ---
-title: "Vasopressin 7-9"
-description: "Reference for vasopressin 7-9 variant in peptide research."
+title: "Vasopressin 7-9: Peptide Fragment Reference"
+description: "Comprehensive reference for vasopressin 7-9 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

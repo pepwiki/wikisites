@@ -1,6 +1,6 @@
 ---
-title: "Cathepsin Inhibitor"
-description: "Comprehensive reference for cathepsin inhibitor in peptide research."
+title: "Cathepsin Inhibitor: Enzyme in Peptide Biology Reference"
+description: "cathepsin inhibitor in peptide research. This enzyme plays important roles in peptide metabolism and is studied for its biochemical mechanisms, substrate spe..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

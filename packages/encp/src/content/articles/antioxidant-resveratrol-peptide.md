@@ -1,6 +1,6 @@
 ---
-title: "Resveratrol Peptide"
-description: "Comprehensive reference for resveratrol peptide in peptide research."
+title: "Resveratrol Peptide: Oligopeptide Research Reference"
+description: "resveratrol peptide in peptide research. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

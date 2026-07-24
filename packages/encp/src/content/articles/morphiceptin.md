@@ -1,5 +1,5 @@
 ---
-title: "Morphiceptin"
+title: "Morphiceptin: Neuropeptide in Neuroscience Reference"
 description: "morphiceptin is an opioid neuropeptide that modulates pain, reward, and stress responses through opioid receptor activation."
 status: "published"
 author: "Encyclopeptide Editorial"

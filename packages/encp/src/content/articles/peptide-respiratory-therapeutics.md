@@ -1,6 +1,6 @@
 ---
 title: "Peptide Respiratory Therapeutics"
-description: "Therapeutic peptides for respiratory conditions including asthma, COPD, and pulmonary infections."
+description: "Therapeutic peptides for respiratory conditions including asthma, COPD, and pulmonary infections. This peptide or oligopeptide is studied for its biological ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2024-01-15

@@ -1,6 +1,6 @@
 ---
-title: "Anti-Aging"
-description: "Peptide-based approaches to skin aging."
+title: "Anti-Aging: Oligopeptide Research Reference"
+description: "Peptide-based approaches to skin aging. This peptide or oligopeptide is studied for its biological activity, structure-activity relationships, and potential ..."
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16
