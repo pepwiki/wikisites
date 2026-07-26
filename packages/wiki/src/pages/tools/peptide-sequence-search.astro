@@ -1,0 +1,344 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const siteUrl = "https://wikipept.com";
+
+const howToJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "How to Search Peptide Sequences",
+  step: [
+    {
+      "@type": "HowToStep",
+      name: "Enter Sequence Pattern",
+      text: "Enter a partial or full amino acid sequence using one-letter codes (e.g., GLP for glucagon-like peptides).",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Set Search Parameters",
+      text: "Choose exact match, partial match, or motif search mode. Filter by peptide class or receptor target.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "View Results",
+      text: "Review matching peptides with their sequences, molecular weights, receptor targets, and clinical status.",
+    },
+  ],
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "How do I search for a peptide by sequence?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Enter the amino acid sequence using one-letter codes in the search box. You can search for exact matches, partial subsequences, or sequence motifs. The tool returns all peptides containing your query sequence.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is a peptide sequence motif?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "A sequence motif is a conserved pattern of amino acids that often indicates a functional domain. For example, the motif 'GLP' identifies glucagon-like peptide family members. Motif search allows wildcard characters like X for any amino acid.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can I search by partial sequence?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. Partial sequence search finds all peptides containing your query as a substring. For example, searching 'RG' returns peptides with an Arg-Gly motif anywhere in their sequence, including integrin-binding RGD sequences.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How are peptide sequences formatted?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Sequences use standard one-letter amino acid codes: G (Gly), A (Ala), V (Val), L (Leu), I (Ile), P (Pro), F (Phe), W (Trp), M (Met), S (Ser), T (Thr), C (Cys), Y (Tyr), H (His), D (Asp), E (Glu), N (Asn), Q (Gln), K (Lys), R (Arg).",
+      },
+    },
+  ],
+};
+---
+
+<BaseLayout
+  title="Peptide Sequence Search Tool"
+  description="Search peptide database by amino acid sequence. Find peptides matching your sequence pattern, motif, or partial sequence."
+>
+  <article class="max-w-5xl mx-auto">
+    <header class="mb-8">
+      <h1 class="text-4xl font-extrabold text-slate-900 dark:text-slate-100 mb-4">
+        Peptide Sequence Search
+      </h1>
+      <p class="text-lg text-slate-600 dark:text-slate-400">
+        Search our peptide database by amino acid sequence. Find peptides by exact match, partial sequence, or conserved motif patterns.
+      </p>
+    </header>
+
+    <section class="mb-12 p-6 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="grid gap-4 md:grid-cols-2 mb-6">
+        <div>
+          <label for="searchSeq" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Sequence Query</label>
+          <input
+            type="text"
+            id="searchSeq"
+            placeholder="e.g., GLP, RGD, or full sequence"
+            class="w-full px-3 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100 font-mono"
+          />
+        </div>
+        <div>
+          <label for="searchMode" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Search Mode</label>
+          <select
+            id="searchMode"
+            class="w-full px-3 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100"
+          >
+            <option value="contains">Partial Match (contains)</option>
+            <option value="exact">Exact Match</option>
+            <option value="starts">Starts With</option>
+            <option value="motif">Motif Search (X = any)</option>
+          </select>
+        </div>
+      </div>
+      <div class="grid gap-4 md:grid-cols-2 mb-6">
+        <div>
+          <label for="filterClass" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Peptide Class</label>
+          <select
+            id="filterClass"
+            class="w-full px-3 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100"
+          >
+            <option value="all">All Classes</option>
+            <option value="incretin">Incretin (GLP-1, GIP)</option>
+            <option value="oxytocin">Oxytocin/Vasopressin</option>
+            <option value="growth">Growth Hormone</option>
+            <option value="opiod">Opioid</option>
+            <option value="antimicrobial">Antimicrobial</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div>
+          <label for="filterTarget" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Receptor Target</label>
+          <select
+            id="filterTarget"
+            class="w-full px-3 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100"
+          >
+            <option value="all">All Targets</option>
+            <option value="GLP-1R">GLP-1 Receptor</option>
+            <option value="GIPR">GIP Receptor</option>
+            <option value="MC4R">MC4 Receptor</option>
+            <option value="OTR">Oxytocin Receptor</option>
+            <option value="V2R">Vasopressin V2</option>
+            <option value="GHRHR">GHRH Receptor</option>
+            <option value="SSTR">Somatostatin</option>
+          </select>
+        </div>
+      </div>
+      <button
+        id="searchBtn"
+        class="px-6 py-2 bg-[#0D9488] text-white font-medium rounded-lg hover:bg-[#0f766e] transition-colors"
+      >
+        Search Sequences
+      </button>
+    </section>
+
+    <section id="searchResults" class="mb-12 hidden">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Search Results <span id="resultCount" class="text-lg font-normal text-slate-500"></span>
+      </h2>
+      <div id="resultsContainer" class="space-y-4"></div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Common Peptide Sequence Motifs
+      </h2>
+      <div class="grid gap-4 md:grid-cols-2">
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">GLP-1 Family Motifs</h3>
+          <div class="space-y-1 text-sm font-mono text-[#0D9488]">
+            <p>HAEGTFTSDVSSYLEGQAAKEFIAWLVKGR</p>
+            <p class="text-slate-500 dark:text-slate-400 text-xs font-sans">Native GLP-1 (7-36) — search "EGTFT" for conserved core</p>
+          </div>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">RGD Motif (Integrin Binding)</h3>
+          <div class="space-y-1 text-sm font-mono text-[#0D9488]">
+            <p>RGD, RGDS, GRGD</p>
+            <p class="text-slate-500 dark:text-slate-400 text-xs font-sans">Cell adhesion motif found in fibronectin and bioactive peptides</p>
+          </div>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Oxytocin/Vasopressin Core</h3>
+          <div class="space-y-1 text-sm font-mono text-[#0D9488]">
+            <p>CYIQNCPLG (Oxytocin)</p>
+            <p class="text-slate-500 dark:text-slate-400 text-xs font-sans">Cyclic nonapeptide with disulfide bridge — search "C..NC" for family</p>
+          </div>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Antimicrobial Peptide Signatures</h3>
+          <div class="space-y-1 text-sm font-mono text-[#0D9488]">
+            <p>LLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES</p>
+            <p class="text-slate-500 dark:text-slate-400 text-xs font-sans">Cathelicidin LL-37 — search "FFRK" for cationic antimicrobial motif</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        How to Use Sequence Search
+      </h2>
+      <ol class="list-decimal list-inside space-y-2 text-slate-600 dark:text-slate-400">
+        <li>Enter your query using <strong>one-letter amino acid codes</strong> (G, A, V, L, I, P, F, W, M, S, T, C, Y, H, D, E, N, Q, K, R)</li>
+        <li>Select a <strong>search mode</strong>: partial match finds subsequences, exact match requires full sequence identity, motif search supports X wildcards</li>
+        <li>Optionally filter by <strong>peptide class</strong> or <strong>receptor target</strong> to narrow results</li>
+        <li>Click <strong>Search</strong> to view matching peptides with sequences, MW, targets, and clinical status</li>
+      </ol>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Frequently Asked Questions
+      </h2>
+      <div class="space-y-6">
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">How do I search for a peptide by sequence?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            Enter the amino acid sequence using one-letter codes in the search box. You can search for exact matches, partial subsequences, or sequence motifs. The tool returns all peptides containing your query sequence.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">What is a peptide sequence motif?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            A sequence motif is a conserved pattern of amino acids that often indicates a functional domain. For example, the motif "GLP" identifies glucagon-like peptide family members. Motif search allows wildcard characters like X for any amino acid.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">Can I search by partial sequence?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            Yes. Partial sequence search finds all peptides containing your query as a substring. For example, searching "RG" returns peptides with an Arg-Gly motif anywhere in their sequence, including integrin-binding RGD sequences.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">How are peptide sequences formatted?</h3>
+          <p class="text-slate-600 dark:text-slate-400">
+            Sequences use standard one-letter amino acid codes: G (Gly), A (Ala), V (Val), L (Leu), I (Ile), P (Pro), F (Phe), W (Trp), M (Met), S (Ser), T (Thr), C (Cys), Y (Tyr), H (His), D (Asp), E (Glu), N (Asn), Q (Gln), K (Lys), R (Arg).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-6 bg-[#0D9488]/5 border border-[#0D9488]/20 rounded-xl">
+      <h3 class="font-semibold text-[#0f766e] mb-2">Related Resources</h3>
+      <ul class="text-sm text-slate-600 dark:text-slate-400 space-y-1">
+        <li><a href="/tools/peptide-property-calculator" class="text-[#0D9488] hover:underline">Tool: Peptide Property Calculator</a></li>
+        <li><a href="/tools/molecular-weight-calculator" class="text-[#0D9488] hover:underline">Tool: Molecular Weight Calculator</a></li>
+        <li><a href="/learn/amino-acids" class="text-[#0D9488] hover:underline">Learn: 20 Standard Amino Acids</a></li>
+        <li><a href="/reference/peptide-receptor-binding" class="text-[#0D9488] hover:underline">Reference: Receptor Binding Data</a></li>
+        <li><a href="https://kingstonpeptides.com" rel="noopener" class="text-[#0D9488] hover:underline">Research-grade peptides from Kingston Peptides</a></li>
+      </ul>
+    </section>
+  </article>
+
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+  <script is:inline type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Peptide Sequence Search Tool",
+  "description": "Search peptide database by amino acid sequence, partial match, or motif pattern",
+  "url": "https://wikipept.com/tools/peptide-sequence-search/",
+  "medicalAudience": {
+    "@type": "MedicalAudience",
+    "audienceType": "Researcher"
+  },
+  "lastReviewed": "2026-07-26"
+}
+  </script>
+
+  <script is:inline>
+    document.addEventListener("DOMContentLoaded", function () {
+      const peptideDB = [
+        { name: "Semaglutide", seq: "HAEGTFTSDVSSYLEGQAAKEFIAWLVKGRG", class: "incretin", target: "GLP-1R", mw: "4113.6", status: "Approved" },
+        { name: "Liraglutide", seq: "HAEGTFTSDVSSYLEGQAAKEFIAWLVKGRG", class: "incretin", target: "GLP-1R", mw: "3751.2", status: "Approved" },
+        { name: "Exenatide", seq: "HGEGTFTSDLSKQMEEEAVRLFIEWLKNGGPSSGAPPPS", class: "incretin", target: "GLP-1R", mw: "4186.5", status: "Approved" },
+        { name: "Tirzepatide", seq: "YAQDFVQWLLAGPSSGAPPPS", class: "incretin", target: "GLP-1R/GIPR", mw: "4813.5", status: "Approved" },
+        { name: "Dulaglutide", seq: "HAEGTFTSDVSSYLEGQAAKEFIAWLVKGRG", class: "incretin", target: "GLP-1R", mw: "64280", status: "Approved" },
+        { name: "Oxytocin", seq: "CYIQNCPLG", class: "oxytocin", target: "OTR", mw: "1007.2", status: "Approved" },
+        { name: "Desmopressin", seq: "CYFQNCPRG", class: "oxytocin", target: "V2R", mw: "1069.2", status: "Approved" },
+        { name: "Terlipressin", seq: "CYFQNCPRG", class: "oxytocin", target: "V1aR", mw: "1488.6", status: "Approved" },
+        { name: "Octreotide", seq: "SSCKYLQECFD", class: "growth", target: "SSTR", mw: "1436.7", status: "Approved" },
+        { name: "Pasireotide", seq: "HKWDFTPRSSKTCYWDQC", class: "growth", target: "SSTR", mw: "2281.7", status: "Approved" },
+        { name: "Bremelanotide", seq: "Ac-NLE-DFRKWFWK-NH2", class: "other", target: "MC4R", mw: "1616.9", status: "Approved" },
+        { name: "Setmelanotide", seq: "Ac-NLE-DFRWFWG-NH2", class: "other", target: "MC4R", mw: "1326.5", status: "Approved" },
+        { name: "BPC-157", seq: "GEPPPGKPADDAGLV", class: "other", target: "Other", mw: "1419.5", status: "Research" },
+        { name: "Ipamorelin", seq: "Aib-His-D-2Nal-D-Phe-Lys-NH2", class: "growth", target: "GHS-R1a", mw: "711.9", status: "Research" },
+        { name: "GHRP-6", seq: "His-D-Trp-Ala-Trp-D-Phe-Lys-NH2", class: "growth", target: "GHS-R1a", mw: "873.0", status: "Research" },
+        { name: "Melanotan II", seq: "Ac-NLE-DFRKWFW-NH2", class: "other", target: "MC4R", mw: "1625.9", status: "Research" },
+        { name: "Thymosin alpha 1", seq: "SDAAVDTSSEITTKDLKEKKEVVEEAEN", class: "other", target: "Other", mw: "3108.3", status: "Approved" },
+        { name: "Eptifibatide", seq: "Mpa-HRGDVFGPSC-NH2", class: "other", target: "Other", mw: "1349.6", status: "Approved" },
+        { name: "Teriparatide", seq: "SVSEIQLMHNLGDKLNIQDSELRSLQPAAKLN", class: "growth", target: "Other", mw: "4117.7", status: "Approved" },
+        { name: "Nafarelin", seq: "Ac-DFYFWFG", class: "other", target: "Other", mw: "1299.4", status: "Approved" },
+      ];
+
+      function motifMatch(seq, motif) {
+        const regex = new RegExp("^" + motif.replace(/X/g, "[A-Z]") + "$", "i");
+        return regex.test(seq);
+      }
+
+      function search() {
+        const query = document.getElementById("searchSeq").value.toUpperCase().replace(/[^A-Z]/g, "");
+        const mode = document.getElementById("searchMode").value;
+        const peptideClass = document.getElementById("filterClass").value;
+        const target = document.getElementById("filterTarget").value;
+
+        if (!query) {
+          alert("Please enter a sequence to search.");
+          return;
+        }
+
+        let results = peptideDB.filter(p => {
+          const seq = p.seq.toUpperCase().replace(/[^A-Z]/g, "");
+          let match = false;
+          if (mode === "exact") match = seq === query;
+          else if (mode === "contains") match = seq.includes(query);
+          else if (mode === "starts") match = seq.startsWith(query);
+          else if (mode === "motif") match = motifMatch(seq, query);
+          if (peptideClass !== "all") match = match && p.class === peptideClass;
+          if (target !== "all") match = match && p.target.includes(target);
+          return match;
+        });
+
+        document.getElementById("resultCount").textContent = `— ${results.length} result${results.length !== 1 ? "s" : ""}`;
+
+        const container = document.getElementById("resultsContainer");
+        if (results.length === 0) {
+          container.innerHTML = '<p class="text-slate-500 dark:text-slate-400">No peptides match your search. Try a different sequence or broaden your filters.</p>';
+        } else {
+          container.innerHTML = results.map(p => `
+            <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+              <div class="flex flex-wrap items-baseline gap-3 mb-2">
+                <h3 class="font-semibold text-slate-900 dark:text-slate-100">${p.name}</h3>
+                <span class="text-xs px-2 py-0.5 rounded-full bg-[#0D9488]/10 text-[#0D9488]">${p.status}</span>
+                <span class="text-xs px-2 py-0.5 rounded-full bg-slate-200 dark:bg-slate-700 text-slate-600 dark:text-slate-400">${p.target}</span>
+              </div>
+              <p class="font-mono text-sm text-[#0D9488] break-all mb-1">${p.seq}</p>
+              <p class="text-xs text-slate-500 dark:text-slate-400">MW: ${p.mw} Da</p>
+            </div>
+          `).join("");
+        }
+        document.getElementById("searchResults").classList.remove("hidden");
+      }
+
+      document.getElementById("searchBtn").addEventListener("click", search);
+      document.getElementById("searchSeq").addEventListener("keypress", function (e) {
+        if (e.key === "Enter") search();
+      });
+    });
+  </script>
+</BaseLayout>
