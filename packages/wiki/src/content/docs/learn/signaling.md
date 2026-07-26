@@ -59,3 +59,7 @@ When a peptide binds to its receptor, it triggers a cascade of intracellular eve
 ## Signal Termination
 
 Proper signal termination is crucial for biological regulation. Mechanisms include receptor internalization (endocytosis), receptor desensitization (phosphorylation reduces sensitivity), peptide degradation by enzymes, and reuptake by transporters that remove peptides from extracellular space.
+
+<script is:inline type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Peptide Signaling — Autocrine, Paracrine, Endocrine","author":{"@type":"Organization","name":"Wikipept Contributors"}}
+</script>

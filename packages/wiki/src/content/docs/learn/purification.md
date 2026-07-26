@@ -45,3 +45,7 @@ Multiple orthogonal techniques provide maximum purity: primary purification by R
 ## Quality Control
 
 HPLC purity is assessed by area normalization at 214 nm and 280 nm, with minimum 95% purity for most applications and 98-99% for therapeutic peptides. Mass confirmation requires molecular weight within ±0.01% of theoretical. Stability testing includes accelerated conditions (40°C/75% RH), photostability, freeze-thaw, and solution stability.
+
+<script is:inline type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Purification Methods — Peptide Isolation Techniques","author":{"@type":"Organization","name":"Wikipept Contributors"}}
+</script>

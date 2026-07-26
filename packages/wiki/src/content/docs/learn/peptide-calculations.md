@@ -1,7 +1,7 @@
 ---
 date: 2026-07-17
 author: "Wikipept Contributors"
-title: "Peptide Calculations — Dosing and Reconstitution Math"
+title: "Peptide Dose Calculator Guide"
 description: Essential quantitative methods and formulas for peptide mass, concentration, dose, and volume calculations used in research and clinical applications
 ---
 
@@ -192,4 +192,17 @@ Report concentrations to 2–3 significant figures. A 2.5 mg/mL solution measure
 
 > **See also:** [Amino Acid Properties](/learn/amino-acid-properties/) for detailed residue information and [Peptide Bonds](/learn/peptide-bonds/) for understanding peptide chemistry.
 
+## Use Our Calculators
+
+Put these formulas into practice with our free interactive tools:
+
+- [Molecular Weight Calculator](/tools/molecular-weight-calculator/) — instantly compute MW from any peptide sequence
+- [Reconstitution Calculator](/tools/reconstitution-calculator/) — calculate the exact BAC water volume for your vial
+- [Peptide Property Calculator](/tools/peptide-property-calculator/) — compute pI, charge, hydrophobicity, and more
+- [Sequence Analyzer](/tools/sequence-analyzer/) — full sequence analysis with stability predictions
+
 *For research use only. Verify all calculations before preparing solutions.*
+
+<script is:inline type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Peptide Dose Calculator Guide","author":{"@type":"Organization","name":"Wikipept Contributors"}}
+</script>

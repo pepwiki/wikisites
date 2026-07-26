@@ -52,3 +52,7 @@ The International Council for Harmonisation (ICH) provides quality guidelines re
 ## Post-Market Surveillance
 
 Post-approval requirements include **pharmacovigilance** (adverse event reporting), **periodic safety update reports (PSURs)**, **post-marketing commitments** (Phase IV studies), and **risk evaluation and mitigation strategies (REMS)** for high-risk products.
+
+<script is:inline type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Regulatory Pathways — Global Peptide Drug Approval","author":{"@type":"Organization","name":"Wikipept Contributors"}}
+</script>

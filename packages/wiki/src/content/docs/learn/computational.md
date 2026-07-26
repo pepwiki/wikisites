@@ -43,3 +43,7 @@ Scoring functions include physics-based (force field calculations, solvation mod
 ## De Novo Peptide Design
 
 Computational methods for designing novel peptides include template-based design (using known scaffolds), fragment-based design (building from fragments), evolutionary algorithms (genetic algorithms with mutation and selection), and machine learning design (variational autoencoders, generative adversarial networks, transformer models, and reinforcement learning).
+
+<script is:inline type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Computational Design — AI-Driven Peptide Engineering","author":{"@type":"Organization","name":"Wikipept Contributors"}}
+</script>

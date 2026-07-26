@@ -34,3 +34,7 @@ The choice of delivery route depends on the therapeutic index, pharmacokinetic r
 
 > **See also:** [Peptide Formulation](/learn/peptide-formulation/) for formulation development strategies and [Peptide Half-Life](/learn/peptide-half-life/) for half-life extension techniques.
 > **See also:** [Peptide Vaccines](/articles/peptide-vaccines) for vaccine development applications.
+
+<script is:inline type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Drug Delivery Systems — Peptide Administration Routes","author":{"@type":"Organization","name":"Wikipept Contributors"}}
+</script>

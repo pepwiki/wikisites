@@ -1,8 +1,9 @@
 ---
 date: 2026-07-22
 author: "Wikipept Contributors"
-title: "Peptide Reconstitution — Diluent and Technique Guide"
+title: "Peptide Reconstitution Guide"
 description: Complete guide to peptide reconstitution — buffer selection, techniques, concentration calculations, and storage after reconstitution.
+redirect: /learn/reconstitution/
 ---
 
 Proper reconstitution of lyophilized peptides is critical for maintaining peptide integrity, activity, and shelf life. This guide covers buffer selection, techniques, and best practices.

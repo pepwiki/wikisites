@@ -42,3 +42,7 @@ Clinical trial analysis relies on several key statistical concepts:
 Peptide therapeutics present unique trial design challenges: **immunogenicity** monitoring (anti-drug antibodies), **formulation effects** on bioavailability, **temperature sensitivity** requiring cold chain management, and **route of administration** influencing PK profiles. Special attention to **bioequivalence** studies is needed for biosimilar peptide development.
 
 > **See also:** [Regulatory](/learn/regulatory/) for regulatory frameworks and [Peptide Drug Pipeline](/learn/peptide-drug-pipeline/) for upcoming therapies.
+
+<script is:inline type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Clinical Trial Design — Peptide Study Methodology","author":{"@type":"Organization","name":"Wikipept Contributors"}}
+</script>

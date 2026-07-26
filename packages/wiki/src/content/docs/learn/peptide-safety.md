@@ -1,7 +1,7 @@
 ---
 date: 2026-07-17
 author: "Wikipept Contributors"
-title: "Peptide Handling Safety — Laboratory Best Practices"
+title: "Peptide Handling Safety Guide"
 description: Comprehensive hazard characterization and exposure control guidelines for handling bioactive peptide compounds in research and clinical settings
 ---
 
@@ -112,3 +112,7 @@ Record: peptide identity (name, sequence, lot number), storage conditions, recon
 > **See also:** [Peptide Formulation](/learn/peptide-formulation/) for formulation strategies and [Reconstitution](/learn/reconstitution/) for reconstitution protocols.
 
 *For research use only. Follow institutional biosafety and chemical safety protocols.*
+
+<script is:inline type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Peptide Handling Safety Guide","author":{"@type":"Organization","name":"Wikipept Contributors"}}
+</script>

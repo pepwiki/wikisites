@@ -1,7 +1,7 @@
 ---
 date: 2026-06-08
 author: "Wikipept Contributors"
-title: "Therapeutic Peptides — Pharmacology Overview Guide"
+title: "Peptide Pharmacology Guide"
 description: Overview of FDA-approved peptide drugs, their mechanisms of action, pharmacokinetics, and key challenges in peptide therapeutics development and delivery.
 ---
 
@@ -60,3 +60,7 @@ Peptide drugs typically have short half-lives due to enzymatic degradation by pr
 - Complex manufacturing
 - Susceptible to aggregation
 > **See also:** [GIP](/articles/gip) for glucose-dependent insulinotropic polypeptide details.
+
+<script is:inline type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Peptide Pharmacology Guide","author":{"@type":"Organization","name":"Wikipept Contributors"}}
+</script>

@@ -1,7 +1,7 @@
 ---
 date: 2026-06-08
 author: "Wikipept Contributors"
-title: "Protein Structure Levels — Primary to Quaternary"
+title: "Protein Structure Guide"
 description: "Understanding the four levels of protein structure — primary, secondary, tertiary, and quaternary — and the forces that stabilize each level."
 ---
 
@@ -56,3 +56,7 @@ Protein structure directly determines function. Enzyme active sites require spec
 
 > **See also:** [Pharmacology](/learn/pharmacology/) for how protein structure influences drug design and therapeutic peptides.
 > **See also:** [Signal Peptides](/articles/signal-peptides) for peptide secretion mechanisms.
+
+<script is:inline type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Protein Structure Guide","author":{"@type":"Organization","name":"Wikipept Contributors"}}
+</script>

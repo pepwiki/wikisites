@@ -67,3 +67,7 @@ The peptide bond serves as both hydrogen bond donor (N-H) and acceptor (C=O). Th
 The peptide bond is thermodynamically unstable but kinetically stable. Hydrolysis is slow without catalysis because the resonance-stabilized transition state has high activation energy, the leaving group (NH2-) is a strong base, and water is a poor nucleophile. Enzymes (proteases) catalyze hydrolysis by activating water molecules, stabilizing the tetrahedral intermediate, and providing acid-base catalysis.
 
 > **See also:** [Amino Acids](/learn/amino-acids/) for the building blocks, and [Solid-Phase Peptide Synthesis](/learn/spps/) for laboratory synthesis of peptide bonds.
+
+<script is:inline type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Peptide Bond Chemistry — Formation and Properties","author":{"@type":"Organization","name":"Wikipept Contributors"}}
+</script>

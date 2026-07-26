@@ -1,7 +1,7 @@
 ---
 date: 2026-06-08
 author: "Wikipept Contributors"
-title: "Solid-Phase Synthesis — Peptide Manufacturing Methods"
+title: "Solid-Phase Peptide Synthesis (SPPS) Protocol"
 description: "Advanced guide to solid-phase peptide synthesis (SPPS), including Fmoc strategy, coupling reagents, resin selection, and purification for difficult sequences."
 ---
 
@@ -54,3 +54,7 @@ The Fmoc strategy provides **orthogonal protection**: Fmoc is removed by base (p
 Standard cleavage uses **TFA (95%)** with TIS (2.5%) and water (2.5%) as scavengers. The mechanism involves protonation of the linker, cleavage from resin, removal of acid-labile protecting groups, and scavenging of carbocations. Mild cleavage (1% TFA in DCM) is available for 2-chlorotrityl resin. High-purity Fmoc-amino acids and coupling reagents for SPPS are available [here](https://kingstonpeptides.com).
 
 > **See also:** [Peptide Scale-Up](/learn/peptide-scale-up/) for transitioning from lab to production scale and [SPPS Protocol](/learn/spps-protocol/) for detailed synthesis procedures.
+
+<script is:inline type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Solid-Phase Peptide Synthesis (SPPS) Protocol","author":{"@type":"Organization","name":"Wikipept Contributors"}}
+</script>

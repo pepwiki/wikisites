@@ -75,3 +75,7 @@ These amino acids carry a negative charge at physiological pH. They are often in
 - **E** for Glutamate (E is "glutamate" minus the G)
 
 > **See also:** [Amino Acid Properties](/learn/amino-acid-properties/) for detailed coverage of side chain chemistry, and [Peptide Bonds](/learn/peptide-bonds/) for how amino acids link together.
+
+<script is:inline type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"20 Standard Amino Acids — Classification and Properties","author":{"@type":"Organization","name":"Wikipept Contributors"}}
+</script>

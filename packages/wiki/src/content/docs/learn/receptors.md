@@ -49,3 +49,7 @@ The **dose-response curve** relates drug concentration to biological effect. Key
 The **Hill equation** describes this relationship: E = Emax × [C]ⁿ / (EC₅₀ⁿ + [C]ⁿ), where n is the Hill coefficient measuring cooperativity.
 
 The **therapeutic window** is the range of drug concentrations that produces therapeutic effect without unacceptable toxicity. The **therapeutic index** (TD₅₀ / ED₅₀) indicates safety margin.
+
+<script is:inline type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Receptor Binding — Peptide Pharmacodynamics Overview","author":{"@type":"Organization","name":"Wikipept Contributors"}}
+</script>

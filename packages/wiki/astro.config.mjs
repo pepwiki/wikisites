@@ -9,6 +9,9 @@ export default defineConfig({
   site: "https://wikipept.com",
   output: "static",
   trailingSlash: "always",
+  redirects: {
+    "/learn/peptide-reconstitution/": "/learn/reconstitution/",
+  },
   markdown: {
     remarkPlugins: [remarkKatex],
     rehypePlugins: [rehypeKatex],

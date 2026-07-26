@@ -1,7 +1,7 @@
 ---
 date: 2026-07-17
 author: "Wikipept Contributors"
-title: Understanding Peptide Impurities
+title: "Peptide Impurity Analysis Guide"
 description: "Analysis of peptide impurity origins, characterization methods, and regulatory limits for synthetic peptide quality control."
 ---
 

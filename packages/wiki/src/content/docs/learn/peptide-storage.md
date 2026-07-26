@@ -1,7 +1,7 @@
 ---
 date: 2026-07-17
 author: "Wikipept Contributors"
-title: "Peptide Storage and Handling — Stability Guidelines"
+title: "How to Store Research Peptides"
 description: "Analysis of principles governing peptide stability — temperature, humidity, and light effects on storage and shelf life."
 ---
 
@@ -111,3 +111,7 @@ Maintain a log recording: peptide name, sequence, lot number, manufacturer, date
 > **See also:** [Peptide Stability Testing](/articles/peptide-stability-testing) for analytical methods to assess peptide stability and [Peptide Half-Life](/learn/peptide-half-life/) for understanding degradation kinetics.
 
 *For research use only. Follow institutional protocols for chemical storage and handling.*
+
+<script is:inline type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"How to Store Research Peptides","author":{"@type":"Organization","name":"Wikipept Contributors"}}
+</script>

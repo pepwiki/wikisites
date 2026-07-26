@@ -134,3 +134,7 @@ Stability testing kits available from [Kingston Peptides](https://kingstonpeptid
 - See [Peptide Stability Data](/reference/peptide-stability-data) for published half-life data
 - Review [ICH Guidelines Summary](/learn/peptide-ich-guidelines) for regulatory requirements
 - Check [Analytical Methods](/reference/analytical-methods) for detailed method conditions
+
+<script is:inline type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Peptide Stability Testing — ICH Stability Protocols","author":{"@type":"Organization","name":"Wikipept Contributors"}}
+</script>

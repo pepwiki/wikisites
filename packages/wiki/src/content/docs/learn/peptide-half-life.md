@@ -1,7 +1,7 @@
 ---
 date: 2026-07-21
 author: "Wikipept Contributors"
-title: "Peptide Half-Life Comparison — Duration of Action Data"
+title: "Peptide Half-Life: Complete Guide"
 description: "Half-life data for therapeutic peptides — modification strategies including PEGylation, lipidation, and cyclization approaches."
 ---
 
@@ -125,3 +125,7 @@ The ideal half-life extension strategy achieves the target pharmacokinetic profi
 5. Frokjaer S, Otzen DE. "Protein drug stability: a formulation challenge." *Nat Rev Drug Discov* 2005;4:298-306.
 
 > **See also:** [Peptide Stability Testing](/articles/peptide-stability-testing) for stability assessment methods and [Peptide Formulation](/learn/peptide-formulation/) for formulation strategies.
+
+<script is:inline type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Peptide Half-Life: Complete Guide","author":{"@type":"Organization","name":"Wikipept Contributors"}}
+</script>

@@ -1,7 +1,7 @@
 ---
 date: 2026-07-17
 author: "Wikipept Contributors"
-title: "Peptide Reconstitution — Comprehensive Preparation Guide"
+title: "How to Reconstitute Peptides with BAC Water"
 description: "Guide for reconstituting lyophilized peptides — volume calculations, technique, buffer selection, and handling best practices."
 ---
 
@@ -90,3 +90,7 @@ Do not freeze reconstituted solutions unless specifically validated for that pep
 > **See also:** [Peptide Stability Testing](/articles/peptide-stability-testing) for analytical methods and [Peptide Storage](/learn/peptide-storage/) for optimal storage conditions.
 
 *For research use only. Not for human consumption. Follow institutional protocols for peptide handling and disposal.*
+
+<script is:inline type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"How to Reconstitute Peptides with BAC Water","author":{"@type":"Organization","name":"Wikipept Contributors"}}
+</script>
