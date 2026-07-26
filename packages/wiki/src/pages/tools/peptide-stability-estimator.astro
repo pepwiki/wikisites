@@ -1,0 +1,405 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const howToJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "How to Estimate Peptide Stability",
+  step: [
+    {
+      "@type": "HowToStep",
+      name: "Enter Sequence Length",
+      text: "Input the number of amino acid residues in your peptide.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Select Degradation-Risk Residues",
+      text: "Count the number of Asp, Asn, Met, Gln, and Cys residues, which are most susceptible to chemical degradation.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Indicate Modifications",
+      text: "Select terminal modifications (acetylation, amidation), cyclization status, and D-amino acid content.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Get Stability Estimate",
+      text: "Click Estimate to receive a predicted half-life category and storage recommendations.",
+    },
+  ],
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What factors affect peptide stability most?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The primary factors are: (1) sequence length and composition (susceptible residues), (2) presence of disulfide bonds, (3) terminal modifications, (4) cyclization, and (5) D-amino acid content. Susceptible residues (Asp, Met, Asn, Gln) undergo deamidation, oxidation, and isomerization.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How do storage conditions affect peptide stability?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Peptides are most stable when lyophilized at -20°C or below. Reconstitution reduces stability significantly — most peptides are stable 2–4 weeks at 4°C in sterile water. Freezing at -80°C in aliquots extends stability to 3–6 months for most peptides.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Which amino acids are most degradation-prone?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Asparagine (Asn) undergoes deamidation to aspartic acid. Aspartic acid (Asp) isomerizes to isoaspartic acid. Methionine (Met) oxidizes to methionine sulfoxide. Glutamine (Gln) deamidates to glutamic acid. Cysteine (Cys) oxidizes and forms disulfide bonds.",
+      },
+    },
+  ],
+};
+---
+
+<BaseLayout
+  title="Peptide Stability Estimator — Shelf Life Prediction"
+  description="Estimate peptide stability and shelf life from sequence features. Free online tool for researchers."
+>
+  <article class="max-w-4xl mx-auto">
+    <header class="mb-8">
+      <h1 class="text-4xl font-extrabold text-slate-900 dark:text-slate-100 mb-4">
+        Peptide Stability Estimator
+      </h1>
+      <p class="text-lg text-slate-600 dark:text-slate-400">
+        Estimate peptide stability and shelf life from sequence features. Free online tool for researchers.
+      </p>
+    </header>
+
+    <section id="estimator" class="mb-12">
+      <div class="p-6 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+        <div id="est-root" class="space-y-6"></div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        How to Use This Estimator
+      </h2>
+      <ol class="list-decimal list-inside space-y-2 text-slate-600 dark:text-slate-400">
+        <li>Enter the <strong>sequence length</strong> (number of amino acid residues)</li>
+        <li>Count and enter the number of <strong>degradation-prone residues</strong> (Asp, Asn, Met, Gln, Cys)</li>
+        <li>Select any <strong>terminal modifications</strong> (acetylation, amidation)</li>
+        <li>Indicate if the peptide is <strong>cyclized</strong> or contains <strong>D-amino acids</strong></li>
+        <li>Click <strong>Estimate</strong> to receive a predicted stability category</li>
+      </ol>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Degradation-Prone Amino Acids
+      </h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm text-left text-slate-600 dark:text-slate-400">
+          <thead class="text-xs text-slate-700 dark:text-slate-300 uppercase bg-slate-50 dark:bg-slate-700">
+            <tr>
+              <th class="px-4 py-3">Residue</th>
+              <th class="px-4 py-3">Degradation Pathway</th>
+              <th class="px-4 py-3">Rate at pH 7.4, 37°C</th>
+              <th class="px-4 py-3">Prevention</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <td class="px-4 py-3 font-medium">Asn (N)</td>
+              <td class="px-4 py-3">Deamidation → Asp/isoAsp</td>
+              <td class="px-4 py-3">t₁/₂ = 1–10 days</td>
+              <td class="px-4 py-3">Gly substitution, low pH storage</td>
+            </tr>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <td class="px-4 py-3 font-medium">Asp (D)</td>
+              <td class="px-4 py-3">Isomerization → isoAsp</td>
+              <td class="px-4 py-3">t₁/₂ = 5–20 days</td>
+              <td class="px-4 py-3">Avoid Asp-Gly sequences</td>
+            </tr>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <td class="px-4 py-3 font-medium">Met (M)</td>
+              <td class="px-4 py-3">Oxidation → Met sulfoxide</td>
+              <td class="px-4 py-3">t₁/₂ = hours–days</td>
+              <td class="px-4 py-3">Inert atmosphere, antioxidants</td>
+            </tr>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <td class="px-4 py-3 font-medium">Gln (Q)</td>
+              <td class="px-4 py-3">Deamidation → Glu</td>
+              <td class="px-4 py-3">t₁/₂ = 5–15 days</td>
+              <td class="px-4 py-3">Low pH, low temperature</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium">Cys (C)</td>
+              <td class="px-4 py-3">Oxidation, disulfide scrambling</td>
+              <td class="px-4 py-3">Variable</td>
+              <td class="px-4 py-3">Alkylation, inert atmosphere</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Stability Classification
+      </h2>
+      <div class="grid gap-4 md:grid-cols-2">
+        <div class="p-4 bg-green-50 dark:bg-green-900/20 rounded-xl border border-green-200 dark:border-green-800">
+          <h3 class="font-semibold text-green-800 dark:text-green-200 mb-2">High Stability</h3>
+          <p class="text-sm text-green-700 dark:text-green-300">
+            Estimated plasma t₁/₂ > 12 hours. Suitable for once-daily or less frequent dosing. Few degradation-prone residues, protected termini.
+          </p>
+        </div>
+        <div class="p-4 bg-yellow-50 dark:bg-yellow-900/20 rounded-xl border border-yellow-200 dark:border-yellow-800">
+          <h3 class="font-semibold text-yellow-800 dark:text-yellow-200 mb-2">Moderate Stability</h3>
+          <p class="text-sm text-yellow-700 dark:text-yellow-300">
+            Estimated plasma t₁/₂ 1–12 hours. Requires 2–4× daily dosing or depot formulation. Some degradation-prone residues present.
+          </p>
+        </div>
+        <div class="p-4 bg-orange-50 dark:bg-orange-900/20 rounded-xl border border-orange-200 dark:border-orange-800">
+          <h3 class="font-semibold text-orange-800 dark:text-orange-200 mb-2">Low Stability</h3>
+          <p class="text-sm text-orange-700 dark:text-orange-300">
+            Estimated plasma t₁/₂ 15 min–1 hour. Requires continuous infusion or frequent dosing. Multiple degradation-prone residues.
+          </p>
+        </div>
+        <div class="p-4 bg-red-50 dark:bg-red-900/20 rounded-xl border border-red-200 dark:border-red-800">
+          <h3 class="font-semibold text-red-800 dark:text-red-200 mb-2">Very Low Stability</h3>
+          <p class="text-sm text-red-700 dark:text-red-300">
+            Estimated plasma t₁/₂ &lt; 15 minutes. Requires depot formulation, PEGylation, or D-amino acid substitution for therapeutic use.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Stabilization Strategies
+      </h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm text-left text-slate-600 dark:text-slate-400">
+          <thead class="text-xs text-slate-700 dark:text-slate-300 uppercase bg-slate-50 dark:bg-slate-700">
+            <tr>
+              <th class="px-4 py-3">Strategy</th>
+              <th class="px-4 py-3">Half-Life Extension</th>
+              <th class="px-4 py-3">Mechanism</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <td class="px-4 py-3 font-medium">D-amino acid substitution</td>
+              <td class="px-4 py-3">3–10× increase</td>
+              <td class="px-4 py-3">Resists protease degradation</td>
+            </tr>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <td class="px-4 py-3 font-medium">Cyclization</td>
+              <td class="px-4 py-3">2–5× increase</td>
+              <td class="px-4 py-3">Reduces exopeptidase access</td>
+            </tr>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <td class="px-4 py-3 font-medium">N-terminal acetylation</td>
+              <td class="px-4 py-3">2–5× increase</td>
+              <td class="px-4 py-3">Blocks aminopeptidases</td>
+            </tr>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <td class="px-4 py-3 font-medium">C-terminal amidation</td>
+              <td class="px-4 py-3">2–3× increase</td>
+              <td class="px-4 py-3">Blocks carboxypeptidases</td>
+            </tr>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <td class="px-4 py-3 font-medium">PEGylation</td>
+              <td class="px-4 py-3">5–50× increase</td>
+              <td class="px-4 py-3">Renal filtration resistance</td>
+            </tr>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <td class="px-4 py-3 font-medium">Fatty acylation</td>
+              <td class="px-4 py-3">10–100× increase</td>
+              <td class="px-4 py-3">Albumin binding, injection depot</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium">Albumin fusion</td>
+              <td class="px-4 py-3">50–200× increase</td>
+              <td class="px-4 py-3">Fc/albumin carrier protection</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Storage Recommendations
+      </h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm text-left text-slate-600 dark:text-slate-400">
+          <thead class="text-xs text-slate-700 dark:text-slate-300 uppercase bg-slate-50 dark:bg-slate-700">
+            <tr>
+              <th class="px-4 py-3">Form</th>
+              <th class="px-4 py-3">Temperature</th>
+              <th class="px-4 py-3">Duration</th>
+              <th class="px-4 py-3">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <td class="px-4 py-3 font-medium">Lyophilized</td>
+              <td class="px-4 py-3">-20°C</td>
+              <td class="px-4 py-3">1–2 years</td>
+              <td class="px-4 py-3">Most stable form; protect from light</td>
+            </tr>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <td class="px-4 py-3 font-medium">Lyophilized</td>
+              <td class="px-4 py-3">-80°C</td>
+              <td class="px-4 py-3">2–5 years</td>
+              <td class="px-4 py-3">Long-term storage</td>
+            </tr>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <td class="px-4 py-3 font-medium">Reconstituted</td>
+              <td class="px-4 py-3">4°C</td>
+              <td class="px-4 py-3">2–4 weeks</td>
+              <td class="px-4 py-3">Sterile water or BAC water</td>
+            </tr>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <td class="px-4 py-3 font-medium">Reconstituted</td>
+              <td class="px-4 py-3">-20°C</td>
+              <td class="px-4 py-3">1–3 months</td>
+              <td class="px-4 py-3">Aliquot to avoid freeze-thaw</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium">Reconstituted</td>
+              <td class="px-4 py-3">-80°C</td>
+              <td class="px-4 py-3">3–6 months</td>
+              <td class="px-4 py-3">Single-use aliquots recommended</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </article>
+
+  <script is:inline>
+    (function() {
+      const root = document.getElementById("est-root");
+      root.innerHTML = `
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div>
+            <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Sequence Length (aa)</label>
+            <input id="seqLen" type="number" min="1" value="15" class="w-full p-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100" />
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Asn + Asp Count</label>
+            <input id="deamidCount" type="number" min="0" value="2" class="w-full p-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100" />
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Met + Cys Count</label>
+            <input id="oxidCount" type="number" min="0" value="1" class="w-full p-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100" />
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+          <div>
+            <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Gln Count</label>
+            <input id="glnCount" type="number" min="0" value="0" class="w-full p-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100" />
+          </div>
+          <div>
+            <label class="flex items-center gap-2 text-sm font-medium text-slate-700 dark:text-slate-300 mt-6">
+              <input id="nTermAc" type="checkbox" class="rounded" /> N-terminal acetylation
+            </label>
+            <label class="flex items-center gap-2 text-sm font-medium text-slate-700 dark:text-slate-300 mt-2">
+              <input id="cTermAm" type="checkbox" class="rounded" /> C-terminal amidation
+            </label>
+          </div>
+          <div>
+            <label class="flex items-center gap-2 text-sm font-medium text-slate-700 dark:text-slate-300 mt-6">
+              <input id="isCyclic" type="checkbox" class="rounded" /> Cyclic peptide
+            </label>
+            <label class="flex items-center gap-2 text-sm font-medium text-slate-700 dark:text-slate-300 mt-2">
+              <input id="hasDAa" type="checkbox" class="rounded" /> Contains D-amino acids
+            </label>
+          </div>
+        </div>
+
+        <button id="estBtn" class="mt-4 bg-[#0D9488] hover:bg-[#0F766E] text-white font-semibold px-6 py-2 rounded-lg transition">
+          Estimate Stability
+        </button>
+
+        <div id="estResults" class="mt-6 hidden">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="p-4 bg-slate-50 dark:bg-slate-700 rounded-xl text-center">
+              <p class="text-xs text-slate-500 dark:text-slate-400 uppercase tracking-wide">Stability Category</p>
+              <p id="estCategory" class="text-2xl font-bold mt-1">—</p>
+            </div>
+            <div class="p-4 bg-slate-50 dark:bg-slate-700 rounded-xl text-center">
+              <p class="text-xs text-slate-500 dark:text-slate-400 uppercase tracking-wide">Estimated Plasma t₁/₂</p>
+              <p id="estHalfLife" class="text-2xl font-bold text-slate-900 dark:text-slate-100 mt-1">—</p>
+            </div>
+          </div>
+          <div id="estNotes" class="mt-4 p-4 bg-slate-50 dark:bg-slate-700 rounded-xl text-sm text-slate-600 dark:text-slate-400"></div>
+        </div>
+      `;
+
+      document.getElementById("estBtn").addEventListener("click", function() {
+        const len = +document.getElementById("seqLen").value || 15;
+        const deamid = +document.getElementById("deamidCount").value || 0;
+        const oxid = +document.getElementById("oxidCount").value || 0;
+        const gln = +document.getElementById("glnCount").value || 0;
+        const nAc = document.getElementById("nTermAc").checked;
+        const cAm = document.getElementById("cTermAm").checked;
+        const cyclic = document.getElementById("isCyclic").checked;
+        const dAa = document.getElementById("hasDAa").checked;
+
+        const susceptible = deamid + oxid + gln;
+        const susceptibleRatio = susceptible / len;
+
+        let score = 0;
+        score += len < 10 ? 2 : len < 20 ? 1 : len < 40 ? 0 : -1;
+        score += susceptibleRatio > 0.3 ? -2 : susceptibleRatio > 0.15 ? -1 : 0;
+        score += nAc ? 1 : 0;
+        score += cAm ? 1 : 0;
+        score += cyclic ? 1 : 0;
+        score += dAa ? 2 : 0;
+
+        let category, halfLife, color, notes;
+        if (score >= 3) {
+          category = "High Stability";
+          halfLife = ">12 hours";
+          color = "text-green-600 dark:text-green-400";
+          notes = "This peptide is predicted to have high plasma stability. Suitable for once-daily or less frequent dosing. Standard storage at -20°C lyophilized.";
+        } else if (score >= 1) {
+          category = "Moderate Stability";
+          halfLife = "1–12 hours";
+          color = "text-yellow-600 dark:text-yellow-400";
+          notes = "This peptide has moderate stability. May require 2–4× daily dosing or depot formulation. Consider terminal modifications for improved stability.";
+        } else if (score >= -1) {
+          category = "Low Stability";
+          halfLife = "15 min–1 hour";
+          color = "text-orange-600 dark:text-orange-400";
+          notes = "This peptide has low predicted stability. Frequent dosing or depot formulation required. Strongly consider D-amino acid substitution, PEGylation, or fatty acylation.";
+        } else {
+          category = "Very Low Stability";
+          halfLife = "&lt;15 minutes";
+          color = "text-red-600 dark:text-red-400";
+          notes = "This peptide has very low predicted stability. Continuous infusion or advanced formulation (PEGylation, fatty acylation, albumin fusion) required for therapeutic use.";
+        }
+
+        document.getElementById("estCategory").textContent = category;
+        document.getElementById("estCategory").className = "text-2xl font-bold mt-1 " + color;
+        document.getElementById("estHalfLife").textContent = halfLife;
+
+        const notesList = [];
+        if (susceptibleRatio > 0.15) notesList.push("High ratio of degradation-prone residues (" + (susceptibleRatio * 100).toFixed(0) + "%).");
+        if (!nAc && !cAm) notesList.push("Unprotected termini — consider acetylation/amidation.");
+        if (cyclic) notesList.push("Cyclization provides additional stability.");
+        if (dAa) notesList.push("D-amino acids significantly improve protease resistance.");
+        if (len > 40) notesList.push("Long peptides are more susceptible to proteolysis.");
+        document.getElementById("estNotes").innerHTML = notes.length > 0 ? "<strong>Notes:</strong> " + notes : "<strong>Assessment:</strong> " + notes;
+
+        document.getElementById("estResults").classList.remove("hidden");
+      });
+    })();
+  </script>
+</BaseLayout>

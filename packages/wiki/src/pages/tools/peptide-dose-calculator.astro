@@ -1,0 +1,327 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const howToJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "How to Use the Peptide Dose Calculator",
+  step: [
+    {
+      "@type": "HowToStep",
+      name: "Select Peptide",
+      text: "Choose a peptide from the preset list or enter custom vial mass and concentration.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Enter Vial Information",
+      text: "Input the total mass (mg) of lyophilized peptide in the vial and the concentration after reconstitution (mg/mL).",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Enter Desired Dose",
+      text: "Enter your target dose in micrograms (µg) or milligrams (mg).",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Calculate Volume",
+      text: "Click Calculate to determine the volume to draw per dose and the number of doses per vial.",
+    },
+  ],
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "How do I calculate peptide dose from vial mass?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Divide the vial mass by the reconstitution volume to get concentration (mg/mL). Then divide the desired dose by the concentration to get the volume per dose. Example: 2 mg vial + 1 mL BAC water = 2 mg/mL. A 250 µg dose = 0.125 mL.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How many doses are in a peptide vial?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Number of doses = Vial mass (mg) ÷ Dose per administration (mg). Example: A 2 mg vial with 0.25 mg per dose = 8 doses per vial.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What units do peptide syringes use?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Insulin syringes are marked in units (U) where 100 units = 1 mL. For peptides reconstituted at 1 mg/mL, 10 units = 0.1 mL = 100 µg. For 2 mg/mL, 10 units = 0.1 mL = 200 µg.",
+      },
+    },
+  ],
+};
+---
+
+<BaseLayout
+  title="Peptide Dose Calculator — Free Online Tool"
+  description="Free peptide dose calculator: convert between mg, mL, and units. Calculate doses for insulin, GLP-1 agonists, and research peptides."
+>
+  <article class="max-w-4xl mx-auto">
+    <header class="mb-8">
+      <h1 class="text-4xl font-extrabold text-slate-900 dark:text-slate-100 mb-4">
+        Peptide Dose Calculator
+      </h1>
+      <p class="text-lg text-slate-600 dark:text-slate-400">
+        Convert between mg, mL, and units. Calculate doses for insulin, GLP-1 agonists, and research peptides.
+      </p>
+    </header>
+
+    <section id="calculator" class="mb-12">
+      <div class="p-6 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm">
+        <div id="app" class="space-y-6">
+          <!-- Calculator UI rendered by client-side JS below -->
+          <div id="calc-root"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        How to Use This Calculator
+      </h2>
+      <ol class="list-decimal list-inside space-y-2 text-slate-600 dark:text-slate-400">
+        <li>Select a peptide preset or enter custom vial information</li>
+        <li>Enter the <strong>vial mass</strong> (mg) of lyophilized peptide</li>
+        <li>Enter the <strong>reconstitution concentration</strong> (mg/mL) — typically 1 or 2 mg/mL</li>
+        <li>Enter your <strong>desired dose</strong> in µg or mg</li>
+        <li>View the <strong>volume per dose</strong> (mL and insulin units) and <strong>doses per vial</strong></li>
+      </ol>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Common Presets
+      </h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm text-left text-slate-600 dark:text-slate-400">
+          <thead class="text-xs text-slate-700 dark:text-slate-300 uppercase bg-slate-50 dark:bg-slate-700">
+            <tr>
+              <th class="px-4 py-3">Peptide</th>
+              <th class="px-4 py-3">Typical Vial</th>
+              <th class="px-4 py-3">Common Dose</th>
+              <th class="px-4 py-3">Reconstitute</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <td class="px-4 py-3 font-medium">Semaglutide</td>
+              <td class="px-4 py-3">2 mg</td>
+              <td class="px-4 py-3">250 µg titrating to 2.4 mg</td>
+              <td class="px-4 py-3">1 mL BAC (2 mg/mL)</td>
+            </tr>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <td class="px-4 py-3 font-medium">Liraglutide</td>
+              <td class="px-4 py-3">6 mg</td>
+              <td class="px-4 py-3">600 µg titrating to 3 mg</td>
+              <td class="px-4 py-3">3 mL BAC (2 mg/mL)</td>
+            </tr>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <td class="px-4 py-3 font-medium">Ipamorelin</td>
+              <td class="px-4 py-3">2 mg</td>
+              <td class="px-4 py-3">200–300 µg</td>
+              <td class="px-4 py-3">1 mL BAC (2 mg/mL)</td>
+            </tr>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <td class="px-4 py-3 font-medium">CJC-1295 DAC</td>
+              <td class="px-4 py-3">2 mg</td>
+              <td class="px-4 py-3">1–2 mg</td>
+              <td class="px-4 py-3">1 mL BAC (2 mg/mL)</td>
+            </tr>
+            <tr class="border-b border-slate-200 dark:border-slate-700">
+              <td class="px-4 py-3 font-medium">BPC-157</td>
+              <td class="px-4 py-3">5 mg</td>
+              <td class="px-4 py-3">250–500 µg</td>
+              <td class="px-4 py-3">2.5 mL BAC (2 mg/mL)</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium">TB-500</td>
+              <td class="px-4 py-3">5 mg</td>
+              <td class="px-4 py-3">2–4 mg</td>
+              <td class="px-4 py-3">2.5 mL BAC (2 mg/mL)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        The Formula
+      </h2>
+      <div class="p-6 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+        <p class="text-slate-700 dark:text-slate-300 mb-3">
+          The core calculation for peptide dosing:
+        </p>
+        <div class="font-mono text-lg text-center py-4 text-slate-900 dark:text-slate-100">
+          Volume (mL) = Dose (mg) ÷ Concentration (mg/mL)
+        </div>
+        <div class="font-mono text-lg text-center py-2 text-slate-900 dark:text-slate-100">
+          Doses per vial = Vial mass (mg) ÷ Dose (mg)
+        </div>
+        <div class="font-mono text-lg text-center py-2 text-slate-900 dark:text-slate-100">
+          Insulin units = Volume (mL) × 100
+        </div>
+        <p class="text-sm text-slate-500 dark:text-slate-400 mt-3">
+          For a 2 mg vial reconstituted with 1 mL BAC water (2 mg/mL): a 250 µg (0.25 mg) dose = 0.125 mL = 12.5 insulin units. The vial contains 8 doses.
+        </p>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Insulin Syringe Reference
+      </h2>
+      <div class="grid gap-4 md:grid-cols-2">
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">1 mg/mL Reconstitution</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-400">
+            10 units (0.1 mL) = 100 µg<br/>
+            20 units (0.2 mL) = 200 µg<br/>
+            25 units (0.25 mL) = 250 µg<br/>
+            50 units (0.5 mL) = 500 µg
+          </p>
+        </div>
+        <div class="p-4 bg-slate-50 dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+          <h3 class="font-semibold text-slate-900 dark:text-slate-100 mb-2">2 mg/mL Reconstitution</h3>
+          <p class="text-sm text-slate-600 dark:text-slate-400">
+            10 units (0.1 mL) = 200 µg<br/>
+            12.5 units (0.125 mL) = 250 µg<br/>
+            15 units (0.15 mL) = 300 µg<br/>
+            25 units (0.25 mL) = 500 µg
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+        Frequently Asked Questions
+      </h2>
+      <div class="space-y-4">
+        <details class="group">
+          <summary class="cursor-pointer font-semibold text-slate-900 dark:text-slate-100">
+            How many units is 250 µg at 2 mg/mL?
+          </summary>
+          <p class="mt-2 text-slate-600 dark:text-slate-400">
+            250 µg = 0.25 mg. At 2 mg/mL concentration: 0.25 ÷ 2 = 0.125 mL = 12.5 insulin units.
+          </p>
+        </details>
+        <details class="group">
+          <summary class="cursor-pointer font-semibold text-slate-900 dark:text-slate-100">
+            How do I convert units to mL?
+          </summary>
+          <p class="mt-2 text-slate-600 dark:text-slate-400">
+            Divide insulin units by 100. Example: 50 units = 0.5 mL. Multiply mL by concentration (mg/mL) to get dose in mg.
+          </p>
+        </details>
+        <details class="group">
+          <summary class="cursor-pointer font-semibold text-slate-900 dark:text-slate-100">
+            What syringe should I use for peptides?
+          </summary>
+          <p class="mt-2 text-slate-600 dark:text-slate-400">
+            Insulin syringes (U-100) are standard for peptide administration. Use 0.3 mL or 0.5 mL syringes for small volumes (&lt;50 units) for greater precision.
+          </p>
+        </details>
+      </div>
+    </section>
+  </article>
+
+  <script is:inline>
+    (function() {
+      const presets = [
+        { name: "Semaglutide", vialMg: 2, commonDoseUg: 250 },
+        { name: "Liraglutide", vialMg: 6, commonDoseUg: 600 },
+        { name: "Ipamorelin", vialMg: 2, commonDoseUg: 200 },
+        { name: "CJC-1295 DAC", vialMg: 2, commonDoseUg: 1000 },
+        { name: "BPC-157", vialMg: 5, commonDoseUg: 250 },
+        { name: "TB-500", vialMg: 5, commonDoseUg: 2000 },
+        { name: "GHRP-6", vialMg: 5, commonDoseUg: 100 },
+        { name: "Custom", vialMg: 2, commonDoseUg: 250 },
+      ];
+
+      const root = document.getElementById("calc-root");
+      root.innerHTML = `
+        <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Peptide Preset</label>
+        <select id="preset" class="w-full p-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100 mb-4">
+          ${presets.map((p, i) => `<option value="${i}">${p.name}</option>`).join("")}
+        </select>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+          <div>
+            <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Vial Mass (mg)</label>
+            <input id="vialMg" type="number" step="0.1" min="0.1" value="2" class="w-full p-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100" />
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Reconstitute With (mL BAC)</label>
+            <input id="bacVol" type="number" step="0.1" min="0.1" value="1" class="w-full p-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100" />
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Desired Dose (µg)</label>
+            <input id="doseUg" type="number" step="1" min="1" value="250" class="w-full p-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100" />
+          </div>
+        </div>
+
+        <button id="calcBtn" class="bg-[#0D9488] hover:bg-[#0F766E] text-white font-semibold px-6 py-2 rounded-lg transition">
+          Calculate
+        </button>
+
+        <div id="results" class="mt-6 hidden">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="p-4 bg-slate-50 dark:bg-slate-700 rounded-xl text-center">
+              <p class="text-xs text-slate-500 dark:text-slate-400 uppercase tracking-wide">Concentration</p>
+              <p id="resConc" class="text-2xl font-bold text-slate-900 dark:text-slate-100 mt-1">—</p>
+            </div>
+            <div class="p-4 bg-slate-50 dark:bg-slate-700 rounded-xl text-center">
+              <p class="text-xs text-slate-500 dark:text-slate-400 uppercase tracking-wide">Volume per Dose</p>
+              <p id="resVol" class="text-2xl font-bold text-slate-900 dark:text-slate-100 mt-1">—</p>
+              <p id="resUnits" class="text-sm text-slate-500 dark:text-slate-400">—</p>
+            </div>
+            <div class="p-4 bg-slate-50 dark:bg-slate-700 rounded-xl text-center">
+              <p class="text-xs text-slate-500 dark:text-slate-400 uppercase tracking-wide">Doses per Vial</p>
+              <p id="resDoses" class="text-2xl font-bold text-slate-900 dark:text-slate-100 mt-1">—</p>
+            </div>
+          </div>
+        </div>
+      `;
+
+      const preset = document.getElementById("preset");
+      const vialMg = document.getElementById("vialMg");
+      const bacVol = document.getElementById("bacVol");
+      const doseUg = document.getElementById("doseUg");
+
+      preset.addEventListener("change", function() {
+        const p = presets[+this.value];
+        vialMg.value = p.vialMg;
+        doseUg.value = p.commonDoseUg;
+      });
+
+      document.getElementById("calcBtn").addEventListener("click", function() {
+        const vm = parseFloat(vialMg.value);
+        const bv = parseFloat(bacVol.value);
+        const du = parseFloat(doseUg.value);
+        if (!vm || !bv || !du || vm <= 0 || bv <= 0 || du <= 0) return;
+
+        const conc = vm / bv;
+        const doseMg = du / 1000;
+        const volMl = doseMg / conc;
+        const units = volMl * 100;
+        const doses = vm / doseMg;
+
+        document.getElementById("resConc").textContent = conc.toFixed(2) + " mg/mL";
+        document.getElementById("resVol").textContent = volMl.toFixed(4) + " mL";
+        document.getElementById("resUnits").textContent = units.toFixed(1) + " insulin units";
+        document.getElementById("resDoses").textContent = Math.floor(doses);
+        document.getElementById("results").classList.remove("hidden");
+      });
+    })();
+  </script>
+</BaseLayout>
