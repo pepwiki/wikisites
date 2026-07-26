@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Mass Spectrometry
-
 ## Overview
 
 Mass Spectrometry is a bioactive peptide with well-characterized properties and therapeutic applications.

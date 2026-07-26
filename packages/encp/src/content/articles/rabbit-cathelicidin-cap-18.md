@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Rabbit Cathelicidin CAP-18
-
 ## Overview
 
 Cathelicidin from rabbit neutrophils generating LL-37-equivalent active fragment.

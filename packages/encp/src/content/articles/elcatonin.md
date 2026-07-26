@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Elcatonin
-
 ## Overview
 
 Synthetic eel calcitonin analogue with reduced immunogenicity for osteoporosis treatment.

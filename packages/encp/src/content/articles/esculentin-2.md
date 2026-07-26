@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Esculentin-2
-
 ## Overview
 
 Esculentin-2 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Rana esculenta.

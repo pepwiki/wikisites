@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chi-Conotoxin TxIA
-
 ## Overview
 
 Acetylcholine release inhibitor from Conus textile blocking presynaptic channels.

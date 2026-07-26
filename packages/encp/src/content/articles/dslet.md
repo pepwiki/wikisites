@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# DSLET
-
 ## Overview
 
 Delta-opioid selective enkephalin analog for pharmacological studies.

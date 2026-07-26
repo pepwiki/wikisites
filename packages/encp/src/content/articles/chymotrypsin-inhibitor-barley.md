@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chymotrypsin Inhibitor (Barley)
-
 ## Overview
 
 Chymotrypsin Inhibitor (Barley) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hordeum vulgare (Barley).

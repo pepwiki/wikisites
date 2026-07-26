@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# ω-Conotoxin GVIA
-
 ## Overview
 
 ω-Conotoxin GVIA is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Conus spp. (various cone snails).

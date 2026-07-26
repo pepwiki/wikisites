@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Attacin E
-
 ## Overview
 
 AMP from Hyalophora cecropia with antibacterial activity targeting outer membrane.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Degarelix
-
 ## Overview
 
 GnRH receptor antagonist for prostate cancer providing immediate androgen deprivation.

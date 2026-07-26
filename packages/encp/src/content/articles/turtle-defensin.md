@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Turtle Defensin
-
 ## Overview
 
 Turtle Defensin is a bioactive peptide with well-characterized properties and therapeutic applications.

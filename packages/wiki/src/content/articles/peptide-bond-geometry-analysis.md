@@ -18,8 +18,6 @@ difficulty: "advanced"
 relatedArticles: ["peptide-bond-rotation-energy", "peptide-bond-enzyme-catalysis"]
 ---
 
-# Peptide Bond Geometry Analysis
-
 The peptide bond is one of the most structurally significant linkages in biochemistry. Its geometry directly determines how proteins fold into functional three-dimensional structures. Understanding how to measure and analyze this geometry is essential for anyone working in structural biology, drug design, or computational chemistry.
 
 ## The Planar Peptide Unit

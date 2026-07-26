@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Phaseolin
-
 ## Overview
 
 Phaseolin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Phaseolus vulgaris (Common Bean).

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Turkey Defensin
-
 ## Overview
 
 Turkey Defensin is a bioactive peptide with well-characterized properties and therapeutic applications.

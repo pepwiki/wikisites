@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chameleon Skin Peptide
-
 ## Overview
 
 Chameleon Skin Peptide is a bioactive peptide with well-characterized properties and therapeutic applications.

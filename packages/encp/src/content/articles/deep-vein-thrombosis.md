@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Deep Vein Thrombosis
-
 ## Overview
 
 Deep Vein Thrombosis is a bioactive peptide with well-characterized properties and therapeutic applications.

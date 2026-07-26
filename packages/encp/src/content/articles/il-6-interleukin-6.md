@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# IL-6 (Interleukin-6)
-
 ## Overview
 
 IL-6 (Interleukin-6) is a bioactive peptide with well-characterized properties and therapeutic applications.

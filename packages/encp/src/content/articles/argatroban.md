@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Argatroban
-
 ## Overview
 
 Synthetic direct thrombin inhibitor for heparin-induced thrombocytopenia with active site binding.

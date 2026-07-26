@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# GLP-1 PEGylation
-
 ## Overview
 
 PEG conjugation for extending half-life while maintaining receptor binding and activation.

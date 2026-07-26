@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# NPY Anxiolysis
-
 ## Overview
 
 Anxiolytic effects of NPY through Y1 receptor activation in amygdala.

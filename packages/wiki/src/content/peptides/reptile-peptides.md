@@ -5,8 +5,6 @@ title: Reptile Peptides Database
 description: Comprehensive database of bioactive peptides from reptiles including snakes, lizards, crocodilians, turtles, geckos, and chameleons
 ---
 
-# Reptile Peptides Database
-
 A structured database of bioactive peptides from reptilian species, organized by taxonomic group. Reptile peptides represent a vast and largely untapped resource for drug discovery, with applications spanning neurology, metabolic disease, infectious disease, and biotechnology.
 
 ---

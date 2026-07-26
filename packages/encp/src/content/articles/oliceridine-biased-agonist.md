@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Oliceridine Biased Agonist
-
 ## Overview
 
 G protein-biased mu-opioid agonist with potentially reduced side effects.

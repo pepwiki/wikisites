@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# R8 (Octa-Arginine)
-
 ## Overview
 
 R8 (Octa-Arginine) is a bioactive peptide with well-characterized properties and therapeutic applications.

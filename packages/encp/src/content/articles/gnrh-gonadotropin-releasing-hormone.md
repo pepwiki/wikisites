@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GnRH (Gonadotropin-releasing hormone)
-
 ## Overview
 
 GnRH (Gonadotropin-releasing hormone) is a bioactive peptide with well-characterized properties and therapeutic applications.

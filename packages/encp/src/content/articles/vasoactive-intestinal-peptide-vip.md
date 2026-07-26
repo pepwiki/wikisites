@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Vasoactive Intestinal Peptide (VIP)
-
 ## Overview
 
 Vasoactive Intestinal Peptide (VIP) is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# AMP Structural Classification
-
 ## Overview
 
 Classification into alpha-helical, beta-sheet, extended, and loop conformations.

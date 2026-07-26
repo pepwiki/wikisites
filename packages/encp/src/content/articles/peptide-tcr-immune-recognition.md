@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide → TCR (Immune Recognition)
-
 ## Overview
 
 Peptide → TCR (Immune Recognition) is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cone Venom Pain Targets
-
 ## Overview
 
 Molecular targets of conotoxins in pain pathways.

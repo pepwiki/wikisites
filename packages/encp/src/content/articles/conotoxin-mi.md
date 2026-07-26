@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# α-Conotoxin MI
-
 ## Overview
 
 α-Conotoxin MI is a bioactive peptide with well-characterized properties and therapeutic applications.

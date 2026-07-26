@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Mouse Beta-Defensin 3
-
 ## Overview
 
 Inducible mouse beta-defensin with chemotactic and antimicrobial functions.

@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Insulin Allergy Management
-
 ## Overview
 
 Diagnosis and treatment of insulin hypersensitivity including desensitization and formulation switching.

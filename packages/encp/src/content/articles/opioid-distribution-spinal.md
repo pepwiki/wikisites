@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Distribution Spinal
-
 ## Overview
 
 Distribution in dorsal horn and segmental pain modulation.

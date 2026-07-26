@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cyclosporin A
-
 ## Overview
 
 Cyclosporin A is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Tolypocladium inflatum.

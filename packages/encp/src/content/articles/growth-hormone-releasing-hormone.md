@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Growth Hormone-Releasing Hormone
-
 ## Overview
 
 Hypothalamic peptide stimulating growth hormone release from anterior pituitary.

@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Insulin Pump Diluent
-
 ## Overview
 
 Sterile diluent solution for diluting concentrated insulin formulations for pump reservoir compatibility.

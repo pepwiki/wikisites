@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Insulin Lispro Mix 50/50
-
 ## Overview
 
 Premixed insulin containing 50% lispro protamine and 50% insulin lispro for balanced prandial and basal coverage.

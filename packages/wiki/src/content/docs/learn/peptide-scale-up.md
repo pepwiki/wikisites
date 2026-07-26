@@ -5,8 +5,6 @@ title: "Peptide Scale-Up — Manufacturing Process Optimization"
 description: Guide to peptide manufacturing scale-up — from bench to production, GMP requirements, equipment selection, and process optimization.
 ---
 
-# Peptide Scale-Up
-
 Scaling peptide synthesis from laboratory to production requires careful process optimization, equipment selection, and quality system implementation. This guide covers the transition from mg to kg scale.
 
 ## Scale Definitions

@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Insulin 327
-
 ## Overview
 
 Novel long-acting insulin analog with albumin binding and receptor activation properties for once-weekly dosing.

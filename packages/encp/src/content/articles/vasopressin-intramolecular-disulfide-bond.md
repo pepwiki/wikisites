@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Vasopressin Intramolecular (Disulfide Bond)
-
 ## Overview
 
 Vasopressin Intramolecular (Disulfide Bond) is a bioactive peptide with well-characterized properties and therapeutic applications.

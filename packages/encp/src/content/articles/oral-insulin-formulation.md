@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Oral Insulin Formulation
-
 ## Overview
 
 Oral insulin development including gastric acid protection, intestinal permeation, and hepatic targeting.

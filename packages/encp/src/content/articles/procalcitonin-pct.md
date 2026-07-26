@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Procalcitonin (PCT)
-
 ## Overview
 
 Procalcitonin (PCT) is a bioactive peptide with well-characterized properties and therapeutic applications.

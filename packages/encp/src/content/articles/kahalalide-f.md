@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Kahalalide F
-
 ## Overview
 
 Kahalalide F is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Elysia rufescens (sea slug).

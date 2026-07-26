@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Peptide-Based Hydrogels for Wound Healing
-
 Peptide self-assembly produces injectable hydrogels that mimic the extracellular matrix while delivering bioactive signals for wound repair. The RADA16 family of self-assembling peptides represents a clinically advanced platform combining structural support with inherent antimicrobial activity and hemostatic properties for acute and chronic wound management.
 
 ## RADA16 Self-Assembly

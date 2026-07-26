@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Textilotoxin
-
 ## Overview
 
 Textilotoxin is a bioactive peptide with well-characterized properties and therapeutic applications.

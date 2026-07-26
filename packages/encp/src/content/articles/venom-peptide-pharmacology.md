@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Venom Peptide Pharmacology
-
 ## Overview
 
 General pharmacology of venom peptides as ion channel and receptor modulators.

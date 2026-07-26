@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Mouse Cathelicidin CRAMP
-
 ## Overview
 
 Mouse equivalent of human LL-37 with antimicrobial and immunomodulatory properties.

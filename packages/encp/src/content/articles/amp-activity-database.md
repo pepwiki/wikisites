@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# AMP Activity Database
-
 ## Overview
 
 Curated MIC values, hemolytic activity, and cytotoxicity data.

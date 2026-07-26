@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Colistin
-
 ## Overview
 
 Cyclic lipopeptide Polymyxin E for extensively drug-resistant gram-negative infections.

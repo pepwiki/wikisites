@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Injectable Hydrogel Depot
-
 ## Overview
 
 Injectable hydrogels forming sustained-release depots for peptide drugs.

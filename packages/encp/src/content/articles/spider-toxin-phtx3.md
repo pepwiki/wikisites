@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Spider Toxin PhTx3
-
 ## Overview
 
 Potent glutamate receptor antagonist from Phoneutria nigriventer for pain.

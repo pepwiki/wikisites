@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sapecin (Sarcophaga)
-
 ## Overview
 
 Sapecin (Sarcophaga) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Sarcophaga peregrina (flesh fly).

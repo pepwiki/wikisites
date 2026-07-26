@@ -1,6 +1,6 @@
 ---
 title: "Checkpoint Inhibitor CD40-CD40L"
-description: "Comprehensive reference for checkpoint inhibitor CD40-CD40L, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for checkpoint inhibitor CD40-CD40L, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

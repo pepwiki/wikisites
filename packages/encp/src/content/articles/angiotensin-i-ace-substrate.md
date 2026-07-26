@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Angiotensin I → ACE (Substrate)
-
 ## Overview
 
 Angiotensin I → ACE (Substrate) is a bioactive peptide with well-characterized properties and therapeutic applications.

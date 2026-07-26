@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Inhaled Insulin Lispro
-
 ## Overview
 
 Inhaled insulin lispro formulation for pulmonary delivery using specialized dry powder inhaler.

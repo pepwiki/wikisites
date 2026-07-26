@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Magainin 2
-
 ## Overview
 
 Amphipathic alpha-helical AMP from African clawed frog with broad-spectrum bactericidal activity.

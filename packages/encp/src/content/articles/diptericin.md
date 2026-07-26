@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Diptericin
-
 ## Overview
 
 Glycine-rich AMP from Drosophila with gram-negative antibacterial activity.

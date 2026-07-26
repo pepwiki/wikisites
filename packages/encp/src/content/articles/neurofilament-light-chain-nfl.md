@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Neurofilament Light Chain (NfL)
-
 ## Overview
 
 Neurofilament Light Chain (NfL) is a bioactive peptide with well-characterized properties and therapeutic applications.

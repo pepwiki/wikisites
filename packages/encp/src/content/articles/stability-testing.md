@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Stability Testing
-
 ## Overview
 
 Stability Testing is a bioactive peptide with well-characterized properties and therapeutic applications.

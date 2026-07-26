@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Buccal Peptide Delivery
-
 ## Overview
 
 Buccal adhesive systems for sustained peptide delivery through cheek mucosa.

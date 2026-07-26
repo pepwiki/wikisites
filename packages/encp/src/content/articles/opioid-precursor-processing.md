@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Precursor Processing
-
 ## Overview
 
 Enzymatic processing of POMC, proenkephalin, and prodynorphin.

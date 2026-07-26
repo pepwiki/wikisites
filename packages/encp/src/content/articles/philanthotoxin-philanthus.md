@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Philanthotoxin (Philanthus)
-
 ## Overview
 
 Philanthotoxin (Philanthus) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Philanthus triangulum (European beewolf wasp).

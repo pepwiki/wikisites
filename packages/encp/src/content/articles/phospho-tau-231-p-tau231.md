@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Phospho-tau 231 (p-tau231)
-
 ## Overview
 
 Phospho-tau 231 (p-tau231) is a bioactive peptide with well-characterized properties and therapeutic applications.

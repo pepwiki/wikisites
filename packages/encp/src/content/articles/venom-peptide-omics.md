@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Venom Peptide Omics
-
 ## Overview
 
 Proteomics and peptidomics approaches for venom peptide discovery.

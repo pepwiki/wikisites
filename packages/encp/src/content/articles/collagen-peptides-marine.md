@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Collagen Peptides (Marine)
-
 ## Overview
 
 Collagen Peptides (Marine) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Gadus (cod), Thunnus (tuna), Oreochromis (tilapia).

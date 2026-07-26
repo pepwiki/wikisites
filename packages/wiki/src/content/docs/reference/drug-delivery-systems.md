@@ -5,8 +5,6 @@ title: "Drug Delivery Systems for Peptides"
 description: Comparison of peptide drug delivery methods — subcutaneous, oral, transdermal, nasal, pulmonary, and implantable systems with pharmacokinetic and clinical data.
 ---
 
-# Drug Delivery Systems for Peptides
-
 Comprehensive comparison of delivery technologies for peptide therapeutics, covering routes of administration, formulation strategies, pharmacokinetic profiles, and clinical applications.
 
 ## Route Comparison Overview

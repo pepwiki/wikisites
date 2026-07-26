@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# μ-Conotoxin KIIIA
-
 ## Overview
 
 μ-Conotoxin KIIIA is a bioactive peptide with well-characterized properties and therapeutic applications.

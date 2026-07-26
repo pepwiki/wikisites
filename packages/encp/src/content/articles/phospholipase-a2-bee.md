@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Phospholipase A2 (Bee)
-
 ## Overview
 
 Phospholipase A2 (Bee) is a bioactive peptide with well-characterized properties and therapeutic applications.

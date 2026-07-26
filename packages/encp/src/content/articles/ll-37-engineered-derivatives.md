@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# LL-37 Engineered Derivatives
-
 ## Overview
 
 Engineered LL-37 derivatives with enhanced activity and reduced cytotoxicity.

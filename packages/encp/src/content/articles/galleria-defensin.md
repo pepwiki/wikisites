@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Galleria Defensin
-
 ## Overview
 
 Major AMP from greater wax moth hemolymph with gram-positive bactericidal activity.

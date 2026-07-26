@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Gloverin (Hyalophora)
-
 ## Overview
 
 Gloverin (Hyalophora) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hyalophora gloveri (gloveri silk moth).

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chrysophsin 3
-
 ## Overview
 
 Chrysophsin 3 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Red sea bream (Chrysophrys major).

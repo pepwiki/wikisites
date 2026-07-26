@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Enkephalin Pain Modulation
-
 ## Overview
 
 Enkephalin-mediated pain modulation in spinal cord and brainstem.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Insulin → Insulin Receptor (RTK Activation)
-
 ## Overview
 
 Insulin → Insulin Receptor (RTK Activation) is a bioactive peptide with well-characterized properties and therapeutic applications.

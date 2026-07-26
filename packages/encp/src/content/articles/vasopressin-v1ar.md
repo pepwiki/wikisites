@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Vasopressin → V1aR
-
 ## Overview
 
 Vasopressin → V1aR is a bioactive peptide with well-characterized properties and therapeutic applications.

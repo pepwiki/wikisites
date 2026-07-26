@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Scorpion Toxin Classification
-
 ## Overview
 
 Classification of scorpion toxins by target specificity and structure.

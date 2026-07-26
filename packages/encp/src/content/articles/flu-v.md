@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# FLU-v
-
 ## Overview
 
 FLU-v is a bioactive peptide with well-characterized properties and therapeutic applications.

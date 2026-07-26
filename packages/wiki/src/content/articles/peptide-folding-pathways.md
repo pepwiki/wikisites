@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: ["amino-acid-hydrophobicity", "peptide-resonance-structures"]
 ---
 
-# Peptide Folding Pathways
-
 Peptide folding is the process by which an unstructured chain adopts a defined three-dimensional structure. Understanding folding pathways is essential for predicting structure, designing stable peptides, and troubleshooting aggregation problems.
 
 ## The Energy Landscape Framework

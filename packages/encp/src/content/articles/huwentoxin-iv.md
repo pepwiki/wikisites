@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Huwentoxin-IV
-
 ## Overview
 
 Huwentoxin-IV is a bioactive peptide with well-characterized properties and therapeutic applications.

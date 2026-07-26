@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Semaglutide 2.4mg Obesity
-
 ## Overview
 
 Higher-dose semaglutide approved for chronic weight management in adults with obesity.

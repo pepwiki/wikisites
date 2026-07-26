@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Insulin Titration Algorithms
-
 ## Overview
 
 Algorithmic approaches to basal insulin dose titration including treat-to-target protocols.

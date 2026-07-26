@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Multi-Target Peptides
-
 ## Overview
 
 Multi-Target Peptides is a bioactive peptide with well-characterized properties and therapeutic applications.

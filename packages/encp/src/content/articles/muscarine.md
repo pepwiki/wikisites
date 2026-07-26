@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Muscarine
-
 ## Overview
 
 Muscarine is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Inocybe erubescens.

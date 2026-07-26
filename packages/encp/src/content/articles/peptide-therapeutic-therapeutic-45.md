@@ -1,6 +1,6 @@
 ---
 title: "Peptide Therapeutic therapeutic-45"
-description: "Comprehensive reference for peptide therapeutic therapeutic-45, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for peptide therapeutic therapeutic-45, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

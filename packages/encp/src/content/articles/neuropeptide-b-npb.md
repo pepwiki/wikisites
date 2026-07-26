@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Neuropeptide B (NPB)
-
 ## Overview
 
 Neuropeptide B (NPB) is a bioactive peptide with well-characterized properties and therapeutic applications.

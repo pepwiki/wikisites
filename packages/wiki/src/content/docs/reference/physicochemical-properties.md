@@ -5,8 +5,6 @@ title: "Peptide Physicochemical Properties"
 description: Reference table of molecular weight, isoelectric point, charge, half-life, hydrophobicity, and solubility for 60+ therapeutic and research peptides.
 ---
 
-# Peptide Physicochemical Properties
-
 Comprehensive physicochemical data for major therapeutic and research peptides. Values represent native/unmodified forms unless otherwise noted.
 
 ## Properties Table

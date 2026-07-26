@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Erenumab
-
 ## Overview
 
 Monoclonal antibody against CGRP receptor for migraine prevention with monthly dosing.

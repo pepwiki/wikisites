@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Insulin Lipohypertrophy
-
 ## Overview
 
 Pathophysiology and prevention of subcutaneous lipohypertrophy from repetitive injection at same sites.

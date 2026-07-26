@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Xultophy Degludec-Liraglutide
-
 ## Overview
 
 Fixed-ratio combination of insulin degludec and GLP-1 agonist liraglutide for once-daily injection.

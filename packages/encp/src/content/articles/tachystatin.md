@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Tachystatin
-
 ## Overview
 
 Chitin-binding antimicrobial protein from horseshoe crab providing innate defense against fungi.

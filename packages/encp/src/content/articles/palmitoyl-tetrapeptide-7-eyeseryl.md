@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Palmitoyl Tetrapeptide-7 (Eyeseryl)
-
 ## Overview
 
 Palmitoyl Tetrapeptide-7 (Eyeseryl) is a bioactive peptide with well-characterized properties and therapeutic applications.

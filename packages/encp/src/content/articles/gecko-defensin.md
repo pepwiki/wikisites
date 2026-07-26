@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Gecko Defensin
-
 ## Overview
 
 Gecko Defensin is a bioactive peptide with well-characterized properties and therapeutic applications.

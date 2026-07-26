@@ -18,8 +18,6 @@ difficulty: "advanced"
 relatedArticles: ["peptide-bond-geometry-analysis", "peptide-bond-enzyme-catalysis"]
 ---
 
-# Peptide Bond Rotation Energy Barriers
-
 The peptide bond exhibits partial double-bond character due to resonance between the carbonyl and amide groups. This electronic delocalization creates substantial energy barriers to rotation, fundamentally constraining protein conformational space.
 
 ## Rotational Isomeric States

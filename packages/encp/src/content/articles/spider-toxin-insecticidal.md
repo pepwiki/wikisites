@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Spider Toxin Insecticidal
-
 ## Overview
 
 Insecticidal spider venom peptides for pest control applications.

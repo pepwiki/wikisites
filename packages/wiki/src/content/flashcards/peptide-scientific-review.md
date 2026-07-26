@@ -5,8 +5,6 @@ title: Peptide Scientific Review Flashcards
 description: "Flashcards for reviewing peptide scientific literature concepts, experimental methods, and research findings."
 ---
 
-# Peptide Scientific Review
-
 ## MEDICINAL CHEMISTRY
 
 ### Structure-Activity Relationships (SAR)

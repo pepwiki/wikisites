@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Lanreotide Autogel
-
 ## Overview
 
 Deep subcutaneous depot somatostatin analog for acromegaly and neuroendocrine tumors.

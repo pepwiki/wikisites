@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Pleurocidin
-
 ## Overview
 
 Pleurocidin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Winter flounder (Pseudopleuronectes americanus).

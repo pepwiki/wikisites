@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Defensin A (Phormia)
-
 ## Overview
 
 Defensin A (Phormia) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Phormia regina (black blowfly).

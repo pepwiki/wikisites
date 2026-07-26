@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Temporin A
-
 ## Overview
 
 Tridecapeptide from red frog skin with potent gram-positive bactericidal activity.

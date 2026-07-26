@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# By Monitoring Frequency
-
 ## Overview
 
 By Monitoring Frequency is a bioactive peptide with well-characterized properties and therapeutic applications.

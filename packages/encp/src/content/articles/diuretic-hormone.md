@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Diuretic Hormone
-
 ## Overview
 
 Diuretic Hormone is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Manduca sexta (tobacco hornworm).

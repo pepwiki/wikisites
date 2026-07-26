@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# ω-Conotoxin MVIIA (Ziconotide)
-
 ## Overview
 
 ω-Conotoxin MVIIA (Ziconotide) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Conus spp. (various cone snails).

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Nematode Surface Peptides
-
 ## Overview
 
 Nematode Surface Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Parasitic nematodes (Trichinella, Onchocerca, Wuchereria).

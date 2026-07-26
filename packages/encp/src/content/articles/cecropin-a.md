@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cecropin A
-
 ## Overview
 
 Cationic alpha-helical AMP from giant silk moth with gram-negative bactericidal activity.

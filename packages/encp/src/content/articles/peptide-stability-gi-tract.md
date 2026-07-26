@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide Stability GI Tract
-
 ## Overview
 
 Strategies for protecting peptides from gastrointestinal enzymatic degradation.

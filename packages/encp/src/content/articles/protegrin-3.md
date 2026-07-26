@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Protegrin 3
-
 ## Overview
 
 Protegrin 3 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Sus scrofa (Pig).

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Mussel Antimicrobial Peptides
-
 ## Overview
 
 AMPs from blue mussel hemolymph defending against marine pathogens.

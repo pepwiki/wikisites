@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Purity Testing
-
 ## Overview
 
 Purity Testing is a bioactive peptide with well-characterized properties and therapeutic applications.

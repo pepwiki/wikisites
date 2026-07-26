@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Pemvidutide
-
 ## Overview
 
 Dual GLP-1/glucagon receptor agonist using MOMA technology for balanced receptor activation.

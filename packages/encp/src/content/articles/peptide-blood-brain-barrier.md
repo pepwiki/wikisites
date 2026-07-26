@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Peptide Blood-Brain Barrier
-
 ## Overview
 
 Strategies for delivering peptides across the blood-brain barrier.

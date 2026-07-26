@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Efruxifermin
-
 ## Overview
 
 Efruxifermin is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# RALF
-
 ## Overview
 
 RALF is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Nicotiana tabacum (Tobacco).

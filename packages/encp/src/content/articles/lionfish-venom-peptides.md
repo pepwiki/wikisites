@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Lionfish Venom Peptides
-
 ## Overview
 
 Lionfish Venom Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Lionfish (Pterois volitans).

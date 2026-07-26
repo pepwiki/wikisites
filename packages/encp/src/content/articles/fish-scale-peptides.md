@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Fish Scale Peptides
-
 ## Overview
 
 Fish Scale Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Various (tilapia, carp, salmon).

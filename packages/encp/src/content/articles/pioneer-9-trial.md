@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# PIONEER 9 Trial
-
 ## Overview
 
 Clinical trial evaluating iGlarLixi fixed-ratio glargine-lixisenatide versus glargine alone.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Temporin L
-
 ## Overview
 
 Potent frog AMP with activity against MRSA and efficacy in infection models.

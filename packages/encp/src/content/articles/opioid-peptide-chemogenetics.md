@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Peptide Chemogenetics
-
 ## Overview
 
 DREADD-based chemogenetic control of opioid peptide neurons.

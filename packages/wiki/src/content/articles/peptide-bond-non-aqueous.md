@@ -18,8 +18,6 @@ difficulty: "intermediate"
 relatedArticles: ["peptide-bond-extreme-environments", "peptide-bond-rotation-energy"]
 ---
 
-# Peptide Bond in Non-Aqueous Solvents
-
 While water is the natural solvent for biological peptide chemistry, non-aqueous environments offer unique advantages for peptide synthesis and study. Different solvent classes create distinct conditions that influence peptide bond formation, stability, and reactivity.
 
 ## Why Use Non-Aqueous Solvents?

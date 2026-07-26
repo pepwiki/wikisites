@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Marine Organism AMPs
-
 ## Overview
 
 AMPs from marine invertebrates and vertebrates for antibiotic discovery.

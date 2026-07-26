@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Lypressin
-
 ## Overview
 
 Lypressin is a bioactive peptide with well-characterized properties and therapeutic applications.

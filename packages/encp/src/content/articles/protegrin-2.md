@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Protegrin 2
-
 ## Overview
 
 Protegrin 2 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Sus scrofa (Pig).

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Maurotoxin
-
 ## Overview
 
 Maurotoxin is a bioactive peptide with well-characterized properties and therapeutic applications.

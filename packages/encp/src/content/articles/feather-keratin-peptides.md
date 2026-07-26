@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Feather Keratin Peptides
-
 ## Overview
 
 Feather Keratin Peptides is a bioactive peptide with well-characterized properties and therapeutic applications.

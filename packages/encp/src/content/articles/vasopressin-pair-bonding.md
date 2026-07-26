@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Vasopressin Pair Bonding
-
 ## Overview
 
 Vasopressin V1a effects on male pair bonding and paternal behavior.

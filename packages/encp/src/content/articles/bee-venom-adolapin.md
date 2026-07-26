@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Bee Venom Adolapin
-
 ## Overview
 
 Anti-inflammatory peptide from bee venom inhibiting cyclooxygenase activity.

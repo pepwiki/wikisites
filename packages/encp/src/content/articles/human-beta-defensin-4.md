@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Human Beta-Defensin 4
-
 ## Overview
 
 Neutrophil-derived defensin with antimicrobial and wound healing functions at mucosal surfaces.

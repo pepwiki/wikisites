@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Fibroin Heavy Chain (Bombyx)
-
 ## Overview
 
 Fibroin Heavy Chain (Bombyx) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bombyx mori (silkworm).

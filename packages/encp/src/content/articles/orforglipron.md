@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Orforglipron
-
 ## Overview
 
 Orforglipron is a bioactive peptide with well-characterized properties and therapeutic applications.

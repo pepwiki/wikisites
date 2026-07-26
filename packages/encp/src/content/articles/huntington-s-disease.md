@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Huntington's Disease
-
 ## Overview
 
 Huntington's Disease is a bioactive peptide with well-characterized properties and therapeutic applications.

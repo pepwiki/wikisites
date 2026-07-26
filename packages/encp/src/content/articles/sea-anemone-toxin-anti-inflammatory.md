@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sea Anemone Toxin Anti-Inflammatory
-
 ## Overview
 
 Anti-inflammatory properties of sea anemone toxins.

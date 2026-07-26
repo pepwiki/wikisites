@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Linzagolix
-
 ## Overview
 
 Oral GnRH antagonist for uterine fibroids with selective estrogen suppression.

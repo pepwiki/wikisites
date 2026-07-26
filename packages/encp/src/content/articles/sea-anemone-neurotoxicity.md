@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sea Anemone Neurotoxicity
-
 ## Overview
 
 Neurotoxic mechanisms of sea anemone venoms on nervous system.

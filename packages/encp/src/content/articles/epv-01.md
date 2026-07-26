@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# EPV-01
-
 ## Overview
 
 EPV-01 is a bioactive peptide with well-characterized properties and therapeutic applications.

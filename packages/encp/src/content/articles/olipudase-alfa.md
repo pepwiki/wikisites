@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Olipudase Alfa
-
 ## Overview
 
 Olipudase Alfa is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Fish Skin Peptides
-
 ## Overview
 
 Fish Skin Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Various marine and freshwater species.

@@ -18,8 +18,6 @@ difficulty: "advanced"
 relatedArticles: ["peptide-libraries-drug-discovery", "peptide-gene-delivery"]
 ---
 
-# Peptide Mimetics for Neuroscience
-
 Neuropeptides serve as powerful neuromodulators in the central nervous system, but their therapeutic use is limited by poor blood-brain barrier penetration, rapid enzymatic degradation, and conformational flexibility. Peptide mimetics address these limitations by retaining biological activity while overcoming pharmacokinetic barriers.
 
 ## The Challenge of Neuropeptide Drug Design

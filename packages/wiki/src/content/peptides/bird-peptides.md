@@ -5,8 +5,6 @@ title: Bird Peptides Database
 description: Comprehensive database of bioactive peptides from avian species including chickens, turkeys, ducks, geese, ostriches, pigeons, and other birds
 ---
 
-# Bird Peptides Database
-
 A structured database of bioactive peptides from avian species, organized by functional category. Bird peptides represent important sources of antimicrobial agents, neuropeptides, peptide hormones, and structural proteins with applications spanning veterinary medicine, agriculture, and human therapeutics.
 
 ---

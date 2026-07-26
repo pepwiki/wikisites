@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# GLP-1 Neuroprotective Effects
-
 ## Overview
 
 Neuroprotective properties including neuroinflammation reduction and Alzheimer disease benefits.

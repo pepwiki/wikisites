@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Eiseniapore
-
 ## Overview
 
 Eiseniapore is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Eisenia fetida (red wiggler earthworm).

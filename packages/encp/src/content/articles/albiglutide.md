@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Albiglutide
-
 ## Overview
 
 Once-weekly GLP-1 agonist fused to human albumin via non-cleavable linker for extended half-life.

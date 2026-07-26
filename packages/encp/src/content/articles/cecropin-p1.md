@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cecropin P1
-
 ## Overview
 
 AMP from pig intestine with broad-spectrum activity against enteric pathogens.

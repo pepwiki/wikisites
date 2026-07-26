@@ -292,6 +292,4 @@ questions:
       - regulation
 ---
 
-# Peptides in Veterinary Medicine
-
 This quiz covers the diverse applications of peptides across veterinary medicine, including therapeutics, diagnostics, vaccines, and production agriculture across multiple species.

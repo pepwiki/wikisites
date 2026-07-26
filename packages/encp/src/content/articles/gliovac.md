@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Gliovac
-
 ## Overview
 
 Gliovac is a bioactive peptide with well-characterized properties and therapeutic applications.

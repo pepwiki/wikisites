@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Complement C3a Antimicrobial
-
 ## Overview
 
 Anaphylatoxin C3a with direct antimicrobial activity against gram-positive and negative bacteria.

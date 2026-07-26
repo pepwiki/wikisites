@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# CCK Anxiety
-
 ## Overview
 
 Central CCK effects on anxiety and panic through CCK-B receptors.

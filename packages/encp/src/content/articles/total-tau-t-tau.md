@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Total tau (t-tau)
-
 ## Overview
 
 Total tau (t-tau) is a bioactive peptide with well-characterized properties and therapeutic applications.

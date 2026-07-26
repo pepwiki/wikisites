@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Plazomicin
-
 ## Overview
 
 Plazomicin is a bioactive peptide with well-characterized properties and therapeutic applications.

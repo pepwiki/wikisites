@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: ["melanotan-i-vs-melanotan-ii-tanning", "receptor-pharmacology", "melanotan-i-vs-melanotan-ii-tanning"]
 ---
 
-# Melanotan I vs Melanotan II: Tanning Efficacy
-
 ## Introduction
 
 Melanotan I (MT-I, afamelanotide) and Melanotan II (MT-II) are synthetic melanocortin analogs developed to stimulate melanogenesis (tanning) and photoprotection. Both are analogs of alpha-melanocyte-stimulating hormone (α-MSH) but differ significantly in receptor selectivity, potency, pharmacokinetics, and side effect profiles.

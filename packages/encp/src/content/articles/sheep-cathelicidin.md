@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sheep Cathelicidin
-
 ## Overview
 
 Sheep Cathelicidin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Ovis aries (Sheep).

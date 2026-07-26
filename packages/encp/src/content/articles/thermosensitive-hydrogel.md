@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Thermosensitive Hydrogel
-
 ## Overview
 
 Temperature-responsive hydrogels forming depot at body temperature for sustained release.

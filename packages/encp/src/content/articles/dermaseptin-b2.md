@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Dermaseptin B2
-
 ## Overview
 
 Potent frog AMP selective against Candida albicans and cancer cells.

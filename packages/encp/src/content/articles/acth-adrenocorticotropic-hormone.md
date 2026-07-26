@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# ACTH (Adrenocorticotropic hormone)
-
 ## Overview
 
 ACTH (Adrenocorticotropic hormone) is a bioactive peptide with well-characterized properties and therapeutic applications.

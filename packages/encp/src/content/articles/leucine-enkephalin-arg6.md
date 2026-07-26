@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Leucine-Enkephalin-Arg6
-
 ## Overview
 
 Extended enkephalin with C-terminal arginine for increased stability.

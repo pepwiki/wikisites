@@ -4,7 +4,7 @@ author: "Wikipept Contributors"
 title: "Peptide Environmental Impact — Green Chemistry Guide"
 description: "Environmental considerations for peptide manufacturing — green chemistry, waste management, and sustainability practices."
 ---
-# Peptide Environmental Impact
+Peptide manufacturing generates significant chemical waste. Green chemistry principles help reduce environmental impact while maintaining product quality.
 
 ## Solvent Usage
 
@@ -31,5 +31,14 @@ description: "Environmental considerations for peptide manufacturing — green c
 3. **Solid waste**: Incinerate at licensed facility
 4. **Aqueous waste**: Treat before discharge
 5. **Documentation**: Maintain waste logs per regulations
+
+## Environmental Regulations
+
+| Regulation | Jurisdiction | Key Requirements |
+|-----------|-------------|------------------|
+| EPA RCRA | USA | Hazardous waste disposal |
+| EU REACH | Europe | Chemical registration |
+| OSHA | USA | Worker safety |
+| GHS | Global | Hazard communication |
 
 Green chemistry supplies available from [Kingston Peptides](https://kingstonpeptides.com)

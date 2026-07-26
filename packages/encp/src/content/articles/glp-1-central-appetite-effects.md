@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# GLP-1 Central Appetite Effects
-
 ## Overview
 
 Central nervous system effects of GLP-1 agonists including hypothalamic appetite suppression and reward modulation.

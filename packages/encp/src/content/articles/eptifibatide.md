@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Eptifibatide
-
 ## Overview
 
 Cyclic heptapeptide GP IIb/IIIa inhibitor containing KGD for acute coronary syndromes.

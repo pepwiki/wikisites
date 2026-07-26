@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Phalloidin
-
 ## Overview
 
 Phalloidin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Amanita phalloides (Death Cap).

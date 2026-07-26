@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Peptide-Loaded Nanoparticles
-
 Therapeutic peptides face significant pharmacokinetic limitations including rapid renal clearance, susceptibility to serum proteases, and poor membrane permeability. Encapsulation within nanoparticle delivery systems addresses these challenges by protecting peptide cargo from degradation and enabling controlled release kinetics.
 
 ## Polymeric Nanoparticles

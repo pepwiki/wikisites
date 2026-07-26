@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Wasp Venom Cancer Targets
-
 ## Overview
 
 Molecular targets of wasp venom peptides in cancer cells.

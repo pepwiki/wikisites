@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Met-Enkephalin-Arg6-Gly7
-
 ## Overview
 
 Extended enkephalin from proenkephalin processing.

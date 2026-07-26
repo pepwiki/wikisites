@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Bee Venom Melittin
-
 ## Overview
 
 Pharmacological applications of melittin beyond bee sting toxicity.

@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Enkephalin Spinal Analgesia
-
 ## Overview
 
 Segmental enkephalin-mediated pain inhibition in dorsal horn.

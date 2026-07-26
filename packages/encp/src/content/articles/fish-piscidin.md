@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Fish Piscidin
-
 ## Overview
 
 AMP from fish gill and skin providing mucosal defense against aquatic pathogens.

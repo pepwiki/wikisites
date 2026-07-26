@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Insulin Injection Sites
-
 ## Overview
 
 Anatomical considerations for subcutaneous injection including absorption rates from abdomen, thigh, arm, and buttock.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Scorpion Toxin Research Tools
-
 ## Overview
 
 Use of scorpion toxins as pharmacological research tools.

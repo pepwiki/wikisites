@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide PEGylation Strategies
-
 ## Overview
 
 PEG conjugation strategies for extending peptide half-life in vivo.

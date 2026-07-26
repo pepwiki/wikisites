@@ -5,8 +5,6 @@ title: "Peptide Sequence Motifs — Structure-Function Patterns"
 description: Reference table of common peptide sequence motifs, their biological functions, structural implications, and significance in drug design.
 ---
 
-# Peptide Sequence Motifs
-
 Reference catalog of conserved sequence motifs in peptides and proteins, with their biological functions, structural roles, and significance for peptide drug design.
 
 ## Protease Recognition Motifs

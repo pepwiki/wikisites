@@ -15,8 +15,6 @@ categories:
 totalBiomarkers: 50
 ---
 
-# Expanded Peptide Biomarkers Database
-
 Comprehensive clinical peptide biomarker reference with diagnostic parameters, cutoff values, and assay specifications.
 
 ## Database Schema

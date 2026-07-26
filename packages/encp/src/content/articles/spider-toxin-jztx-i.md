@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Spider Toxin JZTX-I
-
 ## Overview
 
 Sodium channel modulator from Jinzo spider affecting neuronal excitability.

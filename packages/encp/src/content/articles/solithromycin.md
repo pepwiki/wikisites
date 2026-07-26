@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Solithromycin
-
 ## Overview
 
 Solithromycin is a bioactive peptide with well-characterized properties and therapeutic applications.

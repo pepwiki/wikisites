@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Impatiens
-
 ## Overview
 
 Impatiens is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Impatiens balsamina (Garden Balsam).

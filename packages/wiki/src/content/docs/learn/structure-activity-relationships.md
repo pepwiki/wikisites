@@ -5,8 +5,6 @@ title: "Structure-Activity Relationships"
 description: Guide to peptide structure-activity relationships — how sequence, modifications, and conformation affect biological activity and pharmacokinetics.
 ---
 
-# Structure-Activity Relationships (SAR)
-
 Understanding SAR is essential for designing peptides with improved potency, selectivity, and drug-like properties. This guide covers sequence design, modification strategies, and optimization approaches.
 
 ## SAR Fundamentals

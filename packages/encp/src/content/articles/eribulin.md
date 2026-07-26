@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Eribulin
-
 ## Overview
 
 Eribulin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Synthetic analog from Halichondria okadai lead.

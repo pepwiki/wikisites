@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Exenatide Extended Release
-
 ## Overview
 
 Once-weekly exenatide in poly(lactide-co-glycolide) microspheres for sustained 7-day release.

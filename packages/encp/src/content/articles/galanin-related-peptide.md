@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Galanin-Related Peptide
-
 ## Overview
 
 Shorter galanin family peptide with distinct receptor selectivity.

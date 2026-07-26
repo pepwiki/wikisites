@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# RTS,S/AS01 (Mosquirix)
-
 ## Overview
 
 RTS,S/AS01 (Mosquirix) is a bioactive peptide with well-characterized properties and therapeutic applications.

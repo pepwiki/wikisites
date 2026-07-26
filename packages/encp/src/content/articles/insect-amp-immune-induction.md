@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Insect AMP Immune Induction
-
 ## Overview
 
 Pathogen recognition and signaling for AMP gene expression in insects.

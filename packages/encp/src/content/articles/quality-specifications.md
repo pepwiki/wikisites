@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Quality Specifications
-
 ## Overview
 
 Quality Specifications is a bioactive peptide with well-characterized properties and therapeutic applications.

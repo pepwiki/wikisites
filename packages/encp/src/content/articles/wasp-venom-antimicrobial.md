@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Wasp Venom Antimicrobial
-
 ## Overview
 
 Antimicrobial properties of wasp venom peptides for infectious disease.

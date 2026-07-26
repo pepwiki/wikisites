@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Defensin Medical Device Coatings
-
 ## Overview
 
 Surface coatings with defensin peptides for infection prevention on medical devices.

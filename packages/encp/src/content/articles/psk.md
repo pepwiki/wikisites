@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# PSK
-
 ## Overview
 
 PSK is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Asparagus officinalis (Asparagus).

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# NeuVax (Nelipepimut-S)
-
 ## Overview
 
 NeuVax (Nelipepimut-S) is a bioactive peptide with well-characterized properties and therapeutic applications.

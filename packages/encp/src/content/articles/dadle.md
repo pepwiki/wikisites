@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# DADLE
-
 ## Overview
 
 Synthetic delta-opioid selective enkephalin analog with neuroprotective effects.

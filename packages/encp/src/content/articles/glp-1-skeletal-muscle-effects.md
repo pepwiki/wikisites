@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GLP-1 Skeletal Muscle Effects
-
 ## Overview
 
 Effects on glucose uptake, mitochondrial function, and insulin sensitivity in muscle.

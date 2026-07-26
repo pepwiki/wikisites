@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Peptide Self-Assembly
-
 ## Overview
 
 Peptide self-assembly into nanostructures for drug delivery applications.

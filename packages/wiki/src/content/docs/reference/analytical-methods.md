@@ -5,8 +5,6 @@ title: "Analytical Methods for Peptides"
 description: Comparison of HPLC, mass spectrometry, circular dichroism, and NMR methods for peptide characterization — principles, applications, and sample requirements.
 ---
 
-# Analytical Methods for Peptides
-
 Comparative reference for the four primary analytical techniques used in peptide characterization: HPLC (purity and identity), mass spectrometry (mass confirmation), circular dichroism (secondary structure), and NMR (3D structure and dynamics).
 
 ## Method Comparison Overview

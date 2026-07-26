@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: ["peptide-folding-pathways", "peptide-thermal-stability"]
 ---
 
-# Amino Acid Hydrophobicity Scales
-
 Hydrophobicity scales quantify the preference of amino acids for aqueous versus nonpolar environments. These numerical assignments are essential for predicting protein structure, identifying membrane-spanning regions, and designing peptides with specific solubility properties.
 
 ## Major Hydrophobicity Scales

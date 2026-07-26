@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# BMAP-28
-
 ## Overview
 
 BMAP-28 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bos taurus (Cattle).

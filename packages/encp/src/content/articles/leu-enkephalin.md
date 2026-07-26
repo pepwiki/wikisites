@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Leu-enkephalin
-
 ## Overview
 
 Leu-enkephalin is a bioactive peptide with well-characterized properties and therapeutic applications.

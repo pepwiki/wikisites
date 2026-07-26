@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Prion Protein (PrP)
-
 ## Overview
 
 Prion Protein (PrP) is a bioactive peptide with well-characterized properties and therapeutic applications.

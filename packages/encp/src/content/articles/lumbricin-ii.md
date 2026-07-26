@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Lumbricin II
-
 ## Overview
 
 Lumbricin II is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Lumbricus terrestris (common earthworm).

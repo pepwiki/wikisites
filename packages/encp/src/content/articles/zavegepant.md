@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Zavegepant
-
 ## Overview
 
 Intranasal CGRP receptor antagonist for acute migraine with rapid onset via nasal absorption.

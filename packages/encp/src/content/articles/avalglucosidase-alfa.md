@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Avalglucosidase Alfa
-
 ## Overview
 
 Avalglucosidase Alfa is a bioactive peptide with well-characterized properties and therapeutic applications.

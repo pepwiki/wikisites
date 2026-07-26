@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Spider Venom AMPs
-
 ## Overview
 
 AMPs from spider venom with activity against bacteria and fungi.

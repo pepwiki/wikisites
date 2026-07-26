@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Tritrpticin
-
 ## Overview
 
 Trp-rich AMP from bullfrog skin with broad-spectrum activity and low hemolysis.

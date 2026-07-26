@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Nematode Secreted Peptides
-
 ## Overview
 
 Nematode Secreted Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Parasitic nematodes (Ascaris, Haemonchus, Brugia).

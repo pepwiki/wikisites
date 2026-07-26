@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Teixobactin Analog
-
 ## Overview
 
 Teixobactin Analog is a bioactive peptide with well-characterized properties and therapeutic applications.

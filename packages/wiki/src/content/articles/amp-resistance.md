@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: ["antimicrobial-peptides", "ion-channels-peptides", "amp-resistance"]
 ---
 
-# Antimicrobial Peptide Resistance
-
 Antimicrobial peptides (AMPs) represent a promising class of therapeutics precisely because resistance development is far less common than with conventional antibiotics. However, resistance mechanisms do exist and warrant careful understanding for effective clinical deployment.
 
 ## Why AMP Resistance Is Rare

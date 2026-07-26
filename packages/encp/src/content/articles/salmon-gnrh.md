@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Salmon GnRH
-
 ## Overview
 
 Salmon GnRH is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Salmon (Oncorhynchus spp.).

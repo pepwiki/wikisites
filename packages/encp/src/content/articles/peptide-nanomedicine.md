@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide Nanomedicine
-
 ## Overview
 
 Peptide Nanomedicine is a bioactive peptide with well-characterized properties and therapeutic applications.

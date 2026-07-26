@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Aortic Aneurysm
-
 ## Overview
 
 Aortic Aneurysm is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -1,6 +1,6 @@
 ---
 title: "Insulin Like Growth Factor des-1-10"
-description: "Comprehensive reference for insulin like growth factor des-1-10, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for insulin like growth factor des-1-10, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

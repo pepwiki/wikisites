@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Kisspeptin
-
 ## Overview
 
 Hypothalamic neuropeptide essential for puberty onset and reproductive function.

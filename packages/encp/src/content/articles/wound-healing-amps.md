@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Wound Healing AMPs
-
 ## Overview
 
 Antimicrobial peptides contributing to wound healing through multiple mechanisms.

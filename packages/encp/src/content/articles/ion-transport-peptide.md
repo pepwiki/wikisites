@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Ion Transport Peptide
-
 ## Overview
 
 Ion Transport Peptide is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Locusta migratoria (migratory locust).

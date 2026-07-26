@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Nematode Excretory Peptides
-
 ## Overview
 
 Nematode Excretory Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Parasitic nematodes (Strongylus, Ancylostoma, Toxocara).

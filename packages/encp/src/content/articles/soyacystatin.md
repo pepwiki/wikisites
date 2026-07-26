@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Soyacystatin
-
 ## Overview
 
 Soyacystatin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Glycine max (Soybean).

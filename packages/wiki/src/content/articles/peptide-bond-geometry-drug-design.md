@@ -17,8 +17,6 @@ relatedArticles:
   ]
 ---
 
-# Peptide Bond Geometry in Drug Design
-
 Understanding peptide bond geometry is crucial for designing effective peptide-based therapeutics. The spatial arrangement of atoms in peptide bonds directly influences drug potency, selectivity, and pharmacokinetic properties.
 
 ## Peptide Bond Geometry Fundamentals

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide YY
-
 ## Overview
 
 GI-derived neuropeptide suppressing appetite and slowing gastric emptying.

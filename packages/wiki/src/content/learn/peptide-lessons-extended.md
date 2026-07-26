@@ -68,7 +68,7 @@ lessons:
 
 import { Card, CardGrid, Badge, TabItem, Tabs } from '~/components';
 
-# Oligopeptide Extended Lessons
+## Oligopeptide Extended Lessons
 
 Ten in-depth lessons covering the complete landscape of peptide science — from fundamental amino acid chemistry through cutting-edge therapeutic applications.
 

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Nematode Defense Peptides
-
 ## Overview
 
 Nematode Defense Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans and related nematodes.

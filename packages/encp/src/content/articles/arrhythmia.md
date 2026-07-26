@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Arrhythmia
-
 ## Overview
 
 Arrhythmia is a bioactive peptide with well-characterized properties and therapeutic applications.

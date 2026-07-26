@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Gonadotropin-Releasing Hormone
-
 ## Overview
 
 Decapeptide hypothalamic hormone controlling gonadotropin release.

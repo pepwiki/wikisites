@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Urinary Tract Infection
-
 ## Overview
 
 Urinary Tract Infection is a bioactive peptide with well-characterized properties and therapeutic applications.

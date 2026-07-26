@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Gyromitrin
-
 ## Overview
 
 Gyromitrin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Gyromitra esculenta (False Morel).

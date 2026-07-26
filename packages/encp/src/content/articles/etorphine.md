@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Etorphine
-
 ## Overview
 
 Extremely potent semi-synthetic opioid for veterinary immobilization.

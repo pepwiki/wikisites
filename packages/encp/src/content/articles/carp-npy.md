@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Carp NPY
-
 ## Overview
 
 Carp NPY is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Common carp (Cyprinus carpio).

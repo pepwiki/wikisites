@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Bradykinin → ACE (Substrate)
-
 ## Overview
 
 Bradykinin → ACE (Substrate) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Rana temporaria.

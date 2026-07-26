@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Mineral-Binding Peptides
-
 ## Overview
 
 Mineral-Binding Peptides is a bioactive peptide with well-characterized properties and therapeutic applications.

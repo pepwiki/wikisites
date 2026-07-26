@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cycloviolacin O2
-
 ## Overview
 
 Cycloviolacin O2 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Viola odorata (Sweet Violet).

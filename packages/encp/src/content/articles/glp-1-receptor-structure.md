@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# GLP-1 Receptor Structure
-
 ## Overview
 
 Crystal structure and molecular pharmacology of GLP-1 receptor activation by peptide agonists.

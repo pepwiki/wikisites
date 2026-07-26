@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chitosan Peptides
-
 ## Overview
 
 Chitosan Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Crustacean shells (shrimp, crab).

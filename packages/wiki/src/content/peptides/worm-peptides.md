@@ -8,8 +8,6 @@ tags: [worm, nematode, earthworm, leech, flatworm, neuropeptide, hirudin, antimi
 lastUpdated: 2026-06-12
 ---
 
-# Worm & Nematode Peptides Database
-
 Worms produce a remarkable diversity of bioactive peptides involved in neuromodulation, insulin signaling, antimicrobial defense, anticoagulation, and parasitic host interactions. This database catalogs peptides from nematodes (C. elegans and related species), earthworms, leeches, and flatworms including schistosomes and tapeworms.
 
 ## Nematode Neuropeptides

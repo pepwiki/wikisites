@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Fiasp Formulation Science
-
 ## Overview
 
 Formulation science behind faster insulin aspart including niacinamide vasodilation and citrate-mediated pH reduction.

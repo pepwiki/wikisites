@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Maximin 4
-
 ## Overview
 
 Maximin 4 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bombina maxima.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Crocodilian Serum Proteins
-
 ## Overview
 
 Crocodilian Serum Proteins is a bioactive peptide with well-characterized properties and therapeutic applications.

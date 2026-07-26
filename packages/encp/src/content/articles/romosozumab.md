@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Romosozumab
-
 ## Overview
 
 Anti-sclerostin monoclonal antibody for osteoporosis stimulating formation and reducing resorption.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Nematicidal Peptides
-
 ## Overview
 
 Nematicidal Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Various nematode-associated bacteria and fungi.

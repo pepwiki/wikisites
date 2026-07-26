@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Pneumocandin B0
-
 ## Overview
 
 Pneumocandin B0 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Glarea lozoyensis.

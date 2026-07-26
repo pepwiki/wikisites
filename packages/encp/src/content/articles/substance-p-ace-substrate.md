@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Substance P → ACE (Substrate)
-
 ## Overview
 
 Substance P → ACE (Substrate) is a bioactive peptide with well-characterized properties and therapeutic applications.

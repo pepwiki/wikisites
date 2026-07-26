@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Hydrogel Peptide Delivery
-
 ## Overview
 
 Hydrogel matrices for sustained local peptide delivery and tissue engineering.

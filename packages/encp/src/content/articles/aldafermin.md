@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Aldafermin
-
 ## Overview
 
 Aldafermin is a bioactive peptide with well-characterized properties and therapeutic applications.

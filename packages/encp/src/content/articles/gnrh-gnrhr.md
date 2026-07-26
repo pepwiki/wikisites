@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GnRH → GnRHR
-
 ## Overview
 
 GnRH → GnRHR is a bioactive peptide with well-characterized properties and therapeutic applications.

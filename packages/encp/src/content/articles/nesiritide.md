@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Nesiritide
-
 ## Overview
 
 Recombinant BNP for acute decompensated heart failure reducing cardiac filling pressures.

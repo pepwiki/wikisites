@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Prolactin-Releasing Peptide
-
 ## Overview
 
 Hypothalamic peptide stimulating prolactin release from anterior pituitary.

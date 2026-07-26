@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Alpha-MSH (α-MSH)
-
 ## Overview
 
 Alpha-MSH (α-MSH) is a bioactive peptide with well-characterized properties and therapeutic applications.

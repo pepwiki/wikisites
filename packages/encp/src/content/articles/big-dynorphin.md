@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Big Dynorphin
-
 ## Overview
 
 Precursor form containing both dynorphin A and B sequences.

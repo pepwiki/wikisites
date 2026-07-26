@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Neuromedin U
-
 ## Overview
 
 Neuropeptide expressed in gut and brain regulating energy homeostasis.

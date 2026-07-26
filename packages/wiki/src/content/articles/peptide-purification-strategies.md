@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: ["peptide-thermal-stability", "peptide-oral-bioavailability"]
 ---
 
-# Peptide Purification Strategies
-
 After solid-phase peptide synthesis, crude peptides contain deletion sequences, truncated products, and protecting group remnants. Effective purification is essential for obtaining research-grade or therapeutic-quality material.
 
 ## RP-HPLC (Reverse-Phase High-Performance Liquid Chromatography)

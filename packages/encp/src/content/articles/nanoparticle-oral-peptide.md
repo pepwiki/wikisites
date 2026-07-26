@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Nanoparticle Oral Peptide
-
 ## Overview
 
 Polymeric nanoparticles protecting and delivering peptides through intestinal barrier.

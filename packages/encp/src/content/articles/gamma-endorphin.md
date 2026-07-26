@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Gamma-Endorphin
-
 ## Overview
 
 POMC-derived opioid with potential antipsychotic-like effects.

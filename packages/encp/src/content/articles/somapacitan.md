@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Somapacitan
-
 ## Overview
 
 Long-acting growth hormone albumin-binding prodrug for once-weekly dosing.

@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Lispro Pump Cartridge
-
 ## Overview
 
 Preservative-free insulin lispro formulated for pump cartridges with stability at 37 degrees Celsius for 48 hours.

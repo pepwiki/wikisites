@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Insulin Nanoparticle Encapsulation
-
 ## Overview
 
 Biodegradable nanoparticle encapsulation of insulin for oral bioavailability protection in GI tract.

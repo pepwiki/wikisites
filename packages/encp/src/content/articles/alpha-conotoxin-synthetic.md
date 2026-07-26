@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Alpha-Conotoxin Synthetic
-
 ## Overview
 
 Solid-phase synthesis strategies for conotoxin production.

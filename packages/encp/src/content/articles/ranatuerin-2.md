@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Ranatuerin-2
-
 ## Overview
 
 Ranatuerin-2 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Rana catesbeiana (American bullfrog).

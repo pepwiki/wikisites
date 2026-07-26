@@ -18,8 +18,6 @@ difficulty: "advanced"
 relatedArticles: ["peptide-bond-geometry-analysis", "peptide-bond-rotation-energy"]
 ---
 
-# Peptide Bond in Enzyme Catalysis
-
 Peptide bond hydrolysis and formation are central to protein metabolism. While the uncatalyzed reaction proceeds with a half-life of hundreds of years, enzymes accelerate it by factors of 10^9 to 10^12, achieving rates compatible with life.
 
 ## The Energetic Challenge

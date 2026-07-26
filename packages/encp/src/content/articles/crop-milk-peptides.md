@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Crop Milk Peptides
-
 ## Overview
 
 Crop Milk Peptides is a bioactive peptide with well-characterized properties and therapeutic applications.

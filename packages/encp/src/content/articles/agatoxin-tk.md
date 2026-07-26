@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# ω-Agatoxin TK
-
 ## Overview
 
 ω-Agatoxin TK is a bioactive peptide with well-characterized properties and therapeutic applications.

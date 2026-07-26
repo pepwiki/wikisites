@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Peptide Vaccines for Cancer
-
 Peptide-based cancer vaccines stimulate tumor-specific immune responses by presenting defined antigenic epitopes to T cells, offering a personalized approach to cancer immunotherapy. Despite initial clinical disappointment, advances in neoantigen prediction, adjuvant delivery, and combination strategies with checkpoint inhibitors have renewed enthusiasm for peptide vaccination.
 
 ## Tumor-Associated Antigens

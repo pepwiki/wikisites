@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# α-Cobrotoxin
-
 ## Overview
 
 α-Cobrotoxin is a bioactive peptide with well-characterized properties and therapeutic applications.

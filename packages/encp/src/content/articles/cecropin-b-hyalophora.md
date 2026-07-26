@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cecropin B (Hyalophora)
-
 ## Overview
 
 Cecropin B (Hyalophora) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hyalophora cecropia (cecropia moth).

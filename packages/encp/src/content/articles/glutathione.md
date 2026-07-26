@@ -16,8 +16,6 @@ citation:
 relatedArticles: ["cysteine", "glutathione-peroxidase", "thioredoxin"]
 ---
 
-# Glutathione: The Master Antioxidant
-
 ## Overview
 
 Glutathione: The Master Antioxidant is a bioactive peptide with well-characterized properties and therapeutic applications.

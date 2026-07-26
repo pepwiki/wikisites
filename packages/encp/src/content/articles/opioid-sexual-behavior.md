@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Opioid Sexual Behavior
-
 ## Overview
 
 Role of endogenous opioids in sexual arousal and orgasm.

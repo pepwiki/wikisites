@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Spider Toxin HNTX-I
-
 ## Overview
 
 TRPV1 antagonist from Chinese bird spider with analgesic potential.

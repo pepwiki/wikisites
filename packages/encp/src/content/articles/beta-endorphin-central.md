@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Beta-Endorphin Central
-
 ## Overview
 
 Central effects of beta-endorphin on pain, reward, and stress response.

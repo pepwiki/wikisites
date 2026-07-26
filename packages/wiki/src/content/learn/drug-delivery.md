@@ -10,8 +10,6 @@ difficulty: "expert"
 relatedArticles: ["spps", "purification", "pharmacology", "clinical-trials"]
 ---
 
-# Drug Delivery Systems
-
 ## Introduction
 
 Peptide drug delivery faces unique challenges due to the inherent instability of peptides in biological environments. This chapter covers advanced delivery technologies that overcome limitations of poor oral bioavailability, short half-life, and rapid clearance.

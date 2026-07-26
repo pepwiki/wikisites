@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Pituitary Extract Peptides (Pigeon)
-
 ## Overview
 
 Pituitary Extract Peptides (Pigeon) is a bioactive peptide with well-characterized properties and therapeutic applications.

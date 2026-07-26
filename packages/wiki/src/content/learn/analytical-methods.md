@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: ["synthesis", "purification", "formulation"]
 ---
 
-# Analytical Methods for Peptide Characterization
-
 ## Introduction
 
 Analytical methods are essential for confirming peptide identity, assessing purity, characterizing structure, and ensuring quality. Modern peptide analysis combines chromatographic separation, mass spectrometric detection, and spectroscopic characterization to provide comprehensive molecular information.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Somatostatin → SSTR2
-
 ## Overview
 
 Somatostatin → SSTR2 is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: ["semaglutide-vs-liraglutide-cardiovascular", "semaglutide-vs-liraglutide-cardiovascular", "semaglutide-vs-liraglutide-cardiovascular", "receptor-pharmacology"]
 ---
 
-# Semaglutide vs Liraglutide: Cardiovascular Outcomes
-
 ## Introduction
 
 Glucagon-like peptide-1 receptor agonists (GLP-1 RAs) have demonstrated cardiovascular benefits beyond glycemic control. Semaglutide and liraglutide are the two GLP-1 RAs with the most robust cardiovascular outcome trial (CVOT) data. This comparison examines their respective cardiovascular efficacy, mechanisms of cardioprotection, and clinical implications.

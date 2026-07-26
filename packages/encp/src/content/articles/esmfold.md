@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# ESMFold
-
 ## Overview
 
 ESMFold is a bioactive peptide with well-characterized properties and therapeutic applications.

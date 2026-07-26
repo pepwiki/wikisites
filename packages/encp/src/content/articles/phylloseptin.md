@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Phylloseptin
-
 ## Overview
 
 Tridecapeptide from Phyllomedusa frog skin with membrane-disrupting activity.

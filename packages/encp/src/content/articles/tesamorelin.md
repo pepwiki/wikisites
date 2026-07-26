@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Tesamorelin
-
 ## Overview
 
 Synthetic GHRH analog for HIV-associated lipodystrophy reducing visceral adipose tissue.

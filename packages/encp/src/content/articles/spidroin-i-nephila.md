@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Spidroin I (Nephila)
-
 ## Overview
 
 Spidroin I (Nephila) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Nephila clavipes (golden orb-weaver spider).

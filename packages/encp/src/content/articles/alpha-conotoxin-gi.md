@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Alpha-Conotoxin GI
-
 ## Overview
 
 Short disulfide-rich peptide from Conus geographus blocking nicotinic acetylcholine receptors.

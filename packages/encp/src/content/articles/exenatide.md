@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Exenatide
-
 ## Overview
 
 First-in-class GLP-1 agonist from Gila monster saliva, twice-daily injection for type 2 diabetes.

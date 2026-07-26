@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Venom Peptide Pharmacokinetics
-
 ## Overview
 
 Pharmacokinetic properties of venom-derived therapeutic peptides.

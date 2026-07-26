@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Human Alpha-Defensin 5
-
 ## Overview
 
 Intestinal Paneth cell defensin maintaining gut microbiome homeostasis.

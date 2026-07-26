@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GLP-1 and PCOS
-
 ## Overview
 
 Emerging use in polycystic ovary syndrome for insulin sensitization and menstrual regulation.

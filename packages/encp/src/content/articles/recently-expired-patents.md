@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Recently Expired Patents
-
 ## Overview
 
 Recently Expired Patents is a bioactive peptide with well-characterized properties and therapeutic applications.

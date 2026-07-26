@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Batrachotoxin
-
 ## Overview
 
 Batrachotoxin is a bioactive peptide with well-characterized properties and therapeutic applications.

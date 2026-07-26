@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Amphotericin B
-
 ## Overview
 
 Amphotericin B is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Streptomyces nodosus (actinomycete).

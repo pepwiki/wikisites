@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Amyloid-beta 42 (Aβ42)
-
 ## Overview
 
 Amyloid-beta 42 (Aβ42) is a bioactive peptide with well-characterized properties and therapeutic applications.

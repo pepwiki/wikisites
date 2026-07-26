@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Checkpoint Inhibitor Conjugates
-
 ## Overview
 
 Checkpoint Inhibitor Conjugates is a bioactive peptide with well-characterized properties and therapeutic applications.

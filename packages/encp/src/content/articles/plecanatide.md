@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Plecanatide
-
 ## Overview
 
 Plecanatide is a bioactive peptide with well-characterized properties and therapeutic applications.

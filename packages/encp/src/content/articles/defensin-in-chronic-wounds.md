@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Defensin in Chronic Wounds
-
 ## Overview
 
 Altered defensin expression in chronic wounds and potential AMP supplementation therapy.

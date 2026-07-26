@@ -8,8 +8,6 @@ tags: [marine, peptides, toxins, anti-cancer, conotoxins, ocean, bioactive]
 lastUpdated: 2026-06-12
 ---
 
-# Marine Peptides Database
-
 Marine organisms produce an extraordinary diversity of bioactive peptides with unique structural features and potent biological activities. This database catalogs peptides from marine sources including pufferfish, cone snails, sea squirts, marine bacteria, and algae.
 
 ## Marine Antibiotics & Toxins

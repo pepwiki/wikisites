@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: ["oxytocin-vs-carbetocin-postpartum", "peptide-receptor-kinetics", "peptide-receptor-kinetics"]
 ---
 
-# Oxytocin vs Carbetocin: Postpartum Use
-
 ## Introduction
 
 Postpartum hemorrhage (PPH) remains a leading cause of maternal mortality worldwide. Oxytocin and carbetocin are uterotonic peptides used for PPH prevention and treatment. Oxytocin is the traditional first-line agent, while carbetocin is a long-acting oxytocin analog that offers advantages in specific clinical scenarios.

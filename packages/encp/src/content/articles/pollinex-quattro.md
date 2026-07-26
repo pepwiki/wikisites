@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Pollinex Quattro
-
 ## Overview
 
 Pollinex Quattro is a bioactive peptide with well-characterized properties and therapeutic applications.

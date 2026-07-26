@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Exendin-4
-
 ## Overview
 
 Exendin-4 is a bioactive peptide with well-characterized properties and therapeutic applications.

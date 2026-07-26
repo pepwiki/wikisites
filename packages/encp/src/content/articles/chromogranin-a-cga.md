@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chromogranin A (CgA)
-
 ## Overview
 
 Chromogranin A (CgA) is a bioactive peptide with well-characterized properties and therapeutic applications.

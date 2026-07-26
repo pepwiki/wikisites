@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cordycepin
-
 ## Overview
 
 Cordycepin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Cordyceps militaris.

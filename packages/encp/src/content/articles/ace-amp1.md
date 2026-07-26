@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Ace-AMP1
-
 ## Overview
 
 Ace-AMP1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Allium cepa (Onion).

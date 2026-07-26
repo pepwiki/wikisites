@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Aducanumab
-
 ## Overview
 
 Aducanumab is a bioactive peptide with well-characterized properties and therapeutic applications.

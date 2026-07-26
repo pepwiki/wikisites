@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# NVX-CoV2373
-
 ## Overview
 
 NVX-CoV2373 is a bioactive peptide with well-characterized properties and therapeutic applications.

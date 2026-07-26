@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Palicourein
-
 ## Overview
 
 Palicourein is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Palicourea condensata.

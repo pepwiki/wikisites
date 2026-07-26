@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Delta-Conotoxin PVIA
-
 ## Overview
 
 Sodium channel modulator from Conus pennaceus affecting action potential kinetics.

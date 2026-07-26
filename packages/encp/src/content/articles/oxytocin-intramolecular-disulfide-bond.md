@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Oxytocin Intramolecular (Disulfide Bond)
-
 ## Overview
 
 Oxytocin Intramolecular (Disulfide Bond) is a bioactive peptide with well-characterized properties and therapeutic applications.

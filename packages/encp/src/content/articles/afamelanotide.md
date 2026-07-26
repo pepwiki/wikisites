@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Afamelanotide
-
 ## Overview
 
 Synthetic alpha-MSH analog for erythropoietic protoporphyria promoting melanogenesis for photoprotection.

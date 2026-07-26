@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Polyphemusin
-
 ## Overview
 
 AMP from horseshoe crab with anti-HIV activity through CXCR4 blockade.

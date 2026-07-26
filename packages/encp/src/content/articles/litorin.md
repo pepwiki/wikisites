@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Litorin
-
 ## Overview
 
 Litorin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Litoria aurea (Green and golden bell frog).

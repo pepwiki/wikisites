@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Amphibian AMP Database
-
 ## Overview
 
 Comprehensive database of over 1000 antimicrobial peptides from amphibian skin.

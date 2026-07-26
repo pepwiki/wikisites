@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Galpanin Peptides
-
 ## Overview
 
 Galanin-like peptides with distinct receptor selectivity and distribution.

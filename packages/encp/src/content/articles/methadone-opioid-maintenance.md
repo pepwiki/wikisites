@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Methadone Opioid Maintenance
-
 ## Overview
 
 Synthetic opioid for opioid use disorder treatment and pain management.

@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# GLP-1 Oral Bioavailability
-
 ## Overview
 
 Strategies for oral delivery including permeation enhancers, enzyme inhibitors, and mucoadhesive formulations.

@@ -1,6 +1,6 @@
 ---
 title: "Vascular Endothelial Growth Factor 121"
-description: "Comprehensive reference for vascular endothelial growth factor 121, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for vascular endothelial growth factor 121, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

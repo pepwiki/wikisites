@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Fish Beta-Defensin
-
 ## Overview
 
 Mucosal defensin in fish skin and gills for aquatic innate immunity.

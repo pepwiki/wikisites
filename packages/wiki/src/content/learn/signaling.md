@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: ["receptors", "pharmacology", "clinical-trials"]
 ---
 
-# Peptide Signaling
-
 ## Introduction
 
 Peptides serve as crucial signaling molecules in biological systems. They mediate communication between cells, tissues, and organs through various signaling mechanisms. Understanding peptide signaling is fundamental to developing therapeutic peptides and understanding physiological processes.

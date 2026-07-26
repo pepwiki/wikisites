@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: ["peptide-folding-pathways", "amino-acid-hydrophobicity"]
 ---
 
-# Peptide Thermal Stability
-
 Thermal stability determines how peptides behave during storage, formulation, and in vivo administration. Understanding stability profiles guides storage conditions, formulation design, and shelf-life predictions.
 
 ## Differential Scanning Calorimetry (DSC)

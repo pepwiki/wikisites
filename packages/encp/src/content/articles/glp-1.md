@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Glucagon-Like Peptide-1
-
 ## Overview
 
 Glucagon-like peptide-1 (GLP-1) is an incretin hormone derived from the proglucagon gene, expressed in intestinal L-cells and hypothalamic neurons. The two major bioactive forms are GLP-1(1-37) and the truncated, more potent GLP-1(7-37), with the amidated form GLP-1(7-36)NH2 being the predominant circulating species in humans. GLP-1 is released from intestinal L-cells in response to nutrient ingestion, particularly glucose and fatty acids.

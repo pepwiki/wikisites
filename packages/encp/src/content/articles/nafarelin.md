@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Nafarelin
-
 ## Overview
 
 Nasal GnRH agonist for endometriosis pain and central precocious puberty.

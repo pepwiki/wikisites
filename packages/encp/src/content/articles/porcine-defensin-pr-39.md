@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Porcine Defensin PR-39
-
 ## Overview
 
 Proline-arginine-rich antibiotic from porcine neutrophils inhibiting protein synthesis.

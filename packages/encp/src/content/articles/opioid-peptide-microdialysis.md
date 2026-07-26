@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Peptide Microdialysis
-
 ## Overview
 
 In vivo microdialysis for measuring opioid peptide release in brain regions.

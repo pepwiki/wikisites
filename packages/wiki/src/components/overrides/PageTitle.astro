@@ -1,0 +1,10 @@
+---
+// Override Starlight's PageTitle to remove H1
+// Starlight renders the page title as H1 in the header,
+// but we want only one H1 (in the content area).
+// This override renders the title as a visually hidden span
+// for accessibility, preventing duplicate H1 tags.
+const { title } = Astro.props;
+---
+
+<span class="sr-only">{title}</span>

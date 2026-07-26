@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Temporin B
-
 ## Overview
 
 Tridecapeptide from temporin family with antimicrobial activity in frog skin secretions.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Defensin in Atopic Dermatitis
-
 ## Overview
 
 Altered AMP expression in atopic dermatitis contributing to recurrent skin infections.

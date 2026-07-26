@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Vaginal Peptide Delivery
-
 ## Overview
 
 Vaginal delivery systems for local and systemic peptide drug administration.

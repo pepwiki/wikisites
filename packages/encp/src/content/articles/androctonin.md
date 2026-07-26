@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Androctonin
-
 ## Overview
 
 Scorpion venom defensin with broad-spectrum antimicrobial activity.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Purification (10 processes)
-
 ## Overview
 
 Purification (10 processes) is a bioactive peptide with well-characterized properties and therapeutic applications.

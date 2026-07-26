@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Concentrated Insulin U500
-
 ## Overview
 
 Five-fold concentrated regular insulin for insulin-resistant patients requiring high doses.

@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Peptide Release Kinetics
-
 ## Overview
 
 Mathematical modeling of peptide release from delivery systems.

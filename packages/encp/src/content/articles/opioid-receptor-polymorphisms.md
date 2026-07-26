@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Receptor Polymorphisms
-
 ## Overview
 
 Genetic variation affecting analgesic response and addiction susceptibility.

@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# GLP-1 and Parkinsons
-
 ## Overview
 
 Clinical trials evaluating neuroprotection including exenatide and lixisenatide studies.

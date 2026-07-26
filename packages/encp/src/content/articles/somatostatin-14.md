@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Somatostatin-14
-
 ## Overview
 
 Somatostatin-14 is a bioactive peptide with well-characterized properties and therapeutic applications.

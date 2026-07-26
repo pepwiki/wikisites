@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sacituzumab Tirumotecan
-
 ## Overview
 
 Sacituzumab Tirumotecan is a bioactive peptide with well-characterized properties and therapeutic applications.

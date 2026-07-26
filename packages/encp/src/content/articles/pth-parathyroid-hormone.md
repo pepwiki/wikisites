@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# PTH (Parathyroid Hormone)
-
 ## Overview
 
 PTH (Parathyroid Hormone) is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Vasoactive Intestinal Peptide
-
 ## Discovery and Nomenclature
 
 Vasoactive intestinal peptide was isolated in 1970 by Said and Mutt from porcine duodenum as a factor producing profound vasodilation and hypotension when administered intravenously. The name reflects its original functional characterization, though subsequent research revealed pleiotropic biological activities extending far beyond vascular effects. VIP is a member of the secretin-glucagon family of peptides and shares approximately 70% sequence homology with pituitary adenylate cyclase-activating polypeptide (PACAP).

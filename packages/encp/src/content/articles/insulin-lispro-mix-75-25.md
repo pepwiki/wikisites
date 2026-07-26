@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Insulin Lispro Mix 75/25
-
 ## Overview
 
 Premixed formulation with 75% lispro protamine intermediate-acting and 25% insulin lispro rapid-acting.

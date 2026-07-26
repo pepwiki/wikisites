@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: ["spps", "computational", "regulatory"]
 ---
 
-# Purification Methods
-
 ## Introduction
 
 Peptide purification is critical for obtaining high-purity peptides for research and therapeutic applications. Synthetic peptides typically require purification to remove truncated sequences, deletion products, and other impurities. This chapter covers major purification and analytical techniques.

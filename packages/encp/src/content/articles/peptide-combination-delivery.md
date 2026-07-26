@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Peptide Combination Delivery
-
 ## Overview
 
 Co-delivery systems for multiple peptide drugs in single formulation.

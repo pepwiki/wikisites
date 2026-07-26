@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Venom Peptide Evolution
-
 ## Overview
 
 Evolutionary biology of venom peptide gene families.

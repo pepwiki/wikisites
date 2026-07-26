@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Pancreatic Polypeptide
-
 ## Overview
 
 Pancreatic Polypeptide is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Mammalian (widely conserved).

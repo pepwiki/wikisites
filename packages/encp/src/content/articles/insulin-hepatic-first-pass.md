@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Insulin Hepatic First-Pass
-
 ## Overview
 
 First-pass hepatic extraction of portal insulin and implications for peripheral versus portal delivery.

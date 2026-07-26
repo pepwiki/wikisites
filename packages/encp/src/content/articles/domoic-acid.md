@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Domoic Acid
-
 ## Overview
 
 Domoic Acid is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Pseudo-nitzschia multiseries.

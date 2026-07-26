@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Mucoadhesive Peptide Systems
-
 ## Overview
 
 Mucoadhesive formulations adhering to GI mucosa for extended peptide absorption.

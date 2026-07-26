@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Pheromone Biosynthesis Activating Neuropeptide (PBAN)
-
 ## Overview
 
 Pheromone Biosynthesis Activating Neuropeptide (PBAN) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Helicoverpa zea (corn earworm moth).

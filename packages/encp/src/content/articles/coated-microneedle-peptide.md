@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Coated Microneedle Peptide
-
 ## Overview
 
 Solid microneedles coated with peptide formulations for skin delivery.

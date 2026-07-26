@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# GLP-1 Hepatic Effects
-
 ## Overview
 
 Hepatic effects on glucose production, lipid metabolism, and nonalcoholic fatty liver disease.

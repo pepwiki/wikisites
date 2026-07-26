@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Defensin B (Phormia)
-
 ## Overview
 
 Defensin B (Phormia) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Phormia regina (black blowfly).

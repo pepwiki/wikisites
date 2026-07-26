@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# AMP Drug Delivery
-
 ## Overview
 
 Formulation strategies including nanoparticle encapsulation and hydrogel systems.

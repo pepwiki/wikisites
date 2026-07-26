@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# PfSPZ
-
 ## Overview
 
 PfSPZ is a bioactive peptide with well-characterized properties and therapeutic applications.

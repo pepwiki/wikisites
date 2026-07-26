@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Spodoptericin (Spodoptera)
-
 ## Overview
 
 Spodoptericin (Spodoptera) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Spodoptera litura (tobacco cutworm).

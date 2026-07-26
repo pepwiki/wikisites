@@ -5,8 +5,6 @@ title: "Peptide Safety Complete — Comprehensive Safety Database"
 description: "Comprehensive safety profile for all peptides — adverse effects, contraindications, warnings, monitoring, and risk management."
 ---
 
-# Complete Peptide Safety Reference
-
 Comprehensive safety profiles for all FDA-approved and major investigational peptides.
 
 ## Safety Classification

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Pramlintide
-
 ## Overview
 
 Pramlintide is a bioactive peptide with well-characterized properties and therapeutic applications.

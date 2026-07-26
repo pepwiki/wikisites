@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Hypocretin
-
 ## Overview
 
 Alternative name for orexin neuropeptides regulating sleep-wake transitions.

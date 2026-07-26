@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Egg Yolk Peptides
-
 ## Overview
 
 Egg Yolk Peptides is a bioactive peptide with well-characterized properties and therapeutic applications.

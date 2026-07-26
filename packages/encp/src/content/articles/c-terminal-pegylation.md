@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# C-Terminal PEGylation
-
 ## Overview
 
 C-Terminal PEGylation is a bioactive peptide with well-characterized properties and therapeutic applications.

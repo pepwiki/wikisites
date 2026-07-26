@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Golodirsen
-
 ## Overview
 
 Golodirsen is a bioactive peptide with well-characterized properties and therapeutic applications.

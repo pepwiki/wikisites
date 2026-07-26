@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Avian Serum Peptides
-
 ## Overview
 
 Avian Serum Peptides is a bioactive peptide with well-characterized properties and therapeutic applications.

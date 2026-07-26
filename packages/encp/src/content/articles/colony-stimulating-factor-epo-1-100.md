@@ -1,6 +1,6 @@
 ---
 title: "Colony Stimulating Factor EPO-1-100"
-description: "Comprehensive reference for colony stimulating factor EPO-1-100, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for colony stimulating factor EPO-1-100, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

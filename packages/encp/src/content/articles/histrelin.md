@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Histrelin
-
 ## Overview
 
 Year-long subcutaneous GnRH agonist implant for central precocious puberty.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Amyloid-beta → Neprilysin (Substrate)
-
 ## Overview
 
 Amyloid-beta → Neprilysin (Substrate) is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Spider Toxin Diversity
-
 ## Overview
 
 Diversity of spider venom peptides and their pharmacological targets.

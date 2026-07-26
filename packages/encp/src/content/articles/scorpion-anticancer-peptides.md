@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Scorpion Anticancer Peptides
-
 ## Overview
 
 Scorpion-derived peptides with selective anticancer activity.

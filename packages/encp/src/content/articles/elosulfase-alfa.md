@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Elosulfase Alfa
-
 ## Overview
 
 Elosulfase Alfa is a bioactive peptide with well-characterized properties and therapeutic applications.

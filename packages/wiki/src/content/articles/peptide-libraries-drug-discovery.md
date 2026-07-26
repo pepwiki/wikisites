@@ -18,8 +18,6 @@ difficulty: "intermediate"
 relatedArticles: ["peptide-mimetics-neuroscience", "peptide-gene-delivery"]
 ---
 
-# Peptide Libraries in Drug Discovery
-
 Peptide libraries enable researchers to screen millions of sequences simultaneously, dramatically accelerating the search for therapeutic candidates. By encoding diversity into large collections of peptides, scientists can identify hits against virtually any biological target.
 
 ## Combinatorial Chemistry Approaches

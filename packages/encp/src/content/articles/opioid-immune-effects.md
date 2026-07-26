@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Immune Effects
-
 ## Overview
 
 Immunomodulatory effects of endogenous opioids on immune function.

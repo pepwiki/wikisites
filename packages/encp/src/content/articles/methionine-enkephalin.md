@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Methionine-Enkephalin
-
 ## Overview
 
 Endogenous opioid with delta-selectivity and roles in pain and reward.

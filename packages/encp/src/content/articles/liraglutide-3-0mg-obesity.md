@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Liraglutide 3.0mg Obesity
-
 ## Overview
 
 Liraglutide 3.0mg daily for chronic weight management with BMI 30 or BMI 27 with comorbidities.

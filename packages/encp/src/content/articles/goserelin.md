@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Goserelin
-
 ## Overview
 
 Sustained-release GnRH agonist depot for prostate cancer, endometriosis, and breast cancer.

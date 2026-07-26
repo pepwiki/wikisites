@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Vestronidase Alfa
-
 ## Overview
 
 Vestronidase Alfa is a bioactive peptide with well-characterized properties and therapeutic applications.

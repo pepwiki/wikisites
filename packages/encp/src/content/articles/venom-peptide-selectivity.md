@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Venom Peptide Selectivity
-
 ## Overview
 
 Structural basis for venom peptide selectivity for biological targets.

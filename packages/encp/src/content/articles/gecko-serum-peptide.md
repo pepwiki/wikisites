@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Gecko Serum Peptide
-
 ## Overview
 
 Gecko Serum Peptide is a bioactive peptide with well-characterized properties and therapeutic applications.

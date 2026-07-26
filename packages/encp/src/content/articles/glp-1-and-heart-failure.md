@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# GLP-1 and Heart Failure
-
 ## Overview
 
 Benefits in heart failure with preserved ejection fraction including hemodynamic improvements.

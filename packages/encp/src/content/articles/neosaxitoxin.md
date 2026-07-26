@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Neosaxitoxin
-
 ## Overview
 
 Neosaxitoxin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Anabaena circinalis, Alexandrium spp..

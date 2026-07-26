@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Vasoactive Intestinal Peptide
-
 ## Overview
 
 28-amino acid neuropeptide causing vasodilation and chloride secretion in intestine.

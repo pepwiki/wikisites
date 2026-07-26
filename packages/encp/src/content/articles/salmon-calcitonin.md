@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Salmon Calcitonin
-
 ## Overview
 
 32-amino acid peptide from salmon thyroid C-cells inhibiting osteoclastic bone resorption.

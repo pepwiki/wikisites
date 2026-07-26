@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Lactoferrin Antimicrobial
-
 ## Overview
 
 Iron-binding glycoprotein generating antimicrobial lactoferricin fragment upon cleavage.

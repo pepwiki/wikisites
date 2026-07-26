@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Delivery Platforms
-
 ## Overview
 
 Delivery Platforms is a bioactive peptide with well-characterized properties and therapeutic applications.

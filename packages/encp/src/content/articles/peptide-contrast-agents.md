@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Peptide-Based Contrast Agents
-
 Peptide-based contrast agents exploit receptor-mediated tumor targeting to achieve diagnostic imaging with enhanced specificity and sensitivity compared to conventional gadolinium chelates and radiotracers. The small size (1-5 kDa), rapid tumor penetration, and favorable pharmacokinetics of peptide vectors enable high tumor-to-background ratios essential for early cancer detection and treatment response monitoring.
 
 ## MRI Contrast Agents

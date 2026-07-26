@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Spider Toxin K+ Channel Blockers
-
 ## Overview
 
 Potassium channel blocking peptides from spider venom for neurological research.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sheep Cathelicidin SMAP-29
-
 ## Overview
 
 Potent cathelicidin from sheep neutrophils with activity against resistant bacteria.

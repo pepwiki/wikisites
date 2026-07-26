@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# GLP-1 Thyroid C-Cell Risk
-
 ## Overview
 
 Preclinical thyroid C-cell tumors in rodents and relevance assessment for human risk.

@@ -10,8 +10,6 @@ difficulty: "expert"
 relatedArticles: ["pharmacology", "regulatory", "drug-delivery"]
 ---
 
-# Clinical Trial Design
-
 ## Introduction
 
 Clinical trials are the cornerstone of drug development, providing evidence of safety and efficacy for therapeutic peptides. This chapter covers the design, conduct, and analysis of clinical trials for peptide therapeutics.

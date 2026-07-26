@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Peptide Metabolism in the Liver
-
 The liver serves as the primary site of peptide catabolism, exerting a significant first-pass effect that determines systemic bioavailability of orally and parenterally administered peptide therapeutics. Understanding hepatic peptide metabolism is essential for predicting pharmacokinetic behavior and optimizing drug design.
 
 ## Hepatic Extraction

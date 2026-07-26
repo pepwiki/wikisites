@@ -25,8 +25,6 @@ categories:
     description: Testing and compliance verification
 ---
 
-# Peptide Manufacturing Database
-
 This database catalogs 35 essential processes used in modern peptide manufacturing, from synthesis through quality control.
 
 ---

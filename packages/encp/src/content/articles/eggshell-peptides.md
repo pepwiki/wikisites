@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Eggshell Peptides
-
 ## Overview
 
 Eggshell Peptides is a bioactive peptide with well-characterized properties and therapeutic applications.

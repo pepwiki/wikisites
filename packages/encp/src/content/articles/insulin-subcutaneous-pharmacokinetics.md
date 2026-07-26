@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Insulin Subcutaneous Pharmacokinetics
-
 ## Overview
 
 Factors affecting subcutaneous absorption including blood flow, capillary permeability, and concentration.

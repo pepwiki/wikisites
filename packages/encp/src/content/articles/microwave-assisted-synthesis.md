@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Microwave-Assisted Synthesis
-
 ## Overview
 
 Microwave-Assisted Synthesis is a bioactive peptide with well-characterized properties and therapeutic applications.

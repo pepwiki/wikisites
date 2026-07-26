@@ -1,6 +1,6 @@
 ---
 title: "Toll Like Receptor Agonist TLR12-agonist-12"
-description: "Comprehensive reference for toll like receptor agonist TLR12-agonist-12, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for toll like receptor agonist TLR12-agonist-12, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

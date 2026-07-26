@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Beauvericin
-
 ## Overview
 
 Beauvericin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Beauveria bassiana.

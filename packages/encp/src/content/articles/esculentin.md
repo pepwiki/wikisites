@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Esculentin
-
 ## Overview
 
 Potent frog AMP active against Pseudomonas aeruginosa in wound infections.

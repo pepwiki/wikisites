@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Frog Skin Peptide Library
-
 ## Overview
 
 Library of AMPs from amphibian skin secretions for drug discovery.

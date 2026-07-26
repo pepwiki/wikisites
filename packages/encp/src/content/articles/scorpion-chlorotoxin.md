@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Scorpion Chlorotoxin
-
 ## Overview
 
 Scorpion venom peptide binding matrix metalloproteinase-2 on glioma cells.

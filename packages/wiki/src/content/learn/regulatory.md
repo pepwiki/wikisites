@@ -10,8 +10,6 @@ difficulty: "expert"
 relatedArticles: ["clinical-trials", "pharmacology", "purification"]
 ---
 
-# Regulatory Pathways
-
 ## Introduction
 
 Regulatory approval is essential for bringing peptide therapeutics to market. This chapter covers the major regulatory frameworks, application types, and expedited pathways available for peptide drug development.

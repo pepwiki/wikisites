@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GLP-1 Albumin Binding Strategy
-
 ## Overview
 
 Fatty acid acylation strategy for albumin binding extending half-life through reduced renal clearance.

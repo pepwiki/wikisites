@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Synthesis (10 processes)
-
 ## Overview
 
 Synthesis (10 processes) is a bioactive peptide with well-characterized properties and therapeutic applications.

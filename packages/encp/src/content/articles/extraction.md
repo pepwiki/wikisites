@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Extraction
-
 ## Overview
 
 Extraction is a bioactive peptide with well-characterized properties and therapeutic applications.

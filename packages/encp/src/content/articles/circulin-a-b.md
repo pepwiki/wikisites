@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Circulin A/B
-
 ## Overview
 
 Circulin A/B is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Chassalia parviflora.

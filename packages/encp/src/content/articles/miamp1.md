@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# MiAMP1
-
 ## Overview
 
 MiAMP1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Macadamia integrifolia (Macadamia).

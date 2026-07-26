@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Apamin (Apis)
-
 ## Overview
 
 Apamin (Apis) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Apis mellifera (honeybee).

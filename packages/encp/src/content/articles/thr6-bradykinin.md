@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Thr6-bradykinin
-
 ## Overview
 
 Thr6-bradykinin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Rana temporaria.

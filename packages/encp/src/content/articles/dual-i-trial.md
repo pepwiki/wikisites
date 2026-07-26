@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# DUAL I Trial
-
 ## Overview
 
 Phase 3 trial demonstrating superiority of degludec-liraglutide over glargine in HbA1c reduction with less hypoglycemia.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chameleon Color-Change Peptide
-
 ## Overview
 
 Chameleon Color-Change Peptide is a bioactive peptide with well-characterized properties and therapeutic applications.

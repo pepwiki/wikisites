@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Penetratin
-
 ## Overview
 
 Penetratin is a bioactive peptide with well-characterized properties and therapeutic applications.

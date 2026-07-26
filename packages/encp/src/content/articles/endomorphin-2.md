@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Endomorphin-2
-
 ## Overview
 
 Mu-opioid selective peptide with preferential spinal cord distribution.

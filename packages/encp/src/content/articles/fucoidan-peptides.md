@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Fucoidan Peptides
-
 ## Overview
 
 Fucoidan Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Fucus vesiculosus, Undaria pinnatifida.

@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Beta-Defensin Dimerization
-
 ## Overview
 
 Homodimer formation enhancing antimicrobial potency through avidity effects.

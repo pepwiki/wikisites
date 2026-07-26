@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Solenopsin (Solenopsis)
-
 ## Overview
 
 Solenopsin (Solenopsis) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Solenopsis invicta (red imported fire ant).

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# BNP → Neprilysin (Substrate)
-
 ## Overview
 
 BNP → Neprilysin (Substrate) is a bioactive peptide with well-characterized properties and therapeutic applications.

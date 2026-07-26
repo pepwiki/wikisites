@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Okadaic Acid
-
 ## Overview
 
 Okadaic Acid is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Dinophysis acuminata.

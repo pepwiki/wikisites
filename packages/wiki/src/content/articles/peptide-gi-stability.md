@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: ["peptide-drug-delivery", "peptide-stability", "peptide-gi-stability"]
 ---
 
-# Peptide Stability in the GI Tract
-
 The gastrointestinal (GI) tract is an extremely hostile environment for peptides. Despite the enormous therapeutic potential of oral peptide delivery, the combination of harsh chemical conditions and potent digestive enzymes destroys most peptides before they can be absorbed. Understanding these barriers is essential for developing effective oral peptide therapeutics.
 
 ## The Gastric Barrier

@@ -8,8 +8,6 @@ total_peptides: 40
 last_updated: 2024-12-12
 ---
 
-# Synthetic Peptides Database
-
 A comprehensive collection of synthetic and engineered peptides organized by application category.
 
 ## Categories Overview

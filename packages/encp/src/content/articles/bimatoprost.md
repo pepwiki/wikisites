@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Bimatoprost
-
 ## Overview
 
 Bimatoprost is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Wasp Venom Polybia-MP1
-
 ## Overview
 
 Membrane-disrupting peptide from Polybia paulista wasp venom.

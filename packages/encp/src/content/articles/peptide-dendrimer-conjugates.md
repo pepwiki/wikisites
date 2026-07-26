@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Peptide Dendrimer Conjugates
-
 ## Overview
 
 Dendrimer conjugation for multivalent peptide display and delivery.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# MultiPep
-
 ## Overview
 
 MultiPep is a bioactive peptide with well-characterized properties and therapeutic applications.

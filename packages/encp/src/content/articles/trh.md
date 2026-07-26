@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# TRH
-
 ## Overview
 
 TRH is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Xenopus laevis.

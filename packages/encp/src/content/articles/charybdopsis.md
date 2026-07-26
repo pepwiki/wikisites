@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Charybdopsis
-
 ## Overview
 
 Charybdopsis is a bioactive peptide with well-characterized properties and therapeutic applications.

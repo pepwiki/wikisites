@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Viltolarsen
-
 ## Overview
 
 Viltolarsen is a bioactive peptide with well-characterized properties and therapeutic applications.

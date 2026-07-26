@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: ["peptide-synthesis-methods", "hplc-purification", "ion-channels-peptides"]
 ---
 
-# Mass Spectrometry for Peptides
-
 ## Why Mass Spectrometry for Peptides?
 
 Mass spectrometry (MS) is the most powerful technique for peptide characterization. It provides exact molecular weight, sequence information, and post-translational modification mapping. Modern peptide research depends on MS for quality control, identification, and discovery.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Casimersen
-
 ## Overview
 
 Casimersen is a bioactive peptide with well-characterized properties and therapeutic applications.

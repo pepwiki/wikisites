@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Hyp3-bradykinin
-
 ## Overview
 
 Hyp3-bradykinin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Rana temporaria.

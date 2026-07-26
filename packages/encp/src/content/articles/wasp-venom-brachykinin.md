@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Wasp Venom Brachykinin
-
 ## Overview
 
 Kinins from wasp venom causing pain and vasodilation.

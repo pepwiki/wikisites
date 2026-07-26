@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Margatoxin
-
 ## Overview
 
 Margatoxin is a bioactive peptide with well-characterized properties and therapeutic applications.

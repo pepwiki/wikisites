@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# CGRP → CGRP Receptor
-
 ## Overview
 
 CGRP → CGRP Receptor is a bioactive peptide with well-characterized properties and therapeutic applications.

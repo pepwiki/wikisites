@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Lizard Cathelicidin
-
 ## Overview
 
 Lizard Cathelicidin is a bioactive peptide with well-characterized properties and therapeutic applications.

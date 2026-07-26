@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide-MMAE Conjugates
-
 ## Overview
 
 Peptide-MMAE Conjugates is a bioactive peptide with well-characterized properties and therapeutic applications.

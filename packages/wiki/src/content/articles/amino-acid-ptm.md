@@ -18,8 +18,6 @@ difficulty: "intermediate"
 relatedArticles: ["amino-acid-analytical-methods", "peptide-bond-enzyme-catalysis"]
 ---
 
-# Amino Acid Post-Translational Modifications
-
 After a protein is synthesized on the ribosome, it often undergoes chemical changes that alter its function, localization, or lifespan. These post-translational modifications (PTMs) expand the functional diversity of the proteome far beyond what the 20 standard amino acids can achieve alone.
 
 ## Phosphorylation

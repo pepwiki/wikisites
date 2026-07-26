@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Melanin-Concentrating Hormone
-
 ## Overview
 
 Hypothalamic neuropeptide promoting feeding and energy conservation.

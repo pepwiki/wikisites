@@ -5,8 +5,6 @@ title: "Peptide Databases — Sequence and Structure Resources"
 description: Overview of public peptide databases — UniProt, PDB, PeptideAtlas, Antimicrobial Peptide Database, and specialized resources for sequence, structure, and f.
 ---
 
-# Peptide Databases
-
 Comprehensive guide to public databases containing peptide sequences, structures, binding data, and functional annotations for research and drug development.
 
 ## Database Comparison Overview

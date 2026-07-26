@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide Albumin Binding
-
 ## Overview
 
 Albumin-binding strategies for extending peptide circulating half-life.

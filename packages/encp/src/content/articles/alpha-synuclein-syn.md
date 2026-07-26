@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Alpha-Synuclein (α-Syn)
-
 ## Overview
 
 Alpha-Synuclein (α-Syn) is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# K9Cath
-
 ## Overview
 
 K9Cath is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Canis lupus familiaris (Dog).

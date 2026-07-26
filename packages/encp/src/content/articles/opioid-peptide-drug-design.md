@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Peptide Drug Design
-
 ## Overview
 
 Structure-based design of novel opioid peptides with improved properties.

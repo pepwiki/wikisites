@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Terlipressin
-
 ## Overview
 
 Glypressin analog for hepatorenal syndrome providing selective splanchnic vasoconstriction.

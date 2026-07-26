@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Reward Circuitry
-
 ## Overview
 
 Endogenous opioids in mesolimbic dopamine reward pathways.

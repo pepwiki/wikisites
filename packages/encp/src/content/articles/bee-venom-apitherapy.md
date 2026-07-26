@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Bee Venom Apitherapy
-
 ## Overview
 
 Clinical applications of bee venom in traditional and integrative medicine.

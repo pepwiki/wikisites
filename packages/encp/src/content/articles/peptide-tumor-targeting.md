@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide Tumor Targeting
-
 ## Overview
 
 Peptide-based tumor targeting for drug delivery and imaging.

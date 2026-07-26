@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Venom Peptide Safety Profile
-
 ## Overview
 
 Safety considerations for venom peptide therapeutics in clinical development.

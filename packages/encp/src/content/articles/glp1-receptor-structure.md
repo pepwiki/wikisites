@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# GLP-1 Receptor Structure
-
 The glucagon-like peptide-1 receptor (GLP-1R) is a class B G-protein-coupled receptor (GPCR) that mediates the incretin effects of GLP-1 on insulin secretion, gastric motility, and appetite regulation. High-resolution structural determination has transformed understanding of receptor pharmacology and enabled rational drug design.
 
 ## Cryo-EM Structural Determination

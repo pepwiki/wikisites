@@ -7,8 +7,6 @@ category: "peptide-research"
 tags: ["peptides", "history", "milestones", "pharmaceutical", "biochemistry"]
 ---
 
-# Peptide History Database
-
 A comprehensive database of key milestones in peptide science, from early amino acid discoveries to modern therapeutic breakthroughs.
 
 ## Database Schema

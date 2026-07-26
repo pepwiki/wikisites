@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Phyllokinin
-
 ## Overview
 
 Phyllokinin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Phyllomedusa sauvagei.

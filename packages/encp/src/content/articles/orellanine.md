@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Orellanine
-
 ## Overview
 
 Orellanine is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Cortinarius orellanus.

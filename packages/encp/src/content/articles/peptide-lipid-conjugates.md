@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide Lipid Conjugates
-
 ## Overview
 
 Lipid conjugation for membrane anchoring and sustained peptide release.

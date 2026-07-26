@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Efinopegdutide
-
 ## Overview
 
 Once-weekly PEGylated GLP-1 agonist for NASH treatment in clinical development.

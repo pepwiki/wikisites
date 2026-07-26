@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Crystallization
-
 ## Overview
 
 Crystallization is a bioactive peptide with well-characterized properties and therapeutic applications.

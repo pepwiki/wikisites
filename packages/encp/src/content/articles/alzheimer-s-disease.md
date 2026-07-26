@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Alzheimer's Disease
-
 ## Overview
 
 Alzheimer's Disease is a bioactive peptide with well-characterized properties and therapeutic applications.

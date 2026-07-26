@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# MCoTI-I/II
-
 ## Overview
 
 MCoTI-I/II is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Momordica cochinchinensis (Gac).

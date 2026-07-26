@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cerulein
-
 ## Overview
 
 Cerulein is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bombina bombina.

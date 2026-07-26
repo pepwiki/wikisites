@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Adipokinetic Hormone
-
 ## Overview
 
 Adipokinetic Hormone is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Locusta migratoria (migratory locust).

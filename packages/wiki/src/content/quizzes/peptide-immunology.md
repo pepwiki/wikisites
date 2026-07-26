@@ -294,7 +294,7 @@ export const questions = [
   }
 ];
 
-# Peptide Immunology Quiz
+## Peptide Immunology Quiz
 
 Test your understanding of peptide immunology, from antigen presentation and MHC pathways to modern immunotherapies.
 

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Psi-Conotoxin TxVII
-
 ## Overview
 
 Calcium channel modulator from Conus textile with unique disulfide connectivity.

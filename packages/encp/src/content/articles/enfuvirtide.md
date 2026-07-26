@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Enfuvirtide
-
 ## Overview
 
 Fusion inhibitor peptide blocking HIV gp41-mediated membrane fusion for treatment-experienced patients.

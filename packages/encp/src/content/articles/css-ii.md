@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Css II
-
 ## Overview
 
 Css II is a bioactive peptide with well-characterized properties and therapeutic applications.

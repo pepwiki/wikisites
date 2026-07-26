@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Amphipathic Helix Design
-
 ## Overview
 
 Rational design based on hydrophobic moment and charge distribution.

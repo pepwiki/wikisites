@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Neuroendocrine Tumors
-
 ## Overview
 
 Neuroendocrine Tumors is a bioactive peptide with well-characterized properties and therapeutic applications.

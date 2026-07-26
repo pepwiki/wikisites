@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Hymenoptaecin
-
 ## Overview
 
 Giant AMP from honeybee with broad-spectrum bactericidal activity.

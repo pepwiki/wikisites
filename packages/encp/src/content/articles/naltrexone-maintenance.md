@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Naltrexone Maintenance
-
 ## Overview
 
 Long-acting oral opioid antagonist for addiction and alcohol treatment.

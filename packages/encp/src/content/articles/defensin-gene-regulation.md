@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Defensin Gene Regulation
-
 ## Overview
 
 Transcriptional regulation by NF-kB, TLR signaling, and microbial products.

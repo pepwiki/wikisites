@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Enteric Nervous System
-
 ## Overview
 
 Opioid peptides in enteric and peripheral sensory neurons.

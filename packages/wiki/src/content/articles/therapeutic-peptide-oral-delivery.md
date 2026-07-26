@@ -18,8 +18,6 @@ relatedArticles:
   ["peptide-drug-manufacturing", "amino-acid-transporters", "protein-misfolding-diseases"]
 ---
 
-# Therapeutic Peptide Oral Delivery
-
 Oral delivery of therapeutic peptides remains one of the greatest challenges in drug development. The gastrointestinal (GI) tract presents multiple barriers that peptides must overcome to reach systemic circulation.
 
 ## Challenges of Oral Peptide Delivery

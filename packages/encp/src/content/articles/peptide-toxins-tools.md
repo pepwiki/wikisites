@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Peptide Toxins as Research Tools
-
 Venom-derived peptide toxins represent indispensable tools in neuroscience and ion channel pharmacology, providing molecular resolution of channel structure-function relationships and serving as lead compounds for drug development. Conotoxins from cone snails, spider venom peptides, and scorpion toxins collectively target voltage-gated and ligand-gated ion channels with exceptional subtype selectivity.
 
 ## Conotoxins

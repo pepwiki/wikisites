@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cyclosporine
-
 ## Overview
 
 Cyclic undecapeptide calcineurin inhibitor for immunosuppression in transplantation.

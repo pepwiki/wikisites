@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Captopril
-
 ## Overview
 
 Captopril is a bioactive peptide with well-characterized properties and therapeutic applications.

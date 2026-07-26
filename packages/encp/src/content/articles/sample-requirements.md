@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sample Requirements
-
 ## Overview
 
 Sample Requirements is a bioactive peptide with well-characterized properties and therapeutic applications.

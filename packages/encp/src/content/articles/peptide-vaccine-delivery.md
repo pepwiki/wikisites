@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide Vaccine Delivery
-
 ## Overview
 
 Peptide-based vaccine delivery systems including adjuvant formulations.

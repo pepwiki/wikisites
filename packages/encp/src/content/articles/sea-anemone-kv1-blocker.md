@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sea Anemone Kv1 Blocker
-
 ## Overview
 
 Potassium channel blocker from sea anemone with neuroprotective potential.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Salmon CGRP
-
 ## Overview
 
 Salmon CGRP is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Salmon (Oncorhynchus spp.).

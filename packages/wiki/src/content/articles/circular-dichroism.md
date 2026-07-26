@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: ["circular-dichroism", "protein-folding-thermodynamics", "circular-dichroism"]
 ---
 
-# Circular Dichroism Spectroscopy
-
 Circular dichroism (CD) spectroscopy measures the differential absorption of left and right circularly polarized light by chiral molecules. For peptides and proteins, CD provides rapid, reliable assessment of secondary structure composition without requiring crystallization.
 
 ## Fundamental Principles

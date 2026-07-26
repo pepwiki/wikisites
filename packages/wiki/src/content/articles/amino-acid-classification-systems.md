@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: ["amino-acid-transporters", "amino-acid-racemization"]
 ---
 
-# Amino Acid Classification Systems
-
 Understanding how to classify amino acids is fundamental to biochemistry. Multiple classification systems exist, each providing different insights into amino acid properties and functions.
 
 ## Classification by Polarity

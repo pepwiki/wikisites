@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Acetyl Octapeptide-3 (SNAP-8)
-
 ## Overview
 
 Acetyl Octapeptide-3 (SNAP-8) is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -15,8 +15,6 @@ relatedArticles:
   ]
 ---
 
-# Protein Misfolding Diseases
-
 Protein misfolding diseases represent a major class of disorders where proteins adopt abnormal conformations, leading to aggregation and cellular dysfunction. Understanding these diseases is crucial for developing therapeutic strategies.
 
 ## The Protein Folding Problem

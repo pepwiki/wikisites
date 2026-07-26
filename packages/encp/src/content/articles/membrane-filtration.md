@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Membrane Filtration
-
 ## Overview
 
 Membrane Filtration is a bioactive peptide with well-characterized properties and therapeutic applications.

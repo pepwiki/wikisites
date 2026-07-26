@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Teriparatide
-
 ## Overview
 
 Recombinant PTH(1-34) for osteoporosis stimulating osteoblast-mediated bone formation via PTH1R.

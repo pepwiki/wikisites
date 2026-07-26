@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# B-cerulein
-
 ## Overview
 
 B-cerulein is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bombina bombina.

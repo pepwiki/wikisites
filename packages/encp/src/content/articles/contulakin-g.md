@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Contulakin-G
-
 ## Overview
 
 Contulakin-G is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Conus geographus (geography cone).

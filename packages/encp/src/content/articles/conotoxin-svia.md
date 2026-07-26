@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# δ-Conotoxin SVIA
-
 ## Overview
 
 δ-Conotoxin SVIA is a bioactive peptide with well-characterized properties and therapeutic applications.

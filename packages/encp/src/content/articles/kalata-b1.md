@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Kalata B1
-
 ## Overview
 
 Kalata B1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Oldenlandia affinis.

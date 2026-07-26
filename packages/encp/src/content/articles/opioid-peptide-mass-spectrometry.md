@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Peptide Mass Spectrometry
-
 ## Overview
 
 Mass spectrometric methods for identification and quantification of endogenous opioids.

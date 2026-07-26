@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: ["peptide-electronegativity", "peptide-tautomerism"]
 ---
 
-# Peptide Bond Resonance Structures
-
 Resonance describes the delocalization of electrons across multiple bonding arrangements. In peptide bonds, resonance explains why this bond has properties distinct from a simple single or double bond.
 
 ## The Two Major Resonance Contributors

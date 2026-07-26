@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Scorpaenotoxin
-
 ## Overview
 
 Scorpaenotoxin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Scorpion fish (Scorpaena spp.).

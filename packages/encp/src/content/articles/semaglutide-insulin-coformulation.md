@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Semaglutide Insulin Coformulation
-
 ## Overview
 
 Experimental co-formulation of semaglutide with ultra-long-acting insulin for single-injection therapy.

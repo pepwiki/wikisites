@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# HBV Peptide Vaccine
-
 ## Overview
 
 HBV Peptide Vaccine is a bioactive peptide with well-characterized properties and therapeutic applications.

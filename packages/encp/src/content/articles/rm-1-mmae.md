@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# RM-1-MMAE
-
 ## Overview
 
 RM-1-MMAE is a bioactive peptide with well-characterized properties and therapeutic applications.

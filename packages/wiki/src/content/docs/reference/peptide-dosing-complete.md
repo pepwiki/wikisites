@@ -5,8 +5,6 @@ title: "Peptide Dosing Complete — All Therapeutic Protocols"
 description: "Evidence-based dosing protocols for FDA-approved and investigational peptide drugs including titration schedules and patient-specific optimization strategies."
 ---
 
-# Complete Peptide Dosing Reference
-
 A comprehensive, structured dosing guide for all FDA-approved and major investigational peptides.
 
 ## Dosing Conventions

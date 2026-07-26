@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Alpha-Conotoxin PnIA
-
 ## Overview
 
 Neuronal nicotinic receptor antagonist from Conus pennaceus with analgesic potential.

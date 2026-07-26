@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide Controlled Release
-
 ## Overview
 
 Controlled release technologies for maintaining therapeutic peptide levels.

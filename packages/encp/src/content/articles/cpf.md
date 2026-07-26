@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# CPF
-
 ## Overview
 
 CPF is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Xenopus laevis.

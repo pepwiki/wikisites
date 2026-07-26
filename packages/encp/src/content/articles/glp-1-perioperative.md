@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GLP-1 Perioperative
-
 ## Overview
 
 Management during surgery including aspiration risk assessment and glycemic control strategies.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Bremelanotide
-
 ## Overview
 
 Melanocortin MC4R agonist for hypoactive sexual desire disorder in premenopausal women.

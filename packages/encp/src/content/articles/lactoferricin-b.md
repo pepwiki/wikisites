@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Lactoferricin B
-
 ## Overview
 
 Lactoferricin B is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bos taurus (Cattle).

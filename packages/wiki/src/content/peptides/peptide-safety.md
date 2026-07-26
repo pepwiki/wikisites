@@ -13,8 +13,6 @@ tags:
   - regulatory
 ---
 
-# Peptide Safety Database
-
 Comprehensive reference for therapeutic peptide safety concerns across immunogenicity, toxicity, special populations, drug interactions, and overdose scenarios.
 
 ---

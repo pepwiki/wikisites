@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Hollow Microneedle Peptide
-
 ## Overview
 
 Hollow microneedle devices enabling liquid peptide formulation delivery.

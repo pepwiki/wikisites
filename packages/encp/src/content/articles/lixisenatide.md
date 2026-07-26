@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Lixisenatide
-
 ## Overview
 
 Once-daily short-acting GLP-1 agonist from exendin-4 with C-terminal truncation for rapid onset.

@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Insulin Analogues
-
 ## Introduction
 
 Human insulin is a 51-amino acid heterodimeric peptide composed of an A-chain (21 residues) and B-chain (30 residues) connected by two interchain disulfide bonds. The native hormone regulates glucose homeostasis by facilitating cellular glucose uptake through GLUT4 translocation, suppressing hepatic glucose production, and inhibiting lipolysis. Recombinant human insulin revolutionized diabetes management upon its introduction in 1982, but its pharmacokinetic limitations—particularly the propensity for hypoglycemia due to variable absorption from subcutaneous depot sites—motivated the development of insulin analogues with optimized pharmacological profiles.

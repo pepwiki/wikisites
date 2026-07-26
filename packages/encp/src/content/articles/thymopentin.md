@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Thymopentin
-
 ## Overview
 
 Synthetic pentapeptide from thymopoietin with T-cell stimulating activity.

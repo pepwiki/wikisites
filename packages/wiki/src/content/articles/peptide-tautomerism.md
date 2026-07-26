@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: ["peptide-electronegativity", "peptide-resonance-structures"]
 ---
 
-# Peptide Bond Tautomerism
-
 Tautomerism involves the interconversion of structural isomers through proton migration and bond reorganization. In peptides, tautomeric equilibria influence molecular recognition, spectroscopic properties, and occasionally misincorporation during solid-phase synthesis.
 
 ## Keto-Enol Tautomerism

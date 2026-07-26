@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Lactoferricin
-
 ## Overview
 
 Cationic antimicrobial peptide from lactoferrin with potent gram-negative bactericidal activity.

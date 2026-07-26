@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Endorphin Pain Modulation
-
 ## Overview
 
 Endorphin-mediated descending pain inhibition from brainstem to spinal cord.

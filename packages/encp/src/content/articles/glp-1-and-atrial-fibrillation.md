@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# GLP-1 and Atrial Fibrillation
-
 ## Overview
 
 Investigation of effects on atrial fibrillation risk and atrial remodeling in metabolic syndrome.

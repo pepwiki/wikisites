@@ -8,8 +8,6 @@ tags: [insect, peptides, defensins, cecropins, venom, antimicrobial, silk, hormo
 lastUpdated: 2026-06-12
 ---
 
-# Insect Peptides Database
-
 Insects produce an extraordinary diversity of bioactive peptides involved in immunity, development, defense, and structural functions. This database catalogs peptides from insect sources including flies, moths, bees, wasps, ants, and spiders (arachnids often grouped with insect studies).
 
 ## Insect Defensins

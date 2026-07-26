@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sufentanil Synthetic Opioid
-
 ## Overview
 
 Potent synthetic opioid with greater mu-selectivity than fentanyl.

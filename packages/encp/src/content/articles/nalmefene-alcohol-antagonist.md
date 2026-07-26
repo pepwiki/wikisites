@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Nalmefene Alcohol Antagonist
-
 ## Overview
 
 Long-acting opioid antagonist for alcohol use disorder.

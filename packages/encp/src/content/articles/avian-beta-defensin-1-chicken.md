@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Avian Beta-Defensin 1 (Chicken)
-
 ## Overview
 
 Avian Beta-Defensin 1 (Chicken) is a bioactive peptide with well-characterized properties and therapeutic applications.

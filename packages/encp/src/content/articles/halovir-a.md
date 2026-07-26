@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Halovir A
-
 ## Overview
 
 Halovir A is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Scytalidium sp. (halotolerant fungus).

@@ -11,8 +11,6 @@ relatedArticles:
   ["peptide-bond-isomerization", "peptide-bond-geometry-drug-design", "peptide-ir-spectroscopy"]
 ---
 
-# Peptide Bond Energy Diagram
-
 The peptide bond energy diagram illustrates the thermodynamic and kinetic pathways involved in peptide bond formation and hydrolysis. Understanding this diagram is essential for comprehending how proteins are synthesized and degraded in biological systems.
 
 ## The Energy Landscape

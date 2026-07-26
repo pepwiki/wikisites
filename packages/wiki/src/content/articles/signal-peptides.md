@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: ["amino-acids", "protein-folding-thermodynamics", "amino-acid-ptm"]
 ---
 
-# Signal Peptides
-
 Signal peptides are short amino acid sequences, typically 16-30 residues long, found at the N-terminus of nascent proteins. Their primary role is to direct the ribosome-mRNA-nascent polypeptide complex to the endoplasmic reticulum (ER) membrane, initiating protein translocation into the ER lumen.
 
 ## Structure of Signal Peptides

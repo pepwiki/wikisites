@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Danuglipron
-
 ## Overview
 
 Danuglipron is a bioactive peptide with well-characterized properties and therapeutic applications.

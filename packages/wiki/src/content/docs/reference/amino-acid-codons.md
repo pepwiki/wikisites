@@ -5,8 +5,6 @@ title: "Amino Acid Codon Table — Genetic Code Reference"
 description: Complete codon table with degeneracy, wobble rules, and amino acid frequency — reference for codon optimization and peptide design.
 ---
 
-# Amino Acid Codon Table
-
 Complete reference table of 64 codons mapping to 20 amino acids plus stop signals, with degeneracy classes, wobble rules, and frequency data for human and E. coli expression systems.
 
 ## Codon Table

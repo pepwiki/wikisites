@@ -14,8 +14,6 @@ spaced_repetition: true
 difficulty: advanced
 ---
 
-# Peptide Receptor Pharmacology
-
 ## Card 1: GLP-1R (Glucagon-Like Peptide-1 Receptor)
 
 **IUPHAR Nomenclature:** GLP-1R (Class B1 GPCR, family 2)

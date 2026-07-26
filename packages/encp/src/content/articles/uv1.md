@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# UV1
-
 ## Overview
 
 UV1 is a bioactive peptide with well-characterized properties and therapeutic applications.

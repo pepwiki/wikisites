@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Insulin Assay Cross-Reactivity
-
 ## Overview
 
 Analytical challenges with insulin immunoassay cross-reactivity from analogs, proinsulin, and antibody complexes.

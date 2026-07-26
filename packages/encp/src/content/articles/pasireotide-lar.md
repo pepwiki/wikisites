@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Pasireotide LAR
-
 ## Overview
 
 Long-acting pasireotide microspheres for monthly dosing in Cushing disease and acromegaly.

@@ -17,8 +17,6 @@ difficulty: "advanced"
 relatedArticles: ["neuropeptide-signaling", "peptide-drug-delivery", "mass-spectrometry-peptides"]
 ---
 
-# Ion Channels and Peptides
-
 ## Overview of Ion Channels
 
 Ion channels are transmembrane proteins that form selective pores, allowing specific ions (Na+, K+, Ca2+, Cl-) to flow across cell membranes down their electrochemical gradients. They are essential for electrical signaling in neurons, muscle contraction, and hormone secretion.

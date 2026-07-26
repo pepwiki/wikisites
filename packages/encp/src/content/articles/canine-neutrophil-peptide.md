@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Canine Neutrophil Peptide
-
 ## Overview
 
 Canine Neutrophil Peptide is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Canis lupus familiaris (Dog).

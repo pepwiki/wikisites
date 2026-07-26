@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Atogepant
-
 ## Overview
 
 Oral CGRP receptor antagonist for episodic migraine prevention with daily dosing.

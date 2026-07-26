@@ -1,6 +1,6 @@
 ---
 title: "Secretin 20-27: Peptide Fragment Reference"
-description: "Comprehensive reference for secretin 20-27 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for secretin 20-27 variant, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

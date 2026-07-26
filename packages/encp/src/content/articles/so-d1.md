@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# So-D1
-
 ## Overview
 
 So-D1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Spinacia oleracea (Spinach).

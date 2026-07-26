@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Conantokin G
-
 ## Overview
 
 NMDA receptor antagonist from Conus geographus with anticonvulsant properties.

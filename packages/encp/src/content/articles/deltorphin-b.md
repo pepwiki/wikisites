@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Deltorphin B
-
 ## Overview
 
 Deltorphin B is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Phyllomedusa bicolor.

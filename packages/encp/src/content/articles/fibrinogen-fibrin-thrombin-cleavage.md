@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Fibrinogen → Fibrin (Thrombin Cleavage)
-
 ## Overview
 
 Fibrinogen → Fibrin (Thrombin Cleavage) is a bioactive peptide with well-characterized properties and therapeutic applications.

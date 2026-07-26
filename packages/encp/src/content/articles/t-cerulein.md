@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# T-cerulein
-
 ## Overview
 
 T-cerulein is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bombina variegata (Yellow-bellied toad).

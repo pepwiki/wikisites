@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Natamycin
-
 ## Overview
 
 Natamycin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Streptomyces natalensis (actinomycete).

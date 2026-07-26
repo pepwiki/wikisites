@@ -1,6 +1,6 @@
 ---
 title: "Peptide side-chain modification"
-description: "Comprehensive reference for peptide side-chain modification, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for peptide side-chain modification, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

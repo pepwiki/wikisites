@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Goserelin Implant
-
 ## Overview
 
 Goserelin Implant is a bioactive peptide with well-characterized properties and therapeutic applications.

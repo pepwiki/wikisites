@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Bee Venom Neuroprotective
-
 ## Overview
 
 Neuroprotective properties of bee venom components in neurodegenerative disease.

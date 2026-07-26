@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Stress Analgesia
-
 ## Overview
 
 Role of endogenous opioids in stress-induced analgesia.

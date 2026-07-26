@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Premixed Insulin 70/30
-
 ## Overview
 
 Fixed combination of 70% NPH intermediate-acting and 30% regular insulin for twice-daily basal-bolus coverage.

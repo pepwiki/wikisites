@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Glargine U300 Pharmacokinetics
-
 ## Overview
 
 Pharmacokinetic characterization of concentrated glargine 300 U/mL showing delayed absorption and constant 24-hour coverage.

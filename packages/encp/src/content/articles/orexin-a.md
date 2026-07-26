@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Orexin A
-
 ## Overview
 
 Hypothalamic neuropeptide promoting wakefulness and energy homeostasis.

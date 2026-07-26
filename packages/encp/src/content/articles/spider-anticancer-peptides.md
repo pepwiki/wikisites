@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Spider Anticancer Peptides
-
 ## Overview
 
 Spider venom peptides with selective toxicity against cancer cells.

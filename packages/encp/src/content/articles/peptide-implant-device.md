@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide Implant Device
-
 ## Overview
 
 Non-biodegradable implant devices for year-long peptide drug delivery.

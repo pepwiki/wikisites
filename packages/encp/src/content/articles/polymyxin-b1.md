@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Polymyxin B1
-
 ## Overview
 
 Polymyxin B1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bacillus polymyxa (marine-associated).

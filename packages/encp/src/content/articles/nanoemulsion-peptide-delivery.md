@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Nanoemulsion Peptide Delivery
-
 ## Overview
 
 Nanoemulsion systems for improving peptide oral bioavailability.

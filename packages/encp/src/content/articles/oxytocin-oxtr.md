@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Oxytocin → OXTR
-
 ## Overview
 
 Oxytocin → OXTR is a bioactive peptide with well-characterized properties and therapeutic applications.

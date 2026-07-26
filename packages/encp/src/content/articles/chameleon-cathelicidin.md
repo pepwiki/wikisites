@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chameleon Cathelicidin
-
 ## Overview
 
 Chameleon Cathelicidin is a bioactive peptide with well-characterized properties and therapeutic applications.

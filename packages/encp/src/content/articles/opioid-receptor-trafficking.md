@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Receptor Trafficking
-
 ## Overview
 
 Agonist-induced internalization, recycling, and degradation affecting tolerance.

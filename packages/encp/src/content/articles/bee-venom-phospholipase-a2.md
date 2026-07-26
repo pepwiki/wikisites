@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Bee Venom Phospholipase A2
-
 ## Overview
 
 Major allergenic enzyme component of honeybee venom with inflammatory effects.

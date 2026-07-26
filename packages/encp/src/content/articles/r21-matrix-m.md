@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# R21/Matrix-M
-
 ## Overview
 
 R21/Matrix-M is a bioactive peptide with well-characterized properties and therapeutic applications.

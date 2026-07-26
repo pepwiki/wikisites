@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# PGLa
-
 ## Overview
 
 Antimicrobial peptide from Xenopus skin with synergistic activity with magainin.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Insulin → Insulin Receptor
-
 ## Overview
 
 Insulin → Insulin Receptor is a bioactive peptide with well-characterized properties and therapeutic applications.

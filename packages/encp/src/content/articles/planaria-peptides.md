@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Planaria Peptides
-
 ## Overview
 
 Planaria Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Schmidtea mediterranea, Dugesia japonica.

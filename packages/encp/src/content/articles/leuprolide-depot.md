@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Leuprolide Depot
-
 ## Overview
 
 Leuprolide Depot is a bioactive peptide with well-characterized properties and therapeutic applications.

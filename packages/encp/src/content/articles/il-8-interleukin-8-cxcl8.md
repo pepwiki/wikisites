@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# IL-8 (Interleukin-8 / CXCL8)
-
 ## Overview
 
 IL-8 (Interleukin-8 / CXCL8) is a bioactive peptide with well-characterized properties and therapeutic applications.

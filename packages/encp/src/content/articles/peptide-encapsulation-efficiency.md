@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide Encapsulation Efficiency
-
 ## Overview
 
 Methods for measuring and optimizing peptide encapsulation in delivery systems.

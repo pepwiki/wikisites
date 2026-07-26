@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Insulin Storage Stability
-
 ## Overview
 
 Guidelines for insulin storage including refrigeration at 2-8 degrees Celsius and in-use room temperature stability.

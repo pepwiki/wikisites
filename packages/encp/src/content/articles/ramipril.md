@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Ramipril
-
 ## Overview
 
 Ramipril is a bioactive peptide with well-characterized properties and therapeutic applications.

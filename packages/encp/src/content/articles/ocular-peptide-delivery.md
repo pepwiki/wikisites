@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Ocular Peptide Delivery
-
 ## Overview
 
 Ophthalmic delivery systems for peptide drugs targeting anterior and posterior segment.

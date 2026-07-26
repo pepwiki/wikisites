@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Insulin Regular
-
 ## Overview
 
 Short-acting crystalline zinc insulin for intravenous and subcutaneous use with peak effect at 2-4 hours.

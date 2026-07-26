@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Gecko Skin Peptide
-
 ## Overview
 
 Gecko Skin Peptide is a bioactive peptide with well-characterized properties and therapeutic applications.

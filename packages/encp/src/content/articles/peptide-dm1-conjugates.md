@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide-DM1 Conjugates
-
 ## Overview
 
 Peptide-DM1 Conjugates is a bioactive peptide with well-characterized properties and therapeutic applications.

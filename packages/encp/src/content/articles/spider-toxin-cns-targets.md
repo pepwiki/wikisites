@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Spider Toxin CNS Targets
-
 ## Overview
 
 Spider venom peptides targeting central nervous system ion channels.

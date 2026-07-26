@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Neuroendocrine
-
 ## Overview
 
 Effects on hypothalamic-pituitary axes including cortisol and GH.

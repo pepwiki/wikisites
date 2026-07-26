@@ -16,8 +16,6 @@ citation:
   year: 2024
 ---
 
-# Cyclic Peptides in Drug Discovery
-
 ## Introduction
 
 Cyclic peptides occupy a distinctive niche in drug discovery, bridging the chemical space between small molecules and biologics. Their conformational constraint reduces conformational entropy of the unbound state, which can enhance target binding affinity relative to linear counterparts. Furthermore, cyclization eliminates both N- and C-terminal charges, reducing susceptibility to exopeptidase degradation and improving metabolic stability. Despite these advantages, achieving adequate cell permeability remains the central pharmacological challenge for cyclic peptide therapeutics.

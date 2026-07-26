@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Fentanyl Synthetic Opioid
-
 ## Overview
 
 Potent synthetic opioid with rapid onset and short duration for anesthesia.

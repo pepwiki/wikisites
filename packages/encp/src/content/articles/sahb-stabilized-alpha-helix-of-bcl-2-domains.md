@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# SAHB (Stabilized Alpha-Helix of BCL-2 Domains)
-
 ## Overview
 
 SAHB (Stabilized Alpha-Helix of BCL-2 Domains) is a bioactive peptide with well-characterized properties and therapeutic applications.

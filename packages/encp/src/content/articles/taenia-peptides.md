@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Taenia Peptides
-
 ## Overview
 
 Taenia Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Taenia solium, T. saginata, T. crassiceps.

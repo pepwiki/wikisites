@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: ["gip", "gip", "endogenous-peptide-drugs", "neuropeptide-signaling"]
 ---
 
-# Glucose-Dependent Insulinotropic Polypeptide
-
 Glucose-dependent insulinotropic polypeptide (GIP) is a 42-amino acid peptide hormone belonging to the secretin family. Originally discovered as a gastrointestinal inhibitor of gastric acid secretion, GIP was later identified as a major incretin hormone that potentiates insulin release following oral glucose intake.
 
 ## Discovery and Nomenclature

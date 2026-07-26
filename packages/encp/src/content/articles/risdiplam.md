@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Risdiplam
-
 ## Overview
 
 Risdiplam is a bioactive peptide with well-characterized properties and therapeutic applications.

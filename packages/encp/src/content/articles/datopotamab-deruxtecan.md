@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Datopotamab Deruxtecan
-
 ## Overview
 
 Datopotamab Deruxtecan is a bioactive peptide with well-characterized properties and therapeutic applications.

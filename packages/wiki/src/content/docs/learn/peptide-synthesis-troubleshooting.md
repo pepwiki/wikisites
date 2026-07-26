@@ -5,8 +5,6 @@ title: "Peptide Synthesis Troubleshooting"
 description: Guide to troubleshooting peptide synthesis problems — incomplete couplings, side reactions, purification challenges, and quality issues.
 ---
 
-# Peptide Synthesis Troubleshooting
-
 Successful peptide synthesis requires identifying and resolving common problems. This guide covers troubleshooting strategies for coupling, cleavage, purification, and quality issues.
 
 ## Common Problems by Stage

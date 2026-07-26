@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sterility Testing
-
 ## Overview
 
 Sterility Testing is a bioactive peptide with well-characterized properties and therapeutic applications.

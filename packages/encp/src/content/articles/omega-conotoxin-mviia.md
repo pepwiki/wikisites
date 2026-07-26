@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Omega-Conotoxin MVIIA
-
 ## Overview
 
 N-type calcium channel blocker from Conus magus for severe chronic pain.

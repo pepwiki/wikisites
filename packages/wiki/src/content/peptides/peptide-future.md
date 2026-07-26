@@ -13,8 +13,6 @@ tags:
   - regulatory
 ---
 
-# Peptide Future Trends Database
-
 ## Overview
 
 This database tracks 30 key trends across four major categories that are shaping the future of peptide science and therapeutics. Each entry includes detailed information on current status, timeline, impact assessment, and key stakeholders.

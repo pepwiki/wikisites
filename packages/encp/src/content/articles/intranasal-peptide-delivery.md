@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Intranasal Peptide Delivery
-
 ## Overview
 
 Nasal delivery systems for peptide drugs targeting CNS or systemic absorption.

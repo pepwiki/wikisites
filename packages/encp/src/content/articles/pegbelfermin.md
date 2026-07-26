@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Pegbelfermin
-
 ## Overview
 
 Pegbelfermin is a bioactive peptide with well-characterized properties and therapeutic applications.

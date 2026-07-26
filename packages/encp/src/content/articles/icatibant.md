@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Icatibant
-
 ## Overview
 
 Bradykinin B2 receptor antagonist for hereditary angioedema acute attacks.

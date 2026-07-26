@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Enteric Coated Peptide Capsules
-
 ## Overview
 
 Enteric coatings protecting peptides from gastric acid and enzymes.

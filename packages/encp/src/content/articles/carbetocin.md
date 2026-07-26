@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Carbetocin
-
 ## Overview
 
 Long-acting oxytocin analog for postpartum hemorrhage prevention with D-Tyr substitution.

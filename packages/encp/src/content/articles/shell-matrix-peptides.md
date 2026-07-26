@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Shell Matrix Peptides
-
 ## Overview
 
 Shell Matrix Peptides is a bioactive peptide with well-characterized properties and therapeutic applications.

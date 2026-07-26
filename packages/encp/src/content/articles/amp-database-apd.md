@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# AMP Database APD
-
 ## Overview
 
 Comprehensive public database with sequences, structures, and activity data.

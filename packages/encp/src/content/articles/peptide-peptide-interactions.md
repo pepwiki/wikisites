@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Peptide-Peptide Interactions
-
 ## Overview
 
 Peptide-peptide interactions are fundamental to biological organization, governing processes from transcription factor dimerization to pathological protein aggregation. The structural principles underlying these interactions—hydrophobic packing, electrostatic complementarity, and hydrogen bonding networks—are conserved across diverse oligomeric states. This article examines three principal modes of peptide association: coiled-coils, leucine zippers, and amyloid assembly.

@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: ["disease", "pharmacology", "clinical-trials"]
 ---
 
-# Peptide Toxicology: Safety Assessment and Risk Management
-
 ## Introduction
 
 Peptide toxicology studies the adverse effects of peptide molecules and their metabolites. Unlike small molecules, peptides have unique toxicological considerations: proteolytic degradation, immunogenicity, and off-target receptor interactions. Understanding these mechanisms is essential for developing safe peptide therapeutics.

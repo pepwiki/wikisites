@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Atosiban
-
 ## Overview
 
 Oxytocin receptor antagonist for preterm labor with D-Tyr providing competitive myometrial relaxation.

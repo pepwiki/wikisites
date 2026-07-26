@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Reproductive Neuropeptides
-
 ## Overview
 
 Hypothalamic peptides controlling gonadotropin release and reproductive function.

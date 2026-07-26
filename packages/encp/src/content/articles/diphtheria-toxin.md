@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Diphtheria Toxin
-
 ## Overview
 
 Diphtheria Toxin is a bioactive peptide with well-characterized properties and therapeutic applications.

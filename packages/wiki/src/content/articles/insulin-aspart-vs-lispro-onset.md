@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: ["peptide-receptor-kinetics", "peptide-receptor-kinetics", "peptide-drug-modifications"]
 ---
 
-# Insulin Aspart vs Lispro: Onset Time
-
 ## Introduction
 
 Insulin aspart (NovoRapid, NovoLog) and insulin lispro (Humalog) are rapid-acting insulin analogs designed for mealtime (prandial) glucose control. Both were engineered to overcome the limitations of regular human insulin by accelerating absorption from the subcutaneous depot. While their pharmacokinetic profiles are remarkably similar, subtle differences in onset, peak, and duration have clinical implications for dosing strategies.

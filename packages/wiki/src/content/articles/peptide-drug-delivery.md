@@ -11,8 +11,6 @@ difficulty: "advanced"
 relatedArticles: ["peptide-synthesis-methods", "neuropeptide-signaling", "collagen-peptides"]
 ---
 
-# Peptide Drug Delivery
-
 ## The Peptide Delivery Challenge
 
 Peptide therapeutics face a fundamental paradox: they are exquisitely selective and potent, yet notoriously difficult to deliver. Their peptide bonds are rapidly hydrolyzed by gastrointestinal proteases, their large molecular size limits membrane permeability, and their polarity prevents passive absorption across biological barriers.

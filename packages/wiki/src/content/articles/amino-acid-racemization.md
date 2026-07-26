@@ -12,8 +12,6 @@ relatedArticles:
   ["amino-acid-classification-systems", "amino-acid-transporters", "peptide-bond-isomerization"]
 ---
 
-# Amino Acid Racemization
-
 Amino acid racemization is the interconversion between L and D stereoisomers of amino acids. This process has important implications in biology, food science, and archaeology.
 
 ## Stereochemistry of Amino Acids

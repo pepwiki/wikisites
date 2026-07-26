@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Human Alpha-Defensin 6
-
 ## Overview
 
 Paneth cell defensin with synergistic antimicrobial activity with HD-5.

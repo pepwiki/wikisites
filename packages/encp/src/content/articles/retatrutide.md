@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Retatrutide
-
 ## Overview
 
 Triple agonist targeting GLP-1, GIP, and glucagon receptors showing unprecedented weight loss in trials.

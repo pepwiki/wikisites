@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Vasopressin (AVP)
-
 ## Overview
 
 Vasopressin (AVP) is a bioactive peptide with well-characterized properties and therapeutic applications.

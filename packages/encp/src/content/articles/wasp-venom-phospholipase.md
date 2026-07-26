@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Wasp Venom Phospholipase
-
 ## Overview
 
 Phospholipase enzymes from wasp venom contributing to tissue damage.

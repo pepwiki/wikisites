@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# IL-1beta (Interleukin-1 Beta)
-
 ## Overview
 
 IL-1beta (Interleukin-1 Beta) is a bioactive peptide with well-characterized properties and therapeutic applications.

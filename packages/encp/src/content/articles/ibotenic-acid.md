@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Ibotenic Acid
-
 ## Overview
 
 Ibotenic Acid is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Amanita muscaria (Fly Agaric).

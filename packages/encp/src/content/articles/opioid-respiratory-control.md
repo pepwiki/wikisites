@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Respiratory Control
-
 ## Overview
 
 Role of endogenous opioids in respiratory rhythm generation.

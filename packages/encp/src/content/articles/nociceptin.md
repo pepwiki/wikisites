@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Nociceptin
-
 ## Overview
 
 Endogenous ORL1 receptor agonist structurally related to dynorphin.

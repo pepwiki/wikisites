@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# GLP-1 Receptor Signaling
-
 ## Overview
 
 Intracellular signaling cascades activated by GLP-1 receptor including cAMP, PKA, and CREB pathways.

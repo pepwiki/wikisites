@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Prothoracicotropic Hormone (PTTH)
-
 ## Overview
 
 Prothoracicotropic Hormone (PTTH) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bombyx mori (silkworm), Manduca sexta.

@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# AMP Resistance Mechanisms
-
 ## Overview
 
 Bacterial resistance strategies including protease secretion and membrane modification.

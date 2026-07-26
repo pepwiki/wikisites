@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Peptide Optogenetics
-
 ## Overview
 
 Optogenetic control of opioid peptide release from specific neuronal populations.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Polybia-MP1 (Polybia)
-
 ## Overview
 
 Polybia-MP1 (Polybia) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Polybia paulista (neotropical social wasp).

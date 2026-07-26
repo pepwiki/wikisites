@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: ["receptor-pharmacology", "peptide-oral-bioavailability", "gpcr-pharmacology"]
 ---
 
-# GHRP-6 vs Ipamorelin: Side Effect Profiles
-
 ## Introduction
 
 GHRP-6 (Growth Hormone Releasing Peptide-6) and ipamorelin are growth hormone secretagogues (GHS) that stimulate GH release through the ghrelin receptor (GHSR-1a). Despite sharing the same primary receptor, they exhibit substantially different side effect profiles due to differences in receptor selectivity, signaling bias, and off-target activity.

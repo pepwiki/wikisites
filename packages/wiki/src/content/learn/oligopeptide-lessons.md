@@ -128,7 +128,7 @@ lessons:
 
 import { Card, CardGrid, Badge, TabItem, Tabs } from '~/components';
 
-# Oligopeptide Education Platform
+## Oligopeptide Education Platform
 
 A comprehensive 20-lesson curriculum covering peptide science from amino acid fundamentals to cutting-edge therapeutic applications.
 

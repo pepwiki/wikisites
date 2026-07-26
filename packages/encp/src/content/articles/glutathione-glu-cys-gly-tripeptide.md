@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Glutathione (γ-Glu-Cys-Gly Tripeptide)
-
 ## Overview
 
 Glutathione (γ-Glu-Cys-Gly Tripeptide) is a bioactive peptide with well-characterized properties and therapeutic applications.

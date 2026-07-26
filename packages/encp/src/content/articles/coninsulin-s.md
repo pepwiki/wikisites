@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Coninsulin S
-
 ## Overview
 
 Insulin-like peptide from Conus striatus venom causing hypoglycemic shock in prey.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Parkinson's Disease
-
 ## Overview
 
 Parkinson's Disease is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Human Alpha-Defensin 2
-
 ## Overview
 
 Neutrophil defensin with broad-spectrum bactericidal activity in phagolysosomal killing.

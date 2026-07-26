@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Omega-Conotoxin GVIA
-
 ## Overview
 
 N-type calcium channel blocker from Conus geographus with high selectivity.

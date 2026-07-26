@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Mu-Conotoxin MrVIB
-
 ## Overview
 
 Sodium channel blocker from Conus magus with local anesthetic potential.

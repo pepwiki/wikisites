@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Identity Testing
-
 ## Overview
 
 Identity Testing is a bioactive peptide with well-characterized properties and therapeutic applications.

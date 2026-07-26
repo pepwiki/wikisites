@@ -5,8 +5,6 @@ title: "Peptide Modification Strategies"
 description: Reference guide to chemical and biological modification strategies for improving peptide half-life, potency, stability, and pharmacokinetics.
 ---
 
-# Peptide Modification Strategies
-
 Systematic overview of modification strategies employed to optimize the pharmacokinetic and pharmacodynamic profiles of therapeutic peptides.
 
 ## Modification Strategies Summary

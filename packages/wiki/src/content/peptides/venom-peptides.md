@@ -5,8 +5,6 @@ title: Venom Peptides Database
 description: Comprehensive database of venom peptides from snakes, cone snails, scorpions, spiders, bees, wasps, and marine organisms
 ---
 
-# Venom Peptides Database
-
 A structured database of bioactive venom peptides from venomous organisms, organized by source class. These peptides represent some of the most potent and therapeutically promising molecules in toxinology.
 
 ---

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Alpha-Conotoxin MI
-
 ## Overview
 
 Muscle-type nicotinic receptor antagonist from Conus magus with therapeutic potential.

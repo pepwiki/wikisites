@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GRANITE
-
 ## Overview
 
 GRANITE is a bioactive peptide with well-characterized properties and therapeutic applications.

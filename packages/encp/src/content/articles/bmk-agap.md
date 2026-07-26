@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# BmK AGAP
-
 ## Overview
 
 BmK AGAP is a bioactive peptide with well-characterized properties and therapeutic applications.

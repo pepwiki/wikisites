@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Oral Antimicrobial Peptides
-
 ## Overview
 
 Salivary antimicrobial peptides including histatins, defensins, and LL-37.

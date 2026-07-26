@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Synthetic Defensin Mimetics
-
 ## Overview
 
 Rationally designed synthetic peptides mimicking defensin structure and function.

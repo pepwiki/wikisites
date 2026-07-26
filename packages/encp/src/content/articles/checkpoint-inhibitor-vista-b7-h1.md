@@ -1,6 +1,6 @@
 ---
 title: "Checkpoint Inhibitor VISTA-B7-H1"
-description: "Comprehensive reference for checkpoint inhibitor VISTA-B7-H1, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for checkpoint inhibitor VISTA-B7-H1, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

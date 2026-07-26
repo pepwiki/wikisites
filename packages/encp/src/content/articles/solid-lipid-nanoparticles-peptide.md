@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Solid Lipid Nanoparticles Peptide
-
 ## Overview
 
 Solid lipid nanoparticles for controlled peptide release and protection.

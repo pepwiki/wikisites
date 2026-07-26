@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Human Alpha-Defensin 1
-
 ## Overview
 
 Neutrophil granule defensin with disulfide-stabilized structure for bactericidal activity.

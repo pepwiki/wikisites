@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Morphine-6-Glucuronide
-
 ## Overview
 
 Active metabolite of morphine with potent mu-opioid agonist activity.

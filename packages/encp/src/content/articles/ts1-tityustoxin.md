@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Ts1 (Tityustoxin)
-
 ## Overview
 
 Ts1 (Tityustoxin) is a bioactive peptide with well-characterized properties and therapeutic applications.

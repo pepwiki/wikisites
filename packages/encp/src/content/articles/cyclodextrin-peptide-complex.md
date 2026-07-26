@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cyclodextrin Peptide Complex
-
 ## Overview
 
 Cyclodextrin inclusion complexes improving peptide stability and solubility.

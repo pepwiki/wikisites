@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Peptide Stability in Blood
-
 The therapeutic application of peptides is fundamentally constrained by their stability in blood plasma. Native peptide sequences are susceptible to enzymatic degradation, renal filtration, and hepatic uptake, resulting in half-lives that frequently fall below one hour. Understanding the mechanisms of peptide instability is essential for rational drug design.
 
 ## Protease-Mediated Degradation

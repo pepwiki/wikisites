@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Orexin A (Hypocretin-1)
-
 ## Overview
 
 Orexin A (Hypocretin-1) is a bioactive peptide with well-characterized properties and therapeutic applications.

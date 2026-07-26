@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Carfentanil Veterinary
-
 ## Overview
 
 Most potent commercially available synthetic opioid for large animal use.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Regulatory Harmonization
-
 ## Overview
 
 Regulatory Harmonization is a bioactive peptide with well-characterized properties and therapeutic applications.

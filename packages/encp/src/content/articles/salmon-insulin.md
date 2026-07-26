@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Salmon Insulin
-
 ## Overview
 
 Salmon Insulin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Salmon (Oncorhynchus spp.).

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Shrimp Antimicrobial Peptides
-
 ## Overview
 
 AMPs in shrimp hemocytes defending against aquaculture pathogens.

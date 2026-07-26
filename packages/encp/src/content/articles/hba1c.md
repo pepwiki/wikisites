@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# HbA1c
-
 ## Overview
 
 HbA1c is a bioactive peptide with well-characterized properties and therapeutic applications.

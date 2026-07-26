@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Ranacyclin
-
 ## Overview
 
 Cyclic AMP from Rana species with disulfide-stabilized structure.

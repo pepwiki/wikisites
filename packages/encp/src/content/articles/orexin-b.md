@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Orexin B
-
 ## Overview
 
 Hypothalamic neuropeptide with wake-promoting activity acting through OX2 receptor.

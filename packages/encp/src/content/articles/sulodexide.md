@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Sulodexide
-
 ## Overview
 
 Glycosaminoglycan mixture of heparan sulfate and dermatan sulfate for diabetic nephropathy.

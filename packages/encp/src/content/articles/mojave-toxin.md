@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Mojave Toxin
-
 ## Overview
 
 Mojave Toxin is a bioactive peptide with well-characterized properties and therapeutic applications.

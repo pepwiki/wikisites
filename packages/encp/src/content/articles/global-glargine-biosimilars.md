@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Global Glargine Biosimilars
-
 ## Overview
 
 Review of global biosimilar insulin glargine landscape including Semglee, Abasaglar, and emerging biosimilars.

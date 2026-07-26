@@ -1,6 +1,6 @@
 ---
 title: "Calcitonin fragment-8-15: Endogenous Peptide Hormone Refe..."
-description: "Comprehensive reference for calcitonin fragment-8-15 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for calcitonin fragment-8-15 variant, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

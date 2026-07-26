@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: ["receptors", "drug-delivery", "clinical-trials"]
 ---
 
-# Therapeutic Peptides
-
 ## Introduction
 
 Peptide therapeutics represent a rapidly growing class of drugs. They offer high specificity and potency with fewer side effects compared to small molecules. As of 2026, over 80 peptide drugs are FDA-approved, with many more in development.

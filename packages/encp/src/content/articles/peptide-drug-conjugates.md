@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Peptide Drug Conjugates
-
 Peptide drug conjugates (PDCs) represent a rapidly evolving class of targeted therapeutics that combine the selectivity of peptide ligands with the cytotoxic potency of pharmaceutical payloads. Structurally analogous to antibody-drug conjugates (ADCs), PDCs substitute the large antibody component with a compact peptide targeting moiety, offering advantages in tissue penetration, manufacturing scalability, and renal clearance kinetics.
 
 ## Conjugation Architecture

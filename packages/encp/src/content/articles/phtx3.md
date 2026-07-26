@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# PhTx3
-
 ## Overview
 
 PhTx3 is a bioactive peptide with well-characterized properties and therapeutic applications.

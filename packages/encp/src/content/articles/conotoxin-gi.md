@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# α-Conotoxin GI
-
 ## Overview
 
 α-Conotoxin GI is a bioactive peptide with well-characterized properties and therapeutic applications.

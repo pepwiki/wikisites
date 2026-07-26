@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Rectal Peptide Delivery
-
 ## Overview
 
 Rectal delivery systems for peptide drugs avoiding first-pass metabolism.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# PEGylated Liposome Peptide
-
 ## Overview
 
 PEG-coated liposomes for extended circulation time and peptide drug targeting.

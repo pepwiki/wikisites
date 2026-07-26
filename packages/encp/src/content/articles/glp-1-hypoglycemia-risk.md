@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# GLP-1 Hypoglycemia Risk
-
 ## Overview
 
 Glucose-dependent mechanism providing low intrinsic hypoglycemia risk versus insulin.

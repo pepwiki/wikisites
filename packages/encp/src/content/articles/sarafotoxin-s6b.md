@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sarafotoxin S6b
-
 ## Overview
 
 Sarafotoxin S6b is a bioactive peptide with well-characterized properties and therapeutic applications.

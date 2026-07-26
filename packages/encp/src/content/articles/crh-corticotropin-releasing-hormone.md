@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# CRH (Corticotropin-releasing hormone)
-
 ## Overview
 
 CRH (Corticotropin-releasing hormone) is a bioactive peptide with well-characterized properties and therapeutic applications.

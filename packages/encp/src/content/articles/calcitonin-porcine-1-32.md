@@ -1,6 +1,6 @@
 ---
 title: "Calcitonin porcine-1-32: Endogenous Peptide Hormone Refer..."
-description: "Comprehensive reference for calcitonin porcine-1-32 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for calcitonin porcine-1-32 variant, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

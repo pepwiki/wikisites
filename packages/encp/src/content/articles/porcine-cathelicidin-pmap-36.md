@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Porcine Cathelicidin PMAP-36
-
 ## Overview
 
 Cathelicidin from porcine neutrophils with potent gram-negative bactericidal activity.

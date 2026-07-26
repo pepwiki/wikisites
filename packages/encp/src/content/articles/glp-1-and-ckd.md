@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GLP-1 and CKD
-
 ## Overview
 
 Renal outcomes data including albuminuria reduction and eGFR preservation in chronic kidney disease.

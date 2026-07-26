@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# α-Latrotoxin
-
 ## Overview
 
 α-Latrotoxin is a bioactive peptide with well-characterized properties and therapeutic applications.

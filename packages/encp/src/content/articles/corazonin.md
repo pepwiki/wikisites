@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Corazonin
-
 ## Overview
 
 Corazonin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Periplaneta americana (cockroach).

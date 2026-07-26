@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Maximin 3
-
 ## Overview
 
 Maximin 3 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bombina maxima (Giant fire-bellied toad).

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Fragment Condensation
-
 ## Overview
 
 Fragment Condensation is a bioactive peptide with well-characterized properties and therapeutic applications.

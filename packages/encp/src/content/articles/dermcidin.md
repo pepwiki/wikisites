@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Dermcidin
-
 ## Overview
 
 Sweat gland-derived antimicrobial peptide providing constitutive skin surface defense.

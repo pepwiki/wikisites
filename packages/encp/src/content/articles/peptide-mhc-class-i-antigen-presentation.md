@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide → MHC Class I (Antigen Presentation)
-
 ## Overview
 
 Peptide → MHC Class I (Antigen Presentation) is a bioactive peptide with well-characterized properties and therapeutic applications.

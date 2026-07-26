@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Ponericin (Pachycondyla)
-
 ## Overview
 
 Ponericin (Pachycondyla) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Pachycondyla goeldii (ponerine ant).

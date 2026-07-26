@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Feline Serum Peptide
-
 ## Overview
 
 Feline Serum Peptide is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Felis catus (Cat).

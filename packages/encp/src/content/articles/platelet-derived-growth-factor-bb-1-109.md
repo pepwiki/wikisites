@@ -1,6 +1,6 @@
 ---
 title: "Platelet Derived Growth Factor BB-1-109"
-description: "Comprehensive reference for platelet derived growth factor BB-1-109, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for platelet derived growth factor BB-1-109, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

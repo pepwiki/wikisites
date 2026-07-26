@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Nigrocin
-
 ## Overview
 
 AMP from frog skin with multiple tryptophan residues for membrane insertion.

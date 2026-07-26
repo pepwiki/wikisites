@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# NPY Central Effects
-
 ## Overview
 
 Central NPY effects on feeding, energy balance, and stress response.

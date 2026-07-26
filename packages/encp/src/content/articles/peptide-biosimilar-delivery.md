@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide Biosimilar Delivery
-
 ## Overview
 
 Delivery considerations for biosimilar peptide drug development.

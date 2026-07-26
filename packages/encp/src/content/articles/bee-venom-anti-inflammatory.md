@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Bee Venom Anti-Inflammatory
-
 ## Overview
 
 Therapeutic anti-inflammatory applications of bee venom components.

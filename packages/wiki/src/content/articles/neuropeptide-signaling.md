@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: ["ion-channels-peptides", "peptide-drug-delivery", "hydrogen-bonding"]
 ---
 
-# Neuropeptide Signaling
-
 ## What Are Neuropeptides?
 
 Neuropeptides are short amino acid sequences (3 to 40 residues) synthesized in neurons and released to modulate neural activity. Unlike classical neurotransmitters (small molecules like acetylcholine or glutamate), neuropeptides act as neuromodulators, fine-tuning the strength and duration of synaptic signals.

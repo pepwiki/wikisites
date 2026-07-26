@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cone Snail Drug Discovery
-
 ## Overview
 
 Cone snail venom as source of novel therapeutics including ziconotide.

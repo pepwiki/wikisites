@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Azaspiracid
-
 ## Overview
 
 Azaspiracid is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Azadinium spinosum.

@@ -18,8 +18,6 @@ difficulty: "intermediate"
 relatedArticles: ["amino-acid-ptm", "peptide-bond-geometry-analysis"]
 ---
 
-# Amino Acid Analytical Methods
-
 Accurate determination of amino acid composition is fundamental to biochemistry, food science, and clinical diagnostics. Multiple analytical techniques offer complementary information, and the choice of method depends on the specific question being asked.
 
 ## High-Performance Liquid Chromatography (HPLC)

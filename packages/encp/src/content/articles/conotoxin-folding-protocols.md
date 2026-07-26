@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Conotoxin Folding Protocols
-
 ## Overview
 
 Oxidative folding strategies for conotoxin disulfide bond formation.

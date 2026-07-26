@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Salmon Prolactin
-
 ## Overview
 
 Salmon Prolactin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Salmon (Oncorhynchus spp.).

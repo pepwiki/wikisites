@@ -5,8 +5,6 @@ title: "Peptide Formulation — Drug Product Development Guide"
 description: Guide to peptide formulation development — excipient selection, dosage forms, stability considerations, and delivery system design.
 ---
 
-# Peptide Formulation
-
 Formulation development for peptide therapeutics addresses stability, delivery, and patient compliance challenges. This guide covers excipient selection, dosage forms, and formulation strategies.
 
 ## Formulation Challenges

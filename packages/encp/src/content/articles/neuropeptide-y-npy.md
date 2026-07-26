@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Neuropeptide Y (NPY)
-
 ## Overview
 
 Neuropeptide Y (NPY) is a bioactive peptide with well-characterized properties and therapeutic applications.

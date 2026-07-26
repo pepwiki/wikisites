@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: ["peptide-resonance-structures", "peptide-tautomerism", "peptide-folding-pathways"]
 ---
 
-# Peptide Bond Electronegativity
-
 The peptide bond connects amino acids through an amide linkage (C=O bonded to N-H). Within this bond, electronegativity differences between oxygen (3.44) and nitrogen (3.04) create a non-uniform charge distribution that profoundly affects peptide chemistry.
 
 ## Partial Charge Distribution

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Skin AMP Cocktail
-
 ## Overview
 
 Combination of dermcidin, defensins, and cathelicidin on skin surface.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Thyrotropin-Releasing Hormone
-
 ## Overview
 
 Tripeptide hypothalamic hormone stimulating TSH and prolactin release.

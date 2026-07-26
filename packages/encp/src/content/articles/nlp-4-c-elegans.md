@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# NLP-4 (C. elegans)
-
 ## Overview
 
 NLP-4 (C. elegans) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans.

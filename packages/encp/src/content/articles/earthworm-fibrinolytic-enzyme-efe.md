@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Earthworm Fibrinolytic Enzyme (EFE)
-
 ## Overview
 
 Earthworm Fibrinolytic Enzyme (EFE) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Lumbricus rubellus and Eisenia fetida.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Spexin
-
 ## Overview
 
 Novel neuropeptide with anorexigenic and GI motility effects.

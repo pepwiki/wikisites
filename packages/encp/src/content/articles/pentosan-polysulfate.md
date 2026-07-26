@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Pentosan Polysulfate
-
 ## Overview
 
 Semi-synthetic glycosaminoglycan for interstitial cystitis bladder pain syndrome.

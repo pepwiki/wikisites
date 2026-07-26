@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Paneth Cell Secretion
-
 ## Overview
 
 Regulated exocytosis of defensin granules in response to microbial signals.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Suruvatide
-
 ## Overview
 
 Suruvatide is a bioactive peptide with well-characterized properties and therapeutic applications.

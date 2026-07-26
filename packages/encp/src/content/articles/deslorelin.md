@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Deslorelin
-
 ## Overview
 
 Ultra-potent GnRH agonist with D-Trp6 modification primarily for veterinary use.

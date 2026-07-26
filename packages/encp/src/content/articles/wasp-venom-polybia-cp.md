@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Wasp Venom Polybia-CP
-
 ## Overview
 
 Antimicrobial peptide from Polybia wasp venom with broad-spectrum activity.

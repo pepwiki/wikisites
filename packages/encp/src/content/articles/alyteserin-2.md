@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Alyteserin-2
-
 ## Overview
 
 Alyteserin-2 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Alytes obstetricans.

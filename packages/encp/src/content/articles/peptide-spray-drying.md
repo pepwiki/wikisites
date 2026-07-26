@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide Spray-Drying
-
 ## Overview
 
 Spray-drying technology for producing peptide microparticles for inhalation.

@@ -22,8 +22,6 @@ citation:
   year: 2024
 ---
 
-# Peptide-Modified Surfaces
-
 Peptide surface modification transforms bioinert materials into bioactive interfaces that direct cellular behavior through specific receptor-ligand interactions. Compared to whole-protein functionalization (fibronectin, laminin), peptide motifs offer advantages including defined chemistry, reproducible synthesis, resistance to denaturation, and tunable surface density.
 
 ## Cell Adhesion Peptides

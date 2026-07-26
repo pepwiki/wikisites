@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Emerging Therapeutic Strategies
-
 ## Overview
 
 Emerging Therapeutic Strategies is a bioactive peptide with well-characterized properties and therapeutic applications.

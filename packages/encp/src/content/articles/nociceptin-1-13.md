@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Nociceptin 1-13
-
 ## Overview
 
 Minimal active fragment of nociceptin for ORL1 receptor activation.

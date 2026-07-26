@@ -1,6 +1,6 @@
 ---
 title: "Growth Differentiation Factor GDF-6"
-description: "Comprehensive reference for growth differentiation factor GDF-6, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for growth differentiation factor GDF-6, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

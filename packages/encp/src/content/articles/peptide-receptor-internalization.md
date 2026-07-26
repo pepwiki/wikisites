@@ -16,8 +16,6 @@ citation:
   year: 2024
 ---
 
-# Peptide-Receptor Internalization
-
 Peptide-receptor internalization represents a critical determinant of therapeutic efficacy, governing both signal transduction duration and intracellular drug delivery. Understanding the mechanisms, kinetics, and sorting pathways of peptide-receptor complexes enables rational design of therapeutics with predictable intracellular fates.
 
 ## Clathrin-Mediated Endocytosis

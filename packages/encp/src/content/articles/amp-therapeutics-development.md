@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# AMP Therapeutics Development
-
 ## Overview
 
 Clinical development of defensin-based therapeutics including topical formulations.

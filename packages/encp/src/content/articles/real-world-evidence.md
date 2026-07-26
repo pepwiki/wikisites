@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Real-World Evidence
-
 ## Overview
 
 Real-World Evidence is a bioactive peptide with well-characterized properties and therapeutic applications.

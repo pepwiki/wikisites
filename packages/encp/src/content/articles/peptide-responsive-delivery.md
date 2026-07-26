@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Peptide Responsive Delivery
-
 ## Overview
 
 Stimuli-responsive delivery systems for on-demand peptide release.

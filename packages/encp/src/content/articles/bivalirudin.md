@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Bivalirudin
-
 ## Overview
 
 Direct thrombin inhibitor bivalent hirudin analog for PCI and heparin-induced thrombocytopenia.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Feline Cathelicidin
-
 ## Overview
 
 Feline Cathelicidin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Felis catus (Cat).

@@ -1,6 +1,6 @@
 ---
 title: "Transforming Growth Factor beta1-active-1-112"
-description: "Comprehensive reference for transforming growth factor beta1-active-1-112, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for transforming growth factor beta1-active-1-112, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

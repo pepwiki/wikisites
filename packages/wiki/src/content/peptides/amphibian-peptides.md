@@ -8,8 +8,6 @@ tags: [amphibian, peptides, antimicrobial, opioid, neuropeptides, bradykinin, ca
 lastUpdated: 2026-06-12
 ---
 
-# Amphibian Peptides Database
-
 Amphibians, particularly frogs and toads, produce an extraordinary repertoire of bioactive peptides in their skin secretions. These peptides serve as chemical defense mechanisms against pathogens and predators, and represent a rich source of therapeutic leads for antimicrobial, analgesic, anti-inflammatory, and antiviral applications.
 
 ## Amphibian Antimicrobial Peptides

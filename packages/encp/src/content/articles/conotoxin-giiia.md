@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# μ-Conotoxin GIIIA
-
 ## Overview
 
 μ-Conotoxin GIIIA is a bioactive peptide with well-characterized properties and therapeutic applications.

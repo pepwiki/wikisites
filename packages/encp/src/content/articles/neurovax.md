@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# NeuroVax
-
 ## Overview
 
 NeuroVax is a bioactive peptide with well-characterized properties and therapeutic applications.

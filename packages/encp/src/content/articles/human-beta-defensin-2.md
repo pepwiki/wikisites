@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Human Beta-Defensin 2
-
 ## Overview
 
 Inducible epithelial defensin upregulated by TLR activation during inflammation and infection.

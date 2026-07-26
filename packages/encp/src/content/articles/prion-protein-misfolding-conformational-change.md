@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Prion Protein Misfolding (Conformational Change)
-
 ## Overview
 
 Prion Protein Misfolding (Conformational Change) is a bioactive peptide with well-characterized properties and therapeutic applications.

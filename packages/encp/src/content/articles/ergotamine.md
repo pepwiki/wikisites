@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Ergotamine
-
 ## Overview
 
 Ergotamine is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Claviceps purpurea.

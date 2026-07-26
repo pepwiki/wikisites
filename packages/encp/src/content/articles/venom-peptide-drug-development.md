@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Venom Peptide Drug Development
-
 ## Overview
 
 Clinical development of venom-derived peptides as therapeutic agents.

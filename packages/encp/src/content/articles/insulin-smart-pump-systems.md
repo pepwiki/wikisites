@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Insulin Smart Pump Systems
-
 ## Overview
 
 Closed-loop pump systems with continuous glucose monitoring for automated basal insulin delivery.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Desirudin
-
 ## Overview
 
 Recombinant hirudin variant for DVT prophylaxis after hip replacement surgery.

@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Calcitonin Gene-Related Peptide in Migraine
-
 Calcitonin gene-related peptide (CGRP) is a 37-amino-acid neuropeptide that functions as a potent vasodilator and pain mediator within the trigeminovascular system. Substantial evidence implicates CGRP as a central driver of migraine pathophysiology, making it a validated therapeutic target.
 
 ## Role in Migraine Pathophysiology

@@ -5,8 +5,6 @@ title: "Peptide Storage Complete — All Stability Data"
 description: "Comprehensive storage conditions for all peptides — temperature, light, humidity, reconstitution stability, and shelf life data."
 ---
 
-# Complete Peptide Storage Reference
-
 Comprehensive storage conditions for all FDA-approved and major investigational peptides.
 
 ## Storage Temperature Classification

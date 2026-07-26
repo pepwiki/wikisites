@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Turtle Cathelicidin
-
 ## Overview
 
 Turtle Cathelicidin is a bioactive peptide with well-characterized properties and therapeutic applications.

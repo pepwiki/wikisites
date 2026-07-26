@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Environmental Remediation
-
 ## Overview
 
 Environmental Remediation is a bioactive peptide with well-characterized properties and therapeutic applications.

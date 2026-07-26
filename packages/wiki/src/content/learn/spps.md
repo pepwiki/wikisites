@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: ["peptide-bonds", "purification", "drug-delivery"]
 ---
 
-# Solid-Phase Peptide Synthesis
-
 ## Introduction
 
 Solid-phase peptide synthesis (SPPS) is the standard method for laboratory-scale peptide synthesis. Developed by Bruce Merrifield in the 1960s (Nobel Prize, 1984), SPPS allows efficient assembly of peptide chains on an insoluble polymer support.

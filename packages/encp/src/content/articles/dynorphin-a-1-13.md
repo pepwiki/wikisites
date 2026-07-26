@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Dynorphin A 1-13
-
 ## Overview
 
 Truncated dynorphin A with retained kappa-opioid selectivity.

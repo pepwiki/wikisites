@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# AMP Immunomodulation
-
 ## Overview
 
 Immunomodulatory functions including chemokine activity and cytokine induction.

@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Tramadol Weak Opioid
-
 ## Overview
 
 Weak opioid agonist prodrug with serotonin-norepinephrine reuptake inhibition.

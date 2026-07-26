@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Endocannabinoid Peptides
-
 ## Overview
 
 Lipid-peptide mediators of retrograde synaptic signaling in CNS.

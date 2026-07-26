@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Neuropeptide S (NPS)
-
 ## Overview
 
 Neuropeptide S (NPS) is a bioactive peptide with well-characterized properties and therapeutic applications.

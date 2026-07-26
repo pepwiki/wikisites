@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Duck Defensin
-
 ## Overview
 
 Duck Defensin is a bioactive peptide with well-characterized properties and therapeutic applications.

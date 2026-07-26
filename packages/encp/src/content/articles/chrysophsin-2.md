@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chrysophsin 2
-
 ## Overview
 
 Chrysophsin 2 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Red sea bream (Chrysophrys major).

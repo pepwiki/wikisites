@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Rimegepant
-
 ## Overview
 
 Oral CGRP receptor antagonist for both acute migraine treatment and prevention.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# LPPS (Liquid Phase Peptide Synthesis)
-
 ## Overview
 
 LPPS (Liquid Phase Peptide Synthesis) is a bioactive peptide with well-characterized properties and therapeutic applications.

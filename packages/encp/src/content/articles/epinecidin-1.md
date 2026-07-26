@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Epinecidin-1
-
 ## Overview
 
 Epinecidin-1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Grouper (Epinephelus coioides).

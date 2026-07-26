@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sacubitril-Valsartan
-
 ## Overview
 
 Neprilysin inhibitor combined with ARB for heart failure reducing natriuretic peptide degradation.

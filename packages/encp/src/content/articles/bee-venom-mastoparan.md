@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Bee Venom Mastoparan
-
 ## Overview
 
 Mast cell degranulating peptide from bee venom causing histamine release.

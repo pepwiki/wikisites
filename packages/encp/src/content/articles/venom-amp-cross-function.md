@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Venom AMP Cross-Function
-
 ## Overview
 
 Antimicrobial properties of animal venom peptides beyond toxic functions.

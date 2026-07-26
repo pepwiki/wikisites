@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Defensin in IBD
-
 ## Overview
 
 Altered Paneth cell defensin expression in Crohn disease affecting intestinal barrier.

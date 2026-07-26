@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Oyster Defensin Cg-Defh1
-
 ## Overview
 
 Hemocyte defensin from Pacific oyster with antibacterial activity.

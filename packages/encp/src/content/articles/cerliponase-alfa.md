@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cerliponase Alfa
-
 ## Overview
 
 Cerliponase Alfa is a bioactive peptide with well-characterized properties and therapeutic applications.

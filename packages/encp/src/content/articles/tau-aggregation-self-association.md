@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Tau Aggregation (Self-association)
-
 ## Overview
 
 Tau Aggregation (Self-association) is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -17,8 +17,6 @@ difficulty: "intermediate"
 relatedArticles: ["peptide-synthesis-methods", "mass-spectrometry-peptides", "collagen-peptides"]
 ---
 
-# HPLC Purification
-
 ## Why HPLC for Peptides?
 
 High-Performance Liquid Chromatography (HPLC) is the gold standard for peptide purification. After synthesis or extraction, peptides contain truncated sequences, protecting group remnants, and other impurities. HPLC separates these based on physicochemical differences, achieving purities greater than 95 percent.

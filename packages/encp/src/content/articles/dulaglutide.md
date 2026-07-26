@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Dulaglutide
-
 ## Overview
 
 Once-weekly GLP-1 agonist fused to modified Fc domain for extended half-life and DPP-4 resistance.

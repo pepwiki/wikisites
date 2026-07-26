@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sea Anemone Toxin Cardiac
-
 ## Overview
 
 Cardiac effects and therapeutic potential of sea anemone toxins.

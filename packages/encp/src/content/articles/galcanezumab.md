@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Galcanezumab
-
 ## Overview
 
 Anti-CGRP monoclonal antibody for episodic and chronic migraine prevention.

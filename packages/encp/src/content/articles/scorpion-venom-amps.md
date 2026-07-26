@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Scorpion Venom AMPs
-
 ## Overview
 
 Antimicrobial peptides from scorpion venom with broad-spectrum bactericidal activity.

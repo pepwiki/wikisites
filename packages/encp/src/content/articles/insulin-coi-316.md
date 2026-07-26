@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Insulin COI-316
-
 ## Overview
 
 Ultra-long-acting insulin analog with high albumin affinity and slow receptor dissociation for weekly dosing.

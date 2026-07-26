@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Nocistatin
-
 ## Overview
 
 Prodynorphin-derived peptide modulating nociceptin effects.

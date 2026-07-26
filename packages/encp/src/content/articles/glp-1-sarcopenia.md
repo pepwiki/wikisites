@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GLP-1 Sarcopenia
-
 ## Overview
 
 Lean mass loss concerns during weight reduction and strategies for preserving muscle mass.

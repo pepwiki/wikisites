@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Buprenorphine
-
 ## Overview
 
 Buprenorphine is a bioactive peptide with well-characterized properties and therapeutic applications.

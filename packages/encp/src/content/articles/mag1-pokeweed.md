@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# MAG1-Pokeweed
-
 ## Overview
 
 MAG1-Pokeweed is a bioactive peptide with well-characterized properties and therapeutic applications.

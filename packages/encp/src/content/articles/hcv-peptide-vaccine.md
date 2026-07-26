@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# HCV Peptide Vaccine
-
 ## Overview
 
 HCV Peptide Vaccine is a bioactive peptide with well-characterized properties and therapeutic applications.

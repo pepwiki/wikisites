@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Gastrin (G-17)
-
 ## Overview
 
 Gastrin (G-17) is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Oral Semaglutide
-
 ## Overview
 
 Oral semaglutide formulation using SNAC absorption enhancer for gastrointestinal peptide protection.

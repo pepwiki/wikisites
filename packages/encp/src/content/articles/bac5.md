@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Bac5
-
 ## Overview
 
 Bac5 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bos taurus (Cattle).

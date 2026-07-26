@@ -1,6 +1,6 @@
 ---
 title: "Antimicrobial Peptide Library AMP-library-35"
-description: "Comprehensive reference for antimicrobial peptide library AMP-library-35, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for antimicrobial peptide library AMP-library-35, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

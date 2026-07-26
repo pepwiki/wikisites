@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Huwentoxin-I
-
 ## Overview
 
 Huwentoxin-I is a bioactive peptide with well-characterized properties and therapeutic applications.

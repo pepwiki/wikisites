@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Collagen Triple Helix (Gly-X-Y Repeats)
-
 ## Overview
 
 Collagen Triple Helix (Gly-X-Y Repeats) is a bioactive peptide with well-characterized properties and therapeutic applications.

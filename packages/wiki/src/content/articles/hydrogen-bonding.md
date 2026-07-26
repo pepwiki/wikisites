@@ -17,8 +17,6 @@ difficulty: "beginner"
 relatedArticles: ["hydrophobic-interactions", "collagen-peptides", "neuropeptide-signaling"]
 ---
 
-# Hydrogen Bonding
-
 ## What Is a Hydrogen Bond?
 
 A hydrogen bond forms when a hydrogen atom, covalently bonded to an electronegative atom (donor), is attracted to another electronegative atom (acceptor) with a lone pair of electrons. It is a weak, noncovalent interaction, typically ranging from 2 to 10 kcal/mol in strength.

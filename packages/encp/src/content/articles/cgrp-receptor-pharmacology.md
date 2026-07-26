@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# CGRP Receptor Pharmacology
-
 ## Overview
 
 Molecular pharmacology of CGRP receptor including RAMP1 interaction and signal transduction.

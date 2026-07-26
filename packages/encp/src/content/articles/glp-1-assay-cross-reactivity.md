@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# GLP-1 Assay Cross-Reactivity
-
 ## Overview
 
 Analytical considerations for immunoassay cross-reactivity with endogenous GLP-1 and metabolites.

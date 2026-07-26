@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GST-tag → Glutathione (Affinity Purification)
-
 ## Overview
 
 GST-tag → Glutathione (Affinity Purification) is a bioactive peptide with well-characterized properties and therapeutic applications.

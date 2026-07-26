@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# NT-proBNP (N-Terminal Pro-BNP)
-
 ## Overview
 
 NT-proBNP (N-Terminal Pro-BNP) is a bioactive peptide with well-characterized properties and therapeutic applications.

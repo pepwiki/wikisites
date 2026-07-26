@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Peptide-Modified Liposomes
-
 Liposomal drug delivery systems have evolved significantly through the incorporation of functional peptides that enhance cellular uptake, tissue targeting, and intracellular trafficking. Peptide-modified liposomes combine the biocompatibility and encapsulation capacity of phospholipid bilayers with the molecular recognition properties of short peptide sequences, enabling precise delivery of therapeutic payloads to specific cell populations.
 
 ## Cell-Penetrating Peptides

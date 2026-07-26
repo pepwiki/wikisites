@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Tityustoxin Kv1.3
-
 ## Overview
 
 Scorpion toxin selectively blocking Kv1.3 potassium channel for immunomodulation.

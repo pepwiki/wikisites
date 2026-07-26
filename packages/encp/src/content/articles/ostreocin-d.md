@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Ostreocin D
-
 ## Overview
 
 Ostreocin D is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Ostreopsis ovata.

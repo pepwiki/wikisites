@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cecropin AD (Hybrid)
-
 ## Overview
 
 Cecropin AD (Hybrid) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Synthetic hybrid (Cecropin A/D fusion).

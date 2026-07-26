@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# By Severity
-
 ## Overview
 
 By Severity is a bioactive peptide with well-characterized properties and therapeutic applications.

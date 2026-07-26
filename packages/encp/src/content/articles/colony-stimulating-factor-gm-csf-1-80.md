@@ -1,6 +1,6 @@
 ---
 title: "Colony Stimulating Factor GM-CSF-1-80"
-description: "Comprehensive reference for colony stimulating factor GM-CSF-1-80, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for colony stimulating factor GM-CSF-1-80, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

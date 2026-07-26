@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# PEGylated Insulin Lispro
-
 ## Overview
 
 PEGylated rapid-acting insulin analog with extended duration providing both prandial and basal coverage.

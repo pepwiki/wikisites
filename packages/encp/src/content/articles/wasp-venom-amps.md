@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Wasp Venom AMPs
-
 ## Overview
 
 AMPs from wasp venom providing innate defense and prey immobilization.

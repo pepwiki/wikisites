@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# SMAP-29
-
 ## Overview
 
 SMAP-29 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Ovis aries (Sheep).

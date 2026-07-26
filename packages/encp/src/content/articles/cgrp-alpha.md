@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# CGRP Alpha
-
 ## Overview
 
 Calcitonin gene-related peptide mediating vasodilation and pain transmission in trigeminal system.

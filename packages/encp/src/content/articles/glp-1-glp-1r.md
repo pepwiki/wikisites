@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GLP-1 → GLP-1R
-
 ## Overview
 
 GLP-1 → GLP-1R is a bioactive peptide with well-characterized properties and therapeutic applications.

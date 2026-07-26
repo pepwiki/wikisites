@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Omega-Conotoxin CVID
-
 ## Overview
 
 N-type calcium channel blocker from Conus catus with clinical development for pain.

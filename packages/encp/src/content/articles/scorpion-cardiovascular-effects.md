@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Scorpion Cardiovascular Effects
-
 ## Overview
 
 Cardiovascular effects of scorpion venom including arrhythmias and hypertension.

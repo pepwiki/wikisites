@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Transdermal Patch Peptide
-
 ## Overview
 
 Transdermal delivery systems for peptide drugs through intact skin.

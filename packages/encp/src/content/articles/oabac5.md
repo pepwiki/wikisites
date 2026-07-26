@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# OaBac5
-
 ## Overview
 
 OaBac5 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Ovis aries (Sheep).

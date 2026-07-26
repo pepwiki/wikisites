@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide Microsphere Depot
-
 ## Overview
 
 Biodegradable microspheres forming sustained-release depots for peptide drugs.

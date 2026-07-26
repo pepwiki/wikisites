@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Bac7
-
 ## Overview
 
 Bac7 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bos taurus (Cattle).

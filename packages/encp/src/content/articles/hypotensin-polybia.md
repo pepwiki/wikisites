@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Hypotensin (Polybia)
-
 ## Overview
 
 Hypotensin (Polybia) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Polybia paulista (neotropical social wasp).

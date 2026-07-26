@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# TNF-alpha (Tumor Necrosis Factor Alpha)
-
 ## Overview
 
 TNF-alpha (Tumor Necrosis Factor Alpha) is a bioactive peptide with well-characterized properties and therapeutic applications.

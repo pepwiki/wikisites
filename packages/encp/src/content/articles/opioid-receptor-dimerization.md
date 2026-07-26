@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Receptor Dimerization
-
 ## Overview
 
 Mu-delta and mu-kappa receptor heterodimer formation affecting selectivity.

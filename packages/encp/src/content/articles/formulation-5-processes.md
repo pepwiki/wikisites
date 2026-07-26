@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Formulation (5 processes)
-
 ## Overview
 
 Formulation (5 processes) is a bioactive peptide with well-characterized properties and therapeutic applications.

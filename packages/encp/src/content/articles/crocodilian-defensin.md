@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Crocodilian Defensin
-
 ## Overview
 
 Crocodilian Defensin is a bioactive peptide with well-characterized properties and therapeutic applications.

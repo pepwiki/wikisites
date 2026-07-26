@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Fremanezumab
-
 ## Overview
 
 Anti-CGRP monoclonal antibody for migraine prevention with monthly or quarterly dosing.

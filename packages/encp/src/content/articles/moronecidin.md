@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Moronecidin
-
 ## Overview
 
 Moronecidin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hybrid striped bass (Morone saxatilis x M. chrysops).

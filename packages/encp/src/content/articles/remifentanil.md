@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Remifentanil
-
 ## Overview
 
 Remifentanil is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# κ-Conotoxin PVIIA
-
 ## Overview
 
 κ-Conotoxin PVIIA is a bioactive peptide with well-characterized properties and therapeutic applications.

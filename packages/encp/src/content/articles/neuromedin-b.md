@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Neuromedin B
-
 ## Overview
 
 Bombesin-related neuropeptide with roles in satiety and stress response.

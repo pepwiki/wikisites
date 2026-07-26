@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# CgA (Conus geographus)
-
 ## Overview
 
 CgA (Conus geographus) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Conus geographus.

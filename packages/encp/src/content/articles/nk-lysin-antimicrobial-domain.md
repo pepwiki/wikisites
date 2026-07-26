@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# NK-Lysin Antimicrobial Domain
-
 ## Overview
 
 Antimicrobial domain of porcine NK-lysin with membrane-disrupting activity.

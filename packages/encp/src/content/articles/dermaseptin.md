@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Dermaseptin
-
 ## Overview
 
 Amphipathic alpha-helical AMP from frog skin active against protozoa and bacteria.

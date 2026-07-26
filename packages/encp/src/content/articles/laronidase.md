@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Laronidase
-
 ## Overview
 
 Laronidase is a bioactive peptide with well-characterized properties and therapeutic applications.

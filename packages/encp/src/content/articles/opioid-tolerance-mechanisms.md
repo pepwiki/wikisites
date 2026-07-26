@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Tolerance Mechanisms
-
 ## Overview
 
 Cellular mechanisms of tolerance including desensitization and signaling adaptations.

@@ -4,7 +4,7 @@ author: "Wikipept Contributors"
 title: "Peptide Safety Data — Clinical Safety Profiles"
 description: "Safety profiles, adverse events, and contraindications for common peptide drugs including injection site reactions, immunogenicity risk, and drug interactions."
 ---
-# Peptide Safety Data
+Understanding peptide safety profiles is essential for clinical decision-making. This reference covers adverse events, contraindications, drug interactions, and monitoring requirements for major peptide drug classes.
 
 ## GLP-1 Receptor Agonists
 
@@ -36,5 +36,32 @@ description: "Safety profiles, adverse events, and contraindications for common 
 3. **Monitor liver function** with GH secretagogues
 4. **Watch for injection site reactions** with all injectable peptides
 5. **Report adverse events** to FDA MedWatch
+
+## Immunogenicity Risk
+
+| Peptide Class | Immunogenicity Rate | Monitoring | Management |
+|---------------|---------------------|------------|------------|
+| Insulin | 5-30% | Anti-insulin antibodies | Switch formulation |
+| GLP-1 RAs | <5% | Anti-drug antibodies | Discontinue if severe |
+| GH analogs | 10-30% | Anti-GH antibodies | Dose adjustment |
+| Therapeutic peptides | Variable | Clinical response | Consider alternatives |
+
+## Drug Interactions
+
+| Peptide | Interacting Drug | Effect | Management |
+|---------|-----------------|--------|------------|
+| Semaglutide | Oral contraceptives | Reduced efficacy | Use additional method |
+| Insulin | Beta-blockers | Masked hypoglycemia | Monitor closely |
+| GLP-1 RAs | Insulin | Additive hypoglycemia | Reduce insulin dose |
+| Oxytocin | Prostaglandins | Enhanced uterine activity | Avoid combination |
+
+## Emergency Protocols
+
+| Event | Immediate Action | Follow-up |
+|-------|-----------------|-----------|
+| Severe hypoglycemia | IV glucose, glucagon | Glucose monitoring |
+| Anaphylaxis | Epinephrine, supportive care | Allergy evaluation |
+| Pancreatitis | NPO, pain management | Discontinue GLP-1 RA |
+| Thyroid nodules | Ultrasound, FNA | Discontinue GLP-1 RA |
 
 Safety equipment available from [Kingston Peptides](https://kingstonpeptides.com)

@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Peptide Radioligands
-
 ## Overview
 
 Radiolabeled opioid peptides for receptor imaging and binding studies.

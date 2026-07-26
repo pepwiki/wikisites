@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# IdegLira Combination
-
 ## Overview
 
 Single-pen fixed-ratio co-formulation of ultra-long-acting degludec with liraglutide simplifying therapy.

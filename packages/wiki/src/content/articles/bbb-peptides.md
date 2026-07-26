@@ -18,8 +18,6 @@ relatedArticles:
   ["peptide-drug-delivery", "peptide-gi-stability"]
 ---
 
-# Blood-Brain Barrier and Peptides
-
 The blood-brain barrier (BBB) is the primary obstacle to CNS-targeted peptide therapeutics. This highly selective endothelial barrier permits passage of essential nutrients while excluding most large and hydrophilic molecules, including the majority of peptides.
 
 ## Structure of the Blood-Brain Barrier

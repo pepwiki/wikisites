@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Tisotumab Vedotin
-
 ## Overview
 
 Tisotumab Vedotin is a bioactive peptide with well-characterized properties and therapeutic applications.

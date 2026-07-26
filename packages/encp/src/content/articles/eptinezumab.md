@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Eptinezumab
-
 ## Overview
 
 Anti-CGRP monoclonal antibody for migraine prevention administered as quarterly IV infusion.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# N-Terminal PEGylation
-
 ## Overview
 
 N-Terminal PEGylation is a bioactive peptide with well-characterized properties and therapeutic applications.

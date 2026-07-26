@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Deltorphin A
-
 ## Overview
 
 Deltorphin A is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Phyllomedusa bicolor (Giant leaf frog).

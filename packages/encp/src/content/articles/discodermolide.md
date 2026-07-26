@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Discodermolide
-
 ## Overview
 
 Discodermolide is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Discodermia dissoluta (marine sponge).

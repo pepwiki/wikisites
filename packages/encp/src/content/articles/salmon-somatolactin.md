@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Salmon Somatolactin
-
 ## Overview
 
 Salmon Somatolactin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Salmon (Oncorhynchus spp.).

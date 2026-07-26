@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chicken Avian Beta-Defensin (General)
-
 ## Overview
 
 Chicken Avian Beta-Defensin (General) is a bioactive peptide with well-characterized properties and therapeutic applications.

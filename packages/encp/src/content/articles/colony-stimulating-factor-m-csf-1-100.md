@@ -1,6 +1,6 @@
 ---
 title: "Colony Stimulating Factor M-CSF-1-100"
-description: "Comprehensive reference for colony stimulating factor M-CSF-1-100, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for colony stimulating factor M-CSF-1-100, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

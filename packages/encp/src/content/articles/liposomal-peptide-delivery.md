@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Liposomal Peptide Delivery
-
 ## Overview
 
 Liposome encapsulation protecting peptides from degradation and enabling targeted delivery.

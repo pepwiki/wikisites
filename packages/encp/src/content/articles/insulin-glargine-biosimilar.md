@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Insulin Glargine Biosimilar
-
 ## Overview
 
 Biosimilar interchangeable form of insulin glargine with identical amino acid sequence and equivalent pharmacokinetic profile.

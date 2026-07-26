@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: ["peptide-bonds", "structure", "spps"]
 ---
 
-# 20 Standard Amino Acids
-
 ## Introduction
 
 Amino acids are the fundamental building blocks of all peptides and proteins. Each amino acid consists of a central carbon atom (alpha carbon) bonded to four groups: an amino group (NH₂), a carboxyl group (COOH), a hydrogen atom, and a unique side chain (R group). The side chain determines the chemical properties of each amino acid.

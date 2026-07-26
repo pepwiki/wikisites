@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Polymyxin B
-
 ## Overview
 
 Cyclic lipopeptide antibiotic binding lipopolysaccharide for multidrug-resistant gram-negative infections.

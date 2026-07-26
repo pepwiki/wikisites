@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Membrane Selectivity AMPs
-
 ## Overview
 
 Structural basis for selectivity for bacterial over host cell membranes.

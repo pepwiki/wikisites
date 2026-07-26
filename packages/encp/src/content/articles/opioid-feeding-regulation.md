@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Opioid Feeding Regulation
-
 ## Overview
 
 Endogenous opioid regulation of feeding behavior and food reward.

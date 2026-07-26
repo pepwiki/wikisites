@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Learning and Memory Peptides
-
 ## Overview
 
 Neuropeptides involved in synaptic plasticity and memory formation.

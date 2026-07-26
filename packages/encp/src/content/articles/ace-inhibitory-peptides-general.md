@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# ACE-Inhibitory Peptides (General)
-
 ## Overview
 
 ACE-Inhibitory Peptides (General) is a bioactive peptide with well-characterized properties and therapeutic applications.

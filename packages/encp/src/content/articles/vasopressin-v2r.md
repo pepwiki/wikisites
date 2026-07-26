@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Vasopressin → V2R
-
 ## Overview
 
 Vasopressin → V2R is a bioactive peptide with well-characterized properties and therapeutic applications.

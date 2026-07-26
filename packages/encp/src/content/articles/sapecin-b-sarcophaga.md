@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sapecin B (Sarcophaga)
-
 ## Overview
 
 Sapecin B (Sarcophaga) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Sarcophaga peregrina (flesh fly).

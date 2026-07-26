@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Goblet Cell Secreted Peptide
-
 ## Overview
 
 Mucin-associated antimicrobial peptide from goblet cells in mucus layer defense.

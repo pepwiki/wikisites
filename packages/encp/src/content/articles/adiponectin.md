@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Adiponectin
-
 ## Discovery and Characterization
 
 Adiponectin was independently identified in 1995-1996 by four research groups using different experimental approaches, variously termed Acrp30, adipoQ, apM1, and GBP28. The gene encodes a 244-amino acid protein with a signal sequence, a variable region, a collagenous domain, and a C-terminal globular domain. Adiponectin is the most abundantly secreted adipokine, with plasma concentrations in the microgram-per-milliliter range, approximately 1000-fold higher than most other adipokines. Paradoxically, adiponectin levels are reduced in obesity and inversely correlate with insulin resistance, type 2 diabetes, and cardiovascular risk.

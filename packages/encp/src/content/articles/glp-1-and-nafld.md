@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GLP-1 and NAFLD
-
 ## Overview
 
 Clinical evidence for efficacy in nonalcoholic fatty liver disease including steatosis reduction.

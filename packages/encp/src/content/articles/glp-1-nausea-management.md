@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# GLP-1 Nausea Management
-
 ## Overview
 
 Strategies for managing nausea including dose titration, dietary modifications, and antiemetics.

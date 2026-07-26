@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Alfentanil Short-Acting
-
 ## Overview
 
 Short-acting synthetic opioid with faster onset than fentanyl.

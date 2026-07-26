@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Growth Hormone-Releasing Hormone
-
 ## Overview
 
 Growth hormone-releasing hormone (GHRH) is a 44-amino acid hypothalamic peptide that serves as the principal stimulator of growth hormone (GH) synthesis and secretion from somatotroph cells in the anterior pituitary. First isolated from a pancreatic tumor causing ectopic GH excess, GHRH was subsequently found to originate from neurons in the arcuate nucleus of the hypothalamus. The human form contains a conserved His-Ala-Asp-Ala active sequence at the N-terminus.

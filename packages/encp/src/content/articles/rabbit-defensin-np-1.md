@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Rabbit Defensin NP-1
-
 ## Overview
 
 Neutrophil defensin from rabbit with broad-spectrum bactericidal activity.

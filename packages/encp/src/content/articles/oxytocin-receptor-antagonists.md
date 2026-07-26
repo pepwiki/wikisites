@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Oxytocin Receptor Antagonists
-
 ## Overview
 
 Oxytocin receptor antagonists are a class of peptidic compounds designed to competitively inhibit the binding of oxytocin to its G-protein-coupled receptor (OTR) on uterine myometrial cells. Oxytocin, a cyclic nonapeptide (Cys-Tyr-Ile-Gln-Asn-Cys-Pro-Leu-Gly-NH₂), is the principal endogenous regulator of uterine contractility during parturition. Pathological activation of the oxytocin signaling cascade contributes to preterm labor, a leading cause of neonatal morbidity and mortality worldwide. By blocking OTR activation, antagonists suppress calcium-mediated myometrial contractions, providing a pharmacological approach to tocolysis.

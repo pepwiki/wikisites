@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Fibroin Light Chain (Bombyx)
-
 ## Overview
 
 Fibroin Light Chain (Bombyx) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bombyx mori (silkworm).

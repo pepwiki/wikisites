@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: ["spps", "receptors", "pharmacology"]
 ---
 
-# Computational Design
-
 ## Introduction
 
 Computational methods are essential for modern peptide design and optimization. These approaches enable prediction of peptide structure, function, and interactions, accelerating the drug discovery process. This chapter covers major computational techniques used in peptide science.

@@ -18,8 +18,6 @@ difficulty: "advanced"
 relatedArticles: ["peptide-bond-rotation-energy", "peptide-bond-non-aqueous"]
 ---
 
-# Peptide Bond in Extreme Environments
-
 The peptide bond is remarkably stable under normal physiological conditions, but what happens when proteins are pushed to their limits? Organisms living in extreme environments have evolved peptide sequences and structural strategies that maintain bond integrity under conditions that would destroy most proteins.
 
 ## Thermophilic Adaptations

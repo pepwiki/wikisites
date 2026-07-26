@@ -8,8 +8,6 @@ tags: [fungal, peptides, antibiotics, cyclosporin, penicillin, mycotoxins, antif
 lastUpdated: 2026-06-12
 ---
 
-# Fungal Peptides Database
-
 Fungi produce an extraordinary array of bioactive peptides and peptide-like compounds that have revolutionized medicine. From the discovery of penicillin to modern immunosuppressants, fungal peptides remain critical sources of therapeutic agents. This database catalogs peptides from fungal sources including antibiotics, cyclopeptides, lipopeptides, toxins, and bioactive compounds.
 
 ## Fungal Antibiotics

@@ -8,8 +8,6 @@ tags: [mammalian, peptides, antimicrobial, bovine, porcine, ovine, canine, felin
 lastUpdated: 2026-06-12
 ---
 
-# Mammalian Peptides Database
-
 Mammals produce a diverse array of bioactive peptides, particularly antimicrobial peptides (AMPs) from immune cells and neuropeptides from the nervous system. These peptides play critical roles in innate immunity, host defense, and neural signaling. Bovine, porcine, and ovine cathelicidins and defensins represent some of the most well-characterized mammalian AMPs with therapeutic potential.
 
 ## Bovine Antimicrobial Peptides

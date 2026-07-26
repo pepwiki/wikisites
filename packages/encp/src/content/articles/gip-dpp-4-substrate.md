@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GIP → DPP-4 (Substrate)
-
 ## Overview
 
 GIP → DPP-4 (Substrate) is a bioactive peptide with well-characterized properties and therapeutic applications.

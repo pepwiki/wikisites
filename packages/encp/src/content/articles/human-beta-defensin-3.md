@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Human Beta-Defensin 3
-
 ## Overview
 
 Potent inducible defensin with broad-spectrum activity and chemokine function recruiting immune cells.

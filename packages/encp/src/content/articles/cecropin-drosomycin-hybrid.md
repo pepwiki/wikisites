@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Cecropin-Drosomycin Hybrid
-
 ## Overview
 
 Engineered hybrid combining cecropin and drosomycin for dual activity.

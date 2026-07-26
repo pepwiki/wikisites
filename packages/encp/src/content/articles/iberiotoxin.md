@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Iberiotoxin
-
 ## Overview
 
 Highly selective BK potassium channel blocker from scorpion Buthus tamulus.

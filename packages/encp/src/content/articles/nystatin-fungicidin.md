@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Nystatin (Fungicidin)
-
 ## Overview
 
 Nystatin (Fungicidin) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Streptomyces noursei (actinomycete).

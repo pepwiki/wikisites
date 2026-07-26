@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Fish Bone Peptides
-
 ## Overview
 
 Fish Bone Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Various (tuna, salmon, cod, carp).

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Conotoxin Analgesic Pipeline
-
 ## Overview
 
 Clinical pipeline of next-generation conotoxin analgesics.

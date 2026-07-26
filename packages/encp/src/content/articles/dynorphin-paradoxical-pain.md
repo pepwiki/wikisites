@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Dynorphin Paradoxical Pain
-
 ## Overview
 
 Paradoxical pronociceptive effects of dynorphin through non-opioid mechanisms.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Alpha-Neo-Endorphin
-
 ## Overview
 
 Prodynorphin-derived opioid with kappa-opioid activity.

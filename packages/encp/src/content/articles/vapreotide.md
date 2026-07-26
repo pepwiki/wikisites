@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Vapreotide
-
 ## Overview
 
 Vapreotide is a bioactive peptide with well-characterized properties and therapeutic applications.

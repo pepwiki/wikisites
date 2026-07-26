@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# C-Peptide Relationship
-
 ## Overview
 
 Equimolar production of C-peptide with insulin from proinsulin cleavage as endogenous secretion marker.

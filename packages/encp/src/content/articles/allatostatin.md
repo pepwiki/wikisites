@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Allatostatin
-
 ## Overview
 
 Allatostatin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Diploptera punctata (cockroach), multiple insect species.

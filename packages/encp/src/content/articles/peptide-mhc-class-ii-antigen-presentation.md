@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide → MHC Class II (Antigen Presentation)
-
 ## Overview
 
 Peptide → MHC Class II (Antigen Presentation) is a bioactive peptide with well-characterized properties and therapeutic applications.

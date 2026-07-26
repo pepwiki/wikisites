@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Ecallantide
-
 ## Overview
 
 Plasma kallikrein inhibitor for hereditary angioedema preventing bradykinin generation.

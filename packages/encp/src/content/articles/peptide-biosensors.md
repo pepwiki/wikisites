@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Peptide-Based Biosensors
-
 Peptides serve as versatile recognition elements in biosensor platforms owing to their high binding specificity, chemical tunability, and amenability to solid-phase synthesis. Peptide-based biosensors integrate transducer technologies with peptide ligands to enable real-time detection of biomarkers, pathogens, and small-molecule analytes.
 
 ## Aptamer-Integrated Systems

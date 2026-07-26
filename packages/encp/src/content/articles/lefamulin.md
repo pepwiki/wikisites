@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Lefamulin
-
 ## Overview
 
 Lefamulin is a bioactive peptide with well-characterized properties and therapeutic applications.

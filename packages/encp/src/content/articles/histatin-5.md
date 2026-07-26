@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Histatin 5
-
 ## Overview
 
 Salivary antimicrobial peptide with potent antifungal activity against Candida albicans.

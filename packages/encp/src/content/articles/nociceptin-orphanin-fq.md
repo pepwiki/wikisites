@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Nociceptin/Orphanin FQ
-
 ## Overview
 
 Nociceptin/Orphanin FQ is a bioactive peptide with well-characterized properties and therapeutic applications.

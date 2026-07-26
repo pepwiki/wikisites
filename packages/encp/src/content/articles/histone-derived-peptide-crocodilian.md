@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Histone-Derived Peptide (Crocodilian)
-
 ## Overview
 
 Histone-Derived Peptide (Crocodilian) is a bioactive peptide with well-characterized properties and therapeutic applications.

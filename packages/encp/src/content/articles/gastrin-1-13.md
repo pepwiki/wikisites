@@ -1,6 +1,6 @@
 ---
 title: "Gastrin 1-13: Peptide Fragment Reference"
-description: "Comprehensive reference for gastrin 1-13 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for gastrin 1-13 variant, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

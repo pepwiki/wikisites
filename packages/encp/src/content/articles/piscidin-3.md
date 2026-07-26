@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Piscidin 3
-
 ## Overview
 
 Piscidin 3 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hybrid striped bass (Morone saxatilis x M. chrysops).

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# TLR Agonist Conjugates
-
 ## Overview
 
 TLR Agonist Conjugates is a bioactive peptide with well-characterized properties and therapeutic applications.

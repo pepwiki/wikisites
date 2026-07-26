@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: ["gpcr-pharmacology", "peptide-oral-bioavailability", "gpcr-pharmacology", "peptide-drug-modifications"]
 ---
 
-# CJC-1295 vs MK-677: Combination Analysis
-
 ## Introduction
 
 CJC-1295 and MK-677 (Ibutamoren) are growth hormone secretagogues (GHS) that stimulate the growth hormone (GH) axis through complementary mechanisms. CJC-1295 is a synthetic analog of growth hormone-releasing hormone (GHRH), while MK-677 is an orally active ghrelin mimetic. Their distinct mechanisms create potential for synergistic GH axis stimulation when used in combination.

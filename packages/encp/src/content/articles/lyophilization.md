@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Lyophilization
-
 ## Overview
 
 Lyophilization is a bioactive peptide with well-characterized properties and therapeutic applications.

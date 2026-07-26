@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Charybdotoxin
-
 ## Overview
 
 Potassium channel blocker from scorpion venom with broad Kv channel activity.

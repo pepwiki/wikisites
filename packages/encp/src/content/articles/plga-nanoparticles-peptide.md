@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# PLGA Nanoparticles Peptide
-
 ## Overview
 
 Poly(lactide-co-glycolide) nanoparticles for sustained peptide drug release.

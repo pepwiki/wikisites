@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Neuropeptide W
-
 ## Overview
 
 Hypothalamic neuropeptide regulating energy homeostasis and feeding.

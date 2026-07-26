@@ -7,8 +7,6 @@ category: neuropeptides
 totalEntries: 30
 ---
 
-# Neuropeptides Database
-
 Comprehensive reference of endogenous neuropeptides involved in neurotransmission, neuromodulation, and neuroendocrine signaling.
 
 ---

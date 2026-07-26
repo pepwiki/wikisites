@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Efpeglenatide
-
 ## Overview
 
 Long-acting GLP-1 agonist with albumin-binding fatty acid for once-monthly dosing.

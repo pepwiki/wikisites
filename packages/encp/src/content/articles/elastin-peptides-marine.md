@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Elastin Peptides (Marine)
-
 ## Overview
 
 Elastin Peptides (Marine) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Various fish species.

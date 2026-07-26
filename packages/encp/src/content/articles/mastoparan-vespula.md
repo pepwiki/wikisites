@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Mastoparan (Vespula)
-
 ## Overview
 
 Mastoparan (Vespula) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Vespula lewisii (wasp).

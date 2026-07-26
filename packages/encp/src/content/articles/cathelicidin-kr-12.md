@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cathelicidin KR-12
-
 ## Overview
 
 Minimum active antimicrobial fragment of LL-37 with reduced cytotoxicity.

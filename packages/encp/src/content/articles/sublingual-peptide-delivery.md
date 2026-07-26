@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sublingual Peptide Delivery
-
 ## Overview
 
 Sublingual administration for rapid systemic peptide absorption.

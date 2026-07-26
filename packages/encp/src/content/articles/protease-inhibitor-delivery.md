@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Protease Inhibitor Delivery
-
 ## Overview
 
 Co-administered protease inhibitors protecting peptides from GI enzymatic degradation.

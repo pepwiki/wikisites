@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# CRP (C-Reactive Protein)
-
 ## Overview
 
 CRP (C-Reactive Protein) is a bioactive peptide with well-characterized properties and therapeutic applications.

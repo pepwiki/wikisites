@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: ["peptide-targeted-delivery", "peptide-receptor-kinetics"]
 ---
 
-# Peptide Oral Bioavailability
-
 Oral delivery of peptides faces formidable barriers that limit bioavailability to typically 1-5% of the administered dose. Overcoming these barriers is a major goal in peptide therapeutics.
 
 ## Absorption Barriers

@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Distribution Brain
-
 ## Overview
 
 Regional distribution of opioid peptides in brain and pain/reward roles.

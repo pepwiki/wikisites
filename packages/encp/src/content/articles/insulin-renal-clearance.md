@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Insulin Renal Clearance
-
 ## Overview
 
 Kidney-mediated insulin degradation and dosing adjustments in chronic and end-stage kidney disease.

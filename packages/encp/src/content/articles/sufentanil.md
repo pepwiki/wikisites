@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sufentanil
-
 ## Overview
 
 Sufentanil is a bioactive peptide with well-characterized properties and therapeutic applications.

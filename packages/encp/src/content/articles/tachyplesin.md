@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Tachyplesin
-
 ## Overview
 
 AMP from horseshoe crab hemocytes with beta-sheet structure and membrane-disrupting activity.

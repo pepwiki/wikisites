@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Magainin 1
-
 ## Overview
 
 Frog skin AMP from Xenopus laevis forming voltage-dependent ion channels in bacterial membranes.

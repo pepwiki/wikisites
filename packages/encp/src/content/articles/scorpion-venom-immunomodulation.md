@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Scorpion Venom Immunomodulation
-
 ## Overview
 
 Immunomodulatory properties of scorpion venom components for therapeutic development.

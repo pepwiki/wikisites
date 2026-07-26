@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide Fc Fusion Technology
-
 ## Overview
 
 Fc fusion protein technology for extending peptide drug half-life.

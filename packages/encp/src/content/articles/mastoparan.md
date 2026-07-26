@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Mastoparan
-
 ## Overview
 
 Honeybee venom amphipathic peptide activating G-proteins and forming membrane pores.

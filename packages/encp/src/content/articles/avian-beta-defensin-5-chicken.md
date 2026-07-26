@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Avian Beta-Defensin 5 (Chicken)
-
 ## Overview
 
 Avian Beta-Defensin 5 (Chicken) is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Astaxanthin-Peptide Conjugates
-
 ## Overview
 
 Astaxanthin-Peptide Conjugates is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Haematococcus pluvialis (algae) + fish peptides.

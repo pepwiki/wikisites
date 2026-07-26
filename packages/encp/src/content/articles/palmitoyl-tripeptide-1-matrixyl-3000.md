@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Palmitoyl Tripeptide-1 (Matrixyl 3000)
-
 ## Overview
 
 Palmitoyl Tripeptide-1 (Matrixyl 3000) is a bioactive peptide with well-characterized properties and therapeutic applications.

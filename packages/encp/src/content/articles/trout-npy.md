@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Trout NPY
-
 ## Overview
 
 Trout NPY is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Rainbow trout (Oncorhynchus mykiss).

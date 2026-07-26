@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Zebrafish NPY
-
 ## Overview
 
 Zebrafish NPY is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Zebrafish (Danio rerio).

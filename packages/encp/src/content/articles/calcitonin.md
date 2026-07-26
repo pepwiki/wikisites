@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Calcitonin
-
 ## Overview
 
 Calcitonin (CT) is a 32-amino acid linear peptide hormone synthesized and secreted by the parafollicular C cells of the thyroid gland. Discovered in 1961 by Copp and Cameron, calcitonin was initially characterized as a calcium-lowering hormone antagonistic to parathyroid hormone (PTH). In humans, calcitonin plays a relatively modest role in calcium homeostasis under physiological conditions, though its pharmacological properties have proven therapeutically valuable.

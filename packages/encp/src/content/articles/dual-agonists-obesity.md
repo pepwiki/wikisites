@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Dual Agonists in Obesity
-
 The emergence of dual glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide-1 (GLP-1) receptor agonists marks a significant advancement in pharmacological obesity treatment. These agents simultaneously activate two incretin receptors, achieving weight loss magnitudes that approach those observed with bariatric surgery.
 
 ## Mechanism of Dual Receptor Activation

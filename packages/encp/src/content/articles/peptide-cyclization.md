@@ -1,6 +1,6 @@
 ---
 title: "Peptide cyclization: Oligopeptide Research Reference"
-description: "Comprehensive reference for peptide cyclization, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for peptide cyclization, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

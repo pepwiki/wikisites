@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Appetite-Regulating Peptides
-
 ## Overview
 
 Network of neuropeptides controlling hunger, satiety, and energy balance.

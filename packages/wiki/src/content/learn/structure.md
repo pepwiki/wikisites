@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: ["amino-acids", "peptide-bonds", "computational"]
 ---
 
-# Protein Structure Levels
-
 ## Introduction
 
 Proteins have a hierarchical structure organized into four levels: primary, secondary, tertiary, and quaternary. Each level is stabilized by specific forces and interactions. Understanding these levels is fundamental to predicting protein function and designing therapeutic peptides.

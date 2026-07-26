@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Teriparatide Biosimilar
-
 ## Overview
 
 Biosimilar recombinant PTH(1-34) for osteoporosis with equivalent bone formation effects.

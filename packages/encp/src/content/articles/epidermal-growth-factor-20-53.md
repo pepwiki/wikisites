@@ -1,6 +1,6 @@
 ---
 title: "Epidermal Growth Factor 20-53: Comprehensive Peptide Refe..."
-description: "Comprehensive reference for epidermal growth factor 20-53, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for epidermal growth factor 20-53, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

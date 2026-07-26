@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Bee Venom Apamin
-
 ## Overview
 
 Selective SK potassium channel blocker from honeybee venom.

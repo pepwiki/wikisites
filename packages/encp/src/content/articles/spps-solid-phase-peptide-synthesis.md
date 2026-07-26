@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# SPPS (Solid Phase Peptide Synthesis)
-
 ## Overview
 
 SPPS (Solid Phase Peptide Synthesis) is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Peptide Microchip Devices
-
 ## Overview
 
 Microchip-controlled devices for programmable peptide delivery.

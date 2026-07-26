@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Turkey Cathelicidin
-
 ## Overview
 
 Turkey Cathelicidin is a bioactive peptide with well-characterized properties and therapeutic applications.

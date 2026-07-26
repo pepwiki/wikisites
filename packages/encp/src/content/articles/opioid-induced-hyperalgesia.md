@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid-Induced Hyperalgesia
-
 ## Overview
 
 Paradoxical pain sensitization from chronic opioid use via NMDA pathways.

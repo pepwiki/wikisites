@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cathelicidin FF-16
-
 ## Overview
 
 Short synthetic antimicrobial peptide from LL-37 with potent bactericidal activity.

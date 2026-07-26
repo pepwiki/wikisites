@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Myrmicacin (Myrmica)
-
 ## Overview
 
 Myrmicacin (Myrmica) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Myrmica rubra (red ant).

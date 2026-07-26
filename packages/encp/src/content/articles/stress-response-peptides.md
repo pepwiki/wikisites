@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Stress Response Peptides
-
 ## Overview
 
 Neuropeptides coordinating hypothalamic-pituitary-adrenal stress response.

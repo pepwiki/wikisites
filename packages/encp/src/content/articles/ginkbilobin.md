@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Ginkbilobin
-
 ## Overview
 
 Ginkbilobin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Ginkgo biloba (Ginkgo).

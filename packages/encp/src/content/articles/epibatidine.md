@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Epibatidine
-
 ## Overview
 
 Epibatidine is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Buserelin
-
 ## Overview
 
 Potent GnRH agonist with D-Ser(tBu) modification for nasal and subcutaneous administration.

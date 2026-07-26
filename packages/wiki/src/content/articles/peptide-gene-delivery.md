@@ -18,8 +18,6 @@ difficulty: "advanced"
 relatedArticles: ["peptide-libraries-drug-discovery", "peptide-mimetics-neuroscience"]
 ---
 
-# Peptide-Based Gene Delivery
-
 Non-viral gene delivery using peptides offers a promising alternative to viral vectors, combining lower immunogenicity with greater design flexibility. Peptides can be engineered to complex nucleic acids, penetrate cell membranes, escape endosomes, and reach the nucleus -- all essential steps for successful gene delivery.
 
 ## Cell-Penetrating Peptides (CPPs)

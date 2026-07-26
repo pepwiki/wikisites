@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: ["peptide-receptor-kinetics", "peptide-oral-bioavailability"]
 ---
 
-# Peptide-Targeted Drug Delivery
-
 Peptides serve as targeting ligands that direct drugs, nanoparticles, or imaging agents to specific cell types or tissues. Their small size, low immunogenicity, and ease of synthesis make them ideal candidates for targeted delivery strategies.
 
 ## RGD Peptides

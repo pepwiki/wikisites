@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Exenatide (Exendin-4)
-
 ## Overview
 
 Exenatide (Exendin-4) is a bioactive peptide with well-characterized properties and therapeutic applications.

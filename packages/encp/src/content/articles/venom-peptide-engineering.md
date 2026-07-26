@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Venom Peptide Engineering
-
 ## Overview
 
 Rational modification of venom peptides for improved therapeutic properties.

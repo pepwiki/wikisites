@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Insulin A-chain ↔ B-chain (Disulfide Bonds)
-
 ## Overview
 
 Insulin A-chain ↔ B-chain (Disulfide Bonds) is a bioactive peptide with well-characterized properties and therapeutic applications.

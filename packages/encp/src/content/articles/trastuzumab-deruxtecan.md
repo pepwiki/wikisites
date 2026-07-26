@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Trastuzumab Deruxtecan
-
 ## Overview
 
 Trastuzumab Deruxtecan is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# HA-tag → Anti-HA (Affinity Purification)
-
 ## Overview
 
 HA-tag → Anti-HA (Affinity Purification) is a bioactive peptide with well-characterized properties and therapeutic applications.

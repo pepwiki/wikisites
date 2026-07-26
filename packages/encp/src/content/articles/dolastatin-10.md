@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Dolastatin 10
-
 ## Overview
 
 Dolastatin 10 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Dolabella auricularia (sea hare).

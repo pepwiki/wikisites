@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Oral Peptide Delivery Systems
-
 ## Overview
 
 Systems for oral peptide delivery including enzyme inhibitors and permeation enhancers.

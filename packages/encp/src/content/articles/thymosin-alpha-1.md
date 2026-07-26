@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Thymosin Alpha-1
-
 ## Overview
 
 Thymic peptide with immunomodulatory properties enhancing T-cell maturation.

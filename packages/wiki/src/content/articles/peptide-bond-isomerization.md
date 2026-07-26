@@ -15,8 +15,6 @@ relatedArticles:
   ]
 ---
 
-# Peptide Bond Isomerization
-
 Peptide bond isomerization is a critical but often overlooked step in protein folding. The ability of peptide bonds to switch between cis and trans conformations significantly impacts protein structure and function.
 
 ## Peptide Bond Geometry

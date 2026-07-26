@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Triptorelin
-
 ## Overview
 
 Long-acting GnRH agonist with D-Trp substitution for profound gonadotropin suppression.

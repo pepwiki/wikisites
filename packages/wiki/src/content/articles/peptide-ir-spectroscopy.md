@@ -19,8 +19,6 @@ relatedArticles:
   ["peptide-bond-energy-diagram", "peptide-bond-isomerization", "peptide-bond-geometry-drug-design"]
 ---
 
-# Peptide Bond IR Spectroscopy
-
 Infrared (IR) spectroscopy is a powerful technique for studying peptide bonds and protein secondary structure. The characteristic absorption bands provide information about molecular structure and conformation.
 
 ## Fundamental Principles

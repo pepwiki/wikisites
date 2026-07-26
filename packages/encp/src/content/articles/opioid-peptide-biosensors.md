@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Peptide Biosensors
-
 ## Overview
 
 Genetically encoded biosensors for real-time imaging of opioid peptide signaling.

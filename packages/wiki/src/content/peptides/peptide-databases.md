@@ -7,8 +7,6 @@ category: "tools"
 tags: ["databases", "peptides", "proteomics", "bioinformatics", "drug-discovery", "clinical-trials"]
 ---
 
-# Peptide Databases Reference
-
 Comprehensive reference of databases essential for peptide research, organized by category.
 
 ---

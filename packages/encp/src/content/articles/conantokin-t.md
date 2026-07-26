@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Conantokin T
-
 ## Overview
 
 NMDA receptor antagonist from Conus tulipa with selective NR2B subunit binding.

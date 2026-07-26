@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Phallacidin
-
 ## Overview
 
 Phallacidin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Amanita phalloides (Death Cap).

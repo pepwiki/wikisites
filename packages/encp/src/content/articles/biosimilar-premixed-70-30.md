@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Biosimilar Premixed 70/30
-
 ## Overview
 
 Biosimilar intermediate premixed insulin combining 70% NPH and 30% regular human insulin.

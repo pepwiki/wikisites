@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# ATX-MS-1467
-
 ## Overview
 
 ATX-MS-1467 is a bioactive peptide with well-characterized properties and therapeutic applications.

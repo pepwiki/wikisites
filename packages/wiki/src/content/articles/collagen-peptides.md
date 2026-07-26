@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: ["hydrophobic-interactions", "hydrogen-bonding", "peptide-drug-delivery"]
 ---
 
-# Collagen Peptides
-
 ## What Is Collagen?
 
 Collagen is the most abundant protein in the human body, comprising approximately 30 percent of total protein. It provides structural support to skin, bones, tendons, ligaments, and cartilage. Collagen molecules are long, triple-helical structures composed of three polypeptide chains wound around each other.

@@ -11,8 +11,6 @@ difficulty: "intermediate"
 relatedArticles: ["amino-acids", "peptide-synthesis-methods", "peptide-quantification"]
 ---
 
-# Peptide Quantification Methods
-
 Accurate determination of peptide concentration is fundamental to peptide research, formulation, and quality control. Multiple methods exist, each with specific strengths. Understanding when to apply each technique ensures reliable results.
 
 ## Spectrophotometric Methods

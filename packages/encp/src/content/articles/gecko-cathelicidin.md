@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Gecko Cathelicidin
-
 ## Overview
 
 Gecko Cathelicidin is a bioactive peptide with well-characterized properties and therapeutic applications.

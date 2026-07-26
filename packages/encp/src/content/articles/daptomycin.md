@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Daptomycin
-
 ## Overview
 
 Cyclic lipopeptide antibiotic disrupting bacterial membrane potential for serious infections.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sea Anemone Toxin Mechanism
-
 ## Overview
 
 Mechanisms of sea anemone toxin action on ion channels.

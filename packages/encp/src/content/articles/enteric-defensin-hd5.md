@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Enteric Defensin HD5
-
 ## Overview
 
 Paneth cell defensin critical for intestinal stem cell niche and microbiome composition.

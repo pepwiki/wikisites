@@ -5,8 +5,6 @@ title: "Peptide Clinical Trials Database"
 description: Reference database of peptide-based therapeutics in active or completed clinical trials with phase, indication, sponsor, results, and NCT identifiers.
 ---
 
-# Peptide Clinical Trials Database
-
 Comprehensive listing of peptide therapeutics in clinical development. Data current as of mid-2026.
 
 ## Obesity / Metabolic Syndrome

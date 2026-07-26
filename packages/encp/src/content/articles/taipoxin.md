@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Taipoxin
-
 ## Overview
 
 Taipoxin is a bioactive peptide with well-characterized properties and therapeutic applications.

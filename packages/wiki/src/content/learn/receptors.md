@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: ["signaling", "pharmacology", "clinical-trials"]
 ---
 
-# Receptor Binding
-
 ## Introduction
 
 Receptor binding is the fundamental process by which peptides exert their biological effects. Understanding receptor types, binding kinetics, and dose-response relationships is essential for drug design and therapeutic development.

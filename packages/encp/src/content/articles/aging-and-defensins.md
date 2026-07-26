@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Aging and Defensins
-
 ## Overview
 
 Age-related changes in AMP expression contributing to increased infection in elderly.

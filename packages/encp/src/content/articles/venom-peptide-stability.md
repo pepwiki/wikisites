@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Venom Peptide Stability
-
 ## Overview
 
 Strategies for improving venom peptide stability and bioavailability.

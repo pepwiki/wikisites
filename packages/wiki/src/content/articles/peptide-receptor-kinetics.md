@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: ["peptide-targeted-delivery", "peptide-oral-bioavailability"]
 ---
 
-# Peptide-Receptor Binding Kinetics
-
 Binding affinity (Kd) is the most commonly reported parameter for peptide-receptor interactions, but it describes only the equilibrium state. Kinetic parameters provide deeper insight into how peptides interact with receptors and predict in vivo behavior.
 
 ## Association and Dissociation Rates

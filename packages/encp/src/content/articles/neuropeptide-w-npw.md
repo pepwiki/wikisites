@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Neuropeptide W (NPW)
-
 ## Overview
 
 Neuropeptide W (NPW) is a bioactive peptide with well-characterized properties and therapeutic applications.

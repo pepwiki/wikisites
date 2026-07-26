@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Apidaecin
-
 ## Overview
 
 Proline-rich AMP from honeybee hemolymph inhibiting bacterial protein synthesis.

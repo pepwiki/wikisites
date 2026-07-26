@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Palytoxin
-
 ## Overview
 
 Palytoxin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Palythoa tuberculosa (zoanthid coral).

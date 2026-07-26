@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Semaglutide vs Tirzepatide
-
 ## Introduction
 
 The therapeutic landscape for obesity and type 2 diabetes mellitus (T2DM) has been transformed by incretin-based peptide therapies. Semaglutide, a glucagon-like peptide-1 receptor agonist (GLP-1 RA), and tirzepatide, a dual glucose-dependent insulinotropic polypeptide (GIP) and GLP-1 receptor agonist, represent two of the most clinically impactful agents in this class. This article compares their pharmacological profiles, clinical efficacy, and safety considerations.

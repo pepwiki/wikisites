@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Acetyl Hexapeptide-3 (Argireline)
-
 ## Overview
 
 Acetyl Hexapeptide-3 (Argireline) is a bioactive peptide with well-characterized properties and therapeutic applications.

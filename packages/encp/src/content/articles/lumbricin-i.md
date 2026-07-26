@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Lumbricin I
-
 ## Overview
 
 Lumbricin I is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Lumbricus terrestris (common earthworm).

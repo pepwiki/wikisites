@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Microneedle Peptide Delivery
-
 ## Overview
 
 Dissolving microneedle arrays for transdermal peptide delivery bypassing GI degradation.

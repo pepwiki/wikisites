@@ -11,8 +11,6 @@ categories:
   - Technology
 ---
 
-# Peptide Companies Database
-
 ## Big Pharma
 
 <PeptideCompany

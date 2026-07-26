@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Defensin Microbiome Interaction
-
 ## Overview
 
 Role of defensins in shaping commensal microbiome and preventing pathogen colonization.

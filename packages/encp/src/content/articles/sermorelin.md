@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Sermorelin
-
 ## Overview
 
 Synthetic GHRH(1-29) analog for GH stimulation testing and potential deficiency treatment.

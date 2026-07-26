@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Neonatal AMPs
-
 ## Overview
 
 Immature defensin expression in neonates contributing to infection susceptibility.

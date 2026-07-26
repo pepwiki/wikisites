@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sea Anemone Toxin ATX-I
-
 ## Overview
 
 Sodium channel inactivating peptide from Anemonia sulcata.

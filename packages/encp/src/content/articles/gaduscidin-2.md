@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Gaduscidin 2
-
 ## Overview
 
 Gaduscidin 2 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Atlantic cod (Gadus morhua).

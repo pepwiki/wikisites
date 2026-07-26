@@ -4,8 +4,6 @@ author: "Wikipept Contributors"
 title: "Peptide Clinical Dosing Protocols"
 description: "Evidence-based dosing protocols for FDA-approved and investigational peptide drugs including titration schedules and patient-specific optimization strategies."
 ---
-# Peptide Clinical Dosing Protocols
-
 ## GLP-1 Receptor Agonists
 
 | Peptide | Indication | Starting Dose | Maintenance Dose | Route | Frequency |

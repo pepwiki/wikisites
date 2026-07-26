@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Agalsidase Beta
-
 ## Overview
 
 Agalsidase Beta is a bioactive peptide with well-characterized properties and therapeutic applications.

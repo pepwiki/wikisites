@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# χ-Conotoxin MrIA
-
 ## Overview
 
 χ-Conotoxin MrIA is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Conus marmoreus (marbled cone).

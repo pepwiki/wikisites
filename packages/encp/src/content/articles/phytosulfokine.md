@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Phytosulfokine
-
 ## Overview
 
 Phytosulfokine is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Asparagus officinalis (Asparagus).

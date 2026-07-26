@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: ["peptide-drug-modifications", "peptide-drug-modifications", "peptide-receptor-kinetics"]
 ---
 
-# Insulin Glargine U-100 vs U-300
-
 ## Introduction
 
 Insulin glargine is a long-acting basal insulin analogue produced by recombinant DNA technology. It is available in two concentrations: U-100 (100 units/mL, marketed as Lantus) and U-300 (300 units/mL, marketed as Toujeo). The threefold concentration difference produces clinically meaningful pharmacokinetic and pharmacodynamic distinctions that influence dosing, injection volume, and glycemic control profiles.

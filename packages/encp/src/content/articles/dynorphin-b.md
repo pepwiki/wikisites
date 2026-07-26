@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Dynorphin B
-
 ## Overview
 
 Prodynorphin-derived opioid with kappa-opioid receptor selectivity.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Virotoxins
-
 ## Overview
 
 Virotoxins is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Amanita virosa (Destroying Angel).

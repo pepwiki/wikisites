@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Peptide Computational Modeling
-
 ## Overview
 
 Computational models of opioid peptide-receptor interactions.

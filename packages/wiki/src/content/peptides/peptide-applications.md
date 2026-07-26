@@ -14,8 +14,6 @@ tags:
   - biotechnology
 ---
 
-# Peptide Applications Database
-
 A structured reference of peptide applications spanning medicine, diagnostics, cosmetics, agriculture, and industry. Each entry includes mechanism of action, market data, and emerging trends.
 
 ---

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Itovebi
-
 ## Overview
 
 Itovebi is a bioactive peptide with well-characterized properties and therapeutic applications.

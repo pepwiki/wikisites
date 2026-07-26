@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Receptor Knockout Studies
-
 ## Overview
 
 Behavioral phenotypes from opioid receptor gene knockout mice.

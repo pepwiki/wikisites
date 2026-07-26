@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Peptide Hydrogel Network
-
 ## Overview
 
 Engineering hydrogel networks for controlled peptide release kinetics.

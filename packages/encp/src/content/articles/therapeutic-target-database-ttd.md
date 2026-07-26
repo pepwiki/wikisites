@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Therapeutic Target Database (TTD)
-
 ## Overview
 
 Therapeutic Target Database (TTD) is a bioactive peptide with well-characterized properties and therapeutic applications.

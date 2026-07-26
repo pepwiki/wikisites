@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Degludec Pharmacodynamics
-
 ## Overview
 
 Pharmacodynamic profile demonstrating flat glucose-lowering effect with intra-individual variability below 20%.

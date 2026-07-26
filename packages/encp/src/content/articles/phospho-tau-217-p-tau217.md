@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Phospho-tau 217 (p-tau217)
-
 ## Overview
 
 Phospho-tau 217 (p-tau217) is a bioactive peptide with well-characterized properties and therapeutic applications.

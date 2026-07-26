@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GLP-1 and Smoking Cessation
-
 ## Overview
 
 Investigation of effects on nicotine reward and potential adjunct for smoking cessation.

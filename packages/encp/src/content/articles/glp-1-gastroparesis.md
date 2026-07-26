@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GLP-1 Gastroparesis
-
 ## Overview
 
 Evaluation of delayed gastric emptying and clinical management of GI adverse effects.

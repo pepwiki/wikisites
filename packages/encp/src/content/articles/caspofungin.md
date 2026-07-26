@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Caspofungin
-
 ## Overview
 
 Echinocandin antifungal inhibiting beta-1,3-glucan synthase for invasive candidiasis.

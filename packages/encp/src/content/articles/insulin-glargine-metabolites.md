@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Insulin Glargine Metabolites
-
 ## Overview
 
 Active metabolites M1 and M2 contributing to prolonged glucose-lowering activity of insulin glargine.

@@ -11,8 +11,6 @@ difficulty: "intermediate"
 relatedArticles: ["hplc-purification", "mass-spectrometry-peptides", "peptide-drug-delivery"]
 ---
 
-# Peptide Synthesis Methods
-
 ## Why Synthesize Peptides?
 
 Peptide synthesis is essential for drug development, structural biology, and diagnostic research. Natural extraction is impractical for most applications because peptides exist in minute quantities in biological tissues. Synthetic methods provide access to pure, defined sequences on demand.

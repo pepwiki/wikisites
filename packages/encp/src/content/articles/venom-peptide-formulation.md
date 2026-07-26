@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Venom Peptide Formulation
-
 ## Overview
 
 Formulation strategies for venom peptide therapeutics including lyophilization.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Destruxin
-
 ## Overview
 
 Destruxin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Metarhizium anisopliae.

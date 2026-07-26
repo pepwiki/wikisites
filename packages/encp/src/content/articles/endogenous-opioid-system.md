@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Endogenous Opioid System
-
 ## Overview
 
 Overview of opioid peptides, receptors, and roles in pain and reward.

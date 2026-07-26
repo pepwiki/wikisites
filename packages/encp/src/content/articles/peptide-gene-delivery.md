@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Peptide Gene Delivery
-
 ## Overview
 
 Peptide vectors for nucleic acid delivery in gene therapy.

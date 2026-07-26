@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GLP-1 DPP-4 Resistance
-
 ## Overview
 
 Structural modifications conferring DPP-4 resistance including Aib substitution and fatty acid acylation.

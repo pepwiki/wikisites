@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Conotoxin (Generic)
-
 ## Overview
 
 Conotoxin (Generic) is a bioactive peptide with well-characterized properties and therapeutic applications.

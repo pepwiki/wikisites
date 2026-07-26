@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Insulin in Pregnancy
-
 ## Overview
 
 Safety considerations for insulin analog use in gestational and pregestational diabetes during pregnancy.

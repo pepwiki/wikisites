@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide → BCR (Immune Recognition)
-
 ## Overview
 
 Peptide → BCR (Immune Recognition) is a bioactive peptide with well-characterized properties and therapeutic applications.

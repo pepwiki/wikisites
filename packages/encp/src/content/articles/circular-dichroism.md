@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Circular Dichroism
-
 ## Overview
 
 Circular Dichroism is a bioactive peptide with well-characterized properties and therapeutic applications.

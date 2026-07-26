@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Modeccin
-
 ## Overview
 
 Modeccin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Adenia digitata.

@@ -22,8 +22,6 @@ relatedArticles:
   ]
 ---
 
-# Amino Acid Transporters
-
 Amino acid transporters are membrane proteins essential for cellular amino acid uptake and homeostasis. They belong to the Solute Carrier (SLC) family and play critical roles in nutrition, brain function, and cellular metabolism.
 
 ## Solute Carrier (SLC) Family

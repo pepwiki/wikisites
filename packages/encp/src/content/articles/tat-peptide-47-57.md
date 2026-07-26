@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# TAT Peptide (47-57)
-
 ## Overview
 
 TAT Peptide (47-57) is a bioactive peptide with well-characterized properties and therapeutic applications.

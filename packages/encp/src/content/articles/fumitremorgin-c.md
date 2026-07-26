@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Fumitremorgin C
-
 ## Overview
 
 Fumitremorgin C is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Aspergillus fumigatus.

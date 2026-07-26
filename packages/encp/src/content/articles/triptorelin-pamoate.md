@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Triptorelin Pamoate
-
 ## Overview
 
 Triptorelin Pamoate is a bioactive peptide with well-characterized properties and therapeutic applications.

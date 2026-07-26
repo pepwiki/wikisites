@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Relugolix
-
 ## Overview
 
 Oral GnRH receptor antagonist for prostate cancer and uterine fibroids with rapid suppression.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chicken Neuropeptide Y (cNPY)
-
 ## Overview
 
 Chicken Neuropeptide Y (cNPY) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Mammalian (widely conserved).

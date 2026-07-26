@@ -295,7 +295,7 @@ export const questions = [
   }
 ];
 
-# Peptide Hematology Quiz
+## Peptide Hematology Quiz
 
 Test your understanding of peptides in hematology, from erythropoietin and thrombopoietin signaling to anticoagulant therapeutics, hemoglobin disorders, and clinical applications in blood diseases.
 

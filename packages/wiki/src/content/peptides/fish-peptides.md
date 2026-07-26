@@ -8,8 +8,6 @@ tags: [fish, peptides, antimicrobial, neuropeptides, hormones, venom, collagen, 
 lastUpdated: 2026-06-12
 ---
 
-# Fish Peptides Database
-
 Fish represent a rich source of bioactive peptides with diverse biological activities. This database catalogs peptides from various fish species including antimicrobial peptides (AMPs), neuropeptides, peptide hormones, venom peptides, and collagen-derived peptides with applications in medicine, aquaculture, cosmetics, and nutrition.
 
 ## Fish Antimicrobial Peptides

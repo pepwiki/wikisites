@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Evolution of Peptide Synthesis
-
 ## Overview
 
 Evolution of Peptide Synthesis is a bioactive peptide with well-characterized properties and therapeutic applications.

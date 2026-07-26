@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Crocodilian Cathelicidin
-
 ## Overview
 
 Crocodilian Cathelicidin is a bioactive peptide with well-characterized properties and therapeutic applications.

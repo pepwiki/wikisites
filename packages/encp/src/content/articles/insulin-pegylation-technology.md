@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Insulin PEGylation Technology
-
 ## Overview
 
 PEG conjugation to insulin analogs for extending half-life through reduced renal clearance and proteolysis.

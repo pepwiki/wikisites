@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Scorpion Neurotoxicity
-
 ## Overview
 
 Mechanisms of scorpion neurotoxicity through sodium and potassium channel modulation.

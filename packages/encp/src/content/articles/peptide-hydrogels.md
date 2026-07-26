@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Peptide Hydrogels
-
 Self-assembling peptide hydrogels are supramolecular materials formed through non-covalent interactions among designed peptide sequences. These materials recapitulate the nanofibrous architecture of natural extracellular matrices, making them attractive platforms for tissue engineering, regenerative medicine, and three-dimensional cell culture.
 
 ## Self-Assembly Mechanisms

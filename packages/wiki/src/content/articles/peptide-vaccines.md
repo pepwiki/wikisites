@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: ["peptide-vaccines", "peptide-vaccines", "peptide-vaccines"]
 ---
 
-# Peptide Vaccines
-
 Peptide vaccines represent a precise approach to immunization using short synthetic amino acid sequences derived from pathogen proteins. Rather than introducing whole organisms or large proteins, peptide vaccines present the immune system with specific epitopes that trigger protective responses.
 
 ## Epitope Design Principles

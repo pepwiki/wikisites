@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Dendrotoxin
-
 ## Overview
 
 Dendrotoxin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Scorpion fish (Scorpaenidae family).

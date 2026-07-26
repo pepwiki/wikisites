@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Survodutide
-
 ## Overview
 
 Dual glucagon/GLP-1 receptor agonist for obesity and metabolic dysfunction-associated steatohepatitis.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# FMRFamide-related Peptides (C. elegans)
-
 ## Overview
 
 FMRFamide-related Peptides (C. elegans) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans.

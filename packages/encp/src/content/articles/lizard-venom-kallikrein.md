@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Lizard Venom Kallikrein
-
 ## Overview
 
 Lizard Venom Kallikrein is a bioactive peptide with well-characterized properties and therapeutic applications.

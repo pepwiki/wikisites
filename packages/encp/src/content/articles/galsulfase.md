@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Galsulfase
-
 ## Overview
 
 Galsulfase is a bioactive peptide with well-characterized properties and therapeutic applications.

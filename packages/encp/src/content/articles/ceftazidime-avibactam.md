@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Ceftazidime/Avibactam
-
 ## Overview
 
 Ceftazidime/Avibactam is a bioactive peptide with well-characterized properties and therapeutic applications.

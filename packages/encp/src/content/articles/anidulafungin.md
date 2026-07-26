@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Anidulafungin
-
 ## Overview
 
 Echinocandin with long half-life for candidiasis without hepatic or renal dose adjustment.

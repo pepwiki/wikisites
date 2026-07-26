@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Lucensomycin
-
 ## Overview
 
 Lucensomycin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Streptomyces lucensis (actinomycete).

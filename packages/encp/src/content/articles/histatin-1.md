@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Histatin 1
-
 ## Overview
 
 Major salivary histatin contributing to oral mucosal defense against fungal pathogens.

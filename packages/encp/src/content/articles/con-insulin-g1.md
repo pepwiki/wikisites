@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Con-Insulin G1
-
 ## Overview
 
 Evolutionary modified insulin from Conus geographus with novel receptor selectivity.

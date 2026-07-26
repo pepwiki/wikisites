@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Defensin in Cystic Fibrosis
-
 ## Overview
 
 Defective AMP function in CF airways contributing to chronic bacterial infections.

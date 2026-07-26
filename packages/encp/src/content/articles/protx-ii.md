@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# ProTx-II
-
 ## Overview
 
 ProTx-II is a bioactive peptide with well-characterized properties and therapeutic applications.

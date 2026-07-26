@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Ultra-Rapid Insulin Lispro
-
 ## Overview
 
 Ultra-rapid insulin lispro formulation with treprostinil and citrate for accelerated initial absorption.

@@ -1,6 +1,6 @@
 ---
 title: "Checkpoint Inhibitor FcRn-IgG: Comprehensive Peptide Refe..."
-description: "Comprehensive reference for checkpoint inhibitor FcRn-IgG, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for checkpoint inhibitor FcRn-IgG, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Neuropeptide B
-
 ## Overview
 
 Hypothalamic neuropeptide involved in feeding regulation.

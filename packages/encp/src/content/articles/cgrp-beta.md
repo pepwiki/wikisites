@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# CGRP Beta
-
 ## Overview
 
 Beta isoform of CGRP with similar vasodilatory and neuromodulatory functions.

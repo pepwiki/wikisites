@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Somatostatin Central
-
 ## Overview
 
 Hypothalamic and GI peptide inhibiting growth hormone and multiple secretory functions.

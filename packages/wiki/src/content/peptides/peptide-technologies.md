@@ -8,8 +8,6 @@ total_technologies: 40
 last_updated: 2026-06-13
 ---
 
-# Peptide Technologies Database
-
 A comprehensive collection of peptide technologies organized by category: Synthesis, Delivery, Analysis, and Computational.
 
 ## Categories Overview

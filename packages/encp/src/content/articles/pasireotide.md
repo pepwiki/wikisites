@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Pasireotide
-
 ## Overview
 
 Somatostatin analog with high sst5 affinity for Cushing disease and acromegaly.

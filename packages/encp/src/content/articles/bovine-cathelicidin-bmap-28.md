@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Bovine Cathelicidin BMAP-28
-
 ## Overview
 
 Cathelicidin from bovine neutrophils with broad-spectrum antimicrobial properties.

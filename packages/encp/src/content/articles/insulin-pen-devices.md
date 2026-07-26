@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Insulin Pen Devices
-
 ## Overview
 
 Mechanical and electronic insulin pen devices including dose memory and bluetooth connectivity.

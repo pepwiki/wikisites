@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# INS-7 (C. elegans)
-
 ## Overview
 
 INS-7 (C. elegans) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans.

@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# GLP-1 Immunomodulatory Effects
-
 ## Overview
 
 Immune-modulating properties including macrophage polarization and cytokine reduction.

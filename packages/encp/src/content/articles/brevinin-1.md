@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Brevinin-1
-
 ## Overview
 
 Frog skin AMP with C-terminal cyclic heptapeptide disulfide bridge for bactericidal activity.

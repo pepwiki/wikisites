@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Gecko Venom Peptide
-
 ## Overview
 
 Gecko Venom Peptide is a bioactive peptide with well-characterized properties and therapeutic applications.

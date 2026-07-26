@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sunvozertinib
-
 ## Overview
 
 Sunvozertinib is a bioactive peptide with well-characterized properties and therapeutic applications.

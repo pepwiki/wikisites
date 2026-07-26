@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Turtle Serum Peptides
-
 ## Overview
 
 Turtle Serum Peptides is a bioactive peptide with well-characterized properties and therapeutic applications.

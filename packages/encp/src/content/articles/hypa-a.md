@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Hypa A
-
 ## Overview
 
 Hypa A is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hedyotis biflora.

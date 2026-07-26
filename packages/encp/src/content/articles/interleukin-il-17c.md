@@ -1,6 +1,6 @@
 ---
 title: "Interleukin IL-17C: Oligopeptide Research Reference"
-description: "Comprehensive reference for interleukin IL-17C, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for interleukin IL-17C, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

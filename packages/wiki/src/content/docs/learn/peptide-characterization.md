@@ -5,8 +5,6 @@ title: "Peptide Characterization — Analytical Identification"
 description: "Guide to peptide characterization methods — mass spectrometry, HPLC, NMR spectroscopy, and quality control specifications."
 ---
 
-# Peptide Characterization
-
 Thorough characterization of synthetic peptides is essential for confirming identity, assessing purity, and establishing structure-activity relationships. This guide covers analytical methods and quality specifications.
 
 ## Characterization Workflow

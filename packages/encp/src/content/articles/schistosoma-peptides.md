@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Schistosoma Peptides
-
 ## Overview
 
 Schistosoma Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Schistosoma mansoni, S. haematobium, S. japonicum.

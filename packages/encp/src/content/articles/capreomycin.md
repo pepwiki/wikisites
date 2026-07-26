@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Capreomycin
-
 ## Overview
 
 Capreomycin is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GLP-1 Pancreatitis Risk
-
 ## Overview
 
 Evidence examining pancreatitis risk with GLP-1 agonist therapy in type 2 diabetes.

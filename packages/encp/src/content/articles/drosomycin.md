@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Drosomycin
-
 ## Overview
 
 Antifungal defensin from Drosophila hemolymph providing innate immune defense.

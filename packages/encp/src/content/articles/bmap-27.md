@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# BMAP-27
-
 ## Overview
 
 BMAP-27 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bos taurus (Cattle).

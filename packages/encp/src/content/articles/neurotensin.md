@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Neurotensin
-
 ## Discovery and Distribution
 
 Neurotensin was first isolated in 1973 by Carraway and Leeman from bovine hypothalamus using a bioassay based on melanocyte-stimulating hormone release inhibition. The peptide is widely distributed in the mammalian central nervous system, with particularly high concentrations in the hypothalamus, amygdala, and nucleus accumbens. In the periphery, neurotensin is found in enteroendocrine N cells of the small intestine, where it functions as a gut hormone regulating lipid absorption and gallbladder motility.

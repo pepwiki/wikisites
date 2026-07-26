@@ -1,6 +1,6 @@
 ---
 title: "Adiponectin 1-30: Peptide Fragment Reference"
-description: "Comprehensive reference for adiponectin 1-30 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for adiponectin 1-30 variant, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

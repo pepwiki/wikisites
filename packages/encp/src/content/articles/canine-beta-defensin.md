@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Canine Beta-Defensin
-
 ## Overview
 
 Canine Beta-Defensin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Canis lupus familiaris (Dog).

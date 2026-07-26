@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# NPY → Y1R
-
 ## Overview
 
 NPY → Y1R is a bioactive peptide with well-characterized properties and therapeutic applications.

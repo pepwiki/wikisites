@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Stapled Peptides in Cancer
-
 Stapled peptides represent a class of rationally designed alpha-helical peptides constrained by hydrocarbon cross-links that enhance binding affinity, protease resistance, and cell permeability. Originally developed to disrupt protein-protein interactions deemed undruggable by small molecules, stapled peptides have advanced into clinical oncology trials.
 
 ## Stapling Chemistry

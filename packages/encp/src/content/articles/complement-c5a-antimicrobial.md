@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Complement C5a Antimicrobial
-
 ## Overview
 
 Potent anaphylatoxin with immunomodulatory and direct antimicrobial functions.

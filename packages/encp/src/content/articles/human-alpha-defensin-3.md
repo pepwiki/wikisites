@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Human Alpha-Defensin 3
-
 ## Overview
 
 Neutrophil defensin with strongest bactericidal activity and membrane disruption capability.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Gaduscidin 1
-
 ## Overview
 
 Gaduscidin 1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Atlantic cod (Gadus morhua).

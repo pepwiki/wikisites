@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# NLP-8 (C. elegans)
-
 ## Overview
 
 NLP-8 (C. elegans) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Caenorhabditis elegans.

@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: ["thymosin-alpha-1-vs-interferon", "thymosin-alpha-1-vs-interferon"]
 ---
 
-# Thymosin Alpha-1 vs Interferon: Immune Modulation
-
 ## Introduction
 
 Thymosin alpha-1 (Tα1) and interferon-alpha (IFN-α) are immunomodulatory agents used in infectious diseases, cancer, and immune deficiency states. Tα1 is a 28-amino acid thymic peptide that enhances adaptive immunity, while IFN-α is a type I interferon with direct antiviral and immunostimulatory properties. This comparison examines their mechanisms, efficacy, and clinical roles.

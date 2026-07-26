@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Wasp Venom Bioactive Peptides
-
 ## Overview
 
 Discovery and characterization of bioactive peptides from wasp venoms.

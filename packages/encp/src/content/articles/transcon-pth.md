@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# TransCon PTH
-
 ## Overview
 
 Long-acting prodrug of PTH(1-34) using TransCon technology for continuous release.

@@ -1,6 +1,6 @@
 ---
 title: "Leptin 1-120: Peptide Fragment Reference"
-description: "Comprehensive reference for leptin 1-120 variant, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for leptin 1-120 variant, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

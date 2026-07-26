@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Bursicon
-
 ## Overview
 
 Bursicon is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Drosophila melanogaster (fruit fly).

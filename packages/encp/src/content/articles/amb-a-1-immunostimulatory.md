@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Amb a 1 Immunostimulatory
-
 ## Overview
 
 Amb a 1 Immunostimulatory is a bioactive peptide with well-characterized properties and therapeutic applications.

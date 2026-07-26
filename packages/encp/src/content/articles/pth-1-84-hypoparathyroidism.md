@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# PTH 1-84 Hypoparathyroidism
-
 ## Overview
 
 Full-length parathyroid hormone for hypoparathyroidism replacement providing calcium homeostasis.

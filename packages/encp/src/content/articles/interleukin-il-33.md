@@ -1,6 +1,6 @@
 ---
 title: "Interleukin IL-33: Oligopeptide Research Reference"
-description: "Comprehensive reference for interleukin IL-33, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for interleukin IL-33, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Imipenem/Relebactam
-
 ## Overview
 
 Imipenem/Relebactam is a bioactive peptide with well-characterized properties and therapeutic applications.

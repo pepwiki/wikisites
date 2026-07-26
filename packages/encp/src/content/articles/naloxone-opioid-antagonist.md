@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Naloxone Opioid Antagonist
-
 ## Overview
 
 Competitive opioid antagonist for emergency overdose reversal.

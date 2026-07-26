@@ -68,7 +68,7 @@ lessons:
 
 import { Card, CardGrid, Badge, TabItem, Tabs } from '~/components';
 
-# Oligopeptide Science: Rigorous Foundations
+## Oligopeptide Science: Rigorous Foundations
 
 Ten scientifically rigorous lessons providing quantitative treatment of peptide science — from quantum-mechanical amino acid chemistry through regulatory science for peptide drug approvals.
 

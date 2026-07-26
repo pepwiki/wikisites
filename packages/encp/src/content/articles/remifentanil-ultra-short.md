@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Remifentanil Ultra-Short
-
 ## Overview
 
 Ultra-short-acting opioid with esterase metabolism for surgical anesthesia.

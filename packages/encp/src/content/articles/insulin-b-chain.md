@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Insulin B-Chain
-
 ## Overview
 
 The insulin B-chain is a 30-amino acid polypeptide that, together with the 21-amino acid A-chain, constitutes the mature insulin molecule. First sequenced by Frederick Sanger in 1951, insulin was the first protein to have its complete amino acid sequence determined, a landmark achievement in biochemistry. The B-chain serves as the primary scaffold for receptor recognition and plays a critical role in maintaining the structural integrity of the insulin hexamer.

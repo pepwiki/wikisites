@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# T-Kinin
-
 ## Overview
 
 T-Kinin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Rana temporaria.

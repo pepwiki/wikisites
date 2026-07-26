@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Social Behavior Neuropeptides
-
 ## Overview
 
 Neuropeptides mediating social bonding, recognition, and interaction.

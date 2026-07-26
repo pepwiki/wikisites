@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# PG-2 (Porcine)
-
 ## Overview
 
 PG-2 (Porcine) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Sus scrofa (Pig).

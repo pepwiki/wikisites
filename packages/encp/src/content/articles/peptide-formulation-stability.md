@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Peptide Stability in Formulation
-
 ## Overview
 
 Peptide therapeutics are inherently susceptible to multiple degradation pathways that compromise potency, safety, and shelf life. Formulation development for peptide drugs must address chemical degradation—including hydrolysis, oxidation, deamidation, and racemization—as well as physical instabilities such as aggregation, fibrillation, and adsorption to container surfaces. The selection of excipients, pH conditions, and processing methods represents a critical stage in translating peptide candidates into viable pharmaceutical products.

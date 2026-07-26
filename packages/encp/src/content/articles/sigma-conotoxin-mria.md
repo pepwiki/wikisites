@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sigma-Conotoxin MrIA
-
 ## Overview
 
 Serotonin transporter inhibitor from Conus marmoreus with antidepressant potential.

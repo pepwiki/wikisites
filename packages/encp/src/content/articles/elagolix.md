@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Elagolix
-
 ## Overview
 
 Oral GnRH antagonist for endometriosis-associated pain with dose-dependent estrogen suppression.

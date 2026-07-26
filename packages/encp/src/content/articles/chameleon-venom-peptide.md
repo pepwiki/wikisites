@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chameleon Venom Peptide
-
 ## Overview
 
 Chameleon Venom Peptide is a bioactive peptide with well-characterized properties and therapeutic applications.

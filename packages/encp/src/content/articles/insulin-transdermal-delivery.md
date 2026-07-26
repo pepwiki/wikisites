@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Insulin Transdermal Delivery
-
 ## Overview
 
 Microneedle and iontophoresis technologies enabling transdermal insulin delivery across stratum corneum.

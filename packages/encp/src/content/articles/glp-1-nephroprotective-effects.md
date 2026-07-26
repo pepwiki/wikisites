@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# GLP-1 Nephroprotective Effects
-
 ## Overview
 
 Renal protective effects including natriuresis and glomerular hyperfiltration reduction.

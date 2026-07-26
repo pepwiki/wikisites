@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Phospho-tau 181 (p-tau181)
-
 ## Overview
 
 Phospho-tau 181 (p-tau181) is a bioactive peptide with well-characterized properties and therapeutic applications.

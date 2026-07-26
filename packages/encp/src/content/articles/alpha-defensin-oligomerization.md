@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Alpha-Defensin Oligomerization
-
 ## Overview
 
 Oligomerization forming pore-like structures in bacterial membranes.

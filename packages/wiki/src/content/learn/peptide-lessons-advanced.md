@@ -68,7 +68,7 @@ lessons:
 
 import { Card, CardGrid, Badge, TabItem, Tabs } from '~/components';
 
-# Oligopeptide Science: Advanced Specialized Topics
+## Oligopeptide Science: Advanced Specialized Topics
 
 Ten advanced lessons covering specialized areas of peptide science — from natural product pharmacology through regulatory science and emerging therapeutic modalities.
 

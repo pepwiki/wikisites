@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Ubiquitin → Proteasome (Degradation Signal)
-
 ## Overview
 
 Ubiquitin → Proteasome (Degradation Signal) is a bioactive peptide with well-characterized properties and therapeutic applications.

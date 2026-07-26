@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# CCK-8 (Sulfated)
-
 ## Overview
 
 CCK-8 (Sulfated) is a bioactive peptide with well-characterized properties and therapeutic applications.

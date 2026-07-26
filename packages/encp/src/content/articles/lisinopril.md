@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Lisinopril
-
 ## Overview
 
 Lisinopril is a bioactive peptide with well-characterized properties and therapeutic applications.

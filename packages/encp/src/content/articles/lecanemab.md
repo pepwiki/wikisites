@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Lecanemab
-
 ## Overview
 
 Lecanemab is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Crabrolin (Vespa)
-
 ## Overview
 
 Crabrolin (Vespa) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Vespa crabro (European hornet).

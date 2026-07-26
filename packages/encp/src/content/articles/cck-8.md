@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Cholecystokinin-8
-
 ## Biosynthesis and Processing
 
 Cholecystokinin is synthesized as a preprohormone of 115 amino acids in enteroendocrine I cells of the duodenum and jejunum, as well as in select neuronal populations of the central nervous system. Prohormone convertases cleave the precursor to yield multiple bioactive forms, including CCK-58, CCK-33, CCK-22, and the octapeptide CCK-8. The C-terminal octapeptide (Asp-Tyr-Met-Gly-Trp-Met-Asp-Phe-NH2) retains full biological activity and is the predominant form in the brain. Sulfation of Tyr7 produces CCK-8(S), while the unsulfated form is CCK-8(U), each exhibiting differential receptor selectivity.

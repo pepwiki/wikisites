@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cat-PAD
-
 ## Overview
 
 Cat-PAD is a bioactive peptide with well-characterized properties and therapeutic applications.

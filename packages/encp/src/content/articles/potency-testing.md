@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Potency Testing
-
 ## Overview
 
 Potency Testing is a bioactive peptide with well-characterized properties and therapeutic applications.

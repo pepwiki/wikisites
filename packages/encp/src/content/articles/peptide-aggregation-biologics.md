@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Peptide Aggregation in Biologics
-
 Peptide aggregation represents a critical quality attribute concern in biologics development, with aggregation potentially compromising therapeutic efficacy, altering pharmacokinetics, and provoking immunogenic responses. Understanding aggregation pathways and implementing mitigation strategies are essential for developing safe and effective peptide therapeutics.
 
 ## Amyloid Formation Pathways

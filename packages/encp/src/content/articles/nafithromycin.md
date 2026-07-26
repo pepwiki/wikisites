@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Nafithromycin
-
 ## Overview
 
 Nafithromycin is a bioactive peptide with well-characterized properties and therapeutic applications.

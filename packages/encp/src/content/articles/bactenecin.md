@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Bactenecin
-
 ## Overview
 
 Bactenecin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Bos taurus (Cattle).

@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Insulin Efsitora Alfa
-
 ## Overview
 
 Weekly basal insulin Fc fusion protein combining insulin efsitora with human IgG2 Fc for extended half-life.

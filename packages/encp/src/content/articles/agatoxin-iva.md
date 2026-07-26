@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# ω-Agatoxin IVA
-
 ## Overview
 
 ω-Agatoxin IVA is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Alpha-Endorphin
-
 ## Overview
 
 Shorter POMC-derived opioid with mu-opioid receptor activity.

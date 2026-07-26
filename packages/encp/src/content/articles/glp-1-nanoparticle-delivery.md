@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# GLP-1 Nanoparticle Delivery
-
 ## Overview
 
 Nanoparticle encapsulation strategies including PLGA microspheres and lipid nanoparticles.

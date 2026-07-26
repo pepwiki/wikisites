@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Airway Surface Liquid Peptides
-
 ## Overview
 
 Antimicrobial peptides in airway surface liquid protecting against respiratory infections.

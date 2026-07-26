@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Biotin-Streptavidin
-
 ## Overview
 
 Biotin-Streptavidin is a bioactive peptide with well-characterized properties and therapeutic applications.

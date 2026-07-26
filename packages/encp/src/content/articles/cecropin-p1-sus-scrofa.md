@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cecropin P1 (Sus scrofa)
-
 ## Overview
 
 Cecropin P1 (Sus scrofa) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Sus scrofa (pig intestine) - cecropin homolog.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Histrelin Implant
-
 ## Overview
 
 Histrelin Implant is a bioactive peptide with well-characterized properties and therapeutic applications.

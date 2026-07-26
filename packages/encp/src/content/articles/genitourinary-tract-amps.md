@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Genitourinary Tract AMPs
-
 ## Overview
 
 Antimicrobial peptides in genitourinary tract protecting against urogenital infections.

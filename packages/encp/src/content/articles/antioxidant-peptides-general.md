@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Antioxidant Peptides (General)
-
 ## Overview
 
 Antioxidant Peptides (General) is a bioactive peptide with well-characterized properties and therapeutic applications.

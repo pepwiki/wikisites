@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Pulmonary Peptide Delivery
-
 ## Overview
 
 Inhaled peptide formulations for lung delivery targeting respiratory or systemic effects.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# δ-Palutoxins
-
 ## Overview
 
 δ-Palutoxins is a bioactive peptide with well-characterized properties and therapeutic applications.

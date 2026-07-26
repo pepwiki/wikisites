@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Ubrogepant
-
 ## Overview
 
 Oral CGRP receptor antagonist for acute migraine treatment providing pain freedom.

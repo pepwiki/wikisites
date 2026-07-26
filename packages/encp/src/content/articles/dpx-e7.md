@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# DPX-E7
-
 ## Overview
 
 DPX-E7 is a bioactive peptide with well-characterized properties and therapeutic applications.

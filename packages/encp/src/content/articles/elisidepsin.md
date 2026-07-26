@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Elisidepsin
-
 ## Overview
 
 Elisidepsin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Synthetic analog of Kahalalide F.

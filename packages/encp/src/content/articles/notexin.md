@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Notexin
-
 ## Overview
 
 Notexin is a bioactive peptide with well-characterized properties and therapeutic applications.

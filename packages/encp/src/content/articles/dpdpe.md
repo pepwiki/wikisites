@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# DPDPE
-
 ## Overview
 
 Cyclic delta-opioid peptide agonist with improved metabolic stability.

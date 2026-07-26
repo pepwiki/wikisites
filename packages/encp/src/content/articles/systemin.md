@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Systemin
-
 ## Overview
 
 Systemin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Solanum lycopersicum (Tomato).

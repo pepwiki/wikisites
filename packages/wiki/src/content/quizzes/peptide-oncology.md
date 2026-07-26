@@ -282,7 +282,7 @@ export const questions = [
   }
 ];
 
-# Peptide Oncology Quiz
+## Peptide Oncology Quiz
 
 Test your understanding of peptides in oncology, from tumor antigens and cancer vaccines to radiolabeled therapeutics and personalized medicine.
 

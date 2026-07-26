@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Bepranemab
-
 ## Overview
 
 Bepranemab is a bioactive peptide with well-characterized properties and therapeutic applications.

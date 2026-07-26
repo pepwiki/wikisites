@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Gliadin
-
 ## Overview
 
 Gliadin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Triticum aestivum (Wheat).

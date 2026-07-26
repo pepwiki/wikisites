@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# α-Conotoxin Vc1.1
-
 ## Overview
 
 α-Conotoxin Vc1.1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Conus victoriae (Victorian cone).

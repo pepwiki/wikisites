@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide Lyophilization
-
 ## Overview
 
 Lyophilization protocols for stabilizing peptide drugs in solid form.

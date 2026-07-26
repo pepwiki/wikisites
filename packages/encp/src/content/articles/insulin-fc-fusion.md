@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Insulin Fc Fusion
-
 ## Overview
 
 Genetically engineered insulin-Fc fusion protein utilizing neonatal Fc receptor recycling for weekly basal dosing.

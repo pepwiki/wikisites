@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Neuropeptide FF
-
 ## Overview
 
 Octapeptide with opioid-modulating and cardiovascular effects.

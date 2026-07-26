@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# α-Bungarotoxin
-
 ## Overview
 
 α-Bungarotoxin is a bioactive peptide with well-characterized properties and therapeutic applications.

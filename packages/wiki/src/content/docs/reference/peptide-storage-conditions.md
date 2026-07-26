@@ -4,7 +4,7 @@ author: "Wikipept Contributors"
 title: "Peptide Storage Conditions — Temperature and Humidity"
 description: "Storage conditions for lyophilized and reconstituted peptides — temperature, humidity, light, and container requirements."
 ---
-# Peptide Storage Conditions
+Proper storage maintains peptide stability and potency. This reference covers temperature, humidity, light, and container requirements for lyophilized and reconstituted peptides.
 
 ## Lyophilized Peptides
 
@@ -40,5 +40,23 @@ description: "Storage conditions for lyophilized and reconstituted peptides — 
 3. **Aliquot before freezing** (avoid freeze-thaw cycles)
 4. **Protect from light** (photodegradation of aromatic residues)
 5. **Track expiry dates** (label vials with date and concentration)
+
+## Container Requirements
+
+| Container | Best For | Avoid | Notes |
+|-----------|----------|-------|-------|
+| Borosilicate glass vials | All peptides | — | Industry standard |
+| Type I glass | Injectable | — | Low extractables |
+| PP centrifuge tubes | Research | Long-term storage | May leach plasticizers |
+| Cryovials | -80°C storage | Room temperature | Screw-cap, O-ring |
+
+## Humidity and Light Control
+
+| Factor | Effect on Peptides | Control Method |
+|--------|-------------------|----------------|
+| High humidity | Hydrolysis, microbial growth | Desiccant, sealed containers |
+| Direct light | Photodegradation (Trp, Tyr) | Amber vials, dark storage |
+| UV exposure | Backbone cleavage | UV-filtered lighting |
+| Oxygen | Oxidation (Met, Cys) | Inert atmosphere (N₂/Ar) |
 
 Storage supplies available from [Kingston Peptides](https://kingstonpeptides.com)

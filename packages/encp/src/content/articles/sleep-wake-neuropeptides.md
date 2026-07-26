@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sleep-Wake Neuropeptides
-
 ## Overview
 
 Neuropeptides regulating circadian rhythms and sleep-wake transitions.

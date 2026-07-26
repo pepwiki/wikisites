@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Botulinum Toxin B
-
 ## Overview
 
 Botulinum Toxin B is a bioactive peptide with well-characterized properties and therapeutic applications.

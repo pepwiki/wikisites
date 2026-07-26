@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Hirudin HV3
-
 ## Overview
 
 Hirudin HV3 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hirudo medicinalis (medicinal leech).

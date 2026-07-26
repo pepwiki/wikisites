@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Human Alpha-Defensin 4
-
 ## Overview
 
 Neutrophil defensin with activity against intracellular pathogens including tuberculosis.

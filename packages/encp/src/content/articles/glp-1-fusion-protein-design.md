@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# GLP-1 Fusion Protein Design
-
 ## Overview
 
 Engineering GLP-1 Fc fusion proteins and albumin fusions for extended half-life.

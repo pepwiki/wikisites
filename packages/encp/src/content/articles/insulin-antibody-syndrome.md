@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Insulin Antibody Syndrome
-
 ## Overview
 
 Rare condition of high-affinity insulin autoantibodies causing unpredictable glycemic excursions.

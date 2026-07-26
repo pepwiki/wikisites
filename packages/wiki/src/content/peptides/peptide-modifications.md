@@ -5,8 +5,6 @@ title: Peptide Modifications Database
 description: Comprehensive database of peptide modifications with structural, stability, and pharmacological data
 ---
 
-# Peptide Modifications Database
-
 Structured reference for peptide modifications organized by category.
 
 ---

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Oxytocin Social Bonding
-
 ## Overview
 
 Central oxytocin effects on pair bonding, trust, and social recognition.

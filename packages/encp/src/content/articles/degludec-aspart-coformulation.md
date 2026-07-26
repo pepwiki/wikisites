@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Degludec-Aspart Coformulation
-
 ## Overview
 
 Co-formulation combining ultra-long-acting degludec with rapid-acting aspart for flexible basal-bolus coverage.

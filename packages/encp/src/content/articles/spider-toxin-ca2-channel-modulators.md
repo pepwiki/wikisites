@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Spider Toxin Ca2+ Channel Modulators
-
 ## Overview
 
 Calcium channel modulating peptides from spider venom.

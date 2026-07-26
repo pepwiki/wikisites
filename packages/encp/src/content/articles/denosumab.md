@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Denosumab
-
 ## Overview
 
 RANKL inhibitor monoclonal antibody preventing osteoclast formation for bone density improvement.

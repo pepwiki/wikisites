@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# PAFP-S
-
 ## Overview
 
 PAFP-S is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Phytolacca americana (Pokeweed).

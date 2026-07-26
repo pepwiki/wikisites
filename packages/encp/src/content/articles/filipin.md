@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Filipin
-
 ## Overview
 
 Filipin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Streptomyces filipinensis (actinomycete).

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Feline Beta-Defensin
-
 ## Overview
 
 Feline Beta-Defensin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Felis catus (Cat).

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# CSTX-1
-
 ## Overview
 
 CSTX-1 is a bioactive peptide with well-characterized properties and therapeutic applications.

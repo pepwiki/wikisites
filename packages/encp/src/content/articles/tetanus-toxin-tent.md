@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Tetanus Toxin (TeNT)
-
 ## Overview
 
 Tetanus Toxin (TeNT) is a bioactive peptide with well-characterized properties and therapeutic applications.

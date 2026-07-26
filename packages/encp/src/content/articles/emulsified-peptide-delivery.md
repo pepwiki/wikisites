@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Emulsified Peptide Delivery
-
 ## Overview
 
 Oil-in-water emulsions for oral peptide delivery with lipid-based absorption enhancement.

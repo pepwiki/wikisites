@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Peptide Vaccine Design
-
 ## Overview
 
 Peptide vaccines utilize synthetic peptide epitopes derived from pathogen-derived proteins to elicit targeted humoral and cellular immune responses. Unlike whole-inactivated or live-attenuated vaccines, peptide-based approaches offer defined composition, improved safety profiles, and scalable manufacturing. However, the intrinsic immunological simplicity of short peptides necessitates careful design of epitope selection, adjuvant systems, and delivery platforms to achieve clinically meaningful protective immunity.

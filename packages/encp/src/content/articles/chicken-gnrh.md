@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chicken GnRH
-
 ## Overview
 
 Chicken GnRH is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GLP-1 Bone Effects
-
 ## Overview
 
 Skeletal effects including bone formation promotion and fracture risk reduction in diabetes.

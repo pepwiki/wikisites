@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# NPH Insulin
-
 ## Overview
 
 Intermediate-acting isophane insulin with protamine suspension providing peak action at 4-10 hours.

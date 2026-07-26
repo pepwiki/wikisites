@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Defensin Structural Motif
-
 ## Overview
 
 Six-cysteine disulfide framework defining alpha and beta defensin families.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Botulinum Toxin A
-
 ## Overview
 
 Botulinum Toxin A is a bioactive peptide with well-characterized properties and therapeutic applications.

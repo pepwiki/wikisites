@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Vasopressin Central Effects
-
 ## Overview
 
 Neuropeptide effects on social behavior, aggression, and memory in CNS.

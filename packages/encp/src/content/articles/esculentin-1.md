@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Esculentin-1
-
 ## Overview
 
 Esculentin-1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Rana esculenta (European green frog).

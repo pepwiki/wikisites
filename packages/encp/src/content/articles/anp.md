@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Atrial Natriuretic Peptide
-
 ## Overview
 
 Atrial natriuretic peptide (ANP) is a 28-amino acid peptide hormone secreted primarily by atrial cardiomyocytes in response to wall stretch caused by volume expansion. Discovered by de Bold in 1981, ANP was the first identified natriuretic peptide and established the heart as an endocrine organ. ANP is the prototype member of the natriuretic peptide family, which also includes B-type natriuretic peptide (BNP) and C-type natriuretic peptide (CNP).

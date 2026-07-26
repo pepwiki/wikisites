@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Micafungin
-
 ## Overview
 
 Echinocandin antifungal for invasive fungal infections including candidemia.

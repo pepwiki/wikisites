@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Poly-Arg Peptides
-
 ## Overview
 
 Poly-Arg Peptides is a bioactive peptide with well-characterized properties and therapeutic applications.

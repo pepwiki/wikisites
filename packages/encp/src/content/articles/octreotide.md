@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Octreotide
-
 ## Overview
 
 Long-acting somatostatin analog with D-Phe and Thr-ol for acromegaly and carcinoid tumors.

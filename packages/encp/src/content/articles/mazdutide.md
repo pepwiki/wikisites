@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Mazdutide
-
 ## Overview
 
 Mazdutide is a bioactive peptide with well-characterized properties and therapeutic applications.

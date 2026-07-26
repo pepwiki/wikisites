@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Spidroin II (Nephila)
-
 ## Overview
 
 Spidroin II (Nephila) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Nephila clavipes (golden orb-weaver spider).

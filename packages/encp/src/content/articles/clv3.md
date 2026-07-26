@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# CLV3
-
 ## Overview
 
 CLV3 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Arabidopsis thaliana.

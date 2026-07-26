@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: ["peptide-synthesis-methods", "peptide-stability", "amino-acids"]
 ---
 
-# Peptide Stability
-
 Peptide stability determines how long a peptide maintains its structure and function during storage and use. Understanding degradation pathways enables proper storage conditions and formulation strategies to maximize peptide utility.
 
 ## Major Degradation Pathways

@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Aspart Pump Cartridge
-
 ## Overview
 
 Preservative-free insulin aspart for pump cartridges with 48-hour reservoir dwell time stability.

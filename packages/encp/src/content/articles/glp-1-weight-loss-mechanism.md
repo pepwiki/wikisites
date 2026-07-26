@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GLP-1 Weight Loss Mechanism
-
 ## Overview
 
 Multi-organ mechanisms including central appetite suppression and peripheral energy expenditure.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Dynorphin Stress Response
-
 ## Overview
 
 Role of dynorphin/kappa-opioid system in stress and dysphoria.

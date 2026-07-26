@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Protegrin 1
-
 ## Overview
 
 Protegrin 1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Sus scrofa (Pig).

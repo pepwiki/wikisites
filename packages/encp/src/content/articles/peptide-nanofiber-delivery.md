@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Peptide Nanofiber Delivery
-
 ## Overview
 
 Self-assembling peptide nanofibers for localized drug delivery.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Electrophoresis
-
 ## Overview
 
 Electrophoresis is a bioactive peptide with well-characterized properties and therapeutic applications.

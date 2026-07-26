@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# His-tag → Ni-NTA (Affinity Purification)
-
 ## Overview
 
 His-tag → Ni-NTA (Affinity Purification) is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Goose Cathelicidin
-
 ## Overview
 
 Goose Cathelicidin is a bioactive peptide with well-characterized properties and therapeutic applications.

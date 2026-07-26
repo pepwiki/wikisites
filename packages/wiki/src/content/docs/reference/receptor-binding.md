@@ -5,8 +5,6 @@ title: "Peptide Receptor Binding Affinities"
 description: "Reference table of Kd, EC50, selectivity ratios, and clinical significance for therapeutic peptide receptor binding data."
 ---
 
-# Peptide Receptor Binding Affinities
-
 Quantitative binding and functional data for therapeutically relevant peptide-receptor interactions.
 
 ## G-Protein Coupled Receptors (GPCRs)

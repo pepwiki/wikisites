@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GLP-1 Adipose Tissue Effects
-
 ## Overview
 
 Effects on lipolysis, adipokine secretion, and browning of white adipose tissue.

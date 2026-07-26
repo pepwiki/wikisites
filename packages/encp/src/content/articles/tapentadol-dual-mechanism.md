@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Tapentadol Dual Mechanism
-
 ## Overview
 
 Opioid agonist and norepinephrine reuptake inhibitor for moderate to severe pain.

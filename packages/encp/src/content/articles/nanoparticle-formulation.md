@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Nanoparticle Formulation
-
 ## Overview
 
 Nanoparticle Formulation is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Lofentanil Long-Acting
-
 ## Overview
 
 Extremely potent long-acting synthetic opioid analog.

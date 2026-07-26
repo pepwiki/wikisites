@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Fish Collagen Peptides
-
 ## Overview
 
 Fish Collagen Peptides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Various (cod, salmon, tilapia, pangasius).

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sea Anemone Toxin ATX-II
-
 ## Overview
 
 Sodium channel modulator from Anemonia sulcata with cardiotoxic effects.

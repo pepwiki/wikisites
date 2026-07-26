@@ -20,8 +20,6 @@ categories:
 last_updated: 2024
 ---
 
-# Peptide-Related Diseases Database
-
 This database catalogs diseases with significant peptide involvement, including dysregulated peptide pathways, diagnostic biomarkers, and peptide-based therapeutic approaches.
 
 ## Disease Statistics

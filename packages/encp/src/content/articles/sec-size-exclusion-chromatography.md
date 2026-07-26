@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# SEC (Size Exclusion Chromatography)
-
 ## Overview
 
 SEC (Size Exclusion Chromatography) is a bioactive peptide with well-characterized properties and therapeutic applications.

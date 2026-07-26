@@ -4,7 +4,7 @@ author: "Wikipept Contributors"
 title: "Peptide Reconstitution Guide — Diluent Selection Data"
 description: "Guide for reconstituting lyophilized peptides — techniques, calculations, buffer selection, and storage after reconstitution."
 ---
-# Peptide Reconstitution Guide
+Proper reconstitution of lyophilized peptides is essential for maintaining bioactivity and preventing aggregation. This guide covers diluent selection, calculation methods, and best practices.
 
 ## Equipment Needed
 
@@ -24,6 +24,16 @@ description: "Guide for reconstituting lyophilized peptides — techniques, calc
 6. **Wait** for complete dissolution (5-15 minutes)
 7. **Inspect** for clarity (no particles, no cloudiness)
 8. **Store** at 2-8°C
+
+## Diluent Selection Guide
+
+| Diluent | Best For | Avoid With | Notes |
+|---------|----------|------------|-------|
+| BAC water | Most peptides | — | Standard choice |
+| Sterile saline | Injection only | SPPS intermediates | No preservative |
+| PBS buffer | Assays | Calcium-containing | Physiological pH |
+| Acetic acid (0.1%) | Peptides with basic residues | — | May improve solubility |
+| DMSO | Hydrophobic peptides | Injection | Research only |
 
 ## Common Mistakes
 

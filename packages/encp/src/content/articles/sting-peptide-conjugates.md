@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# STING Peptide Conjugates
-
 ## Overview
 
 STING Peptide Conjugates is a bioactive peptide with well-characterized properties and therapeutic applications.

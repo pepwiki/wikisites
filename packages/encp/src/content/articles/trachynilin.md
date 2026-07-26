@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Trachynilin
-
 ## Overview
 
 Trachynilin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Stonefish (Synanceia trachynis).

@@ -1,6 +1,6 @@
 ---
 title: "Fibroblast Growth Factor 1-50: Comprehensive Peptide Refe..."
-description: "Comprehensive reference for fibroblast growth factor 1-50, covering molecular structure, pharmacological properties, receptor interactions, and applications in peptide research and drug development."
+description: "Comprehensive reference for fibroblast growth factor 1-50, covering molecular structure, pharmacological properties, receptor interactions,"
 status: "published"
 author: "Encyclopeptide Editorial"
 pubDate: 2026-06-16

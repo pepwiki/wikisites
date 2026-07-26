@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Angiotensin I
-
 ## Biosynthesis
 
 Angiotensin I is generated through proteolytic cleavage of the N-terminal leucine residue from angiotensinogen, a 453-amino acid glycoprotein produced constitutively by the liver. This conversion is catalyzed by renin, an aspartyl protease secreted by juxtaglomerular cells of the kidney in response to reduced renal perfusion pressure, sympathetic stimulation, and decreased sodium delivery to the macula densa. The resulting decapeptide (Asp-Arg-Val-Tyr-Ile-His-Pro-Phe-His-Leu) possesses minimal intrinsic biological activity but serves as the essential precursor for angiotensin II generation.

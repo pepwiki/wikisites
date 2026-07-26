@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# PACAP
-
 ## Overview
 
 Neuropeptide structurally related to VIP with widespread CNS and peripheral effects.

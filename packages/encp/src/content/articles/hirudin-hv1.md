@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Hirudin HV1
-
 ## Overview
 
 Hirudin HV1 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hirudo medicinalis (medicinal leech).

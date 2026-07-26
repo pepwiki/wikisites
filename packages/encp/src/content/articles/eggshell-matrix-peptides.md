@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Eggshell Matrix Peptides
-
 ## Overview
 
 Eggshell Matrix Peptides is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chitosan Nanoparticles Oral
-
 ## Overview
 
 Chitosan-based nanoparticles enhancing oral peptide bioavailability through mucoadhesion.

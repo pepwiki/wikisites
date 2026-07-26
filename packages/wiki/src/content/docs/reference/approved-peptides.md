@@ -5,8 +5,6 @@ title: "FDA-Approved Peptide Drugs — Complete Therapeutic List"
 description: Complete reference of FDA-approved peptide therapeutics with approval year, indication, mechanism, sponsor, and route of administration.
 ---
 
-# FDA-Approved Peptide Drugs
-
 All FDA-approved peptide and peptide-based therapeutics as of 2026. Includes native peptide hormones, analogs, and peptide-conjugate drugs.
 
 ## Diabetes / Metabolic

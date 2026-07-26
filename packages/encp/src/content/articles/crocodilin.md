@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Crocodilin
-
 ## Overview
 
 Crocodilin is a bioactive peptide with well-characterized properties and therapeutic applications.

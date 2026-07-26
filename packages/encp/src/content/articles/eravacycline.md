@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Eravacycline
-
 ## Overview
 
 Eravacycline is a bioactive peptide with well-characterized properties and therapeutic applications.

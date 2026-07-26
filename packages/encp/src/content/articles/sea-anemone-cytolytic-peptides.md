@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Sea Anemone Cytolytic Peptides
-
 ## Overview
 
 Cytolytic peptides from sea anemone causing cell membrane disruption.

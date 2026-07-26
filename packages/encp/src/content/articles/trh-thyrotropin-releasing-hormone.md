@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# TRH (Thyrotropin-releasing hormone)
-
 ## Overview
 
 TRH (Thyrotropin-releasing hormone) is a bioactive peptide with well-characterized properties and therapeutic applications.

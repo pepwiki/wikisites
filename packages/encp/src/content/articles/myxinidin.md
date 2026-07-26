@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Myxinidin
-
 ## Overview
 
 Myxinidin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hagfish (Myxine glutinosa).

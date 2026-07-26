@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Morphine-3-Glucuronide
-
 ## Overview
 
 Morphine metabolite with neuroexcitatory effects opposing M6G.

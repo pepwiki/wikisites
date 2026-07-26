@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Fish Gelatin
-
 ## Overview
 
 Fish Gelatin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Various (cod, salmon, tilapia, carp).

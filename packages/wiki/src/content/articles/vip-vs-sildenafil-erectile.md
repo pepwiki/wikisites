@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: ["vip-vs-sildenafil-erectile", "vip-vs-sildenafil-erectile", "vip-vs-sildenafil-erectile", "vip-vs-sildenafil-erectile"]
 ---
 
-# VIP vs Sildenafil: Erectile Dysfunction
-
 ## Introduction
 
 Erectile dysfunction (ED) affects 30–50% of men over 50 years. Sildenafil (Viagra) is a phosphodiesterase type 5 (PDE5) inhibitor and first-line pharmacotherapy. Vasoactive intestinal peptide (VIP) is a 28-amino acid neuropeptide with potent vasodilatory properties that has been investigated as an alternative or adjunct ED treatment. This comparison examines their mechanisms, efficacy, and clinical roles.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Endomorphin-1
-
 ## Overview
 
 Highly selective mu-opioid endogenous peptide from hypothalamus.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Lonapegsomatropin
-
 ## Overview
 
 PEGylated growth hormone prodrug releasing somatropin for once-weekly pediatric treatment.

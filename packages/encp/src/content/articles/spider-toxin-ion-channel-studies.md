@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Spider Toxin Ion Channel Studies
-
 ## Overview
 
 Use of spider toxins as tools to study ion channel function.

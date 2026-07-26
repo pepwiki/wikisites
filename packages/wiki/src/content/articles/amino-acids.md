@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: ["peptide-bonds", "protein-structure", "amino-acid-classification"]
 ---
 
-# Understanding Amino Acids
-
 ## What Are Amino Acids?
 
 Amino acids are organic molecules that serve as the building blocks of proteins and peptides. Each amino acid has:

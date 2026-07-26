@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chameleon Defensin
-
 ## Overview
 
 Chameleon Defensin is a bioactive peptide with well-characterized properties and therapeutic applications.

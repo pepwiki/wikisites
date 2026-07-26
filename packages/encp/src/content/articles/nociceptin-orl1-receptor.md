@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Nociceptin ORL1 Receptor
-
 ## Overview
 
 ORL1 receptor activated by nociceptin in pain, anxiety, and reward.

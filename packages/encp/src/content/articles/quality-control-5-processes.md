@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Quality Control (5 processes)
-
 ## Overview
 
 Quality Control (5 processes) is a bioactive peptide with well-characterized properties and therapeutic applications.

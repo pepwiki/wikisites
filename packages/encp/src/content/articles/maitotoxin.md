@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Maitotoxin
-
 ## Overview
 
 Maitotoxin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Gambierdiscus toxicus.

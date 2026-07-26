@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Semaglutide (Oral)
-
 ## Overview
 
 Semaglutide (Oral) is a bioactive peptide with well-characterized properties and therapeutic applications.

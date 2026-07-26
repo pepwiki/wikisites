@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# IEX (Ion Exchange Chromatography)
-
 ## Overview
 
 IEX (Ion Exchange Chromatography) is a bioactive peptide with well-characterized properties and therapeutic applications.

@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# GLP-1 and Alzheimers
-
 ## Overview
 
 Investigation of effects on amyloid pathology, tau phosphorylation, and cognitive decline.

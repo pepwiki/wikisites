@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Peptide 3D Printed Devices
-
 ## Overview
 
 3D-printed devices for personalized peptide drug delivery.

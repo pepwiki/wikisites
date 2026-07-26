@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Ecnoglutide
-
 ## Overview
 
 Ecnoglutide is a bioactive peptide with well-characterized properties and therapeutic applications.

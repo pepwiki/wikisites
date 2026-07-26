@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Echinocandin B
-
 ## Overview
 
 Echinocandin B is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Aspergillus nidulans var. echinulatus.

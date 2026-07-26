@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Granulysin Antimicrobial
-
 ## Overview
 
 Cytotoxic granule protein with direct activity against intracellular bacteria.

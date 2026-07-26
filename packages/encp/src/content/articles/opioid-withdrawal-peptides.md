@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Withdrawal Peptides
-
 ## Overview
 
 Role of endogenous opioids in withdrawal including anti-opioid peptide systems.

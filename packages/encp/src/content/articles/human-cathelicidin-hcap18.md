@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Human Cathelicidin hCAP18
-
 ## Overview
 
 Precursor protein of LL-37 with antimicrobial and immunomodulatory functions.

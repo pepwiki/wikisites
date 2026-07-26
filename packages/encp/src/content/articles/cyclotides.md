@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cyclotides
-
 ## Overview
 
 Cyclotides is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Viola odorata (Sweet Violet).

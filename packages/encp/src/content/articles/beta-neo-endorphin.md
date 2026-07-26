@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Beta-Neo-Endorphin
-
 ## Overview
 
 Prodynorphin-derived opioid with kappa-selectivity in hypothalamus.

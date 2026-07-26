@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# JSTX (Joro Spider Toxin)
-
 ## Overview
 
 JSTX (Joro Spider Toxin) is a bioactive peptide with well-characterized properties and therapeutic applications.

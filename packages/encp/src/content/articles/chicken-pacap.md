@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Chicken PACAP
-
 ## Overview
 
 Chicken PACAP is a bioactive peptide with well-characterized properties and therapeutic applications.

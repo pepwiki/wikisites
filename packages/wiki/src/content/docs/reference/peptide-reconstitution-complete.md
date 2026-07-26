@@ -5,8 +5,6 @@ title: "Peptide Reconstitution Complete"
 description: "Comprehensive reconstitution guide for all peptides — solvents, volumes, techniques, syringe selection, and stability data."
 ---
 
-# Complete Peptide Reconstitution Reference
-
 Comprehensive reconstitution protocols for all FDA-approved and major investigational peptides.
 
 ## Reconstitution Principles

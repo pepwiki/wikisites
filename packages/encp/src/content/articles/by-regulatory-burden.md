@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# By Regulatory Burden
-
 ## Overview
 
 By Regulatory Burden is a bioactive peptide with well-characterized properties and therapeutic applications.

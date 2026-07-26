@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Tetrodotoxin (TTX)
-
 ## Overview
 
 Tetrodotoxin (TTX) is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Takifugu (pufferfish), Taricha (newts).

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Orexin → OX1R
-
 ## Overview
 
 Orexin → OX1R is a bioactive peptide with well-characterized properties and therapeutic applications.

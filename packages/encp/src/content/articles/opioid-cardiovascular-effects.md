@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Opioid Cardiovascular Effects
-
 ## Overview
 
 Effects of endogenous opioids on heart rate and blood pressure.

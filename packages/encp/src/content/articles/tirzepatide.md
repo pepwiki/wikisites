@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Tirzepatide
-
 ## Overview
 
 Dual GIP/GLP-1 receptor agonist with C-20 fatty diacid for once-weekly dosing.

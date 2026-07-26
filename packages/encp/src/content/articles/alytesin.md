@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Alytesin
-
 ## Overview
 
 Alytesin is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Alytes obstetricans (Midwife toad).

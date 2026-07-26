@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Peptide-Based COVID Vaccines
-
 ## Overview
 
 Peptide-Based COVID Vaccines is a bioactive peptide with well-characterized properties and therapeutic applications.

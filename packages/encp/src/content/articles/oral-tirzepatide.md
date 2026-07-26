@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Oral Tirzepatide
-
 ## Overview
 
 Oral formulation of dual GIP/GLP-1 agonist tirzepatide using SNAC absorption technology.

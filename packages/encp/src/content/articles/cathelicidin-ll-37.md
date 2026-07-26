@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cathelicidin LL-37
-
 ## Overview
 
 Only human cathelicidin with broad-spectrum antimicrobial and immunomodulatory properties.

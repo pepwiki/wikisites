@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Somatropin
-
 ## Overview
 
 Recombinant human growth hormone identical to endogenous 191 amino acid pituitary GH.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: ["amino-acids", "structure", "spps"]
 ---
 
-# Peptide Bond Chemistry
-
 ## Introduction
 
 The peptide bond is the covalent chemical bond linking two amino acids together. It is the fundamental connection that forms the backbone of all peptides and proteins. Understanding peptide bond chemistry is essential for grasping protein structure, function, and synthesis.

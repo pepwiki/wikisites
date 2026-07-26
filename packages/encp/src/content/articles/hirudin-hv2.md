@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Hirudin HV2
-
 ## Overview
 
 Hirudin HV2 is a bioactive peptide with well-characterized properties and therapeutic applications. It is derived from Hirudo medicinalis (medicinal leech).

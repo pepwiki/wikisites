@@ -6,8 +6,6 @@ description: "Overview of peptide-related patents including therapeutic peptides
 lastUpdated: 2025-01-13
 ---
 
-# Peptide Patents Database
-
 export const patents = [
   // THERAPEUTIC PEPTIDE PATENTS
   {

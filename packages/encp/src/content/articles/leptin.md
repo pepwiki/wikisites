@@ -15,8 +15,6 @@ citation:
   year: 2024
 ---
 
-# Leptin
-
 ## Discovery and Gene Identification
 
 Leptin was identified in 1994 by Jeffrey Friedman and colleagues through positional cloning of the _ob_ gene in mice. The obese (_ob/ob_) and diabetes (_db/db_) mouse strains, first described in 1950, carry homozygous mutations in the leptin gene and leptin receptor gene, respectively. Leptin deficiency in _ob/ob_ mice produces hyperphagia, morbid obesity, insulin resistance, and infertility, all of which are reversed by exogenous leptin administration. This discovery established adipose tissue as an endocrine organ communicating nutritional status to the central nervous system.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Scorpion Toxin Kv1.3 Therapy
-
 ## Overview
 
 Therapeutic potential of Kv1.3-blocking scorpion toxins for autoimmune diseases.

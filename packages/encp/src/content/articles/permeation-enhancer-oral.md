@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Permeation Enhancer Oral
-
 ## Overview
 
 Chemical permeation enhancers increasing intestinal peptide absorption.

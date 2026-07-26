@@ -10,8 +10,6 @@ difficulty: "beginner"
 relatedArticles: []
 ---
 
-# Buprenorphine Partial Agonist
-
 ## Overview
 
 Semi-synthetic partial mu-agonist and kappa-antagonist for addiction treatment.

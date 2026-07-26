@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cecropin B
-
 ## Overview
 
 AMP from Hyalophora cecropia with potent gram-negative and some antifungal activity.

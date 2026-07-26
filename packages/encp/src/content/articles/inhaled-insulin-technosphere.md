@@ -10,8 +10,6 @@ difficulty: "advanced"
 relatedArticles: []
 ---
 
-# Inhaled Insulin Technosphere
-
 ## Overview
 
 Pulmonary insulin delivery using fumaryl diketopiperamine microparticles for rapid-onset prandial glucose control.

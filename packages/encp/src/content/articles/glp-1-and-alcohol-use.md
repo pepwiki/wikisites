@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# GLP-1 and Alcohol Use
-
 ## Overview
 
 Emerging evidence for effects on alcohol craving and potential alcohol use disorder treatment.

@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Cone Venom Analgesic Peptides
-
 ## Overview
 
 Conotoxins with potent analgesic activity for chronic pain treatment.

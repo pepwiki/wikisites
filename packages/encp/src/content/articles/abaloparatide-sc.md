@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Abaloparatide SC
-
 ## Overview
 
 PTHrP(1-34) analog for postmenopausal osteoporosis with preferential PTH1R anabolic activation.

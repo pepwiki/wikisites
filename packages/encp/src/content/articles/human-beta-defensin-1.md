@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Human Beta-Defensin 1
-
 ## Overview
 
 Constitutively expressed epithelial defensin providing innate defense at mucosal surfaces.

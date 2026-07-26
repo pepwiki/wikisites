@@ -10,8 +10,6 @@ difficulty: "intermediate"
 relatedArticles: []
 ---
 
-# Egg White Peptides
-
 ## Overview
 
 Egg White Peptides is a bioactive peptide with well-characterized properties and therapeutic applications.
